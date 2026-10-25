@@ -84,6 +84,7 @@ exclude:
   - compose.yaml
   - specs/
   - deck/
+  - outils/
   - vendor/
   - Gemfile
   - Gemfile.lock
