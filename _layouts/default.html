@@ -3,7 +3,7 @@
 {%- assign T = site.data.i18n[lang] -%}
 {%- assign A = site.data.i18n[T.autre_code] -%}
 {%- comment -%}
-  Page équivalente dans l'autre langue : pour les entrées et les dossiers, même identifiant de
+  Page équivalente dans l'autre langue : pour les entrées, les dossiers et les voitures, même identifiant de
   fichier dans la collection de l'autre langue ; pour les autres pages, front matter « traduction ».
 {%- endcomment -%}
 {%- assign alt = nil -%}
@@ -15,6 +15,9 @@
   {%- elsif page.collection == T.collection_dossiers -%}
     {%- assign url_alt = A.url.dossiers | append: seg | append: "/" -%}
     {%- assign alt = site[A.collection_dossiers] | where: "url", url_alt | first -%}
+  {%- elsif page.collection == T.collection_voitures -%}
+    {%- assign url_alt = A.url.voitures | append: seg | append: "/" -%}
+    {%- assign alt = site[A.collection_voitures] | where: "url", url_alt | first -%}
   {%- endif -%}
   {%- if alt -%}{%- assign alt_url = alt.url -%}{%- endif -%}
 {%- elsif page.traduction -%}
@@ -44,6 +47,7 @@
         {%- if page.url == s.url -%}{%- assign actif = true -%}{%- endif -%}
         {%- if s.url == T.url.dossiers and page.collection == T.collection_dossiers -%}{%- assign actif = true -%}{%- endif -%}
         {%- if s.url == T.url.accueil and page.collection == T.collection_entrees -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if s.url == T.url.voitures and page.collection == T.collection_voitures -%}{%- assign actif = true -%}{%- endif -%}
         <a href="{{ s.url | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ s.nom }}</a>
       {%- endfor -%}
       <a class="langue" href="{{ alt_url | default: A.url.accueil | relative_url }}" hreflang="{{ T.autre_code }}" lang="{{ T.autre_code }}">{{ T.autre_nom }}</a>
