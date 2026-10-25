@@ -104,7 +104,7 @@ function vignette(s, id, x, y, w, h) {
 }
 function footer(s, keys) {
   const parts = keys.length ? ["Sources : " + keys.map(k => SRC[k][0]).join(" · ")] : [];
-  for (const c of s.photos || []) parts.push(`Photo : ${c.auteur} (${c.licence}, Wikimedia Commons)`);
+  for (const c of s.photos || []) parts.push(`Photo : ${c.auteur} (${c.licence}, Wikimedia Commons), recadrée et passée en noir et blanc`);
   if (s.groupePhotos) parts.push("Photos : crédits diapositive 21");
   const t = parts.join(" · ");
   s.addText(t, { x: M, y: 7.0, w: W - 2 * M - 0.8, h: 0.3, fontFace: FS, fontSize: 9, color: C.sub, italic: true });
@@ -112,7 +112,7 @@ function footer(s, keys) {
 function notes(s, { idee, faits, nuance, sources, photos }) {
   if (photos) s.photos = Object.values(CREDITS);
   const src = (sources || []).map(k => `- ${SRC[k][0]} : ${SRC[k][1]}`)
-    .concat((s.photos || []).map(c => `- Photo : ${c.auteur}, ${c.licence} : ${c.source}`)).join("\n");
+    .concat((s.photos || []).map(c => `- Photo : ${c.auteur}, ${c.licence} : ${c.source} (recadrée et passée en noir et blanc)`)).join("\n");
   s.addNotes(
     `IDÉE À DÉFENDRE\n${idee}\n\nFAITS\n${faits.map(f => "- " + f).join("\n")}\n\nNUANCE HISTORIOGRAPHIQUE\n${nuance}` +
     (src ? `\n\nSOURCES\n${src}\n${CONSULT}` : "")
@@ -642,7 +642,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   s.addText("Crédits photographiques (Wikimedia Commons)", { x: 6.6, y: 1.9, w: 6.1, h: 0.4, fontFace: F, fontSize: 16, bold: true, color: C.ink });
   s.addText(Object.entries(CREDITS).sort((a, b) => RANK.findIndex(r => idOf(r[0]) === a[0]) - RANK.findIndex(r => idOf(r[0]) === b[0]))
     .map(([id, c]) => ({ text: `${nomDe(id)} : ${c.auteur}, ${c.licence}`, options: { breakLine: true } })),
-    { x: 6.6, y: 2.35, w: 6.1, h: 3.9, fontFace: F, fontSize: 12, color: C.ink, valign: "top", paraSpaceAfter: 3 });
+    { x: 6.6, y: 2.35, w: 6.1, h: 3.3, fontFace: F, fontSize: 12, color: C.ink, valign: "top", paraSpaceAfter: 3 });
+  s.addText("Modifications : images recadrées et passées en noir et blanc pour cette présentation. Les versions modifiées des images sous licence CC BY-SA ou Art Libre sont diffusées sous la même licence que l'original.",
+    { x: 6.6, y: 5.55, w: 6.1, h: 0.7, fontFace: FS, fontSize: 11, italic: true, color: C.sub, valign: "top" });
   s.addText("Bibliographie complète, avec les adresses : notes du présentateur (.pptx) et s-geffroy.github.io/f1-eng", { x: M, y: 6.4, w: W - 2 * M, h: 0.4, fontFace: FS, fontSize: 13, italic: true, color: C.sub });
   notes(s, {
     idee: "Toutes les attributions sensibles reposent sur des sources officielles ou des publications historiques reconnues.",

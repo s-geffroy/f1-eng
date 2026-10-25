@@ -24,7 +24,8 @@ layout: default
         {%- if page.portrait.legende %}<span class="portrait-legende">{{ page.portrait.legende }}</span>{% endif %}
         <span class="portrait-credit">Photo : {{ page.portrait.auteur }},
           {% if page.portrait.licence_url %}<a href="{{ page.portrait.licence_url }}">{{ page.portrait.licence }}</a>{% else %}{{ page.portrait.licence }}{% endif %},
-          <a href="{{ page.portrait.source }}">Wikimedia Commons</a>.</span>
+          <a href="{{ page.portrait.source }}">Wikimedia Commons</a>.
+          Affichée en noir et blanc.</span>
       </figcaption>
     </figure>
     {%- endif %}
