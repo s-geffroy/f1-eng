@@ -200,9 +200,10 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 
 /* ---------- Index (accueil) ---------- */
 
-.ouverture { margin-bottom: 3.5rem; max-width: 48rem; }
-.ouverture h1 { font-size: clamp(2.75rem, 8vw, 5rem); font-weight: 700; line-height: 0.98; margin: 0 0 1.25rem; }
-.ouverture p { max-width: var(--colonne); margin: 0 0 0.75rem; }
+/* Titre et introduction sur toute la largeur, pour tenir sur le moins de lignes possible */
+.ouverture { margin-bottom: 3.5rem; }
+.ouverture h1 { font-size: clamp(2.25rem, 5.4vw, 4.125rem); font-weight: 700; line-height: 0.98; margin: 0 0 1.25rem; }
+.ouverture p { margin: 0 0 0.75rem; }
 .ouverture-depart { color: var(--mine); }
 
 .index-tete {
