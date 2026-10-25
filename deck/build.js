@@ -87,13 +87,30 @@ function portrait(s, id, x, y, w, h) {
   s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { type: "none" }, line: { color: C.ink, width: 2 } });
   (s.photos = s.photos || []).push(c);
 }
+// Vignette de diapositive de groupe : le portrait s'il existe, sinon une case neutre
+// avec les initiales (aucun portrait libre de droits connu).
+const idOf = nom => nom.toLowerCase().replace(/ /g, "-");
+function vignette(s, id, x, y, w, h) {
+  if (CREDITS[id]) {
+    s.addImage({ path: path.join(PORTRAITS, id + ".jpg"), x, y, w, h });
+    s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { type: "none" }, line: { color: C.ink, width: 1.25 } });
+    s.groupePhotos = true;
+  } else {
+    const parts = id.split("-"), ini = (parts[0][0] + parts[parts.length - 1][0]).toUpperCase(); // prénom + nom
+    s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: C.light }, line: { color: C.rule, width: 1 } });
+    // zone de texte plus large que la case : les marges internes ne coupent pas les initiales
+    s.addText(ini, { x: x - 0.3, y, w: w + 0.6, h, fontFace: F, fontSize: Math.max(8, Math.round(Math.min(h * 22, w * 36))), bold: true, color: C.sub, align: "center", valign: "middle" });
+  }
+}
 function footer(s, keys) {
   const parts = keys.length ? ["Sources : " + keys.map(k => SRC[k][0]).join(" · ")] : [];
   for (const c of s.photos || []) parts.push(`Photo : ${c.auteur} (${c.licence}, Wikimedia Commons)`);
+  if (s.groupePhotos) parts.push("Photos : crédits diapositive 21");
   const t = parts.join(" · ");
   s.addText(t, { x: M, y: 7.0, w: W - 2 * M - 0.8, h: 0.3, fontFace: FS, fontSize: 9, color: C.sub, italic: true });
 }
-function notes(s, { idee, faits, nuance, sources }) {
+function notes(s, { idee, faits, nuance, sources, photos }) {
+  if (photos) s.photos = Object.values(CREDITS);
   const src = (sources || []).map(k => `- ${SRC[k][0]} : ${SRC[k][1]}`)
     .concat((s.photos || []).map(c => `- Photo : ${c.auteur}, ${c.licence} : ${c.source}`)).join("\n");
   s.addNotes(
@@ -224,10 +241,13 @@ const fr = v => v.toFixed(1).replace(".", ",");
       const [name] = RANK[r * 5 + i];
       const x = 3.2 + i * 1.93;
       s.addShape(pres.shapes.RECTANGLE, { x, y, w: 1.83, h: h - 0.1, fill: { color: r === 0 ? C.A : C.white }, line: { color: col, width: r === 0 ? 0 : 1.5 } });
-      s.addText(name, { x, y, w: 1.83, h: h - 0.1, fontFace: F, fontSize: r === 0 ? 15 : 12, bold: r <= 1, color: r === 0 ? C.white : C.ink, align: "center", valign: "middle" });
+      const vh = h - 0.22, vw = vh * 0.735;
+      vignette(s, idOf(name), x + 0.06, y + 0.06, vw, vh);
+      s.addText(name, { x: x + vw + 0.08, y, w: 1.83 - vw - 0.1, h: h - 0.1, fontFace: F, fontSize: r === 0 ? 15 : 12, bold: r <= 1, color: r === 0 ? C.white : C.ink, align: "center", valign: "middle" });
     }
     y += h + 0.15;
   });
+  footer(s, []);
   notes(s, {
     idee: "Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires majeures.",
     faits: ["Tier A : changement durable de la grammaire technique, « avant / après », diffusion à tout le plateau, causalité personnelle documentée.", "Tier B : au moins une limite (attribution plus collective, portée plus spécialisée, durée plus courte, dépendance réglementaire).", "Tiers C et D : contribution majeure, mais moins paradigmatique ou moins exclusive."],
@@ -240,14 +260,16 @@ const fr = v => v.toFixed(1).replace(".", ",");
 {
   const s = newSlide(6);
   title(s, "Cinq questions qui ont changé la F1", "Tier A — la thèse");
-  const q = [["Cooper", "Où placer le moteur ?"], ["Chapman", "Comment construire la voiture ?"], ["Duckworth", "Comment intégrer le moteur ?"], ["Barnard", "Avec quels matériaux et interfaces ?"], ["Newey", "Comment optimiser le système aérodynamique complet ?"]];
-  q.forEach(([n, t], i) => {
+  const q = [["Cooper", "john-cooper", "Où placer le moteur ?"], ["Chapman", "colin-chapman", "Comment construire la voiture ?"], ["Duckworth", "keith-duckworth", "Comment intégrer le moteur ?"], ["Barnard", "john-barnard", "Avec quels matériaux et interfaces ?"], ["Newey", "adrian-newey", "Comment optimiser le système aérodynamique complet ?"]];
+  q.forEach(([n, id, t], i) => {
     const y = 1.95 + i * 0.95;
     s.addText(String(i + 1), { x: M, y, w: 0.6, h: 0.75, fontFace: F, fontSize: 28, bold: true, color: C.A, valign: "middle" });
-    s.addText(n, { x: M + 0.7, y, w: 2.6, h: 0.75, fontFace: F, fontSize: 20, bold: true, color: C.ink, valign: "middle" });
+    vignette(s, id, M + 0.55, y + 0.02, 0.52, 0.71);
+    s.addText(n, { x: M + 1.25, y, w: 2.05, h: 0.75, fontFace: F, fontSize: 20, bold: true, color: C.ink, valign: "middle" });
     s.addText(t, { x: M + 3.4, y, w: 8.4, h: 0.75, fontFace: F, fontSize: 20, color: C.ink, valign: "middle" });
     if (i < 4) s.addShape(pres.shapes.LINE, { x: M, y: y + 0.85, w: W - 2 * M, h: 0, line: { color: C.rule, width: 0.75 } });
   });
+  footer(s, []);
   notes(s, {
     idee: "Chaque membre du Tier A a transformé une question fondamentale de la conception d'une F1. C'est la clé intellectuelle du deck.",
     faits: ["Cooper : position des organes fondamentaux (moteur central-arrière).", "Chapman : architecture de la monoplace (monocoque, moteur structurel, aéro, effet de sol).", "Duckworth : intégration et fourniture du groupe propulseur (DFV).", "Barnard : matériaux et interfaces (carbone, boîte semi-automatique).", "Newey : optimisation de l'ensemble comme système aérodynamique."],
@@ -414,16 +436,17 @@ const fr = v => v.toFixed(1).replace(".", ",");
 {
   const s = newSlide(13);
   title(s, "Tier B : cinq transformateurs systémiques", "Rangs 6 à 10");
-  const cards = [["Dudot", "Propulsion"], ["Murray", "Architecture radicale"], ["Forghieri", "Ingénierie totale"], ["Wright", "Effet de sol"], ["Dernie", "Révolution numérique silencieuse"]];
-  cards.forEach(([n, t], i) => {
+  const cards = [["Dudot", "bernard-dudot", "Propulsion"], ["Murray", "gordon-murray", "Architecture radicale"], ["Forghieri", "mauro-forghieri", "Ingénierie totale"], ["Wright", "peter-wright", "Effet de sol"], ["Dernie", "frank-dernie", "Révolution numérique silencieuse"]];
+  cards.forEach(([n, id, t], i) => {
     const x = M + i * 2.45;
-    s.addShape(pres.shapes.RECTANGLE, { x, y: 2.1, w: 2.25, h: 3.0, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
-    s.addShape(pres.shapes.RECTANGLE, { x, y: 2.1, w: 2.25, h: 0.08, fill: { color: C.B }, line: { color: C.B } });
-    s.addText(String(i + 6), { x, y: 2.3, w: 2.25, h: 0.6, fontFace: F, fontSize: 24, bold: true, color: C.B, align: "center" });
-    s.addText(n, { x, y: 2.95, w: 2.25, h: 0.6, fontFace: F, fontSize: 20, bold: true, color: C.ink, align: "center" });
-    s.addText(t, { x: x + 0.1, y: 3.6, w: 2.05, h: 1.2, fontFace: F, fontSize: 15, color: C.sub, align: "center", valign: "top" });
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.85, w: 2.25, h: 3.75, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.85, w: 2.25, h: 0.08, fill: { color: C.B }, line: { color: C.B } });
+    vignette(s, id, x + (2.25 - 1.0) / 2, 2.05, 1.0, 1.36);
+    s.addText(String(i + 6), { x, y: 3.45, w: 2.25, h: 0.45, fontFace: F, fontSize: 22, bold: true, color: C.B, align: "center" });
+    s.addText(n, { x, y: 3.85, w: 2.25, h: 0.5, fontFace: F, fontSize: 20, bold: true, color: C.ink, align: "center" });
+    s.addText(t, { x: x + 0.1, y: 4.35, w: 2.05, h: 1.1, fontFace: F, fontSize: 15, color: C.sub, align: "center", valign: "top" });
   });
-  s.addText("Face au Tier A : attribution plus collective, portée plus spécialisée ou diffusion inégale.", { x: M, y: 5.5, w: W - 2 * M, h: 0.7, fontFace: FS, fontSize: 15, italic: true, color: C.ink, align: "center" });
+  s.addText("Face au Tier A : attribution plus collective, portée plus spécialisée ou diffusion inégale.", { x: M, y: 5.8, w: W - 2 * M, h: 0.7, fontFace: FS, fontSize: 15, italic: true, color: C.ink, align: "center" });
   footer(s, ["renault", "murray", "f312t", "lotus79", "msDernie"]);
   notes(s, {
     idee: "Le Tier B transforme durablement un domaine central de la F1, avec une limite par rapport au Tier A.",
@@ -464,8 +487,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
     const x = M + i * 6.15;
     s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w: 5.9, h: 3.4, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
     s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w: 0.08, h: 3.4, fill: { color: TIER[t] }, line: { color: TIER[t] } });
-    s.addText(n, { x: x + 0.4, y: 2.1, w: 5.3, h: 0.7, fontFace: F, fontSize: 24, bold: true, color: C.ink });
-    s.addText(items.map(it => ({ text: it, options: { bullet: true, breakLine: true } })), { x: x + 0.4, y: 2.9, w: 5.3, h: 2.2, fontFace: F, fontSize: 18, color: C.ink, valign: "top", paraSpaceAfter: 6 });
+    s.addText(n, { x: x + 0.4, y: 2.1, w: 3.5, h: 0.7, fontFace: F, fontSize: 24, bold: true, color: C.ink });
+    vignette(s, idOf(n), x + 5.9 - 0.25 - 1.6, 2.1, 1.6, 2.18);
+    s.addText(items.map(it => ({ text: it, options: { bullet: true, breakLine: true } })), { x: x + 0.4, y: 2.9, w: 3.5, h: 2.2, fontFace: F, fontSize: 18, color: C.ink, valign: "top", paraSpaceAfter: 6 });
   });
   s.addText("Une révolution technique peut transformer le processus sans être visible sur la carrosserie.", { x: M, y: 5.7, w: W - 2 * M, h: 0.6, fontFace: FS, fontSize: 18, italic: true, color: C.ink, align: "center" });
   footer(s, ["msDernie", "brawn"]);
@@ -516,12 +540,14 @@ const fr = v => v.toFixed(1).replace(".", ",");
     [20, "Rory Byrne", "Intégration", "Benetton, Ferrari", "Pas de rupture unique paradigmatique"],
   ];
   const hdr = { bold: true, color: C.white, fill: { color: C.ink } };
-  const rows = [["Rang", "Ingénieur", "Domaine", "Raison du classement", "Limite"].map(t => ({ text: t, options: hdr }))];
+  const rows = [["Rang", "", "Ingénieur", "Domaine", "Raison du classement", "Limite"].map(t => ({ text: t, options: hdr }))];
   data.forEach(r => {
     const col = r[0] <= 15 ? C.Cc : C.D;
-    rows.push([{ text: String(r[0]), options: { bold: true, color: C.white, fill: { color: col }, align: "center" } }, { text: r[1], options: { bold: true } }, { text: r[2] }, { text: r[3] }, { text: r[4] }]);
+    rows.push([{ text: String(r[0]), options: { bold: true, color: C.white, fill: { color: col }, align: "center" } }, { text: "" }, { text: r[1], options: { bold: true } }, { text: r[2] }, { text: r[3] }, { text: r[4] }]);
   });
-  s.addTable(rows, { x: M, y: 1.8, w: W - 2 * M, colW: [0.7, 2.4, 2.0, 3.5, 3.533], fontFace: F, fontSize: 12, color: C.ink, fill: { color: C.white }, border: { type: "solid", color: C.rule, pt: 0.75 }, rowH: 0.43 });
+  const rowH = 0.43, colW = [0.7, 0.42, 2.3, 1.9, 3.4, 3.413];
+  s.addTable(rows, { x: M, y: 1.8, w: W - 2 * M, colW, fontFace: F, fontSize: 12, color: C.ink, fill: { color: C.white }, border: { type: "solid", color: C.rule, pt: 0.75 }, rowH });
+  data.forEach((r, i) => vignette(s, idOf(r[1]), M + colW[0] + 0.05, 1.8 + rowH * (i + 1) + 0.04, 0.32, rowH - 0.08));
   footer(s, ["fw15c", "brawn", "f1990", "d50", "msT51"]);
   notes(s, {
     idee: "Les tiers C et D réunissent des contributions majeures, mais moins paradigmatiques ou moins exclusives. Pas de slide individuelle : le tableau suffit.",
@@ -610,13 +636,20 @@ const fr = v => v.toFixed(1).replace(".", ",");
   const s = newSlide(21);
   title(s, "Sources principales", "Consultées le 9 août 2026");
   const keys = ["innov", "f175", "lotus79", "barnard", "fw15c", "type25", "mp41", "renault", "msT51", "msDernie"];
-  s.addText(keys.map(k => ({ text: SRC[k][0], options: { bullet: true, breakLine: true } })), { x: M, y: 1.9, w: W - 2 * M, h: 4.4, fontFace: F, fontSize: 17, color: C.ink, valign: "top", paraSpaceAfter: 4 });
+  s.addText(keys.map(k => ({ text: SRC[k][0], options: { bullet: true, breakLine: true } })), { x: M, y: 1.9, w: 5.6, h: 4.4, fontFace: F, fontSize: 17, color: C.ink, valign: "top", paraSpaceAfter: 4 });
+  // Crédits photographiques (licences CC : auteur et licence pour chaque portrait)
+  const nomDe = id => RANK.map(r => r[0]).find(n => idOf(n) === id) || id;
+  s.addText("Crédits photographiques (Wikimedia Commons)", { x: 6.6, y: 1.9, w: 6.1, h: 0.4, fontFace: F, fontSize: 16, bold: true, color: C.ink });
+  s.addText(Object.entries(CREDITS).sort((a, b) => RANK.findIndex(r => idOf(r[0]) === a[0]) - RANK.findIndex(r => idOf(r[0]) === b[0]))
+    .map(([id, c]) => ({ text: `${nomDe(id)} : ${c.auteur}, ${c.licence}`, options: { breakLine: true } })),
+    { x: 6.6, y: 2.35, w: 6.1, h: 3.9, fontFace: F, fontSize: 12, color: C.ink, valign: "top", paraSpaceAfter: 3 });
   s.addText("Bibliographie complète, avec les adresses : notes du présentateur (.pptx) et s-geffroy.github.io/f1-eng", { x: M, y: 6.4, w: W - 2 * M, h: 0.4, fontFace: FS, fontSize: 13, italic: true, color: C.sub });
   notes(s, {
     idee: "Toutes les attributions sensibles reposent sur des sources officielles ou des publications historiques reconnues.",
     faits: ["Priorité aux sources officielles des constructeurs et de Formula 1.", "Aucune attribution controversée importante ne repose sur une seule source."],
     nuance: "Images : aucune photo n'est intégrée au deck ; toute image ajoutée doit faire l'objet d'une vérification des droits.",
     sources: Object.keys(SRC),
+    photos: true,
   });
 }
 
