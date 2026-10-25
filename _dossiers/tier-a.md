@@ -29,7 +29,7 @@ Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapm
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, fut interdite), conçue avec Steve Nichols et Alan Jenkins, et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, fut interdite), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 

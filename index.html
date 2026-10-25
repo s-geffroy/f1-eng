@@ -7,7 +7,7 @@ description: Encyclopédie des vingt ingénieurs qui ont le plus transformé la 
 {%- assign lettres = entrees | group_by_exp: "e", "e.nom_tri | slice: 0" -%}
 <section class="ouverture">
   <h1>Les ingénieurs qui ont changé la Formule 1</h1>
-  <p>Vingt ingénieurs, classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès. Chaque entrée précise ce qui revient à chacun dans des innovations souvent collectives.</p>
+  <p>Vingt ingénieurs, classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès. Chaque entrée précise ce qui revient à chacun dans des innovations souvent collectives. Les entrées marquées HC, hors classement, documentent d'autres acteurs de ces innovations.</p>
   <p class="ouverture-depart">Pour comprendre le classement, commencez par <a href="{{ '/dossiers/methode/' | relative_url }}">la méthode</a>. La présentation complète est aussi disponible en <a href="{{ '/assets/docs/ingenieurs-revolutionnaires-F1.pdf' | relative_url }}" download>PDF (21 diapositives)</a>.</p>
 </section>
 
@@ -35,6 +35,7 @@ description: Encyclopédie des vingt ingénieurs qui ont le plus transformé la 
         {%- for t in site.data.tiers %}
         <button type="button" data-tier="{{ t.id }}" aria-pressed="false" title="{{ t.nom }}">{{ t.id }}</button>
         {%- endfor %}
+        <button type="button" data-tier="HC" aria-pressed="false" title="Hors classement">HC</button>
       </div>
     </fieldset>
     <div class="filtre filtre-domaine">
@@ -54,13 +55,18 @@ description: Encyclopédie des vingt ingénieurs qui ont le plus transformé la 
     <h3 class="lettre">{{ g.name | upcase }}</h3>
     <ul>
       {%- for e in g.items %}
-      <li data-tier="{{ e.tier }}" data-domaine="{{ e.domaine }}" data-texte="{{ e.title }} {{ e.nom_complet }} {{ e.domaine }} {{ e.accroche }} {{ e.content | strip_html | normalize_whitespace | escape }}">
+      <li data-tier="{{ e.tier | default: 'HC' }}" data-domaine="{{ e.domaine }}" data-texte="{{ e.title }} {{ e.nom_complet }} {{ e.domaine }} {{ e.accroche }} {{ e.content | strip_html | normalize_whitespace | escape }}">
         <a class="ligne" href="{{ e.url | relative_url }}">
           <span class="ligne-nom">{{ e.title }}</span>
           <span class="ligne-conduite" aria-hidden="true"></span>
           <span class="ligne-domaine">{{ e.domaine }}</span>
+          {%- if e.rang %}
           <span class="ligne-tier" data-tier="{{ e.tier }}" title="Tier {{ e.tier }}">{{ e.tier }}</span>
           <span class="ligne-score">{{ e.score }}</span>
+          {%- else %}
+          <span class="ligne-tier" data-tier="HC" title="Hors classement">HC</span>
+          <span class="ligne-score" aria-hidden="true">—</span>
+          {%- endif %}
         </a>
       </li>
       {%- endfor %}

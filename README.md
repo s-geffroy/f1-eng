@@ -117,6 +117,16 @@ image: "/assets/partage/<id>.png" # carte de partage
 redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 ```
 
+### Entrees hors classement
+
+Une entree **sans** `rang:`, `tier:` ni `score:` est hors classement (HC) :
+cartouche « Hors classement », marque HC dans l'index (filtre dedie), absente
+de la page Tiers et de la suite « rang precedent / suivant », carte de partage
+adaptee. Elle documente un acteur cite par les entrees classees, avec les memes
+exigences de sources ; le classement des vingt n'en est pas modifie. Champ
+`consultation:` pour la date de consultation des sources si elle differe du
+9 aout 2026.
+
 ### Regles de contenu
 
 - Le contenu publie s'ecrit en francais normal, avec ses accents.

@@ -173,6 +173,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .cartouche[data-tier="C"] .case-tier { background: var(--tier-c); }
 .cartouche[data-tier="D"] .case-tier { background: var(--tier-d); color: var(--graphite); }
 .case-large dd { font-weight: 500; }
+.case-hc dd { font-size: 1.5rem; font-weight: 700; }
 .case-note dd { font-family: var(--texte); font-size: 0.875rem; font-weight: 400; line-height: 1.45; color: var(--mine); }
 
 /* Portrait : une vue encadrée comme sur un plan, en noir et blanc pour unifier des photos
@@ -290,6 +291,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .ligne-tier[data-tier="B"] { background: var(--tier-b); }
 .ligne-tier[data-tier="C"] { background: var(--tier-c); }
 .ligne-tier[data-tier="D"] { background: var(--tier-d); color: var(--graphite); }
+.ligne-tier[data-tier="HC"] { background: transparent; color: var(--graphite); box-shadow: inset 0 0 0 var(--trait-fin) var(--graphite); font-size: 0.8125rem; width: auto; min-width: 1.6rem; padding-inline: 0.15rem; }
 .ligne-score {
   grid-column: 5; text-align: right;
   font-family: var(--titre); font-size: 1.25rem; font-weight: 600;

@@ -47,7 +47,7 @@ Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'
 ## Lotus
 
 - Entré chez Group Lotus en 1969, il fait de Lotus Engineering un grand prestataire de recherche pour les constructeurs automobiles.
-- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit Ralph Bellamy, Wright et Martin Ogilvie. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du De Havilland Mosquito.
+- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), Wright et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}). Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du De Havilland Mosquito.
 
 ## Pourquoi derrière Wright
 

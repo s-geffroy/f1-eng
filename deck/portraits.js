@@ -18,6 +18,7 @@ const VISAGE = {
   "rory-byrne": [0.66, 0.08, 0.30],     // à droite, devant la Ferrari
   "tony-rudd": [0.22, 0.04, 0.52],
   "vittorio-jano": [0.17, 0.01, 0.33],  // debout devant l'Alfa Romeo P2
+  "john-crosthwaite": [0.386, 0.28, 0.14], // au centre, chiffon à la main, 1957
 };
 
 function lirePortrait(id) {

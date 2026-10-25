@@ -2,14 +2,17 @@
 layout: default
 ---
 {%- assign nom = page.title | split: ", " -%}
-{%- assign par_rang = site.ingenieurs | sort: "rang" -%}
-{%- for e in par_rang -%}
-  {%- if e.rang == page.rang -%}
-    {%- assign i = forloop.index0 -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- assign i_prec = i | minus: 1 -%}
-{%- assign i_suiv = i | plus: 1 -%}
+{%- comment -%} Seules les entrées classées (avec un rang) forment la suite « rang précédent / suivant ». {%- endcomment -%}
+{%- assign par_rang = site.ingenieurs | where_exp: "e", "e.rang" | sort: "rang" -%}
+{%- if page.rang -%}
+  {%- for e in par_rang -%}
+    {%- if e.rang == page.rang -%}
+      {%- assign i = forloop.index0 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign i_prec = i | minus: 1 -%}
+  {%- assign i_suiv = i | plus: 1 -%}
+{%- endif -%}
 <article class="entree">
   <header class="entree-tete">
     <h1 class="vedette"><span class="vedette-nom">{{ nom[0] }}</span>, <span class="vedette-prenom">{{ nom[1] }}</span></h1>
@@ -29,11 +32,15 @@ layout: default
       </figcaption>
     </figure>
     {%- endif %}
-    <dl class="cartouche" data-tier="{{ page.tier }}">
+    <dl class="cartouche" data-tier="{{ page.tier | default: 'HC' }}">
+      {%- if page.rang %}
       <div class="case case-rang"><dt>Rang</dt><dd>{{ page.rang }}</dd></div>
       <div class="case case-tier"><dt>Tier</dt><dd><a href="{{ '/tiers/' | relative_url }}#tier-{{ page.tier | downcase }}">{{ page.tier }}</a></dd></div>
       <div class="case case-score"><dt>Score</dt><dd>{{ page.score }}<span class="sur">/100</span></dd></div>
       <div class="case case-confiance"><dt>Confiance</dt><dd>{{ page.confiance }}</dd></div>
+      {%- else %}
+      <div class="case case-large case-hc"><dt>Classement</dt><dd>Hors classement</dd></div>
+      {%- endif %}
       <div class="case case-large"><dt>Domaine</dt><dd>{{ page.domaine }}</dd></div>
       {%- if page.lignees.size > 0 %}
       <div class="case case-large"><dt>Lignées</dt><dd>
@@ -50,7 +57,11 @@ layout: default
         {%- endfor -%}
       </dd></div>
       {%- endif %}
+      {%- if page.rang %}
       <div class="case case-large case-note"><dt>Lecture du score</dt><dd>Un instrument comparatif : un écart de 1 ou 2 points n'est pas significatif. <a href="{{ '/dossiers/methode/' | relative_url }}">Voir la méthode</a>.</dd></div>
+      {%- else %}
+      <div class="case case-large case-note"><dt>Lecture</dt><dd>Une entrée hors classement documente une contribution sans la noter : le classement des vingt reste celui de la <a href="{{ '/dossiers/methode/' | relative_url }}#hors-classement">méthode</a>.</dd></div>
+      {%- endif %}
     </dl>
 
     {%- if page.sources.size > 0 %}
@@ -61,7 +72,7 @@ layout: default
         <li><a href="{{ s.url }}">{{ s.titre }}</a></li>
         {%- endfor %}
       </ol>
-      <p>Consultées le 9 août 2026.</p>
+      <p>Consultées le {{ page.consultation | default: "9 août 2026" }}.</p>
     </section>
     {%- endif %}
   </aside>
@@ -70,6 +81,7 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.rang %}
   <nav class="suite" aria-label="Entrées voisines dans le classement">
     {%- if i_prec >= 0 -%}
       {%- assign e = par_rang[i_prec] -%}
@@ -80,4 +92,5 @@ layout: default
       <a class="suite-suiv" href="{{ e.url | relative_url }}"><span>Rang {{ e.rang }}</span> {{ e.title }}</a>
     {%- endif -%}
   </nav>
+  {%- endif %}
 </article>

@@ -41,7 +41,7 @@ Head cesse ensuite de dessiner lui-même les voitures et crée le poste de **dir
 
 Après l'arrivée d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) en 1990, le binôme Head–Newey domine : de 1991 à 1997, Williams remporte 59 courses, cinq titres constructeurs et quatre titres pilotes. La FW15C de 1993 est conçue sous leur codirection technique.
 
-En 2004, Sam Michael devient directeur technique et Head prend le poste de directeur de l'ingénierie. Il quitte le conseil d'administration de Williams le 31 décembre 2011.
+En 2004, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}) devient directeur technique et Head prend le poste de directeur de l'ingénierie. Il quitte le conseil d'administration de Williams le 31 décembre 2011.
 
 ## Son rôle dans l'écosystème Williams
 

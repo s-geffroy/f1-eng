@@ -58,7 +58,7 @@ L'histoire de la F1 aime les héros isolés. Une même révolution mobilise pour
 
 La règle est simple : **on ne crédite pas intégralement plusieurs personnes de la même contribution.** Quatre cas illustrent la difficulté.
 
-**L'effet de sol Lotus.** Peter Wright et Tony Rudd avaient travaillé sur le concept chez BRM. Chez Lotus, Colin Chapman leur demande de repenser la configuration fondamentale de la F1 ; la soufflerie débouche sur la Lotus 78, avec aussi Ralph Bellamy et Tony Southgate dans la conception. Chapman a dirigé et catalysé le programme qui a rendu l'effet de sol opératoire et dominant ; il ne l'a pas inventé.
+**L'effet de sol Lotus.** Peter Wright et Tony Rudd avaient travaillé sur le concept chez BRM. Chez Lotus, Colin Chapman leur demande de repenser la configuration fondamentale de la F1 ; la soufflerie débouche sur la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) au développement. Chapman a dirigé et catalysé le programme qui a rendu l'effet de sol opératoire et dominant ; il ne l'a pas inventé.
 
 **Cooper.** John Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.
 
@@ -69,6 +69,11 @@ La règle est simple : **on ne crédite pas intégralement plusieurs personnes d
 ## Ce que donne la méthode
 
 Elle produit quatre tiers : cinq révolutionnaires de paradigme (Tier A), puis quinze ingénieurs qui ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.
+
+## Entrées hors classement
+{: #hors-classement}
+
+Les innovations collectives font intervenir bien d'autres ingénieurs que les vingt du classement. Quand l'un d'eux est cité dans une entrée, il peut avoir sa propre entrée, marquée **HC** dans l'index. Une entrée hors classement documente une contribution, avec les mêmes exigences de sources ; elle ne reçoit ni rang, ni tier, ni score, et ne modifie pas le classement des vingt.
 
 ## Sources
 

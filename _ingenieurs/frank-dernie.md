@@ -37,7 +37,7 @@ Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosser
 
 ## Attribution
 
-La suspension active Williams est le fruit d'une chaîne d'ingénieurs : [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) et d'autres. Dernie lui-même décrit la répartition : Steve Wise pour le matériel, Paddy Lowe pour la programmation.
+La suspension active Williams est le fruit d'une chaîne d'ingénieurs : [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) et d'autres. Dernie lui-même décrit la répartition : [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) pour le matériel, Paddy Lowe pour la programmation.
 
 La formulation juste : **Dernie est un acteur pionnier de l'ingénierie numérique et le concepteur du premier système Williams de suspension active, au sein d'une équipe.**
 

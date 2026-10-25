@@ -50,7 +50,7 @@ Plus tard, comme consultant chez Ferrari, Jano dessine encore un V6 de 1,5 litre
 
 ## Attribution
 
-La paternité de la D50 est discutée. L'ingénieur moteur Ettore Zaccone Mina affirme qu'aucune personne n'est seule responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**
+La paternité de la D50 est discutée. L'ingénieur moteur [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}) affirme qu'aucune personne n'est seule responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**
 
 ## Pourquoi le Tier D
 

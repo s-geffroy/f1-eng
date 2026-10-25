@@ -12,6 +12,10 @@ domaine: "Matériaux et transmission"
 lignees: ["architecture"]
 voir_aussi: ["colin-chapman"]
 sources:
+  - titre: "GrandPrix.com, « Steve Nichols »"
+    url: "https://www.grandprix.com/gpe/cref-nicste.html"
+  - titre: "GrandPrix.com, « Alan Jenkins »"
+    url: "https://grandprix.com/people/alan-jenkins.html"
   - titre: "McLaren, « MP4/1 »"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
   - titre: "Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations »"
@@ -37,7 +41,7 @@ redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 
 ## 1981 — McLaren MP4/1 : le carbone
 
-La MP4/1 est la première F1 construite autour d'un **monocoque intégral en composite carbone** à courir en Grand Prix. La Lotus 88, présentée quelques semaines plus tôt avec un châssis en carbone, n'a jamais été autorisée à courir. Barnard la conçoit avec Steve Nichols et Alan Jenkins ; la coque est fabriquée par Hercules Aerospace. Les effets touchent tout à la fois :
+La MP4/1 est la première F1 construite autour d'un **monocoque intégral en composite carbone** à courir en Grand Prix. La Lotus 88, présentée quelques semaines plus tôt avec un châssis en carbone, n'a jamais été autorisée à courir. Barnard la conçoit, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) ; la coque est fabriquée par Hercules Aerospace. Les effets touchent tout à la fois :
 
 - la rigidité ;
 - la masse ;

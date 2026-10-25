@@ -114,7 +114,7 @@ function footer(s, keys) {
   s.addText(t, { x: M, y: 7.0, w: W - 2 * M - 0.8, h: 0.3, fontFace: FS, fontSize: 9, color: C.sub, italic: true });
 }
 function notes(s, { idee, faits, nuance, sources, photos }) {
-  if (photos) s.photos = Object.values(CREDITS);
+  if (photos) s.photos = Object.entries(CREDITS).filter(([id]) => RANK.some(r => idOf(r[0]) === id)).map(([, c]) => c);
   const src = (sources || []).map(k => `- ${SRC[k][0]} : ${SRC[k][1]}`)
     .concat((s.photos || []).map(c => `- Photo : ${c.auteur}, ${c.licence} : ${c.source} (recadrée et passée en noir et blanc)`)).join("\n");
   s.addNotes(
@@ -220,7 +220,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   notes(s, {
     idee: "Il faut distribuer le mérite selon le rôle réel : on ne crédite jamais intégralement plusieurs personnes de la même contribution.",
     faits: [
-      "Effet de sol : Wright et Rudd (BRM puis Lotus), Chapman qui fixe la mission ; Bellamy et Southgate interviennent aussi sur la Lotus 78.",
+      "Effet de sol : Wright et Rudd (BRM puis Lotus), Chapman qui fixe la mission ; Bellamy dessine la Lotus 78, Ogilvie ses suspensions, Southgate participe au développement.",
       "Cooper : John Cooper architecte du basculement, Owen Maddock concepteur central des T51/T53.",
       "DFV : réalisation Cosworth, Duckworth figure technique centrale, Costin cofondateur et acteur majeur.",
       "Williams active : Head, Dernie, Lowe, Newey et d'autres.",
@@ -303,7 +303,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   notes(s, {
     idee: "Chapman est n° 1 par l'accumulation de ruptures architecturales, pas par une invention unique.",
     faits: ["Lotus Type 25 : généralisation du monocoque aluminium comme architecture de châssis F1.", "Famille Lotus de la seconde moitié des années 1960 : moteur utilisé comme élément structurel (Lotus 49, avec le DFV) — principe déjà vu sur la Lancia D50, ici imposé comme standard.", "Lancement et direction du programme qui débouche sur l'effet de sol (Lotus 78/79)."],
-    nuance: "Ne pas dire « Chapman a inventé l'effet de sol ». Dire : Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1. Wright et Rudd avaient travaillé le concept chez BRM ; Bellamy et Southgate interviennent aussi.",
+    nuance: "Ne pas dire « Chapman a inventé l'effet de sol ». Dire : Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1. Wright et Rudd avaient travaillé le concept chez BRM ; Bellamy dessine la Lotus 78, avec Ogilvie (suspensions) et Southgate (développement).",
     sources: ["type25", "lotusStory", "lotus79"],
   });
 }
@@ -326,7 +326,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   notes(s, {
     idee: "Barnard porte deux ruptures indépendantes, directement attribuables, toutes deux devenues des standards.",
     faits: ["MP4/1 (1981) : première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, n'a jamais été autorisée à courir) — rigidité, masse, sécurité, industrialisation du composite. Le principe devient universel.", "Ferrari 640 (1989) : boîte semi-automatique commandée au volant — fin progressive du levier en H, moins d'erreurs, mains sur le volant, cockpit plus compact."],
-    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman. La MP4/1 est conçue avec Steve Nichols et Alan Jenkins.",
+    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman. Barnard conçoit la MP4/1 entouré notamment de Steve Nichols et d'Alan Jenkins.",
     sources: ["mp41", "barnard", "f1990", "wp88"],
   });
 }
@@ -517,11 +517,11 @@ const fr = v => v.toFixed(1).replace(".", ",");
     s.addText([{ text: a, options: { bold: true, fontSize: 18, breakLine: true } }, { text: b, options: { fontSize: 13 } }], { x: x + 0.05, y, w: bw - 0.1, h: 1.5, fontFace: F, color: i === 3 ? C.white : C.ink, align: "center", valign: "middle" });
     if (i < ch.length - 1) arrow(s, x + bw + 0.02, y + 0.75, x + bw + gap - 0.02, y + 0.75);
   });
-  s.addText("Aussi dans la conception de la Lotus 78 : Ralph Bellamy, Tony Southgate.", { x: M, y: 4.4, w: W - 2 * M, h: 0.5, fontFace: F, fontSize: 15, color: C.sub, align: "center" });
+  s.addText("Lotus 78 : dessin Ralph Bellamy, suspensions Martin Ogilvie, développement Tony Southgate.", { x: M, y: 4.4, w: W - 2 * M, h: 0.5, fontFace: F, fontSize: 15, color: C.sub, align: "center" });
   footer(s, ["lotus79"]);
   notes(s, {
     idee: "L'effet de sol est une filiation collective ; il faut la raconter dans l'ordre.",
-    faits: ["Peter Wright et Tony Rudd avaient travaillé sur le concept chez BRM.", "Chez Lotus, Chapman leur demande de repenser la configuration fondamentale de la F1.", "La soufflerie débouche sur la Lotus 78, puis la 79 ; Bellamy et Southgate interviennent aussi."],
+    faits: ["Peter Wright et Tony Rudd avaient travaillé sur le concept chez BRM.", "Chez Lotus, Chapman leur demande de repenser la configuration fondamentale de la F1.", "La soufflerie débouche sur la Lotus 78, puis la 79 ; Bellamy dessine la 78, Ogilvie ses suspensions, Southgate participe au développement (Formula 1 crédite la conception à Bellamy et Southgate)."],
     nuance: "À éviter : « Chapman a inventé l'effet de sol ». À préférer : Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant. Wright (Tier B) est placé devant Rudd (Tier C) car la contribution directe de Rudd à la solution finale est plus difficile à isoler.",
     sources: ["lotus79"],
   });
@@ -644,7 +644,8 @@ const fr = v => v.toFixed(1).replace(".", ",");
   // Crédits photographiques (licences CC : auteur et licence pour chaque portrait)
   const nomDe = id => RANK.map(r => r[0]).find(n => idOf(n) === id) || id;
   s.addText("Crédits photographiques (Wikimedia Commons)", { x: 6.6, y: 1.9, w: 6.1, h: 0.4, fontFace: F, fontSize: 16, bold: true, color: C.ink });
-  s.addText(Object.entries(CREDITS).sort((a, b) => RANK.findIndex(r => idOf(r[0]) === a[0]) - RANK.findIndex(r => idOf(r[0]) === b[0]))
+  // seulement les portraits utilisés dans le deck : ceux des vingt entrées classées
+  s.addText(Object.entries(CREDITS).filter(([id]) => RANK.some(r => idOf(r[0]) === id)).sort((a, b) => RANK.findIndex(r => idOf(r[0]) === a[0]) - RANK.findIndex(r => idOf(r[0]) === b[0]))
     .map(([id, c]) => ({ text: `${nomDe(id)} : ${c.auteur}, ${c.licence}`, options: { breakLine: true } })),
     { x: 6.6, y: 2.35, w: 6.1, h: 3.3, fontFace: F, fontSize: 12, color: C.ink, valign: "top", paraSpaceAfter: 3 });
   s.addText("Modifications : images recadrées et passées en noir et blanc pour cette présentation. Les versions modifiées des images sous licence CC BY-SA ou Art Libre sont diffusées sous la même licence que l'original.",

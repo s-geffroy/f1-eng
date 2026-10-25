@@ -79,8 +79,8 @@ async function carteEntree(id, e) {
     ctx.drawImage(p, 0, 0, p.width, p.height, px, py, pw, ph);
   } else {
     ctx.fillStyle = C.clair; ctx.fillRect(px, py, pw, ph);
-    const [pre, nom] = e.title.split(", ");
-    const ini = (nom[0] + pre.split(" ").pop()[0]).toUpperCase();
+    const [nom, prenom] = e.title.split(", ");          // vedette « Nom, Prénom »
+    const ini = (prenom[0] + nom[0]).toUpperCase();      // Jean-Claude Migeot -> JM, Ettore Zaccone Mina -> EZ
     ctx.font = "96pt BarlowB"; ctx.fillStyle = C.mine;
     ctx.fillText(ini, px + (pw - ctx.measureText(ini).width) / 2, py + ph / 2 + 45);
   }
@@ -97,7 +97,10 @@ async function carteEntree(id, e) {
   ctx.font = "30pt SpectralI";
   lignes(ctx, e.accroche, tw).slice(0, 2).forEach((l, i) => texte(ctx, l, tx, 345 + i * 40, "SpectralI", 30, C.mine));
 
-  const cy = 450, ch = 130, cases = [["Rang", String(e.rang), 150], ["Tier", e.tier, 150], ["Score", e.score, tw - 300]];
+  const cy = 450, ch = 130;
+  const cases = e.rang
+    ? [["Rang", String(e.rang), 150], ["Tier", e.tier, 150], ["Score", e.score, tw - 300]]
+    : [["Classement", "Hors classement", tw * 0.55], ["Domaine", e.domaine, tw * 0.45]]; // entrée HC : ni rang, ni tier, ni score
   ctx.fillStyle = C.feuille; ctx.fillRect(tx, cy, tw, ch);
   let x = tx;
   for (const [lab, val, w] of cases) {
@@ -105,7 +108,10 @@ async function carteEntree(id, e) {
     if (estTier) { ctx.fillStyle = C[e.tier]; ctx.fillRect(x, cy, w, ch); }
     if (x > tx) trait(ctx, x, cy, x, cy + ch, 2, C.trait);
     texte(ctx, lab, x + 16, cy + 34, "Barlow", 20, estTier ? fg : C.mine);
-    texte(ctx, val + (lab === "Score" ? " / 100" : ""), x + 16, cy + 108, "BarlowB", 56, fg);
+    let t = val + (lab === "Score" ? " / 100" : ""), taille = 56;
+    ctx.font = `${taille}pt BarlowB`;
+    while (ctx.measureText(t).width > w - 32 && taille > 26) { taille -= 2; ctx.font = `${taille}pt BarlowB`; }
+    texte(ctx, t, x + 16, cy + 108, "BarlowB", taille, fg);
     x += w;
   }
   cadre(ctx, tx, cy, tw, ch, 4, C.graphite);

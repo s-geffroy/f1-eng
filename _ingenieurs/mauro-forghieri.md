@@ -54,7 +54,7 @@ Une idée directrice relie ses voitures des années 1970 : **centraliser les mas
 
 ## Attribution
 
-Le flat-12 Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue Franco Rocchi. La même nécrologie note aussi qu'il avait tendance à surévaluer ses propres inventions.
+Le flat-12 Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi qu'il avait tendance à surévaluer ses propres inventions.
 
 ## Pourquoi le Tier B
 

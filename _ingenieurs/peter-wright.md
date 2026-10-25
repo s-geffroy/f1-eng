@@ -47,7 +47,7 @@ La place élevée de Peter Wright corrige un biais fréquent : attribuer l'effet
 
 ## Attribution
 
-La contribution reste collective. Les sources divergent d'ailleurs sur les concepteurs de la Lotus 78 : Formula 1 cite Ralph Bellamy et Tony Southgate, Motor Sport désigne Bellamy pour le châssis et Martin Ogilvie pour les suspensions, avec Wright à l'aérodynamique.
+La contribution reste collective. Formula 1 crédite la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; les autres sources ouvertes répartissent les rôles ainsi : Bellamy dessine la voiture et le châssis, [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions, Wright l'aérodynamique, et Southgate participe au développement.
 
 ## Pourquoi le Tier B
 

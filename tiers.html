@@ -4,7 +4,7 @@ title: Tiers
 permalink: /tiers/
 description: Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé.
 ---
-{%- assign par_rang = site.ingenieurs | sort: "rang" -%}
+{%- assign par_rang = site.ingenieurs | where_exp: "e", "e.rang" | sort: "rang" -%}
 <section class="page-tete">
   <h1>Les quatre tiers</h1>
   <p class="accroche">Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.</p>

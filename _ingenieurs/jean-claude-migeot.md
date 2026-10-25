@@ -34,7 +34,7 @@ Avec la 019, Tyrrell termine cinquième du championnat constructeurs, son meille
 ## Parcours technique
 
 - Ingénieur formé à Supaéro (Toulouse), il dirige le groupe de recherche aérodynamique de **Renault Sport** jusqu'à la fermeture de l'équipe en 1985.
-- Chez **Tyrrell**, il travaille avec le directeur technique Harvey Postlethwaite sur la 019.
+- Chez **Tyrrell**, il travaille avec [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) sur la 019.
 - Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une soufflerie à tapis roulant à l'échelle 50 %.
 
 ## Attribution

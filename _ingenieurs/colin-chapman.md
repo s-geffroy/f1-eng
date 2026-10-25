@@ -12,6 +12,8 @@ domaine: "Architecture"
 lignees: ["architecture", "aerodynamique"]
 voir_aussi: ["peter-wright", "tony-rudd", "john-barnard", "keith-duckworth"]
 sources:
+  - titre: "Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
+    url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "Lotus, « Lotus Type 25 — The Revolutionary Monocoque »"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
   - titre: "Lotus, « Lotus Story »"
@@ -54,7 +56,7 @@ Sur la largeur historique, personne ne l'égale : plusieurs changements de parad
 
 ## Attribution : ce qu'il faut corriger
 
-La réputation de Chapman attire à lui des innovations produites par ses équipes. L'effet de sol en est l'exemple type. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) avaient travaillé le concept chez BRM ; chez Lotus, Chapman leur demande de repenser la configuration fondamentale d'une F1 ; Ralph Bellamy et Tony Southgate interviennent aussi dans la conception de la Lotus 78.
+La réputation de Chapman attire à lui des innovations produites par ses équipes. L'effet de sol en est l'exemple type. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) avaient travaillé le concept chez BRM ; chez Lotus, Chapman leur demande de repenser la configuration fondamentale d'une F1 ; la Lotus 78 est dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) en détaille les suspensions, et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) participe à son développement.
 
 La formulation juste : **Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1.**
 

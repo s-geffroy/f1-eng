@@ -47,7 +47,7 @@ Murray combine deux qualités rarement réunies : la radicalité conceptuelle et
 
 ## Attribution : la MP4/4
 
-Formula 1 attribue la MP4/4 à Murray. La paternité est pourtant discutée : selon Autosport, Steve Nichols, généralement présenté comme son concepteur en chef, juge le rôle de Murray « plus directorial que technique ». La formulation prudente s'impose : Murray a contribué à l'ère MP4/4, il n'en est pas l'auteur unique.
+Formula 1 attribue la MP4/4 à Murray. La paternité est pourtant discutée : selon Autosport, [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), généralement présenté comme son concepteur en chef, juge le rôle de Murray « plus directorial que technique ». La formulation prudente s'impose : Murray a contribué à l'ère MP4/4, il n'en est pas l'auteur unique.
 
 ## Pourquoi le Tier B
 

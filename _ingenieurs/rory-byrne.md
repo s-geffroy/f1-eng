@@ -19,6 +19,8 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Rorybyrne_(cropped).jpg"
 sources:
+  - titre: "Motor Sport Magazine, « Formula 2: The Toleman TG 280-Hart team analysis » (décembre 1980)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-1980/82/formula-2-toleman-tg-280-hart-team-analysis"
   - titre: "Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant »"
     url: "https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R"
   - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
@@ -48,13 +50,13 @@ Rory Byrne est l'homme qui a dessiné les **sept voitures championnes du monde d
 
 ## Parcours technique
 
-- **Toleman.** Avec John Gentry, il conçoit la TG280, qui domine la Formule 2 européenne. Sa TG184 de 1984, que pilote Ayrton Senna, est construite autour des pneus Michelin : l'abandon du venturi avant rend la voiture moins sensible au tangage et apporte environ 25 % d'appui en plus.
+- **Toleman.** Avec le dessinateur-projeteur [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), il conçoit la TG280, qui domine la Formule 2 européenne. Sa TG184 de 1984, que pilote Ayrton Senna, est construite autour des pneus Michelin : l'abandon du venturi avant rend la voiture moins sensible au tangage et apporte environ 25 % d'appui en plus.
 - **Benetton.** Il reste un pilier technique quand Benetton reprend l'équipe ; la première victoire arrive avec Gerhard Berger au Mexique. Ses Benetton donnent à Schumacher les titres 1994 et 1995.
 - **Ferrari.** Début 1997, il revient en F1 comme chef designer de Ferrari. La F1-2000 est développée sous la supervision de Ross Brawn et de Byrne ; il est le concepteur de la F2002.
 
 ## Attribution
 
-Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}). La passation à Aldo Costa est datée différemment selon les sources : à partir de la fin de 2004 pour l'une, avec une retraite prévue fin 2006 pour l'autre.
+Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}). La passation à [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) est datée différemment selon les sources : à partir de la fin de 2004 pour l'une, avec une retraite prévue fin 2006 pour l'autre.
 
 ## Pourquoi le Tier D
 
