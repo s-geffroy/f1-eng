@@ -17,6 +17,17 @@ layout: default
   </header>
 
   <aside class="entree-marge">
+    {%- if page.portrait %}
+    <figure class="portrait">
+      <img src="{{ page.portrait.fichier | relative_url }}" alt="Portrait de {{ page.nom_complet }}" loading="lazy">
+      <figcaption>
+        {%- if page.portrait.legende %}<span class="portrait-legende">{{ page.portrait.legende }}</span>{% endif %}
+        <span class="portrait-credit">Photo : {{ page.portrait.auteur }},
+          {% if page.portrait.licence_url %}<a href="{{ page.portrait.licence_url }}">{{ page.portrait.licence }}</a>{% else %}{{ page.portrait.licence }}{% endif %},
+          <a href="{{ page.portrait.source }}">Wikimedia Commons</a>.</span>
+      </figcaption>
+    </figure>
+    {%- endif %}
     <dl class="cartouche" data-tier="{{ page.tier }}">
       <div class="case case-rang"><dt>Rang</dt><dd>{{ page.rang }}</dd></div>
       <div class="case case-tier"><dt>Tier</dt><dd><a href="{{ '/tiers/' | relative_url }}#tier-{{ page.tier | downcase }}">{{ page.tier }}</a></dd></div>

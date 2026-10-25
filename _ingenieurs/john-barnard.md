@@ -18,6 +18,12 @@ sources:
     url: "https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+portrait:
+  fichier: "/assets/portraits/john-barnard.jpg"
+  auteur: "B3 Technologies"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/"
+  source: "https://commons.wikimedia.org/wiki/File:John_Barnard.jpg"
 redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 ---
 ## La question transformée

@@ -16,6 +16,13 @@ sources:
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
   - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history »"
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
+portrait:
+  fichier: "/assets/portraits/ross-brawn.jpg"
+  legende: "Ross Brawn au Goodwood Festival of Speed 2016."
+  auteur: "Matthew Lamb"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Ross_Brawn_Goodwood_Festival_of_Speed_2016_001.jpg"
 redirect_from: "/ingenieurs/2026/10/25/ross-brawn.html"
 ---
 ## Ce qu'il a changé

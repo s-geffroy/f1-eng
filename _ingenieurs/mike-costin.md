@@ -14,6 +14,13 @@ voir_aussi: ["keith-duckworth"]
 sources:
   - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
+portrait:
+  fichier: "/assets/portraits/mike-costin.jpg"
+  legende: "Mike Costin, à gauche avec des notes, penché sur la Lotus Eleven de Colin Chapman ; John Crosthwaite à droite. Silverstone, 1956."
+  auteur: "J Crosthwaite"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"
 redirect_from: "/ingenieurs/2026/10/25/mike-costin.html"
 ---
 ## Ce qu'il a apporté

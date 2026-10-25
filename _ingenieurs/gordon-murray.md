@@ -16,6 +16,13 @@ sources:
     url: "https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1"
   - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
+portrait:
+  fichier: "/assets/portraits/gordon-murray.jpg"
+  legende: "Gordon Murray, à gauche, au Mans en 1996."
+  auteur: "Martin Lee"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source: "https://commons.wikimedia.org/wiki/File:Gordon_Murray_chats_in_the_paddock_behind_the_pits_at_the_1996_Le_Mans_(51816281021).jpg"
 redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
 ---
 ## Ce qu'il a changé

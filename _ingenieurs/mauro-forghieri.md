@@ -18,6 +18,13 @@ sources:
     url: "https://www.formula1.com/en/latest/article/under-the-bodywork-of-the-ferrari-312b3-on-the-anniversary-of-niki-laudas.zcaL509YxSDEQWI2721oN"
   - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris »"
     url: "https://www.formula1.com/en/latest/article/obituary-mauro-forghieri-technical-genius-behind-some-of-formula-1s-greatest.67IR5vwYq73vG9mhaKYd3N"
+portrait:
+  fichier: "/assets/portraits/mauro-forghieri.jpg"
+  legende: "Mauro Forghieri au Mugello en 1991."
+  auteur: "Carlom1961, recadrage Danyele"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Mauro_Forghieri_Mugello_1991_(headshot).jpg"
 redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
 ## Ingénierie totale

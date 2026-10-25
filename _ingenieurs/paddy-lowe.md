@@ -16,6 +16,13 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS"
   - titre: "Formula 1, « Paddy Lowe on why his 2017 return to Williams didn't work out… »"
     url: "https://www.formula1.com/en/latest/article/paddy-lowe-on-why-his-2017-return-to-williams-didnt-work-out-and-why-the.6rUD5xWXMyxMa8RA2krMWN"
+portrait:
+  fichier: "/assets/portraits/paddy-lowe.jpg"
+  legende: "Paddy Lowe à Moscou en 2018."
+  auteur: "A.Savin"
+  licence: "Licence Art Libre"
+  licence_url: "https://artlibre.org/licence/lal/en"
+  source: "https://commons.wikimedia.org/wiki/File:Paddy_Lowe_Moscow_asv2018-01.jpg"
 redirect_from: "/ingenieurs/2026/10/25/paddy-lowe.html"
 ---
 ## Ce qu'il a apporté

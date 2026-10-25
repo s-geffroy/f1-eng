@@ -3,12 +3,12 @@
    Épaisseurs de trait reprises du dessin technique : trait fort / trait fin. */
 
 :root {
-  --calque: #f3f5f4;     /* fond : papier calque froid */
+  --calque: #d9dedf;     /* fond : papier calque froid, assez sombre pour détacher les cases blanches */
   --feuille: #ffffff;    /* cases du cartouche */
   --graphite: #2e3338;   /* encre principale */
-  --mine: #5b636a;       /* texte secondaire */
+  --mine: #4f575e;       /* texte secondaire (contraste AA sur le fond) */
   --trait: #8e979d;      /* filets fins */
-  --trait-clair: #d3d8da;
+  --trait-clair: #c2c9cc;
   --tier-a: #c0182c;     /* rouge réservé au Tier A */
   --tier-b: #3d5b74;
   --tier-c: #6e767c;
@@ -173,6 +173,20 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .case-large dd { font-weight: 500; }
 .case-note dd { font-family: var(--texte); font-size: 0.875rem; font-weight: 400; line-height: 1.45; color: var(--mine); }
 
+/* Portrait : une vue encadrée comme sur un plan, en noir et blanc pour unifier des photos
+   d'origines très différentes. Élément secondaire : il ne domine pas le cartouche. */
+.portrait { margin: 0 0 1.5rem; }
+.portrait img {
+  display: block; width: 100%; height: auto; max-height: 26rem;
+  object-fit: cover; object-position: 50% 20%;
+  border: var(--trait-fort) solid var(--graphite);
+  background: var(--feuille);
+  filter: grayscale(1) contrast(1.05);
+}
+.portrait figcaption { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.45; color: var(--mine); }
+.portrait-legende { display: block; font-style: italic; color: var(--graphite); margin-bottom: 0.25rem; }
+.portrait-credit { display: block; font-family: var(--titre); font-size: 0.875rem; }
+
 .references { margin-top: 2rem; font-size: 0.875rem; line-height: 1.45; }
 .references h2 { font-size: 1.125rem; margin: 0 0 0.5rem; }
 .references ol { margin: 0; padding-left: 1.4em; }
@@ -314,6 +328,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   .entree { grid-template-columns: minmax(0, 1fr); grid-template-areas: "tete" "marge" "texte" "suite"; }
   .entree-marge { margin-bottom: 2.5rem; }
   .cartouche { position: static; max-width: 24rem; }
+  .portrait { max-width: 24rem; }
 }
 
 @media (max-width: 36rem) {

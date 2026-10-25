@@ -18,6 +18,13 @@ sources:
     url: "https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+portrait:
+  fichier: "/assets/portraits/adrian-newey.jpg"
+  legende: "Adrian Newey au Grand Prix d'Australie 2026."
+  auteur: "Yu Chu Chin"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Adrian_Newey_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8662).jpg"
 redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
 ---
 ## La question transformée

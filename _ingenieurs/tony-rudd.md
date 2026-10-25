@@ -14,6 +14,13 @@ voir_aussi: ["peter-wright", "colin-chapman"]
 sources:
   - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+portrait:
+  fichier: "/assets/portraits/tony-rudd.jpg"
+  legende: "Tony Rudd au Nürburgring en 1967."
+  auteur: "Raimund Kommer"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source: "https://commons.wikimedia.org/wiki/File:Tony_Rudd_BRM_engineer_1967_N%C3%BCrburgring.jpg"
 redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---
 ## Ce qu'il a apporté

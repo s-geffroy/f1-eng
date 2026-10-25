@@ -18,6 +18,13 @@ sources:
     url: "https://www.lotuscars.com/en/lotus-story"
   - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+portrait:
+  fichier: "/assets/portraits/colin-chapman.jpg"
+  legende: "Colin Chapman en 1965."
+  auteur: "Joost Evers / Anefo (Nationaal Archief)"
+  licence: "CC0"
+  licence_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_(1965).jpg"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 ---
 ## La question transformée
