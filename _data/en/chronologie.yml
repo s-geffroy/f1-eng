@@ -266,6 +266,13 @@ jalons:
     entrees: ["adrian-newey"]
     termes: ["aileron"]
 
+  - id: "mp4-4"
+    annee: 1988
+    voie: "architecture"
+    titre: "The McLaren MP4/4, fifteen wins out of sixteen"
+    texte: "The McLaren MP4/4 wins 15 of the 16 races of 1988. Its authorship is still disputed: Steve Nichols, its chief designer, sees it as an evolution of the MP4/3; Gordon Murray contests that account. Autosport also names Bob Bell, David North, Matthew Jeffreys and Steve Nielsen among its authors."
+    entrees: ["steve-nichols", "gordon-murray"]
+
   - id: "fw17b"
     annee: 1995
     voie: "aero"

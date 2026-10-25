@@ -266,6 +266,13 @@ jalons:
     entrees: [adrian-newey]
     termes: [aileron]
 
+  - id: mp4-4
+    annee: 1988
+    voie: architecture
+    titre: "La McLaren MP4/4, quinze victoires sur seize"
+    texte: "La McLaren MP4/4 gagne 15 des 16 courses de 1988. Sa paternité reste discutée : Steve Nichols, son concepteur en chef, y voit une évolution de la MP4/3 ; Gordon Murray conteste ce récit. Autosport cite aussi Bob Bell, David North, Matthew Jeffreys et Steve Nielsen parmi ses auteurs."
+    entrees: [steve-nichols, gordon-murray]
+
   - id: fw17b
     annee: 1995
     voie: aero

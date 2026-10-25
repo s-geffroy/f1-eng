@@ -9,7 +9,7 @@ moteur: "Honda RA168E, V6 turbo de 1,5 litre"
 statut: "A couru en 1988 ; titres pilotes et constructeurs"
 concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "Bob Bell", "David North", "Pete Weismann", "Steve Nielsen"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
-jalons: []
+jalons: ["mp4-4"]
 sources:
   - titre: "McLaren, « 1988 McLaren MP4/4 »"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/1988-formula-1-mclaren-mp4-4/"
