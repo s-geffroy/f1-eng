@@ -1,0 +1,41 @@
+---
+layout: default
+title: Index
+description: Encyclopédie des vingt ingénieurs qui ont le plus transformé la conception des Formule 1, classés selon leur influence technique durable.
+---
+{%- assign entrees = site.ingenieurs | sort: "nom_tri" -%}
+{%- assign lettres = entrees | group_by_exp: "e", "e.nom_tri | slice: 0" -%}
+<section class="ouverture">
+  <h1>Les ingénieurs qui ont changé la Formule 1</h1>
+  <p>Vingt ingénieurs, classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès. Chaque entrée précise ce qui revient à chacun dans des innovations souvent collectives.</p>
+  <p class="ouverture-depart">Pour comprendre le classement, commencez par <a href="{{ '/dossiers/methode/' | relative_url }}">la méthode</a>.</p>
+</section>
+
+<section class="index" aria-labelledby="titre-index">
+  <div class="index-tete">
+    <h2 id="titre-index">Index des entrées</h2>
+    <nav class="lettres" aria-label="Lettres">
+      {%- for g in lettres %}
+      <a href="#lettre-{{ g.name }}">{{ g.name | upcase }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+  {%- for g in lettres %}
+  <div class="index-groupe" id="lettre-{{ g.name }}">
+    <h3 class="lettre">{{ g.name | upcase }}</h3>
+    <ul>
+      {%- for e in g.items %}
+      <li>
+        <a class="ligne" href="{{ e.url | relative_url }}">
+          <span class="ligne-nom">{{ e.title }}</span>
+          <span class="ligne-conduite" aria-hidden="true"></span>
+          <span class="ligne-domaine">{{ e.domaine }}</span>
+          <span class="ligne-tier" data-tier="{{ e.tier }}" title="Tier {{ e.tier }}">{{ e.tier }}</span>
+          <span class="ligne-score">{{ e.score }}</span>
+        </a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endfor %}
+</section>

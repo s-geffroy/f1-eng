@@ -1,0 +1,32 @@
+# Filiations intellectuelles (spec, slide 18) -- pas des relations maitre-eleve.
+# Chaque etape liste des identifiants d'entrees (_ingenieurs/<id>.md) ou un texte libre.
+- id: architecture
+  nom: Architecture
+  etapes:
+    - [john-cooper]
+    - [colin-chapman]
+    - [john-barnard]
+- id: aerodynamique
+  nom: Aérodynamique
+  etapes:
+    - [colin-chapman, peter-wright]
+    - [gordon-murray, jean-claude-migeot]
+    - [adrian-newey]
+- id: moteur
+  nom: Moteur
+  etapes:
+    - [keith-duckworth]
+    - [bernard-dudot]
+    - [andy-cowell]
+- id: numerique
+  nom: Numérique et contrôle
+  etapes:
+    - [frank-dernie]
+    - [paddy-lowe]
+    - [Ingénierie moderne]
+- id: organisation
+  nom: Organisation système
+  etapes:
+    - [patrick-head]
+    - [ross-brawn]
+    - [Équipes F1 modernes]

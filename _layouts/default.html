@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/encyclopedie.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <a class="evitement" href="#contenu">Aller au contenu</a>
+  <header class="site">
+    <a class="marque" href="{{ '/' | relative_url }}">Ingénieurs de la F1</a>
+    <nav aria-label="Sections">
+      {%- assign sections = "/|Index,/tiers/|Tiers,/lignees/|Lignées,/dossiers/|Dossiers" | split: "," -%}
+      {%- for s in sections -%}
+        {%- assign p = s | split: "|" -%}
+        {%- assign actif = false -%}
+        {%- if page.url == p[0] -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if p[0] == "/dossiers/" and page.collection == "dossiers" -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if p[0] == "/" and page.collection == "ingenieurs" -%}{%- assign actif = true -%}{%- endif -%}
+        <a href="{{ p[0] | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ p[1] }}</a>
+      {%- endfor -%}
+    </nav>
+  </header>
+  <main id="contenu">
+    {{ content }}
+  </main>
+  <footer class="site">
+    <p>Classement établi selon une <a href="{{ '/dossiers/methode/' | relative_url }}">méthode explicite</a>. Les scores sont un instrument comparatif, pas des faits historiques. Sources consultées le 9 août 2026.</p>
+  </footer>
+</body>
+</html>

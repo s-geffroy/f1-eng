@@ -1,0 +1,13 @@
+# Les quatre tiers du classement (spec, section 2). Lu par le cartouche et la page Tiers.
+- id: A
+  nom: Révolutionnaires de paradigme
+  definition: Ils ont modifié durablement la grammaire technique de la F1. Leur innovation impose un « avant / après », se diffuse à tout le plateau et dépasse une seule voiture ou une seule période réglementaire.
+- id: B
+  nom: Transformateurs systémiques majeurs
+  definition: Ils ont transformé durablement un domaine central de la F1, avec au moins une limite par rapport au Tier A — attribution plus collective, portée plus spécialisée, durée plus courte ou dépendance à une période réglementaire.
+- id: C
+  nom: Innovateurs structurants
+  definition: Une contribution majeure et durable à un ou plusieurs domaines, sans redéfinition complète de la discipline démontrable au même niveau.
+- id: D
+  nom: Géants techniques à impact plus localisé ou plus partagé
+  definition: Une place majeure dans l'histoire technique, avec une causalité moins exclusive, une diffusion moins générale ou un impact plus incrémental que paradigmatique.

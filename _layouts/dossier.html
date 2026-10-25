@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{%- assign dossiers = site.dossiers | sort: "ordre" -%}
+{%- assign i = page.ordre | minus: 1 -%}
+{%- assign i_prec = i | minus: 1 -%}
+{%- assign i_suiv = i | plus: 1 -%}
+<article class="dossier">
+  <header class="dossier-tete">
+    <p class="dossier-ordre">Dossier {{ page.ordre }} sur {{ dossiers.size }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="accroche">{{ page.resume }}</p>
+  </header>
+  <div class="texte">
+    {{ content }}
+  </div>
+  <nav class="suite" aria-label="Dossiers voisins">
+    {%- if i_prec >= 0 -%}
+      {%- assign d = dossiers[i_prec] -%}
+      <a class="suite-prec" href="{{ d.url | relative_url }}"><span>Dossier {{ d.ordre }}</span> {{ d.title }}</a>
+    {%- endif -%}
+    {%- if i_suiv < dossiers.size -%}
+      {%- assign d = dossiers[i_suiv] -%}
+      <a class="suite-suiv" href="{{ d.url | relative_url }}"><span>Dossier {{ d.ordre }}</span> {{ d.title }}</a>
+    {%- endif -%}
+  </nav>
+</article>

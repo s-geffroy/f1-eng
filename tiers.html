@@ -1,0 +1,25 @@
+---
+layout: default
+title: Tiers
+permalink: /tiers/
+description: Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé.
+---
+{%- assign par_rang = site.ingenieurs | sort: "rang" -%}
+<section class="page-tete">
+  <h1>Les quatre tiers</h1>
+  <p class="accroche">Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.</p>
+</section>
+{%- for t in site.data.tiers %}
+<section class="tier" id="tier-{{ t.id | downcase }}" data-tier="{{ t.id }}">
+  <header class="tier-tete">
+    <h2><span class="tier-lettre">Tier {{ t.id }}</span> {{ t.nom }}</h2>
+    <p>{{ t.definition }}</p>
+  </header>
+  {%- assign membres = par_rang | where: "tier", t.id -%}
+  <ol class="tier-liste" start="{{ membres.first.rang }}">
+    {%- for e in membres %}
+    <li><a href="{{ e.url | relative_url }}"><span class="ligne-nom">{{ e.title }}</span> <span class="ligne-domaine">{{ e.domaine }}</span> <span class="ligne-score">{{ e.score }}</span></a></li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}

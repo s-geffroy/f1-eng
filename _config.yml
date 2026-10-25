@@ -27,7 +27,36 @@ url: "https://s-geffroy.github.io"
 # journaux.
 baseurl: "/f1-eng"
 
-theme: minima
+lang: fr
+
+# Pas de theme : l'apparence « encyclopedie » est portee par _layouts/,
+# _includes/ et assets/css/ de ce depot.
+
+# Le contenu est organise en deux collections, pas en articles dates :
+#   _ingenieurs/ : une entree par ingenieur -> /ingenieurs/<nom>/
+#   _dossiers/   : les textes de synthese  -> /dossiers/<nom>/
+# Les anciennes adresses datees (blog) redirigent via redirect_from, porte
+# dans le front matter de chaque entree. Ne pas le retirer : des liens
+# exterieurs peuvent encore les viser.
+collections:
+  ingenieurs:
+    output: true
+    permalink: /ingenieurs/:name/
+  dossiers:
+    output: true
+    permalink: /dossiers/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: ingenieurs
+    values:
+      layout: entree
+  - scope:
+      path: ""
+      type: dossiers
+    values:
+      layout: dossier
 
 # Greffons. Le constructeur de GitHub Pages tourne en SAFE MODE : il ne charge
 # que les greffons de sa liste blanche, quoi qu'on ecrive ici, et ignore
@@ -35,7 +64,7 @@ theme: minima
 # est publiee sur https://pages.github.com/versions.json -- va la lire plutot
 # que de te fier a une recette trouvee ailleurs.
 plugins:
-  - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
 
