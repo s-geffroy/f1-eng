@@ -29,6 +29,8 @@ sources:
     url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
   - titre: "Classic Team Lotus, “Lotus 72 50th birthday” (2020)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
+  - titre: "Lotus Cars, “Type 72”"
+    url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-72"
   - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Motor Sport Magazine, “Lotus 78: F1's first true ground effect car” (February 2020)"
@@ -48,7 +50,7 @@ Chapman is not the man of a single breakthrough: he piled up several, all of the
 
 - **Lotus 25 (1962).** The aluminium [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) tub replaces the [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) as the reference architecture. The car made its debut at the 1962 Dutch Grand Prix; Chapman said he had drawn inspiration from the steel backbone chassis of the Elan road car. In 1963, Jim Clark won seven of the ten races and Lotus its first constructors' title.
 - **Lotus 49 (1967).** The Cosworth DFV engine forms the rear part of the car: the structure bolts on in front of it, the rear suspension behind it. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — the Lancia D50 used it as early as 1954 — but the Lotus 49 made it the standard.
-- **Lotus 72 (1970).** Designed by Maurice Philippe with Chapman, it puts the radiators on the flanks. With its successive developments, it won 22 Grands Prix and five world titles.
+- **Lotus 72 (1970).** Designed by Maurice Philippe with Chapman, it puts the radiators on the flanks. With its successive developments, it won five world titles and 20 Grands Prix according to Lotus, 22 according to Classic Team Lotus.
 - **The [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) programme.** Chapman launched and led it, through to the Lotus 78 and 79.
 - **Lotus 88 (1981).** The twin-chassis concept, two separately sprung bodies, was challenged: the car never raced.
 

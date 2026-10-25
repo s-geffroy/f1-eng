@@ -68,15 +68,18 @@ tiers.html           les quatre tiers et leurs membres
 lignees.html         filiations techniques (donnees : _data/lignees.yml)
 chronologie.html     frise cliquable des innovations (donnees : _data/chronologie.yml)
 glossaire.html       glossaire technique (donnees : _data/glossaire.yml)
+voitures.html        planche des voitures qui ont fait date
 dossiers/index.html  liste des dossiers
 404.html             page servie sur une adresse inconnue
 _ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/
 _dossiers/           textes de synthese        -> /dossiers/<id>/
+_voitures/           une entree par voiture    -> /voitures/<id>/
 _data/               tiers.yml, lignees.yml
-_layouts/            default, entree (cartouche, portrait), dossier
+_layouts/            default, entree (cartouche, portrait), dossier, voiture
 _includes/           lien-entree.html
 assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
 assets/portraits/    portraits libres de droits (credits dans les entrees)
+assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
 assets/docs/         presentation PDF telechargeable (generee par deck/)
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
@@ -115,7 +118,7 @@ portrait:                        # facultatif : seulement une image libre verifi
   licence: "CC BY-SA 3.0"
   licence_url: "https://..."
   source: "https://commons.wikimedia.org/wiki/File:..."
-image: "/assets/partage/<id>.png" # carte de partage
+image: "/assets/partage/<id>.jpg" # carte de partage
 redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 ```
 
@@ -126,7 +129,7 @@ redirect_from: "/ingenieurs/2026/10/25/<id>.html"
   les textes d'interface dans `_data/i18n.yml` et les donnees dans `_data/` ou
   `_data/en/`.
 - Contenus anglais : `_engineers/` (-> `/en/engineers/<id>/`), `_features/`
-  (-> `/en/features/<id>/`), `_data/en/*.yml`. **Meme nom de fichier que le
+  (-> `/en/features/<id>/`), `_cars/` (-> `/en/cars/<id>/`), `_data/en/*.yml`. **Meme nom de fichier que le
   francais** : c'est ce qui relie une page a sa traduction (selecteur de langue,
   balises hreflang). Pages simples : champ `traduction:` dans le front matter.
 - Le contenu des pages Index, Tiers, Lignees, Chronologie, Glossaire, Dossiers et
@@ -139,7 +142,7 @@ redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 
 `/recherche/` et `/en/search/` interrogent un index JSON genere par Jekyll
 (`recherche.json`, `en/search.json`, gabarit `_includes/index-recherche.json`) :
-entrees, termes du glossaire, jalons et dossiers de la langue.
+entrees, voitures, termes du glossaire, jalons et dossiers de la langue.
 
 ### Entrees hors classement
 
@@ -150,6 +153,29 @@ adaptee. Elle documente un acteur cite par les entrees classees, avec les memes
 exigences de sources ; le classement des vingt n'en est pas modifie. Champ
 `consultation:` pour la date de consultation des sources si elle differe du
 9 aout 2026.
+
+### Voitures (`_voitures/<id>.md`)
+
+```yaml
+title: "Lotus 78"
+nom_tri: "lotus 78"
+accroche: "..."
+description: "..."
+annee: 1977                      # ordre de la planche et suite precedente / suivante
+equipe: "Team Lotus"
+moteur: "..."
+statut: "..."                    # facultatif : a couru, n'a jamais couru...
+concepteurs: ["colin-chapman", "Maurice Philippe"]  # identifiant d'entree = lien, sinon texte
+termes: ["effet-de-sol"]         # identifiants du glossaire
+jalons: ["lotus-78"]             # identifiants de la chronologie
+sources: [...]
+photo: {fichier, legende, auteur, licence, licence_url, source}  # comme portrait
+image: "/assets/partage/voitures/<id>.jpg"
+```
+
+Les renvois sont calcules : une entree liste les voitures dont `concepteurs`
+contient son identifiant ; la chronologie et le glossaire listent les voitures
+qui citent le jalon ou le terme. Rien a recopier ailleurs.
 
 ### Chronologie et glossaire
 
@@ -183,7 +209,9 @@ et auteur. Le credit (auteur, licence et lien, source) est obligatoire, ainsi
 que la mention des modifications (affichage en noir et blanc sur le site,
 recadrage dans le deck). Une image « fair use » ou sous droits reserves
 demande une autorisation ecrite : citer l'auteur ne suffit pas.
-Neuf entrees n'ont pas de portrait libre connu ; elles s'affichent sans image.
+Vingt et une entrees n'ont pas de portrait libre connu ; elles s'affichent sans image.
+Memes regles pour les photos de voitures, avec en plus la verification du
+modele photographie (categorie Commons, description, image regardee).
 
 ### Outils (`deck/`)
 
@@ -192,10 +220,10 @@ cd deck
 npm ci && npm run fonts     # premiere fois : dependances et polices du site
 npm run pdf                 # assets/docs/ingenieurs-revolutionnaires-F1.pdf
 npm run pptx                # deck/out/... .pptx (non versionne, avec notes)
-npm run cartes              # assets/partage/*.png (fr) et assets/partage/en/*.png
+npm run cartes              # assets/partage/*.jpg (fr), en/*.jpg, voitures/ et en/voitures/
 ```
 
-Apres une modification d'une entree (accroche, rang, portrait), relancer
+Apres une modification d'une entree ou d'une voiture (accroche, rang, photo), relancer
 `npm run cartes` ; apres une modification du deck, `npm run pdf`. Puis commit
 + push. Detail dans `deck/README.md`.
 

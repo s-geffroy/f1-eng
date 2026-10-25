@@ -1,0 +1,85 @@
+---
+layout: default
+---
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+{%- assign par_annee = site[T.collection_voitures] | sort: "annee" -%}
+{%- for v in par_annee -%}{%- if v.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign i_prec = i | minus: 1 -%}
+{%- assign i_suiv = i | plus: 1 -%}
+<article class="entree voiture">
+  <header class="entree-tete">
+    <h1 class="vedette">{{ page.title }}</h1>
+    <p class="accroche">{{ page.accroche }}</p>
+  </header>
+
+  <aside class="entree-marge">
+    {%- if page.photo %}
+    <figure class="portrait photo-voiture">
+      <img src="{{ page.photo.fichier | relative_url }}" alt="{{ page.title }}" loading="lazy">
+      <figcaption>
+        {%- if page.photo.legende %}<span class="portrait-legende">{{ page.photo.legende }}</span>{% endif %}
+        <span class="portrait-credit">{{ T.l.photo }} {{ page.photo.auteur }},
+          {% if page.photo.licence_url %}<a href="{{ page.photo.licence_url }}">{{ page.photo.licence }}</a>{% else %}{{ page.photo.licence }}{% endif %},
+          <a href="{{ page.photo.source }}">Wikimedia Commons</a>.
+          {{ T.l.noir_blanc }}</span>
+      </figcaption>
+    </figure>
+    {%- endif %}
+    <dl class="cartouche cartouche-voiture">
+      <div class="case case-rang"><dt>{{ T.l.annee }}</dt><dd>{{ page.annee }}</dd></div>
+      <div class="case case-equipe"><dt>{{ T.l.equipe }}</dt><dd>{{ page.equipe }}</dd></div>
+      <div class="case case-large"><dt>{{ T.l.moteur }}</dt><dd>{{ page.moteur }}</dd></div>
+      {%- if page.statut %}
+      <div class="case case-large"><dt>{{ T.l.statut }}</dt><dd>{{ page.statut }}</dd></div>
+      {%- endif %}
+      {%- if page.concepteurs.size > 0 %}
+      <div class="case case-large"><dt>{{ T.l.concepteurs }}</dt><dd>
+        {%- for c in page.concepteurs -%}{% include lien-entree.html id=c %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- assign termes_ok = "" | split: "" -%}
+      {%- for t in page.termes -%}{%- assign g = D.glossaire | where: "id", t | first -%}{%- if g -%}{%- assign termes_ok = termes_ok | push: g -%}{%- endif -%}{%- endfor -%}
+      {%- if termes_ok.size > 0 %}
+      <div class="case case-large"><dt>{{ T.l.glossaire }}</dt><dd>
+        {%- for g in termes_ok %}<a href="{{ T.url.glossaire | relative_url }}#{{ g.id }}">{{ g.terme }}</a>{% unless forloop.last %}, {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- assign jalons_ok = "" | split: "" -%}
+      {%- for jid in page.jalons -%}{%- assign j = D.chronologie.jalons | where: "id", jid | first -%}{%- if j -%}{%- assign jalons_ok = jalons_ok | push: j -%}{%- endif -%}{%- endfor -%}
+      {%- if jalons_ok.size > 0 %}
+      <div class="case case-large"><dt>{{ T.l.chronologie }}</dt><dd>
+        {%- for j in jalons_ok %}<a href="{{ T.url.chronologie | relative_url }}#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+    </dl>
+
+    {%- if page.sources.size > 0 %}
+    <section class="references" aria-labelledby="references">
+      <h2 id="references">{{ T.l.references }}</h2>
+      <ol>
+        {%- for s in page.sources %}
+        <li><a href="{{ s.url }}">{{ s.titre }}</a></li>
+        {%- endfor %}
+      </ol>
+      <p>{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.</p>
+    </section>
+    {%- endif %}
+  </aside>
+
+  <div class="entree-texte texte">
+    {{ content }}
+  </div>
+
+  <nav class="suite" aria-label="{{ T.l.voitures_aria }}">
+    {%- if i_prec >= 0 -%}
+      {%- assign v = par_annee[i_prec] -%}
+      <a class="suite-prec" href="{{ v.url | relative_url }}"><span>{{ v.annee }}</span> {{ v.title }}</a>
+    {%- endif -%}
+    {%- if i_suiv < par_annee.size -%}
+      {%- assign v = par_annee[i_suiv] -%}
+      <a class="suite-suiv" href="{{ v.url | relative_url }}"><span>{{ v.annee }}</span> {{ v.title }}</a>
+    {%- endif -%}
+  </nav>
+</article>

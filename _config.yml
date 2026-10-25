@@ -53,6 +53,13 @@ collections:
   features:
     output: true
     permalink: /en/features/:name/
+  # Voitures : meme logique que les entrees (meme nom de fichier dans les deux langues)
+  voitures:
+    output: true
+    permalink: /voitures/:name/
+  cars:
+    output: true
+    permalink: /en/cars/:name/
 
 defaults:
   # Image de partage (Open Graph) par defaut ; chaque entree a la sienne dans son
@@ -82,6 +89,17 @@ defaults:
       type: features
     values:
       layout: dossier
+      lang: en
+  - scope:
+      path: ""
+      type: voitures
+    values:
+      layout: voiture
+  - scope:
+      path: ""
+      type: cars
+    values:
+      layout: voiture
       lang: en
   - scope:
       path: "en"

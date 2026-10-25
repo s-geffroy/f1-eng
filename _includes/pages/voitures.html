@@ -1,0 +1,27 @@
+{%- comment -%} Planche des voitures, commune aux deux langues. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- assign voitures = site[T.collection_voitures] | sort: "annee" -%}
+<section class="page-tete">
+  <h1>{{ T.voitures.titre }}</h1>
+  <p class="accroche">{{ T.voitures.accroche }}</p>
+</section>
+<ol class="planche">
+  {%- for v in voitures %}
+  <li class="fiche-voiture">
+    <a href="{{ v.url | relative_url }}">
+      {%- if v.photo %}
+      <img src="{{ v.photo.fichier | relative_url }}" alt="" loading="lazy">
+      {%- else %}
+      <span class="fiche-voiture-vide" aria-hidden="true">{{ v.annee }}</span>
+      {%- endif %}
+      <span class="fiche-voiture-cartouche">
+        <span class="fiche-voiture-annee">{{ v.annee }}</span>
+        <span class="fiche-voiture-nom">{{ v.title }}</span>
+        <span class="fiche-voiture-equipe">{{ v.equipe }}</span>
+      </span>
+      <span class="fiche-voiture-accroche">{{ v.accroche }}</span>
+    </a>
+  </li>
+  {%- endfor %}
+</ol>

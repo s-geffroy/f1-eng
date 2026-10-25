@@ -1,20 +1,24 @@
-// Cartes de partage (Open Graph, 1200 x 630, JPEG) : une par entrée, plus une carte générique.
+// Cartes de partage (Open Graph, 1200 x 630, JPEG) : une par entrée et par voiture, plus une carte générique.
 // Même vocabulaire que le site : papier calque, encre graphite, cartouche, rouge réservé au Tier A.
 // Portraits : ceux préparés par portraits.js (niveaux de gris). Sortie : ../assets/partage/
 // (versionnée : c'est ce que GitHub Pages sert aux réseaux sociaux).
 const fs = require("fs");
 const path = require("path");
 const PImage = require("pureimage");
+const Jimp = require("jimp");
+const { Readable } = require("stream");
 
 const RACINE = path.join(__dirname, "..");
 // Une carte par entrée et par langue : français dans assets/partage/, anglais dans assets/partage/en/.
 const LANGUES = {
   fr: { entrees: "_ingenieurs", sortie: path.join(RACINE, "assets", "partage"), marque: "Ingénieurs de la F1",
         rang: "Rang", classement: "Classement", hc: "Hors classement", domaine: "Domaine",
+        voitures: "_voitures", annee: "Année", equipe: "Équipe",
         titre: ["Les ingénieurs qui ont", "changé la Formule 1"],
         sous: "Vingt ingénieurs classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès." },
   en: { entrees: "_engineers", sortie: path.join(RACINE, "assets", "partage", "en"), marque: "F1 Engineers",
         rang: "Rank", classement: "Ranking", hc: "Unranked", domaine: "Field",
+        voitures: "_cars", annee: "Year", equipe: "Team",
         titre: ["The engineers who", "changed Formula 1"],
         sous: "Twenty engineers ranked by what they changed in the way an F1 car is built, not by their trophy count." },
 };
@@ -130,6 +134,49 @@ async function carteEntree(id, e) {
   await ecrire(img, id + ".jpg");
 }
 
+// Carte d'une voiture : la photo du site (assets/voitures/), en niveaux de gris et recadrée au format
+// de la vue, à gauche ; à droite, le nom, l'accroche et un cartouche année / équipe.
+async function carteVoiture(id, v) {
+  const img = PImage.make(W, H), ctx = img.getContext("2d");
+  enTete(ctx);
+  const px = M, py = 130, pw = 560, ph = 449;
+  const fichier = path.join(RACINE, "assets", "voitures", id + ".jpg");
+  if (fs.existsSync(fichier)) {
+    const j = (await Jimp.read(fichier)).greyscale().contrast(0.05).cover(pw, ph).quality(90);
+    const p = await PImage.decodeJPEGFromStream(Readable.from(await j.getBufferAsync(Jimp.MIME_JPEG)));
+    ctx.drawImage(p, 0, 0, p.width, p.height, px, py, pw, ph);
+  } else {
+    ctx.fillStyle = C.clair; ctx.fillRect(px, py, pw, ph);
+  }
+  cadre(ctx, px, py, pw, ph, 4, C.graphite);
+
+  const tx = px + pw + 48, tw = W - M - tx;
+  let taille = 80;
+  ctx.font = `${taille}pt BarlowB`;
+  const mots = v.title.split(" ");                 // « Brabham BT46B » : la marque, puis le modèle
+  const l1 = mots.slice(0, -1).join(" ") || v.title, l2 = mots.length > 1 ? mots[mots.length - 1] : "";
+  while (Math.max(ctx.measureText(l1).width, ctx.measureText(l2).width) > tw && taille > 44) { taille -= 4; ctx.font = `${taille}pt BarlowB`; }
+  texte(ctx, l1, tx, 205, "BarlowB", taille, C.graphite);
+  if (l2) texte(ctx, l2, tx, 205 + taille * 1.05, "BarlowB", taille, C.graphite);
+  ctx.font = "26pt SpectralI";
+  lignes(ctx, v.accroche, tw).slice(0, 3).forEach((l, i) => texte(ctx, l, tx, 345 + i * 34, "SpectralI", 26, C.mine));
+
+  const cy = 470, ch = 110;
+  ctx.fillStyle = C.feuille; ctx.fillRect(tx, cy, tw, ch);
+  let x = tx;
+  for (const [lab, val, w] of [[L.annee, String(v.annee), 130], [L.equipe, v.equipe, tw - 130]]) {
+    if (x > tx) trait(ctx, x, cy, x, cy + ch, 2, C.trait);
+    texte(ctx, lab, x + 16, cy + 32, "Barlow", 20, C.mine);
+    let t = val, tl = 44;
+    ctx.font = `${tl}pt BarlowB`;
+    while (ctx.measureText(t).width > w - 32 && tl > 20) { tl -= 2; ctx.font = `${tl}pt BarlowB`; }
+    texte(ctx, t, x + 16, cy + 92, "BarlowB", tl, C.graphite);
+    x += w;
+  }
+  cadre(ctx, tx, cy, tw, ch, 4, C.graphite);
+  await ecrire(img, path.join("voitures", id + ".jpg"));
+}
+
 async function carteGenerique() {
   const img = PImage.make(W, H), ctx = img.getContext("2d");
   enTete(ctx);
@@ -153,6 +200,11 @@ async function carteGenerique() {
     if (!fs.existsSync(dir)) continue;               // langue pas encore traduite
     fs.mkdirSync(L.sortie, { recursive: true });
     for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)));
+    const dirV = path.join(RACINE, L.voitures);
+    if (fs.existsSync(dirV)) {
+      fs.mkdirSync(path.join(L.sortie, "voitures"), { recursive: true });
+      for (const f of fs.readdirSync(dirV)) await carteVoiture(f.replace(/\.md$/, ""), frontMatter(path.join(dirV, f)));
+    }
     await carteGenerique();
     console.log(`cartes (${code}) :`, fs.readdirSync(L.sortie).filter(f => f.endsWith(".jpg")).length);
   }

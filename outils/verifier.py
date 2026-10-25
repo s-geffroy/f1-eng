@@ -124,6 +124,37 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
                 if re.fullmatch(r"[a-z0-9-]+", str(e)) and e not in ids:
                     warn(f"{rep_data}/lignees.yml : « {e} » n'est pas une entrée (texte libre ?)")
 
+# 4 bis. voitures : identifiants cités (termes, jalons, concepteurs) et images
+for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "_data/en")}.items():
+    if not os.path.isdir(coll_v):
+        continue
+    gl = charger_yaml(f"{rep_data}/glossaire.yml") or []
+    ch = charger_yaml(f"{rep_data}/chronologie.yml") or {}
+    ids_g, ids_j = {t["id"] for t in gl}, {j["id"] for j in ch.get("jalons", [])}
+    ids_e = ids_par_langue.get(lang, set())
+    for f in sorted(os.listdir(coll_v)):
+        chemin = f"{coll_v}/{f}"
+        fm, _ = corps_par_page.get(chemin, (None, ""))
+        if fm is None:
+            continue
+        for champ in ("title", "nom_tri", "accroche", "annee", "equipe", "moteur", "image"):
+            if not fm.get(champ):
+                err(f"{chemin} : champ « {champ} » manquant")
+        for t in fm.get("termes") or []:
+            if t not in ids_g: err(f"{chemin} : terme « {t} » inconnu")
+        for j in fm.get("jalons") or []:
+            if j not in ids_j: err(f"{chemin} : jalon « {j} » inconnu")
+        for c in fm.get("concepteurs") or []:
+            if re.fullmatch(r"[a-z0-9-]+", c) and c not in ids_e:
+                err(f"{chemin} : concepteur « {c} » ressemble à un identifiant mais n'est pas une entrée")
+        for img in [fm.get("image"), (fm.get("photo") or {}).get("fichier")]:
+            if img and not os.path.exists(img.lstrip("/")):
+                err(f"{chemin} : image absente ({img})")
+    if lang == "en" and os.path.isdir("_voitures"):
+        fr_v = {f for f in os.listdir("_voitures")}; en_v = set(os.listdir(coll_v))
+        for m in sorted(fr_v - en_v): warn(f"en : pas de traduction pour la voiture {m[:-3]}")
+        for o in sorted(en_v - fr_v): err(f"en : la voiture {o[:-3]} n'existe pas en français")
+
 # 5. correspondance entre langues
 if "fr" in ids_par_langue and "en" in ids_par_langue:
     for manque in sorted(ids_par_langue["fr"] - ids_par_langue["en"]):

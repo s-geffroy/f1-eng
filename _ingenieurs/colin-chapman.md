@@ -29,6 +29,8 @@ sources:
     url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
   - titre: "Classic Team Lotus, « Lotus 72 50th birthday » (2020)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
+  - titre: "Lotus Cars, « Type 72 »"
+    url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-72"
   - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
@@ -49,7 +51,7 @@ Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes
 
 - **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs.
 - **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 l'employait dès 1954 — mais la Lotus 49 l'impose comme standard.
-- **Lotus 72 (1970).** Conçue par Maurice Philippe avec Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte 22 Grands Prix et cinq titres mondiaux.
+- **Lotus 72 (1970).** Conçue par Maurice Philippe avec Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus, 22 selon Classic Team Lotus.
 - **Le programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79.
 - **Lotus 88 (1981).** Le concept à double châssis, deux caisses suspendues séparément, est contesté : la voiture ne court jamais.
 

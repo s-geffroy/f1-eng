@@ -1,0 +1,53 @@
+---
+title: "Mercedes W05"
+nom_tri: "mercedes w05"
+accroche: "Engine and chassis designed together, from day one."
+description: "Mercedes F1 W05 Hybrid (2014): a split-turbo power unit, integrated with the chassis from the design stage; sixteen wins in nineteen races at the start of the hybrid era."
+annee: 2014
+equipe: "Mercedes"
+moteur: "Mercedes PU106, hybrid turbo V6"
+statut: "Raced in 2014; drivers' and constructors' titles"
+concepteurs: ["aldo-costa", "andy-cowell", "ross-brawn"]
+termes: ["groupe-propulseur-hybride", "turbocompresseur"]
+jalons: ["hybride", "rendement-50"]
+sources:
+  - titre: "GrandPrix.com, “Designer doubts Mercedes to dominate” (March 2014)"
+    url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
+  - titre: "Formula 1, “Costa to depart Mercedes and join Dallara”"
+    url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
+  - titre: "Formula 1, “Ross Brawn reveals his favourite car designs” (January 2026)"
+    url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
+  - titre: "Matt Somerfield, Motorsport.com, “The car that set the tone for Mercedes' F1 dominance” (January 2021)"
+    url: "https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/"
+  - titre: "Royal Automobile Club, “In the Rotunda, July 2026”"
+    url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
+photo:
+  fichier: "/assets/voitures/mercedes-w05.jpg"
+  legende: "Lewis Hamilton in first free practice at the Singapore Grand Prix, 19 September 2014."
+  auteur: "Morio"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source: "https://commons.wikimedia.org/wiki/File:Lewis_Hamilton_2014_Singapore_FP1.jpg"
+consultation: "25 October 2026"
+image: "/assets/partage/en/voitures/mercedes-w05.jpg"
+---
+## What it changed
+
+In 2014, the regulations required a [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride): a turbo V6 combined with electric motor-generators. The W05 was Mercedes' answer, and its strength lay first in the method. According to Motorsport.com, it was born of an unprecedented union between the chassis, aerodynamics and engine departments, with each part designed alongside the others.
+
+The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) of the PU106 engine. The compressor was placed at one end of the engine, the turbine at the other: the hot and cold sides stayed apart, and the motor-generator that recovers energy from the exhaust gases found its place between them, in the vee of the engine. A long shaft linked the assembly along the full length of the engine. The intake air was cooled by a liquid-to-air rather than air-to-air intercooler, housed above the fuel tank, which shortened its path.
+
+## Who designed it
+
+- [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari in 2012 as engineering director, led the design of the car.
+- The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).
+- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), team principal until the end of 2013, had left before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. He is owed the method, not the design.
+
+## Limitations
+
+The split turbo was, according to Motorsport.com, a layout fraught with complications: the size and shape of the compressor and turbine had to be rethought, and the oil tank redesigned. At the start of the season, Costa himself doubted the W05 would dominate all year, after Red Bull's rapid progress.
+
+## Legacy
+
+- **2014**: sixteen wins in nineteen Grands Prix and eighteen pole positions. Lewis Hamilton became world champion after a season-long fight with his team-mate Nico Rosberg, and Mercedes won the constructors' title.
+- Costa's design group then dominated the hybrid era: five constructors' titles and five drivers' titles from 2014 to 2018, according to Formula 1.

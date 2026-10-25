@@ -8,6 +8,10 @@
 {{ sep }}{"type":"entree","titre":{{ e.title | jsonify }},"sous":{{ e.accroche | jsonify }},"url":{{ e.url | relative_url | jsonify }},"texte":{{ e.content | strip_html | normalize_whitespace | jsonify }}}
 {%- assign sep = "," -%}
 {%- endfor -%}
+{%- for v in site[T.collection_voitures] -%}
+{%- capture titre_v %}{{ v.title }} ({{ v.annee }}){% endcapture -%}
+{{ sep }}{"type":"voiture","titre":{{ titre_v | jsonify }},"sous":{{ v.accroche | jsonify }},"url":{{ v.url | relative_url | jsonify }},"texte":{{ v.content | strip_html | normalize_whitespace | jsonify }}}
+{%- endfor -%}
 {%- for t in D.glossaire -%}
 {%- capture url_t %}{{ T.url.glossaire | relative_url }}#{{ t.id }}{% endcapture -%}
 {%- capture texte_t %}{{ t.definition }} {{ t.premiere }}{% endcapture -%}

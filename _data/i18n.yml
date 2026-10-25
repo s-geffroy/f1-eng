@@ -12,6 +12,7 @@ fr:
   autre_nom: "English"
   collection_entrees: "ingenieurs"
   collection_dossiers: "dossiers"
+  collection_voitures: "voitures"
   url:
     accueil: "/"
     tiers: "/tiers/"
@@ -22,12 +23,14 @@ fr:
     recherche: "/recherche/"
     methode: "/dossiers/methode/"
     entrees: "/ingenieurs/"
+    voitures: "/voitures/"
     index_recherche: "/recherche.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
   nav:
     - { url: "/", nom: "Index" }
     - { url: "/tiers/", nom: "Tiers" }
+    - { url: "/voitures/", nom: "Voitures" }
     - { url: "/chronologie/", nom: "Chronologie" }
     - { url: "/lignees/", nom: "Lignées" }
     - { url: "/glossaire/", nom: "Glossaire" }
@@ -62,6 +65,15 @@ fr:
     dossier: "Dossier"
     sur: "sur"
     dossiers_aria: "Dossiers voisins"
+    voitures: "Voitures"
+    annee: "Année"
+    equipe: "Équipe"
+    moteur: "Moteur"
+    statut: "Statut"
+    concepteurs: "Conception"
+    glossaire: "Glossaire"
+    chronologie: "Chronologie"
+    voitures_aria: "Voitures voisines dans le temps"
   index:
     titre_page: "Index"
     description: "Encyclopédie des vingt ingénieurs qui ont le plus transformé la conception des Formule 1, classés selon leur influence technique durable."
@@ -71,6 +83,8 @@ fr:
     depart_lien: "la méthode"
     pdf_avant: "La présentation complète est aussi disponible en"
     pdf_lien: "PDF (22 diapositives)"
+    voitures_avant: "Leurs machines ont aussi leurs fiches :"
+    voitures_lien: "les voitures qui ont fait date"
     titre_index: "Index des entrées"
     lettres_aria: "Lettres"
     rechercher: "Rechercher"
@@ -138,7 +152,14 @@ fr:
       terme: "Glossaire"
       jalon: "Chronologie"
       dossier: "Dossiers"
+      voiture: "Voitures"
     sans_js: "La recherche nécessite JavaScript. L'index, le glossaire et la chronologie restent consultables sans lui."
+  voitures:
+    titre_page: "Voitures"
+    description: "Les monoplaces qui ont marqué l'histoire technique de la F1, de la Lancia D50 à la Mercedes W05, reliées à leurs concepteurs."
+    titre: "Les voitures qui ont fait date"
+    accroche: "Dix-huit monoplaces, de 1954 à 2014, chacune liée aux ingénieurs qui l'ont conçue, aux termes du glossaire et aux jalons de la chronologie."
+    sans_photo: "Pas de photo libre connue"
   p404:
     titre: "Page introuvable"
     texte_avant: "Cette adresse ne correspond à aucune page de l'encyclopédie. L'"
@@ -153,6 +174,7 @@ en:
   autre_nom: "Français"
   collection_entrees: "engineers"
   collection_dossiers: "features"
+  collection_voitures: "cars"
   url:
     accueil: "/en/"
     tiers: "/en/tiers/"
@@ -163,12 +185,14 @@ en:
     recherche: "/en/search/"
     methode: "/en/features/methode/"
     entrees: "/en/engineers/"
+    voitures: "/en/cars/"
     index_recherche: "/en/search.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/en/"
   nav:
     - { url: "/en/", nom: "Index" }
     - { url: "/en/tiers/", nom: "Tiers" }
+    - { url: "/en/cars/", nom: "Cars" }
     - { url: "/en/timeline/", nom: "Timeline" }
     - { url: "/en/lineages/", nom: "Lineages" }
     - { url: "/en/glossary/", nom: "Glossary" }
@@ -203,6 +227,15 @@ en:
     dossier: "Feature"
     sur: "of"
     dossiers_aria: "Neighbouring features"
+    voitures: "Cars"
+    annee: "Year"
+    equipe: "Team"
+    moteur: "Engine"
+    statut: "Status"
+    concepteurs: "Design"
+    glossaire: "Glossary"
+    chronologie: "Timeline"
+    voitures_aria: "Neighbouring cars in time"
   index:
     titre_page: "Index"
     description: "An encyclopedia of the twenty engineers who most transformed Formula 1 car design, ranked by their lasting technical influence."
@@ -212,6 +245,8 @@ en:
     depart_lien: "the method"
     pdf_avant: "The full presentation is also available as a"
     pdf_lien: "PDF (22 slides, in French)"
+    voitures_avant: "Their machines have entries too:"
+    voitures_lien: "the cars that made history"
     titre_index: "Index of entries"
     lettres_aria: "Letters"
     rechercher: "Search"
@@ -279,7 +314,14 @@ en:
       terme: "Glossary"
       jalon: "Timeline"
       dossier: "Features"
+      voiture: "Cars"
     sans_js: "Search needs JavaScript. The index, glossary and timeline remain available without it."
+  voitures:
+    titre_page: "Cars"
+    description: "The single-seaters that marked the technical history of F1, from the Lancia D50 to the Mercedes W05, linked to their designers."
+    titre: "The cars that made history"
+    accroche: "Eighteen single-seaters from 1954 to 2014, each linked to the engineers who designed it, to the glossary and to the timeline."
+    sans_photo: "No free photo known"
   p404:
     titre: "Page not found"
     texte_avant: "This address does not match any page of the encyclopedia. The"
