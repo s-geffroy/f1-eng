@@ -10,7 +10,7 @@ pres.title = "Les ingénieurs qui ont révolutionné la Formule 1";
 // Palette du site (assets/css/encyclopedie.css) : papier calque froid, encre graphite,
 // un code par tier ; le rouge est réservé au Tier A.
 const C = {
-  bg: "F3F5F4", ink: "2E3338", sub: "5B636A", rule: "8E979D", light: "D3D8DA",
+  bg: "D9DEDF", ink: "2E3338", sub: "4F575E", rule: "8E979D", light: "C2C9CC",
   A: "C0182C", B: "3D5B74", Cc: "6E767C", D: "AEB5BA", white: "FFFFFF",
 };
 const TIER = { A: C.A, B: C.B, C: C.Cc, D: C.D };
