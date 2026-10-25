@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 3 · Tier A · 93,5/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## La question transformée
 
@@ -32,7 +32,7 @@ Après les titres Cooper de **1959 et 1960**, l'architecture traditionnelle à m
 
 ## Attribution
 
-John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement. Mais [Owen Maddock]({% post_url 2026-10-25-owen-maddock %}) est un concepteur central des Cooper T51 et T53.
+John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement. Mais [Owen Maddock]({{ site.baseurl }}{% post_url 2026-10-25-owen-maddock %}) est un concepteur central des Cooper T51 et T53.
 
 La formulation juste : **Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 
@@ -50,4 +50,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tier A : les cinq révolutionnaires]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tier A : les cinq révolutionnaires]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

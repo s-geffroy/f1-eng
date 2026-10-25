@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 18 · Tier D · 75,5/100** · Confiance : moyenne à élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Une correction nécessaire
 
@@ -15,7 +15,7 @@ La présence d'Owen Maddock corrige le récit simplifié « Cooper = John Cooper
 
 ## Attribution
 
-[John Cooper]({% post_url 2026-10-25-john-cooper %}) reçoit le crédit d'architecte entrepreneurial et technique du basculement vers le moteur arrière. Maddock en est un concepteur essentiel. On ne peut pas créditer intégralement les deux de la même contribution : leurs rôles diffèrent.
+[John Cooper]({{ site.baseurl }}{% post_url 2026-10-25-john-cooper %}) reçoit le crédit d'architecte entrepreneurial et technique du basculement vers le moteur arrière. Maddock en est un concepteur essentiel. On ne peut pas créditer intégralement les deux de la même contribution : leurs rôles diffèrent.
 
 La formulation juste : **Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 
@@ -32,4 +32,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

@@ -7,11 +7,11 @@ categories: ingenieurs
 
 **Rang 9 · Tier B · 86,5/100** · Confiance : très élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Une correction historique
 
-La place élevée de Peter Wright corrige un biais fréquent : attribuer l'effet de sol au seul [Colin Chapman]({% post_url 2026-10-25-colin-chapman %}). Formula 1 relie explicitement Wright et [Tony Rudd]({% post_url 2026-10-25-tony-rudd %}) aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78 et 79.
+La place élevée de Peter Wright corrige un biais fréquent : attribuer l'effet de sol au seul [Colin Chapman]({{ site.baseurl }}{% post_url 2026-10-25-colin-chapman %}). Formula 1 relie explicitement Wright et [Tony Rudd]({{ site.baseurl }}{% post_url 2026-10-25-tony-rudd %}) aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78 et 79.
 
 ## La chaîne
 
@@ -35,4 +35,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

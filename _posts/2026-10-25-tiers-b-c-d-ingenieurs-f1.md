@@ -5,7 +5,7 @@ date: 2026-10-25
 categories: classement
 ---
 
-*Troisième article de la série. Après les cinq du [Tier A]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}), les quinze suivants.*
+*Troisième article de la série. Après les cinq du [Tier A]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}), les quinze suivants.*
 
 Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures. Être classé hors du Tier A n'est pas un jugement de talent : c'est le constat d'une limite précise, qu'il s'agisse d'une attribution plus collective, d'une portée plus spécialisée, d'une durée plus courte ou d'une dépendance à une période réglementaire.
 
@@ -13,11 +13,11 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 | Rang | Ingénieur | Score | En une ligne |
 |---:|---|---:|---|
-| 6 | [Bernard Dudot]({% post_url 2026-10-25-bernard-dudot %}) | 90,0 | Propulsion : turbo, distribution pneumatique, V10 |
-| 7 | [Gordon Murray]({% post_url 2026-10-25-gordon-murray %}) | 88,5 | Architectures radicales et pit-stop tactique |
-| 8 | [Mauro Forghieri]({% post_url 2026-10-25-mauro-forghieri %}) | 87,5 | Ingénierie totale moteur/châssis/transmission/aéro |
-| 9 | [Peter Wright]({% post_url 2026-10-25-peter-wright %}) | 86,5 | Développement causal de l'effet de sol Lotus |
-| 10 | [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}) | 85,0 | Révolution numérique silencieuse |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% post_url 2026-10-25-bernard-dudot %}) | 90,0 | Propulsion : turbo, distribution pneumatique, V10 |
+| 7 | [Gordon Murray]({{ site.baseurl }}{% post_url 2026-10-25-gordon-murray %}) | 88,5 | Architectures radicales et pit-stop tactique |
+| 8 | [Mauro Forghieri]({{ site.baseurl }}{% post_url 2026-10-25-mauro-forghieri %}) | 87,5 | Ingénierie totale moteur/châssis/transmission/aéro |
+| 9 | [Peter Wright]({{ site.baseurl }}{% post_url 2026-10-25-peter-wright %}) | 86,5 | Développement causal de l'effet de sol Lotus |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}) | 85,0 | Révolution numérique silencieuse |
 
 **Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire.
 
@@ -41,16 +41,16 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 
 | Rang | Tier | Ingénieur | Domaine | Raison du classement | Limite |
 |---:|:---:|---|---|---|---|
-| 11 | C | [Patrick Head]({% post_url 2026-10-25-patrick-head %}) | Ingénierie système | Architecte de l'organisation technique Williams sur plusieurs générations | Apport d'organisation plus que rupture unique |
-| 12 | C | [Ross Brawn]({% post_url 2026-10-25-ross-brawn %}) | Méthode | Développement anticipé, intégration conception/exploitation/stratégie | Révolution de processus, peu visible sur l'objet |
-| 13 | C | [Andy Cowell]({% post_url 2026-10-25-andy-cowell %}) | Power unit | Exécution exceptionnelle du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
-| 14 | C | [Jean-Claude Migeot]({% post_url 2026-10-25-jean-claude-migeot %}) | Aérodynamique | Nez relevé de la Tyrrell 019 et alimentation du plancher | Principe vite absorbé par l'évolution générale |
-| 15 | C | [Tony Rudd]({% post_url 2026-10-25-tony-rudd %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
-| 16 | D | [Mike Costin]({% post_url 2026-10-25-mike-costin %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |
-| 17 | D | [Vittorio Jano]({% post_url 2026-10-25-vittorio-jano %}) | Architecture | Lancia D50 et filiation technique pré-F1/F1 | Œuvre en grande partie antérieure à la F1 |
-| 18 | D | [Owen Maddock]({% post_url 2026-10-25-owen-maddock %}) | Châssis | Concepteur des Cooper championnes à moteur arrière | Crédit partagé avec John Cooper |
-| 19 | D | [Paddy Lowe]({% post_url 2026-10-25-paddy-lowe %}) | Électronique | Logiciel de la suspension active Williams | Rôle au sein d'une chaîne collective |
-| 20 | D | [Rory Byrne]({% post_url 2026-10-25-rory-byrne %}) | Intégration | Performance répétée chez Benetton et Ferrari | Pas de rupture unique paradigmatique |
+| 11 | C | [Patrick Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}) | Ingénierie système | Architecte de l'organisation technique Williams sur plusieurs générations | Apport d'organisation plus que rupture unique |
+| 12 | C | [Ross Brawn]({{ site.baseurl }}{% post_url 2026-10-25-ross-brawn %}) | Méthode | Développement anticipé, intégration conception/exploitation/stratégie | Révolution de processus, peu visible sur l'objet |
+| 13 | C | [Andy Cowell]({{ site.baseurl }}{% post_url 2026-10-25-andy-cowell %}) | Power unit | Exécution exceptionnelle du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
+| 14 | C | [Jean-Claude Migeot]({{ site.baseurl }}{% post_url 2026-10-25-jean-claude-migeot %}) | Aérodynamique | Nez relevé de la Tyrrell 019 et alimentation du plancher | Principe vite absorbé par l'évolution générale |
+| 15 | C | [Tony Rudd]({{ site.baseurl }}{% post_url 2026-10-25-tony-rudd %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
+| 16 | D | [Mike Costin]({{ site.baseurl }}{% post_url 2026-10-25-mike-costin %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |
+| 17 | D | [Vittorio Jano]({{ site.baseurl }}{% post_url 2026-10-25-vittorio-jano %}) | Architecture | Lancia D50 et filiation technique pré-F1/F1 | Œuvre en grande partie antérieure à la F1 |
+| 18 | D | [Owen Maddock]({{ site.baseurl }}{% post_url 2026-10-25-owen-maddock %}) | Châssis | Concepteur des Cooper championnes à moteur arrière | Crédit partagé avec John Cooper |
+| 19 | D | [Paddy Lowe]({{ site.baseurl }}{% post_url 2026-10-25-paddy-lowe %}) | Électronique | Logiciel de la suspension active Williams | Rôle au sein d'une chaîne collective |
+| 20 | D | [Rory Byrne]({{ site.baseurl }}{% post_url 2026-10-25-rory-byrne %}) | Intégration | Performance répétée chez Benetton et Ferrari | Pas de rupture unique paradigmatique |
 
 ## Une leçon commune
 
@@ -58,10 +58,10 @@ Plusieurs de ces ingénieurs n'ont pas changé la forme de la voiture, mais **la
 
 ## Dans cette série
 
-1. [La méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})
-2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
+1. [La méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})
+2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
 3. **Tiers B, C et D : quinze transformateurs** (cet article)
-4. [Le classement final et les lignées techniques]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+4. [Le classement final et les lignées techniques]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
 
 ## Sources
 

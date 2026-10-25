@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 11 · Tier C · 83,5/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a construit
 
@@ -15,7 +15,7 @@ Patrick Head est l'architecte majeur de l'organisation technique Williams. Il a 
 
 ## Son rôle dans l'écosystème Williams
 
-La suspension active Williams illustre ce rôle : une chaîne d'ingénieurs, dans laquelle Head occupe la position d'architecte et de directeur d'ingénierie système, aux côtés de [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}), [Paddy Lowe]({% post_url 2026-10-25-paddy-lowe %}) et [Adrian Newey]({% post_url 2026-10-25-adrian-newey %}). À chacun son apport : à Head, l'architecture d'ensemble et la direction.
+La suspension active Williams illustre ce rôle : une chaîne d'ingénieurs, dans laquelle Head occupe la position d'architecte et de directeur d'ingénierie système, aux côtés de [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}), [Paddy Lowe]({{ site.baseurl }}{% post_url 2026-10-25-paddy-lowe %}) et [Adrian Newey]({{ site.baseurl }}{% post_url 2026-10-25-adrian-newey %}). À chacun son apport : à Head, l'architecture d'ensemble et la direction.
 
 ## Pourquoi le Tier C
 
@@ -23,7 +23,7 @@ Sa contribution est majeure et durable, mais elle relève de l'organisation et d
 
 ## Lignée
 
-Dans la branche organisation système : Head → [Brawn]({% post_url 2026-10-25-ross-brawn %}) → équipes F1 modernes.
+Dans la branche organisation système : Head → [Brawn]({{ site.baseurl }}{% post_url 2026-10-25-ross-brawn %}) → équipes F1 modernes.
 
 ## Sources
 
@@ -34,4 +34,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

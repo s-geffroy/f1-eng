@@ -11,26 +11,26 @@ categories: classement
 
 | Rang | Ingénieur | Tier | Score | Contribution structurante |
 |---:|---|:---:|---:|---|
-| **1** | **[Colin Chapman]({% post_url 2026-10-25-colin-chapman %})** | **A** | **96,0** | Monocoque, architecture globale, aérodynamique, programme effet de sol |
-| **2** | **[John Barnard]({% post_url 2026-10-25-john-barnard %})** | **A** | **95,0** | Monocoque carbone, boîte semi-automatique à palettes |
-| **3** | **[John Cooper]({% post_url 2026-10-25-john-cooper %})** | **A** | **93,5** | Généralisation du moteur central-arrière |
-| **4** | **[Keith Duckworth]({% post_url 2026-10-25-keith-duckworth %})** | **A** | **92,5** | Cosworth DFV, moteur structurel et moteur-client compétitif |
-| **5** | **[Adrian Newey]({% post_url 2026-10-25-adrian-newey %})** | **A** | **91,5** | Aérodynamique systémique et intégration globale |
-| 6 | [Bernard Dudot]({% post_url 2026-10-25-bernard-dudot %}) | B | 90,0 | Turbo Renault, distribution pneumatique, V10 |
-| 7 | [Gordon Murray]({% post_url 2026-10-25-gordon-murray %}) | B | 88,5 | Architectures radicales, BT46B, pit-stop moderne |
-| 8 | [Mauro Forghieri]({% post_url 2026-10-25-mauro-forghieri %}) | B | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
-| 9 | [Peter Wright]({% post_url 2026-10-25-peter-wright %}) | B | 86,5 | Développement causal de l'effet de sol Lotus |
-| 10 | [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}) | B | 85,0 | CAO/CAE, données, soufflerie, suspension active |
-| 11 | [Patrick Head]({% post_url 2026-10-25-patrick-head %}) | C | 83,5 | Architecture Williams et ingénierie système |
-| 12 | [Ross Brawn]({% post_url 2026-10-25-ross-brawn %}) | C | 82,0 | Méthode intégrée et développement anticipé |
-| 13 | [Andy Cowell]({% post_url 2026-10-25-andy-cowell %}) | C | 81,0 | Power unit hybride Mercedes |
-| 14 | [Jean-Claude Migeot]({% post_url 2026-10-25-jean-claude-migeot %}) | C | 80,0 | Nez relevé et alimentation du plancher |
-| 15 | [Tony Rudd]({% post_url 2026-10-25-tony-rudd %}) | C | 79,0 | Recherche aéro et genèse de l'effet de sol |
-| 16 | [Mike Costin]({% post_url 2026-10-25-mike-costin %}) | D | 77,5 | Cofondateur de Cosworth, industrialisation |
-| 17 | [Vittorio Jano]({% post_url 2026-10-25-vittorio-jano %}) | D | 76,5 | Lancia D50, architecture intégrée |
-| 18 | [Owen Maddock]({% post_url 2026-10-25-owen-maddock %}) | D | 75,5 | Conception des Cooper championnes |
-| 19 | [Paddy Lowe]({% post_url 2026-10-25-paddy-lowe %}) | D | 74,5 | Électronique et logiciel de la suspension active |
-| 20 | [Rory Byrne]({% post_url 2026-10-25-rory-byrne %}) | D | 73,5 | Intégration châssis/aéro, performance répétée |
+| **1** | **[Colin Chapman]({{ site.baseurl }}{% post_url 2026-10-25-colin-chapman %})** | **A** | **96,0** | Monocoque, architecture globale, aérodynamique, programme effet de sol |
+| **2** | **[John Barnard]({{ site.baseurl }}{% post_url 2026-10-25-john-barnard %})** | **A** | **95,0** | Monocoque carbone, boîte semi-automatique à palettes |
+| **3** | **[John Cooper]({{ site.baseurl }}{% post_url 2026-10-25-john-cooper %})** | **A** | **93,5** | Généralisation du moteur central-arrière |
+| **4** | **[Keith Duckworth]({{ site.baseurl }}{% post_url 2026-10-25-keith-duckworth %})** | **A** | **92,5** | Cosworth DFV, moteur structurel et moteur-client compétitif |
+| **5** | **[Adrian Newey]({{ site.baseurl }}{% post_url 2026-10-25-adrian-newey %})** | **A** | **91,5** | Aérodynamique systémique et intégration globale |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% post_url 2026-10-25-bernard-dudot %}) | B | 90,0 | Turbo Renault, distribution pneumatique, V10 |
+| 7 | [Gordon Murray]({{ site.baseurl }}{% post_url 2026-10-25-gordon-murray %}) | B | 88,5 | Architectures radicales, BT46B, pit-stop moderne |
+| 8 | [Mauro Forghieri]({{ site.baseurl }}{% post_url 2026-10-25-mauro-forghieri %}) | B | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
+| 9 | [Peter Wright]({{ site.baseurl }}{% post_url 2026-10-25-peter-wright %}) | B | 86,5 | Développement causal de l'effet de sol Lotus |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}) | B | 85,0 | CAO/CAE, données, soufflerie, suspension active |
+| 11 | [Patrick Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}) | C | 83,5 | Architecture Williams et ingénierie système |
+| 12 | [Ross Brawn]({{ site.baseurl }}{% post_url 2026-10-25-ross-brawn %}) | C | 82,0 | Méthode intégrée et développement anticipé |
+| 13 | [Andy Cowell]({{ site.baseurl }}{% post_url 2026-10-25-andy-cowell %}) | C | 81,0 | Power unit hybride Mercedes |
+| 14 | [Jean-Claude Migeot]({{ site.baseurl }}{% post_url 2026-10-25-jean-claude-migeot %}) | C | 80,0 | Nez relevé et alimentation du plancher |
+| 15 | [Tony Rudd]({{ site.baseurl }}{% post_url 2026-10-25-tony-rudd %}) | C | 79,0 | Recherche aéro et genèse de l'effet de sol |
+| 16 | [Mike Costin]({{ site.baseurl }}{% post_url 2026-10-25-mike-costin %}) | D | 77,5 | Cofondateur de Cosworth, industrialisation |
+| 17 | [Vittorio Jano]({{ site.baseurl }}{% post_url 2026-10-25-vittorio-jano %}) | D | 76,5 | Lancia D50, architecture intégrée |
+| 18 | [Owen Maddock]({{ site.baseurl }}{% post_url 2026-10-25-owen-maddock %}) | D | 75,5 | Conception des Cooper championnes |
+| 19 | [Paddy Lowe]({{ site.baseurl }}{% post_url 2026-10-25-paddy-lowe %}) | D | 74,5 | Électronique et logiciel de la suspension active |
+| 20 | [Rory Byrne]({{ site.baseurl }}{% post_url 2026-10-25-rory-byrne %}) | D | 73,5 | Intégration châssis/aéro, performance répétée |
 
 > Les scores sont un instrument comparatif, pas des faits historiques. Un écart de 1 ou 2 points ne doit pas être surinterprété.
 
@@ -58,9 +58,9 @@ Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il class
 
 ## Dans cette série
 
-1. [La méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})
-2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
-3. [Tiers B, C et D : quinze transformateurs]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %})
+1. [La méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})
+2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
+3. [Tiers B, C et D : quinze transformateurs]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %})
 4. **Le classement final et les lignées techniques** (cet article)
 
 ## Sources principales

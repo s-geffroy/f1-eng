@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 14 · Tier C · 80/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a changé
 
@@ -19,7 +19,7 @@ La rupture est réelle et durable, mais le principe a été **rapidement absorb�
 
 ## Lignée
 
-Dans la branche aérodynamique : [Chapman]({% post_url 2026-10-25-colin-chapman %})/[Wright]({% post_url 2026-10-25-peter-wright %}) → [Murray]({% post_url 2026-10-25-gordon-murray %})/Migeot → [Newey]({% post_url 2026-10-25-adrian-newey %}).
+Dans la branche aérodynamique : [Chapman]({{ site.baseurl }}{% post_url 2026-10-25-colin-chapman %})/[Wright]({{ site.baseurl }}{% post_url 2026-10-25-peter-wright %}) → [Murray]({{ site.baseurl }}{% post_url 2026-10-25-gordon-murray %})/Migeot → [Newey]({{ site.baseurl }}{% post_url 2026-10-25-adrian-newey %}).
 
 ## Sources
 
@@ -29,4 +29,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

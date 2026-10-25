@@ -9,4 +9,4 @@ discipline, en privilégiant l'influence technique durable plutôt que le seul
 palmarès, et en rendant à chacun sa juste part dans des innovations souvent
 collectives.
 
-**Commencer la lecture :** [Qui a vraiment révolutionné la F1 ? La méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})
+**Commencer la lecture :** [Qui a vraiment révolutionné la F1 ? La méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %})

@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 2 · Tier A · 95/100** · Confiance : très élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## La question transformée
 
@@ -39,7 +39,7 @@ Barnard introduit la **boîte semi-automatique commandée au volant**, avec ses 
 
 Deux ruptures **indépendantes**, toutes deux devenues des standards, et une paternité directe nettement documentée : c'est probablement le révolutionnaire dont la paternité personnelle est la plus claire de toute l'histoire de la F1.
 
-Il reste derrière [Colin Chapman]({% post_url 2026-10-25-colin-chapman %}) par la largeur historique : moins de ruptures, moins de répétition. Mais l'écart est mince. Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant.
+Il reste derrière [Colin Chapman]({{ site.baseurl }}{% post_url 2026-10-25-colin-chapman %}) par la largeur historique : moins de ruptures, moins de répétition. Mais l'écart est mince. Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant.
 
 ## Verdict
 
@@ -55,4 +55,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tier A : les cinq révolutionnaires]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tier A : les cinq révolutionnaires]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

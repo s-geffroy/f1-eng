@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 12 · Tier C · 82/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a changé
 
@@ -20,7 +20,7 @@ La contribution la plus structurante de Ross Brawn relève de la **méthode** :
 
 ## Une révolution invisible sur la carrosserie
 
-Comme [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}), Brawn montre qu'une révolution technique peut transformer le processus sans être visible sur la voiture.
+Comme [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}), Brawn montre qu'une révolution technique peut transformer le processus sans être visible sur la voiture.
 
 ## Attribution
 
@@ -32,7 +32,7 @@ Une transformation durable de la manière de travailler, mais une révolution de
 
 ## Lignée
 
-Dans la branche organisation système : [Head]({% post_url 2026-10-25-patrick-head %}) → Brawn → équipes F1 modernes.
+Dans la branche organisation système : [Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}) → Brawn → équipes F1 modernes.
 
 ## Sources
 
@@ -43,4 +43,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

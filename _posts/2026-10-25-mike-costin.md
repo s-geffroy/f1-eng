@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 16 · Tier D · 77,5/100** · Confiance : moyenne à élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a apporté
 
@@ -15,7 +15,7 @@ Mike Costin est **cofondateur de Cosworth** et un acteur majeur de son succès, 
 
 ## Pourquoi derrière Duckworth
 
-Sa paternité technique du DFV est **moins directement individualisable** que celle de [Keith Duckworth]({% post_url 2026-10-25-keith-duckworth %}), figure technique centrale du projet.
+Sa paternité technique du DFV est **moins directement individualisable** que celle de [Keith Duckworth]({{ site.baseurl }}{% post_url 2026-10-25-keith-duckworth %}), figure technique centrale du projet.
 
 La formulation juste : **le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.**
 
@@ -27,4 +27,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

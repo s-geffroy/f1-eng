@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 4 · Tier A · 92,5/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## La question transformée
 
@@ -31,7 +31,7 @@ C'est une rupture double. Sur le plan technique, elle installe le moteur porteur
 
 ## Attribution
 
-Keith Duckworth est la figure technique centrale du projet, mais le DFV n'est pas une création isolée. [Mike Costin]({% post_url 2026-10-25-mike-costin %}), cofondateur de Cosworth, reste dans la chaîne causale.
+Keith Duckworth est la figure technique centrale du projet, mais le DFV n'est pas une création isolée. [Mike Costin]({{ site.baseurl }}{% post_url 2026-10-25-mike-costin %}), cofondateur de Cosworth, reste dans la chaîne causale.
 
 La formulation juste : **le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.**
 
@@ -48,4 +48,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tier A : les cinq révolutionnaires]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tier A : les cinq révolutionnaires]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

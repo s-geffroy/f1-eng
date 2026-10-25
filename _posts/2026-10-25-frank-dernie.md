@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 10 · Tier B · 85/100** · Confiance : moyenne à élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a changé
 
@@ -24,7 +24,7 @@ Son classement repose autant sur la transformation du **processus d'ingénierie*
 
 ## Attribution
 
-La suspension active Williams est le fruit d'une chaîne d'ingénieurs : [Patrick Head]({% post_url 2026-10-25-patrick-head %}), Frank Dernie, [Paddy Lowe]({% post_url 2026-10-25-paddy-lowe %}), [Adrian Newey]({% post_url 2026-10-25-adrian-newey %}) et d'autres.
+La suspension active Williams est le fruit d'une chaîne d'ingénieurs : [Patrick Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% post_url 2026-10-25-paddy-lowe %}), [Adrian Newey]({{ site.baseurl }}{% post_url 2026-10-25-adrian-newey %}) et d'autres.
 
 La formulation juste : **Dernie est un acteur pionnier de l'ingénierie numérique et du programme Williams de suspension active.**
 
@@ -41,4 +41,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 5 · Tier A · 91,5/100** · Confiance : très élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## La question transformée
 
@@ -37,7 +37,7 @@ Il domine pourtant une catégorie à lui seul : **rester au sommet de l'ingénie
 
 ## Attribution
 
-La formulation juste : **Newey a joué un rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives.** Chez Williams, par exemple, la suspension active est le fruit d'une chaîne qui comprend [Patrick Head]({% post_url 2026-10-25-patrick-head %}), [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}) et [Paddy Lowe]({% post_url 2026-10-25-paddy-lowe %}).
+La formulation juste : **Newey a joué un rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives.** Chez Williams, par exemple, la suspension active est le fruit d'une chaîne qui comprend [Patrick Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}), [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}) et [Paddy Lowe]({{ site.baseurl }}{% post_url 2026-10-25-paddy-lowe %}).
 
 ## Verdict
 
@@ -53,4 +53,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tier A : les cinq révolutionnaires]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tier A : les cinq révolutionnaires]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

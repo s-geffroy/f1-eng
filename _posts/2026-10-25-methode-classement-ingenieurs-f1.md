@@ -75,9 +75,9 @@ Elle produit quatre tiers : cinq révolutionnaires de paradigme (Tier A), puis q
 ## Dans cette série
 
 1. **La méthode du classement** (cet article)
-2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
-3. [Tiers B, C et D : quinze transformateurs]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %})
-4. [Le classement final et les lignées techniques]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+2. [Tier A : cinq ingénieurs qui ont changé la grammaire de la F1]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %})
+3. [Tiers B, C et D : quinze transformateurs]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %})
+4. [Le classement final et les lignées techniques]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
 
 ## Sources
 

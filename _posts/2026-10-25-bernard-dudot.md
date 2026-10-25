@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 6 · Tier B · 90/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Trois mutations moteur
 
@@ -29,7 +29,7 @@ Ces réalisations sont celles d'une organisation, Renault Sport. **Dudot n'est p
 
 ## Lignée
 
-Dans la branche moteur du classement : [Duckworth]({% post_url 2026-10-25-keith-duckworth %}) → Dudot → [Cowell]({% post_url 2026-10-25-andy-cowell %}).
+Dans la branche moteur du classement : [Duckworth]({{ site.baseurl }}{% post_url 2026-10-25-keith-duckworth %}) → Dudot → [Cowell]({{ site.baseurl }}{% post_url 2026-10-25-andy-cowell %}).
 
 ## Sources
 
@@ -40,4 +40,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

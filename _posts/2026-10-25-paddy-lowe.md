@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 19 · Tier D · 74,5/100** · Confiance : moyenne à élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a apporté
 
@@ -15,7 +15,7 @@ Paddy Lowe est un ingénieur systèmes et électronique de premier plan. Formula
 
 ## Son rôle dans l'écosystème Williams
 
-Dans la chaîne de la suspension active, Lowe porte l'électronique et le logiciel ; [Patrick Head]({% post_url 2026-10-25-patrick-head %}) l'architecture d'ensemble ; [Frank Dernie]({% post_url 2026-10-25-frank-dernie %}) l'ingénierie numérique et le programme ; [Adrian Newey]({% post_url 2026-10-25-adrian-newey %}) l'aérodynamique.
+Dans la chaîne de la suspension active, Lowe porte l'électronique et le logiciel ; [Patrick Head]({{ site.baseurl }}{% post_url 2026-10-25-patrick-head %}) l'architecture d'ensemble ; [Frank Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}) l'ingénierie numérique et le programme ; [Adrian Newey]({{ site.baseurl }}{% post_url 2026-10-25-adrian-newey %}) l'aérodynamique.
 
 ## Pourquoi le Tier D
 
@@ -23,7 +23,7 @@ Un apport décisif, mais au sein d'une chaîne collective : sa contribution est 
 
 ## Lignée
 
-Dans la branche numérique et contrôle : [Dernie]({% post_url 2026-10-25-frank-dernie %}) → Lowe → ingénierie moderne.
+Dans la branche numérique et contrôle : [Dernie]({{ site.baseurl }}{% post_url 2026-10-25-frank-dernie %}) → Lowe → ingénierie moderne.
 
 ## Sources
 
@@ -34,4 +34,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

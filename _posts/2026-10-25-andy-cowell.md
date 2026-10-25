@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 13 · Tier C · 81/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## Ce qu'il a réalisé
 
@@ -19,7 +19,7 @@ Cowell est légèrement pénalisé par un point de méthode : l'**hybridation é
 
 ## Lignée
 
-Dans la branche moteur : [Duckworth]({% post_url 2026-10-25-keith-duckworth %}) → [Dudot]({% post_url 2026-10-25-bernard-dudot %}) → Cowell.
+Dans la branche moteur : [Duckworth]({{ site.baseurl }}{% post_url 2026-10-25-keith-duckworth %}) → [Dudot]({{ site.baseurl }}{% post_url 2026-10-25-bernard-dudot %}) → Cowell.
 
 ## Sources
 
@@ -30,4 +30,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tiers B, C et D]({{ site.baseurl }}{% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})

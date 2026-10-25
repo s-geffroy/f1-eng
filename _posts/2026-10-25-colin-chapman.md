@@ -7,7 +7,7 @@ categories: ingenieurs
 
 **Rang 1 · Tier A · 96/100** · Confiance : élevée
 
-*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({{ site.baseurl }}{% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
 
 ## La question transformée
 
@@ -27,11 +27,11 @@ Une philosophie relie ces ruptures : **architecture, légèreté, aéro.**
 
 ## Pourquoi le n° 1
 
-Sur la largeur historique, personne ne l'égale : plusieurs changements de paradigme, tous diffusés au reste du plateau. C'est ce critère de répétition des ruptures qui le place devant [John Barnard]({% post_url 2026-10-25-john-barnard %}), dont la paternité est pourtant plus nette.
+Sur la largeur historique, personne ne l'égale : plusieurs changements de paradigme, tous diffusés au reste du plateau. C'est ce critère de répétition des ruptures qui le place devant [John Barnard]({{ site.baseurl }}{% post_url 2026-10-25-john-barnard %}), dont la paternité est pourtant plus nette.
 
 ## Attribution : ce qu'il faut corriger
 
-La réputation de Chapman attire à lui des innovations produites par ses équipes. L'effet de sol en est l'exemple type. [Peter Wright]({% post_url 2026-10-25-peter-wright %}) et [Tony Rudd]({% post_url 2026-10-25-tony-rudd %}) avaient travaillé le concept chez BRM ; chez Lotus, Chapman leur demande de repenser la configuration fondamentale d'une F1 ; Ralph Bellamy et Tony Southgate interviennent aussi dans la conception de la Lotus 78.
+La réputation de Chapman attire à lui des innovations produites par ses équipes. L'effet de sol en est l'exemple type. [Peter Wright]({{ site.baseurl }}{% post_url 2026-10-25-peter-wright %}) et [Tony Rudd]({{ site.baseurl }}{% post_url 2026-10-25-tony-rudd %}) avaient travaillé le concept chez BRM ; chez Lotus, Chapman leur demande de repenser la configuration fondamentale d'une F1 ; Ralph Bellamy et Tony Southgate interviennent aussi dans la conception de la Lotus 78.
 
 La formulation juste : **Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1.**
 
@@ -49,4 +49,4 @@ Consultées le 9 août 2026.
 
 ---
 
-[Tier A : les cinq révolutionnaires]({% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
+[Tier A : les cinq révolutionnaires]({{ site.baseurl }}{% post_url 2026-10-25-tier-a-ingenieurs-revolutionnaires-f1 %}) · [Classement complet]({{ site.baseurl }}{% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
