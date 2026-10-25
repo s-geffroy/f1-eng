@@ -1,16 +1,18 @@
 {
   "name": "f1-eng-deck",
   "private": true,
-  "description": "Presentation du classement : genere le .pptx et le PDF publie par le site",
+  "description": "Presentation du classement (.pptx, PDF) et cartes de partage du site",
   "scripts": {
     "fonts": "sh fonts.sh",
     "portraits": "node portraits.js",
     "pptx": "node portraits.js && node build.js",
-    "pdf": "node portraits.js && node build.js pdf"
+    "pdf": "node portraits.js && node build.js pdf",
+    "cartes": "node portraits.js && node cartes.js"
   },
   "dependencies": {
     "jimp": "0.22.12",
     "pdfkit": "0.15.0",
-    "pptxgenjs": "3.12.0"
+    "pptxgenjs": "3.12.0",
+    "pureimage": "0.4.13"
   }
 }

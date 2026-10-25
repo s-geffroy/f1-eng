@@ -1,4 +1,8 @@
-# f1-eng
+# f1-eng -- Ingenieurs de la F1
+
+Encyclopedie en ligne des vingt ingenieurs qui ont le plus transforme la
+conception des Formule 1, classes selon leur influence technique durable et non
+selon leur palmares : https://s-geffroy.github.io/f1-eng/
 
 Site **Jekyll** publie par **GitHub Pages**. **Rien n'est heberge ici.**
 
@@ -42,6 +46,9 @@ puisqu'ils demandent des reglages differents dans Settings > Pages.
 
 ## Publier
 
+Chaque push publie immediatement : verifier le front matter des fichiers
+touches avant de pousser.
+
 ```bash
 git add -A
 git commit -m "..."
@@ -55,25 +62,94 @@ le constructeur natif s'y affiche.
 ## Organisation
 
 ```
-_config.yml        reglages du site (titre, url, baseurl, greffons, exclusions)
-index.md           page d'accueil
-404.html           page servie sur une adresse inconnue
-_posts/            articles : AAAA-MM-JJ-titre.md
-_drafts/           brouillons : jamais publies (a creer au besoin)
-assets/            images, fichiers joints
-specs/             specifications du projet, exclues du site
+_config.yml          reglages : url, baseurl, collections, greffons, exclusions
+index.html           accueil : index alphabetique, recherche et filtres
+tiers.html           les quatre tiers et leurs membres
+lignees.html         filiations techniques (donnees : _data/lignees.yml)
+dossiers/index.html  liste des dossiers
+404.html             page servie sur une adresse inconnue
+_ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/
+_dossiers/           textes de synthese        -> /dossiers/<id>/
+_data/               tiers.yml, lignees.yml
+_layouts/            default, entree (cartouche, portrait), dossier
+_includes/           lien-entree.html
+assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
+assets/portraits/    portraits libres de droits (credits dans les entrees)
+assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
+assets/docs/         presentation PDF telechargeable (generee par deck/)
+deck/                outils Node : presentation .pptx/PDF, cartes de partage
+specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
 
-Un article porte un front matter :
+Il n'y a plus d'articles dates : `_posts/` et `_drafts/` ne servent pas. Les
+anciennes adresses du blog (`/classement/2026/10/25/...`,
+`/ingenieurs/2026/10/25/...`) redirigent vers les nouvelles grace a
+`redirect_from:` dans chaque entree (greffon `jekyll-redirect-from`). Ne pas
+retirer ces lignes.
 
-```markdown
----
-layout: post
-title: "Titre de l'article"
-date: 2026-08-25
-categories: [notes]
----
+### Une entree (`_ingenieurs/<id>.md`)
+
+Front matter utilise par les gabarits :
+
+```yaml
+title: "Chapman, Colin"          # vedette : Nom, Prenom
+nom_complet: "Colin Chapman"
+nom_tri: "chapman colin"         # tri de l'index
+accroche: "..."                  # phrase sous la vedette
+rang: 1                          # rang, tier et score : ceux de la spec, a l'identique
+tier: A
+score: "96,0"
+confiance: "Elevee"              # avec ses accents dans le fichier reel
+domaine: "Architecture"          # alimente le filtre de l'index
+lignees: ["architecture"]        # identifiants de _data/lignees.yml
+voir_aussi: ["peter-wright"]     # identifiants d'autres entrees
+sources:                         # affichees en marge, sous le cartouche
+  - titre: "..."
+    url: "https://..."
+portrait:                        # facultatif : seulement une image libre verifiee
+  fichier: "/assets/portraits/<id>.jpg"
+  legende: "..."
+  auteur: "..."
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://..."
+  source: "https://commons.wikimedia.org/wiki/File:..."
+image: "/assets/partage/<id>.png" # carte de partage
+redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 ```
+
+### Regles de contenu
+
+- Le contenu publie s'ecrit en francais normal, avec ses accents.
+- Rangs, tiers et scores viennent de la specification et ne se modifient pas
+  sans demande explicite ; les scores sont un instrument comparatif.
+- Chaque fait s'appuie sur une source ouverte et verifiee, citee dans l'entree.
+  Pas de fait de memoire.
+- Paternite : ne jamais crediter un ingenieur seul d'une realisation
+  collective (effet de sol Lotus, DFV, Cooper moteur arriere, Williams active).
+
+### Portraits
+
+Seulement des images reellement libres (domaine public, CC0, CC BY, CC BY-SA,
+Art Libre), verifiees une a une sur Wikimedia Commons : bonne personne, licence
+et auteur. Le credit (auteur, licence et lien, source) est obligatoire, ainsi
+que la mention des modifications (affichage en noir et blanc sur le site,
+recadrage dans le deck). Une image « fair use » ou sous droits reserves
+demande une autorisation ecrite : citer l'auteur ne suffit pas.
+Neuf entrees n'ont pas de portrait libre connu ; elles s'affichent sans image.
+
+### Outils (`deck/`)
+
+```bash
+cd deck
+npm ci && npm run fonts     # premiere fois : dependances et polices du site
+npm run pdf                 # assets/docs/ingenieurs-revolutionnaires-F1.pdf
+npm run pptx                # deck/out/... .pptx (non versionne, avec notes)
+npm run cartes              # assets/partage/*.png
+```
+
+Apres une modification d'une entree (accroche, rang, portrait), relancer
+`npm run cartes` ; apres une modification du deck, `npm run pdf`. Puis commit
++ push. Detail dans `deck/README.md`.
 
 ## Domaine personnalise
 

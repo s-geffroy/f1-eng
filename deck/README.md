@@ -8,6 +8,17 @@ Une seule description du deck (`build.js`) produit deux fichiers :
   que le site propose au telechargement. `pdf-recorder.js` rejoue les memes
   appels avec pdfkit ; le PDF embarque les polices, mais pas les notes.
 
+Deux autres scripts :
+
+- `portraits.js` (lance par les commandes ci-dessus) : prepare les portraits
+  du deck a partir de `../assets/portraits/` (niveaux de gris, recadrage ;
+  visage cible pour les photos de groupe, table `VISAGE`). Les credits sont lus
+  dans le front matter des entrees `../_ingenieurs/`.
+- `npm run cartes` : `cartes.js` dessine les cartes de partage 1200x630 dans
+  `../assets/partage/` (une par entree + `defaut.png`), avec pureimage
+  (JavaScript pur). A relancer apres une modification d'accroche, de rang ou de
+  portrait.
+
 Premiere fois :
 
     npm ci

@@ -47,6 +47,12 @@ collections:
     permalink: /dossiers/:name/
 
 defaults:
+  # Image de partage (Open Graph) par defaut ; chaque entree a la sienne dans son
+  # front matter (image:). Cartes generees par deck/cartes.js.
+  - scope:
+      path: ""
+    values:
+      image: /assets/partage/defaut.png
   - scope:
       path: ""
       type: ingenieurs
