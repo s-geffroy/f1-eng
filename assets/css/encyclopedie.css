@@ -295,6 +295,12 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 
 /* ---------- Liste des dossiers ---------- */
 
+.telechargement {
+  display: inline-block; margin: 0 0 2.5rem; padding: 0.6rem 0.9rem;
+  background: var(--feuille); border: var(--trait-fort) solid var(--graphite);
+}
+.telechargement a { font-family: var(--titre); font-size: 1.25rem; font-weight: 600; }
+
 .dossiers { margin: 0; padding-left: 2.5rem; max-width: 48rem; }
 .dossiers li { padding-block: 1rem; border-bottom: var(--trait-fin) solid var(--trait); }
 .dossiers li::marker { font-family: var(--titre); font-size: 1.75rem; font-weight: 700; }
