@@ -30,6 +30,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
   - titre: "Stellantis Heritage, « Lancia D50 »"
     url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
+consultation: "25 octobre 2026"
 image: "/assets/partage/vittorio-jano.png"
 redirect_from: "/ingenieurs/2026/10/25/vittorio-jano.html"
 ---

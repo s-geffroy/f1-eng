@@ -17,13 +17,13 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse |
 
-**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire.
+**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et Jean-Pierre Boudy.
 
-**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et sa contribution à l'ère McLaren MP4/4. Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
+**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et sa contribution à l'ère McLaren MP4/4, dont la paternité est discutée avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
 
-**Forghieri** est l'ingénieur complet : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses.
+**Forghieri** est l'ingénieur complet : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
 
-**Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78/79.
+**Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78/79, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions.
 
 **Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 
@@ -54,9 +54,21 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 
 Plusieurs de ces ingénieurs n'ont pas changé la forme de la voiture, mais **la manière de la concevoir** : Dernie avec le numérique, Brawn avec la méthode, Head avec l'organisation. Une révolution technique peut transformer le processus sans être visible sur la carrosserie.
 
+## Les acteurs hors classement
+
+Derrière les vingt, l'encyclopédie documente aussi, sans les noter, les ingénieurs cités dans leurs histoires :
+
+- **Lotus 78** : [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ;
+- **Renault** : [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) ;
+- **Ferrari et Lancia** : [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}), [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) ;
+- **McLaren** : [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) ;
+- **Williams** : [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}), [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) ;
+- **Toleman** : [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}) ;
+- **Lotus des années 1950 et Indianapolis** : [John Crosthwaite]({{ site.baseurl }}{% link _ingenieurs/john-crosthwaite.md %}).
+
 ## Sources
 
-Consultées le 9 août 2026.
+Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
 
 - Renault, « 30 ans de Formule 1 » : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
 - Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » : <https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1>

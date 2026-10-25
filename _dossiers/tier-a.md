@@ -23,7 +23,7 @@ C'est la clé de lecture de tout le classement.
 
 ## N° 1 — Colin Chapman (96/100)
 
-Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
+Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par Maurice Philippe. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
 
 Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})
 
@@ -35,19 +35,19 @@ Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard
 
 ## N° 3 — John Cooper (93,5/100)
 
-Le passage décisif du moteur avant au **moteur central-arrière** modifie d'un coup la répartition des masses, le moment polaire, la motricité, l'encombrement, le châssis et l'aérodynamique future. Après les titres Cooper de 1959 et 1960, le moteur avant devient obsolète. Le mérite est partagé avec **Owen Maddock**, concepteur essentiel des Cooper de cette période.
+Le passage décisif du moteur avant au **moteur central-arrière** — une disposition que Cooper n'a pas inventée, mais qu'il a popularisée et rendue victorieuse — modifie d'un coup la répartition des masses, le moment polaire, la motricité, l'encombrement, le châssis et l'aérodynamique future. Après les titres Cooper de 1959 et 1960, le moteur avant devient obsolète. Le mérite est partagé avec [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}), chef designer de Cooper pendant ces deux titres.
 
 Voir l'entrée [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %})
 
 ## N° 4 — Keith Duckworth (92,5/100)
 
-Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **155 Grands Prix** de championnat du monde selon Formula 1. Le DFV reste une réalisation Cosworth, avec **Mike Costin** dans la chaîne causale.
+Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **155 Grands Prix** de championnat du monde de 1967 à 1983, les derniers dans sa version DFY (GrandPrix.com en compte 154). Le DFV reste une réalisation Cosworth, avec **Mike Costin** dans la chaîne causale.
 
 Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})
 
 ## N° 5 — Adrian Newey (91,5/100)
 
-Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique.
+Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique. Selon [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), il n'a d'ailleurs pris aucune part à la suspension active Williams, qui servait de plateforme stable à son aérodynamique.
 
 Voir l'entrée [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})
 
@@ -71,7 +71,7 @@ Chapman gagne par **largeur historique** ; Barnard gagne en **traçabilité pers
 
 ## Sources
 
-Consultées le 9 août 2026.
+Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
 
 - Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
 - Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>

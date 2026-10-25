@@ -77,7 +77,7 @@ Les innovations collectives font intervenir bien d'autres ingénieurs que les vi
 
 ## Sources
 
-Consultées le 9 août 2026.
+Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
 
 - Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
 - Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>

@@ -41,6 +41,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2025/84/2002-ferrari-f2002/"
   - titre: "Autosport, « Byrne stays at Ferrari for two more years » (2006)"
     url: "https://www.autosport.com/f1/news/byrne-stays-at-ferrari-for-two-more-years-4405596/4405596/"
+consultation: "25 octobre 2026"
 image: "/assets/partage/rory-byrne.png"
 redirect_from: "/ingenieurs/2026/10/25/rory-byrne.html"
 ---

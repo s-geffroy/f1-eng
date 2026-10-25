@@ -22,6 +22,7 @@ sources:
     url: "https://grandprix.com/people/jean-claude-migeot.html"
   - titre: "Motor Sport Magazine, « New Tyrrell book launched by Jackie Stewart and other team members » (2023)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2023/16/new-tyrrell-book-launched-by-jackie-stewart-and-other-team-members/"
+consultation: "25 octobre 2026"
 image: "/assets/partage/jean-claude-migeot.png"
 redirect_from: "/ingenieurs/2026/10/25/jean-claude-migeot.html"
 ---

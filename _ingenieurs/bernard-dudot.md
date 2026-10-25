@@ -22,6 +22,7 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
   - titre: "Joe Saward, GrandPrix.com, « Interview : Bernard Dudot » (1992)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot-2.html"
+consultation: "25 octobre 2026"
 image: "/assets/partage/bernard-dudot.png"
 redirect_from: "/ingenieurs/2026/10/25/bernard-dudot.html"
 ---

@@ -29,6 +29,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
   - titre: "Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
+consultation: "25 octobre 2026"
 image: "/assets/partage/tony-rudd.png"
 redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---

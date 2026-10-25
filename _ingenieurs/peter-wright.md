@@ -24,6 +24,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "Motor Sport Magazine, « Mission: Improbable » (avril 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
+consultation: "25 octobre 2026"
 image: "/assets/partage/peter-wright.png"
 redirect_from: "/ingenieurs/2026/10/25/peter-wright.html"
 ---

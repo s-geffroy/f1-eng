@@ -54,9 +54,15 @@ Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il class
 
 > Révolutionner la F1, ce n'est pas seulement construire la voiture la plus rapide : c'est obliger les autres à changer leur manière de construire une F1.
 
+## Pour aller plus loin
+
+- La [chronologie des innovations]({{ '/chronologie/' | relative_url }}) place ces ruptures sur une frise, de la Lancia D50 au moteur hybride.
+- Le [glossaire technique]({{ '/glossaire/' | relative_url }}) explique les termes employés : effet de sol, monocoque, rappel pneumatique…
+- L'[index]({{ '/' | relative_url }}) recense aussi quinze entrées hors classement, marquées HC : les autres acteurs de ces innovations.
+
 ## Sources principales
 
-Consultées le 9 août 2026. Chaque entrée donne ses propres sources.
+Consultées le 9 août 2026, revérifiées le 25 octobre 2026. Chaque entrée donne ses propres sources.
 
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » : <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>

@@ -18,6 +18,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - titre: "GrandPrix.com, « Frank Dernie »"
     url: "https://grandprix.com/people/frank-dernie.html"
+consultation: "25 octobre 2026"
 image: "/assets/partage/frank-dernie.png"
 redirect_from: "/ingenieurs/2026/10/25/frank-dernie.html"
 ---

@@ -24,6 +24,7 @@ sources:
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "GrandPrix.com, « The story behind the reshuffle at Williams » (2004)"
     url: "https://www.grandprix.com/news/the-story-behind-the-reshuffle-at-williams.html"
+consultation: "25 octobre 2026"
 image: "/assets/partage/patrick-head.png"
 redirect_from: "/ingenieurs/2026/10/25/patrick-head.html"
 ---

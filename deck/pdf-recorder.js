@@ -5,7 +5,7 @@ const fs = require("fs");
 const PDFDocument = require("pdfkit");
 
 const PT = 72; // points par pouce
-const SHAPES = { RECTANGLE: "rect", ROUNDED_RECTANGLE: "roundRect", OVAL: "ellipse", LINE: "line" };
+const SHAPES = { RECTANGLE: "rect", ROUNDED_RECTANGLE: "roundRect", OVAL: "ellipse", LINE: "line", DIAMOND: "diamond" };
 
 function create() {
   const slides = [];
@@ -97,6 +97,7 @@ function drawShape(doc, type, o) {
   } else {
     if (type === "roundRect") doc.roundedRect(x, y, w, h, Math.min((o.rectRadius || 0.1) * PT, h / 2, w / 2));
     else if (type === "ellipse") doc.ellipse(x + w / 2, y + h / 2, w / 2, h / 2);
+    else if (type === "diamond") doc.polygon([x + w / 2, y], [x + w, y + h / 2], [x + w / 2, y + h], [x, y + h / 2]);
     else doc.rect(x, y, w, h);
     strokeFill(doc, o);
   }

@@ -26,6 +26,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2003/32/little-better/"
   - titre: "500race.org, « Owen Maddock »"
     url: "https://500race.org/people/owen-maddock/"
+consultation: "25 octobre 2026"
 image: "/assets/partage/owen-maddock.png"
 redirect_from: "/ingenieurs/2026/10/25/owen-maddock.html"
 ---

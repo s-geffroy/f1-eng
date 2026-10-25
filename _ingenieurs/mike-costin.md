@@ -27,6 +27,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/april-2019/128/fire-up-the-quattro/"
   - titre: "Motor Sport Magazine, « Obituaries » (février 2006, Keith Duckworth)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2006/10/obituaries/"
+consultation: "25 octobre 2026"
 image: "/assets/partage/mike-costin.png"
 redirect_from: "/ingenieurs/2026/10/25/mike-costin.html"
 ---

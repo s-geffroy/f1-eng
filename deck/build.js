@@ -109,7 +109,7 @@ function vignette(s, id, x, y, w, h) {
 function footer(s, keys) {
   const parts = keys.length ? ["Sources : " + keys.map(k => SRC[k][0]).join(" · ")] : [];
   for (const c of s.photos || []) parts.push(`Photo : ${c.auteur} (${c.licence}, Wikimedia Commons), recadrée et passée en noir et blanc`);
-  if (s.groupePhotos) parts.push("Photos : crédits diapositive 21");
+  if (s.groupePhotos) parts.push("Photos : crédits diapositive 22");
   const t = parts.join(" · ");
   s.addText(t, { x: M, y: 7.0, w: W - 2 * M - 0.8, h: 0.3, fontFace: FS, fontSize: 9, color: C.sub, italic: true });
 }
@@ -302,7 +302,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   footer(s, ["type25", "lotusStory", "lotus79"]);
   notes(s, {
     idee: "Chapman est n° 1 par l'accumulation de ruptures architecturales, pas par une invention unique.",
-    faits: ["Lotus Type 25 : généralisation du monocoque aluminium comme architecture de châssis F1.", "Famille Lotus de la seconde moitié des années 1960 : moteur utilisé comme élément structurel (Lotus 49, avec le DFV) — principe déjà vu sur la Lancia D50, ici imposé comme standard.", "Lancement et direction du programme qui débouche sur l'effet de sol (Lotus 78/79)."],
+    faits: ["Lotus Type 25 : généralisation du monocoque aluminium comme architecture de châssis F1.", "Famille Lotus de la seconde moitié des années 1960 : moteur utilisé comme élément structurel (Lotus 49, avec le DFV) — principe déjà vu sur la Lancia D50, ici imposé comme standard.", "Lancement et direction du programme qui débouche sur l'effet de sol (Lotus 78/79).", "Lotus 72 (1970), cosignée par Maurice Philippe : radiateurs latéraux ; avec ses évolutions, 22 Grands Prix et cinq titres (Classic Team Lotus)."],
     nuance: "Ne pas dire « Chapman a inventé l'effet de sol ». Dire : Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1. Wright et Rudd avaient travaillé le concept chez BRM ; Bellamy dessine la Lotus 78, avec Ogilvie (suspensions) et Southgate (développement).",
     sources: ["type25", "lotusStory", "lotus79"],
   });
@@ -326,7 +326,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   notes(s, {
     idee: "Barnard porte deux ruptures indépendantes, directement attribuables, toutes deux devenues des standards.",
     faits: ["MP4/1 (1981) : première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, n'a jamais été autorisée à courir) — rigidité, masse, sécurité, industrialisation du composite. Le principe devient universel.", "Ferrari 640 (1989) : boîte semi-automatique commandée au volant — fin progressive du levier en H, moins d'erreurs, mains sur le volant, cockpit plus compact."],
-    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman. Barnard conçoit la MP4/1 entouré notamment de Steve Nichols et d'Alan Jenkins.",
+    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman. Barnard conçoit la MP4/1 entouré notamment de Steve Nichols et d'Alan Jenkins. L'idée des palettes vient de son bureau d'études selon lui, de Piero Lardi Ferrari selon Motorsport.com : Barnard les a conçues et introduites en course.",
     sources: ["mp41", "barnard", "f1990", "wp88"],
   });
 }
@@ -352,13 +352,13 @@ const fr = v => v.toFixed(1).replace(".", ",");
   car(M + 0.2, true, "Moteur avant");
   arrow(s, 5.75, 3.25, 7.35, 3.25, C.A);
   car(7.6, false, "Moteur central-arrière");
-  s.addText([{ text: "Cooper T51, titres 1959 et 1960", options: { bold: true, breakLine: true } }, { text: "Concepteur central : Owen Maddock" }],
+  s.addText([{ text: "Cooper T51, titres 1959 et 1960", options: { bold: true, breakLine: true } }, { text: "Chef designer : Owen Maddock" }],
     { x: M, y: 4.9, w: W - 2 * M, h: 0.9, fontFace: F, fontSize: 17, color: C.ink, align: "center" });
   footer(s, ["msT51", "nye", "innov"]);
   notes(s, {
     idee: "Le passage au moteur central-arrière change la topologie même de la monoplace.",
-    faits: ["Effets simultanés : répartition des masses, moment polaire, motricité, encombrement, architecture du châssis, aérodynamique future.", "Après les titres Cooper de 1959 et 1960, le moteur avant devient rapidement obsolète."],
-    nuance: "Ne pas effacer Owen Maddock. Formulation : Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central (T51/T53).",
+    faits: ["Effets simultanés : répartition des masses, moment polaire, motricité, encombrement, architecture du châssis, aérodynamique future.", "Après les titres Cooper de 1959 et 1960, le moteur avant devient rapidement obsolète.", "Depuis 1959, tous les champions du monde de F1 ont roulé avec le moteur derrière eux (Motor Sport)."],
+    nuance: "Cooper n'a pas inventé la disposition (déjà employée, et choisie sur la première 500 « pour des raisons largement pratiques ») : il l'a popularisée et rendue victorieuse. Ne pas effacer Owen Maddock, chef designer. Formulation : Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central (T51/T53).",
     sources: ["msT51", "nye", "innov"],
   });
 }
@@ -376,12 +376,12 @@ const fr = v => v.toFixed(1).replace(".", ",");
     if (i < steps.length - 1) arrow(s, x + bw + 0.02, 2.5, x + bw + gap - 0.02, 2.5);
   });
   s.addText("155", { x: M, y: 3.4, w: 4, h: 1.6, fontFace: F, fontSize: 96, bold: true, color: C.A });
-  s.addText("victoires en Grand Prix de championnat du monde", { x: M + 2.4, y: 3.75, w: 7, h: 0.9, fontFace: F, fontSize: 22, color: C.ink, valign: "middle" });
+  s.addText("victoires en Grand Prix de championnat du monde, 1967-1983", { x: M + 2.4, y: 3.75, w: 7, h: 0.9, fontFace: F, fontSize: 22, color: C.ink, valign: "middle" });
   s.addText("Cosworth = Duckworth + Costin + organisation", { x: M, y: 5.4, w: W - 2 * M, h: 0.6, fontFace: F, fontSize: 18, bold: true, color: C.ink });
   footer(s, ["innov", "ms67"]);
   notes(s, {
     idee: "Le DFV transforme le moteur et l'écosystème industriel de la F1.",
-    faits: ["Moteur compact et performant, composant structurel de la Lotus 49 (principe déjà employé par la Lancia D50 en 1954, généralisé avec le DFV).", "Disponible pour de nombreuses équipes : plus besoin de moteur propriétaire, ressources concentrées sur châssis et aéro.", "155 victoires en Grand Prix de championnat du monde selon Formula 1."],
+    faits: ["Moteur compact et performant, composant structurel de la Lotus 49 (principe déjà employé par la Lancia D50 en 1954, généralisé avec le DFV).", "Disponible pour de nombreuses équipes : plus besoin de moteur propriétaire, ressources concentrées sur châssis et aéro.", "155 victoires en Grand Prix de championnat du monde selon Formula 1, de 1967 à 1983, les dernières en version DFY (GrandPrix.com en compte 154).", "Première course : Zandvoort, 4 juin 1967, pole de Hill, victoire de Clark."],
     nuance: "Ne pas présenter le DFV comme une création individuelle : réalisation Cosworth, Duckworth figure technique centrale, Mike Costin cofondateur et acteur majeur.",
     sources: ["innov", "ms67"],
   });
@@ -407,7 +407,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   notes(s, {
     idee: "Ne pas chercher « l'invention Newey » : son apport est une méthode systémique, démontrée sous plusieurs règlements et dans plusieurs équipes.",
     faits: ["Concevoir la monoplace comme un système aérodynamique intégré : suspension, géométrie, refroidissement, structure et packaging au service du flux.", "Résultats au sommet chez Williams, McLaren et Red Bull ; parcours : March devenue Leyton House, Williams, McLaren, Red Bull, Aston Martin depuis 2025."],
-    nuance: "Pourquoi pas n° 1 : le palmarès ne pèse que 10 %, et sa paternité est plus distribuée dans les grandes organisations modernes. Formulation : rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives.",
+    nuance: "Pourquoi pas n° 1 : le palmarès ne pèse que 10 %, et sa paternité est plus distribuée dans les grandes organisations modernes. Formulation : rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives. Selon Patrick Head, Newey n'a pris aucune part à la suspension active Williams, qui servait de plateforme stable à son aérodynamique.",
     sources: ["innov", "newey", "f1990", "wpNewey"],
   });
 }
@@ -454,7 +454,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   footer(s, ["renault", "murray", "f312t", "lotus79", "msDernie"]);
   notes(s, {
     idee: "Le Tier B transforme durablement un domaine central de la F1, avec une limite par rapport au Tier A.",
-    faits: ["Dudot (90) : turbo, distribution pneumatique, V10 chez Renault.", "Murray (88,5) : BT46B, architectures Brabham, pit-stop tactique, contribution à la MP4/4.", "Forghieri (87,5) : 312T et boîte transversale, centralisation des masses.", "Wright (86,5) : développement causal de l'effet de sol Lotus.", "Dernie (85) : CAO/CAE, acquisition de données, soufflerie, suspension active."],
+    faits: ["Dudot (90) : turbo, distribution pneumatique, V10 chez Renault.", "Murray (88,5) : BT46B, architectures Brabham, pit-stop tactique (paternité de la MP4/4 discutée avec Steve Nichols), contribution à la MP4/4.", "Forghieri (87,5) : 312T et boîte transversale, centralisation des masses.", "Wright (86,5) : développement causal de l'effet de sol Lotus.", "Dernie (85) : CAO/CAE, acquisition de données, soufflerie, suspension active."],
     nuance: "Murray : diffusion inégale de certaines ruptures. Dudot : réalisations d'une organisation, Renault Sport.",
     sources: ["renault", "msRenault", "murray", "f312t", "f312b3", "forgObit", "lotus79", "msDernie"],
   });
@@ -590,9 +590,50 @@ const fr = v => v.toFixed(1).replace(".", ",");
   });
 }
 
-// ===== 19 — Classement final =====
+// ===== 19 — Chronologie (données du site : _data/chronologie.yml) =====
 {
   const s = newSlide(19);
+  title(s, "Soixante-dix ans de ruptures", "Chronologie");
+  const chrono = require("js-yaml").load(fs.readFileSync(path.join(__dirname, "..", "_data", "chronologie.yml"), "utf8"));
+  const tierA = new Set(RANK.filter(r => r[1] === "A").map(r => idOf(r[0])));
+  const DEBUT = 1945, FIN = 2025, x0 = M + 2.3, x1 = W - M - 0.2, y0 = 2.05, hv = 0.86;
+  const X = a => x0 + ((a - DEBUT) / (FIN - DEBUT)) * (x1 - x0);
+  // étiquettes affichées pour une sélection de jalons ; les autres restent des repères
+  const ETIQ = { "lancia-d50": "D50", "cooper-titres": "Cooper", "lotus-25": "Lotus 25", "dfv": "DFV", "ferrari-312t": "312T",
+    "lotus-78": "Lotus 78", "turbo-victoire": "Turbo", "mp4-1": "Carbone", "ferrari-640": "Palettes", "tyrrell-019": "Nez relevé",
+    "double-diffuseur": "Double diffuseur", "hybride": "Hybride" };
+  for (let a = 1950; a <= 2020; a += 10) {
+    s.addShape(pres.shapes.LINE, { x: X(a), y: y0 - 0.15, w: 0, h: hv * 5 + 0.15, line: { color: C.light, width: 0.75, dashType: "dash" } });
+    s.addText(String(a), { x: X(a) - 0.4, y: y0 - 0.42, w: 0.8, h: 0.26, fontFace: F, fontSize: 10, bold: true, color: C.sub, align: "center" });
+  }
+  chrono.voies.forEach((v, i) => {
+    const y = y0 + i * hv;
+    s.addShape(pres.shapes.LINE, { x: M, y, w: W - 2 * M, h: 0, line: { color: C.rule, width: 0.75 } });
+    s.addText(v.nom, { x: M, y, w: 2.2, h: hv, fontFace: F, fontSize: 12, bold: true, color: C.ink, valign: "middle" });
+    let precedent = -100, haut = true;
+    chrono.jalons.filter(j => j.voie === v.id).sort((a, b) => a.annee - b.annee).forEach(j => {
+      haut = j.annee - precedent < 3 ? !haut : true; precedent = j.annee;
+      const cx = X(j.annee), cy = y + hv * (haut ? 0.38 : 0.7), d = 0.17;
+      const rouge = (j.entrees || []).some(e => tierA.has(e));
+      s.addShape(pres.shapes.DIAMOND, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: rouge ? C.A : C.ink }, line: { color: C.white, width: 1 } });
+      if (ETIQ[j.id]) s.addText(`${j.annee} ${ETIQ[j.id]}`, { x: cx - 0.8, y: haut ? cy - 0.36 : cy + 0.08, w: 1.6, h: 0.26, fontFace: F, fontSize: 9, color: C.ink, align: "center" });
+    });
+  });
+  s.addShape(pres.shapes.LINE, { x: M, y: y0 + 5 * hv, w: W - 2 * M, h: 0, line: { color: C.rule, width: 0.75 } });
+  s.addShape(pres.shapes.DIAMOND, { x: M, y: 6.55, w: 0.15, h: 0.15, fill: { color: C.A }, line: { color: C.A, width: 0 } });
+  s.addText("porté par un ingénieur du Tier A", { x: M + 0.2, y: 6.47, w: 3.2, h: 0.3, fontFace: F, fontSize: 10, color: C.sub });
+  s.addText("Frise interactive : s-geffroy.github.io/f1-eng/chronologie", { x: 6.5, y: 6.47, w: W - M - 6.5, h: 0.3, fontFace: FS, fontSize: 11, italic: true, color: C.sub, align: "right" });
+  notes(s, {
+    idee: "Les ruptures se répartissent sur cinq domaines et soixante-dix ans ; le Tier A est présent dans chacun des grands tournants.",
+    faits: chrono.jalons.slice().sort((a, b) => a.annee - b.annee).map(j => `${j.annee} — ${j.titre}`),
+    nuance: "Chaque jalon reprend des faits sourcés dans les entrées du site ; la frise interactive donne le détail et les ingénieurs concernés.",
+    sources: [],
+  });
+}
+
+// ===== 20 — Classement final =====
+{
+  const s = newSlide(20);
   title(s, "Le classement final", "Scores sur 100");
   const colX = [M, M + 6.25], bx = 2.55, bmax = 2.9;
   RANK.forEach(([n, t, v], i) => {
@@ -615,9 +656,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   });
 }
 
-// ===== 20 — Conclusion =====
+// ===== 21 — Conclusion =====
 {
-  const s = newSlide(20);
+  const s = newSlide(21);
   s.addText("Ingénieurs de la F1", { x: M, y: 0.35, w: 6, h: 0.45, fontFace: F, fontSize: 20, bold: true, color: C.ink });
   s.addShape(pres.shapes.LINE, { x: M, y: 0.85, w: W - 2 * M, h: 0, line: { color: C.ink, width: 2 } });
   s.addText("Révolutionner la F1, ce n'est pas seulement construire la voiture la plus rapide : c'est obliger les autres à changer leur manière de construire une F1.",
@@ -635,9 +676,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   });
 }
 
-// ===== 21 — Sources =====
+// ===== 22 — Sources =====
 {
-  const s = newSlide(21);
+  const s = newSlide(22);
   title(s, "Sources principales", "Consultées le 9 août 2026");
   const keys = ["innov", "f175", "lotus79", "barnard", "fw15c", "type25", "mp41", "renault", "msT51", "msDernie"];
   s.addText(keys.map(k => ({ text: SRC[k][0], options: { bullet: true, breakLine: true } })), { x: M, y: 1.9, w: 5.6, h: 4.4, fontFace: F, fontSize: 17, color: C.ink, valign: "top", paraSpaceAfter: 4 });
