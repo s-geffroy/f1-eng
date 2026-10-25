@@ -1,0 +1,14 @@
+{
+  "name": "f1-eng-deck",
+  "private": true,
+  "description": "Presentation du classement : genere le .pptx et le PDF publie par le site",
+  "scripts": {
+    "fonts": "sh fonts.sh",
+    "pptx": "node build.js",
+    "pdf": "node build.js pdf"
+  },
+  "dependencies": {
+    "pdfkit": "0.15.0",
+    "pptxgenjs": "3.12.0"
+  }
+}

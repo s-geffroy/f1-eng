@@ -77,6 +77,7 @@ exclude:
   - app.yaml
   - compose.yaml
   - specs/
+  - deck/
   - vendor/
   - Gemfile
   - Gemfile.lock
