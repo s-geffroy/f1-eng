@@ -18,6 +18,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"
   - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
+image: "/assets/partage/john-cooper.png"
 redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 ---
 ## La question transformée

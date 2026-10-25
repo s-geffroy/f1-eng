@@ -64,7 +64,7 @@ La règle est simple : **on ne crédite pas intégralement plusieurs personnes d
 
 **Cosworth.** Le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.
 
-**Williams active.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment Patrick Head, Frank Dernie, Paddy Lowe et Adrian Newey. Le mérite se distribue selon le rôle réel de chacun.
+**Williams active.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment Patrick Head, Frank Dernie (selon ses propres déclarations), Paddy Lowe et Adrian Newey. Le mérite se distribue selon le rôle réel de chacun.
 
 ## Ce que donne la méthode
 
@@ -77,4 +77,6 @@ Consultées le 9 août 2026.
 - Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
 - Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>

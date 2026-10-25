@@ -23,13 +23,13 @@ C'est la clé de lecture de tout le classement.
 
 ## N° 1 — Colin Chapman (96/100)
 
-Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel, une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. **Trois ruptures, une philosophie : architecture, légèreté, aéro.**
+Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
 
 Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 construite autour d'un monocoque intégral en composite carbone, et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, fut interdite), conçue avec Steve Nichols et Alan Jenkins, et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 
@@ -47,7 +47,7 @@ Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duc
 
 ## N° 5 — Adrian Newey (91,5/100)
 
-Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez Leyton House, Williams, McLaren et Red Bull. Son génie est la répétition, pas le coup unique.
+Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique.
 
 Voir l'entrée [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})
 
@@ -78,5 +78,8 @@ Consultées le 9 août 2026.
 - McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
 - Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations » : <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
+- Wikipédia (en), « Lotus 88 » : <https://en.wikipedia.org/wiki/Lotus_88>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? » : <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>

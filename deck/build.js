@@ -45,6 +45,10 @@ const SRC = {
   msDernie: ["Motor Sport — Lunch with Frank Dernie", "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"],
   msT51: ["Motor Sport — Cooper T51", "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"],
   nye: ["Goodwood / Doug Nye — Cooper", "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"],
+  msActive: ["Motor Sport — Active suspension (2001)", "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"],
+  ms67: ["Motor Sport — The Lotus 49 (1967)", "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"],
+  wp88: ["Wikipédia — Lotus 88", "https://en.wikipedia.org/wiki/Lotus_88"],
+  wpNewey: ["Wikipédia — Adrian Newey", "https://en.wikipedia.org/wiki/Adrian_Newey"],
 };
 const CONSULT = "Date de consultation des sources : 9 août 2026.";
 
@@ -298,7 +302,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
   footer(s, ["type25", "lotusStory", "lotus79"]);
   notes(s, {
     idee: "Chapman est n° 1 par l'accumulation de ruptures architecturales, pas par une invention unique.",
-    faits: ["Lotus Type 25 : généralisation du monocoque aluminium comme architecture de châssis F1.", "Famille Lotus de la seconde moitié des années 1960 : moteur utilisé comme élément structurel (Lotus 49, avec le DFV).", "Lancement et direction du programme qui débouche sur l'effet de sol (Lotus 78/79)."],
+    faits: ["Lotus Type 25 : généralisation du monocoque aluminium comme architecture de châssis F1.", "Famille Lotus de la seconde moitié des années 1960 : moteur utilisé comme élément structurel (Lotus 49, avec le DFV) — principe déjà vu sur la Lancia D50, ici imposé comme standard.", "Lancement et direction du programme qui débouche sur l'effet de sol (Lotus 78/79)."],
     nuance: "Ne pas dire « Chapman a inventé l'effet de sol ». Dire : Chapman a dirigé et catalysé le programme Lotus qui a rendu l'effet de sol opératoire et dominant en F1. Wright et Rudd avaient travaillé le concept chez BRM ; Bellamy et Southgate interviennent aussi.",
     sources: ["type25", "lotusStory", "lotus79"],
   });
@@ -321,9 +325,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   footer(s, ["mp41", "barnard", "f1990"]);
   notes(s, {
     idee: "Barnard porte deux ruptures indépendantes, directement attribuables, toutes deux devenues des standards.",
-    faits: ["MP4/1 (1981) : première F1 construite autour d'un monocoque intégral en composite carbone — rigidité, masse, sécurité, industrialisation du composite. Le principe devient universel.", "Ferrari 640 (1989) : boîte semi-automatique commandée au volant — fin progressive du levier en H, moins d'erreurs, mains sur le volant, cockpit plus compact."],
-    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman.",
-    sources: ["mp41", "barnard", "f1990"],
+    faits: ["MP4/1 (1981) : première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, n'a jamais été autorisée à courir) — rigidité, masse, sécurité, industrialisation du composite. Le principe devient universel.", "Ferrari 640 (1989) : boîte semi-automatique commandée au volant — fin progressive du levier en H, moins d'erreurs, mains sur le volant, cockpit plus compact."],
+    nuance: "Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant Chapman. La MP4/1 est conçue avec Steve Nichols et Alan Jenkins.",
+    sources: ["mp41", "barnard", "f1990", "wp88"],
   });
 }
 
@@ -374,12 +378,12 @@ const fr = v => v.toFixed(1).replace(".", ",");
   s.addText("155", { x: M, y: 3.4, w: 4, h: 1.6, fontFace: F, fontSize: 96, bold: true, color: C.A });
   s.addText("victoires en Grand Prix de championnat du monde", { x: M + 2.4, y: 3.75, w: 7, h: 0.9, fontFace: F, fontSize: 22, color: C.ink, valign: "middle" });
   s.addText("Cosworth = Duckworth + Costin + organisation", { x: M, y: 5.4, w: W - 2 * M, h: 0.6, fontFace: F, fontSize: 18, bold: true, color: C.ink });
-  footer(s, ["innov", "f175"]);
+  footer(s, ["innov", "ms67"]);
   notes(s, {
     idee: "Le DFV transforme le moteur et l'écosystème industriel de la F1.",
-    faits: ["Moteur compact et performant, composant structurel de la Lotus 49.", "Disponible pour de nombreuses équipes : plus besoin de moteur propriétaire, ressources concentrées sur châssis et aéro.", "155 victoires en Grand Prix de championnat du monde selon Formula 1."],
+    faits: ["Moteur compact et performant, composant structurel de la Lotus 49 (principe déjà employé par la Lancia D50 en 1954, généralisé avec le DFV).", "Disponible pour de nombreuses équipes : plus besoin de moteur propriétaire, ressources concentrées sur châssis et aéro.", "155 victoires en Grand Prix de championnat du monde selon Formula 1."],
     nuance: "Ne pas présenter le DFV comme une création individuelle : réalisation Cosworth, Duckworth figure technique centrale, Mike Costin cofondateur et acteur majeur.",
-    sources: ["innov", "f175"],
+    sources: ["innov", "ms67"],
   });
 }
 
@@ -389,22 +393,22 @@ const fr = v => v.toFixed(1).replace(".", ",");
   title(s, "Le génie de Newey est la répétition, pas le coup unique", "Adrian Newey");
   cartouche(s, 5, "A", "91,5", "Très élevée");
   portrait(s, "adrian-newey", 10.93, 1.95, 1.8, 2.45);
-  const teams = ["Leyton House", "Williams", "McLaren", "Red Bull"];
+  const teams = ["March / Leyton House", "Williams", "McLaren", "Red Bull", "Aston Martin"];
   const y = 3.0, x0 = M + 1.0, x1 = 9.5;
   s.addShape(pres.shapes.LINE, { x: x0, y, w: x1 - x0, h: 0, line: { color: C.ink, width: 2 } });
   teams.forEach((t, i) => {
     const x = x0 + (i * (x1 - x0)) / (teams.length - 1);
     s.addShape(pres.shapes.OVAL, { x: x - 0.15, y: y - 0.15, w: 0.3, h: 0.3, fill: { color: C.A }, line: { color: C.A } });
-    s.addText(t, { x: x - 1.3, y: y - 0.85, w: 2.6, h: 0.5, fontFace: F, fontSize: 20, bold: true, color: C.ink, align: "center" });
-    s.addText("règlement " + (i + 1), { x: x - 1.3, y: y + 0.25, w: 2.6, h: 0.4, fontFace: F, fontSize: 12, color: C.sub, align: "center" });
+    s.addText(t, { x: x - 1.1, y: y - 0.95, w: 2.2, h: 0.6, fontFace: F, fontSize: 18, bold: true, color: C.ink, align: "center", valign: "bottom" });
+    s.addText(["1988-1990", "1991-1996", "1997-2005", "2006-2024", "depuis 2025"][i], { x: x - 1.1, y: y + 0.25, w: 2.2, h: 0.4, fontFace: F, fontSize: 12, color: C.sub, align: "center" });
   });
   s.addText("Règlements différents, même compétence : contrôle du système aérodynamique.", { x: M, y: 4.3, w: 10.0, h: 0.7, fontFace: F, fontSize: 20, color: C.ink, align: "center" });
   footer(s, ["innov", "newey", "f1990"]);
   notes(s, {
     idee: "Ne pas chercher « l'invention Newey » : son apport est une méthode systémique, démontrée sous plusieurs règlements et dans plusieurs équipes.",
-    faits: ["Concevoir la monoplace comme un système aérodynamique intégré : suspension, géométrie, refroidissement, structure et packaging au service du flux.", "Résultats au sommet chez Williams, McLaren et Red Bull."],
+    faits: ["Concevoir la monoplace comme un système aérodynamique intégré : suspension, géométrie, refroidissement, structure et packaging au service du flux.", "Résultats au sommet chez Williams, McLaren et Red Bull ; parcours : March devenue Leyton House, Williams, McLaren, Red Bull, Aston Martin depuis 2025."],
     nuance: "Pourquoi pas n° 1 : le palmarès ne pèse que 10 %, et sa paternité est plus distribuée dans les grandes organisations modernes. Formulation : rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives.",
-    sources: ["innov", "newey", "f1990"],
+    sources: ["innov", "newey", "f1990", "wpNewey"],
   });
 }
 
@@ -495,9 +499,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   footer(s, ["msDernie", "brawn"]);
   notes(s, {
     idee: "La méthode distingue la révolution de l'objet et la révolution du processus de conception.",
-    faits: ["Dernie : utilisation précoce de la CAO/CAE, acquisition de données, développement de soufflerie, suspension active chez Williams.", "Brawn : programmes démarrés très en amont, intégration organisationnelle, articulation conception/exploitation/stratégie, préparation de l'architecture Mercedes 2014 avant son départ."],
+    faits: ["Dernie : selon ses propres déclarations, utilisation précoce de la CAO/CAE et de l'acquisition de données ; concepteur du premier système Williams de suspension active (Motor Sport, 2001).", "Brawn : programmes démarrés très en amont, intégration organisationnelle, articulation conception/exploitation/stratégie, programme Mercedes 2014 lancé tôt et intégré châssis-moteur, avant son départ fin 2013."],
     nuance: "Ne pas écrire « Dernie a inventé seul la suspension active » ni « Brawn a conçu la Mercedes W05 ». Brawn a contribué à mettre en place la méthode et l'intégration qui ont préparé Mercedes à 2014.",
-    sources: ["msDernie", "fw15c", "brawn"],
+    sources: ["msDernie", "msActive", "brawn"],
   });
 }
 
@@ -535,7 +539,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
     [15, "Tony Rudd", "Aérodynamique", "Genèse de l'effet de sol", "Contribution difficile à isoler"],
     [16, "Mike Costin", "Moteur", "Cofondateur de Cosworth", "Paternité du DFV moins individualisable"],
     [17, "Vittorio Jano", "Architecture", "Lancia D50", "Œuvre surtout antérieure à la F1"],
-    [18, "Owen Maddock", "Châssis", "Cooper T51/T53 championnes", "Crédit partagé avec John Cooper"],
+    [18, "Owen Maddock", "Châssis", "Chef designer, titres 1959-1960", "Crédit partagé avec John Cooper"],
     [19, "Paddy Lowe", "Électronique", "Logiciel suspension active", "Rôle dans une chaîne collective"],
     [20, "Rory Byrne", "Intégration", "Benetton, Ferrari", "Pas de rupture unique paradigmatique"],
   ];

@@ -14,15 +14,36 @@ voir_aussi: ["gordon-murray", "adrian-newey"]
 sources:
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+  - titre: "Motor Sport Magazine, « Now that's what I call… F1 1990s, the decade's underrated cars » (juin 2021)"
+    url: "https://www.motorsportmagazine.com/archive/article/june-2021/90/now-thats-what-i-call-f1-1990s-the-underrated-cars/"
+  - titre: "Autosport, « When Alesi was reunited with his \"dream\" F1 racer »"
+    url: "https://www.autosport.com/f1/news/when-alesi-was-reunited-with-his-dream-f1-racer/10734322/"
+  - titre: "GrandPrix.com, « Jean-Claude Migeot »"
+    url: "https://grandprix.com/people/jean-claude-migeot.html"
+  - titre: "Motor Sport Magazine, « New Tyrrell book launched by Jackie Stewart and other team members » (2023)"
+    url: "https://www.motorsportmagazine.com/archive/article/september-2023/16/new-tyrrell-book-launched-by-jackie-stewart-and-other-team-members/"
+image: "/assets/partage/jean-claude-migeot.png"
 redirect_from: "/ingenieurs/2026/10/25/jean-claude-migeot.html"
 ---
 ## Ce qu'il a changé
 
-La **Tyrrell 019** et son **nez relevé** participent à un changement durable : la manière d'alimenter en air le plancher de la monoplace.
+La **Tyrrell 019** et son **nez relevé** changent la manière d'alimenter en air le plancher de la monoplace. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un aileron avant anhédrique qui améliore l'efficacité aérodynamique. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne ».
+
+Avec la 019, Tyrrell termine cinquième du championnat constructeurs, son meilleur classement depuis 1979.
+
+## Parcours technique
+
+- Ingénieur formé à Supaéro (Toulouse), il dirige le groupe de recherche aérodynamique de **Renault Sport** jusqu'à la fermeture de l'équipe en 1985.
+- Chez **Tyrrell**, il travaille avec le directeur technique Harvey Postlethwaite sur la 019.
+- Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une soufflerie à tapis roulant à l'échelle 50 %.
+
+## Attribution
+
+Motor Sport présente la 019 comme un dessin innovant de **Harvey Postlethwaite et de l'aérodynamicien Jean-Claude Migeot** : le mérite est partagé. Et la même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé pour mieux alimenter le dessous de la voiture.
 
 ## Pourquoi le Tier C
 
-La rupture est réelle et durable, mais le principe a été **rapidement absorbé** par l'évolution aérodynamique générale. Il a modifié une trajectoire sans redéfinir l'ensemble de la discipline.
+La rupture est réelle et durable, mais le principe a été **rapidement absorbé** par l'évolution aérodynamique générale, et il était dans l'air du temps. Il a modifié une trajectoire sans redéfinir l'ensemble de la discipline.
 
 ## Lignée
 

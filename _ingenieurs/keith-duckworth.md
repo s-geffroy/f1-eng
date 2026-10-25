@@ -14,8 +14,11 @@ voir_aussi: ["mike-costin", "colin-chapman"]
 sources:
   - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history »"
-    url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
+  - titre: "Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
+  - titre: "Wikipédia (en), « Lancia D50 »"
+    url: "https://en.wikipedia.org/wiki/Lancia_D50"
+image: "/assets/partage/keith-duckworth.png"
 redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
 ---
 ## La question transformée
@@ -27,7 +30,7 @@ redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
 Le **Cosworth DFV** ne transforme pas seulement le moteur : il modifie l'écosystème industriel de la F1. L'enchaînement est le suivant :
 
 1. un moteur **compact et performant** ;
-2. utilisé comme **composant structurel** dans l'architecture de la Lotus 49 ;
+2. utilisé comme **composant structurel** dans l'architecture de la Lotus 49 : le moteur forme la partie arrière de la voiture ;
 3. **disponible pour de nombreuses équipes** ;
 4. qui n'ont donc plus besoin de développer un moteur propriétaire ;
 5. et peuvent concentrer leurs ressources sur le châssis et l'aérodynamique.
@@ -36,7 +39,7 @@ Le DFV remporte **155 Grands Prix** de championnat du monde de F1, selon Formula
 
 ## Pourquoi le Tier A
 
-C'est une rupture double. Sur le plan technique, elle installe le moteur porteur ; sur le plan économique, elle crée le moteur-client compétitif. Le paysage du plateau s'en trouve redessiné.
+C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954 ; sur le plan économique, elle crée le moteur-client compétitif. Le paysage du plateau s'en trouve redessiné.
 
 ## Attribution
 

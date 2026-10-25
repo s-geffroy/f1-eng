@@ -18,6 +18,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+  - titre: "Wikipédia (en), « Adrian Newey »"
+    url: "https://en.wikipedia.org/wiki/Adrian_Newey"
+  - titre: "Motor Sport Magazine, « Lunch with… Frank Dernie »"
+    url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
 portrait:
   fichier: "/assets/portraits/adrian-newey.jpg"
   legende: "Adrian Newey au Grand Prix d'Australie 2026."
@@ -25,6 +29,7 @@ portrait:
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Adrian_Newey_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8662).jpg"
+image: "/assets/partage/adrian-newey.png"
 redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
 ---
 ## La question transformée
@@ -41,7 +46,7 @@ Newey est moins facile à associer à une invention ponctuelle que Barnard avec 
 
 Il a démontré cette capacité sous plusieurs règlements et dans plusieurs équipes :
 
-**Leyton House → Williams → McLaren → Red Bull**
+**March, devenue Leyton House → Williams → McLaren → Red Bull → Aston Martin (depuis 2025)**
 
 Les règlements changent, la compétence reste : le contrôle du système aérodynamique. C'est le test de robustesse historique par excellence.
 

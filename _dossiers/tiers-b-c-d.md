@@ -25,7 +25,7 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 **Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78/79.
 
-**Dernie** incarne la révolution silencieuse : CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
+**Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 
 ## Tier C — Innovateurs structurants
 
@@ -46,7 +46,7 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |
 | 17 | D | [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) | Architecture | Lancia D50 et filiation technique pré-F1/F1 | Œuvre en grande partie antérieure à la F1 |
-| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | Châssis | Concepteur des Cooper championnes à moteur arrière | Crédit partagé avec John Cooper |
+| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | Châssis | Chef designer de Cooper pendant les titres 1959 et 1960 | Crédit partagé avec John Cooper |
 | 19 | D | [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) | Électronique | Logiciel de la suspension active Williams | Rôle au sein d'une chaîne collective |
 | 20 | D | [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) | Intégration | Performance répétée chez Benetton et Ferrari | Pas de rupture unique paradigmatique |
 

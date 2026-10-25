@@ -18,6 +18,10 @@ sources:
     url: "https://www.lotuscars.com/en/lotus-story"
   - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+  - titre: "Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
+  - titre: "Wikipédia (en), « Lancia D50 »"
+    url: "https://en.wikipedia.org/wiki/Lancia_D50"
 portrait:
   fichier: "/assets/portraits/colin-chapman.jpg"
   legende: "Colin Chapman en 1965."
@@ -25,6 +29,7 @@ portrait:
   licence: "CC0"
   licence_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_(1965).jpg"
+image: "/assets/partage/colin-chapman.png"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 ---
 ## La question transformée
@@ -37,7 +42,7 @@ Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes
 
 - **Lotus Type 25** : généralisation du monocoque aluminium, qui remplace le châssis tubulaire comme architecture de référence en F1.
 - **Réduction de masse et intégration** : une recherche constante, qui irrigue toutes ses voitures.
-- **Le moteur comme élément structurel**, dans la famille d'architectures Lotus de la seconde moitié des années 1960 (Lotus 49).
+- **Le moteur comme élément structurel**, dans la famille d'architectures Lotus de la seconde moitié des années 1960 (Lotus 49, avec le DFV). Le principe n'était pas neuf — la Lancia D50 l'employait dès 1954 — mais la Lotus 49 l'impose comme standard.
 - **L'aérodynamique**, exploitée tôt et de façon agressive.
 - **Le programme effet de sol** : il le lance et le dirige, jusqu'aux Lotus 78 et 79.
 

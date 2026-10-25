@@ -26,7 +26,7 @@ redirect_from: "/classement/2026/10/25/classement-final-ingenieurs-f1.html"
 | 15 | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | C | 79,0 | Recherche aéro et genèse de l'effet de sol |
 | 16 | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | D | 77,5 | Cofondateur de Cosworth, industrialisation |
 | 17 | [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) | D | 76,5 | Lancia D50, architecture intégrée |
-| 18 | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | D | 75,5 | Conception des Cooper championnes |
+| 18 | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | D | 75,5 | Chef designer des Cooper championnes |
 | 19 | [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) | D | 74,5 | Électronique et logiciel de la suspension active |
 | 20 | [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) | D | 73,5 | Intégration châssis/aéro, performance répétée |
 
@@ -67,4 +67,6 @@ Consultées le 9 août 2026. Chaque entrée donne ses propres sources.
 - McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
 - Renault, « 30 ans de Formule 1 » : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
 - Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
