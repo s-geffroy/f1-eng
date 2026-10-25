@@ -1,2 +1,474 @@
-# Glossaire technique (page /glossaire/). Rempli a partir de definitions sourcees.
-[]
+# Glossaire technique (page /glossaire/). Definitions sourcees. motifs : expressions
+# liees a leur premiere mention dans le texte des entrees (script de liaison).
+- id: appui
+  terme: Appui aérodynamique
+  motifs:
+  - appui
+  definition: Force verticale produite par l'air, qui plaque la voiture sur la piste. Elle vient des ailerons ou du dessous de la voiture, et augmente l'adhérence en virage au prix d'une traînée en ligne droite.
+  entrees:
+  - peter-wright
+  - tony-rudd
+  - tony-southgate
+  - rory-byrne
+  sources:
+  - titre: Formula 1, glossaire A-E
+    url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
+  - titre: Motor Sport Magazine, « Something in the air » (juillet 2014)
+    url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
+- id: effet-de-sol
+  terme: Effet de sol
+  motifs:
+  - effet de sol
+  definition: 'L''appui ne vient plus seulement des ailerons mais du dessous de la voiture : on y forme un passage d''air qui se rétrécit puis s''élargit, où l''air accélère et sa pression baisse, ce qui aspire la voiture vers la piste. Le procédé n''est efficace que si les côtés sont rendus étanches par des jupes. Il est interdit progressivement entre 1981 et 1983, revient en 2022 sous forme de tunnels, puis est atténué par les fonds plus plats de 2026.'
+  premiere: Lotus 78, 1977.
+  entrees:
+  - colin-chapman
+  - peter-wright
+  - tony-rudd
+  - ralph-bellamy
+  - martin-ogilvie
+  - tony-southgate
+  sources:
+  - titre: 'Formula 1, « TECH TUESDAY: The Lotus 79, F1''s ground effect marvel »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw
+  - titre: Formula 1, glossaire F-J
+    url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
+  - titre: Motor Sport Magazine, « Something in the air » (juillet 2014)
+    url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
+- id: venturi
+  terme: Venturi
+  motifs:
+  - venturi
+  definition: 'Conduit qui se rétrécit puis s''évase : selon le principe de Bernoulli, l''air y accélère et sa pression chute. En F1, ce sont les canaux formés sous les pontons ou sous le plancher, qui débouchent à l''arrière dans le diffuseur. C''est le moteur physique de l''effet de sol.'
+  entrees:
+  - rory-byrne
+  sources:
+  - titre: 'Formula 1, « TECH TUESDAY: The Lotus 79, F1''s ground effect marvel »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw
+  - titre: Formula 1, glossaire F-J
+    url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
+- id: jupes
+  terme: Jupes
+  motifs:
+  - jupes
+  definition: Cloisons qui descendent des flancs des pontons jusqu'au sol, pour empêcher l'air extérieur de remplir la zone de basse pression sous la voiture. Elles devaient coulisser verticalement pour suivre les bosses. Les jupes coulissantes sont interdites en 1981.
+  entrees:
+  - ralph-bellamy
+  - colin-chapman
+  sources:
+  - titre: 'Motor Sport Magazine, « Lotus 78: F1''s first true ground effect car » (février 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2
+  - titre: 'Formula 1, « TECH TUESDAY: The Lotus 79, F1''s ground effect marvel »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw
+  - titre: Motor Sport Magazine, championnat du monde de F1 1981
+    url: https://www.motorsportmagazine.com/database/championships/f1/1981-f1-world-championship
+- id: fond-plat
+  terme: Fond plat
+  motifs:
+  - fond plat
+  definition: Obligation réglementaire, à partir de 1983, d'un dessous de voiture plat entre les roues. Elle supprime les profils d'aile sous les pontons et les jupes, donc l'effet de sol à tunnels ; le diffuseur arrière reste autorisé.
+  premiere: 1983, décision annoncée le 3 novembre 1982.
+  entrees:
+  - gordon-murray
+  sources:
+  - titre: Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)
+    url: https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/
+  - titre: 'Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG
+- id: voiture-aile
+  terme: Voiture-aile
+  motifs:
+  - voiture-aile
+  definition: Voiture dont la carrosserie entière, et surtout les pontons, est profilée comme une aile inversée pour produire l'appui sans ailerons rapportés. C'est l'étape conceptuelle qui mène à l'effet de sol.
+  premiere: Projet BRM de 1969, non abouti, puis Lotus 78 en 1977.
+  entrees:
+  - peter-wright
+  - tony-rudd
+  - tony-southgate
+  - ralph-bellamy
+  sources:
+  - titre: Motor Sport Magazine, « Something in the air » (juillet 2014)
+    url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
+  - titre: 'Motor Sport Magazine, « Lotus 78: F1''s first true ground effect car » (février 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2
+- id: monocoque
+  terme: Monocoque
+  motifs:
+  - monocoque
+  definition: '« Coque unique » : au lieu de suspendre la mécanique à un cadre de tubes, on fait travailler une coque fermée, en tôles rivetées comme en aviation, puis en composites. La structure gagne en rigidité pour un poids moindre. Aujourd''hui, la monocoque est la cellule de survie du pilote.'
+  premiere: Lotus 25, 1962 (Chapman parlait plutôt de « baignoire »).
+  entrees:
+  - colin-chapman
+  - john-barnard
+  - alan-jenkins
+  - martin-ogilvie
+  - tony-rudd
+  sources:
+  - titre: Lotus, « Lotus Type 25 — The Revolutionary Monocoque »
+    url: https://www.lotuscars.com/en/lotus-story/race-cars/type-25
+  - titre: Formula 1, glossaire K-O
+    url: https://www.formula1.com/en/latest/article/f1-glossary-k-o.6g2hrWHA2pyxbXoe8FT9Db
+  - titre: Motor Sport Magazine, « A new frame of reference » (mai 2002)
+    url: https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/
+- id: chassis-tubulaire
+  terme: Châssis tubulaire
+  motifs:
+  - châssis tubulaire
+  - tubes courbes
+  definition: Cadre en trois dimensions fait de tubes d'acier ou d'aluminium soudés et disposés en triangles. Il porte le moteur, les suspensions et le pilote ; la carrosserie n'a pas de rôle structurel. C'était l'architecture standard des F1 jusqu'au début des années 1960.
+  entrees:
+  - colin-chapman
+  - owen-maddock
+  sources:
+  - titre: Motor Sport Magazine, « A new frame of reference » (mai 2002)
+    url: https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/
+  - titre: 'Motor Sport Magazine, « Classified spotlight: Cooper T51 »'
+    url: https://motorsportmagazine.com/articles/single-seaters/f1/classified-spotlight-cooper-t51
+- id: nid-d-abeille
+  terme: Nid d'abeille
+  motifs:
+  - nid d'abeille
+  definition: 'Panneau sandwich : deux peaux minces collées de part et d''autre d''une âme alvéolée en aluminium. Très léger et rigide, il forme les coques de F1 dans les années 1970 et au début des années 1980, souvent plié plutôt que riveté, avant de servir d''âme aux composites.'
+  entrees:
+  - harvey-postlethwaite
+  - martin-ogilvie
+  - ralph-bellamy
+  sources:
+  - titre: Peter Wright, GrandPrix.com, « Dr Harvey Postlethwaite, an appreciation »
+    url: https://www.grandprix.com/features/peter-wright/technical-dr-harvey-postlethwaite-an-appreciation.html
+- id: composite-carbone
+  terme: Composite carbone
+  motifs:
+  - composite carbone
+  - composites carbone
+  - fibre de carbone
+  definition: Fibres de carbone noyées dans une résine, empilées en couches orientées selon les efforts, puis cuites. Le matériau est très rigide et très résistant pour un poids minime ; son rapport rigidité/poids et sa tenue aux chocs en ont fait la base de la sécurité moderne.
+  premiere: 'Châssis entier : McLaren MP4/1, 1981.'
+  entrees:
+  - john-barnard
+  - alan-jenkins
+  - steve-nichols
+  - harvey-postlethwaite
+  sources:
+  - titre: McLaren, « MP4/1 »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/
+  - titre: Formula 1, glossaire A-E
+    url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
+- id: moteur-porteur
+  terme: Moteur porteur
+  motifs:
+  - moteur porteur
+  - élément structurel
+  - composant structurel
+  definition: 'Le bloc moteur, très rigide, fait lui-même partie du châssis : la coque s''y accroche à l''avant, la suspension arrière et la boîte de vitesses à l''arrière. On supprime le cadre arrière, ce qui allège et raccourcit la voiture.'
+  premiere: Généralisé avec la Lotus 49 et le DFV en 1967 ; la Lancia D50 l'employait dès 1954.
+  entrees:
+  - colin-chapman
+  - keith-duckworth
+  - vittorio-jano
+  - ettore-zaccone-mina
+  sources:
+  - titre: Motor Sport Magazine, « The Lotus 49 » (juillet 1967)
+    url: https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/
+  - titre: Motor Sport Magazine, « Lancia D50 re-creations nearing completion » (octobre 1999)
+    url: https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion
+- id: moteur-central-arriere
+  terme: Moteur central-arrière
+  motifs:
+  - moteur central-arrière
+  - moteur arrière
+  definition: 'Le moteur est placé derrière le pilote, devant l''essieu arrière. Il n''y a plus d''arbre de transmission le long de la voiture : la surface frontale et le centre de gravité baissent, le poids passe vers les roues motrices et le moment polaire diminue. Depuis 1959, tous les champions du monde de F1 ont roulé avec le moteur derrière eux.'
+  premiere: 'Première victoire en championnat : Cooper, Argentine 1958 ; premier titre en 1959.'
+  entrees:
+  - john-cooper
+  - owen-maddock
+  - john-crosthwaite
+  sources:
+  - titre: Motor Sport Magazine, « Back to the future » (novembre 2017)
+    url: https://www.motorsportmagazine.com/archive/article/november-2017/103/back-future/
+  - titre: 'Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever »'
+    url: https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/
+  - titre: 'Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »'
+    url: https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX
+- id: moment-polaire
+  terme: Moment polaire
+  motifs:
+  - moment polaire
+  definition: Résistance d'une voiture à pivoter autour de son axe vertical. Plus les masses sont loin du centre, plus il est élevé. Un moment polaire faible rend la voiture plus vive à mettre en virage, mais aussi plus nerveuse.
+  entrees:
+  - john-cooper
+  sources:
+  - titre: Motor Sport Magazine, « Back to the future » (novembre 2017)
+    url: https://www.motorsportmagazine.com/archive/article/november-2017/103/back-future/
+  - titre: 'Motor Sport Magazine, « Little Belter: the Cooper F1 team » (juin 2000)'
+    url: https://www.motorsportmagazine.com/archive/article/june-2000/88/cooper-t5153/
+- id: centralisation-des-masses
+  terme: Centralisation des masses
+  motifs:
+  - centralisation des masses
+  - centraliser les masses
+  definition: Regrouper les éléments lourds — carburant, radiateurs, boîte, pilote — près du centre de gravité, entre les essieux, pour abaisser le moment polaire et rendre la voiture plus vive à changer de direction.
+  entrees:
+  - mauro-forghieri
+  sources:
+  - titre: 'Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri''s masterpiece, the Ferrari 312T »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz
+- id: boite-transversale
+  terme: Boîte de vitesses transversale
+  motifs:
+  - boîte de vitesses transversale
+  - boîte transversale
+  definition: Les arbres de la boîte sont placés en travers de la voiture plutôt qu'alignés derrière le moteur. La boîte se loge devant l'essieu arrière, ce qui rapproche le poids du centre et améliore la réponse directionnelle.
+  premiere: Ferrari 312T, 1975.
+  entrees:
+  - mauro-forghieri
+  sources:
+  - titre: 'Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri''s masterpiece, the Ferrari 312T »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz
+  - titre: 'Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »'
+    url: https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX
+- id: boite-semi-automatique
+  terme: Boîte semi-automatique à palettes
+  motifs:
+  - boîte semi-automatique
+  definition: 'Le pilote change de rapport avec deux palettes derrière le volant, sans levier ni pédale d''embrayage ; une commande électro-hydraulique exécute le changement. Mains sur le volant, moins d''erreurs, coque plus étroite : toutes les F1 actuelles en sont équipées.'
+  premiere: Ferrari 640, 1989 (d'abord prévue pour la 639, qui n'a pas couru).
+  entrees:
+  - john-barnard
+  sources:
+  - titre: Formula 1, glossaire F-J
+    url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
+  - titre: 'Motor Sport Magazine, « Ferrari''s 640: the 1989 flawed masterpiece » (juin 2022)'
+    url: https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design
+- id: turbocompresseur
+  terme: Turbocompresseur
+  motifs:
+  - turbocompresseur
+  - suralimentation
+  definition: 'Une turbine entraînée par les gaz d''échappement fait tourner un compresseur, qui force davantage d''air dans les cylindres : un petit moteur produit autant ou plus qu''un gros. Le règlement 1966-1986 met en balance 1,5 litre suralimenté et 3 litres atmosphérique ; le turbo revient en 2014 dans le groupe propulseur hybride.'
+  premiere: Renault RS01, Grand Prix de Grande-Bretagne 1977.
+  entrees:
+  - bernard-dudot
+  - francois-castaing
+  - jean-terramorsi
+  - gordon-murray
+  - andy-cowell
+  sources:
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+  - titre: Goodwood, « Renault's RS01, the first turbocharged Formula 1 car »
+    url: https://www.goodwood.com/grr/f1/renaults-rs01-turbocharged-formula-1/
+  - titre: Renault, « 30 ans de Formule 1 »
+    url: https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf
+- id: rappel-pneumatique
+  terme: Rappel pneumatique des soupapes
+  motifs:
+  - rappel pneumatique
+  definition: Le ressort métallique qui referme chaque soupape est remplacé par un petit volume de gaz comprimé. À très haut régime, les ressorts d'acier n'arrivent plus à refermer les soupapes à temps ; le gaz, plus léger et plus réactif, permet de monter beaucoup plus haut en régime.
+  premiere: Moteur Renault EF15 B, 1986.
+  entrees:
+  - bernard-dudot
+  sources:
+  - titre: Renault, « 30 ans de Formule 1 »
+    url: https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf
+- id: flat-12
+  terme: Flat-12
+  motifs:
+  - flat-12
+  definition: Moteur à douze cylindres dont les deux rangées sont à plat, face à face (V à 180°). Très bas, il abaisse le centre de gravité et dégage l'air vers l'aileron arrière, mais il est large et gêne les tunnels d'effet de sol.
+  entrees:
+  - mauro-forghieri
+  - franco-rocchi
+  - gordon-murray
+  sources:
+  - titre: Motor Sport Magazine, « The flat 12 engine that powered Ferrari to '70s F1 triumph » (novembre 2021)
+    url: https://motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph
+  - titre: The Race, « Nine things you may not know about Brabham's iconic F1 fan car »
+    url: https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car
+- id: groupe-propulseur-hybride
+  terme: Groupe propulseur hybride
+  motifs:
+  - groupe propulseur hybride
+  definition: Depuis 2014, un V6 turbo de 1,6 litre associé à une récupération d'énergie électrique stockée dans une batterie. Le MGU-K récupère l'énergie au freinage ; le MGU-H, supprimé en 2026, la récupérait sur la chaleur des gaz d'échappement. Le turbo séparé de Mercedes place la turbine et le compresseur aux deux extrémités du moteur.
+  premiere: '2014.'
+  entrees:
+  - andy-cowell
+  - aldo-costa
+  - paddy-lowe
+  sources:
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+  - titre: Formula 1, glossaire K-O
+    url: https://www.formula1.com/en/latest/article/f1-glossary-k-o.6g2hrWHA2pyxbXoe8FT9Db
+  - titre: Autosport, « Mercedes turbo not game-changing »
+    url: https://www.autosport.com/f1/news/114013/mercedes-turbo-not-gamechanging
+  - titre: 'Motor Sport Magazine, « Hall of Fame: Andy Cowell » (février 2020)'
+    url: https://motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell
+- id: suspension-active
+  terme: Suspension active
+  motifs:
+  - suspension active
+  definition: Des vérins hydrauliques pilotés par ordinateur remplacent ou complètent ressorts et amortisseurs. Des capteurs mesurent les mouvements, et le calculateur maintient la hauteur et l'assiette voulues. Interdite après 1993.
+  premiere: Lotus 92, 1983 (l'idée venait de Cranfield, pas de Lotus).
+  entrees:
+  - peter-wright
+  - frank-dernie
+  - paddy-lowe
+  - steve-wise
+  - patrick-head
+  - adrian-newey
+  sources:
+  - titre: Keith Howard, Motor Sport Magazine, « Active suspension » (décembre 2001)
+    url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
+  - titre: Motor Sport Magazine, « Chapman's last big thing » (mars 2012)
+    url: https://www.motorsportmagazine.com/archive/article/march-2012/80/chapmans-last-big-thing/
+  - titre: 'Peter Wright, GrandPrix.com, « Technical: All change »'
+    url: https://www.grandprix.com/features/peter-wright/technical-all-change.html
+- id: suspension-progressive
+  terme: Suspension à flexibilité progressive
+  motifs:
+  - flexibilité progressive
+  definition: 'Par un jeu de biellettes et de culbuteurs, le ressort et l''amortisseur sont comprimés de plus en plus fort à mesure que la roue monte : la suspension reste souple au départ et se durcit sous la charge. Les sources divergent sur la première F1 à l''avoir employée.'
+  entrees:
+  - ralph-bellamy
+  sources:
+  - titre: 'Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren M19 » (janvier 2005)'
+    url: https://www.motorsportmagazine.com/archive/article/january-2005/64/x-ray-spec-mclaren-m19/
+  - titre: Goodwood, « The BT44 was Gordon Murray's first great innovation »
+    url: https://goodwood.com/grr/f1/the-bt44-was-gordon-murrays-first-great-innovation
+- id: aileron
+  terme: Aileron
+  motifs:
+  - ailerons
+  - aileron
+  definition: 'Aile d''avion montée à l''envers, à l''avant ou à l''arrière : au lieu de soulever la voiture, elle la plaque au sol, au prix d''une traînée accrue. En 1968-1969, les ailerons sont montés sur de hauts mâts, interdits après des accidents en 1969.'
+  premiere: 'Contestée : Ferrari et Brabham essaient des ailerons sur supports à Spa en 1968, d''autres les avaient précédés.'
+  entrees:
+  - mauro-forghieri
+  - tony-rudd
+  - jean-claude-migeot
+  sources:
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+  - titre: Doug Nye, Motor Sport Magazine (septembre 2008)
+    url: https://www.motorsportmagazine.com/archive/article/september-2008/140/doug-nye-36/
+- id: nez-releve
+  terme: Nez relevé
+  motifs:
+  - nez relevé
+  definition: Le nez est surélevé et l'aileron avant suspendu dessous, pour envoyer davantage d'air sous le plancher et vers le diffuseur. C'est devenu la norme dans les années 1990.
+  premiere: Tyrrell 019, Grand Prix de Saint-Marin 1990 ; la Leyton House CG901 le fait la même année.
+  entrees:
+  - jean-claude-migeot
+  - harvey-postlethwaite
+  - adrian-newey
+  sources:
+  - titre: 'Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG
+  - titre: Motor Sport Magazine, « Now that's what I call… F1 1990s, the decade's underrated cars » (juin 2021)
+    url: https://www.motorsportmagazine.com/archive/article/june-2021/90/now-thats-what-i-call-f1-1990s-the-underrated-cars/
+- id: diffuseur
+  terme: Diffuseur et double diffuseur
+  motifs:
+  - double diffuseur
+  - diffuseur
+  definition: 'Le diffuseur est la partie arrière relevée du plancher : il ralentit et évacue l''air passé sous la voiture, ce qui abaisse la pression dessous et crée de l''appui. Le double diffuseur de 2009 exploite une ambiguïté du règlement pour alimenter un second étage ; il est interdit pour 2010.'
+  premiere: 'Double diffuseur : 2009, chez Brawn, Toyota et Williams.'
+  entrees:
+  - ross-brawn
+  - adrian-newey
+  sources:
+  - titre: Formula 1, glossaire A-E
+    url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
+  - titre: 'Formula 1, « From a six-wheeled car to the flip-flop wing: 8 of the wildest tech innovations »'
+    url: https://www.formula1.com/en/latest/article/from-a-six-wheeled-car-to-the-flip-flop-wing-8-of-the-wildest-tech.1GRhOeOV4saRcrbvxWYMtG.1GRhOeOV4saRcrbvxWYMtG
+  - titre: 'Autosport, « F1 2009-13 part two: Brawn and the double diffuser »'
+    url: https://www.autosport.com/f1/news/f1-2009-13-part-two-brawn-and-the-double-diffuser-5102901/5102901/
+- id: voiture-a-ventilateur
+  terme: Voiture à ventilateur
+  motifs:
+  - ventilateur
+  definition: Un ventilateur aspire l'air sous la voiture, dont les côtés sont scellés par des jupes, et crée une dépression qui la plaque au sol, quelle que soit la vitesse. Sur la Brabham BT46B, il était entraîné par la boîte et présenté comme un organe de refroidissement.
+  premiere: Brabham BT46B, Grand Prix de Suède 1978, sa seule course.
+  entrees:
+  - gordon-murray
+  sources:
+  - titre: The Race, « Nine things you may not know about Brabham's iconic F1 fan car »
+    url: https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car
+  - titre: Motor Sport Magazine, « Vacuum clean-up » (mai 1998)
+    url: https://www.motorsportmagazine.com/archive/page/may-1998/65
+- id: antipatinage
+  terme: Antipatinage
+  motifs:
+  - antipatinage
+  definition: Le calculateur compare la vitesse des roues motrices à celle de la voiture et réduit la puissance quand elles patinent, indépendamment de l'accélérateur. Interdit en 1994, réautorisé en 2001, de nouveau interdit en 2008 avec un calculateur standard.
+  entrees:
+  - paddy-lowe
+  sources:
+  - titre: 'Peter Wright, GrandPrix.com, « Technical: All change »'
+    url: https://www.grandprix.com/features/peter-wright/technical-all-change.html
+  - titre: RacingNews365, « The slippery history of traction control in F1 »
+    url: https://racingnews365.com/traction-control-in-f1-a-short-history
+- id: acquisition-de-donnees
+  terme: Acquisition de données
+  motifs:
+  - acquisition de données
+  definition: Des capteurs embarqués enregistrent vitesses, débattements, pressions et températures ; les données sont lues au stand ou transmises en direct (télémétrie). Les ingénieurs règlent la voiture sur des mesures plutôt que sur les seules impressions du pilote.
+  entrees:
+  - frank-dernie
+  - steve-wise
+  - sam-michael
+  sources:
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+  - titre: Motor Sport Magazine, « Chapman's last big thing » (mars 2012)
+    url: https://www.motorsportmagazine.com/archive/article/march-2012/80/chapmans-last-big-thing/
+  - titre: Motor Sport Magazine, « Lunch with… Frank Dernie » (août 2016)
+    url: https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/
+- id: cao
+  terme: CAO, CAE et CFD
+  motifs:
+  - CAO
+  definition: La CAO sert à dessiner les pièces en numérique ; le calcul assisté (CAE) regroupe les calculs de résistance et de suspension ; la CFD simule l'écoulement de l'air autour de la voiture, en complément de la soufflerie. Son usage est aujourd'hui plafonné par le règlement.
+  entrees:
+  - frank-dernie
+  - alan-jenkins
+  sources:
+  - titre: Formula 1, glossaire A-E
+    url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
+  - titre: Motor Sport Magazine, « Lunch with… Frank Dernie » (août 2016)
+    url: https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/
+- id: soufflerie
+  terme: Soufflerie
+  motifs:
+  - soufflerie
+  definition: Un grand ventilateur souffle de l'air sur une maquette réduite, et des balances mesurent l'appui et la traînée. Le tapis roulant, qui défile sous la maquette et fait tourner les roues, est décisif pour mesurer correctement l'effet de sol.
+  entrees:
+  - peter-wright
+  - tony-rudd
+  - tony-southgate
+  - frank-dernie
+  - jean-claude-migeot
+  - ross-brawn
+  sources:
+  - titre: Formula 1, glossaire U-Z
+    url: https://www.formula1.com/en/latest/article/f1-glossary-u-z.5JSlDsnyvYmbK0TCjTs7KB
+  - titre: Motor Sport Magazine, « Something in the air » (juillet 2014)
+    url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
+  - titre: Motor Sport Magazine, « Lunch with… Frank Dernie » (août 2016)
+    url: https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/
+- id: ravitaillement
+  terme: Ravitaillement et arrêt tactique
+  motifs:
+  - ravitaillement
+  definition: La voiture part allégée et s'arrête en course pour faire le plein et changer de roues, ce qui la rend plus rapide à chaque relais. Le ravitaillement est interdit de 1984 à 1993, autorisé de 1994 à 2009, puis interdit depuis 2010 ; l'arrêt ne sert plus qu'au changement de pneus.
+  premiere: 'Arrêt tactique moderne : Brabham, 1982.'
+  entrees:
+  - gordon-murray
+  sources:
+  - titre: Doug Nye, Motor Sport Magazine (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/122/doug-nye
+  - titre: Motorsport.com, « Why was refuelling banned in F1? »
+    url: https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1

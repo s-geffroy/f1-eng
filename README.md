@@ -66,6 +66,8 @@ _config.yml          reglages : url, baseurl, collections, greffons, exclusions
 index.html           accueil : index alphabetique, recherche et filtres
 tiers.html           les quatre tiers et leurs membres
 lignees.html         filiations techniques (donnees : _data/lignees.yml)
+chronologie.html     frise cliquable des innovations (donnees : _data/chronologie.yml)
+glossaire.html       glossaire technique (donnees : _data/glossaire.yml)
 dossiers/index.html  liste des dossiers
 404.html             page servie sur une adresse inconnue
 _ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/
@@ -126,6 +128,20 @@ adaptee. Elle documente un acteur cite par les entrees classees, avec les memes
 exigences de sources ; le classement des vingt n'en est pas modifie. Champ
 `consultation:` pour la date de consultation des sources si elle differe du
 9 aout 2026.
+
+### Chronologie et glossaire
+
+- `_data/chronologie.yml` : un jalon = annee, voie (architecture, aero,
+  moteur, transmission, methode), titre, texte, entrees, termes. Il ne reprend
+  que des faits deja sources dans les entrees citees. Repere rouge si une entree
+  du Tier A est citee ; deux jalons a moins de 3 ans sur une meme voie sont
+  decales en hauteur.
+- `_data/glossaire.yml` : un terme = id (ancre), terme, definition, premiere
+  (facultatif), entrees, sources, motifs. Les motifs servent a lier la premiere
+  mention du terme dans chaque entree (`[mot]({{ site.baseurl }}/glossaire/#id)`).
+- **Toujours mettre les textes YAML entre guillemets** : un « : » non protege
+  casse la construction (c'est arrive). Verifier avant de pousser :
+  `python3 -c "import yaml,sys;[yaml.safe_load(open(f)) for f in sys.argv[1:]]" _data/*.yml`.
 
 ### Regles de contenu
 

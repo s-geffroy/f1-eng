@@ -19,6 +19,10 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Gordon_Murray_chats_in_the_paddock_behind_the_pits_at_the_1996_Le_Mans_(51816281021).jpg"
 sources:
+  - titre: "Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
+  - titre: "Motor Sport Magazine, « Vacuum clean-up » (mai 1998)"
+    url: "https://www.motorsportmagazine.com/archive/page/may-1998/65"
   - titre: "Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 »"
     url: "https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1"
   - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
@@ -40,9 +44,9 @@ redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
 
 Murray combine deux qualités rarement réunies : la radicalité conceptuelle et le pragmatisme. Promu concepteur en chef de Brabham, il y signe plusieurs voitures qui ont fait date.
 
-- **La Brabham BT46B (1978)** porte un grand ventilateur vertical sous l'aileron arrière, officiellement pour refroidir le flat-12 Alfa Romeo. Elle gagne le Grand Prix de Suède avec Niki Lauda, sa seule course : Brabham la retire ensuite de lui-même.
-- **Le pit-stop tactique moderne.** Le ravitaillement revient en 1982 grâce à Brabham et à Murray. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine.
-- **La Brabham BT52 (1983).** Après l'interdiction des fonds plats annoncée en novembre 1982, la BT52 est conçue et construite en six semaines. Nelson Piquet devient avec elle le premier champion du monde sur moteur turbo, et le système modulaire de Murray est ensuite largement copié.
+- **La Brabham BT46B (1978)** porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo. Elle gagne le Grand Prix de Suède avec Niki Lauda, sa seule course. Les sources divergent sur la suite : selon Formula 1, Brabham la retire de lui-même ; selon Motor Sport, un retrait volontaire avait été négocié, puis l'autorité sportive l'interdit « pour raisons de sécurité ».
+- **Le pit-stop tactique moderne.** Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) revient en 1982 grâce à Brabham et à Murray. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine.
+- **La Brabham BT52 (1983).** Après l'annonce, le 3 novembre 1982, du [fond plat]({{ site.baseurl }}/glossaire/#fond-plat) obligatoire, qui interdit les fonds à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) et les [jupes]({{ site.baseurl }}/glossaire/#jupes), la BT52 est conçue et construite en six semaines. Nelson Piquet devient avec elle le premier champion du monde sur moteur turbo, et le système modulaire de Murray est ensuite largement copié.
 - **McLaren et la MP4/4.** Murray rejoint ensuite McLaren, où naît la MP4/4, qui gagne 15 des 16 courses de 1988.
 
 ## Attribution : la MP4/4

@@ -32,7 +32,7 @@ redirect_from: "/ingenieurs/2026/10/25/patrick-head.html"
 Patrick Head est l'architecte de l'organisation technique Williams. Diplômé en génie mécanique de l'University College London en 1970, il entre aussitôt chez Lola. En 1977, il fonde Williams Grand Prix Engineering avec Frank Williams et prend la tête du bureau d'études.
 
 - **FW06 (1978)** : la première Williams conçue par Head.
-- **FW07** : la voiture à effet de sol donne à l'équipe la première de ses 114 victoires, au Grand Prix de Grande-Bretagne 1979.
+- **FW07** : la voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) donne à l'équipe la première de ses 114 victoires, au Grand Prix de Grande-Bretagne 1979.
 - **1980** : la voiture de Head mène Alan Jones et Williams aux deux titres mondiaux.
 
 ## Du dessinateur au directeur technique
@@ -45,7 +45,7 @@ En 2004, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}) 
 
 ## Son rôle dans l'écosystème Williams
 
-La suspension active illustre ce rôle. Le premier système est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) ; le logiciel est en grande partie écrit par [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) ; et c'est Head qui le fait revenir, sous une forme améliorée, en 1992. À Head revient l'architecture d'ensemble et la direction.
+La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) ; le logiciel est en grande partie écrit par [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) ; et c'est Head qui le fait revenir, sous une forme améliorée, en 1992. À Head revient l'architecture d'ensemble et la direction.
 
 ## Pourquoi le Tier C
 

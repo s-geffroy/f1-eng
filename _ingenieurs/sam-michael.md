@@ -25,7 +25,7 @@ Sam Michael est le directeur technique de Williams de 2004 à la fin de 2011, su
 
 ## Parcours technique
 
-- **Team Lotus, 1993.** Il rejoint l'équipe technique de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) pour l'acquisition de données et la simulation au tour.
+- **Team Lotus, 1993.** Il rejoint l'équipe technique de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) pour l'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) et la simulation au tour.
 - **Jordan.** En 1996, il y crée le département de recherche et développement, installe un banc à sept vérins pour simuler les mouvements de suspension et conçoit un différentiel actif. Il devient ensuite ingénieur de course de Ralf Schumacher, puis de Heinz-Harald Frentzen, vainqueur à Magny-Cours et au Nürburgring en 1999.
 - **Williams.** Entré en 2001 comme ingénieur en chef des opérations, il devient directeur technique en 2004 : la promotion est annoncée en mai, Head prenant le poste de directeur de l'ingénierie. En mai 2011, après un début de saison difficile, il démissionne avec effet en fin de saison, en même temps que le chef aérodynamicien Jon Tomlinson.
 - **McLaren.** Directeur sportif à partir de 2012, il quitte la F1 à la fin de 2014.

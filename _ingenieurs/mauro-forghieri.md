@@ -40,21 +40,21 @@ Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingéni
 
 ## La centralisation des masses
 
-Une idée directrice relie ses voitures des années 1970 : **centraliser les masses** pour améliorer la réponse directionnelle.
+Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle.
 
 - Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13 cm dans l'empattement.
-- La **312T** de 1975 inaugure la **boîte de vitesses transversale**, une première en F1, ensuite adoptée par tout le plateau.
+- La **312T** de 1975 inaugure la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, une première en F1, ensuite adoptée par tout le plateau.
 - La famille 312T remporte trois titres pilotes et quatre titres constructeurs.
 
 ## Autres jalons
 
-- Au Grand Prix de Belgique 1968, il décide de monter des ailerons sur supports sur la 312 de Chris Amon, qui signe la pole position. Formula 1 rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
+- Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. Formula 1 rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
 - Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981.
 - À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le V12 court en F1 en 1989 et 1990.
 
 ## Attribution
 
-Le flat-12 Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi qu'il avait tendance à surévaluer ses propres inventions.
+Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi qu'il avait tendance à surévaluer ses propres inventions.
 
 ## Pourquoi le Tier B
 

@@ -362,7 +362,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-family: var(--titre); font-size: 0.875rem; font-weight: 600; color: var(--mine);
   font-variant-numeric: tabular-nums;
 }
-.frise-voie { position: relative; height: 5rem; border-top: var(--trait-fin) solid var(--trait); }
+.frise-voie { position: relative; height: 5.5rem; border-top: var(--trait-fin) solid var(--trait); }
 .frise-voie-nom {
   position: sticky; left: 0; z-index: 2;
   width: var(--nom); height: 100%; margin: 0;
@@ -373,7 +373,9 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-size: 1rem; font-weight: 600; line-height: 1.15;
 }
 .frise-voie-jalons { position: absolute; top: 0; bottom: 0; left: var(--nom); right: var(--droite); margin: 0; padding: 0; list-style: none; }
-.frise-voie-jalons li { position: absolute; top: 50%; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
+.frise-voie-jalons li { position: absolute; top: 38%; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
+.frise-voie-jalons li.decale { top: 70%; }
+.frise-voie-jalons li.decale .jalon-etiquette { bottom: auto; top: calc(100% + 0.35rem); }
 
 .jalon {
   position: absolute; left: 0; top: 0;
@@ -444,6 +446,24 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   .jalon::before, .jalon-etiquette { transition: none; }
 }
 
+/* ---------- Glossaire : un dictionnaire de normes ---------- */
+
+.glossaire-lettres { margin: 0 0 1.5rem; padding-bottom: 0.5rem; border-bottom: var(--trait-fort) solid var(--graphite); }
+.glossaire-groupe { display: grid; grid-template-columns: 4rem minmax(0, 1fr); border-bottom: var(--trait-fin) solid var(--trait); scroll-margin-top: 1rem; }
+.glossaire-groupe .lettre { margin: 0; padding-top: 1rem; }
+.terme { padding: 1.1rem 0; border-top: var(--trait-fin) solid var(--trait-clair); scroll-margin-top: 1rem; max-width: 48rem; }
+.glossaire-termes .terme:first-child { border-top: 0; }
+.terme:target { background: var(--feuille); box-shadow: inset 4px 0 0 var(--graphite); padding-left: 1rem; }
+.terme h2 { font-size: 1.5rem; margin: 0 0 0.4rem; }
+.terme-definition { margin: 0 0 0.75rem; max-width: var(--colonne); }
+.terme-renvois { margin: 0; font-size: 0.9375rem; line-height: 1.5; }
+.terme-renvois div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 0 1rem; padding: 0.2rem 0; }
+.terme-renvois dt { font-family: var(--titre); font-weight: 600; color: var(--mine); }
+.terme-renvois dd { margin: 0; overflow-wrap: anywhere; }
+
+/* lien vers le glossaire dans le texte : pointillé, pour le distinguer d'un renvoi vers une entrée */
+.texte a[href*="/glossaire/#"] { text-decoration-style: dotted; text-decoration-thickness: 2px; }
+
 /* ---------- Liste des dossiers ---------- */
 
 .telechargement {
@@ -482,6 +502,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   .tier-liste .ligne-domaine { display: none; }
   .tier { padding-left: 1rem; }
   .frise-plan { --nom: 7.5rem; min-width: 60rem; }
+  .glossaire-groupe { grid-template-columns: 2.5rem minmax(0, 1fr); }
+  .terme-renvois div { grid-template-columns: minmax(0, 1fr); }
   .frise-voie-nom { font-size: 0.875rem; padding: 0 0.5rem; }
   .frise-detail-fiche { grid-template-columns: minmax(0, 1fr); }
   .frise-detail-fiche .fiche-jalon-annee { border-right: 0; border-bottom: var(--trait-fin) solid var(--trait); font-size: 2.25rem; }

@@ -1,0 +1,54 @@
+---
+layout: default
+title: Glossaire
+permalink: /glossaire/
+description: Les termes techniques de la Formule 1 employés dans l'encyclopédie, définis simplement et sourcés.
+---
+{%- assign termes = site.data.glossaire | sort_natural: "terme" -%}
+{%- assign lettres = termes | group_by_exp: "t", "t.terme | slice: 0 | upcase" -%}
+{%- assign jalons = site.data.chronologie.jalons | sort: "annee" -%}
+<section class="page-tete">
+  <h1>Glossaire technique</h1>
+  <p class="accroche">Les mots de l'ingénierie F1 employés dans l'encyclopédie, expliqués simplement. Chaque définition renvoie aux ingénieurs concernés et aux jalons de la chronologie.</p>
+</section>
+
+<nav class="lettres glossaire-lettres" aria-label="Lettres">
+  {%- for g in lettres %}
+  <a href="#lettre-{{ g.name | downcase }}">{{ g.name }}</a>
+  {%- endfor %}
+</nav>
+
+{%- for g in lettres %}
+<section class="glossaire-groupe" id="lettre-{{ g.name | downcase }}" aria-label="Lettre {{ g.name }}">
+  <p class="lettre" aria-hidden="true">{{ g.name }}</p>
+  <div class="glossaire-termes">
+    {%- for t in g.items %}
+    <article class="terme" id="{{ t.id }}">
+      <h2>{{ t.terme }}</h2>
+      <p class="terme-definition">{{ t.definition }}</p>
+      <dl class="terme-renvois">
+        {%- if t.premiere %}
+        <div><dt>Première apparition en F1</dt><dd>{{ t.premiere }}</dd></div>
+        {%- endif %}
+        {%- if t.entrees.size > 0 %}
+        <div><dt>Dans l'encyclopédie</dt><dd>
+          {%- for id in t.entrees %}{% include lien-entree.html id=id %}{% unless forloop.last %}, {% endunless %}{% endfor -%}
+        </dd></div>
+        {%- endif %}
+        {%- assign dates = "" | split: "" -%}
+        {%- for j in jalons -%}{%- if j.termes contains t.id -%}{%- assign dates = dates | push: j -%}{%- endif -%}{%- endfor -%}
+        {%- if dates.size > 0 %}
+        <div><dt>Sur la chronologie</dt><dd>
+          {%- for j in dates %}<a href="{{ '/chronologie/' | relative_url }}#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+        </dd></div>
+        {%- endif %}
+        <div><dt>Sources</dt><dd>
+          {%- for s in t.sources %}<a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+        </dd></div>
+      </dl>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+{%- endfor %}
+<p class="jalons-note">Sources consultées le 25 octobre 2026.</p>

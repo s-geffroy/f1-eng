@@ -34,15 +34,15 @@ redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---
 ## Ce qu'il a apporté
 
-Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'origine du programme effet de sol.
+Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'origine du programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).
 
 ## BRM
 
 - Apprenti chez Rolls-Royce, il est détaché chez BRM peu après les débuts de la V16, en 1950, pour s'occuper de ses compresseurs.
 - En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs.
-- Sur la BRM P261, il prolonge les pontons de la monocoque vers l'arrière, autour du moteur, pour en corriger le manque de rigidité.
+- Sur la BRM P261, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour en corriger le manque de rigidité.
 - En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu.
-- En 1969, hostile aux ailerons, il suggère que la voiture elle-même produise l'appui. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en soufflerie, mais le projet secret de voiture-aile est arrêté en juin 1969.
+- En 1969, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), il suggère que la voiture elle-même produise l'[appui]({{ site.baseurl }}/glossaire/#appui). [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), mais le projet secret de [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) est arrêté en juin 1969.
 
 ## Lotus
 

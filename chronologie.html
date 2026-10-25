@@ -4,7 +4,7 @@ title: Chronologie
 permalink: /chronologie/
 description: La frise des grandes innovations techniques de la Formule 1, de la Lancia D50 au moteur hybride, reliées aux ingénieurs qui les ont portées.
 ---
-{%- assign debut = 1950 -%}
+{%- assign debut = 1945 -%}
 {%- assign fin = 2025 -%}
 {%- assign jalons = site.data.chronologie.jalons | sort: "annee" -%}
 <section class="page-tete">
@@ -25,14 +25,19 @@ description: La frise des grandes innovations techniques de la Formule 1, de la 
         <h2 class="frise-voie-nom">{{ v.nom }}</h2>
         <ol class="frise-voie-jalons">
           {%- assign dans_voie = jalons | where: "voie", v.id -%}
+          {%- assign precedent = -100 -%}{%- assign decale = false -%}
           {%- for j in dans_voie %}
+          {%- comment -%} deux jalons proches (moins de 3 ans) sur une même piste : le second est décalé en hauteur {%- endcomment -%}
+          {%- assign ecart = j.annee | minus: precedent -%}
+          {%- if ecart < 3 -%}{%- if decale -%}{%- assign decale = false -%}{%- else -%}{%- assign decale = true -%}{%- endif -%}{%- else -%}{%- assign decale = false -%}{%- endif -%}
+          {%- assign precedent = j.annee -%}
           {%- assign tier_a = false -%}
           {%- for id in j.entrees -%}
             {%- assign url_e = "/ingenieurs/" | append: id | append: "/" -%}
             {%- assign e = site.ingenieurs | where: "url", url_e | first -%}
             {%- if e.tier == "A" -%}{%- assign tier_a = true -%}{%- endif -%}
           {%- endfor %}
-          <li style="--annee: {{ j.annee }};">
+          <li style="--annee: {{ j.annee }};"{% if decale %} class="decale"{% endif %}>
             <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1966 %} jalon-debut{% elsif j.annee > 2005 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}">
               <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }}</span>
             </a>
@@ -93,7 +98,7 @@ description: La frise des grandes innovations techniques de la Formule 1, de la 
   var panneau = document.getElementById("frise-detail");
   var fiche = document.getElementById("frise-detail-fiche");
   var courant = null;
-  var doux = !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var doux = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
 
   function ouvrir(id, focus, defiler) {
     var source = document.getElementById("j-" + id);
@@ -111,16 +116,18 @@ description: La frise des grandes innovations techniques de la Formule 1, de la 
     if (actifR && defiler !== false) actifR.scrollIntoView({ block: "nearest", inline: "center", behavior: doux ? "smooth" : "auto" });
     history.replaceState(null, "", "#j-" + id);
   }
-  function decaler(pas, focus) {
-    var i = ordre.indexOf(courant);
+  // pas de +1 / -1 à partir d'un jalon donné (par défaut, le jalon ouvert), en boucle
+  function decaler(pas, focus, depuis) {
+    var i = ordre.indexOf(depuis || courant);
     ouvrir(ordre[(i + pas + ordre.length) % ordre.length], focus);
   }
 
   reperes.forEach(function (r) {
     r.addEventListener("click", function (e) { e.preventDefault(); ouvrir(r.dataset.id, false); });
+    // les flèches partent du repère qui a le focus, pas du dernier jalon ouvert
     r.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight") { e.preventDefault(); decaler(1, true); }
-      if (e.key === "ArrowLeft") { e.preventDefault(); decaler(-1, true); }
+      if (e.key === "ArrowRight") { e.preventDefault(); decaler(1, true, r.dataset.id); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); decaler(-1, true, r.dataset.id); }
     });
   });
   document.getElementById("frise-prec").addEventListener("click", function () { decaler(-1, false); });

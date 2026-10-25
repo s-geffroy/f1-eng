@@ -25,8 +25,8 @@ redirect_from: "/ingenieurs/2026/10/25/frank-dernie.html"
 
 Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosserie : celle du **processus d'ingénierie**.
 
-- **Numérique et données.** Selon ses propres déclarations, il a été le premier en F1 à utiliser la CAO et le calcul assisté par ordinateur, le premier à installer un système numérique d'acquisition de données dans une F1, et le premier à proposer une soufflerie interne à l'équipe. Aucune source indépendante ne confirme ces primautés.
-- **La suspension active Williams.** Selon Motor Sport, le système Williams est conçu par Dernie. Là où le système Lotus s'inspirait de l'aéronautique, celui de Williams dérive d'un système routier. Monté sur la FW11B en fin de saison 1987, il gagne sa première course à Monza avec Nelson Piquet.
+- **Numérique et données.** Selon ses propres déclarations, il a été le premier en F1 à utiliser la [CAO]({{ site.baseurl }}/glossaire/#cao) et le calcul assisté par ordinateur, le premier à installer un système numérique d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) dans une F1, et le premier à proposer une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) interne à l'équipe. Aucune source indépendante ne confirme ces primautés.
+- **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) Williams.** Selon Motor Sport, le système Williams est conçu par Dernie. Là où le système Lotus s'inspirait de l'aéronautique, celui de Williams dérive d'un système routier. Monté sur la FW11B en fin de saison 1987, il gagne sa première course à Monza avec Nelson Piquet.
 
 ## Parcours technique
 

@@ -19,7 +19,7 @@ image: "/assets/partage/steve-wise.png"
 ---
 ## Ce qu'il a fait
 
-Steve Wise est l'ingénieur du **matériel électronique** de la suspension active Williams. Fin 1987, il entre chez Williams le même jour que [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), avec lui pour mission de créer un département d'électronique.
+Steve Wise est l'ingénieur du **matériel électronique** de la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) Williams. Fin 1987, il entre chez Williams le même jour que [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), avec lui pour mission de créer un département d'électronique.
 
 - Les rôles sont partagés : le matériel pour Wise, le logiciel pour Lowe. [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) raconte avoir choisi « deux jeunes gars », l'un pour le matériel, l'autre pour la programmation.
 - Pour le programme d'essais de 1990, il conçoit un nouveau calculateur et un nouvel enregistreur de données Williams, avec des processeurs plus avancés.

@@ -26,7 +26,7 @@ image: "/assets/partage/john-crosthwaite.png"
 ---
 ## Ce qu'il a fait
 
-John Crosthwaite conçoit la voiture de Mickey Thompson, à moteur arrière et V8 Buick de série, que Dan Gurney pilote aux 500 Miles d'Indianapolis 1962. C'est la seule voiture à moteur arrière du plateau, quelques années après la révolution que [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) a imposée en F1.
+John Crosthwaite conçoit la voiture de Mickey Thompson, à [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere) et V8 Buick de série, que Dan Gurney pilote aux 500 Miles d'Indianapolis 1962. C'est la seule voiture à moteur arrière du plateau, quelques années après la révolution que [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) a imposée en F1.
 
 ## Ce que l'on sait de son parcours
 

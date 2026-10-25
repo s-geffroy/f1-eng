@@ -41,7 +41,7 @@ Le travail de Vittorio Jano commence bien avant le championnat du monde de F1. E
 
 C'est la **Lancia D50**, entrée en championnat du monde fin 1954, qui fait entrer Jano dans ce classement. Selon Motor Sport, il en définit les grands principes.
 
-- **Le moteur porteur.** Le V8 sert d'élément structurel du châssis. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote. C'est le principe que la Lotus 49 et le DFV généraliseront en 1967.
+- **Le moteur porteur.** Le V8 sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote. C'est le principe que la Lotus 49 et le DFV généraliseront en 1967.
 - **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière.
 - La D50 roule pour la première fois le 20 février 1954 à l'aéroport de Caselle, à Turin, et dispute sa première course lors du dernier Grand Prix de 1954.
 - Le 26 juillet 1955, six des huit D50 sont remises à Ferrari. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre de 1956.

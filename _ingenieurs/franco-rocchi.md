@@ -23,7 +23,7 @@ image: "/assets/partage/franco-rocchi.png"
 ---
 ## Ce qu'il a fait
 
-Franco Rocchi est un ingénieur moteur de Ferrari pendant trois décennies, associé au **flat-12** des 312B et 312T.
+Franco Rocchi est un ingénieur moteur de Ferrari pendant trois décennies, associé au **[flat-12]({{ site.baseurl }}/glossaire/#flat-12)** des 312B et 312T.
 
 ## Parcours technique
 

@@ -30,7 +30,7 @@ Martin Ogilvie est un ingénieur de Team Lotus. Sur la **Lotus 78**, il détaill
 ## Parcours chez Lotus
 
 - Quand [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) repart chez Lotus Cars, Wright et Ogilvie restent les collaborateurs directs de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}).
-- **Lotus 80 (1979)** : la monocoque en nid d'abeille d'aluminium, avec des pièces en titane, est la sienne.
+- **Lotus 80 (1979)** : la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium, avec des pièces en titane, est la sienne.
 - **Lotus 87 (1981)** : après l'interdiction de la Lotus 88, l'équipe dessine sous sa direction cette voiture plus classique, sur la même coque.
 - **1982-1983** : concepteur en chef de Lotus, il se consacre surtout à la 93T à moteur turbo Renault.
 - **1983** : il participe à la refonte de la 94T en cinq semaines, selon les lignes fixées par Gérard Ducarouge, à qui revient la paternité de la voiture.

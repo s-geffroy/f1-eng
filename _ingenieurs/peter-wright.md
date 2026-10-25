@@ -29,11 +29,11 @@ redirect_from: "/ingenieurs/2026/10/25/peter-wright.html"
 ---
 ## Une correction historique
 
-La place élevée de Peter Wright corrige un biais fréquent : attribuer l'effet de sol au seul [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}). Formula 1 relie explicitement Wright et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) aux recherches menées chez BRM à la fin des années 1960, puis chez Lotus, qui aboutissent aux Lotus 78 et 79.
+La place élevée de Peter Wright corrige un biais fréquent : attribuer l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) au seul [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}). Formula 1 relie explicitement Wright et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) aux recherches menées chez BRM à la fin des années 1960, puis chez Lotus, qui aboutissent aux Lotus 78 et 79.
 
 ## La chaîne de l'effet de sol
 
-1. **BRM.** Wright y commence sa propre « voiture-aile », idée qui évoluera jusqu'à la Lotus 78. En 1969, Rudd, hostile aux ailerons, suggère que la carrosserie produise elle-même l'appui ; Wright mesure en soufflerie à l'Imperial College des niveaux d'appui inédits, mais le projet est arrêté en juin 1969.
+1. **BRM.** Wright y commence sa propre « [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) », idée qui évoluera jusqu'à la Lotus 78. En 1969, Rudd, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), suggère que la carrosserie produise elle-même l'[appui]({{ site.baseurl }}/glossaire/#appui) ; Wright mesure en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College des niveaux d'appui inédits, mais le projet est arrêté en juin 1969.
 2. **March.** Chez Specialised Mouldings, il conçoit les pontons à profil d'aile de la March 701.
 3. **Lotus.** En août 1975, Chapman remet son cahier des charges de voiture-aile à Rudd. Wright mène les essais en soufflerie à l'Imperial College ; la première Lotus 78 est prête à rouler à l'automne 1976.
 4. **Lotus 78 puis 79**, et diffusion du principe à tout le plateau.
@@ -41,7 +41,7 @@ La place élevée de Peter Wright corrige un biais fréquent : attribuer l'effet
 ## Après l'effet de sol
 
 - Il joue un rôle clé dans la conception de la Lotus 88 à double châssis.
-- Sa **suspension active** est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983 ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix.
+- Sa **[suspension active]({{ site.baseurl }}/glossaire/#suspension-active)** est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983 ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix.
 - En 1990, il reprend Team Lotus avec Peter Collins, et quitte l'équipe à sa fermeture en 1994.
 - À la FIA, il contribue au développement du dispositif HANS et de cockpits capables de résister à 60 g.
 

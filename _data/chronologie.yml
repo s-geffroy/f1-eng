@@ -194,7 +194,7 @@ jalons:
     titre: "Le double diffuseur de la Brawn BGP 001"
     texte: "Lancée chez Honda, la BGP 001 exploite une faille du nouveau règlement ; le concept de double plancher vient d'un ingénieur japonais."
     entrees: [ross-brawn]
-    termes: [double-diffuseur]
+    termes: [diffuseur]
 
   - id: hybride
     annee: 2014
@@ -211,3 +211,73 @@ jalons:
     texte: "Le moteur Mercedes, à 44 % de rendement en 2014, franchit pour la première fois la barre des 50 % au banc."
     entrees: [andy-cowell]
     termes: [groupe-propulseur-hybride]
+
+  - id: cooper-500
+    annee: 1946
+    voie: architecture
+    titre: "Le moteur derrière le pilote, en 500 cm³"
+    texte: "Le prototype de John Cooper et Eric Brandon place le moteur au milieu, « pour des raisons largement pratiques ». La disposition fera son chemin jusqu'à la F1."
+    entrees: [john-cooper]
+    termes: [moteur-central-arriere]
+
+  - id: dfv-fva
+    annee: 1966
+    voie: moteur
+    titre: "Le Cosworth FVA"
+    texte: "Premier moteur conçu par Keith Duckworth à partir d'une feuille blanche, ce quatre cylindres de Formule 2 prépare le DFV."
+    entrees: [keith-duckworth, mike-costin]
+
+  - id: lotus-72
+    annee: 1970
+    voie: aero
+    titre: "La Lotus 72 et ses radiateurs latéraux"
+    texte: "Conçue par Maurice Philippe avec Colin Chapman, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte 22 Grands Prix et cinq titres mondiaux."
+    entrees: [colin-chapman]
+
+  - id: lotus-88
+    annee: 1981
+    voie: aero
+    titre: "La Lotus 88 à double châssis"
+    texte: "Deux caisses suspendues séparément : le concept, auquel Peter Wright prend une part clé, est contesté et la voiture ne court jamais."
+    entrees: [colin-chapman, peter-wright]
+    termes: [effet-de-sol]
+
+  - id: fond-plat
+    annee: 1983
+    voie: aero
+    titre: "Le fond plat obligatoire"
+    texte: "Annoncé le 3 novembre 1982, il interdit les fonds à effet de sol et les jupes ; le diffuseur arrière reste autorisé."
+    entrees: [gordon-murray]
+    termes: [fond-plat, effet-de-sol, jupes]
+
+  - id: mp4-2
+    annee: 1984
+    voie: moteur
+    titre: "Le moteur aux cotes du châssis"
+    texte: "Pour la McLaren MP4/2, John Barnard impose à Porsche les dimensions du V6 turbo TAG, au service de l'aérodynamique ; la voiture gagne 12 des 16 courses."
+    entrees: [john-barnard]
+    termes: [turbocompresseur]
+
+  - id: march-881
+    annee: 1988
+    voie: aero
+    titre: "Le nez intégré de la March 881"
+    texte: "Adrian Newey intègre entièrement le nez et l'aileron avant, creusés dessous pour mieux alimenter le plancher."
+    entrees: [adrian-newey]
+    termes: [aileron]
+
+  - id: fw17b
+    annee: 1995
+    voie: aero
+    titre: "Le diffuseur surélevé de la Williams FW17B"
+    texte: "Apparu fin 1995, ce diffuseur à sortie surélevée devient un atout majeur de la Williams 1996."
+    entrees: [adrian-newey]
+    termes: [diffuseur]
+
+  - id: rb6
+    annee: 2010
+    voie: aero
+    titre: "Le diffuseur soufflé de la Red Bull RB6"
+    texte: "Adrian Newey « réinvente » le diffuseur soufflé par les échappements."
+    entrees: [adrian-newey]
+    termes: [diffuseur]

@@ -29,7 +29,7 @@ redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 ---
 ## Ce qu'il a réalisé
 
-Le succès du **groupe propulseur hybride Mercedes de 2014** est un cas d'exécution systémique exceptionnelle. Depuis 2014, Cowell supervise la production de ces moteurs V6 hybrides.
+Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique exceptionnelle. Depuis 2014, Cowell supervise la production de ces moteurs V6 hybrides.
 
 - **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait ».
 - **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc.

@@ -23,14 +23,14 @@ image: "/assets/partage/ralph-bellamy.png"
 ---
 ## Ce qu'il a fait
 
-Ralph Bellamy est le concepteur qui **dessine la Lotus 78**, première F1 à effet de sol, au sein de l'équipe réunie par [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). Pendant que [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) approfondit l'aérodynamique, Bellamy dessine la voiture et achève le châssis ; les deux hommes travaillent ensuite ensemble sur la carrosserie. Selon le récit de Wright, c'est Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
+Ralph Bellamy est le concepteur qui **dessine la Lotus 78**, première F1 à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), au sein de l'équipe réunie par [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). Pendant que [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) approfondit l'aérodynamique, Bellamy dessine la voiture et achève le châssis ; les deux hommes travaillent ensuite ensemble sur la carrosserie. Selon le récit de Wright, c'est Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
 
 ## Parcours technique
 
-- **McLaren, 1971.** Seul chargé de la conception de la M19, il la dote d'une suspension à flexibilité progressive à l'avant comme à l'arrière ; la forme « bouteille de Coca » revient à Jo Marquart. Cette suspension fait perdre à l'équipe l'essentiel de 1971 : la voiture ne donne sa pleine mesure qu'en 1972.
+- **McLaren, 1971.** Seul chargé de la conception de la M19, il la dote d'une suspension à [flexibilité progressive]({{ site.baseurl }}/glossaire/#suspension-progressive) à l'avant comme à l'arrière ; la forme « bouteille de Coca » revient à Jo Marquart. Cette suspension fait perdre à l'équipe l'essentiel de 1971 : la voiture ne donne sa pleine mesure qu'en 1972.
 - **Brabham, 1972.** Recruté par Bernie Ecclestone, il transforme la BT34 en BT37, avant qu'Ecclestone ne confie la conception à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}).
 - **Lotus.** Il fait partie de l'équipe, avec Chapman, Wright et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), qui produit la Lotus 78.
-- **Fittipaldi.** Il conçoit la F6 de 1979, avec des jupes souples en Kevlar et une coque étroite en nid d'abeille d'aluminium ; selon lui, la voiture est minée par ses roulements de roue.
+- **Fittipaldi.** Il conçoit la F6 de 1979, avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) souples en Kevlar et une coque étroite en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium ; selon lui, la voiture est minée par ses roulements de roue.
 - **Lola.** Il travaille avec Eric Broadley sur la F1 engagée par l'équipe Larrousse Calmels.
 
 ## Divergence entre sources

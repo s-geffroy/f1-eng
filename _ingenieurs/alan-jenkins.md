@@ -25,7 +25,7 @@ image: "/assets/partage/alan-jenkins.png"
 ---
 ## Ce qu'il a fait
 
-Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) aux débuts de la McLaren à monocoque carbone, puis directeur technique de plusieurs équipes.
+Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) aux débuts de la McLaren à [monocoque]({{ site.baseurl }}/glossaire/#monocoque) carbone, puis directeur technique de plusieurs équipes.
 
 ## Parcours technique
 

@@ -31,8 +31,8 @@ Harvey Postlethwaite est l'un des concepteurs les plus inventifs des années 197
 
 - **Hesketh.** Il conçoit la Hesketh 308 de 1975, avec laquelle James Hunt gagne son premier Grand Prix, aux Pays-Bas ; il y met au point une suspension à ressorts en caoutchouc.
 - **Wolf.** Sa WR1 gagne sa première course, en Argentine en 1977, et termine vice-championne du monde.
-- **Ferrari.** Recruté en mai 1981, il rejoint l'équipe d'ingénieurs dirigée par [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) et y introduit la construction aéronautique : une coque pliée dans des panneaux de nid d'abeille, avec des cloisons en composite carbone. Il conçoit la 126C2 à moteur V6 turbo, titrée chez les constructeurs en 1982.
-- **Tyrrell.** Avec l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}), il développe la 019 à nez relevé de 1990. De retour chez Tyrrell dans les années 1990, son équipe imagine la suspension « Hydrolink », une boîte semi-automatique pneumatique et les ailerons « X ».
+- **Ferrari.** Recruté en mai 1981, il rejoint l'équipe d'ingénieurs dirigée par [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) et y introduit la construction aéronautique : une coque pliée dans des panneaux de [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille), avec des cloisons en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone). Il conçoit la 126C2 à moteur V6 turbo, titrée chez les constructeurs en 1982.
+- **Tyrrell.** Avec l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}), il développe la 019 à [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve) de 1990. De retour chez Tyrrell dans les années 1990, son équipe imagine la suspension « Hydrolink », une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) pneumatique et les [ailerons]({{ site.baseurl }}/glossaire/#aileron) « X ».
 - **Honda.** Il dirige ensuite un programme de F1 prototype construit par Dallara, et en supervise les essais quand il meurt, en 1999.
 
 ## Divergences entre sources

@@ -27,7 +27,7 @@ redirect_from: "/ingenieurs/2026/10/25/jean-claude-migeot.html"
 ---
 ## Ce qu'il a changé
 
-La **Tyrrell 019** et son **nez relevé** changent la manière d'alimenter en air le plancher de la monoplace. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un aileron avant anhédrique qui améliore l'efficacité aérodynamique. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne ».
+La **Tyrrell 019** et son **[nez relevé]({{ site.baseurl }}/glossaire/#nez-releve)** changent la manière d'alimenter en air le plancher de la monoplace. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un [aileron]({{ site.baseurl }}/glossaire/#aileron) avant anhédrique qui améliore l'efficacité aérodynamique. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne ».
 
 Avec la 019, Tyrrell termine cinquième du championnat constructeurs, son meilleur classement depuis 1979.
 
@@ -35,7 +35,7 @@ Avec la 019, Tyrrell termine cinquième du championnat constructeurs, son meille
 
 - Ingénieur formé à Supaéro (Toulouse), il dirige le groupe de recherche aérodynamique de **Renault Sport** jusqu'à la fermeture de l'équipe en 1985.
 - Chez **Tyrrell**, il travaille avec [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) sur la 019.
-- Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une soufflerie à tapis roulant à l'échelle 50 %.
+- Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à tapis roulant à l'échelle 50 %.
 
 ## Attribution
 

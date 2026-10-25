@@ -25,7 +25,7 @@ Steve Nichols est le concepteur auquel Formula 1 attribue la création de la **M
 
 ## Parcours technique
 
-- **Hercules.** Avant la course, il travaille quatre ans chez Hercules sur les composites carbone, alors nouveaux. Il met ensuite [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en relation avec ses anciens collègues, qui fabriqueront la coque carbone de la MP4/1.
+- **Hercules.** Avant la course, il travaille quatre ans chez Hercules sur les [composites carbone]({{ site.baseurl }}/glossaire/#composite-carbone), alors nouveaux. Il met ensuite [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en relation avec ses anciens collègues, qui fabriqueront la coque carbone de la MP4/1.
 - **McLaren.** En 1980, Barnard l'engage chez Project 4 pour travailler avec lui sur le châssis de la MP4/1. La MP4/3 est la première McLaren créditée à sa direction technique ; en 1987, il conçoit la MP4/4.
 - **Ferrari.** Il y remplace Barnard à la tête de la conception du châssis, et produit avec [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) la F92A, un échec.
 - **Jaguar.** Fin 2000, il devient directeur technique de Jaguar Racing.
