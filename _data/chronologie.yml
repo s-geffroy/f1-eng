@@ -1,0 +1,213 @@
+# Chronologie des innovations (page /chronologie/).
+# Chaque jalon reprend un fait deja verifie et source dans les entrees citees
+# (les sources sont dans ces entrees). Champs :
+#   id       : ancre (#j-<id>)
+#   annee    : position sur la frise
+#   voie     : architecture | aero | moteur | transmission | methode
+#   titre    : intitule court
+#   texte    : une ou deux phrases
+#   entrees  : identifiants d'entrees (_ingenieurs/<id>.md)
+#   termes   : identifiants du glossaire (_data/glossaire.yml), facultatif
+
+voies:
+  - id: architecture
+    nom: Architecture et structure
+  - id: aero
+    nom: Aérodynamique
+  - id: moteur
+    nom: Moteur
+  - id: transmission
+    nom: Transmission et électronique
+  - id: methode
+    nom: Méthode et course
+
+jalons:
+  - id: lancia-d50
+    annee: 1954
+    voie: architecture
+    titre: Le moteur porteur de la Lancia D50
+    texte: Le V8 de la D50 sert d'élément structurel du châssis, monté de biais pour que la transmission passe à gauche du pilote. Une équipe Lancia dirigée par Vittorio Jano en définit les principes.
+    entrees: [vittorio-jano, ettore-zaccone-mina]
+    termes: [moteur-porteur]
+
+  - id: cooper-argentine
+    annee: 1958
+    voie: architecture
+    titre: Première victoire d'une voiture à moteur central
+    texte: Stirling Moss gagne en Argentine sur une Cooper au châssis à tubes courbes. C'est la première victoire en Grand Prix de championnat d'une voiture à moteur central.
+    entrees: [owen-maddock, john-cooper]
+    termes: [moteur-central-arriere, chassis-tubulaire]
+
+  - id: cooper-titres
+    annee: 1959
+    voie: architecture
+    titre: Le moteur arrière s'impose
+    texte: Les titres Cooper de 1959 et 1960 rendent l'architecture à moteur avant rapidement obsolète. Owen Maddock est le chef designer de l'équipe.
+    entrees: [john-cooper, owen-maddock]
+    termes: [moteur-central-arriere]
+
+  - id: lotus-25
+    annee: 1962
+    voie: architecture
+    titre: La monocoque aluminium de la Lotus 25
+    texte: Colin Chapman généralise la coque monocoque en aluminium, qui remplace le châssis tubulaire comme architecture de référence.
+    entrees: [colin-chapman]
+    termes: [monocoque, chassis-tubulaire]
+
+  - id: dfv
+    annee: 1967
+    voie: moteur
+    titre: Le Cosworth DFV et la Lotus 49
+    texte: Le DFV, compact et porteur, forme la partie arrière de la Lotus 49. Disponible pour de nombreuses équipes, il remporte 155 Grands Prix.
+    entrees: [keith-duckworth, mike-costin, colin-chapman]
+    termes: [moteur-porteur]
+
+  - id: ailerons
+    annee: 1968
+    voie: aero
+    titre: Les ailerons sur supports
+    texte: Au Grand Prix de Belgique, Mauro Forghieri fait monter des ailerons sur supports sur la Ferrari de Chris Amon, qui signe la pole. D'autres les avaient utilisés avant lui.
+    entrees: [mauro-forghieri]
+    termes: [aileron]
+
+  - id: ferrari-312t
+    annee: 1975
+    voie: transmission
+    titre: La boîte transversale de la Ferrari 312T
+    texte: Première boîte de vitesses transversale de la F1, au service de la centralisation des masses ; elle est ensuite adoptée par tout le plateau.
+    entrees: [mauro-forghieri, franco-rocchi]
+    termes: [boite-transversale, centralisation-des-masses]
+
+  - id: lotus-78
+    annee: 1977
+    voie: aero
+    titre: L'effet de sol de la Lotus 78
+    texte: Issue des recherches de Peter Wright et Tony Rudd, la première F1 à effet de sol est dessinée par Ralph Bellamy, avec Martin Ogilvie aux suspensions, dans un programme dirigé par Colin Chapman.
+    entrees: [peter-wright, tony-rudd, ralph-bellamy, martin-ogilvie, colin-chapman, tony-southgate]
+    termes: [effet-de-sol, venturi, jupes]
+
+  - id: bt46b
+    annee: 1978
+    voie: aero
+    titre: La voiture à ventilateur
+    texte: La Brabham BT46B de Gordon Murray gagne le Grand Prix de Suède, sa seule course, avant d'être retirée par l'équipe.
+    entrees: [gordon-murray]
+    termes: [voiture-a-ventilateur]
+
+  - id: turbo-victoire
+    annee: 1979
+    voie: moteur
+    titre: Première victoire d'un moteur turbo
+    texte: Renault gagne le Grand Prix de France. Le moteur dérive du V6 conçu par François Castaing et Jean-Pierre Boudy ; Bernard Dudot mène le programme moteur.
+    entrees: [francois-castaing, bernard-dudot, jean-terramorsi]
+    termes: [turbocompresseur]
+
+  - id: mp4-1
+    annee: 1981
+    voie: architecture
+    titre: La monocoque carbone de la McLaren MP4/1
+    texte: Première F1 à monocoque intégral en composite carbone à courir en Grand Prix, conçue par John Barnard entouré notamment de Steve Nichols et d'Alan Jenkins.
+    entrees: [john-barnard, steve-nichols, alan-jenkins]
+    termes: [composite-carbone, monocoque]
+
+  - id: ravitaillement
+    annee: 1982
+    voie: methode
+    titre: Le ravitaillement tactique
+    texte: Brabham et Gordon Murray réintroduisent le ravitaillement comme arme de course. Riccardo Patrese prend quatre pneus et 24 gallons en 15,6 secondes.
+    entrees: [gordon-murray]
+    termes: [ravitaillement]
+
+  - id: bt52
+    annee: 1983
+    voie: moteur
+    titre: Premier champion du monde sur moteur turbo
+    texte: Conçue en six semaines après l'interdiction des fonds plats, la Brabham BT52 mène Nelson Piquet au titre.
+    entrees: [gordon-murray]
+    termes: [turbocompresseur]
+
+  - id: lotus-92-active
+    annee: 1983
+    voie: transmission
+    titre: La suspension active en course
+    texte: La suspension active de Peter Wright est utilisée sur la Lotus 92 de Nigel Mansell lors des deux premières courses de la saison.
+    entrees: [peter-wright]
+    termes: [suspension-active]
+
+  - id: rappel-pneumatique
+    annee: 1986
+    voie: moteur
+    titre: Le rappel pneumatique des soupapes
+    texte: Introduit sur le moteur Renault EF15 B, il équipe tous les moteurs de F1 à partir des années 1990.
+    entrees: [bernard-dudot]
+    termes: [rappel-pneumatique]
+
+  - id: active-gagne
+    annee: 1987
+    voie: transmission
+    titre: La suspension active gagne
+    texte: La Lotus 99T d'Ayrton Senna devient la première F1 à suspension active à gagner un Grand Prix ; le système Williams conçu par Frank Dernie gagne à Monza avec Nelson Piquet.
+    entrees: [peter-wright, frank-dernie, steve-wise, paddy-lowe]
+    termes: [suspension-active]
+
+  - id: ferrari-640
+    annee: 1989
+    voie: transmission
+    titre: La boîte semi-automatique au volant
+    texte: John Barnard introduit sur la Ferrari 640 la boîte commandée par palettes : fin du levier, mains sur le volant, cockpit plus compact.
+    entrees: [john-barnard]
+    termes: [boite-semi-automatique]
+
+  - id: v10-renault
+    annee: 1989
+    voie: moteur
+    titre: Le V10 Renault
+    texte: Le V10 à 67° conçu sous la direction de Bernard Dudot impose l'architecture V10 à l'ensemble du plateau.
+    entrees: [bernard-dudot]
+
+  - id: tyrrell-019
+    annee: 1990
+    voie: aero
+    titre: Le nez relevé
+    texte: La Tyrrell 019 de Harvey Postlethwaite et Jean-Claude Migeot relève le nez pour mieux alimenter le dessous de la voiture ; la Leyton House d'Adrian Newey le fait la même année.
+    entrees: [jean-claude-migeot, harvey-postlethwaite, adrian-newey]
+    termes: [nez-releve]
+
+  - id: fw14b
+    annee: 1992
+    voie: transmission
+    titre: Le titre de la suspension active
+    texte: La Williams FW14B mène Nigel Mansell au titre, avec une suspension active dont Paddy Lowe a écrit l'essentiel du logiciel.
+    entrees: [paddy-lowe, patrick-head, adrian-newey]
+    termes: [suspension-active]
+
+  - id: programme-anticipe
+    annee: 1993
+    voie: methode
+    titre: Le programme lancé un an à l'avance
+    texte: Chez Benetton, Ross Brawn fait commencer la conception de la voiture de 1994 dès le début de 1993, ce qui était presque inédit.
+    entrees: [ross-brawn, rory-byrne]
+
+  - id: double-diffuseur
+    annee: 2009
+    voie: aero
+    titre: Le double diffuseur de la Brawn BGP 001
+    texte: Lancée chez Honda, la BGP 001 exploite une faille du nouveau règlement ; le concept de double plancher vient d'un ingénieur japonais.
+    entrees: [ross-brawn]
+    termes: [double-diffuseur]
+
+  - id: hybride
+    annee: 2014
+    voie: moteur
+    titre: Le groupe propulseur hybride Mercedes
+    texte: Turbo séparé de part et d'autre du moteur, intégration avec le châssis : Mercedes domine l'ère hybride, imposée par le règlement.
+    entrees: [andy-cowell, aldo-costa, ross-brawn]
+    termes: [groupe-propulseur-hybride]
+
+  - id: rendement-50
+    annee: 2017
+    voie: moteur
+    titre: 50 % de rendement thermique
+    texte: Le moteur Mercedes, à 44 % de rendement en 2014, franchit pour la première fois la barre des 50 % au banc.
+    entrees: [andy-cowell]
+    termes: [groupe-propulseur-hybride]

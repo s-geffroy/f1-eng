@@ -338,6 +338,112 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 }
 .chaine li > span { color: var(--mine); font-weight: 500; }
 
+/* ---------- Chronologie : un relevé à cinq pistes ----------
+   Axe des années de --debut à --fin ; chaque repère est placé par --annee.
+   Losange rouge : innovation portée par un ingénieur du Tier A. */
+
+.frise-defilement {
+  overflow-x: auto;
+  background: var(--feuille);
+  border: var(--trait-fort) solid var(--graphite);
+  -webkit-overflow-scrolling: touch;
+}
+.frise-plan {
+  --nom: 11.5rem; --droite: 2rem;
+  position: relative; min-width: 72rem;
+  padding-top: 2.25rem;
+}
+.frise-axe { position: absolute; top: 0; bottom: 0; left: var(--nom); right: var(--droite); pointer-events: none; }
+.frise-decennie {
+  position: absolute; top: 0; bottom: 0;
+  left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
+  border-left: var(--trait-fin) dashed var(--trait-clair);
+  padding: 0.4rem 0 0 0.3rem;
+  font-family: var(--titre); font-size: 0.875rem; font-weight: 600; color: var(--mine);
+  font-variant-numeric: tabular-nums;
+}
+.frise-voie { position: relative; height: 5rem; border-top: var(--trait-fin) solid var(--trait); }
+.frise-voie-nom {
+  position: sticky; left: 0; z-index: 2;
+  width: var(--nom); height: 100%; margin: 0;
+  display: flex; align-items: center;
+  padding: 0 0.75rem;
+  background: var(--feuille);
+  border-right: var(--trait-fort) solid var(--graphite);
+  font-size: 1rem; font-weight: 600; line-height: 1.15;
+}
+.frise-voie-jalons { position: absolute; top: 0; bottom: 0; left: var(--nom); right: var(--droite); margin: 0; padding: 0; list-style: none; }
+.frise-voie-jalons li { position: absolute; top: 50%; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
+
+.jalon {
+  position: absolute; left: 0; top: 0;
+  width: 1.75rem; height: 1.75rem; transform: translate(-50%, -50%);
+  display: block; text-decoration: none; z-index: 1;
+}
+.jalon::before {
+  content: ""; position: absolute; inset: 0.4rem;
+  background: var(--graphite);
+  border: 2px solid var(--feuille); outline: var(--trait-fin) solid var(--graphite);
+  transform: rotate(45deg);
+  transition: transform 0.15s ease;
+}
+.jalon-a::before { background: var(--tier-a); outline-color: var(--tier-a); }
+.jalon:hover::before, .jalon:focus-visible::before { transform: rotate(45deg) scale(1.35); }
+.jalon-actif::before { transform: rotate(45deg) scale(1.5); outline: 2px solid var(--graphite); outline-offset: 2px; }
+.jalon:focus-visible { outline: none; }
+
+.jalon-etiquette {
+  position: absolute; bottom: calc(100% + 0.35rem); left: 50%; transform: translateX(-50%);
+  white-space: nowrap; padding: 0.15rem 0.45rem;
+  background: var(--feuille); border: var(--trait-fin) solid var(--graphite);
+  font-family: var(--titre); font-size: 0.9375rem; font-weight: 500; color: var(--graphite);
+  opacity: 0; pointer-events: none; transition: opacity 0.15s ease; z-index: 3;
+}
+.jalon-etiquette b { font-weight: 700; margin-right: 0.25rem; }
+.jalon:hover .jalon-etiquette, .jalon:focus-visible .jalon-etiquette, .jalon-actif .jalon-etiquette { opacity: 1; }
+/* aux extrémités de l'axe, l'étiquette s'ouvre vers l'intérieur de la frise */
+.jalon-debut .jalon-etiquette { left: -0.25rem; transform: none; }
+.jalon-fin .jalon-etiquette { left: auto; right: -0.25rem; transform: none; }
+
+/* Fiche ouverte, dessinée comme un cartouche */
+.frise-detail {
+  margin-top: 1rem;
+  background: var(--feuille);
+  border: var(--trait-fort) solid var(--graphite);
+}
+.frise-detail-fiche { display: grid; grid-template-columns: 9rem minmax(0, 1fr); }
+.frise-detail-fiche .fiche-jalon-annee {
+  margin: 0; padding: 0.75rem 1rem;
+  border-right: var(--trait-fin) solid var(--trait);
+  font-family: var(--titre); font-size: 3rem; font-weight: 700; line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.frise-detail-fiche .fiche-jalon-corps { padding: 0.75rem 1.25rem 1rem; max-width: 48rem; }
+.frise-detail-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: var(--trait-fin) solid var(--trait); padding: 0.5rem 0.75rem; }
+.frise-detail-nav button {
+  font: 600 1rem/1.4 var(--titre); color: var(--graphite); cursor: pointer;
+  background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-radius: 0; padding: 0.25rem 0.75rem;
+}
+.frise-detail-nav button:hover { background: var(--graphite); color: var(--feuille); }
+
+/* Liste complète des jalons (et repli sans JavaScript) */
+.jalons { margin-top: 3.5rem; }
+.jalons > h2 { font-size: 1.75rem; margin: 0 0 0.75rem; }
+.jalons-liste { list-style: none; margin: 0; padding: 0; border-top: var(--trait-fort) solid var(--graphite); }
+.fiche-jalon { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: 0 1.25rem; padding: 1rem 0; border-bottom: var(--trait-fin) solid var(--trait); scroll-margin-top: 1rem; }
+.fiche-jalon:target { background: var(--feuille); box-shadow: inset 4px 0 0 var(--graphite); }
+.fiche-jalon-annee { margin: 0; font-family: var(--titre); font-size: 2rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.fiche-jalon-corps h3 { font-size: 1.375rem; margin: 0.1rem 0 0.35rem; }
+.fiche-jalon-corps p { margin: 0 0 0.5rem; max-width: var(--colonne); }
+.fiche-jalon-voie { font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); margin: 0 !important; }
+.fiche-jalon-liens { font-size: 0.9375rem; }
+.fiche-jalon-liens span { font-family: var(--titre); font-weight: 600; margin-right: 0.35rem; }
+.jalons-note { color: var(--mine); font-size: 0.9375rem; margin-top: 1rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .jalon::before, .jalon-etiquette { transition: none; }
+}
+
 /* ---------- Liste des dossiers ---------- */
 
 .telechargement {
@@ -375,6 +481,12 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   .ligne-score { grid-column: 4; }
   .tier-liste .ligne-domaine { display: none; }
   .tier { padding-left: 1rem; }
+  .frise-plan { --nom: 7.5rem; min-width: 60rem; }
+  .frise-voie-nom { font-size: 0.875rem; padding: 0 0.5rem; }
+  .frise-detail-fiche { grid-template-columns: minmax(0, 1fr); }
+  .frise-detail-fiche .fiche-jalon-annee { border-right: 0; border-bottom: var(--trait-fin) solid var(--trait); font-size: 2.25rem; }
+  .fiche-jalon { grid-template-columns: 4rem minmax(0, 1fr); }
+  .fiche-jalon-annee { font-size: 1.5rem; }
   .chaine { flex-direction: column; }
   .chaine li + li { margin: 1.75rem 0 0; }
   .chaine li + li::before { content: "↓"; left: 0.9rem; top: -1.6rem; transform: none; }

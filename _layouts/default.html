@@ -14,7 +14,7 @@
   <header class="site">
     <a class="marque" href="{{ '/' | relative_url }}">Ingénieurs de la F1</a>
     <nav aria-label="Sections">
-      {%- assign sections = "/|Index,/tiers/|Tiers,/lignees/|Lignées,/dossiers/|Dossiers" | split: "," -%}
+      {%- assign sections = "/|Index,/tiers/|Tiers,/chronologie/|Chronologie,/lignees/|Lignées,/glossaire/|Glossaire,/dossiers/|Dossiers" | split: "," -%}
       {%- for s in sections -%}
         {%- assign p = s | split: "|" -%}
         {%- assign actif = false -%}
