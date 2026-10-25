@@ -1,0 +1,32 @@
+# Intellectual lineages (spec, slide 18) -- not master-pupil relationships.
+# Each step lists entry identifiers (_engineers/<id>.md) or free text.
+- id: "architecture"
+  nom: "Architecture"
+  etapes:
+    - ["john-cooper"]
+    - ["colin-chapman"]
+    - ["john-barnard"]
+- id: "aerodynamique"
+  nom: "Aerodynamics"
+  etapes:
+    - ["colin-chapman", "peter-wright"]
+    - ["gordon-murray", "jean-claude-migeot"]
+    - ["adrian-newey"]
+- id: "moteur"
+  nom: "Engine"
+  etapes:
+    - ["keith-duckworth"]
+    - ["bernard-dudot"]
+    - ["andy-cowell"]
+- id: "numerique"
+  nom: "Digital and control"
+  etapes:
+    - ["frank-dernie"]
+    - ["paddy-lowe"]
+    - ["Modern engineering"]
+- id: "organisation"
+  nom: "Systems organisation"
+  etapes:
+    - ["patrick-head"]
+    - ["ross-brawn"]
+    - ["Modern F1 teams"]

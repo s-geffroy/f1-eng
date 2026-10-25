@@ -1,0 +1,23 @@
+{%- comment -%} Page des tiers, commune aux deux langues. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+{%- assign par_rang = site[T.collection_entrees] | where_exp: "e", "e.rang" | sort: "rang" -%}
+<section class="page-tete">
+  <h1>{{ T.tiers.titre }}</h1>
+  <p class="accroche">{{ T.tiers.accroche }}</p>
+</section>
+{%- for t in D.tiers %}
+<section class="tier" id="tier-{{ t.id | downcase }}" data-tier="{{ t.id }}">
+  <header class="tier-tete">
+    <h2><span class="tier-lettre">{{ T.l.tier }} {{ t.id }}</span> {{ t.nom }}</h2>
+    <p>{{ t.definition }}</p>
+  </header>
+  {%- assign membres = par_rang | where: "tier", t.id -%}
+  <ol class="tier-liste" start="{{ membres.first.rang }}">
+    {%- for e in membres %}
+    <li><a href="{{ e.url | relative_url }}"><span class="ligne-nom">{{ e.title }}</span> <span class="ligne-domaine">{{ e.domaine }}</span> <span class="ligne-score">{{ e.score }}</span></a></li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}

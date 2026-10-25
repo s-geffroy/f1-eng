@@ -1,0 +1,24 @@
+{%- comment -%} Index de recherche d'une langue : entrées, termes du glossaire, jalons, dossiers. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+{%- assign sep = "" -%}
+[
+{%- for e in site[T.collection_entrees] -%}
+{{ sep }}{"type":"entree","titre":{{ e.title | jsonify }},"sous":{{ e.accroche | jsonify }},"url":{{ e.url | relative_url | jsonify }},"texte":{{ e.content | strip_html | normalize_whitespace | jsonify }}}
+{%- assign sep = "," -%}
+{%- endfor -%}
+{%- for t in D.glossaire -%}
+{%- capture url_t %}{{ T.url.glossaire | relative_url }}#{{ t.id }}{% endcapture -%}
+{%- capture texte_t %}{{ t.definition }} {{ t.premiere }}{% endcapture -%}
+{{ sep }}{"type":"terme","titre":{{ t.terme | jsonify }},"sous":"","url":{{ url_t | jsonify }},"texte":{{ texte_t | jsonify }}}
+{%- endfor -%}
+{%- for j in D.chronologie.jalons -%}
+{%- capture url_j %}{{ T.url.chronologie | relative_url }}#j-{{ j.id }}{% endcapture -%}
+{%- capture titre_j %}{{ j.annee }} — {{ j.titre }}{% endcapture -%}
+{{ sep }}{"type":"jalon","titre":{{ titre_j | jsonify }},"sous":"","url":{{ url_j | jsonify }},"texte":{{ j.texte | jsonify }}}
+{%- endfor -%}
+{%- for d in site[T.collection_dossiers] -%}
+{{ sep }}{"type":"dossier","titre":{{ d.title | jsonify }},"sous":{{ d.resume | jsonify }},"url":{{ d.url | relative_url | jsonify }},"texte":{{ d.content | strip_html | normalize_whitespace | jsonify }}}
+{%- endfor -%}
+]

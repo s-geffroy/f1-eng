@@ -1,0 +1,19 @@
+{%- comment -%} Liste des dossiers, commune aux deux langues. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+<section class="page-tete">
+  <h1>{{ T.dossiers.titre }}</h1>
+  <p class="accroche">{{ T.dossiers.accroche }}</p>
+</section>
+<p class="telechargement"><a href="{{ T.url.pdf | relative_url }}" download>{{ T.dossiers.telecharger }}</a> — {{ T.dossiers.telecharger_suite }}</p>
+
+<ol class="dossiers">
+  {%- assign dossiers = site[T.collection_dossiers] | sort: "ordre" -%}
+  {%- for d in dossiers %}
+  <li>
+    <a href="{{ d.url | relative_url }}">{{ d.title }}</a>
+    <p>{{ d.resume }}</p>
+  </li>
+  {%- endfor %}
+</ol>

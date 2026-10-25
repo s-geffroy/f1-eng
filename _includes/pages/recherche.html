@@ -1,0 +1,90 @@
+{%- comment -%} Recherche sur tout le site, commune aux deux langues. L'index vient de T.url.index_recherche. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+<section class="page-tete">
+  <h1>{{ T.recherche.titre }}</h1>
+  <p class="accroche">{{ T.recherche.accroche }}</p>
+</section>
+
+<form class="filtres recherche-form" id="recherche" role="search" hidden
+      data-index="{{ T.url.index_recherche | relative_url }}"
+      data-vide="{{ T.recherche.vide }}" data-aucun="{{ T.recherche.aucun }}"
+      data-un="{{ T.recherche.un }}" data-plusieurs="{{ T.recherche.plusieurs }}"
+      data-types='{{ T.recherche.types | jsonify }}'>
+  <div class="filtre filtre-texte">
+    <label for="r-texte">{{ T.recherche.label }}</label>
+    <input type="search" id="r-texte" name="q" placeholder="{{ T.recherche.placeholder }}" autocomplete="off">
+  </div>
+</form>
+<p class="filtres-bilan" id="recherche-bilan" aria-live="polite"></p>
+<div class="resultats" id="resultats"></div>
+<noscript><p>{{ T.recherche.sans_js }}</p></noscript>
+
+<script>
+/* Recherche : tous les mots doivent apparaître (sans accents ni casse) ; le titre pèse plus que le texte.
+   Résultats groupés par type, avec un extrait autour du premier mot trouvé. */
+(function () {
+  var form = document.getElementById("recherche");
+  var champ = document.getElementById("r-texte");
+  var bilan = document.getElementById("recherche-bilan");
+  var zone = document.getElementById("resultats");
+  var types = JSON.parse(form.dataset.types);
+  var ordre = ["entree", "terme", "jalon", "dossier"];
+  var index = null;
+  var plat = function (s) { return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
+  var echap = function (s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+
+  function extrait(texte, mot) {
+    var p = plat(texte).indexOf(mot);
+    if (p < 0) return echap(texte.slice(0, 160)) + (texte.length > 160 ? "…" : "");
+    var debut = Math.max(0, p - 70), fin = Math.min(texte.length, p + mot.length + 90);
+    return (debut > 0 ? "…" : "") + echap(texte.slice(debut, p)) + "<mark>" + echap(texte.slice(p, p + mot.length)) + "</mark>" +
+      echap(texte.slice(p + mot.length, fin)) + (fin < texte.length ? "…" : "");
+  }
+
+  function chercher() {
+    var q = champ.value.trim();
+    var url = new URL(location.href);
+    if (q) url.searchParams.set("q", q); else url.searchParams.delete("q");
+    history.replaceState(null, "", url);
+    zone.innerHTML = "";
+    var mots = plat(q).split(/\s+/).filter(Boolean);
+    if (plat(q).replace(/\s/g, "").length < 2) { bilan.textContent = form.dataset.vide; return; }
+    var trouves = index.filter(function (r) {
+      return mots.every(function (m) { return r._tout.indexOf(m) !== -1; });
+    }).map(function (r) {
+      var score = mots.reduce(function (s, m) { return s + (r._titre.indexOf(m) !== -1 ? 10 : 0) + (r._sous.indexOf(m) !== -1 ? 3 : 0) + 1; }, 0);
+      return { r: r, score: score };
+    }).sort(function (a, b) { return b.score - a.score; });
+    var n = trouves.length;
+    bilan.textContent = n === 0 ? form.dataset.aucun : n + " " + (n > 1 ? form.dataset.plusieurs : form.dataset.un);
+    ordre.forEach(function (t) {
+      var groupe = trouves.filter(function (x) { return x.r.type === t; });
+      if (!groupe.length) return;
+      var html = '<section class="resultats-groupe"><h2>' + echap(types[t]) + ' <span>' + groupe.length + '</span></h2><ol>';
+      groupe.slice(0, 25).forEach(function (x) {
+        var r = x.r, cle = mots.filter(function (m) { return r._texte.indexOf(m) !== -1; })[0] || mots[0];
+        html += '<li><a href="' + r.url + '">' + echap(r.titre) + '</a>' +
+          (r.sous ? '<span class="resultat-sous">' + echap(r.sous) + '</span>' : '') +
+          '<p>' + extrait(r.texte, cle) + '</p></li>';
+      });
+      zone.insertAdjacentHTML("beforeend", html + "</ol></section>");
+    });
+  }
+
+  fetch(form.dataset.index).then(function (rep) { return rep.json(); }).then(function (donnees) {
+    index = donnees.map(function (r) {
+      r._titre = plat(r.titre); r._sous = plat(r.sous); r._texte = plat(r.texte);
+      r._tout = r._titre + " " + r._sous + " " + r._texte;
+      return r;
+    });
+    form.hidden = false;
+    var q = new URL(location.href).searchParams.get("q");
+    if (q) { champ.value = q; }
+    chercher();
+    champ.focus();
+    champ.addEventListener("input", chercher);
+    form.addEventListener("submit", function (e) { e.preventDefault(); });
+  });
+})();
+</script>

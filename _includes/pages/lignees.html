@@ -1,0 +1,18 @@
+{%- comment -%} Page des lignées, commune aux deux langues. {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+<section class="page-tete">
+  <h1>{{ T.lignees.titre }}</h1>
+  <p class="accroche">{{ T.lignees.accroche }}</p>
+</section>
+{%- for l in D.lignees %}
+<section class="lignee" id="{{ l.id }}">
+  <h2>{{ l.nom }}</h2>
+  <ol class="chaine">
+    {%- for etape in l.etapes %}
+    <li>{% for id in etape %}{% include lien-entree.html id=id %}{% unless forloop.last %} {{ T.lignees.et }} {% endunless %}{% endfor %}</li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}

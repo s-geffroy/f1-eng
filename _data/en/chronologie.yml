@@ -1,0 +1,283 @@
+# Timeline of innovations (page /en/timeline/).
+# Each milestone restates a fact already checked and sourced in the entries cited
+# (the sources are in those entries). Fields:
+#   id       : anchor (#j-<id>)
+#   annee    : position on the timeline
+#   voie     : architecture | aero | moteur | transmission | methode
+#   titre    : short title
+#   texte    : one or two sentences
+#   entrees  : entry identifiers (_engineers/<id>.md)
+#   termes   : glossary identifiers (_data/en/glossaire.yml), optional
+
+voies:
+  - id: "architecture"
+    nom: "Architecture and structure"
+  - id: "aero"
+    nom: "Aerodynamics"
+  - id: "moteur"
+    nom: "Engine"
+  - id: "transmission"
+    nom: "Transmission and electronics"
+  - id: "methode"
+    nom: "Method and racing"
+
+jalons:
+  - id: "lancia-d50"
+    annee: 1954
+    voie: "architecture"
+    titre: "The stressed engine of the Lancia D50"
+    texte: "The D50's V8 serves as a structural member of the chassis, mounted at an angle so that the transmission passes to the left of the driver. A Lancia team led by Vittorio Jano defined its principles."
+    entrees: ["vittorio-jano", "ettore-zaccone-mina"]
+    termes: ["moteur-porteur"]
+
+  - id: "cooper-argentine"
+    annee: 1958
+    voie: "architecture"
+    titre: "First win for a mid-engined car"
+    texte: "Stirling Moss wins in Argentina in a Cooper with a curved-tube chassis. It is the first world championship Grand Prix win for a mid-engined car."
+    entrees: ["owen-maddock", "john-cooper"]
+    termes: ["moteur-central-arriere", "chassis-tubulaire"]
+
+  - id: "cooper-titres"
+    annee: 1959
+    voie: "architecture"
+    titre: "The rear engine takes over"
+    texte: "Cooper's titles in 1959 and 1960 quickly make the front-engine layout obsolete. Owen Maddock is the team's chief designer."
+    entrees: ["john-cooper", "owen-maddock"]
+    termes: ["moteur-central-arriere"]
+
+  - id: "lotus-25"
+    annee: 1962
+    voie: "architecture"
+    titre: "The aluminium monocoque of the Lotus 25"
+    texte: "Colin Chapman generalises the aluminium monocoque, which replaces the spaceframe chassis as the reference architecture."
+    entrees: ["colin-chapman"]
+    termes: ["monocoque", "chassis-tubulaire"]
+
+  - id: "dfv"
+    annee: 1967
+    voie: "moteur"
+    titre: "The Cosworth DFV and the Lotus 49"
+    texte: "The compact, stressed DFV forms the rear part of the Lotus 49. Available to many teams, it wins 155 Grands Prix."
+    entrees: ["keith-duckworth", "mike-costin", "colin-chapman"]
+    termes: ["moteur-porteur"]
+
+  - id: "ailerons"
+    annee: 1968
+    voie: "aero"
+    titre: "Wings on struts"
+    texte: "At the Belgian Grand Prix, Mauro Forghieri has wings on struts fitted to Chris Amon's Ferrari, which takes pole. Others had used them before him."
+    entrees: ["mauro-forghieri"]
+    termes: ["aileron"]
+
+  - id: "ferrari-312t"
+    annee: 1975
+    voie: "transmission"
+    titre: "The transverse gearbox of the Ferrari 312T"
+    texte: "F1's first transverse gearbox, in the service of mass centralisation; it is subsequently adopted by the whole grid."
+    entrees: ["mauro-forghieri", "franco-rocchi"]
+    termes: ["boite-transversale", "centralisation-des-masses"]
+
+  - id: "lotus-78"
+    annee: 1977
+    voie: "aero"
+    titre: "The ground effect of the Lotus 78"
+    texte: "Born of research by Peter Wright and Tony Rudd, the first ground effect F1 car is drawn by Ralph Bellamy, with Martin Ogilvie on suspension, in a programme led by Colin Chapman."
+    entrees: ["peter-wright", "tony-rudd", "ralph-bellamy", "martin-ogilvie", "colin-chapman", "tony-southgate"]
+    termes: ["effet-de-sol", "venturi", "jupes"]
+
+  - id: "bt46b"
+    annee: 1978
+    voie: "aero"
+    titre: "The fan car"
+    texte: "Gordon Murray's Brabham BT46B wins the Swedish Grand Prix, its only race. Sources disagree on what followed: voluntary withdrawal by Brabham, or a ban by the sporting authority."
+    entrees: ["gordon-murray"]
+    termes: ["voiture-a-ventilateur"]
+
+  - id: "turbo-victoire"
+    annee: 1979
+    voie: "moteur"
+    titre: "First win for a turbo engine"
+    texte: "Renault wins the French Grand Prix. The engine derives from the V6 designed by François Castaing and Jean-Pierre Boudy; Bernard Dudot leads the engine programme."
+    entrees: ["francois-castaing", "bernard-dudot", "jean-terramorsi"]
+    termes: ["turbocompresseur"]
+
+  - id: "mp4-1"
+    annee: 1981
+    voie: "architecture"
+    titre: "The carbon monocoque of the McLaren MP4/1"
+    texte: "The first F1 car with a full carbon composite monocoque to race in a Grand Prix, designed by John Barnard with a team that included Steve Nichols and Alan Jenkins."
+    entrees: ["john-barnard", "steve-nichols", "alan-jenkins"]
+    termes: ["composite-carbone", "monocoque"]
+
+  - id: "ravitaillement"
+    annee: 1982
+    voie: "methode"
+    titre: "Tactical refuelling"
+    texte: "Brabham and Gordon Murray reintroduce refuelling as a racing weapon. Riccardo Patrese takes on four tyres and 24 gallons in 15.6 seconds."
+    entrees: ["gordon-murray"]
+    termes: ["ravitaillement"]
+
+  - id: "bt52"
+    annee: 1983
+    voie: "moteur"
+    titre: "First world champion with a turbo engine"
+    texte: "Designed in six weeks after the compulsory flat bottom was announced, banning ground effect underbodies and skirts, the Brabham BT52 takes Nelson Piquet to the title."
+    entrees: ["gordon-murray"]
+    termes: ["turbocompresseur"]
+
+  - id: "lotus-92-active"
+    annee: 1983
+    voie: "transmission"
+    titre: "Active suspension in racing"
+    texte: "Peter Wright's active suspension is used on Nigel Mansell's Lotus 92 in the first two races of the season."
+    entrees: ["peter-wright"]
+    termes: ["suspension-active"]
+
+  - id: "rappel-pneumatique"
+    annee: 1986
+    voie: "moteur"
+    titre: "Pneumatic valve springs"
+    texte: "Introduced on the Renault EF15 B engine, they are fitted to every F1 engine from the 1990s onwards."
+    entrees: ["bernard-dudot"]
+    termes: ["rappel-pneumatique"]
+
+  - id: "active-gagne"
+    annee: 1987
+    voie: "transmission"
+    titre: "Active suspension wins"
+    texte: "Ayrton Senna's Lotus 99T becomes the first F1 car with active suspension to win a Grand Prix; the Williams system designed by Frank Dernie wins at Monza with Nelson Piquet."
+    entrees: ["peter-wright", "frank-dernie", "steve-wise", "paddy-lowe"]
+    termes: ["suspension-active"]
+
+  - id: "ferrari-640"
+    annee: 1989
+    voie: "transmission"
+    titre: "The semi-automatic gearbox on the steering wheel"
+    texte: "On the Ferrari 640, John Barnard introduces the paddle-shift gearbox: no more gear lever, hands on the wheel, a more compact cockpit."
+    entrees: ["john-barnard"]
+    termes: ["boite-semi-automatique"]
+
+  - id: "v10-renault"
+    annee: 1989
+    voie: "moteur"
+    titre: "The Renault V10"
+    texte: "The 67° V10 designed under the direction of Bernard Dudot establishes the V10 architecture across the whole grid."
+    entrees: ["bernard-dudot"]
+
+  - id: "tyrrell-019"
+    annee: 1990
+    voie: "aero"
+    titre: "The raised nose"
+    texte: "Harvey Postlethwaite and Jean-Claude Migeot's Tyrrell 019 raises the nose to feed more air under the car; Adrian Newey's Leyton House does the same that year."
+    entrees: ["jean-claude-migeot", "harvey-postlethwaite", "adrian-newey"]
+    termes: ["nez-releve"]
+
+  - id: "fw14b"
+    annee: 1992
+    voie: "transmission"
+    titre: "The active suspension title"
+    texte: "The Williams FW14B takes Nigel Mansell to the title, with an active suspension whose software was largely written by Paddy Lowe."
+    entrees: ["paddy-lowe", "patrick-head", "adrian-newey"]
+    termes: ["suspension-active"]
+
+  - id: "programme-anticipe"
+    annee: 1993
+    voie: "methode"
+    titre: "The programme started a year ahead"
+    texte: "At Benetton, Ross Brawn has design work on the 1994 car begin at the start of 1993, which was almost unheard of."
+    entrees: ["ross-brawn", "rory-byrne"]
+
+  - id: "double-diffuseur"
+    annee: 2009
+    voie: "aero"
+    titre: "The double diffuser of the Brawn BGP 001"
+    texte: "Begun at Honda, the BGP 001 exploits a loophole in the new regulations; the double-deck floor concept came from a Japanese engineer."
+    entrees: ["ross-brawn"]
+    termes: ["diffuseur"]
+
+  - id: "hybride"
+    annee: 2014
+    voie: "moteur"
+    titre: "The Mercedes hybrid power unit"
+    texte: "A split turbo on either side of the engine, integration with the chassis: Mercedes dominates the hybrid era, imposed by the regulations."
+    entrees: ["andy-cowell", "aldo-costa", "ross-brawn"]
+    termes: ["groupe-propulseur-hybride"]
+
+  - id: "rendement-50"
+    annee: 2017
+    voie: "moteur"
+    titre: "50% thermal efficiency"
+    texte: "The Mercedes engine, at 44% efficiency in 2014, passes the 50% mark on the dyno for the first time."
+    entrees: ["andy-cowell"]
+    termes: ["groupe-propulseur-hybride"]
+
+  - id: "cooper-500"
+    annee: 1946
+    voie: "architecture"
+    titre: "The engine behind the driver, in 500cc racing"
+    texte: "The prototype built by John Cooper and Eric Brandon places the engine in the middle, “for largely practical reasons”. The layout would make its way to F1."
+    entrees: ["john-cooper"]
+    termes: ["moteur-central-arriere"]
+
+  - id: "dfv-fva"
+    annee: 1966
+    voie: "moteur"
+    titre: "The Cosworth FVA"
+    texte: "The first engine designed by Keith Duckworth from a clean sheet, this Formula 2 four-cylinder paves the way for the DFV."
+    entrees: ["keith-duckworth", "mike-costin"]
+
+  - id: "lotus-72"
+    annee: 1970
+    voie: "aero"
+    titre: "The Lotus 72 and its side radiators"
+    texte: "Designed by Maurice Philippe with Colin Chapman, it places the radiators on the flanks; with its developments, it wins 22 Grands Prix and five world titles."
+    entrees: ["colin-chapman"]
+
+  - id: "lotus-88"
+    annee: 1981
+    voie: "aero"
+    titre: "The twin-chassis Lotus 88"
+    texte: "Two separately sprung bodies: the concept, in which Peter Wright played a key part, is protested and the car never races."
+    entrees: ["colin-chapman", "peter-wright"]
+    termes: ["effet-de-sol"]
+
+  - id: "fond-plat"
+    annee: 1983
+    voie: "aero"
+    titre: "The compulsory flat bottom"
+    texte: "Announced on 3 November 1982, it bans ground effect underbodies and skirts; the rear diffuser remains permitted."
+    entrees: ["gordon-murray"]
+    termes: ["fond-plat", "effet-de-sol", "jupes"]
+
+  - id: "mp4-2"
+    annee: 1984
+    voie: "moteur"
+    titre: "The engine built to the chassis' dimensions"
+    texte: "For the McLaren MP4/2, John Barnard dictates to Porsche the dimensions of the TAG V6 turbo, in the service of aerodynamics; the car wins 12 of the 16 races."
+    entrees: ["john-barnard"]
+    termes: ["turbocompresseur"]
+
+  - id: "march-881"
+    annee: 1988
+    voie: "aero"
+    titre: "The integrated nose of the March 881"
+    texte: "Adrian Newey fully integrates the nose and front wing, hollowed out underneath to feed more air to the floor."
+    entrees: ["adrian-newey"]
+    termes: ["aileron"]
+
+  - id: "fw17b"
+    annee: 1995
+    voie: "aero"
+    titre: "The raised diffuser of the Williams FW17B"
+    texte: "Introduced at the end of 1995, this diffuser with a raised exit becomes a major asset of the 1996 Williams."
+    entrees: ["adrian-newey"]
+    termes: ["diffuseur"]
+
+  - id: "rb6"
+    annee: 2010
+    voie: "aero"
+    titre: "The blown diffuser of the Red Bull RB6"
+    texte: "Adrian Newey “reinvents” the exhaust-blown diffuser."
+    entrees: ["adrian-newey"]
+    termes: ["diffuseur"]

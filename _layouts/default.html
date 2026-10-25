@@ -1,5 +1,26 @@
 <!doctype html>
-<html lang="{{ site.lang | default: 'fr' }}">
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- assign A = site.data.i18n[T.autre_code] -%}
+{%- comment -%}
+  Page équivalente dans l'autre langue : pour les entrées et les dossiers, même identifiant de
+  fichier dans la collection de l'autre langue ; pour les autres pages, front matter « traduction ».
+{%- endcomment -%}
+{%- assign alt = nil -%}
+{%- if page.collection -%}
+  {%- assign seg = page.url | split: "/" | last -%}
+  {%- if page.collection == T.collection_entrees -%}
+    {%- assign url_alt = A.url.entrees | append: seg | append: "/" -%}
+    {%- assign alt = site[A.collection_entrees] | where: "url", url_alt | first -%}
+  {%- elsif page.collection == T.collection_dossiers -%}
+    {%- assign url_alt = A.url.dossiers | append: seg | append: "/" -%}
+    {%- assign alt = site[A.collection_dossiers] | where: "url", url_alt | first -%}
+  {%- endif -%}
+  {%- if alt -%}{%- assign alt_url = alt.url -%}{%- endif -%}
+{%- elsif page.traduction -%}
+  {%- assign alt_url = page.traduction -%}
+{%- endif -%}
+<html lang="{{ lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,29 +28,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
   <link rel="stylesheet" href="{{ '/assets/css/encyclopedie.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {%- if alt_url %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="{{ T.autre_code }}" href="{{ alt_url | absolute_url }}">
+  {%- endif %}
   {% seo %}
 </head>
 <body>
-  <a class="evitement" href="#contenu">Aller au contenu</a>
+  <a class="evitement" href="#contenu">{{ T.evitement }}</a>
   <header class="site">
-    <a class="marque" href="{{ '/' | relative_url }}">Ingénieurs de la F1</a>
+    <a class="marque" href="{{ T.url.accueil | relative_url }}">{{ T.marque }}</a>
     <nav aria-label="Sections">
-      {%- assign sections = "/|Index,/tiers/|Tiers,/chronologie/|Chronologie,/lignees/|Lignées,/glossaire/|Glossaire,/dossiers/|Dossiers" | split: "," -%}
-      {%- for s in sections -%}
-        {%- assign p = s | split: "|" -%}
+      {%- for s in T.nav -%}
         {%- assign actif = false -%}
-        {%- if page.url == p[0] -%}{%- assign actif = true -%}{%- endif -%}
-        {%- if p[0] == "/dossiers/" and page.collection == "dossiers" -%}{%- assign actif = true -%}{%- endif -%}
-        {%- if p[0] == "/" and page.collection == "ingenieurs" -%}{%- assign actif = true -%}{%- endif -%}
-        <a href="{{ p[0] | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ p[1] }}</a>
+        {%- if page.url == s.url -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if s.url == T.url.dossiers and page.collection == T.collection_dossiers -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if s.url == T.url.accueil and page.collection == T.collection_entrees -%}{%- assign actif = true -%}{%- endif -%}
+        <a href="{{ s.url | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ s.nom }}</a>
       {%- endfor -%}
+      <a class="langue" href="{{ alt_url | default: A.url.accueil | relative_url }}" hreflang="{{ T.autre_code }}" lang="{{ T.autre_code }}">{{ T.autre_nom }}</a>
     </nav>
   </header>
   <main id="contenu">
     {{ content }}
   </main>
   <footer class="site">
-    <p>Classement établi selon une <a href="{{ '/dossiers/methode/' | relative_url }}">méthode explicite</a>. Les scores sont un instrument comparatif, pas des faits historiques. Sources consultées le 9 août 2026.</p>
+    <p>{{ T.pied_avant }} <a href="{{ T.url.methode | relative_url }}">{{ T.pied_lien }}</a>. {{ T.pied_apres }}</p>
   </footer>
 </body>
 </html>

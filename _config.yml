@@ -45,6 +45,14 @@ collections:
   dossiers:
     output: true
     permalink: /dossiers/:name/
+  # Version anglaise : memes identifiants de fichier que les collections francaises
+  # (la correspondance entre langues en depend). Textes d'interface : _data/i18n.yml.
+  engineers:
+    output: true
+    permalink: /en/engineers/:name/
+  features:
+    output: true
+    permalink: /en/features/:name/
 
 defaults:
   # Image de partage (Open Graph) par defaut ; chaque entree a la sienne dans son
@@ -63,6 +71,23 @@ defaults:
       type: dossiers
     values:
       layout: dossier
+  - scope:
+      path: ""
+      type: engineers
+    values:
+      layout: entree
+      lang: en
+  - scope:
+      path: ""
+      type: features
+    values:
+      layout: dossier
+      lang: en
+  - scope:
+      path: "en"
+    values:
+      lang: en
+      image: /assets/partage/en/defaut.png
 
 # Greffons. Le constructeur de GitHub Pages tourne en SAFE MODE : il ne charge
 # que les greffons de sa liste blanche, quoi qu'on ecrive ici, et ignore

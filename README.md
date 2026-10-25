@@ -119,6 +119,28 @@ image: "/assets/partage/<id>.png" # carte de partage
 redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 ```
 
+### Deux langues
+
+- Francais (racine) et anglais (`/en/`). Memes gabarits : la langue de la page
+  (`lang:`, `en` par defaut sous `en/` et dans les collections anglaises) choisit
+  les textes d'interface dans `_data/i18n.yml` et les donnees dans `_data/` ou
+  `_data/en/`.
+- Contenus anglais : `_engineers/` (-> `/en/engineers/<id>/`), `_features/`
+  (-> `/en/features/<id>/`), `_data/en/*.yml`. **Meme nom de fichier que le
+  francais** : c'est ce qui relie une page a sa traduction (selecteur de langue,
+  balises hreflang). Pages simples : champ `traduction:` dans le front matter.
+- Le contenu des pages Index, Tiers, Lignees, Chronologie, Glossaire, Dossiers et
+  Recherche est dans `_includes/pages/` ; `index.html`, `en/index.html`, etc. ne
+  font que l'inclure.
+- Une modification d'entree francaise doit etre reportee dans `_engineers/`.
+  `outils/verifier.py` signale les entrees sans traduction.
+
+### Recherche
+
+`/recherche/` et `/en/search/` interrogent un index JSON genere par Jekyll
+(`recherche.json`, `en/search.json`, gabarit `_includes/index-recherche.json`) :
+entrees, termes du glossaire, jalons et dossiers de la langue.
+
 ### Entrees hors classement
 
 Une entree **sans** `rang:`, `tier:` ni `score:` est hors classement (HC) :
@@ -170,7 +192,7 @@ cd deck
 npm ci && npm run fonts     # premiere fois : dependances et polices du site
 npm run pdf                 # assets/docs/ingenieurs-revolutionnaires-F1.pdf
 npm run pptx                # deck/out/... .pptx (non versionne, avec notes)
-npm run cartes              # assets/partage/*.png
+npm run cartes              # assets/partage/*.png (fr) et assets/partage/en/*.png
 ```
 
 Apres une modification d'une entree (accroche, rang, portrait), relancer

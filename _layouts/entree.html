@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign nom = page.title | split: ", " -%}
 {%- comment -%} Seules les entrées classées (avec un rang) forment la suite « rang précédent / suivant ». {%- endcomment -%}
-{%- assign par_rang = site.ingenieurs | where_exp: "e", "e.rang" | sort: "rang" -%}
+{%- assign par_rang = site[T.collection_entrees] | where_exp: "e", "e.rang" | sort: "rang" -%}
 {%- if page.rang -%}
   {%- for e in par_rang -%}
     {%- if e.rang == page.rang -%}
@@ -22,57 +25,57 @@ layout: default
   <aside class="entree-marge">
     {%- if page.portrait %}
     <figure class="portrait">
-      <img src="{{ page.portrait.fichier | relative_url }}" alt="Portrait de {{ page.nom_complet }}" loading="lazy">
+      <img src="{{ page.portrait.fichier | relative_url }}" alt="{{ T.l.portrait_de }} {{ page.nom_complet }}" loading="lazy">
       <figcaption>
         {%- if page.portrait.legende %}<span class="portrait-legende">{{ page.portrait.legende }}</span>{% endif %}
-        <span class="portrait-credit">Photo : {{ page.portrait.auteur }},
+        <span class="portrait-credit">{{ T.l.photo }} {{ page.portrait.auteur }},
           {% if page.portrait.licence_url %}<a href="{{ page.portrait.licence_url }}">{{ page.portrait.licence }}</a>{% else %}{{ page.portrait.licence }}{% endif %},
           <a href="{{ page.portrait.source }}">Wikimedia Commons</a>.
-          Affichée en noir et blanc.</span>
+          {{ T.l.noir_blanc }}</span>
       </figcaption>
     </figure>
     {%- endif %}
     <dl class="cartouche" data-tier="{{ page.tier | default: 'HC' }}">
       {%- if page.rang %}
-      <div class="case case-rang"><dt>Rang</dt><dd>{{ page.rang }}</dd></div>
-      <div class="case case-tier"><dt>Tier</dt><dd><a href="{{ '/tiers/' | relative_url }}#tier-{{ page.tier | downcase }}">{{ page.tier }}</a></dd></div>
-      <div class="case case-score"><dt>Score</dt><dd>{{ page.score }}<span class="sur">/100</span></dd></div>
-      <div class="case case-confiance"><dt>Confiance</dt><dd>{{ page.confiance }}</dd></div>
+      <div class="case case-rang"><dt>{{ T.l.rang }}</dt><dd>{{ page.rang }}</dd></div>
+      <div class="case case-tier"><dt>{{ T.l.tier }}</dt><dd><a href="{{ T.url.tiers | relative_url }}#tier-{{ page.tier | downcase }}">{{ page.tier }}</a></dd></div>
+      <div class="case case-score"><dt>{{ T.l.score }}</dt><dd>{{ page.score }}<span class="sur">/100</span></dd></div>
+      <div class="case case-confiance"><dt>{{ T.l.confiance }}</dt><dd>{{ page.confiance }}</dd></div>
       {%- else %}
-      <div class="case case-large case-hc"><dt>Classement</dt><dd>Hors classement</dd></div>
+      <div class="case case-large case-hc"><dt>{{ T.l.classement }}</dt><dd>{{ T.l.hors_classement }}</dd></div>
       {%- endif %}
-      <div class="case case-large"><dt>Domaine</dt><dd>{{ page.domaine }}</dd></div>
+      <div class="case case-large"><dt>{{ T.l.domaine }}</dt><dd>{{ page.domaine }}</dd></div>
       {%- if page.lignees.size > 0 %}
-      <div class="case case-large"><dt>Lignées</dt><dd>
+      <div class="case case-large"><dt>{{ T.l.lignees }}</dt><dd>
         {%- for l in page.lignees -%}
-          {%- assign lg = site.data.lignees | where: "id", l | first -%}
-          <a href="{{ '/lignees/' | relative_url }}#{{ lg.id }}">{{ lg.nom }}</a>{% unless forloop.last %}, {% endunless %}
+          {%- assign lg = D.lignees | where: "id", l | first -%}
+          <a href="{{ T.url.lignees | relative_url }}#{{ lg.id }}">{{ lg.nom }}</a>{% unless forloop.last %}, {% endunless %}
         {%- endfor -%}
       </dd></div>
       {%- endif %}
       {%- if page.voir_aussi.size > 0 %}
-      <div class="case case-large"><dt>Voir aussi</dt><dd>
+      <div class="case case-large"><dt>{{ T.l.voir_aussi }}</dt><dd>
         {%- for v in page.voir_aussi -%}
           {% include lien-entree.html id=v %}{% unless forloop.last %}, {% endunless %}
         {%- endfor -%}
       </dd></div>
       {%- endif %}
       {%- if page.rang %}
-      <div class="case case-large case-note"><dt>Lecture du score</dt><dd>Un instrument comparatif : un écart de 1 ou 2 points n'est pas significatif. <a href="{{ '/dossiers/methode/' | relative_url }}">Voir la méthode</a>.</dd></div>
+      <div class="case case-large case-note"><dt>{{ T.l.lecture_score_titre }}</dt><dd>{{ T.l.lecture_score_texte }} <a href="{{ T.url.methode | relative_url }}">{{ T.l.voir_methode }}</a>.</dd></div>
       {%- else %}
-      <div class="case case-large case-note"><dt>Lecture</dt><dd>Une entrée hors classement documente une contribution sans la noter : le classement des vingt reste celui de la <a href="{{ '/dossiers/methode/' | relative_url }}#hors-classement">méthode</a>.</dd></div>
+      <div class="case case-large case-note"><dt>{{ T.l.lecture_hc_titre }}</dt><dd>{{ T.l.lecture_hc_avant }} <a href="{{ T.url.methode | relative_url }}#hors-classement">{{ T.l.lecture_hc_lien }}</a>.</dd></div>
       {%- endif %}
     </dl>
 
     {%- if page.sources.size > 0 %}
     <section class="references" aria-labelledby="references">
-      <h2 id="references">Références</h2>
+      <h2 id="references">{{ T.l.references }}</h2>
       <ol>
         {%- for s in page.sources %}
         <li><a href="{{ s.url }}">{{ s.titre }}</a></li>
         {%- endfor %}
       </ol>
-      <p>Consultées le {{ page.consultation | default: "9 août 2026" }}.</p>
+      <p>{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.</p>
     </section>
     {%- endif %}
   </aside>
@@ -82,14 +85,14 @@ layout: default
   </div>
 
   {%- if page.rang %}
-  <nav class="suite" aria-label="Entrées voisines dans le classement">
+  <nav class="suite" aria-label="{{ T.l.suite_aria }}">
     {%- if i_prec >= 0 -%}
       {%- assign e = par_rang[i_prec] -%}
-      <a class="suite-prec" href="{{ e.url | relative_url }}"><span>Rang {{ e.rang }}</span> {{ e.title }}</a>
+      <a class="suite-prec" href="{{ e.url | relative_url }}"><span>{{ T.l.rang }} {{ e.rang }}</span> {{ e.title }}</a>
     {%- endif -%}
     {%- if i_suiv < par_rang.size -%}
       {%- assign e = par_rang[i_suiv] -%}
-      <a class="suite-suiv" href="{{ e.url | relative_url }}"><span>Rang {{ e.rang }}</span> {{ e.title }}</a>
+      <a class="suite-suiv" href="{{ e.url | relative_url }}"><span>{{ T.l.rang }} {{ e.rang }}</span> {{ e.title }}</a>
     {%- endif -%}
   </nav>
   {%- endif %}

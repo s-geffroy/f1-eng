@@ -3,12 +3,16 @@ layout: default
 title: Page introuvable
 permalink: /404.html
 ---
-<section class="page-tete">
-  <h1>Page introuvable</h1>
-  <p class="accroche">Cette adresse ne correspond à aucune page de l'encyclopédie. L'<a href="{{ '/' | relative_url }}">index des entrées</a> les liste toutes.</p>
-</section>
 <!--
-  GitHub Pages sert automatiquement ce fichier sur toute adresse inconnue, a
-  condition qu'il soit a la racine du site. 'relative_url' plutot qu'un '/' en
-  dur : il applique le baseurl de _config.yml.
+  GitHub Pages sert ce fichier sur toute adresse inconnue, quelle que soit la langue : la page est
+  donc bilingue. 'relative_url' applique le baseurl de _config.yml.
 -->
+{%- assign fr = site.data.i18n.fr -%}{%- assign en = site.data.i18n.en -%}
+<section class="page-tete">
+  <h1>{{ fr.p404.titre }}</h1>
+  <p class="accroche">{{ fr.p404.texte_avant }}<a href="{{ fr.url.accueil | relative_url }}">{{ fr.p404.texte_lien }}</a> {{ fr.p404.texte_apres }}</p>
+</section>
+<section class="page-tete" lang="en">
+  <h2>{{ en.p404.titre }}</h2>
+  <p class="accroche">{{ en.p404.texte_avant }} <a href="{{ en.url.accueil | relative_url }}">{{ en.p404.texte_lien }}</a> {{ en.p404.texte_apres }}</p>
+</section>

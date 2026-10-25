@@ -3,18 +3,6 @@ layout: default
 title: Lignées
 permalink: /lignees/
 description: Cinq lignées techniques de la Formule 1, de Cooper à Newey.
+traduction: /en/lineages/
 ---
-<section class="page-tete">
-  <h1>Les lignées techniques</h1>
-  <p class="accroche">Ces chaînes montrent des filiations intellectuelles entre les entrées, pas des relations de maître à élève.</p>
-</section>
-{%- for l in site.data.lignees %}
-<section class="lignee" id="{{ l.id }}">
-  <h2>{{ l.nom }}</h2>
-  <ol class="chaine">
-    {%- for etape in l.etapes %}
-    <li>{% for id in etape %}{% include lien-entree.html id=id %}{% unless forloop.last %} et {% endunless %}{% endfor %}</li>
-    {%- endfor %}
-  </ol>
-</section>
-{%- endfor %}
+{% include pages/lignees.html %}

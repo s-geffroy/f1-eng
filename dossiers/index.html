@@ -2,19 +2,6 @@
 layout: default
 title: Dossiers
 description: Quatre textes de synthèse sur le classement des ingénieurs de la F1.
+traduction: /en/features/
 ---
-<section class="page-tete">
-  <h1>Dossiers</h1>
-  <p class="accroche">Quatre textes de synthèse, à lire dans l'ordre : la méthode, puis le classement tier par tier.</p>
-</section>
-<p class="telechargement"><a href="{{ '/assets/docs/ingenieurs-revolutionnaires-F1.pdf' | relative_url }}" download>Télécharger la présentation en PDF</a> — 21 diapositives, de la méthode au classement final.</p>
-
-<ol class="dossiers">
-  {%- assign dossiers = site.dossiers | sort: "ordre" -%}
-  {%- for d in dossiers %}
-  <li>
-    <a href="{{ d.url | relative_url }}">{{ d.title }}</a>
-    <p>{{ d.resume }}</p>
-  </li>
-  {%- endfor %}
-</ol>
+{% include pages/dossiers.html %}

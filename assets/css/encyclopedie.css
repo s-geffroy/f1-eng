@@ -464,6 +464,23 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 /* lien vers le glossaire dans le texte : pointillé, pour le distinguer d'un renvoi vers une entrée */
 .texte a[href*="/glossaire/#"] { text-decoration-style: dotted; text-decoration-thickness: 2px; }
 
+/* ---------- Recherche sur tout le site ---------- */
+
+.recherche-form { grid-template-columns: minmax(0, 1fr); max-width: 40rem; }
+.resultats-groupe { margin-top: 2rem; max-width: 48rem; }
+.resultats-groupe h2 { font-size: 1.375rem; margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: var(--trait-fort) solid var(--graphite); }
+.resultats-groupe h2 span { font-weight: 500; color: var(--mine); font-size: 1rem; margin-left: 0.35rem; }
+.resultats-groupe ol { list-style: none; margin: 0; padding: 0; }
+.resultats-groupe li { padding: 0.65rem 0; border-bottom: var(--trait-fin) solid var(--trait-clair); }
+.resultats-groupe li > a { font-family: var(--titre); font-size: 1.25rem; font-weight: 600; text-decoration: none; }
+.resultats-groupe li > a:hover { text-decoration: underline; }
+.resultat-sous { display: block; font-style: italic; color: var(--mine); font-size: 0.9375rem; }
+.resultats-groupe p { margin: 0.25rem 0 0; font-size: 0.9375rem; line-height: 1.5; }
+mark { background: var(--feuille); color: var(--graphite); box-shadow: inset 0 -0.4em 0 var(--trait-clair); padding: 0 0.1em; }
+
+/* sélecteur de langue, séparé des rubriques */
+header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left: var(--trait-fin) solid var(--trait); font-weight: 600; }
+
 /* ---------- Liste des dossiers ---------- */
 
 .telechargement {

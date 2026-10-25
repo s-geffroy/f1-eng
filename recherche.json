@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /recherche.json
+sitemap: false
+---
+{% include index-recherche.json %}

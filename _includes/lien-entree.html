@@ -1,4 +1,6 @@
-{%- comment -%} Lien vers une entrée à partir de son identifiant (nom du fichier dans _ingenieurs/) ; texte brut sinon. {%- endcomment -%}
-{%- assign url_e = "/ingenieurs/" | append: include.id | append: "/" -%}
-{%- assign e = site.ingenieurs | where: "url", url_e | first -%}
+{%- comment -%} Lien vers une entrée de la langue de la page, à partir de son identifiant (nom du fichier) ; texte brut sinon. {%- endcomment -%}
+{%- assign lang_e = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_e = site.data.i18n[lang_e] -%}
+{%- assign url_e = T_e.url.entrees | append: include.id | append: "/" -%}
+{%- assign e = site[T_e.collection_entrees] | where: "url", url_e | first -%}
 {%- if e -%}<a href="{{ e.url | relative_url }}">{{ e.nom_complet }}</a>{%- else -%}<span>{{ include.id }}</span>{%- endif -%}

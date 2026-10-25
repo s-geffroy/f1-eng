@@ -7,7 +7,18 @@ const path = require("path");
 const PImage = require("pureimage");
 
 const RACINE = path.join(__dirname, "..");
-const SORTIE = path.join(RACINE, "assets", "partage");
+// Une carte par entrée et par langue : français dans assets/partage/, anglais dans assets/partage/en/.
+const LANGUES = {
+  fr: { entrees: "_ingenieurs", sortie: path.join(RACINE, "assets", "partage"), marque: "Ingénieurs de la F1",
+        rang: "Rang", classement: "Classement", hc: "Hors classement", domaine: "Domaine",
+        titre: ["Les ingénieurs qui ont", "changé la Formule 1"],
+        sous: "Vingt ingénieurs classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès." },
+  en: { entrees: "_engineers", sortie: path.join(RACINE, "assets", "partage", "en"), marque: "F1 Engineers",
+        rang: "Rank", classement: "Ranking", hc: "Unranked", domaine: "Field",
+        titre: ["The engineers who", "changed Formula 1"],
+        sous: "Twenty engineers ranked by what they changed in the way an F1 car is built, not by their trophy count." },
+};
+let L = LANGUES.fr;
 const PORTRAITS = path.join(__dirname, "portraits");
 const W = 1200, H = 630, M = 64;
 const C = { calque: "#D9DEDF", feuille: "#FFFFFF", graphite: "#2E3338", mine: "#4F575E", trait: "#8E979D", clair: "#C2C9CC",
@@ -60,12 +71,12 @@ function texte(ctx, t, x, y, fam, taille, couleur) {
 
 function enTete(ctx) {
   ctx.fillStyle = C.calque; ctx.fillRect(0, 0, W, H);
-  texte(ctx, "Ingénieurs de la F1", M, 70, "BarlowB", 26, C.graphite);
+  texte(ctx, L.marque, M, 70, "BarlowB", 26, C.graphite);
   trait(ctx, M, 92, W - M, 92, 4, C.graphite);
 }
 
 async function ecrire(img, nom) {
-  await PImage.encodePNGToStream(img, fs.createWriteStream(path.join(SORTIE, nom)));
+  await PImage.encodePNGToStream(img, fs.createWriteStream(path.join(L.sortie, nom)));
 }
 
 async function carteEntree(id, e) {
@@ -99,8 +110,8 @@ async function carteEntree(id, e) {
 
   const cy = 450, ch = 130;
   const cases = e.rang
-    ? [["Rang", String(e.rang), 150], ["Tier", e.tier, 150], ["Score", e.score, tw - 300]]
-    : [["Classement", "Hors classement", tw * 0.55], ["Domaine", e.domaine, tw * 0.45]]; // entrée HC : ni rang, ni tier, ni score
+    ? [[L.rang, String(e.rang), 150], ["Tier", e.tier, 150], ["Score", e.score, tw - 300]]
+    : [[L.classement, L.hc, tw * 0.55], [L.domaine, e.domaine, tw * 0.45]]; // entrée HC : ni rang, ni tier, ni score
   ctx.fillStyle = C.feuille; ctx.fillRect(tx, cy, tw, ch);
   let x = tx;
   for (const [lab, val, w] of cases) {
@@ -121,9 +132,9 @@ async function carteEntree(id, e) {
 async function carteGenerique() {
   const img = PImage.make(W, H), ctx = img.getContext("2d");
   enTete(ctx);
-  ["Les ingénieurs qui ont", "changé la Formule 1"].forEach((l, i) => texte(ctx, l, M, 250 + i * 110, "BarlowB", 100, C.graphite));
+  L.titre.forEach((l, i) => texte(ctx, l, M, 250 + i * 110, "BarlowB", 100, C.graphite));
   ctx.font = "32pt SpectralI";
-  lignes(ctx, "Vingt ingénieurs classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès.", W - 2 * M)
+  lignes(ctx, L.sous, W - 2 * M)
     .forEach((l, i) => texte(ctx, l, M, 470 + i * 44, "SpectralI", 32, C.mine));
   // rappel des quatre tiers, dans leurs couleurs
   ["A", "B", "C", "D"].forEach((t, i) => {
@@ -135,9 +146,13 @@ async function carteGenerique() {
 }
 
 (async () => {
-  fs.mkdirSync(SORTIE, { recursive: true });
-  const dir = path.join(RACINE, "_ingenieurs");
-  for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)));
-  await carteGenerique();
-  console.log("cartes :", fs.readdirSync(SORTIE).length);
+  for (const code of Object.keys(LANGUES)) {
+    L = LANGUES[code];
+    const dir = path.join(RACINE, L.entrees);
+    if (!fs.existsSync(dir)) continue;               // langue pas encore traduite
+    fs.mkdirSync(L.sortie, { recursive: true });
+    for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)));
+    await carteGenerique();
+    console.log(`cartes (${code}) :`, fs.readdirSync(L.sortie).filter(f => f.endsWith(".png")).length);
+  }
 })().catch(e => { console.error(e); process.exit(1); });
