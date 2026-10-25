@@ -23,7 +23,7 @@ sources:
   - titre: "GrandPrix.com, “Designer doubts Mercedes to dominate” (2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/aldo-costa.png"
+image: "/assets/partage/en/aldo-costa.jpg"
 ---
 ## What he did
 

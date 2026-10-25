@@ -17,7 +17,7 @@ sources:
   - titre: "Jonathan Noble, Autosport, “Michael resigns, Coughlan joins Williams” (2011)"
     url: "https://www.autosport.com/f1/news/91085/michael-resigns-coughlan-joins-williams"
 consultation: "25 October 2026"
-image: "/assets/partage/en/sam-michael.png"
+image: "/assets/partage/en/sam-michael.jpg"
 ---
 ## What he did
 

@@ -19,7 +19,7 @@ sources:
   - titre: "Motor Sport Magazine, « Demeaning of Life » (septembre 2000)"
     url: "https://www.motorsportmagazine.com/archive/page/september-2000/91"
 consultation: "25 octobre 2026"
-image: "/assets/partage/franco-rocchi.png"
+image: "/assets/partage/franco-rocchi.jpg"
 ---
 ## Ce qu'il a fait
 

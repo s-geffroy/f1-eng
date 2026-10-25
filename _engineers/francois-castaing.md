@@ -23,7 +23,7 @@ portrait:
   licence: "Public domain"
   source: "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Castaing_FIRST_Robotics_State_Championship_2016_(26230159960)_(cropped).jpg"
 consultation: "25 October 2026"
-image: "/assets/partage/en/francois-castaing.png"
+image: "/assets/partage/en/francois-castaing.jpg"
 ---
 ## What he did
 

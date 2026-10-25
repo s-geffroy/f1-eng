@@ -25,7 +25,7 @@ sources:
   - titre: "GrandPrix.com, “The story behind the reshuffle at Williams” (2004)"
     url: "https://www.grandprix.com/news/the-story-behind-the-reshuffle-at-williams.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/patrick-head.png"
+image: "/assets/partage/en/patrick-head.jpg"
 ---
 ## What he built
 

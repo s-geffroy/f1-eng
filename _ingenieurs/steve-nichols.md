@@ -17,7 +17,7 @@ sources:
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/steve-nichols.png"
+image: "/assets/partage/steve-nichols.jpg"
 ---
 ## Ce qu'il a fait
 

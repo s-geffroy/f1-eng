@@ -24,7 +24,7 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Tony_Southgate_Race_Retro_2023.jpg"
 consultation: "25 October 2026"
-image: "/assets/partage/en/tony-southgate.png"
+image: "/assets/partage/en/tony-southgate.jpg"
 ---
 ## What he did
 

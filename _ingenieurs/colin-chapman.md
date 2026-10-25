@@ -36,7 +36,7 @@ sources:
   - titre: "Autosport, « Banned: the ingenious twin-chassis Lotus F1 car »"
     url: "https://www.autosport.com/f1/news/banned-the-ingenious-twin-chassis-lotus-f1-car-4983190/4983190/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/colin-chapman.png"
+image: "/assets/partage/colin-chapman.jpg"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 ---
 ## La question transformée

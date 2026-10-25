@@ -29,7 +29,7 @@ sources:
   - titre: "GrandPrix.com, “Racing legend John Cooper dies aged 77”"
     url: "https://www.grandprix.com/news/racing-legend-john-cooper-dies-aged-77.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/john-cooper.png"
+image: "/assets/partage/en/john-cooper.jpg"
 ---
 ## The question transformed
 

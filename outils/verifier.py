@@ -131,6 +131,28 @@ if "fr" in ids_par_langue and "en" in ids_par_langue:
     for orphelin in sorted(ids_par_langue["en"] - ids_par_langue["fr"]):
         err(f"en : {orphelin} n'existe pas en français")
 
+# 6. synchronisation : une traduction plus ancienne que son original français est signalée
+#    (date du dernier commit qui touche le fichier ; date du fichier s'il a des modifications non commitées)
+import subprocess
+def date_modif(chemin):
+    sale = subprocess.run(["git", "status", "--porcelain", "--", chemin], capture_output=True, text=True).stdout.strip()
+    if sale:
+        return os.path.getmtime(chemin)
+    sortie = subprocess.run(["git", "log", "-1", "--format=%ct", "--", chemin], capture_output=True, text=True).stdout.strip()
+    return float(sortie) if sortie else os.path.getmtime(chemin)
+
+PAIRES = [("_ingenieurs", "_engineers"), ("_dossiers", "_features"), ("_voitures", "_cars")]
+couples = []
+for fr_dir, en_dir in PAIRES:
+    if os.path.isdir(fr_dir) and os.path.isdir(en_dir):
+        couples += [(f"{fr_dir}/{f}", f"{en_dir}/{f}") for f in os.listdir(fr_dir) if os.path.exists(f"{en_dir}/{f}")]
+for f in os.listdir("_data"):
+    if f.endswith(".yml") and os.path.exists(f"_data/en/{f}"):
+        couples.append((f"_data/{f}", f"_data/en/{f}"))
+for fr, en in sorted(couples):
+    if date_modif(fr) > date_modif(en) + 60:
+        warn(f"traduction à mettre à jour : {fr} a été modifié après {en}")
+
 for a in avertissements:
     print("attention :", a)
 for e in erreurs:

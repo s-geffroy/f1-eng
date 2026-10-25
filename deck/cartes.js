@@ -1,4 +1,4 @@
-// Cartes de partage (Open Graph, 1200 x 630) : une par entrée, plus une carte générique.
+// Cartes de partage (Open Graph, 1200 x 630, JPEG) : une par entrée, plus une carte générique.
 // Même vocabulaire que le site : papier calque, encre graphite, cartouche, rouge réservé au Tier A.
 // Portraits : ceux préparés par portraits.js (niveaux de gris). Sortie : ../assets/partage/
 // (versionnée : c'est ce que GitHub Pages sert aux réseaux sociaux).
@@ -76,7 +76,8 @@ function enTete(ctx) {
 }
 
 async function ecrire(img, nom) {
-  await PImage.encodePNGToStream(img, fs.createWriteStream(path.join(L.sortie, nom)));
+  // JPEG plutôt que PNG : environ quatre fois plus léger pour ces cartes à portrait photographique
+  await PImage.encodeJPEGToStream(img, fs.createWriteStream(path.join(L.sortie, nom)), 85);
 }
 
 async function carteEntree(id, e) {
@@ -126,7 +127,7 @@ async function carteEntree(id, e) {
     x += w;
   }
   cadre(ctx, tx, cy, tw, ch, 4, C.graphite);
-  await ecrire(img, id + ".png");
+  await ecrire(img, id + ".jpg");
 }
 
 async function carteGenerique() {
@@ -142,7 +143,7 @@ async function carteGenerique() {
     ctx.fillStyle = C[t]; ctx.fillRect(x, 60 - 36, 56, 46);
     texte(ctx, t, x + 18, 58, "BarlowB", 28, t === "D" ? C.graphite : C.feuille);
   });
-  await ecrire(img, "defaut.png");
+  await ecrire(img, "defaut.jpg");
 }
 
 (async () => {
@@ -153,6 +154,6 @@ async function carteGenerique() {
     fs.mkdirSync(L.sortie, { recursive: true });
     for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)));
     await carteGenerique();
-    console.log(`cartes (${code}) :`, fs.readdirSync(L.sortie).filter(f => f.endsWith(".png")).length);
+    console.log(`cartes (${code}) :`, fs.readdirSync(L.sortie).filter(f => f.endsWith(".jpg")).length);
   }
 })().catch(e => { console.error(e); process.exit(1); });

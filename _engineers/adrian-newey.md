@@ -50,7 +50,7 @@ sources:
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
 consultation: "25 October 2026"
-image: "/assets/partage/en/adrian-newey.png"
+image: "/assets/partage/en/adrian-newey.jpg"
 ---
 ## The question transformed
 

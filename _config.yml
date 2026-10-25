@@ -60,7 +60,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/partage/defaut.png
+      image: /assets/partage/defaut.jpg
   - scope:
       path: ""
       type: ingenieurs
@@ -87,7 +87,7 @@ defaults:
       path: "en"
     values:
       lang: en
-      image: /assets/partage/en/defaut.png
+      image: /assets/partage/en/defaut.jpg
 
 # Greffons. Le constructeur de GitHub Pages tourne en SAFE MODE : il ne charge
 # que les greffons de sa liste blanche, quoi qu'on ecrive ici, et ignore

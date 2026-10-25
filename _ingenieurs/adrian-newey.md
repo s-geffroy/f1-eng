@@ -50,7 +50,7 @@ sources:
   - titre: "Motor Sport Magazine, « Lunch with… Frank Dernie » (août 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/adrian-newey.png"
+image: "/assets/partage/adrian-newey.jpg"
 redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
 ---
 ## La question transformée

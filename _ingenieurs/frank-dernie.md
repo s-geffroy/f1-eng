@@ -19,7 +19,7 @@ sources:
   - titre: "GrandPrix.com, « Frank Dernie »"
     url: "https://grandprix.com/people/frank-dernie.html"
 consultation: "25 octobre 2026"
-image: "/assets/partage/frank-dernie.png"
+image: "/assets/partage/frank-dernie.jpg"
 redirect_from: "/ingenieurs/2026/10/25/frank-dernie.html"
 ---
 ## Ce qu'il a changé

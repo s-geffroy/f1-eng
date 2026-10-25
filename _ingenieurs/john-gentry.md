@@ -15,7 +15,7 @@ sources:
   - titre: "Motor Sport Magazine, « Pierre Gasly in Ayrton Senna's first Toleman »"
     url: "https://www.motorsportmagazine.com/special-article/formula-1-track-tests/130/pierre-gasly-in-ayrton-sennas-first-toleman-always-meet-your-heroes/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/john-gentry.png"
+image: "/assets/partage/john-gentry.jpg"
 ---
 ## Ce qu'il a fait
 

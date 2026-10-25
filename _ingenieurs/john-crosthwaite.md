@@ -22,7 +22,7 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:J_Crosthwaite_(with_oily_rag)_and_Graham_Hill_(on_left_of_picture)_with_Lotus.jpg"
 consultation: "25 octobre 2026"
-image: "/assets/partage/john-crosthwaite.png"
+image: "/assets/partage/john-crosthwaite.jpg"
 ---
 ## Ce qu'il a fait
 

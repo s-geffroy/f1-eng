@@ -21,7 +21,7 @@ sources:
   - titre: "GrandPrix.com, “Harvey Postlethwaite”"
     url: "https://www.grandprix.com/gpe/cref-poshar.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/harvey-postlethwaite.png"
+image: "/assets/partage/en/harvey-postlethwaite.jpg"
 ---
 ## What he did
 

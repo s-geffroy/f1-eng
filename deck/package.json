@@ -7,7 +7,8 @@
     "portraits": "node portraits.js",
     "pptx": "node portraits.js && node build.js",
     "pdf": "node portraits.js && node build.js pdf",
-    "cartes": "node portraits.js && node cartes.js"
+    "cartes": "node portraits.js && node cartes.js",
+    "images": "node optimiser-images.js"
   },
   "dependencies": {
     "jimp": "0.22.12",

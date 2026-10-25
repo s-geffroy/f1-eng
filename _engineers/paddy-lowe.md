@@ -32,7 +32,7 @@ sources:
   - titre: "Keith Howard, Motor Sport Magazine, “Active suspension” (December 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
 consultation: "25 October 2026"
-image: "/assets/partage/en/paddy-lowe.png"
+image: "/assets/partage/en/paddy-lowe.jpg"
 ---
 ## What he contributed
 

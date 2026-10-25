@@ -15,7 +15,7 @@ sources:
   - titre: "Patrick Head, Motor Sport Magazine, « Mansell's perfect ride » (mars 2012)"
     url: "https://motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride"
 consultation: "25 octobre 2026"
-image: "/assets/partage/steve-wise.png"
+image: "/assets/partage/steve-wise.jpg"
 ---
 ## Ce qu'il a fait
 

@@ -15,7 +15,7 @@ sources:
   - titre: "Renault Classic, « Renault 5 Turbo » (dossier PDF)"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/Renault5TURBO.pdf.asset.pdf/d687c20fd2.pdf"
 consultation: "25 octobre 2026"
-image: "/assets/partage/jean-terramorsi.png"
+image: "/assets/partage/jean-terramorsi.jpg"
 ---
 ## Ce qu'il a fait
 

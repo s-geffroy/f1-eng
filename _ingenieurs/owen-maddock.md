@@ -27,7 +27,7 @@ sources:
   - titre: "500race.org, « Owen Maddock »"
     url: "https://500race.org/people/owen-maddock/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/owen-maddock.png"
+image: "/assets/partage/owen-maddock.jpg"
 redirect_from: "/ingenieurs/2026/10/25/owen-maddock.html"
 ---
 ## Une correction nécessaire

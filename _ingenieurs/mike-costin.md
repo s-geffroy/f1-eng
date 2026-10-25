@@ -28,7 +28,7 @@ sources:
   - titre: "Motor Sport Magazine, « Obituaries » (février 2006, Keith Duckworth)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2006/10/obituaries/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/mike-costin.png"
+image: "/assets/partage/mike-costin.jpg"
 redirect_from: "/ingenieurs/2026/10/25/mike-costin.html"
 ---
 ## Ce qu'il a apporté

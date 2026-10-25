@@ -43,7 +43,7 @@ sources:
   - titre: "GrandPrix.com, « Alan Jenkins »"
     url: "https://grandprix.com/people/alan-jenkins.html"
 consultation: "25 octobre 2026"
-image: "/assets/partage/john-barnard.png"
+image: "/assets/partage/john-barnard.jpg"
 redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 ---
 ## La question transformée

@@ -31,7 +31,7 @@ sources:
   - titre: "Stellantis Heritage, “Lancia D50”"
     url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
 consultation: "25 October 2026"
-image: "/assets/partage/en/vittorio-jano.png"
+image: "/assets/partage/en/vittorio-jano.jpg"
 ---
 ## A special case
 

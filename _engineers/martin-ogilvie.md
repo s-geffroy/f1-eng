@@ -21,7 +21,7 @@ sources:
   - titre: "Motor Sport Magazine, “Gérard Ducarouge: the man who saved Team Lotus” (May 2015)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2015/82/chapman-demanded-loyalty-ducarouge-commanded-loyalty/"
 consultation: "25 October 2026"
-image: "/assets/partage/en/martin-ogilvie.png"
+image: "/assets/partage/en/martin-ogilvie.jpg"
 ---
 ## What he did
 

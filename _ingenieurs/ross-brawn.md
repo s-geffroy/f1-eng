@@ -30,7 +30,7 @@ sources:
   - titre: "Formula 1, « 'We owe a lot to Ross' – Team bosses pay tribute to Brawn »"
     url: "https://www.formula1.com/en/latest/article/we-owe-a-lot-to-ross-team-bosses-pay-tribute-to-brawn-as-he-steps-back-from.4Szws6BnZRQ5FQvHLjs8Sh"
 consultation: "25 octobre 2026"
-image: "/assets/partage/ross-brawn.png"
+image: "/assets/partage/ross-brawn.jpg"
 redirect_from: "/ingenieurs/2026/10/25/ross-brawn.html"
 ---
 ## Ce qu'il a changé

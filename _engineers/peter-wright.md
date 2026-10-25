@@ -25,7 +25,7 @@ sources:
   - titre: "Motor Sport Magazine, “Mission: Improbable” (April 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
 consultation: "25 October 2026"
-image: "/assets/partage/en/peter-wright.png"
+image: "/assets/partage/en/peter-wright.jpg"
 ---
 ## A historical correction
 

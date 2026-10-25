@@ -23,7 +23,7 @@ sources:
   - titre: "Motor Sport Magazine, “New Tyrrell book launched by Jackie Stewart and other team members” (2023)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2023/16/new-tyrrell-book-launched-by-jackie-stewart-and-other-team-members/"
 consultation: "25 October 2026"
-image: "/assets/partage/en/jean-claude-migeot.png"
+image: "/assets/partage/en/jean-claude-migeot.jpg"
 ---
 ## What he changed
 

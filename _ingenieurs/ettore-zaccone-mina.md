@@ -15,7 +15,7 @@ sources:
   - titre: "Motor Sport Magazine, « Too good for their own good? » (avril 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/ettore-zaccone-mina.png"
+image: "/assets/partage/ettore-zaccone-mina.jpg"
 ---
 ## Ce qu'il a fait
 

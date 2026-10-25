@@ -32,7 +32,7 @@ sources:
   - titre: "Autosport, « Mauro Forghieri obituary: Legendary Ferrari F1 designer dies at 87 »"
     url: "https://autosport.com/all/news/legendary-ferrari-f1-designer-mauro-forghieri-dies-at-87/10394065/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/mauro-forghieri.png"
+image: "/assets/partage/mauro-forghieri.jpg"
 redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
 ## Ingénierie totale

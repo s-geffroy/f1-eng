@@ -42,7 +42,7 @@ sources:
   - titre: "Autosport, “Byrne stays at Ferrari for two more years” (2006)"
     url: "https://www.autosport.com/f1/news/byrne-stays-at-ferrari-for-two-more-years-4405596/4405596/"
 consultation: "25 October 2026"
-image: "/assets/partage/en/rory-byrne.png"
+image: "/assets/partage/en/rory-byrne.jpg"
 ---
 ## What he contributed
 

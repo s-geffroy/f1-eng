@@ -21,7 +21,7 @@ sources:
   - titre: "Joe Saward, GrandPrix.com, “News feature: Inside Stewart Grand Prix”"
     url: "https://www.grandprix.com/features/joe-saward/news-feature-inside-stewart-grand-prix.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/alan-jenkins.png"
+image: "/assets/partage/en/alan-jenkins.jpg"
 ---
 ## What he did
 

@@ -19,7 +19,7 @@ sources:
   - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : Fittipaldi F6 » (août 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2005/68/x-ray-spec-fittipaldi-f6/"
 consultation: "25 octobre 2026"
-image: "/assets/partage/ralph-bellamy.png"
+image: "/assets/partage/ralph-bellamy.jpg"
 ---
 ## Ce qu'il a fait
 

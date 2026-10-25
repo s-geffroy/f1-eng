@@ -30,7 +30,7 @@ sources:
   - titre: "Motor Sport Magazine, “Lotus 78: F1's first true ground effect car” (February 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
 consultation: "25 October 2026"
-image: "/assets/partage/en/tony-rudd.png"
+image: "/assets/partage/en/tony-rudd.jpg"
 ---
 ## What he contributed
 

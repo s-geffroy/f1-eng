@@ -23,7 +23,7 @@ sources:
   - titre: "Joe Saward, GrandPrix.com, “Interview: Bernard Dudot” (1992)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot-2.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/bernard-dudot.png"
+image: "/assets/partage/en/bernard-dudot.jpg"
 ---
 ## What he changed
 

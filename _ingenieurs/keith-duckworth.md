@@ -27,7 +27,7 @@ sources:
   - titre: "Motor Sport Magazine, « Lancia D50 re-creations nearing completion » (octobre 1999)"
     url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
 consultation: "25 octobre 2026"
-image: "/assets/partage/keith-duckworth.png"
+image: "/assets/partage/keith-duckworth.jpg"
 redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
 ---
 ## La question transformée

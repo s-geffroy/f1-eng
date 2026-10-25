@@ -43,7 +43,7 @@ sources:
   - titre: "GrandPrix.com, “Alan Jenkins”"
     url: "https://grandprix.com/people/alan-jenkins.html"
 consultation: "25 October 2026"
-image: "/assets/partage/en/john-barnard.png"
+image: "/assets/partage/en/john-barnard.jpg"
 ---
 ## The question transformed
 

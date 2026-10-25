@@ -25,7 +25,7 @@ sources:
   - titre: "Formula 1, « Mercedes announce engine chief Andy Cowell is to leave the team »"
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
 consultation: "25 octobre 2026"
-image: "/assets/partage/andy-cowell.png"
+image: "/assets/partage/andy-cowell.jpg"
 redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 ---
 ## Ce qu'il a réalisé
