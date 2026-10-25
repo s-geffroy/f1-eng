@@ -1,5 +1,7 @@
 // Deck « Les ingénieurs qui ont révolutionné la Formule 1 » — storyboard §13 de la spec.
 const pptxgen = require("pptxgenjs");
+const fs = require("fs");
+const path = require("path");
 // node build.js        -> .pptx (pptxgenjs)
 // node build.js pdf    -> .pdf  (mêmes appels, rejoués par pdf-recorder.js avec pdfkit)
 const MODE = process.argv[2] || "pptx";
@@ -75,12 +77,25 @@ function cartouche(s, rang, tier, score, conf) {
   });
   s.addShape(pres.shapes.RECTANGLE, { x: W - M - total, y, w: total, h, fill: { type: "none" }, line: { color: C.ink, width: 2 } });
 }
+// Portraits : préparés par portraits.js (niveaux de gris, recadrés), crédits lus dans le site.
+const PORTRAITS = path.join(__dirname, "portraits");
+const CREDITS = JSON.parse(fs.readFileSync(path.join(PORTRAITS, "credits.json"), "utf8"));
+function portrait(s, id, x, y, w, h) {
+  const c = CREDITS[id];
+  if (!c) return;
+  s.addImage({ path: path.join(PORTRAITS, id + ".jpg"), x, y, w, h });
+  s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { type: "none" }, line: { color: C.ink, width: 2 } });
+  (s.photos = s.photos || []).push(c);
+}
 function footer(s, keys) {
-  const t = "Sources : " + keys.map(k => SRC[k][0]).join(" · ");
+  const parts = keys.length ? ["Sources : " + keys.map(k => SRC[k][0]).join(" · ")] : [];
+  for (const c of s.photos || []) parts.push(`Photo : ${c.auteur} (${c.licence}, Wikimedia Commons)`);
+  const t = parts.join(" · ");
   s.addText(t, { x: M, y: 7.0, w: W - 2 * M - 0.8, h: 0.3, fontFace: FS, fontSize: 9, color: C.sub, italic: true });
 }
 function notes(s, { idee, faits, nuance, sources }) {
-  const src = (sources || []).map(k => `- ${SRC[k][0]} : ${SRC[k][1]}`).join("\n");
+  const src = (sources || []).map(k => `- ${SRC[k][0]} : ${SRC[k][1]}`)
+    .concat((s.photos || []).map(c => `- Photo : ${c.auteur}, ${c.licence} : ${c.source}`)).join("\n");
   s.addNotes(
     `IDÉE À DÉFENDRE\n${idee}\n\nFAITS\n${faits.map(f => "- " + f).join("\n")}\n\nNUANCE HISTORIOGRAPHIQUE\n${nuance}` +
     (src ? `\n\nSOURCES\n${src}\n${CONSULT}` : "")
@@ -246,13 +261,14 @@ const fr = v => v.toFixed(1).replace(".", ",");
   const s = newSlide(7);
   title(s, "Trois ruptures, une philosophie : architecture + légèreté + aéro", "Colin Chapman");
   cartouche(s, 1, "A", "96,0", "Élevée");
+  portrait(s, "colin-chapman", 10.93, 1.95, 1.8, 2.45);
   const cols = [["Lotus 25", "Monocoque aluminium"], ["Lotus 49", "Moteur élément structurel"], ["Lotus 78 / 79", "Programme effet de sol"]];
   cols.forEach(([car, t], i) => {
-    const x = M + i * 4.1;
-    s.addShape(pres.shapes.RECTANGLE, { x, y: 2.0, w: 3.8, h: 2.4, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
-    s.addShape(pres.shapes.RECTANGLE, { x, y: 2.0, w: 3.8, h: 0.08, fill: { color: C.A }, line: { color: C.A } });
-    s.addText(car, { x, y: 2.3, w: 3.8, h: 0.8, fontFace: F, fontSize: 26, bold: true, color: C.ink, align: "center" });
-    s.addText(t, { x, y: 3.2, w: 3.8, h: 0.8, fontFace: F, fontSize: 17, color: C.sub, align: "center" });
+    const x = M + i * 3.42, w = 3.2;
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w, h: 2.45, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w, h: 0.08, fill: { color: C.A }, line: { color: C.A } });
+    s.addText(car, { x, y: 2.3, w, h: 0.8, fontFace: F, fontSize: 26, bold: true, color: C.ink, align: "center" });
+    s.addText(t, { x, y: 3.2, w, h: 0.8, fontFace: F, fontSize: 17, color: C.sub, align: "center" });
   });
   s.addShape(pres.shapes.RECTANGLE, { x: M, y: 4.9, w: W - 2 * M, h: 1.0, fill: { color: C.bg }, line: { color: C.A, width: 1.5, dashType: "dash" } });
   s.addText([{ text: "Attribution partagée : ", options: { bold: true } }, { text: "Wright / Rudd pour l'effet de sol." }],
@@ -271,14 +287,15 @@ const fr = v => v.toFixed(1).replace(".", ",");
   const s = newSlide(8);
   title(s, "Deux innovations indépendantes devenues universelles", "John Barnard");
   cartouche(s, 2, "A", "95,0", "Très élevée");
+  portrait(s, "john-barnard", 10.93, 1.95, 1.8, 2.45);
   [["1981", "McLaren MP4/1", "Monocoque intégral en carbone"], ["1989", "Ferrari 640", "Boîte semi-automatique au volant"]].forEach(([yr, car, t], i) => {
-    const x = M + i * 6.15;
-    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w: 5.9, h: 3.6, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
-    s.addText(yr, { x, y: 2.15, w: 5.9, h: 1.1, fontFace: F, fontSize: 54, bold: true, color: C.A, align: "center" });
-    s.addText(car, { x, y: 3.35, w: 5.9, h: 0.7, fontFace: F, fontSize: 24, bold: true, color: C.ink, align: "center" });
-    s.addText(t, { x, y: 4.1, w: 5.9, h: 0.7, fontFace: F, fontSize: 18, color: C.sub, align: "center" });
+    const x = M + i * 5.1, w = 4.9;
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.95, w, h: 3.4, fill: { color: C.white }, line: { color: C.ink, width: 1.5 } });
+    s.addText(yr, { x, y: 2.1, w, h: 1.1, fontFace: F, fontSize: 54, bold: true, color: C.A, align: "center" });
+    s.addText(car, { x, y: 3.3, w, h: 0.7, fontFace: F, fontSize: 24, bold: true, color: C.ink, align: "center" });
+    s.addText(t, { x, y: 4.05, w, h: 0.7, fontFace: F, fontSize: 18, color: C.sub, align: "center" });
   });
-  s.addText("La paternité personnelle la plus nette : le principal challenger de Chapman.", { x: M, y: 5.6, w: W - 2 * M, h: 0.4, fontFace: FS, fontSize: 17, italic: true, color: C.ink, align: "center" });
+  s.addText("La paternité personnelle la plus nette : le principal challenger de Chapman.", { x: M, y: 5.5, w: 10.0, h: 0.4, fontFace: FS, fontSize: 17, italic: true, color: C.ink, align: "center" });
   footer(s, ["mp41", "barnard", "f1990"]);
   notes(s, {
     idee: "Barnard porte deux ruptures indépendantes, directement attribuables, toutes deux devenues des standards.",
@@ -349,8 +366,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
   const s = newSlide(11);
   title(s, "Le génie de Newey est la répétition, pas le coup unique", "Adrian Newey");
   cartouche(s, 5, "A", "91,5", "Très élevée");
+  portrait(s, "adrian-newey", 10.93, 1.95, 1.8, 2.45);
   const teams = ["Leyton House", "Williams", "McLaren", "Red Bull"];
-  const y = 3.0, x0 = M + 0.6, x1 = W - M - 0.6;
+  const y = 3.0, x0 = M + 1.0, x1 = 9.5;
   s.addShape(pres.shapes.LINE, { x: x0, y, w: x1 - x0, h: 0, line: { color: C.ink, width: 2 } });
   teams.forEach((t, i) => {
     const x = x0 + (i * (x1 - x0)) / (teams.length - 1);
@@ -358,7 +376,7 @@ const fr = v => v.toFixed(1).replace(".", ",");
     s.addText(t, { x: x - 1.3, y: y - 0.85, w: 2.6, h: 0.5, fontFace: F, fontSize: 20, bold: true, color: C.ink, align: "center" });
     s.addText("règlement " + (i + 1), { x: x - 1.3, y: y + 0.25, w: 2.6, h: 0.4, fontFace: F, fontSize: 12, color: C.sub, align: "center" });
   });
-  s.addText("Règlements différents, même compétence : contrôle du système aérodynamique.", { x: M, y: 4.3, w: W - 2 * M, h: 0.7, fontFace: F, fontSize: 20, color: C.ink, align: "center" });
+  s.addText("Règlements différents, même compétence : contrôle du système aérodynamique.", { x: M, y: 4.3, w: 10.0, h: 0.7, fontFace: F, fontSize: 20, color: C.ink, align: "center" });
   footer(s, ["innov", "newey", "f1990"]);
   notes(s, {
     idee: "Ne pas chercher « l'invention Newey » : son apport est une méthode systémique, démontrée sous plusieurs règlements et dans plusieurs équipes.",
@@ -372,6 +390,9 @@ const fr = v => v.toFixed(1).replace(".", ",");
 {
   const s = newSlide(12);
   title(s, "Pourquoi Chapman devant Barnard ?", "Le vrai débat pour la première place");
+  portrait(s, "colin-chapman", M, 1.9, 1.4, 1.9);
+  portrait(s, "john-barnard", W - M - 1.4, 1.9, 1.4, 1.9);
+  footer(s, []);
   const hdr = { bold: true, color: C.white, fill: { color: C.ink }, align: "center" };
   const rows = [
     [{ text: "Critère", options: { ...hdr, align: "left" } }, { text: "Chapman", options: hdr }, { text: "Barnard", options: hdr }],

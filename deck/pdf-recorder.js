@@ -20,6 +20,7 @@ function create() {
         addText: (text, o) => ops.push({ k: "text", text, o }),
         addShape: (type, o) => ops.push({ k: "shape", type, o }),
         addTable: (rows, o) => ops.push({ k: "table", rows, o }),
+        addImage: o => ops.push({ k: "image", o }),
         addNotes: () => {},
       };
       slides.push({ slide, ops });
@@ -48,6 +49,7 @@ function create() {
           if (op.k === "shape") drawShape(doc, op.type, op.o);
           else if (op.k === "text") drawText(doc, op.text, op.o);
           else if (op.k === "table") drawTable(doc, op.rows, op.o);
+          else if (op.k === "image") doc.image(op.o.path, op.o.x * PT, op.o.y * PT, { width: op.o.w * PT, height: op.o.h * PT });
         }
       }
       doc.end();
