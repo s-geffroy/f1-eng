@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Tony Rudd : aux origines du programme effet de sol"
+date: 2026-10-25
+categories: ingenieurs
+---
+
+**Rang 15 · Tier C · 79/100** · Confiance : moyenne à élevée
+
+*Le score est un instrument comparatif, pas un fait historique. Voir la [méthode du classement]({% post_url 2026-10-25-methode-classement-ingenieurs-f1 %}).*
+
+## Ce qu'il a apporté
+
+Tony Rudd joue un rôle déterminant dans les recherches aérodynamiques menées chez **BRM**, puis dans le programme **Lotus** qui mène aux Lotus 78 et 79. Avec [Peter Wright]({% post_url 2026-10-25-peter-wright %}), il fait partie de ceux à qui [Colin Chapman]({% post_url 2026-10-25-colin-chapman %}) demande de repenser la configuration fondamentale d'une F1.
+
+## Pourquoi derrière Wright
+
+Sa contribution directe à la solution finale est **plus difficile à isoler** que celle de Wright. La méthode ne crédite pas deux fois la même contribution : Rudd est placé en Tier C, Wright en Tier B.
+
+## Sources
+
+Consultées le 9 août 2026.
+
+- Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+
+---
+
+[Tiers B, C et D]({% post_url 2026-10-25-tiers-b-c-d-ingenieurs-f1 %}) · [Classement complet]({% post_url 2026-10-25-classement-final-ingenieurs-f1 %})
