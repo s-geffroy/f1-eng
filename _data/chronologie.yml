@@ -405,7 +405,7 @@ jalons:
     annee: 1993
     voie: "methode"
     titre: "La simulation numérique des écoulements"
-    texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. En 1993, l'équipe s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent."
+    texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. En 1993, l'équipe s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent. La primauté n'est pas établie : GrandPrix.com présente Geoff Willis, chez Leyton House en 1990, comme le premier ingénieur à utiliser la CFD en F1, quand formula1.com n'y voit alors qu'un projet de recherche."
     entrees: []
     termes: [cao]
     sources:
@@ -413,6 +413,10 @@ jalons:
         url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
       - titre: "Racecar Engineering, « Renault F1 extends Fluent relations » (mai 2004)"
         url: "https://www.racecar.com/news/6225/motorsport/renault-f1-extends-fluent-relations"
+      - titre: "GrandPrix.com, « Geoff Willis » (fiche biographique, non datée)"
+        url: "https://www.grandprix.com/people/geoff-willis.html"
+      - titre: "Formula1.com, « Tech Tuesday: France flashback – how F1 looked in 1990 » (juin 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
 
   - id: "boite-sans-coupure"
     annee: 2005

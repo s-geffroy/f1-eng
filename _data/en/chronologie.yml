@@ -405,7 +405,7 @@ jalons:
     annee: 1993
     voie: "methode"
     titre: "Computational fluid dynamics"
-    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. In 1993 the team teamed up with Fluent, a CFD software company, as commercial codes improved."
+    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. In 1993 the team teamed up with Fluent, a CFD software company, as commercial codes improved. Precedence is not established: GrandPrix.com presents Geoff Willis, at Leyton House in 1990, as the first engineer to use CFD in F1, while formula1.com saw it then as only a research project."
     entrees: []
     termes: [cao]
     sources:
@@ -413,6 +413,10 @@ jalons:
         url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
       - titre: "Racecar Engineering, “Renault F1 extends Fluent relations” (May 2004)"
         url: "https://www.racecar.com/news/6225/motorsport/renault-f1-extends-fluent-relations"
+      - titre: "GrandPrix.com, “Geoff Willis” (biographical profile, undated)"
+        url: "https://www.grandprix.com/people/geoff-willis.html"
+      - titre: "Formula1.com, “Tech Tuesday: France flashback – how F1 looked in 1990” (June 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
 
   - id: "boite-sans-coupure"
     annee: 2005
