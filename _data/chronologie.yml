@@ -350,7 +350,7 @@ contexte:
     annee: 1940
     categorie: "technologie"
     titre: "Les radiateurs dans l'aile du Mosquito"
-    texte: "Le bimoteur de Havilland Mosquito vole pour la première fois le 25 novembre 1940 ; ses radiateurs sont logés dans le bord d'attaque des ailes. Selon Motor Sport, Tony Rudd, ancien motoriste de Rolls-Royce aviation, se souvient de ce montage quand Lotus cherche où placer les radiateurs de la future Lotus 78, et l'équipe teste en soufflerie des pontons conçus pour produire de l'appui."
+    texte: "Le bimoteur de Havilland Mosquito vole pour la première fois le 25 novembre 1940 ; ses radiateurs sont logés dans le bord d'attaque des ailes, de part et d'autre du fuselage, un emplacement qui réduit la traînée. Selon Motor Sport, Tony Rudd, ancien motoriste de Rolls-Royce aviation, se souvient de ce montage quand Lotus cherche où placer les radiateurs de la future Lotus 78 : enfouis dans des conduits, l'air ressortant plus en arrière. L'équipe teste en soufflerie des pontons conçus pour produire de l'appui ; essayée à l'envers, une section de maquette donne satisfaction, et l'Imperial College fait savoir à Noël : « The Mosquito flies »."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -361,19 +361,36 @@ contexte:
         url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
       - titre: "Wikipédia, « de Havilland Mosquito » (version du 23 octobre 2026)"
         url: "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+  - id: "formule-500"
+    annee: 1946
+    categorie: "reglement"
+    titre: "La formule 500 cm³ du 500 Club"
+    texte: "En décembre 1945, à Bristol, des passionnés fondent le 500 Club et rédigent une formule de petites monoplaces de 500 cm³ adaptée aux restrictions de l'après-guerre. Charles et John Cooper, garagistes du Surrey, s'y engagent avec un prototype dont le moteur est placé derrière le pilote, « par commodité autant que pour toute autre raison », selon Motor Sport."
+    liens:
+      - jalon: "cooper-500"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "La formule du 500 Club crée la catégorie pour laquelle les Cooper construisent leur prototype ; la source ne dit pas que le moteur arrière découle du règlement (Damien Smith)."
+    sources:
+      - titre: "Motor Sport, Damien Smith, « One-pot dictator » (juillet 2004)"
+        url: "https://www.motorsportmagazine.com/archive/article/july-2004/88/one-pot-dictator/"
   - id: "championnat-1950"
     annee: 1950
     categorie: "economie"
     titre: "Premier championnat du monde"
-    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre."
+    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. Son règlement reprend celui de 1947 : moteurs atmosphériques de 4,5 litres ou moteurs suralimentés de 1,5 litre, hérités de la catégorie voiturette d'avant-guerre. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre, née en 1937 comme voiturette, dont le huit-cylindres en ligne à compresseur dépasse désormais 400 ch. Face à des Maserati, ERA, Talbot et Alta vieillissantes, Farina, Fagioli et Parnell offrent à Alfa Romeo les trois premières places."
     sources:
       - titre: "Formula 1, « 10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj"
+      - titre: "Formula 1, David Tremayne, « Why is it called Formula 1 – and 12 other questions about the championship’s origins » (mai 2020)"
+        url: "https://www.formula1.com/en/latest/article/why-is-it-called-formula-1-and-12-other-questions-about-the-championships.1GHeel6u4jga6hMpX2eFs1"
+      - titre: "Formula 1, Mark Hughes, « Under the bodywork of the Alfa Romeo ‘Alfetta’ – 70 years after it won the first ever F1 race » (mai 2020)"
+        url: "https://www.formula1.com/en/latest/article/under-bodywork-of-the-alfa-romeo-alfetta-70-years-after-it-won-the-first.3pnyQUiSHqUdEN3Dk85nnq.html"
   - id: "formule-2-5-litres"
     annee: 1954
     categorie: "reglement"
     titre: "La formule 2,5 litres"
-    texte: "En 1954 entre en vigueur une nouvelle Formule 1 à moteurs de 2,5 litres. Elle suscite des voitures neuves aux conceptions très éloignées, dont la Lancia D50 et la Mercedes W196, si différentes qu'on avait peine à croire qu'elles répondaient au même règlement."
+    texte: "En 1954 entre en vigueur une nouvelle Formule 1 à moteurs de 2,5 litres. Elle suscite des voitures neuves aux conceptions très éloignées, dont la Lancia D50 et la Mercedes W196, si différentes qu'on avait peine à croire qu'elles répondaient au même règlement. La Mercedes, longue et carénée, combine treillis tubulaire, injection et soupapes desmodromiques ; elle gagne 11 de ses 14 courses en 1954-1955. La Lancia, courte, porte ses réservoirs en nacelles entre les roues, ce qui stabilise la répartition des masses quand le carburant baisse et améliore l'aérodynamique ; son V8, élément de la structure du châssis, est décalé de huit degrés pour abaisser le pilote."
     liens:
       - jalon: "lancia-d50"
         mecanisme: "ouvre"
@@ -386,7 +403,7 @@ contexte:
     annee: 1954
     categorie: "technologie"
     titre: "La Jaguar D-Type et la monocoque d'avion"
-    texte: "La Jaguar D-Type, voiture de sport produite à partir de 1954, applique des techniques aéronautiques, dont une section centrale monocoque en tôles d'alliage d'aluminium. Doug Nye la cite parmi les précédents de la Lotus 25 et rappelle que la monocoque était depuis cinquante ans l'élément structurel majeur de l'aéronautique ; chez Lotus, Mike Costin, venu de l'industrie aéronautique, conseille l'assemblage riveté de la coque."
+    texte: "La Jaguar D-Type, voiture de sport produite à partir de 1954 pour gagner les 24 Heures du Mans, applique des techniques aéronautiques : son aérodynamicien Malcolm Sayer vient de la Bristol Aeroplane Company, et sa section centrale monocoque en tôles d'alliage d'aluminium, de section elliptique et réduite, allie rigidité en torsion et faible traînée. Elle gagne au Mans en 1955, 1956 et 1957. Doug Nye la cite parmi les précédents de la Lotus 25 et rappelle que la monocoque était depuis cinquante ans l'élément structurel majeur de l'aéronautique ; en course, le treillis tubulaire reste pourtant la règle jusqu'en 1962. Chez Lotus, Mike Costin, venu de l'industrie aéronautique, conseille l'assemblage riveté de la coque."
     liens:
       - jalon: "lotus-25"
         mecanisme: "transfert"
@@ -399,11 +416,47 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
       - titre: "Wikipédia, « Jaguar D-Type » (version du 18 août 2026)"
         url: "https://en.wikipedia.org/wiki/Jaguar_D-Type"
+  - id: "formule-2-1957"
+    annee: 1957
+    categorie: "reglement"
+    titre: "La Formule 2 de 1,5 litre"
+    texte: "De 1957 à 1960, une nouvelle Formule 2 limite les moteurs à 1 500 cm³. Selon Motor Sport, elle est « un cadeau » pour la nouvelle Cooper-Climax à moteur central. Conçues pour cette catégorie, les Cooper deviennent de plus en plus compétitives en F1 à mesure que leur moteur s'approche des 2,5 litres permis : avec 2 495 cm³, elles égalent au moins les meilleures voitures de conception classique."
+    liens:
+      - jalon: "cooper-argentine"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "La Cooper de Moss est une Formule 2 adaptée, au moteur porté à 2 litres et configurée pour des courses courtes, sans arrêt au stand (Mark Hughes)."
+      - jalon: "cooper-titres"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Conçues pour la limite de 1 500 cm³ de la Formule 2, les Cooper sont au moins au niveau des meilleures F1 une fois dotées d'un moteur de 2 495 cm³ (Motor Sport)."
+    sources:
+      - titre: "Formula1.com, Mark Hughes, « Argentina '58: Moss bluffs his way to victory – and ushers in new era » (avril 2020)"
+        url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
+      - titre: "Motor Sport, « From the archives – Cooper » (mai 1991)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-1991/29/from-the-archives-cooper/"
+  - id: "carburant-commercial-1958"
+    annee: 1958
+    categorie: "reglement"
+    titre: "Le carburant du commerce obligatoire"
+    texte: "En 1958, le règlement remplace les mélanges à base d'alcool par l'essence du commerce. Vanwall et BRM n'ont pas adapté leurs moteurs à temps pour le Grand Prix d'Argentine, et Vanwall libère Stirling Moss, qui court sur la petite Cooper de Rob Walker. À cause de la chaleur, la course est en outre raccourcie de 400 à 313 km."
+    liens:
+      - jalon: "cooper-argentine"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Faute de moteurs Vanwall adaptés au nouveau carburant, Moss est libre de piloter la Cooper de Rob Walker en Argentine (Mark Hughes)."
+    sources:
+      - titre: "Formula1.com, Mark Hughes, « Argentina '58: Moss bluffs his way to victory – and ushers in new era » (avril 2020)"
+        url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
+      - titre: "Wikipédia, « 1958 Argentine Grand Prix » (consulté en octobre 2026)"
+        url: "https://en.wikipedia.org/wiki/1958_Argentine_Grand_Prix"
+      - titre: "Goodwood, Russell Campbell, « Cooper T43: Formula 1's groundbreaking rear-engined winner » (mai 2025)"
+        url: "https://www.goodwood.com/grr/f1/cooper-t43-formula-1s-groundbreaking-rear-engined-winner/"
   - id: "carbone-farnborough"
     annee: 1963
     categorie: "technologie"
     titre: "La fibre de carbone du Royal Aircraft Establishment"
-    texte: "En 1963, W. Watt, L. N. Phillips et W. Johnson mettent au point au Royal Aircraft Establishment de Farnborough un procédé qui révèle le potentiel de résistance de la fibre de carbone, ensuite exploitée par l'industrie aéronautique. Le lien avec la McLaren MP4/1 reste indirect : John Barnard dit avoir eu l'idée d'une coque en carbone en voyant British Aerospace fabriquer en composite carbone le capot du réacteur Rolls-Royce RB211."
+    texte: "En 1963, W. Watt, L. N. Phillips et W. Johnson mettent au point au Royal Aircraft Establishment de Farnborough un procédé qui révèle le potentiel de résistance de la fibre de carbone. Breveté par le ministère britannique de la Défense et concédé notamment à Rolls-Royce, il est ensuite exploité par l'industrie aéronautique. Le lien avec la McLaren MP4/1 reste indirect : John Barnard dit avoir eu l'idée d'une coque en carbone en voyant British Aerospace fabriquer en composite carbone le capot du réacteur Rolls-Royce RB211. Il cherchait une coque étroite, pour agrandir le soubassement à effet de sol, sans perte de rigidité ; la MP4/1 gagne dès le Grand Prix de Grande-Bretagne 1981."
     liens:
       - jalon: "mp4-1"
         mecanisme: "transfert"
@@ -420,7 +473,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Les ailerons des Chaparral"
-    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
+    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Partie d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -435,11 +488,13 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
       - titre: "Goodwood, Damien Smith, « Winging it: When F1 really started to fly » (mars 2025)"
         url: "https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/"
+      - titre: "Motor Sport, Paul Fearnley, « Chaparral and Jim Hall's techno brilliance: when America took the lead in racing innovation » (novembre 2003)"
+        url: "https://www.motorsportmagazine.com/archive/article/november-2003/38/jim-hall-its-safe-to-say-was-ahead-of-the-techno-game"
   - id: "formule-3-litres"
     annee: 1966
     categorie: "reglement"
     titre: "Le « retour à la puissance » : la formule 3 litres"
-    texte: "En 1966, la cylindrée des moteurs atmosphériques double pour passer à 3 litres ; annoncé trois ans plus tôt, le changement trouve pourtant beaucoup d'équipes mal préparées. Coventry Climax s'étant retiré fin 1965, les équipes britanniques manquent d'un moteur vendu à tous, vide que viendra combler le Cosworth DFV."
+    texte: "En 1966, la cylindrée des moteurs atmosphériques double pour passer à 3 litres ; annoncé trois ans plus tôt, le changement trouve pourtant beaucoup d'équipes mal préparées. Coventry Climax s'étant retiré fin 1965, les équipes britanniques manquent d'un moteur vendu à tous : Cooper se rabat sur des V12 Maserati, Lotus sur un Climax de 2 litres puis sur le H16 de BRM, complexe et lourd. Jack Brabham est champion avec un V8 Repco dérivé d'un bloc Oldsmobile, moins puissant mais fiable. Le vide sera comblé par le Cosworth DFV, financé par Ford pour 100 000 livres à l'initiative de Walter Hayes."
     liens:
       - jalon: "dfv"
         mecanisme: "ouvre"
@@ -454,15 +509,32 @@ contexte:
     annee: 1966
     categorie: "securite"
     titre: "Accident de Jackie Stewart à Spa et campagne pour la sécurité"
-    texte: "Au Grand Prix de Belgique 1966, Jackie Stewart reste longtemps coincé dans sa BRM, imbibé de carburant, et doit être dégagé par Graham Hill et Bob Bondurant faute de commissaires. Il fait ensuite campagne pour la sécurité, d'abord avec peu de soutien des circuits et de l'autorité sportive. Côté voiture, il exige dès 1967 des ceintures de sécurité dans sa BRM, alors que l'arceau rudimentaire, obligatoire depuis 1961, était à peu près la seule exigence."
+    texte: "Au Grand Prix de Belgique 1966, Jackie Stewart reste longtemps coincé dans sa BRM, imbibé de carburant, et doit être dégagé par Graham Hill et Bob Bondurant faute de commissaires. Il fait ensuite campagne pour la sécurité, d'abord avec peu de soutien des circuits et de l'autorité sportive ; il réclame casques intégraux, ceintures obligatoires, services médicaux et, après la mort de Jim Clark en 1968, des rails Armco pour éloigner les voitures des arbres. Côté voiture, il exige dès 1967 des ceintures de sécurité dans sa BRM, alors que l'arceau rudimentaire, obligatoire depuis 1961, était à peu près la seule exigence."
     sources:
       - titre: "Motor Sport Magazine, « A year of living dangerously » (août 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/august-2010/46/a-year-of-living-dangerously/"
+      - titre: "Formula 1, Katy Roberts, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
+        url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
+  - id: "formule-2-1600"
+    annee: 1967
+    categorie: "reglement"
+    titre: "La Formule 2 de 1,6 litre"
+    texte: "Le 1er janvier 1967 entre en vigueur une Formule 2 limitée à 1 600 cm³, dont le bloc-cylindres doit provenir d'une voiture de série produite à au moins 500 exemplaires en 22 mois. Cosworth y répond par le FVA, dessiné autour du bloc de la Ford Cortina. Le projet commun annoncé avec Ford couvre aussi un moteur de F1 : le DFV, formé de deux culasses de FVA sur un bloc commun."
+    liens:
+      - jalon: "dfv-fva"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Le FVA est conçu pour la limite de 1 600 cm³ de la nouvelle Formule 2, qui impose un bloc de série : Cosworth part de celui de la Ford Cortina (Mike Doodson, Denis Jenkinson)."
+    sources:
+      - titre: "Motor Sport, Mike Doodson, « Keith Duckworth » (janvier 1970)"
+        url: "https://www.motorsportmagazine.com/archive/article/january-1970/41/keith-duckworth"
+      - titre: "Motor Sport, Denis Jenkinson, « Prospects for Formula Two » (mars 1967)"
+        url: "https://www.motorsportmagazine.com/archive/article/march-1967/16/prospects-for-formula-two/"
   - id: "dfv-clients-1968"
     annee: 1968
     categorie: "economie"
     titre: "Le DFV en vente libre"
-    texte: "Pour 1968, Lotus perd l'exclusivité du Cosworth DFV, financé par Ford ; Walter Hayes, chez Ford, juge que le moteur tuerait la compétition s'il n'était pas partagé. Matra, engagée par Ken Tyrrell, et McLaren en sont les premiers clients, et dès 1969 deux tiers des voitures du plateau en sont équipées. Vendu à un prix abordable, il ouvre l'ère dite des « kit cars », où des équipes sans motoriste associent leur propre châssis à un moteur acheté."
+    texte: "Pour 1968, Lotus perd l'exclusivité du Cosworth DFV, financé par Ford ; Walter Hayes, chez Ford, juge que le moteur tuerait la compétition s'il n'était pas partagé. Matra, engagée par Ken Tyrrell (un moyen de garder Jackie Stewart chez Ford), et McLaren en sont les premiers clients, et dès 1969 deux tiers des voitures du plateau en sont équipées. Léger, rigide et court, il sert aussi d'élément porteur du châssis. Vendu à un prix abordable, il ouvre l'ère dite des « kit cars », où des équipes sans motoriste associent leur propre châssis à un moteur acheté et à une boîte Hewland ; il faut attendre 1975 pour qu'une voiture sans DFV soit championne."
     liens:
       - jalon: "dfv"
         mecanisme: "ouvre"
@@ -479,7 +551,7 @@ contexte:
     annee: 1968
     categorie: "economie"
     titre: "La publicité hors automobile"
-    texte: "Après le départ de commanditaires historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, mais Motor Sport rappelle que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes trouvent là un financement indépendant des industriels de l'automobile."
+    texte: "La F1, devenue plus technique et plus coûteuse, ne peut plus vivre sans commanditaires. Après le départ de commanditaires historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, d'Imperial Tobacco, que les restrictions sur la publicité télévisée poussent vers le sport ; le rouge, blanc et or remplace le vert et jaune national. Motor Sport rappelle que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes trouvent là un financement indépendant des industriels de l'automobile."
     sources:
       - titre: "Sports Car Digest, « Gold Leaf Team Lotus: The Deal and the First Glory » (avril 2024)"
         url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
@@ -489,7 +561,7 @@ contexte:
     annee: 1969
     categorie: "reglement"
     titre: "Les ailerons sur supports hauts interdits"
-    texte: "Au Grand Prix d'Espagne 1969, les deux Lotus 49 d'usine sortent violemment de la piste après la rupture de leurs ailerons. La CSI réunit une séance d'urgence pendant le week-end de Monaco et interdit aussitôt les ailerons non réglementés, malgré les équipes qui jugeaient leurs voitures conçues autour de ces appendices."
+    texte: "Depuis 1968, Lotus fixe ses ailerons sur de longs supports reliés à la suspension arrière, pour transmettre l'appui directement aux roues, et toutes les équipes l'imitent, certaines ajoutant un aileron au-dessus du nez. Au Grand Prix d'Espagne 1969, les deux Lotus 49 d'usine sortent violemment de la piste après la rupture de leurs ailerons. La CSI réunit une séance d'urgence pendant le week-end de Monaco et interdit aussitôt les ailerons non réglementés, malgré les équipes qui jugeaient leurs voitures conçues autour de ces appendices. Graham Hill gagne à Monaco avec un arrière en coin improvisé ; dès le Grand Prix des Pays-Bas, les équipes essaient des ailerons intégrés à la carrosserie."
     liens:
       - jalon: "ailerons"
         mecanisme: "provoque"
@@ -502,11 +574,13 @@ contexte:
     sources:
       - titre: "Motor Sport Magazine, « 1969 F1 World Championship » (base de données, non datée)"
         url: "https://motorsportmagazine.com/database/championships/1969-f1-world-championship"
+      - titre: "Goodwood, Damien Smith, « Winging it: When F1 really started to fly » (mars 2025)"
+        url: "https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/"
   - id: "chaparral-2j"
     annee: 1970
     categorie: "technologie"
     titre: "La Chaparral 2J aspirante"
-    texte: "En Can-Am, la Chaparral 2J de 1970 utilise deux ventilateurs entraînés par un moteur auxiliaire pour aspirer l'air sous la voiture, avant d'être exclue de la série. Les sources divergent sur sa filiation avec la Brabham BT46B : Motor Sport la présente comme l'inspiration et cite Gordon Murray (« le concept de base, oui, il vient de là »), tandis que Goodwood juge l'influence incertaine."
+    texte: "En Can-Am, la Chaparral 2J de 1970 utilise deux ventilateurs entraînés par un moteur auxiliaire pour aspirer l'air sous la voiture. Jim Hall la présente comme une réponse à l'interdiction, pour 1970, des ailerons fixés aux moyeux ; des jupes articulées maintiennent un faible jeu avec le sol, et la voiture vire selon lui à près de 2 g. D'abord acceptée, elle est exclue de la série après les protestations des concurrents, qui y voient un dispositif aérodynamique mobile. Les sources divergent sur sa filiation avec la Brabham BT46B : Motor Sport la présente comme l'inspiration et cite Gordon Murray (« le concept de base, oui, il vient de là »), tandis que Goodwood juge l'influence incertaine."
     liens:
       - jalon: "bt46b"
         mecanisme: "transfert"
@@ -517,11 +591,15 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean"
       - titre: "Goodwood, Russell Campbell, « Too fast for Formula 1: the Brabham BT46B fan car » (mai 2025)"
         url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
+      - titre: "Motor Sport, Paul Fearnley, « Chaparral and Jim Hall's techno brilliance: when America took the lead in racing innovation » (novembre 2003)"
+        url: "https://www.motorsportmagazine.com/archive/article/november-2003/38/jim-hall-its-safe-to-say-was-ahead-of-the-techno-game"
+      - titre: "Wikipédia, « Chaparral 2J » (consulté en octobre 2026)"
+        url: "https://en.wikipedia.org/wiki/Chaparral_2J"
   - id: "imperial-tapis-roulant"
     annee: 1974
     categorie: "technologie"
     titre: "La soufflerie à tapis roulant de l'Imperial College"
-    texte: "La soufflerie de l'Imperial College, à Londres, dispose d'un tapis roulant conçu par John Stollery, ancien aérodynamicien de Donald Campbell, qui reproduit le défilement du sol sous la maquette. Les essais aéronautiques se contentaient d'un sol fixe ou d'une maquette suspendue ; c'est dans cette soufflerie que Peter Wright mène, à partir de 1974, les recherches de Lotus qui aboutissent à la Lotus 78."
+    texte: "La soufflerie de l'Imperial College, à Londres, dispose d'un tapis roulant conçu par John Stollery, ancien aérodynamicien de Donald Campbell, qui reproduit le défilement du sol sous la maquette. Les essais aéronautiques se contentaient d'un sol fixe ou d'une maquette suspendue ; c'est dans cette soufflerie que Peter Wright mène, au milieu des années 1970, les recherches de Lotus qui aboutissent à la Lotus 78, avec quelque 400 heures d'essais sur des maquettes au quart. Le tapis se soulève sous les pontons, signe d'une dépression. Selon Wright, Ferrari aurait essayé une copie de la 78 dans une soufflerie sans sol mobile et conclu que le principe ne marchait pas."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -538,7 +616,7 @@ contexte:
     annee: 1977
     categorie: "economie"
     titre: "Renault arrive avec le turbo"
-    texte: "Renault, avec son partenaire pétrolier Elf, engage la RS01 au Grand Prix de Grande-Bretagne 1977, avec un six-cylindres turbo de 1,5 litre face aux V8 et aux douze-cylindres atmosphériques. Les casses sont fréquentes au début, mais la RS10 gagne à Dijon en 1979. Au début des années 1980, face à la puissance des turbos, les équipes restées au DFV misent sur le châssis et l'effet de sol."
+    texte: "Renault, avec son partenaire pétrolier Elf, engage la RS01 au Grand Prix de Grande-Bretagne 1977, avec un six-cylindres turbo de 1,5 litre, d'abord éprouvé en endurance en version 2 litres, face aux V8 et aux douze-cylindres atmosphériques de 3 litres. Les casses sont fréquentes au début, treize en dix-sept courses, et les fumées valent à la voiture le surnom de « théière ». Mais la RS10 gagne à Dijon en 1979, sur un circuit dont l'altitude favorise le turbo. Au début des années 1980, face à la puissance des turbos, les équipes restées au DFV misent sur le châssis et l'effet de sol, avant d'adopter à leur tour des moteurs turbo."
     liens:
       - jalon: "turbo-victoire"
         mecanisme: "ouvre"
@@ -549,11 +627,38 @@ contexte:
         url: "https://theoriginals.renault.com/en/f1-rs-01"
       - titre: "Motor Sport, Nigel Roebuck, « 1980s » (mai 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
+      - titre: "Motor Sport Magazine, « Teapots, turbos and titles: Renault's wild F1 ride » (décembre 2025)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/"
+  - id: "ventilateur-ecarte-1978"
+    annee: 1978
+    categorie: "reglement"
+    titre: "La voiture à ventilateur écartée"
+    texte: "En 1978, la règle qui interdit les dispositifs aérodynamiques mobiles admet ceux dont la fonction première n'est pas aérodynamique. La Brabham BT46B s'y engouffre : son ventilateur est présenté comme servant au refroidissement du moteur. Après sa victoire en Suède, les équipes rivales, menées par Colin Chapman, protestent. Les sources divergent sur la suite : selon The Race et Goodwood, la CSI juge la voiture conforme et Bernie Ecclestone la retire de lui-même ; selon Motor Sport, la CSI l'interdit « pour raisons de sécurité ». La rédaction du règlement ne change qu'en 1979."
+    liens:
+      - jalon: "bt46b"
+        mecanisme: "contourne"
+        preuve: "etabli"
+        pourquoi: "Le ventilateur exploite la tolérance de 1978 pour les dispositifs mobiles dont la fonction première n'est pas aérodynamique (Edd Straw) : il suit la lettre du règlement, sinon son esprit (Goodwood)."
+      - jalon: "bt46b"
+        mecanisme: "provoque"
+        preuve: "etabli"
+        pourquoi: "La victoire de la BT46B déclenche les protestations des équipes rivales, menées par un Colin Chapman furieux (Adam Cooper)."
+      - jalon: "bt46b"
+        mecanisme: "ferme"
+        preuve: "discute"
+        pourquoi: "La voiture ne court plus après la Suède, mais les sources divergent : retrait volontaire par Ecclestone (The Race, Goodwood) ou interdiction par la CSI « pour raisons de sécurité » (Motor Sport)."
+    sources:
+      - titre: "The Race, Edd Straw, « Nine things you may not know about Brabham's iconic F1 fan car » (décembre 2022)"
+        url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car/"
+      - titre: "Goodwood, Russell Campbell, « Too fast for Formula 1: the Brabham BT46B fan car » (mai 2025)"
+        url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
+      - titre: "Motor Sport, Adam Cooper, « Vacuum clean-up » (mai 1998)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean"
   - id: "cranfield-commandes-de-vol"
     annee: 1980
     categorie: "technologie"
     titre: "Des commandes de vol électriques à la suspension active"
-    texte: "Partenaire de Lotus depuis 1976 pour l'instrumentation des voitures en essais, l'Institut de technologie de Cranfield développe des ressorts synthétiques pour le manche à sensation artificielle d'un avion de recherche à commandes électriques. En 1980, le professeur David Williams propose ce principe à Peter Wright : il donne la suspension active de Lotus, en course dès 1983 sur la Lotus 92. Le système Williams, lui, dérive d'un système routier d'Automotive Products."
+    texte: "Partenaire de Lotus depuis 1976 pour l'instrumentation des voitures en essais, l'Institut de technologie de Cranfield développe des ressorts synthétiques pour le manche à sensation artificielle d'un avion de recherche à commandes électriques. En 1980, Lotus ne maîtrise plus l'appui des voitures à effet de sol, quatre fois supérieur à celui de la Lotus 79 : le « marsouinage » de la Lotus 80 rappelle au professeur David Williams le flottement des ailes d'avion. Il propose alors à Peter Wright ses ressorts, des vérins hydrauliques pilotés par ordinateur qui tiennent la hauteur de caisse : ils donnent la suspension active de Lotus, en course dès 1983 sur la Lotus 92. Le système Williams, lui, dérive d'un système routier d'Automotive Products."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "transfert"
@@ -568,11 +673,28 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
       - titre: "Motor Sport, Andrew Frankel, « The Lotus that brought active suspension to F1: Colin Chapman’s last big thing » (mars 2012)"
         url: "https://www.motorsportmagazine.com/archive/article/march-2012/80/chapmans-last-big-thing/"
+  - id: "chaparral-2k"
+    annee: 1980
+    categorie: "technologie"
+    titre: "La Chaparral 2K gagne à Indianapolis"
+    texte: "La Chaparral 2K, dessinée par John Barnard, gagne les 500 Miles d'Indianapolis 1980. Selon Motor Sport, c'est en réglant les problèmes de tringlerie de boîte de cette voiture que Barnard trouve le germe de la boîte commandée au volant, qu'il installe neuf ans plus tard sur la Ferrari 640. Interrogé, Barnard lui-même met plutôt en avant l'encombrement du levier dans un cockpit qu'il voulait très étroit."
+    liens:
+      - jalon: "ferrari-640"
+        mecanisme: "transfert"
+        preuve: "discute"
+        pourquoi: "Motor Sport situe le germe de la boîte à palettes dans la tringlerie de la Chaparral 2K, mais Barnard, interrogé, n'évoque que l'encombrement du cockpit et les valves électroniques de la suspension active."
+    sources:
+      - titre: "Motor Sport, James Elson, « Ferrari's 640: the 1989 flawed masterpiece ‘that's still influencing F1 design’ » (juin 2022)"
+        url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
+      - titre: "Motor Sport, « The Motor Sport interview: John Barnard » (février 2025)"
+        url: "https://motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard"
+      - titre: "Motor Sport, Keith Howard, « X-ray spec – Ferrari 640 » (juin 2005)"
+        url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
   - id: "concorde-1981"
     annee: 1981
     categorie: "economie"
     titre: "Guerre FISA-FOCA et accords Concorde"
-    texte: "Pendant l'hiver 1980-1981, la FISA de Jean-Marie Balestre et l'association des constructeurs (FOCA) menée par Bernie Ecclestone s'affrontent, sur fond de querelle sur les jupes aérodynamiques. Le premier accord Concorde y met fin : Wikipédia le date du 19 janvier 1981, Motor Sport d'avril 1981. La FIA garde le règlement, la FOCA obtient le droit exclusif de négocier avec les organisateurs, ce qui fixe le partage entre pouvoir sportif et revenus commerciaux."
+    texte: "Pendant l'hiver 1980-1981, la FISA de Jean-Marie Balestre et l'association des constructeurs (FOCA) menée par Bernie Ecclestone s'affrontent, sur fond de querelle sur les jupes aérodynamiques ; la FOCA va jusqu'à annoncer un championnat dissident. Le premier accord Concorde y met fin : Wikipédia le date du 19 janvier 1981, Motor Sport d'avril 1981. La FIA garde le règlement, la FOCA obtient le droit exclusif de négocier avec les organisateurs, ce qui fixe le partage entre pouvoir sportif et revenus commerciaux ; pour Nigel Roebuck, c'était là le véritable enjeu de la guerre. Les équipes s'engagent aussi à disputer toutes les courses, une garantie offerte aux télévisions."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, « 1980s » (mai 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
@@ -582,7 +704,7 @@ contexte:
     annee: 1981
     categorie: "reglement"
     titre: "La fin des jupes"
-    texte: "Pour freiner l'effet de sol, le règlement 1981 interdit les jupes et impose une garde au sol de 6 cm. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru. Les jupes, tolérées de nouveau en 1982, disparaissent pour de bon avec le fond plat obligatoire de 1983."
+    texte: "Pour freiner l'effet de sol, dont l'appui devient imprévisible et disparaît quand une jupe se coince ou se brise, le règlement 1981 interdit les jupes et impose une garde au sol de 6 cm. Balestre invoque la sécurité ; les équipes de la FOCA, sans turbo, y perdent leur principal avantage face à Ferrari, Renault et Alfa Romeo. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru, mais la Brabham BT49, qui s'abaisse en piste, est autorisée puis copiée. Les jupes, tolérées de nouveau en 1982 au prix de suspensions quasi rigides, disparaissent pour de bon avec le fond plat obligatoire de 1983."
     liens:
       - jalon: "lotus-78"
         mecanisme: "provoque"
@@ -596,14 +718,73 @@ contexte:
         mecanisme: "ferme"
         preuve: "etabli"
         pourquoi: "Le fond plat de 1983 achève ce que l'interdiction des jupes avait commencé ; formula1.com le relie aux graves accidents de la saison 1982."
+      - jalon: "bt52"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "L'annonce du fond plat pour 1983 fait abandonner la BT51 à effet de sol : la BT52 est conçue et construite en six semaines, son poids reporté sur l'essieu arrière pour compenser la perte d'appui (Mark Hughes)."
     sources:
       - titre: "Formula1.com, « Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms » (février 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
+      - titre: "Motor Sport, Nigel Roebuck, « 1980s » (mai 2010)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
+      - titre: "Formula1.com, Mark Hughes, « TECH TUESDAY: The ground-breaking Brabham BT52 » (août 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
+  - id: "tag-financement"
+    annee: 1981
+    categorie: "economie"
+    titre: "TAG finance le moteur Porsche"
+    texte: "Dès octobre 1981, Porsche s'engage à produire un moteur turbo aux cotes strictes imposées par John Barnard. Mais selon Barnard, McLaren n'a de quoi payer que son étude. Ron Dennis convainc alors Techniques d'Avant Garde (TAG), groupe de la famille Ojjeh déjà commanditaire de Williams, de former avec McLaren une société commune, TAG Turbo Engines, qui finance le V6."
+    liens:
+      - jalon: "mp4-2"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "Selon Barnard, McLaren ne pouvait payer que l'étude du moteur ; le financement de TAG permet de le faire construire par Porsche, aux cotes qu'il impose."
+    sources:
+      - titre: "Autosport, Gary Watkins, « When TAG engines ruled Formula 1 » (mars 2016)"
+        url: "https://www.autosport.com/f1/news/when-tag-engines-ruled-formula-1-5105275/5105275/"
+      - titre: "Formula1.com, Mark Hughes, « How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1 » (mai 2020)"
+        url: "https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ"
+  - id: "guerre-des-pneus-1982"
+    annee: 1982
+    categorie: "economie"
+    titre: "La guerre des pneus"
+    texte: "Au début des années 1980, Goodyear, Michelin et Pirelli se disputent la F1. Selon Doug Nye, une voiture partie à demi-pleine peut alors tenir au moins une demi-course sur des gommes plus tendres sans les détruire. Pour les Brabham à moteur turbo BMW, gourmandes et très lourdes au départ d'un Grand Prix de 200 milles, un arrêt pour le carburant et les pneus devient rentable."
+    liens:
+      - jalon: "ravitaillement"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Selon Doug Nye, la guerre des pneus rend l'arrêt rentable : une Brabham allégée peut courir sur des gommes plus tendres au lieu de partir lourdement chargée."
+    sources:
+      - titre: "Motor Sport, Doug Nye, « They stop to conquer » (novembre 2007)"
+        url: "https://www.motorsportmagazine.com/archive/article/november-2007/122/doug-nye"
+  - id: "carburant-220-litres-1984"
+    annee: 1984
+    categorie: "reglement"
+    titre: "220 litres et ravitaillement interdit"
+    texte: "Comme prévu, la dotation de carburant en course tombe à 220 litres en 1984 ; à bref délai, le ravitaillement en course est aussi interdit, pour raisons de sécurité. La gestion électronique du moteur devient alors décisive : McLaren-TAG l'emporte avec des V6 Porsche puissants, fiables et sobres, grâce à un système Bosch entièrement électronique. Le ravitaillement ne revient qu'en 1994."
+    liens:
+      - jalon: "ravitaillement"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Le ravitaillement en course, arme tactique de Brabham depuis 1982, est interdit pour 1984 pour raisons de sécurité (Doug Nye)."
+      - jalon: "mp4-2"
+        mecanisme: "ouvre"
+        preuve: "discute"
+        pourquoi: "Avec 220 litres pour toute la course, l'injection séquentielle plus économe du moteur TAG devient un avantage décisif ; mais le moteur était conçu avant la règle, qui a récompensé un choix plus qu'elle ne l'a suscité (Mark Hughes, Doug Nye)."
+    sources:
+      - titre: "Motor Sport, Doug Nye, « Doug Nye: ‘McLaren rewrote the history books in 1980s F1 turbo era’ » (avril 2024)"
+        url: "https://motorsportmagazine.com/archive/article/april-2024/25/doug-nye-mclaren-rewrote-the-history-books-in-1980s-f1-turbo-era"
+      - titre: "Formula1.com, Mark Hughes, « How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1 » (mai 2020)"
+        url: "https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ"
+      - titre: "Motorsport.com, « Why was refuelling banned in F1? History of refuelling and previous accidents » (janvier 2024)"
+        url: "https://au.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555081/"
+      - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (janvier 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
   - id: "crash-test-frontal"
     annee: 1985
     categorie: "securite"
     titre: "Premier crash-test obligatoire"
-    texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Les essais se multiplient ensuite (charges statiques, arceaux, structures latérales et arrière), et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants pour être homologuée."
+    texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Vers 1998, l'essai porte sur un châssis complet et s'accompagne des premiers essais de charge statique. Les essais se multiplient ensuite (arceaux, structures latérales et arrière, panneaux anti-intrusion), souvent en réponse directe à un accident, et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants pour être homologuée. Pour Jo Bauer, délégué technique de la FIA, ces essais ont sauvé la vie de Robert Kubica au Grand Prix du Canada 2007."
     sources:
       - titre: "FIA, « Breaking the barriers of safety » (mai 2013)"
         url: "https://fia.com/node/5643"
@@ -611,7 +792,7 @@ contexte:
     annee: 1989
     categorie: "reglement"
     titre: "Le turbo bridé puis interdit"
-    texte: "À partir de 1987, la pression de suralimentation est limitée à 4 bars, puis à 2,5 bars en 1988, avec 150 litres de carburant au lieu de 195. En 1989, seuls les moteurs atmosphériques de 3,5 litres restent autorisés. Renault revient alors avec un V10 3,5 litres à rappel pneumatique des soupapes, le RS1."
+    texte: "Au milieu des années 1980, les turbos de 1,5 litre dépassent 1 000 ch en qualification ; la FIA veut réduire la puissance sans éloigner les constructeurs. À partir de 1987, la pression de suralimentation est limitée à 4 bars, et des moteurs atmosphériques de 3,5 litres sont admis à côté des turbos ; en 1988, la limite passe à 2,5 bars, avec 150 litres de carburant au lieu de 195. Honda répond par un V6 au rendement thermique d'environ 30 %, qui gagne 15 des 16 courses avec McLaren. En 1989, seuls les moteurs atmosphériques de 3,5 litres restent autorisés. Renault revient alors avec un V10 3,5 litres à rappel pneumatique des soupapes, le RS1."
     liens:
       - jalon: "turbo-victoire"
         mecanisme: "ferme"
@@ -621,6 +802,14 @@ contexte:
         mecanisme: "ouvre"
         preuve: "etabli"
         pourquoi: "La formule atmosphérique 3,5 litres de 1989 est celle pour laquelle Renault revient avec son V10 RS1."
+      - jalon: "mp4-4"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "Selon Steve Nichols, son concepteur en chef, la dotation ramenée à 150 litres permet un réservoir petit et bas : avec le moteur Honda abaissé, on peut allonger le pilote et abaisser toute la voiture."
+      - jalon: "march-881"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "L'arrivée progressive des moteurs atmosphériques permet le retour de March ; face à un déficit de puissance énorme sur les turbos, Newey ne voit d'autre issue qu'une voiture d'une grande efficacité aérodynamique."
     sources:
       - titre: "Motor Sport Magazine, « When F1 had two sets of engine rules, and why that wouldn't work today » (avril 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/when-f1-had-two-sets-of-engine-rules-and-why-that-wouldnt-work-today/"
@@ -628,11 +817,19 @@ contexte:
         url: "https://global.honda/en/POWEREDbyHONDA/1988_ra168e/"
       - titre: "Motor Sport Magazine, « Teapots, turbos and titles: Renault's wild F1 ride » (décembre 2025)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/"
+      - titre: "Steve Nichols à Autosport International, reproduit sur ayrton-senna.net, « Video Insight: Steve Nichols on Ayrton Senna and the McLaren MP4/4 » (janvier 2012)"
+        url: "https://www.ayrton-senna.net/insight-steve-nichols-on-ayrton-senna-and-the-mclaren-mp44/"
+      - titre: "Honda, « 1988 McLaren Honda MP4/4 » (site du constructeur, non daté)"
+        url: "https://global.honda/en/F1/machine/1988_McLarenHondaMP44/"
+      - titre: "Motor Sport, Mark Hughes, « Adrian Newey: ‘My top six F1 cars’ » (septembre 2014)"
+        url: "https://www.motorsportmagazine.com/archive/page/september-2014/36"
+      - titre: "Motor Sport, « Marching to civil war » (juin 2005)"
+        url: "https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war"
   - id: "fin-aides-electroniques"
     annee: 1994
     categorie: "reglement"
     titre: "Les aides électroniques interdites"
-    texte: "Pour 1994, les aides au pilotage apparues au début des années 1990 sont interdites : suspension active, antipatinage et antiblocage. Les équipes doivent repartir d'une feuille blanche et chercher l'adhérence par l'aérodynamique et la mécanique."
+    texte: "Annoncée par la FIA au milieu de 1993, l'interdiction vise à freiner les dépenses et à répondre à ceux qui jugent que le pilote compte de moins en moins. Pour 1994, les aides au pilotage apparues au début des années 1990 sont interdites : suspension active, antipatinage et antiblocage ; seule la boîte semi-automatique est conservée. Les Williams championnes en 1992 et 1993 devaient beaucoup à ces technologies. Les équipes doivent repartir d'une feuille blanche et chercher l'adhérence par l'aérodynamique et la mécanique, d'autant que le ravitaillement en course, absent depuis 1983, revient. Pour la première fois, la FIA contrôle les logiciels des voitures."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "ferme"
@@ -651,11 +848,20 @@ contexte:
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
       - titre: "Motor Sport Magazine, « That was 1994 » (décembre 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/december-2004/42/that-was-1994/"
+      - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (janvier 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
+      - titre: "Motor Sport, Keith Howard, « Active suspension » (décembre 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - id: "imola-1994"
     annee: 1994
     categorie: "securite"
     titre: "Imola 1994 : mort de Ratzenberger et de Senna"
-    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, puis planche sous le fond, qui oblige à relever toute la voiture. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
+    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994 ; deux semaines plus tard, Karl Wendlinger est grièvement blessé à Monaco. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, boîte à air percée au Canada pour réduire la puissance, puis planche sous le fond, à l'usure limitée à 1 mm, qui oblige à relever toute la voiture. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations et la cylindrée passe de 3,5 à 3 litres, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
+    liens:
+      - jalon: "fw17b"
+        mecanisme: "contourne"
+        preuve: "etabli"
+        pourquoi: "Selon Edd Straw, Newey voit que le fond à marche imposé en 1995 n'oblige pas la carrosserie à aller jusqu'à l'arrière, ce qui permet de relever la sortie du diffuseur."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -663,21 +869,25 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
       - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
+      - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+        url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
   - id: "protections-laterales-cockpit"
     annee: 1996
     categorie: "securite"
     titre: "Flancs de cockpit relevés et appuie-tête latéraux"
-    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts et des appuie-tête latéraux de 75 mm, avec des essais de charge statique sur le bord du cockpit. La tête du pilote, jusque-là largement exposée, est désormais entourée par la structure de la voiture."
+    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75 mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe d'experts de la FIA sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. La tête du pilote, jusque-là largement exposée, est désormais entourée par la structure de la voiture."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
       - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
+      - titre: "GrandPrix.com, « The new rules for 1996 » (mars 1996)"
+        url: "https://www.grandprix.com/ns/ns00509.html"
   - id: "prius-hybride"
     annee: 1997
     categorie: "technologie"
     titre: "La Toyota Prius, première hybride de série"
-    texte: "En 1997, Toyota lance la Prius, premier véhicule hybride produit en série, qui récupère l'énergie perdue au freinage. Le sens de l'emprunt avec la F1 est discuté : à l'arrivée du KERS en 2009, Toyota le juge « primitif » et sans rapport avec ses hybrides routiers, tandis que formula1.com affirme en 2014 que les progrès des KERS de F1 ont profité aux hybrides de série."
+    texte: "En 1997, Toyota lance la Prius, premier véhicule hybride produit en série : un moteur thermique et deux moteurs-générateurs récupèrent l'énergie perdue au freinage, et la consommation est divisée par deux. Le sens de l'emprunt avec la F1 est discuté : à l'arrivée du KERS en 2009, limité à 60 kW pendant 6,6 secondes par tour, Toyota le juge « primitif » et sans rapport avec ses hybrides routiers, tandis que formula1.com affirme en 2014 que les progrès des KERS de F1 ont profité aux hybrides de série. Selon ce site, un système pesait plus de 100 kg en 2007, 24 kg fin 2012."
     sources:
       - titre: "IEEE, Engineering and Technology History Wiki, « Milestones: Toyota Prius, the World's First Mass-Produced Hybrid Vehicle, 1997 » (février 2025)"
         url: "https://ethw.org/Milestones:Toyota_Prius,_the_World%27s_First_Mass-Produced_Hybrid_Vehicle,_1997"
@@ -689,7 +899,7 @@ contexte:
     annee: 2003
     categorie: "securite"
     titre: "Le HANS devient obligatoire"
-    texte: "Le système de retenue de la tête et du cou HANS, conçu par Robert Hubbard et Jim Downing puis adapté aux monoplaces avec le concours de DaimlerChrysler, devient obligatoire en F1 en 2003. La FIA reconnaît qu'il relève légèrement le centre de gravité de la voiture et autorise les équipes à l'adapter à leur cockpit, sous réserve de son accord."
+    texte: "Le système de retenue de la tête et du cou HANS, conçu par Robert Hubbard et Jim Downing contre les fractures de la base du crâne, dont meurt Roland Ratzenberger en 1994, puis adapté aux monoplaces avec le concours de DaimlerChrysler, devient obligatoire en F1 en 2003. Une version amincie est essayée de 1996 à 1998 et approuvée par la FIA en 2001. La FIA reconnaît qu'il relève légèrement le centre de gravité de la voiture et autorise les équipes à l'adapter à leur cockpit, sous réserve de son accord ; elle refuse toute dérogation, un pilote qui ne peut le porter devant être remplacé."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -697,11 +907,13 @@ contexte:
         url: "https://www.grandprix.com/news/fia-stands-by-hans-device.html"
       - titre: "Formula 1, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
         url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
+      - titre: "Formula 1, Matt Youson, « Imola ‘94 and the lasting safety legacy » (mai 2019)"
+        url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - id: "honda-brawn-2008"
     annee: 2008
     categorie: "economie"
     titre: "Honda se retire, Brawn GP naît"
-    texte: "Fin 2008, en pleine crise économique mondiale, Honda quitte la Formule 1. Ross Brawn et Nick Fry négocient le rachat de l'équipe par sa direction, Honda apportant près de 100 millions de livres. La voiture 2009, déjà étudiée chez Honda, court sous le nom de Brawn avec son double diffuseur."
+    texte: "Fin 2008, en pleine crise économique mondiale, Honda quitte la Formule 1 ; l'annonce, le 5 décembre, surprend une équipe qui venait de recevoir une soufflerie neuve. Ross Brawn et Nick Fry négocient le rachat de l'équipe par sa direction, Honda apportant près de 100 millions de livres, l'équivalent du coût d'une fermeture. La voiture 2009, déjà étudiée chez Honda, qui avait renoncé à sa saison 2008 pour s'y consacrer, court sous le nom de Brawn avec son double diffuseur et un moteur Mercedes. Environ 350 salariés sont licenciés ; Jenson Button gagne six des sept premières courses et le titre."
     liens:
       - jalon: "double-diffuseur"
         mecanisme: "ouvre"
@@ -710,11 +922,13 @@ contexte:
     sources:
       - titre: "The Race, Scott Mitchell-Malm, « The last time Honda withdrew from F1 – by those it left behind » (avril 2021)"
         url: "https://the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind"
+      - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
+        url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
   - id: "economies-2009"
     annee: 2009
     categorie: "economie"
     titre: "Fin des essais privés en saison"
-    texte: "En décembre 2008, quelques jours après le départ de Honda, le Conseil mondial adopte avec les équipes un plan d'économies. À partir de 2009, plus aucun essai n'est permis après le début de la saison, et les souffleries ne peuvent plus accueillir de maquettes à l'échelle réelle, 60 % devenant le maximum. Les vendredis de Grand Prix prennent une place nouvelle dans la mise au point."
+    texte: "En décembre 2008, quelques jours après le départ de Honda, le Conseil mondial adopte avec les équipes un plan d'économies, tous craignant d'autres départs de constructeurs ; la FIA en attend jusqu'à 30 % de dépenses en moins. À partir de 2009, plus aucun essai n'est permis après le début de la saison, et les souffleries ne peuvent plus accueillir de maquettes à l'échelle réelle, 60 % devenant le maximum. Chaque moteur doit tenir trois week-ends, avec un régime ramené de 19 000 à 18 000 tr/min, et les prix des moteurs clients sont divisés par deux. Les vendredis de Grand Prix prennent une place nouvelle dans la mise au point."
     sources:
       - titre: "Motor Sport, Adam Cooper, « Formula 1 costs slashed for 2009 » (février 2009)"
         url: "https://www.motorsportmagazine.com/archive/article/february-2009/12/formula-1-costs-slashed-for-2009/"
@@ -722,30 +936,87 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "La refonte aérodynamique de 2009"
-    texte: "Le règlement 2009 supprime les déflecteurs et appendices et vise une réduction d'appui de 50 %, avec un diffuseur redessiné. Williams, Brawn et Toyota exploitent une faille dans la rédaction du texte et créent le « double diffuseur »."
+    texte: "À la fin des années 2000, les voitures, couvertes d'appendices, perdent beaucoup d'appui dans le sillage d'une autre, et les dépassements se raréfient. S'appuyant sur les essais d'un groupe de travail sur le dépassement, auquel participent Paddy Lowe, Pat Symonds et Rory Byrne, le règlement 2009 supprime les déflecteurs et appendices et vise une réduction d'appui de 50 %, avec un aileron arrière plus haut et plus étroit, un aileron avant plus bas, plus large et réglable par le pilote, et un diffuseur redessiné. Les pneus lisses reviennent après onze ans. Williams, Brawn et Toyota exploitent une faille dans la rédaction du texte et créent le « double diffuseur », que les réclamations ne font pas interdire."
     liens:
       - jalon: "double-diffuseur"
         mecanisme: "contourne"
         preuve: "etabli"
         pourquoi: "Williams, Brawn et Toyota exploitent chacune une faille dans la rédaction du nouveau règlement aérodynamique."
+      - jalon: "rb6"
+        mecanisme: "ouvre"
+        preuve: "discute"
+        pourquoi: "Le double diffuseur né du règlement 2009 offre l'occasion de souffler sa partie haute, ce que Newey exploite sur la RB6 ; le lien passe par le double diffuseur et reste indirect (Edd Straw)."
     sources:
       - titre: "Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
       - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
+      - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+        url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+  - id: "ravitaillement-interdit-2010"
+    annee: 2010
+    categorie: "reglement"
+    titre: "Le ravitaillement interdit de nouveau"
+    texte: "Réintroduit en 1994, le ravitaillement en course est de nouveau interdit à partir de 2010. Selon Motor Sport, la décision tient surtout à la sécurité et aux coûts, après une série d'incendies dans les stands ; Motorsport.com met surtout en avant la sécurité des pilotes."
+    liens:
+      - jalon: "ravitaillement"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "À partir de 2010, le ravitaillement en course est de nouveau interdit, ce qui clôt l'ère des stratégies fondées sur lui."
+    sources:
+      - titre: "Motor Sport, Pablo Elizalde, « F1 in reverse again: V8s and refuelling set to come back from bans? » (juillet 2026)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-in-reverse-again-v8s-and-refuelling-set-to-come-back-from-bans/"
+      - titre: "Motorsport.com, « Why was refuelling banned in F1? History of refuelling and previous accidents » (janvier 2024)"
+        url: "https://au.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555081/"
+  - id: "double-diffuseur-interdit"
+    annee: 2011
+    categorie: "reglement"
+    titre: "Le double diffuseur interdit"
+    texte: "En janvier 2010, les directeurs techniques des équipes s'accordent officiellement pour interdire le double diffuseur à partir de la saison suivante. Admis en 2009 malgré les réclamations, il a provoqué une course au développement dans tout le plateau. À partir de 2011, la faille du règlement qui l'avait permis est refermée."
+    liens:
+      - jalon: "double-diffuseur"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "À partir de 2011, la faille du règlement qui avait permis le double diffuseur est refermée (Autosport)."
+    sources:
+      - titre: "Autosport, Jonathan Noble, « Double diffusers banned from 2011 » (janvier 2010)"
+        url: "https://www.autosport.com/f1/news/double-diffusers-banned-from-2011-4434892/4434892/"
+      - titre: "Autosport, Matt Somerfield et Giorgio Piola, « Banned: The double diffuser that triggered an F1 development race » (mai 2020)"
+        url: "https://www.autosport.com/news/report.php/id/149491"
+  - id: "echappements-2012"
+    annee: 2012
+    categorie: "reglement"
+    titre: "Les sorties d'échappement encadrées"
+    texte: "Dès 2011, la FIA modifie les règles sur l'emplacement des échappements pour décourager le soufflage du diffuseur ; elle prévoit ensuite d'interdire en cours de saison le soufflage moteur coupé, puis y renonce sous la pression des équipes. Pour 2012, le règlement délimite une zone où doit se trouver la sortie d'échappement. Les diffuseurs soufflés de l'époque disparaissent, mais les équipes trouvent vite d'autres moyens d'utiliser les gaz, avec des gains de plus en plus modestes."
+    liens:
+      - jalon: "rb6"
+        mecanisme: "provoque"
+        preuve: "etabli"
+        pourquoi: "La FIA modifie les règles d'échappement pour décourager le soufflage du diffuseur relancé par la RB6 (Matt Somerfield, Giorgio Piola)."
+      - jalon: "rb6"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "La zone imposée en 2012 pour la sortie d'échappement met fin aux diffuseurs soufflés de l'époque ; Red Bull continue d'exploiter les gaz, avec des gains de plus en plus modestes (Edd Straw)."
+    sources:
+      - titre: "Motorsport.com, Matt Somerfield et Giorgio Piola, « Banned: Why exhaust blown diffusers were outlawed » (mai 2020)"
+        url: "https://au.motorsport.com/f1/news/banned-tech-exhaust-blown-diffusers/4796376/"
+      - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+        url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
   - id: "bianchi-voiture-securite-virtuelle"
     annee: 2014
     categorie: "securite"
     titre: "Accident de Jules Bianchi et voiture de sécurité virtuelle"
-    texte: "Après l'accident de Jules Bianchi au Grand Prix du Japon 2014, qui lui sera finalement fatal, la FIA introduit en 2015 la voiture de sécurité virtuelle, qui impose un temps au tour minimal pour faire ralentir les pilotes. Les panneaux anti-intrusion en Zylon de la cellule de survie sont aussi prolongés jusqu'au bord du cockpit, le long de la tête du pilote."
+    texte: "Au Grand Prix du Japon 2014, sous la pluie, Jules Bianchi perd le contrôle de sa Marussia dans une zone sous double drapeau jaune et percute à 126 km/h la grue qui dégage la Sauber d'Adrian Sutil ; l'accident lui sera finalement fatal. Le panel d'enquête de la FIA juge impossible de rendre un tel choc survivable, et recommande plutôt une limitation de vitesse dans les secteurs sous double drapeau jaune. En 2015, la FIA introduit la voiture de sécurité virtuelle, qui impose un temps au tour minimal pour faire ralentir les pilotes. Les panneaux anti-intrusion en Zylon de la cellule de survie sont aussi prolongés jusqu'au bord du cockpit, le long de la tête du pilote."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
+      - titre: "FIA, « Accident Panel » (décembre 2014)"
+        url: "https://api.fia.com/news/accident-panel"
   - id: "groupe-propulseur-2014"
     annee: 2014
     categorie: "reglement"
     titre: "Le groupe propulseur hybride obligatoire"
-    texte: "En 2014, les V8 atmosphériques de 2,4 litres cèdent la place à un V6 turbo de 1,6 litre associé à deux systèmes de récupération d'énergie. Le carburant est limité à 100 kg par course et le débit à 100 kg/h : le rendement devient un critère de performance central."
+    texte: "En 2014, les V8 atmosphériques de 2,4 litres cèdent la place à un V6 turbo de 1,6 litre associé à deux systèmes de récupération d'énergie, au freinage et sur les gaz d'échappement ; d'environ 600 ch, il reçoit quelque 160 ch électriques pendant environ 33 secondes par tour. Le carburant est limité à 100 kg par course, un tiers de moins qu'auparavant, et le débit à 100 kg/h : le rendement devient un critère de performance central. Le refroidissement élargit les pontons, le poids minimal passe de 642 à 690 kg, et l'échappement unique et central met fin aux diffuseurs soufflés. Mercedes gagne 51 des 59 courses des trois premières saisons."
     liens:
       - jalon: "hybride"
         mecanisme: "ouvre"
@@ -758,11 +1029,13 @@ contexte:
     sources:
       - titre: "Formula1.com, « A racing revolution? Understanding 2014's technical regulations » (janvier 2014)"
         url: "https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC"
+      - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
+        url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
   - id: "halo"
     annee: 2018
     categorie: "securite"
     titre: "Introduction du halo"
-    texte: "Après avoir étudié trois types de protection frontale, dont un pare-brise, la FIA impose en 2018 le halo, un arceau en titane à trois branches fixé devant et au-dessus du cockpit. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA."
+    texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, fixé devant et au-dessus du cockpit, doit résister à une charge verticale de 116 kN ; on l'a éprouvé en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -772,7 +1045,7 @@ contexte:
     annee: 2020
     categorie: "securite"
     titre: "Accident de Romain Grosjean à Bahreïn"
-    texte: "Au Grand Prix de Bahreïn 2020, la Haas de Romain Grosjean percute le rail à 192 km/h, traverse la glissière et prend feu ; le pilote s'en échappe, blessé. L'enquête de la FIA conclut que la cellule de survie, l'appuie-tête, le HANS et le halo ont rempli leur rôle, mais elle lance une révision de la géométrie avant de la cellule, des appuie-tête et de l'installation des réservoirs souples et de leurs trappes."
+    texte: "Au Grand Prix de Bahreïn 2020, après un contact avec la voiture de Daniil Kvyat, la Haas de Romain Grosjean percute le rail à 192 km/h, avec un pic de 67 g, traverse la glissière et prend feu ; le pilote s'en échappe, brûlé aux mains. L'enquête de la FIA conclut que la cellule de survie, l'appuie-tête, le HANS et le halo ont rempli leur rôle. Mais le groupe propulseur s'est séparé de la cellule, et la trappe du réservoir comme le raccord d'alimentation, arrachés, ont laissé fuir le carburant : la FIA lance une révision de la géométrie avant de la cellule de survie et de l'installation des réservoirs souples, de leurs raccords et de leurs trappes."
     sources:
       - titre: "FIA, « FIA concludes investigation into Romain Grosjean's accident at 2020 Bahrain Formula 1 Grand Prix and releases 2021 circuit racing safety initiatives » (mars 2021)"
         url: "https://api.fia.com/news/fia-concludes-investigation-romain-grosjeans-accident-2020-bahrain-formula-1-grand-prix-and"
@@ -780,7 +1053,7 @@ contexte:
     annee: 2021
     categorie: "economie"
     titre: "Essais aérodynamiques échelonnés"
-    texte: "Longtemps illimité, le développement aérodynamique est rationné à partir de 2021 : le temps de soufflerie et de calcul CFD de chaque équipe dépend de son classement au championnat précédent. En 2021, le champion a droit à 90 % de l'allocation de référence et le dixième à 112,5 % ; l'écart s'élargit à 70 % et 115 % à partir de 2022. Le dispositif vise à réduire les coûts et à resserrer la hiérarchie."
+    texte: "Longtemps illimité, au point que certaines équipes faisaient tourner leurs souffleries jour et nuit, voire plusieurs à la fois, le développement aérodynamique est rationné à partir de 2021 : le temps de soufflerie et de calcul CFD de chaque équipe dépend de son classement au championnat précédent. L'allocation de référence tombe de 65 à 40 passages en soufflerie par semaine. En 2021, le champion a droit à 90 % de cette allocation et le dixième à 112,5 % ; l'écart s'élargit à 70 % et 115 % à partir de 2022. Le dispositif vise à réduire les coûts et à resserrer la hiérarchie, sur plusieurs saisons plutôt qu'en une seule."
     sources:
       - titre: "Formula 1, Lawrence Barretto, « How F1's new sliding scale aero testing rules work – and what impact they will have on racing » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/how-f1s-new-sliding-scale-aero-testing-rules-work-and-what-impact-they-will.pn0sG8N4A0cjbNRbdYx8a"
@@ -788,7 +1061,7 @@ contexte:
     annee: 2021
     categorie: "economie"
     titre: "Le plafond budgétaire"
-    texte: "En 2021, un règlement financier rejoint pour la première fois les règlements sportif et technique. Il plafonne les dépenses annuelles qui touchent à la performance de la voiture, fixées à 145 millions de dollars après la pandémie, puis 140 et 135 millions. Le coût du développement devient lui-même une contrainte de conception."
+    texte: "En 2021, un règlement financier rejoint pour la première fois les règlements sportif et technique, avec le même statut. Annoncé en octobre 2019 pour équilibrer le championnat et assurer la stabilité financière des équipes, il plafonne les dépenses annuelles qui touchent à la performance de la voiture, hors marketing, salaires des pilotes et des trois cadres les mieux payés. D'abord fixé à 175 millions de dollars, le plafond est ramené à 145 millions après la pandémie, puis à 140 et 135 millions ; les voitures 2020 sont reconduites en 2021. Le coût du développement devient lui-même une contrainte de conception."
     sources:
       - titre: "Formula 1, Lawrence Barretto, « The 2021 F1 cost cap explained – what has changed, and why? » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/the-2021-f1-cost-cap-explained-what-has-changed-and-why.5O1Te8udKLmkUl4PyVZtUJ"
@@ -796,25 +1069,29 @@ contexte:
     annee: 2022
     categorie: "reglement"
     titre: "Le retour de l'effet de sol"
-    texte: "Le règlement 2022 rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980. Les ailerons sont redéfinis, les jantes agrandies et les bargeboards disparaissent."
+    texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon la F1, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les bargeboards, qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
+      - titre: "Formula 1, Greg Stuart, « 10 things you need to know about the all-new 2022 F1 car » (juillet 2021)"
+        url: "https://www.formula1.com/en/latest/article/10-things-you-need-to-know-about-the-all-new-2022-f1-car.4OLg8DrXyzHzdoGrbqp6ye"
   - id: "motoristes-2026"
     annee: 2026
     categorie: "economie"
     titre: "Audi et les nouveaux motoristes"
-    texte: "Le règlement moteur de 2026 avait d'abord pour but d'attirer de nouveaux motoristes. Audi reprend Sauber et devient une équipe d'usine avec son propre groupe propulseur, Red Bull s'associe à Ford et Honda revient comme constructeur à part entière avec Aston Martin. La grille compte ainsi cinq motoristes, aux côtés de Mercedes et Ferrari."
+    texte: "Le règlement moteur de 2026 avait d'abord pour but d'attirer de nouveaux motoristes : il supprime le MGU-H, que les constructeurs n'ont pas repris sur route, pour un groupe propulseur plus simple. Audi, engagée en août 2022 après l'adoption de ces règles, reprend Sauber, présente en F1 depuis 1993, et devient une équipe d'usine avec son propre groupe propulseur, conçu à Neuburg an der Donau. Red Bull s'associe à Ford et Honda revient comme constructeur à part entière avec Aston Martin. La grille compte ainsi cinq motoristes, aux côtés de Mercedes et Ferrari, alors que Renault cesse d'en produire et qu'Alpine devient cliente de Mercedes."
     sources:
       - titre: "FIA, « F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry » (octobre 2022)"
         url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"
       - titre: "Formula 1, « 2026 REGULATIONS EXPLAINED: All you need to know about F1’s new power units » (janvier 2026)"
         url: "https://www.formula1.com/en/latest/article/all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd"
+      - titre: "Motor Sport Magazine, « Teapots, turbos and titles: Renault's wild F1 ride » (décembre 2025)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/"
   - id: "reglement-2026"
     annee: 2026
     categorie: "reglement"
     titre: "Le règlement moteur et châssis de 2026"
-    texte: "Dévoilé par la FIA en juin 2024, le règlement 2026 répartit la puissance à parts égales entre moteur thermique et électricité, avec des carburants durables. Les voitures perdent 30 kg et reçoivent des ailerons avant et arrière mobiles."
+    texte: "Dévoilé par la FIA en juin 2024, le règlement 2026 répartit la puissance à parts égales entre moteur thermique et électricité, avec des carburants durables : le moteur thermique passe d'environ 550 à 400 kW, l'électrique de 120 à 350 kW, et l'énergie récupérée au freinage double. Le châssis est redéfini en fonction de ces besoins énergétiques. Les voitures perdent 30 kg, pour un minimum de 768 kg, et reçoivent des ailerons avant et arrière mobiles : une position pour l'appui en virage, une autre à faible traînée en ligne droite. L'empattement maximal perd 200 mm et la largeur 100 mm."
     sources:
       - titre: "Formula1.com, « FIA unveils Formula 1 regulations for 2026 and beyond featuring more agile cars and active aerodynamics » (juin 2024)"
         url: "https://www.formula1.com/en/latest/article/fia-unveils-formula-1-regulations-for-2026-and-beyond-featuring-more-agile.75qJiYOHXgeJqsVQtDr2UB"
