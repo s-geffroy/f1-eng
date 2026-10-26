@@ -3,54 +3,91 @@
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign debut = 1945 -%}
-{%- assign fin = 2025 -%}
+{%- assign fin = 2026 -%}
 {%- assign jalons = D.chronologie.jalons | sort: "annee" -%}
+{%- assign contexte = D.chronologie.contexte | sort: "annee" -%}
+{%- comment -%}
+  Rangées des innovations, au-dessus de l'axe : chaque repère prend la rangée la plus proche
+  de l'axe dont le dernier repère est à au moins deux ans (sinon les losanges se touchent).
+  Le contexte, sous l'axe, est rangé de la même façon en JavaScript, selon les catégories affichées.
+{%- endcomment -%}
+{%- assign fins = "-100,-100,-100,-100,-100,-100,-100,-100" | split: "," -%}
+{%- assign rang_max = 0 -%}
 <section class="page-tete">
   <h1>{{ T.chrono.titre }}</h1>
   <p class="accroche">{{ T.chrono.accroche }}</p>
 </section>
 
 <section class="frise" aria-label="{{ T.chrono.aria }}">
+  <div class="frise-filtres" role="group" aria-labelledby="frise-filtres-titre">
+    <p id="frise-filtres-titre">{{ T.chrono.filtres }}</p>
+    {%- for c in D.chronologie.categories %}
+    {%- assign n = contexte | where: "categorie", c.id | size %}
+    <button type="button" class="filtre-contexte" data-categorie="{{ c.id }}" aria-pressed="false">
+      {% include repere-contexte.html categorie=c.id %}{{ c.nom }} <span class="filtre-nombre">{{ n }}</span>
+    </button>
+    {%- endfor %}
+  </div>
+
   <div class="frise-defilement">
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
+      <ol class="frise-innovations" aria-label="{{ T.chrono.innovations }}">
+        {%- for j in jalons %}
+        {%- assign rang = -1 -%}
+        {%- for k in (0..7) -%}
+          {%- if rang == -1 -%}
+            {%- assign f = fins[k] | plus: 0 -%}
+            {%- assign ecart = j.annee | minus: f -%}
+            {%- if ecart >= 2 -%}{%- assign rang = k -%}{%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- assign nouvelles = "" -%}
+        {%- for k in (0..7) -%}
+          {%- if k == rang -%}{%- assign v = j.annee -%}{%- else -%}{%- assign v = fins[k] -%}{%- endif -%}
+          {%- assign nouvelles = nouvelles | append: v | append: "," -%}
+        {%- endfor -%}
+        {%- assign fins = nouvelles | split: "," -%}
+        {%- if rang > rang_max -%}{%- assign rang_max = rang -%}{%- endif -%}
+        {%- assign voie = D.chronologie.voies | where: "id", j.voie | first -%}
+        {%- assign tier_a = false -%}
+        {%- for id in j.entrees -%}
+          {%- assign url_e = T.url.entrees | append: id | append: "/" -%}
+          {%- assign e = site[T.collection_entrees] | where: "url", url_e | first -%}
+          {%- if e.tier == "A" -%}{%- assign tier_a = true -%}{%- endif -%}
+        {%- endfor %}
+        <li style="--annee: {{ j.annee }}; --rang: {{ rang }};">
+          <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1960 %} jalon-debut{% elsif j.annee > 2010 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="j-{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}">
+            <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }} <i>{{ voie.nom }}</i></span>
+          </a>
+        </li>
+        {%- endfor %}
+      </ol>
       <div class="frise-axe" aria-hidden="true">
         {%- for a in (debut..fin) %}{% assign m = a | modulo: 10 %}{% if m == 0 %}
         <span class="frise-decennie" style="--annee: {{ a }};">{{ a }}</span>
         {%- endif %}{% endfor %}
       </div>
-      {%- for v in D.chronologie.voies %}
-      <div class="frise-voie">
-        <h2 class="frise-voie-nom">{{ v.nom }}</h2>
-        <ol class="frise-voie-jalons">
-          {%- assign dans_voie = jalons | where: "voie", v.id -%}
-          {%- assign precedent = -100 -%}{%- assign decale = false -%}
-          {%- for j in dans_voie %}
-          {%- comment -%} deux jalons proches (moins de 3 ans) sur une même piste : le second est décalé en hauteur {%- endcomment -%}
-          {%- assign ecart = j.annee | minus: precedent -%}
-          {%- if ecart < 3 -%}{%- if decale -%}{%- assign decale = false -%}{%- else -%}{%- assign decale = true -%}{%- endif -%}{%- else -%}{%- assign decale = false -%}{%- endif -%}
-          {%- assign precedent = j.annee -%}
-          {%- assign tier_a = false -%}
-          {%- for id in j.entrees -%}
-            {%- assign url_e = T.url.entrees | append: id | append: "/" -%}
-            {%- assign e = site[T.collection_entrees] | where: "url", url_e | first -%}
-            {%- if e.tier == "A" -%}{%- assign tier_a = true -%}{%- endif -%}
-          {%- endfor %}
-          <li style="--annee: {{ j.annee }};"{% if decale %} class="decale"{% endif %}>
-            <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1966 %} jalon-debut{% elsif j.annee > 2005 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}">
-              <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }}</span>
-            </a>
-          </li>
-          {%- endfor %}
-        </ol>
-      </div>
-      {%- endfor %}
+      <ol class="frise-contexte" aria-label="{{ T.chrono.contexte }}">
+        {%- for c in contexte %}
+        <li style="--annee: {{ c.annee }}; --rang: 0;" data-categorie="{{ c.categorie }}">
+          <a class="evenement evenement-{{ c.categorie }}{% if c.annee < 1960 %} jalon-debut{% elsif c.annee > 2010 %} jalon-fin{% endif %}" href="#c-{{ c.id }}" data-id="c-{{ c.id }}" aria-label="{{ c.annee }} : {{ c.titre }}">
+            {% include repere-contexte.html categorie=c.categorie %}
+            <span class="jalon-etiquette"><b>{{ c.annee }}</b> {{ c.titre }}</span>
+          </a>
+        </li>
+        {%- endfor %}
+      </ol>
+      <p class="frise-invite" id="frise-invite" hidden>{{ T.chrono.invite }}</p>
     </div>
   </div>
+  {%- comment -%} hauteur de la zone des innovations, d'après la rangée la plus haute {%- endcomment -%}
+  <style>.frise-plan { --rangs-haut: {{ rang_max | plus: 1 }}; }</style>
 
   <div class="frise-detail" id="frise-detail" aria-live="polite" hidden>
     <div class="frise-detail-fiche" id="frise-detail-fiche"></div>
     <div class="frise-detail-nav">
       <button type="button" id="frise-prec">{{ T.chrono.prec }}</button>
+      <button type="button" id="frise-fermer">{{ T.chrono.fermer }}</button>
       <button type="button" id="frise-suiv">{{ T.chrono.suiv }}</button>
     </div>
   </div>
@@ -86,6 +123,12 @@
           {%- for g in termes_ok %} <a href="{{ T.url.glossaire | relative_url }}#{{ g.id }}">{{ g.terme }}</a>{% unless forloop.last %},{% endunless %}{% endfor %}
         </p>
         {%- endif %}
+        {%- assign son_contexte = contexte | where_exp: "c", "c.jalons contains j.id" -%}
+        {%- if son_contexte.size > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.contexte }}</span>
+          {%- for c in son_contexte %} <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
+        </p>
+        {%- endif %}
       </div>
     </li>
     {%- endfor %}
@@ -93,52 +136,137 @@
   <p class="jalons-note">{{ T.chrono.note }}</p>
 </section>
 
+<section class="jalons" aria-labelledby="titre-contexte">
+  <h2 id="titre-contexte">{{ T.chrono.tous_contexte }}</h2>
+  <ol class="jalons-liste">
+    {%- for c in contexte %}
+    {%- assign cat = D.chronologie.categories | where: "id", c.categorie | first %}
+    <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}">
+      <p class="fiche-jalon-annee">{{ c.annee }}</p>
+      <div class="fiche-jalon-corps">
+        <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
+        <h3>{{ c.titre }}</h3>
+        <p>{{ c.texte }}</p>
+        {%- if c.jalons and c.jalons.size > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.innovations_liees }}</span>
+          {%- for id in c.jalons %}{% assign j = jalons | where: "id", id | first %} <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
+        </p>
+        {%- endif %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
+          {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
+        </p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  <p class="jalons-note">{{ T.chrono.note_contexte }}</p>
+</section>
+
 <script>
-/* Frise : un clic sur un repère ouvre sa fiche dans le panneau, sans quitter la frise.
-   Sans JavaScript, chaque repère reste un lien vers sa fiche dans la liste ci-dessous. */
+/* Frise : rien n'est ouvert au chargement. Un clic sur un repère ouvre sa fiche dans le panneau.
+   Le contexte est masqué par défaut ; les boutons de catégorie l'affichent.
+   Sans JavaScript, tout est visible et chaque repère reste un lien vers sa fiche dans les listes. */
 (function () {
-  var reperes = Array.prototype.slice.call(document.querySelectorAll(".jalon"));
-  var ordre = Array.prototype.slice.call(document.querySelectorAll(".fiche-jalon")).map(function (li) { return li.id.slice(2); });
+  var plan = document.querySelector(".frise-plan");
+  var reperes = Array.prototype.slice.call(document.querySelectorAll(".jalon, .evenement"));
+  var boutons = Array.prototype.slice.call(document.querySelectorAll(".filtre-contexte"));
+  var lignesCtx = Array.prototype.slice.call(document.querySelectorAll(".frise-contexte li"));
+  var invite = document.getElementById("frise-invite");
   var panneau = document.getElementById("frise-detail");
   var fiche = document.getElementById("frise-detail-fiche");
+  var actives = {};
   var courant = null;
   var doux = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
 
+  function annee(r) { return parseInt(r.parentNode.style.getPropertyValue("--annee"), 10); }
+  function visible(r) { return !r.parentNode.hidden; }
+  // ordre de lecture : chronologique, innovations avant contexte la même année
+  function ordre() {
+    return reperes.filter(visible).sort(function (a, b) {
+      return annee(a) - annee(b) || (a.classList.contains("evenement") - b.classList.contains("evenement"));
+    });
+  }
+
+  // contexte : affichage selon les catégories, puis rangées sous l'axe (même règle que les innovations)
+  function rangerContexte() {
+    var fins = [];
+    lignesCtx.forEach(function (li) {
+      li.hidden = !actives[li.dataset.categorie];
+      if (li.hidden) return;
+      var a = parseInt(li.style.getPropertyValue("--annee"), 10), k = 0;
+      while (fins[k] !== undefined && a - fins[k] < 2) k++;
+      fins[k] = a;
+      li.style.setProperty("--rang", k);
+    });
+    plan.style.setProperty("--rangs-bas", Math.max(fins.length, 1));
+    invite.hidden = fins.length > 0;
+    boutons.forEach(function (b) { b.setAttribute("aria-pressed", actives[b.dataset.categorie] ? "true" : "false"); });
+  }
+
+  function fermer() {
+    courant = null;
+    panneau.hidden = true;
+    reperes.forEach(function (r) { r.classList.remove("jalon-actif"); r.removeAttribute("aria-current"); });
+    history.replaceState(null, "", location.pathname + location.search);
+  }
+
   function ouvrir(id, focus, defiler) {
-    var source = document.getElementById("j-" + id);
+    var source = document.getElementById(id);
     if (!source) return;
+    var li = lignesCtx.filter(function (l) { return l.firstElementChild.dataset.id === id; })[0];
+    if (li && !actives[li.dataset.categorie]) { actives[li.dataset.categorie] = true; rangerContexte(); }
     courant = id;
     fiche.innerHTML = source.innerHTML;
     panneau.hidden = false;
+    var actifR = null;
     reperes.forEach(function (r) {
       var actif = r.dataset.id === id;
       r.classList.toggle("jalon-actif", actif);
-      if (actif) { r.setAttribute("aria-current", "true"); } else { r.removeAttribute("aria-current"); }
-      if (actif && focus) r.focus();
+      if (actif) { r.setAttribute("aria-current", "true"); actifR = r; } else { r.removeAttribute("aria-current"); }
     });
-    var actifR = reperes.filter(function (r) { return r.dataset.id === id; })[0];
+    if (actifR && focus) actifR.focus();
     if (actifR && defiler !== false) actifR.scrollIntoView({ block: "nearest", inline: "center", behavior: doux ? "smooth" : "auto" });
-    history.replaceState(null, "", "#j-" + id);
+    history.replaceState(null, "", "#" + id);
   }
-  // pas de +1 / -1 à partir d'un jalon donné (par défaut, le jalon ouvert), en boucle
+  // pas de +1 / -1 parmi les repères visibles, à partir d'un repère donné (par défaut, celui ouvert)
   function decaler(pas, focus, depuis) {
-    var i = ordre.indexOf(depuis || courant);
-    ouvrir(ordre[(i + pas + ordre.length) % ordre.length], focus);
+    var o = ordre().map(function (r) { return r.dataset.id; });
+    var i = o.indexOf(depuis || courant);
+    if (i === -1) i = pas > 0 ? -1 : 0;
+    ouvrir(o[(i + pas + o.length) % o.length], focus);
   }
 
   reperes.forEach(function (r) {
     r.addEventListener("click", function (e) { e.preventDefault(); ouvrir(r.dataset.id, false); });
-    // les flèches partent du repère qui a le focus, pas du dernier jalon ouvert
+    // les flèches partent du repère qui a le focus, pas du dernier ouvert
     r.addEventListener("keydown", function (e) {
       if (e.key === "ArrowRight") { e.preventDefault(); decaler(1, true, r.dataset.id); }
       if (e.key === "ArrowLeft") { e.preventDefault(); decaler(-1, true, r.dataset.id); }
     });
   });
+  boutons.forEach(function (b) {
+    b.addEventListener("click", function () {
+      actives[b.dataset.categorie] = !actives[b.dataset.categorie];
+      rangerContexte();
+      // la fiche ouverte d'un événement qu'on vient de masquer se ferme
+      var li = lignesCtx.filter(function (l) { return l.firstElementChild.dataset.id === courant; })[0];
+      if (li && li.hidden) fermer();
+    });
+  });
+  // dans le panneau, les renvois entre jalons et contexte restent dans la frise
+  fiche.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("a[href^='#']");
+    if (!a) return;
+    e.preventDefault();
+    ouvrir(a.getAttribute("href").slice(1), false);
+  });
   document.getElementById("frise-prec").addEventListener("click", function () { decaler(-1, false); });
   document.getElementById("frise-suiv").addEventListener("click", function () { decaler(1, false); });
+  document.getElementById("frise-fermer").addEventListener("click", fermer);
 
-  var depuisUrl = location.hash.indexOf("#j-") === 0 ? location.hash.slice(3) : null;
-  // au chargement : pas de défilement de la page, sauf si l'adresse vise un jalon précis
-  ouvrir(ordre.indexOf(depuisUrl) !== -1 ? depuisUrl : "lotus-78", false, !!depuisUrl);
+  rangerContexte();
+  // au chargement, rien n'est sélectionné, sauf si l'adresse vise un repère précis
+  var cible = /^#[jc]-/.test(location.hash) ? location.hash.slice(1) : null;
+  if (cible) ouvrir(cible, false, true);
 })();
 </script>

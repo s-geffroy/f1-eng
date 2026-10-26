@@ -66,7 +66,7 @@ _config.yml          reglages : url, baseurl, collections, greffons, exclusions
 index.html           accueil : index alphabetique, recherche et filtres
 tiers.html           les quatre tiers et leurs membres
 lignees.html         filiations techniques (donnees : _data/lignees.yml)
-chronologie.html     frise cliquable des innovations (donnees : _data/chronologie.yml)
+chronologie.html     frise cliquable : innovations et contexte (donnees : _data/chronologie.yml)
 glossaire.html       glossaire technique (donnees : _data/glossaire.yml)
 voitures.html        planche des voitures qui ont fait date
 dossiers/index.html  liste des dossiers
@@ -142,7 +142,7 @@ redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 
 `/recherche/` et `/en/search/` interrogent un index JSON genere par Jekyll
 (`recherche.json`, `en/search.json`, gabarit `_includes/index-recherche.json`) :
-entrees, voitures, termes du glossaire, jalons et dossiers de la langue.
+entrees, voitures, termes du glossaire, jalons et contexte, dossiers de la langue.
 
 ### Entrees hors classement
 
@@ -182,8 +182,14 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 - `_data/chronologie.yml` : un jalon = annee, voie (architecture, aero,
   moteur, transmission, methode), titre, texte, entrees, termes. Il ne reprend
   que des faits deja sources dans les entrees citees. Repere rouge si une entree
-  du Tier A est citee ; deux jalons a moins de 3 ans sur une meme voie sont
-  decales en hauteur.
+  du Tier A est citee. La frise est un axe unique (1945-2026) : les jalons
+  au-dessus, empiles en rangees (deux reperes a moins de 2 ans changent de rangee).
+- Meme fichier, `contexte` : evenements sous l'axe (reglement, securite,
+  economie, technologie), masques au chargement et affiches par categorie.
+  Un evenement = id (ancre #c-<id>), annee, categorie, titre, texte, jalons lies,
+  sources { titre, url }. Chaque evenement a ses propres sources, verifiees par
+  citation. Memes identifiants, annees, categories et jalons en fr et en
+  (controle par outils/verifier.py).
 - `_data/glossaire.yml` : un terme = id (ancre), terme, definition, premiere
   (facultatif), entrees, sources, motifs. Les motifs servent a lier la premiere
   mention du terme dans chaque entree (`[mot]({{ site.baseurl }}/glossaire/#id)`).

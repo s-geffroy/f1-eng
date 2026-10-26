@@ -338,9 +338,25 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 }
 .chaine li > span { color: var(--mine); font-weight: 500; }
 
-/* ---------- Chronologie : un relevé à cinq pistes ----------
-   Axe des années de --debut à --fin ; chaque repère est placé par --annee.
-   Losange rouge : innovation portée par un ingénieur du Tier A. */
+/* ---------- Chronologie : un axe unique ----------
+   Années de --debut à --fin ; chaque repère est placé par --annee et empilé par --rang.
+   Au-dessus de l'axe, les innovations (losange rouge : Tier A) ; en dessous, le contexte,
+   une forme par catégorie, affiché à la demande. */
+
+.frise-filtres { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 0.75rem; }
+.frise-filtres p { margin: 0 0.25rem 0 0; font-family: var(--titre); font-size: 1.0625rem; font-weight: 600; }
+.filtre-contexte {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font: 600 1rem/1.4 var(--titre); color: var(--graphite); cursor: pointer;
+  background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-radius: 0; padding: 0.25rem 0.65rem;
+}
+.filtre-contexte .repere-contexte { width: 0.9rem; height: 0.9rem; }
+.filtre-nombre { font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums; }
+.filtre-contexte:hover { box-shadow: inset 0 -3px 0 var(--graphite); }
+.filtre-contexte[aria-pressed="true"] { background: var(--graphite); color: var(--feuille); }
+.filtre-contexte[aria-pressed="true"] .filtre-nombre { color: var(--trait-clair); }
+.filtre-contexte[aria-pressed="true"] .repere-contexte { fill: var(--graphite); stroke: var(--feuille); }
+.filtre-contexte:focus-visible { outline: 2px solid var(--graphite); outline-offset: 2px; }
 
 .frise-defilement {
   overflow-x: auto;
@@ -349,39 +365,41 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   -webkit-overflow-scrolling: touch;
 }
 .frise-plan {
-  --nom: 11.5rem; --droite: 2rem;
-  position: relative; min-width: 72rem;
-  padding-top: 2.25rem;
+  --pas: 1.6rem; --cote: 2rem;
+  --haut: calc(var(--rangs-haut, 4) * var(--pas) + 2.75rem);
+  --bas: calc(var(--rangs-bas, 1) * var(--pas) + 2.75rem);
+  position: relative; min-width: 64rem;
+  height: calc(var(--haut) + 2rem + var(--bas));
 }
-.frise-axe { position: absolute; top: 0; bottom: 0; left: var(--nom); right: var(--droite); pointer-events: none; }
+.frise-innovations, .frise-contexte, .frise-axe { position: absolute; left: var(--cote); right: var(--cote); margin: 0; padding: 0; list-style: none; }
+.frise-innovations { top: 0; height: var(--haut); z-index: 1; }
+.frise-contexte { top: calc(var(--haut) + 2rem); height: var(--bas); z-index: 1; }
+.frise-innovations li, .frise-contexte li { position: absolute; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
+.frise-innovations li { bottom: calc(var(--rang) * var(--pas) + 0.8rem); }
+.frise-contexte li { top: calc(var(--rang) * var(--pas) + 0.8rem); }
+
+/* l'axe : trait fort, décennies en graduation, repères verticaux en tirets */
+.frise-axe { top: 0; bottom: 0; pointer-events: none; }
+.frise-axe::before { content: ""; position: absolute; left: calc(-1 * var(--cote)); right: calc(-1 * var(--cote)); top: var(--haut); border-top: var(--trait-fort) solid var(--graphite); }
 .frise-decennie {
   position: absolute; top: 0; bottom: 0;
   left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
   border-left: var(--trait-fin) dashed var(--trait-clair);
-  padding: 0.4rem 0 0 0.3rem;
+  padding: calc(var(--haut) + 0.3rem) 0 0 0.3rem;
   font-family: var(--titre); font-size: 0.875rem; font-weight: 600; color: var(--mine);
   font-variant-numeric: tabular-nums;
 }
-.frise-voie { position: relative; height: 5.5rem; border-top: var(--trait-fin) solid var(--trait); }
-.frise-voie-nom {
-  position: sticky; left: 0; z-index: 2;
-  width: var(--nom); height: 100%; margin: 0;
-  display: flex; align-items: center;
-  padding: 0 0.75rem;
-  background: var(--feuille);
-  border-right: var(--trait-fort) solid var(--graphite);
-  font-size: 1rem; font-weight: 600; line-height: 1.15;
+.frise-invite {
+  position: absolute; left: var(--cote); right: var(--cote); top: calc(var(--haut) + 2.4rem); margin: 0;
+  font-size: 0.9375rem; font-style: italic; color: var(--mine);
 }
-.frise-voie-jalons { position: absolute; top: 0; bottom: 0; left: var(--nom); right: var(--droite); margin: 0; padding: 0; list-style: none; }
-.frise-voie-jalons li { position: absolute; top: 38%; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
-.frise-voie-jalons li.decale { top: 70%; }
-.frise-voie-jalons li.decale .jalon-etiquette { bottom: auto; top: calc(100% + 0.35rem); }
 
-.jalon {
+.jalon, .evenement {
   position: absolute; left: 0; top: 0;
   width: 1.75rem; height: 1.75rem; transform: translate(-50%, -50%);
   display: block; text-decoration: none; z-index: 1;
 }
+.jalon:hover, .jalon:focus-visible, .jalon-actif, .evenement:hover, .evenement:focus-visible { z-index: 4; }
 .jalon::before {
   content: ""; position: absolute; inset: 0.4rem;
   background: var(--graphite);
@@ -392,7 +410,12 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .jalon-a::before { background: var(--tier-a); outline-color: var(--tier-a); }
 .jalon:hover::before, .jalon:focus-visible::before { transform: rotate(45deg) scale(1.35); }
 .jalon-actif::before { transform: rotate(45deg) scale(1.5); outline: 2px solid var(--graphite); outline-offset: 2px; }
-.jalon:focus-visible { outline: none; }
+.jalon:focus-visible, .evenement:focus-visible { outline: none; }
+
+.repere-contexte { fill: var(--feuille); stroke: var(--graphite); stroke-width: 1.6; stroke-linejoin: round; vertical-align: -0.1em; }
+.evenement .repere-contexte { position: absolute; left: 0.375rem; top: 0.375rem; width: 1rem; height: 1rem; transition: transform 0.15s ease; }
+.evenement:hover .repere-contexte, .evenement:focus-visible .repere-contexte { transform: scale(1.3); }
+.evenement.jalon-actif .repere-contexte { fill: var(--graphite); transform: scale(1.4); }
 
 .jalon-etiquette {
   position: absolute; bottom: calc(100% + 0.35rem); left: 50%; transform: translateX(-50%);
@@ -402,7 +425,10 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   opacity: 0; pointer-events: none; transition: opacity 0.15s ease; z-index: 3;
 }
 .jalon-etiquette b { font-weight: 700; margin-right: 0.25rem; }
-.jalon:hover .jalon-etiquette, .jalon:focus-visible .jalon-etiquette, .jalon-actif .jalon-etiquette { opacity: 1; }
+.jalon-etiquette i { font-style: normal; color: var(--mine); margin-left: 0.35rem; }
+.evenement .jalon-etiquette { bottom: auto; top: calc(100% + 0.35rem); }
+.jalon:hover .jalon-etiquette, .jalon:focus-visible .jalon-etiquette, .jalon-actif .jalon-etiquette,
+.evenement:hover .jalon-etiquette, .evenement:focus-visible .jalon-etiquette { opacity: 1; }
 /* aux extrémités de l'axe, l'étiquette s'ouvre vers l'intérieur de la frise */
 .jalon-debut .jalon-etiquette { left: -0.25rem; transform: none; }
 .jalon-fin .jalon-etiquette { left: auto; right: -0.25rem; transform: none; }
@@ -421,7 +447,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-variant-numeric: tabular-nums;
 }
 .frise-detail-fiche .fiche-jalon-corps { padding: 0.75rem 1.25rem 1rem; max-width: 48rem; }
-.frise-detail-nav { display: flex; justify-content: space-between; gap: 1rem; border-top: var(--trait-fin) solid var(--trait); padding: 0.5rem 0.75rem; }
+.frise-detail-nav { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; border-top: var(--trait-fin) solid var(--trait); padding: 0.5rem 0.75rem; }
 .frise-detail-nav button {
   font: 600 1rem/1.4 var(--titre); color: var(--graphite); cursor: pointer;
   background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-radius: 0; padding: 0.25rem 0.75rem;
@@ -438,12 +464,13 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .fiche-jalon-corps h3 { font-size: 1.375rem; margin: 0.1rem 0 0.35rem; }
 .fiche-jalon-corps p { margin: 0 0 0.5rem; max-width: var(--colonne); }
 .fiche-jalon-voie { font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); margin: 0 !important; }
+.fiche-jalon-voie .repere-contexte { width: 0.85em; height: 0.85em; margin-right: 0.35em; }
 .fiche-jalon-liens { font-size: 0.9375rem; }
 .fiche-jalon-liens span { font-family: var(--titre); font-weight: 600; margin-right: 0.35rem; }
 .jalons-note { color: var(--mine); font-size: 0.9375rem; margin-top: 1rem; }
 
 @media (prefers-reduced-motion: reduce) {
-  .jalon::before, .jalon-etiquette { transition: none; }
+  .jalon::before, .jalon-etiquette, .evenement .repere-contexte { transition: none; }
 }
 
 /* ---------- Glossaire : un dictionnaire de normes ---------- */
@@ -560,10 +587,9 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   .ligne-score { grid-column: 4; }
   .tier-liste .ligne-domaine { display: none; }
   .tier { padding-left: 1rem; }
-  .frise-plan { --nom: 7.5rem; min-width: 60rem; }
+  .frise-plan { min-width: 56rem; }
   .glossaire-groupe { grid-template-columns: 2.5rem minmax(0, 1fr); }
   .terme-renvois div { grid-template-columns: minmax(0, 1fr); }
-  .frise-voie-nom { font-size: 0.875rem; padding: 0 0.5rem; }
   .frise-detail-fiche { grid-template-columns: minmax(0, 1fr); }
   .frise-detail-fiche .fiche-jalon-annee { border-right: 0; border-bottom: var(--trait-fin) solid var(--trait); font-size: 2.25rem; }
   .fiche-jalon { grid-template-columns: 4rem minmax(0, 1fr); }

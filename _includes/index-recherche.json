@@ -1,4 +1,4 @@
-{%- comment -%} Index de recherche d'une langue : entrées, termes du glossaire, jalons, dossiers. {%- endcomment -%}
+{%- comment -%} Index de recherche d'une langue : entrées, voitures, termes du glossaire, jalons et contexte, dossiers. {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
@@ -21,6 +21,12 @@
 {%- capture url_j %}{{ T.url.chronologie | relative_url }}#j-{{ j.id }}{% endcapture -%}
 {%- capture titre_j %}{{ j.annee }} — {{ j.titre }}{% endcapture -%}
 {{ sep }}{"type":"jalon","titre":{{ titre_j | jsonify }},"sous":"","url":{{ url_j | jsonify }},"texte":{{ j.texte | jsonify }}}
+{%- endfor -%}
+{%- comment -%} les événements de contexte de la frise sont classés avec les jalons (groupe « chronologie ») {%- endcomment -%}
+{%- for c in D.chronologie.contexte -%}
+{%- capture url_c %}{{ T.url.chronologie | relative_url }}#c-{{ c.id }}{% endcapture -%}
+{%- capture titre_c %}{{ c.annee }} — {{ c.titre }}{% endcapture -%}
+{{ sep }}{"type":"jalon","titre":{{ titre_c | jsonify }},"sous":"","url":{{ url_c | jsonify }},"texte":{{ c.texte | jsonify }}}
 {%- endfor -%}
 {%- for d in site[T.collection_dossiers] -%}
 {{ sep }}{"type":"dossier","titre":{{ d.title | jsonify }},"sous":{{ d.resume | jsonify }},"url":{{ d.url | relative_url | jsonify }},"texte":{{ d.content | strip_html | normalize_whitespace | jsonify }}}
