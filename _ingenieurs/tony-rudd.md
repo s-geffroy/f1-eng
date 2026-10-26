@@ -39,16 +39,16 @@ Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'
 
 ## BRM
 
-- Apprenti chez Rolls-Royce, il est détaché chez BRM peu après les débuts de la V16, en 1950, pour s'occuper de ses compresseurs.
+- Apprenti chez Rolls-Royce, il rejoint BRM peu après ses débuts désastreux à Silverstone en 1950, et travaille d'abord sur la V16.
 - En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs.
-- Sur la BRM P261, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour en corriger le manque de rigidité.
+- Sur la BRM P261, évolution de la P61, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour corriger le manque de rigidité de la P61.
 - En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu.
 - En 1969, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), il suggère que la voiture elle-même produise l'[appui]({{ site.baseurl }}/glossaire/#appui). [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), mais le projet secret de [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) est arrêté en juin 1969.
 
 ## Lotus
 
 - Entré chez Group Lotus en 1969, il fait de Lotus Engineering un grand prestataire de recherche pour les constructeurs automobiles.
-- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), Wright et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}). Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du De Havilland Mosquito.
+- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Wright, rejoints ensuite par [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) pour les suspensions. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du De Havilland Mosquito.
 
 ## Pourquoi derrière Wright
 

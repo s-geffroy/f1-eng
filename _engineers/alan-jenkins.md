@@ -33,7 +33,7 @@ Alan Jenkins was [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnar
 - **Penske.** He designed the PC15 and PC16 IndyCars, sophisticated but seldom winners.
 - **Onyx.** He designed the ORE-1, the team's first F1 car, in 1989.
 - **Footwork.** As technical director, he designed the Porsche-engined FA12.
-- **Stewart.** As technical director, he designed the 1997 SF1, then the SF3 before leaving. He worked there with 50% scale models, a practice still recent in F1; computational fluid dynamics was then mentioned only in theory.
+- **Stewart.** As technical director, he designed the 1997 SF1, then the SF3 before leaving. He worked there with 50% scale models, a practice still recent in F1 (only Williams and Ferrari used it at the time); according to Jenkins, the use of these models and of computational fluid dynamics, a technique that was still new, was a deliberate choice by the team.
 
 ## Limits of the sources
 

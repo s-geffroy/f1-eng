@@ -36,7 +36,7 @@ image: "/assets/partage/en/mauro-forghieri.jpg"
 ---
 ## Total engineering
 
-On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. He went on to cover the whole spectrum of the single-seater: engine, transmission, chassis, suspension, aerodynamics. His 27 years at Ferrari brought four drivers' titles, seven constructors' titles and 54 Grand Prix wins (Autosport).
+On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics. In 27 years at Ferrari, he counted four drivers' titles and seven constructors' titles (Motor Sport); Autosport adds 54 Grand Prix wins.
 
 ## Mass centralisation
 
@@ -50,11 +50,11 @@ One guiding idea links his cars of the 1970s: **[centralising the masses]({{ sit
 
 - At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position. Formula 1 points out, however, that others had used wings before him.
 - He designed Ferrari's first turbocharged F1 engine, in 1981.
-- From 1987, he ran the technical side of Lamborghini Engineering, whose V12 raced in F1 in 1989 and 1990.
+- From 1987, he ran the technical side of Lamborghini Engineering, whose V12 raced in F1 from 1989.
 
 ## Attribution
 
-The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: Formula 1 specifies that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that he tended to overstate his own inventions.
+The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: Formula 1 specifies that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
 
 ## Why Tier B
 

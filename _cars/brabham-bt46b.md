@@ -41,7 +41,7 @@ The regulations banned movable aerodynamic devices. Brabham argued that the fan'
 - Gary Anderson claims he suggested fitting a fan;
 - engineer David Cox claims a share of it: he says he glimpsed a drawing of a fan on [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %})'s drawing board at Tyrrell.
 
-All agree on the source of inspiration: the Chaparral 2J from Can-Am, the 1970 "sucker" car. And on the execution: "The Brabham design team did a wonderful job of putting the idea into practice."
+According to Motor Sport, the common inspiration was the Chaparral 2J from Can-Am, the 1970 "sucker" car, which Murray confirms. The magazine also praises the Brabham design team for the way it put the idea into practice.
 
 ## Limitations
 
@@ -52,4 +52,4 @@ The BT46B raced only once: at the Swedish Grand Prix, at Anderstorp, on 17 June 
 
 ## Legacy
 
-An innovation withdrawn after one race does not prove lasting influence. Motor Sport drew the lesson in 1998: what mattered most was not the technology, but Bernie Ecclestone's agreement to withdraw it and placate the other teams.
+An innovation withdrawn after one race does not prove lasting influence. In 1998, John Watson drew the lesson in Motor Sport: what mattered most was not the technology, but Bernie Ecclestone's agreement to withdraw it and placate the other teams.

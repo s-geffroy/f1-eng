@@ -23,11 +23,11 @@ image: "/assets/partage/en/franco-rocchi.jpg"
 ---
 ## What he did
 
-Franco Rocchi was a Ferrari engine engineer for three decades, associated with the **[flat-12]({{ site.baseurl }}/en/glossary/#flat-12)** of the 312B and 312T.
+Franco Rocchi spent some twenty-five years in Ferrari's racing department, in a variety of roles, and remains associated with the **[flat-12]({{ site.baseurl }}/en/glossary/#flat-12)** of the 312B and 312T.
 
 ## Technical career
 
-- A former aeronautical engineer at Reggiane, alongside Aurelio Lampredi, he joined Ferrari in 1949.
+- Having worked at the aircraft maker Reggiane, alongside Aurelio Lampredi, he joined Ferrari in 1949.
 - He worked under [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) then Carlo Chiti, and stayed at Ferrari when Chiti left in 1961.
 - [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) names him among the technicians of the small team that designed the 312B and its flat-12 in 1969.
 - In 1973, Forghieri and Rocchi reworked the 312B3 together.

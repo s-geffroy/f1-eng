@@ -29,7 +29,7 @@ image: "/assets/partage/en/jean-claude-migeot.jpg"
 
 The **Tyrrell 019** and its **[raised nose]({{ site.baseurl }}/en/glossary/#nez-releve)** changed the way air is fed to the car's floor. Introduced at the 1990 San Marino Grand Prix, it combined a high nose with an anhedral front [wing]({{ site.baseurl }}/en/glossary/#aileron) that improved aerodynamic efficiency. In 2023, Motor Sport still described it as a high-nose design “that started the modern trend”.
 
-With the 019, Tyrrell finished fifth in the constructors' championship, its best result since 1979.
+In 1990, Tyrrell held on to fifth place in the constructors' championship, already achieved in 1989 — its best result since 1979.
 
 ## Technical career
 

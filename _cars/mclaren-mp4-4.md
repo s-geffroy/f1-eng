@@ -33,7 +33,7 @@ image: "/assets/partage/en/voitures/mclaren-mp4-4.jpg"
 ---
 ## What it changed
 
-In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure. Many expected a transition year. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away.
+In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure. In theory, these rules favoured the rivals with naturally aspirated engines; McLaren nevertheless remained confident. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away.
 
 Its principle: a very low car. The new Honda V6 had its crankshaft 28 mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
 

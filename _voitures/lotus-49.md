@@ -11,7 +11,7 @@ concepteurs: ["colin-chapman", "maurice-philippe", "keith-duckworth", "mike-cost
 termes: ["moteur-porteur", "monocoque", "aileron"]
 jalons: ["dfv", "dfv-fva", "ailerons"]
 sources:
-  - titre: "Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
+  - titre: "Denis Jenkinson, Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
   - titre: "Lotus Cars, « Type 49 »"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-49"
@@ -35,7 +35,7 @@ La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble. Motor Sport le note
 
 Le même article précise que la voiture n'est pas nouvelle dans son principe, mais entièrement nouvelle dans sa réalisation. La [Lancia D50]({{ site.baseurl }}{% link _voitures/lancia-d50.md %}) employait déjà son moteur comme élément structurel en 1954. La Lotus 49 en fait la norme.
 
-La mise au point est serrée : le moteur n'a été marié à la voiture que quelques jours avant le Grand Prix des Pays-Bas de 1967, que Jim Clark gagne pour sa première course.
+La mise au point est serrée : selon Denis Jenkinson (Motor Sport), la première 49 ne roule qu'à la mi-mai 1967, Graham Hill assure seul les essais, et Jim Clark découvre la voiture à Zandvoort, où il gagne le Grand Prix des Pays-Bas pour sa première course. Goodwood écrit, lui, que le moteur n'a été marié à la voiture que « quelques jours » avant la course.
 
 ## Qui l'a conçue
 

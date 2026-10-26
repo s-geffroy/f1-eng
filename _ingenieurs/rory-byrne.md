@@ -57,7 +57,7 @@ Rory Byrne est l'homme qui a dessiné les **sept voitures championnes du monde d
 
 ## Attribution
 
-Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}). La passation à [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) est datée différemment selon les sources : à partir de la fin de 2004 pour l'une, avec une retraite prévue fin 2006 pour l'autre.
+Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}). La passation à [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) est progressive : elle commence fin 2004, et Byrne prévoyait de se retirer fin 2006 avant de rester comme consultant.
 
 ## Pourquoi le Tier D
 

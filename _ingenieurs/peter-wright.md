@@ -24,6 +24,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "Motor Sport Magazine, « Mission: Improbable » (avril 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
+  - titre: "GrandPrix.com, « Tony Southgate »"
+    url: "https://grandprix.com/people/tony-southgate.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/peter-wright.jpg"
 redirect_from: "/ingenieurs/2026/10/25/peter-wright.html"
@@ -36,7 +38,7 @@ La place élevée de Peter Wright corrige un biais fréquent : attribuer l'[effe
 
 1. **BRM.** Wright y commence sa propre « [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) », idée qui évoluera jusqu'à la Lotus 78. En 1969, Rudd, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), suggère que la carrosserie produise elle-même l'[appui]({{ site.baseurl }}/glossaire/#appui) ; Wright mesure en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College des niveaux d'appui inédits, mais le projet est arrêté en juin 1969.
 2. **March.** Chez Specialised Mouldings, il conçoit les pontons à profil d'aile de la March 701.
-3. **Lotus.** En août 1975, Chapman remet son cahier des charges de voiture-aile à Rudd. Wright mène les essais en soufflerie à l'Imperial College ; la première Lotus 78 est prête à rouler à l'automne 1976.
+3. **Lotus.** En août 1975, Chapman remet son cahier des charges de voiture-aile à Rudd. Wright mène les essais en soufflerie à l'Imperial College ; la première Lotus 78 roule en essais privés dans la seconde moitié de 1976.
 4. **Lotus 78 puis 79**, et diffusion du principe à tout le plateau.
 
 ## Après l'effet de sol

@@ -43,7 +43,7 @@ The **Cosworth DFV** did not just transform the engine: it changed the industria
 4. which therefore no longer need to develop an engine of their own: it opened the door to teams such as those of Frank Williams and Ken Tyrrell;
 5. and can concentrate their resources on chassis and aerodynamics.
 
-For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won; the engine had been fitted to the Lotus 49s only a few days earlier. The DFV won every race of the 1969 and 1973 seasons, and took **155 world championship Grands Prix** up to 1983, the last of them in its short-stroke DFY version (GrandPrix.com counts 154).
+For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won; the engine had been fitted to the Lotus 49s only a few days earlier, according to Goodwood; Motor Sport shows the first 49 out testing as early as mid-May. The DFV won every race of the 1969 and 1973 seasons, and took **155 world championship Grands Prix** up to 1983, the last of them in its short-stroke DFY version (GrandPrix.com counts 154).
 
 ## Technical career
 

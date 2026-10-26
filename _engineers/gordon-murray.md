@@ -37,6 +37,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
   - titre: "Gary Watkins, Autosport, “The origins of McLaren-Honda's greatest racer”"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
+  - titre: "Keith Howard, Motor Sport Magazine, “Harnessing the power” (January 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/gordon-murray.jpg"
 ---
@@ -46,16 +48,16 @@ Murray combines two qualities rarely found together: conceptual radicalism and p
 
 - **The Brabham BT46B (1978)** carries a large vertical [fan]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur) under the rear [wing]({{ site.baseurl }}/en/glossary/#aileron), officially to cool the Alfa Romeo [flat-12]({{ site.baseurl }}/en/glossary/#flat-12). It won the Swedish Grand Prix with Niki Lauda, its only race. Motor Sport gives two versions of what happened next: according to a 2025 article, Brabham withdrew it of its own accord; according to a 1998 article, a voluntary withdrawal had been negotiated, and then the sporting authority banned it "on safety grounds".
 - **The modern tactical pit stop.** [Refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement) returned in 1982 thanks to Brabham and Murray. Riccardo Patrese took on four new tyres and 24 gallons of fuel in 15.6 seconds: the first routine modern stop.
-- **The Brabham BT52 (1983).** After the announcement, on 3 November 1982, of the mandatory [flat bottom]({{ site.baseurl }}/en/glossary/#fond-plat), which banned [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) underbodies and [skirts]({{ site.baseurl }}/en/glossary/#jupes), the BT52 was designed and built in six weeks. With it, Nelson Piquet became the first world champion with a turbo engine, and Murray's modular system was then widely copied.
+- **The Brabham BT52 (1983).** After the announcement, on 3 November 1982, of the mandatory [flat bottom]({{ site.baseurl }}/en/glossary/#fond-plat), which banned [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) underbodies and [skirts]({{ site.baseurl }}/en/glossary/#jupes), the BT52 was designed and built in six weeks (three months according to Murray himself). With it, Nelson Piquet became the first world champion with a turbo engine, and Murray's modular system was then widely copied.
 - **McLaren and the MP4/4.** Murray then joined McLaren, where the MP4/4 was born; it won 15 of the 16 races of 1988.
 
 ## Attribution: the MP4/4
 
-Formula 1 attributes the MP4/4 to Murray. Its authorship is nonetheless disputed: according to Autosport, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), generally presented as its chief designer, considers Murray's role "more directorial than technical". Cautious wording is called for: Murray contributed to the MP4/4 era; he is not its sole author.
+Formula 1 attributes the MP4/4 to Murray. Its authorship is nonetheless disputed. According to Autosport, Murray and [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), then McLaren's technical director and chief designer respectively, have both been presented as its designer; Nichols considers Murray's role "more directorial than technical". Autosport nevertheless concludes that the detail design was down to Nichols and his team, but that Murray, as befits a technical director, was at the heart of the concept. Cautious wording is called for: Murray played a central role in the MP4/4's concept; he is not its sole author.
 
 ## Why Tier B
 
-His ideas are strong and often unexpected, but the **spread of some of his breakthroughs remains uneven**. The BT46B raced only once: a withdrawn innovation keeps its value as a breakthrough, without proving lasting influence. The tactical pit stop and the BT52's modular system, on the other hand, were taken up by everyone.
+His ideas are strong and often unexpected, but the **spread of some of his breakthroughs remains uneven**. The BT46B raced only once: a withdrawn innovation keeps its value as a breakthrough, without proving lasting influence. The tactical pit stop, adopted by every team from 1983, and the BT52's modular system, widely copied, were on the other hand taken up.
 
 ## Lineage
 

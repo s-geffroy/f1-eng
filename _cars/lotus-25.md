@@ -15,6 +15,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
   - titre: "Lotus Cars, “Type 25”"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
+  - titre: "Formula 1, “1962 Team Standings” (official results)"
+    url: "https://www.formula1.com/en/results/1962/team"
 photo:
   fichier: "/assets/voitures/lotus-25.jpg"
   legende: "Jim Clark in the Lotus 25 at the Dutch Grand Prix, Zandvoort, 23 June 1963."
@@ -46,7 +48,7 @@ According to Ron Hickman, quoted in the same article, the original idea may have
 ## Limitations
 
 - It was not an absolute first. Motor Sport points out that Gabriel Voisin was already building a monocoque aircraft fuselage in 1910, and that racing cars had preceded it, such as Alec Issigonis's Lightweight Special single-seater of 1938. The 25's contribution was to establish it in F1.
-- Its first season suffered from teething troubles: in 1962, Lotus missed the constructors' title by one point, and Clark finished behind Graham Hill.
+- Its first season suffered from teething troubles: in 1962, Lotus finished second in the constructors' championship, six points behind BRM (Lotus Cars mentions a one-point gap), and Clark finished behind Graham Hill.
 
 ## Legacy
 

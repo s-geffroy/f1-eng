@@ -23,11 +23,11 @@ image: "/assets/partage/franco-rocchi.jpg"
 ---
 ## Ce qu'il a fait
 
-Franco Rocchi est un ingénieur moteur de Ferrari pendant trois décennies, associé au **[flat-12]({{ site.baseurl }}/glossaire/#flat-12)** des 312B et 312T.
+Franco Rocchi passe environ vingt-cinq ans au service course de Ferrari, dans des rôles variés, et reste associé au **[flat-12]({{ site.baseurl }}/glossaire/#flat-12)** des 312B et 312T.
 
 ## Parcours technique
 
-- Ancien ingénieur aéronautique chez Reggiane, aux côtés d'Aurelio Lampredi, il entre chez Ferrari en 1949.
+- Passé par l'avionneur Reggiane, aux côtés d'Aurelio Lampredi, il entre chez Ferrari en 1949.
 - Il travaille sous [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) puis Carlo Chiti, et reste chez Ferrari lors du départ de Chiti en 1961.
 - [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) le cite parmi les techniciens de l'équipe restreinte qui conçoit, en 1969, la 312B et son flat-12.
 - En 1973, Forghieri et Rocchi reprennent ensemble la 312B3.

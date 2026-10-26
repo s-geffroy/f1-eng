@@ -39,4 +39,4 @@ François Castaing is the engineer behind the **V6 from which all of Renault's F
 
 ## Attribution
 
-GrandPrix.com presents the first EF1 turbo engine as designed by Castaing. More precisely, the EF1 is a turbo version of the V6 designed by Castaing **and** Jean-Pierre Boudy; Castaing himself recalled being less convinced than Boudy by the turbo at first.
+GrandPrix.com presents the first EF1 turbo engine as designed by Castaing. More precisely, the EF1 is a turbo version of the V6 designed by Castaing **and** Jean-Pierre Boudy; Castaing himself recalled having at first been far less convinced than Boudy that a turbo could run on pump fuel.

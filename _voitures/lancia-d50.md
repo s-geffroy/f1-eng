@@ -40,14 +40,14 @@ Ces masses rassemblées lui donnent un faible [moment polaire d'inertie]({{ site
 
 ## Qui l'a conçue
 
-[Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) dirige l'équipe, et Motor Sport lui attribue les principes d'ensemble. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), qui conçoit le moteur, nuance : selon lui, personne n'est seul responsable de la conception d'ensemble, et plusieurs innovations viennent de [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) lui-même. Le site parle donc d'une réalisation d'équipe, dirigée par Jano.
+[Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) dirige l'équipe, et Motor Sport lui attribue les principes d'ensemble. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), chargé du moteur, conteste cette attribution : Jano dirigeait l'équipe mais n'était pas « le concepteur » ; selon lui, personne n'est seul responsable de la conception d'ensemble, les grands choix sont sortis de discussions collectives, et c'est [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) qui tranchait. Chris Nixon ajoute que plusieurs innovations venaient de Gianni Lancia lui-même. Le site parle donc d'une réalisation d'équipe, dirigée par Jano.
 
 ## Limites
 
 - Les débuts sont laborieux : le châssis doit être renforcé contre la torsion, et la circulation d'huile est d'abord si mauvaise que le V8 ne tient que quatre ou cinq tours.
 - Vive, la voiture prévient mal : les pilotes sentent à peine venir la perte d'adhérence.
-- Les chiffres de puissance varient selon les sources : de 250 ch environ à un maximum de quelque 275 ch, selon Motor Sport.
+- La puissance progresse avec le développement, d'environ 250 ch à quelque 275 ch selon Doug Nye (Motor Sport) ; Chris Nixon indique 260 ch à 8 000 tr/min.
 
 ## Ce qu'elle laisse
 
-En 1955, les voitures passent à Ferrari. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre mondial de 1956. Le principe du moteur porteur sera généralisé à partir de 1967 par la [Lotus 49]({{ site.baseurl }}{% link _voitures/lotus-49.md %}) et le Cosworth DFV.
+En 1955, les voitures passent à Ferrari. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre mondial de 1956. Le principe du moteur porteur sera généralisé à partir de 1967, en position arrière, par la [Lotus 49]({{ site.baseurl }}{% link _voitures/lotus-49.md %}) et le DFV.

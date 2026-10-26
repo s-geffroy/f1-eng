@@ -19,6 +19,8 @@ sources:
     url: "https://www.autosport.com/f1/news/how-barnards-revolutionary-mclaren-transformed-f1-car-construction/6570842/"
   - titre: "Classic Team Lotus, « Type 88 »"
     url: "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88"
+  - titre: "Motor Sport, « Lunch with… Steve Nichols » (mai 2018)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-1.jpg"
   legende: "La MP4/1 exposée au McLaren Technology Centre, le 8 décembre 2016."
@@ -37,7 +39,7 @@ McLaren la présente comme la première F1 conçue en composite carbone. Faute d
 
 ## Qui l'a conçue
 
-[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}).
+[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), qui rejoint selon lui Barnard et [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) : « juste nous trois ».
 
 - **Le contact avec Hercules.** Barnard dit que c'est Nichols qui l'a orienté vers Hercules Aerospace. La page de McLaren l'attribue plutôt à une relation de Barnard datant de ses années en IndyCar, sans la nommer.
 - **Le calcul des matériaux.** Selon Autosport, British Aerospace présente à Barnard l'ingénieur aéronautique [Arthur Webb]({{ site.baseurl }}{% link _ingenieurs/arthur-webb.md %}), qui lui apporte la science des matériaux dont il a besoin.

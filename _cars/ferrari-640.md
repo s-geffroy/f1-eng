@@ -35,7 +35,7 @@ The Ferrari 640 replaced the gear lever with an electro-hydraulically controlled
 
 The first thing that comes to mind is the time saved on every gear change. That was not the starting point. John Barnard explained it in Motor Sport: "The project started because I wanted to make the monocoque really narrow." That would have meant running a linkage from the cockpit to the gearbox, alongside the engine, and finding room for the lever and the driver's hand. "I thought, 'Surely, instead of a gear lever, I can have a switch.' So it was a packaging imperative." The time saving came afterwards.
 
-The idea had taken root in 1980, when Barnard was sorting out the linkage problems of the Chaparral 2K, winner of the Indianapolis 500. The gearbox was first meant for the 639 in 1988, but Ferrari raced its turbo engine that season.
+The idea had taken root when Barnard was sorting out the linkage problems of the Chaparral 2K, winner of the 1980 Indianapolis 500. The gearbox was first meant for the 639 in 1988, but Ferrari raced its turbo engine that season.
 
 The narrow [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) led to other choices: a front suspension with short torsion bars, which according to Barnard started a lasting trend, and radiator airflow ducted all the way to the rear, away from the wing.
 

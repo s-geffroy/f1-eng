@@ -31,7 +31,7 @@ image: "/assets/partage/voitures/lotus-72.jpg"
 ---
 ## Ce qu'elle change
 
-Classic Team Lotus résume ses traits radicaux : radiateurs placés sur les côtés, forme en coin, freins avant à l'intérieur des roues, suspension à barres de torsion.
+Classic Team Lotus résume ses traits radicaux : radiateurs placés sur les côtés, forme en coin, freins avant montés à l'intérieur de la caisse (« inboard »), suspension à barres de torsion.
 
 - **Les radiateurs** quittent le nez pour les flancs, dans ce qu'on appelle aujourd'hui les pontons. Le nez, bas et en coin, est libéré. La Lotus 56 à turbine de 1968 avait déjà montré une monoplace sans radiateur à l'avant, mais parce qu'elle n'en avait pas besoin.
 - **Les freins avant** sont déplacés vers l'intérieur : disques et étriers ne pèsent plus sur la roue, ce qui réduit les masses non suspendues.

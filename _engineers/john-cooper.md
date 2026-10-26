@@ -46,14 +46,14 @@ Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.b
 - **1958.** Coopers scored the first world championship wins for cars with the engine behind the driver.
 - **1959.** The T51, powered by the 245 hp Coventry Climax FPF four-cylinder, brought the title.
 - **1960.** The T53 "Lowline" delivered a second double of titles.
-- **1961.** At Indianapolis, Jack Brabham finished ninth in a Cooper with a Climax engine enlarged from 2.5 to 2.7 litres: the rear engine arrived in the United States.
+- **1961.** At Indianapolis, Jack Brabham finished ninth in a Cooper with a Climax engine enlarged from 2.5 to 2.7 litres: the rear engine, already tried without success at Indianapolis between 1937 and 1951, made a comeback there that would change everything.
 - **September 1961.** The Mini Cooper was born, with a 997 cc four-cylinder with twin carburettors and 55 hp.
 
 John Cooper died on Christmas Eve 2000, aged 77.
 
 ## Why it is a revolution of the highest order
 
-This change simultaneously alters weight distribution, the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), traction, packaging, chassis architecture and future aerodynamic design. Since 1959, every F1 world champion has driven with the engine behind him.
+This change simultaneously alters weight distribution, the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), traction, packaging, chassis architecture and future aerodynamic design. The last win for a front-engined F1 car dates back to the 1960 Italian Grand Prix.
 
 ## Attribution
 

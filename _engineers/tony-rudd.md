@@ -38,16 +38,16 @@ Tony Rudd was an engineer at BRM, then at Lotus, and one of the two men behind t
 
 ## BRM
 
-- An apprentice at Rolls-Royce, he was seconded to BRM shortly after the V16's debut, in 1950, to look after its superchargers.
+- An apprentice at Rolls-Royce, he joined BRM shortly after its disastrous debut at Silverstone in 1950, and worked first on the V16.
 - In 1962, BRM won the drivers' (Graham Hill) and constructors' titles.
-- On the BRM P261, he extended the sides of the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) rearwards, around the engine, to cure its lack of stiffness.
+- On the BRM P261, an evolution of the P61, he extended the sides of the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) rearwards, around the engine, to cure the P61's lack of stiffness.
 - In 1966, the H16 engine arrived late, too heavy and too complex: an acknowledged failure.
 - In 1969, opposed to [wings]({{ site.baseurl }}/en/glossary/#aileron), he suggested that the car itself should generate [downforce]({{ site.baseurl }}/en/glossary/#appui). [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) measured its potential in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), but the secret [wing car]({{ site.baseurl }}/en/glossary/#voiture-aile) project was stopped in June 1969.
 
 ## Lotus
 
 - Having joined Group Lotus in 1969, he turned Lotus Engineering into a major research contractor for car manufacturers.
-- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), Wright and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}). Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the De Havilland Mosquito.
+- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Wright, later joined by [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) for the suspension. Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the De Havilland Mosquito.
 
 ## Why behind Wright
 

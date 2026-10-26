@@ -23,7 +23,7 @@ image: "/assets/partage/ralph-bellamy.jpg"
 ---
 ## Ce qu'il a fait
 
-Ralph Bellamy est le concepteur qui **dessine la Lotus 78**, première F1 à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), au sein de l'équipe réunie par [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). Pendant que [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) approfondit l'aérodynamique, Bellamy dessine la voiture et achève le châssis ; les deux hommes travaillent ensuite ensemble sur la carrosserie. Selon le récit de Wright, c'est Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
+Ralph Bellamy est le concepteur qui **dessine la Lotus 78**, première F1 à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), au sein de l'équipe réunie par [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). Pendant que [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) approfondit l'aérodynamique, Bellamy dessine la voiture ; une fois ses plans arrêtés, [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) détaille les suspensions et Bellamy achève le châssis, puis les deux hommes travaillent ensemble sur la carrosserie. Selon le récit de Wright, c'est Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
 
 ## Parcours technique
 

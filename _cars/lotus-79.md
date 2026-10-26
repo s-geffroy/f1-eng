@@ -32,14 +32,14 @@ image: "/assets/partage/en/voitures/lotus-79.jpg"
 The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). The 79 was designed entirely around it.
 
 - The fuel, carried in the sidepods on the 78, moved behind the driver, who was moved forward. The water and oil radiators went to the front of the sidepods. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel.
-- Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short, flexible skirts of the 78. According to Motor Sport, it was with these that the 79 began to generate real suction.
+- Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short skirts of the 78. According to Motor Sport, it was with these that the 79 began to generate real suction.
 - The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s requirements and did little more than carry the sidepods.
 
 When it was shown to the public, the black car was nicknamed "Black Beauty".
 
 ## Who designed it
 
-This time Chapman was more directly involved than on the 78. Peter Wright recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) continued the aerodynamic programme begun with the 78.
+This time Chapman was more directly involved than on the 78. Peter Wright recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who originated the aerodynamic work on the 78, tells the story of how the 79 came about.
 
 According to Motor Sport, Chapman's greater involvement was all the more marked because the two designers of the 78 had left the team. "Colin took overall charge, for better or worse," says Ogilvie.
 

@@ -34,13 +34,13 @@ Bernard Dudot est au cœur des trois mutations du moteur Renault qui ont ensuite
 
 - **Le turbo.** Selon Renault, toutes les équipes de F1 ont un moteur turbo au cours de la saison 1985.
 - **Le rappel pneumatique des soupapes**, introduit sur le moteur EF15 B de 1986, est utilisé sur tous les moteurs F1 à partir des années 1990.
-- **Le V10.** Le V10 de 3,5 litres ouvert à 67° est conçu par Bernard Dudot (Motor Sport, 1988) ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau.
+- **Le V10.** Le V10 de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988) ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau.
 
 ## Parcours technique
 
 - Formé au CESTI de Nancy, il entre chez Alpine en 1967.
-- En 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}) le recrute chez Gordini et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur).
-- En avril 1975, à la création de Renault Sport à Viry-Châtillon, il prend la tête du programme moteur F1, sous la direction technique de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}).
+- En 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}) le fait venir d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur).
+- En avril 1975, quand Renault décide de s'engager en F1, il prend la tête du programme moteur F1, sous la direction technique de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}).
 - En 1980, il devient directeur technique de Renault Sport.
 - En 1986, Renault suspend son engagement. Sur l'insistance de Dudot, une cellule de veille technique est maintenue : c'est d'elle que sort le V10, dessiné par Dudot et une équipe d'une vingtaine d'ingénieurs à Viry.
 - Renault compte ensuite six titres consécutifs pour son V10 dans les années 1990.

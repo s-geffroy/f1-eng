@@ -41,7 +41,7 @@ Le règlement interdit les dispositifs aérodynamiques mobiles. Brabham soutient
 - Gary Anderson affirme avoir proposé de mettre un ventilateur ;
 - l'ingénieur David Cox en revendique une part : il dit avoir aperçu un schéma de ventilateur sur la planche à dessin de [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), chez Tyrrell.
 
-Tous s'accordent sur la source d'inspiration : la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970. Et sur la mise en œuvre : « L'équipe de conception de Brabham a fait un travail remarquable pour mettre l'idée en pratique. »
+Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970, ce que Murray confirme. Le magazine salue aussi le travail de l'équipe de conception de Brabham, qui a su mettre l'idée en pratique.
 
 ## Limites
 
@@ -52,4 +52,4 @@ La BT46B ne court qu'une fois : au Grand Prix de Suède, à Anderstorp, le 17 ju
 
 ## Ce qu'elle laisse
 
-Une innovation retirée après une course ne prouve pas d'influence durable. Motor Sport en tire la leçon en 1998 : ce qui a le plus compté, ce n'est pas la technique, mais l'accord de Bernie Ecclestone pour la retirer et apaiser les autres équipes.
+Une innovation retirée après une course ne prouve pas d'influence durable. En 1998, John Watson en tire la leçon dans Motor Sport : ce qui a le plus compté, ce n'est pas la technique, mais l'accord de Bernie Ecclestone pour la retirer et apaiser les autres équipes.

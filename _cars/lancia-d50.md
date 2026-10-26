@@ -40,14 +40,14 @@ These concentrated masses give it a low [polar moment of inertia]({{ site.baseur
 
 ## Who designed it
 
-[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), who designed the engine, qualifies this: in his view, no one person was solely responsible for the overall design, and several innovations came from [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself. This site therefore describes it as a team achievement, led by Jano.
+[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), in charge of the engine, disputes this attribution: Jano led the team but was not “the designer”; in his view, no one person was solely responsible for the overall design, the major choices came out of collective discussions, and it was [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) who made the final decisions. Chris Nixon adds that several innovations came from Gianni Lancia himself. This site therefore describes it as a team achievement, led by Jano.
 
 ## Limitations
 
 - The early days were laborious: the chassis had to be stiffened against torsion, and the oil circulation was at first so poor that the V8 lasted only four or five laps.
 - Agile as it was, the car gave little warning: drivers could barely feel the loss of grip coming.
-- Power figures vary between sources: from about 250 hp to a maximum of some 275 hp, according to Motor Sport.
+- Power rose as development went on, from about 250 hp to some 275 hp according to Doug Nye (Motor Sport); Chris Nixon gives 260 hp at 8,000 rpm.
 
 ## Legacy
 
-In 1955 the cars passed to Ferrari. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 world title. The stressed-engine principle would become widespread from 1967 onwards with the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) and the Cosworth DFV.
+In 1955 the cars passed to Ferrari. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 world title. The stressed-engine principle would become widespread from 1967 onwards, in a rear-engined layout, with the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) and the DFV.

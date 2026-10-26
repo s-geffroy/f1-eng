@@ -45,4 +45,4 @@ The gearbox, derived from a Citroën part, suffered. Maddock remembered that aft
 
 - **1959**: wins for Brabham at Monaco and in Britain, for Stirling Moss in Portugal and Italy in Rob Walker's privately entered T51, and for Bruce McLaren in the United States.
 - The constructors' title was secured at Monza. The drivers' title was decided at Sebring, where McLaren won and where Brabham, out of fuel, pushed his car over the last 400 yards.
-- Cooper did not invent the rear engine; it popularised it, and it was the T51 that brought it its first titles.
+- Cooper did not invent the rear engine, but it led F1's post-war conversion to it, and it was the T51 that brought it its first titles.

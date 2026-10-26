@@ -24,24 +24,26 @@ sources:
     url: "https://www.autosport.com/f1/news/133588/thisissearch"
   - titre: "Formula 1, « Mercedes announce engine chief Andy Cowell is to leave the team »"
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
+  - titre: "Formula 1, « Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role » (novembre 2025)"
+    url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
 consultation: "25 octobre 2026"
 image: "/assets/partage/andy-cowell.jpg"
 redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 ---
 ## Ce qu'il a réalisé
 
-Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique exceptionnelle. Depuis 2014, Cowell supervise la production de ces moteurs V6 hybrides.
+Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique exceptionnelle. De 2014 à 2020, Cowell a supervisé la production de ces moteurs V6 hybrides.
 
 - **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait ».
 - **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc.
-- **Les résultats.** Ses groupes propulseurs ont remporté six doublés consécutifs, titres pilotes et constructeurs, pour Mercedes.
+- **Les résultats.** Ses groupes propulseurs ont remporté six doublés consécutifs (2014-2019), titres pilotes et constructeurs, pour Mercedes.
 
 ## Parcours technique
 
 - Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**.
 - En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur utilisé par Williams jusqu'en 2001.
-- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon Formula 1 ; d'autres sources indiquent 2014).
-- Il quitte ensuite Mercedes, puis prend la direction de l'équipe Aston Martin F1.
+- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon Formula 1).
+- Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie.
 
 ## Intégration avec le châssis
 

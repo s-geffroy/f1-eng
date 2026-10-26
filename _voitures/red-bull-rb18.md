@@ -23,6 +23,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/in-numbers-the-amazing-stats-behind-red-bulls-century-of-f1-wins.356YzISN9hTOzLBtE96qnn"
   - titre: "Michelle Foster, PlanetF1, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
     url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
+  - titre: "Sky Sports, « Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero-sidepod philosophy officially abandoned » (mai 2023)"
+    url: "https://www.skysports.com/f1/news/12433/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
+  - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
+    url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
   - titre: "Formula 1, « 2022 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/2022/team"
 photo:
@@ -43,7 +47,7 @@ Selon Formula 1, la clé de ce règlement n'est pas l'appui maximal dans les vir
 
 La suspension va dans le même sens. Red Bull, comme McLaren, inverse son montage : tirants à l'avant, poussoirs à l'arrière. À l'avant, la géométrie est anti-plongée : elle limite la plongée au freinage, donc la remontée de l'arrière et la perte d'appui qui l'accompagne. À l'arrière, un grand débattement laisse la voiture s'abaisser à haute vitesse, ce qui réduit la traînée et lui donne un avantage constant en ligne droite. Il faut pour cela des ressorts plutôt souples ; sur d'autres voitures, ils provoqueraient des rebonds.
 
-Pour Honda, son trait principal est ailleurs : des pontons profondément creusés à leur base, dont le dessus descend vers l'arrière. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes ; début 2023, Lewis Hamilton voit bien des voitures se rapprocher de la Red Bull, « peut-être à l'exception de Ferrari », mais assure que Mercedes ne la copiera pas.
+Pour Honda, son trait principal est ailleurs : des pontons profondément creusés à leur base, dont le dessus descend vers l'arrière. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023.
 
 ## Qui l'a conçue
 

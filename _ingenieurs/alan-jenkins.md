@@ -33,7 +33,7 @@ Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieu
 - **Penske.** Il conçoit les PC15 et PC16 d'IndyCar, sophistiquées mais peu victorieuses.
 - **Onyx.** Il conçoit l'ORE-1, première F1 de l'équipe, en 1989.
 - **Footwork.** Directeur technique, il conçoit la FA12 à moteur Porsche.
-- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 ; la simulation numérique des écoulements n'est alors évoquée qu'en théorie.
+- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 (seules Williams et Ferrari l'emploient alors) ; selon Jenkins, le recours à ces maquettes et à la simulation numérique des écoulements, technique encore nouvelle, est un choix délibéré de l'équipe.
 
 ## Limites des sources
 

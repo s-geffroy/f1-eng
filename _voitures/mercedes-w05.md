@@ -21,6 +21,8 @@ sources:
     url: "https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/"
   - titre: "Royal Automobile Club, « In the Rotunda, July 2026 »"
     url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
+  - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season »"
+    url: "https://www.guinnessworldrecords.com/world-records/381804-most-pole-positions-by-a-constructor-in-a-formula-one-season"
 photo:
   fichier: "/assets/voitures/mercedes-w05.jpg"
   legende: "Lewis Hamilton aux premiers essais libres du Grand Prix de Singapour, le 19 septembre 2014."
@@ -41,7 +43,7 @@ La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turboc
 
 - [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari en 2012 comme directeur de l'ingénierie, mène la conception de la voiture.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}).
-- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), directeur de l'équipe jusqu'à la fin de 2013, était parti avant la saison. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré ». Il souligne que Cowell et les équipes châssis ont travaillé de concert. On lui doit la méthode, pas la conception.
+- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré ». Il souligne que Cowell et les équipes châssis ont travaillé de concert. On lui doit la méthode, pas la conception.
 
 ## Limites
 

@@ -56,7 +56,7 @@ Rory Byrne is the man who designed **Michael Schumacher's seven world championsh
 
 ## Attribution
 
-At Ferrari, Brawn was the public technical face, and Byrne led the design: that is the testimony of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}). The handover to [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) is dated differently depending on the source: from the end of 2004 according to one, with retirement planned for the end of 2006 according to the other.
+At Ferrari, Brawn was the public technical face, and Byrne led the design: that is the testimony of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}). The handover to [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) was gradual: it began at the end of 2004, and Byrne planned to retire at the end of 2006 before staying on as a consultant.
 
 ## Why Tier D
 

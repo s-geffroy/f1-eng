@@ -39,4 +39,4 @@ François Castaing est l'ingénieur du **V6 dont dérivent tous les moteurs turb
 
 ## Attribution
 
-GrandPrix.com présente le premier moteur turbo EF1 comme conçu par Castaing. Plus précisément, l'EF1 est une version turbo du V6 conçu par Castaing **et** Jean-Pierre Boudy ; Castaing racontait d'ailleurs avoir été d'abord moins convaincu que Boudy par le turbo.
+GrandPrix.com présente le premier moteur turbo EF1 comme conçu par Castaing. Plus précisément, l'EF1 est une version turbo du V6 conçu par Castaing **et** Jean-Pierre Boudy ; Castaing racontait d'ailleurs avoir d'abord été bien moins convaincu que Boudy qu'un turbo puisse fonctionner à l'essence du commerce.

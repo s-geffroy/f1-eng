@@ -41,7 +41,7 @@ Then Honda withdrew, and the team's 2009 season was for a time in doubt. Ross Br
 
 ## Who designed it
 
-Brawn himself insists on this point: it was the resources of the Honda team that built the car, with at one stage three [wind tunnels]({{ site.baseurl }}/en/glossary/#soufflerie) running in parallel. "It was one of the Japanese engineers who came up with the twin floor concept using the tunnel in Japan." [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's owner and technical director, does not claim to have invented it.
+Brawn himself insists on this point: it was the resources of the Honda team that built the car, with at one stage three [wind tunnels]({{ site.baseurl }}/en/glossary/#soufflerie) running in parallel. "It was one of the Japanese engineers who came up with the twin floor concept using the tunnel in Japan." [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's owner and principal, does not claim to have invented it.
 
 ## Limitations
 
@@ -51,4 +51,4 @@ Brawn himself insists on this point: it was the resources of the Honda team that
 
 ## Legacy
 
-- **2009**: a one-two at the very first race, in Australia, then six wins from the first seven races. Eight wins in all, the drivers' title for Jenson Button and the constructors' title for Brawn GP, in its only season.
+- **2009**: a one-two at the very first race, in Australia, and six wins from the first seven races. Eight wins in all, the drivers' title for Jenson Button and the constructors' title for Brawn GP, in its only season.

@@ -2,7 +2,7 @@
 title: "Brabham BT52"
 nom_tri: "brabham bt52"
 accroche: "Six weeks for an arrow, and the first turbo title."
-description: "Brabham BT52 (1983): designed in six weeks after ground effect underbodies were banned, it gave Nelson Piquet the first world title for a turbo engine."
+description: "Brabham BT52 (1983): designed in a rush after ground effect underbodies were banned, it gave Nelson Piquet the first world title for a turbo engine."
 annee: 1983
 equipe: "Brabham"
 moteur: "BMW, 1.5-litre turbo four-cylinder"
@@ -15,6 +15,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
   - titre: "Paul Fearnley, Motor Sport Magazine, “F1's race to the flat bottom” (May 2013)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
+  - titre: "Keith Howard, Motor Sport Magazine, “Harnessing the power” (January 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
 photo:
   fichier: "/assets/voitures/brabham-bt52.jpg"
   legende: "Nelson Piquet driving the BT52 at the Goodwood Festival of Speed, on 12 July 2013."
@@ -27,7 +29,7 @@ image: "/assets/partage/en/voitures/brabham-bt52.jpg"
 ---
 ## What it changed
 
-In November 1982, the federation imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat) from the start of 1983. Brabham's ground effect BT51, almost finished, was abandoned. In just six weeks, an entirely new car was designed and built: the BT52.
+In November 1982, the federation imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat) from the start of 1983. Brabham's ground effect BT51, almost finished, was abandoned. In just six weeks (three months, according to Murray himself), an entirely new car was designed and built: the BT52.
 
 Gordon Murray started from a simple line of reasoning. The BMW turbo engine would deliver enormous torque by the end of the season, and the car would be limited by its traction. So he did away with conventional sidepods and moved the centre of gravity back by 7%. "That's huge," he says: in the skirt era, a big change would have been 1%. He had no time for the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie): "it was all done from theory, experience and gut feel."
 
@@ -49,4 +51,4 @@ Three other choices mattered:
 
 - **Rio, 13 March 1983**: Nelson Piquet won the BT52's first race.
 - **1983**: Piquet won three of the fifteen races and became the first world champion with a turbo engine. At Kyalami, the final round, he let his team-mate Riccardo Patrese take the win.
-- Murray believed the other teams would have copied refuelling for 1983. At Rio, he was astonished to find that they all still had cars running on a full tank. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds.
+- Murray believed the other teams would have copied refuelling for 1983. At Rio, he was astonished to find that almost all of them still had cars running on a full tank; only Williams also tried refuelling, which ended in a fire on Keke Rosberg's car. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds.

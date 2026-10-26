@@ -23,6 +23,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/in-numbers-the-amazing-stats-behind-red-bulls-century-of-f1-wins.356YzISN9hTOzLBtE96qnn"
   - titre: "Michelle Foster, PlanetF1, “Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars” (February 2023)"
     url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
+  - titre: "Sky Sports, “Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero-sidepod philosophy officially abandoned” (May 2023)"
+    url: "https://www.skysports.com/f1/news/12433/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
+  - titre: "PlanetF1, “Revealed: Ferrari's revised sidepods break cover in Spain” (June 2023)"
+    url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
   - titre: "Formula 1, “2022 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/2022/team"
 photo:
@@ -43,7 +47,7 @@ According to Formula 1, the key to these rules was not peak downforce in fast co
 
 The suspension pointed the same way. Red Bull, like McLaren, swapped its layout around: pull-rods at the front, push-rods at the rear. At the front, the geometry was anti-dive: it limited dive under braking, and so the rise of the rear and the loss of downforce that goes with it. At the rear, long travel let the car sink at high speed, cutting drag and giving it a consistent straight-line advantage. That required relatively soft springs, which on other cars would have induced bouncing.
 
-For Honda, the car's main feature lay elsewhere: sidepods with a deep undercut, their upper surface sloping down towards the rear. Again according to Honda, this solution later became the standard for almost every team; in early 2023, though, Lewis Hamilton saw cars approaching the look of the Red Bull "perhaps with the exception of Ferrari", and insisted Mercedes would not copy it.
+For Honda, the car's main feature lay elsewhere: sidepods with a deep undercut, their upper surface sloping down towards the rear. Again according to Honda, this solution later became the standard for almost every team. In early 2023, several teams took up the Red Bull's sidepods; Mercedes and Ferrari at first declined to, before adopting sidepods of this type in their turn during the 2023 season.
 
 ## Who designed it
 

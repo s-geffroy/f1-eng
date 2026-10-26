@@ -51,5 +51,5 @@ Le règlement exige que les pièces aérodynamiques restent immobiles par rappor
 ## Ce qu'elle laisse
 
 - **1981** : aux essais de Long Beach, le 13 mars, la voiture reçoit le drapeau noir. Chapman tente de l'engager à d'autres courses, sans plus de succès. À Silverstone, en juillet, la version 88B est acceptée par les commissaires du RAC ; dès le lendemain, la fédération la déclare illégale.
-- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix, avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}).
+- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix ; c'était avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}), en avril.
 - Le plan B, la suspension active, sera la suite du travail de Lotus.

@@ -33,7 +33,7 @@ Aldo Costa est le successeur de [Rory Byrne]({{ site.baseurl }}{% link _ingenieu
 
 - Il commence chez Abarth en 1987, puis devient concepteur en chef de Minardi à 27 ans (Autosport fait commencer sa carrière chez Minardi en 1988).
 - **Ferrari.** Adjoint de Byrne, puis responsable de la conception et du développement, puis directeur technique. Fin 2004, Byrne annonce que le projet de la voiture 2005 est mené par Costa ; en 2006, il dit de la nouvelle voiture : « cette année, il l'a faite seul ». En mai 2011, après un début de saison sans victoire, il quitte le poste de directeur technique.
-- **Mercedes.** Directeur de l'ingénierie à partir du 1er décembre 2011, il mène la conception de la W05 de 2014 ; le groupe propulseur relève, lui, de l'équipe d'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}). Formula 1 le présente comme un rouage central des cinq doublés de l'ère hybride.
+- **Mercedes.** Directeur de l'ingénierie à partir du 1er décembre 2011, il mène la conception de la W05 de 2014 ; le groupe propulseur relève, lui, de l'équipe d'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}). Formula 1 le présente comme un rouage central des cinq doublés de l'ère hybride (2014-2018).
 - Il rejoint ensuite Dallara.
 
 ## Divergences entre sources

@@ -15,6 +15,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
   - titre: "Lotus Cars, « Type 25 »"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
+  - titre: "Formula 1, « 1962 Team Standings » (résultats officiels)"
+    url: "https://www.formula1.com/en/results/1962/team"
 photo:
   fichier: "/assets/voitures/lotus-25.jpg"
   legende: "Jim Clark sur la Lotus 25 au Grand Prix des Pays-Bas, à Zandvoort, le 23 juin 1963."
@@ -46,7 +48,7 @@ Selon Ron Hickman, cité dans le même article, l'idée de départ viendrait de 
 ## Limites
 
 - Ce n'est pas une première absolue. Motor Sport rappelle que Gabriel Voisin construisait déjà une cellule monocoque d'avion en 1910, et que des voitures de course l'avaient précédée, comme la monoplace Lightweight Special d'Alec Issigonis en 1938. L'apport de la 25 est de l'imposer en F1.
-- Sa première saison souffre de problèmes de jeunesse : en 1962, Lotus manque le titre constructeurs d'un point, et Clark finit derrière Graham Hill.
+- Sa première saison souffre de problèmes de jeunesse : en 1962, Lotus finit deuxième du championnat constructeurs, six points derrière BRM (Lotus Cars évoque un point d'écart), et Clark finit derrière Graham Hill.
 
 ## Ce qu'elle laisse
 

@@ -45,4 +45,4 @@ La boîte de vitesses, dérivée d'une pièce Citroën, souffre. Maddock s'en so
 
 - **1959** : victoires de Brabham à Monaco et en Grande-Bretagne, de Stirling Moss au Portugal et en Italie sur la T51 privée de Rob Walker, de Bruce McLaren aux États-Unis.
 - Le titre constructeurs est acquis à Monza. Celui des pilotes se joue à Sebring, où McLaren gagne et où Brabham, à court d'essence, pousse sa voiture sur les 400 derniers yards.
-- Cooper n'a pas inventé le moteur arrière ; il l'a popularisé, et c'est la T51 qui lui donne ses premiers titres.
+- Cooper n'a pas inventé le moteur arrière, mais il a ouvert sa conversion d'après-guerre en F1, et c'est la T51 qui lui donne ses premiers titres.

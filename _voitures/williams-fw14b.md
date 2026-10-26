@@ -23,6 +23,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "Formula 1, résultats de la saison 1992"
     url: "https://www.formula1.com/en/results/1992/races"
+  - titre: "Keith Howard, Motor Sport Magazine, « Active suspension » (décembre 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
+  - titre: "Adam Cooper, Autosport, « Tech secrets of a Formula 1 legend » (janvier 2017)"
+    url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
 photo:
   fichier: "/assets/voitures/williams-fw14b.jpg"
   legende: "Nigel Mansell sur la FW14B au Grand Prix d'Allemagne 1992, à Hockenheim."
@@ -43,7 +47,7 @@ La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatina
 
 ## Qui l'a conçue
 
-Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) en écrit l'essentiel du logiciel, Head la fait revenir sous une forme améliorée. Selon Head, Newey n'a pas pris part au système actif.
+Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987), Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (Formula 1). Selon Head, Newey n'a pas pris part au développement du système actif.
 
 ## Limites
 

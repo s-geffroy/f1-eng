@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/mclaren-mp4-4.jpg"
 ---
 ## Ce qu'elle change
 
-En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation. Beaucoup s'attendent à une année de transition. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe.
+En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation. En théorie, ces règles favorisent les rivaux à moteur atmosphérique ; McLaren reste pourtant confiant. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe.
 
 Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28 mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
 

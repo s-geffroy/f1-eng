@@ -2,7 +2,7 @@
 title: "Brabham BT52"
 nom_tri: "brabham bt52"
 accroche: "Six semaines pour une flèche, et le premier titre turbo."
-description: "Brabham BT52 (1983) : conçue en six semaines après l'interdiction des fonds à effet de sol, elle donne à Nelson Piquet le premier titre mondial d'un moteur turbo."
+description: "Brabham BT52 (1983) : conçue dans l'urgence après l'interdiction des fonds à effet de sol, elle donne à Nelson Piquet le premier titre mondial d'un moteur turbo."
 annee: 1983
 equipe: "Brabham"
 moteur: "BMW, quatre cylindres turbo de 1,5 litre"
@@ -15,6 +15,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
   - titre: "Paul Fearnley, Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
+  - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
 photo:
   fichier: "/assets/voitures/brabham-bt52.jpg"
   legende: "Nelson Piquet au volant de la BT52 au Goodwood Festival of Speed, le 12 juillet 2013."
@@ -27,7 +29,7 @@ image: "/assets/partage/voitures/brabham-bt52.jpg"
 ---
 ## Ce qu'elle change
 
-En novembre 1982, la fédération impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat) dès le début de 1983. La BT51 à effet de sol de Brabham, presque terminée, est abandonnée. En six semaines seulement, une voiture entièrement nouvelle est conçue et construite : la BT52.
+En novembre 1982, la fédération impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat) dès le début de 1983. La BT51 à effet de sol de Brabham, presque terminée, est abandonnée. En six semaines seulement (trois mois selon Murray lui-même), une voiture entièrement nouvelle est conçue et construite : la BT52.
 
 Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un couple énorme en fin de saison, et la voiture sera limitée par sa motricité. Il supprime donc les flancs classiques et recule le centre de gravité de 7 %, « énorme », dit-il : à l'époque des jupes, un grand changement aurait été de 1 %. Il n'a pas le temps de passer en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) : tout est fait « par la théorie, l'expérience et l'instinct ».
 
@@ -49,4 +51,4 @@ Trois autres choix comptent :
 
 - **Rio, 13 mars 1983** : Nelson Piquet gagne la première course de la BT52.
 - **1983** : Piquet gagne trois des quinze courses et devient le premier champion du monde sur moteur turbo. À Kyalami, la dernière manche, il laisse la victoire à son équipier Riccardo Patrese.
-- Murray croyait que les autres équipes auraient copié le ravitaillement pour 1983. À Rio, il découvre avec étonnement qu'elles ont toutes encore des voitures à réservoir plein. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes.
+- Murray croyait que les autres équipes auraient copié le ravitaillement pour 1983. À Rio, il découvre avec étonnement que presque toutes ont encore des voitures à réservoir plein ; seule Williams tente aussi un ravitaillement, qui tourne à l'incendie sur la voiture de Keke Rosberg. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes.

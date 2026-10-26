@@ -47,14 +47,14 @@ Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur cent
 - **1958.** Les Cooper remportent les premiers succès en championnat du monde de voitures dont le moteur est derrière le pilote.
 - **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245 ch, apporte le titre.
 - **1960.** La T53 « Lowline » permet un second doublé des titres.
-- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière arrive aux États-Unis.
+- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait un retour qui va tout changer.
 - **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997 cm³ à deux carburateurs et 55 ch.
 
 John Cooper meurt la veille de Noël 2000, à 77 ans.
 
 ## Pourquoi c'est une révolution maximale
 
-Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'architecture du châssis et la conception aérodynamique future. Depuis 1959, tous les champions du monde de F1 ont roulé avec le moteur derrière eux.
+Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'architecture du châssis et la conception aérodynamique future. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960.
 
 ## Attribution
 

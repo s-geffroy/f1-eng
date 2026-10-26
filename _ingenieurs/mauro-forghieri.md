@@ -37,7 +37,7 @@ redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
 ## Ingénierie totale
 
-Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque. Il couvre ensuite tout le spectre de la monoplace : moteur, transmission, châssis, suspension, aérodynamique. Ses 27 années chez Ferrari comptent quatre titres pilotes, sept titres constructeurs et 54 victoires en Grand Prix (Autosport).
+Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport) ; Autosport y ajoute 54 victoires en Grand Prix.
 
 ## La centralisation des masses
 
@@ -51,11 +51,11 @@ Une idée directrice relie ses voitures des années 1970 : **[centraliser les ma
 
 - Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. Formula 1 rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
 - Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981.
-- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le V12 court en F1 en 1989 et 1990.
+- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le V12 court en F1 à partir de 1989.
 
 ## Attribution
 
-Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi qu'il avait tendance à surévaluer ses propres inventions.
+Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions.
 
 ## Pourquoi le Tier B
 

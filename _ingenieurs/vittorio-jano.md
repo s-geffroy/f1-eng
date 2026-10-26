@@ -42,8 +42,8 @@ Le travail de Vittorio Jano commence bien avant le championnat du monde de F1. E
 
 C'est la **Lancia D50**, entrée en championnat du monde fin 1954, qui fait entrer Jano dans ce classement. Selon Motor Sport, il en définit les grands principes.
 
-- **Le moteur porteur.** Le V8 sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote. C'est le principe que la Lotus 49 et le DFV généraliseront en 1967.
-- **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière.
+- **Le moteur porteur.** Le V8 sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote. Le même principe — le moteur comme élément de structure — sera généralisé en 1967, en position arrière, par la Lotus 49 et le DFV.
+- **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière. Motor Sport (2002) attribue toutefois l'idée des réservoirs latéraux à [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) lui-même.
 - La D50 roule pour la première fois le 20 février 1954 à l'aéroport de Caselle, à Turin, et dispute sa première course lors du dernier Grand Prix de 1954.
 - Le 26 juillet 1955, six des huit D50 sont remises à Ferrari. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre de 1956.
 
@@ -55,4 +55,4 @@ La paternité de la D50 est discutée. L'ingénieur moteur [Ettore Zaccone Mina]
 
 ## Pourquoi le Tier D
 
-Une grande partie de son œuvre précède le championnat du monde, et la paternité de la D50 est partagée. Sa place tient à l'héritage de cette voiture, notamment au moteur porteur, que [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) imposeront treize ans plus tard.
+Une grande partie de son œuvre précède le championnat du monde, et la paternité de la D50 est partagée. Sa place tient à l'héritage de cette voiture, notamment au moteur porteur, dont [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) généraliseront le principe treize ans plus tard, en position arrière.

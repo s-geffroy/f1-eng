@@ -41,7 +41,7 @@ Puis Honda se retire, et la saison 2009 de l'équipe est un temps compromise. Ro
 
 ## Qui l'a conçue
 
-Brawn insiste lui-même sur ce point : ce sont les moyens de l'équipe Honda qui ont construit la voiture, avec à un moment trois [souffleries]({{ site.baseurl }}/glossaire/#soufflerie) travaillant en parallèle. « C'est l'un des ingénieurs japonais qui a eu l'idée du double plancher, dans la soufflerie au Japon. » [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), propriétaire et directeur technique de l'équipe, n'en revendique pas l'invention.
+Brawn insiste lui-même sur ce point : ce sont les moyens de l'équipe Honda qui ont construit la voiture, avec à un moment trois [souffleries]({{ site.baseurl }}/glossaire/#soufflerie) travaillant en parallèle. « C'est l'un des ingénieurs japonais qui a eu l'idée du double plancher, dans la soufflerie au Japon. » [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), propriétaire et directeur de l'équipe, n'en revendique pas l'invention.
 
 ## Limites
 
@@ -51,4 +51,4 @@ Brawn insiste lui-même sur ce point : ce sont les moyens de l'équipe Honda qui
 
 ## Ce qu'elle laisse
 
-- **2009** : doublé dès la première course, en Australie, puis six victoires sur les sept premières courses. Huit victoires en tout, titre pilotes pour Jenson Button et titre constructeurs pour Brawn GP, lors de son unique saison.
+- **2009** : doublé dès la première course, en Australie, et six victoires sur les sept premières courses. Huit victoires en tout, titre pilotes pour Jenson Button et titre constructeurs pour Brawn GP, lors de son unique saison.

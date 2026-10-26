@@ -21,6 +21,8 @@ sources:
     url: "https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/"
   - titre: "Royal Automobile Club, “In the Rotunda, July 2026”"
     url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
+  - titre: "Guinness World Records, “Most pole positions by a constructor in a Formula One season”"
+    url: "https://www.guinnessworldrecords.com/world-records/381804-most-pole-positions-by-a-constructor-in-a-formula-one-season"
 photo:
   fichier: "/assets/voitures/mercedes-w05.jpg"
   legende: "Lewis Hamilton in first free practice at the Singapore Grand Prix, 19 September 2014."
@@ -41,7 +43,7 @@ The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#t
 
 - [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari in 2012 as engineering director, led the design of the car.
 - The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).
-- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), team principal until the end of 2013, had left before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. He is owed the method, not the design.
+- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. He is owed the method, not the design.
 
 ## Limitations
 

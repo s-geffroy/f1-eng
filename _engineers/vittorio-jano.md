@@ -41,8 +41,8 @@ Vittorio Jano's work began long before the F1 world championship. In 1923 he lef
 
 It is the **Lancia D50**, which entered the world championship at the end of 1954, that earns Jano his place in this ranking. According to Motor Sport, he defined its main principles.
 
-- **The stressed engine.** The V8 serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis. It is mounted at an angle so that the propeller shaft runs to the left of the driver. This is the principle that the Lotus 49 and the DFV would make standard in 1967.
-- **The side tanks.** The fuel is carried in two long tanks placed on either side, between the front and rear wheels.
+- **The stressed engine.** The V8 serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis. It is mounted at an angle so that the propeller shaft runs to the left of the driver. The same principle — the engine as a structural member — would be made widespread in 1967, in a rear-mounted position, by the Lotus 49 and the DFV.
+- **The side tanks.** The fuel is carried in two long tanks placed on either side, between the front and rear wheels. Motor Sport (2002), however, attributes the idea of the side tanks to [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself.
 - The D50 first ran on 20 February 1954 at Caselle airport in Turin, and contested its first race at the last Grand Prix of 1954.
 - On 26 July 1955, six of the eight D50s were handed over to Ferrari. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 title.
 
@@ -54,4 +54,4 @@ The authorship of the D50 is disputed. Engine engineer [Ettore Zaccone Mina]({{ 
 
 ## Why Tier D
 
-Much of his work predates the world championship, and the authorship of the D50 is shared. His place rests on the legacy of this car, notably the stressed engine, which [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) would establish thirteen years later.
+Much of his work predates the world championship, and the authorship of the D50 is shared. His place rests on the legacy of this car, notably the stressed engine, whose principle [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) would make widespread thirteen years later, in a rear-mounted position.

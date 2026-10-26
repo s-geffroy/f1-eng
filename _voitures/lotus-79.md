@@ -32,14 +32,14 @@ image: "/assets/partage/voitures/lotus-79.jpg"
 La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). La 79 est dessinée tout entière pour lui.
 
 - Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé. Les radiateurs d'eau et d'huile vont à l'entrée des flancs. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi).
-- Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes et souples de la 78. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration.
+- Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes de la 78. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration.
 - La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et ne fait guère que porter les flancs.
 
 Présentée au public, la voiture noire est surnommée « Black Beauty ».
 
 ## Qui l'a conçue
 
-Chapman est cette fois plus directement impliqué que sur la 78. Peter Wright raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) poursuit le programme aérodynamique engagé avec la 78.
+Chapman est cette fois plus directement impliqué que sur la 78. Peter Wright raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), à l'origine des travaux aérodynamiques de la 78, raconte la genèse de la 79.
 
 Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie.
 

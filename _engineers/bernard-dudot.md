@@ -33,13 +33,13 @@ Bernard Dudot was at the heart of the three changes to the Renault engine that t
 
 - **The turbo.** According to Renault, every F1 team had a turbo engine during the 1985 season.
 - **Pneumatic valve springs**, introduced on the 1986 EF15 B engine, were used on every F1 engine from the 1990s onwards.
-- **The V10.** The 3.5-litre V10 with a 67° vee angle was designed by Bernard Dudot (Motor Sport, 1988); according to Renault, it would impose the V10 architecture on the whole grid.
+- **The V10.** The 3.5-litre 67° V10 was designed by Bernard Dudot (Motor Sport, 1988); according to Renault, it would impose the V10 architecture on the whole grid.
 
 ## Technical career
 
 - Trained at CESTI in Nancy, he joined Alpine in 1967.
-- In 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}) recruited him to Gordini and sent him to California to study [turbocharging]({{ site.baseurl }}/en/glossary/#turbocompresseur).
-- In April 1975, when Renault Sport was created at Viry-Châtillon, he took charge of the F1 engine programme, under the technical direction of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}).
+- In 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}) brought him over from Alpine and sent him to California to study [turbocharging]({{ site.baseurl }}/en/glossary/#turbocompresseur).
+- In April 1975, when Renault decided to enter F1, he took charge of the F1 engine programme, under the technical direction of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}).
 - In 1980, he became technical director of Renault Sport.
 - In 1986, Renault suspended its involvement. At Dudot's insistence, a technical watch unit was kept on: it was from this unit that the V10 emerged, drawn by Dudot and a team of some twenty engineers at Viry.
 - Renault then counted six consecutive titles for its V10 in the 1990s.

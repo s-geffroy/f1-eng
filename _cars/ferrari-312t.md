@@ -39,7 +39,7 @@ The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of 
 
 ## Limitations
 
-Niki Lauda at first found the new car much more demanding to drive than the 312B3. The debut at Kyalami, in March 1975, went wrong: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth. Lauda later changed his mind: “The chassis was just perfect; it was totally neutral and progressive.”
+On paper, Niki Lauda was at first unmoved; in testing, he found the car more demanding than the 312B3, but with far higher limits, and quickly realised it was in a different class. He would sum it up like this: “The chassis was just perfect; it was totally neutral and progressive.” The debut at Kyalami, in March 1975, went wrong: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
 
 ## Legacy
 

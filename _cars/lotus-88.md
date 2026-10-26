@@ -51,5 +51,5 @@ The regulations required aerodynamic parts to remain immobile relative to the sp
 ## Legacy
 
 - **1981**: in practice at Long Beach, on 13 March, the car was black-flagged. Chapman tried to enter it at other races, with no more success. At Silverstone, in July, the 88B version was accepted by the RAC stewards; the very next day, the federation declared it illegal.
-- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend, before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}).
+- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend; this was before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}), in April.
 - Plan B, active suspension, would be the continuation of Lotus's work.

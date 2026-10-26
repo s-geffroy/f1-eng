@@ -30,7 +30,7 @@ redirect_from: "/ingenieurs/2026/10/25/jean-claude-migeot.html"
 
 La **Tyrrell 019** et son **[nez relevé]({{ site.baseurl }}/glossaire/#nez-releve)** changent la manière d'alimenter en air le plancher de la monoplace. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un [aileron]({{ site.baseurl }}/glossaire/#aileron) avant anhédrique qui améliore l'efficacité aérodynamique. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne ».
 
-Avec la 019, Tyrrell termine cinquième du championnat constructeurs, son meilleur classement depuis 1979.
+En 1990, Tyrrell conserve la cinquième place du championnat constructeurs, déjà obtenue en 1989 — son meilleur classement depuis 1979.
 
 ## Parcours technique
 

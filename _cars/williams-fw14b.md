@@ -23,6 +23,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "Formula 1, 1992 season results"
     url: "https://www.formula1.com/en/results/1992/races"
+  - titre: "Keith Howard, Motor Sport Magazine, “Active suspension” (December 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
+  - titre: "Adam Cooper, Autosport, “Tech secrets of a Formula 1 legend” (January 2017)"
+    url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
 photo:
   fichier: "/assets/voitures/williams-fw14b.jpg"
   legende: "Nigel Mansell in the FW14B at the 1992 German Grand Prix, Hockenheim."
@@ -43,7 +47,7 @@ The FW14B also combined [traction control]({{ site.baseurl }}/en/glossary/#antip
 
 ## Who designed it
 
-Williams and Autosport credit [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), technical director, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). The active suspension was a chain of work: [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) wrote most of its software, and Head brought it back in improved form. According to Head, Newey played no part in the active system.
+Williams and Autosport credit [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), technical director, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). The active suspension was a chain of work: [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system (1987), Williams brought it back in enhanced form in 1992, and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) wrote most of the software for that version (Formula 1). According to Head, Newey played no part in developing the active system.
 
 ## Limitations
 

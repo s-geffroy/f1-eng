@@ -37,6 +37,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "Autosport, « Banned: the ingenious twin-chassis Lotus F1 car »"
     url: "https://www.autosport.com/f1/news/banned-the-ingenious-twin-chassis-lotus-f1-car-4983190/4983190/"
+  - titre: "Classic Team Lotus, « Legendary Team Lotus aerodynamicist Peter Wright dies »"
+    url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/colin-chapman.jpg"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
@@ -50,7 +52,7 @@ redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes architecturales, et les mène à la victoire.
 
 - **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs.
-- **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 l'employait dès 1954 — mais la Lotus 49 l'impose comme standard.
+- **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) l'employait déjà au milieu des années 1950 — mais la Lotus 49 en fait la référence par sa compacité et sa légèreté.
 - **Lotus 72 (1970).** Créditée à [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) et à Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus, 22 selon Classic Team Lotus.
 - **Le programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79.
 - **Lotus 88 (1981).** Le concept à double châssis, deux caisses suspendues séparément, est contesté : la voiture ne court jamais.
@@ -62,7 +64,7 @@ Une philosophie relie ces ruptures : **architecture, légèreté, aéro.**
 - Sa première voiture de trial, la Mark I, est construite sur la base d'une Austin Seven de 1928 ; Lotus naît en 1952.
 - Lotus dispute son premier Grand Prix de F1 en 1958. La Lotus 18 de 1960 est la première Lotus à moteur central et la première Lotus victorieuse en championnat du monde.
 - En 1965, Jim Clark remporte le doublé du championnat de F1 sur la Lotus 33 et gagne Indianapolis sur la Lotus 38.
-- Chapman meurt d'une crise cardiaque le 16 décembre 1982. Selon Lotus, l'équipe compte alors 79 victoires en Grand Prix, sept titres constructeurs et six titres pilotes.
+- Chapman meurt d'une crise cardiaque le 16 décembre 1982. L'équipe compte alors sept titres constructeurs et six titres pilotes ; elle finira avec 79 victoires en Grand Prix, selon Lotus.
 
 ## Pourquoi le n° 1
 

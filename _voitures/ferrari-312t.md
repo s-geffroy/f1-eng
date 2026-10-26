@@ -39,7 +39,7 @@ Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inert
 
 ## Limites
 
-Niki Lauda trouve d'abord la nouvelle voiture bien plus exigeante à piloter que la 312B3. Les débuts à Kyalami, en mars 1975, sont manqués : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents. Lauda change d'avis ensuite : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. »
+Sur le papier, Niki Lauda reste d'abord indifférent ; aux essais, il trouve la voiture plus exigeante que la 312B3, mais avec des limites bien plus hautes, et comprend vite qu'elle est d'une autre classe. Il le résumera ainsi : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. » Les débuts à Kyalami, en mars 1975, sont manqués : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents.
 
 ## Ce qu'elle laisse
 
