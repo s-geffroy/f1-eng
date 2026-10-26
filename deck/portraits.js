@@ -1,7 +1,7 @@
 // Prépare les portraits du deck à partir de ceux du site : niveaux de gris (comme le
 // filtre CSS du site) et recadrage au format du cadre de diapositive.
-// Les crédits sont lus dans le front matter des entrées (_ingenieurs/<id>.md) : une
-// seule source pour le site et le deck. Sortie : deck/portraits/ (non versionné).
+// Les crédits sont lus dans le front matter des entrées (_ingenieurs/<id>.md, et
+// _engineers/<id>.md pour le deck anglais) : une seule source pour le site et le deck. Sortie : deck/portraits/ (non versionné).
 const fs = require("fs");
 const path = require("path");
 const Jimp = require("jimp");
@@ -21,8 +21,10 @@ const VISAGE = {
   "john-crosthwaite": [0.386, 0.28, 0.14], // au centre, chiffon à la main, 1957
 };
 
-function lirePortrait(id) {
-  const md = fs.readFileSync(path.join(RACINE, "_ingenieurs", id + ".md"), "utf8");
+function lirePortrait(id, collection = "_ingenieurs") {
+  const fichier = path.join(RACINE, collection, id + ".md");
+  if (!fs.existsSync(fichier)) return null;
+  const md = fs.readFileSync(fichier, "utf8");
   const bloc = md.match(/^portrait:\n((?: {2}.+\n)+)/m);
   if (!bloc) return null;
   const p = {};
@@ -35,7 +37,7 @@ function lirePortrait(id) {
 
 async function main() {
   fs.mkdirSync(SORTIE, { recursive: true });
-  const credits = {};
+  const credits = {}, creditsEn = {};
   for (const f of fs.readdirSync(path.join(RACINE, "_ingenieurs"))) {
     const id = f.replace(/\.md$/, "");
     const p = lirePortrait(id);
@@ -50,8 +52,12 @@ async function main() {
     img.cover(LARGEUR, HAUTEUR, Jimp.HORIZONTAL_ALIGN_CENTER | Jimp.VERTICAL_ALIGN_TOP).greyscale().quality(85);
     await img.writeAsync(path.join(SORTIE, id + ".jpg"));
     credits[id] = { auteur: p.auteur, licence: p.licence, source: p.source };
+    // crédits du deck anglais : ceux des entrées anglaises (_engineers/), même identifiant
+    const en = lirePortrait(id, "_engineers") || p;
+    creditsEn[id] = { auteur: en.auteur, licence: en.licence, source: en.source };
   }
   fs.writeFileSync(path.join(SORTIE, "credits.json"), JSON.stringify(credits, null, 1));
+  fs.writeFileSync(path.join(SORTIE, "credits.en.json"), JSON.stringify(creditsEn, null, 1));
   console.log("portraits :", Object.keys(credits).join(", "));
 }
 

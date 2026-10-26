@@ -5,8 +5,8 @@
   "scripts": {
     "fonts": "sh fonts.sh",
     "portraits": "node portraits.js",
-    "pptx": "node portraits.js && node build.js",
-    "pdf": "node portraits.js && node build.js pdf",
+    "pptx": "node portraits.js && node build.js pptx fr && node build.js pptx en",
+    "pdf": "node portraits.js && node build.js pdf fr && node build.js pdf en",
     "cartes": "node portraits.js && node cartes.js",
     "images": "node optimiser-images.js"
   },

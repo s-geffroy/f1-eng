@@ -187,7 +187,7 @@ en:
     entrees: "/en/engineers/"
     voitures: "/en/cars/"
     index_recherche: "/en/search.json"
-    pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
+    pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
   nav:
     - { url: "/en/", nom: "Index" }
@@ -244,7 +244,7 @@ en:
     depart_avant: "To understand the ranking, start with"
     depart_lien: "the method"
     pdf_avant: "The full presentation is also available as a"
-    pdf_lien: "PDF (22 slides, in French)"
+    pdf_lien: "PDF (22 slides)"
     voitures_avant: "Their machines have entries too:"
     voitures_lien: "the cars that made history"
     titre_index: "Index of entries"
@@ -297,7 +297,7 @@ en:
     titre: "Features"
     accroche: "Four overview pieces, best read in order: the method, then the ranking tier by tier."
     telecharger: "Download the presentation (PDF)"
-    telecharger_suite: "22 slides, from the method to the final ranking, in French."
+    telecharger_suite: "22 slides, from the method to the final ranking."
   recherche:
     titre_page: "Search"
     description: "Search the whole encyclopedia: engineers, glossary, timeline and features."

@@ -81,7 +81,7 @@ assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
 assets/portraits/    portraits libres de droits (credits dans les entrees)
 assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
-assets/docs/         presentation PDF telechargeable (generee par deck/)
+assets/docs/         presentation PDF telechargeable, fr et en (generee par deck/)
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
@@ -218,8 +218,8 @@ modele photographie (categorie Commons, description, image regardee).
 ```bash
 cd deck
 npm ci && npm run fonts     # premiere fois : dependances et polices du site
-npm run pdf                 # assets/docs/ingenieurs-revolutionnaires-F1.pdf
-npm run pptx                # deck/out/... .pptx (non versionne, avec notes)
+npm run pdf                 # assets/docs/ingenieurs-revolutionnaires-F1.pdf et revolutionary-engineers-F1.pdf
+npm run pptx                # deck/out/... .pptx fr et en (non versionnes, avec notes)
 npm run cartes              # assets/partage/*.jpg (fr), en/*.jpg, voitures/ et en/voitures/
 ```
 
