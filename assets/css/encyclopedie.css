@@ -318,6 +318,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .tier-liste .ligne-domaine { font-family: var(--texte); font-size: 0.9375rem; flex: 1; }
 .tier-liste .ligne-score { font-size: 1.25rem; }
 
+.tier-note { margin-top: 2rem; padding-top: 1rem; border-top: var(--trait-fin) solid var(--trait); color: var(--mine); max-width: 46rem; }
+
 /* ---------- Lignées ---------- */
 
 .lignee { margin-bottom: 2.75rem; }

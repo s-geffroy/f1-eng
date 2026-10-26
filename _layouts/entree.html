@@ -40,7 +40,7 @@ layout: default
       <div class="case case-rang"><dt>{{ T.l.rang }}</dt><dd>{{ page.rang }}</dd></div>
       <div class="case case-tier"><dt>{{ T.l.tier }}</dt><dd><a href="{{ T.url.tiers | relative_url }}#tier-{{ page.tier | downcase }}">{{ page.tier }}</a></dd></div>
       <div class="case case-score"><dt>{{ T.l.score }}</dt><dd>{{ page.score }}<span class="sur">/100</span></dd></div>
-      <div class="case case-confiance"><dt>{{ T.l.confiance }}</dt><dd>{{ page.confiance }}</dd></div>
+      <div class="case case-confiance"><dt><a href="{{ T.url.methode | relative_url }}#lire-une-fiche" title="{{ T.l.confiance_aide }}">{{ T.l.confiance }}</a></dt><dd>{{ page.confiance }}</dd></div>
       {%- else %}
       <div class="case case-large case-hc"><dt>{{ T.l.classement }}</dt><dd>{{ T.l.hors_classement }}</dd></div>
       {%- endif %}

@@ -46,6 +46,7 @@ fr:
     tier: "Tier"
     score: "Score"
     confiance: "Confiance"
+    confiance_aide: "Solidité de l'attribution : ce qui revient personnellement à l'ingénieur, compte tenu des sources"
     domaine: "Domaine"
     lignees: "Lignées"
     voir_aussi: "Voir aussi"
@@ -101,6 +102,8 @@ fr:
     titre_page: "Tiers"
     description: "Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé."
     titre: "Les quatre tiers"
+    hc: "Les vingt classés ne sont pas les seuls acteurs documentés : d'autres entrées, marquées HC (hors classement), décrivent une contribution sans rang, ni tier, ni score. Elles figurent dans l'index."
+    lire: "Comment lire le tier, le score et la confiance"
     accroche: "Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures. Le classement est une sélection argumentée, pas une liste exhaustive des grands ingénieurs."
   lignees:
     titre_page: "Lignées"
@@ -222,6 +225,7 @@ en:
     tier: "Tier"
     score: "Score"
     confiance: "Confidence"
+    confiance_aide: "How solid the attribution is: what belongs personally to the engineer, given the sources"
     domaine: "Field"
     lignees: "Lineages"
     voir_aussi: "See also"
@@ -277,6 +281,8 @@ en:
     titre_page: "Tiers"
     description: "The twenty engineers split into four tiers, from paradigm change to more local impact."
     titre: "The four tiers"
+    hc: "The twenty ranked engineers are not the only people documented: other entries, marked HC (unranked), describe a contribution without a rank, tier or score. They appear in the index."
+    lire: "How to read the tier, score and confidence"
     accroche: "Five engineers changed the grammar of F1; fifteen others transformed subsystems, methods or major technical paths. The ranking is a reasoned selection, not an exhaustive list of great engineers."
   lignees:
     titre_page: "Lineages"

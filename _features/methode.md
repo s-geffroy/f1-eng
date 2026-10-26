@@ -69,6 +69,18 @@ The rule is simple: **several people are not given full credit for the same cont
 
 It produces four tiers: five paradigm revolutionaries (Tier A), then fifteen engineers who transformed major subsystems, methods or technical trajectories.
 
+## How to read an entry
+{: #lire-une-fiche}
+
+The panel of the twenty ranked engineers carries four indications.
+
+- **Rank**: the position in the ranking, from 1 to 20.
+- **Tier**: the level of impact, defined on the [tiers page]({{ site.baseurl }}/en/tiers/). The tier does not follow from a score threshold: it comes from a qualitative judgement based on the secondary diagnostics (nature of the breakthrough, diffusion, longevity). The score then orders the engineers, so the tiers form contiguous score bands: 91.5 to 96 for Tier A, 85 to 90 for Tier B, 79 to 83.5 for Tier C, 73.5 to 77.5 for Tier D.
+- **Score**: the mark out of 100 produced by the five weighted criteria above. It is a comparative instrument, not a fact.
+- **Confidence**: how solid the attribution is, that is, how certain we are about what belongs personally to the engineer, given the sources. It falls when accounts contradict each other, when the attribution is disputed or when sources are scarce. It ranges from "Medium" to "Very high".
+
+Unranked entries have no rank, tier, score or confidence.
+
 ## Unranked entries
 {: #hors-classement}
 

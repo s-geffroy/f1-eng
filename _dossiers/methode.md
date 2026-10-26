@@ -70,6 +70,18 @@ La règle est simple : **on ne crédite pas intégralement plusieurs personnes d
 
 Elle produit quatre tiers : cinq révolutionnaires de paradigme (Tier A), puis quinze ingénieurs qui ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.
 
+## Comment lire une fiche
+{: #lire-une-fiche}
+
+Le cartouche des vingt ingénieurs classés porte quatre indications.
+
+- **Rang** : la place dans le classement, de 1 à 20.
+- **Tier** : le niveau d'impact, défini sur la [page des tiers]({{ site.baseurl }}/tiers/). Le tier ne découle pas d'un seuil de score : il vient d'un jugement qualitatif d'après les diagnostics secondaires (nature de la rupture, diffusion, longévité). Le score ordonne ensuite les ingénieurs, si bien que les tiers forment des tranches de score contiguës : de 91,5 à 96 pour le Tier A, de 85 à 90 pour le Tier B, de 79 à 83,5 pour le Tier C, de 73,5 à 77,5 pour le Tier D.
+- **Score** : la note sur 100 issue des cinq critères pondérés ci-dessus. C'est un instrument de comparaison, pas un fait.
+- **Confiance** : la solidité de l'attribution, c'est-à-dire le degré de certitude sur ce qui revient personnellement à l'ingénieur, compte tenu des sources. Elle baisse quand les témoignages se contredisent, quand l'attribution est disputée ou quand les sources sont rares. Elle va de « Moyenne » à « Très élevée ».
+
+Les entrées hors classement n'ont ni rang, ni tier, ni score, ni confiance.
+
 ## Entrées hors classement
 {: #hors-classement}
 
