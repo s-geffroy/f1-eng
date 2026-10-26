@@ -108,7 +108,9 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
             if ancre not in ids_gloss:
                 err(f"{chemin} : ancre de glossaire inconnue (#{ancre})")
     for j in (chrono or {}).get("jalons", []):
-        for e in j.get("entrees", []):
+        if not j.get("entrees") and not j.get("sources"):
+            err(f"{rep_data}/chronologie.yml : jalon {j['id']} sans entrée ni source")
+        for e in j.get("entrees", []) or []:
             if e not in ids:
                 err(f"{rep_data}/chronologie.yml : jalon {j['id']}, entrée « {e} » inconnue")
         for t in j.get("termes", []) or []:

@@ -472,3 +472,40 @@
     url: https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/
   - titre: Formula 1, glossaire P-T
     url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+- id: kers
+  terme: KERS
+  motifs:
+  - KERS
+  definition: 'Système de récupération de l''énergie cinétique : au freinage, un moteur-générateur convertit une partie de l''énergie en électricité, stockée puis rendue au pilote sous forme de puissance supplémentaire. Autorisé en 2009, limité alors à 60 kW pendant 6,6 secondes par tour, il précède le groupe propulseur hybride de 2014.'
+  premiere: '2009.'
+  entrees:
+  - andy-cowell
+  sources:
+  - titre: 'Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)'
+    url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8
+  - titre: Autosport, Scott Mitchell, « The 2007 decision that built Mercedes' hybrid empire » (août 2019)
+    url: https://www.autosport.com/f1/news/the-2007-decision-that-built-mercedes-hybrid-empire-5112574/5112574/
+- id: drs
+  terme: DRS
+  motifs:
+  - DRS
+  definition: 'Système de réduction de la traînée : le pilote ouvre un volet de l''aileron arrière dans une zone définie, derrière une autre voiture, pour gagner de la vitesse en ligne droite. Introduit en 2011 à la place du F-duct, il est jugé dès le départ comme un palliatif aux difficultés des voitures à se suivre.'
+  premiere: '2011.'
+  entrees: []
+  sources:
+  - titre: 'Autosport, Gary Anderson, « Drag Reduction System: Did it work? » (décembre 2011)'
+    url: https://www.autosport.com/f1/news/drag-reduction-system-did-it-work-5098191/5098191/
+  - titre: 'Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season''s F-duct » (avril 2020)'
+    url: https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct
+- id: inerter
+  terme: Inerter
+  motifs:
+  - inerter
+  definition: Élément de suspension dans lequel un piston entraîne un volant d'inertie en proportion du déplacement relatif de ses deux extrémités ; associé aux ressorts et aux amortisseurs, il réduit les oscillations. Imaginé en 1997 par Malcolm Smith à Cambridge, il court d'abord chez McLaren sous le nom de « J-damper », puis devient un équipement standard jusqu'à son interdiction en 2022.
+  premiere: McLaren, 2005.
+  entrees: []
+  sources:
+  - titre: Université de Cambridge, « Secrets of the inerter revealed » (août 2008)
+    url: https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed
+  - titre: 'Formula1.com, Mark Hughes et Giorgio Piola, « Tech Tuesday: How 2022''s suspension overhaul could shuffle the competitive order » (février 2022)'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j

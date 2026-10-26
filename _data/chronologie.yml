@@ -7,6 +7,8 @@
 #   titre    : intitule court
 #   texte    : une ou deux phrases
 #   entrees  : identifiants d'entrees (_ingenieurs/<id>.md)
+#   sources  : liste de { titre, url }, quand les faits ne sont pas deja sources
+#              dans une entree (facultatif ; il faut des entrees ou des sources)
 #   termes   : identifiants du glossaire (_data/glossaire.yml), facultatif
 
 voies:
@@ -160,7 +162,7 @@ jalons:
     voie: moteur
     titre: "Première victoire d'un moteur turbo"
     texte: "Renault gagne le Grand Prix de France. Le moteur dérive du V6 conçu par François Castaing et Jean-Pierre Boudy ; Bernard Dudot mène le programme moteur."
-    entrees: [francois-castaing, bernard-dudot, jean-terramorsi]
+    entrees: [francois-castaing, bernard-dudot, jean-terramorsi, jean-pierre-boudy]
     termes: [turbocompresseur]
 
   - id: mp4-1
@@ -183,9 +185,12 @@ jalons:
     annee: 1983
     voie: moteur
     titre: "Premier champion du monde sur moteur turbo"
-    texte: "Conçue en six semaines après l'annonce du fond plat obligatoire, qui interdit les fonds à effet de sol et les jupes, la Brabham BT52 mène Nelson Piquet au titre."
-    entrees: [gordon-murray]
+    texte: "Conçue en six semaines selon Mark Hughes, en trois mois selon Gordon Murray, après l'annonce du fond plat obligatoire, qui interdit les fonds à effet de sol et les jupes, la Brabham BT52 mène Nelson Piquet au titre."
+    entrees: [gordon-murray, paul-rosche]
     termes: [turbocompresseur]
+    sources:
+      - titre: "Motor Sport, Keith Howard, « Harnessing the power » (janvier 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
 
   - id: lotus-92-active
     annee: 1983
@@ -200,7 +205,7 @@ jalons:
     voie: moteur
     titre: "Le rappel pneumatique des soupapes"
     texte: "Introduit sur le moteur Renault EF15 B, il équipe tous les moteurs de F1 à partir des années 1990."
-    entrees: [bernard-dudot]
+    entrees: [bernard-dudot, jean-pierre-boudy]
     termes: [rappel-pneumatique]
 
   - id: active-gagne
@@ -231,7 +236,7 @@ jalons:
     voie: aero
     titre: "Le nez relevé"
     texte: "La Tyrrell 019 de Harvey Postlethwaite et Jean-Claude Migeot relève le nez pour mieux alimenter le dessous de la voiture ; la Leyton House d'Adrian Newey le fait la même année."
-    entrees: [jean-claude-migeot, harvey-postlethwaite, adrian-newey]
+    entrees: [jean-claude-migeot, harvey-postlethwaite, adrian-newey, mike-gascoyne]
     termes: [nez-releve]
 
   - id: fw14b
@@ -292,7 +297,7 @@ jalons:
     annee: 1970
     voie: aero
     titre: "La Lotus 72 et ses radiateurs latéraux"
-    texte: "Conçue par Maurice Philippe avec Colin Chapman, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus (22 selon Classic Team Lotus)."
+    texte: "Créditée à Maurice Philippe et Colin Chapman, la part de chacun restant discutée, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus (22 selon Classic Team Lotus)."
     entrees: [colin-chapman]
 
   - id: lotus-88
@@ -332,7 +337,7 @@ jalons:
     voie: architecture
     titre: "La McLaren MP4/4, quinze victoires sur seize"
     texte: "La McLaren MP4/4 gagne 15 des 16 courses de 1988. Sa paternité reste discutée : Steve Nichols, son concepteur en chef, y voit une évolution de la MP4/3 ; Gordon Murray conteste ce récit. Autosport cite aussi Bob Bell, David North, Matthew Jeffreys et Steve Nielsen parmi ses auteurs."
-    entrees: [steve-nichols, gordon-murray]
+    entrees: [steve-nichols, gordon-murray, bob-bell]
 
   - id: fw17b
     annee: 1995
@@ -349,6 +354,144 @@ jalons:
     texte: "Adrian Newey « réinvente » le diffuseur soufflé par les échappements."
     entrees: [adrian-newey]
     termes: [diffuseur]
+
+  - id: "tyrrell-p34"
+    annee: 1976
+    voie: "aero"
+    titre: "La Tyrrell P34 à six roues"
+    texte: "La P34 de Derek Gardner est la seule voiture à six roues à prendre le départ d'un Grand Prix. Son vrai but n'est pas de réduire la surface frontale mais l'appui : quatre petites roues avant, moins exposées, engendrent moins de portance. À Anderstorp, personne ne la bat."
+    entrees: [derek-gardner]
+    termes: [appui]
+    sources:
+      - titre: "Motor Sport, Andrew Frankel, « Two too many » (février 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
+      - titre: "Motor Sport, Nigel Roebuck, « When six worked better than four » (février 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
+
+  - id: "donnees-tyrrell"
+    annee: 1978
+    voie: "methode"
+    titre: "Les données entrent dans le réglage"
+    texte: "Venu de la division course de Goodyear, Karl Kempf équipe les Tyrrell de capteurs dont les mesures, enregistrées sur cassette, servent au réglage. Il ne se dit pas le premier à mesurer, mais le premier à « utiliser vraiment les mesures de façon régulière » ; la date varie selon les sources."
+    entrees: []
+    termes: [acquisition-de-donnees]
+    sources:
+      - titre: "Racer, Mark Glendenning, « Tales of the tape: Early adventures in F1 data logging » (avril 2024)"
+        url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
+      - titre: "Jalopnik, Elizabeth Blackstock, « Formula One Telemetry: Explained » (décembre 2020)"
+        url: "https://jalopnik.com/formula-one-telemetry-explained-1845819678/"
+
+  - id: "telemetrie-course"
+    annee: 1986
+    voie: "methode"
+    titre: "La télémétrie en course"
+    texte: "Chez Williams-Honda, les ingénieurs suivent depuis le stand les relevés des instruments pendant la course. Développé à partir de mi-1985 par l'équipe électronique de Honda, le système est bientôt imité par les autres équipes, au point de devenir un équipement standard ; la primauté revendiquée par Honda reste discutée."
+    entrees: []
+    termes: [acquisition-de-donnees]
+    sources:
+      - titre: "Motor Sport, « Williams FW11 – Honda RA163FV6 » (janvier 1987)"
+        url: "https://www.motorsportmagazine.com/archive/article/january-1987/49/williams-fw11-honda-ra163fv6"
+      - titre: "Honda, « What Telemetry Said About Nigel Mansell » (site du constructeur, non daté)"
+        url: "https://global.honda/en/mansell/Telemetry/"
+      - titre: "Honda, « 1986 RA166E » (site du constructeur, non daté)"
+        url: "https://global.honda/en/POWEREDbyHONDA/1986_ra166e/"
+      - titre: "McLaren, Chris Alexander, « A brief history of computing in F1 » (janvier 2016)"
+        url: "https://www.mclaren.com/racing/team/a-brief-history-of-computing-in-f1-1052199/"
+
+  - id: "cfd-benetton"
+    annee: 1993
+    voie: "methode"
+    titre: "La simulation numérique des écoulements"
+    texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. En 1993, l'équipe s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent."
+    entrees: []
+    termes: [cao]
+    sources:
+      - titre: "Autosport, Pat Symonds, « How a dynamic design tool has grown in F1 importance » (mars 2023)"
+        url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
+      - titre: "Racecar Engineering, « Renault F1 extends Fluent relations » (mai 2004)"
+        url: "https://www.racecar.com/news/6225/motorsport/renault-f1-extends-fluent-relations"
+
+  - id: "boite-sans-coupure"
+    annee: 2005
+    voie: "transmission"
+    titre: "La boîte sans rupture de couple"
+    texte: "Sur la BAR 007, Honda fait engager le rapport suivant pendant que le précédent transmet encore le couple, avec un embrayage unidirectionnel par rapport ; le gain moyen est de 0,4 s au tour. En 2008, toutes les équipes ont un système semblable."
+    entrees: []
+    sources:
+      - titre: "Motor Sport, Lawrence Butcher, « Honda's paradigm shifter that flew in the face of convention » (mai 2020)"
+        url: "https://motorsportmagazine.com/articles/single-seaters/f1/hondas-paradigm-shifter-that-flew-in-the-face-of-convention"
+      - titre: "Honda, « 2005 | F1 » (site du constructeur, non daté)"
+        url: "https://global.honda/en/F1/2005"
+
+  - id: "inerter"
+    annee: 2005
+    voie: "transmission"
+    titre: "L'inerter de McLaren"
+    texte: "Imaginé à Cambridge par Malcolm Smith, ce volant d'inertie logé dans la suspension court pour la première fois sur la McLaren victorieuse en Espagne, sous le nom de code « J-damper ». Ouvert à toutes les équipes en 2008, il reste un équipement standard jusqu'à son interdiction en 2022."
+    entrees: []
+    termes: [inerter]
+    sources:
+      - titre: "Université de Cambridge, « Secrets of the inerter revealed » (août 2008)"
+        url: "https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed"
+      - titre: "Formula1.com, Mark Hughes et Giorgio Piola, « Tech Tuesday: How 2022's suspension overhaul could shuffle the competitive order » (février 2022)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j"
+
+  - id: "kers"
+    annee: 2009
+    voie: "moteur"
+    titre: "Le KERS gagne en Hongrie"
+    texte: "Récupérée au freinage, l'énergie rend jusqu'à 60 kW pendant 6,6 secondes par tour. Lewis Hamilton gagne en Hongrie avec la McLaren équipée du KERS de Mercedes, conçu à Brixworth avec Zytek : c'est la première victoire d'une voiture ainsi équipée. Selon Autosport, Mercedes en fait le socle de son groupe propulseur de 2014 ; Andy Cowell relativise."
+    entrees: []
+    termes: [kers]
+    sources:
+      - titre: "Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
+      - titre: "Autosport, Scott Mitchell, « The 2007 decision that built Mercedes' hybrid empire » (août 2019)"
+        url: "https://www.autosport.com/f1/news/the-2007-decision-that-built-mercedes-hybrid-empire-5112574/5112574/"
+      - titre: "Crash.net, Matt Salisbury, « Zytek revealed as McLaren KERS supplier » (2009)"
+        url: "https://www.crash.net/f1/news/150836/1/zytek-revealed-as-mclaren-kers-supplier"
+
+  - id: "simulateur"
+    annee: 2009
+    voie: "methode"
+    titre: "Le simulateur remplace la piste"
+    texte: "Les essais en saison interdits, la mise au point passe des circuits aux usines : le pilote y roule dans une F1 virtuelle. McLaren, qui a lancé son simulateur dès 1996 avec Paddy Lowe et le soutien de Martin Whitmarsh, a de l'avance ; Ferrari reconnaît devoir rattraper son retard."
+    entrees: [paddy-lowe]
+    sources:
+      - titre: "GrandPrix.com, Joe Saward, « Formula 1's virtual reality » (janvier 2009)"
+        url: "https://www.grandprix.com/features/joe-saward/insight-formula-1s-virtual-reality.html"
+      - titre: "Autosport, Edd Straw, « Does F1 still need in-season testing? » (avril 2012)"
+        url: "https://www.autosport.com/f1/news/does-f1-still-need-in-season-testing-5098577/5098577/"
+      - titre: "GrandPrix.com, actualités du 27 janvier 2011"
+        url: "https://www.grandprix.com/ns/ns22879.html"
+
+  - id: "f-duct"
+    annee: 2010
+    voie: "aero"
+    titre: "Le F-duct de McLaren"
+    texte: "En obturant un orifice du cockpit, le pilote fait décrocher l'aileron arrière en ligne droite et réduit la traînée. Mis au point par toute l'équipe McLaren dès la fin de 2008, il est imité d'abord par Sauber, puis par d'autres ; interdit pour 2011, il est remplacé par le DRS."
+    entrees: []
+    termes: [aileron, drs]
+    sources:
+      - titre: "Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season's F-duct » (avril 2020)"
+        url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
+      - titre: "Autosport, Jonathan Noble, « McLaren upbeat on 2011 car progress » (décembre 2010)"
+        url: "https://www.autosport.com/f1/news/88611/mclaren-upbeat-on-2011-car-progress"
+      - titre: "GrandPrix.com, « McLaren: Original thinking » (février 2011)"
+        url: "https://www.grandprix.com/features/2010-grand-prix-review-mclaren-original-thinking.html"
+
+  - id: "rb18"
+    annee: 2022
+    voie: "aero"
+    titre: "La Red Bull de 2022"
+    texte: "Fort de son expérience des voitures à effet de sol, Adrian Newey apporte des idées clés au concept de la Red Bull et dessine lui-même ses suspensions ; l'enjeu est de délivrer l'appui de façon fiable. Plusieurs équipes reprennent ensuite ses pontons, mais ni Ferrari ni Mercedes."
+    entrees: [adrian-newey]
+    termes: [effet-de-sol]
+    sources:
+      - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+        url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+      - titre: "PlanetF1, Michelle Foster, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
+        url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
 
 contexte:
   - id: "mosquito-radiateurs"
@@ -913,6 +1056,11 @@ contexte:
     categorie: "technologie"
     titre: "La Toyota Prius, première hybride de série"
     texte: "En 1997, Toyota lance la Prius, premier véhicule hybride produit en série : un moteur thermique et deux moteurs-générateurs récupèrent l'énergie perdue au freinage, et la consommation est divisée par deux. Le sens de l'emprunt avec la F1 est discuté : à l'arrivée du KERS en 2009, limité à 60 kW pendant 6,6 secondes par tour, Toyota le juge « primitif » et sans rapport avec ses hybrides routiers, tandis que formula1.com affirme en 2014 que les progrès des KERS de F1 ont profité aux hybrides de série. Selon ce site, un système pesait plus de 100 kg en 2007, 24 kg fin 2012."
+    liens:
+      - jalon: "kers"
+        mecanisme: "transfert"
+        preuve: "chronologique"
+        pourquoi: "La Prius précède le KERS de douze ans, mais aucune source n'établit d'emprunt : Toyota juge le KERS « primitif » et sans rapport avec ses hybrides routiers."
     sources:
       - titre: "IEEE, Engineering and Technology History Wiki, « Milestones: Toyota Prius, the World's First Mass-Produced Hybrid Vehicle, 1997 » (février 2025)"
         url: "https://ethw.org/Milestones:Toyota_Prius,_the_World%27s_First_Mass-Produced_Hybrid_Vehicle,_1997"
@@ -920,6 +1068,19 @@ contexte:
         url: "https://newatlas.com/formula-one-kers/11324/"
       - titre: "Formula1.com, « Hybrid update for Mercedes' car name » (mai 2014)"
         url: "https://www.formula1.com/en/latest/headlines/2014/5/Hybrid-update-for-Mercedes-car-name.html"
+  - id: "inerter-cambridge"
+    annee: 1997
+    categorie: "technologie"
+    titre: "L'inerter de Malcolm Smith"
+    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston entraîne un volant d'inertie en proportion du déplacement relatif de ses deux extrémités, ce qui, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
+    liens:
+      - jalon: "inerter"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "Selon l'université de Cambridge, le dispositif imaginé en 1997 par Malcolm Smith est confié en exclusivité à McLaren, qui le fait courir en 2005."
+    sources:
+      - titre: "Université de Cambridge, « Secrets of the inerter revealed » (août 2008)"
+        url: "https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed"
   - id: "roues-retenues"
     annee: 1999
     categorie: "securite"
@@ -964,9 +1125,18 @@ contexte:
     categorie: "economie"
     titre: "Fin des essais privés en saison"
     texte: "En décembre 2008, quelques jours après le départ de Honda, le Conseil mondial adopte avec les équipes un plan d'économies, tous craignant d'autres départs de constructeurs ; la FIA en attend jusqu'à 30 % de dépenses en moins. À partir de 2009, plus aucun essai n'est permis après le début de la saison, et les souffleries ne peuvent plus accueillir de maquettes à l'échelle réelle, 60 % devenant le maximum. Chaque moteur doit tenir trois week-ends, avec un régime ramené de 19 000 à 18 000 tr/min, et les prix des moteurs clients sont divisés par deux. Les vendredis de Grand Prix prennent une place nouvelle dans la mise au point."
+    liens:
+      - jalon: "simulateur"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "En supprimant les essais en saison, le plan d'économies de 2009 déplace la mise au point des circuits vers les usines, où le simulateur prend le relais de la piste (Joe Saward) ; McLaren l'avait lancé bien avant, selon Paddy Lowe."
     sources:
       - titre: "Motor Sport, Adam Cooper, « Formula 1 costs slashed for 2009 » (février 2009)"
         url: "https://www.motorsportmagazine.com/archive/article/february-2009/12/formula-1-costs-slashed-for-2009/"
+      - titre: "GrandPrix.com, Joe Saward, « Formula 1's virtual reality » (janvier 2009)"
+        url: "https://www.grandprix.com/features/joe-saward/insight-formula-1s-virtual-reality.html"
+      - titre: "Autosport, Edd Straw, « Does F1 still need in-season testing? » (avril 2012)"
+        url: "https://www.autosport.com/f1/news/does-f1-still-need-in-season-testing-5098577/5098577/"
   - id: "refonte-aero-2009"
     annee: 2009
     categorie: "reglement"
@@ -988,6 +1158,23 @@ contexte:
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
       - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
         url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+  - id: "kers-autorise-2009"
+    annee: 2009
+    categorie: "reglement"
+    titre: "Le KERS autorisé"
+    texte: "Annoncé dès 2007, le règlement 2009 autorise un système de récupération d'énergie au freinage, qui rend jusqu'à 60 kW pendant 6,6 secondes par tour, stockée dans des batteries ou, chez Williams, un volant d'inertie électrique. Lourd, complexe et souvent peu fiable, il n'est utilisé que par quatre équipes. Resté dans le règlement en 2010, il n'est plus employé, les équipes s'étant entendues pour y renoncer ; elles réclament son retour pour 2011."
+    liens:
+      - jalon: "kers"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Selon Andy Cowell, Mercedes décide de concevoir son propre KERS dès la publication du règlement, en 2007."
+    sources:
+      - titre: "Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
+      - titre: "Autosport, Scott Mitchell, « The 2007 decision that built Mercedes' hybrid empire » (août 2019)"
+        url: "https://www.autosport.com/f1/news/the-2007-decision-that-built-mercedes-hybrid-empire-5112574/5112574/"
+      - titre: "Motor Sport, Adam Cooper, « Teams call for KERS in 2011 » (juillet 2010)"
+        url: "https://www.motorsportmagazine.com/archive/article/july-2010/13/teams-call-for-kers-in-2011/"
   - id: "ravitaillement-interdit-2010"
     annee: 2010
     categorie: "reglement"
@@ -1018,6 +1205,25 @@ contexte:
         url: "https://www.autosport.com/f1/news/double-diffusers-banned-from-2011-4434892/4434892/"
       - titre: "Autosport, Matt Somerfield et Giorgio Piola, « Banned: The double diffuser that triggered an F1 development race » (mai 2020)"
         url: "https://www.autosport.com/news/report.php/id/149491"
+  - id: "drs-2011"
+    annee: 2011
+    categorie: "reglement"
+    titre: "Le DRS remplace le F-duct"
+    texte: "Écarté pour raisons de coût et de sécurité lors d'une réunion au Grand Prix d'Espagne 2010, le F-duct cède la place en 2011 au DRS, un aileron arrière réglable que le pilote peut ouvrir dans une zone définie, derrière une autre voiture. Gary Anderson y voit dès 2011 « un pansement », en attendant un règlement qui permette aux voitures de se suivre."
+    liens:
+      - jalon: "f-duct"
+        mecanisme: "provoque"
+        preuve: "etabli"
+        pourquoi: "Le F-duct conduit la FIA à interdire ce décrochage d'aileron et à le remplacer par un dispositif réglementé, le DRS (Gary Anderson)."
+      - jalon: "f-duct"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Écarté pour raisons de coût et de sécurité lors d'une réunion au Grand Prix d'Espagne 2010, le F-duct est remplacé par le DRS en 2011 (Matt Somerfield)."
+    sources:
+      - titre: "Autosport, Gary Anderson, « Drag Reduction System: Did it work? » (décembre 2011)"
+        url: "https://www.autosport.com/f1/news/drag-reduction-system-did-it-work-5098191/5098191/"
+      - titre: "Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season's F-duct » (avril 2020)"
+        url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
   - id: "echappements-2012"
     annee: 2012
     categorie: "reglement"
@@ -1112,11 +1318,24 @@ contexte:
     categorie: "reglement"
     titre: "Le retour de l'effet de sol"
     texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon la F1, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les bargeboards, qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
+    liens:
+      - jalon: "inerter"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Le règlement 2022 interdit les inerters, devenus un équipement standard depuis une vingtaine d'années (Mark Hughes et Giorgio Piola)."
+      - jalon: "rb18"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Le retour des voitures à effet de sol par venturis permet à Newey de donner de nouveau le ton, grâce à son expérience de ces voitures (Edd Straw)."
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
       - titre: "Formula 1, Greg Stuart, « 10 things you need to know about the all-new 2022 F1 car » (juillet 2021)"
         url: "https://www.formula1.com/en/latest/article/10-things-you-need-to-know-about-the-all-new-2022-f1-car.4OLg8DrXyzHzdoGrbqp6ye"
+      - titre: "Formula1.com, Mark Hughes et Giorgio Piola, « Tech Tuesday: How 2022's suspension overhaul could shuffle the competitive order » (février 2022)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j"
+      - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+        url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
   - id: "motoristes-2026"
     annee: 2026
     categorie: "economie"
