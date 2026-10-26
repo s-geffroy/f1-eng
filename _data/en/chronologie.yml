@@ -691,6 +691,10 @@ contexte:
         mecanisme: "ouvre"
         preuve: "etabli"
         pourquoi: "The end of Lotus's exclusivity, decided by Walter Hayes at Ford, made the DFV the engine of two thirds of the grid by 1969."
+      - jalon: "tyrrell-p34"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "With almost everyone on the same engine, gearbox and tyres, Derek Gardner says Tyrrell needed “an unfair advantage”: the six-wheeler (Andrew Frankel, Nigel Roebuck)."
     sources:
       - titre: "Motor Sport, “F1 non-championship races – Part two: the ’60s” (September 2008)"
         url: "https://www.motorsportmagazine.com/archive/article/september-2008/92/f1-non-championship-races-part-two-60s/"
@@ -698,6 +702,10 @@ contexte:
         url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
       - titre: "The Race, Gary Anderson, “The good, bad and ugly of Ford in F1” (February 2023)"
         url: "https://the-race.com/formula-1/gary-anderson-the-good-bad-and-ugly-of-ford-in-f1/"
+      - titre: "Motor Sport, Andrew Frankel, “Two too many” (February 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
+      - titre: "Motor Sport, Nigel Roebuck, “When six worked better than four” (February 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
   - id: "sponsors-1968"
     annee: 1968
     categorie: "economie"
@@ -708,6 +716,21 @@ contexte:
         url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
       - titre: "Motor Sport, “Letters from readers, February 2004” (February 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/february-2004/5/letters-readers-february-2004/"
+  - id: "transmission-integrale-1968"
+    annee: 1968
+    categorie: "technologie"
+    titre: "Four-wheel drive, from Indianapolis to F1"
+    texte: "In 1968 Lotus raced a four-wheel-drive turbine car at Indianapolis; Derek Gardner, seconded from Harry Ferguson, handled its transmission, then worked on Matra's four-wheel-drive F1 car. Drivers struggled with the drivetrain's reactions on and off the throttle. USAC moved to ban turbines and four-wheel drive, and the principle never took hold in F1."
+    liens:
+      - jalon: "tyrrell-p34"
+        mecanisme: "transfert"
+        preuve: "atteste"
+        pourquoi: "The four-front-wheel idea came in 1968 from four-wheel-drive problems at Indianapolis and Matra; dropped along with four-wheel drive, it was revived at Tyrrell for another purpose, downforce (Derek Gardner, quoted by Andrew Frankel and Nigel Roebuck)."
+    sources:
+      - titre: "Motor Sport, Andrew Frankel, “Two too many” (February 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
+      - titre: "Motor Sport, Nigel Roebuck, “When six worked better than four” (February 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
   - id: "interdiction-ailerons-hauts"
     annee: 1969
     categorie: "reglement"
@@ -763,6 +786,40 @@ contexte:
         url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
       - titre: "Motor Sport, Gordon Cruickshank, “Venturi capitalists” (July 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/july-2004/134/venturi-capitalists/"
+  - id: "goodyear-monopole"
+    annee: 1975
+    categorie: "economie"
+    titre: "Goodyear, sole tyre supplier"
+    texte: "With Firestone gone, Goodyear supplied the whole F1 field from 1975 until Michelin arrived with Renault's turbo project in 1977, starting an intense tyre war. Tyrrell, contracted to Goodyear, got special 10-inch front tyres for the P34. But only one team used them: according to Derek Gardner, Goodyear focused its development on everyone else's tyres."
+    liens:
+      - jalon: "tyrrell-p34"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "Under contract to Tyrrell, Goodyear agreed to make the small front tyres, compromising on 10 inches (Nigel Roebuck, Andrew Frankel)."
+      - jalon: "tyrrell-p34"
+        mecanisme: "ferme"
+        preuve: "atteste"
+        pourquoi: "As the only team on 10-inch tyres, Tyrrell watched Goodyear develop everyone else's: according to Derek Gardner, the six-wheeler's advantage evaporated, from 1976 according to Andrew Frankel, in 1977 according to Nigel Roebuck."
+    sources:
+      - titre: "Motor Sport, Nigel Roebuck, “Compound fractures” (April 1997)"
+        url: "https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/"
+      - titre: "Motor Sport, Nigel Roebuck, “When six worked better than four” (February 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
+      - titre: "Motor Sport, Andrew Frankel, “Two too many” (February 2001)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
+  - id: "goodyear-mesure"
+    annee: 1976
+    categorie: "technologie"
+    titre: "Goodyear wants measurements"
+    texte: "In the mid-1970s, the new head of Goodyear's international racing division hired Karl Kempf, a mathematician who had interned at Goodyear during his PhD, with a mission: to build a data acquisition system for all Goodyear-shod cars, to “bring some science to the art of motor racing”. The first package measured suspension, steering, throttle, brakes, revs and g-forces. Only Derek Gardner at Tyrrell and Mauro Forghieri at Ferrari really took it up."
+    liens:
+      - jalon: "donnees-tyrrell"
+        mecanisme: "ouvre"
+        preuve: "atteste"
+        pourquoi: "Goodyear commissioned Karl Kempf's measurement system for all its teams; Tyrrell was one of the two that truly adopted it (Karl Kempf, quoted by Mark Glendenning)."
+    sources:
+      - titre: "Racer, Mark Glendenning, “Tales of the tape: Early adventures in F1 data logging” (April 2024)"
+        url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
   - id: "renault-1977"
     annee: 1977
     categorie: "economie"
@@ -895,6 +952,21 @@ contexte:
         url: "https://www.autosport.com/f1/news/when-tag-engines-ruled-formula-1-5105275/5105275/"
       - titre: "Formula1.com, Mark Hughes, “How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ"
+  - id: "phoenics-1981"
+    annee: 1981
+    categorie: "technologie"
+    titre: "Phoenics, the first commercial CFD code"
+    texte: "Work at Imperial College London in the 1960s and 1970s led in 1981 to the first commercial flow-simulation code, Phoenics. According to Pat Symonds, commercial codes improved in the early 1990s as computing power grew, and F1 teams then adopted these tools. CFD had long been used in the aerospace industry."
+    liens:
+      - jalon: "cfd-benetton"
+        mecanisme: "ouvre"
+        preuve: "discute"
+        pourquoi: "Pat Symonds, then at Benetton, credits early-1990s progress in commercial codes and computers for F1's adoption of CFD; but Benetton used Fluent, and no source links Phoenics to Benetton."
+    sources:
+      - titre: "Autosport, Pat Symonds, “How a dynamic design tool has grown in F1 importance” (March 2023)"
+        url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
+      - titre: "GrandPrix.com, David Tremayne, “Blowing in the Wind – CFD v Wind Tunnels” (October 2000)"
+        url: "https://www.grandprix.com/features/david-tremayne/technical-blowing-in-the-wind-cfd-v-wind-tunnels.html"
   - id: "guerre-des-pneus-1982"
     annee: 1982
     categorie: "economie"
@@ -908,6 +980,23 @@ contexte:
     sources:
       - titre: "Motor Sport, Doug Nye, “They stop to conquer” (November 2007)"
         url: "https://www.motorsportmagazine.com/archive/article/november-2007/122/doug-nye"
+  - id: "quatre-roues-au-plus"
+    annee: 1983
+    categorie: "reglement"
+    titre: "Four wheels at most"
+    texte: "F1's technical regulations limit cars to four wheels. The experimental six-wheelers that followed the Tyrrell, the March 2-4-0 and the Williams FW07D and FW08D with four driven rear wheels, never raced. Sources differ on the date: 1983 according to Motor Sport, 1982 according to formula1.com, which ties the ban to the six-wheeled Williams and cites safety and practicality."
+    liens:
+      - jalon: "tyrrell-p34"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "The four-wheel maximum outlawed the six-wheel formula, which Tyrrell had in fact already dropped in 1978, for tyre reasons."
+    sources:
+      - titre: "Motor Sport, Matt Bishop, “The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1” (June 2026)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
+      - titre: "Formula1.com, “From the six wheeled Tyrrell to the dual rear-wing Ferrari – 10 of the weirdest F1 cars ever raced” (undated)"
+        url: "https://www.formula1.com/en/latest/article/from-the-six-wheeled-tyrrell-to-the-dual-rear-wing-ferrari-10-of-the.1uvMU2qhHxAphWRhgjxwCj"
+      - titre: "Motor Sport, Nigel Roebuck, “When six worked better than four” (February 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
   - id: "carburant-220-litres-1984"
     annee: 1984
     categorie: "reglement"
@@ -939,6 +1028,23 @@ contexte:
     sources:
       - titre: "FIA, “Breaking the barriers of safety” (May 2013)"
         url: "https://fia.com/node/5643"
+  - id: "carburant-195-litres-1986"
+    annee: 1986
+    categorie: "reglement"
+    titre: "195 litres of fuel"
+    texte: "For 1986 the race fuel allowance fell from 220 to 195 litres to curb the turbo power race, with no limit on fuel composition or boost. Every team had to manage consumption in the race. Honda's development concentrated on fuel consumption and electronic engine management."
+    liens:
+      - jalon: "telemetrie-course"
+        mecanisme: "ouvre"
+        preuve: "discute"
+        pourquoi: "With 195 litres for the whole race, Honda focused on consumption and electronics (Denis Jenkinson); telemetry helped guide the driver's fuel use (Mark Hughes). No source says it was designed for that purpose."
+    sources:
+      - titre: "Honda, “1986 RA166E” (manufacturer's site, undated)"
+        url: "https://global.honda/en/POWEREDbyHONDA/1986_ra166e/"
+      - titre: "Motor Sport, Denis Jenkinson, “Champion Constructor” (December 1986)"
+        url: "https://www.motorsportmagazine.com/archive/article/december-1986/22/champion-constructor/"
+      - titre: "Formula1.com, Mark Hughes, “TECH TUESDAY: Under the bodywork of 1986's best F1 car, the Williams FW11” (March 2020)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-1986s-best-f1-car-the-williams-fw11.4vqZ7cKhqMhfYgA6mwXYiu"
   - id: "fin-du-turbo"
     annee: 1989
     categorie: "reglement"
@@ -1108,6 +1214,19 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
       - titre: "Formula 1, Matt Youson, “Imola ‘94 and the lasting safety legacy” (May 2019)"
         url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
+  - id: "boites-sans-coupure-autorisees"
+    annee: 2005
+    categorie: "reglement"
+    titre: "Green light for seamless gearboxes"
+    texte: "Weeks before the 2005 season, Ferrari asked for BAR's seamless-shift gearbox to be banned as a form of the outlawed continuously variable transmission. The FIA cleared the systems only in mid-February; four teams were by then developing them."
+    liens:
+      - jalon: "boite-sans-coupure"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Challenged by Ferrari as an outlawed CVT, BAR's gearbox was cleared by the FIA only weeks before the 2005 season (Jonathan Noble)."
+    sources:
+      - titre: "Autosport, Jonathan Noble, “'Seamless' gearbox not unique” (February 2005)"
+        url: "https://www.autosport.com/f1/news/seamless-gearbox-not-unique-4997102/4997102/"
   - id: "honda-brawn-2008"
     annee: 2008
     categorie: "economie"
