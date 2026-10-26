@@ -17,7 +17,7 @@ No single test is enough. The more of them a link passes, the stronger it is.
 1. **Precedence.** The cause must come before the effect, with no conflict of dates. This condition is necessary, never sufficient.
 2. **The channel.** Something must concretely connect the two: a person, a document, a supplier, a regulation. [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), who came from the aircraft industry, advised on the riveted construction of the [Lotus 25]({{ site.baseurl }}/en/timeline/#j-lotus-25); [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}), a former Rolls-Royce aero engine man, remembered the radiators of the [Mosquito]({{ site.baseurl }}/en/timeline/#c-mosquito-radiateurs). Without an identifiable channel, all you have is a resemblance.
 3. **Testimony.** Does the designer, or a direct witness, claim the link? This is the strongest clue, but not absolute proof: memory rewrites, and two witnesses can contradict each other.
-4. **Convergence.** Under the same constraint, did other teams search in the same direction? In 2009, Williams, Brawn and Toyota each arrived at the [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur): the cause is the wording of the rules, not one person's idea. Conversely, the 2.5-litre formula of 1954 produced the Lancia D50 *and* the Mercedes W196, so different that it was hard to believe they met the same rules. The rule opened a space; it did not dictate the solution.
+4. **Convergence.** Under the same constraint, did other teams search in the same direction? In 2009, Williams, Brawn and Toyota each arrived at the [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur): the cause is the wording of the rules, not one person's idea. Conversely, the 2.5-litre formula of 1954 produced the Lancia D50 *and* the Mercedes W196, so different in appearance that it was hard to believe they had been built for the same formula. The rule opened a space; it did not dictate the solution.
 5. **The counterfactual.** Without the event, was the innovation possible, or merely useful? Without the [3-litre formula]({{ site.baseurl }}/en/timeline/#c-formule-3-litres) and the withdrawal of Coventry Climax, there would have been no gap to fill for an engine sold to everyone. The [DFV]({{ site.baseurl }}/en/timeline/#j-dfv) answers that gap.
 
 ## Six mechanisms
@@ -29,9 +29,9 @@ The same event does not always act in the same way. The timeline distinguishes s
 | **Opens** | the event creates the space, the means or the need | the 3-litre formula and the DFV; Honda funding the 2009 Brawn |
 | **Closes** | the event bans the innovation or makes it disappear | the electronic aids banned in 1994 |
 | **Circumvents** | the innovation exploits the letter of a rule to defeat its spirit | the Lotus 88 against the skirt ban; the 2009 double diffuser |
-| **Transfers** | a technique, or a person, comes from elsewhere | the aircraft monocoque, Cranfield's fly-by-wire controls |
+| **Transfers** | a technique, or a person, comes from elsewhere | Cranfield's fly-by-wire controls and Lotus active suspension; the Imperial College rolling road and the Lotus 78 |
 | **Provokes** | the other way round: the innovation brings about the rule | ground effect, which led to the skirt ban |
-| **Triggers** | one context event brings about another, with no innovation in between | Imola 1994 and the HANS; Jules Bianchi's accident and the halo |
+| **Triggers** | one context event brings about another, with no innovation in between | Imola 1994 and the HANS; Imola 1994 and the raised cockpit sides of 1996 |
 
 “Provokes” is a reminder that the rules are not an external given: they react to the cars as much as they shape them. “Triggers” mostly links accidents to the safety measures that follow them: on the timeline, these links stay below the axis, from one context event to another.
 
@@ -41,10 +41,10 @@ Rather than removing uncertain links, the timeline keeps them and labels them. R
 
 - **Attested**: the designer or a direct witness states the link, and no source contradicts it. Tony Rudd and the Mosquito for the Lotus 78.
 - **Established**: a regulation states it explicitly, or a serious historical source asserts it. Skirts were banned in 1981 to limit ground effect: formula1.com says so in plain words.
-- **Disputed**: the sources disagree, or the link is indirect. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) says the concept of the [Brabham BT46B]({{ site.baseurl }}/en/timeline/#j-bt46b) came from the Chaparral 2J; Goodwood considers the influence uncertain. The designer's testimony is strong, but it is contested: the link remains disputed. Likewise, [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) says he thought of carbon on seeing a jet engine cowling made of composite; the link with the Farnborough work that made that composite possible is real but indirect.
+- **Disputed**: the sources disagree, or the link is indirect. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) says the concept of the [Brabham BT46B]({{ site.baseurl }}/en/timeline/#j-bt46b) came from the Chaparral 2J; Goodwood considers the influence uncertain. The designer's testimony is strong, but it is contested: the link remains disputed. Likewise, [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) says he thought of carbon on seeing British Aerospace make the cowling of the Rolls-Royce RB211 jet engine in composite; the Farnborough process leads there only indirectly, through the aircraft industry.
 - **Chronological**: only precedence is established. The Chaparrals carried wings from 1966, and Chris Amon, driver of the winged Ferrari of 1968, was surprised that F1 had taken so long. But no source says Ferrari took its cue from Jim Hall. The link is shown, and flagged as a mere coincidence in time: it is not a cause.
 
-Every link on the timeline carries a sentence saying **why** it exists, according to which source. A link without a written justification is not published.
+Every link on the timeline carries a sentence saying **why** it exists; its sources are those of the context event, and the sentence names the author when the link rests on a testimony or a particular source. A link without a written justification is not published.
 
 ## The full loop: ground effect
 
@@ -61,7 +61,7 @@ Forty years later, the 2022 rules give the floor of the car the main role again:
 
 - **Context does not replace the engineer.** A rule opens a space; someone still has to fill it, and the way they fill it remains their merit. That is the subject of the [ranking method]({{ site.baseurl }}/en/features/methode/).
 - **Sources are not neutral.** Team and manufacturer websites have an interest in a fine lineage; so do engineers' memories, collected decades later.
-- **What is not linked is not necessarily unrelated.** The timeline only draws what a source can justify. Several safety measures, such as the halo or the HANS, are linked to no innovation on the timeline: they changed the cars without producing one. They are, however, linked to the accidents that triggered them.
+- **What is not linked is not necessarily unrelated.** The timeline only draws what a source can justify. Several safety measures, such as the halo or the HANS, are linked to no innovation on the timeline: they changed the cars without producing one. They are, however, linked to the accidents that preceded them: without reservation for the HANS, with a disputed link for the halo.
 
 ## Sources
 

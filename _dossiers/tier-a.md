@@ -29,7 +29,7 @@ Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapm
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque intégral en composite carbone à courir en Grand Prix (la Lotus 88, présentée avant elle, fut interdite), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque en composite carbone à courir en Grand Prix (la Lotus 88, elle aussi en carbone, roula aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais ne fut jamais autorisée à courir), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 
@@ -47,7 +47,7 @@ Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duc
 
 ## N° 5 — Adrian Newey (91,5/100)
 
-Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique. Selon [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), il n'a d'ailleurs pris aucune part à la suspension active Williams, qui servait de plateforme stable à son aérodynamique.
+Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique. Selon [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), il n'a d'ailleurs pris aucune part au développement de la suspension active Williams ; celle-ci, rappelle Autosport, servait avant tout de plateforme stable à son aérodynamique.
 
 Voir l'entrée [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})
 
@@ -71,8 +71,9 @@ Chapman gagne par **largeur historique** ; Barnard gagne en **traçabilité pers
 
 ## Sources
 
-Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
+Consultées le 9 août 2026, revérifiées le 26 octobre 2026.
 
+- Autosport, Adam Cooper, « Tech secrets of a Formula 1 legend » (janvier 2017) : <https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/>
 - Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
 - Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
 - McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
@@ -80,6 +81,7 @@ Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
 - Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
-- Wikipédia (en), « Lotus 88 » : <https://en.wikipedia.org/wiki/Lotus_88>
+- Autosport, Matt Somerfield, « Banned: The ingenious twin-chassis Lotus F1 car » (avril 2020) : <https://www.autosport.com/news/report.php/id/149000>
+- Motor Sport, Graham Keilloh, « Watch Lotus's last great Formula 1 innovation » (mars 2019) : <https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? » : <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>

@@ -57,13 +57,13 @@ F1 history loves isolated heroes. Yet a single revolution involves several roles
 
 The rule is simple: **several people are not given full credit for the same contribution.** Four cases illustrate the difficulty.
 
-**Lotus ground effect.** [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM. At Lotus, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) asked them to rethink the fundamental configuration of the F1 car; the wind tunnel work led to the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) on development. Chapman directed and catalysed the programme that made ground effect workable and dominant; he did not invent it.
+**Lotus ground effect.** [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM. At Lotus, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) asked them to rethink the fundamental configuration of an F1 car; the wind tunnel work led to the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), with Peter Wright on aerodynamics, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) on development. Chapman directed and catalysed the programme that made ground effect workable and dominant; he did not invent it.
 
 **Cooper.** [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) established the rear-engine layout with a design team in which [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) played a central role.
 
 **Cosworth.** The DFV is a Cosworth achievement, with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) as the central technical figure and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) as co-founder and a major contributor.
 
-**Williams active.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (according to his own statements), [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). Credit is shared out according to each person's actual role.
+**Williams active.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) (overall architecture and direction), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (designer of the first system, on the FW11B in 1987), [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) (the hardware), [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) (most of the software) and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) (joint technical direction of the FW14B and FW15C). Credit is shared out according to each person's actual role.
 
 ## What the method produces
 
@@ -76,11 +76,13 @@ Collective innovations involve many more engineers than the twenty in the rankin
 
 ## Sources
 
-Consulted on 9 August 2026, rechecked on 25 October 2026.
+Consulted on 9 August 2026, rechecked on 26 October 2026.
 
 - Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”: <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
 - Formula 1, “Why the Williams FW15C remains F1's technological Tour de Force”: <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
 - Motor Sport Magazine, “Cooper T51: the revolutionary car that changed F1 forever”: <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
 - Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”: <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport, Doug Nye, “Lotus 78: F1's first true ground effect car” (February 2020): <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
+- GrandPrix.com, “Tony Southgate”: <https://grandprix.com/people/tony-southgate.html>
 - Motor Sport Magazine, “Lunch with… Frank Dernie”: <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
 - Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”: <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>

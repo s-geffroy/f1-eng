@@ -17,7 +17,7 @@ Aucun test ne suffit seul. Plus un lien en passe, plus il est solide.
 1. **L'antériorité.** La cause doit précéder l'effet, sans contradiction de dates. C'est la condition nécessaire, jamais suffisante.
 2. **Le canal.** Quelque chose doit relier concrètement les deux : une personne, un document, un fournisseur, un texte réglementaire. [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}), venu de l'aéronautique, conseille l'assemblage riveté de la [Lotus 25]({{ site.baseurl }}/chronologie/#j-lotus-25) ; [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}), ancien motoriste de Rolls-Royce aviation, se souvient des radiateurs du [Mosquito]({{ site.baseurl }}/chronologie/#c-mosquito-radiateurs). Sans canal identifiable, on n'a qu'une ressemblance.
 3. **Le témoignage.** Le concepteur, ou un témoin direct, revendique-t-il le lien ? C'est l'indice le plus fort, mais pas une preuve absolue : la mémoire réécrit, et deux témoins peuvent se contredire.
-4. **La convergence.** Sous la même contrainte, d'autres équipes ont-elles cherché dans la même direction ? En 2009, Williams, Brawn et Toyota arrivent chacune au [double diffuseur]({{ site.baseurl }}/chronologie/#j-double-diffuseur) : la cause est le texte du règlement, pas l'idée d'un seul. À l'inverse, la formule 2,5 litres de 1954 produit la Lancia D50 *et* la Mercedes W196, si différentes qu'on avait peine à croire qu'elles répondaient au même règlement. La règle a ouvert un espace ; elle n'a pas dicté la solution.
+4. **La convergence.** Sous la même contrainte, d'autres équipes ont-elles cherché dans la même direction ? En 2009, Williams, Brawn et Toyota arrivent chacune au [double diffuseur]({{ site.baseurl }}/chronologie/#j-double-diffuseur) : la cause est le texte du règlement, pas l'idée d'un seul. À l'inverse, la formule 2,5 litres de 1954 produit la Lancia D50 *et* la Mercedes W196, si différentes d'aspect qu'on avait peine à croire qu'elles avaient été construites pour la même formule. La règle a ouvert un espace ; elle n'a pas dicté la solution.
 5. **Le contrefactuel.** Sans l'événement, l'innovation était-elle possible, ou simplement utile ? Sans la [formule 3 litres]({{ site.baseurl }}/chronologie/#c-formule-3-litres) et le retrait de Coventry Climax, il n'y aurait pas eu de vide à combler pour un moteur vendu à tous. Le [DFV]({{ site.baseurl }}/chronologie/#j-dfv) répond à ce vide.
 
 ## Six mécanismes
@@ -29,9 +29,9 @@ Un même événement n'agit pas toujours de la même façon. La chronologie dist
 | **Ouvre** | l'événement crée l'espace, les moyens ou le besoin | la formule 3 litres et le DFV ; Honda qui finance la Brawn de 2009 |
 | **Ferme** | l'événement interdit l'innovation ou la fait disparaître | les aides électroniques interdites en 1994 |
 | **Contourne** | l'innovation exploite la lettre d'une règle pour en déjouer l'esprit | la Lotus 88 face à l'interdiction des jupes ; le double diffuseur de 2009 |
-| **Transfère** | une technique, ou une personne, vient d'ailleurs | la monocoque d'avion, les commandes de vol de Cranfield |
+| **Transfère** | une technique, ou une personne, vient d'ailleurs | les commandes de vol de Cranfield et la suspension active de Lotus ; le tapis roulant de l'Imperial College et la Lotus 78 |
 | **Provoque** | sens inverse : c'est l'innovation qui entraîne la règle | l'effet de sol, qui conduit à l'interdiction des jupes |
-| **Déclenche** | un événement de contexte en entraîne un autre, sans innovation entre les deux | Imola 1994 et le HANS ; l'accident de Jules Bianchi et le halo |
+| **Déclenche** | un événement de contexte en entraîne un autre, sans innovation entre les deux | Imola 1994 et le HANS ; Imola 1994 et les flancs de cockpit relevés de 1996 |
 
 « Provoque » rappelle que le règlement n'est pas une donnée extérieure : il réagit aux voitures autant qu'il les façonne. « Déclenche » relie surtout les accidents aux mesures de sécurité qui les suivent : sur la frise, ces liens restent sous l'axe, d'un événement de contexte à l'autre.
 
@@ -41,10 +41,10 @@ Plutôt que de retirer les liens incertains, la chronologie les garde en les ét
 
 - **Attesté** : le concepteur ou un témoin direct affirme le lien, et aucune source ne le contredit. Tony Rudd et le Mosquito pour la Lotus 78.
 - **Établi** : un texte réglementaire le dit explicitement, ou une source historique sérieuse l'affirme. Les jupes sont interdites en 1981 pour limiter l'effet de sol : formula1.com le dit en toutes lettres.
-- **Discuté** : les sources divergent, ou le lien est indirect. [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) dit que le concept de la [Brabham BT46B]({{ site.baseurl }}/chronologie/#j-bt46b) vient de la Chaparral 2J ; Goodwood juge l'influence incertaine. Le témoignage du concepteur est fort, mais il est contesté : le lien reste discuté. De même, [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) dit avoir pensé au carbone en voyant un capot de réacteur en composite ; le lien avec les travaux de Farnborough, qui ont rendu ce composite possible, est réel mais indirect.
+- **Discuté** : les sources divergent, ou le lien est indirect. [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) dit que le concept de la [Brabham BT46B]({{ site.baseurl }}/chronologie/#j-bt46b) vient de la Chaparral 2J ; Goodwood juge l'influence incertaine. Le témoignage du concepteur est fort, mais il est contesté : le lien reste discuté. De même, [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) dit avoir pensé au carbone en voyant British Aerospace fabriquer en composite le capot du réacteur Rolls-Royce RB211 ; le procédé de Farnborough n'y mène qu'indirectement, par l'industrie aéronautique.
 - **Chronologique** : seule l'antériorité est établie. Les Chaparral portent des ailerons dès 1966, et Chris Amon, le pilote de la Ferrari à aileron de 1968, s'étonne que la F1 ait tant tardé. Mais aucune source ne dit que Ferrari s'est inspiré de Jim Hall. Le lien est affiché, et signalé comme une simple concomitance : ce n'est pas une cause.
 
-Chaque lien de la chronologie porte une phrase qui dit **pourquoi** il existe, d'après quelle source. Un lien sans justification écrite n'est pas publié.
+Chaque lien de la chronologie porte une phrase qui dit **pourquoi** il existe ; ses sources sont celles de l'événement de contexte, et la phrase nomme l'auteur quand le lien repose sur un témoignage ou une source particulière. Un lien sans justification écrite n'est pas publié.
 
 ## La boucle complète : l'effet de sol
 
@@ -61,7 +61,7 @@ Quarante ans plus tard, le règlement 2022 rend au fond de la voiture le rôle p
 
 - **Le contexte ne remplace pas l'ingénieur.** Une règle ouvre un espace ; il faut encore quelqu'un pour le remplir, et la manière dont il le remplit reste son mérite. C'est l'objet de la [méthode du classement]({{ site.baseurl }}/dossiers/methode/).
 - **Les sources ne sont pas neutres.** Les sites des équipes et des constructeurs ont intérêt à une belle filiation ; les souvenirs d'ingénieurs, recueillis des décennies plus tard, aussi.
-- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs mesures de sécurité, comme le halo ou le HANS, ne sont reliées à aucune innovation de la frise : elles ont changé les voitures sans en produire une. Elles sont en revanche reliées aux accidents qui les ont déclenchées.
+- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs mesures de sécurité, comme le halo ou le HANS, ne sont reliées à aucune innovation de la frise : elles ont changé les voitures sans en produire une. Elles sont en revanche reliées aux accidents qui les ont précédées : sans réserve pour le HANS, avec un lien discuté pour le halo.
 
 ## Sources
 

@@ -19,11 +19,11 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 **Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
 
-**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et sa contribution à l'ère McLaren MP4/4, dont la paternité est discutée avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
+**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et son rôle central dans le concept de la McLaren MP4/4, dont le dessin de détail revient à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et à son équipe selon Autosport. Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
 
 **Forghieri** est l'ingénieur complet : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
 
-**Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée des Lotus 78/79, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions.
+**Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions, puis de la Lotus 79, esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
 
 **Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 
@@ -56,7 +56,7 @@ Plusieurs de ces ingénieurs n'ont pas changé la forme de la voiture, mais **la
 
 ## Les acteurs hors classement
 
-Derrière les vingt, l'encyclopédie documente aussi, sans les noter, les ingénieurs cités dans leurs histoires :
+Derrière les vingt, l'encyclopédie documente aussi, sans les noter, trente-huit autres acteurs de ces innovations, marqués HC dans l'index ; parmi eux :
 
 - **Lotus 78** : [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ;
 - **Renault** : [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) ;
@@ -64,12 +64,13 @@ Derrière les vingt, l'encyclopédie documente aussi, sans les noter, les ingén
 - **McLaren** : [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) ;
 - **Williams** : [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}), [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) ;
 - **Toleman** : [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}) ;
-- **Lotus des années 1950 et Indianapolis** : [John Crosthwaite]({{ site.baseurl }}{% link _ingenieurs/john-crosthwaite.md %}).
+- **Indianapolis 1962** : [John Crosthwaite]({{ site.baseurl }}{% link _ingenieurs/john-crosthwaite.md %}), concepteur de la Mickey Thompson à moteur arrière.
 
 ## Sources
 
-Consultées le 9 août 2026, revérifiées le 25 octobre 2026.
+Consultées le 9 août 2026, revérifiées le 26 octobre 2026.
 
+- Autosport, Gary Watkins, « The origins of McLaren-Honda's greatest racer » (août 2017) : <https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/>
 - Renault, « 30 ans de Formule 1 » : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
 - Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » : <https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1>
 - Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » : <https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz>

@@ -25,7 +25,7 @@ description: "The twenty with their scores, the technical lineages and the concl
 | 15 | [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) | C | 79.0 | Aero research and the genesis of ground effect |
 | 16 | [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) | D | 77.5 | Co-founder of Cosworth, industrialisation |
 | 17 | [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) | D | 76.5 | Lancia D50, integrated architecture |
-| 18 | [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) | D | 75.5 | Chief designer of the championship-winning Coopers |
+| 18 | [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) | D | 75.5 | Chief designer at Cooper during the 1959 and 1960 titles |
 | 19 | [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) | D | 74.5 | Electronics and software of active suspension |
 | 20 | [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) | D | 73.5 | Chassis/aero integration, repeated performance |
 
@@ -55,13 +55,13 @@ This ranking is not a one-dimensional scale of “genius”. It ranks **historic
 
 ## Further reading
 
-- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) places these breakthroughs on a timeline, from the Lancia D50 to the hybrid engine.
+- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) places these breakthroughs on a timeline, from the Lancia D50 to the 2026 regulations.
 - The [technical glossary]({{ '/en/glossary/' | relative_url }}) explains the terms used: ground effect, monocoque, pneumatic valve springs…
-- The [index]({{ '/en/' | relative_url }}) also lists fifteen unranked entries, marked HC: the other people behind these innovations.
+- The [index]({{ '/en/' | relative_url }}) also lists thirty-eight unranked entries, marked HC: the other people behind these innovations.
 
 ## Main sources
 
-Consulted on 9 August 2026, rechecked on 25 October 2026. Each entry gives its own sources.
+Consulted on 9 August 2026, rechecked on 26 October 2026. Each entry gives its own sources.
 
 - Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”: <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history”: <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>
