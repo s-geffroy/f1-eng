@@ -35,11 +35,11 @@ redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---
 ## Ce qu'il a apporté
 
-Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'origine du programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).
+Tony Rudd est un ingénieur de BRM, puis de Lotus, et, avec Peter Wright, l'un des initiateurs des recherches de BRM sur l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), dont le programme Lotus lancé par Colin Chapman reprend le principe.
 
 ## BRM
 
-- Apprenti chez Rolls-Royce, il rejoint BRM peu après ses débuts désastreux à Silverstone en 1950, et travaille d'abord sur la V16.
+- Apprenti chez Rolls-Royce, il rejoint BRM peu après les débuts désastreux de l'équipe à Silverstone en 1950, et travaille d'abord sur la V16.
 - En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs.
 - Sur la BRM P261, évolution de la P61, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour corriger le manque de rigidité de la P61.
 - En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu.
@@ -48,8 +48,8 @@ Tony Rudd est un ingénieur de BRM, puis de Lotus, et l'un des deux hommes à l'
 ## Lotus
 
 - Entré chez Group Lotus en 1969, il fait de Lotus Engineering un grand prestataire de recherche pour les constructeurs automobiles.
-- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Wright, rejoints ensuite par [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) pour les suspensions. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du De Havilland Mosquito.
+- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Wright, rejoints ensuite par [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) pour les suspensions. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du de Havilland Mosquito.
 
 ## Pourquoi derrière Wright
 
-Rudd a eu l'idée à BRM et a dirigé la R&D chez Lotus ; Wright a mené les essais en soufflerie. Sa contribution directe à la solution finale est **plus difficile à isoler** que celle de Wright. La méthode ne crédite pas deux fois la même contribution : Rudd est placé en Tier C, Wright en Tier B.
+Rudd a suggéré en 1969, chez BRM, que la voiture elle-même produise l'appui, puis a dirigé la R&D chez Lotus ; Wright a mené les essais en soufflerie. La contribution directe de Rudd à la solution finale est **plus difficile à isoler** que celle de Wright. La méthode ne crédite pas deux fois la même contribution : Rudd est placé en Tier C, Wright en Tier B.

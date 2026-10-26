@@ -35,7 +35,7 @@ Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inert
 
 ## Qui l'a conçue
 
-[Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) conçoit la voiture. Son [flat-12]({{ site.baseurl }}/glossaire/#flat-12) a été créé en collaboration avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), dont l'équipe moteur est saluée par Motor Sport. Le même magazine rappelle que Forghieri suivait en partie une voie ouverte en 1972 par [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) chez Tyrrell et [Robin Herd]({{ site.baseurl }}{% link _ingenieurs/robin-herd.md %}) chez March.
+[Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) dirige la conception de la voiture. Son [flat-12]({{ site.baseurl }}/glossaire/#flat-12) a été créé en collaboration avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), dont l'équipe moteur est saluée par Motor Sport. Le même magazine rappelle que Forghieri suivait en partie une voie ouverte en 1972 par [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) chez Tyrrell et [Robin Herd]({{ site.baseurl }}{% link _ingenieurs/robin-herd.md %}) chez March.
 
 ## Limites
 

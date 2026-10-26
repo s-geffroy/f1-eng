@@ -55,7 +55,7 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 
 ## Why Tier A
 
-It is a double breakthrough. Technically, it made widespread the stressed engine, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954; economically, it created the competitive customer engine. The make-up of the grid was redrawn as a result.
+It is a double breakthrough. Technically, it made widespread the stressed engine, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954; economically, it revived the competitive customer engine after Coventry Climax's withdrawal. The make-up of the grid was redrawn as a result.
 
 ## Attribution
 

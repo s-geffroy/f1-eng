@@ -41,11 +41,11 @@ Ross Brawn's most far-reaching contribution lies in **method**. He sums it up hi
 - **Williams**: aerodynamicist, closely involved in the aerodynamic design of the FW07 (1979).
 - **Arrows**: after the FORCE team closed at the end of 1986, he became Arrows' chief designer.
 - **TWR** (1989): he designed the Jaguar XJR-14, the first sports car to feature cutting-edge F1 technology.
-- **Benetton**: technical director from autumn 1991. Work on the 1994 car began as early as the start of 1993, which was “almost unheard of” at the time.
+- **Benetton**: technical director from autumn 1991. Work on the 1994 car began as early as the start of 1993, which, according to Brawn, was “almost unheard of” at the time.
 - **Ferrari**: technical director from December 1996, through the championship years.
 - **Brawn GP**: the BGP 001 was a collective effort launched in mid-2008 at Honda. The [double diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) exploited a loophole in the new regulations; according to Brawn, the double-floor concept came from one of the Japanese engineers. Three wind tunnels worked in parallel, each with a programme suited to its strengths.
 - **Mercedes**: team principal; he left the team in the winter of 2013-2014. The 2014 W05 was, in his view, the product of the same philosophy.
-- **Formula 1**: from 2017, he weighed heavily on the 2022 technical regulations.
+- **Formula 1**: from 2017, he had a major influence on the 2022 technical regulations.
 
 ## Attribution
 

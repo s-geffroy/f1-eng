@@ -55,7 +55,7 @@ image: "/assets/partage/en/john-barnard.jpg"
 
 The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix. The Lotus 88, whose composite monocoque Autosport describes as built in-house, was excluded during practice at Long Beach in 1981 according to Motor Sport; it never took part in a race.
 
-Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which costs a great deal of torsional stiffness. He needed a new material; he found it after a visit to British Aerospace, which was making composite cowlings. [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car surrounded notably by Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
+Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which costs a great deal of torsional stiffness. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car surrounded notably by Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
 
 The effects touched stiffness, weight, safety, architecture and the industrialisation of composites all at once. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility. The principle became universal.
 
@@ -73,7 +73,7 @@ Based in a design office in England, the Guildford Technical Office, Barnard int
 - a more compact cockpit;
 - an opening towards electronic management of the transmission.
 
-The same car introduced front suspension with short torsion bars, a fashion that lasted. The 640 won first time out in Brazil, then in Hungary and Portugal.
+The same car used front suspension with short torsion bars, which according to Barnard started a lasting fashion. The 640 won first time out in Brazil, then in Hungary and Portugal.
 
 ## Technical career
 
@@ -85,7 +85,7 @@ The same car introduced front suspension with short torsion bars, a fashion that
 
 ## Attribution
 
-The idea of the paddles itself did not come from him: Barnard says it was suggested by someone in his design office, on the model of karts; Motorsport.com attributes it to Piero Lardi Ferrari. Barnard remains the one who designed the system and introduced it in racing.
+The idea of the steering-wheel paddles on the Ferrari 640 did not itself come from him: Barnard says it was suggested by someone in his design office, on the model of karts; Motorsport.com attributes it to Piero Lardi Ferrari. Barnard remains the one who designed the system and introduced it in racing.
 
 ## Why number two
 

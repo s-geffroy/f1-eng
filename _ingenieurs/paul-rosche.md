@@ -58,4 +58,4 @@ Selon BMW, sont aussi sortis de son service le quatre-cylindres de 2 litres à q
 
 ## Attribution
 
-Le moteur est un travail d'équipe chez BMW, et sa réussite tient aussi au carburant et à l'électronique : BMW parle de « Rosche et son équipe ». Les sources divergent sur ses débuts en course : Motor Sport (2009) écrit qu'il fait ses débuts dès la première course de 1981, mais cite plus loin Dieter Stappert, selon qui les débuts sont repoussés au premier Grand Prix de 1982 ; BMW retient aussi le début de la saison 1982. Le site retient 1982.
+Le moteur est un travail d'équipe chez BMW, et sa réussite tient aussi au carburant et à l'électronique : BMW parle de « Rosche et son équipe ». Les sources divergent sur les débuts en course du moteur : Motor Sport (2009) écrit qu'il débute dès la première course de 1981, mais cite plus loin Dieter Stappert, selon qui les débuts sont repoussés au premier Grand Prix de 1982 ; BMW retient aussi le début de la saison 1982. Le site retient 1982.

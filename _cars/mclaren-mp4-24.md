@@ -45,12 +45,12 @@ KERS came at a price. "It weighs a lot and that reduces your freedom to use ball
 
 McLaren's technical team, with [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) as engineering director and Pat Fry as chief engineer of the MP4-24. KERS was a joint effort by McLaren and Mercedes.
 
-An ironic detail: the 2009 aerodynamic rules that hampered the car so much came out of an Overtaking Working Group led by Lowe, [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}).
+An ironic detail: the 2009 aerodynamic rules that hampered the car so much came out of an Overtaking Working Group that included Lowe, [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}).
 
 ## Limitations
 
 - **A huge deficit.** At the winter test in Barcelona, with its final upgrade fitted, the car was still 2.4 seconds off, Lowe recalled. According to Fry, there was no fundamental mistake: "We hadn't bolted enough downforce onto it."
-- **The double diffuser.** Brawn, Toyota and Williams raced a double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) from the start, declared legal on appeal on 14 April. McLaren had looked at something similar around Christmas 2007, but lacked the resources to run two programmes at once; Lowe pointed out that the team had a single [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), where Honda had four on its 2009 project. It took McLaren six to eight weeks to learn how to use it.
+- **The double diffuser.** Brawn, Toyota and Williams raced a double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) from the start, declared legal on appeal on 14 April. McLaren had looked at something similar around Christmas 2007, but lacked the resources to run two programmes at once; Lowe pointed out that the team had a single [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), where Honda had four on its 2009 project, by his account (three according to Ross Brawn). It took McLaren six to eight weeks to learn how to use the double diffuser.
 
 ## Legacy
 

@@ -27,7 +27,7 @@ image: "/assets/partage/francois-castaing.jpg"
 ---
 ## Ce qu'il a fait
 
-François Castaing est l'ingénieur du **V6 dont dérivent tous les moteurs turbo de F1 de Renault**, et le premier directeur technique du programme F1 de la marque.
+François Castaing est, avec Jean-Pierre Boudy, l'ingénieur du **V6 dont dérivent tous les moteurs turbo de F1 de Renault**, et le premier directeur technique du programme F1 de la marque.
 
 ## Parcours technique
 

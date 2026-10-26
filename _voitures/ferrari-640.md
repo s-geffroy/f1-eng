@@ -2,7 +2,7 @@
 title: "Ferrari 640"
 nom_tri: "ferrari 640"
 accroche: "La boîte au volant, née d'un problème d'encombrement."
-description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; toute la F1 l'adopte ensuite."
+description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; selon Formula 1, toute la F1 l'adopte au milieu des années 1990."
 annee: 1989
 equipe: "Scuderia Ferrari"
 moteur: "Ferrari V12 atmosphérique de 3,5 litres"
@@ -35,7 +35,7 @@ La Ferrari 640 remplace le levier de vitesses par une [boîte semi-automatique](
 
 On pense d'abord au temps gagné à chaque changement de rapport. Ce n'était pas le point de départ. John Barnard l'explique dans Motor Sport : « Le projet est né parce que je voulais une monocoque vraiment étroite. » Il fallait alors faire passer une tringlerie de la cabine jusqu'à la boîte, le long du moteur, et trouver de la place pour le levier et la main du pilote. « Je me suis dit : au lieu d'un levier, je peux sûrement avoir un interrupteur. C'était donc une contrainte d'encombrement. » Le gain de temps est venu ensuite.
 
-L'idée avait germé quand Barnard réglait les problèmes de tringlerie de la Chaparral 2K, victorieuse des 500 Miles d'Indianapolis en 1980. La boîte devait d'abord équiper la 639 en 1988, mais Ferrari court cette saison-là avec son moteur turbo.
+Selon Motor Sport, l'idée aurait germé quand Barnard réglait les problèmes de tringlerie de la Chaparral 2K, victorieuse des 500 Miles d'Indianapolis en 1980 ; Barnard lui-même, interrogé, ne mentionne pas la Chaparral. La boîte devait d'abord équiper la 639 en 1988, mais Ferrari court cette saison-là avec son moteur turbo.
 
 La [monocoque]({{ site.baseurl }}/glossaire/#monocoque) étroite entraîne d'autres choix : une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable, et un flux d'air des radiateurs entièrement canalisé jusqu'à l'arrière, loin de l'aileron.
 

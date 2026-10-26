@@ -34,7 +34,7 @@ Gérard Ducarouge led the technical effort at Ligier, Alfa Romeo and then Lotus,
 ## A method rather than a pencil
 
 - **Giacomelli's account.** Bruno Giacomelli, his driver at Alfa Romeo, "never saw him at a drawing board"; he credits him with fresh ideas and new dynamism for the team.
-- **Ogilvie's account.** At Lotus, according to Ogilvie, Ducarouge took over exactly the role [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) had filled in his pomp, which [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}), then in charge, was not going to do. Coming from Matra, he brought in rules on suspension geometry (camber, castor): "a kind of best practice, and it worked". And: "Chapman demanded loyalty, but Ducarouge commanded loyalty."
+- **Ogilvie's account.** At Lotus, according to Ogilvie, Ducarouge took over exactly the role [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) had filled in his pomp, which [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}), then in charge, would not have been able to do. Coming from Matra, he brought in rules on suspension geometry (camber, castor): "a kind of best practice, and it worked". And: "Chapman demanded loyalty, but Ducarouge commanded loyalty."
 
 ## Where sources disagree
 

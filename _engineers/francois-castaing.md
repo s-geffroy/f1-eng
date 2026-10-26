@@ -27,7 +27,7 @@ image: "/assets/partage/en/francois-castaing.jpg"
 ---
 ## What he did
 
-François Castaing is the engineer behind the **V6 from which all of Renault's F1 turbo engines derive**, and the first technical director of the marque's F1 programme.
+François Castaing is, with Jean-Pierre Boudy, the engineer behind the **V6 from which all of Renault's F1 turbo engines derive**, and the first technical director of the marque's F1 programme.
 
 ## Technical career
 

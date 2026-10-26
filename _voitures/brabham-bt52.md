@@ -36,7 +36,7 @@ Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un coup
 Trois autres choix comptent :
 
 - **un arrière modulaire.** Moteur, radiateurs, échangeurs, boîte et suspension forment un seul ensemble monté hors de la voiture, préparé à l'usine. Formula 1 note que le système a ensuite été largement copié ;
-- **une voiture pensée pour le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement)**, que Murray avait réintroduit en 1982 : un réservoir réduit, et un remplissage sous pression qui délivre plus de 30 gallons en trois secondes environ ;
+- **une voiture pensée pour le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement)**, que Brabham et Murray avaient réintroduit en 1982 : un réservoir réduit, et un remplissage sous pression qui délivre plus de 30 gallons en trois secondes environ ;
 - **une construction mixte** : cloison et bas de coque en aluminium, haut de coque en [carbone]({{ site.baseurl }}/glossaire/#composite-carbone), avec des arceaux de sécurité en carbone. Avec les moyens de Brabham, Murray ne suit pas McLaren vers le tout carbone.
 
 ## Qui l'a conçue

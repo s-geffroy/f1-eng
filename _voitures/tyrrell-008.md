@@ -49,7 +49,7 @@ Kempf ne se dit pas le premier à mesurer : « nous sommes les premiers à utili
 
 ## Qui l'a conçue
 
-[Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), arrivé chez Tyrrell en 1977. Selon Autosport, la 008 est la première Tyrrell qui n'est pas l'œuvre de Derek Gardner, parti vers le Grand Prix d'Italie. Philippe fait venir [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), dessinateur et ingénieur passé par March, Shadow et Fittipaldi ; selon Gentry, Philippe « avait besoin d'aide pour les détails ». Les deux hommes travaillent d'abord dans un double garage, pendant que Gardner est encore là. L'acquisition de données est l'œuvre de Kempf, avec le soutien de Goodyear puis de Data General.
+[Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), arrivé chez Tyrrell en 1977. Selon Autosport, la 008 est la première Tyrrell qui n'est pas l'œuvre de Derek Gardner, parti aux alentours du Grand Prix d'Italie. Philippe fait venir [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), dessinateur et ingénieur passé par March, Shadow et Fittipaldi ; selon Gentry, Philippe « avait besoin d'aide pour les détails ». Les deux hommes travaillent d'abord dans un double garage, pendant que Gardner est encore là. L'acquisition de données est l'œuvre de Kempf, avec le soutien de Goodyear puis de Data General.
 
 Autosport écrit « Phillippe », Racer « Philippe » : le site retient la seconde orthographe, celle de sa fiche.
 

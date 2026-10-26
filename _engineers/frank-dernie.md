@@ -37,9 +37,9 @@ Frank Dernie is the figure of a revolution that does not show on the bodywork: t
 
 ## Attribution
 
-Williams active suspension was the product of a chain of engineers: [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}), [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) and others. Dernie himself describes the division of labour: [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) on the hardware, Paddy Lowe on the programming.
+Williams active suspension was the product of a chain of engineers: [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) and others. Dernie himself describes the division of labour: [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) on the hardware, Paddy Lowe on the programming.
 
-The accurate wording: **Dernie is a pioneering figure in digital engineering and the designer of the first Williams active suspension system, within a team.**
+The accurate wording: **Dernie is, by his own account, an early figure in digital engineering, and the designer of the first Williams active suspension system, within a team.**
 
 ## Why Tier B
 

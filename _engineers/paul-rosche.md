@@ -48,7 +48,7 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 
 ## The return to F1
 
-- After 1987, he remained technical managing director of BMW M GmbH until 1996, then, as technical director and managing director of BMW Motorsport Limited, he led BMW back into F1 as an engine manufacturer (BMW, 2016).
+- After 1987, he remained technical director of BMW M GmbH until 1996, then, as technical director and managing director of BMW Motorsport Limited, he led BMW back into F1 as an engine manufacturer (BMW, 2016).
 - Motor Sport calls him the inspiration for this second involvement: when Renault announced its departure at the end of 1997, Rosche persuaded the board to partner with Williams. The debut was set for 2000; Rosche retired in the meantime, replaced by Gerhard Berger and Mario Theissen.
 - The sources consulted make him the leader of this return; none credits him with designing the BMW V10.
 

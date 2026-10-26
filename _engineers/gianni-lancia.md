@@ -29,7 +29,7 @@ Gianni Lancia was not a design-office engineer: he was the **head of Lancia**, s
 
 The two Motor Sport articles do not say the same thing, and this site does not decide between them.
 
-- **Doug Nye** credits him with no design work: the car's principles are Jano's, and the engine was detailed with [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), and he credits Jano with the idea of the pannier tanks.
+- **Doug Nye** credits him with no design work: the car's principles are Jano's, and the engine was detailed with [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), and Nye credits Jano with the idea of the pannier tanks.
 - **Chris Nixon**, reporting Zaccone Mina's account, gives him a more direct role. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) and the placing of the fuel tanks came out of the team's discussions, "with Gianni Lancia making the final decisions". Several innovations are said to have come from his "fertile brain", and the elegant **pannier fuel tanks**, between the wheels, are presented as his idea.
 
 The fair wording: Gianni Lancia was the commissioner and final arbiter of the project, credited by Nixon with the idea of the pannier tanks, which Nye instead attributes to Jano. He was not the designer of the D50.

@@ -49,9 +49,9 @@ redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 
 ## Ce qu'il a changé
 
-Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes architecturales, et les mène à la victoire.
+Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes architecturales, et mène la plupart à la victoire.
 
-- **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs.
+- **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence. Chapman en fait l'implantation d'ensemble ; le dessin de détail revient pour une grande part à [Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones, et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) met au point l'assemblage riveté. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs.
 - **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) l'employait déjà au milieu des années 1950 — mais la Lotus 49 en fait la référence par sa compacité et sa légèreté.
 - **Lotus 72 (1970).** Créditée à [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) et à Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus, 22 selon Classic Team Lotus.
 - **Le programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79.
@@ -68,7 +68,7 @@ Une philosophie relie ces ruptures : **architecture, légèreté, aéro.**
 
 ## Pourquoi le n° 1
 
-Sur la largeur historique, personne ne l'égale : plusieurs changements de paradigme, tous diffusés au reste du plateau. C'est ce critère de répétition des ruptures qui le place devant [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), dont la paternité est pourtant plus nette.
+Sur la largeur historique, la méthode du site le place devant tous les autres : plusieurs changements de paradigme, presque tous diffusés au reste du plateau. C'est ce critère de répétition des ruptures qui le place devant [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), dont la paternité est pourtant plus nette.
 
 ## Attribution : ce qu'il faut corriger
 

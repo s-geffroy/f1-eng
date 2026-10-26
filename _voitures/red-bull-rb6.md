@@ -64,4 +64,4 @@ Le pilote compte aussi. Selon Formula 1, Sebastian Vettel maîtrise le style de 
 ## Ce qu'elle laisse
 
 - **2010** : quinze pole positions en dix-neuf courses, selon GrandPrix.com, et neuf victoires, cinq pour Vettel (Malaisie, Europe, Japon, Brésil, Abou Dhabi) et quatre pour Webber (Espagne, Monaco, Grande-Bretagne, Hongrie). Vettel est champion à Abou Dhabi avec 256 points, devant Fernando Alonso (252) et Webber (242) ; il devient le plus jeune champion du monde. Red Bull remporte son premier titre des constructeurs, avec 498 points contre 454 à McLaren.
-- **Une tendance copiée, puis interdite.** Les concurrents copient la solution dès qu'ils en comprennent l'intérêt. La FIA modifie les règles sur l'emplacement des échappements pour 2011 sans y parvenir ; pour 2012, elle impose une zone de sortie qui met fin aux diffuseurs soufflés de l'époque.
+- **Une tendance copiée, puis interdite.** Les concurrents copient la solution dès qu'ils en comprennent l'intérêt. La FIA modifie les règles sur l'emplacement des échappements pour 2011, sans succès ; pour 2012, elle impose une zone de sortie qui met fin aux diffuseurs soufflés de l'époque.

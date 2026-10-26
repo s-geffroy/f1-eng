@@ -7,7 +7,7 @@ annee: 2014
 equipe: "Mercedes"
 moteur: "Mercedes PU106, V6 turbo hybride"
 statut: "A couru en 2014 ; titres pilotes et constructeurs"
-concepteurs: ["aldo-costa", "andy-cowell", "ross-brawn"]
+concepteurs: ["aldo-costa", "andy-cowell"]
 termes: ["groupe-propulseur-hybride", "turbocompresseur"]
 jalons: ["hybride", "rendement-50"]
 sources:
@@ -41,7 +41,7 @@ La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turboc
 
 ## Qui l'a conçue
 
-- [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari en 2012 comme directeur de l'ingénierie, mène la conception de la voiture.
+- [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari fin 2011 comme directeur de l'ingénierie, mène la conception de la voiture.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}).
 - [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré ». Il souligne que Cowell et les équipes châssis ont travaillé de concert. On lui doit la méthode, pas la conception.
 

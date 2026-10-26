@@ -12,16 +12,16 @@ redirect_from: "/classement/2026/10/25/classement-final-ingenieurs-f1.html"
 | **1** | **[Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})** | **A** | **96,0** | Monocoque, architecture globale, aérodynamique, programme effet de sol |
 | **2** | **[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})** | **A** | **95,0** | Monocoque carbone, boîte semi-automatique à palettes |
 | **3** | **[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %})** | **A** | **93,5** | Généralisation du moteur central-arrière |
-| **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})** | **A** | **92,5** | Cosworth DFV, moteur structurel et moteur-client compétitif |
+| **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})** | **A** | **92,5** | Cosworth DFV, moteur structurel et relance du moteur-client compétitif |
 | **5** | **[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})** | **A** | **91,5** | Aérodynamique systémique et intégration globale |
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | B | 90,0 | Turbo Renault, distribution pneumatique, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | B | 90,0 | Turbo Renault, rappel pneumatique, V10 |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | B | 88,5 | Architectures radicales, BT46B, pit-stop moderne |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | B | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | B | 86,5 | Développement causal de l'effet de sol Lotus |
-| 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | B | 85,0 | CAO/CAE, données, soufflerie, suspension active |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | B | 85,0 | CAO/CAE, données, soufflerie (selon son témoignage), suspension active |
 | 11 | [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) | C | 83,5 | Architecture Williams et ingénierie système |
 | 12 | [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) | C | 82,0 | Méthode intégrée et développement anticipé |
-| 13 | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | C | 81,0 | Power unit hybride Mercedes |
+| 13 | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | C | 81,0 | Groupe propulseur hybride Mercedes |
 | 14 | [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) | C | 80,0 | Nez relevé et alimentation du plancher |
 | 15 | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | C | 79,0 | Recherche aéro et genèse de l'effet de sol |
 | 16 | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | D | 77,5 | Cofondateur de Cosworth, industrialisation |
@@ -47,7 +47,7 @@ Ce tableau montre des **filiations intellectuelles**, pas des relations maître-
 ## Trois manières d'être au sommet
 
 - **Chapman** : la rupture multiple, par accumulation de ruptures architecturales.
-- **Barnard** : la paternité la plus nette, avec deux innovations directes devenues universelles.
+- **Barnard** : probablement la paternité la plus nette, avec deux innovations directes devenues universelles.
 - **Newey** : l'adaptation la plus durable, au sommet de l'aérodynamique sous plusieurs générations de règlements.
 
 Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il classe des **capacités historiques à déplacer la frontière technique de la Formule 1**.
@@ -56,7 +56,7 @@ Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il class
 
 ## Pour aller plus loin
 
-- La [chronologie des innovations]({{ '/chronologie/' | relative_url }}) place ces ruptures sur une frise, de la Lancia D50 au règlement de 2026.
+- La [chronologie des innovations]({{ '/chronologie/' | relative_url }}) place ces ruptures sur une frise, de la Cooper 500 de 1946 à la Red Bull de 2022.
 - Le [glossaire technique]({{ '/glossaire/' | relative_url }}) explique les termes employés : effet de sol, monocoque, rappel pneumatique…
 - L'[index]({{ '/' | relative_url }}) recense aussi trente-huit entrées hors classement, marquées HC : les autres acteurs de ces innovations.
 

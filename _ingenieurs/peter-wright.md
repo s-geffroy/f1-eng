@@ -44,7 +44,7 @@ La place élevée de Peter Wright corrige un biais fréquent : attribuer l'[effe
 ## Après l'effet de sol
 
 - Il joue un rôle clé dans la conception de la Lotus 88 à double châssis.
-- Sa **[suspension active]({{ site.baseurl }}/glossaire/#suspension-active)** est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983 ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix.
+- La **[suspension active]({{ site.baseurl }}/glossaire/#suspension-active)** de Lotus, qu'il développe à partir des travaux de Cranfield (David Williams), est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983 ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix.
 - En 1990, il reprend Team Lotus avec Peter Collins, et quitte l'équipe à sa fermeture en 1994.
 - À la FIA, il contribue au développement du dispositif HANS et de cockpits capables de résister à 60 g.
 

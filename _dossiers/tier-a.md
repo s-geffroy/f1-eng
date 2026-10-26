@@ -5,7 +5,7 @@ resume: "Les cinq ingénieurs qui ont changé la grammaire de la F1, et le déba
 description: "Les cinq ingénieurs qui ont changé la grammaire de la F1, et le débat Chapman contre Barnard."
 redirect_from: "/classement/2026/10/25/tier-a-ingenieurs-revolutionnaires-f1.html"
 ---
-Le Tier A réunit des **révolutionnaires de paradigme**. Leur dossier partage plusieurs traits : modification durable de la grammaire technique de la F1, un « avant / après » net, une diffusion à tout le plateau, une causalité personnelle bien documentée, et un impact qui dépasse une seule voiture ou un seul règlement.
+Le Tier A réunit des **révolutionnaires de paradigme**. Leur dossier partage plusieurs traits : modification durable de la grammaire technique de la F1, un « avant / après » net, une diffusion à tout le plateau, une contribution personnelle identifiable au sein de réalisations souvent collectives, et un impact qui dépasse une seule voiture ou un seul règlement.
 
 ## Cinq questions transformées
 
@@ -23,13 +23,13 @@ C'est la clé de lecture de tout le classement.
 
 ## N° 1 — Colin Chapman (96/100)
 
-Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), la part de chacun restant discutée. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
+Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : la monocoque aluminium de la Lotus 25 (implantation de Chapman, dessin de détail d'[Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones, assemblage riveté mis au point par [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %})), la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), la part de chacun restant discutée. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
 
 Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque en composite carbone à courir en Grand Prix (la Lotus 88, elle aussi en carbone, roula aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais ne fut jamais autorisée à courir), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque en composite carbone à courir en Grand Prix (la Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 

@@ -56,7 +56,7 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 
 ## Pourquoi le Tier A
 
-C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954 ; sur le plan économique, elle crée le moteur-client compétitif. Le paysage du plateau s'en trouve redessiné.
+C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954 ; sur le plan économique, elle relance le moteur-client compétitif après le retrait de Coventry Climax. Le paysage du plateau s'en trouve redessiné.
 
 ## Attribution
 

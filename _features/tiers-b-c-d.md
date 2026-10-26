@@ -14,7 +14,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | 88.5 | Radical architectures and the tactical pit stop |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | 87.5 | Total engineering of engine/chassis/transmission/aero |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | 86.5 | Causal development of Lotus ground effect |
-| 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | 85.0 | Silent digital revolution |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | 85.0 | Silent digital revolution (by his own account) |
 
 **Dudot** was at the heart of three engine transformations at Renault. According to Renault's documentation, the turbo was eventually adopted by the whole grid and pneumatic valve springs became a general solution in the 1990s. Renault Sport remains an organisation: Dudot is not its lone inventor. The turbo idea is attributed to [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}), and the first turbo engine derives from the V6 of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
 

@@ -48,7 +48,7 @@ Vanwall et BRM ne viennent pas en Argentine : ils n'ont pas eu le temps d'adapte
 ## La course
 
 - La distance est ramenée de 400 à 313 km, soit 80 tours, à cause de la chaleur. Moss part septième.
-- Dès les premiers tours, il reste bloqué en deuxième ; il perd une quinzaine de secondes avant que le levier ne se libère.
+- Dès les premiers tours, il reste bloqué en deuxième vitesse ; il perd une quinzaine de secondes avant que le levier ne se libère.
 - Les roues de la Cooper sont fixées par quatre écrous, rappelle Mark Hughes : un changement de pneus aurait pris deux à trois minutes, contre moins d'une minute pour les voitures à moteur avant. L'équipe décide de ne pas s'arrêter. Les pneus n'étaient prévus que pour 40 tours, selon Goodwood, et Moss finit sur la toile.
 - Le mécanicien Alf Francis prépare ostensiblement des pneus au stand et compte les tours jusqu'à un arrêt qui ne viendra jamais. La ruse retarde la réaction de Ferrari.
 - Moss gagne avec 2,7 secondes d'avance sur la Ferrari de Luigi Musso.

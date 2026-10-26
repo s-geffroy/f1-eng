@@ -42,7 +42,7 @@ La contribution la plus structurante de Ross Brawn relève de la **méthode**. L
 - **Williams** : aérodynamicien, très impliqué dans la conception aérodynamique de la FW07 (1979).
 - **Arrows** : après la fermeture de l'équipe FORCE fin 1986, il devient concepteur en chef d'Arrows.
 - **TWR** (1989) : il conçoit la Jaguar XJR-14, première voiture de sport dotée d'une technologie de F1 de pointe.
-- **Benetton** : directeur technique à partir de l'automne 1991. La voiture de 1994 est mise en chantier dès le début de 1993, ce qui était « presque du jamais vu » à l'époque.
+- **Benetton** : directeur technique à partir de l'automne 1991. La voiture de 1994 est mise en chantier dès le début de 1993, ce qui était, selon Brawn, « presque du jamais vu » à l'époque.
 - **Ferrari** : directeur technique à partir de décembre 1996, pendant les années de titres.
 - **Brawn GP** : la BGP 001 est un travail collectif lancé mi-2008 chez Honda. Le [double diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) exploite une faille du nouveau règlement ; selon Brawn, le concept de double plancher vient d'un des ingénieurs japonais. Trois souffleries travaillent en parallèle, chacune avec un programme adapté à ses forces.
 - **Mercedes** : directeur d'équipe ; il quitte l'équipe à l'hiver 2013-2014. La W05 de 2014 est, selon lui, le fruit de la même philosophie.

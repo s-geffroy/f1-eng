@@ -35,7 +35,7 @@ The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of 
 
 ## Who designed it
 
-[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) designed the car. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praises. The same magazine points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March.
+[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) led the design of the car. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praises. The same magazine points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March.
 
 ## Limitations
 

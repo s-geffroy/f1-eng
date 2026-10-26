@@ -44,7 +44,7 @@ Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingéni
 Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle.
 
 - Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13 cm dans l'empattement.
-- La **312T** de 1975 inaugure la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, une première en F1, ensuite adoptée par tout le plateau.
+- La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que Formula 1 présente comme une première en F1, ensuite adoptée par tout le plateau ; selon Motor Sport, Forghieri suivait en partie une voie ouverte en 1972 par Tyrrell et March.
 - La famille 312T remporte trois titres pilotes et quatre titres constructeurs.
 
 ## Autres jalons

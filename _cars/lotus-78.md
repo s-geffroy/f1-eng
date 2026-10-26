@@ -2,7 +2,7 @@
 title: "Lotus 78"
 nom_tri: "lotus 78"
 accroche: "The first F1 car to stick to the track through its underside."
-description: "Lotus 78 (1977): venturi-shaped sidepods turn the car into an inverted wing; the first ground effect F1 car."
+description: "Lotus 78 (1977): venturi-shaped sidepods turn the car into an inverted wing; the first ground effect F1 car according to Motor Sport."
 annee: 1977
 equipe: "Team Lotus"
 moteur: "Cosworth, 3-litre V8"
@@ -31,7 +31,7 @@ According to Formula 1, the 1977 Lotus 78 brought F1 into the era of [ground eff
 
 To seal this channel, it was presented with brushes, then raced with rigid nylon [skirts]({{ site.baseurl }}/en/glossary/#jupes). The tub was light and stiff, thanks to aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) sandwich panels.
 
-The radiator idea came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the De Havilland Mosquito.
+According to Doug Nye, the idea for the radiator installation came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the de Havilland Mosquito. According to Peter Wright's account, it was Ralph Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose.
 
 ## Who designed it
 

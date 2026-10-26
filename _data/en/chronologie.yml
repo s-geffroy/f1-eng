@@ -73,10 +73,10 @@ mecanismes:
 preuves:
   - id: "atteste"
     nom: "attested"
-    definition: "the designer or a direct witness states the link"
+    definition: "the designer or a direct witness states the link, and no source contradicts it"
   - id: "etabli"
     nom: "established"
-    definition: "a regulation or a historical source asserts it"
+    definition: "a regulation or a serious historical source asserts it"
   - id: "discute"
     nom: "disputed"
     definition: "the sources disagree, or the link is indirect"
@@ -113,8 +113,8 @@ jalons:
     annee: 1962
     voie: "architecture"
     titre: "The aluminium monocoque of the Lotus 25"
-    texte: "Colin Chapman establishes the aluminium monocoque in F1, which would replace the spaceframe chassis as the reference architecture."
-    entrees: ["colin-chapman"]
+    texte: "Under Colin Chapman's direction, Lotus establishes the aluminium monocoque in F1, which would replace the spaceframe chassis as the reference architecture."
+    entrees: ["colin-chapman", "mike-costin", "alan-styman"]
     termes: ["monocoque", "chassis-tubulaire"]
 
   - id: "dfv"
@@ -137,7 +137,7 @@ jalons:
     annee: 1975
     voie: "transmission"
     titre: "The transverse gearbox of the Ferrari 312T"
-    texte: "F1's first transverse gearbox, in the service of mass centralisation; according to Formula 1, it is subsequently adopted by the whole grid."
+    texte: "According to Formula 1, F1's first transverse gearbox, in the service of mass centralisation, subsequently adopted by the whole grid; Motor Sport points out that Tyrrell and March had opened the way in 1972."
     entrees: ["mauro-forghieri", "franco-rocchi"]
     termes: ["boite-transversale", "centralisation-des-masses"]
 
@@ -145,7 +145,7 @@ jalons:
     annee: 1977
     voie: "aero"
     titre: "The ground effect of the Lotus 78"
-    texte: "Born of research by Peter Wright and Tony Rudd, the first ground effect F1 car is drawn by Ralph Bellamy, with Martin Ogilvie on suspension, in a programme led by Colin Chapman."
+    texte: "Born of research by Peter Wright and Tony Rudd, the first ground effect F1 car, according to Motor Sport, is drawn by Ralph Bellamy, with Martin Ogilvie on suspension, in a programme led by Colin Chapman."
     entrees: ["peter-wright", "tony-rudd", "ralph-bellamy", "martin-ogilvie", "colin-chapman", "tony-southgate"]
     termes: ["effet-de-sol", "venturi", "jupes"]
 
@@ -153,8 +153,8 @@ jalons:
     annee: 1978
     voie: "aero"
     titre: "The fan car"
-    texte: "Gordon Murray's Brabham BT46B wins the Swedish Grand Prix, its only race. Sources disagree on what followed: voluntary withdrawal by Brabham, or a ban by the sporting authority."
-    entrees: ["gordon-murray"]
+    texte: "The Brabham BT46B, designed under Gordon Murray's direction, wins the Swedish Grand Prix, its only race. Sources disagree on what followed: voluntary withdrawal by Brabham, or a ban by the sporting authority."
+    entrees: ["gordon-murray", "david-north"]
     termes: ["voiture-a-ventilateur"]
 
   - id: "turbo-victoire"
@@ -196,7 +196,7 @@ jalons:
     annee: 1983
     voie: "transmission"
     titre: "Active suspension in racing"
-    texte: "Peter Wright's active suspension is used on Nigel Mansell's Lotus 92 in the first two races of the season."
+    texte: "Lotus's active suspension, developed by Peter Wright from Cranfield's work (David Williams), is used on Nigel Mansell's Lotus 92 in the first two races of the season."
     entrees: ["peter-wright"]
     termes: ["suspension-active"]
 
@@ -204,7 +204,7 @@ jalons:
     annee: 1986
     voie: "moteur"
     titre: "Pneumatic valve springs"
-    texte: "Introduced on the Renault EF15 B engine, they are fitted to every F1 engine from the 1990s onwards."
+    texte: "Introduced on the Renault EF15 B engine, they are, according to Renault, fitted to every F1 engine from the 1990s onwards."
     entrees: [bernard-dudot, jean-pierre-boudy]
     termes: ["rappel-pneumatique"]
 
@@ -213,7 +213,7 @@ jalons:
     voie: "transmission"
     titre: "Active suspension wins"
     texte: "Ayrton Senna's Lotus 99T becomes the first F1 car with active suspension to win a Grand Prix; the Williams system designed by Frank Dernie wins at Monza with Nelson Piquet."
-    entrees: ["peter-wright", "frank-dernie", "steve-wise", "paddy-lowe"]
+    entrees: ["peter-wright", "frank-dernie"]
     termes: ["suspension-active"]
 
   - id: "ferrari-640"
@@ -244,14 +244,14 @@ jalons:
     voie: "transmission"
     titre: "The active suspension title"
     texte: "The Williams FW14B takes Nigel Mansell to the title, with an active suspension whose software was largely written by Paddy Lowe."
-    entrees: ["paddy-lowe", "patrick-head", "adrian-newey"]
+    entrees: ["paddy-lowe", "steve-wise", "patrick-head", "adrian-newey"]
     termes: ["suspension-active"]
 
   - id: "programme-anticipe"
     annee: 1993
     voie: "methode"
     titre: "The programme started a year ahead"
-    texte: "At Benetton, Ross Brawn has design work on the 1994 car begin at the start of 1993, which was almost unheard of."
+    texte: "At Benetton, Ross Brawn has design work on the 1994 car begin at the start of 1993, which, by his account, was almost unheard of."
     entrees: ["ross-brawn", "rory-byrne"]
 
   - id: "double-diffuseur"
@@ -298,7 +298,7 @@ jalons:
     voie: "aero"
     titre: "The Lotus 72 and its side radiators"
     texte: "Credited to Maurice Philippe and Colin Chapman, each one's share remaining disputed, it places the radiators on the flanks; with its developments, it wins five world titles and 20 Grands Prix according to Lotus (22 according to Classic Team Lotus)."
-    entrees: ["colin-chapman"]
+    entrees: ["colin-chapman", "maurice-philippe"]
 
   - id: "lotus-88"
     annee: 1981
@@ -337,7 +337,7 @@ jalons:
     voie: "architecture"
     titre: "The McLaren MP4/4, fifteen wins out of sixteen"
     texte: "The McLaren MP4/4 wins 15 of the 16 races of 1988. Its authorship is still disputed: Steve Nichols, its chief designer, sees it as an evolution of the MP4/3; Gordon Murray contests that account. Autosport also names Bob Bell, David North, Matthew Jeffreys and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus) among its authors."
-    entrees: [steve-nichols, gordon-murray, bob-bell]
+    entrees: [steve-nichols, gordon-murray, bob-bell, david-north, matthew-jeffreys]
     sources:
       - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
         url: "https://www.grandprix.com/people/steve-nielsen.html"
@@ -354,7 +354,7 @@ jalons:
     annee: 2010
     voie: "aero"
     titre: "The blown diffuser of the Red Bull RB6"
-    texte: "Adrian Newey “reinvents” the exhaust-blown diffuser."
+    texte: "According to Formula 1, Adrian Newey “reinvents” the exhaust-blown diffuser, with Renault's engine maps."
     entrees: ["adrian-newey"]
     termes: ["diffuseur"]
 
@@ -362,7 +362,7 @@ jalons:
     annee: 1976
     voie: "aero"
     titre: "The six-wheeled Tyrrell P34"
-    texte: "Derek Gardner's P34 is the only six-wheeled car to start a Grand Prix. Its real aim was not to reduce frontal area but downforce: four small front wheels generate less lift than two large ones. At Anderstorp, nobody beat it."
+    texte: "Derek Gardner's P34 is the only six-wheeled car to start a Grand Prix. According to Gardner and Motor Sport, its aim was not to reduce frontal area but to increase downforce: four small front wheels generate less lift than two large ones. At Anderstorp, nobody beat it."
     entrees: [derek-gardner]
     termes: [appui]
     sources:
@@ -405,8 +405,8 @@ jalons:
     annee: 1993
     voie: "methode"
     titre: "Computational fluid dynamics"
-    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. In 1993 the team teamed up with Fluent, a CFD software company, as commercial codes improved. Precedence is not established: GrandPrix.com presents Geoff Willis, at Leyton House in 1990, as the first engineer to use CFD in F1, while formula1.com saw it then as only a research project."
-    entrees: []
+    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. In 1993 the team teamed up with Fluent, a CFD software company, as commercial codes improved. Precedence is not established: GrandPrix.com presents Geoff Willis, at Leyton House in 1990, as the first engineer to use CFD in F1, while formula1.com describes it as only a research project at the time."
+    entrees: [geoff-willis]
     termes: [cao]
     sources:
       - titre: "Autosport, Pat Symonds, “How a dynamic design tool has grown in F1 importance” (March 2023)"
@@ -447,8 +447,8 @@ jalons:
     annee: 2009
     voie: "moteur"
     titre: "KERS wins in Hungary"
-    texte: "Energy recovered under braking gave up to 60 kW for 6.6 seconds a lap. Lewis Hamilton won in Hungary in the McLaren fitted with Mercedes' KERS, built at Brixworth with Zytek: the first win for a car so equipped. According to Autosport, Mercedes made it the foundation of its 2014 power unit; Andy Cowell traces the start of “serious” electrification at Mercedes back to the 2007 decision to design its own KERS."
-    entrees: []
+    texte: "Energy recovered under braking gave up to 60 kW for 6.6 seconds a lap. Lewis Hamilton won in Hungary in the McLaren fitted with Mercedes' KERS, designed at Brixworth with Zytek: the first win for a car so equipped. According to Autosport, Mercedes made it the foundation of its 2014 power unit; Andy Cowell traces the start of “serious” electrification at Mercedes back to the 2007 decision to design its own KERS."
+    entrees: [andy-cowell]
     termes: [kers]
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks” (February 2017)"
@@ -491,7 +491,7 @@ jalons:
     annee: 2022
     voie: "aero"
     titre: "The 2022 Red Bull"
-    texte: "Drawing on his experience of ground-effect cars, Adrian Newey fed key ideas into the Red Bull's concept and personally designed its suspension; the aim was to deliver downforce dependably. In early 2023, several teams adopted the Red Bull's sidepods; Mercedes and Ferrari at first refused, before adopting sidepods of this type in turn during the 2023 season."
+    texte: "According to Formula 1 in 2024, Adrian Newey, drawing on his experience of ground-effect cars, fed key ideas into the Red Bull's concept; in 2022, the same site had limited his direct contribution to the design to the suspension, which he drew himself. The aim was to deliver downforce dependably. In early 2023, several teams adopted the Red Bull's sidepods; Mercedes and Ferrari at first refused, before adopting sidepods of this type themselves during the 2023 season."
     entrees: [adrian-newey]
     termes: [effet-de-sol]
     sources:
@@ -640,8 +640,8 @@ contexte:
         pourquoi: "The Chaparrals had carried wings since 1966, as Chris Amon recalls, but no source says Ferrari took its cue from them: only precedence is established."
       - jalon: "lotus-72"
         mecanisme: "transfert"
-        preuve: "etabli"
-        pourquoi: "Goodwood writes that Colin Chapman borrowed Jim Hall's sidepod radiators for the Lotus 72."
+        preuve: "discute"
+        pourquoi: "Goodwood considers that Colin Chapman borrowed Jim Hall's sidepod radiators for the Lotus 72, co-designed by Maurice Philippe; no testimony from the designers is cited in support."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends” (October 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
@@ -702,7 +702,7 @@ contexte:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "With almost everyone on the same engine, gearbox and tyres, Derek Gardner says Tyrrell needed “an unfair advantage”: the six-wheeler (Andrew Frankel, Nigel Roebuck)."
+        pourquoi: "With the whole grid on the same engine, gearbox and tyres, Derek Gardner says Tyrrell needed “an unfair advantage”: the six-wheeler (Andrew Frankel, Nigel Roebuck)."
     sources:
       - titre: "Motor Sport, “F1 non-championship races – Part two: the ’60s” (September 2008)"
         url: "https://www.motorsportmagazine.com/archive/article/september-2008/92/f1-non-championship-races-part-two-60s/"
@@ -802,8 +802,8 @@ contexte:
     liens:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"
-        preuve: "atteste"
-        pourquoi: "Under contract to Tyrrell, Goodyear agreed to make the small front tyres, compromising on 10 inches (Nigel Roebuck, Andrew Frankel)."
+        preuve: "etabli"
+        pourquoi: "Sole supplier to the grid and under contract to Tyrrell, Goodyear agreed to make the small front tyres, compromising on 10 inches (Nigel Roebuck, Andrew Frankel)."
       - jalon: "tyrrell-p34"
         mecanisme: "ferme"
         preuve: "atteste"
@@ -837,7 +837,7 @@ contexte:
       - jalon: "turbo-victoire"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "The Dijon win crowned the turbo programme that Renault and Elf launched in 1977, despite the early failures."
+        pourquoi: "By entering the turbo in 1977, Renault and Elf gave themselves the means for the Dijon win two years later, despite the early failures."
     sources:
       - titre: "Renault, The Originals, “Renault RS01” (undated page)"
         url: "https://theoriginals.renault.com/en/f1-rs-01"
@@ -849,7 +849,7 @@ contexte:
     annee: 1978
     categorie: "reglement"
     titre: "The fan car sidelined"
-    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself; according to Motor Sport, the CSI banned it “on safety grounds”. The wording of the rules only changed for 1979."
+    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself, and Motor Sport also wrote of a voluntary withdrawal in 2025; according to Motor Sport in 1998, the CSI banned it “on safety grounds”. The wording of the rules only changed for 1979."
     liens:
       - jalon: "bt46b"
         mecanisme: "contourne"
@@ -858,11 +858,11 @@ contexte:
       - jalon: "bt46b"
         mecanisme: "provoque"
         preuve: "etabli"
-        pourquoi: "The BT46B's win triggered protests from rival teams, led by a furious Colin Chapman (Adam Cooper)."
+        pourquoi: "The BT46B's win triggered protests from rival teams, led by a furious Colin Chapman (Adam Cooper); the wording of the rules was changed for 1979."
       - jalon: "bt46b"
         mecanisme: "ferme"
         preuve: "discute"
-        pourquoi: "The car never raced again after Sweden, but sources disagree: voluntary withdrawal by Ecclestone (The Race, Goodwood) or a CSI ban “on safety grounds” (Motor Sport)."
+        pourquoi: "The car never raced again after Sweden, but sources disagree: voluntary withdrawal by Ecclestone (The Race, Goodwood, Motor Sport in 2025) or a CSI ban “on safety grounds” (Motor Sport in 1998)."
     sources:
       - titre: "The Race, Edd Straw, “Nine things you may not know about Brabham's iconic F1 fan car” (December 2022)"
         url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car/"
@@ -974,7 +974,7 @@ contexte:
     liens:
       - jalon: "cfd-benetton"
         mecanisme: "ouvre"
-        preuve: "discute"
+        preuve: "chronologique"
         pourquoi: "Pat Symonds, then at Benetton, credits early-1990s progress in commercial codes and computers for F1's adoption of CFD; but Benetton used Fluent, and no source links Phoenics to Benetton."
     sources:
       - titre: "Autosport, Pat Symonds, “How a dynamic design tool has grown in F1 importance” (March 2023)"
@@ -1005,7 +1005,7 @@ contexte:
       - jalon: "tyrrell-p34"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "The four-wheel maximum outlawed the six-wheel formula, which Tyrrell had in fact already dropped in 1978, for tyre reasons."
+        pourquoi: "The four-wheel maximum closed off the six-wheel formula for good, though Tyrrell had already dropped it in 1978, for tyre reasons."
     sources:
       - titre: "Motor Sport, Matt Bishop, “The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1” (June 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
@@ -1054,7 +1054,7 @@ contexte:
     liens:
       - jalon: "telemetrie-course"
         mecanisme: "ouvre"
-        preuve: "discute"
+        preuve: "chronologique"
         pourquoi: "With 195 litres for the whole race, Honda focused on consumption and electronics (Denis Jenkinson); the FW11 sent its data to the pits every lap through rudimentary telemetry, and the driver was guided in his fuel use by displays (Mark Hughes). No source says it was designed for that purpose."
     sources:
       - titre: "Honda, “1986 RA166E” (manufacturer's site, undated)"
@@ -1104,7 +1104,7 @@ contexte:
     annee: 1994
     categorie: "reglement"
     titre: "Driver aids banned"
-    texte: "Announced by the FIA in mid-1993, the ban aimed to curb spending and to answer criticism that the driver counted for less and less. For 1994, the driver aids that had appeared in the early 1990s were banned: active suspension, traction control and anti-lock brakes; only the semi-automatic gearbox was kept. The Williams champions of 1992 and 1993 owed much to these technologies. Teams had to start again from a blank sheet and look for grip through aerodynamics and mechanical design, all the more so as in-race refuelling, absent since 1983, returned. For the first time, the FIA checked the cars' software."
+    texte: "Announced by the FIA in mid-1993, the ban aimed to curb spending and to answer criticism that the driver counted for less and less. For 1994, the driver aids that had appeared in the early 1990s were banned: active suspension, traction control and anti-lock brakes; only the semi-automatic gearbox was kept. The Williams champions of 1992 and 1993 owed much to these technologies. Teams had to start again from a blank sheet and look for grip through aerodynamics and mechanical design, all the more so as in-race refuelling, banned since 1984, returned. For the first time, the FIA checked the cars' software."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "ferme"
@@ -1199,7 +1199,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "Malcolm Smith's inerter"
-    texte: "In 1997 Malcolm Smith, a professor at Cambridge, conceived the inerter: a plunger turns a flywheel in proportion to the relative displacement of its two ends, which, with springs and dampers, reduces oscillations. The university holds the patent and gave McLaren exclusivity in F1; to keep it secret, the team called it the “J-damper”. A licence to Penske Racing Shocks then allowed it to be supplied to every team."
+    texte: "In 1997 Malcolm Smith, a professor at Cambridge, conceived the inerter: a plunger turns a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends, which, with springs and dampers, reduces oscillations. The university holds the patent and gave McLaren exclusivity in F1; to keep it secret, the team called it the “J-damper”. A licence to Penske Racing Shocks then allowed it to be supplied to every team."
     liens:
       - jalon: "inerter"
         mecanisme: "transfert"
@@ -1302,7 +1302,7 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "KERS allowed"
-    texte: "Announced as early as 2007, the 2009 rules allowed an energy recovery system under braking, giving up to 60 kW for 6.6 seconds a lap, stored in batteries or, at Williams, an electric flywheel. Heavy, complex and often unreliable, it was used by only four teams. Still in the rules in 2010, it went unused because the teams agreed to give it up; they called for its return for 2011."
+    texte: "Announced as early as 2007, the 2009 rules allowed an energy recovery system under braking: the energy, stored in batteries or, at Williams, in an electric flywheel, was returned at up to 60 kW for 6.6 seconds a lap. Heavy, complex and often unreliable, it was used by only four teams. Still in the rules in 2010, it went unused because the teams agreed to give it up; they called for its return for 2011."
     liens:
       - jalon: "kers"
         mecanisme: "ouvre"
@@ -1392,7 +1392,7 @@ contexte:
       - evenement: "halo"
         mecanisme: "declenche"
         preuve: "discute"
-        pourquoi: "According to formula1.com, Mercedes came up with the halo concept not long after Jules Bianchi's fatal crash at Suzuka; but the FIA accident panel judged that a closed cockpit would not have changed the outcome of that impact: the link is mostly chronological."
+        pourquoi: "According to formula1.com, Mercedes came up with the halo concept not long after Jules Bianchi's fatal crash at Suzuka; but the FIA accident panel judged that a closed cockpit would not have changed the outcome of that impact: the link remains disputed."
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -1404,7 +1404,7 @@ contexte:
     annee: 2014
     categorie: "reglement"
     titre: "The mandatory hybrid power unit"
-    texte: "In 2014 the 2.4-litre normally aspirated V8s gave way to a 1.6-litre turbo V6 combined with two energy recovery systems, under braking and from the exhaust gases; producing around 600 bhp, it received some 160 bhp of electric power for about 33 seconds per lap. Fuel was limited to 100 kg per race, about a third less than before, and flow to 100 kg/h: efficiency became a central performance criterion. Cooling widened the sidepods, the minimum weight rose from 642 to 690 kg, and the single central exhaust ended blown diffusers. Mercedes won 51 of the 59 races of the first three seasons."
+    texte: "In 2014 the 2.4-litre normally aspirated V8s gave way to a 1.6-litre turbo V6 combined with two energy recovery systems, under braking and from the exhaust gases; producing around 600 bhp, it received some 160 bhp of electric power for about 33 seconds per lap. Fuel was limited to 100 kg per race, a third less than before, and flow to 100 kg/h: efficiency became a central performance criterion. Cooling widened the sidepods, the minimum weight rose from 642 to 690 kg, and the single central exhaust ended blown diffusers. Mercedes won 51 of the 59 races of the first three seasons."
     liens:
       - jalon: "hybride"
         mecanisme: "ouvre"
@@ -1462,7 +1462,7 @@ contexte:
       - jalon: "inerter"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "The 2022 rules ban inerters, first raced in 2005 and common in F1 after 2008 (Mark Hughes and Giorgio Piola; University of Cambridge)."
+        pourquoi: "The 2022 rules ban inerters, first raced in 2005 and common in F1 after 2008 (University of Cambridge); the ban is described by Mark Hughes and Giorgio Piola."
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"

@@ -90,6 +90,7 @@ defaults:
     values:
       layout: dossier
       lang: en
+      image: /assets/partage/en/defaut.jpg
   - scope:
       path: ""
       type: voitures

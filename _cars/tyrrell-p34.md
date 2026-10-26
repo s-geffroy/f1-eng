@@ -35,7 +35,7 @@ image: "/assets/partage/en/voitures/tyrrell-p34.jpg"
 
 The Tyrrell P34 is the only six-wheeled car ever to start a grand prix: four small steered wheels at the front, two normal-sized wheels at the rear.
 
-When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, Motor Sport explains: frontal area was set by the huge rear tyres. According to Motor Sport, the real reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates lift, and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: "40-odd horsepower".
+When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, Motor Sport explains: frontal area was set by the huge rear tyres. According to Motor Sport, the reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates lift, and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: "40-odd horsepower".
 
 The context explains the approach. Almost the whole field had the same engine, the same gearbox and the same tyres. "We needed an unfair advantage," said Gardner, "and the six-wheeler was it."
 

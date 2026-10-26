@@ -7,7 +7,7 @@ annee: 1978
 equipe: "Brabham"
 moteur: "Alfa Romeo flat-12"
 statut: "A single race, the 1978 Swedish Grand Prix, then withdrawn"
-concepteurs: ["gordon-murray"]
+concepteurs: ["gordon-murray", "david-north"]
 termes: ["voiture-a-ventilateur", "flat-12", "jupes", "effet-de-sol", "appui"]
 jalons: ["bt46b"]
 sources:
@@ -41,7 +41,7 @@ The regulations banned movable aerodynamic devices. Brabham argued that the fan'
 - Gary Anderson claims he suggested fitting a fan;
 - engineer David Cox claims a share of it: he says he glimpsed a drawing of a fan on [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %})'s drawing board at Tyrrell.
 
-According to Motor Sport, the common inspiration was the Chaparral 2J from Can-Am, the 1970 "sucker" car, which Murray confirms. The magazine also praises the Brabham design team for the way it put the idea into practice.
+According to Motor Sport, the common inspiration was the Chaparral 2J from Can-Am, the 1970 "sucker" car, which Murray confirms; Goodwood, however, considers the influence uncertain. Motor Sport also praises the Brabham design team for the way it put the idea into practice.
 
 ## Limitations
 

@@ -2,7 +2,7 @@
 title: "McLaren MP4-20"
 nom_tri: "mclaren mp4-20"
 accroche: "Dix victoires, et un secret caché sous le nom de « J-damper »."
-description: "McLaren MP4-20 (2005) : la première voiture à courir avec un inerter, venu de l'université de Cambridge sous le nom de code « J-damper » ; dix victoires, mais une fiabilité qui coûte les deux titres."
+description: "McLaren MP4-20 (2005) : selon l'université de Cambridge et l'inventeur du dispositif, la première voiture à courir avec un inerter, venu de Cambridge sous le nom de code « J-damper » ; dix victoires, mais une fiabilité qui coûte les deux titres."
 annee: 2005
 equipe: "McLaren"
 moteur: "Mercedes-Benz FO 110R, V10"
@@ -49,7 +49,7 @@ L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge ; aucune so
 
 ## Limites
 
-- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un plat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille. Juan Pablo Montoya, blessé, manque deux courses.
+- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille. Juan Pablo Montoya, blessé, manque deux courses.
 - **Une date discutée.** Formula 1, en 2022, écrit que les inerters ont été « utilisés pour la première fois sur la McLaren de 1997 ». L'université de Cambridge et Smith situent la première course en 2005 ; 1997 est, selon eux, l'année où Smith imagine le dispositif.
 
 ## Ce qu'elle laisse

@@ -7,7 +7,7 @@ annee: 1978
 equipe: "Brabham"
 moteur: "Alfa Romeo flat-12"
 statut: "Une seule course, le Grand Prix de Suède 1978, puis retirée"
-concepteurs: ["gordon-murray"]
+concepteurs: ["gordon-murray", "david-north"]
 termes: ["voiture-a-ventilateur", "flat-12", "jupes", "effet-de-sol", "appui"]
 jalons: ["bt46b"]
 sources:
@@ -41,7 +41,7 @@ Le règlement interdit les dispositifs aérodynamiques mobiles. Brabham soutient
 - Gary Anderson affirme avoir proposé de mettre un ventilateur ;
 - l'ingénieur David Cox en revendique une part : il dit avoir aperçu un schéma de ventilateur sur la planche à dessin de [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), chez Tyrrell.
 
-Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970, ce que Murray confirme. Le magazine salue aussi le travail de l'équipe de conception de Brabham, qui a su mettre l'idée en pratique.
+Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970, ce que Murray confirme ; Goodwood juge toutefois l'influence incertaine. Motor Sport salue aussi le travail de l'équipe de conception de Brabham, qui a su mettre l'idée en pratique.
 
 ## Limites
 

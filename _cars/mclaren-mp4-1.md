@@ -2,7 +2,7 @@
 title: "McLaren MP4/1"
 nom_tri: "mclaren mp4/1"
 accroche: "The carbon tub that changed how F1 cars are built."
-description: "McLaren MP4/1 (1981): the first F1 car designed in carbon composite, and the first carbon car to win a Grand Prix."
+description: "McLaren MP4/1 (1981): the first F1 car with a carbon composite monocoque to race in a Grand Prix, and the first carbon car to win a Grand Prix."
 annee: 1981
 equipe: "McLaren International"
 moteur: "Cosworth DFV, 3-litre V8"

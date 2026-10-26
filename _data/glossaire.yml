@@ -20,7 +20,7 @@
   motifs:
   - effet de sol
   definition: 'L''appui ne vient plus seulement des ailerons mais du dessous de la voiture : on y forme un passage d''air qui se rétrécit puis s''élargit, où l''air accélère et sa pression baisse, ce qui aspire la voiture vers la piste. Le procédé n''est efficace que si les côtés sont rendus étanches par des jupes. Il est interdit progressivement entre 1981 et 1983, revient en 2022 sous forme de tunnels, puis est atténué par les fonds plus plats de 2026.'
-  premiere: Lotus 78, 1977.
+  premiere: Lotus 78, 1977, selon Motor Sport.
   entrees:
   - colin-chapman
   - peter-wright
@@ -143,7 +143,7 @@
   - composites carbone
   - fibre de carbone
   definition: Fibres de carbone noyées dans une résine, empilées en couches orientées selon les efforts, puis cuites. Le matériau est très rigide et très résistant pour un poids minime ; son rapport rigidité/poids et sa tenue aux chocs en ont fait la base de la sécurité moderne.
-  premiere: 'Châssis entier : McLaren MP4/1, 1981.'
+  premiere: 'Châssis entier à courir en Grand Prix : McLaren MP4/1, 1981.'
   entrees:
   - john-barnard
   - alan-jenkins
@@ -219,7 +219,7 @@
   - boîte de vitesses transversale
   - boîte transversale
   definition: Les arbres de la boîte sont placés en travers de la voiture plutôt qu'alignés derrière le moteur. La boîte se loge devant l'essieu arrière, ce qui rapproche le poids du centre et améliore la réponse directionnelle.
-  premiere: Ferrari 312T, 1975.
+  premiere: Ferrari 312T, 1975, selon Formula 1 ; Motor Sport rappelle une voie ouverte en 1972 par Tyrrell et March.
   entrees:
   - mauro-forghieri
   sources:
@@ -316,7 +316,6 @@
   - paddy-lowe
   - steve-wise
   - patrick-head
-  - adrian-newey
   sources:
   - titre: Keith Howard, Motor Sport Magazine, « Active suspension » (décembre 2001)
     url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
@@ -372,7 +371,7 @@
   motifs:
   - double diffuseur
   - diffuseur
-  definition: 'Le diffuseur est la partie arrière relevée du plancher : il ralentit et évacue l''air passé sous la voiture, ce qui abaisse la pression dessous et crée de l''appui. Le double diffuseur de 2009 exploite une ambiguïté du règlement pour alimenter un second étage ; il est interdit pour 2010.'
+  definition: 'Le diffuseur est la partie arrière relevée du plancher : il ralentit et évacue l''air passé sous la voiture, ce qui abaisse la pression dessous et crée de l''appui. Le double diffuseur de 2009 exploite une ambiguïté du règlement pour alimenter un second étage ; il est interdit à partir de 2011.'
   premiere: 'Double diffuseur : 2009, chez Brawn, Toyota et Williams.'
   entrees:
   - ross-brawn
@@ -429,7 +428,7 @@
   terme: CAO, CAE et CFD
   motifs:
   - CAO
-  definition: La CAO sert à dessiner les pièces en numérique ; le calcul assisté (CAE) regroupe les calculs de résistance et de suspension ; la CFD simule l'écoulement de l'air autour de la voiture, en complément de la soufflerie. Son usage est aujourd'hui plafonné par le règlement.
+  definition: La CAO sert à dessiner les pièces en numérique ; le calcul assisté (CAE) regroupe les calculs de résistance et de suspension ; la CFD simule l'écoulement de l'air autour de la voiture, en complément de la soufflerie. L'usage de la CFD est aujourd'hui plafonné par le règlement.
   entrees:
   - frank-dernie
   - alan-jenkins
@@ -501,7 +500,7 @@
   terme: Inerter
   motifs:
   - inerter
-  definition: Élément de suspension dans lequel un piston entraîne un volant d'inertie en proportion du déplacement relatif de ses deux extrémités ; associé aux ressorts et aux amortisseurs, il réduit les oscillations. Imaginé en 1997 par Malcolm Smith à Cambridge, il court d'abord chez McLaren sous le nom de « J-damper », puis devient un équipement standard jusqu'à son interdiction en 2022.
+  definition: Élément de suspension dans lequel un piston fait tourner un volant d'inertie, et la force transmise est proportionnelle à l'accélération relative de ses deux extrémités ; associé aux ressorts et aux amortisseurs, il réduit les oscillations. Imaginé en 1997 par Malcolm Smith à Cambridge, il court d'abord chez McLaren sous le nom de « J-damper », puis devient un équipement standard jusqu'à son interdiction en 2022.
   premiere: McLaren, 2005.
   entrees: []
   sources:

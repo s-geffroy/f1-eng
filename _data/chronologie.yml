@@ -73,10 +73,10 @@ mecanismes:
 preuves:
   - id: "atteste"
     nom: "attesté"
-    definition: "le concepteur ou un témoin direct affirme le lien"
+    definition: "le concepteur ou un témoin direct affirme le lien, et aucune source ne le contredit"
   - id: "etabli"
     nom: "établi"
-    definition: "un texte réglementaire ou une source historique l'affirme"
+    definition: "un texte réglementaire ou une source historique sérieuse l'affirme"
   - id: "discute"
     nom: "discuté"
     definition: "les sources divergent, ou le lien est indirect"
@@ -113,8 +113,8 @@ jalons:
     annee: 1962
     voie: architecture
     titre: "La monocoque aluminium de la Lotus 25"
-    texte: "Colin Chapman impose en F1 la coque monocoque en aluminium, qui remplacera le châssis tubulaire comme architecture de référence."
-    entrees: [colin-chapman]
+    texte: "Lotus impose en F1, sous la direction de Colin Chapman, la coque monocoque en aluminium, qui remplacera le châssis tubulaire comme architecture de référence."
+    entrees: [colin-chapman, mike-costin, alan-styman]
     termes: [monocoque, chassis-tubulaire]
 
   - id: dfv
@@ -137,7 +137,7 @@ jalons:
     annee: 1975
     voie: transmission
     titre: "La boîte transversale de la Ferrari 312T"
-    texte: "Première boîte de vitesses transversale de la F1, au service de la centralisation des masses ; selon Formula 1, elle est ensuite adoptée par tout le plateau."
+    texte: "Selon Formula 1, première boîte de vitesses transversale de la F1, au service de la centralisation des masses, ensuite adoptée par tout le plateau ; Motor Sport rappelle que Tyrrell et March avaient ouvert la voie en 1972."
     entrees: [mauro-forghieri, franco-rocchi]
     termes: [boite-transversale, centralisation-des-masses]
 
@@ -145,7 +145,7 @@ jalons:
     annee: 1977
     voie: aero
     titre: "L'effet de sol de la Lotus 78"
-    texte: "Issue des recherches de Peter Wright et Tony Rudd, la première F1 à effet de sol est dessinée par Ralph Bellamy, avec Martin Ogilvie aux suspensions, dans un programme dirigé par Colin Chapman."
+    texte: "Issue des recherches de Peter Wright et Tony Rudd, la première F1 à effet de sol, selon Motor Sport, est dessinée par Ralph Bellamy, avec Martin Ogilvie aux suspensions, dans un programme dirigé par Colin Chapman."
     entrees: [peter-wright, tony-rudd, ralph-bellamy, martin-ogilvie, colin-chapman, tony-southgate]
     termes: [effet-de-sol, venturi, jupes]
 
@@ -153,8 +153,8 @@ jalons:
     annee: 1978
     voie: aero
     titre: "La voiture à ventilateur"
-    texte: "La Brabham BT46B de Gordon Murray gagne le Grand Prix de Suède, sa seule course. Les sources divergent sur la suite : retrait volontaire par Brabham, ou interdiction par l'autorité sportive."
-    entrees: [gordon-murray]
+    texte: "La Brabham BT46B, conçue sous la direction de Gordon Murray, gagne le Grand Prix de Suède, sa seule course. Les sources divergent sur la suite : retrait volontaire par Brabham, ou interdiction par l'autorité sportive."
+    entrees: [gordon-murray, david-north]
     termes: [voiture-a-ventilateur]
 
   - id: turbo-victoire
@@ -169,7 +169,7 @@ jalons:
     annee: 1981
     voie: architecture
     titre: "La monocoque carbone de la McLaren MP4/1"
-    texte: "Première F1 à monocoque intégral en composite carbone à courir en Grand Prix, conçue par John Barnard entouré notamment de Steve Nichols et d'Alan Jenkins."
+    texte: "Première F1 à monocoque intégrale en composite carbone à courir en Grand Prix, conçue par John Barnard entouré notamment de Steve Nichols et d'Alan Jenkins."
     entrees: [john-barnard, steve-nichols, alan-jenkins]
     termes: [composite-carbone, monocoque]
 
@@ -196,7 +196,7 @@ jalons:
     annee: 1983
     voie: transmission
     titre: "La suspension active en course"
-    texte: "La suspension active de Peter Wright est utilisée sur la Lotus 92 de Nigel Mansell lors des deux premières courses de la saison."
+    texte: "La suspension active de Lotus, développée par Peter Wright à partir des travaux de Cranfield (David Williams), est utilisée sur la Lotus 92 de Nigel Mansell lors des deux premières courses de la saison."
     entrees: [peter-wright]
     termes: [suspension-active]
 
@@ -204,7 +204,7 @@ jalons:
     annee: 1986
     voie: moteur
     titre: "Le rappel pneumatique des soupapes"
-    texte: "Introduit sur le moteur Renault EF15 B, il équipe tous les moteurs de F1 à partir des années 1990."
+    texte: "Introduit sur le moteur Renault EF15 B, il équipe, selon Renault, tous les moteurs de F1 à partir des années 1990."
     entrees: [bernard-dudot, jean-pierre-boudy]
     termes: [rappel-pneumatique]
 
@@ -213,7 +213,7 @@ jalons:
     voie: transmission
     titre: "La suspension active gagne"
     texte: "La Lotus 99T d'Ayrton Senna devient la première F1 à suspension active à gagner un Grand Prix ; le système Williams conçu par Frank Dernie gagne à Monza avec Nelson Piquet."
-    entrees: [peter-wright, frank-dernie, steve-wise, paddy-lowe]
+    entrees: [peter-wright, frank-dernie]
     termes: [suspension-active]
 
   - id: ferrari-640
@@ -244,14 +244,14 @@ jalons:
     voie: transmission
     titre: "Le titre de la suspension active"
     texte: "La Williams FW14B mène Nigel Mansell au titre, avec une suspension active dont Paddy Lowe a écrit l'essentiel du logiciel."
-    entrees: [paddy-lowe, patrick-head, adrian-newey]
+    entrees: [paddy-lowe, steve-wise, patrick-head, adrian-newey]
     termes: [suspension-active]
 
   - id: programme-anticipe
     annee: 1993
     voie: methode
     titre: "Le programme lancé un an à l'avance"
-    texte: "Chez Benetton, Ross Brawn fait commencer la conception de la voiture de 1994 dès le début de 1993, ce qui était presque inédit."
+    texte: "Chez Benetton, Ross Brawn fait commencer la conception de la voiture de 1994 dès le début de 1993, ce qui était, selon lui, presque inédit."
     entrees: [ross-brawn, rory-byrne]
 
   - id: double-diffuseur
@@ -298,7 +298,7 @@ jalons:
     voie: aero
     titre: "La Lotus 72 et ses radiateurs latéraux"
     texte: "Créditée à Maurice Philippe et Colin Chapman, la part de chacun restant discutée, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus (22 selon Classic Team Lotus)."
-    entrees: [colin-chapman]
+    entrees: [colin-chapman, maurice-philippe]
 
   - id: lotus-88
     annee: 1981
@@ -337,7 +337,7 @@ jalons:
     voie: architecture
     titre: "La McLaren MP4/4, quinze victoires sur seize"
     texte: "La McLaren MP4/4 gagne 15 des 16 courses de 1988. Sa paternité reste discutée : Steve Nichols, son concepteur en chef, y voit une évolution de la MP4/3 ; Gordon Murray conteste ce récit. Autosport cite aussi Bob Bell, David North, Matthew Jeffreys et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus) parmi ses auteurs."
-    entrees: [steve-nichols, gordon-murray, bob-bell]
+    entrees: [steve-nichols, gordon-murray, bob-bell, david-north, matthew-jeffreys]
     sources:
       - titre: "GrandPrix.com, « Steve Nielsen » (fiche biographique, non datée)"
         url: "https://www.grandprix.com/people/steve-nielsen.html"
@@ -354,7 +354,7 @@ jalons:
     annee: 2010
     voie: aero
     titre: "Le diffuseur soufflé de la Red Bull RB6"
-    texte: "Adrian Newey « réinvente » le diffuseur soufflé par les échappements."
+    texte: "Selon Formula 1, Adrian Newey « réinvente » le diffuseur soufflé par les échappements, avec les cartographies moteur de Renault."
     entrees: [adrian-newey]
     termes: [diffuseur]
 
@@ -362,7 +362,7 @@ jalons:
     annee: 1976
     voie: "aero"
     titre: "La Tyrrell P34 à six roues"
-    texte: "La P34 de Derek Gardner est la seule voiture à six roues à prendre le départ d'un Grand Prix. Son vrai but n'est pas de réduire la surface frontale mais l'appui : quatre petites roues avant engendrent moins de portance que deux grandes. À Anderstorp, personne ne la bat."
+    texte: "La P34 de Derek Gardner est la seule voiture à six roues à prendre le départ d'un Grand Prix. Selon Gardner et Motor Sport, son but n'est pas de réduire la surface frontale mais d'augmenter l'appui : quatre petites roues avant engendrent moins de portance que deux grandes. À Anderstorp, personne ne la bat."
     entrees: [derek-gardner]
     termes: [appui]
     sources:
@@ -406,7 +406,7 @@ jalons:
     voie: "methode"
     titre: "La simulation numérique des écoulements"
     texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. En 1993, l'équipe s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent. La primauté n'est pas établie : GrandPrix.com présente Geoff Willis, chez Leyton House en 1990, comme le premier ingénieur à utiliser la CFD en F1, quand formula1.com n'y voit alors qu'un projet de recherche."
-    entrees: []
+    entrees: [geoff-willis]
     termes: [cao]
     sources:
       - titre: "Autosport, Pat Symonds, « How a dynamic design tool has grown in F1 importance » (mars 2023)"
@@ -448,7 +448,7 @@ jalons:
     voie: "moteur"
     titre: "Le KERS gagne en Hongrie"
     texte: "Récupérée au freinage, l'énergie rend jusqu'à 60 kW pendant 6,6 secondes par tour. Lewis Hamilton gagne en Hongrie avec la McLaren équipée du KERS de Mercedes, conçu à Brixworth avec Zytek : c'est la première victoire d'une voiture ainsi équipée. Selon Autosport, Mercedes en fait le socle de son groupe propulseur de 2014 ; Andy Cowell fait remonter à la décision de 2007 de concevoir son propre KERS le début de la propulsion électrique « sérieuse » chez Mercedes."
-    entrees: []
+    entrees: [andy-cowell]
     termes: [kers]
     sources:
       - titre: "Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)"
@@ -491,7 +491,7 @@ jalons:
     annee: 2022
     voie: "aero"
     titre: "La Red Bull de 2022"
-    texte: "Fort de son expérience des voitures à effet de sol, Adrian Newey apporte des idées clés au concept de la Red Bull et dessine lui-même ses suspensions ; l'enjeu est de délivrer l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'en adopter à leur tour de ce type en cours de saison 2023."
+    texte: "Selon Formula 1 en 2024, Adrian Newey, fort de son expérience des voitures à effet de sol, apporte des idées clés au concept de la Red Bull ; en 2022, le même site limitait sa contribution directe au dessin aux suspensions, qu'il dessine lui-même. L'enjeu est de délivrer l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023."
     entrees: [adrian-newey]
     termes: [effet-de-sol]
     sources:
@@ -632,7 +632,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Les ailerons des Chaparral"
-    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Partie d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Colin Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
+    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Parti d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Colin Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -640,8 +640,8 @@ contexte:
         pourquoi: "Les Chaparral portent des ailerons depuis 1966 et Chris Amon le rappelle, mais aucune source ne dit que Ferrari s'en est inspiré : seule l'antériorité est établie."
       - jalon: "lotus-72"
         mecanisme: "transfert"
-        preuve: "etabli"
-        pourquoi: "Goodwood écrit que Colin Chapman a repris pour la Lotus 72 les radiateurs en pontons latéraux de Jim Hall."
+        preuve: "discute"
+        pourquoi: "Goodwood estime que Colin Chapman a repris pour la Lotus 72, cosignée par Maurice Philippe, les radiateurs en pontons latéraux de Jim Hall ; aucun témoignage des concepteurs n'est cité à l'appui."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, « 1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends » (octobre 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
@@ -802,8 +802,8 @@ contexte:
     liens:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"
-        preuve: "atteste"
-        pourquoi: "Sous contrat avec Tyrrell, Goodyear accepte de fabriquer les petits pneus avant ; le compromis se fait à 10 pouces (Nigel Roebuck, Andrew Frankel)."
+        preuve: "etabli"
+        pourquoi: "Seul fournisseur du plateau et sous contrat avec Tyrrell, Goodyear accepte de fabriquer les petits pneus avant ; le compromis se fait à 10 pouces (Nigel Roebuck, Andrew Frankel)."
       - jalon: "tyrrell-p34"
         mecanisme: "ferme"
         preuve: "atteste"
@@ -837,7 +837,7 @@ contexte:
       - jalon: "turbo-victoire"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "La victoire de Dijon couronne le programme turbo que Renault et Elf engagent en 1977, malgré les casses des débuts."
+        pourquoi: "En engageant le turbo en 1977, Renault et Elf se donnent les moyens de la victoire de Dijon, deux ans plus tard, malgré les casses des débuts."
     sources:
       - titre: "Renault, The Originals, « Renault RS01 » (page non datée)"
         url: "https://theoriginals.renault.com/en/f1-rs-01"
@@ -849,7 +849,7 @@ contexte:
     annee: 1978
     categorie: "reglement"
     titre: "La voiture à ventilateur écartée"
-    texte: "En 1978, la règle qui interdit les dispositifs aérodynamiques mobiles admet ceux dont la fonction première n'est pas aérodynamique. La Brabham BT46B s'y engouffre : son ventilateur est présenté comme servant au refroidissement du moteur. Après sa victoire en Suède, les équipes rivales, menées par Colin Chapman, protestent. Les sources divergent sur la suite : selon The Race et Goodwood, la CSI juge la voiture conforme et Bernie Ecclestone la retire de lui-même ; selon Motor Sport, la CSI l'interdit « pour raisons de sécurité ». La rédaction du règlement ne change qu'en 1979."
+    texte: "En 1978, la règle qui interdit les dispositifs aérodynamiques mobiles admet ceux dont la fonction première n'est pas aérodynamique. La Brabham BT46B s'y engouffre : son ventilateur est présenté comme servant au refroidissement du moteur. Après sa victoire en Suède, les équipes rivales, menées par Colin Chapman, protestent. Les sources divergent sur la suite : selon The Race et Goodwood, la CSI juge la voiture conforme et Bernie Ecclestone la retire de lui-même, et Motor Sport parle aussi en 2025 d'un retrait volontaire ; selon Motor Sport en 1998, la CSI l'interdit « pour raisons de sécurité ». La rédaction du règlement ne change qu'en 1979."
     liens:
       - jalon: "bt46b"
         mecanisme: "contourne"
@@ -858,11 +858,11 @@ contexte:
       - jalon: "bt46b"
         mecanisme: "provoque"
         preuve: "etabli"
-        pourquoi: "La victoire de la BT46B déclenche les protestations des équipes rivales, menées par un Colin Chapman furieux (Adam Cooper)."
+        pourquoi: "La victoire de la BT46B déclenche les protestations des équipes rivales, menées par un Colin Chapman furieux (Adam Cooper) ; la rédaction du règlement est modifiée pour 1979."
       - jalon: "bt46b"
         mecanisme: "ferme"
         preuve: "discute"
-        pourquoi: "La voiture ne court plus après la Suède, mais les sources divergent : retrait volontaire par Ecclestone (The Race, Goodwood) ou interdiction par la CSI « pour raisons de sécurité » (Motor Sport)."
+        pourquoi: "La voiture ne court plus après la Suède, mais les sources divergent : retrait volontaire par Ecclestone (The Race, Goodwood, Motor Sport en 2025) ou interdiction par la CSI « pour raisons de sécurité » (Motor Sport en 1998)."
     sources:
       - titre: "The Race, Edd Straw, « Nine things you may not know about Brabham's iconic F1 fan car » (décembre 2022)"
         url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car/"
@@ -974,7 +974,7 @@ contexte:
     liens:
       - jalon: "cfd-benetton"
         mecanisme: "ouvre"
-        preuve: "discute"
+        preuve: "chronologique"
         pourquoi: "Pour Pat Symonds, alors chez Benetton, ce sont les progrès des codes commerciaux et des ordinateurs au début des années 1990 qui permettent aux équipes d'adopter la CFD ; mais Benetton utilise Fluent, et aucune source ne relie Phoenics à Benetton."
     sources:
       - titre: "Autosport, Pat Symonds, « How a dynamic design tool has grown in F1 importance » (mars 2023)"
@@ -1005,7 +1005,7 @@ contexte:
       - jalon: "tyrrell-p34"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "La règle des quatre roues au plus interdit la formule à six roues, que Tyrrell avait d'ailleurs abandonnée dès 1978, pour des raisons de pneus."
+        pourquoi: "La règle des quatre roues au plus ferme définitivement la formule à six roues, que Tyrrell avait d'ailleurs abandonnée dès 1978, pour des raisons de pneus."
     sources:
       - titre: "Motor Sport, Matt Bishop, « The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1 » (juin 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
@@ -1054,7 +1054,7 @@ contexte:
     liens:
       - jalon: "telemetrie-course"
         mecanisme: "ouvre"
-        preuve: "discute"
+        preuve: "chronologique"
         pourquoi: "Avec 195 litres pour toute la course, Honda concentre son développement sur la consommation et l'électronique (Denis Jenkinson) ; la FW11 transmet ses données au stand à chaque tour par une télémétrie rudimentaire, et le pilote est guidé dans sa consommation par des affichages (Mark Hughes). Aucune source ne dit qu'elle a été conçue pour cela."
     sources:
       - titre: "Honda, « 1986 RA166E » (site du constructeur, non daté)"
@@ -1104,7 +1104,7 @@ contexte:
     annee: 1994
     categorie: "reglement"
     titre: "Les aides électroniques interdites"
-    texte: "Annoncée par la FIA au milieu de 1993, l'interdiction vise à freiner les dépenses et à répondre à ceux qui jugent que le pilote compte de moins en moins. Pour 1994, les aides au pilotage apparues au début des années 1990 sont interdites : suspension active, antipatinage et antiblocage ; seule la boîte semi-automatique est conservée. Les Williams championnes en 1992 et 1993 devaient beaucoup à ces technologies. Les équipes doivent repartir d'une feuille blanche et chercher l'adhérence par l'aérodynamique et la mécanique, d'autant que le ravitaillement en course, absent depuis 1983, revient. Pour la première fois, la FIA contrôle les logiciels des voitures."
+    texte: "Annoncée par la FIA au milieu de 1993, l'interdiction vise à freiner les dépenses et à répondre à ceux qui jugent que le pilote compte de moins en moins. Pour 1994, les aides au pilotage apparues au début des années 1990 sont interdites : suspension active, antipatinage et antiblocage ; seule la boîte semi-automatique est conservée. Les Williams championnes en 1992 et 1993 devaient beaucoup à ces technologies. Les équipes doivent repartir d'une feuille blanche et chercher l'adhérence par l'aérodynamique et la mécanique, d'autant que le ravitaillement en course, interdit depuis 1984, revient. Pour la première fois, la FIA contrôle les logiciels des voitures."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "ferme"
@@ -1199,7 +1199,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "L'inerter de Malcolm Smith"
-    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston entraîne un volant d'inertie en proportion du déplacement relatif de ses deux extrémités, ce qui, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
+    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston fait tourner un volant d'inertie, et la force transmise est proportionnelle à l'accélération relative de ses deux extrémités, ce qui, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
     liens:
       - jalon: "inerter"
         mecanisme: "transfert"
@@ -1302,7 +1302,7 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "Le KERS autorisé"
-    texte: "Annoncé dès 2007, le règlement 2009 autorise un système de récupération d'énergie au freinage, qui rend jusqu'à 60 kW pendant 6,6 secondes par tour, stockée dans des batteries ou, chez Williams, un volant d'inertie électrique. Lourd, complexe et souvent peu fiable, il n'est utilisé que par quatre équipes. Resté dans le règlement en 2010, il n'est plus employé, les équipes s'étant entendues pour y renoncer ; elles réclament son retour pour 2011."
+    texte: "Annoncé dès 2007, le règlement 2009 autorise un système de récupération d'énergie au freinage : l'énergie, stockée dans des batteries ou, chez Williams, dans un volant d'inertie électrique, est rendue à raison de 60 kW au plus pendant 6,6 secondes par tour. Lourd, complexe et souvent peu fiable, il n'est utilisé que par quatre équipes. Resté dans le règlement en 2010, il n'est plus employé, les équipes s'étant entendues pour y renoncer ; elles réclament son retour pour 2011."
     liens:
       - jalon: "kers"
         mecanisme: "ouvre"
@@ -1392,7 +1392,7 @@ contexte:
       - evenement: "halo"
         mecanisme: "declenche"
         preuve: "discute"
-        pourquoi: "Selon formula1.com, Mercedes imagine le concept du halo peu après l'accident mortel de Jules Bianchi à Suzuka ; mais le panel d'enquête de la FIA juge qu'un cockpit fermé n'aurait pas changé l'issue de ce choc : le lien est surtout chronologique."
+        pourquoi: "Selon formula1.com, Mercedes imagine le concept du halo peu après l'accident mortel de Jules Bianchi à Suzuka ; mais le panel d'enquête de la FIA juge qu'un cockpit fermé n'aurait pas changé l'issue de ce choc : le lien reste discuté."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -1457,12 +1457,12 @@ contexte:
     annee: 2022
     categorie: "reglement"
     titre: "Le retour de l'effet de sol"
-    texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon la F1, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les bargeboards, qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
+    texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon la F1, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les déflecteurs latéraux (bargeboards), qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
     liens:
       - jalon: "inerter"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "Le règlement 2022 interdit les inerters, courus pour la première fois en 2005 et devenus courants en F1 après 2008 (Mark Hughes et Giorgio Piola ; université de Cambridge)."
+        pourquoi: "Le règlement 2022 interdit les inerters, courus pour la première fois en 2005 et devenus courants en F1 après 2008 (université de Cambridge) ; l'interdiction est décrite par Mark Hughes et Giorgio Piola."
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"

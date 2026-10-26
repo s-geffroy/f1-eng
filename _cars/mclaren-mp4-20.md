@@ -2,7 +2,7 @@
 title: "McLaren MP4-20"
 nom_tri: "mclaren mp4-20"
 accroche: "Ten wins, and a secret hidden behind the name “J-damper”."
-description: "McLaren MP4-20 (2005): the first car to race an inerter, brought from the University of Cambridge under the codename “J-damper”; ten wins, but reliability that cost both titles."
+description: "McLaren MP4-20 (2005): according to the University of Cambridge and the device's inventor, the first car to race an inerter, brought from Cambridge under the codename “J-damper”; ten wins, but reliability that cost both titles."
 annee: 2005
 equipe: "McLaren"
 moteur: "Mercedes-Benz FO 110R, V10"

@@ -54,9 +54,9 @@ redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 
 ## 1981 — McLaren MP4/1 : le carbone
 
-La MP4/1 est la première F1 construite autour d'un **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégral en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix. La Lotus 88, dont Autosport décrit la monocoque en composite fabriquée par l'équipe elle-même, est exclue dès les essais de Long Beach 1981 selon Motor Sport ; elle ne prend jamais part à une course.
+La MP4/1 est la première F1 construite autour d'une **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégrale en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix. La Lotus 88, dont Autosport décrit la monocoque en composite fabriquée par l'équipe elle-même, est exclue dès les essais de Long Beach 1981 selon Motor Sport ; elle ne prend jamais part à une course.
 
-Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion. Il lui faut un nouveau matériau ; il le trouve après une visite chez British Aerospace, qui fabriquait des capots en composites. [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}).
+Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion. Il lui faut un nouveau matériau ; il le trouve, selon son récit, après une visite chez British Aerospace, qui fabriquait des capots en composites. Selon lui, [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}).
 
 Les effets touchent tout à la fois la rigidité, la masse, la sécurité, l'architecture et l'industrialisation du composite. La MP4/1 gagne le Grand Prix de Grande-Bretagne 1981, première victoire d'une voiture en composite carbone ; l'accident de John Watson à Monza la même année met fin, selon Barnard, aux mythes sur la fragilité du carbone. Le principe devient universel.
 
@@ -74,7 +74,7 @@ Installé dans un bureau d'études en Angleterre, le Guildford Technical Office,
 - cockpit plus compact ;
 - ouverture vers la gestion électronique de la transmission.
 
-La même voiture inaugure une suspension avant à courtes barres de torsion, une mode qui dure. La 640 gagne d'entrée au Brésil, puis en Hongrie et au Portugal.
+La même voiture adopte une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable. La 640 gagne d'entrée au Brésil, puis en Hongrie et au Portugal.
 
 ## Parcours technique
 
@@ -86,7 +86,7 @@ La même voiture inaugure une suspension avant à courtes barres de torsion, une
 
 ## Attribution
 
-L'idée des palettes elle-même ne vient pas de lui : Barnard raconte qu'elle a été suggérée par quelqu'un de son bureau d'études, sur le modèle des karts ; Motorsport.com l'attribue à Piero Lardi Ferrari. Barnard reste celui qui a conçu et introduit le système en course.
+L'idée des palettes au volant de la Ferrari 640 ne vient pas de lui : Barnard raconte qu'elle a été suggérée par quelqu'un de son bureau d'études, sur le modèle des karts ; Motorsport.com l'attribue à Piero Lardi Ferrari. Barnard reste celui qui a conçu et introduit le système en course.
 
 ## Pourquoi le n° 2
 

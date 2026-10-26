@@ -37,7 +37,7 @@ Mike Costin est **cofondateur de Cosworth**. Son rôle principal, selon Motor Sp
 
 ## Parcours technique
 
-- Chez **De Havilland**, il conçoit des bancs d'essai, notamment pour l'avion de ligne Comet.
+- Chez **de Havilland**, il conçoit des bancs d'essai, notamment pour l'avion de ligne Comet.
 - Il travaille avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) à partir de janvier 1953, puis à plein temps chez **Lotus** à partir de janvier 1955. Il y devient l'adjoint de Chapman et le directeur technique de l'entreprise.
 - **Cosworth Engineering** est immatriculée le 30 septembre 1958. Costin ne la rejoint à plein temps qu'en août 1962, à l'expiration de son contrat avec Lotus.
 - Avant le DFV, Cosworth produit le **FVA** ; une version de 1 500 cm³, le **FVB**, sert à valider l'alésage et la course du DFV.

@@ -34,7 +34,7 @@ image: "/assets/partage/en/tony-rudd.jpg"
 ---
 ## What he contributed
 
-Tony Rudd was an engineer at BRM, then at Lotus, and one of the two men behind the [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) programme.
+Tony Rudd was an engineer at BRM, then at Lotus, and, with Peter Wright, one of the initiators of BRM's research into [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol), whose principle the Lotus programme launched by Colin Chapman took up.
 
 ## BRM
 
@@ -47,8 +47,8 @@ Tony Rudd was an engineer at BRM, then at Lotus, and one of the two men behind t
 ## Lotus
 
 - Having joined Group Lotus in 1969, he turned Lotus Engineering into a major research contractor for car manufacturers.
-- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Wright, later joined by [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) for the suspension. Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the De Havilland Mosquito.
+- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Wright, later joined by [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) for the suspension. Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the de Havilland Mosquito.
 
 ## Why behind Wright
 
-Rudd had the idea at BRM and led R&D at Lotus; Wright carried out the wind tunnel testing. His direct contribution to the final solution is **harder to isolate** than Wright's. The method does not credit the same contribution twice: Rudd is placed in Tier C, Wright in Tier B.
+Rudd suggested at BRM in 1969 that the car itself should generate downforce, then led R&D at Lotus; Wright carried out the wind tunnel testing. Rudd's direct contribution to the final solution is **harder to isolate** than Wright's. The method does not credit the same contribution twice: Rudd is placed in Tier C, Wright in Tier B.

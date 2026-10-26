@@ -11,13 +11,13 @@ description: "The twenty with their scores, the technical lineages and the concl
 | **1** | **[Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})** | **A** | **96.0** | Monocoque, overall architecture, aerodynamics, ground effect programme |
 | **2** | **[John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})** | **A** | **95.0** | Carbon monocoque, semi-automatic paddle-shift gearbox |
 | **3** | **[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %})** | **A** | **93.5** | Generalisation of the mid-engine layout |
-| **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})** | **A** | **92.5** | Cosworth DFV, structural engine and competitive customer engine |
+| **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})** | **A** | **92.5** | Cosworth DFV, structural engine and revival of the competitive customer engine |
 | **5** | **[Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})** | **A** | **91.5** | Systemic aerodynamics and overall integration |
 | 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | B | 90.0 | Renault turbo, pneumatic valve springs, V10 |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | B | 88.5 | Radical architectures, BT46B, the modern pit stop |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | B | 87.5 | Integrated engineering of engine/chassis/transmission/aero |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | B | 86.5 | Causal development of Lotus ground effect |
-| 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | B | 85.0 | CAD/CAE, data, wind tunnel, active suspension |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | B | 85.0 | CAD/CAE, data, wind tunnel (by his own account), active suspension |
 | 11 | [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) | C | 83.5 | Williams architecture and systems engineering |
 | 12 | [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) | C | 82.0 | Integrated method and early development |
 | 13 | [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) | C | 81.0 | Mercedes hybrid power unit |
@@ -46,7 +46,7 @@ This table shows **intellectual lineages**, not master–pupil relationships.
 ## Three ways to be at the top
 
 - **Chapman**: multiple breakthroughs, through an accumulation of architectural ruptures.
-- **Barnard**: the clearest authorship, with two direct innovations that became universal.
+- **Barnard**: probably the clearest authorship, with two direct innovations that became universal.
 - **Newey**: the most durable adaptation, at the top of aerodynamics across several generations of regulations.
 
 This ranking is not a one-dimensional scale of “genius”. It ranks **historical capacities to shift the technical frontier of Formula 1**.
@@ -55,7 +55,7 @@ This ranking is not a one-dimensional scale of “genius”. It ranks **historic
 
 ## Further reading
 
-- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) places these breakthroughs on a timeline, from the Lancia D50 to the 2026 regulations.
+- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) places these breakthroughs on a timeline, from the 1946 Cooper 500 to the 2022 Red Bull.
 - The [technical glossary]({{ '/en/glossary/' | relative_url }}) explains the terms used: ground effect, monocoque, pneumatic valve springs…
 - The [index]({{ '/en/' | relative_url }}) also lists thirty-eight unranked entries, marked HC: the other people behind these innovations.
 

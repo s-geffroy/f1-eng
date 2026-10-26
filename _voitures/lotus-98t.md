@@ -2,7 +2,7 @@
 title: "Lotus 98T"
 nom_tri: "lotus 98t"
 accroche: "Des soupapes refermées par du gaz, et mille tours de plus."
-description: "Lotus 98T (1986) : la Lotus-Renault d'Ayrton Senna, première voiture à courir avec le rappel pneumatique des soupapes du V6 turbo Renault EF15 B ; deux victoires, en Espagne et à Détroit."
+description: "Lotus 98T (1986) : la Lotus-Renault d'Ayrton Senna, première voiture à courir, selon Renault, avec le rappel pneumatique des soupapes du V6 turbo Renault EF15 B ; deux victoires, en Espagne et à Détroit."
 annee: 1986
 equipe: "Lotus"
 moteur: "Renault EF15 B, puis EF15 C, V6 turbo de 1,5 litre"
@@ -67,4 +67,4 @@ Le moteur est l'œuvre de Renault Sport. Motor Sport attribue l'EF15 B, évoluti
 
 - **1986** : au Brésil, Senna part en pole position et finit deuxième, à 34,8 secondes de Nelson Piquet (Williams-Honda), selon Autosport. Il gagne ensuite le Grand Prix d'Espagne, à Jerez, avec 14 millièmes de seconde d'avance sur Nigel Mansell, puis celui des États-Unis, à Détroit. Il est quatrième du championnat avec 55 points ; Lotus est troisième chez les constructeurs, avec 58 points. Selon Renault, le moteur EF15 B/C totalise deux victoires, huit pole positions et huit podiums.
 - **Le châssis 98T-3**, vainqueur en Espagne et à Détroit, compte selon Motor Sport deux victoires, cinq pole positions et trois autres podiums en huit courses.
-- **La fin d'une époque.** Renault suspend ensuite son engagement en F1 ; le moteur EF15 clôt pour lui l'époque turbo. Le rappel pneumatique, lui, survit : il équipe tous les moteurs de F1 à partir des années 1990.
+- **La fin d'une époque.** Renault suspend ensuite son engagement en F1 ; le moteur EF15 clôt pour lui l'époque turbo. Le rappel pneumatique, lui, survit : selon Renault, il équipe tous les moteurs de F1 à partir des années 1990.

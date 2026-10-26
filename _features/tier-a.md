@@ -4,7 +4,7 @@ ordre: 2
 resume: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 description: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 ---
-Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear “before / after”, diffusion across the whole grid, well-documented personal causation, and an impact that goes beyond a single car or a single set of regulations.
+Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear “before / after”, diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
 
 ## Five questions transformed
 
@@ -22,7 +22,7 @@ This is the key to reading the whole ranking.
 
 ## No. 1 — Colin Chapman (96/100)
 
-Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25, the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}). The 1970 Lotus 72, with its side-mounted radiators, was co-designed by [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}), each one's share remaining disputed. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
+Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25 (layout by Chapman, detail drawing by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, riveted assembly worked out by [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})), the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}). The 1970 Lotus 72, with its side-mounted radiators, was co-designed by [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}), each one's share remaining disputed. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
 
 See the entry [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})
 

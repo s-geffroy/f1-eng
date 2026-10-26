@@ -2,7 +2,7 @@
 title: "Lotus 98T"
 nom_tri: "lotus 98t"
 accroche: "Valves closed by gas, and a thousand more revs."
-description: "Lotus 98T (1986): Ayrton Senna's Lotus-Renault, the first car to race with the pneumatic valve return of Renault's EF15 B turbo V6; two wins, in Spain and Detroit."
+description: "Lotus 98T (1986): Ayrton Senna's Lotus-Renault, the first car, according to Renault, to race with the pneumatic valve return of Renault's EF15 B turbo V6; two wins, in Spain and Detroit."
 annee: 1986
 equipe: "Lotus"
 moteur: "Renault EF15 B, then EF15 C, 1.5-litre turbo V6"
@@ -67,4 +67,4 @@ The engine was Renault Sport's work. Motor Sport credits the EF15 B, an evolutio
 
 - **1986**: in Brazil, Senna started from pole and finished second, 34.8 seconds behind Nelson Piquet (Williams-Honda), according to Autosport. He then won the Spanish Grand Prix at Jerez, by 14 thousandths of a second from Nigel Mansell, and the United States Grand Prix in Detroit. He was fourth in the championship with 55 points; Lotus were third among constructors, with 58 points. According to Renault, the EF15 B/C engine scored two wins, eight pole positions and eight podiums.
 - **Chassis 98T-3**, winner in Spain and Detroit, scored two wins, five pole positions and three further podiums in eight races, according to Motor Sport.
-- **The end of an era.** Renault then suspended its F1 involvement; for Renault, the EF15 closed the turbo era. Pneumatic valve return lived on: it was fitted to every F1 engine from the 1990s.
+- **The end of an era.** Renault then suspended its F1 involvement; for Renault, the EF15 closed the turbo era. Pneumatic valve return lived on: according to Renault, it was fitted to every F1 engine from the 1990s.

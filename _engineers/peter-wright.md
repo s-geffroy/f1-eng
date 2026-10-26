@@ -43,7 +43,7 @@ Peter Wright's high placing corrects a common bias: attributing [ground effect](
 ## After ground effect
 
 - He played a key role in the design of the twin-chassis Lotus 88.
-- His **[active suspension]({{ site.baseurl }}/en/glossary/#suspension-active)** was first used on Nigel Mansell's Lotus 92, in the first two races of 1983; in 1987 Ayrton Senna's Lotus 99T became the first F1 car with active suspension to win a Grand Prix.
+- Lotus's **[active suspension]({{ site.baseurl }}/en/glossary/#suspension-active)**, which he developed from Cranfield's work (David Williams), was first used on Nigel Mansell's Lotus 92, in the first two races of 1983; in 1987 Ayrton Senna's Lotus 99T became the first F1 car with active suspension to win a Grand Prix.
 - In 1990, he took over Team Lotus with Peter Collins, and left the team when it closed in 1994.
 - At the FIA, he contributed to the development of the HANS device and of cockpits able to withstand 60 g.
 

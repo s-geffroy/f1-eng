@@ -11,11 +11,11 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 | Rang | Ingénieur | Score | En une ligne |
 |---:|---|---:|---|
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, distribution pneumatique, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, V10 |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | 88,5 | Architectures radicales et pit-stop tactique |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | 87,5 | Ingénierie totale moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |
-| 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse |
+| 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse (selon son témoignage) |
 
 **Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
 
@@ -41,7 +41,7 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 |---:|:---:|---|---|---|---|
 | 11 | C | [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) | Ingénierie système | Architecte de l'organisation technique Williams sur plusieurs générations | Apport d'organisation plus que rupture unique |
 | 12 | C | [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) | Méthode | Développement anticipé, intégration conception/exploitation/stratégie | Révolution de processus, peu visible sur l'objet |
-| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | Power unit | Exécution exceptionnelle du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
+| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | Groupe propulseur | Exécution exceptionnelle du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
 | 14 | C | [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) | Aérodynamique | Nez relevé de la Tyrrell 019 et alimentation du plancher | Principe vite absorbé par l'évolution générale |
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |

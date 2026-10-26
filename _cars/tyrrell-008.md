@@ -55,7 +55,7 @@ Autosport spells the name "Phillippe", Racer "Philippe": the site uses the latte
 
 ## Limitations
 
-- **The fan dropped.** It never went beyond the Paul Ricard test. Brabham's fan car won in Sweden, to Ken Tyrrell's anger according to Autosport.
+- **The fan dropped.** It never went beyond the Paul Ricard test. The Brabham BT46B won in Sweden with its own fan, to Ken Tyrrell's great anger according to Autosport.
 - **Active suspension left on the shelf.** According to Racer, the camber control never made it from the test track to a grand prix: the team shelved it when ground effect arrived. Richard Jenkins, quoted by Autosport, calls it "effectively F1's first active suspension system", and Kempf believes he built "the first active suspension car". The site's glossary credits the 1983 Lotus 92, the first to race.
 - **Only one car at the front.** Didier Pironi scored points in four of his first six races, then only once more, at Hockenheim.
 

@@ -2,7 +2,7 @@
 title: "Lotus 78"
 nom_tri: "lotus 78"
 accroche: "La première F1 qui colle à la piste par son fond."
-description: "Lotus 78 (1977) : des flancs en forme de venturi font de la voiture une aile inversée ; la première F1 à effet de sol."
+description: "Lotus 78 (1977) : des flancs en forme de venturi font de la voiture une aile inversée ; la première F1 à effet de sol selon Motor Sport."
 annee: 1977
 equipe: "Team Lotus"
 moteur: "Cosworth, V8 de 3 litres"
@@ -31,7 +31,7 @@ Selon Formula 1, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet d
 
 Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium.
 
-L'idée des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du De Havilland Mosquito.
+Selon Doug Nye, l'idée du montage des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du de Havilland Mosquito. Selon le récit de Peter Wright, c'est Ralph Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
 
 ## Qui l'a conçue
 

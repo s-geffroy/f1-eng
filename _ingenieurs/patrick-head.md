@@ -34,7 +34,7 @@ Patrick Head est l'architecte de l'organisation technique Williams. Diplômé en
 
 - **FW06 (1978)** : la première Williams conçue par Head.
 - **FW07** : la voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) donne à l'équipe la première de ses 114 victoires, au Grand Prix de Grande-Bretagne 1979.
-- **1980** : la voiture de Head mène Alan Jones et Williams aux deux titres mondiaux.
+- **1980** : la Williams du bureau d'études de Head mène Alan Jones et Williams aux deux titres mondiaux.
 
 ## Du dessinateur au directeur technique
 
@@ -42,11 +42,11 @@ Head cesse ensuite de dessiner lui-même les voitures et crée le poste de **dir
 
 Après l'arrivée d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) en 1990, le binôme Head–Newey domine : de 1991 à 1997, Williams remporte 59 courses, cinq titres constructeurs et quatre titres pilotes. La FW15C de 1993 est conçue sous leur codirection technique.
 
-Selon GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}) doit devenir directeur technique et Head directeur de l'ingénierie (2004). Il quitte le conseil d'administration de Williams le 31 décembre 2011.
+Selon GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}) doit devenir directeur technique et Head directeur de l'ingénierie (2004). Head quitte le conseil d'administration de Williams le 31 décembre 2011.
 
 ## Son rôle dans l'écosystème Williams
 
-La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) ; pour la version de 1992-1993, le logiciel est en grande partie écrit par [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) ; Williams le fait revenir, sous une forme améliorée, en 1992 ; c'est Head qui recommence alors à le qualifier d'« actif ». À Head revient l'architecture d'ensemble et la direction.
+La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) ; Williams le fait revenir, sous une forme améliorée, en 1992, et c'est Head qui recommence alors à le qualifier d'« actif » ; pour cette version de 1992-1993, le logiciel est en grande partie écrit par [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}). À Head revient l'architecture d'ensemble et la direction.
 
 ## Pourquoi le Tier C
 

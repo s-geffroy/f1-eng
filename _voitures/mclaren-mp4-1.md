@@ -2,7 +2,7 @@
 title: "McLaren MP4/1"
 nom_tri: "mclaren mp4/1"
 accroche: "La coque en carbone qui a changé la construction des F1."
-description: "McLaren MP4/1 (1981) : la première F1 conçue en composite carbone, et la première voiture en carbone à gagner un Grand Prix."
+description: "McLaren MP4/1 (1981) : la première F1 à monocoque en composite carbone à courir en Grand Prix, et la première voiture en carbone à gagner un Grand Prix."
 annee: 1981
 equipe: "McLaren International"
 moteur: "Cosworth DFV, V8 de 3 litres"
@@ -53,5 +53,5 @@ McLaren la présente comme la première F1 conçue en composite carbone. Faute d
 ## Ce qu'elle laisse
 
 - **Silverstone, 1981** : John Watson gagne le Grand Prix de Grande-Bretagne. C'est la première victoire de McLaren depuis quatre ans, et la première d'une voiture en carbone.
-- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux. Il en sort indemne. « Cet accident a mis fin aux mythes sur la monocoque carbone », dit Barnard. L'aviation civile britannique lui demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone.
+- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux. Il en sort indemne. « Cet accident a mis fin aux mythes sur la monocoque carbone », dit Barnard. L'aviation civile britannique demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone.
 - Selon McLaren, la voiture lance une tendance aussi influente que la monocoque de Chapman, vingt ans plus tôt.

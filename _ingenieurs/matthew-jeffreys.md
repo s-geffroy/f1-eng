@@ -42,7 +42,7 @@ Jeffreys compare les méthodes des deux directeurs techniques qu'il a connus. Av
 
 ## Ce qu'il conteste
 
-**En 2021.** Après un entretien où Murray revendique la conception de la MP4/4, Jeffreys répond par une lettre publiée par Motor Sport en octobre 2021 : Murray et l'équipe de conception devaient vivre dans des « univers parallèles », car sa version ne correspond ni à la sienne ni à celle des anciens collègues à qui il en a parlé. L'article de James Elson qui suit, la même année, apporte d'autres éléments :
+**En 2021.** Après un entretien où Murray revendique la conception de la MP4/4, Jeffreys répond par une lettre publiée par Motor Sport en octobre 2021 : Murray et l'équipe de conception devaient vivre dans des « univers parallèles », car la version de Murray ne correspond ni à la sienne ni à celle des anciens collègues à qui il en a parlé. L'article de James Elson qui suit, la même année, apporte d'autres éléments :
 
 - les dix-sept membres de l'équipe de conception avaient déjà écrit à Martin Whitmarsh, alors nouveau directeur de McLaren, pour relever 82 inexactitudes dans le livre d'Ian Bamsey qui attribuait la voiture à Murray ;
 - Jeffreys raconte que Murray, présent au fond de la salle lors d'une conférence donnée avec Nichols à Brooklands, leur a remis à la fin deux lettres de mise en demeure leur reprochant ce qu'ils avaient dit dans le manuel Haynes de Steve Rendle, qui avait interrogé les dix-sept ;

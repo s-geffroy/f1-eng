@@ -7,7 +7,7 @@ annee: 2014
 equipe: "Mercedes"
 moteur: "Mercedes PU106, hybrid turbo V6"
 statut: "Raced in 2014; drivers' and constructors' titles"
-concepteurs: ["aldo-costa", "andy-cowell", "ross-brawn"]
+concepteurs: ["aldo-costa", "andy-cowell"]
 termes: ["groupe-propulseur-hybride", "turbocompresseur"]
 jalons: ["hybride", "rendement-50"]
 sources:
@@ -41,7 +41,7 @@ The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#t
 
 ## Who designed it
 
-- [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari in 2012 as engineering director, led the design of the car.
+- [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari at the end of 2011 as engineering director, led the design of the car.
 - The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).
 - [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. He is owed the method, not the design.
 

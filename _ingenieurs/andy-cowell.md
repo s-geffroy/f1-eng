@@ -21,7 +21,7 @@ sources:
   - titre: "ESPN, « Mercedes split-turbo design was 'bloody hard' to get right » (2016)"
     url: "https://www.espn.com/f1/story/_/id/14759128/mercedes-split-turbo-design-was-bloody-hard-get-right"
   - titre: "Autosport, « Mercedes close to breaking 1000bhp barrier with Formula 1 engine » (2017)"
-    url: "https://www.autosport.com/f1/news/133588/thisissearch"
+    url: "https://www.autosport.com/f1/news/mercedes-close-to-breaking-1000bhp-barrier-with-formula-1-engine-4989267/4989267/"
   - titre: "Formula 1, « Mercedes announce engine chief Andy Cowell is to leave the team »"
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
   - titre: "Formula 1, « Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role » (novembre 2025)"

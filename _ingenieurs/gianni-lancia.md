@@ -29,7 +29,7 @@ Gianni Lancia n'est pas un ingénieur de bureau d'études : c'est le **patron de
 
 Les deux articles de Motor Sport ne disent pas la même chose, et le site ne tranche pas.
 
-- **Doug Nye** ne lui attribue aucun travail de conception : les principes de la voiture sont ceux de Jano, le moteur est détaillé avec [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), et il attribue à Jano l'idée des réservoirs latéraux.
+- **Doug Nye** ne lui attribue aucun travail de conception : les principes de la voiture sont ceux de Jano, le moteur est détaillé avec [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), et Nye attribue à Jano l'idée des réservoirs latéraux.
 - **Chris Nixon**, qui rapporte le témoignage de Zaccone Mina, lui donne un rôle plus direct. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et la place des réservoirs sont sortis des discussions de l'équipe, « Gianni Lancia prenant les décisions finales ». Plusieurs innovations seraient nées de son « cerveau fertile », et les élégants **réservoirs latéraux**, entre les roues, sont présentés comme son idée.
 
 La formulation juste : Gianni Lancia est le commanditaire et l'arbitre final du projet, crédité par Nixon de l'idée des réservoirs latéraux, que Nye attribue au contraire à Jano. Il n'est pas le concepteur de la D50.
