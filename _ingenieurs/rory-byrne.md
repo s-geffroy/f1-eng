@@ -2,8 +2,8 @@
 title: "Byrne, Rory"
 nom_complet: "Rory Byrne"
 nom_tri: "byrne rory"
-accroche: "La performance répétée"
-description: "Rory Byrne : la performance répétée."
+accroche: "Chef designer des Ferrari de Schumacher"
+description: "Rory Byrne : chef designer des Ferrari de Schumacher."
 rang: 20
 tier: D
 score: "73,5"

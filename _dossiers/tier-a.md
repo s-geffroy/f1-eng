@@ -29,7 +29,7 @@ Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapm
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles. La **McLaren MP4/1 de 1981**, conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), est la première F1 à monocoque en composite carbone à courir en Grand Prix. La Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir. La **Ferrari 640 de 1989** introduit ensuite la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles. La **McLaren MP4/1 de 1981**, conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), est la première F1 à monocoque en composite carbone à courir en Grand Prix. La Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir. La **Ferrari 640 de 1989** introduit ensuite la boîte semi-automatique commandée au volant. Dans ce classement, c'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 
@@ -47,13 +47,13 @@ Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duc
 
 ## N° 5 — Adrian Newey (91,5/100)
 
-Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique.
+Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Ce qui le distingue, c'est la répétition, pas le coup unique.
 
 Voir l'entrée [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})
 
 ## Pourquoi Newey n'est-il pas n° 1 ?
 
-Son palmarès est immense, mais le palmarès ne compte que pour 10 %. Sa paternité est nécessairement plus distribuée dans les grandes organisations d'ingénierie modernes, et il n'est pas associé à une rupture ponctuelle comparable au carbone ou au moteur arrière. Il domine une autre catégorie : **rester au sommet de l'ingénierie aérodynamique sous plusieurs générations de règlements.**
+Son palmarès ne compte que pour 10 % dans la méthode. Sa paternité est nécessairement plus distribuée dans les grandes organisations d'ingénierie modernes, et il n'est pas associé à une rupture ponctuelle comparable au carbone ou au moteur arrière. Son dossier repose sur un autre critère : **rester au sommet de l'ingénierie aérodynamique sous plusieurs générations de règlements.**
 
 ## Chapman contre Barnard : le vrai débat
 

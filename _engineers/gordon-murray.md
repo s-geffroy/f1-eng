@@ -44,7 +44,7 @@ image: "/assets/partage/en/gordon-murray.jpg"
 ---
 ## What he changed
 
-Murray combines two qualities rarely found together: conceptual radicalism and pragmatism. Promoted to chief designer at Brabham, he produced several landmark cars there.
+Murray combines conceptual radicalism with pragmatism. Promoted to chief designer at Brabham, he produced several landmark cars there.
 
 - **The Brabham BT46B (1978)**, designed with the involvement of [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}), carries a large vertical [fan]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur) under the rear [wing]({{ site.baseurl }}/en/glossary/#aileron), officially to cool the Alfa Romeo [flat-12]({{ site.baseurl }}/en/glossary/#flat-12). It won the Swedish Grand Prix with Niki Lauda and raced only once: sources differ on how it came to be withdrawn, as the [car's page]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}) explains.
 - **The modern tactical pit stop.** [Refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement) returned in 1982 thanks to Brabham and Murray. Riccardo Patrese took on four new tyres and 24 gallons of fuel in 15.6 seconds: the first routine modern stop.

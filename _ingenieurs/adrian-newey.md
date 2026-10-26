@@ -2,8 +2,8 @@
 title: "Newey, Adrian"
 nom_complet: "Adrian Newey"
 nom_tri: "newey adrian"
-accroche: "Le génie de la répétition"
-description: "Adrian Newey : le génie de la répétition."
+accroche: "La constance au sommet"
+description: "Adrian Newey : la constance au sommet, sous plusieurs générations de règlements."
 rang: 5
 tier: A
 score: "91,5"
@@ -79,7 +79,7 @@ Il a démontré cette capacité sous plusieurs règlements et dans plusieurs éq
 - **Red Bull.** La RB5 de 2009 adopte une suspension arrière à tirants, pour resserrer la carrosserie près du fond autour du nouveau diffuseur. La RB6 de 2010 « réinvente » le diffuseur soufflé par les échappements. Selon l'équipe, ses années Red Bull comptent sept titres pilotes, six titres constructeurs et 118 victoires (en incluant celle de Toro Rosso en 2008).
 - **Aston Martin.** Il y commence le 1er mars 2025 comme associé technique directeur (managing technical partner), puis devient directeur de l'équipe pour la saison 2026.
 
-Les règlements changent, la compétence reste : le contrôle du système aérodynamique. C'est le test de robustesse historique par excellence.
+Les règlements changent, la compétence reste : le contrôle du système aérodynamique. La méthode du site en fait un test de robustesse : c'est le critère de répétition.
 
 ## Pourquoi pas n° 1 malgré le palmarès ?
 
@@ -87,7 +87,7 @@ Les règlements changent, la compétence reste : le contrôle du système aérod
 - Sa paternité est nécessairement plus distribuée dans les très grandes organisations d'ingénierie modernes.
 - Il ne porte pas une rupture unique comparable au carbone ou au moteur arrière.
 
-Il domine pourtant une catégorie à lui seul : **rester au sommet de l'ingénierie aérodynamique sous plusieurs générations de règlements.**
+Son dossier repose pourtant sur un autre critère de la méthode : **rester au sommet de l'ingénierie aérodynamique sous plusieurs générations de règlements.**
 
 ## Attribution
 
@@ -97,4 +97,4 @@ Chez Williams, par exemple, la [suspension active]({{ site.baseurl }}/glossaire/
 
 ## Verdict
 
-Le plus grand maître de l'adaptation aérodynamique répétée et de l'intégration systémique.
+Dans ce classement, la référence de l'adaptation aérodynamique répétée et de l'intégration systémique.

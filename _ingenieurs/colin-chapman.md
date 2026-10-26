@@ -78,4 +78,4 @@ La formulation juste : **Chapman a dirigé et catalysé le programme Lotus qui a
 
 ## Verdict
 
-Le plus grand architecte de ruptures multiples de l'histoire de la F1.
+N° 1 de ce classement par la largeur historique : l'architecte de ruptures multiples.

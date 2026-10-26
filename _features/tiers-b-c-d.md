@@ -12,7 +12,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 |---:|---|---:|---|
 | 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | 90.0 | Propulsion: turbo, pneumatic valve springs, V10 |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | 88.5 | Radical architectures and the tactical pit stop |
-| 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | 87.5 | Total engineering of engine/chassis/transmission/aero |
+| 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | 87.5 | Integrated engineering of engine/chassis/transmission/aero |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | 86.5 | Causal development of Lotus ground effect |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | 85.0 | Silent digital revolution (by his own account) |
 
@@ -20,9 +20,9 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 
 **Murray** combines conceptual radicalism with pragmatism: the Brabham BT46B, the Brabham architectures, the reintroduction of refuelling and tyre changes as a racing weapon, and his central role in the concept of the McLaren MP4/4, whose detail design was the work of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and his team according to Autosport. What separates him from Tier A is the uneven diffusion of some of his breakthroughs.
 
-**Forghieri** is the complete engineer: engine, transmission, chassis, suspension, aerodynamics. The Ferrari 312T and its transverse gearbox illustrate a coherent approach to mass centralisation; the flat-12 was created with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}).
+**Forghieri** worked across all the major subsystems: engine, transmission, chassis, suspension, aerodynamics. The Ferrari 312T and its transverse gearbox illustrate a coherent approach to mass centralisation; the flat-12 was created with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}).
 
-**Wright** holds a high place that corrects a common historical bias: formula1.com explicitly links Wright and Tony Rudd to the BRM and then Lotus research that led to the breakthrough of the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension, and then of the Lotus 79, sketched by Chapman and developed by Ogilvie and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}).
+**Wright** holds a high place that corrects the attribution of ground effect to Chapman alone: formula1.com explicitly links Wright and Tony Rudd to the BRM and then Lotus research that led to the breakthrough of the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension, and then of the Lotus 79, sketched by Chapman and developed by Ogilvie and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}).
 
 **Dernie** embodies the silent revolution: according to his own statements, early CAD/CAE, data acquisition, wind tunnel work and active suspension at Williams. He is ranked for transforming the engineering *process* as much as for any specific car.
 
@@ -40,7 +40,7 @@ A major place in technical history, with less exclusive causation, less general 
 |---:|:---:|---|---|---|---|
 | 11 | C | [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) | Systems engineering | Architect of Williams' technical organisation over several generations | A contribution of organisation more than a single breakthrough |
 | 12 | C | [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) | Method | Early development, integration of design/operations/strategy | A revolution of process, barely visible on the object |
-| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) | Power unit | Exceptional execution of Mercedes' 2014 hybrid power unit | Hybridisation imposed by the regulations |
+| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) | Power unit | Systems execution of Mercedes' 2014 hybrid power unit | Hybridisation imposed by the regulations |
 | 14 | C | [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}) | Aerodynamics | Raised nose of the Tyrrell 019 and feeding air to the floor | Principle quickly absorbed by general evolution |
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) | Aerodynamics | BRM research and the genesis of the ground effect programme | Direct contribution hard to isolate |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) | Engine | Co-founder of Cosworth, development and industrialisation | Authorship of the DFV harder to individualise |

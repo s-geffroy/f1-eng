@@ -47,12 +47,12 @@ Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur cent
 - **1958.** Les Cooper apportent au moteur placé derrière le pilote ses premières victoires en championnat du monde.
 - **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245ch, apporte le titre.
 - **1960.** La T53 « Lowline » permet un second doublé des titres.
-- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait un retour qui va tout changer.
+- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait son retour.
 - **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997cm³ à deux carburateurs et 55ch.
 
 John Cooper meurt la veille de Noël 2000, à 77 ans.
 
-## Pourquoi c'est une révolution maximale
+## Ce que ce changement modifie
 
 Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'architecture du châssis et la conception aérodynamique future. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960.
 
@@ -64,4 +64,4 @@ La formulation juste : **Cooper a imposé l'architecture moteur arrière avec un
 
 ## Verdict
 
-L'un des changements topologiques les plus fondamentaux de toute l'histoire de la monoplace.
+Selon la méthode du site, l'un des changements topologiques les plus fondamentaux de l'histoire de la monoplace.

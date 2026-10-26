@@ -45,7 +45,7 @@ redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
 ---
 ## Ce qu'il a changé
 
-Murray combine deux qualités rarement réunies : la radicalité conceptuelle et le pragmatisme. Promu chef designer de Brabham, il y signe plusieurs voitures qui ont fait date.
+Murray combine radicalité conceptuelle et pragmatisme. Promu chef designer de Brabham, il y signe plusieurs voitures qui ont fait date.
 
 - **La Brabham BT46B (1978)**, à la conception de laquelle participe [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}), porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo. Elle gagne le Grand Prix de Suède avec Niki Lauda et ne court qu'une fois : les sources divergent sur les circonstances de son retrait, que détaille la [fiche de la voiture]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}).
 - **Le pit-stop tactique moderne.** Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) revient en 1982 grâce à Brabham et à Murray. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine.

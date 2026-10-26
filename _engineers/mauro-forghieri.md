@@ -2,8 +2,8 @@
 title: "Forghieri, Mauro"
 nom_complet: "Mauro Forghieri"
 nom_tri: "forghieri mauro"
-accroche: "The complete engineer"
-description: "Mauro Forghieri: the complete engineer."
+accroche: "Integrated engineering at Ferrari"
+description: "Mauro Forghieri: integrated engineering at Ferrari."
 rang: 8
 tier: B
 score: "87.5"
@@ -34,7 +34,7 @@ sources:
 consultation: "25 October 2026"
 image: "/assets/partage/en/mauro-forghieri.jpg"
 ---
-## Total engineering
+## Integrated engineering
 
 On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics. In 27 years at Ferrari, he counted four drivers' titles and seven constructors' titles (Motor Sport); Autosport adds 54 Grand Prix wins.
 

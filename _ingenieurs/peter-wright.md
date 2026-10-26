@@ -32,7 +32,7 @@ redirect_from: "/ingenieurs/2026/10/25/peter-wright.html"
 ---
 ## Une correction historique
 
-La place élevée de Peter Wright corrige un biais fréquent : attribuer l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) au seul [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}). formula1.com relie explicitement Wright et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) aux recherches menées chez BRM à la fin des années 1960, puis chez Lotus, qui aboutissent aux Lotus 78 et 79.
+La place élevée de Peter Wright dans ce classement corrige une attribution : celle de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) au seul [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}). formula1.com relie explicitement Wright et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) aux recherches menées chez BRM à la fin des années 1960, puis chez Lotus, qui aboutissent aux Lotus 78 et 79.
 
 ## La chaîne de l'effet de sol
 

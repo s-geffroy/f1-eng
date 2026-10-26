@@ -2,8 +2,8 @@
 title: "Forghieri, Mauro"
 nom_complet: "Mauro Forghieri"
 nom_tri: "forghieri mauro"
-accroche: "L'ingénieur complet"
-description: "Mauro Forghieri : l'ingénieur complet."
+accroche: "L'ingénierie intégrée chez Ferrari"
+description: "Mauro Forghieri : l'ingénierie intégrée chez Ferrari."
 rang: 8
 tier: B
 score: "87,5"
@@ -35,7 +35,7 @@ consultation: "25 octobre 2026"
 image: "/assets/partage/mauro-forghieri.jpg"
 redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
-## Ingénierie totale
+## Ingénierie intégrée
 
 Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport) ; Autosport y ajoute 54 victoires en Grand Prix.
 

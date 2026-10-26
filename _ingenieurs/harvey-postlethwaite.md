@@ -27,7 +27,7 @@ image: "/assets/partage/harvey-postlethwaite.jpg"
 ---
 ## Ce qu'il a fait
 
-Harvey Postlethwaite est l'un des concepteurs les plus inventifs des années 1970 à 1990, de Hesketh à Tyrrell.
+Harvey Postlethwaite conçoit des F1 des années 1970 à 1990, de Hesketh à Tyrrell, et y introduit plusieurs innovations, de la suspension à ressorts en caoutchouc à la coque en nid d'abeille.
 
 ## Parcours technique
 

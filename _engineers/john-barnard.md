@@ -89,10 +89,10 @@ The idea of the steering-wheel paddles on the Ferrari 640 did not itself come fr
 
 ## Why number two
 
-Two **independent** breakthroughs, both of which became standards, and clearly documented direct authorship: he is probably the revolutionary with the clearest personal authorship in the whole history of F1.
+Two **independent** breakthroughs, both of which became standards, and clearly documented direct authorship: in this ranking, he is probably the revolutionary with the clearest personal authorship.
 
 He stays behind [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) on historical breadth: fewer breakthroughs, less repetition. But the gap is narrow. If the weighting for "direct authorship" were raised significantly, Barnard could move ahead.
 
 ## Verdict
 
-Chapman's main challenger, and the clearest of the revolutionaries with personal authorship.
+According to the site's method, Chapman's main challenger, and the revolutionary whose personal authorship is the clearest.

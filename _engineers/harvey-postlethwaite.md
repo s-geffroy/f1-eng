@@ -27,7 +27,7 @@ image: "/assets/partage/en/harvey-postlethwaite.jpg"
 ---
 ## What he did
 
-Harvey Postlethwaite is one of the most inventive designers of the 1970s to the 1990s, from Hesketh to Tyrrell.
+Harvey Postlethwaite designed F1 cars from the 1970s to the 1990s, from Hesketh to Tyrrell, introducing several innovations along the way, from rubber-spring suspension to the honeycomb tub.
 
 ## Technical career
 

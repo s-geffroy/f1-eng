@@ -13,7 +13,7 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 |---:|---|---:|---|
 | 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, V10 |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | 88,5 | Architectures radicales et pit-stop tactique |
-| 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | 87,5 | Ingénierie totale moteur/châssis/transmission/aéro |
+| 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse (selon son témoignage) |
 
@@ -21,9 +21,9 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 **Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et son rôle central dans le concept de la McLaren MP4/4, dont le dessin de détail revient à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et à son équipe selon Autosport. Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
 
-**Forghieri** est l'ingénieur complet : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
+**Forghieri** couvre tous les grands sous-systèmes : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
 
-**Wright** occupe une place élevée qui corrige un biais historique fréquent : formula1.com relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions, puis de la Lotus 79, esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
+**Wright** occupe une place élevée qui corrige l'attribution de l'effet de sol au seul Chapman : formula1.com relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions, puis de la Lotus 79, esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
 
 **Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 
@@ -41,7 +41,7 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 |---:|:---:|---|---|---|---|
 | 11 | C | [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) | Ingénierie système | Architecte de l'organisation technique Williams sur plusieurs générations | Apport d'organisation plus que rupture unique |
 | 12 | C | [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) | Méthode | Développement anticipé, intégration conception/exploitation/stratégie | Révolution de processus, peu visible sur l'objet |
-| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | Groupe propulseur | Exécution exceptionnelle du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
+| 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) | Groupe propulseur | Exécution systémique du groupe propulseur Mercedes hybride 2014 | Hybridation imposée par le règlement |
 | 14 | C | [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) | Aérodynamique | Nez relevé de la Tyrrell 019 et alimentation du plancher | Principe vite absorbé par l'évolution générale |
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |

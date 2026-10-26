@@ -2,8 +2,8 @@
 title: "Newey, Adrian"
 nom_complet: "Adrian Newey"
 nom_tri: "newey adrian"
-accroche: "The genius of repetition"
-description: "Adrian Newey: the genius of repetition."
+accroche: "Consistency at the top"
+description: "Adrian Newey: consistency at the top, through several generations of regulations."
 rang: 5
 tier: A
 score: "91.5"
@@ -78,7 +78,7 @@ He has demonstrated this ability under several sets of regulations and in severa
 - **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser. The 2010 RB6 "reinvented" the exhaust-blown diffuser. According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008).
 - **Aston Martin.** He started there on 1 March 2025 as managing technical partner, then became team principal for the 2026 season.
 
-The regulations change, the skill remains: control of the aerodynamic system. It is the historical robustness test par excellence.
+The regulations change, the skill remains: control of the aerodynamic system. The site's method treats this as a robustness test: the repetition criterion.
 
 ## Why not number one despite his record?
 
@@ -86,7 +86,7 @@ The regulations change, the skill remains: control of the aerodynamic system. It
 - His authorship is necessarily more distributed within the very large engineering organisations of today.
 - He does not carry a single breakthrough comparable to carbon or the rear engine.
 
-Yet he dominates a category on his own: **staying at the top of aerodynamic engineering through several generations of regulations.**
+Yet his case rests on another criterion of the method: **staying at the top of aerodynamic engineering through several generations of regulations.**
 
 ## Attribution
 
@@ -96,4 +96,4 @@ At Williams, for example, [active suspension]({{ site.baseurl }}/en/glossary/#su
 
 ## Verdict
 
-The greatest master of repeated aerodynamic adaptation and systemic integration.
+In this ranking, the benchmark for repeated aerodynamic adaptation and systemic integration.

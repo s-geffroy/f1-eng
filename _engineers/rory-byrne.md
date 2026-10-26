@@ -2,8 +2,8 @@
 title: "Byrne, Rory"
 nom_complet: "Rory Byrne"
 nom_tri: "byrne rory"
-accroche: "Performance, repeated"
-description: "Rory Byrne: performance, repeated."
+accroche: "Chief designer of Schumacher's Ferraris"
+description: "Rory Byrne: chief designer of Schumacher's Ferraris."
 rang: 20
 tier: D
 score: "73.5"

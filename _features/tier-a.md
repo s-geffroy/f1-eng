@@ -28,7 +28,7 @@ See the entry [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman
 
 ## No. 2 — John Barnard (95/100)
 
-Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. Barnard is probably the revolutionary whose personal authorship is the clearest.
+Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. In this ranking, Barnard is probably the revolutionary whose personal authorship is the clearest.
 
 See the entry [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})
 
@@ -46,13 +46,13 @@ See the entry [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckw
 
 ## No. 5 — Adrian Newey (91.5/100)
 
-There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. His genius is repetition, not the one-off stroke.
+There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. What sets him apart is repetition, not the one-off stroke.
 
 See the entry [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})
 
 ## Why isn't Newey number one?
 
-His record is immense, but results count for only 10%. His authorship is necessarily more distributed within the large engineering organisations of today, and he is not associated with a one-off breakthrough comparable to carbon or the rear engine. He dominates a different category: **staying at the top of aerodynamic engineering across several generations of regulations.**
+His record counts for only 10% in the method. His authorship is necessarily more distributed within the large engineering organisations of today, and he is not associated with a one-off breakthrough comparable to carbon or the rear engine. His case rests on a different criterion: **staying at the top of aerodynamic engineering across several generations of regulations.**
 
 ## Chapman versus Barnard: the real debate
 

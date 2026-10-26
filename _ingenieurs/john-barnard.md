@@ -90,10 +90,10 @@ L'idée des palettes au volant de la Ferrari 640 ne vient pas de lui : Barnard r
 
 ## Pourquoi le n° 2
 
-Deux ruptures **indépendantes**, toutes deux devenues des standards, et une paternité directe nettement documentée : c'est probablement le révolutionnaire dont la paternité personnelle est la plus claire de toute l'histoire de la F1.
+Deux ruptures **indépendantes**, toutes deux devenues des standards, et une paternité directe nettement documentée : dans ce classement, c'est probablement le révolutionnaire dont la paternité personnelle est la plus claire.
 
 Il reste derrière [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) par la largeur historique : moins de ruptures, moins de répétition. Mais l'écart est mince. Si la pondération « paternité directe » augmentait sensiblement, Barnard pourrait passer devant.
 
 ## Verdict
 
-Le principal challenger de Chapman, et le plus net des révolutionnaires à paternité personnelle.
+Selon la méthode du site, le principal challenger de Chapman, et le révolutionnaire dont la paternité personnelle est la plus nette.

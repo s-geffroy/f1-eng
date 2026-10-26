@@ -31,7 +31,7 @@ image: "/assets/partage/en/peter-wright.jpg"
 ---
 ## A historical correction
 
-Peter Wright's high placing corrects a common bias: attributing [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) to [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) alone. formula1.com explicitly links Wright and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to the research carried out at BRM at the end of the 1960s, then at Lotus, which led to the Lotus 78 and 79.
+Peter Wright's high placing in this ranking corrects an attribution: that of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) to [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) alone. formula1.com explicitly links Wright and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to the research carried out at BRM at the end of the 1960s, then at Lotus, which led to the Lotus 78 and 79.
 
 ## The ground effect chain
 

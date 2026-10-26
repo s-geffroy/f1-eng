@@ -77,4 +77,4 @@ The accurate wording: **Chapman led and catalysed the Lotus programme that made 
 
 ## Verdict
 
-The greatest architect of multiple breakthroughs in F1 history.
+Number one in this ranking on historical breadth: the architect of multiple breakthroughs.
