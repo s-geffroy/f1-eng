@@ -59,7 +59,7 @@ redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
 
 ## Pas d'« invention Newey »
 
-Newey est moins facile à associer à une invention ponctuelle que Barnard avec le carbone ou Cooper avec le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Son apport est un changement de **méthode systémique** :
+Newey est moins facile à associer à une invention ponctuelle que [Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) avec le carbone ou [Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) avec le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Son apport est un changement de **méthode systémique** :
 
 > concevoir la monoplace comme un système aérodynamique intégré, dans lequel suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux.
 

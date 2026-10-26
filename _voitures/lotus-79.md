@@ -33,7 +33,7 @@ La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré 
 
 - Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé. Les radiateurs d'eau et d'huile vont à l'entrée des flancs. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi).
 - Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes et souples de la 78. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration.
-- La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de Chapman et ne fait guère que porter les flancs.
+- La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et ne fait guère que porter les flancs.
 
 Présentée au public, la voiture noire est surnommée « Black Beauty ».
 

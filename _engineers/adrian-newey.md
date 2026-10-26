@@ -58,7 +58,7 @@ image: "/assets/partage/en/adrian-newey.jpg"
 
 ## No "Newey invention"
 
-Newey is harder to associate with a one-off invention than Barnard with carbon or Cooper with the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). His contribution is a change of **systemic method**:
+Newey is harder to associate with a one-off invention than [Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) with carbon or [Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) with the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). His contribution is a change of **systemic method**:
 
 > designing the single-seater as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging serve overall control of the airflow.
 

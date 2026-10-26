@@ -48,7 +48,7 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 ## Technical career
 
 - A former Imperial College student, he joined Lotus in 1957 as a transmission development engineer, and left after a few months.
-- He founded Cosworth in 1958 with [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), whom Chapman kept under contract at Lotus until 1962.
+- He founded Cosworth in 1958 with [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), whom [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) kept under contract at Lotus until 1962.
 - His reworking of the Ford 105E engine dominated Formula Junior. In 1966, the FVA four-cylinder, his first clean-sheet design, rewrote the Formula 2 record books.
 - In the autumn of 1965, Ford ordered two racing engines from Cosworth and funded development of the V8 to the tune of £100,000. The engine was quoted at over 400 hp at 9,000 rpm.
 - He sold Cosworth to UEI in 1980; Costin succeeded him as chairman in 1988.

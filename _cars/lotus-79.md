@@ -33,7 +33,7 @@ The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated 
 
 - The fuel, carried in the sidepods on the 78, moved behind the driver, who was moved forward. The water and oil radiators went to the front of the sidepods. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel.
 - Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short, flexible skirts of the 78. According to Motor Sport, it was with these that the 79 began to generate real suction.
-- The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to Chapman's requirements and did little more than carry the sidepods.
+- The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s requirements and did little more than carry the sidepods.
 
 When it was shown to the public, the black car was nicknamed "Black Beauty".
 
