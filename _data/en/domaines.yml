@@ -1,0 +1,20 @@
+# Families of the index "Field" filter. The entries' domaine field stays precise (panel);
+# the filter groups its values into families, aligned with the timeline lanes.
+- id: "architecture"
+  nom: "Architecture"
+  valeurs: ["Architecture", "Architecture and race strategy", "Integrated engineering"]
+- id: "chassis"
+  nom: "Chassis"
+  valeurs: ["Chassis", "Chassis and aerodynamic integration"]
+- id: "aero"
+  nom: "Aerodynamics"
+  valeurs: ["Aerodynamics"]
+- id: "moteur"
+  nom: "Engine"
+  valeurs: ["Engine", "Power unit"]
+- id: "transmission"
+  nom: "Transmission and electronics"
+  valeurs: ["Materials and transmission", "Electronics and software"]
+- id: "methode"
+  nom: "Method and organisation"
+  valeurs: ["Method", "Systems engineering", "Digital and data"]

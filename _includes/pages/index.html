@@ -22,7 +22,6 @@
   </div>
 
   {%- comment -%} Filtres : masqués sans JavaScript, l'index reste alors complet. {%- endcomment -%}
-  {%- assign domaines = C | map: "domaine" | uniq | sort -%}
   <form class="filtres" id="filtres" role="search" hidden
         data-aucun="{{ T.index.aucun }}" data-une="{{ T.index.une }}" data-plusieurs="{{ T.index.plusieurs }}">
     <div class="filtre filtre-texte">
@@ -43,8 +42,8 @@
       <label for="f-domaine">{{ T.l.domaine }}</label>
       <select id="f-domaine">
         <option value="">{{ T.index.tous_domaines }}</option>
-        {%- for d in domaines %}
-        <option value="{{ d }}">{{ d }}</option>
+        {%- for f in D.domaines %}
+        <option value="{{ f.id }}">{{ f.nom }}</option>
         {%- endfor %}
       </select>
     </div>
@@ -56,7 +55,9 @@
     <h3 class="lettre">{{ g.name | upcase }}</h3>
     <ul>
       {%- for e in g.items %}
-      <li data-tier="{{ e.tier | default: 'HC' }}" data-domaine="{{ e.domaine }}" data-texte="{{ e.title }} {{ e.nom_complet }} {{ e.domaine }} {{ e.accroche }} {{ e.content | strip_html | normalize_whitespace | escape }}">
+      {%- assign famille = "" -%}
+      {%- for f in D.domaines -%}{%- if f.valeurs contains e.domaine -%}{%- assign famille = f.id -%}{%- endif -%}{%- endfor %}
+      <li data-tier="{{ e.tier | default: 'HC' }}" data-domaine="{{ famille }}" data-texte="{{ e.title }} {{ e.nom_complet }} {{ e.domaine }} {{ e.accroche }} {{ e.content | strip_html | normalize_whitespace | escape }}">
         <a class="ligne" href="{{ e.url | relative_url }}">
           <span class="ligne-nom">{{ e.title }}</span>
           <span class="ligne-conduite" aria-hidden="true"></span>

@@ -1,0 +1,20 @@
+# Familles du filtre « Domaine » de l'index. Le champ domaine des entrees reste precis (cartouche) ;
+# le filtre regroupe ses valeurs en familles, alignees sur les voies de la chronologie.
+- id: architecture
+  nom: Architecture
+  valeurs: ["Architecture", "Architecture et stratégie de course", "Ingénierie intégrée"]
+- id: chassis
+  nom: Châssis
+  valeurs: ["Châssis", "Intégration châssis et aérodynamique"]
+- id: aero
+  nom: Aérodynamique
+  valeurs: ["Aérodynamique"]
+- id: moteur
+  nom: Moteur
+  valeurs: ["Moteur", "Groupe propulseur"]
+- id: transmission
+  nom: Transmission et électronique
+  valeurs: ["Matériaux et transmission", "Électronique et logiciel"]
+- id: methode
+  nom: Méthode et organisation
+  valeurs: ["Méthode", "Ingénierie système", "Numérique et données"]

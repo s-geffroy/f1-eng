@@ -168,6 +168,13 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
             for s in lien.get("sources") or []:
                 if not s.get("titre") or not str(s.get("url", "")).startswith("http"):
                     err(f"{rep_data}/lignees.yml : {l['id']}, étape {i + 1} : source incomplète")
+    # chaque valeur de domaine appartient a une famille du filtre de l'index
+    familles = charger_yaml(f"{rep_data}/domaines.yml") if os.path.exists(f"{rep_data}/domaines.yml") else []
+    valeurs = {v for fam in familles or [] for v in fam.get("valeurs", [])}
+    for f in sorted(os.listdir(coll)):
+        fm = corps_par_page.get(f"{coll}/{f}", (None, ""))[0]
+        if fm and fm.get("domaine") and fm["domaine"] not in valeurs:
+            err(f"{coll}/{f} : domaine « {fm['domaine']} » absent de {rep_data}/domaines.yml (filtre de l'index)")
     # le champ lignees des entrees et les etapes des lignees disent la meme chose
     membres = {l["id"]: {e for et in l["etapes"] if isinstance(et, dict) for e in (et.get("entrees") or [])} for l in lignees or []}
     for f in sorted(os.listdir(coll)):
