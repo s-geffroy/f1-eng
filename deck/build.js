@@ -793,7 +793,9 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
   });
 
   // contexte : tous les événements (le PDF ne se filtre pas), couleur et forme de leur catégorie
-  const ctx = ranger(chrono.contexte || []).map(c => ({ ...c, cy: yR + hR + 0.2 + c.rang * pas, couleur: CTX[c.categorie][0] }));
+  // rangées plus serrées que pour les innovations : le contexte en compte cinq, et ses étiquettes vont dessous
+  const pasCtx = 0.22;
+  const ctx = ranger(chrono.contexte || []).map(c => ({ ...c, cy: yR + hR + 0.2 + c.rang * pasCtx, couleur: CTX[c.categorie][0] }));
   ctx.forEach(c => s.addShape(pres.shapes.LINE, { x: X(c.annee), y: yR + hR, w: 0, h: c.cy - yR - hR, line: { color: c.couleur, width: 0.5 } }));
   const ETIQ_CTX = EN
     ? { "championnat-1950": "First championship", "formule-3-litres": "3-litre formula", "interdiction-ailerons-hauts": "High wings banned",
@@ -802,7 +804,8 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
     : { "championnat-1950": "Premier championnat", "formule-3-litres": "Formule 3 litres", "interdiction-ailerons-hauts": "Ailerons hauts interdits",
       "fin-des-jupes": "Fin des jupes", "fin-du-turbo": "Fin du turbo", "imola-1994": "Imola", "honda-brawn-2008": "Départ de Honda",
       "halo": "Halo", "reglement-2026": "Nouveau règlement" };
-  etiquettes(ctx, ETIQ_CTX, yBas - 0.55, false);
+  // étiquettes sous la rangée la plus basse du contexte, au fond du cadre
+  etiquettes(ctx, ETIQ_CTX, yBas - 0.25, false);
   ctx.forEach(c => s.addShape(CTX[c.categorie][1], { x: X(c.annee) - d / 2, y: c.cy - d / 2, w: d, h: d, fill: { color: c.couleur }, line: { color: C.white, width: 0.75 } }));
 
   // légende
