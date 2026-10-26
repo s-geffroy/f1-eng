@@ -295,8 +295,8 @@
       g.appendChild(txt);
       poses.push({ g: g, trait: trait, txt: txt, w: txt.getBBox().width + 10, h: txt.getBBox().height + 4 });
     });
-    // empilement : chaque pastille part de l'axe et s'en écarte d'un cran tant qu'elle en chevauche
-    // une autre ; elle reste posée sur sa courbe, à la hauteur retenue
+    // empilement : chaque pastille part de l'axe et s'en écarte d'un cran tant qu'elle chevauche une autre
+    // pastille ou un repère ; elle reste posée sur sa courbe, à la hauteur retenue
     var axe = (plan.querySelector(".frise-innovations").getBoundingClientRect().bottom + plan.querySelector(".frise-contexte").getBoundingClientRect().top) / 2 - base.top;
     function xSur(trait, y) {
       var n = trait.getTotalLength(), mieux = null;
@@ -306,16 +306,25 @@
       }
       return mieux.x;
     }
+    // obstacles : les repères affichés et l'étiquette du repère ouvert, que les pastilles ne doivent pas couvrir
+    function boite(e) {
+      var b = e.getBoundingClientRect();
+      return { x: b.left - base.left, y: b.top - base.top, w: b.width, h: b.height };
+    }
+    var obstacles = reperes.filter(visible).map(boite);
+    reperes.forEach(function (r) {
+      if (r.dataset.id === courant) obstacles.push(boite(r.querySelector(".jalon-etiquette")));
+    });
     var places = [];
     poses.forEach(function (p) {
-      for (var i = 0; i < 40; i++) {
+      for (var i = 0; i < 80; i++) {
         var cran = Math.ceil(i / 2) * (i % 2 ? -1 : 1);
         var y = axe + cran * (p.h + 3), x = xSur(p.trait, y);
         var r = { x: Math.min(Math.max(x - p.w / 2, 2), base.width - p.w - 2), y: y - p.h / 2, w: p.w, h: p.h };
-        var libre = places.every(function (q) {
+        var libre = r.y >= 2 && r.y + r.h <= base.height - 2 && places.concat(obstacles).every(function (q) {
           return r.x + r.w + 4 <= q.x || q.x + q.w + 4 <= r.x || r.y + r.h + 2 <= q.y || q.y + q.h + 2 <= r.y;
         });
-        if (libre || i === 39) break;
+        if (libre || i === 79) break;
       }
       places.push(r);
       p.txt.setAttribute("x", r.x + r.w / 2); p.txt.setAttribute("y", r.y + r.h / 2);
