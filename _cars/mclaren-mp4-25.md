@@ -54,4 +54,4 @@ Chief engineer Tim Goss and chief aerodynamicist Doug McKiernan collected the Pi
 
 - **2010**: five wins, shared between Lewis Hamilton and Jenson Button. McLaren finished second among constructors, with 454 points to Red Bull's 498.
 - The F-duct was replaced in 2011 by hydraulically operated [DRS]({{ site.baseurl }}/en/glossary/#drs).
-- In 2012 Mercedes raced a variation of it, linked to its DRS. Ross Brawn argued at the time that it could not be illegal, since F-ducts had never been properly defined.
+- In 2012 Mercedes raced a variation of it, linked to its DRS. [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) argued at the time that it could not be illegal, since F-ducts had never been properly defined.

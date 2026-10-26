@@ -54,4 +54,4 @@ L'ingénieur en chef Tim Goss et l'aérodynamicien en chef Doug McKiernan reçoi
 
 - **2010** : cinq victoires, partagées entre Lewis Hamilton et Jenson Button. McLaren finit deuxième chez les constructeurs, avec 454 points contre 498 à Red Bull.
 - Le F-duct est remplacé en 2011 par le [DRS]({{ site.baseurl }}/glossaire/#drs), à commande hydraulique.
-- En 2012, Mercedes en court une variante, liée à son DRS. Ross Brawn juge alors qu'elle ne peut pas être illégale, puisque le F-duct n'avait jamais été défini correctement.
+- En 2012, Mercedes en court une variante, liée à son DRS. [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) juge alors qu'elle ne peut pas être illégale, puisque le F-duct n'avait jamais été défini correctement.

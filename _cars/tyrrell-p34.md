@@ -9,7 +9,7 @@ moteur: "Ford Cosworth DFV"
 statut: "Raced in 1976 and 1977; one win, at the 1976 Swedish Grand Prix"
 concepteurs: ["derek-gardner"]
 termes: ["appui"]
-jalons: ["tyrrell-p34"]
+jalons: ["tyrrell-p34", "donnees-tyrrell"]
 sources:
   - titre: "Nigel Roebuck, Motor Sport Magazine, “P34: The real story behind Tyrrell's incredible six-wheeler F1 car” (February 2011)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
   - titre: "Formula 1, “1976 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/1976/team"
+  - titre: "Mark Glendenning, Racer, “Tales of the tape: Early adventures in F1 data logging” (April 2024)"
+    url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
 photo:
   fichier: "/assets/voitures/tyrrell-p34.jpg"
   legende: "Jody Scheckter in the Tyrrell P34 at the Nürburgring's south hairpin, 31 July 1976."
@@ -53,5 +55,5 @@ The first prototype used the rear end of the 1975 Tyrrell 007. Gardner left the 
 ## Legacy
 
 - **1976**: debut at the Spanish Grand Prix at Jarama, the fourth round; Patrick Depailler qualified behind only Hunt and Lauda. On 13 June at Anderstorp, Scheckter took the car's only pole and won ahead of Depailler. According to Motor Sport, one or other driver reached the podium ten times in thirteen races. Scheckter finished third in the championship, Depailler fourth, and Tyrrell third among constructors, with 71 points.
-- **1977**: one second place and three thirds. Depailler and Ronnie Peterson finished tenth and fourteenth.
+- **1977**: one second place and three thirds. Depailler and Ronnie Peterson finished tenth and fourteenth. In testing at Silverstone, Karl Kempf, from Goodyear's racing division, fitted the car with sensors and went through the data with Derek Gardner; in his words, even detailed measurements “couldn't save it”.
 - In 1978 the Tyrrell 008 went back to four wheels; the governing body then banned six-wheelers.

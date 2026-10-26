@@ -169,9 +169,9 @@ fr:
     sans_js: "La recherche nécessite JavaScript. L'index, le glossaire et la chronologie restent consultables sans lui."
   voitures:
     titre_page: "Voitures"
-    description: "Les monoplaces qui ont marqué l'histoire technique de la F1, de la Lancia D50 à la Red Bull RB18, reliées à leurs concepteurs."
+    description: "Les monoplaces qui ont marqué l'histoire technique de la F1, du prototype Cooper 500 à la Red Bull RB18, reliées à leurs concepteurs."
     titre: "Les voitures qui ont fait date"
-    accroche: "Vingt-trois monoplaces, de 1954 à 2022, chacune liée aux ingénieurs qui l'ont conçue, aux termes du glossaire et aux jalons de la chronologie. Une sélection liée aux innovations de la frise, pas un catalogue des monoplaces."
+    accroche: "Trente-trois monoplaces, de 1946 à 2022, chacune liée aux ingénieurs qui l'ont conçue, aux termes du glossaire et aux jalons de la chronologie. Une sélection liée aux innovations de la frise, pas un catalogue des monoplaces."
     sans_photo: "Pas de photo libre connue"
   p404:
     titre: "Page introuvable"
@@ -344,9 +344,9 @@ en:
     sans_js: "Search needs JavaScript. The index, glossary and timeline remain available without it."
   voitures:
     titre_page: "Cars"
-    description: "The single-seaters that marked the technical history of F1, from the Lancia D50 to the Red Bull RB18, linked to their designers."
+    description: "The single-seaters that marked the technical history of F1, from the Cooper 500 prototype to the Red Bull RB18, linked to their designers."
     titre: "The cars that made history"
-    accroche: "Twenty-three single-seaters from 1954 to 2022, each linked to the engineers who designed it, to the glossary and to the timeline. A selection tied to the innovations on the timeline, not a catalogue of single-seaters."
+    accroche: "Thirty-three single-seaters from 1946 to 2022, each linked to the engineers who designed it, to the glossary and to the timeline. A selection tied to the innovations on the timeline, not a catalogue of single-seaters."
     sans_photo: "No free photo known"
   p404:
     titre: "Page not found"

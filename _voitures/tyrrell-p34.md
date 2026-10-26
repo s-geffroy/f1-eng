@@ -9,7 +9,7 @@ moteur: "Ford Cosworth DFV"
 statut: "A couru en 1976 et 1977 ; une victoire, au Grand Prix de Suède 1976"
 concepteurs: ["derek-gardner"]
 termes: ["appui"]
-jalons: ["tyrrell-p34"]
+jalons: ["tyrrell-p34", "donnees-tyrrell"]
 sources:
   - titre: "Nigel Roebuck, Motor Sport Magazine, « P34: The real story behind Tyrrell's incredible six-wheeler F1 car » (février 2011)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four"
@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
   - titre: "Formula 1, « 1976 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1976/team"
+  - titre: "Mark Glendenning, Racer, « Tales of the tape: Early adventures in F1 data logging » (avril 2024)"
+    url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
 photo:
   fichier: "/assets/voitures/tyrrell-p34.jpg"
   legende: "Jody Scheckter sur la Tyrrell P34 dans l'épingle sud du Nürburgring, le 31 juillet 1976."
@@ -53,5 +55,5 @@ Le premier prototype garde l'arrière de la Tyrrell 007 de 1975. Gardner quitte 
 ## Ce qu'elle laisse
 
 - **1976** : débuts au Grand Prix d'Espagne, à Jarama, quatrième manche ; Patrick Depailler s'y qualifie derrière Hunt et Lauda seulement. Le 13 juin, à Anderstorp, Scheckter signe la seule pole de la voiture et gagne devant Depailler. Selon Motor Sport, l'un ou l'autre pilote monte sur le podium dix fois en treize courses. Scheckter finit troisième du championnat, Depailler quatrième, et Tyrrell troisième chez les constructeurs, avec 71 points.
-- **1977** : un deuxième et trois troisièmes places. Depailler et Ronnie Peterson finissent dixième et quatorzième.
+- **1977** : un deuxième et trois troisièmes places. Depailler et Ronnie Peterson finissent dixième et quatorzième. En essais à Silverstone, Karl Kempf, de la division course de Goodyear, équipe la voiture de capteurs et dépouille les mesures avec Derek Gardner ; selon lui, même des mesures détaillées « n'ont pas pu la sauver ».
 - En 1978, la Tyrrell 008 revient à quatre roues ; la fédération interdit ensuite les six-roues.

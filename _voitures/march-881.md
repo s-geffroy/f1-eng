@@ -1,0 +1,48 @@
+---
+title: "March 881"
+nom_tri: "march 881"
+accroche: "Moins de puissance, donc plus d'aérodynamique."
+description: "March 881 (1988) : la première F1 d'Adrian Newey, atmosphérique face aux turbos, avec un ensemble nez-aileron avant intégré et creusé dessous pour alimenter le plancher."
+annee: 1988
+equipe: "March (Leyton House)"
+moteur: "Judd, atmosphérique (environ 580 ch selon Formula 1)"
+statut: "A couru en 1988 et au début de 1989 ; aucune victoire ; deuxième place de Capelli au Grand Prix du Portugal 1988"
+concepteurs: ["adrian-newey"]
+termes: ["aileron", "nez-releve", "appui"]
+jalons: ["march-881"]
+sources:
+  - titre: "Marcus Simmons, Motor Sport Magazine, « Marching to civil war » (juin 2005)"
+    url: "https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war"
+  - titre: "Edd Straw, Formula 1, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+    url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+  - titre: "Russell Campbell, Goodwood, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)"
+    url: "https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/"
+  - titre: "Formula 1, « 1988 Team Standings » (résultats officiels)"
+    url: "https://www.formula1.com/en/results/1988/team"
+consultation: "26 octobre 2026"
+image: "/assets/partage/voitures/march-881.jpg"
+---
+## Ce qu'elle change
+
+En 1988, March revient en F1 avec un moteur atmosphérique Judd d'environ 580 ch, face à des turbos bien plus puissants. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands.
+
+La 881 traite l'avant autrement. Jusque-là, selon Formula 1, la règle était un nez volumineux encadré de deux volets séparés. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal. Le dessous du nez est creusé : la dépression qui s'y forme assure un écoulement propre sous l'aileron, et donc vers le plancher.
+
+Formula 1 en fait « en pratique le prototype » de la F1 conçue par l'aérodynamique, et le début conceptuel de l'ère du [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve). La voiture inaugure aussi, selon la même source, les dérives d'aileron plus travaillées en trois dimensions.
+
+**Un point de divergence.** Newey affirme à Motor Sport que la 881, et non la Tyrrell de 1990, a été la première F1 à nez relevé : « nous avons relevé le dessous du nez et cherché à en faire un prolongement de l'aileron avant ». Goodwood parle aussi d'un nez relevé. Formula 1 est plus nuancé : la 881 ouvre l'ère du nez relevé par ses objectifs, « même si le nez de la March était lui-même plat ». Le site retient la Tyrrell 019 comme première voiture à nez relevé, et la 881 comme l'étape qui la précède.
+
+## Qui l'a conçue
+
+[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), qui revient chez March après avoir été ingénieur de course de Mario Andretti en IndyCar. C'est sa première F1. Les sources consultées ne nomment pas les autres membres du bureau d'études. Le moteur est l'œuvre de John Judd, qui l'a dérivé, avec l'autorisation de Honda, d'un dessin Honda. L'équipe est financée par Akira Akagi, qui promeut alors sa marque Leyton House.
+
+## Limites
+
+- **Un habitacle trop étroit.** Newey dessine la voiture autour du petit gabarit d'Ivan Capelli. Celui-ci fixe lui-même la cote dans la maquette, mais se retrouve à l'étroit une fois au volant ; « notre inexpérience et la sienne », dit Newey. Le second pilote, Maurício Gugelmin, plus grand et plus massif, s'y loge plus mal encore.
+- **Le sous-virage.** La voiture souffre au départ d'un sous-virage à basse vitesse, en milieu de virage, corrigé en cours de saison.
+
+## Ce qu'elle laisse
+
+- **1988** : aucune victoire. Capelli finit deuxième au Grand Prix du Portugal ; au Portugal puis en Espagne, il dépasse la McLaren d'Ayrton Senna. Au Japon, il passe brièvement devant Alain Prost sur la ligne, au 16e tour. Capelli est septième du championnat. March, sixième des constructeurs avec 22 points, devance Williams, l'autre équipe motorisée par Judd (20 points).
+- **1989** : Gugelmin finit troisième au Brésil sur l'ancienne 881, avant l'arrivée de la CG891.
+- En 1990, la Leyton House CG901 de Newey reprend la démarche avec un nez fortement relevé.
