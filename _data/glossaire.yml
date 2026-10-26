@@ -15,6 +15,22 @@
     url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
   - titre: Motor Sport Magazine, « Something in the air » (juillet 2014)
     url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
+- id: portance
+  terme: Portance
+  motifs:
+  - portance
+  definition: 'Force aérodynamique verticale dirigée vers le haut : le contraire de l''appui. C''est elle qui fait voler un avion ; une F1 monte ses ailerons à l''envers pour produire de l''appui à la place. Une roue exposée au vent engendre elle aussi de la portance, d''autant plus qu''elle est grande : selon Motor Sport, c''est la raison des quatre petites roues avant de la Tyrrell P34.'
+  entrees:
+  - derek-gardner
+  sources:
+  - titre: Formula 1, glossaire F-J
+    url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
+  - titre: 'Formula 1, « F1 EXPLAINS: Downforce and why F1 cars have wings – with McLaren Aero Specialist Emel Cankaya » (octobre 2024)'
+    url: https://www.formula1.com/en/latest/article/f1-explains-downforce-and-why-f1-cars-have-wings-with-mclaren-aero.10xj8CJPz8s7CmwfoyWmCU
+  - titre: 'Motor Sport Magazine, Nigel Roebuck, « P34: The real story behind Tyrrell''s incredible six-wheeler F1 car » (février 2011)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2011/74/when-six-worked-better-four
+
+# --- a inserer apres « voiture-aile » (avant « chassis »)
 - id: effet-de-sol
   terme: Effet de sol
   motifs:
@@ -91,6 +107,48 @@
     url: https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/
   - titre: 'Motor Sport Magazine, « Lotus 78: F1''s first true ground effect car » (février 2020)'
     url: https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2
+- id: pontons
+  terme: Pontons
+  motifs:
+  - pontons
+  - ponton
+  definition: 'Volumes profilés placés de part et d''autre du cockpit. Ils abritent les radiateurs qui refroidissent le moteur et des structures qui protègent le pilote des chocs latéraux, et leur forme guide l''écoulement de l''air. La Lotus 72 de 1970 y loge ses radiateurs, qui quittent le nez ; sur la Lotus 79, leur forme intérieure dessine le canal en venturi de l''effet de sol, fermé au sol par des jupes.'
+  entrees:
+  - peter-wright
+  - maurice-philippe
+  - colin-chapman
+  - ralph-bellamy
+  sources:
+  - titre: Formula 1, glossaire P-T
+    url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
+  - titre: Classic Team Lotus, « Lotus 72 50th birthday » (2020)
+    url: https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/
+  - titre: 'Formula 1, « TECH TUESDAY: The Lotus 79, F1''s ground effect marvel »'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw
+
+# --- a inserer apres « pontons » (avant « monocoque »)
+- id: chassis
+  terme: Châssis
+  motifs:
+  - architecture du châssis
+  - conception du châssis
+  - intégration du châssis
+  definition: 'Structure principale de la voiture, sur laquelle tout le reste est monté ou fixé. Jusqu''au début des années 1960, c''est un cadre de tubes ; dans une F1 moderne, c''est la monocoque en composite carbone, cellule de survie du pilote, surnommée « baignoire ». La carrosserie, elle, regroupe les pièces fixées à l''extérieur, comme le capot moteur, les pontons ou le nez, le plus souvent en composites et dessinées pour l''aérodynamique.'
+  entrees:
+  - john-cooper
+  - john-barnard
+  - rory-byrne
+  - mike-gascoyne
+  - steve-nichols
+  sources:
+  - titre: Formula 1, glossaire A-E
+    url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
+  - titre: Formula 1, glossaire K-O
+    url: https://www.formula1.com/en/latest/article/f1-glossary-k-o.6g2hrWHA2pyxbXoe8FT9Db
+  - titre: Motor Sport Magazine, « A new frame of reference » (mai 2002)
+    url: https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/
+
+# --- a inserer apres « rappel-pneumatique » (avant « flat-12 »)
 - id: monocoque
   terme: Monocoque
   motifs:
@@ -271,6 +329,31 @@
   sources:
   - titre: Renault, « 30 ans de Formule 1 »
     url: https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf
+- id: architecture-moteur
+  terme: Architecture moteur et cylindrée
+  motifs:
+  - V10
+  - V12
+  - V8
+  - V6
+  definition: 'L''architecture désigne le nombre et la disposition des cylindres : en V, deux rangées forment un angle (V6, V8, V10, V12) ; à plat, à 180°, elles se font face, comme dans le flat-12. La cylindrée est le volume total des cylindres, partagé entre eux : à 3 litres, chaque cylindre fait 250cm³ dans un douze-cylindres et 375cm³ dans un huit-cylindres. Le règlement fixe d''abord la cylindrée des moteurs atmosphériques, 3 litres en 1966, 3,5 litres en 1989, 3 litres en 1995, puis l''architecture elle-même : dix cylindres imposés en 2000, V8 de 2,4 litres en 2006, V6 turbo de 1,6 litre en 2014.'
+  entrees:
+  - keith-duckworth
+  - ettore-zaccone-mina
+  - francois-castaing
+  - bernard-dudot
+  - mario-illien
+  sources:
+  - titre: Goodwood, Simon Ostler, « The best F1 engine eras ranked » (octobre 2022)
+    url: https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/
+  - titre: Motor Sport Magazine, « The flat 12 engine that powered Ferrari to '70s F1 triumph » (novembre 2021)
+    url: https://motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph
+  - titre: Formula 1, glossaire F-J
+    url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
+
+# --- MODIFICATION PROPOSEE : remplace le bloc existant « groupe-propulseur-hybride » (meme id, meme place)
+# Changements : terme elargi, motif « groupe propulseur » ajoute, premiere phrase generique ajoutee,
+# entrees keith-duckworth et bob-bell ajoutees. Le reste est inchange.
 - id: flat-12
   terme: Flat-12
   motifs:
@@ -286,15 +369,17 @@
   - titre: The Race, « Nine things you may not know about Brabham's iconic F1 fan car »
     url: https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car
 - id: groupe-propulseur-hybride
-  terme: Groupe propulseur hybride
+  terme: Groupe propulseur (hybride depuis 2014)
   motifs:
   - groupe propulseur hybride
-  definition: Depuis 2014, un V6 turbo de 1,6 litre associé à une récupération d'énergie électrique stockée dans une batterie. Le MGU-K récupère l'énergie au freinage ; le MGU-H, supprimé en 2026, la récupérait sur la chaleur des gaz d'échappement. Le turbo séparé de Mercedes place la turbine et le compresseur aux deux extrémités du moteur.
+  - groupe propulseur
+  definition: Ensemble des éléments qui propulsent la voiture, que formula1.com appelle « power unit ». Depuis 2014, c'est un V6 turbo de 1,6 litre associé à une récupération d'énergie électrique stockée dans une batterie. Le MGU-K récupère l'énergie au freinage ; le MGU-H, supprimé en 2026, la récupérait sur la chaleur des gaz d'échappement. Le turbo séparé de Mercedes place la turbine et le compresseur aux deux extrémités du moteur.
   premiere: '2014.'
   entrees:
   - andy-cowell
   - aldo-costa
   - paddy-lowe
+  - bob-bell
   sources:
   - titre: Formula 1, glossaire P-T
     url: https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1
@@ -304,6 +389,8 @@
     url: https://www.autosport.com/f1/news/114013/mercedes-turbo-not-gamechanging
   - titre: 'Motor Sport Magazine, « Hall of Fame: Andy Cowell » (février 2020)'
     url: https://motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell
+
+# --- a inserer apres « diffuseur »
 - id: suspension-active
   terme: Suspension active
   motifs:
@@ -383,6 +470,24 @@
     url: https://www.formula1.com/en/latest/article/from-a-six-wheeled-car-to-the-flip-flop-wing-8-of-the-wildest-tech.1GRhOeOV4saRcrbvxWYMtG.1GRhOeOV4saRcrbvxWYMtG
   - titre: 'Autosport, « F1 2009-13 part two: Brawn and the double diffuser »'
     url: https://www.autosport.com/f1/news/f1-2009-13-part-two-brawn-and-the-double-diffuser-5102901/5102901/
+- id: diffuseur-souffle
+  terme: Diffuseur soufflé
+  motifs:
+  - diffuseur soufflé
+  - diffuseurs soufflés
+  - échappement soufflé
+  definition: 'Les gaz d''échappement sont dirigés vers le diffuseur : ils renforcent la dépression sous le plancher et forment un jet qui en scelle les côtés, ce qui augmente l''appui à l''arrière. L''effet faiblit quand le pilote lâche l''accélérateur, au freinage et en entrée de virage ; des cartographies moteur font alors souffler le moteur pied levé, en coupant l''essence et l''allumage (soufflage « à froid ») ou en retardant l''allumage (« à chaud »). Employé dans les années 1980 et 1990, le procédé revient en 2010, notamment sur la Red Bull RB6 avec les cartographies Renault ; en 2012, une zone imposée pour la sortie d''échappement met fin aux diffuseurs soufflés de l''époque.'
+  entrees:
+  - adrian-newey
+  sources:
+  - titre: 'Autosport, Matt Somerfield et Giorgio Piola, « Banned: When exhaust-blown diffusers reigned supreme » (mai 2020)'
+    url: https://www.autosport.com/f1/news/banned-when-exhaust-blown-diffusers-reigned-supreme-4982364/4982364/
+  - titre: 'Motor Sport Magazine, « Blown and exhausted: why detail matters » (juillet 2024)'
+    url: https://motorsportmagazine.com/archive/article/july-2024/156/blown-and-exhausted-why-detail-matters
+  - titre: Formula 1, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)
+    url: https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy
+
+# --- a inserer apres « kers » (avant « drs »)
 - id: voiture-a-ventilateur
   terme: Voiture à ventilateur
   motifs:
@@ -484,6 +589,18 @@
     url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8
   - titre: Autosport, Scott Mitchell, « The 2007 decision that built Mercedes' hybrid empire » (août 2019)
     url: https://www.autosport.com/f1/news/the-2007-decision-that-built-mercedes-hybrid-empire-5112574/5112574/
+- id: f-duct
+  terme: F-duct
+  motifs:
+  - F-duct
+  definition: 'Conduit qui permet au pilote de faire décrocher l''aileron arrière en ligne droite. En obturant un orifice du cockpit, il envoie de l''air vers une fente de l''aileron : l''écoulement se décolle, l''appui et la traînée chutent, et la vitesse de pointe augmente. Son nom vient de la lettre F du logo Vodafone, placé à côté de la prise d''air. Imité par plusieurs équipes dès 2010, il est écarté pour 2011, pour raisons de coût et de sécurité, et remplacé par le DRS.'
+  premiere: McLaren MP4-25, 2010.
+  entrees: []
+  sources:
+  - titre: 'Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season''s F-duct » (avril 2020)'
+    url: https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct
+  - titre: Autosport, Jonathan Noble, « McLaren upbeat on 2011 car progress » (décembre 2010)
+    url: https://www.autosport.com/f1/news/88611/mclaren-upbeat-on-2011-car-progress
 - id: drs
   terme: DRS
   motifs:
