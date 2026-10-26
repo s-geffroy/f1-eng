@@ -29,7 +29,7 @@ Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapm
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles : la **McLaren MP4/1 de 1981**, première F1 à monocoque en composite carbone à courir en Grand Prix (la Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir), conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), et la **Ferrari 640 de 1989**, qui introduit la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles. La **McLaren MP4/1 de 1981**, conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), est la première F1 à monocoque en composite carbone à courir en Grand Prix. La Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir. La **Ferrari 640 de 1989** introduit ensuite la boîte semi-automatique commandée au volant. C'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 
@@ -41,13 +41,13 @@ Voir l'entrée [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.m
 
 ## N° 4 — Keith Duckworth (92,5/100)
 
-Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **155 Grands Prix** de championnat du monde de 1967 à 1983, les derniers dans sa version DFY (GrandPrix.com en compte 154). Le DFV reste une réalisation Cosworth, avec **[Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %})** dans la chaîne causale.
+Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **plus de 150 Grands Prix** de championnat du monde de 1967 à 1983, les derniers dans sa version DFY (le décompte exact varie selon les sources : voir l'entrée). Le DFV reste une réalisation Cosworth, avec **[Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %})** dans la chaîne causale.
 
 Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})
 
 ## N° 5 — Adrian Newey (91,5/100)
 
-Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique. Selon [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), il n'a d'ailleurs pris aucune part au développement de la suspension active Williams ; celle-ci, rappelle Autosport, servait avant tout de plateforme stable à son aérodynamique.
+Inutile de chercher « l'invention Newey ». Son apport est une **méthode systémique** : concevoir la monoplace comme un système aérodynamique intégré, où suspension, géométrie, refroidissement, structure et packaging servent le contrôle global du flux. Il l'a démontré sous plusieurs règlements, chez March devenue Leyton House, Williams, McLaren et Red Bull, puis Aston Martin depuis 2025. Son génie est la répétition, pas le coup unique.
 
 Voir l'entrée [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})
 

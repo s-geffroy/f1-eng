@@ -28,7 +28,7 @@ See the entry [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman
 
 ## No. 2 — John Barnard (95/100)
 
-Two independent breakthroughs, both of which became universal: the **1981 McLaren MP4/1**, the first F1 car with a carbon composite monocoque to race in a Grand Prix (the Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race), designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), and the **1989 Ferrari 640**, which introduced the semi-automatic gearbox controlled from the steering wheel. He is probably the revolutionary whose personal authorship is the clearest.
+Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. Barnard is probably the revolutionary whose personal authorship is the clearest.
 
 See the entry [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})
 
@@ -40,13 +40,13 @@ See the entry [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md 
 
 ## No. 4 — Keith Duckworth (92.5/100)
 
-The **Cosworth DFV** transformed the engine and the economics of the grid: compact and powerful, used as a structural component on the Lotus 49, then available to many teams, which could concentrate their resources on the chassis and aerodynamics. It won **155 world championship Grands Prix** from 1967 to 1983, the last of them in its DFY version (GrandPrix.com counts 154). The DFV remains a Cosworth achievement, with **[Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})** in the causal chain.
+The **Cosworth DFV** transformed the engine and the economics of the grid: compact and powerful, used as a structural component on the Lotus 49, then available to many teams, which could concentrate their resources on the chassis and aerodynamics. It won **more than 150 world championship Grands Prix** from 1967 to 1983, the last of them in its DFY version (the exact count varies between sources: see the entry). The DFV remains a Cosworth achievement, with **[Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})** in the causal chain.
 
 See the entry [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})
 
 ## No. 5 — Adrian Newey (91.5/100)
 
-There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. His genius is repetition, not the one-off stroke. According to [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), he in fact played no part in developing Williams' active suspension; that system, Autosport notes, served above all as a stable platform for his aerodynamics.
+There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. His genius is repetition, not the one-off stroke.
 
 See the entry [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})
 

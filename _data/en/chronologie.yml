@@ -397,7 +397,7 @@ jalons:
     annee: 1993
     voie: "methode"
     titre: "Computational fluid dynamics"
-    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. In 1993 the team teamed up with Fluent, a CFD software company, as commercial codes improved. Precedence is not established: GrandPrix.com presents Geoff Willis, at Leyton House in 1990, as the first engineer to use CFD in F1, while formula1.com describes it as only a research project at the time."
+    texte: "At Benetton, aerodynamics stopped being purely empirical: from the late 1980s, a simplified calculation on a workstation studied pressure distribution on the rear wings. Who first used CFD in F1 is disputed: GrandPrix.com names Geoff Willis, at Leyton House in 1990; formula1.com describes it as only a research project at the time. In 1993 Benetton teamed up with Fluent, a CFD software company, as commercial codes improved."
     entrees: [geoff-willis]
     termes: [cao]
     sources:
@@ -521,7 +521,7 @@ contexte:
       - jalon: "cooper-500"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "The 500 Club's formula created the class for which the Coopers built their prototype; the source does not say the rear engine followed from the rules (Damien Smith)."
+        pourquoi: "The 500 Club's formula created the class for which the Coopers built their prototype; the source puts the rear engine down partly to practicality, without linking it to the rules (Damien Smith)."
     sources:
       - titre: "Motor Sport, Damien Smith, “One-pot dictator” (July 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/july-2004/88/one-pot-dictator/"

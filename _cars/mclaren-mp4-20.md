@@ -50,10 +50,13 @@ The inerter itself came from Malcolm Smith and his Cambridge group; no source co
 ## Limitations
 
 - **Reliability.** McLaren lists the losses: a tyre valve in Malaysia with Räikkönen leading, a driveshaft at San Marino, a suspension failure on the last lap at the Nürburgring after a flat-spotted tyre, a hydraulic leak in Germany while leading from pole, an engine failure in practice at Monza that sent him to eleventh on the grid. Juan Pablo Montoya, injured, missed two races.
-- **A disputed date.** formula1.com wrote in 2022 that inerters were "first used on the 1997 McLaren". The University of Cambridge and Smith place the first race in 2005; 1997, according to them, is the year Smith conceived the device.
 
 ## Legacy
 
 - **2005**: ten wins, all from Spain onwards. Räikkönen won seven (Spain, Monaco, Canada, Hungary, Turkey, Belgium, Japan), Montoya three (Britain, Italy, Brazil). Räikkönen was runner-up with 112 points to Fernando Alonso's 133; McLaren second in the constructors' championship with 182 points to Renault's 191.
 - **The secret, then the spread.** In 2007, during the espionage case, a drawing of the "J-damper" reached Renault; in December 2007 the World Motor Sport Council found that Renault had used it in an attempt to have the device declared illegal, which failed because Renault had misunderstood how it worked; no penalty was imposed. On 29 May 2008 Autosport revealed the Cambridge connection. Once the exclusivity had lapsed, a licence granted to Penske Racing Shocks allowed inerters to be supplied to every team.
 - They remained standard equipment until the 2022 rules banned them.
+
+## Where sources disagree
+
+- **The inerter's first race**: formula1.com wrote in 2022 that inerters were "first used on the 1997 McLaren". The University of Cambridge and Smith place the first race in 2005; 1997, according to them, is the year Smith conceived the device.

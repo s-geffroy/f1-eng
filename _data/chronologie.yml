@@ -397,7 +397,7 @@ jalons:
     annee: 1993
     voie: "methode"
     titre: "La simulation numérique des écoulements"
-    texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. En 1993, l'équipe s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent. La primauté n'est pas établie : GrandPrix.com présente Geoff Willis, chez Leyton House en 1990, comme le premier ingénieur à utiliser la CFD en F1, quand formula1.com n'y voit alors qu'un projet de recherche."
+    texte: "Chez Benetton, l'aérodynamique cesse d'être purement empirique : dès la fin des années 1980, un calcul simplifié sur station de travail étudie la répartition des pressions sur les ailerons arrière. Qui a employé la CFD le premier en F1 reste discuté : GrandPrix.com nomme Geoff Willis, chez Leyton House en 1990 ; formula1.com n'y voit alors qu'un projet de recherche. En 1993, Benetton s'associe à l'éditeur du logiciel de CFD Fluent, quand les codes commerciaux progressent."
     entrees: [geoff-willis]
     termes: [cao]
     sources:
@@ -521,7 +521,7 @@ contexte:
       - jalon: "cooper-500"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "La formule du 500 Club crée la catégorie pour laquelle les Cooper construisent leur prototype ; la source ne dit pas que le moteur arrière découle du règlement (Damien Smith)."
+        pourquoi: "La formule du 500 Club crée la catégorie pour laquelle les Cooper construisent leur prototype ; le moteur arrière, la source l'explique en partie par la commodité, sans le rattacher au règlement (Damien Smith)."
     sources:
       - titre: "Motor Sport, Damien Smith, « One-pot dictator » (juillet 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/july-2004/88/one-pot-dictator/"

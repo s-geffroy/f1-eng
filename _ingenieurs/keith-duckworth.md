@@ -48,7 +48,7 @@ Le **Cosworth DFV** ne transforme pas seulement le moteur : il modifie l'écosys
 4. qui n'ont donc plus besoin de développer un moteur propriétaire : il ouvre la porte à des équipes comme celles de Frank Williams et de Ken Tyrrell ;
 5. et peuvent concentrer leurs ressources sur le châssis et l'aérodynamique.
 
-Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne ; le moteur n'avait été monté sur les Lotus 49 que quelques jours plus tôt, selon Goodwood ; Motor Sport montre la première 49 en essais dès la mi-mai. Le DFV gagne toutes les courses des saisons 1969 et 1973, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, les derniers dans sa version DFY à course courte (GrandPrix.com en compte 154).
+Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne. Le DFV gagne toutes les courses des saisons 1969 et 1973, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, les derniers dans sa version DFY à course courte.
 
 ## Parcours technique
 
@@ -71,3 +71,8 @@ La formulation juste : **le DFV est une réalisation Cosworth, avec Keith Duckwo
 ## Verdict
 
 Une révolution technique et économique simultanée.
+
+## Divergences entre sources
+
+- **La mise au point avant Zandvoort** : selon Goodwood, le moteur n'avait été monté sur les Lotus 49 que quelques jours avant la course ; Motor Sport montre la première 49 en essais dès la mi-mai.
+- **Le nombre de victoires** : le site retient 155 Grands Prix de championnat du monde ; GrandPrix.com en compte 154.

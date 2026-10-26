@@ -50,10 +50,13 @@ L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge ; aucune so
 ## Limites
 
 - **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille. Juan Pablo Montoya, blessé, manque deux courses.
-- **Une date discutée.** formula1.com, en 2022, écrit que les inerters ont été « utilisés pour la première fois sur la McLaren de 1997 ». L'université de Cambridge et Smith situent la première course en 2005 ; 1997 est, selon eux, l'année où Smith imagine le dispositif.
 
 ## Ce qu'elle laisse
 
 - **2005** : dix victoires, toutes à partir de l'Espagne. Räikkönen en gagne sept (Espagne, Monaco, Canada, Hongrie, Turquie, Belgique, Japon), Montoya trois (Grande-Bretagne, Italie, Brésil). Räikkönen est deuxième du championnat avec 112 points contre 133 à Fernando Alonso ; McLaren deuxième des constructeurs avec 182 points contre 191 à Renault.
 - **Le secret, puis la diffusion.** En 2007, pendant l'affaire d'espionnage, un dessin du « J-damper » parvient chez Renault ; le Conseil mondial du sport automobile estime, en décembre 2007, que Renault s'en est servi pour tenter de faire interdire le dispositif, sans y parvenir faute d'en avoir compris le fonctionnement ; aucune sanction n'est prononcée. Le 29 mai 2008, Autosport révèle le lien avec Cambridge. L'exclusivité expirée, une licence accordée à Penske Racing Shocks permet de fournir des inerters à toutes les équipes.
 - Ils restent un équipement standard jusqu'au règlement de 2022, qui les interdit.
+
+## Divergences entre sources
+
+- **La première course de l'inerter** : formula1.com, en 2022, écrit que les inerters ont été « utilisés pour la première fois sur la McLaren de 1997 ». L'université de Cambridge et Smith situent la première course en 2005 ; 1997 est, selon eux, l'année où Smith imagine le dispositif.
