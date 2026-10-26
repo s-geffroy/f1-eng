@@ -26,6 +26,8 @@ sources:
     url: "https://www.auto123.com/en/news/f1-bob-bell-to-leave-mercedes-amg-f1-team/36045/"
   - titre: "Michael Delaney, F1i, « Renault's Bell relinquishes tech chief position for part-time advisory role » (juillet 2018)"
     url: "https://f1i.com/news/313023-renaults-bob-bell-elevated-racing-technical-advisor-role.html"
+  - titre: "GrandPrix.com, « Steve Nielsen » (fiche biographique, non datée)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "26 octobre 2026"
 image: "/assets/partage/bob-bell.jpg"
 ---
@@ -44,7 +46,7 @@ Bob Bell, ingénieur nord-irlandais, est l'aérodynamicien de la McLaren MP4/4 d
 
 ## Attribution
 
-Sur la MP4/4, Bell revendique le dessin aérodynamique, pas le concept : « La paternité conceptuelle de la voiture est une chose assez difficile à établir. » Il crédite [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) d'avoir poussé à allonger davantage le pilote, sans savoir dans quelle mesure la position basse relevait d'une évolution naturelle. Autosport le range parmi ceux qui ont conçu la voiture ou fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et Steve Nielsen.
+Sur la MP4/4, Bell revendique le dessin aérodynamique, pas le concept : « La paternité conceptuelle de la voiture est une chose assez difficile à établir. » Il crédite [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) d'avoir poussé à allonger davantage le pilote, sans savoir dans quelle mesure la position basse relevait d'une évolution naturelle. Autosport le range parmi ceux qui ont conçu la voiture ou fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus).
 
 Sur la W05, son rôle est celui d'un directeur technique : il organise et supervise, il n'est pas l'auteur du groupe propulseur.
 

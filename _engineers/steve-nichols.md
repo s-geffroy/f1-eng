@@ -16,6 +16,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
   - titre: "Gary Watkins, Autosport, “The origins of McLaren-Honda's greatest racer”"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
+  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "25 October 2026"
 image: "/assets/partage/en/steve-nichols.jpg"
 ---
@@ -32,4 +34,4 @@ Steve Nichols is the designer to whom Formula 1 attributes the creation of the *
 
 ## The MP4/4: disputed authorship
 
-Nichols himself presents the MP4/4 as an evolution of the MP4/3, not as a "low-line" revolution. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) disputes this account, and Autosport also names [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and Steve Nielsen among its authors. His arrival at Ferrari is dated January 1989 by GrandPrix.com, 1990 by Motor Sport.
+Nichols himself presents the MP4/4 as an evolution of the MP4/3, not as a "low-line" revolution. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) disputes this account, and Autosport also names [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus) among its authors. His arrival at Ferrari is dated January 1989 by GrandPrix.com, 1990 by Motor Sport.

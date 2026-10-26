@@ -26,6 +26,8 @@ sources:
     url: "https://www.auto123.com/en/news/f1-bob-bell-to-leave-mercedes-amg-f1-team/36045/"
   - titre: "Michael Delaney, F1i, “Renault's Bell relinquishes tech chief position for part-time advisory role” (July 2018)"
     url: "https://f1i.com/news/313023-renaults-bob-bell-elevated-racing-technical-advisor-role.html"
+  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "26 October 2026"
 image: "/assets/partage/en/bob-bell.jpg"
 ---
@@ -44,7 +46,7 @@ Bob Bell, a Northern Irish engineer, was the aerodynamicist of the 1988 McLaren 
 
 ## Attribution
 
-On the MP4/4, Bell claims the aerodynamic design, not the concept: "The ownership of the car conceptually is a pretty difficult thing to pin down." He credits [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) with pushing to lay the driver down further, without knowing how much of the low position was natural evolution. Autosport lists him among those who designed the car or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen.
+On the MP4/4, Bell claims the aerodynamic design, not the concept: "The ownership of the car conceptually is a pretty difficult thing to pin down." He credits [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) with pushing to lay the driver down further, without knowing how much of the low position was natural evolution. Autosport lists him among those who designed the car or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus).
 
 On the W05, his role was that of a technical director: he organised and oversaw; he was not the author of the power unit.
 

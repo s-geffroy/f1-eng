@@ -16,6 +16,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
+  - titre: "GrandPrix.com, « Steve Nielsen » (fiche biographique, non datée)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/steve-nichols.jpg"
 ---
@@ -32,4 +34,4 @@ Steve Nichols est le concepteur auquel Formula 1 attribue la création de la **M
 
 ## La MP4/4 : une paternité discutée
 
-Nichols présente lui-même la MP4/4 comme une évolution de la MP4/3, pas comme une révolution « basse ». [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) conteste ce récit, et Autosport cite aussi [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) et Steve Nielsen parmi ses auteurs. Son arrivée chez Ferrari est datée de janvier 1989 par GrandPrix.com, de 1990 par Motor Sport.
+Nichols présente lui-même la MP4/4 comme une évolution de la MP4/3, pas comme une révolution « basse ». [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) conteste ce récit, et Autosport cite aussi [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus) parmi ses auteurs. Son arrivée chez Ferrari est datée de janvier 1989 par GrandPrix.com, de 1990 par Motor Sport.

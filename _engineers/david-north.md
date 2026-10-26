@@ -20,6 +20,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/"
   - titre: "Gary Watkins, Autosport, “The origins of McLaren-Honda's greatest racer” (August 2017)"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
+  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "26 October 2026"
 image: "/assets/partage/en/david-north.jpg"
 ---
@@ -39,7 +41,7 @@ David North is a British engineer from an aerospace background who spent most of
 
 ## The MP4/4 gearbox
 
-The 1988 Honda V6 had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) and Steve Nielsen.
+The 1988 Honda V6 had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus).
 
 The gearbox remains Murray's project: Autosport writes that nobody disputes it. North was one of its designers, not the author of the concept.
 

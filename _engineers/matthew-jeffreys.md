@@ -16,6 +16,8 @@ sources:
     url: "https://www.crash.net/f1/news/38414/1/mclarens-backroom-engineers-and-their-vital-role"
   - titre: "Adam Cooper, Motor Sport Magazine, “Why Gordon Murray's Brabham BT55 never fulfilled its lowline promise” (September 2026)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/"
+  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "26 October 2026"
 image: "/assets/partage/en/matthew-jeffreys.jpg"
 ---
@@ -45,7 +47,7 @@ In a Motor Sport article on the Brabham BT55, Murray calls the MP4/4 "exactly th
 
 ## Attribution
 
-Jeffreys is both a witness and a party to the dispute: he defends the version of Nichols, his friend. Autosport, which compared the accounts in 2017, lists him among those who designed the MP4/4 or did its detail work, with Nichols, [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen, while crediting the concept mainly to Murray. This site presents both versions.
+Jeffreys is both a witness and a party to the dispute: he defends the version of Nichols, his friend. Autosport, which compared the accounts in 2017, lists him among those who designed the MP4/4 or did its detail work, with Nichols, [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus), while crediting the concept mainly to Murray. This site presents both versions.
 
 ## A short entry
 

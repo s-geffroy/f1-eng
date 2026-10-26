@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, 1.5-litre turbo V6"
 statut: "Raced in 1988; drivers' and constructors' titles"
-concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann", "Steve Nielsen"]
+concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann", "Steve Nielsen (uncertain attribution)"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -19,6 +19,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "Formula 1, “Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all”"
     url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
+  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
+    url: "https://www.grandprix.com/people/steve-nielsen.html"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-4.jpg"
   legende: "Ayrton Senna at the 1988 Canadian Grand Prix."
@@ -45,7 +47,7 @@ The question divides opinion, even at Formula 1, which credits the car sometimes
 - **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."
 - **[Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %})**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."
 
-Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), Bob Bell, David North and Steve Nielsen, designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
+Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), Bob Bell, David North and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus), designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
 
 ## Limitations
 

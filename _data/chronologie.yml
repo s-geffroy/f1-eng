@@ -336,8 +336,11 @@ jalons:
     annee: 1988
     voie: architecture
     titre: "La McLaren MP4/4, quinze victoires sur seize"
-    texte: "La McLaren MP4/4 gagne 15 des 16 courses de 1988. Sa paternité reste discutée : Steve Nichols, son concepteur en chef, y voit une évolution de la MP4/3 ; Gordon Murray conteste ce récit. Autosport cite aussi Bob Bell, David North, Matthew Jeffreys et Steve Nielsen parmi ses auteurs."
+    texte: "La McLaren MP4/4 gagne 15 des 16 courses de 1988. Sa paternité reste discutée : Steve Nichols, son concepteur en chef, y voit une évolution de la MP4/3 ; Gordon Murray conteste ce récit. Autosport cite aussi Bob Bell, David North, Matthew Jeffreys et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus) parmi ses auteurs."
     entrees: [steve-nichols, gordon-murray, bob-bell]
+    sources:
+      - titre: "GrandPrix.com, « Steve Nielsen » (fiche biographique, non datée)"
+        url: "https://www.grandprix.com/people/steve-nielsen.html"
 
   - id: fw17b
     annee: 1995
