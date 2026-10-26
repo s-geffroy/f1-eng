@@ -36,8 +36,10 @@ sources:
     url: "https://www.grandprix.com/people/john-barnard.html"
   - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
-  - titre: "Wikipedia, “Lotus 88”"
-    url: "https://en.wikipedia.org/wiki/Lotus_88"
+  - titre: "Matt Somerfield, Autosport, “Banned: The ingenious twin-chassis Lotus F1 car” (April 2020)"
+    url: "https://www.autosport.com/news/report.php/id/149000"
+  - titre: "Graham Keilloh, Motor Sport Magazine, “Watch Lotus's last great Formula 1 innovation” (March 2019)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
   - titre: "GrandPrix.com, “Steve Nichols”"
     url: "https://www.grandprix.com/gpe/cref-nicste.html"
   - titre: "GrandPrix.com, “Alan Jenkins”"
@@ -51,7 +53,7 @@ image: "/assets/partage/en/john-barnard.jpg"
 
 ## 1981 — McLaren MP4/1: carbon
 
-The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix; the Lotus 88, which appeared before it with a carbon chassis, was never allowed to race.
+The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix. The Lotus 88, whose composite monocoque Autosport describes as built in-house, was excluded during practice at Long Beach in 1981 according to Motor Sport; it never took part in a race.
 
 Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which costs a great deal of torsional stiffness. He needed a new material; he found it after a visit to British Aerospace, which was making composite cowlings. [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car surrounded notably by Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
 

@@ -16,8 +16,6 @@ sources:
     url: "https://www.formula1.com/en/latest/article/das-explained-what-we-know-so-far-about-mercedes-trick-new-steering-system.4vgDQ6cc20xUfhdZGT0ejB"
   - titre: "Edd Straw, The Race, “Mercedes reveals FIA rejected lever-based 2019 DAS design” (June 2020)"
     url: "https://the-race.com/formula-1/mercedes-reveals-fia-rejected-lever-based-2019-das-design"
-  - titre: "Wikipedia, “James Allison (motorsport)”"
-    url: "https://en.wikipedia.org/wiki/James_Allison_(motorsport)"
 consultation: "26 October 2026"
 image: "/assets/partage/en/james-allison.jpg"
 ---
@@ -39,7 +37,3 @@ James Allison is an aerodynamicist trained at Benetton who became technical dire
 - According to The Race, Mercedes wanted to introduce it as early as 2019: the FIA accepted the principle but rejected lever actuation and required the whole wheel to move. It was chief designer John Owen and his mechanical design team who drew the final version; Allison calls him "very inventive". The system raced in 2020 before being banned for 2021.
 
 DAS was therefore a team effort: Allison presented it and argued its principle with the FIA; the mechanical solution belongs to John Owen's group.
-
-## Source discrepancies
-
-Mercedes dates his move to Ferrari to 1999 and speaks of six years in Maranello; Wikipedia puts it in 2000, for five years. This site follows the team's version.

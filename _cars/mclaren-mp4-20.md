@@ -21,8 +21,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j"
   - titre: "McLaren, “2005 Formula 1 McLaren MP4-20” (team heritage)"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/2005-formula-1-mclaren-mp4-20/"
-  - titre: "Wikipedia, “McLaren MP4-20” (secondary source)"
-    url: "https://en.wikipedia.org/wiki/McLaren_MP4-20"
+  - titre: "Crash.net, “EXCLUSIVE PICS: New McLaren turns first wheel” (2005)"
+    url: "https://www.crash.net/f1/news/51029/1/exclusive-pics-new-mclaren-turns-first-wheel"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-20.jpg"
   legende: "Kimi Räikkönen during the 2005 Belgian Grand Prix weekend at Spa-Francorchamps, 9 September 2005."
@@ -43,9 +43,9 @@ The university patented the device, then approached McLaren in confidence; the t
 
 ## Who designed it
 
-McLaren's page names only [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), technical director. Wikipedia describes a much larger team: Neil Oatley, Mike Coughlan as chief designer, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) on systems development, Pat Fry, Nikolas Tombazis, Peter Prodromou on aerodynamics, and [Mario Illien]({{ site.baseurl }}{% link _engineers/mario-illien.md %}) for the Ilmor-Mercedes engine. These roles are not confirmed by the other sources consulted.
+McLaren's page names only [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), technical director. At the launch, quoted by Crash.net, Martin Whitmarsh, the team's CEO, spoke of a design team "under Adrian Newey, Mike Coughlan and Neil Oatley". No source consulted specifies each person's role.
 
-The inerter itself came from Malcolm Smith and his Cambridge group; no source consulted says who at McLaren integrated it into the car. Paddy Lowe, quoted by the university in 2015 as McLaren's former technical director, considers the inerter "now of equal rank to the spring and the damper" in the search for grip and stability.
+The inerter itself came from Malcolm Smith and his Cambridge group; no source consulted says who at McLaren integrated it into the car. [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}), quoted by the university in 2015 as McLaren's former technical director, considers the inerter "now of equal rank to the spring and the damper" in the search for grip and stability.
 
 ## Limitations
 

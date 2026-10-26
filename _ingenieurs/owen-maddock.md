@@ -26,6 +26,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2003/32/little-better/"
   - titre: "500race.org, « Owen Maddock »"
     url: "https://500race.org/people/owen-maddock/"
+  - titre: "GrandPrix.com, « Owen Maddock »"
+    url: "https://www.grandprix.com/gpe/cref-madowe.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/owen-maddock.jpg"
 redirect_from: "/ingenieurs/2026/10/25/owen-maddock.html"
@@ -45,7 +47,7 @@ La présence d'Owen Maddock corrige le récit simplifié « Cooper = John Cooper
 
 ## Attribution
 
-[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) reçoit le crédit d'architecte entrepreneurial et technique du basculement vers le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Selon Motor Sport, l'impulsion de la T53 vient de Brabham et de John Cooper, et la voiture est construite en six semaines. Maddock en est le chef designer. Aucune source ouverte, en dehors de Wikipédia, ne lui attribue explicitement la conception entière de la T51 : le site s'en tient donc à « chef designer pendant les titres ».
+[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) reçoit le crédit d'architecte entrepreneurial et technique du basculement vers le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Selon Motor Sport, l'impulsion de la T53 vient de Brabham et de John Cooper, et la voiture est construite en six semaines. Maddock en est le chef designer. GrandPrix.com lui attribue les Cooper de Formule 3, de Formule 2 et de Formule 1 dessinées entre 1954 et 1963, mais aucune source consultée ne lui attribue nommément la conception entière de la T51 : le site s'en tient donc à « chef designer pendant les titres ».
 
 La formulation juste : **Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 

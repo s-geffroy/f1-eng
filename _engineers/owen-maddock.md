@@ -26,6 +26,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2003/32/little-better/"
   - titre: "500race.org, “Owen Maddock”"
     url: "https://500race.org/people/owen-maddock/"
+  - titre: "GrandPrix.com, “Owen Maddock”"
+    url: "https://www.grandprix.com/gpe/cref-madowe.html"
 consultation: "25 October 2026"
 image: "/assets/partage/en/owen-maddock.jpg"
 ---
@@ -44,7 +46,7 @@ Owen Maddock's presence corrects the simplified “Cooper = John Cooper” story
 
 ## Attribution
 
-[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks. Maddock was its chief designer. No open source, apart from Wikipedia, explicitly credits him with the entire design of the T51: the site therefore sticks to “chief designer during the title years”.
+[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks. Maddock was its chief designer. GrandPrix.com credits him with Cooper's Formula 3, Formula 2 and Formula 1 cars designed between 1954 and 1963, but no source consulted names him as designer of the whole T51: the site therefore sticks to “chief designer during the title years”.
 
 The accurate wording: **Cooper established the rear-engine layout with a design team in which Owen Maddock played a central role.**
 

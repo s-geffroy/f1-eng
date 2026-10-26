@@ -27,8 +27,6 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-1995/22/australian-grand-prix-4/"
   - titre: "GrandPrix.com, “The Williams is quick” (February 1996)"
     url: "https://grandprix.com/news/the-williams-is-quick.html"
-  - titre: "Wikipedia, “Williams FW17” (secondary source)"
-    url: "https://en.wikipedia.org/wiki/Williams_FW17"
   - titre: "Formula 1, 1995 race results"
     url: "https://www.formula1.com/en/results/1995/races"
   - titre: "Formula 1, 1995 constructors' standings"
@@ -46,7 +44,7 @@ The FW17B's diffuser was accordingly undercut and ran up over the exhausts rathe
 
 ## Who designed it
 
-GrandPrix.com credits the FW17 to Adrian Newey and [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), with their team of design engineers at Didcot; Autosport names only Newey. Wikipedia lists Head as technical director, Newey as chief designer, Eghbal Hamidy as chief aerodynamicist and [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) for the Renault engine. Newey and Formula 1 present the diffuser idea as his, but Newey speaks in the plural: "we actually introduced it on the FW17B".
+GrandPrix.com credits the FW17 to Adrian Newey and [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), with their team of design engineers at Didcot; Autosport names only Newey. Newey and Formula 1 present the diffuser idea as his, but Newey speaks in the plural: "we actually introduced it on the FW17B".
 
 The FW17 itself continued the line of the FW14, FW15 and FW16, according to GrandPrix.com. It adopted the [raised nose]({{ site.baseurl }}/en/glossary/#nez-releve) of the 1994 Benetton, which Head felt gave "a slight advantage" under the new rules, and a roomier cockpit for its two tall drivers, Damon Hill and David Coulthard.
 
@@ -54,7 +52,7 @@ The FW17 itself continued the line of the FW14, FW15 and FW16, according to Gran
 
 - **A qualifying car first.** At Estoril, according to GrandPrix.com, the FW17B was clearly quicker than the FW17 and was used in qualifying; the team went back to the FW17 for the race, for reliability's sake. Coulthard won his first Grand Prix there, from pole position, in a standard FW17.
 - **An uncertain label.** Reports do not always name the car the same way: for Hill's win in Australia, Motor Sport lists an FW17B, GrandPrix.com an FW17.
-- **A disputed record.** GrandPrix.com wrote in 1996 that the FW17B "dominated the end of last season". The official results are more nuanced: after Portugal, Michael Schumacher won three of the last four races for Benetton (Europe, Pacific, Japan); Hill won the last, in Adelaide, by two laps. Wikipedia credits the FW17B with three poles and one win in those four races.
+- **A disputed record.** GrandPrix.com wrote in 1996 that the FW17B "dominated the end of last season". The official results are more nuanced: after Portugal, Michael Schumacher won three of the last four races for Benetton (Europe, Pacific, Japan); Hill won the last, in Adelaide, by two laps.
 
 ## Legacy
 

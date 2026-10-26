@@ -23,8 +23,10 @@ sources:
     url: "https://www.grandprix.com/features/2010-grand-prix-review-red-bull-now-they-must-do-it-again.html"
   - titre: "Red Bull Ring, « Red Bull Legends Parade 2026 : Red Bull Racing RB6 (2010) »"
     url: "https://www.redbullring.com/en/events-tickets/formula-1/legends-parade/red-bull-racing-rb6/"
-  - titre: "Wikipédia (en), « Red Bull RB6 » (source secondaire)"
-    url: "https://en.wikipedia.org/wiki/Red_Bull_RB6"
+  - titre: "Sky Sports, « McLaren hire Red Bull chief engineering officer Rob Marshall as technical director for engineering and design » (mai 2023)"
+    url: "https://www.skysports.com/f1/news/12433/12893259/mclaren-hire-red-bull-chief-engineering-officer-rob-marshall-as-technical-director-for-engineering-and-design"
+  - titre: "Autosport, « Prodromou starts working with Red Bull » (novembre 2006)"
+    url: "https://www.autosport.com/f1/news/55504/prodromou-starts-working-with-red-bull"
   - titre: "Formula 1, résultats des courses de 2010"
     url: "https://www.formula1.com/en/results/2010/races"
   - titre: "Formula 1, classements 2010 (pilotes et constructeurs)"
@@ -49,7 +51,7 @@ Newey ne présente pas l'idée comme neuve. Selon Formula 1, il commence par dem
 
 ## Qui l'a conçue
 
-GrandPrix.com présente Newey comme le directeur technique de Red Bull et le concepteur de la RB6 ; le Red Bull Ring le nomme seul. Le soufflage, pourtant, ne tient que par les cartographies du motoriste : Newey en crédite Renault. Wikipédia décrit une équipe : Rob Marshall chef designer, Peter Prodromou responsable de l'aérodynamique, Dan Fallows chef aérodynamicien, Andrew Green à la recherche et au développement. Ces rôles ne sont confirmés par aucune autre source consultée.
+GrandPrix.com présente Newey comme le directeur technique de Red Bull et le concepteur de la RB6 ; le Red Bull Ring le nomme seul. Le soufflage, pourtant, ne tient que par les cartographies du motoriste : Newey en crédite Renault. Newey ne travaille pas seul pour autant. Selon Sky Sports, Rob Marshall, entré chez Red Bull en 2006 comme chef designer, a aidé Newey à créer les voitures titrées de 2010 à 2013 ; selon Autosport, Peter Prodromou, ancien chef aérodynamicien de McLaren, a rejoint Red Bull fin 2006 dans un rôle similaire. Aucune source consultée ne précise leur part exacte dans la RB6.
 
 Le pilote compte aussi. Selon Formula 1, Sebastian Vettel maîtrise le style de pilotage contre-intuitif qu'exige le système. Newey précise à Motor Sport que Vettel tire mieux parti que Mark Webber d'un arrière stable en entrée de virage : non qu'il sache s'accommoder d'une voiture instable, ce que Newey tient pour un mythe, mais parce que cette stabilité lui permet de faire pivoter la voiture plus fort.
 

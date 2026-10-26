@@ -36,8 +36,10 @@ sources:
     url: "https://www.grandprix.com/people/john-barnard.html"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
-  - titre: "Wikipédia (en), « Lotus 88 »"
-    url: "https://en.wikipedia.org/wiki/Lotus_88"
+  - titre: "Matt Somerfield, Autosport, « Banned: The ingenious twin-chassis Lotus F1 car » (avril 2020)"
+    url: "https://www.autosport.com/news/report.php/id/149000"
+  - titre: "Graham Keilloh, Motor Sport Magazine, « Watch Lotus's last great Formula 1 innovation » (mars 2019)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
   - titre: "GrandPrix.com, « Steve Nichols »"
     url: "https://www.grandprix.com/gpe/cref-nicste.html"
   - titre: "GrandPrix.com, « Alan Jenkins »"
@@ -52,7 +54,7 @@ redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 
 ## 1981 — McLaren MP4/1 : le carbone
 
-La MP4/1 est la première F1 construite autour d'un **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégral en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix ; la Lotus 88, apparue avant elle avec un châssis en carbone, n'a jamais été autorisée à courir.
+La MP4/1 est la première F1 construite autour d'un **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégral en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix . La Lotus 88, dont Autosport décrit la monocoque en composite fabriquée par l'équipe elle-même, est exclue dès les essais de Long Beach 1981 selon Motor Sport ; elle ne prend jamais part à une course.
 
 Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion. Il lui faut un nouveau matériau ; il le trouve après une visite chez British Aerospace, qui fabriquait des capots en composites. [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}).
 

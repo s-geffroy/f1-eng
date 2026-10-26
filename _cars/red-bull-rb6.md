@@ -23,8 +23,10 @@ sources:
     url: "https://www.grandprix.com/features/2010-grand-prix-review-red-bull-now-they-must-do-it-again.html"
   - titre: "Red Bull Ring, “Red Bull Legends Parade 2026: Red Bull Racing RB6 (2010)”"
     url: "https://www.redbullring.com/en/events-tickets/formula-1/legends-parade/red-bull-racing-rb6/"
-  - titre: "Wikipedia, “Red Bull RB6” (secondary source)"
-    url: "https://en.wikipedia.org/wiki/Red_Bull_RB6"
+  - titre: "Sky Sports, “McLaren hire Red Bull chief engineering officer Rob Marshall as technical director for engineering and design” (May 2023)"
+    url: "https://www.skysports.com/f1/news/12433/12893259/mclaren-hire-red-bull-chief-engineering-officer-rob-marshall-as-technical-director-for-engineering-and-design"
+  - titre: "Autosport, “Prodromou starts working with Red Bull” (November 2006)"
+    url: "https://www.autosport.com/f1/news/55504/prodromou-starts-working-with-red-bull"
   - titre: "Formula 1, 2010 race results"
     url: "https://www.formula1.com/en/results/2010/races"
   - titre: "Formula 1, 2010 standings (drivers and constructors)"
@@ -49,7 +51,7 @@ Newey does not present the idea as new. According to Formula 1, his first port o
 
 ## Who designed it
 
-GrandPrix.com presents Newey as Red Bull's technical chief and the RB6's designer; the Red Bull Ring names him alone. Yet the blowing only worked thanks to the engine supplier's maps: Newey credits Renault for it. Wikipedia describes a team: Rob Marshall as chief designer, Peter Prodromou as chief engineer for aerodynamics, Dan Fallows as chief aerodynamicist, Andrew Green as head of research and development. These roles are not confirmed by any other source consulted.
+GrandPrix.com presents Newey as Red Bull's technical chief and the RB6's designer; the Red Bull Ring names him alone. Yet the blowing only worked thanks to the engine supplier's maps: Newey credits Renault for it. Newey did not work alone, though. According to Sky Sports, Rob Marshall, who joined Red Bull in 2006 as chief designer, helped Newey create the cars that won the titles from 2010 to 2013; according to Autosport, Peter Prodromou, McLaren's former chief aerodynamicist, joined Red Bull at the end of 2006 in a similar role. No source consulted specifies their exact share in the RB6.
 
 The driver mattered too. According to Formula 1, Sebastian Vettel mastered the counter-intuitive driving style the system required. Newey told Motor Sport that Vettel made better use than Mark Webber of a stable rear on corner entry: not because he could cope with an unstable car, which Newey calls a myth, but because that stability let him rotate the car harder.
 

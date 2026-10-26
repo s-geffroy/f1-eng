@@ -16,8 +16,6 @@ sources:
     url: "https://www.formula1.com/en/latest/article/das-explained-what-we-know-so-far-about-mercedes-trick-new-steering-system.4vgDQ6cc20xUfhdZGT0ejB"
   - titre: "Edd Straw, The Race, « Mercedes reveals FIA rejected lever-based 2019 DAS design » (juin 2020)"
     url: "https://the-race.com/formula-1/mercedes-reveals-fia-rejected-lever-based-2019-das-design"
-  - titre: "Wikipédia, « James Allison (motorsport) »"
-    url: "https://en.wikipedia.org/wiki/James_Allison_(motorsport)"
 consultation: "26 octobre 2026"
 image: "/assets/partage/james-allison.jpg"
 ---
@@ -39,7 +37,3 @@ James Allison est un aérodynamicien formé chez Benetton, devenu directeur tech
 - Selon The Race, Mercedes voulait l'introduire dès 2019 : la FIA admet le principe, mais refuse une commande par levier et exige que le volant entier se déplace. C'est le concepteur en chef John Owen et son équipe de conception mécanique qui en dessinent la version définitive ; Allison le dit « très inventif ». Le système court en 2020 avant d'être interdit pour 2021.
 
 Le DAS est donc un travail d'équipe : Allison le présente et en porte le principe auprès de la FIA ; la solution mécanique revient au groupe de John Owen.
-
-## Divergences entre sources
-
-L'arrivée chez Ferrari est datée de 1999 par Mercedes, qui parle de six ans à Maranello ; Wikipédia la place en 2000, pour cinq ans. Le site retient la version de l'équipe.

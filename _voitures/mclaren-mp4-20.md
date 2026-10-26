@@ -21,8 +21,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j"
   - titre: "McLaren, « 2005 Formula 1 McLaren MP4-20 » (patrimoine de l'équipe)"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/2005-formula-1-mclaren-mp4-20/"
-  - titre: "Wikipédia (en), « McLaren MP4-20 » (source secondaire)"
-    url: "https://en.wikipedia.org/wiki/McLaren_MP4-20"
+  - titre: "Crash.net, « EXCLUSIVE PICS: New McLaren turns first wheel » (2005)"
+    url: "https://www.crash.net/f1/news/51029/1/exclusive-pics-new-mclaren-turns-first-wheel"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-20.jpg"
   legende: "Kimi Räikkönen pendant le week-end du Grand Prix de Belgique 2005, à Spa-Francorchamps, le 9 septembre 2005."
@@ -43,9 +43,9 @@ L'université dépose le brevet, puis approche McLaren en toute confidentialité
 
 ## Qui l'a conçue
 
-La page de McLaren ne nomme qu'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), directeur technique. Wikipédia décrit une équipe bien plus large : Neil Oatley, Mike Coughlan comme chef designer, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) au développement des systèmes, Pat Fry, Nikolas Tombazis, Peter Prodromou à l'aérodynamique, et [Mario Illien]({{ site.baseurl }}{% link _ingenieurs/mario-illien.md %}) pour le moteur Ilmor-Mercedes. Ces rôles ne sont pas confirmés par les autres sources consultées.
+La page de McLaren ne nomme qu'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), directeur technique. Au lancement, cité par Crash.net, Martin Whitmarsh, directeur général de l'équipe, parle d'une équipe de conception « dirigée par Adrian Newey, Mike Coughlan et Neil Oatley ». Aucune source consultée ne précise le rôle de chacun.
 
-L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge ; aucune source consultée ne dit qui, chez McLaren, l'a intégré à la voiture. Paddy Lowe, cité en 2015 par l'université comme ancien directeur technique de McLaren, juge que l'inerter est désormais « au même rang que le ressort et l'amortisseur » dans la recherche d'adhérence et de stabilité.
+L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge ; aucune source consultée ne dit qui, chez McLaren, l'a intégré à la voiture. [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), cité en 2015 par l'université comme ancien directeur technique de McLaren, juge que l'inerter est désormais « au même rang que le ressort et l'amortisseur » dans la recherche d'adhérence et de stabilité.
 
 ## Limites
 

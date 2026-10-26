@@ -21,8 +21,8 @@ sources:
     url: "https://www.goodwood.com/grr/f1/the-eight-best-f1-cars-of-the-1990s/"
   - titre: "GrandPrix.com, « Williams unveils the new FW17 » (février 1995)"
     url: "https://www.grandprix.com/news/williams-unveils-the-new-fw17.html"
-  - titre: "Wikipédia (en), « Benetton B194 » (source secondaire)"
-    url: "https://en.wikipedia.org/wiki/Benetton_B194"
+  - titre: "Motor Sport Magazine, « Torque reaction » (décembre 2004)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-2004/45/torque-reaction"
   - titre: "Formula 1, résultats des courses de 1994"
     url: "https://www.formula1.com/en/results/1994/races"
   - titre: "Formula 1, classement des constructeurs 1994"
@@ -49,9 +49,9 @@ Benetton tire aussi parti du ravitaillement : selon Motor Sport, sa stratégie d
 
 ## Qui l'a conçue
 
-Une équipe. Autosport attribue le dessin à [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}), chef designer ; Motor Sport décrit son association avec [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), directeur technique, que Tom Walkinshaw a fait venir de son équipe de voitures de sport. Le lancement anticipé du programme est la marque de Brawn. Goodwood range la B194 parmi les premières voitures championnes de Brawn, de Byrne et de [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}), alors ingénieur de course de Schumacher, selon Autosport. Wikipédia ajoute Willem Toet à l'aérodynamique et Geoff Goddard, chez Cosworth, pour le moteur.
+Une équipe. Autosport attribue le dessin à [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}), chef designer ; Motor Sport décrit son association avec [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), directeur technique, que Tom Walkinshaw a fait venir de son équipe de voitures de sport. Le lancement anticipé du programme est la marque de Brawn. Goodwood range la B194 parmi les premières voitures championnes de Brawn, de Byrne et de [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}), alors ingénieur de course de Schumacher, selon Autosport. Pour le moteur, Motor Sport donne la parole à Geoff Goddard, alors chef designer de Cosworth : l'alésage visé étant trop grand pour le moteur HB, « il a fallu une nouvelle culasse, un nouveau bloc et un vilebrequin plus long : le Zetec-R ».
 
-Le nom du moteur varie selon les sources : Autosport l'appelle Zetec-R, Motor Sport parle d'un V8 Cosworth, Goodwood d'un V8 Ford. Selon Wikipédia, il s'agit d'un moteur construit par Cosworth, financé et badgé par Ford.
+Le nom du moteur varie selon les sources : Autosport l'appelle Zetec-R, Motor Sport parle d'un V8 Cosworth, Goodwood d'un V8 Ford. Le récit de Goddard en fait un moteur conçu chez Cosworth, pour Ford, qui, selon lui, « ne voulait même pas être en F1 ».
 
 ## Limites
 
