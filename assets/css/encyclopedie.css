@@ -505,9 +505,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .frise-liens marker path { fill: var(--graphite); }
 .lien-pastille { fill: var(--feuille); stroke: var(--graphite); stroke-width: 1; }
 .lien-nom { font-family: var(--titre); font-size: 0.875rem; font-weight: 600; fill: var(--graphite); text-anchor: middle; dominant-baseline: central; }
-/* repères reliés au repère ouvert : leur étiquette reste visible */
+/* repères reliés au repère ouvert : mis en avant ; leur nom est dans la pastille du connecteur */
 .jalon-lie { z-index: 3; }
-.jalon-lie .jalon-etiquette { opacity: 1; }
 .jalon-lie::before { transform: rotate(45deg) scale(1.25); }
 .evenement.jalon-lie .repere-contexte { transform: scale(1.25); }
 

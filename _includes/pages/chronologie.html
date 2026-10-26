@@ -269,6 +269,7 @@
     fleche.appendChild(el("path", { d: "M0,0 L10,5 L0,10 z" }));
     defs.appendChild(fleche);
     calque.appendChild(defs);
+    var poses = [];
     mesLiens.forEach(function (l) {
       var rc = reperes.filter(function (r) { return r.dataset.id === l.c; })[0];
       var rj = reperes.filter(function (r) { return r.dataset.id === l.j; })[0];
@@ -283,14 +284,42 @@
       var d = "M" + a.x + "," + a.y + " C" + a.x + "," + my + " " + b.x + "," + my + " " + b.x + "," + b.y;
       var g = el("g", { "class": "lien", "data-preuve": l.preuve });
       g.appendChild(el("path", { d: d, "class": "lien-halo" }));
-      g.appendChild(el("path", { d: d, "class": "lien-trait", "marker-end": "url(#frise-fleche)" }));
-      var mx = (a.x + b.x) / 2;
-      var txt = el("text", { x: mx, y: my, "class": "lien-nom" });
-      txt.textContent = l.nom;
-      g.appendChild(txt);
+      var trait = el("path", { d: d, "class": "lien-trait", "marker-end": "url(#frise-fleche)" });
+      g.appendChild(trait);
       calque.appendChild(g);
-      var bb = txt.getBBox();
-      g.insertBefore(el("rect", { x: bb.x - 4, y: bb.y - 1, width: bb.width + 8, height: bb.height + 2, "class": "lien-pastille" }), txt);
+      // pastille : mécanisme et autre extrémité du lien (celle qui n'est pas le repère ouvert)
+      var autre = (l.c === courant ? rj : rc).getAttribute("aria-label").replace(" : ", ", ");
+      if (autre.length > 42) autre = autre.slice(0, 41) + "…";
+      var txt = el("text", { x: 0, y: 0, "class": "lien-nom" });
+      txt.textContent = l.nom + " · " + autre;
+      g.appendChild(txt);
+      poses.push({ g: g, trait: trait, txt: txt, w: txt.getBBox().width + 10, h: txt.getBBox().height + 4 });
+    });
+    // empilement : chaque pastille part de l'axe et s'en écarte d'un cran tant qu'elle en chevauche
+    // une autre ; elle reste posée sur sa courbe, à la hauteur retenue
+    var axe = (plan.querySelector(".frise-innovations").getBoundingClientRect().bottom + plan.querySelector(".frise-contexte").getBoundingClientRect().top) / 2 - base.top;
+    function xSur(trait, y) {
+      var n = trait.getTotalLength(), mieux = null;
+      for (var k = 0; k <= 60; k++) {
+        var p = trait.getPointAtLength(n * k / 60);
+        if (!mieux || Math.abs(p.y - y) < Math.abs(mieux.y - y)) mieux = p;
+      }
+      return mieux.x;
+    }
+    var places = [];
+    poses.forEach(function (p) {
+      for (var i = 0; i < 40; i++) {
+        var cran = Math.ceil(i / 2) * (i % 2 ? -1 : 1);
+        var y = axe + cran * (p.h + 3), x = xSur(p.trait, y);
+        var r = { x: Math.min(Math.max(x - p.w / 2, 2), base.width - p.w - 2), y: y - p.h / 2, w: p.w, h: p.h };
+        var libre = places.every(function (q) {
+          return r.x + r.w + 4 <= q.x || q.x + q.w + 4 <= r.x || r.y + r.h + 2 <= q.y || q.y + q.h + 2 <= r.y;
+        });
+        if (libre || i === 39) break;
+      }
+      places.push(r);
+      p.txt.setAttribute("x", r.x + r.w / 2); p.txt.setAttribute("y", r.y + r.h / 2);
+      p.g.insertBefore(el("rect", { x: r.x, y: r.y, width: r.w, height: r.h, "class": "lien-pastille" }), p.txt);
     });
   }
 
