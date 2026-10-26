@@ -16,7 +16,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | 86.5 | Causal development of Lotus ground effect |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | 85.0 | Silent digital revolution |
 
-**Dudot** was at the heart of three engine transformations at Renault. According to Renault's documentation, the turbo was eventually adopted by the whole grid and pneumatic valve springs became a general solution in the 1990s. Renault Sport remains an organisation: Dudot is not its lone inventor. The turbo idea is attributed to [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}), and the first turbo engine derives from the V6 of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and Jean-Pierre Boudy.
+**Dudot** was at the heart of three engine transformations at Renault. According to Renault's documentation, the turbo was eventually adopted by the whole grid and pneumatic valve springs became a general solution in the 1990s. Renault Sport remains an organisation: Dudot is not its lone inventor. The turbo idea is attributed to [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}), and the first turbo engine derives from the V6 of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
 
 **Murray** combines conceptual radicalism with pragmatism: the Brabham BT46B, the Brabham architectures, the reintroduction of refuelling and tyre changes as a racing weapon, and his contribution to the McLaren MP4/4 era, whose authorship is disputed with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}). What separates him from Tier A is the uneven diffusion of some of his breakthroughs.
 
@@ -45,7 +45,7 @@ A major place in technical history, with less exclusive causation, less general 
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) | Aerodynamics | BRM research and the genesis of the ground effect programme | Direct contribution hard to isolate |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) | Engine | Co-founder of Cosworth, development and industrialisation | Authorship of the DFV harder to individualise |
 | 17 | D | [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) | Architecture | Lancia D50 and the pre-F1/F1 technical lineage | Work largely predating F1 |
-| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) | Chassis | Cooper's chief designer during the 1959 and 1960 titles | Credit shared with John Cooper |
+| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) | Chassis | Cooper's chief designer during the 1959 and 1960 titles | Credit shared with [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) |
 | 19 | D | [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) | Electronics | Software for Williams' active suspension | A role within a collective chain |
 | 20 | D | [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) | Integration | Repeated performance at Benetton and Ferrari | No single paradigmatic breakthrough |
 

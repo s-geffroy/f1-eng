@@ -23,7 +23,7 @@ C'est la clé de lecture de tout le classement.
 
 ## N° 1 — Colin Chapman (96/100)
 
-Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par Maurice Philippe, la part de chacun restant discutée. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
+Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}). La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), la part de chacun restant discutée. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
 
 Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})
 
@@ -41,7 +41,7 @@ Voir l'entrée [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.m
 
 ## N° 4 — Keith Duckworth (92,5/100)
 
-Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **155 Grands Prix** de championnat du monde de 1967 à 1983, les derniers dans sa version DFY (GrandPrix.com en compte 154). Le DFV reste une réalisation Cosworth, avec **Mike Costin** dans la chaîne causale.
+Le **Cosworth DFV** transforme le moteur et l'économie du plateau : compact, performant, utilisé comme composant structurel sur la Lotus 49, puis disponible pour de nombreuses équipes, qui peuvent concentrer leurs ressources sur le châssis et l'aérodynamique. Il remporte **155 Grands Prix** de championnat du monde de 1967 à 1983, les derniers dans sa version DFY (GrandPrix.com en compte 154). Le DFV reste une réalisation Cosworth, avec **[Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %})** dans la chaîne causale.
 
 Voir l'entrée [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})
 

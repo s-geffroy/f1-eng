@@ -17,7 +17,7 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse |
 
-**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et Jean-Pierre Boudy.
+**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport reste une organisation : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
 
 **Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, la réintroduction du ravitaillement et du changement de pneus comme arme de course, et sa contribution à l'ère McLaren MP4/4, dont la paternité est discutée avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
 
@@ -46,7 +46,7 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 | 15 | C | [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) | Aérodynamique | Recherches BRM et genèse du programme effet de sol | Contribution directe difficile à isoler |
 | 16 | D | [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) | Moteur | Cofondateur de Cosworth, développement et industrialisation | Paternité du DFV moins individualisable |
 | 17 | D | [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) | Architecture | Lancia D50 et filiation technique pré-F1/F1 | Œuvre en grande partie antérieure à la F1 |
-| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | Châssis | Chef designer de Cooper pendant les titres 1959 et 1960 | Crédit partagé avec John Cooper |
+| 18 | D | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | Châssis | Chef designer de Cooper pendant les titres 1959 et 1960 | Crédit partagé avec [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) |
 | 19 | D | [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) | Électronique | Logiciel de la suspension active Williams | Rôle au sein d'une chaîne collective |
 | 20 | D | [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) | Intégration | Performance répétée chez Benetton et Ferrari | Pas de rupture unique paradigmatique |
 

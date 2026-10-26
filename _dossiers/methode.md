@@ -58,13 +58,13 @@ L'histoire de la F1 aime les héros isolés. Une même révolution mobilise pour
 
 La règle est simple : **on ne crédite pas intégralement plusieurs personnes de la même contribution.** Quatre cas illustrent la difficulté.
 
-**L'effet de sol Lotus.** Peter Wright et Tony Rudd avaient travaillé sur le concept chez BRM. Chez Lotus, Colin Chapman leur demande de repenser la configuration fondamentale de la F1 ; la soufflerie débouche sur la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) au développement. Chapman a dirigé et catalysé le programme qui a rendu l'effet de sol opératoire et dominant ; il ne l'a pas inventé.
+**L'effet de sol Lotus.** [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) avaient travaillé sur le concept chez BRM. Chez Lotus, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) leur demande de repenser la configuration fondamentale de la F1 ; la soufflerie débouche sur la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) au développement. Chapman a dirigé et catalysé le programme qui a rendu l'effet de sol opératoire et dominant ; il ne l'a pas inventé.
 
-**Cooper.** John Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.
+**Cooper.** [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) joue un rôle central.
 
-**Cosworth.** Le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.
+**Cosworth.** Le DFV est une réalisation Cosworth, avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) comme figure technique centrale et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) comme cofondateur et acteur majeur.
 
-**Williams active.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment Patrick Head, Frank Dernie (selon ses propres déclarations), Paddy Lowe et Adrian Newey. Le mérite se distribue selon le rôle réel de chacun.
+**Williams active.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) (selon ses propres déclarations), [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). Le mérite se distribue selon le rôle réel de chacun.
 
 ## Ce que donne la méthode
 

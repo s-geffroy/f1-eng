@@ -57,13 +57,13 @@ F1 history loves isolated heroes. Yet a single revolution involves several roles
 
 The rule is simple: **several people are not given full credit for the same contribution.** Four cases illustrate the difficulty.
 
-**Lotus ground effect.** Peter Wright and Tony Rudd had worked on the concept at BRM. At Lotus, Colin Chapman asked them to rethink the fundamental configuration of the F1 car; the wind tunnel work led to the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) on development. Chapman directed and catalysed the programme that made ground effect workable and dominant; he did not invent it.
+**Lotus ground effect.** [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM. At Lotus, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) asked them to rethink the fundamental configuration of the F1 car; the wind tunnel work led to the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) on development. Chapman directed and catalysed the programme that made ground effect workable and dominant; he did not invent it.
 
-**Cooper.** John Cooper established the rear-engine layout with a design team in which Owen Maddock played a central role.
+**Cooper.** [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) established the rear-engine layout with a design team in which [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) played a central role.
 
-**Cosworth.** The DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major contributor.
+**Cosworth.** The DFV is a Cosworth achievement, with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) as the central technical figure and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) as co-founder and a major contributor.
 
-**Williams active.** The success of the active-suspension Williams cars came from a chain that included, among others, Patrick Head, Frank Dernie (according to his own statements), Paddy Lowe and Adrian Newey. Credit is shared out according to each person's actual role.
+**Williams active.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (according to his own statements), [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). Credit is shared out according to each person's actual role.
 
 ## What the method produces
 
