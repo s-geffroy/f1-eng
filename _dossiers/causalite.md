@@ -53,7 +53,7 @@ L'effet de sol montre quatre de ces mécanismes s'enchaîner en six ans.
 1. **Transfère** : la [soufflerie à tapis roulant]({{ site.baseurl }}/chronologie/#c-imperial-tapis-roulant) de l'Imperial College permet à [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) d'étudier le soubassement ; les radiateurs du Mosquito suggèrent les pontons. La [Lotus 78]({{ site.baseurl }}/chronologie/#j-lotus-78) court en 1977.
 2. **Provoque** : face à l'envolée des vitesses en virage et des accélérations latérales, le règlement 1981 [interdit les jupes]({{ site.baseurl }}/chronologie/#c-fin-des-jupes) et impose une garde au sol de 6cm.
 3. **Contourne** : la [Lotus 88]({{ site.baseurl }}/chronologie/#j-lotus-88) à double châssis tente de garder l'effet de sol malgré la règle ; elle est interdite avant d'avoir couru.
-4. **Ferme** : après une saison 1982 marquée par de graves accidents, le [fond plat]({{ site.baseurl }}/chronologie/#j-fond-plat) obligatoire de 1983 met fin aux voitures à effet de sol.
+4. **Ferme** : après une saison 1982 marquée par de graves accidents, le [fond plat]({{ site.baseurl }}/chronologie/#c-fond-plat) obligatoire de 1983 met fin aux voitures à effet de sol.
 
 Quarante ans plus tard, le règlement 2022 rend au fond de la voiture le rôle principal : la boucle se rouvre.
 

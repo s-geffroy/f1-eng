@@ -308,14 +308,6 @@ jalons:
     entrees: ["colin-chapman", "peter-wright"]
     termes: ["effet-de-sol"]
 
-  - id: "fond-plat"
-    annee: 1983
-    voie: "aero"
-    titre: "The compulsory flat bottom"
-    texte: "Announced on 3 November 1982, it bans ground effect underbodies and skirts; the rear diffuser remains permitted."
-    entrees: ["gordon-murray"]
-    termes: ["fond-plat", "effet-de-sol", "jupes"]
-
   - id: "mp4-2"
     annee: 1984
     voie: "moteur"
@@ -944,14 +936,10 @@ contexte:
         mecanisme: "contourne"
         preuve: "etabli"
         pourquoi: "The twin-chassis Lotus 88 tried to keep ground effect in spite of the skirt ban; it was banned before it ever raced."
-      - jalon: "fond-plat"
-        mecanisme: "ferme"
+      - evenement: "fond-plat"
+        mecanisme: "declenche"
         preuve: "etabli"
         pourquoi: "The 1983 flat bottom completed what the skirt ban had begun; formula1.com links it to the serious accidents of the 1982 season."
-      - jalon: "bt52"
-        mecanisme: "ouvre"
-        preuve: "etabli"
-        pourquoi: "The announcement of the flat bottom for 1983 led to the ground-effect BT51 being shelved: the BT52 was conceived and built in six weeks, with its weight shifted onto the rear axle to make up for the loss of downforce (Mark Hughes)."
       - evenement: "concorde-1981"
         mecanisme: "declenche"
         preuve: "discute"
@@ -1010,6 +998,25 @@ contexte:
     sources:
       - titre: "Motor Sport, Doug Nye, “They stop to conquer” (November 2007)"
         url: "https://www.motorsportmagazine.com/archive/article/november-2007/122/doug-nye"
+  - id: "fond-plat"
+    annee: 1983
+    categorie: "reglement"
+    titre: "The compulsory flat bottom"
+    texte: "Announced on 3 November 1982, after a season marred by serious accidents, the compulsory flat bottom of 1983 bans ground-effect underbodies and skirts; the rear diffuser remains permitted."
+    liens:
+      - jalon: "lotus-78"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "The flat bottom bans the ground-effect underbodies pioneered by the Lotus 78: according to formula1.com, it ends the era of the wing cars."
+      - jalon: "bt52"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The announcement of the flat bottom for 1983 led to the ground-effect BT51 being shelved: the BT52 was conceived and built in six weeks, with its weight shifted onto the rear axle to make up for the loss of downforce (Mark Hughes)."
+    sources:
+      - titre: "Formula1.com, “Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms” (February 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
+      - titre: "Formula1.com, Mark Hughes, “TECH TUESDAY: The ground-breaking Brabham BT52” (August 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
   - id: "quatre-roues-au-plus"
     annee: 1983
     categorie: "reglement"
@@ -1039,8 +1046,8 @@ contexte:
         pourquoi: "In-race refuelling, Brabham's tactical weapon since 1982, was banned for 1984 on safety grounds (Doug Nye)."
       - jalon: "mp4-2"
         mecanisme: "ouvre"
-        preuve: "discute"
-        pourquoi: "With 220 litres for the whole race, the TAG engine's more frugal sequential injection became a decisive advantage (Mark Hughes); but the engine had been ordered as early as October 1981 for its dimensions, not its frugality: the rule rewarded a choice more than it prompted it."
+        preuve: "chronologique"
+        pourquoi: "The rule preceded the MP4/2's success without prompting it: the TAG engine had been ordered as early as October 1981 for its dimensions, not its frugality. With 220 litres for the whole race, its more frugal sequential injection then became a decisive advantage (Mark Hughes)."
     sources:
       - titre: "Motor Sport, Doug Nye, “Doug Nye: ‘McLaren rewrote the history books in 1980s F1 turbo era’” (April 2024)"
         url: "https://motorsportmagazine.com/archive/article/april-2024/25/doug-nye-mclaren-rewrote-the-history-books-in-1980s-f1-turbo-era"

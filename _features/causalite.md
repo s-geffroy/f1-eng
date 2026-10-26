@@ -53,7 +53,7 @@ Ground effect shows four of these mechanisms following one another over six year
 1. **Transfers**: the [rolling-road wind tunnel]({{ site.baseurl }}/en/timeline/#c-imperial-tapis-roulant) at Imperial College lets [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) study the underbody; the Mosquito's radiators suggest the sidepods. The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) races in 1977.
 2. **Provokes**: faced with soaring cornering speeds and g-forces, the 1981 rules [ban skirts]({{ site.baseurl }}/en/timeline/#c-fin-des-jupes) and impose a 6cm ground clearance.
 3. **Circumvents**: the twin-chassis [Lotus 88]({{ site.baseurl }}/en/timeline/#j-lotus-88) tries to keep ground effect in spite of the rule; it is banned before it ever races.
-4. **Closes**: after a 1982 season marred by serious accidents, the mandatory [flat bottom]({{ site.baseurl }}/en/timeline/#j-fond-plat) of 1983 ends the ground-effect cars.
+4. **Closes**: after a 1982 season marred by serious accidents, the mandatory [flat bottom]({{ site.baseurl }}/en/timeline/#c-fond-plat) of 1983 ends the ground-effect cars.
 
 Forty years later, the 2022 rules give the floor of the car the main role again: the loop reopens.
 

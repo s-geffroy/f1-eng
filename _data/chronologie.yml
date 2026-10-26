@@ -308,14 +308,6 @@ jalons:
     entrees: [colin-chapman, peter-wright]
     termes: [effet-de-sol]
 
-  - id: fond-plat
-    annee: 1983
-    voie: aero
-    titre: "Le fond plat obligatoire"
-    texte: "Annoncé le 3 novembre 1982, il interdit les fonds à effet de sol et les jupes ; le diffuseur arrière reste autorisé."
-    entrees: [gordon-murray]
-    termes: [fond-plat, effet-de-sol, jupes]
-
   - id: mp4-2
     annee: 1984
     voie: moteur
@@ -944,14 +936,10 @@ contexte:
         mecanisme: "contourne"
         preuve: "etabli"
         pourquoi: "La Lotus 88 à double châssis cherche à garder l'effet de sol malgré l'interdiction des jupes ; elle est interdite avant d'avoir couru."
-      - jalon: "fond-plat"
-        mecanisme: "ferme"
+      - evenement: "fond-plat"
+        mecanisme: "declenche"
         preuve: "etabli"
         pourquoi: "Le fond plat de 1983 achève ce que l'interdiction des jupes avait commencé ; formula1.com le relie aux graves accidents de la saison 1982."
-      - jalon: "bt52"
-        mecanisme: "ouvre"
-        preuve: "etabli"
-        pourquoi: "L'annonce du fond plat pour 1983 fait abandonner la BT51 à effet de sol : la BT52 est conçue et construite en six semaines, son poids reporté sur l'essieu arrière pour compenser la perte d'appui (Mark Hughes)."
       - evenement: "concorde-1981"
         mecanisme: "declenche"
         preuve: "discute"
@@ -1010,6 +998,25 @@ contexte:
     sources:
       - titre: "Motor Sport, Doug Nye, « They stop to conquer » (novembre 2007)"
         url: "https://www.motorsportmagazine.com/archive/article/november-2007/122/doug-nye"
+  - id: "fond-plat"
+    annee: 1983
+    categorie: "reglement"
+    titre: "Le fond plat obligatoire"
+    texte: "Annoncé le 3 novembre 1982, après une saison marquée par de graves accidents, le fond plat obligatoire de 1983 interdit les fonds à effet de sol et les jupes ; le diffuseur arrière reste autorisé."
+    liens:
+      - jalon: "lotus-78"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Le fond plat interdit les fonds à effet de sol que la Lotus 78 avait inaugurés : selon formula1.com, il met fin à l'ère des voitures-ailes."
+      - jalon: "bt52"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "L'annonce du fond plat pour 1983 fait abandonner la BT51 à effet de sol : la BT52 est conçue et construite en six semaines, son poids reporté sur l'essieu arrière pour compenser la perte d'appui (Mark Hughes)."
+    sources:
+      - titre: "Formula1.com, « Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms » (février 2017)"
+        url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
+      - titre: "Formula1.com, Mark Hughes, « TECH TUESDAY: The ground-breaking Brabham BT52 » (août 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
   - id: "quatre-roues-au-plus"
     annee: 1983
     categorie: "reglement"
@@ -1039,8 +1046,8 @@ contexte:
         pourquoi: "Le ravitaillement en course, arme tactique de Brabham depuis 1982, est interdit pour 1984 pour raisons de sécurité (Doug Nye)."
       - jalon: "mp4-2"
         mecanisme: "ouvre"
-        preuve: "discute"
-        pourquoi: "Avec 220 litres pour toute la course, l'injection séquentielle plus économe du moteur TAG devient un avantage décisif (Mark Hughes) ; mais le moteur avait été commandé dès octobre 1981 pour ses dimensions, non pour sa sobriété : la règle a récompensé un choix plus qu'elle ne l'a suscité."
+        preuve: "chronologique"
+        pourquoi: "La règle précède le succès de la MP4/2 sans l'avoir suscité : le moteur TAG avait été commandé dès octobre 1981 pour ses dimensions, non pour sa sobriété. Avec 220 litres pour toute la course, son injection séquentielle plus économe devient ensuite un avantage décisif (Mark Hughes)."
     sources:
       - titre: "Motor Sport, Doug Nye, « Doug Nye: ‘McLaren rewrote the history books in 1980s F1 turbo era’ » (avril 2024)"
         url: "https://motorsportmagazine.com/archive/article/april-2024/25/doug-nye-mclaren-rewrote-the-history-books-in-1980s-f1-turbo-era"

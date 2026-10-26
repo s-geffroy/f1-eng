@@ -9,7 +9,7 @@ moteur: "BMW, 1.5-litre turbo four-cylinder"
 statut: "Raced in 1983; drivers' title"
 concepteurs: ["gordon-murray", "david-north"]
 termes: ["fond-plat", "turbocompresseur", "ravitaillement", "diffuseur", "composite-carbone"]
-jalons: ["fond-plat", "bt52", "ravitaillement", "turbo-victoire"]
+jalons: ["bt52", "ravitaillement", "turbo-victoire"]
 sources:
   - titre: "Mark Hughes, Formula 1, “Tech Tuesday: the ground-breaking Brabham BT52” (2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"

@@ -9,7 +9,7 @@ moteur: "Cosworth, V8 de 3 litres"
 statut: "A couru en 1977 et 1978"
 concepteurs: ["colin-chapman", "tony-rudd", "ralph-bellamy", "peter-wright", "martin-ogilvie", "tony-southgate"]
 termes: ["effet-de-sol", "venturi", "voiture-aile", "jupes", "diffuseur", "nid-d-abeille", "soufflerie"]
-jalons: ["lotus-78", "fond-plat"]
+jalons: ["lotus-78"]
 sources:
   - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: the Lotus 79, F1's ground effect marvel »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
