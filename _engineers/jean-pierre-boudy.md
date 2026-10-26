@@ -22,6 +22,14 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html"
   - titre: "Renault, “30 ans de Formule 1”"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+  - titre: "GrandPrix.com, “Changes at Peugeot Sport” (October 1995)"
+    url: "https://www.grandprix.com/news/changes-at-peugeot-sport.html"
+  - titre: "GrandPrix.com, “Boudy leaves Peugeot Sport” (February 2001)"
+    url: "https://www.grandprix.com/news/boudy-leaves-peugeot-sport.html"
+  - titre: "GrandPrix.com, “Pollock to provide 'green' engine” (May 2011)"
+    url: "https://www.grandprix.com/ns/ns23169.html"
+  - titre: "OldRacingCars.com, “Jean-Pierre Boudy”"
+    url: "https://www.oldracingcars.com/enginedesigner/Jean-Pierre_Boudy"
 consultation: "26 October 2026"
 image: "/assets/partage/en/jean-pierre-boudy.jpg"
 ---
@@ -31,7 +39,7 @@ Jean-Pierre Boudy is an engine designer at Renault-Gordini, then at Peugeot. Wit
 
 ## At Renault-Gordini
 
-- Born in the Dordogne in July 1944 and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com).
+- Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com).
 - In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines. The 270bhp V6 CH1 went into Alpine's 1973 car.
 - Castaing recalled that he was initially "far less convinced" than Boudy about a turbo running on pump fuel.
 - With [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}), he worked on the turbo version of the V6 that produced the 1975 Alpine A442 (GrandPrix.com, 1990), then, in 1975, on the prototype Renault F1 turbo engine, which first raced in 1977 (GrandPrix.com).
@@ -49,7 +57,15 @@ Jean-Pierre Boudy is an engine designer at Renault-Gordini, then at Peugeot. Wit
 - At the end of 1983, Jean Todt put him in charge of the engine department of the new Peugeot Talbot Sport organisation; his engines won the 1985 and 1986 World Rally titles (GrandPrix.com).
 - He designed the V10 of the Peugeot 905, which won Le Mans in 1992 and 1993, then Peugeot's F1 V10, raced by McLaren in 1994 (GrandPrix.com).
 - He drew that F1 V10 on a clean sheet of paper; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans").
-- In 1995, he was technical director of Peugeot Sport (GrandPrix.com, 1995).
+- In the early 1990s, he succeeded André de Cortanze as technical director of Peugeot Sport (GrandPrix.com, 2001). In July 1995, he still held the post (GrandPrix.com).
+- In October 1995, Peugeot was supplying Jordan, and mechanical failures had cost the team several good results; Boudy, as head of Peugeot Sport, created a technical liaison post between Jordan and Peugeot (GrandPrix.com, "Changes at Peugeot Sport").
+- OldRacingCars credits him with Peugeot's F1 engines from 1994 to 2000.
+- In February 2001, after Asiatech took over the former Peugeot Sport, he left the company; GrandPrix.com found the departure unsurprising, as his engines had not performed well in recent years. Chassis engineer Enrique Scalabroni took over as technical director.
+
+## After Peugeot
+
+- In May 2011, GrandPrix.com named him among those involved in Craig Pollock's PURE project, an engine for the 2013 rules (1.6-litre four-cylinder turbo), with Mecachrome and TEOS Powertrain.
+- OldRacingCars then describes him as an independent design consultant.
 
 ## Attribution
 
@@ -59,4 +75,4 @@ On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the a
 
 ## A short entry
 
-Boudy is documented mainly through one biographical profile and mentions in articles devoted to Renault and Peugeot. This site sticks to those facts.
+Boudy is documented mainly through one biographical profile, GrandPrix.com news items and mentions in articles devoted to Renault and Peugeot; no interview with him has been found, and the sources do not detail Peugeot's F1 engines after 1994. This site sticks to those facts.

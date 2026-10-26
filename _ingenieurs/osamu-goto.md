@@ -14,6 +14,12 @@ sources:
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
   - titre: "Motor Sport Magazine, « McLaren-onda 1989 Constructor's Champion » (janvier 1990)"
     url: "https://www.motorsportmagazine.com/archive/article/january-1990/53/mclaren-onda-1989-constructors-champion/"
+  - titre: "GrandPrix.com, « Goto to go to Ford » (juin 1996)"
+    url: "https://grandprix.com/news/goto-to-go-to-ford.html"
+  - titre: "GrandPrix.com, « Goto and Sauber » (octobre 1996)"
+    url: "https://grandprix.com/news/goto-and-sauber.html"
+  - titre: "OldRacingCars.com, « Osamu Goto » (fiche biographique, non datée)"
+    url: "https://www.oldracingcars.com/enginedesigner/Osamu_Goto"
 consultation: "26 octobre 2026"
 image: "/assets/partage/osamu-goto.jpg"
 ---
@@ -23,6 +29,7 @@ Osamu Goto est l'ingénieur qui dirige le programme moteur de F1 de Honda pendan
 
 ## Chez Honda
 
+- Né le 27 novembre 1948 à Tokyo, diplômé en génie aéronautique selon OldRacingCars.com.
 - Diplômé en mars 1970, il entre le mois suivant au département de recherche de Honda ; il se spécialise d'abord dans les émissions d'échappement (GrandPrix.com).
 - En 1984, promu ingénieur en chef, il rejoint l'équipe course de Honda pour développer le moteur [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) de 1,5 litre ; un an plus tard, il devient chef de l'équipe course (GrandPrix.com).
 - En 1986 et 1987, l'équipe d'ingénieurs qu'il dirige remporte avec Williams le titre des constructeurs (GrandPrix.com).
@@ -32,12 +39,21 @@ Osamu Goto est l'ingénieur qui dirige le programme moteur de F1 de Honda pendan
 
 ## Après Honda
 
-Selon GrandPrix.com, Ron Dennis le recrute chez McLaren comme « Executive Engineer » à la fin de 1991, sans que son rôle y soit jamais vraiment expliqué. Il passe ensuite chez Ferrari, à la tête de la recherche et du développement moteur, puis, au début de 1997, à la tête du département moteur de Sauber.
+- **McLaren.** Selon GrandPrix.com, Ron Dennis le recrute chez McLaren comme « Executive Engineer » à la fin de 1991, sans que son rôle y soit jamais vraiment expliqué. OldRacingCars.com juge ce passage infructueux.
+- **Ferrari.** Il entre chez Ferrari en janvier 1994 pour travailler sur le nouveau V10, puis y dirige la recherche et le développement moteur (GrandPrix.com, juin 1996).
+- **Ford, une rumeur.** En juin 1996, GrandPrix.com le dit sur le départ, pour aider Cosworth à développer le nouveau V10 de Ford. La nouvelle d'octobre 1996 l'envoie ailleurs ; le site ne retient pas ce départ comme un fait.
+- **Petronas et Sauber.** En octobre 1996, GrandPrix.com rapporte que le gouvernement malaisien a choisi de créer sa propre société de moteurs, confiée à Goto : il doit installer en Angleterre une structure pour concevoir et construire un V10 Petronas, que Sauber espère utiliser en 1998, et une trentaine de jeunes ingénieurs malaisiens doivent le rejoindre. Au début de 1997, il prend la tête du département moteur de Sauber (GrandPrix.com).
+- **Ensuite.** Selon OldRacingCars.com, il dirige aujourd'hui sa propre société de conseil en ingénierie.
 
 ## Attribution
 
 Les moteurs Honda de cette époque sont l'œuvre d'un département entier ; les sources consultées font de Goto son chef, sans lui attribuer la conception d'un moteur précis. Sur la MP4/4, la demande d'un moteur plus bas vient de [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), alors que la paternité de la voiture reste discutée entre lui et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Enfin, la fiche GrandPrix.com énumère des titres des constructeurs de 1986 à 1991, mais parle de « cinq » titres consécutifs pour Honda : le décompte est incohérent dans la source même.
 
+## Divergences entre les sources
+
+- **La durée à la tête du programme F1** : six ans selon GrandPrix.com en juin 1996 ; OldRacingCars.com parle d'environ cinq ans de succès.
+- **Entre McLaren et Ferrari** : OldRacingCars.com place un retour au Japon, chez Tokyo R&D, que les articles de GrandPrix.com ne mentionnent pas.
+
 ## Une entrée courte
 
-Goto est surtout documenté par une fiche biographique et par des mentions dans des articles consacrés à McLaren. Le site s'en tient à ces faits.
+Goto est surtout documenté par des fiches biographiques, de brèves nouvelles et des mentions dans des articles consacrés à McLaren. Le site s'en tient à ces faits.

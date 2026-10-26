@@ -18,6 +18,18 @@ sources:
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
   - titre: "Jonathan Noble, Autosport, “Ross Brawn says Mercedes' new technical structure is paying off” (March 2012)"
     url: "https://www.autosport.com/f1/news/98225/brawn-technical-structure-paying-off"
+  - titre: "Will Gray, Atlas F1 (Autosport), “Interview with Geoff Willis: Turning a BAR into a Williams” (April 2002)"
+    url: "http://atlasf1.autosport.com/2002/san/gray.html"
+  - titre: "Atlas F1 (Autosport), “BAR to Start 2004 Season with Hybrid Car” (June 2003)"
+    url: "https://www.autosport.com/f1/news/bar-to-start-2004-season-with-hybrid-car-5063393/5063393/"
+  - titre: "Jonathan Noble, Autosport, “Willis: Fuel Tank was Conventional” (May 2005)"
+    url: "https://www.autosport.com/f1/news/willis-fuel-tank-was-conventional-5331817/5331817/"
+  - titre: "Edd Straw, Autosport, “Newey downplays effect of Willis' exit” (July 2009)"
+    url: "https://www.autosport.com/f1/news/newey-downplays-effect-of-willis-exit-4430923/4430923/"
+  - titre: "Lawrence Barretto, Autosport, “Paddy Lowe's departure from Mercedes F1 team confirmed” (January 2017)"
+    url: "https://www.autosport.com/f1/news/paddy-lowes-departure-from-mercedes-f1-team-confirmed-5025267/5025267/"
+  - titre: "INEOS, “INEOS Britannia launch world-class team to challenge for 37th America's Cup” (October 2021)"
+    url: "https://www.ineos.com/fr/Actualites/Groupe-Ineos/ineos-britannia-launch-world-class-team-to-challenge-for-37th-americas-cup/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/geoff-willis.jpg"
 ---
@@ -29,20 +41,19 @@ Geoff Willis came from naval hydrodynamics. Arriving in F1 in 1990, he was one o
 
 - **Before F1.** A mechanical engineer trained at Cambridge, he worked on hydrodynamics, including submarines and torpedoes, and earned a doctorate at Exeter University. From 1987 he spent three years designing hulls and keels for the British America's Cup challenge in San Diego, and became heavily involved in CFD.
 - **Leyton House, 1990.** There he developed CFD tools with Newey. GrandPrix.com calls him "the first engineer to use computational fluid dynamics in F1"; Crash.net says, more cautiously, that he helped Newey introduce it into aerodynamic design.
-- **Williams.** He followed Newey there as a CFD specialist and did aerodynamic research with him and Egbahl Hamidy. When both left in 1997, he became chief aerodynamicist and worked on all the cars with chief designer Gavin Fisher.
-- **BAR-Honda.** Technical director from 2002, he rebuilt the design staff and led the design of the **BAR 005**. He says the job let him "take on the design task in its full range of challenges". He left Honda in June 2006, a few hours after Shuhei Nakamoto was named senior technical director above him.
-- **Red Bull, HRT.** Technical director of Red Bull Racing from 2007 to 2009, he became a consultant to HRT in March 2010.
-- **Mercedes.** Technology director from 17 October 2011, under technical director [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), he led aerodynamics, vehicle dynamics, control systems and simulation. [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) saw his division of work with [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) as "natural areas of responsibility".
+- **Williams.** He followed Newey there as a CFD specialist and did aerodynamic research with him and Egbahl Hamidy. When both left in 1997, he became chief aerodynamicist and worked on all the cars with chief designer Gavin Fisher. In 2002, Atlas F1 described him as the aerodynamicist of the Williams-BMWs, under technical director [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), with Fisher handling the mechanical side.
+- **BAR-Honda.** Technical director from 2002, he rebuilt the design staff and led the design of the **BAR 005**. He says the job let him "take on the design task in its full range of challenges". On arrival, he found the team "too inward-looking" and reorganised it; he announced for 2003 a completely new car, with nothing carried over, "mainstream" rather than radical (Atlas F1).
+- **The hybrid car (2003).** Like Ferrari, BAR planned to start 2004 with an interim car: the 005 chassis with the 2004 engine, gearbox and rear suspension, for the season's opening long-haul Grands Prix (Atlas F1, June 2003).
+- **The fuel tank (2005).** The FIA Court of Appeal banned BAR for two races over the design of its fuel tank. In his witness statement, Willis called it "normal Formula One design technology", with similar designs used by other teams; he had therefore not asked the FIA for clarification (Autosport). He left Honda in June 2006, a few hours after Shuhei Nakamoto was named senior technical director above him.
+- **Red Bull, HRT.** Technical director of Red Bull Racing from 2007, he left the team in July 2009 after his job was made redundant: Newey explained that four or five department heads would be given more responsibility instead of a single technical director (Autosport). He became a consultant to HRT in March 2010.
+- **Mercedes.** Technology director from 17 October 2011, under technical director [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), he led aerodynamics, vehicle dynamics, control systems and simulation. [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) saw his division of work with [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) as "natural areas of responsibility". In January 2017, when [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) left, Mercedes still named him, as technology director, among the senior directors leading its technical organisation (Autosport).
+- **The America's Cup.** In October 2021, INEOS announced that Willis, through Mercedes-AMG F1 Applied Science, would be dedicated to the British challenge INEOS Britannia as technical director; the announcement recalls his time with Peter de Savary's Blue Arrow Challenge.
 
 ## Attribution
 
-The arrival of CFD in F1 was a shared piece of work: the sources consistently pair Willis with Newey, at Leyton House and then at Williams. This site does not credit him alone with introducing it.
+The arrival of CFD in F1 was a shared piece of work: the sources consistently pair Willis with Newey, at Leyton House and then at Williams. This site does not credit him alone with introducing it. Beyond that, the sources consulted credit him with no specific technical solution on the Williams, Red Bull or Mercedes cars: they describe leadership roles.
 
 ## Source discrepancies
 
-- **Time at Williams**: 1991 to 2002 according to Crash.net; GrandPrix.com, in 2006, speaks of five years as head of aerodynamics.
+- **Time at Williams**: 1991 to 2002 according to Crash.net; about twelve years according to Atlas F1 in 2002; GrandPrix.com, in 2006, speaks of five years as head of aerodynamics.
 - **Arrival at BAR**: late 2001 according to Crash.net, early 2002 according to GrandPrix.com.
-
-## A short entry
-
-The sources consulted credit him with no specific technical solution on the Williams, Red Bull or Mercedes cars, nor do they document the end of his time at Mercedes. This site sticks to those facts.

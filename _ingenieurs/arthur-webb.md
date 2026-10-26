@@ -16,6 +16,14 @@ sources:
     url: "https://communicationskw.podbean.com/e/an-interview-with%e2%80%a6-arthur-webb-fraes-on-bringing-carbon-fibre-to-civil-aviation"
   - titre: "Royal Aeronautical Society, « An interview with… Arthur Webb FRAeS joins Ferrari Formula 1 Racing » (juin 2025)"
     url: "https://communicationskw.podbean.com/e/an-interview-with%e2%80%a6-arthur-webb-fraes-joins-ferrari-formula-1-racing"
+  - titre: "Royal Aeronautical Society, « An interview with… Arthur Webb FRAeS on stressing the Armstrong-Whitworth Argosy and the Lockheed C5 Galaxy wings » (mai 2025)"
+    url: "https://communicationskw.podbean.com/e/an-interview-with%e2%80%a6-arthur-webb-fraes-on-stressing-the-armstrong-whitworth-argosy-and-the-lockheed-c5-galaxy-wings"
+  - titre: "Royal Aeronautical Society, « An interview with… Arthur Webb FRAeS on secret projects at ML Aviation and Marconi Space » (juin 2025)"
+    url: "https://communicationskw.podbean.com/e/an-interview-with%e2%80%a6arthur-webb-fraes-on-secret-projects-at-ml-aviation-and-marconi-space"
+  - titre: "Royal Aeronautical Society, « An interview with… Arthur Webb FRAeS on consultancy and joining the board » (juin 2025)"
+    url: "https://communicationskw.podbean.com/e/an-interview-with%e2%80%a6-arthur-webb-fraes-on-consultancy-and-joining-the-board"
+  - titre: "James Elson, Motor Sport Magazine, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment/"
 consultation: "26 octobre 2026"
 image: "/assets/partage/arthur-webb.jpg"
 ---
@@ -25,25 +33,30 @@ Arthur Webb est un ingénieur aéronautique britannique, spécialiste des struct
 
 ## Dans l'aviation
 
+- **Formation et débuts.** Formé à l'ingénierie aéronautique à Queen Mary, il calcule la structure des ailes de l'Armstrong Whitworth Argosy, un avion qui fait un usage précoce des composites collés. Parti aux États-Unis dans les années 1960, au temps de la « fuite des cerveaux », il y travaille sur les ailes du Lockheed C-5 Galaxy.
 - **Le carbone en aviation civile.** Chargé de trouver une application pratique à la fibre de carbone mise au point au Royal Aircraft Establishment, il dirige l'équipe qui conçoit la première pièce en carbone certifiée sur un avion civil : des panneaux de gouverne de direction, porteurs, pour le VC10.
 - **Rolls-Royce.** Il raconte avoir convaincu Rolls-Royce d'adopter le carbone pour des applications structurelles.
 - **Concorde.** Ses dernières années à la BAC, selon la Royal Aeronautical Society, passent par Concorde et par la période difficile qui mène à la nationalisation de l'industrie aéronautique britannique.
+- **ML Aviation et Marconi Space.** Après avoir quitté la BAC nationalisée, à Weybridge, il rejoint le petit bureau des projets spéciaux de ML Aviation, puis Marconi Space : drones, bombe anti-piste JP233 du Tornado, satellite Skynet 4, projet Eureka de l'Agence spatiale européenne.
 
 ## Chez McLaren, puis chez Ferrari
 
-- **La MP4/1 (1981).** Selon Autosport, les premiers contacts avec British Aerospace à Weybridge mènent à une présentation : Webb réunit l'expertise en conception de matériaux dont Barnard a besoin et une approche à l'ancienne, à la règle à calcul, que Barnard apprécie. La Royal Aeronautical Society précise qu'il travaille avec Barnard en consultant informel, sur la première coque carbone d'une F1, au bénéfice des performances comme de la sécurité du pilote.
+- **La MP4/1 (1981), selon Barnard.** Barnard raconte à Motor Sport avoir été invité chez British Aerospace, à Weybridge, où l'on fabriquait le capotage extérieur du moteur Rolls-Royce RB211 en sandwich de fibre de carbone et de [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium. Il y rencontre Webb, un ingénieur « de la vieille école », venu du temps de la règle à calcul mais doté d'une « immense connaissance du carbone » ; de leurs discussions ressort que le carbone a les propriétés qu'il cherche.
+- **La MP4/1, selon Autosport et la Royal Aeronautical Society.** Selon Autosport, les premiers contacts avec British Aerospace à Weybridge mènent à une présentation : Webb réunit l'expertise en conception de matériaux dont Barnard a besoin et une approche à l'ancienne, à la règle à calcul, que Barnard apprécie. La Royal Aeronautical Society précise qu'il travaille avec Barnard en consultant informel, sur la première coque carbone d'une F1, au bénéfice des performances comme de la sécurité du pilote.
 - **Ferrari.** Quand Barnard envisage de rejoindre Ferrari, il veut Webb pour la fabrication en carbone et le calcul des contraintes. L'équipe a alors environ un an pour monter le Guildford Technical Office avant que la voiture ne prenne le départ, et Webb doit aussi obtenir l'accord d'Enzo Ferrari.
+- **Après Ferrari.** Il devient ingénieur-conseil indépendant, sur des projets allant des trolleybus de la Hongrie d'après la guerre froide aux lits d'IRM et à la défense. L'un de ses clients, St Bernard's Composites, lui confie la direction technique et un siège au conseil d'administration ; la société travaille alors avec Rolls-Royce, Airbus, Martin-Baker et l'Imperial College.
 - **Ailleurs.** Il a aussi cherché à introduire le carbone dans l'aviron.
 
 ## Attribution
 
-Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur.
+Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone ; le récit de Barnard lui-même fait naître ce choix de ses échanges avec Webb. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur.
 
 ## Divergences entre les sources
 
-- **Son employeur** : la Royal Aeronautical Society le rattache à la BAC ; Autosport parle de British Aerospace à Weybridge.
+- **Son employeur** : la Royal Aeronautical Society le rattache à la BAC, à Weybridge, dont elle signale la nationalisation ; Autosport et Barnard parlent de British Aerospace à Weybridge. Le lieu concorde ; le nom de l'entreprise diffère.
+- **La chronologie** : les résumés de l'entretien ne datent ni son départ de la BAC ni ses passages chez ML Aviation et Marconi Space ; le site ne peut pas les situer par rapport à la MP4/1.
 - **La nature des sources** : l'essentiel de ce qui précède vient des résumés d'un entretien d'histoire orale donné par Webb lui-même en 2024 et 2025 pour la Royal Aeronautical Society et la National Aerospace Library. Le site n'a pas écouté les enregistrements ; il s'en tient aux résumés publiés.
 
 ## Une entrée courte
 
-Webb est surtout connu par son propre témoignage et par une mention dans l'histoire de la MP4/1. Le site s'en tient à ces faits.
+Webb est surtout connu par son propre témoignage et par ce qu'en disent Barnard et l'histoire de la MP4/1. Le site s'en tient à ces faits.

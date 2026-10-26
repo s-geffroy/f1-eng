@@ -22,6 +22,14 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html"
   - titre: "Renault, « 30 ans de Formule 1 »"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+  - titre: "GrandPrix.com, « Changes at Peugeot Sport » (octobre 1995)"
+    url: "https://www.grandprix.com/news/changes-at-peugeot-sport.html"
+  - titre: "GrandPrix.com, « Boudy leaves Peugeot Sport » (février 2001)"
+    url: "https://www.grandprix.com/news/boudy-leaves-peugeot-sport.html"
+  - titre: "GrandPrix.com, « Pollock to provide 'green' engine » (mai 2011)"
+    url: "https://www.grandprix.com/ns/ns23169.html"
+  - titre: "OldRacingCars.com, « Jean-Pierre Boudy »"
+    url: "https://www.oldracingcars.com/enginedesigner/Jean-Pierre_Boudy"
 consultation: "26 octobre 2026"
 image: "/assets/partage/jean-pierre-boudy.jpg"
 ---
@@ -31,7 +39,7 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [Fr
 
 ## Chez Renault-Gordini
 
-- Né en Dordogne en juillet 1944, formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com).
+- Né en Dordogne en juillet 1944 (à Terrasson-Lavilledieu, le 31, selon OldRacingCars), formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com).
 - En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault. Le V6 CH1, de 270 ch, équipe l'Alpine de 1973.
 - Castaing racontait avoir d'abord été « bien moins convaincu » que Boudy par un turbo fonctionnant au carburant du commerce.
 - Avec [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), il travaille à la version turbo du V6, qui donne l'Alpine A442 de 1975 (GrandPrix.com, 1990), puis, en 1975, au prototype du moteur turbo de F1 de Renault, qui court pour la première fois en 1977 (GrandPrix.com).
@@ -49,7 +57,15 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [Fr
 - Fin 1983, Jean Todt lui confie le service moteur de la nouvelle structure Peugeot Talbot Sport ; ses moteurs gagnent les titres mondiaux des rallyes 1985 et 1986 (GrandPrix.com).
 - Il conçoit le V10 de la Peugeot 905, victorieuse au Mans en 1992 et 1993, puis le V10 de F1 de Peugeot, utilisé par McLaren en 1994 (GrandPrix.com).
 - Pour ce V10 de F1, il part d'une feuille blanche ; le moteur prévoit dès le départ le rappel pneumatique des soupapes (GrandPrix.com, « Peugeot's F1 plans »).
-- En 1995, il est directeur technique de Peugeot Sport (GrandPrix.com, 1995).
+- Au début des années 1990, il succède à André de Cortanze comme directeur technique de Peugeot Sport (GrandPrix.com, 2001). En juillet 1995, il occupe toujours ce poste (GrandPrix.com).
+- En octobre 1995, Peugeot fournit Jordan, et les casses mécaniques ont privé l'équipe de plusieurs bons résultats ; Boudy, à la tête de Peugeot Sport, crée un poste de liaison technique entre Jordan et Peugeot (GrandPrix.com, « Changes at Peugeot Sport »).
+- OldRacingCars le crédite des moteurs de F1 Peugeot de 1994 à 2000.
+- En février 2001, après la reprise de l'ancien Peugeot Sport par Asiatech, il quitte l'entreprise ; GrandPrix.com juge ce départ peu surprenant, ses moteurs n'ayant pas brillé les dernières années. Enrique Scalabroni, ingénieur châssis, prend la direction technique.
+
+## Après Peugeot
+
+- En mai 2011, GrandPrix.com le cite parmi les participants au projet PURE de Craig Pollock, un moteur destiné au règlement de 2013 (quatre cylindres turbo de 1,6 litre), avec Mecachrome et TEOS Powertrain.
+- OldRacingCars le décrit ensuite comme consultant indépendant.
 
 ## Attribution
 
@@ -59,4 +75,4 @@ Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme a
 
 ## Une entrée courte
 
-Boudy est surtout documenté par une fiche biographique et par des mentions dans des articles consacrés à Renault et à Peugeot. Le site s'en tient à ces faits.
+Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot ; aucun entretien avec lui n'a été trouvé, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.
