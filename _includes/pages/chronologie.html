@@ -2,7 +2,7 @@
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
-{%- assign debut = 1945 -%}
+{%- assign debut = 1940 -%}
 {%- assign fin = 2026 -%}
 {%- assign jalons = D.chronologie.jalons | sort: "annee" -%}
 {%- assign contexte = D.chronologie.contexte | sort: "annee" -%}
@@ -31,6 +31,8 @@
 
   <div class="frise-defilement">
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
+      <p class="frise-zone frise-zone-haut" aria-hidden="true">{{ T.chrono.innovations }}</p>
+      <p class="frise-zone frise-zone-bas" aria-hidden="true">{{ T.chrono.contexte }}</p>
       <ol class="frise-innovations" aria-label="{{ T.chrono.innovations }}">
         {%- for j in jalons %}
         {%- assign rang = -1 -%}
@@ -63,8 +65,10 @@
         {%- endfor %}
       </ol>
       <div class="frise-axe" aria-hidden="true">
-        {%- for a in (debut..fin) %}{% assign m = a | modulo: 10 %}{% if m == 0 %}
+        {%- for a in (debut..fin) %}{% assign m = a | modulo: 10 %}{% assign m5 = a | modulo: 5 %}{% if m == 0 %}
         <span class="frise-decennie" style="--annee: {{ a }};">{{ a }}</span>
+        {%- elsif m5 == 0 %}
+        <span class="frise-lustre" style="--annee: {{ a }};"></span>
         {%- endif %}{% endfor %}
       </div>
       <ol class="frise-contexte" aria-label="{{ T.chrono.contexte }}">
@@ -141,7 +145,7 @@
   <ol class="jalons-liste">
     {%- for c in contexte %}
     {%- assign cat = D.chronologie.categories | where: "id", c.categorie | first %}
-    <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}">
+    <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}" data-categorie="{{ c.categorie }}">
       <p class="fiche-jalon-annee">{{ c.annee }}</p>
       <div class="fiche-jalon-corps">
         <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
@@ -163,9 +167,11 @@
 </section>
 
 <script>
-/* Frise : rien n'est ouvert au chargement. Un clic sur un repère ouvre sa fiche dans le panneau.
-   Le contexte est masqué par défaut ; les boutons de catégorie l'affichent.
-   Sans JavaScript, tout est visible et chaque repère reste un lien vers sa fiche dans les listes. */
+/* Frise : rien n'est ouvert ni sélectionné au chargement, même si l'adresse vise un repère
+   (le navigateur descend alors simplement à sa fiche dans la liste). Un clic sur un repère
+   ouvre sa fiche dans le panneau, sans toucher à l'adresse. Le contexte est masqué par défaut ;
+   les boutons de catégorie l'affichent. Sans JavaScript, tout est visible et chaque repère
+   reste un lien vers sa fiche dans les listes. */
 (function () {
   var plan = document.querySelector(".frise-plan");
   var reperes = Array.prototype.slice.call(document.querySelectorAll(".jalon, .evenement"));
@@ -207,7 +213,6 @@
     courant = null;
     panneau.hidden = true;
     reperes.forEach(function (r) { r.classList.remove("jalon-actif"); r.removeAttribute("aria-current"); });
-    history.replaceState(null, "", location.pathname + location.search);
   }
 
   function ouvrir(id, focus, defiler) {
@@ -217,6 +222,8 @@
     if (li && !actives[li.dataset.categorie]) { actives[li.dataset.categorie] = true; rangerContexte(); }
     courant = id;
     fiche.innerHTML = source.innerHTML;
+    // couleur du panneau : celle de la catégorie pour un événement de contexte
+    if (source.dataset.categorie) panneau.dataset.categorie = source.dataset.categorie; else delete panneau.dataset.categorie;
     panneau.hidden = false;
     var actifR = null;
     reperes.forEach(function (r) {
@@ -226,7 +233,6 @@
     });
     if (actifR && focus) actifR.focus();
     if (actifR && defiler !== false) actifR.scrollIntoView({ block: "nearest", inline: "center", behavior: doux ? "smooth" : "auto" });
-    history.replaceState(null, "", "#" + id);
   }
   // pas de +1 / -1 parmi les repères visibles, à partir d'un repère donné (par défaut, celui ouvert)
   function decaler(pas, focus, depuis) {
@@ -265,8 +271,5 @@
   document.getElementById("frise-fermer").addEventListener("click", fermer);
 
   rangerContexte();
-  // au chargement, rien n'est sélectionné, sauf si l'adresse vise un repère précis
-  var cible = /^#[jc]-/.test(location.hash) ? location.hash.slice(1) : null;
-  if (cible) ouvrir(cible, false, true);
 })();
 </script>

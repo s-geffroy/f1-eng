@@ -182,7 +182,7 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 - `_data/chronologie.yml` : un jalon = annee, voie (architecture, aero,
   moteur, transmission, methode), titre, texte, entrees, termes. Il ne reprend
   que des faits deja sources dans les entrees citees. Repere rouge si une entree
-  du Tier A est citee. La frise est un axe unique (1945-2026) : les jalons
+  du Tier A est citee. La frise est un axe unique (1940-2026) : les jalons
   au-dessus, empiles en rangees (deux reperes a moins de 2 ans changent de rangee).
 - Meme fichier, `contexte` : evenements sous l'axe (reglement, securite,
   economie, technologie), masques au chargement et affiches par categorie.

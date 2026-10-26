@@ -20,7 +20,6 @@
   --titre: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
   --texte: "Spectral", Georgia, "Times New Roman", serif;
 
-  --colonne: 38rem;
   --marge: 19rem;
   --gouttiere: clamp(1rem, 4vw, 3rem);
 }
@@ -57,7 +56,8 @@ a:hover { text-decoration-color: currentColor; text-decoration-thickness: 2px; }
 
 /* ---------- En-tête et pied ---------- */
 
-header.site, main, footer.site { max-width: 72rem; margin-inline: auto; }
+/* le contenu occupe toute la largeur disponible, aux gouttières près (demande du propriétaire) */
+header.site, main, footer.site { margin-inline: auto; }
 
 header.site {
   display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
@@ -81,20 +81,19 @@ footer.site {
   padding-block: 1.25rem 2.5rem;
   color: var(--mine); font-size: 0.875rem; line-height: 1.5;
 }
-footer.site p { max-width: 44rem; margin: 0; }
+footer.site p { margin: 0; }
 
 /* ---------- Titres communs ---------- */
 
 h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; letter-spacing: 0.005em; }
 
-.accroche { font-style: italic; font-size: 1.3125rem; line-height: 1.45; color: var(--mine); max-width: var(--colonne); margin: 0.5rem 0 0; }
+.accroche { font-style: italic; font-size: 1.3125rem; line-height: 1.45; color: var(--mine); margin: 0.5rem 0 0; }
 
 .page-tete { margin-bottom: 3rem; }
 .page-tete h1 { font-size: clamp(2.5rem, 6vw, 3.75rem); margin: 0; }
 
 /* ---------- Texte courant (entrées et dossiers) ---------- */
 
-.texte { max-width: var(--colonne); }
 .texte > :first-child { margin-top: 0; }
 .texte h2 { font-size: 1.5rem; margin: 2.25em 0 0.5em; }
 .texte h3 { font-size: 1.3125rem; margin: 1.75em 0 0.5em; }
@@ -124,7 +123,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 
 .entree {
   display: grid;
-  grid-template-columns: minmax(0, var(--colonne)) var(--marge);
+  grid-template-columns: minmax(0, 1fr) var(--marge);
   grid-template-areas: "tete tete" "texte marge" "suite suite";
   column-gap: clamp(2rem, 5vw, 5rem);
   justify-content: start;
@@ -210,10 +209,9 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 
 /* ---------- Dossier ---------- */
 
-.dossier-tete { margin-bottom: 2.5rem; max-width: 48rem; }
+.dossier-tete { margin-bottom: 2.5rem; }
 .dossier-ordre { font-family: var(--titre); font-size: 1rem; font-weight: 500; color: var(--mine); margin: 0 0 0.5rem; }
 .dossier-tete h1 { font-size: clamp(2.25rem, 5.5vw, 3.5rem); margin: 0; }
-.dossier .suite { max-width: var(--colonne); }
 
 /* ---------- Index (accueil) ---------- */
 
@@ -308,8 +306,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .tier[data-tier="D"] { border-left-color: var(--tier-d); }
 .tier-tete h2 { font-size: clamp(1.75rem, 4vw, 2.25rem); margin: 0 0 0.5rem; }
 .tier-lettre { display: block; font-size: 1.125rem; font-weight: 500; color: var(--mine); }
-.tier-tete p { max-width: var(--colonne); margin: 0 0 1rem; }
-.tier-liste { margin: 0; padding-left: 2.25rem; max-width: 48rem; font-family: var(--titre); font-size: 1.25rem; }
+.tier-tete p { margin: 0 0 1rem; }
+.tier-liste { margin: 0; padding-left: 2.25rem; font-family: var(--titre); font-size: 1.25rem; }
 .tier-liste li { padding-block: 0.35rem; border-bottom: var(--trait-fin) solid var(--trait-clair); }
 .tier-liste li::marker { font-weight: 700; font-variant-numeric: tabular-nums; }
 .tier-liste a { display: flex; align-items: baseline; gap: 0.75rem; text-decoration: none; }
@@ -339,23 +337,31 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .chaine li > span { color: var(--mine); font-weight: 500; }
 
 /* ---------- Chronologie : un axe unique ----------
-   Années de --debut à --fin ; chaque repère est placé par --annee et empilé par --rang.
-   Au-dessus de l'axe, les innovations (losange rouge : Tier A) ; en dessous, le contexte,
-   une forme par catégorie, affiché à la demande. */
+   Années de --debut à --fin ; chaque repère est placé par --annee et empilé par --rang,
+   relié à l'axe par une tige. Au-dessus, les innovations (losange rouge : Tier A) ;
+   l'axe est une règle graduée ; en dessous, le contexte, une couleur et une forme par
+   catégorie, affiché à la demande. */
+
+/* couleurs du contexte : distinctes du rouge du Tier A, contraste AA avec le blanc */
+[data-categorie="reglement"], .repere-reglement { --c: #8a5a00; }
+[data-categorie="securite"], .repere-securite { --c: #7a3e9d; }
+[data-categorie="economie"], .repere-economie { --c: #2e7348; }
+[data-categorie="technologie"], .repere-technologie { --c: #12707a; }
 
 .frise-filtres { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 0.75rem; }
 .frise-filtres p { margin: 0 0.25rem 0 0; font-family: var(--titre); font-size: 1.0625rem; font-weight: 600; }
 .filtre-contexte {
-  display: inline-flex; align-items: center; gap: 0.4rem;
+  display: inline-flex; align-items: center; gap: 0.45rem;
   font: 600 1rem/1.4 var(--titre); color: var(--graphite); cursor: pointer;
-  background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-radius: 0; padding: 0.25rem 0.65rem;
+  background: var(--feuille); border: var(--trait-fin) solid var(--c); border-radius: 0;
+  box-shadow: inset 4px 0 0 var(--c); padding: 0.3rem 0.7rem 0.3rem 0.8rem;
 }
-.filtre-contexte .repere-contexte { width: 0.9rem; height: 0.9rem; }
+.filtre-contexte .repere-contexte { width: 0.95rem; height: 0.95rem; }
 .filtre-nombre { font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums; }
-.filtre-contexte:hover { box-shadow: inset 0 -3px 0 var(--graphite); }
-.filtre-contexte[aria-pressed="true"] { background: var(--graphite); color: var(--feuille); }
-.filtre-contexte[aria-pressed="true"] .filtre-nombre { color: var(--trait-clair); }
-.filtre-contexte[aria-pressed="true"] .repere-contexte { fill: var(--graphite); stroke: var(--feuille); }
+.filtre-contexte:hover { background: color-mix(in srgb, var(--c) 10%, var(--feuille)); }
+.filtre-contexte[aria-pressed="true"] { background: var(--c); color: var(--feuille); box-shadow: none; }
+.filtre-contexte[aria-pressed="true"] .filtre-nombre { color: var(--feuille); opacity: 0.85; }
+.filtre-contexte[aria-pressed="true"] .repere-contexte { fill: var(--feuille); stroke: var(--feuille); }
 .filtre-contexte:focus-visible { outline: 2px solid var(--graphite); outline-offset: 2px; }
 
 .frise-defilement {
@@ -365,33 +371,57 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   -webkit-overflow-scrolling: touch;
 }
 .frise-plan {
-  --pas: 1.6rem; --cote: 2rem;
-  --haut: calc(var(--rangs-haut, 4) * var(--pas) + 2.75rem);
+  --pas: 1.6rem; --cote: 2.5rem; --regle: 2rem;
+  --haut: calc(var(--rangs-haut, 4) * var(--pas) + 3rem);
   --bas: calc(var(--rangs-bas, 1) * var(--pas) + 2.75rem);
   position: relative; min-width: 64rem;
-  height: calc(var(--haut) + 2rem + var(--bas));
+  height: calc(var(--haut) + var(--regle) + var(--bas));
+  /* deux zones : les innovations sur le blanc, le contexte sur un gris très clair */
+  background: linear-gradient(to bottom, var(--feuille) var(--haut), #eef1f2 var(--haut));
 }
+.frise-zone {
+  position: absolute; left: 0.75rem; margin: 0; z-index: 2;
+  font-family: var(--titre); font-size: 0.9375rem; font-weight: 600; color: var(--mine);
+}
+.frise-zone-haut { top: 0.5rem; }
+.frise-zone-bas { bottom: 0.5rem; }
 .frise-innovations, .frise-contexte, .frise-axe { position: absolute; left: var(--cote); right: var(--cote); margin: 0; padding: 0; list-style: none; }
 .frise-innovations { top: 0; height: var(--haut); z-index: 1; }
-.frise-contexte { top: calc(var(--haut) + 2rem); height: var(--bas); z-index: 1; }
+.frise-contexte { top: calc(var(--haut) + var(--regle)); height: var(--bas); z-index: 1; }
 .frise-innovations li, .frise-contexte li { position: absolute; left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%); }
-.frise-innovations li { bottom: calc(var(--rang) * var(--pas) + 0.8rem); }
-.frise-contexte li { top: calc(var(--rang) * var(--pas) + 0.8rem); }
+.frise-innovations li { bottom: calc(var(--rang) * var(--pas) + 0.9rem); }
+.frise-contexte li { top: calc(var(--rang) * var(--pas) + 0.9rem); }
+/* tige qui relie le repère à l'axe, à son année exacte */
+.frise-innovations li::before, .frise-contexte li::before {
+  content: ""; position: absolute; left: -0.5px; width: 0;
+  height: calc(var(--rang) * var(--pas) + 0.9rem);
+}
+.frise-innovations li::before { top: 0; border-left: var(--trait-fin) solid var(--trait); }
+.frise-contexte li::before { bottom: 0; border-left: var(--trait-fin) solid var(--c); opacity: 0.6; }
 
-/* l'axe : trait fort, décennies en graduation, repères verticaux en tirets */
+/* l'axe : une règle graduée, décennies en clair sur l'encre, lustres en petits traits */
 .frise-axe { top: 0; bottom: 0; pointer-events: none; }
-.frise-axe::before { content: ""; position: absolute; left: calc(-1 * var(--cote)); right: calc(-1 * var(--cote)); top: var(--haut); border-top: var(--trait-fort) solid var(--graphite); }
-.frise-decennie {
+.frise-axe::before {
+  content: ""; position: absolute; left: calc(-1 * var(--cote)); right: calc(-1 * var(--cote));
+  top: var(--haut); height: var(--regle); background: var(--graphite);
+}
+.frise-decennie, .frise-lustre {
   position: absolute; top: 0; bottom: 0;
   left: calc((var(--annee) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
+}
+.frise-decennie {
   border-left: var(--trait-fin) dashed var(--trait-clair);
-  padding: calc(var(--haut) + 0.3rem) 0 0 0.3rem;
-  font-family: var(--titre); font-size: 0.875rem; font-weight: 600; color: var(--mine);
-  font-variant-numeric: tabular-nums;
+  padding: calc(var(--haut) + 0.3rem) 0 0 0.35rem;
+  font-family: var(--titre); font-size: 0.9375rem; font-weight: 700; color: var(--feuille);
+  font-variant-numeric: tabular-nums; letter-spacing: 0.02em;
+}
+.frise-lustre::before {
+  content: ""; position: absolute; left: 0; top: var(--haut); height: 0.45rem;
+  border-left: var(--trait-fin) solid var(--trait);
 }
 .frise-invite {
-  position: absolute; left: var(--cote); right: var(--cote); top: calc(var(--haut) + 2.4rem); margin: 0;
-  font-size: 0.9375rem; font-style: italic; color: var(--mine);
+  position: absolute; left: var(--cote); right: var(--cote); top: calc(var(--haut) + var(--regle) + 1.6rem); margin: 0;
+  text-align: center; font-size: 0.9375rem; font-style: italic; color: var(--mine);
 }
 
 .jalon, .evenement {
@@ -412,21 +442,26 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .jalon-actif::before { transform: rotate(45deg) scale(1.5); outline: 2px solid var(--graphite); outline-offset: 2px; }
 .jalon:focus-visible, .evenement:focus-visible { outline: none; }
 
-.repere-contexte { fill: var(--feuille); stroke: var(--graphite); stroke-width: 1.6; stroke-linejoin: round; vertical-align: -0.1em; }
-.evenement .repere-contexte { position: absolute; left: 0.375rem; top: 0.375rem; width: 1rem; height: 1rem; transition: transform 0.15s ease; }
+.repere-contexte { fill: var(--c, var(--feuille)); stroke: var(--feuille); stroke-width: 1.6; stroke-linejoin: round; vertical-align: -0.1em; }
+.evenement .repere-contexte {
+  position: absolute; left: 0.3rem; top: 0.3rem; width: 1.15rem; height: 1.15rem;
+  overflow: visible; filter: drop-shadow(0 0 0.5px var(--c)); transition: transform 0.15s ease;
+}
 .evenement:hover .repere-contexte, .evenement:focus-visible .repere-contexte { transform: scale(1.3); }
-.evenement.jalon-actif .repere-contexte { fill: var(--graphite); transform: scale(1.4); }
+.evenement.jalon-actif .repere-contexte { transform: scale(1.45); stroke: var(--graphite); }
 
 .jalon-etiquette {
   position: absolute; bottom: calc(100% + 0.35rem); left: 50%; transform: translateX(-50%);
-  white-space: nowrap; padding: 0.15rem 0.45rem;
+  white-space: nowrap; padding: 0.2rem 0.5rem;
   background: var(--feuille); border: var(--trait-fin) solid var(--graphite);
+  box-shadow: 0 2px 0 var(--graphite);
   font-family: var(--titre); font-size: 0.9375rem; font-weight: 500; color: var(--graphite);
   opacity: 0; pointer-events: none; transition: opacity 0.15s ease; z-index: 3;
 }
+.jalon-a .jalon-etiquette { border-top: 3px solid var(--tier-a); }
 .jalon-etiquette b { font-weight: 700; margin-right: 0.25rem; }
 .jalon-etiquette i { font-style: normal; color: var(--mine); margin-left: 0.35rem; }
-.evenement .jalon-etiquette { bottom: auto; top: calc(100% + 0.35rem); }
+.evenement .jalon-etiquette { bottom: auto; top: calc(100% + 0.35rem); border-color: var(--c); border-left: 4px solid var(--c); box-shadow: 0 2px 0 var(--c); }
 .jalon:hover .jalon-etiquette, .jalon:focus-visible .jalon-etiquette, .jalon-actif .jalon-etiquette,
 .evenement:hover .jalon-etiquette, .evenement:focus-visible .jalon-etiquette { opacity: 1; }
 /* aux extrémités de l'axe, l'étiquette s'ouvre vers l'intérieur de la frise */
@@ -438,6 +473,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   margin-top: 1rem;
   background: var(--feuille);
   border: var(--trait-fort) solid var(--graphite);
+  border-top: 6px solid var(--c, var(--graphite));
 }
 .frise-detail-fiche { display: grid; grid-template-columns: 9rem minmax(0, 1fr); }
 .frise-detail-fiche .fiche-jalon-annee {
@@ -446,7 +482,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-family: var(--titre); font-size: 3rem; font-weight: 700; line-height: 1;
   font-variant-numeric: tabular-nums;
 }
-.frise-detail-fiche .fiche-jalon-corps { padding: 0.75rem 1.25rem 1rem; max-width: 48rem; }
+.frise-detail-fiche .fiche-jalon-corps { padding: 0.75rem 1.25rem 1rem; }
+.frise-detail[data-categorie] .frise-detail-fiche .fiche-jalon-annee { color: var(--c); }
 .frise-detail-nav { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; border-top: var(--trait-fin) solid var(--trait); padding: 0.5rem 0.75rem; }
 .frise-detail-nav button {
   font: 600 1rem/1.4 var(--titre); color: var(--graphite); cursor: pointer;
@@ -460,9 +497,11 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .jalons-liste { list-style: none; margin: 0; padding: 0; border-top: var(--trait-fort) solid var(--graphite); }
 .fiche-jalon { display: grid; grid-template-columns: 6rem minmax(0, 1fr); gap: 0 1.25rem; padding: 1rem 0; border-bottom: var(--trait-fin) solid var(--trait); scroll-margin-top: 1rem; }
 .fiche-jalon:target { background: var(--feuille); box-shadow: inset 4px 0 0 var(--graphite); }
+.fiche-contexte .fiche-jalon-annee { color: var(--c); }
+.fiche-contexte:target { box-shadow: inset 4px 0 0 var(--c); }
 .fiche-jalon-annee { margin: 0; font-family: var(--titre); font-size: 2rem; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
 .fiche-jalon-corps h3 { font-size: 1.375rem; margin: 0.1rem 0 0.35rem; }
-.fiche-jalon-corps p { margin: 0 0 0.5rem; max-width: var(--colonne); }
+.fiche-jalon-corps p { margin: 0 0 0.5rem; }
 .fiche-jalon-voie { font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); margin: 0 !important; }
 .fiche-jalon-voie .repere-contexte { width: 0.85em; height: 0.85em; margin-right: 0.35em; }
 .fiche-jalon-liens { font-size: 0.9375rem; }
@@ -478,11 +517,11 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .glossaire-lettres { margin: 0 0 1.5rem; padding-bottom: 0.5rem; border-bottom: var(--trait-fort) solid var(--graphite); }
 .glossaire-groupe { display: grid; grid-template-columns: 4rem minmax(0, 1fr); border-bottom: var(--trait-fin) solid var(--trait); scroll-margin-top: 1rem; }
 .glossaire-groupe .lettre { margin: 0; padding-top: 1rem; }
-.terme { padding: 1.1rem 0; border-top: var(--trait-fin) solid var(--trait-clair); scroll-margin-top: 1rem; max-width: 48rem; }
+.terme { padding: 1.1rem 0; border-top: var(--trait-fin) solid var(--trait-clair); scroll-margin-top: 1rem; }
 .glossaire-termes .terme:first-child { border-top: 0; }
 .terme:target { background: var(--feuille); box-shadow: inset 4px 0 0 var(--graphite); padding-left: 1rem; }
 .terme h2 { font-size: 1.5rem; margin: 0 0 0.4rem; }
-.terme-definition { margin: 0 0 0.75rem; max-width: var(--colonne); }
+.terme-definition { margin: 0 0 0.75rem; }
 .terme-renvois { margin: 0; font-size: 0.9375rem; line-height: 1.5; }
 .terme-renvois div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 0 1rem; padding: 0.2rem 0; }
 .terme-renvois dt { font-family: var(--titre); font-weight: 600; color: var(--mine); }
@@ -493,8 +532,8 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 
 /* ---------- Recherche sur tout le site ---------- */
 
-.recherche-form { grid-template-columns: minmax(0, 1fr); max-width: 40rem; }
-.resultats-groupe { margin-top: 2rem; max-width: 48rem; }
+.recherche-form { grid-template-columns: minmax(0, 1fr); }
+.resultats-groupe { margin-top: 2rem; }
 .resultats-groupe h2 { font-size: 1.375rem; margin: 0 0 0.5rem; padding-bottom: 0.35rem; border-bottom: var(--trait-fort) solid var(--graphite); }
 .resultats-groupe h2 span { font-weight: 500; color: var(--mine); font-size: 1rem; margin-left: 0.35rem; }
 .resultats-groupe ol { list-style: none; margin: 0; padding: 0; }
@@ -558,7 +597,7 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 }
 .telechargement a { font-family: var(--titre); font-size: 1.25rem; font-weight: 600; }
 
-.dossiers { margin: 0; padding-left: 2.5rem; max-width: 48rem; }
+.dossiers { margin: 0; padding-left: 2.5rem; }
 .dossiers li { padding-block: 1rem; border-bottom: var(--trait-fin) solid var(--trait); }
 .dossiers li::marker { font-family: var(--titre); font-size: 1.75rem; font-weight: 700; }
 .dossiers a { font-family: var(--titre); font-size: 1.75rem; font-weight: 600; line-height: 1.15; text-decoration: none; }
