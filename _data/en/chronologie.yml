@@ -934,6 +934,10 @@ contexte:
         mecanisme: "ouvre"
         preuve: "etabli"
         pourquoi: "The announcement of the flat bottom for 1983 led to the ground-effect BT51 being shelved: the BT52 was conceived and built in six weeks, with its weight shifted onto the rear axle to make up for the loss of downforce (Mark Hughes)."
+      - evenement: "concorde-1981"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "According to Don Capps, FOCA saw the skirt ban, announced in February 1980, as an arbitrary measure aimed at its teams, which opened the war that the Concorde Agreement settled; Nigel Roebuck, however, sees money, not skirts, as the real cause."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
@@ -941,6 +945,8 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
       - titre: "Formula1.com, Mark Hughes, “TECH TUESDAY: The ground-breaking Brabham BT52” (August 2018)"
         url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
+      - titre: "Atlas F1, Don Capps, “A Season of Seasons: The Surreal Season - 1982” (1999)"
+        url: "https://atlasf1.autosport.com/99/bel/mirror.html"
   - id: "tag-financement"
     annee: 1981
     categorie: "economie"
@@ -1479,6 +1485,15 @@ contexte:
     categorie: "reglement"
     titre: "The 2026 engine and chassis rules"
     texte: "Unveiled by the FIA in June 2024, the 2026 rules split power equally between combustion engine and electricity, with sustainable fuels: the combustion engine falls from about 550 to 400 kW, the electric part rises from 120 to 350 kW, and the energy recovered under braking doubles. The chassis was redefined to match these energy requirements. The cars lose 30 kg, for a minimum of 768 kg, and receive movable front and rear wings: one position for cornering downforce, another for low drag on the straights. The maximum wheelbase loses 200 mm and the width 100 mm."
+    liens:
+      - evenement: "motoristes-2026"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "According to Matt Youson, the first goal of the 2026 engine rules was to attract more engine builders; Audi's entry was confirmed at the end of August 2022, right after those rules were approved (FIA)."
     sources:
       - titre: "Formula1.com, “FIA unveils Formula 1 regulations for 2026 and beyond featuring more agile cars and active aerodynamics” (June 2024)"
         url: "https://www.formula1.com/en/latest/article/fia-unveils-formula-1-regulations-for-2026-and-beyond-featuring-more-agile.75qJiYOHXgeJqsVQtDr2UB"
+      - titre: "Formula 1, Matt Youson, “2026 REGULATIONS EXPLAINED: All you need to know about F1's new power units” (January 2026)"
+        url: "https://www.formula1.com/en/latest/article/all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd"
+      - titre: "FIA, “F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry” (October 2022)"
+        url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"

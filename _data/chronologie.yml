@@ -934,6 +934,10 @@ contexte:
         mecanisme: "ouvre"
         preuve: "etabli"
         pourquoi: "L'annonce du fond plat pour 1983 fait abandonner la BT51 à effet de sol : la BT52 est conçue et construite en six semaines, son poids reporté sur l'essieu arrière pour compenser la perte d'appui (Mark Hughes)."
+      - evenement: "concorde-1981"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Selon Don Capps, la FOCA voit dans l'interdiction des jupes, annoncée en février 1980, une mesure arbitraire dirigée contre elle, ce qui ouvre la guerre que règle l'accord Concorde ; Nigel Roebuck tient toutefois l'argent, non les jupes, pour le véritable enjeu."
     sources:
       - titre: "Formula1.com, « Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms » (février 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
@@ -941,6 +945,8 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
       - titre: "Formula1.com, Mark Hughes, « TECH TUESDAY: The ground-breaking Brabham BT52 » (août 2018)"
         url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
+      - titre: "Atlas F1, Don Capps, « A Season of Seasons: The Surreal Season - 1982 » (1999)"
+        url: "https://atlasf1.autosport.com/99/bel/mirror.html"
   - id: "tag-financement"
     annee: 1981
     categorie: "economie"
@@ -1479,6 +1485,15 @@ contexte:
     categorie: "reglement"
     titre: "Le règlement moteur et châssis de 2026"
     texte: "Dévoilé par la FIA en juin 2024, le règlement 2026 répartit la puissance à parts égales entre moteur thermique et électricité, avec des carburants durables : le moteur thermique passe d'environ 550 à 400 kW, l'électrique de 120 à 350 kW, et l'énergie récupérée au freinage double. Le châssis est redéfini en fonction de ces besoins énergétiques. Les voitures perdent 30 kg, pour un minimum de 768 kg, et reçoivent des ailerons avant et arrière mobiles : une position pour l'appui en virage, une autre à faible traînée en ligne droite. L'empattement maximal perd 200 mm et la largeur 100 mm."
+    liens:
+      - evenement: "motoristes-2026"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Selon Matt Youson, le premier but du règlement moteur 2026 était d'attirer de nouveaux motoristes ; l'engagement d'Audi est confirmé fin août 2022, aussitôt ces règles approuvées (FIA)."
     sources:
       - titre: "Formula1.com, « FIA unveils Formula 1 regulations for 2026 and beyond featuring more agile cars and active aerodynamics » (juin 2024)"
         url: "https://www.formula1.com/en/latest/article/fia-unveils-formula-1-regulations-for-2026-and-beyond-featuring-more-agile.75qJiYOHXgeJqsVQtDr2UB"
+      - titre: "Formula 1, Matt Youson, « 2026 REGULATIONS EXPLAINED: All you need to know about F1's new power units » (janvier 2026)"
+        url: "https://www.formula1.com/en/latest/article/all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd"
+      - titre: "FIA, « F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry » (octobre 2022)"
+        url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"
