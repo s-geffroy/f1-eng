@@ -621,7 +621,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Les ailerons des Chaparral"
-    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Partie d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
+    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Partie d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Colin Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -630,7 +630,7 @@ contexte:
       - jalon: "lotus-72"
         mecanisme: "transfert"
         preuve: "etabli"
-        pourquoi: "Goodwood écrit que Chapman a repris pour la Lotus 72 les radiateurs en pontons latéraux de Jim Hall."
+        pourquoi: "Goodwood écrit que Colin Chapman a repris pour la Lotus 72 les radiateurs en pontons latéraux de Jim Hall."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, « 1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends » (octobre 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
@@ -830,7 +830,7 @@ contexte:
       - jalon: "ferrari-640"
         mecanisme: "transfert"
         preuve: "discute"
-        pourquoi: "Motor Sport situe le germe de la boîte à palettes dans la tringlerie de la Chaparral 2K, mais Barnard, interrogé, n'évoque que l'encombrement du cockpit et les valves électroniques de la suspension active."
+        pourquoi: "Motor Sport situe le germe de la boîte à palettes dans la tringlerie de la Chaparral 2K, mais John Barnard, interrogé, n'évoque que l'encombrement du cockpit et les valves électroniques de la suspension active."
     sources:
       - titre: "Motor Sport, James Elson, « Ferrari's 640: the 1989 flawed masterpiece ‘that's still influencing F1 design’ » (juin 2022)"
         url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
@@ -957,7 +957,7 @@ contexte:
       - jalon: "march-881"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "L'arrivée progressive des moteurs atmosphériques permet le retour de March ; face à un déficit de puissance énorme sur les turbos, Newey ne voit d'autre issue qu'une voiture d'une grande efficacité aérodynamique."
+        pourquoi: "L'arrivée progressive des moteurs atmosphériques permet le retour de March ; face à un déficit de puissance énorme sur les turbos, Adrian Newey ne voit d'autre issue qu'une voiture d'une grande efficacité aérodynamique."
     sources:
       - titre: "Motor Sport Magazine, « When F1 had two sets of engine rules, and why that wouldn't work today » (avril 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/when-f1-had-two-sets-of-engine-rules-and-why-that-wouldnt-work-today/"
@@ -1009,7 +1009,7 @@ contexte:
       - jalon: "fw17b"
         mecanisme: "contourne"
         preuve: "etabli"
-        pourquoi: "Selon Edd Straw, Newey voit que le fond à marche imposé en 1995 n'oblige pas la carrosserie à aller jusqu'à l'arrière, ce qui permet de relever la sortie du diffuseur."
+        pourquoi: "Selon Edd Straw, Adrian Newey voit que le fond à marche imposé en 1995 n'oblige pas la carrosserie à aller jusqu'à l'arrière, ce qui permet de relever la sortie du diffuseur."
       - evenement: "protections-laterales-cockpit"
         mecanisme: "declenche"
         preuve: "etabli"
@@ -1150,7 +1150,7 @@ contexte:
       - jalon: "rb6"
         mecanisme: "ouvre"
         preuve: "discute"
-        pourquoi: "Le double diffuseur né du règlement 2009 offre l'occasion de souffler sa partie haute, ce que Newey exploite sur la RB6 ; le lien passe par le double diffuseur et reste indirect (Edd Straw)."
+        pourquoi: "Le double diffuseur né du règlement 2009 offre l'occasion de souffler sa partie haute, ce qu'Adrian Newey exploite sur la RB6 ; le lien passe par le double diffuseur et reste indirect (Edd Straw)."
     sources:
       - titre: "Formula1.com, « Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks » (février 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
@@ -1326,7 +1326,7 @@ contexte:
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "Le retour des voitures à effet de sol par venturis permet à Newey de donner de nouveau le ton, grâce à son expérience de ces voitures (Edd Straw)."
+        pourquoi: "Le retour des voitures à effet de sol par venturis permet à Adrian Newey de donner de nouveau le ton, grâce à son expérience de ces voitures (Edd Straw)."
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"

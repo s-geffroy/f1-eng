@@ -23,10 +23,10 @@
     {%- for t in g.items %}
     <article class="terme" id="{{ t.id }}">
       <h2>{{ t.terme }}</h2>
-      <p class="terme-definition">{{ t.definition }}</p>
+      <p class="terme-definition">{% include lier-noms.html texte=t.definition %}</p>
       <dl class="terme-renvois">
         {%- if t.premiere %}
-        <div><dt>{{ T.glossaire.premiere }}</dt><dd>{{ t.premiere }}</dd></div>
+        <div><dt>{{ T.glossaire.premiere }}</dt><dd>{% include lier-noms.html texte=t.premiere %}</dd></div>
         {%- endif %}
         {%- if t.entrees.size > 0 %}
         <div><dt>{{ T.glossaire.encyclo }}</dt><dd>

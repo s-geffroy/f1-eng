@@ -1,0 +1,16 @@
+{%- comment -%}
+  Texte de données (chronologie, glossaire) dont la première mention du nom complet de chaque
+  entrée devient un lien vers elle, dans la langue de la page. Noms complets seulement : un nom
+  de famille seul désigne souvent une équipe ou une voiture (Cooper, Brawn), et Liquid ne connaît
+  pas les limites de mot (Bell dans Bellamy). Les données restent en texte brut.
+{%- endcomment -%}
+{%- assign lang_n = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_n = site.data.i18n[lang_n] -%}
+{%- assign texte_n = include.texte -%}
+{%- for e_n in site[T_n.collection_entrees] -%}
+  {%- if texte_n contains e_n.nom_complet -%}
+    {%- capture lien_n %}<a href="{{ e_n.url | relative_url }}">{{ e_n.nom_complet }}</a>{% endcapture -%}
+    {%- assign texte_n = texte_n | replace_first: e_n.nom_complet, lien_n -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- texte_n -}}

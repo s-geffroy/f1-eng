@@ -115,7 +115,7 @@
       <div class="fiche-jalon-corps">
         <p class="fiche-jalon-voie">{{ voie.nom }}</p>
         <h3>{{ j.titre }}</h3>
-        <p>{{ j.texte }}</p>
+        <p>{% include lier-noms.html texte=j.texte %}</p>
         {%- if j.entrees and j.entrees.size > 0 %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.ingenieurs }}</span>
           {%- for id in j.entrees %} {% include lien-entree.html id=id %}{% unless forloop.last %},{% endunless %}{% endfor %}
@@ -152,7 +152,7 @@
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
           <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
-            <small>{{ l.pourquoi }}</small></li>
+            <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}{% endfor %}
         </ul>
         {%- endif %}
@@ -173,7 +173,7 @@
       <div class="fiche-jalon-corps">
         <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
         <h3>{{ c.titre }}</h3>
-        <p>{{ c.texte }}</p>
+        <p>{% include lier-noms.html texte=c.texte %}</p>
         {%- comment -%} un lien vise un jalon (« jalon ») ou un autre événement de contexte (« evenement ») {%- endcomment -%}
         {%- assign n_jal = 0 -%}{%- assign n_ev = 0 -%}
         {%- for l in c.liens -%}{%- if l.jalon -%}{%- assign n_jal = n_jal | plus: 1 -%}{%- else -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}
@@ -186,7 +186,7 @@
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
           <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
-            <small>{{ l.pourquoi }}</small></li>
+            <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}
         </ul>
         {%- endif %}
@@ -198,13 +198,13 @@
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
           <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#c-{{ e.id }}">{{ e.annee }}, {{ e.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
-            <small>{{ l.pourquoi }}</small></li>
+            <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}
           {%- for c2 in contexte %}{% for l in c2.liens %}{% if l.evenement == c.id %}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
           <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c2.id }}">{{ c2.annee }}, {{ c2.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
-            <small>{{ l.pourquoi }}</small></li>
+            <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}{% endfor %}
         </ul>
         {%- endif %}

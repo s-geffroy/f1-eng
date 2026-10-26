@@ -621,7 +621,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Chaparral's wings"
-    texte: "In Can-Am and sports-prototype racing, Jim Hall's Chaparrals carried large strut-mounted wings from 1966, adjustable on the move, and moved the radiators into side pods. Starting from a first Chaparral 2 that suffered from lift, Hall wanted to go “right on through zero”, towards downforce; a pedal flattened the wing to reduce drag on the straights, and its hub-mounted struts put the load on the wheels rather than the chassis. Chris Amon, driver of the winged Ferrari at Spa in 1968, was surprised that F1 had taken so long when these wings “obviously worked”; Goodwood considers that Chapman borrowed Hall's side radiators for the Lotus 72."
+    texte: "In Can-Am and sports-prototype racing, Jim Hall's Chaparrals carried large strut-mounted wings from 1966, adjustable on the move, and moved the radiators into side pods. Starting from a first Chaparral 2 that suffered from lift, Hall wanted to go “right on through zero”, towards downforce; a pedal flattened the wing to reduce drag on the straights, and its hub-mounted struts put the load on the wheels rather than the chassis. Chris Amon, driver of the winged Ferrari at Spa in 1968, was surprised that F1 had taken so long when these wings “obviously worked”; Goodwood considers that Colin Chapman borrowed Hall's side radiators for the Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -630,7 +630,7 @@ contexte:
       - jalon: "lotus-72"
         mecanisme: "transfert"
         preuve: "etabli"
-        pourquoi: "Goodwood writes that Chapman borrowed Jim Hall's sidepod radiators for the Lotus 72."
+        pourquoi: "Goodwood writes that Colin Chapman borrowed Jim Hall's sidepod radiators for the Lotus 72."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends” (October 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
@@ -830,7 +830,7 @@ contexte:
       - jalon: "ferrari-640"
         mecanisme: "transfert"
         preuve: "discute"
-        pourquoi: "Motor Sport traces the seed of the paddle-shift gearbox to the Chaparral 2K's linkage, but Barnard, when asked, mentions only cockpit packaging and the electronic valves of active suspension."
+        pourquoi: "Motor Sport traces the seed of the paddle-shift gearbox to the Chaparral 2K's linkage, but John Barnard, when asked, mentions only cockpit packaging and the electronic valves of active suspension."
     sources:
       - titre: "Motor Sport, James Elson, “Ferrari's 640: the 1989 flawed masterpiece ‘that's still influencing F1 design’” (June 2022)"
         url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
@@ -957,7 +957,7 @@ contexte:
       - jalon: "march-881"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "The phasing-in of normally aspirated engines allowed March to return; facing a huge power deficit to the turbos, Newey saw no other way than an aerodynamically very efficient car."
+        pourquoi: "The phasing-in of normally aspirated engines allowed March to return; facing a huge power deficit to the turbos, Adrian Newey saw no other way than an aerodynamically very efficient car."
     sources:
       - titre: "Motor Sport Magazine, “When F1 had two sets of engine rules, and why that wouldn't work today” (April 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/when-f1-had-two-sets-of-engine-rules-and-why-that-wouldnt-work-today/"
@@ -1009,7 +1009,7 @@ contexte:
       - jalon: "fw17b"
         mecanisme: "contourne"
         preuve: "etabli"
-        pourquoi: "According to Edd Straw, Newey saw that the stepped floor imposed in 1995 did not require the bodywork to extend all the way to the rear, which allowed the diffuser exit to be raised."
+        pourquoi: "According to Edd Straw, Adrian Newey saw that the stepped floor imposed in 1995 did not require the bodywork to extend all the way to the rear, which allowed the diffuser exit to be raised."
       - evenement: "protections-laterales-cockpit"
         mecanisme: "declenche"
         preuve: "etabli"
@@ -1150,7 +1150,7 @@ contexte:
       - jalon: "rb6"
         mecanisme: "ouvre"
         preuve: "discute"
-        pourquoi: "The double diffuser born of the 2009 rules created the opportunity to blow its upper part, which Newey exploited on the RB6; the link runs through the double diffuser and remains indirect (Edd Straw)."
+        pourquoi: "The double diffuser born of the 2009 rules created the opportunity to blow its upper part, which Adrian Newey exploited on the RB6; the link runs through the double diffuser and remains indirect (Edd Straw)."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
@@ -1326,7 +1326,7 @@ contexte:
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "The return of venturi ground-effect cars let Newey set the tone again, thanks to his experience of such cars (Edd Straw)."
+        pourquoi: "The return of venturi ground-effect cars let Adrian Newey set the tone again, thanks to his experience of such cars (Edd Straw)."
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, “The Past Six New F1 Eras: What Changed and What Happened?” (March 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
