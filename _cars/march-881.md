@@ -24,9 +24,9 @@ image: "/assets/partage/en/voitures/march-881.jpg"
 ---
 ## What it changed
 
-In 1988 March returned to F1 with a naturally aspirated Judd engine of about 580 bhp, against far more powerful turbos. To stand any chance, Edd Straw writes, the car had to be aerodynamically efficient. Adrian Newey sums up the era: with a turbo, the way to go faster was more boost and ever bigger rear wings.
+In 1988, its second season since returning to F1, March had a naturally aspirated Judd engine of about 580 bhp, against far more powerful turbos. To stand any chance, Edd Straw writes, the car had to be aerodynamically efficient. Adrian Newey sums up the era: with a turbo, the way to go faster was more boost and ever bigger rear wings.
 
-The 881 treated the front differently. Until then, according to Formula 1, the convention was a bulky nose flanked by two separate flaps. Newey merged the nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) into a single assembly, the wing spanning the full width of the car for maximum [downforce]({{ site.baseurl }}/en/glossary/#appui). The underside of the nose was undercut: the low pressure there ensured clean airflow beneath the wing, and so to the floor.
+The 881 treated the front differently. Until then, according to Formula 1, the convention was a bulky nose flanked by two separate flaps. Newey merged the nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) into a single assembly, the wing spanning the full width of the car for maximum [downforce]({{ site.baseurl }}/en/glossary/#appui). The assembly ensured clean airflow beneath the wing, and so to the floor; and the underside of the nose was undercut: the low pressure there drew air onto the wing and increased downforce.
 
 Formula 1 calls it "effectively the prototype" of the aerodynamically driven F1 car, and the conceptual start of the [raised nose]({{ site.baseurl }}/en/glossary/#nez-releve) era. According to the same source, it also started the trend for more complex three-dimensional endplates.
 
@@ -45,4 +45,3 @@ Formula 1 calls it "effectively the prototype" of the aerodynamically driven F1 
 
 - **1988**: no wins. Capelli finished second at the Portuguese Grand Prix; in Portugal and then Spain, he overtook Ayrton Senna's McLaren. In Japan he briefly led Alain Prost across the line, on lap 16. Capelli was seventh in the championship. March, sixth among constructors with 22 points, finished ahead of Williams, the other Judd-powered team (20 points).
 - **1989**: Gugelmin finished third in Brazil in the old 881, before the CG891 arrived.
-- In 1990, Newey's Leyton House CG901 took the approach further with a sharply raised nose.

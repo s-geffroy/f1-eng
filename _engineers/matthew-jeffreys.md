@@ -32,8 +32,8 @@ Matthew Jeffreys was a McLaren design engineer from 1984 to 2005. On the 1988 Mc
 ## At McLaren
 
 - **1984.** He joined McLaren International after his degree: "right from the age of 12, I had always wanted to work in F1," he told Crash.net in 2001. A photo published by Motor Sport shows him in [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})'s design team in 1984.
-- **The MP4/4 (1988).** Autosport describes him as [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %})'s close friend, "responsible for the design of the MP4/4 from the front bulkhead forward". He describes himself as project leader for the monocoque and front suspension design. Motor Sport calls him a "senior design engineer"; according to Nichols (Motor Sport, 2021), Jeffreys focused on the front end of the car and its integrated front suspension, while Nichols handled the monocoque, overall layout and integration.
-- **The drivers' position.** With his colleague Hugh Moran, he set the seat-back angle in the monocoque, and therefore the drivers' seating position. According to him, Alain Prost and Ayrton Senna sat in a monocoque mock-up in January and February 1988; seats were then made for MP4/4-02, which first ran at Imola on 23 March. Prost's head sat about 3in further forward than Senna's, but their eyes were at the same height.
+- **The MP4/4 (1988).** Autosport describes him as a close friend of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and as "responsible for the design of the MP4/4 from the front bulkhead forward". He describes himself as project leader for the monocoque and front suspension design. Motor Sport calls him a "senior design engineer"; according to Nichols (Motor Sport, 2021), Jeffreys focused on the front end of the car and its integrated front suspension, while Nichols handled the monocoque, overall layout and integration.
+- **The drivers' position.** With his colleague Hugh Moran, he set the seat-back angle in the monocoque, and therefore the drivers' seating position. According to him, Alain Prost and Ayrton Senna sat in a monocoque mock-up in January and February 1988; seats were then made for MP4/4-02, ahead of the first test at Imola, on 23 March. Prost's head sat about 3in further forward than Senna's, but their eyes were at the same height.
 - **2001.** Crash.net describes him as project leader for chassis design. His group was responsible for the monocoque, the driver installation and controls, and the front and rear wings. "The whole design process starts with the aerodynamic shape of the car," he explains.
 
 ## On Barnard and Murray
@@ -50,7 +50,7 @@ Jeffreys compares the methods of the two technical directors he worked under. Wi
 
 **In 2026.** In a Motor Sport article on the Brabham BT55, Murray calls the MP4/4 "exactly the same layout". Jeffreys replied in a letter published in November 2026:
 
-- he writes on behalf of at least 16 other former McLaren staff who worked on the MP4/4 and do not share Murray's account;
+- he points out that at least 16 other former McLaren staff who worked on the MP4/4 have, like him, disputed Murray's account for years;
 - neither he nor Nichols recalls Murray showing them BT55 drawings;
 - Nichols, chief designer appointed by Murray, was in his words "100% responsible for its architecture, layout and overall design", a responsibility conferred by Ron Dennis and Murray in August 1987 in a staff memo that he says he still has;
 - he also disputes Murray's story that Prost refused to drive lying down: "I think Gordon's memory may be failing him."

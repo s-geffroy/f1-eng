@@ -62,5 +62,5 @@ Autosport spells the name "Phillippe", Racer "Philippe": the site uses the latte
 ## Legacy
 
 - **1978**: 16 grands prix, one win and four further podiums, no pole position. Patrick Depailler won at Monaco, at his 69th attempt, 22 seconds ahead of Niki Lauda, in chassis 008/3; he was also second in South Africa and Austria. He finished fifth in the championship with 34 points; Pironi was fifteenth with 7. Tyrrell were fourth among constructors, with 38 points.
-- It was Tyrrell's last win until Michele Alboreto's in Detroit in 1983.
+- It was Tyrrell's last win until Michele Alboreto's in Las Vegas at the end of 1982.
 - The 009 succeeded it; according to Kempf, it inherited the aerodynamic difficulties found on the 008.

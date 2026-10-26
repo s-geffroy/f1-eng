@@ -33,7 +33,7 @@ Arthur Webb est un ingénieur aéronautique britannique, spécialiste des struct
 
 ## Dans l'aviation
 
-- **Formation et débuts.** Formé à l'ingénierie aéronautique à Queen Mary, il calcule la structure des ailes de l'Armstrong Whitworth Argosy, un avion qui fait un usage précoce des composites collés. Parti aux États-Unis dans les années 1960, au temps de la « fuite des cerveaux », il y travaille sur les ailes du Lockheed C-5 Galaxy.
+- **Formation et débuts.** Formé à l'ingénierie aéronautique à Queen Mary, il calcule la structure des ailes de l'Armstrong Whitworth Argosy, un avion qui fait un usage précoce des composites collés. Au temps de la « fuite des cerveaux », il travaille d'abord sur les ailes du Lockheed C-5 Galaxy pour un sous-traitant britannique, puis part aux États-Unis dans les années 1960.
 - **Le carbone en aviation civile.** Chargé de trouver une application pratique à la fibre de carbone mise au point au Royal Aircraft Establishment, il dirige l'équipe qui conçoit la première pièce en carbone certifiée sur un avion civil : des panneaux de gouverne de direction, porteurs, pour le VC10.
 - **Rolls-Royce.** Il raconte avoir convaincu Rolls-Royce d'adopter le carbone pour des applications structurelles.
 - **Concorde.** Ses dernières années à la BAC, selon la Royal Aeronautical Society, passent par Concorde et par la période difficile qui mène à la nationalisation de l'industrie aéronautique britannique.
@@ -49,7 +49,7 @@ Arthur Webb est un ingénieur aéronautique britannique, spécialiste des struct
 
 ## Attribution
 
-Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone ; le récit de Barnard lui-même fait naître ce choix de ses échanges avec Webb. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur.
+Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone ; dans le récit de Barnard lui-même, ses échanges avec Webb confortent un choix déjà envisagé. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur.
 
 ## Divergences entre les sources
 

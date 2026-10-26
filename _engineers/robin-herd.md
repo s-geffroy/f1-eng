@@ -28,7 +28,7 @@ Robin Herd moved from aerospace to F1: he drew the first McLaren F1 car, then be
 ## Technical career
 
 - **Aerospace.** An Oxford graduate in physics and engineering, he joined the Royal Aircraft Establishment at Farnborough and took part in the design of Concorde.
-- **McLaren (1965-1968).** Recruited in 1965, he drew the team's first F1 car, the M2B, in Mallite, an aircraft-derived material stiffer than aluminium for a given weight. He later said the tub was around eight times stiffer than it needed to be, at the cost of a very difficult construction method.
+- **McLaren (1965-1967).** Recruited in 1965, he drew the team's first F1 car, the M2B, in Mallite, an aircraft-derived material stiffer than aluminium for a given weight. He later said the tub was around eight times stiffer than it needed to be, at the cost of a very difficult construction method.
 - **Cosworth.** After drawing the chassis of the 1968 McLaren M7A, he left for Cosworth to design a four-wheel-drive F1 car, which was tested but never raced. Gordon Coppuck, his former assistant, developed the M7A, which won three Grands Prix in 1968.
 - **March (1969).** He founded March with Max Mosley, Alan Rees and Graham Coaker; the name is formed from their initials.
 - **March 701 (1970).** Ten weeks separated the drawing board from the first shakedown. Simple out of necessity, the car took pole at its first race, in South Africa, with Jackie Stewart in a Ken Tyrrell-entered March, then won its second, in Spain.
@@ -40,7 +40,7 @@ Robin Herd moved from aerospace to F1: he drew the first McLaren F1 car, then be
 
 - **The intent.** The 711 had a reduced [polar moment]({{ site.baseurl }}/en/glossary/#moment-polaire); for 1972, Herd wanted to "go the whole hog" and aim for an ultra-low moment of inertia.
 - **The means.** The gearbox, with Alfa Romeo internals in a March-designed casing, copied the layout of the Alfa Romeo Tipo 33/3 sports car; it placed the ratios ahead of the differential, to concentrate mass at the centre of the car. OldRacingCars.com points out that the Porsche 908/3 followed the same approach: Herd did not invent the principle.
-- **The failure.** The car understeered. Herd blamed mainly the Alfa gearbox, slow to shift, and its tiny, effectively locked differential; OldRacingCars.com instead blames Goodyear tyres unsuited to the design. After the Belgian Grand Prix, in June 1972, March dropped it for the 721G, an F1 car built in nine days on an F2 tub.
+- **The failure.** The car understeered. Herd blamed the Alfa gearbox, slow to shift, and above all its tiny differential, hence permanently locked; OldRacingCars.com instead blames Goodyear tyres unsuited to the design. After the Belgian Grand Prix, in June 1972, March dropped it for the 721G, an F1 car built in nine days on an F2 tub.
 - **What followed.** From then on, March F1 cars were derived from its F2 cars. In 1973, James Hunt made his Grand Prix debut in Peterson's former 721G, reworked and run by Hesketh, whose team included [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}), coaxed from March.
 - **Herd's view.** "I was wrong to do X when I did. It overstretched us."
 

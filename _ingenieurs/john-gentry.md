@@ -44,7 +44,7 @@ Motor Sport lui a consacré un portrait en 2021 (Damien Smith) ; sauf mention co
 ## Chez Toleman
 
 - Selon Motor Sport en 1980, il rejoint Toleman en août 1979 ; il était surtout connu pour son travail chez Shadow.
-- **La TG280.** « Rory a fait la carrosserie et moi tout le reste », résume Gentry : au début, dans un petit bureau d'études prêté par Tom Walkinshaw Racing, ils ne sont que deux.
+- **La TG280.** « Rory a fait la carrosserie et moi tout le reste », résume Gentry : au début installés dans le petit bureau d'études de Tom Walkinshaw Racing, ils ne sont que deux.
 - En Formule 2, il est aussi l'ingénieur de course de Derek Warwick, pendant que Byrne s'occupe de Brian Henton.
 - En 1984, il fait partie des ingénieurs qui accompagnent les débuts d'Ayrton Senna en F1 chez Toleman, avec Byrne et [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}). Il est alors l'ingénieur de Johnny Cecotto ; après l'accident de celui-ci à Brands Hatch, il décide de partir. Toleman reste son plus long passage dans une même équipe, cinq ans.
 
@@ -52,7 +52,7 @@ Motor Sport lui a consacré un portrait en 2021 (Damien Smith) ; sauf mention co
 
 - **Renault, 1985.** Après un bref passage chez Alfa Romeo (Euroracing), qui ne le paie pas, il est rappelé par Warwick chez Renault, où il n'est qu'ingénieur de course : le bureau d'études ne veut pas de lui à une planche à dessin.
 - **Brabham, 1986.** Ingénieur d'Elio de Angelis, il est présent aux essais du Paul-Ricard où celui-ci se tue. Il jugeait l'empattement de la BT55 de [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) beaucoup trop long : après un accident de Warwick à Donington, Bernie Ecclestone lui demande de rendre la voiture efficace, et l'équipe raccourcit de huit pouces l'arrière de la coque endommagée.
-- **Ensuite.** Benetton, puis les Grands Prix moto (Suzuki, puis Yamaha de Kenny Roberts de 1992 à 1994), Leyton House, la Volvo de TWR en championnat britannique de tourisme et, en 1996, la création de Triple Eight avec Warwick.
+- **Ensuite.** Benetton, puis les Grands Prix moto chez Suzuki, un bref retour en F1 chez Leyton House, de nouveau la moto avec la Yamaha de Kenny Roberts de 1992 à 1994, la Volvo de TWR en championnat britannique de tourisme et, en 1996, la création de Triple Eight avec Warwick.
 
 ## Attribution
 

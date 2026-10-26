@@ -24,9 +24,9 @@ image: "/assets/partage/voitures/march-881.jpg"
 ---
 ## Ce qu'elle change
 
-En 1988, March revient en F1 avec un moteur atmosphérique Judd d'environ 580 ch, face à des turbos bien plus puissants. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands.
+En 1988, pour sa deuxième saison depuis son retour en F1, March dispose d'un moteur atmosphérique Judd d'environ 580 ch, face à des turbos bien plus puissants. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands.
 
-La 881 traite l'avant autrement. Jusque-là, selon Formula 1, la règle était un nez volumineux encadré de deux volets séparés. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal. Le dessous du nez est creusé : la dépression qui s'y forme assure un écoulement propre sous l'aileron, et donc vers le plancher.
+La 881 traite l'avant autrement. Jusque-là, selon Formula 1, la règle était un nez volumineux encadré de deux volets séparés. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal. L'ensemble assure un écoulement propre sous l'aileron, et donc vers le plancher ; et le dessous du nez est creusé : la dépression qui s'y forme attire l'air sur l'aileron et augmente l'appui.
 
 Formula 1 en fait « en pratique le prototype » de la F1 conçue par l'aérodynamique, et le début conceptuel de l'ère du [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve). La voiture inaugure aussi, selon la même source, les dérives d'aileron plus travaillées en trois dimensions.
 
@@ -45,4 +45,3 @@ Formula 1 en fait « en pratique le prototype » de la F1 conçue par l'aérodyn
 
 - **1988** : aucune victoire. Capelli finit deuxième au Grand Prix du Portugal ; au Portugal puis en Espagne, il dépasse la McLaren d'Ayrton Senna. Au Japon, il passe brièvement devant Alain Prost sur la ligne, au 16e tour. Capelli est septième du championnat. March, sixième des constructeurs avec 22 points, devance Williams, l'autre équipe motorisée par Judd (20 points).
 - **1989** : Gugelmin finit troisième au Brésil sur l'ancienne 881, avant l'arrivée de la CG891.
-- En 1990, la Leyton House CG901 de Newey reprend la démarche avec un nez fortement relevé.

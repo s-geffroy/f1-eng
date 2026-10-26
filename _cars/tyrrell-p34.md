@@ -19,6 +19,8 @@ sources:
     url: "https://www.formula1.com/en/results/1976/team"
   - titre: "Mark Glendenning, Racer, “Tales of the tape: Early adventures in F1 data logging” (April 2024)"
     url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
+  - titre: "Matt Bishop, Motor Sport Magazine, “The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1” (June 2026)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
 photo:
   fichier: "/assets/voitures/tyrrell-p34.jpg"
   legende: "Jody Scheckter in the Tyrrell P34 at the Nürburgring's south hairpin, 31 July 1976."
@@ -33,7 +35,7 @@ image: "/assets/partage/en/voitures/tyrrell-p34.jpg"
 
 The Tyrrell P34 is the only six-wheeled car ever to start a grand prix: four small steered wheels at the front, two normal-sized wheels at the rear.
 
-When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, its designer explained: frontal area was set by the huge rear tyres. According to Motor Sport, the real reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates lift, and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: "40-odd horsepower".
+When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, Motor Sport explains: frontal area was set by the huge rear tyres. According to Motor Sport, the real reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates lift, and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: "40-odd horsepower".
 
 The context explains the approach. Almost the whole field had the same engine, the same gearbox and the same tyres. "We needed an unfair advantage," said Gardner, "and the six-wheeler was it."
 
@@ -56,4 +58,4 @@ The first prototype used the rear end of the 1975 Tyrrell 007. Gardner left the 
 
 - **1976**: debut at the Spanish Grand Prix at Jarama, the fourth round; Patrick Depailler qualified behind only Hunt and Lauda. On 13 June at Anderstorp, Scheckter took the car's only pole and won ahead of Depailler. According to Motor Sport, one or other driver reached the podium ten times in thirteen races. Scheckter finished third in the championship, Depailler fourth, and Tyrrell third among constructors, with 71 points.
 - **1977**: one second place and three thirds. Depailler and Ronnie Peterson finished tenth and fourteenth. In testing at Silverstone, Karl Kempf, from Goodyear's racing division, fitted the car with sensors and went through the data with Derek Gardner; in his words, even detailed measurements “couldn't save it”.
-- In 1978 the Tyrrell 008 went back to four wheels; the governing body then banned six-wheelers.
+- In 1978 the Tyrrell 008 went back to four wheels; a four-wheel maximum rule later banned six-wheelers, in 1982 or 1983 depending on the source.

@@ -56,7 +56,7 @@ The engine's name varies between sources: Autosport calls it the Zetec-R, Motor 
 ## Limitations
 
 - **Suspicion.** Rivals suspected the B194 of being illegal. In the electronics data from Imola, the FIA found a launch-control function, "Option 13", but could not prove it had been used and took no action, according to Motor Sport and Autosport. Benetton denied using it. At the German Grand Prix, the fire on Jos Verstappen's car during a refuelling stop revealed that a filter had been removed from the fuel hose; the team said it had verbal FIA permission and escaped a penalty.
-- **Penalties.** At Silverstone Schumacher committed an infringement on the formation lap; he lost his second place and was banned for two races. At Spa his win was taken away: the plank under the car was too worn. Benetton lost sixteen points in all, according to Autosport.
+- **Penalties.** At Silverstone Schumacher committed an infringement on the formation lap; he lost his second place and was banned for two races. At Spa his win was taken away: the plank under the car was too worn. Schumacher lost sixteen points in all through disqualification, according to Autosport.
 - **After Imola**, the FIA cut down the diffuser, vented the airbox and imposed the plank. According to Autosport, the team felt these changes made its car average; by the end of the season, the Williams was arguably the better car.
 
 Brawn admits the controversy "clouded a little bit" his view of a car he considers "a fabulous design".

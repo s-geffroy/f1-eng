@@ -44,7 +44,7 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 ## At Toleman
 
 - According to Motor Sport in 1980, he joined Toleman in August 1979; he was best known for his work at Shadow.
-- **The TG280.** "Rory did the bodywork and I did the rest of it," Gentry sums up: at first, in a small drawing office lent by Tom Walkinshaw Racing, there were only the two of them.
+- **The TG280.** "Rory did the bodywork and I did the rest of it," Gentry sums up: at first set up in Tom Walkinshaw Racing's small drawing office, there were only the two of them.
 - In Formula 2, he was also Derek Warwick's race engineer, while Byrne looked after Brian Henton.
 - In 1984, he was among the engineers who accompanied Ayrton Senna's F1 debut at Toleman, with Byrne and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}). He was then Johnny Cecotto's engineer; after Cecotto's accident at Brands Hatch, he decided to leave. Toleman remains his longest spell with a single team, five years.
 
@@ -52,7 +52,7 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 
 - **Renault, 1985.** After a brief spell at Alfa Romeo (Euroracing), which did not pay him, he was called in by Warwick to Renault, where he was only a race engineer: the design office did not want him at a drawing board.
 - **Brabham, 1986.** Elio de Angelis's engineer, he was at the Paul Ricard test where de Angelis was killed. He considered the wheelbase of [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %})'s BT55 far too long: after Warwick crashed at Donington, Bernie Ecclestone told him to make the car work, and the team chopped eight inches off the back of the damaged tub.
-- **Afterwards.** Benetton, then motorcycle Grands Prix (Suzuki, then Kenny Roberts's Yamaha from 1992 to 1994), Leyton House, TWR's Volvo in the British Touring Car Championship and, in 1996, the founding of Triple Eight with Warwick.
+- **Afterwards.** Benetton, then motorcycle Grands Prix with Suzuki, a brief return to F1 at Leyton House, motorcycles again with Kenny Roberts's Yamaha from 1992 to 1994, TWR's Volvo in the British Touring Car Championship and, in 1996, the founding of Triple Eight with Warwick.
 
 ## Attribution
 

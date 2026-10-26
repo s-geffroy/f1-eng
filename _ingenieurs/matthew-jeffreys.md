@@ -32,8 +32,8 @@ Matthew Jeffreys est un ingénieur d'études de McLaren, de 1984 à 2005. Sur la
 ## Chez McLaren
 
 - **1984.** Il entre chez McLaren International à la sortie de ses études : « Depuis l'âge de 12 ans, j'avais toujours voulu travailler en F1 », dit-il à Crash.net en 2001. Une photo publiée par Motor Sport le montre dans l'équipe de conception de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en 1984.
-- **La MP4/4 (1988).** Autosport le présente comme l'ami proche de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), responsable de la conception de la voiture de la cloison avant vers l'avant. Lui-même se dit chef de projet pour la monocoque et la suspension avant. Motor Sport le qualifie d'ingénieur d'études principal (« senior design engineer ») ; selon Nichols (Motor Sport, 2021), Jeffreys se concentre sur l'avant de la voiture et sa suspension avant intégrée, pendant que Nichols s'occupe de la coque, de l'implantation générale et de l'intégration.
-- **La position des pilotes.** Avec son collègue Hugh Moran, il fixe l'angle du dossier dans la monocoque, et donc la position assise des pilotes. Selon lui, Alain Prost et Ayrton Senna s'installent dans une maquette de la coque en janvier et février 1988 ; les sièges sont ensuite faits pour la MP4/4-02, qui roule pour la première fois à Imola le 23 mars. La tête de Prost était environ 3 pouces plus en avant que celle de Senna, mais leurs yeux étaient à la même hauteur.
+- **La MP4/4 (1988).** Autosport le présente comme un ami proche de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et le dit responsable de la conception de la voiture de la cloison avant vers l'avant. Lui-même se dit chef de projet pour la monocoque et la suspension avant. Motor Sport le qualifie d'ingénieur d'études principal (« senior design engineer ») ; selon Nichols (Motor Sport, 2021), Jeffreys se concentre sur l'avant de la voiture et sa suspension avant intégrée, pendant que Nichols s'occupe de la coque, de l'implantation générale et de l'intégration.
+- **La position des pilotes.** Avec son collègue Hugh Moran, il fixe l'angle du dossier dans la monocoque, et donc la position assise des pilotes. Selon lui, Alain Prost et Ayrton Senna s'installent dans une maquette de la coque en janvier et février 1988 ; les sièges sont ensuite faits pour la MP4/4-02, en vue du premier essai d'Imola, le 23 mars. La tête de Prost était environ 3 pouces plus en avant que celle de Senna, mais leurs yeux étaient à la même hauteur.
 - **2001.** Crash.net le présente comme chef de projet de la conception du châssis. Son groupe a la charge de la monocoque, de l'installation du pilote et de ses commandes, et des ailerons avant et arrière. « Tout le processus de conception part de la forme aérodynamique de la voiture », explique-t-il.
 
 ## Sur Barnard et Murray
@@ -50,7 +50,7 @@ Jeffreys compare les méthodes des deux directeurs techniques qu'il a connus. Av
 
 **En 2026.** Dans un article de Motor Sport sur la Brabham BT55, Murray voit dans la MP4/4 « exactement la même architecture ». Jeffreys répond par une lettre publiée en novembre 2026 :
 
-- il écrit au nom d'au moins seize autres anciens de McLaren ayant travaillé sur la MP4/4, qui ne partagent pas le récit de Murray ;
+- il rappelle qu'au moins seize autres anciens de McLaren ayant travaillé sur la MP4/4 contestent comme lui, depuis des années, le récit de Murray ;
 - ni lui ni Nichols ne se souviennent que Murray leur ait montré des plans de la BT55 ;
 - Nichols, chef designer nommé par Murray, était selon lui responsable à 100 % de l'architecture et de la conception d'ensemble, une responsabilité confiée par Ron Dennis et Murray en août 1987 dans une note interne qu'il dit avoir conservée ;
 - il conteste aussi l'anecdote de Murray selon laquelle Prost aurait refusé de piloter couché : « Je crois que la mémoire de Gordon lui fait peut-être défaut. »

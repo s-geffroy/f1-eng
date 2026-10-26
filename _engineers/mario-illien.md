@@ -27,7 +27,7 @@ Mario Illien is the Swiss engineer who founded **Ilmor** with Paul Morgan in 198
 
 ## Before Ilmor
 
-- Trained at the Biel engineering school, he first worked at Mowag, a diesel engine and heavy vehicle manufacturer (Motor Sport, 1991); GrandPrix.com specifies that he designed engines for tanks and armoured vehicles there.
+- Trained at the Biel engineering school, he worked at Mowag, a diesel engine and heavy vehicle manufacturer (Motor Sport, 1991); GrandPrix.com specifies that he designed engines for tanks and armoured vehicles there.
 - He came to motor racing through Jo Bonnier, for whom he designed a 16-valve cylinder head for the Chrysler Formula 2 engine (Motor Sport, 1991).
 - In 1979, he joined Cosworth, where he worked chiefly on the DFY F1 engine and the Sierra 16-valve engine (Motor Sport, 1991).
 
@@ -40,7 +40,7 @@ Mario Illien is the Swiss engineer who founded **Ilmor** with Paul Morgan in 198
 
 ## F1 V10s and Mercedes
 
-- In 1989, Illien and Morgan decided to build a 3.5-litre V10 for F1. It raced with Leyton House in 1991, then with March and Tyrrell in 1992 (GrandPrix.com). According to Illien, it was [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), whom he had met at Newman Haas in 1987, who asked him for an engine for Leyton House. That first V10 weighed 126kg, against 170-plus for the competition: less powerful than the Hondas and Renaults, he says, but much lighter. When Leyton House's money ran out in 1991, Illien and Morgan funded the programme themselves; Ivan Capelli scored a point in Hungary.
+- In 1989, Illien and Morgan decided to build a 3.5-litre V10 for F1. It raced with Leyton House in 1991, then with March and Tyrrell in 1992 (GrandPrix.com). According to Illien, it was [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), whom he had met at Newman Haas in 1987, who asked him for an engine for Leyton House. That first V10 weighed 126kg according to Illien (about 122kg according to Motor Sport in 1991), against 170-plus for the competition: less powerful than the Hondas and Renaults, he says, but much lighter. When Leyton House's money ran out in 1991, Illien and Morgan funded the programme themselves; Ivan Capelli scored a point in Hungary.
 - In 1993, Ilmor designed Sauber's V10, paid for by Mercedes; at the end of the year, Mercedes-Benz bought out Chevrolet's share and this V10 became the Mercedes V10 (GrandPrix.com). According to Illien, the Chevrolet relationship ended in 1993 over budget, and Mercedes came along in November, for F1 and Indycar. For the 1994 Indianapolis 500, Ilmor designed and built a dedicated pushrod engine in six months, which produced 1,024bhp, when Illien had guaranteed Penske "well over 940", and won the race.
 - In 1995, Mercedes joined forces with McLaren. The start was difficult; the Mercedes V10's first F1 win came at the end of 1997 (GrandPrix.com).
 - **Materials.** In the late 1990s, Ilmor made aluminium-beryllium pistons weighing 167g: a small team developed their heat treatment, forging and diamond-tool machining. Illien also mentions beryllium liners and titanium aluminide valves; in his view, this lead is why such things "got banned eventually" (Formula 1, 2023).
@@ -58,3 +58,5 @@ Ilmor is a company, founded by two people: the engines are Ilmor's, designed und
 
 - **Ilmor's founding**: 1983 according to Motor Sport (2001); Illien said in 2023 that the company started "beginning of January 1984".
 - **The shareholding**: GrandPrix.com gives a quarter to each of the four partners; Illien describes 25% for himself, 25% for Morgan and 50% for Penske, who gave half of it to the manufacturer. Both versions end in the same split.
+- **Early career**: Motor Sport (1991) puts Mowag before motor racing and attributes the Chrysler cylinder head to a commission from Jo Bonnier; according to GrandPrix.com, Illien worked for Bonnier from 1971, then modified the Chrysler-Simca engine for Fred Stalder, then studied in Biel and only joined Mowag in 1977.
+- **First run**: 16 May 1985 on the dyno according to Illien; August 1985 according to GrandPrix.com, without saying whether on the dyno or on track.

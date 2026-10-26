@@ -40,4 +40,4 @@ Ron Tauranac conçoit les Brabham des années 1960, dont celles des titres mondi
 ## Divergences entre sources
 
 - **La reprise de l'équipe.** Selon le BRDC, Brabham lui cède ses parts fin 1969 ; selon The Race et Goodwood, Tauranac reprend l'équipe quand Brabham arrête de courir, fin 1970.
-- **Le départ.** The Race date la vente à Ecclestone de fin 1971. Goodwood ajoute qu'il reste un temps pour dessiner les voitures, jusqu'à ce qu'Ecclestone réorganise l'équipe sans lui ; le BRDC le dit parti moins d'un an après la vente, à des conditions qu'il a vite regrettées.
+- **Le départ.** The Race date la vente à Ecclestone de fin 1971. Goodwood ajoute qu'il reste un temps pour dessiner les voitures, jusqu'à ce qu'Ecclestone réorganise l'équipe sans lui ; le BRDC précise qu'il a vendu à des conditions qu'il a vite regrettées, et qu'il est parti moins d'un an plus tard.

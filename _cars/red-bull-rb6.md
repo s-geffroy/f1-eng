@@ -43,7 +43,7 @@ image: "/assets/partage/en/voitures/red-bull-rb6.jpg"
 ---
 ## What it changed
 
-Since 2009 the rules had allowed the double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur). On the RB6, Red Bull moved the exhaust tailpipes down towards the floor, to blow the diffuser from above, according to Motorsport.com. The jet exited beside a vertical slot cut into the diffuser near the rear axle: a "totally legal" solution, according to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). He told Formula 1 that the exhausts, mounted on the sides in the coke-bottle area, blew a slot in the double diffuser this way, "and that was very powerful". According to GrandPrix.com, the chassis was lengthened to make the most of that slot, and the solution only arrived at the final pre-season test. In early testing, the team put stickers in the old exhaust position to hide the change.
+Since 2009 the rules had allowed the double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur). On the RB6, Red Bull moved the exhaust tailpipes down towards the floor, to blow the diffuser from above, according to Motorsport.com. According to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), speaking to Motor Sport, a vertical slot cut into the diffuser near the rear axle let the side-exiting exhausts blow through it: a "totally legal" solution. He told Auto Motor und Sport, quoted by Formula 1, that the exhausts, mounted on the sides in the coke-bottle area, blew a slot in the double diffuser this way, "and that was very powerful". According to GrandPrix.com, the chassis was lengthened to make the most of that slot, and the solution only arrived at the final pre-season test. In early testing, the team put stickers in the old exhaust position to hide the change.
 
 The known problem with blown exhausts, Newey explains, is that the effect is lost when the driver lifts off, under braking and on corner entry: rear [downforce]({{ site.baseurl }}/en/glossary/#appui) disappears at the worst moment. The answer came from the engine. According to Motorsport.com, Renault's engine maps turned the engine into an air pump even off throttle: "cold blowing" cut fuel and spark; "hot blowing" retarded the ignition, at the cost of higher fuel use and engine wear.
 
@@ -53,12 +53,12 @@ Newey does not present the idea as new. According to Formula 1, his first port o
 
 GrandPrix.com presents Newey as Red Bull's technical chief and the RB6's designer; the Red Bull Ring names him alone. Yet the blowing only worked thanks to the engine supplier's maps: Newey credits Renault for it. Newey did not work alone, though. According to Sky Sports, Rob Marshall, who joined Red Bull in 2006 as chief designer, helped Newey create the cars that won the titles from 2010 to 2013; according to Autosport, Peter Prodromou, McLaren's former chief aerodynamicist, joined Red Bull at the end of 2006 in a similar role. No source consulted specifies their exact share in the RB6.
 
-The driver mattered too. According to Formula 1, Sebastian Vettel mastered the counter-intuitive driving style the system required. Newey told Motor Sport that Vettel made better use than Mark Webber of a stable rear on corner entry: not because he could cope with an unstable car, which Newey calls a myth, but because that stability let him rotate the car harder.
+The driver mattered too. According to Formula 1, Sebastian Vettel mastered the counter-intuitive driving style the system required. Newey reckons, in Motor Sport, that this blowing on corner entry probably suited Vettel's style better than Mark Webber's: not because Vettel could cope with an unstable car, which Newey calls a myth, but because a stable rear let him rotate the car harder. In February 2011, however, GrandPrix.com quoted him on a different point: a less nervous corner entry, mainly down to the front tyre, had possibly helped Webber more.
 
 ## Limitations
 
 - **The engine.** Newey reckoned the Renault was at least 4% down on the Mercedes, almost half a second a lap at most circuits, according to GrandPrix.com.
-- **Reliability.** Vettel lost points early in the season to spark-plug and brake problems; Webber's engine failed in Korea.
+- **Reliability.** Vettel lost points early in the season to spark-plug and brake problems; in Korea, Vettel's engine failed and Webber went off the track.
 - **What was missing.** The RB6 initially had no F-duct. Rivals wondered whether its front wings ran lower than allowed; Newey replied that the rules permitted 10 mm of deflection under a 50 kg load, and that McLaren had asked for that tolerance.
 
 ## Legacy

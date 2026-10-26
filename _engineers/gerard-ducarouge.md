@@ -19,15 +19,15 @@ image: "/assets/partage/en/gerard-ducarouge.jpg"
 ---
 ## What he did
 
-Gérard Ducarouge led the technical effort at Ligier, Alfa Romeo and then Lotus, from the Ligier JS11 to Senna's Lotuses. Motor Sport describes him as the forerunner of the modern technical director: less the designer of the cars credited to him than the man who led the team, in the workshop and at the circuit.
+Gérard Ducarouge led the technical effort at Ligier, Alfa Romeo and then Lotus, from the Ligier JS11 to Senna's Lotuses. Motor Sport reckons he would today be called a technical director, with an even broader role: he was less the designer of the cars credited to him than the man who led the team, in the workshop and at the circuit.
 
 ## Technical career
 
 - **Matra.** He joined Matra's racing department in the mid-1960s, coming from the aviation industry. He worked on its single-seaters, up to F1; according to Autosport, he helped design the MS80 with which Jackie Stewart won the 1969 world championship. He then ran the sports car team that won the Le Mans 24 Hours three times in a row, from 1972 to 1974.
 - **Ligier.** When Matra closed its racing department and supplied its V12s to Ligier, he moved to the new team. The 1976 JS5 is known for its tall "teapot" airbox; the JS7 gave Ligier its first win, with Jacques Laffite, in 1977.
-- **Ligier JS11 (1979).** It dominated the first two races of 1979, in Argentina and Brazil, then faded. According to Ligier's Claude Galopin, its [venturi tunnels]({{ site.baseurl }}/en/glossary/#venturi) were deforming under the massive [ground-effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) forces.
+- **Ligier JS11 (1979).** It dominated the first two races of 1979, in Argentina and Brazil, then faded. According to Motor Sport, its [venturi tunnels]({{ site.baseurl }}/en/glossary/#venturi) were deforming under the massive [ground-effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) forces; Ligier's Claude Galopin dismisses the legend of the set-up noted on a cigarette packet.
 - **Alfa Romeo (1981-1982).** He focused the effort on the 179D, which improved in the second half of 1981. Andrea de Cesaris took pole at Long Beach with the 182. He was sacked after the 1982 French Grand Prix, where the car was found to be underweight.
-- **Lotus 94T (1983).** Recruited by Peter Warr in the early summer of 1983, he judged the 93T too big and went back to the 87 and 88 tubs. He drew the basic bodylines over a weekend and set the guidelines for the redesign, carried out in five weeks with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}); two 94Ts started the British Grand Prix.
+- **Lotus 94T (1983).** Recruited by Peter Warr in the early summer of 1983, he judged the 93T too big and went back to the 87 and 88 tubs. He drew the basic bodylines over a weekend and set the guidelines for the redesign, drawn and built in five weeks with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}); less than six weeks after his arrival, two 94Ts started the British Grand Prix.
 - **Lotus and Senna (1985-1988).** Ayrton Senna won his first races, in Portugal and Belgium, with the Renault-engined 97T in 1985; in 1986, he took eight pole positions with the 98T.
 - **Late career.** He moved to Larrousse, returned to Ligier, where he worked on the 1993-1994 JS39, then went back to Matra.
 

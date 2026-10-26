@@ -30,7 +30,7 @@ La même source précise que cette disposition n'était pas nouvelle. Ce qui fai
 
 ## Qui l'a conçue
 
-John Cooper et son ami d'enfance Eric Brandon construisent deux voitures, une pour chacun. Charles Cooper, le père de John, mécanicien de métier, tient un garage à Surbiton ; il soutient le projet et, selon la 500 Owners Association, procure le moteur grâce à ses relations dans le monde de la moto. La carrosserie en aluminium est l'œuvre d'un spécialiste, Charlie Robinson. La voiture de Brandon, un peu plus longue, reçoit des modifications reprises sur les Cooper de série.
+John Cooper et son ami d'enfance Eric Brandon construisent deux voitures, une pour chacun. Charles Cooper, le père de John, mécanicien de métier, tient un garage à Surbiton ; il soutient le projet et, selon la 500 Owners Association, procure le moteur grâce à ses relations dans le monde de la moto. La carrosserie en aluminium est l'œuvre d'un spécialiste, Charlie Robinson. La voiture de Brandon, un peu plus longue, reçoit quelques modifications, dont la fausse calandre qu'on retrouvera sur les Cooper de série.
 
 La construction de la première commence en juin 1946 et dure environ cinq semaines.
 

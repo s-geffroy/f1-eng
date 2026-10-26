@@ -38,7 +38,7 @@ image: "/assets/partage/en/voitures/williams-fw17b.jpg"
 
 The FW17B was not a new car: it was the 1995 FW17 in its end-of-season form. According to Autosport, it received revised suspension and aerodynamics and a new gearbox. Its lasting contribution lay elsewhere, under the back of the car.
 
-After the Imola accidents, the 1995 rules imposed a stepped floor: a raised step plane, 50 mm above the reference plane on each side. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur).
+The 1995 rules imposed a stepped floor: a raised step plane, 50 mm above the reference plane on each side. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur).
 
 The FW17B's diffuser was accordingly undercut and ran up over the exhausts rather than beneath them. "The diffusers were very exit-limited," Newey explains: a larger exit draws far more air under the car. According to him, the solution appeared on the FW17B at Estoril, late in 1995. He expected it to be copied for 1996, having shown it at "the worst possible time"; his rivals did not.
 

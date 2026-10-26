@@ -33,7 +33,7 @@ Arthur Webb is a British aeronautical engineer and a specialist in [carbon compo
 
 ## In aviation
 
-- **Education and early career.** Trained in aeronautical engineering at Queen Mary, he stressed the wings of the Armstrong Whitworth Argosy, an aircraft that made early use of bonded composites. Moving to the United States in the 1960s, during the "brain drain", he worked there on the wings of the Lockheed C-5 Galaxy.
+- **Education and early career.** Trained in aeronautical engineering at Queen Mary, he stressed the wings of the Armstrong Whitworth Argosy, an aircraft that made early use of bonded composites. During the "brain drain", he first worked on the wings of the Lockheed C-5 Galaxy for a British subcontractor, then moved to the United States in the 1960s.
 - **Carbon in civil aviation.** Tasked with finding a practical use for the carbon fibre developed at the Royal Aircraft Establishment, he led the team that designed the first certified civil aircraft component made of carbon: load-carrying rudder panels for the VC10.
 - **Rolls-Royce.** He recounts persuading Rolls-Royce to adopt carbon fibre for structural applications.
 - **Concorde.** His final years at BAC, according to the Royal Aeronautical Society, included Concorde and the difficult period leading to the nationalisation of Britain's aircraft industry.
@@ -49,7 +49,7 @@ Arthur Webb is a British aeronautical engineer and a specialist in [carbon compo
 
 ## Attribution
 
-Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice; Barnard's own account has that choice emerge from his talks with Webb. Webb brought materials science and structural calculation; he was not its designer.
+Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice; in Barnard's own account, his talks with Webb reinforced a choice he was already considering. Webb brought materials science and structural calculation; he was not its designer.
 
 ## Source discrepancies
 

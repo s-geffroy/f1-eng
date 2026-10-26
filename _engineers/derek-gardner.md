@@ -28,7 +28,7 @@ Derek Gardner designed the Tyrrells of the 1970s, including the 1976 **six-wheel
 - **Transmission.** A transmission specialist, he came from Harry Ferguson, where he worked on four-wheel drive; he did the same at Matra in F1, in 1969.
 - **Lotus.** On secondment to Lotus, he was responsible for the four-wheel-drive part of [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s Indianapolis turbine car; he supplied centre differentials that shifted the torque split towards the rear.
 - **Tyrrell 001 (1970).** He joined Ken Tyrrell in 1970 and built the first Tyrrell in his garage. Jackie Stewart put it on pole at its first race, the 1970 Canadian Grand Prix, before retiring.
-- **Tyrrell 003 and 006.** In 1971, Stewart and François Cevert won seven races with the 003; Tyrrell took the constructors' title and Stewart the drivers' title. In 1973, the 006 brought him his third title.
+- **Tyrrell 003 and 006.** In 1971, Stewart and François Cevert won seven races for Tyrrell; Tyrrell took the constructors' title and Stewart the drivers' title. In 1973, the 006 brought him his third title.
 - **Tyrrell P34 (1976-1977).** See below.
 
 ## The P34: less lift at the front

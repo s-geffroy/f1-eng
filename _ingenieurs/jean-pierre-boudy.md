@@ -75,4 +75,4 @@ Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme a
 
 ## Une entrée courte
 
-Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot ; aucun entretien avec lui n'a été trouvé, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.
+Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot ; aucun long entretien avec lui n'a été trouvé, seulement quelques déclarations rapportées par Joe Saward lors du lancement du V10 Peugeot, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.

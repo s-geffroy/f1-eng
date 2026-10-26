@@ -44,7 +44,7 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 - En 1983, quand Renault fige la spécification de son moteur, Rosche poursuit son développement et tire toujours plus de puissance du quatre-cylindres (Motor Sport, 2009).
 - La puissance exacte reste inconnue : selon Rosche, « autour de 1 400 ch », le banc ne mesurant pas au-delà de 1 280 ch (BMW). Motor Sport parle de plus de 1 400 ch en configuration de qualification en 1983.
 - Après le titre, la rumeur d'un carburant illégal circule ; le rapport de la FISA conclut à sa conformité, et Rosche a toujours nié toute tricherie (Motor Sport, 2009).
-- Selon BMW, le moteur compte neuf victoires en Grand Prix en 1987, quand BMW se retire de la F1.
+- Selon BMW, quand BMW se retire de la F1 en 1987, le moteur totalise neuf victoires en Grand Prix.
 
 ## Le retour en F1
 

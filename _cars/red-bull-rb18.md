@@ -53,7 +53,7 @@ A technical team, but the sources do not agree on [Adrian Newey]({{ site.baseurl
 - according to Formula 1 in 2024, he also fed key ideas into the concept, drawing on his experience of ground-effect cars, and recognised that downforce had to be delivered dependably;
 - Honda speaks of development "spearheaded by" Newey, and Motor Sport of an "Adrian Newey-led" team.
 
-All agree on one point: Newey personally designed the front and rear suspension. He said he was at first dispirited by rules that seemed to leave no room for creativity, before finding "a reasonable degree of freedom" around the sidepods and floor.
+Both Formula 1 articles agree on one point: Newey personally designed the front and rear suspension. He said he was at first dispirited by rules that seemed to leave no room for creativity, before finding "a reasonable degree of freedom" around the sidepods and floor.
 
 ## Limitations
 

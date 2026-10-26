@@ -41,14 +41,14 @@ For 1986, the fuel allowed in a race was cut from 220 to 195 litres. According t
 
 It was also one of the first F1 cars whose engineers could follow it remotely. In January 1987 Motor Sport described a pit-to-car radio and a telemetry system that let engineers watch the instrument read-outs during the race. Electronics also controlled boost, ignition and fuel injection; the driver had four cockpit-adjustable [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) boost settings.
 
-**The sources do not describe this system the same way.** Mark Hughes speaks of a "rudimentary" telemetry system downloading information to the garage at the end of each lap. Honda describes a data logger developed from mid-1985 by Toshihiro Ito's electronics team, which only later evolved into telemetry with real-time monitoring; the manufacturer says Williams-Honda became the first F1 team to put such a system into practical use in 1986. No independent source confirms that claim. This site therefore speaks of on-board [data acquisition]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees), passed to the pits in a form that remains disputed.
+**The sources do not describe this system the same way.** Mark Hughes speaks of a "rudimentary" telemetry system downloading information to the garage at the end of each lap. Honda describes a data logger developed from mid-1985 by Toshihiro Ito's team, which later became telemetry; on its RA166E page, the manufacturer even states that data were transmitted in real time as early as 1986, and that Williams-Honda became the first F1 team to put such a system into practical use in 1986. No independent source confirms that claim. This site therefore speaks of on-board [data acquisition]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees), passed to the pits in a form that remains disputed.
 
 ## How it was built
 
 - **Chassis**: according to Mark Hughes, an inverted-U tub with carbon fibre bulkheads rather than aluminium, built in-house at Didcot and bonded to a carbon fibre floor. Motor Sport speaks of a moulded carbon/Kevlar/aluminium [composite]({{ site.baseurl }}/en/glossary/#composite-carbone), designed with a General Electric Calma [CAD/CAM]({{ site.baseurl }}/en/glossary/#cao) system installed at Didcot in late 1985.
 - **Engine**: Honda's 1.5-litre turbo V6, over 1,100 bhp in qualifying and over 900 bhp in the race according to Mark Hughes. Honda calls it the RA166E; Motor Sport, in 1987, refers to an "F" version of the 80-degree RA163 V6.
-- **Transmission and brakes**: a six-speed gearbox, mounted behind the rear axle line. Carbon brake discs from SEP.
-- **Suspension**: double wishbones all round, with inboard spring/damper units operated by pushrods.
+- **Transmission and brakes**: a six-speed gearbox, mounted behind the rear axle line. Carbon brake discs from SEP according to Motor Sport; Mark Hughes speaks of cast-iron discs.
+- **Suspension**: double wishbones all round, with inboard spring/damper units operated by pushrods according to Motor Sport; Mark Hughes indicates pullrods at the rear.
 - **Aerodynamics**: radiators and intercoolers arranged symmetrically in the sidepods; according to Mark Hughes, flat wing profiles, no bargeboards and no sidepod undercuts, but a slight "coke bottle" taper at the rear.
 
 ## Who designed it
@@ -62,4 +62,4 @@ The two drivers took points off each other. According to Mark Hughes, that was t
 ## Legacy
 
 - **1986**: nine wins from sixteen races, five for Mansell and four for Piquet. Williams won the constructors' championship with 141 points; it was Honda's first constructors' title. Prost was champion with 72 points, ahead of Mansell (70) and Piquet (69).
-- The FW11B followed in 1987; it was on that car that Williams introduced its active suspension, late in the season.
+- The FW11B, its evolution, took Nelson Piquet to the title in 1987.

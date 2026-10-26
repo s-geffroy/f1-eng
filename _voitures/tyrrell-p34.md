@@ -19,6 +19,8 @@ sources:
     url: "https://www.formula1.com/en/results/1976/team"
   - titre: "Mark Glendenning, Racer, « Tales of the tape: Early adventures in F1 data logging » (avril 2024)"
     url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
+  - titre: "Matt Bishop, Motor Sport Magazine, « The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1 » (juin 2026)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
 photo:
   fichier: "/assets/voitures/tyrrell-p34.jpg"
   legende: "Jody Scheckter sur la Tyrrell P34 dans l'épingle sud du Nürburgring, le 31 juillet 1976."
@@ -33,7 +35,7 @@ image: "/assets/partage/voitures/tyrrell-p34.jpg"
 
 La Tyrrell P34 est la seule voiture à six roues à avoir pris le départ d'un Grand Prix : quatre petites roues directrices à l'avant, deux roues de taille normale à l'arrière.
 
-À sa présentation, on croit à une recherche de surface frontale. Ce n'était pas le but, explique son concepteur : la surface frontale était fixée par les énormes pneus arrière. Selon Motor Sport, la vraie raison était l'[appui]({{ site.baseurl }}/glossaire/#appui). Une roue exposée au vent engendre de la portance, d'autant plus forte que la roue est grande. Des roues plus petites, deux fois plus nombreuses, gardent la surface de gomme et de freinage tout en portant moins. Les autres compensaient la portance de leurs roues avant par davantage d'aileron ; la Tyrrell pouvait s'en passer, et gagner en ligne droite. Derek Gardner avait chiffré le gain : « l'équivalent d'une quarantaine de chevaux ».
+À sa présentation, on croit à une recherche de surface frontale. Ce n'était pas le but, explique Motor Sport : la surface frontale était fixée par les énormes pneus arrière. Selon Motor Sport, la vraie raison était l'[appui]({{ site.baseurl }}/glossaire/#appui). Une roue exposée au vent engendre de la portance, d'autant plus forte que la roue est grande. Des roues plus petites, deux fois plus nombreuses, gardent la surface de gomme et de freinage tout en portant moins. Les autres compensaient la portance de leurs roues avant par davantage d'aileron ; la Tyrrell pouvait s'en passer, et gagner en ligne droite. Derek Gardner avait chiffré le gain : « l'équivalent d'une quarantaine de chevaux ».
 
 Le contexte explique la démarche. Presque tout le plateau avait le même moteur, la même boîte et les mêmes pneus. « Il nous fallait un avantage déloyal, dit Gardner, et la six-roues, c'était ça. »
 
@@ -56,4 +58,4 @@ Le premier prototype garde l'arrière de la Tyrrell 007 de 1975. Gardner quitte 
 
 - **1976** : débuts au Grand Prix d'Espagne, à Jarama, quatrième manche ; Patrick Depailler s'y qualifie derrière Hunt et Lauda seulement. Le 13 juin, à Anderstorp, Scheckter signe la seule pole de la voiture et gagne devant Depailler. Selon Motor Sport, l'un ou l'autre pilote monte sur le podium dix fois en treize courses. Scheckter finit troisième du championnat, Depailler quatrième, et Tyrrell troisième chez les constructeurs, avec 71 points.
 - **1977** : un deuxième et trois troisièmes places. Depailler et Ronnie Peterson finissent dixième et quatorzième. En essais à Silverstone, Karl Kempf, de la division course de Goodyear, équipe la voiture de capteurs et dépouille les mesures avec Derek Gardner ; selon lui, même des mesures détaillées « n'ont pas pu la sauver ».
-- En 1978, la Tyrrell 008 revient à quatre roues ; la fédération interdit ensuite les six-roues.
+- En 1978, la Tyrrell 008 revient à quatre roues ; la règle des quatre roues au plus interdit ensuite les six-roues, en 1982 ou 1983 selon les sources.

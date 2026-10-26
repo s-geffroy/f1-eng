@@ -42,7 +42,7 @@ Osamu Goto est l'ingénieur qui dirige le programme moteur de F1 de Honda pendan
 - **McLaren.** Selon GrandPrix.com, Ron Dennis le recrute chez McLaren comme « Executive Engineer » à la fin de 1991, sans que son rôle y soit jamais vraiment expliqué. OldRacingCars.com juge ce passage infructueux.
 - **Ferrari.** Il entre chez Ferrari en janvier 1994 pour travailler sur le nouveau V10, puis y dirige la recherche et le développement moteur (GrandPrix.com, juin 1996).
 - **Ford, une rumeur.** En juin 1996, GrandPrix.com le dit sur le départ, pour aider Cosworth à développer le nouveau V10 de Ford. La nouvelle d'octobre 1996 l'envoie ailleurs ; le site ne retient pas ce départ comme un fait.
-- **Petronas et Sauber.** En octobre 1996, GrandPrix.com rapporte que le gouvernement malaisien a choisi de créer sa propre société de moteurs, confiée à Goto : il doit installer en Angleterre une structure pour concevoir et construire un V10 Petronas, que Sauber espère utiliser en 1998, et une trentaine de jeunes ingénieurs malaisiens doivent le rejoindre. Au début de 1997, il prend la tête du département moteur de Sauber (GrandPrix.com).
+- **Petronas et Sauber.** En octobre 1996, GrandPrix.com rapporte que le gouvernement malaisien semble avoir choisi de créer sa propre société de moteurs, et que Goto paraît être l'homme retenu : il doit installer en Angleterre une structure pour concevoir et construire un V10 Petronas, que Sauber espère utiliser en 1998, et jusqu'à trente jeunes ingénieurs malaisiens sont attendus à ses côtés. Au début de 1997, il prend la tête du département moteur de Sauber (GrandPrix.com).
 - **Ensuite.** Selon OldRacingCars.com, il dirige aujourd'hui sa propre société de conseil en ingénierie.
 
 ## Attribution
@@ -52,7 +52,7 @@ Les moteurs Honda de cette époque sont l'œuvre d'un département entier ; les 
 ## Divergences entre les sources
 
 - **La durée à la tête du programme F1** : six ans selon GrandPrix.com en juin 1996 ; OldRacingCars.com parle d'environ cinq ans de succès.
-- **Entre McLaren et Ferrari** : OldRacingCars.com place un retour au Japon, chez Tokyo R&D, que les articles de GrandPrix.com ne mentionnent pas.
+- **Entre McLaren et Ferrari** : la fiche de GrandPrix.com et OldRacingCars.com placent un bref retour au Japon, chez Tokyo R&D (un mois selon GrandPrix.com) ; les nouvelles de 1996 de GrandPrix.com n'en parlent pas.
 
 ## Une entrée courte
 

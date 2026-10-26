@@ -44,7 +44,7 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 - In 1983, when Renault froze the specification of its engine, Rosche pressed on with development, squeezing ever more power from the four-cylinder (Motor Sport, 2009).
 - The exact output remains unknown: according to Rosche, "around 1,400hp", as the dyno did not go beyond 1,280hp (BMW). Motor Sport gives over 1,400bhp in qualifying trim in 1983.
 - After the title, rumours of illegal fuel circulated; the FISA report found it met all requirements, and Rosche always insisted there had been no cheating (Motor Sport, 2009).
-- According to BMW, the engine had nine Grand Prix wins by 1987, when BMW withdrew from F1.
+- According to BMW, when BMW withdrew from F1 in 1987, the engine had nine Grand Prix wins to its name.
 
 ## The return to F1
 

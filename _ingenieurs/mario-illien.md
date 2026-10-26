@@ -27,7 +27,7 @@ Mario Illien est l'ingénieur suisse qui fonde **Ilmor** avec Paul Morgan, en 19
 
 ## Avant Ilmor
 
-- Formé à l'école d'ingénieurs de Bienne, il travaille d'abord chez Mowag, fabricant de moteurs diesel et de véhicules lourds (Motor Sport, 1991) ; GrandPrix.com précise qu'il y dessine des moteurs de chars et de blindés.
+- Formé à l'école d'ingénieurs de Bienne, il travaille chez Mowag, fabricant de moteurs diesel et de véhicules lourds (Motor Sport, 1991) ; GrandPrix.com précise qu'il y dessine des moteurs de chars et de blindés.
 - Il vient au sport automobile par Jo Bonnier, pour qui il dessine une culasse à seize soupapes destinée au moteur Chrysler de Formule 2 (Motor Sport, 1991).
 - En 1979, il entre chez Cosworth, où il travaille surtout sur le moteur de F1 DFY et sur le moteur seize soupapes de la Sierra (Motor Sport, 1991).
 
@@ -40,7 +40,7 @@ Mario Illien est l'ingénieur suisse qui fonde **Ilmor** avec Paul Morgan, en 19
 
 ## Les V10 de F1 et Mercedes
 
-- En 1989, Illien et Morgan décident de construire un V10 de 3,5 litres pour la F1. Il court chez Leyton House en 1991, puis chez March et Tyrrell en 1992 (GrandPrix.com). Selon Illien, c'est [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), rencontré en 1987 chez Newman Haas, qui lui demande un moteur pour Leyton House. Ce premier V10 pèse 126 kg, contre plus de 170 pour la concurrence : moins puissant que les Honda et Renault, dit-il, mais bien plus léger. Quand l'argent de Leyton House vient à manquer en 1991, Illien et Morgan financent eux-mêmes la suite ; Ivan Capelli marque un point en Hongrie.
+- En 1989, Illien et Morgan décident de construire un V10 de 3,5 litres pour la F1. Il court chez Leyton House en 1991, puis chez March et Tyrrell en 1992 (GrandPrix.com). Selon Illien, c'est [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), rencontré en 1987 chez Newman Haas, qui lui demande un moteur pour Leyton House. Ce premier V10 pèse 126 kg selon Illien (environ 122 kg selon Motor Sport en 1991), contre plus de 170 pour la concurrence : moins puissant que les Honda et Renault, dit-il, mais bien plus léger. Quand l'argent de Leyton House vient à manquer en 1991, Illien et Morgan financent eux-mêmes la suite ; Ivan Capelli marque un point en Hongrie.
 - En 1993, Ilmor conçoit le V10 de Sauber, payé par Mercedes ; à la fin de l'année, Mercedes-Benz rachète la part de Chevrolet et ce V10 devient le V10 Mercedes (GrandPrix.com). Selon Illien, la relation avec Chevrolet prend fin en 1993 sur une question de budget, et Mercedes arrive en novembre, pour la F1 et l'IndyCar. Pour les 500 Miles d'Indianapolis 1994, Ilmor conçoit et fabrique en six mois un moteur à culbuteurs spécifique, qui donne 1 024 ch, quand Illien en avait garanti « bien plus de 940 » à Penske, et gagne la course.
 - En 1995, Mercedes s'associe à McLaren. Le début est difficile ; la première victoire du V10 Mercedes en F1 vient à la fin de 1997 (GrandPrix.com).
 - **Les matériaux.** À la fin des années 1990, Ilmor fait des pistons en alliage aluminium-béryllium de 167 g : une petite équipe met au point leur traitement thermique, leur forgeage et leur usinage à l'outil diamant. Illien cite aussi des chemises en béryllium et des soupapes en aluminiure de titane ; selon lui, ces avances expliquent qu'elles aient « fini par être interdites » (Formula 1, 2023).
@@ -58,3 +58,5 @@ Ilmor est une entreprise, fondée à deux : les moteurs sont ceux d'Ilmor, conç
 
 - **La fondation d'Ilmor** : 1983 selon Motor Sport (2001) ; Illien dit en 2023 que l'entreprise démarre « début janvier 1984 ».
 - **Le capital** : GrandPrix.com donne un quart à chacun des quatre partenaires ; Illien décrit 25 % pour lui, 25 % pour Morgan et 50 % pour Penske, qui en cède la moitié au constructeur. Les deux versions aboutissent au même partage.
+- **Les débuts** : Motor Sport (1991) place Mowag avant le sport automobile et attribue la culasse Chrysler à une commande de Jo Bonnier ; selon GrandPrix.com, Illien travaille pour Bonnier dès 1971, modifie ensuite le moteur Chrysler-Simca pour Fred Stalder, puis étudie à Bienne et n'entre chez Mowag qu'en 1977.
+- **Premier fonctionnement** : le 16 mai 1985 au banc selon Illien ; août 1985 selon GrandPrix.com, sans préciser banc ou piste.

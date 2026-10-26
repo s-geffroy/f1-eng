@@ -40,4 +40,4 @@ Ron Tauranac designed the Brabhams of the 1960s, including the cars of the 1966 
 ## Where sources disagree
 
 - **Taking over the team.** According to the BRDC, Brabham sold him his shareholding at the end of 1969; according to The Race and Goodwood, Tauranac took over the team when Brabham stopped racing, at the end of 1970.
-- **His departure.** The Race dates the sale to Ecclestone to the end of 1971. Goodwood adds that he stayed on for a time to design the cars, until Ecclestone reorganised the team without him; the BRDC says he left within a year of the sale, on terms he soon came to regret.
+- **His departure.** The Race dates the sale to Ecclestone to the end of 1971. Goodwood adds that he stayed on for a time to design the cars, until Ecclestone reorganised the team without him; the BRDC specifies that he sold on terms he soon came to regret, and left within a year.

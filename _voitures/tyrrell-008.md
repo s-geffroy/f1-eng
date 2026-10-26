@@ -62,5 +62,5 @@ Autosport écrit « Phillippe », Racer « Philippe » : le site retient la seco
 ## Ce qu'elle laisse
 
 - **1978** : 16 Grands Prix, une victoire et quatre autres podiums, sans pole position. Patrick Depailler gagne à Monaco, à sa 69e tentative, avec 22 secondes d'avance sur Niki Lauda, sur le châssis 008/3 ; il est aussi deuxième en Afrique du Sud et en Autriche. Il finit cinquième du championnat, avec 34 points ; Pironi est quinzième, avec 7 points. Tyrrell est quatrième chez les constructeurs, avec 38 points.
-- C'est la dernière victoire de Tyrrell jusqu'à celle de Michele Alboreto à Détroit, en 1983.
+- C'est la dernière victoire de Tyrrell jusqu'à celle de Michele Alboreto à Las Vegas, à la fin de 1982.
 - La 009 lui succède ; selon Kempf, elle hérite des difficultés aérodynamiques découvertes sur la 008.

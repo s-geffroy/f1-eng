@@ -53,7 +53,7 @@ Une équipe technique, mais les sources ne s'accordent pas sur la part d'[Adrian
 - selon Formula 1, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut délivrer l'appui de façon fiable ;
 - Honda parle d'un développement « mené par » Newey, et Motor Sport d'une équipe « dirigée par » lui.
 
-Toutes s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher.
+Les deux articles de Formula 1 s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher.
 
 ## Limites
 

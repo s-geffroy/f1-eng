@@ -28,7 +28,7 @@ Len Terry est un concepteur britannique, associé surtout à Lotus et à Eagle. 
 - **Lotus, deuxième période (1962-1965).** Revenu en septembre 1962, il travaille sur la Lotus 29 d'Indianapolis, puis, sous la direction de Chapman, sur la 33, dérivée de la 25, avec laquelle Clark est champion du monde en 1965.
 - **Eagle.** Pour All American Racers, il conçoit l'Eagle, destinée à la F1 comme à l'Indycar. Avec l'Eagle-Weslake, Gurney gagne le Grand Prix de Belgique 1967, à Spa ; Motor Sport, Autosport et Classic Team Lotus la citent parmi les plus belles F1 de l'histoire.
 - **BRM.** Il dessine rapidement la BRM P126, puis, en 1977, la P207, dernière F1 de l'équipe, peu compétitive.
-- **Hors F1.** On lui doit aussi une Can-Am pour Shelby, la Mirage-BRM de John Wyer, la F5000 Surtees TS5 et la F2 BMW 269.
+- **Hors F1.** On lui doit aussi une Can-Am pour Shelby, la Mirage-BRM de John Wyer, la F5000 de Surtees et la F2 BMW 269.
 
 ## La Lotus 38
 

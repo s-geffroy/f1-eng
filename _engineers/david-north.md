@@ -43,7 +43,7 @@ David North is a British engineer from an aerospace background who spent most of
 
 - **Education.** Born on 27 September 1950 in Bromley, Kent, he graduated in mechanical engineering from the University of Southampton, according to OldRacingCars. Joe Saward adds that he first worked for the British Aircraft Corporation.
 - **Brabham.** He joined Brabham as a design engineer under Murray. He was involved in the design of the [fan car]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur), the BT46B, and later of the "skateboard" BT55.
-- **The BT50 (1981).** In September 1981, Alan Henry wrote in Motor Sport that Murray had completed the BMW 1.4-litre turbo BT50 with the assistance of his "number two", North, "a relative newcomer" of whom Murray spoke very highly.
+- **The BT50 (1981).** In September 1981, Alan Henry wrote in Motor Sport that Murray had completed the BMW turbo BT50 with the assistance of his "number two", North, "a relative newcomer" of whom Murray spoke very highly.
 - **The ride-height cars (1981).** According to Doug Nye, when a new ride-height rule left them a month before Long Beach, Murray and North read the regulations closely again. They chose a soft air spring: a hydraulic piston, piped to cylinders at each suspension corner, compressed air in a central reservoir.
 - **The BT52 (1983).** After experimenting with the BT51, a mock-up of the 1983 car, Murray and North produced an entirely new car, the BT52 (Alan Henry, Motor Sport). In Murray's own words: "David North and I drew every part between us."
 - **The BT55 (1986).** Motor Sport calls him Murray's number two. He explains that the springs and dampers could only go at the extreme rear of the gearbox, so that all the load had to pass through the magnesium casing.

@@ -19,15 +19,15 @@ image: "/assets/partage/gerard-ducarouge.jpg"
 ---
 ## Ce qu'il a fait
 
-Gérard Ducarouge dirige l'effort technique de Ligier, d'Alfa Romeo puis de Lotus, de la Ligier JS11 aux Lotus de Senna. Motor Sport le décrit comme le précurseur du directeur technique moderne : moins le dessinateur des voitures qu'on lui attribue que celui qui mène l'équipe, à l'atelier comme sur le circuit.
+Gérard Ducarouge dirige l'effort technique de Ligier, d'Alfa Romeo puis de Lotus, de la Ligier JS11 aux Lotus de Senna. Motor Sport estime qu'on l'appellerait aujourd'hui directeur technique, avec un rôle plus large encore : il est moins le dessinateur des voitures qu'on lui attribue que celui qui mène l'équipe, à l'atelier comme sur le circuit.
 
 ## Parcours technique
 
 - **Matra.** Il entre au service course de Matra au milieu des années 1960, venu de l'aéronautique. Il travaille sur les monoplaces, jusqu'à la F1 ; selon Autosport, il participe à la conception de la MS80 avec laquelle Jackie Stewart est champion du monde en 1969. Il dirige ensuite l'équipe d'endurance qui gagne trois fois de suite les 24 Heures du Mans, de 1972 à 1974.
 - **Ligier.** Quand Matra ferme son service course et fournit ses V12 à Ligier, il passe dans la nouvelle équipe. La JS5 de 1976 est connue pour sa haute prise d'air « théière » ; la JS7 offre à Ligier sa première victoire, avec Jacques Laffite, en 1977.
-- **Ligier JS11 (1979).** Elle domine les deux premières courses de 1979, en Argentine et au Brésil, puis s'efface. Selon Claude Galopin, de Ligier, ses [canaux venturi]({{ site.baseurl }}/glossaire/#venturi) se déformaient sous les énormes efforts de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).
+- **Ligier JS11 (1979).** Elle domine les deux premières courses de 1979, en Argentine et au Brésil, puis s'efface. Selon Motor Sport, ses [canaux venturi]({{ site.baseurl }}/glossaire/#venturi) se déformaient sous les énormes efforts de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) ; Claude Galopin, de Ligier, balaie la légende du réglage noté sur un paquet de cigarettes.
 - **Alfa Romeo (1981-1982).** Il fait porter l'effort sur la 179D, qui progresse en seconde moitié de saison 1981. Andrea de Cesaris signe la pole position à Long Beach avec la 182. Il est renvoyé après le Grand Prix de France 1982, où la voiture est trouvée trop légère.
-- **Lotus 94T (1983).** Recruté par Peter Warr au début de l'été 1983, il juge la 93T trop grosse et repart des coques des 87 et 88. Il trace les lignes de base en un week-end et fixe les principes de la refonte, menée en cinq semaines avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) ; deux 94T sont au départ du Grand Prix de Grande-Bretagne.
+- **Lotus 94T (1983).** Recruté par Peter Warr au début de l'été 1983, il juge la 93T trop grosse et repart des coques des 87 et 88. Il trace les lignes de base en un week-end et fixe les principes de la refonte, dessinée et construite en cinq semaines avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) ; moins de six semaines après son arrivée, deux 94T sont au départ du Grand Prix de Grande-Bretagne.
 - **Lotus et Senna (1985-1988).** Ayrton Senna gagne ses premières courses, au Portugal et en Belgique, avec la 97T à moteur Renault en 1985 ; en 1986, il signe huit pole positions avec la 98T.
 - **Fin de carrière.** Il passe chez Larrousse, revient chez Ligier, où il participe à la JS39 de 1993-1994, puis retourne chez Matra.
 

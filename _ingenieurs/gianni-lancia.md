@@ -23,16 +23,16 @@ Gianni Lancia n'est pas un ingénieur de bureau d'études : c'est le **patron de
 
 - Après 1952, il décide que l'équipe d'usine abandonnera les coupés Aurelia pour une vraie série de voitures de sport de course ; selon Doug Nye, Lancia gagne ensuite la Carrera Panamericana, la Targa Florio et les Mille Miglia en 1953-1954.
 - L'étape suivante de ses ambitions est la nouvelle F1 de 2,5 litres : le service expérimental lance le programme en août 1953. Il fixe comme objectif des débuts au Grand Prix de France du 4 juillet 1954 ; la D50 ne court finalement qu'à la fin de la saison, au Grand Prix d'Espagne, à Barcelone.
-- Selon Chris Nixon, c'est lui qui convainc Alberto Ascari de quitter la Scuderia Ferrari, en lui exposant ses projets et en lui montrant la nouvelle voiture ; Ascari amène Gigi Villoresi.
+- Selon Chris Nixon, c'est lui qui convainc Alberto Ascari de quitter la Scuderia Ferrari, en lui exposant ses projets et en lui dévoilant les détails de la nouvelle voiture ; Ascari amène Gigi Villoresi.
 
 ## Sa part dans la conception
 
 Les deux articles de Motor Sport ne disent pas la même chose, et le site ne tranche pas.
 
-- **Doug Nye** ne lui attribue aucun travail de conception : les principes de la voiture sont ceux de Jano, le moteur est détaillé avec [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}).
+- **Doug Nye** ne lui attribue aucun travail de conception : les principes de la voiture sont ceux de Jano, le moteur est détaillé avec [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), et il attribue à Jano l'idée des réservoirs latéraux.
 - **Chris Nixon**, qui rapporte le témoignage de Zaccone Mina, lui donne un rôle plus direct. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et la place des réservoirs sont sortis des discussions de l'équipe, « Gianni Lancia prenant les décisions finales ». Plusieurs innovations seraient nées de son « cerveau fertile », et les élégants **réservoirs latéraux**, entre les roues, sont présentés comme son idée.
 
-La formulation juste : Gianni Lancia est le commanditaire et l'arbitre final du projet, crédité par une source d'une idée précise, les réservoirs latéraux. Il n'est pas le concepteur de la D50.
+La formulation juste : Gianni Lancia est le commanditaire et l'arbitre final du projet, crédité par Nixon de l'idée des réservoirs latéraux, que Nye attribue au contraire à Jano. Il n'est pas le concepteur de la D50.
 
 ## La fin
 

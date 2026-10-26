@@ -30,7 +30,7 @@ The same source points out that the layout was not new. What made the car good w
 
 ## Who designed it
 
-John Cooper and his childhood friend Eric Brandon built two cars, one each. Charles Cooper, John's father and a trained mechanic, ran a garage in Surbiton; he backed the project and, according to the 500 Owners Association, obtained the engine through his motorcycle contacts. The aluminium body was made by a specialist, Charlie Robinson. Brandon's car, slightly longer, had revisions that appeared on later production Coopers.
+John Cooper and his childhood friend Eric Brandon built two cars, one each. Charles Cooper, John's father and a trained mechanic, ran a garage in Surbiton; he backed the project and, according to the 500 Owners Association, obtained the engine through his motorcycle contacts. The aluminium body was made by a specialist, Charlie Robinson. Brandon's car, slightly longer, had a few revisions, including the dummy radiator grille later seen on production Coopers.
 
 Work on the first car began in June 1946 and took about five weeks.
 

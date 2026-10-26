@@ -28,7 +28,7 @@ Robin Herd passe de l'aéronautique à la F1 : il dessine la première F1 McLare
 ## Parcours technique
 
 - **Aéronautique.** Diplômé d'Oxford en physique et en ingénierie, il entre au Royal Aircraft Establishment de Farnborough et participe à la conception de Concorde.
-- **McLaren (1965-1968).** Recruté en 1965, il dessine la première F1 de l'équipe, la M2B, en Mallite, un matériau d'origine aéronautique plus rigide que l'aluminium à masse égale. Il dira lui-même que la coque était environ huit fois plus rigide que nécessaire, au prix d'une construction très difficile.
+- **McLaren (1965-1967).** Recruté en 1965, il dessine la première F1 de l'équipe, la M2B, en Mallite, un matériau d'origine aéronautique plus rigide que l'aluminium à masse égale. Il dira lui-même que la coque était environ huit fois plus rigide que nécessaire, au prix d'une construction très difficile.
 - **Cosworth.** Après avoir dessiné le châssis de la McLaren M7A de 1968, il part chez Cosworth concevoir une F1 à quatre roues motrices, essayée mais jamais engagée en course. Gordon Coppuck, son ancien assistant, développe la M7A, qui gagne trois Grands Prix en 1968.
 - **March (1969).** Il fonde March avec Max Mosley, Alan Rees et Graham Coaker ; le nom est formé de leurs initiales.
 - **March 701 (1970).** Dix semaines séparent la planche à dessin des premiers tours de roue. Simple par nécessité, la voiture prend la pole position de sa première course, en Afrique du Sud, avec Jackie Stewart sur une March de Ken Tyrrell, puis gagne la deuxième, en Espagne.
@@ -40,7 +40,7 @@ Robin Herd passe de l'aéronautique à la F1 : il dessine la première F1 McLare
 
 - **L'intention.** La 711 avait un [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire) réduit ; pour 1972, Herd veut aller « jusqu'au bout » et viser un moment d'inertie extrêmement faible.
 - **Le moyen.** La boîte, dont Alfa Romeo fournit l'intérieur dans un carter dessiné par March, reprend la disposition de la barquette Alfa Romeo Tipo 33/3 ; elle place les rapports devant le différentiel, pour concentrer les masses au centre de la voiture. OldRacingCars.com rappelle que la Porsche 908/3 suivait la même approche : Herd n'est pas l'inventeur du principe.
-- **L'échec.** La voiture sous-vire. Herd accuse surtout la boîte Alfa, lente à manœuvrer, et son différentiel minuscule, pratiquement bloqué ; OldRacingCars.com met plutôt en cause les pneus Goodyear, inadaptés. Après le Grand Prix de Belgique, en juin 1972, March l'abandonne pour la 721G, une F1 construite en neuf jours sur une coque de F2.
+- **L'échec.** La voiture sous-vire. Herd accuse la boîte Alfa, lente à manœuvrer, et surtout son différentiel minuscule, donc bloqué en permanence ; OldRacingCars.com met plutôt en cause les pneus Goodyear, inadaptés. Après le Grand Prix de Belgique, en juin 1972, March l'abandonne pour la 721G, une F1 construite en neuf jours sur une coque de F2.
 - **La suite.** Dès lors, les F1 March dérivent des F2. En 1973, James Hunt débute en Grand Prix sur la 721G de Peterson, remaniée et engagée par Hesketh, dont l'équipe compte [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}), venu de March.
 - **Le regard de Herd.** « J'ai eu tort de faire la X à ce moment-là. Elle nous a mis à bout de ressources. »
 

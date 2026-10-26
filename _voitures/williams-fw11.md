@@ -41,14 +41,14 @@ Pour 1986, la quantité de carburant autorisée en course passe de 220 à 195 li
 
 C'est aussi l'une des premières F1 dont les ingénieurs suivent le fonctionnement à distance. Motor Sport décrit en janvier 1987 une radio entre le stand et la voiture, et un système de télémétrie qui permet aux ingénieurs de suivre les relevés des instruments pendant la course. L'électronique gère aussi la suralimentation, l'allumage et l'injection ; le pilote dispose de quatre réglages de pression du [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur).
 
-**Les sources ne décrivent pas ce système de la même façon.** Mark Hughes parle d'une télémétrie « rudimentaire », qui transmet ses données au garage à la fin de chaque tour. Honda évoque un enregistreur de données développé à partir de mi-1985 par l'équipe électronique de Toshihiro Ito, qui n'est devenu télémétrie, avec suivi en temps réel, que plus tard ; le constructeur affirme que Williams-Honda a été en 1986 la première équipe à mettre un tel système en pratique. Cette primauté n'est pas confirmée par une source indépendante. Le site parle donc d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) embarquée, transmise au stand sous une forme encore discutée.
+**Les sources ne décrivent pas ce système de la même façon.** Mark Hughes parle d'une télémétrie « rudimentaire », qui transmet ses données au garage à la fin de chaque tour. Honda évoque un enregistreur de données développé à partir de mi-1985 par l'équipe de Toshihiro Ito, devenu ensuite télémétrie ; sur sa page consacrée au RA166E, le constructeur affirme même que les données étaient transmises en temps réel dès 1986, et que Williams-Honda a été en 1986 la première équipe à mettre un tel système en pratique. Cette primauté n'est pas confirmée par une source indépendante. Le site parle donc d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) embarquée, transmise au stand sous une forme encore discutée.
 
 ## Comment elle est faite
 
 - **Châssis** : selon Mark Hughes, une coque en U inversé, à cloisons en fibre de carbone et non plus en aluminium, construite chez Williams à Didcot et collée sur un fond en fibre de carbone. Motor Sport parle d'un [composite]({{ site.baseurl }}/glossaire/#composite-carbone) moulé de carbone, de Kevlar et d'aluminium, dessiné avec un système de [CAO]({{ site.baseurl }}/glossaire/#cao) Calma de General Electric installé à Didcot fin 1985.
 - **Moteur** : le V6 turbo Honda de 1,5 litre, plus de 1 100 ch en qualification et plus de 900 ch en course selon Mark Hughes. Honda le nomme RA166E ; Motor Sport, en 1987, parle d'une version « F » du V6 RA163 à 80 degrés.
-- **Transmission et freins** : une boîte à six rapports, placée en arrière de l'essieu. Disques de frein en carbone de SEP.
-- **Suspensions** : doubles triangles aux quatre roues, combinés ressort-amortisseur intérieurs actionnés par poussoirs.
+- **Transmission et freins** : une boîte à six rapports, placée en arrière de l'essieu. Disques de frein en carbone de SEP selon Motor Sport ; Mark Hughes parle de disques en fonte.
+- **Suspensions** : doubles triangles aux quatre roues, combinés ressort-amortisseur intérieurs actionnés par poussoirs selon Motor Sport ; Mark Hughes indique des tirants à l'arrière.
 - **Aérodynamique** : radiateurs et échangeurs répartis symétriquement dans les pontons ; selon Mark Hughes, des profils d'aileron plats, ni déflecteurs ni pontons creusés, mais un léger rétrécissement en « bouteille de Coca » à l'arrière.
 
 ## Qui l'a conçue
@@ -62,4 +62,4 @@ Les deux pilotes se prennent des points. Selon Mark Hughes, c'est la raison prin
 ## Ce qu'elle laisse
 
 - **1986** : neuf victoires en seize courses, cinq pour Mansell, quatre pour Piquet. Williams est champion des constructeurs avec 141 points ; c'est le premier titre constructeurs de Honda. Prost est champion avec 72 points, devant Mansell (70) et Piquet (69).
-- La FW11B lui succède en 1987 ; c'est sur elle que Williams fait débuter sa suspension active, en fin de saison.
+- La FW11B, son évolution, mène Nelson Piquet au titre en 1987.

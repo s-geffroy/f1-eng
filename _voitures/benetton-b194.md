@@ -56,7 +56,7 @@ Le nom du moteur varie selon les sources : Autosport l'appelle Zetec-R, Motor Sp
 ## Limites
 
 - **Les soupçons.** Les rivaux soupçonnent la B194 d'être illégale. Dans les données de l'électronique d'Imola, la FIA trouve une fonction de départ automatisé, l'« option 13 », mais ne peut prouver qu'elle a servi et ne sanctionne pas, selon Motor Sport et Autosport. Benetton nie l'avoir utilisée. Au Grand Prix d'Allemagne, l'incendie de la voiture de Jos Verstappen lors d'un ravitaillement révèle qu'un filtre a été retiré du tuyau d'essence ; l'équipe affirme avoir eu l'accord oral de la FIA et échappe à la sanction.
-- **Les sanctions.** À Silverstone, Schumacher commet une infraction pendant le tour de formation ; il perd sa deuxième place et reçoit deux courses de suspension. À Spa, sa victoire lui est retirée : la planche placée sous la voiture est trop usée. Benetton perd seize points au total, selon Autosport.
+- **Les sanctions.** À Silverstone, Schumacher commet une infraction pendant le tour de formation ; il perd sa deuxième place et reçoit deux courses de suspension. À Spa, sa victoire lui est retirée : la planche placée sous la voiture est trop usée. Schumacher perd seize points au total sur disqualification, selon Autosport.
 - **Après Imola**, la FIA raccourcit le diffuseur, perce la boîte à air et impose la planche. Selon Autosport, l'équipe estime que ces changements ont rendu sa voiture moyenne ; en fin de saison, la Williams était sans doute la meilleure.
 
 Brawn reconnaît que la controverse a « un peu assombri » son regard sur une voiture qu'il tient pour « une conception fabuleuse ».
