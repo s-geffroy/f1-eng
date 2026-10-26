@@ -166,16 +166,38 @@
         <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
         <h3>{{ c.titre }}</h3>
         <p>{{ c.texte }}</p>
-        {%- if c.liens and c.liens.size > 0 %}
+        {%- comment -%} un lien vise un jalon (« jalon ») ou un autre événement de contexte (« evenement ») {%- endcomment -%}
+        {%- assign n_jal = 0 -%}{%- assign n_ev = 0 -%}
+        {%- for l in c.liens -%}{%- if l.jalon -%}{%- assign n_jal = n_jal | plus: 1 -%}{%- else -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}
+        {%- for c2 in contexte -%}{%- for l in c2.liens -%}{%- if l.evenement == c.id -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+        {%- if n_jal > 0 %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.innovations_liees }}</span></p>
         <ul class="liens-causaux">
-          {%- for l in c.liens %}
+          {%- for l in c.liens %}{% if l.jalon %}
           {%- assign j = jalons | where: "id", l.jalon | first -%}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
           <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
             <small>{{ l.pourquoi }}</small></li>
-          {%- endfor %}
+          {%- endif %}{% endfor %}
+        </ul>
+        {%- endif %}
+        {%- if n_ev > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.evenements_lies }}</span></p>
+        <ul class="liens-causaux">
+          {%- for l in c.liens %}{% if l.evenement %}
+          {%- assign e = contexte | where: "id", l.evenement | first -%}
+          {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+          {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
+          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#c-{{ e.id }}">{{ e.annee }}, {{ e.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+            <small>{{ l.pourquoi }}</small></li>
+          {%- endif %}{% endfor %}
+          {%- for c2 in contexte %}{% for l in c2.liens %}{% if l.evenement == c.id %}
+          {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+          {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
+          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c2.id }}">{{ c2.annee }}, {{ c2.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+            <small>{{ l.pourquoi }}</small></li>
+          {%- endif %}{% endfor %}{% endfor %}
         </ul>
         {%- endif %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
@@ -194,7 +216,7 @@
 {%- for c in contexte %}{% for l in c.liens %}
 {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
 {%- if premier %}{% assign premier = false %}{% else %},{% endif %}
-{"c":"c-{{ c.id }}","j":"j-{{ l.jalon }}","meca":"{{ l.mecanisme }}","nom":{{ m.nom | jsonify }},"preuve":"{{ l.preuve }}"}
+{"c":"c-{{ c.id }}","j":"{% if l.evenement %}c-{{ l.evenement }}{% else %}j-{{ l.jalon }}{% endif %}","meca":"{{ l.mecanisme }}","nom":{{ m.nom | jsonify }},"preuve":"{{ l.preuve }}"}
 {%- endfor %}{% endfor %}]</script>
 
 <script>
@@ -269,18 +291,24 @@
     fleche.appendChild(el("path", { d: "M0,0 L10,5 L0,10 z" }));
     defs.appendChild(fleche);
     calque.appendChild(defs);
+    var axe = (plan.querySelector(".frise-innovations").getBoundingClientRect().bottom + plan.querySelector(".frise-contexte").getBoundingClientRect().top) / 2 - base.top;
     var poses = [];
     mesLiens.forEach(function (l) {
       var rc = reperes.filter(function (r) { return r.dataset.id === l.c; })[0];
       var rj = reperes.filter(function (r) { return r.dataset.id === l.j; })[0];
-      if (!rc || !rj || rc.parentNode.hidden) return;
+      if (!rc || !rj || rc.parentNode.hidden || rj.parentNode.hidden) return;
       rc.classList.add("jalon-lie"); rj.classList.add("jalon-lie");
       var a = centre(rc, base), b = centre(rj, base);
       if (l.meca === "provoque") { var t = a; a = b; b = t; }
       // on s'arrête au bord des repères, pour que la flèche reste visible
-      var sens = b.y > a.y ? 1 : -1, marge = 13;
-      a = { x: a.x, y: a.y + sens * marge }; b = { x: b.x, y: b.y - sens * marge };
-      var my = (a.y + b.y) / 2;
+      var marge = 13, my;
+      if (l.j.indexOf("c-") === 0) {
+        // deux événements de contexte : un arc qui remonte sous l'axe, la flèche arrive par le haut
+        a = { x: a.x, y: a.y - marge }; b = { x: b.x, y: b.y - marge }; my = axe + 16;
+      } else {
+        var sens = b.y > a.y ? 1 : -1;
+        a = { x: a.x, y: a.y + sens * marge }; b = { x: b.x, y: b.y - sens * marge }; my = (a.y + b.y) / 2;
+      }
       var d = "M" + a.x + "," + a.y + " C" + a.x + "," + my + " " + b.x + "," + my + " " + b.x + "," + b.y;
       var g = el("g", { "class": "lien", "data-preuve": l.preuve });
       g.appendChild(el("path", { d: d, "class": "lien-halo" }));
@@ -297,7 +325,6 @@
     });
     // empilement : chaque pastille part de l'axe et s'en écarte d'un cran tant qu'elle chevauche une autre
     // pastille ou un repère ; elle reste posée sur sa courbe, à la hauteur retenue
-    var axe = (plan.querySelector(".frise-innovations").getBoundingClientRect().bottom + plan.querySelector(".frise-contexte").getBoundingClientRect().top) / 2 - base.top;
     function xSur(trait, y) {
       var n = trait.getTotalLength(), mieux = null;
       for (var k = 0; k <= 60; k++) {
@@ -348,7 +375,9 @@
     courant = id;
     mesLiens = liens.filter(function (l) { return l.c === id || l.j === id; });
     forces = {};
-    mesLiens.forEach(function (l) { if (l.c !== id) forces[l.c] = true; });
+    mesLiens.forEach(function (l) {
+      [l.c, l.j].forEach(function (e) { if (e !== id && e.indexOf("c-") === 0) forces[e] = true; });
+    });
     rangerContexte();
     fiche.innerHTML = source.innerHTML;
     // couleur du panneau : celle de la catégorie pour un événement de contexte

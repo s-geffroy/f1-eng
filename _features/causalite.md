@@ -20,9 +20,9 @@ No single test is enough. The more of them a link passes, the stronger it is.
 4. **Convergence.** Under the same constraint, did other teams search in the same direction? In 2009, Williams, Brawn and Toyota each arrived at the [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur): the cause is the wording of the rules, not one person's idea. Conversely, the 2.5-litre formula of 1954 produced the Lancia D50 *and* the Mercedes W196, so different that it was hard to believe they met the same rules. The rule opened a space; it did not dictate the solution.
 5. **The counterfactual.** Without the event, was the innovation possible, or merely useful? Without the [3-litre formula]({{ site.baseurl }}/en/timeline/#c-formule-3-litres) and the withdrawal of Coventry Climax, there would have been no gap to fill for an engine sold to everyone. The [DFV]({{ site.baseurl }}/en/timeline/#j-dfv) answers that gap.
 
-## Five mechanisms
+## Six mechanisms
 
-The same event does not always act in the same way. The timeline distinguishes five mechanisms, independent of the event's category: a regulation can open as well as close, and an economic decision can make a car possible.
+The same event does not always act in the same way. The timeline distinguishes six mechanisms, independent of the event's category: a regulation can open as well as close, and an economic decision can make a car possible.
 
 | Mechanism | What it says | Example |
 |---|---|---|
@@ -31,8 +31,9 @@ The same event does not always act in the same way. The timeline distinguishes f
 | **Circumvents** | the innovation exploits the letter of a rule to defeat its spirit | the Lotus 88 against the skirt ban; the 2009 double diffuser |
 | **Transfers** | a technique, or a person, comes from elsewhere | the aircraft monocoque, Cranfield's fly-by-wire controls |
 | **Provokes** | the other way round: the innovation brings about the rule | ground effect, which led to the skirt ban |
+| **Triggers** | one context event brings about another, with no innovation in between | Imola 1994 and the HANS; Jules Bianchi's accident and the halo |
 
-The last mechanism is a reminder that the rules are not an external given. They react to the cars as much as they shape them.
+“Provokes” is a reminder that the rules are not an external given: they react to the cars as much as they shape them. “Triggers” mostly links accidents to the safety measures that follow them: on the timeline, these links stay below the axis, from one context event to another.
 
 ## Four levels of evidence
 
@@ -60,7 +61,7 @@ Forty years later, the 2022 rules give the floor of the car the main role again:
 
 - **Context does not replace the engineer.** A rule opens a space; someone still has to fill it, and the way they fill it remains their merit. That is the subject of the [ranking method]({{ site.baseurl }}/en/features/methode/).
 - **Sources are not neutral.** Team and manufacturer websites have an interest in a fine lineage; so do engineers' memories, collected decades later.
-- **What is not linked is not necessarily unrelated.** The timeline only draws what a source can justify. Several safety events, such as the halo or the HANS, have no link: they changed the cars without any innovation on the timeline following directly from them.
+- **What is not linked is not necessarily unrelated.** The timeline only draws what a source can justify. Several safety measures, such as the halo or the HANS, are linked to no innovation on the timeline: they changed the cars without producing one. They are, however, linked to the accidents that triggered them.
 
 ## Sources
 

@@ -188,8 +188,9 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   economie, technologie), masques au chargement et affiches par categorie.
   Un evenement = id (ancre #c-<id>), annee, categorie, titre, texte, liens,
   sources { titre, url }. Chaque evenement a ses propres sources, verifiees par
-  citation. Un lien = jalon, mecanisme (ouvre, ferme, contourne, transfert,
-  provoque), preuve (atteste, etabli, discute, chronologique) et pourquoi (une
+  citation. Un lien = jalon (ou evenement, pour relier deux evenements de contexte
+  avec le mecanisme declenche), mecanisme (ouvre, ferme, contourne, transfert,
+  provoque, declenche), preuve (atteste, etabli, discute, chronologique) et pourquoi (une
   phrase justifiee par les sources) ; methode dans `_dossiers/causalite.md`.
   Memes identifiants, annees, categories et liens en fr et en (controle par
   outils/verifier.py).

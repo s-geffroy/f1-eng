@@ -20,9 +20,9 @@ Aucun test ne suffit seul. Plus un lien en passe, plus il est solide.
 4. **La convergence.** Sous la même contrainte, d'autres équipes ont-elles cherché dans la même direction ? En 2009, Williams, Brawn et Toyota arrivent chacune au [double diffuseur]({{ site.baseurl }}/chronologie/#j-double-diffuseur) : la cause est le texte du règlement, pas l'idée d'un seul. À l'inverse, la formule 2,5 litres de 1954 produit la Lancia D50 *et* la Mercedes W196, si différentes qu'on avait peine à croire qu'elles répondaient au même règlement. La règle a ouvert un espace ; elle n'a pas dicté la solution.
 5. **Le contrefactuel.** Sans l'événement, l'innovation était-elle possible, ou simplement utile ? Sans la [formule 3 litres]({{ site.baseurl }}/chronologie/#c-formule-3-litres) et le retrait de Coventry Climax, il n'y aurait pas eu de vide à combler pour un moteur vendu à tous. Le [DFV]({{ site.baseurl }}/chronologie/#j-dfv) répond à ce vide.
 
-## Cinq mécanismes
+## Six mécanismes
 
-Un même événement n'agit pas toujours de la même façon. La chronologie distingue cinq mécanismes, indépendants de la catégorie de l'événement : un règlement peut ouvrir comme fermer, et une décision économique peut rendre possible une voiture.
+Un même événement n'agit pas toujours de la même façon. La chronologie distingue six mécanismes, indépendants de la catégorie de l'événement : un règlement peut ouvrir comme fermer, et une décision économique peut rendre possible une voiture.
 
 | Mécanisme | Ce qu'il dit | Exemple |
 |---|---|---|
@@ -31,8 +31,9 @@ Un même événement n'agit pas toujours de la même façon. La chronologie dist
 | **Contourne** | l'innovation exploite la lettre d'une règle pour en déjouer l'esprit | la Lotus 88 face à l'interdiction des jupes ; le double diffuseur de 2009 |
 | **Transfère** | une technique, ou une personne, vient d'ailleurs | la monocoque d'avion, les commandes de vol de Cranfield |
 | **Provoque** | sens inverse : c'est l'innovation qui entraîne la règle | l'effet de sol, qui conduit à l'interdiction des jupes |
+| **Déclenche** | un événement de contexte en entraîne un autre, sans innovation entre les deux | Imola 1994 et le HANS ; l'accident de Jules Bianchi et le halo |
 
-Le dernier mécanisme rappelle que le règlement n'est pas une donnée extérieure. Il réagit aux voitures autant qu'il les façonne.
+« Provoque » rappelle que le règlement n'est pas une donnée extérieure : il réagit aux voitures autant qu'il les façonne. « Déclenche » relie surtout les accidents aux mesures de sécurité qui les suivent : sur la frise, ces liens restent sous l'axe, d'un événement de contexte à l'autre.
 
 ## Quatre niveaux de preuve
 
@@ -60,7 +61,7 @@ Quarante ans plus tard, le règlement 2022 rend au fond de la voiture le rôle p
 
 - **Le contexte ne remplace pas l'ingénieur.** Une règle ouvre un espace ; il faut encore quelqu'un pour le remplir, et la manière dont il le remplit reste son mérite. C'est l'objet de la [méthode du classement]({{ site.baseurl }}/dossiers/methode/).
 - **Les sources ne sont pas neutres.** Les sites des équipes et des constructeurs ont intérêt à une belle filiation ; les souvenirs d'ingénieurs, recueillis des décennies plus tard, aussi.
-- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs événements de sécurité, comme le halo ou le HANS, n'ont pas de lien : ils ont changé les voitures sans qu'une innovation de la frise en découle directement.
+- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs mesures de sécurité, comme le halo ou le HANS, ne sont reliées à aucune innovation de la frise : elles ont changé les voitures sans en produire une. Elles sont en revanche reliées aux accidents qui les ont déclenchées.
 
 ## Sources
 

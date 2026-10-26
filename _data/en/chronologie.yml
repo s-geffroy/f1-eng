@@ -25,8 +25,9 @@ voies:
 # explains them. Each event has its own sources.
 #   categorie : reglement | securite | economie | technologie
 #   liens     : cause-and-effect links with milestones (optional), each:
-#                 jalon     : milestone identifier
-#                 mecanisme : ouvre | ferme | contourne | transfert | provoque
+#                 jalon     : milestone identifier, or
+#                 evenement : identifier of another context event (mechanism declenche)
+#                 mecanisme : ouvre | ferme | contourne | transfert | provoque | declenche
 #                 preuve    : atteste | etabli | discute | chronologique
 #                 pourquoi  : one sentence, what connects the two and per which source
 #               Method: _features/causalite.md.
@@ -63,6 +64,10 @@ mecanismes:
     nom: "Provokes"
     cote_contexte: "provoked by"
     cote_jalon: "provokes"
+  - id: "declenche"
+    nom: "Triggers"
+    cote_contexte: "triggers"
+    cote_jalon: "triggered by"
 preuves:
   - id: "atteste"
     nom: "attested"
@@ -856,12 +861,28 @@ contexte:
     annee: 1994
     categorie: "securite"
     titre: "Imola 1994: deaths of Ratzenberger and Senna"
-    texte: "Roland Ratzenberger and Ayrton Senna were killed at the 1994 San Marino Grand Prix; two weeks later, Karl Wendlinger was seriously injured at Monaco. The FIA slowed the cars at once: a shortened diffuser and modified front wings from Spain, holes in the airbox to cut power in Canada, then a plank under the floor, with wear limited to 1 mm, which forced the whole car to be raised. In 1995 the stepped floor cut underbody downforce by as much as 50% by some estimates and engine capacity fell from 3.5 to 3 litres, while the cockpit was lengthened, its sides raised and the frontal impact test made tougher."
+    texte: "Roland Ratzenberger and Ayrton Senna were killed at the 1994 San Marino Grand Prix; two weeks later, Karl Wendlinger was seriously injured at Monaco. The FIA slowed the cars at once: a shortened diffuser and modified front wings from Spain, holes in the airbox to cut power in Canada, then a plank under the floor, with wear limited to 1 mm, which forced the whole car to be raised. It also launched a programme of circuit alterations and limited pit-lane speed to 80 km/h in practice and 120 km/h in races. In 1995 the stepped floor cut underbody downforce by as much as 50% by some estimates and engine capacity fell from 3.5 to 3 litres, while the cockpit was lengthened, its sides raised and the frontal impact test made tougher."
     liens:
       - jalon: "fw17b"
         mecanisme: "contourne"
         preuve: "etabli"
         pourquoi: "According to Edd Straw, Newey saw that the stepped floor imposed in 1995 did not require the bodywork to extend all the way to the rear, which allowed the diffuser exit to be raised."
+      - evenement: "protections-laterales-cockpit"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "According to GrandPrix.com, the 1996 rules came from the work of the FIA Advisory Expert Group on safety since the accidents at Imola and Monaco in 1994."
+      - evenement: "roues-retenues"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Pat Symonds lists wheel tethers among the safety measures that followed Imola; the FIA counts them in the drive launched after Senna's death."
+      - evenement: "hans"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "In F1, the adoption of the HANS began after Ratzenberger's crash, which killed him through a basilar skull fracture (Matt Youson); after the deaths of Senna and Ratzenberger, the FIA brought in Mercedes-Benz to improve driver safety (Katy Roberts)."
+      - evenement: "halo"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Pat Symonds places the halo in Imola's legacy, but the concept was born at Mercedes after Jules Bianchi's accident: the link with Imola is indirect, twenty-four years apart."
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -871,6 +892,10 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
       - titre: "Formula1.com, Edd Straw, “An innovator and trendsetter – Adrian Newey's greatest F1 contributions” (May 2024)"
         url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+      - titre: "Formula 1, Katy Roberts, “5 crucial milestone moments in F1 safety technology” (May 2025)"
+        url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
+      - titre: "GrandPrix.com, “The new rules for 1996” (March 1996)"
+        url: "https://www.grandprix.com/ns/ns00509.html"
   - id: "protections-laterales-cockpit"
     annee: 1996
     categorie: "securite"
@@ -895,6 +920,16 @@ contexte:
         url: "https://newatlas.com/formula-one-kers/11324/"
       - titre: "Formula1.com, “Hybrid update for Mercedes' car name” (May 2014)"
         url: "https://www.formula1.com/en/latest/headlines/2014/5/Hybrid-update-for-Mercedes-car-name.html"
+  - id: "roues-retenues"
+    annee: 1999
+    categorie: "securite"
+    titre: "Wheels held by tethers"
+    texte: "In 1999 the FIA required tethers linking the wheels to the car, so that they would not break free in an accident. For Pat Symonds, these tethers were among the safety measures that followed Imola 1994, alongside impact tests made tougher every year and anti-penetration side structures."
+    sources:
+      - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
+        url: "https://fia.com/node/51351"
+      - titre: "Formula 1, Matt Youson, “Imola ‘94 and the lasting safety legacy” (May 2019)"
+        url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - id: "hans"
     annee: 2003
     categorie: "securite"
@@ -1007,11 +1042,18 @@ contexte:
     categorie: "securite"
     titre: "Jules Bianchi's crash and the Virtual Safety Car"
     texte: "At the 2014 Japanese Grand Prix, in the rain, Jules Bianchi lost control of his Marussia in a double-yellow-flag zone and struck, at 126 km/h, the crane recovering Adrian Sutil's Sauber; the accident would ultimately prove fatal. The FIA accident panel judged it impossible to make such an impact survivable, and recommended instead a speed limit in sectors under double yellow flags. In 2015 the FIA introduced the virtual safety car, which imposes a minimum lap time to slow the drivers. The Zylon anti-intrusion panels of the survival cell were also extended up to the cockpit rim, alongside the driver's head."
+    liens:
+      - evenement: "halo"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "According to formula1.com, Mercedes came up with the halo concept not long after Jules Bianchi's fatal crash at Suzuka; the FIA then chose it over two other protections."
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
       - titre: "FIA, “Accident Panel” (December 2014)"
         url: "https://api.fia.com/news/accident-panel"
+      - titre: "Formula 1, Katy Roberts, “5 crucial milestone moments in F1 safety technology” (May 2025)"
+        url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
   - id: "groupe-propulseur-2014"
     annee: 2014
     categorie: "reglement"

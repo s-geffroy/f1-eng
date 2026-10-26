@@ -25,8 +25,9 @@ voies:
 # innovations, mais ce qui les explique. Chaque evenement a ses propres sources.
 #   categorie : reglement | securite | economie | technologie
 #   liens     : liens de cause a effet avec les jalons (facultatif), chacun :
-#                 jalon     : identifiant du jalon
-#                 mecanisme : ouvre | ferme | contourne | transfert | provoque
+#                 jalon     : identifiant du jalon, ou
+#                 evenement : identifiant d'un autre evenement de contexte (mecanisme declenche)
+#                 mecanisme : ouvre | ferme | contourne | transfert | provoque | declenche
 #                 preuve    : atteste | etabli | discute | chronologique
 #                 pourquoi  : une phrase, ce qui relie les deux et d'apres quelle source
 #               Methode : _dossiers/causalite.md.
@@ -63,6 +64,10 @@ mecanismes:
     nom: "Provoque"
     cote_contexte: "provoqué par"
     cote_jalon: "provoque"
+  - id: "declenche"
+    nom: "Déclenche"
+    cote_contexte: "déclenche"
+    cote_jalon: "déclenché par"
 preuves:
   - id: "atteste"
     nom: "attesté"
@@ -856,12 +861,28 @@ contexte:
     annee: 1994
     categorie: "securite"
     titre: "Imola 1994 : mort de Ratzenberger et de Senna"
-    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994 ; deux semaines plus tard, Karl Wendlinger est grièvement blessé à Monaco. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, boîte à air percée au Canada pour réduire la puissance, puis planche sous le fond, à l'usure limitée à 1 mm, qui oblige à relever toute la voiture. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations et la cylindrée passe de 3,5 à 3 litres, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
+    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994 ; deux semaines plus tard, Karl Wendlinger est grièvement blessé à Monaco. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, boîte à air percée au Canada pour réduire la puissance, puis planche sous le fond, à l'usure limitée à 1 mm, qui oblige à relever toute la voiture. Elle engage aussi un programme de modification des circuits et limite la vitesse dans la voie des stands à 80 km/h aux essais et 120 km/h en course. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations et la cylindrée passe de 3,5 à 3 litres, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
     liens:
       - jalon: "fw17b"
         mecanisme: "contourne"
         preuve: "etabli"
         pourquoi: "Selon Edd Straw, Newey voit que le fond à marche imposé en 1995 n'oblige pas la carrosserie à aller jusqu'à l'arrière, ce qui permet de relever la sortie du diffuseur."
+      - evenement: "protections-laterales-cockpit"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Selon GrandPrix.com, les règles de 1996 sont le fruit des travaux du groupe d'experts de la FIA sur la sécurité depuis les accidents d'Imola et de Monaco en 1994."
+      - evenement: "roues-retenues"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Pat Symonds range les câbles de retenue des roues parmi les mesures de sécurité qui suivent Imola ; la FIA les compte dans l'effort lancé après la mort de Senna."
+      - evenement: "hans"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "En F1, l'adoption du HANS commence après l'accident de Ratzenberger, mort d'une fracture de la base du crâne (Matt Youson) ; après les morts de Senna et de Ratzenberger, la FIA associe Mercedes-Benz à l'amélioration de la sécurité (Katy Roberts)."
+      - evenement: "halo"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Pat Symonds range le halo dans l'héritage d'Imola, mais le concept naît chez Mercedes après l'accident de Jules Bianchi : le lien avec Imola est indirect, à vingt-quatre ans de distance."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -871,6 +892,10 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
       - titre: "Formula1.com, Edd Straw, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
         url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
+      - titre: "Formula 1, Katy Roberts, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
+        url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
+      - titre: "GrandPrix.com, « The new rules for 1996 » (mars 1996)"
+        url: "https://www.grandprix.com/ns/ns00509.html"
   - id: "protections-laterales-cockpit"
     annee: 1996
     categorie: "securite"
@@ -895,6 +920,16 @@ contexte:
         url: "https://newatlas.com/formula-one-kers/11324/"
       - titre: "Formula1.com, « Hybrid update for Mercedes' car name » (mai 2014)"
         url: "https://www.formula1.com/en/latest/headlines/2014/5/Hybrid-update-for-Mercedes-car-name.html"
+  - id: "roues-retenues"
+    annee: 1999
+    categorie: "securite"
+    titre: "Les roues retenues par des câbles"
+    texte: "En 1999, la FIA impose des câbles qui relient les roues à la voiture, pour qu'elles ne se détachent pas lors d'un accident. Pour Pat Symonds, ces câbles font partie des mesures de sécurité qui suivent Imola 1994, avec des essais de choc plus sévères chaque année et des structures latérales anti-pénétration."
+    sources:
+      - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
+        url: "https://fia.com/node/51351"
+      - titre: "Formula 1, Matt Youson, « Imola ‘94 and the lasting safety legacy » (mai 2019)"
+        url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - id: "hans"
     annee: 2003
     categorie: "securite"
@@ -1007,11 +1042,18 @@ contexte:
     categorie: "securite"
     titre: "Accident de Jules Bianchi et voiture de sécurité virtuelle"
     texte: "Au Grand Prix du Japon 2014, sous la pluie, Jules Bianchi perd le contrôle de sa Marussia dans une zone sous double drapeau jaune et percute à 126 km/h la grue qui dégage la Sauber d'Adrian Sutil ; l'accident lui sera finalement fatal. Le panel d'enquête de la FIA juge impossible de rendre un tel choc survivable, et recommande plutôt une limitation de vitesse dans les secteurs sous double drapeau jaune. En 2015, la FIA introduit la voiture de sécurité virtuelle, qui impose un temps au tour minimal pour faire ralentir les pilotes. Les panneaux anti-intrusion en Zylon de la cellule de survie sont aussi prolongés jusqu'au bord du cockpit, le long de la tête du pilote."
+    liens:
+      - evenement: "halo"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Selon formula1.com, Mercedes imagine le concept du halo peu après l'accident mortel de Jules Bianchi à Suzuka ; la FIA le retient ensuite face à deux autres protections."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
       - titre: "FIA, « Accident Panel » (décembre 2014)"
         url: "https://api.fia.com/news/accident-panel"
+      - titre: "Formula 1, Katy Roberts, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
+        url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
   - id: "groupe-propulseur-2014"
     annee: 2014
     categorie: "reglement"
