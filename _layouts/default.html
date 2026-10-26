@@ -35,7 +35,37 @@
   <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="{{ T.autre_code }}" href="{{ alt_url | absolute_url }}">
   {%- endif %}
-  {% seo %}
+  {%- comment -%}
+    Metadonnees ecrites ici plutot que par la balise seo : jekyll-seo-tag ne connait qu'un seul site.title,
+    et les pages anglaises doivent porter le nom anglais du site (T.nom_site).
+  {%- endcomment -%}
+  {%- assign desc = page.description | default: site.description | strip_html | normalize_whitespace -%}
+  {%- assign img = page.image | default: site.image -%}
+  {%- if page.title and page.title != T.nom_site -%}
+    {%- assign titre_complet = page.title | append: " | " | append: T.nom_site -%}
+  {%- else -%}
+    {%- assign titre_complet = T.nom_site -%}
+  {%- endif -%}
+  {%- if page.collection -%}{%- assign og_type = "article" -%}{%- else -%}{%- assign og_type = "website" -%}{%- endif %}
+  <title>{{ titre_complet | escape }}</title>
+  <meta name="description" content="{{ desc | escape }}">
+  <meta name="author" content="{{ site.author | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ T.nom_site | escape }}">
+  <meta property="og:title" content="{{ page.title | default: T.nom_site | escape }}">
+  <meta property="og:description" content="{{ desc | escape }}">
+  <meta property="og:locale" content="{{ lang }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{{ og_type }}">
+  {%- if img %}
+  <meta property="og:image" content="{{ img | absolute_url }}">
+  <meta name="twitter:image" content="{{ img | absolute_url }}">
+  {%- endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: T.nom_site | escape }}">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":{% if og_type == "article" %}"Article"{% else %}"WebPage"{% endif %},"headline":{{ page.title | default: T.nom_site | jsonify }},"description":{{ desc | jsonify }},"inLanguage":{{ lang | jsonify }},"url":{{ page.url | absolute_url | jsonify }},{% if img %}"image":{{ img | absolute_url | jsonify }},{% endif %}"author":{"@type":"Person","name":{{ site.author | jsonify }}},"isPartOf":{"@type":"WebSite","name":{{ T.nom_site | jsonify }},"url":{{ T.nav[0].url | absolute_url | jsonify }}}}
+  </script>
 </head>
 <body>
   <a class="evitement" href="#contenu">{{ T.evitement }}</a>

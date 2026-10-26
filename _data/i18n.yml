@@ -28,8 +28,9 @@ fr:
     index_recherche: "/recherche.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
+  nom_site: "Ingénieurs de la F1"
   nav:
-    - { url: "/", nom: "Index" }
+    - { url: "/", nom: "Accueil" }
     - { url: "/tiers/", nom: "Tiers" }
     - { url: "/voitures/", nom: "Voitures" }
     - { url: "/chronologie/", nom: "Chronologie" }
@@ -203,8 +204,9 @@ en:
     index_recherche: "/en/search.json"
     pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
+  nom_site: "F1 Engineers"
   nav:
-    - { url: "/en/", nom: "Index" }
+    - { url: "/en/", nom: "Home" }
     - { url: "/en/tiers/", nom: "Tiers" }
     - { url: "/en/cars/", nom: "Cars" }
     - { url: "/en/timeline/", nom: "Timeline" }
