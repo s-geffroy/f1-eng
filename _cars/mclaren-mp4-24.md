@@ -9,7 +9,7 @@ moteur: "Mercedes-Benz FO 108W, 2.4-litre V8, with KERS"
 statut: "Raced in 2009; two wins"
 concepteurs: ["paddy-lowe", "Pat Fry", "Mercedes-Benz HighPerformanceEngines (KERS)"]
 termes: ["kers", "diffuseur", "soufflerie"]
-jalons: ["kers"]
+jalons: ["kers", "simulateur"]
 sources:
   - titre: "Paul Fearnley, Motor Sport Magazine, “The comeback” (January 2010)"
     url: "https://www.motorsportmagazine.com/archive/page/january-2010/63"
@@ -54,6 +54,6 @@ An ironic detail: the 2009 aerodynamic rules that hampered the car so much came 
 
 ## Legacy
 
-- **The turnaround.** The T3 floor, the first designed from the outset to exploit the double-diffuser loophole, arrived in Germany with a new front wing: worth about eight tenths according to Fry. Seventeen versions of the floor came and went during the season. Lowe judged the 2.8-second gain credited to the car over the year roughly right.
+- **The turnaround.** The T3 floor, the first designed from the outset to exploit the double-diffuser loophole, arrived in Germany with a new front wing: worth about eight tenths according to Fry. Seventeen versions of the floor came and went during the season. Lowe judged the 2.8-second gain credited to the car over the year roughly right. This turnaround came despite the in-season testing ban; Jonathan Neale praised test driver Pedro de la Rosa's work “in the simulator”.
 - **2009**: Lewis Hamilton won in Hungary, passing Mark Webber with KERS, which he said played "a big part": it was the first win for a car fitted with such a system. He then won in Singapore. In Abu Dhabi he took pole by more than six tenths, four of them attributed to KERS. McLaren finished third among constructors, with 71 points.
 - KERS disappeared in 2010. According to Autosport, it remained for Mercedes the foundation of its 2014 hybrid power unit.

@@ -9,7 +9,7 @@ moteur: "Mercedes-Benz FO 108W, V8 de 2,4 litres, avec KERS"
 statut: "A couru en 2009 ; deux victoires"
 concepteurs: ["paddy-lowe", "Pat Fry", "Mercedes-Benz HighPerformanceEngines (KERS)"]
 termes: ["kers", "diffuseur", "soufflerie"]
-jalons: ["kers"]
+jalons: ["kers", "simulateur"]
 sources:
   - titre: "Paul Fearnley, Motor Sport Magazine, « The comeback » (janvier 2010)"
     url: "https://www.motorsportmagazine.com/archive/page/january-2010/63"
@@ -54,6 +54,6 @@ Détail ironique : le règlement aérodynamique de 2009, qui a tant gêné la vo
 
 ## Ce qu'elle laisse
 
-- **Le redressement.** Le plancher T3, le premier conçu d'emblée pour exploiter la faille du double diffuseur, arrive en Allemagne avec un nouvel aileron avant : environ huit dixièmes selon Fry. Dix-sept versions du plancher se succèdent dans la saison. Lowe juge à peu près juste le gain de 2,8 secondes qu'on lui prête sur l'année.
+- **Le redressement.** Le plancher T3, le premier conçu d'emblée pour exploiter la faille du double diffuseur, arrive en Allemagne avec un nouvel aileron avant : environ huit dixièmes selon Fry. Dix-sept versions du plancher se succèdent dans la saison. Lowe juge à peu près juste le gain de 2,8 secondes qu'on lui prête sur l'année. Ce redressement se fait malgré l'interdiction des essais en saison ; Jonathan Neale salue le travail du pilote d'essai Pedro de la Rosa « au simulateur ».
 - **2009** : Lewis Hamilton gagne en Hongrie, en dépassant Mark Webber grâce au KERS, qui a joué selon lui « un grand rôle » : c'est la première victoire d'une voiture équipée d'un tel système. Il gagne ensuite à Singapour. À Abu Dhabi, il prend la pole avec plus de six dixièmes d'avance, dont quatre attribués au KERS. McLaren finit troisième chez les constructeurs, avec 71 points.
 - Le KERS disparaît en 2010. Selon Autosport, il reste pour Mercedes le socle de son groupe propulseur hybride de 2014.

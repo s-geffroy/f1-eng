@@ -9,7 +9,7 @@ moteur: "Cosworth DFV, 3-litre V8"
 statut: "Raced from 1967 to 1970; drivers' and constructors' titles in 1968"
 concepteurs: ["colin-chapman", "maurice-philippe", "keith-duckworth", "mike-costin"]
 termes: ["moteur-porteur", "monocoque", "aileron"]
-jalons: ["dfv", "dfv-fva"]
+jalons: ["dfv", "dfv-fva", "ailerons"]
 sources:
   - titre: "Motor Sport Magazine, “The Lotus 49” (July 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
