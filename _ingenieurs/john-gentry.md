@@ -23,7 +23,7 @@ John Gentry est le **dessinateur-projeteur** qui travaille aux côtés de [Rory 
 
 - Il rejoint Toleman en août 1979 ; il était surtout connu pour son travail chez Shadow.
 - En Formule 2, il est aussi l'ingénieur de course de Derek Warwick.
-- En 1984, il fait partie des ingénieurs qui accompagnent les débuts d'Ayrton Senna en F1 chez Toleman, avec Byrne et Pat Symonds.
+- En 1984, il fait partie des ingénieurs qui accompagnent les débuts d'Ayrton Senna en F1 chez Toleman, avec Byrne et [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}).
 
 ## Une entrée courte
 

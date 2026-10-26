@@ -33,7 +33,7 @@ Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosser
 
 - **Williams.** La date de son arrivée diffère selon les sources : 1977 selon Dernie lui-même, janvier 1979 selon Motor Sport.
 - **Lotus.** Directeur technique, il conçoit la Lotus 101 de 1989 ; la 102 à V12 Lamborghini en est, selon lui, « fondamentalement la même voiture ».
-- **Ligier**, où il conçoit la JS37, puis **Benetton** pour 1993 : selon son récit, Ross Brawn le fait venir comme ingénieur en chef.
+- **Ligier**, où il conçoit la JS37, puis **Benetton** pour 1993 : selon son récit, [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) le fait venir comme ingénieur en chef.
 - **Arrows**, où il signe l'A18 de 1997, puis consultant chez Williams en 2003, et Toyota jusqu'au retrait de l'équipe fin 2009.
 
 ## Attribution

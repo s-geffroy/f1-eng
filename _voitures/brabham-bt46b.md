@@ -39,7 +39,7 @@ Le règlement interdit les dispositifs aérodynamiques mobiles. Brabham soutient
 
 - Murray lui-même ne se rappelle pas exactement d'où elle vient ;
 - Gary Anderson affirme avoir proposé de mettre un ventilateur ;
-- l'ingénieur David Cox en revendique une part : il dit avoir aperçu un schéma de ventilateur sur la planche à dessin de Maurice Philippe, chez Tyrrell.
+- l'ingénieur David Cox en revendique une part : il dit avoir aperçu un schéma de ventilateur sur la planche à dessin de [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), chez Tyrrell.
 
 Tous s'accordent sur la source d'inspiration : la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970. Et sur la mise en œuvre : « L'équipe de conception de Brabham a fait un travail remarquable pour mettre l'idée en pratique. »
 

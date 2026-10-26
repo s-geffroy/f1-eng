@@ -23,7 +23,7 @@ Mike Gascoyne, formé à la dynamique des fluides à Cambridge, passe de l'aéro
 
 ## Parcours technique
 
-- **McLaren, 1989.** Après six ans à Cambridge et un passage chez Westland, il entre dans l'équipe de conception de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), en soufflerie au National Physical Laboratory de Teddington. Selon Toyota, c'est Bob Bell qui l'y embauche.
+- **McLaren, 1989.** Après six ans à Cambridge et un passage chez Westland, il entre dans l'équipe de conception de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), en soufflerie au National Physical Laboratory de Teddington. Selon Toyota, c'est [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) qui l'y embauche.
 - **Tyrrell.** Fin 1989, il rejoint [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) chez Tyrrell et travaille sur la **Tyrrell 019**, « révolutionnaire » selon GrandPrix.com : dynamique du châssis, simulations informatiques et cartographie aérodynamique.
 - **Sauber.** Il suit Postlethwaite chez Sauber en juin 1991 et y reste, après le départ de celui-ci pour Ferrari, comme ingénieur aérodynamicien sous Nichols.
 - **Retour chez Tyrrell.** En octobre 1993, Postlethwaite le rappelle. Il y reste jusqu'au rachat de l'équipe par British American Racing en 1998.

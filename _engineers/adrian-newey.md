@@ -92,7 +92,7 @@ Yet he dominates a category on his own: **staying at the top of aerodynamic engi
 
 The accurate wording: **Newey played a leading role in the aerodynamic architecture of several generations of championship-winning cars, within collective technical teams.**
 
-At Williams, for example, [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) was the product of a chain that included [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}). According to Head, Newey took no part in the active system itself: it served as a stable platform for his aerodynamics. On the McLaren MP4-13, the brake steer was an idea of Steve Nichols' that predated Newey's arrival.
+At Williams, for example, [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) was the product of a chain that included [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}). According to Head, Newey took no part in the active system itself: it served as a stable platform for his aerodynamics. On the McLaren MP4-13, the brake steer was an idea of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %})' that predated Newey's arrival.
 
 ## Verdict
 

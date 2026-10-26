@@ -32,4 +32,4 @@ Steve Nichols is the designer to whom Formula 1 attributes the creation of the *
 
 ## The MP4/4: disputed authorship
 
-Nichols himself presents the MP4/4 as an evolution of the MP4/3, not as a "low-line" revolution. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) disputes this account, and Autosport also names Bob Bell, David North, Matthew Jeffreys and Steve Nielsen among its authors. His arrival at Ferrari is dated January 1989 by GrandPrix.com, 1990 by Motor Sport.
+Nichols himself presents the MP4/4 as an evolution of the MP4/3, not as a "low-line" revolution. [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) disputes this account, and Autosport also names [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), David North, Matthew Jeffreys and Steve Nielsen among its authors. His arrival at Ferrari is dated January 1989 by GrandPrix.com, 1990 by Motor Sport.

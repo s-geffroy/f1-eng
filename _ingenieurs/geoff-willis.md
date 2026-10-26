@@ -32,7 +32,7 @@ Geoff Willis vient de l'hydrodynamique navale. Arrivé en F1 en 1990, il est l'u
 - **Williams.** Il y suit Newey comme spécialiste de la CFD et mène des recherches aérodynamiques avec lui et Egbahl Hamidy. Quand tous deux partent, en 1997, il devient chef aérodynamicien et travaille sur toutes les voitures avec le concepteur en chef Gavin Fisher.
 - **BAR-Honda.** Directeur technique à partir de 2002, il reconstitue le bureau d'études et dirige la conception de la **BAR 005**. Il dit y avoir trouvé « la tâche de conception dans toute l'étendue de ses défis ». Il quitte Honda en juin 2006, quelques heures après la nomination de Shuhei Nakamoto comme directeur technique principal au-dessus de lui.
 - **Red Bull, HRT.** Directeur technique de Red Bull Racing de 2007 à 2009, il devient consultant de HRT en mars 2010.
-- **Mercedes.** Directeur de la technologie à partir du 17 octobre 2011, sous le directeur technique Bob Bell, il dirige l'aérodynamique, la dynamique du véhicule, les systèmes de contrôle et la simulation. Ross Brawn voit dans son partage des tâches avec [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) des « domaines de responsabilité naturels ».
+- **Mercedes.** Directeur de la technologie à partir du 17 octobre 2011, sous le directeur technique [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}), il dirige l'aérodynamique, la dynamique du véhicule, les systèmes de contrôle et la simulation. [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) voit dans son partage des tâches avec [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) des « domaines de responsabilité naturels ».
 
 ## Attribution
 

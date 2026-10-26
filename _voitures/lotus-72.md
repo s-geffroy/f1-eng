@@ -7,7 +7,7 @@ annee: 1970
 equipe: "Team Lotus"
 moteur: "Cosworth DFV, V8 de 3 litres"
 statut: "A couru de 1970 à 1975 ; titres pilotes en 1970 et 1972, titres constructeurs en 1970, 1972 et 1973"
-concepteurs: ["Maurice Philippe", "colin-chapman"]
+concepteurs: ["maurice-philippe", "colin-chapman"]
 termes: ["monocoque", "aileron", "moteur-porteur"]
 jalons: ["lotus-72"]
 sources:
@@ -39,7 +39,7 @@ Classic Team Lotus résume ses traits radicaux : radiateurs placés sur les côt
 
 ## Qui l'a conçue
 
-Classic Team Lotus désigne Maurice Philippe comme chef designer, travaillant avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) ; Forix parle d'une voiture dessinée par Philippe sous la supervision de Chapman.
+Classic Team Lotus désigne [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) comme chef designer, travaillant avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) ; Forix parle d'une voiture dessinée par Philippe sous la supervision de Chapman.
 
 ## Limites
 

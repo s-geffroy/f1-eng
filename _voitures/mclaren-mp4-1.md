@@ -44,7 +44,7 @@ McLaren la présente comme la première F1 conçue en composite carbone. Faute d
 
 ## Limites
 
-- Colin Chapman jugeait publiquement qu'une voiture tout carbone comme celle que préparait McLaren ne serait pas assez sûre.
+- [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) jugeait publiquement qu'une voiture tout carbone comme celle que préparait McLaren ne serait pas assez sûre.
 - La voiture a tendance au marsouinage, et McLaren reconnaît qu'elle n'a jamais été facile à piloter.
 - « Première » doit être précisé : la [Lotus 88]({{ site.baseurl }}{% link _voitures/lotus-88.md %}), elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts de la MP4/1 en course. Mais la Lotus 88 n'a jamais été autorisée à courir.
 

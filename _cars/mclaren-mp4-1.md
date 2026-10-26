@@ -44,7 +44,7 @@ McLaren presents it as the first F1 car designed in carbon composite. Because no
 
 ## Limitations
 
-- Colin Chapman publicly argued that an all-carbon car like the one McLaren was preparing would not be safe enough.
+- [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) publicly argued that an all-carbon car like the one McLaren was preparing would not be safe enough.
 - The car was prone to porpoising, and McLaren acknowledges that it was never easy to drive.
 - "First" needs qualifying: the [Lotus 88]({{ site.baseurl }}{% link _cars/lotus-88.md %}), also in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut. But the Lotus 88 was never allowed to race.
 

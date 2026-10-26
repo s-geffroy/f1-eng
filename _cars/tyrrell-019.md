@@ -37,7 +37,7 @@ Under the bodywork, there was little new. "The 018 and 019 are the same car mech
 
 Motor Sport credits it to [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) and the aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}). Formula 1 names only Migeot. According to Autosport, the idea of the raised nose and the anhedral wing came from Migeot, who had conceived it five years earlier, in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Renault.
 
-The same year, Adrian Newey's Leyton House CG901 also had a sharply raised nose.
+The same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose.
 
 ## Limitations
 

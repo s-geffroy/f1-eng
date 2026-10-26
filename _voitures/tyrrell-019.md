@@ -37,7 +37,7 @@ Sous la carrosserie, la nouveauté est limitée. « La 018 et la 019 sont la mê
 
 Motor Sport l'attribue à [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) et à l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}). Formula 1 ne nomme que Migeot. Selon Autosport, l'idée du nez relevé et de l'aileron en dièdre vient de Migeot, qui l'avait imaginée cinq ans plus tôt, en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) chez Renault.
 
-La même année, la Leyton House CG901 d'Adrian Newey a elle aussi un nez fortement relevé.
+La même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé.
 
 ## Limites
 

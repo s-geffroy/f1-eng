@@ -46,7 +46,7 @@ Bernard Dudot was at the heart of the three changes to the Renault engine that t
 
 ## Attribution
 
-Renault Sport is an organisation, and the sources show it: GrandPrix.com attributes the idea of turbocharging the racing engine to **Jean Terramorsi**, head of Gordini, and Renault's first F1 turbo engine, the EF1, derived from the 2-litre V6 designed by **François Castaing** and Jean-Pierre Boudy. The Renault document presents Dudot as "head of engines". He is therefore not the lone inventor of these technologies: he is their central technical figure, from their maturing through to the V10.
+Renault Sport is an organisation, and the sources show it: GrandPrix.com attributes the idea of turbocharging the racing engine to **Jean Terramorsi**, head of Gordini, and Renault's first F1 turbo engine, the EF1, derived from the 2-litre V6 designed by **François Castaing** and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}). The Renault document presents Dudot as "head of engines". He is therefore not the lone inventor of these technologies: he is their central technical figure, from their maturing through to the V10.
 
 ## Why Tier B, and at its head
 

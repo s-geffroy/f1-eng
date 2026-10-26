@@ -35,7 +35,7 @@ La voiture elle-même change peu par rapport au modèle précédent : un [châss
 
 ## Qui l'a conçue
 
-Doug Nye écrit que le chef designer [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) a fait un travail remarquable, et que [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) y a contribué techniquement. Jack Brabham, en contact constant avec son ami ingénieur Ron Tauranac, fait adopter les évolutions que celui-ci recommande. Le moteur est l'œuvre de Coventry Climax.
+Doug Nye écrit que le chef designer [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) a fait un travail remarquable, et que [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) y a contribué techniquement. Jack Brabham, en contact constant avec son ami ingénieur [Ron Tauranac]({{ site.baseurl }}{% link _ingenieurs/ron-tauranac.md %}), fait adopter les évolutions que celui-ci recommande. Le moteur est l'œuvre de Coventry Climax.
 
 ## Limites
 

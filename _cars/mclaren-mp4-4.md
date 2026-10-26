@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, 1.5-litre turbo V6"
 statut: "Raced in 1988; drivers' and constructors' titles"
-concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "Bob Bell", "David North", "Pete Weismann", "Steve Nielsen"]
+concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "bob-bell", "David North", "Pete Weismann", "Steve Nielsen"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -41,9 +41,9 @@ McLaren also describes it as a highly successful development of the 1981 [carbon
 
 The question divides opinion, even at Formula 1, which credits the car sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), sometimes to [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}). Autosport set the accounts side by side in 2017.
 
-- **Murray**, technical director, sees the MP4/4 as a continuation of his Brabham BT55, a low car with a steeply reclined driver. He says he got Honda to make a lower engine, which Osamu Goto, then at Honda, confirms. No one disputes that the gearbox was his project.
+- **Murray**, technical director, sees the MP4/4 as a continuation of his Brabham BT55, a low car with a steeply reclined driver. He says he got Honda to make a lower engine, which [Osamu Goto]({{ site.baseurl }}{% link _engineers/osamu-goto.md %}), then at Honda, confirms. No one disputes that the gearbox was his project.
 - **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."
-- **Bob Bell**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."
+- **[Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %})**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."
 
 Autosport concludes that Nichols and his team, including Matthew Jeffreys, Bob Bell, David North and Steve Nielsen, designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
 

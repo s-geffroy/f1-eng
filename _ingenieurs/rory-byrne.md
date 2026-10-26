@@ -53,7 +53,7 @@ Rory Byrne est l'homme qui a dessiné les **sept voitures championnes du monde d
 
 - **Toleman.** Avec le dessinateur-projeteur [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), il conçoit la TG280, qui domine la Formule 2 européenne. Sa TG184 de 1984, que pilote Ayrton Senna, est construite autour des pneus Michelin : l'abandon du [venturi]({{ site.baseurl }}/glossaire/#venturi) avant rend la voiture moins sensible au tangage et apporte environ 25 % d'[appui]({{ site.baseurl }}/glossaire/#appui) en plus.
 - **Benetton.** Il reste un pilier technique quand Benetton reprend l'équipe ; la première victoire arrive avec Gerhard Berger au Mexique. Ses Benetton donnent à Schumacher les titres 1994 et 1995.
-- **Ferrari.** Début 1997, il revient en F1 comme chef designer de Ferrari. La F1-2000 est développée sous la supervision de Ross Brawn et de Byrne ; il est le concepteur de la F2002.
+- **Ferrari.** Début 1997, il revient en F1 comme chef designer de Ferrari. La F1-2000 est développée sous la supervision de [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) et de Byrne ; il est le concepteur de la F2002.
 
 ## Attribution
 

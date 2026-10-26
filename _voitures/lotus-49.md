@@ -7,7 +7,7 @@ annee: 1967
 equipe: "Team Lotus"
 moteur: "Cosworth DFV, V8 de 3 litres"
 statut: "A couru de 1967 à 1970 ; titres pilotes et constructeurs en 1968"
-concepteurs: ["colin-chapman", "Maurice Philippe", "keith-duckworth", "mike-costin"]
+concepteurs: ["colin-chapman", "maurice-philippe", "keith-duckworth", "mike-costin"]
 termes: ["moteur-porteur", "monocoque", "aileron"]
 jalons: ["dfv", "dfv-fva"]
 sources:
@@ -39,7 +39,7 @@ La mise au point est serrée : le moteur n'a été marié à la voiture que quel
 
 ## Qui l'a conçue
 
-Selon Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et son équipe ont travaillé en étroite relation avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}). Maurice Philippe s'occupe du dessin détaillé du châssis. Le DFV, lui, est une réalisation de Cosworth.
+Selon Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et son équipe ont travaillé en étroite relation avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}). [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) s'occupe du dessin détaillé du châssis. Le DFV, lui, est une réalisation de Cosworth.
 
 ## Limites
 

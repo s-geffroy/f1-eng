@@ -29,4 +29,4 @@ Jean Terramorsi est un **dirigeant**, non un concepteur : directeur de Gordini, 
 
 ## Attribution
 
-L'idée du turbo, sa décision et sa réalisation relèvent de personnes différentes : Terramorsi décide, Dudot étudie la suralimentation, et le V6 de base est conçu par [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et Jean-Pierre Boudy.
+L'idée du turbo, sa décision et sa réalisation relèvent de personnes différentes : Terramorsi décide, Dudot étudie la suralimentation, et le V6 de base est conçu par [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).

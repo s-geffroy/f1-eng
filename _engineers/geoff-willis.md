@@ -32,7 +32,7 @@ Geoff Willis came from naval hydrodynamics. Arriving in F1 in 1990, he was one o
 - **Williams.** He followed Newey there as a CFD specialist and did aerodynamic research with him and Egbahl Hamidy. When both left in 1997, he became chief aerodynamicist and worked on all the cars with chief designer Gavin Fisher.
 - **BAR-Honda.** Technical director from 2002, he rebuilt the design staff and led the design of the **BAR 005**. He says the job let him "take on the design task in its full range of challenges". He left Honda in June 2006, a few hours after Shuhei Nakamoto was named senior technical director above him.
 - **Red Bull, HRT.** Technical director of Red Bull Racing from 2007 to 2009, he became a consultant to HRT in March 2010.
-- **Mercedes.** Technology director from 17 October 2011, under technical director Bob Bell, he led aerodynamics, vehicle dynamics, control systems and simulation. Ross Brawn saw his division of work with [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) as "natural areas of responsibility".
+- **Mercedes.** Technology director from 17 October 2011, under technical director [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), he led aerodynamics, vehicle dynamics, control systems and simulation. [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) saw his division of work with [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) as "natural areas of responsibility".
 
 ## Attribution
 

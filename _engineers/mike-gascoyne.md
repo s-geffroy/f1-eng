@@ -23,7 +23,7 @@ Mike Gascoyne, trained in fluid dynamics at Cambridge, moved from aerodynamics t
 
 ## Technical career
 
-- **McLaren, 1989.** After six years at Cambridge and a spell at Westland, he joined [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %})'s design team, working in the wind tunnel at the National Physical Laboratory in Teddington. According to Toyota, it was Bob Bell who hired him there.
+- **McLaren, 1989.** After six years at Cambridge and a spell at Westland, he joined [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %})'s design team, working in the wind tunnel at the National Physical Laboratory in Teddington. According to Toyota, it was [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) who hired him there.
 - **Tyrrell.** In late 1989 he joined [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) at Tyrrell and worked on the **Tyrrell 019**, "revolutionary" according to GrandPrix.com: chassis dynamics, computer simulations and aerodynamic mapping.
 - **Sauber.** He followed Postlethwaite to Sauber in June 1991 and stayed on, after Postlethwaite left for Ferrari, as aerodynamics engineer under Nichols.
 - **Back at Tyrrell.** In October 1993 Postlethwaite called him back. He stayed until British American Racing bought the team in 1998.

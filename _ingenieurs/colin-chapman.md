@@ -51,7 +51,7 @@ Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes
 
 - **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs.
 - **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 l'employait dès 1954 — mais la Lotus 49 l'impose comme standard.
-- **Lotus 72 (1970).** Créditée à Maurice Philippe et à Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus, 22 selon Classic Team Lotus.
+- **Lotus 72 (1970).** Créditée à [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) et à Chapman, elle place les radiateurs sur les flancs. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus, 22 selon Classic Team Lotus.
 - **Le programme [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79.
 - **Lotus 88 (1981).** Le concept à double châssis, deux caisses suspendues séparément, est contesté : la voiture ne court jamais.
 

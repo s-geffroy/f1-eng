@@ -30,7 +30,7 @@ Maurice Philippe was Team Lotus's chief designer at the end of the 1960s. He is 
 - **De Havilland.** He was a draughtsman at de Havilland in the early 1950s; Motor Sport sees there the origin of his knowledge.
 - **Lotus.** He took part in the design of the Lotus 49 and 72, and of many other Chapman projects: the 43, the 56 Indianapolis turbine car, the four-wheel-drive 63, the 64.
 - **Vel's Parnelli Jones (1971-1972).** In the autumn of 1971, he left Lotus for this American USAC team; Martin Waide replaced him at Team Lotus. His first car brought Joe Leonard the 1972 USAC title. Its side-mounted dihedral wings caused a stir but never raced: they were removed in the first days of testing.
-- **Tyrrell (from 1977).** In mid-1977, Derek Gardner hired him to install the Renault turbo V6 in the six-wheeled Tyrrell; the project came to nothing. After Gardner left, he widened the P34's front track and moved its oil radiators forward, without success. Ken Tyrrell then entrusted him with the P34's replacement, the start of a ten-year relationship.
+- **Tyrrell (from 1977).** In mid-1977, [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) hired him to install the Renault turbo V6 in the six-wheeled Tyrrell; the project came to nothing. After Gardner left, he widened the P34's front track and moved its oil radiators forward, without success. Ken Tyrrell then entrusted him with the P34's replacement, the start of a ten-year relationship.
 - **Late career.** When he died, on 5 June 1989, he was working on the March-Alfa Romeo IndyCar project.
 
 ## The Lotus 72

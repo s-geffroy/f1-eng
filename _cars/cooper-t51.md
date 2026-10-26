@@ -35,7 +35,7 @@ The car itself changed little from the previous model: a welded [spaceframe chas
 
 ## Who designed it
 
-Doug Nye writes that chief designer [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) did a remarkable job, and that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) made a technical contribution. Jack Brabham, in constant contact with his engineer friend Ron Tauranac, got the changes Tauranac recommended adopted. The engine was the work of Coventry Climax.
+Doug Nye writes that chief designer [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) did a remarkable job, and that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) made a technical contribution. Jack Brabham, in constant contact with his engineer friend [Ron Tauranac]({{ site.baseurl }}{% link _engineers/ron-tauranac.md %}), got the changes Tauranac recommended adopted. The engine was the work of Coventry Climax.
 
 ## Limitations
 

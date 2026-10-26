@@ -23,7 +23,7 @@ John Gentry is the **design draughtsman** who worked alongside [Rory Byrne]({{ s
 
 - He joined Toleman in August 1979; he was best known for his work at Shadow.
 - In Formula 2, he was also Derek Warwick's race engineer.
-- In 1984, he was among the engineers who accompanied Ayrton Senna's F1 debut at Toleman, with Byrne and Pat Symonds.
+- In 1984, he was among the engineers who accompanied Ayrton Senna's F1 debut at Toleman, with Byrne and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}).
 
 ## A short entry
 

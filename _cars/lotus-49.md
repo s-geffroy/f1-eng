@@ -7,7 +7,7 @@ annee: 1967
 equipe: "Team Lotus"
 moteur: "Cosworth DFV, 3-litre V8"
 statut: "Raced from 1967 to 1970; drivers' and constructors' titles in 1968"
-concepteurs: ["colin-chapman", "Maurice Philippe", "keith-duckworth", "mike-costin"]
+concepteurs: ["colin-chapman", "maurice-philippe", "keith-duckworth", "mike-costin"]
 termes: ["moteur-porteur", "monocoque", "aileron"]
 jalons: ["dfv", "dfv-fva"]
 sources:
@@ -39,7 +39,7 @@ Development was tight: the engine was only mated to the car a few days before th
 
 ## Who designed it
 
-According to Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and his team worked in close collaboration with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}). Maurice Philippe handled the detailed design of the chassis. The DFV, for its part, was a Cosworth achievement.
+According to Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and his team worked in close collaboration with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}). [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) handled the detailed design of the chassis. The DFV, for its part, was a Cosworth achievement.
 
 ## Limitations
 

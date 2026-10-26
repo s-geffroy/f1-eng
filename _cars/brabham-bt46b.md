@@ -39,7 +39,7 @@ The regulations banned movable aerodynamic devices. Brabham argued that the fan'
 
 - Murray himself does not remember exactly where it came from;
 - Gary Anderson claims he suggested fitting a fan;
-- engineer David Cox claims a share of it: he says he glimpsed a drawing of a fan on Maurice Philippe's drawing board at Tyrrell.
+- engineer David Cox claims a share of it: he says he glimpsed a drawing of a fan on [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %})'s drawing board at Tyrrell.
 
 All agree on the source of inspiration: the Chaparral 2J from Can-Am, the 1970 "sucker" car. And on the execution: "The Brabham design team did a wonderful job of putting the idea into practice."
 

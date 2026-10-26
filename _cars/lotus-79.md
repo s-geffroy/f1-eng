@@ -50,5 +50,5 @@ The 79 lacked stiffness. Ogilvie admits it: "The 79 was never stiff, and the tor
 ## Legacy
 
 - **1978**: six wins. Mario Andretti became world champion, the first in a ground effect car, and Lotus won the constructors' title ahead of Ferrari.
-- From 1979 it was outpaced by Gérard Ducarouge's Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79".
-- Its success pushed Gordon Murray to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}).
+- From 1979 it was outpaced by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %})'s Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79".
+- Its success pushed [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}).

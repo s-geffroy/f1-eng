@@ -50,5 +50,5 @@ La 79 manque de rigidité. Ogilvie le reconnaît : « La 79 n'a jamais été rig
 ## Ce qu'elle laisse
 
 - **1978** : six victoires. Mario Andretti est champion du monde, le premier sur une voiture à effet de sol, et Lotus remporte le titre constructeurs devant Ferrari.
-- Dès 1979, elle est dépassée par la Ligier de Gérard Ducarouge, puis par la Williams FW07 de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), que Wright qualifie de « 79 rigide ».
-- Sa réussite pousse Gordon Murray à chercher une autre voie chez Brabham : la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}).
+- Dès 1979, elle est dépassée par la Ligier de [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}), puis par la Williams FW07 de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), que Wright qualifie de « 79 rigide ».
+- Sa réussite pousse [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) à chercher une autre voie chez Brabham : la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}).

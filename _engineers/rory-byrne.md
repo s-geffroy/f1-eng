@@ -52,7 +52,7 @@ Rory Byrne is the man who designed **Michael Schumacher's seven world championsh
 
 - **Toleman.** With draughtsman [John Gentry]({{ site.baseurl }}{% link _engineers/john-gentry.md %}), he designed the TG280, which dominated European Formula 2. His 1984 TG184, driven by Ayrton Senna, was built around Michelin tyres: dropping the front [venturi]({{ site.baseurl }}/en/glossary/#venturi) made the car less sensitive to pitch and added around 25% more [downforce]({{ site.baseurl }}/en/glossary/#appui).
 - **Benetton.** He remained a technical mainstay when Benetton took over the team; the first win came with Gerhard Berger in Mexico. His Benettons gave Schumacher the 1994 and 1995 titles.
-- **Ferrari.** In early 1997 he returned to F1 as Ferrari's chief designer. The F1-2000 was developed under the supervision of Ross Brawn and Byrne; he was the designer of the F2002.
+- **Ferrari.** In early 1997 he returned to F1 as Ferrari's chief designer. The F1-2000 was developed under the supervision of [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) and Byrne; he was the designer of the F2002.
 
 ## Attribution
 

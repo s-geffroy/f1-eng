@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, V6 turbo de 1,5 litre"
 statut: "A couru en 1988 ; titres pilotes et constructeurs"
-concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "Bob Bell", "David North", "Pete Weismann", "Steve Nielsen"]
+concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "bob-bell", "David North", "Pete Weismann", "Steve Nielsen"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -41,9 +41,9 @@ McLaren la décrit aussi comme un développement très réussi du concept de [co
 
 La question divise, jusque chez Formula 1, qui attribue la voiture tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), tantôt à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Autosport a confronté les versions en 2017.
 
-- **Murray**, directeur technique, voit dans la MP4/4 le prolongement de sa Brabham BT55, une voiture basse au pilote très allongé. Il dit avoir obtenu de Honda un moteur plus bas, ce que confirme Osamu Goto, alors chez Honda. Personne ne conteste que la boîte était son projet.
+- **Murray**, directeur technique, voit dans la MP4/4 le prolongement de sa Brabham BT55, une voiture basse au pilote très allongé. Il dit avoir obtenu de Honda un moteur plus bas, ce que confirme [Osamu Goto]({{ site.baseurl }}{% link _ingenieurs/osamu-goto.md %}), alors chez Honda. Personne ne conteste que la boîte était son projet.
 - **Nichols**, concepteur en chef, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
-- **Bob Bell**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
+- **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
 
 Autosport conclut que Nichols et son équipe, dont Matthew Jeffreys, Bob Bell, David North et Steve Nielsen, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
 

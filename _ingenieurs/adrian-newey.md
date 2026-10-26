@@ -93,7 +93,7 @@ Il domine pourtant une catégorie à lui seul : **rester au sommet de l'ingénie
 
 La formulation juste : **Newey a joué un rôle de premier plan dans l'architecture aérodynamique de plusieurs générations de voitures championnes, au sein d'équipes techniques collectives.**
 
-Chez Williams, par exemple, la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) est le fruit d'une chaîne qui comprend [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}). Selon Head, Newey n'a pris aucune part au système actif lui-même : celui-ci servait de plateforme stable à son aérodynamique. Sur la McLaren MP4-13, le frein directionnel est une idée de Steve Nichols antérieure à l'arrivée de Newey.
+Chez Williams, par exemple, la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) est le fruit d'une chaîne qui comprend [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}). Selon Head, Newey n'a pris aucune part au système actif lui-même : celui-ci servait de plateforme stable à son aérodynamique. Sur la McLaren MP4-13, le frein directionnel est une idée de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) antérieure à l'arrivée de Newey.
 
 ## Verdict
 

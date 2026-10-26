@@ -32,7 +32,7 @@ Frank Dernie is the figure of a revolution that does not show on the bodywork: t
 
 - **Williams.** The date of his arrival differs between sources: 1977 according to Dernie himself, January 1979 according to Motor Sport.
 - **Lotus.** As technical director, he designed the 1989 Lotus 101; the Lamborghini V12-powered 102 was, in his words, "basically the same car".
-- **Ligier**, where he designed the JS37, then **Benetton** for 1993: according to his account, Ross Brawn brought him in as chief engineer.
+- **Ligier**, where he designed the JS37, then **Benetton** for 1993: according to his account, [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) brought him in as chief engineer.
 - **Arrows**, where he produced the 1997 A18, then consultant at Williams in 2003, and Toyota until the team's withdrawal at the end of 2009.
 
 ## Attribution

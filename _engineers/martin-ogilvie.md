@@ -33,7 +33,7 @@ Martin Ogilvie is a Team Lotus engineer. On the **Lotus 78**, he detailed the su
 - **Lotus 80 (1979)**: the aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque), with titanium parts, is his.
 - **Lotus 87 (1981)**: after the Lotus 88 was banned, the team drew this more conventional car under his direction, on the same tub.
 - **1982-1983**: as Lotus chief designer, he concentrated mainly on the Renault turbo-engined 93T.
-- **1983**: he took part in the five-week redesign of the 94T, along the lines set by Gérard Ducarouge, who led the redesign; Motor Sport describes him as the technical leader rather than the draughtsman of the cars credited to him.
+- **1983**: he took part in the five-week redesign of the 94T, along the lines set by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %}), who led the redesign; Motor Sport describes him as the technical leader rather than the draughtsman of the cars credited to him.
 
 ## A short entry
 
