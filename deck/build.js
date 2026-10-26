@@ -727,14 +727,58 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 }
 
 // ===== 19 — Chronologie (données du site : _data/chronologie.yml, _data/en/chronologie.yml) =====
+// Même dessin que la frise du site : un axe unique en règle graduée, les innovations au-dessus,
+// le contexte en dessous (une couleur et une forme par catégorie), chaque repère relié à son année.
 {
   const s = newSlide(19);
-  title(s, t("Soixante-dix ans de ruptures", "Seventy years of breakthroughs"), t("Chronologie", "Timeline"));
+  title(s, t("Quatre-vingts ans de ruptures, et leur contexte", "Eighty years of breakthroughs, and their context"), t("Chronologie", "Timeline"));
   const chrono = require("js-yaml").load(fs.readFileSync(path.join(__dirname, "..", "_data", ...(EN ? ["en"] : []), "chronologie.yml"), "utf8"));
   const tierA = new Set(RANK.filter(r => r[1] === "A").map(r => idOf(r[0])));
-  const DEBUT = 1945, FIN = 2025, x0 = M + 2.3, x1 = W - M - 0.2, y0 = 2.05, hv = 0.86;
+  const DEBUT = 1940, FIN = 2026, x0 = M + 0.35, x1 = W - M - 0.35;
   const X = a => x0 + ((a - DEBUT) / (FIN - DEBUT)) * (x1 - x0);
-  // étiquettes affichées pour une sélection de jalons ; les autres restent des repères
+  const yR = 3.95, hR = 0.28, pas = 0.29, d = 0.16; // règle, écart entre rangées, taille des repères
+  const yHaut = 1.72, yBas = 6.2;
+  // couleurs et formes du contexte : celles du site (assets/css/encyclopedie.css)
+  const CTX = { reglement: ["8A5A00", pres.shapes.RECTANGLE], securite: ["7A3E9D", pres.shapes.ISOSCELES_TRIANGLE],
+    economie: ["2E7348", pres.shapes.OVAL], technologie: ["12707A", pres.shapes.HEXAGON] };
+  // rangées : un repère prend la plus proche de l'axe dont le dernier repère est à au moins deux ans
+  function ranger(liste) {
+    const fins = [];
+    return liste.slice().sort((a, b) => a.annee - b.annee).map(e => {
+      let k = 0;
+      while (fins[k] !== undefined && e.annee - fins[k] < 2) k++;
+      fins[k] = e.annee;
+      return { ...e, rang: k };
+    });
+  }
+  // étiquettes : une sélection, sur trois niveaux en alternance, reliées au repère par un trait fin
+  function etiquettes(liste, noms, yNiv, versLeHaut) {
+    liste.filter(e => noms[e.id]).forEach((e, i) => {
+      const niv = i % 3, yt = versLeHaut ? yNiv + niv * 0.24 : yNiv - niv * 0.24, cx = X(e.annee);
+      const yFin = versLeHaut ? e.cy - d / 2 : e.cy + d / 2;
+      s.addShape(pres.shapes.LINE, { x: cx, y: versLeHaut ? yt + 0.22 : yFin, w: 0, h: versLeHaut ? yFin - yt - 0.22 : yt - yFin, line: { color: C.light, width: 0.5 } });
+      // l'étiquette reste dans le cadre aux deux bouts de l'axe
+      s.addText(`${e.annee} ${noms[e.id]}`, { x: Math.min(Math.max(cx - 0.8, M + 0.05), W - M - 1.65), y: yt, w: 1.6, h: 0.22, fontFace: F, fontSize: 8.5, bold: true, color: e.couleur || C.ink, align: "center", valign: "middle" });
+    });
+  }
+
+  // fonds des deux zones, repères de décennie, règle
+  s.addShape(pres.shapes.RECTANGLE, { x: M, y: yHaut, w: W - 2 * M, h: yR - yHaut, fill: { color: C.white }, line: { color: C.ink, width: 0 } });
+  s.addShape(pres.shapes.RECTANGLE, { x: M, y: yR + hR, w: W - 2 * M, h: yBas - yR - hR, fill: { color: "EEF1F2" }, line: { color: C.ink, width: 0 } });
+  for (let a = DEBUT; a <= 2020; a += 10)
+    s.addShape(pres.shapes.LINE, { x: X(a), y: yHaut, w: 0, h: yBas - yHaut, line: { color: C.light, width: 0.5, dashType: "dash" } });
+  s.addShape(pres.shapes.RECTANGLE, { x: M, y: yR, w: W - 2 * M, h: hR, fill: { color: C.ink }, line: { color: C.ink, width: 0 } });
+  for (let a = DEBUT; a <= FIN; a += 5) {
+    if (a % 10) s.addShape(pres.shapes.LINE, { x: X(a), y: yR, w: 0, h: 0.07, line: { color: C.rule, width: 0.75 } });
+    else s.addText(String(a), { x: X(a) + 0.02, y: yR, w: 0.6, h: hR, fontFace: F, fontSize: 9.5, bold: true, color: C.white, valign: "middle" });
+  }
+  s.addShape(pres.shapes.RECTANGLE, { x: M, y: yHaut, w: W - 2 * M, h: yBas - yHaut, fill: { type: "none" }, line: { color: C.ink, width: 1.5 } });
+  s.addText(t("Innovations", "Innovations"), { x: M + 0.05, y: yHaut + 0.03, w: 1.5, h: 0.25, fontFace: F, fontSize: 10, bold: true, color: C.sub });
+  s.addText(t("Contexte", "Context"), { x: M + 0.05, y: yBas - 0.29, w: 1.5, h: 0.25, fontFace: F, fontSize: 10, bold: true, color: C.sub });
+
+  // innovations : losanges (rouges pour le Tier A), tiges vers l'axe
+  const innov = ranger(chrono.jalons).map(j => ({ ...j, cy: yR - 0.2 - j.rang * pas }));
+  innov.forEach(j => s.addShape(pres.shapes.LINE, { x: X(j.annee), y: j.cy, w: 0, h: yR - j.cy, line: { color: C.rule, width: 0.5 } }));
   const ETIQ = EN
     ? { "lancia-d50": "D50", "cooper-titres": "Cooper", "lotus-25": "Lotus 25", "dfv": "DFV", "ferrari-312t": "312T",
       "lotus-78": "Lotus 78", "turbo-victoire": "Turbo", "mp4-1": "Carbon", "ferrari-640": "Paddles", "tyrrell-019": "Raised nose",
@@ -742,34 +786,45 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
     : { "lancia-d50": "D50", "cooper-titres": "Cooper", "lotus-25": "Lotus 25", "dfv": "DFV", "ferrari-312t": "312T",
       "lotus-78": "Lotus 78", "turbo-victoire": "Turbo", "mp4-1": "Carbone", "ferrari-640": "Palettes", "tyrrell-019": "Nez relevé",
       "double-diffuseur": "Double diffuseur", "hybride": "Hybride" };
-  for (let a = 1950; a <= 2020; a += 10) {
-    s.addShape(pres.shapes.LINE, { x: X(a), y: y0 - 0.15, w: 0, h: hv * 5 + 0.15, line: { color: C.light, width: 0.75, dashType: "dash" } });
-    s.addText(String(a), { x: X(a) - 0.4, y: y0 - 0.42, w: 0.8, h: 0.26, fontFace: F, fontSize: 10, bold: true, color: C.sub, align: "center" });
-  }
-  chrono.voies.forEach((v, i) => {
-    const y = y0 + i * hv;
-    s.addShape(pres.shapes.LINE, { x: M, y, w: W - 2 * M, h: 0, line: { color: C.rule, width: 0.75 } });
-    s.addText(v.nom, { x: M, y, w: 2.2, h: hv, fontFace: F, fontSize: 12, bold: true, color: C.ink, valign: "middle" });
-    let precedent = -100, haut = true;
-    chrono.jalons.filter(j => j.voie === v.id).sort((a, b) => a.annee - b.annee).forEach(j => {
-      haut = j.annee - precedent < 3 ? !haut : true; precedent = j.annee;
-      const cx = X(j.annee), cy = y + hv * (haut ? 0.38 : 0.7), d = 0.17;
-      const rouge = (j.entrees || []).some(e => tierA.has(e));
-      s.addShape(pres.shapes.DIAMOND, { x: cx - d / 2, y: cy - d / 2, w: d, h: d, fill: { color: rouge ? C.A : C.ink }, line: { color: C.white, width: 1 } });
-      if (ETIQ[j.id]) s.addText(`${j.annee} ${ETIQ[j.id]}`, { x: cx - 0.8, y: haut ? cy - 0.36 : cy + 0.08, w: 1.6, h: 0.26, fontFace: F, fontSize: 9, color: C.ink, align: "center" });
-    });
+  etiquettes(innov, ETIQ, yHaut + 0.3, true);
+  innov.forEach(j => {
+    const rouge = (j.entrees || []).some(e => tierA.has(e));
+    s.addShape(pres.shapes.DIAMOND, { x: X(j.annee) - d / 2, y: j.cy - d / 2, w: d, h: d, fill: { color: rouge ? C.A : C.ink }, line: { color: C.white, width: 1 } });
   });
-  s.addShape(pres.shapes.LINE, { x: M, y: y0 + 5 * hv, w: W - 2 * M, h: 0, line: { color: C.rule, width: 0.75 } });
-  s.addShape(pres.shapes.DIAMOND, { x: M, y: 6.55, w: 0.15, h: 0.15, fill: { color: C.A }, line: { color: C.A, width: 0 } });
-  s.addText(t("porté par un ingénieur du Tier A", "carried by a Tier A engineer"), { x: M + 0.2, y: 6.47, w: 3.2, h: 0.3, fontFace: F, fontSize: 10, color: C.sub });
+
+  // contexte : tous les événements (le PDF ne se filtre pas), couleur et forme de leur catégorie
+  const ctx = ranger(chrono.contexte || []).map(c => ({ ...c, cy: yR + hR + 0.2 + c.rang * pas, couleur: CTX[c.categorie][0] }));
+  ctx.forEach(c => s.addShape(pres.shapes.LINE, { x: X(c.annee), y: yR + hR, w: 0, h: c.cy - yR - hR, line: { color: c.couleur, width: 0.5 } }));
+  const ETIQ_CTX = EN
+    ? { "championnat-1950": "First championship", "formule-3-litres": "3-litre formula", "interdiction-ailerons-hauts": "High wings banned",
+      "fin-des-jupes": "Skirts banned", "fin-du-turbo": "Turbo banned", "imola-1994": "Imola", "honda-brawn-2008": "Honda withdraws",
+      "halo": "Halo", "reglement-2026": "New rules" }
+    : { "championnat-1950": "Premier championnat", "formule-3-litres": "Formule 3 litres", "interdiction-ailerons-hauts": "Ailerons hauts interdits",
+      "fin-des-jupes": "Fin des jupes", "fin-du-turbo": "Fin du turbo", "imola-1994": "Imola", "honda-brawn-2008": "Départ de Honda",
+      "halo": "Halo", "reglement-2026": "Nouveau règlement" };
+  etiquettes(ctx, ETIQ_CTX, yBas - 0.55, false);
+  ctx.forEach(c => s.addShape(CTX[c.categorie][1], { x: X(c.annee) - d / 2, y: c.cy - d / 2, w: d, h: d, fill: { color: c.couleur }, line: { color: C.white, width: 0.75 } }));
+
+  // légende
+  const leg = [[pres.shapes.DIAMOND, C.A, t("innovation, Tier A", "innovation, Tier A")], [pres.shapes.DIAMOND, C.ink, t("innovation", "innovation")]]
+    .concat(chrono.categories.map(c => [CTX[c.id][1], CTX[c.id][0], c.nom]));
+  let xl = M;
+  leg.forEach(([forme, coul, nom]) => {
+    s.addShape(forme, { x: xl, y: 6.43, w: 0.14, h: 0.14, fill: { color: coul }, line: { color: coul, width: 0 } });
+    s.addText(nom, { x: xl + 0.17, y: 6.36, w: 1.4, h: 0.28, fontFace: F, fontSize: 10, color: C.sub, valign: "middle" });
+    xl += 0.3 + nom.length * 0.062;
+  });
   s.addText(t("Frise interactive : s-geffroy.github.io/f1-eng/chronologie", "Interactive timeline: s-geffroy.github.io/f1-eng/en/timeline"),
-    { x: 6.5, y: 6.47, w: W - M - 6.5, h: 0.3, fontFace: FS, fontSize: 11, italic: true, color: C.sub, align: "right" });
+    { x: 8.3, y: 6.36, w: W - M - 8.3, h: 0.28, fontFace: FS, fontSize: 10, italic: true, color: C.sub, align: "right" });
+
+  const nomCat = id => chrono.categories.find(c => c.id === id).nom;
   notes(s, {
-    idee: t("Les ruptures se répartissent sur cinq domaines et soixante-dix ans ; le Tier A est présent dans chacun des grands tournants.",
-      "The breakthroughs are spread over five fields and seventy years; Tier A is present at each of the major turning points."),
-    faits: chrono.jalons.slice().sort((a, b) => a.annee - b.annee).map(j => `${j.annee} — ${j.titre}`),
-    nuance: t("Chaque jalon reprend des faits sourcés dans les entrées du site ; la frise interactive donne le détail et les ingénieurs concernés.",
-      "Each milestone uses facts sourced in the site's entries; the interactive timeline gives the detail and the engineers involved."),
+    idee: t("Les ruptures se répartissent sur quatre-vingts ans ; le contexte (règlement, sécurité, économie, technologie venue d'ailleurs) explique pourquoi elles apparaissent ou disparaissent.",
+      "The breakthroughs are spread over eighty years; the context (regulations, safety, economics, technology from elsewhere) explains why they appear or disappear."),
+    faits: [t("INNOVATIONS", "INNOVATIONS")].concat(chrono.jalons.slice().sort((a, b) => a.annee - b.annee).map(j => `${j.annee} — ${j.titre}`),
+      [t("CONTEXTE", "CONTEXT")], (chrono.contexte || []).slice().sort((a, b) => a.annee - b.annee).map(c => `${c.annee} — ${c.titre} (${nomCat(c.categorie)})`)),
+    nuance: t("Chaque jalon reprend des faits sourcés dans les entrées du site ; chaque événement de contexte a ses propres sources, données sur la frise interactive.",
+      "Each milestone uses facts sourced in the site's entries; each context event has its own sources, given on the interactive timeline."),
     sources: [],
   });
 }
