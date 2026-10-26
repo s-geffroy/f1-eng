@@ -7,17 +7,20 @@ const path = require("path");
 const PImage = require("pureimage");
 const Jimp = require("jimp");
 const { Readable } = require("stream");
+const yaml = require("js-yaml");
 
 const RACINE = path.join(__dirname, "..");
 // Une carte par entrée et par langue : français dans assets/partage/, anglais dans assets/partage/en/.
 const LANGUES = {
   fr: { entrees: "_ingenieurs", sortie: path.join(RACINE, "assets", "partage"), marque: "Ingénieurs de la F1",
         rang: "Rang", classement: "Classement", hc: "Hors classement", domaine: "Domaine",
+        photo: "Photo : ", modif: "recadrée, noir et blanc",
         voitures: "_voitures", annee: "Année", equipe: "Équipe",
         titre: ["Les ingénieurs qui ont", "changé la Formule 1"],
         sous: "Vingt ingénieurs classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès." },
   en: { entrees: "_engineers", sortie: path.join(RACINE, "assets", "partage", "en"), marque: "F1 Engineers",
         rang: "Rank", classement: "Ranking", hc: "Unranked", domaine: "Field",
+        photo: "Photo: ", modif: "cropped, black and white",
         voitures: "_cars", annee: "Year", equipe: "Team",
         titre: ["The engineers who", "changed Formula 1"],
         sous: "Twenty engineers ranked by what they changed in the way an F1 car is built, not by their trophy count." },
@@ -43,6 +46,22 @@ function frontMatter(file) {
     try { o[m[1]] = JSON.parse(m[2]); } catch { o[m[1]] = m[2]; }
   }
   return o;
+}
+
+// Crédit de la photo reprise dans la carte : les licences CC BY et CC BY-SA exigent l'auteur, la licence et la
+// mention des modifications (README, Portraits). Lu dans le bloc portrait: ou photo: du front matter.
+function credit(file, cle) {
+  const fm = yaml.load(fs.readFileSync(file, "utf8").split("---\n")[1]);
+  const p = fm && fm[cle];
+  return p && p.auteur ? `${L.photo}${p.auteur}, ${p.licence}, ${L.modif}` : null;
+}
+
+function mentionCredit(ctx, t) {
+  if (!t) return;
+  let taille = 15;
+  ctx.font = `${taille}pt Barlow`;
+  while (ctx.measureText(t).width > W - 2 * M && taille > 10) { taille -= 1; ctx.font = `${taille}pt Barlow`; }
+  texte(ctx, t, M, 612, "Barlow", taille, C.mine);
 }
 
 function lignes(ctx, texte, largeur) {
@@ -84,7 +103,7 @@ async function ecrire(img, nom) {
   await PImage.encodeJPEGToStream(img, fs.createWriteStream(path.join(L.sortie, nom)), 85);
 }
 
-async function carteEntree(id, e) {
+async function carteEntree(id, e, file) {
   const img = PImage.make(W, H), ctx = img.getContext("2d");
   enTete(ctx);
   // vue de gauche : portrait, ou initiales s'il n'existe pas d'image libre
@@ -131,12 +150,13 @@ async function carteEntree(id, e) {
     x += w;
   }
   cadre(ctx, tx, cy, tw, ch, 4, C.graphite);
+  if (fs.existsSync(fichier)) mentionCredit(ctx, credit(file, "portrait"));
   await ecrire(img, id + ".jpg");
 }
 
 // Carte d'une voiture : la photo du site (assets/voitures/), en niveaux de gris et recadrée au format
 // de la vue, à gauche ; à droite, le nom, l'accroche et un cartouche année / équipe.
-async function carteVoiture(id, v) {
+async function carteVoiture(id, v, file) {
   const img = PImage.make(W, H), ctx = img.getContext("2d");
   enTete(ctx);
   const px = M, py = 130, pw = 560, ph = 449;
@@ -174,6 +194,7 @@ async function carteVoiture(id, v) {
     x += w;
   }
   cadre(ctx, tx, cy, tw, ch, 4, C.graphite);
+  if (fs.existsSync(fichier)) mentionCredit(ctx, credit(file, "photo"));
   await ecrire(img, path.join("voitures", id + ".jpg"));
 }
 
@@ -199,11 +220,11 @@ async function carteGenerique() {
     const dir = path.join(RACINE, L.entrees);
     if (!fs.existsSync(dir)) continue;               // langue pas encore traduite
     fs.mkdirSync(L.sortie, { recursive: true });
-    for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)));
+    for (const f of fs.readdirSync(dir)) await carteEntree(f.replace(/\.md$/, ""), frontMatter(path.join(dir, f)), path.join(dir, f));
     const dirV = path.join(RACINE, L.voitures);
     if (fs.existsSync(dirV)) {
       fs.mkdirSync(path.join(L.sortie, "voitures"), { recursive: true });
-      for (const f of fs.readdirSync(dirV)) await carteVoiture(f.replace(/\.md$/, ""), frontMatter(path.join(dirV, f)));
+      for (const f of fs.readdirSync(dirV)) await carteVoiture(f.replace(/\.md$/, ""), frontMatter(path.join(dirV, f)), path.join(dirV, f));
     }
     await carteGenerique();
     console.log(`cartes (${code}) :`, fs.readdirSync(L.sortie).filter(f => f.endsWith(".jpg")).length);
