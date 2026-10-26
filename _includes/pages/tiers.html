@@ -16,7 +16,7 @@
   {%- assign membres = par_rang | where: "tier", t.id -%}
   <ol class="tier-liste" start="{{ membres.first.rang }}">
     {%- for e in membres %}
-    <li><a href="{{ e.url | relative_url }}"><span class="ligne-nom">{{ e.title }}</span> <span class="ligne-domaine">{{ e.domaine }}</span> <span class="ligne-score">{{ e.score }}</span></a></li>
+    <li><a href="{{ e.url | relative_url }}"><span class="ligne-nom">{{ e.title }}</span> <span class="ligne-domaine">{{ e.domaine }}</span> <span class="ligne-score">{{ e.score }}</span></a><span class="ligne-accroche">{{ e.accroche }}</span></li>
     {%- endfor %}
   </ol>
 </section>

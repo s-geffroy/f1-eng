@@ -66,8 +66,9 @@
           <span class="ligne-score">{{ e.score }}</span>
           {%- else %}
           <span class="ligne-tier" data-tier="HC" title="{{ T.index.hc_titre }}">HC</span>
-          <span class="ligne-score" aria-hidden="true">—</span>
+          <span class="ligne-score" aria-hidden="true"></span>
           {%- endif %}
+          <span class="ligne-accroche">{{ e.accroche }}</span>
         </a>
       </li>
       {%- endfor %}

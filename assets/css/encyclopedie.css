@@ -295,6 +295,9 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-family: var(--titre); font-size: 1.25rem; font-weight: 600;
   font-variant-numeric: lining-nums tabular-nums;
 }
+/* Ce que la personne a fait, en une ligne : l'accroche de l'entrée, sous le nom */
+.ligne-accroche { grid-column: 1 / -1; display: block; color: var(--mine); font-size: 0.9375rem; line-height: 1.4; margin-top: 0.1rem; }
+.tier-liste .ligne-accroche { font-family: var(--texte); font-size: 0.9375rem; font-weight: 400; margin: 0.1rem 0 0.15rem; }
 .ligne:hover .ligne-nom { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 0.15em; }
 
 /* ---------- Tiers ---------- */
