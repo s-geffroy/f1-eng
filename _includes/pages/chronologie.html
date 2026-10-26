@@ -28,6 +28,13 @@
     </button>
     {%- endfor %}
   </div>
+  {%- assign pv = D.chronologie.preuves %}
+  <p class="frise-legende">{{ T.chrono.legende }}
+    <span><svg class="legende-trait" viewBox="0 0 30 8" aria-hidden="true" focusable="false"><line x1="1" y1="4" x2="29" y2="4"/></svg>{{ pv[0].nom }}, {{ pv[1].nom }}</span>
+    <span><svg class="legende-trait" viewBox="0 0 30 8" aria-hidden="true" focusable="false"><line x1="1" y1="4" x2="29" y2="4" data-preuve="discute"/></svg>{{ pv[2].nom }}</span>
+    <span><svg class="legende-trait" viewBox="0 0 30 8" aria-hidden="true" focusable="false"><line x1="1" y1="4" x2="29" y2="4" data-preuve="chronologique"/></svg>{{ pv[3].nom }}</span>
+    <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a>
+  </p>
 
   <div class="frise-defilement">
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
@@ -71,6 +78,7 @@
         <span class="frise-lustre" style="--annee: {{ a }};"></span>
         {%- endif %}{% endfor %}
       </div>
+      <svg class="frise-liens" id="frise-liens-calque" aria-hidden="true" focusable="false"></svg>
       <ol class="frise-contexte" aria-label="{{ T.chrono.contexte }}">
         {%- for c in contexte %}
         <li style="--annee: {{ c.annee }}; --rang: 0;" data-categorie="{{ c.categorie }}">
@@ -127,11 +135,18 @@
           {%- for g in termes_ok %} <a href="{{ T.url.glossaire | relative_url }}#{{ g.id }}">{{ g.terme }}</a>{% unless forloop.last %},{% endunless %}{% endfor %}
         </p>
         {%- endif %}
-        {%- assign son_contexte = contexte | where_exp: "c", "c.jalons contains j.id" -%}
-        {%- if son_contexte.size > 0 %}
-        <p class="fiche-jalon-liens"><span>{{ T.chrono.contexte }}</span>
-          {%- for c in son_contexte %} <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
-        </p>
+        {%- assign n_liens = 0 -%}
+        {%- for c in contexte -%}{%- for l in c.liens -%}{%- if l.jalon == j.id -%}{%- assign n_liens = n_liens | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+        {%- if n_liens > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.contexte }}</span></p>
+        <ul class="liens-causaux">
+          {%- for c in contexte %}{% for l in c.liens %}{% if l.jalon == j.id %}
+          {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+          {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
+          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+            <small>{{ l.pourquoi }}</small></li>
+          {%- endif %}{% endfor %}{% endfor %}
+        </ul>
         {%- endif %}
       </div>
     </li>
@@ -151,10 +166,17 @@
         <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
         <h3>{{ c.titre }}</h3>
         <p>{{ c.texte }}</p>
-        {%- if c.jalons and c.jalons.size > 0 %}
-        <p class="fiche-jalon-liens"><span>{{ T.chrono.innovations_liees }}</span>
-          {%- for id in c.jalons %}{% assign j = jalons | where: "id", id | first %} <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
-        </p>
+        {%- if c.liens and c.liens.size > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.innovations_liees }}</span></p>
+        <ul class="liens-causaux">
+          {%- for l in c.liens %}
+          {%- assign j = jalons | where: "id", l.jalon | first -%}
+          {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+          {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
+          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+            <small>{{ l.pourquoi }}</small></li>
+          {%- endfor %}
+        </ul>
         {%- endif %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
           {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
@@ -163,15 +185,26 @@
     </li>
     {%- endfor %}
   </ol>
-  <p class="jalons-note">{{ T.chrono.note_contexte }}</p>
+  <p class="jalons-note">{{ T.chrono.note_contexte }} <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a></p>
 </section>
+
+{%- comment -%} liens de cause à effet, pour les connecteurs de la frise (le texte est dans les fiches) {%- endcomment -%}
+{%- assign premier = true %}
+<script type="application/json" id="frise-liens">[
+{%- for c in contexte %}{% for l in c.liens %}
+{%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+{%- if premier %}{% assign premier = false %}{% else %},{% endif %}
+{"c":"c-{{ c.id }}","j":"j-{{ l.jalon }}","meca":"{{ l.mecanisme }}","nom":{{ m.nom | jsonify }},"preuve":"{{ l.preuve }}"}
+{%- endfor %}{% endfor %}]</script>
 
 <script>
 /* Frise : rien n'est ouvert ni sélectionné au chargement, même si l'adresse vise un repère
    (le navigateur descend alors simplement à sa fiche dans la liste). Un clic sur un repère
    ouvre sa fiche dans le panneau, sans toucher à l'adresse. Le contexte est masqué par défaut ;
-   les boutons de catégorie l'affichent. Sans JavaScript, tout est visible et chaque repère
-   reste un lien vers sa fiche dans les listes. */
+   les boutons de catégorie l'affichent. Un repère ouvert est relié par des connecteurs à ses
+   liens de cause à effet ; les événements liés s'affichent même si leur catégorie est masquée.
+   Second clic sur le repère, clic ailleurs ou Échap : désélection.
+   Sans JavaScript, tout est visible et chaque repère reste un lien vers sa fiche dans les listes. */
 (function () {
   var plan = document.querySelector(".frise-plan");
   var reperes = Array.prototype.slice.call(document.querySelectorAll(".jalon, .evenement"));
@@ -180,7 +213,12 @@
   var invite = document.getElementById("frise-invite");
   var panneau = document.getElementById("frise-detail");
   var fiche = document.getElementById("frise-detail-fiche");
+  var calque = document.getElementById("frise-liens-calque");
+  var liens = JSON.parse(document.getElementById("frise-liens").textContent);
+  var SVG = "http://www.w3.org/2000/svg";
   var actives = {};
+  var forces = {};    // événements affichés pour le repère ouvert, hors des catégories choisies
+  var mesLiens = [];  // liens du repère ouvert
   var courant = null;
   var doux = !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
 
@@ -197,7 +235,7 @@
   function rangerContexte() {
     var fins = [];
     lignesCtx.forEach(function (li) {
-      li.hidden = !actives[li.dataset.categorie];
+      li.hidden = !actives[li.dataset.categorie] && !forces[li.firstElementChild.dataset.id];
       if (li.hidden) return;
       var a = parseInt(li.style.getPropertyValue("--annee"), 10), k = 0;
       while (fins[k] !== undefined && a - fins[k] < 2) k++;
@@ -207,20 +245,73 @@
     plan.style.setProperty("--rangs-bas", Math.max(fins.length, 1));
     invite.hidden = fins.length > 0;
     boutons.forEach(function (b) { b.setAttribute("aria-pressed", actives[b.dataset.categorie] ? "true" : "false"); });
+    dessiner();
+  }
+
+  // connecteurs : de la cause vers l'effet (de l'innovation vers la règle pour « provoque »),
+  // trait selon la preuve, mécanisme écrit au milieu ; les rangées peuvent avoir changé, on recalcule tout
+  function centre(r, base) {
+    var b = r.getBoundingClientRect();
+    return { x: b.left + b.width / 2 - base.left, y: b.top + b.height / 2 - base.top };
+  }
+  function el(nom, attrs) {
+    var e = document.createElementNS(SVG, nom);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+  function dessiner() {
+    while (calque.firstChild) calque.removeChild(calque.firstChild);
+    reperes.forEach(function (r) { r.classList.remove("jalon-lie"); });
+    if (!mesLiens.length) return;
+    var base = plan.getBoundingClientRect();
+    calque.setAttribute("viewBox", "0 0 " + base.width + " " + base.height);
+    var defs = el("defs", {}), fleche = el("marker", { id: "frise-fleche", viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse" });
+    fleche.appendChild(el("path", { d: "M0,0 L10,5 L0,10 z" }));
+    defs.appendChild(fleche);
+    calque.appendChild(defs);
+    mesLiens.forEach(function (l) {
+      var rc = reperes.filter(function (r) { return r.dataset.id === l.c; })[0];
+      var rj = reperes.filter(function (r) { return r.dataset.id === l.j; })[0];
+      if (!rc || !rj || rc.parentNode.hidden) return;
+      rc.classList.add("jalon-lie"); rj.classList.add("jalon-lie");
+      var a = centre(rc, base), b = centre(rj, base);
+      if (l.meca === "provoque") { var t = a; a = b; b = t; }
+      // on s'arrête au bord des repères, pour que la flèche reste visible
+      var sens = b.y > a.y ? 1 : -1, marge = 13;
+      a = { x: a.x, y: a.y + sens * marge }; b = { x: b.x, y: b.y - sens * marge };
+      var my = (a.y + b.y) / 2;
+      var d = "M" + a.x + "," + a.y + " C" + a.x + "," + my + " " + b.x + "," + my + " " + b.x + "," + b.y;
+      var g = el("g", { "class": "lien", "data-preuve": l.preuve });
+      g.appendChild(el("path", { d: d, "class": "lien-halo" }));
+      g.appendChild(el("path", { d: d, "class": "lien-trait", "marker-end": "url(#frise-fleche)" }));
+      var mx = (a.x + b.x) / 2;
+      var txt = el("text", { x: mx, y: my, "class": "lien-nom" });
+      txt.textContent = l.nom;
+      g.appendChild(txt);
+      calque.appendChild(g);
+      var bb = txt.getBBox();
+      g.insertBefore(el("rect", { x: bb.x - 4, y: bb.y - 1, width: bb.width + 8, height: bb.height + 2, "class": "lien-pastille" }), txt);
+    });
   }
 
   function fermer() {
     courant = null;
     panneau.hidden = true;
     reperes.forEach(function (r) { r.classList.remove("jalon-actif"); r.removeAttribute("aria-current"); });
+    mesLiens = []; forces = {};
+    rangerContexte();
   }
 
   function ouvrir(id, focus, defiler) {
     var source = document.getElementById(id);
     if (!source) return;
     var li = lignesCtx.filter(function (l) { return l.firstElementChild.dataset.id === id; })[0];
-    if (li && !actives[li.dataset.categorie]) { actives[li.dataset.categorie] = true; rangerContexte(); }
+    if (li && !actives[li.dataset.categorie]) actives[li.dataset.categorie] = true;
     courant = id;
+    mesLiens = liens.filter(function (l) { return l.c === id || l.j === id; });
+    forces = {};
+    mesLiens.forEach(function (l) { if (l.c !== id) forces[l.c] = true; });
+    rangerContexte();
     fiche.innerHTML = source.innerHTML;
     // couleur du panneau : celle de la catégorie pour un événement de contexte
     if (source.dataset.categorie) panneau.dataset.categorie = source.dataset.categorie; else delete panneau.dataset.categorie;
@@ -243,7 +334,11 @@
   }
 
   reperes.forEach(function (r) {
-    r.addEventListener("click", function (e) { e.preventDefault(); ouvrir(r.dataset.id, false); });
+    // un second clic sur le repère ouvert le désélectionne
+    r.addEventListener("click", function (e) {
+      e.preventDefault();
+      if (courant === r.dataset.id) fermer(); else ouvrir(r.dataset.id, false);
+    });
     // les flèches partent du repère qui a le focus, pas du dernier ouvert
     r.addEventListener("keydown", function (e) {
       if (e.key === "ArrowRight") { e.preventDefault(); decaler(1, true, r.dataset.id); }
@@ -270,6 +365,16 @@
   document.getElementById("frise-suiv").addEventListener("click", function () { decaler(1, false); });
   document.getElementById("frise-fermer").addEventListener("click", fermer);
 
+  // désélection : clic ailleurs que sur un repère, le panneau ou les commandes de la frise, ou Échap
+  document.addEventListener("click", function (e) {
+    if (!courant || !e.target.closest) return;
+    if (e.target.closest(".jalon, .evenement, .frise-detail, .frise-filtres, .frise-legende")) return;
+    fermer();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && courant) fermer();
+  });
+  window.addEventListener("resize", dessiner);
   rangerContexte();
 })();
 </script>

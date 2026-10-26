@@ -24,7 +24,12 @@ voies:
 # Context events (below the axis, shown on request): not innovations, but what
 # explains them. Each event has its own sources.
 #   categorie : reglement | securite | economie | technologie
-#   jalons    : identifiers of the milestones it triggered or ended (optional)
+#   liens     : cause-and-effect links with milestones (optional), each:
+#                 jalon     : milestone identifier
+#                 mecanisme : ouvre | ferme | contourne | transfert | provoque
+#                 preuve    : atteste | etabli | discute | chronologique
+#                 pourquoi  : one sentence, what connects the two and per which source
+#               Method: _features/causalite.md.
 #   sources   : list of { titre, url }
 categories:
   - id: "reglement"
@@ -35,6 +40,42 @@ categories:
     nom: "Economics"
   - id: "technologie"
     nom: "Technology"
+
+# Mechanisms and levels of evidence of the links (see _features/causalite.md).
+mecanismes:
+  - id: "ouvre"
+    nom: "Opens"
+    cote_contexte: "opens the way to"
+    cote_jalon: "made possible by"
+  - id: "ferme"
+    nom: "Closes"
+    cote_contexte: "ends"
+    cote_jalon: "ended by"
+  - id: "contourne"
+    nom: "Circumvents"
+    cote_contexte: "circumvented by"
+    cote_jalon: "circumvents"
+  - id: "transfert"
+    nom: "Transfers"
+    cote_contexte: "inspires"
+    cote_jalon: "borrows from"
+  - id: "provoque"
+    nom: "Provokes"
+    cote_contexte: "provoked by"
+    cote_jalon: "provokes"
+preuves:
+  - id: "atteste"
+    nom: "attested"
+    definition: "the designer or a direct witness states the link"
+  - id: "etabli"
+    nom: "established"
+    definition: "a regulation or a historical source asserts it"
+  - id: "discute"
+    nom: "disputed"
+    definition: "the sources disagree, or the link is indirect"
+  - id: "chronologique"
+    nom: "chronological"
+    definition: "only precedence is established"
 
 jalons:
   - id: "lancia-d50"
@@ -310,7 +351,11 @@ contexte:
     categorie: "technologie"
     titre: "The Mosquito's wing-mounted radiators"
     texte: "The de Havilland Mosquito first flew on 25 November 1940, with its radiators buried in the leading edges of the wings. According to Motor Sport, Tony Rudd, formerly of Rolls-Royce's aero-engine side, recalled that installation when Lotus was deciding where to site the radiators of the future Lotus 78, and the team wind-tunnel-tested sidepods intended to generate downforce."
-    jalons: ["lotus-78"]
+    liens:
+      - jalon: "lotus-78"
+        mecanisme: "transfert"
+        preuve: "atteste"
+        pourquoi: "According to Doug Nye, Tony Rudd, a former Rolls-Royce aero engine man, remembered the Mosquito's radiators when Lotus was looking for where to put those of the Lotus 78."
     sources:
       - titre: "Motor Sport, Doug Nye, “Lotus 78: F1’s first true ground effect car” (February 2020)"
         url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
@@ -321,7 +366,6 @@ contexte:
     categorie: "economie"
     titre: "The first World Championship"
     texte: "On 13 May 1950, the European Grand Prix at Silverstone opened the first World Championship. The favourite, the Alfa Romeo 158, was by then thirteen years old: a pre-war design."
-    jalons: []
     sources:
       - titre: "Formula 1, “10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj"
@@ -330,7 +374,11 @@ contexte:
     categorie: "reglement"
     titre: "The 2.5-litre formula"
     texte: "A new 2.5-litre Formula 1 came into force in 1954. It prompted new cars of sharply contrasting design, among them the Lancia D50 and the Mercedes W196, so different that it was hard to believe they had been built to the same rules."
-    jalons: ["lancia-d50"]
+    liens:
+      - jalon: "lancia-d50"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The D50 was designed for the new 1954 formula, which brought new cars of widely differing designs (Motor Sport, Chris Nixon)."
     sources:
       - titre: "Motor Sport Magazine, Chris Nixon, “Too good for their own good?” (April 2002)"
         url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"
@@ -339,7 +387,11 @@ contexte:
     categorie: "technologie"
     titre: "The Jaguar D-Type and the aircraft monocoque"
     texte: "The Jaguar D-Type, a sports-racing car built from 1954, applied aeronautical techniques, including a monocoque centre section made of aluminium-alloy sheet. Doug Nye lists it among the precursors of the Lotus 25 and notes that the monocoque had been the key structural element of aircraft design for fifty years; at Lotus, Mike Costin, who came from the aircraft industry, advised on how the riveted tub should be assembled."
-    jalons: ["lotus-25"]
+    liens:
+      - jalon: "lotus-25"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "Doug Nye lists the D-Type among the precedents of the Lotus 25, and Mike Costin, who came from the aircraft industry, advised on the riveted construction of the tub."
     sources:
       - titre: "Motor Sport, Doug Nye, “Colin Chapman: chassis pioneer” (March 2022)"
         url: "https://motorsportmagazine.com/archive/article/march-2022/23/colin-chapman-chassis-pioneer"
@@ -352,7 +404,11 @@ contexte:
     categorie: "technologie"
     titre: "Carbon fibre at the Royal Aircraft Establishment"
     texte: "In 1963 W. Watt, L. N. Phillips and W. Johnson developed a process at the Royal Aircraft Establishment, Farnborough, that realised the strength potential of carbon fibre, which the aircraft industry went on to exploit. The link with the McLaren MP4/1 is indirect: John Barnard says the idea of a carbon tub came to him when he saw British Aerospace making the Rolls-Royce RB211 engine cowling from carbon composite."
-    jalons: ["mp4-1"]
+    liens:
+      - jalon: "mp4-1"
+        mecanisme: "transfert"
+        preuve: "discute"
+        pourquoi: "John Barnard says he thought of carbon on seeing British Aerospace make a jet engine cowling in composite; the Farnborough process leads there only indirectly, through the aircraft industry."
     sources:
       - titre: "Wikipedia, “Carbon fibers” (revision of 18 October 2026)"
         url: "https://en.wikipedia.org/wiki/Carbon_fibers"
@@ -365,7 +421,15 @@ contexte:
     categorie: "technologie"
     titre: "Chaparral's wings"
     texte: "In Can-Am and sports-car racing, Jim Hall's Chaparrals ran large strut-mounted wings, adjustable on the move, from 1966, and moved the radiators into side pods. Chris Amon, who drove the winged Ferrari at Spa in 1968, found it surprising that F1 had taken so long when those wings 'obviously worked'; Goodwood says Chapman took his cue from Hall's side radiators for the Lotus 72."
-    jalons: ["ailerons", "lotus-72"]
+    liens:
+      - jalon: "ailerons"
+        mecanisme: "transfert"
+        preuve: "chronologique"
+        pourquoi: "The Chaparrals had carried wings since 1966, as Chris Amon recalls, but no source says Ferrari took its cue from them: only precedence is established."
+      - jalon: "lotus-72"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "Goodwood writes that Chapman borrowed Jim Hall's sidepod radiators for the Lotus 72."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends” (October 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/"
@@ -376,7 +440,11 @@ contexte:
     categorie: "reglement"
     titre: "The 'return to power': the 3-litre formula"
     texte: "In 1966 the capacity of normally aspirated engines doubled to 3 litres; although announced three years earlier, the change found many teams unprepared. With Coventry Climax having withdrawn at the end of 1965, the British teams lacked a proprietary engine, a gap the Cosworth DFV would fill."
-    jalons: ["dfv"]
+    liens:
+      - jalon: "dfv"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The switch to 3 litres and the withdrawal of Coventry Climax left the British teams without an engine sold to all: the DFV filled that gap (David Tremayne)."
     sources:
       - titre: "Motor Sport Magazine, “1966 F1 World Championship” (database, undated)"
         url: "https://www.motorsportmagazine.com/database/championships/f1/1966-f1-world-championship"
@@ -387,7 +455,6 @@ contexte:
     categorie: "securite"
     titre: "Jackie Stewart's Spa crash and safety campaign"
     texte: "At the 1966 Belgian Grand Prix, Jackie Stewart was trapped in his BRM for a long time, soaked in fuel, and with no marshals at hand he was freed by Graham Hill and Bob Bondurant. He went on to campaign for safety, at first with little support from circuit owners or the governing body. On the car itself, he insisted on seat belts in his BRM in 1967, when a rudimentary roll-over bar, mandatory since 1961, was about the only requirement."
-    jalons: []
     sources:
       - titre: "Motor Sport Magazine, “A year of living dangerously” (August 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/august-2010/46/a-year-of-living-dangerously/"
@@ -396,7 +463,11 @@ contexte:
     categorie: "economie"
     titre: "The DFV goes on general sale"
     texte: "For 1968, Lotus lost its exclusive use of the Ford-funded Cosworth DFV; Ford's Walter Hayes judged that the engine would ruin the competition if it were not shared. Matra, entered by Ken Tyrrell, and McLaren were the first customers, and by 1969 two thirds of the field used it. Sold at a price teams could afford, it opened the so-called 'kit car' era, in which teams without their own engine paired their own chassis with a bought-in unit."
-    jalons: ["dfv"]
+    liens:
+      - jalon: "dfv"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The end of Lotus's exclusivity, decided by Walter Hayes at Ford, made the DFV the engine of two thirds of the grid by 1969."
     sources:
       - titre: "Motor Sport, “F1 non-championship races – Part two: the ’60s” (September 2008)"
         url: "https://www.motorsportmagazine.com/archive/article/september-2008/92/f1-non-championship-races-part-two-60s/"
@@ -409,7 +480,6 @@ contexte:
     categorie: "economie"
     titre: "Advertising beyond the motor trade"
     texte: "After long-standing backers such as Esso and BP withdrew, the international sponsorship rules were relaxed at the end of 1967: advertising no longer had to be linked to motoring products. Team Lotus raced in 1968 in the colours of the Gold Leaf cigarette brand, though Motor Sport points out that Team Gunston's Brabhams carried a commercial livery as early as the South African Grand Prix on 1 January 1968. Teams thereby gained funding independent of the motor industry."
-    jalons: []
     sources:
       - titre: "Sports Car Digest, “Gold Leaf Team Lotus: The Deal and the First Glory” (April 2024)"
         url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
@@ -420,7 +490,15 @@ contexte:
     categorie: "reglement"
     titre: "High-mounted wings banned"
     texte: "At the 1969 Spanish Grand Prix both works Lotus 49s crashed heavily when their wings collapsed. The CSI held an emergency meeting during the Monaco weekend and immediately banned unrestricted wings, despite teams arguing that their cars had been designed around them."
-    jalons: ["ailerons"]
+    liens:
+      - jalon: "ailerons"
+        mecanisme: "provoque"
+        preuve: "etabli"
+        pourquoi: "The ban followed directly from the wing failures on both works Lotus 49s at the 1969 Spanish Grand Prix."
+      - jalon: "ailerons"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "The CSI banned non-regulation wings, ending the wings on tall struts."
     sources:
       - titre: "Motor Sport Magazine, “1969 F1 World Championship” (database, undated)"
         url: "https://motorsportmagazine.com/database/championships/1969-f1-world-championship"
@@ -429,7 +507,11 @@ contexte:
     categorie: "technologie"
     titre: "The Chaparral 2J 'sucker car'"
     texte: "In Can-Am, the 1970 Chaparral 2J used two fans driven by an auxiliary engine to draw air from beneath the car, before being thrown out of the series. Sources differ on its link with the Brabham BT46B: Motor Sport presents it as the inspiration and quotes Gordon Murray ('the basic concept, sure, that's where it came from'), while Goodwood considers the influence unclear."
-    jalons: ["bt46b"]
+    liens:
+      - jalon: "bt46b"
+        mecanisme: "transfert"
+        preuve: "discute"
+        pourquoi: "Gordon Murray says the basic concept came from the Chaparral 2J (Motor Sport), but Goodwood considers the influence uncertain."
     sources:
       - titre: "Motor Sport, Adam Cooper, “Vacuum clean-up” (May 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean"
@@ -440,7 +522,11 @@ contexte:
     categorie: "technologie"
     titre: "Imperial College's rolling-road wind tunnel"
     texte: "The wind tunnel at Imperial College, London, had a rolling road designed by John Stollery, formerly Donald Campbell's aerodynamicist, which reproduced the moving ground beneath the model. Aeronautical testing had made do with a fixed floor or a suspended model; it was in this tunnel that Peter Wright, from 1974, carried out the Lotus research that led to the Lotus 78."
-    jalons: ["lotus-78"]
+    liens:
+      - jalon: "lotus-78"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "The rolling road, which reproduces the ground moving under the car, let Peter Wright carry out in this tunnel the research that led to the Lotus 78 (Gordon Kirby, Doug Nye)."
     sources:
       - titre: "Motor Sport, Gordon Kirby, “Lotus’s ground-effect revolution, part one” (October 2015)"
         url: "https://motorsportmagazine.com/articles/history/lotuss-ground-effect-revolution-part-one"
@@ -453,7 +539,11 @@ contexte:
     categorie: "economie"
     titre: "Renault arrives with the turbo"
     texte: "Renault, with its oil partner Elf, entered the RS01 at the 1977 British Grand Prix, using a 1.5-litre turbocharged six-cylinder against naturally aspirated V8s and twelve-cylinder engines. Engine failures were frequent at first, but the RS10 won at Dijon in 1979. In the early 1980s, faced with the power of the turbos, the teams still using the DFV relied on chassis and ground effect."
-    jalons: ["turbo-victoire"]
+    liens:
+      - jalon: "turbo-victoire"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The Dijon win crowned the turbo programme that Renault and Elf launched in 1977, despite the early failures."
     sources:
       - titre: "Renault, The Originals, “Renault RS01” (undated page)"
         url: "https://theoriginals.renault.com/en/f1-rs-01"
@@ -464,7 +554,15 @@ contexte:
     categorie: "technologie"
     titre: "From fly-by-wire controls to active suspension"
     texte: "A Lotus partner since 1976 for instrumenting cars in testing, the Cranfield Institute of Technology was developing synthetic springs for the artificial-feel control column of a fly-by-wire research aircraft. In 1980 Professor David Williams suggested the principle to Peter Wright; it became Lotus's active suspension, raced from 1983 on the Lotus 92. The Williams team's system, by contrast, derived from a road-car system by Automotive Products."
-    jalons: ["lotus-92-active", "active-gagne"]
+    liens:
+      - jalon: "lotus-92-active"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "In 1980, Professor David Williams of Cranfield offered Peter Wright the principle of the synthetic springs designed for a fly-by-wire aircraft (Keith Howard)."
+      - jalon: "active-gagne"
+        mecanisme: "transfert"
+        preuve: "etabli"
+        pourquoi: "The link holds for the Lotus 99T, heir to the Cranfield system; the Williams suspension derived from a road system by Automotive Products."
     sources:
       - titre: "Motor Sport, Keith Howard, “Active suspension” (December 2001)"
         url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
@@ -475,7 +573,6 @@ contexte:
     categorie: "economie"
     titre: "The FISA-FOCA war and the Concorde Agreement"
     texte: "Over the winter of 1980-81, Jean-Marie Balestre's FISA and the constructors' association (FOCA) led by Bernie Ecclestone clashed, against the background of a dispute over aerodynamic skirts. The first Concorde Agreement ended the conflict: Wikipedia dates it to 19 January 1981, Motor Sport to April 1981. The FIA kept the rules, while FOCA gained the exclusive right to negotiate with race organisers, settling the split between sporting power and commercial revenue."
-    jalons: []
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1980s” (May 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
@@ -486,7 +583,19 @@ contexte:
     categorie: "reglement"
     titre: "The end of sliding skirts"
     texte: "To curb ground effect, the 1981 rules banned skirts and imposed a 6 cm ground clearance. Teams immediately set about circumventing the rule: the twin-chassis Lotus 88 was banned before it could race. Skirts, given a reprieve in 1982, disappeared for good with the mandatory flat bottom of 1983."
-    jalons: ["lotus-88", "fond-plat"]
+    liens:
+      - jalon: "lotus-78"
+        mecanisme: "provoque"
+        preuve: "etabli"
+        pourquoi: "According to formula1.com, skirts were banned to limit the gains of the ground effect pioneered by the Lotus 78, as cornering speeds soared."
+      - jalon: "lotus-88"
+        mecanisme: "contourne"
+        preuve: "etabli"
+        pourquoi: "The twin-chassis Lotus 88 tried to keep ground effect in spite of the skirt ban; it was banned before it ever raced."
+      - jalon: "fond-plat"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "The 1983 flat bottom completed what the skirt ban had begun; formula1.com links it to the serious accidents of the 1982 season."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
@@ -495,7 +604,6 @@ contexte:
     categorie: "securite"
     titre: "First mandatory crash test"
     texte: "In 1985 the FIA introduced a first frontal impact test, still a simple one: teams only had to provide a nose and a small part of the chassis. Tests then multiplied (static loads, roll hoops, side and rear structures), and the car's structure now had to pass ever more demanding tests to be homologated."
-    jalons: []
     sources:
       - titre: "FIA, “Breaking the barriers of safety” (May 2013)"
         url: "https://fia.com/node/5643"
@@ -504,7 +612,15 @@ contexte:
     categorie: "reglement"
     titre: "Turbos restricted, then banned"
     texte: "From 1987 turbo boost was limited to 4 bar, then to 2.5 bar in 1988, with 150 litres of fuel instead of 195. In 1989 only 3.5-litre naturally aspirated engines remained legal. Renault returned with the RS1, a 3.5-litre V10 with pneumatic valve springs."
-    jalons: ["turbo-victoire", "v10-renault"]
+    liens:
+      - jalon: "turbo-victoire"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Restricted in 1987 and 1988, turbo engines were banned in 1989: the era opened by the 1979 win came to a close."
+      - jalon: "v10-renault"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The 1989 3.5-litre normally aspirated formula is the one for which Renault returned with its RS1 V10."
     sources:
       - titre: "Motor Sport Magazine, “When F1 had two sets of engine rules, and why that wouldn't work today” (April 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/when-f1-had-two-sets-of-engine-rules-and-why-that-wouldnt-work-today/"
@@ -517,7 +633,19 @@ contexte:
     categorie: "reglement"
     titre: "Driver aids banned"
     texte: "For 1994 the driver aids that had appeared in the early 1990s were banned: active suspension, traction control and anti-lock braking. Teams had to start from a clean sheet of paper and look for grip through aerodynamic and mechanical development."
-    jalons: ["lotus-92-active", "active-gagne", "fw14b"]
+    liens:
+      - jalon: "lotus-92-active"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Active suspension was banned for 1994 along with the other driver aids."
+      - jalon: "active-gagne"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Active suspension was banned for 1994 along with the other driver aids."
+      - jalon: "fw14b"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "The FW14B's active suspension was banned for 1994 along with the other driver aids."
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, “The Past Six New F1 Eras: What Changed and What Happened?” (March 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
@@ -528,7 +656,6 @@ contexte:
     categorie: "securite"
     titre: "Imola 1994: deaths of Ratzenberger and Senna"
     texte: "Roland Ratzenberger and Ayrton Senna were killed at the 1994 San Marino Grand Prix. The FIA moved at once to slow the cars: a shortened diffuser and modified front wings from the Spanish race, then the plank under the floor, which meant raising the whole car. For 1995 the stepped floor cut underbody downforce by as much as 50 per cent by some estimates, while the cockpit was lengthened, its sides raised and the frontal impact test made tougher."
-    jalons: []
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -541,7 +668,6 @@ contexte:
     categorie: "securite"
     titre: "Higher cockpit sides and side headrests"
     texte: "Following cockpit sides already raised in 1995 to cover the drivers' shoulders, the FIA required higher cockpit sides and 75mm side headrests in 1996, with static load tests on the cockpit rim. The driver's head, until then largely exposed, was now surrounded by the car's structure."
-    jalons: []
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -552,7 +678,6 @@ contexte:
     categorie: "technologie"
     titre: "The Toyota Prius, the first mass-produced hybrid"
     texte: "In 1997 Toyota launched the Prius, the first mass-produced hybrid vehicle, which recovers energy lost under braking. Which way the ideas flowed between road and track is disputed: when KERS arrived in 2009, Toyota called it 'primitive' and irrelevant to its road hybrids, whereas formula1.com claimed in 2014 that progress on F1 KERS had filtered down to production hybrids."
-    jalons: []
     sources:
       - titre: "IEEE, Engineering and Technology History Wiki, “Milestones: Toyota Prius, the World's First Mass-Produced Hybrid Vehicle, 1997” (February 2025)"
         url: "https://ethw.org/Milestones:Toyota_Prius,_the_World%27s_First_Mass-Produced_Hybrid_Vehicle,_1997"
@@ -565,7 +690,6 @@ contexte:
     categorie: "securite"
     titre: "HANS becomes mandatory"
     texte: "The HANS head and neck support, conceived by Robert Hubbard and Jim Downing and adapted to single-seaters with help from DaimlerChrysler, became mandatory in F1 in 2003. The FIA acknowledged that it marginally raised the car's centre of gravity and allowed teams to adapt it to their cockpits, subject to its approval."
-    jalons: []
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -578,7 +702,11 @@ contexte:
     categorie: "economie"
     titre: "Honda withdraws, Brawn GP is born"
     texte: "At the end of 2008, at the height of the global economic crisis, Honda left Formula One. Ross Brawn and Nick Fry negotiated a management buyout, with Honda contributing just under £100m. The 2009 car, already developed at Honda, raced as a Brawn with its double diffuser."
-    jalons: ["double-diffuseur"]
+    liens:
+      - jalon: "double-diffuseur"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The management buyout, funded by Honda, let the car developed at Honda race in 2009 under the Brawn name."
     sources:
       - titre: "The Race, Scott Mitchell-Malm, “The last time Honda withdrew from F1 – by those it left behind” (April 2021)"
         url: "https://the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind"
@@ -587,7 +715,6 @@ contexte:
     categorie: "economie"
     titre: "In-season testing ends"
     texte: "In December 2008, days after Honda's withdrawal, the World Motor Sport Council agreed a cost-cutting package with the teams. From 2009, no testing at all was allowed once the season had started, and wind tunnels could no longer take full-scale models, 60 per cent becoming the maximum. The Fridays of race weekends took on new importance for car development."
-    jalons: []
     sources:
       - titre: "Motor Sport, Adam Cooper, “Formula 1 costs slashed for 2009” (February 2009)"
         url: "https://www.motorsportmagazine.com/archive/article/february-2009/12/formula-1-costs-slashed-for-2009/"
@@ -596,7 +723,11 @@ contexte:
     categorie: "reglement"
     titre: "The 2009 aerodynamic overhaul"
     texte: "The 2009 rules removed winglets and other appendages and targeted a 50% reduction in downforce, with a redesigned diffuser. Williams, Brawn and Toyota exploited a loophole in the wording of the regulations to create the 'double diffuser'."
-    jalons: ["double-diffuseur"]
+    liens:
+      - jalon: "double-diffuseur"
+        mecanisme: "contourne"
+        preuve: "etabli"
+        pourquoi: "Williams, Brawn and Toyota each exploited a loophole in the wording of the new aerodynamic rules."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
@@ -607,7 +738,6 @@ contexte:
     categorie: "securite"
     titre: "Jules Bianchi's crash and the Virtual Safety Car"
     texte: "After Jules Bianchi's ultimately fatal crash at the 2014 Japanese Grand Prix, the FIA introduced the Virtual Safety Car in 2015, setting a minimum lap time to force drivers to slow down. The Zylon anti-intrusion panels on the survival cell were also extended up to the cockpit rim, alongside the driver's head."
-    jalons: []
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -616,7 +746,15 @@ contexte:
     categorie: "reglement"
     titre: "The mandatory hybrid power unit"
     texte: "In 2014 the 2.4-litre naturally aspirated V8s gave way to a 1.6-litre V6 turbo combined with two energy recovery systems. Fuel was limited to 100 kg per race and flow to 100 kg/h, making efficiency a central measure of performance."
-    jalons: ["hybride", "rendement-50"]
+    liens:
+      - jalon: "hybride"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "The 2014 rules imposed the hybrid turbo V6; the Mercedes power unit was the dominant answer to them."
+      - jalon: "rendement-50"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "By limiting fuel to 100 kg and flow to 100 kg/h, the rules made efficiency a central performance criterion."
     sources:
       - titre: "Formula1.com, “A racing revolution? Understanding 2014's technical regulations” (January 2014)"
         url: "https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC"
@@ -625,7 +763,6 @@ contexte:
     categorie: "securite"
     titre: "Introduction of the halo"
     texte: "Having researched three types of frontal protection, including a windscreen, the FIA made the halo compulsory in 2018: a three-pronged titanium structure mounted in front of and above the cockpit. Criticised at first for its looks, it ended the fully open cockpit and has since become mandatory in all FIA single-seater championships."
-    jalons: []
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -636,7 +773,6 @@ contexte:
     categorie: "securite"
     titre: "Romain Grosjean's crash in Bahrain"
     texte: "At the 2020 Bahrain Grand Prix, Romain Grosjean's Haas hit the barrier at 192 km/h, pierced it and caught fire; the driver escaped, injured. The FIA investigation found that the survival cell, headrest, HANS and halo had performed to specification, but it launched a review of survival cell front geometry, headrests, and the installation of fuel bladders and their hatches."
-    jalons: []
     sources:
       - titre: "FIA, “FIA concludes investigation into Romain Grosjean's accident at 2020 Bahrain Formula 1 Grand Prix and releases 2021 circuit racing safety initiatives” (March 2021)"
         url: "https://api.fia.com/news/fia-concludes-investigation-romain-grosjeans-accident-2020-bahrain-formula-1-grand-prix-and"
@@ -645,7 +781,6 @@ contexte:
     categorie: "economie"
     titre: "Sliding scale for aero testing"
     texte: "Long unrestricted, aerodynamic development has been rationed since 2021: each team's wind-tunnel and CFD time depends on its position in the previous championship. In 2021 the champions received 90 per cent of the baseline allocation and the tenth-placed team 112.5 per cent; the spread widened to 70 and 115 per cent from 2022. The aim is to cut costs and close up the field."
-    jalons: []
     sources:
       - titre: "Formula 1, Lawrence Barretto, “How F1's new sliding scale aero testing rules work – and what impact they will have on racing” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/how-f1s-new-sliding-scale-aero-testing-rules-work-and-what-impact-they-will.pn0sG8N4A0cjbNRbdYx8a"
@@ -654,7 +789,6 @@ contexte:
     categorie: "economie"
     titre: "The cost cap"
     texte: "In 2021, financial regulations joined the sporting and technical regulations for the first time. They cap annual spending that affects car performance, set at $145m after the pandemic, then $140m and $135m. The cost of development itself becomes a design constraint."
-    jalons: []
     sources:
       - titre: "Formula 1, Lawrence Barretto, “The 2021 F1 cost cap explained – what has changed, and why?” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/the-2021-f1-cost-cap-explained-what-has-changed-and-why.5O1Te8udKLmkUl4PyVZtUJ"
@@ -663,7 +797,6 @@ contexte:
     categorie: "reglement"
     titre: "Ground effect returns"
     texte: "The 2022 rules made the floor the main source of downforce once again, as in the early 1980s. Front and rear wings were redefined, wheel rims grew larger and bargeboards disappeared."
-    jalons: []
     sources:
       - titre: "Mercedes-AMG Petronas F1 Team, “The Past Six New F1 Eras: What Changed and What Happened?” (March 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
@@ -672,7 +805,6 @@ contexte:
     categorie: "economie"
     titre: "Audi and the new engine makers"
     texte: "The first aim of the 2026 power unit rules was to attract new engine makers. Audi took over Sauber and became a works team with its own power unit, Red Bull joined forces with Ford, and Honda returned as a fully fledged manufacturer with Aston Martin. The grid thus has five power unit manufacturers, alongside Mercedes and Ferrari."
-    jalons: []
     sources:
       - titre: "FIA, “F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry” (October 2022)"
         url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"
@@ -683,7 +815,6 @@ contexte:
     categorie: "reglement"
     titre: "The 2026 engine and chassis rules"
     texte: "Unveiled by the FIA in June 2024, the 2026 rules split power evenly between the combustion engine and electrical power, using sustainable fuels. The cars shed 30 kg and gained moveable front and rear wings."
-    jalons: []
     sources:
       - titre: "Formula1.com, “FIA unveils Formula 1 regulations for 2026 and beyond featuring more agile cars and active aerodynamics” (June 2024)"
         url: "https://www.formula1.com/en/latest/article/fia-unveils-formula-1-regulations-for-2026-and-beyond-featuring-more-agile.75qJiYOHXgeJqsVQtDr2UB"

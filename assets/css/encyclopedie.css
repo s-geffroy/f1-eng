@@ -491,6 +491,35 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 }
 .frise-detail-nav button:hover { background: var(--graphite); color: var(--feuille); }
 
+/* Liens de cause à effet : connecteurs de la frise (repère ouvert) et légende.
+   Le mécanisme est écrit sur le connecteur ; la preuve se lit au trait :
+   plein (attesté, établi), tirets (discuté), pointillés (chronologique). */
+.frise-legende { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1rem; margin: 0 0 0.75rem; font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); }
+.frise-legende span { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--graphite); }
+.legende-trait { width: 1.9rem; height: 0.5rem; overflow: visible; }
+.legende-trait line, .lien-trait { fill: none; stroke: var(--graphite); stroke-width: 2; stroke-linecap: round; }
+[data-preuve="discute"] > .lien-trait, .legende-trait line[data-preuve="discute"] { stroke-dasharray: 6 4; }
+[data-preuve="chronologique"] > .lien-trait, .legende-trait line[data-preuve="chronologique"] { stroke-dasharray: 0.5 5; }
+.frise-liens { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; overflow: visible; }
+.lien-halo { fill: none; stroke: var(--feuille); stroke-width: 6; stroke-linecap: round; }
+.frise-liens marker path { fill: var(--graphite); }
+.lien-pastille { fill: var(--feuille); stroke: var(--graphite); stroke-width: 1; }
+.lien-nom { font-family: var(--titre); font-size: 0.875rem; font-weight: 600; fill: var(--graphite); text-anchor: middle; dominant-baseline: central; }
+/* repères reliés au repère ouvert : leur étiquette reste visible */
+.jalon-lie { z-index: 3; }
+.jalon-lie .jalon-etiquette { opacity: 1; }
+.jalon-lie::before { transform: rotate(45deg) scale(1.25); }
+.evenement.jalon-lie .repere-contexte { transform: scale(1.25); }
+
+/* liens dans les fiches : verbe, renvoi, niveau de preuve, puis la justification */
+.liens-causaux { list-style: none; margin: -0.25rem 0 0.75rem; padding: 0; font-size: 0.9375rem; }
+.liens-causaux li { padding: 0.3rem 0 0.3rem 0.75rem; border-left: 2px solid var(--graphite); margin-bottom: 0.35rem; }
+.liens-causaux li[data-preuve="discute"] { border-left-style: dashed; }
+.liens-causaux li[data-preuve="chronologique"] { border-left-style: dotted; }
+.liens-causaux em { font-style: normal; font-family: var(--titre); font-weight: 600; }
+.liens-causaux .preuve { font: 600 0.8125rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mine); border: var(--trait-fin) solid var(--trait); padding: 0.1rem 0.3rem; margin-left: 0.25rem; white-space: nowrap; }
+.liens-causaux small { display: block; color: var(--mine); font-size: 0.875rem; line-height: 1.5; }
+
 /* Liste complète des jalons (et repli sans JavaScript) */
 .jalons { margin-top: 3.5rem; }
 .jalons > h2 { font-size: 1.75rem; margin: 0 0 0.75rem; }

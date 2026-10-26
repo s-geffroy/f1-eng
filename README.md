@@ -186,10 +186,13 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   au-dessus, empiles en rangees (deux reperes a moins de 2 ans changent de rangee).
 - Meme fichier, `contexte` : evenements sous l'axe (reglement, securite,
   economie, technologie), masques au chargement et affiches par categorie.
-  Un evenement = id (ancre #c-<id>), annee, categorie, titre, texte, jalons lies,
+  Un evenement = id (ancre #c-<id>), annee, categorie, titre, texte, liens,
   sources { titre, url }. Chaque evenement a ses propres sources, verifiees par
-  citation. Memes identifiants, annees, categories et jalons en fr et en
-  (controle par outils/verifier.py).
+  citation. Un lien = jalon, mecanisme (ouvre, ferme, contourne, transfert,
+  provoque), preuve (atteste, etabli, discute, chronologique) et pourquoi (une
+  phrase justifiee par les sources) ; methode dans `_dossiers/causalite.md`.
+  Memes identifiants, annees, categories et liens en fr et en (controle par
+  outils/verifier.py).
 - `_data/glossaire.yml` : un terme = id (ancre), terme, definition, premiere
   (facultatif), entrees, sources, motifs. Les motifs servent a lier la premiere
   mention du terme dans chaque entree (`[mot]({{ site.baseurl }}/glossaire/#id)`).

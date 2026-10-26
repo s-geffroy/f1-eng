@@ -22,6 +22,7 @@ fr:
     dossiers: "/dossiers/"
     recherche: "/recherche/"
     methode: "/dossiers/methode/"
+    causalite: "/dossiers/causalite/"
     entrees: "/ingenieurs/"
     voitures: "/voitures/"
     index_recherche: "/recherche.json"
@@ -127,6 +128,8 @@ fr:
     sources: "Sources"
     note: "Chaque jalon reprend des faits sourcés dans les entrées des ingénieurs cités."
     note_contexte: "Chaque événement de contexte a ses propres sources, consultées le 26 octobre 2026."
+    methode_liens: "Comment ces liens de cause à effet sont établis et gradués."
+    legende: "Ouvrez un repère pour voir ses liens de cause à effet. Trait :"
   glossaire:
     titre_page: "Glossaire"
     description: "Les termes techniques de la Formule 1 employés dans l'encyclopédie, définis simplement et sourcés."
@@ -140,9 +143,9 @@ fr:
     consultees: "Sources consultées le 25 octobre 2026."
   dossiers:
     titre_page: "Dossiers"
-    description: "Quatre textes de synthèse sur le classement des ingénieurs de la F1."
+    description: "Cinq textes de synthèse : le classement des ingénieurs de la F1, et le lien entre contexte et innovation."
     titre: "Dossiers"
-    accroche: "Quatre textes de synthèse, à lire dans l'ordre : la méthode, puis le classement tier par tier."
+    accroche: "Cinq textes de synthèse : la méthode, puis le classement tier par tier, et enfin la manière dont la chronologie relie le contexte aux innovations."
     telecharger: "Télécharger la présentation en PDF"
     telecharger_suite: "22 diapositives, de la méthode au classement final, en français."
   recherche:
@@ -193,6 +196,7 @@ en:
     dossiers: "/en/features/"
     recherche: "/en/search/"
     methode: "/en/features/methode/"
+    causalite: "/en/features/causalite/"
     entrees: "/en/engineers/"
     voitures: "/en/cars/"
     index_recherche: "/en/search.json"
@@ -298,6 +302,8 @@ en:
     sources: "Sources"
     note: "Each milestone restates facts sourced in the entries of the engineers listed."
     note_contexte: "Each context event has its own sources, accessed on 26 October 2026."
+    methode_liens: "How these cause-and-effect links are established and graded."
+    legende: "Open a marker to see its cause-and-effect links. Line:"
   glossaire:
     titre_page: "Glossary"
     description: "The Formula 1 technical terms used in the encyclopedia, defined simply and with sources."
@@ -311,9 +317,9 @@ en:
     consultees: "Sources accessed on 25 October 2026."
   dossiers:
     titre_page: "Features"
-    description: "Four overview features on the ranking of F1 engineers."
+    description: "Five overview features: the ranking of F1 engineers, and the link between context and innovation."
     titre: "Features"
-    accroche: "Four overview pieces, best read in order: the method, then the ranking tier by tier."
+    accroche: "Five overview pieces: the method, then the ranking tier by tier, and finally how the timeline links context to innovations."
     telecharger: "Download the presentation (PDF)"
     telecharger_suite: "22 slides, from the method to the final ranking."
   recherche:

@@ -114,15 +114,25 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
         for t in j.get("termes", []) or []:
             if t not in ids_gloss:
                 err(f"{rep_data}/chronologie.yml : jalon {j['id']}, terme « {t} » inconnu")
-    # contexte de la frise : catégorie connue, jalons liés existants, au moins une source
+    # contexte de la frise : catégorie connue, liens complets vers des jalons existants, au moins une source
     ids_cat = {c["id"] for c in (chrono or {}).get("categories", [])}
     ids_jal = {j["id"] for j in (chrono or {}).get("jalons", [])}
+    ids_meca = {m["id"] for m in (chrono or {}).get("mecanismes", [])}
+    ids_preuve = {p["id"] for p in (chrono or {}).get("preuves", [])}
     for c in (chrono or {}).get("contexte", []) or []:
         if c.get("categorie") not in ids_cat:
             err(f"{rep_data}/chronologie.yml : contexte {c['id']}, catégorie « {c.get('categorie')} » inconnue")
-        for j in c.get("jalons", []) or []:
-            if j not in ids_jal:
-                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, jalon « {j} » inconnu")
+        if "jalons" in c:
+            err(f"{rep_data}/chronologie.yml : contexte {c['id']}, ancien champ « jalons » (remplacé par « liens »)")
+        for l in c.get("liens", []) or []:
+            if l.get("jalon") not in ids_jal:
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, jalon « {l.get('jalon')} » inconnu")
+            if l.get("mecanisme") not in ids_meca:
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, mécanisme « {l.get('mecanisme')} » inconnu")
+            if l.get("preuve") not in ids_preuve:
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, preuve « {l.get('preuve')} » inconnue")
+            if not l.get("pourquoi"):
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, lien vers {l.get('jalon')} sans « pourquoi »")
         if not c.get("sources"):
             err(f"{rep_data}/chronologie.yml : contexte {c['id']} sans source")
     for t in gloss or []:
@@ -173,14 +183,16 @@ if "fr" in ids_par_langue and "en" in ids_par_langue:
     for orphelin in sorted(ids_par_langue["en"] - ids_par_langue["fr"]):
         err(f"en : {orphelin} n'existe pas en français")
 
-# 5 bis. contexte de la frise : mêmes événements dans les deux langues
+# 5 bis. contexte de la frise : mêmes événements, et mêmes liens (jalon, mécanisme, preuve), dans les deux langues
 _cf = {c["id"]: c for c in (charger_yaml("_data/chronologie.yml") or {}).get("contexte", []) or []}
 _ce = {c["id"]: c for c in (charger_yaml("_data/en/chronologie.yml") or {}).get("contexte", []) or []}
 for m in sorted(set(_cf) ^ set(_ce)):
     err(f"contexte « {m} » présent dans une seule langue")
+def _liens(c):
+    return [(l.get("jalon"), l.get("mecanisme"), l.get("preuve")) for l in c.get("liens") or []]
 for m in sorted(set(_cf) & set(_ce)):
-    if (_cf[m]["annee"], _cf[m]["categorie"], _cf[m].get("jalons")) != (_ce[m]["annee"], _ce[m]["categorie"], _ce[m].get("jalons")):
-        err(f"contexte « {m} » : année, catégorie ou jalons différents entre fr et en")
+    if (_cf[m]["annee"], _cf[m]["categorie"], _liens(_cf[m])) != (_ce[m]["annee"], _ce[m]["categorie"], _liens(_ce[m])):
+        err(f"contexte « {m} » : année, catégorie ou liens différents entre fr et en")
 
 # 6. synchronisation : une traduction plus ancienne que son original français est signalée
 #    (date du dernier commit qui touche le fichier ; date du fichier s'il a des modifications non commitées)
