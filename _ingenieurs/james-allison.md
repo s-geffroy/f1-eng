@@ -34,6 +34,6 @@ James Allison est un aérodynamicien formé chez Benetton, devenu directeur tech
 ## Le DAS (2020)
 
 - En essais d'hiver 2020, Mercedes fait apparaître le DAS, un volant qui se tire et se pousse. Allison le décrit comme « une dimension supplémentaire pour la direction, pour le pilote » et juge le règlement « assez clair » sur ce qui est permis.
-- Selon The Race, Mercedes voulait l'introduire dès 2019 : la FIA admet le principe, mais refuse une commande par levier et exige que le volant entier se déplace. C'est le concepteur en chef John Owen et son équipe de conception mécanique qui en dessinent la version définitive ; Allison le dit « très inventif ». Le système court en 2020 avant d'être interdit pour 2021.
+- Selon The Race, Mercedes voulait l'introduire dès 2019 : la FIA admet le principe, mais refuse une commande par levier et exige que le volant entier se déplace. C'est le chef designer John Owen et son équipe de conception mécanique qui en dessinent la version définitive ; Allison le dit « très inventif ». Le système court en 2020 avant d'être interdit pour 2021.
 
 Le DAS est donc un travail d'équipe : Allison le présente et en porte le principe auprès de la FIA ; la solution mécanique revient au groupe de John Owen.

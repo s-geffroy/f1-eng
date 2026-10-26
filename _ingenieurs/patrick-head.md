@@ -28,7 +28,7 @@ consultation: "25 octobre 2026"
 image: "/assets/partage/patrick-head.jpg"
 redirect_from: "/ingenieurs/2026/10/25/patrick-head.html"
 ---
-## Ce qu'il a construit
+## Ce qu'il a changé
 
 Patrick Head est l'architecte de l'organisation technique Williams. Diplômé en génie mécanique de l'University College London en 1970, il entre peu après chez Lola. En 1977, il fonde Williams Grand Prix Engineering avec Frank Williams et prend la tête du bureau d'études.
 

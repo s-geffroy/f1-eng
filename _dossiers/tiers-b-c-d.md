@@ -23,7 +23,7 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 **Forghieri** est l'ingénieur complet : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
 
-**Wright** occupe une place élevée qui corrige un biais historique fréquent : Formula 1 relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions, puis de la Lotus 79, esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
+**Wright** occupe une place élevée qui corrige un biais historique fréquent : formula1.com relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions, puis de la Lotus 79, esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
 
 **Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 

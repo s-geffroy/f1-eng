@@ -40,7 +40,7 @@ La contribution la plus structurante de Ross Brawn relève de la **méthode**. L
 ## Parcours technique
 
 - **Williams** : aérodynamicien, très impliqué dans la conception aérodynamique de la FW07 (1979).
-- **Arrows** : après la fermeture de l'équipe FORCE fin 1986, il devient concepteur en chef d'Arrows.
+- **Arrows** : après la fermeture de l'équipe FORCE fin 1986, il devient chef designer d'Arrows.
 - **TWR** (1989) : il conçoit la Jaguar XJR-14, première voiture de sport dotée d'une technologie de F1 de pointe.
 - **Benetton** : directeur technique à partir de l'automne 1991. La voiture de 1994 est mise en chantier dès le début de 1993, ce qui était, selon Brawn, « presque du jamais vu » à l'époque.
 - **Ferrari** : directeur technique à partir de décembre 1996, pendant les années de titres.

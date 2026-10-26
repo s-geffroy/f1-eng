@@ -40,13 +40,13 @@ These concentrated masses give it a low [polar moment of inertia]({{ site.baseur
 
 ## Who designed it
 
-[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), in charge of the engine, disputes this attribution: Jano led the team but was not “the designer”; in his view, no one person was solely responsible for the overall design, the major choices came out of collective discussions, and it was [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) who made the final decisions. Chris Nixon adds that several innovations came from Gianni Lancia himself. This site therefore describes it as a team achievement, led by Jano.
+[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), in charge of the engine, disputes this attribution: Jano led the team but was not "the designer"; in his view, no one person was solely responsible for the overall design, the major choices came out of collective discussions, and it was [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) who made the final decisions. Chris Nixon adds that several innovations came from Gianni Lancia himself. This site therefore describes it as a team achievement, led by Jano.
 
 ## Limitations
 
 - The early days were laborious: the chassis had to be stiffened against torsion, and the oil circulation was at first so poor that the V8 lasted only four or five laps.
 - Agile as it was, the car gave little warning: drivers could barely feel the loss of grip coming.
-- Power rose as development went on, from about 250 hp to some 275 hp according to Doug Nye (Motor Sport); Chris Nixon gives 260 hp at 8,000 rpm.
+- Power rose as development went on, from about 250hp to some 275hp according to Doug Nye (Motor Sport); Chris Nixon gives 260hp at 8000rpm.
 
 ## Legacy
 

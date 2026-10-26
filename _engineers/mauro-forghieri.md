@@ -42,19 +42,19 @@ On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engine
 
 One guiding idea links his cars of the 1970s: **[centralising the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses)** to improve turn-in response.
 
-- On the 1974 **312B3**, the cockpit and fuel tank were moved 13 cm forward within the wheelbase.
-- The 1975 **312T** introduced the **[transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale)**, which Formula 1 presents as a first in F1, later adopted by the whole grid; according to Motor Sport, Forghieri was partly following a path opened in 1972 by Tyrrell and March.
+- On the 1974 **312B3**, the cockpit and fuel tank were moved 13cm forward within the wheelbase.
+- The 1975 **312T** introduced the **[transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale)**, which formula1.com presents as a first in F1, later adopted by the whole grid; according to Motor Sport, Forghieri was partly following a path opened in 1972 by Tyrrell and March.
 - The 312T family won three drivers' titles and four constructors' titles.
 
 ## Other milestones
 
-- At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position. Formula 1 points out, however, that others had used wings before him.
+- At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position. formula1.com points out, however, that others had used wings before him.
 - He designed Ferrari's first turbocharged F1 engine, in 1981.
 - From 1987, he ran the technical side of Lamborghini Engineering, whose V12 raced in F1 from 1989.
 
 ## Attribution
 
-The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: Formula 1 specifies that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
+The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: formula1.com specifies that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
 
 ## Why Tier B
 

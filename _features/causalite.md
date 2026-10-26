@@ -33,7 +33,7 @@ The same event does not always act in the same way. The timeline distinguishes s
 | **Provokes** | the other way round: the innovation brings about the rule | ground effect, which led to the skirt ban |
 | **Triggers** | one context event brings about another, with no innovation in between | Imola 1994 and the HANS; Imola 1994 and the raised cockpit sides of 1996 |
 
-“Provokes” is a reminder that the rules are not an external given: they react to the cars as much as they shape them. “Triggers” mostly links accidents to the safety measures that follow them: on the timeline, these links stay below the axis, from one context event to another.
+"Provokes" is a reminder that the rules are not an external given: they react to the cars as much as they shape them. "Triggers" mostly links accidents to the safety measures that follow them: on the timeline, these links stay below the axis, from one context event to another.
 
 ## Four levels of evidence
 
@@ -51,7 +51,7 @@ Every link on the timeline carries a sentence saying **why** it exists; its sour
 Ground effect shows four of these mechanisms following one another over six years.
 
 1. **Transfers**: the [rolling-road wind tunnel]({{ site.baseurl }}/en/timeline/#c-imperial-tapis-roulant) at Imperial College lets [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) study the underbody; the Mosquito's radiators suggest the sidepods. The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) races in 1977.
-2. **Provokes**: faced with soaring cornering speeds and g-forces, the 1981 rules [ban skirts]({{ site.baseurl }}/en/timeline/#c-fin-des-jupes) and impose a 6 cm ground clearance.
+2. **Provokes**: faced with soaring cornering speeds and g-forces, the 1981 rules [ban skirts]({{ site.baseurl }}/en/timeline/#c-fin-des-jupes) and impose a 6cm ground clearance.
 3. **Circumvents**: the twin-chassis [Lotus 88]({{ site.baseurl }}/en/timeline/#j-lotus-88) tries to keep ground effect in spite of the rule; it is banned before it ever races.
 4. **Closes**: after a 1982 season marred by serious accidents, the mandatory [flat bottom]({{ site.baseurl }}/en/timeline/#j-fond-plat) of 1983 ends the ground-effect cars.
 
@@ -67,11 +67,11 @@ Forty years later, the 2022 rules give the floor of the car the main role again:
 
 Accessed 26 October 2026. The sources for each context event are listed on its card, on the [timeline]({{ site.baseurl }}/en/timeline/).
 
-- Formula1.com, “Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms” (February 2017): <https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU>
-- Motor Sport, Nigel Roebuck, “1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends” (October 1998): <https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/>
-- Goodwood, Damien Smith, “Winging it: When F1 really started to fly” (March 2025): <https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/>
-- Motor Sport, Adam Cooper, “Vacuum clean-up” (May 1998): <https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean>
-- Goodwood, Russell Campbell, “Too fast for Formula 1: the Brabham BT46B fan car” (May 2025): <https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/>
-- Motor Sport, James Elson, “John Barnard remembers his McLaren MP4/1 eureka moment” (September 2021): <https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment>
-- Motor Sport, Doug Nye, “Lotus 78: F1’s first true ground effect car” (February 2020): <https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
-- Motor Sport Magazine, Chris Nixon, “Too good for their own good?” (April 2002): <https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/>
+- Formula1.com, "Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms" (February 2017): <https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU>
+- Motor Sport, Nigel Roebuck, "1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends" (October 1998): <https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/>
+- Goodwood, Damien Smith, "Winging it: When F1 really started to fly" (March 2025): <https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/>
+- Motor Sport, Adam Cooper, "Vacuum clean-up" (May 1998): <https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean>
+- Goodwood, Russell Campbell, "Too fast for Formula 1: the Brabham BT46B fan car" (May 2025): <https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/>
+- Motor Sport, James Elson, "John Barnard remembers his McLaren MP4/1 eureka moment" (September 2021): <https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment>
+- Motor Sport, Doug Nye, "Lotus 78: F1’s first true ground effect car" (February 2020): <https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
+- Motor Sport Magazine, Chris Nixon, "Too good for their own good?" (April 2002): <https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/>

@@ -2,7 +2,7 @@
 title: "Ferrari 640"
 nom_tri: "ferrari 640"
 accroche: "Gear changes on the steering wheel, born of a packaging problem."
-description: "Ferrari 640 (1989): the first semi-automatic gearbox operated by paddles on the steering wheel won on its debut; according to Formula 1, the whole grid had adopted it by the mid-1990s."
+description: "Ferrari 640 (1989): the first semi-automatic gearbox operated by paddles on the steering wheel won on its debut; according to formula1.com, the whole grid had adopted it by the mid-1990s."
 annee: 1989
 equipe: "Scuderia Ferrari"
 moteur: "Ferrari 3.5-litre naturally aspirated V12"
@@ -54,4 +54,4 @@ The 640 rarely finished its races. The gearbox took the blame, but according to 
 
 - **1989**: Mansell won the first race, in Brazil, to general surprise, then in Hungary; Gerhard Berger won in Portugal. Ferrari finished third in the constructors' standings.
 - In 1990 the 641, lightly revised, narrowly missed the title with Alain Prost.
-- According to Formula 1, every team was using a semi-automatic gearbox by the mid-1990s.
+- According to formula1.com, every team was using a semi-automatic gearbox by the mid-1990s.

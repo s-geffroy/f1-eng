@@ -41,7 +41,7 @@ image: "/assets/partage/en/voitures/benetton-b194.jpg"
 
 For 1994 the FIA banned driver aids: active suspension and [traction control]({{ site.baseurl }}/en/glossary/#antipatinage) were gone. According to Motor Sport, teams started from a clean sheet and looked for grip through aerodynamics and mechanical development. In-race [refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement) returned at the same time, opening up new strategies.
 
-What set the B194 apart was first of all its timing. "We started designing the 1994 car at the beginning of 1993," Ross Brawn told Formula 1, which was then "almost unheard of". In Motor Sport he places the start as soon as the 1993 car was finished, with one aim: "a quantum leap" in performance. The 1993 car had active suspension; the 1994 car returned to passive suspension.
+What set the B194 apart was first of all its timing. "We started designing the 1994 car at the beginning of 1993," Ross Brawn told formula1.com, which was then "almost unheard of". In Motor Sport he places the start as soon as the 1993 car was finished, with one aim: "a quantum leap" in performance. The 1993 car had active suspension; the 1994 car returned to passive suspension.
 
 Brawn describes it as "a very, very light car": the team could place ballast very low to lower the centre of gravity, an idea he calls "not original, but very important". The engine was a V8, not a V10. Brawn calls it "a lovely little engine", valued for driveability, size and packaging rather than outright power. Goodwood, by contrast, finds it heavy and underpowered, to the point of holding the car back. According to Autosport, it repeatedly broke crankshafts in winter testing, leaving the team short of reliable mileage.
 

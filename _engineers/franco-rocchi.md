@@ -36,4 +36,4 @@ Franco Rocchi spent some twenty-five years in Ferrari's racing department, in a 
 
 ## Attribution of the flat-12
 
-Formula 1 presents the flat-12 as created by Forghieri "in cooperation" with Rocchi; Forghieri's obituary published by Formula 1 goes further, saying that Forghieri tasked Rocchi with creating it. The two names go together.
+formula1.com presents the flat-12 as created by Forghieri "in cooperation" with Rocchi; Forghieri's obituary published by formula1.com goes further, saying that Forghieri tasked Rocchi with creating it. The two names go together.

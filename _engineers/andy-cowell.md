@@ -29,11 +29,11 @@ sources:
 consultation: "25 October 2026"
 image: "/assets/partage/en/andy-cowell.jpg"
 ---
-## What he achieved
+## What he changed
 
 The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride)** is a case of exceptional systems execution. From 2014 to 2020, Cowell oversaw the production of these hybrid V6 engines.
 
-- **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V. As Cowell put it, “there was nothing that said it couldn't be done, it was just that it hadn't been done”.
+- **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V. As Cowell put it, "there was nothing that said it couldn't be done, it was just that it hadn't been done".
 - **Efficiency.** The first Mercedes turbo-hybrid engine of 2014 reached a thermal efficiency of 44%; in 2017 it passed the 50% mark on the dyno for the first time.
 - **Results.** His power units won six consecutive doubles (2014-2019), drivers' and constructors' titles, for Mercedes.
 
@@ -41,7 +41,7 @@ The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glo
 
 - A mechanical engineer educated at Lancaster University, he began at **Cosworth**.
 - In 2000 he moved to **BMW Motorsport**, where he played a key role in designing the engine used by Williams until 2001.
-- In 2004 he joined **Mercedes-Ilmor**, became director of engineering, then managing director of Mercedes AMG High Performance Powertrains (2013 according to Formula 1).
+- In 2004 he joined **Mercedes-Ilmor**, became director of engineering, then managing director of Mercedes AMG High Performance Powertrains (2013 according to formula1.com).
 - His departure from Mercedes was announced in June 2020; he stayed on for a time as a consultant to the team. He then led Aston Martin F1 as team principal and CEO, before handing the team principal role to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) for 2026 and becoming chief strategy officer.
 
 ## Integration with the chassis

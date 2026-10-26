@@ -52,4 +52,4 @@ The split turbo was, according to Motorsport.com, a layout fraught with complica
 ## Legacy
 
 - **2014**: sixteen wins in nineteen Grands Prix and eighteen pole positions. Lewis Hamilton became world champion after a season-long fight with his team-mate Nico Rosberg, and Mercedes won the constructors' title.
-- Costa's design group then dominated the hybrid era: five constructors' titles and five drivers' titles from 2014 to 2018, according to Formula 1.
+- Costa's design group then dominated the hybrid era: five constructors' titles and five drivers' titles from 2014 to 2018, according to formula1.com.

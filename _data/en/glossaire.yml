@@ -95,8 +95,8 @@
   terme: "Monocoque"
   motifs:
   - "monocoque"
-  definition: "“Single shell”: instead of hanging the mechanical components on a frame of tubes, a closed shell is made to carry the loads, first in riveted sheet metal as in aviation, then in composites. The structure gains stiffness for less weight. Today the monocoque is the driver's survival cell."
-  premiere: "Lotus 25, 1962 (Colin Chapman spoke rather of a “bathtub”)."
+  definition: "\"Single shell\": instead of hanging the mechanical components on a frame of tubes, a closed shell is made to carry the loads, first in riveted sheet metal as in aviation, then in composites. The structure gains stiffness for less weight. Today the monocoque is the driver's survival cell."
+  premiere: "Lotus 25, 1962 (Colin Chapman spoke rather of a \"bathtub\")."
   entrees:
   - "colin-chapman"
   - "john-barnard"
@@ -222,7 +222,7 @@
   motifs:
   - "transverse gearbox"
   definition: "The gearbox shafts are placed across the car rather than in line behind the engine. The gearbox sits ahead of the rear axle, which brings the weight closer to the centre and improves directional response."
-  premiere: "Ferrari 312T, 1975, according to Formula 1; Motor Sport points to a path opened in 1972 by Tyrrell and March."
+  premiere: "Ferrari 312T, 1975, according to formula1.com; Motor Sport points to a path opened in 1972 by Tyrrell and March."
   entrees:
   - "mauro-forghieri"
   sources:
@@ -479,7 +479,7 @@
   terme: KERS
   motifs:
   - KERS
-  definition: 'Kinetic energy recovery system: under braking, a motor-generator converts part of the energy into electricity, which is stored and given back to the driver as extra power. Allowed in 2009, then limited to 60 kW for 6.6 seconds a lap, it preceded the 2014 hybrid power unit.'
+  definition: 'Kinetic energy recovery system: under braking, a motor-generator converts part of the energy into electricity, which is stored and given back to the driver as extra power. Allowed in 2009, then limited to 60kW for 6.6 seconds a lap, it preceded the 2014 hybrid power unit.'
   premiere: '2009.'
   entrees:
   - andy-cowell
@@ -504,7 +504,7 @@
   terme: Inerter
   motifs:
   - inerter
-  definition: A suspension element in which a plunger turns a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends; combined with springs and dampers, it reduces oscillations. Conceived in 1997 by Malcolm Smith at Cambridge, it first raced at McLaren as the “J-damper”, then became standard equipment until it was banned in 2022.
+  definition: A suspension element in which a plunger turns a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends; combined with springs and dampers, it reduces oscillations. Conceived in 1997 by Malcolm Smith at Cambridge, it first raced at McLaren as the "J-damper", then became standard equipment until it was banned in 2022.
   premiere: McLaren, 2005.
   entrees: []
   sources:

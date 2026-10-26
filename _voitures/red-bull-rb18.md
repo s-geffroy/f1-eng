@@ -43,7 +43,7 @@ image: "/assets/partage/voitures/red-bull-rb18.jpg"
 
 En 2022, le règlement ramène les voitures à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) : l'[appui]({{ site.baseurl }}/glossaire/#appui) vient surtout de deux tunnels en [venturi]({{ site.baseurl }}/glossaire/#venturi) creusés sous le plancher, de part et d'autre d'une quille centrale. La RB18 est la réponse de Red Bull, et son avantage est d'abord invisible.
 
-Selon Formula 1, la clé de ce règlement n'est pas l'appui maximal dans les virages rapides, quand la voiture est plaquée au sol, mais celui qu'elle garde dans les virages lents, quand elle est plus haute. Les autres équipes donnent à la quille centrale une forme de goutte d'eau. Celle de la RB18 est irrégulière, et le plafond de ses tunnels est plus haut et plus arrondi : l'écoulement garde un volume plus constant sur toute leur longueur. L'appui maximal est en théorie plus faible ; selon les relevés GPS, la Ferrari et la Mercedes en ont davantage dans les virages rapides. Mais le plancher décroche beaucoup moins et tolère les variations de hauteur. La RB18 n'a jamais été sérieusement gênée par le marsouinage, ces rebonds observés sur d'autres voitures.
+Selon formula1.com, la clé de ce règlement n'est pas l'appui maximal dans les virages rapides, quand la voiture est plaquée au sol, mais celui qu'elle garde dans les virages lents, quand elle est plus haute. Les autres équipes donnent à la quille centrale une forme de goutte d'eau. Celle de la RB18 est irrégulière, et le plafond de ses tunnels est plus haut et plus arrondi : l'écoulement garde un volume plus constant sur toute leur longueur. L'appui maximal est en théorie plus faible ; selon les relevés GPS, la Ferrari et la Mercedes en ont davantage dans les virages rapides. Mais le plancher décroche beaucoup moins et tolère les variations de hauteur. La RB18 n'a jamais été sérieusement gênée par le marsouinage, ces rebonds observés sur d'autres voitures.
 
 La suspension va dans le même sens. Red Bull, comme McLaren, inverse son montage : tirants à l'avant, poussoirs à l'arrière. À l'avant, la géométrie est anti-plongée : elle limite la plongée au freinage, donc la remontée de l'arrière et la perte d'appui qui l'accompagne. À l'arrière, un grand débattement laisse la voiture s'abaisser à haute vitesse, ce qui réduit la traînée et lui donne un avantage constant en ligne droite. Il faut pour cela des ressorts plutôt souples ; sur d'autres voitures, ils provoqueraient des rebonds.
 
@@ -53,11 +53,11 @@ Pour Honda, son trait principal est ailleurs : des pontons profondément creusé
 
 Une équipe technique, mais les sources ne s'accordent pas sur la part d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), alors directeur technique en chef :
 
-- selon Formula 1, en novembre 2022, Newey nourrit le travail d'un groupe qui comprend le directeur technique Pierre Waché, le responsable de l'aérodynamique Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse et Paul Monaghan ; sa contribution directe au dessin se limite à la suspension, pièce décisive de l'ensemble ;
-- selon Formula 1, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut délivrer l'appui de façon fiable ;
+- selon formula1.com, en novembre 2022, Newey nourrit le travail d'un groupe qui comprend le directeur technique Pierre Waché, le responsable de l'aérodynamique Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse et Paul Monaghan ; sa contribution directe au dessin se limite à la suspension, pièce décisive de l'ensemble ;
+- selon formula1.com, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut délivrer l'appui de façon fiable ;
 - Honda parle d'un développement « mené par » Newey, et Motor Sport d'une équipe « dirigée par » lui.
 
-Les deux articles de Formula 1 s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher.
+Les deux articles de formula1.com s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher.
 
 ## Limites
 
@@ -65,5 +65,5 @@ En début de saison, la RB18 est bien au-dessus du poids minimum, surtout à l'a
 
 ## Ce qu'elle laisse
 
-- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon Formula 1 ; Honda avance un total de dix-neuf, que ne retiennent ni Formula 1 ni Motor Sport. Verstappen est champion du monde ; Red Bull remporte le titre des constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari.
-- Le moteur est un Honda : le constructeur, qui a officiellement quitté la F1 fin 2021, le développe et le fabrique, mais sous le nom RBPTH001, sans la mention Honda. C'est une évolution du RA621H de 2021 ; Formula 1 le désigne d'ailleurs sous ce nom de RA621.
+- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon formula1.com ; Honda avance un total de dix-neuf, que ne retiennent ni formula1.com ni Motor Sport. Verstappen est champion du monde ; Red Bull remporte le titre des constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari.
+- Le moteur est un Honda : le constructeur, qui a officiellement quitté la F1 fin 2021, le développe et le fabrique, mais sous le nom RBPTH001, sans la mention Honda. C'est une évolution du RA621H de 2021 ; formula1.com le désigne d'ailleurs sous ce nom de RA621.

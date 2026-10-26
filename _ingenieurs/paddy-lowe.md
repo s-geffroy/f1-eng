@@ -35,11 +35,11 @@ consultation: "25 octobre 2026"
 image: "/assets/partage/paddy-lowe.jpg"
 redirect_from: "/ingenieurs/2026/10/25/paddy-lowe.html"
 ---
-## Ce qu'il a apporté
+## Ce qu'il a changé
 
 Paddy Lowe est un ingénieur systèmes et électronique de premier plan. Il entre chez Williams à l'automne 1987 comme co-responsable de l'électronique.
 
-- **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active).** Formula 1 le crédite d'avoir écrit et développé l'essentiel du logiciel qui fait fonctionner la suspension active Williams. Motor Sport le présente comme le chef de projet de la suspension active. Le système mène Nigel Mansell au titre de 1992 sur la FW14B.
+- **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active).** formula1.com le crédite d'avoir écrit et développé l'essentiel du logiciel qui fait fonctionner la suspension active Williams. Motor Sport le présente comme le chef de projet de la suspension active. Le système mène Nigel Mansell au titre de 1992 sur la FW14B.
 - **L'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage).** Selon Lowe lui-même, l'équipe a aussi mis au point l'antipatinage, qui valait une seconde au tour.
 
 ## Parcours technique

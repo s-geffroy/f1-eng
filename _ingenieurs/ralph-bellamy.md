@@ -33,6 +33,6 @@ Ralph Bellamy est le concepteur qui **dessine la Lotus 78**, première F1 à [ef
 - **Fittipaldi.** Il conçoit la F6 de 1979, avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) souples en Kevlar et une coque étroite en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium ; selon lui, la voiture est minée par ses roulements de roue.
 - **Lola.** Il travaille avec Eric Broadley sur la F1 engagée par l'équipe Larrousse Calmels.
 
-## Divergence entre sources
+## Divergences entre sources
 
 GrandPrix.com le fait travailler chez McLaren dès 1970, sur la M14 ; Motor Sport le fait arriver au début de 1971.

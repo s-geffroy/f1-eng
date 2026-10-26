@@ -35,7 +35,7 @@ Pat Symonds fait toute la première partie de sa carrière dans l'équipe d'Enst
 
 ## Témoin d'Imola 1994
 
-En 1994, Symonds dirige la recherche et le développement de Benetton. Interrogé par Formula 1 en 2019, il décrit la réponse qui suit Imola :
+En 1994, Symonds dirige la recherche et le développement de Benetton. Interrogé par formula1.com en 2019, il décrit la réponse qui suit Imola :
 
 - le premier travail n'est pas de rendre les voitures plus sûres, mais de les **ralentir** : diffuseur raccourci, dérives d'aileron avant modifiées, puis planche sous le fond ;
 - viennent ensuite des câbles de retenue des roues, « pour empêcher les roues de s'envoler lors d'un choc », et des essais de choc dont les vitesses ne cessent d'augmenter ;

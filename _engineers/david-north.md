@@ -59,7 +59,7 @@ In 2021, Murray gave Motor Sport his own division of labour: he says he put Nich
 
 The gearbox remains Murray's project: Autosport writes that nobody disputes it. North was one of its designers, not the author of the concept.
 
-## Source discrepancies
+## Where sources disagree
 
 - **Joining Brabham**: in 1976 according to Joe Saward; in 1978 according to [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who writes that Murray was on his own in the Brabham design office from 1972 until North joined him; OldRacingCars only lists him at Brabham from 1979 to 1987.
 - **Joining McLaren**: Autosport writes that Murray brought him in from Brabham, without the Ralt spell reported in both GrandPrix.com pieces.

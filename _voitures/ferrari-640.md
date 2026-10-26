@@ -2,7 +2,7 @@
 title: "Ferrari 640"
 nom_tri: "ferrari 640"
 accroche: "La boîte au volant, née d'un problème d'encombrement."
-description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; selon Formula 1, toute la F1 l'adopte au milieu des années 1990."
+description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; selon formula1.com, toute la F1 l'adopte au milieu des années 1990."
 annee: 1989
 equipe: "Scuderia Ferrari"
 moteur: "Ferrari V12 atmosphérique de 3,5 litres"
@@ -54,4 +54,4 @@ La 640 finit rarement ses courses. On accuse la boîte, mais selon Barnard, bien
 
 - **1989** : Mansell gagne la première course, au Brésil, à la surprise générale, puis en Hongrie ; Gerhard Berger gagne au Portugal. Ferrari finit troisième chez les constructeurs.
 - En 1990, la 641, légèrement retouchée, manque de peu le titre avec Alain Prost.
-- Selon Formula 1, la boîte semi-automatique équipe toutes les équipes au milieu des années 1990.
+- Selon formula1.com, la boîte semi-automatique équipe toutes les équipes au milieu des années 1990.

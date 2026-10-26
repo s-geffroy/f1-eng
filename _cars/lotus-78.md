@@ -27,7 +27,7 @@ image: "/assets/partage/en/voitures/lotus-78.jpg"
 ---
 ## What it changed
 
-According to Formula 1, the 1977 Lotus 78 brought F1 into the era of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). Its sidepods no longer merely housed the radiators: the position and angle of the radiators, and the shape of the fuel tanks alongside them, formed a [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel inside. The car became an [inverted wing]({{ site.baseurl }}/en/glossary/#voiture-aile), with a [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) at the exit of the sidepods.
+According to formula1.com, the 1977 Lotus 78 brought F1 into the era of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). Its sidepods no longer merely housed the radiators: the position and angle of the radiators, and the shape of the fuel tanks alongside them, formed a [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel inside. The car became an [inverted wing]({{ site.baseurl }}/en/glossary/#voiture-aile), with a [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) at the exit of the sidepods.
 
 To seal this channel, it was presented with brushes, then raced with rigid nylon [skirts]({{ site.baseurl }}/en/glossary/#jupes). The tub was light and stiff, thanks to aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) sandwich panels.
 
@@ -43,7 +43,7 @@ A team, which Motor Sport describes in detail:
 - [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) led the aerodynamics;
 - [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed the suspension and the other "moving parts".
 
-Formula 1 credits the design to Bellamy and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}); this site credits Southgate with a role in development. Ground effect remains a collective achievement.
+formula1.com credits the design to Bellamy and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}); this site credits Southgate with a role in development. Ground effect remains a collective achievement.
 
 ## Limitations
 

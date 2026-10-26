@@ -35,11 +35,11 @@ image: "/assets/partage/en/voitures/mclaren-mp4-24.jpg"
 ---
 ## What it changed
 
-The MP4-24 was McLaren's car for the first season of [KERS]({{ site.baseurl }}/en/glossary/#kers), allowed from 2009. The system recovered energy under braking, stored it for a lap and released it when the driver pressed a button on the steering wheel. The rules capped the boost at 80 bhp for 6.6 seconds per lap according to Formula 1; McLaren's press pack gives 400 kJ and 6.7 seconds. McLaren expected 0.3 to 0.5 seconds per lap from it.
+The MP4-24 was McLaren's car for the first season of [KERS]({{ site.baseurl }}/en/glossary/#kers), allowed from 2009. The system recovered energy under braking, stored it for a lap and released it when the driver pressed a button on the steering wheel. The rules capped the boost at 80bhp for 6.6 seconds per lap according to formula1.com; McLaren's press pack gives 400 kJ and 6.7 seconds. McLaren expected 0.3 to 0.5 seconds per lap from it.
 
 The system was developed with Mercedes-Benz HighPerformanceEngines, which had been working on it for almost two years when the car was launched. According to Crash.net, the company Zytek worked closely on it. [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}), head of Mercedes High Performance Powertrains in 2019, traced the start of "serious electric propulsion" at Mercedes back to that 2007 decision to build its own KERS, with investment at Brixworth in motors, electronics and software.
 
-KERS came at a price. "It weighs a lot and that reduces your freedom to use ballast to play with the car's configuration," said Paddy Lowe; it "did affect us quite badly at the beginning". Formula 1 recalls that the 2009 systems were heavy and complex to package; according to Autosport, only four teams raced one, and two dropped it before the end of the year.
+KERS came at a price. "It weighs a lot and that reduces your freedom to use ballast to play with the car's configuration," said Paddy Lowe; it "did affect us quite badly at the beginning". formula1.com recalls that the 2009 systems were heavy and complex to package; according to Autosport, only four teams raced one, and two dropped it before the end of the year.
 
 ## Who designed it
 
@@ -54,6 +54,6 @@ An ironic detail: the 2009 aerodynamic rules that hampered the car so much came 
 
 ## Legacy
 
-- **The turnaround.** The T3 floor, the first designed from the outset to exploit the double-diffuser loophole, arrived in Germany with a new front wing: worth about eight tenths according to Fry. Seventeen versions of the floor came and went during the season. Lowe judged the 2.8-second gain credited to the car over the year roughly right. This turnaround came despite the in-season testing ban; Jonathan Neale praised test driver Pedro de la Rosa's work “in the simulator”.
+- **The turnaround.** The T3 floor, the first designed from the outset to exploit the double-diffuser loophole, arrived in Germany with a new front wing: worth about eight tenths according to Fry. Seventeen versions of the floor came and went during the season. Lowe judged the 2.8-second gain credited to the car over the year roughly right. This turnaround came despite the in-season testing ban; Jonathan Neale praised test driver Pedro de la Rosa's work "in the simulator".
 - **2009**: Lewis Hamilton won in Hungary, passing Mark Webber with KERS, which he said played "a big part": it was the first win for a car fitted with such a system. He then won in Singapore. In Abu Dhabi he took pole by more than six tenths, four of them attributed to KERS. McLaren finished third among constructors, with 71 points.
 - KERS disappeared in 2010. According to Autosport, it remained for Mercedes the foundation of its 2014 hybrid power unit.

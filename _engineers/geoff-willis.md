@@ -53,7 +53,7 @@ Geoff Willis came from naval hydrodynamics. Arriving in F1 in 1990, he was one o
 
 The arrival of CFD in F1 was a shared piece of work: the sources consistently pair Willis with Newey, at Leyton House and then at Williams. This site does not credit him alone with introducing it. Beyond that, the sources consulted credit him with no specific technical solution on the Williams, Red Bull or Mercedes cars: they describe leadership roles.
 
-## Source discrepancies
+## Where sources disagree
 
 - **Time at Williams**: 1991 to 2002 according to Crash.net; about twelve years according to Atlas F1 in 2002; GrandPrix.com, in 2006, speaks of five years as head of aerodynamics.
 - **Arrival at BAR**: late 2001 according to Crash.net, early 2002 according to GrandPrix.com.

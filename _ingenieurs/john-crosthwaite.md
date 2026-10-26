@@ -43,6 +43,6 @@ John Crosthwaite conçoit, pour l'essentiel, la voiture de Mickey Thompson, à [
 
 Le reste de sa carrière repose surtout sur les souvenirs de Barrie Wills, ancien dirigeant de Reliant, publiés sur un blog : un passage chez Cooper, chez Team Lotus et chez Dolphin aux États-Unis ; un retour en Grande-Bretagne à l'appel de [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) pour concevoir la F1 BRM ; puis, à partir de 1966, un rôle de consultant pour les châssis chez Reliant. Seul son travail pour Reliant est recoupé par une source de premier rang : en juin 1970, Bill Boddy attribue dans Motor Sport à Crosthwaite le châssis rigide et contreventé de la Reliant Scimitar GTE. Les photos de Lotus des années 1950, dont celle de [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) sur ce site, ont été versées sur Wikimedia Commons par sa famille.
 
-## Une entrée courte
+## Limites des sources
 
 Faute de sources de premier rang sur sa carrière en F1, le site s'en tient à Indianapolis 1962 et à la Reliant, et signale le reste comme témoignage.

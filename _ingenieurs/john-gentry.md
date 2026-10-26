@@ -58,7 +58,7 @@ Motor Sport lui a consacré un portrait en 2021 (Damien Smith) ; sauf mention co
 
 Gentry est un dessinateur de détail et un ingénieur de course, pas le concepteur des voitures sur lesquelles il a travaillé : la 008 est celle de Philippe, les Shadow celles de Southgate. Sur la TG280, le partage « carrosserie pour Byrne, le reste pour Gentry » est sa propre version ; Motor Sport, en 1980, le présente seulement comme le dessinateur-projeteur aux côtés de Byrne. Seule l'ATS D1 lui est attribuée comme conception propre, par OldRacingCars, source secondaire, et il ne l'a pas achevée.
 
-## Divergences entre les sources
+## Divergences entre sources
 
 - **Son arrivée chez Toleman** : août 1979 selon Motor Sport en 1980 ; « fin 1979 » dans le portrait de 2021.
 - **Ses équipes** : OldRacingCars ne cite pour la F1 qu'Alfa Romeo, ATS, Shadow et Toleman ; sa page sur l'ATS D1 le dit « ancien de Shadow et de Tyrrell ». Motor Sport (2021) et Autosport (2026) ajoutent March et Fittipaldi.

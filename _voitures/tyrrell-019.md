@@ -29,13 +29,13 @@ image: "/assets/partage/voitures/tyrrell-019.jpg"
 ---
 ## Ce qu'elle change
 
-La Tyrrell 019 apparaît au Grand Prix de Saint-Marin 1990, à Imola. Son [nez]({{ site.baseurl }}/glossaire/#nez-releve) est fortement relevé, et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant s'abaisse vers ses extrémités, en dièdre négatif. Selon Formula 1, le but est d'envoyer plus d'air sous la voiture. Motor Sport la présente comme la voiture qui a changé la forme de l'aérodynamique des années 1990.
+La Tyrrell 019 apparaît au Grand Prix de Saint-Marin 1990, à Imola. Son [nez]({{ site.baseurl }}/glossaire/#nez-releve) est fortement relevé, et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant s'abaisse vers ses extrémités, en dièdre négatif. Selon formula1.com, le but est d'envoyer plus d'air sous la voiture. Motor Sport la présente comme la voiture qui a changé la forme de l'aérodynamique des années 1990.
 
 Sous la carrosserie, la nouveauté est limitée. « La 018 et la 019 sont la même voiture sur le plan mécanique », dit Jean-Claude Migeot : l'arrière, boîte comprise, est identique ; seul l'avant change complètement. La 019 garde aussi de la 018 un vérin à l'avant, alimenté par une petite batterie sous le siège, qui permet au pilote de régler la hauteur de caisse.
 
 ## Qui l'a conçue
 
-Motor Sport l'attribue à [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) et à l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}). Formula 1 ne nomme que Migeot. Selon Autosport, l'idée du nez relevé et de l'aileron en dièdre vient de Migeot, qui l'avait imaginée cinq ans plus tôt, en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) chez Renault.
+Motor Sport l'attribue à [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) et à l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}). formula1.com ne nomme que Migeot. Selon Autosport, l'idée du nez relevé et de l'aileron en dièdre vient de Migeot, qui l'avait imaginée cinq ans plus tôt, en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) chez Renault.
 
 La même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé.
 

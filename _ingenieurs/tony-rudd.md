@@ -33,7 +33,7 @@ consultation: "25 octobre 2026"
 image: "/assets/partage/tony-rudd.jpg"
 redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---
-## Ce qu'il a apporté
+## Ce qu'il a changé
 
 Tony Rudd est un ingénieur de BRM, puis de Lotus, et, avec Peter Wright, l'un des initiateurs des recherches de BRM sur l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), dont le programme Lotus lancé par Colin Chapman reprend le principe.
 

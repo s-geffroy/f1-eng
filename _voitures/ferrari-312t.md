@@ -29,7 +29,7 @@ image: "/assets/partage/voitures/ferrari-312t.jpg"
 ---
 ## Ce qu'elle change
 
-Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement. Formula 1 présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1.
+Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement. formula1.com présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1.
 
 Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inertie]({{ site.baseurl }}/glossaire/#moment-polaire) possible, en rassemblant le plus de masses possible entre les essieux. C'est l'aboutissement d'une démarche commencée sur la 312B3, qui cherchait déjà à [centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses) pour rendre la voiture plus vive.
 

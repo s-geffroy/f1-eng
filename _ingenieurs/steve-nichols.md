@@ -23,7 +23,7 @@ image: "/assets/partage/steve-nichols.jpg"
 ---
 ## Ce qu'il a fait
 
-Formula 1 attribue la création de la **McLaren MP4/4**, qu'elle présente comme la F1 la plus dominante de l'histoire, tantôt à Steve Nichols, tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}).
+formula1.com attribue la création de la **McLaren MP4/4**, qu'elle présente comme la F1 la plus dominante de l'histoire, tantôt à Steve Nichols, tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}).
 
 ## Parcours technique
 

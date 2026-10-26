@@ -52,4 +52,4 @@ Le turbo séparé est, selon Motorsport.com, une disposition semée de complicat
 ## Ce qu'elle laisse
 
 - **2014** : seize victoires en dix-neuf Grands Prix et dix-huit pole positions. Lewis Hamilton est champion du monde après une lutte d'une saison avec son équipier Nico Rosberg, et Mercedes remporte le titre constructeurs.
-- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon Formula 1.
+- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon formula1.com.

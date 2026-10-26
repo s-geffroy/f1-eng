@@ -37,12 +37,12 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 ## Le moteur turbo de Brabham
 
 - En 1980, avec Dieter Stappert, il pose les bases du premier engagement de BMW en F1 et dirige le projet moteur (BMW, 2016). Selon Autosport, le projet avait été lancé dans les années 1970 contre l'avis de la direction.
-- Son équipe tire d'un quatre-cylindres de série de 1,5 litre un moteur de championnat : seize soupapes, un [turbocompresseur]({{ site.baseurl }}/glossaire/#turbocompresseur) et, pour la première fois en F1 selon BMW, une gestion électronique numérique. BMW annonce environ 800 ch au départ.
+- Son équipe tire d'un quatre-cylindres de série de 1,5 litre un moteur de championnat : seize soupapes, un [turbocompresseur]({{ site.baseurl }}/glossaire/#turbocompresseur) et, pour la première fois en F1 selon BMW, une gestion électronique numérique. BMW annonce environ 800ch au départ.
 - 1981, année de mise au point du M12/13, et 1982, sa première saison, sont difficiles : le moteur est fragile (Motor Sport, 2001). Murray raconte que Rosche tenait au turbo unique, d'abord un KKK de camion.
 - Rosche promet de forts gains de puissance une fois la fiabilité acquise ; selon Murray, cette promesse et l'interdiction des jupes orientent la conception de la BT52 (Motor Sport, 2001).
-- Les essais montrent une détonation au-delà de 650 ch ; Rosche fait appel à BASF pour un carburant spécifique, utilisé en 1983 (Autosport).
+- Les essais montrent une détonation au-delà de 650ch ; Rosche fait appel à BASF pour un carburant spécifique, utilisé en 1983 (Autosport).
 - En 1983, quand Renault fige la spécification de son moteur, Rosche poursuit son développement et tire toujours plus de puissance du quatre-cylindres (Motor Sport, 2009).
-- La puissance exacte reste inconnue : selon Rosche, « autour de 1 400 ch », le banc ne mesurant pas au-delà de 1 280 ch (BMW). Motor Sport parle de plus de 1 400 ch en configuration de qualification en 1983.
+- La puissance exacte reste inconnue : selon Rosche, « autour de 1400ch », le banc ne mesurant pas au-delà de 1280ch (BMW). Motor Sport parle de plus de 1400ch en configuration de qualification en 1983.
 - Après le titre, la rumeur d'un carburant illégal circule ; le rapport de la FISA conclut à sa conformité, et Rosche a toujours nié toute tricherie (Motor Sport, 2009).
 - Selon BMW, quand BMW se retire de la F1 en 1987, le moteur totalise neuf victoires en Grand Prix.
 

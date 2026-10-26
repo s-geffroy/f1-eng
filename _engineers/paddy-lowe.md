@@ -34,11 +34,11 @@ sources:
 consultation: "25 October 2026"
 image: "/assets/partage/en/paddy-lowe.jpg"
 ---
-## What he contributed
+## What he changed
 
 Paddy Lowe is a leading systems and electronics engineer. He joined Williams in autumn 1987 as joint head of electronics.
 
-- **[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active).** Formula 1 credits him with writing and developing most of the software that ran the Williams active suspension. Motor Sport presents him as the active suspension project leader. The system carried Nigel Mansell to the 1992 title in the FW14B.
+- **[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active).** formula1.com credits him with writing and developing most of the software that ran the Williams active suspension. Motor Sport presents him as the active suspension project leader. The system carried Nigel Mansell to the 1992 title in the FW14B.
 - **[Traction control]({{ site.baseurl }}/en/glossary/#antipatinage).** According to Lowe himself, the team also developed traction control, which was worth a second a lap.
 
 ## Technical career

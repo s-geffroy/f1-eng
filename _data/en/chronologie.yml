@@ -137,7 +137,7 @@ jalons:
     annee: 1975
     voie: "transmission"
     titre: "The transverse gearbox of the Ferrari 312T"
-    texte: "According to Formula 1, F1's first transverse gearbox, in the service of mass centralisation, subsequently adopted by the whole grid; Motor Sport points out that Tyrrell and March had opened the way in 1972."
+    texte: "According to formula1.com, F1's first transverse gearbox, in the service of mass centralisation, subsequently adopted by the whole grid; Motor Sport points out that Tyrrell and March had opened the way in 1972."
     entrees: ["mauro-forghieri", "franco-rocchi"]
     termes: ["boite-transversale", "centralisation-des-masses"]
 
@@ -282,7 +282,7 @@ jalons:
     annee: 1946
     voie: "architecture"
     titre: "The engine behind the driver, in 500cc racing"
-    texte: "The prototype built by John Cooper and Eric Brandon places the engine in the middle, “for largely practical reasons”. The layout would make its way to F1."
+    texte: "The prototype built by John Cooper and Eric Brandon places the engine in the middle, \"for largely practical reasons\". The layout would make its way to F1."
     entrees: ["john-cooper"]
     termes: ["moteur-central-arriere"]
 
@@ -354,7 +354,7 @@ jalons:
     annee: 2010
     voie: "aero"
     titre: "The blown diffuser of the Red Bull RB6"
-    texte: "According to Formula 1, Adrian Newey “reinvents” the exhaust-blown diffuser, with Renault's engine maps."
+    texte: "According to formula1.com, Adrian Newey \"reinvents\" the exhaust-blown diffuser, with Renault's engine maps."
     entrees: ["adrian-newey"]
     termes: ["diffuseur"]
 
@@ -375,7 +375,7 @@ jalons:
     annee: 1978
     voie: "methode"
     titre: "Data enters car set-up"
-    texte: "From Goodyear's racing division, Karl Kempf fitted the Tyrrells with sensors whose readings, recorded on cassette, were used for set-up. He does not claim to have been the first to measure: with Tyrrell and Ferrari, “we're the first to actually use the measurements on a regular basis”; the date varies between sources."
+    texte: "From Goodyear's racing division, Karl Kempf fitted the Tyrrells with sensors whose readings, recorded on cassette, were used for set-up. He does not claim to have been the first to measure: with Tyrrell and Ferrari, \"we're the first to actually use the measurements on a regular basis\"; the date varies between sources."
     entrees: []
     termes: [acquisition-de-donnees]
     sources:
@@ -422,7 +422,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "The seamless-shift gearbox"
-    texte: "On the BAR 007, Honda engaged the next gear while the previous one was still driving, with a one-way clutch for each gear; the average gain was 0.4 s a lap. By 2008, every team had a similar system."
+    texte: "On the BAR 007, Honda engaged the next gear while the previous one was still driving, with a one-way clutch for each gear; the average gain was 0.4s a lap. By 2008, every team had a similar system."
     entrees: []
     sources:
       - titre: "Motor Sport, Lawrence Butcher, “Honda's paradigm shifter that flew in the face of convention” (May 2020)"
@@ -434,7 +434,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "McLaren's inerter"
-    texte: "Conceived at Cambridge by Malcolm Smith, this flywheel inside the suspension first raced on the McLaren that won in Spain, under the codename “J-damper”. Opened to every team in 2008, it remained standard equipment until it was banned in 2022."
+    texte: "Conceived at Cambridge by Malcolm Smith, this flywheel inside the suspension first raced on the McLaren that won in Spain, under the codename \"J-damper\". Opened to every team in 2008, it remained standard equipment until it was banned in 2022."
     entrees: []
     termes: [inerter]
     sources:
@@ -447,7 +447,7 @@ jalons:
     annee: 2009
     voie: "moteur"
     titre: "KERS wins in Hungary"
-    texte: "Energy recovered under braking gave up to 60 kW for 6.6 seconds a lap. Lewis Hamilton won in Hungary in the McLaren fitted with Mercedes' KERS, designed at Brixworth with Zytek: the first win for a car so equipped. According to Autosport, Mercedes made it the foundation of its 2014 power unit; Andy Cowell traces the start of “serious” electrification at Mercedes back to the 2007 decision to design its own KERS."
+    texte: "Energy recovered under braking gave up to 60kW for 6.6 seconds a lap. Lewis Hamilton won in Hungary in the McLaren fitted with Mercedes' KERS, designed at Brixworth with Zytek: the first win for a car so equipped. According to Autosport, Mercedes made it the foundation of its 2014 power unit; Andy Cowell traces the start of \"serious\" electrification at Mercedes back to the 2007 decision to design its own KERS."
     entrees: [andy-cowell]
     termes: [kers]
     sources:
@@ -491,7 +491,7 @@ jalons:
     annee: 2022
     voie: "aero"
     titre: "The 2022 Red Bull"
-    texte: "According to Formula 1 in 2024, Adrian Newey, drawing on his experience of ground-effect cars, fed key ideas into the Red Bull's concept; in 2022, the same site had limited his direct contribution to the design to the suspension, which he drew himself. The aim was to deliver downforce dependably. In early 2023, several teams adopted the Red Bull's sidepods; Mercedes and Ferrari at first refused, before adopting sidepods of this type themselves during the 2023 season."
+    texte: "According to formula1.com in 2024, Adrian Newey, drawing on his experience of ground-effect cars, fed key ideas into the Red Bull's concept; in 2022, the same site had limited his direct contribution to the design to the suspension, which he drew himself. The aim was to deliver downforce dependably. In early 2023, several teams adopted the Red Bull's sidepods; Mercedes and Ferrari at first refused, before adopting sidepods of this type themselves during the 2023 season."
     entrees: [adrian-newey]
     termes: [effet-de-sol]
     sources:
@@ -509,7 +509,7 @@ contexte:
     annee: 1940
     categorie: "technologie"
     titre: "The Mosquito's wing-mounted radiators"
-    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the leading edge of the wings, on either side of the fuselage, a position that reduced drag. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team tested in the wind tunnel sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: “The Mosquito flies”."
+    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the leading edge of the wings, on either side of the fuselage, a position that reduced drag. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team tested in the wind tunnel sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -524,7 +524,7 @@ contexte:
     annee: 1946
     categorie: "reglement"
     titre: "The 500 Club's 500 cc formula"
-    texte: "In December 1945, in Bristol, a group of enthusiasts formed the 500 Club and drew up a formula for small 500 cc single-seaters suited to the straitened post-war times. Surrey garage owners Charles and John Cooper joined it with a prototype that sat the engine behind the driver, “for practicality's sake as much as anything”, according to Motor Sport."
+    texte: "In December 1945, in Bristol, a group of enthusiasts formed the 500 Club and drew up a formula for small 500cc single-seaters suited to the straitened post-war times. Surrey garage owners Charles and John Cooper joined it with a prototype that sat the engine behind the driver, \"for practicality's sake as much as anything\", according to Motor Sport."
     liens:
       - jalon: "cooper-500"
         mecanisme: "ouvre"
@@ -537,7 +537,7 @@ contexte:
     annee: 1950
     categorie: "economie"
     titre: "The first World Championship"
-    texte: "On 13 May 1950, the European Grand Prix at Silverstone opened the first world championship. Its rules were those of 1947: 4.5-litre normally aspirated engines or 1.5-litre supercharged engines inherited from the pre-war voiturette class. The favourite car, the Alfa Romeo 158, was then thirteen years old: a pre-war design, born in 1937 as a voiturette, whose supercharged straight-eight produced about 350 bhp (Mark Hughes; more than 400 according to David Tremayne). Against ageing Maseratis, ERAs, Talbots and Altas, Farina, Fagioli and Parnell gave Alfa Romeo the top three places."
+    texte: "On 13 May 1950, the European Grand Prix at Silverstone opened the first world championship. Its rules were those of 1947: 4.5-litre normally aspirated engines or 1.5-litre supercharged engines inherited from the pre-war voiturette class. The favourite car, the Alfa Romeo 158, was then thirteen years old: a pre-war design, born in 1937 as a voiturette, whose supercharged straight-eight produced about 350bhp (Mark Hughes; more than 400 according to David Tremayne). Against ageing Maseratis, ERAs, Talbots and Altas, Farina, Fagioli and Parnell gave Alfa Romeo the top three places."
     sources:
       - titre: "Formula 1, “10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj"
@@ -579,7 +579,7 @@ contexte:
     annee: 1957
     categorie: "reglement"
     titre: "The 1.5-litre Formula 2"
-    texte: "From 1957 to 1960, a new Formula 2 limited engines to 1,500 cc. According to Motor Sport, it was “a gift” for the new mid-engined Cooper-Climax. Designed for this class, the Coopers became increasingly competitive in F1 as their engine approached the 2.5 litres allowed: with 2,495 cc, they were at least on a par with the best traditional designs."
+    texte: "From 1957 to 1960, a new Formula 2 limited engines to 1500cc. According to Motor Sport, it was \"a gift\" for the new mid-engined Cooper-Climax. Designed for this class, the Coopers became increasingly competitive in F1 as their engine approached the 2.5 litres allowed: with 2495cc, they were at least on a par with the best traditional designs."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -588,7 +588,7 @@ contexte:
       - jalon: "cooper-titres"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "Designed for the 1,500 cc Formula 2 limit, the Coopers were at least on a par with the best F1 cars once given a 2,495 cc engine (Motor Sport)."
+        pourquoi: "Designed for the 1500cc Formula 2 limit, the Coopers were at least on a par with the best F1 cars once given a 2495cc engine (Motor Sport)."
     sources:
       - titre: "Formula1.com, Mark Hughes, “Argentina '58: Moss bluffs his way to victory – and ushers in new era” (April 2020)"
         url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
@@ -598,7 +598,7 @@ contexte:
     annee: 1958
     categorie: "reglement"
     titre: "Pump fuel made mandatory"
-    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix, and Vanwall released Stirling Moss, who raced Rob Walker's small Cooper. Because of the heat, the race was also shortened from 400 to 313 km."
+    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix, and Vanwall released Stirling Moss, who raced Rob Walker's small Cooper. Because of the heat, the race was also shortened from 400 to 313km."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -632,7 +632,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Chaparral's wings"
-    texte: "In Can-Am and sports-prototype racing, Jim Hall's Chaparrals carried large strut-mounted wings from 1966, adjustable on the move, and moved the radiators into side pods. Starting from a first Chaparral 2 that suffered from lift, Hall wanted to go “right on through zero”, towards downforce; a pedal flattened the wing to reduce drag on the straights, and its hub-mounted struts put the load on the wheels rather than the chassis. Chris Amon, driver of the winged Ferrari at Spa in 1968, was surprised that F1 had taken so long when these wings “obviously worked”; Goodwood considers that Colin Chapman borrowed Hall's side radiators for the Lotus 72."
+    texte: "In Can-Am and sports-prototype racing, Jim Hall's Chaparrals carried large strut-mounted wings from 1966, adjustable on the move, and moved the radiators into side pods. Starting from a first Chaparral 2 that suffered from lift, Hall wanted to go \"right on through zero\", towards downforce; a pedal flattened the wing to reduce drag on the straights, and its hub-mounted struts put the load on the wheels rather than the chassis. Chris Amon, driver of the winged Ferrari at Spa in 1968, was surprised that F1 had taken so long when these wings \"obviously worked\"; Goodwood considers that Colin Chapman borrowed Hall's side radiators for the Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -678,12 +678,12 @@ contexte:
     annee: 1967
     categorie: "reglement"
     titre: "The 1.6-litre Formula 2"
-    texte: "On 1 January 1967 a Formula 2 limited to 1,600 cc came into force, whose cylinder block had to come from a production car built in at least 500 examples within 22 months. Cosworth answered with the FVA, designed around the Ford Cortina block. The joint project announced with Ford also covered an F1 engine: the DFV, made up of two FVA cylinder heads on a common block."
+    texte: "On 1 January 1967 a Formula 2 limited to 1600cc came into force, whose cylinder block had to come from a production car built in at least 500 examples within 22 months. Cosworth answered with the FVA, designed around the Ford Cortina block. The joint project announced with Ford also covered an F1 engine: the DFV, made up of two FVA cylinder heads on a common block."
     liens:
       - jalon: "dfv-fva"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "The FVA was designed for the 1,600 cc limit of the new Formula 2, which required a production block: Cosworth started from the Ford Cortina's (Mike Doodson, Denis Jenkinson)."
+        pourquoi: "The FVA was designed for the 1600cc limit of the new Formula 2, which required a production block: Cosworth started from the Ford Cortina's (Mike Doodson, Denis Jenkinson)."
     sources:
       - titre: "Motor Sport, Mike Doodson, “Keith Duckworth” (January 1970)"
         url: "https://www.motorsportmagazine.com/archive/article/january-1970/41/keith-duckworth"
@@ -693,7 +693,7 @@ contexte:
     annee: 1968
     categorie: "economie"
     titre: "The DFV goes on general sale"
-    texte: "For 1968, Lotus lost its exclusive use of the Ford-funded Cosworth DFV; Walter Hayes at Ford judged that the engine would kill the competition if it were not shared. Ken Tyrrell's Matra (a way of keeping Jackie Stewart with Ford) and McLaren were the first customers, and by 1969 two thirds of the cars on the grid used it. Compact, it also served as a stressed member of the chassis. Sold at an affordable price, it opened the so-called “kit car” era, in which teams without an engine maker combined their own chassis with a bought-in engine and a Hewland gearbox; it was 1975 before a car without a DFV won the title."
+    texte: "For 1968, Lotus lost its exclusive use of the Ford-funded Cosworth DFV; Walter Hayes at Ford judged that the engine would kill the competition if it were not shared. Ken Tyrrell's Matra (a way of keeping Jackie Stewart with Ford) and McLaren were the first customers, and by 1969 two thirds of the cars on the grid used it. Compact, it also served as a stressed member of the chassis. Sold at an affordable price, it opened the so-called \"kit car\" era, in which teams without an engine maker combined their own chassis with a bought-in engine and a Hewland gearbox; it was 1975 before a car without a DFV won the title."
     liens:
       - jalon: "dfv"
         mecanisme: "ouvre"
@@ -702,7 +702,7 @@ contexte:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "With the whole grid on the same engine, gearbox and tyres, Derek Gardner says Tyrrell needed “an unfair advantage”: the six-wheeler (Andrew Frankel, Nigel Roebuck)."
+        pourquoi: "With the whole grid on the same engine, gearbox and tyres, Derek Gardner says Tyrrell needed \"an unfair advantage\": the six-wheeler (Andrew Frankel, Nigel Roebuck)."
     sources:
       - titre: "Motor Sport, “F1 non-championship races – Part two: the ’60s” (September 2008)"
         url: "https://www.motorsportmagazine.com/archive/article/september-2008/92/f1-non-championship-races-part-two-60s/"
@@ -762,7 +762,7 @@ contexte:
     annee: 1970
     categorie: "technologie"
     titre: "The Chaparral 2J 'sucker car'"
-    texte: "In Can-Am, the 1970 Chaparral 2J used two fans driven by an auxiliary engine to suck air from under the car. Jim Hall presents it as a response to the ban on hub-mounted wings for 1970; articulated skirts kept a narrow gap to the ground, and according to him the car cornered at almost 2 g. Approved at first, it was excluded from the series after protests from rivals, who saw it as a movable aerodynamic device. Sources disagree on its link with the Brabham BT46B: Motor Sport presents it as the inspiration and quotes Gordon Murray (“the basic concept, yes, it came from there”), while Goodwood considers the influence uncertain."
+    texte: "In Can-Am, the 1970 Chaparral 2J used two fans driven by an auxiliary engine to suck air from under the car. Jim Hall presents it as a response to the ban on hub-mounted wings for 1970; articulated skirts kept a narrow gap to the ground, and according to him the car cornered at almost 2g. Approved at first, it was excluded from the series after protests from rivals, who saw it as a movable aerodynamic device. Sources disagree on its link with the Brabham BT46B: Motor Sport presents it as the inspiration and quotes Gordon Murray (\"the basic concept, yes, it came from there\"), while Goodwood considers the influence uncertain."
     liens:
       - jalon: "bt46b"
         mecanisme: "transfert"
@@ -819,7 +819,7 @@ contexte:
     annee: 1976
     categorie: "technologie"
     titre: "Goodyear wants measurements"
-    texte: "In the mid-1970s, the new head of Goodyear's international racing division hired Karl Kempf, a mathematician who had interned at Goodyear during his PhD, with a mission: to build a data acquisition system for all Goodyear-shod cars, to “bring some science to the art of motor racing”. The first package measured suspension, steering, throttle, brakes, revs and g-forces. Only Derek Gardner at Tyrrell and Mauro Forghieri at Ferrari really took it up."
+    texte: "In the mid-1970s, the new head of Goodyear's international racing division hired Karl Kempf, a mathematician who had interned at Goodyear during his PhD, with a mission: to build a data acquisition system for all Goodyear-shod cars, to \"bring some science to the art of motor racing\". The first package measured suspension, steering, throttle, brakes, revs and g-forces. Only Derek Gardner at Tyrrell and Mauro Forghieri at Ferrari really took it up."
     liens:
       - jalon: "donnees-tyrrell"
         mecanisme: "ouvre"
@@ -832,7 +832,7 @@ contexte:
     annee: 1977
     categorie: "economie"
     titre: "Renault arrives with the turbo"
-    texte: "Renault, with its oil partner Elf, entered the RS01 at the 1977 British Grand Prix with a 1.5-litre turbocharged six-cylinder, first proven in endurance racing in 2-litre form, against 3-litre normally aspirated V8s and twelve-cylinders. Failures were frequent at first, thirteen in seventeen races, and its smoke earned the car the nickname “Teapot”. But the RS10 won at Dijon in 1979, on a circuit whose altitude suited the turbo. In the early 1980s, faced with the power of the turbos, the teams still using the DFV relied on the chassis and ground effect, before adopting turbo engines in their turn."
+    texte: "Renault, with its oil partner Elf, entered the RS01 at the 1977 British Grand Prix with a 1.5-litre turbocharged six-cylinder, first proven in endurance racing in 2-litre form, against 3-litre normally aspirated V8s and twelve-cylinders. Failures were frequent at first, thirteen in seventeen races, and its smoke earned the car the nickname \"Teapot\". But the RS10 won at Dijon in 1979, on a circuit whose altitude suited the turbo. In the early 1980s, faced with the power of the turbos, the teams still using the DFV relied on the chassis and ground effect, before adopting turbo engines in their turn."
     liens:
       - jalon: "turbo-victoire"
         mecanisme: "ouvre"
@@ -849,7 +849,7 @@ contexte:
     annee: 1978
     categorie: "reglement"
     titre: "The fan car sidelined"
-    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself, and Motor Sport also wrote of a voluntary withdrawal in 2025; according to Motor Sport in 1998, the CSI banned it “on safety grounds”. The wording of the rules only changed for 1979."
+    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself, and Motor Sport also wrote of a voluntary withdrawal in 2025; according to Motor Sport in 1998, the CSI banned it \"on safety grounds\". The wording of the rules only changed for 1979."
     liens:
       - jalon: "bt46b"
         mecanisme: "contourne"
@@ -862,7 +862,7 @@ contexte:
       - jalon: "bt46b"
         mecanisme: "ferme"
         preuve: "discute"
-        pourquoi: "The car never raced again after Sweden, but sources disagree: voluntary withdrawal by Ecclestone (The Race, Goodwood, Motor Sport in 2025) or a CSI ban “on safety grounds” (Motor Sport in 1998)."
+        pourquoi: "The car never raced again after Sweden, but sources disagree: voluntary withdrawal by Ecclestone (The Race, Goodwood, Motor Sport in 2025) or a CSI ban \"on safety grounds\" (Motor Sport in 1998)."
     sources:
       - titre: "The Race, Edd Straw, “Nine things you may not know about Brabham's iconic F1 fan car” (December 2022)"
         url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car/"
@@ -874,7 +874,7 @@ contexte:
     annee: 1980
     categorie: "technologie"
     titre: "From fly-by-wire controls to active suspension"
-    texte: "A Lotus partner since 1976 for instrumenting cars in testing, the Cranfield Institute of Technology developed synthetic springs for the artificial-feel control column of a fly-by-wire research aircraft. In 1980, Lotus could no longer control the downforce of its ground-effect cars, four times that of the Lotus 79: the “porpoising” of the Lotus 80 reminded Professor David Williams of wing flutter in aircraft. He then offered Peter Wright his springs, computer-controlled hydraulic rams that held the ride height: they gave Lotus its active suspension, racing from 1983 on the Lotus 92. The Williams system, for its part, derived from a road system by Automotive Products."
+    texte: "A Lotus partner since 1976 for instrumenting cars in testing, the Cranfield Institute of Technology developed synthetic springs for the artificial-feel control column of a fly-by-wire research aircraft. In 1980, Lotus could no longer control the downforce of its ground-effect cars, four times that of the Lotus 79: the \"porpoising\" of the Lotus 80 reminded Professor David Williams of wing flutter in aircraft. He then offered Peter Wright his springs, computer-controlled hydraulic rams that held the ride height: they gave Lotus its active suspension, racing from 1983 on the Lotus 92. The Williams system, for its part, derived from a road system by Automotive Products."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "transfert"
@@ -920,7 +920,7 @@ contexte:
     annee: 1981
     categorie: "reglement"
     titre: "The end of sliding skirts"
-    texte: "To curb ground effect, whose downforce became unpredictable and vanished when a skirt stuck or broke, the 1981 rules banned skirts and imposed a 6 cm ground clearance. Balestre cited safety; the FOCA teams, without turbos, lost their main advantage over Ferrari, Renault and Alfa Romeo. Teams immediately set about circumventing the rule: the twin-chassis Lotus 88 was banned before it could race, but the Brabham BT49, which lowered itself on track, was cleared and then copied. Skirts, allowed again in 1982 at the cost of almost rigid suspensions, disappeared for good with the mandatory flat bottom of 1983."
+    texte: "To curb ground effect, whose downforce became unpredictable and vanished when a skirt stuck or broke, the 1981 rules banned skirts and imposed a 6cm ground clearance. Balestre cited safety; the FOCA teams, without turbos, lost their main advantage over Ferrari, Renault and Alfa Romeo. Teams immediately set about circumventing the rule: the twin-chassis Lotus 88 was banned before it could race, but the Brabham BT49, which lowered itself on track, was cleared and then copied. Skirts, allowed again in 1982 at the cost of almost rigid suspensions, disappeared for good with the mandatory flat bottom of 1983."
     liens:
       - jalon: "lotus-78"
         mecanisme: "provoque"
@@ -1067,7 +1067,7 @@ contexte:
     annee: 1989
     categorie: "reglement"
     titre: "Turbos restricted, then banned"
-    texte: "In the mid-1980s, 1.5-litre turbos exceeded 1,000 bhp in qualifying; the FIA wanted to cut power without driving the manufacturers away. From 1987, boost pressure was limited to 4 bar, and 3.5-litre normally aspirated engines were admitted alongside the turbos; in 1988 the limit fell to 2.5 bar, with 150 litres of fuel instead of 195. Honda answered with a V6 of about 30% thermal efficiency, which won 15 of the 16 races with McLaren. In 1989, only 3.5-litre normally aspirated engines remained allowed. Renault then returned with a 3.5-litre V10 with pneumatic valve springs, the RS1."
+    texte: "In the mid-1980s, 1.5-litre turbos exceeded 1000bhp in qualifying; the FIA wanted to cut power without driving the manufacturers away. From 1987, boost pressure was limited to 4bar, and 3.5-litre normally aspirated engines were admitted alongside the turbos; in 1988 the limit fell to 2.5bar, with 150 litres of fuel instead of 195. Honda answered with a V6 of about 30% thermal efficiency, which won 15 of the 16 races with McLaren. In 1989, only 3.5-litre normally aspirated engines remained allowed. Renault then returned with a 3.5-litre V10 with pneumatic valve springs, the RS1."
     liens:
       - jalon: "turbo-victoire"
         mecanisme: "ferme"
@@ -1131,7 +1131,7 @@ contexte:
     annee: 1994
     categorie: "securite"
     titre: "Imola 1994: deaths of Ratzenberger and Senna"
-    texte: "Roland Ratzenberger and Ayrton Senna were killed at the 1994 San Marino Grand Prix; two weeks later, Karl Wendlinger was seriously injured at Monaco. The FIA slowed the cars at once: a shortened diffuser and modified front wings from Spain, holes in the airbox to cut power in Canada, then a plank under the floor, with wear limited to 1 mm, which forced the whole car to be raised. It also launched a programme of circuit alterations and limited pit-lane speed to 80 km/h in practice and 120 km/h in races. In 1995 the stepped floor cut underbody downforce by as much as 50% by some estimates and engine capacity fell from 3.5 to 3 litres, while the cockpit was lengthened, its sides raised and the frontal impact test made tougher."
+    texte: "Roland Ratzenberger and Ayrton Senna were killed at the 1994 San Marino Grand Prix; two weeks later, Karl Wendlinger was seriously injured at Monaco. The FIA slowed the cars at once: a shortened diffuser and modified front wings from Spain, holes in the airbox to cut power in Canada, then a plank under the floor, with wear limited to 1mm, which forced the whole car to be raised. It also launched a programme of circuit alterations and limited pit-lane speed to 80km/h in practice and 120km/h in races. In 1995 the stepped floor cut underbody downforce by as much as 50% by some estimates and engine capacity fell from 3.5 to 3 litres, while the cockpit was lengthened, its sides raised and the frontal impact test made tougher."
     liens:
       - jalon: "fw17b"
         mecanisme: "contourne"
@@ -1170,7 +1170,7 @@ contexte:
     annee: 1996
     categorie: "securite"
     titre: "Higher cockpit sides and side headrests"
-    texte: "After cockpit sides already raised in 1995 to cover the shoulders, the FIA imposed in 1996 higher cockpit sides, padded on the inside, and 75 mm side headrests, with static load tests on the cockpit rim. These rules came from the work of the FIA Advisory Expert Group on safety since the accidents at Imola and Monaco in 1994; the cockpit was also enlarged so that drivers of all sizes could compete on equal terms. The first data recorders were fitted in the survival cells. The raised sides protected the driver's head far better from the side."
+    texte: "After cockpit sides already raised in 1995 to cover the shoulders, the FIA imposed in 1996 higher cockpit sides, padded on the inside, and 75mm side headrests, with static load tests on the cockpit rim. These rules came from the work of the FIA Advisory Expert Group on safety since the accidents at Imola and Monaco in 1994; the cockpit was also enlarged so that drivers of all sizes could compete on equal terms. The first data recorders were fitted in the survival cells. The raised sides protected the driver's head far better from the side."
     sources:
       - titre: "FIA, “Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing” (May 2024)"
         url: "https://fia.com/node/51351"
@@ -1182,12 +1182,12 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "The Toyota Prius, the first mass-produced hybrid"
-    texte: "In 1997 Toyota launched the Prius, the first mass-produced hybrid vehicle: a combustion engine and two motor-generators recovered the energy lost under braking, and fuel consumption was halved. The direction of the borrowing with F1 is disputed: when KERS arrived in 2009, limited to 60 kW for 6.6 seconds per lap, Toyota called it “primitive” and unrelated to its road hybrids, while formula1.com stated in 2014 that progress on F1 KERS had benefited production hybrids. According to that site, a system weighed over 100 kg in 2007 and 24 kg at the end of 2012."
+    texte: "In 1997 Toyota launched the Prius, the first mass-produced hybrid vehicle: a combustion engine and two motor-generators recovered the energy lost under braking, and fuel consumption was halved. The direction of the borrowing with F1 is disputed: when KERS arrived in 2009, limited to 60kW for 6.6 seconds per lap, Toyota called it \"primitive\" and unrelated to its road hybrids, while formula1.com stated in 2014 that progress on F1 KERS had benefited production hybrids. According to that site, a system weighed over 100kg in 2007 and 24kg at the end of 2012."
     liens:
       - jalon: "kers"
         mecanisme: "transfert"
         preuve: "chronologique"
-        pourquoi: "The Prius preceded KERS by twelve years, but no source establishes a borrowing: Toyota called KERS “primitive” and unrelated to its road hybrids."
+        pourquoi: "The Prius preceded KERS by twelve years, but no source establishes a borrowing: Toyota called KERS \"primitive\" and unrelated to its road hybrids."
     sources:
       - titre: "IEEE, Engineering and Technology History Wiki, “Milestones: Toyota Prius, the World's First Mass-Produced Hybrid Vehicle, 1997” (February 2025)"
         url: "https://ethw.org/Milestones:Toyota_Prius,_the_World%27s_First_Mass-Produced_Hybrid_Vehicle,_1997"
@@ -1199,7 +1199,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "Malcolm Smith's inerter"
-    texte: "In 1997 Malcolm Smith, a professor at Cambridge, conceived the inerter: a plunger turns a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends, which, with springs and dampers, reduces oscillations. The university holds the patent and gave McLaren exclusivity in F1; to keep it secret, the team called it the “J-damper”. A licence to Penske Racing Shocks then allowed it to be supplied to every team."
+    texte: "In 1997 Malcolm Smith, a professor at Cambridge, conceived the inerter: a plunger turns a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends, which, with springs and dampers, reduces oscillations. The university holds the patent and gave McLaren exclusivity in F1; to keep it secret, the team called it the \"J-damper\". A licence to Penske Racing Shocks then allowed it to be supplied to every team."
     liens:
       - jalon: "inerter"
         mecanisme: "transfert"
@@ -1264,7 +1264,7 @@ contexte:
     annee: 2009
     categorie: "economie"
     titre: "In-season testing ends"
-    texte: "In December 2008, a few days after Honda's departure, the World Council and the teams adopted a cost-cutting plan, all fearing that other manufacturers might leave; the FIA expected it to cut spending by as much as 30%. From 2009, no testing was allowed once the season had started, and wind tunnels could no longer take full-size models, 60% becoming the maximum. Each engine had to last three race weekends, with the rev limit cut from 19,000 to 18,000 rpm, and customer engine prices were halved. Grand Prix Fridays took on a new importance in car development."
+    texte: "In December 2008, a few days after Honda's departure, the World Council and the teams adopted a cost-cutting plan, all fearing that other manufacturers might leave; the FIA expected it to cut spending by as much as 30%. From 2009, no testing was allowed once the season had started, and wind tunnels could no longer take full-size models, 60% becoming the maximum. Each engine had to last three race weekends, with the rev limit cut from 19,000 to 18000rpm, and customer engine prices were halved. Grand Prix Fridays took on a new importance in car development."
     liens:
       - jalon: "simulateur"
         mecanisme: "ouvre"
@@ -1281,7 +1281,7 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "The 2009 aerodynamic overhaul"
-    texte: "By the late 2000s, cars covered in appendages lost a great deal of downforce in another car's wake, and overtaking became rare. Drawing on tests by an Overtaking Working Group that included Paddy Lowe, Pat Symonds and Rory Byrne, the 2009 rules removed deflectors and appendages and aimed for a 50% cut in downforce, with a taller, narrower rear wing, a lower, wider front wing adjustable by the driver, and a redesigned diffuser. Slick tyres returned after eleven years. Williams, Brawn and Toyota exploited a loophole in the wording of the text to create the “double diffuser”, which protests failed to get banned."
+    texte: "By the late 2000s, cars covered in appendages lost a great deal of downforce in another car's wake, and overtaking became rare. Drawing on tests by an Overtaking Working Group that included Paddy Lowe, Pat Symonds and Rory Byrne, the 2009 rules removed deflectors and appendages and aimed for a 50% cut in downforce, with a taller, narrower rear wing, a lower, wider front wing adjustable by the driver, and a redesigned diffuser. Slick tyres returned after eleven years. Williams, Brawn and Toyota exploited a loophole in the wording of the text to create the \"double diffuser\", which protests failed to get banned."
     liens:
       - jalon: "double-diffuseur"
         mecanisme: "contourne"
@@ -1302,7 +1302,7 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "KERS allowed"
-    texte: "Announced as early as 2007, the 2009 rules allowed an energy recovery system under braking: the energy, stored in batteries or, at Williams, in an electric flywheel, was returned at up to 60 kW for 6.6 seconds a lap. Heavy, complex and often unreliable, it was used by only four teams. Still in the rules in 2010, it went unused because the teams agreed to give it up; they called for its return for 2011."
+    texte: "Announced as early as 2007, the 2009 rules allowed an energy recovery system under braking: the energy, stored in batteries or, at Williams, in an electric flywheel, was returned at up to 60kW for 6.6 seconds a lap. Heavy, complex and often unreliable, it was used by only four teams. Still in the rules in 2010, it went unused because the teams agreed to give it up; they called for its return for 2011."
     liens:
       - jalon: "kers"
         mecanisme: "ouvre"
@@ -1349,7 +1349,7 @@ contexte:
     annee: 2011
     categorie: "reglement"
     titre: "DRS replaces the F-duct"
-    texte: "Voted out on cost and safety grounds at a meeting during the 2010 Spanish Grand Prix, the F-duct gave way in 2011 to DRS, an adjustable rear wing the driver can open in a set zone when behind another car. As early as 2011, Gary Anderson called it “a bandage” until rules let cars follow each other."
+    texte: "Voted out on cost and safety grounds at a meeting during the 2010 Spanish Grand Prix, the F-duct gave way in 2011 to DRS, an adjustable rear wing the driver can open in a set zone when behind another car. As early as 2011, Gary Anderson called it \"a bandage\" until rules let cars follow each other."
     liens:
       - jalon: "f-duct"
         mecanisme: "provoque"
@@ -1387,7 +1387,7 @@ contexte:
     annee: 2014
     categorie: "securite"
     titre: "Jules Bianchi's crash and the Virtual Safety Car"
-    texte: "At the 2014 Japanese Grand Prix, in the rain, Jules Bianchi lost control of his Marussia in a double-yellow-flag zone and struck, at 126 km/h, the crane recovering Adrian Sutil's Sauber; the accident would ultimately prove fatal. The FIA accident panel judged it impossible to make such an impact survivable, and recommended instead a speed limit in sectors under double yellow flags. In 2015 the FIA introduced the virtual safety car, which imposes a minimum lap time to slow the drivers. The Zylon anti-intrusion panels of the survival cell were also extended up to the cockpit rim, alongside the driver's head."
+    texte: "At the 2014 Japanese Grand Prix, in the rain, Jules Bianchi lost control of his Marussia in a double-yellow-flag zone and struck, at 126km/h, the crane recovering Adrian Sutil's Sauber; the accident would ultimately prove fatal. The FIA accident panel judged it impossible to make such an impact survivable, and recommended instead a speed limit in sectors under double yellow flags. In 2015 the FIA introduced the virtual safety car, which imposes a minimum lap time to slow the drivers. The Zylon anti-intrusion panels of the survival cell were also extended up to the cockpit rim, alongside the driver's head."
     liens:
       - evenement: "halo"
         mecanisme: "declenche"
@@ -1404,7 +1404,7 @@ contexte:
     annee: 2014
     categorie: "reglement"
     titre: "The mandatory hybrid power unit"
-    texte: "In 2014 the 2.4-litre normally aspirated V8s gave way to a 1.6-litre turbo V6 combined with two energy recovery systems, under braking and from the exhaust gases; producing around 600 bhp, it received some 160 bhp of electric power for about 33 seconds per lap. Fuel was limited to 100 kg per race, a third less than before, and flow to 100 kg/h: efficiency became a central performance criterion. Cooling widened the sidepods, the minimum weight rose from 642 to 690 kg, and the single central exhaust ended blown diffusers. Mercedes won 51 of the 59 races of the first three seasons."
+    texte: "In 2014 the 2.4-litre normally aspirated V8s gave way to a 1.6-litre turbo V6 combined with two energy recovery systems, under braking and from the exhaust gases; producing around 600bhp, it received some 160bhp of electric power for about 33 seconds per lap. Fuel was limited to 100kg per race, a third less than before, and flow to 100kg/h: efficiency became a central performance criterion. Cooling widened the sidepods, the minimum weight rose from 642 to 690kg, and the single central exhaust ended blown diffusers. Mercedes won 51 of the 59 races of the first three seasons."
     liens:
       - jalon: "hybride"
         mecanisme: "ouvre"
@@ -1413,7 +1413,7 @@ contexte:
       - jalon: "rendement-50"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "By limiting fuel to 100 kg and flow to 100 kg/h, the rules made efficiency a central performance criterion."
+        pourquoi: "By limiting fuel to 100kg and flow to 100kg/h, the rules made efficiency a central performance criterion."
     sources:
       - titre: "Formula1.com, “A racing revolution? Understanding 2014's technical regulations” (January 2014)"
         url: "https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC"
@@ -1433,7 +1433,7 @@ contexte:
     annee: 2020
     categorie: "securite"
     titre: "Romain Grosjean's crash in Bahrain"
-    texte: "At the 2020 Bahrain Grand Prix, after contact with Daniil Kvyat's car, Romain Grosjean's Haas hit the barrier at 192 km/h, with a peak of 67 g, went through it and caught fire; the driver escaped with burns to his hands. The FIA investigation concluded that the survival cell, the headrest, the HANS and the halo had done their job. But the power unit had separated from the cell, and the fuel tank hatch and the supply connection, torn off, had let fuel escape: the FIA launched a review of the front geometry of the survival cell and of the installation of the fuel bladders, their connections and their hatches."
+    texte: "At the 2020 Bahrain Grand Prix, after contact with Daniil Kvyat's car, Romain Grosjean's Haas hit the barrier at 192km/h, with a peak of 67g, went through it and caught fire; the driver escaped with burns to his hands. The FIA investigation concluded that the survival cell, the headrest, the HANS and the halo had done their job. But the power unit had separated from the cell, and the fuel tank hatch and the supply connection, torn off, had let fuel escape: the FIA launched a review of the front geometry of the survival cell and of the installation of the fuel bladders, their connections and their hatches."
     sources:
       - titre: "FIA, “FIA concludes investigation into Romain Grosjean's accident at 2020 Bahrain Formula 1 Grand Prix and releases 2021 circuit racing safety initiatives” (March 2021)"
         url: "https://api.fia.com/news/fia-concludes-investigation-romain-grosjeans-accident-2020-bahrain-formula-1-grand-prix-and"
@@ -1494,7 +1494,7 @@ contexte:
     annee: 2026
     categorie: "reglement"
     titre: "The 2026 engine and chassis rules"
-    texte: "Adopted in August 2022 for the engine and completed in June 2024 for the chassis, the 2026 rules split power equally between combustion engine and electricity, with sustainable fuels: the combustion engine falls from about 550 to 400 kW, the electric part rises from 120 to 350 kW, and the energy recovered under braking doubles. The chassis was redefined to match these energy requirements. The cars lose 30 kg, for a minimum of 768 kg, and receive movable front and rear wings: one position for cornering downforce, another for low drag on the straights. The maximum wheelbase loses 200 mm and the width 100 mm."
+    texte: "Adopted in August 2022 for the engine and completed in June 2024 for the chassis, the 2026 rules split power equally between combustion engine and electricity, with sustainable fuels: the combustion engine falls from about 550 to 400kW, the electric part rises from 120 to 350kW, and the energy recovered under braking doubles. The chassis was redefined to match these energy requirements. The cars lose 30kg, for a minimum of 768kg, and receive movable front and rear wings: one position for cornering downforce, another for low drag on the straights. The maximum wheelbase loses 200mm and the width 100mm."
     liens:
       - evenement: "motoristes-2026"
         mecanisme: "declenche"

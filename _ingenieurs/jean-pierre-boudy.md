@@ -40,7 +40,7 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [Fr
 ## Chez Renault-Gordini
 
 - Né en Dordogne en juillet 1944 (à Terrasson-Lavilledieu, le 31, selon OldRacingCars), formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com).
-- En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault. Le V6 CH1, de 270 ch, équipe l'Alpine de 1973.
+- En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault. Le V6 CH1, de 270ch, équipe l'Alpine de 1973.
 - Castaing racontait avoir d'abord été « bien moins convaincu » que Boudy par un turbo fonctionnant au carburant du commerce.
 - Avec [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), il travaille à la version turbo du V6, qui donne l'Alpine A442 de 1975 (GrandPrix.com, 1990), puis, en 1975, au prototype du moteur turbo de F1 de Renault, qui court pour la première fois en 1977 (GrandPrix.com).
 - Dudot résume l'équipe technique des débuts : « François Castaing, Jean-Pierre Boudy et moi-même ».
@@ -73,6 +73,6 @@ Les sources ne s'accordent pas sur le partage du V6 de base. Motor Sport le dit 
 
 Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme auteur de l'idée. Il quitte Renault fin 1983 ou en 1984, avant l'arrivée du système en course en 1986 : la mise au point relève de l'équipe de Renault Sport. Idée, réalisation et diffusion ne doivent pas être attribuées à la même personne.
 
-## Une entrée courte
+## Limites des sources
 
 Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot ; aucun long entretien avec lui n'a été trouvé, seulement quelques déclarations rapportées par Joe Saward lors du lancement du V10 Peugeot, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.

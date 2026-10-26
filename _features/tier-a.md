@@ -4,7 +4,7 @@ ordre: 2
 resume: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 description: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 ---
-Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear “before / after”, diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
+Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear "before / after", diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
 
 ## Five questions transformed
 
@@ -46,7 +46,7 @@ See the entry [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckw
 
 ## No. 5 — Adrian Newey (91.5/100)
 
-There is no point looking for “the Newey invention”. His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. His genius is repetition, not the one-off stroke. According to [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), he in fact played no part in developing Williams' active suspension; that system, Autosport notes, served above all as a stable platform for his aerodynamics.
+There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. His genius is repetition, not the one-off stroke. According to [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), he in fact played no part in developing Williams' active suspension; that system, Autosport notes, served above all as a stable platform for his aerodynamics.
 
 See the entry [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})
 
@@ -56,7 +56,7 @@ His record is immense, but results count for only 10%. His authorship is necessa
 
 ## Chapman versus Barnard: the real debate
 
-With this method, the most serious debate for first place is not “Chapman versus Newey” but **Chapman versus Barnard**.
+With this method, the most serious debate for first place is not "Chapman versus Newey" but **Chapman versus Barnard**.
 
 | Criterion | Chapman | Barnard |
 |---|:---:|:---:|
@@ -66,21 +66,21 @@ With this method, the most serious debate for first place is not “Chapman vers
 | Diffusion | ++ | ++ |
 | Repetition | ++ | + |
 
-Chapman wins on **historical breadth**; Barnard wins on **personal traceability**. If the weighting for “direct authorship” were raised significantly, Barnard could move ahead.
+Chapman wins on **historical breadth**; Barnard wins on **personal traceability**. If the weighting for "direct authorship" were raised significantly, Barnard could move ahead.
 
 ## Sources
 
 Consulted on 9 August 2026, rechecked on 26 October 2026.
 
-- Autosport, Adam Cooper, “Tech secrets of a Formula 1 legend” (January 2017): <https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/>
-- Lotus, “Lotus Type 25 — The Revolutionary Monocoque”: <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
-- Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”: <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
-- McLaren, “MP4/1”: <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
-- Formula 1, “John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations”: <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
-- Motor Sport Magazine, “Cooper T51: the revolutionary car that changed F1 forever”: <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
-- Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”: <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
-- Motor Sport Magazine, “The Lotus 49” (July 1967): <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
-- Autosport, Matt Somerfield, “Banned: The ingenious twin-chassis Lotus F1 car” (April 2020): <https://www.autosport.com/news/report.php/id/149000>
-- Motor Sport, Graham Keilloh, “Watch Lotus's last great Formula 1 innovation” (March 2019): <https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation>
-- Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”: <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
-- Formula 1, “Adrian Newey's Red Bull exit is confirmed – what next for the star designer?”: <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>
+- Autosport, Adam Cooper, "Tech secrets of a Formula 1 legend" (January 2017): <https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/>
+- Lotus, "Lotus Type 25 — The Revolutionary Monocoque": <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
+- Formula 1, "TECH TUESDAY: The Lotus 79, F1's ground effect marvel": <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+- McLaren, "MP4/1": <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
+- Formula 1, "John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations": <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
+- Motor Sport Magazine, "Cooper T51: the revolutionary car that changed F1 forever": <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, "The rise and fall of the single-seater Cooper": <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, "The Lotus 49" (July 1967): <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
+- Autosport, Matt Somerfield, "Banned: The ingenious twin-chassis Lotus F1 car" (April 2020): <https://www.autosport.com/news/report.php/id/149000>
+- Motor Sport, Graham Keilloh, "Watch Lotus's last great Formula 1 innovation" (March 2019): <https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation>
+- Formula 1, "VOTE NOW: Who is the most influential technical innovator in F1 history?": <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
+- Formula 1, "Adrian Newey's Red Bull exit is confirmed – what next for the star designer?": <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>

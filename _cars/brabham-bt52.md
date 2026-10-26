@@ -35,7 +35,7 @@ Gordon Murray started from a simple line of reasoning. The BMW turbo engine woul
 
 Three other choices mattered:
 
-- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly fitted off the car, prepared at the factory. Formula 1 notes that the system was later widely copied;
+- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly fitted off the car, prepared at the factory. formula1.com notes that the system was later widely copied;
 - **a car designed for [refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement)**, which Brabham and Murray had reintroduced in 1982: a smaller tank, and a pressurised filling system delivering more than 30 gallons in about three seconds;
 - **mixed construction**: bulkhead and lower tub in aluminium, upper tub in [carbon]({{ site.baseurl }}/en/glossary/#composite-carbone), with carbon roll hoops. With Brabham's resources, Murray did not follow McLaren down the all-carbon route.
 

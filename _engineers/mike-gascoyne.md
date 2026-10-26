@@ -36,6 +36,6 @@ Mike Gascoyne, trained in fluid dynamics at Cambridge, moved from aerodynamics t
 
 GrandPrix.com credits the Renault chassis of 2003 to 2006 to the group he built, not to him alone: he left the team in summer 2003, and Bob Bell, his deputy, became its technical director. Likewise, the Jordan 199 was the work of a team he led.
 
-## Source discrepancies
+## Where sources disagree
 
 His role on returning to Tyrrell varies: chief designer according to GrandPrix.com, deputy technical director under Postlethwaite according to Toyota.

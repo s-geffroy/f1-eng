@@ -46,7 +46,7 @@ Ces masses rassemblées lui donnent un faible [moment polaire d'inertie]({{ site
 
 - Les débuts sont laborieux : le châssis doit être renforcé contre la torsion, et la circulation d'huile est d'abord si mauvaise que le V8 ne tient que quatre ou cinq tours.
 - Vive, la voiture prévient mal : les pilotes sentent à peine venir la perte d'adhérence.
-- La puissance progresse avec le développement, d'environ 250 ch à quelque 275 ch selon Doug Nye (Motor Sport) ; Chris Nixon indique 260 ch à 8 000 tr/min.
+- La puissance progresse avec le développement, d'environ 250ch à quelque 275ch selon Doug Nye (Motor Sport) ; Chris Nixon indique 260ch à 8000tr/min.
 
 ## Ce qu'elle laisse
 

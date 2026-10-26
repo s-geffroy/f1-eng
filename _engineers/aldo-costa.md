@@ -33,9 +33,9 @@ Aldo Costa is [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}
 
 - He started at Abarth in 1987, then became Minardi's chief designer at the age of 27 (Autosport has his career beginning at Minardi in 1988).
 - **Ferrari.** Byrne's deputy, then head of design and development, then technical director. In late 2004, Byrne announced that the 2005 car project was being led by Costa; in 2006, he said of the new car: "this year he has done it on his own". In May 2011, after a winless start to the season, he left the post of technical director.
-- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team. Formula 1 presents him as a central cog in the five doubles of the hybrid era (2014-2018).
+- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team. formula1.com presents him as a central cog in the five doubles of the hybrid era (2014-2018).
 - He then joined Dallara.
 
 ## Where sources disagree
 
-The number of constructors' titles he contributed to varies: twelve according to Formula 1, thirteen according to Autosport.
+The number of constructors' titles he contributed to varies: twelve according to formula1.com, thirteen according to Autosport.

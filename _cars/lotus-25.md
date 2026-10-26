@@ -31,9 +31,9 @@ image: "/assets/partage/en/voitures/lotus-25.jpg"
 
 On 18 May 1962, the Lotus 25 arrived in the Zandvoort paddock, where every other F1 car was built on a [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire). It abandoned that principle for an aircraft-style [monocoque tub]({{ site.baseurl }}/en/glossary/#monocoque), made of riveted panels.
 
-The gain can be measured. According to Motor Sport, torsional stiffness rose from about 700 lb-ft per degree for the Lotus 24, its spaceframe sister, to nearly 1,000 for the 25's tub, and to 2,400 once the V8 was installed. The engine was nevertheless not a fully stressed member.
+The gain can be measured. According to Motor Sport, torsional stiffness rose from about 700lb-ft per degree for the Lotus 24, its spaceframe sister, to nearly 1,000 for the 25's tub, and to 2,400 once the V8 was installed. The engine was nevertheless not a fully stressed member.
 
-Chapman himself spoke of a “bathtub” rather than a monocoque. As a precaution, Lotus had designed the 24 as a spaceframe in case the 25 proved unsatisfactory: the 24 was sold to customers, while the 25 stayed with the works team.
+Chapman himself spoke of a "bathtub" rather than a monocoque. As a precaution, Lotus had designed the 24 as a spaceframe in case the 25 proved unsatisfactory: the 24 was sold to customers, while the 25 stayed with the works team.
 
 ## Who designed it
 

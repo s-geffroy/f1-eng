@@ -29,6 +29,6 @@ Alan Styman est le chef dessinateur de Lotus au moment de la **Lotus 25** (1962)
 - Doug Nye écrit que le premier châssis, « R1 », dessiné par Styman, est fabriqué en secret.
 - Le Colin Chapman Museum le place en tête de la liste des membres « supposés » de l'équipe réunie par Chapman pour la 25, sans préciser les rôles.
 
-## Une entrée courte
+## Limites des sources
 
 Styman n'est connu que par ce que disent de la Lotus 25 des articles consacrés à la voiture ou à Chapman. Le site s'en tient à ces faits.

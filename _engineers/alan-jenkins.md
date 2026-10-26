@@ -37,4 +37,4 @@ Alan Jenkins was [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnar
 
 ## Limits of the sources
 
-Most of these facts rest on GrandPrix.com, occasionally cross-checked by Motor Sport and Formula 1.
+Most of these facts rest on GrandPrix.com, occasionally cross-checked by Motor Sport and formula1.com.

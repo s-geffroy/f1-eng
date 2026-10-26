@@ -5,7 +5,7 @@ accroche: "Moins de puissance, donc plus d'aérodynamique."
 description: "March 881 (1988) : la première F1 d'Adrian Newey, atmosphérique face aux turbos, avec un ensemble nez-aileron avant intégré et creusé dessous pour alimenter le plancher."
 annee: 1988
 equipe: "March (Leyton House)"
-moteur: "Judd, atmosphérique (environ 580 ch selon Formula 1)"
+moteur: "Judd, atmosphérique (environ 580ch selon formula1.com)"
 statut: "A couru en 1988 et au début de 1989 ; aucune victoire ; deuxième place de Capelli au Grand Prix du Portugal 1988"
 concepteurs: ["adrian-newey"]
 termes: ["aileron", "nez-releve", "appui"]
@@ -24,13 +24,13 @@ image: "/assets/partage/voitures/march-881.jpg"
 ---
 ## Ce qu'elle change
 
-En 1988, pour sa deuxième saison depuis son retour en F1, March dispose d'un moteur atmosphérique Judd d'environ 580 ch, face à des turbos bien plus puissants. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands.
+En 1988, pour sa deuxième saison depuis son retour en F1, March dispose d'un moteur atmosphérique Judd d'environ 580ch, face à des turbos bien plus puissants. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands.
 
-La 881 traite l'avant autrement. Jusque-là, selon Formula 1, la règle était un nez volumineux encadré de deux volets séparés. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal. L'ensemble assure un écoulement propre sous l'aileron, et donc vers le plancher ; et le dessous du nez est creusé : la dépression qui s'y forme attire l'air sur l'aileron et augmente l'appui.
+La 881 traite l'avant autrement. Jusque-là, selon formula1.com, la règle était un nez volumineux encadré de deux volets séparés. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal. L'ensemble assure un écoulement propre sous l'aileron, et donc vers le plancher ; et le dessous du nez est creusé : la dépression qui s'y forme attire l'air sur l'aileron et augmente l'appui.
 
-Formula 1 en fait « en pratique le prototype » de la F1 conçue par l'aérodynamique, et le début conceptuel de l'ère du [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve). La voiture inaugure aussi, selon la même source, les dérives d'aileron plus travaillées en trois dimensions.
+formula1.com en fait « en pratique le prototype » de la F1 conçue par l'aérodynamique, et le début conceptuel de l'ère du [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve). La voiture inaugure aussi, selon la même source, les dérives d'aileron plus travaillées en trois dimensions.
 
-**Un point de divergence.** Newey affirme à Motor Sport que la 881, et non la Tyrrell de 1990, a été la première F1 à nez relevé : « nous avons relevé le dessous du nez et cherché à en faire un prolongement de l'aileron avant ». Goodwood parle aussi d'un nez relevé. Formula 1 est plus nuancé : la 881 ouvre l'ère du nez relevé par ses objectifs, « même si le nez de la March était lui-même plat ». Le site retient la Tyrrell 019 comme première voiture à nez relevé, et la 881 comme l'étape qui la précède.
+**Un point de divergence.** Newey affirme à Motor Sport que la 881, et non la Tyrrell de 1990, a été la première F1 à nez relevé : « nous avons relevé le dessous du nez et cherché à en faire un prolongement de l'aileron avant ». Goodwood parle aussi d'un nez relevé. formula1.com est plus nuancé : la 881 ouvre l'ère du nez relevé par ses objectifs, « même si le nez de la March était lui-même plat ». Le site retient la Tyrrell 019 comme première voiture à nez relevé, et la 881 comme l'étape qui la précède.
 
 ## Qui l'a conçue
 

@@ -45,7 +45,7 @@ Gustav Brunner, an Austrian mechanical engineer from Graz, worked for at least s
 - **End at Toyota.** He led the design team until the end of 2005. Toyota then explained that the chief designer post "has become obsolete", with the work split between three parallel groups.
 - **The Cologne case (2006).** In January 2006, Autosport reported that Cologne prosecutors had charged him, with Ove Andersson and René Hilhorst, with breaching German competition law: according to the charges, the team knowingly used, in 2002 and 2003, a data analysis program illegally copied by a technician who had come from Ferrari. Brunner denied all the accusations and said no Ferrari data or software had been at Toyota. The article does not give the outcome of the case, and this site has not found it.
 
-## Source discrepancies
+## Where sources disagree
 
 - **His title at Toyota.** Toyota's announcement, as carried by Crash.net, makes him chief designer, there to "head up our design team"; Autosport and Reuters call him technical director, succeeding André de Cortanze according to Autosport. Atlas F1, in 2003, and Autosport, in 2006, again call him chief designer.
 - **Dates.** GrandPrix.com puts his first arrival at Ferrari in 1985 or 1986. His return to Maranello is dated to the end of 1993 by Crash.net, to half a season after joining Minardi in 1993 by GrandPrix.com, and to the end of 1994 by Atlas F1. His return to Minardi is dated to February 1998 by GrandPrix.com, to 1999 by Atlas F1.

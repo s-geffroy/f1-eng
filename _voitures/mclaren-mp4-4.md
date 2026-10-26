@@ -35,16 +35,16 @@ image: "/assets/partage/voitures/mclaren-mp4-4.jpg"
 
 En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation. En théorie, ces règles favorisent les rivaux à moteur atmosphérique ; McLaren reste pourtant confiant. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe.
 
-Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28 mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
+Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
 
 McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, juste jusque dans ses moindres détails.
 
 ## Qui l'a conçue
 
-La question divise, jusque chez Formula 1, qui attribue la voiture tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), tantôt à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Autosport a confronté les versions en 2017.
+La question divise, jusque chez formula1.com, qui attribue la voiture tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), tantôt à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Autosport a confronté les versions en 2017.
 
 - **Murray**, directeur technique, voit dans la MP4/4 le prolongement de sa Brabham BT55, une voiture basse au pilote très allongé. Il dit avoir obtenu de Honda un moteur plus bas, ce que confirme [Osamu Goto]({{ site.baseurl }}{% link _ingenieurs/osamu-goto.md %}), alors chez Honda. Personne ne conteste que la boîte était son projet.
-- **Nichols**, concepteur en chef, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
+- **Nichols**, chef designer, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
 - **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
 
 Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell, David North et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus), ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.

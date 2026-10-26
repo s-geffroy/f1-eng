@@ -32,6 +32,6 @@ Steve Wise est l'ingénieur du **matériel électronique** de la [suspension act
 - Il devient ensuite chef de l'électronique de Williams. Sur la FW15C de 1993, écrit Adam Cooper (Motor Sport, 2023), une grande partie de l'électronique est développée par deux ingénieurs seulement, Lowe et Wise.
 - En 2016, l'article de Motor Sport consacré à Lowe le dit toujours chez Williams.
 
-## Une entrée courte
+## Limites des sources
 
 Steve Wise n'apparaît que dans des articles consacrés à d'autres (Dernie, Lowe, Head, la FW15C, l'arrivée de Newey chez Williams) ; aucun entretien avec lui n'a été trouvé. Les sources ne disent pas non plus précisément qui, de Wise ou de Lowe, a conçu le premier calculateur : The Race l'attribue à Wise, Lowe parle d'un travail commun. Le site s'en tient à ces mentions.

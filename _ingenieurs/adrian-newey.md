@@ -71,7 +71,7 @@ Il a démontré cette capacité sous plusieurs règlements et dans plusieurs éq
 
 **March, devenue Leyton House → Williams → McLaren → Red Bull → Aston Martin (depuis 2025)**
 
-- **Formation.** Diplômé en aéronautique de l'université de Southampton avec la mention la plus haute, il y écrit un mémoire sur l'aérodynamique à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). Son premier poste, en 1980 (juillet 1979 selon Formula 1), est chez Fittipaldi, sous [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}).
+- **Formation.** Diplômé en aéronautique de l'université de Southampton avec la mention la plus haute, il y écrit un mémoire sur l'aérodynamique à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). Son premier poste, en 1980 (juillet 1979 selon formula1.com), est chez Fittipaldi, sous [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}).
 - **March.** Selon GrandPrix.com, Al Unser gagne le titre IndyCar 1985 sur une March 85C, et Bobby Rahal en ajoute un second en 1986. En F1, la March 881 de 1988 introduit un ensemble nez et [aileron]({{ site.baseurl }}/glossaire/#aileron) avant entièrement intégré, creusé dessous.
 - **Leyton House.** La CG901 de 1990 souffre d'abord d'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) défaillante ; le problème corrigé, elle mène la majeure partie du Grand Prix de France et finit deuxième.
 - **Williams.** La FW14 prolonge la CG901. Ses Williams de 1991 à 1997 gagnent 59 Grands Prix (58 selon GrandPrix.com). Le [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à sortie surélevée apparaît fin 1995 sur la FW17B et devient un atout majeur de la Williams 1996.

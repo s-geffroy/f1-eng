@@ -47,11 +47,11 @@ La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatina
 
 ## Qui l'a conçue
 
-Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987), Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (Formula 1). Selon Head, Newey n'a pas pris part au développement du système actif.
+Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987), Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
 
 ## Limites
 
-- La FW14B n'est qu'une adaptation. Formula 1 le rappelle : c'est une voiture existante à laquelle on a ajouté la suspension active, alors que la FW15C sera conçue dès le départ autour d'elle.
+- La FW14B n'est qu'une adaptation. formula1.com le rappelle : c'est une voiture existante à laquelle on a ajouté la suspension active, alors que la FW15C sera conçue dès le départ autour d'elle.
 - Le système est surtout réactif. À l'entrée des virages, la voiture flotte un court instant avant de se stabiliser. Mansell accepte cette sensation pour l'adhérence qui suit ; Riccardo Patrese, lui, réclame plus de ressenti.
 
 ## Ce qu'elle laisse

@@ -49,7 +49,7 @@ This table shows **intellectual lineages**, not master–pupil relationships.
 - **Barnard**: probably the clearest authorship, with two direct innovations that became universal.
 - **Newey**: the most durable adaptation, at the top of aerodynamics across several generations of regulations.
 
-This ranking is not a one-dimensional scale of “genius”. It ranks **historical capacities to shift the technical frontier of Formula 1**.
+This ranking is not a one-dimensional scale of "genius". It ranks **historical capacities to shift the technical frontier of Formula 1**.
 
 > Revolutionising F1 is not just about building the fastest car: it is about forcing others to change the way they build an F1 car.
 
@@ -63,15 +63,15 @@ This ranking is not a one-dimensional scale of “genius”. It ranks **historic
 
 Consulted on 9 August 2026, rechecked on 26 October 2026. Each entry gives its own sources.
 
-- Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”: <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
-- Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history”: <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>
-- Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”: <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
-- Formula 1, “John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations”: <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
-- Formula 1, “Why the Williams FW15C remains F1's technological Tour de Force”: <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
-- Lotus, “Lotus Type 25 — The Revolutionary Monocoque”: <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
-- McLaren, “MP4/1”: <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
-- Renault, “30 ans de Formule 1”: <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
-- Motor Sport Magazine, “Cooper T51: the revolutionary car that changed F1 forever”: <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
-- Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”: <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
-- Motor Sport Magazine, “The Lotus 49” (July 1967): <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
-- Motor Sport Magazine, “Lunch with… Frank Dernie”: <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Formula 1, "VOTE NOW: Who is the most influential technical innovator in F1 history?": <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
+- Formula 1, "The 75 best drivers, cars, innovations, teams and key figures in F1 history": <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>
+- Formula 1, "TECH TUESDAY: The Lotus 79, F1's ground effect marvel": <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+- Formula 1, "John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations": <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
+- Formula 1, "Why the Williams FW15C remains F1's technological Tour de Force": <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
+- Lotus, "Lotus Type 25 — The Revolutionary Monocoque": <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
+- McLaren, "MP4/1": <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
+- Renault, "30 ans de Formule 1": <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
+- Motor Sport Magazine, "Cooper T51: the revolutionary car that changed F1 forever": <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, "The rise and fall of the single-seater Cooper": <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, "The Lotus 49" (July 1967): <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
+- Motor Sport Magazine, "Lunch with… Frank Dernie": <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>

@@ -31,7 +31,7 @@ In 1958, Coopers had already won in Argentina and at Monaco: the first champions
 
 The principle, as Motor Sport recalls: with no propeller shaft to route under or around the driver, he can be seated lower and the car's frontal area reduced. The masses stay within the wheelbase, hence a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire).
 
-The car itself changed little from the previous model: a welded [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) of curved steel tubes. What made the difference, according to Motor Sport, was the new 2.5-litre, 245 hp Coventry Climax FPF, whose detailed design only began on 1 December 1958, sixteen weeks before its debut.
+The car itself changed little from the previous model: a welded [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) of curved steel tubes. What made the difference, according to Motor Sport, was the new 2.5-litre, 245hp Coventry Climax FPF, whose detailed design only began on 1 December 1958, sixteen weeks before its debut.
 
 ## Who designed it
 

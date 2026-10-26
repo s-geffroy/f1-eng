@@ -35,13 +35,13 @@ image: "/assets/partage/en/voitures/mclaren-mp4-4.jpg"
 
 In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure. In theory, these rules favoured the rivals with naturally aspirated engines; McLaren nevertheless remained confident. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away.
 
-Its principle: a very low car. The new Honda V6 had its crankshaft 28 mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
+Its principle: a very low car. The new Honda V6 had its crankshaft 28mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
 
 McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, right down to the smallest detail.
 
 ## Who designed it
 
-The question divides opinion, even at Formula 1, which credits the car sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), sometimes to [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}). Autosport set the accounts side by side in 2017.
+The question divides opinion, even at formula1.com, which credits the car sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), sometimes to [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}). Autosport set the accounts side by side in 2017.
 
 - **Murray**, technical director, sees the MP4/4 as a continuation of his Brabham BT55, a low car with a steeply reclined driver. He says he got Honda to make a lower engine, which [Osamu Goto]({{ site.baseurl }}{% link _engineers/osamu-goto.md %}), then at Honda, confirms. No one disputes that the gearbox was his project.
 - **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."

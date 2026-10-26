@@ -23,7 +23,7 @@ image: "/assets/partage/maurice-philippe.jpg"
 ---
 ## Ce qu'il a fait
 
-Maurice Philippe est le concepteur en chef de Team Lotus à la fin des années 1960. Il est généralement crédité, avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}), de la **Lotus 72** de 1970 ; la part de chacun est discutée.
+Maurice Philippe est le chef designer de Team Lotus à la fin des années 1960. Il est généralement crédité, avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}), de la **Lotus 72** de 1970 ; la part de chacun est discutée.
 
 ## Parcours technique
 

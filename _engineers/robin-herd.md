@@ -44,7 +44,7 @@ Robin Herd moved from aerospace to F1: he drew the first McLaren F1 car, then be
 - **What followed.** From then on, March F1 cars were derived from its F2 cars. In 1973, James Hunt made his Grand Prix debut in Peterson's former 721G, reworked and run by Hesketh, whose team included [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}), coaxed from March.
 - **Herd's view.** "I was wrong to do X when I did. It overstretched us."
 
-## Fragile points
+## Limits of the sources
 
 - **Ground effect in Can-Am.** According to Mark Hughes, Herd designed the McLaren M8 Can-Am car, whose underbody generated [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) well before F1; Herd recalled measuring the underbody pressure at Goodwood with a vacuum gauge. This site found only one source for this and does not extend it further.
 - **The chief designer title.** According to Motor Sport, he joined McLaren with that title, which by his own admission he was in no way equipped to justify. Of all the places he worked, he said, McLaren had "by far" the greatest combined intellect, brought together around Bruce McLaren.

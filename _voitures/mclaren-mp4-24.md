@@ -35,11 +35,11 @@ image: "/assets/partage/voitures/mclaren-mp4-24.jpg"
 ---
 ## Ce qu'elle change
 
-La MP4-24 est la McLaren de la première saison du [KERS]({{ site.baseurl }}/glossaire/#kers), autorisé en 2009. Le système récupère de l'énergie au freinage, la stocke pendant un tour et la restitue quand le pilote appuie sur un bouton du volant. Le règlement plafonne ce surcroît de puissance à 80 ch pendant 6,6 secondes par tour selon Formula 1 ; le dossier de presse de McLaren parle de 400 kJ et de 6,7 secondes. McLaren en attendait 0,3 à 0,5 seconde au tour.
+La MP4-24 est la McLaren de la première saison du [KERS]({{ site.baseurl }}/glossaire/#kers), autorisé en 2009. Le système récupère de l'énergie au freinage, la stocke pendant un tour et la restitue quand le pilote appuie sur un bouton du volant. Le règlement plafonne ce surcroît de puissance à 80ch pendant 6,6 secondes par tour selon formula1.com ; le dossier de presse de McLaren parle de 400 kJ et de 6,7 secondes. McLaren en attendait 0,3 à 0,5 seconde au tour.
 
 Le système est développé avec Mercedes-Benz HighPerformanceEngines, qui y travaille depuis près de deux ans au lancement de la voiture. Selon Crash.net, l'entreprise Zytek y a collaboré étroitement. [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}), à la tête de Mercedes High Performance Powertrains en 2019, fait remonter le début de la propulsion électrique « sérieuse » chez Mercedes à ce choix, fait en 2007, de développer son propre KERS, avec l'investissement à Brixworth dans les moteurs électriques, l'électronique et le logiciel.
 
-Le KERS a un prix. « Il pèse lourd, et cela réduit la liberté d'utiliser le lest pour jouer sur la configuration de la voiture », dit Paddy Lowe ; cela a « assez gravement » pénalisé McLaren en début de saison. Formula 1 rappelle que les systèmes de 2009 étaient lourds et difficiles à loger ; selon Autosport, seules quatre équipes en ont couru un, et deux l'ont abandonné avant la fin de l'année.
+Le KERS a un prix. « Il pèse lourd, et cela réduit la liberté d'utiliser le lest pour jouer sur la configuration de la voiture », dit Paddy Lowe ; cela a « assez gravement » pénalisé McLaren en début de saison. formula1.com rappelle que les systèmes de 2009 étaient lourds et difficiles à loger ; selon Autosport, seules quatre équipes en ont couru un, et deux l'ont abandonné avant la fin de l'année.
 
 ## Qui l'a conçue
 

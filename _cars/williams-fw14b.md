@@ -47,11 +47,11 @@ The FW14B also combined [traction control]({{ site.baseurl }}/en/glossary/#antip
 
 ## Who designed it
 
-Williams and Autosport credit [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), technical director, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). The active suspension was a chain of work: [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system (1987), Williams brought it back in enhanced form in 1992, and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) wrote most of the software for that version (Formula 1). According to Head, Newey played no part in developing the active system.
+Williams and Autosport credit [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), technical director, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}). The active suspension was a chain of work: [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system (1987), Williams brought it back in enhanced form in 1992, and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) wrote most of the software for that version (formula1.com). According to Head, Newey played no part in developing the active system.
 
 ## Limitations
 
-- The FW14B was only an adaptation. As Formula 1 points out, it was an existing car with active suspension added, whereas the FW15C would be designed around it from the outset.
+- The FW14B was only an adaptation. As formula1.com points out, it was an existing car with active suspension added, whereas the FW15C would be designed around it from the outset.
 - The system was mainly reactive. On corner entry, the car floated for a brief moment before settling. Mansell accepted that sensation for the grip that followed; Riccardo Patrese, for his part, wanted more feel.
 
 ## Legacy

@@ -50,7 +50,7 @@ On the MP4/4, Bell claims the aerodynamic design, not the concept: "The ownershi
 
 On the W05, his role was that of a technical director: he organised and oversaw; he was not the author of the power unit.
 
-## Source discrepancies
+## Where sources disagree
 
 - **Renault technical director**: from 2002 according to Autosport; from 2003, replacing Gascoyne, according to Auto123.
 - **Arrival at Mercedes**: April 2011 according to Auto123; Motor Sport writes that Brawn recruited him in 2012, which sits badly with Costa and Willis being announced as his reports in September 2011.

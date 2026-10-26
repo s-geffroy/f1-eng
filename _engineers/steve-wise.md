@@ -32,6 +32,6 @@ Steve Wise is the engineer behind the **electronic hardware** of Williams [activ
 - He later became head of electronics at Williams. On the 1993 FW15C, writes Adam Cooper (Motor Sport, 2023), much of the electronics was developed by just two engineers, Lowe and Wise.
 - In 2016, Motor Sport's article on Lowe described him as still with Williams.
 
-## A short entry
+## Limits of the sources
 
 Steve Wise only appears in articles devoted to others (Dernie, Lowe, Head, the FW15C, Newey's arrival at Williams); no interview with him has been found. Nor do the sources say exactly which of Wise and Lowe designed the first computer: The Race credits Wise, Lowe speaks of joint work. This site sticks to those mentions.

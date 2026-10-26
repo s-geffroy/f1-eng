@@ -73,6 +73,6 @@ Sources disagree on who shares credit for the original V6. Motor Sport says it w
 
 On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986: the development work belongs to the Renault Sport team. Idea, execution and spread should not be credited to the same person.
 
-## A short entry
+## Limits of the sources
 
 Boudy is documented mainly through one biographical profile, GrandPrix.com news items and mentions in articles devoted to Renault and Peugeot; no long interview with him has been found, only a few statements reported by Joe Saward at the launch of the Peugeot V10, and the sources do not detail Peugeot's F1 engines after 1994. This site sticks to those facts.

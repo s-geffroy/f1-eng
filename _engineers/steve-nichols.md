@@ -23,7 +23,7 @@ image: "/assets/partage/en/steve-nichols.jpg"
 ---
 ## What he did
 
-Formula 1 attributes the creation of the **McLaren MP4/4**, which it presents as the most dominant F1 car in history, sometimes to Steve Nichols, sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}).
+formula1.com attributes the creation of the **McLaren MP4/4**, which it presents as the most dominant F1 car in history, sometimes to Steve Nichols, sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}).
 
 ## Technical career
 

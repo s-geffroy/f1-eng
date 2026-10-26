@@ -43,19 +43,19 @@ Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingéni
 
 Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle.
 
-- Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13 cm dans l'empattement.
-- La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que Formula 1 présente comme une première en F1, ensuite adoptée par tout le plateau ; selon Motor Sport, Forghieri suivait en partie une voie ouverte en 1972 par Tyrrell et March.
+- Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13cm dans l'empattement.
+- La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que formula1.com présente comme une première en F1, ensuite adoptée par tout le plateau ; selon Motor Sport, Forghieri suivait en partie une voie ouverte en 1972 par Tyrrell et March.
 - La famille 312T remporte trois titres pilotes et quatre titres constructeurs.
 
 ## Autres jalons
 
-- Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. Formula 1 rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
+- Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. formula1.com rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
 - Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981.
 - À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le V12 court en F1 à partir de 1989.
 
 ## Attribution
 
-Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : Formula 1 précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions.
+Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : formula1.com précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions.
 
 ## Pourquoi le Tier B
 

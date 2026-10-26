@@ -51,7 +51,7 @@ His company, Traction Products, in Costa Mesa, California, was founded in 1963 b
 
 According to Autosport, the MP4/4 gearbox was Murray's project, "his baby", and nobody disputes it. Weismann and North designed it: Murray says Weismann "came to the rescue with David".
 
-## Source discrepancies
+## Where sources disagree
 
 - **The MP4/4 gearbox**: Autosport (2017) and Motor Sport (2024) credit Weismann and North together; in Motor Sport in 2005, Murray names only Weismann. [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), for his part, explained in 2021 that Weismann was brought in to oversee the gearbox (Motor Sport).
 - **The BT55 layout**: according to Keith Howard, Weismann had suggested the car's layout; his widow, Michelle, blamed its failure on a lack of effort from BMW. Murray presents the laid-down car as his own idea, drawn from the 1971 project.

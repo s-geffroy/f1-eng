@@ -30,7 +30,7 @@ consultation: "25 octobre 2026"
 image: "/assets/partage/andy-cowell.jpg"
 redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 ---
-## Ce qu'il a réalisé
+## Ce qu'il a changé
 
 Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique exceptionnelle. De 2014 à 2020, Cowell a supervisé la production de ces moteurs V6 hybrides.
 
@@ -42,7 +42,7 @@ Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe
 
 - Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**.
 - En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur utilisé par Williams jusqu'en 2001.
-- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon Formula 1).
+- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon formula1.com).
 - Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie.
 
 ## Intégration avec le châssis

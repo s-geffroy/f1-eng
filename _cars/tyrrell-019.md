@@ -29,13 +29,13 @@ image: "/assets/partage/en/voitures/tyrrell-019.jpg"
 ---
 ## What it changed
 
-The Tyrrell 019 appeared at the 1990 San Marino Grand Prix, at Imola. Its [nose]({{ site.baseurl }}/en/glossary/#nez-releve) was sharply raised, and the front [wing]({{ site.baseurl }}/en/glossary/#aileron) dropped towards its tips, in anhedral. According to Formula 1, the aim was to send more air under the car. Motor Sport presents it as the car that changed the shape of 1990s aerodynamics.
+The Tyrrell 019 appeared at the 1990 San Marino Grand Prix, at Imola. Its [nose]({{ site.baseurl }}/en/glossary/#nez-releve) was sharply raised, and the front [wing]({{ site.baseurl }}/en/glossary/#aileron) dropped towards its tips, in anhedral. According to formula1.com, the aim was to send more air under the car. Motor Sport presents it as the car that changed the shape of 1990s aerodynamics.
 
 Under the bodywork, there was little new. "The 018 and 019 are the same car mechanically," says Jean-Claude Migeot: the rear, gearbox included, was identical; only the front changed completely. The 019 also kept from the 018 a front actuator, powered by a small battery under the seat, which let the driver adjust the ride height.
 
 ## Who designed it
 
-Motor Sport credits it to [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) and the aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}). Formula 1 names only Migeot. According to Autosport, the idea of the raised nose and the anhedral wing came from Migeot, who had conceived it five years earlier, in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Renault.
+Motor Sport credits it to [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) and the aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}). formula1.com names only Migeot. According to Autosport, the idea of the raised nose and the anhedral wing came from Migeot, who had conceived it five years earlier, in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Renault.
 
 The same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose.
 

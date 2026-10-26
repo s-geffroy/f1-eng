@@ -38,13 +38,13 @@ image: "/assets/partage/en/voitures/williams-fw17b.jpg"
 
 The FW17B was not a new car: it was the 1995 FW17 in its end-of-season form. According to Autosport, it received revised suspension and aerodynamics and a new gearbox. Its lasting contribution lay elsewhere, under the back of the car.
 
-The 1995 rules imposed a stepped floor: a raised step plane, 50 mm above the reference plane on each side. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur).
+The 1995 rules imposed a stepped floor: a raised step plane, 50mm above the reference plane on each side. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur).
 
 The FW17B's diffuser was accordingly undercut and ran up over the exhausts rather than beneath them. "The diffusers were very exit-limited," Newey explains: a larger exit draws far more air under the car. According to him, the solution appeared on the FW17B at Estoril, late in 1995. He expected it to be copied for 1996, having shown it at "the worst possible time"; his rivals did not.
 
 ## Who designed it
 
-GrandPrix.com credits the FW17 to Adrian Newey and [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), with their team of design engineers at Didcot; Autosport names only Newey. Newey and Formula 1 present the diffuser idea as his, but Newey speaks in the plural: "we actually introduced it on the FW17B".
+GrandPrix.com credits the FW17 to Adrian Newey and [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), with their team of design engineers at Didcot; Autosport names only Newey. Newey and formula1.com present the diffuser idea as his, but Newey speaks in the plural: "we actually introduced it on the FW17B".
 
 The FW17 itself continued the line of the FW14, FW15 and FW16, according to GrandPrix.com. It adopted the [raised nose]({{ site.baseurl }}/en/glossary/#nez-releve) of the 1994 Benetton, which Head felt gave "a slight advantage" under the new rules, and a roomier cockpit for its two tall drivers, Damon Hill and David Coulthard.
 
@@ -57,4 +57,4 @@ The FW17 itself continued the line of the FW14, FW15 and FW16, according to Gran
 ## Legacy
 
 - **1995**, for the whole FW17 family: five wins (Hill in Argentina, San Marino, Hungary and Australia; Coulthard in Portugal) and, according to Autosport, twelve pole positions from seventeen races. Williams were second in the constructors' championship with 112 points, to Benetton's 137.
-- **The 1996 FW18** was developed from the FW17B. "It was sensible to take the root of that car and develop it," said Newey; it kept its six-speed transverse [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique). According to Formula 1, the undercut diffuser became a key advantage of the 1996 Williams, and Motor Sport speaks of a "massive aerodynamic advantage".
+- **The 1996 FW18** was developed from the FW17B. "It was sensible to take the root of that car and develop it," said Newey; it kept its six-speed transverse [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique). According to formula1.com, the undercut diffuser became a key advantage of the 1996 Williams, and Motor Sport speaks of a "massive aerodynamic advantage".

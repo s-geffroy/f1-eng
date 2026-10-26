@@ -32,4 +32,4 @@ Sam Michael est le directeur technique de Williams de 2004 à la fin de 2011, su
 
 ## Limites des sources
 
-Aucune source ouverte ne lui attribue une voiture ou une innovation précise chez Williams. Son titre à l'arrivée varie aussi : « chief operations engineer » pour Formula 1, « senior operations engineer » pour GrandPrix.com.
+Aucune source ouverte ne lui attribue une voiture ou une innovation précise chez Williams. Son titre à l'arrivée varie aussi : « chief operations engineer » pour formula1.com, « senior operations engineer » pour GrandPrix.com.

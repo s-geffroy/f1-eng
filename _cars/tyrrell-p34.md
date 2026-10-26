@@ -57,5 +57,5 @@ The first prototype used the rear end of the 1975 Tyrrell 007. Gardner left the 
 ## Legacy
 
 - **1976**: debut at the Spanish Grand Prix at Jarama, the fourth round; Patrick Depailler qualified behind only Hunt and Lauda. On 13 June at Anderstorp, Scheckter took the car's only pole and won ahead of Depailler. According to Motor Sport, one or other driver reached the podium ten times in thirteen races. Scheckter finished third in the championship, Depailler fourth, and Tyrrell third among constructors, with 71 points.
-- **1977**: one second place and three thirds. Depailler and Ronnie Peterson finished tenth and fourteenth. In testing at Silverstone, Karl Kempf, from Goodyear's racing division, fitted the car with sensors and went through the data with Derek Gardner; in his words, even detailed measurements “couldn't save it”.
+- **1977**: one second place and three thirds. Depailler and Ronnie Peterson finished tenth and fourteenth. In testing at Silverstone, Karl Kempf, from Goodyear's racing division, fitted the car with sensors and went through the data with Derek Gardner; in his words, even detailed measurements "couldn't save it".
 - In 1978 the Tyrrell 008 went back to four wheels; a four-wheel maximum rule later banned six-wheelers, in 1982 or 1983 depending on the source.

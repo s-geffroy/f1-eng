@@ -35,7 +35,7 @@ The Lotus 49 and the Cosworth DFV engine were designed together. Motor Sport not
 
 The same article points out that the car was not new in principle, but entirely new in execution. The [Lancia D50]({{ site.baseurl }}{% link _cars/lancia-d50.md %}) had already used its engine as a structural element in 1954. The Lotus 49 made it the norm.
 
-Development was tight: according to Denis Jenkinson (Motor Sport), the first 49 only ran in mid-May 1967, Graham Hill did all the testing, and Jim Clark first drove the car at Zandvoort, where he won the Dutch Grand Prix on its first outing. Goodwood, for its part, writes that the engine was mated to the car only “a few days” before the race.
+Development was tight: according to Denis Jenkinson (Motor Sport), the first 49 only ran in mid-May 1967, Graham Hill did all the testing, and Jim Clark first drove the car at Zandvoort, where he won the Dutch Grand Prix on its first outing. Goodwood, for its part, writes that the engine was mated to the car only "a few days" before the race.
 
 ## Who designed it
 

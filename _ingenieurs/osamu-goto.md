@@ -49,11 +49,11 @@ Osamu Goto est l'ingénieur qui dirige le programme moteur de F1 de Honda pendan
 
 Les moteurs Honda de cette époque sont l'œuvre d'un département entier ; les sources consultées font de Goto son chef, sans lui attribuer la conception d'un moteur précis. Sur la MP4/4, la demande d'un moteur plus bas vient de [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), alors que la paternité de la voiture reste discutée entre Murray et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Enfin, la fiche GrandPrix.com énumère des titres des constructeurs de 1986 à 1991, mais parle de « cinq » titres consécutifs pour Honda : le décompte est incohérent dans la source même.
 
-## Divergences entre les sources
+## Divergences entre sources
 
 - **La durée à la tête du programme F1** : six ans selon GrandPrix.com en juin 1996 ; OldRacingCars.com parle d'environ cinq ans de succès.
 - **Entre McLaren et Ferrari** : la fiche de GrandPrix.com et OldRacingCars.com placent un bref retour au Japon, chez Tokyo R&D (un mois selon GrandPrix.com) ; les nouvelles de 1996 de GrandPrix.com n'en parlent pas.
 
-## Une entrée courte
+## Limites des sources
 
 Goto est surtout documenté par des fiches biographiques, de brèves nouvelles et des mentions dans des articles consacrés à McLaren. Le site s'en tient à ces faits.

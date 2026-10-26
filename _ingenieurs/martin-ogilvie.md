@@ -48,7 +48,7 @@ Martin Ogilvie est un ingénieur de Team Lotus. Sur la **Lotus 78**, il détaill
 - **Lotus 80 (1979)** : la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium, avec des pièces en titane, est la sienne.
 - **Lotus 86 et 88 (1980-1981).** Selon Wright, Chapman les envoie, lui et Ogilvie, dessiner une voiture de course autour de l'idée de Wright, un fond articulé ; il en sort la 86, sur la coque en aluminium de la 81, puis la 88 à double châssis. Pour sa coque en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone), c'est Ogilvie qui propose le mode de construction : un essai de raideur du nid d'abeille avait cassé la peau intérieure et plié le panneau ; il suggère de couper la peau intérieure, de plier le panneau et de le renforcer de l'intérieur, ce qui donne les angles de la coque, moulée à plat. Quatre mois séparent le concept de la première coque (Keith Howard, Motor Sport, 2005).
 - **Lotus 87 (1981)** : après l'interdiction de la Lotus 88, l'équipe dessine sous sa direction cette voiture plus classique, sur la même coque.
-- **1982-1983** : concepteur en chef de Lotus, il se consacre surtout à la 93T à moteur turbo Renault.
+- **1982-1983** : chef designer de Lotus, il se consacre surtout à la 93T à moteur turbo Renault.
 - **1983** : il participe à la conception de la 94T, dessinée et construite en cinq semaines à partir des coques des 87/88, selon les lignes fixées par [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}) ; Motor Sport décrit d'ailleurs Ducarouge comme le meneur technique plutôt que le dessinateur des voitures qu'on lui attribue.
 - **Lotus 96T (1984).** Pour ce projet d'IndyCar, Ducarouge confie le dessin à Ogilvie et à Gene Varnier, avec un cahier des charges tenant sur une feuille, en parallèle de la 97T de F1. Ogilvie prépare un dossier sur la résistance d'une coque en carbone pour convaincre les instances américaines ; mais le règlement 1985 de CART impose une peau extérieure en aluminium, et la voiture ne court jamais (Gordon Cruickshank, Motor Sport, 2004).
 
@@ -60,7 +60,7 @@ Selon OldRacingCars, il travaille ensuite pour Racing Team Norfolk et Prodrive, 
 
 Ogilvie dessine et dirige des dessins, mais les concepts viennent d'autres : Chapman pour la 77, Wright pour le fond articulé de la 86 et de la 88, Ducarouge pour les lignes de la 94T. Le mode de construction de la coque de la 88 lui revient, selon le seul témoignage de Wright.
 
-## Divergences entre les sources
+## Divergences entre sources
 
 - **Son arrivée chez Lotus** : milieu de 1972 selon Sports Car Digest ; OldRacingCars le fait figurer chez Lotus de 1976 à 1988, alors que Motor Sport le cite déjà sur la 77 en 1975.
 

@@ -1,8 +1,8 @@
 ---
 title: "McLaren MP4-20"
 nom_tri: "mclaren mp4-20"
-accroche: "Ten wins, and a secret hidden behind the name “J-damper”."
-description: "McLaren MP4-20 (2005): according to the University of Cambridge and the device's inventor, the first car to race an inerter, brought from Cambridge under the codename “J-damper”; ten wins, but reliability that cost both titles."
+accroche: "Ten wins, and a secret hidden behind the name \"J-damper\"."
+description: "McLaren MP4-20 (2005): according to the University of Cambridge and the device's inventor, the first car to race an inerter, brought from Cambridge under the codename \"J-damper\"; ten wins, but reliability that cost both titles."
 annee: 2005
 equipe: "McLaren"
 moteur: "Mercedes-Benz FO 110R, V10"
@@ -35,9 +35,9 @@ image: "/assets/partage/en/voitures/mclaren-mp4-20.jpg"
 ---
 ## What it changed
 
-The 2005 rules cut [downforce]({{ site.baseurl }}/en/glossary/#appui): the front [wing]({{ site.baseurl }}/en/glossary/#aileron) was raised by 50 mm, the height of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) restricted, and the rear wing moved well forward. According to McLaren, wind-tunnel data pointed to as much as 28% less downforce. The MP4-20 built on the lessons of the MP4-18 and both versions of the MP4-19, with revised deflectors and suspension geometry. Its Mercedes V10 now had to last two Grands Prix.
+The 2005 rules cut [downforce]({{ site.baseurl }}/en/glossary/#appui): the front [wing]({{ site.baseurl }}/en/glossary/#aileron) was raised by 50mm, the height of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) restricted, and the rear wing moved well forward. According to McLaren, wind-tunnel data pointed to as much as 28% less downforce. The MP4-20 built on the lessons of the MP4-18 and both versions of the MP4-19, with revised deflectors and suspension geometry. Its Mercedes V10 now had to last two Grands Prix.
 
-Its most lasting novelty long remained invisible. On 8 May 2005, at the Spanish Grand Prix, Kimi Räikkönen won in the first car to race an [inerter]({{ site.baseurl }}/en/glossary/#inerter), according to the University of Cambridge and Malcolm Smith himself. The device, conceived by Smith at Cambridge in 1997, links two points of the suspension: a plunger drives a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends. Combined with the springs and dampers, it reduces oscillation. Formula 1 sums up the effect: it soaks up some of the energy, eases the load on the tyre and allows softer springs, and so more mechanical grip at low speed.
+Its most lasting novelty long remained invisible. On 8 May 2005, at the Spanish Grand Prix, Kimi Räikkönen won in the first car to race an [inerter]({{ site.baseurl }}/en/glossary/#inerter), according to the University of Cambridge and Malcolm Smith himself. The device, conceived by Smith at Cambridge in 1997, links two points of the suspension: a plunger drives a flywheel, and the force transmitted is proportional to the relative acceleration of its two ends. Combined with the springs and dampers, it reduces oscillation. formula1.com sums up the effect: it soaks up some of the energy, eases the load on the tyre and allows softer springs, and so more mechanical grip at low speed.
 
 The university patented the device, then approached McLaren in confidence; the team secured exclusive rights in F1 for a limited period. To keep the secret, it called it the "J-damper": the "J" meant nothing and the device is not a damper. According to Smith, the decoy was also meant to make it harder for an engineer leaving McLaren for another team to connect the device with Cambridge's published work.
 
@@ -50,7 +50,7 @@ The inerter itself came from Malcolm Smith and his Cambridge group; no source co
 ## Limitations
 
 - **Reliability.** McLaren lists the losses: a tyre valve in Malaysia with Räikkönen leading, a driveshaft at San Marino, a suspension failure on the last lap at the Nürburgring after a flat-spotted tyre, a hydraulic leak in Germany while leading from pole, an engine failure in practice at Monza that sent him to eleventh on the grid. Juan Pablo Montoya, injured, missed two races.
-- **A disputed date.** Formula 1 wrote in 2022 that inerters were "first used on the 1997 McLaren". The University of Cambridge and Smith place the first race in 2005; 1997, according to them, is the year Smith conceived the device.
+- **A disputed date.** formula1.com wrote in 2022 that inerters were "first used on the 1997 McLaren". The University of Cambridge and Smith place the first race in 2005; 1997, according to them, is the year Smith conceived the device.
 
 ## Legacy
 

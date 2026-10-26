@@ -36,7 +36,7 @@ redirect_from: "/ingenieurs/2026/10/25/owen-maddock.html"
 
 La présence d'Owen Maddock corrige le récit simplifié « Cooper = John Cooper ». Il est le **chef designer** de la Cooper Car Company pendant les années 1950 et le début des années 1960, et donc pendant les titres de 1959 et 1960.
 
-## Ce qu'il a apporté
+## Ce qu'il a changé
 
 - Il entre chez Cooper en avril 1948, comme ajusteur et dessinateur.
 - Il est l'homme du châssis à **[tubes courbes]({{ site.baseurl }}/glossaire/#chassis-tubulaire)**, apparu sur la Mk VIII puis étendu à la gamme. Longtemps moqué, ce châssis s'impose en 1958, quand Stirling Moss gagne en Argentine : c'est la première victoire en Grand Prix de championnat d'une voiture à moteur central.

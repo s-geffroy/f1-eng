@@ -43,8 +43,8 @@ Kempf ne se dit pas le premier à mesurer : « nous sommes les premiers à utili
 
 ## Comment elle est faite
 
-- **Châssis et moteur** : selon Autosport, une monocoque en aluminium, le V8 Cosworth DFV de 2 993 cm³ (environ 485 ch), une boîte Hewland FGA 400 à cinq rapports, des pneus Goodyear et un poids de 585 kg.
-- **Un ventilateur caché.** Son trait le plus radical devait être un [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur), placé derrière le réservoir et devant le moteur, entraîné par le bout du vilebrequin. Il aspirait l'air à travers des radiateurs montés dans le fond, puis le rejetait au-dessus des cornets d'admission. Essayé au Paul-Ricard, sa seule sortie en piste, il pose problème chaque fois que le DFV approche 10 500 tr/min ; Gentry évoque une surchauffe. Les radiateurs sont alors remontés sur la carrosserie, près des roues arrière.
+- **Châssis et moteur** : selon Autosport, une monocoque en aluminium, le V8 Cosworth DFV de 2993cm³ (environ 485ch), une boîte Hewland FGA 400 à cinq rapports, des pneus Goodyear et un poids de 585kg.
+- **Un ventilateur caché.** Son trait le plus radical devait être un [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur), placé derrière le réservoir et devant le moteur, entraîné par le bout du vilebrequin. Il aspirait l'air à travers des radiateurs montés dans le fond, puis le rejetait au-dessus des cornets d'admission. Essayé au Paul-Ricard, sa seule sortie en piste, il pose problème chaque fois que le DFV approche 10500tr/min ; Gentry évoque une surchauffe. Les radiateurs sont alors remontés sur la carrosserie, près des roues arrière.
 - **Un carrossage piloté.** Philippe avait imaginé un contrôle actif du carrossage, essayé d'abord sur sa propre Ford Cortina. Selon Kempf, qui en conçoit l'électronique et les calculs, Brian Lisles en redessine la suspension ; deux boutons, l'un pour l'avant, l'autre pour l'arrière, permettent de régler le comportement de la voiture. Ce travail, dit-il, « a aidé à découvrir des difficultés aérodynamiques de la 008, qui sont passées dans la 009 ».
 
 ## Qui l'a conçue

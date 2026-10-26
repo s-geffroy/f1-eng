@@ -29,7 +29,7 @@ image: "/assets/partage/en/voitures/ferrari-312t.jpg"
 ---
 ## What it changed
 
-The “T” in 312T refers to its “trasversale” gearbox, as Motor Sport writes. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase. Formula 1 presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1.
+The "T" in 312T refers to its "trasversale" gearbox, as Motor Sport writes. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase. formula1.com presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1.
 
 The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), by gathering as much mass as possible between the axles. It was the culmination of an approach begun on the 312B3, which already sought to [centralise the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses) to make the car more agile.
 
@@ -39,7 +39,7 @@ The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of 
 
 ## Limitations
 
-On paper, Niki Lauda was at first unmoved; in testing, he found the car more demanding than the 312B3, but with far higher limits, and quickly realised it was in a different class. He would sum it up like this: “The chassis was just perfect; it was totally neutral and progressive.” The debut at Kyalami, in March 1975, went wrong: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
+On paper, Niki Lauda was at first unmoved; in testing, he found the car more demanding than the 312B3, but with far higher limits, and quickly realised it was in a different class. He would sum it up like this: "The chassis was just perfect; it was totally neutral and progressive." The debut at Kyalami, in March 1975, went wrong: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
 
 ## Legacy
 

@@ -37,4 +37,4 @@ Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieu
 
 ## Limites des sources
 
-La plupart de ces faits reposent sur GrandPrix.com, recoupé ponctuellement par Motor Sport et Formula 1.
+La plupart de ces faits reposent sur GrandPrix.com, recoupé ponctuellement par Motor Sport et formula1.com.

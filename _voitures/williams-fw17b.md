@@ -38,13 +38,13 @@ image: "/assets/partage/voitures/williams-fw17b.jpg"
 
 La FW17B n'est pas une voiture nouvelle : c'est la FW17 de 1995 dans sa version de fin de saison. Selon Autosport, elle reçoit une suspension et une aérodynamique revues, ainsi qu'une nouvelle boîte de vitesses. Son apport durable est ailleurs, sous l'arrière de la voiture.
 
-Le règlement de 1995 impose un fond à marche : une surface en gradin, placée 50 mm au-dessus du plan de référence de chaque côté. [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) le raconte à Motor Sport : contrairement au plan de référence, le texte n'oblige pas ce plan à marche à aller jusqu'à l'essieu arrière. Il peut donc s'arrêter au bord de la roue arrière, ce qui laisse une « zone grise » : on peut découper au-dessus du plan de référence et agrandir la sortie du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur).
+Le règlement de 1995 impose un fond à marche : une surface en gradin, placée 50mm au-dessus du plan de référence de chaque côté. [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) le raconte à Motor Sport : contrairement au plan de référence, le texte n'oblige pas ce plan à marche à aller jusqu'à l'essieu arrière. Il peut donc s'arrêter au bord de la roue arrière, ce qui laisse une « zone grise » : on peut découper au-dessus du plan de référence et agrandir la sortie du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur).
 
 Le diffuseur de la FW17B est ainsi creusé et remonte au-dessus des échappements au lieu de passer dessous. « Les diffuseurs étaient très limités par leur sortie », explique Newey : une sortie plus grande fait passer beaucoup plus d'air sous la voiture. Selon lui, la solution apparaît sur la FW17B à Estoril, fin 1995. Il s'attendait à la voir copiée pour 1996, l'ayant montrée au « pire moment possible » ; ses rivaux ne l'ont pas fait.
 
 ## Qui l'a conçue
 
-GrandPrix.com attribue la FW17 à Adrian Newey et à [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), avec leur équipe d'ingénieurs de Didcot ; Autosport ne cite que Newey. L'idée du diffuseur est présentée par Newey et par Formula 1 comme la sienne, mais Newey en parle au pluriel : « nous l'avons introduit sur la FW17B ».
+GrandPrix.com attribue la FW17 à Adrian Newey et à [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), avec leur équipe d'ingénieurs de Didcot ; Autosport ne cite que Newey. L'idée du diffuseur est présentée par Newey et par formula1.com comme la sienne, mais Newey en parle au pluriel : « nous l'avons introduit sur la FW17B ».
 
 La FW17 elle-même prolonge la lignée des FW14, FW15 et FW16, selon GrandPrix.com. Elle adopte le [nez relevé]({{ site.baseurl }}/glossaire/#nez-releve) de la Benetton de 1994, dont Head estime qu'il donne « un léger avantage » avec le nouveau règlement, et un cockpit élargi pour ses deux grands pilotes, Damon Hill et David Coulthard.
 
@@ -57,4 +57,4 @@ La FW17 elle-même prolonge la lignée des FW14, FW15 et FW16, selon GrandPrix.c
 ## Ce qu'elle laisse
 
 - **1995**, pour toute la famille FW17 : cinq victoires (Hill en Argentine, à Saint-Marin, en Hongrie et en Australie ; Coulthard au Portugal) et, selon Autosport, douze pole positions en dix-sept courses. Williams est deuxième des constructeurs avec 112 points, contre 137 à Benetton.
-- **La FW18 de 1996** est développée à partir de la FW17B. « Il était raisonnable de prendre la base de cette voiture et de la développer », dit Newey ; elle en reprend la [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) transversale à six rapports. Selon Formula 1, le diffuseur creusé devient l'un des atouts majeurs de la Williams 1996, et Motor Sport parle d'un « énorme avantage aérodynamique ».
+- **La FW18 de 1996** est développée à partir de la FW17B. « Il était raisonnable de prendre la base de cette voiture et de la développer », dit Newey ; elle en reprend la [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) transversale à six rapports. Selon formula1.com, le diffuseur creusé devient l'un des atouts majeurs de la Williams 1996, et Motor Sport parle d'un « énorme avantage aérodynamique ».

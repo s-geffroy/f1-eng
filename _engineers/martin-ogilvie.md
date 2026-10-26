@@ -60,7 +60,7 @@ According to OldRacingCars, he then worked for Racing Team Norfolk and Prodrive,
 
 Ogilvie drew and led drawing work, but the concepts came from others: Chapman for the 77, Wright for the hinged undertray of the 86 and 88, Ducarouge for the lines of the 94T. The construction method of the 88's tub is his, on Wright's testimony alone.
 
-## Source discrepancies
+## Where sources disagree
 
 - **When he joined Lotus**: mid-1972 according to Sports Car Digest; OldRacingCars lists him at Lotus from 1976 to 1988, whereas Motor Sport already credits him on the 77 in 1975.
 

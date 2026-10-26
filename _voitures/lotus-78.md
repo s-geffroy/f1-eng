@@ -27,7 +27,7 @@ image: "/assets/partage/voitures/lotus-78.jpg"
 ---
 ## Ce qu'elle change
 
-Selon Formula 1, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). Ses flancs ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi). La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile), avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs.
+Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). Ses flancs ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi). La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile), avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs.
 
 Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium.
 
@@ -43,7 +43,7 @@ Une équipe, que Motor Sport décrit en détail :
 - [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) mène l'aérodynamique ;
 - [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) détaille les suspensions et les autres « pièces qui bougent ».
 
-Formula 1 attribue le dessin à Bellamy et à [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; le site retient pour Southgate un rôle dans le développement. L'effet de sol reste une réalisation collective.
+formula1.com attribue le dessin à Bellamy et à [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; le site retient pour Southgate un rôle dans le développement. L'effet de sol reste une réalisation collective.
 
 ## Limites
 

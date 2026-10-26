@@ -51,12 +51,12 @@ Arthur Webb est un ingénieur aéronautique britannique, spécialiste des struct
 
 Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone ; dans le récit de Barnard lui-même, ses échanges avec Webb confortent un choix déjà envisagé. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur.
 
-## Divergences entre les sources
+## Divergences entre sources
 
 - **Son employeur** : la Royal Aeronautical Society le rattache à la BAC, à Weybridge, dont elle signale la nationalisation ; Autosport et Barnard parlent de British Aerospace à Weybridge. Le lieu concorde ; le nom de l'entreprise diffère.
 - **La chronologie** : les résumés de l'entretien ne datent ni son départ de la BAC ni ses passages chez ML Aviation et Marconi Space ; le site ne peut pas les situer par rapport à la MP4/1.
 - **La nature des sources** : l'essentiel de ce qui précède vient des résumés d'un entretien d'histoire orale donné par Webb lui-même en 2024 et 2025 pour la Royal Aeronautical Society et la National Aerospace Library. Le site n'a pas écouté les enregistrements ; il s'en tient aux résumés publiés.
 
-## Une entrée courte
+## Limites des sources
 
 Webb est surtout connu par son propre témoignage et par ce qu'en disent Barnard et l'histoire de la MP4/1. Le site s'en tient à ces faits.

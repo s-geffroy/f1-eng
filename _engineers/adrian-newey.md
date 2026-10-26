@@ -70,7 +70,7 @@ He has demonstrated this ability under several sets of regulations and in severa
 
 **March, which became Leyton House → Williams → McLaren → Red Bull → Aston Martin (since 2025)**
 
-- **Education.** A graduate in aeronautics from the University of Southampton with the highest honours, he wrote a dissertation there on [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) aerodynamics. His first job, in 1980 (July 1979 according to Formula 1), was at Fittipaldi, under [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}).
+- **Education.** A graduate in aeronautics from the University of Southampton with the highest honours, he wrote a dissertation there on [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) aerodynamics. His first job, in 1980 (July 1979 according to formula1.com), was at Fittipaldi, under [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}).
 - **March.** According to GrandPrix.com, Al Unser won the 1985 IndyCar title in a March 85C, and Bobby Rahal followed with a second in 1986. In F1, the 1988 March 881 introduced a fully integrated nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) assembly, hollowed out underneath.
 - **Leyton House.** The 1990 CG901 initially suffered from a faulty [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie); once the problem was fixed, it led most of the French Grand Prix and finished second.
 - **Williams.** The FW14 extended the CG901. His Williams cars from 1991 to 1997 won 59 Grands Prix (58 according to GrandPrix.com). The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams.

@@ -33,9 +33,9 @@ image: "/assets/partage/en/owen-maddock.jpg"
 ---
 ## A necessary correction
 
-Owen Maddock's presence corrects the simplified “Cooper = John Cooper” story. He was the Cooper Car Company's **chief designer** through the 1950s and the early 1960s, and therefore during the 1959 and 1960 titles.
+Owen Maddock's presence corrects the simplified "Cooper = John Cooper" story. He was the Cooper Car Company's **chief designer** through the 1950s and the early 1960s, and therefore during the 1959 and 1960 titles.
 
-## What he contributed
+## What he changed
 
 - He joined Cooper in April 1948, as a fitter and draughtsman.
 - He was the man behind the **[curved-tube]({{ site.baseurl }}/en/glossary/#chassis-tubulaire)** chassis, which appeared on the Mk VIII and was then extended across the range. Long mocked, this chassis came into its own in 1958, when Stirling Moss won in Argentina: the first championship Grand Prix victory for a mid-engined car.
@@ -46,7 +46,7 @@ Owen Maddock's presence corrects the simplified “Cooper = John Cooper” story
 
 ## Attribution
 
-[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks. Maddock was its chief designer. GrandPrix.com credits him with Cooper's Formula 3, Formula 2 and Formula 1 cars designed between 1954 and 1963, but no source consulted names him as designer of the whole T51: the site therefore sticks to “chief designer during the title years”.
+[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks. Maddock was its chief designer. GrandPrix.com credits him with Cooper's Formula 3, Formula 2 and Formula 1 cars designed between 1954 and 1963, but no source consulted names him as designer of the whole T51: the site therefore sticks to "chief designer during the title years".
 
 The accurate wording: **Cooper established the rear-engine layout with a design team in which Owen Maddock played a central role.**
 

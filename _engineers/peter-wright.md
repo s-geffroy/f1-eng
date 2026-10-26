@@ -31,7 +31,7 @@ image: "/assets/partage/en/peter-wright.jpg"
 ---
 ## A historical correction
 
-Peter Wright's high placing corrects a common bias: attributing [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) to [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) alone. Formula 1 explicitly links Wright and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to the research carried out at BRM at the end of the 1960s, then at Lotus, which led to the Lotus 78 and 79.
+Peter Wright's high placing corrects a common bias: attributing [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) to [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) alone. formula1.com explicitly links Wright and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to the research carried out at BRM at the end of the 1960s, then at Lotus, which led to the Lotus 78 and 79.
 
 ## The ground effect chain
 
@@ -45,11 +45,11 @@ Peter Wright's high placing corrects a common bias: attributing [ground effect](
 - He played a key role in the design of the twin-chassis Lotus 88.
 - Lotus's **[active suspension]({{ site.baseurl }}/en/glossary/#suspension-active)**, which he developed from Cranfield's work (David Williams), was first used on Nigel Mansell's Lotus 92, in the first two races of 1983; in 1987 Ayrton Senna's Lotus 99T became the first F1 car with active suspension to win a Grand Prix.
 - In 1990, he took over Team Lotus with Peter Collins, and left the team when it closed in 1994.
-- At the FIA, he contributed to the development of the HANS device and of cockpits able to withstand 60 g.
+- At the FIA, he contributed to the development of the HANS device and of cockpits able to withstand 60g.
 
 ## Attribution
 
-The contribution remains collective. Formula 1 credits the design of the Lotus 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}); the other open sources divide the roles as follows: Bellamy drew the car and the chassis, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) the suspension, Wright the aerodynamics, and Southgate took part in the development.
+The contribution remains collective. formula1.com credits the design of the Lotus 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}); the other open sources divide the roles as follows: Bellamy drew the car and the chassis, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) the suspension, Wright the aerodynamics, and Southgate took part in the development.
 
 ## Why Tier B
 

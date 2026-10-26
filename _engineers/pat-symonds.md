@@ -35,7 +35,7 @@ Pat Symonds spent the first part of his career with the Enstone team, from Tolem
 
 ## Witness to Imola 1994
 
-In 1994 Symonds was head of research and development at Benetton. Interviewed by Formula 1 in 2019, he described the response that followed Imola:
+In 1994 Symonds was head of research and development at Benetton. Interviewed by formula1.com in 2019, he described the response that followed Imola:
 
 - the first job was not to make the cars safer but to **slow them down**: a shorter diffuser, altered front wing endplates, then the plank under the floor;
 - next came wheel tethers, "to prevent wheels flying loose in an impact", and impact tests at ever higher speeds;

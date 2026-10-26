@@ -23,7 +23,7 @@ image: "/assets/partage/robin-herd.jpg"
 ---
 ## Ce qu'il a fait
 
-Robin Herd passe de l'aéronautique à la F1 : il dessine la première F1 McLaren, puis devient cofondateur et concepteur en chef de March, dont les voitures courent en F1, en F2 et en IndyCar.
+Robin Herd passe de l'aéronautique à la F1 : il dessine la première F1 McLaren, puis devient cofondateur et chef designer de March, dont les voitures courent en F1, en F2 et en IndyCar.
 
 ## Parcours technique
 
@@ -44,7 +44,7 @@ Robin Herd passe de l'aéronautique à la F1 : il dessine la première F1 McLare
 - **La suite.** Dès lors, les F1 March dérivent des F2. En 1973, James Hunt débute en Grand Prix sur la 721G de Peterson, remaniée et engagée par Hesketh, dont l'équipe compte [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}), venu de March.
 - **Le regard de Herd.** « J'ai eu tort de faire la X à ce moment-là. Elle nous a mis à bout de ressources. »
 
-## Points fragiles
+## Limites des sources
 
 - **Un effet de sol en Can-Am.** Selon Mark Hughes, Herd a dessiné la McLaren M8 de Can-Am, dont le dessous produisait de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) bien avant la F1 ; Herd raconte avoir mesuré la dépression sous la voiture, à Goodwood, avec un manomètre. Le site n'a trouvé qu'une source pour ce fait et ne l'étend pas au-delà.
-- **Le titre de concepteur en chef.** Selon Motor Sport, il entre chez McLaren avec ce titre, qu'il ne se jugeait, de son propre aveu, « en rien » capable de justifier. De tous les endroits où il a travaillé, c'est là, dit-il, que se trouvait « de loin » la plus grande intelligence collective, réunie autour de Bruce McLaren.
+- **Le titre de chef designer.** Selon Motor Sport, il entre chez McLaren avec ce titre, qu'il ne se jugeait, de son propre aveu, « en rien » capable de justifier. De tous les endroits où il a travaillé, c'est là, dit-il, que se trouvait « de loin » la plus grande intelligence collective, réunie autour de Bruce McLaren.

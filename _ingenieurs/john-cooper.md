@@ -38,17 +38,17 @@ redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 
 ## La rupture
 
-Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse. Sur la première Cooper de 500 cm³, le moteur est placé au milieu « pour des raisons largement pratiques » ; Nigel Roebuck résume : sur une 500, mettre le moteur derrière était « la seule chose logique à faire ».
+Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse. Sur la première Cooper de 500cm³, le moteur est placé au milieu « pour des raisons largement pratiques » ; Nigel Roebuck résume : sur une 500, mettre le moteur derrière était « la seule chose logique à faire ».
 
-## Des 500 cm³ à la F1
+## Des 500cm³ à la F1
 
 - **1946.** Le prototype de John Cooper et Eric Brandon reprend la suspension avant d'une Fiat Topolino accidentée ; une chaîne mène à une boîte Triumph Speed Twin, une seconde chaîne à l'essieu arrière.
 - **1948.** L'entreprise se lance dans la vente de répliques : douze monoplaces « Mark 2 » sont mises en chantier.
 - **1958.** Les Cooper apportent au moteur placé derrière le pilote ses premières victoires en championnat du monde.
-- **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245 ch, apporte le titre.
+- **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245ch, apporte le titre.
 - **1960.** La T53 « Lowline » permet un second doublé des titres.
 - **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait un retour qui va tout changer.
-- **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997 cm³ à deux carburateurs et 55 ch.
+- **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997cm³ à deux carburateurs et 55ch.
 
 John Cooper meurt la veille de Noël 2000, à 77 ans.
 

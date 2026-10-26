@@ -32,7 +32,7 @@ sources:
 consultation: "25 October 2026"
 image: "/assets/partage/en/tony-rudd.jpg"
 ---
-## What he contributed
+## What he changed
 
 Tony Rudd was an engineer at BRM, then at Lotus, and, with Peter Wright, one of the initiators of BRM's research into [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol), whose principle the Lotus programme launched by Colin Chapman took up.
 

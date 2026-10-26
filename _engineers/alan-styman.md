@@ -29,6 +29,6 @@ Alan Styman was Lotus's chief draughtsman at the time of the **Lotus 25** (1962)
 - Doug Nye writes that the first chassis, "R1", drawn by Styman, was fabricated in secret.
 - The Colin Chapman Museum puts him first in its list of the people "believed" to have made up the team Chapman assembled for the 25, without giving roles.
 
-## A short entry
+## Limits of the sources
 
 Styman is known only through what articles on the Lotus 25 or on Chapman say about the car. This site sticks to those facts.

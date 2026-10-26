@@ -4,7 +4,7 @@ ordre: 1
 resume: "Why race results are not enough, how the scores are built, and how an innovation is attributed."
 description: "Why race results are not enough, how the scores are built, and how an innovation is attributed."
 ---
-“Who won the most?” is not the right question. A record of results measures what a car achieved; it does not tell you whether that car forced the rest of the grid to change the way it designed an F1 car. This ranking looks for something else: **an engineer's capacity to shift the technical frontier of the sport for good.**
+"Who won the most?" is not the right question. A record of results measures what a car achieved; it does not tell you whether that car forced the rest of the grid to change the way it designed an F1 car. This ranking looks for something else: **an engineer's capacity to shift the technical frontier of the sport for good.**
 
 Four confusions must be avoided from the outset:
 
@@ -78,11 +78,11 @@ Collective innovations involve many more engineers than the twenty in the rankin
 
 Consulted on 9 August 2026, rechecked on 26 October 2026.
 
-- Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”: <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
-- Formula 1, “Why the Williams FW15C remains F1's technological Tour de Force”: <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
-- Motor Sport Magazine, “Cooper T51: the revolutionary car that changed F1 forever”: <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
-- Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”: <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
-- Motor Sport, Doug Nye, “Lotus 78: F1's first true ground effect car” (February 2020): <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
-- GrandPrix.com, “Tony Southgate”: <https://grandprix.com/people/tony-southgate.html>
-- Motor Sport Magazine, “Lunch with… Frank Dernie”: <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
-- Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”: <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
+- Formula 1, "TECH TUESDAY: The Lotus 79, F1's ground effect marvel": <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+- Formula 1, "Why the Williams FW15C remains F1's technological Tour de Force": <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
+- Motor Sport Magazine, "Cooper T51: the revolutionary car that changed F1 forever": <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, "The rise and fall of the single-seater Cooper": <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport, Doug Nye, "Lotus 78: F1's first true ground effect car" (February 2020): <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
+- GrandPrix.com, "Tony Southgate": <https://grandprix.com/people/tony-southgate.html>
+- Motor Sport Magazine, "Lunch with… Frank Dernie": <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Formula 1, "VOTE NOW: Who is the most influential technical innovator in F1 history?": <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>

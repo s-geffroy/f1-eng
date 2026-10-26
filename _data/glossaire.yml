@@ -219,7 +219,7 @@
   - boîte de vitesses transversale
   - boîte transversale
   definition: Les arbres de la boîte sont placés en travers de la voiture plutôt qu'alignés derrière le moteur. La boîte se loge devant l'essieu arrière, ce qui rapproche le poids du centre et améliore la réponse directionnelle.
-  premiere: Ferrari 312T, 1975, selon Formula 1 ; Motor Sport rappelle une voie ouverte en 1972 par Tyrrell et March.
+  premiere: Ferrari 312T, 1975, selon formula1.com ; Motor Sport rappelle une voie ouverte en 1972 par Tyrrell et March.
   entrees:
   - mauro-forghieri
   sources:
@@ -475,7 +475,7 @@
   terme: KERS
   motifs:
   - KERS
-  definition: 'Système de récupération de l''énergie cinétique : au freinage, un moteur-générateur convertit une partie de l''énergie en électricité, stockée puis rendue au pilote sous forme de puissance supplémentaire. Autorisé en 2009, limité alors à 60 kW pendant 6,6 secondes par tour, il précède le groupe propulseur hybride de 2014.'
+  definition: 'Système de récupération de l''énergie cinétique : au freinage, un moteur-générateur convertit une partie de l''énergie en électricité, stockée puis rendue au pilote sous forme de puissance supplémentaire. Autorisé en 2009, limité alors à 60kW pendant 6,6 secondes par tour, il précède le groupe propulseur hybride de 2014.'
   premiere: '2009.'
   entrees:
   - andy-cowell
