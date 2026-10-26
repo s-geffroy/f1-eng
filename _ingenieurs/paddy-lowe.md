@@ -58,4 +58,4 @@ Un apport décisif, mais au sein d'une chaîne collective : sa contribution est 
 
 ## Lignée
 
-Dans la branche numérique et contrôle : [Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) → Lowe → ingénierie moderne.
+Dans la branche numérique et contrôle : [Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) → Lowe → le simulateur de McLaren (1996). Ce qui relie chaque étape, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#numerique).

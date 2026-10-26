@@ -696,16 +696,16 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
   title(s, t("Les grandes lignées techniques", "The great technical lineages"), t("Filiations intellectuelles", "Intellectual lineages"));
   const L = EN ? [
     ["Architecture", ["Cooper", "Chapman", "Barnard"]],
-    ["Aerodynamics", ["Chapman / Wright", "Murray / Migeot", "Newey"]],
-    ["Engine", ["Duckworth", "Dudot", "Cowell"]],
-    ["Digital and control", ["Dernie", "Lowe", "Modern engineering"]],
-    ["Systems organisation", ["Head", "Brawn", "Modern F1 teams"]],
+    ["Aerodynamics", ["Chapman / Wright", "Newey"]],
+    ["Engine", ["Duckworth", "Cowell"]],
+    ["Digital and control", ["Dernie", "Lowe", "McLaren simulator (1996)"]],
+    ["Systems organisation", ["Head", "Brawn", "2014 Mercedes programme"]],
   ] : [
     ["Architecture", ["Cooper", "Chapman", "Barnard"]],
-    ["Aérodynamique", ["Chapman / Wright", "Murray / Migeot", "Newey"]],
-    ["Moteur", ["Duckworth", "Dudot", "Cowell"]],
-    ["Numérique / contrôle", ["Dernie", "Lowe", "Ingénierie moderne"]],
-    ["Organisation système", ["Head", "Brawn", "Équipes F1 modernes"]],
+    ["Aérodynamique", ["Chapman / Wright", "Newey"]],
+    ["Moteur", ["Duckworth", "Cowell"]],
+    ["Numérique / contrôle", ["Dernie", "Lowe", "Simulateur McLaren (1996)"]],
+    ["Organisation système", ["Head", "Brawn", "Programme Mercedes 2014"]],
   ];
   L.forEach(([b, chain], i) => {
     const y = 1.85 + i * 0.88;
@@ -713,13 +713,13 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
     chain.forEach((n, j) => {
       const x = 3.6 + j * 3.1;
       box(s, x, y, 2.6, 0.65, n, { size: 15 });
-      if (j < 2) arrow(s, x + 2.62, y + 0.325, x + 3.08, y + 0.325);
+      if (j < chain.length - 1) arrow(s, x + 2.62, y + 0.325, x + 3.08, y + 0.325);
     });
   });
   s.addText(t("Ce schéma montre des filiations intellectuelles, pas des relations maître-élève.", "This diagram shows intellectual lineages, not master-pupil relationships."),
     { x: M, y: 6.35, w: W - 2 * M, h: 0.45, fontFace: FS, fontSize: 14, italic: true, color: C.sub, align: "center" });
   notes(s, {
-    idee: t("Les vingt noms s'organisent en cinq branches de l'ingénierie F1.", "The twenty names fall into five branches of F1 engineering."),
+    idee: t("Cinq branches de l'ingénierie F1 ; chaque flèche est justifiée par des sources sur la page Lignées du site.", "Five branches of F1 engineering; each arrow is justified by sources on the site's Lineages page."),
     faits: L.map(([b, chain]) => b + DP + chain.join(" → ") + "."),
     nuance: t("Ce sont des filiations intellectuelles, pas des relations maître-élève systématiques.", "These are intellectual lineages, not systematic master-pupil relationships."),
     sources: [],

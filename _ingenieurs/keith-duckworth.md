@@ -26,6 +26,10 @@ sources:
     url: "https://www.goodwood.com/grr/f1/on-this-day-in...-1967/"
   - titre: "Motor Sport Magazine, « Lancia D50 re-creations nearing completion » (octobre 1999)"
     url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
+  - titre: "Denis Jenkinson, Motor Sport Magazine, « Bank holiday racing » (mai 1967)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-1967/52/bank-holiday-racing/"
+  - titre: "Alan Henry, Motor Sport Magazine, « Formula 2 review: end of an era » (janvier 1972)"
+    url: "https://www.motorsportmagazine.com/archive/article/january-1972/21/formula-2-review-end-of-an-era/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/keith-duckworth.jpg"
 redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
@@ -50,7 +54,7 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 
 - Ancien élève de l'Imperial College, il entre en 1957 chez Lotus comme ingénieur de développement des transmissions, et part au bout de quelques mois.
 - Il fonde Cosworth en 1958 avec [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}), que [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) retient par contrat chez Lotus jusqu'en 1962.
-- Sa reprise du moteur Ford 105E domine la Formule Junior. En 1966, le quatre cylindres FVA, sa première conception partie d'une feuille blanche, réécrit les records de la Formule 2.
+- Sa reprise du moteur Ford 105E domine la Formule Junior. Conçu en 1966, le quatre cylindres FVA, sa première conception partie d'une feuille blanche selon Motor Sport, gagne dès sa première course de Formule 2, à Snetterton en mars 1967, et domine la catégorie pendant cinq saisons.
 - À l'automne 1965, Ford commande à Cosworth deux moteurs de course et finance le développement du V8 à hauteur de 100 000 livres. Le moteur annonce plus de 400ch à 9000tr/min.
 - Il vend Cosworth à UEI en 1980 ; Costin lui succède à la présidence en 1988.
 

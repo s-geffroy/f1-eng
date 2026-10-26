@@ -335,6 +335,11 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
   font-weight: 500; color: var(--mine);
 }
 .chaine li > span { color: var(--mine); font-weight: 500; }
+/* Justification de chaque flèche : ce qui passe d'une étape à la suivante, niveau de preuve, sources */
+.liens-lignee { list-style: none; margin: 1rem 0 0; padding: 0; max-width: 46rem; }
+.liens-lignee li { padding: 0.35rem 0 0.35rem 0.85rem; border-left: 2px solid var(--graphite); margin-bottom: 0.6rem; }
+.liens-lignee p { margin: 0 0 0.25rem; }
+.liens-lignee .preuve { font: 600 0.8125rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mine); border: var(--trait-fin) solid var(--trait); padding: 0.1rem 0.3rem; margin-left: 0.25rem; white-space: nowrap; }
 
 /* ---------- Chronologie : un axe unique ----------
    Années de --debut à --fin ; chaque repère est placé par --annee et empilé par --rang,

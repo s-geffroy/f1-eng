@@ -24,10 +24,10 @@ sources:
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
   - titre: "Auto123, “F1: Bob Bell to leave Mercedes AMG F1 team” (April 2014)"
     url: "https://www.auto123.com/en/news/f1-bob-bell-to-leave-mercedes-amg-f1-team/36045/"
+  - titre: "Formula 1, “Mercedes technical director Bell to depart” (April 2014)"
+    url: "https://www.formula1.com/en/latest/article/mercedes-technical-director-bell-to-depart.7DFHhLhLHViLbpc3sYggMH"
   - titre: "Michael Delaney, F1i, “Renault's Bell relinquishes tech chief position for part-time advisory role” (July 2018)"
     url: "https://f1i.com/news/313023-renaults-bob-bell-elevated-racing-technical-advisor-role.html"
-  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
-    url: "https://www.grandprix.com/people/steve-nielsen.html"
 consultation: "26 October 2026"
 image: "/assets/partage/en/bob-bell.jpg"
 ---
@@ -41,12 +41,12 @@ Bob Bell, a Northern Irish engineer, was the aerodynamicist of the 1988 McLaren 
 - **The MP4/4 (1988).** He was "the aerodynamicist in charge": "I did the aero design, drew the wind tunnel model bits, oversaw the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) tests." The Honda engine's lower crankshaft let him sweep up the underfloor for more [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). According to Mark Hughes, he was then the only aerodynamicist in the whole company.
 - **Benetton, Jordan.** He left McLaren for a land speed record project that never materialised, moved to Benetton in 1997, then joined [Mike Gascoyne]({{ site.baseurl }}{% link _engineers/mike-gascoyne.md %}) at Jordan in 1999.
 - **Renault.** Back at Enstone in 2001 as Gascoyne's deputy technical director, he succeeded him as technical director. After Flavio Briatore and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}) left in the wake of the Singapore affair, he ran the team as stand-in until Éric Boullier arrived at the start of 2010, then stepped down as managing director in October 2010.
-- **Mercedes.** Technical director from April 2011, in charge of the chassis group, he freed [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), who admitted covering the role "not effectively enough". According to Mark Hughes, he then recruited [Geoff Willis]({{ site.baseurl }}{% link _engineers/geoff-willis.md %}) and [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who reported to him; on the W05 he oversaw the chassis group, liaising with [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s engine group at Brixworth. Having resigned in December 2013, he left the team at the end of November 2014; [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) took over his responsibilities and the post was not filled.
+- **Mercedes.** Technical director from April 2011, in charge of the chassis group, he freed [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), who admitted covering the role "not effectively enough". According to Mark Hughes, he then recruited [Geoff Willis]({{ site.baseurl }}{% link _engineers/geoff-willis.md %}) and [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who reported to him; on the W05 he describes himself as the overseer of both strands, the chassis at Brackley and [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s engine at Brixworth, making sure they gelled. Having resigned in December 2013, he handed his responsibilities to [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}), as Mercedes announced in April 2014, and the post was not filled; his departure from the team was set for the end of November 2014.
 - **Back at Renault.** He returned in February 2016, after the Lotus buy-out, as chief technical officer, and planned Renault's return as a works team. In July 2018 he moved to a part-time technical advisor role.
 
 ## Attribution
 
-On the MP4/4, Bell claims the aerodynamic design, not the concept: "The ownership of the car conceptually is a pretty difficult thing to pin down." He credits [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) with pushing to lay the driver down further, without knowing how much of the low position was natural evolution. Autosport lists him among those who designed the car or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus).
+On the MP4/4, Bell claims the aerodynamic design, not the concept: "The ownership of the car conceptually is a pretty difficult thing to pin down." He credits [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) with pushing to lay the driver down further, without knowing how much of the low position was natural evolution. Autosport lists him among those who designed the car or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}).
 
 On the W05, his role was that of a technical director: he organised and oversaw; he was not the author of the power unit.
 
@@ -54,4 +54,4 @@ On the W05, his role was that of a technical director: he organised and oversaw;
 
 - **Renault technical director**: from 2002 according to Autosport; from 2003, replacing Gascoyne, according to Auto123.
 - **Arrival at Mercedes**: April 2011 according to Auto123; Motor Sport writes that Brawn recruited him in 2012, which sits badly with Costa and Willis being announced as his reports in September 2011.
-- **Leaving Mercedes**: end of November 2014 according to Auto123; April 2014 according to F1i, which then mentions a brief spell at Manor Marussia.
+- **Leaving Mercedes**: April 2014 according to F1i, which then mentions a brief spell at Manor Marussia. Mercedes' April 2014 announcement (formula1.com, Auto123) separates the two dates: his responsibilities passed to Lowe from April, while his departure was set for the end of November 2014.

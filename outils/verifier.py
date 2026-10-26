@@ -149,11 +149,35 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
         for e in t.get("entrees", []):
             if e not in ids:
                 err(f"{rep_data}/glossaire.yml : terme {t['id']}, entrée « {e} » inconnue")
+    preuves_ok = {p["id"] for p in (chrono or {}).get("preuves", [])}
     for l in lignees or []:
-        for etape in l["etapes"]:
-            for e in etape:
-                if re.fullmatch(r"[a-z0-9-]+", str(e)) and e not in ids:
-                    warn(f"{rep_data}/lignees.yml : « {e} » n'est pas une entrée (texte libre ?)")
+        for i, etape in enumerate(l["etapes"]):
+            if not isinstance(etape, dict) or bool(etape.get("entrees")) == bool(etape.get("texte")):
+                err(f"{rep_data}/lignees.yml : {l['id']}, étape {i + 1} : « entrees » ou « texte », l'un des deux")
+                continue
+            for e in etape.get("entrees") or []:
+                if e not in ids:
+                    err(f"{rep_data}/lignees.yml : {l['id']}, entrée « {e} » inconnue")
+            if i == 0:
+                continue
+            lien = etape.get("lien") or {}
+            if lien.get("preuve") not in preuves_ok:
+                err(f"{rep_data}/lignees.yml : {l['id']}, étape {i + 1} : preuve « {lien.get('preuve')} » invalide")
+            if not lien.get("pourquoi") or not lien.get("sources"):
+                err(f"{rep_data}/lignees.yml : {l['id']}, étape {i + 1} : lien sans pourquoi ou sans sources (non publié)")
+            for s in lien.get("sources") or []:
+                if not s.get("titre") or not str(s.get("url", "")).startswith("http"):
+                    err(f"{rep_data}/lignees.yml : {l['id']}, étape {i + 1} : source incomplète")
+    # le champ lignees des entrees et les etapes des lignees disent la meme chose
+    membres = {l["id"]: {e for et in l["etapes"] if isinstance(et, dict) for e in (et.get("entrees") or [])} for l in lignees or []}
+    for f in sorted(os.listdir(coll)):
+        fm = corps_par_page.get(f"{coll}/{f}", (None, ""))[0]
+        if fm is None:
+            continue
+        declarees = set(fm.get("lignees") or [])
+        reelles = {lid for lid, m in membres.items() if f[:-3] in m}
+        if declarees != reelles:
+            err(f"{coll}/{f} : lignees {sorted(declarees)} ≠ lignées où l'entrée figure {sorted(reelles)}")
 
 # 4 bis. voitures : identifiants cités (termes, jalons, concepteurs) et images
 for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "_data/en")}.items():

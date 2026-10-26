@@ -17,6 +17,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "James Page, Classic & Sports Car, “Motorsport memories: the ground-effect era” (December 2018)"
     url: "https://www.classicandsportscar.com/features/motorsport-memories-ground-effect-era"
+  - titre: "GrandPrix.com, “Ralph Bellamy”"
+    url: "https://grandprix.com/people/ralph-bellamy.html"
+  - titre: "GrandPrix.com, “Tony Southgate”"
+    url: "https://grandprix.com/people/tony-southgate.html"
 photo:
   fichier: "/assets/voitures/lotus-79.jpg"
   legende: "Mario Andretti in the Lotus 79 at the 1978 British Grand Prix."
@@ -41,7 +45,7 @@ When it was shown to the public, the black car was nicknamed "Black Beauty".
 
 This time Chapman was more directly involved than on the 78. Peter Wright recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who originated the aerodynamic work on the 78, tells the story of how the 79 came about.
 
-According to Motor Sport, Chapman's greater involvement was all the more marked because the two designers of the 78 had left the team. "Colin took overall charge, for better or worse," says Ogilvie.
+According to Motor Sport, Chapman's greater involvement was all the more marked because the two designers of the 78 had left the team: formula1.com credits the 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}), and according to GrandPrix.com Southgate went back to Shadow in mid-1977, while Bellamy left for Fittipaldi in 1978. "Colin took overall charge, for better or worse," says Ogilvie.
 
 ## Limitations
 

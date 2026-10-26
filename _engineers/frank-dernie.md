@@ -47,4 +47,4 @@ His ranking rests as much on the transformation of the *process* as on any parti
 
 ## Lineage
 
-In the digital and control branch: Dernie → [Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) → modern engineering.
+In the digital and control branch: Dernie → [Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) → the McLaren simulator (1996). What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#numerique).

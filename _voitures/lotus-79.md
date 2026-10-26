@@ -17,6 +17,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "James Page, Classic & Sports Car, « Motorsport memories: the ground-effect era » (décembre 2018)"
     url: "https://www.classicandsportscar.com/features/motorsport-memories-ground-effect-era"
+  - titre: "GrandPrix.com, « Ralph Bellamy »"
+    url: "https://grandprix.com/people/ralph-bellamy.html"
+  - titre: "GrandPrix.com, « Tony Southgate »"
+    url: "https://grandprix.com/people/tony-southgate.html"
 photo:
   fichier: "/assets/voitures/lotus-79.jpg"
   legende: "Mario Andretti sur la Lotus 79 au Grand Prix de Grande-Bretagne 1978."
@@ -41,7 +45,7 @@ Présentée au public, la voiture noire est surnommée « Black Beauty ».
 
 Chapman est cette fois plus directement impliqué que sur la 78. Peter Wright raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), à l'origine des travaux aérodynamiques de la 78, raconte la genèse de la 79.
 
-Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie.
+Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe : formula1.com crédite la 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}), et, selon GrandPrix.com, Southgate retourne chez Shadow au milieu de 1977, Bellamy part chez Fittipaldi en 1978. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie.
 
 ## Limites
 

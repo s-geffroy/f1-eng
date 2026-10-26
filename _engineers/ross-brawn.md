@@ -57,4 +57,4 @@ A lasting transformation of the way of working, but a revolution in process, har
 
 ## Lineage
 
-In the systems organisation branch: [Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) → Brawn → modern F1 teams.
+In the systems organisation branch: [Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) → Brawn → the 2014 Mercedes programme. What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#organisation).

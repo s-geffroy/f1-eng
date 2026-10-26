@@ -336,11 +336,11 @@ jalons:
     annee: 1988
     voie: "architecture"
     titre: "The McLaren MP4/4, fifteen wins out of sixteen"
-    texte: "The McLaren MP4/4 wins 15 of the 16 races of 1988. Its authorship is still disputed: Steve Nichols, its chief designer, sees it as an evolution of the MP4/3; Gordon Murray contests that account. Autosport also names Bob Bell, David North, Matthew Jeffreys and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus) among its authors."
+    texte: "The McLaren MP4/4 wins 15 of the 16 races of 1988. Its authorship is still disputed: Steve Nichols, its chief designer, sees it as an evolution of the MP4/3; Gordon Murray contests that account. Autosport also names Bob Bell, David North and Matthew Jeffreys among its authors."
     entrees: [steve-nichols, gordon-murray, bob-bell, david-north, matthew-jeffreys]
     sources:
-      - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
-        url: "https://www.grandprix.com/people/steve-nielsen.html"
+      - titre: "Autosport, Gary Watkins, “The origins of McLaren-Honda's greatest racer” (August 2017)"
+        url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
 
   - id: "fw17b"
     annee: 1995
@@ -509,7 +509,7 @@ contexte:
     annee: 1940
     categorie: "technologie"
     titre: "The Mosquito's wing-mounted radiators"
-    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the leading edge of the wings, on either side of the fuselage, a position that reduced drag. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team tested in the wind tunnel sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
+    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the inboard leading edges of the wings, on an aircraft designed for the smallest possible frontal area. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team tested in the wind tunnel sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -518,8 +518,8 @@ contexte:
     sources:
       - titre: "Motor Sport, Doug Nye, “Lotus 78: F1’s first true ground effect car” (February 2020)"
         url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
-      - titre: "Wikipedia, “de Havilland Mosquito” (revision of 23 October 2026)"
-        url: "https://en.wikipedia.org/wiki/De_Havilland_Mosquito"
+      - titre: "de Havilland Aircraft Museum, “de Havilland DH98 Mosquito Prototype” (museum website, undated)"
+        url: "https://www.dehavillandmuseum.co.uk/aircraft/de-havilland-dh98-mosquito-prototype/"
   - id: "formule-500"
     annee: 1946
     categorie: "reglement"
@@ -562,7 +562,7 @@ contexte:
     annee: 1954
     categorie: "technologie"
     titre: "The Jaguar D-Type and the aircraft monocoque"
-    texte: "The Jaguar D-Type, a sports car built from 1954 to win the Le Mans 24 Hours, applied aircraft techniques: its aerodynamicist Malcolm Sayer came from the Bristol Aeroplane Company, and its monocoque centre section in aluminium-alloy sheet, elliptical and small in cross-section, combined torsional rigidity with low drag. It won Le Mans in 1955, 1956 and 1957. Doug Nye lists it among the precedents of the Lotus 25 and recalls that the monocoque had been the main structural element in aviation for fifty years; in racing, however, the spaceframe remained the rule until 1962. At Lotus, Mike Costin, who came from the aircraft industry, advised on the riveted construction of the tub."
+    texte: "The Jaguar D-Type, a sports car designed to race at the Le Mans 24 Hours from 1954, applied aircraft techniques: its aerodynamicist Malcolm Sayer came from the Bristol Aeroplane Company, and its riveted light-alloy monocoque centre section, elliptical and small in cross-section, combined rigidity with low drag. It won Le Mans in 1955, 1956 and 1957. Doug Nye lists it among the precedents of the Lotus 25 and recalls that the monocoque had been the main structural element in aviation for fifty years; in racing, however, the spaceframe remained the rule until 1962. At Lotus, Mike Costin, who came from the aircraft industry, advised on the riveted construction of the tub."
     liens:
       - jalon: "lotus-25"
         mecanisme: "transfert"
@@ -573,8 +573,10 @@ contexte:
         url: "https://motorsportmagazine.com/archive/article/march-2022/23/colin-chapman-chassis-pioneer"
       - titre: "Motor Sport, John Tipler, “A new frame of reference” (May 2002)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
-      - titre: "Wikipedia, “Jaguar D-Type” (revision of 18 August 2026)"
-        url: "https://en.wikipedia.org/wiki/Jaguar_D-Type"
+      - titre: "Motor Sport, “How the Jaguar D-Type's wartime roots led to Le Mans dominance” (April 2023)"
+        url: "https://motorsportmagazine.com/special-article/twice-around-the-clock/30/how-the-jaguar-d-types-wartime-roots-led-to-le-mans-dominance"
+      - titre: "Motor Sport, Paul Fearnley, “Sarthe specific” (June 2004)"
+        url: "https://www.motorsportmagazine.com/archive/article/june-2004/38/sarthe-specific/"
   - id: "formule-2-1957"
     annee: 1957
     categorie: "reglement"
@@ -598,7 +600,7 @@ contexte:
     annee: 1958
     categorie: "reglement"
     titre: "Pump fuel made mandatory"
-    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix, and Vanwall released Stirling Moss, who raced Rob Walker's small Cooper. Because of the heat, the race was also shortened from 400 to 313km."
+    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix; without his Vanwall, Stirling Moss raced Rob Walker's small Cooper. Because of the heat, the race was also shortened from 400 to 313km."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -607,8 +609,10 @@ contexte:
     sources:
       - titre: "Formula1.com, Mark Hughes, “Argentina '58: Moss bluffs his way to victory – and ushers in new era” (April 2020)"
         url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
-      - titre: "Wikipedia, “1958 Argentine Grand Prix” (accessed October 2026)"
-        url: "https://en.wikipedia.org/wiki/1958_Argentine_Grand_Prix"
+      - titre: "Motor Sport, “13. 1958 Argentinian GP: wily Moss wins with only one eye” (March 2025)"
+        url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/114/13-1958-argentinian-gp-wily-moss-wins-with-only-one-eye/"
+      - titre: "Motor Sport, “The Argentine racing season” (March 1958)"
+        url: "https://www.motorsportmagazine.com/archive/article/march-1958/17/the-argentine-racing-season/"
       - titre: "Goodwood, Russell Campbell, “Cooper T43: Formula 1's groundbreaking rear-engined winner” (May 2025)"
         url: "https://www.goodwood.com/grr/f1/cooper-t43-formula-1s-groundbreaking-rear-engined-winner/"
   - id: "carbone-farnborough"
@@ -622,8 +626,10 @@ contexte:
         preuve: "discute"
         pourquoi: "John Barnard says he thought of carbon on seeing British Aerospace make a jet engine cowling in composite; the Farnborough process leads there only indirectly, through the aircraft industry."
     sources:
-      - titre: "Wikipedia, “Carbon fibers” (revision of 18 October 2026)"
-        url: "https://en.wikipedia.org/wiki/Carbon_fibers"
+      - titre: "Times Higher Education, “Carbon fibre: how we failed to reap rewards” (July 1997)"
+        url: "https://www.timeshighereducation.com/node/96469"
+      - titre: "Science Museum Group, “William Johnson 1924 - 1986” (collection record, undated)"
+        url: "https://collection.sciencemuseumgroup.org.uk/people/cp173043"
       - titre: "Motor Sport, James Elson, “John Barnard remembers his McLaren MP4/1 eureka moment” (September 2021)"
         url: "https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment"
       - titre: "Motor Sport, Rob Widdows, “Carbon natural” (May 2007)"
@@ -775,8 +781,10 @@ contexte:
         url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
       - titre: "Motor Sport, Paul Fearnley, “Chaparral and Jim Hall's techno brilliance: when America took the lead in racing innovation” (November 2003)"
         url: "https://www.motorsportmagazine.com/archive/article/november-2003/38/jim-hall-its-safe-to-say-was-ahead-of-the-techno-game"
-      - titre: "Wikipedia, “Chaparral 2J” (accessed October 2026)"
-        url: "https://en.wikipedia.org/wiki/Chaparral_2J"
+      - titre: "Motor Sport, “Can-Am 1970” (December 1970)"
+        url: "https://www.motorsportmagazine.com/archive/article/december-1970/24/can-am-1970/"
+      - titre: "Petroleum Museum, “Chaparral 2J” (museum website, undated)"
+        url: "https://petroleummuseum.org/chaparral-2j/"
   - id: "imperial-tapis-roulant"
     annee: 1974
     categorie: "technologie"
@@ -910,12 +918,18 @@ contexte:
     annee: 1981
     categorie: "economie"
     titre: "The FISA-FOCA war and the Concorde Agreement"
-    texte: "During the winter of 1980-81, Jean-Marie Balestre's FISA and Bernie Ecclestone's constructors' association (FOCA) clashed, against the background of a dispute over aerodynamic skirts; FOCA went as far as announcing a breakaway championship. The first Concorde Agreement ended the conflict: Wikipedia dates it to 19 January 1981, Motor Sport to April 1981. The FIA kept the rules, FOCA gained the exclusive right to negotiate with race organisers, which set the split between sporting power and commercial revenue; for Nigel Roebuck, that was the real cause of the war. The teams also committed to contesting every race, a guarantee offered to television."
+    texte: "During the winter of 1980-81, Jean-Marie Balestre's FISA and Bernie Ecclestone's constructors' association (FOCA) clashed, against the background of a dispute over aerodynamic skirts; FOCA went as far as announcing a breakaway championship. The first Concorde Agreement ended the conflict, on a date that varies between sources: signed on 19 January 1981 in Paris according to Dieter Rencken, it followed, according to Mattijs Diepraam, an agreement in principle reached at Maranello in mid-January and was signed only on 11 March; Joe Saward also dates it to March 1981. The FIA kept the rules, FOCA gained the exclusive right to negotiate with race organisers, which set the split between sporting power and commercial revenue; for Nigel Roebuck, that was the real cause of the war. The teams also committed to contesting every race of the championship."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1980s” (May 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
-      - titre: "Wikipedia, “Concorde Agreement” (accessed October 2026)"
-        url: "https://en.wikipedia.org/wiki/Concorde_Agreement"
+      - titre: "RaceFans, Dieter Rencken, “The billion-dollar questions over the fate of F1's most important document” (June 2020)"
+        url: "https://www.racefans.net/?p=428883"
+      - titre: "GrandPrix.com, Joe Saward, “News feature: the political wranglings of 1996” (September 1996)"
+        url: "https://www.grandprix.com/features/joe-saward/news-feature-the-political-wranglings-of-1996.html"
+      - titre: "8W, Mattijs Diepraam, “Poachers turned gamekeepers: how the FOCA became the new FIA, Part 4: 1981” (January 2008)"
+        url: "https://forix.com/8w/fiasco-81.html"
+      - titre: "8W, Mattijs Diepraam, “When? - The FISA-FOCA war” (November 2007)"
+        url: "http://forix.autosport.com/8w/fiasco-introduction-timeline.html"
   - id: "fin-des-jupes"
     annee: 1981
     categorie: "reglement"
@@ -1080,7 +1094,7 @@ contexte:
       - jalon: "mp4-4"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "According to Steve Nichols, its chief designer, the fuel allowance cut to 150 litres allowed a small, low tank: with the lowered Honda engine, the driver could be laid down and the whole car lowered."
+        pourquoi: "According to Steve Nichols, its chief designer, the fuel allowance cut to 150 litres in 1988 allowed a small, low tank; with a Honda engine lowered thanks to a smaller Tilton carbon clutch, the driver could be laid down within that envelope (Autosport)."
       - jalon: "march-881"
         mecanisme: "ouvre"
         preuve: "atteste"
@@ -1092,8 +1106,8 @@ contexte:
         url: "https://global.honda/en/POWEREDbyHONDA/1988_ra168e/"
       - titre: "Motor Sport Magazine, “Teapots, turbos and titles: Renault's wild F1 ride” (December 2025)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/"
-      - titre: "Steve Nichols at Autosport International, reproduced on ayrton-senna.net, “Video Insight: Steve Nichols on Ayrton Senna and the McLaren MP4/4” (January 2012)"
-        url: "https://www.ayrton-senna.net/insight-steve-nichols-on-ayrton-senna-and-the-mclaren-mp44/"
+      - titre: "Autosport, Simon Strang, “Insight: Steve Nichols on Ayrton Senna and the McLaren MP4/4” (January 2012)"
+        url: "https://www.autosport.com/f1/news/insight-steve-nichols-on-ayrton-senna-and-the-mclaren-mp4-4-4452648/4452648/"
       - titre: "Honda, “1988 McLaren Honda MP4/4” (manufacturer's site, undated)"
         url: "https://global.honda/en/F1/machine/1988_McLarenHondaMP44/"
       - titre: "Motor Sport, Mark Hughes, “Adrian Newey: ‘My top six F1 cars’” (September 2014)"

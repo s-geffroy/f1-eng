@@ -7,13 +7,13 @@ annee: 2014
 equipe: "Mercedes"
 moteur: "Mercedes PU106, V6 turbo hybride"
 statut: "A couru en 2014 ; titres pilotes et constructeurs"
-concepteurs: ["aldo-costa", "andy-cowell"]
+concepteurs: ["bob-bell", "aldo-costa", "andy-cowell"]
 termes: ["groupe-propulseur-hybride", "turbocompresseur"]
 jalons: ["hybride", "rendement-50"]
 sources:
   - titre: "GrandPrix.com, « Designer doubts Mercedes to dominate » (mars 2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
-  - titre: "Formula 1, « Costa to depart Mercedes and join Dallara »"
+  - titre: "Formula 1, « Mercedes Technical Advisor Costa to join Dallara for 2020 » (septembre 2019)"
     url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
   - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (janvier 2026)"
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
@@ -23,6 +23,10 @@ sources:
     url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
   - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season »"
     url: "https://www.guinnessworldrecords.com/world-records/381804-most-pole-positions-by-a-constructor-in-a-formula-one-season"
+  - titre: "Mark Hughes, Motor Sport Magazine, « Outstanding in the shadows » (août 2015)"
+    url: "https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows"
+  - titre: "Formula 1, « Emilia Romagna GP Facts & Stats: Hamilton ties another Schumacher record while Mercedes re-write record books once more » (novembre 2020)"
+    url: "https://www.formula1.com/en/latest/article/facts-and-stats-hamilton-ties-another-schumacher-record-while-mercedes-re.7paUkRxYIc3QQbztCSHgV5"
 photo:
   fichier: "/assets/voitures/mercedes-w05.jpg"
   legende: "Lewis Hamilton aux premiers essais libres du Grand Prix de Singapour, le 19 septembre 2014."
@@ -41,6 +45,7 @@ La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turboc
 
 ## Qui l'a conçue
 
+- Selon Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) est le directeur technique de l'équipe quand la voiture est conçue ; il se décrit comme le superviseur des deux volets, châssis et moteur, et veille à ce qu'ils s'accordent.
 - [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari fin 2011 comme directeur de l'ingénierie, mène la conception de la voiture.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}).
 - [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré ». Il souligne que Cowell et les équipes châssis ont travaillé de concert. On lui doit la méthode, pas la conception.
@@ -52,4 +57,4 @@ Le turbo séparé est, selon Motorsport.com, une disposition semée de complicat
 ## Ce qu'elle laisse
 
 - **2014** : seize victoires en dix-neuf Grands Prix et dix-huit pole positions. Lewis Hamilton est champion du monde après une lutte d'une saison avec son équipier Nico Rosberg, et Mercedes remporte le titre constructeurs.
-- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon formula1.com.
+- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon formula1.com ; au total, Mercedes remporte les deux titres sept années de suite, de 2014 à 2020.

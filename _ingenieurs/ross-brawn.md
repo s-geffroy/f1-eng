@@ -58,4 +58,4 @@ Une transformation durable de la manière de travailler, mais une révolution de
 
 ## Lignée
 
-Dans la branche organisation système : [Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) → Brawn → équipes F1 modernes.
+Dans la branche organisation système : [Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) → Brawn → le programme Mercedes de 2014. Ce qui relie chaque étape, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#organisation).

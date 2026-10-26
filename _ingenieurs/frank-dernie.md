@@ -48,4 +48,4 @@ Son classement repose autant sur la transformation du *processus* que sur une vo
 
 ## Lignée
 
-Dans la branche numérique et contrôle : Dernie → [Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) → ingénierie moderne.
+Dans la branche numérique et contrôle : Dernie → [Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) → le simulateur de McLaren (1996). Ce qui relie chaque étape, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#numerique).

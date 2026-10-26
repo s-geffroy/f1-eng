@@ -13,8 +13,8 @@ lignees: []
 voir_aussi: ["keith-duckworth"]
 portrait:
   fichier: "/assets/portraits/mike-costin.jpg"
-  legende: "Mike Costin, à gauche avec des notes, penché sur la Lotus Eleven de Colin Chapman ; John Crosthwaite à droite. Silverstone, 1956."
-  auteur: "J Crosthwaite"
+  legende: "Mike Costin, à gauche avec des notes, penché sur la Lotus Eleven de Colin Chapman ; John Crosthwaite à droite. Années 1950."
+  auteur: "J Crosthwaite (archives de la famille Crosthwaite, photographe non identifié)"
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"

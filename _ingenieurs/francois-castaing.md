@@ -18,9 +18,10 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
 portrait:
   fichier: "/assets/portraits/francois-castaing.jpg"
-  legende: "François Castaing en 2016, au Michigan."
-  auteur: "Rick Snyder"
-  licence: "Domaine public"
+  legende: "François Castaing en 2016, au championnat FIRST Robotics du Michigan, à Grand Rapids."
+  auteur: "Services du gouverneur du Michigan (compte Flickr « Rick Snyder »)"
+  licence: "Domaine public (marque CC PDM 1.0)"
+  licence_url: "https://creativecommons.org/publicdomain/mark/1.0/"
   source: "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Castaing_FIRST_Robotics_State_Championship_2016_(26230159960)_(cropped).jpg"
 consultation: "25 octobre 2026"
 image: "/assets/partage/francois-castaing.jpg"

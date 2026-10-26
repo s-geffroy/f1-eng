@@ -2,7 +2,7 @@
 title: "Brabham BT46B"
 nom_tri: "brabham bt46b"
 accroche: "Une course, une victoire, et un ventilateur pour aspirer la piste."
-description: "Brabham BT46B (1978) : un ventilateur entraîné par le moteur aspire l'air sous la voiture ; elle gagne sa seule course, en Suède."
+description: "Brabham BT46B (1978) : un ventilateur entraîné par la boîte de vitesses aspire l'air sous la voiture ; elle gagne sa seule course, en Suède."
 annee: 1978
 equipe: "Brabham"
 moteur: "Alfa Romeo flat-12"
@@ -15,6 +15,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/page/may-1998/65"
   - titre: "Motor Sport Magazine, « The 75 greatest Grands Prix: 1978 Swedish GP » (mars 2025)"
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
+  - titre: "Jonathan Bushell, Motor Sport Magazine, « 1978 Brabham BT46B 'fan car' » (février 2025, avec le compte rendu de Denis Jenkinson de juillet 1978)"
+    url: "https://motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car"
 photo:
   fichier: "/assets/voitures/brabham-bt46b.jpg"
   legende: "La BT46B au Goodwood Festival of Speed, en juillet 2001. Elle porte ici des pneus Avon, et non les Goodyear de 1978."

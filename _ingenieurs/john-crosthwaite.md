@@ -23,7 +23,7 @@ sources:
 portrait:
   fichier: "/assets/portraits/john-crosthwaite.jpg"
   legende: "John Crosthwaite (au centre, un chiffon à la main) auprès des Lotus Eleven, 1957. Graham Hill est à gauche. Photo versée sur Commons par la famille Crosthwaite."
-  auteur: "Raycrosthwaite (archives familiales)"
+  auteur: "Raycrosthwaite (archives de la famille Crosthwaite, photographe non identifié)"
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:J_Crosthwaite_(with_oily_rag)_and_Graham_Hill_(on_left_of_picture)_with_Lotus.jpg"

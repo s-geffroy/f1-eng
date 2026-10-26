@@ -57,4 +57,4 @@ A decisive contribution, but within a collective chain: his contribution is less
 
 ## Lineage
 
-In the digital and control branch: [Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) → Lowe → modern engineering.
+In the digital and control branch: [Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) → Lowe → the McLaren simulator (1996). What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#numerique).

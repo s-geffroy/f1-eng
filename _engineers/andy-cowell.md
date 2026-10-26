@@ -26,6 +26,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
   - titre: "Formula 1, “Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role” (November 2025)"
     url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
+  - titre: "Luke Smith, Autosport, “Cowell to step down as Mercedes F1 engine chief” (June 2020)"
+    url: "https://www.autosport.com/news/report.php/id/149984"
 consultation: "25 October 2026"
 image: "/assets/partage/en/andy-cowell.jpg"
 ---
@@ -35,7 +37,7 @@ The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glo
 
 - **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V. As Cowell put it, "there was nothing that said it couldn't be done, it was just that it hadn't been done".
 - **Efficiency.** The first Mercedes turbo-hybrid engine of 2014 reached a thermal efficiency of 44%; in 2017 it passed the 50% mark on the dyno for the first time.
-- **Results.** His power units won six consecutive doubles (2014-2019), drivers' and constructors' titles, for Mercedes.
+- **Results.** While he ran Mercedes AMG HPP, his power units won six consecutive doubles, drivers' and constructors' titles, from 2014 to 2019; he stepped down in early July 2020.
 
 ## Technical career
 
@@ -54,4 +56,4 @@ Cowell is slightly penalised on a point of method: **hybridisation was imposed b
 
 ## Lineage
 
-In the engine branch: [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) → [Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) → Cowell.
+In the engine branch: [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) → Cowell, through Cosworth, where Cowell began his career. What links the two, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#moteur).

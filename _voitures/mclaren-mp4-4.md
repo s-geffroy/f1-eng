@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, V6 turbo de 1,5 litre"
 statut: "A couru en 1988 ; titres pilotes et constructeurs"
-concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann", "Steve Nielsen (attribution incertaine)"]
+concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -47,11 +47,13 @@ La question divise, jusque chez formula1.com, qui attribue la voiture tantôt à
 - **Nichols**, chef designer, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
 - **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
 
-Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell, David North et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus), ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
+Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell et David North, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
 
 ## Limites
 
 Elle est sans lendemain : McLaren construit six châssis, tous condamnés en fin d'année par le passage aux moteurs atmosphériques de 3,5 litres. La boîte à trois arbres était aussi un pari : « un risque technique énorme », selon Murray, « potentiellement le talon d'Achille ».
+
+Autosport (2017) cite aussi un Steve Nielsen parmi les auteurs de la voiture, absent des autres sources consultées ; le seul Steve Nielsen connu en F1 travaille alors chez Team Lotus (GrandPrix.com).
 
 ## Ce qu'elle laisse
 

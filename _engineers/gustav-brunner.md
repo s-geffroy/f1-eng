@@ -24,6 +24,8 @@ sources:
     url: "https://www.autosport.com/f1/news/toyota-unveil-the-tf103-at-paul-ricard-5061703/5061703/"
   - titre: "Michele Lostia, Autosport, “Brunner 'astounded' by criminal charges” (January 2006)"
     url: "https://www.autosport.com/f1/news/brunner-astounded-by-criminal-charges-4398843/4398843/"
+  - titre: "Motor Sport Magazine, “Obituaries” (July 2005, Günther Schmid)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-2005/10/obituaries"
 consultation: "26 October 2026"
 image: "/assets/partage/en/gustav-brunner.jpg"
 ---
@@ -33,7 +35,7 @@ Gustav Brunner, an Austrian mechanical engineer from Graz, worked for at least s
 
 ## Technical career
 
-- **Beginnings.** A junior designer at McNamara, a builder of Formula Vee and F3 cars, he was hired in 1978 by Günter Schmid's ATS team. Between two spells at ATS, he designed F2 cars for Willi Maurer; Schmid then brought him back to design a BMW-engined ATS for Manfred Winkelhock.
+- **Beginnings.** A junior designer at McNamara, a builder of Formula Vee and F3 cars, he was hired in 1978 by Günther Schmid's ATS team. Between two spells at ATS, he designed F2 cars for Willi Maurer; Schmid then brought him back to design a BMW-engined ATS for Manfred Winkelhock.
 - **RAM.** In 1985 he joined the Hart-engined RAM team.
 - **Ferrari, first spell.** He was hired to lead the design team of the **F187**, with which Gerhard Berger won the 1987 Japanese and Australian Grands Prix. The arrival of [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) then weakened his position; in 1988 he designed an Indycar that never ran.
 - **Rial, Zakspeed.** He designed Schmid's Rial in 1988, then the Yamaha-engined Zakspeed 891 in 1989; GrandPrix.com calls the engine "a disaster".

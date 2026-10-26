@@ -1,4 +1,8 @@
-{%- comment -%} Page des lignées, commune aux deux langues. {%- endcomment -%}
+{%- comment -%}
+  Page des lignées, commune aux deux langues. Chaque étape (sauf la première) porte un lien qui justifie le
+  passage depuis l'étape précédente : preuve, pourquoi, sources. Règle de la méthode : une étape sans
+  justification écrite n'est pas publiée.
+{%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
@@ -9,9 +13,34 @@
 {%- for l in D.lignees %}
 <section class="lignee" id="{{ l.id }}">
   <h2>{{ l.nom }}</h2>
+  {%- comment -%} Étapes publiables : la première, puis celles dont le lien est justifié. {%- endcomment -%}
   <ol class="chaine">
     {%- for etape in l.etapes %}
-    <li>{% for id in etape %}{% include lien-entree.html id=id %}{% unless forloop.last %} {{ T.lignees.et }} {% endunless %}{% endfor %}</li>
+    {%- if forloop.first or etape.lien.pourquoi and etape.lien.sources.size > 0 %}
+    <li>
+      {%- if etape.entrees -%}
+        {%- for id in etape.entrees %}{% include lien-entree.html id=id %}{% unless forloop.last %} {{ T.lignees.et }} {% endunless %}{% endfor -%}
+      {%- elsif etape.ancre -%}
+        <a href="{{ etape.ancre | relative_url }}">{{ etape.texte }}</a>
+      {%- else -%}
+        <span>{{ etape.texte }}</span>
+      {%- endif -%}
+    </li>
+    {%- endif %}
+    {%- endfor %}
+  </ol>
+  <ol class="liens-lignee">
+    {%- for etape in l.etapes %}
+    {%- unless forloop.first %}
+    {%- if etape.lien.pourquoi and etape.lien.sources.size > 0 %}
+    {%- assign p = D.chronologie.preuves | where: "id", etape.lien.preuve | first %}
+    <li>
+      <p>{% include lier-noms.html texte=etape.lien.pourquoi %} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b></p>
+      <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
+        {%- for s in etape.lien.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
+    </li>
+    {%- endif %}
+    {%- endunless %}
     {%- endfor %}
   </ol>
 </section>

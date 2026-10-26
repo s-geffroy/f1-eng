@@ -9,7 +9,7 @@ tier: B
 score: "88,5"
 confiance: "Élevée"
 domaine: "Architecture et stratégie de course"
-lignees: ["aerodynamique"]
+lignees: []
 voir_aussi: ["jean-claude-migeot", "adrian-newey"]
 portrait:
   fichier: "/assets/portraits/gordon-murray.jpg"
@@ -60,6 +60,3 @@ formula1.com attribue la MP4/4 tantôt à Murray, tantôt à Steve Nichols. La p
 
 Ses idées sont fortes et souvent inattendues, mais la **diffusion de certaines ruptures reste inégale**. La BT46B n'a couru qu'une fois : une innovation retirée conserve sa valeur de rupture, sans prouver une influence durable. Le pit-stop tactique, que les autres équipes ne copient pas tout de suite (à Rio, en 1983, seule Williams tente aussi un ravitaillement), et le système modulaire de la BT52, largement copié, ont en revanche été repris.
 
-## Lignée
-
-Dans la branche aérodynamique : [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})/[Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) → Murray/[Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) → [Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}).

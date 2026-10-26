@@ -16,8 +16,6 @@ sources:
     url: "https://www.crash.net/f1/news/38414/1/mclarens-backroom-engineers-and-their-vital-role"
   - titre: "Adam Cooper, Motor Sport Magazine, “Why Gordon Murray's Brabham BT55 never fulfilled its lowline promise” (September 2026)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/"
-  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
-    url: "https://www.grandprix.com/people/steve-nielsen.html"
   - titre: "Motor Sport Magazine, James Elson, “'Gordon Murray's living in a parallel universe' — McLaren designers hit back over MP4/4 claims” (October 2021)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murrays-living-in-a-parallel-universe-mclaren-designers-hit-back-over-mp4-4-claims/"
   - titre: "Motor Sport Magazine, Damien Smith, “McLaren MP4/4: Sleek F1 machine that won 15 races out of 16” (April 2024)"
@@ -57,4 +55,4 @@ Jeffreys compares the methods of the two technical directors he worked under. Wi
 
 ## Attribution
 
-Jeffreys is both a witness and a party to the dispute: he defends the version of Nichols, his friend. Motor Sport, in 2024, speaks of an "internal faction" led by Nichols and Jeffreys. Autosport, which compared the accounts in 2017, lists him among those who designed the MP4/4 or did its detail work, with Nichols, [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus), while crediting the concept mainly to Murray. This site presents both versions.
+Jeffreys is both a witness and a party to the dispute: he defends the version of Nichols, his friend. Motor Sport, in 2024, speaks of an "internal faction" led by Nichols and Jeffreys. Autosport, which compared the accounts in 2017, lists him among those who designed the MP4/4 or did its detail work, with Nichols, [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}), while crediting the concept mainly to Murray. This site presents both versions.

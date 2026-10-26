@@ -9,7 +9,7 @@ tier: C
 score: "80.0"
 confiance: "High"
 domaine: "Aerodynamics"
-lignees: ["aerodynamique"]
+lignees: []
 voir_aussi: ["gordon-murray", "adrian-newey"]
 sources:
   - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
@@ -45,6 +45,3 @@ Motor Sport presents the 019 as an innovative design by **Harvey Postlethwaite a
 
 The breakthrough is real and lasting, but the principle was **quickly absorbed** into the general evolution of aerodynamics, and it was in the spirit of the times. It altered a trajectory without redefining the discipline as a whole.
 
-## Lineage
-
-In the aerodynamics branch: [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})/[Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) → [Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %})/Migeot → [Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}).

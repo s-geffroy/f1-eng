@@ -104,9 +104,9 @@ fr:
     accroche: "Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures. Le classement est une sélection argumentée, pas une liste exhaustive des grands ingénieurs."
   lignees:
     titre_page: "Lignées"
-    description: "Cinq lignées techniques de la Formule 1, de Cooper à Newey."
+    description: "Cinq lignées techniques de la Formule 1, de Cooper à Newey, chaque filiation justifiée par ses sources."
     titre: "Les lignées techniques"
-    accroche: "Ces chaînes montrent des filiations intellectuelles entre les entrées, pas des relations de maître à élève. Elles ne couvrent que les filiations que les entrées permettent de documenter."
+    accroche: "Ces chaînes montrent des filiations intellectuelles entre les entrées, pas des relations de maître à élève. Sous chaque chaîne, une phrase dit ce qui passe d'une étape à la suivante, avec son niveau de preuve et ses sources : une filiation qui n'est pas justifiée par écrit n'est pas publiée."
     et: "et"
   chrono:
     titre_page: "Chronologie"
@@ -280,9 +280,9 @@ en:
     accroche: "Five engineers changed the grammar of F1; fifteen others transformed subsystems, methods or major technical paths. The ranking is a reasoned selection, not an exhaustive list of great engineers."
   lignees:
     titre_page: "Lineages"
-    description: "Five technical lineages of Formula 1, from Cooper to Newey."
+    description: "Five technical lineages of Formula 1, from Cooper to Newey, each link justified by its sources."
     titre: "Technical lineages"
-    accroche: "These chains show intellectual lineages between entries, not master-and-pupil relationships. They only cover the lineages that the entries can document."
+    accroche: "These chains show intellectual lineages between entries, not master-and-pupil relationships. Under each chain, a sentence says what passes from one step to the next, with its level of evidence and its sources: a lineage that is not justified in writing is not published."
     et: "and"
   chrono:
     titre_page: "Timeline"

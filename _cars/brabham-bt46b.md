@@ -2,7 +2,7 @@
 title: "Brabham BT46B"
 nom_tri: "brabham bt46b"
 accroche: "One race, one win, and a fan to suck the car onto the track."
-description: "Brabham BT46B (1978): an engine-driven fan extracts the air from under the car; it won its only race, in Sweden."
+description: "Brabham BT46B (1978): a gearbox-driven fan extracts the air from under the car; it won its only race, in Sweden."
 annee: 1978
 equipe: "Brabham"
 moteur: "Alfa Romeo flat-12"
@@ -15,6 +15,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/page/may-1998/65"
   - titre: "Motor Sport Magazine, “The 75 greatest Grands Prix: 1978 Swedish GP” (March 2025)"
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
+  - titre: "Jonathan Bushell, Motor Sport Magazine, “1978 Brabham BT46B 'fan car'” (February 2025, with Denis Jenkinson's July 1978 report)"
+    url: "https://motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car"
 photo:
   fichier: "/assets/voitures/brabham-bt46b.jpg"
   legende: "The BT46B at the Goodwood Festival of Speed, in July 2001. Here it runs on Avon tyres, not the Goodyears of 1978."

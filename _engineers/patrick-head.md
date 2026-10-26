@@ -53,4 +53,4 @@ His contribution is major and lasting, but it lies in organisation and integrati
 
 ## Lineage
 
-In the systems organisation branch: Head → [Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) → modern F1 teams.
+In the systems organisation branch: Head → [Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) → the 2014 Mercedes programme. What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#organisation).

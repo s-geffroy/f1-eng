@@ -9,7 +9,7 @@ tier: B
 score: "88.5"
 confiance: "High"
 domaine: "Architecture and race strategy"
-lignees: ["aerodynamique"]
+lignees: []
 voir_aussi: ["jean-claude-migeot", "adrian-newey"]
 portrait:
   fichier: "/assets/portraits/gordon-murray.jpg"
@@ -59,6 +59,3 @@ formula1.com attributes the MP4/4 sometimes to Murray, sometimes to Steve Nichol
 
 His ideas are strong and often unexpected, but the **spread of some of his breakthroughs remains uneven**. The BT46B raced only once: a withdrawn innovation keeps its value as a breakthrough, without proving lasting influence. The tactical pit stop, which the other teams did not copy straight away (at Rio in 1983, only Williams also tried refuelling), and the BT52's modular system, widely copied, were on the other hand taken up.
 
-## Lineage
-
-In the aerodynamics branch: [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})/[Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) → Murray/[Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}) → [Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}).

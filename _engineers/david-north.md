@@ -20,8 +20,6 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/"
   - titre: "Gary Watkins, Autosport, “The origins of McLaren-Honda's greatest racer” (August 2017)"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
-    url: "https://www.grandprix.com/people/steve-nielsen.html"
   - titre: "Peter Wright, GrandPrix.com, “Gordon Murray” (February 1996)"
     url: "https://www.grandprix.com/features/peter-wright/technical-gordon-murray.html"
   - titre: "Alan Henry, Motor Sport Magazine, “Gordon Murray” (September 1981)"
@@ -53,7 +51,7 @@ David North is a British engineer from an aerospace background who spent most of
 
 ## The MP4/4 gearbox
 
-The 1988 Honda V6 had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) and Steve Nielsen (uncertain attribution: according to GrandPrix.com, the well-known Steve Nielsen was then working at Team Lotus).
+The 1988 Honda V6 had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}).
 
 In 2021, Murray gave Motor Sport his own division of labour: he says he put Nichols in charge of the monocoque and the front end, while he and North did the rear end, the aerodynamics and the new dry-sump three-shaft gearbox, with Weismann. This is Murray's version, in an authorship that Nichols disputes; this site reports it without settling the matter.
 

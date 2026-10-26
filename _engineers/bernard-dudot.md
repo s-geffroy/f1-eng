@@ -9,7 +9,7 @@ tier: B
 score: "90.0"
 confiance: "High"
 domaine: "Engine"
-lignees: ["moteur"]
+lignees: []
 voir_aussi: ["keith-duckworth", "andy-cowell"]
 sources:
   - titre: "Motor Sport Magazine, “Renault blew it! The pioneering F1 turbo that failed Prost in title bid” (December 2024)"
@@ -52,6 +52,3 @@ Renault Sport is an organisation, and the sources show it: GrandPrix.com attribu
 
 Three engine breakthroughs, all spread to the rest of the grid according to Renault's documentation: it is the profile closest to Tier A among the next fifteen. What separates him from it is the collective nature of the achievements.
 
-## Lineage
-
-In the engine branch of the ranking: [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) → Dudot → [Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).

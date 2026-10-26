@@ -16,6 +16,7 @@ portrait:
   legende: "Vittorio Jano à Monza en 1924, devant l'Alfa Romeo P2."
   auteur: "Photographe inconnu"
   licence: "Domaine public"
+  licence_url: "https://commons.wikimedia.org/wiki/Template:PD-Italy"
   source: "https://commons.wikimedia.org/wiki/File:1924-10-19_Monza_Alfa_P2_Jano.jpg"
 sources:
   - titre: "Motor Sport Magazine, « Lancia D50: The grand prix great that doomed a team » (juillet 2020)"

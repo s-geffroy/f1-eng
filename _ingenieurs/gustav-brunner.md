@@ -24,6 +24,8 @@ sources:
     url: "https://www.autosport.com/f1/news/toyota-unveil-the-tf103-at-paul-ricard-5061703/5061703/"
   - titre: "Michele Lostia, Autosport, « Brunner 'astounded' by criminal charges » (janvier 2006)"
     url: "https://www.autosport.com/f1/news/brunner-astounded-by-criminal-charges-4398843/4398843/"
+  - titre: "Motor Sport Magazine, « Obituaries » (juillet 2005, Günther Schmid)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-2005/10/obituaries"
 consultation: "26 octobre 2026"
 image: "/assets/partage/gustav-brunner.jpg"
 ---
@@ -33,7 +35,7 @@ Gustav Brunner, ingénieur mécanicien autrichien de Graz, a travaillé pour au 
 
 ## Parcours technique
 
-- **Débuts.** Concepteur débutant chez McNamara, constructeur de Formule Vee et de F3, il est engagé en 1978 par l'équipe ATS de Günter Schmid. Entre deux passages chez ATS, il dessine des F2 pour Willi Maurer ; Schmid le rappelle ensuite pour concevoir une ATS à moteur BMW pour Manfred Winkelhock.
+- **Débuts.** Concepteur débutant chez McNamara, constructeur de Formule Vee et de F3, il est engagé en 1978 par l'équipe ATS de Günther Schmid. Entre deux passages chez ATS, il dessine des F2 pour Willi Maurer ; Schmid le rappelle ensuite pour concevoir une ATS à moteur BMW pour Manfred Winkelhock.
 - **RAM.** En 1985, il rejoint l'équipe RAM à moteur Hart.
 - **Ferrari, première période.** Il est engagé pour diriger l'équipe de conception de la **F187**, avec laquelle Gerhard Berger gagne les Grands Prix du Japon et d'Australie 1987. L'arrivée de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) affaiblit ensuite sa position ; en 1988, il dessine une Indycar qui ne roulera pas.
 - **Rial, Zakspeed.** Il dessine la Rial de Schmid en 1988, puis la Zakspeed 891 à moteur Yamaha en 1989 ; GrandPrix.com juge le moteur « désastreux ».

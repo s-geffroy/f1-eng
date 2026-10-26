@@ -7,7 +7,7 @@ annee: 1992
 equipe: "Williams"
 moteur: "Renault V10 de 3,5 litres"
 statut: "A couru en 1992 ; titres pilotes et constructeurs"
-concepteurs: ["patrick-head", "adrian-newey", "paddy-lowe", "frank-dernie"]
+concepteurs: ["patrick-head", "adrian-newey", "paddy-lowe"]
 termes: ["suspension-active", "antipatinage", "boite-semi-automatique"]
 jalons: ["fw14b", "active-gagne", "v10-renault"]
 sources:
@@ -27,6 +27,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - titre: "Adam Cooper, Autosport, « Tech secrets of a Formula 1 legend » (janvier 2017)"
     url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
+  - titre: "GrandPrix.com, « Frank Dernie »"
+    url: "https://grandprix.com/people/frank-dernie.html"
 photo:
   fichier: "/assets/voitures/williams-fw14b.jpg"
   legende: "Nigel Mansell sur la FW14B au Grand Prix d'Allemagne 1992, à Hockenheim."
@@ -47,7 +49,7 @@ La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatina
 
 ## Qui l'a conçue
 
-Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987), Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
+Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987) avant de partir chez Lotus en 1989 (GrandPrix.com) ; Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
 
 ## Limites
 

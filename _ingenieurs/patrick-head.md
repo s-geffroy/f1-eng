@@ -54,4 +54,4 @@ Sa contribution est majeure et durable, mais elle relève de l'organisation et d
 
 ## Lignée
 
-Dans la branche organisation système : Head → [Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) → équipes F1 modernes.
+Dans la branche organisation système : Head → [Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) → le programme Mercedes de 2014. Ce qui relie chaque étape, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#organisation).

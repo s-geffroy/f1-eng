@@ -1,32 +1,95 @@
-# Intellectual lineages (spec, slide 18) -- not master-pupil relationships.
-# Each step lists entry identifiers (_engineers/<id>.md) or free text.
+# Intellectual lineages -- not master-pupil relationships.
+# A step = entries (_engineers/<id>.md) OR free text (texte, optional ancre).
+# Every step but the first carries a link justifying the move from the previous step:
+# preuve (atteste | etabli | discute | chronologique, as in the timeline), pourquoi, sources.
+# Rule of _features/causalite.md: a link without a written justification is not published
+# (the template does not show a step without pourquoi and sources).
 - id: "architecture"
   nom: "Architecture"
   etapes:
-    - ["john-cooper"]
-    - ["colin-chapman"]
-    - ["john-barnard"]
+    - entrees: ["john-cooper"]
+    - entrees: ["colin-chapman"]
+      lien:
+        preuve: "etabli"
+        pourquoi: "Lotus followed Cooper's lead and in turn put the engine behind the driver: the 1960 Lotus 18 was the first mid-engined Lotus (Doug Nye)."
+        sources:
+          - titre: "Goodwood, Doug Nye, “The rise and fall of the single-seater Cooper” (August 2019)"
+            url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
+          - titre: "Lotus, “Lotus Story”"
+            url: "https://www.lotuscars.com/en/lotus-story"
+    - entrees: ["john-barnard"]
+      lien:
+        preuve: "etabli"
+        pourquoi: "Barnard calls Chapman his design \"hero\" (McLaren); he grasped the principle of the Lotus 79, and it was to widen the ground-effect tunnels that he wanted a narrow chassis, which he found in carbon fibre (Stuart Codling)."
+        sources:
+          - titre: "McLaren, “MP4/1”"
+            url: "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
+          - titre: "Autosport, Stuart Codling, “How Barnard's revolutionary McLaren transformed F1 car construction” (June 2021)"
+            url: "https://www.autosport.com/f1/news/how-barnards-revolutionary-mclaren-transformed-f1-car-construction/6570842/"
 - id: "aerodynamique"
   nom: "Aerodynamics"
   etapes:
-    - ["colin-chapman", "peter-wright"]
-    - ["gordon-murray", "jean-claude-migeot"]
-    - ["adrian-newey"]
+    - entrees: ["colin-chapman", "peter-wright"]
+    - entrees: ["adrian-newey"]
+      lien:
+        preuve: "atteste"
+        pourquoi: "Newey admired the Lotus 78 and 79 \"for their aerodynamics\" and wrote his final-year project on ground effect; Peter Wright, who reports this, names Chapman as the designer who most inspired him (GrandPrix.com, 1999)."
+        sources:
+          - titre: "GrandPrix.com, Peter Wright, “Adrian Newey — Simply the Best” (October 1999)"
+            url: "https://www.grandprix.com/features/peter-wright/technical-adrian-newey-simply-the-best.html"
 - id: "moteur"
   nom: "Engine"
   etapes:
-    - ["keith-duckworth"]
-    - ["bernard-dudot"]
-    - ["andy-cowell"]
+    - entrees: ["keith-duckworth"]
+    - entrees: ["andy-cowell"]
+      lien:
+        preuve: "etabli"
+        pourquoi: "Cowell learned his trade at Cosworth, the firm Duckworth founded with Costin: a 1991 graduate, he joined its graduate scheme and worked on its F1 engines (formula1.com, Lancaster University). The link runs through the company: no source says he worked with Duckworth himself."
+        sources:
+          - titre: "Lancaster University, “Alumni awards for outstanding graduates” (December 2016)"
+            url: "https://www.lancaster.ac.uk/news/articles/2016/alumni-awards-for-outstanding-graduates/"
+          - titre: "Formula 1, “Who is Andy Cowell? All you need to know about Aston Martin's new F1 team boss” (January 2025)"
+            url: "https://www.formula1.com/en/latest/article/who-is-andy-cowell-all-you-need-to-know-about-aston-martins-new-f1-team-boss.7f971ZlBsULriL7Q00bX1m"
 - id: "numerique"
   nom: "Digital and control"
   etapes:
-    - ["frank-dernie"]
-    - ["paddy-lowe"]
-    - ["Modern engineering"]
+    - entrees: ["frank-dernie"]
+    - entrees: ["paddy-lowe"]
+      lien:
+        preuve: "atteste"
+        pourquoi: "Dernie hired Lowe at Williams to programme the electronic active suspension; Lowe worked under him until Dernie left for Lotus, then became the system's project leader (Simon Taylor, Paul Fearnley)."
+        sources:
+          - titre: "Motor Sport, Simon Taylor, “Lunch with… Frank Dernie” (August 2016)"
+            url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
+          - titre: "Motor Sport, Paul Fearnley, “Paddy Lowe: 155 wins and counting” (November 2016)"
+            url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/paddy-lowe-155-wins-and-counting/"
+    - texte: "The McLaren simulator (1996)"
+      ancre: "/en/timeline/#j-simulateur"
+      lien:
+        preuve: "atteste"
+        pourquoi: "Having moved to McLaren as head of research and development, Lowe started its driving simulator in 1996, by his account, long before in-season testing was curtailed (Paddy Lowe, quoted by Edd Straw)."
+        sources:
+          - titre: "Autosport, Edd Straw, “Does F1 still need in-season testing?” (April 2012)"
+            url: "https://www.autosport.com/f1/news/does-f1-still-need-in-season-testing-5098577/5098577/"
 - id: "organisation"
   nom: "Systems organisation"
   etapes:
-    - ["patrick-head"]
-    - ["ross-brawn"]
-    - ["Modern F1 teams"]
+    - entrees: ["patrick-head"]
+    - entrees: ["ross-brawn"]
+      lien:
+        preuve: "atteste"
+        pourquoi: "Patrick Head hired Ross Brawn at Williams; starting as a machinist, Brawn learned his trade in Head's design office, in Frank Dernie's research and development department, and worked on the wind tunnel (Ross Brawn, Patrick Head). No source says his method came from Head."
+        sources:
+          - titre: "Motorsport UK, “The wisdom of the award-winning Ross Brawn” (February 2024)"
+            url: "https://motorsportuk.org/the-wisdom-of-the-award-winning-ross-brawn/"
+          - titre: "Motor Sport, Rob Widdows, “Sir Patrick Head: The Motor Sport Interview” (April 2022)"
+            url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
+          - titre: "GrandPrix.com, “Ross Brawn”"
+            url: "https://www.grandprix.com/gpe/cref-braros.html"
+    - texte: "Mercedes 2014 (integrated programme)"
+      lien:
+        preuve: "atteste"
+        pourquoi: "At Mercedes, Brawn applied the method of the 1994 Benetton to the 2014 programme: start early, a dedicated and very integrated programme, with the engine designed in tune with the chassis (Ross Brawn, formula1.com). This is the programme, not the car: Brawn did not design the W05."
+        sources:
+          - titre: "Formula 1, “Ross Brawn reveals his favourite car designs” (January 2026)"
+            url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"

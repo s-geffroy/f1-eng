@@ -9,7 +9,7 @@ tier: B
 score: "90,0"
 confiance: "Élevée"
 domaine: "Moteur"
-lignees: ["moteur"]
+lignees: []
 voir_aussi: ["keith-duckworth", "andy-cowell"]
 sources:
   - titre: "Motor Sport Magazine, « Renault blew it! The pioneering F1 turbo that failed Prost in title bid » (décembre 2024)"
@@ -53,6 +53,3 @@ Renault Sport est une organisation, et les sources le montrent : GrandPrix.com a
 
 Trois ruptures moteur, toutes diffusées au reste du plateau selon la documentation Renault : c'est le profil le plus proche du Tier A parmi les quinze suivants. Ce qui l'en sépare, c'est le caractère collectif des réalisations.
 
-## Lignée
-
-Dans la branche moteur du classement : [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) → Dudot → [Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}).

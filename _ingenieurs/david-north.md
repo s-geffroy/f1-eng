@@ -20,8 +20,6 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/"
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer » (août 2017)"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "GrandPrix.com, « Steve Nielsen » (fiche biographique, non datée)"
-    url: "https://www.grandprix.com/people/steve-nielsen.html"
   - titre: "Peter Wright, GrandPrix.com, « Gordon Murray » (février 1996)"
     url: "https://www.grandprix.com/features/peter-wright/technical-gordon-murray.html"
   - titre: "Alan Henry, Motor Sport Magazine, « Gordon Murray » (septembre 1981)"
@@ -53,7 +51,7 @@ David North est un ingénieur britannique, venu de l'aéronautique, qui a passé
 
 ## La boîte de la MP4/4
 
-Le V6 Honda de 1988 a un vilebrequin placé 28mm plus bas. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue. Selon Autosport, Murray, qui a fait venir North de Brabham, se tourne vers [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et North, les « deux cerveaux » de la boîte en Z de la BT55 ; ils conçoivent la boîte à trois arbres superposés. Autosport le range aussi parmi ceux qui ont conçu la MP4/4 ou en ont fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) et Steve Nielsen (attribution incertaine : selon GrandPrix.com, le Steve Nielsen connu travaille alors chez Team Lotus).
+Le V6 Honda de 1988 a un vilebrequin placé 28mm plus bas. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue. Selon Autosport, Murray, qui a fait venir North de Brabham, se tourne vers [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et North, les « deux cerveaux » de la boîte en Z de la BT55 ; ils conçoivent la boîte à trois arbres superposés. Autosport le range aussi parmi ceux qui ont conçu la MP4/4 ou en ont fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) et [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}).
 
 En 2021, Murray donne à Motor Sport sa propre répartition : il aurait confié la coque et l'avant à Nichols, tandis que North et lui faisaient l'arrière, l'aérodynamique et la nouvelle boîte à trois arbres et carter sec, avec Weismann. C'est la version de Murray, dans une paternité que Nichols lui dispute ; le site la rapporte sans trancher.
 

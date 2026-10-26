@@ -34,15 +34,15 @@ redirect_from: "/classement/2026/10/25/classement-final-ingenieurs-f1.html"
 
 ## Les grandes lignées techniques
 
-Ce tableau montre des **filiations intellectuelles**, pas des relations maître-élève.
+Ce tableau montre des **filiations intellectuelles**, pas des relations maître-élève. Ce qui relie chaque étape, et d'après quelles sources, est sur la [page des lignées]({{ site.baseurl }}/lignees/).
 
 | Branche | Lignée |
 |---|---|
 | Architecture | Cooper → Chapman → Barnard |
-| Aérodynamique | Chapman/Wright → Murray/Migeot → Newey |
-| Moteur | Duckworth → Dudot → Cowell |
-| Numérique et contrôle | Dernie → Lowe → ingénierie moderne |
-| Organisation système | Head → Brawn → équipes F1 modernes |
+| Aérodynamique | Chapman/Wright → Newey |
+| Moteur | Duckworth → Cowell |
+| Numérique et contrôle | Dernie → Lowe → simulateur McLaren (1996) |
+| Organisation système | Head → Brawn → programme Mercedes 2014 |
 
 ## Trois manières d'être au sommet
 

@@ -8,7 +8,7 @@ domaine: "Architecture"
 lignees: []
 voir_aussi: ["rory-byrne", "ross-brawn", "andy-cowell", "paddy-lowe"]
 sources:
-  - titre: "Formula 1, “Costa to depart Mercedes and join Dallara”"
+  - titre: "Formula 1, “Mercedes Technical Advisor Costa to join Dallara for 2020” (September 2019)"
     url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
   - titre: "Autosport, “Why a key title-winning team builder is leaving Formula 1”"
     url: "https://www.autosport.com/f1/news/why-a-key-title-winning-team-builder-is-leaving-formula-1-4988592/4988592/"
@@ -33,7 +33,7 @@ Aldo Costa is [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}
 
 - He started at Abarth in 1987, then became Minardi's chief designer at the age of 27 (Autosport has his career beginning at Minardi in 1988).
 - **Ferrari.** Byrne's deputy, then head of design and development, then technical director. In late 2004, Byrne announced that the 2005 car project was being led by Costa; in 2006, he said of the new car: "this year he has done it on his own". In May 2011, after a winless start to the season, he left the post of technical director.
-- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team. formula1.com presents him as a central cog in the five doubles of the hybrid era (2014-2018).
+- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team. formula1.com presents him as a central cog in the five drivers' and constructors' doubles won from 2014 to 2018, while he led engineering; he became technical advisor in 2019.
 - He then joined Dallara.
 
 ## Where sources disagree

@@ -26,6 +26,10 @@ sources:
     url: "https://www.goodwood.com/grr/f1/on-this-day-in...-1967/"
   - titre: "Motor Sport Magazine, “Lancia D50 re-creations nearing completion” (October 1999)"
     url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
+  - titre: "Denis Jenkinson, Motor Sport Magazine, “Bank holiday racing” (May 1967)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-1967/52/bank-holiday-racing/"
+  - titre: "Alan Henry, Motor Sport Magazine, “Formula 2 review: end of an era” (January 1972)"
+    url: "https://www.motorsportmagazine.com/archive/article/january-1972/21/formula-2-review-end-of-an-era/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/keith-duckworth.jpg"
 ---
@@ -49,7 +53,7 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 
 - A former Imperial College student, he joined Lotus in 1957 as a transmission development engineer, and left after a few months.
 - He founded Cosworth in 1958 with [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), whom [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) kept under contract at Lotus until 1962.
-- His reworking of the Ford 105E engine dominated Formula Junior. In 1966, the FVA four-cylinder, his first clean-sheet design, rewrote the Formula 2 record books.
+- His reworking of the Ford 105E engine dominated Formula Junior. Designed in 1966, the FVA four-cylinder, his first clean-sheet design according to Motor Sport, won its first Formula 2 race, at Snetterton in March 1967, and dominated the category for five seasons.
 - In the autumn of 1965, Ford ordered two racing engines from Cosworth and funded development of the V8 to the tune of £100,000. The engine was quoted at over 400hp at 9000rpm.
 - He sold Cosworth to UEI in 1980; Costin succeeded him as chairman in 1988.
 

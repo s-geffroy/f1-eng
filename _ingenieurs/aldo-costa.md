@@ -8,7 +8,7 @@ domaine: "Architecture"
 lignees: []
 voir_aussi: ["rory-byrne", "ross-brawn", "andy-cowell", "paddy-lowe"]
 sources:
-  - titre: "Formula 1, « Costa to depart Mercedes and join Dallara »"
+  - titre: "Formula 1, « Mercedes Technical Advisor Costa to join Dallara for 2020 » (septembre 2019)"
     url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
   - titre: "Autosport, « Why a key title-winning team builder is leaving Formula 1 »"
     url: "https://www.autosport.com/f1/news/why-a-key-title-winning-team-builder-is-leaving-formula-1-4988592/4988592/"
@@ -33,7 +33,7 @@ Aldo Costa est le successeur de [Rory Byrne]({{ site.baseurl }}{% link _ingenieu
 
 - Il commence chez Abarth en 1987, puis devient chef designer de Minardi à 27 ans (Autosport fait commencer sa carrière chez Minardi en 1988).
 - **Ferrari.** Adjoint de Byrne, puis responsable de la conception et du développement, puis directeur technique. Fin 2004, Byrne annonce que le projet de la voiture 2005 est mené par Costa ; en 2006, il dit de la nouvelle voiture : « cette année, il l'a faite seul ». En mai 2011, après un début de saison sans victoire, il quitte le poste de directeur technique.
-- **Mercedes.** Directeur de l'ingénierie à partir du 1er décembre 2011, il mène la conception de la W05 de 2014 ; le groupe propulseur relève, lui, de l'équipe d'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}). formula1.com le présente comme un rouage central des cinq doublés de l'ère hybride (2014-2018).
+- **Mercedes.** Directeur de l'ingénierie à partir du 1er décembre 2011, il mène la conception de la W05 de 2014 ; le groupe propulseur relève, lui, de l'équipe d'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}). formula1.com le présente comme un rouage central des cinq doublés pilotes et constructeurs obtenus de 2014 à 2018, pendant qu'il dirige l'ingénierie ; il devient conseiller technique en 2019.
 - Il rejoint ensuite Dallara.
 
 ## Divergences entre sources

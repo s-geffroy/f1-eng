@@ -33,15 +33,15 @@ description: "The twenty with their scores, the technical lineages and the concl
 
 ## The great technical lineages
 
-This table shows **intellectual lineages**, not master–pupil relationships.
+This table shows **intellectual lineages**, not master–pupil relationships. What links each step, and on what sources, is on the [lineages page]({{ site.baseurl }}/en/lineages/).
 
 | Branch | Lineage |
 |---|---|
 | Architecture | Cooper → Chapman → Barnard |
-| Aerodynamics | Chapman/Wright → Murray/Migeot → Newey |
-| Engine | Duckworth → Dudot → Cowell |
-| Digital and control | Dernie → Lowe → modern engineering |
-| Systems organisation | Head → Brawn → modern F1 teams |
+| Aerodynamics | Chapman/Wright → Newey |
+| Engine | Duckworth → Cowell |
+| Digital and control | Dernie → Lowe → McLaren simulator (1996) |
+| Systems organisation | Head → Brawn → 2014 Mercedes programme |
 
 ## Three ways to be at the top
 

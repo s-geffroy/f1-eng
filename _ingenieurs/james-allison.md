@@ -12,6 +12,8 @@ sources:
     url: "https://www.mercedesamgf1.com/team/person/james-allison"
   - titre: "Formula 1, « James Allison to join Mercedes as technical director » (février 2017)"
     url: "https://www.formula1.com/en/latest/article/james-allison-to-join-mercedes-as-technical-director.5XaVEuhOMgwu6IOUIiGA4I"
+  - titre: "Lawrence Barretto, Autosport, « Paddy Lowe's departure from Mercedes F1 team confirmed » (janvier 2017)"
+    url: "https://www.autosport.com/f1/news/paddy-lowes-departure-from-mercedes-f1-team-confirmed-5025267/5025267/"
   - titre: "Formula 1, « DAS explained: What we know so far about Mercedes' trick new steering system » (février 2020)"
     url: "https://www.formula1.com/en/latest/article/das-explained-what-we-know-so-far-about-mercedes-trick-new-steering-system.4vgDQ6cc20xUfhdZGT0ejB"
   - titre: "Edd Straw, The Race, « Mercedes reveals FIA rejected lever-based 2019 DAS design » (juin 2020)"
@@ -29,7 +31,7 @@ James Allison est un aérodynamicien formé chez Benetton, devenu directeur tech
 - **Ferrari, première période.** Il rejoint Ferrari en 1999 comme aérodynamicien de piste et y reste six ans, pendant la série de titres constructeurs de 1999 à 2004.
 - **Renault puis Lotus.** De retour à Enstone en 2005 comme directeur technique adjoint de Renault, il contribue aux titres de 2005 et 2006 avec Fernando Alonso. Directeur technique à partir de 2009, il accompagne la transformation de l'équipe en Lotus, qui regagne à Abou Dhabi en 2012 avec Kimi Räikkönen.
 - **Ferrari, seconde période.** Il revient à Maranello en 2013 comme directeur technique ; Sebastian Vettel y gagne trois courses en 2015. Il quitte Ferrari en 2016.
-- **Mercedes.** Mercedes crée pour lui le poste de directeur technique, à partir de mars 2017, après le départ de [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) le mois précédent ; il rend compte directement à Toto Wolff. L'équipe compte cinq titres constructeurs et quatre titres pilotes pendant cette période. Il devient directeur technique en chef, un poste nouveau, au milieu de 2021, puis reprend la direction technique en avril 2023.
+- **Mercedes.** Mercedes crée pour lui le poste de directeur technique, à partir de mars 2017, après le départ de [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), annoncé en janvier ; il rend compte directement à Toto Wolff. L'équipe compte cinq titres constructeurs et quatre titres pilotes pendant cette période. Il devient directeur technique en chef, un poste nouveau, au milieu de 2021, puis reprend la direction technique en avril 2023.
 
 ## Le DAS (2020)
 
