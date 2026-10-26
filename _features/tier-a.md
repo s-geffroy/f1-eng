@@ -22,7 +22,7 @@ This is the key to reading the whole ranking.
 
 ## No. 1 — Colin Chapman (96/100)
 
-Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25, the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with Peter Wright and Tony Rudd. The 1970 Lotus 72, with its side-mounted radiators, was co-designed by Maurice Philippe. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
+Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25, the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with Peter Wright and Tony Rudd. The 1970 Lotus 72, with its side-mounted radiators, was co-designed by Maurice Philippe, each one's share remaining disputed. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
 
 See the entry [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})
 

@@ -50,7 +50,7 @@ Chapman is not the man of a single breakthrough: he piled up several, all of the
 
 - **Lotus 25 (1962).** The aluminium [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) tub replaces the [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) as the reference architecture. The car made its debut at the 1962 Dutch Grand Prix; Chapman said he had drawn inspiration from the steel backbone chassis of the Elan road car. In 1963, Jim Clark won seven of the ten races and Lotus its first constructors' title.
 - **Lotus 49 (1967).** The Cosworth DFV engine forms the rear part of the car: the structure bolts on in front of it, the rear suspension behind it. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — the Lancia D50 used it as early as 1954 — but the Lotus 49 made it the standard.
-- **Lotus 72 (1970).** Designed by Maurice Philippe with Chapman, it puts the radiators on the flanks. With its successive developments, it won five world titles and 20 Grands Prix according to Lotus, 22 according to Classic Team Lotus.
+- **Lotus 72 (1970).** Credited to Maurice Philippe and Chapman, it puts the radiators on the flanks. With its successive developments, it won five world titles and 20 Grands Prix according to Lotus, 22 according to Classic Team Lotus.
 - **The [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) programme.** Chapman launched and led it, through to the Lotus 78 and 79.
 - **Lotus 88 (1981).** The twin-chassis concept, two separately sprung bodies, was challenged: the car never raced.
 

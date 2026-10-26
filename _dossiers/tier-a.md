@@ -23,7 +23,7 @@ C'est la clé de lecture de tout le classement.
 
 ## N° 1 — Colin Chapman (96/100)
 
-Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par Maurice Philippe. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
+Chapman cumule plusieurs changements d'architecture au lieu d'une seule rupture : le monocoque aluminium de la Lotus 25, la chasse permanente à la masse, le moteur utilisé comme élément structurel (généralisé avec la Lotus 49 ; la Lancia D50 l'employait dès 1954), une exploitation précoce de l'aérodynamique, et la direction du programme Lotus qui débouche sur l'effet de sol, mené avec Peter Wright et Tony Rudd. La Lotus 72 de 1970, aux radiateurs latéraux, est cosignée par Maurice Philippe, la part de chacun restant discutée. **Plusieurs ruptures, une philosophie : architecture, légèreté, aéro.**
 
 Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %})
 
