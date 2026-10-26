@@ -45,3 +45,12 @@
   </ol>
 </section>
 {%- endfor %}
+{%- assign absents = site[T.collection_entrees] | where_exp: "e", "e.rang" | where_exp: "e", "e.lignees.size == 0" | sort: "rang" %}
+<section class="tier-note">
+  <h2>{{ T.lignees.tiers_titre }}</h2>
+  <p>{{ T.lignees.tiers_texte }}</p>
+  {%- if absents.size > 0 %}
+  <p>{{ T.lignees.absents_avant }}
+    {%- for e in absents %} {% include lien-entree.html id=e.slug %} ({{ T.l.tier }} {{ e.tier }}){% if forloop.last %}.{% else %},{% endif %}{% endfor %}</p>
+  {%- endif %}
+</section>

@@ -111,6 +111,9 @@ fr:
     titre: "Les lignées techniques"
     accroche: "Ces chaînes montrent des filiations intellectuelles entre les entrées, pas des relations de maître à élève. Sous chaque chaîne, une phrase dit ce qui passe d'une étape à la suivante, avec son niveau de preuve et ses sources : une filiation qui n'est pas justifiée par écrit n'est pas publiée."
     et: "et"
+    tiers_titre: "Lignées et tiers"
+    tiers_texte: "Une lignée suit un domaine technique et ce qui s'y transmet d'un ingénieur à l'autre ; un tier mesure le degré d'impact d'un ingénieur. Un ingénieur du Tier D peut prolonger une lignée ouverte au Tier A, et un ingénieur peut être très bien classé sans appartenir à aucune lignée."
+    absents_avant: "Les lignées ne publient que les filiations documentées par une source. Ces ingénieurs classés n'y figurent pas, faute de lien écrit avec un autre ingénieur du classement ; leur absence ne retire rien à leur rang :"
   chrono:
     titre_page: "Chronologie"
     description: "La frise des grandes innovations techniques de la Formule 1, de la Cooper 500 de 1946 à la Red Bull de 2022, reliées aux ingénieurs qui les ont portées."
@@ -290,6 +293,9 @@ en:
     titre: "Technical lineages"
     accroche: "These chains show intellectual lineages between entries, not master-and-pupil relationships. Under each chain, a sentence says what passes from one step to the next, with its level of evidence and its sources: a lineage that is not justified in writing is not published."
     et: "and"
+    tiers_titre: "Lineages and tiers"
+    tiers_texte: "A lineage follows a technical field and what passes in it from one engineer to another; a tier measures how much impact an engineer had. A Tier D engineer can extend a lineage opened in Tier A, and an engineer can rank very high without belonging to any lineage."
+    absents_avant: "The lineages only publish links documented by a source. These ranked engineers do not appear in them, for lack of a written link with another ranked engineer; their absence takes nothing away from their rank:"
   chrono:
     titre_page: "Timeline"
     description: "A timeline of Formula 1's great technical innovations, from the 1946 Cooper 500 to the 2022 Red Bull, linked to the engineers behind them."
