@@ -7,7 +7,7 @@ annee: 1954
 equipe: "Lancia, then Scuderia Ferrari"
 moteur: "Lancia 90° V8, 2.5 litres"
 statut: "Raced from 1954 to 1956"
-concepteurs: ["vittorio-jano", "ettore-zaccone-mina", "Gianni Lancia"]
+concepteurs: ["vittorio-jano", "ettore-zaccone-mina", "gianni-lancia"]
 termes: ["moteur-porteur", "chassis-tubulaire", "moment-polaire", "centralisation-des-masses"]
 jalons: ["lancia-d50"]
 sources:
@@ -40,7 +40,7 @@ These concentrated masses give it a low [polar moment of inertia]({{ site.baseur
 
 ## Who designed it
 
-[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), who designed the engine, qualifies this: in his view, no one person was solely responsible for the overall design, and several innovations came from Gianni Lancia himself. This site therefore describes it as a team achievement, led by Jano.
+[Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) led the team, and Motor Sport credits him with the overall principles. [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}), who designed the engine, qualifies this: in his view, no one person was solely responsible for the overall design, and several innovations came from [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself. This site therefore describes it as a team achievement, led by Jano.
 
 ## Limitations
 

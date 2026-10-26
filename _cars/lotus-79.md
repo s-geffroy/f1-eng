@@ -7,7 +7,7 @@ annee: 1978
 equipe: "Team Lotus"
 moteur: "Cosworth, 3-litre V8"
 statut: "Raced in 1978 and 1979; drivers' and constructors' titles in 1978"
-concepteurs: ["colin-chapman", "martin-ogilvie", "Geoff Aldridge", "peter-wright"]
+concepteurs: ["colin-chapman", "martin-ogilvie", "geoff-aldridge", "peter-wright"]
 termes: ["effet-de-sol", "venturi", "voiture-aile", "jupes", "monocoque"]
 jalons: ["lotus-78"]
 sources:
@@ -39,7 +39,7 @@ When it was shown to the public, the black car was nicknamed "Black Beauty".
 
 ## Who designed it
 
-This time Chapman was more directly involved than on the 78. Peter Wright recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and Geoff Aldridge turned that scheme into a car. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) continued the aerodynamic programme begun with the 78.
+This time Chapman was more directly involved than on the 78. Peter Wright recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) continued the aerodynamic programme begun with the 78.
 
 According to Motor Sport, Chapman's greater involvement was all the more marked because the two designers of the 78 had left the team. "Colin took overall charge, for better or worse," says Ogilvie.
 

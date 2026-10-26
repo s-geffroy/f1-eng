@@ -26,4 +26,4 @@ Ettore Zaccone Mina is the engine engineer of the **Lancia D50**. With [Vittorio
 
 ## Attribution of the D50
 
-Zaccone Mina disputes that Jano was the car's sole designer: in his view, Jano was the team leader, not the draughtsman, and no one is solely responsible for the whole. The angled [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur), the fuel tanks between the wheels: "these things all came out of discussions between us", with Gianni Lancia taking the final decisions.
+Zaccone Mina disputes that Jano was the car's sole designer: in his view, Jano was the team leader, not the draughtsman, and no one is solely responsible for the whole. The angled [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur), the fuel tanks between the wheels: "these things all came out of discussions between us", with [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) taking the final decisions.

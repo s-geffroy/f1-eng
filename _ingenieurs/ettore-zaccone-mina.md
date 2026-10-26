@@ -26,4 +26,4 @@ Ettore Zaccone Mina est l'ingénieur moteur de la **Lancia D50**. Avec [Vittorio
 
 ## Attribution de la D50
 
-Zaccone Mina conteste que Jano soit le seul concepteur de la voiture : selon lui, Jano était le chef d'équipe, pas le dessinateur, et personne n'est seul responsable de l'ensemble. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et incliné, les réservoirs entre les roues : « tout cela est sorti de nos discussions », Gianni Lancia prenant les décisions finales.
+Zaccone Mina conteste que Jano soit le seul concepteur de la voiture : selon lui, Jano était le chef d'équipe, pas le dessinateur, et personne n'est seul responsable de l'ensemble. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et incliné, les réservoirs entre les roues : « tout cela est sorti de nos discussions », [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) prenant les décisions finales.

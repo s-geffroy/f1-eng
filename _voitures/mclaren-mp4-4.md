@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, V6 turbo de 1,5 litre"
 statut: "A couru en 1988 ; titres pilotes et constructeurs"
-concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "bob-bell", "David North", "Pete Weismann", "Steve Nielsen"]
+concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann", "Steve Nielsen"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/mclaren-mp4-4.jpg"
 
 En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation. Beaucoup s'attendent à une année de transition. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe.
 
-Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28 mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : Pete Weismann et David North conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
+Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28 mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
 
 McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, juste jusque dans ses moindres détails.
 
@@ -45,7 +45,7 @@ La question divise, jusque chez Formula 1, qui attribue la voiture tantôt à [G
 - **Nichols**, concepteur en chef, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
 - **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
 
-Autosport conclut que Nichols et son équipe, dont Matthew Jeffreys, Bob Bell, David North et Steve Nielsen, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
+Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell, David North et Steve Nielsen, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
 
 ## Limites
 

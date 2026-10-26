@@ -7,7 +7,7 @@ annee: 1962
 equipe: "Team Lotus"
 moteur: "Coventry Climax FWMV, 1.5-litre V8"
 statut: "Raced from 1962 to 1965; drivers' and constructors' titles in 1963"
-concepteurs: ["colin-chapman", "mike-costin", "Alan Styman", "Ian Jones"]
+concepteurs: ["colin-chapman", "mike-costin", "alan-styman", "Ian Jones"]
 termes: ["monocoque", "chassis-tubulaire"]
 jalons: ["lotus-25"]
 sources:
@@ -38,7 +38,7 @@ Chapman himself spoke of a “bathtub” rather than a monocoque. As a precautio
 Motor Sport sets it out in detail:
 
 - [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) did the overall layout and the external shape;
-- chief draughtsman Alan Styman and Ian Jones did much of the detail drawing;
+- chief draughtsman [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones did much of the detail drawing;
 - [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), technical director, worked out how the panels were to be assembled and riveted.
 
 According to Ron Hickman, quoted in the same article, the original idea may have come from John Standen, Lotus's buyer, before being taken up and refined by Chapman.

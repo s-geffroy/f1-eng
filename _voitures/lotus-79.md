@@ -7,7 +7,7 @@ annee: 1978
 equipe: "Team Lotus"
 moteur: "Cosworth, V8 de 3 litres"
 statut: "A couru en 1978 et 1979 ; titres pilotes et constructeurs en 1978"
-concepteurs: ["colin-chapman", "martin-ogilvie", "Geoff Aldridge", "peter-wright"]
+concepteurs: ["colin-chapman", "martin-ogilvie", "geoff-aldridge", "peter-wright"]
 termes: ["effet-de-sol", "venturi", "voiture-aile", "jupes", "monocoque"]
 jalons: ["lotus-78"]
 sources:
@@ -39,7 +39,7 @@ Présentée au public, la voiture noire est surnommée « Black Beauty ».
 
 ## Qui l'a conçue
 
-Chapman est cette fois plus directement impliqué que sur la 78. Peter Wright raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et Geoff Aldridge transforment ce schéma en voiture. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) poursuit le programme aérodynamique engagé avec la 78.
+Chapman est cette fois plus directement impliqué que sur la 78. Peter Wright raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) poursuit le programme aérodynamique engagé avec la 78.
 
 Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie.
 

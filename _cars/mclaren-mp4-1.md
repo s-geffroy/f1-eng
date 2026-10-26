@@ -7,7 +7,7 @@ annee: 1981
 equipe: "McLaren International"
 moteur: "Cosworth DFV, 3-litre V8"
 statut: "Raced from 1981 to 1983, in B and C versions"
-concepteurs: ["john-barnard", "steve-nichols", "alan-jenkins", "Arthur Webb (British Aerospace)"]
+concepteurs: ["john-barnard", "steve-nichols", "alan-jenkins", "arthur-webb"]
 termes: ["composite-carbone", "monocoque", "effet-de-sol", "nid-d-abeille"]
 jalons: ["mp4-1", "lotus-88", "mp4-2"]
 sources:
@@ -40,7 +40,7 @@ McLaren presents it as the first F1 car designed in carbon composite. Because no
 [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) was its designer, supported notably by [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
 
 - **The Hercules contact.** Barnard says it was Nichols who pointed him towards Hercules Aerospace. McLaren's page instead attributes it to an acquaintance of Barnard's from his IndyCar years, without naming him.
-- **The materials calculations.** According to Autosport, British Aerospace introduced Barnard to the aeronautical engineer Arthur Webb, who gave him the materials science he needed.
+- **The materials calculations.** According to Autosport, British Aerospace introduced Barnard to the aeronautical engineer [Arthur Webb]({{ site.baseurl }}{% link _engineers/arthur-webb.md %}), who gave him the materials science he needed.
 
 ## Limitations
 

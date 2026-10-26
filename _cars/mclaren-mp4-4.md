@@ -7,7 +7,7 @@ annee: 1988
 equipe: "McLaren"
 moteur: "Honda RA168E, 1.5-litre turbo V6"
 statut: "Raced in 1988; drivers' and constructors' titles"
-concepteurs: ["steve-nichols", "gordon-murray", "Matthew Jeffreys", "bob-bell", "David North", "Pete Weismann", "Steve Nielsen"]
+concepteurs: ["steve-nichols", "gordon-murray", "matthew-jeffreys", "bob-bell", "david-north", "pete-weismann", "Steve Nielsen"]
 termes: ["turbocompresseur", "composite-carbone", "monocoque"]
 jalons: ["mp4-4"]
 sources:
@@ -33,7 +33,7 @@ image: "/assets/partage/en/voitures/mclaren-mp4-4.jpg"
 
 In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure. Many expected a transition year. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away.
 
-Its principle: a very low car. The new Honda V6 had its crankshaft 28 mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so Pete Weismann and David North designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
+Its principle: a very low car. The new Honda V6 had its crankshaft 28 mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
 
 McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, right down to the smallest detail.
 
@@ -45,7 +45,7 @@ The question divides opinion, even at Formula 1, which credits the car sometimes
 - **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."
 - **[Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %})**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."
 
-Autosport concludes that Nichols and his team, including Matthew Jeffreys, Bob Bell, David North and Steve Nielsen, designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
+Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), Bob Bell, David North and Steve Nielsen, designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
 
 ## Limitations
 

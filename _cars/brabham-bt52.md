@@ -7,7 +7,7 @@ annee: 1983
 equipe: "Brabham"
 moteur: "BMW, 1.5-litre turbo four-cylinder"
 statut: "Raced in 1983; drivers' title"
-concepteurs: ["gordon-murray", "David North"]
+concepteurs: ["gordon-murray", "david-north"]
 termes: ["fond-plat", "turbocompresseur", "ravitaillement", "diffuseur", "composite-carbone"]
 jalons: ["fond-plat", "bt52", "ravitaillement", "turbo-victoire"]
 sources:
@@ -39,7 +39,7 @@ Three other choices mattered:
 
 ## Who designed it
 
-[Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) was its designer. He makes the point himself: "David North and I drew every part between us."
+[Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) was its designer. He makes the point himself: "[David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and I drew every part between us."
 
 ## Limitations
 

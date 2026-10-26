@@ -7,7 +7,7 @@ annee: 1962
 equipe: "Team Lotus"
 moteur: "Coventry Climax FWMV, V8 de 1,5 litre"
 statut: "A couru de 1962 à 1965 ; titres pilotes et constructeurs en 1963"
-concepteurs: ["colin-chapman", "mike-costin", "Alan Styman", "Ian Jones"]
+concepteurs: ["colin-chapman", "mike-costin", "alan-styman", "Ian Jones"]
 termes: ["monocoque", "chassis-tubulaire"]
 jalons: ["lotus-25"]
 sources:
@@ -38,7 +38,7 @@ Chapman lui-même parlait d'une « baignoire » plutôt que d'une monocoque. Par
 Motor Sport le détaille :
 
 - [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) fait l'implantation d'ensemble et la forme extérieure ;
-- le chef dessinateur Alan Styman et Ian Jones font une grande part du dessin de détail ;
+- le chef dessinateur [Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones font une grande part du dessin de détail ;
 - [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}), directeur technique, met au point la manière de monter et de riveter les pièces.
 
 Selon Ron Hickman, cité dans le même article, l'idée de départ viendrait de John Standen, l'acheteur de Lotus, avant d'être reprise et affinée par Chapman.
