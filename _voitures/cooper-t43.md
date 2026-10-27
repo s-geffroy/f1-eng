@@ -37,13 +37,13 @@ image: "/assets/partage/voitures/cooper-t43.jpg"
 ---
 ## Ce qu'elle change
 
-Le 19 janvier 1958, Stirling Moss gagne le Grand Prix d'Argentine sur la Cooper-Climax T43 de Rob Walker{% include src.html n="1,2" %}. C'est la première victoire en Grand Prix de championnat du monde d'une voiture à [moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere), et la première de Cooper{% include src.html n="4" %}. Goodwood ajoute deux autres premières : celle d'une écurie privée, et celle d'une voiture dont le moteur vient d'un fournisseur extérieur{% include src.html n="1" %}.
+Le 19 janvier 1958, Stirling Moss gagne le Grand Prix d'Argentine sur la Cooper-Climax T43 de Rob Walker{% include src.html n="1,2,6" %}. C'est la première victoire en Grand Prix de championnat du monde d'une voiture à [moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere), et la première de Cooper{% include src.html n="4,6" %}. Goodwood ajoute deux autres premières : celle d'une écurie privée, et celle d'une voiture dont le moteur vient d'un fournisseur extérieur{% include src.html n="1" %}.
 
 La T43 n'a pas été pensée pour cette course{% include src.html n="2" %}. Mark Hughes la décrit comme une Formule 2 adaptée, au moteur agrandi à 2 litres{% include src.html n="2" %}. Doug Nye parle d'une Cooper-Climax de 1,96 litre{% include src.html n="4" %}. Placé au milieu de la voiture, le moteur Coventry Climax lui donne, selon Goodwood, un meilleur équilibre que les voitures à moteur avant, d'où un avantage en virage et en motricité{% include src.html n="1" %}.
 
 ## Pourquoi Moss est au volant
 
-Vanwall et BRM ne viennent pas en Argentine : ils n'ont pas eu le temps d'adapter leurs moteurs au carburant du commerce désormais imposé{% include src.html n="3" %}. Moss, à qui l'on propose une Maserati 250F privée, préfère demander à Rob Walker d'engager sa Cooper{% include src.html n="3" %}. Walker accepte, sans faire le voyage{% include src.html n="2,3" %}. La voiture est expédiée par avion, l'engagement ayant été conclu très tard{% include src.html n="2,3" %}.
+Vanwall et BRM ne viennent pas en Argentine : ils n'ont pas eu le temps d'adapter leurs moteurs au carburant du commerce désormais imposé{% include src.html n="3,6" %}. Moss, à qui l'on propose une Maserati 250F privée, préfère demander à Rob Walker d'engager sa Cooper{% include src.html n="3" %}. Walker accepte, sans faire le voyage{% include src.html n="2,3" %}. La voiture est expédiée par avion, l'engagement ayant été conclu très tard{% include src.html n="2,3" %}.
 
 ## La course
 
@@ -51,7 +51,7 @@ Vanwall et BRM ne viennent pas en Argentine : ils n'ont pas eu le temps d'adapte
 - Dès les premiers tours, il reste bloqué en deuxième vitesse ; il perd une quinzaine de secondes avant que le levier ne se libère{% include src.html n="3" %}.
 - Les roues de la Cooper sont fixées par quatre écrous, rappelle Mark Hughes : un changement de pneus aurait pris deux à trois minutes, contre moins d'une minute pour les voitures à moteur avant{% include src.html n="2" %}. L'équipe décide de ne pas s'arrêter{% include src.html n="2,3" %}. Les pneus n'étaient prévus que pour 40 tours, selon Goodwood{% include src.html n="1" %}, et Moss finit sur la toile{% include src.html n="2,3" %}.
 - Le mécanicien Alf Francis prépare ostensiblement des pneus au stand et compte les tours jusqu'à un arrêt qui ne viendra jamais{% include src.html n="3" %}. La ruse retarde la réaction de Ferrari{% include src.html n="2,3" %}.
-- Moss gagne avec 2,7 secondes d'avance sur la Ferrari de Luigi Musso{% include src.html n="1,2" %}.
+- Moss gagne avec 2,7 secondes d'avance sur la Ferrari de Luigi Musso{% include src.html n="1,2,6" %}.
 
 ## Qui l'a conçue
 

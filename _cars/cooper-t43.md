@@ -37,13 +37,13 @@ image: "/assets/partage/en/voitures/cooper-t43.jpg"
 ---
 ## What it changed
 
-On 19 January 1958, Stirling Moss won the Argentine Grand Prix in Rob Walker's Cooper-Climax T43{% include src.html n="1,2" %}. It was the first world championship Grand Prix win for a car with a [mid-engine layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), and Cooper's first{% include src.html n="4" %}. Goodwood adds two more firsts: for a privateer team, and for a car whose engine came from an outside supplier{% include src.html n="1" %}.
+On 19 January 1958, Stirling Moss won the Argentine Grand Prix in Rob Walker's Cooper-Climax T43{% include src.html n="1,2,6" %}. It was the first world championship Grand Prix win for a car with a [mid-engine layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), and Cooper's first{% include src.html n="4,6" %}. Goodwood adds two more firsts: for a privateer team, and for a car whose engine came from an outside supplier{% include src.html n="1" %}.
 
 The T43 was not built for this race{% include src.html n="2" %}. Mark Hughes describes it as an adapted Formula 2 car, its engine enlarged to 2 litres{% include src.html n="2" %}. Doug Nye speaks of a 1.96-litre Cooper-Climax{% include src.html n="4" %}. With the Coventry Climax engine in the middle of the car, Goodwood says, it was better balanced than the front-engined cars, which helped in corners and with traction{% include src.html n="1" %}.
 
 ## Why Moss was driving it
 
-Vanwall and BRM stayed away from Argentina: they had not had time to adapt their engines to the commercial fuel now required{% include src.html n="3" %}. Moss, offered a privately entered Maserati 250F, chose instead to ask Rob Walker to enter his Cooper{% include src.html n="3" %}. Walker agreed, but did not make the trip{% include src.html n="2,3" %}. The car was flown out, the entry having been settled very late{% include src.html n="2,3" %}.
+Vanwall and BRM stayed away from Argentina: they had not had time to adapt their engines to the commercial fuel now required{% include src.html n="3,6" %}. Moss, offered a privately entered Maserati 250F, chose instead to ask Rob Walker to enter his Cooper{% include src.html n="3" %}. Walker agreed, but did not make the trip{% include src.html n="2,3" %}. The car was flown out, the entry having been settled very late{% include src.html n="2,3" %}.
 
 ## The race
 
@@ -51,7 +51,7 @@ Vanwall and BRM stayed away from Argentina: they had not had time to adapt their
 - In the early laps he was stuck in second gear, losing about fifteen seconds before the lever freed itself{% include src.html n="3" %}.
 - The Cooper's wheels were held on by four nuts, Mark Hughes recalls: a tyre change would have taken two to three minutes, against less than a minute for the front-engined cars{% include src.html n="2" %}. The team chose not to stop{% include src.html n="2,3" %}. The tyres were only rated for 40 laps, according to Goodwood{% include src.html n="1" %}, and Moss finished on the canvas{% include src.html n="2,3" %}.
 - Mechanic Alf Francis made a show of preparing tyres in the pits and counted down to a stop that never came{% include src.html n="3" %}. The bluff delayed Ferrari's response{% include src.html n="2,3" %}.
-- Moss won by 2.7 seconds from Luigi Musso's Ferrari{% include src.html n="1,2" %}.
+- Moss won by 2.7 seconds from Luigi Musso's Ferrari{% include src.html n="1,2,6" %}.
 
 ## Who designed it
 
