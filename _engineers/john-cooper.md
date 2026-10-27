@@ -53,7 +53,7 @@ John Cooper died on Christmas Eve 2000, aged 77.
 
 ## What this change alters
 
-This change simultaneously alters weight distribution, the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), traction, packaging, chassis architecture and future aerodynamic design. The last win for a front-engined F1 car dates back to the 1960 Italian Grand Prix.
+This change simultaneously alters weight distribution, the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), traction, packaging, [chassis architecture]({{ site.baseurl }}/en/glossary/#chassis) and future aerodynamic design. The last win for a front-engined F1 car dates back to the 1960 Italian Grand Prix.
 
 ## Attribution
 

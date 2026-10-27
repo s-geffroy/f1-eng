@@ -31,7 +31,7 @@ image: "/assets/partage/voitures/lotus-49.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui. Duckworth dessine un V8 court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie.
+La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui. Duckworth dessine un [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie.
 
 Le même article précise que la voiture n'est pas nouvelle dans son principe, mais entièrement nouvelle dans sa réalisation. La [Lancia D50]({{ site.baseurl }}{% link _voitures/lancia-d50.md %}) employait déjà son moteur comme élément structurel en 1954. La Lotus 49 en fait la norme.
 

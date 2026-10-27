@@ -35,11 +35,11 @@ image: "/assets/partage/jean-pierre-boudy.jpg"
 ---
 ## Ce qu'il a fait
 
-Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}), il conçoit le V6 de 2 litres dont dérivent les moteurs turbo de F1 de Renault ; GrandPrix.com lui attribue l'idée du [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes.
+Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}), il conçoit le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de 2 litres dont dérivent les moteurs turbo de F1 de Renault ; GrandPrix.com lui attribue l'idée du [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes.
 
 ## Chez Renault-Gordini
 
-- Né en Dordogne en juillet 1944 (à Terrasson-Lavilledieu, le 31, selon OldRacingCars), formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com).
+- Né en Dordogne en juillet 1944 (à Terrasson-Lavilledieu, le 31, selon OldRacingCars.com), formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com).
 - En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault. Le V6 CH1, de 270ch, équipe l'Alpine de 1973.
 - Castaing racontait avoir d'abord été « bien moins convaincu » que Boudy par un turbo fonctionnant au carburant du commerce.
 - Avec [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), il travaille à la version turbo du V6, qui donne l'Alpine A442 de 1975 (GrandPrix.com, 1990), puis, en 1975, au prototype du moteur turbo de F1 de Renault, qui court pour la première fois en 1977 (GrandPrix.com).
@@ -59,13 +59,13 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [Fr
 - Pour ce V10 de F1, il part d'une feuille blanche ; le moteur prévoit dès le départ le rappel pneumatique des soupapes (GrandPrix.com, « Peugeot's F1 plans »).
 - Au début des années 1990, il succède à André de Cortanze comme directeur technique de Peugeot Sport (GrandPrix.com, 2001). En juillet 1995, il occupe toujours ce poste (GrandPrix.com).
 - En octobre 1995, Peugeot motorise Jordan, que les casses mécaniques ont privée de plusieurs bons résultats ; Boudy, à la tête de Peugeot Sport, crée un poste de liaison technique entre Jordan et Peugeot (GrandPrix.com, « Changes at Peugeot Sport »).
-- OldRacingCars le crédite des moteurs de F1 Peugeot de 1994 à 2000.
+- OldRacingCars.com le crédite des moteurs de F1 Peugeot de 1994 à 2000.
 - En février 2001, après la reprise de l'ancien Peugeot Sport par Asiatech, il quitte l'entreprise ; GrandPrix.com juge ce départ peu surprenant, ses moteurs n'ayant pas brillé les dernières années. Enrique Scalabroni, ingénieur châssis, prend la direction technique.
 
 ## Après Peugeot
 
 - En mai 2011, GrandPrix.com le cite parmi les participants au projet PURE de Craig Pollock, un moteur destiné au règlement de 2013 (quatre cylindres turbo de 1,6 litre), avec Mecachrome et TEOS Powertrain.
-- OldRacingCars le décrit ensuite comme consultant indépendant.
+- OldRacingCars.com le décrit ensuite comme consultant indépendant.
 
 ## Attribution
 

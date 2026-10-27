@@ -54,7 +54,7 @@ John Cooper meurt la veille de Noël 2000, à 77 ans.
 
 ## Ce que ce changement modifie
 
-Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'architecture du châssis et la conception aérodynamique future. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960.
+Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'[architecture du châssis]({{ site.baseurl }}/glossaire/#chassis) et la conception aérodynamique future. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960.
 
 ## Attribution
 

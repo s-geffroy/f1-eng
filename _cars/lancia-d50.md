@@ -29,7 +29,7 @@ image: "/assets/partage/en/voitures/lancia-d50.jpg"
 ---
 ## What it changed
 
-The D50 made its debut at the Spanish Grand Prix, at Pedralbes, in October 1954. Its V8 was not merely mounted in the chassis: it was a [structural element]({{ site.baseurl }}/en/glossary/#moteur-porteur) of it. The base remained a short [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire), but the engine at the front and the transaxle at the rear formed its two load-bearing ends.
+The D50 made its debut at the Spanish Grand Prix, at Pedralbes, in October 1954. Its [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) was not merely mounted in the chassis: it was a [structural element]({{ site.baseurl }}/en/glossary/#moteur-porteur) of it. The base remained a short [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire), but the engine at the front and the transaxle at the rear formed its two load-bearing ends.
 
 Two other choices served the same aim, a compact and well-balanced car:
 

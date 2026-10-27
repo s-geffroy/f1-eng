@@ -10,7 +10,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 
 | Rank | Engineer | Score | In one line |
 |---:|---|---:|---|
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | 90.0 | Propulsion: turbo, pneumatic valve springs, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | 90.0 | Propulsion: turbo, pneumatic valve springs, [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | 88.5 | Radical architectures and the tactical pit stop |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | 87.5 | Integrated engineering of engine/chassis/transmission/aero |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | 86.5 | Causal development of Lotus ground effect |

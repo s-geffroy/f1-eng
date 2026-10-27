@@ -29,7 +29,7 @@ image: "/assets/partage/voitures/lancia-d50.jpg"
 ---
 ## Ce qu'elle change
 
-La D50 débute au Grand Prix d'Espagne, à Pedralbes, en octobre 1954. Son V8 n'est pas seulement posé dans le châssis : il en est un [élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur). La base reste un court [treillis de tubes]({{ site.baseurl }}/glossaire/#chassis-tubulaire), mais le moteur à l'avant et l'ensemble boîte-pont à l'arrière en forment les deux extrémités porteuses.
+La D50 débute au Grand Prix d'Espagne, à Pedralbes, en octobre 1954. Son [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) n'est pas seulement posé dans le châssis : il en est un [élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur). La base reste un court [treillis de tubes]({{ site.baseurl }}/glossaire/#chassis-tubulaire), mais le moteur à l'avant et l'ensemble boîte-pont à l'arrière en forment les deux extrémités porteuses.
 
 Deux autres choix servent le même but, une voiture compacte et équilibrée :
 

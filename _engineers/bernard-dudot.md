@@ -33,7 +33,7 @@ Bernard Dudot was at the heart of the three changes to the Renault engine that t
 
 - **The turbo.** According to Renault, every F1 team had a turbo engine during the 1985 season.
 - **Pneumatic valve springs**, introduced on the 1986 EF15 B engine, were, according to Renault, used on every F1 engine from the 1990s onwards.
-- **The V10.** The 3.5-litre 67° V10 was designed by Bernard Dudot (Motor Sport, 1988), heading a team of some twenty engineers; according to Renault, it would impose the V10 architecture on the whole grid.
+- **The V10.** The 3.5-litre 67° [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by Bernard Dudot (Motor Sport, 1988), heading a team of some twenty engineers; according to Renault, it would impose the V10 architecture on the whole grid.
 
 ## Technical career
 

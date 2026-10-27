@@ -32,7 +32,7 @@ image: "/assets/partage/en/john-crosthwaite.jpg"
 ---
 ## What he did
 
-John Crosthwaite was largely responsible for designing Mickey Thompson's [rear-engined]({{ site.baseurl }}/en/glossary/#moteur-central-arriere) car, with a production Buick V8, which Dan Gurney drove in the 1962 Indianapolis 500. It was the only rear-engined car in the field, a few years after the revolution that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) had imposed in F1.
+John Crosthwaite was largely responsible for designing Mickey Thompson's [rear-engined]({{ site.baseurl }}/en/glossary/#moteur-central-arriere) car, with a production Buick [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur), which Dan Gurney drove in the 1962 Indianapolis 500. It was the only rear-engined car in the field, a few years after the revolution that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) had imposed in F1.
 
 ## Indianapolis 1962
 

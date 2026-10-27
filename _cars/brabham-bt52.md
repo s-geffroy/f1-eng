@@ -31,7 +31,7 @@ image: "/assets/partage/en/voitures/brabham-bt52.jpg"
 
 In November 1982, the federation imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat) from the start of 1983. Brabham's ground effect BT51, almost finished, was abandoned. In just six weeks (three months, according to Murray himself), an entirely new car was designed and built: the BT52.
 
-Gordon Murray started from a simple line of reasoning. The BMW turbo engine would deliver enormous torque by the end of the season, and the car would be limited by its traction. So he did away with conventional sidepods and moved the centre of gravity back by 7%. "That's huge," he says: in the skirt era, a big change would have been 1%. He had no time for the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie): "it was all done from theory, experience and gut feel."
+Gordon Murray started from a simple line of reasoning. The BMW turbo engine would deliver enormous torque by the end of the season, and the car would be limited by its traction. So he did away with conventional [sidepods]({{ site.baseurl }}/en/glossary/#pontons) and moved the centre of gravity back by 7%. "That's huge," he says: in the skirt era, a big change would have been 1%. He had no time for the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie): "it was all done from theory, experience and gut feel."
 
 Three other choices mattered:
 

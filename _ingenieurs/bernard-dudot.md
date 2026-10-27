@@ -34,7 +34,7 @@ Bernard Dudot est au cœur des trois mutations du moteur Renault qui ont ensuite
 
 - **Le turbo.** Selon Renault, toutes les équipes de F1 ont un moteur turbo au cours de la saison 1985.
 - **Le rappel pneumatique des soupapes**, introduit sur le moteur EF15 B de 1986, est utilisé, selon Renault, sur tous les moteurs F1 à partir des années 1990.
-- **Le V10.** Le V10 de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988), à la tête d'une équipe d'une vingtaine d'ingénieurs ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau.
+- **Le V10.** Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988), à la tête d'une équipe d'une vingtaine d'ingénieurs ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau.
 
 ## Parcours technique
 

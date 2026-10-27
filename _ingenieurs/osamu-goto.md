@@ -33,7 +33,7 @@ Osamu Goto est l'ingénieur qui dirige le programme moteur de F1 de Honda pendan
 - Son diplôme obtenu en mars 1970, il entre le mois suivant au département de recherche de Honda ; il se spécialise d'abord dans les émissions d'échappement (GrandPrix.com).
 - En 1984, promu ingénieur en chef, il rejoint l'équipe course de Honda pour développer le moteur [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) de 1,5 litre ; un an plus tard, il devient chef de l'équipe course (GrandPrix.com).
 - En 1986 et 1987, l'équipe d'ingénieurs qu'il dirige remporte avec Williams le titre des constructeurs (GrandPrix.com).
-- Ce succès lui vaut la responsabilité de tout le développement des moteurs de F1 de Honda, notamment du V10 atmosphérique (GrandPrix.com). Selon lui, Honda travaillait déjà sur ce V10 depuis deux ans en 1988 (Autosport).
+- Ce succès lui vaut la responsabilité de tout le développement des moteurs de F1 de Honda, notamment du [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) atmosphérique (GrandPrix.com). Selon lui, Honda travaillait déjà sur ce V10 depuis deux ans en 1988 (Autosport).
 - Pour 1988, Honda garde le turbo. Gordon Murray dit avoir obtenu de Honda un moteur nettement plus bas pour la McLaren MP4/4 ; Goto confirme que Murray voulait garder la position de conduite de la Brabham BT55, « donc un moteur plus bas » (Autosport).
 - En 1989, Motor Sport le présente comme le responsable du projet moteur de McLaren-Honda.
 

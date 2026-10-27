@@ -45,7 +45,7 @@ image: "/assets/partage/voitures/williams-fw14b.jpg"
 
 L'histoire commence en 1985. Le fabricant de freins AP développait une suspension active pour les voitures de route ; il renonce et, plutôt que d'enterrer le projet, le propose à Williams. D'abord purement mécanique, le système devient électronique, programmé pour donner au pilote le sous-virage ou le survirage qu'il souhaite.
 
-La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage) et une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique). Celle-ci avait coûté beaucoup de points en 1991, faute de fiabilité ; une fois au point, elle permet, selon Head, de changer de rapport quatre ou cinq fois plus vite et protège le moteur des surrégimes. Le V10 Renault, puissant et fiable, est selon lui le meilleur moteur de course de l'époque.
+La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage) et une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique). Celle-ci avait coûté beaucoup de points en 1991, faute de fiabilité ; une fois au point, elle permet, selon Head, de changer de rapport quatre ou cinq fois plus vite et protège le moteur des surrégimes. Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) Renault, puissant et fiable, est selon lui le meilleur moteur de course de l'époque.
 
 ## Qui l'a conçue
 

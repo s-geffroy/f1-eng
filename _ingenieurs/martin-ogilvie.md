@@ -41,7 +41,7 @@ Martin Ogilvie est un ingénieur de Team Lotus. Sur la **Lotus 78**, il détaill
 
 ## Parcours chez Lotus
 
-- **Formation.** Diplômé en génie mécanique de l'université de Birmingham (Sports Car Digest), il a d'abord dessiné des freins de F1 chez Girling, dont Lotus était client, selon OldRacingCars.
+- **Formation.** Diplômé en génie mécanique de l'université de Birmingham (Sports Car Digest), il a d'abord dessiné des freins de F1 chez Girling, dont Lotus était client, selon OldRacingCars.com.
 - **Arrivée.** Sports Car Digest le fait entrer chez Team Lotus au milieu de 1972 ; selon Gary Watkins (Motor Sport, 2004), il arrive peu avant l'installation à Ketteringham Hall, au milieu des années 1970. Il se souvient du bureau de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}), vitré d'un verre sans tain pour surveiller les dessinateurs : « Il passait quelques minutes à réarranger ce que j'avais mis la journée à faire. Le plus agaçant, c'est qu'il avait presque toujours raison. »
 - **Lotus 77 (1976).** En octobre 1975, Motor Sport présente la nouvelle F1 de Lotus comme « conçue par Colin Chapman et dessinée dans le détail par [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) et Martin Ogilvie ».
 - Quand [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) repart chez Lotus Cars, Wright et Ogilvie restent les collaborateurs directs de Chapman.
@@ -54,7 +54,7 @@ Martin Ogilvie est un ingénieur de Team Lotus. Sur la **Lotus 78**, il détaill
 
 ## Après Lotus
 
-Selon OldRacingCars, il travaille ensuite pour Racing Team Norfolk et Prodrive, puis, à partir de 1996, dessine des voitures de course de côte dans sa propre société, Prototype Car Design ; il dessine aussi la Westfield FW400.
+Selon OldRacingCars.com, il travaille ensuite pour Racing Team Norfolk et Prodrive, puis, à partir de 1996, dessine des voitures de course de côte dans sa propre société, Prototype Car Design ; il dessine aussi la Westfield FW400.
 
 ## Attribution
 
@@ -62,5 +62,5 @@ Ogilvie dessine et dirige des dessins, mais les concepts viennent d'autres : Cha
 
 ## Divergences entre sources
 
-- **Son arrivée chez Lotus** : milieu de 1972 selon Sports Car Digest ; OldRacingCars le fait figurer chez Lotus de 1976 à 1988, alors que Motor Sport le cite déjà sur la 77 en 1975.
+- **Son arrivée chez Lotus** : milieu de 1972 selon Sports Car Digest ; OldRacingCars.com le fait figurer chez Lotus de 1976 à 1988, alors que Motor Sport le cite déjà sur la 77 en 1975.
 

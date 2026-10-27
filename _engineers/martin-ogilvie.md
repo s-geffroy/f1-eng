@@ -41,7 +41,7 @@ Martin Ogilvie is a Team Lotus engineer. On the **Lotus 78**, he detailed the su
 
 ## Career at Lotus
 
-- **Training.** A mechanical engineering graduate of Birmingham University (Sports Car Digest), he first designed F1 brakes at Girling, which counted Lotus among its customers, according to OldRacingCars.
+- **Training.** A mechanical engineering graduate of Birmingham University (Sports Car Digest), he first designed F1 brakes at Girling, which counted Lotus among its customers, according to OldRacingCars.com.
 - **Joining.** Sports Car Digest has him joining Team Lotus in mid-1972; according to Gary Watkins (Motor Sport, 2004), he arrived shortly before the move to Ketteringham Hall, in the mid-1970s. He remembers [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s office having one-way glass so that Chapman could keep tabs on his design staff: "He'd then spend a few minutes rearranging what I'd spent all day doing. The annoying thing was that he was nearly always right."
 - **Lotus 77 (1976).** In October 1975, Motor Sport presented Lotus's new F1 car as "conceived by Colin Chapman and designed in detail by [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) and Martin Ogilvie".
 - When [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) went back to Lotus Cars, Wright and Ogilvie remained Chapman's direct collaborators.
@@ -54,7 +54,7 @@ Martin Ogilvie is a Team Lotus engineer. On the **Lotus 78**, he detailed the su
 
 ## After Lotus
 
-According to OldRacingCars, he then worked for Racing Team Norfolk and Prodrive, then, from 1996, designed hillclimb cars at his own company, Prototype Car Design; he also designed the Westfield FW400.
+According to OldRacingCars.com, he then worked for Racing Team Norfolk and Prodrive, then, from 1996, designed hillclimb cars at his own company, Prototype Car Design; he also designed the Westfield FW400.
 
 ## Attribution
 
@@ -62,5 +62,5 @@ Ogilvie drew and led drawing work, but the concepts came from others: Chapman fo
 
 ## Where sources disagree
 
-- **When he joined Lotus**: mid-1972 according to Sports Car Digest; OldRacingCars lists him at Lotus from 1976 to 1988, whereas Motor Sport already credits him on the 77 in 1975.
+- **When he joined Lotus**: mid-1972 according to Sports Car Digest; OldRacingCars.com lists him at Lotus from 1976 to 1988, whereas Motor Sport already credits him on the 77 in 1975.
 

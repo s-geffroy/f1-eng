@@ -14,7 +14,7 @@ redirect_from: "/classement/2026/10/25/classement-final-ingenieurs-f1.html"
 | **3** | **[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %})** | **A** | **93,5** | Généralisation du moteur central-arrière |
 | **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %})** | **A** | **92,5** | Cosworth DFV, moteur structurel et relance du moteur-client compétitif |
 | **5** | **[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %})** | **A** | **91,5** | Aérodynamique systémique et intégration globale |
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | B | 90,0 | Turbo Renault, rappel pneumatique, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | B | 90,0 | Turbo Renault, rappel pneumatique, [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | B | 88,5 | Architectures radicales, BT46B, arrêt au stand moderne |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | B | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | B | 86,5 | Développement causal de l'effet de sol Lotus |

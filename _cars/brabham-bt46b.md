@@ -29,7 +29,7 @@ image: "/assets/partage/en/voitures/brabham-bt46b.jpg"
 ---
 ## What it changed
 
-In 1978, the [Lotus 79]({{ site.baseurl }}{% link _cars/lotus-79.md %}) took [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) further. Brabham could not follow: the Alfa Romeo [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was too wide to leave room for venturi sidepods. Gordon Murray took another route.
+In 1978, the [Lotus 79]({{ site.baseurl }}{% link _cars/lotus-79.md %}) took [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) further. Brabham could not follow: the Alfa Romeo [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was too wide to leave room for venturi [sidepods]({{ site.baseurl }}/en/glossary/#pontons). Gordon Murray took another route.
 
 The BT46B carried a large [fan]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur) at the rear, driven from the gearbox. A radiator sat on top of the engine. Under the car, a large area was sealed by four interconnected [skirts]({{ site.baseurl }}/en/glossary/#jupes), and the fan extracted the air from it. The decisive point, according to Motor Sport: [downforce]({{ site.baseurl }}/en/glossary/#appui) depended on engine revs, not on the car's speed.
 

@@ -27,7 +27,7 @@ formula1.com attributes the creation of the **McLaren MP4/4**, which it presents
 
 - **Hercules.** Before motor racing, he spent four years at Hercules working on [carbon composites]({{ site.baseurl }}/en/glossary/#composite-carbone), then a new material. According to [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}), it was Nichols who later put him in touch with his former colleagues, who would make the carbon tub of the MP4/1.
 - **McLaren.** In 1980, Barnard hired him at Project 4 to work with him on the MP4/1 chassis. The MP4/3 is the first McLaren credited to his technical direction; in 1987, he led the design of the MP4/4, whose authorship is disputed.
-- **Ferrari.** There he replaced Barnard as head of chassis design, and produced the F92A, a failure, with [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}).
+- **Ferrari.** There he replaced Barnard as head of [chassis design]({{ site.baseurl }}/en/glossary/#chassis), and produced the F92A, a failure, with [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}).
 - **Jaguar.** In late 2000, he became technical director of Jaguar Racing.
 
 ## The MP4/4: disputed authorship

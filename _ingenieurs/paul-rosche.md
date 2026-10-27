@@ -50,7 +50,7 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 
 - Après 1987, il reste directeur technique de BMW M GmbH jusqu'en 1996, puis, comme directeur technique et directeur général de BMW Motorsport Limited, il ramène BMW en F1 comme motoriste (BMW, 2016).
 - Motor Sport en fait l'inspirateur de ce second engagement : quand Renault annonce son départ à la fin de 1997, Rosche convainc la direction de s'associer à Williams. Les débuts sont prévus pour 2000 ; Rosche part à la retraite entre-temps, remplacé par Gerhard Berger et Mario Theissen.
-- Les sources consultées font de lui le dirigeant de ce retour ; aucune ne lui attribue la conception du V10 BMW.
+- Les sources consultées font de lui le dirigeant de ce retour ; aucune ne lui attribue la conception du [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) BMW.
 
 ## Autres moteurs
 

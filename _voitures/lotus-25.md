@@ -31,7 +31,7 @@ image: "/assets/partage/voitures/lotus-25.jpg"
 
 Le 18 mai 1962, la Lotus 25 arrive dans le paddock de Zandvoort, où toutes les autres F1 reposent sur un [treillis de tubes]({{ site.baseurl }}/glossaire/#chassis-tubulaire). Elle abandonne ce principe pour une [coque monocoque]({{ site.baseurl }}/glossaire/#monocoque) à la manière d'un avion, faite de pièces rivetées.
 
-Le gain se mesure. Selon Motor Sport, la rigidité en torsion passe d'environ 700 livres-pied par degré pour la Lotus 24, sa sœur en treillis, à près de 1 000 pour la coque de la 25, et à 2 400 une fois le V8 installé. Le moteur n'est pourtant pas un élément entièrement porteur.
+Le gain se mesure. Selon Motor Sport, la rigidité en torsion passe d'environ 700 livres-pied par degré pour la Lotus 24, sa sœur en treillis, à près de 1 000 pour la coque de la 25, et à 2 400 une fois le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) installé. Le moteur n'est pourtant pas un élément entièrement porteur.
 
 Chapman lui-même parlait d'une « baignoire » plutôt que d'une monocoque. Par prudence, Lotus avait dessiné la 24 en treillis au cas où la 25 ne donnerait pas satisfaction : la 24 est vendue aux clients, la 25 reste à l'équipe.
 

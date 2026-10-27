@@ -47,7 +47,7 @@ Selon formula1.com, la clé de ce règlement n'est pas l'appui maximal dans les 
 
 La suspension va dans le même sens. Red Bull, comme McLaren, inverse son montage : tirants à l'avant, poussoirs à l'arrière. À l'avant, la géométrie est anti-plongée : elle limite la plongée au freinage, donc la remontée de l'arrière et la perte d'appui qui l'accompagne. À l'arrière, un grand débattement laisse la voiture s'abaisser à haute vitesse, ce qui réduit la traînée et lui donne un avantage constant en ligne droite. Il faut pour cela des ressorts plutôt souples ; sur d'autres voitures, ils provoqueraient des rebonds.
 
-Pour Honda, son trait principal est ailleurs : des pontons profondément creusés à leur base, dont le dessus descend vers l'arrière. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023.
+Pour Honda, son trait principal est ailleurs : des [pontons]({{ site.baseurl }}/glossaire/#pontons) profondément creusés à leur base, dont le dessus descend vers l'arrière. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023.
 
 ## Qui l'a conçue
 

@@ -50,7 +50,7 @@ One guiding idea links his cars of the 1970s: **[centralising the masses]({{ sit
 
 - At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position. formula1.com points out, however, that others had used wings before him.
 - He designed Ferrari's first turbocharged F1 engine, in 1981.
-- From 1987, he ran the technical side of Lamborghini Engineering, whose V12 raced in F1 from 1989.
+- From 1987, he ran the technical side of Lamborghini Engineering, whose [V12]({{ site.baseurl }}/en/glossary/#architecture-moteur) raced in F1 from 1989.
 
 ## Attribution
 

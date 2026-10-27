@@ -38,7 +38,7 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 - **Shadow.** With Andy Smallman, he produced all the detail drawings for the F1 and Can-Am cars designed by [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}): Southgate set the overall car and the areas he wanted to dictate, and the rest was up to them.
 - **Fittipaldi, 1976.** He worked on the FD04 and began to do race engineering.
 - **Tyrrell, 1977.** [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) called him in to help with the detail work on the Tyrrell 008. While [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) was still there, the two men drew in a double garage, outside the drawing office. The 008 was to hide its radiators under the car and cool them with a [fan]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur) driven off the crankshaft; the team made the fan vanes itself, but the system got too hot and the radiators were moved on top of the bodywork. Autosport (April 2026) gives the same account.
-- **ATS, 1978.** Herd brought him into ATS, where he engineered Jean-Pierre Jarier and Jochen Mass. According to OldRacingCars, he developed the ATS HS1s and designed the ATS D1, a "wing car", but left the team after the German Grand Prix, before it was complete. Gentry recalls that when he left, ATS owner Günther Schmid sent the police to his house, accusing him of taking the drawings for the new car.
+- **ATS, 1978.** Herd brought him into ATS, where he engineered Jean-Pierre Jarier and Jochen Mass. According to OldRacingCars.com, he developed the ATS HS1s and designed the ATS D1, a "wing car", but left the team after the German Grand Prix, before it was complete. Gentry recalls that when he left, ATS owner Günther Schmid sent the police to his house, accusing him of taking the drawings for the new car.
 - **March, 1979.** Teo Fabi's engineer in Formula 2, he also designed a Group 5 BMW M1 commissioned from March.
 
 ## At Toleman
@@ -56,9 +56,9 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 
 ## Attribution
 
-Gentry is a detail draughtsman and a race engineer, not the designer of the cars he worked on: the 008 is Philippe's, the Shadows Southgate's. On the TG280, the split "bodywork for Byrne, the rest for Gentry" is his own version; Motor Sport, in 1980, presents him only as the design draughtsman alongside Byrne. Only the ATS D1 is credited to him as his own design, by OldRacingCars, a secondary source, and he did not finish it.
+Gentry is a detail draughtsman and a race engineer, not the designer of the cars he worked on: the 008 is Philippe's, the Shadows Southgate's. On the TG280, the split "bodywork for Byrne, the rest for Gentry" is his own version; Motor Sport, in 1980, presents him only as the design draughtsman alongside Byrne. Only the ATS D1 is credited to him as his own design, by OldRacingCars.com, a secondary source, and he did not finish it.
 
 ## Where sources disagree
 
 - **When he joined Toleman**: August 1979 according to Motor Sport in 1980; "the end of 1979" in the 2021 profile.
-- **His teams**: OldRacingCars lists only Alfa Romeo, ATS, Shadow and Toleman in F1; its ATS D1 page calls him "formerly of Shadow and Tyrrell". Motor Sport (2021) and Autosport (2026) add March and Fittipaldi.
+- **His teams**: OldRacingCars.com lists only Alfa Romeo, ATS, Shadow and Toleman in F1; its ATS D1 page calls him "formerly of Shadow and Tyrrell". Motor Sport (2021) and Autosport (2026) add March and Fittipaldi.

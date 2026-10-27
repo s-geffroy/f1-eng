@@ -29,4 +29,4 @@ Jean Terramorsi was an **executive**, not a designer: as head of Gordini, he was
 
 ## Attribution
 
-The idea of the turbo, the decision to pursue it and its execution belong to different people: Terramorsi decided, Dudot studied turbocharging, and the base V6 was designed by [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
+The idea of the turbo, the decision to pursue it and its execution belong to different people: Terramorsi decided, Dudot studied turbocharging, and the base [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).

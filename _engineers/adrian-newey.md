@@ -75,7 +75,7 @@ He has demonstrated this ability under several sets of regulations and in severa
 - **Leyton House.** The 1990 CG901 initially suffered from a faulty [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie); once the problem was fixed, it led most of the French Grand Prix and finished second.
 - **Williams.** The FW14 extended the CG901. His Williams cars from 1991 to 1997 won 59 Grands Prix (58 according to GrandPrix.com). The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams.
 - **McLaren.** On the 1998 MP4-13, Newey and his team spent 12,000 hours of work recovering the [downforce]({{ site.baseurl }}/en/glossary/#appui) lost under the new regulations.
-- **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser. The 2010 RB6 "reinvented" the exhaust-blown diffuser. According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008).
+- **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser. The 2010 RB6 "reinvented" the [exhaust-blown diffuser]({{ site.baseurl }}/en/glossary/#diffuseur-souffle). According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008).
 - **Aston Martin.** He started there on 1 March 2025 as managing technical partner, then became team principal for the 2026 season.
 
 The regulations change, the skill remains: control of the aerodynamic system. The site's method treats this as a robustness test: the repetition criterion.

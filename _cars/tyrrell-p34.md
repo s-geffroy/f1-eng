@@ -35,7 +35,7 @@ image: "/assets/partage/en/voitures/tyrrell-p34.jpg"
 
 The Tyrrell P34 is the only six-wheeled car ever to start a Grand Prix: four small steered wheels at the front, two normal-sized wheels at the rear.
 
-When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, Motor Sport explains: frontal area was set by the huge rear tyres. According to Motor Sport, the reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates lift, and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: the equivalent of "40-odd horsepower".
+When it was unveiled, people assumed the aim was a smaller frontal area. That was not the point, Motor Sport explains: frontal area was set by the huge rear tyres. According to Motor Sport, the reason was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel in the airflow generates [lift]({{ site.baseurl }}/en/glossary/#portance), and the bigger the wheel, the greater the lift. Smaller wheels, twice as many of them, keep the rubber and braking area while generating less lift. Other teams countered the lift of their front tyres with more front wing; the Tyrrell could do without, and gain on the straights. Derek Gardner had put a figure on it: the equivalent of "40-odd horsepower".
 
 The context explains the approach. Almost the whole field had the same engine, the same gearbox and the same tyres. "We needed an unfair advantage," said Gardner, "and the six-wheeler was it."
 
@@ -45,7 +45,7 @@ Goodyear agreed to make the tiny front tyres. Gardner wanted nine-inch; they com
 
 [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}), with Ken Tyrrell's approval. The idea dated back to 1968 and a quite different purpose. Gardner was then working on the four-wheel drive of the Lotus turbine car at Indianapolis, and later of the Matra F1 car; spreading the load over four front wheels, two of them driven, was meant to steady those cars. He proposed a six-wheeler to Andy Granatelli, the head of STP, to no avail. He revived the project at Tyrrell, with a different objective.
 
-The first prototype used the rear end of the 1975 Tyrrell 007. Gardner left the team during the 1977 season, right after Monza by his own account. [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) then widened the front track and moved the oil radiators forward to recover the lost front-end grip; according to Motor Sport, it did not work. Gardner had hired him a few months earlier to fit the Renault turbo V6 into the six-wheeler, a project that never got beyond a mock-up.
+The first prototype used the rear end of the 1975 Tyrrell 007. Gardner left the team during the 1977 season, right after Monza by his own account. [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) then widened the front track and moved the oil radiators forward to recover the lost front-end grip; according to Motor Sport, it did not work. Gardner had hired him a few months earlier to fit the Renault turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) into the six-wheeler, a project that never got beyond a mock-up.
 
 ## Limitations
 

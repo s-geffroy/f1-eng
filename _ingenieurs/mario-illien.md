@@ -23,7 +23,7 @@ image: "/assets/partage/mario-illien.jpg"
 ---
 ## Ce qu'il a fait
 
-Mario Illien est l'ingénieur suisse qui fonde **Ilmor** avec Paul Morgan, en 1983. Ilmor conçoit le V8 Chevrolet qui domine les courses américaines, puis les V10 de F1 qui deviennent les moteurs Mercedes : avec McLaren, ils mènent Mika Häkkinen aux titres de 1998 et 1999.
+Mario Illien est l'ingénieur suisse qui fonde **Ilmor** avec Paul Morgan, en 1983. Ilmor conçoit le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) Chevrolet qui domine les courses américaines, puis les V10 de F1 qui deviennent les moteurs Mercedes : avec McLaren, ils mènent Mika Häkkinen aux titres de 1998 et 1999.
 
 ## Avant Ilmor
 

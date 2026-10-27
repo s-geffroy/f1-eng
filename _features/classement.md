@@ -13,7 +13,7 @@ description: "The twenty with their scores, the technical lineages and the concl
 | **3** | **[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %})** | **A** | **93.5** | Generalisation of the mid-engine layout |
 | **4** | **[Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})** | **A** | **92.5** | Cosworth DFV, structural engine and revival of the competitive customer engine |
 | **5** | **[Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})** | **A** | **91.5** | Systemic aerodynamics and overall integration |
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | B | 90.0 | Renault turbo, pneumatic valve springs, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | B | 90.0 | Renault turbo, pneumatic valve springs, [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | B | 88.5 | Radical architectures, BT46B, the modern pit stop |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | B | 87.5 | Integrated engineering of engine/chassis/transmission/aero |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | B | 86.5 | Causal development of Lotus ground effect |

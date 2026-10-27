@@ -11,7 +11,7 @@ Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transform
 
 | Rang | Ingénieur | Score | En une ligne |
 |---:|---|---:|---|
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, V10 |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | 88,5 | Architectures radicales et arrêt au stand tactique |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |

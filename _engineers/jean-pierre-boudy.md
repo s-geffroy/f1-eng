@@ -35,11 +35,11 @@ image: "/assets/partage/en/jean-pierre-boudy.jpg"
 ---
 ## What he did
 
-Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre V6 from which Renault's F1 turbo engines derive; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique).
+Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) from which Renault's F1 turbo engines derive; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique).
 
 ## At Renault-Gordini
 
-- Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com).
+- Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars.com) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com).
 - In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines. The 270bhp V6 CH1 went into Alpine's 1973 car.
 - Castaing recalled that he was initially "far less convinced" than Boudy about a turbo running on pump fuel.
 - With [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}), he worked on the turbo version of the V6 that produced the 1975 Alpine A442 (GrandPrix.com, 1990), then, in 1975, on the prototype Renault F1 turbo engine, which first raced in 1977 (GrandPrix.com).
@@ -59,13 +59,13 @@ Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot. Wi
 - He started that F1 V10 from a clean sheet; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans").
 - In the early 1990s, he succeeded André de Cortanze as technical director of Peugeot Sport (GrandPrix.com, 2001). In July 1995, he still held the post (GrandPrix.com).
 - In October 1995, Peugeot was supplying Jordan, and mechanical failures had cost the team several good results; Boudy, as head of Peugeot Sport, created a technical liaison post between Jordan and Peugeot (GrandPrix.com, "Changes at Peugeot Sport").
-- OldRacingCars credits him with Peugeot's F1 engines from 1994 to 2000.
+- OldRacingCars.com credits him with Peugeot's F1 engines from 1994 to 2000.
 - In February 2001, after Asiatech took over the former Peugeot Sport, he left the company; GrandPrix.com found the departure unsurprising, as his engines had not performed well in recent years. Chassis engineer Enrique Scalabroni took over as technical director.
 
 ## After Peugeot
 
 - In May 2011, GrandPrix.com named him among those involved in Craig Pollock's PURE project, an engine for the 2013 rules (1.6-litre four-cylinder turbo), with Mecachrome and TEOS Powertrain.
-- OldRacingCars then describes him as an independent consultant.
+- OldRacingCars.com then describes him as an independent consultant.
 
 ## Attribution
 

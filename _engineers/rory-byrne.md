@@ -46,7 +46,7 @@ image: "/assets/partage/en/rory-byrne.jpg"
 ---
 ## What he changed
 
-Rory Byrne led the design of **Michael Schumacher's seven world championship-winning cars**, at Benetton and at Ferrari, within technical teams headed by Ross Brawn. His strength is the integration of chassis and aerodynamics, repeated over two decades.
+Rory Byrne led the design of **Michael Schumacher's seven world championship-winning cars**, at Benetton and at Ferrari, within technical teams headed by Ross Brawn. His strength is the [integration of chassis]({{ site.baseurl }}/en/glossary/#chassis) and aerodynamics, repeated over two decades.
 
 ## Technical career
 

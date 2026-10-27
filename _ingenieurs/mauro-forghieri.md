@@ -51,7 +51,7 @@ Une idée directrice relie ses voitures des années 1970 : **[centraliser les ma
 
 - Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. formula1.com rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
 - Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981.
-- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le V12 court en F1 à partir de 1989.
+- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le [V12]({{ site.baseurl }}/glossaire/#architecture-moteur) court en F1 à partir de 1989.
 
 ## Attribution
 

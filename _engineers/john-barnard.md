@@ -61,7 +61,7 @@ The effects touched stiffness, weight, safety, architecture and the industrialis
 
 ## 1984 — McLaren MP4/2: the engine to his dimensions
 
-For the MP4/2, Barnard imposed the dimensions of the TAG turbo V6 on Porsche, to serve the aerodynamics of the underbody. The car won 12 of the 16 races of 1984.
+For the MP4/2, Barnard imposed the dimensions of the TAG turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) on Porsche, to serve the aerodynamics of the underbody. The car won 12 of the 16 races of 1984.
 
 ## 1989 — Ferrari 640: the semi-automatic gearbox
 

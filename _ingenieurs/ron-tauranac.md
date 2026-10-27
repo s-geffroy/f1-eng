@@ -26,7 +26,7 @@ Ron Tauranac conçoit les Brabham des années 1960, dont celles des titres mondi
 - **Australie.** Avec son frère Austin, il construit à partir de 1950 des voitures de course de côte baptisées Ralt, d'après leurs initiales (Ron and Austin Lewis Tauranac). Jack Brabham, parti courir chez Cooper, lui demande par lettre comment améliorer ses Cooper.
 - **Motor Racing Developments.** Il rejoint Brabham en Angleterre en 1960. Leur société, Motor Racing Developments, produit en 1961 une Formule Junior qu'il a conçue, qui devient la Brabham BT1 : « BT », pour Brabham et Tauranac.
 - **Premières F1.** La BT3 débute au Grand Prix d'Allemagne 1962. Dan Gurney donne à la marque sa première victoire en championnat du monde, en France en 1964, avec la BT7.
-- **Les titres.** Pour la formule 3 litres de 1966, il dessine des voitures relativement simples à moteur V8 Repco, les BT19, BT20 et BT24 : Jack Brabham est champion du monde en 1966, Denny Hulme en 1967.
+- **Les titres.** Pour la formule 3 litres de 1966, il dessine des voitures relativement simples à moteur [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) Repco, les BT19, BT20 et BT24 : Jack Brabham est champion du monde en 1966, Denny Hulme en 1967.
 - **Constructeur de série.** Les Brabham sont aussi des voitures clients : 79 F3 et 12 F2 sortent de l'usine en 1965.
 - **BT34 (1971).** Après la retraite de Brabham, il dessine la BT34 « pince de homard », aux radiateurs doubles placés devant les roues avant.
 - **Ralt.** Après avoir vendu l'équipe à Bernie Ecclestone, il fonde Ralt. La RT1 gagne le premier championnat d'Europe de F3, en 1975, avec Larry Perkins ; la RT3 à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) lui succède.

@@ -45,7 +45,7 @@ image: "/assets/partage/en/voitures/williams-fw14b.jpg"
 
 The story began in 1985. The brake manufacturer AP was developing active suspension for road cars; it gave up and, rather than bury the project, offered it to Williams. Purely mechanical at first, the system became electronic, programmed to give the driver whatever understeer or oversteer he wanted.
 
-The FW14B also combined [traction control]({{ site.baseurl }}/en/glossary/#antipatinage) and a [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique). The gearbox had cost a lot of points in 1991 through unreliability; once sorted, it allowed, according to Head, gear changes four or five times faster and protected the engine from over-revving. The Renault V10, powerful and reliable, was in his view the best racing engine of the time.
+The FW14B also combined [traction control]({{ site.baseurl }}/en/glossary/#antipatinage) and a [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique). The gearbox had cost a lot of points in 1991 through unreliability; once sorted, it allowed, according to Head, gear changes four or five times faster and protected the engine from over-revving. The Renault [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur), powerful and reliable, was in his view the best racing engine of the time.
 
 ## Who designed it
 

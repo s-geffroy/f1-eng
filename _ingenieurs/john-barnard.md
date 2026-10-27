@@ -62,7 +62,7 @@ Les effets touchent tout à la fois la rigidité, la masse, la sécurité, l'arc
 
 ## 1984 — McLaren MP4/2 : le moteur à ses cotes
 
-Pour la MP4/2, Barnard impose à Porsche les dimensions du V6 turbo TAG, au service de l'aérodynamique du fond. La voiture gagne 12 des 16 courses de 1984.
+Pour la MP4/2, Barnard impose à Porsche les dimensions du [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo TAG, au service de l'aérodynamique du fond. La voiture gagne 12 des 16 courses de 1984.
 
 ## 1989 — Ferrari 640 : la boîte semi-automatique
 

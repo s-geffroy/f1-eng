@@ -33,7 +33,7 @@ image: "/assets/partage/en/andy-cowell.jpg"
 ---
 ## What he changed
 
-The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride)** is a case of systems execution. From 2014 to 2020, Cowell oversaw the production of these hybrid V6 engines.
+The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride)** is a case of systems execution. From 2014 to 2020, Cowell oversaw the production of these hybrid [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) engines.
 
 - **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V. As Cowell put it, "there was nothing that said it couldn't be done, it was just that it hadn't been done".
 - **Efficiency.** The first Mercedes turbo-hybrid engine of 2014 reached a thermal efficiency of 44%; in 2017 it passed the 50% mark on the dyno for the first time.

@@ -39,7 +39,7 @@ David North est un ingénieur britannique, venu de l'aéronautique, qui a passé
 
 ## Parcours
 
-- **Formation.** Né le 27 septembre 1950 à Bromley, dans le Kent, il est diplômé en génie mécanique de l'université de Southampton, selon OldRacingCars. Joe Saward précise qu'il a d'abord travaillé pour la British Aircraft Corporation.
+- **Formation.** Né le 27 septembre 1950 à Bromley, dans le Kent, il est diplômé en génie mécanique de l'université de Southampton, selon OldRacingCars.com. Joe Saward précise qu'il a d'abord travaillé pour la British Aircraft Corporation.
 - **Brabham.** Il entre chez Brabham comme ingénieur d'études auprès de Murray. Il participe à la conception de la [voiture à ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur), la BT46B, puis à celle de la BT55 « planche à roulettes ».
 - **La BT50 (1981).** En septembre 1981, Alan Henry écrit dans Motor Sport que Murray a achevé la BT50, à moteur turbo BMW, avec l'aide de son « numéro deux », North, un « relatif nouveau venu » dont Murray parle en termes très élogieux.
 - **Les voitures à garde au sol variable (1981).** Selon Doug Nye, quand une nouvelle règle de garde au sol leur laisse un mois avant Long Beach, Murray et North relisent le règlement de près. Ils retiennent un ressort pneumatique souple : un piston hydraulique, relié à des vérins à chaque coin de la suspension, comprime de l'air dans un réservoir central.
@@ -47,11 +47,11 @@ David North est un ingénieur britannique, venu de l'aéronautique, qui a passé
 - **La BT55 (1986).** Motor Sport le présente comme le numéro deux de Murray. Il explique que les ressorts et amortisseurs ne pouvaient aller qu'à l'extrême arrière de la boîte, et que toute la charge passait alors par le carter en magnésium.
 - **Chef designer (1987).** Il devient chef designer de Brabham et travaille avec John Baldwin et Sergio Rinland sur la BT56. Il quitte l'équipe à l'été 1987 pour Ralt, brièvement, puis rejoint McLaren.
 - **McLaren (1988-2002).** Il y dirige la conception des transmissions. En octobre 2002, il part pour Renault ; John Sutton, venu de Jordan, a déjà pris sa place.
-- **Fin de carrière.** OldRacingCars le décrit ensuite comme responsable des projets avancés de Lotus F1, pendant une longue période, jusqu'à son départ de la F1 en 2014.
+- **Fin de carrière.** OldRacingCars.com le décrit ensuite comme responsable des projets avancés de Lotus F1, pendant une longue période, jusqu'à son départ de la F1 en 2014.
 
 ## La boîte de la MP4/4
 
-Le V6 Honda de 1988 a un vilebrequin placé 28mm plus bas. Une boîte classique à deux arbres aurait imposé aux arbres de roue de mauvais angles, coûteux en puissance. Selon Autosport, Murray, qui a fait venir North de Brabham, se tourne vers [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et North, les « deux cerveaux » de la boîte en Z de la BT55 ; ils conçoivent la boîte à trois arbres superposés. Autosport le range aussi parmi ceux qui ont conçu la MP4/4 ou en ont fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) et [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}).
+Le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) Honda de 1988 a un vilebrequin placé 28mm plus bas. Une boîte classique à deux arbres aurait imposé aux arbres de roue de mauvais angles, coûteux en puissance. Selon Autosport, Murray, qui a fait venir North de Brabham, se tourne vers [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et North, les « deux cerveaux » de la boîte en Z de la BT55 ; ils conçoivent la boîte à trois arbres superposés. Autosport le range aussi parmi ceux qui ont conçu la MP4/4 ou en ont fait le travail de détail, avec [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) et [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}).
 
 En 2021, Murray donne à Motor Sport sa propre répartition : il aurait confié la coque et l'avant à Nichols, tandis que North et lui faisaient l'arrière, l'aérodynamique et la nouvelle boîte à trois arbres et carter sec, avec Weismann. C'est la version de Murray, à qui Nichols dispute la paternité de la voiture ; le site rapporte cette version sans trancher.
 
@@ -59,8 +59,8 @@ Cette boîte reste un projet de Murray : Autosport écrit que personne ne le con
 
 ## Divergences entre sources
 
-- **Arrivée chez Brabham** : en 1976 selon Joe Saward ; en 1978 selon [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui écrit que Murray était seul au bureau d'études de Brabham de 1972 jusqu'à l'arrivée de North ; OldRacingCars ne le rattache à Brabham que de 1979 à 1987.
+- **Arrivée chez Brabham** : en 1976 selon Joe Saward ; en 1978 selon [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui écrit que Murray était seul au bureau d'études de Brabham de 1972 jusqu'à l'arrivée de North ; OldRacingCars.com ne le rattache à Brabham que de 1979 à 1987.
 - **Arrivée chez McLaren** : Autosport écrit que Murray l'a fait venir de Brabham, sans mentionner le passage par Ralt que signalent les deux articles de GrandPrix.com.
-- **Rôle chez McLaren** : chef de la conception des transmissions (GrandPrix.com) ; OldRacingCars parle plutôt de longues années dans la division des projets spéciaux.
+- **Rôle chez McLaren** : chef de la conception des transmissions (GrandPrix.com) ; OldRacingCars.com parle plutôt de longues années dans la division des projets spéciaux.
 - **Départ pour Renault** : annoncé en octobre 2002 par GrandPrix.com ; daté de 2003 par Joe Saward en 2005.
 - **Jordan** : en mai 2005, Joe Saward rapporte une rumeur selon laquelle Jordan l'aurait engagé comme directeur technique, en précisant qu'elle n'est pas confirmée. Le site ne la retient pas comme un fait.

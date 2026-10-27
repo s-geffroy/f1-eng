@@ -47,7 +47,7 @@ According to formula1.com, the key to these rules was not peak downforce in fast
 
 The suspension pointed the same way. Red Bull, like McLaren, swapped its layout around: pull-rods at the front, push-rods at the rear. At the front, the geometry was anti-dive: it limited dive under braking, and so the rise of the rear and the loss of downforce that goes with it. At the rear, long travel let the car sink at high speed, cutting drag and giving it a consistent straight-line advantage. That required relatively soft springs, which on other cars would have induced bouncing.
 
-For Honda, the car's main feature lay elsewhere: sidepods with a deep undercut, their upper surface sloping down towards the rear. Again according to Honda, this solution later became the standard for almost every team. In early 2023, several teams took up the Red Bull's sidepods; Mercedes and Ferrari at first declined to, before adopting sidepods of this type in their turn during the 2023 season.
+For Honda, the car's main feature lay elsewhere: [sidepods]({{ site.baseurl }}/en/glossary/#pontons) with a deep undercut, their upper surface sloping down towards the rear. Again according to Honda, this solution later became the standard for almost every team. In early 2023, several teams took up the Red Bull's sidepods; Mercedes and Ferrari at first declined to, before adopting sidepods of this type in their turn during the 2023 season.
 
 ## Who designed it
 

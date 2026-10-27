@@ -46,10 +46,10 @@ C'est aussi l'une des premières F1 dont les ingénieurs suivent le fonctionneme
 ## Comment elle est faite
 
 - **Châssis** : selon Mark Hughes, une coque en U inversé, à cloisons en fibre de carbone et non plus en aluminium, construite chez Williams à Didcot et collée sur un fond en fibre de carbone. Motor Sport parle d'un [composite]({{ site.baseurl }}/glossaire/#composite-carbone) moulé de carbone, de Kevlar et d'aluminium, dessiné avec un système de [CAO/FAO]({{ site.baseurl }}/glossaire/#cao) Calma de General Electric installé à Didcot fin 1985.
-- **Moteur** : le V6 turbo Honda de 1,5 litre, plus de 1100ch en qualification et plus de 900ch en course selon Mark Hughes. Honda le nomme RA166E ; Motor Sport, en 1987, parle d'une version « F » du V6 RA163 à 80 degrés.
+- **Moteur** : le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo Honda de 1,5 litre, plus de 1100ch en qualification et plus de 900ch en course selon Mark Hughes. Honda le nomme RA166E ; Motor Sport, en 1987, parle d'une version « F » du V6 RA163 à 80 degrés.
 - **Transmission et freins** : une boîte à six rapports, placée en arrière de l'essieu. Disques de frein en carbone de SEP selon Motor Sport ; Mark Hughes parle de disques en fonte.
 - **Suspensions** : doubles triangles aux quatre roues, combinés ressort-amortisseur intérieurs actionnés par poussoirs selon Motor Sport ; Mark Hughes indique des tirants à l'arrière.
-- **Aérodynamique** : radiateurs et échangeurs répartis symétriquement dans les pontons ; selon Mark Hughes, des profils d'aileron plats, ni déflecteurs ni pontons creusés, mais un léger rétrécissement en « bouteille de Coca » à l'arrière.
+- **Aérodynamique** : radiateurs et échangeurs répartis symétriquement dans les [pontons]({{ site.baseurl }}/glossaire/#pontons) ; selon Mark Hughes, des profils d'aileron plats, ni déflecteurs ni pontons creusés, mais un léger rétrécissement en « bouteille de Coca » à l'arrière.
 
 ## Qui l'a conçue
 

@@ -39,7 +39,7 @@ image: "/assets/partage/en/voitures/mercedes-w05.jpg"
 ---
 ## What it changed
 
-In 2014, the regulations required a [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride): a turbo V6 combined with electric motor-generators. The W05 was Mercedes' answer, and its strength lay first in the method. According to Motorsport.com, it was born of an unprecedented union between the chassis, aerodynamics and engine departments, with each part designed alongside the others.
+In 2014, the regulations required a [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride): a turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) combined with electric motor-generators. The W05 was Mercedes' answer, and its strength lay first in the method. According to Motorsport.com, it was born of an unprecedented union between the chassis, aerodynamics and engine departments, with each part designed alongside the others.
 
 The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) of the PU106 engine. The compressor was placed at one end of the engine, the turbine at the other: the hot and cold sides stayed apart, and the motor-generator that recovers energy from the exhaust gases found its place between them, in the vee of the engine. A long shaft linked the assembly along the full length of the engine. The intake air was cooled by a liquid-to-air rather than air-to-air intercooler, housed above the fuel tank, which shortened its path.
 

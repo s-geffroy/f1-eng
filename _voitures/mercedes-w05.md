@@ -39,7 +39,7 @@ image: "/assets/partage/voitures/mercedes-w05.jpg"
 ---
 ## Ce qu'elle change
 
-En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un V6 turbo associé à des moteurs-générateurs électriques. La W05 est la réponse de Mercedes, et sa force tient d'abord à la méthode. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres.
+En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo associé à des moteurs-générateurs électriques. La W05 est la réponse de Mercedes, et sa force tient d'abord à la méthode. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres.
 
 La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) séparé du moteur PU106. Le compresseur est placé à une extrémité du moteur, la turbine à l'autre : les parties chaude et froide restent éloignées, et le moteur-générateur qui récupère l'énergie des gaz d'échappement trouve sa place entre elles, dans le V du moteur. Un long arbre relie l'ensemble sur toute la longueur du moteur. L'air d'admission est refroidi par un échangeur à liquide plutôt qu'à air, logé au-dessus du réservoir, ce qui raccourcit son trajet.
 

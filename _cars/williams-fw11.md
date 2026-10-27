@@ -46,10 +46,10 @@ It was also one of the first F1 cars whose engineers could follow it remotely. I
 ## How it was built
 
 - **Chassis**: according to Mark Hughes, an inverted-U tub with carbon fibre bulkheads rather than aluminium, built in-house at Didcot and bonded to a carbon fibre floor. Motor Sport speaks of a moulded carbon/Kevlar/aluminium [composite]({{ site.baseurl }}/en/glossary/#composite-carbone), designed with a General Electric Calma [CAD/CAM]({{ site.baseurl }}/en/glossary/#cao) system installed at Didcot in late 1985.
-- **Engine**: Honda's 1.5-litre turbo V6, over 1100bhp in qualifying and over 900bhp in the race according to Mark Hughes. Honda calls it the RA166E; Motor Sport, in 1987, refers to an "F" version of the 80-degree RA163 V6.
+- **Engine**: Honda's 1.5-litre turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur), over 1100bhp in qualifying and over 900bhp in the race according to Mark Hughes. Honda calls it the RA166E; Motor Sport, in 1987, refers to an "F" version of the 80-degree RA163 V6.
 - **Transmission and brakes**: a six-speed gearbox, mounted behind the rear axle line. Carbon brake discs from SEP according to Motor Sport; Mark Hughes speaks of cast-iron discs.
 - **Suspension**: double wishbones all round, with inboard spring/damper units operated by pushrods according to Motor Sport; Mark Hughes indicates pullrods at the rear.
-- **Aerodynamics**: radiators and intercoolers arranged symmetrically in the sidepods; according to Mark Hughes, flat wing profiles, no bargeboards and no sidepod undercuts, but a slight "coke bottle" taper at the rear.
+- **Aerodynamics**: radiators and intercoolers arranged symmetrically in the [sidepods]({{ site.baseurl }}/en/glossary/#pontons); according to Mark Hughes, flat wing profiles, no bargeboards and no sidepod undercuts, but a slight "coke bottle" taper at the rear.
 
 ## Who designed it
 

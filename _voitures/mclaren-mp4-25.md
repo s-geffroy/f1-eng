@@ -41,14 +41,14 @@ Le reste de la voiture répond au nouveau règlement. Le [ravitaillement]({{ sit
 
 ## Qui l'a conçue
 
-Une équipe. [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) la dirige : GrandPrix.com le présente comme directeur technique, le dossier de presse de McLaren comme directeur de l'ingénierie. Selon lui, le F-duct est développé dès la fin de 2008 ; McLaren avait envisagé de l'utiliser en 2009.
+Une équipe. [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) la dirige : GrandPrix.com le présente comme directeur technique, le dossier de presse de McLaren comme directeur de l'ingénierie. Selon lui, le [F-duct]({{ site.baseurl }}/glossaire/#f-duct) est développé dès la fin de 2008 ; McLaren avait envisagé de l'utiliser en 2009.
 
 L'ingénieur en chef Tim Goss et l'aérodynamicien en chef Doug McKiernan reçoivent pour le F-duct le prix de l'innovation des Autosport Awards 2010. Tous deux tiennent à partager le mérite avec toute l'entreprise, à cause de l'acte de foi qu'il a fallu pour le faire approuver. « Les aérodynamiciens ont souvent une idée qui paraît assez stupide, dit Goss. Quand vous annoncez qu'on va se servir du pilote pour faire décrocher l'aileron arrière, les sceptiques ne manquent pas. » Il faut aussi convaincre la fédération, puisque le règlement interdit l'aérodynamique commandée par le pilote. Goss lui en rend hommage : elle « a entendu les arguments, les a crus et nous a laissés faire ».
 
 ## Limites
 
 - **Copié, puis interdit.** Sauber court avec sa propre version dès la deuxième manche, en Australie ; Mercedes, Ferrari, Red Bull, Force India, Williams et Renault suivent dans la saison. Lors d'une réunion au Grand Prix d'Espagne 2010, un vote le bannit pour 2011, pour des raisons de coût et de sécurité.
-- **Une voiture inégale.** Selon Autosport, le F-duct ne compense pas les défauts de la voiture. Goss attribue sa mauvaise tenue sur les bosses à ses caractéristiques aérodynamiques. McLaren reconnaît aussi avoir tardé à adopter le diffuseur soufflé par les échappements, introduit une course après Ferrari et Renault.
+- **Une voiture inégale.** Selon Autosport, le F-duct ne compense pas les défauts de la voiture. Goss attribue sa mauvaise tenue sur les bosses à ses caractéristiques aérodynamiques. McLaren reconnaît aussi avoir tardé à adopter le [diffuseur soufflé]({{ site.baseurl }}/glossaire/#diffuseur-souffle) par les échappements, introduit une course après Ferrari et Renault.
 
 ## Ce qu'elle laisse
 

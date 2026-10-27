@@ -31,7 +31,7 @@ image: "/assets/partage/en/voitures/lotus-49.jpg"
 ---
 ## What it changed
 
-The Lotus 49 and the Cosworth DFV engine were designed together. Motor Sport noted it as early as July 1967: the engine was to be part of the chassis, strong enough to form the rear of the car. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) reduced the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) to a simple nacelle in front of it. Duckworth designed a short and very stiff V8: the front of the car was bolted to the front of the engine, and the rear suspension to its back, on mounting points provided in the castings.
+The Lotus 49 and the Cosworth DFV engine were designed together. Motor Sport noted it as early as July 1967: the engine was to be part of the chassis, strong enough to form the rear of the car. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) reduced the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) to a simple nacelle in front of it. Duckworth designed a short and very stiff [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur): the front of the car was bolted to the front of the engine, and the rear suspension to its back, on mounting points provided in the castings.
 
 The same article points out that the car was not new in principle, but entirely new in execution. The [Lancia D50]({{ site.baseurl }}{% link _cars/lancia-d50.md %}) had already used its engine as a structural element in 1954. The Lotus 49 made it the norm.
 

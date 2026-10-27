@@ -61,7 +61,7 @@ Le pilote compte aussi. Selon formula1.com, Sebastian Vettel maîtrise le style 
 
 - **Le moteur.** Newey estime le Renault inférieur d'au moins 4 % au Mercedes, soit près d'une demi-seconde au tour sur la plupart des circuits, selon GrandPrix.com.
 - **La fiabilité.** Vettel perd des points en début de saison sur des problèmes de bougies et de freins ; en Corée, le moteur de Vettel casse et Webber sort de la piste.
-- **Ce qui manque.** Au début, la RB6 n'a pas de conduit de type F-duct. Les rivaux se demandent si ses ailerons avant ne descendent pas plus bas que permis ; Newey répond que le règlement autorise 10mm de flexion sous une charge de 50kg, et que c'est McLaren qui avait demandé cette tolérance.
+- **Ce qui manque.** Au début, la RB6 n'a pas de conduit de type [F-duct]({{ site.baseurl }}/glossaire/#f-duct). Les rivaux se demandent si ses ailerons avant ne descendent pas plus bas que permis ; Newey répond que le règlement autorise 10mm de flexion sous une charge de 50kg, et que c'est McLaren qui avait demandé cette tolérance.
 
 ## Ce qu'elle laisse
 
