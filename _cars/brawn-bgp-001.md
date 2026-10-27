@@ -35,20 +35,20 @@ image: "/assets/partage/en/voitures/brawn-bgp-001.jpg"
 ---
 ## What it changed
 
-Work on the future BGP 001 began at Honda in mid-2008. The new 2009 regulations were meant to reduce [downforce]({{ site.baseurl }}/en/glossary/#appui), but Honda found a loophole: the double, or two-tier, [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur). Openings in the floor of the diffuser fed a channel above the main diffuser; the volume increased, and so did the downforce.
+Work on the future BGP 001 began at Honda in mid-2008{% include src.html n="2" %}. The new 2009 regulations were meant to reduce [downforce]({{ site.baseurl }}/en/glossary/#appui), but Honda found a loophole: the double, or two-tier, [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur){% include src.html n="2" %}. Openings in the floor of the diffuser fed a channel above the main diffuser; the volume increased, and so did the downforce{% include src.html n="3" %}.
 
-Then Honda withdrew, and the team's 2009 season was for a time in doubt. Ross Brawn and Nick Fry rescued it: it became Brawn GP and received, very late, a Mercedes engine.
+Then Honda withdrew, and the team's 2009 season was for a time in doubt{% include src.html n="2" %}. Ross Brawn and Nick Fry rescued it: it became Brawn GP and received, very late, a Mercedes engine{% include src.html n="1,2" %}.
 
 ## Who designed it
 
-Brawn himself insists on this point: it was the resources of the Honda team that built the car, with at one stage three [wind tunnels]({{ site.baseurl }}/en/glossary/#soufflerie) running in parallel. "It was one of the Japanese engineers who came up with the twin floor concept using the tunnel in Japan." [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's owner and principal, does not claim to have invented it.
+Brawn himself insists on this point: it was the resources of the Honda team that built the car, with at one stage three [wind tunnels]({{ site.baseurl }}/en/glossary/#soufflerie) running in parallel{% include src.html n="1" %}. "It was one of the Japanese engineers who came up with the twin floor concept using the tunnel in Japan."{% include src.html n="1" %} [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's owner and principal, does not claim to have invented it{% include src.html n="1,6" %}.
 
 ## Limitations
 
-- **A poorly integrated engine.** The Mercedes crankshaft sat higher than that of the planned Honda: the gearbox had to be raised, which compromised the centre of gravity and the suspension geometry. "There were a lot of compromises on that car," says Brawn.
-- **A lead challenged, then caught.** Brawn, Toyota and Williams all used a double diffuser. After protests, the FIA's Court of Appeal declared it legal in April 2009, and the other seven teams launched into a race to copy it.
-- **Not just a diffuser.** Motor Sport notes that most specialists credit the car with qualities beyond its double diffuser.
+- **A poorly integrated engine.** The Mercedes crankshaft sat higher than that of the planned Honda: the gearbox had to be raised, which compromised the centre of gravity and the suspension geometry{% include src.html n="1" %}. "There were a lot of compromises on that car," says Brawn{% include src.html n="1" %}.
+- **A lead challenged, then caught.** Brawn, Toyota and Williams all used a double diffuser{% include src.html n="3,4,5" %}. After protests, the FIA's Court of Appeal declared it legal in April 2009, and the other seven teams launched into a race to copy it{% include src.html n="4,5" %}.
+- **Not just a diffuser.** Motor Sport notes that most specialists credit the car with qualities beyond its double diffuser{% include src.html n="5" %}.
 
 ## Legacy
 
-- **2009**: a one-two at the very first race, in Australia, and six wins from the first seven races. Eight wins in all, the drivers' title for Jenson Button and the constructors' title for Brawn GP, in its only season.
+- **2009**: a one-two at the very first race, in Australia, and six wins from the first seven races{% include src.html n="2,6" %}. Eight wins in all, the drivers' title for Jenson Button and the constructors' title for Brawn GP, in its only season{% include src.html n="3,6" %}.

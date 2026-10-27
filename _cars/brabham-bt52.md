@@ -29,26 +29,26 @@ image: "/assets/partage/en/voitures/brabham-bt52.jpg"
 ---
 ## What it changed
 
-In November 1982, the federation imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat) from the start of 1983. Brabham's ground effect BT51, almost finished, was abandoned. In just six weeks (three months, according to Murray himself), an entirely new car was designed and built: the BT52.
+In November 1982, the federation imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat) from the start of 1983{% include src.html n="1" %}. Brabham's ground effect BT51, almost finished, was abandoned{% include src.html n="1,2" %}. In just six weeks (three months, according to Murray himself), an entirely new car was designed and built: the BT52{% include src.html n="1,3" %}.
 
-Gordon Murray started from a simple line of reasoning. The BMW turbo engine would deliver enormous torque by the end of the season, and the car would be limited by its traction. So he did away with conventional [sidepods]({{ site.baseurl }}/en/glossary/#pontons) and moved the centre of gravity back by 7%. "That's huge," he says: in the skirt era, a big change would have been 1%. He had no time for the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie): "it was all done from theory, experience and gut feel."
+Gordon Murray started from a simple line of reasoning. The BMW turbo engine would deliver enormous torque by the end of the season, and the car would be limited by its traction{% include src.html n="2" %}. So he did away with conventional [sidepods]({{ site.baseurl }}/en/glossary/#pontons) and moved the centre of gravity back by 7%. "That's huge," he says: in the skirt era, a big change would have been 1%{% include src.html n="2" %}. He had no time for the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie): "it was all done from theory, experience and gut feel."{% include src.html n="2" %}
 
 Three other choices mattered:
 
-- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly built up off the car, prepared at the factory. formula1.com notes that the system was later widely copied;
-- **a car designed for [refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement)**, which Brabham and Murray had reintroduced in 1982: a smaller tank, and a pressurised filling system delivering more than 30 gallons in about three seconds;
-- **mixed construction**: bulkhead and lower tub in aluminium, upper tub in [carbon]({{ site.baseurl }}/en/glossary/#composite-carbone), with carbon roll hoops. With Brabham's resources, Murray did not follow McLaren down the all-carbon route.
+- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly built up off the car, prepared at the factory{% include src.html n="1,2" %}. formula1.com notes that the system was later widely copied{% include src.html n="1" %};
+- **a car designed for [refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement)**, which Brabham and Murray had reintroduced in 1982: a smaller tank, and a pressurised filling system delivering more than 30 gallons in about three seconds{% include src.html n="1" %};
+- **mixed construction**: bulkhead and lower tub in aluminium, upper tub in [carbon]({{ site.baseurl }}/en/glossary/#composite-carbone), with carbon roll hoops{% include src.html n="1,2" %}. With Brabham's resources, Murray did not follow McLaren down the all-carbon route{% include src.html n="1" %}.
 
 ## Who designed it
 
-[Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) was its designer. He makes the point himself: "[David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and I drew every part between us."
+[Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) was its designer{% include src.html n="1,2" %}. He makes the point himself: "[David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) and I drew every part between us."{% include src.html n="2" %}
 
 ## Limitations
 
-"Aerodynamically, it was probably the least adjustable car of all time," Murray admits: only the front wing flap could be used to balance it. The BMW engine, derived from a production unit, also imposed its own compromises.
+"Aerodynamically, it was probably the least adjustable car of all time," Murray admits: only the front wing flap could be used to balance it{% include src.html n="1,3" %}. The BMW engine, derived from a production unit, also imposed its own compromises{% include src.html n="2" %}.
 
 ## Legacy
 
-- **Rio, 13 March 1983**: Nelson Piquet won the BT52's first race.
-- **1983**: Piquet won three of the fifteen races and became the first world champion with a turbo engine. At Kyalami, the final round, he let his team-mate Riccardo Patrese take the win.
-- Murray believed the other teams would copy refuelling for 1983. At Rio, he was astonished to find that almost all of them still had cars running on a full tank; only Williams also tried refuelling, which ended in a fire on Keke Rosberg's car. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds.
+- **Rio, 13 March 1983**: Nelson Piquet won the BT52's first race{% include src.html n="1" %}.
+- **1983**: Piquet won three of the fifteen races and became the first world champion with a turbo engine{% include src.html n="1" %}. At Kyalami, the final round, he let his team-mate Riccardo Patrese take the win{% include src.html n="1" %}.
+- Murray believed the other teams would copy refuelling for 1983{% include src.html n="1" %}. At Rio, he was astonished to find that almost all of them still had cars running on a full tank{% include src.html n="1" %}; only Williams also tried refuelling, which ended in a fire on Keke Rosberg's car{% include src.html n="2" %}. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds{% include src.html n="2" %}.

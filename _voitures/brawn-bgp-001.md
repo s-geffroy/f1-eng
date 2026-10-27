@@ -35,20 +35,20 @@ image: "/assets/partage/voitures/brawn-bgp-001.jpg"
 ---
 ## Ce qu'elle change
 
-Le travail sur la future BGP 001 commence chez Honda au milieu de 2008. Le nouveau règlement de 2009 doit réduire l'[appui]({{ site.baseurl }}/glossaire/#appui), mais Honda y trouve une faille : le [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) double, ou à deux étages. Des ouvertures dans le fond du diffuseur alimentent un canal placé au-dessus du diffuseur principal ; le volume augmente, et l'appui aussi.
+Le travail sur la future BGP 001 commence chez Honda au milieu de 2008{% include src.html n="2" %}. Le nouveau règlement de 2009 doit réduire l'[appui]({{ site.baseurl }}/glossaire/#appui), mais Honda y trouve une faille : le [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) double, ou à deux étages{% include src.html n="2" %}. Des ouvertures dans le fond du diffuseur alimentent un canal placé au-dessus du diffuseur principal ; le volume augmente, et l'appui aussi{% include src.html n="3" %}.
 
-Puis Honda se retire, et la saison 2009 de l'équipe est un temps compromise. Ross Brawn et Nick Fry la sauvent : elle devient Brawn GP et reçoit, très tard, un moteur Mercedes.
+Puis Honda se retire, et la saison 2009 de l'équipe est un temps compromise{% include src.html n="2" %}. Ross Brawn et Nick Fry la sauvent : elle devient Brawn GP et reçoit, très tard, un moteur Mercedes{% include src.html n="1,2" %}.
 
 ## Qui l'a conçue
 
-Brawn insiste lui-même sur ce point : ce sont les moyens de l'équipe Honda qui ont construit la voiture, avec à un moment trois [souffleries]({{ site.baseurl }}/glossaire/#soufflerie) travaillant en parallèle. « C'est l'un des ingénieurs japonais qui a eu l'idée du double plancher, dans la soufflerie au Japon. » [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), propriétaire et directeur de l'équipe, n'en revendique pas l'invention.
+Brawn insiste lui-même sur ce point : ce sont les moyens de l'équipe Honda qui ont construit la voiture, avec à un moment trois [souffleries]({{ site.baseurl }}/glossaire/#soufflerie) travaillant en parallèle{% include src.html n="1" %}. « C'est l'un des ingénieurs japonais qui a eu l'idée du double plancher, dans la soufflerie au Japon. »{% include src.html n="1" %} [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), propriétaire et directeur de l'équipe, n'en revendique pas l'invention{% include src.html n="1,6" %}.
 
 ## Limites
 
-- **Un moteur mal intégré.** Le vilebrequin du Mercedes sort plus haut que celui du Honda prévu : il faut surélever la boîte de vitesses, ce qui dégrade le centre de gravité et la géométrie des suspensions. « Il y avait beaucoup de compromis sur cette voiture », dit Brawn.
-- **Une avance contestée, puis rattrapée.** Brawn, Toyota et Williams utilisent tous un double diffuseur. Après des réclamations, la cour d'appel de la fédération le déclare légal en avril 2009, et les sept autres équipes se lancent dans une course pour le copier.
-- **Pas seulement un diffuseur.** Motor Sport note que la plupart des spécialistes reconnaissent à la voiture d'autres qualités que son double diffuseur.
+- **Un moteur mal intégré.** Le vilebrequin du Mercedes sort plus haut que celui du Honda prévu : il faut surélever la boîte de vitesses, ce qui dégrade le centre de gravité et la géométrie des suspensions{% include src.html n="1" %}. « Il y avait beaucoup de compromis sur cette voiture », dit Brawn{% include src.html n="1" %}.
+- **Une avance contestée, puis rattrapée.** Brawn, Toyota et Williams utilisent tous un double diffuseur{% include src.html n="3,4,5" %}. Après des réclamations, la cour d'appel de la fédération le déclare légal en avril 2009, et les sept autres équipes se lancent dans une course pour le copier{% include src.html n="4,5" %}.
+- **Pas seulement un diffuseur.** Motor Sport note que la plupart des spécialistes reconnaissent à la voiture d'autres qualités que son double diffuseur{% include src.html n="5" %}.
 
 ## Ce qu'elle laisse
 
-- **2009** : doublé dès la première course, en Australie, et six victoires sur les sept premières courses. Huit victoires en tout, titre pilotes pour Jenson Button et titre constructeurs pour Brawn GP, lors de son unique saison.
+- **2009** : doublé dès la première course, en Australie, et six victoires sur les sept premières courses{% include src.html n="2,6" %}. Huit victoires en tout, titre pilotes pour Jenson Button et titre constructeurs pour Brawn GP, lors de son unique saison{% include src.html n="3,6" %}.
