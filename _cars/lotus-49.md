@@ -31,21 +31,21 @@ image: "/assets/partage/en/voitures/lotus-49.jpg"
 ---
 ## What it changed
 
-The Lotus 49 and the Cosworth DFV engine were designed together. Motor Sport noted it as early as July 1967: the engine was to be part of the chassis, strong enough to form the rear of the car. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) reduced the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) to a simple nacelle in front of it. Duckworth designed a short and very stiff [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur): the front of the car was bolted to the front of the engine, and the rear suspension to its back, on mounting points provided in the castings.
+The Lotus 49 and the Cosworth DFV engine were designed together{% include src.html n="1,2" %}. Motor Sport noted it as early as July 1967: the engine was to be part of the chassis, strong enough to form the rear of the car{% include src.html n="1" %}. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) reduced the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) to a simple nacelle in front of it{% include src.html n="2" %}. Duckworth designed a short and very stiff [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur): the front of the car was bolted to the front of the engine, and the rear suspension to its back, on mounting points provided in the castings{% include src.html n="1" %}.
 
-The same article points out that the car was not new in principle, but entirely new in execution. The [Lancia D50]({{ site.baseurl }}{% link _cars/lancia-d50.md %}) had already used its engine as a structural element in 1954. The Lotus 49 made it the norm.
+The same article points out that the car was not new in principle, but entirely new in execution{% include src.html n="1" %}. The [Lancia D50]({{ site.baseurl }}{% link _cars/lancia-d50.md %}) had already used its engine as a structural element in 1954. The Lotus 49 made it the norm{% include src.html n="2" %}.
 
-Development was tight: according to Denis Jenkinson (Motor Sport), the first 49 only ran in mid-May 1967, Graham Hill did all the testing, and Jim Clark first drove the car at Zandvoort, where he won the Dutch Grand Prix on its first outing. Goodwood, for its part, writes that the engine was mated to the car only "a few days" before the race.
+Development was tight: according to Denis Jenkinson (Motor Sport), the first 49 only ran in mid-May 1967, Graham Hill did all the testing, and Jim Clark first drove the car at Zandvoort, where he won the Dutch Grand Prix on its first outing{% include src.html n="1,3" %}. Goodwood, for its part, writes that the engine was mated to the car only "a few days" before the race{% include src.html n="3" %}.
 
 ## Who designed it
 
-According to Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and his team worked in close collaboration with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}). [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) handled the detailed design of the chassis. The DFV, for its part, was a Cosworth achievement.
+According to Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and his team worked in close collaboration with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}){% include src.html n="1" %}. [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) handled the detailed design of the chassis{% include src.html n="4" %}. The DFV, for its part, was a Cosworth achievement{% include src.html n="1" %}.
 
 ## Limitations
 
-The ZF gearbox proved troublesome. In 1968, the 49B version received a raised rear engine cover, then [wings]({{ site.baseurl }}/en/glossary/#aileron) in the same season.
+The ZF gearbox proved troublesome{% include src.html n="4" %}. In 1968, the 49B version received a raised rear engine cover, then [wings]({{ site.baseurl }}/en/glossary/#aileron) in the same season{% include src.html n="2" %}.
 
 ## Legacy
 
-- In 1968, Graham Hill became world champion in the 49, and Lotus won the constructors' title.
-- The DFV did not stay at Lotus. Goodwood points out that it powered twelve different makes, from McLaren to Williams, to 155 victories.
+- In 1968, Graham Hill became world champion in the 49, and Lotus won the constructors' title{% include src.html n="2" %}.
+- The DFV did not stay at Lotus. Goodwood points out that it powered twelve different makes, from McLaren to Williams, to 155 victories{% include src.html n="3" %}.

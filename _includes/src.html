@@ -1,0 +1,6 @@
+{%- comment -%}
+  Appel de source dans le corps d'une fiche : {% include src.html n="3" %} ou n="3,5".
+  Renvoie au numéro de la liste « Sources » du cartouche (page.sources, compté à partir de 1).
+{%- endcomment -%}
+{%- assign ns = include.n | split: "," -%}
+<sup class="cite">[{%- for x in ns -%}{%- assign k = x | strip -%}{%- assign i = k | minus: 1 -%}<a href="#src-{{ k }}" title="{{ page.sources[i].titre | escape }}">{{ k }}</a>{% unless forloop.last %}, {% endunless %}{%- endfor -%}]</sup>

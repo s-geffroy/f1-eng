@@ -31,21 +31,21 @@ image: "/assets/partage/voitures/lotus-49.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui. Duckworth dessine un [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie.
+La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble{% include src.html n="1,2" %}. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture{% include src.html n="1" %}. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui{% include src.html n="2" %}. Duckworth dessine un [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie{% include src.html n="1" %}.
 
-Le même article précise que la voiture n'est pas nouvelle dans son principe, mais entièrement nouvelle dans sa réalisation. La [Lancia D50]({{ site.baseurl }}{% link _voitures/lancia-d50.md %}) employait déjà son moteur comme élément structurel en 1954. La Lotus 49 en fait la norme.
+Le même article précise que la voiture n'est pas nouvelle dans son principe, mais entièrement nouvelle dans sa réalisation{% include src.html n="1" %}. La [Lancia D50]({{ site.baseurl }}{% link _voitures/lancia-d50.md %}) employait déjà son moteur comme élément structurel en 1954. La Lotus 49 en fait la norme{% include src.html n="2" %}.
 
-La mise au point est serrée : selon Denis Jenkinson (Motor Sport), la première 49 ne roule qu'à la mi-mai 1967, Graham Hill assure seul les essais, et Jim Clark découvre la voiture à Zandvoort, où il gagne le Grand Prix des Pays-Bas pour sa première course. Goodwood écrit, lui, que le moteur n'a été marié à la voiture que « quelques jours » avant la course.
+La mise au point est serrée : selon Denis Jenkinson (Motor Sport), la première 49 ne roule qu'à la mi-mai 1967, Graham Hill assure seul les essais, et Jim Clark découvre la voiture à Zandvoort, où il gagne le Grand Prix des Pays-Bas pour sa première course{% include src.html n="1,3" %}. Goodwood écrit, lui, que le moteur n'a été marié à la voiture que « quelques jours » avant la course{% include src.html n="3" %}.
 
 ## Qui l'a conçue
 
-Selon Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et son équipe ont travaillé en étroite relation avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}). [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) s'occupe du dessin détaillé du châssis. Le DFV, lui, est une réalisation de Cosworth.
+Selon Motor Sport, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et son équipe ont travaillé en étroite relation avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}){% include src.html n="1" %}. [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) s'occupe du dessin détaillé du châssis{% include src.html n="4" %}. Le DFV, lui, est une réalisation de Cosworth{% include src.html n="1" %}.
 
 ## Limites
 
-La boîte ZF se révèle problématique. En 1968, la version 49B reçoit un capot arrière relevé, puis des [ailerons]({{ site.baseurl }}/glossaire/#aileron) dans la même saison.
+La boîte ZF se révèle problématique{% include src.html n="4" %}. En 1968, la version 49B reçoit un capot arrière relevé, puis des [ailerons]({{ site.baseurl }}/glossaire/#aileron) dans la même saison{% include src.html n="2" %}.
 
 ## Ce qu'elle laisse
 
-- En 1968, Graham Hill est champion du monde sur la 49, et Lotus remporte le titre constructeurs.
-- Le DFV n'est pas resté chez Lotus. Goodwood rappelle qu'il a porté douze marques différentes, de McLaren à Williams, jusqu'à 155 victoires.
+- En 1968, Graham Hill est champion du monde sur la 49, et Lotus remporte le titre constructeurs{% include src.html n="2" %}.
+- Le DFV n'est pas resté chez Lotus. Goodwood rappelle qu'il a porté douze marques différentes, de McLaren à Williams, jusqu'à 155 victoires{% include src.html n="3" %}.

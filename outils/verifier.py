@@ -235,6 +235,28 @@ for m in sorted(set(_cf) & set(_ce)):
     if (_cf[m]["annee"], _cf[m]["categorie"], _liens(_cf[m])) != (_ce[m]["annee"], _ce[m]["categorie"], _liens(_ce[m])):
         err(f"contexte « {m} » : année, catégorie ou liens différents entre fr et en")
 
+# 5 ter. appels de source ({% include src.html n="3" %}) : numéro présent dans la liste des sources,
+#        sources jamais appelées, et même suite d'appels dans les deux langues
+def _appels(corps):
+    return [int(x) for n in re.findall(r'\{%-?\s*include\s+src\.html\s+n="([0-9, ]+)"', corps) for x in n.split(",")]
+for fr_c, en_c in (("_ingenieurs", "_engineers"), ("_voitures", "_cars")):
+    for f in sorted(os.listdir(fr_c)):
+        suites = {}
+        for chemin in (f"{fr_c}/{f}", f"{en_c}/{f}"):
+            fm, corps = corps_par_page.get(chemin, (None, ""))
+            if fm is None:
+                continue
+            nb, appels = len(fm.get("sources") or []), _appels(corps)
+            for n in sorted(set(appels)):
+                if not 1 <= n <= nb:
+                    err(f"{chemin} : appel de source [{n}] hors de la liste ({nb} sources)")
+            if appels:
+                for n in sorted(set(range(1, nb + 1)) - set(appels)):
+                    warn(f"{chemin} : source [{n}] jamais appelée dans le texte")
+            suites[chemin] = appels
+        if len(suites) == 2 and len(set(map(tuple, suites.values()))) == 2:
+            err(f"{fr_c}/{f} : appels de source différents entre fr et en")
+
 # 6. synchronisation : une traduction plus ancienne que son original français est signalée
 #    (date du dernier commit qui touche le fichier ; date du fichier s'il a des modifications non commitées)
 import subprocess

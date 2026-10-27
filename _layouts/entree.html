@@ -79,7 +79,7 @@ layout: default
       <h2 id="references">{{ T.l.references }}</h2>
       <ol>
         {%- for s in page.sources %}
-        <li><a href="{{ s.url }}">{{ s.titre }}</a></li>
+        <li id="src-{{ forloop.index }}"><a href="{{ s.url }}">{{ s.titre }}</a></li>
         {%- endfor %}
       </ol>
       <p>{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.</p>

@@ -193,6 +193,11 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .references h2 { font-size: 1.125rem; margin: 0 0 0.5rem; }
 .references ol { margin: 0; padding-left: 1.4em; }
 .references li { margin-bottom: 0.5em; overflow-wrap: anywhere; }
+.references li { scroll-margin-top: 1rem; }
+.references li:target { background: var(--feuille); outline: var(--trait-fort) solid var(--tier-b); outline-offset: 2px; }
+.cite { font-size: 0.7em; line-height: 0; white-space: nowrap; }
+.cite a { text-decoration: none; }
+.cite a:hover, .cite a:focus-visible { text-decoration: underline; }
 .references p { color: var(--mine); margin: 0.75em 0 0; }
 
 /* Entrées ou dossiers voisins */
