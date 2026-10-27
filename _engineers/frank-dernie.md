@@ -35,11 +35,11 @@ Frank Dernie is the figure of a revolution that does not show on the bodywork: t
 - **Williams.** The date of his arrival differs between sources: 1977 according to Dernie himself{% include src.html n="1" %}; GrandPrix.com places it after the closure of Hesketh, which he is said to have joined at the end of 1976 for two seasons{% include src.html n="3" %}; Patrick Head, in a 2022 Motor Sport interview, dated it to January 1979{% include src.html n="4" %}.
 - **Lotus.** As technical director, he designed the 1989 Lotus 101{% include src.html n="1,3" %}; the Lamborghini V12-powered 102 was, in his words, "basically the same car"{% include src.html n="1" %}.
 - **Ligier**, where he designed the JS37, then **Benetton** for 1993: according to his account, [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) brought him in as chief engineer{% include src.html n="1" %}.
-- **Arrows**, where, by his account, he produced the 1997 A18, then consultant at Williams in 2003, and at Toyota until the team's withdrawal at the end of 2009{% include src.html n="1,3" %}.
+- **Arrows**, where, by his account, he produced the A18, then consultant at Williams in 2003, and at Toyota until the team's withdrawal at the end of 2009{% include src.html n="1,3" %}.
 
 ## Attribution
 
-Williams active suspension was the product of a chain of engineers: [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) and others{% include src.html n="1,2" %}. Dernie himself describes the division of labour: [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) on the hardware, Paddy Lowe on the programming{% include src.html n="1" %}.
+Williams active suspension was the product of a chain of engineers: Frank Dernie, who designed it, [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) and others{% include src.html n="1,2" %}. Dernie himself describes the division of labour: [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) on the hardware, Paddy Lowe on the programming{% include src.html n="1" %}.
 
 The accurate wording: **Dernie is, by his own account, an early figure in digital engineering, and the designer of the first Williams active suspension system, within a team.**
 

@@ -52,7 +52,7 @@ La contribution la plus structurante de Ross Brawn relève de la **méthode**. L
 
 ## Attribution
 
-Il faut éviter de dire que Brawn a conçu la Mercedes W05, ou qu'il en a préparé l'architecture. La formulation juste : **Brawn a mis en place, avant de quitter l'équipe à l'hiver 2013-2014, un programme 2014 lancé tôt et intégré entre châssis et moteur.** Il souligne lui-même qu'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) était en phase avec tout le travail mené sur le châssis{% include src.html n="1" %}.
+Il faut éviter de dire que Brawn a conçu la Mercedes W05, ou qu'il en a préparé l'architecture. La formulation juste : **selon Brawn, la W05, arrivée après son départ de l'équipe à l'hiver 2013-2014, relève exactement de la même philosophie que la Benetton de 1994 et la Brawn de 2009 : commencer tôt, avec un programme dédié et très intégré.** Il souligne lui-même qu'[Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}) était en phase avec tout le travail mené sur le châssis{% include src.html n="1" %}.
 
 ## Pourquoi le Tier C
 

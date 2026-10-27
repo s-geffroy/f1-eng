@@ -56,4 +56,4 @@ The BT46B raced only once: at the Swedish Grand Prix, at Anderstorp, on 17 June 
 
 ## Legacy
 
-An innovation withdrawn after one race does not prove lasting influence. In 1998, John Watson drew the lesson in Motor Sport: what mattered most was not the technology, but Bernie Ecclestone's agreement to withdraw it and placate the other teams{% include src.html n="1" %}.
+An innovation withdrawn after one race does not prove lasting technical influence. In 1998, John Watson drew the lesson in Motor Sport: what mattered most was not the technology, but Bernie Ecclestone's agreement to withdraw it and placate the other teams{% include src.html n="1" %}.

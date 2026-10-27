@@ -20,12 +20,14 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/september-2018/112/lunch-john-barnard"
   - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren MP4/2 » (octobre 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
+    url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
 consultation: "25 octobre 2026"
 image: "/assets/partage/steve-nichols.jpg"
 ---
 ## Ce qu'il a fait
 
-formula1.com attribue la création de la **McLaren MP4/4**, qu'elle présente comme la F1 la plus dominante de l'histoire, tantôt à Steve Nichols, tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}){% include src.html n="3" %}.
+formula1.com attribue la création de la **McLaren MP4/4**, qu'elle présente comme la F1 la plus dominante de l'histoire, tantôt à Steve Nichols{% include src.html n="3" %}, tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}){% include src.html n="7" %}.
 
 ## Parcours technique
 

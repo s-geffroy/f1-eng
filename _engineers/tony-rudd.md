@@ -39,7 +39,7 @@ Tony Rudd was an engineer at BRM, then at Lotus, and, with Peter Wright, one of 
 ## BRM
 
 - An apprentice at Rolls-Royce, he joined BRM shortly after its disastrous debut at Silverstone in 1950, and worked first on the V16{% include src.html n="2" %}.
-- In 1962, BRM won the drivers' (Graham Hill) and constructors' titles{% include src.html n="2" %}.
+- In 1962, BRM won the drivers' (Graham Hill) and constructors' titles{% include src.html n="2,3" %}.
 - On the BRM P261, an evolution of the P61, he extended the sides of the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) rearwards, around the engine, to cure the P61's lack of stiffness{% include src.html n="3" %}.
 - In 1966, the H16 engine arrived late, too heavy and too complex: an acknowledged failure{% include src.html n="2,3" %}.
 - In 1969, opposed to [wings]({{ site.baseurl }}/en/glossary/#aileron), he suggested that the car itself should generate [downforce]({{ site.baseurl }}/en/glossary/#appui){% include src.html n="4" %}. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) measured its potential in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), but the secret [wing car]({{ site.baseurl }}/en/glossary/#voiture-aile) project was stopped in June 1969{% include src.html n="4" %}.

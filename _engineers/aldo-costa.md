@@ -22,6 +22,8 @@ sources:
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
   - titre: "GrandPrix.com, “Designer doubts Mercedes to dominate” (2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
+  - titre: "Formula 1, “Mercedes announce engine chief Andy Cowell is to leave the team”"
+    url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
 consultation: "25 October 2026"
 image: "/assets/partage/en/aldo-costa.jpg"
 ---
@@ -32,8 +34,8 @@ Aldo Costa is [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}
 ## Technical career
 
 - He started at Abarth in 1987, then became Minardi's chief designer at the age of 27{% include src.html n="1" %} (Autosport has his career beginning at Minardi in 1988{% include src.html n="2" %}).
-- **Ferrari.** Byrne's deputy, then head of design and development, then technical director{% include src.html n="2" %}. In late 2004, Byrne announced that the 2005 car project was being led by Costa{% include src.html n="3" %}; in 2006, he said of the new car: "this year he has done it on his own"{% include src.html n="4" %}. In May 2011, after a winless start to the season, he left the post of technical director{% include src.html n="5,6" %}.
-- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05{% include src.html n="6,7" %}; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team{% include src.html n="2" %}. formula1.com presents him as a central cog in the five drivers' and constructors' doubles won from 2014 to 2018, while he led engineering; he became technical advisor in 2019{% include src.html n="1" %}.
+- **Ferrari.** Byrne's deputy, he held roles there including head of design and development and technical director{% include src.html n="2" %}. In late 2004, Byrne announced that the 2005 car project was being led by Costa{% include src.html n="3" %}; in 2006, he said of the new car: "this year he has done it on his own"{% include src.html n="4" %}. In May 2011, after a winless start to the season, he left the post of technical director{% include src.html n="5,6" %}.
+- **Mercedes.** Engineering director from 1 December 2011, he led the design of the 2014 W05{% include src.html n="6,7" %}; the power unit, for its part, was the work of [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %})'s team{% include src.html n="2,8" %}. formula1.com presents him as a central cog in the five drivers' and constructors' doubles won from 2014 to 2018, while he led engineering; he became technical advisor in 2019{% include src.html n="1" %}.
 - He then joined Dallara{% include src.html n="1,2" %}.
 
 ## Where sources disagree

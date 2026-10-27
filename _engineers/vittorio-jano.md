@@ -38,7 +38,7 @@ image: "/assets/partage/en/vittorio-jano.jpg"
 ---
 ## A special case
 
-Vittorio Jano's work began long before the F1 world championship{% include src.html n="3" %}. In 1923 he left Fiat to become chief engineer at Alfa Romeo, where he immediately designed the P2, winner of the first Grand Prix world championship{% include src.html n="3" %}. Then came the 8C 2300 of 1931 and the Tipo B "Monoposto", which appeared in 1932{% include src.html n="3" %}. Goodwood calls him a "colossus" of car design{% include src.html n="3" %}.
+Vittorio Jano's work began long before the F1 world championship{% include src.html n="3" %}. In 1923 he left Fiat to become chief designer at Alfa Romeo, where he immediately designed the P2, winner of the first Grand Prix world championship{% include src.html n="3" %}. Then came the 8C 2300 of 1931 and the Tipo B "Monoposto", which appeared in 1932{% include src.html n="3" %}. Goodwood calls him a "colossus" of car design{% include src.html n="3" %}.
 
 ## The Lancia D50
 

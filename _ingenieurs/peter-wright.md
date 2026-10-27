@@ -26,6 +26,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
   - titre: "GrandPrix.com, « Tony Southgate »"
     url: "https://grandprix.com/people/tony-southgate.html"
+  - titre: "Keith Howard, Motor Sport Magazine, « Active suspension » (décembre 2001)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
 consultation: "25 octobre 2026"
 image: "/assets/partage/peter-wright.jpg"
 redirect_from: "/ingenieurs/2026/10/25/peter-wright.html"
@@ -39,12 +41,12 @@ La place élevée de Peter Wright dans ce classement corrige une attribution : c
 1. **BRM.** Wright y commence sa propre « [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) », idée qui évoluera jusqu'à la Lotus 78{% include src.html n="2" %}. En 1969, Rudd, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), suggère que la carrosserie produise elle-même l'[appui]({{ site.baseurl }}/glossaire/#appui) ; Wright mesure en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College des niveaux d'appui inédits, mais le projet est arrêté en juin 1969{% include src.html n="6" %}.
 2. **March.** Chez Specialised Mouldings, il conçoit les [pontons]({{ site.baseurl }}/glossaire/#pontons) à profil d'aile de la March 701{% include src.html n="3" %}.
 3. **Lotus.** En août 1975, Chapman remet son cahier des charges de voiture-aile à Rudd{% include src.html n="5" %}. Wright mène les essais en soufflerie à l'Imperial College{% include src.html n="4,5" %} ; la première Lotus 78 roule en essais privés dans la seconde moitié de 1976{% include src.html n="1,4" %}.
-4. **Lotus 78 puis 79.** Le principe se diffuse ensuite à tout le plateau{% include src.html n="1" %}.
+4. **Lotus 78 puis 79.** Le principe est ensuite exploité de plus en plus pleinement, jusqu'à son interdiction par les fonds plats de 1983{% include src.html n="1" %}.
 
 ## Après l'effet de sol
 
 - Il joue un rôle clé dans la conception de la Lotus 88 à double châssis{% include src.html n="3" %}.
-- La **[suspension active]({{ site.baseurl }}/glossaire/#suspension-active)** de Lotus, qu'il développe à partir des travaux de Cranfield (David Williams), est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983{% include src.html n="2" %} ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix{% include src.html n="3" %}.
+- La **[suspension active]({{ site.baseurl }}/glossaire/#suspension-active)** de Lotus, qu'il développe avec David Williams, de Cranfield{% include src.html n="8" %}, est utilisée d'abord sur la Lotus 92 de Nigel Mansell, lors des deux premières courses de 1983{% include src.html n="2" %} ; la Lotus 99T d'Ayrton Senna devient en 1987 la première F1 à suspension active à gagner un Grand Prix{% include src.html n="3" %}.
 - En 1990, il reprend Team Lotus avec Peter Collins{% include src.html n="3" %}, et quitte l'équipe à sa fermeture en 1994{% include src.html n="2,4" %}.
 - À la FIA, il contribue au développement du dispositif HANS et de cockpits capables de résister à 60g{% include src.html n="2,3" %}.
 

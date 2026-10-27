@@ -28,7 +28,7 @@ Sam Michael was Williams technical director from 2004 to the end of 2011, succee
 - **Team Lotus, 1993.** He joined [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %})'s technical team for [data acquisition]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees) and lap simulation{% include src.html n="1" %}.
 - **Jordan.** In 1996, he set up the research and development department there, installed a seven-post rig to simulate suspension movements and designed an active differential{% include src.html n="1" %}. He then became race engineer to Ralf Schumacher, then to Heinz-Harald Frentzen, winner at Magny-Cours and the Nürburgring in 1999{% include src.html n="1" %}.
 - **Williams.** Having joined in 2001 as chief operations engineer, he became technical director in 2004{% include src.html n="2" %}: the promotion was announced in May, with Head taking the post of director of engineering{% include src.html n="1,3" %}. In May 2011, after a difficult start to the season, he resigned with effect from the end of the season, at the same time as chief aerodynamicist Jon Tomlinson{% include src.html n="4" %}.
-- **McLaren.** Sporting director from 2012, he left McLaren at the end of 2014, with the stated intention of returning to Australia{% include src.html n="2" %}.
+- **McLaren.** Having joined in 2012, he left his role as sporting director at the end of 2014; according to Formula 1, he was expected to return to Australia with his family{% include src.html n="2" %}.
 
 ## Limits of the sources
 

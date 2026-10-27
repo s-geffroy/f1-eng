@@ -39,7 +39,7 @@ redirect_from: "/ingenieurs/2026/10/25/vittorio-jano.html"
 ---
 ## Un cas particulier
 
-Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% include src.html n="3" %}. En 1923, il quitte Fiat pour devenir ingénieur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix{% include src.html n="3" %}. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932{% include src.html n="3" %}. Goodwood le qualifie de « colosse » de la conception automobile{% include src.html n="3" %}.
+Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% include src.html n="3" %}. En 1923, il quitte Fiat pour devenir concepteur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix{% include src.html n="3" %}. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932{% include src.html n="3" %}. Goodwood le qualifie de « colosse » de la conception automobile{% include src.html n="3" %}.
 
 ## La Lancia D50
 

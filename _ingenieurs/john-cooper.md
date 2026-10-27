@@ -54,11 +54,11 @@ John Cooper meurt la veille de Noël 2000, à 77 ans{% include src.html n="5,8" 
 
 ## Ce que ce changement modifie
 
-Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'[architecture du châssis]({{ site.baseurl }}/glossaire/#chassis) et la conception aérodynamique future{% include src.html n="2,4" %}. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960{% include src.html n="1" %}.
+Ce changement concentre les masses dans l'empattement, abaisse le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), réduit la surface frontale (le pilote s'assoit plus bas) et permet d'alléger les structures du [châssis]({{ site.baseurl }}/glossaire/#chassis){% include src.html n="2,4" %}. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960{% include src.html n="1" %}.
 
 ## Attribution
 
-John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement{% include src.html n="1,3" %}. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960{% include src.html n="3" %}.
+formula1.com crédite John Cooper de l'essentiel du basculement{% include src.html n="1" %} ; Doug Nye précise qu'il y a contribué techniquement, mais surtout en sachant convaincre son père, Charles, de plus en plus conservateur{% include src.html n="3" %}. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960{% include src.html n="3" %}.
 
 La formulation juste : **Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 

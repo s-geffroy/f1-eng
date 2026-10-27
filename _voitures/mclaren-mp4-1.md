@@ -21,6 +21,8 @@ sources:
     url: "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88"
   - titre: "Motor Sport, « Lunch with… Steve Nichols » (mai 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
+  - titre: "Graham Keilloh, Motor Sport Magazine, « Watch Lotus's last great Formula 1 innovation » (mars 2019)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-1.jpg"
   legende: "La MP4/1 exposée au McLaren Technology Centre, le 8 décembre 2016."
@@ -48,7 +50,7 @@ McLaren la présente comme la première F1 conçue en composite carbone{% includ
 
 - [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) jugeait publiquement qu'une voiture tout carbone comme celle que préparait McLaren ne serait pas assez sûre{% include src.html n="1" %}.
 - La voiture a tendance au marsouinage, et McLaren reconnaît qu'elle n'a jamais été facile à piloter{% include src.html n="1,3" %}.
-- « Première » doit être précisé : la [Lotus 88]({{ site.baseurl }}{% link _voitures/lotus-88.md %}), elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts de la MP4/1 en course{% include src.html n="4" %}. Mais la Lotus 88 n'a jamais été autorisée à courir{% include src.html n="4" %}.
+- « Première » doit être précisé : la [Lotus 88]({{ site.baseurl }}{% link _voitures/lotus-88.md %}), elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981{% include src.html n="6" %}, avant les débuts de la MP4/1 en course{% include src.html n="4" %}. Mais la Lotus 88 n'a jamais été autorisée à courir{% include src.html n="4" %}.
 
 ## Ce qu'elle laisse
 

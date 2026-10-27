@@ -21,6 +21,8 @@ sources:
     url: "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88"
   - titre: "Motor Sport, “Lunch with… Steve Nichols” (May 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
+  - titre: "Graham Keilloh, Motor Sport Magazine, “Watch Lotus's last great Formula 1 innovation” (March 2019)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-1.jpg"
   legende: "The MP4/1 on display at the McLaren Technology Centre, on 8 December 2016."
@@ -48,7 +50,7 @@ McLaren presents it as the first F1 car designed in carbon composite{% include s
 
 - [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) publicly argued that an all-carbon car like the one McLaren was preparing would not be safe enough{% include src.html n="1" %}.
 - The car was prone to porpoising, and McLaren acknowledges that it was never easy to drive{% include src.html n="1,3" %}.
-- "First" needs qualifying: the [Lotus 88]({{ site.baseurl }}{% link _cars/lotus-88.md %}), also in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut{% include src.html n="4" %}. But the Lotus 88 was never allowed to race{% include src.html n="4" %}.
+- "First" needs qualifying: the [Lotus 88]({{ site.baseurl }}{% link _cars/lotus-88.md %}), also in carbon, ran in practice at Long Beach in March 1981{% include src.html n="6" %}, before the MP4/1's race debut{% include src.html n="4" %}. But the Lotus 88 was never allowed to race{% include src.html n="4" %}.
 
 ## Legacy
 

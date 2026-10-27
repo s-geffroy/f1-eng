@@ -64,5 +64,5 @@ Brawn reconnaît que la controverse a « un peu assombri » son regard sur une v
 ## Ce qu'elle laisse
 
 - **1994** : huit victoires, toutes pour Michael Schumacher, selon les résultats officiels, dont six des sept premières courses{% include src.html n="7" %}. Le titre se joue à Adélaïde : Schumacher et Damon Hill s'accrochent et abandonnent, et Schumacher est champion avec un point d'avance{% include src.html n="2,3" %}.
-- Les coéquipiers de Schumacher se succèdent (Jos Verstappen, JJ Lehto, Johnny Herbert) sans le soutenir vraiment, note Goodwood{% include src.html n="3,4" %} : le titre constructeurs revient à Williams, avec 118 points contre 103{% include src.html n="8" %}.
+- Les coéquipiers de Schumacher se succèdent (Jos Verstappen, JJ Lehto, Johnny Herbert){% include src.html n="1" %} sans le soutenir vraiment, note Goodwood{% include src.html n="3,4" %} : le titre constructeurs revient à Williams, avec 118 points contre 103{% include src.html n="8" %}.
 - La méthode reste. Brawn la résume ainsi : commencer tôt, avec un programme dédié et très intégré ; selon lui, la Mercedes W05 de 2014 naît exactement de la même philosophie{% include src.html n="1" %}.

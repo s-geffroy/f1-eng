@@ -2,7 +2,7 @@
 title: "Lotus 79"
 nom_tri: "lotus 79"
 accroche: "L'effet de sol porté à maturité, et au titre mondial."
-description: "Lotus 79 (1978) : toute la voiture est dessinée pour l'effet de sol ; Mario Andretti est le premier champion du monde sur une voiture à effet de sol."
+description: "Lotus 79 (1978) : conçue pour retrouver l'effet de sol que la 78 avait en partie perdu ; Mario Andretti est le premier champion du monde sur une voiture à effet de sol."
 annee: 1978
 equipe: "Team Lotus"
 moteur: "Cosworth, V8 de 3 litres"
@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/lotus-79.jpg"
 ---
 ## Ce qu'elle change
 
-La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="2,3" %}. La 79 est dessinée tout entière pour lui{% include src.html n="1" %}.
+La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="2,3" %}. La 79 doit retrouver l'effet de sol que la 78 avait perdu en passant de l'étude à la réalité{% include src.html n="1" %}.
 
 - Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé{% include src.html n="1" %}. Les radiateurs d'eau et d'huile vont à l'entrée des flancs{% include src.html n="1" %}. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}.
 - Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes de la 78{% include src.html n="1" %}. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration{% include src.html n="1" %}.
@@ -55,4 +55,4 @@ La 79 manque de rigidité{% include src.html n="1,3" %}. Ogilvie le reconnaît :
 
 - **1978** : six victoires{% include src.html n="1" %}. Mario Andretti est champion du monde, le premier sur une voiture à effet de sol, et Lotus remporte le titre constructeurs devant Ferrari{% include src.html n="1,2,3" %}.
 - Dès 1979, elle est dépassée par la Ligier de [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}), puis par la Williams FW07 de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), que Wright qualifie de « 79 rigide »{% include src.html n="1" %}.
-- Sa réussite pousse [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) à chercher une autre voie chez Brabham : la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="1" %}.
+- Le premier à menacer sa domination est [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), avec la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}) de Brabham, qui gagne en Suède{% include src.html n="1" %}.

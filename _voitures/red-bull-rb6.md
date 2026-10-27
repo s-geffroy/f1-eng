@@ -31,6 +31,8 @@ sources:
     url: "https://www.formula1.com/en/results/2010/races"
   - titre: "Formula 1, classements 2010 (pilotes et constructeurs)"
     url: "https://www.formula1.com/en/results/2010/team"
+  - titre: "Formula 1, « 2010 Driver Standings » (résultats officiels)"
+    url: "https://www.formula1.com/en/results/2010/drivers"
 photo:
   fichier: "/assets/voitures/red-bull-rb6.jpg"
   legende: "Les deux Red Bull RB6 en course au Grand Prix du Japon, à Suzuka, le 10 octobre 2010 ; Sebastian Vettel le remporte."
@@ -65,5 +67,5 @@ Le pilote compte aussi. Selon formula1.com, Sebastian Vettel maîtrise le style 
 
 ## Ce qu'elle laisse
 
-- **2010** : quinze pole positions en dix-neuf courses, selon GrandPrix.com, et neuf victoires, cinq pour Vettel (Malaisie, Europe, Japon, Brésil, Abou Dhabi) et quatre pour Webber (Espagne, Monaco, Grande-Bretagne, Hongrie){% include src.html n="5,9" %}. Vettel est champion à Abou Dhabi avec 256 points, devant Fernando Alonso (252) et Webber (242){% include src.html n="5,6" %} ; il devient le plus jeune champion du monde{% include src.html n="5" %}. Red Bull remporte son premier titre constructeurs, avec 498 points contre 454 à McLaren{% include src.html n="6,10" %}.
+- **2010** : quinze pole positions en dix-neuf courses, selon GrandPrix.com, et neuf victoires, cinq pour Vettel (Malaisie, Europe, Japon, Brésil, Abou Dhabi) et quatre pour Webber (Espagne, Monaco, Grande-Bretagne, Hongrie){% include src.html n="5,9" %}. Vettel est champion à Abou Dhabi avec 256 points, devant Fernando Alonso (252) et Webber (242){% include src.html n="5,6,11" %} ; il devient le plus jeune champion du monde{% include src.html n="5" %}. Red Bull remporte son premier titre constructeurs, avec 498 points contre 454 à McLaren{% include src.html n="6,10" %}.
 - **Une tendance copiée, puis interdite.** Les concurrents copient la solution dès qu'ils en comprennent l'intérêt{% include src.html n="4" %}. La FIA modifie les règles sur l'emplacement des échappements pour 2011, sans succès ; pour 2012, elle impose une zone de sortie qui met fin aux diffuseurs soufflés de l'époque{% include src.html n="4" %}.

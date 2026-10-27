@@ -23,6 +23,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
   - titre: "Formula 1, “2009 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/2009/team"
+  - titre: "Formula 1, “Ross Brawn reveals his favourite car designs”"
+    url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-24.jpg"
   legende: "Lewis Hamilton at the 2009 Spanish Grand Prix."
@@ -50,7 +52,7 @@ An ironic detail: the 2009 aerodynamic rules that hampered the car so much came 
 ## Limitations
 
 - **A huge deficit.** At the winter test in Barcelona, with its latest upgrades fitted, the car was still 2.4 seconds off, Lowe recalled{% include src.html n="1" %}. According to Fry, there was no fundamental mistake: "We hadn't bolted enough downforce onto it."{% include src.html n="1" %}
-- **The double diffuser.** Brawn, Toyota and Williams raced a double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) from the start, declared legal on appeal on 14 April{% include src.html n="1" %}. McLaren had looked at something similar around Christmas 2007, but lacked the resources to run two programmes at once; Lowe pointed out that the team had a single [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), where Honda had four on its 2009 project, by his account (three according to Ross Brawn){% include src.html n="1" %}. It took McLaren six to eight weeks to learn how to use the double diffuser{% include src.html n="1" %}.
+- **The double diffuser.** Brawn, Toyota and Williams raced a double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) from the start, declared legal on appeal on 14 April{% include src.html n="1" %}. According to Pat Fry, McLaren had looked at something similar around Christmas 2007, but lacked the resources to run two programmes at once; Lowe pointed out that the team had a single [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), where Honda had four on its 2009 project, by his account{% include src.html n="1" %}. Ross Brawn, for his part, speaks of three wind tunnels working in parallel at one stage{% include src.html n="7" %}. It took McLaren six to eight weeks to learn how to use the double diffuser{% include src.html n="1" %}.
 
 ## Legacy
 

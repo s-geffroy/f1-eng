@@ -2,7 +2,7 @@
 title: "Lotus 79"
 nom_tri: "lotus 79"
 accroche: "Ground effect brought to maturity, and to the world title."
-description: "Lotus 79 (1978): the whole car is designed around ground effect; Mario Andretti becomes the first world champion in a ground-effect car."
+description: "Lotus 79 (1978): designed to win back the ground effect the 78 had partly lost; Mario Andretti becomes the first world champion in a ground-effect car."
 annee: 1978
 equipe: "Team Lotus"
 moteur: "Cosworth, 3-litre V8"
@@ -33,7 +33,7 @@ image: "/assets/partage/en/voitures/lotus-79.jpg"
 ---
 ## What it changed
 
-The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol){% include src.html n="2,3" %}. The 79 was designed entirely around it{% include src.html n="1" %}.
+The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol){% include src.html n="2,3" %}. The 79 was meant to win back the ground effect that the 78 had lost in the translation from study to reality{% include src.html n="1" %}.
 
 - The fuel, carried in the [sidepods]({{ site.baseurl }}/en/glossary/#pontons) on the 78, moved behind the driver, who was positioned further forward{% include src.html n="1" %}. The water and oil radiators went to the front of the sidepods{% include src.html n="1" %}. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel{% include src.html n="1" %}.
 - Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short skirts of the 78{% include src.html n="1" %}. According to Motor Sport, it was with these that the 79 began to generate real suction{% include src.html n="1" %}.
@@ -55,4 +55,4 @@ The 79 lacked stiffness{% include src.html n="1,3" %}. Ogilvie admits it: "The 7
 
 - **1978**: six wins{% include src.html n="1" %}. Mario Andretti became world champion, the first in a ground-effect car, and Lotus won the constructors' title ahead of Ferrari{% include src.html n="1,2,3" %}.
 - From 1979 it was outpaced by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %})'s Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79"{% include src.html n="1" %}.
-- Its success pushed [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}){% include src.html n="1" %}.
+- The first to threaten its dominance was [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), with Brabham's [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}), which won in Sweden{% include src.html n="1" %}.

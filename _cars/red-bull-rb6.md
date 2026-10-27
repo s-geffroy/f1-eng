@@ -31,6 +31,8 @@ sources:
     url: "https://www.formula1.com/en/results/2010/races"
   - titre: "Formula 1, 2010 standings (drivers and constructors)"
     url: "https://www.formula1.com/en/results/2010/team"
+  - titre: "Formula 1, “2010 Driver Standings” (official results)"
+    url: "https://www.formula1.com/en/results/2010/drivers"
 photo:
   fichier: "/assets/voitures/red-bull-rb6.jpg"
   legende: "Both Red Bull RB6s racing in the Japanese Grand Prix at Suzuka, 10 October 2010; Sebastian Vettel won."
@@ -65,5 +67,5 @@ The driver mattered too. According to formula1.com, Sebastian Vettel mastered th
 
 ## Legacy
 
-- **2010**: fifteen pole positions from nineteen races, according to GrandPrix.com, and nine wins, five for Vettel (Malaysia, Europe, Japan, Brazil, Abu Dhabi) and four for Webber (Spain, Monaco, Britain, Hungary){% include src.html n="5,9" %}. Vettel was champion in Abu Dhabi with 256 points, ahead of Fernando Alonso (252) and Webber (242){% include src.html n="5,6" %}; he became the youngest world champion{% include src.html n="5" %}. Red Bull won its first constructors' title, with 498 points to McLaren's 454{% include src.html n="6,10" %}.
+- **2010**: fifteen pole positions from nineteen races, according to GrandPrix.com, and nine wins, five for Vettel (Malaysia, Europe, Japan, Brazil, Abu Dhabi) and four for Webber (Spain, Monaco, Britain, Hungary){% include src.html n="5,9" %}. Vettel was champion in Abu Dhabi with 256 points, ahead of Fernando Alonso (252) and Webber (242){% include src.html n="5,6,11" %}; he became the youngest world champion{% include src.html n="5" %}. Red Bull won its first constructors' title, with 498 points to McLaren's 454{% include src.html n="6,10" %}.
 - **A trend copied, then banned.** Rivals copied the solution as soon as they understood its benefit{% include src.html n="4" %}. The FIA changed the exhaust-position rules for 2011 without success; for 2012 it imposed an exit zone that ended the blown diffusers of the time{% include src.html n="4" %}.

@@ -56,4 +56,4 @@ La BT46B ne court qu'une fois : au Grand Prix de Suède, à Anderstorp, le 17 ju
 
 ## Ce qu'elle laisse
 
-Une innovation retirée après une course ne prouve pas d'influence durable. En 1998, John Watson en tire la leçon dans Motor Sport : ce qui a le plus compté, ce n'est pas la technique, mais l'accord de Bernie Ecclestone pour la retirer et apaiser les autres équipes{% include src.html n="1" %}.
+Une innovation retirée après une course ne prouve pas d'influence technique durable. En 1998, John Watson en tire la leçon dans Motor Sport : ce qui a le plus compté, ce n'est pas la technique, mais l'accord de Bernie Ecclestone pour la retirer et apaiser les autres équipes{% include src.html n="1" %}.

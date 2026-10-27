@@ -47,7 +47,7 @@ redirect_from: "/ingenieurs/2026/10/25/rory-byrne.html"
 ---
 ## Ce qu'il a changé
 
-Rory Byrne a mené le dessin des **sept voitures championnes du monde de Michael Schumacher**, chez Benetton et chez Ferrari, au sein d'équipes techniques dirigées par Ross Brawn{% include src.html n="2,3,8,9" %}. Sa force est l'[intégration du châssis]({{ site.baseurl }}/glossaire/#chassis) et de l'aérodynamique, répétée sur deux décennies.
+Rory Byrne a mené le dessin des **sept voitures championnes du monde de Michael Schumacher**, chez Benetton et chez Ferrari, au sein d'équipes techniques dirigées par Ross Brawn{% include src.html n="2,3,8,9" %}. Selon Autosport, ses voitures sont réputées pour la minutie de leurs détails et leur efficacité aérodynamique{% include src.html n="8" %}.
 
 ## Parcours technique
 

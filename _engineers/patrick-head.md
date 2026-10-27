@@ -24,6 +24,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "GrandPrix.com, “The story behind the reshuffle at Williams” (2004)"
     url: "https://www.grandprix.com/news/the-story-behind-the-reshuffle-at-williams.html"
+  - titre: "Adam Cooper, Autosport, “Tech secrets of a Formula 1 legend” (January 2017)"
+    url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/patrick-head.jpg"
 ---
@@ -45,7 +47,7 @@ According to GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _engineers/s
 
 ## His role in the Williams ecosystem
 
-[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) illustrates this role. The first system (FW11B, 1987) was designed by [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}){% include src.html n="4" %}; Williams brought it back, in improved form, in 1992, and it was Head who then started calling it "active" again{% include src.html n="4" %}; for this 1992-1993 version, the software was largely written by [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}){% include src.html n="3" %}. To Head belong the overall architecture and the direction{% include src.html n="3,5" %}.
+[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) illustrates this role. The first system (FW11B, 1987) was designed by [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}){% include src.html n="4" %}; Williams brought it back, in improved form, in 1992, and it was Head who then started calling it "active" again{% include src.html n="4" %}; [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) then headed the active ride programme{% include src.html n="7" %}, and formula1.com credits him with most of the software for the 1993 FW15C{% include src.html n="3" %}. To Head belong the overall architecture and the direction{% include src.html n="3,5" %}.
 
 ## Why Tier C
 

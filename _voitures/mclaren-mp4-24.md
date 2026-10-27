@@ -23,6 +23,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
   - titre: "Formula 1, « 2009 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/2009/team"
+  - titre: "Formula 1, « Ross Brawn reveals his favourite car designs »"
+    url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-24.jpg"
   legende: "Lewis Hamilton au Grand Prix d'Espagne 2009."
@@ -50,7 +52,7 @@ Détail ironique : le règlement aérodynamique de 2009, qui a tant gêné la vo
 ## Limites
 
 - **Un retard énorme.** Aux essais d'hiver à Barcelone, avec ses dernières évolutions, la voiture est encore à 2,4 secondes, raconte Lowe{% include src.html n="1" %}. Selon Fry, le problème n'était pas une erreur de fond : « Nous n'avions pas mis assez d'appui dessus. »{% include src.html n="1" %}
-- **Le double diffuseur.** Brawn, Toyota et Williams courent dès le début avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) double, déclaré légal en appel le 14 avril{% include src.html n="1" %}. McLaren avait envisagé quelque chose de semblable vers Noël 2007, mais sans les moyens de mener deux programmes de front ; Lowe rappelle que l'équipe n'a qu'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), quand Honda en avait quatre sur son projet 2009, selon lui (trois selon Ross Brawn){% include src.html n="1" %}. Il faut à McLaren six à huit semaines pour apprendre à se servir du double diffuseur{% include src.html n="1" %}.
+- **Le double diffuseur.** Brawn, Toyota et Williams courent dès le début avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) double, déclaré légal en appel le 14 avril{% include src.html n="1" %}. Selon Pat Fry, McLaren avait envisagé quelque chose de semblable vers Noël 2007, mais sans les moyens de mener deux programmes de front ; Lowe rappelle que l'équipe n'a qu'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), quand Honda en avait quatre sur son projet 2009, selon lui{% include src.html n="1" %}. Ross Brawn parle, lui, de trois souffleries travaillant en parallèle à un moment{% include src.html n="7" %}. Il faut à McLaren six à huit semaines pour apprendre à se servir du double diffuseur{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 

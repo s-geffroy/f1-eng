@@ -59,4 +59,4 @@ Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre
 
 ## Pourquoi le Tier B
 
-Forghieri a transformé en profondeur la manière d'intégrer les grands sous-systèmes, et la boîte transversale est devenue un standard{% include src.html n="4" %}. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.
+Sa boîte transversale est devenue un standard, adopté ensuite par tout le plateau{% include src.html n="4" %} ; au-delà, ce site estime qu'il a transformé en profondeur la manière d'intégrer les grands sous-systèmes. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.

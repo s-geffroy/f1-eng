@@ -47,8 +47,8 @@ According to Ron Hickman, quoted in the same article, the original idea may have
 
 ## Limitations
 
-- It was not an absolute first{% include src.html n="1" %}. Motor Sport points out that Gabriel Voisin was already building a monocoque aircraft fuselage in 1910, and that racing cars had preceded it, such as Alec Issigonis's Lightweight Special single-seater of 1938{% include src.html n="1" %}. The 25's contribution was to establish it in F1{% include src.html n="1" %}.
-- Its first season suffered from teething troubles: in 1962, Lotus finished second in the constructors' championship, six points behind BRM{% include src.html n="3" %} (Lotus Cars mentions a one-point gap){% include src.html n="2" %}, and Clark finished behind Graham Hill{% include src.html n="2" %}.
+- It was not an absolute first{% include src.html n="1" %}. Motor Sport points out that Gabriel Voisin was already building a monocoque aircraft fuselage in 1910, and that racing cars had preceded it, such as Alec Issigonis's Lightweight Special single-seater of 1938{% include src.html n="1" %}. The 25's contribution was to bring it into F1, where the tubular spaceframe had remained the preferred option until 1962{% include src.html n="1" %}.
+- Its first season suffered from teething troubles{% include src.html n="2" %}: in 1962, Lotus finished second in the constructors' championship, six points behind BRM{% include src.html n="3" %} (Lotus Cars mentions a one-point gap){% include src.html n="2" %}, and Clark finished behind Graham Hill{% include src.html n="2" %}.
 
 ## Legacy
 

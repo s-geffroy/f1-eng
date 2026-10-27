@@ -24,6 +24,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "GrandPrix.com, « The story behind the reshuffle at Williams » (2004)"
     url: "https://www.grandprix.com/news/the-story-behind-the-reshuffle-at-williams.html"
+  - titre: "Adam Cooper, Autosport, « Tech secrets of a Formula 1 legend » (janvier 2017)"
+    url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/patrick-head.jpg"
 redirect_from: "/ingenieurs/2026/10/25/patrick-head.html"
@@ -46,7 +48,7 @@ Selon GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-mic
 
 ## Son rôle dans l'écosystème Williams
 
-La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}){% include src.html n="4" %} ; Williams le fait revenir, sous une forme améliorée, en 1992, et c'est Head qui recommence alors à le qualifier d'« actif »{% include src.html n="4" %} ; pour cette version de 1992-1993, le logiciel est en grande partie écrit par [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}){% include src.html n="3" %}. À Head revient l'architecture d'ensemble et la direction{% include src.html n="3,5" %}.
+La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}){% include src.html n="4" %} ; Williams le fait revenir, sous une forme améliorée, en 1992, et c'est Head qui recommence alors à le qualifier d'« actif »{% include src.html n="4" %} ; [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) dirige alors le programme de suspension active{% include src.html n="7" %}, et formula1.com lui attribue l'essentiel du logiciel de la FW15C de 1993{% include src.html n="3" %}. À Head revient l'architecture d'ensemble et la direction{% include src.html n="3,5" %}.
 
 ## Pourquoi le Tier C
 

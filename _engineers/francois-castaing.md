@@ -32,7 +32,7 @@ François Castaing is, with Jean-Pierre Boudy, the engineer behind the **V6 from
 
 ## Technical career
 
-- In 1968, while still a student, he joined Gordini; his first work concerned the Le Mans engines{% include src.html n="1" %}.
+- While still a student, he did research work for Gordini; in 1968 he was taken on there, his first job being the engines for that year's Le Mans 24 Hours{% include src.html n="1" %}.
 - In 1972, with [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}), he designed a 2-litre 90° [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur){% include src.html n="2" %}. This 270bhp V6 CH1 powered the 1973 Alpine sports prototype{% include src.html n="3" %}; according to Motor Sport, this same engine is the basis of all Renault's F1 turbo engines{% include src.html n="2" %}.
 - As technical director of Renault Sport, he backed the endurance programme that led to victory at Le Mans in 1978{% include src.html n="1,3" %}.
 - He was the driving force of the F1 programme up to its first win, at the 1979 French Grand Prix{% include src.html n="1" %}, then left Renault Sport during the 1979-1980 off-season{% include src.html n="2" %}; [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) succeeded him{% include src.html n="4" %}.

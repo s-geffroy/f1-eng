@@ -29,7 +29,7 @@ Franco Rocchi passe environ vingt-cinq ans au service course de Ferrari, dans de
 
 - Passé par l'avionneur Reggiane, aux côtés d'Aurelio Lampredi, il entre chez Ferrari en 1949{% include src.html n="1,5" %}.
 - Il travaille sous [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) puis Carlo Chiti, et reste chez Ferrari lors du départ de Chiti en 1961{% include src.html n="1" %}.
-- [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) le cite parmi les techniciens de l'équipe restreinte qui conçoit, en 1969, la 312B et son flat-12{% include src.html n="2" %}.
+- [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}), qui conçoit la 312B et son flat-12 en 1969 avec une petite équipe à Modène, cite Rocchi parmi les dessinateurs et techniciens de haut niveau qui l'entouraient{% include src.html n="2" %}.
 - En 1973, Forghieri et Rocchi reprennent ensemble la 312B3{% include src.html n="1" %}.
 - GrandPrix.com crédite ses moteurs de cinq titres mondiaux de F1, sans détailler ce décompte{% include src.html n="1" %}.
 - Retiré de Ferrari en 1979, il conçoit plus tard le moteur W12 de l'équipe Life, un échec en 1990{% include src.html n="1,5" %}.

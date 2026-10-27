@@ -49,7 +49,7 @@ L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge{% include s
 
 ## Limites
 
-- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille{% include src.html n="5" %}. Juan Pablo Montoya, blessé, manque deux courses{% include src.html n="5" %}.
+- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille{% include src.html n="5" %}. Juan Pablo Montoya, blessé, manque deux courses, à Bahreïn et à Saint-Marin{% include src.html n="5" %}.
 
 ## Ce qu'elle laisse
 

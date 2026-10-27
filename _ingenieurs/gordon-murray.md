@@ -45,15 +45,17 @@ sources:
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murrays-living-in-a-parallel-universe-mclaren-designers-hit-back-over-mp4-4-claims/"
   - titre: "Matthew Jeffreys, Motor Sport Magazine, « Matthew Jeffreys challenges Gordon Murray's account of the McLaren MP4/4 » (novembre 2026)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2026/42/matthew-jeffreys-challenges-gordon-murrays-account-of-the-mclaren-mp4-4/"
+  - titre: "Joe Saward, GrandPrix.com, « David North and Jordan? » (mai 2005)"
+    url: "https://www.grandprix.com/news/david-north-and-jordan.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/gordon-murray.jpg"
 redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
 ---
 ## Ce qu'il a changé
 
-Murray combine radicalité conceptuelle et pragmatisme{% include src.html n="3,4" %}. Promu chef designer de Brabham, il y signe plusieurs voitures qui ont fait date{% include src.html n="6" %}.
+Murray combine radicalité conceptuelle et pragmatisme{% include src.html n="3,4,9" %}. Promu chef designer de Brabham, il y signe plusieurs voitures qui ont fait date{% include src.html n="6" %}.
 
-- **La Brabham BT46B (1978)**, à la conception de laquelle participe [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}), porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo{% include src.html n="7" %}. Elle gagne le Grand Prix de Suède avec Niki Lauda et ne court qu'une fois : les sources divergent sur les circonstances de son retrait, que détaille la [fiche de la voiture]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="2,7" %}.
+- **La Brabham BT46B (1978)**, à la conception de laquelle participe [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}){% include src.html n="14" %}, porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo{% include src.html n="7" %}. Elle gagne le Grand Prix de Suède avec Niki Lauda et ne court qu'une fois : les sources divergent sur les circonstances de son retrait, que détaille la [fiche de la voiture]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="2,7" %}.
 - **L'arrêt au stand tactique moderne.** Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) revient en 1982 grâce à Brabham et à Murray{% include src.html n="8" %}. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine{% include src.html n="8" %}.
 - **La Brabham BT52 (1983).** Après l'annonce, le 3 novembre 1982, du [fond plat]({{ site.baseurl }}/glossaire/#fond-plat) obligatoire, qui interdit les fonds à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) et les [jupes]({{ site.baseurl }}/glossaire/#jupes){% include src.html n="1,9" %}, la BT52, dont Murray dit avoir dessiné « chaque pièce » avec David North{% include src.html n="1" %}, est conçue et construite en six semaines{% include src.html n="9" %}. Murray lui-même parle de trois mois{% include src.html n="11" %}. Nelson Piquet devient avec elle le premier champion du monde sur moteur turbo, et le système modulaire de Murray est ensuite largement copié{% include src.html n="9" %}.
 - **McLaren et la MP4/4.** Murray rejoint ensuite McLaren, où naît la MP4/4, qui gagne 15 des 16 courses de 1988{% include src.html n="6" %}.

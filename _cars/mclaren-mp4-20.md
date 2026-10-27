@@ -49,7 +49,7 @@ The inerter itself came from Malcolm Smith and his Cambridge group{% include src
 
 ## Limitations
 
-- **Reliability.** McLaren lists the losses: a tyre valve in Malaysia with Räikkönen leading, a driveshaft at San Marino, a suspension failure on the last lap at the Nürburgring after a flat-spotted tyre, a hydraulic leak in Germany while leading from pole, an engine failure in practice at Monza that sent him to eleventh on the grid{% include src.html n="5" %}. Juan Pablo Montoya, injured, missed two races{% include src.html n="5" %}.
+- **Reliability.** McLaren lists the losses: a tyre valve in Malaysia with Räikkönen leading, a driveshaft at San Marino, a suspension failure on the last lap at the Nürburgring after a flat-spotted tyre, a hydraulic leak in Germany while leading from pole, an engine failure in practice at Monza that sent him to eleventh on the grid{% include src.html n="5" %}. Juan Pablo Montoya, injured, missed two races, in Bahrain and San Marino{% include src.html n="5" %}.
 
 ## Legacy
 

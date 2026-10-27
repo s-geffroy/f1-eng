@@ -31,7 +31,7 @@ Harvey Postlethwaite designed F1 cars from the 1970s to the 1990s, from Hesketh 
 
 ## Technical career
 
-- **Hesketh.** He designed the Hesketh 308, which appeared in 1974 and with which James Hunt won his first Grand Prix, in the Netherlands in 1975; on it he developed a rubber-spring suspension{% include src.html n="1,2,6" %}.
+- **Hesketh.** In the winter of 1974-75 he designed the Hesketh 308, with which James Hunt won his first Grand Prix, in the Netherlands; on it he developed a rubber-spring suspension{% include src.html n="1,2,6" %}.
 - **Wolf.** His WR1 won its first race, in Argentina in 1977, and Jody Scheckter finished runner-up in the world championship{% include src.html n="1,2" %}.
 - **Ferrari.** Recruited in May 1981, he joined the engineering team led by [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) and introduced aerospace construction there: a tub folded from [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) panels, with [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) bulkheads{% include src.html n="2,3,6" %}. He designed the turbo V6-engined 126C2, which won the constructors' title in 1982{% include src.html n="2,3" %}.
 - **Tyrrell.** With aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}), he developed the [raised-nose]({{ site.baseurl }}/en/glossary/#nez-releve) 019 of 1990{% include src.html n="2,4,7" %}. Back at Tyrrell in the 1990s, he led the team that came up with the "Hydrolink" suspension, a pneumatic [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique) and the "X" [wings]({{ site.baseurl }}/en/glossary/#aileron){% include src.html n="2,6" %}.

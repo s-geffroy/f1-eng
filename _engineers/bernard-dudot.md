@@ -22,12 +22,14 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
   - titre: "Joe Saward, GrandPrix.com, “Interview: Bernard Dudot” (1992)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot-2.html"
+  - titre: "Motor Sport, “Senna's Lotus 98T heads to auction with an estimate of up to $12m” (March 2026)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/sennas-lotus-98t-heads-to-auction-with-an-estimate-of-up-to-12m/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/bernard-dudot.jpg"
 ---
 ## What he changed
 
-Bernard Dudot was at the heart of the three changes to the Renault engine that then spread across the whole grid{% include src.html n="2" %}:
+Bernard Dudot was associated with the three changes to the Renault engine that then spread across the whole grid{% include src.html n="1,2,6" %}:
 
 **Turbo → [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique) → V10**
 

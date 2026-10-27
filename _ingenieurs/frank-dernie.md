@@ -36,11 +36,11 @@ Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosser
 - **Williams.** La date de son arrivée diffère selon les sources : 1977 selon Dernie lui-même{% include src.html n="1" %} ; GrandPrix.com la place après la fermeture de Hesketh, où il serait entré fin 1976 pour deux saisons{% include src.html n="3" %} ; Patrick Head, dans un entretien de 2022 à Motor Sport, la date de janvier 1979{% include src.html n="4" %}.
 - **Lotus.** Directeur technique, il conçoit la Lotus 101 de 1989{% include src.html n="1,3" %} ; la 102 à [V12]({{ site.baseurl }}/glossaire/#architecture-moteur) Lamborghini en est, selon lui, « pour l'essentiel la même voiture »{% include src.html n="1" %}.
 - **Ligier**, où il conçoit la JS37, puis **Benetton** pour 1993 : selon son récit, [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) le fait venir comme ingénieur en chef{% include src.html n="1" %}.
-- **Arrows**, où il signe, selon lui, l'A18 de 1997, puis consultant chez Williams en 2003, et chez Toyota jusqu'au retrait de l'équipe fin 2009{% include src.html n="1,3" %}.
+- **Arrows**, où il signe, selon lui, l'A18, puis consultant chez Williams en 2003, et chez Toyota jusqu'au retrait de l'équipe fin 2009{% include src.html n="1,3" %}.
 
 ## Attribution
 
-La suspension active Williams est le fruit d'une chaîne d'ingénieurs : [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), Frank Dernie, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) et d'autres{% include src.html n="1,2" %}. Dernie lui-même décrit la répartition : [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) pour le matériel, Paddy Lowe pour la programmation{% include src.html n="1" %}.
+La suspension active Williams est le fruit d'une chaîne d'ingénieurs : Frank Dernie, qui la conçoit, [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) et d'autres{% include src.html n="1,2" %}. Dernie lui-même décrit la répartition : [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) pour le matériel, Paddy Lowe pour la programmation{% include src.html n="1" %}.
 
 La formulation juste : **Dernie est, selon son propre témoignage, un acteur précoce de l'ingénierie numérique, et le concepteur du premier système Williams de suspension active, au sein d'une équipe.**
 

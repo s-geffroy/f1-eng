@@ -41,7 +41,7 @@ The rest of the car answered the new rules. In-race [refuelling]({{ site.baseurl
 
 ## Who designed it
 
-A team. [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) led it: GrandPrix.com calls him technical director, McLaren's press pack engineering director{% include src.html n="3,4" %}. According to him, the [F-duct]({{ site.baseurl }}/en/glossary/#f-duct) was developed from the end of 2008; McLaren had considered running it in 2009{% include src.html n="3" %}.
+A team. GrandPrix.com calls [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) McLaren's technical director, the press pack its engineering director, alongside Tim Goss, "Chief Engineer, MP4-25"{% include src.html n="3,4" %}. According to him, the [F-duct]({{ site.baseurl }}/en/glossary/#f-duct) was developed from the end of 2008; McLaren had considered running it in 2009{% include src.html n="3" %}.
 
 Chief engineer Tim Goss and chief aerodynamicist Doug McKiernan collected the Pioneering and Innovation Award at the 2010 Autosport Awards for the F-duct{% include src.html n="2" %}. Both insisted that the credit be shared across the whole company, because of the leap of faith needed to get it approved{% include src.html n="2" %}. "Aerodynamicists will often come up with an idea that seems pretty stupid," said Goss, "and when you say 'we are going to use the driver to somehow stall the rear wing' then you will have lots of doubters."{% include src.html n="2" %} The governing body also had to be convinced, since the rules prohibited driver-operated aerodynamics{% include src.html n="1,2" %}. Goss gave it credit: it "heard the arguments, believed them and let us get on with it"{% include src.html n="2" %}.
 

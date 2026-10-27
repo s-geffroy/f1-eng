@@ -47,8 +47,8 @@ Selon Ron Hickman, cité dans le même article, l'idée de départ viendrait de 
 
 ## Limites
 
-- Ce n'est pas une première absolue{% include src.html n="1" %}. Motor Sport rappelle que Gabriel Voisin construisait déjà une cellule monocoque d'avion en 1910, et que des voitures de course avaient précédé la 25, comme la monoplace Lightweight Special d'Alec Issigonis en 1938{% include src.html n="1" %}. L'apport de la 25 est de l'imposer en F1{% include src.html n="1" %}.
-- Sa première saison souffre de problèmes de jeunesse : en 1962, Lotus finit deuxième du championnat constructeurs, six points derrière BRM{% include src.html n="3" %} (Lotus Cars évoque un point d'écart){% include src.html n="2" %}, et Clark se classe derrière Graham Hill{% include src.html n="2" %}.
+- Ce n'est pas une première absolue{% include src.html n="1" %}. Motor Sport rappelle que Gabriel Voisin construisait déjà une cellule monocoque d'avion en 1910, et que des voitures de course avaient précédé la 25, comme la monoplace Lightweight Special d'Alec Issigonis en 1938{% include src.html n="1" %}. L'apport de la 25 est de l'introduire en F1, où le treillis de tubes restait jusqu'en 1962 la solution préférée{% include src.html n="1" %}.
+- Sa première saison souffre de problèmes de jeunesse{% include src.html n="2" %} : en 1962, Lotus finit deuxième du championnat constructeurs, six points derrière BRM{% include src.html n="3" %} (Lotus Cars évoque un point d'écart){% include src.html n="2" %}, et Clark se classe derrière Graham Hill{% include src.html n="2" %}.
 
 ## Ce qu'elle laisse
 

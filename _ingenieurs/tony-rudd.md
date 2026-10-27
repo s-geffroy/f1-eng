@@ -40,7 +40,7 @@ Tony Rudd est un ingénieur de BRM, puis de Lotus, et, avec Peter Wright, l'un d
 ## BRM
 
 - Apprenti chez Rolls-Royce, il rejoint BRM peu après les débuts désastreux de l'équipe à Silverstone en 1950, et travaille d'abord sur la V16{% include src.html n="2" %}.
-- En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs{% include src.html n="2" %}.
+- En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs{% include src.html n="2,3" %}.
 - Sur la BRM P261, évolution de la P61, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour corriger le manque de rigidité de la P61{% include src.html n="3" %}.
 - En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu{% include src.html n="2,3" %}.
 - En 1969, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), il suggère que la voiture elle-même produise l'[appui]({{ site.baseurl }}/glossaire/#appui){% include src.html n="4" %}. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), mais le projet secret de [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) est arrêté en juin 1969{% include src.html n="4" %}.

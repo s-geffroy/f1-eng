@@ -71,7 +71,7 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot{% include
 
 Les sources ne s'accordent pas sur le partage du V6 de base. Motor Sport le dit conçu par Castaing **et** Boudy{% include src.html n="3,4" %} ; la fiche GrandPrix.com de Boudy l'associe à Castaing **et** à Dudot{% include src.html n="1" %} ; l'entretien de Dudot (GrandPrix.com, 1990) parle du « V6 d'origine de Castaing »{% include src.html n="5" %}. Le site retient la formule de Motor Sport, la plus fréquente.
 
-Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme auteur de l'idée{% include src.html n="2" %}. Il quitte Renault fin 1983 ou en 1984, avant l'arrivée du système en course en 1986{% include src.html n="1,2,7" %} : la mise au point relève de l'équipe de Renault Sport. Idée, réalisation et diffusion ne doivent pas être attribuées à la même personne.
+Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme auteur de l'idée{% include src.html n="2" %}. Il quitte Renault fin 1983 ou en 1984, avant l'arrivée du système en course en 1986{% include src.html n="1,2,7" %} : la mise au point se fait donc sans lui, chez Renault Sport, mais aucune source consultée ne la décrit. Idée, réalisation et diffusion ne doivent pas être attribuées à la même personne.
 
 ## Limites des sources
 

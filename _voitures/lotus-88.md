@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/lotus-88.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 88 répond à un problème de la Lotus 80{% include src.html n="1" %}. Pour tenir une voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) à la bonne hauteur, il faut des ressorts très raides{% include src.html n="1" %}. Peter Wright se souvient d'un essai en 1980 : avec des ressorts de plus en plus durs, le pilote finit par dire que la voiture serait fantastique, s'il arrivait seulement à garder les pieds sur les pédales{% include src.html n="1" %}.
+La Lotus 88 répond à un problème de la Lotus 80{% include src.html n="1" %}. Sur la Lotus 80, voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), il faut des ressorts très raides pour contrôler le tangage{% include src.html n="1" %}. Peter Wright se souvient d'un essai en 1980 : avec des ressorts de plus en plus durs, le pilote finit par dire que la voiture serait fantastique, s'il arrivait seulement à garder les pieds sur les pédales{% include src.html n="1" %}.
 
 Lotus imagine deux réponses{% include src.html n="1" %}. Le plan B sera la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active), sur la Lotus 92 de 1983{% include src.html n="1" %}. Le plan A, c'est la 88 : deux châssis et deux suspensions{% include src.html n="1" %}.
 

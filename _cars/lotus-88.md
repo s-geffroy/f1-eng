@@ -33,7 +33,7 @@ image: "/assets/partage/en/voitures/lotus-88.jpg"
 ---
 ## What it changed
 
-The Lotus 88 answered a problem of the Lotus 80{% include src.html n="1" %}. To hold a [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car at the right ride height, very stiff springs are needed{% include src.html n="1" %}. Peter Wright recalls a test in 1980: with ever harder springs, the driver eventually said the car would be fantastic, if only he could keep his feet on the pedals{% include src.html n="1" %}.
+The Lotus 88 answered a problem of the Lotus 80{% include src.html n="1" %}. On the Lotus 80, a [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car, very stiff springs were needed to control pitch{% include src.html n="1" %}. Peter Wright recalls a test in 1980: with ever harder springs, the driver eventually said the car would be fantastic, if only he could keep his feet on the pedals{% include src.html n="1" %}.
 
 Lotus came up with two answers{% include src.html n="1" %}. Plan B would be [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active), on the 1983 Lotus 92{% include src.html n="1" %}. Plan A was the 88: two chassis and two suspensions{% include src.html n="1" %}.
 

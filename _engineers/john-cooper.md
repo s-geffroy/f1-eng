@@ -53,11 +53,11 @@ John Cooper died on Christmas Eve 2000, aged 77{% include src.html n="5,8" %}.
 
 ## What this change alters
 
-This change simultaneously alters weight distribution, the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), traction, packaging, [chassis architecture]({{ site.baseurl }}/en/glossary/#chassis) and future aerodynamic design{% include src.html n="2,4" %}. The last win for a front-engined F1 car dates back to the 1960 Italian Grand Prix{% include src.html n="1" %}.
+This change concentrates the masses within the wheelbase, lowers the [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), reduces frontal area (the driver sits lower) and allows lighter [chassis]({{ site.baseurl }}/en/glossary/#chassis) structures{% include src.html n="2,4" %}. The last win for a front-engined F1 car dates back to the 1960 Italian Grand Prix{% include src.html n="1" %}.
 
 ## Attribution
 
-John Cooper receives credit as the **entrepreneurial and technical architect** of the shift{% include src.html n="1,3" %}. But [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) was Cooper's chief designer during the 1959 and 1960 titles, and the designer of the 1960 C5S gearbox{% include src.html n="3" %}.
+formula1.com gives John Cooper most of the credit for the shift{% include src.html n="1" %}; Doug Nye adds that he contributed technically, but above all knew how to win over his increasingly conservative father, Charles{% include src.html n="3" %}. But [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) was Cooper's chief designer during the 1959 and 1960 titles, and the designer of the 1960 C5S gearbox{% include src.html n="3" %}.
 
 The accurate wording: **Cooper established the rear-engine architecture with a design team in which Owen Maddock played a central role.**
 

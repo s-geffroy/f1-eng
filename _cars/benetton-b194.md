@@ -64,5 +64,5 @@ Brawn admits the controversy "clouded a little bit" his view of a car he conside
 ## Legacy
 
 - **1994**: eight wins, all for Michael Schumacher, according to the official results; six of the first seven races{% include src.html n="7" %}. The title was decided in Adelaide: Schumacher and Damon Hill collided and retired, and Schumacher was champion by one point{% include src.html n="2,3" %}.
-- Schumacher's team-mates came and went (Jos Verstappen, JJ Lehto, Johnny Herbert) without really supporting him, Goodwood notes{% include src.html n="3,4" %}: the constructors' title went to Williams, with 118 points to 103{% include src.html n="8" %}.
+- Schumacher's team-mates came and went (Jos Verstappen, JJ Lehto, Johnny Herbert){% include src.html n="1" %} without really supporting him, Goodwood notes{% include src.html n="3,4" %}: the constructors' title went to Williams, with 118 points to 103{% include src.html n="8" %}.
 - The method endured. Brawn sums it up as starting early, with a dedicated and very integrated programme; in his words, the 2014 Mercedes W05 was the result of exactly the same philosophy{% include src.html n="1" %}.

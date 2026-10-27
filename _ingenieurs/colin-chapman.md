@@ -43,6 +43,8 @@ sources:
     url: "https://www.autosport.com/f1/news/banned-the-ingenious-twin-chassis-lotus-f1-car-4983190/4983190/"
   - titre: "Classic Team Lotus, « Legendary Team Lotus aerodynamicist Peter Wright dies »"
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
+  - titre: "John Tipler, Motor Sport Magazine, « A new frame of reference » (mai 2002)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/colin-chapman.jpg"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
@@ -55,7 +57,7 @@ redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 
 Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes architecturales, et mène la plupart à la victoire.
 
-- **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence{% include src.html n="3,4" %}. Chapman en fait l'implantation d'ensemble ; le dessin de détail revient pour une grande part à [Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones, et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) met au point l'assemblage riveté. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière{% include src.html n="4" %}. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs{% include src.html n="4" %}.
+- **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence{% include src.html n="3,4" %}. Chapman en fait l'implantation d'ensemble ; le dessin de détail revient pour une grande part à [Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones, et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) met au point l'assemblage riveté{% include src.html n="13" %}. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière{% include src.html n="4" %}. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs{% include src.html n="4" %}.
 - **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui{% include src.html n="5" %}. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) l'employait déjà au milieu des années 1950{% include src.html n="6" %} — mais la Lotus 49 en fait la référence par sa compacité et sa légèreté{% include src.html n="5" %}.
 - **Lotus 72 (1970).** Créditée à [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) et à Chapman, elle place les radiateurs sur les flancs{% include src.html n="7" %}. Avec ses évolutions, elle remporte cinq titres mondiaux et une vingtaine de Grands Prix{% include src.html n="7,8" %} (le décompte exact varie selon les sources : voir la [fiche de la Lotus 72]({{ site.baseurl }}{% link _voitures/lotus-72.md %})).
 - **Le programme d'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79{% include src.html n="10,12" %}.
@@ -68,7 +70,7 @@ Une philosophie relie ces ruptures : **architecture, légèreté, aéro.**
 - Sa première voiture de trial, la Mark I, est construite sur la base d'une Austin Seven de 1928 ; Lotus naît en 1952{% include src.html n="3" %}.
 - Lotus dispute son premier Grand Prix de F1 en 1958{% include src.html n="3" %}. La Lotus 18 de 1960 est la première Lotus à moteur central et la première Lotus victorieuse en championnat du monde{% include src.html n="3" %}.
 - En 1965, Jim Clark est champion du monde des pilotes et Lotus remporte le titre constructeurs, avec la Lotus 33{% include src.html n="1,2,3" %} ; Clark gagne aussi Indianapolis sur la Lotus 38{% include src.html n="3" %}.
-- Chapman meurt d'une crise cardiaque le 16 décembre 1982{% include src.html n="3" %}. L'équipe compte alors sept titres constructeurs et six titres pilotes ; elle finira avec 79 victoires en Grand Prix, selon Lotus{% include src.html n="3" %}.
+- Chapman meurt d'une crise cardiaque le 16 décembre 1982{% include src.html n="3" %}. Au total, Lotus revendique 79 victoires en Grand Prix, sept titres constructeurs et six titres pilotes{% include src.html n="3" %}.
 
 ## Pourquoi le n° 1
 

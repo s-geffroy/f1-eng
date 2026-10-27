@@ -58,4 +58,4 @@ The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work a
 
 ## Why Tier B
 
-Forghieri profoundly transformed the way the major subsystems are integrated, and the transverse gearbox became a standard{% include src.html n="4" %}. What he lacks, compared with Tier A, is a breakthrough that became a structural principle of all of F1.
+His transverse gearbox became a standard, later adopted by the whole grid{% include src.html n="4" %}; beyond that, this site's assessment is that he profoundly transformed the way the major subsystems are integrated. What he lacks, compared with Tier A, is a breakthrough that became a structural principle of all of F1.

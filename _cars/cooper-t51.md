@@ -15,6 +15,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"
   - titre: "Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
+  - titre: "Revs Institute, “Lotus Type 72”"
+    url: "https://automedia.revsinstitute.org/?p=88902"
 photo:
   fichier: "/assets/voitures/cooper-t51.jpg"
   legende: "Jack Brabham's Cooper T51 (1959), on display."
@@ -29,7 +31,7 @@ image: "/assets/partage/en/voitures/cooper-t51.jpg"
 
 In 1958, Coopers had already won in Argentina and at Monaco: the first championship victories for a car with its engine behind the driver{% include src.html n="1,2" %}. The 1959 T51 went further. It gave Cooper, and this [layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), their first world title{% include src.html n="1" %}.
 
-The principle, as Motor Sport recalls: with no propeller shaft to route under or around the driver, he can be seated lower and the car's frontal area reduced{% include src.html n="1" %}. The masses stay within the wheelbase, hence a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire){% include src.html n="1" %}.
+The principle, as Motor Sport recalls: with no propeller shaft to route under or around the driver, he can be seated lower and the car's frontal area reduced{% include src.html n="1" %}. The masses stay within the wheelbase, which makes the car quick to respond to changes of direction (low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire)){% include src.html n="1" %}.
 
 The car itself changed little from the previous model: a welded [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) of curved steel tubes{% include src.html n="1" %}. What made the difference, according to Motor Sport, was the new 2.5-litre, 245hp Coventry Climax FPF, whose detailed design only began on 1 December 1958, sixteen weeks before its debut{% include src.html n="1" %}.
 
@@ -45,4 +47,4 @@ The gearbox, derived from a Citroën part, suffered{% include src.html n="1" %}.
 
 - **1959**: wins for Brabham at Monaco and in Britain, for Stirling Moss in Portugal and Italy in Rob Walker's privately entered T51, and for Bruce McLaren in the United States{% include src.html n="1" %}.
 - The constructors' title was secured at Monza{% include src.html n="1" %}. The drivers' title was decided at Sebring, where McLaren won and where Brabham, out of fuel, pushed his car over the last 400 yards{% include src.html n="1" %}.
-- Cooper did not invent the rear engine, but it led F1's post-war conversion to it, and it was the T51 that brought it its first titles{% include src.html n="1" %}.
+- Cooper did not invent the rear engine{% include src.html n="3" %}, but it led F1's post-war conversion to it, and it was the T51 that brought it its first titles{% include src.html n="1" %}.

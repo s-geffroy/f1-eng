@@ -71,7 +71,7 @@ Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot{% i
 
 Sources disagree on who shares credit for the original V6. Motor Sport says it was designed by Castaing **and** Boudy{% include src.html n="3,4" %}; GrandPrix.com's profile of Boudy pairs him with Castaing **and** Dudot{% include src.html n="1" %}; Dudot's interview (GrandPrix.com, 1990) speaks of "Castaing's original V6"{% include src.html n="5" %}. This site follows Motor Sport, the most common formulation.
 
-On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea{% include src.html n="2" %}. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986{% include src.html n="1,2,7" %}: the development work was down to the Renault Sport team. Idea, execution and dissemination should not be credited to the same person.
+On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea{% include src.html n="2" %}. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986{% include src.html n="1,2,7" %}: the development work was therefore done without him, at Renault Sport, but none of the sources consulted describes it. Idea, execution and dissemination should not be credited to the same person.
 
 ## Limits of the sources
 

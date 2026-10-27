@@ -29,7 +29,7 @@ image: "/assets/partage/geoff-aldridge.jpg"
 ---
 ## Ce qu'il a fait
 
-Geoff Aldridge est un dessinateur de châssis de Team Lotus, de la Lotus 76 à la Lotus 80 de 1979{% include src.html n="6,7" %} ; OldRacingCars.com le situe chez Lotus de 1976 à 1979{% include src.html n="3" %}. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) pour cette voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978{% include src.html n="1" %}.
+Geoff Aldridge est un dessinateur de Team Lotus : il dessine le châssis de la Lotus 76, et la base Forix le range parmi les concepteurs des Lotus 77, 79 et 80 (1979){% include src.html n="6,7" %} ; OldRacingCars.com le situe chez Lotus de 1976 à 1979{% include src.html n="3" %}. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) pour cette voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978{% include src.html n="1" %}.
 
 ## Parcours chez Lotus
 
