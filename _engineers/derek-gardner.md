@@ -37,7 +37,7 @@ Derek Gardner designed the early Tyrrells, from the 1970 001 to the 1976 **six-w
 - **The aim.** People assumed the point was to reduce frontal area; Gardner denied it, since the rear wheels, huge though normal-sized, set that area. According to Motor Sport, the aim was [downforce]({{ site.baseurl }}/en/glossary/#appui). An exposed wheel generates lift, all the more so the bigger it is; four small front wheels generate less and allow the front [wing]({{ site.baseurl }}/en/glossary/#aileron) to be run with less load. Gardner put the gain at some forty horsepower.
 - **The tyres.** Goodyear made the small front tyres. Gardner wanted 9-inch wheels; the compromise was 10 inches, Mini size.
 - **Racing.** Announced at the end of 1975, the P34 made its debut at the 1976 Spanish Grand Prix, at Jarama. Jody Scheckter won the Swedish Grand Prix, at Anderstorp, ahead of Patrick Depailler; they finished third and fourth in the championship.
-- **The decline.** From 1976 according to Andrew Frankel, in 1977 according to Nigel Roebuck, Goodyear, now supplying the whole field, developed the other teams' tyres and neglected the small front tyres used by Tyrrell alone. According to Gardner, the concept's advantage evaporated.
+- **The decline.** From 1976 according to Andrew Frankel, in 1977 according to Nigel Roebuck, Goodyear, which supplied the whole field, developed the other teams' tyres and neglected the small front tyres used by Tyrrell alone. According to Gardner, the concept's advantage evaporated.
 
 ## Where sources disagree
 

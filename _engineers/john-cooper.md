@@ -45,9 +45,9 @@ Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.b
 - **1948.** The company went into selling replicas: twelve "Mark 2" single-seaters were laid down.
 - **1958.** Coopers scored the first world championship wins for cars with the engine behind the driver.
 - **1959.** The T51, powered by the 245hp Coventry Climax FPF four-cylinder, brought the title.
-- **1960.** The T53 "Lowline" delivered a second double of titles.
+- **1960.** The T53 "Lowline" delivered a second drivers' and constructors' double.
 - **1961.** At Indianapolis, Jack Brabham finished ninth in a Cooper with a Climax engine enlarged from 2.5 to 2.7 litres: the rear engine, already tried without success at Indianapolis between 1937 and 1951, made a comeback there.
-- **September 1961.** The Mini Cooper was born, with a 997cc four-cylinder with twin carburettors and 55hp.
+- **September 1961.** The Mini Cooper was born, with a 997cc twin-carburettor four-cylinder producing 55hp.
 
 John Cooper died on Christmas Eve 2000, aged 77.
 

@@ -32,4 +32,4 @@ Sam Michael was Williams technical director from 2004 to the end of 2011, succee
 
 ## Limits of the sources
 
-No open source credits him with a specific car or innovation at Williams. His title on arrival also varies: "chief operations engineer" for Formula 1, "senior operations engineer" for GrandPrix.com.
+No open source credits him with a specific car or innovation at Williams. His title on arrival also varies: "chief operations engineer" according to formula1.com, "senior operations engineer" according to GrandPrix.com.

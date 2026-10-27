@@ -36,7 +36,7 @@ image: "/assets/partage/en/mauro-forghieri.jpg"
 ---
 ## Integrated engineering
 
-On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics. In 27 years at Ferrari, he counted four drivers' titles and seven constructors' titles (Motor Sport); Autosport adds 54 Grand Prix wins.
+On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics. In 27 years at Ferrari, his record included four drivers' titles and seven constructors' titles (Motor Sport); Autosport adds 54 Grand Prix wins.
 
 ## Mass centralisation
 
@@ -54,7 +54,7 @@ One guiding idea links his cars of the 1970s: **[centralising the masses]({{ sit
 
 ## Attribution
 
-The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: formula1.com specifies that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
+The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: formula1.com notes that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
 
 ## Why Tier B
 

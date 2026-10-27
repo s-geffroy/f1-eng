@@ -50,11 +50,11 @@ image: "/assets/partage/en/colin-chapman.jpg"
 
 Chapman is not the man of a single breakthrough: he piled up several, all of them architectural, and took most of them to victory.
 
-- **Lotus 25 (1962).** The aluminium [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) tub replaces the [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) as the reference architecture. Chapman did the overall layout; much of the detail drawing was done by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) worked out the riveted assembly. The car made its debut at the 1962 Dutch Grand Prix; Chapman said he had drawn inspiration from the steel backbone chassis of the Elan road car. In 1963, Jim Clark won seven of the ten races and Lotus its first constructors' title.
-- **Lotus 49 (1967).** The Cosworth DFV engine forms the rear part of the car: the structure bolts on in front of it, the rear suspension behind it. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 was already using it in the mid-1950s — but the Lotus 49 made it the benchmark through its compactness and lightness.
-- **Lotus 72 (1970).** Credited to [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) and Chapman, it puts the radiators on the flanks. With its successive developments, it won five world titles and around twenty Grands Prix (the exact count varies between sources: see the [Lotus 72 page]({{ site.baseurl }}{% link _cars/lotus-72.md %})).
+- **Lotus 25 (1962).** The aluminium [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) tub replaced the [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) as the reference architecture. Chapman did the overall layout; much of the detail drawing was done by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) worked out the riveted assembly. The car made its debut at the 1962 Dutch Grand Prix; Chapman said he had drawn inspiration from the steel backbone chassis of the Elan road car. In 1963, Jim Clark won seven of the ten races and Lotus its first constructors' title.
+- **Lotus 49 (1967).** The Cosworth DFV engine formed the rear part of the car: the structure bolted on in front of it, the rear suspension behind it. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 was already using it in the mid-1950s — but the Lotus 49 made it the benchmark through its compactness and lightness.
+- **Lotus 72 (1970).** Credited to [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) and Chapman, it put the radiators on the flanks. With its successive developments, it won five world titles and around twenty Grands Prix (the exact count varies between sources: see the [Lotus 72 page]({{ site.baseurl }}{% link _cars/lotus-72.md %})).
 - **The [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) programme.** Chapman launched and led it, through to the Lotus 78 and 79.
-- **Lotus 88 (1981).** The twin-chassis concept, two separately sprung bodies, was challenged: the car never raced.
+- **Lotus 88 (1981).** The twin-chassis concept, two separately sprung bodies, was protested: the car never raced.
 
 One philosophy links these breakthroughs: **architecture, lightness, aero.**
 
@@ -62,7 +62,7 @@ One philosophy links these breakthroughs: **architecture, lightness, aero.**
 
 - His first trials car, the Mark I, was built on the basis of a 1928 Austin Seven; Lotus was born in 1952.
 - Lotus contested its first F1 Grand Prix in 1958. The 1960 Lotus 18 was the first mid-engined Lotus and the first Lotus to win a world championship race.
-- In 1965, Jim Clark won the F1 championship double on the Lotus 33 and won Indianapolis on the Lotus 38.
+- In 1965, Jim Clark won the F1 drivers' and constructors' double in the Lotus 33 and won Indianapolis in the Lotus 38.
 - Chapman died of a heart attack on 16 December 1982. The team then had seven constructors' titles and six drivers' titles; it would end up with 79 Grand Prix wins, according to Lotus.
 
 ## Why number one
@@ -71,7 +71,7 @@ In historical breadth, the site's method puts him ahead of everyone else: severa
 
 ## Attribution: what needs correcting
 
-Chapman's reputation draws to him innovations produced by his teams. Ground effect is the textbook example. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM; at Lotus, Chapman asked them to rethink the fundamental configuration of an F1 car; the Lotus 78 was drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed its suspension, and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) took part in its development. The Lotus 72 was co-designed by Maurice Philippe, and Peter Wright played a key role in the Lotus 88.
+Chapman's reputation draws to him innovations produced by his teams. Ground effect is the textbook example. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM; at Lotus, Chapman asked them to rethink the fundamental configuration of an F1 car; the Lotus 78 was designed by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed its suspension, and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) took part in its development. The Lotus 72 was co-designed by Maurice Philippe, and Peter Wright played a key role in the Lotus 88.
 
 The accurate wording: **Chapman led and catalysed the Lotus programme that made ground effect workable and dominant in F1.**
 

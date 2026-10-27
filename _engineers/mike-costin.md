@@ -48,4 +48,4 @@ Mike Costin is **a co-founder of Cosworth**. His main role, according to Motor S
 
 His technical authorship of the DFV is **less directly attributable to him as an individual** than that of Keith Duckworth, the project's central technical figure. His role was industrialisation: turning a design into a reliable, manufactured engine.
 
-The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as its central technical figure and Mike Costin as co-founder and a major contributor.**
+The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major contributor.**

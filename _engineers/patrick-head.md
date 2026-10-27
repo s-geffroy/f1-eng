@@ -29,7 +29,7 @@ image: "/assets/partage/en/patrick-head.jpg"
 ---
 ## What he changed
 
-Patrick Head is the architect of the Williams technical organisation. After graduating in mechanical engineering from University College London in 1970, he went to Lola shortly afterwards. In 1977 he founded Williams Grand Prix Engineering with Frank Williams and took charge of the design office.
+Patrick Head is the architect of the Williams technical organisation. He graduated in mechanical engineering from University College London in 1970 and joined Lola shortly afterwards. In 1977 he founded Williams Grand Prix Engineering with Frank Williams and took charge of the design office.
 
 - **FW06 (1978)**: the first Williams designed by Head.
 - **FW07**: the [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car gave the team the first of its 114 victories, at the 1979 British Grand Prix.

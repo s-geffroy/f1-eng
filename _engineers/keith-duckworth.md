@@ -44,8 +44,8 @@ The **Cosworth DFV** did not just transform the engine: it changed the industria
 1. a **compact, powerful** engine;
 2. used as a **[structural component]({{ site.baseurl }}/en/glossary/#moteur-porteur)** in the architecture of the Lotus 49: the engine forms the rear part of the car;
 3. **available to many teams**;
-4. which therefore no longer need to develop an engine of their own (the DFV thus opened the door to teams such as those of Frank Williams and Ken Tyrrell);
-5. and can concentrate their resources on chassis and aerodynamics.
+4. which therefore no longer needed to develop an engine of their own (the DFV thus opened the door to teams such as those of Frank Williams and Ken Tyrrell);
+5. and could concentrate their resources on chassis and aerodynamics.
 
 For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won. The DFV won every race of the 1969 and 1973 seasons, and took **155 world championship Grands Prix** up to 1983, the last of them in its short-stroke DFY version.
 
@@ -59,13 +59,13 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 
 ## Why Tier A
 
-It is a double breakthrough. Technically, it made widespread the stressed engine, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954; economically, it revived the competitive customer engine after Coventry Climax's withdrawal. The make-up of the grid was redrawn as a result.
+It is a double breakthrough. Technically, it popularised the stressed engine, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954; economically, it revived the competitive customer engine after Coventry Climax's withdrawal. The make-up of the grid was redrawn as a result.
 
 ## Attribution
 
 Keith Duckworth is the central technical figure of the project, but the DFV is not an isolated creation. Motor Sport stresses that Mike Costin's contribution, "practicality blended with resourcefulness", was absolutely vital to Cosworth's success; Chapman and his team worked closely with Duckworth and Costin on the Lotus 49.
 
-The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major player.**
+The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major contributor.**
 
 ## Verdict
 

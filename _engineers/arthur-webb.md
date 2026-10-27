@@ -49,7 +49,7 @@ Arthur Webb is a British aeronautical engineer and a specialist in [carbon compo
 
 ## Attribution
 
-Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice; in Barnard's own account, his talks with Webb reinforced a choice he was already considering. Webb brought materials science and structural calculation; he was not its designer.
+Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice; in Barnard's own account, his talks with Webb reinforced a choice he was already considering. Webb brought materials science and structural calculation; he was not the car's designer.
 
 ## Where sources disagree
 

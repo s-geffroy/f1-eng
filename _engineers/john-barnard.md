@@ -55,13 +55,13 @@ image: "/assets/partage/en/john-barnard.jpg"
 
 The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix. The Lotus 88, whose composite monocoque Autosport describes as built in-house, was excluded during practice at Long Beach in 1981 according to Motor Sport; it never took part in a race.
 
-Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which costs a great deal of torsional stiffness. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car surrounded notably by Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
+Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which cost a great deal of torsional stiffness. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car with a team that notably included Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
 
 The effects touched stiffness, weight, safety, architecture and the industrialisation of composites all at once. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility. The principle became universal.
 
 ## 1984 — McLaren MP4/2: the engine to his dimensions
 
-For the MP4/2, Barnard imposed on Porsche the dimensions of the TAG turbo V6, to serve the aerodynamics of the underbody. The car won 12 of the 16 races of 1984.
+For the MP4/2, Barnard imposed the dimensions of the TAG turbo V6 on Porsche, to serve the aerodynamics of the underbody. The car won 12 of the 16 races of 1984.
 
 ## 1989 — Ferrari 640: the semi-automatic gearbox
 
@@ -85,7 +85,7 @@ The same car used front suspension with short torsion bars, which according to B
 
 ## Attribution
 
-The idea of the steering-wheel paddles on the Ferrari 640 did not itself come from him: Barnard says it was suggested by someone in his design office, on the model of karts; Motorsport.com attributes it to Piero Lardi Ferrari. Barnard remains the one who designed the system and introduced it in racing.
+The idea of the steering-wheel paddles on the Ferrari 640 did not itself come from him: Barnard says it was suggested by someone in his design office, inspired by karts; Motorsport.com attributes it to Piero Lardi Ferrari. Barnard remains the one who designed the system and introduced it in racing.
 
 ## Why number two
 

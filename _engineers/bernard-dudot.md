@@ -41,12 +41,12 @@ Bernard Dudot was at the heart of the three changes to the Renault engine that t
 - In 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}) brought him over from Alpine and sent him to California to study [turbocharging]({{ site.baseurl }}/en/glossary/#turbocompresseur).
 - In April 1975, when Renault decided to enter F1, he took charge of the F1 engine programme, under the technical direction of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}).
 - In 1980, he became technical director of Renault Sport.
-- In 1986, Renault suspended its involvement. At Dudot's insistence, a technical watch unit was kept on: it was from this unit that the V10 emerged, drawn by Dudot and a team of some twenty engineers at Viry.
-- Renault then counted six consecutive titles for its V10 in the 1990s.
+- In 1986, Renault suspended its involvement. At Dudot's insistence, a technical monitoring unit was kept going: it was from this unit that the V10 emerged, designed by Dudot and a team of some twenty engineers at Viry.
+- Renault's V10 then went on to six consecutive titles in the 1990s.
 
 ## Attribution
 
-Renault Sport is an organisation, and the sources show it: GrandPrix.com attributes the idea of turbocharging the racing engine to **Jean Terramorsi**, head of Gordini, and Renault's first F1 turbo engine, the EF1, derived from the 2-litre V6 designed by **François Castaing** and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}). The Renault document presents Dudot as "head of engines". He is therefore not the lone inventor of these technologies: he is their central technical figure, from their maturing through to the V10.
+Renault Sport is an organisation, and the sources show it: GrandPrix.com attributes the idea of turbocharging the racing engine to **Jean Terramorsi**, head of Gordini, and Renault's first F1 turbo engine, the EF1, derived from the 2-litre V6 designed by **François Castaing** and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}). The Renault document presents Dudot as "head of engines". He is therefore not the lone inventor of these technologies: he is their central technical figure, from their maturation through to the V10.
 
 ## Why Tier B, and at its head
 

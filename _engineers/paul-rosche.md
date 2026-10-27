@@ -29,7 +29,7 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 
 ## Before F1
 
-- Born in Munich in 1934, he joined BMW in 1957, straight after completing his degree, and stayed until 1999 (BMW).
+- Born in Munich in 1934, he joined BMW in 1957, straight after his studies, and stayed until 1999 (BMW).
 - Camshaft calculations were his favourite area, hence his nickname "Nocken-Paule" (BMW).
 - In 1969, he designed the 2-litre turbo engine with which BMW won the European Touring Car Championship (BMW).
 - In 1975, he joined BMW Motorsport GmbH to head the design of the BMW M1 engines; he was technical director of BMW Motorsport from 1979 to 1996 (BMW, 2014).
@@ -39,17 +39,17 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 - In 1980, with Dieter Stappert, he laid the foundation for BMW's first F1 involvement and headed the engine project (BMW, 2016). According to Autosport, the project had been started in the 1970s against the will of company management.
 - His team turned a 1.5-litre production four-cylinder into a championship engine: sixteen valves, a [turbocharger]({{ site.baseurl }}/en/glossary/#turbocompresseur) and, a first in F1 according to BMW, digital engine electronics. BMW gives an initial output of around 800hp.
 - 1981, the development year of the M12/13, and 1982, its first season, were difficult: the engine was fragile (Motor Sport, 2001). Murray recalls that Rosche was adamant about a single turbo, initially a KKK truck unit.
-- Rosche promised massive power increases once reliability was sorted; according to Murray, that promise and the skirt ban shaped the design of the BT52 (Motor Sport, 2001).
+- Rosche promised big power gains once reliability was sorted; according to Murray, that promise and the skirt ban shaped the design of the BT52 (Motor Sport, 2001).
 - Tests showed detonation beyond 650bhp; Rosche called on BASF for a purpose-made fuel, used in 1983 (Autosport).
 - In 1983, when Renault froze the specification of its engine, Rosche pressed on with development, squeezing ever more power from the four-cylinder (Motor Sport, 2009).
-- The exact output remains unknown: according to Rosche, "around 1,400hp", as the dyno did not go beyond 1,280hp (BMW). Motor Sport gives over 1,400bhp in qualifying trim in 1983.
-- After the title, rumours of illegal fuel circulated; the FISA report found it met all requirements, and Rosche always insisted there had been no cheating (Motor Sport, 2009).
+- The exact output remains unknown: according to Rosche, "around 1400hp", as the dyno did not go beyond 1280hp (BMW). Motor Sport gives over 1400bhp in qualifying trim in 1983.
+- After the title, rumours of illegal fuel circulated; the FISA report found it compliant, and Rosche always insisted there had been no cheating (Motor Sport, 2009).
 - According to BMW, when BMW withdrew from F1 in 1987, the engine had nine Grand Prix wins to its name.
 
 ## The return to F1
 
 - After 1987, he remained technical director of BMW M GmbH until 1996, then, as technical director and managing director of BMW Motorsport Limited, he led BMW back into F1 as an engine manufacturer (BMW, 2016).
-- Motor Sport calls him the inspiration for this second involvement: when Renault announced its departure at the end of 1997, Rosche persuaded the board to partner with Williams. The debut was set for 2000; Rosche retired in the meantime, replaced by Gerhard Berger and Mario Theissen.
+- Motor Sport calls him the inspiration for this second involvement: when Renault announced its departure at the end of 1997, Rosche persuaded BMW's management to partner with Williams. The debut was set for 2000; Rosche retired in the meantime, replaced by Gerhard Berger and Mario Theissen.
 - The sources consulted make him the leader of this return; none credits him with designing the BMW V10.
 
 ## Other engines

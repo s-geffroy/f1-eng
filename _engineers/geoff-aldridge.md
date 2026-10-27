@@ -46,4 +46,4 @@ Geoff Aldridge was a Team Lotus chassis designer, from the Lotus 76 to the 1979 
 
 ## Where sources disagree
 
-The Forix database gives him the title of "Chief Designer" on the Lotus 77, 79 and 80, but also gives it, for the same cars, to Ogilvie. Motor Sport gives him no title and puts him on an equal footing with Ogilvie; Gary Watkins describes him as a Lotus draughtsman; OldRacingCars.com speaks of chassis design. This site follows Motor Sport's wording: a detail designer, one of two, under Chapman's direction.
+The Forix database gives him the title of "Chief Designer" on the Lotus 77, 79 and 80, but also gives it, for the same cars, to Ogilvie. Motor Sport gives him no title and puts him on an equal footing with Ogilvie; Gary Watkins describes him as a Lotus "draughtsman"; OldRacingCars.com speaks of chassis design. This site follows Motor Sport's wording: a detail designer, one of two, under Chapman's direction.

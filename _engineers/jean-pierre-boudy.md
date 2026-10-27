@@ -35,7 +35,7 @@ image: "/assets/partage/en/jean-pierre-boudy.jpg"
 ---
 ## What he did
 
-Jean-Pierre Boudy is an engine designer at Renault-Gordini, then at Peugeot. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre V6 from which Renault's F1 turbo engines derive; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique).
+Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre V6 from which Renault's F1 turbo engines derive; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique).
 
 ## At Renault-Gordini
 
@@ -56,7 +56,7 @@ Jean-Pierre Boudy is an engine designer at Renault-Gordini, then at Peugeot. Wit
 
 - At the end of 1983, Jean Todt put him in charge of the engine department of the new Peugeot Talbot Sport organisation; his engines won the 1985 and 1986 World Rally titles (GrandPrix.com).
 - He designed the V10 of the Peugeot 905, which won Le Mans in 1992 and 1993, then Peugeot's F1 V10, raced by McLaren in 1994 (GrandPrix.com).
-- He drew that F1 V10 on a clean sheet of paper; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans").
+- He started that F1 V10 from a clean sheet; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans").
 - In the early 1990s, he succeeded André de Cortanze as technical director of Peugeot Sport (GrandPrix.com, 2001). In July 1995, he still held the post (GrandPrix.com).
 - In October 1995, Peugeot was supplying Jordan, and mechanical failures had cost the team several good results; Boudy, as head of Peugeot Sport, created a technical liaison post between Jordan and Peugeot (GrandPrix.com, "Changes at Peugeot Sport").
 - OldRacingCars credits him with Peugeot's F1 engines from 1994 to 2000.
@@ -65,13 +65,13 @@ Jean-Pierre Boudy is an engine designer at Renault-Gordini, then at Peugeot. Wit
 ## After Peugeot
 
 - In May 2011, GrandPrix.com named him among those involved in Craig Pollock's PURE project, an engine for the 2013 rules (1.6-litre four-cylinder turbo), with Mecachrome and TEOS Powertrain.
-- OldRacingCars then describes him as an independent design consultant.
+- OldRacingCars then describes him as an independent consultant.
 
 ## Attribution
 
 Sources disagree on who shares credit for the original V6. Motor Sport says it was designed by Castaing **and** Boudy; GrandPrix.com's profile of Boudy pairs him with Castaing **and** Dudot; Dudot's interview (GrandPrix.com, 1990) speaks of "Castaing's original V6". This site follows Motor Sport, the most common formulation.
 
-On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986: the development work belongs to the Renault Sport team. Idea, execution and spread should not be credited to the same person.
+On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986: the development work was down to the Renault Sport team. Idea, execution and dissemination should not be credited to the same person.
 
 ## Limits of the sources
 

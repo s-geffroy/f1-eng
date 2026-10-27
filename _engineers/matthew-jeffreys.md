@@ -42,8 +42,8 @@ Jeffreys compares the methods of the two technical directors he worked under. Wi
 
 **In 2021.** After an interview in which Murray claimed the design of the MP4/4, Jeffreys replied in a letter published by Motor Sport in October 2021: Murray and the design team must have been "living in parallel universes", as Murray's version of events was not the same as his own, or that of the former colleagues he had spoken to. The James Elson article that followed, the same year, adds more:
 
-- all 17 members of the design team had already written to Martin Whitmarsh, then newly appointed at McLaren, listing 82 inaccuracies in Ian Bamsey's book crediting the car to Murray;
-- Jeffreys recounts that Murray, sitting at the back of the room during a talk he gave with Nichols at Brooklands, handed them two formal legal notices at the end, objecting to what they had said in Steve Rendle's Haynes manual, which had interviewed all 17;
+- all 17 members of the design team had already written to Martin Whitmarsh, then McLaren's new director, listing 82 inaccuracies in Ian Bamsey's book crediting the car to Murray;
+- Jeffreys recounts that Murray, sitting at the back of the room during a talk he gave with Nichols at Brooklands, handed them two formal legal notices at the end, objecting to what they had said in Steve Rendle's Haynes manual, for which Rendle had interviewed all 17;
 - Jeffreys rejects any link with the BT55: "None of us were looking at BT55 drawings and we wouldn't have wanted to be either – it was a disaster."
 
 **In 2026.** In a Motor Sport article on the Brabham BT55, Murray calls the MP4/4 "exactly the same layout". Jeffreys replied in a letter published in November 2026:

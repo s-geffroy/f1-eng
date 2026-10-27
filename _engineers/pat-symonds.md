@@ -39,7 +39,7 @@ In 1994 Symonds was head of research and development at Benetton. Interviewed by
 
 - the first job was not to make the cars safer but to **slow them down**: a shorter diffuser, altered front wing endplates, then the plank under the floor;
 - next came wheel tethers, "to prevent wheels flying loose in an impact", and impact tests at ever higher speeds;
-- these measures, he says, protect not only the drivers but the spectators too; he places the halo in this legacy.
+- these measures, he said, protected not only the drivers but the spectators too; he placed the halo in this legacy.
 
 This is the testimony of someone who was there at the time, not a personal contribution to the 1994 rules, which the FIA wrote.
 

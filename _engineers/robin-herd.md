@@ -23,7 +23,7 @@ image: "/assets/partage/en/robin-herd.jpg"
 ---
 ## What he did
 
-Robin Herd moved from aerospace to F1: he drew the first McLaren F1 car, then became co-founder and chief designer of March, whose cars raced in F1, F2 and IndyCar.
+Robin Herd moved from aerospace to F1: he drew McLaren's first F1 car, then became co-founder and chief designer of March, whose cars raced in F1, F2 and IndyCar.
 
 ## Technical career
 
@@ -40,7 +40,7 @@ Robin Herd moved from aerospace to F1: he drew the first McLaren F1 car, then be
 
 - **The intent.** The 711 had a reduced [polar moment]({{ site.baseurl }}/en/glossary/#moment-polaire); for 1972, Herd wanted to "go the whole hog" and aim for an ultra-low moment of inertia.
 - **The means.** The gearbox, with Alfa Romeo internals in a March-designed casing, copied the layout of the Alfa Romeo Tipo 33/3 sports car; it placed the ratios ahead of the differential, to concentrate mass at the centre of the car. OldRacingCars.com points out that the Porsche 908/3 followed the same approach: Herd did not invent the principle.
-- **The failure.** The car understeered. Herd blamed the Alfa gearbox, slow to shift, and above all its tiny differential, hence permanently locked; OldRacingCars.com instead blames Goodyear tyres unsuited to the design. After the Belgian Grand Prix, in June 1972, March dropped it for the 721G, an F1 car built in nine days on an F2 tub.
+- **The failure.** The car understeered. Herd blamed the Alfa gearbox, slow to shift, and above all its tiny differential, hence permanently locked; OldRacingCars.com instead blames unsuitable Goodyear tyres. After the Belgian Grand Prix, in June 1972, March dropped it for the 721G, an F1 car built in nine days on an F2 tub.
 - **What followed.** From then on, March F1 cars were derived from its F2 cars. In 1973, James Hunt made his Grand Prix debut in Peterson's former 721G, reworked and run by Hesketh, whose team included [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}), coaxed from March.
 - **Herd's view.** "I was wrong to do X when I did. It overstretched us."
 

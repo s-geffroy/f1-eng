@@ -24,7 +24,7 @@ Alan Styman was Lotus's chief draughtsman at the time of the **Lotus 25** (1962)
 ## On the Lotus 25
 
 - He described his job himself: to interpret Chapman's layout and compile detail drawings for manufacture.
-- According to him, the first chassis was mainly made to their drawings, but many parts were made in-house and, if necessary, drawn later.
+- According to him, the first chassis was mainly made to their drawings, but many parts were made in the workshop and, if necessary, drawn afterwards.
 - The suspension parts were virtually carried over from the Lotus 24, its [spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) sister, with new pick-ups on the tub.
 - Doug Nye writes that the first chassis, "R1", drawn by Styman, was fabricated in secret.
 

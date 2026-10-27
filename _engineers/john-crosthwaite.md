@@ -36,8 +36,8 @@ John Crosthwaite was largely responsible for designing Mickey Thompson's [rear-e
 
 ## Indianapolis 1962
 
-- **The project.** According to Motor Sport, Thompson funded his bid through the Harvey Aluminum company and obtained GM's new aluminium-block V8. The car was "designed largely" by Crosthwaite, an ex-pat Englishman; Gurney's was the only one of Thompson's cars to qualify.
-- **The race.** According to the Indianapolis Motor Speedway's official results, the car, entered as the "Thompson Harvey Aluminum" with a Thompson chassis and a Buick engine, started eighth and retired on lap 92 with a rear-end failure: Gurney was classified twentieth. Motor Sport writes that it lasted until half-distance before the diff broke. Gurney defends it: "I will stand up for that 1962 car."
+- **The project.** According to Motor Sport, Thompson funded his bid through the Harvey Aluminum company and obtained GM's new aluminium-block V8. The car was "designed largely" by Crosthwaite, an expatriate Englishman; Gurney's was the only one of Thompson's cars to qualify.
+- **The race.** According to the Indianapolis Motor Speedway's official results, the car, entered as the "Thompson Harvey Aluminum" with a Thompson chassis and a Buick engine, started eighth and retired on lap 92 with a rear-end failure: Gurney was classified twentieth. Motor Sport writes that it lasted until half-distance before the differential broke. Gurney defended it: "I will stand up for that 1962 car."
 
 ## What is known of his career
 

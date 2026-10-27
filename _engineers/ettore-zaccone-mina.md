@@ -21,7 +21,7 @@ image: "/assets/partage/en/ettore-zaccone-mina.jpg"
 
 Ettore Zaccone Mina is the engine engineer of the **Lancia D50**. With [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}), he opted for an engine as small, compact and light as possible, since the power of a naturally aspirated 2.5-litre would never be spectacular.
 
-- The D50's V8 was drawn by Zaccone Mina under the supervision of Jano, who was responsible for the whole car. It is a 90° V8, producing around 250bhp at 7700rpm, which made its debut at the end of 1954.
+- The D50's V8 was drawn by Zaccone Mina under the supervision of Jano, who was responsible for the whole car. It was a 90° V8, producing around 250bhp at 7700rpm, which made its debut at the end of 1954.
 - Having passed to Ferrari along with the Lancia equipment, this engine was developed further and contributed to Juan Manuel Fangio's title in 1956.
 
 ## Attribution of the D50

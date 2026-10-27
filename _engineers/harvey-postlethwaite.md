@@ -39,4 +39,4 @@ Harvey Postlethwaite designed F1 cars from the 1970s to the 1990s, from Hesketh 
 
 ## Where sources disagree
 
-The date of his departure from Ferrari, around the time of [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})'s arrival, varies: summer 1987 according to GrandPrix.com's Postlethwaite profile, 1988 according to its Migeot profile; Motor Sport dates his arrival at Tyrrell to the summer of 1988. In 1990, Motor Sport presents him as Tyrrell's engineering director.
+The date of his departure from Ferrari, around the time of [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})'s arrival, varies: summer 1987 according to GrandPrix.com's Postlethwaite profile, 1988 according to its Migeot profile; Motor Sport dates his arrival at Tyrrell to the summer of 1988. In 1990, Motor Sport described him as Tyrrell's engineering director.
