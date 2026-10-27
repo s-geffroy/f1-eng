@@ -71,7 +71,7 @@ Chapman gagne par **largeur historique** ; Barnard gagne en **traçabilité pers
 
 ## Sources
 
-Consultées le 9 août 2026, revérifiées le 26 octobre 2026.
+Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris des fiches et de la chronologie sont sourcés sur ces pages, auxquelles chaque nom renvoie.
 
 - Autosport, Adam Cooper, « Tech secrets of a Formula 1 legend » (janvier 2017) : <https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/>
 - Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
@@ -85,3 +85,7 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026.
 - Motor Sport, Graham Keilloh, « Watch Lotus's last great Formula 1 innovation » (mars 2019) : <https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? » : <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>
+
+- Motor Sport, John Tipler, « A new frame of reference » (mai 2002) : <https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/>
+- Goodwood, Andrew Frankel, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016) : <https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/>
+- Formula 1, « Newey embarks on his first official day at Aston Martin » (2025) : <https://www.formula1.com/en/latest/article/newey-embarks-on-his-first-official-day-at-aston-martin.2Y669PtuTnEZ5jg0nlIRsz.html>

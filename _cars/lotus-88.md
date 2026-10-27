@@ -19,6 +19,8 @@ sources:
     url: "https://motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
   - titre: "Classic Team Lotus, “Type 88”"
     url: "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88"
+  - titre: "Motor Sport, Rob Widdows, “Carbon natural” (May 2007)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2007/73/carbon-natural"
 photo:
   fichier: "/assets/voitures/lotus-88.jpg"
   legende: "A Lotus 88 driven by Dario Franchitti at the Goodwood Members' Meeting, on 20 March 2016."
@@ -51,5 +53,5 @@ The regulations required aerodynamic parts to remain immobile relative to the sp
 ## Legacy
 
 - **1981**: in practice at Long Beach, on 13 March, the car was black-flagged{% include src.html n="3" %}. Chapman tried to enter it at other races, with no more success{% include src.html n="3" %}. At Silverstone, in July, the 88B version was accepted by the RAC stewards; the very next day, the federation declared it illegal{% include src.html n="3" %}.
-- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend{% include src.html n="4" %}; this was before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}), in April.
+- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend{% include src.html n="4" %}; this was before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}), at the Argentine Grand Prix{% include src.html n="5" %}.
 - Plan B, active suspension, would be the continuation of Lotus's work{% include src.html n="1" %}.

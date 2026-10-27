@@ -25,6 +25,8 @@ sources:
     url: "https://www.formula1.com/en/results/1986/team"
   - titre: "Formula 1, “1986 Race Results” (official results)"
     url: "https://www.formula1.com/en/results/1986/races"
+  - titre: "Formula 1, “1986 Driver Standings” (official results)"
+    url: "https://www.formula1.com/en/results/1986/drivers"
 photo:
   fichier: "/assets/voitures/williams-fw11.jpg"
   legende: "Nigel Mansell's no. 5 Williams FW11 on display at the Honda Collection Hall, March 2008."
@@ -61,5 +63,5 @@ The two drivers took points off each other{% include src.html n="1" %}. Accordin
 
 ## Legacy
 
-- **1986**: nine wins from sixteen races, five for Mansell and four for Piquet{% include src.html n="2,7" %}. Williams won the constructors' championship with 141 points{% include src.html n="6" %}; it was Honda's first constructors' title{% include src.html n="1,4" %}. Prost was champion with 72 points, ahead of Mansell (70) and Piquet (69){% include src.html n="1" %}.
+- **1986**: nine wins from sixteen races, five for Mansell and four for Piquet{% include src.html n="2,7" %}. Williams won the constructors' championship with 141 points{% include src.html n="6" %}; it was Honda's first constructors' title{% include src.html n="1,4" %}. Prost was champion with 72 points, ahead of Mansell (70) and Piquet (69){% include src.html n="1,8" %}.
 - The FW11B, its evolution, took Nelson Piquet to the title in 1987{% include src.html n="1" %}.

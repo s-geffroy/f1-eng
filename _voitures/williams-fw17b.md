@@ -31,6 +31,10 @@ sources:
     url: "https://www.formula1.com/en/results/1995/races"
   - titre: "Formula 1, classement des constructeurs 1995"
     url: "https://www.formula1.com/en/results/1995/team"
+  - titre: "Renault, « 30 ans de Formule 1 »"
+    url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+  - titre: "Goodwood, Simon Ostler, « The best F1 engine eras ranked » (octobre 2022)"
+    url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
 consultation: "26 octobre 2026"
 image: "/assets/partage/voitures/williams-fw17b.jpg"
 ---
@@ -41,6 +45,8 @@ La FW17B n'est pas une voiture nouvelle : c'est la FW17 de 1995 dans sa version 
 Le règlement de 1995 impose un fond à marche : une surface en gradin, placée 50mm au-dessus du plan de référence de chaque côté{% include src.html n="1,2" %}. [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) le raconte à Motor Sport : contrairement au plan de référence, le texte n'oblige pas ce plan à marche à aller jusqu'à l'essieu arrière{% include src.html n="1" %}. Il peut donc s'arrêter au bord de la roue arrière, ce qui laisse une « zone grise » : on peut découper au-dessus du plan de référence et agrandir la sortie du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur){% include src.html n="1" %}.
 
 Le diffuseur de la FW17B est ainsi creusé et remonte au-dessus des échappements au lieu de passer dessous{% include src.html n="1,2" %}. « Les diffuseurs étaient très limités par leur sortie », explique Newey : une sortie plus grande fait passer beaucoup plus d'air sous la voiture{% include src.html n="1" %}. Selon lui, la solution apparaît sur la FW17B à Estoril, fin 1995{% include src.html n="1" %}. Il s'attendait à la voir copiée pour 1996, l'ayant montrée au « pire moment possible » ; ses rivaux ne l'ont pas fait{% include src.html n="1" %}.
+
+- **Moteur** : Renault V10 RS7 de 3 litres, la cylindrée en vigueur à partir de 1995{% include src.html n="11,12" %}.
 
 ## Qui l'a conçue
 

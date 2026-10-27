@@ -31,7 +31,7 @@ Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effe
 
 Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide{% include src.html n="1" %}. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium{% include src.html n="2" %}.
 
-Selon Doug Nye, l'idée du montage des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du de Havilland Mosquito{% include src.html n="2" %}. Selon le récit de Peter Wright, c'est Ralph Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
+Selon Doug Nye, l'idée du montage des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du de Havilland Mosquito{% include src.html n="2" %}.
 
 ## Qui l'a conçue
 

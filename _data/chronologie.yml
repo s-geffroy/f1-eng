@@ -191,6 +191,8 @@ jalons:
     sources:
       - titre: "Motor Sport, Keith Howard, « Harnessing the power » (janvier 2001)"
         url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
+      - titre: "Formula1.com, Mark Hughes, « TECH TUESDAY: The ground-breaking Brabham BT52 » (août 2018)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
 
   - id: lotus-92-active
     annee: 1983
@@ -845,6 +847,10 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
       - titre: "Motor Sport Magazine, « Teapots, turbos and titles: Renault's wild F1 ride » (décembre 2025)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/"
+      - titre: "Motor Sport Magazine, « Renault blew it! The pioneering F1 turbo that failed Prost in title bid » (décembre 2024)"
+        url: "https://www.motorsportmagazine.com/archive/article/december-2024/38/renault-blew-it-the-pioneering-f1-turbo-that-failed-prost-in-title-bid/"
+      - titre: "Goodwood, « Renault's RS01, the first turbocharged Formula 1 car »"
+        url: "https://www.goodwood.com/grr/f1/renaults-rs01-turbocharged-formula-1/"
   - id: "ventilateur-ecarte-1978"
     annee: 1978
     categorie: "reglement"
@@ -1222,7 +1228,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "L'inerter de Malcolm Smith"
-    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston fait tourner un volant d'inertie, et la force transmise est proportionnelle à l'accélération relative de ses deux extrémités, ce qui, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
+    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston entraîne un volant d'inertie, qui tourne en proportion du déplacement relatif de ses deux points d'attache ; ce dispositif, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
     liens:
       - jalon: "inerter"
         mecanisme: "transfert"
@@ -1446,12 +1452,14 @@ contexte:
     annee: 2018
     categorie: "securite"
     titre: "Introduction du halo"
-    texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, fixé devant et au-dessus du cockpit, doit résister à une charge verticale de 116 kN ; on l'éprouve en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
+    texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, placé au-dessus de la tête du pilote, doit résister à une charge verticale de 116 kN ; on l'éprouve en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
       - titre: "Formula 1, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
         url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
+      - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history »"
+        url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - id: "grosjean-bahrein"
     annee: 2020
     categorie: "securite"

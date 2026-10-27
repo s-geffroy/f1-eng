@@ -63,7 +63,7 @@ The rule is simple: **the same contribution is not credited in full to more than
 
 **Cosworth.** The DFV is a Cosworth achievement, with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) as the central technical figure and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) as co-founder and a major contributor.
 
-**Williams active suspension.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) (overall architecture and direction), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (designer of the first system, on the FW11B in 1987), then [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) (the hardware) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) (most of the software), who arrived at the end of 1987, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) (joint technical direction of the FW14B and FW15C). Credit is shared out according to each person's actual role.
+**Williams active suspension.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) (overall architecture and direction), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (designer of the first system, on the FW11B in 1987), then [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) (the hardware) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) (most of the software), who arrived in 1987, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) (joint technical direction of the FW14B and FW15C). Credit is shared out according to each person's actual role.
 
 ## What the method produces
 
@@ -88,7 +88,7 @@ Collective innovations involve many more engineers than the twenty in the rankin
 
 ## Sources
 
-Consulted on 9 August 2026, rechecked on 26 October 2026.
+Consulted on 9 August 2026, rechecked on 26 October 2026. Facts taken from the entries and the timeline are sourced on those pages, which each name links to.
 
 - Formula 1, "TECH TUESDAY: The Lotus 79, F1's ground effect marvel": <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
 - Formula 1, "Why the Williams FW15C remains F1's technological Tour de Force": <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
@@ -98,3 +98,5 @@ Consulted on 9 August 2026, rechecked on 26 October 2026.
 - GrandPrix.com, "Tony Southgate": <https://grandprix.com/people/tony-southgate.html>
 - Motor Sport Magazine, "Lunch with… Frank Dernie": <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
 - Formula 1, "VOTE NOW: Who is the most influential technical innovator in F1 history?": <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
+
+- Formula 1, "Tech boss Lowe to leave Mercedes post": <https://www.formula1.com/en/latest/article/lowe-to-leave-mercedes.Zh4cZaPf8GSeyWKOOqski>

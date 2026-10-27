@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"
   - titre: "Goodwood, « The best Lancia racing and rally cars » (janvier 2022)"
     url: "https://www.goodwood.com/grr/race/historic/2022/1/the-best-lancia-racing-and-rally-cars/"
+  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
+    url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 photo:
   fichier: "/assets/voitures/lancia-d50.jpg"
   legende: "Une Lancia D50 de 1955 aux couleurs de la Scuderia Ferrari, au Museo Nazionale dell'Automobile de Turin."
@@ -50,4 +52,4 @@ Ces masses rassemblées lui donnent un faible [moment polaire d'inertie]({{ site
 
 ## Ce qu'elle laisse
 
-En 1955, les voitures passent à Ferrari{% include src.html n="1,2" %}. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre mondial de 1956{% include src.html n="1,3" %}. Le principe du moteur porteur sera généralisé à partir de 1967, en position arrière, par la [Lotus 49]({{ site.baseurl }}{% link _voitures/lotus-49.md %}) et le DFV.
+En 1955, les voitures passent à Ferrari{% include src.html n="1,2" %}. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre mondial de 1956{% include src.html n="1,3" %}. Le principe du moteur porteur sera généralisé à partir de 1967, en position arrière, par la [Lotus 49]({{ site.baseurl }}{% link _voitures/lotus-49.md %}) et le DFV{% include src.html n="4" %}.

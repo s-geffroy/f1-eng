@@ -41,6 +41,10 @@ sources:
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
   - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
+  - titre: "Motor Sport Magazine, James Elson, « 'Gordon Murray's living in a parallel universe' — McLaren designers hit back over MP4/4 claims » (octobre 2021)"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murrays-living-in-a-parallel-universe-mclaren-designers-hit-back-over-mp4-4-claims/"
+  - titre: "Matthew Jeffreys, Motor Sport Magazine, « Matthew Jeffreys challenges Gordon Murray's account of the McLaren MP4/4 » (novembre 2026)"
+    url: "https://www.motorsportmagazine.com/archive/article/november-2026/42/matthew-jeffreys-challenges-gordon-murrays-account-of-the-mclaren-mp4-4/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/gordon-murray.jpg"
 redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
@@ -56,7 +60,7 @@ Murray combine radicalité conceptuelle et pragmatisme{% include src.html n="3,4
 
 ## Attribution : la MP4/4
 
-formula1.com attribue la MP4/4 tantôt à Murray, dans son vote sur l'innovateur technique le plus influent{% include src.html n="3,4" %}, tantôt à Steve Nichols, dans sa présentation du podcast Beyond the Grid{% include src.html n="5" %}. La paternité est discutée{% include src.html n="10" %}. Selon Autosport, Murray et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), alors directeur technique et chef designer de McLaren, ont tous deux été présentés comme son concepteur ; Nichols juge le rôle de Murray « plus directorial que technique »{% include src.html n="10" %}. Autosport conclut toutefois que le dessin de détail revient à Nichols et à son équipe, mais que Murray, comme il sied à un directeur technique, était au cœur du concept{% include src.html n="10" %}. La formulation prudente s'impose : Murray a joué un rôle central dans le concept de la MP4/4, il n'en est pas l'auteur unique. L'équipe de conception conteste d'ailleurs son récit : selon Motor Sport, ses dix-sept membres avaient relevé par écrit 82 inexactitudes dans le livre d'Ian Bamsey qui lui attribuait la voiture, et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), chef de projet de la monocoque, le conteste encore publiquement en 2026.
+formula1.com attribue la MP4/4 tantôt à Murray, dans son vote sur l'innovateur technique le plus influent{% include src.html n="3,4" %}, tantôt à Steve Nichols, dans sa présentation du podcast Beyond the Grid{% include src.html n="5" %}. La paternité est discutée{% include src.html n="10" %}. Selon Autosport, Murray et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), alors directeur technique et chef designer de McLaren, ont tous deux été présentés comme son concepteur ; Nichols juge le rôle de Murray « plus directorial que technique »{% include src.html n="10" %}. Autosport conclut toutefois que le dessin de détail revient à Nichols et à son équipe, mais que Murray, comme il sied à un directeur technique, était au cœur du concept{% include src.html n="10" %}. La formulation prudente s'impose : Murray a joué un rôle central dans le concept de la MP4/4, il n'en est pas l'auteur unique. L'équipe de conception conteste d'ailleurs son récit : selon Motor Sport, ses dix-sept membres avaient relevé par écrit 82 inexactitudes dans le livre d'Ian Bamsey qui lui attribuait la voiture{% include src.html n="12" %}, et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), chef de projet de la monocoque et de la suspension avant, le conteste encore publiquement en 2026{% include src.html n="13" %}.
 
 ## Pourquoi le Tier B
 

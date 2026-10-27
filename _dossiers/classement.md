@@ -62,7 +62,7 @@ Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il class
 
 ## Sources principales
 
-Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Chaque entrée donne ses propres sources.
+Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris des fiches et de la chronologie sont sourcés sur ces pages, auxquelles chaque nom renvoie. Chaque entrée donne ses propres sources.
 
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » : <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>

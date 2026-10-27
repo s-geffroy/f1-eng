@@ -31,6 +31,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
   - titre: "Stellantis Heritage, “Lancia D50”"
     url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
+  - titre: "Andrew Frankel, Goodwood, “Thank Frankel It's Friday: The greatest engine of all” (October 2016)"
+    url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/vittorio-jano.jpg"
 ---
@@ -42,7 +44,7 @@ Vittorio Jano's work began long before the F1 world championship{% include src.h
 
 It is the **Lancia D50**, which entered the world championship at the end of 1954, that earns Jano his place in this ranking{% include src.html n="1,4,6" %}. According to Motor Sport, he defined its main principles{% include src.html n="1" %}.
 
-- **The stressed engine.** The [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis{% include src.html n="1,4,6" %}. It is mounted at an angle so that the propeller shaft runs to the left of the driver{% include src.html n="1,6" %}. The same principle — the engine as a structural member — would be made widespread in 1967, in a rear-mounted position, by the Lotus 49 and the DFV.
+- **The stressed engine.** The [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis{% include src.html n="1,4,6" %}. It is mounted at an angle so that the propeller shaft runs to the left of the driver{% include src.html n="1,6" %}. The same principle — the engine as a structural member — would be made widespread in 1967, in a rear-mounted position, by the Lotus 49 and the DFV{% include src.html n="7" %}.
 - **The side tanks.** The fuel is carried in two long tanks placed on either side, between the front and rear wheels{% include src.html n="1,6" %}. Motor Sport (2002), however, attributes the idea of the side tanks to [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself{% include src.html n="2" %}.
 - The D50 first ran on 20 February 1954 at Caselle airport in Turin, and contested its first race at the last Grand Prix of 1954{% include src.html n="2,4,6" %}.
 - On 26 July 1955, six of the eight D50s were handed over to Ferrari{% include src.html n="1" %}. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 title{% include src.html n="1,6" %}.

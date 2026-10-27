@@ -19,6 +19,8 @@ sources:
     url: "https://motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
   - titre: "Classic Team Lotus, « Type 88 »"
     url: "https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88"
+  - titre: "Motor Sport, Rob Widdows, « Carbon natural » (mai 2007)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2007/73/carbon-natural"
 photo:
   fichier: "/assets/voitures/lotus-88.jpg"
   legende: "Une Lotus 88 pilotée par Dario Franchitti au Goodwood Members' Meeting, le 20 mars 2016."
@@ -51,5 +53,5 @@ Le règlement exige que les pièces aérodynamiques restent immobiles par rappor
 ## Ce qu'elle laisse
 
 - **1981** : aux essais de Long Beach, le 13 mars, la voiture reçoit le drapeau noir{% include src.html n="3" %}. Chapman tente de l'engager à d'autres courses, sans plus de succès{% include src.html n="3" %}. À Silverstone, en juillet, la version 88B est acceptée par les commissaires du RAC ; dès le lendemain, la fédération la déclare illégale{% include src.html n="3" %}.
-- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix{% include src.html n="4" %} ; c'était avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}), en avril.
+- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix{% include src.html n="4" %} ; c'était avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}), au Grand Prix d'Argentine{% include src.html n="5" %}.
 - Le plan B, la suspension active, sera la suite du travail de Lotus{% include src.html n="1" %}.

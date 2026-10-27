@@ -31,6 +31,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
   - titre: "Stellantis Heritage, « Lancia D50 »"
     url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
+  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
+    url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/vittorio-jano.jpg"
 redirect_from: "/ingenieurs/2026/10/25/vittorio-jano.html"
@@ -43,7 +45,7 @@ Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% 
 
 C'est la **Lancia D50**, entrée en championnat du monde fin 1954, qui fait entrer Jano dans ce classement{% include src.html n="1,4,6" %}. Selon Motor Sport, il en définit les grands principes{% include src.html n="1" %}.
 
-- **Le moteur porteur.** Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis{% include src.html n="1,4,6" %}. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote{% include src.html n="1,6" %}. Le même principe — le moteur comme élément de structure — sera généralisé en 1967, en position arrière, par la Lotus 49 et le DFV.
+- **Le moteur porteur.** Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis{% include src.html n="1,4,6" %}. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote{% include src.html n="1,6" %}. Le même principe — le moteur comme élément de structure — sera généralisé en 1967, en position arrière, par la Lotus 49 et le DFV{% include src.html n="7" %}.
 - **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière{% include src.html n="1,6" %}. Motor Sport (2002) attribue toutefois l'idée des réservoirs latéraux à [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) lui-même{% include src.html n="2" %}.
 - La D50 roule pour la première fois le 20 février 1954 à l'aéroport de Caselle, à Turin, et dispute sa première course lors du dernier Grand Prix de 1954{% include src.html n="2,4,6" %}.
 - Le 26 juillet 1955, six des huit D50 sont remises à Ferrari{% include src.html n="1" %}. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre de 1956{% include src.html n="1,6" %}.

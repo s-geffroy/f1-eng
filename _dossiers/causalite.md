@@ -75,3 +75,5 @@ Consultées le 26 octobre 2026. Les sources de chaque événement de contexte fi
 - Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021) : <https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment>
 - Motor Sport, Doug Nye, « Lotus 78: F1’s first true ground effect car » (février 2020) : <https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
 - Motor Sport Magazine, Chris Nixon, « Too good for their own good? » (avril 2002) : <https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/>
+
+- Motor Sport, John Tipler, « A new frame of reference » (mai 2002) : <https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/>

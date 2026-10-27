@@ -20,6 +20,10 @@ sources:
     url: "https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/race-stats/race-results/1962"
   - titre: "Bill Boddy, Motor Sport Magazine, “The Reliant Scimitar GTE” (June 1970)"
     url: "https://www.motorsportmagazine.com/archive/article/june-1970/60/the-reliant-scimitar-gte/"
+  - titre: "Wikimedia Commons, “J Crosthwaite (with oily rag) and Graham Hill (on left of picture) with Lotus” (file page)"
+    url: "https://commons.wikimedia.org/wiki/File:J_Crosthwaite_(with_oily_rag)_and_Graham_Hill_(on_left_of_picture)_with_Lotus.jpg"
+  - titre: "Wikimedia Commons, “Colin Chapman in Lotus, J Crosthwaite leaning on car (right)” (file page)"
+    url: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"
 portrait:
   fichier: "/assets/portraits/john-crosthwaite.jpg"
   legende: "John Crosthwaite (centre, holding a rag) beside the Lotus Elevens, 1957. Graham Hill is on the left. Photo uploaded to Commons by the Crosthwaite family."
@@ -41,7 +45,7 @@ John Crosthwaite was largely responsible for designing Mickey Thompson's [rear-e
 
 ## What is known of his career
 
-The rest of his career rests mainly on the recollections of Barrie Wills, a former Reliant executive, published on a blog: spells at Cooper, at Team Lotus and at Dolphin in the United States; a return to Britain at the request of [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to design the BRM F1 car; then, from 1966, a role as chassis consultant at Reliant{% include src.html n="3" %}. Only his work for Reliant is corroborated by a first-rank source: in June 1970, Bill Boddy credited Crosthwaite in Motor Sport with the rigid, braced chassis of the Reliant Scimitar GTE{% include src.html n="6" %}. The 1950s Lotus photos, including the one of [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) on this site, were uploaded to Wikimedia Commons by his family.
+The rest of his career rests mainly on the recollections of Barrie Wills, a former Reliant executive, published on a blog: spells at Cooper, at Team Lotus and at Dolphin in the United States; a return to Britain at the request of [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) to design the BRM F1 car; then, from 1966, a role as chassis consultant at Reliant{% include src.html n="3" %}. Only his work for Reliant is corroborated by a first-rank source: in June 1970, Bill Boddy credited Crosthwaite in Motor Sport with the rigid, braced chassis of the Reliant Scimitar GTE{% include src.html n="6" %}. The 1950s Lotus photos, including the one of [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) on this site, were uploaded to Wikimedia Commons by a contributor named Raycrosthwaite{% include src.html n="7,8" %}.
 
 ## Limits of the sources
 

@@ -25,6 +25,8 @@ sources:
     url: "https://www.formula1.com/en/results/1986/team"
   - titre: "Formula 1, « 1986 Race Results » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1986/races"
+  - titre: "Formula 1, « 1986 Driver Standings » (résultats officiels)"
+    url: "https://www.formula1.com/en/results/1986/drivers"
 photo:
   fichier: "/assets/voitures/williams-fw11.jpg"
   legende: "La Williams FW11 n° 5 de Nigel Mansell, exposée au Honda Collection Hall, en mars 2008."
@@ -61,5 +63,5 @@ Les deux pilotes se prennent mutuellement des points{% include src.html n="1" %}
 
 ## Ce qu'elle laisse
 
-- **1986** : neuf victoires en seize courses, cinq pour Mansell, quatre pour Piquet{% include src.html n="2,7" %}. Williams est champion des constructeurs avec 141 points{% include src.html n="6" %} ; c'est le premier titre constructeurs de Honda{% include src.html n="1,4" %}. Prost est champion avec 72 points, devant Mansell (70) et Piquet (69){% include src.html n="1" %}.
+- **1986** : neuf victoires en seize courses, cinq pour Mansell, quatre pour Piquet{% include src.html n="2,7" %}. Williams est champion des constructeurs avec 141 points{% include src.html n="6" %} ; c'est le premier titre constructeurs de Honda{% include src.html n="1,4" %}. Prost est champion avec 72 points, devant Mansell (70) et Piquet (69){% include src.html n="1,8" %}.
 - La FW11B, son évolution, mène Nelson Piquet au titre en 1987{% include src.html n="1" %}.

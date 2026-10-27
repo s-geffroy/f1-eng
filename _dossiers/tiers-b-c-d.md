@@ -68,7 +68,7 @@ Derrière les vingt, l'encyclopédie documente aussi, sans les noter, trente-hui
 
 ## Sources
 
-Consultées le 9 août 2026, revérifiées le 26 octobre 2026.
+Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris des fiches et de la chronologie sont sourcés sur ces pages, auxquelles chaque nom renvoie.
 
 - Autosport, Gary Watkins, « The origins of McLaren-Honda's greatest racer » (août 2017) : <https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/>
 - Renault, « 30 ans de Formule 1 » : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>

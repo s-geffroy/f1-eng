@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"
   - titre: "Goodwood, “The best Lancia racing and rally cars” (January 2022)"
     url: "https://www.goodwood.com/grr/race/historic/2022/1/the-best-lancia-racing-and-rally-cars/"
+  - titre: "Andrew Frankel, Goodwood, “Thank Frankel It's Friday: The greatest engine of all” (October 2016)"
+    url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 photo:
   fichier: "/assets/voitures/lancia-d50.jpg"
   legende: "A 1955 Lancia D50 in Scuderia Ferrari colours at the Museo Nazionale dell'Automobile in Turin."
@@ -50,4 +52,4 @@ These concentrated masses gave it a low [polar moment of inertia]({{ site.baseur
 
 ## Legacy
 
-In 1955 the cars passed to Ferrari{% include src.html n="1,2" %}. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 world title{% include src.html n="1,3" %}. The stressed-engine principle would become widespread from 1967 onwards, in a rear-engined layout, with the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) and the DFV.
+In 1955 the cars passed to Ferrari{% include src.html n="1,2" %}. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 world title{% include src.html n="1,3" %}. The stressed-engine principle would become widespread from 1967 onwards, in a rear-engined layout, with the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) and the DFV{% include src.html n="4" %}.

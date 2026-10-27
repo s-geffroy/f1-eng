@@ -31,7 +31,7 @@ According to formula1.com, the 1977 Lotus 78 brought F1 into the era of [ground 
 
 To seal this channel, it was presented with brushes, then raced with rigid nylon [skirts]({{ site.baseurl }}/en/glossary/#jupes){% include src.html n="1" %}. The tub was light and stiff, thanks to aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) sandwich panels{% include src.html n="2" %}.
 
-According to Doug Nye, the idea for the radiator installation came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the de Havilland Mosquito{% include src.html n="2" %}. According to Peter Wright's account, it was Ralph Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose.
+According to Doug Nye, the idea for the radiator installation came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the de Havilland Mosquito{% include src.html n="2" %}.
 
 ## Who designed it
 
