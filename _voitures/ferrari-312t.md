@@ -29,17 +29,17 @@ image: "/assets/partage/voitures/ferrari-312t.jpg"
 ---
 ## Ce qu'elle change
 
-Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement. formula1.com présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1.
+Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport en 2020, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement ; Alan Henry place toute la boîte en avant de l'essieu. formula1.com présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1.
 
-Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inertie]({{ site.baseurl }}/glossaire/#moment-polaire) possible, en rassemblant le plus de masses possible entre les essieux. C'est l'aboutissement d'une démarche commencée sur la 312B3, qui cherchait déjà à [centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses) pour rendre la voiture plus vive.
+Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inertie]({{ site.baseurl }}/glossaire/#moment-polaire) possible, en rassemblant le plus de masses possible entre les essieux. Selon formula1.com, c'est l'aboutissement d'une démarche commencée sur la 312B3, qui cherchait déjà à [centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses) pour rendre la voiture plus vive.
 
 ## Qui l'a conçue
 
-[Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) dirige la conception de la voiture. Son [flat-12]({{ site.baseurl }}/glossaire/#flat-12) a été créé en collaboration avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), dont l'équipe moteur est saluée par Motor Sport. Le même magazine rappelle que Forghieri suivait en partie une voie ouverte en 1972 par [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) chez Tyrrell et [Robin Herd]({{ site.baseurl }}{% link _ingenieurs/robin-herd.md %}) chez March.
+[Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) dirige la conception de la voiture. Son [flat-12]({{ site.baseurl }}/glossaire/#flat-12) a été créé en collaboration avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), dont l'équipe moteur est saluée par Motor Sport en 2020. Le même article rappelle que Forghieri suivait en partie une voie ouverte en 1972 par [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) chez Tyrrell et [Robin Herd]({{ site.baseurl }}{% link _ingenieurs/robin-herd.md %}) chez March.
 
 ## Limites
 
-Sur le papier, Niki Lauda reste d'abord indifférent ; aux essais, il trouve la voiture plus exigeante que la 312B3, mais avec des limites bien plus hautes, et comprend vite qu'elle est d'une autre classe. Il le résumera ainsi : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. » Les débuts à Kyalami, en mars 1975, sont manqués : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents.
+Sur le papier, Niki Lauda reste d'abord indifférent ; au volant, à Fiorano, il comprend vite qu'elle est d'une autre classe, raconte-t-il à Alan Henry. Il le résumera ainsi : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. » Selon Motor Sport en 2020, il la trouve aussi, aux essais, plus exigeante que la 312B3, mais avec des limites bien plus hautes. Le même article revient sur les débuts manqués à Kyalami, en mars 1975 : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents.
 
 ## Ce qu'elle laisse
 

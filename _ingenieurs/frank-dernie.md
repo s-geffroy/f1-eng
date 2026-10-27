@@ -28,7 +28,7 @@ redirect_from: "/ingenieurs/2026/10/25/frank-dernie.html"
 
 Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosserie : celle du **processus d'ingénierie**.
 
-- **Numérique et données.** Selon ses propres déclarations, il a été le premier en F1 à utiliser la [CAO]({{ site.baseurl }}/glossaire/#cao) et le calcul assisté par ordinateur, le premier à installer un système numérique d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) dans une F1, et le premier à proposer une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) interne à l'équipe. Aucune source indépendante ne confirme ces primautés.
+- **Numérique et données.** Selon ses propres déclarations, il a été le premier en F1 à utiliser la [CAO]({{ site.baseurl }}/glossaire/#cao) et le calcul assisté par ordinateur, le premier à installer un système numérique d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) dans une F1, et le premier à proposer une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) interne à l'équipe. Aucune source indépendante ne confirme ses primautés numériques ; GrandPrix.com lui prête toutefois « un rôle important » dans la création de la soufflerie de Williams, sans parler de primauté.
 - **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) Williams.** Selon Motor Sport, le système Williams est conçu par Dernie. Là où le système Lotus s'inspirait de l'aéronautique, celui de Williams dérive d'un système routier. Monté sur la FW11B en fin de saison 1987, il gagne sa première course à Monza avec Nelson Piquet.
 
 ## Parcours technique
@@ -36,7 +36,7 @@ Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosser
 - **Williams.** La date de son arrivée diffère selon les sources : 1977 selon Dernie lui-même ; GrandPrix.com la place après la fermeture de Hesketh, où il serait entré fin 1976 pour deux saisons ; Patrick Head, dans un entretien de 2022 à Motor Sport, la date de janvier 1979.
 - **Lotus.** Directeur technique, il conçoit la Lotus 101 de 1989 ; la 102 à [V12]({{ site.baseurl }}/glossaire/#architecture-moteur) Lamborghini en est, selon lui, « pour l'essentiel la même voiture ».
 - **Ligier**, où il conçoit la JS37, puis **Benetton** pour 1993 : selon son récit, [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) le fait venir comme ingénieur en chef.
-- **Arrows**, où il signe l'A18 de 1997, puis consultant chez Williams en 2003, et chez Toyota jusqu'au retrait de l'équipe fin 2009.
+- **Arrows**, où il signe, selon lui, l'A18 de 1997, puis consultant chez Williams en 2003, et chez Toyota jusqu'au retrait de l'équipe fin 2009.
 
 ## Attribution
 

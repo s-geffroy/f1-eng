@@ -681,7 +681,7 @@ contexte:
       - jalon: "dfv-fva"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "Le FVA est conçu pour la limite de 1600cm³ de la nouvelle Formule 2, qui impose un bloc de série : Cosworth part de celui de la Ford Cortina (Mike Doodson, Denis Jenkinson)."
+        pourquoi: "Le FVA est conçu pour la limite de 1600cm³ de la nouvelle Formule 2, qui impose un bloc de série (Mike Doodson, Denis Jenkinson) : Cosworth part de celui de la Ford Cortina (Denis Jenkinson)."
     sources:
       - titre: "Motor Sport, Mike Doodson, « Keith Duckworth » (janvier 1970)"
         url: "https://www.motorsportmagazine.com/archive/article/january-1970/41/keith-duckworth"

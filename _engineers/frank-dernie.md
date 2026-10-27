@@ -27,7 +27,7 @@ image: "/assets/partage/en/frank-dernie.jpg"
 
 Frank Dernie is the figure of a revolution that does not show on the bodywork: that of the **engineering process**.
 
-- **Digital and data.** By his own account, he was the first in F1 to use [CAD]({{ site.baseurl }}/en/glossary/#cao) and computer-aided calculation, the first to install a digital [data acquisition]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees) system in an F1 car, and the first to propose an in-house team [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie). No independent source confirms these firsts.
+- **Digital and data.** By his own account, he was the first in F1 to use [CAD]({{ site.baseurl }}/en/glossary/#cao) and computer-aided calculation, the first to install a digital [data acquisition]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees) system in an F1 car, and the first to propose an in-house team [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie). No independent source confirms his digital firsts; GrandPrix.com does, however, credit him with "an important role" in establishing Williams's own wind tunnel, without speaking of a first.
 - **Williams [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active).** According to Motor Sport, the Williams system was designed by Dernie. Whereas the Lotus system drew on aeronautics, the Williams one derived from a road-car system. Fitted to the FW11B at the end of the 1987 season, it won its first race at Monza with Nelson Piquet.
 
 ## Technical career
@@ -35,7 +35,7 @@ Frank Dernie is the figure of a revolution that does not show on the bodywork: t
 - **Williams.** The date of his arrival differs between sources: 1977 according to Dernie himself; GrandPrix.com places it after the closure of Hesketh, which he is said to have joined at the end of 1976 for two seasons; Patrick Head, in a 2022 Motor Sport interview, dated it to January 1979.
 - **Lotus.** As technical director, he designed the 1989 Lotus 101; the Lamborghini V12-powered 102 was, in his words, "basically the same car".
 - **Ligier**, where he designed the JS37, then **Benetton** for 1993: according to his account, [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) brought him in as chief engineer.
-- **Arrows**, where he produced the 1997 A18, then consultant at Williams in 2003, and at Toyota until the team's withdrawal at the end of 2009.
+- **Arrows**, where, by his account, he produced the 1997 A18, then consultant at Williams in 2003, and at Toyota until the team's withdrawal at the end of 2009.
 
 ## Attribution
 

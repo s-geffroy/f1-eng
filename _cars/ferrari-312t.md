@@ -29,17 +29,17 @@ image: "/assets/partage/en/voitures/ferrari-312t.jpg"
 ---
 ## What it changed
 
-The "T" in 312T refers to its "trasversale" gearbox, as Motor Sport writes. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase. formula1.com presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1.
+The "T" in 312T refers to its "trasversale" gearbox, as Motor Sport writes. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport in 2020, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase; Alan Henry places the whole gearbox ahead of the axle. formula1.com presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1.
 
-The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), by gathering as much mass as possible between the axles. It was the culmination of an approach begun on the 312B3, which already sought to [centralise the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses) to make the car more agile.
+The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), by gathering as much mass as possible between the axles. According to formula1.com, it was the culmination of an approach begun on the 312B3, which already sought to [centralise the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses) to make the car more agile.
 
 ## Who designed it
 
-[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) led the design of the car. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praises. The same magazine points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March.
+[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) led the design of the car. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praised in 2020. The same article points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March.
 
 ## Limitations
 
-On paper, Niki Lauda was at first unmoved; in testing, he found the car more demanding than the 312B3, but with far higher limits, and quickly realised it was in a different class. He would sum it up like this: "The chassis was just perfect; it was totally neutral and progressive." The debut at Kyalami, in March 1975, went wrong: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
+On paper, Niki Lauda was at first unmoved; once he drove it at Fiorano, he quickly realised it was in a different class, as he told Alan Henry. He would sum it up like this: "The chassis was just perfect; it was totally neutral and progressive." According to Motor Sport in 2020, he also found it in testing more demanding than the 312B3, but with far higher limits. The same article recounts the failed debut at Kyalami, in March 1975: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
 
 ## Legacy
 
