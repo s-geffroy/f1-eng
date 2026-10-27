@@ -49,6 +49,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
   - titre: "Formula 1, « Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role » (novembre 2025)"
     url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
+  - titre: "Williams F1, « Sir Patrick Head »"
+    url: "https://www.williamsf1.com/persons/sir-patrick-head-v2"
 consultation: "25 octobre 2026"
 image: "/assets/partage/adrian-newey.jpg"
 redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
@@ -67,14 +69,14 @@ Lui-même le dit ainsi : ce qu'il aime, c'est faire travailler toutes les discip
 
 ## La preuve par la répétition
 
-Il a démontré cette capacité sous plusieurs règlements et dans plusieurs équipes{% include src.html n="1,2" %} :
+Il a démontré cette capacité sous plusieurs règlements et dans plusieurs équipes{% include src.html n="1,2,6" %} :
 
 **March, devenue Leyton House → Williams → McLaren → Red Bull → Aston Martin (depuis 2025)**
 
 - **Formation.** Diplômé en aéronautique de l'université de Southampton avec la mention la plus haute, il y écrit un mémoire sur l'aérodynamique à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="4,5" %}. Son premier poste, en 1980 (juillet 1979 selon formula1.com), est chez Fittipaldi, sous [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}){% include src.html n="5,6" %}.
 - **March.** Selon GrandPrix.com, Al Unser gagne le titre IndyCar 1985 sur une March 85C, et Bobby Rahal en ajoute un second en 1986{% include src.html n="4" %}. En F1, la March 881 de 1988 introduit un ensemble nez et [aileron]({{ site.baseurl }}/glossaire/#aileron) avant entièrement intégré, creusé dessous{% include src.html n="6" %}.
 - **Leyton House.** La CG901 de 1990 souffre d'abord d'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) défaillante ; le problème corrigé, elle mène la majeure partie du Grand Prix de France et finit deuxième{% include src.html n="3,7" %}.
-- **Williams.** La FW14 prolonge la CG901{% include src.html n="4,7" %}. Ses Williams de 1991 à 1997 gagnent 59 Grands Prix (58 selon GrandPrix.com){% include src.html n="4" %}. Le [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à sortie surélevée apparaît fin 1995 sur la FW17B et devient un atout majeur de la Williams 1996{% include src.html n="6" %}.
+- **Williams.** La FW14 prolonge la CG901{% include src.html n="4,7" %}. Ses Williams de 1991 à 1997 gagnent 59 Grands Prix{% include src.html n="16" %} (58 selon GrandPrix.com){% include src.html n="4" %}. Le [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à sortie surélevée apparaît fin 1995 sur la FW17B et devient un atout majeur de la Williams 1996{% include src.html n="6" %}.
 - **McLaren.** Sur la MP4-13 de 1998, Newey et son équipe consacrent 12 000 heures de travail à retrouver l'[appui]({{ site.baseurl }}/glossaire/#appui) perdu avec le nouveau règlement{% include src.html n="8" %}.
 - **Red Bull.** La RB5 de 2009 adopte une suspension arrière à tirants, pour resserrer la carrosserie près du fond autour du nouveau diffuseur{% include src.html n="6,10" %}. La RB6 de 2010 « réinvente » le [diffuseur soufflé]({{ site.baseurl }}/glossaire/#diffuseur-souffle) par les échappements{% include src.html n="6" %}. Selon l'équipe, ses années Red Bull comptent sept titres pilotes, six titres constructeurs et 118 victoires (en incluant celle de Toro Rosso en 2008){% include src.html n="11" %}.
 - **Aston Martin.** Il y commence le 1er mars 2025 comme associé directeur technique (managing technical partner){% include src.html n="12" %}, puis devient directeur de l'équipe pour la saison 2026{% include src.html n="13,15" %}.

@@ -30,6 +30,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/may-1967/52/bank-holiday-racing/"
   - titre: "Alan Henry, Motor Sport Magazine, « Formula 2 review: end of an era » (janvier 1972)"
     url: "https://www.motorsportmagazine.com/archive/article/january-1972/21/formula-2-review-end-of-an-era/"
+  - titre: "Doug Nye, Motor Sport Magazine, « Lancia D50: The grand prix great that doomed a team » (juillet 2020)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/keith-duckworth.jpg"
 redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
@@ -46,7 +48,7 @@ Le **Cosworth DFV** ne transforme pas seulement le moteur : il modifie l'écosys
 2. utilisé comme **[composant structurel]({{ site.baseurl }}/glossaire/#moteur-porteur)** dans l'architecture de la Lotus 49 : le moteur forme la partie arrière de la voiture{% include src.html n="4" %} ;
 3. **disponible pour de nombreuses équipes**{% include src.html n="1,5" %} ;
 4. qui n'ont donc plus besoin de développer un moteur propriétaire (le DFV ouvre ainsi la porte à des équipes comme celles de Frank Williams et de Ken Tyrrell){% include src.html n="1,5" %} ;
-5. et peuvent concentrer leurs ressources sur le châssis et l'aérodynamique{% include src.html n="5" %}.
+5. et peuvent se contenter de construire une coque en aluminium pour y loger le moteur et la boîte de vitesses{% include src.html n="5" %}.
 
 Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne{% include src.html n="1,6" %}. Le DFV gagne toutes les courses des saisons 1969 et 1973{% include src.html n="1,3" %}, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, les derniers dans sa version DFY à course courte{% include src.html n="5" %}.
 
@@ -60,11 +62,11 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 
 ## Pourquoi le Tier A
 
-C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954{% include src.html n="7" %} ; sur le plan économique, elle relance le moteur-client compétitif après le retrait de Coventry Climax{% include src.html n="4,5" %}. Le paysage du plateau s'en trouve redessiné{% include src.html n="5" %}.
+C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954{% include src.html n="7,10" %} ; sur le plan économique, le DFV, conçu après le retrait de Coventry Climax et d'abord réservé à Lotus, ouvre ensuite la F1 à une foule d'équipes privées{% include src.html n="4,5" %}. Le paysage du plateau s'en trouve redessiné{% include src.html n="5" %}.
 
 ## Attribution
 
-Keith Duckworth est la figure technique centrale du projet, mais le DFV n'est pas une création isolée{% include src.html n="1,6" %}. Motor Sport souligne que l'apport de Mike Costin, « la pratique alliée à la débrouillardise », a été absolument vital au succès de Cosworth{% include src.html n="3" %} ; Chapman et son équipe travaillent étroitement avec Duckworth et Costin sur la Lotus 49{% include src.html n="4" %}.
+Keith Duckworth est la figure technique centrale du projet{% include src.html n="2,3" %}, mais le DFV n'est pas une création isolée{% include src.html n="1,6" %}. Motor Sport souligne que l'apport de Mike Costin, « la pratique alliée à la débrouillardise », a été absolument vital au succès de Cosworth{% include src.html n="3" %} ; Chapman et son équipe travaillent étroitement avec Duckworth et Costin sur la Lotus 49{% include src.html n="4" %}.
 
 La formulation juste : **le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.**
 

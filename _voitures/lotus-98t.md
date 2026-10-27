@@ -2,7 +2,7 @@
 title: "Lotus 98T"
 nom_tri: "lotus 98t"
 accroche: "Des soupapes refermées par du gaz, et mille tours de plus."
-description: "Lotus 98T (1986) : la Lotus-Renault d'Ayrton Senna, première voiture à courir, selon Renault, avec le rappel pneumatique des soupapes du V6 turbo Renault EF15 B ; deux victoires, en Espagne et à Détroit."
+description: "Lotus 98T (1986) : la Lotus-Renault d'Ayrton Senna, dont le V6 turbo Renault EF15 B court avec le rappel pneumatique des soupapes ; deux victoires, en Espagne et à Détroit."
 annee: 1986
 equipe: "Lotus"
 moteur: "Renault EF15 B, puis EF15 C, V6 turbo de 1,5 litre"
@@ -27,6 +27,8 @@ sources:
     url: "https://www.formula1.com/en/results/1986/team"
   - titre: "Formula 1, « 1986 Driver Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1986/drivers"
+  - titre: "Gary Watkins, Motor Sport Magazine, « Gérard Ducarouge: the man who saved Team Lotus » (mai 2015)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2015/82/chapman-demanded-loyalty-ducarouge-commanded-loyalty/"
 photo:
   fichier: "/assets/voitures/lotus-98t.jpg"
   legende: "Une Lotus 98T ex-Ayrton Senna en démonstration à Donington Park, en septembre 2007."
@@ -39,7 +41,7 @@ image: "/assets/partage/voitures/lotus-98t.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 98T est la voiture avec laquelle le [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes arrive en course{% include src.html n="2,3" %}. Sur le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) Renault EF15 B, les ressorts d'acier qui referment les soupapes sont remplacés par du gaz comprimé{% include src.html n="4" %}. Selon Renault, le moteur apporte deux innovations majeures dès le début de la saison 1986 : l'allumage statique et, « surtout », le rappel pneumatique, une solution qui, « permettant un fort gain de régime », sera utilisée sur tous les moteurs de F1 à partir des années 1990{% include src.html n="3" %}. Motor Sport précise que chaque bougie a sa propre petite bobine d'allumage{% include src.html n="4" %}.
+Au Grand Prix du Brésil 1986, première course de la saison, la Lotus 98T de Senna est, selon Autosport, la seule voiture de la course dont le moteur Renault utilise le [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes{% include src.html n="2,3" %}. Sur le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) Renault EF15 B, les ressorts d'acier qui referment les soupapes sont remplacés par du gaz comprimé{% include src.html n="4" %}. Selon Renault, le moteur apporte deux innovations majeures dès le début de la saison 1986 : l'allumage statique et, « surtout », le rappel pneumatique, une solution qui, « permettant un fort gain de régime », sera utilisée sur tous les moteurs de F1 à partir des années 1990{% include src.html n="3" %}. Motor Sport précise que chaque bougie a sa propre petite bobine d'allumage{% include src.html n="4" %}.
 
 Le gain se mesure en régime. Selon Nigel Roebuck (Autosport), le travail de développement donne aux pilotes « un millier de tours de plus, à peu près »{% include src.html n="1" %}. Jean Sage, de Renault Sport, rapporte ce que les pilotes en disent : ils n'ont plus à passer le rapport supérieur à des endroits malcommodes, « comme au milieu d'un virage »{% include src.html n="1" %}. Motor Sport annonce 12500tr/min et environ 900ch fiables en course, et bien plus de 1000ch en qualification ; le magazine précise que ces chiffres restent spéculatifs{% include src.html n="4" %}.
 
@@ -53,9 +55,9 @@ Le gain se mesure en régime. Selon Nigel Roebuck (Autosport), le travail de dé
 
 ## Qui l'a conçue
 
-Selon Motor Sport, la voiture est conçue par [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}) et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}){% include src.html n="4" %}. La source ne précise pas la part de chacun ; la fiche de Ducarouge rappelle que Motor Sport le décrit plutôt comme le leader technique que comme le dessinateur des voitures qu'on lui attribue{% include src.html n="4" %}.
+Selon Motor Sport, la voiture est conçue par [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}) et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}){% include src.html n="4" %}. La source ne précise pas la part de chacun ; la fiche de Ducarouge rappelle que Motor Sport le décrit plutôt comme le leader technique que comme le dessinateur des voitures qu'on lui attribue{% include src.html n="4,9" %}.
 
-Le moteur est l'œuvre de Renault Sport{% include src.html n="4" %}. Motor Sport attribue l'EF15 B, évolution du moteur de 1985, à [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), ingénieur en chef{% include src.html n="4" %} ; Roebuck parle aussi du « travail de développement » de Dudot{% include src.html n="1" %}. L'idée du rappel pneumatique est plus ancienne : en juillet 1995, GrandPrix.com écrit que Renault en a été le pionnier « au début des années 1980 », l'idée ayant été « imaginée par [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}) », remplacé en 1984 à la tête de la recherche et du développement{% include src.html n="5" %}. L'idée, la mise au point et l'arrivée en course relèvent donc de personnes différentes, au sein d'une même équipe.
+Le moteur est l'œuvre de Renault Sport{% include src.html n="4" %}. Motor Sport attribue l'EF15 B, évolution du moteur de 1985, à [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), ingénieur en chef{% include src.html n="4" %} ; Roebuck parle aussi de l'« avancée » de Dudot{% include src.html n="1" %}. L'idée du rappel pneumatique est plus ancienne : en juillet 1995, GrandPrix.com écrit que Renault en a été le pionnier « au début des années 1980 », l'idée ayant été « imaginée par [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}) », remplacé en 1984 par Jean-Jacques His, qui dirige en 1995 la recherche et le développement de Renault Sport{% include src.html n="5" %}. L'idée et la mise au point relèvent donc, chez Renault, de personnes différentes.
 
 ## Limites
 

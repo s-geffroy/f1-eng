@@ -29,7 +29,7 @@ image: "/assets/partage/en/arthur-webb.jpg"
 ---
 ## What he did
 
-Arthur Webb is a British aeronautical engineer and a specialist in [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) structures{% include src.html n="1,8" %}. Coming from aviation, he gave [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) the materials and stress calculations he needed for the carbon [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) of the 1981 McLaren MP4/1{% include src.html n="1,2" %}.
+Arthur Webb is an aeronautical engineer and a specialist in [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) structures{% include src.html n="1,8" %}. Coming from aviation, he gave [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) the materials and stress calculations he needed for the carbon [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) of the 1981 McLaren MP4/1{% include src.html n="1,2" %}.
 
 ## In aviation
 
@@ -49,7 +49,7 @@ Arthur Webb is a British aeronautical engineer and a specialist in [carbon compo
 
 ## Attribution
 
-Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice{% include src.html n="1" %}; in Barnard's own account, his talks with Webb reinforced a choice he was already considering{% include src.html n="8" %}. Webb brought materials science and structural calculation; he was not the car's designer{% include src.html n="1" %}.
+Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his choice{% include src.html n="1" %}; in Barnard's own account, his talks with Webb reinforced a choice he was already considering{% include src.html n="8" %}. Webb brought materials science and structural calculation{% include src.html n="1" %}; the Royal Aeronautical Society nonetheless writes that Barnard and he "designed, tested and constructed" the first carbon fibre shell of an F1 car together{% include src.html n="2" %}.
 
 ## Where sources disagree
 

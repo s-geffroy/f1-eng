@@ -27,6 +27,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows"
   - titre: "Formula 1, « Emilia Romagna GP Facts & Stats: Hamilton ties another Schumacher record while Mercedes re-write record books once more » (novembre 2020)"
     url: "https://www.formula1.com/en/latest/article/facts-and-stats-hamilton-ties-another-schumacher-record-while-mercedes-re.7paUkRxYIc3QQbztCSHgV5"
+  - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
+    url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
 photo:
   fichier: "/assets/voitures/mercedes-w05.jpg"
   legende: "Lewis Hamilton aux premiers essais libres du Grand Prix de Singapour, le 19 septembre 2014."
@@ -39,7 +41,7 @@ image: "/assets/partage/voitures/mercedes-w05.jpg"
 ---
 ## Ce qu'elle change
 
-En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo associé à des moteurs-générateurs électriques{% include src.html n="4" %}. La W05 est la réponse de Mercedes, et sa force tient d'abord à la méthode{% include src.html n="4" %}. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres{% include src.html n="4" %}.
+En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo associé à des moteurs-générateurs électriques{% include src.html n="4,9" %}. La W05 est la réponse de Mercedes, et sa force tient autant à la méthode qu'au moteur{% include src.html n="4" %}. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres{% include src.html n="4" %}.
 
 La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) séparé du moteur PU106{% include src.html n="4" %}. Le compresseur est placé à une extrémité du moteur, la turbine à l'autre : les parties chaude et froide restent éloignées, et le moteur-générateur qui récupère l'énergie des gaz d'échappement trouve sa place entre elles, dans le V du moteur{% include src.html n="4" %}. Un long arbre relie l'ensemble sur toute la longueur du moteur{% include src.html n="4" %}. L'air d'admission est refroidi par un échangeur à liquide plutôt qu'à air, logé au-dessus du réservoir, ce qui raccourcit son trajet{% include src.html n="4" %}.
 
@@ -48,7 +50,7 @@ La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turboc
 - Selon Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) est le directeur technique de l'équipe quand la voiture est conçue ; il se décrit comme le superviseur des deux volets, châssis et moteur, et veille à ce qu'ils s'accordent{% include src.html n="7" %}.
 - [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari comme directeur de l'ingénierie, mène la conception de la voiture{% include src.html n="1,2" %}.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}){% include src.html n="3" %}.
-- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison{% include src.html n="3" %}. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré »{% include src.html n="3" %}. Il souligne que Cowell et les équipes châssis ont travaillé de concert{% include src.html n="3" %}. On lui doit la méthode, pas la conception{% include src.html n="3" %}.
+- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison{% include src.html n="3" %}. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré »{% include src.html n="3" %}. Il souligne que Cowell et les équipes châssis ont travaillé de concert{% include src.html n="3" %}. Il en revendique la méthode, non la conception{% include src.html n="3" %}.
 
 ## Limites
 

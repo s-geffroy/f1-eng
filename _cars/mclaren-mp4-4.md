@@ -35,7 +35,7 @@ image: "/assets/partage/en/voitures/mclaren-mp4-4.jpg"
 
 In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure{% include src.html n="1" %}. In theory, these rules favoured the rivals with naturally aspirated engines; McLaren nevertheless remained confident{% include src.html n="1" %}. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away{% include src.html n="1" %}.
 
-Its principle: a very low car{% include src.html n="2" %}. The new Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower than its predecessor's{% include src.html n="2" %}. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts{% include src.html n="2" %}. "The key to success of the MP4/4 was the gearbox," says Gordon Murray{% include src.html n="2" %}. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage{% include src.html n="2" %}.
+According to Murray, its principle was a very low car; Nichols sees that as only one aspect among others{% include src.html n="2" %}. The new Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower than its predecessor's{% include src.html n="2" %}. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts{% include src.html n="2" %}. "The key to success of the MP4/4 was the gearbox," says Gordon Murray{% include src.html n="2" %}. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage{% include src.html n="2" %}.
 
 McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, fully worked out down to the smallest detail{% include src.html n="1" %}.
 
@@ -53,7 +53,7 @@ Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ s
 
 It had no future: McLaren built six chassis, all made obsolete at the end of the year by the switch to 3.5-litre naturally aspirated engines{% include src.html n="1" %}. The three-shaft gearbox was also a gamble: "a huge risk technically", according to Murray, "potentially the Achilles' heel"{% include src.html n="2" %}.
 
-Autosport (2017) also names a Steve Nielsen among the car's authors, absent from the other sources consulted{% include src.html n="2" %}; the only known Steve Nielsen in F1 was then at Team Lotus (GrandPrix.com){% include src.html n="5" %}.
+Autosport (2017) also names a Steve Nielsen among the car's authors, absent from the other sources consulted{% include src.html n="2" %}; GrandPrix.com profiles a Steve Nielsen who was then at Lotus, a test-team truck driver from late 1986 who joined the race team in 1988{% include src.html n="5" %}.
 
 ## Legacy
 

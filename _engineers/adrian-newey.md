@@ -49,6 +49,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
   - titre: "Formula 1, “Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role” (November 2025)"
     url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
+  - titre: "Williams F1, “Sir Patrick Head”"
+    url: "https://www.williamsf1.com/persons/sir-patrick-head-v2"
 consultation: "25 October 2026"
 image: "/assets/partage/en/adrian-newey.jpg"
 ---
@@ -66,14 +68,14 @@ He puts it this way himself: what he enjoys is getting all the disciplines to wo
 
 ## Proof by repetition
 
-He has demonstrated this ability under several sets of regulations and in several teams{% include src.html n="1,2" %}:
+He has demonstrated this ability under several sets of regulations and in several teams{% include src.html n="1,2,6" %}:
 
 **March, which became Leyton House → Williams → McLaren → Red Bull → Aston Martin (since 2025)**
 
 - **Education.** A graduate in aeronautics from the University of Southampton with the highest honours, he wrote a dissertation there on [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) aerodynamics{% include src.html n="4,5" %}. His first job, in 1980 (July 1979 according to formula1.com), was at Fittipaldi, under [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}){% include src.html n="5,6" %}.
 - **March.** According to GrandPrix.com, Al Unser won the 1985 IndyCar title in a March 85C, and Bobby Rahal followed with a second in 1986{% include src.html n="4" %}. In F1, the 1988 March 881 introduced a fully integrated nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) assembly, hollowed out underneath{% include src.html n="6" %}.
 - **Leyton House.** The 1990 CG901 initially suffered from a faulty [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie); once the problem was fixed, it led most of the French Grand Prix and finished second{% include src.html n="3,7" %}.
-- **Williams.** The FW14 extended the CG901{% include src.html n="4,7" %}. His Williams cars from 1991 to 1997 won 59 Grands Prix (58 according to GrandPrix.com){% include src.html n="4" %}. The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams{% include src.html n="6" %}.
+- **Williams.** The FW14 extended the CG901{% include src.html n="4,7" %}. His Williams cars from 1991 to 1997 won 59 Grands Prix{% include src.html n="16" %} (58 according to GrandPrix.com){% include src.html n="4" %}. The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams{% include src.html n="6" %}.
 - **McLaren.** On the 1998 MP4-13, Newey and his team spent 12,000 hours of work recovering the [downforce]({{ site.baseurl }}/en/glossary/#appui) lost under the new regulations{% include src.html n="8" %}.
 - **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser{% include src.html n="6,10" %}. The 2010 RB6 "reinvented" the [exhaust-blown diffuser]({{ site.baseurl }}/en/glossary/#diffuseur-souffle){% include src.html n="6" %}. According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008){% include src.html n="11" %}.
 - **Aston Martin.** He started there on 1 March 2025 as managing technical partner{% include src.html n="12" %}, then became team principal for the 2026 season{% include src.html n="13,15" %}.

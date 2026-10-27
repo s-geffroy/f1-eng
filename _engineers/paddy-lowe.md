@@ -43,13 +43,13 @@ Paddy Lowe is a leading systems and electronics engineer{% include src.html n="1
 
 ## Technical career
 
-- **McLaren**, from 1993: head of research and development, chief engineer, director of engineering, then technical director in 2011{% include src.html n="4" %}. He contributed to three drivers' titles and one constructors' title{% include src.html n="4" %}.
+- **McLaren**, from 1993: head of research and development, chief engineer, director of engineering, then technical director in 2011{% include src.html n="4,5" %}. He contributed to three drivers' titles and one constructors' title{% include src.html n="4" %}.
 - **Mercedes**, from June 2013: executive director (technical), at the start of the team's dominance in the turbo-hybrid era{% include src.html n="2,4,5" %}.
 - **Williams**, again in 2017, as chief technical officer in charge of all engineering{% include src.html n="4" %}. He left the team in June 2019{% include src.html n="2" %}.
 
 ## His role in the Williams ecosystem
 
-In the active suspension chain, [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system{% include src.html n="3,6" %}; Lowe wrote its software{% include src.html n="1" %}; [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) provided the overall architecture{% include src.html n="1" %}; [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) shared technical direction of the FW14B and FW15C{% include src.html n="1,2" %}.
+In the active suspension chain, [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system{% include src.html n="3,6" %}; Lowe wrote its software{% include src.html n="1" %}; [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) co-led the technical direction of the FW15C{% include src.html n="1" %}; [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) shared that role with him, and both worked with Lowe on the FW14B{% include src.html n="1,2" %}.
 
 ## Why Tier D
 

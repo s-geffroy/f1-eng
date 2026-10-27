@@ -2,7 +2,7 @@
 title: "Lotus 98T"
 nom_tri: "lotus 98t"
 accroche: "Valves closed by gas, and a thousand more revs."
-description: "Lotus 98T (1986): Ayrton Senna's Lotus-Renault, the first car, according to Renault, to race with the pneumatic valve return of Renault's EF15 B turbo V6; two wins, in Spain and Detroit."
+description: "Lotus 98T (1986): Ayrton Senna's Lotus-Renault, whose Renault EF15 B turbo V6 raced with pneumatic valve return; two wins, in Spain and Detroit."
 annee: 1986
 equipe: "Lotus"
 moteur: "Renault EF15 B, then EF15 C, 1.5-litre turbo V6"
@@ -27,6 +27,8 @@ sources:
     url: "https://www.formula1.com/en/results/1986/team"
   - titre: "Formula 1, “1986 Driver Standings” (official results)"
     url: "https://www.formula1.com/en/results/1986/drivers"
+  - titre: "Gary Watkins, Motor Sport Magazine, “Gérard Ducarouge: the man who saved Team Lotus” (May 2015)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2015/82/chapman-demanded-loyalty-ducarouge-commanded-loyalty/"
 photo:
   fichier: "/assets/voitures/lotus-98t.jpg"
   legende: "An ex-Ayrton Senna Lotus 98T being demonstrated at Donington Park, September 2007."
@@ -39,7 +41,7 @@ image: "/assets/partage/en/voitures/lotus-98t.jpg"
 ---
 ## What it changed
 
-The Lotus 98T is the car with which [pneumatic valve return]({{ site.baseurl }}/en/glossary/#rappel-pneumatique) reached racing{% include src.html n="2,3" %}. On Renault's EF15 B [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur), the steel springs that close the valves were replaced by compressed gas{% include src.html n="4" %}. According to Renault, the engine brought two major innovations from the start of the 1986 season: static ignition and, "above all", pneumatic valve return, "a pioneering revs-boost solution" that would appear on all F1 engines in the 1990s{% include src.html n="3" %}. Motor Sport adds that each spark plug had its own miniature ignition coil{% include src.html n="4" %}.
+At the 1986 Brazilian Grand Prix, the opening round, Senna's Lotus 98T was, according to Autosport, the only car in the race whose Renault engine used [pneumatic valve return]({{ site.baseurl }}/en/glossary/#rappel-pneumatique){% include src.html n="2,3" %}. On Renault's EF15 B [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur), the steel springs that close the valves were replaced by compressed gas{% include src.html n="4" %}. According to Renault, the engine brought two major innovations from the start of the 1986 season: static ignition and, "above all", pneumatic valve return, "a pioneering revs-boost solution" that would appear on all F1 engines in the 1990s{% include src.html n="3" %}. Motor Sport adds that each spark plug had its own miniature ignition coil{% include src.html n="4" %}.
 
 The gain was measured in revs. According to Nigel Roebuck (Autosport), the development work gave the drivers "another thousand revs or so"{% include src.html n="1" %}. Jean Sage of Renault Sport reported what the drivers said: they no longer had to change up in awkward places, "like in the middle of a corner"{% include src.html n="1" %}. Motor Sport quotes 12,500rpm and a reliable 900bhp or so in race trim, and well over 1,000bhp in qualifying; the magazine adds that these figures are speculative{% include src.html n="4" %}.
 
@@ -53,9 +55,9 @@ The gain was measured in revs. According to Nigel Roebuck (Autosport), the devel
 
 ## Who designed it
 
-According to Motor Sport, the car was designed by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %}) and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}){% include src.html n="4" %}. The source does not say how the work was shared; Ducarouge's entry notes that Motor Sport sees him as the technical leader rather than the draughtsman of the cars credited to him{% include src.html n="4" %}.
+According to Motor Sport, the car was designed by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %}) and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}){% include src.html n="4" %}. The source does not say how the work was shared; Ducarouge's entry notes that Motor Sport sees him as the technical leader rather than the draughtsman of the cars credited to him{% include src.html n="4,9" %}.
 
-The engine was Renault Sport's work{% include src.html n="4" %}. Motor Sport credits the EF15 B, an evolution of the 1985 unit, to chief engineer [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}){% include src.html n="4" %}; Roebuck also refers to Dudot's "development work"{% include src.html n="1" %}. The idea of pneumatic valve return was older: in July 1995, GrandPrix.com wrote that Renault had pioneered it "back in the early 1980s", "the idea having been dreamed up by [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %})", who was replaced at the head of research and development in 1984{% include src.html n="5" %}. The idea, its development and its arrival in racing therefore belong to different people, within the same team.
+The engine was Renault Sport's work{% include src.html n="4" %}. Motor Sport credits the EF15 B, an evolution of the 1985 unit, to chief engineer [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}){% include src.html n="4" %}; Roebuck also refers to Dudot's "advance"{% include src.html n="1" %}. The idea of pneumatic valve return was older: in July 1995, GrandPrix.com wrote that Renault had pioneered it "back in the early 1980s", "the idea having been dreamed up by [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %})", who was replaced in 1984 by Jean-Jacques His, head of Renault Sport's research and development in 1995{% include src.html n="5" %}. The idea and its development therefore belong to different people at Renault.
 
 ## Limitations
 

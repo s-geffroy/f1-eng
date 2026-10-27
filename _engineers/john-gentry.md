@@ -27,7 +27,7 @@ image: "/assets/partage/en/john-gentry.jpg"
 ---
 ## What he did
 
-John Gentry was the **design draughtsman** who worked alongside [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) on the Toleman TG280 Formula 2 car{% include src.html n="1,4" %}. Before Toleman, he detailed cars designed by others, at March, Shadow, Fittipaldi and Tyrrell; afterwards, he was mainly a race engineer, in F1 and then in motorcycle Grands Prix{% include src.html n="4" %}.
+John Gentry was the **design draughtsman** who worked alongside [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) on the Toleman TG280 Formula 2 car{% include src.html n="1,4" %}. Before Toleman, he mostly detailed cars designed by others, at March, Shadow, Fittipaldi and Tyrrell; afterwards, he was mainly a race engineer, in F1 and then in motorcycle Grands Prix{% include src.html n="4" %}.
 
 ## Before Toleman
 
@@ -46,7 +46,7 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 - According to Motor Sport in 1980, he joined Toleman in August 1979; he was best known for his work at Shadow{% include src.html n="1" %}.
 - **The TG280.** "Rory did the bodywork and I did the rest of it," Gentry sums up: they were at first set up in Tom Walkinshaw Racing's small drawing office, just the two of them{% include src.html n="4" %}.
 - In Formula 2, he was also Derek Warwick's race engineer, while Byrne looked after Brian Henton{% include src.html n="2,4" %}.
-- In 1984, he was among the engineers who accompanied Ayrton Senna's F1 debut at Toleman, with Byrne and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}){% include src.html n="3" %}. He was then Johnny Cecotto's engineer; after Cecotto's accident at Brands Hatch, he decided to leave{% include src.html n="4" %}. Toleman remains his longest spell with a single team, five years{% include src.html n="4" %}.
+- In 1984, he was among the engineers who accompanied Ayrton Senna's F1 debut at Toleman, with Byrne and [Pat Symonds]({{ site.baseurl }}{% link _engineers/pat-symonds.md %}){% include src.html n="3" %}. He then worked with Johnny Cecotto; after Cecotto's accident at Brands Hatch, he decided to leave{% include src.html n="4" %}. Toleman remains his longest spell with a single team, five years{% include src.html n="4" %}.
 
 ## After Toleman
 
@@ -56,7 +56,7 @@ Motor Sport ran a profile of him in 2021 (Damien Smith); unless stated otherwise
 
 ## Attribution
 
-Gentry is a detail draughtsman and a race engineer, not the designer of the cars he worked on: the 008 is Philippe's, the Shadows Southgate's{% include src.html n="4,5" %}. On the TG280, the split "bodywork for Byrne, the rest for Gentry" is his own version{% include src.html n="4" %}; Motor Sport, in 1980, presents him only as the design draughtsman alongside Byrne{% include src.html n="1" %}. Only the ATS D1 is credited to him as his own design, by OldRacingCars.com, a secondary source, and he did not finish it{% include src.html n="6" %}.
+Gentry is mainly a detail draughtsman and a race engineer rather than the designer of the cars he worked on: the 008 is Philippe's, the Shadows Southgate's{% include src.html n="4,5" %}. On the TG280, the split "bodywork for Byrne, the rest for Gentry" is his own version{% include src.html n="4" %}; Motor Sport, in 1980, presents him only as the design draughtsman alongside Byrne{% include src.html n="1" %}. In F1, only the ATS D1 is credited to him as his own design, by OldRacingCars.com, a secondary source, and he did not finish it{% include src.html n="6" %}; outside F1, he says he designed an entirely new Group 5 BMW M1 at March in 1979{% include src.html n="4" %}.
 
 ## Where sources disagree
 

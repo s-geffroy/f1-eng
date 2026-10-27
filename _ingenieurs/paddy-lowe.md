@@ -44,13 +44,13 @@ Paddy Lowe est un ingénieur systèmes et électronique de premier plan{% includ
 
 ## Parcours technique
 
-- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011{% include src.html n="4" %}. Il participe à trois titres pilotes et à un titre constructeurs{% include src.html n="4" %}.
+- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011{% include src.html n="4,5" %}. Il participe à trois titres pilotes et à un titre constructeurs{% include src.html n="4" %}.
 - **Mercedes**, à partir de juin 2013 : directeur exécutif technique, au début de la domination de l'équipe à l'ère turbo-hybride{% include src.html n="2,4,5" %}.
 - **Williams**, de nouveau en 2017, comme directeur technique général chargé de toute l'ingénierie{% include src.html n="4" %}. Il quitte l'équipe en juin 2019{% include src.html n="2" %}.
 
 ## Son rôle dans l'écosystème Williams
 
-Dans la chaîne de la suspension active, [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système{% include src.html n="3,6" %} ; Lowe en écrit le logiciel{% include src.html n="1" %} ; [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) assure l'architecture d'ensemble{% include src.html n="1" %} ; [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) codirige la technique des FW14B et FW15C{% include src.html n="1,2" %}.
+Dans la chaîne de la suspension active, [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système{% include src.html n="3,6" %} ; Lowe en écrit le logiciel{% include src.html n="1" %} ; [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) codirige la technique de la FW15C{% include src.html n="1" %} ; [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) la codirige avec lui, et tous deux travaillent avec Lowe à la FW14B{% include src.html n="1,2" %}.
 
 ## Pourquoi le Tier D
 

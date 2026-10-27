@@ -29,7 +29,7 @@ image: "/assets/partage/arthur-webb.jpg"
 ---
 ## Ce qu'il a fait
 
-Arthur Webb est un ingénieur aéronautique britannique, spécialiste des structures en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone){% include src.html n="1,8" %}. Venu de l'aviation, il apporte à [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) le calcul des matériaux et des contraintes dont il a besoin pour la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) carbone de la McLaren MP4/1, en 1981{% include src.html n="1,2" %}.
+Arthur Webb est un ingénieur aéronautique, spécialiste des structures en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone){% include src.html n="1,8" %}. Venu de l'aviation, il apporte à [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) le calcul des matériaux et des contraintes dont il a besoin pour la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) carbone de la McLaren MP4/1, en 1981{% include src.html n="1,2" %}.
 
 ## Dans l'aviation
 
@@ -49,7 +49,7 @@ Arthur Webb est un ingénieur aéronautique britannique, spécialiste des struct
 
 ## Attribution
 
-Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone{% include src.html n="1" %} ; dans le récit de Barnard lui-même, ses échanges avec Webb confortent un choix déjà envisagé{% include src.html n="8" %}. Webb y apporte la science des matériaux et le calcul de structure ; il n'en est pas le concepteur{% include src.html n="1" %}.
+Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbone{% include src.html n="1" %} ; dans le récit de Barnard lui-même, ses échanges avec Webb confortent un choix déjà envisagé{% include src.html n="8" %}. Webb y apporte la science des matériaux et le calcul de structure{% include src.html n="1" %} ; la Royal Aeronautical Society écrit toutefois que Barnard et lui « conçoivent, testent et construisent » ensemble la première coque en carbone d'une F1{% include src.html n="2" %}.
 
 ## Divergences entre sources
 

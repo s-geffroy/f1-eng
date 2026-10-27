@@ -27,7 +27,7 @@ image: "/assets/partage/john-gentry.jpg"
 ---
 ## Ce qu'il a fait
 
-John Gentry est le **dessinateur-projeteur** qui travaille aux côtés de [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) sur la Toleman TG280 de Formule 2{% include src.html n="1,4" %}. Avant Toleman, il a dessiné les détails de voitures conçues par d'autres, chez March, Shadow, Fittipaldi et Tyrrell ; ensuite, il est surtout ingénieur de course, en F1 puis en Grand Prix moto{% include src.html n="4" %}.
+John Gentry est le **dessinateur-projeteur** qui travaille aux côtés de [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) sur la Toleman TG280 de Formule 2{% include src.html n="1,4" %}. Avant Toleman, il a pour l'essentiel dessiné les détails de voitures conçues par d'autres, chez March, Shadow, Fittipaldi et Tyrrell ; ensuite, il est surtout ingénieur de course, en F1 puis en Grand Prix moto{% include src.html n="4" %}.
 
 ## Avant Toleman
 
@@ -46,7 +46,7 @@ Motor Sport lui a consacré un portrait en 2021 (Damien Smith) ; sauf mention co
 - Selon Motor Sport en 1980, il rejoint Toleman en août 1979 ; il était surtout connu pour son travail chez Shadow{% include src.html n="1" %}.
 - **La TG280.** « Rory a fait la carrosserie et moi tout le reste », résume Gentry : au début installés dans le petit bureau d'études de Tom Walkinshaw Racing, ils ne sont que deux{% include src.html n="4" %}.
 - En Formule 2, il est aussi l'ingénieur de course de Derek Warwick, pendant que Byrne s'occupe de Brian Henton{% include src.html n="2,4" %}.
-- En 1984, il fait partie des ingénieurs qui accompagnent les débuts d'Ayrton Senna en F1 chez Toleman, avec Byrne et [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}){% include src.html n="3" %}. Il est alors l'ingénieur de Johnny Cecotto ; après l'accident de celui-ci à Brands Hatch, il décide de partir{% include src.html n="4" %}. Toleman reste son plus long passage dans une même équipe, cinq ans{% include src.html n="4" %}.
+- En 1984, il fait partie des ingénieurs qui accompagnent les débuts d'Ayrton Senna en F1 chez Toleman, avec Byrne et [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}){% include src.html n="3" %}. Il travaille alors avec Johnny Cecotto ; après l'accident de celui-ci à Brands Hatch, il décide de partir{% include src.html n="4" %}. Toleman reste son plus long passage dans une même équipe, cinq ans{% include src.html n="4" %}.
 
 ## Après Toleman
 
@@ -56,7 +56,7 @@ Motor Sport lui a consacré un portrait en 2021 (Damien Smith) ; sauf mention co
 
 ## Attribution
 
-Gentry est un dessinateur de détail et un ingénieur de course, pas le concepteur des voitures sur lesquelles il a travaillé : la 008 est celle de Philippe, les Shadow celles de Southgate{% include src.html n="4,5" %}. Sur la TG280, le partage « carrosserie pour Byrne, le reste pour Gentry » est sa propre version{% include src.html n="4" %} ; Motor Sport, en 1980, le présente seulement comme le dessinateur-projeteur aux côtés de Byrne{% include src.html n="1" %}. Seule l'ATS D1 lui est attribuée comme conception propre, par OldRacingCars.com, source secondaire, et il ne l'a pas achevée{% include src.html n="6" %}.
+Gentry est surtout un dessinateur de détail et un ingénieur de course, plutôt que le concepteur des voitures sur lesquelles il a travaillé : la 008 est celle de Philippe, les Shadow celles de Southgate{% include src.html n="4,5" %}. Sur la TG280, le partage « carrosserie pour Byrne, le reste pour Gentry » est sa propre version{% include src.html n="4" %} ; Motor Sport, en 1980, le présente seulement comme le dessinateur-projeteur aux côtés de Byrne{% include src.html n="1" %}. En F1, seule l'ATS D1 lui est attribuée comme conception propre, par OldRacingCars.com, source secondaire, et il ne l'a pas achevée{% include src.html n="6" %} ; hors F1, il dit avoir dessiné chez March, en 1979, une BMW M1 de Groupe 5 entièrement nouvelle{% include src.html n="4" %}.
 
 ## Divergences entre sources
 

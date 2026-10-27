@@ -35,7 +35,7 @@ image: "/assets/partage/voitures/mclaren-mp4-4.jpg"
 
 En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation{% include src.html n="1" %}. En théorie, ces règles favorisent les rivaux à moteur atmosphérique ; McLaren reste pourtant confiant{% include src.html n="1" %}. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe{% include src.html n="1" %}.
 
-Son principe : une voiture très basse{% include src.html n="2" %}. Le nouveau [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) Honda a un vilebrequin placé 28mm plus bas que son prédécesseur{% include src.html n="2" %}. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés{% include src.html n="2" %}. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray{% include src.html n="2" %}. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage{% include src.html n="2" %}.
+Selon Murray, son principe est une voiture très basse ; Nichols n'y voit qu'un aspect parmi d'autres{% include src.html n="2" %}. Le nouveau [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) Honda a un vilebrequin placé 28mm plus bas que son prédécesseur{% include src.html n="2" %}. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés{% include src.html n="2" %}. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray{% include src.html n="2" %}. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage{% include src.html n="2" %}.
 
 McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, abouti jusque dans ses moindres détails{% include src.html n="1" %}.
 
@@ -53,7 +53,7 @@ Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.ba
 
 Elle est sans lendemain : McLaren construit six châssis, tous condamnés en fin d'année par le passage aux moteurs atmosphériques de 3,5 litres{% include src.html n="1" %}. La boîte à trois arbres était aussi un pari : « un risque technique énorme », selon Murray, « potentiellement le talon d'Achille »{% include src.html n="2" %}.
 
-Autosport (2017) cite aussi un Steve Nielsen parmi les auteurs de la voiture, absent des autres sources consultées{% include src.html n="2" %} ; le seul Steve Nielsen connu en F1 travaille alors chez Team Lotus (GrandPrix.com){% include src.html n="5" %}.
+Autosport (2017) cite aussi un Steve Nielsen parmi les auteurs de la voiture, absent des autres sources consultées{% include src.html n="2" %} ; GrandPrix.com présente un Steve Nielsen alors chez Lotus, chauffeur de camion de l'équipe d'essais à partir de la fin de 1986, puis membre de l'équipe de course en 1988{% include src.html n="5" %}.
 
 ## Ce qu'elle laisse
 

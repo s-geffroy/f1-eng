@@ -57,7 +57,7 @@ The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.
 
 Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which cost a great deal of torsional stiffness{% include src.html n="1,3,4" %}. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings{% include src.html n="3,4" %}. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace{% include src.html n="3" %}, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces{% include src.html n="4" %}. Barnard designed the car with a team that notably included Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}){% include src.html n="12,13" %}.
 
-The effects touched stiffness, weight, safety, architecture and the industrialisation of composites all at once{% include src.html n="1" %}. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car{% include src.html n="1,3" %}; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility{% include src.html n="3" %}. The principle became universal{% include src.html n="2,3" %}.
+The effects touched stiffness, weight and safety, and rival teams set about building carbon composite cars of their own{% include src.html n="1" %}. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car{% include src.html n="1,3" %}; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility{% include src.html n="3" %}. The principle became universal{% include src.html n="2,3" %}.
 
 ## 1984 — McLaren MP4/2: the engine to his dimensions
 
@@ -67,11 +67,11 @@ For the MP4/2, Barnard imposed the dimensions of the TAG turbo [V6]({{ site.base
 
 Based in a design office in England, the Guildford Technical Office, Barnard introduced on the Ferrari 640 the **[semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique) controlled from the steering wheel**, originally planned for the 639, which never raced{% include src.html n="3,5,6" %}:
 
-- gradual disappearance of the H-pattern lever{% include src.html n="9" %};
+- the H-pattern lever replaced, a solution McLaren adopted in turn later in the 1990 season{% include src.html n="9" %};
 - fewer gear-change errors{% include src.html n="3,7" %};
 - hands kept on the wheel{% include src.html n="5,7" %};
 - a more compact cockpit{% include src.html n="7,9" %};
-- an opening towards electronic management of the transmission{% include src.html n="7" %}.
+- electronic protection of the powertrain against a mis-selected gear{% include src.html n="7" %}.
 
 The same car used front suspension with short torsion bars, which according to Barnard started a lasting fashion{% include src.html n="5,6" %}. The 640 won first time out in Brazil, then in Hungary and Portugal{% include src.html n="5,7" %}.
 

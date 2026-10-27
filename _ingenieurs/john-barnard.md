@@ -58,7 +58,7 @@ La MP4/1 est la première F1 construite autour d'une **[monocoque]({{ site.baseu
 
 Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion{% include src.html n="1,3,4" %}. Il lui faut un nouveau matériau ; il le trouve, selon son récit, après une visite chez British Aerospace, qui fabriquait des capots en composites{% include src.html n="3,4" %}. Selon lui, [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace{% include src.html n="3" %}, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments{% include src.html n="4" %}. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}){% include src.html n="12,13" %}.
 
-Les effets touchent tout à la fois la rigidité, la masse, la sécurité, l'architecture et l'industrialisation du composite{% include src.html n="1" %}. La MP4/1 gagne le Grand Prix de Grande-Bretagne 1981, première victoire d'une voiture en composite carbone{% include src.html n="1,3" %} ; l'accident de John Watson à Monza la même année met fin, selon Barnard, aux mythes sur la fragilité du carbone{% include src.html n="3" %}. Le principe devient universel{% include src.html n="2,3" %}.
+Les effets touchent la rigidité, la masse et la sécurité, et les équipes rivales cherchent à construire à leur tour des voitures en composite carbone{% include src.html n="1" %}. La MP4/1 gagne le Grand Prix de Grande-Bretagne 1981, première victoire d'une voiture en composite carbone{% include src.html n="1,3" %} ; l'accident de John Watson à Monza la même année met fin, selon Barnard, aux mythes sur la fragilité du carbone{% include src.html n="3" %}. Le principe devient universel{% include src.html n="2,3" %}.
 
 ## 1984 — McLaren MP4/2 : le moteur à ses cotes
 
@@ -68,11 +68,11 @@ Pour la MP4/2, Barnard impose à Porsche les dimensions du [V6]({{ site.baseurl 
 
 Installé dans un bureau d'études en Angleterre, le Guildford Technical Office, Barnard introduit sur la Ferrari 640 la **[boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) commandée au volant**, d'abord prévue pour la 639 qui n'a jamais couru{% include src.html n="3,5,6" %} :
 
-- disparition progressive du levier en H{% include src.html n="9" %} ;
+- levier en H remplacé, solution que McLaren adopte à son tour plus tard dans la saison 1990{% include src.html n="9" %} ;
 - moins d'erreurs de changement de rapport{% include src.html n="3,7" %} ;
 - mains maintenues sur le volant{% include src.html n="5,7" %} ;
 - cockpit plus compact{% include src.html n="7,9" %} ;
-- ouverture vers la gestion électronique de la transmission{% include src.html n="7" %}.
+- protection électronique de la mécanique contre un rapport mal engagé{% include src.html n="7" %}.
 
 La même voiture adopte une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable{% include src.html n="5,6" %}. La 640 gagne d'entrée au Brésil, puis en Hongrie et au Portugal{% include src.html n="5,7" %}.
 
