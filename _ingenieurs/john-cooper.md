@@ -38,7 +38,7 @@ redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 
 ## La rupture
 
-Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**{% include src.html n="1,2" %}. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse{% include src.html n="2,4" %}. Sur la première Cooper de 500cm³, le moteur est placé au milieu « pour des raisons largement pratiques »{% include src.html n="4" %} ; Nigel Roebuck résume : sur une 500, mettre le moteur derrière était « la seule chose logique à faire »{% include src.html n="5" %}.
+Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**{% include src.html n="1,2" %}. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse{% include src.html n="2,4" %}. Sur la première Cooper de 500cm³, le moteur est placé au milieu « pour des raisons largement pratiques »{% include src.html n="4" %} ; John Cooper le disait lui-même à Nigel Roebuck : sur une 500, mettre le moteur derrière était « la seule chose logique à faire »{% include src.html n="5" %}.
 
 ## Des 500cm³ à la F1
 

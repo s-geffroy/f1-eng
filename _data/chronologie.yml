@@ -426,7 +426,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "L'inerter de McLaren"
-    texte: "Imaginé à Cambridge par Malcolm Smith, ce volant d'inertie logé dans la suspension court pour la première fois sur la McLaren victorieuse en Espagne, sous le nom de code « J-damper ». Ouvert à toutes les équipes en 2008, il reste un équipement standard jusqu'à son interdiction en 2022."
+    texte: "Imaginé à Cambridge par Malcolm Smith, ce volant d'inertie logé dans la suspension court pour la première fois sur la McLaren victorieuse en Espagne, sous le nom de code « J-damper ». Formula1.com date sa première utilisation de 1997, l'année où Smith l'imagine selon Cambridge. Ouvert à toutes les équipes en 2008, il reste un équipement standard jusqu'à son interdiction en 2022."
     entrees: []
     termes: [inerter]
     sources:
@@ -592,7 +592,7 @@ contexte:
     annee: 1958
     categorie: "reglement"
     titre: "Le carburant du commerce obligatoire"
-    texte: "En 1958, le règlement remplace les mélanges à base d'alcool par l'essence du commerce. Vanwall et BRM n'ont pas adapté leurs moteurs à temps pour le Grand Prix d'Argentine ; privé de sa Vanwall, Stirling Moss court sur la petite Cooper de Rob Walker. À cause de la chaleur, la course est en outre raccourcie de 400 à 313km."
+    texte: "En 1958, le règlement remplace les mélanges à base d'alcool par l'essence du commerce. Vanwall et BRM n'ont pas adapté leurs moteurs à temps pour le Grand Prix d'Argentine ; privé de sa Vanwall, Stirling Moss court sur la petite Cooper de Rob Walker. La course est en outre ramenée à 80 tours, soit 313km au lieu de 400 : à cause de la chaleur selon Goodwood, en application du nouveau règlement de la FIA selon Motor Sport en 1958."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -870,6 +870,8 @@ contexte:
         url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
       - titre: "Motor Sport, Adam Cooper, « Vacuum clean-up » (mai 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean"
+      - titre: "Motor Sport, « The 75 greatest Grands Prix: 1978 Swedish GP » (mars 2025)"
+        url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
   - id: "cranfield-commandes-de-vol"
     annee: 1980
     categorie: "technologie"

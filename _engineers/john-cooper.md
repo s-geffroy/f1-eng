@@ -37,7 +37,7 @@ image: "/assets/partage/en/john-cooper.jpg"
 
 ## The breakthrough
 
-Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere)** layout{% include src.html n="1,2" %}. He did not invent this layout, which had already been used before him; he popularised it and made it a winner{% include src.html n="2,4" %}. On the first 500cc Cooper, the engine was placed in the middle "for largely practical reasons"{% include src.html n="4" %}; Nigel Roebuck sums it up: on a 500, putting the engine behind was "the only logical thing to do"{% include src.html n="5" %}.
+Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere)** layout{% include src.html n="1,2" %}. He did not invent this layout, which had already been used before him; he popularised it and made it a winner{% include src.html n="2,4" %}. On the first 500cc Cooper, the engine was placed in the middle "for largely practical reasons"{% include src.html n="4" %}; John Cooper put it this way to Nigel Roebuck: on a 500, putting the engine behind was "the only logical thing to do"{% include src.html n="5" %}.
 
 ## From 500cc to F1
 

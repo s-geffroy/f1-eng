@@ -46,7 +46,7 @@ La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turboc
 ## Qui l'a conçue
 
 - Selon Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) est le directeur technique de l'équipe quand la voiture est conçue ; il se décrit comme le superviseur des deux volets, châssis et moteur, et veille à ce qu'ils s'accordent{% include src.html n="7" %}.
-- [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari fin 2011 comme directeur de l'ingénierie, mène la conception de la voiture{% include src.html n="1,2" %}.
+- [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari comme directeur de l'ingénierie, mène la conception de la voiture{% include src.html n="1,2" %}.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}){% include src.html n="3" %}.
 - [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison{% include src.html n="3" %}. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré »{% include src.html n="3" %}. Il souligne que Cowell et les équipes châssis ont travaillé de concert{% include src.html n="3" %}. On lui doit la méthode, pas la conception{% include src.html n="3" %}.
 

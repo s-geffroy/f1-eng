@@ -58,6 +58,6 @@ Williams et Autosport attribuent la voiture à [Patrick Head]({{ site.baseurl }}
 
 ## Ce qu'elle laisse
 
-- **1992** : dix victoires, dont neuf pour Mansell ; la dixième revient à Patrese, au Japon{% include src.html n="2,6" %}. Mansell est champion du monde en Hongrie, onzième manche sur seize, avec cinq courses d'avance, et Williams remporte le titre constructeurs{% include src.html n="2,3" %}.
+- **1992** : dix victoires, dont neuf pour Mansell{% include src.html n="2,6" %} ; la dixième revient à Patrese, au Japon{% include src.html n="3,6" %}. Mansell est champion du monde en Hongrie, onzième manche sur seize, avec cinq courses d'avance, et Williams remporte le titre constructeurs{% include src.html n="2,3" %}.
 - La voiture est si performante que Williams renonce à engager la FW15 prévue pour 1992{% include src.html n="2" %}.
 - En 1994, la suspension active est interdite, avec les autres aides au pilotage comme l'antipatinage{% include src.html n="5" %}.

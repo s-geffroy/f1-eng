@@ -58,6 +58,6 @@ Williams and Autosport credit [Patrick Head]({{ site.baseurl }}{% link _engineer
 
 ## Legacy
 
-- **1992**: ten wins, nine of them for Mansell; the tenth went to Patrese, in Japan{% include src.html n="2,6" %}. Mansell clinched the world title in Hungary, round eleven of sixteen, with five races to spare, and Williams won the constructors' title{% include src.html n="2,3" %}.
+- **1992**: ten wins, nine of them for Mansell{% include src.html n="2,6" %}; the tenth went to Patrese, in Japan{% include src.html n="3,6" %}. Mansell clinched the world title in Hungary, round eleven of sixteen, with five races to spare, and Williams won the constructors' title{% include src.html n="2,3" %}.
 - The car was so competitive that Williams dropped plans to race the FW15 intended for 1992{% include src.html n="2" %}.
 - In 1994, active suspension was banned, along with other driver aids such as traction control{% include src.html n="5" %}.

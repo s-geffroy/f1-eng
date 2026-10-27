@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
   - titre: "Jonathan Bushell, Motor Sport Magazine, « 1978 Brabham BT46B 'fan car' » (février 2025, avec le compte rendu de Denis Jenkinson de juillet 1978)"
     url: "https://motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car"
+  - titre: "Russell Campbell, Goodwood, « Too fast for Formula 1: the Brabham BT46B fan car » (mai 2025)"
+    url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
 photo:
   fichier: "/assets/voitures/brabham-bt46b.jpg"
   legende: "La BT46B au Goodwood Festival of Speed, en juillet 2001. Elle porte ici des pneus Avon, et non les Goodyear de 1978."
@@ -43,7 +45,7 @@ Le règlement interdit les dispositifs aérodynamiques mobiles{% include src.htm
 - Gary Anderson affirme avoir proposé de mettre un ventilateur{% include src.html n="1" %} ;
 - l'ingénieur David Cox en revendique une part : il dit avoir aperçu un schéma de ventilateur sur la planche à dessin de [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}), chez Tyrrell{% include src.html n="1" %}.
 
-Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970, ce que Murray confirme{% include src.html n="1" %} ; Goodwood juge toutefois l'influence incertaine. Motor Sport salue aussi le travail de l'équipe de conception de Brabham, qui a su mettre l'idée en pratique{% include src.html n="1" %}.
+Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voiture « aspirateur » de 1970, ce que Murray confirme{% include src.html n="1" %} ; Goodwood juge toutefois l'influence incertaine{% include src.html n="4" %}. Motor Sport salue aussi le travail de l'équipe de conception de Brabham, qui a su mettre l'idée en pratique{% include src.html n="1" %}.
 
 ## Limites
 

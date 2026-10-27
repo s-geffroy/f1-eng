@@ -16,6 +16,10 @@ sources:
     url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
+  - titre: "Motor Sport Magazine, « Lunch with… John Barnard » (septembre 2018)"
+    url: "https://www.motorsportmagazine.com/archive/article/september-2018/112/lunch-john-barnard"
+  - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren MP4/2 » (octobre 2005)"
+    url: "https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/steve-nichols.jpg"
 ---
@@ -25,7 +29,7 @@ formula1.com attribue la création de la **McLaren MP4/4**, qu'elle présente co
 
 ## Parcours technique
 
-- **Hercules.** Avant la course, il travaille quatre ans chez Hercules sur les [composites carbone]({{ site.baseurl }}/glossaire/#composite-carbone), alors nouveaux{% include src.html n="1,2" %}. Selon [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), c'est Nichols qui le met ensuite en relation avec ses anciens collègues, qui fabriqueront la coque carbone de la MP4/1{% include src.html n="2" %}.
+- **Hercules.** Avant la course, il travaille quatre ans chez Hercules sur les [composites carbone]({{ site.baseurl }}/glossaire/#composite-carbone), alors nouveaux{% include src.html n="1,2" %}. Selon [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), comme selon Nichols lui-même, c'est Nichols qui le met ensuite en relation avec ses anciens collègues d'Hercules{% include src.html n="2,5" %}, qui fabriqueront la coque carbone de la MP4/1{% include src.html n="6" %}.
 - **McLaren.** En 1980, Barnard l'engage chez Project 4 pour travailler avec lui sur le châssis de la MP4/1{% include src.html n="1,2" %}. La MP4/3 est la première McLaren conçue sous sa direction technique{% include src.html n="2" %} ; en 1987, il conduit le dessin de la MP4/4, dont la paternité est disputée{% include src.html n="2,3,4" %}.
 - **Ferrari.** Il y remplace Barnard à la tête de la [conception du châssis]({{ site.baseurl }}/glossaire/#chassis), et produit avec [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) la F92A, un échec{% include src.html n="1" %}.
 - **Jaguar.** Fin 2000, il devient directeur technique de Jaguar Racing{% include src.html n="1" %}.

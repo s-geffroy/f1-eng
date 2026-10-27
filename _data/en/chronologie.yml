@@ -426,7 +426,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "McLaren's inerter"
-    texte: "Conceived at Cambridge by Malcolm Smith, this flywheel inside the suspension first raced on the McLaren that won in Spain, under the codename \"J-damper\". Opened to every team in 2008, it remained standard equipment until it was banned in 2022."
+    texte: "Conceived at Cambridge by Malcolm Smith, this flywheel inside the suspension first raced on the McLaren that won in Spain, under the codename \"J-damper\". Formula1.com dates its first use to 1997, the year Smith conceived it according to Cambridge. Opened to every team in 2008, it remained standard equipment until it was banned in 2022."
     entrees: []
     termes: [inerter]
     sources:
@@ -592,7 +592,7 @@ contexte:
     annee: 1958
     categorie: "reglement"
     titre: "Pump fuel made mandatory"
-    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix; without his Vanwall, Stirling Moss raced Rob Walker's small Cooper. Because of the heat, the race was also shortened from 400 to 313km."
+    texte: "In 1958 the rules replaced alcohol-based brews with pump fuel. Vanwall and BRM had not adapted their engines in time for the Argentine Grand Prix; without his Vanwall, Stirling Moss raced Rob Walker's small Cooper. The race was also cut to 80 laps, 313km instead of 400: because of the heat according to Goodwood, under the new FIA rules according to Motor Sport in 1958."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -870,6 +870,8 @@ contexte:
         url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
       - titre: "Motor Sport, Adam Cooper, “Vacuum clean-up” (May 1998)"
         url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean"
+      - titre: "Motor Sport, “The 75 greatest Grands Prix: 1978 Swedish GP” (March 2025)"
+        url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
   - id: "cranfield-commandes-de-vol"
     annee: 1980
     categorie: "technologie"

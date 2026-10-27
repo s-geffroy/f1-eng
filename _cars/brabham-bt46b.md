@@ -17,6 +17,8 @@ sources:
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
   - titre: "Jonathan Bushell, Motor Sport Magazine, “1978 Brabham BT46B 'fan car'” (February 2025, with Denis Jenkinson's July 1978 report)"
     url: "https://motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car"
+  - titre: "Russell Campbell, Goodwood, “Too fast for Formula 1: the Brabham BT46B fan car” (May 2025)"
+    url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
 photo:
   fichier: "/assets/voitures/brabham-bt46b.jpg"
   legende: "The BT46B at the Goodwood Festival of Speed, in July 2001. Here it runs on Avon tyres, not the Goodyears of 1978."
@@ -43,7 +45,7 @@ The regulations banned movable aerodynamic devices{% include src.html n="1,3" %}
 - Gary Anderson claims he suggested fitting a fan{% include src.html n="1" %};
 - engineer David Cox claims a share of it: he says he glimpsed a drawing of a fan on [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %})'s drawing board at Tyrrell{% include src.html n="1" %}.
 
-According to Motor Sport, the common inspiration was the Chaparral 2J from Can-Am, the 1970 "sucker" car, which Murray confirms{% include src.html n="1" %}; Goodwood, however, considers the influence uncertain. Motor Sport also praises the Brabham design team for the way it put the idea into practice{% include src.html n="1" %}.
+According to Motor Sport, the common inspiration was the Chaparral 2J from Can-Am, the 1970 "sucker" car, which Murray confirms{% include src.html n="1" %}; Goodwood, however, considers the influence uncertain{% include src.html n="4" %}. Motor Sport also praises the Brabham design team for the way it put the idea into practice{% include src.html n="1" %}.
 
 ## Limitations
 
