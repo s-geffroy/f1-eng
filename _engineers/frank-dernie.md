@@ -18,6 +18,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - titre: "GrandPrix.com, “Frank Dernie”"
     url: "https://grandprix.com/people/frank-dernie.html"
+  - titre: "Motor Sport Magazine, “Sir Patrick Head: The Motor Sport Interview” (April 2022)"
+    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
 consultation: "25 October 2026"
 image: "/assets/partage/en/frank-dernie.jpg"
 ---
@@ -30,7 +32,7 @@ Frank Dernie is the figure of a revolution that does not show on the bodywork: t
 
 ## Technical career
 
-- **Williams.** The date of his arrival differs between sources: 1977 according to Dernie himself; GrandPrix.com places it after the closure of Hesketh, which he is said to have joined at the end of 1976 for two seasons.
+- **Williams.** The date of his arrival differs between sources: 1977 according to Dernie himself; GrandPrix.com places it after the closure of Hesketh, which he is said to have joined at the end of 1976 for two seasons; Patrick Head, in a 2022 Motor Sport interview, dated it to January 1979.
 - **Lotus.** As technical director, he designed the 1989 Lotus 101; the Lamborghini V12-powered 102 was, in his words, "basically the same car".
 - **Ligier**, where he designed the JS37, then **Benetton** for 1993: according to his account, [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) brought him in as chief engineer.
 - **Arrows**, where he produced the 1997 A18, then consultant at Williams in 2003, and at Toyota until the team's withdrawal at the end of 2009.

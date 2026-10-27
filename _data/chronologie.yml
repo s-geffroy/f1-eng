@@ -630,7 +630,7 @@ contexte:
     annee: 1966
     categorie: "technologie"
     titre: "Les ailerons des Chaparral"
-    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Parti d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient » ; Goodwood estime que Colin Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
+    texte: "En Can-Am et en sport-prototypes, les Chaparral de Jim Hall portent dès 1966 de grands ailerons sur supports, réglables en roulant, et déplacent les radiateurs dans des pontons latéraux. Parti d'une première Chaparral 2 qui souffrait de portance, Hall a voulu aller « au-delà du zéro », vers l'appui ; une pédale aplatit l'aileron pour réduire la traînée en ligne droite, et son support fixé aux moyeux fait porter l'appui sur les roues plutôt que sur le châssis. Chris Amon, pilote de la Ferrari à aileron de Spa en 1968, s'étonne que la F1 ait tant tardé alors que ces ailerons « marchaient de toute évidence » ; Goodwood estime que Colin Chapman s'est inspiré des radiateurs latéraux de Hall pour la Lotus 72."
     liens:
       - jalon: "ailerons"
         mecanisme: "transfert"
@@ -1161,7 +1161,7 @@ contexte:
       - evenement: "protections-laterales-cockpit"
         mecanisme: "declenche"
         preuve: "etabli"
-        pourquoi: "Selon GrandPrix.com, les règles de 1996 sont le fruit des travaux du groupe d'experts de la FIA sur la sécurité depuis les accidents d'Imola et de Monaco en 1994."
+        pourquoi: "Selon GrandPrix.com, les règles de 1996 sont le fruit des travaux du groupe consultatif d'experts de la FIA (Advisory Expert Group) sur la sécurité depuis les accidents d'Imola et de Monaco en 1994."
       - evenement: "roues-retenues"
         mecanisme: "declenche"
         preuve: "etabli"
@@ -1169,7 +1169,7 @@ contexte:
       - evenement: "hans"
         mecanisme: "declenche"
         preuve: "etabli"
-        pourquoi: "En F1, l'adoption du HANS commence après l'accident de Ratzenberger, mort d'une fracture de la base du crâne (Matt Youson) ; après les morts de Senna et de Ratzenberger, la FIA associe Mercedes-Benz à l'amélioration de la sécurité (Katy Roberts)."
+        pourquoi: "En F1, l'adoption du HANS commence après l'accident de Ratzenberger, mort d'une fracture de la base du crâne (Matt Youson) ; après les morts de Senna et de Ratzenberger, la FIA associe Mercedes-Benz à l'amélioration de la sécurité des pilotes (Katy Roberts)."
       - evenement: "halo"
         mecanisme: "declenche"
         preuve: "discute"
@@ -1191,7 +1191,7 @@ contexte:
     annee: 1996
     categorie: "securite"
     titre: "Flancs de cockpit relevés et appuie-tête latéraux"
-    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe d'experts de la FIA sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. Les flancs relevés protègent bien mieux la tête du pilote sur les côtés."
+    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe consultatif d'experts de la FIA (Advisory Expert Group) sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. Les flancs relevés protègent bien mieux la tête du pilote sur les côtés."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"

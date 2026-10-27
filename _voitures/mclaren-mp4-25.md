@@ -47,7 +47,7 @@ L'ingénieur en chef Tim Goss et l'aérodynamicien en chef Doug McKiernan reçoi
 
 ## Limites
 
-- **Copié, puis interdit.** Sauber court avec sa propre version dès la deuxième manche, en Australie ; Mercedes, Ferrari, Red Bull, Force India, Williams et Renault suivent dans la saison. Lors d'une réunion au Grand Prix d'Espagne 2010, il est banni pour 2011, pour des raisons de coût et de sécurité.
+- **Copié, puis interdit.** Sauber court avec sa propre version dès la deuxième manche, en Australie ; Mercedes, Ferrari, Red Bull, Force India, Williams et Renault suivent dans la saison. Lors d'une réunion au Grand Prix d'Espagne 2010, un vote le bannit pour 2011, pour des raisons de coût et de sécurité.
 - **Une voiture inégale.** Selon Autosport, le F-duct ne compense pas les défauts de la voiture. Goss attribue sa mauvaise tenue sur les bosses à ses caractéristiques aérodynamiques. McLaren reconnaît aussi avoir tardé à adopter le diffuseur soufflé par les échappements, introduit une course après Ferrari et Renault.
 
 ## Ce qu'elle laisse

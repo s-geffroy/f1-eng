@@ -25,6 +25,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "GrandPrix.com, « Ross Brawn »"
     url: "https://www.grandprix.com/gpe/cref-braros.html"
+  - titre: "Motor Sport Magazine, « Sir Patrick Head: The Motor Sport Interview » (avril 2022)"
+    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
   - titre: "Formula 1, « Brawn GP engineers 'thought we'd got our sums wrong' ahead of fairytale start »"
     url: "https://www.formula1.com/en/latest/article/brawn-gp-engineers-thought-wed-got-our-sums-wrongs-ahead-of-fairytale-start.F0Dk8F2qr7T7LGzeJC3sd"
   - titre: "Formula 1, « 'We owe a lot to Ross' – Team bosses pay tribute to Brawn »"
@@ -39,7 +41,7 @@ La contribution la plus structurante de Ross Brawn relève de la **méthode**. L
 
 ## Parcours technique
 
-- **Williams** : aérodynamicien, très impliqué dans la conception aérodynamique de la FW07 (1979).
+- **Williams** : entré comme machiniste, il devient, au moment des succès de la FW07, technicien au service recherche et développement de [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}), puis, après l'installation de l'équipe dans l'usine de Basil Hill Road, aérodynamicien à la soufflerie de l'équipe (GrandPrix.com). Patrick Head raconte que Dernie et Brawn ont été « très impliqués » dans les travaux qui ont rendu utilisable la soufflerie au quart acquise fin 1979 (Motor Sport, 2022).
 - **Arrows** : après la fermeture de l'équipe FORCE fin 1986, il devient chef designer d'Arrows.
 - **TWR** (1989) : il conçoit la Jaguar XJR-14, première voiture de sport dotée d'une technologie de F1 de pointe.
 - **Benetton** : directeur technique à partir de l'automne 1991. La voiture de 1994 est mise en chantier dès le début de 1993, ce qui était, selon Brawn, « presque du jamais vu » à l'époque.

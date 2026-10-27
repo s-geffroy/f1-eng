@@ -25,6 +25,8 @@ sources:
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "GrandPrix.com, “Ross Brawn”"
     url: "https://www.grandprix.com/gpe/cref-braros.html"
+  - titre: "Motor Sport Magazine, “Sir Patrick Head: The Motor Sport Interview” (April 2022)"
+    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
   - titre: "Formula 1, “Brawn GP engineers 'thought we'd got our sums wrong' ahead of fairytale start”"
     url: "https://www.formula1.com/en/latest/article/brawn-gp-engineers-thought-wed-got-our-sums-wrongs-ahead-of-fairytale-start.F0Dk8F2qr7T7LGzeJC3sd"
   - titre: "Formula 1, “'We owe a lot to Ross' – Team bosses pay tribute to Brawn”"
@@ -38,7 +40,7 @@ Ross Brawn's most far-reaching contribution lies in **method**. He sums it up hi
 
 ## Technical career
 
-- **Williams**: aerodynamicist, closely involved in the aerodynamic design of the FW07 (1979).
+- **Williams**: having joined as a machinist, he became a technician in [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %})'s research and development department as the team found success with the FW07, then, after the team moved to its Basil Hill Road factory, an aerodynamicist working in the team's own wind tunnel (GrandPrix.com). Patrick Head recalled that Dernie and Brawn were "very involved" in the work that made the quarter-scale wind tunnel acquired in late 1979 usable (Motor Sport, 2022).
 - **Arrows**: after the FORCE team closed at the end of 1986, he became Arrows' chief designer.
 - **TWR** (1989): he designed the Jaguar XJR-14, the first sports car to feature cutting-edge F1 technology.
 - **Benetton**: technical director from autumn 1991. Work on the 1994 car began as early as the start of 1993, which, according to Brawn, was "almost unheard of" at the time.

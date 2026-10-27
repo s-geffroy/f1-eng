@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/tyrrell-008.jpg"
 ---
 ## Ce qu'elle change
 
-Après la six-roues P34, la Tyrrell 008 revient à une monoplace classique à quatre roues. Son apport tient moins à sa forme qu'à ce qu'elle emporte : selon Damien Smith (Autosport), sa contribution la plus importante est « peut-être » son électronique d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees).
+Après la six-roues P34, la Tyrrell 008 revient à une monoplace classique à quatre roues. Son apport tient moins à sa forme qu'à ce qu'elle emporte : selon Damien Smith (Autosport), sa contribution la plus importante est « peut-être » son électronique d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees), alors à ses débuts.
 
 Le système vient de Karl Kempf. Recruté par la division course de Goodyear pour équiper de capteurs les voitures chaussées par le manufacturier, il travaille d'abord sur la P34, en 1977 ; puis, quand Ferrari passe chez Michelin, il décline une offre de [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) chez Wolf pour travailler directement pour Tyrrell (Mark Glendenning, Racer). Les capteurs mesurent les débattements de suspension, les efforts dans les ressorts et les amortisseurs, la direction, la position de l'accélérateur et du frein, le régime, les accélérations latérales et longitudinales et la vitesse de lacet. Chez Tyrrell, l'enregistreur est logé dans les pontons ; les données tiennent sur une cassette ordinaire, qui peut contenir toute une course.
 

@@ -18,6 +18,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - titre: "GrandPrix.com, « Frank Dernie »"
     url: "https://grandprix.com/people/frank-dernie.html"
+  - titre: "Motor Sport Magazine, « Sir Patrick Head: The Motor Sport Interview » (avril 2022)"
+    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
 consultation: "25 octobre 2026"
 image: "/assets/partage/frank-dernie.jpg"
 redirect_from: "/ingenieurs/2026/10/25/frank-dernie.html"
@@ -31,7 +33,7 @@ Frank Dernie est la figure d'une révolution qui ne se voit pas sur la carrosser
 
 ## Parcours technique
 
-- **Williams.** La date de son arrivée diffère selon les sources : 1977 selon Dernie lui-même ; GrandPrix.com la place après la fermeture de Hesketh, où il serait entré fin 1976 pour deux saisons.
+- **Williams.** La date de son arrivée diffère selon les sources : 1977 selon Dernie lui-même ; GrandPrix.com la place après la fermeture de Hesketh, où il serait entré fin 1976 pour deux saisons ; Patrick Head, dans un entretien de 2022 à Motor Sport, la date de janvier 1979.
 - **Lotus.** Directeur technique, il conçoit la Lotus 101 de 1989 ; la 102 à V12 Lamborghini en est, selon lui, « pour l'essentiel la même voiture ».
 - **Ligier**, où il conçoit la JS37, puis **Benetton** pour 1993 : selon son récit, [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) le fait venir comme ingénieur en chef.
 - **Arrows**, où il signe l'A18 de 1997, puis consultant chez Williams en 2003, et chez Toyota jusqu'au retrait de l'équipe fin 2009.

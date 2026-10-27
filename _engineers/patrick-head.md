@@ -37,7 +37,7 @@ Patrick Head is the architect of the Williams technical organisation. He graduat
 
 ## From designer to technical director
 
-Head then stopped drawing the cars himself and created the post of **technical director**, responsible for coordinating every discipline: design, manufacture, racing and testing. It is this organisation that is his hallmark.
+Head then stopped drawing the cars himself. The Williams team's website says that he then created the post of **technical director**, responsible for coordinating every discipline: design, manufacture, racing and testing. Head himself qualified this account: asked by Motor Sport in 2022 about Frank Dernie's arrival in 1979, he said that, while broadening its engineering base, the team "did not establish job titles". It is this organisation that is his hallmark.
 
 After [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) arrived in 1990, the Head–Newey partnership dominated: from 1991 to 1997, Williams won 59 races, five constructors' titles and four drivers' titles. The 1993 FW15C was designed under their joint technical direction.
 

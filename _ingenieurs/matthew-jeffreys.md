@@ -50,7 +50,7 @@ Jeffreys compare les méthodes des deux directeurs techniques qu'il a connus. Av
 
 - il rappelle qu'au moins seize autres anciens de McLaren ayant travaillé sur la MP4/4 contestent comme lui, depuis des années, le récit de Murray ;
 - ni lui ni Nichols ne se souviennent que Murray leur ait montré des plans de la BT55 ;
-- Nichols, chef designer nommé par Murray, était selon lui responsable à 100 % de l'architecture et de la conception d'ensemble, une responsabilité confiée par Ron Dennis et Murray en août 1987 dans une note interne qu'il dit avoir conservée ;
+- Nichols, chef designer nommé par Murray, était selon lui « responsable à 100 % de son architecture, de son implantation et de sa conception d'ensemble », une responsabilité confiée par Ron Dennis et Murray en août 1987 dans une note interne qu'il dit avoir conservée ;
 - il conteste aussi l'anecdote de Murray selon laquelle Prost aurait refusé de piloter couché : « Je crois que la mémoire de Gordon lui fait peut-être défaut. »
 
 ## Attribution
