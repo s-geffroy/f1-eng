@@ -41,7 +41,7 @@ Pour 1986, la quantité de carburant autorisée en course passe de 220 à 195 li
 
 C'est aussi l'une des premières F1 dont les ingénieurs suivent le fonctionnement à distance. Motor Sport décrit en janvier 1987 une radio entre le stand et la voiture, et un système de télémétrie qui permet aux ingénieurs de suivre les relevés des instruments pendant la course. L'électronique gère aussi la suralimentation, l'allumage et l'injection ; le pilote dispose de quatre réglages de pression du [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur).
 
-**Les sources ne décrivent pas ce système de la même façon.** Mark Hughes parle d'une télémétrie « rudimentaire », qui transmet ses données au garage à la fin de chaque tour. Honda évoque un enregistreur de données développé à partir de mi-1985 par l'équipe de Toshihiro Ito, devenu ensuite télémétrie ; sur sa page consacrée au RA166E, le constructeur affirme même que les données étaient transmises en temps réel dès 1986, et que Williams-Honda a été en 1986 la première équipe à mettre un tel système en pratique. Cette primauté n'est pas confirmée par une source indépendante. Le site parle donc d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) embarquée, transmise au stand sous une forme encore discutée.
+**Les sources ne décrivent pas ce système de la même façon.** Mark Hughes parle d'une télémétrie « rudimentaire », qui transmet ses données au garage à la fin de chaque tour. Honda évoque un enregistreur de données développé à partir de la mi-1985 par l'équipe de Toshihiro Ito, devenu ensuite télémétrie ; sur sa page consacrée au RA166E, le constructeur affirme même que les données étaient transmises en temps réel dès 1986, et que Williams-Honda a été en 1986 la première équipe à mettre un tel système en pratique. Cette primauté n'est pas confirmée par une source indépendante. Le site parle donc d'[acquisition de données]({{ site.baseurl }}/glossaire/#acquisition-de-donnees) embarquée, transmise au stand sous une forme encore discutée.
 
 ## Comment elle est faite
 
@@ -57,7 +57,7 @@ Selon Mark Hughes, [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-
 
 ## Limites
 
-Les deux pilotes se prennent des points. Selon Mark Hughes, c'est la raison principale de la perte du titre pilotes face à Alain Prost. Jenkinson attribue plutôt la défaite de Nigel Mansell à un pneu Goodyear défaillant lors de la dernière course.
+Les deux pilotes se prennent mutuellement des points. Selon Mark Hughes, c'est la raison principale de la perte du titre pilotes face à Alain Prost. Jenkinson attribue plutôt la défaite de Nigel Mansell à un pneu Goodyear défaillant lors de la dernière course.
 
 ## Ce qu'elle laisse
 

@@ -39,7 +39,7 @@ McLaren la présente comme la première F1 conçue en composite carbone. Faute d
 
 ## Qui l'a conçue
 
-[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), qui rejoint selon lui Barnard et [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) : « juste nous trois ».
+[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), qui, selon ses propres mots, rejoint Barnard et [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) : « juste nous trois ».
 
 - **Le contact avec Hercules.** Barnard dit que c'est Nichols qui l'a orienté vers Hercules Aerospace. La page de McLaren l'attribue plutôt à une relation de Barnard datant de ses années en IndyCar, sans la nommer.
 - **Le calcul des matériaux.** Selon Autosport, British Aerospace présente à Barnard l'ingénieur aéronautique [Arthur Webb]({{ site.baseurl }}{% link _ingenieurs/arthur-webb.md %}), qui lui apporte la science des matériaux dont il a besoin.
@@ -53,5 +53,5 @@ McLaren la présente comme la première F1 conçue en composite carbone. Faute d
 ## Ce qu'elle laisse
 
 - **Silverstone, 1981** : John Watson gagne le Grand Prix de Grande-Bretagne. C'est la première victoire de McLaren depuis quatre ans, et la première d'une voiture en carbone.
-- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux. Il en sort indemne. « Cet accident a mis fin aux mythes sur la monocoque carbone », dit Barnard. L'aviation civile britannique demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone.
+- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux. Il s'en tire indemne. « Cet accident a mis fin aux mythes sur la monocoque carbone », dit Barnard. L'aviation civile britannique demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone.
 - Selon McLaren, la voiture lance une tendance aussi influente que la monocoque de Chapman, vingt ans plus tôt.

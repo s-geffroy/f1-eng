@@ -42,7 +42,7 @@ La coque est en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carb
 
 ## Qui l'a conçue
 
-L'idée vient de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui cherchait à appliquer l'effet de sol aux voitures de route. Chapman l'envoie, avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), dessiner une voiture de course sur ce principe : d'abord la Lotus 86, puis la 88. Le joint d'angle de la coque est une idée d'Ogilvie. [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}), qui s'enthousiasme pour le projet, mène le combat réglementaire.
+L'idée vient de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui cherchait à appliquer l'effet de sol aux voitures de route. [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) l'envoie, avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), dessiner une voiture de course sur ce principe : d'abord la Lotus 86, puis la 88. Le joint d'angle de la coque est une idée d'Ogilvie. Chapman, qui s'enthousiasme pour le projet, mène le combat réglementaire.
 
 ## Limites
 

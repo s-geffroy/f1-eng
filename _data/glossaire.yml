@@ -427,8 +427,8 @@
   motifs:
   - ailerons
   - aileron
-  definition: 'Aile d''avion montée à l''envers, à l''avant ou à l''arrière : au lieu de soulever la voiture, elle la plaque au sol, au prix d''une traînée accrue. En 1968-1969, les ailerons sont montés sur de hauts mâts, interdits après des accidents en 1969.'
-  premiere: 'Contestée : Ferrari et Brabham essaient des ailerons sur supports à Spa en 1968, d''autres les avaient précédés.'
+  definition: 'Aile d''avion montée à l''envers, à l''avant ou à l''arrière : au lieu de soulever la voiture, elle la plaque au sol, au prix d''une traînée accrue. En 1968-1969, les ailerons sont montés sur de hauts mâts ; ces montages sont interdits en 1969, après des accidents.'
+  premiere: 'Contestée : Ferrari et Brabham essaient des ailerons sur supports à Spa en 1968 ; d''autres les avaient précédés.'
   entrees:
   - mauro-forghieri
   - tony-rudd
@@ -443,7 +443,7 @@
   motifs:
   - nez relevé
   definition: Le nez est surélevé et l'aileron avant suspendu dessous, pour envoyer davantage d'air sous le plancher et vers le diffuseur. C'est devenu la norme dans les années 1990.
-  premiere: Tyrrell 019, Grand Prix de Saint-Marin 1990 ; la Leyton House CG901 le fait la même année.
+  premiere: Tyrrell 019, Grand Prix de Saint-Marin 1990 ; la Leyton House CG901 l'adopte la même année.
   entrees:
   - jean-claude-migeot
   - harvey-postlethwaite
@@ -533,7 +533,7 @@
   terme: CAO, CAE et CFD
   motifs:
   - CAO
-  definition: La CAO sert à dessiner les pièces en numérique ; le calcul assisté (CAE) regroupe les calculs de résistance et de suspension ; la CFD simule l'écoulement de l'air autour de la voiture, en complément de la soufflerie. L'usage de la CFD est aujourd'hui plafonné par le règlement.
+  definition: La CAO sert à dessiner les pièces en numérique ; le calcul assisté par ordinateur (CAE) regroupe les calculs de résistance et de suspension ; la CFD simule l'écoulement de l'air autour de la voiture, en complément de la soufflerie. L'usage de la CFD est aujourd'hui plafonné par le règlement.
   entrees:
   - frank-dernie
   - alan-jenkins
@@ -565,7 +565,7 @@
   terme: Ravitaillement et arrêt tactique
   motifs:
   - ravitaillement
-  definition: La voiture part allégée et s'arrête en course pour faire le plein et changer de roues, ce qui la rend plus rapide à chaque relais. Le ravitaillement est interdit de 1984 à 1993, autorisé de 1994 à 2009, puis interdit depuis 2010 ; l'arrêt ne sert plus qu'au changement de pneus.
+  definition: La voiture part allégée et s'arrête en course pour faire le plein et changer de roues, ce qui la rend plus rapide à chaque relais. Le ravitaillement est interdit de 1984 à 1993, autorisé de 1994 à 2009, puis de nouveau interdit depuis 2010 ; l'arrêt ne sert plus qu'au changement de pneus.
   premiere: 'Arrêt tactique moderne : Brabham, 1982.'
   entrees:
   - gordon-murray
@@ -605,7 +605,7 @@
   terme: DRS
   motifs:
   - DRS
-  definition: 'Système de réduction de la traînée : le pilote ouvre un volet de l''aileron arrière dans une zone définie, derrière une autre voiture, pour gagner de la vitesse en ligne droite. Introduit en 2011 à la place du F-duct, il est jugé dès le départ comme un palliatif aux difficultés des voitures à se suivre.'
+  definition: 'Système de réduction de la traînée : le pilote ouvre un volet de l''aileron arrière dans une zone définie, derrière une autre voiture, pour gagner de la vitesse en ligne droite. Introduit en 2011 à la place du F-duct, il est d''emblée considéré comme un palliatif aux difficultés des voitures à se suivre.'
   premiere: '2011.'
   entrees: []
   sources:

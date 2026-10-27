@@ -35,7 +35,7 @@ image: "/assets/partage/voitures/tyrrell-p34.jpg"
 
 La Tyrrell P34 est la seule voiture à six roues à avoir pris le départ d'un Grand Prix : quatre petites roues directrices à l'avant, deux roues de taille normale à l'arrière.
 
-À sa présentation, on croit à une recherche de surface frontale. Ce n'était pas le but, explique Motor Sport : la surface frontale était fixée par les énormes pneus arrière. Selon Motor Sport, la raison était l'[appui]({{ site.baseurl }}/glossaire/#appui). Une roue exposée au vent engendre de la portance, d'autant plus forte que la roue est grande. Des roues plus petites, deux fois plus nombreuses, gardent la surface de gomme et de freinage tout en portant moins. Les autres compensaient la portance de leurs roues avant par davantage d'aileron ; la Tyrrell pouvait s'en passer, et gagner en ligne droite. Derek Gardner avait chiffré le gain : « l'équivalent d'une quarantaine de chevaux ».
+À sa présentation, on croit à une recherche de surface frontale. Ce n'était pas le but, explique Motor Sport : la surface frontale était fixée par les énormes pneus arrière. La vraie raison, poursuit le magazine, était l'[appui]({{ site.baseurl }}/glossaire/#appui). Une roue exposée au vent engendre de la portance, d'autant plus forte que la roue est grande. Des roues plus petites, deux fois plus nombreuses, gardent la surface de gomme et de freinage tout en portant moins. Les autres compensaient la portance de leurs roues avant par davantage d'aileron ; la Tyrrell pouvait s'en passer, et gagner en ligne droite. Derek Gardner avait chiffré le gain : « l'équivalent d'une quarantaine de chevaux ».
 
 Le contexte explique la démarche. Presque tout le plateau avait le même moteur, la même boîte et les mêmes pneus. « Il nous fallait un avantage déloyal, dit Gardner, et la six-roues, c'était ça. »
 
@@ -43,7 +43,7 @@ Goodyear accepte de fabriquer les minuscules pneus avant. Gardner les voulait de
 
 ## Qui l'a conçue
 
-[Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}), avec l'accord de Ken Tyrrell. L'idée remonte à 1968 et à un tout autre usage. Gardner travaillait alors sur la transmission intégrale de la Lotus à turbine d'Indianapolis, puis de la Matra de F1 ; répartir la charge sur quatre roues avant, dont deux motrices, devait stabiliser ces voitures. Il propose une six-roues à Andy Granatelli, le patron de STP, sans suite. Il reprend le projet chez Tyrrell, sous un autre objectif.
+[Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}), avec l'accord de Ken Tyrrell. L'idée remonte à 1968 et à un tout autre usage. Gardner travaillait alors sur la transmission intégrale de la Lotus à turbine d'Indianapolis, puis de la Matra de F1 ; répartir la charge sur quatre roues avant, dont deux motrices, devait stabiliser ces voitures. Il propose une six-roues à Andy Granatelli, le patron de STP, sans suite. Il reprend le projet chez Tyrrell, avec un autre objectif.
 
 Le premier prototype garde l'arrière de la Tyrrell 007 de 1975. Gardner quitte l'équipe pendant la saison 1977, juste après Monza selon lui. [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) élargit alors la voie avant et avance les radiateurs d'huile pour retrouver l'adhérence perdue à l'avant ; selon Motor Sport, sans succès. Gardner l'avait engagé quelques mois plus tôt pour installer le V6 turbo Renault dans la six-roues, un projet resté au stade de la maquette.
 

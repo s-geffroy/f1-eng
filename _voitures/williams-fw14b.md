@@ -49,7 +49,7 @@ La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatina
 
 ## Qui l'a conçue
 
-Williams et Autosport créditent [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987) avant de partir chez Lotus en 1989 (GrandPrix.com) ; Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
+Williams et Autosport attribuent la voiture à [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987) avant de partir chez Lotus en 1989 (GrandPrix.com) ; Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
 
 ## Limites
 

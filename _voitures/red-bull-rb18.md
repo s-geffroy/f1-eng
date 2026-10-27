@@ -54,7 +54,7 @@ Pour Honda, son trait principal est ailleurs : des pontons profondément creusé
 Une équipe technique, mais les sources ne s'accordent pas sur la part d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), alors directeur technique en chef :
 
 - selon formula1.com, en novembre 2022, Newey nourrit le travail d'un groupe qui comprend le directeur technique Pierre Waché, le responsable de l'aérodynamique Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse et Paul Monaghan ; sa contribution directe au dessin se limite à la suspension, pièce décisive de l'ensemble ;
-- selon formula1.com, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut délivrer l'appui de façon fiable ;
+- selon formula1.com, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut produire l'appui de façon fiable ;
 - Honda parle d'un développement « mené par » Newey, et Motor Sport d'une équipe « dirigée par » lui.
 
 Les deux articles de formula1.com s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher.
@@ -65,5 +65,5 @@ En début de saison, la RB18 est bien au-dessus du poids minimum, surtout à l'a
 
 ## Ce qu'elle laisse
 
-- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon formula1.com ; Honda avance un total de dix-neuf, que ne retiennent ni formula1.com ni Motor Sport. Verstappen est champion du monde ; Red Bull remporte le titre des constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari.
+- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon formula1.com ; Honda avance un total de dix-neuf, que ne retiennent ni formula1.com ni Motor Sport. Verstappen est champion du monde ; Red Bull remporte le titre constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari.
 - Le moteur est un Honda : le constructeur, qui a officiellement quitté la F1 fin 2021, le développe et le fabrique, mais sous le nom RBPTH001, sans la mention Honda. C'est une évolution du RA621H de 2021 ; formula1.com le désigne d'ailleurs sous ce nom de RA621.

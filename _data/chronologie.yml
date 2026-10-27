@@ -129,7 +129,7 @@ jalons:
     annee: 1968
     voie: aero
     titre: "Les ailerons sur supports"
-    texte: "Au Grand Prix de Belgique, Mauro Forghieri fait monter des ailerons sur supports sur la Ferrari de Chris Amon, qui signe la pole. D'autres les avaient utilisés avant lui."
+    texte: "Au Grand Prix de Belgique, Mauro Forghieri fait monter sur la Ferrari de Chris Amon des ailerons sur supports ; Amon signe la pole. D'autres les avaient utilisés avant lui."
     entrees: [mauro-forghieri]
     termes: [aileron]
 
@@ -185,7 +185,7 @@ jalons:
     annee: 1983
     voie: moteur
     titre: "Premier champion du monde sur moteur turbo"
-    texte: "Conçue en six semaines selon Mark Hughes, en trois mois selon Gordon Murray, après l'annonce du fond plat obligatoire, qui interdit les fonds à effet de sol et les jupes, la Brabham BT52 mène Nelson Piquet au titre."
+    texte: "La Brabham BT52 mène Nelson Piquet au titre. Elle est conçue après l'annonce du fond plat obligatoire, qui interdit les fonds à effet de sol et les jupes : en six semaines selon Mark Hughes, en trois mois selon Gordon Murray."
     entrees: [gordon-murray, paul-rosche]
     termes: [turbocompresseur]
     sources:
@@ -483,7 +483,7 @@ jalons:
     annee: 2022
     voie: "aero"
     titre: "La Red Bull de 2022"
-    texte: "Selon formula1.com en 2024, Adrian Newey, fort de son expérience des voitures à effet de sol, apporte des idées clés au concept de la Red Bull ; en 2022, le même site limitait sa contribution directe au dessin aux suspensions, qu'il dessine lui-même. L'enjeu est de délivrer l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023."
+    texte: "Selon formula1.com en 2024, Adrian Newey, fort de son expérience des voitures à effet de sol, apporte des idées clés au concept de la Red Bull ; en 2022, le même site limitait sa contribution directe au dessin aux suspensions, qu'il dessine lui-même. L'enjeu est de produire l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023."
     entrees: [adrian-newey]
     termes: [effet-de-sol]
     sources:
@@ -716,7 +716,7 @@ contexte:
     annee: 1968
     categorie: "economie"
     titre: "La publicité hors automobile"
-    texte: "La F1, devenue plus technique et plus coûteuse, ne peut plus vivre sans commanditaires. Après le départ de commanditaires historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, d'Imperial Tobacco, que les restrictions sur la publicité télévisée poussent vers le sport ; le rouge, blanc et or remplace le vert et jaune national. Un lecteur de Motor Sport, comme Sports Car Digest, rappelle que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes trouvent là un financement indépendant des industriels de l'automobile."
+    texte: "La F1, devenue plus technique et plus coûteuse, ne peut plus vivre sans commanditaires. Après le départ de soutiens historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, d'Imperial Tobacco, que les restrictions sur la publicité télévisée poussent vers le sport ; le rouge, blanc et or remplace le vert et jaune national. Un lecteur de Motor Sport rappelle, comme Sports Car Digest, que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes trouvent là un financement indépendant des industriels de l'automobile."
     sources:
       - titre: "Sports Car Digest, « Gold Leaf Team Lotus: The Deal and the First Glory » (avril 2024)"
         url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
@@ -1021,12 +1021,12 @@ contexte:
     annee: 1983
     categorie: "reglement"
     titre: "Quatre roues au plus"
-    texte: "Le règlement technique de la F1 limite les voitures à quatre roues. Les six-roues expérimentales qui ont suivi la Tyrrell, la March 2-4-0 et les Williams FW07D et FW08D à quatre roues motrices arrière, ne courent jamais. La date diverge : 1983 selon Motor Sport, 1982 selon formula1.com, qui rattache l'interdiction à la Williams à six roues et invoque la sécurité et l'aspect pratique."
+    texte: "Le règlement technique de la F1 limite les voitures à quatre roues. Les six-roues expérimentales qui ont suivi la Tyrrell (la March 2-4-0, les Williams FW07D et FW08D à quatre roues motrices arrière) ne courent jamais. Les sources divergent sur la date : 1983 selon Motor Sport, 1982 selon formula1.com, qui rattache l'interdiction à la Williams à six roues et invoque la sécurité et l'aspect pratique."
     liens:
       - jalon: "tyrrell-p34"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "La règle des quatre roues au plus ferme définitivement la formule à six roues, que Tyrrell avait d'ailleurs abandonnée dès 1978, pour des raisons de pneus."
+        pourquoi: "La règle des quatre roues au plus ferme définitivement la solution à six roues, que Tyrrell avait d'ailleurs abandonnée dès 1978, pour des raisons de pneus."
     sources:
       - titre: "Motor Sport, Matt Bishop, « The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1 » (juin 2026)"
         url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
@@ -1062,7 +1062,7 @@ contexte:
   - id: "crash-test-frontal"
     annee: 1985
     categorie: "securite"
-    titre: "Premier crash-test obligatoire"
+    titre: "Premier essai de choc obligatoire"
     texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Vers 1998, l'essai porte sur un châssis complet et s'accompagne des premiers essais de charge statique. Les essais se multiplient ensuite (arceaux, structures latérales et arrière, panneaux anti-intrusion), souvent en réponse directe à un accident, et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants pour être homologuée. Pour Jo Bauer, délégué technique de la FIA, ces essais ont sauvé la vie de Robert Kubica au Grand Prix du Canada 2007."
     sources:
       - titre: "FIA, « Breaking the barriers of safety » (mai 2013)"
@@ -1444,7 +1444,7 @@ contexte:
     annee: 2018
     categorie: "securite"
     titre: "Introduction du halo"
-    texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, fixé devant et au-dessus du cockpit, doit résister à une charge verticale de 116 kN ; on l'a éprouvé en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
+    texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, fixé devant et au-dessus du cockpit, doit résister à une charge verticale de 116 kN ; on l'éprouve en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -1478,12 +1478,12 @@ contexte:
     annee: 2022
     categorie: "reglement"
     titre: "Le retour de l'effet de sol"
-    texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon la F1, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les déflecteurs latéraux (bargeboards), qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
+    texte: "Le règlement 2022, d'abord prévu pour 2021 et retardé par la pandémie, rend au fond de la voiture le rôle principal dans la production d'appui, comme au début des années 1980, mais sans jupes. Il vise à permettre aux voitures de se suivre : selon formula1.com, celles d'alors perdent 35 % de leur appui à 20 mètres d'une autre et 47 % à 10 mètres, contre 4 % et 18 % prévus en 2022. Des canaux profilés remplacent le fond à marche, et l'appui ne dépend plus des tourbillons, sensibles au sillage, que créaient les déflecteurs latéraux (bargeboards), qui disparaissent. Les ailerons sont redéfinis et les jantes agrandies, avec des pneus de 18 pouces."
     liens:
       - jalon: "inerter"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "Le règlement 2022 interdit les inerters, courus pour la première fois en 2005 et devenus courants en F1 après 2008 (université de Cambridge) ; l'interdiction est décrite par Mark Hughes et Giorgio Piola."
+        pourquoi: "Le règlement 2022 interdit les inerters, employés en course pour la première fois en 2005 et devenus courants en F1 après 2008 (université de Cambridge) ; l'interdiction est décrite par Mark Hughes et Giorgio Piola."
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"

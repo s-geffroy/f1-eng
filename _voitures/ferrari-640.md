@@ -33,7 +33,7 @@ image: "/assets/partage/voitures/ferrari-640.jpg"
 
 La Ferrari 640 remplace le levier de vitesses par une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) à commande électrohydraulique, actionnée par des palettes derrière le volant.
 
-On pense d'abord au temps gagné à chaque changement de rapport. Ce n'était pas le point de départ. John Barnard l'explique dans Motor Sport : « Le projet est né parce que je voulais une monocoque vraiment étroite. » Il fallait alors faire passer une tringlerie de la cabine jusqu'à la boîte, le long du moteur, et trouver de la place pour le levier et la main du pilote. « Je me suis dit : au lieu d'un levier, je peux sûrement avoir un interrupteur. C'était donc une contrainte d'encombrement. » Le gain de temps est venu ensuite.
+On pense d'abord au temps gagné à chaque changement de rapport. Ce n'était pas le point de départ. John Barnard l'explique dans Motor Sport : « Le projet est né parce que je voulais une monocoque vraiment étroite. » Il fallait alors faire passer une tringlerie de l'habitacle jusqu'à la boîte, le long du moteur, et trouver de la place pour le levier et la main du pilote. « Je me suis dit : au lieu d'un levier, je peux sûrement avoir un interrupteur. C'était donc une contrainte d'encombrement. » Le gain de temps est venu ensuite.
 
 Selon Motor Sport, l'idée aurait germé quand Barnard réglait les problèmes de tringlerie de la Chaparral 2K, victorieuse des 500 Miles d'Indianapolis en 1980 ; Barnard lui-même, interrogé, ne mentionne pas la Chaparral. La boîte devait d'abord équiper la 639 en 1988, mais Ferrari court cette saison-là avec son moteur turbo.
 
@@ -54,4 +54,4 @@ La 640 finit rarement ses courses. On accuse la boîte, mais selon Barnard, bien
 
 - **1989** : Mansell gagne la première course, au Brésil, à la surprise générale, puis en Hongrie ; Gerhard Berger gagne au Portugal. Ferrari finit troisième chez les constructeurs.
 - En 1990, la 641, légèrement retouchée, manque de peu le titre avec Alain Prost.
-- Selon formula1.com, la boîte semi-automatique équipe toutes les équipes au milieu des années 1990.
+- Selon formula1.com, la boîte semi-automatique est adoptée par toutes les équipes au milieu des années 1990.

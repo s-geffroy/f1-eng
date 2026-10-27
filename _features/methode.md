@@ -63,11 +63,11 @@ The rule is simple: **several people are not given full credit for the same cont
 
 **Cosworth.** The DFV is a Cosworth achievement, with [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) as the central technical figure and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) as co-founder and a major contributor.
 
-**Williams active.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) (overall architecture and direction), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (designer of the first system, on the FW11B in 1987), then [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) (the hardware) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) (most of the software), who arrived at the end of 1987, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) (joint technical direction of the FW14B and FW15C). Credit is shared out according to each person's actual role.
+**Williams active suspension.** The success of the active-suspension Williams cars came from a chain that included, among others, [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) (overall architecture and direction), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) (designer of the first system, on the FW11B in 1987), then [Steve Wise]({{ site.baseurl }}{% link _engineers/steve-wise.md %}) (the hardware) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) (most of the software), who arrived at the end of 1987, and [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) (joint technical direction of the FW14B and FW15C). Credit is shared out according to each person's actual role.
 
 ## What the method produces
 
-It produces four tiers: five paradigm revolutionaries (Tier A), then fifteen engineers who transformed major subsystems, methods or technical trajectories.
+It produces four tiers: five paradigm revolutionaries (Tier A), then fifteen engineers, spread across Tiers B, C and D, who transformed major subsystems, methods or technical trajectories.
 
 ## How to read an entry
 {: #lire-une-fiche}

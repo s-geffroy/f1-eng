@@ -61,7 +61,7 @@ Quarante ans plus tard, le règlement 2022 rend au fond de la voiture le rôle p
 
 - **Le contexte ne remplace pas l'ingénieur.** Une règle ouvre un espace ; il faut encore quelqu'un pour le remplir, et la manière dont il le remplit reste son mérite. C'est l'objet de la [méthode du classement]({{ site.baseurl }}/dossiers/methode/).
 - **Les sources ne sont pas neutres.** Les sites des équipes et des constructeurs ont intérêt à une belle filiation ; les souvenirs d'ingénieurs, recueillis des décennies plus tard, aussi.
-- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs mesures de sécurité, comme le halo ou le HANS, ne sont reliées à aucune innovation de la frise : elles ont changé les voitures sans en produire une. Elles sont en revanche reliées aux accidents qui les ont précédées : sans réserve pour le HANS, avec un lien discuté pour le halo.
+- **Ce qui n'est pas relié n'est pas forcément sans lien.** La chronologie ne trace que ce qu'une source permet de justifier. Plusieurs mesures de sécurité, comme le halo ou le HANS, ne sont reliées à aucune innovation de la frise : elles ont changé les voitures sans produire elles-mêmes d'innovation de la frise. Elles sont en revanche reliées aux accidents qui les ont précédées : sans réserve pour le HANS, avec un lien discuté pour le halo.
 
 ## Sources
 

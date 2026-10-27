@@ -41,7 +41,7 @@ image: "/assets/partage/voitures/benetton-b194.jpg"
 
 Pour 1994, la FIA interdit les aides au pilotage : la suspension active et l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage) disparaissent. Selon Motor Sport, les équipes repartent d'une feuille blanche et cherchent l'adhérence par l'aérodynamique et la mécanique. Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) en course revient en même temps, ce qui ouvre de nouvelles stratégies.
 
-La particularité de la B194 tient d'abord au calendrier. « Nous avons commencé à dessiner la voiture de 1994 au début de 1993 », raconte Ross Brawn à formula1.com, ce qui était alors « presque du jamais vu ». Dans Motor Sport, il situe ce départ dès que la voiture de 1993 est terminée, avec un objectif : obtenir « un bond quantique » de performance. La voiture de 1993 avait une suspension active ; celle de 1994 revient à une suspension passive.
+La particularité de la B194 tient d'abord au calendrier. « Nous avons commencé à dessiner la voiture de 1994 au début de 1993 », raconte Ross Brawn à formula1.com, ce qui était alors « presque du jamais vu ». Dans Motor Sport, il situe ce départ dès que la voiture de 1993 est terminée, avec un objectif : obtenir « un saut décisif » de performance. La voiture de 1993 avait une suspension active ; celle de 1994 revient à une suspension passive.
 
 Brawn la décrit comme « une voiture très, très légère » : l'équipe peut placer du lest très bas pour abaisser le centre de gravité, une idée qu'il dit « pas originale, mais très importante ». Le moteur, lui, est un V8 et non un V10. Brawn le juge « charmant », apprécié pour sa souplesse, sa taille et la facilité de son intégration plutôt que pour sa puissance. Goodwood le trouve au contraire lourd et peu puissant, au point d'avoir freiné la voiture. Selon Autosport, ses vilebrequins cassent à répétition pendant les essais d'hiver, et l'équipe manque de kilomètres fiables.
 
@@ -49,7 +49,7 @@ Benetton tire aussi parti du ravitaillement : selon Motor Sport, sa stratégie d
 
 ## Qui l'a conçue
 
-Une équipe. Autosport attribue le dessin à [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}), chef designer ; Motor Sport décrit son association avec [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), directeur technique, que Tom Walkinshaw a fait venir de son équipe de voitures de sport. Le lancement anticipé du programme est la marque de Brawn. Goodwood range la B194 parmi les premières voitures championnes de Brawn, de Byrne et de [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}), alors ingénieur de course de Schumacher, selon Autosport. Pour le moteur, Motor Sport donne la parole à Geoff Goddard, alors chef designer de Cosworth : l'alésage visé étant trop grand pour le moteur HB, « il a fallu une nouvelle culasse, un nouveau bloc et un vilebrequin plus long : le Zetec-R ».
+Une équipe. Autosport attribue le dessin à [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}), chef designer ; Motor Sport décrit son association avec [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), directeur technique, que Tom Walkinshaw a fait venir de son équipe de voitures de sport. Le lancement anticipé du programme est la marque de Brawn. Goodwood range la B194 parmi les premières voitures championnes de Brawn, de Byrne et de [Pat Symonds]({{ site.baseurl }}{% link _ingenieurs/pat-symonds.md %}), qui était alors, selon Autosport, l'ingénieur de course de Schumacher. Pour le moteur, Motor Sport donne la parole à Geoff Goddard, alors chef designer de Cosworth : l'alésage visé étant trop grand pour le moteur HB, « il a fallu une nouvelle culasse, un nouveau bloc et un vilebrequin plus long : le Zetec-R ».
 
 Le nom du moteur varie selon les sources : Autosport l'appelle Zetec-R, Motor Sport parle d'un V8 Cosworth, Goodwood d'un V8 Ford. Le récit de Goddard en fait un moteur conçu chez Cosworth, pour Ford, qui, selon lui, « ne voulait même pas être en F1 ».
 
@@ -63,6 +63,6 @@ Brawn reconnaît que la controverse a « un peu assombri » son regard sur une v
 
 ## Ce qu'elle laisse
 
-- **1994** : huit victoires, toutes pour Michael Schumacher, selon les résultats officiels ; six des sept premières courses. Le titre se joue à Adélaïde : Schumacher et Damon Hill s'accrochent et abandonnent, et Schumacher est champion avec un point d'avance.
-- Les coéquipiers de Schumacher se succèdent (Jos Verstappen, JJ Lehto, Johnny Herbert) sans le soutenir vraiment, note Goodwood : le titre des constructeurs revient à Williams, avec 118 points contre 103.
+- **1994** : huit victoires, toutes pour Michael Schumacher, selon les résultats officiels, dont six des sept premières courses. Le titre se joue à Adélaïde : Schumacher et Damon Hill s'accrochent et abandonnent, et Schumacher est champion avec un point d'avance.
+- Les coéquipiers de Schumacher se succèdent (Jos Verstappen, JJ Lehto, Johnny Herbert) sans le soutenir vraiment, note Goodwood : le titre constructeurs revient à Williams, avec 118 points contre 103.
 - La méthode reste. Brawn la résume ainsi : commencer tôt, avec un programme dédié et très intégré ; selon lui, la Mercedes W05 de 2014 naît de la même philosophie.

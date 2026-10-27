@@ -37,7 +37,7 @@ Le règlement interdit les dispositifs aérodynamiques mobiles. Brabham soutient
 
 ## Qui l'a conçue
 
-[Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) mène le projet, mais l'origine de l'idée est disputée, dans un même article de Motor Sport (1998) :
+[Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) mène le projet, mais l'origine de l'idée fait débat, jusque dans un même article de Motor Sport (1998) :
 
 - Murray lui-même ne se rappelle pas exactement d'où elle vient ;
 - Gary Anderson affirme avoir proposé de mettre un ventilateur ;
@@ -50,7 +50,7 @@ Selon Motor Sport, l'inspiration commune est la Chaparral 2J de Can-Am, la voitu
 La BT46B ne court qu'une fois : au Grand Prix de Suède, à Anderstorp, le 17 juin 1978, où Niki Lauda gagne. Motor Sport donne deux versions de la suite :
 
 - un article de 2025 écrit que Brabham a retiré la voiture de lui-même ;
-- celui de 1998 raconte qu'un retrait discret après le 1er août a d'abord été négocié au sein de l'association des constructeurs, puis que l'autorité sportive l'a interdite avec effet immédiat, « pour raisons de sécurité ».
+- celui de 1998 raconte qu'un retrait discret après le 1er août a d'abord été négocié au sein de l'association des constructeurs, puis que l'autorité sportive a interdit la voiture avec effet immédiat, « pour raisons de sécurité ».
 
 ## Ce qu'elle laisse
 

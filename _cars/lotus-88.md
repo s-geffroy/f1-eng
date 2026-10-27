@@ -42,7 +42,7 @@ The tub was made of [carbon composite]({{ site.baseurl }}/en/glossary/#composite
 
 ## Who designed it
 
-The idea came from [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who was looking to apply ground effect to road cars. Chapman sent him, with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), to design a racing car on this principle: first the Lotus 86, then the 88. The tub's corner joint was Ogilvie's idea. [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}), who was enthusiastic about the project, led the regulatory battle.
+The idea came from [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who was looking to apply ground effect to road cars. [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) sent him, with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), to design a racing car on this principle: first the Lotus 86, then the 88. The tub's corner joint was Ogilvie's idea. Chapman, who was enthusiastic about the project, led the regulatory battle.
 
 ## Limitations
 

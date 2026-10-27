@@ -37,7 +37,7 @@ En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turb
 
 Son principe : une voiture très basse. Le nouveau V6 Honda a un vilebrequin placé 28mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
 
-McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, juste jusque dans ses moindres détails.
+McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, abouti jusque dans ses moindres détails.
 
 ## Qui l'a conçue
 

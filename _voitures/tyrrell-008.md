@@ -39,7 +39,7 @@ Le système vient de Karl Kempf. Recruté par la division course de Goodyear pou
 
 Kempf ne se dit pas le premier à mesurer : « nous sommes les premiers à utiliser vraiment les mesures de façon régulière ». Ce « nous » désigne Tyrrell et Ferrari, les deux équipes qui, selon lui, ont vraiment adopté le système, avec [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) et [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}).
 
-**Les sources ne décrivent pas le système de la même façon.** Autosport écrit que Data General, commanditaire de l'équipe, introduit un système développé par Kempf « à base de microprocesseurs ». Jalopnik, citant un article de New Scientist de 1978, écrit au contraire que Kempf « prévoit » de placer un microprocesseur dans la voiture dès qu'il aura résolu les problèmes de parasites électriques et de vibrations. Kempf, chez Racer, décrit une progression : un enregistreur sur la voiture, puis un ordinateur sur le circuit, puis un ordinateur à bord. Sa formation diverge aussi : « mathématicien de formation », docteur, selon Racer ; « physicien américain », selon Jalopnik.
+**Les sources ne décrivent pas le système de la même façon.** Autosport écrit que Data General, commanditaire de l'équipe, introduit un système développé par Kempf « à base de microprocesseurs ». Jalopnik, citant un article de New Scientist de 1978, écrit au contraire que Kempf « prévoit » de placer un microprocesseur dans la voiture dès qu'il aura résolu les problèmes de parasites électriques et de vibrations. Kempf, chez Racer, décrit une progression : un enregistreur sur la voiture, puis un ordinateur sur le circuit, puis un ordinateur à bord. Les sources divergent aussi sur sa formation : « mathématicien de formation », docteur, selon Racer ; « physicien américain », selon Jalopnik.
 
 ## Comment elle est faite
 
@@ -56,7 +56,7 @@ Autosport écrit « Phillippe », Racer « Philippe » : le site retient la seco
 ## Limites
 
 - **Le ventilateur abandonné.** Il ne dépasse pas les essais du Paul-Ricard. La Brabham BT46B gagne en Suède avec son propre ventilateur, à la grande colère de Ken Tyrrell selon Autosport.
-- **Une suspension active restée au banc.** Selon Racer, le contrôle du carrossage n'est jamais passé de la piste d'essai à un Grand Prix : l'équipe le met de côté quand arrive l'effet de sol. Richard Jenkins, cité par Autosport, en fait « en pratique la première suspension active de la F1 », et Kempf croit avoir construit « la première voiture à suspension active ». Le glossaire du site retient la Lotus 92 de 1983, la première à courir.
+- **Une suspension active restée aux essais.** Selon Racer, le contrôle du carrossage n'est jamais passé de la piste d'essai à un Grand Prix : l'équipe le met de côté quand arrive l'effet de sol. Richard Jenkins, cité par Autosport, en fait « en pratique la première suspension active de la F1 », et Kempf croit avoir construit « la première voiture à suspension active ». Le glossaire du site retient la Lotus 92 de 1983, la première à courir.
 - **Une seule voiture devant.** Didier Pironi marque des points dans quatre de ses six premières courses, puis une seule fois ensuite, à Hockenheim.
 
 ## Ce qu'elle laisse

@@ -24,7 +24,7 @@ image: "/assets/partage/voitures/cooper-500.jpg"
 
 Ce n'est pas une F1, mais une petite monoplace de 500cm³ construite en 1946. Son moteur, un monocylindre de moto, est placé au milieu de la voiture, « pour des raisons largement pratiques », écrit la 500 Owners Association. C'est la disposition que les Cooper porteront jusqu'en F1, sous le nom de [moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere).
 
-La même source précise que cette disposition n'était pas nouvelle. Ce qui fait la qualité de la voiture, c'est sa combinaison avec un faible poids, un [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire) réduit et des suspensions entièrement indépendantes : la tenue de route est excellente.
+La même source précise que cette disposition n'était pas nouvelle. Ce qui fait la qualité de la voiture, c'est la combinaison de cette disposition avec un faible poids, un [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire) réduit et des suspensions entièrement indépendantes : la tenue de route est excellente.
 
 [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) lui-même refusait d'en tirer gloire. Il expliquait à Nigel Roebuck qu'avec un moteur de moto et une transmission par chaîne, mettre le moteur derrière était « la seule chose logique à faire ». Une 500, disait-il, c'est « une moto à quatre roues, ou une Auto Union miniature ».
 

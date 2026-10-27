@@ -39,7 +39,7 @@ D'autres questions servent à **corriger et interpréter** la note, sans y être
 - **Longévité** : un concept qui survit à plusieurs règlements pèse davantage qu'une innovation temporaire.
 - **Innovation interdite** : une interdiction ne supprime pas la valeur d'une rupture, mais elle ne prouve pas non plus une influence durable.
 - **Répétition** : rester à la frontière sous plusieurs générations réglementaires est un test de robustesse.
-- **Écart à l'état de l'art** : on distingue la distance avec l'époque et l'impact absolu sur la F1 ultérieure.
+- **Écart à l'état de l'art** : on distingue l'avance prise sur l'époque et l'impact absolu sur la F1 ultérieure.
 - **Contrefactuel** : sans cet ingénieur, la F1 aurait-elle adopté la même solution au même moment ? Évolution presque inévitable, accélération d'une évolution mûre, rupture improbable à court terme, ou création d'une nouvelle trajectoire ?
 - **Objet ou processus** : changer la voiture et changer *la manière de concevoir la voiture* sont deux choses différentes.
 - **Ingénierie opérationnelle** : télémétrie, simulation, logiciel et méthodes de course comptent dès lors qu'ils transforment durablement le métier.
@@ -56,7 +56,7 @@ L'histoire de la F1 aime les héros isolés. Une même révolution mobilise pour
 6. le **leader technique** qui organise l'équipe ;
 7. le **diffuseur** qui en fait un standard.
 
-La règle est simple : **on ne crédite pas intégralement plusieurs personnes de la même contribution.** Quatre cas illustrent la difficulté.
+La règle est simple : **on n'attribue pas intégralement la même contribution à plusieurs personnes.** Quatre cas illustrent la difficulté.
 
 **L'effet de sol Lotus.** [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) et [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) avaient travaillé sur le concept chez BRM. Chez Lotus, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) leur demande de repenser la configuration fondamentale d'une F1 ; la soufflerie débouche sur la Lotus 78, dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec Peter Wright à l'aérodynamique, [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) au développement. Chapman a dirigé et catalysé le programme qui a rendu l'effet de sol opératoire et dominant ; il ne l'a pas inventé.
 
@@ -64,11 +64,11 @@ La règle est simple : **on ne crédite pas intégralement plusieurs personnes d
 
 **Cosworth.** Le DFV est une réalisation Cosworth, avec [Keith Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) comme figure technique centrale et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) comme cofondateur et acteur majeur.
 
-**Williams active.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) (architecture d'ensemble et direction), [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) (concepteur du premier système, sur la FW11B en 1987), puis [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) (le matériel) et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) (l'essentiel du logiciel), arrivés fin 1987, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) (codirection technique des FW14B et FW15C). Le mérite se distribue selon le rôle réel de chacun.
+**La suspension active Williams.** La réussite des Williams à suspension active résulte d'une chaîne qui comprend notamment [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) (architecture d'ensemble et direction), [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) (concepteur du premier système, sur la FW11B en 1987), puis [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) (le matériel) et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) (l'essentiel du logiciel), arrivés fin 1987, et [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) (codirection technique des FW14B et FW15C). Le mérite se distribue selon le rôle réel de chacun.
 
 ## Ce que donne la méthode
 
-Elle produit quatre tiers : cinq révolutionnaires de paradigme (Tier A), puis quinze ingénieurs qui ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.
+Elle produit quatre tiers : cinq révolutionnaires de paradigme (Tier A), puis quinze ingénieurs, répartis en Tiers B, C et D, qui ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures.
 
 ## Comment lire une fiche
 {: #lire-une-fiche}

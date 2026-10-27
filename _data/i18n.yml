@@ -86,7 +86,7 @@ fr:
     depart_lien: "la méthode"
     pdf_avant: "La présentation complète est aussi disponible en"
     pdf_lien: "PDF (22 diapositives)"
-    voitures_avant: "Leurs machines ont aussi leurs fiches :"
+    voitures_avant: "Les machines de ces ingénieurs ont leurs propres fiches :"
     voitures_lien: "les voitures qui ont fait date"
     titre_index: "Index des entrées"
     lettres_aria: "Lettres"
@@ -158,7 +158,7 @@ fr:
     telecharger_suite: "22 diapositives, de la méthode au classement final, en français."
   recherche:
     titre_page: "Recherche"
-    description: "Rechercher dans toute l'encyclopédie : ingénieurs, glossaire, chronologie et dossiers."
+    description: "Rechercher dans toute l'encyclopédie : ingénieurs, voitures, glossaire, chronologie et dossiers."
     titre: "Rechercher dans l'encyclopédie"
     accroche: "Ingénieurs, voitures, termes du glossaire, jalons de la chronologie et dossiers, sans tenir compte des accents."
     label: "Rechercher"
@@ -178,13 +178,13 @@ fr:
     titre_page: "Voitures"
     description: "Les monoplaces qui ont marqué l'histoire technique de la F1, du prototype Cooper 500 à la Red Bull RB18, reliées à leurs concepteurs."
     titre: "Les voitures qui ont fait date"
-    accroche: "Trente-trois monoplaces, de 1946 à 2022, chacune liée aux ingénieurs qui l'ont conçue, aux termes du glossaire et aux jalons de la chronologie. Une sélection liée aux innovations de la frise, pas un catalogue des monoplaces."
+    accroche: "Trente-trois monoplaces, de 1946 à 2022, chacune liée aux ingénieurs qui l'ont conçue, aux termes du glossaire et aux jalons de la chronologie. Une sélection liée aux innovations de la frise, pas un catalogue."
     sans_photo: "Pas de photo libre connue"
   p404:
     titre: "Page introuvable"
     texte_avant: "Cette adresse ne correspond à aucune page de l'encyclopédie. L'"
     texte_lien: "index des entrées"
-    texte_apres: "les liste toutes."
+    texte_apres: "recense toutes les fiches."
 
 en:
   code: "en"
@@ -268,7 +268,7 @@ en:
     depart_lien: "the method"
     pdf_avant: "The full presentation is also available as a"
     pdf_lien: "PDF (22 slides)"
-    voitures_avant: "Their machines have entries too:"
+    voitures_avant: "These engineers' machines have their own entries:"
     voitures_lien: "the cars that made history"
     titre_index: "Index of entries"
     lettres_aria: "Letters"
@@ -340,7 +340,7 @@ en:
     telecharger_suite: "22 slides, from the method to the final ranking."
   recherche:
     titre_page: "Search"
-    description: "Search the whole encyclopedia: engineers, glossary, timeline and features."
+    description: "Search the whole encyclopedia: engineers, cars, glossary, timeline and features."
     titre: "Search the encyclopedia"
     accroche: "Engineers, cars, glossary terms, timeline milestones and features, ignoring accents."
     label: "Search"
@@ -366,4 +366,4 @@ en:
     titre: "Page not found"
     texte_avant: "This address does not match any page of the encyclopedia. The"
     texte_lien: "index of entries"
-    texte_apres: "lists them all."
+    texte_apres: "lists every profile."

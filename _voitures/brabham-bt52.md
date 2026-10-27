@@ -51,4 +51,4 @@ Trois autres choix comptent :
 
 - **Rio, 13 mars 1983** : Nelson Piquet gagne la première course de la BT52.
 - **1983** : Piquet gagne trois des quinze courses et devient le premier champion du monde sur moteur turbo. À Kyalami, la dernière manche, il laisse la victoire à son équipier Riccardo Patrese.
-- Murray croyait que les autres équipes auraient copié le ravitaillement pour 1983. À Rio, il découvre avec étonnement que presque toutes ont encore des voitures à réservoir plein ; seule Williams tente aussi un ravitaillement, qui tourne à l'incendie sur la voiture de Keke Rosberg. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes.
+- Murray croyait que les autres équipes copieraient le ravitaillement pour 1983. À Rio, il découvre avec étonnement que presque toutes ont encore des voitures à réservoir plein ; seule Williams tente aussi un ravitaillement, qui tourne à l'incendie sur la voiture de Keke Rosberg. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes.
