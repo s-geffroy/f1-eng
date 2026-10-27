@@ -37,26 +37,26 @@ redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
 ## Ingénierie intégrée
 
-Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport) ; Autosport y ajoute 54 victoires en Grand Prix.
+Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque{% include src.html n="3" %}. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique{% include src.html n="3,5" %}. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport){% include src.html n="5" %} ; Autosport y ajoute 54 victoires en Grand Prix{% include src.html n="6" %}.
 
 ## La centralisation des masses
 
-Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle.
+Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle{% include src.html n="1,2" %}.
 
-- Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13cm dans l'empattement.
-- La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que formula1.com présente comme une première en F1, ensuite adoptée par tout le plateau ; selon Motor Sport, Forghieri suivait en partie une voie ouverte en 1972 par Tyrrell et March.
-- La famille 312T remporte trois titres pilotes et quatre titres constructeurs.
+- Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13cm dans l'empattement{% include src.html n="2" %}.
+- La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que formula1.com présente comme une première en F1, ensuite adoptée par tout le plateau{% include src.html n="1,2,4" %} ; selon Motor Sport, Forghieri suivait en partie une voie ouverte en 1972 par Tyrrell et March.
+- La famille 312T remporte trois titres pilotes et quatre titres constructeurs{% include src.html n="5" %}.
 
 ## Autres jalons
 
-- Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position. formula1.com rappelle toutefois que d'autres avaient utilisé des ailerons avant lui.
-- Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981.
-- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le [V12]({{ site.baseurl }}/glossaire/#architecture-moteur) court en F1 à partir de 1989.
+- Au Grand Prix de Belgique 1968, il décide de monter des [ailerons]({{ site.baseurl }}/glossaire/#aileron) sur supports sur la 312 de Chris Amon, qui signe la pole position{% include src.html n="5" %}. formula1.com rappelle toutefois que d'autres avaient utilisé des ailerons avant lui{% include src.html n="3" %}.
+- Il conçoit le premier moteur F1 turbocompressé de Ferrari, en 1981{% include src.html n="4,5" %}.
+- À partir de 1987, il dirige la technique de Lamborghini Engineering, dont le [V12]({{ site.baseurl }}/glossaire/#architecture-moteur) court en F1 à partir de 1989{% include src.html n="3,6" %}.
 
 ## Attribution
 
-Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : formula1.com précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions.
+Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : formula1.com précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}){% include src.html n="1" %}, et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer{% include src.html n="3" %}. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions{% include src.html n="3" %}.
 
 ## Pourquoi le Tier B
 
-Forghieri a transformé en profondeur la manière d'intégrer les grands sous-systèmes, et la boîte transversale est devenue un standard. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.
+Forghieri a transformé en profondeur la manière d'intégrer les grands sous-systèmes, et la boîte transversale est devenue un standard{% include src.html n="4" %}. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.

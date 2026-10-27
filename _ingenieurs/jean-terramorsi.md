@@ -19,14 +19,14 @@ image: "/assets/partage/jean-terramorsi.jpg"
 ---
 ## Ce qu'il a fait
 
-Jean Terramorsi est un **dirigeant**, non un concepteur : directeur de Gordini, il est l'homme qui engage Renault dans la voie du turbo.
+Jean Terramorsi est un **dirigeant**, non un concepteur : directeur de Gordini, il est l'homme qui engage Renault dans la voie du turbo{% include src.html n="1,2" %}.
 
-- GrandPrix.com lui attribue l'idée de suralimenter les moteurs de course modernes. Motor Sport raconte plutôt que ce sont les essais de [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) qui l'ont convaincu : le magazine en fait le décideur plus que l'inventeur.
-- En 1973, il fait venir Dudot d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur).
-- Selon Motor Sport, si Alpine-Renault a pu monter de catégorie, c'est grâce à la clairvoyance de ce chef d'équipe haut en couleur et à la vigueur du jeune Dudot.
-- Fin 1975, il doit quitter ses fonctions pour raison de santé.
-- En 1976, à la Direction du Produit de Renault, chargé des petites séries, il lance le projet de la Renault 5 Turbo. Il meurt le 26 août 1976.
+- GrandPrix.com lui attribue l'idée de suralimenter les moteurs de course modernes{% include src.html n="1" %}. Motor Sport raconte plutôt que ce sont les essais de [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) qui l'ont convaincu : le magazine en fait le décideur plus que l'inventeur{% include src.html n="2" %}.
+- En 1973, il fait venir Dudot d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur){% include src.html n="1" %}.
+- Selon Motor Sport, si Alpine-Renault a pu monter de catégorie, c'est grâce à la clairvoyance de ce chef d'équipe haut en couleur et à la vigueur du jeune Dudot{% include src.html n="2" %}.
+- Fin 1975, il doit quitter ses fonctions pour raison de santé{% include src.html n="2" %}.
+- En 1976, à la Direction du Produit de Renault, chargé des petites séries, il lance le projet de la Renault 5 Turbo{% include src.html n="3" %}. Il meurt le 26 août 1976{% include src.html n="3" %}.
 
 ## Attribution
 
-L'idée du turbo, sa décision et sa réalisation relèvent de personnes différentes : Terramorsi décide, Dudot étudie la suralimentation, et le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de base est conçu par [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
+L'idée du turbo, sa décision et sa réalisation relèvent de personnes différentes : Terramorsi décide, Dudot étudie la suralimentation, et le [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de base est conçu par [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}){% include src.html n="1,2" %}.

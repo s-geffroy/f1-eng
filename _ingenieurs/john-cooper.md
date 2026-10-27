@@ -38,27 +38,27 @@ redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 
 ## La rupture
 
-Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse. Sur la première Cooper de 500cm³, le moteur est placé au milieu « pour des raisons largement pratiques » ; Nigel Roebuck résume : sur une 500, mettre le moteur derrière était « la seule chose logique à faire ».
+Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**{% include src.html n="1,2" %}. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse{% include src.html n="2,4" %}. Sur la première Cooper de 500cm³, le moteur est placé au milieu « pour des raisons largement pratiques »{% include src.html n="4" %} ; Nigel Roebuck résume : sur une 500, mettre le moteur derrière était « la seule chose logique à faire »{% include src.html n="5" %}.
 
 ## Des 500cm³ à la F1
 
-- **1946.** Le prototype de John Cooper et Eric Brandon reprend la suspension avant d'une Fiat Topolino accidentée ; une chaîne mène à une boîte Triumph Speed Twin, une seconde chaîne à l'essieu arrière.
-- **1948.** L'entreprise se lance dans la vente de répliques : douze monoplaces « Mark 2 » sont mises en chantier.
-- **1958.** Les Cooper apportent au moteur placé derrière le pilote ses premières victoires en championnat du monde.
-- **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245ch, apporte le titre.
-- **1960.** La T53 « Lowline » permet un second doublé des titres.
-- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait son retour.
-- **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997cm³ à deux carburateurs et 55ch.
+- **1946.** Le prototype de John Cooper et Eric Brandon reprend la suspension avant d'une Fiat Topolino accidentée ; une chaîne mène à une boîte Triumph Speed Twin, une seconde chaîne à l'essieu arrière{% include src.html n="4" %}.
+- **1948.** L'entreprise se lance dans la vente de répliques : douze monoplaces « Mark 2 » sont mises en chantier{% include src.html n="3" %}.
+- **1958.** Les Cooper apportent au moteur placé derrière le pilote ses premières victoires en championnat du monde{% include src.html n="2,3" %}.
+- **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245ch, apporte le titre{% include src.html n="2" %}.
+- **1960.** La T53 « Lowline » permet un second doublé des titres{% include src.html n="3" %}.
+- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait son retour{% include src.html n="6" %}.
+- **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997cm³ à deux carburateurs et 55ch{% include src.html n="7" %}.
 
-John Cooper meurt la veille de Noël 2000, à 77 ans.
+John Cooper meurt la veille de Noël 2000, à 77 ans{% include src.html n="5,8" %}.
 
 ## Ce que ce changement modifie
 
-Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'[architecture du châssis]({{ site.baseurl }}/glossaire/#chassis) et la conception aérodynamique future. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960.
+Ce changement modifie simultanément la répartition des masses, le [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire), la motricité, l'encombrement, l'[architecture du châssis]({{ site.baseurl }}/glossaire/#chassis) et la conception aérodynamique future{% include src.html n="2,4" %}. La dernière victoire d'une F1 à moteur avant remonte au Grand Prix d'Italie 1960{% include src.html n="1" %}.
 
 ## Attribution
 
-John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960.
+John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement{% include src.html n="1,3" %}. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960{% include src.html n="3" %}.
 
 La formulation juste : **Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 

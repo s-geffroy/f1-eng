@@ -29,21 +29,21 @@ image: "/assets/partage/geoff-aldridge.jpg"
 ---
 ## Ce qu'il a fait
 
-Geoff Aldridge est un dessinateur de châssis de Team Lotus, de la Lotus 76 à la Lotus 80 de 1979 ; OldRacingCars.com le situe chez Lotus de 1976 à 1979. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) pour cette voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978.
+Geoff Aldridge est un dessinateur de châssis de Team Lotus, de la Lotus 76 à la Lotus 80 de 1979{% include src.html n="6,7" %} ; OldRacingCars.com le situe chez Lotus de 1976 à 1979{% include src.html n="3" %}. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) pour cette voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978{% include src.html n="1" %}.
 
 ## Parcours chez Lotus
 
-- Né le 27 avril 1949 à Norwich, selon OldRacingCars.com, qui le décrit comme surtout occupé au dessin des châssis, au sein du groupe d'ingénieurs de Lotus avec Chapman, [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) et Ogilvie, sur les Lotus 77 et 79.
-- **Lotus 76** : selon Gary Watkins, dans Motor Sport, il dessine le châssis de la 76 sous la direction de [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}). Il se souvient que Chapman voulait la voiture plus légère de 100 livres (45kg) : « C'était sa manière de donner aux gens des objectifs qu'ils ne pouvaient pas atteindre. » Il pense, comme Bellamy, que la voiture a souffert de la politique interne : « Elle n'a probablement pas eu sa chance. »
-- **Lotus 77 (1976)** : à sa présentation, en octobre 1975, Motor Sport écrit que la voiture, conçue par Chapman, est dessinée en détail par Aldridge et Ogilvie. Selon OldRacingCars.com, l'équipe se compose d'Aldridge, dessinateur du châssis, d'Ogilvie pour les suspensions et les freins, et de Mike Cooke comme superviseur technique.
-- **Lotus 79 (1978)** : il la dessine avec Ogilvie à partir de l'esquisse de Chapman.
-- **Lotus 80 (1979)** : la base Forix, hébergée par Autosport, le range encore parmi les concepteurs, avec Ogilvie, sous la direction technique de Chapman, [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) étant chargé de l'aérodynamique.
+- Né le 27 avril 1949 à Norwich, selon OldRacingCars.com, qui le décrit comme surtout occupé au dessin des châssis, au sein du groupe d'ingénieurs de Lotus avec Chapman, [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) et Ogilvie, sur les Lotus 77 et 79{% include src.html n="3" %}.
+- **Lotus 76** : selon Gary Watkins, dans Motor Sport, il dessine le châssis de la 76 sous la direction de [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}){% include src.html n="6" %}. Il se souvient que Chapman voulait la voiture plus légère de 100 livres (45kg) : « C'était sa manière de donner aux gens des objectifs qu'ils ne pouvaient pas atteindre. »{% include src.html n="2,6" %} Il pense, comme Bellamy, que la voiture a souffert de la politique interne : « Elle n'a probablement pas eu sa chance. »{% include src.html n="6" %}
+- **Lotus 77 (1976)** : à sa présentation, en octobre 1975, Motor Sport écrit que la voiture, conçue par Chapman, est dessinée en détail par Aldridge et Ogilvie{% include src.html n="5" %}. Selon OldRacingCars.com, l'équipe se compose d'Aldridge, dessinateur du châssis, d'Ogilvie pour les suspensions et les freins, et de Mike Cooke comme superviseur technique{% include src.html n="4" %}.
+- **Lotus 79 (1978)** : il la dessine avec Ogilvie à partir de l'esquisse de Chapman{% include src.html n="1" %}.
+- **Lotus 80 (1979)** : la base Forix, hébergée par Autosport, le range encore parmi les concepteurs, avec Ogilvie, sous la direction technique de Chapman, [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) étant chargé de l'aérodynamique{% include src.html n="7" %}.
 
 ## Après Lotus
 
-- **Le Mans 1982** : selon Autosport, il dessine la GRID S1, une voiture de sport engagée aux 24 Heures du Mans 1982.
-- **États-Unis, puis BTCC** : il part concevoir des voitures de sport aux États-Unis, puis travaille comme spécialiste des suspensions en BTCC pour Petronas, selon OldRacingCars.com.
+- **Le Mans 1982** : selon Autosport, il dessine la GRID S1, une voiture de sport engagée aux 24 Heures du Mans 1982{% include src.html n="8" %}.
+- **États-Unis, puis BTCC** : il part concevoir des voitures de sport aux États-Unis, puis travaille comme spécialiste des suspensions en BTCC pour Petronas, selon OldRacingCars.com{% include src.html n="3" %}.
 
 ## Divergences entre sources
 
-La base Forix lui donne le titre de « chef designer » sur les Lotus 77, 79 et 80, mais le donne aussi, pour les mêmes voitures, à Ogilvie. Motor Sport ne lui donne aucun titre et le place à égalité avec Ogilvie ; Gary Watkins le présente comme un « dessinateur » de Lotus ; OldRacingCars.com parle de dessin de châssis. Le site retient la formulation de Motor Sport : un concepteur de détail, à deux, sous la direction de Chapman.
+La base Forix lui donne le titre de « chef designer » sur les Lotus 77, 79 et 80, mais le donne aussi, pour les mêmes voitures, à Ogilvie{% include src.html n="7" %}. Motor Sport ne lui donne aucun titre et le place à égalité avec Ogilvie{% include src.html n="1,5" %} ; Gary Watkins le présente comme un « dessinateur » de Lotus{% include src.html n="2" %} ; OldRacingCars.com parle de dessin de châssis{% include src.html n="3,4" %}. Le site retient la formulation de Motor Sport : un concepteur de détail, à deux, sous la direction de Chapman.

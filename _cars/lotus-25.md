@@ -29,27 +29,27 @@ image: "/assets/partage/en/voitures/lotus-25.jpg"
 ---
 ## What it changed
 
-On 18 May 1962, the Lotus 25 arrived in the Zandvoort paddock, where every other F1 car was built on a [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire). It abandoned that principle for an aircraft-style [monocoque tub]({{ site.baseurl }}/en/glossary/#monocoque), made of riveted panels.
+On 18 May 1962, the Lotus 25 arrived in the Zandvoort paddock, where every other F1 car was built on a [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire){% include src.html n="1" %}. It abandoned that principle for an aircraft-style [monocoque tub]({{ site.baseurl }}/en/glossary/#monocoque), made of riveted panels{% include src.html n="1,2" %}.
 
-The gain can be measured. According to Motor Sport, torsional stiffness rose from about 700lb-ft per degree for the Lotus 24, its spaceframe sister, to nearly 1,000 for the 25's tub, and to 2,400 once the [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) was installed. The engine was nevertheless not a fully stressed member.
+The gain can be measured. According to Motor Sport, torsional stiffness rose from about 700lb-ft per degree for the Lotus 24, its spaceframe sister, to nearly 1,000 for the 25's tub, and to 2,400 once the [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) was installed{% include src.html n="1" %}. The engine was nevertheless not a fully stressed member{% include src.html n="1" %}.
 
-Chapman himself spoke of a "bathtub" rather than a monocoque. As a precaution, Lotus had designed the 24 as a spaceframe in case the 25 proved unsatisfactory: the 24 was sold to customers, while the 25 stayed with the works team.
+Chapman himself spoke of a "bathtub" rather than a monocoque{% include src.html n="1" %}. As a precaution, Lotus had designed the 24 as a spaceframe in case the 25 proved unsatisfactory: the 24 was sold to customers, while the 25 stayed with the works team{% include src.html n="1" %}.
 
 ## Who designed it
 
 Motor Sport sets it out in detail:
 
-- [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) did the overall layout and the external shape;
-- chief draughtsman [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones did much of the detail drawing;
-- [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), technical director, worked out how the panels were to be assembled and riveted.
+- [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) did the overall layout and the external shape{% include src.html n="1" %};
+- chief draughtsman [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones did much of the detail drawing{% include src.html n="1" %};
+- [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}), technical director, worked out how the panels were to be assembled and riveted{% include src.html n="1" %}.
 
-According to Ron Hickman, quoted in the same article, the original idea may have come from John Standen, Lotus's buyer, before being taken up and refined by Chapman.
+According to Ron Hickman, quoted in the same article, the original idea may have come from John Standen, Lotus's buyer, before being taken up and refined by Chapman{% include src.html n="1" %}.
 
 ## Limitations
 
-- It was not an absolute first. Motor Sport points out that Gabriel Voisin was already building a monocoque aircraft fuselage in 1910, and that racing cars had preceded it, such as Alec Issigonis's Lightweight Special single-seater of 1938. The 25's contribution was to establish it in F1.
-- Its first season suffered from teething troubles: in 1962, Lotus finished second in the constructors' championship, six points behind BRM (Lotus Cars mentions a one-point gap), and Clark finished behind Graham Hill.
+- It was not an absolute first{% include src.html n="1" %}. Motor Sport points out that Gabriel Voisin was already building a monocoque aircraft fuselage in 1910, and that racing cars had preceded it, such as Alec Issigonis's Lightweight Special single-seater of 1938{% include src.html n="1" %}. The 25's contribution was to establish it in F1{% include src.html n="1" %}.
+- Its first season suffered from teething troubles: in 1962, Lotus finished second in the constructors' championship, six points behind BRM{% include src.html n="3" %} (Lotus Cars mentions a one-point gap){% include src.html n="2" %}, and Clark finished behind Graham Hill{% include src.html n="2" %}.
 
 ## Legacy
 
-In 1963, Jim Clark won seven of the ten races, scoring the maximum possible points: a first drivers' title for Clark, a first constructors' title for Lotus. Cooper, Brabham and Ferrari nevertheless stayed with the spaceframe for at least two more seasons.
+In 1963, Jim Clark won seven of the ten races, scoring the maximum possible points: a first drivers' title for Clark, a first constructors' title for Lotus{% include src.html n="2" %}. Cooper, Brabham and Ferrari nevertheless stayed with the spaceframe for at least two more seasons{% include src.html n="1" %}.

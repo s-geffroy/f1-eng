@@ -19,11 +19,11 @@ image: "/assets/partage/ettore-zaccone-mina.jpg"
 ---
 ## Ce qu'il a fait
 
-Ettore Zaccone Mina est l'ingénieur moteur de la **Lancia D50**. Avec [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}), il choisit un moteur aussi petit, compact et léger que possible, puisque la puissance d'un 2,5 litres atmosphérique ne serait jamais spectaculaire.
+Ettore Zaccone Mina est l'ingénieur moteur de la **Lancia D50**{% include src.html n="1,3" %}. Avec [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}), il choisit un moteur aussi petit, compact et léger que possible, puisque la puissance d'un 2,5 litres atmosphérique ne serait jamais spectaculaire{% include src.html n="1" %}.
 
-- Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) de la D50 est dessiné par Zaccone Mina sous la supervision de Jano, responsable de la voiture entière. C'est un V8 ouvert à 90°, d'environ 250ch à 7700tr/min, qui fait ses débuts à la fin de 1954.
-- Passé chez Ferrari avec le matériel Lancia, ce moteur est encore développé et contribue au titre de Juan Manuel Fangio en 1956.
+- Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) de la D50 est dessiné par Zaccone Mina sous la supervision de Jano, responsable de la voiture entière{% include src.html n="2" %}. C'est un V8 ouvert à 90°, d'environ 250ch à 7700tr/min, qui fait ses débuts à la fin de 1954{% include src.html n="2" %}.
+- Passé chez Ferrari avec le matériel Lancia, ce moteur est encore développé et contribue au titre de Juan Manuel Fangio en 1956{% include src.html n="1,2" %}.
 
 ## Attribution de la D50
 
-Zaccone Mina conteste que Jano soit le seul concepteur de la voiture : selon lui, Jano était le chef d'équipe, pas le dessinateur, et personne n'est seul responsable de l'ensemble. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et incliné, les réservoirs entre les roues : « tout cela est sorti de nos discussions », [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) prenant les décisions finales.
+Zaccone Mina conteste que Jano soit le seul concepteur de la voiture : selon lui, Jano était le chef d'équipe, pas le dessinateur, et personne n'est seul responsable de l'ensemble{% include src.html n="3" %}. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) et incliné, les réservoirs entre les roues : « tout cela est sorti de nos discussions », [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) prenant les décisions finales{% include src.html n="3" %}.

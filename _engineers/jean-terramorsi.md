@@ -19,14 +19,14 @@ image: "/assets/partage/en/jean-terramorsi.jpg"
 ---
 ## What he did
 
-Jean Terramorsi was an **executive**, not a designer: as head of Gordini, he was the man who set Renault on the turbo path.
+Jean Terramorsi was an **executive**, not a designer: as head of Gordini, he was the man who set Renault on the turbo path{% include src.html n="1,2" %}.
 
-- GrandPrix.com credits him with the idea of turbocharging modern racing engines. Motor Sport instead says that it was [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %})'s tests that convinced him: this makes him the decision-maker rather than the inventor.
-- In 1973, he brought Dudot over from Alpine and sent him to California to study [turbocharging]({{ site.baseurl }}/en/glossary/#turbocompresseur).
-- According to Motor Sport, Alpine-Renault was able to move up a class thanks to the foresight of this colourful team chief and the vigour of the young Dudot.
-- In late 1975, he had to step down for health reasons.
-- In 1976, at Renault's Product Division, in charge of small-series production, he launched the Renault 5 Turbo project. He died on 26 August 1976.
+- GrandPrix.com credits him with the idea of turbocharging modern racing engines{% include src.html n="1" %}. Motor Sport instead says that it was [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %})'s tests that convinced him: this makes him the decision-maker rather than the inventor{% include src.html n="2" %}.
+- In 1973, he brought Dudot over from Alpine and sent him to California to study [turbocharging]({{ site.baseurl }}/en/glossary/#turbocompresseur){% include src.html n="1" %}.
+- According to Motor Sport, Alpine-Renault was able to move up a class thanks to the foresight of this colourful team chief and the vigour of the young Dudot{% include src.html n="2" %}.
+- In late 1975, he had to step down for health reasons{% include src.html n="2" %}.
+- In 1976, at Renault's Product Division, in charge of small-series production, he launched the Renault 5 Turbo project{% include src.html n="3" %}. He died on 26 August 1976{% include src.html n="3" %}.
 
 ## Attribution
 
-The idea of the turbo, the decision to pursue it and its execution belong to different people: Terramorsi decided, Dudot studied turbocharging, and the base [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
+The idea of the turbo, the decision to pursue it and its execution belong to different people: Terramorsi decided, Dudot studied turbocharging, and the base [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}){% include src.html n="1,2" %}.

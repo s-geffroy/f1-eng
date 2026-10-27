@@ -19,11 +19,11 @@ image: "/assets/partage/en/ettore-zaccone-mina.jpg"
 ---
 ## What he did
 
-Ettore Zaccone Mina is the engine engineer of the **Lancia D50**. With [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}), he opted for an engine as small, compact and light as possible, since the power of a naturally aspirated 2.5-litre would never be spectacular.
+Ettore Zaccone Mina is the engine engineer of the **Lancia D50**{% include src.html n="1,3" %}. With [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}), he opted for an engine as small, compact and light as possible, since the power of a naturally aspirated 2.5-litre would never be spectacular{% include src.html n="1" %}.
 
-- The D50's [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) was drawn by Zaccone Mina under the supervision of Jano, who was responsible for the whole car. It was a 90° V8, producing around 250bhp at 7700rpm, which made its debut at the end of 1954.
-- Having passed to Ferrari along with the Lancia equipment, this engine was developed further and contributed to Juan Manuel Fangio's title in 1956.
+- The D50's [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) was drawn by Zaccone Mina under the supervision of Jano, who was responsible for the whole car{% include src.html n="2" %}. It was a 90° V8, producing around 250bhp at 7700rpm, which made its debut at the end of 1954{% include src.html n="2" %}.
+- Having passed to Ferrari along with the Lancia equipment, this engine was developed further and contributed to Juan Manuel Fangio's title in 1956{% include src.html n="1,2" %}.
 
 ## Attribution of the D50
 
-Zaccone Mina disputes that Jano was the car's sole designer: in his view, Jano was the team leader, not the draughtsman, and no one is solely responsible for the whole. The angled [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur), the fuel tanks between the wheels: "these things all came out of discussions between us", with [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) taking the final decisions.
+Zaccone Mina disputes that Jano was the car's sole designer: in his view, Jano was the team leader, not the draughtsman, and no one is solely responsible for the whole{% include src.html n="3" %}. The angled [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur), the fuel tanks between the wheels: "these things all came out of discussions between us", with [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) taking the final decisions{% include src.html n="3" %}.

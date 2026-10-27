@@ -30,16 +30,16 @@ image: "/assets/partage/en/tony-southgate.jpg"
 ---
 ## What he did
 
-Tony Southgate is a prolific F1 designer of the 1970s, from BRM to Arrows.
+Tony Southgate is a prolific F1 designer of the 1970s, from BRM to Arrows{% include src.html n="1" %}.
 
 ## Technical career
 
-- **BRM.** Chief designer for the 1970 season; at Spa, Pedro Rodriguez gave BRM its first win in four years. With his 1971 P160, the team finished second in the constructors' championship; in 1972, Jean-Pierre Beltoise won again with a revised P160.
-- **Shadow.** He built the DN1 prototype in his garage, then the DN3 (1974) and DN5 (1975).
-- **Lotus (1976-1977).** He worked on the Lotus 77 and, with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), on the development of the 78; from 1976, he was race engineer on Gunnar Nilsson's car.
-- **Arrows.** With his first Arrows judged to have been copied from the Shadow DN9, he drew a new car in 57 days. The 1979 Arrows A2 extended an idea discussed at Lotus: a car shaped entirely like a wing, without [wings]({{ site.baseurl }}/en/glossary/#aileron). According to Southgate, it produced 1600lb of [downforce]({{ site.baseurl }}/en/glossary/#appui) at 150mph, but its excessively high centre of gravity heavily penalised it.
-- **Theodore.** He designed the TY01 for the 1981 season.
+- **BRM.** Chief designer for the 1970 season; at Spa, Pedro Rodriguez gave BRM its first win in four years{% include src.html n="1" %}. With his 1971 P160, the team finished second in the constructors' championship; in 1972, Jean-Pierre Beltoise won again with a revised P160{% include src.html n="1" %}.
+- **Shadow.** He built the DN1 prototype in his garage, then the DN3 (1974) and DN5 (1975){% include src.html n="1" %}.
+- **Lotus (1976-1977).** He worked on the Lotus 77 and, with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), on the development of the 78{% include src.html n="1" %}; from 1976, he was race engineer on Gunnar Nilsson's car{% include src.html n="2" %}.
+- **Arrows.** With his first Arrows judged to have been copied from the Shadow DN9, he drew a new car in 57 days{% include src.html n="3" %}. The 1979 Arrows A2 extended an idea discussed at Lotus: a car shaped entirely like a wing, without [wings]({{ site.baseurl }}/en/glossary/#aileron){% include src.html n="3" %}. According to Southgate, it produced 1600lb of [downforce]({{ site.baseurl }}/en/glossary/#appui) at 150mph, but its excessively high centre of gravity heavily penalised it{% include src.html n="3" %}.
+- **Theodore.** He designed the TY01 for the 1981 season{% include src.html n="1" %}.
 
 ## The Lotus 78: setting the roles straight
 
-formula1.com credits the design of the Lotus 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Tony Southgate. GrandPrix.com instead places him on the development of the 78, alongside Peter Wright; according to Motor Sport, Bellamy drew the car and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) the suspension. This site adopts that division of roles.
+formula1.com credits the design of the Lotus 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Tony Southgate{% include src.html n="4" %}. GrandPrix.com instead places him on the development of the 78, alongside Peter Wright{% include src.html n="1" %}; according to Motor Sport, Bellamy drew the car and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) the suspension{% include src.html n="5" %}. This site adopts that division of roles.

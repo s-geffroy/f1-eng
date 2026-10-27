@@ -36,22 +36,22 @@ image: "/assets/partage/en/ross-brawn.jpg"
 ---
 ## What he changed
 
-Ross Brawn's most far-reaching contribution lies in **method**. He sums it up himself: start early, have a dedicated programme and a highly integrated programme.
+Ross Brawn's most far-reaching contribution lies in **method**. He sums it up himself: start early, have a dedicated programme and a highly integrated programme{% include src.html n="1" %}.
 
 ## Technical career
 
-- **Williams**: having joined as a machinist, he became a technician in [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %})'s research and development department as the team found success with the FW07, then, after the team moved to its Basil Hill Road factory, an aerodynamicist working in the team's own wind tunnel (GrandPrix.com). Patrick Head recalled that Dernie and Brawn were "very involved" in the work that made the quarter-scale wind tunnel acquired in late 1979 usable (Motor Sport, 2022).
-- **Arrows**: after the FORCE team closed at the end of 1986, he became Arrows' chief designer.
-- **TWR** (1989): he designed the Jaguar XJR-14, the first sports car to feature cutting-edge F1 technology.
-- **Benetton**: technical director from autumn 1991. Work on the 1994 car began as early as the start of 1993, which, according to Brawn, was "almost unheard of" at the time.
-- **Ferrari**: technical director from December 1996, through the championship years.
-- **Brawn GP**: the BGP 001 was a collective effort launched in mid-2008 at Honda. The [double diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) exploited a loophole in the new regulations; according to Brawn, the double-floor concept came from one of the Japanese engineers. Three wind tunnels worked in parallel, each with a programme suited to its strengths.
-- **Mercedes**: team principal; he left the team in the winter of 2013-2014. The 2014 W05 was, in his view, the product of the same philosophy.
-- **Formula 1**: from 2017, he had a major influence on the 2022 technical regulations.
+- **Williams**: having joined as a machinist, he became a technician in [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %})'s research and development department as the team found success with the FW07, then, after the team moved to its Basil Hill Road factory, an aerodynamicist working in the team's own wind tunnel (GrandPrix.com){% include src.html n="3" %}. Patrick Head recalled that Dernie and Brawn were "very involved" in the work that made the quarter-scale wind tunnel acquired in late 1979 usable (Motor Sport, 2022){% include src.html n="4" %}.
+- **Arrows**: after the FORCE team closed at the end of 1986, he became Arrows' chief designer{% include src.html n="3" %}.
+- **TWR** (1989): he designed the Jaguar XJR-14, the first sports car to feature cutting-edge F1 technology{% include src.html n="3" %}.
+- **Benetton**: technical director from autumn 1991{% include src.html n="3" %}. Work on the 1994 car began as early as the start of 1993, which, according to Brawn, was "almost unheard of" at the time{% include src.html n="1" %}.
+- **Ferrari**: technical director from December 1996, through the championship years{% include src.html n="3" %}.
+- **Brawn GP**: the BGP 001 was a collective effort launched in mid-2008 at Honda{% include src.html n="1,5" %}. The [double diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) exploited a loophole in the new regulations{% include src.html n="2,5" %}; according to Brawn, the double-floor concept came from one of the Japanese engineers{% include src.html n="1" %}. Three wind tunnels worked in parallel, each with a programme suited to its strengths{% include src.html n="1" %}.
+- **Mercedes**: team principal; he left the team in the winter of 2013-2014{% include src.html n="1,6" %}. The 2014 W05 was, in his view, the product of the same philosophy{% include src.html n="1" %}.
+- **Formula 1**: from 2017, he had a major influence on the 2022 technical regulations{% include src.html n="6" %}.
 
 ## Attribution
 
-Avoid saying that Brawn designed the Mercedes W05, or that he prepared its architecture. The accurate wording: **before leaving the team in the winter of 2013-2014, Brawn put in place a 2014 programme that started early and integrated chassis and engine.** He himself stresses that [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) was in step with all the work done on the chassis.
+Avoid saying that Brawn designed the Mercedes W05, or that he prepared its architecture. The accurate wording: **before leaving the team in the winter of 2013-2014, Brawn put in place a 2014 programme that started early and integrated chassis and engine.** He himself stresses that [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) was in step with all the work done on the chassis{% include src.html n="1" %}.
 
 ## Why Tier C
 
@@ -59,4 +59,4 @@ A lasting transformation of the way of working, but a revolution in process, har
 
 ## Lineage
 
-In the systems organisation branch: [Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) → Brawn → the 2014 Mercedes programme. What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#organisation).
+In the systems organisation branch: [Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) → Brawn → the 2014 Mercedes programme{% include src.html n="1" %}. What links each step, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#organisation).

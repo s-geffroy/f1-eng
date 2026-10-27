@@ -36,26 +36,26 @@ image: "/assets/partage/en/mauro-forghieri.jpg"
 ---
 ## Integrated engineering
 
-On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics. In 27 years at Ferrari, his record included four drivers' titles and seven constructors' titles (Motor Sport); Autosport adds 54 Grand Prix wins.
+On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engineer, with all of the marque's racing and testing activity{% include src.html n="3" %}. Trained in all the subsystems (engine, gearbox, chassis, suspension), he also pushed the use of aerodynamics{% include src.html n="3,5" %}. In 27 years at Ferrari, his record included four drivers' titles and seven constructors' titles (Motor Sport){% include src.html n="5" %}; Autosport adds 54 Grand Prix wins{% include src.html n="6" %}.
 
 ## Mass centralisation
 
-One guiding idea links his cars of the 1970s: **[centralising the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses)** to improve turn-in response.
+One guiding idea links his cars of the 1970s: **[centralising the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses)** to improve turn-in response{% include src.html n="1,2" %}.
 
-- On the 1974 **312B3**, the cockpit and fuel tank were moved 13cm forward within the wheelbase.
-- The 1975 **312T** introduced the **[transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale)**, which formula1.com presents as a first in F1, later adopted by the whole grid; according to Motor Sport, Forghieri was partly following a path opened in 1972 by Tyrrell and March.
-- The 312T family won three drivers' titles and four constructors' titles.
+- On the 1974 **312B3**, the cockpit and fuel tank were moved 13cm forward within the wheelbase{% include src.html n="2" %}.
+- The 1975 **312T** introduced the **[transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale)**, which formula1.com presents as a first in F1, later adopted by the whole grid{% include src.html n="1,2,4" %}; according to Motor Sport, Forghieri was partly following a path opened in 1972 by Tyrrell and March.
+- The 312T family won three drivers' titles and four constructors' titles{% include src.html n="5" %}.
 
 ## Other milestones
 
-- At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position. formula1.com points out, however, that others had used wings before him.
-- He designed Ferrari's first turbocharged F1 engine, in 1981.
-- From 1987, he ran the technical side of Lamborghini Engineering, whose [V12]({{ site.baseurl }}/en/glossary/#architecture-moteur) raced in F1 from 1989.
+- At the 1968 Belgian Grand Prix, he decided to fit strut-mounted [wings]({{ site.baseurl }}/en/glossary/#aileron) to Chris Amon's 312, which took pole position{% include src.html n="5" %}. formula1.com points out, however, that others had used wings before him{% include src.html n="3" %}.
+- He designed Ferrari's first turbocharged F1 engine, in 1981{% include src.html n="4,5" %}.
+- From 1987, he ran the technical side of Lamborghini Engineering, whose [V12]({{ site.baseurl }}/en/glossary/#architecture-moteur) raced in F1 from 1989{% include src.html n="3,6" %}.
 
 ## Attribution
 
-The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: formula1.com notes that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it. That obituary also notes that his passion sometimes led him to overrate some of his inventions.
+The Ferrari [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) is not his work alone: formula1.com notes that he created it in cooperation with his colleague [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}){% include src.html n="1" %}, and his obituary goes so far as to say that Forghieri tasked Rocchi with creating it{% include src.html n="3" %}. That obituary also notes that his passion sometimes led him to overrate some of his inventions{% include src.html n="3" %}.
 
 ## Why Tier B
 
-Forghieri profoundly transformed the way the major subsystems are integrated, and the transverse gearbox became a standard. What he lacks, compared with Tier A, is a breakthrough that became a structural principle of all of F1.
+Forghieri profoundly transformed the way the major subsystems are integrated, and the transverse gearbox became a standard{% include src.html n="4" %}. What he lacks, compared with Tier A, is a breakthrough that became a structural principle of all of F1.

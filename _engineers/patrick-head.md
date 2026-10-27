@@ -29,23 +29,23 @@ image: "/assets/partage/en/patrick-head.jpg"
 ---
 ## What he changed
 
-Patrick Head is the architect of the Williams technical organisation. He graduated in mechanical engineering from University College London in 1970 and joined Lola shortly afterwards. In 1977 he founded Williams Grand Prix Engineering with Frank Williams and took charge of the design office.
+Patrick Head is the architect of the Williams technical organisation{% include src.html n="1" %}. He graduated in mechanical engineering from University College London in 1970 and joined Lola shortly afterwards{% include src.html n="2" %}. In 1977 he founded Williams Grand Prix Engineering with Frank Williams and took charge of the design office{% include src.html n="1,2" %}.
 
-- **FW06 (1978)**: the first Williams designed by Head.
-- **FW07**: the [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car gave the team the first of its 114 victories, at the 1979 British Grand Prix.
-- **1980**: the Williams from Head's design office carried Alan Jones and Williams to both world titles.
+- **FW06 (1978)**: the first Williams designed by Head{% include src.html n="1" %}.
+- **FW07**: the [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car gave the team the first of its 114 victories, at the 1979 British Grand Prix{% include src.html n="1" %}.
+- **1980**: the Williams from Head's design office carried Alan Jones and Williams to both world titles{% include src.html n="1" %}.
 
 ## From designer to technical director
 
-Head then stopped drawing the cars himself. The Williams team's website says that he then created the post of **technical director**, responsible for coordinating every discipline: design, manufacture, racing and testing. Head himself qualified this account: asked by Motor Sport in 2022 about Frank Dernie's arrival in 1979, he said that, while broadening its engineering base, the team "did not establish job titles". It is this organisation that is his hallmark.
+Head then stopped drawing the cars himself{% include src.html n="1" %}. The Williams team's website says that he then created the post of **technical director**, responsible for coordinating every discipline: design, manufacture, racing and testing{% include src.html n="1" %}. Head himself qualified this account: asked by Motor Sport in 2022 about Frank Dernie's arrival in 1979, he said that, while broadening its engineering base, the team "did not establish job titles"{% include src.html n="2" %}. It is this organisation that is his hallmark.
 
-After [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) arrived in 1990, the Head–Newey partnership dominated: from 1991 to 1997, Williams won 59 races, five constructors' titles and four drivers' titles. The 1993 FW15C was designed under their joint technical direction.
+After [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) arrived in 1990, the Head–Newey partnership dominated: from 1991 to 1997, Williams won 59 races, five constructors' titles and four drivers' titles{% include src.html n="1" %}. The 1993 FW15C was designed under their joint technical direction{% include src.html n="3" %}.
 
-According to GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _engineers/sam-michael.md %}) was to become technical director and Head director of engineering (2004). Head left the Williams board on 31 December 2011.
+According to GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _engineers/sam-michael.md %}) was to become technical director and Head director of engineering (2004){% include src.html n="6" %}. Head left the Williams board on 31 December 2011{% include src.html n="1" %}.
 
 ## His role in the Williams ecosystem
 
-[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) illustrates this role. The first system (FW11B, 1987) was designed by [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}); Williams brought it back, in improved form, in 1992, and it was Head who then started calling it "active" again; for this 1992-1993 version, the software was largely written by [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}). To Head belong the overall architecture and the direction.
+[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) illustrates this role. The first system (FW11B, 1987) was designed by [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}){% include src.html n="4" %}; Williams brought it back, in improved form, in 1992, and it was Head who then started calling it "active" again{% include src.html n="4" %}; for this 1992-1993 version, the software was largely written by [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}){% include src.html n="3" %}. To Head belong the overall architecture and the direction{% include src.html n="3,5" %}.
 
 ## Why Tier C
 

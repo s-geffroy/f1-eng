@@ -29,21 +29,21 @@ image: "/assets/partage/en/voitures/tyrrell-019.jpg"
 ---
 ## What it changed
 
-The Tyrrell 019 appeared at the 1990 San Marino Grand Prix, at Imola. Its [nose]({{ site.baseurl }}/en/glossary/#nez-releve) was sharply raised, and the front [wing]({{ site.baseurl }}/en/glossary/#aileron) dropped towards its tips, in anhedral. According to formula1.com, the aim was to send more air under the car. Motor Sport presents it as the car that changed the shape of 1990s aerodynamics.
+The Tyrrell 019 appeared at the 1990 San Marino Grand Prix, at Imola{% include src.html n="1,3" %}. Its [nose]({{ site.baseurl }}/en/glossary/#nez-releve) was sharply raised, and the front [wing]({{ site.baseurl }}/en/glossary/#aileron) dropped towards its tips, in anhedral{% include src.html n="1,2,3" %}. According to formula1.com, the aim was to send more air under the car{% include src.html n="2" %}. Motor Sport presents it as the car that changed the shape of 1990s aerodynamics{% include src.html n="1" %}.
 
-Under the bodywork, there was little new. "The 018 and 019 are the same car mechanically," says Jean-Claude Migeot: the rear, gearbox included, was identical; only the front changed completely. The 019 also kept from the 018 a front actuator, powered by a small battery under the seat, which let the driver adjust the ride height.
+Under the bodywork, there was little new{% include src.html n="3" %}. "The 018 and 019 are the same car mechanically," says Jean-Claude Migeot: the rear, gearbox included, was identical; only the front changed completely{% include src.html n="3" %}. The 019 also kept from the 018 a front actuator, powered by a small battery under the seat, which let the driver adjust the ride height{% include src.html n="3" %}.
 
 ## Who designed it
 
-Motor Sport credits it to [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) and the aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}). formula1.com names only Migeot. According to Autosport, the idea of the raised nose and the anhedral wing came from Migeot, who had conceived it five years earlier, in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Renault.
+Motor Sport credits it to [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) and the aerodynamicist [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}){% include src.html n="1" %}. formula1.com names only Migeot{% include src.html n="2" %}. According to Autosport, the idea of the raised nose and the anhedral wing came from Migeot, who had conceived it five years earlier, in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Renault{% include src.html n="3" %}.
 
-The same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose.
+The same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose{% include src.html n="2" %}.
 
 ## Limitations
 
-Motor Sport describes it as nimble but underpowered. Its Pirelli tyres handicapped it in races, and Migeot says so bluntly: "a bad choice". After Monaco, Alesi did not score another point all season.
+Motor Sport describes it as nimble but underpowered{% include src.html n="1" %}. Its Pirelli tyres handicapped it in races, and Migeot says so bluntly: "a bad choice"{% include src.html n="3" %}. After Monaco, Alesi did not score another point all season{% include src.html n="1" %}.
 
 ## Legacy
 
-- **1990**: no wins. Jean Alesi finished second at Monaco, and Tyrrell held on to fifth place in the constructors' standings.
-- Winless though it was, according to Motor Sport it "changed the shape of Formula 1".
+- **1990**: no wins{% include src.html n="1" %}. Jean Alesi finished second at Monaco, and Tyrrell held on to fifth place in the constructors' standings{% include src.html n="1" %}.
+- Winless though it was, according to Motor Sport it "changed the shape of Formula 1"{% include src.html n="1" %}.

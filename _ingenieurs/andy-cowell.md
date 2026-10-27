@@ -34,27 +34,27 @@ redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 ---
 ## Ce qu'il a changé
 
-Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique. De 2014 à 2020, Cowell a supervisé la production de ces moteurs [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) hybrides.
+Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique. De 2014 à 2020, Cowell a supervisé la production de ces moteurs [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) hybrides{% include src.html n="1,6" %}.
 
-- **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait ».
-- **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc.
-- **Les résultats.** Pendant qu'il dirige Mercedes AMG HPP, ses groupes propulseurs remportent six doublés consécutifs, titres pilotes et constructeurs, de 2014 à 2019 ; il quitte son poste début juillet 2020.
+- **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V{% include src.html n="4" %}. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait »{% include src.html n="4" %}.
+- **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc{% include src.html n="5" %}.
+- **Les résultats.** Pendant qu'il dirige Mercedes AMG HPP, ses groupes propulseurs remportent six doublés consécutifs, titres pilotes et constructeurs, de 2014 à 2019{% include src.html n="6,8" %} ; il quitte son poste début juillet 2020{% include src.html n="8" %}.
 
 ## Parcours technique
 
-- Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**.
-- En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur utilisé par Williams jusqu'en 2001.
-- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon formula1.com).
-- Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie.
+- Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**{% include src.html n="3" %}.
+- En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur utilisé par Williams jusqu'en 2001{% include src.html n="3" %}.
+- En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon formula1.com){% include src.html n="3" %}.
+- Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe{% include src.html n="6,8" %}. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie{% include src.html n="3,7" %}.
 
 ## Intégration avec le châssis
 
-[Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) souligne que Cowell était en phase avec tout le travail mené sur le châssis : la force du programme 2014 tient aussi à cette intégration.
+[Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) souligne que Cowell était en phase avec tout le travail mené sur le châssis : la force du programme 2014 tient aussi à cette intégration{% include src.html n="2" %}.
 
 ## Pourquoi le Tier C
 
-Cowell est légèrement pénalisé par un point de méthode : l'**hybridation était imposée par le règlement**. Le passage à l'hybride aurait eu lieu sans lui ; c'est la qualité de l'exécution qui lui revient.
+Cowell est légèrement pénalisé par un point de méthode : l'**hybridation était imposée par le règlement**{% include src.html n="3" %}. Le passage à l'hybride aurait eu lieu sans lui ; c'est la qualité de l'exécution qui lui revient.
 
 ## Lignée
 
-Dans la branche moteur : [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) → Cowell, par Cosworth, où Cowell commence sa carrière. Ce qui relie les deux, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#moteur).
+Dans la branche moteur : [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) → Cowell, par Cosworth, où Cowell commence sa carrière{% include src.html n="1,3" %}. Ce qui relie les deux, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#moteur).

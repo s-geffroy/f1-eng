@@ -33,27 +33,27 @@ image: "/assets/partage/en/andy-cowell.jpg"
 ---
 ## What he changed
 
-The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride)** is a case of systems execution. From 2014 to 2020, Cowell oversaw the production of these hybrid [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) engines.
+The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride)** is a case of systems execution. From 2014 to 2020, Cowell oversaw the production of these hybrid [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) engines{% include src.html n="1,6" %}.
 
-- **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V. As Cowell put it, "there was nothing that said it couldn't be done, it was just that it hadn't been done".
-- **Efficiency.** The first Mercedes turbo-hybrid engine of 2014 reached a thermal efficiency of 44%; in 2017 it passed the 50% mark on the dyno for the first time.
-- **Results.** While he ran Mercedes AMG HPP, his power units won six consecutive doubles, drivers' and constructors' titles, from 2014 to 2019; he stepped down in early July 2020.
+- **The split turbo.** The Mercedes engine places the turbine and the compressor at opposite ends of the engine, linked by a shaft running through the V{% include src.html n="4" %}. As Cowell put it, "there was nothing that said it couldn't be done, it was just that it hadn't been done"{% include src.html n="4" %}.
+- **Efficiency.** The first Mercedes turbo-hybrid engine of 2014 reached a thermal efficiency of 44%; in 2017 it passed the 50% mark on the dyno for the first time{% include src.html n="5" %}.
+- **Results.** While he ran Mercedes AMG HPP, his power units won six consecutive doubles, drivers' and constructors' titles, from 2014 to 2019{% include src.html n="6,8" %}; he stepped down in early July 2020{% include src.html n="8" %}.
 
 ## Technical career
 
-- A mechanical engineer educated at Lancaster University, he began at **Cosworth**.
-- In 2000 he moved to **BMW Motorsport**, where he played a key role in designing the engine used by Williams until 2001.
-- In 2004 he joined **Mercedes-Ilmor**, became director of engineering, then managing director of Mercedes AMG High Performance Powertrains (2013 according to formula1.com).
-- His departure from Mercedes was announced in June 2020; he stayed on for a time as a consultant to the team. He then led Aston Martin F1 as team principal and CEO, before handing the team principal role to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) for 2026 and becoming chief strategy officer.
+- A mechanical engineer educated at Lancaster University, he began at **Cosworth**{% include src.html n="3" %}.
+- In 2000 he moved to **BMW Motorsport**, where he played a key role in designing the engine used by Williams until 2001{% include src.html n="3" %}.
+- In 2004 he joined **Mercedes-Ilmor**, became director of engineering, then managing director of Mercedes AMG High Performance Powertrains (2013 according to formula1.com){% include src.html n="3" %}.
+- His departure from Mercedes was announced in June 2020; he stayed on for a time as a consultant to the team{% include src.html n="6,8" %}. He then led Aston Martin F1 as team principal and CEO, before handing the team principal role to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) for 2026 and becoming chief strategy officer{% include src.html n="3,7" %}.
 
 ## Integration with the chassis
 
-[Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) stresses that Cowell was in step with all the work done on the chassis: the strength of the 2014 programme also lies in this integration.
+[Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) stresses that Cowell was in step with all the work done on the chassis: the strength of the 2014 programme also lies in this integration{% include src.html n="2" %}.
 
 ## Why Tier C
 
-Cowell is slightly penalised on a point of method: **hybridisation was imposed by the regulations**. The switch to hybrid power would have happened without him; what belongs to him is the quality of the execution.
+Cowell is slightly penalised on a point of method: **hybridisation was imposed by the regulations**{% include src.html n="3" %}. The switch to hybrid power would have happened without him; what belongs to him is the quality of the execution.
 
 ## Lineage
 
-In the engine branch: [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) → Cowell, through Cosworth, where Cowell began his career. What links the two, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#moteur).
+In the engine branch: [Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) → Cowell, through Cosworth, where Cowell began his career{% include src.html n="1,3" %}. What links the two, and on what sources: [lineages page]({{ site.baseurl }}/en/lineages/#moteur).

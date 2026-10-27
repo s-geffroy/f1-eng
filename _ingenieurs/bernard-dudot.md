@@ -28,28 +28,28 @@ redirect_from: "/ingenieurs/2026/10/25/bernard-dudot.html"
 ---
 ## Ce qu'il a changé
 
-Bernard Dudot est au cœur des trois mutations du moteur Renault qui ont ensuite gagné tout le plateau :
+Bernard Dudot est au cœur des trois mutations du moteur Renault qui ont ensuite gagné tout le plateau{% include src.html n="2" %} :
 
 **Turbo → [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes → V10**
 
-- **Le turbo.** Selon Renault, toutes les équipes de F1 ont un moteur turbo au cours de la saison 1985.
-- **Le rappel pneumatique des soupapes**, introduit sur le moteur EF15 B de 1986, est utilisé, selon Renault, sur tous les moteurs F1 à partir des années 1990.
-- **Le V10.** Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988), à la tête d'une équipe d'une vingtaine d'ingénieurs ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau.
+- **Le turbo.** Selon Renault, toutes les équipes de F1 ont un moteur turbo au cours de la saison 1985{% include src.html n="2" %}.
+- **Le rappel pneumatique des soupapes**, introduit sur le moteur EF15 B de 1986, est utilisé, selon Renault, sur tous les moteurs F1 à partir des années 1990{% include src.html n="2" %}.
+- **Le V10.** Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988){% include src.html n="3" %}, à la tête d'une équipe d'une vingtaine d'ingénieurs{% include src.html n="4" %} ; selon Renault, il imposera l'architecture V10 à l'ensemble du plateau{% include src.html n="2" %}.
 
 ## Parcours technique
 
-- Formé au CESTI de Nancy, il entre chez Alpine en 1967.
-- En 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}) le fait venir d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur).
-- En avril 1975, quand Renault décide de s'engager en F1, il prend la tête du programme moteur F1, sous la direction technique de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}).
-- En 1980, il devient directeur technique de Renault Sport.
-- En 1986, Renault suspend son engagement. Sur l'insistance de Dudot, une cellule de veille technique est maintenue : c'est d'elle que sort le V10, dessiné par Dudot et une équipe d'une vingtaine d'ingénieurs à Viry.
-- Renault compte ensuite six titres consécutifs pour son V10 dans les années 1990.
+- Formé au CESTI de Nancy, il entre chez Alpine en 1967{% include src.html n="4" %}.
+- En 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}) le fait venir d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur){% include src.html n="4" %}.
+- En avril 1975, quand Renault décide de s'engager en F1, il prend la tête du programme moteur F1, sous la direction technique de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}){% include src.html n="4,5" %}.
+- En 1980, il devient directeur technique de Renault Sport{% include src.html n="4,5" %}.
+- En 1986, Renault suspend son engagement{% include src.html n="2,4" %}. Sur l'insistance de Dudot, une cellule de veille technique est maintenue{% include src.html n="2" %} : c'est d'elle que sort le V10, dessiné par Dudot et une équipe d'une vingtaine d'ingénieurs à Viry{% include src.html n="2,4" %}.
+- Renault compte ensuite six titres consécutifs pour son V10 dans les années 1990{% include src.html n="2" %}.
 
 ## Attribution
 
-Renault Sport est une organisation, et les sources le montrent : GrandPrix.com attribue l'idée de suralimenter le moteur de course à **Jean Terramorsi**, directeur de Gordini, et le premier moteur turbo de F1 de Renault, l'EF1, dérive du V6 de 2 litres conçu par **François Castaing** et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}). Le document Renault présente Dudot comme « responsable des moteurs ». Il n'est donc pas l'inventeur solitaire de ces technologies : il en est la figure technique centrale, de leur maturation au V10.
+Renault Sport est une organisation, et les sources le montrent : GrandPrix.com attribue l'idée de suralimenter le moteur de course à **Jean Terramorsi**, directeur de Gordini{% include src.html n="4" %}, et le premier moteur turbo de F1 de Renault, l'EF1, dérive du V6 de 2 litres conçu par **François Castaing** et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}){% include src.html n="1,4" %}. Le document Renault présente Dudot comme « responsable des moteurs »{% include src.html n="2" %}. Il n'est donc pas l'inventeur solitaire de ces technologies : il en est la figure technique centrale, de leur maturation au V10.
 
 ## Pourquoi le Tier B, et en tête
 
-Trois ruptures moteur, toutes diffusées au reste du plateau selon la documentation Renault : c'est le profil le plus proche du Tier A parmi les quinze suivants. Ce qui l'en sépare, c'est le caractère collectif des réalisations.
+Trois ruptures moteur, toutes diffusées au reste du plateau selon la documentation Renault{% include src.html n="2" %} : c'est le profil le plus proche du Tier A parmi les quinze suivants. Ce qui l'en sépare, c'est le caractère collectif des réalisations.
 

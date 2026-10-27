@@ -29,21 +29,21 @@ image: "/assets/partage/voitures/tyrrell-019.jpg"
 ---
 ## Ce qu'elle change
 
-La Tyrrell 019 apparaît au Grand Prix de Saint-Marin 1990, à Imola. Son [nez]({{ site.baseurl }}/glossaire/#nez-releve) est fortement relevé, et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant s'abaisse vers ses extrémités, en dièdre négatif. Selon formula1.com, le but est d'envoyer plus d'air sous la voiture. Motor Sport la présente comme la voiture qui a changé la forme de l'aérodynamique des années 1990.
+La Tyrrell 019 apparaît au Grand Prix de Saint-Marin 1990, à Imola{% include src.html n="1,3" %}. Son [nez]({{ site.baseurl }}/glossaire/#nez-releve) est fortement relevé, et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant s'abaisse vers ses extrémités, en dièdre négatif{% include src.html n="1,2,3" %}. Selon formula1.com, le but est d'envoyer plus d'air sous la voiture{% include src.html n="2" %}. Motor Sport la présente comme la voiture qui a changé la forme de l'aérodynamique des années 1990{% include src.html n="1" %}.
 
-Sous la carrosserie, la nouveauté est limitée. « La 018 et la 019 sont la même voiture sur le plan mécanique », dit Jean-Claude Migeot : l'arrière, boîte comprise, est identique ; seul l'avant change complètement. La 019 garde aussi de la 018 un vérin à l'avant, alimenté par une petite batterie sous le siège, qui permet au pilote de régler la hauteur de caisse.
+Sous la carrosserie, la nouveauté est limitée{% include src.html n="3" %}. « La 018 et la 019 sont la même voiture sur le plan mécanique », dit Jean-Claude Migeot : l'arrière, boîte comprise, est identique ; seul l'avant change complètement{% include src.html n="3" %}. La 019 garde aussi de la 018 un vérin à l'avant, alimenté par une petite batterie sous le siège, qui permet au pilote de régler la hauteur de caisse{% include src.html n="3" %}.
 
 ## Qui l'a conçue
 
-Motor Sport l'attribue à [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) et à l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}). formula1.com ne nomme que Migeot. Selon Autosport, l'idée du nez relevé et de l'aileron en dièdre vient de Migeot, qui l'avait imaginée cinq ans plus tôt, en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) chez Renault.
+Motor Sport l'attribue à [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) et à l'aérodynamicien [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}){% include src.html n="1" %}. formula1.com ne nomme que Migeot{% include src.html n="2" %}. Selon Autosport, l'idée du nez relevé et de l'aileron en dièdre vient de Migeot, qui l'avait imaginée cinq ans plus tôt, en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) chez Renault{% include src.html n="3" %}.
 
-La même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé.
+La même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé{% include src.html n="2" %}.
 
 ## Limites
 
-Motor Sport la décrit comme agile mais sous-motorisée. Ses pneus Pirelli la handicapent en course, et Migeot le dit sans détour : « un mauvais choix ». Après Monaco, Alesi ne marque plus un point de la saison.
+Motor Sport la décrit comme agile mais sous-motorisée{% include src.html n="1" %}. Ses pneus Pirelli la handicapent en course, et Migeot le dit sans détour : « un mauvais choix »{% include src.html n="3" %}. Après Monaco, Alesi ne marque plus un point de la saison{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **1990** : pas de victoire. Jean Alesi finit deuxième à Monaco, et Tyrrell conserve la cinquième place chez les constructeurs.
-- Sans victoire, elle a pourtant, selon Motor Sport, « changé la forme de la Formule 1 ».
+- **1990** : pas de victoire{% include src.html n="1" %}. Jean Alesi finit deuxième à Monaco, et Tyrrell conserve la cinquième place chez les constructeurs{% include src.html n="1" %}.
+- Sans victoire, elle a pourtant, selon Motor Sport, « changé la forme de la Formule 1 »{% include src.html n="1" %}.

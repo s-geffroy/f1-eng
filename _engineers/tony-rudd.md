@@ -34,21 +34,21 @@ image: "/assets/partage/en/tony-rudd.jpg"
 ---
 ## What he changed
 
-Tony Rudd was an engineer at BRM, then at Lotus, and, with Peter Wright, one of the initiators of BRM's research into [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol), whose principle the Lotus programme launched by Colin Chapman took up.
+Tony Rudd was an engineer at BRM, then at Lotus, and, with Peter Wright, one of the initiators of BRM's research into [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol), whose principle the Lotus programme launched by Colin Chapman took up{% include src.html n="1,2" %}.
 
 ## BRM
 
-- An apprentice at Rolls-Royce, he joined BRM shortly after its disastrous debut at Silverstone in 1950, and worked first on the V16.
-- In 1962, BRM won the drivers' (Graham Hill) and constructors' titles.
-- On the BRM P261, an evolution of the P61, he extended the sides of the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) rearwards, around the engine, to cure the P61's lack of stiffness.
-- In 1966, the H16 engine arrived late, too heavy and too complex: an acknowledged failure.
-- In 1969, opposed to [wings]({{ site.baseurl }}/en/glossary/#aileron), he suggested that the car itself should generate [downforce]({{ site.baseurl }}/en/glossary/#appui). [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) measured its potential in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), but the secret [wing car]({{ site.baseurl }}/en/glossary/#voiture-aile) project was stopped in June 1969.
+- An apprentice at Rolls-Royce, he joined BRM shortly after its disastrous debut at Silverstone in 1950, and worked first on the V16{% include src.html n="2" %}.
+- In 1962, BRM won the drivers' (Graham Hill) and constructors' titles{% include src.html n="2" %}.
+- On the BRM P261, an evolution of the P61, he extended the sides of the [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) rearwards, around the engine, to cure the P61's lack of stiffness{% include src.html n="3" %}.
+- In 1966, the H16 engine arrived late, too heavy and too complex: an acknowledged failure{% include src.html n="2,3" %}.
+- In 1969, opposed to [wings]({{ site.baseurl }}/en/glossary/#aileron), he suggested that the car itself should generate [downforce]({{ site.baseurl }}/en/glossary/#appui){% include src.html n="4" %}. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) measured its potential in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), but the secret [wing car]({{ site.baseurl }}/en/glossary/#voiture-aile) project was stopped in June 1969{% include src.html n="4" %}.
 
 ## Lotus
 
-- Having joined Group Lotus in 1969, he turned Lotus Engineering into a major research contractor for car manufacturers.
-- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Wright, later joined by [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) for the suspension. Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the de Havilland Mosquito.
+- Having joined Group Lotus in 1969, he turned Lotus Engineering into a major research contractor for car manufacturers{% include src.html n="2,5" %}.
+- In August 1975, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) handed Rudd, then director of engineering, his specification for a wing car{% include src.html n="5" %}. The team brought together [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and Wright, later joined by [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) for the suspension{% include src.html n="5" %}. Rudd then recalled his work at Rolls-Royce, in particular the radiator installation of the de Havilland Mosquito{% include src.html n="5" %}.
 
 ## Why behind Wright
 
-Rudd suggested at BRM in 1969 that the car itself should generate downforce, then led R&D at Lotus; Wright carried out the wind tunnel testing. Rudd's direct contribution to the final solution is **harder to isolate** than Wright's. The method does not credit the same contribution twice: Rudd is placed in Tier C, Wright in Tier B.
+Rudd suggested at BRM in 1969 that the car itself should generate downforce, then led R&D at Lotus{% include src.html n="4,5" %}; Wright carried out the wind tunnel testing{% include src.html n="4,5" %}. Rudd's direct contribution to the final solution is **harder to isolate** than Wright's. The method does not credit the same contribution twice: Rudd is placed in Tier C, Wright in Tier B.

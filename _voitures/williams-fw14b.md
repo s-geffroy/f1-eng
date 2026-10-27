@@ -41,23 +41,23 @@ image: "/assets/partage/voitures/williams-fw14b.jpg"
 ---
 ## Ce qu'elle change
 
-« La principale différence entre la FW14 de 1991 et la FW14B, c'était la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) », résume Patrick Head. Le système maintient la caisse à plat, quelles que soient les charges, et offre ainsi une plateforme stable à l'aérodynamique.
+« La principale différence entre la FW14 de 1991 et la FW14B, c'était la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) », résume Patrick Head{% include src.html n="1" %}. Le système maintient la caisse à plat, quelles que soient les charges, et offre ainsi une plateforme stable à l'aérodynamique{% include src.html n="3" %}.
 
-L'histoire commence en 1985. Le fabricant de freins AP développait une suspension active pour les voitures de route ; il renonce et, plutôt que d'enterrer le projet, le propose à Williams. D'abord purement mécanique, le système devient électronique, programmé pour donner au pilote le sous-virage ou le survirage qu'il souhaite.
+L'histoire commence en 1985{% include src.html n="1" %}. Le fabricant de freins AP développait une suspension active pour les voitures de route ; il renonce et, plutôt que d'enterrer le projet, le propose à Williams{% include src.html n="1" %}. D'abord purement mécanique, le système devient électronique, programmé pour donner au pilote le sous-virage ou le survirage qu'il souhaite{% include src.html n="1,3" %}.
 
-La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage) et une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique). Celle-ci avait coûté beaucoup de points en 1991, faute de fiabilité ; une fois au point, elle permet, selon Head, de changer de rapport quatre ou cinq fois plus vite et protège le moteur des surrégimes. Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) Renault, puissant et fiable, est selon lui le meilleur moteur de course de l'époque.
+La FW14B réunit aussi l'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage) et une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique){% include src.html n="2" %}. Celle-ci avait coûté beaucoup de points en 1991, faute de fiabilité ; une fois au point, elle permet, selon Head, de changer de rapport quatre ou cinq fois plus vite et protège le moteur des surrégimes{% include src.html n="1" %}. Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) Renault, puissant et fiable, est selon lui le meilleur moteur de course de l'époque{% include src.html n="1,2" %}.
 
 ## Qui l'a conçue
 
-Williams et Autosport attribuent la voiture à [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}). La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987) avant de partir chez Lotus en 1989 (GrandPrix.com) ; Williams le fait revenir sous une forme améliorée en 1992, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com). Selon Head, Newey n'a pas pris part au développement du système actif.
+Williams et Autosport attribuent la voiture à [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), directeur technique, et à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}){% include src.html n="1,2" %}. La suspension active est une chaîne : [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système (1987) avant de partir chez Lotus en 1989 (GrandPrix.com){% include src.html n="7,9" %} ; Williams le fait revenir sous une forme améliorée en 1992{% include src.html n="7" %}, et [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) écrit l'essentiel du logiciel de cette version (formula1.com){% include src.html n="4" %}. Selon Head, Newey n'a pas pris part au développement du système actif{% include src.html n="8" %}.
 
 ## Limites
 
-- La FW14B n'est qu'une adaptation. formula1.com le rappelle : c'est une voiture existante à laquelle on a ajouté la suspension active, alors que la FW15C sera conçue dès le départ autour d'elle.
-- Le système est surtout réactif. À l'entrée des virages, la voiture flotte un court instant avant de se stabiliser. Mansell accepte cette sensation pour l'adhérence qui suit ; Riccardo Patrese, lui, réclame plus de ressenti.
+- La FW14B n'est qu'une adaptation{% include src.html n="4" %}. formula1.com le rappelle : c'est une voiture existante à laquelle on a ajouté la suspension active, alors que la FW15C sera conçue dès le départ autour d'elle{% include src.html n="4" %}.
+- Le système est surtout réactif{% include src.html n="1" %}. À l'entrée des virages, la voiture flotte un court instant avant de se stabiliser{% include src.html n="1" %}. Mansell accepte cette sensation pour l'adhérence qui suit ; Riccardo Patrese, lui, réclame plus de ressenti{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **1992** : dix victoires, dont neuf pour Mansell ; la dixième revient à Patrese, au Japon. Mansell est champion du monde en Hongrie, onzième manche sur seize, avec cinq courses d'avance, et Williams remporte le titre constructeurs.
-- La voiture est si performante que Williams renonce à engager la FW15 prévue pour 1992.
-- En 1994, la suspension active est interdite, avec les autres aides au pilotage comme l'antipatinage.
+- **1992** : dix victoires, dont neuf pour Mansell ; la dixième revient à Patrese, au Japon{% include src.html n="2,6" %}. Mansell est champion du monde en Hongrie, onzième manche sur seize, avec cinq courses d'avance, et Williams remporte le titre constructeurs{% include src.html n="2,3" %}.
+- La voiture est si performante que Williams renonce à engager la FW15 prévue pour 1992{% include src.html n="2" %}.
+- En 1994, la suspension active est interdite, avec les autres aides au pilotage comme l'antipatinage{% include src.html n="5" %}.

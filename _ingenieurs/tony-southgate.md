@@ -30,16 +30,16 @@ image: "/assets/partage/tony-southgate.jpg"
 ---
 ## Ce qu'il a fait
 
-Tony Southgate est un concepteur de F1 prolifique des années 1970, de BRM à Arrows.
+Tony Southgate est un concepteur de F1 prolifique des années 1970, de BRM à Arrows{% include src.html n="1" %}.
 
 ## Parcours technique
 
-- **BRM.** Chef designer pour la saison 1970 ; à Spa, Pedro Rodriguez offre à BRM sa première victoire depuis quatre ans. Avec sa P160 de 1971, l'équipe termine deuxième du championnat des constructeurs ; en 1972, Jean-Pierre Beltoise gagne encore avec une P160 révisée.
-- **Shadow.** Il construit le prototype DN1 dans son garage, puis les DN3 (1974) et DN5 (1975).
-- **Lotus (1976-1977).** Il travaille sur la Lotus 77 et, avec [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), sur le développement de la 78 ; à partir de 1976, il est l'ingénieur de course de la voiture de Gunnar Nilsson.
-- **Arrows.** Sa première Arrows étant jugée copiée sur la Shadow DN9, il dessine une nouvelle voiture en 57 jours. L'Arrows A2 de 1979 prolonge une idée discutée chez Lotus : une voiture entièrement profilée comme une aile, sans [ailerons]({{ site.baseurl }}/glossaire/#aileron). Selon Southgate, elle produit 1 600 livres d'[appui]({{ site.baseurl }}/glossaire/#appui) à 150mph, mais son centre de gravité trop haut la pénalise lourdement.
-- **Theodore.** Il conçoit la TY01 pour la saison 1981.
+- **BRM.** Chef designer pour la saison 1970 ; à Spa, Pedro Rodriguez offre à BRM sa première victoire depuis quatre ans{% include src.html n="1" %}. Avec sa P160 de 1971, l'équipe termine deuxième du championnat des constructeurs ; en 1972, Jean-Pierre Beltoise gagne encore avec une P160 révisée{% include src.html n="1" %}.
+- **Shadow.** Il construit le prototype DN1 dans son garage, puis les DN3 (1974) et DN5 (1975){% include src.html n="1" %}.
+- **Lotus (1976-1977).** Il travaille sur la Lotus 77 et, avec [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), sur le développement de la 78{% include src.html n="1" %} ; à partir de 1976, il est l'ingénieur de course de la voiture de Gunnar Nilsson{% include src.html n="2" %}.
+- **Arrows.** Sa première Arrows étant jugée copiée sur la Shadow DN9, il dessine une nouvelle voiture en 57 jours{% include src.html n="3" %}. L'Arrows A2 de 1979 prolonge une idée discutée chez Lotus : une voiture entièrement profilée comme une aile, sans [ailerons]({{ site.baseurl }}/glossaire/#aileron){% include src.html n="3" %}. Selon Southgate, elle produit 1 600 livres d'[appui]({{ site.baseurl }}/glossaire/#appui) à 150mph, mais son centre de gravité trop haut la pénalise lourdement{% include src.html n="3" %}.
+- **Theodore.** Il conçoit la TY01 pour la saison 1981{% include src.html n="1" %}.
 
 ## La Lotus 78 : rétablir les rôles
 
-formula1.com attribue la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Tony Southgate. GrandPrix.com le place plutôt au développement de la 78, aux côtés de Peter Wright ; selon Motor Sport, Bellamy dessine la voiture et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions. Le site retient cette répartition.
+formula1.com attribue la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Tony Southgate{% include src.html n="4" %}. GrandPrix.com le place plutôt au développement de la 78, aux côtés de Peter Wright{% include src.html n="1" %} ; selon Motor Sport, Bellamy dessine la voiture et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions{% include src.html n="5" %}. Le site retient cette répartition.

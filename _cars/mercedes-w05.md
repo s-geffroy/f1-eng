@@ -39,22 +39,22 @@ image: "/assets/partage/en/voitures/mercedes-w05.jpg"
 ---
 ## What it changed
 
-In 2014, the regulations required a [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride): a turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) combined with electric motor-generators. The W05 was Mercedes' answer, and its strength lay first in the method. According to Motorsport.com, it was born of an unprecedented union between the chassis, aerodynamics and engine departments, with each part designed alongside the others.
+In 2014, the regulations required a [hybrid power unit]({{ site.baseurl }}/en/glossary/#groupe-propulseur-hybride): a turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) combined with electric motor-generators{% include src.html n="4" %}. The W05 was Mercedes' answer, and its strength lay first in the method{% include src.html n="4" %}. According to Motorsport.com, it was born of an unprecedented union between the chassis, aerodynamics and engine departments, with each part designed alongside the others{% include src.html n="4" %}.
 
-The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) of the PU106 engine. The compressor was placed at one end of the engine, the turbine at the other: the hot and cold sides stayed apart, and the motor-generator that recovers energy from the exhaust gases found its place between them, in the vee of the engine. A long shaft linked the assembly along the full length of the engine. The intake air was cooled by a liquid-to-air rather than air-to-air intercooler, housed above the fuel tank, which shortened its path.
+The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) of the PU106 engine{% include src.html n="4" %}. The compressor was placed at one end of the engine, the turbine at the other: the hot and cold sides stayed apart, and the motor-generator that recovers energy from the exhaust gases found its place between them, in the vee of the engine{% include src.html n="4" %}. A long shaft linked the assembly along the full length of the engine{% include src.html n="4" %}. The intake air was cooled by a liquid-to-air rather than air-to-air intercooler, housed above the fuel tank, which shortened its path{% include src.html n="4" %}.
 
 ## Who designed it
 
-- According to Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) was the team's technical director when the car was conceived; he describes himself as the overseer of both strands, chassis and engine, making sure they gelled.
-- [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari at the end of 2011 as engineering director, led the design of the car.
-- The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).
-- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. The method was his, not the design.
+- According to Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) was the team's technical director when the car was conceived; he describes himself as the overseer of both strands, chassis and engine, making sure they gelled{% include src.html n="7" %}.
+- [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari at the end of 2011 as engineering director, led the design of the car{% include src.html n="1,2" %}.
+- The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}){% include src.html n="3" %}.
+- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season{% include src.html n="3" %}. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme"{% include src.html n="3" %}. He stresses that Cowell and the chassis teams worked hand in hand{% include src.html n="3" %}. The method was his, not the design{% include src.html n="3" %}.
 
 ## Limitations
 
-The split turbo was, according to Motorsport.com, a layout fraught with complications: the size and shape of the compressor and turbine had to be rethought, and the oil tank redesigned. At the start of the season, Costa himself doubted the W05 would dominate all year, after Red Bull's rapid progress.
+The split turbo was, according to Motorsport.com, a layout fraught with complications: the size and shape of the compressor and turbine had to be rethought, and the oil tank redesigned{% include src.html n="4" %}. At the start of the season, Costa himself doubted the W05 would dominate all year, after Red Bull's rapid progress{% include src.html n="1" %}.
 
 ## Legacy
 
-- **2014**: sixteen wins in nineteen Grands Prix and eighteen pole positions. Lewis Hamilton became world champion after a season-long fight with his team-mate Nico Rosberg, and Mercedes won the constructors' title.
-- Costa's design group then dominated the hybrid era: five constructors' titles and five drivers' titles from 2014 to 2018, according to formula1.com; in all, Mercedes won both titles seven years running, from 2014 to 2020.
+- **2014**: sixteen wins in nineteen Grands Prix and eighteen pole positions{% include src.html n="3,6" %}. Lewis Hamilton became world champion after a season-long fight with his team-mate Nico Rosberg, and Mercedes won the constructors' title{% include src.html n="5" %}.
+- Costa's design group then dominated the hybrid era: five constructors' titles and five drivers' titles from 2014 to 2018, according to formula1.com{% include src.html n="2" %}; in all, Mercedes won both titles seven years running, from 2014 to 2020{% include src.html n="4,8" %}.

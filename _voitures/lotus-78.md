@@ -27,31 +27,31 @@ image: "/assets/partage/voitures/lotus-78.jpg"
 ---
 ## Ce qu'elle change
 
-Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). Ses flancs ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi). La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile), avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs.
+Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="1" %}. Ses flancs ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}. La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile), avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs{% include src.html n="1,2" %}.
 
-Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium.
+Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide{% include src.html n="1" %}. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium{% include src.html n="2" %}.
 
-Selon Doug Nye, l'idée du montage des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du de Havilland Mosquito. Selon le récit de Peter Wright, c'est Ralph Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
+Selon Doug Nye, l'idée du montage des radiateurs vient d'un souvenir de Tony Rudd : chez Rolls-Royce, il avait travaillé sur les moteurs d'avion, et notamment sur le montage des radiateurs du de Havilland Mosquito{% include src.html n="2" %}. Selon le récit de Peter Wright, c'est Ralph Bellamy qui veut reculer les masses, ce qui conduit à placer les radiateurs dans les flancs plutôt que dans le nez.
 
 ## Qui l'a conçue
 
 Une équipe, que Motor Sport décrit en détail :
 
-- [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) lance le programme en août 1975 avec un cahier des charges de 27 pages, où il liste aussi tout ce qu'il ne sait pas ;
-- [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}), directeur de l'ingénierie, dirige la cellule de recherche ;
-- [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) dessine la voiture ;
-- [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) mène l'aérodynamique ;
-- [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) détaille les suspensions et les autres « pièces qui bougent ».
+- [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) lance le programme en août 1975 avec un cahier des charges de 27 pages, où il liste aussi tout ce qu'il ne sait pas{% include src.html n="2" %} ;
+- [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}), directeur de l'ingénierie, dirige la cellule de recherche{% include src.html n="2" %} ;
+- [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) dessine la voiture{% include src.html n="2" %} ;
+- [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) mène l'aérodynamique{% include src.html n="2" %} ;
+- [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) détaille les suspensions et les autres « pièces qui bougent »{% include src.html n="2" %}.
 
-formula1.com attribue le dessin à Bellamy et à [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; le site retient pour Southgate un rôle dans le développement. L'effet de sol reste une réalisation collective.
+formula1.com attribue le dessin à Bellamy et à [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}){% include src.html n="1" %} ; le site retient pour Southgate un rôle dans le développement. L'effet de sol reste une réalisation collective.
 
 ## Limites
 
-- Avant la première course, l'équipe a mené plus de 150 études, 54 essais au banc et 400 heures de [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College. En taille réelle, pourtant, les valeurs aérodynamiques sont de 25 à 30 % inférieures aux prévisions.
-- Le centre de poussée est trop en avant. Il faut un grand aileron arrière pour équilibrer la voiture, d'où une forte traînée et une vitesse de pointe faible.
+- Avant la première course, l'équipe a mené plus de 150 études, 54 essais au banc et 400 heures de [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College{% include src.html n="2" %}. En taille réelle, pourtant, les valeurs aérodynamiques sont de 25 à 30 % inférieures aux prévisions{% include src.html n="2" %}.
+- Le centre de poussée est trop en avant{% include src.html n="1" %}. Il faut un grand aileron arrière pour équilibrer la voiture, d'où une forte traînée et une vitesse de pointe faible{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **1977** : première victoire à Long Beach avec Mario Andretti, trois courses après ses débuts en Argentine.
-- La [Lotus 79]({{ site.baseurl }}{% link _voitures/lotus-79.md %}) reprend le principe et le mène au titre en 1978.
-- La lignée s'arrête en 1983, quand le règlement impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat).
+- **1977** : première victoire à Long Beach avec Mario Andretti, trois courses après ses débuts en Argentine{% include src.html n="1" %}.
+- La [Lotus 79]({{ site.baseurl }}{% link _voitures/lotus-79.md %}) reprend le principe et le mène au titre en 1978{% include src.html n="1,2" %}.
+- La lignée s'arrête en 1983, quand le règlement impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat){% include src.html n="1" %}.

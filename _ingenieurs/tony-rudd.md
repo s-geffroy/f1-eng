@@ -35,21 +35,21 @@ redirect_from: "/ingenieurs/2026/10/25/tony-rudd.html"
 ---
 ## Ce qu'il a changé
 
-Tony Rudd est un ingénieur de BRM, puis de Lotus, et, avec Peter Wright, l'un des initiateurs des recherches de BRM sur l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), dont le programme Lotus lancé par Colin Chapman reprend le principe.
+Tony Rudd est un ingénieur de BRM, puis de Lotus, et, avec Peter Wright, l'un des initiateurs des recherches de BRM sur l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), dont le programme Lotus lancé par Colin Chapman reprend le principe{% include src.html n="1,2" %}.
 
 ## BRM
 
-- Apprenti chez Rolls-Royce, il rejoint BRM peu après les débuts désastreux de l'équipe à Silverstone en 1950, et travaille d'abord sur la V16.
-- En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs.
-- Sur la BRM P261, évolution de la P61, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour corriger le manque de rigidité de la P61.
-- En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu.
-- En 1969, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), il suggère que la voiture elle-même produise l'[appui]({{ site.baseurl }}/glossaire/#appui). [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), mais le projet secret de [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) est arrêté en juin 1969.
+- Apprenti chez Rolls-Royce, il rejoint BRM peu après les débuts désastreux de l'équipe à Silverstone en 1950, et travaille d'abord sur la V16{% include src.html n="2" %}.
+- En 1962, BRM remporte les titres pilotes (Graham Hill) et constructeurs{% include src.html n="2" %}.
+- Sur la BRM P261, évolution de la P61, il prolonge les flancs de la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) vers l'arrière, autour du moteur, pour corriger le manque de rigidité de la P61{% include src.html n="3" %}.
+- En 1966, le moteur H16 arrive tard, trop lourd et trop complexe : un échec reconnu{% include src.html n="2,3" %}.
+- En 1969, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), il suggère que la voiture elle-même produise l'[appui]({{ site.baseurl }}/glossaire/#appui){% include src.html n="4" %}. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) en mesure le potentiel en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie), mais le projet secret de [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) est arrêté en juin 1969{% include src.html n="4" %}.
 
 ## Lotus
 
-- Entré chez Group Lotus en 1969, il fait de Lotus Engineering un grand prestataire de recherche pour les constructeurs automobiles.
-- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Wright, rejoints ensuite par [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) pour les suspensions. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du de Havilland Mosquito.
+- Entré chez Group Lotus en 1969, il fait de Lotus Engineering un grand prestataire de recherche pour les constructeurs automobiles{% include src.html n="2,5" %}.
+- En août 1975, [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) remet à Rudd, alors directeur de l'ingénierie, son cahier des charges de voiture-aile{% include src.html n="5" %}. L'équipe réunit [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Wright, rejoints ensuite par [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) pour les suspensions{% include src.html n="5" %}. Rudd se souvient alors de son travail chez Rolls-Royce, et en particulier du montage des radiateurs du de Havilland Mosquito{% include src.html n="5" %}.
 
 ## Pourquoi derrière Wright
 
-Rudd a suggéré en 1969, chez BRM, que la voiture elle-même produise l'appui, puis a dirigé la R&D chez Lotus ; Wright a mené les essais en soufflerie. La contribution directe de Rudd à la solution finale est **plus difficile à isoler** que celle de Wright. La méthode ne crédite pas deux fois la même contribution : Rudd est placé en Tier C, Wright en Tier B.
+Rudd a suggéré en 1969, chez BRM, que la voiture elle-même produise l'appui, puis a dirigé la R&D chez Lotus{% include src.html n="4,5" %} ; Wright a mené les essais en soufflerie{% include src.html n="4,5" %}. La contribution directe de Rudd à la solution finale est **plus difficile à isoler** que celle de Wright. La méthode ne crédite pas deux fois la même contribution : Rudd est placé en Tier C, Wright en Tier B.

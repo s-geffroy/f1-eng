@@ -27,31 +27,31 @@ image: "/assets/partage/en/voitures/lotus-78.jpg"
 ---
 ## What it changed
 
-According to formula1.com, the 1977 Lotus 78 brought F1 into the era of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). Its [sidepods]({{ site.baseurl }}/en/glossary/#pontons) no longer merely housed the radiators: the position and angle of the radiators, and the shape of the fuel tanks alongside them, formed a [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel inside. The car became an [inverted wing]({{ site.baseurl }}/en/glossary/#voiture-aile), with a [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) at the exit of the sidepods.
+According to formula1.com, the 1977 Lotus 78 brought F1 into the era of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol){% include src.html n="1" %}. Its [sidepods]({{ site.baseurl }}/en/glossary/#pontons) no longer merely housed the radiators: the position and angle of the radiators, and the shape of the fuel tanks alongside them, formed a [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel inside{% include src.html n="1" %}. The car became an [inverted wing]({{ site.baseurl }}/en/glossary/#voiture-aile), with a [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) at the exit of the sidepods{% include src.html n="1,2" %}.
 
-To seal this channel, it was presented with brushes, then raced with rigid nylon [skirts]({{ site.baseurl }}/en/glossary/#jupes). The tub was light and stiff, thanks to aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) sandwich panels.
+To seal this channel, it was presented with brushes, then raced with rigid nylon [skirts]({{ site.baseurl }}/en/glossary/#jupes){% include src.html n="1" %}. The tub was light and stiff, thanks to aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) sandwich panels{% include src.html n="2" %}.
 
-According to Doug Nye, the idea for the radiator installation came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the de Havilland Mosquito. According to Peter Wright's account, it was Ralph Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose.
+According to Doug Nye, the idea for the radiator installation came from a memory of Tony Rudd's: at Rolls-Royce he had worked on aero engines, notably on the radiator installation of the de Havilland Mosquito{% include src.html n="2" %}. According to Peter Wright's account, it was Ralph Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose.
 
 ## Who designed it
 
 A team, which Motor Sport describes in detail:
 
-- [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) launched the programme in August 1975 with a 27-page brief, in which he also listed everything he did not know;
-- [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}), director of engineering, led the research unit;
-- [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) designed the car;
-- [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) led the aerodynamics;
-- [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed the suspension and the other "moving parts".
+- [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) launched the programme in August 1975 with a 27-page brief, in which he also listed everything he did not know{% include src.html n="2" %};
+- [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}), director of engineering, led the research unit{% include src.html n="2" %};
+- [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) designed the car{% include src.html n="2" %};
+- [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) led the aerodynamics{% include src.html n="2" %};
+- [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed the suspension and the other "moving parts"{% include src.html n="2" %}.
 
-formula1.com credits the design to Bellamy and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}); this site credits Southgate with a role in development. Ground effect remains a collective achievement.
+formula1.com credits the design to Bellamy and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}){% include src.html n="1" %}; this site credits Southgate with a role in development. Ground effect remains a collective achievement.
 
 ## Limitations
 
-- Before the first race, the team carried out more than 150 studies, 54 rig tests and 400 hours in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Imperial College. Yet at full scale, the aerodynamic figures were 25 to 30% lower than predicted.
-- The centre of pressure was too far forward. A large rear wing was needed to balance the car, hence high drag and a low top speed.
+- Before the first race, the team carried out more than 150 studies, 54 rig tests and 400 hours in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Imperial College{% include src.html n="2" %}. Yet at full scale, the aerodynamic figures were 25 to 30% lower than predicted{% include src.html n="2" %}.
+- The centre of pressure was too far forward{% include src.html n="1" %}. A large rear wing was needed to balance the car, hence high drag and a low top speed{% include src.html n="1" %}.
 
 ## Legacy
 
-- **1977**: first win at Long Beach with Mario Andretti, three races after its debut in Argentina.
-- The [Lotus 79]({{ site.baseurl }}{% link _cars/lotus-79.md %}) took up the principle and carried it to the title in 1978.
-- The line ended in 1983, when the regulations imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat).
+- **1977**: first win at Long Beach with Mario Andretti, three races after its debut in Argentina{% include src.html n="1" %}.
+- The [Lotus 79]({{ site.baseurl }}{% link _cars/lotus-79.md %}) took up the principle and carried it to the title in 1978{% include src.html n="1,2" %}.
+- The line ended in 1983, when the regulations imposed [flat bottoms]({{ site.baseurl }}/en/glossary/#fond-plat){% include src.html n="1" %}.
