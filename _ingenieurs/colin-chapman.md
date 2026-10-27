@@ -19,6 +19,10 @@ portrait:
   licence_url: "https://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_(1965).jpg"
 sources:
+  - titre: "Formula 1, résultats 1965, classement des pilotes"
+    url: "https://www.formula1.com/en/results/1965/drivers"
+  - titre: "Formula 1, résultats 1965, classement des équipes"
+    url: "https://www.formula1.com/en/results/1965/team"
   - titre: "Lotus, « Lotus Story »"
     url: "https://www.lotuscars.com/en/lotus-story"
   - titre: "Lotus, « Lotus Type 25 — The Revolutionary Monocoque »"
@@ -63,7 +67,7 @@ Une philosophie relie ces ruptures : **architecture, légèreté, aéro.**
 
 - Sa première voiture de trial, la Mark I, est construite sur la base d'une Austin Seven de 1928 ; Lotus naît en 1952.
 - Lotus dispute son premier Grand Prix de F1 en 1958. La Lotus 18 de 1960 est la première Lotus à moteur central et la première Lotus victorieuse en championnat du monde.
-- En 1965, Jim Clark remporte le doublé du championnat de F1 sur la Lotus 33 et gagne Indianapolis sur la Lotus 38.
+- En 1965, Jim Clark est champion du monde des pilotes et Lotus remporte le titre constructeurs, avec la Lotus 33 ; Clark gagne aussi Indianapolis sur la Lotus 38.
 - Chapman meurt d'une crise cardiaque le 16 décembre 1982. L'équipe compte alors sept titres constructeurs et six titres pilotes ; elle finira avec 79 victoires en Grand Prix, selon Lotus.
 
 ## Pourquoi le n° 1
