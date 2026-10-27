@@ -45,7 +45,7 @@ Le **Cosworth DFV** ne transforme pas seulement le moteur : il modifie l'écosys
 1. un moteur **compact et performant** ;
 2. utilisé comme **[composant structurel]({{ site.baseurl }}/glossaire/#moteur-porteur)** dans l'architecture de la Lotus 49 : le moteur forme la partie arrière de la voiture ;
 3. **disponible pour de nombreuses équipes** ;
-4. qui n'ont donc plus besoin de développer un moteur propriétaire : il ouvre la porte à des équipes comme celles de Frank Williams et de Ken Tyrrell ;
+4. qui n'ont donc plus besoin de développer un moteur propriétaire (le DFV ouvre ainsi la porte à des équipes comme celles de Frank Williams et de Ken Tyrrell) ;
 5. et peuvent concentrer leurs ressources sur le châssis et l'aérodynamique.
 
 Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne. Le DFV gagne toutes les courses des saisons 1969 et 1973, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, les derniers dans sa version DFY à course courte.
@@ -54,7 +54,7 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 
 - Ancien élève de l'Imperial College, il entre en 1957 chez Lotus comme ingénieur de développement des transmissions, et part au bout de quelques mois.
 - Il fonde Cosworth en 1958 avec [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}), que [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) retient par contrat chez Lotus jusqu'en 1962.
-- Sa reprise du moteur Ford 105E domine la Formule Junior. Conçu en 1966, le quatre cylindres FVA, sa première conception partie d'une feuille blanche selon Motor Sport, gagne dès sa première course de Formule 2, à Snetterton en mars 1967, et domine la catégorie pendant cinq saisons.
+- Sa reprise du moteur Ford 105E domine la Formule Junior. Conçu en 1966, le quatre cylindres FVA, sa première conception partant d'une feuille blanche selon Motor Sport, gagne dès sa première course de Formule 2, à Snetterton en mars 1967, et domine la catégorie pendant cinq saisons.
 - À l'automne 1965, Ford commande à Cosworth deux moteurs de course et finance le développement du V8 à hauteur de 100 000 livres. Le moteur annonce plus de 400ch à 9000tr/min.
 - Il vend Cosworth à UEI en 1980 ; Costin lui succède à la présidence en 1988.
 

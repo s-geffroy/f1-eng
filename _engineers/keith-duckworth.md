@@ -44,7 +44,7 @@ The **Cosworth DFV** did not just transform the engine: it changed the industria
 1. a **compact, powerful** engine;
 2. used as a **[structural component]({{ site.baseurl }}/en/glossary/#moteur-porteur)** in the architecture of the Lotus 49: the engine forms the rear part of the car;
 3. **available to many teams**;
-4. which therefore no longer need to develop an engine of their own: it opened the door to teams such as those of Frank Williams and Ken Tyrrell;
+4. which therefore no longer need to develop an engine of their own (the DFV thus opened the door to teams such as those of Frank Williams and Ken Tyrrell);
 5. and can concentrate their resources on chassis and aerodynamics.
 
 For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won. The DFV won every race of the 1969 and 1973 seasons, and took **155 world championship Grands Prix** up to 1983, the last of them in its short-stroke DFY version.

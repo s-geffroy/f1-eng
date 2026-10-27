@@ -37,7 +37,7 @@ Gustav Brunner, ingénieur mécanicien autrichien de Graz, a travaillé pour au 
 
 - **Débuts.** Concepteur débutant chez McNamara, constructeur de Formule Vee et de F3, il est engagé en 1978 par l'équipe ATS de Günther Schmid. Entre deux passages chez ATS, il dessine des F2 pour Willi Maurer ; Schmid le rappelle ensuite pour concevoir une ATS à moteur BMW pour Manfred Winkelhock.
 - **RAM.** En 1985, il rejoint l'équipe RAM à moteur Hart.
-- **Ferrari, première période.** Il est engagé pour diriger l'équipe de conception de la **F187**, avec laquelle Gerhard Berger gagne les Grands Prix du Japon et d'Australie 1987. L'arrivée de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) affaiblit ensuite sa position ; en 1988, il dessine une Indycar qui ne roulera pas.
+- **Ferrari, première période.** Il est engagé pour diriger l'équipe de conception de la **F187**, avec laquelle Gerhard Berger gagne les Grands Prix du Japon et d'Australie 1987. L'arrivée de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) affaiblit ensuite sa position ; en 1988, il dessine une IndyCar qui ne roulera pas.
 - **Rial, Zakspeed.** Il dessine la Rial de Schmid en 1988, puis la Zakspeed 891 à moteur Yamaha en 1989 ; GrandPrix.com juge le moteur « désastreux ».
 - **Leyton House.** Il travaille en 1990 sous [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), devient ingénieur en chef après l'éviction de Newey, puis directeur technique.
 - **Minardi et Ferrari.** Entré chez Minardi pour 1993, il est repris par Ferrari au bout d'une demi-saison et y reste cinq saisons, selon GrandPrix.com. Craig Scarborough, dans Atlas F1, le dit engagé en 1993 comme chef designer sous la direction d'[Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), René Hilhorst étant chargé de l'aérodynamique. Il revient chez Minardi comme directeur technique.
@@ -51,4 +51,4 @@ Gustav Brunner, ingénieur mécanicien autrichien de Graz, a travaillé pour au 
 
 - **Le titre chez Toyota.** L'annonce de Toyota reprise par Crash.net en fait le chef designer, chargé de « diriger notre équipe de conception » ; Autosport et Reuters parlent de directeur technique, successeur d'André de Cortanze selon Autosport. Atlas F1, en 2003, et Autosport, en 2006, parlent à nouveau de chef designer.
 - **Les dates.** GrandPrix.com place sa première arrivée chez Ferrari en 1985 ou 1986. Son retour à Maranello est daté de la fin de 1993 par Crash.net, d'une demi-saison après son arrivée chez Minardi en 1993 par GrandPrix.com, et de la fin de 1994 par Atlas F1. Son retour chez Minardi est daté de février 1998 par GrandPrix.com, de 1999 par Atlas F1.
-- **La liste des équipes.** Autosport et Crash.net citent aussi Alfa Romeo, Crash.net Arrows ; GrandPrix.com ne les mentionne pas.
+- **La liste des équipes.** Autosport et Crash.net citent aussi Alfa Romeo, et Crash.net cite Arrows ; GrandPrix.com ne les mentionne pas.

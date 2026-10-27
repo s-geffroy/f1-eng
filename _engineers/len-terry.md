@@ -25,7 +25,7 @@ Len Terry was a British designer, associated above all with Lotus and Eagle. He 
 
 - **Lotus, first spell.** The chassis of his Terrier Mk1, built for himself, impressed [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}); Terry joined Lotus in 1958 as a draughtsman and became chief draughtsman within two months. There he turned Chapman's ideas into reality, notably on the Lotus 15 and 17.
 - **Gilby.** Fired by Chapman, partly, according to Autosport, because of his Terrier Mk2, which beat the Lotuses in the 1172cc category, he designed his first F1 car for the small Gilby team, raced in 1961 and 1962.
-- **Lotus, second spell (1962-1965).** Back in September 1962, he worked on the Lotus 29 for Indianapolis, then, under Chapman's direction, on the 33, derived from the 25, with which Clark was world champion in 1965.
+- **Lotus, second spell (1962-1965).** Back in September 1962, he worked on the Lotus 29 for Indianapolis, then, under Chapman's direction, on the 33, derived from the 25; it was with the 33 that Clark was world champion in 1965.
 - **Eagle.** For All American Racers, he designed the Eagle, intended for both F1 and Indycar. With the Eagle-Weslake, Gurney won the 1967 Belgian Grand Prix at Spa; Motor Sport, Autosport and Classic Team Lotus count it among the most beautiful F1 cars ever.
 - **BRM.** He rapidly drew the BRM P126, then, in 1977, the P207, the team's last and uncompetitive F1 car.
 - **Outside F1.** He was also responsible for a Can-Am chassis for Shelby, John Wyer's Mirage-BRM, the Surtees F5000 car and the BMW 269 F2 car.

@@ -60,7 +60,7 @@ Ce changement modifie simultanément la répartition des masses, le [moment pola
 
 John Cooper reçoit le crédit d'**architecte entrepreneurial et technique** du basculement. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960.
 
-La formulation juste : **Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
+La formulation juste : **Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 
 ## Verdict
 

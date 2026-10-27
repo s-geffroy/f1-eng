@@ -39,7 +39,7 @@ La place élevée de Peter Wright dans ce classement corrige une attribution : c
 1. **BRM.** Wright y commence sa propre « [voiture-aile]({{ site.baseurl }}/glossaire/#voiture-aile) », idée qui évoluera jusqu'à la Lotus 78. En 1969, Rudd, hostile aux [ailerons]({{ site.baseurl }}/glossaire/#aileron), suggère que la carrosserie produise elle-même l'[appui]({{ site.baseurl }}/glossaire/#appui) ; Wright mesure en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à l'Imperial College des niveaux d'appui inédits, mais le projet est arrêté en juin 1969.
 2. **March.** Chez Specialised Mouldings, il conçoit les pontons à profil d'aile de la March 701.
 3. **Lotus.** En août 1975, Chapman remet son cahier des charges de voiture-aile à Rudd. Wright mène les essais en soufflerie à l'Imperial College ; la première Lotus 78 roule en essais privés dans la seconde moitié de 1976.
-4. **Lotus 78 puis 79**, et diffusion du principe à tout le plateau.
+4. **Lotus 78 puis 79.** Le principe se diffuse ensuite à tout le plateau.
 
 ## Après l'effet de sol
 
@@ -50,7 +50,7 @@ La place élevée de Peter Wright dans ce classement corrige une attribution : c
 
 ## Attribution
 
-La contribution reste collective. formula1.com crédite la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; les autres sources ouvertes répartissent les rôles ainsi : Bellamy dessine la voiture et le châssis, [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions, Wright l'aérodynamique, et Southgate participe au développement.
+La contribution reste collective. formula1.com attribue la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ; les autres sources ouvertes répartissent les rôles ainsi : Bellamy dessine la voiture et le châssis, [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions, Wright l'aérodynamique, et Southgate participe au développement.
 
 ## Pourquoi le Tier B
 

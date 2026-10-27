@@ -96,4 +96,4 @@ Il reste derrière [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-c
 
 ## Verdict
 
-Selon la méthode du site, le principal challenger de Chapman, et le révolutionnaire dont la paternité personnelle est la plus nette.
+Selon la méthode du site, le principal rival de Chapman, et le révolutionnaire dont la paternité personnelle est la plus nette.

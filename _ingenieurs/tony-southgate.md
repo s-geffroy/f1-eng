@@ -42,4 +42,4 @@ Tony Southgate est un concepteur de F1 prolifique des années 1970, de BRM à Ar
 
 ## La Lotus 78 : rétablir les rôles
 
-formula1.com crédite la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Tony Southgate. GrandPrix.com le place plutôt au développement de la 78, aux côtés de Peter Wright ; selon Motor Sport, Bellamy dessine la voiture et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions. Le site retient cette répartition.
+formula1.com attribue la conception de la Lotus 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et Tony Southgate. GrandPrix.com le place plutôt au développement de la 78, aux côtés de Peter Wright ; selon Motor Sport, Bellamy dessine la voiture et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) les suspensions. Le site retient cette répartition.

@@ -38,7 +38,7 @@ Peter Wright's high placing in this ranking corrects an attribution: that of [gr
 1. **BRM.** Wright began his own "[wing car]({{ site.baseurl }}/en/glossary/#voiture-aile)" there, an idea that would evolve into the Lotus 78. In 1969, Rudd, who was hostile to [wings]({{ site.baseurl }}/en/glossary/#aileron), suggested that the bodywork itself should produce the [downforce]({{ site.baseurl }}/en/glossary/#appui); Wright measured unprecedented downforce levels in the [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie) at Imperial College, but the project was stopped in June 1969.
 2. **March.** At Specialised Mouldings, he designed the wing-section sidepods of the March 701.
 3. **Lotus.** In August 1975, Chapman handed his wing car brief to Rudd. Wright ran the wind tunnel tests at Imperial College; the first Lotus 78 was running in private testing in the second half of 1976.
-4. **Lotus 78, then 79**, and the spread of the principle to the whole grid.
+4. **Lotus 78, then 79.** The principle then spread to the whole grid.
 
 ## After ground effect
 

@@ -37,7 +37,7 @@ John Crosthwaite conçoit, pour l'essentiel, la voiture de Mickey Thompson, à [
 ## Indianapolis 1962
 
 - **Le projet.** Selon Motor Sport, Thompson finance sa tentative grâce à la société Harvey Aluminum et obtient de GM son nouveau V8 à bloc en aluminium. La voiture est « conçue en grande partie » par Crosthwaite, un Anglais expatrié ; celle de Gurney est la seule des voitures de Thompson à se qualifier.
-- **La course.** Selon les résultats officiels de l'Indianapolis Motor Speedway, la voiture, engagée sous le nom « Thompson Harvey Aluminum » avec un châssis Thompson et un moteur Buick, part en huitième position et abandonne au 92e tour sur une casse du pont arrière : Gurney est classé vingtième. Motor Sport écrit qu'elle tient jusqu'à mi-course avant que le différentiel ne casse. Gurney la défend : « Je défendrai cette voiture de 1962. »
+- **La course.** Selon les résultats officiels de l'Indianapolis Motor Speedway, la voiture, engagée sous le nom « Thompson Harvey Aluminum » avec un châssis Thompson et un moteur Buick, part en huitième position et abandonne au 92e tour sur une casse du pont arrière : Gurney est classé vingtième. Motor Sport écrit qu'elle tient jusqu'à mi-course avant que le différentiel ne casse. Gurney prend son parti : « Je défendrai cette voiture de 1962. »
 
 ## Ce que l'on sait de son parcours
 

@@ -32,7 +32,7 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 - Né à Munich en 1934, il entre chez BMW en 1957, directement après ses études ; il y reste jusqu'en 1999 (BMW).
 - Le calcul des arbres à cames est son domaine de prédilection, d'où son surnom de « Nocken-Paule » (BMW).
 - En 1969, il conçoit le moteur turbo de 2 litres avec lequel BMW gagne le championnat d'Europe des voitures de tourisme (BMW).
-- En 1975, il rejoint BMW Motorsport GmbH pour diriger la conception des moteurs de la BMW M1 ; il en est directeur technique de 1979 à 1996 (BMW, 2014).
+- En 1975, il rejoint BMW Motorsport GmbH pour diriger la conception des moteurs de la BMW M1 ; il est directeur technique de BMW Motorsport de 1979 à 1996 (BMW, 2014).
 
 ## Le moteur turbo de Brabham
 
@@ -44,7 +44,7 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 - En 1983, quand Renault fige la spécification de son moteur, Rosche poursuit son développement et tire toujours plus de puissance du quatre-cylindres (Motor Sport, 2009).
 - La puissance exacte reste inconnue : selon Rosche, « autour de 1400ch », le banc ne mesurant pas au-delà de 1280ch (BMW). Motor Sport parle de plus de 1400ch en configuration de qualification en 1983.
 - Après le titre, la rumeur d'un carburant illégal circule ; le rapport de la FISA conclut à sa conformité, et Rosche a toujours nié toute tricherie (Motor Sport, 2009).
-- Selon BMW, quand BMW se retire de la F1 en 1987, le moteur totalise neuf victoires en Grand Prix.
+- Selon BMW, quand la marque se retire de la F1 en 1987, le moteur totalise neuf victoires en Grand Prix.
 
 ## Le retour en F1
 
@@ -54,7 +54,7 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 
 ## Autres moteurs
 
-Selon BMW, sont aussi sortis de son service le quatre-cylindres de 2 litres à quatre soupapes par cylindre de Formule 2 (plus de 150 victoires, six titres européens) et le V12 de 6 litres vainqueur au Mans en 1995 et 1999 ; le moteur de la première BMW M3 est développé sous sa direction. Il meurt à Munich en novembre 2016, à 82 ans.
+Selon BMW, sont aussi sortis de son service le quatre-cylindres de Formule 2, de 2 litres à quatre soupapes par cylindre (plus de 150 victoires, six titres européens) et le V12 de 6 litres vainqueur au Mans en 1995 et 1999 ; le moteur de la première BMW M3 est développé sous sa direction. Il meurt à Munich en novembre 2016, à 82 ans.
 
 ## Attribution
 

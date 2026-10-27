@@ -40,7 +40,7 @@ Mike Costin is **a co-founder of Cosworth**. His main role, according to Motor S
 - He worked with [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) from January 1953, then full-time at **Lotus** from January 1955. There he became Chapman's deputy and the company's technical director.
 - **Cosworth Engineering** was registered on 30 September 1958. Costin only joined it full-time in August 1962, when his contract with Lotus expired.
 - Before the DFV, Cosworth produced the **FVA**; a 1500cc version, the **FVB**, was used to validate the DFV's bore and stroke.
-- The first **DFV** was delivered in April 1967, and the first person to drive it was Mike Costin.
+- The first **DFV** was delivered in April 1967, and the first person to drive a car fitted with it was Mike Costin.
 - In 1969 he tested Cosworth's four-wheel-drive F1 car at Silverstone, finding it heavy and exhausting to drive; it never raced.
 - He succeeded Duckworth as chairman of Cosworth in 1988, and retired in 1990.
 

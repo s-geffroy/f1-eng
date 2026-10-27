@@ -28,9 +28,9 @@ Maurice Philippe est le chef designer de Team Lotus à la fin des années 1960. 
 ## Parcours technique
 
 - **De Havilland.** Il est dessinateur chez de Havilland au début des années 1950 ; Motor Sport y voit l'origine de ses connaissances.
-- **Lotus.** Il participe à la conception des Lotus 49 et 72, et de nombreux autres projets de Chapman : la 43, la 56 à turbine d'Indianapolis, la 63 à quatre roues motrices, la 64.
+- **Lotus.** Il participe à la conception des Lotus 49 et 72, et à de nombreux autres projets de Chapman : la 43, la 56 à turbine d'Indianapolis, la 63 à quatre roues motrices, la 64.
 - **Vel's Parnelli Jones (à partir de 1971).** À l'automne 1971, il quitte Lotus pour cette équipe américaine d'USAC ; Martin Waide lui succède chez Team Lotus. Sa première voiture apporte le titre USAC 1972 à Joe Leonard. Ses ailerons latéraux en dièdre font sensation, mais ne courent jamais : ils sont retirés dès les premiers essais. Selon Motor Sport, il revient aux Grands Prix trois ans plus tard, puis quitte l'équipe américaine pour travailler en indépendant.
-- **Tyrrell (à partir de 1977).** Au milieu de 1977, [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) l'engage pour installer le V6 turbo Renault dans la Tyrrell à six roues ; le projet n'aboutit pas. Après le départ de Gardner, selon Andrew Frankel, il élargit la voie avant de la P34 et avance ses radiateurs d'huile, sans succès ; Gardner, chez Nigel Roebuck, dit avoir lui-même conçu en hâte une voie avant élargie. Ken Tyrrell lui confie ensuite la remplaçante de la P34, début d'une collaboration de dix ans.
+- **Tyrrell (à partir de 1977).** Au milieu de 1977, [Derek Gardner]({{ site.baseurl }}{% link _ingenieurs/derek-gardner.md %}) l'engage pour installer le V6 turbo Renault dans la Tyrrell à six roues ; le projet n'aboutit pas. Après le départ de Gardner, selon Andrew Frankel, il élargit la voie avant de la P34 et avance ses radiateurs d'huile, sans succès ; Gardner, cité par Nigel Roebuck, dit avoir lui-même conçu en hâte une voie avant élargie. Ken Tyrrell lui confie ensuite la remplaçante de la P34, début d'une collaboration de dix ans.
 - **Fin de carrière.** Au moment de sa mort, le 5 juin 1989, il travaille sur le projet March-Alfa Romeo d'IndyCar.
 
 ## La Lotus 72
@@ -42,5 +42,5 @@ Maurice Philippe est le chef designer de Team Lotus à la fin des années 1960. 
 
 ## Divergences entre sources
 
-- **Qui a conçu la 72 ?** Mike Pilbeam, membre de l'équipe de conception avec Philippe et Geoff Ferris, raconte que Chapman s'est isolé deux semaines et leur a remis des plans au quart à « faire marcher » : selon lui, Philippe a « sans aucun doute » contribué, mais la plupart des idées venaient de Chapman. En 1972, Motor Sport relève que Lotus présente désormais Philippe comme le simple dessinateur de la 72 ; Philippe maintient qu'elle est, comme les précédentes, un projet commun avec Chapman. Le site retient le co-crédit, sans trancher la part de chacun.
+- **Qui a conçu la 72 ?** Mike Pilbeam, membre de l'équipe de conception avec Philippe et Geoff Ferris, raconte que Chapman s'est isolé deux semaines et leur a remis des plans à l'échelle 1/4 à « faire marcher » : selon lui, Philippe a « sans aucun doute » contribué, mais la plupart des idées venaient de Chapman. En 1972, Motor Sport relève que Lotus présente désormais Philippe comme le simple dessinateur de la 72 ; Philippe maintient qu'elle est, comme les précédentes, un projet commun avec Chapman. Le site retient le co-crédit, sans trancher la part de chacun.
 - **L'orthographe.** Les sources écrivent tantôt Philippe, tantôt Phillippe.

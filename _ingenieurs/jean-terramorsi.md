@@ -21,7 +21,7 @@ image: "/assets/partage/jean-terramorsi.jpg"
 
 Jean Terramorsi est un **dirigeant**, non un concepteur : directeur de Gordini, il est l'homme qui engage Renault dans la voie du turbo.
 
-- GrandPrix.com lui attribue l'idée de suralimenter les moteurs de course modernes. Motor Sport raconte plutôt que ce sont les essais de [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) qui l'ont convaincu : il en fait le décideur plus que l'inventeur.
+- GrandPrix.com lui attribue l'idée de suralimenter les moteurs de course modernes. Motor Sport raconte plutôt que ce sont les essais de [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) qui l'ont convaincu : le magazine en fait le décideur plus que l'inventeur.
 - En 1973, il fait venir Dudot d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur).
 - Selon Motor Sport, si Alpine-Renault a pu monter de catégorie, c'est grâce à la clairvoyance de ce chef d'équipe haut en couleur et à la vigueur du jeune Dudot.
 - Fin 1975, il doit quitter ses fonctions pour raison de santé.

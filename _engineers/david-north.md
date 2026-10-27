@@ -53,7 +53,7 @@ David North is a British engineer from an aerospace background who spent most of
 
 The 1988 Honda V6 had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}).
 
-In 2021, Murray gave Motor Sport his own division of labour: he says he put Nichols in charge of the monocoque and the front end, while he and North did the rear end, the aerodynamics and the new dry-sump three-shaft gearbox, with Weismann. This is Murray's version, in an authorship that Nichols disputes; this site reports it without settling the matter.
+In 2021, Murray gave Motor Sport his own division of labour: he says he put Nichols in charge of the monocoque and the front end, while he and North did the rear end, the aerodynamics and the new dry-sump three-shaft gearbox, with Weismann. This is Murray's version, and Nichols disputes his claim to the car's authorship; this site reports that version without settling the matter.
 
 The gearbox remains Murray's project: Autosport writes that nobody disputes it. North was one of its designers, not the author of the concept.
 

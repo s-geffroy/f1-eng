@@ -40,7 +40,7 @@ Patrick Head est l'architecte de l'organisation technique Williams. Diplômé en
 
 Head cesse ensuite de dessiner lui-même les voitures et crée le poste de **directeur technique**, chargé de coordonner toutes les disciplines : conception, construction, course et essais. C'est cette organisation qui fait sa marque.
 
-Après l'arrivée d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) en 1990, le binôme Head–Newey domine : de 1991 à 1997, Williams remporte 59 courses, cinq titres constructeurs et quatre titres pilotes. La FW15C de 1993 est conçue sous leur codirection technique.
+Après l'arrivée d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) en 1990, le binôme Head-Newey domine : de 1991 à 1997, Williams remporte 59 courses, cinq titres constructeurs et quatre titres pilotes. La FW15C de 1993 est conçue sous leur codirection technique.
 
 Selon GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}) doit devenir directeur technique et Head directeur de l'ingénierie (2004). Head quitte le conseil d'administration de Williams le 31 décembre 2011.
 

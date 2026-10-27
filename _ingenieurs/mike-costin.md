@@ -41,12 +41,12 @@ Mike Costin est **cofondateur de Cosworth**. Son rôle principal, selon Motor Sp
 - Il travaille avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) à partir de janvier 1953, puis à plein temps chez **Lotus** à partir de janvier 1955. Il y devient l'adjoint de Chapman et le directeur technique de l'entreprise.
 - **Cosworth Engineering** est immatriculée le 30 septembre 1958. Costin ne la rejoint à plein temps qu'en août 1962, à l'expiration de son contrat avec Lotus.
 - Avant le DFV, Cosworth produit le **FVA** ; une version de 1500cm³, le **FVB**, sert à valider l'alésage et la course du DFV.
-- Le premier **DFV** est livré en avril 1967, et le premier à le piloter est Mike Costin.
+- Le premier **DFV** est livré en avril 1967, et le premier à piloter une voiture qui en est équipée est Mike Costin.
 - En 1969, il essaie à Silverstone la F1 à quatre roues motrices de Cosworth, qu'il juge lourde et épuisante à piloter ; elle ne courra jamais.
 - Il succède à Duckworth à la présidence de Cosworth en 1988, et prend sa retraite en 1990.
 
 ## Pourquoi derrière Duckworth
 
-Sa paternité technique du DFV est **moins directement individualisable** que celle de Keith Duckworth, figure technique centrale du projet. Son rôle est celui de l'industrialisation : faire d'un dessin un moteur fiable et produit.
+Sa paternité technique du DFV est **moins directement individualisable** que celle de Keith Duckworth, figure technique centrale du projet. Son rôle est celui de l'industrialisation : faire d'un dessin un moteur fiable et fabricable.
 
 La formulation juste : **le DFV est une réalisation Cosworth, avec Keith Duckworth comme figure technique centrale et Mike Costin comme cofondateur et acteur majeur.**

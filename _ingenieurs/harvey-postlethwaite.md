@@ -39,4 +39,4 @@ Harvey Postlethwaite conçoit des F1 des années 1970 à 1990, de Hesketh à Tyr
 
 ## Divergences entre sources
 
-La date de son départ de Ferrari, au moment de l'arrivée de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), varie : l'été 1987 selon la fiche Postlethwaite de GrandPrix.com, 1988 selon sa fiche Migeot ; Motor Sport date son arrivée chez Tyrrell de l'été 1988. En 1990, Motor Sport le présente comme directeur de l'ingénierie de Tyrrell.
+La date de son départ de Ferrari, au moment de l'arrivée de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), varie : l'été 1987 selon la fiche Postlethwaite de GrandPrix.com, 1988 selon la fiche Migeot du même site ; Motor Sport date son arrivée chez Tyrrell de l'été 1988. En 1990, Motor Sport le présente comme directeur de l'ingénierie de Tyrrell.

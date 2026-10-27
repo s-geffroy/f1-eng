@@ -32,7 +32,7 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 - Born in Munich in 1934, he joined BMW in 1957, straight after completing his degree, and stayed until 1999 (BMW).
 - Camshaft calculations were his favourite area, hence his nickname "Nocken-Paule" (BMW).
 - In 1969, he designed the 2-litre turbo engine with which BMW won the European Touring Car Championship (BMW).
-- In 1975, he joined BMW Motorsport GmbH to head the design of the BMW M1 engines; he was its technical director from 1979 to 1996 (BMW, 2014).
+- In 1975, he joined BMW Motorsport GmbH to head the design of the BMW M1 engines; he was technical director of BMW Motorsport from 1979 to 1996 (BMW, 2014).
 
 ## The Brabham turbo engine
 

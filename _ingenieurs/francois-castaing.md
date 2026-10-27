@@ -35,7 +35,7 @@ François Castaing est, avec Jean-Pierre Boudy, l'ingénieur du **V6 dont dériv
 - En 1968, encore étudiant, il entre chez Gordini ; son premier travail porte sur les moteurs du Mans.
 - En 1972, avec [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}), il conçoit un V6 de 2 litres ouvert à 90°. Ce V6 CH1, de 270ch, équipe la barquette Alpine de 1973 ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault.
 - Directeur technique de Renault Sport, il soutient le programme d'endurance qui mène à la victoire au Mans en 1978.
-- Il est le moteur du programme F1 jusqu'à la première victoire, au Grand Prix de France 1979, puis quitte Renault Sport pendant l'intersaison 1979-1980 ; [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) lui succède.
+- Il est la cheville ouvrière du programme F1 jusqu'à la première victoire, au Grand Prix de France 1979, puis quitte Renault Sport pendant l'intersaison 1979-1980 ; [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) lui succède.
 - Après Renault, il passe chez AMC puis chez Chrysler, dont il dirige la conception à partir de 1988.
 
 ## Attribution

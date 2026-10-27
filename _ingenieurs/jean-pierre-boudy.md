@@ -58,7 +58,7 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot. Avec [Fr
 - Il conçoit le V10 de la Peugeot 905, victorieuse au Mans en 1992 et 1993, puis le V10 de F1 de Peugeot, utilisé par McLaren en 1994 (GrandPrix.com).
 - Pour ce V10 de F1, il part d'une feuille blanche ; le moteur prévoit dès le départ le rappel pneumatique des soupapes (GrandPrix.com, « Peugeot's F1 plans »).
 - Au début des années 1990, il succède à André de Cortanze comme directeur technique de Peugeot Sport (GrandPrix.com, 2001). En juillet 1995, il occupe toujours ce poste (GrandPrix.com).
-- En octobre 1995, Peugeot fournit Jordan, et les casses mécaniques ont privé l'équipe de plusieurs bons résultats ; Boudy, à la tête de Peugeot Sport, crée un poste de liaison technique entre Jordan et Peugeot (GrandPrix.com, « Changes at Peugeot Sport »).
+- En octobre 1995, Peugeot motorise Jordan, que les casses mécaniques ont privée de plusieurs bons résultats ; Boudy, à la tête de Peugeot Sport, crée un poste de liaison technique entre Jordan et Peugeot (GrandPrix.com, « Changes at Peugeot Sport »).
 - OldRacingCars le crédite des moteurs de F1 Peugeot de 1994 à 2000.
 - En février 2001, après la reprise de l'ancien Peugeot Sport par Asiatech, il quitte l'entreprise ; GrandPrix.com juge ce départ peu surprenant, ses moteurs n'ayant pas brillé les dernières années. Enrique Scalabroni, ingénieur châssis, prend la direction technique.
 
@@ -75,4 +75,4 @@ Pour le rappel pneumatique, une seule source, GrandPrix.com, nomme Boudy comme a
 
 ## Limites des sources
 
-Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot ; aucun long entretien avec lui n'a été trouvé, seulement quelques déclarations rapportées par Joe Saward lors du lancement du V10 Peugeot, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.
+Boudy est surtout documenté par une fiche biographique, par des brèves de GrandPrix.com et par des mentions dans des articles consacrés à Renault et à Peugeot. Aucun long entretien avec lui n'a été trouvé, seulement quelques déclarations rapportées par Joe Saward lors du lancement du V10 Peugeot, et les sources ne détaillent pas les moteurs de F1 Peugeot postérieurs à 1994. Le site s'en tient à ces faits.

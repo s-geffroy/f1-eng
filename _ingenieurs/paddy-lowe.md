@@ -37,14 +37,14 @@ redirect_from: "/ingenieurs/2026/10/25/paddy-lowe.html"
 ---
 ## Ce qu'il a changé
 
-Paddy Lowe est un ingénieur systèmes et électronique de premier plan. Il entre chez Williams à l'automne 1987 comme co-responsable de l'électronique.
+Paddy Lowe est un ingénieur systèmes et électronique de premier plan. Il entre chez Williams à l'automne 1987 comme coresponsable de l'électronique.
 
 - **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active).** formula1.com le crédite d'avoir écrit et développé l'essentiel du logiciel qui fait fonctionner la suspension active Williams. Motor Sport le présente comme le chef de projet de la suspension active. Le système mène Nigel Mansell au titre de 1992 sur la FW14B.
 - **L'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage).** Selon Lowe lui-même, l'équipe a aussi mis au point l'antipatinage, qui valait une seconde au tour.
 
 ## Parcours technique
 
-- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011. Il participe à trois titres pilotes et un titre constructeurs.
+- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011. Il participe à trois titres pilotes et à un titre constructeurs.
 - **Mercedes**, à partir de juin 2013 : directeur exécutif technique, au début de la domination de l'équipe à l'ère turbo-hybride.
 - **Williams**, de nouveau en 2017, comme directeur technique général chargé de toute l'ingénierie. Il quitte l'équipe en juin 2019.
 

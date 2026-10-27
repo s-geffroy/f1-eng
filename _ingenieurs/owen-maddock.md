@@ -40,14 +40,14 @@ La présence d'Owen Maddock corrige le récit simplifié « Cooper = John Cooper
 
 - Il entre chez Cooper en avril 1948, comme ajusteur et dessinateur.
 - Il est l'homme du châssis à **[tubes courbes]({{ site.baseurl }}/glossaire/#chassis-tubulaire)**, apparu sur la Mk VIII puis étendu à la gamme. Longtemps moqué, ce châssis s'impose en 1958, quand Stirling Moss gagne en Argentine : c'est la première victoire en Grand Prix de championnat d'une voiture à moteur central.
-- Pour la **T53** de 1960, il impose un cadre à quatre tubes courbes, contre l'avis de Jack Brabham qui voulait des tubes droits ; le gain annoncé est de 25 % en rigidité en torsion.
+- Pour la **T53** de 1960, il impose un cadre à quatre tubes courbes, contre l'avis de Jack Brabham qui voulait des tubes droits ; le gain annoncé est de 25 % de rigidité en torsion.
 - Il conçoit la boîte-pont **Cooper-Knight C5S** à cinq rapports, apparue sur la T53.
 - Selon son adjoint au bureau d'études, il détaillait l'ensemble du châssis, certains réglages restant exploratoires.
 - Il quitte Cooper en 1963 pour les aéroglisseurs de course et fonde le Hover Club of Great Britain.
 
 ## Attribution
 
-[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) reçoit le crédit d'architecte entrepreneurial et technique du basculement vers le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Selon Motor Sport, l'impulsion de la T53 vient de Brabham et de John Cooper, et la voiture est construite en six semaines. Maddock en est le chef designer. GrandPrix.com lui attribue les Cooper de Formule 3, de Formule 2 et de Formule 1 dessinées entre 1954 et 1963, mais aucune source consultée ne lui attribue nommément la conception entière de la T51 : le site s'en tient donc à « chef designer pendant les titres ».
+[John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %}) est crédité, comme entrepreneur et architecte technique, du basculement vers le [moteur arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere). Selon Motor Sport, l'impulsion de la T53 vient de Brabham et de John Cooper, et la voiture est construite en six semaines. Maddock en est le chef designer. GrandPrix.com lui attribue les Cooper de Formule 3, de Formule 2 et de Formule 1 dessinées entre 1954 et 1963, mais aucune source consultée ne lui attribue nommément la conception entière de la T51 : le site s'en tient donc à « chef designer pendant les titres ».
 
 La formulation juste : **Cooper a imposé l'architecture moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 

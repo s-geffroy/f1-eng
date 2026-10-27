@@ -29,11 +29,11 @@ image: "/assets/partage/geoff-aldridge.jpg"
 ---
 ## Ce qu'il a fait
 
-Geoff Aldridge est un dessinateur de châssis de Team Lotus, de la Lotus 76 à la Lotus 80 de 1979 ; OldRacingCars le situe chez Lotus de 1976 à 1979. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}), la voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978.
+Geoff Aldridge est un dessinateur de châssis de Team Lotus, de la Lotus 76 à la Lotus 80 de 1979 ; OldRacingCars le situe chez Lotus de 1976 à 1979. Sur la **Lotus 79**, Motor Sport écrit que lui et [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) sont chargés de transformer en métal le schéma de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) pour cette voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) de 1978.
 
 ## Parcours chez Lotus
 
-- Né le 27 avril 1949 à Norwich, selon OldRacingCars.com, qui le décrit comme surtout occupé du dessin des châssis, au sein du groupe d'ingénieurs de Lotus avec Chapman, [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) et Ogilvie, sur les Lotus 77 et 79.
+- Né le 27 avril 1949 à Norwich, selon OldRacingCars.com, qui le décrit comme surtout occupé au dessin des châssis, au sein du groupe d'ingénieurs de Lotus avec Chapman, [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) et Ogilvie, sur les Lotus 77 et 79.
 - **Lotus 76** : selon Gary Watkins, dans Motor Sport, il dessine le châssis de la 76 sous la direction de [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}). Il se souvient que Chapman voulait la voiture plus légère de 100 livres (45kg) : « C'était sa manière de donner aux gens des objectifs qu'ils ne pouvaient pas atteindre. » Il pense, comme Bellamy, que la voiture a souffert de la politique interne : « Elle n'a probablement pas eu sa chance. »
 - **Lotus 77 (1976)** : à sa présentation, en octobre 1975, Motor Sport écrit que la voiture, conçue par Chapman, est dessinée en détail par Aldridge et Ogilvie. Selon OldRacingCars.com, l'équipe se compose d'Aldridge, dessinateur du châssis, d'Ogilvie pour les suspensions et les freins, et de Mike Cooke comme superviseur technique.
 - **Lotus 79 (1978)** : il la dessine avec Ogilvie à partir de l'esquisse de Chapman.

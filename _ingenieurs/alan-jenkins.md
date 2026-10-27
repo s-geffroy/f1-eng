@@ -29,7 +29,7 @@ Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieu
 
 ## Parcours technique
 
-- **McLaren.** Recruté en 1979 par Project 4, il devient le bras droit de Barnard quand Project 4 reprend McLaren, et reste son adjoint jusqu'en 1984. Il est là aux débuts de la MP4/1, quand [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) les rejoint. Ingénieur de course de John Watson, il est de sa victoire à Long Beach en 1983, partie de la 22e place.
+- **McLaren.** Recruté en 1979 par Project 4, il devient le bras droit de Barnard quand Project 4 reprend McLaren, et reste son adjoint jusqu'en 1984. Il est là aux débuts de la MP4/1, quand [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) rejoint l'équipe. Ingénieur de course de John Watson, il participe à sa victoire à Long Beach en 1983, partie de la 22e place.
 - **Penske.** Il conçoit les PC15 et PC16 d'IndyCar, sophistiquées mais peu victorieuses.
 - **Onyx.** Il conçoit l'ORE-1, première F1 de l'équipe, en 1989.
 - **Footwork.** Directeur technique, il conçoit la FA12 à moteur Porsche.
