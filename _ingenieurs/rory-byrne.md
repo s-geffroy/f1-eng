@@ -47,17 +47,17 @@ redirect_from: "/ingenieurs/2026/10/25/rory-byrne.html"
 ---
 ## Ce qu'il a changé
 
-Rory Byrne a mené le dessin des **sept voitures championnes du monde de Michael Schumacher**, chez Benetton et chez Ferrari, au sein d'équipes techniques dirigées par Ross Brawn. Sa force est l'[intégration du châssis]({{ site.baseurl }}/glossaire/#chassis) et de l'aérodynamique, répétée sur deux décennies.
+Rory Byrne a mené le dessin des **sept voitures championnes du monde de Michael Schumacher**, chez Benetton et chez Ferrari, au sein d'équipes techniques dirigées par Ross Brawn{% include src.html n="2,3,8,9" %}. Sa force est l'[intégration du châssis]({{ site.baseurl }}/glossaire/#chassis) et de l'aérodynamique, répétée sur deux décennies.
 
 ## Parcours technique
 
-- **Toleman.** Avec le dessinateur-projeteur [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), il conçoit la TG280, qui domine la Formule 2 européenne. Sa TG184 de 1984, que pilote Ayrton Senna, est construite autour des pneus Michelin : l'abandon du [venturi]({{ site.baseurl }}/glossaire/#venturi) avant rend la voiture moins sensible au tangage et apporte environ 25 % d'[appui]({{ site.baseurl }}/glossaire/#appui) en plus.
-- **Benetton.** Il reste un pilier technique quand Benetton reprend l'équipe ; la première victoire arrive avec Gerhard Berger au Mexique. Les Benetton dont il mène le dessin donnent à Schumacher les titres 1994 et 1995.
-- **Ferrari.** Début 1997, il revient en F1 comme chef designer de Ferrari. La F1-2000 est développée sous la supervision de [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) et de Byrne ; il mène la conception de la F2002.
+- **Toleman.** Avec le dessinateur-projeteur [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}), il conçoit la TG280, qui domine la Formule 2 européenne{% include src.html n="1,4" %}. Sa TG184 de 1984, que pilote Ayrton Senna, est construite autour des pneus Michelin : l'abandon du [venturi]({{ site.baseurl }}/glossaire/#venturi) avant rend la voiture moins sensible au tangage et apporte environ 25 % d'[appui]({{ site.baseurl }}/glossaire/#appui) en plus{% include src.html n="5" %}.
+- **Benetton.** Il reste un pilier technique quand Benetton reprend l'équipe{% include src.html n="6" %} ; la première victoire arrive avec Gerhard Berger au Mexique{% include src.html n="4,7" %}. Les Benetton dont il mène le dessin donnent à Schumacher les titres 1994 et 1995{% include src.html n="5,7" %}.
+- **Ferrari.** Début 1997, il revient en F1 comme chef designer de Ferrari{% include src.html n="8" %}. La F1-2000 est développée sous la supervision de [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) et de Byrne{% include src.html n="9" %} ; il mène la conception de la F2002{% include src.html n="10" %}.
 
 ## Attribution
 
-Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}). La passation à [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) est progressive : elle commence fin 2004, et Byrne prévoyait de se retirer fin 2006 avant de rester comme consultant.
+Chez Ferrari, Brawn est le visage technique public, et Byrne mène la conception : c'est le témoignage de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}){% include src.html n="7" %}. La passation à [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) est progressive : elle commence fin 2004, et Byrne prévoyait de se retirer fin 2006 avant de rester comme consultant{% include src.html n="8,11" %}.
 
 ## Pourquoi le Tier D
 

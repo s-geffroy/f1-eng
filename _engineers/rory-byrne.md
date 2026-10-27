@@ -46,17 +46,17 @@ image: "/assets/partage/en/rory-byrne.jpg"
 ---
 ## What he changed
 
-Rory Byrne led the design of **Michael Schumacher's seven world championship-winning cars**, at Benetton and at Ferrari, within technical teams headed by Ross Brawn. His strength is the [integration of chassis]({{ site.baseurl }}/en/glossary/#chassis) and aerodynamics, repeated over two decades.
+Rory Byrne led the design of **Michael Schumacher's seven world championship-winning cars**, at Benetton and at Ferrari, within technical teams headed by Ross Brawn{% include src.html n="2,3,8,9" %}. His strength is the [integration of chassis]({{ site.baseurl }}/en/glossary/#chassis) and aerodynamics, repeated over two decades.
 
 ## Technical career
 
-- **Toleman.** With draughtsman [John Gentry]({{ site.baseurl }}{% link _engineers/john-gentry.md %}), he designed the TG280, which dominated European Formula 2. His 1984 TG184, driven by Ayrton Senna, was built around Michelin tyres: dropping the front [venturi]({{ site.baseurl }}/en/glossary/#venturi) made the car less sensitive to pitch and gave around 25% more [downforce]({{ site.baseurl }}/en/glossary/#appui).
-- **Benetton.** He remained a technical mainstay when Benetton took over the team; the first win came with Gerhard Berger in Mexico. The Benettons whose design he led gave Schumacher the 1994 and 1995 titles.
-- **Ferrari.** In early 1997 he returned to F1 as Ferrari's chief designer. The F1-2000 was developed under the supervision of [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) and Byrne; he led the design of the F2002.
+- **Toleman.** With draughtsman [John Gentry]({{ site.baseurl }}{% link _engineers/john-gentry.md %}), he designed the TG280, which dominated European Formula 2{% include src.html n="1,4" %}. His 1984 TG184, driven by Ayrton Senna, was built around Michelin tyres: dropping the front [venturi]({{ site.baseurl }}/en/glossary/#venturi) made the car less sensitive to pitch and gave around 25% more [downforce]({{ site.baseurl }}/en/glossary/#appui){% include src.html n="5" %}.
+- **Benetton.** He remained a technical mainstay when Benetton took over the team{% include src.html n="6" %}; the first win came with Gerhard Berger in Mexico{% include src.html n="4,7" %}. The Benettons whose design he led gave Schumacher the 1994 and 1995 titles{% include src.html n="5,7" %}.
+- **Ferrari.** In early 1997 he returned to F1 as Ferrari's chief designer{% include src.html n="8" %}. The F1-2000 was developed under the supervision of [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) and Byrne{% include src.html n="9" %}; he led the design of the F2002{% include src.html n="10" %}.
 
 ## Attribution
 
-At Ferrari, Brawn was the public technical face, and Byrne led the design: that is the testimony of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}). The handover to [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) was gradual: it began at the end of 2004, and Byrne planned to retire at the end of 2006 before staying on as a consultant.
+At Ferrari, Brawn was the public technical face, and Byrne led the design: that is the testimony of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}){% include src.html n="7" %}. The handover to [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}) was gradual: it began at the end of 2004, and Byrne planned to retire at the end of 2006 before staying on as a consultant{% include src.html n="8,11" %}.
 
 ## Why Tier D
 

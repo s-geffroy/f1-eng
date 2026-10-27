@@ -23,17 +23,17 @@ image: "/assets/partage/en/franco-rocchi.jpg"
 ---
 ## What he did
 
-Franco Rocchi spent some twenty-five years in Ferrari's racing department, in a variety of roles, and remains associated with the **[flat-12]({{ site.baseurl }}/en/glossary/#flat-12)** of the 312B and 312T.
+Franco Rocchi spent some twenty-five years in Ferrari's racing department, in a variety of roles, and remains associated with the **[flat-12]({{ site.baseurl }}/en/glossary/#flat-12)** of the 312B and 312T{% include src.html n="1,2,3" %}.
 
 ## Technical career
 
-- Having worked at the aircraft maker Reggiane, alongside Aurelio Lampredi, he joined Ferrari in 1949.
-- He worked under [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) then Carlo Chiti, and stayed at Ferrari when Chiti left in 1961.
-- [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) names him among the technicians of the small team that designed the 312B and its flat-12 in 1969.
-- In 1973, Forghieri and Rocchi reworked the 312B3 together.
-- GrandPrix.com credits his engines with five F1 world titles, without detailing that count.
-- After retiring from Ferrari in 1979, he later designed the W12 engine for the Life team, a failure in 1990.
+- Having worked at the aircraft maker Reggiane, alongside Aurelio Lampredi, he joined Ferrari in 1949{% include src.html n="1,5" %}.
+- He worked under [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) then Carlo Chiti, and stayed at Ferrari when Chiti left in 1961{% include src.html n="1" %}.
+- [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) names him among the technicians of the small team that designed the 312B and its flat-12 in 1969{% include src.html n="2" %}.
+- In 1973, Forghieri and Rocchi reworked the 312B3 together{% include src.html n="1" %}.
+- GrandPrix.com credits his engines with five F1 world titles, without detailing that count{% include src.html n="1" %}.
+- After retiring from Ferrari in 1979, he later designed the W12 engine for the Life team, a failure in 1990{% include src.html n="1,5" %}.
 
 ## Attribution of the flat-12
 
-formula1.com presents the flat-12 as created by Forghieri "in cooperation" with Rocchi; Forghieri's obituary published by formula1.com goes further, saying that Forghieri tasked Rocchi with creating it. The two names go together.
+formula1.com presents the flat-12 as created by Forghieri "in cooperation" with Rocchi{% include src.html n="3" %}; Forghieri's obituary published by formula1.com goes further, saying that Forghieri tasked Rocchi with creating it{% include src.html n="4" %}. The two names go together.

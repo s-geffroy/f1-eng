@@ -28,19 +28,19 @@ redirect_from: "/ingenieurs/2026/10/25/jean-claude-migeot.html"
 ---
 ## Ce qu'il a changé
 
-La **Tyrrell 019** et son **[nez relevé]({{ site.baseurl }}/glossaire/#nez-releve)** changent la manière d'alimenter en air le plancher de la monoplace. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un [aileron]({{ site.baseurl }}/glossaire/#aileron) avant en dièdre négatif qui améliore l'efficacité aérodynamique. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne ».
+La **Tyrrell 019** et son **[nez relevé]({{ site.baseurl }}/glossaire/#nez-releve)** changent la manière d'alimenter en air le plancher de la monoplace{% include src.html n="1,4" %}. Présentée au Grand Prix de Saint-Marin 1990, elle associe un nez haut à un [aileron]({{ site.baseurl }}/glossaire/#aileron) avant en dièdre négatif qui améliore l'efficacité aérodynamique{% include src.html n="2" %}. En 2023, Motor Sport parle encore d'un dessin de nez haut « qui a lancé la tendance moderne »{% include src.html n="5" %}.
 
-En 1990, Tyrrell conserve la cinquième place du championnat constructeurs, déjà obtenue en 1989 — son meilleur classement depuis 1979.
+En 1990, Tyrrell conserve la cinquième place du championnat constructeurs, déjà obtenue en 1989 — son meilleur classement depuis 1979{% include src.html n="2,3" %}.
 
 ## Parcours technique
 
-- Ingénieur formé à Supaéro (Toulouse), il dirige le groupe de recherche aérodynamique de **Renault Sport** jusqu'à la fermeture de l'équipe en 1985.
-- Chez **Tyrrell**, il travaille avec [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) sur la 019.
-- Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à tapis roulant à l'échelle 50 %.
+- Ingénieur formé à Supaéro (Toulouse), il dirige le groupe de recherche aérodynamique de **Renault Sport** jusqu'à la fermeture de l'équipe en 1985{% include src.html n="4" %}.
+- Chez **Tyrrell**, il travaille avec [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}) sur la 019{% include src.html n="2,3,4" %}.
+- Selon GrandPrix.com, il cofonde ensuite Fondmetal Technologies, équipée d'une [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) à tapis roulant à l'échelle 50 %{% include src.html n="4" %}.
 
 ## Attribution
 
-Motor Sport présente la 019 comme un dessin innovant de **Harvey Postlethwaite et de l'aérodynamicien Jean-Claude Migeot** : le mérite est partagé. Et la même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé pour mieux alimenter le dessous de la voiture.
+Motor Sport présente la 019 comme un dessin innovant de **Harvey Postlethwaite et de l'aérodynamicien Jean-Claude Migeot** : le mérite est partagé{% include src.html n="2" %}. Et la même année, la Leyton House CG901 d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) a elle aussi un nez fortement relevé pour mieux alimenter le dessous de la voiture{% include src.html n="1" %}.
 
 ## Pourquoi le Tier C
 

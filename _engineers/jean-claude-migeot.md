@@ -27,19 +27,19 @@ image: "/assets/partage/en/jean-claude-migeot.jpg"
 ---
 ## What he changed
 
-The **Tyrrell 019** and its **[raised nose]({{ site.baseurl }}/en/glossary/#nez-releve)** changed the way air is fed to the car's floor. Introduced at the 1990 San Marino Grand Prix, it combined a high nose with an anhedral front [wing]({{ site.baseurl }}/en/glossary/#aileron) that improved aerodynamic efficiency. In 2023, Motor Sport still described it as a high-nose design "that started the modern trend".
+The **Tyrrell 019** and its **[raised nose]({{ site.baseurl }}/en/glossary/#nez-releve)** changed the way air is fed to the car's floor{% include src.html n="1,4" %}. Introduced at the 1990 San Marino Grand Prix, it combined a high nose with an anhedral front [wing]({{ site.baseurl }}/en/glossary/#aileron) that improved aerodynamic efficiency{% include src.html n="2" %}. In 2023, Motor Sport still described it as a high-nose design "that started the modern trend"{% include src.html n="5" %}.
 
-In 1990, Tyrrell held on to fifth place in the constructors' championship, already achieved in 1989 — its best result since 1979.
+In 1990, Tyrrell held on to fifth place in the constructors' championship, already achieved in 1989 — its best result since 1979{% include src.html n="2,3" %}.
 
 ## Technical career
 
-- An engineer trained at Supaéro (Toulouse), he led **Renault Sport**'s aerodynamic research group until the team closed in 1985.
-- At **Tyrrell**, he worked with [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) on the 019.
-- According to GrandPrix.com, he later co-founded Fondmetal Technologies, equipped with a 50%-scale rolling-road [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie).
+- An engineer trained at Supaéro (Toulouse), he led **Renault Sport**'s aerodynamic research group until the team closed in 1985{% include src.html n="4" %}.
+- At **Tyrrell**, he worked with [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) on the 019{% include src.html n="2,3,4" %}.
+- According to GrandPrix.com, he later co-founded Fondmetal Technologies, equipped with a 50%-scale rolling-road [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie){% include src.html n="4" %}.
 
 ## Attribution
 
-Motor Sport presents the 019 as an innovative design by **Harvey Postlethwaite and aerodynamicist Jean-Claude Migeot**: the credit is shared. And in the same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose to feed the underside of the car better.
+Motor Sport presents the 019 as an innovative design by **Harvey Postlethwaite and aerodynamicist Jean-Claude Migeot**: the credit is shared{% include src.html n="2" %}. And in the same year, [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s Leyton House CG901 also had a sharply raised nose to feed the underside of the car better{% include src.html n="1" %}.
 
 ## Why Tier C
 

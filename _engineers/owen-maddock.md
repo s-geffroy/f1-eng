@@ -33,20 +33,20 @@ image: "/assets/partage/en/owen-maddock.jpg"
 ---
 ## A necessary correction
 
-Owen Maddock's presence corrects the simplified "Cooper = John Cooper" story. He was the Cooper Car Company's **chief designer** through the 1950s and the early 1960s, and therefore during the 1959 and 1960 titles.
+Owen Maddock's presence corrects the simplified "Cooper = John Cooper" story. He was the Cooper Car Company's **chief designer** through the 1950s and the early 1960s, and therefore during the 1959 and 1960 titles{% include src.html n="1,4" %}.
 
 ## What he changed
 
-- He joined Cooper in April 1948, as a fitter and draughtsman.
-- He was the man behind the **[curved-tube]({{ site.baseurl }}/en/glossary/#chassis-tubulaire)** chassis, which appeared on the Mk VIII and was then extended across the range. Long mocked, this chassis came into its own in 1958, when Stirling Moss won in Argentina: the first championship Grand Prix victory for a mid-engined car.
-- For the 1960 **T53**, he insisted on a frame with four curved tubes, against the wishes of Jack Brabham, who wanted straight tubes; the claimed gain was 25% in torsional stiffness.
-- He designed the five-speed **Cooper-Knight C5S** transaxle, which appeared on the T53.
-- According to his deputy in the drawing office, he detailed the entire chassis, with some settings remaining exploratory.
-- He left Cooper in 1963 for racing hovercraft and founded the Hover Club of Great Britain.
+- He joined Cooper in April 1948, as a fitter and draughtsman{% include src.html n="7" %}.
+- He was the man behind the **[curved-tube]({{ site.baseurl }}/en/glossary/#chassis-tubulaire)** chassis, which appeared on the Mk VIII and was then extended across the range{% include src.html n="7" %}. Long mocked, this chassis came into its own in 1958, when Stirling Moss won in Argentina: the first championship Grand Prix victory for a mid-engined car{% include src.html n="2,4" %}.
+- For the 1960 **T53**, he insisted on a frame with four curved tubes, against the wishes of Jack Brabham, who wanted straight tubes; the claimed gain was 25% in torsional stiffness{% include src.html n="3" %}.
+- He designed the five-speed **Cooper-Knight C5S** transaxle, which appeared on the T53{% include src.html n="1,3" %}.
+- According to his deputy in the drawing office, he detailed the entire chassis, with some settings remaining exploratory{% include src.html n="6" %}.
+- He left Cooper in 1963 for racing hovercraft and founded the Hover Club of Great Britain{% include src.html n="4,7" %}.
 
 ## Attribution
 
-[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere). According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks. Maddock was its chief designer. GrandPrix.com credits him with Cooper's Formula 3, Formula 2 and Formula 1 cars designed between 1954 and 1963, but no source consulted names him as designer of the whole T51: the site therefore sticks to "chief designer during the title years".
+[John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) receives the credit as entrepreneurial and technical architect of the switch to the [rear engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere){% include src.html n="1,2" %}. According to Motor Sport, the impetus for the T53 came from Brabham and John Cooper, and the car was built in six weeks{% include src.html n="5" %}. Maddock was its chief designer{% include src.html n="1,3" %}. GrandPrix.com credits him with Cooper's Formula 3, Formula 2 and Formula 1 cars designed between 1954 and 1963{% include src.html n="8" %}, but no source consulted names him as designer of the whole T51: the site therefore sticks to "chief designer during the title years".
 
 The accurate wording: **Cooper established the rear-engine layout with a design team in which Owen Maddock played a central role.**
 

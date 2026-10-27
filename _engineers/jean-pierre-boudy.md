@@ -35,43 +35,43 @@ image: "/assets/partage/en/jean-pierre-boudy.jpg"
 ---
 ## What he did
 
-Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) from which Renault's F1 turbo engines derive; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique).
+Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot{% include src.html n="1" %}. With [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}), he designed the 2-litre [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) from which Renault's F1 turbo engines derive{% include src.html n="3" %}; GrandPrix.com credits him with the idea of [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique){% include src.html n="2" %}.
 
 ## At Renault-Gordini
 
-- Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars.com) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com).
-- In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines. The 270bhp V6 CH1 went into Alpine's 1973 car.
-- Castaing recalled that he was initially "far less convinced" than Boudy about a turbo running on pump fuel.
-- With [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}), he worked on the turbo version of the V6 that produced the 1975 Alpine A442 (GrandPrix.com, 1990), then, in 1975, on the prototype Renault F1 turbo engine, which first raced in 1977 (GrandPrix.com).
-- Dudot summed up the early technical team: "Francois Castaing, Jean-Pierre Boudy and myself".
-- He then ran Renault Sport's engine research and development department (GrandPrix.com).
+- Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars.com) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com){% include src.html n="1,11" %}.
+- In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines{% include src.html n="3" %}. The 270bhp V6 CH1 went into Alpine's 1973 car{% include src.html n="4" %}.
+- Castaing recalled that he was initially "far less convinced" than Boudy about a turbo running on pump fuel{% include src.html n="3" %}.
+- With [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}), he worked on the turbo version of the V6 that produced the 1975 Alpine A442 (GrandPrix.com, 1990){% include src.html n="5" %}, then, in 1975, on the prototype Renault F1 turbo engine, which first raced in 1977 (GrandPrix.com){% include src.html n="1" %}.
+- Dudot summed up the early technical team: "Francois Castaing, Jean-Pierre Boudy and myself"{% include src.html n="3" %}.
+- He then ran Renault Sport's engine research and development department (GrandPrix.com){% include src.html n="1" %}.
 
 ## Pneumatic valve springs
 
-- In July 1995, GrandPrix.com wrote that Renault pioneered pneumatic valve technology in the early 1980s, "the idea having been dreamed up by Jean-Pierre Boudy".
-- The same article says Jean-Jacques His replaced him as head of research and development in 1984.
-- According to Renault, pneumatic valve springs first raced on the EF15 B engine in 1986, and were used on every F1 engine from the 1990s onwards.
+- In July 1995, GrandPrix.com wrote that Renault pioneered pneumatic valve technology in the early 1980s, "the idea having been dreamed up by Jean-Pierre Boudy"{% include src.html n="2" %}.
+- The same article says Jean-Jacques His replaced him as head of research and development in 1984{% include src.html n="2" %}.
+- According to Renault, pneumatic valve springs first raced on the EF15 B engine in 1986, and were used on every F1 engine from the 1990s onwards{% include src.html n="7" %}.
 
 ## At Peugeot
 
-- At the end of 1983, Jean Todt put him in charge of the engine department of the new Peugeot Talbot Sport organisation; his engines won the 1985 and 1986 World Rally titles (GrandPrix.com).
-- He designed the V10 of the Peugeot 905, which won Le Mans in 1992 and 1993, then Peugeot's F1 V10, raced by McLaren in 1994 (GrandPrix.com).
-- He started that F1 V10 from a clean sheet; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans").
-- In the early 1990s, he succeeded André de Cortanze as technical director of Peugeot Sport (GrandPrix.com, 2001). In July 1995, he still held the post (GrandPrix.com).
-- In October 1995, Peugeot was supplying Jordan, and mechanical failures had cost the team several good results; Boudy, as head of Peugeot Sport, created a technical liaison post between Jordan and Peugeot (GrandPrix.com, "Changes at Peugeot Sport").
-- OldRacingCars.com credits him with Peugeot's F1 engines from 1994 to 2000.
-- In February 2001, after Asiatech took over the former Peugeot Sport, he left the company; GrandPrix.com found the departure unsurprising, as his engines had not performed well in recent years. Chassis engineer Enrique Scalabroni took over as technical director.
+- At the end of 1983, Jean Todt put him in charge of the engine department of the new Peugeot Talbot Sport organisation; his engines won the 1985 and 1986 World Rally titles (GrandPrix.com){% include src.html n="1" %}.
+- He designed the V10 of the Peugeot 905, which won Le Mans in 1992 and 1993, then Peugeot's F1 V10, raced by McLaren in 1994 (GrandPrix.com){% include src.html n="1" %}.
+- He started that F1 V10 from a clean sheet; it was to have pneumatic valve operation from the start (GrandPrix.com, "Peugeot's F1 plans"){% include src.html n="6" %}.
+- In the early 1990s, he succeeded André de Cortanze as technical director of Peugeot Sport (GrandPrix.com, 2001){% include src.html n="9" %}. In July 1995, he still held the post (GrandPrix.com){% include src.html n="2" %}.
+- In October 1995, Peugeot was supplying Jordan, and mechanical failures had cost the team several good results; Boudy, as head of Peugeot Sport, created a technical liaison post between Jordan and Peugeot (GrandPrix.com, "Changes at Peugeot Sport"){% include src.html n="8" %}.
+- OldRacingCars.com credits him with Peugeot's F1 engines from 1994 to 2000{% include src.html n="11" %}.
+- In February 2001, after Asiatech took over the former Peugeot Sport, he left the company; GrandPrix.com found the departure unsurprising, as his engines had not performed well in recent years{% include src.html n="9" %}. Chassis engineer Enrique Scalabroni took over as technical director{% include src.html n="9" %}.
 
 ## After Peugeot
 
-- In May 2011, GrandPrix.com named him among those involved in Craig Pollock's PURE project, an engine for the 2013 rules (1.6-litre four-cylinder turbo), with Mecachrome and TEOS Powertrain.
-- OldRacingCars.com then describes him as an independent consultant.
+- In May 2011, GrandPrix.com named him among those involved in Craig Pollock's PURE project, an engine for the 2013 rules (1.6-litre four-cylinder turbo), with Mecachrome and TEOS Powertrain{% include src.html n="10" %}.
+- OldRacingCars.com then describes him as an independent consultant{% include src.html n="11" %}.
 
 ## Attribution
 
-Sources disagree on who shares credit for the original V6. Motor Sport says it was designed by Castaing **and** Boudy; GrandPrix.com's profile of Boudy pairs him with Castaing **and** Dudot; Dudot's interview (GrandPrix.com, 1990) speaks of "Castaing's original V6". This site follows Motor Sport, the most common formulation.
+Sources disagree on who shares credit for the original V6. Motor Sport says it was designed by Castaing **and** Boudy{% include src.html n="3,4" %}; GrandPrix.com's profile of Boudy pairs him with Castaing **and** Dudot{% include src.html n="1" %}; Dudot's interview (GrandPrix.com, 1990) speaks of "Castaing's original V6"{% include src.html n="5" %}. This site follows Motor Sport, the most common formulation.
 
-On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986: the development work was down to the Renault Sport team. Idea, execution and dissemination should not be credited to the same person.
+On pneumatic valve springs, only one source, GrandPrix.com, names Boudy as the author of the idea{% include src.html n="2" %}. He left Renault at the end of 1983 or in 1984, before the system first raced in 1986{% include src.html n="1,2,7" %}: the development work was down to the Renault Sport team. Idea, execution and dissemination should not be credited to the same person.
 
 ## Limits of the sources
 

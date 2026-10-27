@@ -23,17 +23,17 @@ image: "/assets/partage/franco-rocchi.jpg"
 ---
 ## Ce qu'il a fait
 
-Franco Rocchi passe environ vingt-cinq ans au service course de Ferrari, dans des rôles variés, et reste associé au **[flat-12]({{ site.baseurl }}/glossaire/#flat-12)** des 312B et 312T.
+Franco Rocchi passe environ vingt-cinq ans au service course de Ferrari, dans des rôles variés, et reste associé au **[flat-12]({{ site.baseurl }}/glossaire/#flat-12)** des 312B et 312T{% include src.html n="1,2,3" %}.
 
 ## Parcours technique
 
-- Passé par l'avionneur Reggiane, aux côtés d'Aurelio Lampredi, il entre chez Ferrari en 1949.
-- Il travaille sous [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) puis Carlo Chiti, et reste chez Ferrari lors du départ de Chiti en 1961.
-- [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) le cite parmi les techniciens de l'équipe restreinte qui conçoit, en 1969, la 312B et son flat-12.
-- En 1973, Forghieri et Rocchi reprennent ensemble la 312B3.
-- GrandPrix.com crédite ses moteurs de cinq titres mondiaux de F1, sans détailler ce décompte.
-- Retiré de Ferrari en 1979, il conçoit plus tard le moteur W12 de l'équipe Life, un échec en 1990.
+- Passé par l'avionneur Reggiane, aux côtés d'Aurelio Lampredi, il entre chez Ferrari en 1949{% include src.html n="1,5" %}.
+- Il travaille sous [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) puis Carlo Chiti, et reste chez Ferrari lors du départ de Chiti en 1961{% include src.html n="1" %}.
+- [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) le cite parmi les techniciens de l'équipe restreinte qui conçoit, en 1969, la 312B et son flat-12{% include src.html n="2" %}.
+- En 1973, Forghieri et Rocchi reprennent ensemble la 312B3{% include src.html n="1" %}.
+- GrandPrix.com crédite ses moteurs de cinq titres mondiaux de F1, sans détailler ce décompte{% include src.html n="1" %}.
+- Retiré de Ferrari en 1979, il conçoit plus tard le moteur W12 de l'équipe Life, un échec en 1990{% include src.html n="1,5" %}.
 
 ## Attribution du flat-12
 
-formula1.com présente le flat-12 comme créé par Forghieri « en coopération » avec Rocchi ; la nécrologie de Forghieri publiée par formula1.com va plus loin, et dit que Forghieri a chargé Rocchi de le créer. Les deux noms vont ensemble.
+formula1.com présente le flat-12 comme créé par Forghieri « en coopération » avec Rocchi{% include src.html n="3" %} ; la nécrologie de Forghieri publiée par formula1.com va plus loin, et dit que Forghieri a chargé Rocchi de le créer{% include src.html n="4" %}. Les deux noms vont ensemble.

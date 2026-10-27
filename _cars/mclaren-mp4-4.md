@@ -33,29 +33,29 @@ image: "/assets/partage/en/voitures/mclaren-mp4-4.jpg"
 ---
 ## What it changed
 
-In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure. In theory, these rules favoured the rivals with naturally aspirated engines; McLaren nevertheless remained confident. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away.
+In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engines, the regulations cut fuel further, to 150 litres, and limited boost pressure{% include src.html n="1" %}. In theory, these rules favoured the rivals with naturally aspirated engines; McLaren nevertheless remained confident{% include src.html n="1" %}. The MP4/4 won fifteen of the sixteen Grands Prix; only Monza got away{% include src.html n="1" %}.
 
-Its principle: a very low car. The new Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
+Its principle: a very low car{% include src.html n="2" %}. The new Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower than its predecessor's{% include src.html n="2" %}. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts{% include src.html n="2" %}. "The key to success of the MP4/4 was the gearbox," says Gordon Murray{% include src.html n="2" %}. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage{% include src.html n="2" %}.
 
-McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, fully worked out down to the smallest detail.
+McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, fully worked out down to the smallest detail{% include src.html n="1" %}.
 
 ## Who designed it
 
-The question divides opinion, even at formula1.com, which credits the car sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), sometimes to [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}). Autosport set the accounts side by side in 2017.
+The question divides opinion, even at formula1.com, which credits the car sometimes to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}), sometimes to [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}){% include src.html n="3,4" %}. Autosport set the accounts side by side in 2017{% include src.html n="2" %}.
 
-- **Murray**, technical director, sees the MP4/4 as a continuation of his Brabham BT55, a low car with a steeply reclined driver. He says he got Honda to make a lower engine, which [Osamu Goto]({{ site.baseurl }}{% link _engineers/osamu-goto.md %}), then at Honda, confirms. No one disputes that the gearbox was his project.
-- **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."
-- **[Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %})**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."
+- **Murray**, technical director, sees the MP4/4 as a continuation of his Brabham BT55, a low car with a steeply reclined driver{% include src.html n="2" %}. He says he got Honda to make a lower engine, which [Osamu Goto]({{ site.baseurl }}{% link _engineers/osamu-goto.md %}), then at Honda, confirms{% include src.html n="2" %}. No one disputes that the gearbox was his project{% include src.html n="2" %}.
+- **Nichols**, chief designer, sees it as an evolution of the 1987 MP4/3: "If you look at that car real quick, you think, 'There's the 4/4', but it's not. It's the 4/3."{% include src.html n="2" %}
+- **[Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %})**, the car's aerodynamicist, sums it up: "The ownership of the car conceptually is a pretty difficult thing to pin down."{% include src.html n="2" %}
 
-Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), Bob Bell and David North, designed the car or did its detail work, but that the concept owes more to Murray. This site presents both versions.
+Autosport concludes that Nichols and his team, including [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}), Bob Bell and David North, designed the car or did its detail work, but that the concept owes more to Murray{% include src.html n="2" %}. This site presents both versions.
 
 ## Limitations
 
-It had no future: McLaren built six chassis, all made obsolete at the end of the year by the switch to 3.5-litre naturally aspirated engines. The three-shaft gearbox was also a gamble: "a huge risk technically", according to Murray, "potentially the Achilles' heel".
+It had no future: McLaren built six chassis, all made obsolete at the end of the year by the switch to 3.5-litre naturally aspirated engines{% include src.html n="1" %}. The three-shaft gearbox was also a gamble: "a huge risk technically", according to Murray, "potentially the Achilles' heel"{% include src.html n="2" %}.
 
-Autosport (2017) also names a Steve Nielsen among the car's authors, absent from the other sources consulted; the only known Steve Nielsen in F1 was then at Team Lotus (GrandPrix.com).
+Autosport (2017) also names a Steve Nielsen among the car's authors, absent from the other sources consulted{% include src.html n="2" %}; the only known Steve Nielsen in F1 was then at Team Lotus (GrandPrix.com){% include src.html n="5" %}.
 
 ## Legacy
 
-- **1988**: fifteen wins, fifteen pole positions and 1,003 laps led out of 1,031. Ayrton Senna became world champion and McLaren won the constructors' title.
-- For Autosport, it is the greatest single-season F1 car in history.
+- **1988**: fifteen wins, fifteen pole positions and 1,003 laps led out of 1,031{% include src.html n="2" %}. Ayrton Senna became world champion and McLaren won the constructors' title{% include src.html n="1" %}.
+- For Autosport, it is the greatest single-season F1 car in history{% include src.html n="2" %}.

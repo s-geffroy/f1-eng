@@ -25,15 +25,15 @@ image: "/assets/partage/alan-jenkins.jpg"
 ---
 ## Ce qu'il a fait
 
-Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) aux débuts de la McLaren à [monocoque]({{ site.baseurl }}/glossaire/#monocoque) carbone, puis directeur technique de plusieurs équipes.
+Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) aux débuts de la McLaren à [monocoque]({{ site.baseurl }}/glossaire/#monocoque) carbone, puis directeur technique de plusieurs équipes{% include src.html n="1,2,3" %}.
 
 ## Parcours technique
 
-- **McLaren.** Recruté en 1979 par Project 4, il devient le bras droit de Barnard quand Project 4 reprend McLaren, et reste son adjoint jusqu'en 1984. Il est là aux débuts de la MP4/1, quand [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) rejoint l'équipe. Ingénieur de course de John Watson, il participe à sa victoire à Long Beach en 1983, partie de la 22e place.
-- **Penske.** Il conçoit les PC15 et PC16 d'IndyCar, sophistiquées mais peu victorieuses.
-- **Onyx.** Il conçoit l'ORE-1, première F1 de l'équipe, en 1989.
-- **Footwork.** Directeur technique, il conçoit la FA12 à moteur Porsche.
-- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 (seules Williams et Ferrari l'emploient alors) ; selon Jenkins, le recours à ces maquettes et à la simulation numérique des écoulements, technique encore nouvelle, est un choix délibéré de l'équipe.
+- **McLaren.** Recruté en 1979 par Project 4, il devient le bras droit de Barnard quand Project 4 reprend McLaren, et reste son adjoint jusqu'en 1984{% include src.html n="1,2" %}. Il est là aux débuts de la MP4/1, quand [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) rejoint l'équipe{% include src.html n="3" %}. Ingénieur de course de John Watson, il participe à sa victoire à Long Beach en 1983, partie de la 22e place{% include src.html n="1" %}.
+- **Penske.** Il conçoit les PC15 et PC16 d'IndyCar, sophistiquées mais peu victorieuses{% include src.html n="1,2" %}.
+- **Onyx.** Il conçoit l'ORE-1, première F1 de l'équipe, en 1989{% include src.html n="1,4" %}.
+- **Footwork.** Directeur technique, il conçoit la FA12 à moteur Porsche{% include src.html n="1" %}.
+- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir{% include src.html n="1,5" %}. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 (seules Williams et Ferrari l'emploient alors){% include src.html n="6" %} ; selon Jenkins, le recours à ces maquettes et à la simulation numérique des écoulements, technique encore nouvelle, est un choix délibéré de l'équipe{% include src.html n="6" %}.
 
 ## Limites des sources
 

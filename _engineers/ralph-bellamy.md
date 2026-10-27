@@ -23,16 +23,16 @@ image: "/assets/partage/en/ralph-bellamy.jpg"
 ---
 ## What he did
 
-Ralph Bellamy is the designer who **drew the Lotus 78**, the first F1 [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car according to Motor Sport, within the team brought together by [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}). While [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) delved deeper into the aerodynamics, Bellamy drew the car; once his drawings were settled, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed the suspension and Bellamy completed the chassis, then the two men worked together on the bodywork. According to Wright's account, it was Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose.
+Ralph Bellamy is the designer who **drew the Lotus 78**, the first F1 [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car according to Motor Sport, within the team brought together by [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}){% include src.html n="1,2" %}. While [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) delved deeper into the aerodynamics, Bellamy drew the car; once his drawings were settled, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) detailed the suspension and Bellamy completed the chassis, then the two men worked together on the bodywork{% include src.html n="1" %}. According to Wright's account, it was Bellamy who wanted to move the masses rearwards, which led to the radiators being placed in the sides rather than in the nose{% include src.html n="2" %}.
 
 ## Technical career
 
-- **McLaren, 1971.** Solely responsible for the design of the M19, he gave it [rising-rate suspension]({{ site.baseurl }}/en/glossary/#suspension-progressive) at both front and rear; the "Coke bottle" shape was Jo Marquart's work. This suspension cost the team most of 1971: the car only showed its full potential in 1972.
-- **Brabham, 1972.** Recruited by Bernie Ecclestone, he turned the BT34 into the BT37, before Ecclestone handed design over to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}).
-- **Lotus.** He was part of the team, with Chapman, Wright and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), that produced the Lotus 78.
-- **Fittipaldi.** He designed the 1979 F6, with flexible Kevlar [skirts]({{ site.baseurl }}/en/glossary/#jupes) and a narrow aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) tub; in his view, the car was undermined by its wheel bearings.
-- **Lola.** He worked with Eric Broadley on the F1 car entered by the Larrousse Calmels team.
+- **McLaren, 1971.** Solely responsible for the design of the M19, he gave it [rising-rate suspension]({{ site.baseurl }}/en/glossary/#suspension-progressive) at both front and rear; the "Coke bottle" shape was Jo Marquart's work{% include src.html n="4" %}. This suspension cost the team most of 1971: the car only showed its full potential in 1972{% include src.html n="4" %}.
+- **Brabham, 1972.** Recruited by Bernie Ecclestone, he turned the BT34 into the BT37, before Ecclestone handed design over to [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}){% include src.html n="3" %}.
+- **Lotus.** He was part of the team, with Chapman, Wright and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), that produced the Lotus 78{% include src.html n="3" %}.
+- **Fittipaldi.** He designed the 1979 F6, with flexible Kevlar [skirts]({{ site.baseurl }}/en/glossary/#jupes) and a narrow aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) tub; in his view, the car was undermined by its wheel bearings{% include src.html n="5" %}.
+- **Lola.** He worked with Eric Broadley on the F1 car entered by the Larrousse Calmels team{% include src.html n="3" %}.
 
 ## Where sources disagree
 
-GrandPrix.com has him working at McLaren as early as 1970, on the M14; Motor Sport has him arriving at the start of 1971.
+GrandPrix.com has him working at McLaren as early as 1970, on the M14{% include src.html n="3" %}; Motor Sport has him arriving at the start of 1971{% include src.html n="4" %}.

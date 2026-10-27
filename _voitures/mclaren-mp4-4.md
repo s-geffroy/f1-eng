@@ -33,29 +33,29 @@ image: "/assets/partage/voitures/mclaren-mp4-4.jpg"
 ---
 ## Ce qu'elle change
 
-En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation. En théorie, ces règles favorisent les rivaux à moteur atmosphérique ; McLaren reste pourtant confiant. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe.
+En 1988, dernière saison des moteurs [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur), le règlement réduit encore le carburant, à 150 litres, et limite la pression de suralimentation{% include src.html n="1" %}. En théorie, ces règles favorisent les rivaux à moteur atmosphérique ; McLaren reste pourtant confiant{% include src.html n="1" %}. La MP4/4 gagne quinze des seize Grands Prix ; seule Monza lui échappe{% include src.html n="1" %}.
 
-Son principe : une voiture très basse. Le nouveau [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) Honda a un vilebrequin placé 28mm plus bas que son prédécesseur. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage.
+Son principe : une voiture très basse{% include src.html n="2" %}. Le nouveau [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) Honda a un vilebrequin placé 28mm plus bas que son prédécesseur{% include src.html n="2" %}. Une boîte classique à deux arbres aurait imposé de mauvais angles aux arbres de roue : [Pete Weismann]({{ site.baseurl }}{% link _ingenieurs/pete-weismann.md %}) et [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) conçoivent une boîte à trois arbres superposés{% include src.html n="2" %}. « La clé du succès de la MP4/4, c'était la boîte », dit Gordon Murray{% include src.html n="2" %}. Lotus, qui reçoit le même moteur, garde sa boîte et incline le moteur, perdant une bonne part de l'avantage{% include src.html n="2" %}.
 
-McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, abouti jusque dans ses moindres détails.
+McLaren la décrit aussi comme un développement très réussi du concept de [coque carbone]({{ site.baseurl }}/glossaire/#composite-carbone) de 1981, abouti jusque dans ses moindres détails{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
-La question divise, jusque chez formula1.com, qui attribue la voiture tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), tantôt à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}). Autosport a confronté les versions en 2017.
+La question divise, jusque chez formula1.com, qui attribue la voiture tantôt à [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}), tantôt à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}){% include src.html n="3,4" %}. Autosport a confronté les versions en 2017{% include src.html n="2" %}.
 
-- **Murray**, directeur technique, voit dans la MP4/4 le prolongement de sa Brabham BT55, une voiture basse au pilote très allongé. Il dit avoir obtenu de Honda un moteur plus bas, ce que confirme [Osamu Goto]({{ site.baseurl }}{% link _ingenieurs/osamu-goto.md %}), alors chez Honda. Personne ne conteste que la boîte était son projet.
-- **Nichols**, chef designer, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »
-- **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »
+- **Murray**, directeur technique, voit dans la MP4/4 le prolongement de sa Brabham BT55, une voiture basse au pilote très allongé{% include src.html n="2" %}. Il dit avoir obtenu de Honda un moteur plus bas, ce que confirme [Osamu Goto]({{ site.baseurl }}{% link _ingenieurs/osamu-goto.md %}), alors chez Honda{% include src.html n="2" %}. Personne ne conteste que la boîte était son projet{% include src.html n="2" %}.
+- **Nichols**, chef designer, la voit comme une évolution de la MP4/3 de 1987 : « Au premier coup d'œil, on se dit : voilà la 4/4. Mais non, c'est la 4/3. »{% include src.html n="2" %}
+- **[Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %})**, aérodynamicien de la voiture, résume : « La paternité du concept est une chose difficile à établir. »{% include src.html n="2" %}
 
-Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell et David North, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray. Le site présente les deux versions.
+Autosport conclut que Nichols et son équipe, dont [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), Bob Bell et David North, ont conçu la voiture ou en ont fait le travail de détail, mais que le concept revient plutôt à Murray{% include src.html n="2" %}. Le site présente les deux versions.
 
 ## Limites
 
-Elle est sans lendemain : McLaren construit six châssis, tous condamnés en fin d'année par le passage aux moteurs atmosphériques de 3,5 litres. La boîte à trois arbres était aussi un pari : « un risque technique énorme », selon Murray, « potentiellement le talon d'Achille ».
+Elle est sans lendemain : McLaren construit six châssis, tous condamnés en fin d'année par le passage aux moteurs atmosphériques de 3,5 litres{% include src.html n="1" %}. La boîte à trois arbres était aussi un pari : « un risque technique énorme », selon Murray, « potentiellement le talon d'Achille »{% include src.html n="2" %}.
 
-Autosport (2017) cite aussi un Steve Nielsen parmi les auteurs de la voiture, absent des autres sources consultées ; le seul Steve Nielsen connu en F1 travaille alors chez Team Lotus (GrandPrix.com).
+Autosport (2017) cite aussi un Steve Nielsen parmi les auteurs de la voiture, absent des autres sources consultées{% include src.html n="2" %} ; le seul Steve Nielsen connu en F1 travaille alors chez Team Lotus (GrandPrix.com){% include src.html n="5" %}.
 
 ## Ce qu'elle laisse
 
-- **1988** : quinze victoires, quinze pole positions et 1 003 tours en tête sur 1 031. Ayrton Senna est champion du monde et McLaren remporte le titre constructeurs.
-- Pour Autosport, c'est la meilleure F1 d'une seule saison de l'histoire.
+- **1988** : quinze victoires, quinze pole positions et 1 003 tours en tête sur 1 031{% include src.html n="2" %}. Ayrton Senna est champion du monde et McLaren remporte le titre constructeurs{% include src.html n="1" %}.
+- Pour Autosport, c'est la meilleure F1 d'une seule saison de l'histoire{% include src.html n="2" %}.
