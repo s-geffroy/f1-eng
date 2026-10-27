@@ -27,22 +27,22 @@ image: "/assets/partage/en/voitures/cooper-t51.jpg"
 ---
 ## What it changed
 
-In 1958, Coopers had already won in Argentina and at Monaco: the first championship victories for a car with its engine behind the driver. The 1959 T51 went further. It gave Cooper, and this [layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), their first world title.
+In 1958, Coopers had already won in Argentina and at Monaco: the first championship victories for a car with its engine behind the driver{% include src.html n="1,2" %}. The 1959 T51 went further. It gave Cooper, and this [layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), their first world title{% include src.html n="1" %}.
 
-The principle, as Motor Sport recalls: with no propeller shaft to route under or around the driver, he can be seated lower and the car's frontal area reduced. The masses stay within the wheelbase, hence a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire).
+The principle, as Motor Sport recalls: with no propeller shaft to route under or around the driver, he can be seated lower and the car's frontal area reduced{% include src.html n="1" %}. The masses stay within the wheelbase, hence a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire){% include src.html n="1" %}.
 
-The car itself changed little from the previous model: a welded [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) of curved steel tubes. What made the difference, according to Motor Sport, was the new 2.5-litre, 245hp Coventry Climax FPF, whose detailed design only began on 1 December 1958, sixteen weeks before its debut.
+The car itself changed little from the previous model: a welded [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) of curved steel tubes{% include src.html n="1" %}. What made the difference, according to Motor Sport, was the new 2.5-litre, 245hp Coventry Climax FPF, whose detailed design only began on 1 December 1958, sixteen weeks before its debut{% include src.html n="1" %}.
 
 ## Who designed it
 
-Doug Nye writes that chief designer [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) did a remarkable job, and that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) made a technical contribution. Jack Brabham, in constant contact with his engineer friend [Ron Tauranac]({{ site.baseurl }}{% link _engineers/ron-tauranac.md %}), got the changes Tauranac recommended adopted. The engine was the work of Coventry Climax.
+Doug Nye writes that chief designer [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) did a remarkable job, and that [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) made a technical contribution{% include src.html n="2" %}. Jack Brabham, in constant contact with his engineer friend [Ron Tauranac]({{ site.baseurl }}{% link _engineers/ron-tauranac.md %}), got the changes Tauranac recommended adopted{% include src.html n="1,2" %}. The engine was the work of Coventry Climax{% include src.html n="1" %}.
 
 ## Limitations
 
-The gearbox, derived from a Citroën part, suffered. Maddock remembered that after every race everything had to be replaced: gears, dogs and selector forks.
+The gearbox, derived from a Citroën part, suffered{% include src.html n="1" %}. Maddock remembered that after every race everything had to be replaced: gears, dogs and selector forks{% include src.html n="1" %}.
 
 ## Legacy
 
-- **1959**: wins for Brabham at Monaco and in Britain, for Stirling Moss in Portugal and Italy in Rob Walker's privately entered T51, and for Bruce McLaren in the United States.
-- The constructors' title was secured at Monza. The drivers' title was decided at Sebring, where McLaren won and where Brabham, out of fuel, pushed his car over the last 400 yards.
-- Cooper did not invent the rear engine, but it led F1's post-war conversion to it, and it was the T51 that brought it its first titles.
+- **1959**: wins for Brabham at Monaco and in Britain, for Stirling Moss in Portugal and Italy in Rob Walker's privately entered T51, and for Bruce McLaren in the United States{% include src.html n="1" %}.
+- The constructors' title was secured at Monza{% include src.html n="1" %}. The drivers' title was decided at Sebring, where McLaren won and where Brabham, out of fuel, pushed his car over the last 400 yards{% include src.html n="1" %}.
+- Cooper did not invent the rear engine, but it led F1's post-war conversion to it, and it was the T51 that brought it its first titles{% include src.html n="1" %}.

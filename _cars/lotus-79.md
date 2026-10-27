@@ -33,26 +33,26 @@ image: "/assets/partage/en/voitures/lotus-79.jpg"
 ---
 ## What it changed
 
-The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). The 79 was designed entirely around it.
+The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol){% include src.html n="2,3" %}. The 79 was designed entirely around it{% include src.html n="1" %}.
 
-- The fuel, carried in the [sidepods]({{ site.baseurl }}/en/glossary/#pontons) on the 78, moved behind the driver, who was positioned further forward. The water and oil radiators went to the front of the sidepods. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel.
-- Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short skirts of the 78. According to Motor Sport, it was with these that the 79 began to generate real suction.
-- The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s requirements and did little more than carry the sidepods.
+- The fuel, carried in the [sidepods]({{ site.baseurl }}/en/glossary/#pontons) on the 78, moved behind the driver, who was positioned further forward{% include src.html n="1" %}. The water and oil radiators went to the front of the sidepods{% include src.html n="1" %}. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel{% include src.html n="1" %}.
+- Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short skirts of the 78{% include src.html n="1" %}. According to Motor Sport, it was with these that the 79 began to generate real suction{% include src.html n="1" %}.
+- The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s requirements and did little more than carry the sidepods{% include src.html n="3" %}.
 
-When it was shown to the public, the black car was nicknamed "Black Beauty".
+When it was shown to the public, the black car was nicknamed "Black Beauty"{% include src.html n="1" %}.
 
 ## Who designed it
 
-This time Chapman was more directly involved than on the 78. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who originated the aerodynamic work on the 78, recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car.
+This time Chapman was more directly involved than on the 78{% include src.html n="1" %}. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who originated the aerodynamic work on the 78, recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin."{% include src.html n="1" %} [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car{% include src.html n="1" %}.
 
-According to Motor Sport, Chapman was all the more involved because the two designers of the 78 had left the team: formula1.com credits the 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}), and according to GrandPrix.com Southgate went back to Shadow in mid-1977, while Bellamy left for Fittipaldi in 1978. "Colin took overall charge, for better or worse," says Ogilvie.
+According to Motor Sport, Chapman was all the more involved because the two designers of the 78 had left the team{% include src.html n="1" %}: formula1.com credits the 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}){% include src.html n="2" %}, and according to GrandPrix.com Southgate went back to Shadow in mid-1977{% include src.html n="5" %}, while Bellamy left for Fittipaldi in 1978{% include src.html n="4" %}. "Colin took overall charge, for better or worse," says Ogilvie{% include src.html n="1" %}.
 
 ## Limitations
 
-The 79 lacked stiffness. Ogilvie admits it: "The 79 was never stiff, and the torsional strength almost halved after a couple of races as its rivets loosened."
+The 79 lacked stiffness{% include src.html n="1,3" %}. Ogilvie admits it: "The 79 was never stiff, and the torsional strength almost halved after a couple of races as its rivets loosened."{% include src.html n="1" %}
 
 ## Legacy
 
-- **1978**: six wins. Mario Andretti became world champion, the first in a ground-effect car, and Lotus won the constructors' title ahead of Ferrari.
-- From 1979 it was outpaced by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %})'s Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79".
-- Its success pushed [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}).
+- **1978**: six wins{% include src.html n="1" %}. Mario Andretti became world champion, the first in a ground-effect car, and Lotus won the constructors' title ahead of Ferrari{% include src.html n="1,2,3" %}.
+- From 1979 it was outpaced by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %})'s Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79"{% include src.html n="1" %}.
+- Its success pushed [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}){% include src.html n="1" %}.

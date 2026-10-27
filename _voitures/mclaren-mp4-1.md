@@ -33,25 +33,25 @@ image: "/assets/partage/voitures/mclaren-mp4-1.jpg"
 ---
 ## Ce qu'elle change
 
-Le point de départ de John Barnard est aérodynamique. À l'époque de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), il veut les plus grandes ailes possible sous la voiture, donc une coque très étroite : « pas beaucoup plus large que les fesses du pilote ». L'aluminium ne permet pas d'être à la fois aussi étroit et assez rigide. Le [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone), si : Autosport résume l'idée par une coque centrale solide, pas plus large que le moteur Cosworth DFV.
+Le point de départ de John Barnard est aérodynamique{% include src.html n="1,2" %}. À l'époque de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol), il veut les plus grandes ailes possible sous la voiture, donc une coque très étroite : « pas beaucoup plus large que les fesses du pilote »{% include src.html n="1" %}. L'aluminium ne permet pas d'être à la fois aussi étroit et assez rigide{% include src.html n="1,2" %}. Le [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone), si : Autosport résume l'idée par une coque centrale solide, pas plus large que le moteur Cosworth DFV{% include src.html n="3" %}.
 
-McLaren la présente comme la première F1 conçue en composite carbone. Faute de savoir mouler des pièces courbes, Hercules, aux États-Unis, assemble la première [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à partir de cinq grands éléments à faces planes. Une seule pièce importante reste en aluminium : la cloison interne qui porte la suspension avant.
+McLaren la présente comme la première F1 conçue en composite carbone{% include src.html n="1" %}. Faute de savoir mouler des pièces courbes, Hercules, aux États-Unis, assemble la première [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à partir de cinq grands éléments à faces planes{% include src.html n="1" %}. Une seule pièce importante reste en aluminium : la cloison interne qui porte la suspension avant{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
-[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), qui, selon ses propres mots, rejoint Barnard et [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) : « juste nous trois ».
+[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}) en est le concepteur, entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), qui, selon ses propres mots, rejoint Barnard et [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) : « juste nous trois »{% include src.html n="1,5" %}.
 
-- **Le contact avec Hercules.** Barnard dit que c'est Nichols qui l'a orienté vers Hercules Aerospace. La page de McLaren l'attribue plutôt à une relation de Barnard datant de ses années en IndyCar, sans la nommer.
-- **Le calcul des matériaux.** Selon Autosport, British Aerospace présente à Barnard l'ingénieur aéronautique [Arthur Webb]({{ site.baseurl }}{% link _ingenieurs/arthur-webb.md %}), qui lui apporte la science des matériaux dont il a besoin.
+- **Le contact avec Hercules.** Barnard dit que c'est Nichols qui l'a orienté vers Hercules Aerospace{% include src.html n="2,5" %}. La page de McLaren l'attribue plutôt à une relation de Barnard datant de ses années en IndyCar, sans la nommer{% include src.html n="1" %}.
+- **Le calcul des matériaux.** Selon Autosport, British Aerospace présente à Barnard l'ingénieur aéronautique [Arthur Webb]({{ site.baseurl }}{% link _ingenieurs/arthur-webb.md %}), qui lui apporte la science des matériaux dont il a besoin{% include src.html n="3" %}.
 
 ## Limites
 
-- [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) jugeait publiquement qu'une voiture tout carbone comme celle que préparait McLaren ne serait pas assez sûre.
-- La voiture a tendance au marsouinage, et McLaren reconnaît qu'elle n'a jamais été facile à piloter.
-- « Première » doit être précisé : la [Lotus 88]({{ site.baseurl }}{% link _voitures/lotus-88.md %}), elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts de la MP4/1 en course. Mais la Lotus 88 n'a jamais été autorisée à courir.
+- [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) jugeait publiquement qu'une voiture tout carbone comme celle que préparait McLaren ne serait pas assez sûre{% include src.html n="1" %}.
+- La voiture a tendance au marsouinage, et McLaren reconnaît qu'elle n'a jamais été facile à piloter{% include src.html n="1,3" %}.
+- « Première » doit être précisé : la [Lotus 88]({{ site.baseurl }}{% link _voitures/lotus-88.md %}), elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts de la MP4/1 en course{% include src.html n="4" %}. Mais la Lotus 88 n'a jamais été autorisée à courir{% include src.html n="4" %}.
 
 ## Ce qu'elle laisse
 
-- **Silverstone, 1981** : John Watson gagne le Grand Prix de Grande-Bretagne. C'est la première victoire de McLaren depuis quatre ans, et la première d'une voiture en carbone.
-- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux. Il s'en tire indemne. « Cet accident a mis fin aux mythes sur la monocoque carbone », dit Barnard. L'aviation civile britannique demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone.
-- Selon McLaren, la voiture lance une tendance aussi influente que la monocoque de Chapman, vingt ans plus tôt.
+- **Silverstone, 1981** : John Watson gagne le Grand Prix de Grande-Bretagne{% include src.html n="1" %}. C'est la première victoire de McLaren depuis quatre ans, et la première d'une voiture en carbone{% include src.html n="1" %}.
+- **Monza, 1981** : Watson sort violemment de la piste aux virages de Lesmo, et la voiture est coupée en deux{% include src.html n="1" %}. Il s'en tire indemne{% include src.html n="1" %}. « Cet accident a mis fin aux mythes sur la monocoque carbone »{% include src.html n="2" %}, dit Barnard. L'aviation civile britannique demande ensuite à examiner la coque, pour écrire ses propres règles sur les avions en carbone{% include src.html n="2" %}.
+- Selon McLaren, la voiture lance une tendance aussi influente que la monocoque de Chapman, vingt ans plus tôt{% include src.html n="1" %}.

@@ -31,25 +31,25 @@ image: "/assets/partage/en/voitures/lotus-88.jpg"
 ---
 ## What it changed
 
-The Lotus 88 answered a problem of the Lotus 80. To hold a [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car at the right ride height, very stiff springs are needed. Peter Wright recalls a test in 1980: with ever harder springs, the driver eventually said the car would be fantastic, if only he could keep his feet on the pedals.
+The Lotus 88 answered a problem of the Lotus 80{% include src.html n="1" %}. To hold a [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car at the right ride height, very stiff springs are needed{% include src.html n="1" %}. Peter Wright recalls a test in 1980: with ever harder springs, the driver eventually said the car would be fantastic, if only he could keep his feet on the pedals{% include src.html n="1" %}.
 
-Lotus came up with two answers. Plan B would be [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active), on the 1983 Lotus 92. Plan A was the 88: two chassis and two suspensions.
+Lotus came up with two answers{% include src.html n="1" %}. Plan B would be [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active), on the 1983 Lotus 92{% include src.html n="1" %}. Plan A was the 88: two chassis and two suspensions{% include src.html n="1" %}.
 
-- In the middle, a conventional [monocoque]({{ site.baseurl }}/en/glossary/#monocoque), with suspension tuned for the driver.
-- Around it, like a box around a present, a second chassis carried the rear wing and the underbody, which took most of the aerodynamic loads. It rested on the suspension wishbones through soft springs.
+- In the middle, a conventional [monocoque]({{ site.baseurl }}/en/glossary/#monocoque), with suspension tuned for the driver{% include src.html n="1" %}.
+- Around it, like a box around a present, a second chassis carried the rear wing and the underbody, which took most of the aerodynamic loads{% include src.html n="1" %}. It rested on the suspension wishbones through soft springs{% include src.html n="1" %}.
 
-The tub was made of [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone), with a Nomex [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) core. It was moulded flat on a glass plate, hand-laid and cured without an autoclave: four months from idea to first tub. Cosworth supplied a special engine with some of its pumps moved to the side, to leave room for the outer body to move.
+The tub was made of [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone), with a Nomex [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) core{% include src.html n="1,2" %}. It was moulded flat on a glass plate, hand-laid and cured without an autoclave: four months from idea to first tub{% include src.html n="1,2" %}. Cosworth supplied a special engine with some of its pumps moved to the side, to leave room for the outer body to move{% include src.html n="1" %}.
 
 ## Who designed it
 
-The idea came from [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who was looking to apply ground effect to road cars. [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) sent him, with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), to design a racing car on this principle: first the Lotus 86, then the 88. The tub's corner joint was Ogilvie's idea. Chapman, who was enthusiastic about the project, led the regulatory battle.
+The idea came from [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who was looking to apply ground effect to road cars{% include src.html n="1" %}. [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) sent him, with [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}), to design a racing car on this principle: first the Lotus 86, then the 88{% include src.html n="1" %}. The tub's corner joint was Ogilvie's idea{% include src.html n="1" %}. Chapman, who was enthusiastic about the project, led the regulatory battle{% include src.html n="1,2" %}.
 
 ## Limitations
 
-The regulations required aerodynamic parts to remain immobile relative to the sprung part of the car. Wright considered the 88 legal, but acknowledged that the rule was meant to prevent aerodynamic loads from passing directly to the unsprung masses, "and we were undoubtedly doing that". He added that the soft springs were "a bit fragile".
+The regulations required aerodynamic parts to remain immobile relative to the sprung part of the car{% include src.html n="2" %}. Wright considered the 88 legal, but acknowledged that the rule was meant to prevent aerodynamic loads from passing directly to the unsprung masses, "and we were undoubtedly doing that"{% include src.html n="1" %}. He added that the soft springs were "a bit fragile"{% include src.html n="1" %}.
 
 ## Legacy
 
-- **1981**: in practice at Long Beach, on 13 March, the car was black-flagged. Chapman tried to enter it at other races, with no more success. At Silverstone, in July, the 88B version was accepted by the RAC stewards; the very next day, the federation declared it illegal.
-- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend; this was before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}), in April.
-- Plan B, active suspension, would be the continuation of Lotus's work.
+- **1981**: in practice at Long Beach, on 13 March, the car was black-flagged{% include src.html n="3" %}. Chapman tried to enter it at other races, with no more success{% include src.html n="3" %}. At Silverstone, in July, the 88B version was accepted by the RAC stewards; the very next day, the federation declared it illegal{% include src.html n="3" %}.
+- Classic Team Lotus stresses that its composite tub was the first to run on track during a Grand Prix weekend{% include src.html n="4" %}; this was before the race debut of the [McLaren MP4/1]({{ site.baseurl }}{% link _cars/mclaren-mp4-1.md %}), in April.
+- Plan B, active suspension, would be the continuation of Lotus's work{% include src.html n="1" %}.

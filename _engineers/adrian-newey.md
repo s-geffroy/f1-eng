@@ -62,21 +62,21 @@ Newey is harder to associate with a one-off invention than [Barnard]({{ site.bas
 
 > designing the single-seater as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging serve overall control of the airflow.
 
-He puts it this way himself: what he enjoys is getting all the disciplines to work together, "in an engineering sense not a managerial one".
+He puts it this way himself: what he enjoys is getting all the disciplines to work together, "in an engineering sense not a managerial one"{% include src.html n="5" %}.
 
 ## Proof by repetition
 
-He has demonstrated this ability under several sets of regulations and in several teams:
+He has demonstrated this ability under several sets of regulations and in several teams{% include src.html n="1,2" %}:
 
 **March, which became Leyton House → Williams → McLaren → Red Bull → Aston Martin (since 2025)**
 
-- **Education.** A graduate in aeronautics from the University of Southampton with the highest honours, he wrote a dissertation there on [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) aerodynamics. His first job, in 1980 (July 1979 according to formula1.com), was at Fittipaldi, under [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}).
-- **March.** According to GrandPrix.com, Al Unser won the 1985 IndyCar title in a March 85C, and Bobby Rahal followed with a second in 1986. In F1, the 1988 March 881 introduced a fully integrated nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) assembly, hollowed out underneath.
-- **Leyton House.** The 1990 CG901 initially suffered from a faulty [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie); once the problem was fixed, it led most of the French Grand Prix and finished second.
-- **Williams.** The FW14 extended the CG901. His Williams cars from 1991 to 1997 won 59 Grands Prix (58 according to GrandPrix.com). The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams.
-- **McLaren.** On the 1998 MP4-13, Newey and his team spent 12,000 hours of work recovering the [downforce]({{ site.baseurl }}/en/glossary/#appui) lost under the new regulations.
-- **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser. The 2010 RB6 "reinvented" the [exhaust-blown diffuser]({{ site.baseurl }}/en/glossary/#diffuseur-souffle). According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008).
-- **Aston Martin.** He started there on 1 March 2025 as managing technical partner, then became team principal for the 2026 season.
+- **Education.** A graduate in aeronautics from the University of Southampton with the highest honours, he wrote a dissertation there on [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) aerodynamics{% include src.html n="4,5" %}. His first job, in 1980 (July 1979 according to formula1.com), was at Fittipaldi, under [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}){% include src.html n="5,6" %}.
+- **March.** According to GrandPrix.com, Al Unser won the 1985 IndyCar title in a March 85C, and Bobby Rahal followed with a second in 1986{% include src.html n="4" %}. In F1, the 1988 March 881 introduced a fully integrated nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) assembly, hollowed out underneath{% include src.html n="6" %}.
+- **Leyton House.** The 1990 CG901 initially suffered from a faulty [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie); once the problem was fixed, it led most of the French Grand Prix and finished second{% include src.html n="3,7" %}.
+- **Williams.** The FW14 extended the CG901{% include src.html n="4,7" %}. His Williams cars from 1991 to 1997 won 59 Grands Prix (58 according to GrandPrix.com){% include src.html n="4" %}. The raised-exit [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) appeared at the end of 1995 on the FW17B and became a major asset of the 1996 Williams{% include src.html n="6" %}.
+- **McLaren.** On the 1998 MP4-13, Newey and his team spent 12,000 hours of work recovering the [downforce]({{ site.baseurl }}/en/glossary/#appui) lost under the new regulations{% include src.html n="8" %}.
+- **Red Bull.** The 2009 RB5 adopted pull-rod rear suspension, to tighten the bodywork close to the floor around the new diffuser{% include src.html n="6,10" %}. The 2010 RB6 "reinvented" the [exhaust-blown diffuser]({{ site.baseurl }}/en/glossary/#diffuseur-souffle){% include src.html n="6" %}. According to the team, his Red Bull years account for seven drivers' titles, six constructors' titles and 118 wins (including Toro Rosso's in 2008){% include src.html n="11" %}.
+- **Aston Martin.** He started there on 1 March 2025 as managing technical partner{% include src.html n="12" %}, then became team principal for the 2026 season{% include src.html n="13,15" %}.
 
 The regulations change, the skill remains: control of the aerodynamic system. The site's method treats this as a robustness test: the repetition criterion.
 
@@ -92,7 +92,7 @@ Yet his case rests on another criterion of the method: **staying at the top of a
 
 The accurate wording: **Newey played a leading role in the aerodynamic architecture of several generations of championship-winning cars, within collective technical teams.**
 
-At Williams, for example, [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) was the product of a chain that included [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}). According to Head, Newey took no part in developing the active system; as Autosport points out, it served above all as a stable platform for his aerodynamics. On the McLaren MP4-13, the brake steer was an idea of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) that predated Newey's arrival.
+At Williams, for example, [active suspension]({{ site.baseurl }}/en/glossary/#suspension-active) was the product of a chain that included [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) and [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}){% include src.html n="9,14" %}. According to Head, Newey took no part in developing the active system; as Autosport points out, it served above all as a stable platform for his aerodynamics{% include src.html n="9" %}. On the McLaren MP4-13, the brake steer was an idea of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) that predated Newey's arrival{% include src.html n="6" %}.
 
 ## Verdict
 

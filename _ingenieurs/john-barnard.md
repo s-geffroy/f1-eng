@@ -54,39 +54,39 @@ redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 
 ## 1981 — McLaren MP4/1 : le carbone
 
-La MP4/1 est la première F1 construite autour d'une **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégrale en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix. La Lotus 88, dont Autosport décrit la monocoque en composite fabriquée par l'équipe elle-même, est exclue dès les essais de Long Beach 1981 selon Motor Sport ; elle ne prend jamais part à une course.
+La MP4/1 est la première F1 construite autour d'une **[monocoque]({{ site.baseurl }}/glossaire/#monocoque) intégrale en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone)** à courir en Grand Prix{% include src.html n="1" %}. La Lotus 88, dont Autosport décrit la monocoque en composite fabriquée par l'équipe elle-même{% include src.html n="10" %}, est exclue dès les essais de Long Beach 1981 selon Motor Sport{% include src.html n="11" %} ; elle ne prend jamais part à une course{% include src.html n="10,11" %}.
 
-Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion. Il lui faut un nouveau matériau ; il le trouve, selon son récit, après une visite chez British Aerospace, qui fabriquait des capots en composites. Selon lui, [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}).
+Le carbone naît d'une contrainte aérodynamique : pour élargir les ailes sous la voiture, Barnard veut un châssis bien plus étroit en bas, ce qui coûte beaucoup de rigidité en torsion{% include src.html n="1,3,4" %}. Il lui faut un nouveau matériau ; il le trouve, selon son récit, après une visite chez British Aerospace, qui fabriquait des capots en composites{% include src.html n="3,4" %}. Selon lui, [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) l'oriente vers Hercules Aerospace{% include src.html n="3" %}, qui moule une coque brute ; McLaren l'ajuste et l'assemble par collage à partir de cinq éléments{% include src.html n="4" %}. Barnard conçoit la voiture entouré notamment de Steve Nichols et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}){% include src.html n="12,13" %}.
 
-Les effets touchent tout à la fois la rigidité, la masse, la sécurité, l'architecture et l'industrialisation du composite. La MP4/1 gagne le Grand Prix de Grande-Bretagne 1981, première victoire d'une voiture en composite carbone ; l'accident de John Watson à Monza la même année met fin, selon Barnard, aux mythes sur la fragilité du carbone. Le principe devient universel.
+Les effets touchent tout à la fois la rigidité, la masse, la sécurité, l'architecture et l'industrialisation du composite{% include src.html n="1" %}. La MP4/1 gagne le Grand Prix de Grande-Bretagne 1981, première victoire d'une voiture en composite carbone{% include src.html n="1,3" %} ; l'accident de John Watson à Monza la même année met fin, selon Barnard, aux mythes sur la fragilité du carbone{% include src.html n="3" %}. Le principe devient universel{% include src.html n="2,3" %}.
 
 ## 1984 — McLaren MP4/2 : le moteur à ses cotes
 
-Pour la MP4/2, Barnard impose à Porsche les dimensions du [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo TAG, au service de l'aérodynamique du fond. La voiture gagne 12 des 16 courses de 1984.
+Pour la MP4/2, Barnard impose à Porsche les dimensions du [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo TAG, au service de l'aérodynamique du fond{% include src.html n="4" %}. La voiture gagne 12 des 16 courses de 1984{% include src.html n="4" %}.
 
 ## 1989 — Ferrari 640 : la boîte semi-automatique
 
-Installé dans un bureau d'études en Angleterre, le Guildford Technical Office, Barnard introduit sur la Ferrari 640 la **[boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) commandée au volant**, d'abord prévue pour la 639 qui n'a jamais couru :
+Installé dans un bureau d'études en Angleterre, le Guildford Technical Office, Barnard introduit sur la Ferrari 640 la **[boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) commandée au volant**, d'abord prévue pour la 639 qui n'a jamais couru{% include src.html n="3,5,6" %} :
 
-- disparition progressive du levier en H ;
-- moins d'erreurs de changement de rapport ;
-- mains maintenues sur le volant ;
-- cockpit plus compact ;
-- ouverture vers la gestion électronique de la transmission.
+- disparition progressive du levier en H{% include src.html n="9" %} ;
+- moins d'erreurs de changement de rapport{% include src.html n="3,7" %} ;
+- mains maintenues sur le volant{% include src.html n="5,7" %} ;
+- cockpit plus compact{% include src.html n="7,9" %} ;
+- ouverture vers la gestion électronique de la transmission{% include src.html n="7" %}.
 
-La même voiture adopte une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable. La 640 gagne d'entrée au Brésil, puis en Hongrie et au Portugal.
+La même voiture adopte une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable{% include src.html n="5,6" %}. La 640 gagne d'entrée au Brésil, puis en Hongrie et au Portugal{% include src.html n="5,7" %}.
 
 ## Parcours technique
 
-- Diplômé du Watford College of Technology, il entre chez Lola, où il dessine la T250 de Formule Super Vee.
-- Chez McLaren à partir de 1972, il travaille avec Gordon Coppuck sur l'IndyCar M16 et sur la M23 championne du monde.
-- Chez Vel's Parnelli Jones, il conçoit la VPJ-6, première IndyCar à moteur Cosworth DFX. Il dessine ensuite la Chaparral 2K, première IndyCar à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) intégral, avec laquelle Johnny Rutherford gagne les 500 Miles d'Indianapolis 1980.
-- De retour chez Ferrari dans les années 1990, il dessine la F310, avec laquelle Michael Schumacher gagne trois courses en 1996. Il rachète ensuite le bureau d'études anglais de Ferrari, qui devient B3 Technologies.
-- L'Arrows A19 est la dernière F1 entièrement créditée à Barnard.
+- Diplômé du Watford College of Technology, il entre chez Lola, où il dessine la T250 de Formule Super Vee{% include src.html n="3,8" %}.
+- Chez McLaren à partir de 1972, il travaille avec Gordon Coppuck sur l'IndyCar M16 et sur la M23 championne du monde{% include src.html n="8" %}.
+- Chez Vel's Parnelli Jones, il conçoit la VPJ-6, première IndyCar à moteur Cosworth DFX{% include src.html n="3" %}. Il dessine ensuite la Chaparral 2K, première IndyCar à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) intégral, avec laquelle Johnny Rutherford gagne les 500 Miles d'Indianapolis 1980{% include src.html n="3,8" %}.
+- De retour chez Ferrari dans les années 1990, il dessine la F310, avec laquelle Michael Schumacher gagne trois courses en 1996{% include src.html n="2,3" %}. Il rachète ensuite le bureau d'études anglais de Ferrari, qui devient B3 Technologies{% include src.html n="3,8" %}.
+- L'Arrows A19 est la dernière F1 entièrement créditée à Barnard{% include src.html n="3" %}.
 
 ## Attribution
 
-L'idée des palettes au volant de la Ferrari 640 ne vient pas de lui : Barnard raconte qu'elle a été suggérée par quelqu'un de son bureau d'études, sur le modèle des karts ; Motorsport.com l'attribue à Piero Lardi Ferrari. Barnard reste celui qui a conçu et introduit le système en course.
+L'idée des palettes au volant de la Ferrari 640 ne vient pas de lui : Barnard raconte qu'elle a été suggérée par quelqu'un de son bureau d'études, sur le modèle des karts{% include src.html n="5" %} ; Motorsport.com l'attribue à Piero Lardi Ferrari{% include src.html n="7" %}. Barnard reste celui qui a conçu et introduit le système en course{% include src.html n="2,5" %}.
 
 ## Pourquoi le n° 2
 

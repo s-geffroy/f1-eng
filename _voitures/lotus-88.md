@@ -31,25 +31,25 @@ image: "/assets/partage/voitures/lotus-88.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 88 répond à un problème de la Lotus 80. Pour tenir une voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) à la bonne hauteur, il faut des ressorts très raides. Peter Wright se souvient d'un essai en 1980 : avec des ressorts de plus en plus durs, le pilote finit par dire que la voiture serait fantastique, s'il arrivait seulement à garder les pieds sur les pédales.
+La Lotus 88 répond à un problème de la Lotus 80{% include src.html n="1" %}. Pour tenir une voiture à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) à la bonne hauteur, il faut des ressorts très raides{% include src.html n="1" %}. Peter Wright se souvient d'un essai en 1980 : avec des ressorts de plus en plus durs, le pilote finit par dire que la voiture serait fantastique, s'il arrivait seulement à garder les pieds sur les pédales{% include src.html n="1" %}.
 
-Lotus imagine deux réponses. Le plan B sera la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active), sur la Lotus 92 de 1983. Le plan A, c'est la 88 : deux châssis et deux suspensions.
+Lotus imagine deux réponses{% include src.html n="1" %}. Le plan B sera la [suspension active]({{ site.baseurl }}/glossaire/#suspension-active), sur la Lotus 92 de 1983{% include src.html n="1" %}. Le plan A, c'est la 88 : deux châssis et deux suspensions{% include src.html n="1" %}.
 
-- Au centre, une [monocoque]({{ site.baseurl }}/glossaire/#monocoque) classique, avec une suspension réglée pour le pilote.
-- Autour d'elle, comme une boîte autour d'un cadeau, un second châssis porte l'aileron arrière et le fond, qui reçoivent l'essentiel des efforts aérodynamiques. Il repose sur les triangles de suspension par des ressorts souples.
+- Au centre, une [monocoque]({{ site.baseurl }}/glossaire/#monocoque) classique, avec une suspension réglée pour le pilote{% include src.html n="1" %}.
+- Autour d'elle, comme une boîte autour d'un cadeau, un second châssis porte l'aileron arrière et le fond, qui reçoivent l'essentiel des efforts aérodynamiques{% include src.html n="1" %}. Il repose sur les triangles de suspension par des ressorts souples{% include src.html n="1" %}.
 
-La coque est en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone), avec une âme en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) Nomex. Elle est moulée à plat sur une plaque de verre, stratifiée à la main et cuite sans autoclave : quatre mois de l'idée à la première coque. Cosworth fournit un moteur spécial dont certaines pompes sont déplacées sur le côté, pour laisser bouger la caisse extérieure.
+La coque est en [composite carbone]({{ site.baseurl }}/glossaire/#composite-carbone), avec une âme en [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) Nomex{% include src.html n="1,2" %}. Elle est moulée à plat sur une plaque de verre, stratifiée à la main et cuite sans autoclave : quatre mois de l'idée à la première coque{% include src.html n="1,2" %}. Cosworth fournit un moteur spécial dont certaines pompes sont déplacées sur le côté, pour laisser bouger la caisse extérieure{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
-L'idée vient de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui cherchait à appliquer l'effet de sol aux voitures de route. [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) l'envoie, avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), dessiner une voiture de course sur ce principe : d'abord la Lotus 86, puis la 88. Le joint d'angle de la coque est une idée d'Ogilvie. Chapman, qui s'enthousiasme pour le projet, mène le combat réglementaire.
+L'idée vient de [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), qui cherchait à appliquer l'effet de sol aux voitures de route{% include src.html n="1" %}. [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) l'envoie, avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), dessiner une voiture de course sur ce principe : d'abord la Lotus 86, puis la 88{% include src.html n="1" %}. Le joint d'angle de la coque est une idée d'Ogilvie{% include src.html n="1" %}. Chapman, qui s'enthousiasme pour le projet, mène le combat réglementaire{% include src.html n="1,2" %}.
 
 ## Limites
 
-Le règlement exige que les pièces aérodynamiques restent immobiles par rapport à la partie suspendue de la voiture. Wright tient la 88 pour légale, mais reconnaît que le règlement voulait empêcher que les efforts aérodynamiques passent directement aux masses non suspendues, « et c'est sans aucun doute ce que nous faisions ». Il ajoute que les ressorts souples étaient « un peu fragiles ».
+Le règlement exige que les pièces aérodynamiques restent immobiles par rapport à la partie suspendue de la voiture{% include src.html n="2" %}. Wright tient la 88 pour légale, mais reconnaît que le règlement voulait empêcher que les efforts aérodynamiques passent directement aux masses non suspendues, « et c'est sans aucun doute ce que nous faisions »{% include src.html n="1" %}. Il ajoute que les ressorts souples étaient « un peu fragiles »{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **1981** : aux essais de Long Beach, le 13 mars, la voiture reçoit le drapeau noir. Chapman tente de l'engager à d'autres courses, sans plus de succès. À Silverstone, en juillet, la version 88B est acceptée par les commissaires du RAC ; dès le lendemain, la fédération la déclare illégale.
-- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix ; c'était avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}), en avril.
-- Le plan B, la suspension active, sera la suite du travail de Lotus.
+- **1981** : aux essais de Long Beach, le 13 mars, la voiture reçoit le drapeau noir{% include src.html n="3" %}. Chapman tente de l'engager à d'autres courses, sans plus de succès{% include src.html n="3" %}. À Silverstone, en juillet, la version 88B est acceptée par les commissaires du RAC ; dès le lendemain, la fédération la déclare illégale{% include src.html n="3" %}.
+- Classic Team Lotus souligne que sa coque composite est la première à avoir roulé en piste lors d'un week-end de Grand Prix{% include src.html n="4" %} ; c'était avant les débuts en course de la [McLaren MP4/1]({{ site.baseurl }}{% link _voitures/mclaren-mp4-1.md %}), en avril.
+- Le plan B, la suspension active, sera la suite du travail de Lotus{% include src.html n="1" %}.

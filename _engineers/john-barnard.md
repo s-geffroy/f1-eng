@@ -53,39 +53,39 @@ image: "/assets/partage/en/john-barnard.jpg"
 
 ## 1981 — McLaren MP4/1: carbon
 
-The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix. The Lotus 88, whose composite monocoque Autosport describes as built in-house, was excluded during practice at Long Beach in 1981 according to Motor Sport; it never took part in a race.
+The MP4/1 was the first F1 car built around a **full [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque)** to race in a Grand Prix{% include src.html n="1" %}. The Lotus 88, whose composite monocoque Autosport describes as built in-house{% include src.html n="10" %}, was excluded during practice at Long Beach in 1981 according to Motor Sport{% include src.html n="11" %}; it never took part in a race{% include src.html n="10,11" %}.
 
-Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which cost a great deal of torsional stiffness. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces. Barnard designed the car with a team that notably included Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}).
+Carbon was born of an aerodynamic constraint: to widen the wings under the car, Barnard wanted a chassis much narrower at the bottom, which cost a great deal of torsional stiffness{% include src.html n="1,3,4" %}. He needed a new material; he found it, by his own account, after a visit to British Aerospace, which was making composite cowlings{% include src.html n="3,4" %}. By his account, [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) steered him towards Hercules Aerospace{% include src.html n="3" %}, which moulded a raw tub; McLaren trimmed it and bonded it together from five pieces{% include src.html n="4" %}. Barnard designed the car with a team that notably included Steve Nichols and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}){% include src.html n="12,13" %}.
 
-The effects touched stiffness, weight, safety, architecture and the industrialisation of composites all at once. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility. The principle became universal.
+The effects touched stiffness, weight, safety, architecture and the industrialisation of composites all at once{% include src.html n="1" %}. The MP4/1 won the 1981 British Grand Prix, the first victory for a carbon composite car{% include src.html n="1,3" %}; John Watson's crash at Monza the same year put an end, according to Barnard, to the myths about carbon's fragility{% include src.html n="3" %}. The principle became universal{% include src.html n="2,3" %}.
 
 ## 1984 — McLaren MP4/2: the engine to his dimensions
 
-For the MP4/2, Barnard imposed the dimensions of the TAG turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) on Porsche, to serve the aerodynamics of the underbody. The car won 12 of the 16 races of 1984.
+For the MP4/2, Barnard imposed the dimensions of the TAG turbo [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) on Porsche, to serve the aerodynamics of the underbody{% include src.html n="4" %}. The car won 12 of the 16 races of 1984{% include src.html n="4" %}.
 
 ## 1989 — Ferrari 640: the semi-automatic gearbox
 
-Based in a design office in England, the Guildford Technical Office, Barnard introduced on the Ferrari 640 the **[semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique) controlled from the steering wheel**, originally planned for the 639, which never raced:
+Based in a design office in England, the Guildford Technical Office, Barnard introduced on the Ferrari 640 the **[semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique) controlled from the steering wheel**, originally planned for the 639, which never raced{% include src.html n="3,5,6" %}:
 
-- gradual disappearance of the H-pattern lever;
-- fewer gear-change errors;
-- hands kept on the wheel;
-- a more compact cockpit;
-- an opening towards electronic management of the transmission.
+- gradual disappearance of the H-pattern lever{% include src.html n="9" %};
+- fewer gear-change errors{% include src.html n="3,7" %};
+- hands kept on the wheel{% include src.html n="5,7" %};
+- a more compact cockpit{% include src.html n="7,9" %};
+- an opening towards electronic management of the transmission{% include src.html n="7" %}.
 
-The same car used front suspension with short torsion bars, which according to Barnard started a lasting fashion. The 640 won first time out in Brazil, then in Hungary and Portugal.
+The same car used front suspension with short torsion bars, which according to Barnard started a lasting fashion{% include src.html n="5,6" %}. The 640 won first time out in Brazil, then in Hungary and Portugal{% include src.html n="5,7" %}.
 
 ## Technical career
 
-- A graduate of Watford College of Technology, he joined Lola, where he drew the T250 for Formula Super Vee.
-- At McLaren from 1972, he worked with Gordon Coppuck on the M16 IndyCar and on the world-championship-winning M23.
-- At Vel's Parnelli Jones, he designed the VPJ-6, the first Cosworth DFX-engined IndyCar. He then drew the Chaparral 2K, the first full [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) IndyCar, with which Johnny Rutherford won the 1980 Indianapolis 500.
-- Back at Ferrari in the 1990s, he drew the F310, with which Michael Schumacher won three races in 1996. He then bought Ferrari's English design office, which became B3 Technologies.
-- The Arrows A19 is the last F1 car fully credited to Barnard.
+- A graduate of Watford College of Technology, he joined Lola, where he drew the T250 for Formula Super Vee{% include src.html n="3,8" %}.
+- At McLaren from 1972, he worked with Gordon Coppuck on the M16 IndyCar and on the world-championship-winning M23{% include src.html n="8" %}.
+- At Vel's Parnelli Jones, he designed the VPJ-6, the first Cosworth DFX-engined IndyCar{% include src.html n="3" %}. He then drew the Chaparral 2K, the first full [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) IndyCar, with which Johnny Rutherford won the 1980 Indianapolis 500{% include src.html n="3,8" %}.
+- Back at Ferrari in the 1990s, he drew the F310, with which Michael Schumacher won three races in 1996{% include src.html n="2,3" %}. He then bought Ferrari's English design office, which became B3 Technologies{% include src.html n="3,8" %}.
+- The Arrows A19 is the last F1 car fully credited to Barnard{% include src.html n="3" %}.
 
 ## Attribution
 
-The idea of the steering-wheel paddles on the Ferrari 640 did not itself come from him: Barnard says it was suggested by someone in his design office, inspired by karts; Motorsport.com attributes it to Piero Lardi Ferrari. Barnard remains the one who designed the system and introduced it in racing.
+The idea of the steering-wheel paddles on the Ferrari 640 did not itself come from him: Barnard says it was suggested by someone in his design office, inspired by karts{% include src.html n="5" %}; Motorsport.com attributes it to Piero Lardi Ferrari{% include src.html n="7" %}. Barnard remains the one who designed the system and introduced it in racing{% include src.html n="2,5" %}.
 
 ## Why number two
 

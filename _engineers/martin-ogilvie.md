@@ -37,30 +37,30 @@ image: "/assets/partage/en/martin-ogilvie.jpg"
 ---
 ## What he did
 
-Martin Ogilvie is a Team Lotus engineer. On the **Lotus 78**, he detailed the suspension and the other "moving parts", while [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) drew the car and [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) led the aerodynamics.
+Martin Ogilvie is a Team Lotus engineer{% include src.html n="6" %}. On the **Lotus 78**, he detailed the suspension and the other "moving parts", while [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) drew the car and [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) led the aerodynamics{% include src.html n="1" %}.
 
 ## Career at Lotus
 
-- **Training.** A mechanical engineering graduate of Birmingham University (Sports Car Digest), he first designed F1 brakes at Girling, which counted Lotus among its customers, according to OldRacingCars.com.
-- **Joining.** Sports Car Digest has him joining Team Lotus in mid-1972; according to Gary Watkins (Motor Sport, 2004), he arrived shortly before the move to Ketteringham Hall, in the mid-1970s. He remembers [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s office having one-way glass so that Chapman could keep tabs on his design staff: "He'd then spend a few minutes rearranging what I'd spent all day doing. The annoying thing was that he was nearly always right."
-- **Lotus 77 (1976).** In October 1975, Motor Sport presented Lotus's new F1 car as "conceived by Colin Chapman and designed in detail by [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) and Martin Ogilvie".
-- When [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) went back to Lotus Cars, Wright and Ogilvie remained Chapman's direct collaborators.
-- **Lotus 80 (1979).** The aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque), with titanium parts, is his.
-- **Lotus 86 and 88 (1980-1981).** According to Wright, Chapman sent him and Ogilvie to design a racing car around Wright's idea, a hinged undertray; the result was the 86, on the 81's aluminium tub, then the twin-chassis 88. For its [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) tub, it was Ogilvie who suggested the construction method: a stiffness test on the honeycomb had broken the inner skin and folded the panel; he proposed cutting the inner skin, folding the panel and reinforcing it from inside, which gave the tub, moulded flat, its corners. Four months separated concept and first tub (Keith Howard, Motor Sport, 2005).
-- **Lotus 87 (1981).** After the Lotus 88 was banned, the team drew this more conventional car under Ogilvie's direction, on the same tub.
-- **1982-1983.** As Lotus chief designer, he concentrated mainly on the Renault turbo-engined 93T.
-- **1983.** He took part in designing the 94T, drawn and built in five weeks from the 87/88 tubs, along the lines set by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %}); Motor Sport, for its part, describes Ducarouge as the technical leader rather than the draughtsman of the cars credited to him.
-- **Lotus 96T (1984).** For this IndyCar project, Ducarouge entrusted the design to Ogilvie and Gene Varnier, with specifications on a single sheet of paper, alongside the 97T F1 car. Ogilvie prepared a presentation on the strength of a carbon monocoque to win over the American authorities; but CART's 1985 rules required an outer aluminium skin, and the car never raced (Gordon Cruickshank, Motor Sport, 2004).
+- **Training.** A mechanical engineering graduate of Birmingham University (Sports Car Digest){% include src.html n="11" %}, he first designed F1 brakes at Girling, which counted Lotus among its customers, according to OldRacingCars.com{% include src.html n="12" %}.
+- **Joining.** Sports Car Digest has him joining Team Lotus in mid-1972{% include src.html n="11" %}; according to Gary Watkins (Motor Sport, 2004), he arrived shortly before the move to Ketteringham Hall, in the mid-1970s{% include src.html n="8" %}. He remembers [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s office having one-way glass so that Chapman could keep tabs on his design staff: "He'd then spend a few minutes rearranging what I'd spent all day doing. The annoying thing was that he was nearly always right."{% include src.html n="8" %}
+- **Lotus 77 (1976).** In October 1975, Motor Sport presented Lotus's new F1 car as "conceived by Colin Chapman and designed in detail by [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) and Martin Ogilvie"{% include src.html n="7" %}.
+- When [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) went back to Lotus Cars, Wright and Ogilvie remained Chapman's direct collaborators{% include src.html n="4" %}.
+- **Lotus 80 (1979).** The aluminium [honeycomb]({{ site.baseurl }}/en/glossary/#nid-d-abeille) [monocoque]({{ site.baseurl }}/en/glossary/#monocoque), with titanium parts, is his{% include src.html n="2" %}.
+- **Lotus 86 and 88 (1980-1981).** According to Wright, Chapman sent him and Ogilvie to design a racing car around Wright's idea, a hinged undertray; the result was the 86, on the 81's aluminium tub, then the twin-chassis 88{% include src.html n="9" %}. For its [carbon composite]({{ site.baseurl }}/en/glossary/#composite-carbone) tub, it was Ogilvie who suggested the construction method: a stiffness test on the honeycomb had broken the inner skin and folded the panel; he proposed cutting the inner skin, folding the panel and reinforcing it from inside, which gave the tub, moulded flat, its corners{% include src.html n="9" %}. Four months separated concept and first tub (Keith Howard, Motor Sport, 2005){% include src.html n="9" %}.
+- **Lotus 87 (1981).** After the Lotus 88 was banned, the team drew this more conventional car under Ogilvie's direction, on the same tub{% include src.html n="3" %}.
+- **1982-1983.** As Lotus chief designer, he concentrated mainly on the Renault turbo-engined 93T{% include src.html n="5" %}.
+- **1983.** He took part in designing the 94T, drawn and built in five weeks from the 87/88 tubs, along the lines set by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %}); Motor Sport, for its part, describes Ducarouge as the technical leader rather than the draughtsman of the cars credited to him{% include src.html n="6" %}.
+- **Lotus 96T (1984).** For this IndyCar project, Ducarouge entrusted the design to Ogilvie and Gene Varnier, with specifications on a single sheet of paper, alongside the 97T F1 car{% include src.html n="10" %}. Ogilvie prepared a presentation on the strength of a carbon monocoque to win over the American authorities; but CART's 1985 rules required an outer aluminium skin, and the car never raced (Gordon Cruickshank, Motor Sport, 2004){% include src.html n="10" %}.
 
 ## After Lotus
 
-According to OldRacingCars.com, he then worked for Racing Team Norfolk and Prodrive, then, from 1996, designed hillclimb cars at his own company, Prototype Car Design; he also designed the Westfield FW400.
+According to OldRacingCars.com, he then worked for Racing Team Norfolk and Prodrive, then, from 1996, designed hillclimb cars at his own company, Prototype Car Design; he also designed the Westfield FW400{% include src.html n="12" %}.
 
 ## Attribution
 
-Ogilvie drew and led drawing work, but the concepts came from others: Chapman for the 77, Wright for the hinged undertray of the 86 and 88, Ducarouge for the lines of the 94T. The construction method of the 88's tub is his, on Wright's testimony alone.
+Ogilvie drew and led drawing work, but the concepts came from others: Chapman for the 77, Wright for the hinged undertray of the 86 and 88, Ducarouge for the lines of the 94T{% include src.html n="6,7,9" %}. The construction method of the 88's tub is his, on Wright's testimony alone{% include src.html n="9" %}.
 
 ## Where sources disagree
 
-- **When he joined Lotus**: mid-1972 according to Sports Car Digest; OldRacingCars.com lists him at Lotus from 1976 to 1988, whereas Motor Sport already credits him on the 77 in 1975.
+- **When he joined Lotus**: mid-1972 according to Sports Car Digest{% include src.html n="11" %}; OldRacingCars.com lists him at Lotus from 1976 to 1988{% include src.html n="12" %}, whereas Motor Sport already credits him on the 77 in 1975{% include src.html n="7" %}.
 

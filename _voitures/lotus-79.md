@@ -33,26 +33,26 @@ image: "/assets/partage/voitures/lotus-79.jpg"
 ---
 ## Ce qu'elle change
 
-La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol). La 79 est dessinée tout entière pour lui.
+La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="2,3" %}. La 79 est dessinée tout entière pour lui{% include src.html n="1" %}.
 
-- Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé. Les radiateurs d'eau et d'huile vont à l'entrée des flancs. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi).
-- Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes de la 78. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration.
-- La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et ne fait guère que porter les flancs.
+- Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé{% include src.html n="1" %}. Les radiateurs d'eau et d'huile vont à l'entrée des flancs{% include src.html n="1" %}. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}.
+- Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes de la 78{% include src.html n="1" %}. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration{% include src.html n="1" %}.
+- La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et ne fait guère que porter les flancs{% include src.html n="3" %}.
 
-Présentée au public, la voiture noire est surnommée « Black Beauty ».
+Présentée au public, la voiture noire est surnommée « Black Beauty »{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
-Chapman est cette fois plus directement impliqué que sur la 78. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), à l'origine des travaux aérodynamiques de la 78, raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. » [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture.
+Chapman est cette fois plus directement impliqué que sur la 78{% include src.html n="1" %}. [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}), à l'origine des travaux aérodynamiques de la 78, raconte : « Colin est parti en vacances à Ibiza, il a esquissé tout l'ensemble au crayon et l'a remis à Martin. »{% include src.html n="1" %} [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}) transforment ce schéma en voiture{% include src.html n="1" %}.
 
-Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe : formula1.com crédite la 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}), et, selon GrandPrix.com, Southgate retourne chez Shadow au milieu de 1977, Bellamy part chez Fittipaldi en 1978. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie.
+Selon Motor Sport, Chapman s'implique d'autant plus que les deux concepteurs de la 78 ont quitté l'équipe{% include src.html n="1" %} : formula1.com crédite la 78 à [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}) et [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}){% include src.html n="2" %}, et, selon GrandPrix.com, Southgate retourne chez Shadow au milieu de 1977{% include src.html n="5" %}, Bellamy part chez Fittipaldi en 1978{% include src.html n="4" %}. « Colin a pris la direction d'ensemble, pour le meilleur et pour le pire », dit Ogilvie{% include src.html n="1" %}.
 
 ## Limites
 
-La 79 manque de rigidité. Ogilvie le reconnaît : « La 79 n'a jamais été rigide, et sa résistance en torsion a presque diminué de moitié après quelques courses, quand ses rivets ont pris du jeu. »
+La 79 manque de rigidité{% include src.html n="1,3" %}. Ogilvie le reconnaît : « La 79 n'a jamais été rigide, et sa résistance en torsion a presque diminué de moitié après quelques courses, quand ses rivets ont pris du jeu. »{% include src.html n="1" %}
 
 ## Ce qu'elle laisse
 
-- **1978** : six victoires. Mario Andretti est champion du monde, le premier sur une voiture à effet de sol, et Lotus remporte le titre constructeurs devant Ferrari.
-- Dès 1979, elle est dépassée par la Ligier de [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}), puis par la Williams FW07 de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), que Wright qualifie de « 79 rigide ».
-- Sa réussite pousse [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) à chercher une autre voie chez Brabham : la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}).
+- **1978** : six victoires{% include src.html n="1" %}. Mario Andretti est champion du monde, le premier sur une voiture à effet de sol, et Lotus remporte le titre constructeurs devant Ferrari{% include src.html n="1,2,3" %}.
+- Dès 1979, elle est dépassée par la Ligier de [Gérard Ducarouge]({{ site.baseurl }}{% link _ingenieurs/gerard-ducarouge.md %}), puis par la Williams FW07 de [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}), que Wright qualifie de « 79 rigide »{% include src.html n="1" %}.
+- Sa réussite pousse [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) à chercher une autre voie chez Brabham : la [BT46B]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="1" %}.

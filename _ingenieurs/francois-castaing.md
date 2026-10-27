@@ -28,16 +28,16 @@ image: "/assets/partage/francois-castaing.jpg"
 ---
 ## Ce qu'il a fait
 
-François Castaing est, avec Jean-Pierre Boudy, l'ingénieur du **V6 dont dérivent tous les moteurs turbo de F1 de Renault**, et le premier directeur technique du programme F1 de la marque.
+François Castaing est, avec Jean-Pierre Boudy, l'ingénieur du **V6 dont dérivent tous les moteurs turbo de F1 de Renault**, et le premier directeur technique du programme F1 de la marque{% include src.html n="2" %}.
 
 ## Parcours technique
 
-- En 1968, encore étudiant, il entre chez Gordini ; son premier travail porte sur les moteurs du Mans.
-- En 1972, avec [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}), il conçoit un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de 2 litres ouvert à 90°. Ce V6 CH1, de 270ch, équipe la barquette Alpine de 1973 ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault.
-- Directeur technique de Renault Sport, il soutient le programme d'endurance qui mène à la victoire au Mans en 1978.
-- Il est la cheville ouvrière du programme F1 jusqu'à la première victoire, au Grand Prix de France 1979, puis quitte Renault Sport pendant l'intersaison 1979-1980 ; [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) lui succède.
-- Après Renault, il passe chez AMC puis chez Chrysler, dont il dirige la conception à partir de 1988.
+- En 1968, encore étudiant, il entre chez Gordini ; son premier travail porte sur les moteurs du Mans{% include src.html n="1" %}.
+- En 1972, avec [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}), il conçoit un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de 2 litres ouvert à 90°{% include src.html n="2" %}. Ce V6 CH1, de 270ch, équipe la barquette Alpine de 1973{% include src.html n="3" %} ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault{% include src.html n="2" %}.
+- Directeur technique de Renault Sport, il soutient le programme d'endurance qui mène à la victoire au Mans en 1978{% include src.html n="1,3" %}.
+- Il est la cheville ouvrière du programme F1 jusqu'à la première victoire, au Grand Prix de France 1979{% include src.html n="1" %}, puis quitte Renault Sport pendant l'intersaison 1979-1980{% include src.html n="2" %} ; [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) lui succède{% include src.html n="4" %}.
+- Après Renault, il passe chez AMC puis chez Chrysler, dont il dirige la conception à partir de 1988{% include src.html n="1" %}.
 
 ## Attribution
 
-GrandPrix.com présente le premier moteur turbo EF1 comme conçu par Castaing. Plus précisément, l'EF1 est une version turbo du V6 conçu par Castaing **et** Jean-Pierre Boudy ; Castaing racontait d'ailleurs avoir d'abord été bien moins convaincu que Boudy qu'un turbo puisse fonctionner à l'essence du commerce.
+GrandPrix.com présente le premier moteur turbo EF1 comme conçu par Castaing{% include src.html n="4" %}. Plus précisément, l'EF1 est une version turbo du V6 conçu par Castaing **et** Jean-Pierre Boudy ; Castaing racontait d'ailleurs avoir d'abord été bien moins convaincu que Boudy qu'un turbo puisse fonctionner à l'essence du commerce{% include src.html n="2" %}.
