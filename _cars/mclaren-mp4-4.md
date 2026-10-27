@@ -37,7 +37,7 @@ In 1988, the last season of [turbo]({{ site.baseurl }}/en/glossary/#turbocompres
 
 Its principle: a very low car. The new Honda V6 had its crankshaft 28mm lower than its predecessor's. A conventional two-shaft gearbox would have forced poor driveshaft angles, so [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and [David North]({{ site.baseurl }}{% link _engineers/david-north.md %}) designed a gearbox with three stacked shafts. "The key to success of the MP4/4 was the gearbox," says Gordon Murray. Lotus, which received the same engine, kept its gearbox and tilted the engine, losing much of the advantage.
 
-McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, right down to the smallest detail.
+McLaren also describes it as a highly successful development of the 1981 [carbon chassis]({{ site.baseurl }}/en/glossary/#composite-carbone) concept, fully worked out down to the smallest detail.
 
 ## Who designed it
 

@@ -29,14 +29,14 @@ image: "/assets/partage/en/voitures/lancia-d50.jpg"
 ---
 ## What it changed
 
-The D50 made its debut at the Spanish Grand Prix, at Pedralbes, in October 1954. Its V8 is not merely mounted in the chassis: it is a [structural element]({{ site.baseurl }}/en/glossary/#moteur-porteur) of it. The base remains a short [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire), but the engine at the front and the transaxle at the rear form its two load-bearing ends.
+The D50 made its debut at the Spanish Grand Prix, at Pedralbes, in October 1954. Its V8 was not merely mounted in the chassis: it was a [structural element]({{ site.baseurl }}/en/glossary/#moteur-porteur) of it. The base remained a short [tubular spaceframe]({{ site.baseurl }}/en/glossary/#chassis-tubulaire), but the engine at the front and the transaxle at the rear formed its two load-bearing ends.
 
-Two other choices serve the same aim, a compact and well-balanced car:
+Two other choices served the same aim, a compact and well-balanced car:
 
-- the engine is angled at eight degrees, so that the propeller shaft runs beside the driver, who sits lower;
-- the fuel is carried in two long side tanks, between the front and rear wheels: the handling changes little between full and empty tanks.
+- the engine was angled at eight degrees, so that the propeller shaft ran beside the driver, who sat lower;
+- the fuel was carried in two long side tanks, between the front and rear wheels: the handling changed little between full and empty tanks.
 
-These concentrated masses give it a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire). According to Motor Sport, it was the most agile F1 car of its time.
+These concentrated masses gave it a low [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire). According to Motor Sport, it was the most agile F1 car of its time.
 
 ## Who designed it
 

@@ -41,7 +41,7 @@ McLaren presents it as the first F1 car designed in carbon composite. Because no
 
 [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) was its designer, supported notably by [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), who by his account joined Barnard and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}): "just the three of us".
 
-- **The Hercules contact.** Barnard says it was Nichols who pointed him towards Hercules Aerospace. McLaren's page instead attributes it to an acquaintance of Barnard's from his IndyCar years, without naming him.
+- **The Hercules contact.** Barnard says it was Nichols who pointed him towards Hercules Aerospace. McLaren's page instead attributes it to an acquaintance of Barnard's from his IndyCar years, without giving a name.
 - **The materials calculations.** According to Autosport, British Aerospace introduced Barnard to the aeronautical engineer [Arthur Webb]({{ site.baseurl }}{% link _engineers/arthur-webb.md %}), who gave him the materials science he needed.
 
 ## Limitations

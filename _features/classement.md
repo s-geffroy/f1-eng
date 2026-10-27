@@ -45,7 +45,7 @@ This table shows **intellectual lineages**, not master–pupil relationships. Wh
 
 ## Three ways to be at the top
 
-- **Chapman**: multiple breakthroughs, through an accumulation of architectural ruptures.
+- **Chapman**: multiple breakthroughs, through an accumulation of radical architectural changes.
 - **Barnard**: probably the clearest authorship, with two direct innovations that became universal.
 - **Newey**: the most durable adaptation, at the top of aerodynamics across several generations of regulations.
 
@@ -55,7 +55,7 @@ This ranking is not a one-dimensional scale of "genius". It ranks **historical c
 
 ## Further reading
 
-- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) places these breakthroughs on a timeline, from the 1946 Cooper 500 to the 2022 Red Bull.
+- The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) lays these breakthroughs out in time, from the 1946 Cooper 500 to the 2022 Red Bull.
 - The [technical glossary]({{ '/en/glossary/' | relative_url }}) explains the terms used: ground effect, monocoque, pneumatic valve springs…
 - The [index]({{ '/en/' | relative_url }}) also lists thirty-eight unranked entries, marked HC: the other people behind these innovations.
 

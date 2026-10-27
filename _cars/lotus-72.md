@@ -34,8 +34,8 @@ image: "/assets/partage/en/voitures/lotus-72.jpg"
 Classic Team Lotus sums up its radical features: radiators placed at the sides, wedge shape, inboard front brakes, torsion-bar suspension.
 
 - **The radiators** left the nose for the flanks, in what are now called sidepods. The low, wedge-shaped nose was freed up. The 1968 Lotus 56 turbine car had already shown a single-seater with no radiator at the front, but only because it did not need one.
-- **The front brakes** were moved inboard: discs and calipers no longer weigh on the wheel, which reduces unsprung mass.
-- **The DFV bolted** to the rear carries the rear suspension, as on the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) ([stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur)).
+- **The front brakes** were moved inboard: discs and calipers no longer weighed on the wheel, which reduced unsprung mass.
+- **The DFV bolted** to the rear carried the rear suspension, as on the [Lotus 49]({{ site.baseurl }}{% link _cars/lotus-49.md %}) ([stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur)).
 
 ## Who designed it
 

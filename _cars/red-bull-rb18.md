@@ -51,9 +51,9 @@ For Honda, the car's main feature lay elsewhere: sidepods with a deep undercut, 
 
 ## Who designed it
 
-A technical team, but the sources do not agree on [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})'s share, then chief technical officer:
+A technical team, but the sources do not agree on the share of [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), then chief technical officer:
 
-- according to formula1.com in November 2022, Newey fed into a group including technical director Pierre Waché, head of aerodynamics Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse and Paul Monaghan; his actual design input was limited to the suspension, a crucial part of the whole;
+- according to formula1.com in November 2022, Newey fed into a group including technical director Pierre Waché, head of aerodynamics Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse and Paul Monaghan; his direct design input was limited to the suspension, a crucial part of the whole;
 - according to formula1.com in 2024, he also fed key ideas into the concept, drawing on his experience of ground-effect cars, and recognised that downforce had to be delivered dependably;
 - Honda speaks of development "spearheaded by" Newey, and Motor Sport of an "Adrian Newey-led" team.
 
@@ -61,7 +61,7 @@ Both formula1.com articles agree on one point: Newey personally designed the fro
 
 ## Limitations
 
-At the start of the season the RB18 was well over the minimum weight, mostly at the front: it understeered more than Max Verstappen likes and was prone to locking its front brakes. The weight came down race by race, with a new floor at Imola, redesigned brakes and hollowed-out parts first made solid for lack of time.
+At the start of the season the RB18 was well over the minimum weight, mostly at the front: it understeered more than Max Verstappen liked and was prone to locking its front brakes. The weight came down race by race, with a new floor at Imola, redesigned brakes and hollowed-out parts first made solid for lack of time.
 
 ## Legacy
 

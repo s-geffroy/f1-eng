@@ -38,7 +38,7 @@ Other questions are used to **correct and interpret** the score, without being m
 - **Longevity**: a concept that survives several sets of regulations weighs more than a temporary innovation.
 - **Banned innovation**: a ban does not erase the value of a breakthrough, but nor does it prove lasting influence.
 - **Repetition**: staying at the frontier across several regulatory generations is a test of robustness.
-- **Gap to the state of the art**: we distinguish the distance from its own era and the absolute impact on later F1.
+- **Gap to the state of the art**: we distinguish between the lead over its own era and the absolute impact on later F1.
 - **Counterfactual**: without this engineer, would F1 have adopted the same solution at the same time? An almost inevitable evolution, the acceleration of a mature evolution, a breakthrough unlikely in the short term, or the creation of a new trajectory?
 - **Object or process**: changing the car and changing *the way the car is designed* are two different things.
 - **Operational engineering**: telemetry, simulation, software and race methods count as soon as they lastingly transform the profession.
@@ -55,7 +55,7 @@ F1 history loves isolated heroes. Yet a single revolution involves several roles
 6. the **technical leader** who organises the team;
 7. the **diffuser** who turns it into a standard.
 
-The rule is simple: **several people are not given full credit for the same contribution.** Four cases illustrate the difficulty.
+The rule is simple: **the same contribution is not credited in full to more than one person.** Four cases illustrate the difficulty.
 
 **Lotus ground effect.** [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}) had worked on the concept at BRM. At Lotus, [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) asked them to rethink the fundamental configuration of an F1 car; the wind tunnel work led to the Lotus 78, drawn by [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}), with Peter Wright on aerodynamics, [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) on suspension and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}) on development. Chapman directed and catalysed the programme that made ground effect workable and dominant; he did not invent it.
 

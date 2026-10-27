@@ -46,7 +46,7 @@ The idea came from [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wri
 
 ## Limitations
 
-The regulations required aerodynamic parts to remain immobile relative to the sprung part of the car. Wright considered the 88 legal, but acknowledged that the rule was meant to prevent aerodynamic loads from passing directly to the unsprung masses, "and we were undoubtedly doing that". He adds that the soft springs were "a bit fragile".
+The regulations required aerodynamic parts to remain immobile relative to the sprung part of the car. Wright considered the 88 legal, but acknowledged that the rule was meant to prevent aerodynamic loads from passing directly to the unsprung masses, "and we were undoubtedly doing that". He added that the soft springs were "a bit fragile".
 
 ## Legacy
 

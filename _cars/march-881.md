@@ -24,7 +24,7 @@ image: "/assets/partage/en/voitures/march-881.jpg"
 ---
 ## What it changed
 
-In 1988, its second season since returning to F1, March had a naturally aspirated Judd engine of about 580bhp, against far more powerful turbos. To stand any chance, Edd Straw writes, the car had to be aerodynamically efficient. Adrian Newey sums up the era: with a turbo, the way to go faster was more boost and ever bigger rear wings.
+In 1988, its second season since returning to F1, March had a naturally aspirated Judd engine of about 580bhp, against far more powerful turbos. To stand any chance, Edd Straw writes, the car had to be highly efficient aerodynamically. Adrian Newey sums up the era: with a turbo, the way to go faster was more boost and ever bigger rear wings.
 
 The 881 treated the front differently. Until then, according to formula1.com, the convention was a bulky nose flanked by two separate flaps. Newey merged the nose and front [wing]({{ site.baseurl }}/en/glossary/#aileron) into a single assembly, the wing spanning the full width of the car for maximum [downforce]({{ site.baseurl }}/en/glossary/#appui). The assembly ensured clean airflow beneath the wing, and so to the floor; and the underside of the nose was undercut: the low pressure there drew air onto the wing and increased downforce.
 

@@ -22,33 +22,33 @@ This is the key to reading the whole ranking.
 
 ## No. 1 — Colin Chapman (96/100)
 
-Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25 (layout by Chapman, detail drawing by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, riveted assembly worked out by [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})), the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}). The 1970 Lotus 72, with its side-mounted radiators, was co-designed by [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}), each one's share remaining disputed. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
+Chapman accumulates several architectural changes rather than a single breakthrough: the aluminium monocoque of the Lotus 25 (layout by Chapman, detail drawing by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, riveted assembly worked out by [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})), the relentless pursuit of low weight, the engine used as a structural member (generalised with the Lotus 49; the Lancia D50 used it as early as 1954), an early exploitation of aerodynamics, and the leadership of the Lotus programme that led to ground effect, carried out with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) and [Tony Rudd]({{ site.baseurl }}{% link _engineers/tony-rudd.md %}). The 1970 Lotus 72, with its side-mounted radiators, was co-designed with [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}), though their respective shares remain disputed. **Several breakthroughs, one philosophy: architecture, lightness, aero.**
 
-See the entry [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})
+See the [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) entry
 
 ## No. 2 — John Barnard (95/100)
 
 Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. In this ranking, Barnard is probably the revolutionary whose personal authorship is the clearest.
 
-See the entry [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})
+See the [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) entry
 
 ## No. 3 — John Cooper (93.5/100)
 
 The decisive switch from front engine to **mid-engine** — a layout Cooper did not invent, but which he popularised and made a winner — changed at a stroke the weight distribution, the polar moment of inertia, traction, packaging, the chassis and future aerodynamics. After Cooper's titles in 1959 and 1960, the front engine became obsolete. Credit is shared with [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}), Cooper's chief designer during those two titles.
 
-See the entry [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %})
+See the [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) entry
 
 ## No. 4 — Keith Duckworth (92.5/100)
 
 The **Cosworth DFV** transformed the engine and the economics of the grid: compact and powerful, used as a structural component on the Lotus 49, then available to many teams, which could concentrate their resources on the chassis and aerodynamics. It won **more than 150 world championship Grands Prix** from 1967 to 1983, the last of them in its DFY version (the exact count varies between sources: see the entry). The DFV remains a Cosworth achievement, with **[Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})** in the causal chain.
 
-See the entry [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})
+See the [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) entry
 
 ## No. 5 — Adrian Newey (91.5/100)
 
 There is no point looking for "the Newey invention". His contribution is a **systemic method**: designing the car as an integrated aerodynamic system, in which suspension, geometry, cooling, structure and packaging all serve overall control of the airflow. He has demonstrated it under several sets of regulations, at March (which became Leyton House), Williams, McLaren and Red Bull, then Aston Martin since 2025. What sets him apart is repetition, not the one-off stroke.
 
-See the entry [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %})
+See the [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) entry
 
 ## Why isn't Newey number one?
 

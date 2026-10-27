@@ -49,7 +49,7 @@ An ironic detail: the 2009 aerodynamic rules that hampered the car so much came 
 
 ## Limitations
 
-- **A huge deficit.** At the winter test in Barcelona, with its final upgrade fitted, the car was still 2.4 seconds off, Lowe recalled. According to Fry, there was no fundamental mistake: "We hadn't bolted enough downforce onto it."
+- **A huge deficit.** At the winter test in Barcelona, with its latest upgrades fitted, the car was still 2.4 seconds off, Lowe recalled. According to Fry, there was no fundamental mistake: "We hadn't bolted enough downforce onto it."
 - **The double diffuser.** Brawn, Toyota and Williams raced a double [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur) from the start, declared legal on appeal on 14 April. McLaren had looked at something similar around Christmas 2007, but lacked the resources to run two programmes at once; Lowe pointed out that the team had a single [wind tunnel]({{ site.baseurl }}/en/glossary/#soufflerie), where Honda had four on its 2009 project, by his account (three according to Ross Brawn). It took McLaren six to eight weeks to learn how to use the double diffuser.
 
 ## Legacy

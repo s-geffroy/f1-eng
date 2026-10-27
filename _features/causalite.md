@@ -51,7 +51,7 @@ Every link on the timeline carries a sentence saying **why** it exists; its sour
 Ground effect shows four of these mechanisms following one another over six years.
 
 1. **Transfers**: the [rolling-road wind tunnel]({{ site.baseurl }}/en/timeline/#c-imperial-tapis-roulant) at Imperial College lets [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) study the underbody; the Mosquito's radiators suggest the sidepods. The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) races in 1977.
-2. **Provokes**: faced with soaring cornering speeds and g-forces, the 1981 rules [ban skirts]({{ site.baseurl }}/en/timeline/#c-fin-des-jupes) and impose a 6cm ground clearance.
+2. **Provokes**: faced with soaring cornering speeds and lateral g-forces, the 1981 rules [ban skirts]({{ site.baseurl }}/en/timeline/#c-fin-des-jupes) and impose a 6cm ground clearance.
 3. **Circumvents**: the twin-chassis [Lotus 88]({{ site.baseurl }}/en/timeline/#j-lotus-88) tries to keep ground effect in spite of the rule; it is banned before it ever races.
 4. **Closes**: after a 1982 season marred by serious accidents, the mandatory [flat bottom]({{ site.baseurl }}/en/timeline/#c-fond-plat) of 1983 ends the ground-effect cars.
 
@@ -65,7 +65,7 @@ Forty years later, the 2022 rules give the floor of the car the main role again:
 
 ## Sources
 
-Accessed 26 October 2026. The sources for each context event are listed on its card, on the [timeline]({{ site.baseurl }}/en/timeline/).
+Consulted on 26 October 2026. The sources for each context event are listed on its card, on the [timeline]({{ site.baseurl }}/en/timeline/).
 
 - Formula1.com, "Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms" (February 2017): <https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU>
 - Motor Sport, Nigel Roebuck, "1968 Belgian Grand Prix: Nigel Roebuck’s F1 Legends" (October 1998): <https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/>

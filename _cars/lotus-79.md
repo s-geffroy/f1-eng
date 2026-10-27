@@ -2,7 +2,7 @@
 title: "Lotus 79"
 nom_tri: "lotus 79"
 accroche: "Ground effect brought to maturity, and to the world title."
-description: "Lotus 79 (1978): the whole car is designed around ground effect; Mario Andretti becomes the first world champion in a ground effect car."
+description: "Lotus 79 (1978): the whole car is designed around ground effect; Mario Andretti becomes the first world champion in a ground-effect car."
 annee: 1978
 equipe: "Team Lotus"
 moteur: "Cosworth, 3-litre V8"
@@ -35,7 +35,7 @@ image: "/assets/partage/en/voitures/lotus-79.jpg"
 
 The [Lotus 78]({{ site.baseurl }}{% link _cars/lotus-78.md %}) had demonstrated the principle of [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol). The 79 was designed entirely around it.
 
-- The fuel, carried in the sidepods on the 78, moved behind the driver, who was moved forward. The water and oil radiators went to the front of the sidepods. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel.
+- The fuel, carried in the sidepods on the 78, moved behind the driver, who was positioned further forward. The water and oil radiators went to the front of the sidepods. The sidepods were thus left free for the [venturi]({{ site.baseurl }}/en/glossary/#venturi) channel.
 - Full-length sliding [skirts]({{ site.baseurl }}/en/glossary/#jupes) replaced the short skirts of the 78. According to Motor Sport, it was with these that the 79 began to generate real suction.
 - The structure had only one role: according to Martin Ogilvie, quoted by Classic & Sports Car, it was designed to [Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s requirements and did little more than carry the sidepods.
 
@@ -45,7 +45,7 @@ When it was shown to the public, the black car was nicknamed "Black Beauty".
 
 This time Chapman was more directly involved than on the 78. [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who originated the aerodynamic work on the 78, recalls: "Colin went on holiday to Ibiza, pencilled out the whole thing and handed it to Martin." [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) and [Geoff Aldridge]({{ site.baseurl }}{% link _engineers/geoff-aldridge.md %}) turned that scheme into a car.
 
-According to Motor Sport, Chapman's greater involvement was all the more marked because the two designers of the 78 had left the team: formula1.com credits the 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}), and according to GrandPrix.com Southgate went back to Shadow in mid-1977, while Bellamy left for Fittipaldi in 1978. "Colin took overall charge, for better or worse," says Ogilvie.
+According to Motor Sport, Chapman was all the more involved because the two designers of the 78 had left the team: formula1.com credits the 78 to [Ralph Bellamy]({{ site.baseurl }}{% link _engineers/ralph-bellamy.md %}) and [Tony Southgate]({{ site.baseurl }}{% link _engineers/tony-southgate.md %}), and according to GrandPrix.com Southgate went back to Shadow in mid-1977, while Bellamy left for Fittipaldi in 1978. "Colin took overall charge, for better or worse," says Ogilvie.
 
 ## Limitations
 
@@ -53,6 +53,6 @@ The 79 lacked stiffness. Ogilvie admits it: "The 79 was never stiff, and the tor
 
 ## Legacy
 
-- **1978**: six wins. Mario Andretti became world champion, the first in a ground effect car, and Lotus won the constructors' title ahead of Ferrari.
+- **1978**: six wins. Mario Andretti became world champion, the first in a ground-effect car, and Lotus won the constructors' title ahead of Ferrari.
 - From 1979 it was outpaced by [Gérard Ducarouge]({{ site.baseurl }}{% link _engineers/gerard-ducarouge.md %})'s Ligier, then by the Williams FW07 of [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}), which Wright described as "a stiff 79".
 - Its success pushed [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) to look for another route at Brabham: the [BT46B]({{ site.baseurl }}{% link _cars/brabham-bt46b.md %}).

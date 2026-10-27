@@ -33,7 +33,7 @@ image: "/assets/partage/en/voitures/tyrrell-008.jpg"
 ---
 ## What it changed
 
-After the six-wheeled P34, the Tyrrell 008 went back to a conventional four-wheeled car. Its contribution lies less in its shape than in what it carried: according to Damien Smith (Autosport), "perhaps 008's most significant contribution" was its early [data logging]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees) electronics.
+After the six-wheeled P34, the Tyrrell 008 went back to a conventional four-wheeled car. Its contribution lay less in its shape than in what it carried: according to Damien Smith (Autosport), "perhaps 008's most significant contribution" was its early [data logging]({{ site.baseurl }}/en/glossary/#acquisition-de-donnees) electronics.
 
 The system came from Karl Kempf. Recruited by Goodyear's racing division to fit sensors to the cars on its tyres, he first worked on the P34 in 1977; then, when Ferrari switched to Michelin, he turned down an offer from [Harvey Postlethwaite]({{ site.baseurl }}{% link _engineers/harvey-postlethwaite.md %}) at Wolf to work directly for Tyrrell (Mark Glendenning, Racer). The sensors measured suspension deflection, spring and damper loads, steering, throttle and brake position, engine revs, lateral and fore-aft g-forces and yaw rate. At Tyrrell the recorder sat in the sidepods; the data went onto an ordinary cassette, which could hold a whole race.
 
@@ -45,7 +45,7 @@ Kempf does not claim to have been the first to measure: "we're the first to actu
 
 - **Chassis and engine**: according to Autosport, an aluminium monocoque, the 2,993cc Cosworth DFV V8 (around 485bhp), a Hewland FGA 400 five-speed gearbox, Goodyear tyres and a weight of 585kg.
 - **A hidden fan.** Its most radical feature was to be a [fan]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur), mounted behind the fuel cell and ahead of the engine, driven from the end of the crankshaft. It drew air through radiators mounted in the floor, then exhausted it over the inlet trumpets. Tested at Paul Ricard, its only track outing, it gave trouble every time the DFV approached 10,500rpm; Gentry put this down to overheating. The radiators were then moved on top of the bodywork, near the rear wheels.
-- **Controlled camber.** Philippe had conceived active camber control, first prototyped on his own Ford Cortina. According to Kempf, who designed its electronics and mathematics, Brian Lisles redesigned the suspension; two knobs, one for the front and one for the rear, could tune the car's handling. That work, he says, "helped us discover some aerodynamic difficulties with 008 that went into 009".
+- **Controlled camber.** Philippe had conceived active camber control, first prototyped on his own Ford Cortina. According to Kempf, who designed its electronics and did the calculations, Brian Lisles redesigned the suspension; two knobs, one for the front and one for the rear, could tune the car's handling. That work, he says, "helped us discover some aerodynamic difficulties with 008 that went into 009".
 
 ## Who designed it
 
@@ -56,11 +56,11 @@ Autosport spells the name "Phillippe", Racer "Philippe": the site uses the latte
 ## Limitations
 
 - **The fan dropped.** It never went beyond the Paul Ricard test. The Brabham BT46B won in Sweden with its own fan, to Ken Tyrrell's great anger according to Autosport.
-- **Active suspension left on the shelf.** According to Racer, the camber control never made it from the test track to a grand prix: the team shelved it when ground effect arrived. Richard Jenkins, quoted by Autosport, calls it "effectively F1's first active suspension system", and Kempf believes he built "the first active suspension car". The site's glossary credits the 1983 Lotus 92, the first to race.
+- **Active suspension left on the shelf.** According to Racer, the camber control never made it from the test track to a Grand Prix: the team shelved it when ground effect arrived. Richard Jenkins, quoted by Autosport, calls it "effectively F1's first active suspension system", and Kempf believes he built "the first active suspension car". The site's glossary credits the 1983 Lotus 92, the first to race.
 - **Only one car at the front.** Didier Pironi scored points in four of his first six races, then only once more, at Hockenheim.
 
 ## Legacy
 
-- **1978**: 16 grands prix, one win and four further podiums, no pole position. Patrick Depailler won at Monaco, at his 69th attempt, 22 seconds ahead of Niki Lauda, in chassis 008/3; he was also second in South Africa and Austria. He finished fifth in the championship with 34 points; Pironi was fifteenth with 7. Tyrrell were fourth among constructors, with 38 points.
+- **1978**: 16 Grands Prix, one win and four further podiums, no pole position. Patrick Depailler won at Monaco, at his 69th attempt, 22 seconds ahead of Niki Lauda, in chassis 008/3; he was also second in South Africa and Austria. He finished fifth in the championship with 34 points; Pironi was fifteenth with 7. Tyrrell were fourth among constructors, with 38 points.
 - It was Tyrrell's last win until Michele Alboreto's in Las Vegas at the end of 1982.
 - The 009 succeeded it; according to Kempf, it inherited the aerodynamic difficulties found on the 008.

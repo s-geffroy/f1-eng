@@ -48,7 +48,7 @@ The most noticed feature was the split [turbo]({{ site.baseurl }}/en/glossary/#t
 - According to Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}) was the team's technical director when the car was conceived; he describes himself as the overseer of both strands, chassis and engine, making sure they gelled.
 - [Aldo Costa]({{ site.baseurl }}{% link _engineers/aldo-costa.md %}), who arrived from Ferrari at the end of 2011 as engineering director, led the design of the car.
 - The power unit came from Mercedes-AMG High Performance Powertrains, whose engineering was headed by [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}).
-- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. He is owed the method, not the design.
+- [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}), the team's former principal, had left it during the winter before the season. He sees in it the same philosophy as for the 1994 Benetton and the 2009 Brawn: "start early, have a dedicated programme, and have a very integrated programme". He stresses that Cowell and the chassis teams worked hand in hand. The method was his, not the design.
 
 ## Limitations
 

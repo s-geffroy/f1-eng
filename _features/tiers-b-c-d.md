@@ -16,7 +16,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | 86.5 | Causal development of Lotus ground effect |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | 85.0 | Silent digital revolution (by his own account) |
 
-**Dudot** was at the heart of three engine transformations at Renault. According to Renault's documentation, the turbo was eventually adopted by the whole grid and pneumatic valve springs became a general solution in the 1990s. Renault Sport remains an organisation: Dudot is not its lone inventor. The turbo idea is attributed to [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}), and the first turbo engine derives from the V6 of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
+**Dudot** was at the heart of three engine transformations at Renault. According to Renault's documentation, the turbo was eventually adopted by the whole grid and pneumatic valve springs became a general solution in the 1990s. Renault Sport is a collective organisation: Dudot is not its lone inventor. The turbo idea is attributed to [Jean Terramorsi]({{ site.baseurl }}{% link _engineers/jean-terramorsi.md %}), and the first turbo engine derives from the V6 of [François Castaing]({{ site.baseurl }}{% link _engineers/francois-castaing.md %}) and [Jean-Pierre Boudy]({{ site.baseurl }}{% link _engineers/jean-pierre-boudy.md %}).
 
 **Murray** combines conceptual radicalism with pragmatism: the Brabham BT46B, the Brabham architectures, the reintroduction of refuelling and tyre changes as a racing weapon, and his central role in the concept of the McLaren MP4/4, whose detail design was the work of [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and his team according to Autosport. What separates him from Tier A is the uneven diffusion of some of his breakthroughs.
 
@@ -28,7 +28,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 
 ## Tier C — Structuring innovators
 
-A major and lasting contribution, without a complete redefinition of the discipline that can be demonstrated at the same level.
+A major and lasting contribution, though a complete redefinition of the discipline cannot be demonstrated to the same degree.
 
 ## Tier D — Technical giants with a more localised or more shared impact
 

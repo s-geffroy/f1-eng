@@ -37,7 +37,7 @@ image: "/assets/partage/en/voitures/cooper-t43.jpg"
 ---
 ## What it changed
 
-On 19 January 1958, Stirling Moss won the Argentine Grand Prix in Rob Walker's Cooper-Climax T43. It was the first world championship grand prix win for a car with a [mid-engine layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), and Cooper's first. Goodwood adds two more firsts: for a privateer team, and for a car whose engine came from an outside supplier.
+On 19 January 1958, Stirling Moss won the Argentine Grand Prix in Rob Walker's Cooper-Climax T43. It was the first world championship Grand Prix win for a car with a [mid-engine layout]({{ site.baseurl }}/en/glossary/#moteur-central-arriere), and Cooper's first. Goodwood adds two more firsts: for a privateer team, and for a car whose engine came from an outside supplier.
 
 The T43 was not built for this race. Mark Hughes describes it as an adapted Formula 2 car, its engine enlarged to 2 litres. Doug Nye speaks of a 1.96-litre Cooper-Climax. With the Coventry Climax engine in the middle of the car, Goodwood says, it was better balanced than the front-engined cars, which helped in corners and with traction.
 
@@ -49,7 +49,7 @@ Vanwall and BRM stayed away from Argentina: they had not had time to adapt their
 
 - The distance was cut from 400 to 313km, or 80 laps, because of the heat. Moss started seventh.
 - In the early laps he was stuck in second gear, losing about fifteen seconds before the lever freed itself.
-- The Cooper's wheels were held by four studs, Mark Hughes recalls: a tyre change would have taken two to three minutes, against less than a minute for the front-engined cars. The team chose not to stop. The tyres were only rated for 40 laps, according to Goodwood, and Moss finished on the canvas.
+- The Cooper's wheels were held on by four nuts, Mark Hughes recalls: a tyre change would have taken two to three minutes, against less than a minute for the front-engined cars. The team chose not to stop. The tyres were only rated for 40 laps, according to Goodwood, and Moss finished on the canvas.
 - Mechanic Alf Francis made a show of preparing tyres in the pits and counted down to a stop that never came. The bluff delayed Ferrari's response.
 - Moss won by 2.7 seconds from Luigi Musso's Ferrari.
 

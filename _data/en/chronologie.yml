@@ -28,7 +28,7 @@ voies:
 #   categorie : reglement | securite | economie | technologie
 #   liens     : cause-and-effect links with milestones (optional), each:
 #                 jalon     : milestone identifier, or
-#                 evenement : identifier of another context event (mechanism declenche)
+#                 evenement : identifier of another context event (mechanism: declenche)
 #                 mecanisme : ouvre | ferme | contourne | transfert | provoque | declenche
 #                 preuve    : atteste | etabli | discute | chronologique
 #                 pourquoi  : one sentence, what connects the two and per which source
@@ -89,7 +89,7 @@ jalons:
     annee: 1954
     voie: "architecture"
     titre: "The stressed engine of the Lancia D50"
-    texte: "The D50's V8 serves as a structural member of the chassis, mounted at an angle so that the transmission passes to the left of the driver. A Lancia team led by Vittorio Jano defined its principles."
+    texte: "The D50's V8 serves as a structural member of the chassis, mounted at an angle so that the transmission passes to the left of the driver. A Lancia team led by Vittorio Jano defines its principles."
     entrees: ["vittorio-jano", "ettore-zaccone-mina"]
     termes: ["moteur-porteur"]
 
@@ -129,7 +129,7 @@ jalons:
     annee: 1968
     voie: "aero"
     titre: "Wings on struts"
-    texte: "At the Belgian Grand Prix, Mauro Forghieri has wings on struts fitted to Chris Amon's Ferrari, which takes pole. Others had used them before him."
+    texte: "At the Belgian Grand Prix, Mauro Forghieri has wings on struts fitted to Chris Amon's Ferrari; Amon takes pole. Others had used them before him."
     entrees: ["mauro-forghieri"]
     termes: ["aileron"]
 
@@ -137,7 +137,7 @@ jalons:
     annee: 1975
     voie: "transmission"
     titre: "The transverse gearbox of the Ferrari 312T"
-    texte: "According to formula1.com, F1's first transverse gearbox, in the service of mass centralisation, subsequently adopted by the whole grid; Motor Sport points out that Tyrrell and March had opened the way in 1972."
+    texte: "According to formula1.com, F1's first transverse gearbox, serving mass centralisation, subsequently adopted by the whole grid; Motor Sport points out that Tyrrell and March had opened the way in 1972."
     entrees: ["mauro-forghieri", "franco-rocchi"]
     termes: ["boite-transversale", "centralisation-des-masses"]
 
@@ -145,7 +145,7 @@ jalons:
     annee: 1977
     voie: "aero"
     titre: "The ground effect of the Lotus 78"
-    texte: "Born of research by Peter Wright and Tony Rudd, the first ground effect F1 car, according to Motor Sport, is drawn by Ralph Bellamy, with Martin Ogilvie on suspension, in a programme led by Colin Chapman."
+    texte: "Born of research by Peter Wright and Tony Rudd, the first ground effect F1 car, according to Motor Sport, is designed by Ralph Bellamy, with Martin Ogilvie on suspension, in a programme led by Colin Chapman."
     entrees: ["peter-wright", "tony-rudd", "ralph-bellamy", "martin-ogilvie", "colin-chapman", "tony-southgate"]
     termes: ["effet-de-sol", "venturi", "jupes"]
 
@@ -297,7 +297,7 @@ jalons:
     annee: 1970
     voie: "aero"
     titre: "The Lotus 72 and its side radiators"
-    texte: "Credited to Maurice Philippe and Colin Chapman, each one's share remaining disputed, it places the radiators on the flanks; with its developments, it wins five world titles and 20 Grands Prix according to Lotus (22 according to Classic Team Lotus)."
+    texte: "Credited to Maurice Philippe and Colin Chapman, whose respective shares remain disputed, it places the radiators on the flanks; in its successive versions, it wins five world titles and 20 Grands Prix according to Lotus (22 according to Classic Team Lotus)."
     entrees: ["colin-chapman", "maurice-philippe"]
 
   - id: "lotus-88"
@@ -312,7 +312,7 @@ jalons:
     annee: 1984
     voie: "moteur"
     titre: "The engine built to the chassis' dimensions"
-    texte: "For the McLaren MP4/2, John Barnard dictates to Porsche the dimensions of the TAG V6 turbo, in the service of aerodynamics; the car wins 12 of the 16 races."
+    texte: "For the McLaren MP4/2, John Barnard dictates to Porsche the dimensions of the TAG V6 turbo to suit the aerodynamics; the car wins 12 of the 16 races."
     entrees: ["john-barnard"]
     termes: ["turbocompresseur"]
 
@@ -414,7 +414,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "The seamless-shift gearbox"
-    texte: "On the BAR 007, Honda engaged the next gear while the previous one was still driving, with a one-way clutch for each gear; the average gain was 0.4s a lap. By 2008, every team had a similar system."
+    texte: "On the BAR 007, Honda engaged the next gear while the previous one was still transmitting torque, with a one-way clutch for each gear; the average gain was 0.4s a lap. In 2008, every team had a similar system."
     entrees: []
     sources:
       - titre: "Motor Sport, Lawrence Butcher, “Honda's paradigm shifter that flew in the face of convention” (May 2020)"
@@ -454,7 +454,7 @@ jalons:
     annee: 2009
     voie: "methode"
     titre: "The simulator replaces the track"
-    texte: "With in-season testing banned, development moved from circuits to factories, where drivers lap in a virtual F1 car. McLaren, which had started its simulator in 1996 with Paddy Lowe and Martin Whitmarsh's backing, had a head start; Ferrari admitted in 2012 it had to catch up in virtual testing."
+    texte: "With in-season testing banned, development moved from circuits to factories, where drivers lap in a virtual F1 car. McLaren, which had started its simulator as early as 1996 with Paddy Lowe and Martin Whitmarsh's backing, had a head start; Ferrari admitted in 2012 it had to catch up in virtual testing."
     entrees: [paddy-lowe]
     sources:
       - titre: "GrandPrix.com, Joe Saward, “Formula 1's virtual reality” (January 2009)"
@@ -501,7 +501,7 @@ contexte:
     annee: 1940
     categorie: "technologie"
     titre: "The Mosquito's wing-mounted radiators"
-    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the inboard leading edges of the wings, on an aircraft designed for the smallest possible frontal area. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team tested in the wind tunnel sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
+    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the inboard leading edges of the wings, on an aircraft designed for the smallest possible frontal area. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. In the wind tunnel, the team tested sidepods designed to produce downforce; a model section tested upside down proved satisfactory, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -516,7 +516,7 @@ contexte:
     annee: 1946
     categorie: "reglement"
     titre: "The 500 Club's 500 cc formula"
-    texte: "In December 1945, in Bristol, a group of enthusiasts formed the 500 Club and drew up a formula for small 500cc single-seaters suited to the straitened post-war times. Surrey garage owners Charles and John Cooper joined it with a prototype that sat the engine behind the driver, \"for practicality's sake as much as anything\", according to Motor Sport."
+    texte: "In December 1945, in Bristol, a group of enthusiasts formed the 500 Club and drew up a formula for small 500cc single-seaters suited to the straitened post-war times. Surrey garage owners Charles and John Cooper entered this formula with a prototype that sat the engine behind the driver, \"for practicality's sake as much as anything\", according to Motor Sport."
     liens:
       - jalon: "cooper-500"
         mecanisme: "ouvre"
@@ -650,8 +650,8 @@ contexte:
   - id: "formule-3-litres"
     annee: 1966
     categorie: "reglement"
-    titre: "The 'return to power': the 3-litre formula"
-    texte: "In 1966 the capacity of normally aspirated engines doubled to 3 litres; announced three years earlier, the change nevertheless found many teams ill-prepared. With Coventry Climax having withdrawn at the end of 1965, the British teams lacked an engine sold to all: Cooper fell back on Maserati V12s, Lotus on a 2-litre Climax and then BRM's complex, heavy H16. Jack Brabham became champion with a Repco V8 derived from an Oldsmobile block, less powerful but reliable. The gap would be filled by the Cosworth DFV, funded by Ford with £100,000 at the initiative of Walter Hayes."
+    titre: "The \"return to power\": the 3-litre formula"
+    texte: "In 1966 the capacity of normally aspirated engines doubled to 3 litres; announced three years earlier, the change nevertheless found many teams ill-prepared. With Coventry Climax having withdrawn at the end of 1965, the British teams lacked an engine sold to all: Cooper fell back on Maserati V12s, Lotus on a 2-litre Climax and then BRM's complex, heavy H16. Jack Brabham became champion with a Repco V8 derived from an Oldsmobile block, less powerful but reliable. The gap would be filled by the Cosworth DFV, funded by Ford to the tune of £100,000 at the initiative of Walter Hayes."
     liens:
       - jalon: "dfv"
         mecanisme: "ouvre"
@@ -676,7 +676,7 @@ contexte:
     annee: 1967
     categorie: "reglement"
     titre: "The 1.6-litre Formula 2"
-    texte: "On 1 January 1967 a Formula 2 limited to 1600cc came into force, whose cylinder block had to come from a production car built in at least 500 examples within 22 months. Cosworth answered with the FVA, designed around the Ford Cortina block. The joint project announced with Ford also covered an F1 engine: the DFV, made up of two FVA cylinder heads on a common block."
+    texte: "On 1 January 1967 a Formula 2 limited to 1600cc came into force, whose cylinder block had to come from a production car of which at least 500 had been built within 22 months. Cosworth answered with the FVA, designed around the Ford Cortina block. The joint project announced with Ford also covered an F1 engine: the DFV, made up of two FVA cylinder heads on a common block."
     liens:
       - jalon: "dfv-fva"
         mecanisme: "ouvre"
@@ -696,7 +696,7 @@ contexte:
       - jalon: "dfv"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "The end of Lotus's exclusivity, decided by Walter Hayes at Ford, made the DFV the engine of two thirds of the grid by 1969."
+        pourquoi: "The end of Lotus's exclusivity, pushed for by Walter Hayes at Ford, made the DFV the engine of two thirds of the grid by 1969."
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"
         preuve: "atteste"
@@ -759,8 +759,8 @@ contexte:
   - id: "chaparral-2j"
     annee: 1970
     categorie: "technologie"
-    titre: "The Chaparral 2J 'sucker car'"
-    texte: "In Can-Am, the 1970 Chaparral 2J used two fans driven by an auxiliary engine to suck air from under the car. Jim Hall presents it as a response to the ban on hub-mounted wings for 1970; articulated skirts kept a narrow gap to the ground, and according to him the car cornered at almost 2g. Approved at first, it was excluded from the series after protests from rivals, who saw it as a movable aerodynamic device. Sources disagree on its link with the Brabham BT46B: Motor Sport presents it as the inspiration and quotes Gordon Murray (\"the basic concept, yes, it came from there\"), while Goodwood considers the influence uncertain."
+    titre: "The Chaparral 2J \"sucker car\""
+    texte: "In Can-Am, the 1970 Chaparral 2J used two fans driven by an auxiliary engine to suck air from under the car. Jim Hall presented it as a response to the ban on hub-mounted wings for 1970; articulated skirts kept a narrow gap to the ground, and according to him the car cornered at almost 2g. Approved at first, it was excluded from the series after protests from rivals, who saw it as a movable aerodynamic device. Sources disagree on its link with the Brabham BT46B: Motor Sport presents it as the inspiration and quotes Gordon Murray (\"the basic concept, yes, it came from there\"), while Goodwood considers the influence uncertain."
     liens:
       - jalon: "bt46b"
         mecanisme: "transfert"
@@ -786,7 +786,7 @@ contexte:
       - jalon: "lotus-78"
         mecanisme: "transfert"
         preuve: "etabli"
-        pourquoi: "The rolling road, which reproduces the ground moving under the car, let Peter Wright carry out in this tunnel the research that led to the Lotus 78 (Gordon Kirby, Doug Nye)."
+        pourquoi: "The rolling road, which reproduces the ground moving under the car, let Peter Wright carry out the research that led to the Lotus 78 in this tunnel (Gordon Kirby, Doug Nye)."
     sources:
       - titre: "Motor Sport, Gordon Kirby, “Lotus’s ground-effect revolution, part one” (October 2015)"
         url: "https://motorsportmagazine.com/articles/history/lotuss-ground-effect-revolution-part-one"
@@ -849,7 +849,7 @@ contexte:
     annee: 1978
     categorie: "reglement"
     titre: "The fan car sidelined"
-    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself, and Motor Sport also wrote of a voluntary withdrawal in 2025; according to Motor Sport in 1998, the CSI banned it \"on safety grounds\". The wording of the rules only changed for 1979."
+    texte: "In 1978 the rule banning movable aerodynamic devices allowed those whose primary purpose was not aerodynamic. The Brabham BT46B took advantage: its fan was presented as cooling the engine. After its win in Sweden, rival teams led by Colin Chapman protested. Sources disagree on what followed: according to The Race and Goodwood, the CSI found the car legal and Bernie Ecclestone withdrew it himself, and Motor Sport also wrote of a voluntary withdrawal in 2025; according to Motor Sport in 1998, the CSI banned it \"on safety grounds\". The wording of the rules only changed in 1979."
     liens:
       - jalon: "bt46b"
         mecanisme: "contourne"
@@ -893,7 +893,7 @@ contexte:
     annee: 1980
     categorie: "technologie"
     titre: "The Chaparral 2K wins at Indianapolis"
-    texte: "The Chaparral 2K, designed by John Barnard, won the 1980 Indianapolis 500. According to Motor Sport, it was while sorting out this car's gear linkage problems that Barnard found the seed of the steering-wheel-operated gearbox he fitted nine years later to the Ferrari 640. Asked about it, Barnard himself rather stresses the bulk of the gear lever and its linkage in a cockpit he wanted to be very narrow."
+    texte: "The Chaparral 2K, designed by John Barnard, won the 1980 Indianapolis 500. According to Motor Sport, it was while sorting out this car's gear linkage problems that Barnard found the seed of the steering-wheel-operated gearbox he fitted nine years later to the Ferrari 640. Asked about it, Barnard himself pointed instead to the bulk of the gear lever and its linkage in a cockpit he wanted to be very narrow."
     liens:
       - jalon: "ferrari-640"
         mecanisme: "transfert"
@@ -910,7 +910,7 @@ contexte:
     annee: 1981
     categorie: "economie"
     titre: "The FISA-FOCA war and the Concorde Agreement"
-    texte: "During the winter of 1980-81, Jean-Marie Balestre's FISA and Bernie Ecclestone's constructors' association (FOCA) clashed, against the background of a dispute over aerodynamic skirts; FOCA went as far as announcing a breakaway championship. The first Concorde Agreement ended the conflict, on a date that varies between sources: signed on 19 January 1981 in Paris according to Dieter Rencken, it followed, according to Mattijs Diepraam, an agreement in principle reached at Maranello in mid-January and was signed only on 11 March; Joe Saward also dates it to March 1981. The FIA kept the rules, FOCA gained the exclusive right to negotiate with race organisers, which set the split between sporting power and commercial revenue; for Nigel Roebuck, that was the real cause of the war. The teams also committed to contesting every race of the championship."
+    texte: "During the winter of 1980-81, Jean-Marie Balestre's FISA and Bernie Ecclestone's constructors' association (FOCA) clashed, against the background of a dispute over aerodynamic skirts; FOCA went as far as announcing a breakaway championship. The first Concorde Agreement ended the conflict, on a date that varies between sources: signed on 19 January 1981 in Paris according to Dieter Rencken, it followed, according to Mattijs Diepraam, an agreement in principle reached at Maranello in mid-January and was signed only on 11 March; Joe Saward also dates it to March 1981. The FIA kept the rules, FOCA gained the exclusive right to negotiate with race organisers, which set the split between sporting power and commercial revenue; for Nigel Roebuck, that was what the war was really about. The teams also committed to contesting every race of the championship."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, “1980s” (May 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
@@ -943,7 +943,7 @@ contexte:
       - evenement: "concorde-1981"
         mecanisme: "declenche"
         preuve: "discute"
-        pourquoi: "According to Don Capps, FOCA saw the skirt ban, announced in February 1980, as an arbitrary measure aimed at its teams, which opened the war that the Concorde Agreement settled; Nigel Roebuck, however, sees money, not skirts, as the real cause."
+        pourquoi: "According to Don Capps, FOCA saw the skirt ban, announced in February 1980, as an arbitrary measure aimed at its teams, which opened the war that the Concorde Agreement settled; Nigel Roebuck, however, sees money, not skirts, as what was really at stake."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rule book - Part 1: from wing cars to flat bottoms” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
@@ -1125,7 +1125,7 @@ contexte:
     annee: 1994
     categorie: "reglement"
     titre: "Driver aids banned"
-    texte: "Announced by the FIA in mid-1993, the ban aimed to curb spending and to answer criticism that the driver counted for less and less. For 1994, the driver aids that had appeared in the early 1990s were banned: active suspension, traction control and anti-lock brakes; only the semi-automatic gearbox was kept. The Williams champions of 1992 and 1993 owed much to these technologies. Teams had to start again from a blank sheet and look for grip through aerodynamics and mechanical design, all the more so as in-race refuelling, banned since 1984, returned. For the first time, the FIA checked the cars' software."
+    texte: "Announced by the FIA in mid-1993, the ban aimed to curb spending and to answer criticism that the driver counted for less and less. For 1994, the driver aids that had appeared in the early 1990s were banned: active suspension, traction control and anti-lock brakes; only the semi-automatic gearbox was kept. The title-winning Williams cars of 1992 and 1993 owed much to these technologies. Teams had to start again from a blank sheet and look for grip through aerodynamics and mechanical design, all the more so as in-race refuelling, banned since 1984, returned. For the first time, the FIA checked the cars' software."
     liens:
       - jalon: "lotus-92-active"
         mecanisme: "ferme"
@@ -1169,7 +1169,7 @@ contexte:
       - evenement: "hans"
         mecanisme: "declenche"
         preuve: "etabli"
-        pourquoi: "In F1, the adoption of the HANS began after Ratzenberger's crash, which killed him through a basilar skull fracture (Matt Youson); after the deaths of Senna and Ratzenberger, the FIA brought in Mercedes-Benz to improve driver safety (Katy Roberts)."
+        pourquoi: "In F1, the adoption of the HANS began after the crash in which Ratzenberger died of a basilar skull fracture (Matt Youson); after the deaths of Senna and Ratzenberger, the FIA brought in Mercedes-Benz to improve driver safety (Katy Roberts)."
       - evenement: "halo"
         mecanisme: "declenche"
         preuve: "discute"
@@ -1328,7 +1328,7 @@ contexte:
       - jalon: "kers"
         mecanisme: "ouvre"
         preuve: "atteste"
-        pourquoi: "According to Andy Cowell, Mercedes decided to build its own KERS as soon as the regulations were published in 2007."
+        pourquoi: "According to Andy Cowell, Mercedes decided to design its own KERS as soon as the regulations were published in 2007."
     sources:
       - titre: "Formula1.com, “Re-writing the F1 rulebook - Part 4: cleaner cars, KERS and the return of slicks” (February 2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
@@ -1408,7 +1408,7 @@ contexte:
     annee: 2014
     categorie: "securite"
     titre: "Jules Bianchi's crash and the Virtual Safety Car"
-    texte: "At the 2014 Japanese Grand Prix, in the rain, Jules Bianchi lost control of his Marussia in a double-yellow-flag zone and struck, at 126km/h, the crane recovering Adrian Sutil's Sauber; the accident would ultimately prove fatal. The FIA accident panel judged it impossible to make such an impact survivable, and recommended instead a speed limit in sectors under double yellow flags. In 2015 the FIA introduced the virtual safety car, which imposes a minimum lap time to slow the drivers. The Zylon anti-intrusion panels of the survival cell were also extended up to the cockpit rim, alongside the driver's head."
+    texte: "At the 2014 Japanese Grand Prix, in the rain, Jules Bianchi lost control of his Marussia in a double-yellow-flag zone and, at 126km/h, struck the crane recovering Adrian Sutil's Sauber; the accident would ultimately prove fatal. The FIA accident panel judged it impossible to make such an impact survivable, and recommended instead a speed limit in sectors under double yellow flags. In 2015 the FIA introduced the Virtual Safety Car, which imposes a minimum lap time to slow the drivers. The Zylon anti-intrusion panels of the survival cell were also extended up to the cockpit rim, alongside the driver's head."
     liens:
       - evenement: "halo"
         mecanisme: "declenche"
@@ -1503,7 +1503,7 @@ contexte:
     annee: 2026
     categorie: "economie"
     titre: "Audi and the new engine makers"
-    texte: "The 2026 engine rules were first meant to attract new engine makers: they drop the MGU-H, which manufacturers had not adopted on road cars, for a simpler power unit. Audi, whose entry was confirmed in August 2022 after these rules were adopted, took over Sauber, in F1 since 1993, and became a works team with its own power unit, built at Neuburg an der Donau. Red Bull partnered with Ford and Honda returned as a full works manufacturer with Aston Martin. The grid thus has five engine makers, alongside Mercedes and Ferrari, while Renault stopped building them and Alpine became a Mercedes customer."
+    texte: "The 2026 engine rules were first meant to attract new engine makers: they drop the MGU-H, which manufacturers had not adopted on road cars, for a simpler power unit. Audi, whose entry was confirmed in August 2022 after these rules were adopted, took over Sauber, in F1 since 1993, and became a works team with its own power unit, designed at Neuburg an der Donau. Red Bull partnered with Ford and Honda returned as a full works manufacturer with Aston Martin. The grid thus has five engine makers, alongside Mercedes and Ferrari, while Renault stopped building them and Alpine became a Mercedes customer."
     sources:
       - titre: "FIA, “F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry” (October 2022)"
         url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"
@@ -1515,12 +1515,12 @@ contexte:
     annee: 2026
     categorie: "reglement"
     titre: "The 2026 engine and chassis rules"
-    texte: "Adopted in August 2022 for the engine and completed in June 2024 for the chassis, the 2026 rules split power equally between combustion engine and electricity, with sustainable fuels: the combustion engine falls from about 550 to 400kW, the electric part rises from 120 to 350kW, and the energy recovered under braking doubles. The chassis was redefined to match these energy requirements. The cars lose 30kg, for a minimum of 768kg, and receive movable front and rear wings: one position for cornering downforce, another for low drag on the straights. The maximum wheelbase loses 200mm and the width 100mm."
+    texte: "Adopted in August 2022 for the engine and completed in June 2024 for the chassis, the 2026 rules split power equally between combustion engine and electricity, with sustainable fuels: the combustion engine falls from about 550 to 400kW, the electric part rises from 120 to 350kW, and the energy recovered under braking doubles. The chassis is redefined to match these energy requirements. The cars lose 30kg, for a minimum of 768kg, and receive movable front and rear wings: one position for cornering downforce, another for low drag on the straights. The maximum wheelbase loses 200mm and the width 100mm."
     liens:
       - evenement: "motoristes-2026"
         mecanisme: "declenche"
         preuve: "etabli"
-        pourquoi: "According to Matt Youson, the first goal of the 2026 engine rules was to attract more engine builders; Audi's entry was confirmed at the end of August 2022, right after those rules were approved (FIA)."
+        pourquoi: "According to Matt Youson, the first goal of the 2026 engine rules was to attract new engine makers; Audi's entry was confirmed at the end of August 2022, right after those rules were approved (FIA)."
     sources:
       - titre: "Formula1.com, “FIA unveils Formula 1 regulations for 2026 and beyond featuring more agile cars and active aerodynamics” (June 2024)"
         url: "https://www.formula1.com/en/latest/article/fia-unveils-formula-1-regulations-for-2026-and-beyond-featuring-more-agile.75qJiYOHXgeJqsVQtDr2UB"

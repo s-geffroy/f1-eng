@@ -35,7 +35,7 @@ Gordon Murray started from a simple line of reasoning. The BMW turbo engine woul
 
 Three other choices mattered:
 
-- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly fitted off the car, prepared at the factory. formula1.com notes that the system was later widely copied;
+- **a modular rear end.** Engine, radiators, intercoolers, gearbox and suspension formed a single assembly built up off the car, prepared at the factory. formula1.com notes that the system was later widely copied;
 - **a car designed for [refuelling]({{ site.baseurl }}/en/glossary/#ravitaillement)**, which Brabham and Murray had reintroduced in 1982: a smaller tank, and a pressurised filling system delivering more than 30 gallons in about three seconds;
 - **mixed construction**: bulkhead and lower tub in aluminium, upper tub in [carbon]({{ site.baseurl }}/en/glossary/#composite-carbone), with carbon roll hoops. With Brabham's resources, Murray did not follow McLaren down the all-carbon route.
 
@@ -51,4 +51,4 @@ Three other choices mattered:
 
 - **Rio, 13 March 1983**: Nelson Piquet won the BT52's first race.
 - **1983**: Piquet won three of the fifteen races and became the first world champion with a turbo engine. At Kyalami, the final round, he let his team-mate Riccardo Patrese take the win.
-- Murray believed the other teams would have copied refuelling for 1983. At Rio, he was astonished to find that almost all of them still had cars running on a full tank; only Williams also tried refuelling, which ended in a fire on Keke Rosberg's car. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds.
+- Murray believed the other teams would copy refuelling for 1983. At Rio, he was astonished to find that almost all of them still had cars running on a full tank; only Williams also tried refuelling, which ended in a fire on Keke Rosberg's car. That day, despite manual jacks, Piquet's stop lasted only 16.4 seconds.
