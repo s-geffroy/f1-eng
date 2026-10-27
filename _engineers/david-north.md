@@ -35,32 +35,32 @@ image: "/assets/partage/en/david-north.jpg"
 ---
 ## What he did
 
-David North is a British engineer from an aerospace background who spent most of his career alongside [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) at Brabham, then as head of gearbox design at McLaren. On the 1988 McLaren MP4/4, he was one of the two designers of the vertically stacked three-shaft gearbox.
+David North is a British engineer from an aerospace background who spent most of his career alongside [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) at Brabham, then as head of gearbox design at McLaren{% include src.html n="1,3" %}. On the 1988 McLaren MP4/4, he was one of the two designers of the vertically stacked three-shaft gearbox{% include src.html n="6" %}.
 
 ## Career
 
-- **Education.** Born on 27 September 1950 in Bromley, Kent, he graduated in mechanical engineering from the University of Southampton, according to OldRacingCars.com. Joe Saward adds that he first worked for the British Aircraft Corporation.
-- **Brabham.** He joined Brabham as a design engineer under Murray. He was involved in the design of the [fan car]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur), the BT46B, and later of the "skateboard" BT55.
-- **The BT50 (1981).** In September 1981, Alan Henry wrote in Motor Sport that Murray had completed the BMW turbo BT50 with the assistance of his "number two", North, "a relative newcomer" of whom Murray spoke very highly.
-- **The ride-height cars (1981).** According to Doug Nye, when a new ride-height rule left them a month before Long Beach, Murray and North read the regulations closely again. They chose a soft air spring: a hydraulic piston, piped to cylinders at each suspension corner, compressed air in a central reservoir.
-- **The BT52 (1983).** After experimenting with the BT51, a mock-up of the 1983 car, Murray and North produced an entirely new car, the BT52 (Alan Henry, Motor Sport). In Murray's own words: "David North and I drew every part between us."
-- **The BT55 (1986).** Motor Sport calls him Murray's number two. He explains that the springs and dampers could only go at the extreme rear of the gearbox, so that all the load had to pass through the magnesium casing.
-- **Chief designer (1987).** He became Brabham's chief designer and worked with John Baldwin and Sergio Rinland on the BT56. He left the team in the summer of 1987 for a short spell at Ralt, then joined McLaren.
-- **McLaren (1988-2002).** He headed transmission design there. In October 2002 he left for Renault; John Sutton, from Jordan, had already taken over his role.
-- **Later career.** OldRacingCars.com then describes a long spell as head of advanced projects at Lotus F1, until he left the sport in 2014.
+- **Education.** Born on 27 September 1950 in Bromley, Kent, he graduated in mechanical engineering from the University of Southampton, according to OldRacingCars.com{% include src.html n="3" %}. Joe Saward adds that he first worked for the British Aircraft Corporation{% include src.html n="1" %}.
+- **Brabham.** He joined Brabham as a design engineer under Murray{% include src.html n="1" %}. He was involved in the design of the [fan car]({{ site.baseurl }}/en/glossary/#voiture-a-ventilateur), the BT46B, and later of the "skateboard" BT55{% include src.html n="1" %}.
+- **The BT50 (1981).** In September 1981, Alan Henry wrote in Motor Sport that Murray had completed the BMW turbo BT50 with the assistance of his "number two", North, "a relative newcomer" of whom Murray spoke very highly{% include src.html n="8" %}.
+- **The ride-height cars (1981).** According to Doug Nye, when a new ride-height rule left them a month before Long Beach, Murray and North read the regulations closely again{% include src.html n="9" %}. They chose a soft air spring: a hydraulic piston, piped to cylinders at each suspension corner, compressed air in a central reservoir{% include src.html n="9" %}.
+- **The BT52 (1983).** After experimenting with the BT51, a mock-up of the 1983 car, Murray and North produced an entirely new car, the BT52 (Alan Henry, Motor Sport){% include src.html n="10" %}. In Murray's own words: "David North and I drew every part between us."{% include src.html n="4" %}
+- **The BT55 (1986).** Motor Sport calls him Murray's number two{% include src.html n="5" %}. He explains that the springs and dampers could only go at the extreme rear of the gearbox, so that all the load had to pass through the magnesium casing{% include src.html n="5" %}.
+- **Chief designer (1987).** He became Brabham's chief designer and worked with John Baldwin and Sergio Rinland on the BT56{% include src.html n="1" %}. He left the team in the summer of 1987 for a short spell at Ralt, then joined McLaren{% include src.html n="1,2" %}.
+- **McLaren (1988-2002).** He headed transmission design there{% include src.html n="1,2" %}. In October 2002 he left for Renault; John Sutton, from Jordan, had already taken over his role{% include src.html n="2" %}.
+- **Later career.** OldRacingCars.com then describes a long spell as head of advanced projects at Lotus F1, until he left the sport in 2014{% include src.html n="3" %}.
 
 ## The MP4/4 gearbox
 
-The 1988 Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the vertically stacked three-shaft gearbox. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}).
+The 1988 Honda [V6]({{ site.baseurl }}/en/glossary/#architecture-moteur) had its crankshaft 28mm lower{% include src.html n="6" %}. A conventional two-shaft gearbox would have meant power-sapping driveshaft angles{% include src.html n="6" %}. According to Autosport, Murray, who had brought North in from Brabham, turned to [Pete Weismann]({{ site.baseurl }}{% link _engineers/pete-weismann.md %}) and North, "the twin brains" behind the BT55's Z-drive gearbox; they designed the vertically stacked three-shaft gearbox{% include src.html n="6" %}. Autosport also lists him among those who designed the MP4/4 or did its detail work, with [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}), [Matthew Jeffreys]({{ site.baseurl }}{% link _engineers/matthew-jeffreys.md %}) and [Bob Bell]({{ site.baseurl }}{% link _engineers/bob-bell.md %}){% include src.html n="6" %}.
 
-In 2021, Murray gave Motor Sport his own division of labour: he says he put Nichols in charge of the monocoque and the front end, while he and North did the rear end, the aerodynamics and the new dry-sump three-shaft gearbox, with Weismann. This is Murray's version, and Nichols disputes his claim to the car's authorship; this site reports that version without settling the matter.
+In 2021, Murray gave Motor Sport his own division of labour: he says he put Nichols in charge of the monocoque and the front end, while he and North did the rear end, the aerodynamics and the new dry-sump three-shaft gearbox, with Weismann{% include src.html n="11" %}. This is Murray's version, and Nichols disputes his claim to the car's authorship{% include src.html n="6" %}; this site reports that version without settling the matter.
 
-The gearbox remains Murray's project: Autosport writes that nobody disputes it. North was one of its designers, not the author of the concept.
+The gearbox remains Murray's project: Autosport writes that nobody disputes it{% include src.html n="6" %}. North was one of its designers, not the author of the concept{% include src.html n="6" %}.
 
 ## Where sources disagree
 
-- **Joining Brabham**: in 1976 according to Joe Saward; in 1978 according to [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who writes that Murray was on his own in the Brabham design office from 1972 until North joined him; OldRacingCars.com only lists him at Brabham from 1979 to 1987.
-- **Joining McLaren**: Autosport writes that Murray brought him in from Brabham, without the Ralt spell reported in both GrandPrix.com pieces.
-- **Role at McLaren**: head of transmission design (GrandPrix.com); OldRacingCars.com speaks instead of many years in the special projects division.
-- **Move to Renault**: announced in October 2002 by GrandPrix.com; dated 2003 by Joe Saward in 2005.
-- **Jordan**: in May 2005, Joe Saward reported a rumour that Jordan had signed him as technical director, noting that it was unconfirmed. This site does not treat it as fact.
+- **Joining Brabham**: in 1976 according to Joe Saward{% include src.html n="1" %}; in 1978 according to [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), who writes that Murray was on his own in the Brabham design office from 1972 until North joined him{% include src.html n="7" %}; OldRacingCars.com only lists him at Brabham from 1979 to 1987{% include src.html n="3" %}.
+- **Joining McLaren**: Autosport writes that Murray brought him in from Brabham{% include src.html n="6" %}, without the Ralt spell reported in both GrandPrix.com pieces{% include src.html n="1,2" %}.
+- **Role at McLaren**: head of transmission design (GrandPrix.com){% include src.html n="1,2" %}; OldRacingCars.com speaks instead of many years in the special projects division{% include src.html n="3" %}.
+- **Move to Renault**: announced in October 2002 by GrandPrix.com{% include src.html n="2" %}; dated 2003 by Joe Saward in 2005{% include src.html n="1" %}.
+- **Jordan**: in May 2005, Joe Saward reported a rumour that Jordan had signed him as technical director, noting that it was unconfirmed{% include src.html n="1" %}. This site does not treat it as fact.

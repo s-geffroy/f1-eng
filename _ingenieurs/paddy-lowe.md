@@ -37,20 +37,20 @@ redirect_from: "/ingenieurs/2026/10/25/paddy-lowe.html"
 ---
 ## Ce qu'il a changé
 
-Paddy Lowe est un ingénieur systèmes et électronique de premier plan. Il entre chez Williams à l'automne 1987 comme coresponsable de l'électronique.
+Paddy Lowe est un ingénieur systèmes et électronique de premier plan{% include src.html n="1,4" %}. Il entre chez Williams à l'automne 1987 comme coresponsable de l'électronique{% include src.html n="2,3" %}.
 
-- **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active).** formula1.com le crédite d'avoir écrit et développé l'essentiel du logiciel qui fait fonctionner la suspension active Williams. Motor Sport le présente comme le chef de projet de la suspension active. Le système mène Nigel Mansell au titre de 1992 sur la FW14B.
-- **L'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage).** Selon Lowe lui-même, l'équipe a aussi mis au point l'antipatinage, qui valait une seconde au tour.
+- **La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active).** formula1.com le crédite d'avoir écrit et développé l'essentiel du logiciel qui fait fonctionner la suspension active Williams{% include src.html n="1" %}. Motor Sport le présente comme le chef de projet de la suspension active{% include src.html n="3" %}. Le système mène Nigel Mansell au titre de 1992 sur la FW14B{% include src.html n="1,4" %}.
+- **L'[antipatinage]({{ site.baseurl }}/glossaire/#antipatinage).** Selon Lowe lui-même, l'équipe a aussi mis au point l'antipatinage, qui valait une seconde au tour{% include src.html n="3" %}.
 
 ## Parcours technique
 
-- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011. Il participe à trois titres pilotes et à un titre constructeurs.
-- **Mercedes**, à partir de juin 2013 : directeur exécutif technique, au début de la domination de l'équipe à l'ère turbo-hybride.
-- **Williams**, de nouveau en 2017, comme directeur technique général chargé de toute l'ingénierie. Il quitte l'équipe en juin 2019.
+- **McLaren**, à partir de 1993 : responsable de la recherche et du développement, ingénieur en chef, directeur de l'ingénierie, puis directeur technique en 2011{% include src.html n="4" %}. Il participe à trois titres pilotes et à un titre constructeurs{% include src.html n="4" %}.
+- **Mercedes**, à partir de juin 2013 : directeur exécutif technique, au début de la domination de l'équipe à l'ère turbo-hybride{% include src.html n="2,4,5" %}.
+- **Williams**, de nouveau en 2017, comme directeur technique général chargé de toute l'ingénierie{% include src.html n="4" %}. Il quitte l'équipe en juin 2019{% include src.html n="2" %}.
 
 ## Son rôle dans l'écosystème Williams
 
-Dans la chaîne de la suspension active, [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système ; Lowe en écrit le logiciel ; [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) assure l'architecture d'ensemble ; [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) codirige la technique des FW14B et FW15C.
+Dans la chaîne de la suspension active, [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) conçoit le premier système{% include src.html n="3,6" %} ; Lowe en écrit le logiciel{% include src.html n="1" %} ; [Patrick Head]({{ site.baseurl }}{% link _ingenieurs/patrick-head.md %}) assure l'architecture d'ensemble{% include src.html n="1" %} ; [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) codirige la technique des FW14B et FW15C{% include src.html n="1,2" %}.
 
 ## Pourquoi le Tier D
 

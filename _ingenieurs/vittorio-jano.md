@@ -37,22 +37,22 @@ redirect_from: "/ingenieurs/2026/10/25/vittorio-jano.html"
 ---
 ## Un cas particulier
 
-Le travail de Vittorio Jano commence bien avant le championnat du monde de F1. En 1923, il quitte Fiat pour devenir ingénieur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932. Goodwood le qualifie de « colosse » de la conception automobile.
+Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% include src.html n="3" %}. En 1923, il quitte Fiat pour devenir ingénieur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix{% include src.html n="3" %}. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932{% include src.html n="3" %}. Goodwood le qualifie de « colosse » de la conception automobile{% include src.html n="3" %}.
 
 ## La Lancia D50
 
-C'est la **Lancia D50**, entrée en championnat du monde fin 1954, qui fait entrer Jano dans ce classement. Selon Motor Sport, il en définit les grands principes.
+C'est la **Lancia D50**, entrée en championnat du monde fin 1954, qui fait entrer Jano dans ce classement{% include src.html n="1,4" %}. Selon Motor Sport, il en définit les grands principes{% include src.html n="1" %}.
 
-- **Le moteur porteur.** Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote. Le même principe — le moteur comme élément de structure — sera généralisé en 1967, en position arrière, par la Lotus 49 et le DFV.
-- **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière. Motor Sport (2002) attribue toutefois l'idée des réservoirs latéraux à [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) lui-même.
-- La D50 roule pour la première fois le 20 février 1954 à l'aéroport de Caselle, à Turin, et dispute sa première course lors du dernier Grand Prix de 1954.
-- Le 26 juillet 1955, six des huit D50 sont remises à Ferrari. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre de 1956.
+- **Le moteur porteur.** Le [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) sert d'[élément structurel]({{ site.baseurl }}/glossaire/#moteur-porteur) du châssis{% include src.html n="1,4" %}. Il est monté de biais pour que l'arbre de transmission passe à gauche du pilote{% include src.html n="1" %}. Le même principe — le moteur comme élément de structure — sera généralisé en 1967, en position arrière, par la Lotus 49 et le DFV.
+- **Les réservoirs latéraux.** Le carburant est logé dans deux longs réservoirs placés de chaque côté, entre les roues avant et arrière{% include src.html n="1" %}. Motor Sport (2002) attribue toutefois l'idée des réservoirs latéraux à [Gianni Lancia]({{ site.baseurl }}{% link _ingenieurs/gianni-lancia.md %}) lui-même{% include src.html n="2" %}.
+- La D50 roule pour la première fois le 20 février 1954 à l'aéroport de Caselle, à Turin, et dispute sa première course lors du dernier Grand Prix de 1954{% include src.html n="2,4" %}.
+- Le 26 juillet 1955, six des huit D50 sont remises à Ferrari{% include src.html n="1" %}. Rebaptisées Lancia-Ferrari, elles donnent à Juan Manuel Fangio le titre de 1956{% include src.html n="1" %}.
 
-Plus tard, comme consultant chez Ferrari, Jano dessine encore un V6 de 1,5 litre à quatre arbres, ouvert à 65°.
+Plus tard, comme consultant chez Ferrari, Jano dessine encore un V6 de 1,5 litre à quatre arbres, ouvert à 65°{% include src.html n="5" %}.
 
 ## Attribution
 
-La paternité de la D50 est discutée. L'ingénieur moteur [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}) affirme que personne n'est seul responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**
+La paternité de la D50 est discutée{% include src.html n="2" %}. L'ingénieur moteur [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}) affirme que personne n'est seul responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur{% include src.html n="2" %}. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**{% include src.html n="1,2" %}
 
 ## Pourquoi le Tier D
 

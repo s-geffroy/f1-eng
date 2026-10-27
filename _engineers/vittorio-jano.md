@@ -36,22 +36,22 @@ image: "/assets/partage/en/vittorio-jano.jpg"
 ---
 ## A special case
 
-Vittorio Jano's work began long before the F1 world championship. In 1923 he left Fiat to become chief engineer at Alfa Romeo, where he immediately designed the P2, winner of the first Grand Prix world championship. Then came the 8C 2300 of 1931 and the Tipo B "Monoposto", which appeared in 1932. Goodwood calls him a "colossus" of car design.
+Vittorio Jano's work began long before the F1 world championship{% include src.html n="3" %}. In 1923 he left Fiat to become chief engineer at Alfa Romeo, where he immediately designed the P2, winner of the first Grand Prix world championship{% include src.html n="3" %}. Then came the 8C 2300 of 1931 and the Tipo B "Monoposto", which appeared in 1932{% include src.html n="3" %}. Goodwood calls him a "colossus" of car design{% include src.html n="3" %}.
 
 ## The Lancia D50
 
-It is the **Lancia D50**, which entered the world championship at the end of 1954, that earns Jano his place in this ranking. According to Motor Sport, he defined its main principles.
+It is the **Lancia D50**, which entered the world championship at the end of 1954, that earns Jano his place in this ranking{% include src.html n="1,4" %}. According to Motor Sport, he defined its main principles{% include src.html n="1" %}.
 
-- **The stressed engine.** The [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis. It is mounted at an angle so that the propeller shaft runs to the left of the driver. The same principle — the engine as a structural member — would be made widespread in 1967, in a rear-mounted position, by the Lotus 49 and the DFV.
-- **The side tanks.** The fuel is carried in two long tanks placed on either side, between the front and rear wheels. Motor Sport (2002), however, attributes the idea of the side tanks to [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself.
-- The D50 first ran on 20 February 1954 at Caselle airport in Turin, and contested its first race at the last Grand Prix of 1954.
-- On 26 July 1955, six of the eight D50s were handed over to Ferrari. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 title.
+- **The stressed engine.** The [V8]({{ site.baseurl }}/en/glossary/#architecture-moteur) serves as a [structural member]({{ site.baseurl }}/en/glossary/#moteur-porteur) of the chassis{% include src.html n="1,4" %}. It is mounted at an angle so that the propeller shaft runs to the left of the driver{% include src.html n="1" %}. The same principle — the engine as a structural member — would be made widespread in 1967, in a rear-mounted position, by the Lotus 49 and the DFV.
+- **The side tanks.** The fuel is carried in two long tanks placed on either side, between the front and rear wheels{% include src.html n="1" %}. Motor Sport (2002), however, attributes the idea of the side tanks to [Gianni Lancia]({{ site.baseurl }}{% link _engineers/gianni-lancia.md %}) himself{% include src.html n="2" %}.
+- The D50 first ran on 20 February 1954 at Caselle airport in Turin, and contested its first race at the last Grand Prix of 1954{% include src.html n="2,4" %}.
+- On 26 July 1955, six of the eight D50s were handed over to Ferrari{% include src.html n="1" %}. Renamed Lancia-Ferraris, they gave Juan Manuel Fangio the 1956 title{% include src.html n="1" %}.
 
-Later, as a consultant at Ferrari, Jano also designed a 1.5-litre four-cam V6 with a 65° vee angle.
+Later, as a consultant at Ferrari, Jano also designed a 1.5-litre four-cam V6 with a 65° vee angle{% include src.html n="5" %}.
 
 ## Attribution
 
-The authorship of the D50 is disputed. Engine engineer [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}) states that no single person was responsible for designing the car, and that Jano was its team leader rather than its designer. The accurate wording: **the D50 was designed by a Lancia team led by Jano, who is credited with its main principles.**
+The authorship of the D50 is disputed{% include src.html n="2" %}. Engine engineer [Ettore Zaccone Mina]({{ site.baseurl }}{% link _engineers/ettore-zaccone-mina.md %}) states that no single person was responsible for designing the car, and that Jano was its team leader rather than its designer{% include src.html n="2" %}. The accurate wording: **the D50 was designed by a Lancia team led by Jano, who is credited with its main principles.**{% include src.html n="1,2" %}
 
 ## Why Tier D
 

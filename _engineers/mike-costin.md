@@ -32,20 +32,20 @@ image: "/assets/partage/en/mike-costin.jpg"
 ---
 ## What he changed
 
-Mike Costin is **a co-founder of Cosworth**. His main role, according to Motor Sport: turning [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})'s designs into production reality.
+Mike Costin is **a co-founder of Cosworth**{% include src.html n="2,3" %}. His main role, according to Motor Sport: turning [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %})'s designs into production reality{% include src.html n="2" %}.
 
 ## Technical career
 
-- At **de Havilland**, he designed test rigs, notably for the Comet airliner.
-- He worked with [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) from January 1953, then full-time at **Lotus** from January 1955. There he became Chapman's deputy and the company's technical director.
-- **Cosworth Engineering** was registered on 30 September 1958. Costin only joined it full-time in August 1962, when his contract with Lotus expired.
-- Before the DFV, Cosworth produced the **FVA**; a 1500cc version, the **FVB**, was used to validate the DFV's bore and stroke.
-- The first **DFV** was delivered in April 1967, and the first person to drive a car fitted with it was Mike Costin.
-- In 1969 he tested Cosworth's four-wheel-drive F1 car at Silverstone, finding it heavy and exhausting to drive; it never raced.
-- He succeeded Duckworth as chairman of Cosworth in 1988, and retired in 1990.
+- At **de Havilland**, he designed test rigs, notably for the Comet airliner{% include src.html n="2" %}.
+- He worked with [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) from January 1953, then full-time at **Lotus** from January 1955{% include src.html n="2" %}. There he became Chapman's deputy and the company's technical director{% include src.html n="2" %}.
+- **Cosworth Engineering** was registered on 30 September 1958{% include src.html n="2" %}. Costin only joined it full-time in August 1962, when his contract with Lotus expired{% include src.html n="2,4" %}.
+- Before the DFV, Cosworth produced the **FVA**; a 1500cc version, the **FVB**, was used to validate the DFV's bore and stroke{% include src.html n="2" %}.
+- The first **DFV** was delivered in April 1967, and the first person to drive a car fitted with it was Mike Costin{% include src.html n="2" %}.
+- In 1969 he tested Cosworth's four-wheel-drive F1 car at Silverstone, finding it heavy and exhausting to drive; it never raced{% include src.html n="2,3" %}.
+- He succeeded Duckworth as chairman of Cosworth in 1988, and retired in 1990{% include src.html n="2,4" %}.
 
 ## Why behind Duckworth
 
-His technical authorship of the DFV is **less directly attributable to him as an individual** than that of Keith Duckworth, the project's central technical figure. His role was industrialisation: turning a design into a reliable, manufactured engine.
+His technical authorship of the DFV is **less directly attributable to him as an individual** than that of Keith Duckworth, the project's central technical figure{% include src.html n="2,4" %}. His role was industrialisation: turning a design into a reliable, manufactured engine{% include src.html n="2" %}.
 
-The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major contributor.**
+The accurate wording: **the DFV is a Cosworth achievement, with Keith Duckworth as the central technical figure and Mike Costin as co-founder and a major contributor.**{% include src.html n="1,4" %}

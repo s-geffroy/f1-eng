@@ -31,27 +31,27 @@ image: "/assets/partage/en/voitures/ferrari-640.jpg"
 ---
 ## What it changed
 
-The Ferrari 640 replaced the gear lever with an electro-hydraulically controlled [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique), operated by paddles behind the steering wheel.
+The Ferrari 640 replaced the gear lever with an electro-hydraulically controlled [semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique), operated by paddles behind the steering wheel{% include src.html n="1,4" %}.
 
-The first thing that comes to mind is the time saved on every gear change. That was not the starting point. John Barnard explained it in Motor Sport: "The project started because I wanted to make the monocoque really narrow." That would have meant running a linkage from the cockpit to the gearbox, alongside the engine, and finding room for the lever and the driver's hand. "I thought, 'Surely, instead of a gear lever, I can have a switch.' So it was a packaging imperative." The time saving came afterwards.
+The first thing that comes to mind is the time saved on every gear change{% include src.html n="1" %}. That was not the starting point{% include src.html n="1,3" %}. John Barnard explained it in Motor Sport: "The project started because I wanted to make the monocoque really narrow."{% include src.html n="1" %} That would have meant running a linkage from the cockpit to the gearbox, alongside the engine, and finding room for the lever and the driver's hand{% include src.html n="1" %}. "I thought, 'Surely, instead of a gear lever, I can have a switch.' So it was a packaging imperative."{% include src.html n="1" %} The time saving came afterwards{% include src.html n="1" %}.
 
-According to Motor Sport, the idea had taken root when Barnard was sorting out the linkage problems of the Chaparral 2K, winner of the 1980 Indianapolis 500; Barnard himself, when interviewed, does not mention the Chaparral. The gearbox was first meant for the 639 in 1988, but Ferrari raced its turbo engine that season.
+According to Motor Sport, the idea had taken root when Barnard was sorting out the linkage problems of the Chaparral 2K, winner of the 1980 Indianapolis 500{% include src.html n="2" %}; Barnard himself, when interviewed, does not mention the Chaparral. The gearbox was first meant for the 639 in 1988, but Ferrari raced its turbo engine that season{% include src.html n="1,3" %}.
 
-The narrow [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) led to other choices: a front suspension with short torsion bars, which according to Barnard started a lasting trend, and radiator airflow ducted all the way to the rear, away from the wing.
+The narrow [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) led to other choices: a front suspension with short torsion bars, which according to Barnard started a lasting trend, and radiator airflow ducted all the way to the rear, away from the wing{% include src.html n="1,3" %}.
 
 ## Who designed it
 
-[John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}), who joined Ferrari at the end of 1986. The origin of the paddles is told in two ways:
+[John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}), who joined Ferrari at the end of 1986{% include src.html n="1,2" %}. The origin of the paddles is told in two ways:
 
-- according to Barnard, he was thinking of buttons on the steering wheel, and someone in the design office, whose name he no longer remembers, suggested paddles, as in karting;
-- according to Motorsport.com, it was Piero Lardi Ferrari who suggested them.
+- according to Barnard, he was thinking of buttons on the steering wheel, and someone in the design office, whose name he no longer remembers, suggested paddles, as in karting{% include src.html n="1" %};
+- according to Motorsport.com, it was Piero Lardi Ferrari who suggested them{% include src.html n="3" %}.
 
 ## Limitations
 
-The 640 rarely finished its races. The gearbox took the blame, but according to Barnard, many of the early-1989 retirements blamed on the gearbox actually came from a loss of its electrical supply: the alternator belt was coming off. Worried, Vittorio Ghidella, who was running Ferrari after Enzo Ferrari's death, even had a manual-gearbox version built. Nigel Mansell tried it, and advised forgetting about it.
+The 640 rarely finished its races{% include src.html n="2" %}. The gearbox took the blame, but according to Barnard, many of the early-1989 retirements blamed on the gearbox actually came from a loss of its electrical supply: the alternator belt was coming off{% include src.html n="1" %}. Worried, Vittorio Ghidella, who was running Ferrari after Enzo Ferrari's death, even had a manual-gearbox version built{% include src.html n="1,2" %}. Nigel Mansell tried it, and advised forgetting about it{% include src.html n="1" %}.
 
 ## Legacy
 
-- **1989**: Mansell won the first race, in Brazil, to general surprise, then in Hungary; Gerhard Berger won in Portugal. Ferrari finished third in the constructors' standings.
-- In 1990 the 641, lightly revised, narrowly missed the title with Alain Prost.
-- According to formula1.com, every team was using a semi-automatic gearbox by the mid-1990s.
+- **1989**: Mansell won the first race, in Brazil, to general surprise, then in Hungary; Gerhard Berger won in Portugal{% include src.html n="1" %}. Ferrari finished third in the constructors' standings{% include src.html n="1" %}.
+- In 1990 the 641, lightly revised, narrowly missed the title with Alain Prost{% include src.html n="1" %}.
+- According to formula1.com, every team was using a semi-automatic gearbox by the mid-1990s{% include src.html n="4" %}.

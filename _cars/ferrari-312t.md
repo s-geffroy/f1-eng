@@ -29,19 +29,19 @@ image: "/assets/partage/en/voitures/ferrari-312t.jpg"
 ---
 ## What it changed
 
-The "T" in 312T refers to its "trasversale" gearbox, as Motor Sport writes. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport in 2020, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase; Alan Henry places the whole gearbox ahead of the axle. formula1.com presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1.
+The "T" in 312T refers to its "trasversale" gearbox, as Motor Sport writes{% include src.html n="2,3" %}. The gearbox shafts are aligned across the car rather than along its axis: according to Motor Sport in 2020, most of the gearbox's mass thus ends up ahead of the rear axle, within the wheelbase{% include src.html n="2" %}; Alan Henry places the whole gearbox ahead of the axle{% include src.html n="3" %}. formula1.com presents this [transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale) as a first in F1{% include src.html n="1" %}.
 
-The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), by gathering as much mass as possible between the axles. According to formula1.com, it was the culmination of an approach begun on the 312B3, which already sought to [centralise the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses) to make the car more agile.
+The aim, as Alan Henry recalls: to achieve the lowest possible [polar moment of inertia]({{ site.baseurl }}/en/glossary/#moment-polaire), by gathering as much mass as possible between the axles{% include src.html n="3" %}. According to formula1.com, it was the culmination of an approach begun on the 312B3, which already sought to [centralise the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses) to make the car more agile{% include src.html n="1" %}.
 
 ## Who designed it
 
-[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) led the design of the car. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praised in 2020. The same article points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March.
+[Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) led the design of the car{% include src.html n="1,2" %}. Its [flat-12]({{ site.baseurl }}/en/glossary/#flat-12) was created in collaboration with [Franco Rocchi]({{ site.baseurl }}{% link _engineers/franco-rocchi.md %}), whose engine team Motor Sport praised in 2020{% include src.html n="1,2" %}. The same article points out that Forghieri was partly following a path opened in 1972 by [Derek Gardner]({{ site.baseurl }}{% link _engineers/derek-gardner.md %}) at Tyrrell and [Robin Herd]({{ site.baseurl }}{% link _engineers/robin-herd.md %}) at March{% include src.html n="2" %}.
 
 ## Limitations
 
-On paper, Niki Lauda was at first unmoved; once he drove it at Fiorano, he quickly realised it was in a different class, as he told Alan Henry. He would sum it up like this: "The chassis was just perfect; it was totally neutral and progressive." According to Motor Sport in 2020, he also found it in testing more demanding than the 312B3, but with far higher limits. The same article recounts the failed debut at Kyalami, in March 1975: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth.
+On paper, Niki Lauda was at first unmoved; once he drove it at Fiorano, he quickly realised it was in a different class, as he told Alan Henry{% include src.html n="3" %}. He would sum it up like this: "The chassis was just perfect; it was totally neutral and progressive."{% include src.html n="3" %} According to Motor Sport in 2020, he also found it in testing more demanding than the 312B3, but with far higher limits{% include src.html n="2" %}. The same article recounts the failed debut at Kyalami, in March 1975: Lauda went off in practice on another car's oil, then his engine lacked power in the race because of a belt that had jumped some teeth{% include src.html n="2" %}.
 
 ## Legacy
 
-- **1975**: Lauda became world champion, and Ferrari won its first constructors' title since 1964.
-- The 312T began a series with transverse gearbox and flat-12 that ran up to the 312T5.
+- **1975**: Lauda became world champion, and Ferrari won its first constructors' title since 1964{% include src.html n="2" %}.
+- The 312T began a series with transverse gearbox and flat-12 that ran up to the 312T5{% include src.html n="2" %}.

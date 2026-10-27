@@ -36,20 +36,20 @@ image: "/assets/partage/en/paddy-lowe.jpg"
 ---
 ## What he changed
 
-Paddy Lowe is a leading systems and electronics engineer. He joined Williams in autumn 1987 as joint head of electronics.
+Paddy Lowe is a leading systems and electronics engineer{% include src.html n="1,4" %}. He joined Williams in autumn 1987 as joint head of electronics{% include src.html n="2,3" %}.
 
-- **[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active).** formula1.com credits him with writing and developing most of the software that ran the Williams active suspension. Motor Sport presents him as the active suspension project leader. The system carried Nigel Mansell to the 1992 title in the FW14B.
-- **[Traction control]({{ site.baseurl }}/en/glossary/#antipatinage).** According to Lowe himself, the team also developed traction control, which was worth a second a lap.
+- **[Active suspension]({{ site.baseurl }}/en/glossary/#suspension-active).** formula1.com credits him with writing and developing most of the software that ran the Williams active suspension{% include src.html n="1" %}. Motor Sport presents him as the active suspension project leader{% include src.html n="3" %}. The system carried Nigel Mansell to the 1992 title in the FW14B{% include src.html n="1,4" %}.
+- **[Traction control]({{ site.baseurl }}/en/glossary/#antipatinage).** According to Lowe himself, the team also developed traction control, which was worth a second a lap{% include src.html n="3" %}.
 
 ## Technical career
 
-- **McLaren**, from 1993: head of research and development, chief engineer, director of engineering, then technical director in 2011. He contributed to three drivers' titles and one constructors' title.
-- **Mercedes**, from June 2013: executive director (technical), at the start of the team's dominance in the turbo-hybrid era.
-- **Williams**, again in 2017, as chief technical officer in charge of all engineering. He left the team in June 2019.
+- **McLaren**, from 1993: head of research and development, chief engineer, director of engineering, then technical director in 2011{% include src.html n="4" %}. He contributed to three drivers' titles and one constructors' title{% include src.html n="4" %}.
+- **Mercedes**, from June 2013: executive director (technical), at the start of the team's dominance in the turbo-hybrid era{% include src.html n="2,4,5" %}.
+- **Williams**, again in 2017, as chief technical officer in charge of all engineering{% include src.html n="4" %}. He left the team in June 2019{% include src.html n="2" %}.
 
 ## His role in the Williams ecosystem
 
-In the active suspension chain, [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system; Lowe wrote its software; [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) provided the overall architecture; [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) shared technical direction of the FW14B and FW15C.
+In the active suspension chain, [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) designed the first system{% include src.html n="3,6" %}; Lowe wrote its software{% include src.html n="1" %}; [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) provided the overall architecture{% include src.html n="1" %}; [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) shared technical direction of the FW14B and FW15C{% include src.html n="1,2" %}.
 
 ## Why Tier D
 
