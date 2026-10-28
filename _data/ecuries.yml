@@ -409,7 +409,19 @@ lignees:
   segments:
   - ecurie: march
     de: 1970
+    a: 1977
+  - ecurie: march
+    de: 1987
     a: 1989
+    lien:
+      type: reprise-partielle
+      preuve: atteste
+      pourquoi: 'En 1987, Robin Herd ramène March en F1 avec l''argent de Leyton House ; ce n''est pas l''équipe RAM de 1982 mais une nouvelle équipe créée par la société March, que Herd confie à Ian Phillips : « Il y a une usine prête », raconte Phillips — vide, en réalité (Marcus Simmons, Motor Sport ; GrandPrix.com).'
+      sources:
+      - titre: Motor Sport Magazine, Marcus Simmons, « Marching to civil war » (juin 2005)
+        url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
+      - titre: GrandPrix.com, « Robin Herd »
+        url: https://www.grandprix.com/people/robin-herd.html
   - ecurie: leyton-house
     de: 1990
     a: 1991
@@ -434,6 +446,220 @@ lignees:
         url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
       - titre: 'Goodwood, Russell Campbell, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)'
         url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
+- id: wolf
+  nom: Frank Williams Racing Cars et Wolf
+  segments:
+  - ecurie: politoys
+    de: 1972
+    a: 1972
+  - ecurie: iso-marlboro
+    de: 1973
+    a: 1974
+    lien:
+      type: renommage
+      preuve: etabli
+      pourquoi: 'Même équipe, Frank Williams, nouveaux commanditaires : Politoys parti, les FX3 deviennent des Iso-Marlboro FX3B en 1973, et les nouvelles voitures de John Clarke portent aussi le nom Iso-Marlboro (Allen Brown, OldRacingCars.com).'
+      sources:
+      - titre: OldRacingCars.com, Allen Brown, « Williams FX3 car-by-car histories »
+        url: https://www.oldracingcars.com/williams/fx3/
+      - titre: OldRacingCars.com, Allen Brown, « Williams IR/FW car-by-car histories »
+        url: https://www.oldracingcars.com/williams/ir/fw/
+  - ecurie: frank-williams-racing-cars
+    de: 1975
+    a: 1975
+    lien:
+      type: renommage
+      preuve: etabli
+      pourquoi: Les voitures de la série IR/FW, appelées Iso-Marlboro en 1973 et 1974, prennent le nom Williams en 1975 ; mêmes voitures, mêmes pilotes (Merzario, Laffite) (Allen Brown, OldRacingCars.com).
+      sources:
+      - titre: OldRacingCars.com, Allen Brown, « Williams IR/FW car-by-car histories »
+        url: https://www.oldracingcars.com/williams/ir/fw/
+  - ecurie: wolf-williams
+    de: 1976
+    a: 1976
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: 'À la fin de 1975, Walter Wolf prend 60 % de Frank Williams (Racing Cars) Ltd en épongeant ses dettes, rachète les actifs de Hesketh — la 308C devient la FW05 — et laisse Williams en place comme directeur : l''équipe Wolf-Williams est née (GrandPrix.com ; Allen Brown, OldRacingCars.com).'
+      sources:
+      - titre: GrandPrix.com, « Walter Wolf Racing »
+        url: https://www.grandprix.com/constructors/walter-wolf-racing.html
+      - titre: OldRacingCars.com, Allen Brown, « Williams FW05 car-by-car histories »
+        url: https://www.oldracingcars.com/williams/fw05/
+  - ecurie: wolf
+    de: 1977
+    a: 1979
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: 'Après une saison 1976 désastreuse, Wolf écarte Frank Williams de la direction et restructure l''équipe, qui devient Walter Wolf Racing ; Williams part fonder Williams Grand Prix Engineering avec Patrick Head (GrandPrix.com). Wolf le dit lui-même : « J''ai racheté les actifs de Frank Williams et lancé Walter Wolf Racing » (René Fagnan, Motorsport.com).'
+      sources:
+      - titre: GrandPrix.com, « Walter Wolf Racing »
+        url: https://www.grandprix.com/constructors/walter-wolf-racing.html
+      - titre: Motorsport.com, René Fagnan, « The story of Formula 1's first winning Wolf » (décembre 2015)
+        url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
+- id: ensign
+  nom: 'Ensign : d''Ensign à Theodore'
+  segments:
+  - ecurie: ensign
+    de: 1973
+    a: 1982
+  - ecurie: theodore
+    de: 1983
+    a: 1983
+    lien:
+      type: rachat
+      preuve: discute
+      pourquoi: 'Pour 1983, Teddy Yip réunit Theodore et Ensign : l''équipe garde le nom Theodore mais court avec l''Ensign N183 de Nigel Bennett, et ferme à la fin de l''année. GrandPrix.com parle de fusion, Allen Brown (OldRacingCars.com) d''un rachat de l''équipe de Mo Nunn par Yip ; la continuité des voitures, elle, est attestée — le châssis Ensign MN16 de 1982 est reconstruit en N183.'
+      sources:
+      - titre: GrandPrix.com, « Theodore Racing »
+        url: https://www.grandprix.com/constructors/theodore-racing.html
+      - titre: OldRacingCars.com, Allen Brown, « Theodore TY02 car-by-car histories »
+        url: https://www.oldracingcars.com/theodore/ty02/
+      - titre: OldRacingCars.com, Allen Brown, « Ensign N181 history »
+        url: https://www.oldracingcars.com/ensign/n181/
+- id: ligier
+  nom: 'Ligier : de Ligier à Prost'
+  segments:
+  - ecurie: ligier
+    de: 1976
+    a: 1996
+  - ecurie: prost
+    de: 1997
+    a: 2001
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: En février 1997, Alain Prost signe à Genève le rachat de l'équipe Ligier à Flavio Briatore, après dix-huit mois de négociations ; la FIA autorise aussitôt les châssis Ligier à prendre le nom Prost, et Prost se dit seul propriétaire, sur ses fonds propres (GrandPrix.com, février 1997).
+      sources:
+      - titre: GrandPrix.com, « Prost takes over Ligier... » (février 1997)
+        url: https://www.grandprix.com/news/prost-takes-over-ligier.html
+- id: arrows
+  nom: 'Arrows : Arrows et Footwork'
+  segments:
+  - ecurie: arrows
+    de: 1978
+    a: 1990
+  - ecurie: footwork
+    de: 1991
+    a: 1996
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: À la fin des années 1980, Wataru Ohashi, patron du transporteur japonais Footwork, rachète l'équipe à 100 % ; en 1991 elle devient Footwork Grand Prix International et ses voitures des Footwork, Jackie Oliver restant à sa tête (Adam Cooper, Motor Sport, qui cite Oliver).
+      sources:
+      - titre: 'Motor Sport Magazine, Adam Cooper, « Jackie Oliver''s army: the story of the Arrows F1 team » (septembre 1998)'
+        url: https://www.motorsportmagazine.com/archive/article/september-1998/58/olivers-army/
+  - ecurie: arrows
+    de: 1997
+    a: 2002
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Oliver, qui avait racheté l'équipe à Ohashi en 1995, s'associe au début de 1996 à Tom Walkinshaw, qui prend 40 % et les pleins pouvoirs (Oliver, cité par Adam Cooper) ; TWR achève la reprise en juillet 1996 et Walkinshaw devient président et directeur général (GrandPrix.com). Le nom Arrows revient en 1997, première saison complète sous son contrôle.
+      sources:
+      - titre: 'Motor Sport Magazine, Adam Cooper, « Jackie Oliver''s army: the story of the Arrows F1 team » (septembre 1998)'
+        url: https://www.motorsportmagazine.com/archive/article/september-1998/58/olivers-army/
+      - titre: GrandPrix.com, « TWR completes Arrows takeover » (juillet 1996)
+        url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
+- id: osella
+  nom: 'Osella : d''Osella à Fondmetal'
+  segments:
+  - ecurie: osella
+    de: 1980
+    a: 1990
+  - ecurie: fondmetal
+    de: 1991
+    a: 1992
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Gabriele Rumi, dont la société Fondmetal commanditait Osella, en prend une large part en 1990 puis toute l'écurie pour 1991, qui court désormais sous le nom de Fondmetal (Fondmetal). Enzo Osella s'en va et l'équipe déménage à Palosco, près de Bergame (GrandPrix.com, Joe Saward).
+      sources:
+      - titre: Fondmetal, « Fondmetal F1 History » (site officiel)
+        url: https://fondmetal.com/en/fondmetal-f1-history
+      - titre: 'GrandPrix.com, Joe Saward, « News Feature: The Fondmetal F1 team » (mars 1991)'
+        url: https://www.grandprix.com/features/joe-saward/news-feature-the-fondmetal-f1-team.html
+      - titre: GrandPrix.com, fiche constructeur « Fondmetal F1 SpA »
+        url: https://www.grandprix.com/constructors/fondmetal-f1-spa.html
+- id: coloni
+  nom: 'Coloni : de Coloni à Andrea Moda'
+  segments:
+  - ecurie: coloni
+    de: 1987
+    a: 1991
+  - ecurie: andrea-moda
+    de: 1992
+    a: 1992
+    lien:
+      type: reprise-partielle
+      preuve: etabli
+      pourquoi: 'En septembre 1991, Enzo Coloni vend son écurie au chausseur Andrea Sassetti, qui la fait courir en 1992 sous le nom de sa marque, Andrea Moda (GrandPrix.com). Mais la FISA estime qu''il n''a racheté que le matériel et non l''inscription de Coloni : l''équipe est traitée en nouvelle venue et exclue du Grand Prix d''Afrique du Sud faute d''avoir versé la caution de 100 000 dollars (RaceFans, Motor Sport).'
+      sources:
+      - titre: GrandPrix.com, fiche constructeur « Andrea Moda Formula »
+        url: https://www.grandprix.com/constructors/andrea-moda-formula.html
+      - titre: 'RaceFans, Ben Evans, « Lapped Legends: Andrea Moda » (décembre 2007)'
+        url: https://www.racefans.net/2007/12/20/lapped-legends-andrea-moda/
+      - titre: Motor Sport Magazine, « The month in Motor Sport » (avril 1992)
+        url: https://www.motorsportmagazine.com/archive/article/april-1992/4/month-motor-sport/
+- id: onyx
+  nom: Onyx
+  segments:
+  - ecurie: onyx
+    de: 1989
+    a: 1990
+- id: caterham
+  nom: Lotus (2010–2011) et Caterham
+  segments:
+  - ecurie: lotus-racing
+    de: 2010
+    a: 2011
+  - ecurie: caterham
+    de: 2012
+    a: 2014
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: Tony Fernandes, qui courait sous un nom Lotus concédé par Proton, rachète Caterham Cars et rebaptise son équipe Caterham F1 Team pour 2012 (Motor Sport) ; « nous nous appellerons Caterham F1 Team, avec les mêmes personnes », annonce-t-il (Autosport). Le nom Lotus passe alors à l'écurie d'Enstone, une autre équipe.
+      sources:
+      - titre: Autosport, Jamie O'Leary et Jonathan Noble, « Team Lotus to stay green and yellow under Caterham name in 2012 » (novembre 2011)
+        url: https://www.autosport.com/f1/news/team-lotus-to-stay-green-and-yellow-under-caterham-name-in-2012-4451091/4451091/
+      - titre: Motor Sport Magazine, base de données, « Caterham »
+        url: https://www.motorsportmagazine.com/database/teams/caterham/
+      - titre: Autosport, Jonathan Noble, « Team Lotus closing on name change to Caterham » (septembre 2011)
+        url: https://www.autosport.com/f1/news/team-lotus-closing-on-name-change-to-caterham-4450773/4450773/
+- id: manor
+  nom: Virgin, Marussia et Manor
+  segments:
+  - ecurie: virgin
+    de: 2010
+    a: 2011
+  - ecurie: marussia
+    de: 2012
+    a: 2015
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Fin 2010, le constructeur russe Marussia Motors devient actionnaire important de Virgin Racing, présenté comme tel par le directeur Graeme Lowdon (Crash.net) ; l'équipe, entrée en 2010 sous le nom Virgin, est reprise par Marussia et ses voitures sont officiellement rebaptisées à partir de 2012 (Formula1.com, Motor Sport).
+      sources:
+      - titre: Crash.net, Craig Llewellyn, « Marussia ups stake in Virgin » (2010)
+        url: https://www.crash.net/f1/news/164951/1/virgin-looks-to-future-after-russian-buy-in
+      - titre: Formula1.com, « Marussia reach the end of the road » (novembre 2014)
+        url: https://www.formula1.com/en/latest/article/marussia-reach-the-end-of-the-road.3hOQBfrcgFA1oqsVSigpbn
+      - titre: Motor Sport Magazine, base de données, « Manor Grand Prix »
+        url: https://www.motorsportmagazine.com/database/teams/manor-grand-prix/
+  - ecurie: manor
+    de: 2016
+    a: 2016
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: Sauvée de l'administration judiciaire début 2015 avec l'appui de Stephen Fitzpatrick (Autosport), l'équipe court en 2015 sous le nom Manor Marussia, puis confirme qu'elle s'appellera Manor Racing en 2016 (ESPN).
+      sources:
+      - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
+        url: https://www.espn.com/f1/story/_/id/14608552/manor-reveals-new-name-logo
+      - titre: Autosport, Jonathan Noble et Matt Beer, « Manor worth saving, says new investor Stephen Fitzpatrick » (mars 2015)
+        url: https://www.autosport.com/f1/news/manor-worth-saving-says-new-investor-stephen-fitzpatrick-5016692/5016692/
 ecuries:
 - id: alfa-romeo
   nom: Alfa Romeo
@@ -465,6 +691,30 @@ ecuries:
     url: https://www.formula1.com/en/results/2021/team
   - titre: Formula 1, résultats, « 2026 Teams' Standings »
     url: https://www.formula1.com/en/results/2026/team
+- id: andrea-moda
+  nom: Andrea Moda
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, résultats du Grand Prix de Monaco 1992 (Roberto Moreno, « Moda Judd »)
+    url: https://www.formula1.com/en/results/1992/races/579/monaco/race-result
+  - titre: GrandPrix.com, fiche constructeur « Andrea Moda Formula »
+    url: https://www.grandprix.com/constructors/andrea-moda-formula.html
+- id: arrows
+  nom: Arrows
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1978 Team Standings »
+    url: https://www.formula1.com/en/results/1978/team
+  - titre: Formula 1, « 1990 Team Standings »
+    url: https://www.formula1.com/en/results/1990/team
+  - titre: Formula 1, « 1997 Team Standings »
+    url: https://www.formula1.com/en/results/1997/team
+  - titre: Formula 1, « 2002 Team Standings »
+    url: https://www.formula1.com/en/results/2002/team
 - id: aston-martin
   nom: Aston Martin
   voitures: []
@@ -550,6 +800,26 @@ ecuries:
     url: https://www.formula1.com/en/teams/cadillac
   - titre: Formula 1, « 2026 Team Standings »
     url: https://www.formula1.com/en/results/2026/team
+- id: caterham
+  nom: Caterham
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 2012 (Caterham Renault)
+    url: https://www.formula1.com/en/results/2012/team
+  - titre: Formula1.com, classement des constructeurs 2014 (Caterham Renault)
+    url: https://www.formula1.com/en/results/2014/team
+- id: coloni
+  nom: Coloni
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, résultats du Grand Prix d'Espagne 1987 (Nicola Larini, Coloni Ford)
+    url: https://www.formula1.com/en/results/1987/races/523/spain/race-result
+  - titre: GrandPrix.com, fiche constructeur « Coloni (Enzo Coloni Racing Car Systems) »
+    url: https://www.grandprix.com/constructors/coloni-enzo-coloni-racing-car-systems.html
 - id: cooper
   nom: Cooper
   voitures:
@@ -565,6 +835,16 @@ ecuries:
     url: https://www.formula1.com/en/results/1969/races/269/monaco/race-result
   - titre: GrandPrix.com, « Cooper Car Company »
     url: https://www.grandprix.com/gpe/con-coope.html
+- id: ensign
+  nom: Ensign
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1973 French Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1973/races/321/france/race-result
+  - titre: Formula 1, « 1982 USA West Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1982/races/439/usa-west/race-result
 - id: ferrari
   nom: Ferrari
   voitures:
@@ -577,6 +857,26 @@ ecuries:
     url: https://www.formula1.com/en/teams/ferrari
   - titre: Formula 1, « 1950 Monaco Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1950/races/95/monaco/race-result
+- id: fondmetal
+  nom: Fondmetal
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, résultats du Grand Prix du Mexique 1991 (Olivier Grouillard, Fondmetal Ford)
+    url: https://www.formula1.com/en/results/1991/races/564/mexico/race-result
+  - titre: Formula1.com, résultats du Grand Prix de Monaco 1992 (Gabriele Tarquini, Fondmetal Ford)
+    url: https://www.formula1.com/en/results/1992/races/579/monaco/race-result
+- id: footwork
+  nom: Footwork
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1991 United States Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1991/races/559/united-states/race-result
+  - titre: Formula 1, « 1996 Team Standings »
+    url: https://www.formula1.com/en/results/1996/team
 - id: force-india
   nom: Force India
   voitures: []
@@ -605,6 +905,16 @@ ecuries:
     url: https://www.formula1.com/en/results/2006/team
   - titre: Formula 1, résultats, « 2008 Teams' Standings »
     url: https://www.formula1.com/en/results/2008/team
+- id: iso-marlboro
+  nom: Iso-Marlboro
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1973 Team Standings »
+    url: https://www.formula1.com/en/results/1973/team
+  - titre: Formula 1, « 1974 Team Standings »
+    url: https://www.formula1.com/en/results/1974/team
 - id: jaguar
   nom: Jaguar
   voitures: []
@@ -656,6 +966,26 @@ ecuries:
     url: https://www.formula1.com/en/results/1990/team
   - titre: Formula 1, « 1991 Team Standings »
     url: https://www.formula1.com/en/results/1991/team
+- id: ligier
+  nom: Ligier
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1976 Team Standings »
+    url: https://www.formula1.com/en/results/1976/team
+  - titre: Formula 1, « 1996 Team Standings »
+    url: https://www.formula1.com/en/results/1996/team
+- id: lotus-racing
+  nom: Lotus (2010–2011)
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 2010 (Lotus Cosworth)
+    url: https://www.formula1.com/en/results/2010/team
+  - titre: Formula1.com, classement des constructeurs 2011 (Lotus Renault ; l'équipe d'Enstone y figure sous « Renault »)
+    url: https://www.formula1.com/en/results/2011/team
 - id: lotus-f1
   nom: Lotus F1 Team
   voitures: []
@@ -666,6 +996,14 @@ ecuries:
     url: https://www.formula1.com/en/information/alpine-year-by-year.26lcAj4zKxSs1w959B6yV
   - titre: Formula 1, résultats, « 2015 Teams' Standings »
     url: https://www.formula1.com/en/results/2015/team
+- id: manor
+  nom: Manor (MRT)
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 2016 (MRT Mercedes, 1 point)
+    url: https://www.formula1.com/en/results/2016/team
 - id: march
   nom: March
   voitures:
@@ -675,10 +1013,24 @@ ecuries:
   sources:
   - titre: Formula 1, « 1970 Team Standings »
     url: https://www.formula1.com/en/results/1970/team
+  - titre: Formula 1, « 1977 Argentine Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1977/races/374/argentina/race-result
+  - titre: Formula 1, « 1987 Team Standings »
+    url: https://www.formula1.com/en/results/1987/team
   - titre: Formula 1, « 1989 Team Standings »
     url: https://www.formula1.com/en/results/1989/team
   - titre: Formula 1, « 1992 Team Standings »
     url: https://www.formula1.com/en/results/1992/team
+- id: marussia
+  nom: Marussia
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 2012 (Marussia Cosworth)
+    url: https://www.formula1.com/en/results/2012/team
+  - titre: Formula1.com, classement des constructeurs 2015 (Marussia Ferrari)
+    url: https://www.formula1.com/en/results/2015/team
 - id: mclaren
   nom: McLaren
   voitures:
@@ -721,6 +1073,48 @@ ecuries:
     url: https://www.formula1.com/en/latest/article/toro-rosso-from-a-z.94qRWgpnalObzkOr0UNGX
   - titre: Formula 1, résultats, « 2005 Teams' Standings »
     url: https://www.formula1.com/en/results/2005/team
+- id: onyx
+  nom: Onyx
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 1989 (Onyx Ford, 6 points)
+    url: https://www.formula1.com/en/results/1989/team
+  - titre: Formula1.com, résultats du Grand Prix d'Allemagne 1990 (Onyx Ford, Järvilehto et Foitek)
+    url: https://www.formula1.com/en/results/1990/races/72/germany/race-result
+  - titre: GrandPrix.com, « Belgian GP 1990 »
+    url: https://www.grandprix.com/races/belgian-gp-1990.html
+- id: osella
+  nom: Osella
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, résultats du Grand Prix d'Afrique du Sud 1980 (Eddie Cheever, Osella Ford)
+    url: https://www.formula1.com/en/results/1980/races/82/south-africa/race-result
+  - titre: Formula1.com, résultats du Grand Prix des États-Unis 1990 (Olivier Grouillard, Osella Ford)
+    url: https://www.formula1.com/en/results/1990/races/64/united-states/race-result
+- id: politoys
+  nom: Politoys
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1972 British Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1972/races/308/great-britain/race-result
+  - titre: OldRacingCars.com, Allen Brown, « Williams FX3 car-by-car histories »
+    url: https://www.oldracingcars.com/williams/fx3/
+- id: prost
+  nom: Prost
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1997 Team Standings »
+    url: https://www.formula1.com/en/results/1997/team
+  - titre: Formula 1, « 2001 Team Standings »
+    url: https://www.formula1.com/en/results/2001/team
 - id: racing-bulls
   nom: Racing Bulls
   voitures: []
@@ -824,6 +1218,16 @@ ecuries:
     url: https://www.formula1.com/en/results/1958/team
   - titre: Formula 1, « 1994 Australian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1994/races/620/australia/race-result
+- id: theodore
+  nom: Theodore
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1983 Team Standings »
+    url: https://www.formula1.com/en/results/1983/team
+  - titre: OldRacingCars.com, Allen Brown, « Theodore N183 car-by-car histories »
+    url: https://www.oldracingcars.com/theodore/n183/
 - id: toleman
   nom: Toleman
   voitures: []
@@ -857,6 +1261,16 @@ ecuries:
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
   - titre: Autosport, Maurice Hamilton, « How Tyrrell became a racing Rubik's cube as it faded out of F1 » (février 2023)
     url: https://www.autosport.com/f1/news/how-tyrrell-became-a-racing-rubiks-cube-as-it-faded-out-of-f1/10427616/
+- id: virgin
+  nom: Virgin
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula1.com, classement des constructeurs 2010 (Virgin Cosworth)
+    url: https://www.formula1.com/en/results/2010/team
+  - titre: Formula1.com, classement des constructeurs 2011 (Virgin Cosworth)
+    url: https://www.formula1.com/en/results/2011/team
 - id: williams
   nom: Williams
   voitures:
@@ -870,3 +1284,29 @@ ecuries:
     url: https://www.formula1.com/en/teams/williams
   - titre: Formula 1, « Williams at 40 - the essential facts, stats and stand-out moments » (mai 2017)
     url: https://www.formula1.com/en/latest/article/f1-williams-40-anniversary-facts-stats-video-moments.4gCUxY8VnOgkAGqe8A8646
+- id: frank-williams-racing-cars
+  nom: Williams (Frank Williams Racing Cars)
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1975 Team Standings »
+    url: https://www.formula1.com/en/results/1975/team
+- id: wolf
+  nom: Wolf
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1977 Team Standings »
+    url: https://www.formula1.com/en/results/1977/team
+  - titre: Formula 1, « 1979 Argentine Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1979/races/407/argentina/race-result
+- id: wolf-williams
+  nom: Wolf-Williams
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1976 Brazilian Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1976/races/358/brazil/race-result
