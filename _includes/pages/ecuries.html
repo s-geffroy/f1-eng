@@ -40,7 +40,11 @@
   {%- for l in liste %}
   <section class="lignee-ecurie" id="l-{{ l.id }}">
     <h3>{{ l.nom }}</h3>
-    {%- if l.texte %}<p>{% include lier-noms.html texte=l.texte %}</p>{% endif %}
+    {%- if l.texte %}
+    <p>{% include lier-noms.html texte=l.texte %}</p>
+    <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
+      {%- for src in l.texte_sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
+    {%- endif %}
     <ol class="jalons-liste">
       {%- for s in l.segments %}
       {%- assign e = E.ecuries | where: "id", s.ecurie | first %}

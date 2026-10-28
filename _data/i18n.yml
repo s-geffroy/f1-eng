@@ -129,7 +129,7 @@ fr:
     description: "La généalogie des écuries de Formule 1 : chaque structure suivie à travers ses rachats et ses changements de nom, chaque filiation justifiée par ses sources."
     titre: "Généalogie des écuries"
     accroche: "Une écurie de F1 change souvent de nom sans changer d'usine ni d'équipe : Tyrrell est devenue Mercedes, Stewart est devenue Red Bull. Chaque rangée de la frise suit une même structure, et chaque passage d'un nom au suivant est justifié par ses sources, avec son niveau de preuve. Les losanges marquent les voitures qui ont leur fiche."
-    perimetre: "Périmètre : tous les constructeurs qui ont pris le départ d'au moins un Grand Prix du championnat du monde depuis 1958, avec leurs saisons antérieures. N'y figurent pas les engagés des seules 500 miles d'Indianapolis, ni les équipes qui ne se sont jamais qualifiées (Life, Kauhsen, McGuire…). Un constructeur est suivi sous le nom des résultats officiels ; une même rangée peut accueillir plusieurs écuries qui ne se chevauchent pas."
+    perimetre: "Périmètre : tous les constructeurs qui ont pris le départ d'au moins un Grand Prix du championnat du monde depuis 1958, avec leurs saisons antérieures. N'y figurent pas les engagés des seules 500 miles d'Indianapolis, ni les équipes qui ne se sont jamais qualifiées (Life, Kauhsen, McGuire…). Une saison compte dès qu'une voiture a pris le départ, y compris les Formule 2 admises au Grand Prix d'Allemagne. Un constructeur est suivi sous le nom des résultats officiels ; une même rangée peut accueillir plusieurs écuries qui ne se chevauchent pas."
     aria: "Frise de la généalogie des écuries"
     actuelles: "Les écuries de 2026 et leurs ancêtres"
     historiques: "Écuries disparues"
@@ -147,6 +147,7 @@ fr:
       renommage: "changement de nom"
       reprise-partielle: "reprise partielle"
       usine-motoriste: "reprise par un constructeur"
+      changement-de-constructeur: "même équipe, autre constructeur de châssis"
   tiers:
     titre_page: "Tiers"
     description: "Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé."
@@ -366,7 +367,7 @@ en:
     description: "The family tree of Formula 1 teams: each team structure followed through its takeovers and name changes, each link justified by its sources."
     titre: "Team family tree"
     accroche: "An F1 team often changes its name without changing its factory or its people: Tyrrell became Mercedes, Stewart became Red Bull. Each row of the chart follows one structure, and each change from one name to the next is justified by its sources, with its level of evidence. Diamonds mark the cars that have their own entry."
-    perimetre: "Scope: every constructor that started at least one world championship Grand Prix since 1958, with its earlier seasons. Not included: entrants of the Indianapolis 500 only, and teams that never qualified (Life, Kauhsen, McGuire…). Each constructor is followed under the name used in the official results; a single row may hold several teams that do not overlap."
+    perimetre: "Scope: every constructor that started at least one world championship Grand Prix since 1958, with its earlier seasons. Not included: entrants of the Indianapolis 500 only, and teams that never qualified (Life, Kauhsen, McGuire…). A season counts as soon as one car started, including the Formula 2 cars admitted to the German Grand Prix. Each constructor is followed under the name used in the official results; a single row may hold several teams that do not overlap."
     aria: "Chart of the team family tree"
     actuelles: "The 2026 teams and their ancestors"
     historiques: "Defunct teams"
@@ -384,6 +385,7 @@ en:
       renommage: "name change"
       reprise-partielle: "partial takeover"
       usine-motoriste: "taken over by a manufacturer"
+      changement-de-constructeur: "same team, different chassis constructor"
   tiers:
     titre_page: "Tiers"
     description: "The twenty engineers split into four tiers, from paradigm change to more localised impact."

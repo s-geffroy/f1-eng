@@ -296,6 +296,8 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 for src in lien.get("sources") or []:
                     if not src.get("titre") or not str(src.get("url", "")).startswith("http"):
                         err(f"{lieu} : source incomplète")
+        if l.get("texte") and not l.get("texte_sources"):
+            err(f"{chemin} : lignée {l.get('id')}, note sans source")
         if l.get("actuelle") and segs and segs[-1].get("a") != 2026:
             err(f"{chemin} : lignée actuelle {l.get('id')} dont le dernier segment ne va pas jusqu'à 2026")
         signature.append((l.get("id"), bool(l.get("actuelle")),
@@ -314,7 +316,7 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 if segs[0]["de"] <= f0 and d0 <= segs[-1]["a"]:
                     err(f"{chemin} : lignées {autre} et {l.get('id')} se chevauchent sur la rangée {r}")
             occupees.setdefault(r, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
-    signature.append(sorted((l.get("id"), l.get("rangee")) for l in E.get("lignees") or []))
+    signature.append(sorted((l.get("id"), l.get("rangee"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
     for e in sorted(set(ids_ec) - utilisees):
         err(f"{chemin} : écurie {e} absente de toute lignée")
     structures[lang] = (signature, {e["id"]: (e.get("voitures"), [i.get("id") for i in e.get("ingenieurs") or []], e.get("jalons"),
