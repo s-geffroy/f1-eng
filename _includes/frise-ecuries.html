@@ -1,9 +1,13 @@
 {%- comment -%}
-  Frise des écuries (_data/ecuries.yml) : une rangée par lignée, un segment par nom porté par la même
-  structure ; un losange par voiture de l'encyclopédie, à son année. Commune aux deux langues.
+  Frise des écuries (_data/ecuries.yml) : un segment par nom porté par la même structure ; un losange
+  par voiture de l'encyclopédie, à son année. Commune aux deux langues. Les lignées se partagent les
+  rangées selon leur champ « rangee » (calculé à la génération : une rangée par lignée actuelle, les
+  autres regroupées quand elles ne se chevauchent pas).
   Paramètres :
     debut, fin    : bornes de l'axe (années) ; la frise de la chronologie passe les siennes pour s'aligner
     actuelles     : "oui" pour ne montrer que les lignées engagées aujourd'hui (portail)
+    selection     : "principales" pour les lignées actuelles et celles qui ont une voiture de l'encyclopédie,
+                    une rangée chacune (bande de la chronologie)
     axe           : "non" pour ne pas dessiner l'axe des décennies (la chronologie a déjà le sien)
   Un segment se termine à la fin de sa dernière saison (a + 1). Chaque segment renvoie à sa fiche
   sur la page des écuries (#e-<id>).
@@ -15,8 +19,17 @@
 {%- assign fin_f = include.fin | default: 2026 -%}
 {%- if include.actuelles == "oui" -%}
   {%- assign lignees_f = E_f.lignees | where: "actuelle", true -%}
+  {%- assign rangees_f = lignees_f | group_by: "id" -%}
+{%- elsif include.selection == "principales" -%}
+  {%- assign lignees_f = "" | split: "" -%}
+  {%- for l in E_f.lignees -%}
+    {%- assign garder = l.actuelle -%}
+    {%- for s in l.segments -%}{%- assign e = E_f.ecuries | where: "id", s.ecurie | first -%}{%- if e.voitures.size > 0 -%}{%- assign garder = true -%}{%- endif -%}{%- endfor -%}
+    {%- if garder -%}{%- assign lignees_f = lignees_f | push: l -%}{%- endif -%}
+  {%- endfor -%}
+  {%- assign rangees_f = lignees_f | group_by: "id" -%}
 {%- else -%}
-  {%- assign lignees_f = E_f.lignees -%}
+  {%- assign rangees_f = E_f.lignees | group_by: "rangee" -%}
 {%- endif -%}
 {%- assign url_ecuries = T_f.url.ecuries | relative_url -%}
 <div class="ecuries-plan" style="--debut: {{ debut_f }}; --fin: {{ fin_f }};">
@@ -28,10 +41,14 @@
   </div>
   {%- endunless %}
   <ol class="ecuries-rangees">
-    {%- for l in lignees_f %}
-    {%- assign premier = l.segments | first %}
+    {%- for r in rangees_f %}
     <li class="ecuries-rangee">
+      {%- for l in r.items %}
+      {%- assign premier = l.segments | first %}
+      {%- comment -%} le nom de la lignée n'est écrit que s'il diffère de celui de son unique segment {%- endcomment -%}
+      {%- if l.segments.size > 1 or r.items.size == 1 %}
       <p class="ecuries-lignee{% if premier.de > 2010 %} ecuries-lignee-fin{% endif %}" style="--de: {{ premier.de }};">{{ l.nom }}</p>
+      {%- endif %}
       <ol class="ecuries-segments" aria-label="{{ l.nom }}">
         {%- for s in l.segments %}
         {%- assign e = E_f.ecuries | where: "id", s.ecurie | first %}
@@ -56,6 +73,7 @@
         {%- endfor %}
         {%- endfor %}
       </ul>
+      {%- endfor %}
     </li>
     {%- endfor %}
   </ol>

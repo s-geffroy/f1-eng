@@ -129,7 +129,7 @@ fr:
     description: "La généalogie des écuries de Formule 1 : chaque structure suivie à travers ses rachats et ses changements de nom, chaque filiation justifiée par ses sources."
     titre: "Généalogie des écuries"
     accroche: "Une écurie de F1 change souvent de nom sans changer d'usine ni d'équipe : Tyrrell est devenue Mercedes, Stewart est devenue Red Bull. Chaque rangée de la frise suit une même structure, et chaque passage d'un nom au suivant est justifié par ses sources, avec son niveau de preuve. Les losanges marquent les voitures qui ont leur fiche."
-    perimetre: "Périmètre en cours de construction : la frise couvre les lignées des onze écuries engagées en 2026, les écuries disparues qui ont porté plusieurs noms, et les écuries des voitures de l'encyclopédie. Les constructeurs restés sous un seul nom depuis 1958 seront ajoutés par décennie."
+    perimetre: "Périmètre : tous les constructeurs qui ont pris le départ d'au moins un Grand Prix du championnat du monde depuis 1958, avec leurs saisons antérieures. N'y figurent pas les engagés des seules 500 miles d'Indianapolis, ni les équipes qui ne se sont jamais qualifiées (Life, Kauhsen, McGuire…). Un constructeur est suivi sous le nom des résultats officiels ; une même rangée peut accueillir plusieurs écuries qui ne se chevauchent pas."
     aria: "Frise de la généalogie des écuries"
     actuelles: "Les écuries de 2026 et leurs ancêtres"
     historiques: "Écuries disparues"
@@ -140,6 +140,7 @@ fr:
     dates: "Dates"
     sources: "Sources"
     legende: "Passage d'un nom au suivant :"
+    retour: "retour après une absence"
     note: "Les années sont celles des saisons disputées sous chaque nom au championnat du monde. Sources consultées le 28 octobre 2026."
     types:
       rachat: "rachat"
@@ -190,7 +191,7 @@ fr:
     bande_ecuries: "Écuries"
     bande_voitures: "Voitures"
     bande_titre: "Les écuries et leurs voitures"
-    bande_texte: "Chaque rangée suit une même structure d'écurie au fil de ses noms ; les losanges marquent les voitures qui ont leur fiche. Le détail et les sources de chaque filiation sont sur la page"
+    bande_texte: "Chaque rangée suit une même structure d'écurie au fil de ses noms : les écuries engagées aujourd'hui et celles des voitures de l'encyclopédie, marquées d'un losange. La généalogie complète, avec le détail et les sources de chaque filiation, est sur la page"
   glossaire:
     titre_page: "Glossaire"
     description: "Les termes techniques de la Formule 1 employés dans l'encyclopédie, définis simplement et sourcés."
@@ -365,7 +366,7 @@ en:
     description: "The family tree of Formula 1 teams: each team structure followed through its takeovers and name changes, each link justified by its sources."
     titre: "Team family tree"
     accroche: "An F1 team often changes its name without changing its factory or its people: Tyrrell became Mercedes, Stewart became Red Bull. Each row of the chart follows one structure, and each change from one name to the next is justified by its sources, with its level of evidence. Diamonds mark the cars that have their own entry."
-    perimetre: "Work in progress: the chart covers the lineages of the eleven teams entered in 2026, the defunct teams that raced under several names, and the teams of the cars in the encyclopedia. Constructors that kept a single name since 1958 will be added decade by decade."
+    perimetre: "Scope: every constructor that started at least one world championship Grand Prix since 1958, with its earlier seasons. Not included: entrants of the Indianapolis 500 only, and teams that never qualified (Life, Kauhsen, McGuire…). Each constructor is followed under the name used in the official results; a single row may hold several teams that do not overlap."
     aria: "Chart of the team family tree"
     actuelles: "The 2026 teams and their ancestors"
     historiques: "Defunct teams"
@@ -376,6 +377,7 @@ en:
     dates: "Dates"
     sources: "Sources"
     legende: "Change from one name to the next:"
+    retour: "return after an absence"
     note: "Years are the seasons contested under each name in the world championship. Sources accessed on 28 October 2026."
     types:
       rachat: "takeover"
@@ -426,7 +428,7 @@ en:
     bande_ecuries: "Teams"
     bande_voitures: "Cars"
     bande_titre: "Teams and their cars"
-    bande_texte: "Each row follows one team structure through its successive names; diamonds mark the cars that have their own entry. The details and sources of each link are on the page"
+    bande_texte: "Each row follows one team structure through its successive names: the teams entered today and those of the cars in the encyclopedia, marked with a diamond. The full family tree, with the details and sources of each link, is on the page"
   glossaire:
     titre_page: "Glossary"
     description: "The Formula 1 technical terms used in the encyclopedia, defined simply and with sources."

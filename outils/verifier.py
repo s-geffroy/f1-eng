@@ -218,7 +218,8 @@ for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "
         for o in sorted(en_v - fr_v): err(f"en : la voiture {o[:-3]} n'existe pas en français")
 
 # 4 ter. écuries (_data/ecuries.yml) : identifiants cités, saisons, chevauchements dans une lignée,
-#        passages justifiés (type, preuve, pourquoi, sources), chaque voiture rattachée à une seule écurie,
+#        passages justifiés (type, preuve, pourquoi, sources) sauf retour de la même écurie après une absence,
+#        chaque voiture rattachée à une seule écurie,
 #        et même structure dans les deux langues (seuls les textes changent)
 _i18n = charger_yaml("_data/i18n.yml") or {}
 ids_voitures = {f[:-3] for f in os.listdir("_voitures") if f.endswith(".md")} if os.path.isdir("_voitures") else set()
@@ -282,7 +283,9 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
             lien = sg.get("lien")
             if i == 0 and lien:
                 err(f"{lieu} : le premier segment n'a pas de passage")
-            if i > 0:
+            retour = i > 0 and not lien and sg.get("ecurie") == segs[i - 1].get("ecurie") \
+                and isinstance(de, int) and isinstance(segs[i - 1].get("a"), int) and de > segs[i - 1]["a"] + 1
+            if i > 0 and not retour:
                 lien = lien or {}
                 if lien.get("type") not in types:
                     err(f"{lieu} : type de passage « {lien.get('type')} » inconnu")
@@ -299,6 +302,19 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                           [(sg.get("ecurie"), sg.get("de"), sg.get("a"), (sg.get("lien") or {}).get("type"),
                             (sg.get("lien") or {}).get("preuve"), [x.get("url") for x in (sg.get("lien") or {}).get("sources") or []])
                            for sg in segs]))
+    # rangées de la frise : un entier par lignée ; deux lignées d'une même rangée ne se chevauchent pas
+    occupees = {}
+    for l in E.get("lignees") or []:
+        r, segs = l.get("rangee"), l.get("segments") or []
+        if not isinstance(r, int):
+            err(f"{chemin} : lignée {l.get('id')} sans rangée")
+            continue
+        if segs and all(isinstance(x.get(k), int) for x in segs for k in ("de", "a")):
+            for (d0, f0, autre) in occupees.get(r, []):
+                if segs[0]["de"] <= f0 and d0 <= segs[-1]["a"]:
+                    err(f"{chemin} : lignées {autre} et {l.get('id')} se chevauchent sur la rangée {r}")
+            occupees.setdefault(r, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
+    signature.append(sorted((l.get("id"), l.get("rangee")) for l in E.get("lignees") or []))
     for e in sorted(set(ids_ec) - utilisees):
         err(f"{chemin} : écurie {e} absente de toute lignée")
     structures[lang] = (signature, {e["id"]: (e.get("voitures"), [i.get("id") for i in e.get("ingenieurs") or []], e.get("jalons"),

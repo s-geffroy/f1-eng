@@ -667,7 +667,9 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
   font-family: var(--titre); font-size: 0.8125rem; font-weight: 600; line-height: 1; color: var(--mine);
 }
-.ecuries-segments { position: absolute; left: 0; right: 0; top: 0.95rem; height: 1.35rem; }
+.ecuries-segments { position: absolute; left: 0; right: 0; top: 0.95rem; height: 1.35rem; pointer-events: none; }
+/* plusieurs lignées peuvent partager une rangée : seuls les segments captent le pointeur */
+.segment { pointer-events: auto; }
 .segment {
   position: absolute; top: 0; bottom: 0;
   left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);

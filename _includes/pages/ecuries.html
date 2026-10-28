@@ -30,6 +30,8 @@
 </section>
 
 {%- assign groupes = "actuelles,historiques" | split: "," %}
+{%- comment -%} une écurie peut revenir dans sa lignée (Renault) ou figurer dans deux lignées : une seule ancre #e-<id> {%- endcomment %}
+{%- assign vus = "" %}
 {%- for g in groupes %}
 {%- if g == "actuelles" %}{% assign liste = actuelles %}{% assign titre_g = T.ecuries.actuelles %}{% else %}{% assign liste = historiques %}{% assign titre_g = T.ecuries.historiques %}{% endif %}
 {%- if liste.size > 0 %}
@@ -40,7 +42,6 @@
     <h3>{{ l.nom }}</h3>
     {%- if l.texte %}<p>{% include lier-noms.html texte=l.texte %}</p>{% endif %}
     <ol class="jalons-liste">
-      {%- assign vus = "" %}
       {%- for s in l.segments %}
       {%- assign e = E.ecuries | where: "id", s.ecurie | first %}
       {%- assign cle = "," | append: e.id | append: "," %}
@@ -50,6 +51,9 @@
           {%- if s.lien and s.lien.pourquoi and s.lien.sources.size > 0 %}
           {%- assign p = D.chronologie.preuves | where: "id", s.lien.preuve | first %}
           <p class="fiche-jalon-voie">{{ T.ecuries.types[s.lien.type] }}</p>
+          {%- elsif forloop.index0 > 0 %}
+          {%- assign i_prec = forloop.index0 | minus: 1 %}
+          {%- if l.segments[i_prec].ecurie == s.ecurie %}<p class="fiche-jalon-voie">{{ T.ecuries.retour }}</p>{% endif %}
           {%- endif %}
           <h4>{{ e.nom }}</h4>
           {%- if s.lien and s.lien.pourquoi and s.lien.sources.size > 0 %}

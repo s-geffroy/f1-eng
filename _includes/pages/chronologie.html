@@ -101,7 +101,7 @@
     {%- comment -%} bande des écuries et des voitures : même axe, même défilement que la frise {%- endcomment %}
     <div class="frise-bande-ecuries" aria-label="{{ T.chrono.bande_titre }}">
       <p class="frise-zone" aria-hidden="true">{{ T.chrono.bande_ecuries }}</p>
-      {% include frise-ecuries.html debut=debut fin=fin %}
+      {% include frise-ecuries.html debut=debut fin=fin selection="principales" %}
     </div>
   </div>
   {%- comment -%} hauteur de la zone des innovations, d'après la rangée la plus haute {%- endcomment -%}
