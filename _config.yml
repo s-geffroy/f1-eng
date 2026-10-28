@@ -60,6 +60,14 @@ collections:
   cars:
     output: true
     permalink: /en/cars/:name/
+  # Ecuries : une fiche par ecurie de _data/ecuries.yml, generee par outils/fiches-ecuries.py
+  # (meme nom de fichier dans les deux langues ; le contenu vient des donnees).
+  ecuries:
+    output: true
+    permalink: /ecuries/:name/
+  teams:
+    output: true
+    permalink: /en/teams/:name/
 
 defaults:
   # Image de partage (Open Graph) par defaut ; chaque entree a la sienne dans son
@@ -101,6 +109,17 @@ defaults:
       type: cars
     values:
       layout: voiture
+      lang: en
+  - scope:
+      path: ""
+      type: ecuries
+    values:
+      layout: ecurie
+  - scope:
+      path: ""
+      type: teams
+    values:
+      layout: ecurie
       lang: en
   - scope:
       path: "en"

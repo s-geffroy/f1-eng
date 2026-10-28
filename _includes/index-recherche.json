@@ -16,7 +16,7 @@
 {%- for l in D.ecuries.lignees -%}
 {%- for s in l.segments -%}
 {%- assign e = D.ecuries.ecuries | where: "id", s.ecurie | first -%}
-{%- capture url_e %}{{ T.url.ecuries | relative_url }}#e-{{ e.id }}{% endcapture -%}
+{%- capture url_e %}{{ T.url.ecuries | relative_url }}{{ e.id }}/{% endcapture -%}
 {%- capture titre_e %}{{ e.nom }} ({{ s.de }}{% if s.a != s.de %}–{{ s.a }}{% endif %}){% endcapture -%}
 {{ sep }}{"type":"ecurie","titre":{{ titre_e | jsonify }},"sous":{{ l.nom | jsonify }},"url":{{ url_e | jsonify }},"texte":{{ s.lien.pourquoi | default: "" | jsonify }}}
 {%- endfor -%}

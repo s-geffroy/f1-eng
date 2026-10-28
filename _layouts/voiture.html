@@ -36,7 +36,7 @@ layout: default
       {%- if ecurie_v -%}
         {%- assign lignee_v = nil -%}
         {%- for l in D.ecuries.lignees -%}{%- for s in l.segments -%}{%- if s.ecurie == ecurie_v.id -%}{%- assign lignee_v = l -%}{%- endif -%}{%- endfor -%}{%- endfor %}
-      <div class="case case-large"><dt>{{ T.l.ecurie }}</dt><dd><a href="{{ T.url.ecuries | relative_url }}#e-{{ ecurie_v.id }}">{{ ecurie_v.nom }}</a>{% if lignee_v and lignee_v.segments.size > 1 %} · <a href="{{ T.url.ecuries | relative_url }}#l-{{ lignee_v.id }}">{{ lignee_v.nom }}</a>{% endif %}</dd></div>
+      <div class="case case-large"><dt>{{ T.l.ecurie }}</dt><dd><a href="{{ T.url.ecuries | relative_url }}{{ ecurie_v.id }}/">{{ ecurie_v.nom }}</a>{% if lignee_v and lignee_v.segments.size > 1 %} · <a href="{{ T.url.ecuries | relative_url }}#l-{{ lignee_v.id }}">{{ lignee_v.nom }}</a>{% endif %}</dd></div>
       {%- endif %}
       <div class="case case-large"><dt>{{ T.l.moteur }}</dt><dd>{{ page.moteur }}</dd></div>
       {%- if page.statut %}

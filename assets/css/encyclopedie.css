@@ -726,6 +726,63 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .frise:has(#bande-ecuries:not(:checked)) .frise-bande-ecuries { display: none; }
 .frise:has(#bande-voitures:not(:checked)) .ecuries-voitures { display: none; }
 
+/* motoristes : bande fine sous les segments, affichée par la case « couche-moteurs » (toujours sur
+   une fiche d'écurie). Douze motoristes les plus fréquents en couleur, les autres en gris : la couleur
+   distingue, elle n'affirme aucune parenté entre motoristes. */
+[data-couleur="0"] { --m: #c2c9cc; }
+[data-couleur="1"] { --m: #1f5fa8; }
+[data-couleur="2"] { --m: #d4a017; }
+[data-couleur="3"] { --m: #b5462e; }
+[data-couleur="4"] { --m: #2a8c82; }
+[data-couleur="5"] { --m: #5b8c2a; }
+[data-couleur="6"] { --m: #6a4fa3; }
+[data-couleur="7"] { --m: #8c2a55; }
+[data-couleur="8"] { --m: #6f7c85; }
+[data-couleur="9"] { --m: #c26b1a; }
+[data-couleur="10"] { --m: #2e5d3a; }
+[data-couleur="11"] { --m: #3b3f8f; }
+[data-couleur="12"] { --m: #4aa0d5; }
+.ecuries-moteurs { display: none; position: absolute; left: 0; right: 0; top: 2.33rem; height: 0.24rem; list-style: none; margin: 0; padding: 0; }
+.frise:has(#couche-moteurs:checked) .ecuries-moteurs, .frise-fiche .ecuries-moteurs { display: block; }
+.moteur {
+  position: absolute; top: 0; bottom: 0; background: var(--m);
+  left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
+  width: calc((var(--a) - var(--de)) / (var(--fin) - var(--debut)) * 100%);
+}
+.moteur-pastille { display: inline-block; width: 0.7em; height: 0.7em; margin-right: 0.3em; background: var(--m); vertical-align: 0.02em; }
+.legende-moteurs { display: inline-flex; flex-wrap: wrap; gap: 0.2rem 0.8rem; font-size: 0.9375rem; color: var(--mine); }
+.legende-moteurs span { display: inline-flex; align-items: center; }
+.frise:not(:has(#couche-moteurs:checked)) .legende-moteurs { display: none; }
+.segment a[aria-current] { text-decoration: underline; text-decoration-thickness: 2px; }
+
+/* lignées des usines (même dessin que les lignées techniques) */
+.ecuries-usines { margin-top: 3rem; }
+.ecuries-usines > h2 { font-size: 1.75rem; margin: 0 0 0.5rem; }
+.ecuries-usines .lignee { scroll-margin-top: 1rem; }
+.ecuries-usines .lignee:target { background: var(--feuille); box-shadow: -0.75rem 0 0 var(--feuille), inset 4px 0 0 var(--graphite); }
+.ecuries-usines .chaine li > span { font-family: var(--titre); font-weight: 500; color: var(--mine); margin-left: 0.25rem; }
+.usines-ligne { font-size: 0.9375rem; margin: 0 0 0.75rem; }
+.usines-ligne > span { font-family: var(--titre); font-weight: 600; margin-right: 0.35rem; }
+.usines-ligne small { display: block; color: var(--mine); }
+
+/* index alphabétique des écuries */
+.ecuries-index { margin-top: 3rem; }
+.ecuries-liste { list-style: none; margin: 0; padding: 0; columns: 16rem auto; column-gap: 2rem; }
+.ecuries-liste li { break-inside: avoid; padding: 0.2rem 0; border-bottom: var(--trait-fin) solid var(--trait-clair); }
+.ecuries-liste a { font-family: var(--titre); font-size: 1.1875rem; font-weight: 600; }
+.ecuries-liste span { font-size: 0.875rem; color: var(--mine); margin-left: 0.35rem; }
+
+/* fiche d'une écurie */
+.ecurie .passage { margin-bottom: 1.75rem; }
+.ecurie .passage h2 { font-size: 1.5rem; margin: 0 0 0.35rem; }
+.ecurie .preuve { font: 600 0.8125rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mine); border: var(--trait-fin) solid var(--trait); padding: 0.1rem 0.3rem; margin-left: 0.25rem; white-space: nowrap; }
+.usines { list-style: none; margin: 0; padding: 0; }
+.usines li { padding: 0.35rem 0; border-bottom: var(--trait-fin) solid var(--trait-clair); }
+.usines .fiche-jalon-liens { display: block; font-size: 0.875rem; color: var(--mine); }
+.frise-fiche { margin: 2rem 0; }
+.frise-fiche h2 { font-size: 1.5rem; margin: 0 0 0.5rem; }
+.frise-fiche .frise-defilement + .frise-defilement { margin-top: 0.75rem; }
+
 /* ---------- Accueil : portail ---------- */
 
 .portail-recherche { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 1.25rem; max-width: 40rem; }

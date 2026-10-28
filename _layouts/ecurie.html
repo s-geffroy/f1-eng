@@ -1,0 +1,192 @@
+---
+layout: default
+---
+{%- comment -%}
+  Fiche d'une écurie (_ecuries/<id>.md, _teams/<id>.md). Tout vient de _data/ecuries.yml : le fichier
+  de la collection ne porte que son titre. Une écurie peut figurer dans plus d'une lignée (Theodore) ou
+  revenir dans la sienne (Renault à Enstone) : chaque apparition est traitée.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
+{%- assign E = D.ecuries -%}
+{%- assign id_e = page.url | split: "/" | last -%}
+{%- assign e = E.ecuries | where: "id", id_e | first -%}
+{%- assign ses_lignees = "" | split: "" -%}
+{%- for l in E.lignees -%}
+  {%- assign dedans = false -%}
+  {%- for s in l.segments -%}{%- if s.ecurie == id_e -%}{%- assign dedans = true -%}{%- endif -%}{%- endfor -%}
+  {%- if dedans -%}{%- assign ses_lignees = ses_lignees | push: l -%}{%- endif -%}
+{%- endfor -%}
+{%- comment -%} usines de la lignée qui recouvrent les saisons de l'écurie {%- endcomment -%}
+{%- assign e_de = 3000 -%}{%- assign e_a = 0 -%}
+{%- for l in ses_lignees -%}{%- for s in l.segments -%}{%- if s.ecurie == id_e -%}
+  {%- if s.de < e_de -%}{%- assign e_de = s.de -%}{%- endif -%}{%- if s.a > e_a -%}{%- assign e_a = s.a -%}{%- endif -%}
+{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- assign usines_e = "" | split: "" -%}
+{%- for l in ses_lignees -%}{%- for u in l.usines -%}{%- if u.a >= e_de and u.de <= e_a -%}{%- assign usines_e = usines_e | push: u -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- assign par_nom = site[T.collection_ecuries] | sort: "nom_tri" -%}
+{%- for x in par_nom -%}{%- if x.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- assign i_prec = i | minus: 1 -%}
+{%- assign i_suiv = i | plus: 1 -%}
+{%- assign url_e = T.url.ecuries | relative_url -%}
+<article class="entree ecurie">
+  <header class="entree-tete">
+    <h1 class="vedette">{{ e.nom }}</h1>
+    {%- assign premiere = ses_lignees | first %}
+    <p class="accroche">{% if premiere.segments.size > 1 %}{{ T.ecuries.lignee }} <a href="{{ url_e }}#l-{{ premiere.id }}">{{ premiere.nom }}</a>{% else %}{{ T.ecuries.seule }}{% endif %}</p>
+  </header>
+
+  <aside class="entree-marge">
+    <dl class="cartouche cartouche-voiture">
+      <div class="case case-large"><dt>{{ T.ecuries.saisons }}</dt><dd>
+        {%- assign sep = "" -%}
+        {%- for l in ses_lignees -%}{%- for s in l.segments -%}{%- if s.ecurie == id_e -%}
+          {{ sep }}{{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}{%- assign sep = ", " -%}
+        {%- endif -%}{%- endfor -%}{%- endfor -%}
+      </dd></div>
+      {%- for l in ses_lignees %}
+      {%- for s in l.segments %}{% if s.ecurie == id_e %}
+      {%- assign k = forloop.index0 | minus: 1 %}{% assign k2 = forloop.index0 | plus: 1 %}{% assign dernier = l.segments.size | minus: 1 %}
+      {%- if forloop.index0 > 0 %}{% assign p = l.segments[k] %}{% assign ep = E.ecuries | where: "id", p.ecurie | first %}
+      {%- if ep.id != id_e %}
+      <div class="case case-large"><dt>{{ T.ecuries.precedent }}</dt><dd><a href="{{ url_e }}{{ ep.id }}/">{{ ep.nom }}</a> ({{ p.de }}{% if p.a != p.de %}–{{ p.a }}{% endif %})</dd></div>
+      {%- endif %}{% endif %}
+      {%- if k2 < l.segments.size %}{% assign n = l.segments[k2] %}{% assign en = E.ecuries | where: "id", n.ecurie | first %}
+      {%- if en.id != id_e %}
+      <div class="case case-large"><dt>{{ T.ecuries.suivant }}</dt><dd><a href="{{ url_e }}{{ en.id }}/">{{ en.nom }}</a> ({{ n.de }}{% if n.a != n.de %}–{% if l.actuelle and k2 == dernier %}{{ T.ecuries.aujourdhui }}{% else %}{{ n.a }}{% endif %}{% endif %})</dd></div>
+      {%- endif %}{% endif %}
+      {%- endif %}{% endfor %}
+      {%- endfor %}
+      {%- if usines_e.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.usine }}</dt><dd>
+        {%- for u in usines_e %}{{ u.lieu }} ({{ u.periode }}){% unless forloop.last %} ; {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- if e.moteurs.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.motoristes }}</dt><dd>
+        {%- for m in e.moteurs %}{% assign mo = E.motoristes | where: "id", m.motoriste | first %}<span class="moteur-pastille" data-couleur="{{ mo.couleur | default: 0 }}"></span>{{ mo.nom }} ({{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}){% unless forloop.last %}, {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- if e.voitures.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.voitures }}</dt><dd>
+        {%- for vid in e.voitures %}{% assign url_v = T.url.voitures | append: vid | append: "/" %}{% assign v = site[T.collection_voitures] | where: "url", url_v | first %}{% if v %}<a href="{{ v.url | relative_url }}">{{ v.title }}</a> ({{ v.annee }}){% unless forloop.last %}, {% endunless %}{% endif %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- if e.ingenieurs.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.ingenieurs }}</dt><dd>
+        {%- for g in e.ingenieurs -%}
+          {%- capture annees -%}
+            {%- if g.de and g.a -%}{%- if g.de == g.a -%}{{ g.de }}{%- else -%}{{ g.de }}–{{ g.a }}{%- endif -%}
+            {%- elsif g.de -%}{{ g.de }}–…
+            {%- elsif g.a -%}…–{{ g.a }}
+            {%- endif -%}
+          {%- endcapture -%}
+          {% include lien-entree.html id=g.id %}{% if annees != "" %} ({{ annees }}){% endif %}{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
+      </dd></div>
+      {%- endif %}
+      {%- assign jalons_e = "" | split: "" %}
+      {%- for jid in e.jalons %}{% assign j = D.chronologie.jalons | where: "id", jid | first %}{% if j %}{% assign jalons_e = jalons_e | push: j %}{% endif %}{% endfor %}
+      {%- if jalons_e.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.jalons }}</dt><dd>
+        {%- for j in jalons_e %}<a href="{{ T.url.chronologie | relative_url }}#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
+    </dl>
+
+    <section class="references" aria-labelledby="references">
+      <h2 id="references">{{ T.ecuries.references }}</h2>
+      <ol>
+        {%- for src in e.sources %}
+        <li><a href="{{ src.url }}">{{ src.titre }}</a></li>
+        {%- endfor %}
+      </ol>
+      <p>{{ T.ecuries.consultees }}</p>
+    </section>
+  </aside>
+
+  <div class="entree-texte texte">
+    {%- for l in ses_lignees %}
+    {%- for s in l.segments %}{% if s.ecurie == id_e %}
+    {%- assign k2 = forloop.index0 | plus: 1 %}
+    {%- if s.lien and s.lien.pourquoi and s.lien.sources.size > 0 %}
+    {%- assign p = D.chronologie.preuves | where: "id", s.lien.preuve | first %}
+    <section class="passage">
+      <h2>{{ T.ecuries.arrivee }}</h2>
+      <p class="fiche-jalon-voie">{{ T.ecuries.types[s.lien.type] }}, {{ s.de }}</p>
+      <p>{% include lier-noms.html texte=s.lien.pourquoi %} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b></p>
+      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
+        {%- for src in s.lien.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
+    </section>
+    {%- endif %}
+    {%- if k2 < l.segments.size %}
+    {%- assign n = l.segments[k2] %}
+    {%- if n.lien and n.lien.pourquoi and n.lien.sources.size > 0 %}
+    {%- assign en = E.ecuries | where: "id", n.ecurie | first %}
+    {%- assign p = D.chronologie.preuves | where: "id", n.lien.preuve | first %}
+    <section class="passage">
+      <h2>{{ T.ecuries.devenir }} : <a href="{{ url_e }}{{ en.id }}/">{{ en.nom }}</a></h2>
+      <p class="fiche-jalon-voie">{{ T.ecuries.types[n.lien.type] }}, {{ n.de }}</p>
+      <p>{% include lier-noms.html texte=n.lien.pourquoi %} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b></p>
+      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
+        {%- for src in n.lien.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
+    </section>
+    {%- endif %}
+    {%- endif %}
+    {%- endif %}{% endfor %}
+    {%- if l.texte %}
+    <section class="passage">
+      <p>{% include lier-noms.html texte=l.texte %}</p>
+      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
+        {%- for src in l.texte_sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
+    </section>
+    {%- endif %}
+    {%- endfor %}
+
+    <section class="frise frise-fiche" aria-labelledby="titre-frise-fiche">
+      <h2 id="titre-frise-fiche">{{ T.ecuries.frise_lignee }}</h2>
+      {%- for l in ses_lignees %}
+      <div class="frise-defilement">
+        {% include frise-ecuries.html debut=1945 fin=2026 lignee=l.id courante=id_e %}
+      </div>
+      {%- endfor %}
+    </section>
+
+    {%- if usines_e.size > 0 %}
+    <section class="passage">
+      <h2>{{ T.ecuries.usine }}</h2>
+      <ul class="usines">
+        {%- for u in usines_e %}
+        <li>{{ u.lieu }}, {{ u.periode }}
+          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in u.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</span></li>
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endif %}
+
+    {%- if e.moteurs.size > 0 %}
+    <section class="passage">
+      <h2>{{ T.ecuries.motoristes }}</h2>
+      <ul class="usines">
+        {%- for m in e.moteurs %}{% assign mo = E.motoristes | where: "id", m.motoriste | first %}
+        <li><span class="moteur-pastille" data-couleur="{{ mo.couleur | default: 0 }}"></span>{{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}
+          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in m.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</span></li>
+        {%- endfor %}
+      </ul>
+      <p class="jalons-note">{{ T.ecuries.moteurs_note }}</p>
+    </section>
+    {%- endif %}
+  </div>
+
+  <nav class="suite" aria-label="{{ T.ecuries.suite_aria }}">
+    {%- if i_prec >= 0 -%}
+      {%- assign x = par_nom[i_prec] -%}
+      <a class="suite-prec" href="{{ x.url | relative_url }}"><span>{{ T.ecuries.titre_page }}</span> {{ x.title }}</a>
+    {%- endif -%}
+    {%- if i_suiv < par_nom.size -%}
+      {%- assign x = par_nom[i_suiv] -%}
+      <a class="suite-suiv" href="{{ x.url | relative_url }}"><span>{{ T.ecuries.titre_page }}</span> {{ x.title }}</a>
+    {%- endif -%}
+  </nav>
+</article>

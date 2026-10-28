@@ -8,16 +8,21 @@
     actuelles     : "oui" pour ne montrer que les lignées engagées aujourd'hui (portail)
     selection     : "principales" pour les lignées actuelles et celles qui ont une voiture de l'encyclopédie,
                     une rangée chacune (bande de la chronologie)
+    lignee        : identifiant d'une lignée, seule affichée (fiche d'une écurie)
+  Sous chaque segment, une bande fine donne les motoristes (affichée par la case « couche-moteurs »).
     axe           : "non" pour ne pas dessiner l'axe des décennies (la chronologie a déjà le sien)
-  Un segment se termine à la fin de sa dernière saison (a + 1). Chaque segment renvoie à sa fiche
-  sur la page des écuries (#e-<id>).
+  Un segment se termine à la fin de sa dernière saison (a + 1). Chaque segment renvoie à la fiche
+  de son écurie (/ecuries/<id>/).
 {%- endcomment -%}
 {%- assign lang_f = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T_f = site.data.i18n[lang_f] -%}
 {%- if lang_f == "en" -%}{%- assign E_f = site.data.en.ecuries -%}{%- else -%}{%- assign E_f = site.data.ecuries -%}{%- endif -%}
 {%- assign debut_f = include.debut | default: 1945 -%}
 {%- assign fin_f = include.fin | default: 2026 -%}
-{%- if include.actuelles == "oui" -%}
+{%- if include.lignee -%}
+  {%- assign lignees_f = E_f.lignees | where: "id", include.lignee -%}
+  {%- assign rangees_f = lignees_f | group_by: "id" -%}
+{%- elsif include.actuelles == "oui" -%}
   {%- assign lignees_f = E_f.lignees | where: "actuelle", true -%}
   {%- assign rangees_f = lignees_f | group_by: "id" -%}
 {%- elsif include.selection == "principales" -%}
@@ -55,12 +60,22 @@
         {%- assign fin_s = s.a | plus: 1 %}
         {%- assign alt = forloop.index | modulo: 2 %}
         <li class="segment{% if alt == 0 %} segment-alt{% endif %}{% if s.lien %} segment-{{ s.lien.type }} preuve-{{ s.lien.preuve }}{% endif %}{% if l.actuelle and forloop.last %} segment-encours{% endif %}" style="--de: {{ s.de }}; --a: {{ fin_s }};">
-          <a href="{{ url_ecuries }}#e-{{ e.id }}" title="{{ e.nom }}, {{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}">{{ e.nom }}</a>
+          <a href="{{ url_ecuries }}{{ e.id }}/"{% if include.courante == e.id %} aria-current="page"{% endif %} title="{{ e.nom }}, {{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}">{{ e.nom }}</a>
         </li>
         {%- endfor %}
       </ol>
-      {%- comment -%} voitures des écuries de la lignée, une seule fois par écurie (Renault revient deux fois à Enstone) {%- endcomment -%}
+      {%- comment -%} voitures et motoristes des écuries de la lignée, une seule fois par écurie (Renault revient deux fois à Enstone) {%- endcomment -%}
       {%- assign ids_l = l.segments | map: "ecurie" | uniq %}
+      <ul class="ecuries-moteurs">
+        {%- for id in ids_l %}
+        {%- assign e = E_f.ecuries | where: "id", id | first %}
+        {%- for m in e.moteurs %}
+        {%- assign mo = E_f.motoristes | where: "id", m.motoriste | first %}
+        {%- assign fin_m = m.a | plus: 1 %}
+        <li class="moteur" data-couleur="{{ mo.couleur | default: 0 }}" style="--de: {{ m.de }}; --a: {{ fin_m }};" title="{{ e.nom }} · {{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}"></li>
+        {%- endfor %}
+        {%- endfor %}
+      </ul>
       <ul class="ecuries-voitures">
         {%- for id in ids_l %}
         {%- assign e = E_f.ecuries | where: "id", id | first %}

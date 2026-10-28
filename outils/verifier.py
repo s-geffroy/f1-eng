@@ -261,6 +261,39 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
     for v in sorted(ids_voitures):
         if len(rattachees.get(v, [])) != 1:
             err(f"{chemin} : la voiture {v} doit être rattachée à une écurie et une seule ({rattachees.get(v, [])})")
+    # motoristes : identifiant connu, période comprise dans les saisons de l'écurie, au moins une source
+    ids_mo = {m.get("id") for m in E.get("motoristes") or []}
+    saisons_ec = {}
+    for l in E.get("lignees") or []:
+        for sg in l.get("segments") or []:
+            if isinstance(sg.get("de"), int) and isinstance(sg.get("a"), int):
+                saisons_ec.setdefault(sg.get("ecurie"), set()).update(range(sg["de"], sg["a"] + 1))
+    for e in ecuries:
+        for m in e.get("moteurs") or []:
+            lieu = f"{chemin} : écurie {e['id']}, motoriste {m.get('motoriste')} {m.get('de')}–{m.get('a')}"
+            if m.get("motoriste") not in ids_mo:
+                err(f"{lieu} : motoriste inconnu")
+            if not isinstance(m.get("de"), int) or not isinstance(m.get("a"), int) or m["de"] > m["a"]:
+                err(f"{lieu} : années invalides")
+            elif not set(range(m["de"], m["a"] + 1)) & saisons_ec.get(e["id"], set()):
+                err(f"{lieu} : hors des saisons de l'écurie")
+            if not m.get("sources") or any(not str(x.get("url", "")).startswith("http") for x in m["sources"]):
+                err(f"{lieu} : sans source")
+    for l in E.get("lignees") or []:
+        for u in l.get("usines") or []:
+            if not u.get("lieu") or not u.get("sources"):
+                err(f"{chemin} : lignée {l.get('id')}, usine sans lieu ou sans source")
+    # une fiche par écurie dans la collection de la langue (générée par outils/fiches-ecuries.py)
+    coll_ec = "_ecuries" if lang == "fr" else "_teams"
+    fiches_ec = {f[:-3] for f in os.listdir(coll_ec) if f.endswith(".md")} if os.path.isdir(coll_ec) else set()
+    for m in sorted(set(ids_ec) - fiches_ec):
+        err(f"{coll_ec}/{m}.md absent : lancer python3 outils/fiches-ecuries.py")
+    for o in sorted(fiches_ec - set(ids_ec)):
+        warn(f"{coll_ec}/{o}.md ne correspond à aucune écurie de {chemin}")
+    for f in sorted(fiches_ec):
+        fm = corps_par_page.get(f"{coll_ec}/{f}.md", (None, ""))[0]
+        if fm is not None and not fm.get("title"):
+            err(f"{coll_ec}/{f}.md : champ « title » manquant")
     utilisees, signature = set(), []
     ids_l = [l.get("id") for l in E.get("lignees") or []]
     for d in sorted({i for i in ids_l if ids_l.count(i) > 1}):
@@ -319,8 +352,12 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
     signature.append(sorted((l.get("id"), l.get("rangee"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
     for e in sorted(set(ids_ec) - utilisees):
         err(f"{chemin} : écurie {e} absente de toute lignée")
-    structures[lang] = (signature, {e["id"]: (e.get("voitures"), [i.get("id") for i in e.get("ingenieurs") or []], e.get("jalons"),
-                                             [x.get("url") for x in e.get("sources") or []]) for e in ecuries})
+    signature.append(sorted((l.get("id"), [(u.get("de"), u.get("a"), [x.get("url") for x in u.get("sources") or []]) for u in l.get("usines") or []])
+                            for l in E.get("lignees") or []))
+    structures[lang] = (signature, {e["id"]: (e.get("voitures"), [(i.get("id"), i.get("de"), i.get("a")) for i in e.get("ingenieurs") or []], e.get("jalons"),
+                                             [x.get("url") for x in e.get("sources") or []],
+                                             [(m.get("motoriste"), m.get("de"), m.get("a"), [x.get("url") for x in m.get("sources") or []]) for m in e.get("moteurs") or []])
+                                    for e in ecuries})
 if len(structures) == 2 and structures["fr"] != structures["en"]:
     err("_data/ecuries.yml et _data/en/ecuries.yml : lignées, saisons, passages, sources ou rattachements différents")
 
