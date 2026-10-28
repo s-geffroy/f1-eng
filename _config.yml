@@ -5,8 +5,8 @@
 # Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
-title: Ingénieurs de la F1
-description: Les ingénieurs qui ont révolutionné la Formule 1 — classement, méthode et chaînes causales des grandes innovations techniques.
+title: Ingénieurs et écuries de la F1
+description: Les ingénieurs qui ont révolutionné la Formule 1, la généalogie des écuries et les voitures qui ont fait date — classement, méthode et chaînes causales des grandes innovations techniques.
 author: Sylvain Geffroy
 
 # L'adresse publique du site, sans barre oblique finale.

@@ -30,6 +30,14 @@ layout: default
     <dl class="cartouche cartouche-voiture">
       <div class="case case-rang"><dt>{{ T.l.annee }}</dt><dd>{{ page.annee }}</dd></div>
       <div class="case case-equipe"><dt>{{ T.l.equipe }}</dt><dd>{{ page.equipe }}</dd></div>
+      {%- comment -%} écurie et lignée, déclarées dans _data/ecuries.yml (champ voitures de l'écurie) {%- endcomment -%}
+      {%- assign id_v = page.url | split: "/" | last -%}
+      {%- assign ecurie_v = D.ecuries.ecuries | where_exp: "e", "e.voitures contains id_v" | first -%}
+      {%- if ecurie_v -%}
+        {%- assign lignee_v = nil -%}
+        {%- for l in D.ecuries.lignees -%}{%- for s in l.segments -%}{%- if s.ecurie == ecurie_v.id -%}{%- assign lignee_v = l -%}{%- endif -%}{%- endfor -%}{%- endfor %}
+      <div class="case case-large"><dt>{{ T.l.ecurie }}</dt><dd><a href="{{ T.url.ecuries | relative_url }}#e-{{ ecurie_v.id }}">{{ ecurie_v.nom }}</a>{% if lignee_v and lignee_v.segments.size > 1 %} · <a href="{{ T.url.ecuries | relative_url }}#l-{{ lignee_v.id }}">{{ lignee_v.nom }}</a>{% endif %}</dd></div>
+      {%- endif %}
       <div class="case case-large"><dt>{{ T.l.moteur }}</dt><dd>{{ page.moteur }}</dd></div>
       {%- if page.statut %}
       <div class="case case-large"><dt>{{ T.l.statut }}</dt><dd>{{ page.statut }}</dd></div>

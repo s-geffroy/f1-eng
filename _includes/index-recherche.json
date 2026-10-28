@@ -1,4 +1,4 @@
-{%- comment -%} Index de recherche d'une langue : entrées, voitures, termes du glossaire, jalons et contexte, dossiers. {%- endcomment -%}
+{%- comment -%} Index de recherche d'une langue : entrées, écuries, voitures, termes du glossaire, jalons et contexte, dossiers. {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
@@ -11,6 +11,15 @@
 {%- for v in site[T.collection_voitures] -%}
 {%- capture titre_v %}{{ v.title }} ({{ v.annee }}){% endcapture -%}
 {{ sep }}{"type":"voiture","titre":{{ titre_v | jsonify }},"sous":{{ v.accroche | jsonify }},"url":{{ v.url | relative_url | jsonify }},"texte":{{ v.content | strip_html | normalize_whitespace | jsonify }}}
+{%- endfor -%}
+{%- comment -%} écuries : nom, lignée et, s'il est publié, le passage depuis le nom précédent {%- endcomment -%}
+{%- for l in D.ecuries.lignees -%}
+{%- for s in l.segments -%}
+{%- assign e = D.ecuries.ecuries | where: "id", s.ecurie | first -%}
+{%- capture url_e %}{{ T.url.ecuries | relative_url }}#e-{{ e.id }}{% endcapture -%}
+{%- capture titre_e %}{{ e.nom }} ({{ s.de }}{% if s.a != s.de %}–{{ s.a }}{% endif %}){% endcapture -%}
+{{ sep }}{"type":"ecurie","titre":{{ titre_e | jsonify }},"sous":{{ l.nom | jsonify }},"url":{{ url_e | jsonify }},"texte":{{ s.lien.pourquoi | default: "" | jsonify }}}
+{%- endfor -%}
 {%- endfor -%}
 {%- for t in D.glossaire -%}
 {%- capture url_t %}{{ T.url.glossaire | relative_url }}#{{ t.id }}{% endcapture -%}

@@ -57,7 +57,7 @@ This ranking is not a one-dimensional scale of "genius". It ranks **historical c
 
 - The [timeline of innovations]({{ '/en/timeline/' | relative_url }}) lays these breakthroughs out in time, from the 1946 Cooper 500 to the 2022 Red Bull.
 - The [technical glossary]({{ '/en/glossary/' | relative_url }}) explains the terms used: ground effect, monocoque, pneumatic valve springs…
-- The [index]({{ '/en/' | relative_url }}) also lists thirty-eight unranked entries, marked HC: the other people behind these innovations.
+- The [index of engineers]({{ '/en/engineers/' | relative_url }}) also lists thirty-eight unranked entries, marked HC: the other people behind these innovations.
 
 ## Main sources
 

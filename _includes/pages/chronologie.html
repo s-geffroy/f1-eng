@@ -36,6 +36,13 @@
     <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a>
   </p>
 
+  <div class="frise-bandes" role="group" aria-labelledby="frise-bandes-titre">
+    <p id="frise-bandes-titre">{{ T.chrono.bandes }}</p>
+    <label><input type="checkbox" id="bande-ecuries" checked> {{ T.chrono.bande_ecuries }}</label>
+    <label><input type="checkbox" id="bande-voitures" checked> {{ T.chrono.bande_voitures }}</label>
+    <span class="frise-bandes-note">{{ T.chrono.bande_texte }} <a href="{{ T.url.ecuries | relative_url }}">{{ T.ecuries.titre_page | downcase }}</a>.</span>
+  </div>
+
   <div class="frise-defilement">
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
       <p class="frise-zone frise-zone-haut" aria-hidden="true">{{ T.chrono.innovations }}</p>
@@ -90,6 +97,11 @@
         {%- endfor %}
       </ol>
       <p class="frise-invite" id="frise-invite" hidden>{{ T.chrono.invite }}</p>
+    </div>
+    {%- comment -%} bande des écuries et des voitures : même axe, même défilement que la frise {%- endcomment %}
+    <div class="frise-bande-ecuries" aria-label="{{ T.chrono.bande_titre }}">
+      <p class="frise-zone" aria-hidden="true">{{ T.chrono.bande_ecuries }}</p>
+      {% include frise-ecuries.html debut=debut fin=fin %}
     </div>
   </div>
   {%- comment -%} hauteur de la zone des innovations, d'après la rangée la plus haute {%- endcomment -%}
@@ -443,7 +455,7 @@
   // désélection : clic ailleurs que sur un repère, le panneau ou les commandes de la frise, ou Échap
   document.addEventListener("click", function (e) {
     if (!courant || !e.target.closest) return;
-    if (e.target.closest(".jalon, .evenement, .frise-detail, .frise-filtres, .frise-legende")) return;
+    if (e.target.closest(".jalon, .evenement, .frise-detail, .frise-filtres, .frise-legende, .frise-bandes")) return;
     fermer();
   });
   document.addEventListener("keydown", function (e) {

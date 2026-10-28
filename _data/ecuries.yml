@@ -1,0 +1,872 @@
+# Genealogie des ecuries (pages /ecuries/, accueil, bande de la chronologie).
+# lignees : une rangee de la frise = une meme structure (usine, equipe, engagement) a travers ses noms.
+#   actuelle : true si la lignee est engagee en 2026 (son dernier segment va jusqu'a 2026)
+#   segments : ecurie (identifiant ci-dessous), de / a = premiere et derniere saison sous ce nom
+#     lien (tout segment sauf le premier) : passage depuis le nom precedent
+#       type    : rachat | renommage | reprise-partielle | usine-motoriste (libelles : _data/i18n.yml)
+#       preuve  : atteste | etabli | discute (comme la chronologie)
+#       pourquoi, sources : obligatoires (_dossiers/causalite.md) ; sinon le passage n'est pas publie
+# ecuries : une fiche par nom. voitures = identifiants _voitures/ (chaque voiture dans une seule ecurie),
+#   ingenieurs = [{id, de, a}] (_ingenieurs/), jalons = identifiants de _data/chronologie.yml,
+#   sources = saisons disputees sous ce nom.
+# Meme structure dans _data/en/ecuries.yml : seuls les textes changent (controle : outils/verifier.py).
+lignees:
+- id: ferrari
+  nom: Ferrari
+  actuelle: true
+  segments:
+  - ecurie: ferrari
+    de: 1950
+    a: 2026
+- id: mclaren
+  nom: McLaren
+  actuelle: true
+  segments:
+  - ecurie: mclaren
+    de: 1966
+    a: 2026
+- id: brackley
+  nom: 'Brackley : de Tyrrell à Mercedes'
+  actuelle: true
+  segments:
+  - ecurie: tyrrell
+    de: 1970
+    a: 1998
+  - ecurie: bar
+    de: 1999
+    a: 2005
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: Le 28 novembre 1997, Ken Tyrrell vend son équipe à British American Tobacco, pour une somme évaluée à 30 millions de livres, en vue de créer British American Racing ; l'équipe court encore sous le nom de Tyrrell en 1998, puis devient BAR en 1999 (Autosport ; Motor Sport).
+      sources:
+      - titre: Autosport, Maurice Hamilton, « How Tyrrell became a racing Rubik's cube as it faded out of F1 » (février 2023)
+        url: https://www.autosport.com/f1/news/how-tyrrell-became-a-racing-rubiks-cube-as-it-faded-out-of-f1/10427616/
+      - titre: 'Motor Sport Magazine, Pablo Elizalde, « From Tyrrell shed via Brawn fairytale: the evolution of Mercedes'' F1 team » (septembre 2025)'
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
+  - ecurie: honda
+    de: 2006
+    a: 2008
+    lien:
+      type: usine-motoriste
+      preuve: atteste
+      pourquoi: Honda, motoriste de BAR et déjà actionnaire à 45 %, annonce le 4 octobre 2005 qu'il rachète toutes les parts de BARH Ltd., dont les 55 % de British American Tobacco, pour engager sa propre équipe à partir de 2006 ; elle prend le nom de Lucky Strike Honda Racing F1 Team (Honda).
+      sources:
+      - titre: Honda, « Honda acquires all shares in BARH Ltd. » (octobre 2005)
+        url: https://global.honda/en/newsroom/news/2005/c051004-eng.html
+      - titre: Honda, « 2006 | F1 »
+        url: https://global.honda/en/F1/2006/
+  - ecurie: brawn
+    de: 2009
+    a: 2009
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Après l'annonce du retrait de Honda fin 2008, Honda cède le 6 mars 2009 la totalité des parts de son équipe à Ross Brawn, son directeur ; ce rachat par la direction, avec des moteurs Mercedes, donne naissance au Brawn GP Formula One Team (Honda ; Motor Sport).
+      sources:
+      - titre: Honda, « Honda Announces Sale of the Honda Racing F1 Team » (mars 2009)
+        url: https://global.honda/en/newsroom/news/2009/c090306eng.html
+      - titre: Motor Sport Magazine, Ed Foster, « Brawn GP gets the green light » (mars 2009)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/brawn-gp-gets-green-light/
+  - ecurie: mercedes
+    de: 2010
+    a: 2026
+    lien:
+      type: usine-motoriste
+      preuve: atteste
+      pourquoi: Le 16 novembre 2009, Mercedes-Benz, motoriste de Brawn, en rachète 75,1 % (45,1 % pour Daimler, 30 % pour Aabar Investments) et la rebaptise Mercedes Grand Prix ; Dieter Zetsche annonce une équipe d'usine dès 2010 (Autosport ; Motor Sport).
+      sources:
+      - titre: Autosport, Edd Straw, « Mercedes takes over Brawn » (novembre 2009)
+        url: https://www.autosport.com/f1/news/mercedes-takes-over-brawn-4433692/4433692/
+      - titre: Motor Sport Magazine, Ed Foster, « Mercedes buys out Brawn GP » (novembre 2009)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mercedes-buys-out-brawn-gp/
+- id: williams
+  nom: Williams
+  actuelle: true
+  segments:
+  - ecurie: williams
+    de: 1978
+    a: 2026
+- id: enstone
+  nom: 'Enstone : de Toleman à Alpine'
+  actuelle: true
+  segments:
+  - ecurie: toleman
+    de: 1981
+    a: 1985
+  - ecurie: benetton
+    de: 1986
+    a: 2001
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: Commanditaire de Toleman en 1985, la famille Benetton rachète l'équipe en difficulté et la rebaptise Benetton Formula, lancée officiellement en février 1986 (GrandPrix.com ; The Race).
+      sources:
+      - titre: GrandPrix.com, « Benetton Formula Ltd. »
+        url: https://www.grandprix.com/constructors/benetton-formula-ltd.html
+      - titre: The Race, Edd Straw, « Ranking Renault/Alpine's five previous F1 identities » (septembre 2020)
+        url: https://www.the-race.com/formula-1/ranking-renault-alpines-five-previous-f1-identities/
+  - ecurie: renault
+    de: 2002
+    a: 2011
+    lien:
+      type: usine-motoriste
+      preuve: etabli
+      pourquoi: Renault rachète l'équipe Benetton début 2000 pour 120 millions de dollars ; elle court encore sous le nom de Benetton en 2000 et 2001, le moteur prenant le nom de Renault en 2001, puis devient l'équipe d'usine Renault en 2002 (Motor Sport ; GrandPrix.com).
+      sources:
+      - titre: 'Motor Sport Magazine, James Elson, « Teapots, turbos and titles: Renault''s wild F1 ride » (décembre 2025)'
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/
+      - titre: GrandPrix.com, « Benetton Formula Ltd. »
+        url: https://www.grandprix.com/constructors/benetton-formula-ltd.html
+  - ecurie: lotus-f1
+    de: 2012
+    a: 2015
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: Renault a vendu 75 % de son équipe à Genii Capital, la société de Gérard Lopez, durant l'hiver 2009-2010, mais elle garde le nom de Renault ; Lotus devenu commanditaire principal, Genii obtient pour 2012 de la renommer Lotus, avec l'accord de Renault, qui reste motoriste (Autosport).
+      sources:
+      - titre: 'Autosport, Jonathan Noble, « Renault: No regrets about selling stake » (octobre 2010)'
+        url: https://www.autosport.com/f1/news/renault-no-regrets-about-selling-stake-4441218/4441218/
+      - titre: Autosport, Jonathan Noble, « Renault backs Formula 1 team name change to Lotus » (octobre 2011)
+        url: https://www.autosport.com/f1/news/renault-backs-formula-1-team-name-change-to-lotus-4450345/4450345/
+      - titre: Formula 1, « Alpine - Year by Year »
+        url: https://www.formula1.com/en/information/alpine-year-by-year.26lcAj4zKxSs1w959B6yV
+  - ecurie: renault
+    de: 2016
+    a: 2020
+    lien:
+      type: usine-motoriste
+      preuve: atteste
+      pourquoi: Le 18 décembre 2015, le groupe Renault, motoriste de l'équipe, achève le rachat d'une participation de contrôle dans Lotus F1 Team auprès d'une filiale de Genii Capital, et revient en F1 comme constructeur ; l'équipe court sous le nom de Renault dès 2016 (formula1.com ; Motor Sport).
+      sources:
+      - titre: Formula 1, « Renault formally complete Lotus takeover » (décembre 2015)
+        url: https://www.formula1.com/en/latest/article/renault-formally-complete-lotus-takeover.5aFbvhNiNzoO5DxGIZ5iQr
+      - titre: 'Motor Sport Magazine, James Elson, « Teapots, turbos and titles: Renault''s wild F1 ride » (décembre 2025)'
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/teapots-turbos-and-titles-renaults-wild-f1-ride/
+  - ecurie: alpine
+    de: 2021
+    a: 2026
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: Le 6 septembre 2020, Renault annonce que son équipe s'appellera Alpine F1 Team dès 2021, du nom de sa marque sportive, dans le cadre de la réorganisation du groupe par Luca de Meo ; les moteurs restent des Renault construits à Viry-Châtillon (Motor Sport ; formula1.com).
+      sources:
+      - titre: Motor Sport Magazine, Jake Williams-Smith, « Renault to become Alpine F1 Team from 2021 season » (septembre 2020)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/renault-to-become-alpine-f1-team-from-2021-season/
+      - titre: Formula 1, « Renault to rebrand as Alpine F1 Team in 2021 » (septembre 2020)
+        url: https://www.formula1.com/en/latest/article/renault-alpine-f1-team-2021.7eY84dCU9MythQjcYG8T45
+- id: faenza
+  nom: 'Faenza : de Minardi aux Racing Bulls'
+  actuelle: true
+  segments:
+  - ecurie: minardi
+    de: 1985
+    a: 2005
+  - ecurie: toro-rosso
+    de: 2006
+    a: 2019
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: Red Bull rachète Minardi à Paul Stoddart lors du Grand Prix de Belgique 2005, pour environ 35 millions de dollars selon la presse ; l'équipe de Faenza débute en 2006 sous le nom de Scuderia Toro Rosso (GrandPrix.com ; formula1.com).
+      sources:
+      - titre: GrandPrix.com, « Red Bull acquires Minardi! » (septembre 2005)
+        url: https://www.grandprix.com/news/red-bull-acquires-minardi.html
+      - titre: Formula 1, « Toro Rosso from A-Z » (mars 2015)
+        url: https://www.formula1.com/en/latest/article/toro-rosso-from-a-z.94qRWgpnalObzkOr0UNGX
+  - ecurie: alphatauri
+    de: 2020
+    a: 2023
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: La liste provisoire des engagés 2020 publiée par la FIA confirme que la Scuderia Toro Rosso devient la Scuderia AlphaTauri, du nom de la marque de vêtements de Red Bull, qui reste propriétaire (formula1.com).
+      sources:
+      - titre: Formula 1, « Toro Rosso's name change to AlphaTauri confirmed in provisional 2020 entry list » (novembre 2019)
+        url: https://www.formula1.com/en/latest/article/toro-rossos-name-change-to-alpha-tauri-confirmed-in-provisional-2020-entry.5tIxtPAMsY8MACQAyvg41j
+  - ecurie: rb
+    de: 2024
+    a: 2024
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: En janvier 2024, l'équipe sœur de Red Bull annonce qu'elle s'appellera désormais RB, de son nom complet Visa Cash App RB Formula One Team (formula1.com).
+      sources:
+      - titre: Formula 1, « AlphaTauri rebrand confirmed for 2024 season as new team name revealed » (janvier 2024)
+        url: https://www.formula1.com/en/latest/article/alphatauri-rebrand-confirmed-for-2024-season-as-new-team-name-revealed.4xAWHWI66d5L9mFELLGb6J
+  - ecurie: racing-bulls
+    de: 2025
+    a: 2026
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: 'Pour 2025, Visa Cash App RB devient Visa Cash App Racing Bulls : selon son directeur général Peter Bayer, le sigle RB, adopté dans la précipitation, prêtait à confusion, et Racing Bulls est le nom de la société (The Race).'
+      sources:
+      - titre: The Race, Josh Suttill et Scott Mitchell-Malm, « Why Red Bull's second F1 squad is fixing its 'rushed' team name » (décembre 2024)
+        url: https://www.the-race.com/formula-1/why-red-bulls-second-f1-team-is-fixing-its-rushed-team-name/
+- id: silverstone
+  nom: 'Silverstone : de Jordan à Aston Martin'
+  actuelle: true
+  segments:
+  - ecurie: jordan
+    de: 1991
+    a: 2005
+  - ecurie: midland
+    de: 2006
+    a: 2006
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Le groupe Midland d'Alex Shnaider annonce le 24 janvier 2005 la signature du contrat de rachat de Jordan ; l'équipe court encore sous le nom Jordan toute la saison 2005 et n'apparaît sous son nouveau nom, Midland F1 Racing, qu'en 2006 (Matt Bishop, Motor Sport).
+      sources:
+      - titre: Motor Sport Magazine, Matt Bishop, « The billionaire Trump associate who bought Jordan F1 team — and turned a quick profit » (janvier 2025)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/the-billionaire-trump-associate-who-bought-jordan-f1-team-and-turned-a-quick-profit/
+      - titre: 'Formula 1, Samarth Kanal, « Team guide: Aston Martin''s complex F1 roots » (janvier 2023)'
+        url: https://www.formula1.com/en/latest/article/team-guide-aston-martins-complex-f1-roots-and-how-theyre-aiming-to-fulfil.465QgZKQ9XcBDcD54VT4xR
+  - ecurie: spyker
+    de: 2007
+    a: 2007
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Le 9 septembre 2006, à Monza, le groupe Midland annonce la vente de 100 % des parts de Midland F1 Limited au constructeur néerlandais Spyker Cars (Autosport, communiqué officiel cité).
+      sources:
+      - titre: Autosport, « Midland sale to Spyker now complete » (septembre 2006)
+        url: https://www.autosport.com/f1/news/midland-sale-to-spyker-now-complete-4405729/4405729/
+  - ecurie: force-india
+    de: 2008
+    a: 2018
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: L'homme d'affaires indien Vijay Mallya rachète Spyker en 2007 avec le Néerlandais Michiel Mol, pour 61 millions de livres (Motor Sport) ; l'équipe prend le nom de Force India en 2008 (formula1.com).
+      sources:
+      - titre: Motor Sport Magazine, Samarth Kanal, « Force India's F1 decade » (juillet 2018)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/force-indias-f1-decade/
+      - titre: 'Formula 1, Samarth Kanal, « Team guide: Aston Martin''s complex F1 roots » (janvier 2023)'
+        url: https://www.formula1.com/en/latest/article/team-guide-aston-martins-complex-f1-roots-and-how-theyre-aiming-to-fulfil.465QgZKQ9XcBDcD54VT4xR
+  - ecurie: racing-point
+    de: 2019
+    a: 2020
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Force India placée en administration judiciaire, les administrateurs vendent l'entreprise et ses actifs en août 2018 au consortium mené par Lawrence Stroll (Racing Point UK Limited) ; la FIA accorde une nouvelle inscription, et « Racing Point Force India » repart de zéro point dès le Grand Prix de Belgique (formula1.com). Le nom Force India disparaît en 2019.
+      sources:
+      - titre: Formula 1, « FIA approve Racing Point Force India F1 entry » (août 2018)
+        url: https://www.formula1.com/en/latest/article/fia-approve-racing-point-force-india-f1-entry.3BsgxEhqbYeUqec40OaSEw
+      - titre: 'Formula 1, Samarth Kanal, « Team guide: Aston Martin''s complex F1 roots » (janvier 2023)'
+        url: https://www.formula1.com/en/latest/article/team-guide-aston-martins-complex-f1-roots-and-how-theyre-aiming-to-fulfil.465QgZKQ9XcBDcD54VT4xR
+  - ecurie: aston-martin
+    de: 2021
+    a: 2026
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: 'Le consortium de Lawrence Stroll, déjà propriétaire de Racing Point, prend 16,7 % d''Aston Martin pour 182 millions de livres en janvier 2020 ; l''équipe annonce qu''elle deviendra l''équipe d''usine Aston Martin à partir de 2021 et portera ce nom au moins dix ans (formula1.com ; Dominic Tobin, Motor Sport). Même propriétaire, même usine : c''est un changement de nom.'
+      sources:
+      - titre: Formula 1, « Racing Point set to become Aston Martin works team for 2021 » (janvier 2020)
+        url: https://www.formula1.com/en/latest/article/racing-point-set-to-become-aston-martin-racing-for-2021.2YwShWhMbZr2NK1M4Q1nMn
+      - titre: Motor Sport Magazine, Dominic Tobin, « Racing Point to become Aston Martin F1 in 2021 » (janvier 2020)
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/racing-point-to-become-aston-martin-in-2021/
+- id: hinwil
+  nom: 'Hinwil : de Sauber à Audi'
+  actuelle: true
+  segments:
+  - ecurie: sauber
+    de: 1993
+    a: 2005
+  - ecurie: bmw-sauber
+    de: 2006
+    a: 2009
+    lien:
+      type: usine-motoriste
+      preuve: atteste
+      pourquoi: Le 22 juin 2005, BMW annonce qu'après avoir acquis la majorité de l'équipe suisse Sauber, une équipe gérée par BMW disputera le championnat dès 2006 (communiqué BMW) ; Peter Sauber garde 20 % des parts (Edd Straw, The Race).
+      sources:
+      - titre: BMW Group, « BMW managed team from 2006 » (juin 2005)
+        url: https://www.press.bmwgroup.com/latin-america-caribbean/article/detail/T0050556EN/bmw-managed-team-from-2006?language=en
+      - titre: The Race, Edd Straw, « The 10 key moments in Sauber's F1 history ahead of Audi deal » (octobre 2022)
+        url: https://www.the-race.com/formula-1/the-10-key-moments-in-saubers-f1-history-ahead-of-audi-deal/
+  - ecurie: sauber
+    de: 2010
+    a: 2018
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: BMW annonce son retrait de la F1 à la fin de 2009 ; Peter Sauber parvient à un accord avec le constructeur et rachète l'équipe (Crash.net). Autosport rappelle qu'en novembre 2009 BMW avait choisi de revendre l'équipe à son fondateur.
+      sources:
+      - titre: Crash.net, « 40 Years of Sauber Motorsport - A Tale of the Unexpected » (juillet 2010)
+        url: https://www.crash.net/f1/news/161819/1/the-sauber-story-at-40-a-tale-of-the-unexpected
+      - titre: Autosport, Jonathan Noble, « BMW Sauber name to remain for now » (janvier 2010)
+        url: https://www.autosport.com/f1/news/bmw-sauber-name-to-remain-for-now-4435180/4435180/
+  - ecurie: alfa-romeo
+    de: 2019
+    a: 2023
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: 'Après un an de partenariat-titre (2018), l''équipe devient Alfa Romeo Racing en 2019 ; le nom Sauber quitte la grille après 26 ans, mais propriétaires (Longbow Finance depuis 2016) et direction restent les mêmes : l''équipe « reste Sauber en tout sauf le nom » (Lawrence Barretto, formula1.com).'
+      sources:
+      - titre: Formula 1, Lawrence Barretto, « What dropping Sauber name means for Alfa Romeo Racing » (février 2019)
+        url: https://www.formula1.com/en/latest/article/what-dropping-sauber-name-means-for-alfa-romeo-racing.5mXcTEz3dv63T9SLuAInDl
+  - ecurie: kick-sauber
+    de: 2024
+    a: 2025
+    lien:
+      type: renommage
+      preuve: atteste
+      pourquoi: 'Alfa Romeo annonce en août 2022 qu''il mettra fin à son parrainage-titre de Sauber à l''expiration du contrat, fin 2023 (formula1.com) ; l''équipe s''inscrit pour 2024 sous le nom « Stake F1 Team Kick Sauber », avec un châssis baptisé Kick Sauber C44 (The Race). L''équipe de Hinwil ne change pas de mains : seul le parrain-titre change.'
+      sources:
+      - titre: Formula 1, « Alfa Romeo to end Sauber partnership at end of 2023 season » (août 2022)
+        url: https://www.formula1.com/en/latest/article/alfa-romeo-to-end-sauber-partnership-at-end-of-2023-season.4bKd4sn2aDCTbpbCAQWeGQ
+      - titre: The Race, « Sauber relaunches under new Stake F1 team identity » (janvier 2024)
+        url: https://www.the-race.com/formula-1/stake-f1-team-sauber-relaunch/
+  - ecurie: audi
+    de: 2026
+    a: 2026
+    lien:
+      type: usine-motoriste
+      preuve: atteste
+      pourquoi: Audi choisit en 2022 le groupe Sauber comme partenaire de son entrée en F1, avec un groupe propulseur conçu par Audi (FIA) ; en mars 2024, le constructeur décide de prendre 100 % de Sauber avant ses débuts de 2026 (formula1.com).
+      sources:
+      - titre: FIA, « FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry » (octobre 2022)
+        url: https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry
+      - titre: Formula 1, « Audi expands commitment to Formula 1 with 100% takeover of Sauber » (mars 2024)
+        url: https://www.formula1.com/en/latest/article/audi-expands-commitment-to-formula-1-with-100-takeover-of-sauber.4g5fNv9jl03sw5btt4LuSw
+- id: milton-keynes
+  nom: 'Milton Keynes : de Stewart à Red Bull'
+  actuelle: true
+  segments:
+  - ecurie: stewart
+    de: 1997
+    a: 1999
+  - ecurie: jaguar
+    de: 2000
+    a: 2004
+    lien:
+      type: usine-motoriste
+      preuve: etabli
+      pourquoi: Ford, qui fournissait ses moteurs à Stewart depuis sa création, rachète l'équipe en juin 1999 ; en septembre, il annonce qu'elle deviendra Jaguar Racing en 2000, du nom de sa marque, avec Eddie Irvine et Johnny Herbert (GrandPrix.com).
+      sources:
+      - titre: GrandPrix.com, « Stewart Grand Prix »
+        url: https://www.grandprix.com/constructors/stewart-grand-prix.html
+      - titre: The Race, Gary Anderson, « F1's last entry by US car giant was a masterclass in failure » (janvier 2023)
+        url: https://www.the-race.com/formula-1/ford-jaguar-failed-team-us-manufacturer/
+  - ecurie: red-bull
+    de: 2005
+    a: 2026
+    lien:
+      type: rachat
+      preuve: atteste
+      pourquoi: Ford, qui quitte la F1, annonce le 15 novembre 2004 la vente de Jaguar Racing à Red Bull pour une somme symbolique, contre l'engagement d'investir plus de 200 millions de livres en trois ans ; Dietrich Mateschitz y voit l'« étape logique et finale » de son programme de jeunes pilotes (Autosport ; Motor Sport).
+      sources:
+      - titre: Autosport, « Red Bull buys Jaguar Racing » (novembre 2004)
+        url: https://www.autosport.com/f1/news/red-bull-buys-jaguar-racing-5000774/5000774/
+      - titre: 'Motor Sport Magazine, James Elson, « 20 years of Red Bull: The ''unplanned'' team that took over F1 » (janvier 2026)'
+        url: https://www.motorsportmagazine.com/articles/single-seaters/f1/20-years-of-red-bull-the-unplanned-team-that-took-over-f1/
+- id: haas
+  nom: Haas
+  actuelle: true
+  segments:
+  - ecurie: haas
+    de: 2016
+    a: 2026
+- id: cadillac
+  nom: Cadillac
+  actuelle: true
+  segments:
+  - ecurie: cadillac
+    de: 2026
+    a: 2026
+- id: cooper
+  nom: Cooper
+  segments:
+  - ecurie: cooper
+    de: 1950
+    a: 1969
+- id: lancia
+  nom: Lancia
+  segments:
+  - ecurie: lancia
+    de: 1954
+    a: 1955
+- id: team-lotus
+  nom: Team Lotus
+  segments:
+  - ecurie: team-lotus
+    de: 1958
+    a: 1994
+- id: brabham
+  nom: Brabham
+  segments:
+  - ecurie: brabham
+    de: 1962
+    a: 1992
+- id: march
+  nom: 'March : March et Leyton House'
+  segments:
+  - ecurie: march
+    de: 1970
+    a: 1989
+  - ecurie: leyton-house
+    de: 1990
+    a: 1991
+    lien:
+      type: renommage
+      preuve: etabli
+      pourquoi: 'Commanditaire de March depuis 1987, Akira Akagi rachète l''équipe de F1 de March en mai 1989 ; elle garde le nom March cette saison-là, puis est rebaptisée Leyton House pour 1990, sans plus aucune mention de March (Marcus Simmons, Motor Sport ; Russell Campbell, Goodwood). Le rachat précède le changement de nom : celui-ci est un renommage par le même propriétaire.'
+      sources:
+      - titre: Motor Sport Magazine, Marcus Simmons, « Marching to civil war » (juin 2005)
+        url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
+      - titre: 'Goodwood, Russell Campbell, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)'
+        url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
+  - ecurie: march
+    de: 1992
+    a: 1992
+    lien:
+      type: rachat
+      preuve: etabli
+      pourquoi: Akagi est arrêté en septembre 1991 dans un scandale financier et son associé Ken Marrable prend le contrôle de l'équipe (Goodwood) ; pour 1992, elle est rachetée par un consortium comprenant Marrable, et la voiture redevient une March (Marcus Simmons, Motor Sport).
+      sources:
+      - titre: Motor Sport Magazine, Marcus Simmons, « Marching to civil war » (juin 2005)
+        url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
+      - titre: 'Goodwood, Russell Campbell, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)'
+        url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
+ecuries:
+- id: alfa-romeo
+  nom: Alfa Romeo
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2019 Team Standings »
+    url: https://www.formula1.com/en/results/2019/team
+  - titre: Formula 1, « 2023 Team Standings »
+    url: https://www.formula1.com/en/results/2023/team
+- id: alphatauri
+  nom: AlphaTauri
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2020 Teams' Standings »
+    url: https://www.formula1.com/en/results/2020/team
+  - titre: Formula 1, résultats, « 2023 Teams' Standings »
+    url: https://www.formula1.com/en/results/2023/team
+- id: alpine
+  nom: Alpine
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2021 Teams' Standings »
+    url: https://www.formula1.com/en/results/2021/team
+  - titre: Formula 1, résultats, « 2026 Teams' Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: aston-martin
+  nom: Aston Martin
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2021 Team Standings »
+    url: https://www.formula1.com/en/results/2021/team
+  - titre: Formula 1, « 2026 Team Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: audi
+  nom: Audi
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Audi » (fiche équipe)
+    url: https://www.formula1.com/en/teams/audi
+  - titre: Formula 1, « 2026 Team Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: bar
+  nom: BAR
+  voitures:
+  - bar-007
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2005 Teams' Standings »
+    url: https://www.formula1.com/en/results/2005/team
+  - titre: 'Motor Sport Magazine, Pablo Elizalde, « From Tyrrell shed via Brawn fairytale: the evolution of Mercedes'' F1 team » (septembre 2025)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
+- id: benetton
+  nom: Benetton
+  voitures:
+  - benetton-b194
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 1986 Teams' Standings »
+    url: https://www.formula1.com/en/results/1986/team
+  - titre: Formula 1, résultats, « 2001 Teams' Standings »
+    url: https://www.formula1.com/en/results/2001/team
+- id: bmw-sauber
+  nom: BMW Sauber
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2006 Team Standings »
+    url: https://www.formula1.com/en/results/2006/team
+  - titre: Formula 1, « 2009 Team Standings »
+    url: https://www.formula1.com/en/results/2009/team
+- id: brabham
+  nom: Brabham
+  voitures:
+  - brabham-bt46b
+  - brabham-bt52
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1962 Team Standings »
+    url: https://www.formula1.com/en/results/1962/team
+  - titre: Formula 1, « 1992 Hungarian Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1992/races/584/hungary/race-result
+  - titre: Motor Sport Magazine, Alan Henry, « The house that Jack built » (mai 1999)
+    url: https://www.motorsportmagazine.com/archive/article/may-1999/40/the-house-that-jack-built-2/
+- id: brawn
+  nom: Brawn
+  voitures:
+  - brawn-bgp-001
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2009 Teams' Standings »
+    url: https://www.formula1.com/en/results/2009/team
+- id: cadillac
+  nom: Cadillac
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Cadillac » (fiche équipe)
+    url: https://www.formula1.com/en/teams/cadillac
+  - titre: Formula 1, « 2026 Team Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: cooper
+  nom: Cooper
+  voitures:
+  - cooper-500
+  - cooper-t43
+  - cooper-t51
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1950 Monaco Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1950/races/95/monaco/race-result
+  - titre: Formula 1, « 1969 Monaco Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1969/races/269/monaco/race-result
+  - titre: GrandPrix.com, « Cooper Car Company »
+    url: https://www.grandprix.com/gpe/con-coope.html
+- id: ferrari
+  nom: Ferrari
+  voitures:
+  - ferrari-312t
+  - ferrari-640
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Ferrari » (fiche équipe)
+    url: https://www.formula1.com/en/teams/ferrari
+  - titre: Formula 1, « 1950 Monaco Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1950/races/95/monaco/race-result
+- id: force-india
+  nom: Force India
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2008 Team Standings »
+    url: https://www.formula1.com/en/results/2008/team
+  - titre: Formula 1, « 2018 Team Standings »
+    url: https://www.formula1.com/en/results/2018/team
+- id: haas
+  nom: Haas
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Haas F1 Team » (fiche équipe)
+    url: https://www.formula1.com/en/teams/haas
+- id: honda
+  nom: Honda
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2006 Teams' Standings »
+    url: https://www.formula1.com/en/results/2006/team
+  - titre: Formula 1, résultats, « 2008 Teams' Standings »
+    url: https://www.formula1.com/en/results/2008/team
+- id: jaguar
+  nom: Jaguar
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2000 Teams' Standings »
+    url: https://www.formula1.com/en/results/2000/team
+  - titre: Formula 1, résultats, « 2004 Teams' Standings »
+    url: https://www.formula1.com/en/results/2004/team
+- id: jordan
+  nom: Jordan
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1991 Team Standings »
+    url: https://www.formula1.com/en/results/1991/team
+  - titre: Formula 1, « 2005 Team Standings »
+    url: https://www.formula1.com/en/results/2005/team
+- id: kick-sauber
+  nom: Kick Sauber
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2024 Team Standings »
+    url: https://www.formula1.com/en/results/2024/team
+  - titre: Formula 1, « 2025 Team Standings »
+    url: https://www.formula1.com/en/results/2025/team
+- id: lancia
+  nom: Lancia
+  voitures:
+  - lancia-d50
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Motor Sport Magazine, Doug Nye, « The grand prix great that doomed a team » (juillet 2020)
+    url: https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/
+  - titre: GrandPrix.com, « Lancia »
+    url: https://www.grandprix.com/constructors/lancia.html
+- id: leyton-house
+  nom: Leyton House
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1990 Team Standings »
+    url: https://www.formula1.com/en/results/1990/team
+  - titre: Formula 1, « 1991 Team Standings »
+    url: https://www.formula1.com/en/results/1991/team
+- id: lotus-f1
+  nom: Lotus F1 Team
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Alpine - Year by Year »
+    url: https://www.formula1.com/en/information/alpine-year-by-year.26lcAj4zKxSs1w959B6yV
+  - titre: Formula 1, résultats, « 2015 Teams' Standings »
+    url: https://www.formula1.com/en/results/2015/team
+- id: march
+  nom: March
+  voitures:
+  - march-881
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1970 Team Standings »
+    url: https://www.formula1.com/en/results/1970/team
+  - titre: Formula 1, « 1989 Team Standings »
+    url: https://www.formula1.com/en/results/1989/team
+  - titre: Formula 1, « 1992 Team Standings »
+    url: https://www.formula1.com/en/results/1992/team
+- id: mclaren
+  nom: McLaren
+  voitures:
+  - mclaren-mp4-1
+  - mclaren-mp4-4
+  - mclaren-mp4-20
+  - mclaren-mp4-24
+  - mclaren-mp4-25
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « McLaren » (fiche équipe)
+    url: https://www.formula1.com/en/teams/mclaren
+- id: mercedes
+  nom: Mercedes
+  voitures:
+  - mercedes-w05
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2011 Teams' Standings »
+    url: https://www.formula1.com/en/results/2011/team
+  - titre: Formula 1, résultats, « 2026 Teams' Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: midland
+  nom: Midland
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2006 Team Standings »
+    url: https://www.formula1.com/en/results/2006/team
+- id: minardi
+  nom: Minardi
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Toro Rosso from A-Z » (mars 2015)
+    url: https://www.formula1.com/en/latest/article/toro-rosso-from-a-z.94qRWgpnalObzkOr0UNGX
+  - titre: Formula 1, résultats, « 2005 Teams' Standings »
+    url: https://www.formula1.com/en/results/2005/team
+- id: racing-bulls
+  nom: Racing Bulls
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2025 Teams' Standings »
+    url: https://www.formula1.com/en/results/2025/team
+  - titre: Formula 1, résultats, « 2026 Teams' Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: racing-point
+  nom: Racing Point
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2019 Team Standings »
+    url: https://www.formula1.com/en/results/2019/team
+  - titre: Formula 1, « 2020 Team Standings »
+    url: https://www.formula1.com/en/results/2020/team
+- id: rb
+  nom: RB
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2024 Teams' Standings »
+    url: https://www.formula1.com/en/results/2024/team
+- id: red-bull
+  nom: Red Bull
+  voitures:
+  - red-bull-rb6
+  - red-bull-rb18
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2005 Teams' Standings »
+    url: https://www.formula1.com/en/results/2005/team
+  - titre: Formula 1, résultats, « 2026 Teams' Standings »
+    url: https://www.formula1.com/en/results/2026/team
+- id: renault
+  nom: Renault
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2002 Teams' Standings »
+    url: https://www.formula1.com/en/results/2002/team
+  - titre: Formula 1, résultats, « 2011 Teams' Standings »
+    url: https://www.formula1.com/en/results/2011/team
+  - titre: Formula 1, résultats, « 2016 Teams' Standings »
+    url: https://www.formula1.com/en/results/2016/team
+  - titre: Formula 1, résultats, « 2020 Teams' Standings »
+    url: https://www.formula1.com/en/results/2020/team
+- id: sauber
+  nom: Sauber
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1993 Team Standings »
+    url: https://www.formula1.com/en/results/1993/team
+  - titre: Formula 1, « 2005 Team Standings »
+    url: https://www.formula1.com/en/results/2005/team
+  - titre: Formula 1, « 2010 Team Standings »
+    url: https://www.formula1.com/en/results/2010/team
+  - titre: Formula 1, « 2018 Team Standings »
+    url: https://www.formula1.com/en/results/2018/team
+- id: spyker
+  nom: Spyker
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 2007 Team Standings »
+    url: https://www.formula1.com/en/results/2007/team
+- id: stewart
+  nom: Stewart
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 1997 Teams' Standings »
+    url: https://www.formula1.com/en/results/1997/team
+  - titre: Formula 1, résultats, « 1999 Teams' Standings »
+    url: https://www.formula1.com/en/results/1999/team
+- id: team-lotus
+  nom: Team Lotus
+  voitures:
+  - lotus-25
+  - lotus-49
+  - lotus-72
+  - lotus-78
+  - lotus-79
+  - lotus-88
+  - lotus-98t
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « 1958 Team Standings »
+    url: https://www.formula1.com/en/results/1958/team
+  - titre: Formula 1, « 1994 Australian Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1994/races/620/australia/race-result
+- id: toleman
+  nom: Toleman
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: The Race, Edd Straw, « Ranking Renault/Alpine's five previous F1 identities » (septembre 2020)
+    url: https://www.the-race.com/formula-1/ranking-renault-alpines-five-previous-f1-identities/
+  - titre: Motor Sport Magazine, James Elson, « The story of Ayrton Senna's first F1 car – the Toleman TG183B » (mai 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/the-story-of-ayrton-sennas-first-f1-car-the-toleman-tg183b/
+- id: toro-rosso
+  nom: Toro Rosso
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 2006 Teams' Standings »
+    url: https://www.formula1.com/en/results/2006/team
+  - titre: Formula 1, résultats, « 2019 Teams' Standings »
+    url: https://www.formula1.com/en/results/2019/team
+- id: tyrrell
+  nom: Tyrrell
+  voitures:
+  - tyrrell-p34
+  - tyrrell-008
+  - tyrrell-019
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: 'Motor Sport Magazine, Pablo Elizalde, « From Tyrrell shed via Brawn fairytale: the evolution of Mercedes'' F1 team » (septembre 2025)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
+  - titre: Autosport, Maurice Hamilton, « How Tyrrell became a racing Rubik's cube as it faded out of F1 » (février 2023)
+    url: https://www.autosport.com/f1/news/how-tyrrell-became-a-racing-rubiks-cube-as-it-faded-out-of-f1/10427616/
+- id: williams
+  nom: Williams
+  voitures:
+  - williams-fw11
+  - williams-fw14b
+  - williams-fw17b
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, « Williams » (fiche équipe)
+    url: https://www.formula1.com/en/teams/williams
+  - titre: Formula 1, « Williams at 40 - the essential facts, stats and stand-out moments » (mai 2017)
+    url: https://www.formula1.com/en/latest/article/f1-williams-40-anniversary-facts-stats-video-moments.4gCUxY8VnOgkAGqe8A8646

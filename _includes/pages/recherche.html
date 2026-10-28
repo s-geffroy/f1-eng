@@ -29,7 +29,7 @@
   var bilan = document.getElementById("recherche-bilan");
   var zone = document.getElementById("resultats");
   var types = JSON.parse(form.dataset.types);
-  var ordre = ["entree", "voiture", "terme", "jalon", "dossier"];
+  var ordre = ["entree", "ecurie", "voiture", "terme", "jalon", "dossier"];
   var index = null;
   var plat = function (s) { return (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
   var echap = function (s) { return s.replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };

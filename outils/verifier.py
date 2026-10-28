@@ -217,6 +217,95 @@ for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "
         for m in sorted(fr_v - en_v): warn(f"en : pas de traduction pour la voiture {m[:-3]}")
         for o in sorted(en_v - fr_v): err(f"en : la voiture {o[:-3]} n'existe pas en français")
 
+# 4 ter. écuries (_data/ecuries.yml) : identifiants cités, saisons, chevauchements dans une lignée,
+#        passages justifiés (type, preuve, pourquoi, sources), chaque voiture rattachée à une seule écurie,
+#        et même structure dans les deux langues (seuls les textes changent)
+_i18n = charger_yaml("_data/i18n.yml") or {}
+ids_voitures = {f[:-3] for f in os.listdir("_voitures") if f.endswith(".md")} if os.path.isdir("_voitures") else set()
+structures = {}
+for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
+    chemin = f"{rep_data}/ecuries.yml"
+    if not os.path.exists(chemin):
+        err(f"{chemin} absent")
+        continue
+    E = charger_yaml(chemin) or {}
+    ch = charger_yaml(f"{rep_data}/chronologie.yml") or {}
+    ids_j = {j["id"] for j in ch.get("jalons", [])}
+    ids_p = {p["id"] for p in ch.get("preuves", [])}
+    types = set(((_i18n.get(lang) or {}).get("ecuries") or {}).get("types") or {})
+    ids_e = ids_par_langue.get(lang, set())
+    ecuries = E.get("ecuries") or []
+    ids_ec = [e.get("id") for e in ecuries]
+    for d in sorted({i for i in ids_ec if ids_ec.count(i) > 1}):
+        err(f"{chemin} : écurie « {d} » déclarée deux fois")
+    rattachees = {}
+    for e in ecuries:
+        if not e.get("nom"):
+            err(f"{chemin} : écurie {e.get('id')} sans nom")
+        if not e.get("sources"):
+            err(f"{chemin} : écurie {e.get('id')} sans source pour ses saisons")
+        for v in e.get("voitures") or []:
+            if v not in ids_voitures:
+                err(f"{chemin} : écurie {e['id']}, voiture « {v} » inconnue")
+            rattachees.setdefault(v, []).append(e["id"])
+        for i in e.get("ingenieurs") or []:
+            if i.get("id") not in ids_e:
+                err(f"{chemin} : écurie {e['id']}, ingénieur « {i.get('id')} » inconnu")
+        for j in e.get("jalons") or []:
+            if j not in ids_j:
+                err(f"{chemin} : écurie {e['id']}, jalon « {j} » inconnu")
+        for src in e.get("sources") or []:
+            if not src.get("titre") or not str(src.get("url", "")).startswith("http"):
+                err(f"{chemin} : écurie {e['id']}, source incomplète")
+    for v in sorted(ids_voitures):
+        if len(rattachees.get(v, [])) != 1:
+            err(f"{chemin} : la voiture {v} doit être rattachée à une écurie et une seule ({rattachees.get(v, [])})")
+    utilisees, signature = set(), []
+    ids_l = [l.get("id") for l in E.get("lignees") or []]
+    for d in sorted({i for i in ids_l if ids_l.count(i) > 1}):
+        err(f"{chemin} : lignée « {d} » déclarée deux fois")
+    for l in E.get("lignees") or []:
+        segs, prec = l.get("segments") or [], None
+        if not l.get("nom") or not segs:
+            err(f"{chemin} : lignée {l.get('id')} sans nom ou sans segment")
+        for i, sg in enumerate(segs):
+            lieu = f"{chemin} : lignée {l.get('id')}, segment {i + 1}"
+            if sg.get("ecurie") not in ids_ec:
+                err(f"{lieu} : écurie « {sg.get('ecurie')} » inconnue")
+            utilisees.add(sg.get("ecurie"))
+            de, a = sg.get("de"), sg.get("a")
+            if not isinstance(de, int) or not isinstance(a, int) or not 1950 <= de <= a <= 2026:
+                err(f"{lieu} : saisons invalides ({de}–{a})")
+            elif prec and de <= prec:
+                err(f"{lieu} : chevauche le segment précédent")
+            prec = a if isinstance(a, int) else prec
+            lien = sg.get("lien")
+            if i == 0 and lien:
+                err(f"{lieu} : le premier segment n'a pas de passage")
+            if i > 0:
+                lien = lien or {}
+                if lien.get("type") not in types:
+                    err(f"{lieu} : type de passage « {lien.get('type')} » inconnu")
+                if lien.get("preuve") not in ids_p:
+                    err(f"{lieu} : preuve « {lien.get('preuve')} » inconnue")
+                if not lien.get("pourquoi") or not lien.get("sources"):
+                    err(f"{lieu} : passage sans pourquoi ou sans sources (non publié)")
+                for src in lien.get("sources") or []:
+                    if not src.get("titre") or not str(src.get("url", "")).startswith("http"):
+                        err(f"{lieu} : source incomplète")
+        if l.get("actuelle") and segs and segs[-1].get("a") != 2026:
+            err(f"{chemin} : lignée actuelle {l.get('id')} dont le dernier segment ne va pas jusqu'à 2026")
+        signature.append((l.get("id"), bool(l.get("actuelle")),
+                          [(sg.get("ecurie"), sg.get("de"), sg.get("a"), (sg.get("lien") or {}).get("type"),
+                            (sg.get("lien") or {}).get("preuve"), [x.get("url") for x in (sg.get("lien") or {}).get("sources") or []])
+                           for sg in segs]))
+    for e in sorted(set(ids_ec) - utilisees):
+        err(f"{chemin} : écurie {e} absente de toute lignée")
+    structures[lang] = (signature, {e["id"]: (e.get("voitures"), [i.get("id") for i in e.get("ingenieurs") or []], e.get("jalons"),
+                                             [x.get("url") for x in e.get("sources") or []]) for e in ecuries})
+if len(structures) == 2 and structures["fr"] != structures["en"]:
+    err("_data/ecuries.yml et _data/en/ecuries.yml : lignées, saisons, passages, sources ou rattachements différents")
+
 # 5. correspondance entre langues
 if "fr" in ids_par_langue and "en" in ids_par_langue:
     for manque in sorted(ids_par_langue["fr"] - ids_par_langue["en"]):

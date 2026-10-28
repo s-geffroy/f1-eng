@@ -1,130 +1,91 @@
-{%- comment -%} Accueil : index alphabétique, recherche et filtres. Commun au français et à l'anglais. {%- endcomment -%}
+{%- comment -%}
+  Accueil : portail à trois entrées (ingénieurs, écuries, voitures) et chronologie commune.
+  Commun au français et à l'anglais. L'index alphabétique des ingénieurs est sur /ingenieurs/.
+{%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
-{%- assign C = site[T.collection_entrees] -%}
-{%- assign entrees = C | sort: "nom_tri" -%}
-{%- assign lettres = entrees | group_by_exp: "e", "e.nom_tri | slice: 0" -%}
+{%- assign entrees = site[T.collection_entrees] -%}
+{%- assign tier_a = entrees | where: "tier", "A" | sort: "rang" -%}
+{%- assign voitures = site[T.collection_voitures] | sort: "annee" -%}
+{%- assign actuelles = D.ecuries.lignees | where: "actuelle", true -%}
+{%- comment -%} quatre voitures, une par époque {%- endcomment -%}
+{%- assign vitrine = "lotus-79,mclaren-mp4-1,williams-fw14b,red-bull-rb18" | split: "," -%}
 <section class="ouverture">
-  <h1>{{ T.index.titre }}</h1>
-  <p>{{ T.index.intro }}</p>
-  <p class="ouverture-depart">{{ T.index.depart_avant }} <a href="{{ T.url.methode | relative_url }}">{{ T.index.depart_lien }}</a>. {{ T.index.pdf_avant }} <a href="{{ T.url.pdf | relative_url }}" download>{{ T.index.pdf_lien }}</a>. {{ T.index.voitures_avant }} <a href="{{ T.url.voitures | relative_url }}">{{ T.index.voitures_lien }}</a>.</p>
+  <h1>{{ T.portail.titre }}</h1>
+  <p>{{ T.portail.intro }}</p>
+  <form class="portail-recherche" action="{{ T.url.recherche | relative_url }}" method="get" role="search">
+    <label for="p-texte">{{ T.portail.recherche_label }}</label>
+    <input type="search" id="p-texte" name="q" placeholder="{{ T.recherche.placeholder }}">
+    <button type="submit">{{ T.portail.recherche_bouton }}</button>
+  </form>
 </section>
 
-<section class="index" aria-labelledby="titre-index">
-  <div class="index-tete">
-    <h2 id="titre-index">{{ T.index.titre_index }}</h2>
-    <nav class="lettres" aria-label="{{ T.index.lettres_aria }}">
-      {%- for g in lettres %}
-      <a href="#lettre-{{ g.name }}">{{ g.name | upcase }}</a>
-      {%- endfor %}
-    </nav>
-  </div>
-
-  {%- comment -%} Filtres : masqués sans JavaScript, l'index reste alors complet. {%- endcomment -%}
-  <form class="filtres" id="filtres" role="search" hidden
-        data-aucun="{{ T.index.aucun }}" data-une="{{ T.index.une }}" data-plusieurs="{{ T.index.plusieurs }}">
-    <div class="filtre filtre-texte">
-      <label for="f-texte">{{ T.index.rechercher }}</label>
-      <input type="search" id="f-texte" placeholder="{{ T.index.placeholder }}" autocomplete="off">
-    </div>
-    <fieldset class="filtre filtre-tier">
-      <legend>{{ T.l.tier }}</legend>
-      <div class="tiers-boutons">
-        <button type="button" data-tier="" aria-pressed="true">{{ T.index.tous }}</button>
-        {%- for t in D.tiers %}
-        <button type="button" data-tier="{{ t.id }}" aria-pressed="false" title="{{ t.nom }}">{{ t.id }}</button>
-        {%- endfor %}
-        <button type="button" data-tier="HC" aria-pressed="false" title="{{ T.index.hc_titre }}">HC</button>
-      </div>
-    </fieldset>
-    <div class="filtre filtre-domaine">
-      <label for="f-domaine">{{ T.l.domaine }}</label>
-      <select id="f-domaine">
-        <option value="">{{ T.index.tous_domaines }}</option>
-        {%- for f in D.domaines %}
-        <option value="{{ f.id }}">{{ f.nom }}</option>
-        {%- endfor %}
-      </select>
-    </div>
-  </form>
-  <p class="filtres-bilan" id="filtres-bilan" aria-live="polite" hidden></p>
-
-  {%- for g in lettres %}
-  <div class="index-groupe" id="lettre-{{ g.name }}">
-    <h3 class="lettre">{{ g.name | upcase }}</h3>
-    <ul>
-      {%- for e in g.items %}
-      {%- assign famille = "" -%}
-      {%- for f in D.domaines -%}{%- if f.valeurs contains e.domaine -%}{%- assign famille = f.id -%}{%- endif -%}{%- endfor %}
-      <li data-tier="{{ e.tier | default: 'HC' }}" data-domaine="{{ famille }}" data-texte="{{ e.title }} {{ e.nom_complet }} {{ e.domaine }} {{ e.accroche }} {{ e.content | strip_html | normalize_whitespace | escape }}">
-        <a class="ligne" href="{{ e.url | relative_url }}">
-          <span class="ligne-nom">{{ e.title }}</span>
-          <span class="ligne-conduite" aria-hidden="true"></span>
-          <span class="ligne-domaine">{{ e.domaine }}</span>
-          {%- if e.rang %}
-          <span class="ligne-tier" data-tier="{{ e.tier }}" title="{{ T.l.tier }} {{ e.tier }}">{{ e.tier }}</span>
-          <span class="ligne-score">{{ e.score }}</span>
-          {%- else %}
-          <span class="ligne-tier" data-tier="HC" title="{{ T.index.hc_titre }}">HC</span>
-          <span class="ligne-score" aria-hidden="true"></span>
-          {%- endif %}
-          <span class="ligne-accroche">{{ e.accroche }}</span>
-        </a>
-      </li>
+<div class="portes">
+  <section class="porte" aria-labelledby="porte-ingenieurs">
+    <h2 id="porte-ingenieurs"><a href="{{ T.url.entrees | relative_url }}">{{ T.index.titre_page }}</a></h2>
+    <p><b class="porte-nombre">{{ entrees.size }}</b> {{ T.portail.ingenieurs_texte }}</p>
+    <p class="porte-sous">{{ T.portail.ingenieurs_tier_a }}</p>
+    <ul class="porte-liste">
+      {%- for e in tier_a %}
+      <li><a href="{{ e.url | relative_url }}">{{ e.nom_complet }}</a> <span>{{ e.domaine }}</span></li>
       {%- endfor %}
     </ul>
+    <p class="porte-liens"><a href="{{ T.url.entrees | relative_url }}">{{ T.portail.ingenieurs_lien }}</a> · <a href="{{ T.url.tiers | relative_url }}">{{ T.portail.tiers_lien }}</a> · <a href="{{ T.url.lignees | relative_url }}">{{ T.portail.lignees_lien }}</a></p>
+    <p class="porte-sous">{{ T.portail.methode_avant }} <a href="{{ T.url.methode | relative_url }}">{{ T.index.depart_lien }}</a>.</p>
+  </section>
+
+  <section class="porte" aria-labelledby="porte-ecuries">
+    <h2 id="porte-ecuries"><a href="{{ T.url.ecuries | relative_url }}">{{ T.ecuries.titre_page }}</a></h2>
+    <p><b class="porte-nombre">{{ D.ecuries.ecuries.size }}</b> {{ T.portail.ecuries_texte_avant }} {{ D.ecuries.lignees.size }} {{ T.portail.ecuries_texte_apres }}</p>
+    <ul class="porte-liste">
+      {%- for l in actuelles %}
+      {%- assign der = l.segments | last %}
+      {%- assign e = D.ecuries.ecuries | where: "id", der.ecurie | first %}
+      <li><a href="{{ T.url.ecuries | relative_url }}#l-{{ l.id }}">{{ e.nom }}</a> <span>{{ l.segments.size }}&nbsp;{% if l.segments.size > 1 %}{{ T.l.ecuries | downcase }}{% else %}{{ T.l.ecurie | downcase }}{% endif %}</span></li>
+      {%- endfor %}
+    </ul>
+    <p class="porte-liens"><a href="{{ T.url.ecuries | relative_url }}">{{ T.portail.ecuries_lien }}</a></p>
+  </section>
+
+  <section class="porte" aria-labelledby="porte-voitures">
+    <h2 id="porte-voitures"><a href="{{ T.url.voitures | relative_url }}">{{ T.voitures.titre_page }}</a></h2>
+    <p><b class="porte-nombre">{{ voitures.size }}</b> {{ T.portail.voitures_texte }}</p>
+    <ol class="planche planche-mini">
+      {%- for vid in vitrine %}
+      {%- assign url_v = T.url.voitures | append: vid | append: "/" %}
+      {%- assign v = voitures | where: "url", url_v | first %}
+      {%- if v %}
+      <li class="fiche-voiture">
+        <a href="{{ v.url | relative_url }}">
+          {%- if v.photo %}<img src="{{ v.photo.fichier | relative_url }}" alt="" loading="lazy">{% else %}<span class="fiche-voiture-vide" aria-hidden="true">{{ v.annee }}</span>{% endif %}
+          <span class="fiche-voiture-cartouche">
+            <span class="fiche-voiture-annee">{{ v.annee }}</span>
+            <span class="fiche-voiture-nom">{{ v.title }}</span>
+            <span class="fiche-voiture-equipe">{{ v.equipe }}</span>
+          </span>
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ol>
+    <p class="porte-liens"><a href="{{ T.url.voitures | relative_url }}">{{ T.portail.voitures_lien }}</a></p>
+  </section>
+</div>
+
+<section class="frise portail-frise" aria-labelledby="titre-portail-frise">
+  <h2 id="titre-portail-frise">{{ T.portail.chrono_titre }}</h2>
+  <p>{{ T.portail.chrono_texte }} <a href="{{ T.url.chronologie | relative_url }}">{{ T.portail.chrono_lien }}</a> · <a href="{{ T.url.ecuries | relative_url }}">{{ T.portail.ecuries_lien }}</a></p>
+  <div class="frise-defilement">
+    {% include frise-ecuries.html debut=1950 fin=2026 actuelles="oui" %}
   </div>
-  {%- endfor %}
 </section>
 
 <script>
-/* Filtres de l'index : recherche plein texte (sans accents ni casse), tier, domaine.
-   Amélioration progressive : sans JavaScript, le formulaire reste masqué et l'index complet.
-   Les messages viennent des attributs data-* du formulaire (une langue par page). */
+/* Les anciennes adresses de l'index alphabétique (/#lettre-x, /#titre-index) visent désormais
+   la page des ingénieurs. */
 (function () {
-  var form = document.getElementById("filtres");
-  var bilan = document.getElementById("filtres-bilan");
-  var texte = document.getElementById("f-texte");
-  var domaine = document.getElementById("f-domaine");
-  var boutons = form.querySelectorAll("[data-tier]");
-  var lignes = document.querySelectorAll(".index-groupe li");
-  var groupes = document.querySelectorAll(".index-groupe");
-  var tier = "";
-  var plat = function (s) { return s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase(); };
-  lignes.forEach(function (li) { li._texte = plat(li.dataset.texte || ""); });
-
-  function filtrer() {
-    var mots = plat(texte.value).split(/\s+/).filter(Boolean);
-    var d = domaine.value, n = 0;
-    lignes.forEach(function (li) {
-      var ok = (!tier || li.dataset.tier === tier) && (!d || li.dataset.domaine === d) &&
-        mots.every(function (m) { return li._texte.indexOf(m) !== -1; });
-      li.hidden = !ok;
-      if (ok) n++;
-    });
-    groupes.forEach(function (g) { g.hidden = !g.querySelector("li:not([hidden])"); });
-    var actif = mots.length || tier || d;
-    bilan.hidden = !actif;
-    bilan.textContent = n === 0 ? form.dataset.aucun : n + " " + (n > 1 ? form.dataset.plusieurs : form.dataset.une);
-  }
-
-  boutons.forEach(function (b) {
-    b.addEventListener("click", function () {
-      tier = b.dataset.tier;
-      boutons.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
-      filtrer();
-    });
-  });
-  texte.addEventListener("input", filtrer);
-  domaine.addEventListener("change", filtrer);
-  form.addEventListener("submit", function (e) { e.preventDefault(); });
-  // « / » place le curseur dans la recherche, comme sur la plupart des sites de référence
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "/" && document.activeElement.tagName !== "INPUT" && document.activeElement.tagName !== "SELECT") {
-      e.preventDefault(); texte.focus();
-    }
-  });
-  form.hidden = false;
+  var h = location.hash;
+  if (/^#(lettre-[a-z]|titre-index)$/.test(h)) location.replace("{{ T.url.entrees | relative_url }}" + h);
 })();
 </script>

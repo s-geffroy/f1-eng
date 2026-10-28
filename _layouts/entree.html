@@ -60,6 +60,14 @@ layout: default
         {%- for v in ses_voitures %}<a href="{{ v.url | relative_url }}">{{ v.title }}</a>{% unless forloop.last %}, {% endunless %}{% endfor -%}
       </dd></div>
       {%- endif %}
+      {%- comment -%} écuries où l'ingénieur a travaillé, déclarées dans _data/ecuries.yml (champ ingenieurs) {%- endcomment -%}
+      {%- assign ses_ecuries = "" | split: "" -%}
+      {%- for e in D.ecuries.ecuries -%}{%- for i in e.ingenieurs -%}{%- if i.id == id_page -%}{%- assign ses_ecuries = ses_ecuries | push: e -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+      {%- if ses_ecuries.size > 0 %}
+      <div class="case case-large"><dt>{{ T.l.ecuries }}</dt><dd>
+        {%- for e in ses_ecuries %}<a href="{{ T.url.ecuries | relative_url }}#e-{{ e.id }}">{{ e.nom }}</a>{% unless forloop.last %}, {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
       {%- if page.voir_aussi.size > 0 %}
       <div class="case case-large"><dt>{{ T.l.voir_aussi }}</dt><dd>
         {%- for v in page.voir_aussi -%}

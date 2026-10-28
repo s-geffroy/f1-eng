@@ -58,7 +58,7 @@ Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il class
 
 - La [chronologie des innovations]({{ '/chronologie/' | relative_url }}) place ces ruptures sur une frise, de la Cooper 500 de 1946 à la Red Bull de 2022.
 - Le [glossaire technique]({{ '/glossaire/' | relative_url }}) explique les termes employés : effet de sol, monocoque, rappel pneumatique…
-- L'[index]({{ '/' | relative_url }}) recense aussi trente-huit entrées hors classement, marquées HC : les autres acteurs de ces innovations.
+- L'[index des ingénieurs]({{ '/ingenieurs/' | relative_url }}) recense aussi trente-huit entrées hors classement, marquées HC : les autres acteurs de ces innovations.
 
 ## Sources principales
 

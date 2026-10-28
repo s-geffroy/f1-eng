@@ -6,7 +6,7 @@
 
 fr:
   code: "fr"
-  marque: "Ingénieurs de la F1"
+  marque: "Ingénieurs et écuries de la F1"
   evitement: "Aller au contenu"
   autre_code: "en"
   autre_nom: "English"
@@ -25,16 +25,19 @@ fr:
     causalite: "/dossiers/causalite/"
     entrees: "/ingenieurs/"
     voitures: "/voitures/"
+    ecuries: "/ecuries/"
     index_recherche: "/recherche.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
-  nom_site: "Ingénieurs de la F1"
+  nom_site: "Ingénieurs et écuries de la F1"
   nav:
     - { url: "/", nom: "Accueil" }
-    - { url: "/tiers/", nom: "Tiers" }
+    - { url: "/ingenieurs/", nom: "Ingénieurs" }
+    - { url: "/ecuries/", nom: "Écuries" }
     - { url: "/voitures/", nom: "Voitures" }
     - { url: "/chronologie/", nom: "Chronologie" }
     - { url: "/lignees/", nom: "Lignées" }
+    - { url: "/tiers/", nom: "Tiers" }
     - { url: "/glossaire/", nom: "Glossaire" }
     - { url: "/dossiers/", nom: "Dossiers" }
     - { url: "/recherche/", nom: "Recherche" }
@@ -77,8 +80,10 @@ fr:
     glossaire: "Glossaire"
     chronologie: "Chronologie"
     voitures_aria: "Voitures voisines dans le temps"
+    ecurie: "Écurie"
+    ecuries: "Écuries"
   index:
-    titre_page: "Index"
+    titre_page: "Ingénieurs"
     description: "Encyclopédie des ingénieurs qui ont transformé la conception des Formule 1, classés selon leur influence technique durable."
     titre: "Les ingénieurs qui ont changé la Formule 1"
     intro: "Vingt ingénieurs, classés selon ce qu'ils ont changé dans la manière de construire une F1, et non selon leur palmarès. Chaque entrée précise ce qui revient à chacun dans des innovations souvent collectives. Les entrées marquées HC, hors classement, documentent d'autres acteurs de ces innovations. C'est une sélection argumentée, pas un inventaire : d'autres ingénieurs ont compté, et le site ne prétend pas les couvrir tous."
@@ -98,6 +103,49 @@ fr:
     aucun: "Aucune entrée ne correspond. Effacez la recherche ou élargissez le tier et le domaine."
     une: "entrée correspond."
     plusieurs: "entrées correspondent."
+  portail:
+    titre_page: "Ingénieurs et écuries de la F1"
+    description: "Encyclopédie technique de la Formule 1 : les ingénieurs qui l'ont transformée, la généalogie des écuries et les voitures qui ont fait date, sur une même chronologie."
+    titre: "Ingénieurs et écuries de la Formule 1"
+    intro: "Une encyclopédie technique en trois entrées : les ingénieurs qui ont changé la manière de construire une F1, les écuries et leur généalogie (qui a racheté qui, qui est devenu qui), et les voitures qui ont fait date. Une même chronologie les relie. Chaque fait et chaque filiation renvoient à leurs sources."
+    ingenieurs_texte: "entrées, dont vingt ingénieurs classés selon ce qu'ils ont changé dans la manière de construire une F1."
+    ingenieurs_tier_a: "Tier A, le changement de paradigme :"
+    ingenieurs_lien: "Index des ingénieurs"
+    tiers_lien: "Les quatre tiers"
+    lignees_lien: "Les lignées techniques"
+    ecuries_texte_avant: "écuries réparties en"
+    ecuries_texte_apres: "lignées : une lignée suit une même structure à travers ses rachats et ses changements de nom. La frise ci-dessous retrace celles de la grille actuelle."
+    ecuries_lien: "Généalogie des écuries"
+    voitures_texte: "monoplaces, chacune reliée à son écurie, à ses concepteurs et aux innovations de la chronologie."
+    voitures_lien: "Toutes les voitures"
+    chrono_titre: "Une chronologie commune"
+    chrono_texte: "Innovations, contexte, écuries et voitures sur un même axe, de 1940 à aujourd'hui."
+    chrono_lien: "Ouvrir la chronologie"
+    recherche_label: "Rechercher dans l'encyclopédie"
+    recherche_bouton: "Rechercher"
+    methode_avant: "Pour comprendre le classement des ingénieurs, commencez par"
+  ecuries:
+    titre_page: "Écuries"
+    description: "La généalogie des écuries de Formule 1 : chaque structure suivie à travers ses rachats et ses changements de nom, chaque filiation justifiée par ses sources."
+    titre: "Généalogie des écuries"
+    accroche: "Une écurie de F1 change souvent de nom sans changer d'usine ni d'équipe : Tyrrell est devenue Mercedes, Stewart est devenue Red Bull. Chaque rangée de la frise suit une même structure, et chaque passage d'un nom au suivant est justifié par ses sources, avec son niveau de preuve. Les losanges marquent les voitures qui ont leur fiche."
+    perimetre: "Périmètre en cours de construction : la frise couvre pour l'instant les lignées des onze écuries engagées en 2026, et les écuries des voitures de l'encyclopédie. Les autres constructeurs engagés depuis 1958 seront ajoutés par étapes."
+    aria: "Frise de la généalogie des écuries"
+    actuelles: "Les écuries de 2026 et leurs ancêtres"
+    historiques: "Écuries disparues"
+    aujourdhui: "aujourd'hui"
+    voitures: "Voitures"
+    ingenieurs: "Ingénieurs"
+    jalons: "Chronologie"
+    dates: "Dates"
+    sources: "Sources"
+    legende: "Passage d'un nom au suivant :"
+    note: "Les années sont celles des saisons disputées sous chaque nom au championnat du monde. Sources consultées le 28 octobre 2026."
+    types:
+      rachat: "rachat"
+      renommage: "changement de nom"
+      reprise-partielle: "reprise partielle"
+      usine-motoriste: "reprise par un constructeur"
   tiers:
     titre_page: "Tiers"
     description: "Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé."
@@ -118,7 +166,7 @@ fr:
     titre_page: "Chronologie"
     description: "La frise des grandes innovations techniques de la Formule 1, de la Cooper 500 de 1946 à la Red Bull de 2022, reliées aux ingénieurs qui les ont portées."
     titre: "Chronologie des innovations"
-    accroche: "Quatre-vingts ans de ruptures techniques, au-dessus de l'axe ; en dessous, le contexte qui les explique : règlement, sécurité, économie, technologie venue d'ailleurs. Cliquez sur un repère pour ouvrir sa fiche ; les losanges rouges signalent une innovation portée par un ingénieur du Tier A. La frise retient une sélection de ruptures, pas un inventaire : une innovation ou un lien n'y figure que si une source le justifie."
+    accroche: "Quatre-vingts ans de ruptures techniques, au-dessus de l'axe ; en dessous, le contexte qui les explique : règlement, sécurité, économie, technologie venue d'ailleurs. Cliquez sur un repère pour ouvrir sa fiche ; les losanges rouges signalent une innovation portée par un ingénieur du Tier A. Sous la frise, une bande suit les écuries à travers leurs noms successifs, avec leurs voitures. La frise retient une sélection de ruptures, pas un inventaire : une innovation ou un lien n'y figure que si une source le justifie."
     aria: "Frise des innovations et de leur contexte"
     filtres: "Afficher le contexte :"
     innovations: "Innovations"
@@ -138,6 +186,11 @@ fr:
     note_contexte: "Chaque événement de contexte a ses propres sources, consultées le 26 octobre 2026."
     methode_liens: "Comment ces liens de cause à effet sont établis et gradués."
     legende: "Ouvrez un repère pour voir ses liens de cause à effet. Trait :"
+    bandes: "Afficher sous la frise :"
+    bande_ecuries: "Écuries"
+    bande_voitures: "Voitures"
+    bande_titre: "Les écuries et leurs voitures"
+    bande_texte: "Chaque rangée suit une même structure d'écurie au fil de ses noms ; les losanges marquent les voitures qui ont leur fiche. Le détail et les sources de chaque filiation sont sur la page"
   glossaire:
     titre_page: "Glossaire"
     description: "Les termes techniques de la Formule 1 employés dans l'encyclopédie, définis simplement et sourcés."
@@ -158,9 +211,9 @@ fr:
     telecharger_suite: "22 diapositives, de la méthode au classement final, en français."
   recherche:
     titre_page: "Recherche"
-    description: "Rechercher dans toute l'encyclopédie : ingénieurs, voitures, glossaire, chronologie et dossiers."
+    description: "Rechercher dans toute l'encyclopédie : ingénieurs, écuries, voitures, glossaire, chronologie et dossiers."
     titre: "Rechercher dans l'encyclopédie"
-    accroche: "Ingénieurs, voitures, termes du glossaire, jalons de la chronologie et dossiers, sans tenir compte des accents."
+    accroche: "Ingénieurs, écuries, voitures, termes du glossaire, jalons de la chronologie et dossiers, sans tenir compte des accents."
     label: "Rechercher"
     placeholder: "Effet de sol, 1981, Barnard, turbo…"
     vide: "Saisissez au moins deux lettres."
@@ -173,6 +226,7 @@ fr:
       jalon: "Chronologie"
       dossier: "Dossiers"
       voiture: "Voitures"
+      ecurie: "Écuries"
     sans_js: "La recherche nécessite JavaScript. L'index, le glossaire et la chronologie restent consultables sans lui."
   voitures:
     titre_page: "Voitures"
@@ -183,12 +237,12 @@ fr:
   p404:
     titre: "Page introuvable"
     texte_avant: "Cette adresse ne correspond à aucune page de l'encyclopédie. L'"
-    texte_lien: "index des entrées"
-    texte_apres: "recense toutes les fiches."
+    texte_lien: "index des ingénieurs"
+    texte_apres: "recense toutes les fiches, et l'accueil mène aux écuries et aux voitures."
 
 en:
   code: "en"
-  marque: "F1 Engineers"
+  marque: "Engineers and Teams of F1"
   evitement: "Skip to content"
   autre_code: "fr"
   autre_nom: "Français"
@@ -207,16 +261,19 @@ en:
     causalite: "/en/features/causalite/"
     entrees: "/en/engineers/"
     voitures: "/en/cars/"
+    ecuries: "/en/teams/"
     index_recherche: "/en/search.json"
     pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
-  nom_site: "F1 Engineers"
+  nom_site: "Engineers and Teams of F1"
   nav:
     - { url: "/en/", nom: "Home" }
-    - { url: "/en/tiers/", nom: "Tiers" }
+    - { url: "/en/engineers/", nom: "Engineers" }
+    - { url: "/en/teams/", nom: "Teams" }
     - { url: "/en/cars/", nom: "Cars" }
     - { url: "/en/timeline/", nom: "Timeline" }
     - { url: "/en/lineages/", nom: "Lineages" }
+    - { url: "/en/tiers/", nom: "Tiers" }
     - { url: "/en/glossary/", nom: "Glossary" }
     - { url: "/en/features/", nom: "Features" }
     - { url: "/en/search/", nom: "Search" }
@@ -259,8 +316,10 @@ en:
     glossaire: "Glossary"
     chronologie: "Timeline"
     voitures_aria: "Neighbouring cars in time"
+    ecurie: "Team"
+    ecuries: "Teams"
   index:
-    titre_page: "Index"
+    titre_page: "Engineers"
     description: "An encyclopedia of the engineers who transformed Formula 1 car design, ranked by their lasting technical influence."
     titre: "The engineers who changed Formula 1"
     intro: "Twenty engineers, ranked by what they changed in the way an F1 car is built, not by their trophy count. Each entry sets out what belongs to whom in innovations that were often collective. Entries marked HC (unranked) cover other people behind these innovations. This is a reasoned selection, not an inventory: other engineers mattered, and the site does not claim to cover them all."
@@ -280,6 +339,49 @@ en:
     aucun: "No entry matches. Clear the search or widen the tier and field."
     une: "entry matches."
     plusieurs: "entries match."
+  portail:
+    titre_page: "Engineers and Teams of F1"
+    description: "A technical encyclopedia of Formula 1: the engineers who transformed it, the family tree of the teams and the cars that made history, on a single timeline."
+    titre: "Engineers and teams of Formula 1"
+    intro: "A technical encyclopedia with three ways in: the engineers who changed how an F1 car is built, the teams and their family tree (who bought whom, who became whom), and the cars that made history. One timeline links them. Every fact and every link points to its sources."
+    ingenieurs_texte: "entries, including twenty engineers ranked by what they changed in the way an F1 car is built."
+    ingenieurs_tier_a: "Tier A, paradigm change:"
+    ingenieurs_lien: "Index of engineers"
+    tiers_lien: "The four tiers"
+    lignees_lien: "Technical lineages"
+    ecuries_texte_avant: "teams in"
+    ecuries_texte_apres: "lineages: a lineage follows one team structure through its takeovers and name changes. The chart below traces those of the current grid."
+    ecuries_lien: "Team family tree"
+    voitures_texte: "single-seaters, each linked to its team, its designers and the innovations on the timeline."
+    voitures_lien: "All cars"
+    chrono_titre: "One shared timeline"
+    chrono_texte: "Innovations, context, teams and cars on a single axis, from 1940 to today."
+    chrono_lien: "Open the timeline"
+    recherche_label: "Search the encyclopedia"
+    recherche_bouton: "Search"
+    methode_avant: "To understand the ranking of the engineers, start with"
+  ecuries:
+    titre_page: "Teams"
+    description: "The family tree of Formula 1 teams: each team structure followed through its takeovers and name changes, each link justified by its sources."
+    titre: "Team family tree"
+    accroche: "An F1 team often changes its name without changing its factory or its people: Tyrrell became Mercedes, Stewart became Red Bull. Each row of the chart follows one structure, and each change from one name to the next is justified by its sources, with its level of evidence. Diamonds mark the cars that have their own entry."
+    perimetre: "Work in progress: for now the chart covers the lineages of the eleven teams entered in 2026, and the teams of the cars in the encyclopedia. The other constructors entered since 1958 will be added in stages."
+    aria: "Chart of the team family tree"
+    actuelles: "The 2026 teams and their ancestors"
+    historiques: "Defunct teams"
+    aujourdhui: "today"
+    voitures: "Cars"
+    ingenieurs: "Engineers"
+    jalons: "Timeline"
+    dates: "Dates"
+    sources: "Sources"
+    legende: "Change from one name to the next:"
+    note: "Years are the seasons contested under each name in the world championship. Sources accessed on 28 October 2026."
+    types:
+      rachat: "takeover"
+      renommage: "name change"
+      reprise-partielle: "partial takeover"
+      usine-motoriste: "taken over by a manufacturer"
   tiers:
     titre_page: "Tiers"
     description: "The twenty engineers split into four tiers, from paradigm change to more localised impact."
@@ -300,7 +402,7 @@ en:
     titre_page: "Timeline"
     description: "A timeline of Formula 1's great technical innovations, from the 1946 Cooper 500 to the 2022 Red Bull, linked to the engineers behind them."
     titre: "Timeline of innovations"
-    accroche: "Eighty years of technical breakthroughs above the axis; below it, the context that explains them: regulations, safety, economics and technology from elsewhere. Click a marker to open its card; red diamonds mark an innovation led by a Tier A engineer. The timeline is a selection of breakthroughs, not an inventory: an innovation or a link appears only if a source justifies it."
+    accroche: "Eighty years of technical breakthroughs above the axis; below it, the context that explains them: regulations, safety, economics and technology from elsewhere. Click a marker to open its card; red diamonds mark an innovation led by a Tier A engineer. Below the timeline, a band follows the teams through their successive names, with their cars. The timeline is a selection of breakthroughs, not an inventory: an innovation or a link appears only if a source justifies it."
     aria: "Timeline of innovations and their context"
     filtres: "Show context:"
     innovations: "Innovations"
@@ -320,6 +422,11 @@ en:
     note_contexte: "Each context event has its own sources, accessed on 26 October 2026."
     methode_liens: "How these cause-and-effect links are established and graded."
     legende: "Open a marker to see its cause-and-effect links. Line:"
+    bandes: "Show below the timeline:"
+    bande_ecuries: "Teams"
+    bande_voitures: "Cars"
+    bande_titre: "Teams and their cars"
+    bande_texte: "Each row follows one team structure through its successive names; diamonds mark the cars that have their own entry. The details and sources of each link are on the page"
   glossaire:
     titre_page: "Glossary"
     description: "The Formula 1 technical terms used in the encyclopedia, defined simply and with sources."
@@ -340,9 +447,9 @@ en:
     telecharger_suite: "22 slides, from the method to the final ranking."
   recherche:
     titre_page: "Search"
-    description: "Search the whole encyclopedia: engineers, cars, glossary, timeline and features."
+    description: "Search the whole encyclopedia: engineers, teams, cars, glossary, timeline and features."
     titre: "Search the encyclopedia"
-    accroche: "Engineers, cars, glossary terms, timeline milestones and features, ignoring accents."
+    accroche: "Engineers, teams, cars, glossary terms, timeline milestones and features, ignoring accents."
     label: "Search"
     placeholder: "Ground effect, 1981, Barnard, turbo…"
     vide: "Type at least two letters."
@@ -355,6 +462,7 @@ en:
       jalon: "Timeline"
       dossier: "Features"
       voiture: "Cars"
+      ecurie: "Teams"
     sans_js: "Search needs JavaScript. The index, glossary and timeline remain available without it."
   voitures:
     titre_page: "Cars"
@@ -365,5 +473,5 @@ en:
   p404:
     titre: "Page not found"
     texte_avant: "This address does not match any page of the encyclopedia. The"
-    texte_lien: "index of entries"
-    texte_apres: "lists every profile."
+    texte_lien: "index of engineers"
+    texte_apres: "lists every profile, and the home page leads to the teams and cars."

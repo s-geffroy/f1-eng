@@ -76,7 +76,7 @@
         {%- assign actif = false -%}
         {%- if page.url == s.url -%}{%- assign actif = true -%}{%- endif -%}
         {%- if s.url == T.url.dossiers and page.collection == T.collection_dossiers -%}{%- assign actif = true -%}{%- endif -%}
-        {%- if s.url == T.url.accueil and page.collection == T.collection_entrees -%}{%- assign actif = true -%}{%- endif -%}
+        {%- if s.url == T.url.entrees and page.collection == T.collection_entrees -%}{%- assign actif = true -%}{%- endif -%}
         {%- if s.url == T.url.voitures and page.collection == T.collection_voitures -%}{%- assign actif = true -%}{%- endif -%}
         <a href="{{ s.url | relative_url }}"{% if actif %} aria-current="page"{% endif %}>{{ s.nom }}</a>
       {%- endfor -%}
