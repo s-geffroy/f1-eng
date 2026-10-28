@@ -28,13 +28,13 @@ See the [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}
 
 ## No. 2 — John Barnard (95/100)
 
-Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, also built in carbon, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. In this ranking, Barnard is probably the revolutionary whose personal authorship is the clearest.
+Two independent breakthroughs, both of which became universal. The **1981 McLaren MP4/1**, designed by Barnard with a team that included [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) and [Alan Jenkins]({{ site.baseurl }}{% link _engineers/alan-jenkins.md %}), was the first F1 car with a carbon composite monocoque to race in a Grand Prix. The Lotus 88, whose carbon monocoque used different construction techniques according to Autosport, ran in practice at Long Beach in March 1981, before the MP4/1's race debut, but was never allowed to race. The **1989 Ferrari 640** then introduced the semi-automatic gearbox controlled from the steering wheel. In this ranking, Barnard is probably the revolutionary whose personal authorship is the clearest.
 
 See the [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %}) entry
 
 ## No. 3 — John Cooper (93.5/100)
 
-The decisive switch from front engine to **mid-engine** — a layout Cooper did not invent, but which he popularised and made a winner — changed at a stroke the weight distribution, the polar moment of inertia, traction, packaging, the chassis and future aerodynamics. After Cooper's titles in 1959 and 1960, the front engine became obsolete. Credit is shared with [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}), Cooper's chief designer during those two titles.
+The decisive switch from front engine to **mid-engine** — a layout Cooper did not invent (the pre-war Auto Unions already used it), but which he popularised and made a winner — changed at a stroke the weight distribution, the polar moment of inertia, traction, packaging, the chassis and future aerodynamics. After Cooper's titles in 1959 and 1960, the front engine became obsolete. Credit is shared with [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}), Cooper's chief designer during those two titles.
 
 See the [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) entry
 
@@ -88,3 +88,6 @@ Consulted on 9 August 2026, rechecked on 26 October 2026. Facts taken from the e
 - Motor Sport, John Tipler, "A new frame of reference" (May 2002): <https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/>
 - Goodwood, Andrew Frankel, "Thank Frankel It's Friday: The greatest engine of all" (October 2016): <https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/>
 - Formula 1, "Newey embarks on his first official day at Aston Martin" (2025): <https://www.formula1.com/en/latest/article/newey-embarks-on-his-first-official-day-at-aston-martin.2Y669PtuTnEZ5jg0nlIRsz.html>
+- Autosport, Gary Watkins, "The troubled story of F1's greatest racing car" (October 2020): <https://www.autosport.com/f1/news/the-troubled-story-of-f1s-greatest-racing-car-5114448/5114448/>
+- Motor Sport Magazine, "Back to the future" (November 2017): <https://www.motorsportmagazine.com/archive/article/november-2017/103/back-future/>
+- Autosport, "The soundtrack to a generation": <https://www.autosport.com/general/news/the-soundtrack-to-a-generation-5078349/5078349/>

@@ -72,7 +72,7 @@ Consulted on 26 October 2026. The sources for each context event are listed on i
 - Goodwood, Damien Smith, "Winging it: When F1 really started to fly" (March 2025): <https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/>
 - Motor Sport, Adam Cooper, "Vacuum clean-up" (May 1998): <https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean>
 - Goodwood, Russell Campbell, "Too fast for Formula 1: the Brabham BT46B fan car" (May 2025): <https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/>
-- Motor Sport, James Elson, "John Barnard remembers his McLaren MP4/1 eureka moment" (September 2021): <https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment>
+- Motor Sport, "John Barnard remembers his McLaren MP4/1 eureka moment" (2021): <https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment>
 - Motor Sport, Doug Nye, "Lotus 78: F1’s first true ground effect car" (February 2020): <https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
 - Motor Sport Magazine, Chris Nixon, "Too good for their own good?" (April 2002): <https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/>
 

@@ -19,7 +19,7 @@
   terme: "Lift"
   motifs:
   - "lift"
-  definition: "Vertical aerodynamic force pointing upwards: the opposite of downforce. It is what makes an aircraft fly; an F1 car mounts its wings upside down to produce downforce instead. An exposed wheel also generates lift, all the more so the bigger it is: according to Motor Sport, this is the reason for the Tyrrell P34's four small front wheels."
+  definition: "Vertical aerodynamic force pointing upwards: the opposite of downforce. It is what makes an aircraft fly; an F1 car mounts its wings upside down to produce downforce instead. An exposed wheel also generates lift: according to its designer Derek Gardner, quoted by Motor Sport, the Tyrrell P34's four small front wheels were meant to reduce the lift of conventional front wheels and allow the front aerodynamics to be backed off."
   entrees:
   - "derek-gardner"
   sources:
@@ -35,7 +35,7 @@
   terme: "Ground effect"
   motifs:
   - "ground effect"
-  definition: "Downforce no longer comes only from the wings but from the underside of the car: an air passage is formed there that narrows then widens, where the air accelerates and its pressure drops, sucking the car towards the track. The process is only effective if the sides are sealed by skirts. It was banned progressively between 1981 and 1983, returned in 2022 in the form of tunnels, then was toned down by the flatter floors of 2026."
+  definition: "Downforce no longer comes only from the wings but from the underside of the car: an air passage is formed there that narrows then widens, where the air accelerates and its pressure drops, sucking the car towards the track. On the first ground-effect cars, the process was only effective if the sides were sealed by skirts; designers later learned to do without them. It was curbed in 1981 by the ban on sliding skirts, then outlawed by the compulsory flat bottom of 1983; it returned in 2022 in the form of tunnels, then was toned down by the flatter floors of 2026."
   premiere: "Lotus 78, 1977, according to Motor Sport."
   entrees:
   - "colin-chapman"
@@ -51,6 +51,8 @@
     url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
   - titre: "Motor Sport Magazine, “Something in the air” (July 2014)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/"
+  - titre: "Motor Sport Magazine, 1981 F1 world championship"
+    url: "https://www.motorsportmagazine.com/database/championships/f1/1981-f1-world-championship"
 - id: "venturi"
   terme: "Venturi"
   motifs:
@@ -82,7 +84,7 @@
   terme: "Flat bottom"
   motifs:
   - "flat bottom"
-  definition: "A regulatory requirement, from 1983 onwards, for a flat underside of the car between the wheels. It does away with the wing profiles under the sidepods and with the skirts, and therefore with tunnel ground effect; the rear diffuser remains permitted."
+  definition: "A regulatory requirement, from 1983 onwards, for a flat underside of the car. It does away with the wing profiles under the sidepods and with the skirts, and therefore with tunnel ground effect; flat-bottomed cars nevertheless kept a rear diffuser."
   premiere: "1983, decision announced on 3 November 1982."
   entrees:
   - "gordon-murray"
@@ -91,11 +93,13 @@
     url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
   - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+  - titre: "Patrick Head, Motor Sport Magazine, “Mansell's perfect ride” (March 2012)"
+    url: "https://motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride"
 - id: "voiture-aile"
   terme: "Wing car"
   motifs:
   - "wing car"
-  definition: "A car whose entire bodywork, and above all its sidepods, is shaped like an inverted wing to produce downforce without add-on wings. It is the conceptual step that leads to ground effect."
+  definition: "A car whose entire bodywork, and above all its sidepods, is shaped like an inverted wing to produce downforce without add-on wings. The term covers both the 1969 BRM project, whose sidepods were reused on the March 701, and the ground-effect Lotus 78 and 79."
   premiere: "An unrealised BRM project in 1969, then the Lotus 78 in 1977."
   entrees:
   - "peter-wright"
@@ -112,7 +116,7 @@
   motifs:
   - "sidepods"
   - "sidepod"
-  definition: "Shaped volumes on either side of the cockpit. They house the radiators that cool the engine and structures that protect the driver from side impacts, and their shape guides the airflow. The 1970 Lotus 72 put its radiators there, moving them out of the nose; on the Lotus 79, their internal shape formed the venturi channel of ground effect, sealed to the track by skirts."
+  definition: "Shaped volumes on either side of the cockpit. They house the radiators that cool the engine and structures that protect the driver from side impacts, and their shape guides the airflow. The 1970 Lotus 72 put its radiators there, moving them out of the nose; on the Lotus 78 and 79, their internal shape formed the venturi channel of ground effect, sealed to the track by skirts."
   entrees:
   - "peter-wright"
   - "maurice-philippe"
@@ -125,6 +129,8 @@
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
   - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
+  - titre: "Gary Watkins, Autosport, “The troubled story of F1's greatest racing car” (October 2020)"
+    url: "https://www.autosport.com/f1/news/the-troubled-story-of-f1s-greatest-racing-car-5114448/5114448/"
 
 # --- insert after "pontons" (before "monocoque")
 - id: "chassis"
@@ -176,7 +182,7 @@
   - "spaceframe"
   - "curved tubes"
   - "curved-tube"
-  definition: "A three-dimensional frame made of welded steel or aluminium tubes arranged in triangles. It carries the engine, the suspension and the driver; the bodywork plays no structural role. It was the standard architecture of F1 cars until the early 1960s."
+  definition: "A three-dimensional frame made of tubes arranged in triangles. It connects the mechanical elements together (engine, suspension, steering). It was the standard architecture of F1 cars until the early 1960s."
   entrees:
   - "colin-chapman"
   - "owen-maddock"
@@ -189,7 +195,7 @@
   terme: "Honeycomb"
   motifs:
   - "honeycomb"
-  definition: "Sandwich panel: two thin skins bonded on either side of a cellular aluminium core. Very light and stiff, it formed F1 tubs in the 1970s and early 1980s, often folded rather than riveted, before serving as the core of composites."
+  definition: "Sandwich panel: two thin skins on either side of a cellular core, made of aluminium or Nomex. Very light and stiff, it formed F1 tubs in the 1970s and early 1980s, folded rather than riveted by Postlethwaite from the 1979 Wolf onwards, before serving as the core of composites."
   entrees:
   - "harvey-postlethwaite"
   - "martin-ogilvie"
@@ -201,6 +207,10 @@
     url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "McLaren, “Vodafone McLaren Mercedes MP4-24 Press Pack” (2009, archived copy)"
     url: "https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php"
+  - titre: "Motor Sport Magazine, “Ferrari – World Champion Constructors” (December 1982)"
+    url: "https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/"
+  - titre: "Formula1.com, Mark Hughes, “How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1” (May 2020)"
+    url: "https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ"
 - id: "composite-carbone"
   terme: "Carbon composite"
   motifs:
@@ -219,6 +229,8 @@
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
   - titre: "Formula 1, glossary A-E"
     url: "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
+  - titre: "Motor Sport, Rob Widdows, “Carbon natural” (May 2007)"
+    url: "https://www.motorsportmagazine.com/archive/article/may-2007/73/carbon-natural"
 - id: "moteur-porteur"
   terme: "Stressed engine"
   motifs:
@@ -245,7 +257,7 @@
   - "mid-engined"
   - "rear-engine"
   - "rear engine"
-  definition: "The engine is placed behind the driver, ahead of the rear axle. There is no longer a propshaft running along the car: frontal area and centre of gravity are lowered, weight moves towards the driven wheels and the polar moment of inertia decreases. Since 1959, every F1 world champion has driven with the engine behind him."
+  definition: "The engine is placed behind the driver. There is no longer a propshaft running along the car: frontal area and centre of gravity are lowered, weight moves towards the driven wheels and the polar moment of inertia decreases. After Cooper's titles in 1959 and 1960 the layout became the norm: the 1960 Italian Grand Prix was the last win for a front-engined F1 car."
   premiere: "First championship win: Cooper, Argentina 1958; first title in 1959."
   entrees:
   - "john-cooper"
@@ -277,18 +289,20 @@
   motifs:
   - "mass centralisation"
   - "centralise the masses"
-  definition: "Grouping the heavy components — fuel, radiators, gearbox, driver — close to the centre of gravity, between the axles, to lower the polar moment of inertia and make the car quicker to change direction."
+  definition: "Grouping the heavy components — at Forghieri's Ferrari, radiators, oil tank and gearbox — close to the centre of gravity, between the axles, to lower the polar moment of inertia and make the car quicker to change direction."
   entrees:
   - "mauro-forghieri"
   sources:
   - titre: "Formula 1, “TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
+  - titre: "Alan Henry, Motor Sport Magazine, “Victory Ts” (April 1997)"
+    url: "https://www.motorsportmagazine.com/archive/article/april-1997/50/victory-ts/"
 - id: "boite-transversale"
   terme: "Transverse gearbox"
   motifs:
   - "transverse gearbox"
   definition: "The gearbox shafts are placed across the car rather than in line behind the engine. The gearbox sits ahead of the rear axle, which brings the weight closer to the centre and improves directional response."
-  premiere: "Ferrari 312T, 1975, according to formula1.com; Motor Sport points to a path opened in 1972 by Tyrrell and March."
+  premiere: "Ferrari 312T, 1975, according to formula1.com."
   entrees:
   - "mauro-forghieri"
   sources:
@@ -296,6 +310,8 @@
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
   - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
+  - titre: "Alan Henry, Motor Sport Magazine, “Victory Ts” (April 1997)"
+    url: "https://www.motorsportmagazine.com/archive/article/april-1997/50/victory-ts/"
 - id: "boite-semi-automatique"
   terme: "Semi-automatic paddle-shift gearbox"
   motifs:
@@ -309,6 +325,10 @@
     url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
   - titre: "Motor Sport Magazine, “Ferrari's 640: the 1989 flawed masterpiece” (June 2022)"
     url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
+  - titre: "Motor Sport Magazine, “X-ray spec: Ferrari 640” (June 2005)"
+    url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
+  - titre: "Motorsport.com, “The troubled car that was a game changer for F1” (2021)"
+    url: "https://us.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801237/"
 - id: "turbocompresseur"
   terme: "Turbocharger"
   motifs:
@@ -329,11 +349,15 @@
     url: "https://www.goodwood.com/grr/f1/renaults-rs01-turbocharged-formula-1/"
   - titre: "Renault, “30 ans de Formule 1”"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
+  - titre: "Goodwood, Simon Ostler, “The best F1 engine eras ranked” (October 2022)"
+    url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
+  - titre: "Formula 1, glossary F-J"
+    url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
 - id: "rappel-pneumatique"
   terme: "Pneumatic valve springs"
   motifs:
   - "pneumatic valve"
-  definition: "The metal spring that closes each valve is replaced by a small volume of compressed gas. At very high revs, steel springs can no longer close the valves in time; gas, lighter and more responsive, allows the engine to rev much higher."
+  definition: "The metal spring that closes each valve is replaced by a small volume of compressed gas. At very high revs, steel springs can no longer close the valves in time; pneumatic valve return allows the engine to rev much higher."
   premiere: "Renault EF15 B engine, 1986."
   entrees:
   - "bernard-dudot"
@@ -349,7 +373,7 @@
   - "V12"
   - "V8"
   - "V6"
-  definition: "The layout is the number and arrangement of the cylinders: in a V, two banks form an angle (V6, V8, V10, V12); laid flat, at 180°, they face each other, as in the flat-12. The capacity is the total volume of the cylinders, shared between them: at 3 litres, each cylinder displaces 250cc in a twelve-cylinder and 375cc in an eight. The regulations first set the capacity of naturally aspirated engines, 3 litres in 1966, 3.5 litres in 1989, 3 litres in 1995, then the layout itself: ten cylinders mandated in 2000, a 2.4-litre V8 in 2006, a 1.6-litre turbo V6 in 2014."
+  definition: "The layout is the number and arrangement of the cylinders: in a V, two banks form an angle (V6, V8, V10, V12); laid flat, at 180°, they face each other, as in the flat-12. The capacity is the total volume of the cylinders, shared between them: at 3 litres, each cylinder displaces 250cc in a twelve-cylinder and 375cc in an eight. The regulations first set the capacity of naturally aspirated engines, 3 litres in 1966, 3.5 litres in 1987 (the only engines allowed from 1989), 3 litres in 1995, then the layout itself: ten cylinders mandated in 2000, a 2.4-litre V8 in 2006, a 1.6-litre turbo V6 in 2014."
   entrees:
   - "keith-duckworth"
   - "ettore-zaccone-mina"
@@ -402,6 +426,8 @@
     url: "https://www.autosport.com/f1/news/114013/mercedes-turbo-not-gamechanging"
   - titre: "Motor Sport Magazine, “Hall of Fame: Andy Cowell” (February 2020)"
     url: "https://motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell"
+  - titre: "Formula 1, glossary F-J"
+    url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
 
 # --- insert after "diffuseur"
 - id: "suspension-active"
@@ -423,6 +449,8 @@
     url: "https://www.motorsportmagazine.com/archive/article/march-2012/80/chapmans-last-big-thing/"
   - titre: "Peter Wright, GrandPrix.com, “Technical: All change”"
     url: "https://www.grandprix.com/features/peter-wright/technical-all-change.html"
+  - titre: "Formula 1, “Why the Williams FW15C remains F1's technological tour de force”"
+    url: "https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS"
 - id: "suspension-progressive"
   terme: "Rising-rate suspension"
   motifs:
@@ -451,11 +479,17 @@
     url: "https://www.formula1.com/en/latest/article/f1-glossary-p-t.GBhLQtpeu9b8LrK5VM0F1"
   - titre: "Doug Nye, Motor Sport Magazine (September 2008)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2008/140/doug-nye-36/"
+  - titre: "Formula 1, glossary F-J"
+    url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
+  - titre: "Formula 1, “F1 EXPLAINS: Downforce and why F1 cars have wings – with McLaren Aero Specialist Emel Cankaya” (October 2024)"
+    url: "https://www.formula1.com/en/latest/article/f1-explains-downforce-and-why-f1-cars-have-wings-with-mclaren-aero.10xj8CJPz8s7CmwfoyWmCU"
+  - titre: "Motor Sport Magazine, “Something in the air” (July 2014)"
+    url: "https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/"
 - id: "nez-releve"
   terme: "Raised nose"
   motifs:
   - "raised nose"
-  definition: "The nose is raised and the front wing hung beneath it, to send more air under the floor and towards the diffuser. It became the norm in the 1990s."
+  definition: "The nose is raised and the front wing hung beneath it, to send more air under the floor. It spread across the field during the 1990s."
   premiere: "Tyrrell 019, 1990 San Marino Grand Prix; the Leyton House CG901 did the same that year."
   entrees:
   - "jean-claude-migeot"
@@ -471,7 +505,7 @@
   motifs:
   - "double diffuser"
   - "diffuser"
-  definition: "The diffuser is the upswept rear section of the floor: it slows down and evacuates the air that has passed under the car, which lowers the pressure underneath and creates downforce. The 2009 double diffuser exploited an ambiguity in the regulations to feed a second deck; it was banned from 2011."
+  definition: "The diffuser is the upswept rear section of the floor: it controls the speed at which the air that has passed under the car exits; the faster it exits, the lower the pressure underneath, which creates downforce. The 2009 double diffuser exploited an ambiguity in the regulations to feed a second deck; it was banned from 2011."
   premiere: "Double diffuser: 2009, at Brawn, Toyota and Williams."
   entrees:
   - "ross-brawn"
@@ -544,11 +578,13 @@
     url: "https://www.motorsportmagazine.com/archive/article/march-2012/80/chapmans-last-big-thing/"
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
+  - titre: "Jalopnik, Elizabeth Blackstock, “Formula One Telemetry: Explained” (December 2020)"
+    url: "https://jalopnik.com/formula-one-telemetry-explained-1845819678/"
 - id: "cao"
   terme: "CAD, CAE and CFD"
   motifs:
   - "CAD"
-  definition: "CAD is used to design parts digitally; computer-aided engineering (CAE) covers strength and suspension calculations; CFD simulates the airflow around the car, complementing the wind tunnel. CFD use is now capped by the regulations."
+  definition: "CAD is used to design parts digitally; computer-aided engineering (CAE) covers engineering calculations, such as finite element analysis of structures; CFD simulates the airflow around the car, complementing the wind tunnel. CFD use is now capped by the regulations."
   entrees:
   - "frank-dernie"
   - "alan-jenkins"
@@ -557,6 +593,10 @@
     url: "https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2"
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
+  - titre: "Formula1.com, Mark Hughes, “TECH TUESDAY: Under the bodywork of 1986's best F1 car, the Williams FW11” (March 2020)"
+    url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-1986s-best-f1-car-the-williams-fw11.4vqZ7cKhqMhfYgA6mwXYiu"
+  - titre: "Mark Hughes, Motor Sport Magazine, “Outstanding in the shadows” (August 2015)"
+    url: "https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows"
 - id: "soufflerie"
   terme: "Wind tunnel"
   motifs:
@@ -576,6 +616,8 @@
     url: "https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/"
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
+  - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
+    url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
 - id: "ravitaillement"
   terme: "Refuelling and tactical pit stop"
   motifs:
@@ -620,7 +662,7 @@
   terme: DRS
   motifs:
   - DRS
-  definition: 'Drag reduction system: the driver opens a flap in the rear wing in a set zone, when behind another car, to gain speed on the straight. Introduced in 2011 in place of the F-duct, it was seen from the start as a stopgap for cars'' difficulty in following each other.'
+  definition: 'Drag reduction system: the driver opens a flap in the rear wing in a set zone, when behind another car, to gain speed on the straight. Introduced in 2011 in place of the F-duct; by the end of its first season, Gary Anderson (Autosport) judged it a bandage until regulations let the cars race closely together.'
   premiere: '2011.'
   entrees: []
   sources:
@@ -640,3 +682,5 @@
     url: https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed
   - titre: 'Formula1.com, Mark Hughes and Giorgio Piola, “Tech Tuesday: How 2022''s suspension overhaul could shuffle the competitive order” (February 2022)'
     url: https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j
+  - titre: "Malcolm Smith, “Control for Formula One!”, in T. Samad and A.M. Annaswamy (eds), The Impact of Control Technology, IEEE Control Systems Society (2011)"
+    url: "https://IEEECSS.org/sites/ieeecss/files/2019-07/IoCT-Part2-14FormulaOne-LR.pdf"

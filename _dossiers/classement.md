@@ -28,7 +28,7 @@ redirect_from: "/classement/2026/10/25/classement-final-ingenieurs-f1.html"
 | 17 | [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) | D | 76,5 | Lancia D50, architecture intégrée |
 | 18 | [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) | D | 75,5 | Chef designer de Cooper pendant les titres 1959 et 1960 |
 | 19 | [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) | D | 74,5 | Électronique et logiciel de la suspension active |
-| 20 | [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) | D | 73,5 | Intégration châssis/aéro, performance répétée |
+| 20 | [Rory Byrne]({{ site.baseurl }}{% link _ingenieurs/rory-byrne.md %}) | D | 73,5 | Minutie du détail et efficacité aérodynamique, performance répétée |
 
 > Les scores sont un instrument comparatif, pas des faits historiques. Un écart de 1 ou 2 points ne doit pas être surinterprété.
 
@@ -48,7 +48,7 @@ Ce tableau montre des **filiations intellectuelles**, pas des relations maître-
 
 - **Chapman** : la rupture multiple, par accumulation de ruptures architecturales.
 - **Barnard** : probablement la paternité la plus nette, avec deux innovations directes devenues universelles.
-- **Newey** : l'adaptation la plus durable, au sommet de l'aérodynamique sous plusieurs générations de règlements.
+- **Newey** : l'adaptation la plus durable, avec des voitures championnes chez Williams, McLaren et Red Bull, sous plusieurs générations de règlements.
 
 Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il classe des **capacités historiques à déplacer la frontière technique de la Formule 1**.
 
@@ -76,3 +76,4 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
 - Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Autosport, « Interview with Rory Byrne » : <https://www.autosport.com/general/news/interview-with-rory-byrne-5076767/5076767/>

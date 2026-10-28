@@ -382,7 +382,7 @@ jalons:
     annee: 1986
     voie: "methode"
     titre: "La télémétrie en course"
-    texte: "Chez Williams-Honda, les ingénieurs suivent depuis le stand les relevés des instruments pendant la course. Issu d'un enregistreur de données développé à partir de mi-1985 par l'équipe électronique de Honda, le système est bientôt imité par les autres équipes, au point de devenir un équipement standard ; la primauté revendiquée par Honda reste discutée."
+    texte: "Chez Williams-Honda, les ingénieurs suivent depuis le stand les relevés des instruments pendant la course. Issu d'un enregistreur de données développé à partir de mi-1985 par l'équipe électronique de Honda, le système est bientôt imité par les autres équipes, au point de devenir un équipement standard ; Honda présente Williams-Honda comme la première équipe de F1 à l'employer, tandis que McLaren fait remonter sa propre télémétrie à 1975, en IndyCar."
     entrees: []
     termes: [acquisition-de-donnees]
     sources:
@@ -470,7 +470,7 @@ jalons:
     annee: 2010
     voie: "aero"
     titre: "Le F-duct de McLaren"
-    texte: "En obturant un orifice du cockpit, le pilote fait décrocher l'aileron arrière en ligne droite et réduit la traînée. Mis au point par toute l'équipe McLaren dès la fin de 2008, il est imité d'abord par Sauber, puis par d'autres ; interdit pour 2011, il est remplacé par le DRS."
+    texte: "En obturant un orifice du cockpit, le pilote fait décrocher l'aileron arrière en ligne droite et réduit la traînée. Développé chez McLaren dès la fin de 2008 selon Paddy Lowe (Tim Goss et Doug McKiernan en partagent le mérite avec toute l'équipe), il est imité d'abord par Sauber, puis par d'autres ; interdit pour 2011, il est remplacé par le DRS."
     entrees: []
     termes: [aileron, drs]
     sources:
@@ -485,7 +485,7 @@ jalons:
     annee: 2022
     voie: "aero"
     titre: "La Red Bull de 2022"
-    texte: "Selon formula1.com en 2024, Adrian Newey, fort de son expérience des voitures à effet de sol, apporte des idées clés au concept de la Red Bull ; en 2022, le même site limitait sa contribution directe au dessin aux suspensions, qu'il dessine lui-même. L'enjeu est de produire l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023."
+    texte: "Selon formula1.com en 2024, Adrian Newey, fort de son expérience des voitures à effet de sol, apporte des idées clés au concept de la Red Bull ; en 2022, le même site limitait sa contribution directe au dessin aux suspensions, qu'il dessine lui-même. L'enjeu est de produire l'appui de façon fiable. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull ; Mercedes s'y refuse et Ferrari garde d'abord son propre concept, avant que toutes deux adoptent à leur tour des pontons de ce type en cours de saison 2023."
     entrees: [adrian-newey]
     termes: [effet-de-sol]
     sources:
@@ -497,13 +497,15 @@ jalons:
         url: "https://www.skysports.com/f1/news/12433/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
       - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
         url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
+      - titre: "Formula1.com, Mark Hughes et Giorgio Piola, « Tech Tuesday: The design secrets that set Red Bull's RB18 apart from its F1 rivals » (novembre 2022)"
+        url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-design-secrets-that-set-red-bulls-rb18-apart-from-its-f1.1ul2YIRb2nFywEwjYLWe0l"
 
 contexte:
   - id: "mosquito-radiateurs"
     annee: 1940
     categorie: "technologie"
     titre: "Les radiateurs dans l'aile du Mosquito"
-    texte: "Le bimoteur de Havilland Mosquito vole pour la première fois le 25 novembre 1940 ; ses radiateurs sont logés dans le bord d'attaque des ailes, entre le fuselage et les moteurs, sur un avion dessiné pour offrir la plus petite surface frontale possible. Selon Motor Sport, Tony Rudd, ancien motoriste de Rolls-Royce aviation, se souvient de ce montage quand Lotus cherche où placer les radiateurs de la future Lotus 78 : enfouis dans des conduits, l'air ressortant plus en arrière. L'équipe teste en soufflerie des pontons conçus pour produire de l'appui ; essayée à l'envers, une section de maquette donne satisfaction, et l'Imperial College fait savoir à Noël : « The Mosquito flies »."
+    texte: "Le bimoteur de Havilland Mosquito vole pour la première fois le 25 novembre 1940 ; ses radiateurs sont logés dans le bord d'attaque des ailes, entre le fuselage et les moteurs, sur un avion dessiné pour offrir la plus petite surface frontale possible. Selon Motor Sport, Tony Rudd, ancien motoriste de Rolls-Royce aviation, se souvient de ce montage quand Lotus cherche où placer les radiateurs de la future Lotus 78 : enfouis dans des conduits, l'air ressortant plus en arrière. L'équipe se demande si des pontons de ce type produiraient de l'appui : une section de maquette est essayée à l'envers en soufflerie, et l'Imperial College fait savoir à Noël : « The Mosquito flies »."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -531,7 +533,7 @@ contexte:
     annee: 1950
     categorie: "economie"
     titre: "Premier championnat du monde"
-    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. Son règlement reprend celui de 1947 : moteurs atmosphériques de 4,5 litres ou moteurs suralimentés de 1,5 litre, hérités de la catégorie voiturette d'avant-guerre. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre, née en 1937 comme voiturette, dont le huit-cylindres en ligne à compresseur atteint environ 350ch (Mark Hughes ; plus de 400 selon David Tremayne). Face à des Maserati, ERA, Talbot et Alta vieillissantes, Farina, Fagioli et Parnell offrent à Alfa Romeo les trois premières places."
+    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. Son règlement reprend celui de 1947 : moteurs atmosphériques de 4,5 litres, comme avant-guerre, ou moteurs suralimentés de 1,5 litre hérités de l'ancienne catégorie voiturette. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre, née en 1937 comme voiturette, dont le huit-cylindres en ligne à compresseur atteint environ 350ch (Mark Hughes ; plus de 400 selon David Tremayne). Face à des Maserati, ERA, Talbot et Alta vieillissantes, Farina, Fagioli et Parnell offrent à Alfa Romeo les trois premières places."
     sources:
       - titre: "Formula 1, « 10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj"
@@ -556,7 +558,7 @@ contexte:
     annee: 1954
     categorie: "technologie"
     titre: "La Jaguar D-Type et la monocoque d'avion"
-    texte: "La Jaguar D-Type, voiture de sport conçue pour courir aux 24 Heures du Mans dès 1954, applique des techniques aéronautiques : son aérodynamicien Malcolm Sayer vient de la Bristol Aeroplane Company, et sa section centrale monocoque rivetée en alliage léger, de section elliptique et réduite, allie rigidité et faible traînée. Elle gagne au Mans en 1955, 1956 et 1957. Doug Nye la cite parmi les précédents de la Lotus 25 et rappelle que la monocoque était depuis cinquante ans l'élément structurel majeur de l'aéronautique ; en course, le treillis tubulaire reste pourtant la règle jusqu'en 1962. Chez Lotus, Mike Costin, venu de l'industrie aéronautique, conseille l'assemblage riveté de la coque."
+    texte: "La Jaguar D-Type, voiture de sport conçue pour courir aux 24 Heures du Mans dès 1954, applique des techniques aéronautiques : son aérodynamicien Malcolm Sayer vient de l'aéronautique, chez Bristol, et sa section centrale monocoque rivetée en alliage léger, de section elliptique et réduite, allie rigidité et faible traînée. Elle gagne au Mans en 1955, 1956 et 1957. Doug Nye la cite parmi les précédents de la Lotus 25 et rappelle que la monocoque était depuis cinquante ans l'élément structurel majeur de l'aéronautique ; en course, le treillis tubulaire reste pourtant la règle jusqu'en 1962. Chez Lotus, Mike Costin, venu de l'industrie aéronautique, conseille l'assemblage riveté de la coque."
     liens:
       - jalon: "lotus-25"
         mecanisme: "transfert"
@@ -613,12 +615,12 @@ contexte:
     annee: 1963
     categorie: "technologie"
     titre: "La fibre de carbone du Royal Aircraft Establishment"
-    texte: "En 1963, W. Watt, L. N. Phillips et W. Johnson mettent au point au Royal Aircraft Establishment de Farnborough un procédé qui révèle le potentiel de résistance de la fibre de carbone. Breveté par le ministère britannique de la Défense et concédé notamment à Rolls-Royce, il est ensuite exploité par l'industrie aéronautique. Le lien avec la McLaren MP4/1 reste indirect : John Barnard dit avoir eu l'idée d'une coque en carbone en voyant British Aerospace fabriquer en composite carbone le capot du réacteur Rolls-Royce RB211. Il cherchait une coque étroite, pour agrandir le soubassement à effet de sol, sans perte de rigidité ; la MP4/1 gagne dès le Grand Prix de Grande-Bretagne 1981."
+    texte: "En 1963, W. Watt, L. N. Phillips et W. Johnson mettent au point au Royal Aircraft Establishment de Farnborough un procédé qui révèle le potentiel de résistance de la fibre de carbone. Breveté par le ministère britannique de la Défense et concédé notamment à Rolls-Royce, il est ensuite exploité par l'industrie aéronautique. Le lien avec la McLaren MP4/1 reste indirect : John Barnard, chez qui l'idée d'une coque en carbone mûrissait déjà, dit s'être décidé en voyant British Aerospace fabriquer le capot du réacteur Rolls-Royce RB211 en sandwich de fibre de carbone et de nid d'abeille aluminium. Il cherchait une coque étroite, pour agrandir le soubassement à effet de sol, sans perte de rigidité ; la MP4/1 gagne dès le Grand Prix de Grande-Bretagne 1981."
     liens:
       - jalon: "mp4-1"
         mecanisme: "transfert"
         preuve: "discute"
-        pourquoi: "John Barnard dit avoir pensé au carbone en voyant British Aerospace fabriquer un capot de réacteur en composite ; le procédé de Farnborough n'y mène qu'indirectement, par l'industrie aéronautique."
+        pourquoi: "John Barnard dit s'être décidé pour le carbone en voyant British Aerospace fabriquer un capot de réacteur en composite ; le procédé de Farnborough n'y mène qu'indirectement, par l'industrie aéronautique."
     sources:
       - titre: "Times Higher Education, « Carbon fibre: how we failed to reap rewards » (juillet 1997)"
         url: "https://www.timeshighereducation.com/node/96469"
@@ -718,7 +720,7 @@ contexte:
     annee: 1968
     categorie: "economie"
     titre: "La publicité hors automobile"
-    texte: "La F1, devenue plus technique et plus coûteuse, ne peut plus vivre sans commanditaires. Après le départ de soutiens historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, d'Imperial Tobacco, que les restrictions sur la publicité télévisée poussent vers le sport ; le rouge, blanc et or remplace le vert et jaune national. Un lecteur de Motor Sport rappelle, comme Sports Car Digest, que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes trouvent là un financement indépendant des industriels de l'automobile."
+    texte: "La F1, devenue plus technique et plus coûteuse, ne peut plus vivre sans commanditaires. Après le départ de soutiens historiques comme Esso et BP, les règles internationales sur le parrainage sont assouplies fin 1967 : il n'est plus réservé aux produits liés à l'automobile. Team Lotus court en 1968 aux couleurs de la marque de cigarettes Gold Leaf, d'Imperial Tobacco, que les restrictions sur la publicité télévisée poussent vers le sport ; le rouge, blanc et or remplace le vert et jaune national. Un lecteur de Motor Sport rappelle, comme Sports Car Digest, que les Brabham de Team Gunston ont porté une livrée commerciale dès le Grand Prix d'Afrique du Sud, le 1er janvier 1968. Les équipes peuvent désormais se financer auprès d'annonceurs étrangers à l'automobile."
     sources:
       - titre: "Sports Car Digest, « Gold Leaf Team Lotus: The Deal and the First Glory » (avril 2024)"
         url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
@@ -821,7 +823,7 @@ contexte:
     annee: 1976
     categorie: "technologie"
     titre: "Goodyear veut mesurer"
-    texte: "Au milieu des années 1970, le nouveau chef de la division course internationale de Goodyear engage Karl Kempf, mathématicien qui avait fait un stage chez Goodyear pendant sa thèse, avec une mission : construire un système d'acquisition de données pour toutes les voitures chaussées par Goodyear, afin d'« apporter un peu de science à l'art de la course ». Le premier ensemble mesure suspension, direction, papillon, freins, régime et accélérations. Seuls Derek Gardner, chez Tyrrell, et Mauro Forghieri, chez Ferrari, l'adoptent vraiment."
+    texte: "Lors d'un Grand Prix du Canada, au plus tard en 1977, le nouveau chef de la division course internationale de Goodyear engage Karl Kempf, mathématicien qui avait fait un stage chez Goodyear pendant sa thèse, avec une mission : construire un système d'acquisition de données pour toutes les voitures chaussées par Goodyear, afin d'« apporter un peu de science à l'art de la course ». Le premier ensemble mesure suspension, direction, papillon, freins, régime et accélérations. Seuls Derek Gardner, chez Tyrrell, et Mauro Forghieri, chez Ferrari, l'adoptent vraiment."
     liens:
       - jalon: "donnees-tyrrell"
         mecanisme: "ouvre"
@@ -834,7 +836,7 @@ contexte:
     annee: 1977
     categorie: "economie"
     titre: "Renault arrive avec le turbo"
-    texte: "Renault, avec son partenaire pétrolier Elf, engage la RS01 au Grand Prix de Grande-Bretagne 1977, avec un six-cylindres turbo de 1,5 litre, d'abord éprouvé en endurance en version 2 litres, face aux V8 et aux douze-cylindres atmosphériques de 3 litres. Les casses sont fréquentes au début, treize en dix-sept courses, et les fumées valent à la voiture le surnom de « théière ». Mais la RS10 gagne à Dijon en 1979, sur un circuit dont l'altitude favorise le turbo. Au début des années 1980, face à la puissance des turbos, les équipes restées au DFV misent sur le châssis et l'effet de sol, avant d'adopter à leur tour des moteurs turbo."
+    texte: "Renault, avec son partenaire pétrolier Elf, engage la RS01 au Grand Prix de Grande-Bretagne 1977, avec un six-cylindres turbo de 1,5 litre, d'abord éprouvé en endurance en version 2 litres, face aux moteurs atmosphériques de 3 litres de ses rivaux. Les casses sont fréquentes au début, treize en dix-sept courses, et les fumées valent à la voiture le surnom de « théière ». Mais la RS10 gagne à Dijon en 1979, sur un circuit dont l'altitude favorise le turbo. Au début des années 1980, face à la puissance des turbos, les équipes restées au DFV misent sur le châssis et l'effet de sol, avant d'adopter à leur tour des moteurs turbo."
     liens:
       - jalon: "turbo-victoire"
         mecanisme: "ouvre"
@@ -855,7 +857,7 @@ contexte:
     annee: 1978
     categorie: "reglement"
     titre: "La voiture à ventilateur écartée"
-    texte: "En 1978, la règle qui interdit les dispositifs aérodynamiques mobiles admet ceux dont la fonction première n'est pas aérodynamique. La Brabham BT46B s'y engouffre : son ventilateur est présenté comme servant au refroidissement du moteur. Après sa victoire en Suède, les équipes rivales, menées par Colin Chapman, protestent. Les sources divergent sur la suite : selon The Race et Goodwood, la CSI juge la voiture conforme et Bernie Ecclestone la retire de lui-même, et Motor Sport parle aussi en 2025 d'un retrait volontaire ; selon Motor Sport en 1998, la CSI l'interdit « pour raisons de sécurité ». La rédaction du règlement ne change qu'en 1979."
+    texte: "En 1978, la règle qui interdit les dispositifs aérodynamiques mobiles admet ceux dont la fonction première n'est pas aérodynamique. La Brabham BT46B s'y engouffre : son ventilateur est présenté comme servant au refroidissement du moteur. Dès avant la course en Suède, puis après sa victoire, les équipes rivales, menées par Colin Chapman, protestent. Les sources divergent sur la suite : selon The Race et Goodwood, la CSI juge la voiture conforme et Bernie Ecclestone la retire de lui-même, et Motor Sport parle aussi en 2025 d'un retrait volontaire ; selon Motor Sport en 1998, la CSI l'interdit « pour raisons de sécurité ». La rédaction du règlement ne change qu'en 1979."
     liens:
       - jalon: "bt46b"
         mecanisme: "contourne"
@@ -864,7 +866,7 @@ contexte:
       - jalon: "bt46b"
         mecanisme: "provoque"
         preuve: "etabli"
-        pourquoi: "La victoire de la BT46B déclenche les protestations des équipes rivales, menées par un Colin Chapman furieux (Adam Cooper) ; la rédaction du règlement est modifiée pour 1979."
+        pourquoi: "La BT46B suscite les protestations des équipes rivales, dès avant la course de Suède puis après sa victoire, menées par un Colin Chapman furieux (Adam Cooper) ; la rédaction du règlement est modifiée pour 1979 (The Race)."
       - jalon: "bt46b"
         mecanisme: "ferme"
         preuve: "discute"
@@ -891,7 +893,7 @@ contexte:
       - jalon: "active-gagne"
         mecanisme: "transfert"
         preuve: "etabli"
-        pourquoi: "Le lien vaut pour la Lotus 99T, héritière du système de Cranfield ; la suspension Williams, elle, dérive d'un système routier d'Automotive Products."
+        pourquoi: "Le lien vaut pour la Lotus 99T, sur laquelle Team Lotus réinstalle en 1987 sa suspension active (Keith Howard) : pour Andrew Frankel, le projet de la Lotus 92 n'a pas été vain ; la suspension Williams, elle, dérive d'un système routier d'Automotive Products."
     sources:
       - titre: "Motor Sport, Keith Howard, « Active suspension » (décembre 2001)"
         url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
@@ -918,7 +920,7 @@ contexte:
     annee: 1981
     categorie: "economie"
     titre: "Guerre FISA-FOCA et accords Concorde"
-    texte: "Pendant l'hiver 1980-1981, la FISA de Jean-Marie Balestre et l'association des constructeurs (FOCA) menée par Bernie Ecclestone s'affrontent, sur fond de querelle sur les jupes aérodynamiques ; la FOCA va jusqu'à annoncer un championnat dissident. Le premier accord Concorde y met fin, à une date qui varie selon les sources : signé le 19 janvier 1981 à Paris selon Dieter Rencken, il suit selon Mattijs Diepraam un accord de principe conclu à Maranello à la mi-janvier et n'est signé que le 11 mars ; Joe Saward le date lui aussi de mars 1981. La FIA garde le règlement, la FOCA obtient le droit exclusif de négocier avec les organisateurs, ce qui fixe le partage entre pouvoir sportif et revenus commerciaux ; pour Nigel Roebuck, c'était là le véritable enjeu de la guerre. Les équipes s'engagent aussi à disputer toutes les courses du championnat."
+    texte: "Pendant l'hiver 1980-1981, la FISA de Jean-Marie Balestre et l'association des constructeurs (FOCA) menée par Bernie Ecclestone s'affrontent, sur fond de querelle sur les jupes aérodynamiques ; la FOCA va jusqu'à annoncer un championnat dissident. Le premier accord Concorde y met fin, à une date qui varie selon les sources : signé le 19 janvier 1981 à Paris selon Dieter Rencken, il suit selon Mattijs Diepraam un accord de principe conclu à Maranello à la mi-janvier et n'est signé que le 11 mars ; Joe Saward le date lui aussi de mars 1981, Nigel Roebuck d'avril 1981. La FIA garde le règlement, la FOCA obtient le droit exclusif de négocier avec les organisateurs, ce qui fixe le partage entre pouvoir sportif et revenus commerciaux ; pour Nigel Roebuck, c'était là le véritable enjeu de la guerre. Les équipes s'engagent aussi à disputer toutes les courses du championnat."
     sources:
       - titre: "Motor Sport, Nigel Roebuck, « 1980s » (mai 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
@@ -934,7 +936,7 @@ contexte:
     annee: 1981
     categorie: "reglement"
     titre: "La fin des jupes"
-    texte: "Pour freiner l'effet de sol, dont l'appui devient imprévisible et disparaît quand une jupe se coince ou se brise, le règlement 1981 interdit les jupes et impose une garde au sol de 6cm. Balestre invoque la sécurité ; les équipes de la FOCA, sans turbo, y perdent leur principal avantage face à Ferrari, Renault et Alfa Romeo. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru, mais la Brabham BT49, qui s'abaisse en piste, est autorisée puis copiée. Les jupes, tolérées de nouveau en 1982 au prix de suspensions quasi rigides, disparaissent pour de bon avec le fond plat obligatoire de 1983."
+    texte: "Pour freiner l'effet de sol, dont l'appui devient imprévisible et disparaît quand une jupe se déloge ou se brise, le règlement 1981 interdit les jupes et impose une garde au sol de 6cm. Balestre invoque la sécurité ; les équipes de la FOCA, sans turbo, y perdent leur principal avantage face à Ferrari, Renault et Alfa Romeo. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru, mais la Brabham BT49, qui s'abaisse en piste, est autorisée puis copiée. Les jupes, tolérées de nouveau en 1982 au prix de suspensions quasi rigides, disparaissent pour de bon avec le fond plat obligatoire de 1983."
     liens:
       - jalon: "lotus-78"
         mecanisme: "provoque"
@@ -1025,6 +1027,8 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU"
       - titre: "Formula1.com, Mark Hughes, « TECH TUESDAY: The ground-breaking Brabham BT52 » (août 2018)"
         url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
+      - titre: "Motor Sport, Paul Fearnley, « F1's race to the flat bottom: how Brabham and McLaren saved their '83 season » (mai 2013)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
   - id: "quatre-roues-au-plus"
     annee: 1983
     categorie: "reglement"
@@ -1071,7 +1075,7 @@ contexte:
     annee: 1985
     categorie: "securite"
     titre: "Premier essai de choc obligatoire"
-    texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Vers 1998, l'essai porte sur un châssis complet et s'accompagne des premiers essais de charge statique. Les essais se multiplient ensuite (arceaux, structures latérales et arrière, panneaux anti-intrusion), souvent en réponse directe à un accident, et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants pour être homologuée. Pour Jo Bauer, délégué technique de la FIA, ces essais ont sauvé la vie de Robert Kubica au Grand Prix du Canada 2007."
+    texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Vers 1998, l'essai porte sur un châssis complet et s'accompagne des premiers essais de charge statique. Les essais se multiplient ensuite (arceaux, structures latérales et arrière, panneaux anti-intrusion), souvent en réponse directe à un accident, et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants. Pour Jo Bauer, délégué technique de la FIA, ces essais ont sauvé la vie de Robert Kubica au Grand Prix du Canada 2007."
     sources:
       - titre: "FIA, « Breaking the barriers of safety » (mai 2013)"
         url: "https://fia.com/node/5643"
@@ -1228,7 +1232,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "L'inerter de Malcolm Smith"
-    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston entraîne un volant d'inertie, qui tourne en proportion du déplacement relatif de ses deux points d'attache ; ce dispositif, avec les ressorts et les amortisseurs, réduit les oscillations. L'université détient le brevet et accorde à McLaren l'exclusivité en F1 ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
+    texte: "En 1997, Malcolm Smith, professeur à Cambridge, imagine l'inerter : un piston entraîne un volant d'inertie, qui tourne en proportion du déplacement relatif de ses deux points d'attache ; ce dispositif, avec les ressorts et les amortisseurs, réduit les oscillations. L'université, qui a déposé un brevet, accorde à McLaren un droit exclusif d'exploitation ; pour garder le secret, l'équipe l'appelle « J-damper ». Une licence à Penske Racing Shocks permet ensuite d'en fournir toutes les équipes."
     liens:
       - jalon: "inerter"
         mecanisme: "transfert"
@@ -1237,6 +1241,8 @@ contexte:
     sources:
       - titre: "Université de Cambridge, « Secrets of the inerter revealed » (août 2008)"
         url: "https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed"
+      - titre: "Malcolm Smith, « Control for Formula One! », dans T. Samad et A.M. Annaswamy (dir.), The Impact of Control Technology, IEEE Control Systems Society (2011)"
+        url: "https://IEEECSS.org/sites/ieeecss/files/2019-07/IoCT-Part2-14FormulaOne-LR.pdf"
   - id: "roues-retenues"
     annee: 1999
     categorie: "securite"
@@ -1480,7 +1486,7 @@ contexte:
     annee: 2021
     categorie: "economie"
     titre: "Le plafond budgétaire"
-    texte: "En 2021, un règlement financier rejoint pour la première fois les règlements sportif et technique, avec le même statut. Annoncé en octobre 2019 pour équilibrer le championnat et assurer la stabilité financière des équipes, il plafonne les dépenses annuelles qui touchent à la performance de la voiture, hors marketing, salaires des pilotes et des trois cadres les mieux payés. D'abord fixé à 175 millions de dollars, le plafond est ramené à 145 millions après la pandémie, puis à 140 et 135 millions ; les voitures 2020 sont reconduites en 2021. Le coût du développement devient lui-même une contrainte de conception."
+    texte: "En 2021, un règlement financier rejoint pour la première fois les règlements sportif et technique, avec le même statut. Annoncé en octobre 2019 pour équilibrer le championnat et assurer la stabilité financière des équipes, il plafonne les dépenses annuelles qui touchent à la performance de la voiture, hors marketing, salaires des pilotes et des trois cadres les mieux payés. D'abord fixé à 175 millions de dollars, le plafond est ramené à 145 millions après la pandémie, puis à 140 et 135 millions ; les voitures 2020 sont reconduites en 2021. Le développement de la voiture se fait désormais dans une enveloppe plafonnée."
     sources:
       - titre: "Formula 1, Lawrence Barretto, « The 2021 F1 cost cap explained – what has changed, and why? » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/the-2021-f1-cost-cap-explained-what-has-changed-and-why.5O1Te8udKLmkUl4PyVZtUJ"
@@ -1493,7 +1499,7 @@ contexte:
       - jalon: "inerter"
         mecanisme: "ferme"
         preuve: "etabli"
-        pourquoi: "Le règlement 2022 interdit les inerters, employés en course pour la première fois en 2005 et devenus courants en F1 après 2008 (université de Cambridge) ; l'interdiction est décrite par Mark Hughes et Giorgio Piola."
+        pourquoi: "Le règlement 2022 interdit les inerters, équipement standard de la F1 depuis une vingtaine d'années selon Mark Hughes et Giorgio Piola, qui datent leur première utilisation de 1997 (2005 selon l'université de Cambridge)."
       - jalon: "rb18"
         mecanisme: "ouvre"
         preuve: "etabli"

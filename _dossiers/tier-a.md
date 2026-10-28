@@ -29,13 +29,13 @@ Voir l'entrée [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapm
 
 ## N° 2 — John Barnard (95/100)
 
-Deux ruptures indépendantes, toutes deux devenues universelles. La **McLaren MP4/1 de 1981**, conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), est la première F1 à monocoque en composite carbone à courir en Grand Prix. La Lotus 88, elle aussi en carbone, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir. La **Ferrari 640 de 1989** introduit ensuite la boîte semi-automatique commandée au volant. Dans ce classement, c'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
+Deux ruptures indépendantes, toutes deux devenues universelles. La **McLaren MP4/1 de 1981**, conçue par Barnard entouré notamment de [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et d'[Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}), est la première F1 à monocoque en composite carbone à courir en Grand Prix. La Lotus 88, dont la monocoque en carbone suit d'autres techniques de construction selon Autosport, a roulé aux essais de Long Beach en mars 1981, avant les débuts en course de la MP4/1, mais n'a jamais été autorisée à courir. La **Ferrari 640 de 1989** introduit ensuite la boîte semi-automatique commandée au volant. Dans ce classement, c'est probablement le révolutionnaire dont la paternité personnelle est la plus nette.
 
 Voir l'entrée [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %})
 
 ## N° 3 — John Cooper (93,5/100)
 
-Le passage décisif du moteur avant au **moteur central-arrière** — une disposition que Cooper n'a pas inventée, mais qu'il a popularisée et rendue victorieuse — modifie d'un coup la répartition des masses, le moment polaire, la motricité, l'encombrement, le châssis et l'aérodynamique future. Après les titres Cooper de 1959 et 1960, le moteur avant devient obsolète. Le mérite est partagé avec [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}), chef designer de Cooper pendant ces deux titres.
+Le passage décisif du moteur avant au **moteur central-arrière** — une disposition que Cooper n'a pas inventée (les Auto Union d'avant-guerre l'employaient déjà), mais qu'il a popularisée et rendue victorieuse — modifie d'un coup la répartition des masses, le moment polaire, la motricité, l'encombrement, le châssis et l'aérodynamique future. Après les titres Cooper de 1959 et 1960, le moteur avant devient obsolète. Le mérite est partagé avec [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}), chef designer de Cooper pendant ces deux titres.
 
 Voir l'entrée [John Cooper]({{ site.baseurl }}{% link _ingenieurs/john-cooper.md %})
 
@@ -89,3 +89,6 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Motor Sport, John Tipler, « A new frame of reference » (mai 2002) : <https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/>
 - Goodwood, Andrew Frankel, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016) : <https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/>
 - Formula 1, « Newey embarks on his first official day at Aston Martin » (2025) : <https://www.formula1.com/en/latest/article/newey-embarks-on-his-first-official-day-at-aston-martin.2Y669PtuTnEZ5jg0nlIRsz.html>
+- Autosport, Gary Watkins, « The troubled story of F1's greatest racing car » (octobre 2020) : <https://www.autosport.com/f1/news/the-troubled-story-of-f1s-greatest-racing-car-5114448/5114448/>
+- Motor Sport Magazine, « Back to the future » (novembre 2017) : <https://www.motorsportmagazine.com/archive/article/november-2017/103/back-future/>
+- Autosport, « The soundtrack to a generation » : <https://www.autosport.com/general/news/the-soundtrack-to-a-generation-5078349/5078349/>

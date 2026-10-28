@@ -43,13 +43,15 @@
     - entrees: [keith-duckworth]
     - entrees: [andy-cowell]
       lien:
-        preuve: etabli
+        preuve: discute
         pourquoi: "Cowell se forme chez Cosworth, l'entreprise fondée par Duckworth et Costin : diplômé en 1991, il y entre par le programme des jeunes ingénieurs et travaille sur ses moteurs de F1 (formula1.com, université de Lancaster). Le lien passe par l'entreprise : aucune source ne dit qu'il a travaillé avec Duckworth lui-même."
         sources:
           - titre: "Lancaster University, « Alumni awards for outstanding graduates » (décembre 2016)"
             url: "https://www.lancaster.ac.uk/news/articles/2016/alumni-awards-for-outstanding-graduates/"
           - titre: "Formula 1, « Who is Andy Cowell? All you need to know about Aston Martin's new F1 team boss » (janvier 2025)"
             url: "https://www.formula1.com/en/latest/article/who-is-andy-cowell-all-you-need-to-know-about-aston-martins-new-f1-team-boss.7f971ZlBsULriL7Q00bX1m"
+          - titre: "GrandPrix.com, « Keith Duckworth » (nécrologie, 2005)"
+            url: "https://www.grandprix.com/ns/ns16050.html"
 - id: numerique
   nom: Numérique et contrôle
   etapes:
@@ -91,7 +93,7 @@
     - texte: "Mercedes 2014 (programme intégré)"
       lien:
         preuve: atteste
-        pourquoi: "Chez Mercedes, Brawn applique la méthode de la Benetton 1994 au programme 2014 : commencer tôt, un programme dédié et très intégré, avec un moteur conçu en phase avec le châssis (Ross Brawn, formula1.com). C'est le programme, pas la voiture : Brawn n'a pas conçu la W05."
+        pourquoi: "Chez Mercedes, Brawn applique la méthode de la Benetton 1994 au programme 2014 : commencer tôt, un programme dédié et très intégré, avec un motoriste, Andy Cowell, en phase avec le travail sur le châssis (Ross Brawn, formula1.com). C'est le programme, pas la voiture : Brawn, parti de Mercedes fin 2013, n'y était plus quand la W05 a couru."
         sources:
           - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (janvier 2026)"
             url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"

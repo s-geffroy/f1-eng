@@ -27,7 +27,7 @@ description: "The twenty with their scores, the technical lineages and the concl
 | 17 | [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %}) | D | 76.5 | Lancia D50, integrated architecture |
 | 18 | [Owen Maddock]({{ site.baseurl }}{% link _engineers/owen-maddock.md %}) | D | 75.5 | Chief designer at Cooper during the 1959 and 1960 titles |
 | 19 | [Paddy Lowe]({{ site.baseurl }}{% link _engineers/paddy-lowe.md %}) | D | 74.5 | Electronics and software of active suspension |
-| 20 | [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) | D | 73.5 | Chassis/aero integration, repeated performance |
+| 20 | [Rory Byrne]({{ site.baseurl }}{% link _engineers/rory-byrne.md %}) | D | 73.5 | Meticulous detail and aerodynamic efficiency, repeated performance |
 
 > The scores are a comparative instrument, not historical facts. A gap of 1 or 2 points should not be over-interpreted.
 
@@ -47,7 +47,7 @@ This table shows **intellectual lineages**, not master–pupil relationships. Wh
 
 - **Chapman**: multiple breakthroughs, through an accumulation of radical architectural changes.
 - **Barnard**: probably the clearest authorship, with two direct innovations that became universal.
-- **Newey**: the most durable adaptation, at the top of aerodynamics across several generations of regulations.
+- **Newey**: the most durable adaptation, with championship-winning cars at Williams, McLaren and Red Bull, across several generations of regulations.
 
 This ranking is not a one-dimensional scale of "genius". It ranks **historical capacities to shift the technical frontier of Formula 1**.
 
@@ -75,3 +75,4 @@ Consulted on 9 August 2026, rechecked on 26 October 2026. Facts taken from the e
 - Doug Nye, Goodwood, "The rise and fall of the single-seater Cooper": <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport Magazine, "The Lotus 49" (July 1967): <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
 - Motor Sport Magazine, "Lunch with… Frank Dernie": <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Autosport, "Interview with Rory Byrne": <https://www.autosport.com/general/news/interview-with-rory-byrne-5076767/5076767/>
