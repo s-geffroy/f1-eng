@@ -34,7 +34,7 @@ Robin Herd moved from aerospace to F1: he drew McLaren's first F1 car, then beca
 - **March 701 (1970).** Ten weeks separated the drawing board from the first shakedown{% include src.html n="4" %}. Simple out of necessity, the car took pole at its first race, in South Africa, with Jackie Stewart in a Ken Tyrrell-entered March, then won its second, in Spain{% include src.html n="2,4" %}.
 - **March 711 (1971).** Longer wheelbase, low-drag bodywork inspired by Frank Costin, raised front wing: Ronnie Peterson finished second in the championship{% include src.html n="4" %}.
 - **After F1.** Herd-designed Marches won several European F2 championships{% include src.html n="2" %}. In IndyCar, March won the Indianapolis 500 every year from 1983 to 1987{% include src.html n="2,3" %}; the 83C was the last he designed, the later cars being the work of [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}), whom Motor Sport says he helped bring on{% include src.html n="1,2" %}.
-- **A mentor.** He was an early mentor and the race engineer of drivers such as Ronnie Peterson, Niki Lauda and Vittorio Brambilla{% include src.html n="1" %}.
+- **A mentor.** Early in their careers, he was a mentor and race engineer to drivers such as Ronnie Peterson, Niki Lauda and Vittorio Brambilla{% include src.html n="1" %}.
 
 ## The March 721X: a minimal polar moment
 

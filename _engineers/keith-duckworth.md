@@ -61,7 +61,7 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 
 ## Why Tier A
 
-It is a double breakthrough. Technically, it popularised the stressed engine, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954{% include src.html n="7,10" %}; economically, the DFV, developed after Coventry Climax's withdrawal and at first exclusive to Lotus, then opened the gates of F1 to a horde of privateer teams{% include src.html n="4,5" %}. The make-up of the grid was redrawn as a result{% include src.html n="5" %}.
+It is a double breakthrough. Technically, it made the stressed engine widespread, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954{% include src.html n="7,10" %}; economically, the DFV, developed after Coventry Climax's withdrawal and at first exclusive to Lotus, then opened the gates of F1 to a horde of privateer teams{% include src.html n="4,5" %}. The make-up of the grid was redrawn as a result{% include src.html n="5" %}.
 
 ## Attribution
 

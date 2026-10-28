@@ -37,6 +37,8 @@ sources:
     url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
   - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+  - titre: "Formula 1, “Re-writing the F1 rulebook - Part 2: from driver aids to increased safety” (January 2017)"
+    url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
 consultation: "26 October 2026"
 image: "/assets/partage/en/voitures/williams-fw17b.jpg"
 ---
@@ -44,11 +46,11 @@ image: "/assets/partage/en/voitures/williams-fw17b.jpg"
 
 The FW17B was not a new car: it was the 1995 FW17 in its end-of-season form{% include src.html n="3" %}. According to Autosport, it received revised suspension and aerodynamics and a new gearbox{% include src.html n="3" %}. Its lasting contribution lay elsewhere, under the back of the car.
 
-The 1995 rules imposed a stepped floor: a raised step plane, 50mm above the reference plane on each side{% include src.html n="1,2,13" %}. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle{% include src.html n="1" %}. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur){% include src.html n="1" %}.
+The 1995 rules imposed a stepped floor: a raised step plane, 50mm above the reference plane on each side{% include src.html n="1,2,13" %}. Formula1.com, in its series on the history of the rules, gives a different height: the sides of the floor were raised by 25mm{% include src.html n="14" %}. [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) explained it to Motor Sport: unlike the reference plane, the wording did not require the step plane to run all the way to the rear axle{% include src.html n="1" %}. It could therefore stop at the edge of the rear wheel, which left a "grey area": you could cut above the reference plane and enlarge the exit of the [diffuser]({{ site.baseurl }}/en/glossary/#diffuseur){% include src.html n="1" %}.
 
 The FW17B's diffuser was accordingly undercut and ran up over the exhausts rather than beneath them{% include src.html n="1,2" %}. "The diffusers were very exit-limited," Newey explains: a larger exit draws far more air under the car{% include src.html n="1" %}. According to him, the solution appeared on the FW17B at Estoril, late in 1995{% include src.html n="1" %}. He expected it to be copied for 1996, having shown it at "the worst possible time"; his rivals did not{% include src.html n="1" %}.
 
-- **Engine**: Renault RS7 V10 of 3 litres, the capacity in force from 1995{% include src.html n="11,12" %}.
+- **Engine**: 3-litre Renault RS7 V10, the capacity in force from 1995{% include src.html n="11,12" %}.
 
 ## Who designed it
 

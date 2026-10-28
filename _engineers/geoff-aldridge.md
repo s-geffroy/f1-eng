@@ -29,7 +29,7 @@ image: "/assets/partage/en/geoff-aldridge.jpg"
 ---
 ## What he did
 
-Geoff Aldridge was a Team Lotus designer: he drew the Lotus 76 chassis, and the Forix database lists him among the designers of the Lotus 77, 79 and 80 (1979){% include src.html n="6,7" %}; OldRacingCars.com places him at Lotus from 1976 to 1979{% include src.html n="3" %}. On the **Lotus 79**, Motor Sport writes that he and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) were charged with turning [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s scheme for this 1978 [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car into metal{% include src.html n="1" %}.
+Geoff Aldridge was a Team Lotus draughtsman: he drew the Lotus 76 chassis, and the Forix database lists him among the designers of the Lotus 77, 79 and 80 (1979){% include src.html n="6,7" %}; OldRacingCars.com places him at Lotus from 1976 to 1979{% include src.html n="3" %}. On the **Lotus 79**, Motor Sport writes that he and [Martin Ogilvie]({{ site.baseurl }}{% link _engineers/martin-ogilvie.md %}) were charged with turning [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})'s scheme for this 1978 [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) car into metal{% include src.html n="1" %}.
 
 ## Career at Lotus
 

@@ -505,7 +505,7 @@ contexte:
     annee: 1940
     categorie: "technologie"
     titre: "The Mosquito's wing-mounted radiators"
-    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the inboard leading edges of the wings, on an aircraft designed for the smallest possible frontal area. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team wondered whether similar sidepods would produce downforce: a model section was tested upside down in the wind tunnel, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
+    texte: "The de Havilland Mosquito twin-engined aircraft first flew on 25 November 1940; its radiators were housed in the leading edges of the wings, between the fuselage and the engines, on an aircraft designed for the smallest possible frontal area. According to Motor Sport, Tony Rudd, a former Rolls-Royce aero engine man, remembered this installation when Lotus was looking for where to put the radiators of the future Lotus 78: buried in ducts, with the air exiting further back. The team wondered whether similar sidepods would produce downforce: a model section was tested upside down in the wind tunnel, and Imperial College sent word at Christmas: \"The Mosquito flies\"."
     liens:
       - jalon: "lotus-78"
         mecanisme: "transfert"
@@ -843,8 +843,6 @@ contexte:
         preuve: "etabli"
         pourquoi: "By entering the turbo in 1977, Renault and Elf gave themselves the means for the Dijon win two years later, despite the early failures."
     sources:
-      - titre: "Renault, The Originals, “Renault RS01” (undated page)"
-        url: "https://theoriginals.renault.com/en/f1-rs-01"
       - titre: "Motor Sport, Nigel Roebuck, “1980s” (May 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
       - titre: "Motor Sport Magazine, “Teapots, turbos and titles: Renault's wild F1 ride” (December 2025)"

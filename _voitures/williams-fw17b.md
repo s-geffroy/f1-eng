@@ -37,6 +37,8 @@ sources:
     url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
+  - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (janvier 2017)"
+    url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
 consultation: "26 octobre 2026"
 image: "/assets/partage/voitures/williams-fw17b.jpg"
 ---
@@ -44,7 +46,7 @@ image: "/assets/partage/voitures/williams-fw17b.jpg"
 
 La FW17B n'est pas une voiture nouvelle : c'est la FW17 de 1995 dans sa version de fin de saison{% include src.html n="3" %}. Selon Autosport, elle reçoit une suspension et une aérodynamique revues, ainsi qu'une nouvelle boîte de vitesses{% include src.html n="3" %}. Son apport durable est ailleurs, sous l'arrière de la voiture.
 
-Le règlement de 1995 impose un fond à marche : une surface en gradin, placée 50mm au-dessus du plan de référence de chaque côté{% include src.html n="1,2,13" %}. [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) le raconte à Motor Sport : contrairement au plan de référence, le texte n'oblige pas ce plan à marche à aller jusqu'à l'essieu arrière{% include src.html n="1" %}. Il peut donc s'arrêter au bord de la roue arrière, ce qui laisse une « zone grise » : on peut découper au-dessus du plan de référence et agrandir la sortie du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur){% include src.html n="1" %}.
+Le règlement de 1995 impose un fond à marche : une surface en gradin, placée 50mm au-dessus du plan de référence de chaque côté{% include src.html n="1,2,13" %}. Formula1.com, dans sa série sur l'histoire du règlement, donne une autre hauteur : les côtés du plancher sont relevés de 25mm{% include src.html n="14" %}. [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) le raconte à Motor Sport : contrairement au plan de référence, le texte n'oblige pas ce plan à marche à aller jusqu'à l'essieu arrière{% include src.html n="1" %}. Il peut donc s'arrêter au bord de la roue arrière, ce qui laisse une « zone grise » : on peut découper au-dessus du plan de référence et agrandir la sortie du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur){% include src.html n="1" %}.
 
 Le diffuseur de la FW17B est ainsi creusé et remonte au-dessus des échappements au lieu de passer dessous{% include src.html n="1,2" %}. « Les diffuseurs étaient très limités par leur sortie », explique Newey : une sortie plus grande fait passer beaucoup plus d'air sous la voiture{% include src.html n="1" %}. Selon lui, la solution apparaît sur la FW17B à Estoril, fin 1995{% include src.html n="1" %}. Il s'attendait à la voir copiée pour 1996, l'ayant montrée au « pire moment possible » ; ses rivaux ne l'ont pas fait{% include src.html n="1" %}.
 
