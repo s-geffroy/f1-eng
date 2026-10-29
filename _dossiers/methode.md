@@ -14,6 +14,13 @@ Quatre confusions sont à éviter d'emblée :
 - l'**invention** n'est pas la **diffusion** ;
 - la **direction technique** n'est pas la **paternité personnelle**.
 
+
+Sommaire
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## La pondération
 
 Chaque ingénieur reçoit une note sur 100, construite à partir de cinq critères :

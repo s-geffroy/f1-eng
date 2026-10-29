@@ -67,7 +67,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title | default: T.nom_site | escape }}">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":{% if og_type == "article" %}"Article"{% else %}"WebPage"{% endif %},"headline":{{ page.title | default: T.nom_site | jsonify }},"description":{{ desc | jsonify }},"inLanguage":{{ lang | jsonify }},"url":{{ page.url | absolute_url | jsonify }},{% if img %}"image":{{ img | absolute_url | jsonify }},{% endif %}"author":{"@type":"Person","name":{{ site.author | jsonify }}},"isPartOf":{"@type":"WebSite","name":{{ T.nom_site | jsonify }},"url":{{ T.nav[0].url | absolute_url | jsonify }}}}
+  {"@context":"https://schema.org","@type":{% if og_type == "article" %}"Article"{% else %}"WebPage"{% endif %},"headline":{{ page.title | default: T.nom_site | jsonify }},"description":{{ desc | jsonify }},"inLanguage":{{ lang | jsonify }},"url":{{ page.url | absolute_url | jsonify }},{% if img %}"image":{{ img | absolute_url | jsonify }},{% endif %}"author":{"@type":"Person","name":{{ site.author | jsonify }}},"isPartOf":{"@type":"WebSite","name":{{ T.nom_site | jsonify }},"url":{{ T.url.accueil | absolute_url | jsonify }}}}
   </script>
 </head>
 <body>

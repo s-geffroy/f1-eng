@@ -9,9 +9,27 @@ description: "Seventy-six seasons of official results to identify the periods of
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
+{%- assign EJ = H.etude_jalons -%}
+{%- assign IA = H.ingenieurs_apparies -%}
+{%- assign RB = H.rebat -%}
+{%- assign AM = H.amont -%}
 The [ranking]({{ site.baseurl }}/en/features/methode/) of engineers refuses to measure influence by results. This feature asks the opposite question: **do the innovations on the [timeline]({{ site.baseurl }}/en/timeline/) show up in the results?** To answer it, we first need to know when a team, a driver or an engine maker truly dominated. These periods are then set against three things: technical milestones, engineers' arrivals and departures, and regulation changes.
 
 The figures come from Formula 1's official results: the winner of each of the {{ P.gp }} championship Grands Prix held from 1950 to 2025, and the final drivers' and constructors' standings. A win shared between two drivers (France 1951, Argentina 1956, Britain 1957) counts as a single race, credited to both. The figures are computed by a program, not copied by hand. The champions derived from them match, season by season, those on the [team pages]({{ site.baseurl }}/en/teams/).
+
+## The essentials
+
+- **An innovation pays, but not for long.** The innovating team goes on average from {{ EJ.jalons[2] | times: 100 | round }}% to {{ EJ.jalons[4] | times: 100 | round }}% of wins. It returns to its starting level within four seasons.
+- **The innovations that open a hegemony almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
+- **Banning an innovation does not topple the dominant team.**
+- **The arrival of a Tier A engineer precedes a rise {{ IA[1].hausse }} times out of {{ IA[1].n }}**, where a comparable team would see only {{ IA[1].hausse_attendue }}. A departure changes nothing.
+- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. It is a clue, not proof. Yet such changes do not create a hegemony more often.
+
+Contents
+{:.sommaire-titre}
+
+* TOC
+{:toc}
 
 ## What we call a hegemony
 
@@ -74,10 +92,6 @@ Red Bull's power unit from 2021 to 2023 is counted under the name **Honda**. The
 
 ## Innovations and results: four comparisons
 
-{%- assign EJ = H.etude_jalons -%}
-{%- assign IA = H.ingenieurs_apparies -%}
-{%- assign RB = H.rebat -%}
-{%- assign AM = H.amont %}
 
 Hegemonies tell us who won. The question is what innovations change. Four questions are put to the data here:
 
@@ -86,13 +100,7 @@ Hegemonies tell us who won. The question is what innovations change. Four questi
 3. Does a team win more after an engineer arrives?
 4. Does a regulation change reshuffle the pack?
 
-**In short:**
-
-- **An innovation pays, but not for long.** The innovating team goes on average from {{ EJ.jalons[2] | times: 100 | round }}% to {{ EJ.jalons[4] | times: 100 | round }}% of wins. It returns to its starting level within four seasons.
-- **The innovations that open a hegemony almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
-- **Banning an innovation does not topple the dominant team.**
-- **The arrival of a Tier A engineer precedes a rise {{ IA[1].hausse }} times out of {{ IA[1].n }}**, where a comparable team would see only {{ IA[1].hausse_attendue }}. A departure changes nothing.
-- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. It is a clue, not proof. Yet such changes do not create a hegemony more often.
+The answers are summarised [at the top of the page](#the-essentials).
 
 ### Method
 

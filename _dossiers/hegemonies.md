@@ -9,9 +9,27 @@ description: "Soixante-seize saisons de résultats officiels pour repérer les p
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
+{%- assign EJ = H.etude_jalons -%}
+{%- assign IA = H.ingenieurs_apparies -%}
+{%- assign RB = H.rebat -%}
+{%- assign AM = H.amont -%}
 Le [classement]({{ site.baseurl }}/dossiers/methode/) des ingénieurs refuse de mesurer l'influence à l'aune du palmarès. Ce dossier pose la question inverse : **les innovations de la [chronologie]({{ site.baseurl }}/chronologie/) se voient-elles dans les résultats ?** Pour y répondre, il faut d'abord savoir quand une écurie, un pilote ou un motoriste a vraiment dominé. On confronte ensuite ces périodes à trois choses : les jalons techniques, les arrivées et les départs d'ingénieurs, et les changements de règlement.
 
 Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de chacun des {{ P.gp }} Grands Prix de championnat disputés de 1950 à 2025, et les classements finaux des pilotes et des constructeurs. Une victoire partagée entre deux pilotes (France 1951, Argentine 1956, Grande-Bretagne 1957) compte pour une seule course, créditée aux deux. Les chiffres sont recalculés par un programme, pas recopiés à la main. Les champions qu'on en tire concordent, saison par saison, avec ceux des [fiches des écuries]({{ site.baseurl }}/ecuries/).
+
+## L'essentiel
+
+- **Une innovation rapporte, mais pas longtemps.** L'écurie qui innove passe en moyenne de {{ EJ.jalons[2] | times: 100 | round }} % à {{ EJ.jalons[4] | times: 100 | round }} % des victoires. Elle revient à son niveau de départ en quatre saisons.
+- **Les innovations qui ouvrent une hégémonie répondent presque toutes à un nouveau règlement** : {{ AM.ouvrants_regle }} sur {{ AM.ouvrants }}.
+- **Interdire une innovation ne renverse pas l'écurie qui domine.**
+- **L'arrivée d'un ingénieur du Tier A précède une hausse {{ IA[1].hausse }} fois sur {{ IA[1].n }}**, quand une écurie comparable n'en connaîtrait que {{ IA[1].hausse_attendue | replace: ".", "," }}. Un départ, lui, ne change rien.
+- **Les nouveaux règlements semblent bousculer la hiérarchie** : lors des saisons où un changement de règlement s'applique, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. C'est un indice, pas une preuve. Ces changements ne créent pas pour autant plus souvent une hégémonie.
+
+Sommaire
+{:.sommaire-titre}
+
+* TOC
+{:toc}
 
 ## Ce qu'on appelle une hégémonie
 
@@ -74,10 +92,6 @@ Le groupe propulseur de Red Bull, de 2021 à 2023, est compté sous le nom de **
 
 ## Innovations et résultats : quatre confrontations
 
-{%- assign EJ = H.etude_jalons -%}
-{%- assign IA = H.ingenieurs_apparies -%}
-{%- assign RB = H.rebat -%}
-{%- assign AM = H.amont %}
 
 Les hégémonies disent qui a gagné. Reste à savoir ce que les innovations y changent. On pose ici quatre questions aux données :
 
@@ -86,13 +100,7 @@ Les hégémonies disent qui a gagné. Reste à savoir ce que les innovations y c
 3. Une écurie gagne-t-elle davantage après l'arrivée d'un ingénieur ?
 4. Un changement de règlement rebat-il les cartes ?
 
-**En bref :**
-
-- **Une innovation rapporte, mais pas longtemps.** L'écurie qui innove passe en moyenne de {{ EJ.jalons[2] | times: 100 | round }} % à {{ EJ.jalons[4] | times: 100 | round }} % des victoires. Elle revient à son niveau de départ en quatre saisons.
-- **Les innovations qui ouvrent une hégémonie répondent presque toutes à un nouveau règlement** : {{ AM.ouvrants_regle }} sur {{ AM.ouvrants }}.
-- **Interdire une innovation ne renverse pas l'écurie qui domine.**
-- **L'arrivée d'un ingénieur du Tier A précède une hausse {{ IA[1].hausse }} fois sur {{ IA[1].n }}**, quand une écurie comparable n'en connaîtrait que {{ IA[1].hausse_attendue | replace: ".", "," }}. Un départ, lui, ne change rien.
-- **Les nouveaux règlements semblent bousculer la hiérarchie** : lors des saisons où un changement de règlement s'applique, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. C'est un indice, pas une preuve. Ces changements ne créent pas pour autant plus souvent une hégémonie.
+Les réponses sont résumées [en tête de page](#lessentiel).
 
 ### Méthode
 

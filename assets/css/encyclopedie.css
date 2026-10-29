@@ -122,6 +122,20 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 /* Graphiques des dossiers (SVG en ligne, générés par outils/hegemonies.py) */
 .texte .figure { margin: 1.5em 0; padding: 0.75rem 0.75rem 0.5rem; background: var(--feuille); border: var(--trait-fort) solid var(--graphite); }
 .texte .figure svg { display: block; width: 100%; height: auto; }
+/* liens du texte courant : soulignés en encre secondaire, repérables dans un paragraphe dense */
+.texte a { text-decoration-color: var(--mine); }
+/* prose des dossiers : lignes d'environ 80 signes ; tableaux, figures et sommaire gardent toute la largeur */
+.dossier .texte > p, .dossier .texte > ul, .dossier .texte > ol, .dossier .texte > blockquote { max-width: 80ch; }
+/* tableaux générés (dossier Hégémonies) : le défilement est porté par l'enveloppe, le tableau garde sa sémantique */
+.texte .table-defil { overflow-x: auto; margin: 1.5em 0; }
+.texte .table-defil table { display: table; margin: 0; }
+.texte .table-defil:focus-visible { outline-offset: 2px; }
+.texte caption { caption-side: top; text-align: left; padding: 0.4em 0.7em; font-family: var(--titre); font-weight: 600; font-size: 1rem; border-bottom: var(--trait-fin) solid var(--trait); }
+/* sommaire des dossiers (kramdown {:toc}) */
+.sommaire-titre { font-family: var(--titre); font-weight: 600; font-size: 1.125rem; margin-bottom: 0.25em !important; }
+#markdown-toc { background: var(--feuille); border: var(--trait-fin) solid var(--trait); padding: 0.75rem 1rem 0.75rem 2rem; max-width: 46rem; font-family: var(--titre); font-size: 1.0625rem; }
+#markdown-toc ul { margin: 0.2em 0 0; padding-left: 1.1em; font-size: 0.9375rem; }
+#markdown-toc li { margin-bottom: 0.15em; }
 .texte .figure figcaption { margin-top: 0.4rem; font-family: var(--titre); font-size: 0.9375rem; line-height: 1.4; color: var(--mine); }
 .texte details { margin: 1em 0; }
 .texte details summary { cursor: pointer; font-family: var(--titre); font-weight: 600; }
@@ -1028,6 +1042,10 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   .chaine { flex-direction: column; }
   .chaine li + li { margin: 1.75rem 0 0; }
   .chaine li + li::before { content: "↓"; left: 0.9rem; top: -1.6rem; transform: none; }
+  /* graphiques des dossiers : lisibles en faisant défiler plutôt que réduits à 8 px */
+  .texte .figure { overflow-x: auto; }
+  .texte .figure svg { min-width: 32rem; }
+  .genealogie-defilement { max-height: 70vh; }
 }
 
 @media print {
@@ -1035,3 +1053,12 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   header.site nav, .suite, .evitement { display: none; }
   .cartouche { position: static; }
 }
+
+/* cartes : la liste des sites, alternative au survol (tactile, lecteurs d'écran) */
+.carte-liste { margin-top: 0.5rem; font-size: 0.9375rem; }
+.carte-liste summary { cursor: pointer; font-family: var(--titre); font-weight: 600; }
+.carte-liste ul { margin: 0.4rem 0 0; padding-left: 1.1em; max-height: 20rem; overflow-y: auto; }
+.carte-liste li { margin-bottom: 0.25em; }
+
+/* lien d'évitement interne à une page (chronologie) : apparaît à sa place au focus */
+.evitement-local:focus { position: static; display: inline-block; margin-bottom: 0.5rem; }

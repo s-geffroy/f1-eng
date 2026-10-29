@@ -7,6 +7,13 @@ redirect_from: "/classement/2026/10/25/tier-a-ingenieurs-revolutionnaires-f1.htm
 ---
 Le Tier A réunit des **révolutionnaires de paradigme**. Leur dossier partage plusieurs traits : une modification durable de la grammaire technique de la F1, un « avant / après » net, une diffusion à tout le plateau, une contribution personnelle identifiable au sein de réalisations souvent collectives, et un impact qui dépasse une seule voiture ou un seul règlement.
 
+
+Sommaire
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## Cinq questions transformées
 
 Plutôt qu'un simple rang, chaque membre du Tier A peut être associé à une question fondamentale :

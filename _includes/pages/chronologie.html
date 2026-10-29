@@ -45,6 +45,7 @@
     <span class="frise-bandes-note">{{ T.chrono.bande_texte }} <a href="{{ T.url.ecuries | relative_url }}">{{ T.ecuries.titre_page | downcase }}</a>.</span>
   </div>
 
+  <a class="evitement evitement-local" href="#titre-jalons">{{ T.chrono.passer_frise }}</a>
   <div class="frise-defilement">
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
       <p class="frise-zone frise-zone-haut" aria-hidden="true">{{ T.chrono.innovations }}</p>
@@ -101,7 +102,7 @@
       <p class="frise-invite" id="frise-invite" hidden>{{ T.chrono.invite }}</p>
     </div>
     {%- comment -%} bande des écuries et des voitures : même axe, même défilement que la frise {%- endcomment %}
-    <div class="frise-bande-ecuries" aria-label="{{ T.chrono.bande_titre }}">
+    <div class="frise-bande-ecuries" role="group" aria-label="{{ T.chrono.bande_titre }}">
       <p class="frise-zone" aria-hidden="true">{{ T.chrono.bande_ecuries }}</p>
       {% include frise-ecuries.html debut=debut fin=fin selection="principales" %}
     </div>

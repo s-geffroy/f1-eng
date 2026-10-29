@@ -13,6 +13,13 @@ Four confusions must be avoided from the outset:
 - **invention** is not **diffusion**;
 - **technical direction** is not **personal authorship**.
 
+
+Contents
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## The weighting
 
 Each engineer receives a score out of 100, built from five criteria:

@@ -6,6 +6,13 @@ description: "The five engineers who changed the grammar of F1, and the Chapman 
 ---
 Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear "before / after", diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
 
+
+Contents
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## Five questions transformed
 
 Rather than a simple rank, each member of Tier A can be associated with a fundamental question:

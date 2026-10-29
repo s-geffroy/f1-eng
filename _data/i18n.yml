@@ -33,16 +33,15 @@ fr:
     partage: "/assets/partage/"
   nom_site: "Ingénieurs et écuries de la F1"
   nav:
-    - { url: "/", nom: "Accueil" }
     - { url: "/ingenieurs/", nom: "Ingénieurs" }
     - { url: "/ecuries/", nom: "Écuries" }
-    - { url: "/cartes/", nom: "Cartes" }
     - { url: "/voitures/", nom: "Voitures" }
     - { url: "/chronologie/", nom: "Chronologie" }
+    - { url: "/dossiers/", nom: "Dossiers" }
+    - { url: "/cartes/", nom: "Cartes" }
     - { url: "/lignees/", nom: "Lignées" }
     - { url: "/tiers/", nom: "Tiers" }
     - { url: "/glossaire/", nom: "Glossaire" }
-    - { url: "/dossiers/", nom: "Dossiers" }
     - { url: "/recherche/", nom: "Recherche" }
   pied_avant: "Classement établi selon une"
   pied_lien: "méthode explicite"
@@ -155,6 +154,7 @@ fr:
     hegemonies: "Hégémonies"
     voir_hegemonies: "Quelles écuries ont dominé leur époque, et ce que les innovations y ont changé :"
     voir_hegemonies_lien: "le dossier Hégémonies"
+    carte_liste: "Les sites de cette carte, en liste"
     dates: "Dates"
     sources: "Sources"
     legende: "Passage d'un nom au suivant :"
@@ -255,6 +255,7 @@ fr:
     suiv: "Suivant"
     fermer: "Fermer"
     tous: "Tous les jalons"
+    passer_frise: "Passer la frise : aller à la liste des jalons"
     tous_contexte: "Tous les événements de contexte"
     ingenieurs: "Ingénieurs"
     glossaire: "Glossaire"
@@ -315,6 +316,17 @@ fr:
     sans_photo: "Pas de photo libre connue"
   hegemonies:
     entite: "Qui"
+    cap_ecurie: "Hégémonies des écuries, par nom d'écurie"
+    cap_lignee: "Hégémonies des lignées : une même usine sous plusieurs noms"
+    cap_pilote: "Hégémonies des pilotes"
+    cap_motoriste: "Hégémonies des motoristes"
+    cap_jalons: "Jalons rattachés à une écurie : part des victoires avant et après"
+    cap_racines: "Au début de chaque hégémonie d'écurie : ingénieurs présents, jalons et règlements"
+    cap_ingenieurs: "Arrivées et départs d'ingénieurs : bilan"
+    cap_ingenieurs_detail: "Arrivées et départs d'ingénieurs, un par un"
+    cap_voies: "Jalons par voie technique"
+    cap_chaines_ouvre: "Chaînes sourcées : un événement ouvre ou transfère une innovation"
+    cap_chaines_ferme: "Chaînes sourcées : un règlement ferme une innovation"
     periode: "Période"
     dominantes: "Saisons dominantes"
     titres: "Titres"
@@ -394,16 +406,15 @@ en:
     partage: "/assets/partage/en/"
   nom_site: "Engineers and Teams of F1"
   nav:
-    - { url: "/en/", nom: "Home" }
     - { url: "/en/engineers/", nom: "Engineers" }
     - { url: "/en/teams/", nom: "Teams" }
-    - { url: "/en/maps/", nom: "Maps" }
     - { url: "/en/cars/", nom: "Cars" }
     - { url: "/en/timeline/", nom: "Timeline" }
+    - { url: "/en/features/", nom: "Features" }
+    - { url: "/en/maps/", nom: "Maps" }
     - { url: "/en/lineages/", nom: "Lineages" }
     - { url: "/en/tiers/", nom: "Tiers" }
     - { url: "/en/glossary/", nom: "Glossary" }
-    - { url: "/en/features/", nom: "Features" }
     - { url: "/en/search/", nom: "Search" }
   pied_avant: "Ranking built with an"
   pied_lien: "explicit method"
@@ -516,6 +527,7 @@ en:
     hegemonies: "Hegemonies"
     voir_hegemonies: "Which teams dominated their era, and what innovations changed:"
     voir_hegemonies_lien: "the Hegemonies feature"
+    carte_liste: "The sites on this map, as a list"
     dates: "Dates"
     sources: "Sources"
     legende: "Change from one name to the next:"
@@ -616,6 +628,7 @@ en:
     suiv: "Next"
     fermer: "Close"
     tous: "All milestones"
+    passer_frise: "Skip the chart: go to the list of milestones"
     tous_contexte: "All context events"
     ingenieurs: "Engineers"
     glossaire: "Glossary"
@@ -676,6 +689,17 @@ en:
     sans_photo: "No freely licensed photo known"
   hegemonies:
     entite: "Who"
+    cap_ecurie: "Team hegemonies, by team name"
+    cap_lignee: "Lineage hegemonies: one factory under several names"
+    cap_pilote: "Driver hegemonies"
+    cap_motoriste: "Engine maker hegemonies"
+    cap_jalons: "Milestones attached to a team: share of wins before and after"
+    cap_racines: "At the start of each team hegemony: engineers present, milestones and regulations"
+    cap_ingenieurs: "Engineers' arrivals and departures: summary"
+    cap_ingenieurs_detail: "Engineers' arrivals and departures, one by one"
+    cap_voies: "Milestones by technical track"
+    cap_chaines_ouvre: "Sourced chains: an event opens or transfers an innovation"
+    cap_chaines_ferme: "Sourced chains: a regulation closes an innovation"
     periode: "Period"
     dominantes: "Dominant seasons"
     titres: "Titles"

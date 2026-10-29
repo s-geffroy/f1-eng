@@ -10,8 +10,10 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 {%- assign url_c_h = T_h.url.chronologie | relative_url -%}
 
 {%- if include.quoi == "tableau" -%}
-<table>
-  <thead><tr><th>{{ L_h.entite }}</th><th>{{ L_h.periode }}</th><th>{{ L_h.dominantes }}</th><th>{{ L_h.titres }}</th><th>{{ L_h.victoires }}</th><th>{{ L_h.record }}</th><th>{% if include.unite == "ecurie" or include.unite == "lignee" %}{{ L_h.associes_moteur }}{% else %}{{ L_h.associes_ecurie }}{% endif %}</th><th>{{ L_h.robuste }}</th></tr></thead>
+{%- assign cle_h = "cap_" | append: include.unite -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h[cle_h] }}"><table>
+<caption>{{ L_h[cle_h] }}</caption>
+  <thead><tr><th scope="col">{{ L_h.entite }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.record }}</th><th scope="col">{% if include.unite == "ecurie" or include.unite == "lignee" %}{{ L_h.associes_moteur }}{% else %}{{ L_h.associes_ecurie }}{% endif %}</th><th scope="col">{{ L_h.robuste }}</th></tr></thead>
   <tbody>
   {%- for h in H_h.hegemonies[include.unite] %}
     <tr>
@@ -41,7 +43,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
     </tr>
   {%- endfor %}
   </tbody>
-</table>
+</table></div>
 
 {%- elsif include.quoi == "courtes" -%}
 {%- for h in H_h.courtes[include.unite] -%}
@@ -52,8 +54,9 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 {%- endfor -%}
 
 {%- elsif include.quoi == "jalons" -%}
-<table>
-  <thead><tr><th>{{ L_h.annee }}</th><th>{{ L_h.jalon }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.avant }}</th><th>{{ L_h.apres }}</th><th>{{ L_h.statut }}</th></tr></thead>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_jalons }}"><table>
+<caption>{{ L_h.cap_jalons }}</caption>
+  <thead><tr><th scope="col">{{ L_h.annee }}</th><th scope="col">{{ L_h.jalon }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.avant }}</th><th scope="col">{{ L_h.apres }}</th><th scope="col">{{ L_h.statut }}</th></tr></thead>
   <tbody>
   {%- for j in H_h.jalons %}
     {%- assign jj_h = D_h.chronologie.jalons | where: "id", j.jalon | first -%}
@@ -68,11 +71,12 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
     </tr>
   {%- endfor %}
   </tbody>
-</table>
+</table></div>
 
 {%- elsif include.quoi == "racines" -%}
-<table>
-  <thead><tr><th>{{ L_h.hegemonie }}</th><th>{{ L_h.ingenieurs }}</th><th>{{ L_h.jalons }}</th><th>{{ L_h.regle_debut }}</th><th>{{ L_h.regle_fin }}</th></tr></thead>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_racines }}"><table>
+<caption>{{ L_h.cap_racines }}</caption>
+  <thead><tr><th scope="col">{{ L_h.hegemonie }}</th><th scope="col">{{ L_h.ingenieurs }}</th><th scope="col">{{ L_h.jalons }}</th><th scope="col">{{ L_h.regle_debut }}</th><th scope="col">{{ L_h.regle_fin }}</th></tr></thead>
   <tbody>
   {%- for h in H_h.hegemonies.ecurie %}{%- if h.id %}
     {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}
@@ -98,12 +102,13 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
     </tr>
   {%- endif %}{%- endfor %}
   </tbody>
-</table>
+</table></div>
 
 {%- elsif include.quoi == "ingenieurs" -%}
 {%- assign B_h = H_h.bilan_ingenieurs -%}
-<table>
-  <thead><tr><th>{{ L_h.mouvement }}</th><th>{{ L_h.nombre }}</th><th>{{ L_h.hausse }}</th><th>{{ L_h.stable }}</th><th>{{ L_h.baisse }}</th></tr></thead>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs }}"><table>
+<caption>{{ L_h.cap_ingenieurs }}</caption>
+  <thead><tr><th scope="col">{{ L_h.mouvement }}</th><th scope="col">{{ L_h.nombre }}</th><th scope="col">{{ L_h.hausse }}</th><th scope="col">{{ L_h.stable }}</th><th scope="col">{{ L_h.baisse }}</th></tr></thead>
   <tbody>
     {%- assign types_h = "arrivee,depart" | split: "," -%}
     {%- for t in types_h %}
@@ -114,33 +119,36 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
     {%- assign st_h = b_h.n | minus: b_h.hausse | minus: b_h.baisse -%}
     <tr><td><em>{{ L_h.temoin }}</em></td><td>{{ b_h.n }}</td><td>{{ b_h.hausse }} ({{ b_h.hausse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td><td>{{ st_h }}</td><td>{{ b_h.baisse }} ({{ b_h.baisse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td></tr>
   </tbody>
-</table>
+</table></div>
 <details>
   <summary>{{ L_h.detail }}</summary>
-  <table>
-    <thead><tr><th>{{ L_h.annee }}</th><th>{{ L_h.ingenieur }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.mouvement }}</th><th>{{ L_h.avant_court }}</th><th>{{ L_h.apres_court }}</th></tr></thead>
+  <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs_detail }}"><table>
+<caption>{{ L_h.cap_ingenieurs_detail }}</caption>
+    <thead><tr><th scope="col">{{ L_h.annee }}</th><th scope="col">{{ L_h.ingenieur }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.mouvement }}</th><th scope="col">{{ L_h.avant_court }}</th><th scope="col">{{ L_h.apres_court }}</th></tr></thead>
     <tbody>
     {%- for m in H_h.ingenieurs %}
       {%- assign e_h = D_h.ecuries.ecuries | where: "id", m.ecurie | first -%}
       <tr><td>{{ m.annee }}</td><td>{% include lien-entree.html id=m.ingenieur %}</td><td><a href="{{ url_e_h }}{{ m.ecurie }}/">{{ e_h.nom }}</a></td><td>{{ L_h[m.type] }}</td><td>{{ m.avant | times: 100 | round }}{{ pc_h }}</td><td>{{ m.apres | times: 100 | round }}{{ pc_h }}</td></tr>
     {%- endfor %}
     </tbody>
-  </table>
+  </table></div>
 </details>
 {%- elsif include.quoi == "voies" -%}
-<table>
-  <thead><tr><th>{{ L_h.voie }}</th><th>{{ L_h.nombre }}</th><th>{{ L_h.gain }}</th><th>{{ L_h.hausse }}</th><th>{{ L_h.statut_ouvre_court }}</th></tr></thead>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_voies }}"><table>
+<caption>{{ L_h.cap_voies }}</caption>
+  <thead><tr><th scope="col">{{ L_h.voie }}</th><th scope="col">{{ L_h.nombre }}</th><th scope="col">{{ L_h.gain }}</th><th scope="col">{{ L_h.hausse }}</th><th scope="col">{{ L_h.statut_ouvre_court }}</th></tr></thead>
   <tbody>
   {%- for v in H_h.voies %}
     {%- assign vv_h = D_h.chronologie.voies | where: "id", v.voie | first -%}
     <tr><td>{{ vv_h.nom }}</td><td>{{ v.n }}</td><td>{% if v.gain >= 0 %}+{% endif %}{{ v.gain | times: 100 | round }}{{ L_h.points }}</td><td>{{ v.hausses }}</td><td>{{ v.ouvre }}</td></tr>
   {%- endfor %}
   </tbody>
-</table>
+</table></div>
 
 {%- elsif include.quoi == "chaines" -%}
-<table>
-  <thead><tr><th>{{ L_h.evenement }}</th><th>{{ L_h.lien }}</th><th>{{ L_h.jalon }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.avant_court }}</th><th>{{ L_h.apres_court }}</th><th>{{ L_h.statut }}</th></tr></thead>
+<div class="table-defil" role="region" tabindex="0" aria-label="{% if include.ferme == "oui" %}{{ L_h.cap_chaines_ferme }}{% else %}{{ L_h.cap_chaines_ouvre }}{% endif %}"><table>
+<caption>{% if include.ferme == "oui" %}{{ L_h.cap_chaines_ferme }}{% else %}{{ L_h.cap_chaines_ouvre }}{% endif %}</caption>
+  <thead><tr><th scope="col">{{ L_h.evenement }}</th><th scope="col">{{ L_h.lien }}</th><th scope="col">{{ L_h.jalon }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.avant_court }}</th><th scope="col">{{ L_h.apres_court }}</th><th scope="col">{{ L_h.statut }}</th></tr></thead>
   <tbody>
   {%- for c in H_h.chaines %}
     {%- if c.mecanisme == "ferme" -%}{%- assign f_h = "oui" -%}{%- else -%}{%- assign f_h = "non" -%}{%- endif -%}
@@ -161,5 +169,5 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
     </tr>
   {%- endif %}{%- endfor %}
   </tbody>
-</table>
+</table></div>
 {%- endif -%}

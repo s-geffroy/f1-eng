@@ -10,6 +10,13 @@ Les récits de la F1 aggravent le risque. Ils sont souvent écrits après coup, 
 
 Ce texte explique comment la chronologie relie un événement à une innovation : quels tests un lien doit passer, quels mécanismes elle distingue, et comment elle affiche le degré de certitude.
 
+
+Sommaire
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## Cinq tests pour un lien
 
 Aucun test ne suffit seul. Plus un lien en passe, plus il est solide.

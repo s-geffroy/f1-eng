@@ -28,8 +28,8 @@
   <p class="gen-tete gen-c2">{{ T_g.ecuries.ecuries_court }}</p>
   <p class="gen-tete gen-c3">{{ T_g.ecuries.champion_c_court }}</p>
   <p class="gen-tete gen-c4">{{ T_g.ecuries.champion_p_court }}</p>
-  <p class="gen-groupe" style="grid-column: 5 / {{ sep_g }};">{{ T_g.ecuries.groupe_usines }}</p>
-  <p class="gen-groupe" style="grid-column: {{ sep_g | plus: 1 }} / -1;">{{ T_g.ecuries.groupe_autres }} <span>{{ T_g.ecuries.groupe_autres_aide }}</span></p>
+  <h2 class="gen-groupe" style="grid-column: 5 / {{ sep_g }};">{{ T_g.ecuries.groupe_usines }}</h2>
+  <h2 class="gen-groupe" style="grid-column: {{ sep_g | plus: 1 }} / -1;">{{ T_g.ecuries.groupe_autres }} <span>{{ T_g.ecuries.groupe_autres_aide }}</span></h2>
   <span class="gen-separation" style="grid-column: {{ sep_g }};" aria-hidden="true"></span>
   {%- for l_g in usines_g %}
   {%- assign premier_g = l_g.segments | first %}{% assign dernier_g = l_g.segments | last %}
@@ -66,7 +66,7 @@
     <h3><a href="{{ url_g }}{{ e_g.id }}/">{{ e_g.nom }}</a> <span>{{ s_g.de }}{% if s_g.a != s_g.de %}–{% if l_g.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s_g.a }}{% endif %}{% endif %}</span></h3>
     {%- if e_g.moteurs.size > 0 %}
     <p class="carte-moteurs">
-      {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}{% assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" title="{{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}"></i>{% endif %}{% endfor -%}
+      {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}{% assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" title="{{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}"><span class="visually-hidden">{{ T_g.ecuries.motoristes }} : {{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}</span></i>{% endif %}{% endfor -%}
     </p>
     {%- endif %}
     {%- if e_g.ingenieurs_cles %}
@@ -75,7 +75,7 @@
     {%- if e_g.photo %}
     {%- assign url_v_g = T_g.url.voitures | append: e_g.photo.voiture | append: "/" %}
     {%- assign v_g = site[T_g.collection_voitures] | where: "url", url_v_g | first %}
-    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | relative_url }}" alt="{{ v_g.title }}" loading="lazy"><span>{{ v_g.title }}</span></a>
+    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | relative_url }}" alt="" loading="lazy"><span>{{ v_g.title }}</span></a>
     {%- endif %}
   </article>
   {%- endfor %}

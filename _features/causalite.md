@@ -10,6 +10,13 @@ F1 storytelling makes the risk worse. Its accounts are often written after the f
 
 This piece explains how the timeline links an event to an innovation: which tests a link must pass, which mechanisms it distinguishes, and how it shows the degree of certainty.
 
+
+Contents
+{:.sommaire-titre}
+
+* TOC
+{:toc}
+
 ## Five tests for a link
 
 No single test is enough. The more of them a link passes, the stronger it is.

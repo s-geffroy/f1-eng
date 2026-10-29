@@ -29,8 +29,9 @@
   <div class="carte-panneaux">
     {%- for pan_c in site.data.carte_usines.panneaux %}
     {%- capture titre_pan_c %}carte_{{ pan_c.id }}{% endcapture %}
+    {%- assign liste_c = "" %}
     <figure class="carte-panneau carte-{{ pan_c.id }}">
-      <svg viewBox="0 0 {{ pan_c.largeur }} {{ pan_c.hauteur }}" role="img" aria-labelledby="carte-{{ pan_c.id }}-titre">
+      <svg viewBox="0 0 {{ pan_c.largeur }} {{ pan_c.hauteur }}" role="group" aria-labelledby="carte-{{ pan_c.id }}-titre">
         <title id="carte-{{ pan_c.id }}-titre">{{ T_c.ecuries[titre_pan_c] }}</title>
         <rect class="carte-mer" width="{{ pan_c.largeur }}" height="{{ pan_c.hauteur }}"/>
         <path class="carte-graticule" d="{{ pan_c.graticule }}"/>
@@ -83,6 +84,8 @@
         {%- comment -%} glyphes côte à côte (9 px d'écart), centrés sur le lieu ; l'étiquette s'écarte d'autant {%- endcomment -%}
         {%- assign dx0_c = types_c.size | minus: 1 | times: -4.5 %}
         {%- assign demi_c = dx0_c | times: -1 %}
+        {%- capture li_c %}<li>{% if cible_c %}<a href="{{ T_c.url.ecuries | relative_url }}#l-{{ cible_c }}">{{ nom_c }}</a>{% else %}{{ nom_c }}{% endif %}{% if i_u_c.size > 0 %} — {{ T_c.ecuries.carte_usines_court }} : {{ i_u_c | uniq | join: " ; " }}{% endif %}{% if i_s_c.size > 0 %} — {{ T_c.ecuries.carte_souffleries }} : {{ i_s_c | uniq | join: " ; " }}{% endif %}{% if i_m_c.size > 0 %} — {{ T_c.ecuries.carte_moteurs }} : {{ i_m_c | uniq | join: " ; " }}{% endif %}</li>{% endcapture %}
+        {%- assign liste_c = liste_c | append: li_c %}
         <a class="pt" data-types="{{ types_c | join: ' ' }}"{% if cible_c %} href="{{ T_c.url.ecuries | relative_url }}#l-{{ cible_c }}"{% endif %}>
           <title>{{ nom_c }}{% if i_u_c.size > 0 %} — {{ T_c.ecuries.carte_usines_court }} : {{ i_u_c | uniq | join: " ; " }}{% endif %}{% if i_s_c.size > 0 %} — {{ T_c.ecuries.carte_souffleries }} : {{ i_s_c | uniq | join: " ; " }}{% endif %}{% if i_m_c.size > 0 %} — {{ T_c.ecuries.carte_moteurs }} : {{ i_m_c | uniq | join: " ; " }}{% endif %}</title>
           {%- for t_c in types_c %}
@@ -99,6 +102,10 @@
         {%- endfor %}
       </svg>
       <figcaption>{{ T_c.ecuries[titre_pan_c] }}</figcaption>
+      <details class="carte-liste">
+        <summary>{{ T_c.ecuries.carte_liste }}</summary>
+        <ul>{{ liste_c }}</ul>
+      </details>
     </figure>
     {%- endfor %}
   </div>
