@@ -11,7 +11,7 @@ description: "Soixante-seize saisons de résultats officiels pour repérer les p
 {%- assign TR = H.temoin_reglement -%}
 Le [classement]({{ site.baseurl }}/dossiers/methode/) des ingénieurs refuse de mesurer l'influence à l'aune du palmarès. Ce dossier pose la question inverse : **les innovations de la [chronologie]({{ site.baseurl }}/chronologie/) se voient-elles dans les résultats ?** Pour y répondre, il faut d'abord savoir quand une écurie, un pilote ou un motoriste a vraiment dominé. On confronte ensuite ces périodes à trois choses : les jalons techniques, les arrivées et les départs d'ingénieurs, et les changements de règlement.
 
-Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de chacun des {{ P.gp }} Grands Prix de championnat disputés de 1950 à 2025, et les classements finaux des pilotes et des constructeurs. Ils sont recalculés par un programme, pas recopiés à la main. Les champions qu'on en tire concordent, saison par saison, avec ceux des [fiches des écuries]({{ site.baseurl }}/ecuries/).
+Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de chacun des {{ P.gp }} Grands Prix de championnat disputés de 1950 à 2025, et les classements finaux des pilotes et des constructeurs. Une victoire partagée entre deux pilotes (France 1951, Argentine 1956, Grande-Bretagne 1957) compte pour une seule course, créditée aux deux. Les chiffres sont recalculés par un programme, pas recopiés à la main. Les champions qu'on en tire concordent, saison par saison, avec ceux des [fiches des écuries]({{ site.baseurl }}/ecuries/).
 
 ## Ce qu'on appelle une hégémonie
 
@@ -22,7 +22,7 @@ Une **hégémonie** compte au moins trois saisons dominantes, séparées au plus
 Deux précisions :
 
 - **Avant 1958, il n'y a pas de titre des constructeurs.** L'écurie du champion du monde en tient lieu.
-- **Les seuils sont arbitraires**, comme tout seuil. Le calcul est donc refait avec trois variantes : au moins 50 % des victoires, deux saisons suffisent, aucune saison creuse admise. Une hégémonie retrouvée dans les trois variantes est dite **robuste**, même si ses bornes bougent un peu.
+- **Les seuils sont arbitraires**, comme tout seuil. Le calcul est donc refait avec deux variantes plus exigeantes : au moins 50 % des victoires, puis aucune saison creuse admise. Une hégémonie retrouvée dans les deux variantes est dite **robuste**, même si ses bornes bougent un peu. (Une variante plus lâche, comme « deux saisons suffisent », retrouverait toujours tout : elle ne mettrait rien à l'épreuve.)
 
 On compte à quatre niveaux :
 
@@ -41,7 +41,7 @@ Neuf hégémonies en soixante-seize saisons. Trois traits ressortent.
 - **La plus longue est celle de [Ferrari]({{ site.baseurl }}/ecuries/ferrari/), de 1999 à 2008** : huit titres en dix saisons, et une seule saison creuse, 2005.
 - **[Lotus]({{ site.baseurl }}/ecuries/team-lotus/), de 1968 à 1973, n'est pas robuste.** Elle alterne titres et saisons creuses, et ne dépasse jamais 47 % des victoires.
 
-Les dominations de deux saisons seulement ne sont pas comptées comme hégémonies : {% include hegemonies.html quoi="courtes" unite="ecurie" %}. Elles reparaissent dès qu'on abaisse le seuil à deux saisons, et ce sont elles qui rendent les hégémonies de Lotus et de McLaren 1998-2000 fragiles.
+Les dominations de deux saisons seulement ne sont pas comptées comme hégémonies : {% include hegemonies.html quoi="courtes" unite="ecurie" %}. Elles deviendraient des hégémonies si deux saisons suffisaient. Les deux hégémonies fragiles le sont pour d'autres raisons : celle de Lotus ne survit pas sans saison creuse, puisqu'elle alterne titres et saisons maigres ; celle de McLaren, de 1998 à 2000, ne survit pas au seuil de 50 %, McLaren ne gagnant que 44 % des Grands Prix en 1999 et 41 % en 2000.
 
 À l'échelle des **lignées**, le tableau est presque le même. Red Bull y devient Milton Keynes, Mercedes devient Brackley, et Enstone ne compte que deux dominations de deux saisons, sous les noms de Benetton (1994-1995) et de Renault (2005-2006). Aucune lignée ne forme une hégémonie en additionnant ses noms successifs. Brackley, par exemple, gagne avec Brawn en 2009 puis avec Mercedes à partir de 2014, mais les quatre saisons intermédiaires restent trop creuses.
 
@@ -54,7 +54,7 @@ Les dominations de deux saisons seulement ne sont pas comptées comme hégémoni
 Les hégémonies de pilotes se calquent presque toujours sur celles de leur écurie : Schumacher sur Ferrari, Vettel et Verstappen sur Red Bull, Hamilton sur Mercedes. Deux exceptions :
 
 - **Fangio**, de 1954 à 1957, domine avec Mercedes-Benz, Ferrari et Maserati.
-- **Stewart**, de 1969 à 1973, domine avec Matra, March puis Tyrrell.
+- **Stewart**, de 1969 à 1973, domine avec Matra puis Tyrrell. Sa saison avec March, en 1970, est la saison creuse de son hégémonie.
 
 Leurs hégémonies traversent plusieurs écuries : chacun change de voiture et continue de gagner. Prost et Senna, eux, se partagent la même McLaren : leurs hégémonies se recouvrent, et aucune n'est robuste.
 
@@ -69,6 +69,8 @@ C'est à ce niveau que se trouve la plus longue domination : celle des moteurs *
 Le DFV est vendu à tous. Aucune hégémonie d'écurie ne lui correspond donc : on observe plutôt une succession d'écuries championnes avec le même moteur. Climax avant lui, Honda et Renault ensuite, dominent de la même façon à travers plusieurs écuries.
 
 La domination du moteur Mercedes, de 2012 à 2021, commence avant celle de l'écurie Mercedes : il gagne d'abord avec McLaren, puis avec Mercedes et Racing Point.
+
+Le groupe propulseur de Red Bull, de 2021 à 2023, est compté sous le nom de **Honda**. Les résultats officiels l'appellent Honda en 2021, puis RBPT et Honda RBPT, mais c'est Honda qui le construit pendant toute cette période. C'est un choix de lecture : en séparant les trois noms, cette hégémonie disparaît.
 
 ## Innovations et résultats : quatre confrontations
 
@@ -89,8 +91,8 @@ Les hégémonies disent qui a gagné. Reste à savoir ce que les innovations y c
 - **Une innovation rapporte, mais pas longtemps.** L'écurie qui innove passe en moyenne de {{ EJ.jalons[2] | times: 100 | round }} % à {{ EJ.jalons[4] | times: 100 | round }} % des victoires. Elle revient à son niveau de départ en quatre saisons.
 - **Les innovations qui ouvrent une hégémonie répondent presque toutes à un nouveau règlement** : {{ AM.ouvrants_regle }} sur {{ AM.ouvrants }}.
 - **Interdire une innovation ne renverse pas l'écurie qui domine.**
-- **L'arrivée d'un ingénieur du Tier A précède une hausse huit fois sur dix**, contre deux fois sur dix pour une écurie comparable. Un départ, lui, ne change rien.
-- **Les nouveaux règlements bousculent la hiérarchie** : lors des saisons marquées par un changement de règlement, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. Ces changements ne créent pas pour autant plus souvent une hégémonie.
+- **L'arrivée d'un ingénieur du Tier A précède une hausse {{ IA[1].hausse }} fois sur {{ IA[1].n }}**, quand une écurie comparable n'en connaîtrait que {{ IA[1].hausse_attendue | replace: ".", "," }}. Un départ, lui, ne change rien.
+- **Les nouveaux règlements semblent bousculer la hiérarchie** : lors des saisons où un changement de règlement s'applique, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. C'est un indice, pas une preuve. Ces changements ne créent pas pour autant plus souvent une hégémonie.
 
 ### Méthode
 
@@ -120,7 +122,7 @@ Trois saisons avant le jalon, rien ne distingue l'écurie de son niveau habituel
 
 - **L'année du jalon, la part de victoires de l'écurie bondit**, puis culmine la saison suivante.
 - **L'écart moyen entre les deux fenêtres est de +{{ EJ.gain | times: 100 | round }} points**, contre {{ EJ.gain_temoin | times: 100 | round | replace: "-", "−" }} pour le témoin.
-- **La hausse concerne la moitié des cas** : {{ EJ.hausses }} jalons sur {{ EJ.n }} sont suivis d'une progression de plus de 5 points.
+- **La hausse concerne environ la moitié des cas** : {{ EJ.hausses }} jalons sur {{ EJ.n }} sont suivis d'une progression de plus de 5 points. Deux jalons de la même écurie la même année (Benetton en 1993, McLaren en 2009) ne comptent qu'une fois.
 - **L'avance s'efface ensuite** : quatre saisons après le jalon, l'écurie est revenue à son niveau. Une innovation donne une avance de deux à trois saisons. Les données ne disent pas pourquoi elle s'efface : copie par les rivaux, interdiction par le règlement (partie 2) ou simple usure.
 
 **Toutes les voies techniques ne rapportent pas autant.** Les jalons d'**architecture** (le moteur arrière des Cooper, la monocoque de la Lotus 25, le carbone de la MP4/1, la MP4/4) sont les plus payants : cinq sur six sont suivis d'une hausse. L'**aérodynamique** fournit le plus de jalons, mais chacun d'eux rapporte moins, peut-être parce que ses idées se copient plus vite. Les effectifs sont trop faibles pour aller plus loin.
@@ -139,7 +141,7 @@ Le témoin en attend {{ TJ.attendu | replace: ".", "," }}. Le hasard seul en pro
 
 Les contre-exemples sont instructifs :
 
-- **L'innovation sans lendemain.** La [Lotus 78]({{ site.baseurl }}/chronologie/#j-lotus-78) fait passer Lotus de 3 % à 27 % des victoires, sans qu'une hégémonie s'ensuive. La [Benetton de 1993]({{ site.baseurl }}/chronologie/#j-cfd-benetton) fait passer son écurie de 6 % à 40 %, mais pour deux saisons de domination seulement. Le [double diffuseur]({{ site.baseurl }}/chronologie/#j-double-diffuseur) vaut à Brawn un titre, puis l'écurie change de nom. La [MP4/1]({{ site.baseurl }}/chronologie/#j-mp4-1) en carbone mène McLaren à deux titres, en 1984 et 1985.
+- **L'innovation sans lendemain.** La [Lotus 78]({{ site.baseurl }}/chronologie/#j-lotus-78) fait passer Lotus de 3 % à 27 % des victoires, sans qu'une hégémonie s'ensuive. La [Benetton de 1993]({{ site.baseurl }}/chronologie/#j-cfd-benetton) fait passer son écurie de 6 % à 40 %, mais pour deux saisons de domination seulement. Le [double diffuseur]({{ site.baseurl }}/chronologie/#j-double-diffuseur) vaut à Brawn un titre, puis l'écurie change de nom. La [MP4/1]({{ site.baseurl }}/chronologie/#j-mp4-1) en carbone ne rapporte à McLaren que 13 % des victoires de 1981 à 1983 : les titres de 1984 et 1985 viennent avec la [MP4/2]({{ site.baseurl }}/chronologie/#j-mp4-2) et son moteur TAG-Porsche.
 - **L'innovation qui prolonge.** La [Lotus 72]({{ site.baseurl }}/chronologie/#j-lotus-72), la [FW14B]({{ site.baseurl }}/chronologie/#j-fw14b) et la [RB18]({{ site.baseurl }}/chronologie/#j-rb18) arrivent quand leur écurie domine déjà.
 - **L'hégémonie sans jalon.** Aucun jalon n'accompagne Ferrari en 1999-2008, ni McLaren en 1998-2000. Les jalons retenus ne les expliquent pas.
 
@@ -155,13 +157,13 @@ La chronologie relie des événements de contexte (règlements, économie, techn
 **Les innovations qui fondent une hégémonie répondent presque toutes à un nouveau règlement.** Sur les {{ AM.ouvrants }} jalons qui précèdent une hégémonie, {{ AM.ouvrants_regle }} sont reliés par la chronologie à un changement de règlement :
 
 - le DFV à la [formule 3 litres]({{ site.baseurl }}/chronologie/#c-formule-3-litres) (lien établi) ;
-- la MP4/4 à la [fin du turbo]({{ site.baseurl }}/chronologie/#c-fin-du-turbo) (attesté) ;
+- la MP4/4 au [turbo bridé et à la dotation de 150 litres]({{ site.baseurl }}/chronologie/#c-turbo-bride) (attesté) ;
 - la RB6 à la [refonte aérodynamique de 2009]({{ site.baseurl }}/chronologie/#c-refonte-aero-2009) (discuté) ;
 - le moteur hybride au [groupe propulseur obligatoire]({{ site.baseurl }}/chronologie/#c-groupe-propulseur-2014) de 2014 (établi).
 
 Sur l'ensemble des jalons, la proportion n'est que de {{ AM.avec_regle }} sur {{ AM.jalons }}.
 
-Un nouveau règlement remet tout le monde à zéro. Celui qui y répond le mieux part avec une avance que les autres ne peuvent combler qu'au fil de plusieurs saisons. Mais sur cinq cas seulement, le hasard produirait un tel écart une fois sur sept : c'est une tendance nette, pas une loi.
+Un nouveau règlement remet tout le monde à zéro. Celui qui y répond le mieux part avec une avance que les autres ne peuvent combler qu'au fil de plusieurs saisons. Mais sur {{ AM.ouvrants }} cas seulement, le hasard produirait un tel écart avec une probabilité de {{ AM.p | times: 100 | round }} % : c'est une tendance, pas une loi.
 
 <details>
 <summary>Les chaînes qui ouvrent ou transfèrent une innovation</summary>
@@ -186,9 +188,9 @@ Pour chaque arrivée, on compare la part de victoires de l'écurie dans les deux
 <figcaption>Part des cas suivis d'une hausse de plus de 5 points (point plein), et part attendue d'après le témoin apparié sur le niveau de départ (cercle). Entre parenthèses, le nombre de cas.</figcaption>
 </figure>
 
-**Après une arrivée, l'écurie progresse deux fois plus souvent que prévu** : {{ IA[0].hausse }} cas sur {{ IA[0].n }}, alors que le témoin apparié en attend {{ IA[0].hausse_attendue | replace: ".", "," }}. Le hasard seul produirait un tel écart avec une probabilité inférieure à 0,1 %.
+**Après une arrivée, l'écurie progresse nettement plus souvent que prévu** : {{ IA[0].hausse }} cas sur {{ IA[0].n }}, alors que le témoin apparié en attend {{ IA[0].hausse_attendue | replace: ".", "," }}. Le hasard seul produirait un tel écart avec une probabilité inférieure à 0,1 %.
 
-**L'écart est le plus fort pour le Tier A** : {{ IA[1].hausse }} hausses sur {{ IA[1].n }} arrivées, pour {{ IA[1].hausse_attendue | replace: ".", "," }} attendues, et un gain moyen de +{{ IA[1].gain | times: 100 | round }} points. Ces arrivées sont pour l'essentiel celles d'[Adrian Newey]({{ site.baseurl }}/ingenieurs/adrian-newey/) et de [John Barnard]({{ site.baseurl }}/ingenieurs/john-barnard/) : Newey chez Williams en 1991, chez McLaren en 1998 et chez Red Bull en 2008, Barnard chez McLaren en 1981 et chez Ferrari en 1989 et en 1996.
+**L'écart est le plus fort pour le Tier A** : {{ IA[1].hausse }} hausses sur {{ IA[1].n }} arrivées, pour {{ IA[1].hausse_attendue | replace: ".", "," }} attendues, et un gain moyen de +{{ IA[1].gain | times: 100 | round }} points ; le hasard seul produirait un tel écart avec une probabilité de {{ IA[1].p | times: 100 | round }} %. Ces arrivées sont celles d'[Adrian Newey]({{ site.baseurl }}/ingenieurs/adrian-newey/) et de [John Barnard]({{ site.baseurl }}/ingenieurs/john-barnard/). Les hausses suivent Newey chez Williams (1990) et chez McLaren (1997), Barnard chez McLaren (1972 et 1980) et chez Ferrari (1987). Les autres n'en sont pas suivies : Newey chez Fittipaldi (1980), March (1988) et Red Bull (2006), où la première victoire attend 2009, et Barnard à son retour chez Ferrari (1992). Neuf cas, c'est peu : l'écart est net, mais il repose sur deux hommes.
 
 Pour les Tiers B à D, l'écart est moindre : le hasard seul le produirait avec une probabilité de {{ IA[2].p | times: 100 | round }} %. Pour les ingénieurs hors classement, l'écart est plus faible, mais il reste net sur {{ IA[3].n }} cas.
 
@@ -200,12 +202,12 @@ Cela ne prouve pas que l'ingénieur fasse gagner l'écurie. Le témoin neutralis
 
 {% include hegemonies.html quoi="racines" %}
 
-Deux ingénieurs sont présents au début de trois des neuf hégémonies d'écurie :
+[Adrian Newey]({{ site.baseurl }}/ingenieurs/adrian-newey/) est présent au début de quatre des neuf hégémonies d'écurie : Williams 1991, McLaren 1998, Red Bull 2010 et Red Bull 2021. Deux ingénieurs le sont au début de trois :
 
-- [Adrian Newey]({{ site.baseurl }}/ingenieurs/adrian-newey/) : Williams 1991, McLaren 1998 et Red Bull 2010, plus Red Bull 2021, où sa présence est incertaine faute de date de départ connue chez Red Bull ;
-- [Geoff Willis]({{ site.baseurl }}/ingenieurs/geoff-willis/) : Williams 1991, Red Bull 2010 et Mercedes 2014.
+- [Paddy Lowe]({{ site.baseurl }}/ingenieurs/paddy-lowe/) : Williams 1991, McLaren 1998 et Mercedes 2014 ;
+- [Geoff Willis]({{ site.baseurl }}/ingenieurs/geoff-willis/) : Williams 1991, Red Bull 2010 et Mercedes 2014. Pour Red Bull, la règle des trois saisons le compte, mais il a quitté l'écurie en 2009, avant la saison 2010.
 
-[Ross Brawn]({{ site.baseurl }}/ingenieurs/ross-brawn/) est présent au début de deux hégémonies, Ferrari 1999 et Mercedes 2014, et peut-être d'une troisième, Williams 1991.
+[Ross Brawn]({{ site.baseurl }}/ingenieurs/ross-brawn/) et [John Barnard]({{ site.baseurl }}/ingenieurs/john-barnard/) le sont au début de deux : Ferrari 1999 et Mercedes 2014 pour Brawn, McLaren 1988 et Ferrari 1999 pour Barnard, chaque fois parti peu avant.
 
 <details>
 <summary>Le bilan et les mouvements un par un</summary>
@@ -214,9 +216,9 @@ Deux ingénieurs sont présents au début de trois des neuf hégémonies d'écur
 
 ### 4. Les règlements : rebattre les cartes sans créer de dynastie
 
-D'une saison à l'autre, l'écurie qui gagne le plus de Grands Prix change souvent. Elle change **{{ RB.avec.changements }} fois sur {{ RB.avec.saisons }}** lors des saisons où un changement de règlement de la chronologie s'applique, contre **{{ RB.sans.changements }} fois sur {{ RB.sans.saisons }}** les autres saisons. Le hasard seul produirait un tel écart avec une probabilité de {{ RB.p | times: 100 | round }} %, juste au seuil habituel. **Un nouveau règlement bouscule donc, très probablement, la hiérarchie.**
+D'une saison à l'autre, l'écurie qui gagne le plus de Grands Prix change souvent. Elle change **{{ RB.avec.changements }} fois sur {{ RB.avec.saisons }}** lors des saisons où un changement de règlement de la chronologie s'applique, contre **{{ RB.sans.changements }} fois sur {{ RB.sans.saisons }}** les autres saisons. Le hasard seul produirait un tel écart avec une probabilité de {{ RB.p | times: 100 | round }} %, au-dessus du seuil habituel de 5 %. **Un nouveau règlement semble donc bousculer la hiérarchie, sans que les données suffisent à le démontrer.**
 
-Il ne crée pas pour autant plus souvent une dynastie. {{ TR.debuts_regle }} débuts d'hégémonie sur {{ TR.debuts }}, et {{ TR.fins_regle }} fins sur {{ TR.fins }}, coïncident avec un changement de règlement. Or {{ TR.avec_regle }} saisons sur {{ TR.annees }} sont dans ce cas : la proportion est à peu près la même.
+Il ne crée pas pour autant plus souvent une dynastie. {{ TR.debuts_regle }} débuts d'hégémonie sur {{ TR.debuts }}, et {{ TR.fins_regle }} fins sur {{ TR.fins }}, coïncident avec un changement de règlement. Ici, « coïncider » veut dire que le règlement s'applique la saison même ou la précédente ; avec cette fenêtre, {{ TR.avec_regle }} saisons sur {{ TR.annees }} sont dans ce cas : la proportion est à peu près la même.
 
 Le règlement redistribue les cartes. Encore faut-il que quelqu'un sache jouer la nouvelle main, et c'est là que les parties 1 à 3 se rejoignent. Les coïncidences les plus nettes :
 
@@ -242,8 +244,8 @@ Mercedes en 2014 et Red Bull en 2010 suivent ce schéma presque pas à pas. Ferr
 - **La victoire n'est pas la seule mesure.** Elle ignore les écuries qui progressent sans gagner, et elle reflète aussi le talent du pilote, la fiabilité et les budgets.
 - **Les jalons sont une sélection.** La chronologie retient les innovations qui ont changé la conception des voitures, pas celles qui ont fait gagner. Une hégémonie sans jalon peut cacher une innovation non retenue.
 - **Le rattachement d'un jalon à une écurie suit les fiches des écuries.** Quatre jalons n'y sont rattachés à aucune écurie, et ne sont donc pas comptés : le [prototype Cooper 500]({{ site.baseurl }}/chronologie/#j-cooper-500), le [FVA]({{ site.baseurl }}/chronologie/#j-dfv-fva), le [rappel pneumatique des soupapes]({{ site.baseurl }}/chronologie/#j-rappel-pneumatique) et le [V10 Renault]({{ site.baseurl }}/chronologie/#j-v10-renault).
-- **Les dates des ingénieurs sont parfois incomplètes.** Une date de départ manquante rend une présence incertaine, et le tableau le signale.
-- **Les 500 miles d'Indianapolis (1950-1960) comptent au championnat.** Ils figurent donc ici, gagnés par des constructeurs américains qui n'ont pas de fiche sur le site.
+- **Les dates des ingénieurs sont parfois incomplètes.** Celles des ingénieurs cités dans ce dossier ont été vérifiées sur leurs fiches ; d'autres restent approximatives. Une date de départ manquante rend une présence incertaine, et le tableau le signale.
+- **Les 500 miles d'Indianapolis (1950-1960) comptent au championnat.** Ils figurent donc ici, gagnés par des constructeurs américains : [Kurtis Kraft]({{ site.baseurl }}/ecuries/kurtis-kraft/) a une fiche, Kuzma, Watson et Epperly n'en ont pas.
 - **Les seuils restent des choix.** La colonne « Robuste » dit quelles hégémonies y résistent.
 
 ## Sources

@@ -2,6 +2,7 @@
 # outils/releve-resultats.py : ne pas modifier à la main, relancer le script.
 # courses : vainqueur de chaque Grand Prix (equipe = nom formula1.com, ecurie et motoriste =
 #   identifiants de _data/ecuries.yml, absents pour un gagnant sans fiche), url = résultat de la course.
+#   covainqueur : second pilote d'une victoire partagée (une seule course, créditée aux deux pilotes).
 # constructeurs (depuis 1958) et pilotes : points au classement final ; sources : classements.
 # Les 500 miles d'Indianapolis (1950-1960) comptent au championnat et figurent donc ici.
 saisons:
@@ -109,7 +110,7 @@ saisons:
   - https://www.formula1.com/en/results/1950/races
   - https://www.formula1.com/en/results/1950/drivers
 - annee: 1951
-  gp: 9
+  gp: 8
   courses:
   - gp: Switzerland
     vainqueur: Juan Manuel Fangio
@@ -135,36 +136,31 @@ saisons:
     ecurie: alfa-romeo-1979
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1951/races/104/france/race-result
-  - gp: France
-    vainqueur: Luigi Fagioli
-    equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
-    motoriste: alfa-romeo
-    url: https://www.formula1.com/en/results/1951/races/105/great-britain/race-result
+    covainqueur: Luigi Fagioli
   - gp: Great Britain
     vainqueur: Jose Froilan Gonzalez
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1951/races/106/germany/race-result
+    url: https://www.formula1.com/en/results/1951/races/105/great-britain/race-result
   - gp: Germany
     vainqueur: Alberto Ascari
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1951/races/107/italy/race-result
+    url: https://www.formula1.com/en/results/1951/races/106/germany/race-result
   - gp: Italy
     vainqueur: Alberto Ascari
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
+    url: https://www.formula1.com/en/results/1951/races/107/italy/race-result
   - gp: Spain
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
     ecurie: alfa-romeo-1979
     motoriste: alfa-romeo
-    url: https://www.formula1.com/en/results/1951/races/101/switzerland/race-result
+    url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 31.0
@@ -688,7 +684,7 @@ saisons:
   - https://www.formula1.com/en/results/1955/races
   - https://www.formula1.com/en/results/1955/drivers
 - annee: 1956
-  gp: 9
+  gp: 8
   courses:
   - gp: Argentina
     vainqueur: Luigi Musso
@@ -696,53 +692,48 @@ saisons:
     ecurie: ferrari
     motoriste: ferrari
     url: https://www.formula1.com/en/results/1956/races/142/argentina/race-result
-  - gp: Argentina
-    vainqueur: Juan Manuel Fangio
-    equipe: Ferrari
-    ecurie: ferrari
-    motoriste: ferrari
-    url: https://www.formula1.com/en/results/1956/races/143/monaco/race-result
+    covainqueur: Juan Manuel Fangio
   - gp: Monaco
     vainqueur: Stirling Moss
     equipe: Maserati
     ecurie: maserati
     motoriste: maserati
-    url: https://www.formula1.com/en/results/1956/races/144/indianapolis/race-result
+    url: https://www.formula1.com/en/results/1956/races/143/monaco/race-result
   - gp: United States of America Indianapolis
     vainqueur: Pat Flaherty
     equipe: Watson Offenhauser
     motoriste: offenhauser
-    url: https://www.formula1.com/en/results/1956/races/145/belgium/race-result
+    url: https://www.formula1.com/en/results/1956/races/144/indianapolis/race-result
   - gp: Belgium
     vainqueur: Peter Collins
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1956/races/146/france/race-result
+    url: https://www.formula1.com/en/results/1956/races/145/belgium/race-result
   - gp: France
     vainqueur: Peter Collins
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1956/races/147/great-britain/race-result
+    url: https://www.formula1.com/en/results/1956/races/146/france/race-result
   - gp: Great Britain
     vainqueur: Juan Manuel Fangio
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1956/races/148/germany/race-result
+    url: https://www.formula1.com/en/results/1956/races/147/great-britain/race-result
   - gp: Germany
     vainqueur: Juan Manuel Fangio
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/1956/races/149/italy/race-result
+    url: https://www.formula1.com/en/results/1956/races/148/germany/race-result
   - gp: Italy
     vainqueur: Stirling Moss
     equipe: Maserati
     ecurie: maserati
     motoriste: maserati
-    url: https://www.formula1.com/en/results/1956/races/142/argentina/race-result
+    url: https://www.formula1.com/en/results/1956/races/149/italy/race-result
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 30.0
@@ -823,7 +814,7 @@ saisons:
   - https://www.formula1.com/en/results/1956/races
   - https://www.formula1.com/en/results/1956/drivers
 - annee: 1957
-  gp: 9
+  gp: 8
   courses:
   - gp: Argentina
     vainqueur: Juan Manuel Fangio
@@ -854,30 +845,25 @@ saisons:
     ecurie: vanwall
     motoriste: vanwall
     url: https://www.formula1.com/en/results/1957/races/154/great-britain/race-result
-  - gp: Great Britain
-    vainqueur: Stirling Moss
-    equipe: Vanwall
-    ecurie: vanwall
-    motoriste: vanwall
-    url: https://www.formula1.com/en/results/1957/races/155/germany/race-result
+    covainqueur: Stirling Moss
   - gp: Germany
     vainqueur: Juan Manuel Fangio
     equipe: Maserati
     ecurie: maserati
     motoriste: maserati
-    url: https://www.formula1.com/en/results/1957/races/156/pescara/race-result
+    url: https://www.formula1.com/en/results/1957/races/155/germany/race-result
   - gp: Italy Pescara
     vainqueur: Stirling Moss
     equipe: Vanwall
     ecurie: vanwall
     motoriste: vanwall
-    url: https://www.formula1.com/en/results/1957/races/157/italy/race-result
+    url: https://www.formula1.com/en/results/1957/races/156/pescara/race-result
   - gp: Italy
     vainqueur: Stirling Moss
     equipe: Vanwall
     ecurie: vanwall
     motoriste: vanwall
-    url: https://www.formula1.com/en/results/1957/races/150/argentina/race-result
+    url: https://www.formula1.com/en/results/1957/races/157/italy/race-result
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 40.0
@@ -14244,103 +14230,103 @@ saisons:
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1209/emilia-romagna/race-result
+    url: https://www.formula1.com/en/results/2023/races/1210/monaco/race-result
   - gp: Spain
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1210/monaco/race-result
+    url: https://www.formula1.com/en/results/2023/races/1211/spain/race-result
   - gp: Canada
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1211/spain/race-result
+    url: https://www.formula1.com/en/results/2023/races/1212/canada/race-result
   - gp: Austria
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1212/canada/race-result
+    url: https://www.formula1.com/en/results/2023/races/1213/austria/race-result
   - gp: Great Britain
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1213/austria/race-result
+    url: https://www.formula1.com/en/results/2023/races/1214/great-britain/race-result
   - gp: Hungary
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1214/great-britain/race-result
+    url: https://www.formula1.com/en/results/2023/races/1215/hungary/race-result
   - gp: Belgium
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1215/hungary/race-result
+    url: https://www.formula1.com/en/results/2023/races/1216/belgium/race-result
   - gp: Netherlands
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1216/belgium/race-result
+    url: https://www.formula1.com/en/results/2023/races/1217/netherlands/race-result
   - gp: Italy
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1217/netherlands/race-result
+    url: https://www.formula1.com/en/results/2023/races/1218/italy/race-result
   - gp: Singapore
     vainqueur: Carlos Sainz
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
-    url: https://www.formula1.com/en/results/2023/races/1218/italy/race-result
+    url: https://www.formula1.com/en/results/2023/races/1219/singapore/race-result
   - gp: Japan
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1219/singapore/race-result
+    url: https://www.formula1.com/en/results/2023/races/1220/japan/race-result
   - gp: Qatar
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1220/japan/race-result
+    url: https://www.formula1.com/en/results/2023/races/1221/qatar/race-result
   - gp: United States of America United States
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1221/qatar/race-result
+    url: https://www.formula1.com/en/results/2023/races/1222/united-states/race-result
   - gp: Mexico
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1222/united-states/race-result
+    url: https://www.formula1.com/en/results/2023/races/1223/mexico/race-result
   - gp: Brazil
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1223/mexico/race-result
+    url: https://www.formula1.com/en/results/2023/races/1224/brazil/race-result
   - gp: United States of America Las Vegas
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1224/brazil/race-result
+    url: https://www.formula1.com/en/results/2023/races/1225/las-vegas/race-result
   - gp: United Arab Emirates Abu Dhabi
     vainqueur: Max Verstappen
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
-    url: https://www.formula1.com/en/results/2023/races/1225/las-vegas/race-result
+    url: https://www.formula1.com/en/results/2023/races/1226/abu-dhabi/race-result
   constructeurs:
   - equipe: Red Bull Racing Honda RBPT
     points: 860.0

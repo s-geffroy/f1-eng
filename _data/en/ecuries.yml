@@ -5519,6 +5519,7 @@ ecuries:
   - id: john-barnard
   - id: ross-brawn
     de: 1987
+    a: 1989
   - id: tony-southgate
   jalons: []
   sources:
@@ -5808,8 +5809,10 @@ ecuries:
     a: 2001
   - id: rory-byrne
     de: 1986
+    a: 1996
   - id: ross-brawn
     de: 1991
+    a: 1996
   jalons:
   - programme-anticipe
   - cfd-benetton
@@ -5902,8 +5905,8 @@ ecuries:
     de: 1978
     a: 1987
   - id: gordon-murray
-    de: 1978
-    a: 1983
+    de: 1973
+    a: 1986
   - id: john-gentry
     de: 1986
     a: 1986
@@ -6198,8 +6201,8 @@ ecuries:
   - cooper-t51
   ingenieurs:
   - id: john-cooper
-    de: 1958
-    a: 1960
+    de: 1950
+    a: 1969
   - id: owen-maddock
     de: 1948
     a: 1963
@@ -6576,11 +6579,11 @@ ecuries:
     de: 2013
     a: 2016
   - id: john-barnard
-    de: 1989
+    de: 1987
     a: 1989
   - id: john-barnard
-    de: 1996
-    a: 1996
+    de: 1992
+    a: 1997
   - id: mauro-forghieri
     de: 1961
     a: 1987
@@ -6590,7 +6593,8 @@ ecuries:
     de: 1997
     a: 2006
   - id: ross-brawn
-    de: 1996
+    de: 1997
+    a: 2006
   - id: steve-nichols
     de: 1990
     a: 1992
@@ -7780,7 +7784,8 @@ ecuries:
   - mclaren-mp4-25
   ingenieurs:
   - id: adrian-newey
-    de: 1998
+    de: 1997
+    a: 2005
   - id: alan-jenkins
     de: 1980
     a: 1984
@@ -7793,12 +7798,14 @@ ecuries:
     de: 1988
     a: 2002
   - id: gordon-murray
-    de: 1988
+    de: 1987
+    a: 1989
   - id: john-barnard
     de: 1972
+    a: 1975
   - id: john-barnard
-    de: 1981
-    a: 1984
+    de: 1980
+    a: 1986
   - id: matthew-jeffreys
     de: 1984
     a: 2005
@@ -7809,6 +7816,7 @@ ecuries:
     de: 1991
   - id: paddy-lowe
     de: 1993
+    a: 2013
   - id: ralph-bellamy
     de: 1971
     a: 1971
@@ -8432,7 +8440,8 @@ ecuries:
   - red-bull-rb18
   ingenieurs:
   - id: adrian-newey
-    de: 2008
+    de: 2006
+    a: 2024
   - id: geoff-willis
     de: 2007
     a: 2009
@@ -9150,7 +9159,7 @@ ecuries:
     de: 1982
     a: 1985
   - id: rory-byrne
-    de: 1984
+    de: 1981
     a: 1985
   jalons: []
   sources:
@@ -9426,10 +9435,11 @@ ecuries:
   - williams-fw17b
   ingenieurs:
   - id: adrian-newey
-    de: 1991
-    a: 1997
+    de: 1990
+    a: 1996
   - id: frank-dernie
     de: 1977
+    a: 1988
   - id: frank-dernie
     de: 2003
     a: 2003
@@ -9438,6 +9448,7 @@ ecuries:
     a: 2002
   - id: paddy-lowe
     de: 1987
+    a: 1993
   - id: paddy-lowe
     de: 2017
     a: 2019
@@ -9447,7 +9458,8 @@ ecuries:
     de: 1978
     a: 2011
   - id: ross-brawn
-    de: 1979
+    de: 1978
+    a: 1984
   - id: sam-michael
     de: 2001
     a: 2011

@@ -42,7 +42,7 @@ The success of the **2014 Mercedes [hybrid power unit]({{ site.baseurl }}/en/glo
 ## Technical career
 
 - A mechanical engineer educated at Lancaster University, he began at **Cosworth**{% include src.html n="3" %}.
-- In 2000 he moved to **BMW Motorsport**, where he played a key role in designing the engine used by Williams until 2001{% include src.html n="3" %}.
+- In 2000 he moved to **BMW Motorsport**, where he played a key role in designing the BMW engine Williams used up to the 2001 season (BMW remained Williams's engine supplier until 2005){% include src.html n="3" %}.
 - In 2004 he joined **Mercedes-Ilmor**, became director of engineering, then managing director of Mercedes AMG High Performance Powertrains (2013 according to formula1.com){% include src.html n="3" %}.
 - His departure from Mercedes was announced in June 2020; he stayed on for a time as a consultant to the team{% include src.html n="6,8" %}. He then led Aston Martin F1 as team principal and CEO, before handing the team principal role to [Adrian Newey]({{ site.baseurl }}{% link _engineers/adrian-newey.md %}) for 2026 and becoming chief strategy officer{% include src.html n="3,7" %}.
 

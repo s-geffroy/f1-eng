@@ -17,6 +17,8 @@ sources:
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
   - titre: "Formula 1, « 1962 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1962/team"
+  - titre: "Wikipédia (en), « Ferrari 158 »"
+    url: "https://en.wikipedia.org/wiki/Ferrari_158"
 photo:
   fichier: "/assets/voitures/lotus-25.jpg"
   legende: "Jim Clark sur la Lotus 25 au Grand Prix des Pays-Bas, à Zandvoort, le 23 juin 1963."
@@ -52,4 +54,4 @@ Selon Ron Hickman, cité dans le même article, l'idée de départ viendrait de 
 
 ## Ce qu'elle laisse
 
-En 1963, Jim Clark gagne sept des dix courses, avec le maximum de points possible : premier titre pilotes pour Clark, premier titre constructeurs pour Lotus{% include src.html n="2" %}. Cooper, Brabham et Ferrari restent pourtant fidèles au treillis pendant au moins deux saisons encore{% include src.html n="1" %}.
+En 1963, Jim Clark gagne sept des dix courses, avec le maximum de points possible : premier titre pilotes pour Clark, premier titre constructeurs pour Lotus{% include src.html n="2" %}. Selon Motor Sport, Cooper, Brabham et Ferrari restent pourtant fidèles au treillis pendant au moins deux saisons encore{% include src.html n="1" %}. Pour Ferrari, c'est un peu moins : sa 158 de 1964 est déjà construite sur une coque semi-monocoque{% include src.html n="4" %}.

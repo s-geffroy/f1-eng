@@ -155,9 +155,16 @@ def main():
     saisons = []
     for annee in ANNEES:
         t = telecharger(cache, annee, "races")
-        liens = re.findall(rf'href="(/en/results/{annee}/races/[^"]+/race-result)"', t)
+        # Le lien de la course est lu dans sa propre ligne : une victoire partagée (France 1951,
+        # Argentine 1956, Grande-Bretagne 1957) occupe deux lignes pour une seule course.
+        rangs = re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S)[1:]
+        liens = [re.search(rf'href="(/en/results/{annee}/races/[^"]+/race-result)"', r).group(1) for r in rangs]
         gp = []
         for i, l in enumerate(lignes(t)):
+            if gp and BASE + liens[i] == gp[-1]["url"]:
+                assert pilote(l[2]) != gp[-1]["vainqueur"] and equipe(l[3], annee)[2] == gp[-1]["equipe"], (annee, l)
+                gp[-1]["covainqueur"] = pilote(l[2])
+                continue
             ec, mot, nom = equipe(l[3], annee)
             assert mot is None or mot in MOT, (annee, mot)
             # Le drapeau répète le nom du pays : « Flag of Great Britain Great Britain ».
@@ -193,6 +200,7 @@ def main():
               "# outils/releve-resultats.py : ne pas modifier à la main, relancer le script.\n"
               "# courses : vainqueur de chaque Grand Prix (equipe = nom formula1.com, ecurie et motoriste =\n"
               "#   identifiants de _data/ecuries.yml, absents pour un gagnant sans fiche), url = résultat de la course.\n"
+              "#   covainqueur : second pilote d'une victoire partagée (une seule course, créditée aux deux pilotes).\n"
               "# constructeurs (depuis 1958) et pilotes : points au classement final ; sources : classements.\n"
               "# Les 500 miles d'Indianapolis (1950-1960) comptent au championnat et figurent donc ici.\n")
     texte = entete + yaml.safe_dump({"saisons": saisons}, allow_unicode=True, sort_keys=False, width=1000)

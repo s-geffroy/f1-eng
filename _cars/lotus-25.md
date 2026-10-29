@@ -17,6 +17,8 @@ sources:
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
   - titre: "Formula 1, “1962 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/1962/team"
+  - titre: "Wikipedia, “Ferrari 158”"
+    url: "https://en.wikipedia.org/wiki/Ferrari_158"
 photo:
   fichier: "/assets/voitures/lotus-25.jpg"
   legende: "Jim Clark in the Lotus 25 at the Dutch Grand Prix, Zandvoort, 23 June 1963."
@@ -52,4 +54,4 @@ According to Ron Hickman, quoted in the same article, the original idea may have
 
 ## Legacy
 
-In 1963, Jim Clark won seven of the ten races, scoring the maximum possible points: a first drivers' title for Clark, a first constructors' title for Lotus{% include src.html n="2" %}. Cooper, Brabham and Ferrari nevertheless stayed with the spaceframe for at least two more seasons{% include src.html n="1" %}.
+In 1963, Jim Clark won seven of the ten races, scoring the maximum possible points: a first drivers' title for Clark, a first constructors' title for Lotus{% include src.html n="2" %}. According to Motor Sport, Cooper, Brabham and Ferrari nevertheless stayed with the spaceframe for at least two more seasons{% include src.html n="1" %}. For Ferrari it was a little less: its 158 of 1964 was already built on a semi-monocoque tub{% include src.html n="4" %}.

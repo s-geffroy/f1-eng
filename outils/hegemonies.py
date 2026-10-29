@@ -8,17 +8,24 @@ Usage : python3 outils/hegemonies.py   (à relancer après outils/releve-resulta
 Une saison est « dominante » pour une entité si elle y est championne ou gagne au moins SEUIL des
 Grands Prix. Une hégémonie compte au moins MIN saisons dominantes, séparées au plus par CREUX
 saison non dominante. Les mêmes calculs sont refaits avec des seuils plus stricts ou plus lâches
-(VARIANTES) : une hégémonie retrouvée dans toutes les variantes est dite robuste."""
+(VARIANTES) : une hégémonie retrouvée dans toutes les variantes est dite robuste. Seules des
+variantes plus strictes peuvent rejeter une hégémonie (une variante plus lâche retrouve toujours
+tout) : la robustesse repose donc sur deux épreuves, seuil à 50 % et aucune saison creuse."""
 import os, collections
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 SEUIL, MIN, CREUX = 0.40, 3, 1
-VARIANTES = [(0.50, 3, 1), (0.40, 2, 1), (0.40, 3, 0)]
+VARIANTES = [(0.50, 3, 1), (0.40, 3, 0)]
 AVANT, APRES = 2, 3          # fenêtres des confrontations (saisons)
 FENETRE_JALON = 2            # une hégémonie « suit » un jalon si elle commence de Y à Y+2
 FENETRE_REGLE = 1            # règlement dans l'année qui précède ou de l'année même
+# Règlements d'autres catégories (Formule 2, Formule 3) : présents dans la chronologie pour leurs
+# liens, mais ce ne sont pas des changements du règlement de la F1.
+HORS_F1 = {"formule-500", "formule-2-1957", "formule-2-1600"}
+# Même groupe propulseur sous trois noms : Honda le construit de 2021 à 2025, badgé RBPT à partir de 2022.
+MEME_MOTEUR = {"rbpt": "honda", "honda-rbpt": "honda"}
 
 R = yaml.safe_load(open("_data/resultats.yml", encoding="utf-8"))["saisons"]
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
@@ -35,6 +42,9 @@ def lignee(ecurie, annee):
             if s["ecurie"] == ecurie and s["de"] <= annee <= s["a"]:
                 return l["id"]
     return None
+
+def moteur(m):
+    return MEME_MOTEUR.get(m, m)
 
 def cle_ecurie(course):
     # Un gagnant sans fiche garde son nom (Mercedes-Benz 1954-1955, Watson à Indianapolis).
@@ -53,9 +63,10 @@ for s in R:
         ec = cle_ecurie(c)
         v["ecurie"][ec] += 1
         v["lignee"][lignee(c["ecurie"], a) if c.get("ecurie") else ec] += 1
-        v["pilote"][c["vainqueur"]] += 1
+        for pi in (c["vainqueur"], c.get("covainqueur")):
+            if pi: v["pilote"][pi] += 1     # victoire partagée : comptée aux deux pilotes
         if c.get("motoriste"):
-            v["motoriste"][c["motoriste"]] += 1
+            v["motoriste"][moteur(c["motoriste"])] += 1
     for u in part:
         victoires[u][a] = dict(v[u])
         part[u][a] = {k: x / n for k, x in v[u].items()}
@@ -63,12 +74,12 @@ for s in R:
     champion["pilote"][a] = sa.get("pilote")
     if sa.get("constructeurs"):
         champion["ecurie"][a] = sa["constructeurs"]
-        champion["motoriste"][a] = s["constructeurs"][0].get("motoriste")
+        champion["motoriste"][a] = moteur(s["constructeurs"][0].get("motoriste"))
     else:
         # Avant 1958, pas de titre constructeurs : l'écurie du champion du monde en tient lieu.
         champion["ecurie"][a] = sa.get("pilote_ecurie") or "~" + sa.get("pilote_equipe", "")
         ch = next(c for c in s["courses"] if cle_ecurie(c) == champion["ecurie"][a])
-        champion["motoriste"][a] = ch.get("motoriste")
+        champion["motoriste"][a] = moteur(ch.get("motoriste"))
     ce = champion["ecurie"][a]
     champion["lignee"][a] = lignee(ce, a) if not ce.startswith("~") else ce
     tot = sum(p["points"] for p in s["pilotes"])
@@ -108,7 +119,7 @@ JALON_ECURIES = collections.defaultdict(list)
 for e in E["ecuries"]:
     for j in e.get("jalons", []):
         JALON_ECURIES[j].append(e["id"])
-REGLES = [x for x in C["contexte"] if x["categorie"] == "reglement"]
+REGLES = [x for x in C["contexte"] if x["categorie"] == "reglement" and x["id"] not in HORS_F1]
 
 def regles_autour(annee):
     return [x["id"] for x in REGLES if annee - FENETRE_REGLE <= x["annee"] <= annee]
@@ -149,10 +160,10 @@ for u in part:
         asso = collections.Counter()
         for a in span:
             for c in next(s for s in R if s["annee"] == a)["courses"]:
-                cle = {"ecurie": cle_ecurie(c), "pilote": c["vainqueur"], "motoriste": c.get("motoriste"),
+                cle = {"ecurie": cle_ecurie(c), "pilote": c["vainqueur"], "motoriste": moteur(c.get("motoriste")),
                        "lignee": lignee(c["ecurie"], a) if c.get("ecurie") else cle_ecurie(c)}[u]
-                if cle == k:
-                    autre = c.get("motoriste") if u in ("ecurie", "lignee") else cle_ecurie(c)
+                if cle == k or u == "pilote" and c.get("covainqueur") == k:
+                    autre = moteur(c.get("motoriste")) if u in ("ecurie", "lignee") else cle_ecurie(c)
                     if autre: asso[autre] += 1
         h["associes"] = [x for x, _ in asso.most_common()]
         h["regles_debut"] = regles_autour(debut)
@@ -188,15 +199,18 @@ def pendant(ec, y):
     return any(e == ec and d < y <= f for e, d, f in liste_ecurie)
 
 # --- Confrontation 1 : jalons ------------------------------------------------------------------
-jalons, obs, attendu = [], [], []
-for jid, ecs in JALON_ECURIES.items():
+# Deux jalons d'une même écurie la même année (Benetton 1993, McLaren 2009) ne font qu'un cas dans
+# les études : la même saison serait sinon comptée deux fois.
+jalons, obs, attendu, vus = [], [], [], set()
+for jid, ecs in sorted(JALON_ECURIES.items(), key=lambda x: (JALONS[x[0]]["annee"], x[0])):
     j = JALONS[jid]
     y = j["annee"]
     for ec in ecs:
         statut = "pendant" if pendant(ec, y) else "ouvre" if debut_suit(ec, y) else "sans"
         jalons.append({"jalon": jid, "annee": y, "ecurie": ec, "avant": part_ecurie(ec, y - AVANT, y - 1),
                        "apres": part_ecurie(ec, y, y + APRES - 1), "statut": statut})
-        if statut != "pendant":
+        if statut != "pendant" and (ec, y) not in vus:
+            vus.add((ec, y))
             obs.append(statut == "ouvre")
             # Témoin : même écurie, n'importe quelle saison disputée hors hégémonie.
             libres = [a for a in actives(ec) if not pendant(ec, a)]
@@ -243,24 +257,25 @@ def profil(ec, y):
 def moyenne_profils(ps):
     return [moyenne([p[i] for p in ps if p[i] is not None]) for i in range(len(K))]
 
-profils_j = [profil(j["ecurie"], j["annee"]) for j in jalons]
+uniques = list({(j["ecurie"], j["annee"]): j for j in reversed(jalons)}.values())[::-1]
+profils_j = [profil(j["ecurie"], j["annee"]) for j in uniques]
 profils_t = []
-for j in jalons:
+for j in uniques:
     annees_j = {x["annee"] for x in jalons if x["ecurie"] == j["ecurie"]}
     ps = [profil(j["ecurie"], y) for y in actives(j["ecurie"]) if y not in annees_j]
     profils_t.append(moyenne_profils(ps) if ps else [None] * len(K))
 etude = {"k": K, "jalons": moyenne_profils(profils_j), "temoin": moyenne_profils(profils_t),
-         "n": len(jalons),
+         "n": len(uniques),
          "series": [{"jalon": j["jalon"], "ecurie": j["ecurie"], "annee": j["annee"], "valeurs": p}
-                    for j, p in zip(jalons, profils_j)]}
+                    for j, p in zip(uniques, profils_j)]}
 
 def gain(ec, y):
     av, ap = part_ecurie(ec, y - AVANT, y - 1), part_ecurie(ec, y, y + APRES - 1)
     return None if av is None or ap is None else ap - av
 
-gains_j = [gain(j["ecurie"], j["annee"]) for j in jalons]
+gains_j = [gain(j["ecurie"], j["annee"]) for j in uniques]
 gains_t = []
-for j in jalons:
+for j in uniques:
     annees_j = {x["annee"] for x in jalons if x["ecurie"] == j["ecurie"]}
     g = [gain(j["ecurie"], y) for y in actives(j["ecurie"])[AVANT:] if y not in annees_j]
     gains_t.append(moyenne([x for x in g if x is not None]))
@@ -278,7 +293,8 @@ p_hasard = sum(dist[sum(obs):])
 # Par voie de la chronologie.
 voies = []
 for v in C["voies"]:
-    gs = [g for j, g in zip(jalons, gains_j) if JALONS[j["jalon"]]["voie"] == v["id"] and g is not None]
+    gs = [gain(j["ecurie"], j["annee"]) for j in jalons if JALONS[j["jalon"]]["voie"] == v["id"]]
+    gs = [g for g in gs if g is not None]
     voies.append({"voie": v["id"], "n": len(gs), "gain": moyenne(gs), "hausses": sum(g > 0.05 for g in gs),
                   "ouvre": sum(1 for j in jalons if JALONS[j["jalon"]]["voie"] == v["id"] and j["statut"] == "ouvre")})
 
@@ -296,6 +312,8 @@ for x in C["contexte"]:
                 y = max(x["annee"], JALONS[jid]["annee"] + 1)
                 if y not in actives(ec):
                     continue            # écurie disparue entre-temps : rien à mesurer
+            elif x["annee"] > JALONS[jid]["annee"]:
+                continue                # une cause ne peut suivre son effet
             else:
                 y = JALONS[jid]["annee"]
             av, ap = part_ecurie(ec, y - AVANT, y - 1), part_ecurie(ec, y, y + APRES - 1)
@@ -370,6 +388,10 @@ amont_bilan = {"jalons": len({j["jalon"] for j in jalons}), "avec_amont": len({j
                "avec_regle": len({j["jalon"] for j in jalons} & amont_regle),
                "ouvrants": len(ouvrants), "ouvrants_amont": sum(j in amont for j in ouvrants),
                "ouvrants_regle": sum(j in amont_regle for j in ouvrants)}
+# Probabilité d'autant d'ouvrants reliés à un règlement si chacun l'était comme un jalon quelconque.
+q = amont_bilan["avec_regle"] / amont_bilan["jalons"]
+amont_bilan["p"] = round(sum(comb(len(ouvrants), i) * q ** i * (1 - q) ** (len(ouvrants) - i)
+                             for i in range(amont_bilan["ouvrants_regle"], len(ouvrants) + 1)), 3)
 
 # --- Confrontation 3 : règlement ---------------------------------------------------------------
 annees_regle = [a for a in ANNEES if regles_autour(a)]

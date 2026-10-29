@@ -43,7 +43,7 @@ Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe
 ## Parcours technique
 
 - Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**{% include src.html n="3" %}.
-- En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur utilisé par Williams jusqu'en 2001{% include src.html n="3" %}.
+- En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur BMW qu'utilise Williams jusqu'à la saison 2001 (BMW reste le motoriste de Williams jusqu'en 2005){% include src.html n="3" %}.
 - En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon formula1.com){% include src.html n="3" %}.
 - Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe{% include src.html n="6,8" %}. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie{% include src.html n="3,7" %}.
 

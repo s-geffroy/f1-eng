@@ -425,6 +425,20 @@ if os.path.exists("_data/circuits.yml"):
     for dbl in sorted({i for i in ids_c if ids_c.count(i) > 1}):
         err(f"_data/circuits.yml : circuit « {dbl} » déclaré deux fois")
 
+# 4 quinquies. résultats (_data/resultats.yml) : une course par lien, nombre de courses cohérent
+# (une victoire partagée est une seule course, avec covainqueur), total officiel 1950-2025
+res = charger_yaml("_data/resultats.yml") or {}
+total_gp = 0
+for s in res.get("saisons", []):
+    urls = [c["url"] for c in s["courses"]]
+    if len(urls) != len(set(urls)):
+        err(f"_data/resultats.yml : {s['annee']}, lien de course en double")
+    if s["gp"] != len(s["courses"]):
+        err(f"_data/resultats.yml : {s['annee']}, gp = {s['gp']} pour {len(s['courses'])} courses")
+    total_gp += s["gp"]
+if res and total_gp != 1149:
+    err(f"_data/resultats.yml : {total_gp} Grands Prix, 1149 attendus pour 1950-2025")
+
 # 5. correspondance entre langues
 if "fr" in ids_par_langue and "en" in ids_par_langue:
     for manque in sorted(ids_par_langue["fr"] - ids_par_langue["en"]):

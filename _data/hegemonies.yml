@@ -15,13 +15,10 @@ parametres:
     min: 3
     creux: 1
   - seuil: 0.4
-    min: 2
-    creux: 1
-  - seuil: 0.4
     min: 3
     creux: 0
   saisons: 1950–2025
-  gp: 1152
+  gp: 1149
 hegemonies:
   ecurie:
   - unite: ecurie
@@ -40,8 +37,7 @@ hegemonies:
     points: 0.215
     associes:
     - ford
-    regles_debut:
-    - formule-2-1600
+    regles_debut: []
     regles_fin: []
     ingenieurs:
     - colin-chapman
@@ -92,16 +88,17 @@ hegemonies:
     points: 0.374
     associes:
     - honda
-    regles_debut: []
+    regles_debut:
+    - turbo-bride
     regles_fin: []
     ingenieurs:
     - david-north
     - gordon-murray
+    - john-barnard
     - matthew-jeffreys
     - steve-nichols
     ingenieurs_incertains:
     - bob-bell
-    - john-barnard
     jalons:
     - mp4-4
     rangee: 0
@@ -125,12 +122,11 @@ hegemonies:
     regles_fin: []
     ingenieurs:
     - adrian-newey
+    - frank-dernie
     - geoff-willis
+    - paddy-lowe
     - patrick-head
     ingenieurs_incertains:
-    - frank-dernie
-    - paddy-lowe
-    - ross-brawn
     - steve-wise
     jalons:
     - fw14b
@@ -158,12 +154,10 @@ hegemonies:
     - adrian-newey
     - david-north
     - matthew-jeffreys
+    - paddy-lowe
     ingenieurs_incertains:
     - bob-bell
-    - gordon-murray
-    - john-barnard
     - osamu-goto
-    - paddy-lowe
     jalons: []
     rangee: 0
   - unite: ecurie
@@ -271,14 +265,12 @@ hegemonies:
     robuste: true
     points: 0.313
     associes:
-    - honda-rbpt
-    - rbpt
     - honda
     regles_debut: []
     regles_fin: []
-    ingenieurs: []
-    ingenieurs_incertains:
+    ingenieurs:
     - adrian-newey
+    ingenieurs_incertains: []
     jalons:
     - rb18
     rangee: 1
@@ -298,8 +290,7 @@ hegemonies:
     robuste: false
     associes:
     - ford
-    regles_debut:
-    - formule-2-1600
+    regles_debut: []
     regles_fin: []
     rangee: 0
   - unite: lignee
@@ -335,7 +326,8 @@ hegemonies:
     robuste: true
     associes:
     - honda
-    regles_debut: []
+    regles_debut:
+    - turbo-bride
     regles_fin: []
     rangee: 0
   - unite: lignee
@@ -450,8 +442,6 @@ hegemonies:
     part_max: 0.955
     robuste: true
     associes:
-    - honda-rbpt
-    - rbpt
     - honda
     regles_debut: []
     regles_fin: []
@@ -466,8 +456,8 @@ hegemonies:
     dominantes: 4
     titres: 4
     victoires: 17
-    gp: 34
-    part: 0.5
+    gp: 32
+    part: 0.531
     part_max: 0.667
     robuste: true
     points: 0.207
@@ -478,7 +468,6 @@ hegemonies:
     regles_debut:
     - formule-2-5-litres
     regles_fin:
-    - formule-2-1957
     - carburant-commercial-1958
     rangee: 0
   - unite: pilote
@@ -542,7 +531,8 @@ hegemonies:
     points: 0.206
     associes:
     - mclaren
-    regles_debut: []
+    regles_debut:
+    - turbo-bride
     regles_fin: []
     rangee: 1
   - unite: pilote
@@ -676,8 +666,7 @@ hegemonies:
     - hesketh
     - penske
     - shadow
-    regles_debut:
-    - formule-2-1600
+    regles_debut: []
     regles_fin:
     - fond-plat
     - quatre-roues-au-plus
@@ -850,6 +839,24 @@ hegemonies:
     regles_fin:
     - retour-effet-de-sol
     rangee: 1
+  - unite: motoriste
+    id: honda
+    nom: Honda
+    debut: 2021
+    fin: 2023
+    saisons: 3
+    dominantes: 3
+    titres: 2
+    victoires: 49
+    gp: 66
+    part: 0.742
+    part_max: 0.955
+    robuste: true
+    associes:
+    - red-bull
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
 courtes:
   ecurie:
   - nom: Alfa Romeo (1950–1985)
@@ -866,11 +873,6 @@ courtes:
     debut: 1954
     fin: 1955
     titres: 2
-  - nom: Vanwall
-    debut: 1957
-    fin: 1958
-    titres: 1
-    id: vanwall
   - nom: Cooper
     debut: 1959
     fin: 1960
@@ -941,11 +943,6 @@ courtes:
     debut: 1954
     fin: 1955
     titres: 2
-  - nom: Vanwall
-    debut: 1957
-    fin: 1958
-    titres: 1
-    id: vanwall
   - nom: Cooper
     debut: 1959
     fin: 1960
@@ -1068,11 +1065,6 @@ courtes:
     fin: 1955
     titres: 2
     id: mercedes
-  - nom: Vanwall
-    debut: 1957
-    fin: 1958
-    titres: 1
-    id: vanwall
   - nom: Repco
     debut: 1966
     fin: 1967
@@ -1357,9 +1349,9 @@ jalons_sans_ecurie:
 - rappel-pneumatique
 - v10-renault
 temoin_jalons:
-  n: 37
+  n: 35
   ouvre: 5
-  attendu: 2.5
+  attendu: 2.4
 etude_jalons:
   k:
   - -3
@@ -1372,26 +1364,26 @@ etude_jalons:
   - 4
   - 5
   jalons:
-  - 0.145
-  - 0.17
-  - 0.169
-  - 0.289
-  - 0.312
-  - 0.27
-  - 0.227
+  - 0.149
   - 0.165
-  - 0.146
-  temoin:
+  - 0.167
+  - 0.299
+  - 0.308
+  - 0.257
+  - 0.23
   - 0.173
-  - 0.166
+  - 0.155
+  temoin:
+  - 0.174
+  - 0.167
   - 0.155
   - 0.136
-  - 0.147
-  - 0.158
+  - 0.148
+  - 0.16
   - 0.165
-  - 0.175
+  - 0.176
   - 0.174
-  n: 42
+  n: 40
   series:
   - jalon: lancia-d50
     ecurie: lancia
@@ -1770,19 +1762,6 @@ etude_jalons:
     - 0
     - 0.058823529411764705
     - 0
-  - jalon: programme-anticipe
-    ecurie: benetton
-    annee: 1993
-    valeurs:
-    - 0.125
-    - 0.0625
-    - 0.0625
-    - 0.0625
-    - 0.5
-    - 0.6470588235294118
-    - 0
-    - 0.058823529411764705
-    - 0
   - jalon: fw17b
     ecurie: williams
     annee: 1995
@@ -1861,19 +1840,6 @@ etude_jalons:
     - 0.35
     - 0
     - 0
-  - jalon: simulateur
-    ecurie: mclaren
-    annee: 2009
-    valeurs:
-    - 0
-    - 0.47058823529411764
-    - 0.3333333333333333
-    - 0.11764705882352941
-    - 0.2631578947368421
-    - 0.3157894736842105
-    - 0.35
-    - 0
-    - 0
   - jalon: f-duct
     ecurie: mclaren
     annee: 2010
@@ -1939,10 +1905,10 @@ etude_jalons:
     - 0.3333333333333333
     - null
     - null
-  gain: 0.112
-  gain_temoin: -0.017
-  hausses: 21
-p_hasard: 0.084
+  gain: 0.114
+  gain_temoin: -0.018
+  hausses: 20
+p_hasard: 0.07
 voies:
 - voie: architecture
   n: 6
@@ -2028,17 +1994,6 @@ chaines:
 - evenement: formule-3-litres
   categorie: reglement
   annee_evenement: 1966
-  mecanisme: ouvre
-  preuve: etabli
-  jalon: dfv
-  ecurie: team-lotus
-  annee: 1967
-  avant: 0.356
-  apres: 0.321
-  statut: ouvre
-- evenement: dfv-clients-1968
-  categorie: economie
-  annee_evenement: 1968
   mecanisme: ouvre
   preuve: etabli
   jalon: dfv
@@ -2278,9 +2233,9 @@ chaines:
   avant: 0.406
   apres: 0.229
   statut: sans
-- evenement: fin-du-turbo
+- evenement: turbo-bride
   categorie: reglement
-  annee_evenement: 1989
+  annee_evenement: 1987
   mecanisme: ouvre
   preuve: atteste
   jalon: march-881
@@ -2289,9 +2244,9 @@ chaines:
   avant: 0.0
   apres: 0.0
   statut: sans
-- evenement: fin-du-turbo
+- evenement: turbo-bride
   categorie: reglement
-  annee_evenement: 1989
+  annee_evenement: 1987
   mecanisme: ouvre
   preuve: atteste
   jalon: mp4-4
@@ -2626,28 +2581,29 @@ amont:
   ouvrants: 5
   ouvrants_amont: 4
   ouvrants_regle: 4
+  p: 0.143
 ingenieurs_apparies:
 - groupe: toutes
-  n: 102
-  hausse: 40
-  hausse_attendue: 20.5
-  gain: 0.056
-  gain_attendu: -0.001
+  n: 99
+  hausse: 36
+  hausse_attendue: 19.6
+  gain: 0.04
+  gain_attendu: -0.004
   p: 0.0
 - groupe: tier-a
-  n: 10
-  hausse: 8
-  hausse_attendue: 2.2
-  gain: 0.217
-  gain_attendu: 0.03
-  p: 0.0
+  n: 9
+  hausse: 5
+  hausse_attendue: 1.7
+  gain: 0.101
+  gain_attendu: 0.027
+  p: 0.0116
 - groupe: tiers-b-c-d
-  n: 20
-  hausse: 8
-  hausse_attendue: 4.7
-  gain: 0.063
-  gain_attendu: -0.016
-  p: 0.0612
+  n: 18
+  hausse: 7
+  hausse_attendue: 4.1
+  gain: 0.043
+  gain_attendu: -0.035
+  p: 0.0864
 - groupe: hc
   n: 72
   hausse: 24
@@ -2656,33 +2612,21 @@ ingenieurs_apparies:
   gain_attendu: -0.0
   p: 0.0017
 - groupe: departs
-  n: 95
-  hausse: 19
-  hausse_attendue: 20.2
-  gain: -0.009
-  gain_attendu: -0.006
-  p: 0.6716
+  n: 105
+  hausse: 22
+  hausse_attendue: 22.6
+  gain: -0.005
+  gain_attendu: -0.01
+  p: 0.5993
 rebat:
   avec:
-    changements: 14
-    saisons: 20
+    changements: 13
+    saisons: 19
   sans:
-    changements: 25
-    saisons: 55
-  p: 0.0517
+    changements: 26
+    saisons: 56
+  p: 0.0812
 ingenieurs:
-- ingenieur: john-cooper
-  ecurie: cooper
-  type: arrivee
-  annee: 1958
-  avant: 0.0
-  apres: 0.446
-- ingenieur: john-cooper
-  ecurie: cooper
-  type: depart
-  annee: 1960
-  avant: 0.578
-  apres: 0.037
 - ingenieur: mauro-forghieri
   ecurie: ferrari
   type: arrivee
@@ -2821,6 +2765,12 @@ ingenieurs:
   annee: 1972
   avant: 0.133
   apres: 0.0
+- ingenieur: gordon-murray
+  ecurie: brabham
+  type: arrivee
+  annee: 1973
+  avant: 0.0
+  apres: 0.114
 - ingenieur: tony-southgate
   ecurie: shadow
   type: arrivee
@@ -2839,6 +2789,12 @@ ingenieurs:
   annee: 1975
   avant: 0.036
   apres: 0.0
+- ingenieur: john-barnard
+  ecurie: mclaren
+  type: depart
+  annee: 1975
+  avant: 0.24
+  apres: 0.184
 - ingenieur: martin-ogilvie
   ecurie: team-lotus
   type: arrivee
@@ -2929,12 +2885,6 @@ ingenieurs:
   annee: 1978
   avant: 0.0
   apres: 0.113
-- ingenieur: gordon-murray
-  ecurie: brabham
-  type: arrivee
-  annee: 1978
-  avant: 0.0
-  apres: 0.113
 - ingenieur: john-gentry
   ecurie: ats-1978
   type: depart
@@ -2971,12 +2921,6 @@ ingenieurs:
   annee: 1979
   avant: 0.0
   apres: 0.0
-- ingenieur: ross-brawn
-  ecurie: williams
-  type: arrivee
-  annee: 1979
-  avant: 0.0
-  apres: 0.343
 - ingenieur: adrian-newey
   ecurie: fittipaldi
   type: arrivee
@@ -2990,6 +2934,12 @@ ingenieurs:
   avant: 0.0
   apres: 0.0
 - ingenieur: alan-jenkins
+  ecurie: mclaren
+  type: arrivee
+  annee: 1980
+  avant: 0.0
+  apres: 0.106
+- ingenieur: john-barnard
   ecurie: mclaren
   type: arrivee
   annee: 1980
@@ -3031,12 +2981,6 @@ ingenieurs:
   annee: 1981
   avant: 0.2
   apres: 0.196
-- ingenieur: john-barnard
-  ecurie: mclaren
-  type: arrivee
-  annee: 1981
-  avant: 0.0
-  apres: 0.128
 - ingenieur: tony-southgate
   ecurie: theodore
   type: arrivee
@@ -3079,19 +3023,7 @@ ingenieurs:
   annee: 1983
   avant: 0.031
   apres: 0.062
-- ingenieur: gordon-murray
-  ecurie: brabham
-  type: depart
-  annee: 1983
-  avant: 0.196
-  apres: 0.062
 - ingenieur: alan-jenkins
-  ecurie: mclaren
-  type: depart
-  annee: 1984
-  avant: 0.408
-  apres: 0.271
-- ingenieur: john-barnard
   ecurie: mclaren
   type: depart
   annee: 1984
@@ -3115,12 +3047,12 @@ ingenieurs:
   annee: 1984
   avant: 0.158
   apres: 0.458
-- ingenieur: rory-byrne
-  ecurie: toleman
-  type: arrivee
+- ingenieur: ross-brawn
+  ecurie: williams
+  type: depart
   annee: 1984
-  avant: 0.0
-  apres: 0.0
+  avant: 0.065
+  apres: 0.458
 - ingenieur: gustav-brunner
   ecurie: ram
   type: arrivee
@@ -3139,6 +3071,18 @@ ingenieurs:
   annee: 1985
   avant: 0.133
   apres: 0.0
+- ingenieur: gordon-murray
+  ecurie: brabham
+  type: depart
+  annee: 1986
+  avant: 0.031
+  apres: 0.0
+- ingenieur: john-barnard
+  ecurie: mclaren
+  type: depart
+  annee: 1986
+  avant: 0.312
+  apres: 0.583
 - ingenieur: john-gentry
   ecurie: brabham
   type: arrivee
@@ -3157,12 +3101,24 @@ ingenieurs:
   annee: 1987
   avant: 0.0
   apres: 0.0
+- ingenieur: gordon-murray
+  ecurie: mclaren
+  type: arrivee
+  annee: 1987
+  avant: 0.312
+  apres: 0.583
 - ingenieur: harvey-postlethwaite
   ecurie: ferrari
   type: depart
   annee: 1987
   avant: 0.062
   apres: 0.208
+- ingenieur: john-barnard
+  ecurie: ferrari
+  type: arrivee
+  annee: 1987
+  avant: 0.062
+  apres: 0.125
 - ingenieur: maurice-philippe
   ecurie: tyrrell
   type: depart
@@ -3211,18 +3167,18 @@ ingenieurs:
   annee: 1988
   avant: 0.219
   apres: 0.646
+- ingenieur: frank-dernie
+  ecurie: williams
+  type: depart
+  annee: 1988
+  avant: 0.281
+  apres: 0.229
 - ingenieur: gerard-ducarouge
   ecurie: team-lotus
   type: depart
   annee: 1988
   avant: 0.062
   apres: 0.0
-- ingenieur: gordon-murray
-  ecurie: mclaren
-  type: arrivee
-  annee: 1988
-  avant: 0.219
-  apres: 0.646
 - ingenieur: gustav-brunner
   ecurie: rial
   type: depart
@@ -3247,18 +3203,18 @@ ingenieurs:
   annee: 1989
   avant: 0.062
   apres: 0.0
+- ingenieur: gordon-murray
+  ecurie: mclaren
+  type: depart
+  annee: 1989
+  avant: 0.781
+  apres: 0.396
 - ingenieur: gustav-brunner
   ecurie: zakspeed
   type: arrivee
   annee: 1989
   avant: 0.0
   apres: 0.0
-- ingenieur: john-barnard
-  ecurie: ferrari
-  type: arrivee
-  annee: 1989
-  avant: 0.094
-  apres: 0.188
 - ingenieur: john-barnard
   ecurie: ferrari
   type: depart
@@ -3277,11 +3233,23 @@ ingenieurs:
   annee: 1989
   avant: 0.781
   apres: 0.396
+- ingenieur: ross-brawn
+  ecurie: arrows
+  type: depart
+  annee: 1989
+  avant: 0.0
+  apres: 0.0
 - ingenieur: steve-nichols
   ecurie: mclaren
   type: depart
   annee: 1989
   avant: 0.781
+  apres: 0.396
+- ingenieur: adrian-newey
+  ecurie: williams
+  type: arrivee
+  annee: 1990
+  avant: 0.062
   apres: 0.396
 - ingenieur: adrian-newey
   ecurie: leyton-house
@@ -3331,12 +3299,6 @@ ingenieurs:
   annee: 1990
   avant: 0.125
   apres: 0.125
-- ingenieur: adrian-newey
-  ecurie: williams
-  type: arrivee
-  annee: 1991
-  avant: 0.125
-  apres: 0.562
 - ingenieur: geoff-willis
   ecurie: williams
   type: arrivee
@@ -3373,6 +3335,12 @@ ingenieurs:
   annee: 1992
   avant: 0.062
   apres: 0.403
+- ingenieur: john-barnard
+  ecurie: ferrari
+  type: arrivee
+  annee: 1992
+  avant: 0.188
+  apres: 0.021
 - ingenieur: steve-nichols
   ecurie: ferrari
   type: depart
@@ -3433,6 +3401,12 @@ ingenieurs:
   annee: 1993
   avant: 0.406
   apres: 0.104
+- ingenieur: paddy-lowe
+  ecurie: williams
+  type: depart
+  annee: 1993
+  avant: 0.625
+  apres: 0.494
 - ingenieur: sam-michael
   ecurie: team-lotus
   type: arrivee
@@ -3463,24 +3437,24 @@ ingenieurs:
   annee: 1994
   avant: 0.0
   apres: 0.103
-- ingenieur: john-barnard
-  ecurie: ferrari
-  type: arrivee
-  annee: 1996
-  avant: 0.061
-  apres: 0.286
-- ingenieur: john-barnard
-  ecurie: ferrari
+- ingenieur: adrian-newey
+  ecurie: williams
   type: depart
   annee: 1996
-  avant: 0.123
-  apres: 0.348
-- ingenieur: ross-brawn
-  ecurie: ferrari
-  type: arrivee
+  avant: 0.522
+  apres: 0.157
+- ingenieur: rory-byrne
+  ecurie: benetton
+  type: depart
   annee: 1996
-  avant: 0.061
-  apres: 0.286
+  avant: 0.324
+  apres: 0.02
+- ingenieur: ross-brawn
+  ecurie: benetton
+  type: depart
+  annee: 1996
+  avant: 0.324
+  apres: 0.02
 - ingenieur: sam-michael
   ecurie: jordan
   type: arrivee
@@ -3488,11 +3462,11 @@ ingenieurs:
   avant: 0.0
   apres: 0.021
 - ingenieur: adrian-newey
-  ecurie: williams
-  type: depart
+  ecurie: mclaren
+  type: arrivee
   annee: 1997
-  avant: 0.61
-  apres: 0.0
+  avant: 0.0
+  apres: 0.392
 - ingenieur: bob-bell
   ecurie: benetton
   type: arrivee
@@ -3500,6 +3474,12 @@ ingenieurs:
   avant: 0.324
   apres: 0.02
 - ingenieur: gustav-brunner
+  ecurie: ferrari
+  type: depart
+  annee: 1997
+  avant: 0.241
+  apres: 0.446
+- ingenieur: john-barnard
   ecurie: ferrari
   type: depart
   annee: 1997
@@ -3517,12 +3497,12 @@ ingenieurs:
   annee: 1997
   avant: 0.123
   apres: 0.348
-- ingenieur: adrian-newey
-  ecurie: mclaren
+- ingenieur: ross-brawn
+  ecurie: ferrari
   type: arrivee
-  annee: 1998
-  avant: 0.088
-  apres: 0.471
+  annee: 1997
+  avant: 0.123
+  apres: 0.348
 - ingenieur: bob-bell
   ecurie: benetton
   type: depart
@@ -3637,6 +3617,12 @@ ingenieurs:
   annee: 2004
   avant: 0.667
   apres: 0.361
+- ingenieur: adrian-newey
+  ecurie: mclaren
+  type: depart
+  annee: 2005
+  avant: 0.291
+  apres: 0.268
 - ingenieur: gustav-brunner
   ecurie: toyota
   type: depart
@@ -3655,6 +3641,12 @@ ingenieurs:
   annee: 2005
   avant: 0.291
   apres: 0.268
+- ingenieur: adrian-newey
+  ecurie: red-bull
+  type: arrivee
+  annee: 2006
+  avant: 0.0
+  apres: 0.0
 - ingenieur: geoff-willis
   ecurie: honda
   type: depart
@@ -3673,18 +3665,18 @@ ingenieurs:
   annee: 2006
   avant: 0.276
   apres: 0.344
+- ingenieur: ross-brawn
+  ecurie: ferrari
+  type: depart
+  annee: 2006
+  avant: 0.276
+  apres: 0.344
 - ingenieur: geoff-willis
   ecurie: red-bull
   type: arrivee
   annee: 2007
   avant: 0.0
   apres: 0.118
-- ingenieur: adrian-newey
-  ecurie: red-bull
-  type: arrivee
-  annee: 2008
-  avant: 0.0
-  apres: 0.276
 - ingenieur: ross-brawn
   ecurie: honda
   type: arrivee
@@ -3781,6 +3773,12 @@ ingenieurs:
   annee: 2013
   avant: 0.025
   apres: 0.614
+- ingenieur: paddy-lowe
+  ecurie: mclaren
+  type: depart
+  annee: 2013
+  avant: 0.175
+  apres: 0.0
 - ingenieur: pat-symonds
   ecurie: williams
   type: arrivee
@@ -3855,27 +3853,27 @@ ingenieurs:
   apres: 0.0
 bilan_ingenieurs:
   arrivee:
-    n: 102
-    hausse: 40
-    baisse: 15
+    n: 99
+    hausse: 36
+    baisse: 16
     stable: 47
-    ecart_moyen: 0.056
+    ecart_moyen: 0.04
   depart:
-    n: 95
-    hausse: 19
-    baisse: 22
-    stable: 54
-    ecart_moyen: -0.009
+    n: 105
+    hausse: 22
+    baisse: 26
+    stable: 57
+    ecart_moyen: -0.005
   temoin:
     n: 535
     hausse: 122
     baisse: 135
 temoin_reglement:
   annees: 76
-  avec_regle: 34
-  debuts: 27
+  avec_regle: 33
+  debuts: 28
   debuts_regle: 14
-  fins: 27
+  fins: 28
   fins_regle: 13
 saisons:
 - annee: 1950
@@ -3883,9 +3881,9 @@ saisons:
   ecurie: alfa-romeo-1979
   part: 0.857
 - annee: 1951
-  gp: 9
+  gp: 8
   ecurie: alfa-romeo-1979
-  part: 0.556
+  part: 0.5
 - annee: 1952
   gp: 8
   ecurie: ferrari
@@ -3903,13 +3901,13 @@ saisons:
   ecurie: Mercedes-Benz
   part: 0.714
 - annee: 1956
-  gp: 9
+  gp: 8
   ecurie: ferrari
-  part: 0.667
+  part: 0.625
 - annee: 1957
-  gp: 9
+  gp: 8
   ecurie: maserati
-  part: 0.444
+  part: 0.5
 - annee: 1958
   gp: 11
   ecurie: vanwall
