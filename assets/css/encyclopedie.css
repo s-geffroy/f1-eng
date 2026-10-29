@@ -119,6 +119,13 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .texte th { font-family: var(--titre); font-weight: 600; font-size: 1rem; text-align: left; }
 .texte td:nth-child(n) { font-variant-numeric: lining-nums tabular-nums; }
 
+/* Graphiques des dossiers (SVG en ligne, générés par outils/hegemonies.py) */
+.texte .figure { margin: 1.5em 0; padding: 0.75rem 0.75rem 0.5rem; background: var(--feuille); border: var(--trait-fort) solid var(--graphite); }
+.texte .figure svg { display: block; width: 100%; height: auto; }
+.texte .figure figcaption { margin-top: 0.4rem; font-family: var(--titre); font-size: 0.9375rem; line-height: 1.4; color: var(--mine); }
+.texte details { margin: 1em 0; }
+.texte details summary { cursor: pointer; font-family: var(--titre); font-weight: 600; }
+
 /* ---------- Entrée ---------- */
 
 .entree {

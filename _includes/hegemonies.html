@@ -1,6 +1,6 @@
 {%- comment -%} Tableaux du dossier « Hégémonies », dans les deux langues, depuis _data/hegemonies.yml
 (calculé par outils/hegemonies.py). include.quoi : tableau (avec include.unite), courtes (idem),
-jalons, racines, ingenieurs. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
+jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
 {%- assign lang_h = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T_h = site.data.i18n[lang_h] -%}
 {%- assign L_h = T_h.hegemonies -%}
@@ -126,4 +126,39 @@ jalons, racines, ingenieurs. Variables propres (suffixe _h) : une inclusion part
     </tbody>
   </table>
 </details>
+{%- elsif include.quoi == "voies" -%}
+<table>
+  <thead><tr><th>{{ L_h.voie }}</th><th>{{ L_h.nombre }}</th><th>{{ L_h.gain }}</th><th>{{ L_h.hausse }}</th><th>{{ L_h.statut_ouvre_court }}</th></tr></thead>
+  <tbody>
+  {%- for v in H_h.voies %}
+    {%- assign vv_h = D_h.chronologie.voies | where: "id", v.voie | first -%}
+    <tr><td>{{ vv_h.nom }}</td><td>{{ v.n }}</td><td>{% if v.gain >= 0 %}+{% endif %}{{ v.gain | times: 100 | round }}{{ L_h.points }}</td><td>{{ v.hausses }}</td><td>{{ v.ouvre }}</td></tr>
+  {%- endfor %}
+  </tbody>
+</table>
+
+{%- elsif include.quoi == "chaines" -%}
+<table>
+  <thead><tr><th>{{ L_h.evenement }}</th><th>{{ L_h.lien }}</th><th>{{ L_h.jalon }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.avant_court }}</th><th>{{ L_h.apres_court }}</th><th>{{ L_h.statut }}</th></tr></thead>
+  <tbody>
+  {%- for c in H_h.chaines %}
+    {%- if c.mecanisme == "ferme" -%}{%- assign f_h = "oui" -%}{%- else -%}{%- assign f_h = "non" -%}{%- endif -%}
+    {%- if f_h == include.ferme %}
+    {%- assign cc_h = D_h.chronologie.contexte | where: "id", c.evenement | first -%}
+    {%- assign jj_h = D_h.chronologie.jalons | where: "id", c.jalon | first -%}
+    {%- assign mm_h = D_h.chronologie.mecanismes | where: "id", c.mecanisme | first -%}
+    {%- assign pp_h = D_h.chronologie.preuves | where: "id", c.preuve | first -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", c.ecurie | first -%}
+    <tr>
+      <td><a href="{{ url_c_h }}#c-{{ c.evenement }}">{{ cc_h.titre }}</a> ({{ c.annee_evenement }})</td>
+      <td>{{ mm_h.nom }}, {{ pp_h.nom }}</td>
+      <td><a href="{{ url_c_h }}#j-{{ c.jalon }}">{{ jj_h.titre }}</a> ({{ jj_h.annee }})</td>
+      <td><a href="{{ url_e_h }}{{ c.ecurie }}/">{{ e_h.nom }}</a></td>
+      <td>{{ c.avant | times: 100 | round }}{{ pc_h }}</td>
+      <td>{{ c.apres | times: 100 | round }}{{ pc_h }}</td>
+      <td>{% case c.statut %}{% when "ouvre" %}<strong>{{ L_h.statut_ouvre }}</strong>{% when "pendant" %}{{ L_h.statut_pendant }}{% else %}{{ L_h.statut_sans }}{% endcase %}</td>
+    </tr>
+  {%- endif %}{%- endfor %}
+  </tbody>
+</table>
 {%- endif -%}

@@ -210,6 +210,7 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   Les deux fichiers ne s'editent jamais a la main ; relancer les scripts apres une modification
   des ecuries, des ingenieurs ou de la chronologie.
 - Tableaux du dossier : `_includes/hegemonies.html`, libelles dans `_data/i18n.yml` (hegemonies).
+  Graphiques : `_includes/hegemonies/*.svg`, generes par le meme script (ne pas editer).
 
 ### Regles de contenu
 

@@ -70,21 +70,64 @@ The DFV is sold to everyone. So there is no team hegemony that matches it, but a
 
 The Mercedes engine of 2012-2021 begins before the Mercedes team. It first wins with McLaren, then with Mercedes and Racing Point.
 
-## Innovations and results: three comparisons
+## Innovations and results: four comparisons
+
+{%- assign EJ = H.etude_jalons -%}
+{%- assign IA = H.ingenieurs_apparies -%}
+{%- assign RB = H.rebat -%}
+{%- assign AM = H.amont %}
+
+Hegemonies say who won. What remains is to know what innovations change. Four questions are put to the data here:
+
+1. What does an innovation bring the team that carries it, and for how long?
+2. Do the chains of causes traced by the timeline, from regulations to innovation, lead to wins?
+3. Does a team win more after an engineer arrives?
+4. Does a change of regulations reshuffle the pack?
+
+**In short:**
+
+- **An innovation pays, but not for long.** The innovating team goes on average from {{ EJ.jalons[2] | times: 100 | round }}% to {{ EJ.jalons[4] | times: 100 | round }}% of wins. It returns to its starting level within four seasons.
+- **The innovations that open a hegemony almost all answer new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
+- **Banning an innovation does not topple the dominant team.**
+- **The arrival of a Tier A engineer precedes a rise eight times out of ten**, against two times out of ten for a comparable team. A departure changes nothing.
+- **New regulations shake up the order**: the team winning the most changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time in seasons with a change of regulations, against {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. But they do not create a hegemony more often.
 
 ### Method
 
-The word "correlation" would be misleading: the timeline has 43 milestones, far too few for statistics. The comparisons are therefore **before / after**, and each is measured against a **control**. The control is what would be observed at any season, for the same teams.
+Every measure concerns the team's **share of Grands Prix won**. Two windows are compared:
 
-The vocabulary is that of the [feature on causality]({{ site.baseurl }}/en/features/causalite/). That a hegemony follows a milestone is a **chronological** overlap, never proof. A link is more than chronological only if the timeline already establishes it with a source.
+- **before**: the two seasons preceding the event;
+- **after**: the three seasons starting with it.
 
-### 1. Technical milestones
+Each difference is compared with a **control**. The control is the same calculation made for the same team at any other season, when nothing in particular happened.
 
-Each milestone is attached to the team that carried it, according to the team pages. Its share of wins is compared over the two seasons before the milestone and the three seasons starting with it. We also check whether a hegemony begins within two years.
+For engineers, the control is **matched on the starting level**. A team that won nothing can only go up, and a team that won everything can only go down: this is *regression to the mean*. Without this precaution, that natural movement would be taken for the effect of an engineer.
 
-{% include hegemonies.html quoi="jalons" %}
+When cases are few, we compute the **probability of a result at least as clear-cut by chance alone**. Below 5%, the difference is hard to put down to luck. Above it, it is a clue, not a demonstration.
 
-Of {{ TJ.n }} milestones carried by a team that was not yet dominating, **{{ TJ.ouvre }} shortly precede a hegemony**:
+Finally, the vocabulary is that of the [feature on causality]({{ site.baseurl }}/en/features/causalite/). A measured difference remains a **chronological** overlap. Only links the timeline already establishes with a source go further.
+
+### 1. What an innovation brings, and for how long
+
+We take the {{ EJ.n }} milestones attached to the team that carried them. For each, its share of wins is followed from three seasons before to five seasons after.
+
+<figure class="figure">
+{% include hegemonies/etude-jalons-en.svg %}
+<figcaption>Average share of Grands Prix won by the team, season by season around the milestone (solid line), and by the same team at any season (dashes). The values for each milestone are in the detailed table below.</figcaption>
+</figure>
+
+Three seasons before the milestone, nothing sets the team apart from its usual level.
+
+- **In the milestone season, its share of wins jumps**, and it peaks the following season.
+- **The average difference between the two windows is +{{ EJ.gain | times: 100 | round }} points**, against {{ EJ.gain_temoin | times: 100 | round }} for the control.
+- **The rise concerns half the cases**: {{ EJ.hausses }} milestones out of {{ EJ.n }} are followed by a gain of more than 5 points.
+- **The lead then fades**: four seasons after the milestone, the team is back at its level. An innovation gives a lead of two to three seasons. The data do not say why it fades: copying by rivals, a ban by the regulations (part 2), or simple wear.
+
+**Not all technical tracks pay as much.** **Architecture** milestones (the Coopers' rear engine, the Lotus 25 monocoque, the MP4/1's carbon, the MP4/4) pay best: five out of six are followed by a rise. **Aerodynamics** provides the most milestones, but each one pays less, perhaps because its ideas are copied faster. The numbers are too small to go further.
+
+{% include hegemonies.html quoi="voies" %}
+
+**An innovation rarely founds a hegemony on its own.** Of {{ TJ.n }} milestones carried by a team that was not yet dominating, **{{ TJ.ouvre }} shortly precede a hegemony**:
 
 - the [DFV]({{ site.baseurl }}/en/timeline/#j-dfv) at Lotus in 1967;
 - the [312T]({{ site.baseurl }}/en/timeline/#j-ferrari-312t) at Ferrari in 1975;
@@ -92,28 +135,68 @@ Of {{ TJ.n }} milestones carried by a team that was not yet dominating, **{{ TJ.
 - the [RB6]({{ site.baseurl }}/en/timeline/#j-rb6) at Red Bull in 2010;
 - the [hybrid power unit]({{ site.baseurl }}/en/timeline/#j-hybride) at Mercedes in 2014.
 
-The control takes the same teams at any season in which they do not dominate. It expects about {{ TJ.attendu }}. **Milestones therefore precede a hegemony about twice as often as chance, but on five cases.** It is a clue, not a demonstration.
+The control expects {{ TJ.attendu }}. Chance alone would give at least {{ TJ.ouvre }} hegemonies with a probability of {{ H.p_hasard | times: 100 | round }}%. It is a clue, not proof.
 
-The counter-examples outnumber the examples, and they are instructive.
+The counter-examples are instructive:
 
-- **Innovation without hegemony.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 27% of wins, with no hegemony following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, for only two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title in 2009, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) leads McLaren to only two titles, in 1984 and 1985.
-- **Innovation during a hegemony.** The [FW14B]({{ site.baseurl }}/en/timeline/#j-fw14b), the [Lotus 72]({{ site.baseurl }}/en/timeline/#j-lotus-72) and the [RB18]({{ site.baseurl }}/en/timeline/#j-rb18) arrive when their team is already dominating. They extend it; they do not open it.
-- **Hegemony without a milestone.** No timeline milestone accompanies Ferrari's in 1999-2008, nor McLaren's in 1998-2000. The milestones on the timeline do not explain them: they rest on something else, or on innovations the timeline does not include.
+- **Innovation with no sequel.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 27% of wins, with no hegemony following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, for two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) leads McLaren to two titles, in 1984 and 1985.
+- **Innovation that extends a hegemony.** The [Lotus 72]({{ site.baseurl }}/en/timeline/#j-lotus-72), the [FW14B]({{ site.baseurl }}/en/timeline/#j-fw14b) and the [RB18]({{ site.baseurl }}/en/timeline/#j-rb18) arrive when their team is already dominating.
+- **Hegemony without a milestone.** No milestone accompanies Ferrari in 1999-2008, nor McLaren in 1998-2000. The milestones on the timeline do not explain them.
 
-### 2. Engineers
+<details>
+<summary>The {{ EJ.n }} milestones one by one</summary>
+{% include hegemonies.html quoi="jalons" %}
+</details>
 
-The team pages date each engineer's arrival and departure. For an **arrival**, the team's share of wins is compared over the two seasons before and the three starting with the engineer. For a **departure**, the last two seasons with him are compared with the next three. A difference of more than 5 points counts as a rise or a fall.
+### 2. From regulations to wins: the sourced chains
 
-{% include hegemonies.html quoi="ingenieurs" %}
+The timeline links context events (regulations, economics, techniques from elsewhere) to the milestones they made possible or ended. Each link carries its mechanism and its level of evidence. A complete chain can therefore be followed: a regulation, the innovation it prompts, then the wins that follow.
 
-Two findings:
+**The innovations that found a hegemony almost all answer new regulations.** Of the {{ AM.ouvrants }} milestones that precede a hegemony, {{ AM.ouvrants_regle }} are linked by the timeline to a change of regulations:
 
-- **A team improves after an arrival more often than at any season**: {{ BI.arrivee.hausse | times: 100.0 | divided_by: BI.arrivee.n | round }}% of cases, against {{ BI.temoin.hausse | times: 100.0 | divided_by: BI.temoin.n | round }}% for the control.
-- **A departure changes almost nothing.** Rises and falls balance out, roughly as in the control.
+- the DFV to the [3-litre formula]({{ site.baseurl }}/en/timeline/#c-formule-3-litres) (established link);
+- the MP4/4 to the [end of turbos]({{ site.baseurl }}/en/timeline/#c-fin-du-turbo) (attested);
+- the RB6 to the [2009 aerodynamic overhaul]({{ site.baseurl }}/en/timeline/#c-refonte-aero-2009) (disputed);
+- the hybrid engine to the [mandatory power unit]({{ site.baseurl }}/en/timeline/#c-groupe-propulseur-2014) of 2014 (established).
 
-The simplest reading, "the engineer makes the team win", is not the only one. A rising team also has the means to recruit. The arrival may therefore accompany the rise as much as cause it. A departure with no visible effect suggests that an organisation keeps its momentum for a few seasons after an engineer leaves.
+Across all milestones, the proportion is only {{ AM.avec_regle }} out of {{ AM.jalons }}.
 
-The reverse view is more telling: who was there when each hegemony began? An engineer is counted if he arrived before the start and left at most three seasons before it. When his departure date is not known and he arrived more than three seasons earlier, his presence is marked as uncertain.
+New regulations reset everyone to zero. Whoever answers them best starts with a lead the others can only close over several seasons. But on five cases, chance would produce such a gap one time in seven: it is a clear tendency, not a law.
+
+<details>
+<summary>The chains that open or transfer an innovation</summary>
+{% include hegemonies.html quoi="chaines" ferme="non" %}
+</details>
+
+**Banning an innovation does not topple the dominant team.** When the regulations close the door on an innovation, the effect on the team that carried it varies: it sometimes falls back, but rises just as often. Twice, the ban hits a team at the top, and it stays there:
+
+- **Williams in 1994**, with the [ban on electronic aids]({{ site.baseurl }}/en/timeline/#c-fin-aides-electroniques): it goes from 62% to 49% of wins, but its hegemony lasts until 1997.
+- **Red Bull in 2012**, with the [restrictions on exhausts]({{ site.baseurl }}/en/timeline/#c-echappements-2012): it goes from 55% to 40%, and dominates until 2013.
+
+What makes a domination last does not, then, come down to a single part of the car.
+
+{% include hegemonies.html quoi="chaines" ferme="oui" %}
+
+### 3. Engineers
+
+For each arrival, the team's share of wins is compared over the two seasons before and the three starting with the engineer. For each departure, the last two seasons with him are compared with the next three. A rise or fall of more than 5 points is counted as such. Arrivals too recent to have three seasons of hindsight are left out.
+
+<figure class="figure">
+{% include hegemonies/ingenieurs-en.svg %}
+<figcaption>Share of cases followed by a rise of more than 5 points (solid dot), and the share expected from the control matched on the starting level (circle). In brackets, the number of cases.</figcaption>
+</figure>
+
+**After an arrival, the team improves twice as often as expected**: {{ IA[0].hausse }} cases out of {{ IA[0].n }}, where the matched control expects {{ IA[0].hausse_attendue }}. The probability of such a gap by chance is below 0.1%.
+
+**The gap is largest for Tier A**: {{ IA[1].hausse }} rises out of {{ IA[1].n }} arrivals, for {{ IA[1].hausse_attendue }} expected, and an average gain of +{{ IA[1].gain | times: 100 | round }} points. These are mostly the arrivals of [Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/) and [John Barnard]({{ site.baseurl }}/en/engineers/john-barnard/): Newey at Williams in 1991, at McLaren in 1998 and at Red Bull in 2008, Barnard at McLaren in 1981 and at Ferrari in 1989 and 1996.
+
+For Tiers B to D the gap is smaller, and its probability by chance is {{ IA[2].p | times: 100 | round }}%. For unranked engineers the gap is smaller still, but it remains clear over {{ IA[3].n }} cases.
+
+**A departure changes nothing**: {{ IA[4].hausse }} rises for {{ IA[4].hausse_attendue }} expected. A team keeps its momentum for a few seasons after an engineer leaves.
+
+This does not prove that the engineer makes the team win. The control neutralises the starting level, not the trajectory or the budget. A great engineer also chooses a rising team, and a rising team has the means to hire him. But the ranking was not drawn up from results, and yet it is the Tier A engineers whose arrival most clearly precedes a rise. The two measures, one technical and one sporting, point the same way.
+
+**Who was there when each hegemony began?** An engineer is counted if he arrived before the start and left at most three seasons before it. When his departure date is not known and he arrived more than three seasons earlier, his presence is marked as uncertain.
 
 {% include hegemonies.html quoi="racines" %}
 
@@ -122,15 +205,20 @@ Two engineers are present at the start of three of the nine team hegemonies:
 - [Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/): Williams 1991, McLaren 1998 and Red Bull 2010, plus Red Bull 2021, where his presence is uncertain because no departure date from Red Bull is recorded;
 - [Geoff Willis]({{ site.baseurl }}/en/engineers/geoff-willis/): Williams 1991, Red Bull 2010 and Mercedes 2014.
 
-[Ross Brawn]({{ site.baseurl }}/en/engineers/ross-brawn/) is present at the start of two hegemonies, Ferrari 1999 and Mercedes 2014, and perhaps a third, Williams 1991. This does not measure their merit, which the [ranking]({{ site.baseurl }}/en/features/methode/) assesses differently: it locates where they were.
+[Ross Brawn]({{ site.baseurl }}/en/engineers/ross-brawn/) is present at the start of two hegemonies, Ferrari 1999 and Mercedes 2014, and perhaps a third, Williams 1991.
 
-### 3. Regulations
+<details>
+<summary>The summary and the moves one by one</summary>
+{% include hegemonies.html quoi="ingenieurs" %}
+</details>
 
-For each start of a hegemony, whether of a team, a driver or an engine maker, we look for a change of regulations on the timeline in the same year or the year before. For each end, we look for one in the year of the last dominant season or the year after.
+### 4. Regulations: reshuffling the pack without creating a dynasty
 
-**{{ TR.debuts_regle }} starts out of {{ TR.debuts }}** coincide with a change of regulations, and **{{ TR.fins_regle }} ends out of {{ TR.fins }}**. But these changes are so frequent that {{ TR.avec_regle }} seasons out of {{ TR.annees }} have one in the same window: roughly the same proportion. **On average, a change of regulations does not open or close a hegemony more often than an ordinary season.**
+From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a change of regulations on the timeline applies, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. The probability of such a gap by chance is {{ RB.p | times: 100 | round }}%, right at the usual threshold. **New regulations therefore very probably shake up the order.**
 
-Some coincidences are nevertheless clear:
+They do not, for all that, create a dynasty more often. {{ TR.debuts_regle }} hegemony starts out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, fall in the year of a change of regulations or the year after. Yet {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is the same.
+
+The regulations redeal the cards. Someone still has to know how to play the new hand, and this is where parts 1 to 3 meet. The clearest coincidences:
 
 - the [mandatory hybrid power unit]({{ site.baseurl }}/en/timeline/#c-groupe-propulseur-2014) of 2014 shortly precedes the hegemonies of Mercedes and of Hamilton;
 - the [2009 aerodynamic overhaul]({{ site.baseurl }}/en/timeline/#c-refonte-aero-2009) precedes Red Bull's;
@@ -138,7 +226,16 @@ Some coincidences are nevertheless clear:
 - the [3-litre formula]({{ site.baseurl }}/en/timeline/#c-formule-3-litres), in 1966, shortly follows the end of Climax's;
 - the [flat bottom]({{ site.baseurl }}/en/timeline/#c-fond-plat), in 1983, shortly follows the end of Ford's.
 
-In all five cases it is an overall redesign of the cars or engines, not a mere adjustment. These coincidences remain chronological: the timeline draws no sourced link between these regulations and the results.
+### What to take away
+
+A hegemony is rarely built on a single idea. The data rather suggest a sequence:
+
+1. **new regulations** reset the order to zero;
+2. a team answers them with an **innovation** that gives it two to three seasons' lead;
+3. it keeps that lead if it has managed to attract, or keep, the **engineers** able to renew the idea before it is copied;
+4. a **ban** on the innovation is not enough to stop it: it takes the next regulations.
+
+Mercedes in 2014 and Red Bull in 2010 follow this pattern almost step by step. Ferrari in 1999-2008 does not fit it, for lack of a milestone on the timeline.
 
 ## Limits
 
