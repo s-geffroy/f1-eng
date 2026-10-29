@@ -45,9 +45,10 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 
 {%- elsif include.quoi == "courtes" -%}
 {%- for h in H_h.courtes[include.unite] -%}
+  {%- comment -%} Nom sans ses dates (« Alfa Romeo (1950–1985) ») : la période suit déjà. {%- endcomment -%}
   {%- if include.unite == "ecurie" and h.id -%}
-    {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}<a href="{{ url_e_h }}{{ h.id }}/">{{ e_h.nom | default: h.nom }}</a>
-  {%- else -%}{{ h.nom }}{%- endif %} ({{ h.debut }}–{{ h.fin }}){% unless forloop.last %}, {% endunless -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}{%- assign n_h = e_h.nom | default: h.nom -%}<a href="{{ url_e_h }}{{ h.id }}/">{{ n_h | split: " (" | first }}</a>
+  {%- else -%}{{ h.nom | split: " (" | first }}{%- endif %} ({{ h.debut }}–{{ h.fin }}){% unless forloop.last %}, {% endunless -%}
 {%- endfor -%}
 
 {%- elsif include.quoi == "jalons" -%}
