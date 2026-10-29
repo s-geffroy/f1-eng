@@ -1,0 +1,54 @@
+{%- comment -%}
+  Généalogie verticale des écuries (_data/ecuries.yml) : les années de haut en bas sur la gauche, les
+  lignées en colonnes (champ « colonne », calculé à la génération : deux lignées d'une même colonne
+  sont séparées d'au moins une saison). Chaque nom est une carte posée à la hauteur de ses saisons ;
+  plus la carte est longue, plus elle en montre : nom et saisons, puis motoristes, puis ingénieurs
+  clés, puis photo. Commune aux deux langues.
+{%- endcomment -%}
+{%- assign lang_g = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_g = site.data.i18n[lang_g] -%}
+{%- if lang_g == "en" -%}{%- assign E_g = site.data.en.ecuries -%}{%- else -%}{%- assign E_g = site.data.ecuries -%}{%- endif -%}
+{%- assign debut_g = 1950 -%}
+{%- assign fin_g = 2026 -%}
+{%- assign nb_cols = E_g.lignees | map: "colonne" | sort | last -%}
+{%- assign url_g = T_g.url.ecuries | relative_url -%}
+<div class="genealogie" style="--colonnes: {{ nb_cols }}; --annees: {{ fin_g | minus: debut_g | plus: 1 }};">
+  {%- for a in (debut_g..fin_g) %}{% assign m5 = a | modulo: 5 %}{% if m5 == 0 %}
+  {%- assign r = a | minus: debut_g | plus: 1 %}{% assign m10 = a | modulo: 10 %}
+  <span class="gen-annee{% if m10 == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r }};" aria-hidden="true">{{ a }}</span>
+  <span class="gen-regle{% if m10 == 0 %} gen-regle-decennie{% endif %}" style="grid-row: {{ r }};" aria-hidden="true"></span>
+  {%- endif %}{% endfor %}
+  {%- for l in E_g.lignees %}
+  {%- assign col = l.colonne | plus: 1 %}
+  {%- for s in l.segments %}
+  {%- assign e = E_g.ecuries | where: "id", s.ecurie | first %}
+  {%- assign r1 = s.de | minus: debut_g | plus: 1 %}
+  {%- assign r2 = s.a | minus: debut_g | plus: 2 %}
+  {%- assign duree = s.a | minus: s.de | plus: 1 %}
+  {%- if duree >= 10 %}{% assign cl = "longue" %}{% elsif duree >= 6 %}{% assign cl = "moyenne" %}{% elsif duree >= 3 %}{% assign cl = "courte" %}{% else %}{% assign cl = "breve" %}{% endif %}
+  <article{% if forloop.first %} id="l-{{ l.id }}"{% endif %} class="carte-ecurie duree-{{ cl }}{% if s.lien.preuve == 'discute' %} preuve-discute{% endif %}{% if forloop.index0 > 0 %} carte-suite{% endif %}" style="grid-column: {{ col }}; grid-row: {{ r1 }} / {{ r2 }};">
+    {%- if forloop.first and l.segments.size > 1 %}
+    <p class="carte-lignee">{{ l.nom }}</p>
+    {%- elsif s.lien %}
+    <p class="carte-lignee">{{ T_g.ecuries.types[s.lien.type] }}</p>
+    {%- elsif forloop.index0 > 0 %}
+    <p class="carte-lignee">{{ T_g.ecuries.retour }}</p>
+    {%- endif %}
+    <h3><a href="{{ url_g }}{{ e.id }}/">{{ e.nom }}</a> <span>{{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}</span></h3>
+    {%- if e.moteurs.size > 0 %}
+    <p class="carte-moteurs">
+      {%- for m in e.moteurs %}{% if m.a >= s.de and m.de <= s.a %}{% assign mo = E_g.motoristes | where: "id", m.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo.couleur | default: 0 }}" title="{{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}"></i>{% endif %}{% endfor -%}
+    </p>
+    {%- endif %}
+    {%- if e.ingenieurs_cles %}
+    <p class="carte-ingenieurs">{% for i in e.ingenieurs_cles %}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {%- endif %}
+    {%- if e.photo %}
+    {%- assign url_v = T_g.url.voitures | append: e.photo.voiture | append: "/" %}
+    {%- assign v = site[T_g.collection_voitures] | where: "url", url_v | first %}
+    <a class="carte-photo" href="{{ v.url | relative_url }}"><img src="{{ e.photo.fichier | relative_url }}" alt="{{ v.title }}" loading="lazy"><span>{{ v.title }}</span></a>
+    {%- endif %}
+  </article>
+  {%- endfor %}
+  {%- endfor %}
+</div>

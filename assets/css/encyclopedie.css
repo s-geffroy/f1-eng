@@ -789,6 +789,67 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .frise-fiche h2 { font-size: 1.5rem; margin: 0 0 0.5rem; }
 .frise-fiche .frise-defilement + .frise-defilement { margin-top: 0.75rem; }
 
+/* ---------- Écuries : généalogie verticale ----------
+   Années de haut en bas (une rangée de grille par saison, --an de haut), une colonne par usine.
+   Une carte par nom, de sa première à sa dernière saison ; plus elle est longue, plus elle en
+   montre (classes duree-*). L'axe des années reste visible au défilement horizontal. */
+.genealogie-defilement {
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  background: var(--feuille); border: var(--trait-fort) solid var(--graphite);
+}
+.genealogie {
+  --an: 2.3rem; --large: 9.75rem; --axe: 3.75rem;
+  display: grid; position: relative;
+  grid-template-columns: var(--axe) repeat(var(--colonnes), var(--large));
+  grid-template-rows: repeat(var(--annees), var(--an));
+  column-gap: 0.4rem; padding: 0.75rem 0.75rem 0.75rem 0;
+  width: max-content;
+}
+.gen-annee {
+  grid-column: 1; position: sticky; left: 0; z-index: 3;
+  align-self: start; margin-top: -0.6rem; padding: 0 0.5rem;
+  background: var(--feuille);
+  font-family: var(--titre); font-size: 0.875rem; font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums;
+}
+.gen-decennie { font-size: 1.0625rem; font-weight: 700; color: var(--graphite); }
+.gen-regle { grid-column: 2 / -1; border-top: var(--trait-fin) dotted var(--trait-clair); z-index: 0; }
+.gen-regle-decennie { border-top: var(--trait-fin) solid var(--trait); }
+.carte-ecurie {
+  position: relative; z-index: 1; overflow: hidden; margin: 1px 0;
+  display: flex; flex-direction: column; gap: 0.15rem;
+  padding: 0.2rem 0.4rem;
+  background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-left: 4px solid var(--graphite);
+  font-size: 0.8125rem; line-height: 1.25;
+  scroll-margin: 2rem;
+}
+.carte-ecurie:hover, .carte-ecurie:focus-within { z-index: 4; overflow: visible; height: max-content; min-height: 100%; box-shadow: 0 3px 0 var(--graphite); }
+.carte-ecurie:target { outline: 2px solid var(--graphite); outline-offset: 2px; }
+.carte-suite { border-top-color: var(--feuille); margin-top: -1px; }
+.carte-ecurie.preuve-discute { border-top: 2px dashed var(--tier-a); }
+.carte-lignee { margin: 0; font-family: var(--titre); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--mine); }
+.carte-ecurie h3 { margin: 0; font-family: var(--titre); font-size: 1.0625rem; font-weight: 700; line-height: 1.15; }
+.carte-ecurie h3 a { text-decoration: none; }
+.carte-ecurie h3 a:hover, .carte-ecurie h3 a:focus-visible { text-decoration: underline; }
+.carte-ecurie h3 span { font-size: 0.8125rem; font-weight: 500; color: var(--mine); white-space: nowrap; }
+.carte-moteurs { margin: 0; display: flex; flex-wrap: wrap; gap: 0.15rem; }
+.carte-moteurs .moteur-pastille { margin: 0; width: 0.75rem; height: 0.75rem; }
+.carte-ingenieurs { margin: 0; color: var(--mine); }
+.carte-photo { display: block; margin-top: auto; text-decoration: none; }
+.carte-photo img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; filter: grayscale(1) contrast(1.05); }
+.carte-photo span { display: block; font-size: 0.75rem; color: var(--mine); }
+/* ce qu'une carte montre selon sa longueur */
+.duree-breve { flex-direction: row; align-items: center; padding-block: 0; }
+.duree-breve .carte-lignee, .duree-breve .carte-moteurs, .duree-breve .carte-ingenieurs, .duree-breve .carte-photo,
+.duree-courte .carte-ingenieurs, .duree-courte .carte-photo,
+.duree-moyenne .carte-photo { display: none; }
+.duree-breve h3 { font-size: 0.9375rem; white-space: nowrap; }
+.carte-ecurie:hover .carte-lignee, .carte-ecurie:hover .carte-moteurs, .carte-ecurie:hover .carte-ingenieurs,
+.carte-ecurie:focus-within .carte-lignee, .carte-ecurie:focus-within .carte-moteurs, .carte-ecurie:focus-within .carte-ingenieurs { display: flex; flex-wrap: wrap; }
+.duree-breve:hover, .duree-breve:focus-within { flex-direction: column; align-items: stretch; padding-block: 0.2rem; }
+.legende-carte { display: inline-block; width: 1.4rem; height: 0.9rem; background: var(--feuille); border: var(--trait-fin) solid var(--graphite); border-left: 4px solid var(--graphite); }
+.legende-carte-discute { border-top: 2px dashed var(--tier-a); }
+.legende-moteurs-carte span { display: inline-flex; align-items: center; }
+
 /* ---------- Accueil : portail ---------- */
 
 .portail-recherche { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 1.25rem; max-width: 40rem; }

@@ -1,107 +1,32 @@
 {%- comment -%}
-  Page des écuries, commune aux deux langues (_data/ecuries.yml, _data/en/ecuries.yml) :
-  la frise ; les lignées des usines, en chaînes comme les lignées techniques (chaque passage justifié :
-  type, preuve, pourquoi, sources ; règle de _dossiers/causalite.md : un passage sans pourquoi ni sources
-  n'est pas publié) ; l'index alphabétique des fiches (/ecuries/<id>/).
+  Page des écuries, commune aux deux langues (_data/ecuries.yml, _data/en/ecuries.yml) : la généalogie
+  verticale (_includes/genealogie.html), une carte par nom d'écurie. Chaque carte mène à la fiche de
+  l'écurie, où chaque passage d'un nom à l'autre est justifié par ses sources (_dossiers/causalite.md).
 {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign E = D.ecuries -%}
-{%- assign url_e = T.url.ecuries | relative_url -%}
-{%- assign chaines = "" | split: "" -%}
-{%- for l in E.lignees -%}{%- if l.segments.size > 1 or l.actuelle -%}{%- assign chaines = chaines | push: l -%}{%- endif -%}{%- endfor -%}
-{%- assign fiches = site[T.collection_ecuries] | sort: "nom_tri" -%}
-{%- assign lettres = fiches | group_by_exp: "f", "f.nom_tri | slice: 0" -%}
 <section class="page-tete">
   <h1>{{ T.ecuries.titre }}</h1>
   <p class="accroche">{{ T.ecuries.accroche }}</p>
   <p class="ecuries-perimetre">{{ T.ecuries.perimetre }}</p>
 </section>
 
-<section class="frise frise-ecuries" aria-label="{{ T.ecuries.aria }}">
+<section class="genealogie-cadre" aria-label="{{ T.ecuries.aria }}">
   {%- assign pv = D.chronologie.preuves %}
-  <p class="frise-legende">{{ T.ecuries.legende }}
-    <span><i class="legende-segment" aria-hidden="true"></i>{{ T.ecuries.types.rachat }}, {{ T.ecuries.types.renommage }}</span>
-    <span><i class="legende-segment legende-discute" aria-hidden="true"></i>{{ pv[2].nom }}</span>
-    <span><i class="legende-voiture" aria-hidden="true"></i>{{ T.ecuries.voitures }}</span>
+  <p class="frise-legende">{{ T.ecuries.lecture }}
+    <span><i class="legende-carte" aria-hidden="true"></i>{{ T.ecuries.legende_carte }}</span>
+    <span><i class="legende-carte legende-carte-discute" aria-hidden="true"></i>{{ T.ecuries.legende_discute }} ({{ pv[2].nom }})</span>
     <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a>
   </p>
-  <div class="frise-bandes">
-    <label><input type="checkbox" id="couche-moteurs"> {{ T.ecuries.couche_moteurs }}</label>
-    <span class="legende-moteurs">
-      {%- assign colores = E.motoristes | where_exp: "m", "m.couleur" | sort: "couleur" %}
-      {%- for m in colores %}<span><i class="moteur-pastille" data-couleur="{{ m.couleur }}" aria-hidden="true"></i>{{ m.nom }}</span>{% endfor %}
-      <span><i class="moteur-pastille" data-couleur="0" aria-hidden="true"></i>{{ T.ecuries.autres_moteurs }}</span>
-    </span>
+  <p class="frise-legende legende-moteurs-carte">{{ T.ecuries.motoristes }} :
+    {%- assign colores = E.motoristes | where_exp: "m", "m.couleur" | sort: "couleur" %}
+    {%- for m in colores %} <span><i class="moteur-pastille" data-couleur="{{ m.couleur }}" aria-hidden="true"></i>{{ m.nom }}</span>{% endfor %}
+    <span><i class="moteur-pastille" data-couleur="0" aria-hidden="true"></i>{{ T.ecuries.autres_moteurs }}</span>
+  </p>
+  <div class="genealogie-defilement">
+    {% include genealogie.html %}
   </div>
-  <div class="frise-defilement">
-    {% include frise-ecuries.html debut=1945 fin=2026 %}
-  </div>
-  <p class="jalons-note">{{ T.ecuries.moteurs_note }}</p>
+  <p class="jalons-note">{{ T.ecuries.note }} {{ T.ecuries.moteurs_note }}</p>
 </section>
-
-<section class="ecuries-usines" aria-labelledby="titre-usines">
-  <h2 id="titre-usines">{{ T.ecuries.usines_titre }}</h2>
-  <p class="accroche">{{ T.ecuries.usines_accroche }}</p>
-  {%- for l in chaines %}
-  <section class="lignee" id="l-{{ l.id }}">
-    <h3>{{ l.nom }}</h3>
-    {%- if l.usines %}
-    {%- assign liens_u = "" | split: "" %}
-    {%- for u in l.usines %}{% for src in u.sources %}{% capture a %}<a href="{{ src.url }}">{{ src.titre }}</a>{% endcapture %}{% assign liens_u = liens_u | push: a %}{% endfor %}{% endfor %}
-    <p class="usines-ligne"><span>{{ T.ecuries.usine }}</span>
-      {%- for u in l.usines %} {{ u.lieu }} ({{ u.periode }}){% unless forloop.last %} →{% endunless %}{% endfor %}
-      <small>{{ liens_u | uniq | join: " ; " }}</small></p>
-    {%- endif %}
-    <ol class="chaine">
-      {%- for s in l.segments %}
-      {%- assign e = E.ecuries | where: "id", s.ecurie | first %}
-      <li><a href="{{ url_e }}{{ e.id }}/">{{ e.nom }}</a> <span>{{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}</span></li>
-      {%- endfor %}
-    </ol>
-    <ol class="liens-lignee">
-      {%- for s in l.segments %}
-      {%- if s.lien and s.lien.pourquoi and s.lien.sources.size > 0 %}
-      {%- assign p = D.chronologie.preuves | where: "id", s.lien.preuve | first %}
-      {%- assign e = E.ecuries | where: "id", s.ecurie | first %}
-      <li>
-        <p><b>{{ e.nom }}, {{ s.de }}</b> · {{ T.ecuries.types[s.lien.type] }}. {% include lier-noms.html texte=s.lien.pourquoi %} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b></p>
-        <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
-          {%- for src in s.lien.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
-      </li>
-      {%- endif %}
-      {%- endfor %}
-      {%- if l.texte %}
-      <li>
-        <p>{% include lier-noms.html texte=l.texte %}</p>
-        <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
-          {%- for src in l.texte_sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</p>
-      </li>
-      {%- endif %}
-    </ol>
-  </section>
-  {%- endfor %}
-</section>
-
-<section class="index ecuries-index" aria-labelledby="titre-index-ecuries">
-  <div class="index-tete">
-    <h2 id="titre-index-ecuries">{{ T.ecuries.index_titre }}</h2>
-    <nav class="lettres" aria-label="{{ T.ecuries.index_lettres }}">
-      {%- for g in lettres %}
-      <a href="#lettre-{{ g.name }}">{{ g.name | upcase }}</a>
-      {%- endfor %}
-    </nav>
-  </div>
-  {%- for g in lettres %}
-  <div class="index-groupe" id="lettre-{{ g.name }}">
-    <h3 class="lettre">{{ g.name | upcase }}</h3>
-    <ul class="ecuries-liste">
-      {%- for f in g.items %}
-      <li><a href="{{ f.url | relative_url }}">{{ f.title }}</a> <span>{{ f.saisons }}</span></li>
-      {%- endfor %}
-    </ul>
-  </div>
-  {%- endfor %}
-</section>
-<p class="jalons-note">{{ T.ecuries.note }} <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a></p>

@@ -352,7 +352,19 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 if segs[0]["de"] <= f0 and d0 <= segs[-1]["a"]:
                     err(f"{chemin} : lignées {autre} et {l.get('id')} se chevauchent sur la rangée {r}")
             occupees.setdefault(r, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
-    signature.append(sorted((l.get("id"), l.get("rangee"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
+    # colonnes de la généalogie verticale : deux lignées d'une même colonne séparées d'au moins une saison
+    par_col = {}
+    for l in E.get("lignees") or []:
+        c, segs = l.get("colonne"), l.get("segments") or []
+        if not isinstance(c, int):
+            err(f"{chemin} : lignée {l.get('id')} sans colonne")
+            continue
+        if segs and all(isinstance(x.get(k), int) for x in segs for k in ("de", "a")):
+            for (d0, f0, autre) in par_col.get(c, []):
+                if segs[0]["de"] <= f0 + 1 and d0 <= segs[-1]["a"] + 1:
+                    err(f"{chemin} : lignées {autre} et {l.get('id')} trop proches dans la colonne {c}")
+            par_col.setdefault(c, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
+    signature.append(sorted((l.get("id"), l.get("rangee"), l.get("colonne"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
     for e in sorted(set(ids_ec) - utilisees):
         err(f"{chemin} : écurie {e} absente de toute lignée")
     signature.append(sorted((l.get("id"), [(u.get("de"), u.get("a"), [x.get("url") for x in u.get("sources") or []]) for u in l.get("usines") or []])
