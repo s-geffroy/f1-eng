@@ -800,23 +800,38 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   background: var(--feuille); border: var(--trait-fort) solid var(--graphite);
 }
 .genealogie {
-  --an: 2.3rem; --large: 9.75rem; --axe: 4.5rem; --tete: 2.6rem;
+  --an: 2.3rem; --large: 9.75rem; --axe: 11.5rem; --tete: 2.6rem;
   display: grid; position: relative;
   grid-template-columns: var(--axe) repeat(var(--usines), var(--large)) 1.25rem repeat(var(--autres), var(--large));
   grid-template-rows: var(--tete) auto repeat(var(--annees), var(--an));
   column-gap: 0.4rem; padding: 0 0.75rem 0.75rem 0;
   width: max-content;
 }
+/* colonne de gauche : saison, nombre d'écuries, champions (constructeurs, écurie du pilote champion) */
 .gen-annee {
-  grid-column: 1; position: sticky; left: 0; z-index: 3;
-  align-self: start; margin-top: -0.6rem; padding: 0 0.5rem;
-  background: var(--feuille);
-  font-family: var(--titre); font-size: 0.875rem; font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums;
+  grid-column: 1; position: sticky; left: 0; z-index: 5;
+  padding: 0.1rem 0.5rem; overflow: hidden;
+  background: var(--feuille); border-right: var(--trait-fort) solid var(--graphite); border-top: var(--trait-fin) solid #eef1f2;
+  font-family: var(--titre); font-size: 0.875rem; font-weight: 500; line-height: 1.05rem; color: var(--mine); font-variant-numeric: tabular-nums;
 }
-.gen-annee small { font-size: 0.75rem; font-weight: 600; color: var(--feuille); background: var(--mine); padding: 0 0.25rem; margin-left: 0.2rem; }
-.gen-lustre { color: var(--graphite); font-weight: 600; }
-.gen-decennie { font-size: 1.0625rem; font-weight: 700; color: var(--graphite); }
-.gen-coin { grid-column: 1; grid-row: 1 / 3; position: sticky; top: 0; left: 0; z-index: 7; background: var(--feuille); }
+.gen-annee b { color: var(--graphite); }
+.gen-titres { display: flex; gap: 0.5rem; font-size: 0.75rem; white-space: nowrap; overflow: hidden; }
+.gen-titres > span { overflow: hidden; text-overflow: ellipsis; }
+.gen-titres .titre-c, .gen-titres .titre-p { min-width: 0.85rem; font-size: 0.625rem; line-height: 0.85rem; padding: 0 0.1rem; }
+.gen-titres a { color: var(--graphite); text-decoration: none; }
+.gen-titres a:hover { text-decoration: underline; }
+.gen-annee small { font-size: 0.6875rem; font-weight: 600; color: var(--feuille); background: var(--mine); padding: 0 0.25rem; margin-left: 0.2rem; }
+.gen-lustre b { font-size: 0.9375rem; }
+.gen-decennie { border-top: var(--trait-fin) solid var(--trait); }
+.gen-decennie b { font-size: 1.0625rem; }
+.gen-coin {
+  grid-column: 1; grid-row: 1 / 3; position: sticky; top: 0; left: 0; z-index: 7; margin: 0;
+  display: flex; flex-direction: column; justify-content: flex-end; gap: 0.1rem; padding: 0.4rem 0.5rem;
+  background: var(--feuille); border-right: var(--trait-fort) solid var(--graphite); border-bottom: var(--trait-fort) solid var(--graphite);
+  font-family: var(--titre); font-size: 0.75rem; color: var(--mine); line-height: 1.15;
+}
+.gen-coin b { font-size: 1rem; color: var(--graphite); }
+.gen-coin small { font-size: 0.75rem; color: var(--feuille); background: var(--mine); padding: 0 0.25rem; align-self: flex-start; }
 .gen-groupe {
   grid-row: 1; position: sticky; top: 0; z-index: 6; align-self: stretch;
   margin: 0; padding: 0.55rem 0 0.2rem; background: var(--feuille); border-bottom: var(--trait-fort) solid var(--graphite);

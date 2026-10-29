@@ -23,7 +23,7 @@
 {%- assign sep_g = nb_u | plus: 2 -%}
 {%- assign url_g = T_g.url.ecuries | relative_url -%}
 <div class="genealogie" style="--usines: {{ nb_u }}; --autres: {{ nb_a }}; --annees: {{ fin_g | minus: debut_g | plus: 1 }};">
-  <span class="gen-coin" aria-hidden="true"></span>
+  <p class="gen-coin"><b>{{ T_g.ecuries.saison }}</b> <small>{{ T_g.ecuries.ecuries_court }}</small><span><abbr class="titre-c">C</abbr> {{ T_g.ecuries.champion_c }}</span><span><abbr class="titre-p">P</abbr> {{ T_g.ecuries.champion_p }}</span></p>
   <p class="gen-groupe" style="grid-column: 2 / {{ sep_g }};">{{ T_g.ecuries.groupe_usines }}</p>
   <p class="gen-groupe" style="grid-column: {{ sep_g | plus: 1 }} / -1;">{{ T_g.ecuries.groupe_autres }} <span>{{ T_g.ecuries.groupe_autres_aide }}</span></p>
   <span class="gen-separation" style="grid-column: {{ sep_g }};" aria-hidden="true"></span>
@@ -35,7 +35,16 @@
   {%- endfor %}
   {%- for sa_g in E_g.saisons %}
   {%- assign a_g = sa_g.annee %}{% assign r_g = a_g | minus: debut_g | plus: 3 %}{% assign m5_g = a_g | modulo: 5 %}{% assign m10_g = a_g | modulo: 10 %}
-  <span class="gen-annee{% if m10_g == 0 %} gen-decennie{% elsif m5_g == 0 %} gen-lustre{% endif %}" style="grid-row: {{ r_g }};">{{ a_g }}{% if a_g >= 1958 %} <small title="{{ sa_g.ecuries }} {{ T_g.ecuries.ecuries_saison }}">{{ sa_g.ecuries }}</small>{% endif %}</span>
+  {%- assign ec_c_g = E_g.ecuries | where: "id", sa_g.constructeurs | first %}{% assign ec_p_g = E_g.ecuries | where: "id", sa_g.pilote_ecurie | first %}
+  <div class="gen-annee{% if m10_g == 0 %} gen-decennie{% elsif m5_g == 0 %} gen-lustre{% endif %}" style="grid-row: {{ r_g }};">
+    <b>{{ a_g }}</b>{% if a_g >= 1958 %} <small title="{{ sa_g.ecuries }} {{ T_g.ecuries.ecuries_saison }}">{{ sa_g.ecuries }}</small>{% endif %}
+    {%- if ec_c_g or sa_g.pilote %}
+    <span class="gen-titres">
+      {%- if ec_c_g %}<span title="{{ a_g }} : {{ T_g.ecuries.champion_c }}"><abbr class="titre-c">C</abbr> <a href="{{ url_g }}{{ ec_c_g.id }}/">{{ ec_c_g.nom }}</a></span>{% endif -%}
+      {%- if sa_g.pilote %}<span title="{{ a_g }} : {{ T_g.ecuries.champion_p }}, {{ sa_g.pilote }}"><abbr class="titre-p">P</abbr> {% if ec_p_g %}<a href="{{ url_g }}{{ ec_p_g.id }}/">{{ ec_p_g.nom }}</a>{% else %}{{ sa_g.pilote_equipe }}{% endif %}</span>{% endif -%}
+    </span>
+    {%- endif %}
+  </div>
   <span class="gen-regle{% if m10_g == 0 %} gen-regle-decennie{% elsif m5_g == 0 %} gen-regle-lustre{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true"></span>
   {%- endfor %}
   {%- for l_g in E_g.lignees %}

@@ -186,12 +186,14 @@ saisons:
 - annee: 1954
   ecuries: 7
   pilote: Juan Manuel Fangio
+  pilote_equipe: Mercedes-Benz
   sources:
   - titre: Formula 1, résultats, « 1954 Drivers' Standings »
     url: https://www.formula1.com/en/results/1954/drivers
 - annee: 1955
   ecuries: 7
   pilote: Juan Manuel Fangio
+  pilote_equipe: Mercedes-Benz
   sources:
   - titre: Formula 1, résultats, « 1955 Drivers' Standings »
     url: https://www.formula1.com/en/results/1955/drivers
@@ -1482,13 +1484,22 @@ lignees:
       url: https://www.formula1.com/en/teams/cadillac
     - titre: Autosport, Ed Hardy, « Cadillac to run F1 2026 operation from Silverstone while US base under construction » (septembre 2025)
       url: https://www.autosport.com/f1/news/cadillac-to-run-f1-2026-operation-from-silverstone-while-us-base-under-construction/10760237/
+- id: cooper
+  nom: Cooper
+  segments:
+  - ecurie: cooper
+    de: 1950
+    a: 1969
+  rangee: 12
+  groupe: autres
+  colonne: 2
 - id: maserati
   nom: Maserati
   segments:
   - ecurie: maserati
     de: 1950
     a: 1960
-  rangee: 12
+  rangee: 13
   groupe: autres
   colonne: 4
 - id: alfa-romeo-1979
@@ -1500,7 +1511,7 @@ lignees:
   - ecurie: alfa-romeo-1979
     de: 1979
     a: 1985
-  rangee: 13
+  rangee: 14
   groupe: autres
   colonne: 1
   usine: Senago
@@ -1526,15 +1537,6 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, « Alfa Romeo » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/alfa-romeo.html
-- id: cooper
-  nom: Cooper
-  segments:
-  - ecurie: cooper
-    de: 1950
-    a: 1969
-  rangee: 14
-  groupe: autres
-  colonne: 2
 - id: kurtis-kraft
   nom: Kurtis Kraft
   texte: Constructeur américain présent surtout aux 500 miles d'Indianapolis, comptées au championnat de 1950 à 1960 ; il prend aussi le départ du Grand Prix des États-Unis 1959 à Sebring, avec Rodger Ward (Formula 1).
@@ -1578,24 +1580,24 @@ lignees:
   rangee: 17
   groupe: autres
   colonne: 6
-- id: lancia
-  nom: Lancia
-  segments:
-  - ecurie: lancia
-    de: 1954
-    a: 1955
-  rangee: 18
-  groupe: autres
-  colonne: 7
 - id: vanwall
   nom: Vanwall
   segments:
   - ecurie: vanwall
     de: 1954
     a: 1960
-  rangee: 19
+  rangee: 18
   groupe: autres
   colonne: 8
+- id: lancia
+  nom: Lancia
+  segments:
+  - ecurie: lancia
+    de: 1954
+    a: 1955
+  rangee: 19
+  groupe: autres
+  colonne: 7
 - id: emeryson
   nom: Emeryson et Scirocco
   segments:
@@ -1644,27 +1646,27 @@ lignees:
   - ecurie: team-lotus
     de: 1958
     a: 1994
-  rangee: 18
+  rangee: 19
   groupe: autres
   colonne: 9
-- id: tec-mec
-  nom: Tec-Mec
-  segments:
-  - ecurie: tec-mec
-    de: 1959
-    a: 1959
-  rangee: 22
-  groupe: autres
-  colonne: 12
 - id: aston-martin-1959
   nom: Aston Martin (1959–1960)
   segments:
   - ecurie: aston-martin-1959
     de: 1959
     a: 1960
-  rangee: 23
+  rangee: 22
   groupe: autres
   colonne: 10
+- id: tec-mec
+  nom: Tec-Mec
+  segments:
+  - ecurie: tec-mec
+    de: 1959
+    a: 1959
+  rangee: 23
+  groupe: autres
+  colonne: 12
 - id: jbw
   nom: JBW
   segments:
@@ -1692,6 +1694,15 @@ lignees:
   rangee: 26
   groupe: autres
   colonne: 13
+- id: gilby
+  nom: Gilby
+  segments:
+  - ecurie: gilby
+    de: 1961
+    a: 1963
+  rangee: 27
+  groupe: autres
+  colonne: 15
 - id: de-tomaso
   nom: De Tomaso
   segments:
@@ -1701,7 +1712,7 @@ lignees:
   - ecurie: de-tomaso
     de: 1970
     a: 1970
-  rangee: 27
+  rangee: 28
   groupe: autres
   colonne: 6
   usine: Modène
@@ -1713,15 +1724,6 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, « De Tomaso Automobili SpA » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/de-tomaso-automobili-spa.html
-- id: gilby
-  nom: Gilby
-  segments:
-  - ecurie: gilby
-    de: 1961
-    a: 1963
-  rangee: 28
-  groupe: autres
-  colonne: 15
 - id: ferguson
   nom: Ferguson
   segments:
@@ -1731,39 +1733,6 @@ lignees:
   rangee: 29
   groupe: autres
   colonne: 12
-- id: enb
-  nom: ENB
-  segments:
-  - ecurie: enb
-    de: 1962
-    a: 1962
-  rangee: 17
-  groupe: autres
-  colonne: 4
-- id: lds
-  nom: LDS
-  segments:
-  - ecurie: lds
-    de: 1962
-    a: 1963
-  - ecurie: lds
-    de: 1965
-    a: 1965
-  - ecurie: lds
-    de: 1967
-    a: 1968
-  rangee: 22
-  groupe: autres
-  colonne: 8
-- id: brabham
-  nom: Brabham
-  segments:
-  - ecurie: brabham
-    de: 1962
-    a: 1992
-  rangee: 30
-  groupe: autres
-  colonne: 3
 - id: lola
   nom: Lola
   segments:
@@ -1779,7 +1748,7 @@ lignees:
   - ecurie: lola
     de: 1985
     a: 1986
-  rangee: 31
+  rangee: 17
   groupe: autres
   colonne: 10
   usine: Huntingdon
@@ -1814,6 +1783,48 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, « Haas/FORCE (Formula One Race Car Engineering) » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/haasforce-formula-one-race-car-engineering.html
+- id: lds
+  nom: LDS
+  segments:
+  - ecurie: lds
+    de: 1962
+    a: 1963
+  - ecurie: lds
+    de: 1965
+    a: 1965
+  - ecurie: lds
+    de: 1967
+    a: 1968
+  rangee: 23
+  groupe: autres
+  colonne: 8
+- id: enb
+  nom: ENB
+  segments:
+  - ecurie: enb
+    de: 1962
+    a: 1962
+  rangee: 30
+  groupe: autres
+  colonne: 4
+- id: brabham
+  nom: Brabham
+  segments:
+  - ecurie: brabham
+    de: 1962
+    a: 1992
+  rangee: 31
+  groupe: autres
+  colonne: 3
+- id: brp
+  nom: BRP
+  segments:
+  - ecurie: brp
+    de: 1963
+    a: 1964
+  rangee: 13
+  groupe: autres
+  colonne: 13
 - id: alfa-special
   nom: Alfa Special
   texte: 'Voiture de Peter de Klerk, à moteur Alfa Romeo Giulietta réalésé : les résultats officiels l''inscrivent sous « Alfa Romeo », mais Motor Sport la nomme Alfa Special, et elle n''a rien à voir avec l''équipe d''usine.'
@@ -1827,7 +1838,7 @@ lignees:
   - ecurie: alfa-special
     de: 1965
     a: 1965
-  rangee: 12
+  rangee: 15
   groupe: autres
   colonne: 11
 - id: stebro
@@ -1836,25 +1847,16 @@ lignees:
   - ecurie: stebro
     de: 1963
     a: 1963
-  rangee: 15
+  rangee: 18
   groupe: autres
   colonne: 14
-- id: brp
-  nom: BRP
-  segments:
-  - ecurie: brp
-    de: 1963
-    a: 1964
-  rangee: 19
-  groupe: autres
-  colonne: 13
 - id: ats-1963
   nom: ATS (1963)
   segments:
   - ecurie: ats-1963
     de: 1963
     a: 1963
-  rangee: 23
+  rangee: 22
   groupe: autres
   colonne: 12
 - id: derrington-francis
@@ -1875,22 +1877,13 @@ lignees:
   rangee: 25
   groupe: autres
   colonne: 16
-- id: matra
-  nom: Matra
-  segments:
-  - ecurie: matra
-    de: 1966
-    a: 1972
-  rangee: 15
-  groupe: autres
-  colonne: 7
 - id: shannon
   nom: Shannon
   segments:
   - ecurie: shannon
     de: 1966
     a: 1966
-  rangee: 17
+  rangee: 18
   groupe: autres
   colonne: 12
 - id: eagle
@@ -1899,16 +1892,25 @@ lignees:
   - ecurie: eagle
     de: 1966
     a: 1969
-  rangee: 23
+  rangee: 22
   groupe: autres
   colonne: 4
+- id: matra
+  nom: Matra
+  segments:
+  - ecurie: matra
+    de: 1966
+    a: 1972
+  rangee: 26
+  groupe: autres
+  colonne: 7
 - id: protos
   nom: Protos
   segments:
   - ecurie: protos
     de: 1967
     a: 1967
-  rangee: 19
+  rangee: 13
   groupe: autres
   colonne: 11
 - id: tecno
@@ -1920,16 +1922,25 @@ lignees:
   - ecurie: tecno
     de: 1972
     a: 1973
-  rangee: 17
+  rangee: 18
   groupe: autres
   colonne: 11
+- id: bellasi
+  nom: Bellasi
+  segments:
+  - ecurie: bellasi
+    de: 1970
+    a: 1971
+  rangee: 13
+  groupe: autres
+  colonne: 8
 - id: surtees
   nom: Surtees
   segments:
   - ecurie: surtees
     de: 1970
     a: 1978
-  rangee: 12
+  rangee: 15
   groupe: autres
   colonne: 12
 - id: march
@@ -1974,7 +1985,7 @@ lignees:
         url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
       - titre: 'Goodwood, Russell Campbell, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)'
         url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
-  rangee: 19
+  rangee: 20
   groupe: usine
   colonne: 13
   usine: Bicester
@@ -1995,31 +2006,13 @@ lignees:
       url: https://www.autosport.com/f1/news/autosport-70-the-lost-f1-team-that-launched-newey-4981789/4981789/
     - titre: 'Motor Sport, Adam Cooper, « Leyton House: the F1 team that fired Adrian Newey » (mars 2026)'
       url: https://www.motorsportmagazine.com/archive/article/march-2026/96/leyton-house-the-f1-team-that-fired-adrian-newey/
-- id: bellasi
-  nom: Bellasi
-  segments:
-  - ecurie: bellasi
-    de: 1970
-    a: 1971
-  rangee: 20
-  groupe: autres
-  colonne: 8
-- id: eifelland
-  nom: Eifelland
-  segments:
-  - ecurie: eifelland
-    de: 1972
-    a: 1972
-  rangee: 14
-  groupe: autres
-  colonne: 4
 - id: connew
   nom: Connew
   segments:
   - ecurie: connew
     de: 1972
     a: 1972
-  rangee: 21
+  rangee: 12
   groupe: autres
   colonne: 2
 - id: wolf
@@ -2074,7 +2067,7 @@ lignees:
         url: https://www.grandprix.com/constructors/walter-wolf-racing.html
       - titre: Motorsport.com, René Fagnan, « The story of Formula 1's first winning Wolf » (décembre 2015)
         url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
-  rangee: 22
+  rangee: 21
   groupe: usine
   colonne: 14
   usine: Reading
@@ -2101,6 +2094,15 @@ lignees:
       url: https://www.grandprix.com/constructors/walter-wolf-racing.html
     - titre: Motor Sport, Simon Taylor, « Lunch with… Walter Wolf » (janvier 2015)
       url: https://www.motorsportmagazine.com/archive/article/january-2015/80/lunch-walter-wolf/
+- id: eifelland
+  nom: Eifelland
+  segments:
+  - ecurie: eifelland
+    de: 1972
+    a: 1972
+  rangee: 22
+  groupe: autres
+  colonne: 4
 - id: shadow
   nom: Shadow et Theodore
   segments:
@@ -2169,15 +2171,42 @@ lignees:
       url: https://www.autosport.com/f1/news/the-new-f1-teams-of-1973-5102482/5102482/
     - titre: Grandprix.com, Joe Saward, « Ensign (Team Ensign) » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/ensign-team-ensign.html
-- id: hesketh
-  nom: Hesketh
+- id: token
+  nom: Token
   segments:
-  - ecurie: hesketh
+  - ecurie: token
     de: 1974
-    a: 1978
-  rangee: 20
+    a: 1974
+  rangee: 13
   groupe: autres
-  colonne: 4
+  colonne: 7
+- id: trojan
+  nom: Trojan
+  segments:
+  - ecurie: trojan
+    de: 1974
+    a: 1974
+  rangee: 25
+  groupe: autres
+  colonne: 8
+- id: amon
+  nom: Amon
+  segments:
+  - ecurie: amon
+    de: 1974
+    a: 1974
+  rangee: 27
+  groupe: autres
+  colonne: 2
+- id: parnelli
+  nom: Parnelli
+  segments:
+  - ecurie: parnelli
+    de: 1974
+    a: 1976
+  rangee: 28
+  groupe: autres
+  colonne: 6
 - id: penske
   nom: Penske et ATS (1978–1984)
   segments:
@@ -2198,7 +2227,7 @@ lignees:
         url: https://www.oldracingcars.com/penske/pc4/
       - titre: OldRacingCars.com, Allen Brown, « ATS HS1 car-by-car histories »
         url: https://www.oldracingcars.com/ats/hs1/
-  rangee: 25
+  rangee: 29
   groupe: usine
   colonne: 17
   usine: Bicester
@@ -2221,69 +2250,60 @@ lignees:
       url: https://www.motorsportmagazine.com/archive/article/january-1998/57/wheel-nut/
     - titre: The Race, Jim Wright, « Remembering a very different F1 pioneer » (février 2026)
       url: https://www.the-race.com/formula-1/remembering-a-very-different-f1-pioneer-john-macdonald/
-- id: token
-  nom: Token
+- id: hesketh
+  nom: Hesketh
   segments:
-  - ecurie: token
+  - ecurie: hesketh
     de: 1974
-    a: 1974
-  rangee: 26
+    a: 1978
+  rangee: 30
   groupe: autres
-  colonne: 7
-- id: trojan
-  nom: Trojan
-  segments:
-  - ecurie: trojan
-    de: 1974
-    a: 1974
-  rangee: 27
-  groupe: autres
-  colonne: 8
-- id: parnelli
-  nom: Parnelli
-  segments:
-  - ecurie: parnelli
-    de: 1974
-    a: 1976
-  rangee: 28
-  groupe: autres
-  colonne: 6
-- id: amon
-  nom: Amon
-  segments:
-  - ecurie: amon
-    de: 1974
-    a: 1974
-  rangee: 29
-  groupe: autres
-  colonne: 2
-- id: fittipaldi
-  nom: Fittipaldi
-  segments:
-  - ecurie: fittipaldi
-    de: 1975
-    a: 1982
-  rangee: 14
-  groupe: autres
-  colonne: 11
-- id: lyncar
-  nom: Lyncar
-  segments:
-  - ecurie: lyncar
-    de: 1975
-    a: 1975
-  rangee: 15
-  groupe: autres
-  colonne: 14
+  colonne: 4
 - id: hill
   nom: Hill
   segments:
   - ecurie: hill
     de: 1975
     a: 1975
-  rangee: 21
+  rangee: 12
   groupe: autres
   colonne: 13
+- id: lyncar
+  nom: Lyncar
+  segments:
+  - ecurie: lyncar
+    de: 1975
+    a: 1975
+  rangee: 22
+  groupe: autres
+  colonne: 14
+- id: fittipaldi
+  nom: Fittipaldi
+  segments:
+  - ecurie: fittipaldi
+    de: 1975
+    a: 1982
+  rangee: 26
+  groupe: autres
+  colonne: 11
+- id: boro
+  nom: Boro
+  segments:
+  - ecurie: boro
+    de: 1976
+    a: 1977
+  rangee: 18
+  groupe: autres
+  colonne: 2
+- id: kojima
+  nom: Kojima
+  segments:
+  - ecurie: kojima
+    de: 1976
+    a: 1977
+  rangee: 32
+  groupe: autres
+  colonne: 7
 - id: ligier
   nom: 'Ligier : de Ligier à Prost'
   segments:
@@ -2300,7 +2320,7 @@ lignees:
       sources:
       - titre: GrandPrix.com, « Prost takes over Ligier... » (février 1997)
         url: https://www.grandprix.com/news/prost-takes-over-ligier.html
-  rangee: 17
+  rangee: 33
   groupe: usine
   colonne: 18
   usine: Guyancourt
@@ -2332,69 +2352,51 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, « Prost Grand Prix » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/prost-grand-prix.html
-- id: kojima
-  nom: Kojima
-  segments:
-  - ecurie: kojima
-    de: 1976
-    a: 1977
-  rangee: 32
-  groupe: autres
-  colonne: 7
-- id: boro
-  nom: Boro
-  segments:
-  - ecurie: boro
-    de: 1976
-    a: 1977
-  rangee: 33
-  groupe: autres
-  colonne: 2
-- id: renault-1977
-  nom: Renault (1977–1985)
-  segments:
-  - ecurie: renault-1977
-    de: 1977
-    a: 1985
-  rangee: 26
-  groupe: autres
-  colonne: 13
 - id: lec
   nom: LEC
   segments:
   - ecurie: lec
     de: 1977
     a: 1977
-  rangee: 27
+  rangee: 13
   groupe: autres
   colonne: 8
-- id: theodore-1978
-  nom: Theodore
+- id: renault-1977
+  nom: Renault (1977–1985)
   segments:
-  - ecurie: theodore
-    de: 1978
-    a: 1978
-  rangee: 15
+  - ecurie: renault-1977
+    de: 1977
+    a: 1985
+  rangee: 25
   groupe: autres
-  colonne: 15
-- id: martini
-  nom: Martini
-  segments:
-  - ecurie: martini
-    de: 1978
-    a: 1978
-  rangee: 21
-  groupe: autres
-  colonne: 6
+  colonne: 13
 - id: merzario
   nom: Merzario
   segments:
   - ecurie: merzario
     de: 1978
     a: 1979
-  rangee: 29
+  rangee: 12
   groupe: autres
   colonne: 14
+- id: martini
+  nom: Martini
+  segments:
+  - ecurie: martini
+    de: 1978
+    a: 1978
+  rangee: 22
+  groupe: autres
+  colonne: 6
+- id: theodore-1978
+  nom: Theodore
+  segments:
+  - ecurie: theodore
+    de: 1978
+    a: 1978
+  rangee: 27
+  groupe: autres
+  colonne: 15
 - id: arrows
   nom: 'Arrows : Arrows et Footwork'
   segments:
@@ -2477,7 +2479,7 @@ lignees:
         url: https://www.grandprix.com/features/joe-saward/news-feature-the-fondmetal-f1-team.html
       - titre: GrandPrix.com, fiche constructeur « Fondmetal F1 SpA »
         url: https://www.grandprix.com/constructors/fondmetal-f1-spa.html
-  rangee: 16
+  rangee: 13
   groupe: usine
   colonne: 20
   usine: Palosco
@@ -2514,7 +2516,7 @@ lignees:
       sources:
       - titre: GrandPrix.com, « RAM Automotive »
         url: https://www.grandprix.com/constructors/ram-automotive.html
-  rangee: 12
+  rangee: 15
   groupe: usine
   colonne: 21
   usine: Bicester
@@ -2534,7 +2536,7 @@ lignees:
   - ecurie: spirit
     de: 1983
     a: 1985
-  rangee: 15
+  rangee: 12
   groupe: autres
   colonne: 2
 - id: zakspeed
@@ -2543,7 +2545,7 @@ lignees:
   - ecurie: zakspeed
     de: 1985
     a: 1989
-  rangee: 14
+  rangee: 16
   groupe: autres
   colonne: 4
 - id: ags
@@ -2552,7 +2554,7 @@ lignees:
   - ecurie: ags
     de: 1986
     a: 1991
-  rangee: 20
+  rangee: 18
   groupe: autres
   colonne: 5
 - id: larrousse
@@ -2587,7 +2589,7 @@ lignees:
       sources:
       - titre: GrandPrix.com, « Larrousse »
         url: https://www.grandprix.com/constructors/larrousse.html
-  rangee: 21
+  rangee: 22
   groupe: usine
   colonne: 23
   usine: Signes
@@ -2640,15 +2642,31 @@ lignees:
     sources:
     - titre: Autosport, « How a lawyer-turned-journalist became a crucial player in Alfa's F1 revival » (octobre 2023)
       url: https://www.autosport.com/f1/news/how-a-lawyer-turned-journalist-became-a-crucial-player-in-alfas-f1-revival/10528203/
-- id: rial
-  nom: Rial
+- id: eurobrun
+  nom: EuroBrun
+  texte: 'Aucune EuroBrun ne se qualifie en 1989 (GrandPrix.com) : la saison n''est pas comptée, et l''écurie revient en 1990.'
+  texte_sources:
+  - titre: GrandPrix.com, « EuroBrun »
+    url: https://www.grandprix.com/constructors/eurobrun.html
   segments:
-  - ecurie: rial
+  - ecurie: eurobrun
     de: 1988
-    a: 1989
-  rangee: 13
+    a: 1988
+  - ecurie: eurobrun
+    de: 1990
+    a: 1990
+  rangee: 12
   groupe: autres
-  colonne: 2
+  colonne: 1
+  usine: Senago
+  usines:
+  - lieu: Senago, près de Milan (Italie)
+    de: 1988
+    a: 1988
+    periode: '1988'
+    sources:
+    - titre: Grandprix.com, Joe Saward, « EuroBrun » (encyclopédie, s.d.)
+      url: https://www.grandprix.com/constructors/eurobrun.html
 - id: scuderia-italia
   nom: Dallara et Lola (BMS Scuderia Italia)
   segments:
@@ -2665,7 +2683,7 @@ lignees:
       sources:
       - titre: GrandPrix.com, « Giuseppe Lucchini »
         url: https://www.grandprix.com/people/giuseppe-lucchini.html
-  rangee: 15
+  rangee: 14
   groupe: usine
   colonne: 24
   usine: Brescia
@@ -2677,38 +2695,22 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, « Scuderia Italia » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/scuderia-italia.html
-- id: eurobrun
-  nom: EuroBrun
-  texte: 'Aucune EuroBrun ne se qualifie en 1989 (GrandPrix.com) : la saison n''est pas comptée, et l''écurie revient en 1990.'
-  texte_sources:
-  - titre: GrandPrix.com, « EuroBrun »
-    url: https://www.grandprix.com/constructors/eurobrun.html
+- id: rial
+  nom: Rial
   segments:
-  - ecurie: eurobrun
+  - ecurie: rial
     de: 1988
-    a: 1988
-  - ecurie: eurobrun
-    de: 1990
-    a: 1990
+    a: 1989
   rangee: 24
   groupe: autres
-  colonne: 1
-  usine: Senago
-  usines:
-  - lieu: Senago, près de Milan (Italie)
-    de: 1988
-    a: 1988
-    periode: '1988'
-    sources:
-    - titre: Grandprix.com, Joe Saward, « EuroBrun » (encyclopédie, s.d.)
-      url: https://www.grandprix.com/constructors/eurobrun.html
+  colonne: 2
 - id: onyx
   nom: Onyx
   segments:
   - ecurie: onyx
     de: 1989
     a: 1990
-  rangee: 25
+  rangee: 17
   groupe: autres
   colonne: 6
 - id: lambo
@@ -2717,16 +2719,7 @@ lignees:
   - ecurie: lambo
     de: 1991
     a: 1991
-  rangee: 12
-  groupe: autres
-  colonne: 2
-- id: simtek
-  nom: Simtek
-  segments:
-  - ecurie: simtek
-    de: 1994
-    a: 1995
-  rangee: 12
+  rangee: 15
   groupe: autres
   colonne: 2
 - id: pacific
@@ -2735,16 +2728,25 @@ lignees:
   - ecurie: pacific
     de: 1994
     a: 1995
-  rangee: 13
+  rangee: 12
   groupe: autres
   colonne: 1
+- id: simtek
+  nom: Simtek
+  segments:
+  - ecurie: simtek
+    de: 1994
+    a: 1995
+  rangee: 15
+  groupe: autres
+  colonne: 2
 - id: forti
   nom: Forti
   segments:
   - ecurie: forti
     de: 1995
     a: 1996
-  rangee: 14
+  rangee: 16
   groupe: autres
   colonne: 3
 - id: toyota
@@ -2763,15 +2765,6 @@ lignees:
     de: 2006
     a: 2008
   rangee: 13
-  groupe: autres
-  colonne: 2
-- id: hrt
-  nom: HRT
-  segments:
-  - ecurie: hrt
-    de: 2010
-    a: 2012
-  rangee: 14
   groupe: autres
   colonne: 2
 - id: manor
@@ -2806,7 +2799,7 @@ lignees:
         url: https://www.espn.com/f1/story/_/id/14608552/manor-reveals-new-name-logo
       - titre: Autosport, Jonathan Noble et Matt Beer, « Manor worth saving, says new investor Stephen Fitzpatrick » (mars 2015)
         url: https://www.autosport.com/f1/news/manor-worth-saving-says-new-investor-stephen-fitzpatrick-5016692/5016692/
-  rangee: 15
+  rangee: 14
   groupe: usine
   colonne: 26
   usine: Banbury
@@ -2843,6 +2836,15 @@ lignees:
     sources:
     - titre: Autosport, Jonathan Noble, « Operator of Manor Formula 1 team goes into administration » (janvier 2017)
       url: https://www.autosport.com/f1/news/operator-of-manor-formula-1-team-goes-into-administration-5025662/5025662/
+- id: hrt
+  nom: HRT
+  segments:
+  - ecurie: hrt
+    de: 2010
+    a: 2012
+  rangee: 15
+  groupe: autres
+  colonne: 2
 - id: caterham
   nom: Lotus (2010–2011) et Caterham
   segments:
