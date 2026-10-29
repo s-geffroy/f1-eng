@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Carte des usines (page des écuries) : projette le fond de carte et les lieux d'usine dans trois panneaux
-(Europe, zoom sur l'Angleterre, Caroline du Nord) et écrit _data/carte_usines.yml, que lit
-_includes/carte-usines.html.
+"""Carte des usines (page des cartes) : projette le fond de carte et les lieux d'usine dans des panneaux
+(zoom sur l'Angleterre, Europe, Amérique du Nord, Brésil, Japon, Afrique du Sud, Australie ; un panneau sans lieu n'est pas produit)
+et écrit _data/carte_usines.yml, que lit _includes/carte-usines.html.
 
 Usage : python3 outils/carte-usines.py <ne_50m_admin_0_countries.geojson>
 Le fond vient de Natural Earth (domaine public), pays à 1:50 m, version 5.1.2 :
@@ -15,11 +15,21 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 
 # panneau : (identifiant, lon min, lon max, lat min, lat max, largeur en px)
+# Un lieu va dans le premier panneau qui le contient, dans cet ordre de priorité : les zooms d'abord.
+# Un panneau dessine un cadre à l'emplacement de chaque zoom qu'il contient. Ordre d'affichage : AFFICHAGE.
 PANNEAUX = [
-    ("europe", -6.5, 15.0, 42.6, 55.2, 640),
+    ("londres", -0.85, 0.25, 51.15, 51.78, 560),
+    ("italie-nord", 7.3, 12.6, 43.9, 45.95, 560),
+    ("los-angeles", -118.6, -117.35, 33.3, 34.3, 420),
     ("angleterre", -2.35, 1.25, 50.55, 53.55, 560),
-    ("amerique", -84.5, -75.0, 33.0, 37.5, 280),
+    ("europe", -9.5, 16.5, 36.5, 55.5, 640),
+    ("amerique-nord", -124.0, -70.0, 25.0, 49.0, 640),
+    ("bresil", -58.0, -38.0, -30.0, -15.0, 320),
+    ("japon", 129.0, 145.0, 31.0, 41.0, 320),
+    ("afrique-sud", 16.0, 33.5, -35.0, -22.0, 320),
+    ("australie", 112.0, 155.0, -44.0, -10.0, 320),
 ]
+AFFICHAGE = ["europe", "angleterre", "londres", "italie-nord", "amerique-nord", "los-angeles", "bresil", "japon", "afrique-sud", "australie"]
 TAILLE = 10.5          # corps des étiquettes (px), pour l'estimation de leur largeur
 CHASSE = 0.56          # largeur moyenne d'un caractère, en corps
 
@@ -55,24 +65,35 @@ def fond(features, proj, lo0, lo1, la0, la1, largeur, hauteur):
     return "".join(morceaux)
 
 def placer(points, largeur, hauteur):
-    """Étiquette de chaque point : à droite, à gauche, au-dessus ou au-dessous, sans chevaucher les autres."""
-    pris = [(p["x"] - 4, p["y"] - 4, 8, 8) for p in points]
+    """Étiquette de chaque point : on essaie huit directions, à trois distances croissantes, et l'on garde la
+    première position qui ne chevauche ni une autre étiquette ni un point. Au-delà de la première distance,
+    un trait relie l'étiquette à son point (champ « trait »)."""
+    pris = [(p["x"] - 5, p["y"] - 5, 10, 10) for p in points]
     def libre(r):
         return (0 <= r[0] and r[0] + r[2] <= largeur and 0 <= r[1] and r[1] + r[3] <= hauteur and
                 all(r[0] + r[2] <= q[0] or q[0] + q[2] <= r[0] or r[1] + r[3] <= q[1] or q[1] + q[3] <= r[1] for q in pris))
-    for p in sorted(points, key=lambda p: p["x"]):
+    # (dx, dy) unitaires et ancre du texte
+    directions = [(1, 0, "start"), (-1, 0, "end"), (0, -1, "middle"), (0, 1, "middle"),
+                  (1, -1, "start"), (1, 1, "start"), (-1, -1, "end"), (-1, 1, "end")]
+    for p in sorted(points, key=lambda p: (p["x"], p["y"])):
         w, h = len(p["nom"]) * TAILLE * CHASSE, TAILLE
-        essais = [("start", 7, 3.5, (p["x"] + 6, p["y"] - h / 2, w, h)),
-                  ("end", -7, 3.5, (p["x"] - 6 - w, p["y"] - h / 2, w, h)),
-                  ("middle", 0, -7, (p["x"] - w / 2, p["y"] - 6 - h, w, h)),
-                  ("middle", 0, 14, (p["x"] - w / 2, p["y"] + 6, w, h)),
-                  ("start", 6, -6, (p["x"] + 5, p["y"] - 6 - h, w, h)),
-                  ("start", 6, 13, (p["x"] + 5, p["y"] + 5, w, h)),
-                  ("end", -6, -6, (p["x"] - 5 - w, p["y"] - 6 - h, w, h)),
-                  ("end", -6, 13, (p["x"] - 5 - w, p["y"] + 5, w, h))]
-        choix = next((e for e in essais if libre(e[3])), essais[0])
-        p["ancre"], p["dx"], p["dy"] = choix[0], choix[1], choix[2]
-        pris.append(choix[3])
+        choix = None
+        for rayon in (8, 20, 34):
+            for ux, uy, ancre in directions:
+                ax, ay = p["x"] + ux * rayon, p["y"] + uy * rayon * 0.8      # point d'accroche de l'étiquette
+                x0 = ax if ancre == "start" else ax - w if ancre == "end" else ax - w / 2
+                y0 = ay - h / 2 if uy == 0 else (ay - h if uy < 0 else ay)
+                r = (x0, y0, w, h)
+                if libre(r):
+                    choix = (ancre, ax - p["x"], y0 + h * 0.82 - p["y"], rayon > 8, ax - p["x"], ay - p["y"], r); break
+            if choix: break
+        if choix is None:
+            r = (p["x"] + 8, p["y"] - h / 2, w, h)
+            choix = ("start", 8, h * 0.32, False, 8, 0, r)
+        p["ancre"], p["dx"], p["dy"] = choix[0], round(choix[1], 1), round(choix[2], 1)
+        if choix[3]:
+            p["trait"] = [round(choix[4], 1), round(choix[5], 1)]
+        pris.append(choix[6])
 
 def main():
     if len(sys.argv) != 2:
@@ -80,29 +101,39 @@ def main():
     features = json.load(open(sys.argv[1], encoding="utf-8"))["features"]
     lieux = yaml.safe_load(open("_data/usines-coordonnees.yml", encoding="utf-8"))
     sortie = {"panneaux": []}
-    for pid, lo0, lo1, la0, la1, largeur in PANNEAUX:
+    place = {}
+    for l in lieux:
+        for pid, lo0, lo1, la0, la1, _ in PANNEAUX:
+            if lo0 <= l["lon"] <= lo1 and la0 <= l["lat"] <= la1:
+                place[l["id"]] = pid
+                break
+    for pid, lo0, lo1, la0, la1, largeur in sorted(PANNEAUX, key=lambda p: AFFICHAGE.index(p[0])):
+        if pid not in place.values():
+            continue
         proj, hauteur = projeteur(lo0, lo1, la0, la1, largeur)
         pan = {"id": pid, "largeur": largeur, "hauteur": hauteur, "fond": fond(features, proj, lo0, lo1, la0, la1, largeur, hauteur), "points": []}
         for l in lieux:
-            dans = lo0 <= l["lon"] <= lo1 and la0 <= l["lat"] <= la1
-            # l'Europe ne montre pas les lieux du zoom sur l'Angleterre (un cadre y renvoie)
-            if pid == "europe" and PANNEAUX[1][1] <= l["lon"] <= PANNEAUX[1][2] and PANNEAUX[1][3] <= l["lat"] <= PANNEAUX[1][4]:
-                dans = False
-            if dans:
+            if place.get(l["id"]) == pid:
                 x, y = proj(l["lon"], l["lat"])
                 pan["points"].append({"lieu": l["id"], "nom": l["nom"], "x": round(x, 1), "y": round(y, 1)})
         placer(pan["points"], largeur, hauteur)
         for p in pan["points"]:
             del p["nom"]
-        if pid == "europe":
-            _, a0, a1, b0, b1, _ = PANNEAUX[1]
-            x0, y0 = proj(a0, b1); x1, y1 = proj(a1, b0)
-            pan["cadre"] = {"x": round(x0, 1), "y": round(y0, 1), "l": round(x1 - x0, 1), "h": round(y1 - y0, 1)}
+        # cadres des zooms contenus dans ce panneau (et qui ont des lieux)
+        pan["cadres"] = []
+        for zid, a0, a1, b0, b1, _ in PANNEAUX:
+            if zid != pid and zid in place.values() and lo0 <= a0 and a1 <= lo1 and la0 <= b0 and b1 <= la1:
+                x0, y0 = proj(a0, b1); x1, y1 = proj(a1, b0)
+                pan["cadres"].append({"zoom": zid, "x": round(x0, 1), "y": round(y0, 1), "l": round(x1 - x0, 1), "h": round(y1 - y0, 1)})
+        # un zoom déjà contenu dans un autre zoom du même panneau n'a pas son propre cadre (Londres dans l'Angleterre)
+        boites = {c["zoom"]: c for c in pan["cadres"]}
+        pan["cadres"] = [c for c in pan["cadres"] if not any(
+            o is not c and o["x"] <= c["x"] and o["y"] <= c["y"] and c["x"] + c["l"] <= o["x"] + o["l"] and c["y"] + c["h"] <= o["y"] + o["h"]
+            for o in boites.values())]
         sortie["panneaux"].append(pan)
-    places = {p["lieu"] for pan in sortie["panneaux"] for p in pan["points"]}
     for l in lieux:
-        if l["id"] not in places:
-            print(f"attention : {l['id']} hors des trois panneaux", file=sys.stderr)
+        if l["id"] not in place:
+            print(f"attention : {l['id']} hors de tous les panneaux", file=sys.stderr)
     entete = ("# Carte des usines : produit par outils/carte-usines.py (ne pas modifier a la main).\n"
               "# Fond : Natural Earth, pays 1:50 m (domaine public) ; lieux : _data/usines-coordonnees.yml.\n")
     open("_data/carte_usines.yml", "w", encoding="utf-8").write(entete + yaml.safe_dump(sortie, allow_unicode=True, sort_keys=False, width=100000))

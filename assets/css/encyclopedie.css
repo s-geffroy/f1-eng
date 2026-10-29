@@ -897,10 +897,11 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .carte-panneaux { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: 1rem; align-items: start; }
 .carte-panneau { margin: 0; background: var(--feuille); border: var(--trait-fort) solid var(--graphite); }
 .carte-panneau svg { display: block; width: 100%; height: auto; }
-.carte-amerique { max-width: 22rem; }
+.carte-bresil, .carte-japon, .carte-afrique-sud, .carte-australie { max-width: 22rem; }
 .carte-panneau figcaption { padding: 0.3rem 0.5rem; border-top: var(--trait-fin) solid var(--trait); font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); }
 .carte-terre { fill: #dfe4e6; stroke: var(--feuille); stroke-width: 0.8; }
 .carte-cadre { fill: none; stroke: var(--graphite); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.carte-rappel { stroke: var(--mine); stroke-width: 0.8; }
 .carte-panneau a { text-decoration: none; }
 .carte-panneau text { font-family: var(--titre); font-size: 10.5px; font-weight: 600; fill: var(--graphite); paint-order: stroke; stroke: var(--feuille); stroke-width: 3px; stroke-linejoin: round; }
 .point-actuel { fill: var(--graphite); stroke: var(--feuille); stroke-width: 1.5; }
@@ -908,6 +909,21 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .carte-panneau a:hover circle, .carte-panneau a:focus-visible circle { fill: var(--tier-a); }
 .carte-panneau a:hover text, .carte-panneau a:focus-visible text { fill: var(--tier-a); }
 .legende-point { width: 0.9rem; height: 0.9rem; vertical-align: -0.1em; margin-right: 0.3rem; }
+.glyphe-soufflerie { fill: #12707a; stroke: var(--feuille); stroke-width: 1.2; }
+.glyphe-moteur { fill: #b5462e; stroke: var(--feuille); stroke-width: 1.2; }
+.carte-panneau a:hover .glyphe-soufflerie, .carte-panneau a:hover .glyphe-moteur { fill: var(--tier-a); }
+/* calques : chaque case masque un type de repère ; un lieu dont tous les types sont masqués disparaît */
+.carte-usines:has(#calque-usine:not(:checked)) .glyphe-usine,
+.carte-usines:has(#calque-soufflerie:not(:checked)) .glyphe-soufflerie,
+.carte-usines:has(#calque-moteur:not(:checked)) .glyphe-moteur { display: none; }
+.carte-usines:has(#calque-usine:not(:checked)) .pt[data-types="u"],
+.carte-usines:has(#calque-soufflerie:not(:checked)) .pt[data-types="s"],
+.carte-usines:has(#calque-moteur:not(:checked)) .pt[data-types="m"],
+.carte-usines:has(#calque-usine:not(:checked)):has(#calque-soufflerie:not(:checked)) .pt[data-types="u s"],
+.carte-usines:has(#calque-usine:not(:checked)):has(#calque-moteur:not(:checked)) .pt[data-types="u m"],
+.carte-usines:has(#calque-soufflerie:not(:checked)):has(#calque-moteur:not(:checked)) .pt[data-types="s m"],
+.carte-usines:has(#calque-usine:not(:checked)):has(#calque-soufflerie:not(:checked)):has(#calque-moteur:not(:checked)) .pt[data-types="u s m"] { display: none; }
+.carte-calques label { flex-wrap: wrap; }
 
 /* ---------- Accueil : portail ---------- */
 

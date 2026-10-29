@@ -25,6 +25,8 @@ layout: default
 {%- endif -%}{%- endfor -%}{%- endfor -%}
 {%- assign usines_e = "" | split: "" -%}
 {%- for l in ses_lignees -%}{%- for u in l.usines -%}{%- if u.a >= e_de and u.de <= e_a -%}{%- assign usines_e = usines_e | push: u -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- assign souffleries_e = "" | split: "" -%}
+{%- for l in ses_lignees -%}{%- for u in l.souffleries -%}{%- if u.a >= e_de and u.de <= e_a -%}{%- assign souffleries_e = souffleries_e | push: u -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
 {%- assign par_nom = site[T.collection_ecuries] | sort: "nom_tri" -%}
 {%- for x in par_nom -%}{%- if x.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
 {%- assign i_prec = i | minus: 1 -%}
@@ -178,6 +180,18 @@ layout: default
       <ul class="usines">
         {%- for u in usines_e %}
         <li>{{ u.lieu }}, {{ u.periode }}
+          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in u.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</span></li>
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endif %}
+
+    {%- if souffleries_e.size > 0 %}
+    <section class="passage">
+      <h2>{{ T.ecuries.souffleries }}</h2>
+      <ul class="usines">
+        {%- for u in souffleries_e %}
+        <li>{{ u.lieu }}, {{ u.periode }}{% if u.statut == "loue" %} ({{ T.ecuries.carte_louee }}){% endif %}
           <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in u.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}</span></li>
         {%- endfor %}
       </ul>

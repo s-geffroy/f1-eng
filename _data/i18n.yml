@@ -27,6 +27,7 @@ fr:
     entrees: "/ingenieurs/"
     voitures: "/voitures/"
     ecuries: "/ecuries/"
+    cartes: "/cartes/"
     index_recherche: "/recherche.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
@@ -35,6 +36,7 @@ fr:
     - { url: "/", nom: "Accueil" }
     - { url: "/ingenieurs/", nom: "Ingénieurs" }
     - { url: "/ecuries/", nom: "Écuries" }
+    - { url: "/cartes/", nom: "Cartes" }
     - { url: "/voitures/", nom: "Voitures" }
     - { url: "/chronologie/", nom: "Chronologie" }
     - { url: "/lignees/", nom: "Lignées" }
@@ -144,14 +146,25 @@ fr:
     retour: "retour après une absence"
     lecture: "Lecture :"
     saison: "Saison"
-    carte_titre: "Les usines sur la carte"
-    carte_accroche: "Où les écuries ont construit leurs voitures. L'Angleterre, et surtout l'Oxfordshire et le Northamptonshire, concentre la plupart des usines : elle a son propre zoom. Survolez un point pour voir les lignées et leurs années sur place ; un clic mène à la lignée dans la généalogie."
+    carte_titre: "Les sites des écuries et des motoristes"
+    carte_usines_court: "usine"
+    carte_souffleries: "soufflerie"
+    carte_moteurs: "usine de motoriste"
+    carte_louee: "louée ou partagée"
+    carte_accroche: "Où les écuries ont construit leurs voitures, où elles les ont essayées en soufflerie, et où les motoristes ont fabriqué leurs moteurs. L'Angleterre, et surtout l'Oxfordshire et le Northamptonshire, concentre la plupart des sites : elle a son propre zoom. Une écurie peut avoir plusieurs sites à la fois. Survolez un repère pour voir qui y était et quand ; un clic mène à la lignée dans la généalogie."
     carte_actuelle: "usine d'une écurie engagée en 2026"
     carte_ancienne: "usine plus ancienne"
-    carte_europe: "Europe (le cadre renvoie au zoom sur l'Angleterre)"
-    carte_angleterre: "Angleterre"
-    carte_amerique: "Caroline du Nord (Haas)"
-    carte_sources: "Fond de carte : Natural Earth (domaine public). Coordonnées des villes : OpenStreetMap (Nominatim), consultées le 29 octobre 2026. Lieux et années des usines : voir les fiches des écuries, où chacun est sourcé."
+    carte_europe: "Europe (les cadres renvoient aux zooms)"
+    carte_londres: "Londres et le Surrey"
+    carte_italie-nord: "Italie du Nord"
+    carte_los-angeles: "Région de Los Angeles"
+    carte_angleterre: "Angleterre (le cadre renvoie au zoom sur Londres)"
+    carte_amerique-nord: "Amérique du Nord (le cadre renvoie au zoom sur Los Angeles)"
+    carte_bresil: "Brésil"
+    carte_japon: "Japon"
+    carte_afrique-sud: "Afrique du Sud"
+    carte_australie: "Australie"
+    carte_sources: "Fond de carte : Natural Earth (domaine public). Coordonnées des villes : OpenStreetMap (Nominatim), consultées le 29 octobre 2026. Lieux et années des sites : chacun est sourcé, dans la fiche de l'écurie pour les usines et les souffleries."
     ecuries_court: "Écuries engagées"
     champion_c_court: "Champion constructeurs (titres)"
     champion_p_court: "Écurie du champion pilotes (titres)"
@@ -164,6 +177,7 @@ fr:
     saisons: "Saisons"
     lignee: "Lignée"
     usine: "Usine"
+    souffleries: "Souffleries"
     motoristes: "Motoristes"
     precedent: "Nom précédent"
     suivant: "Nom suivant"
@@ -185,6 +199,12 @@ fr:
       reprise-partielle: "reprise partielle"
       usine-motoriste: "reprise par un constructeur"
       changement-de-constructeur: "même équipe, autre constructeur de châssis"
+  cartes:
+    titre: "Cartes"
+    accroche: "Où les écuries de Formule 1 ont construit leurs voitures, de 1950 à aujourd'hui. Chaque lieu et chaque période d'occupation sont sourcés dans la fiche de l'écurie ; la généalogie complète est sur la page"
+    lien_ecuries: "des écuries"
+    voir: "La carte des usines est sur la page"
+    voir_lien: "Cartes"
   tiers:
     titre_page: "Tiers"
     description: "Les vingt ingénieurs répartis en quatre tiers, du changement de paradigme à l'impact plus localisé."
@@ -304,6 +324,7 @@ en:
     entrees: "/en/engineers/"
     voitures: "/en/cars/"
     ecuries: "/en/teams/"
+    cartes: "/en/maps/"
     index_recherche: "/en/search.json"
     pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
@@ -312,6 +333,7 @@ en:
     - { url: "/en/", nom: "Home" }
     - { url: "/en/engineers/", nom: "Engineers" }
     - { url: "/en/teams/", nom: "Teams" }
+    - { url: "/en/maps/", nom: "Maps" }
     - { url: "/en/cars/", nom: "Cars" }
     - { url: "/en/timeline/", nom: "Timeline" }
     - { url: "/en/lineages/", nom: "Lineages" }
@@ -421,14 +443,25 @@ en:
     retour: "return after an absence"
     lecture: "How to read:"
     saison: "Season"
-    carte_titre: "The factories on the map"
-    carte_accroche: "Where the teams built their cars. England, and above all Oxfordshire and Northamptonshire, holds most of the factories: it has its own close-up. Hover over a point to see the lineages and their years there; a click leads to the lineage in the family tree."
+    carte_titre: "Team and engine sites"
+    carte_usines_court: "factory"
+    carte_souffleries: "wind tunnel"
+    carte_moteurs: "engine plant"
+    carte_louee: "rented or shared"
+    carte_accroche: "Where the teams built their cars, where they tested them in wind tunnels, and where the engine makers built their engines. England, and above all Oxfordshire and Northamptonshire, holds most of the sites: it has its own close-up. A team may have several sites at once. Hover over a marker to see who was there and when; a click leads to the lineage in the family tree."
     carte_actuelle: "factory of a team entered in 2026"
     carte_ancienne: "earlier factory"
-    carte_europe: "Europe (the frame points to the close-up on England)"
-    carte_angleterre: "England"
-    carte_amerique: "North Carolina (Haas)"
-    carte_sources: "Base map: Natural Earth (public domain). Town coordinates: OpenStreetMap (Nominatim), accessed on 29 October 2026. Factory locations and years: see the team pages, where each is sourced."
+    carte_europe: "Europe (the frames point to the close-ups)"
+    carte_londres: "London and Surrey"
+    carte_italie-nord: "Northern Italy"
+    carte_los-angeles: "Los Angeles area"
+    carte_angleterre: "England (the frame points to the close-up on London)"
+    carte_amerique-nord: "North America (the frame points to the Los Angeles close-up)"
+    carte_bresil: "Brazil"
+    carte_japon: "Japan"
+    carte_afrique-sud: "South Africa"
+    carte_australie: "Australia"
+    carte_sources: "Base map: Natural Earth (public domain). Town coordinates: OpenStreetMap (Nominatim), accessed on 29 October 2026. Site locations and years: each is sourced, on the team page for factories and wind tunnels."
     ecuries_court: "Teams entered"
     champion_c_court: "Constructors' champion (titles)"
     champion_p_court: "Drivers' champion's team (titles)"
@@ -441,6 +474,7 @@ en:
     saisons: "Seasons"
     lignee: "Lineage"
     usine: "Factory"
+    souffleries: "Wind tunnels"
     motoristes: "Engine suppliers"
     precedent: "Previous name"
     suivant: "Next name"
@@ -462,6 +496,12 @@ en:
       reprise-partielle: "partial takeover"
       usine-motoriste: "taken over by a manufacturer"
       changement-de-constructeur: "same team, different chassis constructor"
+  cartes:
+    titre: "Maps"
+    accroche: "Where Formula 1 teams built their cars, from 1950 to today. Each place and each period is sourced on the team's page; the full family tree is on the"
+    lien_ecuries: "teams page"
+    voir: "The map of the factories is on the"
+    voir_lien: "Maps page"
   tiers:
     titre_page: "Tiers"
     description: "The twenty engineers split into four tiers, from paradigm change to more localised impact."

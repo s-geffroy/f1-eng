@@ -1,0 +1,8 @@
+{%- comment -%} Page des cartes, commune aux deux langues. Pour l'instant : la carte des usines (_includes/carte-usines.html). {%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+<section class="page-tete">
+  <h1>{{ T.cartes.titre }}</h1>
+  <p class="accroche">{{ T.cartes.accroche }} <a href="{{ T.url.ecuries | relative_url }}">{{ T.cartes.lien_ecuries }}</a>.</p>
+</section>
+{% include carte-usines.html %}

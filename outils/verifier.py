@@ -285,17 +285,18 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
     lieux_connus = {x["id"] for x in charger_yaml("_data/usines-coordonnees.yml") or []} if os.path.exists("_data/usines-coordonnees.yml") else set()
     lieux_carte = {p["lieu"] for pan in (charger_yaml("_data/carte_usines.yml") or {}).get("panneaux", []) for p in pan.get("points", [])} \
         if os.path.exists("_data/carte_usines.yml") else set()
-    for l in E.get("lignees") or []:
-        for u in l.get("usines") or []:
-            if not u.get("lieu") or not u.get("sources"):
-                err(f"{chemin} : lignée {l.get('id')}, usine sans lieu ou sans source")
-            for i in u.get("lieux") or []:
-                if i not in lieux_connus:
-                    err(f"{chemin} : lignée {l.get('id')}, lieu « {i} » absent de _data/usines-coordonnees.yml")
-                elif i not in lieux_carte:
-                    err(f"{chemin} : lignée {l.get('id')}, lieu « {i} » absent de la carte : python3 outils/carte-usines.py <fond>")
-            if not u.get("lieux"):
-                err(f"{chemin} : lignée {l.get('id')}, usine {u.get('lieu')} sans champ lieux")
+    sites = [(f"lignée {l.get('id')}", u) for l in E.get("lignees") or [] for u in (l.get("usines") or []) + (l.get("souffleries") or [])]
+    sites += [(f"motoriste {m.get('id')}", u) for m in E.get("motoristes") or [] for u in m.get("usines") or []]
+    for lieu_s, u in sites:
+        if not u.get("lieu") or not u.get("sources"):
+            err(f"{chemin} : {lieu_s}, site sans lieu ou sans source")
+        for i in u.get("lieux") or []:
+            if i not in lieux_connus:
+                err(f"{chemin} : {lieu_s}, lieu « {i} » absent de _data/usines-coordonnees.yml")
+            elif i not in lieux_carte:
+                err(f"{chemin} : {lieu_s}, lieu « {i} » absent de la carte : python3 outils/carte-usines.py <fond>")
+        if not u.get("lieux"):
+            err(f"{chemin} : {lieu_s}, site {u.get('lieu')} sans champ lieux")
     # une fiche par écurie dans la collection de la langue (générée par outils/fiches-ecuries.py)
     coll_ec = "_ecuries" if lang == "fr" else "_teams"
     fiches_ec = {f[:-3] for f in os.listdir(coll_ec) if f.endswith(".md")} if os.path.isdir(coll_ec) else set()
