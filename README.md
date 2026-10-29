@@ -201,6 +201,16 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   casse la construction (c'est arrive). Verifier avant de pousser :
   `python3 -c "import yaml,sys;[yaml.safe_load(open(f)) for f in sys.argv[1:]]" _data/*.yml`.
 
+### Hegemonies (`/dossiers/hegemonies/`)
+
+- `_data/resultats.yml` : vainqueur de chaque GP et classements finaux 1950-2025, releves sur
+  formula1.com par `python3 -I outils/releve-resultats.py <cache hors depot>`. Un nom d'equipe
+  inconnu arrete le script : completer sa table, ne pas deviner.
+- `_data/hegemonies.yml` : calcule par `python3 outils/hegemonies.py` (seuils en tete du script).
+  Les deux fichiers ne s'editent jamais a la main ; relancer les scripts apres une modification
+  des ecuries, des ingenieurs ou de la chronologie.
+- Tableaux du dossier : `_includes/hegemonies.html`, libelles dans `_data/i18n.yml` (hegemonies).
+
 ### Regles de contenu
 
 - Le contenu publie s'ecrit en francais normal, avec ses accents.

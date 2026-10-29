@@ -1,0 +1,129 @@
+{%- comment -%} Tableaux du dossier « Hégémonies », dans les deux langues, depuis _data/hegemonies.yml
+(calculé par outils/hegemonies.py). include.quoi : tableau (avec include.unite), courtes (idem),
+jalons, racines, ingenieurs. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
+{%- assign lang_h = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_h = site.data.i18n[lang_h] -%}
+{%- assign L_h = T_h.hegemonies -%}
+{%- if lang_h == "en" -%}{%- assign D_h = site.data.en -%}{%- assign pc_h = "%" -%}{%- else -%}{%- assign D_h = site.data -%}{%- assign pc_h = " %" -%}{%- endif -%}
+{%- assign H_h = site.data.hegemonies -%}
+{%- assign url_e_h = T_h.url.ecuries | relative_url -%}
+{%- assign url_c_h = T_h.url.chronologie | relative_url -%}
+
+{%- if include.quoi == "tableau" -%}
+<table>
+  <thead><tr><th>{{ L_h.entite }}</th><th>{{ L_h.periode }}</th><th>{{ L_h.dominantes }}</th><th>{{ L_h.titres }}</th><th>{{ L_h.victoires }}</th><th>{{ L_h.record }}</th><th>{% if include.unite == "ecurie" or include.unite == "lignee" %}{{ L_h.associes_moteur }}{% else %}{{ L_h.associes_ecurie }}{% endif %}</th><th>{{ L_h.robuste }}</th></tr></thead>
+  <tbody>
+  {%- for h in H_h.hegemonies[include.unite] %}
+    <tr>
+      <td>
+        {%- if include.unite == "ecurie" and h.id -%}
+          {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}<a href="{{ url_e_h }}{{ h.id }}/">{{ e_h.nom | default: h.nom }}</a>
+        {%- elsif include.unite == "lignee" and h.id -%}
+          {%- assign l_h = D_h.ecuries.lignees | where: "id", h.id | first -%}{{ l_h.nom | default: h.nom }}
+        {%- else -%}{{ h.nom }}{%- endif -%}
+      </td>
+      <td>{{ h.debut }}–{{ h.fin }}</td>
+      <td>{{ h.dominantes }} / {{ h.saisons }}</td>
+      <td>{{ h.titres }}</td>
+      <td>{{ h.victoires }} / {{ h.gp }} ({{ h.part | times: 100 | round }}{{ pc_h }})</td>
+      <td>{{ h.part_max | times: 100 | round }}{{ pc_h }}</td>
+      <td>
+        {%- for a in h.associes limit: 3 -%}
+          {%- if include.unite == "ecurie" or include.unite == "lignee" -%}
+            {%- assign m_h = D_h.ecuries.motoristes | where: "id", a | first -%}{{ m_h.nom | default: a }}
+          {%- else -%}
+            {%- assign c0_h = a | slice: 0 -%}
+            {%- if c0_h == "~" -%}{{ a | remove_first: "~" }}{%- else -%}{%- assign e_h = D_h.ecuries.ecuries | where: "id", a | first -%}<a href="{{ url_e_h }}{{ a }}/">{{ e_h.nom | default: a }}</a>{%- endif -%}
+          {%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%}
+      </td>
+      <td>{% if h.robuste %}{{ L_h.oui }}{% else %}{{ L_h.non }}{% endif %}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+
+{%- elsif include.quoi == "courtes" -%}
+{%- for h in H_h.courtes[include.unite] -%}
+  {%- if include.unite == "ecurie" and h.id -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}<a href="{{ url_e_h }}{{ h.id }}/">{{ e_h.nom | default: h.nom }}</a>
+  {%- else -%}{{ h.nom }}{%- endif %} ({{ h.debut }}–{{ h.fin }}){% unless forloop.last %}, {% endunless -%}
+{%- endfor -%}
+
+{%- elsif include.quoi == "jalons" -%}
+<table>
+  <thead><tr><th>{{ L_h.annee }}</th><th>{{ L_h.jalon }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.avant }}</th><th>{{ L_h.apres }}</th><th>{{ L_h.statut }}</th></tr></thead>
+  <tbody>
+  {%- for j in H_h.jalons %}
+    {%- assign jj_h = D_h.chronologie.jalons | where: "id", j.jalon | first -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", j.ecurie | first -%}
+    <tr>
+      <td>{{ j.annee }}</td>
+      <td><a href="{{ url_c_h }}#j-{{ j.jalon }}">{{ jj_h.titre }}</a></td>
+      <td><a href="{{ url_e_h }}{{ j.ecurie }}/">{{ e_h.nom }}</a></td>
+      <td>{{ j.avant | times: 100 | round }}{{ pc_h }}</td>
+      <td>{{ j.apres | times: 100 | round }}{{ pc_h }}</td>
+      <td>{% case j.statut %}{% when "ouvre" %}<strong>{{ L_h.statut_ouvre }}</strong>{% when "pendant" %}{{ L_h.statut_pendant }}{% else %}{{ L_h.statut_sans }}{% endcase %}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table>
+
+{%- elsif include.quoi == "racines" -%}
+<table>
+  <thead><tr><th>{{ L_h.hegemonie }}</th><th>{{ L_h.ingenieurs }}</th><th>{{ L_h.jalons }}</th><th>{{ L_h.regle_debut }}</th><th>{{ L_h.regle_fin }}</th></tr></thead>
+  <tbody>
+  {%- for h in H_h.hegemonies.ecurie %}{%- if h.id %}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", h.id | first -%}
+    <tr>
+      <td><a href="{{ url_e_h }}{{ h.id }}/">{{ e_h.nom }}</a> {{ h.debut }}–{{ h.fin }}</td>
+      <td>
+        {%- for i in h.ingenieurs -%}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}
+        {%- if h.ingenieurs_incertains.size > 0 %} ; <em>{{ L_h.incertains }}</em> : {% for i in h.ingenieurs_incertains -%}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}{%- endif -%}
+        {%- if h.ingenieurs.size == 0 and h.ingenieurs_incertains.size == 0 -%}{{ L_h.aucun }}{%- endif -%}
+      </td>
+      <td>
+        {%- for j in h.jalons -%}{%- assign jj_h = D_h.chronologie.jalons | where: "id", j | first -%}<a href="{{ url_c_h }}#j-{{ j }}">{{ jj_h.titre }}</a> ({{ jj_h.annee }}){% unless forloop.last %}, {% endunless %}{%- endfor -%}
+        {%- if h.jalons.size == 0 -%}{{ L_h.aucun }}{%- endif -%}
+      </td>
+      <td>
+        {%- for c in h.regles_debut -%}{%- assign cc_h = D_h.chronologie.contexte | where: "id", c | first -%}<a href="{{ url_c_h }}#c-{{ c }}">{{ cc_h.titre }}</a> ({{ cc_h.annee }}){% unless forloop.last %}, {% endunless %}{%- endfor -%}
+        {%- if h.regles_debut.size == 0 -%}{{ L_h.aucun }}{%- endif -%}
+      </td>
+      <td>
+        {%- for c in h.regles_fin -%}{%- assign cc_h = D_h.chronologie.contexte | where: "id", c | first -%}<a href="{{ url_c_h }}#c-{{ c }}">{{ cc_h.titre }}</a> ({{ cc_h.annee }}){% unless forloop.last %}, {% endunless %}{%- endfor -%}
+        {%- if h.regles_fin.size == 0 -%}{{ L_h.aucun }}{%- endif -%}
+      </td>
+    </tr>
+  {%- endif %}{%- endfor %}
+  </tbody>
+</table>
+
+{%- elsif include.quoi == "ingenieurs" -%}
+{%- assign B_h = H_h.bilan_ingenieurs -%}
+<table>
+  <thead><tr><th>{{ L_h.mouvement }}</th><th>{{ L_h.nombre }}</th><th>{{ L_h.hausse }}</th><th>{{ L_h.stable }}</th><th>{{ L_h.baisse }}</th></tr></thead>
+  <tbody>
+    {%- assign types_h = "arrivee,depart" | split: "," -%}
+    {%- for t in types_h %}
+    {%- assign b_h = B_h[t] -%}
+    <tr><td>{{ L_h[t] }}</td><td>{{ b_h.n }}</td><td>{{ b_h.hausse }} ({{ b_h.hausse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td><td>{{ b_h.stable }}</td><td>{{ b_h.baisse }} ({{ b_h.baisse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td></tr>
+    {%- endfor %}
+    {%- assign b_h = B_h.temoin -%}
+    {%- assign st_h = b_h.n | minus: b_h.hausse | minus: b_h.baisse -%}
+    <tr><td><em>{{ L_h.temoin }}</em></td><td>{{ b_h.n }}</td><td>{{ b_h.hausse }} ({{ b_h.hausse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td><td>{{ st_h }}</td><td>{{ b_h.baisse }} ({{ b_h.baisse | times: 100.0 | divided_by: b_h.n | round }}{{ pc_h }})</td></tr>
+  </tbody>
+</table>
+<details>
+  <summary>{{ L_h.detail }}</summary>
+  <table>
+    <thead><tr><th>{{ L_h.annee }}</th><th>{{ L_h.ingenieur }}</th><th>{{ L_h.ecurie }}</th><th>{{ L_h.mouvement }}</th><th>{{ L_h.avant_court }}</th><th>{{ L_h.apres_court }}</th></tr></thead>
+    <tbody>
+    {%- for m in H_h.ingenieurs %}
+      {%- assign e_h = D_h.ecuries.ecuries | where: "id", m.ecurie | first -%}
+      <tr><td>{{ m.annee }}</td><td>{% include lien-entree.html id=m.ingenieur %}</td><td><a href="{{ url_e_h }}{{ m.ecurie }}/">{{ e_h.nom }}</a></td><td>{{ L_h[m.type] }}</td><td>{{ m.avant | times: 100 | round }}{{ pc_h }}</td><td>{{ m.apres | times: 100 | round }}{{ pc_h }}</td></tr>
+    {%- endfor %}
+    </tbody>
+  </table>
+</details>
+{%- endif -%}
