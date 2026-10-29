@@ -790,7 +790,8 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .frise-fiche .frise-defilement + .frise-defilement { margin-top: 0.75rem; }
 
 /* ---------- Écuries : généalogie verticale ----------
-   Années de haut en bas (une rangée de grille par saison, --an de haut), une colonne par usine.
+   Années de haut en bas (une rangée de grille par saison, --an de haut). Deux groupes séparés par
+   un filet épais : les lignées d'usines (une colonne et un en-tête chacune), puis les autres écuries.
    Une carte par nom, de sa première à sa dernière saison ; plus elle est longue, plus elle en
    montre (classes duree-*). L'axe des années reste visible au défilement horizontal. */
 .genealogie-defilement {
@@ -800,8 +801,8 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .genealogie {
   --an: 2.3rem; --large: 9.75rem; --axe: 3.75rem;
   display: grid; position: relative;
-  grid-template-columns: var(--axe) repeat(var(--colonnes), var(--large));
-  grid-template-rows: repeat(var(--annees), var(--an));
+  grid-template-columns: var(--axe) repeat(var(--usines), var(--large)) 1.25rem repeat(var(--autres), var(--large));
+  grid-template-rows: auto auto repeat(var(--annees), var(--an));
   column-gap: 0.4rem; padding: 0.75rem 0.75rem 0.75rem 0;
   width: max-content;
 }
@@ -812,6 +813,20 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   font-family: var(--titre); font-size: 0.875rem; font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums;
 }
 .gen-decennie { font-size: 1.0625rem; font-weight: 700; color: var(--graphite); }
+.gen-groupe {
+  grid-row: 1; margin: 0 0 0.35rem; padding-bottom: 0.2rem; border-bottom: var(--trait-fort) solid var(--graphite);
+  font-family: var(--titre); font-size: 1.375rem; font-weight: 700;
+}
+.gen-groupe span { font-size: 0.9375rem; font-weight: 500; color: var(--mine); margin-left: 0.35rem; }
+.gen-separation { grid-row: 1 / -1; justify-self: center; width: 0; border-left: 4px solid var(--graphite); }
+.gen-usine {
+  grid-row: 2; align-self: end; margin: 0 0 0.5rem; padding: 0.25rem 0.4rem;
+  background: var(--graphite); color: var(--feuille);
+  font-family: var(--titre); line-height: 1.15;
+}
+.gen-usine a { color: var(--feuille); font-size: 1.0625rem; font-weight: 700; text-decoration: none; }
+.gen-usine a:hover, .gen-usine a:focus-visible { text-decoration: underline; }
+.gen-usine span { display: block; font-size: 0.8125rem; opacity: 0.85; }
 .gen-regle { grid-column: 2 / -1; border-top: var(--trait-fin) dotted var(--trait-clair); z-index: 0; }
 .gen-regle-decennie { border-top: var(--trait-fin) solid var(--trait); }
 .carte-ecurie {

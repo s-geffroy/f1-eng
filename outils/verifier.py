@@ -352,19 +352,26 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 if segs[0]["de"] <= f0 and d0 <= segs[-1]["a"]:
                     err(f"{chemin} : lignées {autre} et {l.get('id')} se chevauchent sur la rangée {r}")
             occupees.setdefault(r, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
-    # colonnes de la généalogie verticale : deux lignées d'une même colonne séparées d'au moins une saison
+    # généalogie verticale : groupe « usine » (a changé de nom, ou actuelle), une colonne chacune ;
+    # groupe « autres » : deux lignées d'une même colonne séparées d'au moins une saison
     par_col = {}
     for l in E.get("lignees") or []:
-        c, segs = l.get("colonne"), l.get("segments") or []
-        if not isinstance(c, int):
+        segs = l.get("segments") or []
+        attendu = "usine" if l.get("actuelle") or len({x.get("ecurie") for x in segs}) > 1 else "autres"
+        if l.get("groupe") != attendu:
+            err(f"{chemin} : lignée {l.get('id')}, groupe « {l.get('groupe')} » (attendu : {attendu})")
+        c = (l.get("groupe"), l.get("colonne"))
+        if not isinstance(c[1], int):
             err(f"{chemin} : lignée {l.get('id')} sans colonne")
             continue
+        if c[0] == "usine" and par_col.get(c):
+            err(f"{chemin} : lignée d'usine {l.get('id')} dans la colonne déjà prise par {par_col[c][0][2]}")
         if segs and all(isinstance(x.get(k), int) for x in segs for k in ("de", "a")):
             for (d0, f0, autre) in par_col.get(c, []):
                 if segs[0]["de"] <= f0 + 1 and d0 <= segs[-1]["a"] + 1:
                     err(f"{chemin} : lignées {autre} et {l.get('id')} trop proches dans la colonne {c}")
             par_col.setdefault(c, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
-    signature.append(sorted((l.get("id"), l.get("rangee"), l.get("colonne"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
+    signature.append(sorted((l.get("id"), l.get("rangee"), l.get("groupe"), l.get("colonne"), [x.get("url") for x in l.get("texte_sources") or []]) for l in E.get("lignees") or []))
     for e in sorted(set(ids_ec) - utilisees):
         err(f"{chemin} : écurie {e} absente de toute lignée")
     signature.append(sorted((l.get("id"), [(u.get("de"), u.get("a"), [x.get("url") for x in u.get("sources") or []]) for u in l.get("usines") or []])

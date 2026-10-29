@@ -143,6 +143,7 @@ lignees:
     de: 1950
     a: 2026
   rangee: 1
+  groupe: usine
   colonne: 1
   usine: Maranello
   usines:
@@ -165,7 +166,8 @@ lignees:
     de: 1966
     a: 2026
   rangee: 2
-  colonne: 5
+  groupe: usine
+  colonne: 2
   usine: Woking
   usines:
   - lieu: Colnbrook (Buckinghamshire, near Heathrow)
@@ -242,7 +244,8 @@ lignees:
       - titre: Motor Sport Magazine, Ed Foster, “Mercedes buys out Brawn GP” (November 2009)
         url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mercedes-buys-out-brawn-gp/
   rangee: 3
-  colonne: 9
+  groupe: usine
+  colonne: 3
   usine: Brackley
   usines:
   - lieu: Ockham (Surrey)
@@ -275,7 +278,8 @@ lignees:
     de: 1978
     a: 2026
   rangee: 4
-  colonne: 10
+  groupe: usine
+  colonne: 4
   usine: Grove
   usines:
   - lieu: Didcot (Oxfordshire)
@@ -372,7 +376,8 @@ lignees:
       - titre: Formula 1, “Renault to rebrand as Alpine F1 Team in 2021” (September 2020)
         url: https://www.formula1.com/en/latest/article/renault-alpine-f1-team-2021.7eY84dCU9MythQjcYG8T45
   rangee: 5
-  colonne: 3
+  groupe: usine
+  colonne: 5
   usine: Enstone
   usines:
   - lieu: Witney (Oxfordshire)
@@ -443,7 +448,8 @@ lignees:
       - titre: The Race, Josh Suttill and Scott Mitchell-Malm, “Why Red Bull's second F1 squad is fixing its 'rushed' team name” (December 2024)
         url: https://www.the-race.com/formula-1/why-red-bulls-second-f1-team-is-fixing-its-rushed-team-name/
   rangee: 6
-  colonne: 13
+  groupe: usine
+  colonne: 6
   usine: Faenza
   usines:
   - lieu: Faenza (Italy)
@@ -523,7 +529,8 @@ lignees:
       - titre: Motor Sport Magazine, Dominic Tobin, "Racing Point to become Aston Martin F1 in 2021" (January 2020)
         url: https://www.motorsportmagazine.com/articles/single-seaters/f1/racing-point-to-become-aston-martin-in-2021/
   rangee: 7
-  colonne: 12
+  groupe: usine
+  colonne: 7
   usine: Silverstone
   usines:
   - lieu: Silverstone (Northamptonshire)
@@ -605,6 +612,7 @@ lignees:
       - titre: Formula 1, "Audi expands commitment to Formula 1 with 100% takeover of Sauber" (March 2024)
         url: https://www.formula1.com/en/latest/article/audi-expands-commitment-to-formula-1-with-100-takeover-of-sauber.4g5fNv9jl03sw5btt4LuSw
   rangee: 8
+  groupe: usine
   colonne: 8
   usine: Hinwil
   usines:
@@ -651,7 +659,8 @@ lignees:
       - titre: 'Motor Sport Magazine, James Elson, “20 years of Red Bull: The ''unplanned'' team that took over F1” (January 2026)'
         url: https://www.motorsportmagazine.com/articles/single-seaters/f1/20-years-of-red-bull-the-unplanned-team-that-took-over-f1/
   rangee: 9
-  colonne: 2
+  groupe: usine
+  colonne: 9
   usine: Milton Keynes
   usines:
   - lieu: Milton Keynes (Buckinghamshire)
@@ -673,7 +682,8 @@ lignees:
     de: 2016
     a: 2026
   rangee: 10
-  colonne: 4
+  groupe: usine
+  colonne: 10
   usine: Kannapolis
   usines:
   - lieu: Kannapolis (North Carolina, USA)
@@ -702,7 +712,8 @@ lignees:
     de: 2026
     a: 2026
   rangee: 11
-  colonne: 6
+  groupe: usine
+  colonne: 11
   usine: Silverstone
   usines:
   - lieu: Silverstone (Northamptonshire)
@@ -714,6 +725,28 @@ lignees:
       url: https://www.formula1.com/en/teams/cadillac
     - titre: Autosport, Ed Hardy, “Cadillac to run F1 2026 operation from Silverstone while US base under construction” (September 2025)
       url: https://www.autosport.com/f1/news/cadillac-to-run-f1-2026-operation-from-silverstone-while-us-base-under-construction/10760237/
+- id: maserati
+  nom: Maserati
+  segments:
+  - ecurie: maserati
+    de: 1950
+    a: 1960
+  rangee: 12
+  groupe: autres
+  colonne: 4
+- id: kurtis-kraft
+  nom: Kurtis Kraft
+  texte: An American constructor seen mostly at the Indianapolis 500, which counted towards the championship from 1950 to 1960; it also started the 1959 United States Grand Prix at Sebring, with Rodger Ward (Formula 1).
+  texte_sources:
+  - titre: Formula 1, results, “1959 United States Grand Prix”
+    url: https://www.formula1.com/en/results/1959/races/177/united-states/race-result
+  segments:
+  - ecurie: kurtis-kraft
+    de: 1950
+    a: 1960
+  rangee: 13
+  groupe: autres
+  colonne: 3
 - id: alfa-romeo-1979
   nom: Alfa Romeo (1950–1985)
   segments:
@@ -723,8 +756,9 @@ lignees:
   - ecurie: alfa-romeo-1979
     de: 1979
     a: 1985
-  rangee: 12
-  colonne: 2
+  rangee: 14
+  groupe: autres
+  colonne: 1
   usine: Senago
   usines:
   - lieu: Portello, Milan (Italy)
@@ -754,28 +788,9 @@ lignees:
   - ecurie: cooper
     de: 1950
     a: 1969
-  rangee: 13
-  colonne: 3
-- id: maserati
-  nom: Maserati
-  segments:
-  - ecurie: maserati
-    de: 1950
-    a: 1960
-  rangee: 14
-  colonne: 5
-- id: kurtis-kraft
-  nom: Kurtis Kraft
-  texte: An American constructor seen mostly at the Indianapolis 500, which counted towards the championship from 1950 to 1960; it also started the 1959 United States Grand Prix at Sebring, with Rodger Ward (Formula 1).
-  texte_sources:
-  - titre: Formula 1, results, “1959 United States Grand Prix”
-    url: https://www.formula1.com/en/results/1959/races/177/united-states/race-result
-  segments:
-  - ecurie: kurtis-kraft
-    de: 1950
-    a: 1960
   rangee: 15
-  colonne: 4
+  groupe: autres
+  colonne: 2
 - id: brm
   nom: BRM
   segments:
@@ -786,7 +801,8 @@ lignees:
     de: 1956
     a: 1977
   rangee: 16
-  colonne: 6
+  groupe: autres
+  colonne: 5
   usine: Bourne
   usines:
   - lieu: Bourne (Lincolnshire)
@@ -803,7 +819,8 @@ lignees:
     de: 1952
     a: 1959
   rangee: 17
-  colonne: 7
+  groupe: autres
+  colonne: 6
 - id: lancia
   nom: Lancia
   segments:
@@ -811,7 +828,8 @@ lignees:
     de: 1954
     a: 1955
   rangee: 18
-  colonne: 8
+  groupe: autres
+  colonne: 7
 - id: vanwall
   nom: Vanwall
   segments:
@@ -819,7 +837,8 @@ lignees:
     de: 1954
     a: 1960
   rangee: 19
-  colonne: 9
+  groupe: autres
+  colonne: 8
 - id: emeryson
   nom: Emeryson and Scirocco
   segments:
@@ -842,7 +861,8 @@ lignees:
       - titre: Motor Sport, Denis Jenkinson, “Three new grand prix cars” (July 1963)
         url: https://www.motorsportmagazine.com/archive/article/july-1963/38/three-new-grand-prix-cars-2/
   rangee: 20
-  colonne: 10
+  groupe: usine
+  colonne: 12
   usine: Send
   usines:
   - lieu: Send, near Woking (Surrey)
@@ -859,7 +879,8 @@ lignees:
     de: 1957
     a: 1964
   rangee: 21
-  colonne: 8
+  groupe: autres
+  colonne: 7
 - id: team-lotus
   nom: Team Lotus
   segments:
@@ -867,31 +888,35 @@ lignees:
     de: 1958
     a: 1994
   rangee: 18
-  colonne: 11
-- id: aston-martin-1959
-  nom: Aston Martin (1959–1960)
-  segments:
-  - ecurie: aston-martin-1959
-    de: 1959
-    a: 1960
-  rangee: 22
-  colonne: 12
+  groupe: autres
+  colonne: 9
 - id: jbw
   nom: JBW
   segments:
   - ecurie: jbw
     de: 1959
     a: 1961
-  rangee: 23
-  colonne: 13
+  rangee: 22
+  groupe: autres
+  colonne: 11
 - id: tec-mec
   nom: Tec-Mec
   segments:
   - ecurie: tec-mec
     de: 1959
     a: 1959
+  rangee: 23
+  groupe: autres
+  colonne: 12
+- id: aston-martin-1959
+  nom: Aston Martin (1959–1960)
+  segments:
+  - ecurie: aston-martin-1959
+    de: 1959
+    a: 1960
   rangee: 24
-  colonne: 14
+  groupe: autres
+  colonne: 10
 - id: behra-porsche
   nom: Behra-Porsche
   segments:
@@ -899,7 +924,8 @@ lignees:
     de: 1960
     a: 1960
   rangee: 25
-  colonne: 15
+  groupe: autres
+  colonne: 13
 - id: scarab
   nom: Scarab
   segments:
@@ -907,7 +933,8 @@ lignees:
     de: 1960
     a: 1960
   rangee: 26
-  colonne: 16
+  groupe: autres
+  colonne: 14
 - id: de-tomaso
   nom: De Tomaso
   segments:
@@ -918,7 +945,8 @@ lignees:
     de: 1970
     a: 1970
   rangee: 27
-  colonne: 7
+  groupe: autres
+  colonne: 6
   usine: Modène
   usines:
   - lieu: Modena (Italy)
@@ -928,22 +956,24 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, “De Tomaso Automobili SpA” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/de-tomaso-automobili-spa.html
-- id: ferguson
-  nom: Ferguson
-  segments:
-  - ecurie: ferguson
-    de: 1961
-    a: 1961
-  rangee: 28
-  colonne: 14
 - id: gilby
   nom: Gilby
   segments:
   - ecurie: gilby
     de: 1961
     a: 1963
+  rangee: 28
+  groupe: autres
+  colonne: 15
+- id: ferguson
+  nom: Ferguson
+  segments:
+  - ecurie: ferguson
+    de: 1961
+    a: 1961
   rangee: 29
-  colonne: 17
+  groupe: autres
+  colonne: 12
 - id: lds
   nom: LDS
   segments:
@@ -957,7 +987,8 @@ lignees:
     de: 1967
     a: 1968
   rangee: 17
-  colonne: 9
+  groupe: autres
+  colonne: 8
 - id: lola
   nom: Lola
   segments:
@@ -973,8 +1004,9 @@ lignees:
   - ecurie: lola
     de: 1985
     a: 1986
-  rangee: 24
-  colonne: 12
+  rangee: 23
+  groupe: autres
+  colonne: 10
   usine: Huntingdon
   usines:
   - lieu: Bromley (Kent)
@@ -1014,7 +1046,8 @@ lignees:
     de: 1962
     a: 1992
   rangee: 30
-  colonne: 4
+  groupe: autres
+  colonne: 3
 - id: enb
   nom: ENB
   segments:
@@ -1022,23 +1055,35 @@ lignees:
     de: 1962
     a: 1962
   rangee: 31
-  colonne: 5
-- id: ats-1963
-  nom: ATS (1963)
+  groupe: autres
+  colonne: 4
+- id: brp
+  nom: BRP
   segments:
-  - ecurie: ats-1963
+  - ecurie: brp
     de: 1963
-    a: 1963
-  rangee: 14
-  colonne: 14
+    a: 1964
+  rangee: 12
+  groupe: autres
+  colonne: 13
 - id: stebro
   nom: Stebro
   segments:
   - ecurie: stebro
     de: 1963
     a: 1963
-  rangee: 15
-  colonne: 16
+  rangee: 13
+  groupe: autres
+  colonne: 14
+- id: ats-1963
+  nom: ATS (1963)
+  segments:
+  - ecurie: ats-1963
+    de: 1963
+    a: 1963
+  rangee: 19
+  groupe: autres
+  colonne: 12
 - id: alfa-special
   nom: Alfa Special
   texte: 'Peter de Klerk''s car, with a bored-out Alfa Romeo Giulietta engine: the official results list it as “Alfa Romeo”, but Motor Sport calls it the Alfa Special, and it has nothing to do with the works team.'
@@ -1052,64 +1097,63 @@ lignees:
   - ecurie: alfa-special
     de: 1965
     a: 1965
-  rangee: 19
-  colonne: 13
-- id: brp
-  nom: BRP
-  segments:
-  - ecurie: brp
-    de: 1963
-    a: 1964
-  rangee: 22
-  colonne: 15
-- id: honda-1964
-  nom: Honda (1964–1968)
-  segments:
-  - ecurie: honda-1964
-    de: 1964
-    a: 1968
-  rangee: 23
-  colonne: 18
+  rangee: 24
+  groupe: autres
+  colonne: 11
 - id: derrington-francis
   nom: Derrington-Francis
   segments:
   - ecurie: derrington-francis
     de: 1964
     a: 1964
+  rangee: 22
+  groupe: autres
+  colonne: 4
+- id: honda-1964
+  nom: Honda (1964–1968)
+  segments:
+  - ecurie: honda-1964
+    de: 1964
+    a: 1968
   rangee: 25
-  colonne: 5
+  groupe: autres
+  colonne: 16
 - id: eagle
   nom: Eagle
   segments:
   - ecurie: eagle
     de: 1966
     a: 1969
-  rangee: 14
-  colonne: 8
-- id: matra
-  nom: Matra
-  segments:
-  - ecurie: matra
-    de: 1966
-    a: 1972
-  rangee: 15
-  colonne: 10
+  rangee: 13
+  groupe: autres
+  colonne: 4
 - id: shannon
   nom: Shannon
   segments:
   - ecurie: shannon
     de: 1966
     a: 1966
+  rangee: 19
+  groupe: autres
+  colonne: 12
+- id: matra
+  nom: Matra
+  segments:
+  - ecurie: matra
+    de: 1966
+    a: 1972
   rangee: 26
-  colonne: 14
+  groupe: autres
+  colonne: 7
 - id: protos
   nom: Protos
   segments:
   - ecurie: protos
     de: 1967
     a: 1967
-  rangee: 20
-  colonne: 13
+  rangee: 12
+  groupe: autres
+  colonne: 11
 - id: tecno
   nom: Tecno
   segments:
@@ -1119,24 +1163,9 @@ lignees:
   - ecurie: tecno
     de: 1972
     a: 1973
-  rangee: 21
-  colonne: 13
-- id: bellasi
-  nom: Bellasi
-  segments:
-  - ecurie: bellasi
-    de: 1970
-    a: 1971
   rangee: 19
-  colonne: 14
-- id: surtees
-  nom: Surtees
-  segments:
-  - ecurie: surtees
-    de: 1970
-    a: 1978
-  rangee: 20
-  colonne: 16
+  groupe: autres
+  colonne: 11
 - id: march
   nom: 'March: March and Leyton House'
   segments:
@@ -1179,8 +1208,9 @@ lignees:
         url: https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war/
       - titre: 'Goodwood, Russell Campbell, "A bolt from the blue: the rise and fall of Leyton House Racing" (June 2025)'
         url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
-  rangee: 22
-  colonne: 15
+  rangee: 12
+  groupe: usine
+  colonne: 13
   usine: Bicester
   usines:
   - lieu: Bicester (Oxfordshire)
@@ -1199,6 +1229,24 @@ lignees:
       url: https://www.autosport.com/f1/news/autosport-70-the-lost-f1-team-that-launched-newey-4981789/4981789/
     - titre: 'Motor Sport, Adam Cooper, “Leyton House: the F1 team that fired Adrian Newey” (March 2026)'
       url: https://www.motorsportmagazine.com/archive/article/march-2026/96/leyton-house-the-f1-team-that-fired-adrian-newey/
+- id: surtees
+  nom: Surtees
+  segments:
+  - ecurie: surtees
+    de: 1970
+    a: 1978
+  rangee: 20
+  groupe: autres
+  colonne: 12
+- id: bellasi
+  nom: Bellasi
+  segments:
+  - ecurie: bellasi
+    de: 1970
+    a: 1971
+  rangee: 21
+  groupe: autres
+  colonne: 8
 - id: wolf
   nom: Frank Williams Racing Cars and Wolf
   segments:
@@ -1252,7 +1300,8 @@ lignees:
       - titre: Motorsport.com, René Fagnan, “The story of Formula 1's first winning Wolf” (December 2015)
         url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
   rangee: 13
-  colonne: 8
+  groupe: usine
+  colonne: 14
   usine: Reading
   usines:
   - lieu: Reading (Berkshire)
@@ -1283,8 +1332,9 @@ lignees:
   - ecurie: connew
     de: 1972
     a: 1972
-  rangee: 14
-  colonne: 3
+  rangee: 15
+  groupe: autres
+  colonne: 2
 - id: eifelland
   nom: Eifelland
   segments:
@@ -1292,7 +1342,8 @@ lignees:
     de: 1972
     a: 1972
   rangee: 17
-  colonne: 7
+  groupe: autres
+  colonne: 4
 - id: ensign
   nom: 'Ensign: from Ensign to Theodore'
   segments:
@@ -1313,8 +1364,9 @@ lignees:
         url: https://www.oldracingcars.com/theodore/ty02/
       - titre: OldRacingCars.com, Allen Brown, “Ensign N181 history”
         url: https://www.oldracingcars.com/ensign/n181/
-  rangee: 23
-  colonne: 14
+  rangee: 22
+  groupe: usine
+  colonne: 15
   usine: Walsall
   usines:
   - lieu: Walsall (West Midlands)
@@ -1344,8 +1396,9 @@ lignees:
         url: https://www.grandprix.com/constructors/shadow-cars-inc.html
       - titre: GrandPrix.com, “Theodore Racing”
         url: https://www.grandprix.com/constructors/theodore-racing.html
-  rangee: 25
-  colonne: 17
+  rangee: 24
+  groupe: usine
+  colonne: 16
   usine: Northampton
   usines:
   - lieu: Northampton (Northamptonshire)
@@ -1359,22 +1412,51 @@ lignees:
       url: https://www.motorsportmagazine.com/archive/article/june-2003/73/x-ray-spec-shadow-dn1/
     - titre: Autosport, “How Shadow's F1 story ended in shambolic fashion” (August 2024)
       url: https://www.autosport.com/f1/news/how-shadows-f1-story-ended-in-shambolic-fashion/10646008/
+- id: trojan
+  nom: Trojan
+  segments:
+  - ecurie: trojan
+    de: 1974
+    a: 1974
+  rangee: 21
+  groupe: autres
+  colonne: 8
+- id: hesketh
+  nom: Hesketh
+  segments:
+  - ecurie: hesketh
+    de: 1974
+    a: 1978
+  rangee: 25
+  groupe: autres
+  colonne: 4
 - id: parnelli
   nom: Parnelli
   segments:
   - ecurie: parnelli
     de: 1974
     a: 1976
-  rangee: 19
-  colonne: 10
+  rangee: 27
+  groupe: autres
+  colonne: 6
 - id: token
   nom: Token
   segments:
   - ecurie: token
     de: 1974
     a: 1974
-  rangee: 26
-  colonne: 19
+  rangee: 28
+  groupe: autres
+  colonne: 7
+- id: amon
+  nom: Amon
+  segments:
+  - ecurie: amon
+    de: 1974
+    a: 1974
+  rangee: 29
+  groupe: autres
+  colonne: 2
 - id: penske
   nom: Penske and ATS (1978–1984)
   segments:
@@ -1395,8 +1477,9 @@ lignees:
         url: https://www.oldracingcars.com/penske/pc4/
       - titre: OldRacingCars.com, Allen Brown, “ATS HS1 car-by-car histories”
         url: https://www.oldracingcars.com/ats/hs1/
-  rangee: 27
-  colonne: 18
+  rangee: 31
+  groupe: usine
+  colonne: 17
   usine: Bicester
   usines:
   - lieu: Poole (Dorset)
@@ -1417,62 +1500,42 @@ lignees:
       url: https://www.motorsportmagazine.com/archive/article/january-1998/57/wheel-nut/
     - titre: The Race, Jim Wright, “Remembering a very different F1 pioneer” (February 2026)
       url: https://www.the-race.com/formula-1/remembering-a-very-different-f1-pioneer-john-macdonald/
-- id: trojan
-  nom: Trojan
-  segments:
-  - ecurie: trojan
-    de: 1974
-    a: 1974
-  rangee: 28
-  colonne: 20
-- id: hesketh
-  nom: Hesketh
-  segments:
-  - ecurie: hesketh
-    de: 1974
-    a: 1978
-  rangee: 29
-  colonne: 7
-- id: amon
-  nom: Amon
-  segments:
-  - ecurie: amon
-    de: 1974
-    a: 1974
-  rangee: 31
-  colonne: 3
 - id: hill
   nom: Hill
   segments:
   - ecurie: hill
     de: 1975
     a: 1975
-  rangee: 14
-  colonne: 21
+  rangee: 15
+  groupe: autres
+  colonne: 13
 - id: lyncar
   nom: Lyncar
   segments:
   - ecurie: lyncar
     de: 1975
     a: 1975
-  rangee: 15
-  colonne: 22
+  rangee: 17
+  groupe: autres
+  colonne: 14
 - id: fittipaldi
   nom: Fittipaldi
   segments:
   - ecurie: fittipaldi
     de: 1975
     a: 1982
-  rangee: 17
-  colonne: 13
+  rangee: 26
+  groupe: autres
+  colonne: 11
 - id: boro
   nom: Boro
   segments:
   - ecurie: boro
     de: 1976
     a: 1977
-  rangee: 21
-  colonne: 3
+  rangee: 19
+  groupe: autres
+  colonne: 2
 - id: ligier
   nom: 'Ligier: from Ligier to Prost'
   segments:
@@ -1490,7 +1553,8 @@ lignees:
       - titre: GrandPrix.com, “Prost takes over Ligier...” (February 1997)
         url: https://www.grandprix.com/news/prost-takes-over-ligier.html
   rangee: 32
-  colonne: 20
+  groupe: usine
+  colonne: 18
   usine: Guyancourt
   usines:
   - lieu: Vichy (Allier, France)
@@ -1527,47 +1591,26 @@ lignees:
     de: 1976
     a: 1977
   rangee: 33
-  colonne: 19
-- id: lec
-  nom: LEC
-  segments:
-  - ecurie: lec
-    de: 1977
-    a: 1977
-  rangee: 26
-  colonne: 21
+  groupe: autres
+  colonne: 7
 - id: renault-1977
   nom: Renault (1977–1985)
   segments:
   - ecurie: renault-1977
     de: 1977
     a: 1985
+  rangee: 21
+  groupe: autres
+  colonne: 13
+- id: lec
+  nom: LEC
+  segments:
+  - ecurie: lec
+    de: 1977
+    a: 1977
   rangee: 28
-  colonne: 22
-- id: merzario
-  nom: Merzario
-  segments:
-  - ecurie: merzario
-    de: 1978
-    a: 1979
-  rangee: 14
-  colonne: 25
-- id: theodore-1978
-  nom: Theodore
-  segments:
-  - ecurie: theodore
-    de: 1978
-    a: 1978
-  rangee: 15
-  colonne: 26
-- id: martini
-  nom: Martini
-  segments:
-  - ecurie: martini
-    de: 1978
-    a: 1978
-  rangee: 31
-  colonne: 24
+  groupe: autres
+  colonne: 8
 - id: arrows
   nom: 'Arrows: Arrows and Footwork'
   segments:
@@ -1596,8 +1639,9 @@ lignees:
         url: https://www.motorsportmagazine.com/archive/article/september-1998/58/olivers-army/
       - titre: GrandPrix.com, “TWR completes Arrows takeover” (July 1996)
         url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
-  rangee: 34
-  colonne: 23
+  rangee: 15
+  groupe: usine
+  colonne: 19
   usine: Leafield
   usines:
   - lieu: Milton Keynes (Buckinghamshire)
@@ -1620,14 +1664,42 @@ lignees:
       url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
     - titre: Atlas F1, “Arrows” (2000 launch feature)
       url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
+- id: martini
+  nom: Martini
+  segments:
+  - ecurie: martini
+    de: 1978
+    a: 1978
+  rangee: 17
+  groupe: autres
+  colonne: 6
+- id: theodore-1978
+  nom: Theodore
+  segments:
+  - ecurie: theodore
+    de: 1978
+    a: 1978
+  rangee: 29
+  groupe: autres
+  colonne: 15
+- id: merzario
+  nom: Merzario
+  segments:
+  - ecurie: merzario
+    de: 1978
+    a: 1979
+  rangee: 34
+  groupe: autres
+  colonne: 14
 - id: rebaque
   nom: Rebaque
   segments:
   - ecurie: rebaque
     de: 1979
     a: 1979
-  rangee: 19
-  colonne: 3
+  rangee: 27
+  groupe: autres
+  colonne: 2
 - id: osella
   nom: 'Osella: from Osella to Fondmetal'
   segments:
@@ -1649,7 +1721,8 @@ lignees:
       - titre: GrandPrix.com, constructor profile “Fondmetal F1 SpA”
         url: https://www.grandprix.com/constructors/fondmetal-f1-spa.html
   rangee: 16
-  colonne: 6
+  groupe: usine
+  colonne: 20
   usine: Palosco
   usines:
   - lieu: Volpiano, near Turin (Italy)
@@ -1684,8 +1757,9 @@ lignees:
       sources:
       - titre: GrandPrix.com, “RAM Automotive”
         url: https://www.grandprix.com/constructors/ram-automotive.html
-  rangee: 15
-  colonne: 7
+  rangee: 17
+  groupe: usine
+  colonne: 21
   usine: Bicester
   usines:
   - lieu: Bicester (Oxfordshire)
@@ -1703,24 +1777,27 @@ lignees:
   - ecurie: spirit
     de: 1983
     a: 1985
-  rangee: 14
-  colonne: 8
+  rangee: 19
+  groupe: autres
+  colonne: 2
 - id: zakspeed
   nom: Zakspeed
   segments:
   - ecurie: zakspeed
     de: 1985
     a: 1989
-  rangee: 17
-  colonne: 14
+  rangee: 20
+  groupe: autres
+  colonne: 4
 - id: ags
   nom: AGS
   segments:
   - ecurie: ags
     de: 1986
     a: 1991
-  rangee: 19
-  colonne: 16
+  rangee: 24
+  groupe: autres
+  colonne: 5
 - id: larrousse
   nom: Lola (Larrousse), Venturi and Larrousse
   texte: In 1990 the FIA took away the team's points over a false declaration about who designed the chassis, declared as a Lola (GrandPrix.com); formula1.com's official standings still show 11 points for “Lola Lamborghini” that season.
@@ -1753,8 +1830,9 @@ lignees:
       sources:
       - titre: GrandPrix.com, “Larrousse”
         url: https://www.grandprix.com/constructors/larrousse.html
-  rangee: 20
-  colonne: 7
+  rangee: 25
+  groupe: usine
+  colonne: 23
   usine: Signes
   usines:
   - lieu: Antony (Hauts-de-Seine, France)
@@ -1793,8 +1871,9 @@ lignees:
         url: https://www.racefans.net/2007/12/20/lapped-legends-andrea-moda/
       - titre: Motor Sport Magazine, “The month in Motor Sport” (April 1992)
         url: https://www.motorsportmagazine.com/archive/article/april-1992/4/month-motor-sport/
-  rangee: 21
-  colonne: 2
+  rangee: 26
+  groupe: usine
+  colonne: 22
   usine: Passignano sul Trasimeno
   usines:
   - lieu: Passignano sul Trasimeno, near Perugia (Italy)
@@ -1804,6 +1883,40 @@ lignees:
     sources:
     - titre: Autosport, “How a lawyer-turned-journalist became a crucial player in Alfa's F1 revival” (October 2023)
       url: https://www.autosport.com/f1/news/how-a-lawyer-turned-journalist-became-a-crucial-player-in-alfas-f1-revival/10528203/
+- id: rial
+  nom: Rial
+  segments:
+  - ecurie: rial
+    de: 1988
+    a: 1989
+  rangee: 14
+  groupe: autres
+  colonne: 2
+- id: eurobrun
+  nom: EuroBrun
+  texte: 'No EuroBrun qualified in 1989 (GrandPrix.com): the season is not counted, and the team returns in 1990.'
+  texte_sources:
+  - titre: GrandPrix.com, “EuroBrun”
+    url: https://www.grandprix.com/constructors/eurobrun.html
+  segments:
+  - ecurie: eurobrun
+    de: 1988
+    a: 1988
+  - ecurie: eurobrun
+    de: 1990
+    a: 1990
+  rangee: 19
+  groupe: autres
+  colonne: 1
+  usine: Senago
+  usines:
+  - lieu: Senago, near Milan (Italy)
+    de: 1988
+    a: 1988
+    periode: '1988'
+    sources:
+    - titre: Grandprix.com, Joe Saward, “EuroBrun” (encyclopedia, n.d.)
+      url: https://www.grandprix.com/constructors/eurobrun.html
 - id: scuderia-italia
   nom: Dallara and Lola (BMS Scuderia Italia)
   segments:
@@ -1820,8 +1933,9 @@ lignees:
       sources:
       - titre: GrandPrix.com, “Giuseppe Lucchini”
         url: https://www.grandprix.com/people/giuseppe-lucchini.html
-  rangee: 12
-  colonne: 17
+  rangee: 21
+  groupe: usine
+  colonne: 24
   usine: Brescia
   usines:
   - lieu: Brescia (Italy)
@@ -1831,46 +1945,15 @@ lignees:
     sources:
     - titre: Grandprix.com, Joe Saward, “Scuderia Italia” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/scuderia-italia.html
-- id: eurobrun
-  nom: EuroBrun
-  texte: 'No EuroBrun qualified in 1989 (GrandPrix.com): the season is not counted, and the team returns in 1990.'
-  texte_sources:
-  - titre: GrandPrix.com, “EuroBrun”
-    url: https://www.grandprix.com/constructors/eurobrun.html
-  segments:
-  - ecurie: eurobrun
-    de: 1988
-    a: 1988
-  - ecurie: eurobrun
-    de: 1990
-    a: 1990
-  rangee: 14
-  colonne: 8
-  usine: Senago
-  usines:
-  - lieu: Senago, near Milan (Italy)
-    de: 1988
-    a: 1988
-    periode: '1988'
-    sources:
-    - titre: Grandprix.com, Joe Saward, “EuroBrun” (encyclopedia, n.d.)
-      url: https://www.grandprix.com/constructors/eurobrun.html
-- id: rial
-  nom: Rial
-  segments:
-  - ecurie: rial
-    de: 1988
-    a: 1989
-  rangee: 23
-  colonne: 12
 - id: onyx
   nom: Onyx
   segments:
   - ecurie: onyx
     de: 1989
     a: 1990
-  rangee: 24
-  colonne: 18
+  rangee: 22
+  groupe: autres
+  colonne: 6
 - id: lambo
   nom: Lambo
   segments:
@@ -1878,7 +1961,8 @@ lignees:
     de: 1991
     a: 1991
   rangee: 13
-  colonne: 14
+  groupe: autres
+  colonne: 2
 - id: pacific
   nom: Pacific
   segments:
@@ -1886,7 +1970,8 @@ lignees:
     de: 1994
     a: 1995
   rangee: 13
-  colonne: 2
+  groupe: autres
+  colonne: 1
 - id: simtek
   nom: Simtek
   segments:
@@ -1894,31 +1979,35 @@ lignees:
     de: 1994
     a: 1995
   rangee: 14
-  colonne: 4
+  groupe: autres
+  colonne: 2
 - id: forti
   nom: Forti
   segments:
   - ecurie: forti
     de: 1995
     a: 1996
-  rangee: 15
-  colonne: 6
+  rangee: 12
+  groupe: autres
+  colonne: 3
 - id: toyota
   nom: Toyota
   segments:
   - ecurie: toyota
     de: 2002
     a: 2009
-  rangee: 13
-  colonne: 4
+  rangee: 12
+  groupe: autres
+  colonne: 1
 - id: super-aguri
   nom: Super Aguri
   segments:
   - ecurie: super-aguri
     de: 2006
     a: 2008
-  rangee: 14
-  colonne: 6
+  rangee: 13
+  groupe: autres
+  colonne: 2
 - id: manor
   nom: Virgin, Marussia and Manor
   segments:
@@ -1951,8 +2040,9 @@ lignees:
         url: https://www.espn.com/f1/story/_/id/14608552/manor-reveals-new-name-logo
       - titre: Autosport, Jonathan Noble and Matt Beer, “Manor worth saving, says new investor Stephen Fitzpatrick” (March 2015)
         url: https://www.autosport.com/f1/news/manor-worth-saving-says-new-investor-stephen-fitzpatrick-5016692/5016692/
-  rangee: 12
-  colonne: 11
+  rangee: 14
+  groupe: usine
+  colonne: 26
   usine: Banbury
   usines:
   - lieu: Dinnington, near Sheffield (South Yorkshire)
@@ -1994,7 +2084,8 @@ lignees:
     de: 2010
     a: 2012
   rangee: 15
-  colonne: 7
+  groupe: autres
+  colonne: 2
 - id: caterham
   nom: Lotus (2010–2011) and Caterham
   segments:
@@ -2016,7 +2107,8 @@ lignees:
       - titre: Autosport, Jonathan Noble, “Team Lotus closing on name change to Caterham” (September 2011)
         url: https://www.autosport.com/f1/news/team-lotus-closing-on-name-change-to-caterham-4450773/4450773/
   rangee: 16
-  colonne: 6
+  groupe: usine
+  colonne: 25
   usine: Leafield
   usines:
   - lieu: Hingham (Norfolk)
