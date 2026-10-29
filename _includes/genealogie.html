@@ -4,7 +4,10 @@
   les lignées d'usines, une colonne et un en-tête chacune ; puis les autres écuries, regroupées dans des
   colonnes partagées (deux écuries d'une même colonne sont séparées d'au moins une saison).
   Grille : colonne 1 = axe ; usines ; une colonne de séparation ; autres. Rangée 1 = titres des groupes,
-  rangée 2 = en-têtes des usines, puis une rangée par saison. Chaque nom est une carte posée à la hauteur de ses saisons ;
+  rangée 2 = en-têtes des usines, puis une rangée par saison. Le cadre défile dans les deux sens :
+  en-têtes collés en haut, axe collé à gauche. Dans l'axe, chaque saison et son nombre d'écuries (depuis
+  1958 : avant, la généalogie ne retient que les écuries encore engagées en 1958). Dans les cartes, à
+  l'année : C = champion des constructeurs, P = écurie du champion du monde des pilotes. Chaque nom est une carte posée à la hauteur de ses saisons ;
   plus la carte est longue, plus elle en montre : nom et saisons, puis motoristes, puis ingénieurs
   clés, puis photo. Commune aux deux langues.
 {%- endcomment -%}
@@ -20,19 +23,21 @@
 {%- assign sep_g = nb_u | plus: 2 -%}
 {%- assign url_g = T_g.url.ecuries | relative_url -%}
 <div class="genealogie" style="--usines: {{ nb_u }}; --autres: {{ nb_a }}; --annees: {{ fin_g | minus: debut_g | plus: 1 }};">
+  <span class="gen-coin" aria-hidden="true"></span>
   <p class="gen-groupe" style="grid-column: 2 / {{ sep_g }};">{{ T_g.ecuries.groupe_usines }}</p>
   <p class="gen-groupe" style="grid-column: {{ sep_g | plus: 1 }} / -1;">{{ T_g.ecuries.groupe_autres }} <span>{{ T_g.ecuries.groupe_autres_aide }}</span></p>
   <span class="gen-separation" style="grid-column: {{ sep_g }};" aria-hidden="true"></span>
   {%- for l_g in usines_g %}
   {%- assign premier_g = l_g.segments | first %}{% assign dernier_g = l_g.segments | last %}
   {%- assign e1_g = E_g.ecuries | where: "id", premier_g.ecurie | first %}{% assign e2_g = E_g.ecuries | where: "id", dernier_g.ecurie | first %}
+  <span class="gen-trait" style="grid-column: {{ l_g.colonne | plus: 1 }};" aria-hidden="true"></span>
   <p class="gen-usine" style="grid-column: {{ l_g.colonne | plus: 1 }};"><a href="#l-{{ l_g.id }}">{{ l_g.usine | default: e1_g.nom }}</a><span>{{ e1_g.nom }}{% if e2_g.id != e1_g.id %} → {{ e2_g.nom }}{% endif %}</span></p>
   {%- endfor %}
-  {%- for a_g in (debut_g..fin_g) %}{% assign m5_g = a_g | modulo: 5 %}{% if m5_g == 0 %}
-  {%- assign r_g = a_g | minus: debut_g | plus: 3 %}{% assign m10_g = a_g | modulo: 10 %}
-  <span class="gen-annee{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true">{{ a_g }}</span>
-  <span class="gen-regle{% if m10_g == 0 %} gen-regle-decennie{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true"></span>
-  {%- endif %}{% endfor %}
+  {%- for sa_g in E_g.saisons %}
+  {%- assign a_g = sa_g.annee %}{% assign r_g = a_g | minus: debut_g | plus: 3 %}{% assign m5_g = a_g | modulo: 5 %}{% assign m10_g = a_g | modulo: 10 %}
+  <span class="gen-annee{% if m10_g == 0 %} gen-decennie{% elsif m5_g == 0 %} gen-lustre{% endif %}" style="grid-row: {{ r_g }};">{{ a_g }}{% if a_g >= 1958 %} <small title="{{ sa_g.ecuries }} {{ T_g.ecuries.ecuries_saison }}">{{ sa_g.ecuries }}</small>{% endif %}</span>
+  <span class="gen-regle{% if m10_g == 0 %} gen-regle-decennie{% elsif m5_g == 0 %} gen-regle-lustre{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true"></span>
+  {%- endfor %}
   {%- for l_g in E_g.lignees %}
   {%- if l_g.groupe == "usine" %}{% assign col_g = l_g.colonne | plus: 1 %}{% else %}{% assign col_g = l_g.colonne | plus: sep_g %}{% endif %}
   {%- for s_g in l_g.segments %}
@@ -47,6 +52,15 @@
     {%- elsif forloop.index0 > 0 %}
     <p class="carte-lignee">{{ T_g.ecuries.retour }}</p>
     {%- endif %}
+    {%- comment -%} titres de la saison, posés à la hauteur de leur année dans la carte {%- endcomment -%}
+    {%- for sa_g in E_g.saisons %}{% if sa_g.annee >= s_g.de and sa_g.annee <= s_g.a %}
+    {%- if sa_g.constructeurs == e_g.id or sa_g.pilote_ecurie == e_g.id %}
+    {%- assign k_g = sa_g.annee | minus: s_g.de %}
+    <span class="titres" style="--k: {{ k_g }};">
+      {%- if sa_g.constructeurs == e_g.id %}<abbr class="titre-c" title="{{ sa_g.annee }} : {{ T_g.ecuries.champion_c }}">C</abbr>{% endif -%}
+      {%- if sa_g.pilote_ecurie == e_g.id %}<abbr class="titre-p" title="{{ sa_g.annee }} : {{ T_g.ecuries.champion_p }}, {{ sa_g.pilote }}">P</abbr>{% endif -%}
+    </span>
+    {%- endif %}{% endif %}{% endfor %}
     <h3><a href="{{ url_g }}{{ e_g.id }}/">{{ e_g.nom }}</a> <span>{{ s_g.de }}{% if s_g.a != s_g.de %}–{% if l_g.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s_g.a }}{% endif %}{% endif %}</span></h3>
     {%- if e_g.moteurs.size > 0 %}
     <p class="carte-moteurs">

@@ -794,16 +794,17 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
    un filet épais : les lignées d'usines (une colonne et un en-tête chacune), puis les autres écuries.
    Une carte par nom, de sa première à sa dernière saison ; plus elle est longue, plus elle en
    montre (classes duree-*). L'axe des années reste visible au défilement horizontal. */
+/* le cadre défile dans les deux sens, à hauteur d'écran : en-têtes collés en haut, axe à gauche */
 .genealogie-defilement {
-  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  overflow: auto; max-height: calc(100vh - 1.5rem); overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
   background: var(--feuille); border: var(--trait-fort) solid var(--graphite);
 }
 .genealogie {
-  --an: 2.3rem; --large: 9.75rem; --axe: 3.75rem;
+  --an: 2.3rem; --large: 9.75rem; --axe: 4.5rem; --tete: 2.6rem;
   display: grid; position: relative;
   grid-template-columns: var(--axe) repeat(var(--usines), var(--large)) 1.25rem repeat(var(--autres), var(--large));
-  grid-template-rows: auto auto repeat(var(--annees), var(--an));
-  column-gap: 0.4rem; padding: 0.75rem 0.75rem 0.75rem 0;
+  grid-template-rows: var(--tete) auto repeat(var(--annees), var(--an));
+  column-gap: 0.4rem; padding: 0 0.75rem 0.75rem 0;
   width: max-content;
 }
 .gen-annee {
@@ -812,23 +813,42 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   background: var(--feuille);
   font-family: var(--titre); font-size: 0.875rem; font-weight: 500; color: var(--mine); font-variant-numeric: tabular-nums;
 }
+.gen-annee small { font-size: 0.75rem; font-weight: 600; color: var(--feuille); background: var(--mine); padding: 0 0.25rem; margin-left: 0.2rem; }
+.gen-lustre { color: var(--graphite); font-weight: 600; }
 .gen-decennie { font-size: 1.0625rem; font-weight: 700; color: var(--graphite); }
+.gen-coin { grid-column: 1; grid-row: 1 / 3; position: sticky; top: 0; left: 0; z-index: 7; background: var(--feuille); }
 .gen-groupe {
-  grid-row: 1; margin: 0 0 0.35rem; padding-bottom: 0.2rem; border-bottom: var(--trait-fort) solid var(--graphite);
+  grid-row: 1; position: sticky; top: 0; z-index: 6; align-self: stretch;
+  margin: 0; padding: 0.55rem 0 0.2rem; background: var(--feuille); border-bottom: var(--trait-fort) solid var(--graphite);
+  white-space: nowrap;
   font-family: var(--titre); font-size: 1.375rem; font-weight: 700;
 }
 .gen-groupe span { font-size: 0.9375rem; font-weight: 500; color: var(--mine); margin-left: 0.35rem; }
 .gen-separation { grid-row: 1 / -1; justify-self: center; width: 0; border-left: 4px solid var(--graphite); }
 .gen-usine {
-  grid-row: 2; align-self: end; margin: 0 0 0.5rem; padding: 0.25rem 0.4rem;
+  grid-row: 2; position: sticky; top: var(--tete); z-index: 6;
+  align-self: stretch; margin: 0; padding: 0.3rem 0.4rem; box-shadow: 0 0.5rem 0 var(--feuille);
   background: var(--graphite); color: var(--feuille);
   font-family: var(--titre); line-height: 1.15;
 }
 .gen-usine a { color: var(--feuille); font-size: 1.0625rem; font-weight: 700; text-decoration: none; }
 .gen-usine a:hover, .gen-usine a:focus-visible { text-decoration: underline; }
 .gen-usine span { display: block; font-size: 0.8125rem; opacity: 0.85; }
-.gen-regle { grid-column: 2 / -1; border-top: var(--trait-fin) dotted var(--trait-clair); z-index: 0; }
+.gen-regle { grid-column: 2 / -1; border-top: var(--trait-fin) solid #eef1f2; z-index: 0; }
+.gen-regle-lustre { border-top: var(--trait-fin) dotted var(--trait-clair); }
 .gen-regle-decennie { border-top: var(--trait-fin) solid var(--trait); }
+/* filet vertical sous chaque en-tête d'usine, pour suivre la colonne en descendant */
+.gen-trait { grid-row: 3 / -1; justify-self: center; width: 0; border-left: 2px solid var(--trait-clair); z-index: 0; }
+/* titres de la saison dans la carte, à la hauteur de leur année */
+.titres { position: absolute; right: 0.25rem; top: calc(var(--k) * var(--an) + 0.3rem); display: flex; gap: 0.15rem; z-index: 2; }
+.titre-c, .titre-p {
+  display: inline-block; min-width: 1.05rem; padding: 0 0.15rem; text-align: center; text-decoration: none; cursor: help;
+  font: 700 0.75rem/1.05rem var(--titre);
+}
+.titre-c { background: #c9a227; color: var(--graphite); border: var(--trait-fin) solid #8a6d10; }
+.titre-p { background: var(--feuille); color: var(--graphite); border: var(--trait-fin) solid var(--graphite); }
+.frise-legende .titre-c, .frise-legende .titre-p { margin-right: 0.3rem; }
+.legende-nombre { font: 600 0.75rem/1.2 var(--titre); color: var(--feuille); background: var(--mine); padding: 0 0.25rem; margin-right: 0.3rem; }
 .carte-ecurie {
   position: relative; z-index: 1; overflow: hidden; margin: 1px 0;
   display: flex; flex-direction: column; gap: 0.15rem;
@@ -842,7 +862,7 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .carte-suite { border-top-color: var(--feuille); margin-top: -1px; }
 .carte-ecurie.preuve-discute { border-top: 2px dashed var(--tier-a); }
 .carte-lignee { margin: 0; font-family: var(--titre); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; color: var(--mine); }
-.carte-ecurie h3 { margin: 0; font-family: var(--titre); font-size: 1.0625rem; font-weight: 700; line-height: 1.15; }
+.carte-ecurie h3 { margin: 0; padding-right: 1.5rem; font-family: var(--titre); font-size: 1.0625rem; font-weight: 700; line-height: 1.15; }
 .carte-ecurie h3 a { text-decoration: none; }
 .carte-ecurie h3 a:hover, .carte-ecurie h3 a:focus-visible { text-decoration: underline; }
 .carte-ecurie h3 span { font-size: 0.8125rem; font-weight: 500; color: var(--mine); white-space: nowrap; }

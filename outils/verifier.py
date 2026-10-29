@@ -352,6 +352,16 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 if segs[0]["de"] <= f0 and d0 <= segs[-1]["a"]:
                     err(f"{chemin} : lignées {autre} et {l.get('id')} se chevauchent sur la rangée {r}")
             occupees.setdefault(r, []).append((segs[0]["de"], segs[-1]["a"], l.get("id")))
+    # saisons : écuries championnes connues et engagées cette saison-là, sources des classements
+    for sa in E.get("saisons") or []:
+        for k in ("constructeurs", "pilote_ecurie"):
+            if sa.get(k) and sa[k] not in ids_ec:
+                err(f"{chemin} : saison {sa.get('annee')}, {k} « {sa[k]} » inconnu")
+            elif sa.get(k) and sa.get("annee") not in saisons_ec.get(sa[k], set()):
+                err(f"{chemin} : saison {sa.get('annee')}, {k} « {sa[k]} » n'est pas engagé cette saison-là")
+        if (sa.get("constructeurs") or sa.get("pilote")) and not sa.get("sources"):
+            err(f"{chemin} : saison {sa.get('annee')}, titres sans source")
+    signature.append([(sa.get("annee"), sa.get("ecuries"), sa.get("constructeurs"), sa.get("pilote_ecurie")) for sa in E.get("saisons") or []])
     # généalogie verticale : groupe « usine » (a changé de nom, ou actuelle), une colonne chacune ;
     # groupe « autres » : deux lignées d'une même colonne séparées d'au moins une saison
     par_col = {}

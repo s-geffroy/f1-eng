@@ -18,6 +18,9 @@
   <p class="frise-legende">{{ T.ecuries.lecture }}
     <span><i class="legende-carte" aria-hidden="true"></i>{{ T.ecuries.legende_carte }}</span>
     <span><i class="legende-carte legende-carte-discute" aria-hidden="true"></i>{{ T.ecuries.legende_discute }} ({{ pv[2].nom }})</span>
+    <span><abbr class="titre-c" aria-hidden="true">C</abbr>{{ T.ecuries.champion_c }}</span>
+    <span><abbr class="titre-p" aria-hidden="true">P</abbr>{{ T.ecuries.champion_p }}</span>
+    <span><small class="legende-nombre" aria-hidden="true">19</small>{{ T.ecuries.legende_nombre }}</span>
     <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a>
   </p>
   <p class="frise-legende legende-moteurs-carte">{{ T.ecuries.motoristes }} :
@@ -28,5 +31,6 @@
   <div class="genealogie-defilement">
     {% include genealogie.html %}
   </div>
+  <p class="jalons-note">{{ T.ecuries.note_titres }}</p>
   <p class="jalons-note">{{ T.ecuries.note }} {{ T.ecuries.moteurs_note }}</p>
 </section>
