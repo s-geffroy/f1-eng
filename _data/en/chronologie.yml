@@ -1956,6 +1956,16 @@ contexte:
     sources:
       - titre: "Liberty Media, “Annual Report 2023”, letter to shareholders (April 2024)"
         url: "https://www.sec.gov/Archives/edgar/data/1560385/000110465924052088/tm242810d4_ars.pdf"
+  - id: "film-f1-2025"
+    annee: 2025
+    categorie: "societe"
+    titre: "“F1”, the Brad Pitt film"
+    texte: "Filming began at the 2023 British Grand Prix: a fictional team, APXGP, had a garage between those of Ferrari and Mercedes, and its cars, Formula 2 machines modified by Mercedes, ran between the official sessions (Motor Sport). Directed by Joseph Kosinski, with Brad Pitt as Sonny Hayes and Lewis Hamilton among the producers, the film opened on 27 June 2025; shot during real Grand Prix weekends, it took more than 629 million dollars worldwide, a record for a sports film according to Apple (Apple)."
+    sources:
+      - titre: "Motor Sport, “Brad Pitt filming F1 movie at the British GP: latest on Silverstone shoot” (July 2023, updated July 2024)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/brad-pitt-filming-f1-movie-at-the-british-grand-prix-latest-on-silverstone-shoot/"
+      - titre: "Apple TV Press, “Apple Original Films' blockbuster feature \"F1 The Movie\" […] to make global streaming debut on Friday, December 12, 2025” (October 2025)"
+        url: "https://www.apple.com/tv-pr/news/2025/10/apple-original-films-blockbuster-feature-f1-the-movie-from-joseph-kosinski-to-make-global-streaming-debut-on-friday-december-12-2025"
   - id: "guerre-iran-2026"
     annee: 2026
     categorie: "geopolitique"
