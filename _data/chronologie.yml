@@ -26,9 +26,11 @@ voies:
 # Evenements de contexte (sous l'axe, affiches a la demande) : ce ne sont pas des
 # innovations, mais ce qui les explique. Chaque evenement a ses propres sources.
 #   categorie : reglement | securite | economie | technologie
+#               contexte mondial : geopolitique | economie-mondiale | autres-sports | societe
 #   liens     : liens de cause a effet avec les jalons (facultatif), chacun :
 #                 jalon     : identifiant du jalon, ou
-#                 evenement : identifiant d'un autre evenement de contexte (mecanisme declenche)
+#                 evenement : identifiant d'un autre evenement de contexte (mecanisme declenche), ou
+#                 ecurie    : identifiant d'une ecurie (_data/ecuries.yml)
 #                 mecanisme : ouvre | ferme | contourne | transfert | provoque | declenche
 #                 preuve    : atteste | etabli | discute | chronologique
 #                 pourquoi  : une phrase, ce qui relie les deux et d'apres quelle source
@@ -43,6 +45,19 @@ categories:
     nom: "Économie"
   - id: "technologie"
     nom: "Technologie"
+  # Contexte mondial (groupe « monde ») : hors de la F1, ce qui l'encadre.
+  - id: "geopolitique"
+    nom: "Géopolitique"
+    groupe: "monde"
+  - id: "economie-mondiale"
+    nom: "Économie mondiale"
+    groupe: "monde"
+  - id: "autres-sports"
+    nom: "Autres sports"
+    groupe: "monde"
+  - id: "societe"
+    nom: "Société"
+    groupe: "monde"
 
 # Mecanismes et niveaux de preuve des liens (voir _dossiers/causalite.md).
 mecanismes:
@@ -1542,3 +1557,416 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd"
       - titre: "FIA, « F1 – FIA welcomes Audi partnership with Sauber Motorsport for Formula 1 entry » (octobre 2022)"
         url: "https://www.fia.com/news/f1-fia-welcomes-audi-partnership-sauber-motorsport-formula-1-entry"
+  - id: "rationnement-apres-guerre"
+    annee: 1946
+    categorie: "economie-mondiale"
+    titre: "L'austérité et le rationnement de l'après-guerre"
+    texte: "La Grande-Bretagne sort de la guerre avec une économie exsangue et un rationnement qui se prolonge (Damien Smith) ; selon Doug Nye, il est même plus strict qu'au plus fort du conflit. Le rationnement de l'essence n'est levé qu'en 1950, celui de la nourriture en 1954. C'est dans ce contexte que le 500 Club conçoit une formule de course bon marché, ouverte à tous."
+    liens:
+      - evenement: "formule-500"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Selon Damien Smith, la formule du 500 Club est taillée pour une Grande-Bretagne à l'économie exsangue et toujours rationnée, afin d'attirer tout le monde vers une course bon marché."
+    sources:
+      - titre: "Motor Sport, Doug Nye, « 1950s » (mai 2010)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-2010/42/1950s"
+      - titre: "Motor Sport, Damien Smith, « One-pot dictator » (juillet 2004)"
+        url: "https://www.motorsportmagazine.com/archive/article/july-2004/88/one-pot-dictator/"
+  - id: "allemagne-exclue-1950"
+    annee: 1946
+    categorie: "geopolitique"
+    titre: "L'Allemagne exclue des courses internationales"
+    texte: "Au sortir de la guerre, les usines allemandes sont en ruines, et la FIA, dominée par les Français, interdit aux Allemands de courir à l'étranger jusqu'en 1950 (Doug Nye). Les constructeurs qui avaient dominé les Grands Prix des années 1930 sont absents de la reprise ; le premier championnat du monde, en 1950, se joue sans eux."
+    sources:
+      - titre: "Motor Sport, Doug Nye, « 1950s » (mai 2010)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-2010/42/1950s"
+  - id: "silverstone-aerodrome-1948"
+    annee: 1948
+    categorie: "geopolitique"
+    titre: "Silverstone, un aérodrome de la RAF"
+    texte: "Le 2 octobre 1948, le RAC organise son Grand Prix international sur l'aérodrome de Silverstone, où la 17e unité d'entraînement opérationnel de la RAF formait pendant la guerre des équipages au vol de nuit sur bombardier Vickers Wellington. Le tracé emprunte deux des trois pistes et une partie du chemin de ronde, sous une simple licence d'un an ; il passe dès 1949 sur le seul périmètre (Andrew Frankel). Murray Walker se souvient d'environ 100 000 spectateurs, venus goûter une « libération » après les privations de la guerre."
+    sources:
+      - titre: "Motor Sport, Andrew Frankel, « When racing met RAF Silverstone: 75 years since its first British GP » (février 2023)"
+        url: "https://www.motorsportmagazine.com/articles/history/when-racing-met-raf-silverstone-75-years-since-its-first-british-grand-prix"
+      - titre: "Motor Sport, Simon Arron, « Silverstone's first race: the 1948 British Grand Prix » (août 2018)"
+        url: "https://www.motorsportmagazine.com/archive/article/august-2018/58/silverstone-70-1940s"
+  - id: "indianapolis-championnat"
+    annee: 1950
+    categorie: "autres-sports"
+    titre: "Les 500 Miles d'Indianapolis au championnat du monde"
+    texte: "De 1950 à 1960, les 500 Miles d'Indianapolis comptent pour le championnat du monde des pilotes, bien qu'elles se courent selon le règlement américain. Les deux mondes se croisent peu : en 1952, Alberto Ascari renonce au Grand Prix de Suisse pour disputer « la course la plus riche du monde » sur une Ferrari 375 de 4,5 litres, se qualifie 19e et abandonne sur une roue à rayons cassée (Paul Fearnley). La course quitte le championnat en 1961, quand la F1 passe aux moteurs atmosphériques de 1,5 litre."
+    sources:
+      - titre: "Motor Sport, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)"
+        url: "https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds"
+  - id: "television-1953"
+    annee: 1953
+    categorie: "societe"
+    titre: "Les premiers Grands Prix à la télévision"
+    texte: "On pense que le Grand Prix fait sa première apparition en direct le 13 septembre 1953, sur la chaîne nationale italienne Programma Nazionale, par trois incursions à Monza entrecoupées d'autres programmes. La même année, la BBC ne diffuse du Grand Prix de Grande-Bretagne que des extraits et des enregistrements, entre deux courses hippiques d'Ascot (Stuart Codling). Les relais par satellite ne deviennent possibles qu'après le lancement de Telstar 1, en 1962."
+    sources:
+      - titre: "Autosport, Stuart Codling, « Going live: how F1 TV became a billion-dollar business » (mis à jour en octobre 2025)"
+        url: "https://www.autosport.com/f1/news/going-live-how-f1-tv-became-a-billion-dollar-business-/10768815/"
+  - id: "le-mans-1955"
+    annee: 1955
+    categorie: "autres-sports"
+    titre: "La catastrophe du Mans"
+    texte: "En juin 1955, aux 24 Heures du Mans, la Mercedes de Pierre Levegh est projetée dans la foule : au moins 82 morts et plus de 120 blessés selon Motor Sport. Le rejet du sport automobile qui s'ensuit fait annuler les Grands Prix de France, d'Allemagne, d'Espagne et de Suisse (Adam Cooper) ; la Suisse interdit les courses sur circuit pour des décennies. Mercedes se retire de la compétition en fin de saison, pour des raisons pratiques selon la marque, mais l'accident pèse sur la décision (Damien Smith)."
+    sources:
+      - titre: "Motor Sport, Damien Smith, « The long shadow of Le Mans 1955 » (octobre 2024)"
+        url: "https://motorsportmagazine.com/special-article/german-legends/94/the-long-shadow-of-le-mans-1955"
+      - titre: "Motor Sport, Pablo Elizalde, « The day racing lost its innocence: the 1955 Le Mans tragedy » (juin 2026)"
+        url: "https://www.motorsportmagazine.com/articles/sports-cars/le-mans/the-day-racing-lost-its-innocence-the-1955-le-mans-tragedy/"
+      - titre: "Autosport, Adam Cooper, « The potted history of F1's calendar cancellations » (février 2020)"
+        url: "https://www.autosport.com/f1/news/the-potted-history-of-f1s-calendar-cancellations-5113387/5113387/"
+  - id: "crise-de-suez"
+    annee: 1957
+    categorie: "geopolitique"
+    titre: "La crise de Suez et ses Grands Prix annulés"
+    texte: "La crise de Suez entraîne rationnement de l'essence et difficultés économiques (Dominic Tobin). En 1957, le BRDC reporte son International Trophy de Silverstone ; les organisateurs des Grands Prix de Belgique et des Pays-Bas demandent aux équipes de réduire leurs primes de départ, essuient deux refus, et les deux courses sont annulées au dernier moment. Pour compléter le calendrier, l'autorité sportive accueille le Grand Prix de Pescara."
+    sources:
+      - titre: "Motor Sport, Dominic Tobin, « The races that never happened: F1's cancelled grands prix » (mars 2026)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-races-that-never-happened-f1s-cancelled-grands-prix/"
+      - titre: "Motor Sport, « 42. 1957 Pescara GP: Moss supreme on perilous street track » (mars 2025)"
+        url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/57/42-1957-pescara-gp-moss-supreme-on-perilous-street-track"
+      - titre: "Goodwood, Paul Fearnley, « The seeds of a British F1 empire were sown 60 years ago » (avril 2017)"
+        url: "https://www.goodwood.com/grr/f1/the-seeds-of-a-british-f1-empire-were-sown-60-years-ago/"
+  - id: "fangio-enleve-cuba"
+    annee: 1958
+    categorie: "geopolitique"
+    titre: "Fangio enlevé à Cuba"
+    texte: "Le 23 février 1958, veille du Grand Prix de Cuba, le quintuple champion du monde Juan Manuel Fangio est enlevé à l'hôtel Lincoln de La Havane par des militants du Mouvement du 26 juillet, en lutte contre la dictature de Batista, qui avait créé la course pour attirer les touristes. Il est relâché à l'ambassade d'Argentine. La course reprend sous Castro en 1960, puis disparaît quand les États-Unis isolent l'île (Joe Dunn)."
+    sources:
+      - titre: "Motor Sport, Joe Dunn, « When Fangio was kidnapped in Cuba » (mars 2023)"
+        url: "https://motorsportmagazine.com/archive/article/march-2023/7/when-fangio-was-kidnapped-in-cuba"
+  - id: "tabac-television-1965"
+    annee: 1965
+    categorie: "economie-mondiale"
+    titre: "La cigarette bannie de la télévision britannique"
+    texte: "Au début des années 1960, le Royal College of Physicians fait campagne pour restreindre la publicité du tabac ; à partir d'août 1965, la publicité pour les cigarettes est interdite à la télévision britannique, celle des cigares y restant permise jusqu'en 1991 (Simon Arron). Selon Simon Arron, l'industrie du tabac cherche aussitôt d'autres canaux de promotion. L'Italie avait interdit dès 1962 toute publicité du tabac, loi largement ignorée (GrandPrix.com)."
+    liens:
+      - evenement: "sponsors-1968"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Sports Car Digest dit qu'Imperial Tobacco trouve dans le sport la parade aux restrictions publicitaires ; mais Simon Arron attribue l'arrivée de Gold Leaf en F1 à une rumeur d'interdiction des cigarettes à coupons, non à l'interdiction télévisée."
+    sources:
+      - titre: "Motor Sport, Simon Arron, « How F1 picked up the habit » (juillet 2015)"
+        url: "https://www.motorsportmagazine.com/archive/article/july-2015/136/how-f1-picked-habit"
+      - titre: "GrandPrix.com, « The history of anti-tobacco legislation » (mai 2005)"
+        url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
+      - titre: "Sports Car Digest, Lorenzo Baer, « Gold Leaf Team Lotus: The Deal and the First Glory » (avril 2024)"
+        url: "https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/"
+  - id: "clark-indianapolis-1965"
+    annee: 1965
+    categorie: "autres-sports"
+    titre: "Jim Clark gagne à Indianapolis"
+    texte: "À sa troisième tentative, Jim Clark gagne les 500 Miles d'Indianapolis sur la Lotus 38 à V8 Ford, en menant 190 des 200 tours. En trois ans, écrit Motor Sport, Indianapolis a vu sa conception des voitures changer du tout au tout : la victoire « établit le modèle » du moteur arrière, comme la Cooper-Climax l'avait fait en Grand Prix en 1959. Pour cela, Colin Chapman et Clark délaissent le Grand Prix de Monaco et ses 700 livres de prix ; ils empochent à Indianapolis bien plus de 50 000 livres."
+    sources:
+      - titre: "Motor Sport, « Indianapolis 500-mile race (May 31st) » (juillet 1965)"
+        url: "https://www.motorsportmagazine.com/archive/article/july-1965/35/indianapolis-500-mile-race-may-31st/"
+  - id: "film-grand-prix-1966"
+    annee: 1966
+    categorie: "societe"
+    titre: "« Grand Prix », le film de Frankenheimer"
+    texte: "De mai à début octobre 1966, John Frankenheimer tourne « Grand Prix » sur de vrais circuits, souvent pendant les week-ends de course, avec plus de vingt pilotes en activité ou retirés, dont Graham Hill, Bruce McLaren et Jochen Rindt. Des caméras sont fixées aux voitures : l'association des pilotes, qui s'y opposait en course, lève son interdiction devant le budget de la MGM. Sorti aux États-Unis le 21 décembre 1966, le film remporte trois Oscars techniques (Richard Heseltine)."
+    sources:
+      - titre: "Motor Sport, Richard Heseltine, « 50 years on: John Frankenheimer's Journey to Grand Prix » (août 2016)"
+        url: "https://www.motorsportmagazine.com/special-article/best-of-racing-at-the-movies/92/50-years-on-john-frankenheimers-journey-to-grand-prix/"
+  - id: "choc-petrolier-1973"
+    annee: 1973
+    categorie: "economie-mondiale"
+    titre: "Le premier choc pétrolier"
+    texte: "Après la guerre du Kippour, les pays arabes producteurs réduisent leurs livraisons aux pays qui soutiennent Israël ; au Royaume-Uni, la semaine de trois jours rationne l'électricité dès le 1er janvier 1974, et l'économie plonge (Doug Nye). En Afrique du Sud, le gouvernement interdit toute compétition utilisant l'essence du commerce : le Grand Prix, longtemps menacé, n'est autorisé qu'en étant repoussé à fin mars, et la vente d'essence reste interdite du vendredi soir au lundi matin (Motor Sport, 1974). La F1 traverse la crise : une trentaine d'engagés courent en 1974 (Doug Nye)."
+    sources:
+      - titre: "Motor Sport, Doug Nye, « How motor racing thrived during the ‘three-day week’ » (mars 2024)"
+        url: "https://motorsportmagazine.com/archive/article/march-2024/21/doug-nye-how-motor-racing-thrived-during-the-three-day-week"
+      - titre: "Motor Sport, « 8th South African Grand Prix » (mai 1974)"
+        url: "https://www.motorsportmagazine.com/archive/article/may-1974/25/8th-south-african-grand-prix/"
+      - titre: "Motor Sport, Alan Henry, « South Africa's F1 stars » (mars 1982)"
+        url: "https://www.motorsportmagazine.com/archive/article/march-1982/72/south-africas-f1-stars/"
+  - id: "loi-veil-1976"
+    annee: 1976
+    categorie: "economie-mondiale"
+    titre: "La loi Veil sur la publicité du tabac"
+    texte: "En 1976, la loi Veil interdit en France la publicité du tabac à la télévision, à la radio, sur les affiches et au cinéma, mais ni dans la presse ni sur les manifestations sportives (GrandPrix.com). Au Royaume-Uni, le parrainage sportif est encadré depuis 1974 par un simple accord volontaire entre le ministère des Sports et les fabricants. Le sport reste ainsi l'une des dernières vitrines du tabac."
+    sources:
+      - titre: "GrandPrix.com, « The history of anti-tobacco legislation » (mai 2005)"
+        url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
+  - id: "bbc-grand-prix-1978"
+    annee: 1978
+    categorie: "societe"
+    titre: "La BBC diffuse tous les Grands Prix"
+    texte: "Porté par l'intérêt qu'a suscité le titre de James Hunt en 1976, la BBC lance en 1978 « Grand Prix », une demi-heure de résumé le dimanche soir montée à partir des images de l'Eurovision, que Murray Walker commente depuis Londres ; le premier Grand Prix retransmis en direct du circuit est Monaco 1980 (Simon Taylor). En 1976 déjà, le Grand Prix du Japon avait été la première manche hors d'Europe diffusée en direct par satellite (Stuart Codling)."
+    sources:
+      - titre: "Motor Sport, Simon Taylor, « Lunch with... Murray Walker » (avril 2011)"
+        url: "https://www.motorsportmagazine.com/archive/article/april-2011/70/lunch-murray-walker/"
+      - titre: "Autosport, Stuart Codling, « Going live: how F1 TV became a billion-dollar business » (mis à jour en octobre 2025)"
+        url: "https://www.autosport.com/f1/news/going-live-how-f1-tv-became-a-billion-dollar-business-/10768815/"
+  - id: "renault-le-mans-1978"
+    annee: 1978
+    categorie: "autres-sports"
+    titre: "Renault gagne au Mans, puis se consacre à la F1"
+    texte: "Renault mène de front depuis 1976 un programme d'endurance et la monoplace RS01, chacun avec son V6 turbo : 2 litres au Mans, 1,5 litre en F1 (ACO). En 1978, Didier Pironi et Jean-Pierre Jaussaud gagnent les 24 Heures sur l'Alpine A442B. Selon Paul Fearnley, il fallait gagner Le Mans avant que la F1 puisse devenir la priorité ; Renault-Alpine se retire ensuite de l'endurance pour se consacrer entièrement à la Formule 1 (ACO)."
+    liens:
+      - ecurie: "renault-1977"
+        mecanisme: "ouvre"
+        preuve: "etabli"
+        pourquoi: "Selon Paul Fearnley, Le Mans devait être gagné avant que la F1 devienne la priorité de Renault ; l'ACO écrit que Renault-Alpine quitte ensuite l'endurance pour se consacrer entièrement à la F1."
+    sources:
+      - titre: "Motor Sport, Paul Fearnley, « Renault revolution: the road to a French victory » (juin 2003)"
+        url: "https://www.motorsportmagazine.com/special-article/24hr-legends-2025/126/renault-revolution-the-road-to-a-french-victory/"
+      - titre: "24 Heures du Mans (ACO), Jean-Philippe Doret, « 1975-1978: Renault's move from the 24 Hours of Le Mans to Formula One » (décembre 2015)"
+        url: "https://www.24h-lemans.com/en/news/1975-1978-renaults-move-from-the-24-hours-of-le-mans-to-formula-one-22840"
+      - titre: "24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)"
+        url: "https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378"
+  - id: "guerre-des-malouines"
+    annee: 1982
+    categorie: "geopolitique"
+    titre: "La guerre des Malouines et le Grand Prix d'Argentine"
+    texte: "En 1982, l'Argentine envahit les Malouines. Selon GrandPrix.com, le Grand Prix d'Argentine ne meurt qu'après cette invasion, et il n'est relancé qu'en 1995 ; Autosport situe l'annulation de l'édition 1982 dans ce contexte, sans détailler davantage. Le pilote argentin Ricardo Zunino voit ses commanditaires disparaître quand son pays envahit l'archipel, ce qui met fin à sa carrière en F1 (Motor Sport)."
+    sources:
+      - titre: "GrandPrix.com, « Street racing in Buenos Aires » (avril 2005)"
+        url: "https://www.grandprix.com/news/street-racing-in-buenos-aires.html"
+      - titre: "Autosport, Adam Cooper, « The potted history of F1's calendar cancellations » (février 2020)"
+        url: "https://www.autosport.com/f1/news/the-potted-history-of-f1s-calendar-cancellations-5113387/5113387/"
+      - titre: "Motor Sport, « Ricardo Zunino » (base de données, non datée)"
+        url: "https://www.motorsportmagazine.com/database/drivers/ricardo-zunino"
+  - id: "apartheid-kyalami-1985"
+    annee: 1985
+    categorie: "geopolitique"
+    titre: "L'apartheid et le dernier Grand Prix d'Afrique du Sud"
+    texte: "Alors que l'Afrique du Sud est largement ostracisée, Renault et Ligier manquent le Grand Prix de 1985 sur intervention du gouvernement français, à rebours de la doctrine de la FISA qui veut séparer sport et politique (Alan Henry) ; de nombreuses télévisions européennes boycottent la retransmission, pas la BBC. Après la course, Jean-Marie Balestre confirme que la F1 ne reviendra pas tant que durera l'apartheid ; elle revient en 1992 (Ed Hardy)."
+    sources:
+      - titre: "Motor Sport, Alan Henry, « South African Grand Prix » (décembre 1985)"
+        url: "https://www.motorsportmagazine.com/archive/article/december-1985/21/south-african-grand-prix-3/"
+      - titre: "Autosport, Ed Hardy, « Has F1 ever raced in Africa? A look at its history with the series » (août 2024)"
+        url: "https://www.autosport.com/f1/news/has-f1-ever-raced-in-africa-a-look-at-its-history-with-the-series/10644856/"
+      - titre: "Autosport, Adam Cooper, « The potted history of F1's calendar cancellations » (février 2020)"
+        url: "https://www.autosport.com/f1/news/the-potted-history-of-f1s-calendar-cancellations-5113387/5113387/"
+  - id: "hongrie-1986"
+    annee: 1986
+    categorie: "geopolitique"
+    titre: "Un Grand Prix derrière le rideau de fer"
+    texte: "Le 10 août 1986, la Hongrie communiste accueille le premier Grand Prix de Formule 1 disputé derrière le rideau de fer, devant quelque 200 000 spectateurs. Bernie Ecclestone visait d'abord Moscou, mais la bureaucratie soviétique rendait le projet presque impossible ; c'est le promoteur Tamas Rohonyi qui lui suggère Budapest, en 1983. Le pouvoir hongrois, qui s'ouvre à l'Ouest, y voit une vitrine : le Hungaroring est construit en moins de huit mois à l'est de la capitale, et les équipes passent la frontière autrichienne sans visa (Reuters)."
+    sources:
+      - titre: "SBS News (Reuters), « F1 helped Hungary tear hole in Iron Curtain » (juillet 2015)"
+        url: "https://www.sbs.com.au/news/article/f1-helped-hungary-tear-hole-in-iron-curtain/d1cpzh1qb"
+  - id: "sauber-mercedes-le-mans-1989"
+    annee: 1989
+    categorie: "autres-sports"
+    titre: "Sauber-Mercedes gagne au Mans"
+    texte: "En endurance, l'équipe suisse de Peter Sauber obtient de Mercedes, absente de la compétition depuis 1955, un V8 biturbo développé d'abord en secret ; le constructeur revient officiellement en 1988 sous le nom de Team Sauber Mercedes (Autosport). En 1989, Sauber gagne les 24 Heures du Mans et le championnat du monde des voitures de sport, puis de nouveau le titre en 1990. Selon Motor Sport, « la Formule 1 était la suivante à l'horizon » : Sauber y débute au Grand Prix d'Afrique du Sud 1993."
+    liens:
+      - ecurie: "sauber"
+        mecanisme: "ouvre"
+        preuve: "discute"
+        pourquoi: "Motor Sport fait des succès en endurance avec Mercedes le prélude à l'entrée de Sauber en F1, mais sans décrire le passage de l'un à l'autre : le lien reste indirect."
+    sources:
+      - titre: "Autosport, Gary Watkins, « The manufacturer tie-up that put Sauber on the map » (juin 2020)"
+        url: "https://www.autosport.com/wec/news/the-manufacturer-tie-up-that-put-sauber-on-the-map-5113946/5113946/"
+      - titre: "Motor Sport, « Sauber » (base de données des équipes, non datée)"
+        url: "https://www.motorsportmagazine.com/database/teams/sauber/"
+  - id: "loi-evin-grand-prix-de-france"
+    annee: 1992
+    categorie: "economie-mondiale"
+    titre: "La loi Évin et le Grand Prix de France"
+    texte: "Votée le 10 janvier 1991, la loi Évin interdit en France la publicité pour le tabac. En 1992, à la demande du Comité national contre le tabagisme, la justice poursuit la diffusion d'images de voitures aux couleurs de cigarettiers, et Williams et Renault sont condamnés pour la marque Camel ; en décembre, le Grand Prix de France est suspendu du calendrier (Grandprix.com). Le gouvernement fait voter le 23 décembre 1992 un amendement qui autorise la diffusion des courses télévisées depuis des pays où la publicité pour le tabac est permise, et une dotation de 450 millions de francs pour les sports mécaniques ; la course de Magny-Cours a lieu en 1993 (Assemblée nationale)."
+    sources:
+      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+        url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
+      - titre: "Assemblée nationale, Patrick Balkany, « Question écrite n° 65751 : sports mécaniques », et réponse du gouvernement (décembre 1992)"
+        url: "https://www.assemblee-nationale.fr/dyn/9/questions/QANR5L9QE65751.pdf"
+  - id: "television-numerique-1996"
+    annee: 1996
+    categorie: "societe"
+    titre: "La F1 sur la télévision numérique payante"
+    texte: "Au milieu des années 1990, Bernie Ecclestone parie sur la télévision numérique interactive : un signal multicanal, essayé à Hockenheim en 1995, est vendu aux chaînes numériques comme l'allemande DF1 et l'italienne Telepiù, alors que le paiement à la séance ne touche que quelques centaines de milliers de foyers (Joe Saward). Lancé en 1996 sous le nom de F1 Digital+, le service laisse le téléspectateur choisir ses caméras ; budgété à environ 35 millions de dollars, il en aurait fait perdre une centaine à Ecclestone avant son arrêt en 2002 (Dieter Rencken)."
+    sources:
+      - titre: "Grandprix.com, Joe Saward, « The future of Formula 1 television » (mars 1996)"
+        url: "https://www.grandprix.com/features/joe-saward/financial-the-future-of-formula-1-television.html"
+      - titre: "Autosport, Dieter Rencken, « The $150m gamble that spooked F1 » (mars 2017)"
+        url: "https://www.autosport.com/f1/news/the-150m-gamble-that-spooked-f1-5109497/5109497/"
+  - id: "exemption-tabac-1997"
+    annee: 1997
+    categorie: "economie-mondiale"
+    titre: "La F1, le tabac et le gouvernement Blair"
+    texte: "Élu en mai 1997, le gouvernement travailliste britannique veut interdire la publicité pour le tabac. En octobre, Max Mosley et Bernie Ecclestone rencontrent Tony Blair à Downing Street, et les travaillistes décident d'exempter les Grands Prix ; en novembre, le parti annonce qu'il rendra à Ecclestone son don d'un million de livres. En décembre, l'Union européenne refuse à la F1 l'exclusion de dix ans demandée par Londres, mais lui accorde jusqu'au 1er octobre 2006 (Grandprix.com)."
+    sources:
+      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+        url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
+  - id: "malaisie-1999"
+    annee: 1999
+    categorie: "economie-mondiale"
+    titre: "La Malaisie de Mahathir mise sur la F1"
+    texte: "Au milieu des années 1990, le Premier ministre malaisien Mahathir Mohamad veut faire de son pays une nation pleinement industrialisée d'ici 2020. Dans ce cadre, la compagnie pétrolière nationale Petronas commandite l'équipe Sauber, et la F1 doit servir de vitrine à la haute technologie malaisienne ; le circuit de Sepang, dessiné par Hermann Tilke, est mis en chantier début 1997 (Grandprix.com). En octobre 1999, il accueille le premier Grand Prix de Malaisie, gagné par Eddie Irvine sur Ferrari après un appel contre la disqualification de l'équipe (Formula 1)."
+    sources:
+      - titre: "Grandprix.com, « Sepang International » (fiche circuit, non datée)"
+        url: "https://www.grandprix.com/circuits/sepang-international.html"
+      - titre: "Formula 1, « The Malaysian Grand Prix - did you know? » (mars 2015)"
+        url: "https://www.formula1.com/en/latest/article/the-malaysian-grand-prix-did-you-know-.1SsyzCaENkaNRPGJzC0OJG"
+  - id: "bahrein-2004"
+    annee: 2004
+    categorie: "geopolitique"
+    titre: "Premier Grand Prix au Moyen-Orient"
+    texte: "En 2004, le circuit de Sakhir, dessiné par Hermann Tilke, accueille à Bahreïn le premier Grand Prix de Formule 1 disputé au Moyen-Orient (Motor Sport). La même saison, la Chine entre au calendrier, et la Turquie suit en 2005 : de nouveaux pays, parfois moins restrictifs sur le tabac, alors que l'interdiction européenne a déjà poussé certaines courses hors d'Europe (Autosport, Nick Mulvenney)."
+    sources:
+      - titre: "Motor Sport, « Sakhir » (base de données des circuits, non datée)"
+        url: "https://www.motorsportmagazine.com/database/circuits/sakhir/"
+      - titre: "Autosport, Nick Mulvenney, « Analysis: F1 forced to try to kick tobacco habit » (janvier 2005)"
+        url: "https://www.autosport.com/f1/news/analysis-f1-forced-to-try-to-kick-tobacco-habit-5067652/5067652/"
+  - id: "directive-tabac-2005"
+    annee: 2005
+    categorie: "economie-mondiale"
+    titre: "L'Europe interdit le parrainage par le tabac"
+    texte: "La directive européenne 2003/33/CE du 26 mai 2003 interdit le parrainage par le tabac des événements qui se déroulent dans plusieurs États membres ou ont des effets transfrontaliers ; elle doit être transposée au plus tard le 31 juillet 2005. Une première directive, votée en 1998, avait été annulée en 2000 par la Cour de justice pour une base juridique erronée (Grandprix.com). En 2004, Ferrari, McLaren, Renault, Jordan et BAR dépendaient encore largement des cigarettiers ; la FIA estimait en 2002 leur apport au sport automobile à 350 millions de dollars par an, et Frank Williams jugeait les autres commanditaires moins généreux de 25 à 30 % (Autosport, Nick Mulvenney)."
+    sources:
+      - titre: "legislation.gov.uk, « Directive 2003/33/EC of the European Parliament and of the Council of 26 May 2003 » (mai 2003)"
+        url: "https://www.legislation.gov.uk/eudr/2003/33/data.htm?view=plain"
+      - titre: "Autosport, Nick Mulvenney, « Analysis: F1 forced to try to kick tobacco habit » (janvier 2005)"
+        url: "https://www.autosport.com/f1/news/analysis-f1-forced-to-try-to-kick-tobacco-habit-5067652/5067652/"
+      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+        url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
+  - id: "crise-financiere-2008"
+    annee: 2008
+    categorie: "economie-mondiale"
+    titre: "La crise financière chasse trois constructeurs"
+    texte: "Le 5 décembre 2008, au plus fort de la crise économique mondiale, Honda annonce son retrait ; l'entreprise licencie déjà en Europe et ne peut plus justifier le financement de l'équipe (The Race). Le 29 juillet 2009, BMW annonce à son tour son départ en fin de saison, au nom d'un « réalignement stratégique » vers la durabilité (BMW Group), quand Motor Sport y voit une victime de la dégradation de l'économie mondiale. Le 4 novembre 2009, Toyota, qui a enregistré en mars sa première perte d'exploitation, se retire en invoquant « les dures réalités économiques actuelles » (Autosport)."
+    liens:
+      - evenement: "honda-brawn-2008"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Honda se retire « au plus fort de la crise économique mondiale », alors qu'il licencie en Europe (The Race, Scott Mitchell-Malm)."
+      - ecurie: "toyota"
+        mecanisme: "ferme"
+        preuve: "etabli"
+        pourquoi: "Toyota justifie son retrait par « les dures réalités économiques actuelles », après sa première perte d'exploitation (Autosport, Matt Beer)."
+      - ecurie: "bmw-sauber"
+        mecanisme: "ferme"
+        preuve: "discute"
+        pourquoi: "Motor Sport attribue le départ de BMW à la dégradation de l'économie mondiale, mais BMW invoque un réalignement stratégique vers la durabilité, sans parler de la crise."
+    sources:
+      - titre: "The Race, Scott Mitchell-Malm, « The last time Honda withdrew from F1 – by those it left behind » (avril 2021)"
+        url: "https://the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind"
+      - titre: "BMW Group, « BMW to exit Formula One at end of 2009 season » (juillet 2009)"
+        url: "https://www.press.bmwgroup.com/global/article/detail/T0037934EN/bmw-to-exit-formula-one-at-end-of-2009-season?language=en"
+      - titre: "Autosport, Matt Beer, « Toyota pulls out of Formula 1 » (novembre 2009)"
+        url: "https://www.autosport.com/f1/news/toyota-pulls-out-of-formula-1-4433866/4433866/"
+      - titre: "Motor Sport, « Sauber » (base de données des équipes, non datée)"
+        url: "https://www.motorsportmagazine.com/database/teams/sauber/"
+  - id: "printemps-arabe-bahrein-2011"
+    annee: 2011
+    categorie: "geopolitique"
+    titre: "Le Printemps arabe annule le Grand Prix de Bahreïn"
+    texte: "En février 2011, alors que la contestation gagne le monde arabe et que des émeutes éclatent à Manama, le prince héritier Salman ben Hamad Al Khalifa, principal artisan de la venue de la F1 dans le Golfe, renonce à la course d'ouverture de la saison : le pays doit se concentrer sur « les questions d'intérêt national » (Motor Sport, Rob Widdows). Le Conseil mondial lui attribue ensuite la date d'octobre prévue pour l'Inde, mais les équipes s'y opposent et Bahreïn disparaît du calendrier 2011 ; la course revient dès 2012, malgré les troubles (Motor Sport, Katy Fairman)."
+    sources:
+      - titre: "Motor Sport, Rob Widdows, « Bahrain GP is cancelled » (février 2011)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/bahrain-gp-cancelled/"
+      - titre: "Motor Sport, Katy Fairman, « Desert storm: F1's biggest Bahrain Grand Prix controversies » (avril 2025)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/desert-storm-f1s-biggest-bahrain-grand-prix-controversies/"
+  - id: "le-mans-hybride-2012"
+    annee: 2012
+    categorie: "autres-sports"
+    titre: "Premier hybride vainqueur au Mans"
+    texte: "Le 17 juin 2012, l'Audi R18 e-tron quattro devient la première voiture hybride à gagner les 24 Heures du Mans, devant les Toyota TS030 hybrides qui ont un temps mené (FIA WEC). Son V6 turbodiesel entraîne les roues arrière, et l'énergie récupérée au freinage revient par les roues avant ; Audi la stocke dans un volant d'inertie conçu par Williams Hybrid Power, Toyota dans des supercondensateurs (Autosport, Gary Watkins). La F1 a lancé le terme KERS en 2009 ; à partir de 2014, la récupération d'énergie figure dans les règlements de la F1 comme du LMP1 (Motor Sport, Gary Watkins)."
+    sources:
+      - titre: "FIA WEC, « History made by Audi at Le Mans » (juin 2012)"
+        url: "https://www.fiawec.com/en/news/history-made-by-audi-at-le-mans/309"
+      - titre: "Autosport, Gary Watkins, « Audi unveils hybrid R18 e-tron quattro » (février 2012)"
+        url: "https://www.autosport.com/wec/news/97739/audi-unveils-hybrid-r18-etron-quattro"
+      - titre: "Motor Sport, Gary Watkins, « Le Mans hybrids » (juin 2012)"
+        url: "https://www.motorsportmagazine.com/archive/article/june-2012/75/le-mans-hybrids/"
+  - id: "formule-e-2014"
+    annee: 2014
+    categorie: "autres-sports"
+    titre: "La Formule E"
+    texte: "Le 13 septembre 2014, la Formule E, championnat de monoplaces électriques de la FIA, dispute sa première course à Pékin, sur un circuit tracé autour du stade olympique « Nid d'oiseau ». Dix équipes de deux pilotes y engagent la même voiture, la Spark-Renault SRT_01E, conçue par Spark Racing Technology avec un consortium où figurent McLaren, Williams, Renault, Michelin et Dallara (FIA)."
+    sources:
+      - titre: "FIA, « Formula E 2014 - Beijing ePrix Preview » (septembre 2014)"
+        url: "https://www.fia.com/news/formula-e-2014-beijing-eprix-preview"
+  - id: "liberty-media-2017"
+    annee: 2017
+    categorie: "societe"
+    titre: "Liberty Media achète la Formule 1"
+    texte: "Le 23 janvier 2017, le groupe de médias américain Liberty Media achève le rachat de la Formule 1, pour une valeur d'entreprise de 8 milliards de dollars. Chase Carey en devient le directeur général ; Bernie Ecclestone, qui avait bâti l'affaire en quarante ans, est nommé président d'honneur et conseiller du conseil d'administration (Formula 1)."
+    sources:
+      - titre: "Formula 1, « Liberty completes F1 acquisition » (janvier 2017)"
+        url: "https://www.formula1.com/en/latest/article/liberty-completes-f1-acquisition.3zzGTfOwC4OkEc8EAKMKKw"
+  - id: "drive-to-survive-2019"
+    annee: 2019
+    categorie: "societe"
+    titre: "« Drive to Survive » sur Netflix"
+    texte: "Le 8 mars 2019, Netflix met en ligne « Formula 1: Drive to Survive », série documentaire en dix épisodes consacrée à la saison 2018, de Melbourne à Abou Dabi (Formula 1). En 2022, Stefano Domenicali lui reconnaît un effet « incroyable », surtout sur les nouveaux publics, et Greg Maffei, patron de Liberty Media, cite une audience télévisée américaine en hausse de 58 % en 2021 et un public rajeuni de quatre ans en moyenne (Autosport, Adam Cooper)."
+    sources:
+      - titre: "Formula 1, « Formula 1 and Netflix announce 'Drive to Survive' » (février 2019)"
+        url: "https://www.formula1.com/en/latest/article/formula-1-and-netflix-put-drive-to-survive-on-pole-position.7MyqMggwrYJ5qUxjj1igeB"
+      - titre: "Autosport, Adam Cooper, « Domenicali: Drive to Survive has to add value for F1 to continue » (mars 2022)"
+        url: "https://www.autosport.com/f1/news/domenicali-drive-to-survive-has-to-add-value-for-f1-to-continue/8688678/"
+  - id: "net-zero-2030"
+    annee: 2019
+    categorie: "societe"
+    titre: "L'engagement « Net Zero 2030 »"
+    texte: "Le 12 novembre 2019, la Formule 1 s'engage à atteindre un bilan carbone net nul en 2030, voitures, activité en piste et reste de ses opérations compris ; elle compte pour cela sur un moteur hybride associé à des carburants durables avancés (Formula 1). Sa saison 2019 a émis 256 000 tonnes de CO2. En décembre 2020, la FIA livre aux motoristes les premiers barils d'un carburant 100 % durable et veut le rendre obligatoire avec la future architecture moteur (FIA) ; les moteurs de 2026 doivent en être les premiers utilisateurs (Formula 1, Lawrence Barretto)."
+    liens:
+      - evenement: "reglement-2026"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Formula1.com (Lawrence Barretto) présente les carburants durables de 2026 comme une étape du plan Net Zero 2030 ; le règlement 2026 poursuit aussi d'autres buts, dont l'arrivée de nouveaux motoristes."
+    sources:
+      - titre: "Formula 1, « Formula 1 announces plan to be Net Zero Carbon by 2030 » (novembre 2019)"
+        url: "https://www.formula1.com/en/latest/article/formula-1-announces-plan-to-be-net-zero-carbon-by-2030.5IaX2AZHyy7jqxl6wra6CZ"
+      - titre: "FIA, « FIA introduces sustainable fuel into Formula 1 and commits to becoming carbon neutral from 2021 and net zero by 2030 » (décembre 2020)"
+        url: "https://www.fia.com/news/fia-introduces-sustainable-fuel-formula-1-and-commits-becoming-carbon-neutral-2021-and-net-zero"
+      - titre: "Formula 1, Lawrence Barretto, « Net Zero Carbon: How Formula 1 is going to meet this ambitious target by 2030 » (septembre 2022)"
+        url: "https://www.formula1.com/en/latest/article/net-zero-carbon-how-formula-1-is-going-to-meet-this-ambitious-target-by-2030.5QsK9NpYbz7pXp7423I3iJ"
+  - id: "covid-2020"
+    annee: 2020
+    categorie: "geopolitique"
+    titre: "La pandémie de Covid-19"
+    texte: "Au printemps 2020, la pandémie de Covid-19 fait reporter les premiers Grands Prix de la saison ; le 20 mars, la F1 lance une série de Grands Prix virtuels sur le jeu F1 2019, avec des pilotes en activité, à commencer par Bahreïn le 22 mars (Formula 1). Le 27 mai, pour protéger le championnat des effets attendus de la pandémie, le Conseil mondial ratifie par vote électronique un ensemble de mesures : plafond budgétaire ramené de 175 à 145 millions de dollars pour 2021, temps de soufflerie échelonné selon le classement, gel des châssis et des boîtes entre 2020 et 2021 (Autosport, Luke Smith ; Motor Sport, Jake Williams-Smith)."
+    liens:
+      - evenement: "plafond-budgetaire-2021"
+        mecanisme: "declenche"
+        preuve: "etabli"
+        pourquoi: "Le plafond, déjà prévu à 175 millions de dollars, est ramené à 145 millions dans la tourmente économique du Covid-19, à la demande notamment de McLaren (Motor Sport, Jake Williams-Smith)."
+      - evenement: "essais-aero-echelonnes-2021"
+        mecanisme: "declenche"
+        preuve: "discute"
+        pourquoi: "Autosport (Luke Smith) range l'échelle des essais aérodynamiques dans le train de mesures adopté pour protéger la F1 de la pandémie , sans dire que cette mesure-là répond à la pandémie plutôt qu'au souci d'équilibre : le lien reste indirect."
+    sources:
+      - titre: "Formula 1, « Formula 1 launches Virtual Grand Prix Series to replace postponed races » (mars 2020)"
+        url: "https://www.formula1.com/en/latest/article/formula-1-launches-virtual-grand-prix-series-to-replace-postponed-races.1znLAbPzBbCQPj1IDMeiOi"
+      - titre: "Autosport, Luke Smith, « F1 News: Rule changes, reduced cost cap for 2021 approved by WMSC » (mai 2020)"
+        url: "https://www.autosport.com/f1/news/f1-news-rule-changes-reduced-cost-cap-for-2021-approved-by-wmsc-4982338/4982338/"
+      - titre: "Motor Sport, Jake Williams-Smith, « $145m cost cap approved for F1 in 2021, with more limits on testing and development » (mai 2020)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/145m-cost-cap-approved-for-f1-in-2021-with-more-limits-on-testing-and-development/"
+  - id: "ukraine-2022"
+    annee: 2022
+    categorie: "geopolitique"
+    titre: "L'invasion de l'Ukraine et la fin du Grand Prix de Russie"
+    texte: "Après l'invasion de l'Ukraine par la Russie, la Formule 1 juge « impossible » de courir en Russie en 2022, puis annonce le 3 mars qu'elle a résilié le contrat du promoteur : la Russie n'aura plus de Grand Prix (Formula 1). Le 5 mars, Haas, « choquée et attristée » par l'invasion, met fin avec effet immédiat au contrat de Nikita Mazepin et au parrainage principal d'Uralkali, dont elle avait retiré les couleurs dès les essais de Barcelone (Autosport, Lewis Duncan)."
+    sources:
+      - titre: "Formula 1, « Formula 1 terminates contract with Russian Grand Prix promoter » (mars 2022)"
+        url: "https://www.formula1.com/en/latest/article/formula-1-terminates-contract-with-russian-grand-prix-promoter.5geFNbONEePwRCSQj25Xg3"
+      - titre: "Autosport, Lewis Duncan, « Haas F1 team splits with Mazepin, Uralkali after Ukraine invasion » (mars 2022)"
+        url: "https://www.autosport.com/f1/news/haas-f1-team-splits-with-mazepin-uralkali-after-ukraine-invasion/8717996/"
+  - id: "etats-unis-2023"
+    annee: 2023
+    categorie: "societe"
+    titre: "Trois Grands Prix aux États-Unis"
+    texte: "En 2023, la Formule 1 court trois fois aux États-Unis, à Austin, Miami et Las Vegas, contre une seule course en 2019 ; plus de 800 000 spectateurs y assistent, contre 268 000 à Austin quatre ans plus tôt. Las Vegas, inaugurée cette année-là, est la seule épreuve organisée directement par la F1. Selon Liberty Media, l'audience moyenne d'un week-end de course sur ESPN est passée de 1,6 million en 2018 à 3,1 millions en 2023 (Liberty Media)."
+    sources:
+      - titre: "Liberty Media, « Annual Report 2023 », lettre aux actionnaires (avril 2024)"
+        url: "https://www.sec.gov/Archives/edgar/data/1560385/000110465924052088/tm242810d4_ars.pdf"
+  - id: "guerre-iran-2026"
+    annee: 2026
+    categorie: "geopolitique"
+    titre: "La guerre contre l'Iran vide le calendrier du Golfe"
+    texte: "Le 28 février 2026, les États-Unis et Israël lancent une opération militaire contre l'Iran, dont les missiles et drones frappent ensuite Bahreïn, l'Arabie saoudite, le Qatar et les Émirats (Motor Sport, Dominic Tobin). Le 14 mars, la F1 annonce que les Grands Prix de Bahreïn et d'Arabie saoudite n'auront pas lieu en avril, sans course de remplacement (Formula 1). En août, Bahreïn, la FIA, la F1 et la Malaisie s'accordent pour disputer le Grand Prix de Bahreïn à Sepang du 2 au 4 octobre, premier retour de la F1 en Malaisie depuis 2017 (Autosport, Ben Vinel). La course a lieu à Sepang du 2 au 4 octobre, sous le nom de Grand Prix de Bahreïn en Malaisie (résultats officiels de la F1)."
+    sources:
+      - titre: "Motor Sport, Dominic Tobin, « F1 cancels Bahrain and Saudi Grands Prix as Iranian missile attacks continue » (mars 2026)"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-cancels-bahrain-and-saudi-grands-prix-as-iranian-missile-attacks-continue/"
+      - titre: "Formula 1, « Bahrain and Saudi Arabian Grands Prix will not take place in April » (mars 2026)"
+        url: "https://www.formula1.com/en/latest/article/bahrain-and-saudi-arabian-grands-prix-will-not-take-place-in-april.1hnqllVG85RSt8pbFc5Ivx"
+      - titre: "Autosport, Ben Vinel, « Malaysia will officially host F1's 2026 Bahrain GP » (août 2026)"
+        url: "https://www.autosport.com/f1/news/malaysia-will-officially-host-f1s-2026-bahrain-gp/10842022/"
+      - titre: "Formula 1, résultats, « Formula 1 Gulf Air Bahrain Grand Prix in Malaysia 2026 »"
+        url: "https://www.formula1.com/en/results/2026/races/1308/bahrain/race-result"

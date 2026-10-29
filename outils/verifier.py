@@ -122,15 +122,18 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
     ids_meca = {m["id"] for m in (chrono or {}).get("mecanismes", [])}
     ids_preuve = {p["id"] for p in (chrono or {}).get("preuves", [])}
     ids_ctx = {c["id"] for c in (chrono or {}).get("contexte", []) or []}
+    ids_ecu = {e["id"] for e in (charger_yaml(f"{rep_data}/ecuries.yml") or {}).get("ecuries", [])} if os.path.exists(f"{rep_data}/ecuries.yml") else set()
     for c in (chrono or {}).get("contexte", []) or []:
         if c.get("categorie") not in ids_cat:
             err(f"{rep_data}/chronologie.yml : contexte {c['id']}, catégorie « {c.get('categorie')} » inconnue")
         if "jalons" in c:
             err(f"{rep_data}/chronologie.yml : contexte {c['id']}, ancien champ « jalons » (remplacé par « liens »)")
         for l in c.get("liens", []) or []:
-            # un lien vise soit un jalon, soit un autre événement de contexte (mécanisme « declenche »)
-            if ("jalon" in l) == ("evenement" in l):
-                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, lien sans cible unique (jalon ou evenement)")
+            # un lien vise un jalon, un autre événement de contexte (mécanisme « declenche ») ou une écurie
+            if sum(k in l for k in ("jalon", "evenement", "ecurie")) != 1:
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, lien sans cible unique (jalon, evenement ou ecurie)")
+            elif "ecurie" in l and l["ecurie"] not in ids_ecu:
+                err(f"{rep_data}/chronologie.yml : contexte {c['id']}, écurie « {l.get('ecurie')} » inconnue")
             elif "jalon" in l and l["jalon"] not in ids_jal:
                 err(f"{rep_data}/chronologie.yml : contexte {c['id']}, jalon « {l.get('jalon')} » inconnu")
             elif "evenement" in l and (l["evenement"] not in ids_ctx or l["evenement"] == c["id"]):
@@ -374,7 +377,7 @@ _ce = {c["id"]: c for c in (charger_yaml("_data/en/chronologie.yml") or {}).get(
 for m in sorted(set(_cf) ^ set(_ce)):
     err(f"contexte « {m} » présent dans une seule langue")
 def _liens(c):
-    return [(l.get("jalon"), l.get("evenement"), l.get("mecanisme"), l.get("preuve")) for l in c.get("liens") or []]
+    return [(l.get("jalon"), l.get("evenement"), l.get("ecurie"), l.get("mecanisme"), l.get("preuve")) for l in c.get("liens") or []]
 for m in sorted(set(_cf) & set(_ce)):
     if (_cf[m]["annee"], _cf[m]["categorie"], _liens(_cf[m])) != (_ce[m]["annee"], _ce[m]["categorie"], _liens(_ce[m])):
         err(f"contexte « {m} » : année, catégorie ou liens différents entre fr et en")

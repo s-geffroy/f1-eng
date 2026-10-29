@@ -362,6 +362,12 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 [data-categorie="securite"], .repere-securite { --c: #7a3e9d; }
 [data-categorie="economie"], .repere-economie { --c: #2e7348; }
 [data-categorie="technologie"], .repere-technologie { --c: #12707a; }
+/* contexte mondial */
+[data-categorie="geopolitique"], .repere-geopolitique { --c: #8a3b22; }
+[data-categorie="economie-mondiale"], .repere-economie-mondiale { --c: #4b6b1f; }
+[data-categorie="autres-sports"], .repere-autres-sports { --c: #1d5f8a; }
+[data-categorie="societe"], .repere-societe { --c: #94456f; }
+.frise-filtres .filtres-monde { margin-left: 0.75rem; }
 
 .frise-filtres { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0 0 0.75rem; }
 .frise-filtres p { margin: 0 0.25rem 0 0; font-family: var(--titre); font-size: 1.0625rem; font-weight: 600; }

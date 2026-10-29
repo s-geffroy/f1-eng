@@ -144,6 +144,25 @@ layout: default
     {%- endif %}
     {%- endfor %}
 
+    {%- comment -%} événements de contexte (chronologie) dont un lien vise cette écurie {%- endcomment -%}
+    {%- assign ctx_e = "" | split: "" %}
+    {%- for c in D.chronologie.contexte %}{% for lk in c.liens %}{% if lk.ecurie == id_e %}{% assign ctx_e = ctx_e | push: c %}{% endif %}{% endfor %}{% endfor %}
+    {%- if ctx_e.size > 0 %}
+    <section class="passage">
+      <h2>{{ T.ecuries.contexte }}</h2>
+      <ul class="usines">
+        {%- for c in ctx_e %}
+        {%- for lk in c.liens %}{% if lk.ecurie == id_e %}
+        {%- assign m = D.chronologie.mecanismes | where: "id", lk.mecanisme | first %}
+        {%- assign p = D.chronologie.preuves | where: "id", lk.preuve | first %}
+        <li><a href="{{ T.url.chronologie | relative_url }}#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a> — {{ m.cote_contexte }} {{ e.nom }} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <span class="fiche-jalon-liens">{% include lier-noms.html texte=lk.pourquoi %}</span></li>
+        {%- endif %}{% endfor %}
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- endif %}
+
     <section class="frise frise-fiche" aria-labelledby="titre-frise-fiche">
       <h2 id="titre-frise-fiche">{{ T.ecuries.frise_lignee }}</h2>
       {%- for l in ses_lignees %}

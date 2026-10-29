@@ -22,6 +22,7 @@
   <div class="frise-filtres" role="group" aria-labelledby="frise-filtres-titre">
     <p id="frise-filtres-titre">{{ T.chrono.filtres }}</p>
     {%- for c in D.chronologie.categories %}
+    {%- if c.groupe == "monde" and premier_monde != false %}{% assign premier_monde = false %}<p class="filtres-monde">{{ T.chrono.monde }}</p>{% endif %}
     {%- assign n = contexte | where: "categorie", c.id | size %}
     <button type="button" class="filtre-contexte" data-categorie="{{ c.id }}" aria-pressed="false">
       {% include repere-contexte.html categorie=c.id %}{{ c.nom }} <span class="filtre-nombre">{{ n }}</span>
@@ -189,7 +190,8 @@
         <p>{% include lier-noms.html texte=c.texte %}</p>
         {%- comment -%} un lien vise un jalon (« jalon ») ou un autre événement de contexte (« evenement ») {%- endcomment -%}
         {%- assign n_jal = 0 -%}{%- assign n_ev = 0 -%}
-        {%- for l in c.liens -%}{%- if l.jalon -%}{%- assign n_jal = n_jal | plus: 1 -%}{%- else -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}
+        {%- assign n_ec = 0 -%}
+        {%- for l in c.liens -%}{%- if l.jalon -%}{%- assign n_jal = n_jal | plus: 1 -%}{%- elsif l.ecurie -%}{%- assign n_ec = n_ec | plus: 1 -%}{%- else -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}
         {%- for c2 in contexte -%}{%- for l in c2.liens -%}{%- if l.evenement == c.id -%}{%- assign n_ev = n_ev | plus: 1 -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
         {%- if n_jal > 0 %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.innovations_liees }}</span></p>
@@ -221,6 +223,18 @@
           {%- endif %}{% endfor %}{% endfor %}
         </ul>
         {%- endif %}
+        {%- if n_ec > 0 %}
+        <p class="fiche-jalon-liens"><span>{{ T.chrono.ecuries_liees }}</span></p>
+        <ul class="liens-causaux">
+          {%- for l in c.liens %}{% if l.ecurie %}
+          {%- assign ec = D.ecuries.ecuries | where: "id", l.ecurie | first -%}
+          {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
+          {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
+          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="{{ T.url.ecuries | relative_url }}{{ ec.id }}/">{{ ec.nom }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+            <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
+          {%- endif %}{% endfor %}
+        </ul>
+        {%- endif %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
           {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
         </p>
@@ -231,14 +245,15 @@
   <p class="jalons-note">{{ T.chrono.note_contexte }} <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a></p>
 </section>
 
-{%- comment -%} liens de cause à effet, pour les connecteurs de la frise (le texte est dans les fiches) {%- endcomment -%}
+{%- comment -%} liens de cause à effet, pour les connecteurs de la frise (le texte est dans les fiches) ;
+   un lien vers une écurie n'a pas de repère sur la frise : il n'apparaît que dans la fiche {%- endcomment -%}
 {%- assign premier = true %}
 <script type="application/json" id="frise-liens">[
-{%- for c in contexte %}{% for l in c.liens %}
+{%- for c in contexte %}{% for l in c.liens %}{% unless l.ecurie %}
 {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
 {%- if premier %}{% assign premier = false %}{% else %},{% endif %}
 {"c":"c-{{ c.id }}","j":"{% if l.evenement %}c-{{ l.evenement }}{% else %}j-{{ l.jalon }}{% endif %}","meca":"{{ l.mecanisme }}","nom":{{ m.nom | jsonify }},"preuve":"{{ l.preuve }}"}
-{%- endfor %}{% endfor %}]</script>
+{%- endunless %}{% endfor %}{% endfor %}]</script>
 
 <script>
 /* Frise : rien n'est ouvert ni sélectionné au chargement, même si l'adresse vise un repère
