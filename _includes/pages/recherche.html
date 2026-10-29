@@ -8,7 +8,7 @@
 
 <form class="filtres recherche-form" id="recherche" role="search" hidden
       data-index="{{ T.url.index_recherche | relative_url }}"
-      data-vide="{{ T.recherche.vide }}" data-aucun="{{ T.recherche.aucun }}"
+      data-vide="{{ T.recherche.vide }}" data-erreur="{{ T.recherche.erreur }}" data-aucun="{{ T.recherche.aucun }}"
       data-un="{{ T.recherche.un }}" data-plusieurs="{{ T.recherche.plusieurs }}"
       data-types='{{ T.recherche.types | jsonify }}'>
   <div class="filtre filtre-texte">
@@ -80,11 +80,12 @@
     });
     form.hidden = false;
     var q = new URL(location.href).searchParams.get("q");
-    if (q) { champ.value = q; }
+    if (q) { champ.value = q; champ.focus(); }
     chercher();
-    champ.focus();
     champ.addEventListener("input", chercher);
     form.addEventListener("submit", function (e) { e.preventDefault(); });
+  }).catch(function () {
+    bilan.textContent = form.dataset.erreur;
   });
 })();
 </script>

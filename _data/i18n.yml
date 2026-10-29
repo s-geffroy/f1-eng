@@ -288,7 +288,7 @@ fr:
     titre: "Dossiers"
     accroche: "Six textes de synthèse : la méthode, puis le classement tier par tier, la manière dont la chronologie relie le contexte aux innovations, et enfin les hégémonies des écuries, des pilotes et des motoristes confrontées aux innovations."
     telecharger: "Télécharger la présentation en PDF"
-    telecharger_suite: "22 diapositives, de la méthode au classement final, en français."
+    telecharger_suite: "22 diapositives, de la méthode au classement final (dossiers 1 à 4), en français."
   recherche:
     titre_page: "Recherche"
     description: "Rechercher dans toute l'encyclopédie : ingénieurs, écuries, voitures, glossaire, chronologie et dossiers."
@@ -297,7 +297,8 @@ fr:
     label: "Rechercher"
     placeholder: "Effet de sol, 1981, Barnard, turbo…"
     vide: "Saisissez au moins deux lettres."
-    aucun: "Aucun résultat. Essayez un autre mot, ou parcourez l'index."
+    aucun: "Aucun résultat. Essayez un autre mot, ou parcourez l'index des ingénieurs."
+    erreur: "L'index de recherche n'a pas pu être chargé. Rechargez la page, ou parcourez l'index des ingénieurs."
     un: "résultat"
     plusieurs: "résultats"
     types:
@@ -375,7 +376,10 @@ fr:
     titre: "Page introuvable"
     texte_avant: "Cette adresse ne correspond à aucune page de l'encyclopédie. L'"
     texte_lien: "index des ingénieurs"
-    texte_apres: "recense toutes les fiches, et l'accueil mène aux écuries et aux voitures."
+    texte_apres: "recense toutes les fiches, et l'"
+    accueil_lien: "accueil"
+    accueil_apres: "mène aux écuries, aux voitures et aux dossiers."
+    recherche: "Ou cherchez directement :"
 
 en:
   code: "en"
@@ -661,7 +665,7 @@ en:
     titre: "Features"
     accroche: "Six overview pieces: the method, then the ranking tier by tier, how the timeline links context to innovations, and finally the hegemonies of teams, drivers and engine makers set against innovations."
     telecharger: "Download the presentation (PDF)"
-    telecharger_suite: "22 slides, from the method to the final ranking."
+    telecharger_suite: "22 slides, from the method to the final ranking (features 1 to 4)."
   recherche:
     titre_page: "Search"
     description: "Search the whole encyclopedia: engineers, teams, cars, glossary, timeline and features."
@@ -670,7 +674,8 @@ en:
     label: "Search"
     placeholder: "Ground effect, 1981, Barnard, turbo…"
     vide: "Type at least two letters."
-    aucun: "No results. Try another word, or browse the index."
+    aucun: "No results. Try another word, or browse the index of engineers."
+    erreur: "The search index could not be loaded. Reload the page, or browse the index of engineers."
     un: "result"
     plusieurs: "results"
     types:
@@ -748,4 +753,7 @@ en:
     titre: "Page not found"
     texte_avant: "This address does not match any page of the encyclopedia. The"
     texte_lien: "index of engineers"
-    texte_apres: "lists every profile, and the home page leads to the teams and cars."
+    texte_apres: "lists every profile, and the"
+    accueil_lien: "home page"
+    accueil_apres: "leads to the teams, cars and features."
+    recherche: "Or search directly:"

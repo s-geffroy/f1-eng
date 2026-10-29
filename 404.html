@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page introuvable
+title: "Page introuvable / Page not found"
 permalink: /404.html
 ---
 <!--
@@ -10,9 +10,19 @@ permalink: /404.html
 {%- assign fr = site.data.i18n.fr -%}{%- assign en = site.data.i18n.en -%}
 <section class="page-tete">
   <h1>{{ fr.p404.titre }}</h1>
-  <p class="accroche">{{ fr.p404.texte_avant }}<a href="{{ fr.url.entrees | relative_url }}">{{ fr.p404.texte_lien }}</a> {{ fr.p404.texte_apres }}</p>
+  <p class="accroche">{{ fr.p404.texte_avant }}<a href="{{ fr.url.entrees | relative_url }}">{{ fr.p404.texte_lien }}</a> {{ fr.p404.texte_apres }}<a href="{{ fr.url.accueil | relative_url }}">{{ fr.p404.accueil_lien }}</a> {{ fr.p404.accueil_apres }}</p>
+  <form class="portail-recherche" action="{{ fr.url.recherche | relative_url }}" method="get" role="search">
+    <label for="p404-fr">{{ fr.p404.recherche }}</label>
+    <input type="search" id="p404-fr" name="q" placeholder="{{ fr.recherche.placeholder }}">
+    <button type="submit">{{ fr.portail.recherche_bouton }}</button>
+  </form>
 </section>
 <section class="page-tete" lang="en">
   <h2>{{ en.p404.titre }}</h2>
-  <p class="accroche">{{ en.p404.texte_avant }} <a href="{{ en.url.entrees | relative_url }}">{{ en.p404.texte_lien }}</a> {{ en.p404.texte_apres }}</p>
+  <p class="accroche">{{ en.p404.texte_avant }} <a href="{{ en.url.entrees | relative_url }}">{{ en.p404.texte_lien }}</a> {{ en.p404.texte_apres }} <a href="{{ en.url.accueil | relative_url }}">{{ en.p404.accueil_lien }}</a> {{ en.p404.accueil_apres }}</p>
+  <form class="portail-recherche" action="{{ en.url.recherche | relative_url }}" method="get" role="search">
+    <label for="p404-en">{{ en.p404.recherche }}</label>
+    <input type="search" id="p404-en" name="q" placeholder="{{ en.recherche.placeholder }}">
+    <button type="submit">{{ en.portail.recherche_bouton }}</button>
+  </form>
 </section>

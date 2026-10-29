@@ -5,17 +5,22 @@
 {%- assign sep = "" -%}
 [
 {%- for e in site[T.collection_entrees] -%}
-{{ sep }}{"type":"entree","titre":{{ e.title | jsonify }},"sous":{{ e.accroche | jsonify }},"url":{{ e.url | relative_url | jsonify }},"texte":{{ e.content | strip_html | normalize_whitespace | jsonify }}}
+{{ sep }}{"type":"entree","titre":{{ e.title | jsonify }},"sous":{{ e.accroche | jsonify }},"url":{{ e.url | relative_url | jsonify }},"texte":{{ e.content | strip_html | replace: "&amp;", "&" | normalize_whitespace | jsonify }}}
 {%- assign sep = "," -%}
 {%- endfor -%}
 {%- for v in site[T.collection_voitures] -%}
 {%- capture titre_v %}{{ v.title }} ({{ v.annee }}){% endcapture -%}
-{{ sep }}{"type":"voiture","titre":{{ titre_v | jsonify }},"sous":{{ v.accroche | jsonify }},"url":{{ v.url | relative_url | jsonify }},"texte":{{ v.content | strip_html | normalize_whitespace | jsonify }}}
+{{ sep }}{"type":"voiture","titre":{{ titre_v | jsonify }},"sous":{{ v.accroche | jsonify }},"url":{{ v.url | relative_url | jsonify }},"texte":{{ v.content | strip_html | replace: "&amp;", "&" | normalize_whitespace | jsonify }}}
 {%- endfor -%}
-{%- comment -%} écuries : nom, lignée et, s'il est publié, le passage depuis le nom précédent {%- endcomment -%}
+{%- comment -%} écuries : nom, lignée et, s'il est publié, le passage depuis le nom précédent ; une écurie
+présente dans plusieurs lignées (Lola, March) ou revenue dans la sienne (Renault) n'apparaît qu'une fois {%- endcomment -%}
+{%- assign vus = "," -%}
 {%- for l in D.ecuries.lignees -%}
 {%- for s in l.segments -%}
 {%- assign e = D.ecuries.ecuries | where: "id", s.ecurie | first -%}
+{%- capture cle_vu %},{{ e.id }},{% endcapture -%}
+{%- if vus contains cle_vu -%}{%- continue -%}{%- endif -%}
+{%- assign vus = vus | append: e.id | append: "," -%}
 {%- capture url_e %}{{ T.url.ecuries | relative_url }}{{ e.id }}/{% endcapture -%}
 {%- capture titre_e %}{{ e.nom }} ({{ s.de }}{% if s.a != s.de %}–{{ s.a }}{% endif %}){% endcapture -%}
 {{ sep }}{"type":"ecurie","titre":{{ titre_e | jsonify }},"sous":{{ l.nom | jsonify }},"url":{{ url_e | jsonify }},"texte":{{ s.lien.pourquoi | default: "" | jsonify }}}
@@ -37,7 +42,10 @@
 {%- capture titre_c %}{{ c.annee }} — {{ c.titre }}{% endcapture -%}
 {{ sep }}{"type":"jalon","titre":{{ titre_c | jsonify }},"sous":"","url":{{ url_c | jsonify }},"texte":{{ c.texte | jsonify }}}
 {%- endfor -%}
+{%- comment -%} dossiers : la prose seule, sans les tableaux générés (Hégémonies) {%- endcomment -%}
 {%- for d in site[T.collection_dossiers] -%}
-{{ sep }}{"type":"dossier","titre":{{ d.title | jsonify }},"sous":{{ d.resume | jsonify }},"url":{{ d.url | relative_url | jsonify }},"texte":{{ d.content | strip_html | normalize_whitespace | jsonify }}}
+{%- assign morceaux = d.content | split: '<div class="table-defil"' -%}
+{%- capture prose -%}{%- for m in morceaux -%}{%- if forloop.first -%}{{ m }}{%- else -%}{{ m | split: "</table></div>" | last }}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+{{ sep }}{"type":"dossier","titre":{{ d.title | jsonify }},"sous":{{ d.resume | jsonify }},"url":{{ d.url | relative_url | jsonify }},"texte":{{ prose | strip_html | replace: "&amp;", "&" | normalize_whitespace | jsonify }}}
 {%- endfor -%}
 ]

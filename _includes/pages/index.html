@@ -58,7 +58,7 @@
       {%- if v %}
       <li class="fiche-voiture">
         <a href="{{ v.url | relative_url }}">
-          {%- if v.photo %}<img src="{{ v.photo.fichier | relative_url }}" alt="" loading="lazy">{% else %}<span class="fiche-voiture-vide" aria-hidden="true">{{ v.annee }}</span>{% endif %}
+          {%- if v.photo %}<img src="{{ v.photo.fichier | relative_url }}" alt="" loading="lazy" title="{{ v.photo.auteur }}, {{ v.photo.licence }}">{% else %}<span class="fiche-voiture-vide" aria-hidden="true">{{ v.annee }}</span>{% endif %}
           <span class="fiche-voiture-cartouche">
             <span class="fiche-voiture-annee">{{ v.annee }}</span>
             <span class="fiche-voiture-nom">{{ v.title }}</span>

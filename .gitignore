@@ -20,3 +20,6 @@ Gemfile.lock
 
 # Specifications de travail : jamais dans le depot (decision du proprietaire).
 specs/
+
+# Reglages locaux de Claude Code sur ce VPS : jamais versionnes
+.claude/

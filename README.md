@@ -63,25 +63,34 @@ le constructeur natif s'y affiche.
 
 ```
 _config.yml          reglages : url, baseurl, collections, greffons, exclusions
-index.html           accueil : index alphabetique, recherche et filtres
+index.html           accueil : portail (ingenieurs, ecuries, voitures), frise des ecuries,
+                     frise des hegemonies, dossiers
+ingenieurs.html      index alphabetique des ingenieurs, recherche et filtres
+ecuries.html         genealogie des ecuries (donnees : _data/ecuries.yml)
+cartes.html          cartes des usines, souffleries et circuits
+voitures.html        planche des voitures qui ont fait date
 tiers.html           les quatre tiers et leurs membres
 lignees.html         filiations techniques (donnees : _data/lignees.yml)
 chronologie.html     frise cliquable : innovations et contexte (donnees : _data/chronologie.yml)
 glossaire.html       glossaire technique (donnees : _data/glossaire.yml)
-voitures.html        planche des voitures qui ont fait date
+recherche.html       recherche (index : recherche.json)
 dossiers/index.html  liste des dossiers
-404.html             page servie sur une adresse inconnue
-_ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/
-_dossiers/           textes de synthese        -> /dossiers/<id>/
-_voitures/           une entree par voiture    -> /voitures/<id>/
-_data/               tiers.yml, lignees.yml
-_layouts/            default, entree (cartouche, portrait), dossier, voiture
-_includes/           lien-entree.html
+404.html             page servie sur une adresse inconnue (bilingue)
+en/                  pages anglaises (memes gabarits)
+_ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/   (en : _engineers/)
+_dossiers/           textes de synthese        -> /dossiers/<id>/     (en : _features/)
+_voitures/           une entree par voiture    -> /voitures/<id>/     (en : _cars/)
+_ecuries/            une fiche par ecurie      -> /ecuries/<id>/      (en : _teams/ ; outils/fiches-ecuries.py)
+_data/               donnees : ecuries, chronologie, resultats, hegemonies, i18n... (en : _data/en/)
+_layouts/            default, entree, dossier, voiture, ecurie
+_includes/           pages/ (corps des pages), frises, genealogie, carte, hegemonies, liens
 assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
 assets/portraits/    portraits libres de droits (credits dans les entrees)
 assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
 assets/docs/         presentation PDF telechargeable, fr et en (generee par deck/)
+outils/              scripts Python : verifier.py (avant chaque push), releve-resultats.py,
+                     hegemonies.py, fiches-ecuries.py, carte-usines.py
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
@@ -132,8 +141,8 @@ redirect_from: "/ingenieurs/2026/10/25/<id>.html"
   (-> `/en/features/<id>/`), `_cars/` (-> `/en/cars/<id>/`), `_data/en/*.yml`. **Meme nom de fichier que le
   francais** : c'est ce qui relie une page a sa traduction (selecteur de langue,
   balises hreflang). Pages simples : champ `traduction:` dans le front matter.
-- Le contenu des pages Index, Tiers, Lignees, Chronologie, Glossaire, Dossiers et
-  Recherche est dans `_includes/pages/` ; `index.html`, `en/index.html`, etc. ne
+- Le contenu des pages Accueil, Ingenieurs, Ecuries, Cartes, Voitures, Tiers, Lignees,
+  Chronologie, Glossaire, Dossiers et Recherche est dans `_includes/pages/` ; `index.html`, `en/index.html`, etc. ne
   font que l'inclure.
 - Une modification d'entree francaise doit etre reportee dans `_engineers/`.
   `outils/verifier.py` signale les entrees sans traduction.
@@ -142,7 +151,7 @@ redirect_from: "/ingenieurs/2026/10/25/<id>.html"
 
 `/recherche/` et `/en/search/` interrogent un index JSON genere par Jekyll
 (`recherche.json`, `en/search.json`, gabarit `_includes/index-recherche.json`) :
-entrees, voitures, termes du glossaire, jalons et contexte, dossiers de la langue.
+entrees, ecuries, voitures, termes du glossaire, jalons et contexte, dossiers de la langue.
 
 ### Entrees hors classement
 

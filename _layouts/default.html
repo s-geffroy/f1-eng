@@ -57,7 +57,7 @@
   <meta property="og:site_name" content="{{ T.nom_site | escape }}">
   <meta property="og:title" content="{{ page.title | default: T.nom_site | escape }}">
   <meta property="og:description" content="{{ desc | escape }}">
-  <meta property="og:locale" content="{{ lang }}">
+  <meta property="og:locale" content="{% if lang == "en" %}en_GB{% else %}fr_FR{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="{{ og_type }}">
   {%- if img %}

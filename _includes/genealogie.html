@@ -75,7 +75,7 @@
     {%- if e_g.photo %}
     {%- assign url_v_g = T_g.url.voitures | append: e_g.photo.voiture | append: "/" %}
     {%- assign v_g = site[T_g.collection_voitures] | where: "url", url_v_g | first %}
-    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | relative_url }}" alt="" loading="lazy"><span>{{ v_g.title }}</span></a>
+    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | relative_url }}" alt="" loading="lazy"{% if v_g.photo %} title="{{ v_g.photo.auteur }}, {{ v_g.photo.licence }}"{% endif %}><span>{{ v_g.title }}</span></a>
     {%- endif %}
   </article>
   {%- endfor %}
