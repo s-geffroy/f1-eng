@@ -657,12 +657,6 @@ panneaux:
     ancre: start
     dx: 8.0
     dy: 15.0
-  - lieu: portello
-    x: 195.8
-    y: 69.5
-    ancre: end
-    dx: -8.0
-    dy: 15.0
   - lieu: sant-agata-bolognese
     x: 405.0
     y: 192.0

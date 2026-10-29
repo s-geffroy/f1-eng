@@ -649,12 +649,6 @@
   lat: 52.331
   lon: -0.9026
   source: https://www.openstreetmap.org/node/29621875
-- id: portello
-  nom: Portello
-  nom_en: Portello
-  lat: 45.4841
-  lon: 9.1531
-  source: https://www.openstreetmap.org/node/743395309
 - id: rugby
   nom: Rugby
   nom_en: Rugby

@@ -287,6 +287,10 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
         if os.path.exists("_data/carte_usines.yml") else set()
     sites = [(f"lignée {l.get('id')}", u) for l in E.get("lignees") or [] for u in (l.get("usines") or []) + (l.get("souffleries") or [])]
     sites += [(f"motoriste {m.get('id')}", u) for m in E.get("motoristes") or [] for u in m.get("usines") or []]
+    if lang == "fr":
+        utilises = {i for _, u in sites for i in u.get("lieux") or []}
+        for i in sorted(lieux_connus - utilises):
+            warn(f"_data/usines-coordonnees.yml : lieu « {i} » utilisé par aucun site")
     for lieu_s, u in sites:
         if not u.get("lieu") or not u.get("sources"):
             err(f"{chemin} : {lieu_s}, site sans lieu ou sans source")
