@@ -974,6 +974,28 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .portail-frise > h2 { font-size: 1.75rem; margin: 0 0 0.35rem; }
 .portail-frise > p { margin: 0 0 0.75rem; }
 
+/* accueil : frise des hégémonies (même grille que la frise des écuries) et dossiers */
+.portail-hegemonies { margin-top: 2.5rem; }
+.portail-hegemonies > h2 a, .portail-dossiers > h2 a { text-decoration: none; }
+.portail-hegemonies > h2 a:hover, .portail-dossiers > h2 a:hover { text-decoration: underline; }
+.hegemonies-plan .ecuries-rangee { height: 1.6rem; }
+.hegemonies-plan .ecuries-rangee.hegemonies-tete { height: 2.6rem; margin-top: 0.4rem; }
+.hegemonies-plan .ecuries-rangee:not(.hegemonies-tete) .ecuries-segments { top: 0; }
+.hegemonies-ecurie .hegemonie { background: var(--graphite); }
+.hegemonies-pilote .hegemonie { background: var(--tier-b); }
+.hegemonies-motoriste .hegemonie { background: #6a4a24; }
+.hegemonie-fragile { background: var(--feuille) !important; outline: 2px dashed var(--graphite); outline-offset: -2px; }
+.hegemonie-fragile a { color: var(--graphite); }
+.portail-dossiers { margin-top: 2.5rem; }
+.portail-dossiers > h2 { font-size: 1.75rem; margin: 0 0 0.35rem; }
+.portail-dossiers > p { margin: 0 0 0.5rem; }
+.portail-dossiers .dossiers { list-style: none; padding-left: 0; }
+.portail-dossiers .dossiers li { padding-block: 0.6rem; }
+.portail-dossiers .dossiers a { font-size: 1.375rem; }
+.portail-dossiers .dossier-une { background: var(--feuille); border: var(--trait-fort) solid var(--graphite); padding: 1rem 1.25rem; }
+.portail-dossiers .dossier-une a { font-size: 1.75rem; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
 /* ---------- Petits écrans ---------- */
 
 @media (max-width: 52rem) {

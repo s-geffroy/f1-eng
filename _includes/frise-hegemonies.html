@@ -1,0 +1,62 @@
+{%- comment -%}
+  Frise des hégémonies (_data/hegemonies.yml, calculé par outils/hegemonies.py) : trois bandes,
+  écuries, pilotes et motoristes, sur le même axe que la frise des écuries (même grille CSS
+  .ecuries-plan). Une bande prend autant de rangées que ses hégémonies se chevauchent (champ
+  « rangee », calculé à la génération). Une hégémonie non robuste est dessinée en tirets.
+  Les écuries renvoient à leur fiche ; pilotes et motoristes au dossier. Commune aux deux langues.
+  Paramètres : debut, fin (bornes de l'axe, à aligner sur la frise voisine).
+{%- endcomment -%}
+{%- assign lang_hf = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_hf = site.data.i18n[lang_hf] -%}
+{%- if lang_hf == "en" -%}{%- assign E_hf = site.data.en.ecuries -%}{%- else -%}{%- assign E_hf = site.data.ecuries -%}{%- endif -%}
+{%- assign H_hf = site.data.hegemonies.hegemonies -%}
+{%- assign debut_hf = include.debut | default: 1950 -%}
+{%- assign fin_hf = include.fin | default: 2026 -%}
+{%- assign url_e_hf = T_hf.url.ecuries | relative_url -%}
+{%- assign url_d_hf = T_hf.url.dossiers | append: "hegemonies/" | relative_url -%}
+{%- assign unites_hf = "ecurie,pilote,motoriste" | split: "," -%}
+<div class="ecuries-plan hegemonies-plan" style="--debut: {{ debut_hf }}; --fin: {{ fin_hf }};">
+  <div class="ecuries-axe" aria-hidden="true">
+    {%- for a_hf in (debut_hf..fin_hf) %}{% assign m_hf = a_hf | modulo: 10 %}{% if m_hf == 0 %}
+    <span class="frise-decennie" style="--annee: {{ a_hf }};">{{ a_hf }}</span>
+    {%- endif %}{% endfor %}
+  </div>
+  <ol class="ecuries-rangees">
+    {%- for u_hf in unites_hf %}
+    {%- assign hs_hf = H_hf[u_hf] -%}
+    {%- assign der_hf = hs_hf | map: "rangee" | sort | last -%}
+    {%- assign cle_hf = "bande_" | append: u_hf -%}
+    {%- for r_hf in (0..der_hf) %}
+    {%- assign rang_hf = hs_hf | where: "rangee", r_hf %}
+    <li class="ecuries-rangee hegemonies-{{ u_hf }}{% if forloop.first %} hegemonies-tete{% endif %}">
+      {%- if forloop.first %}
+      <p class="ecuries-lignee" style="--de: {{ debut_hf }};">{{ T_hf.portail[cle_hf] }}</p>
+      {%- endif %}
+      <ol class="ecuries-segments" aria-label="{{ T_hf.portail[cle_hf] }}">
+        {%- for h_hf in rang_hf %}
+        {%- assign fin_s_hf = h_hf.fin | plus: 1 %}
+        {%- if u_hf == "ecurie" %}
+          {%- assign e_hf = E_hf.ecuries | where: "id", h_hf.id | first %}
+          {%- assign nom_hf = e_hf.nom | default: h_hf.nom %}
+          {%- assign court_hf = nom_hf %}
+          {%- capture lien_hf %}{{ url_e_hf }}{{ h_hf.id }}/{% endcapture %}
+        {%- elsif u_hf == "motoriste" %}
+          {%- assign m_hf = E_hf.motoristes | where: "id", h_hf.id | first %}
+          {%- assign nom_hf = m_hf.nom | default: h_hf.nom %}
+          {%- assign court_hf = nom_hf %}
+          {%- assign lien_hf = url_d_hf %}
+        {%- else %}
+          {%- assign nom_hf = h_hf.nom %}
+          {%- assign court_hf = h_hf.nom | split: " " | last %}
+          {%- assign lien_hf = url_d_hf %}
+        {%- endif %}
+        <li class="segment hegemonie{% unless h_hf.robuste %} hegemonie-fragile{% endunless %}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }};">
+          <a href="{{ lien_hf }}" title="{{ nom_hf }}, {{ h_hf.debut }}–{{ h_hf.fin }} · {{ h_hf.titres }} {{ T_hf.portail.hegemonies_titres }}{% unless h_hf.robuste %} · {{ T_hf.portail.hegemonies_fragile }}{% endunless %}">{{ court_hf }}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }}{% unless h_hf.robuste %} ({{ T_hf.portail.hegemonies_fragile }}){% endunless %}</span></a>
+        </li>
+        {%- endfor %}
+      </ol>
+    </li>
+    {%- endfor %}
+    {%- endfor %}
+  </ol>
+</div>

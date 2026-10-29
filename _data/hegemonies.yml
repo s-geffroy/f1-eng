@@ -50,6 +50,7 @@ hegemonies:
     jalons:
     - dfv
     - lotus-72
+    rangee: 0
   - unite: ecurie
     id: ferrari
     nom: Ferrari
@@ -74,6 +75,7 @@ hegemonies:
     ingenieurs_incertains: []
     jalons:
     - ferrari-312t
+    rangee: 0
   - unite: ecurie
     id: mclaren
     nom: McLaren
@@ -102,6 +104,7 @@ hegemonies:
     - john-barnard
     jalons:
     - mp4-4
+    rangee: 0
   - unite: ecurie
     id: williams
     nom: Williams
@@ -132,6 +135,7 @@ hegemonies:
     jalons:
     - fw14b
     - fw17b
+    rangee: 1
   - unite: ecurie
     id: mclaren
     nom: McLaren
@@ -161,6 +165,7 @@ hegemonies:
     - osamu-goto
     - paddy-lowe
     jalons: []
+    rangee: 0
   - unite: ecurie
     id: ferrari
     nom: Ferrari
@@ -190,6 +195,7 @@ hegemonies:
     ingenieurs_incertains:
     - osamu-goto
     jalons: []
+    rangee: 1
   - unite: ecurie
     id: red-bull
     nom: Red Bull
@@ -218,6 +224,7 @@ hegemonies:
     ingenieurs_incertains: []
     jalons:
     - rb6
+    rangee: 0
   - unite: ecurie
     id: mercedes
     nom: Mercedes
@@ -248,6 +255,7 @@ hegemonies:
     jalons:
     - hybride
     - rendement-50
+    rangee: 0
   - unite: ecurie
     id: red-bull
     nom: Red Bull
@@ -273,6 +281,7 @@ hegemonies:
     - adrian-newey
     jalons:
     - rb18
+    rangee: 1
   lignee:
   - unite: lignee
     id: team-lotus
@@ -292,6 +301,7 @@ hegemonies:
     regles_debut:
     - formule-2-1600
     regles_fin: []
+    rangee: 0
   - unite: lignee
     id: ferrari
     nom: Ferrari
@@ -309,6 +319,7 @@ hegemonies:
     - ferrari
     regles_debut: []
     regles_fin: []
+    rangee: 0
   - unite: lignee
     id: mclaren
     nom: McLaren
@@ -326,6 +337,7 @@ hegemonies:
     - honda
     regles_debut: []
     regles_fin: []
+    rangee: 0
   - unite: lignee
     id: williams
     nom: Williams
@@ -343,6 +355,7 @@ hegemonies:
     - renault
     regles_debut: []
     regles_fin: []
+    rangee: 1
   - unite: lignee
     id: mclaren
     nom: McLaren
@@ -360,6 +373,7 @@ hegemonies:
     - mercedes
     regles_debut: []
     regles_fin: []
+    rangee: 0
   - unite: lignee
     id: ferrari
     nom: Ferrari
@@ -379,6 +393,7 @@ hegemonies:
     regles_fin:
     - refonte-aero-2009
     - kers-autorise-2009
+    rangee: 1
   - unite: lignee
     id: milton-keynes
     nom: 'Milton Keynes : de Stewart à Red Bull'
@@ -400,6 +415,7 @@ hegemonies:
     - ravitaillement-interdit-2010
     regles_fin:
     - groupe-propulseur-2014
+    rangee: 0
   - unite: lignee
     id: brackley
     nom: 'Brackley : de Tyrrell à Mercedes'
@@ -419,6 +435,7 @@ hegemonies:
     - groupe-propulseur-2014
     regles_fin:
     - retour-effet-de-sol
+    rangee: 0
   - unite: lignee
     id: milton-keynes
     nom: 'Milton Keynes : de Stewart à Red Bull'
@@ -438,6 +455,7 @@ hegemonies:
     - honda
     regles_debut: []
     regles_fin: []
+    rangee: 1
   pilote:
   - unite: pilote
     id: Juan Manuel Fangio
@@ -462,6 +480,7 @@ hegemonies:
     regles_fin:
     - formule-2-1957
     - carburant-commercial-1958
+    rangee: 0
   - unite: pilote
     id: Jackie Stewart
     nom: Jackie Stewart
@@ -483,6 +502,7 @@ hegemonies:
     regles_debut:
     - interdiction-ailerons-hauts
     regles_fin: []
+    rangee: 0
   - unite: pilote
     id: Alain Prost
     nom: Alain Prost
@@ -505,6 +525,7 @@ hegemonies:
     - carburant-220-litres-1984
     regles_fin:
     - fin-du-turbo
+    rangee: 0
   - unite: pilote
     id: Ayrton Senna
     nom: Ayrton Senna
@@ -523,6 +544,7 @@ hegemonies:
     - mclaren
     regles_debut: []
     regles_fin: []
+    rangee: 1
   - unite: pilote
     id: Michael Schumacher
     nom: Michael Schumacher
@@ -542,6 +564,7 @@ hegemonies:
     regles_debut: []
     regles_fin:
     - boites-sans-coupure-autorisees
+    rangee: 0
   - unite: pilote
     id: Sebastian Vettel
     nom: Sebastian Vettel
@@ -564,6 +587,7 @@ hegemonies:
     - ravitaillement-interdit-2010
     regles_fin:
     - groupe-propulseur-2014
+    rangee: 0
   - unite: pilote
     id: Lewis Hamilton
     nom: Lewis Hamilton
@@ -583,6 +607,7 @@ hegemonies:
     regles_debut:
     - groupe-propulseur-2014
     regles_fin: []
+    rangee: 0
   - unite: pilote
     id: Max Verstappen
     nom: Max Verstappen
@@ -601,6 +626,7 @@ hegemonies:
     - red-bull
     regles_debut: []
     regles_fin: []
+    rangee: 0
   motoriste:
   - unite: motoriste
     id: climax
@@ -623,6 +649,7 @@ hegemonies:
     - carburant-commercial-1958
     regles_fin:
     - formule-3-litres
+    rangee: 0
   - unite: motoriste
     id: ford
     nom: Ford
@@ -654,6 +681,7 @@ hegemonies:
     regles_fin:
     - fond-plat
     - quatre-roues-au-plus
+    rangee: 0
   - unite: motoriste
     id: ferrari
     nom: Ferrari
@@ -671,6 +699,7 @@ hegemonies:
     - ferrari
     regles_debut: []
     regles_fin: []
+    rangee: 1
   - unite: motoriste
     id: honda
     nom: Honda
@@ -691,6 +720,7 @@ hegemonies:
     regles_debut:
     - carburant-195-litres-1986
     regles_fin: []
+    rangee: 0
   - unite: motoriste
     id: renault
     nom: Renault
@@ -709,6 +739,7 @@ hegemonies:
     - benetton
     regles_debut: []
     regles_fin: []
+    rangee: 1
   - unite: motoriste
     id: mercedes
     nom: Mercedes
@@ -726,6 +757,7 @@ hegemonies:
     - mclaren
     regles_debut: []
     regles_fin: []
+    rangee: 0
   - unite: motoriste
     id: ferrari
     nom: Ferrari
@@ -746,6 +778,7 @@ hegemonies:
     regles_fin:
     - refonte-aero-2009
     - kers-autorise-2009
+    rangee: 1
   - unite: motoriste
     id: mercedes
     nom: Mercedes
@@ -768,6 +801,7 @@ hegemonies:
     - refonte-aero-2009
     - kers-autorise-2009
     - ravitaillement-interdit-2010
+    rangee: 0
   - unite: motoriste
     id: renault
     nom: Renault
@@ -791,6 +825,7 @@ hegemonies:
     - ravitaillement-interdit-2010
     regles_fin:
     - groupe-propulseur-2014
+    rangee: 0
   - unite: motoriste
     id: mercedes
     nom: Mercedes
@@ -814,6 +849,7 @@ hegemonies:
     - echappements-2012
     regles_fin:
     - retour-effet-de-sol
+    rangee: 1
 courtes:
   ecurie:
   - nom: Alfa Romeo (1950–1985)

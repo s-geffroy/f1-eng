@@ -168,6 +168,12 @@ for u in part:
                            and debut - 3 <= JALONS[j]["annee"] <= fin]
             liste_ecurie.append((k, debut, fin))
         hs.append(h)
+    # Rangée de la frise de l'accueil : la première dont la dernière hégémonie finit avant le début.
+    fins = []
+    for h in hs:
+        r = next((i for i, f in enumerate(fins) if f < h["debut"]), len(fins))
+        fins[r:r + 1] = [h["fin"]]
+        h["rangee"] = r
     hegemonies[u] = hs
     # Dominations de deux saisons seulement : hors hégémonie, mais citées par le dossier.
     courtes[u] = [{"nom": nom(u, k), "debut": g[0], "fin": g[-1], "titres": sum(1 for a in g if champion[u].get(a) == k),

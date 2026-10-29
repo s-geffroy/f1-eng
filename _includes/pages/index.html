@@ -81,6 +81,35 @@
   </div>
 </section>
 
+{%- assign P = site.data.hegemonies.parametres -%}
+{%- assign seuil = P.seuil | times: 100 | round -%}
+{%- if lang == "en" -%}{%- assign seuil = seuil | append: "%" -%}{%- else -%}{%- assign seuil = seuil | append: " %" -%}{%- endif -%}
+{%- assign url_heg = T.url.dossiers | append: "hegemonies/" -%}
+<section class="frise portail-frise portail-hegemonies" aria-labelledby="titre-portail-hegemonies">
+  <h2 id="titre-portail-hegemonies"><a href="{{ url_heg | relative_url }}">{{ T.portail.hegemonies_titre }}, {{ P.saisons }}</a></h2>
+  <p>{{ T.portail.hegemonies_texte | replace: "%seuil%", seuil | replace: "%min%", P.min }} <a href="{{ url_heg | relative_url }}">{{ T.portail.hegemonies_lien }}</a></p>
+  <div class="frise-defilement">
+    {% include frise-hegemonies.html debut=1950 fin=2026 %}
+  </div>
+</section>
+
+<section class="portail-dossiers" aria-labelledby="titre-portail-dossiers">
+  <h2 id="titre-portail-dossiers"><a href="{{ T.url.dossiers | relative_url }}">{{ T.portail.dossiers_titre }}</a></h2>
+  <p>{{ T.portail.dossiers_texte }}</p>
+  {%- comment -%} Hégémonies en tête, les autres dans l'ordre de lecture {%- endcomment -%}
+  {%- assign dossiers = site[T.collection_dossiers] | sort: "ordre" -%}
+  {%- assign d_heg = dossiers | where: "url", url_heg | first %}
+  <ol class="dossiers">
+    {%- if d_heg %}
+    <li class="dossier-une"><a href="{{ d_heg.url | relative_url }}">{{ d_heg.title }}</a><p>{{ d_heg.resume }}</p></li>
+    {%- endif %}
+    {%- for d in dossiers %}{% if d.url != url_heg %}
+    <li><a href="{{ d.url | relative_url }}">{{ d.title }}</a></li>
+    {%- endif %}{% endfor %}
+  </ol>
+  <p class="porte-liens"><a href="{{ T.url.dossiers | relative_url }}">{{ T.portail.dossiers_lien }}</a></p>
+</section>
+
 <script>
 /* Les anciennes adresses de l'index alphabétique (/#lettre-x, /#titre-index) visent désormais
    la page des ingénieurs. */

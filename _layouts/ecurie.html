@@ -88,6 +88,12 @@ layout: default
         {%- endfor -%}
       </dd></div>
       {%- endif %}
+      {%- assign heg_e = site.data.hegemonies.hegemonies.ecurie | where: "id", id_e %}
+      {%- if heg_e.size > 0 %}
+      <div class="case case-large"><dt>{{ T.ecuries.hegemonies }}</dt><dd>
+        {%- for h in heg_e %}<a href="{{ T.url.dossiers | append: 'hegemonies/' | relative_url }}">{{ h.debut }}–{{ h.fin }}</a> ({{ h.titres }} {{ T.portail.hegemonies_titres }}){% unless forloop.last %} ; {% endunless %}{% endfor -%}
+      </dd></div>
+      {%- endif %}
       {%- assign jalons_e = "" | split: "" %}
       {%- for jid in e.jalons %}{% assign j = D.chronologie.jalons | where: "id", jid | first %}{% if j %}{% assign jalons_e = jalons_e | push: j %}{% endif %}{% endfor %}
       {%- if jalons_e.size > 0 %}
