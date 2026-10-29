@@ -35,7 +35,10 @@
   {%- endfor %}
   {%- for sa_g in E_g.saisons %}
   {%- assign a_g = sa_g.annee %}{% assign r_g = a_g | minus: debut_g | plus: 3 %}{% assign m5_g = a_g | modulo: 5 %}{% assign m10_g = a_g | modulo: 10 %}
-  {%- assign ec_c_g = E_g.ecuries | where: "id", sa_g.constructeurs | first %}{% assign ec_p_g = E_g.ecuries | where: "id", sa_g.pilote_ecurie | first %}
+  {%- comment -%} pas de recherche sur une valeur vide : « where » rendrait alors la première écurie {%- endcomment -%}
+  {%- assign ec_c_g = nil %}{% assign ec_p_g = nil %}
+  {%- if sa_g.constructeurs %}{% assign ec_c_g = E_g.ecuries | where: "id", sa_g.constructeurs | first %}{% endif %}
+  {%- if sa_g.pilote_ecurie %}{% assign ec_p_g = E_g.ecuries | where: "id", sa_g.pilote_ecurie | first %}{% endif %}
   <div class="gen-annee{% if m10_g == 0 %} gen-decennie{% elsif m5_g == 0 %} gen-lustre{% endif %}" style="grid-row: {{ r_g }};">
     <b>{{ a_g }}</b>{% if a_g >= 1958 %} <small title="{{ sa_g.ecuries }} {{ T_g.ecuries.ecuries_saison }}">{{ sa_g.ecuries }}</small>{% endif %}
     {%- if ec_c_g or sa_g.pilote %}
