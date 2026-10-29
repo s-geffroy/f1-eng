@@ -1,0 +1,886 @@
+# Circuits ayant accueilli un Grand Prix du championnat du monde, dans les zones des cartes (page Cartes).
+# de / a : premiere et derniere course disputee (au 29 octobre 2026) ; source : page de resultats officielle
+# de la premiere annee ; position : fiche OpenStreetMap (Nominatim), consultee le 29 octobre 2026.
+# etiquette : nom court affiche sur la carte. Projection : outils/carte-usines.py.
+- id: bremgarten
+  nom: Bremgarten
+  nom_en: Bremgarten
+  etiquette: Bremgarten
+  etiquette_en: Bremgarten
+  de: 1950
+  a: 1954
+  lat: 46.9617
+  lon: 7.4052
+  position: https://www.openstreetmap.org/relation/111892
+  source:
+    titre: Formula 1, résultats, « 1950 Swiss Grand Prix »
+    titre_en: Formula 1, results, “1950 Swiss Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/97/switzerland/race-result
+- id: indianapolis
+  nom: Indianapolis
+  nom_en: Indianapolis
+  etiquette: Indianapolis
+  etiquette_en: Indianapolis
+  de: 1950
+  a: 2007
+  lat: 39.7903
+  lon: -86.2337
+  position: https://www.openstreetmap.org/way/51315962
+  source:
+    titre: Formula 1, résultats, « 1950 Indianapolis 500 »
+    titre_en: Formula 1, results, “1950 Indianapolis 500”
+    url: https://www.formula1.com/en/results/1950/races/96/indianapolis/race-result
+- id: monaco
+  nom: Monaco
+  nom_en: Monaco
+  etiquette: Monaco
+  etiquette_en: Monaco
+  de: 1950
+  a: 2026
+  lat: 43.7403
+  lon: 7.4266
+  position: https://www.openstreetmap.org/relation/5986438
+  source:
+    titre: Formula 1, résultats, « 1950 Monaco Grand Prix »
+    titre_en: Formula 1, results, “1950 Monaco Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/95/monaco/race-result
+- id: monza
+  nom: Monza
+  nom_en: Monza
+  etiquette: Monza
+  etiquette_en: Monza
+  de: 1950
+  a: 2026
+  lat: 45.6191
+  lon: 9.2826
+  position: https://www.openstreetmap.org/node/2396618135
+  source:
+    titre: Formula 1, résultats, « 1950 Italian Grand Prix »
+    titre_en: Formula 1, results, “1950 Italian Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/100/italy/race-result
+- id: reims-gueux
+  nom: Reims-Gueux
+  nom_en: Reims-Gueux
+  etiquette: Reims-Gueux
+  etiquette_en: Reims-Gueux
+  de: 1950
+  a: 1966
+  lat: 49.2512
+  lon: 3.9103
+  position: https://www.openstreetmap.org/relation/2613530
+  source:
+    titre: Formula 1, résultats, « 1950 French Grand Prix »
+    titre_en: Formula 1, results, “1950 French Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/99/france/race-result
+- id: silverstone
+  nom: Silverstone
+  nom_en: Silverstone
+  etiquette: Silverstone
+  etiquette_en: Silverstone
+  de: 1950
+  a: 2026
+  lat: 52.0718
+  lon: -1.0143
+  position: https://www.openstreetmap.org/way/156355633
+  source:
+    titre: Formula 1, résultats, « 1950 British Grand Prix »
+    titre_en: Formula 1, results, “1950 British Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
+- id: spa-francorchamps
+  nom: Spa-Francorchamps
+  nom_en: Spa-Francorchamps
+  etiquette: Spa-Francorchamps
+  etiquette_en: Spa-Francorchamps
+  de: 1950
+  a: 2026
+  lat: 50.4369
+  lon: 5.9701
+  position: https://www.openstreetmap.org/way/234804574
+  source:
+    titre: Formula 1, résultats, « 1950 Belgian Grand Prix »
+    titre_en: Formula 1, results, “1950 Belgian Grand Prix”
+    url: https://www.formula1.com/en/results/1950/races/98/belgium/race-result
+- id: nurburgring
+  nom: Nürburgring
+  nom_en: Nürburgring
+  etiquette: Nürburgring
+  etiquette_en: Nürburgring
+  de: 1951
+  a: 2020
+  lat: 50.3309
+  lon: 6.9407
+  position: https://www.openstreetmap.org/way/368614733
+  source:
+    titre: Formula 1, résultats, « 1951 German Grand Prix »
+    titre_en: Formula 1, results, “1951 German Grand Prix”
+    url: https://www.formula1.com/en/results/1951/races/106/germany/race-result
+- id: pedralbes
+  nom: Pedralbes (Barcelone)
+  nom_en: Pedralbes (Barcelona)
+  etiquette: Pedralbes
+  etiquette_en: Pedralbes
+  de: 1951
+  a: 1954
+  lat: 41.3901
+  lon: 2.1122
+  position: https://www.openstreetmap.org/relation/4130192
+  source:
+    titre: Formula 1, résultats, « 1951 Spanish Grand Prix »
+    titre_en: Formula 1, results, “1951 Spanish Grand Prix”
+    url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
+- id: rouen-les-essarts
+  nom: Rouen-les-Essarts
+  nom_en: Rouen-les-Essarts
+  etiquette: Rouen-les-Essarts
+  etiquette_en: Rouen-les-Essarts
+  de: 1952
+  a: 1968
+  lat: 49.3535
+  lon: 1.0043
+  position: https://www.openstreetmap.org/relation/103786
+  source:
+    titre: Formula 1, résultats, « 1952 French Grand Prix »
+    titre_en: Formula 1, results, “1952 French Grand Prix”
+    url: https://www.formula1.com/en/results/1952/races/112/france/race-result
+- id: zandvoort
+  nom: Zandvoort
+  nom_en: Zandvoort
+  etiquette: Zandvoort
+  etiquette_en: Zandvoort
+  de: 1952
+  a: 2026
+  lat: 52.3895
+  lon: 4.5429
+  position: https://www.openstreetmap.org/way/1313671990
+  source:
+    titre: Formula 1, résultats, « 1952 Dutch Grand Prix »
+    titre_en: Formula 1, results, “1952 Dutch Grand Prix”
+    url: https://www.formula1.com/en/results/1952/races/115/netherlands/race-result
+- id: aintree
+  nom: Aintree
+  nom_en: Aintree
+  etiquette: Aintree
+  etiquette_en: Aintree
+  de: 1955
+  a: 1962
+  lat: 53.476
+  lon: -2.9353
+  position: https://www.openstreetmap.org/relation/17553266
+  source:
+    titre: Formula 1, résultats, « 1955 British Grand Prix »
+    titre_en: Formula 1, results, “1955 British Grand Prix”
+    url: https://www.formula1.com/en/results/1955/races/140/great-britain/race-result
+- id: pescara
+  nom: Pescara
+  nom_en: Pescara
+  etiquette: Pescara
+  etiquette_en: Pescara
+  de: 1957
+  a: 1957
+  lat: 42.4696
+  lon: 14.2059
+  position: https://www.openstreetmap.org/relation/42014
+  source:
+    titre: Formula 1, résultats, « 1957 Pescara Grand Prix »
+    titre_en: Formula 1, results, “1957 Pescara Grand Prix”
+    url: https://www.formula1.com/en/results/1957/races/156/pescara/race-result
+- id: porto-boavista
+  nom: Porto (Boavista)
+  nom_en: Porto (Boavista)
+  etiquette: Porto
+  etiquette_en: Porto
+  de: 1958
+  a: 1960
+  lat: 41.1576
+  lon: -8.6375
+  position: https://www.openstreetmap.org/node/2087128815
+  source:
+    titre: Formula 1, résultats, « 1958 Portuguese Grand Prix »
+    titre_en: Formula 1, results, “1958 Portuguese Grand Prix”
+    url: https://www.formula1.com/en/results/1958/races/166/portugal/race-result
+- id: avus
+  nom: AVUS
+  nom_en: AVUS
+  etiquette: AVUS
+  etiquette_en: AVUS
+  de: 1959
+  a: 1959
+  lat: 52.4988
+  lon: 13.2729
+  position: https://www.openstreetmap.org/way/1216705596
+  source:
+    titre: Formula 1, résultats, « 1959 German Grand Prix »
+    titre_en: Formula 1, results, “1959 German Grand Prix”
+    url: https://www.formula1.com/en/results/1959/races/174/germany/race-result
+- id: monsanto
+  nom: Monsanto (Lisbonne)
+  nom_en: Monsanto (Lisbon)
+  etiquette: Monsanto
+  etiquette_en: Monsanto
+  de: 1959
+  a: 1959
+  lat: 38.7226
+  lon: -9.1903
+  position: https://www.openstreetmap.org/relation/12883714
+  source:
+    titre: Formula 1, résultats, « 1959 Portuguese Grand Prix »
+    titre_en: Formula 1, results, “1959 Portuguese Grand Prix”
+    url: https://www.formula1.com/en/results/1959/races/175/portugal/race-result
+- id: sebring
+  nom: Sebring
+  nom_en: Sebring
+  etiquette: Sebring
+  etiquette_en: Sebring
+  de: 1959
+  a: 1959
+  lat: 27.4535
+  lon: -81.3531
+  position: https://www.openstreetmap.org/relation/18038750
+  source:
+    titre: Formula 1, résultats, « 1959 United States Grand Prix »
+    titre_en: Formula 1, results, “1959 United States Grand Prix”
+    url: https://www.formula1.com/en/results/1959/races/177/united-states/race-result
+- id: riverside
+  nom: Riverside
+  nom_en: Riverside
+  etiquette: Riverside
+  etiquette_en: Riverside
+  de: 1960
+  a: 1960
+  lat: 33.9387
+  lon: -117.2714
+  position: https://www.openstreetmap.org/way/153112638
+  source:
+    titre: Formula 1, résultats, « 1960 United States Grand Prix »
+    titre_en: Formula 1, results, “1960 United States Grand Prix”
+    url: https://www.formula1.com/en/results/1960/races/187/united-states/race-result
+- id: watkins-glen
+  nom: Watkins Glen
+  nom_en: Watkins Glen
+  etiquette: Watkins Glen
+  etiquette_en: Watkins Glen
+  de: 1961
+  a: 1980
+  lat: 42.3364
+  lon: -76.925
+  position: https://www.openstreetmap.org/way/702671615
+  source:
+    titre: Formula 1, résultats, « 1961 United States Grand Prix »
+    titre_en: Formula 1, results, “1961 United States Grand Prix”
+    url: https://www.formula1.com/en/results/1961/races/195/united-states/race-result
+- id: east-london
+  nom: East London (Prince George)
+  nom_en: East London (Prince George)
+  etiquette: East London
+  etiquette_en: East London
+  de: 1962
+  a: 1965
+  lat: -33.047
+  lon: 27.874
+  position: https://www.openstreetmap.org/way/776766332
+  source:
+    titre: Formula 1, résultats, « 1962 South African Grand Prix »
+    titre_en: Formula 1, results, “1962 South African Grand Prix”
+    url: https://www.formula1.com/en/results/1962/races/204/south-africa/race-result
+- id: mexico
+  nom: Mexico (Hermanos Rodríguez)
+  nom_en: Mexico City (Hermanos Rodríguez)
+  etiquette: Mexico
+  etiquette_en: Mexico City
+  de: 1963
+  a: 2025
+  lat: 19.4052
+  lon: -99.0961
+  position: https://www.openstreetmap.org/way/823823140
+  source:
+    titre: Formula 1, résultats, « 1963 Mexican Grand Prix »
+    titre_en: Formula 1, results, “1963 Mexican Grand Prix”
+    url: https://www.formula1.com/en/results/1963/races/213/mexico/race-result
+- id: brands-hatch
+  nom: Brands Hatch
+  nom_en: Brands Hatch
+  etiquette: Brands Hatch
+  etiquette_en: Brands Hatch
+  de: 1964
+  a: 1986
+  lat: 51.3575
+  lon: 0.26
+  position: https://www.openstreetmap.org/way/770743966
+  source:
+    titre: Formula 1, résultats, « 1964 British Grand Prix »
+    titre_en: Formula 1, results, “1964 British Grand Prix”
+    url: https://www.formula1.com/en/results/1964/races/219/great-britain/race-result
+- id: zeltweg
+  nom: Zeltweg
+  nom_en: Zeltweg
+  etiquette: Zeltweg
+  etiquette_en: Zeltweg
+  de: 1964
+  a: 1964
+  lat: 47.1912
+  lon: 14.7549
+  position: https://www.openstreetmap.org/relation/37908
+  source:
+    titre: Formula 1, résultats, « 1964 Austrian Grand Prix »
+    titre_en: Formula 1, results, “1964 Austrian Grand Prix”
+    url: https://www.formula1.com/en/results/1964/races/221/austria/race-result
+- id: charade
+  nom: Charade (Clermont-Ferrand)
+  nom_en: Charade (Clermont-Ferrand)
+  etiquette: Charade
+  etiquette_en: Charade
+  de: 1965
+  a: 1972
+  lat: 45.7421
+  lon: 3.0314
+  position: https://www.openstreetmap.org/way/34405768
+  source:
+    titre: Formula 1, résultats, « 1965 French Grand Prix »
+    titre_en: Formula 1, results, “1965 French Grand Prix”
+    url: https://www.formula1.com/en/results/1965/races/228/france/race-result
+- id: kyalami
+  nom: Kyalami
+  nom_en: Kyalami
+  etiquette: Kyalami
+  etiquette_en: Kyalami
+  de: 1967
+  a: 1993
+  lat: -25.9945
+  lon: 28.0738
+  position: https://www.openstreetmap.org/way/1359379867
+  source:
+    titre: Formula 1, résultats, « 1967 South African Grand Prix »
+    titre_en: Formula 1, results, “1967 South African Grand Prix”
+    url: https://www.formula1.com/en/results/1967/races/244/south-africa/race-result
+- id: le-mans-bugatti
+  nom: Le Mans (Bugatti)
+  nom_en: Le Mans (Bugatti)
+  etiquette: Le Mans
+  etiquette_en: Le Mans
+  de: 1967
+  a: 1967
+  lat: 47.9556
+  lon: 0.2155
+  position: https://www.openstreetmap.org/way/1101935462
+  source:
+    titre: Formula 1, résultats, « 1967 French Grand Prix »
+    titre_en: Formula 1, results, “1967 French Grand Prix”
+    url: https://www.formula1.com/en/results/1967/races/248/france/race-result
+- id: mosport
+  nom: Mosport
+  nom_en: Mosport
+  etiquette: Mosport
+  etiquette_en: Mosport
+  de: 1967
+  a: 1977
+  lat: 44.0491
+  lon: -78.6745
+  position: https://www.openstreetmap.org/way/808839795
+  source:
+    titre: Formula 1, résultats, « 1967 Canadian Grand Prix »
+    titre_en: Formula 1, results, “1967 Canadian Grand Prix”
+    url: https://www.formula1.com/en/results/1967/races/251/canada/race-result
+- id: jarama
+  nom: Jarama
+  nom_en: Jarama
+  etiquette: Jarama
+  etiquette_en: Jarama
+  de: 1968
+  a: 1981
+  lat: 40.6158
+  lon: -3.5849
+  position: https://www.openstreetmap.org/way/28262288
+  source:
+    titre: Formula 1, résultats, « 1968 Spanish Grand Prix »
+    titre_en: Formula 1, results, “1968 Spanish Grand Prix”
+    url: https://www.formula1.com/en/results/1968/races/256/spain/race-result
+- id: mont-tremblant
+  nom: Mont-Tremblant
+  nom_en: Mont-Tremblant
+  etiquette: Mont-Tremblant
+  etiquette_en: Mont-Tremblant
+  de: 1968
+  a: 1970
+  lat: 46.1816
+  lon: -74.6103
+  position: https://www.openstreetmap.org/way/176774725
+  source:
+    titre: Formula 1, résultats, « 1968 Canadian Grand Prix »
+    titre_en: Formula 1, results, “1968 Canadian Grand Prix”
+    url: https://www.formula1.com/en/results/1968/races/264/canada/race-result
+- id: montjuic
+  nom: Montjuïc (Barcelone)
+  nom_en: Montjuïc (Barcelona)
+  etiquette: Montjuïc
+  etiquette_en: Montjuïc
+  de: 1969
+  a: 1975
+  lat: 41.3648
+  lon: 2.1542
+  position: https://www.openstreetmap.org/node/1710349120
+  source:
+    titre: Formula 1, résultats, « 1969 Spanish Grand Prix »
+    titre_en: Formula 1, results, “1969 Spanish Grand Prix”
+    url: https://www.formula1.com/en/results/1969/races/268/spain/race-result
+- id: hockenheim
+  nom: Hockenheim
+  nom_en: Hockenheim
+  etiquette: Hockenheim
+  etiquette_en: Hockenheim
+  de: 1970
+  a: 2019
+  lat: 49.3298
+  lon: 8.5763
+  position: https://www.openstreetmap.org/relation/2215776
+  source:
+    titre: Formula 1, résultats, « 1970 German Grand Prix »
+    titre_en: Formula 1, results, “1970 German Grand Prix”
+    url: https://www.formula1.com/en/results/1970/races/285/germany/race-result
+- id: red-bull-ring
+  nom: Spielberg (Österreichring / Red Bull Ring)
+  nom_en: Spielberg (Österreichring / Red Bull Ring)
+  etiquette: Spielberg
+  etiquette_en: Spielberg
+  de: 1970
+  a: 2026
+  lat: 47.2221
+  lon: 14.7643
+  position: https://www.openstreetmap.org/way/822592396
+  source:
+    titre: Formula 1, résultats, « 1970 Austrian Grand Prix »
+    titre_en: Formula 1, results, “1970 Austrian Grand Prix”
+    url: https://www.formula1.com/en/results/1970/races/286/austria/race-result
+- id: paul-ricard
+  nom: Paul-Ricard (Le Castellet)
+  nom_en: Paul Ricard (Le Castellet)
+  etiquette: Paul-Ricard
+  etiquette_en: Paul Ricard
+  de: 1971
+  a: 2022
+  lat: 43.25
+  lon: 5.7964
+  position: https://www.openstreetmap.org/way/686705495
+  source:
+    titre: Formula 1, résultats, « 1971 French Grand Prix »
+    titre_en: Formula 1, results, “1971 French Grand Prix”
+    url: https://www.formula1.com/en/results/1971/races/295/france/race-result
+- id: nivelles-baulers
+  nom: Nivelles-Baulers
+  nom_en: Nivelles-Baulers
+  etiquette: Nivelles-Baulers
+  etiquette_en: Nivelles-Baulers
+  de: 1972
+  a: 1974
+  lat: 50.6123
+  lon: 4.3532
+  position: https://www.openstreetmap.org/relation/3395053
+  source:
+    titre: Formula 1, résultats, « 1972 Belgian Grand Prix »
+    titre_en: Formula 1, results, “1972 Belgian Grand Prix”
+    url: https://www.formula1.com/en/results/1972/races/306/belgium/race-result
+- id: interlagos
+  nom: Interlagos
+  nom_en: Interlagos
+  etiquette: Interlagos
+  etiquette_en: Interlagos
+  de: 1973
+  a: 2025
+  lat: -23.7018
+  lon: -46.6969
+  position: https://www.openstreetmap.org/relation/2560355
+  source:
+    titre: Formula 1, résultats, « 1973 Brazilian Grand Prix »
+    titre_en: Formula 1, results, “1973 Brazilian Grand Prix”
+    url: https://www.formula1.com/en/results/1973/races/315/brazil/race-result
+- id: zolder
+  nom: Zolder
+  nom_en: Zolder
+  etiquette: Zolder
+  etiquette_en: Zolder
+  de: 1973
+  a: 1984
+  lat: 50.9902
+  lon: 5.2577
+  position: https://www.openstreetmap.org/way/765157070
+  source:
+    titre: Formula 1, résultats, « 1973 Belgian Grand Prix »
+    titre_en: Formula 1, results, “1973 Belgian Grand Prix”
+    url: https://www.formula1.com/en/results/1973/races/318/belgium/race-result
+- id: dijon-prenois
+  nom: Dijon-Prenois
+  nom_en: Dijon-Prenois
+  etiquette: Dijon-Prenois
+  etiquette_en: Dijon-Prenois
+  de: 1974
+  a: 1984
+  lat: 47.3631
+  lon: 4.9002
+  position: https://www.openstreetmap.org/relation/11508049
+  source:
+    titre: Formula 1, résultats, « 1974 French Grand Prix »
+    titre_en: Formula 1, results, “1974 French Grand Prix”
+    url: https://www.formula1.com/en/results/1974/races/337/france/race-result
+- id: fuji
+  nom: Fuji
+  nom_en: Fuji
+  etiquette: Fuji
+  etiquette_en: Fuji
+  de: 1976
+  a: 2008
+  lat: 35.3715
+  lon: 138.9316
+  position: https://www.openstreetmap.org/way/196330118
+  source:
+    titre: Formula 1, résultats, « 1976 Japanese Grand Prix »
+    titre_en: Formula 1, results, “1976 Japanese Grand Prix”
+    url: https://www.formula1.com/en/results/1976/races/373/japan/race-result
+- id: long-beach
+  nom: Long Beach
+  nom_en: Long Beach
+  etiquette: Long Beach
+  etiquette_en: Long Beach
+  de: 1976
+  a: 1983
+  lat: 33.769
+  lon: -118.1916
+  position: https://www.openstreetmap.org/relation/112100
+  source:
+    titre: Formula 1, résultats, « 1976 USA West Grand Prix »
+    titre_en: Formula 1, results, “1976 USA West Grand Prix”
+    url: https://www.formula1.com/en/results/1976/races/360/usa-west/race-result
+- id: jacarepagua
+  nom: Jacarepaguá
+  nom_en: Jacarepaguá
+  etiquette: Jacarepaguá
+  etiquette_en: Jacarepaguá
+  de: 1978
+  a: 1989
+  lat: -22.9532
+  lon: -43.3716
+  position: https://www.openstreetmap.org/relation/5520320
+  source:
+    titre: Formula 1, résultats, « 1978 Brazilian Grand Prix »
+    titre_en: Formula 1, results, “1978 Brazilian Grand Prix”
+    url: https://www.formula1.com/en/results/1978/races/392/brazil/race-result
+- id: montreal
+  nom: Montréal (Gilles-Villeneuve)
+  nom_en: Montreal (Gilles Villeneuve)
+  etiquette: Montréal
+  etiquette_en: Montreal
+  de: 1978
+  a: 2026
+  lat: 45.4987
+  lon: -73.5227
+  position: https://www.openstreetmap.org/way/1242958916
+  source:
+    titre: Formula 1, résultats, « 1978 Canadian Grand Prix »
+    titre_en: Formula 1, results, “1978 Canadian Grand Prix”
+    url: https://www.formula1.com/en/results/1978/races/406/canada/race-result
+- id: imola
+  nom: Imola
+  nom_en: Imola
+  etiquette: Imola
+  etiquette_en: Imola
+  de: 1980
+  a: 2025
+  lat: 44.341
+  lon: 11.7119
+  position: https://www.openstreetmap.org/relation/13706843
+  source:
+    titre: Formula 1, résultats, « 1980 Italian Grand Prix »
+    titre_en: Formula 1, results, “1980 Italian Grand Prix”
+    url: https://www.formula1.com/en/results/1980/races/91/italy/race-result
+- id: caesars-palace
+  nom: Las Vegas (Caesars Palace)
+  nom_en: Las Vegas (Caesars Palace)
+  etiquette: Las Vegas
+  etiquette_en: Las Vegas
+  de: 1981
+  a: 1982
+  lat: 36.1166
+  lon: -115.1768
+  position: https://www.openstreetmap.org/way/115672893
+  source:
+    titre: Formula 1, résultats, « 1981 Caesars Palace Grand Prix »
+    titre_en: Formula 1, results, “1981 Caesars Palace Grand Prix”
+    url: https://www.formula1.com/en/results/1981/races/436/caesar-s-palace/race-result
+- id: detroit
+  nom: Détroit
+  nom_en: Detroit
+  etiquette: Détroit
+  etiquette_en: Detroit
+  de: 1982
+  a: 1988
+  lat: 42.3289
+  lon: -83.0397
+  position: https://www.openstreetmap.org/relation/10011997
+  source:
+    titre: Formula 1, résultats, « 1982 USA East Grand Prix »
+    titre_en: Formula 1, results, “1982 USA East Grand Prix”
+    url: https://www.formula1.com/en/results/1982/races/443/detroit/race-result
+- id: dallas
+  nom: Dallas (Fair Park)
+  nom_en: Dallas (Fair Park)
+  etiquette: Dallas
+  etiquette_en: Dallas
+  de: 1984
+  a: 1984
+  lat: 32.7802
+  lon: -96.7594
+  position: https://www.openstreetmap.org/node/4400006130
+  source:
+    titre: Formula 1, résultats, « 1984 Dallas Grand Prix »
+    titre_en: Formula 1, results, “1984 Dallas Grand Prix”
+    url: https://www.formula1.com/en/results/1984/races/474/dallas/race-result
+- id: estoril
+  nom: Estoril
+  nom_en: Estoril
+  etiquette: Estoril
+  etiquette_en: Estoril
+  de: 1984
+  a: 1996
+  lat: 38.7503
+  lon: -9.3936
+  position: https://www.openstreetmap.org/relation/16062257
+  source:
+    titre: Formula 1, résultats, « 4. Grande Premio de Portugal 1984 »
+    titre_en: Formula 1, results, “4. Grande Premio de Portugal 1984”
+    url: https://www.formula1.com/en/results/1984/races/481/portugal/race-result
+- id: adelaide
+  nom: Adélaïde
+  nom_en: Adelaide
+  etiquette: Adélaïde
+  etiquette_en: Adelaide
+  de: 1985
+  a: 1995
+  lat: -34.9287
+  lon: 138.6218
+  position: https://www.openstreetmap.org/way/244792899
+  source:
+    titre: Formula 1, résultats, « Australian Grand Prix 1985 »
+    titre_en: Formula 1, results, “Australian Grand Prix 1985”
+    url: https://www.formula1.com/en/results/1985/races/497/australia/race-result
+- id: hungaroring
+  nom: Hungaroring
+  nom_en: Hungaroring
+  etiquette: Hungaroring
+  etiquette_en: Hungaroring
+  de: 1986
+  a: 2026
+  lat: 47.5826
+  lon: 19.25
+  position: https://www.openstreetmap.org/relation/3938368
+  source:
+    titre: Formula 1, résultats, « 1st Hungarian Grand Prix 1986 »
+    titre_en: Formula 1, results, “1st Hungarian Grand Prix 1986”
+    url: https://www.formula1.com/en/results/1986/races/508/hungary/race-result
+- id: jerez
+  nom: Jerez
+  nom_en: Jerez
+  etiquette: Jerez
+  etiquette_en: Jerez
+  de: 1986
+  a: 1997
+  lat: 36.7078
+  lon: -6.0325
+  position: https://www.openstreetmap.org/way/831985059
+  source:
+    titre: Formula 1, résultats, « Gran Premio Tio Pepe de Espana 1986 »
+    titre_en: Formula 1, results, “Gran Premio Tio Pepe de Espana 1986”
+    url: https://www.formula1.com/en/results/1986/races/499/spain/race-result
+- id: suzuka
+  nom: Suzuka
+  nom_en: Suzuka
+  etiquette: Suzuka
+  etiquette_en: Suzuka
+  de: 1987
+  a: 2026
+  lat: 34.8436
+  lon: 136.5342
+  position: https://www.openstreetmap.org/way/775428456
+  source:
+    titre: Formula 1, résultats, « 1987 Japanese Grand Prix »
+    titre_en: Formula 1, results, “1987 Japanese Grand Prix”
+    url: https://www.formula1.com/en/results/1987/races/525/japan/race-result
+- id: phoenix
+  nom: Phoenix
+  nom_en: Phoenix
+  etiquette: Phoenix
+  etiquette_en: Phoenix
+  de: 1989
+  a: 1991
+  lat: 33.4477
+  lon: -112.0805
+  position: https://www.openstreetmap.org/way/37057889
+  source:
+    titre: Formula 1, résultats, « Iceberg USA Grand Prix 1989 »
+    titre_en: Formula 1, results, “Iceberg USA Grand Prix 1989”
+    url: https://www.formula1.com/en/results/1989/races/547/united-states/race-result
+- id: barcelone-catalogne
+  nom: Barcelone-Catalogne
+  nom_en: Barcelona-Catalunya
+  etiquette: Barcelone-Catalogne
+  etiquette_en: Barcelona-Catalunya
+  de: 1991
+  a: 2026
+  lat: 41.5688
+  lon: 2.2574
+  position: https://www.openstreetmap.org/way/1427313504
+  source:
+    titre: Formula 1, résultats, « Tio Pepe Spanish Grand Prix 1991 »
+    titre_en: Formula 1, results, “Tio Pepe Spanish Grand Prix 1991”
+    url: https://www.formula1.com/en/results/1991/races/572/spain/race-result
+- id: magny-cours
+  nom: Magny-Cours
+  nom_en: Magny-Cours
+  etiquette: Magny-Cours
+  etiquette_en: Magny-Cours
+  de: 1991
+  a: 2008
+  lat: 46.8638
+  lon: 3.1662
+  position: https://www.openstreetmap.org/way/482336193
+  source:
+    titre: Formula 1, résultats, « French Grand Prix 1991 »
+    titre_en: Formula 1, results, “French Grand Prix 1991”
+    url: https://www.formula1.com/en/results/1991/races/565/france/race-result
+- id: donington
+  nom: Donington Park
+  nom_en: Donington Park
+  etiquette: Donington Park
+  etiquette_en: Donington Park
+  de: 1993
+  a: 1993
+  lat: 52.8284
+  lon: -1.3793
+  position: https://www.openstreetmap.org/way/662160198
+  source:
+    titre: Formula 1, résultats, « Sega European Grand Prix 1993 »
+    titre_en: Formula 1, results, “Sega European Grand Prix 1993”
+    url: https://www.formula1.com/en/results/1993/races/592/europe/race-result
+- id: aida
+  nom: Aida (TI Circuit)
+  nom_en: Aida (TI Circuit)
+  etiquette: Aida
+  etiquette_en: Aida
+  de: 1994
+  a: 1995
+  lat: 34.9142
+  lon: 134.2203
+  position: https://www.openstreetmap.org/way/856157100
+  source:
+    titre: Formula 1, résultats, « Pacific Grand Prix 1994 »
+    titre_en: Formula 1, results, “Pacific Grand Prix 1994”
+    url: https://www.formula1.com/en/results/1994/races/606/pacific/race-result
+- id: melbourne
+  nom: Melbourne (Albert Park)
+  nom_en: Melbourne (Albert Park)
+  etiquette: Melbourne
+  etiquette_en: Melbourne
+  de: 1996
+  a: 2026
+  lat: -37.8452
+  lon: 144.9571
+  position: https://www.openstreetmap.org/relation/2397461
+  source:
+    titre: Formula 1, résultats, « Transurban Australian Grand Prix 1996 »
+    titre_en: Formula 1, results, “Transurban Australian Grand Prix 1996”
+    url: https://www.formula1.com/en/results/1996/races/638/australia/race-result
+- id: valence
+  nom: Valence (circuit urbain)
+  nom_en: Valencia Street Circuit
+  etiquette: Valence
+  etiquette_en: Valencia Street Circuit
+  de: 2008
+  a: 2012
+  lat: 39.443
+  lon: -0.318
+  position: https://www.openstreetmap.org/relation/13533567
+  source:
+    titre: Formula 1, résultats, « 2008 Formula 1 Telefónica Grand Prix of Europe »
+    titre_en: Formula 1, results, “2008 Formula 1 Telefónica Grand Prix of Europe”
+    url: https://www.formula1.com/en/results/2008/races/836/europe/race-result
+- id: austin
+  nom: Austin (circuit des Amériques)
+  nom_en: Austin (Circuit of the Americas)
+  etiquette: Austin
+  etiquette_en: Austin
+  de: 2012
+  a: 2026
+  lat: 30.1356
+  lon: -97.6366
+  position: https://www.openstreetmap.org/way/113586692
+  source:
+    titre: Formula 1, résultats, « 2012 Formula 1 United States Grand Prix »
+    titre_en: Formula 1, results, “2012 Formula 1 United States Grand Prix”
+    url: https://www.formula1.com/en/results/2012/races/26/united-states/race-result
+- id: mugello
+  nom: Mugello
+  nom_en: Mugello
+  etiquette: Mugello
+  etiquette_en: Mugello
+  de: 2020
+  a: 2020
+  lat: 43.9994
+  lon: 11.3724
+  position: https://www.openstreetmap.org/relation/7622830
+  source:
+    titre: Formula 1, résultats, « Formula 1 Pirelli Gran Premio della Toscana Ferrari 1000 2020 »
+    titre_en: Formula 1, results, “Formula 1 Pirelli Gran Premio della Toscana Ferrari 1000 2020”
+    url: https://www.formula1.com/en/results/2020/races/1053/tuscany/race-result
+- id: portimao
+  nom: Portimão
+  nom_en: Portimão
+  etiquette: Portimão
+  etiquette_en: Portimão
+  de: 2020
+  a: 2021
+  lat: 37.2304
+  lon: -8.6274
+  position: https://www.openstreetmap.org/way/157850575
+  source:
+    titre: Formula 1, résultats, « Formula 1 Heineken Grande Prémio de Portugal 2020 »
+    titre_en: Formula 1, results, “Formula 1 Heineken Grande Prémio de Portugal 2020”
+    url: https://www.formula1.com/en/results/2020/races/1056/portugal/race-result
+- id: miami
+  nom: Miami
+  nom_en: Miami
+  etiquette: Miami
+  etiquette_en: Miami
+  de: 2022
+  a: 2026
+  lat: 25.9579
+  lon: -80.2388
+  position: https://www.openstreetmap.org/way/171419981
+  source:
+    titre: Formula 1, résultats, « Formula 1 Crypto.com Miami Grand Prix 2022 »
+    titre_en: Formula 1, results, “Formula 1 Crypto.com Miami Grand Prix 2022”
+    url: https://www.formula1.com/en/results/2022/races/1110/miami/race-result
+- id: las-vegas-strip
+  nom: Las Vegas (Strip)
+  nom_en: Las Vegas (Strip)
+  etiquette: Las Vegas
+  etiquette_en: Las Vegas
+  de: 2023
+  a: 2025
+  lat: 36.1194
+  lon: -115.1743
+  position: https://www.openstreetmap.org/way/586928078
+  source:
+    titre: Formula 1, résultats, « Formula 1 Heineken Silver Las Vegas Grand Prix 2023 »
+    titre_en: Formula 1, results, “Formula 1 Heineken Silver Las Vegas Grand Prix 2023”
+    url: https://www.formula1.com/en/results/2023/races/1225/las-vegas/race-result
+- id: madrid-madring
+  nom: Madrid (Madring)
+  nom_en: Madrid (Madring)
+  etiquette: Madrid
+  etiquette_en: Madrid
+  de: 2026
+  a: 2026
+  lat: 40.4664
+  lon: -3.6172
+  position: https://www.openstreetmap.org/way/34050269
+  source:
+    titre: Formula 1, résultats, « Formula 1 TAG Heuer Gran Premio de España 2026 »
+    titre_en: Formula 1, results, “Formula 1 TAG Heuer Gran Premio de España 2026”
+    url: https://www.formula1.com/en/results/2026/races/1294/spain/race-result

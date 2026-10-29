@@ -408,6 +408,23 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
 if len(structures) == 2 and structures["fr"] != structures["en"]:
     err("_data/ecuries.yml et _data/en/ecuries.yml : lignées, saisons, passages, sources ou rattachements différents")
 
+# 4 quater. circuits de la page Cartes : années, coordonnées, sources
+if os.path.exists("_data/circuits.yml"):
+    ids_c = []
+    for c in charger_yaml("_data/circuits.yml") or []:
+        lieu_c = f"_data/circuits.yml : circuit {c.get('id')}"
+        ids_c.append(c.get("id"))
+        if not all(c.get(k) for k in ("nom", "nom_en", "etiquette", "etiquette_en")):
+            err(f"{lieu_c} : nom ou étiquette manquant")
+        if not isinstance(c.get("de"), int) or not isinstance(c.get("a"), int) or not 1950 <= c["de"] <= c["a"] <= 2026:
+            err(f"{lieu_c} : années invalides")
+        if not isinstance(c.get("lat"), (int, float)) or not isinstance(c.get("lon"), (int, float)):
+            err(f"{lieu_c} : coordonnées manquantes")
+        if not str((c.get("source") or {}).get("url", "")).startswith("http") or not str(c.get("position", "")).startswith("http"):
+            err(f"{lieu_c} : source ou position manquante")
+    for dbl in sorted({i for i in ids_c if ids_c.count(i) > 1}):
+        err(f"_data/circuits.yml : circuit « {dbl} » déclaré deux fois")
+
 # 5. correspondance entre langues
 if "fr" in ids_par_langue and "en" in ids_par_langue:
     for manque in sorted(ids_par_langue["fr"] - ids_par_langue["en"]):

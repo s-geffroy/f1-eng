@@ -1,6 +1,7 @@
 {%- comment -%}
-  Carte des sites (page des cartes) : panneaux SVG projetés par outils/carte-usines.py dans
-  _data/carte_usines.yml ; lieux dans _data/usines-coordonnees.yml. Trois types de site, chacun sa forme :
+  Cartes des sites (page des cartes), style atlas : panneaux SVG projetés par outils/carte-usines.py dans
+  _data/carte_usines.yml (mer, quadrillage, terres, lacs, fleuves, frontières, villes de repère, circuits) ;
+  lieux dans _data/usines-coordonnees.yml, circuits dans _data/circuits.yml. Trois types de site, chacun sa forme :
     usine d'écurie (rond)      : _data/ecuries.yml, lignees[].usines
     soufflerie (triangle)      : lignees[].souffleries
     usine de motoriste (carré) : motoristes[].usines
@@ -13,6 +14,7 @@
 {%- assign T_c = site.data.i18n[lang_c] -%}
 {%- if lang_c == "en" -%}{%- assign E_c = site.data.en.ecuries -%}{%- else -%}{%- assign E_c = site.data.ecuries -%}{%- endif -%}
 {%- assign L_c = site.data["usines-coordonnees"] -%}
+{%- assign C_c = site.data.circuits -%}
 <section class="carte-usines" aria-labelledby="titre-carte-usines">
   <h2 id="titre-carte-usines">{{ T_c.ecuries.carte_titre }}</h2>
   <p class="accroche">{{ T_c.ecuries.carte_accroche }}</p>
@@ -20,6 +22,9 @@
     <label><input type="checkbox" id="calque-usine" checked> <svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" class="point-actuel"/></svg>{{ T_c.ecuries.carte_actuelle }} <svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" class="point-ancien"/></svg>{{ T_c.ecuries.carte_ancienne }}</label>
     <label><input type="checkbox" id="calque-soufflerie" checked> <svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><polygon points="6,1 11,10.5 1,10.5" class="glyphe-soufflerie"/></svg>{{ T_c.ecuries.carte_souffleries }}</label>
     <label><input type="checkbox" id="calque-moteur" checked> <svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><rect x="1.5" y="1.5" width="9" height="9" class="glyphe-moteur"/></svg>{{ T_c.ecuries.carte_moteurs }}</label>
+    {%- if C_c %}
+    <label><input type="checkbox" id="calque-circuit" checked> <svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><g class="glyphe-circuit"><rect x="1" y="1" width="10" height="10"/><path d="M1 1h5v5H1zM6 6h5v5H6z"/></g></svg>{{ T_c.ecuries.carte_circuits }}</label>
+    {%- endif %}
   </div>
   <div class="carte-panneaux">
     {%- for pan_c in site.data.carte_usines.panneaux %}
@@ -27,7 +32,24 @@
     <figure class="carte-panneau carte-{{ pan_c.id }}">
       <svg viewBox="0 0 {{ pan_c.largeur }} {{ pan_c.hauteur }}" role="img" aria-labelledby="carte-{{ pan_c.id }}-titre">
         <title id="carte-{{ pan_c.id }}-titre">{{ T_c.ecuries[titre_pan_c] }}</title>
-        <path class="carte-terre" d="{{ pan_c.fond }}"/>
+        <rect class="carte-mer" width="{{ pan_c.largeur }}" height="{{ pan_c.hauteur }}"/>
+        <path class="carte-graticule" d="{{ pan_c.graticule }}"/>
+        <path class="carte-terre" d="{{ pan_c.terre }}"/>
+        <path class="carte-lacs" d="{{ pan_c.lacs }}"/>
+        <path class="carte-fleuves" d="{{ pan_c.fleuves }}"/>
+        <path class="carte-frontieres" d="{{ pan_c.frontieres }}"/>
+        {%- for v_c in pan_c.villes %}
+        {%- if lang_c == "en" %}{% assign nv_c = v_c.nom_en %}{% else %}{% assign nv_c = v_c.nom %}{% endif %}
+        <g class="carte-ville"><circle cx="{{ v_c.x }}" cy="{{ v_c.y }}" r="1.8"/><text x="{{ v_c.x | plus: v_c.dx }}" y="{{ v_c.y | plus: v_c.dy }}" text-anchor="{{ v_c.ancre }}">{{ nv_c }}</text></g>
+        {%- endfor %}
+        {%- for ci_c in pan_c.circuits %}
+        {%- assign cd_ci_c = C_c | where: "id", ci_c.circuit | first %}
+        {%- if lang_c == "en" %}{% assign nc_c = cd_ci_c.nom_en %}{% assign ec_c = cd_ci_c.etiquette_en %}{% else %}{% assign nc_c = cd_ci_c.nom %}{% assign ec_c = cd_ci_c.etiquette %}{% endif %}
+        <g class="carte-circuit"><title>{{ nc_c }} — {{ T_c.ecuries.carte_circuit_gp }} {{ cd_ci_c.de }}{% if cd_ci_c.a != cd_ci_c.de %}–{{ cd_ci_c.a }}{% endif %}</title>
+          <g class="glyphe-circuit" transform="translate({{ ci_c.x | minus: 4 }} {{ ci_c.y | minus: 4 }})"><rect width="8" height="8"/><path d="M0 0h4v4H0zM4 4h4v4H4z"/></g>
+          {%- if ci_c.ancre %}{% if ci_c.trait %}<line class="carte-rappel" x1="{{ ci_c.x }}" y1="{{ ci_c.y }}" x2="{{ ci_c.x | plus: ci_c.trait[0] }}" y2="{{ ci_c.y | plus: ci_c.trait[1] }}"/>{% endif %}<text x="{{ ci_c.x | plus: ci_c.dx }}" y="{{ ci_c.y | plus: ci_c.dy }}" text-anchor="{{ ci_c.ancre }}">{{ ec_c }}</text>{% endif %}
+        </g>
+        {%- endfor %}
         {%- for cd_c in pan_c.cadres %}
         <rect class="carte-cadre" x="{{ cd_c.x }}" y="{{ cd_c.y }}" width="{{ cd_c.l }}" height="{{ cd_c.h }}"/>
         {%- endfor %}
@@ -80,5 +102,5 @@
     </figure>
     {%- endfor %}
   </div>
-  <p class="jalons-note">{{ T_c.ecuries.carte_sources }}</p>
+  <p class="jalons-note">{{ T_c.ecuries.carte_sources }}{% if C_c %} {{ T_c.ecuries.carte_sources_circuits }}{% endif %}</p>
 </section>
