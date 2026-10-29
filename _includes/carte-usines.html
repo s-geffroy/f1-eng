@@ -1,0 +1,51 @@
+{%- comment -%}
+  Carte des usines (page des écuries) : trois panneaux SVG (Europe, zoom sur l'Angleterre, Caroline du
+  Nord), projetés par outils/carte-usines.py dans _data/carte_usines.yml ; lieux dans
+  _data/usines-coordonnees.yml ; usines et dates dans _data/ecuries.yml (lignees[].usines, champ lieux).
+  Point plein : usine d'une écurie engagée en 2026 ; point creux : usine plus ancienne. Chaque point mène
+  à la lignée dans la généalogie ; son infobulle donne les lignées et leurs années sur place.
+  Variables suffixées _c : une inclusion partage la portée de la page.
+{%- endcomment -%}
+{%- assign lang_c = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_c = site.data.i18n[lang_c] -%}
+{%- if lang_c == "en" -%}{%- assign E_c = site.data.en.ecuries -%}{%- else -%}{%- assign E_c = site.data.ecuries -%}{%- endif -%}
+{%- assign L_c = site.data["usines-coordonnees"] -%}
+<section class="carte-usines" aria-labelledby="titre-carte-usines">
+  <h2 id="titre-carte-usines">{{ T_c.ecuries.carte_titre }}</h2>
+  <p class="accroche">{{ T_c.ecuries.carte_accroche }}</p>
+  <p class="frise-legende">
+    <span><svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" class="point-actuel"/></svg>{{ T_c.ecuries.carte_actuelle }}</span>
+    <span><svg class="legende-point" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" class="point-ancien"/></svg>{{ T_c.ecuries.carte_ancienne }}</span>
+  </p>
+  <div class="carte-panneaux">
+    {%- for pan_c in site.data.carte_usines.panneaux %}
+    {%- capture titre_pan_c %}carte_{{ pan_c.id }}{% endcapture %}
+    <figure class="carte-panneau carte-{{ pan_c.id }}">
+      <svg viewBox="0 0 {{ pan_c.largeur }} {{ pan_c.hauteur }}" role="img" aria-labelledby="carte-{{ pan_c.id }}-titre">
+        <title id="carte-{{ pan_c.id }}-titre">{{ T_c.ecuries[titre_pan_c] }}</title>
+        <path class="carte-terre" d="{{ pan_c.fond }}"/>
+        {%- if pan_c.cadre %}
+        <rect class="carte-cadre" x="{{ pan_c.cadre.x }}" y="{{ pan_c.cadre.y }}" width="{{ pan_c.cadre.l }}" height="{{ pan_c.cadre.h }}"/>
+        {%- endif %}
+        {%- for pt_c in pan_c.points %}
+        {%- assign lieu_c = L_c | where: "id", pt_c.lieu | first %}
+        {%- assign actuel_c = false %}{% assign cible_c = nil %}{% assign infos_c = "" | split: "" %}
+        {%- for l_c in E_c.lignees %}{% for u_c in l_c.usines %}{% if u_c.lieux contains pt_c.lieu %}
+          {%- if u_c.a == 2026 %}{% assign actuel_c = true %}{% endif %}
+          {%- unless cible_c %}{% assign cible_c = l_c.id %}{% endunless %}
+          {%- capture info_c %}{{ l_c.nom }} ({{ u_c.periode }}){% endcapture %}{% assign infos_c = infos_c | push: info_c %}
+        {%- endif %}{% endfor %}{% endfor %}
+        {%- if lang_c == "en" %}{% assign nom_c = lieu_c.nom_en %}{% else %}{% assign nom_c = lieu_c.nom %}{% endif %}
+        <a href="#l-{{ cible_c }}">
+          <title>{{ nom_c }} : {{ infos_c | join: " ; " }}</title>
+          <circle cx="{{ pt_c.x }}" cy="{{ pt_c.y }}" r="4.5" class="{% if actuel_c %}point-actuel{% else %}point-ancien{% endif %}"/>
+          <text x="{{ pt_c.x | plus: pt_c.dx }}" y="{{ pt_c.y | plus: pt_c.dy }}" text-anchor="{{ pt_c.ancre }}">{{ nom_c }}</text>
+        </a>
+        {%- endfor %}
+      </svg>
+      <figcaption>{{ T_c.ecuries[titre_pan_c] }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+  <p class="jalons-note">{{ T_c.ecuries.carte_sources }}</p>
+</section>
