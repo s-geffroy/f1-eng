@@ -13,40 +13,40 @@
 {%- assign nb_cols = E_g.lignees | map: "colonne" | sort | last -%}
 {%- assign url_g = T_g.url.ecuries | relative_url -%}
 <div class="genealogie" style="--colonnes: {{ nb_cols }}; --annees: {{ fin_g | minus: debut_g | plus: 1 }};">
-  {%- for a in (debut_g..fin_g) %}{% assign m5 = a | modulo: 5 %}{% if m5 == 0 %}
-  {%- assign r = a | minus: debut_g | plus: 1 %}{% assign m10 = a | modulo: 10 %}
-  <span class="gen-annee{% if m10 == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r }};" aria-hidden="true">{{ a }}</span>
-  <span class="gen-regle{% if m10 == 0 %} gen-regle-decennie{% endif %}" style="grid-row: {{ r }};" aria-hidden="true"></span>
+  {%- for a_g in (debut_g..fin_g) %}{% assign m5_g = a_g | modulo: 5 %}{% if m5_g == 0 %}
+  {%- assign r_g = a_g | minus: debut_g | plus: 1 %}{% assign m10_g = a_g | modulo: 10 %}
+  <span class="gen-annee{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true">{{ a_g }}</span>
+  <span class="gen-regle{% if m10_g == 0 %} gen-regle-decennie{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true"></span>
   {%- endif %}{% endfor %}
-  {%- for l in E_g.lignees %}
-  {%- assign col = l.colonne | plus: 1 %}
-  {%- for s in l.segments %}
-  {%- assign e = E_g.ecuries | where: "id", s.ecurie | first %}
-  {%- assign r1 = s.de | minus: debut_g | plus: 1 %}
-  {%- assign r2 = s.a | minus: debut_g | plus: 2 %}
-  {%- assign duree = s.a | minus: s.de | plus: 1 %}
-  {%- if duree >= 10 %}{% assign cl = "longue" %}{% elsif duree >= 6 %}{% assign cl = "moyenne" %}{% elsif duree >= 3 %}{% assign cl = "courte" %}{% else %}{% assign cl = "breve" %}{% endif %}
-  <article{% if forloop.first %} id="l-{{ l.id }}"{% endif %} class="carte-ecurie duree-{{ cl }}{% if s.lien.preuve == 'discute' %} preuve-discute{% endif %}{% if forloop.index0 > 0 %} carte-suite{% endif %}" style="grid-column: {{ col }}; grid-row: {{ r1 }} / {{ r2 }};">
-    {%- if forloop.first and l.segments.size > 1 %}
-    <p class="carte-lignee">{{ l.nom }}</p>
-    {%- elsif s.lien %}
-    <p class="carte-lignee">{{ T_g.ecuries.types[s.lien.type] }}</p>
+  {%- for l_g in E_g.lignees %}
+  {%- assign col_g = l_g.colonne | plus: 1 %}
+  {%- for s_g in l_g.segments %}
+  {%- assign e_g = E_g.ecuries | where: "id", s_g.ecurie | first %}
+  {%- assign r1_g = s_g.de | minus: debut_g | plus: 1 %}
+  {%- assign r2_g = s_g.a | minus: debut_g | plus: 2 %}
+  {%- assign duree_g = s_g.a | minus: s_g.de | plus: 1 %}
+  {%- if duree_g >= 10 %}{% assign cl_g = "longue" %}{% elsif duree_g >= 6 %}{% assign cl_g = "moyenne" %}{% elsif duree_g >= 3 %}{% assign cl_g = "courte" %}{% else %}{% assign cl_g = "breve" %}{% endif %}
+  <article{% if forloop.first %} id="l-{{ l_g.id }}"{% endif %} class="carte-ecurie duree-{{ cl_g }}{% if s_g.lien.preuve == 'discute' %} preuve-discute{% endif %}{% if forloop.index0 > 0 %} carte-suite{% endif %}" style="grid-column: {{ col_g }}; grid-row: {{ r1_g }} / {{ r2_g }};">
+    {%- if forloop.first and l_g.segments.size > 1 %}
+    <p class="carte-lignee">{{ l_g.nom }}</p>
+    {%- elsif s_g.lien %}
+    <p class="carte-lignee">{{ T_g.ecuries.types[s_g.lien.type] }}</p>
     {%- elsif forloop.index0 > 0 %}
     <p class="carte-lignee">{{ T_g.ecuries.retour }}</p>
     {%- endif %}
-    <h3><a href="{{ url_g }}{{ e.id }}/">{{ e.nom }}</a> <span>{{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}</span></h3>
-    {%- if e.moteurs.size > 0 %}
+    <h3><a href="{{ url_g }}{{ e_g.id }}/">{{ e_g.nom }}</a> <span>{{ s_g.de }}{% if s_g.a != s_g.de %}–{% if l_g.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s_g.a }}{% endif %}{% endif %}</span></h3>
+    {%- if e_g.moteurs.size > 0 %}
     <p class="carte-moteurs">
-      {%- for m in e.moteurs %}{% if m.a >= s.de and m.de <= s.a %}{% assign mo = E_g.motoristes | where: "id", m.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo.couleur | default: 0 }}" title="{{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}"></i>{% endif %}{% endfor -%}
+      {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}{% assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" title="{{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}"></i>{% endif %}{% endfor -%}
     </p>
     {%- endif %}
-    {%- if e.ingenieurs_cles %}
-    <p class="carte-ingenieurs">{% for i in e.ingenieurs_cles %}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {%- if e_g.ingenieurs_cles %}
+    <p class="carte-ingenieurs">{% for i_g in e_g.ingenieurs_cles %}{% include lien-entree.html id=i_g %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
     {%- endif %}
-    {%- if e.photo %}
-    {%- assign url_v = T_g.url.voitures | append: e.photo.voiture | append: "/" %}
-    {%- assign v = site[T_g.collection_voitures] | where: "url", url_v | first %}
-    <a class="carte-photo" href="{{ v.url | relative_url }}"><img src="{{ e.photo.fichier | relative_url }}" alt="{{ v.title }}" loading="lazy"><span>{{ v.title }}</span></a>
+    {%- if e_g.photo %}
+    {%- assign url_v_g = T_g.url.voitures | append: e_g.photo.voiture | append: "/" %}
+    {%- assign v_g = site[T_g.collection_voitures] | where: "url", url_v_g | first %}
+    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | relative_url }}" alt="{{ v_g.title }}" loading="lazy"><span>{{ v_g.title }}</span></a>
     {%- endif %}
   </article>
   {%- endfor %}

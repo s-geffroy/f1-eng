@@ -27,10 +27,10 @@
   {%- assign rangees_f = lignees_f | group_by: "id" -%}
 {%- elsif include.selection == "principales" -%}
   {%- assign lignees_f = "" | split: "" -%}
-  {%- for l in E_f.lignees -%}
-    {%- assign garder = l.actuelle -%}
-    {%- for s in l.segments -%}{%- assign e = E_f.ecuries | where: "id", s.ecurie | first -%}{%- if e.voitures.size > 0 -%}{%- assign garder = true -%}{%- endif -%}{%- endfor -%}
-    {%- if garder -%}{%- assign lignees_f = lignees_f | push: l -%}{%- endif -%}
+  {%- for l_f in E_f.lignees -%}
+    {%- assign garder_f = l_f.actuelle -%}
+    {%- for s_f in l_f.segments -%}{%- assign e_f = E_f.ecuries | where: "id", s_f.ecurie | first -%}{%- if e_f.voitures.size > 0 -%}{%- assign garder_f = true -%}{%- endif -%}{%- endfor -%}
+    {%- if garder_f -%}{%- assign lignees_f = lignees_f | push: l_f -%}{%- endif -%}
   {%- endfor -%}
   {%- assign rangees_f = lignees_f | group_by: "id" -%}
 {%- else -%}
@@ -40,50 +40,50 @@
 <div class="ecuries-plan" style="--debut: {{ debut_f }}; --fin: {{ fin_f }};">
   {%- unless include.axe == "non" %}
   <div class="ecuries-axe" aria-hidden="true">
-    {%- for a in (debut_f..fin_f) %}{% assign m = a | modulo: 10 %}{% if m == 0 %}
-    <span class="frise-decennie" style="--annee: {{ a }};">{{ a }}</span>
+    {%- for a_f in (debut_f..fin_f) %}{% assign m_f = a_f | modulo: 10 %}{% if m_f == 0 %}
+    <span class="frise-decennie" style="--annee: {{ a_f }};">{{ a_f }}</span>
     {%- endif %}{% endfor %}
   </div>
   {%- endunless %}
   <ol class="ecuries-rangees">
-    {%- for r in rangees_f %}
+    {%- for r_f in rangees_f %}
     <li class="ecuries-rangee">
-      {%- for l in r.items %}
-      {%- assign premier = l.segments | first %}
+      {%- for l_f in r_f.items %}
+      {%- assign premier_f = l_f.segments | first %}
       {%- comment -%} le nom de la lignée n'est écrit que s'il diffère de celui de son unique segment {%- endcomment -%}
-      {%- if l.segments.size > 1 or r.items.size == 1 %}
-      <p class="ecuries-lignee{% if premier.de > 2010 %} ecuries-lignee-fin{% endif %}" style="--de: {{ premier.de }};">{{ l.nom }}</p>
+      {%- if l_f.segments.size > 1 or r_f.items.size == 1 %}
+      <p class="ecuries-lignee{% if premier_f.de > 2010 %} ecuries-lignee-fin{% endif %}" style="--de: {{ premier_f.de }};">{{ l_f.nom }}</p>
       {%- endif %}
-      <ol class="ecuries-segments" aria-label="{{ l.nom }}">
-        {%- for s in l.segments %}
-        {%- assign e = E_f.ecuries | where: "id", s.ecurie | first %}
-        {%- assign fin_s = s.a | plus: 1 %}
-        {%- assign alt = forloop.index | modulo: 2 %}
-        <li class="segment{% if alt == 0 %} segment-alt{% endif %}{% if s.lien %} segment-{{ s.lien.type }} preuve-{{ s.lien.preuve }}{% endif %}{% if l.actuelle and forloop.last %} segment-encours{% endif %}" style="--de: {{ s.de }}; --a: {{ fin_s }};">
-          <a href="{{ url_ecuries }}{{ e.id }}/"{% if include.courante == e.id %} aria-current="page"{% endif %} title="{{ e.nom }}, {{ s.de }}{% if s.a != s.de %}–{% if l.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui }}{% else %}{{ s.a }}{% endif %}{% endif %}">{{ e.nom }}</a>
+      <ol class="ecuries-segments" aria-label="{{ l_f.nom }}">
+        {%- for s_f in l_f.segments %}
+        {%- assign e_f = E_f.ecuries | where: "id", s_f.ecurie | first %}
+        {%- assign fin_s_f = s_f.a | plus: 1 %}
+        {%- assign alt_f = forloop.index | modulo: 2 %}
+        <li class="segment{% if alt_f == 0 %} segment-alt{% endif %}{% if s_f.lien %} segment-{{ s_f.lien.type }} preuve-{{ s_f.lien.preuve }}{% endif %}{% if l_f.actuelle and forloop.last %} segment-encours{% endif %}" style="--de: {{ s_f.de }}; --a: {{ fin_s_f }};">
+          <a href="{{ url_ecuries }}{{ e_f.id }}/"{% if include.courante == e_f.id %} aria-current="page"{% endif %} title="{{ e_f.nom }}, {{ s_f.de }}{% if s_f.a != s_f.de %}–{% if l_f.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui }}{% else %}{{ s_f.a }}{% endif %}{% endif %}">{{ e_f.nom }}</a>
         </li>
         {%- endfor %}
       </ol>
       {%- comment -%} voitures et motoristes des écuries de la lignée, une seule fois par écurie (Renault revient deux fois à Enstone) {%- endcomment -%}
-      {%- assign ids_l = l.segments | map: "ecurie" | uniq %}
+      {%- assign ids_l_f = l_f.segments | map: "ecurie" | uniq %}
       <ul class="ecuries-moteurs">
-        {%- for id in ids_l %}
-        {%- assign e = E_f.ecuries | where: "id", id | first %}
-        {%- for m in e.moteurs %}
-        {%- assign mo = E_f.motoristes | where: "id", m.motoriste | first %}
-        {%- assign fin_m = m.a | plus: 1 %}
-        <li class="moteur" data-couleur="{{ mo.couleur | default: 0 }}" style="--de: {{ m.de }}; --a: {{ fin_m }};" title="{{ e.nom }} · {{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}"></li>
+        {%- for id_f in ids_l_f %}
+        {%- assign e_f = E_f.ecuries | where: "id", id_f | first %}
+        {%- for m_f in e_f.moteurs %}
+        {%- assign mo_f = E_f.motoristes | where: "id", m_f.motoriste | first %}
+        {%- assign fin_m_f = m_f.a | plus: 1 %}
+        <li class="moteur" data-couleur="{{ mo_f.couleur | default: 0 }}" style="--de: {{ m_f.de }}; --a: {{ fin_m_f }};" title="{{ e_f.nom }} · {{ mo_f.nom }}, {{ m_f.de }}{% if m_f.a != m_f.de %}–{{ m_f.a }}{% endif %}"></li>
         {%- endfor %}
         {%- endfor %}
       </ul>
       <ul class="ecuries-voitures">
-        {%- for id in ids_l %}
-        {%- assign e = E_f.ecuries | where: "id", id | first %}
-        {%- for vid in e.voitures %}
-        {%- assign url_v = T_f.url.voitures | append: vid | append: "/" %}
-        {%- assign v = site[T_f.collection_voitures] | where: "url", url_v | first %}
-        {%- if v and v.annee >= debut_f %}
-        <li style="--annee: {{ v.annee }};"><a class="repere-voiture{% if v.annee < 1960 %} jalon-debut{% elsif v.annee > 2010 %} jalon-fin{% endif %}" href="{{ v.url | relative_url }}" aria-label="{{ v.annee }} : {{ v.title }}"><span class="jalon-etiquette"><b>{{ v.annee }}</b> {{ v.title }}</span></a></li>
+        {%- for id_f in ids_l_f %}
+        {%- assign e_f = E_f.ecuries | where: "id", id_f | first %}
+        {%- for vid_f in e_f.voitures %}
+        {%- assign url_v_f = T_f.url.voitures | append: vid_f | append: "/" %}
+        {%- assign v_f = site[T_f.collection_voitures] | where: "url", url_v_f | first %}
+        {%- if v_f and v_f.annee >= debut_f %}
+        <li style="--annee: {{ v_f.annee }};"><a class="repere-voiture{% if v_f.annee < 1960 %} jalon-debut{% elsif v_f.annee > 2010 %} jalon-fin{% endif %}" href="{{ v_f.url | relative_url }}" aria-label="{{ v_f.annee }} : {{ v_f.title }}"><span class="jalon-etiquette"><b>{{ v_f.annee }}</b> {{ v_f.title }}</span></a></li>
         {%- endif %}
         {%- endfor %}
         {%- endfor %}
