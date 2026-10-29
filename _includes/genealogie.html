@@ -65,9 +65,14 @@
     {%- endif %}
     <h3><a href="{{ url_g }}{{ e_g.id }}/">{{ e_g.nom }}</a> <span>{{ s_g.de }}{% if s_g.a != s_g.de %}–{% if l_g.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s_g.a }}{% endif %}{% endif %}</span></h3>
     {%- if e_g.moteurs.size > 0 %}
-    <p class="carte-moteurs">
-      {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}{% assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}<i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" title="{{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}"><span class="visually-hidden">{{ T_g.ecuries.motoristes }} : {{ mo_g.nom }}, {{ m_g.de }}{% if m_g.a != m_g.de %}–{{ m_g.a }}{% endif %}</span></i>{% endif %}{% endfor -%}
-    </p>
+    {%- comment -%} motoristes écrits en clair, bornés aux saisons de ce nom (Renault revient deux fois à Enstone) {%- endcomment %}
+    <ul class="carte-moteurs" aria-label="{{ T_g.ecuries.motoristes }}">
+      {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}
+      {%- assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}
+      {%- assign de_m_g = m_g.de | at_least: s_g.de %}{% assign a_m_g = m_g.a | at_most: s_g.a %}
+      <li><i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" aria-hidden="true"></i>{{ mo_g.nom }} <span>{{ de_m_g }}{% if a_m_g != de_m_g %}–{{ a_m_g }}{% endif %}</span></li>
+      {%- endif %}{% endfor %}
+    </ul>
     {%- endif %}
     {%- if e_g.ingenieurs_cles %}
     <p class="carte-ingenieurs">{% for i_g in e_g.ingenieurs_cles %}{% include lien-entree.html id=i_g %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
