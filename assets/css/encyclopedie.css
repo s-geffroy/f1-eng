@@ -124,8 +124,6 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .texte .figure svg { display: block; width: 100%; height: auto; }
 /* liens du texte courant : soulignés en encre secondaire, repérables dans un paragraphe dense */
 .texte a { text-decoration-color: var(--mine); }
-/* prose des dossiers : lignes d'environ 80 signes ; tableaux, figures et sommaire gardent toute la largeur */
-.dossier .texte > p, .dossier .texte > ul, .dossier .texte > ol, .dossier .texte > blockquote { max-width: 80ch; }
 /* tableaux générés (dossier Hégémonies) : le défilement est porté par l'enveloppe, le tableau garde sa sémantique */
 .texte .table-defil { overflow-x: auto; margin: 1.5em 0; }
 .texte .table-defil table { display: table; margin: 0; }
@@ -133,7 +131,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .texte caption { caption-side: top; text-align: left; padding: 0.4em 0.7em; font-family: var(--titre); font-weight: 600; font-size: 1rem; border-bottom: var(--trait-fin) solid var(--trait); }
 /* sommaire des dossiers (kramdown {:toc}) */
 .sommaire-titre { font-family: var(--titre); font-weight: 600; font-size: 1.125rem; margin-bottom: 0.25em !important; }
-#markdown-toc { background: var(--feuille); border: var(--trait-fin) solid var(--trait); padding: 0.75rem 1rem 0.75rem 2rem; max-width: 46rem; font-family: var(--titre); font-size: 1.0625rem; }
+#markdown-toc { background: var(--feuille); border: var(--trait-fin) solid var(--trait); padding: 0.75rem 1rem 0.75rem 2rem; font-family: var(--titre); font-size: 1.0625rem; }
 #markdown-toc ul { margin: 0.2em 0 0; padding-left: 1.1em; font-size: 0.9375rem; }
 #markdown-toc li { margin-bottom: 0.15em; }
 .texte .figure figcaption { margin-top: 0.4rem; font-family: var(--titre); font-size: 0.9375rem; line-height: 1.4; color: var(--mine); }
@@ -344,7 +342,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .tier-liste .ligne-domaine { font-family: var(--texte); font-size: 0.9375rem; flex: 1; }
 .tier-liste .ligne-score { font-size: 1.25rem; }
 
-.tier-note { margin-top: 2rem; padding-top: 1rem; border-top: var(--trait-fin) solid var(--trait); color: var(--mine); max-width: 46rem; }
+.tier-note { margin-top: 2rem; padding-top: 1rem; border-top: var(--trait-fin) solid var(--trait); color: var(--mine); }
 
 /* ---------- Lignées ---------- */
 
@@ -367,7 +365,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 }
 .chaine li > span { color: var(--mine); font-weight: 500; }
 /* Justification de chaque flèche : ce qui passe d'une étape à la suivante, niveau de preuve, sources */
-.liens-lignee { list-style: none; margin: 1rem 0 0; padding: 0; max-width: 46rem; }
+.liens-lignee { list-style: none; margin: 1rem 0 0; padding: 0; }
 .liens-lignee li { padding: 0.35rem 0 0.35rem 0.85rem; border-left: 2px solid var(--graphite); margin-bottom: 0.6rem; }
 .liens-lignee p { margin: 0 0 0.25rem; }
 .liens-lignee .preuve { font: 600 0.8125rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mine); border: var(--trait-fin) solid var(--trait); padding: 0.1rem 0.3rem; margin-left: 0.25rem; white-space: nowrap; }
@@ -680,7 +678,7 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
    Les segments alternent deux encres pour que chaque changement de nom se voie ; un passage
    « discuté » est marqué d'un bord en tirets. Losanges : les voitures de l'encyclopédie. */
 
-.ecuries-perimetre { color: var(--mine); font-size: 0.9375rem; border-left: 3px solid var(--trait); padding-left: 0.75rem; max-width: 46rem; }
+.ecuries-perimetre { color: var(--mine); font-size: 0.9375rem; border-left: 3px solid var(--trait); padding-left: 0.75rem; }
 .ecuries-plan {
   --cote: 2.5rem;
   position: relative; min-width: 64rem; padding: 2rem var(--cote) 0.75rem;
