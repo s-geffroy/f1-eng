@@ -1,0 +1,2776 @@
+# Manufacturiers de pneumatiques, saisis à la main, chaque fait sourcé (recherche du 30 octobre 2026).
+# Lu par outils/domination.py. monopoles = un seul fournisseur (nature : impose par contrat ou
+# reglement, ou de_fait) ; cas = manufacturier de chaque écurie qui a gagné ou signé une pole hors monopole :
+#   changements = nouveau manufacturier à partir d'un GP ; exceptions = un GP isolé (pour : victoire ou
+#   pole quand les deux diffèrent). Une course non classée arrête le script.
+monopoles:
+- de: 1987
+  a: 1988
+  pneus: Goodyear
+  nature: de_fait
+  pourquoi: 'Pirelli quitte la F1 après 1986 et n''y revient qu''en 1989 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
+  sources: &id001
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- de: 1992
+  a: 1996
+  pneus: Goodyear
+  nature: de_fait
+  pourquoi: 'Pirelli se retire après 1991 et Bridgestone n''arrive qu''en 1997 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
+  sources: *id001
+- de: 1999
+  a: 2000
+  pneus: Bridgestone
+  pourquoi: Goodyear se retire fin 1998 ; Bridgestone reste seul fournisseur en 1999 et 2000, avant l'arrivée de Michelin en 2001.
+  sources:
+  - titre: Wikipedia, « 1999 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+  - titre: Wikipedia, « 2000 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  nature: impose
+- de: 2007
+  a: 2010
+  pneus: Bridgestone
+  pourquoi: Michelin se retire fin 2006 ; Bridgestone est seul fournisseur de 2007 à 2010 (contrat exclusif 2008-2010), puis annonce son départ fin 2010.
+  sources:
+  - titre: Wikipedia, « 2007 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
+  - titre: Wikipedia, « 2010 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Autoblog, « Officially Official: Bridgestone signs exclusive deal with F1 » (26 décembre 2007)'
+    url: https://www.autoblog.com/2007/12/26/officially-official-bridgestone-signs-exclusive-deal-with-f1/
+  nature: impose
+- de: 2011
+  a: 2025
+  pneus: Pirelli
+  pourquoi: 'Pirelli est fournisseur unique depuis 2011, sans interruption jusqu''en 2025 (et au-delà : contrat prolongé jusqu''en 2027).'
+  sources:
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Formula1.com, « Pirelli to continue as Formula 1's exclusive tyre supplier until 2027 »
+    url: https://www.formula1.com/en/latest/article.pirelli-to-continue-as-formula-1s-exclusive-tyre-supplier-until-2027.7xJIxJyMe84N3p7k4iIMjK.html
+  nature: impose
+cas:
+- annee: 1950
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  pneus: Pirelli
+  pourquoi: Alfa Romeo SpA est engagée en pneus Pirelli (tableau des engagés 1950) ; le tableau des résultats donne Pirelli à chacune de ses victoires.
+  sources:
+  - titre: Wikipedia, « 1950 Formula One season »
+    url: https://en.wikipedia.org/wiki/1950_Formula_One_season
+- annee: 1950
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1950 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1950 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1950_Indianapolis_500
+  - titre: Wikipedia, « 1950 Formula One season »
+    url: https://en.wikipedia.org/wiki/1950_Formula_One_season
+- annee: 1951
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  pneus: Pirelli
+  pourquoi: Alfa Romeo SpA est engagée en pneus Pirelli (tableau des engagés 1951) ; le tableau des résultats donne Pirelli à chacune de ses victoires.
+  sources:
+  - titre: Wikipedia, « 1951 Formula One season »
+    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+  - titre: Wikipedia, « 1951 British Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_British_Grand_Prix
+- annee: 1951
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Pirelli
+  pourquoi: 'La Scuderia Ferrari figure en « Pirelli / Englebert » dans le tableau des engagés, mais les listes d''engagés des GP de Grande-Bretagne, d''Allemagne, d''Italie et d''Espagne donnent Pirelli aux 375 d''Ascari et González : toutes les victoires et poles sont en Pirelli.'
+  sources:
+  - titre: Wikipedia, « 1951 Formula One season »
+    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+  - titre: Wikipedia, « 1951 British Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_British_Grand_Prix
+  - titre: Wikipedia, « 1951 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+  - titre: Wikipedia, « 1951 Italian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_Italian_Grand_Prix
+  - titre: Wikipedia, « 1951 Spanish Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_Spanish_Grand_Prix
+- annee: 1951
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Novi
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1951 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1951 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
+  - titre: Wikipedia, « 1951 Formula One season »
+    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+- annee: 1951
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1951 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1951 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
+  - titre: Wikipedia, « 1951 Formula One season »
+    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+- annee: 1952
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Pirelli
+  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1952) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  sources:
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+- annee: 1952
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Cummins
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1952 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1952 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+- annee: 1952
+  ecurie: ~Kuzma Offenhauser
+  equipe: Kuzma Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1952 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1952 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+- annee: 1953
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Pirelli
+  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1953) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  sources:
+  - titre: Wikipedia, « 1953 Formula One season »
+    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+- annee: 1953
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1953 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1953 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1953_Indianapolis_500
+  - titre: Wikipedia, « 1953 Formula One season »
+    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+- annee: 1953
+  ecurie: maserati
+  equipe: Maserati
+  pneus: Pirelli
+  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1953) ; le tableau des résultats donne Pirelli à ses victoires.
+  sources:
+  - titre: Wikipedia, « 1953 Formula One season »
+    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+- annee: 1954
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Pirelli
+  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1954) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  sources:
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Wikipedia, « 1954 French Grand Prix »
+    url: https://en.wikipedia.org/wiki/1954_French_Grand_Prix
+- annee: 1954
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1954 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1954 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1954_Indianapolis_500
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+- annee: 1954
+  ecurie: maserati
+  equipe: Maserati
+  pneus: Pirelli
+  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1954) ; le tableau des résultats donne Pirelli à ses victoires.
+  sources:
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+- annee: 1954
+  ecurie: ~Lancia
+  equipe: Lancia
+  pneus: Pirelli
+  pourquoi: 'Seule pole : Ascari au GP d''Espagne, sur la D50 de la Scuderia Lancia, engagée en Pirelli (tableau des engagés et liste du GP).'
+  sources:
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Wikipedia, « 1954 Spanish Grand Prix »
+    url: https://en.wikipedia.org/wiki/1954_Spanish_Grand_Prix
+- annee: 1954
+  ecurie: ~Mercedes-Benz
+  equipe: Mercedes-Benz
+  pneus: Continental
+  pourquoi: Daimler Benz AG est engagée en Continental (tableau des engagés 1954) ; le tableau des résultats donne Continental à chaque victoire Mercedes.
+  sources:
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Wikipedia, « 1954 French Grand Prix »
+    url: https://en.wikipedia.org/wiki/1954_French_Grand_Prix
+- annee: 1955
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Englebert
+  pourquoi: 'Seule victoire : Trintignant à Monaco sur Ferrari 625, engagée en Englebert ; la page du GP la présente comme la première victoire d''Englebert.'
+  sources:
+  - titre: Wikipedia, « 1955 Formula One season »
+    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+  - titre: Wikipedia, « 1955 Monaco Grand Prix »
+    url: https://en.wikipedia.org/wiki/1955_Monaco_Grand_Prix
+- annee: 1955
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1955 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1955 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
+  - titre: Wikipedia, « 1955 Formula One season »
+    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+- annee: 1955
+  ecurie: ~Lancia
+  equipe: Lancia
+  pneus: Pirelli
+  pourquoi: 'La Scuderia Lancia est engagée en Pirelli, Castellotti compris en Belgique (manches 1–2 et 4). Mais la pole d''Argentine que formula1.com attribue à Lancia est celle de González, qui pilotait une Ferrari 625 de la Scuderia Ferrari, engagée en Englebert : d''où l''exception.'
+  sources:
+  - titre: Wikipedia, « 1955 Formula One season »
+    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+  - titre: Wikipedia, « 1955 Argentine Grand Prix »
+    url: https://en.wikipedia.org/wiki/1955_Argentine_Grand_Prix
+  - titre: Wikipedia, « 1955 Belgian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1955_Belgian_Grand_Prix
+  exceptions:
+  - gp: Argentina
+    pneus: Englebert
+- annee: 1955
+  ecurie: ~Mercedes-Benz
+  equipe: Mercedes-Benz
+  pneus: Continental
+  pourquoi: Daimler Benz AG est engagée en Continental (tableau des engagés 1955) ; le tableau des résultats donne Continental à chaque victoire Mercedes.
+  sources:
+  - titre: Wikipedia, « 1955 Formula One season »
+    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+- annee: 1955
+  ecurie: ~Stevens Offenhauser
+  equipe: Stevens Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1955 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1955 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
+  - titre: Wikipedia, « 1955 Formula One season »
+    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+- annee: 1956
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Englebert
+  pourquoi: 'La Scuderia Ferrari figure en « Englebert / Pirelli » : Englebert pour les Lancia-Ferrari D50, Pirelli pour les Ferrari 555 (liste du GP d''Argentine). Le tableau des résultats donne Englebert à toutes les victoires Ferrari, toutes obtenues sur D50.'
+  sources:
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Wikipedia, « 1956 Argentine Grand Prix »
+    url: https://en.wikipedia.org/wiki/1956_Argentine_Grand_Prix
+- annee: 1956
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1956 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1956 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1956_Indianapolis_500
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+- annee: 1956
+  ecurie: maserati
+  equipe: Maserati
+  pneus: Pirelli
+  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1956) ; le tableau des résultats donne Pirelli à ses victoires.
+  sources:
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+- annee: 1956
+  ecurie: ~Lanica Ferrari
+  equipe: Lanica Ferrari
+  pneus: Englebert
+  pourquoi: Les six poles de Fangio ont été signées sur Lancia-Ferrari D50, engagée en Englebert (la 555 était en Pirelli) ; liste d'engagés du GP d'Argentine 1956.
+  sources:
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Wikipedia, « 1956 Argentine Grand Prix »
+    url: https://en.wikipedia.org/wiki/1956_Argentine_Grand_Prix
+- annee: 1956
+  ecurie: ~Watson Offenhauser
+  equipe: Watson Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1956 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1956 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1956_Indianapolis_500
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+- annee: 1957
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1957 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1957 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
+  - titre: Wikipedia, « 1957 Formula One season »
+    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+- annee: 1957
+  ecurie: maserati
+  equipe: Maserati
+  pneus: Pirelli
+  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1957) ; le tableau des résultats donne Pirelli à ses victoires. La page de la saison 1957 note que ce fut le dernier titre de Pirelli face à la concurrence.
+  sources:
+  - titre: Wikipedia, « 1957 Formula One season »
+    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+- annee: 1957
+  ecurie: vanwall
+  equipe: Vanwall
+  pneus: Pirelli
+  pourquoi: Vandervell Products est engagée en Pirelli (tableau des engagés 1957) ; le changement pour Dunlop intervient en 1958.
+  sources:
+  - titre: Wikipedia, « 1957 Formula One season »
+    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+- annee: 1957
+  ecurie: ~Epperly Offenhauser
+  equipe: Epperly Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1957 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1957 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
+  - titre: Wikipedia, « 1957 Formula One season »
+    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+- annee: 1958
+  ecurie: cooper
+  equipe: Cooper Climax
+  pneus: Dunlop
+  exceptions:
+  - gp: Argentina
+    pneus: Continental
+  pourquoi: Les deux victoires sont celles de la Cooper du Rob Walker Racing Team, engagée en « Continental / Dunlop ». Le tableau des résultats donne Continental en Argentine (Moss) et Dunlop à Monaco (Trintignant) ; Doug Nye confirme les Continental choisis par Walker à la place des Dunlop. Un article de formula1.com parle au contraire de Dunlop en Argentine.
+  sources:
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motor Sport, Doug Nye, octobre 2009
+    url: https://www.motorsportmagazine.com/archive/article/october-2009/130/doug-nye-35/
+  - titre: 'Formula1.com, « Argentina ’58: Moss bluffs his way to victory »'
+    url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+- annee: 1958
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Englebert
+  pourquoi: La Scuderia Ferrari est engagée en Englebert toute la saison (tableau des engagés 1958) ; le tableau des résultats donne Englebert à ses victoires de France et de Grande-Bretagne.
+  sources:
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+- annee: 1958
+  ecurie: maserati
+  equipe: Maserati
+  pneus: Pirelli
+  pourquoi: 'Seule pole : Fangio en Argentine, sur la 250F de la Scuderia Sud Americana, engagée en Pirelli (tableau des engagés 1958).'
+  sources:
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+- annee: 1958
+  ecurie: vanwall
+  equipe: Vanwall
+  pneus: Dunlop
+  pourquoi: Vandervell Products est engagée en Dunlop (tableau des engagés 1958) ; le tableau des résultats donne Dunlop à ses six victoires.
+  sources:
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+- annee: 1958
+  ecurie: ~Epperly Offenhauser
+  equipe: Epperly Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1958 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1958 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+- annee: 1958
+  ecurie: ~Watson Offenhauser
+  equipe: Watson Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1958 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1958 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
+  - titre: Wikipedia, « 1958 Formula One season »
+    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+- annee: 1959
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1959 Formula One season »
+    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+- annee: 1959
+  ecurie: cooper
+  equipe: Cooper Climax
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1959 Formula One season »
+    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+- annee: 1959
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires. Ferrari est passée d'Englebert à Dunlop cette saison-là.
+  sources:
+  - titre: Wikipedia, « 1959 Formula One season »
+    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+- annee: 1959
+  ecurie: ~Lesovsky Offenhauser
+  equipe: Lesovsky Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1959 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1959 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1959_Indianapolis_500
+  - titre: Wikipedia, « 1959 Formula One season »
+    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+- annee: 1959
+  ecurie: ~Watson Offenhauser
+  equipe: Watson Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1959 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1959 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1959_Indianapolis_500
+  - titre: Wikipedia, « 1959 Formula One season »
+    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+- annee: 1960
+  ecurie: cooper
+  equipe: Cooper Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1960 Formula One season »
+    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+- annee: 1960
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Dunlop
+  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1960 Formula One season »
+    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+- annee: 1960
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1960 Formula One season »
+    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+- annee: 1960
+  ecurie: ~Ewing Offenhauser
+  equipe: Ewing Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1960 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1960 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1960_Indianapolis_500
+  - titre: Wikipedia, « 1960 Formula One season »
+    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+- annee: 1960
+  ecurie: ~Watson Offenhauser
+  equipe: Watson Offenhauser
+  pneus: Firestone
+  pourquoi: 'Page des 500 miles d''Indianapolis 1960 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  sources:
+  - titre: Wikipedia, « 1960 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1960_Indianapolis_500
+  - titre: Wikipedia, « 1960 Formula One season »
+    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+- annee: 1961
+  ecurie: cooper
+  equipe: Cooper Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+- annee: 1961
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Dunlop
+  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+- annee: 1961
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+- annee: 1962
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+- annee: 1962
+  ecurie: cooper
+  equipe: Cooper Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+- annee: 1962
+  ecurie: lola
+  equipe: Lola Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+- annee: 1962
+  ecurie: porsche
+  equipe: Porsche
+  pneus: Dunlop
+  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+- annee: 1962
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+- annee: 1963
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1963 Formula One season »
+    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+- annee: 1963
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Dunlop
+  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1963 Formula One season »
+    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+- annee: 1963
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  sources:
+  - titre: Wikipedia, « 1963 Formula One season »
+    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+- annee: 1964
+  ecurie: brabham
+  equipe: Brabham Climax
+  pneus: Dunlop
+  pourquoi: Brabham Racing Organisation est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop aux victoires de Gurney (France, Mexique).
+  sources:
+  - titre: Wikipedia, « 1964 Formula One season »
+    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+- annee: 1964
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Dunlop
+  pourquoi: Poles de Gurney sur la Brabham du Brabham Racing Organisation (moteur Climax selon Wikipedia, « Ford » selon formula1.com), engagée en Dunlop (tableau des engagés 1964).
+  sources:
+  - titre: Wikipedia, « 1964 Formula One season »
+    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+- annee: 1964
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1964 Formula One season »
+    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+- annee: 1964
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1964 Formula One season »
+    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+- annee: 1964
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1964 Formula One season »
+    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+- annee: 1965
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1965) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1965 Formula One season »
+    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
+- annee: 1965
+  ecurie: honda-1964
+  equipe: Honda
+  pneus: Goodyear
+  pourquoi: Honda R & D Company est engagée en Goodyear (tableau des engagés 1965) ; la page du GP du Mexique note que ce fut la première victoire de Goodyear en F1.
+  sources:
+  - titre: Wikipedia, « 1965 Formula One season »
+    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
+  - titre: Wikipedia, « 1965 Mexican Grand Prix »
+    url: https://en.wikipedia.org/wiki/1965_Mexican_Grand_Prix
+- annee: 1965
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Dunlop
+  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1965) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  sources:
+  - titre: Wikipedia, « 1965 Formula One season »
+    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
+- annee: 1966
+  ecurie: brabham
+  equipe: Brabham Climax
+  pneus: Goodyear
+  pourquoi: Les poles attribuées à « Brabham Climax » par formula1.com (Grande-Bretagne, Pays-Bas, États-Unis) sont celles de Jack Brabham sur les BT19/BT20 de l'usine ; le Brabham Racing Organisation figure en Goodyear dans le tableau des engagés, pour les voitures Repco comme Climax.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Brabham BT20 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT20
+- annee: 1966
+  ecurie: brabham
+  equipe: Brabham Repco
+  pneus: Goodyear
+  pourquoi: Le Brabham Racing Organisation (BT19/BT20 Repco) roule en Goodyear toute la saison ; Motor Sport note à Reims que les Brabham d'usine sont en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Brabham BT19 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT19
+  - &id002
+    titre: Motor Sport, août 1966, compte rendu du Grand Prix de France
+    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+- annee: 1966
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: L'Owen Racing Organisation (P261) est en Dunlop dans le tableau des engagés 1966 ; victoire de Stewart à Monaco.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « BRM P261 »
+    url: https://en.wikipedia.org/wiki/BRM_P261
+- annee: 1966
+  ecurie: cooper
+  equipe: Cooper Maserati
+  pneus: Dunlop
+  pourquoi: La Cooper Car Company (T81) est en Dunlop en 1966 ; victoire et pole de Surtees au Mexique. Motor Sport signale les trois Cooper en Dunlop CR70 à Reims.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+  - *id002
+- annee: 1966
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Firestone
+  exceptions:
+  - gp: Belgium
+    pneus: Dunlop
+    pour: victoire
+    pourquoi: victoire seulement (Dunlop pluie au départ) ; la pole de Belgique est en Firestone
+  pourquoi: 'Ferrari est notée « Firestone / Dunlop » en 1966. Motor Sport précise qu''à Spa les Ferrari avaient essayé et qualifié en Firestone, puis repassé des Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari sont en Firestone ; la page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312 »
+    url: https://en.wikipedia.org/wiki/Ferrari_312
+  - titre: Motor Sport, juillet 1966, compte rendu du Grand Prix de Belgique
+    url: https://www.motorsportmagazine.com/archive/article/july-1966/16/belgian-gp-2/
+  - *id002
+- annee: 1966
+  ecurie: team-lotus
+  equipe: Lotus BRM
+  pneus: Firestone
+  pourquoi: Team Lotus est en Firestone pour toutes ses voitures en 1966 (tableau des engagés, page de la Lotus 43) ; victoire de Clark aux États-Unis sur la 43 BRM H16.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Lotus 43 »
+    url: https://en.wikipedia.org/wiki/Lotus_43
+- annee: 1966
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Firestone
+  pourquoi: La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 ; poles de Clark à Monaco et en Allemagne.
+  sources:
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Wikipedia, « Lotus 33 »
+    url: https://en.wikipedia.org/wiki/Lotus_33
+- annee: 1967
+  ecurie: brabham
+  equipe: Brabham Repco
+  pneus: Goodyear
+  pourquoi: Le Brabham Racing Organisation est en Goodyear en 1967 (BT20, BT24).
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Brabham BT24 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT24
+- annee: 1967
+  ecurie: cooper
+  equipe: Cooper Maserati
+  pneus: Firestone
+  pourquoi: La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud.
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+- annee: 1967
+  ecurie: eagle
+  equipe: Eagle Weslake
+  pneus: Goodyear
+  pourquoi: Anglo American Racers (Eagle) est en Goodyear ; victoire de Gurney en Belgique.
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Eagle Mk1 »
+    url: https://en.wikipedia.org/wiki/Eagle_Mk1
+- annee: 1967
+  ecurie: honda-1964
+  equipe: Honda
+  pneus: Firestone
+  pourquoi: Honda Racing (RA300) est en Firestone ; victoire de Surtees à Monza.
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Honda RA300 »
+    url: https://en.wikipedia.org/wiki/Honda_RA300
+- annee: 1967
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  pneus: Firestone
+  pourquoi: Les poles attribuées à « Lotus Climax » par formula1.com sont en réalité celles des Lotus 49 Ford de Team Lotus ; toute l'écurie est en Firestone en 1967.
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1967
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Firestone
+  pourquoi: Team Lotus (Lotus 49 Ford) est en Firestone en 1967.
+  sources:
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1968
+  ecurie: brabham
+  equipe: Brabham Climax
+  pneus: Goodyear
+  pourquoi: Les poles de Rindt (France, Canada) attribuées à « Brabham Climax » sont celles de la BT26 Repco d'usine ; le Brabham Racing Organisation est en Goodyear en 1968.
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Brabham BT26 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT26
+- annee: 1968
+  ecurie: cooper
+  equipe: Cooper Maserati
+  pneus: Firestone
+  pourquoi: La pole du Mexique attribuée à « Cooper Maserati » est celle de Jo Siffert sur la Lotus 49B du Rob Walker Racing Team ; cette écurie est en Firestone en 1968 (Cooper-Maserati à la première manche, Lotus-Ford ensuite).
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1968
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Firestone
+  pourquoi: Scuderia Ferrari en Firestone en 1968.
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312 »
+    url: https://en.wikipedia.org/wiki/Ferrari_312
+- annee: 1968
+  ecurie: honda-1964
+  equipe: Honda
+  pneus: Firestone
+  pourquoi: Honda Racing en Firestone en 1968 (pole de Surtees à Monza, RA301).
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Honda RA301 »
+    url: https://en.wikipedia.org/wiki/Honda_RA301
+- annee: 1968
+  ecurie: matra
+  equipe: Matra Ford
+  pneus: Dunlop
+  pourquoi: Matra International (Tyrrell, MS10 Ford) est en Dunlop ; victoires de Stewart.
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Matra MS10 »
+    url: https://en.wikipedia.org/wiki/Matra_MS10
+- annee: 1968
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Bruce McLaren Motor Racing (M7A) est en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « McLaren M7A »
+    url: https://en.wikipedia.org/wiki/McLaren_M7A
+- annee: 1968
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Firestone
+  pourquoi: Team Lotus / Gold Leaf Team Lotus en Firestone en 1968.
+  sources:
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1969
+  ecurie: brabham
+  equipe: Brabham Climax
+  pneus: Goodyear
+  pourquoi: Les poles attribuées à « Brabham Climax » sont celles des BT26 Ford d'usine (Brabham, Ickx) ; Motor Racing Developments est en Goodyear en 1969.
+  sources:
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Wikipedia, « Brabham BT26 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT26
+- annee: 1969
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Motor Racing Developments (BT26A Ford) en Goodyear ; victoires d'Ickx en Allemagne et au Canada.
+  sources:
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Wikipedia, « Brabham BT26 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT26
+- annee: 1969
+  ecurie: matra
+  equipe: Matra Ford
+  pneus: Dunlop
+  pourquoi: Matra International (MS80, MS10) est en Dunlop en 1969.
+  sources:
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Wikipedia, « Matra MS80 »
+    url: https://en.wikipedia.org/wiki/Matra_MS80
+- annee: 1969
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Bruce McLaren Motor Racing en Goodyear (victoire de Hulme au Mexique).
+  sources:
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Wikipedia, « McLaren M7A »
+    url: https://en.wikipedia.org/wiki/McLaren_M7A
+- annee: 1969
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Firestone
+  pourquoi: Gold Leaf Team Lotus en Firestone en 1969.
+  sources:
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1970
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Motor Racing Developments (BT33) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « Brabham BT33 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT33
+- annee: 1970
+  ecurie: brm
+  equipe: BRM
+  pneus: Dunlop
+  pourquoi: Owen Racing Organisation / Yardley Team BRM (P153) en Dunlop en 1970 ; victoire de Rodríguez en Belgique.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « BRM P153 »
+    url: https://en.wikipedia.org/wiki/BRM_P153
+- annee: 1970
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Firestone
+  pourquoi: Scuderia Ferrari (312B) en Firestone.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312B »
+    url: https://en.wikipedia.org/wiki/Ferrari_312B
+- annee: 1970
+  ecurie: march
+  equipe: March Ford
+  pneus: Dunlop
+  pourquoi: La victoire « March Ford » (Stewart, Espagne) est celle de la March 701 engagée par Tyrrell, qui roulait en Dunlop alors que l'usine March était en Firestone.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « March 701 »
+    url: https://en.wikipedia.org/wiki/March_701
+- annee: 1970
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Firestone
+  pourquoi: Gold Leaf Team Lotus (49C, 72) en Firestone.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « Lotus 72 »
+    url: https://en.wikipedia.org/wiki/Lotus_72
+- annee: 1970
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Dunlop
+  pourquoi: Le Tyrrell Racing Organisation (March 701 puis Tyrrell 001) est en Dunlop toute la saison 1970 ; poles de Stewart en Afrique du Sud, à Monaco, en Belgique et au Canada.
+  sources:
+  - titre: Wikipedia, « 1970 Formula One season »
+    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 001 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_001
+  - titre: Wikipedia, « March 701 »
+    url: https://en.wikipedia.org/wiki/March_701
+- annee: 1971
+  ecurie: brm
+  equipe: BRM
+  pneus: Firestone
+  pourquoi: Yardley Team BRM (P160, P153) passe en Firestone en 1971.
+  sources:
+  - titre: Wikipedia, « 1971 Formula One season »
+    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
+  - titre: Wikipedia, « BRM P160 »
+    url: https://en.wikipedia.org/wiki/BRM_P160
+- annee: 1971
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Firestone
+  pourquoi: Scuderia Ferrari en Firestone.
+  sources:
+  - titre: Wikipedia, « 1971 Formula One season »
+    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312B »
+    url: https://en.wikipedia.org/wiki/Ferrari_312B
+- annee: 1971
+  ecurie: matra
+  equipe: Matra
+  pneus: Goodyear
+  pourquoi: Équipe Matra Sports (MS120B) en Goodyear ; pole d'Amon à Monza.
+  sources:
+  - titre: Wikipedia, « 1971 Formula One season »
+    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
+  - titre: Wikipedia, « Matra MS120 »
+    url: https://en.wikipedia.org/wiki/Matra_MS120
+- annee: 1971
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell passe en Goodyear en 1971.
+  sources:
+  - titre: Wikipedia, « 1971 Formula One season »
+    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 001 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_001
+  - titre: Wikipedia, « Tyrrell 003 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_003
+- annee: 1972
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Motor Racing Developments en Goodyear (pole de Reutemann en Argentine sur BT34).
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « Brabham BT34 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT34
+- annee: 1972
+  ecurie: brm
+  equipe: BRM
+  pneus: Firestone
+  pourquoi: Marlboro BRM en Firestone (victoire de Beltoise à Monaco sur P160).
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « BRM P160 »
+    url: https://en.wikipedia.org/wiki/BRM_P160
+- annee: 1972
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Firestone
+  pourquoi: Scuderia Ferrari en Firestone.
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312B »
+    url: https://en.wikipedia.org/wiki/Ferrari_312B
+- annee: 1972
+  ecurie: matra
+  equipe: Matra
+  pneus: Goodyear
+  pourquoi: Équipe Matra Sports en Goodyear (pole d'Amon en France).
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « Matra MS120 »
+    url: https://en.wikipedia.org/wiki/Matra_MS120
+- annee: 1972
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Yardley Team McLaren en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « McLaren M19A »
+    url: https://en.wikipedia.org/wiki/McLaren_M19A
+- annee: 1972
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Firestone
+  pourquoi: John Player Team Lotus (72D) en Firestone.
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « Lotus 72 »
+    url: https://en.wikipedia.org/wiki/Lotus_72
+- annee: 1972
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1972 Formula One season »
+    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 003 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_003
+- annee: 1973
+  ecurie: brm
+  equipe: BRM
+  pneus: Firestone
+  pourquoi: Marlboro BRM en Firestone (pole de Regazzoni en Argentine).
+  sources:
+  - titre: Wikipedia, « 1973 Formula One season »
+    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
+  - titre: Wikipedia, « BRM P160 »
+    url: https://en.wikipedia.org/wiki/BRM_P160
+- annee: 1973
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Yardley Team McLaren en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1973 Formula One season »
+    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
+  - titre: Wikipedia, « McLaren M23 »
+    url: https://en.wikipedia.org/wiki/McLaren_M23
+- annee: 1973
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: John Player Team Lotus passe en Goodyear en 1973.
+  sources:
+  - titre: Wikipedia, « 1973 Formula One season »
+    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
+- annee: 1973
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1973 Formula One season »
+    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 006 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_006
+- annee: 1974
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Motor Racing Developments (BT44) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1974 Formula One season »
+    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+  - titre: Wikipedia, « Brabham BT44 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT44
+- annee: 1974
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: Ferrari en Goodyear depuis 1973.
+  sources:
+  - titre: Wikipedia, « 1974 Formula One season »
+    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312B »
+    url: https://en.wikipedia.org/wiki/Ferrari_312B
+- annee: 1974
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Marlboro Team Texaco / Yardley Team McLaren en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1974 Formula One season »
+    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+  - titre: Wikipedia, « McLaren M23 »
+    url: https://en.wikipedia.org/wiki/McLaren_M23
+- annee: 1974
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: John Player Team Lotus en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1974 Formula One season »
+    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+- annee: 1974
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1974 Formula One season »
+    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 007 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_007
+- annee: 1975
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Martini Racing (Brabham BT44B) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « Brabham BT44 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT44
+- annee: 1975
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: Ferrari en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312T »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T
+- annee: 1975
+  ecurie: hesketh
+  equipe: Hesketh Ford
+  pneus: Goodyear
+  pourquoi: Hesketh Racing, en Firestone en 1974, est en Goodyear en 1975 (victoire de Hunt aux Pays-Bas).
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « Hesketh 308 »
+    url: https://en.wikipedia.org/wiki/Hesketh_308
+- annee: 1975
+  ecurie: march
+  equipe: March Ford
+  pneus: Goodyear
+  pourquoi: March Engineering (751) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « March 751 »
+    url: https://en.wikipedia.org/wiki/March_751
+- annee: 1975
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Marlboro Team Texaco en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « McLaren M23 »
+    url: https://en.wikipedia.org/wiki/McLaren_M23
+- annee: 1975
+  ecurie: shadow
+  equipe: Shadow Matra
+  pneus: Goodyear
+  pourquoi: Les poles attribuées à « Shadow Matra » (Argentine, Brésil, Grande-Bretagne) sont celles des DN5 ; UOP Shadow Racing est en Goodyear pour les DN5 Ford comme pour la DN7 Matra.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « Shadow DN5 »
+    url: https://en.wikipedia.org/wiki/Shadow_DN5
+  - titre: Wikipedia, « Shadow DN7 »
+    url: https://en.wikipedia.org/wiki/Shadow_DN7
+- annee: 1975
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1975 Formula One season »
+    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 007 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_007
+- annee: 1976
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: Ferrari en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312T »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T
+- annee: 1976
+  ecurie: ligier
+  equipe: Ligier Matra
+  pneus: Goodyear
+  pourquoi: Ligier (JS5) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « Ligier JS5 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS5
+- annee: 1976
+  ecurie: march
+  equipe: March Ford
+  pneus: Goodyear
+  pourquoi: March (761) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « March 761 »
+    url: https://en.wikipedia.org/wiki/March_761
+- annee: 1976
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Marlboro Team McLaren en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « McLaren M23 »
+    url: https://en.wikipedia.org/wiki/McLaren_M23
+- annee: 1976
+  ecurie: penske
+  equipe: Penske Ford
+  pneus: Goodyear
+  pourquoi: Penske (PC4) en Goodyear ; victoire de Watson en Autriche.
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « Penske PC4 »
+    url: https://en.wikipedia.org/wiki/Penske_PC4
+- annee: 1976
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: John Player Team Lotus en Goodyear (victoire d'Andretti au Japon).
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+- annee: 1976
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell en Goodyear (P34 victorieuse en Suède).
+  sources:
+  - titre: Wikipedia, « 1976 Formula One season »
+    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: Wikipedia, « Tyrrell P34 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_P34
+- annee: 1977
+  ecurie: brabham
+  equipe: Brabham Alfa Romeo
+  pneus: Goodyear
+  pourquoi: Brabham (BT45) en Goodyear ; seule Renault est en Michelin en 1977.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Brabham BT45 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT45
+- annee: 1977
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: Ferrari reste en Goodyear en 1977 et ne passe chez Michelin qu'en 1978.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312T »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T
+- annee: 1977
+  ecurie: ligier
+  equipe: Ligier Matra
+  pneus: Goodyear
+  pourquoi: Ligier (JS7) en Goodyear ; victoire de Laffite en Suède.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Ligier JS7 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS7
+- annee: 1977
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: Marlboro Team McLaren en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « McLaren M23 »
+    url: https://en.wikipedia.org/wiki/McLaren_M23
+- annee: 1977
+  ecurie: shadow
+  equipe: Shadow Ford
+  pneus: Goodyear
+  pourquoi: Shadow (DN8) en Goodyear ; victoire de Jones en Autriche.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Shadow DN8 »
+    url: https://en.wikipedia.org/wiki/Shadow_DN8
+- annee: 1977
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: John Player Team Lotus (78) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Lotus 78 »
+    url: https://en.wikipedia.org/wiki/Lotus_78
+- annee: 1977
+  ecurie: wolf
+  equipe: Wolf Ford
+  pneus: Goodyear
+  pourquoi: Walter Wolf Racing (WR1) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1977 Formula One season »
+    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
+  - titre: Wikipedia, « Wolf WR1 »
+    url: https://en.wikipedia.org/wiki/Wolf_WR1
+- annee: 1978
+  ecurie: brabham
+  equipe: Brabham Alfa Romeo
+  pneus: Goodyear
+  pourquoi: Brabham (BT46) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1978 Formula One season »
+    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
+  - titre: Wikipedia, « Brabham BT46 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT46
+- annee: 1978
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Michelin
+  pourquoi: Ferrari passe chez Michelin en 1978.
+  sources:
+  - titre: Wikipedia, « 1978 Formula One season »
+    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312T »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T
+- annee: 1978
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: John Player Team Lotus (78, 79) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1978 Formula One season »
+    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
+  - titre: Wikipedia, « Lotus 79 »
+    url: https://en.wikipedia.org/wiki/Lotus_79
+- annee: 1978
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: Elf Team Tyrrell (008) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1978 Formula One season »
+    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
+  - titre: Wikipedia, « Tyrrell 008 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_008
+- annee: 1979
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Michelin
+  pourquoi: Ferrari (312T3, 312T4) en Michelin.
+  sources:
+  - titre: Wikipedia, « 1979 Formula One season »
+    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
+  - titre: Wikipedia, « Ferrari 312T »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T
+- annee: 1979
+  ecurie: ligier
+  equipe: Ligier Ford
+  pneus: Goodyear
+  pourquoi: Ligier (JS11) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1979 Formula One season »
+    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
+  - titre: Wikipedia, « Ligier JS11 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS11
+- annee: 1979
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: Renault (RS10) en Michelin.
+  sources:
+  - titre: Wikipedia, « 1979 Formula One season »
+    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
+  - titre: Wikipedia, « Renault RS10 »
+    url: https://en.wikipedia.org/wiki/Renault_RS10
+- annee: 1979
+  ecurie: williams
+  equipe: Williams Ford
+  pneus: Goodyear
+  pourquoi: Williams (FW07) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1979 Formula One season »
+    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+- annee: 1980
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  pneus: Goodyear
+  pourquoi: Alfa Romeo (179) en Goodyear ; pole de Giacomelli à Watkins Glen.
+  sources:
+  - titre: Wikipedia, « 1980 Formula One season »
+    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
+  - titre: Wikipedia, « Alfa Romeo 179 »
+    url: https://en.wikipedia.org/wiki/Alfa_Romeo_179
+- annee: 1980
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: Brabham (BT49) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1980 Formula One season »
+    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+- annee: 1980
+  ecurie: ligier
+  equipe: Ligier Ford
+  pneus: Goodyear
+  pourquoi: Ligier en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1980 Formula One season »
+    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
+  - titre: Wikipedia, « Ligier JS11 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS11
+- annee: 1980
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: Renault (RE20) en Michelin.
+  sources:
+  - titre: Wikipedia, « 1980 Formula One season »
+    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
+  - titre: Wikipedia, « Renault RE20 »
+    url: https://en.wikipedia.org/wiki/Renault_RE20
+- annee: 1980
+  ecurie: williams
+  equipe: Williams Ford
+  pneus: Goodyear
+  pourquoi: Williams (FW07B) en Goodyear.
+  sources:
+  - titre: Wikipedia, « 1980 Formula One season »
+    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+- annee: 1981
+  ecurie: arrows
+  equipe: Arrows Ford
+  pneus: Michelin
+  pourquoi: Goodyear s'étant retiré avant la saison, tout le plateau de Long Beach roulait en Michelin, dont l'Arrows de Patrese en pole ; Arrows ne passe chez Pirelli qu'à partir de l'Allemagne.
+  sources:
+  - &id003
+    titre: Wikipedia, « 1981 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1981_Formula_One_World_Championship
+  - titre: Wikipedia, « Arrows A3 »
+    url: https://en.wikipedia.org/wiki/Arrows_A3
+- annee: 1981
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Michelin
+  changements:
+  - des: France
+    pneus: Goodyear
+  pourquoi: Brabham roule en Michelin pendant le retrait de Goodyear, puis revient chez Goodyear au Grand Prix de France ; les victoires d'Argentine et de Saint-Marin et les poles du Brésil, d'Argentine et de Monaco sont en Michelin, la victoire d'Allemagne et la pole du Canada en Goodyear.
+  sources:
+  - *id003
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+  - &id004
+    titre: Wikipedia, « 1981 French Grand Prix »
+    url: https://en.wikipedia.org/wiki/1981_French_Grand_Prix
+- annee: 1981
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Michelin
+  pourquoi: Ferrari (126CK) en Michelin toute la saison.
+  sources:
+  - *id003
+  - titre: Wikipedia, « Ferrari 126C »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C
+- annee: 1981
+  ecurie: ligier
+  equipe: Ligier Matra
+  pneus: Michelin
+  pourquoi: Talbot Ligier (JS17) en Michelin.
+  sources:
+  - *id003
+  - titre: Wikipedia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+- annee: 1981
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Michelin
+  pourquoi: McLaren (MP4/1) en Michelin ; victoire de Watson en Grande-Bretagne.
+  sources:
+  - *id003
+  - titre: Wikipedia, « McLaren MP4/1 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+- annee: 1981
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: Renault (RE30) en Michelin.
+  sources:
+  - *id003
+  - titre: Wikipedia, « Renault RE30 »
+    url: https://en.wikipedia.org/wiki/Renault_RE30
+- annee: 1981
+  ecurie: williams
+  equipe: Williams Ford
+  pneus: Michelin
+  changements:
+  - des: France
+    pneus: Goodyear
+  pourquoi: Williams roule en Michelin jusqu'à l'Espagne (encore en Michelin selon le classement de ce GP), puis en Goodyear à partir de la France ; victoires de Long Beach, du Brésil et de Belgique en Michelin, victoire et pole de Caesars Palace en Goodyear.
+  sources:
+  - *id003
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+  - *id004
+  - titre: Wikipedia, « 1981 Spanish Grand Prix »
+    url: https://en.wikipedia.org/wiki/1981_Spanish_Grand_Prix
+- annee: 1982
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1982 : Alfa Romeo en Michelin sur toute la saison, confirmé par la fiche de la voiture (Alfa Romeo 179, Alfa Romeo 182).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Alfa Romeo 179 »
+    url: https://en.wikipedia.org/wiki/Alfa_Romeo_179
+  - titre: Wikipedia, « Alfa Romeo 182 »
+    url: https://en.wikipedia.org/wiki/Alfa_Romeo_182
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: brabham
+  equipe: Brabham BMW
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Brabham BMW en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT50).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Brabham BT50 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT50
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: brabham
+  equipe: Brabham Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Brabham Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT49). La BT49 a couru en Michelin en partie de 1981, mais son tableau de résultats 1982 indique Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C). Ferrari passe de Michelin (1981) à Goodyear en 1982.'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 126C »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1982 : McLaren Ford en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/1).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/1 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1982 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE30).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault RE30 »
+    url: https://en.wikipedia.org/wiki/Renault_RE30
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Lotus Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 91). L''infobox de la Lotus 91 cite Pirelli et Goodyear (Pirelli à partir de 1983) ; son tableau de résultats 1982 indique Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Lotus 91 »
+    url: https://en.wikipedia.org/wiki/Lotus_91
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Tyrrell Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Tyrrell 011).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Tyrrell 011 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_011
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1982
+  ecurie: williams
+  equipe: Williams Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1982 : Williams Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW08).'
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW08 »
+    url: https://en.wikipedia.org/wiki/Williams_FW08
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: brabham
+  equipe: Brabham BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1983 : Brabham BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Brabham BT52).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Brabham BT52 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT52
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1983 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 126C »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1983 : McLaren Ford en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/1).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/1 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1983 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE40).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault RE40 »
+    url: https://en.wikipedia.org/wiki/Renault_RE40
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  pneus: Pirelli
+  pourquoi: 'Tableau des engagés 1983 : Lotus Ford en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Lotus 92, Lotus 93T, Lotus 94T).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Lotus 92 »
+    url: https://en.wikipedia.org/wiki/Lotus_92
+  - titre: Wikipedia, « Lotus 93T »
+    url: https://en.wikipedia.org/wiki/Lotus_93T
+  - titre: Wikipedia, « Lotus 94T »
+    url: https://en.wikipedia.org/wiki/Lotus_94T
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1983 : Tyrrell Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Tyrrell 012).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Tyrrell 012 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_012
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: williams
+  equipe: Williams Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1983 : Williams Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW08).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW08 »
+    url: https://en.wikipedia.org/wiki/Williams_FW08
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1983
+  ecurie: williams
+  equipe: Williams Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1983 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW09).'
+  sources:
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW09 »
+    url: https://en.wikipedia.org/wiki/Williams_FW09
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: brabham
+  equipe: Brabham BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1984 : Brabham BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Brabham BT53).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « Brabham BT53 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT53
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1984 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 126C »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: mclaren
+  equipe: McLaren TAG
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1984 : McLaren TAG en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: renault-1977
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 1984 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE50).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault RE50 »
+    url: https://en.wikipedia.org/wiki/Renault_RE50
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: team-lotus
+  equipe: Lotus Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1984 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 95T).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « Lotus 95T »
+    url: https://en.wikipedia.org/wiki/Lotus_95T
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1984
+  ecurie: williams
+  equipe: Williams Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1984 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW09).'
+  sources:
+  - titre: Wikipedia, « 1984 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW09 »
+    url: https://en.wikipedia.org/wiki/Williams_FW09
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: brabham
+  equipe: Brabham BMW
+  pneus: Pirelli
+  pourquoi: 'Tableau des engagés 1985 : Brabham BMW en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Brabham BT54). Brabham passe de Michelin (1984) à Pirelli en 1985.'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « Brabham BT54 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT54
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1985 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 156/85).'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 156/85 »
+    url: https://en.wikipedia.org/wiki/Ferrari_156/85
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: mclaren
+  equipe: McLaren TAG
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1985 : McLaren TAG en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2). McLaren passe de Michelin (1984) à Goodyear en 1985, après le retrait de Michelin.'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: team-lotus
+  equipe: Lotus Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1985 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 97T).'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « Lotus 97T »
+    url: https://en.wikipedia.org/wiki/Lotus_97T
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: toleman
+  equipe: Toleman Hart
+  pneus: Pirelli
+  pourquoi: 'Tableau des engagés 1985 : Toleman Hart en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Toleman TG185).'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « Toleman TG185 »
+    url: https://en.wikipedia.org/wiki/Toleman_TG185
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1985
+  ecurie: williams
+  equipe: Williams Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1985 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW10).'
+  sources:
+  - titre: Wikipedia, « 1985 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW10 »
+    url: https://en.wikipedia.org/wiki/Williams_FW10
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1986
+  ecurie: benetton
+  equipe: Benetton BMW
+  pneus: Pirelli
+  pourquoi: 'Tableau des engagés 1986 : Benetton BMW en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Benetton B186).'
+  sources:
+  - titre: Wikipedia, « 1986 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B186 »
+    url: https://en.wikipedia.org/wiki/Benetton_B186
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1986
+  ecurie: mclaren
+  equipe: McLaren TAG
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1986 : McLaren TAG en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2).'
+  sources:
+  - titre: Wikipedia, « 1986 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1986
+  ecurie: team-lotus
+  equipe: Lotus Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1986 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 98T).'
+  sources:
+  - titre: Wikipedia, « 1986 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
+  - titre: Wikipedia, « Lotus 98T »
+    url: https://en.wikipedia.org/wiki/Lotus_98T
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1986
+  ecurie: williams
+  equipe: Williams Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1986 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW11).'
+  sources:
+  - titre: Wikipedia, « 1986 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW11 »
+    url: https://en.wikipedia.org/wiki/Williams_FW11
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1987
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1987 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1987
+  ecurie: mclaren
+  equipe: McLaren TAG
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont McLaren TAG, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1987 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1987
+  ecurie: team-lotus
+  equipe: Lotus Honda
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Lotus Honda, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1987 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1987
+  ecurie: williams
+  equipe: Williams Honda
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Williams Honda, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1987 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1988
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1988 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1988 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1988
+  ecurie: mclaren
+  equipe: McLaren Honda
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1988 : toutes les équipes, dont McLaren Honda, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1988 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1989
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1989 : Benetton Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B188, Benetton B189).'
+  sources:
+  - titre: Wikipedia, « 1989 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B188 »
+    url: https://en.wikipedia.org/wiki/Benetton_B188
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1989
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1989 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 640).'
+  sources:
+  - titre: Wikipedia, « 1989 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 640 »
+    url: https://en.wikipedia.org/wiki/Ferrari_640
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1989
+  ecurie: mclaren
+  equipe: McLaren Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1989 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/5).'
+  sources:
+  - titre: Wikipedia, « 1989 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/5 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1989
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1989 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW12, Williams FW13).'
+  sources:
+  - titre: Wikipedia, « 1989 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW12 »
+    url: https://en.wikipedia.org/wiki/Williams_FW12
+  - titre: Wikipedia, « Williams FW13 »
+    url: https://en.wikipedia.org/wiki/Williams_FW13
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1990
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1990 : Benetton Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B189, Benetton B190).'
+  sources:
+  - titre: Wikipedia, « 1990 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+  - titre: Wikipedia, « Benetton B190 »
+    url: https://en.wikipedia.org/wiki/Benetton_B190
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1990
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1990 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 641).'
+  sources:
+  - titre: Wikipedia, « 1990 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 641 »
+    url: https://en.wikipedia.org/wiki/Ferrari_641
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1990
+  ecurie: mclaren
+  equipe: McLaren Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1990 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/5).'
+  sources:
+  - titre: Wikipedia, « 1990 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/5 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1990
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1990 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW13).'
+  sources:
+  - titre: Wikipedia, « 1990 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW13 »
+    url: https://en.wikipedia.org/wiki/Williams_FW13
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1991
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Pirelli
+  pourquoi: 'Tableau des engagés 1991 : Benetton Ford en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Benetton B190, Benetton B191). Benetton passe de Goodyear (1990) à Pirelli en 1991 ; c''est la seule victoire Pirelli de la saison selon le tableau « Formula One tyres ».'
+  sources:
+  - titre: Wikipedia, « 1991 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B190 »
+    url: https://en.wikipedia.org/wiki/Benetton_B190
+  - titre: Wikipedia, « Benetton B191 »
+    url: https://en.wikipedia.org/wiki/Benetton_B191
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1991
+  ecurie: mclaren
+  equipe: McLaren Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1991 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/6).'
+  sources:
+  - titre: Wikipedia, « 1991 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/6 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1991
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1991 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW14).'
+  sources:
+  - titre: Wikipedia, « 1991 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW14 »
+    url: https://en.wikipedia.org/wiki/Williams_FW14
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1992
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1992 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1992
+  ecurie: mclaren
+  equipe: McLaren Honda
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont McLaren Honda, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1992 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1992
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1992 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1993
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1993 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1993
+  ecurie: mclaren
+  equipe: McLaren Ford
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont McLaren Ford, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1993 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1993
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1993 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1994
+  ecurie: benetton
+  equipe: Benetton Ford
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1994
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1994
+  ecurie: jordan
+  equipe: Jordan Hart
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Jordan Hart, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1994
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1995
+  ecurie: benetton
+  equipe: Benetton Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Benetton Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1995
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1995
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1996
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1996
+  ecurie: ligier
+  equipe: Ligier Mugen Honda
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Ligier Mugen Honda, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1996
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1997
+  ecurie: benetton
+  equipe: Benetton Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1997 : Benetton Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B197).'
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B197 »
+    url: https://en.wikipedia.org/wiki/Benetton_B197
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1997
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1997 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari F310).'
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F310 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F310
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1997
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1997 : McLaren Mercedes en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/12).'
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/12 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/12
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1997
+  ecurie: williams
+  equipe: Williams Renault
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1997 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW19).'
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW19 »
+    url: https://en.wikipedia.org/wiki/Williams_FW19
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1998
+  ecurie: benetton
+  equipe: Benetton Playlife
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 1998 : Benetton Playlife en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Benetton B198). Benetton passe de Goodyear (1997) à Bridgestone en 1998.'
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: Wikipedia, « Benetton B198 »
+    url: https://en.wikipedia.org/wiki/Benetton_B198
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1998
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1998 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari F300).'
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F300 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F300
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1998
+  ecurie: jordan
+  equipe: Jordan Mugen Honda
+  pneus: Goodyear
+  pourquoi: 'Tableau des engagés 1998 : Jordan Mugen Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Jordan 198).'
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: Wikipedia, « Jordan 198 »
+    url: https://en.wikipedia.org/wiki/Jordan_198
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 1998
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 1998 : McLaren Mercedes en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/13). McLaren passe de Goodyear (1997) à Bridgestone en 1998.'
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/13 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/13
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2001
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2001 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2001).'
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2001 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2001
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2001
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2001 : McLaren Mercedes en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-16).'
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-16 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-16
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2001
+  ecurie: williams
+  equipe: Williams BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2001 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW23).'
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW23 »
+    url: https://en.wikipedia.org/wiki/Williams_FW23
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2002
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2002 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2001, Ferrari F2002).'
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2001 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2001
+  - titre: Wikipedia, « Ferrari F2002 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2002
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2002
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2002 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-17). McLaren passe de Bridgestone (2001) à Michelin en 2002.'
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-17 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-17
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2002
+  ecurie: williams
+  equipe: Williams BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2002 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW24).'
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW24 »
+    url: https://en.wikipedia.org/wiki/Williams_FW24
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2003
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2003 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2002, Ferrari F2003-GA).'
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2002 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2002
+  - titre: Wikipedia, « Ferrari F2003-GA »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2003-GA
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2003
+  ecurie: jordan
+  equipe: Jordan Ford
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2003 : Jordan Ford en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Jordan EJ13).'
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Jordan EJ13 »
+    url: https://en.wikipedia.org/wiki/Jordan_EJ13
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2003
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2003 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-17).'
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-17 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-17
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2003
+  ecurie: renault
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2003 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R23).'
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R23 »
+    url: https://en.wikipedia.org/wiki/Renault_R23
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2003
+  ecurie: williams
+  equipe: Williams BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2003 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW25).'
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW25 »
+    url: https://en.wikipedia.org/wiki/Williams_FW25
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2004
+  ecurie: bar
+  equipe: BAR Honda
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2004 : BAR Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (BAR 006).'
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « BAR 006 »
+    url: https://en.wikipedia.org/wiki/BAR_006
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2004
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2004 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2004).'
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2004 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2004
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2004
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2004 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-19).'
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-19 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-19
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2004
+  ecurie: renault
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2004 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R24).'
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R24 »
+    url: https://en.wikipedia.org/wiki/Renault_R24
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2004
+  ecurie: williams
+  equipe: Williams BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2004 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW26).'
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW26 »
+    url: https://en.wikipedia.org/wiki/Williams_FW26
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: bar
+  equipe: BAR Honda
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2005 : BAR Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (BAR 007).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « BAR 007 »
+    url: https://en.wikipedia.org/wiki/BAR_007
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2005 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2004, Ferrari F2005).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2004 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2004
+  - titre: Wikipedia, « Ferrari F2005 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2005
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2005 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-20).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-20 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-20
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: renault
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2005 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R25).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R25 »
+    url: https://en.wikipedia.org/wiki/Renault_R25
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: toyota
+  equipe: Toyota
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2005 : Toyota en Michelin sur toute la saison, confirmé par la fiche de la voiture (Toyota TF105). Première pole de Toyota (Trulli) au Grand Prix controversé d''Indianapolis, sur Michelin (fiche TF105).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « Toyota TF105 »
+    url: https://en.wikipedia.org/wiki/Toyota_TF105
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2005
+  ecurie: williams
+  equipe: Williams BMW
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2005 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW27).'
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW27 »
+    url: https://en.wikipedia.org/wiki/Williams_FW27
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2006
+  ecurie: ferrari
+  equipe: Ferrari
+  pneus: Bridgestone
+  pourquoi: 'Tableau des engagés 2006 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari 248 F1).'
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 248 F1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_248_F1
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2006
+  ecurie: honda
+  equipe: Honda
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2006 : Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (Honda RA106). Victoire de Button en Hongrie sur Michelin.'
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Wikipedia, « Honda RA106 »
+    url: https://en.wikipedia.org/wiki/Honda_RA106
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2006
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2006 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-21).'
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-21 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-21
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+- annee: 2006
+  ecurie: renault
+  equipe: Renault
+  pneus: Michelin
+  pourquoi: 'Tableau des engagés 2006 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R26).'
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R26 »
+    url: https://en.wikipedia.org/wiki/Renault_R26
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres

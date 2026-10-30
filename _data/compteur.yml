@@ -1140,7 +1140,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1954
+      annee: 1955
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -1153,7 +1153,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1954
+      annee: 1955
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -1166,7 +1166,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1954
+      annee: 1955
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -4477,3 +4477,769 @@ technologies:
     - mclaren
     - mercedes
     - red-bull
+pneus:
+  monopoles:
+  - de: 1987
+    a: 1988
+    pneus: Goodyear
+    nature: de_fait
+  - de: 1992
+    a: 1996
+    pneus: Goodyear
+    nature: de_fait
+  - de: 1999
+    a: 2000
+    pneus: Bridgestone
+    nature: impose
+  - de: 2007
+    a: 2010
+    pneus: Bridgestone
+    nature: impose
+  - de: 2011
+    a: 2025
+    pneus: Pirelli
+    nature: impose
+  periodes:
+  - pneus: Pirelli
+    debut: 1950
+    fin: 1954
+    dominantes: 5
+    titres: 4
+    victoires: 0.788
+    poles: 0.788
+    degre: hegemonie
+  - pneus: Continental
+    debut: 1954
+    fin: 1955
+    dominantes: 2
+    titres: 2
+    victoires: 0.579
+    poles: 0.508
+    degre: domination
+  - pneus: Englebert
+    debut: 1956
+    fin: 1956
+    dominantes: 1
+    titres: 1
+    victoires: 0.625
+    poles: 0.75
+    degre: saison
+  - pneus: Pirelli
+    debut: 1957
+    fin: 1957
+    dominantes: 1
+    titres: 1
+    victoires: 0.875
+    poles: 0.875
+    degre: saison
+  - pneus: Dunlop
+    debut: 1958
+    fin: 1965
+    dominantes: 8
+    titres: 8
+    victoires: 0.916
+    poles: 0.905
+    degre: hegemonie
+  - pneus: Goodyear
+    debut: 1966
+    fin: 1967
+    dominantes: 2
+    titres: 2
+    victoires: 0.449
+    poles: 0.258
+    degre: domination
+  - pneus: Firestone
+    debut: 1967
+    fin: 1972
+    dominantes: 4
+    titres: 3
+    victoires: 0.491
+    poles: 0.611
+    degre: domination
+  - pneus: Dunlop
+    debut: 1969
+    fin: 1969
+    dominantes: 1
+    titres: 1
+    victoires: 0.545
+    poles: 0.182
+    degre: saison
+  - pneus: Goodyear
+    debut: 1971
+    fin: 1986
+    dominantes: 14
+    titres: 12
+    victoires: 0.693
+    poles: 0.685
+    degre: hegemonie
+  - pneus: Michelin
+    debut: 1979
+    fin: 1984
+    dominantes: 5
+    titres: 3
+    victoires: 0.587
+    poles: 0.598
+    degre: hegemonie
+  - pneus: Goodyear
+    debut: 1989
+    fin: 1991
+    dominantes: 3
+    titres: 3
+    victoires: 0.979
+    poles: 1.0
+    degre: hegemonie
+  - pneus: Goodyear
+    debut: 1997
+    fin: 1998
+    dominantes: 2
+    titres: 1
+    victoires: 0.719
+    poles: 0.594
+    degre: domination
+  - pneus: Bridgestone
+    debut: 1998
+    fin: 1998
+    dominantes: 1
+    titres: 1
+    victoires: 0.562
+    poles: 0.812
+    degre: saison
+  - pneus: Bridgestone
+    debut: 2001
+    fin: 2006
+    dominantes: 5
+    titres: 4
+    victoires: 0.599
+    poles: 0.494
+    degre: hegemonie
+  - pneus: Michelin
+    debut: 2003
+    fin: 2006
+    dominantes: 3
+    titres: 2
+    victoires: 0.513
+    poles: 0.598
+    degre: domination
+  saisons:
+  - annee: 1950
+    monopole: false
+    victoires:
+      Firestone: 0.143
+      Pirelli: 0.857
+    poles:
+      Firestone: 0.143
+      Pirelli: 0.857
+    champion: Pirelli
+  - annee: 1951
+    monopole: false
+    victoires:
+      Firestone: 0.125
+      Pirelli: 0.875
+    poles:
+      Firestone: 0.125
+      Pirelli: 0.875
+    champion: Pirelli
+  - annee: 1952
+    monopole: false
+    victoires:
+      Firestone: 0.125
+      Pirelli: 0.875
+    poles:
+      Firestone: 0.125
+      Pirelli: 0.875
+    champion: Pirelli
+  - annee: 1953
+    monopole: false
+    victoires:
+      Firestone: 0.111
+      Pirelli: 0.889
+    poles:
+      Firestone: 0.111
+      Pirelli: 0.889
+    champion: Pirelli
+  - annee: 1954
+    monopole: false
+    victoires:
+      Continental: 0.444
+      Firestone: 0.111
+      Pirelli: 0.444
+    poles:
+      Continental: 0.444
+      Firestone: 0.111
+      Pirelli: 0.444
+    champion: Continental
+  - annee: 1955
+    monopole: false
+    victoires:
+      Continental: 0.714
+      Englebert: 0.143
+      Firestone: 0.143
+    poles:
+      Continental: 0.571
+      Englebert: 0.143
+      Firestone: 0.143
+      Pirelli: 0.143
+    champion: Continental
+  - annee: 1956
+    monopole: false
+    victoires:
+      Englebert: 0.625
+      Firestone: 0.125
+      Pirelli: 0.25
+    poles:
+      Englebert: 0.75
+      Firestone: 0.125
+      Pirelli: 0.125
+    champion: Englebert
+  - annee: 1957
+    monopole: false
+    victoires:
+      Firestone: 0.125
+      Pirelli: 0.875
+    poles:
+      Firestone: 0.125
+      Pirelli: 0.875
+    champion: Pirelli
+  - annee: 1958
+    monopole: false
+    victoires:
+      Continental: 0.091
+      Dunlop: 0.636
+      Englebert: 0.182
+      Firestone: 0.091
+    poles:
+      Dunlop: 0.455
+      Englebert: 0.364
+      Firestone: 0.091
+      Pirelli: 0.091
+    champion: Dunlop
+  - annee: 1959
+    monopole: false
+    victoires:
+      Dunlop: 0.889
+      Firestone: 0.111
+    poles:
+      Dunlop: 0.889
+      Firestone: 0.111
+    champion: Dunlop
+  - annee: 1960
+    monopole: false
+    victoires:
+      Dunlop: 0.9
+      Firestone: 0.1
+    poles:
+      Dunlop: 0.9
+      Firestone: 0.1
+    champion: Dunlop
+  - annee: 1961
+    monopole: false
+    victoires:
+      Dunlop: 1.0
+    poles:
+      Dunlop: 1.0
+    champion: Dunlop
+  - annee: 1962
+    monopole: false
+    victoires:
+      Dunlop: 1.0
+    poles:
+      Dunlop: 1.0
+    champion: Dunlop
+  - annee: 1963
+    monopole: false
+    victoires:
+      Dunlop: 1.0
+    poles:
+      Dunlop: 1.0
+    champion: Dunlop
+  - annee: 1964
+    monopole: false
+    victoires:
+      Dunlop: 1.0
+    poles:
+      Dunlop: 1.0
+    champion: Dunlop
+  - annee: 1965
+    monopole: false
+    victoires:
+      Dunlop: 0.9
+      Goodyear: 0.1
+    poles:
+      Dunlop: 1.0
+    champion: Dunlop
+  - annee: 1966
+    monopole: false
+    victoires:
+      Dunlop: 0.333
+      Firestone: 0.222
+      Goodyear: 0.444
+    poles:
+      Dunlop: 0.111
+      Firestone: 0.556
+      Goodyear: 0.333
+    champion: Goodyear
+  - annee: 1967
+    monopole: false
+    victoires:
+      Firestone: 0.545
+      Goodyear: 0.455
+    poles:
+      Firestone: 0.818
+      Goodyear: 0.182
+    champion: Goodyear
+  - annee: 1968
+    monopole: false
+    victoires:
+      Dunlop: 0.25
+      Firestone: 0.5
+      Goodyear: 0.25
+    poles:
+      Firestone: 0.833
+      Goodyear: 0.167
+    champion: Firestone
+  - annee: 1969
+    monopole: false
+    victoires:
+      Dunlop: 0.545
+      Firestone: 0.182
+      Goodyear: 0.273
+    poles:
+      Dunlop: 0.182
+      Firestone: 0.455
+      Goodyear: 0.364
+    champion: Dunlop
+  - annee: 1970
+    monopole: false
+    victoires:
+      Dunlop: 0.154
+      Firestone: 0.769
+      Goodyear: 0.077
+    poles:
+      Dunlop: 0.308
+      Firestone: 0.615
+      Goodyear: 0.077
+    champion: Firestone
+  - annee: 1971
+    monopole: false
+    victoires:
+      Firestone: 0.364
+      Goodyear: 0.636
+    poles:
+      Firestone: 0.364
+      Goodyear: 0.636
+    champion: Goodyear
+  - annee: 1972
+    monopole: false
+    victoires:
+      Firestone: 0.583
+      Goodyear: 0.417
+    poles:
+      Firestone: 0.583
+      Goodyear: 0.417
+    champion: Firestone
+  - annee: 1973
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Firestone: 0.067
+      Goodyear: 0.933
+    champion: Goodyear
+  - annee: 1974
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1975
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1976
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1977
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1978
+    monopole: false
+    victoires:
+      Goodyear: 0.688
+      Michelin: 0.312
+    poles:
+      Goodyear: 0.875
+      Michelin: 0.125
+    champion: Goodyear
+  - annee: 1979
+    monopole: false
+    victoires:
+      Goodyear: 0.533
+      Michelin: 0.467
+    poles:
+      Goodyear: 0.467
+      Michelin: 0.533
+    champion: Michelin
+  - annee: 1980
+    monopole: false
+    victoires:
+      Goodyear: 0.786
+      Michelin: 0.214
+    poles:
+      Goodyear: 0.643
+      Michelin: 0.357
+    champion: Goodyear
+  - annee: 1981
+    monopole: false
+    victoires:
+      Goodyear: 0.133
+      Michelin: 0.867
+    poles:
+      Goodyear: 0.133
+      Michelin: 0.867
+    champion: Michelin
+  - annee: 1982
+    monopole: false
+    victoires:
+      Goodyear: 0.5
+      Michelin: 0.5
+    poles:
+      Goodyear: 0.312
+      Michelin: 0.688
+    champion: Goodyear
+  - annee: 1983
+    monopole: false
+    victoires:
+      Goodyear: 0.4
+      Michelin: 0.6
+    poles:
+      Goodyear: 0.6
+      Michelin: 0.333
+      Pirelli: 0.067
+    champion: Goodyear
+  - annee: 1984
+    monopole: false
+    victoires:
+      Goodyear: 0.125
+      Michelin: 0.875
+    poles:
+      Goodyear: 0.188
+      Michelin: 0.812
+    champion: Michelin
+  - annee: 1985
+    monopole: false
+    victoires:
+      Goodyear: 0.938
+      Pirelli: 0.062
+    poles:
+      Goodyear: 0.875
+      Pirelli: 0.125
+    champion: Goodyear
+  - annee: 1986
+    monopole: false
+    victoires:
+      Goodyear: 0.938
+      Pirelli: 0.062
+    poles:
+      Goodyear: 0.875
+      Pirelli: 0.125
+    champion: Goodyear
+  - annee: 1987
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1988
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1989
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1990
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1991
+    monopole: false
+    victoires:
+      Goodyear: 0.938
+      Pirelli: 0.062
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1992
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1993
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1994
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1995
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1996
+    monopole: true
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1997
+    monopole: false
+    victoires:
+      Goodyear: 1.0
+    poles:
+      Goodyear: 1.0
+    champion: Goodyear
+  - annee: 1998
+    monopole: false
+    victoires:
+      Bridgestone: 0.562
+      Goodyear: 0.438
+    poles:
+      Bridgestone: 0.812
+      Goodyear: 0.188
+    champion: Bridgestone
+  - annee: 1999
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2000
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2001
+    monopole: false
+    victoires:
+      Bridgestone: 0.765
+      Michelin: 0.235
+    poles:
+      Bridgestone: 0.765
+      Michelin: 0.235
+    champion: Bridgestone
+  - annee: 2002
+    monopole: false
+    victoires:
+      Bridgestone: 0.882
+      Michelin: 0.118
+    poles:
+      Bridgestone: 0.588
+      Michelin: 0.412
+    champion: Bridgestone
+  - annee: 2003
+    monopole: false
+    victoires:
+      Bridgestone: 0.562
+      Michelin: 0.438
+    poles:
+      Bridgestone: 0.5
+      Michelin: 0.5
+    champion: Bridgestone
+  - annee: 2004
+    monopole: false
+    victoires:
+      Bridgestone: 0.833
+      Michelin: 0.167
+    poles:
+      Bridgestone: 0.667
+      Michelin: 0.333
+    champion: Bridgestone
+  - annee: 2005
+    monopole: false
+    victoires:
+      Bridgestone: 0.053
+      Michelin: 0.947
+    poles:
+      Bridgestone: 0.053
+      Michelin: 0.947
+    champion: Michelin
+  - annee: 2006
+    monopole: false
+    victoires:
+      Bridgestone: 0.5
+      Michelin: 0.5
+    poles:
+      Bridgestone: 0.389
+      Michelin: 0.611
+    champion: Michelin
+  - annee: 2007
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2008
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2009
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2010
+    monopole: true
+    victoires:
+      Bridgestone: 1.0
+    poles:
+      Bridgestone: 1.0
+    champion: Bridgestone
+  - annee: 2011
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2012
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2013
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2014
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2015
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2016
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2017
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2018
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2019
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2020
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2021
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2022
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2023
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2024
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli
+  - annee: 2025
+    monopole: true
+    victoires:
+      Pirelli: 1.0
+    poles:
+      Pirelli: 1.0
+    champion: Pirelli

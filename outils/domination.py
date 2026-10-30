@@ -1078,6 +1078,137 @@ if techno:
     for lang in ("fr", "en"):
         open(f"_includes/domination/technologies-{lang}.svg", "w", encoding="utf-8").write(svg_techno(lang) + "\n")
 
+# --- Pneumatiques : la domination des manufacturiers ----------------------------------------------
+# _data/pneus.yml (saisi à la main, sourcé) : monopoles (un seul fournisseur imposé) et, hors
+# monopole, le manufacturier de chaque écurie qui a gagné ou signé une pole. Les saisons de monopole
+# sont hors concours : elles ne comptent ni comme dominantes ni comme creuses (elles coupent une suite).
+PN = yaml.safe_load(open("_data/pneus.yml", encoding="utf-8")) if os.path.exists("_data/pneus.yml") else None
+MARQUES = ["Pirelli", "Firestone", "Dunlop", "Goodyear", "Michelin", "Bridgestone"]   # ordre fixe des couleurs
+
+def pneus_de(a, c, gp, role="victoire"):
+    """Manufacturier de la voiture c (role : victoire ou pole) au GP gp de la saison a."""
+    for m in PN["monopoles"]:
+        if m["de"] <= a <= m["a"]:
+            return m["pneus"]
+    ec = cle_ecurie(c).lstrip("~")
+    for x in PN["cas"]:
+        if x["annee"] == a and x["ecurie"].lstrip("~") == ec and x.get("equipe", c["equipe"]) == c["equipe"]:
+            for e in x.get("exceptions") or []:
+                if e["gp"] == gp and e.get("pour", role) == role:
+                    return e["pneus"]
+            m = x["pneus"]
+            gps = [k["gp"] for k in next(s for s in R if s["annee"] == a)["courses"]]
+            for ch in x.get("changements") or []:
+                if ch["des"] not in gps:
+                    sys.exit(f"pneus : {a} {ec} : GP « {ch['des']} » inconnu")
+                if gps.index(gp) >= gps.index(ch["des"]):
+                    m = ch["pneus"]
+            return m
+    sys.exit(f"pneus : écurie non classée ({a}, {gp}, {c['equipe']})")
+
+pneus_out = None
+if PN:
+    mono = {a for m in PN["monopoles"] for a in range(m["de"], m["a"] + 1)}
+    pn_saisons, pv, pp, pch = [], {}, {}, {}
+    for s in R:
+        a = s["annee"]
+        v, po = collections.Counter(), collections.Counter()
+        for c in s["courses"]:
+            v[pneus_de(a, c, c["gp"])] += 1
+            if c.get("pole"):
+                po[pneus_de(a, c["pole"], c["gp"], "pole")] += 1
+        pv[a] = {k: x / s["gp"] for k, x in v.items()}
+        pp[a] = {k: x / s["gp"] for k, x in po.items()}
+        # Manufacturier du champion : celui de l'écurie championne (avant 1958, de l'écurie du champion).
+        ce = champion["ecurie"][a]
+        cc = next((c for c in s["courses"] if cle_ecurie(c) == ce), None) or \
+             next((c["pole"] for c in s["courses"] if c.get("pole") and cle_ecurie(c["pole"]) == ce), None)
+        pch[a] = pneus_de(a, cc, next(k["gp"] for k in s["courses"] if cle_ecurie(k) == ce or
+                                      (k.get("pole") and cle_ecurie(k["pole"]) == ce))) if cc else None
+        pn_saisons.append({"annee": a, "monopole": a in mono, "victoires": {k: round(x, 3) for k, x in sorted(pv[a].items())},
+                           "poles": {k: round(x, 3) for k, x in sorted(pp[a].items())}, "champion": pch[a]})
+    def suites_pn(seuil, creux):
+        out = {}
+        for m in {k for a in pv for k in pv[a]}:
+            dom = [a for a in ANNEES if a not in mono and (pch[a] == m or pv[a].get(m, 0) >= seuil)]
+            g, res = [], []
+            for a in dom:
+                # Une saison de monopole entre deux saisons dominantes coupe la suite.
+                if g and (a - g[-1] > creux + 1 or any(y in mono for y in range(g[-1] + 1, a))):
+                    res.append(g); g = []
+                g.append(a)
+            out[m] = res + ([g] if g else [])
+        return out
+    base = suites_pn(SEUIL, CREUX)
+    var = [suites_pn(sv, cv) for sv, _, cv in VARIANTES]
+    periodes = []
+    for m, gs in base.items():
+        for g in gs:
+            rob = len(g) >= MIN and all(any(len(x) >= MIN and x[0] <= g[-1] and g[0] <= x[-1] for x in v.get(m, [])) for v in var)
+            span = [a for a in range(g[0], g[-1] + 1) if a not in mono]
+            periodes.append({"pneus": m, "debut": g[0], "fin": g[-1], "dominantes": len(g),
+                             "titres": sum(1 for a in span if pch[a] == m),
+                             "victoires": round(sum(pv[a].get(m, 0) for a in span) / len(span), 3),
+                             "poles": round(sum(pp[a].get(m, 0) for a in span) / len(span), 3),
+                             "degre": "hegemonie" if rob else "domination" if len(g) >= DUO else "saison"})
+    periodes.sort(key=lambda x: (x["debut"], x["pneus"]))
+    pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
+                 "periodes": periodes, "saisons": pn_saisons}
+    sortie_compteur["pneus"] = pneus_out
+
+TXT_P = {"fr": {"t": "Les manufacturiers de pneus : part des victoires, 1950-2025", "pc": " %", "mono": "monopole",
+                "d": "Pour chaque saison, la part des Grands Prix gagnés sur chaque marque de pneus. Hachures : les saisons de fournisseur unique.",
+                "autres": "Autres"},
+         "en": {"t": "Tyre manufacturers: share of wins, 1950-2025", "pc": "%", "mono": "monopoly",
+                "d": "For each season, the share of Grands Prix won on each tyre brand. Hatching: single-supplier seasons.",
+                "autres": "Others"}}
+COUL_P = dict(zip(MARQUES + ["Autres"], ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]))
+
+def svg_pneus(lang):
+    L = TXT_P[lang]
+    W, Hh, g, d, h, b = 640, 290, 40, 14, 44, 30
+    a0, a1 = ANNEES[0] - 0.5, ANNEES[-1] + 0.5
+    bw = (W - g - d) / (a1 - a0)
+    xs = lambda a: g + (a - a0) * bw
+    ys = lambda v: Hh - b - v * (Hh - b - h)
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="pn-t-{lang} pn-d-{lang}">',
+         f'<title id="pn-t-{lang}">{L["t"]}</title><desc id="pn-d-{lang}">{L["d"]}</desc>', CS,
+         '<defs><pattern id="pn-h" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+         '<line x1="0" y1="0" x2="0" y2="5" stroke="#ffffff" stroke-width="1.6" opacity=".7"/></pattern></defs>']
+    # Légende : une case par marque, dans l'ordre fixe, libellés à l'encre du texte.
+    lx = g
+    for m in MARQUES + ["Autres"]:
+        nm = L["autres"] if m == "Autres" else m
+        o.append(f'<rect x="{lx}" y="8" width="10" height="10" rx="2" fill="{COUL_P[m]}"/><text class="cp-t" x="{lx + 14}" y="17">{nm}</text>')
+        lx += 22 + 7.2 * len(nm)
+    for v in (0, 0.5, 1):
+        o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+    for x in pneus_out["saisons"]:
+        a, y = x["annee"], ys(0)
+        parts = {}
+        for m, v in x["victoires"].items():
+            parts[m if m in MARQUES else "Autres"] = parts.get(m if m in MARQUES else "Autres", 0) + v
+        for m in MARQUES + ["Autres"]:
+            v = parts.get(m, 0)
+            if not v:
+                continue
+            hgt = v * (Hh - b - h)
+            nm = L["autres"] if m == "Autres" else m
+            o.append(f'<rect x="{xs(a) - bw / 2 + 0.6:.1f}" y="{y - hgt + 0.6:.1f}" width="{bw - 1.2:.1f}" height="{max(hgt - 1.2, 0.5):.1f}" fill="{COUL_P[m]}">'
+                     f'<title>{a}, {nm} : {round(v * 100)}{L["pc"]}{" · " + L["mono"] if x["monopole"] else ""}</title></rect>')
+            if x["monopole"]:
+                o.append(f'<rect x="{xs(a) - bw / 2 + 0.6:.1f}" y="{y - hgt + 0.6:.1f}" width="{bw - 1.2:.1f}" height="{max(hgt - 1.2, 0.5):.1f}" fill="url(#pn-h)" pointer-events="none"/>')
+            y -= hgt
+    for a in range(1950, 2030, 10):
+        o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
+    o.append("</svg>")
+    return "".join(o)
+
+if pneus_out:
+    for lang in ("fr", "en"):
+        open(f"_includes/domination/pneus-{lang}.svg", "w", encoding="utf-8").write(svg_pneus(lang) + "\n")
+
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):
     os.remove(os.path.join("_includes/compteur", f))

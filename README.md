@@ -232,6 +232,8 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 - `_data/technologies.yml` : saisi a la main, chaque cas source ; technologie de la voiture
   gagnante pendant les fenetres de transition (domination technique). Une victoire non classee
   arrete domination.py.
+- `_data/pneus.yml` : saisi a la main, chaque cas source ; manufacturier des ecuries gagnantes ou
+  en pole hors monopole, et monopoles (impose ou de fait).
 - Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
 
 ### Regles de contenu

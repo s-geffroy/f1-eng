@@ -11,6 +11,7 @@ redirect_from: "/dossiers/hegemonies/"
 {%- assign CP = site.data.compteur -%}
 {%- assign CR = site.data.croisement -%}
 {%- assign TK = site.data.technologies.technologies -%}
+{%- assign PNC = site.data.pneus.cas -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -145,6 +146,24 @@ Un ingénieur ne gagne pas de course, mais on peut mesurer la domination de son 
 {% include domination.html quoi="ingenieurs_dom" %}
 
 Ce compteur mesure une présence, pas une contribution : un ingénieur peut être là quand l'écurie gagne sans en être la cause. La troisième confrontation, plus bas, tente d'aller plus loin avec un témoin.
+
+## Les pneus
+
+Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries, comme un motoriste. On a relevé celui de chaque écurie qui a gagné un Grand Prix ou signé une pole, saison par saison ({{ PNC.size }} écurie-saisons, chacune sourcée). Une saison est dominante pour le manufacturier qui équipe l'écurie championne, ou qui gagne au moins {{ P.seuil | times: 100 | round }} % des courses. Les saisons de fournisseur unique sont hors concours : Goodyear seul de fait en 1987-1988 et de 1992 à 1996, puis Bridgestone en 1999-2000 et de 2007 à 2010, Pirelli depuis 2011.
+
+<figure class="figure">
+{% include domination/pneus-fr.svg %}
+<figcaption>Part des Grands Prix gagnés sur chaque marque de pneus, saison par saison (survolez une barre pour le détail). « Autres » réunit Englebert, Continental et Avon. Hachures : les saisons de fournisseur unique.</figcaption>
+</figure>
+
+{% include domination.html quoi="pneus" %}
+
+- **Dunlop, de 1958 à 1965, signe la domination la plus complète** : huit titres en huit saisons, 92 % des victoires. Elle accompagne la révolution du moteur arrière, de Cooper à Lotus.
+- **Goodyear domine le plus longtemps**, de 1971 à 1986, avec douze titres, avant de rester seul en piste.
+- **Les guerres de pneus désignent le plus souvent un camp gagnant**, plutôt qu'un équilibre : Michelin de 1979 à 1984, face à Goodyear, puis Bridgestone de 2001 à 2006, face à Michelin, avec les titres de Ferrari. Seule la lutte entre Firestone et Goodyear, de 1966 à 1972, reste partagée, en dominations courtes.
+- **Depuis 2007, le pneu ne départage plus personne** : le fournisseur unique est devenu la règle.
+
+Les vainqueurs et les polemen sont ceux de formula1.com. Pour la pole d'Argentine 1955, formula1.com indique Lancia, mais la recherche sur les pneus a montré que González l'a signée sur une Ferrari 625 chaussée d'Englebert : le manufacturier retenu est Englebert, et l'écart est signalé ici.
 
 ## Au-delà des victoires : poles, podiums et doublés {#mesures}
 

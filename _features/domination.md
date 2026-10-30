@@ -11,6 +11,7 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign CP = site.data.compteur -%}
 {%- assign CR = site.data.croisement -%}
 {%- assign TK = site.data.technologies.technologies -%}
+{%- assign PNC = site.data.pneus.cas -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -145,6 +146,24 @@ An engineer wins no races, but the dominance of their team while they work there
 {% include domination.html quoi="ingenieurs_dom" %}
 
 This gauge measures presence, not contribution: an engineer can be there when the team wins without being the cause. The third comparison, below, tries to go further with a control.
+
+## Tyres
+
+The tyre manufacturer is a competitor of its own: it supplies several teams, like an engine maker. We recorded the supplier of every team that won a Grand Prix or took a pole, season by season ({{ PNC.size }} team-seasons, each sourced). A season is dominant for the manufacturer that supplies the champion team, or that wins at least {{ P.seuil | times: 100 | round }}% of the races. Single-supplier seasons are out of contention: Goodyear alone in practice in 1987-1988 and from 1992 to 1996, then Bridgestone in 1999-2000 and from 2007 to 2010, Pirelli since 2011.
+
+<figure class="figure">
+{% include domination/pneus-en.svg %}
+<figcaption>Share of Grands Prix won on each tyre brand, season by season (hover over a bar for details). "Others" groups Englebert, Continental and Avon. Hatching: single-supplier seasons.</figcaption>
+</figure>
+
+{% include domination.html quoi="pneus" %}
+
+- **Dunlop, from 1958 to 1965, achieves the most complete dominance**: eight titles in eight seasons, 92% of wins. It accompanies the rear-engine revolution, from Cooper to Lotus.
+- **Goodyear dominates the longest**, from 1971 to 1986, with twelve titles, before being left alone on track.
+- **Tyre wars usually pick a winning side** rather than a balance: Michelin from 1979 to 1984, against Goodyear, then Bridgestone from 2001 to 2006, against Michelin, with Ferrari's titles. Only the Firestone-Goodyear contest, from 1966 to 1972, stays shared, in short periods of dominance.
+- **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
+
+Winners and pole-sitters are those of formula1.com. For the 1955 Argentine pole, formula1.com gives Lancia, but the tyre research showed that González took it in a Ferrari 625 on Englebert tyres: the manufacturer recorded is Englebert, and the discrepancy is flagged here.
 
 ## Beyond wins: poles, podiums and one-twos {#mesures}
 

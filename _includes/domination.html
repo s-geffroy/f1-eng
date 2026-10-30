@@ -105,6 +105,18 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 <p class="note-tableau"><sup>*</sup> {{ L_h.non_dates }}</p>
 
+{%- elsif include.quoi == "pneus" -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_pneus }}"><table>
+<caption>{{ L_h.cap_pneus }}</caption>
+  <thead><tr><th scope="col">{{ L_h.manufacturier }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.degre }}</th></tr></thead>
+  <tbody>
+  {%- for p in site.data.compteur.pneus.periodes %}{% if p.degre != "saison" %}
+    {%- assign cle_d_h = "degre_" | append: p.degre %}
+    <tr><td>{{ p.pneus }}</td><td>{{ p.debut }}–{{ p.fin }}</td><td>{{ p.dominantes }}</td><td>{{ p.titres }}</td><td>{{ p.victoires | times: 100 | round }}{{ pc_h }}</td><td>{{ p.poles | times: 100 | round }}{{ pc_h }}</td><td>{% if p.degre == "hegemonie" %}<strong>{{ L_h[cle_d_h] }}</strong>{% else %}{{ L_h[cle_d_h] }}{% endif %}</td></tr>
+  {%- endif %}{% endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "technologies" -%}
 <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_techno }}"><table>
 <caption>{{ L_h.cap_techno }}</caption>
