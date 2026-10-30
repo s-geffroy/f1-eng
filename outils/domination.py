@@ -92,7 +92,73 @@ for s in R:
     points["pilote"][a] = {p["pilote"]: p["points"] / tot for p in s["pilotes"]}
     if s.get("constructeurs"):
         tc = sum(c["points"] for c in s["constructeurs"])
-        points["ecurie"][a] = {c["ecurie"]: c["points"] / tc for c in s["constructeurs"] if c.get("ecurie")}
+        # Un constructeur classé sous plusieurs noms (Cooper Climax et Cooper Maserati) : points additionnés.
+        pe = collections.Counter()
+        for c in s["constructeurs"]:
+            if c.get("ecurie"): pe[c["ecurie"]] += c["points"] / tc
+        points["ecurie"][a] = dict(pe)
+
+# --- Mesures complémentaires : poles, podiums, doublés, écart au deuxième -------------------------
+# Elles décrivent une domination, elles ne la définissent pas : les degrés restent fondés sur les
+# titres et les victoires. Une course sans grille ou sans podium publié sort du dénominateur.
+def cles(c, a):
+    """Entités créditées d'une place (vainqueur, podium, pole) : {unité: clé}."""
+    ec = cle_ecurie(c)
+    return {"ecurie": ec, "lignee": lignee(c["ecurie"], a) if c.get("ecurie") else ec,
+            "pilote": c.get("vainqueur") or c.get("pilote"), "motoriste": moteur(c.get("motoriste"))}
+
+poles = {u: {} for u in part}
+podiums = {u: {} for u in part}
+doubles = {u: {} for u in part}
+gp_pole, gp_podium = {}, {}
+for s in R:
+    a = s["annee"]
+    po, pd, db = ({u: collections.Counter() for u in part} for _ in range(3))
+    gp_pole[a] = gp_podium[a] = 0
+    for c in s["courses"]:
+        if c.get("pole"):
+            gp_pole[a] += 1
+            for u, k in cles(c["pole"], a).items():
+                if k: po[u][k] += 1
+        if len(c.get("podium", [])) == 2:
+            gp_podium[a] += 1
+            places = [cles(c, a)] + [cles(p, a) for p in c["podium"]]
+            for u in part:
+                for pl in places:
+                    if pl[u]: pd[u][pl[u]] += 1
+                # Doublé : les deux premières places pour la même entité (sans objet pour un pilote).
+                if u != "pilote" and places[0][u] and places[0][u] == places[1][u]:
+                    db[u][places[0][u]] += 1
+    for u in part:
+        poles[u][a], podiums[u][a], doubles[u][a] = dict(po[u]), dict(pd[u]), dict(db[u])
+
+def ecart_points(u, k, a):
+    """Part des points de l'entité moins celle du meilleur des autres (négatif si battue)."""
+    pts = points[u].get(a)
+    if not pts or k not in pts:
+        return None
+    return pts[k] - max([v for x, v in pts.items() if x != k] or [0])
+
+def mesures(u, k, annees):
+    """Parts des poles, des places sur le podium et des doublés, écart au deuxième, indice composite."""
+    n_po = sum(gp_pole[a] for a in annees)
+    n_pd = sum(gp_podium[a] for a in annees)
+    vic = sum(victoires[u][a].get(k, 0) for a in annees)
+    gp = sum(next(s["gp"] for s in R if s["annee"] == a) for a in annees)
+    m = {}
+    if n_po:
+        m["poles"] = round(sum(poles[u][a].get(k, 0) for a in annees) / n_po, 3)
+    if n_pd:
+        m["podiums"] = round(sum(podiums[u][a].get(k, 0) for a in annees) / (3 * n_pd), 3)
+        if u != "pilote":
+            m["doubles"] = round(sum(doubles[u][a].get(k, 0) for a in annees) / n_pd, 3)
+    ec = [ecart_points(u, k, a) for a in annees]
+    if ec and all(x is not None for x in ec):
+        m["ecart"] = moyenne(ec)
+    if "poles" in m and "podiums" in m:
+        # Indice composite : moyenne simple des parts de victoires, de poles et de places sur le podium.
+        m["indice"] = round((vic / gp + m["poles"] + m["podiums"]) / 3, 3)
+    return m
 
 def nom(u, k):
     if k.startswith("~"):
@@ -151,7 +217,8 @@ for u in part:
     hs = []
     # Saisons dominantes isolées : décrites brièvement, sans confrontation.
     saisons_dom[u] = [{"nom": nom(u, k), "annee": g[0], "titre": champion[u].get(g[0]) == k,
-                       "part": round(part[u][g[0]].get(k, 0), 3), **({"id": k} if not k.startswith("~") else {})}
+                       "part": round(part[u][g[0]].get(k, 0), 3), **({"id": k} if not k.startswith("~") else {}),
+                       **mesures(u, k, [g[0]])}
                       for k, g in sorted(base, key=lambda x: (x[1][0], x[0])) if len(g) < DUO]
     for k, g in sorted(base, key=lambda x: (x[1][0], x[0])):
         if len(g) < DUO:
@@ -169,6 +236,7 @@ for u in part:
              "robuste": len(g) >= MIN and all(recouvre(k, g, v) for v in variantes)}
         h["degre"] = degre(g, h["robuste"])
         if h["id"] is None: del h["id"]
+        h.update(mesures(u, k, list(span)))
         if u in points and points[u]:
             pts = [points[u][a].get(k) for a in span if a in points[u]]
             if pts and all(p is not None for p in pts):
@@ -205,6 +273,20 @@ for u in part:
     dominations[u] = hs
     effectifs[u] = {"saison": len(saisons_dom[u]), "domination": sum(h["degre"] == "domination" for h in hs),
                     "hegemonie": sum(h["degre"] == "hegemonie" for h in hs), "longue": sum(h["longue"] for h in hs)}
+
+# Saisons les plus écrasantes : pour chaque saison, l'écurie et le pilote d'indice composite le plus
+# élevé ; on garde les dix premiers (le classement ne dépend pas des degrés).
+ecrasantes = {}
+for u in ("ecurie", "pilote"):
+    meilleures = []
+    for a in ANNEES:
+        cands = [(mesures(u, k, [a]), k) for k in part[u][a]]
+        cands = [(m, k) for m, k in cands if "indice" in m]
+        if cands:
+            m, k = max(cands, key=lambda x: x[0]["indice"])
+            meilleures.append({"annee": a, "nom": nom(u, k), **({"id": k} if not k.startswith("~") else {}),
+                               "victoires": round(part[u][a][k], 3), **m})
+    ecrasantes[u] = sorted(meilleures, key=lambda x: -x["indice"])[:10]
 
 def debut_suit(ec, y):
     return any(e == ec and y <= d <= y + FENETRE_JALON for e, d, f in liste_ecurie)
@@ -419,6 +501,7 @@ sortie = {
     "effectifs": effectifs,
     "dominations": dominations,
     "saisons_dominantes": saisons_dom,
+    "saisons_ecrasantes": ecrasantes,
     "jalons": jalons,
     "jalons_sans_ecurie": sans_ecurie,
     "temoin_jalons": {"n": len(obs), "ouvre": sum(obs), "attendu": round(sum(attendu), 1)},
@@ -448,6 +531,9 @@ entete = ("# Dominations et confrontations, calculées par outils/domination.py 
           "# part = part des Grands Prix gagnés ; points = part moyenne des points (écuries depuis 1958, pilotes) ;\n"
           "# degre = saison (1 saison dominante), domination (au moins duo), hegemonie (au moins min, robuste) ;\n"
           "# longue = au moins min saisons dominantes, robuste ou non : base des confrontations ;\n"
+          "# poles, podiums (part des places), doubles : parts sur les courses dont la grille ou le podium est\n"
+          "# publié ; ecart = part des points moins celle du meilleur des autres ; indice = moyenne des parts de\n"
+          "# victoires, de poles et de places sur le podium ;\n"
           "# avant / apres = part moyenne des victoires de l'écurie dans les fenêtres de la confrontation.\n")
 open("_data/domination.yml", "w", encoding="utf-8").write(
     entete + yaml.safe_dump(sortie, allow_unicode=True, sort_keys=False, width=1000))
@@ -547,3 +633,176 @@ os.makedirs("_includes/domination", exist_ok=True)
 for lang in TEXTES:
     open(f"_includes/domination/etude-jalons-{lang}.svg", "w", encoding="utf-8").write(svg_etude(lang) + "\n")
     open(f"_includes/domination/ingenieurs-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs(lang) + "\n")
+
+# --- Compteur de domination des écuries (fiches) ----------------------------------------------
+# Indice composite saison par saison, à l'échelle de la lignée (l'usine sous tous ses noms), sur
+# 0-100 absolu : 100 = toutes les victoires, toutes les poles et tout le podium. Un cadran donne la
+# meilleure saison, une courbe la suite des saisons, avec titres, dominations, jalons et seuil.
+EN = yaml.safe_load(open("_data/en/ecuries.yml", encoding="utf-8"))
+CEN = yaml.safe_load(open("_data/en/chronologie.yml", encoding="utf-8"))
+NOMS = {"fr": {e["id"]: e["nom"] for e in E["ecuries"]}, "en": {e["id"]: e["nom"] for e in EN["ecuries"]}}
+JALONS_L = {"fr": {j["id"]: j["titre"] for j in C["jalons"]}, "en": {j["id"]: j["titre"] for j in CEN["jalons"]}}
+
+def indice(u, k, a):
+    return mesures(u, k, [a]).get("indice")
+
+# Seuil calibré : la valeur d'indice qui sépare le mieux les saisons dominantes des autres
+# (indice de Youden : sensibilité + spécificité - 1, maximal), sur toutes les saisons de lignée.
+obs_l = []
+def saisons_lignee(lid):
+    return sorted({y for l in E["lignees"] if l["id"] == lid for s in l["segments"]
+                   for y in range(s["de"], s["a"] + 1) if y in part["lignee"]})
+for l in E["lignees"]:
+    for a in saisons_lignee(l["id"]):
+        x = indice("lignee", l["id"], a)
+        if x is not None:
+            dom = champion["lignee"].get(a) == l["id"] or part["lignee"][a].get(l["id"], 0) >= SEUIL
+            obs_l.append((x, dom))
+def youden(t):
+    p = [x >= t for x, d in obs_l if d]
+    n = [x < t for x, d in obs_l if not d]
+    return sum(p) / len(p) + sum(n) / len(n) - 1
+SEUIL_INDICE = max((round(t / 100, 2) for t in range(1, 100)), key=youden)
+sortie_compteur = {"seuil": SEUIL_INDICE, "youden": round(youden(SEUIL_INDICE), 3),
+                   "saisons": len(obs_l), "dominantes": sum(d for _, d in obs_l),
+                   "au_dessus": sum(x >= SEUIL_INDICE for x, _ in obs_l),
+                   "dominantes_au_dessus": sum(x >= SEUIL_INDICE and d for x, d in obs_l),
+                   "lignees": {}}
+
+TXT = {"fr": {"t": "Compteur de domination de la lignée {n}", "rec": "Meilleure saison", "seuil": "seuil",
+              "d": "Indice composite saison par saison, sur 100 : moyenne des parts de victoires, de poles et de places sur le podium. Meilleure saison : {b} en {y}, {v}.",
+              "titre": "titre", "dom": "domination", "heg": "hégémonie", "aucune": "aucune saison mesurée"},
+       "en": {"t": "Dominance gauge of the {n} lineage", "rec": "Best season", "seuil": "threshold",
+              "d": "Composite index season by season, out of 100: average share of wins, poles and podium places. Best season: {b} in {y}, {v}.",
+              "titre": "title", "dom": "dominance", "heg": "hegemony", "aucune": "no season measured"}}
+CS = ("<style>.cp-t{font-family:var(--titre);font-size:13px;fill:var(--mine)}"
+      ".cp-v{font-family:var(--titre);font-size:30px;font-weight:700;fill:var(--graphite)}"
+      ".cp-f{font-family:var(--titre);font-size:13px;font-weight:600;fill:var(--graphite)}"
+      ".cp-g{stroke:#e1e5e7;stroke-width:1}.cp-a{stroke:var(--trait);stroke-width:1}"
+      ".cp-c{stroke:#1f5fa8;fill:none;stroke-width:2;stroke-linejoin:round}"
+      ".cp-p{fill:#1f5fa8}.cp-ti{fill:#c8102e;stroke:#fff;stroke-width:1.5}"
+      ".cp-s{stroke:#c8102e;stroke-width:1.5;stroke-dasharray:5 4}"
+      ".cp-dom{fill:#1f5fa8;opacity:.08}.cp-heg{fill:#1f5fa8;opacity:.18}"
+      ".cp-j{fill:var(--graphite)}.cp-n{fill:#eef1f2;stroke:#fff;stroke-width:1}"
+      ".cp-arc{fill:none;stroke:#e1e5e7;stroke-width:14}.cp-arcv{fill:none;stroke:#1f5fa8;stroke-width:14}"
+      ".cp-ai{stroke:var(--graphite);stroke-width:3;stroke-linecap:round}</style>")
+
+def esc(t):
+    return str(t).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
+def ecurie_de(lid, a):
+    return next((s["ecurie"] for l in E["lignees"] if l["id"] == lid for s in l["segments"] if s["de"] <= a <= s["a"]), None)
+
+def svg_compteur(lid, lang):
+    import math
+    L, nl = TXT[lang], {"fr": NOM_LIGNEE, "en": {l["id"]: l["nom"] for l in EN["lignees"]}}[lang][lid]
+    ans = saisons_lignee(lid)
+    vals = {a: indice("lignee", lid, a) for a in ans}
+    mes = [a for a in ans if vals[a] is not None]
+    uid = f"cp-{lid}-{lang}"
+    if not mes:
+        return None
+    best = max(mes, key=lambda a: vals[a])
+    bn = NOMS[lang].get(ecurie_de(lid, best), nl)
+    v100 = lambda x: round(x * 100)
+    desc = L["d"].format(b=esc(bn), y=best, v=v100(vals[best]))
+    # Cadran : demi-cercle 0-100, aiguille sur la meilleure saison, repère du seuil.
+    cx, cy, r = 110, 112, 86
+    ang = lambda x: math.pi * (1 - x)           # 0 à gauche, 1 à droite
+    pt = lambda x, rr: (cx + rr * math.cos(ang(x)), cy - rr * math.sin(ang(x)))
+    x0, y0 = pt(0, r); x1, y1 = pt(1, r); xv, yv = pt(vals[best], r)
+    o = [f'<svg class="graphique compteur-cadran" viewBox="0 0 220 170" role="img" aria-labelledby="{uid}-ct">',
+         f'<title id="{uid}-ct">{L["rec"]} : {esc(bn)} {best}, {v100(vals[best])} / 100</title>', CS,
+         f'<path class="cp-arc" d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {x1:.1f},{y1:.1f}"/>',
+         f'<path class="cp-arcv" d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {xv:.1f},{yv:.1f}"/>']
+    for t in range(0, 101, 10):
+        a1, a2 = pt(t / 100, r - 12), pt(t / 100, r - 20 if t % 50 == 0 else r - 16)
+        o.append(f'<line class="cp-a" x1="{a1[0]:.1f}" y1="{a1[1]:.1f}" x2="{a2[0]:.1f}" y2="{a2[1]:.1f}"/>')
+        if t % 50 == 0:
+            tx, ty = pt(t / 100, r - 32)
+            o.append(f'<text class="cp-t" x="{tx:.1f}" y="{ty + 4:.1f}" text-anchor="middle">{t}</text>')
+    s1, s2 = pt(SEUIL_INDICE, r - 7), pt(SEUIL_INDICE, r + 9)
+    o.append(f'<line class="cp-s" style="stroke-dasharray:none;stroke-width:3" x1="{s1[0]:.1f}" y1="{s1[1]:.1f}" x2="{s2[0]:.1f}" y2="{s2[1]:.1f}"/>')
+    ax, ay = pt(vals[best], r - 24)
+    o.append(f'<line class="cp-ai" x1="{cx}" y1="{cy}" x2="{ax:.1f}" y2="{ay:.1f}"/><circle cx="{cx}" cy="{cy}" r="6" class="cp-j"/>')
+    o.append(f'<text class="cp-v" x="{cx}" y="{cy + 38}" text-anchor="middle">{v100(vals[best])}</text>')
+    o.append(f'<text class="cp-t" x="{cx}" y="{cy + 56}" text-anchor="middle">{L["rec"]} : {esc(bn)} {best}</text></svg>')
+    cadran = "".join(o)
+    # Courbe : indice saison par saison sur l'axe des années de la lignée.
+    W, Hh, g, d, h, b = 640, 250, 40, 14, 14, 62
+    a0, a1_ = ans[0], ans[-1]
+    # Axe d'au moins dix saisons, centré sur la lignée : une écurie d'une saison reste lisible.
+    m0 = (a0 + a1_) / 2
+    x0a, x1a = min(a0, m0 - 5), max(a1_, m0 + 5)
+    x0a, x1a = x0a - 0.5, x1a + 0.5
+    span = x1a - x0a
+    xs = lambda a: g + (a - x0a) / span * (W - g - d)
+    ys = lambda x: Hh - b - x * (Hh - b - h)
+    o = [f'<svg class="graphique compteur-courbe" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="{uid}-t {uid}-d">',
+         f'<title id="{uid}-t">{L["t"].format(n=esc(nl))}</title><desc id="{uid}-d">{desc}</desc>', CS]
+    demi = 0.5 * (W - g - d) / span
+    for p in dominations["lignee"]:
+        if p.get("id") == lid:
+            cl = "cp-heg" if p["degre"] == "hegemonie" else "cp-dom"
+            lib = L["heg"] if p["degre"] == "hegemonie" else L["dom"]
+            o.append(f'<rect class="{cl}" x="{xs(p["debut"]) - demi:.1f}" y="{h}" width="{xs(p["fin"]) - xs(p["debut"]) + 2 * demi:.1f}" height="{Hh - b - h}"><title>{lib}, {p["debut"]}–{p["fin"]}</title></rect>')
+    for v in (0, 0.25, 0.5, 0.75, 1):
+        o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+    o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
+             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) - 5:.1f}" text-anchor="end">{L["seuil"]} {v100(SEUIL_INDICE)}</text>')
+    pas = 10 if span > 25 else 2
+    for a in range(int(x0a) + 1 + (-(int(x0a) + 1)) % pas, int(x1a) + 1, pas):
+        o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 16}" text-anchor="middle">{a}</text>')
+    # Courbe brisée sur les saisons sans mesure.
+    tr, cur = [], []
+    for a in ans:
+        if vals[a] is None:
+            if cur: tr.append(cur); cur = []
+        else:
+            cur.append((xs(a), ys(vals[a])))
+    if cur: tr.append(cur)
+    for c in tr:
+        o.append(f'<polyline class="cp-c" points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in c)}"/>')
+    for a in mes:
+        ti = champion["lignee"].get(a) == lid
+        nm = esc(NOMS[lang].get(ecurie_de(lid, a), nl))
+        o.append(f'<circle class="{"cp-ti" if ti else "cp-p"}" cx="{xs(a):.1f}" cy="{ys(vals[a]):.1f}" r="{5 if ti else 2.5}">'
+                 f'<title>{a}, {nm} : {v100(vals[a])}{" · " + L["titre"] if ti else ""}</title></circle>')
+    # Bande des noms successifs, puis jalons portés par les écuries de la lignée.
+    yb = Hh - b + 24
+    segs = [s for l in E["lignees"] if l["id"] == lid for s in l["segments"]]
+    for s in segs:
+        de, a_ = max(s["de"], a0), min(s["a"], a1_)
+        if de > a_:
+            continue
+        x1s, x2s = xs(de) - demi, xs(a_) + demi
+        nm = esc(NOMS[lang].get(s["ecurie"], s["ecurie"]).split(" (")[0])
+        o.append(f'<rect class="cp-n" x="{x1s:.1f}" y="{yb}" width="{x2s - x1s:.1f}" height="16"><title>{nm}, {s["de"]}–{s["a"]}</title></rect>')
+        if x2s - x1s > 7 * len(nm):
+            o.append(f'<text class="cp-t" x="{(x1s + x2s) / 2:.1f}" y="{yb + 12}" text-anchor="middle">{nm}</text>')
+    ecs = {s["ecurie"] for s in segs}
+    for jid, eclist in JALON_ECURIES.items():
+        y = JALONS[jid]["annee"]
+        if ecs & set(eclist) and a0 <= y <= a1_ and any(s["ecurie"] in eclist and s["de"] <= y <= s["a"] for s in segs):
+            xj, yj = xs(y), yb + 22
+            o.append(f'<path class="cp-j" d="M{xj:.1f},{yj} l-5,9 h10 z"><title>{y} : {esc(JALONS_L[lang].get(jid, jid))}</title></path>')
+    o.append("</svg>")
+    sortie_compteur["lignees"][lid] = {"meilleure": best, "indice": round(vals[best], 3)}
+    return cadran, "".join(o)
+
+os.makedirs("_includes/compteur", exist_ok=True)
+for f in os.listdir("_includes/compteur"):
+    os.remove(os.path.join("_includes/compteur", f))
+for l in E["lignees"]:
+    for lang in ("fr", "en"):
+        r = svg_compteur(l["id"], lang)
+        if r:
+            open(f"_includes/compteur/{l['id']}-{lang}.svg", "w", encoding="utf-8").write(
+                f'<div class="compteur">{r[0]}{r[1]}</div>\n')
+open("_data/compteur.yml", "w", encoding="utf-8").write(
+    "# Compteur de domination des lignées, calculé par outils/domination.py : ne pas modifier à la main.\n"
+    "# seuil = valeur d'indice (0-1) qui sépare le mieux les saisons dominantes (titre ou SEUIL des victoires)\n"
+    "# des autres, au sens de l'indice de Youden ; lignees = meilleure saison de chaque lignée mesurée.\n"
+    + yaml.safe_dump(sortie_compteur, allow_unicode=True, sort_keys=False, width=1000))
+print(f"compteur : seuil {SEUIL_INDICE} (Youden {sortie_compteur['youden']}), {len(sortie_compteur['lignees'])} lignées")

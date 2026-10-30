@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""Relevé des résultats officiels (formula1.com) : vainqueur de chaque Grand Prix, points des
-constructeurs et des pilotes, saisons 1950-2025. Écrit _data/resultats.yml.
+"""Relevé des résultats officiels (formula1.com) : vainqueur, podium et poleman de chaque Grand Prix,
+points des constructeurs et des pilotes, saisons 1950-2025. Écrit _data/resultats.yml.
 Usage : python3 -I outils/releve-resultats.py <dossier-cache>
 
-Le dossier-cache reçoit les pages téléchargées (<annee>-races.html, -team.html, -drivers.html) ;
-une page déjà présente n'est pas retéléchargée. Il doit être hors du dépôt : ce sont des données
+Le dossier-cache reçoit les pages téléchargées (<annee>-races.html, -team.html, -drivers.html, et
+pour chaque course courses/<annee>-<id>-race-result.html et -starting-grid.html) ; une page déjà
+présente n'est pas retéléchargée. Il doit être hors du dépôt : ce sont des données
 externes, jamais versionnées.
 
 Chaque nom d'équipe de formula1.com (« Châssis Moteur ») est rapporté à une écurie de
 _data/ecuries.yml (désambiguïsée par l'année) et à un motoriste. Un nom inconnu arrête le script :
 on complète la table CHASSIS ou MOTEURS, on ne devine pas. Les gagnants sans fiche (Mercedes-Benz
 1954-1955, constructeurs des 500 miles d'Indianapolis) sont gardés sous leur nom, sans identifiant."""
-import os, re, sys, html, time, urllib.request
+import os, re, sys, html, time, urllib.request, urllib.error
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -91,6 +92,44 @@ COMMANDITAIRES = {"Sahara"}
 # Gagnants sans fiche : motoriste connu par le nom seul.
 MOTEUR_SANS_FICHE = {"Mercedes-Benz": "mercedes"}
 
+def telecharger_course(cache, url, page):
+    """Page d'une course (race-result, starting-grid) ; None si formula1.com ne la publie pas."""
+    annee, ident = re.search(r"/results/(\d+)/races/(\d+)/", url).groups()
+    chemin = os.path.join(cache, "courses", f"{annee}-{ident}-{page}.html")
+    if not os.path.exists(chemin):
+        os.makedirs(os.path.dirname(chemin), exist_ok=True)
+        req = urllib.request.Request(url.replace("/race-result", "/" + page), headers={"User-Agent": "Mozilla/5.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                contenu = r.read()
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+            contenu = b""          # page absente : mémorisée vide, pour ne pas la redemander
+        open(chemin, "wb").write(contenu)
+        time.sleep(0.5)
+    return open(chemin, encoding="utf-8").read() or None
+
+def classe(cache, url, page, annee):
+    """Lignes classées d'une page de course : [(position, pilote, (écurie, motoriste, nom))].
+    Un équipage partagé occupe plusieurs lignes à la même position : seule la première est gardée."""
+    t = telecharger_course(cache, url, page)
+    if t is None:
+        return None
+    out = {}
+    for l in lignes(t):
+        if len(l) >= 4 and l[0].isdigit() and int(l[0]) not in out:
+            out[int(l[0])] = (pilote(l[2]), equipe(l[3], annee, strict=False))
+    return out
+
+def place(p, rang=None):
+    """Entrée « place, pilote, équipe, écurie, motoriste » d'une position, sans champ vide."""
+    nom, (ec, mot, eq) = p
+    d = ({"place": rang} if rang else {}) | {"pilote": nom, "equipe": eq}
+    if ec: d["ecurie"] = ec
+    if mot: d["motoriste"] = mot
+    return d
+
 def telecharger(cache, annee, page):
     chemin = os.path.join(cache, f"{annee}-{page}.html")
     if not os.path.exists(chemin):
@@ -108,7 +147,8 @@ def lignes(texte):
     return out[1:]
 
 def pilote(nom):
-    return re.sub(r"\s+[A-Z]{3}$", "", nom)
+    # Code à trois lettres accolé au nom, apostrophe comprise (« Pat O'Connor O'C »).
+    return re.sub(r"\s+[A-Z][A-Z']{2}$", "", nom)
 
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
 MOT = {m["id"] for m in E["motoristes"]}
@@ -175,6 +215,18 @@ def main():
             if ec: course["ecurie"] = ec
             if mot: course["motoriste"] = mot
             course["url"] = BASE + liens[i]
+            # Podium et grille : pages de la course. La pole est la première place de la grille de
+            # départ publiée (après pénalités éventuelles), pas forcément le meilleur temps.
+            res = classe(cache, course["url"], "race-result", annee)
+            if res:
+                if res.get(1, ("",))[0] not in (course["vainqueur"], course.get("covainqueur")):
+                    print(f"attention : {annee} {course['gp']}, vainqueur « {course['vainqueur']} » mais "
+                          f"première place « {res.get(1, ('?',))[0]} » sur la page de la course")
+                # Place gardée explicitement : une place peut rester vide (Brésil 1983, deuxième disqualifié).
+                course["podium"] = [place(res[k], k) for k in (2, 3) if k in res]
+            grille = classe(cache, course["url"], "starting-grid", annee)
+            if grille and 1 in grille:
+                course["pole"] = place(grille[1])
             gp.append(course)
         s = {"annee": annee, "gp": len(gp), "courses": gp}
         if annee >= 1958:
@@ -201,6 +253,8 @@ def main():
               "# courses : vainqueur de chaque Grand Prix (equipe = nom formula1.com, ecurie et motoriste =\n"
               "#   identifiants de _data/ecuries.yml, absents pour un gagnant sans fiche), url = résultat de la course.\n"
               "#   covainqueur : second pilote d'une victoire partagée (une seule course, créditée aux deux pilotes).\n"
+              "#   podium : deuxième et troisième avec leur place (première ligne d'un équipage partagé) ; pole : première place de\n"
+              "#   la grille de départ publiée. Absents quand formula1.com ne publie pas la page de la course.\n"
               "# constructeurs (depuis 1958) et pilotes : points au classement final ; sources : classements.\n"
               "# Les 500 miles d'Indianapolis (1950-1960) comptent au championnat et figurent donc ici.\n")
     texte = entete + yaml.safe_dump({"saisons": saisons}, allow_unicode=True, sort_keys=False, width=1000)

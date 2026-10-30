@@ -8,6 +8,8 @@ redirect_from: "/dossiers/hegemonies/"
 {%- assign H = site.data.domination -%}
 {%- assign P = H.parametres -%}
 {%- assign EF = H.effectifs -%}
+{%- assign CP = site.data.compteur -%}
+{%- assign CR = site.data.croisement -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -22,6 +24,7 @@ Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de
 ## L'essentiel
 
 - **Dominer est courant, durer est rare.** Chaque saison a ses champions, mais en soixante-seize saisons, l'hégémonie n'est atteinte que {{ EF.ecurie.hegemonie }} fois par une écurie, {{ EF.pilote.hegemonie }} fois par un pilote et {{ EF.motoriste.hegemonie }} fois par un motoriste.
+- **Gagner n'est pas tout écraser.** Red Bull, de 2021 à 2023, gagne 74 % des Grands Prix mais ne part en pole qu'une fois sur deux ; Mercedes, de 2014 à 2021, réunit victoires, poles et doublés.
 - **Une innovation rapporte, mais pas longtemps.** L'écurie qui innove passe en moyenne de {{ EJ.jalons[2] | times: 100 | round }} % à {{ EJ.jalons[4] | times: 100 | round }} % des victoires. Elle revient à son niveau de départ en quatre saisons.
 - **Les innovations qui ouvrent une domination longue répondent presque toutes à un nouveau règlement** : {{ AM.ouvrants_regle }} sur {{ AM.ouvrants }}.
 - **Interdire une innovation ne renverse pas l'écurie qui domine.**
@@ -102,6 +105,39 @@ La domination du moteur Mercedes, de 2012 à 2021, commence avant celle de l'éc
 Le groupe propulseur de Red Bull, de 2021 à 2023, est compté sous le nom de **Honda**. Les résultats officiels l'appellent Honda en 2021, puis RBPT et Honda RBPT, mais c'est Honda qui le construit pendant toute cette période. C'est un choix de lecture : en séparant les trois noms, cette hégémonie disparaît.
 
 Saisons dominantes isolées : {% include domination.html quoi="saisons" unite="motoriste" %}.
+
+## Au-delà des victoires : poles, podiums et doublés
+
+Les degrés reposent sur les titres et les victoires. Trois autres mesures décrivent la manière de dominer. Elles sont relevées course par course sur formula1.com :
+
+- la **part des poles** : la première place de la grille de départ publiée, après d'éventuelles pénalités ;
+- la **part des places sur le podium** : sur les trois places de chaque course ;
+- la **part des doublés** : les deux premières places pour la même écurie ou le même motoriste. Pour un pilote, cette mesure n'a pas de sens : les tableaux donnent alors sa part des places sur le podium.
+
+Ces mesures décrivent une domination, elles ne la définissent pas : une écurie ne change pas de degré selon ses poles. Elles figurent dans les tableaux ci-dessus, avec l'**indice composite** : la moyenne simple des parts de victoires, de poles et de places sur le podium, sur 100. Un indice de 100 voudrait dire tout gagner, partir en pole à chaque course et occuper tout le podium.
+
+Elles nuancent le palmarès :
+
+- **Mercedes, de 2014 à 2021, réunit tout** : 69 % des victoires, 74 % des poles et un doublé une course sur trois.
+- **Red Bull, de 2021 à 2023, gagne plus (74 %), mais part en pole moins d'une fois sur deux, et ne signe un doublé qu'une course sur six.** Sa domination repose surtout sur un pilote et sur le rythme de course.
+- **McLaren, de 1988 à 1991, part en pole 81 % du temps** : c'est la plus forte proportion parmi les hégémonies.
+- **Ferrari, de 1975 à 1979, domine avec peu** : 35 % des victoires, 24 % des poles, 6 % de doublés. Elle doit son hégémonie à la régularité des titres plus qu'à l'écrasement.
+
+### Les saisons les plus écrasantes
+
+L'indice composite permet aussi de comparer les saisons entre elles, indépendamment des degrés.
+
+{% include domination.html quoi="ecrasantes" unite="ecurie" %}
+
+Les années 1950 figurent en bonne place, mais avec peu de courses : Ferrari gagne en 1952 sept des huit Grands Prix, dont les 500 miles d'Indianapolis où elle ne s'impose pas. Depuis, seules McLaren en 1988 et Mercedes en 2014-2016 approchent ce niveau sur une saison complète. Chez les pilotes, aucune saison n'atteint 60 : un pilote partage toujours le podium avec son coéquipier.
+
+{% include domination.html quoi="ecrasantes" unite="pilote" %}
+
+## Le compteur de domination
+
+Chaque [fiche d'écurie]({{ site.baseurl }}/ecuries/) porte un compteur. Un cadran donne la meilleure saison de la lignée ; en dessous, une courbe suit l'indice composite saison par saison, l'usine sous tous ses noms. Les titres, les périodes de domination, les jalons de la chronologie et un seuil y figurent.
+
+Ce seuil n'est pas choisi à la main. C'est la valeur d'indice qui sépare le mieux les saisons dominantes (titre ou au moins {{ P.seuil | times: 100 | round }} % des victoires) des autres, au sens de l'*indice de Youden*, qui additionne la part des saisons dominantes au-dessus du seuil et la part des autres en dessous. Il vaut **{{ CP.seuil | times: 100 | round }}**. Sur {{ CP.saisons }} saisons de lignée mesurées, les {{ CP.dominantes }} saisons dominantes le dépassent toutes ({{ CP.dominantes_au_dessus }}). {{ CP.au_dessus | minus: CP.dominantes_au_dessus }} autres le dépassent aussi : ce sont le plus souvent des écuries deuxièmes du championnat des constructeurs, battues pour le titre.
 
 ## Innovations et résultats : quatre confrontations
 
@@ -275,6 +311,9 @@ Résultats consultés le 29 octobre 2026 sur formula1.com, pour chaque saison de
 
 - les vainqueurs des Grands Prix : `https://www.formula1.com/en/results/<année>/races` ;
 - le classement des constructeurs, depuis 1958 : `…/<année>/team` ;
-- le classement des pilotes : `…/<année>/drivers`.
+- le classement des pilotes : `…/<année>/drivers` ;
+- pour chaque course, le podium et la grille de départ : `…/<année>/races/<course>/race-result` et `…/starting-grid`.
 
-Le lien de chaque course est conservé dans les données du site. Les ingénieurs, les jalons et les règlements viennent des [fiches des écuries]({{ site.baseurl }}/ecuries/) et de la [chronologie]({{ site.baseurl }}/chronologie/), où chacun a ses propres sources.
+Le lien de chaque course est conservé dans les données du site.
+
+Ces résultats ont été comparés course par course à une seconde source, la base ouverte [Jolpica]({{ CR.source }}) (successeur d'Ergast). Les vainqueurs concordent pour {{ CR.bilan.vainqueur.concordants }} courses sur {{ P.gp }}, les poles pour {{ CR.bilan.pole.concordants }}, les deuxièmes pour {{ CR.bilan.deuxieme.concordants }} et les troisièmes pour {{ CR.bilan.troisieme.concordants }}. Le seul désaccord porte sur le Grand Prix du Brésil 1983 : formula1.com laisse vacante la deuxième place de Keke Rosberg, disqualifié, et classe Niki Lauda troisième ; Jolpica fait remonter chacun d'un rang et classe Jacques Laffite troisième. Ce dossier suit formula1.com. Les ingénieurs, les jalons et les règlements viennent des [fiches des écuries]({{ site.baseurl }}/ecuries/) et de la [chronologie]({{ site.baseurl }}/chronologie/), où chacun a ses propres sources.

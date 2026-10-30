@@ -212,9 +212,13 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 
 ### Domination (`/dossiers/domination/`, ancienne adresse `/dossiers/hegemonies/` redirigee)
 
-- `_data/resultats.yml` : vainqueur de chaque GP et classements finaux 1950-2025, releves sur
-  formula1.com par `python3 -I outils/releve-resultats.py <cache hors depot>`. Un nom d'equipe
-  inconnu arrete le script : completer sa table, ne pas deviner.
+- `_data/resultats.yml` : vainqueur, podium et pole de chaque GP, classements finaux 1950-2025,
+  releves sur formula1.com par `python3 -I outils/releve-resultats.py <cache hors depot>`
+  (environ 2 300 pages de course au premier passage, une heure). Un nom d'equipe inconnu arrete
+  le script : completer sa table, ne pas deviner.
+- `_data/croisement.yml` : comparaison course par course avec la base Jolpica (ex-Ergast), par
+  `python3 -I outils/releve-jolpica.py <cache hors depot>`. Un desaccord est signale, jamais
+  corrige : on va voir les deux sources.
 - `_data/domination.yml` : calcule par `python3 outils/domination.py` (seuils en tete du script).
   Trois degres : saison dominante (1 saison), domination (2 saisons dominantes ou plus),
   hegemonie (3 ou plus, robuste). Les confrontations portent sur les dominations longues (3 ou plus).
@@ -222,6 +226,10 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   des ecuries, des ingenieurs ou de la chronologie.
 - Tableaux du dossier : `_includes/domination.html`, libelles dans `_data/i18n.yml` (domination).
   Graphiques : `_includes/domination/*.svg`, generes par le meme script (ne pas editer).
+- Compteur de domination des fiches ecuries : `_includes/compteur/<lignee>-<langue>.svg` et
+  `_data/compteur.yml` (seuil calibre), generes par `outils/domination.py`. Indice composite =
+  moyenne des parts de victoires, de poles et de places sur le podium ; ne pas editer.
+- Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
 
 ### Regles de contenu
 

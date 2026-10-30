@@ -1,0 +1,283 @@
+# Compteur de domination des lignées, calculé par outils/domination.py : ne pas modifier à la main.
+# seuil = valeur d'indice (0-1) qui sépare le mieux les saisons dominantes (titre ou SEUIL des victoires)
+# des autres, au sens de l'indice de Youden ; lignees = meilleure saison de chaque lignée mesurée.
+seuil: 0.2
+youden: 0.924
+saisons: 909
+dominantes: 82
+au_dessus: 145
+dominantes_au_dessus: 82
+lignees:
+  ferrari:
+    meilleure: 1952
+    indice: 0.819
+  mclaren:
+    meilleure: 1988
+    indice: 0.799
+  brackley:
+    meilleure: 2016
+    indice: 0.794
+  williams:
+    meilleure: 1993
+    indice: 0.674
+  enstone:
+    meilleure: 2006
+    indice: 0.395
+  faenza:
+    meilleure: 2008
+    indice: 0.044
+  silverstone:
+    meilleure: 1999
+    indice: 0.104
+  hinwil:
+    meilleure: 2008
+    indice: 0.105
+  milton-keynes:
+    meilleure: 2011
+    indice: 0.684
+  haas:
+    meilleure: 2016
+    indice: 0.0
+  maserati:
+    meilleure: 1957
+    indice: 0.514
+  cooper:
+    meilleure: 1959
+    indice: 0.531
+  kurtis-kraft:
+    meilleure: 1951
+    indice: 0.125
+  alfa-romeo-1979:
+    meilleure: 1950
+    indice: 0.762
+  brm:
+    meilleure: 1965
+    indice: 0.356
+  connaught:
+    meilleure: 1952
+    indice: 0.0
+  vanwall:
+    meilleure: 1958
+    indice: 0.424
+  lancia:
+    meilleure: 1954
+    indice: 0.0
+  emeryson:
+    meilleure: 1956
+    indice: 0.0
+  porsche:
+    meilleure: 1962
+    indice: 0.099
+  team-lotus:
+    meilleure: 1963
+    indice: 0.567
+  tec-mec:
+    meilleure: 1959
+    indice: 0.0
+  jbw:
+    meilleure: 1959
+    indice: 0.0
+  aston-martin-1959:
+    meilleure: 1959
+    indice: 0.0
+  behra-porsche:
+    meilleure: 1960
+    indice: 0.0
+  scarab:
+    meilleure: 1960
+    indice: 0.0
+  de-tomaso:
+    meilleure: 1961
+    indice: 0.0
+  gilby:
+    meilleure: 1961
+    indice: 0.0
+  ferguson:
+    meilleure: 1961
+    indice: 0.0
+  brabham:
+    meilleure: 1966
+    indice: 0.37
+  enb:
+    meilleure: 1962
+    indice: 0.0
+  lola:
+    meilleure: 1962
+    indice: 0.062
+  lds:
+    meilleure: 1962
+    indice: 0.0
+  stebro:
+    meilleure: 1963
+    indice: 0.0
+  ats-1963:
+    meilleure: 1963
+    indice: 0.0
+  brp:
+    meilleure: 1963
+    indice: 0.0
+  alfa-special:
+    meilleure: 1963
+    indice: 0.0
+  honda-1964:
+    meilleure: 1967
+    indice: 0.051
+  derrington-francis:
+    meilleure: 1964
+    indice: 0.0
+  eagle:
+    meilleure: 1967
+    indice: 0.051
+  shannon:
+    meilleure: 1966
+    indice: 0.0
+  matra:
+    meilleure: 1969
+    indice: 0.343
+  protos:
+    meilleure: 1967
+    indice: 0.0
+  tecno:
+    meilleure: 1969
+    indice: 0.0
+  surtees:
+    meilleure: 1972
+    indice: 0.009
+  march:
+    meilleure: 1970
+    indice: 0.094
+  bellasi:
+    meilleure: 1970
+    indice: 0.0
+  wolf:
+    meilleure: 1977
+    indice: 0.137
+  connew:
+    meilleure: 1972
+    indice: 0.0
+  eifelland:
+    meilleure: 1972
+    indice: 0.0
+  shadow:
+    meilleure: 1975
+    indice: 0.079
+  ensign:
+    meilleure: 1973
+    indice: 0.0
+  amon:
+    meilleure: 1974
+    indice: 0.0
+  trojan:
+    meilleure: 1974
+    indice: 0.0
+  token:
+    meilleure: 1974
+    indice: 0.0
+  hesketh:
+    meilleure: 1975
+    indice: 0.055
+  parnelli:
+    meilleure: 1974
+    indice: 0.0
+  penske:
+    meilleure: 1976
+    indice: 0.042
+  lyncar:
+    meilleure: 1975
+    indice: 0.0
+  hill:
+    meilleure: 1975
+    indice: 0.0
+  fittipaldi:
+    meilleure: 1980
+    indice: 0.016
+  ligier:
+    meilleure: 1979
+    indice: 0.215
+  kojima:
+    meilleure: 1976
+    indice: 0.0
+  boro:
+    meilleure: 1976
+    indice: 0.0
+  renault-1977:
+    meilleure: 1982
+    indice: 0.347
+  lec:
+    meilleure: 1977
+    indice: 0.0
+  theodore-1978:
+    meilleure: 1978
+    indice: 0.0
+  arrows:
+    meilleure: 1981
+    indice: 0.037
+  merzario:
+    meilleure: 1978
+    indice: 0.0
+  martini:
+    meilleure: 1978
+    indice: 0.0
+  rebaque:
+    meilleure: 1979
+    indice: 0.0
+  osella:
+    meilleure: 1980
+    indice: 0.0
+  ram:
+    meilleure: 1981
+    indice: 0.0
+  spirit:
+    meilleure: 1983
+    indice: 0.0
+  zakspeed:
+    meilleure: 1985
+    indice: 0.0
+  ags:
+    meilleure: 1986
+    indice: 0.0
+  larrousse:
+    meilleure: 1990
+    indice: 0.007
+  coloni:
+    meilleure: 1987
+    indice: 0.0
+  scuderia-italia:
+    meilleure: 1989
+    indice: 0.007
+  rial:
+    meilleure: 1988
+    indice: 0.0
+  eurobrun:
+    meilleure: 1988
+    indice: 0.0
+  onyx:
+    meilleure: 1989
+    indice: 0.007
+  lambo:
+    meilleure: 1991
+    indice: 0.0
+  simtek:
+    meilleure: 1994
+    indice: 0.0
+  pacific:
+    meilleure: 1994
+    indice: 0.0
+  forti:
+    meilleure: 1995
+    indice: 0.0
+  toyota:
+    meilleure: 2005
+    indice: 0.064
+  super-aguri:
+    meilleure: 2006
+    indice: 0.0
+  hrt:
+    meilleure: 2010
+    indice: 0.0
+  manor:
+    meilleure: 2010
+    indice: 0.0
+  caterham:
+    meilleure: 2010
+    indice: 0.0

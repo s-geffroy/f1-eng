@@ -62,12 +62,21 @@ for p, (fm, corps) in corps_par_page.items():
         if not os.path.exists(cible):
             err(f"{p} : lien vers un fichier absent ({cible})")
     for inc in re.findall(r"\{%\s*include\s+(\S+)", corps):
-        if not os.path.exists(f"_includes/{inc}"):
+        if not inc.startswith("{{") and not os.path.exists(f"_includes/{inc}"):
             err(f"{p} : inclusion absente (_includes/{inc})")
 for p in glob.glob("_layouts/*.html") + glob.glob("_includes/*.html"):
     for inc in re.findall(r"\{%-?\s*include\s+(\S+)", open(p, encoding="utf-8").read()):
+        if inc.startswith("{{"):
+            continue            # nom calculé (compteurs des fiches) : contrôlé ci-dessous
         if not os.path.exists(f"_includes/{inc}"):
             err(f"{p} : inclusion absente (_includes/{inc})")
+# Compteurs de domination : la fiche inclut compteur/<lignée>-<langue>.svg pour chaque lignée
+# de _data/compteur.yml ; un fichier manquant arrêterait la construction.
+cp = charger_yaml("_data/compteur.yml") if os.path.exists("_data/compteur.yml") else None
+for lid in (cp or {}).get("lignees", {}):
+    for lang in LANGUES:
+        if not os.path.exists(f"_includes/compteur/{lid}-{lang}.svg"):
+            err(f"_data/compteur.yml : compteur absent (_includes/compteur/{lid}-{lang}.svg)")
 
 # 4. par langue : entrées, données, ancres
 ids_par_langue = {}

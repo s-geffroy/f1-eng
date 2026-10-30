@@ -1,0 +1,30 @@
+# Croisement formula1.com / Jolpica (successeur d'Ergast), calculé par outils/releve-jolpica.py :
+# ne pas modifier à la main. Comparaison par nom de famille, sans accents ; une course comptée
+# concordante si un pilote est commun aux deux sources (équipages partagés). absents = champ manquant
+# dans l'une des sources. Un désaccord est signalé, jamais corrigé ici.
+source: https://api.jolpi.ca/ergast/f1
+bilan:
+  vainqueur:
+    concordants: 1149
+    desaccords: 0
+    absents: 0
+  deuxieme:
+    concordants: 1148
+    desaccords: 0
+    absents: 1
+  troisieme:
+    concordants: 1148
+    desaccords: 1
+    absents: 0
+  pole:
+    concordants: 1149
+    desaccords: 0
+    absents: 0
+saisons_ecartees: []
+desaccords:
+- annee: 1983
+  gp: Brazil
+  champ: troisieme
+  formula1: Niki Lauda
+  jolpica: Jacques Laffite
+  url: https://www.formula1.com/en/results/1983/races/9/brazil/race-result

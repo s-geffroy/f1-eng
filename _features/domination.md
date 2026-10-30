@@ -8,6 +8,8 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign H = site.data.domination -%}
 {%- assign P = H.parametres -%}
 {%- assign EF = H.effectifs -%}
+{%- assign CP = site.data.compteur -%}
+{%- assign CR = site.data.croisement -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -22,6 +24,7 @@ The figures come from Formula 1's official results: the winner of each of the {{
 ## The essentials
 
 - **Dominating is common; lasting is rare.** Every season has its champions, but in seventy-six seasons hegemony is reached only {{ EF.ecurie.hegemonie }} times by a team, {{ EF.pilote.hegemonie }} times by a driver and {{ EF.motoriste.hegemonie }} times by an engine maker.
+- **Winning is not crushing.** Red Bull, from 2021 to 2023, wins 74% of the Grands Prix but starts from pole only half the time; Mercedes, from 2014 to 2021, combines wins, poles and one-twos.
 - **An innovation pays, but not for long.** The innovating team goes on average from {{ EJ.jalons[2] | times: 100 | round }}% to {{ EJ.jalons[4] | times: 100 | round }}% of wins. It returns to its starting level within four seasons.
 - **The innovations that open a long dominance almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
 - **Banning an innovation does not topple the dominant team.**
@@ -102,6 +105,39 @@ The Mercedes engine's dominance, from 2012 to 2021, begins before the Mercedes t
 Red Bull's power unit from 2021 to 2023 is counted under the name **Honda**. The official results call it Honda in 2021, then RBPT and Honda RBPT, but Honda builds it throughout. This is a reading choice: with the three names kept apart, this hegemony disappears.
 
 Isolated dominant seasons: {% include domination.html quoi="saisons" unite="motoriste" %}.
+
+## Beyond wins: poles, podiums and one-twos
+
+The degrees rest on titles and wins. Three other measures describe how a team dominates. They are recorded race by race from formula1.com:
+
+- the **share of poles**: first place on the published starting grid, after any penalties;
+- the **share of podium places**: out of the three places in each race;
+- the **share of one-twos**: the first two places for the same team or engine maker. For a driver this measure makes no sense, so the tables give the share of podium places instead.
+
+These measures describe dominance; they do not define it: a team does not change degree because of its poles. They appear in the tables above, together with the **composite index**: the simple average of the shares of wins, poles and podium places, out of 100. An index of 100 would mean winning everything, starting from pole at every race and filling the whole podium.
+
+They add nuance to the record:
+
+- **Mercedes, from 2014 to 2021, has it all**: 69% of wins, 74% of poles and a one-two in one race in three.
+- **Red Bull, from 2021 to 2023, wins more (74%), but starts from pole less than half the time, and scores a one-two in only one race in six.** Its dominance rests mostly on one driver and on race pace.
+- **McLaren, from 1988 to 1991, starts from pole 81% of the time**: the highest proportion among the hegemonies.
+- **Ferrari, from 1975 to 1979, dominates with little**: 35% of wins, 24% of poles, 6% one-twos. It owes its hegemony to a run of titles more than to crushing the field.
+
+### The most crushing seasons
+
+The composite index also makes it possible to compare seasons with each other, regardless of degree.
+
+{% include domination.html quoi="ecrasantes" unite="ecurie" %}
+
+The 1950s rank high, but with few races: in 1952 Ferrari wins seven of the eight Grands Prix, the eighth being the Indianapolis 500, which it does not win. Since then, only McLaren in 1988 and Mercedes in 2014-2016 come close over a full season. Among drivers, no season reaches 60: a driver always shares the podium with a team-mate.
+
+{% include domination.html quoi="ecrasantes" unite="pilote" %}
+
+## The dominance gauge
+
+Every [team page]({{ site.baseurl }}/en/teams/) carries a gauge. A dial gives the lineage's best season; below it, a curve follows the composite index season by season, for the factory under all its names. Titles, periods of dominance, timeline milestones and a threshold are marked on it.
+
+The threshold is not chosen by hand. It is the index value that best separates dominant seasons (title or at least {{ P.seuil | times: 100 | round }}% of wins) from the others, in the sense of *Youden's index*, which adds the share of dominant seasons above the threshold to the share of other seasons below it. It is **{{ CP.seuil | times: 100 | round }}**. Of {{ CP.saisons }} measured lineage seasons, all {{ CP.dominantes }} dominant seasons exceed it ({{ CP.dominantes_au_dessus }}). {{ CP.au_dessus | minus: CP.dominantes_au_dessus }} others exceed it too: most often teams that finished second in the constructors' championship, beaten to the title.
 
 ## Innovations and results: four comparisons
 
@@ -275,6 +311,9 @@ Results consulted on 29 October 2026 on formula1.com, for each season from 1950 
 
 - Grand Prix winners: `https://www.formula1.com/en/results/<year>/races`;
 - constructors' standings, since 1958: `…/<year>/team`;
-- drivers' standings: `…/<year>/drivers`.
+- drivers' standings: `…/<year>/drivers`;
+- for each race, the podium and the starting grid: `…/<year>/races/<race>/race-result` and `…/starting-grid`.
 
-The link to each race is kept in the site's data. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.
+The link to each race is kept in the site's data.
+
+These results were compared race by race with a second source, the open [Jolpica]({{ CR.source }}) database (successor to Ergast). Winners agree for {{ CR.bilan.vainqueur.concordants }} races out of {{ P.gp }}, poles for {{ CR.bilan.pole.concordants }}, second places for {{ CR.bilan.deuxieme.concordants }} and third places for {{ CR.bilan.troisieme.concordants }}. The only disagreement concerns the 1983 Brazilian Grand Prix: formula1.com leaves vacant the second place of the disqualified Keke Rosberg and ranks Niki Lauda third; Jolpica moves everyone up one place and ranks Jacques Laffite third. This feature follows formula1.com. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.

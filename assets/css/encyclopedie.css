@@ -1067,3 +1067,9 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 
 /* lien d'évitement interne à une page (chronologie) : apparaît à sa place au focus */
 .evitement-local:focus { position: static; display: inline-block; margin-bottom: 0.5rem; }
+
+/* Compteur de domination des fiches écuries (SVG générés par outils/domination.py) */
+.compteur { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.5rem 1rem; min-width: 36rem; }
+.compteur .compteur-cadran { flex: 0 0 13rem; height: auto; }
+.compteur .compteur-courbe { flex: 1 1 22rem; height: auto; }
+.compteur-legende { font-size: 0.9375rem; color: var(--mine); }

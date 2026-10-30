@@ -175,6 +175,22 @@ layout: default
     </section>
     {%- endif %}
 
+    {%- comment -%} Compteur de domination de chaque lignée (SVG générés par outils/domination.py ;
+      une lignée sans saison mesurée n'en a pas, d'où le test sur _data/compteur.yml). {%- endcomment -%}
+    {%- assign cp_l = "" | split: "" -%}
+    {%- for l in ses_lignees -%}{%- if site.data.compteur.lignees[l.id] -%}{%- assign cp_l = cp_l | push: l -%}{%- endif -%}{%- endfor -%}
+    {%- if cp_l.size > 0 %}
+    <section class="frise frise-fiche" aria-labelledby="titre-compteur-fiche">
+      <h2 id="titre-compteur-fiche">{{ T.ecuries.compteur_titre }}</h2>
+      {%- assign cp_seuil = site.data.compteur.seuil | times: 100 | round %}
+      <p class="compteur-legende">{{ T.ecuries.compteur_texte | replace: "%seuil%", cp_seuil }} <a href="{{ T.url.dossiers | append: 'domination/' | relative_url }}#{{ T.ecuries.compteur_ancre }}">{{ T.ecuries.compteur_lien }}</a></p>
+      {%- for l in cp_l %}
+      {%- capture cp_f %}compteur/{{ l.id }}-{{ lang }}.svg{% endcapture %}
+      <div class="frise-defilement">{% include {{ cp_f }} %}</div>
+      {%- endfor %}
+    </section>
+    {%- endif %}
+
     <section class="frise frise-fiche" aria-labelledby="titre-frise-fiche">
       <h2 id="titre-frise-fiche">{{ T.ecuries.frise_lignee }}</h2>
       {%- for l in ses_lignees %}
