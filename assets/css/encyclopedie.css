@@ -119,7 +119,7 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
 .texte th { font-family: var(--titre); font-weight: 600; font-size: 1rem; text-align: left; }
 .texte td:nth-child(n) { font-variant-numeric: lining-nums tabular-nums; }
 
-/* Graphiques des dossiers (SVG en ligne, générés par outils/hegemonies.py) */
+/* Graphiques des dossiers (SVG en ligne, générés par outils/domination.py) */
 .texte .figure { margin: 1.5em 0; padding: 0.75rem 0.75rem 0.5rem; background: var(--feuille); border: var(--trait-fort) solid var(--graphite); }
 .texte .figure svg { display: block; width: 100%; height: auto; }
 /* liens du texte courant : soulignés en encre secondaire, repérables dans un paragraphe dense */
@@ -993,17 +993,18 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .portail-frise > p { margin: 0 0 0.75rem; }
 
 /* accueil : frise des hégémonies (même grille que la frise des écuries) et dossiers */
-.portail-hegemonies { margin-top: 2.5rem; }
-.portail-hegemonies > h2 a, .portail-dossiers > h2 a { text-decoration: none; }
-.portail-hegemonies > h2 a:hover, .portail-dossiers > h2 a:hover { text-decoration: underline; }
-.hegemonies-plan .ecuries-rangee { height: 1.6rem; }
-.hegemonies-plan .ecuries-rangee.hegemonies-tete { height: 2.6rem; margin-top: 0.4rem; }
-.hegemonies-plan .ecuries-rangee:not(.hegemonies-tete) .ecuries-segments { top: 0; }
-.hegemonies-ecurie .hegemonie { background: var(--graphite); }
-.hegemonies-pilote .hegemonie { background: var(--tier-b); }
-.hegemonies-motoriste .hegemonie { background: #6a4a24; }
-.hegemonie-fragile { background: var(--feuille) !important; outline: 2px dashed var(--graphite); outline-offset: -2px; }
-.hegemonie-fragile a { color: var(--graphite); }
+.portail-domination { margin-top: 2.5rem; }
+.portail-domination > h2 a, .portail-dossiers > h2 a { text-decoration: none; }
+.portail-domination > h2 a:hover, .portail-dossiers > h2 a:hover { text-decoration: underline; }
+.domination-plan .ecuries-rangee { height: 1.6rem; }
+.domination-plan .ecuries-rangee.domination-tete { height: 2.6rem; margin-top: 0.4rem; }
+.domination-plan .ecuries-rangee:not(.domination-tete) .ecuries-segments { top: 0; }
+.domination-ecurie .domination { background: var(--graphite); }
+.domination-pilote .domination { background: var(--tier-b); }
+.domination-motoriste .domination { background: #6a4a24; }
+/* Domination sans hégémonie : en tirets, comme l'annonce le texte de l'accueil */
+.domination-domination { background: var(--feuille) !important; outline: 2px dashed var(--graphite); outline-offset: -2px; }
+.domination-domination a { color: var(--graphite); }
 .portail-dossiers { margin-top: 2.5rem; }
 .portail-dossiers > h2 { font-size: 1.75rem; margin: 0 0 0.35rem; }
 .portail-dossiers > p { margin: 0 0 0.5rem; }

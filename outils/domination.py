@@ -1,25 +1,31 @@
 #!/usr/bin/env python3
-"""Hégémonies : périodes de domination des écuries, lignées, pilotes et motoristes, et leur
+"""Domination : périodes de domination des écuries, lignées, pilotes et motoristes, et leur
 confrontation aux jalons de la chronologie, aux arrivées et départs d'ingénieurs et aux changements
 de règlement. Lit _data/resultats.yml, _data/ecuries.yml, _data/chronologie.yml ; écrit
-_data/hegemonies.yml (chiffres communs aux deux langues, page /dossiers/hegemonies/).
-Usage : python3 outils/hegemonies.py   (à relancer après outils/releve-resultats.py)
+_data/domination.yml (chiffres communs aux deux langues, page /dossiers/domination/).
+Usage : python3 outils/domination.py   (à relancer après outils/releve-resultats.py)
 
 Une saison est « dominante » pour une entité si elle y est championne ou gagne au moins SEUIL des
-Grands Prix. Une hégémonie compte au moins MIN saisons dominantes, séparées au plus par CREUX
-saison non dominante. Les mêmes calculs sont refaits avec des seuils plus stricts ou plus lâches
-(VARIANTES) : une hégémonie retrouvée dans toutes les variantes est dite robuste. Seules des
-variantes plus strictes peuvent rejeter une hégémonie (une variante plus lâche retrouve toujours
-tout) : la robustesse repose donc sur deux épreuves, seuil à 50 % et aucune saison creuse."""
+Grands Prix. Les saisons dominantes d'une entité, séparées au plus par CREUX saison non dominante,
+forment une période, classée en trois degrés :
+  - saison : une seule saison dominante ;
+  - domination : au moins DUO saisons dominantes ;
+  - hegemonie : au moins MIN saisons dominantes, et robuste.
+Les mêmes calculs sont refaits avec des seuils plus stricts (VARIANTES) : une période d'au moins MIN
+saisons retrouvée dans toutes les variantes est dite robuste. Seules des variantes plus strictes
+peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
+deux épreuves, seuil à 50 % et aucune saison creuse. Les confrontations portent sur les périodes
+d'au moins MIN saisons dominantes, robustes ou non (« longues »)."""
 import os, collections
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 SEUIL, MIN, CREUX = 0.40, 3, 1
+DUO = 2                      # seuil du degré « domination »
 VARIANTES = [(0.50, 3, 1), (0.40, 3, 0)]
 AVANT, APRES = 2, 3          # fenêtres des confrontations (saisons)
-FENETRE_JALON = 2            # une hégémonie « suit » un jalon si elle commence de Y à Y+2
+FENETRE_JALON = 2            # une domination longue « suit » un jalon si elle commence de Y à Y+2
 FENETRE_REGLE = 1            # règlement dans l'année qui précède ou de l'année même
 # Règlements d'autres catégories (Formule 2, Formule 3) : présents dans la chronologie pour leurs
 # liens, mais ce ne sont pas des changements du règlement de la F1.
@@ -135,12 +141,21 @@ def actives(ec):
     return sorted({y for l in E["lignees"] for s in l["segments"] if s["ecurie"] == ec
                    for y in range(s["de"], s["a"] + 1) if y in part["ecurie"]})
 
-hegemonies, courtes, liste_ecurie = {}, {}, []
+def degre(g, robuste):
+    return "hegemonie" if len(g) >= MIN and robuste else "domination" if len(g) >= DUO else "saison"
+
+dominations, saisons_dom, effectifs, liste_ecurie = {}, {}, {}, []
 for u in part:
-    base = detecter(u, SEUIL, MIN, CREUX)
+    base = detecter(u, SEUIL, 1, CREUX)
     variantes = [detecter(u, *v) for v in VARIANTES]
     hs = []
+    # Saisons dominantes isolées : décrites brièvement, sans confrontation.
+    saisons_dom[u] = [{"nom": nom(u, k), "annee": g[0], "titre": champion[u].get(g[0]) == k,
+                       "part": round(part[u][g[0]].get(k, 0), 3), **({"id": k} if not k.startswith("~") else {})}
+                      for k, g in sorted(base, key=lambda x: (x[1][0], x[0])) if len(g) < DUO]
     for k, g in sorted(base, key=lambda x: (x[1][0], x[0])):
+        if len(g) < DUO:
+            continue
         debut, fin = g[0], g[-1]
         span = range(debut, fin + 1)
         vic = sum(victoires[u][a].get(k, 0) for a in span)
@@ -150,7 +165,9 @@ for u in part:
              "titres": sum(1 for a in span if champion[u].get(a) == k),
              "victoires": vic, "gp": gp, "part": round(vic / gp, 3),
              "part_max": round(max(part[u][a].get(k, 0) for a in span), 3),
-             "robuste": all(recouvre(k, g, v) for v in variantes)}
+             "longue": len(g) >= MIN,
+             "robuste": len(g) >= MIN and all(recouvre(k, g, v) for v in variantes)}
+        h["degre"] = degre(g, h["robuste"])
         if h["id"] is None: del h["id"]
         if u in points and points[u]:
             pts = [points[u][a].get(k) for a in span if a in points[u]]
@@ -168,7 +185,7 @@ for u in part:
         h["associes"] = [x for x, _ in asso.most_common()]
         h["regles_debut"] = regles_autour(debut)
         h["regles_fin"] = [x["id"] for x in REGLES if fin <= x["annee"] <= fin + FENETRE_REGLE]
-        if u == "ecurie" and not k.startswith("~"):
+        if u == "ecurie" and not k.startswith("~") and h["longue"]:
             # Présents dans les trois saisons qui précèdent le début : arrivés avant, partis après.
             # Sans date de départ connue, la présence n'est sûre que pour une arrivée récente.
             h["ingenieurs"] = sorted({i for ec, i, de, a in ING_ECURIE if ec == k and de and de <= debut
@@ -179,18 +196,15 @@ for u in part:
                            and debut - 3 <= JALONS[j]["annee"] <= fin]
             liste_ecurie.append((k, debut, fin))
         hs.append(h)
-    # Rangée de la frise de l'accueil : la première dont la dernière hégémonie finit avant le début.
+    # Rangée de la frise de l'accueil : la première dont la dernière période finit avant le début.
     fins = []
     for h in hs:
         r = next((i for i, f in enumerate(fins) if f < h["debut"]), len(fins))
         fins[r:r + 1] = [h["fin"]]
         h["rangee"] = r
-    hegemonies[u] = hs
-    # Dominations de deux saisons seulement : hors hégémonie, mais citées par le dossier.
-    courtes[u] = [{"nom": nom(u, k), "debut": g[0], "fin": g[-1], "titres": sum(1 for a in g if champion[u].get(a) == k),
-                   **({"id": k} if not k.startswith("~") else {})}
-                  for k, g in sorted(detecter(u, SEUIL, 2, CREUX), key=lambda x: (x[1][0], x[0]))
-                  if not recouvre(k, g, base)]
+    dominations[u] = hs
+    effectifs[u] = {"saison": len(saisons_dom[u]), "domination": sum(h["degre"] == "domination" for h in hs),
+                    "hegemonie": sum(h["degre"] == "hegemonie" for h in hs), "longue": sum(h["longue"] for h in hs)}
 
 def debut_suit(ec, y):
     return any(e == ec and y <= d <= y + FENETRE_JALON for e, d, f in liste_ecurie)
@@ -212,7 +226,7 @@ for jid, ecs in sorted(JALON_ECURIES.items(), key=lambda x: (JALONS[x[0]]["annee
         if statut != "pendant" and (ec, y) not in vus:
             vus.add((ec, y))
             obs.append(statut == "ouvre")
-            # Témoin : même écurie, n'importe quelle saison disputée hors hégémonie.
+            # Témoin : même écurie, n'importe quelle saison disputée hors domination longue.
             libres = [a for a in actives(ec) if not pendant(ec, a)]
             attendu.append(sum(debut_suit(ec, a) for a in libres) / len(libres))
 jalons.sort(key=lambda x: (x["annee"], x["jalon"], x["ecurie"]))
@@ -283,7 +297,7 @@ etude["gain"] = moyenne([g for g in gains_j if g is not None])
 etude["gain_temoin"] = moyenne([g for g in gains_t if g is not None])
 etude["hausses"] = sum(g > 0.05 for g in gains_j if g is not None)
 
-# Probabilité exacte d'au moins autant d'hégémonies par le seul hasard (loi de Poisson binomiale,
+# Probabilité exacte d'au moins autant de dominations longues par le seul hasard (loi de Poisson binomiale,
 # chaque jalon avec la probabilité de son écurie une saison quelconque).
 dist = [1.0]
 for p in attendu:
@@ -395,15 +409,16 @@ amont_bilan["p"] = round(sum(comb(len(ouvrants), i) * q ** i * (1 - q) ** (len(o
 
 # --- Confrontation 3 : règlement ---------------------------------------------------------------
 annees_regle = [a for a in ANNEES if regles_autour(a)]
-debuts = [h for u in ("ecurie", "pilote", "motoriste") for h in hegemonies[u]]
+debuts = [h for u in ("ecurie", "pilote", "motoriste") for h in dominations[u] if h["longue"]]
 
 sortie = {
-    "parametres": {"seuil": SEUIL, "min": MIN, "creux": CREUX, "avant": AVANT, "apres": APRES,
+    "parametres": {"seuil": SEUIL, "min": MIN, "duo": DUO, "creux": CREUX, "avant": AVANT, "apres": APRES,
                    "fenetre_jalon": FENETRE_JALON, "fenetre_regle": FENETRE_REGLE,
                    "variantes": [{"seuil": s, "min": m, "creux": c} for s, m, c in VARIANTES],
                    "saisons": f"{ANNEES[0]}–{ANNEES[-1]}", "gp": sum(s["gp"] for s in R)},
-    "hegemonies": hegemonies,
-    "courtes": courtes,
+    "effectifs": effectifs,
+    "dominations": dominations,
+    "saisons_dominantes": saisons_dom,
     "jalons": jalons,
     "jalons_sans_ecurie": sans_ecurie,
     "temoin_jalons": {"n": len(obs), "ouvre": sum(obs), "attendu": round(sum(attendu), 1)},
@@ -428,14 +443,17 @@ sortie = {
                  "ecurie": max(part["ecurie"][a], key=part["ecurie"][a].get).lstrip("~"),
                  "part": round(max(part["ecurie"][a].values()), 3)} for a in ANNEES],
 }
-entete = ("# Hégémonies et confrontations, calculées par outils/hegemonies.py depuis _data/resultats.yml,\n"
+entete = ("# Dominations et confrontations, calculées par outils/domination.py depuis _data/resultats.yml,\n"
           "# _data/ecuries.yml et _data/chronologie.yml : ne pas modifier à la main, relancer le script.\n"
           "# part = part des Grands Prix gagnés ; points = part moyenne des points (écuries depuis 1958, pilotes) ;\n"
+          "# degre = saison (1 saison dominante), domination (au moins duo), hegemonie (au moins min, robuste) ;\n"
+          "# longue = au moins min saisons dominantes, robuste ou non : base des confrontations ;\n"
           "# avant / apres = part moyenne des victoires de l'écurie dans les fenêtres de la confrontation.\n")
-open("_data/hegemonies.yml", "w", encoding="utf-8").write(
+open("_data/domination.yml", "w", encoding="utf-8").write(
     entete + yaml.safe_dump(sortie, allow_unicode=True, sort_keys=False, width=1000))
-for u, hs in hegemonies.items():
-    print(f"{u} : {len(hs)} hégémonies, dont {sum(h['robuste'] for h in hs)} robustes")
+for u, n in effectifs.items():
+    print(f"{u} : {n['saison']} saisons isolées, {n['domination']} dominations, {n['hegemonie']} hégémonies "
+          f"({n['longue']} périodes longues)")
 
 # --- Graphiques (SVG en ligne, inclus par le dossier ; couleurs et polices du site) ---------------
 TEXTES = {
@@ -458,13 +476,13 @@ TEXTES = {
            "g": {"toutes": "All arrivals", "tier-a": "Arrivals, Tier A", "tiers-b-c-d": "Arrivals, Tiers B to D",
                  "hc": "Arrivals, unranked", "departs": "Departures"}},
 }
-STYLE = ("<style>.hg-t{font-family:var(--titre);font-size:14px;fill:var(--mine)}"
-         ".hg-f{font-family:var(--titre);font-size:15px;font-weight:600;fill:var(--graphite)}"
-         ".hg-g{stroke:#e1e5e7;stroke-width:1}.hg-a{stroke:var(--trait);stroke-width:1}"
-         ".hg-1{stroke:#1f5fa8;fill:none;stroke-width:2;stroke-linejoin:round}"
-         ".hg-2{stroke:#8e979d;fill:none;stroke-width:2;stroke-dasharray:6 4}"
-         ".hg-p1{fill:#1f5fa8;stroke:#fff;stroke-width:2}.hg-p2{fill:#fff;stroke:#8e979d;stroke-width:2}"
-         ".hg-l{stroke:#c2c9cc;stroke-width:2}</style>")
+STYLE = ("<style>.dm-t{font-family:var(--titre);font-size:14px;fill:var(--mine)}"
+         ".dm-f{font-family:var(--titre);font-size:15px;font-weight:600;fill:var(--graphite)}"
+         ".dm-g{stroke:#e1e5e7;stroke-width:1}.dm-a{stroke:var(--trait);stroke-width:1}"
+         ".dm-1{stroke:#1f5fa8;fill:none;stroke-width:2;stroke-linejoin:round}"
+         ".dm-2{stroke:#8e979d;fill:none;stroke-width:2;stroke-dasharray:6 4}"
+         ".dm-p1{fill:#1f5fa8;stroke:#fff;stroke-width:2}.dm-p2{fill:#fff;stroke:#8e979d;stroke-width:2}"
+         ".dm-l{stroke:#c2c9cc;stroke-width:2}</style>")
 
 def pct(x, lang):
     return f"{round(x * 100)}{TEXTES[lang]['pc']}"
@@ -474,20 +492,20 @@ def svg_etude(lang):
     g, d, h, b = 52, 150, 20, 50
     xs = lambda i: g + i * (W - g - d) / (len(K) - 1)
     ys = lambda v: Hh - b - v / 0.35 * (Hh - b - h)
-    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="hg-e-t hg-e-d">',
-         f'<title id="hg-e-t">{L["t1"]}</title>',
-         f'<desc id="hg-e-d">{L["d1"].format(n=etude["n"], a=pct(etude["jalons"][2], lang), b=pct(etude["jalons"][4], lang))}</desc>', STYLE]
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="dm-e-t dm-e-d">',
+         f'<title id="dm-e-t">{L["t1"]}</title>',
+         f'<desc id="dm-e-d">{L["d1"].format(n=etude["n"], a=pct(etude["jalons"][2], lang), b=pct(etude["jalons"][4], lang))}</desc>', STYLE]
     for v in (0, 0.1, 0.2, 0.3):
-        o.append(f'<line class="hg-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                 f'<text class="hg-t" x="{g - 8}" y="{ys(v) + 5:.1f}" text-anchor="end">{pct(v, lang)}</text>')
+        o.append(f'<line class="dm-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="dm-t" x="{g - 8}" y="{ys(v) + 5:.1f}" text-anchor="end">{pct(v, lang)}</text>')
     for i, k in enumerate(K):
-        o.append(f'<text class="hg-t" x="{xs(i):.1f}" y="{Hh - b + 20}" text-anchor="middle">{k:+d}</text>'.replace("+0", "0"))
+        o.append(f'<text class="dm-t" x="{xs(i):.1f}" y="{Hh - b + 20}" text-anchor="middle">{k:+d}</text>'.replace("+0", "0"))
     x0 = xs(K.index(0))
-    o.append(f'<line class="hg-a" x1="{x0:.1f}" x2="{x0:.1f}" y1="{h}" y2="{Hh - b}"/>'
-             f'<text class="hg-t" x="{x0 + 6:.1f}" y="{Hh - b - 8}">{L["jalon"]}</text>')
-    o.append(f'<text class="hg-t" x="{(g + W - d) / 2:.1f}" y="{Hh - 8}" text-anchor="middle">{L["x"]}</text>')
-    o.append(f'<text class="hg-t" transform="translate(14 {(h + Hh - b) / 2:.1f}) rotate(-90)" text-anchor="middle">{L["y"]}</text>')
-    for cle, cl, pc in (("temoin", "hg-2", "hg-p2"), ("jalons", "hg-1", "hg-p1")):
+    o.append(f'<line class="dm-a" x1="{x0:.1f}" x2="{x0:.1f}" y1="{h}" y2="{Hh - b}"/>'
+             f'<text class="dm-t" x="{x0 + 6:.1f}" y="{Hh - b - 8}">{L["jalon"]}</text>')
+    o.append(f'<text class="dm-t" x="{(g + W - d) / 2:.1f}" y="{Hh - 8}" text-anchor="middle">{L["x"]}</text>')
+    o.append(f'<text class="dm-t" transform="translate(14 {(h + Hh - b) / 2:.1f}) rotate(-90)" text-anchor="middle">{L["y"]}</text>')
+    for cle, cl, pc in (("temoin", "dm-2", "dm-p2"), ("jalons", "dm-1", "dm-p1")):
         pts = [(xs(i), ys(v)) for i, v in enumerate(etude[cle])]
         o.append(f'<polyline class="{cl}" points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in pts)}"/>')
         for (x, y), k, v in zip(pts, K, etude[cle]):
@@ -495,9 +513,9 @@ def svg_etude(lang):
             o.append(f'<circle class="{pc}" cx="{x:.1f}" cy="{y:.1f}" r="4"><title>{lib}, {k:+d} : {pct(v, lang)}</title></circle>'.replace("+0 :", "0 :"))
     xe = W - d + 10
     ip = max(range(len(K)), key=lambda i: etude["jalons"][i])
-    o.append(f'<text class="hg-f" x="{xs(ip) + 10:.1f}" y="{ys(etude["jalons"][ip]) - 8:.1f}">{L["s1"]}</text>')
+    o.append(f'<text class="dm-f" x="{xs(ip) + 10:.1f}" y="{ys(etude["jalons"][ip]) - 8:.1f}">{L["s1"]}</text>')
     yt = ys(etude["temoin"][-1]) - 24
-    o.append(f'<text class="hg-t" x="{xe}" y="{yt:.1f}">{L["s2"]}</text><text class="hg-t" x="{xe}" y="{yt + 16:.1f}">{L["s2b"]}</text>')
+    o.append(f'<text class="dm-t" x="{xe}" y="{yt:.1f}">{L["s2"]}</text><text class="dm-t" x="{xe}" y="{yt + 16:.1f}">{L["s2b"]}</text>')
     o.append("</svg>")
     return "".join(o)
 
@@ -506,26 +524,26 @@ def svg_ingenieurs(lang):
     g, d, h, pas = 230, 40, 46, 40
     Hh = h + pas * len(groupes_ing) + 34
     xs = lambda v: g + v * (W - g - d)
-    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="hg-i-t hg-i-d">',
-         f'<title id="hg-i-t">{L["t2"]}</title><desc id="hg-i-d">{L["d2"]}</desc>', STYLE,
-         f'<circle class="hg-p1" cx="{g + 6}" cy="16" r="5"/><text class="hg-t" x="{g + 16}" y="21">{L["obs"]}</text>',
-         f'<circle class="hg-p2" cx="{g + 110}" cy="16" r="5"/><text class="hg-t" x="{g + 120}" y="21">{L["att"]}</text>']
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="dm-i-t dm-i-d">',
+         f'<title id="dm-i-t">{L["t2"]}</title><desc id="dm-i-d">{L["d2"]}</desc>', STYLE,
+         f'<circle class="dm-p1" cx="{g + 6}" cy="16" r="5"/><text class="dm-t" x="{g + 16}" y="21">{L["obs"]}</text>',
+         f'<circle class="dm-p2" cx="{g + 110}" cy="16" r="5"/><text class="dm-t" x="{g + 120}" y="21">{L["att"]}</text>']
     for v in (0, 0.25, 0.5, 0.75, 1):
-        o.append(f'<line class="hg-g" x1="{xs(v):.1f}" x2="{xs(v):.1f}" y1="{h - 10}" y2="{Hh - 30}"/>'
-                 f'<text class="hg-t" x="{xs(v):.1f}" y="{Hh - 10}" text-anchor="middle">{pct(v, lang)}</text>')
+        o.append(f'<line class="dm-g" x1="{xs(v):.1f}" x2="{xs(v):.1f}" y1="{h - 10}" y2="{Hh - 30}"/>'
+                 f'<text class="dm-t" x="{xs(v):.1f}" y="{Hh - 10}" text-anchor="middle">{pct(v, lang)}</text>')
     for i, gr in enumerate(groupes_ing):
         y = h + pas * i + pas / 2
         ob, at = gr["hausse"] / gr["n"], gr["hausse_attendue"] / gr["n"]
-        o.append(f'<text class="hg-t" x="{g - 12}" y="{y + 5:.1f}" text-anchor="end">{L["g"][gr["groupe"]]} ({gr["n"]})</text>')
-        o.append(f'<line class="hg-l" x1="{xs(at):.1f}" x2="{xs(ob):.1f}" y1="{y:.1f}" y2="{y:.1f}"/>')
-        o.append(f'<circle class="hg-p2" cx="{xs(at):.1f}" cy="{y:.1f}" r="5"><title>{L["att"]} : {pct(at, lang)}</title></circle>')
-        o.append(f'<circle class="hg-p1" cx="{xs(ob):.1f}" cy="{y:.1f}" r="5"><title>{L["obs"]} : {pct(ob, lang)} ({gr["hausse"]}/{gr["n"]})</title></circle>')
+        o.append(f'<text class="dm-t" x="{g - 12}" y="{y + 5:.1f}" text-anchor="end">{L["g"][gr["groupe"]]} ({gr["n"]})</text>')
+        o.append(f'<line class="dm-l" x1="{xs(at):.1f}" x2="{xs(ob):.1f}" y1="{y:.1f}" y2="{y:.1f}"/>')
+        o.append(f'<circle class="dm-p2" cx="{xs(at):.1f}" cy="{y:.1f}" r="5"><title>{L["att"]} : {pct(at, lang)}</title></circle>')
+        o.append(f'<circle class="dm-p1" cx="{xs(ob):.1f}" cy="{y:.1f}" r="5"><title>{L["obs"]} : {pct(ob, lang)} ({gr["hausse"]}/{gr["n"]})</title></circle>')
         lx, anc = (xs(ob) + 10, "start") if ob >= at else (xs(ob) - 10, "end")
-        o.append(f'<text class="hg-f" x="{lx:.1f}" y="{y + 5:.1f}" text-anchor="{anc}">{pct(ob, lang)}</text>')
+        o.append(f'<text class="dm-f" x="{lx:.1f}" y="{y + 5:.1f}" text-anchor="{anc}">{pct(ob, lang)}</text>')
     o.append("</svg>")
     return "".join(o)
 
-os.makedirs("_includes/hegemonies", exist_ok=True)
+os.makedirs("_includes/domination", exist_ok=True)
 for lang in TEXTES:
-    open(f"_includes/hegemonies/etude-jalons-{lang}.svg", "w", encoding="utf-8").write(svg_etude(lang) + "\n")
-    open(f"_includes/hegemonies/ingenieurs-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs(lang) + "\n")
+    open(f"_includes/domination/etude-jalons-{lang}.svg", "w", encoding="utf-8").write(svg_etude(lang) + "\n")
+    open(f"_includes/domination/ingenieurs-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs(lang) + "\n")

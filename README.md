@@ -64,7 +64,7 @@ le constructeur natif s'y affiche.
 ```
 _config.yml          reglages : url, baseurl, collections, greffons, exclusions
 index.html           accueil : portail (ingenieurs, ecuries, voitures), frise des ecuries,
-                     frise des hegemonies, dossiers
+                     frise des dominations, dossiers
 ingenieurs.html      index alphabetique des ingenieurs, recherche et filtres
 ecuries.html         genealogie des ecuries (donnees : _data/ecuries.yml)
 cartes.html          cartes des usines, souffleries et circuits
@@ -81,16 +81,16 @@ _ingenieurs/         une entree par ingenieur  -> /ingenieurs/<id>/   (en : _eng
 _dossiers/           textes de synthese        -> /dossiers/<id>/     (en : _features/)
 _voitures/           une entree par voiture    -> /voitures/<id>/     (en : _cars/)
 _ecuries/            une fiche par ecurie      -> /ecuries/<id>/      (en : _teams/ ; outils/fiches-ecuries.py)
-_data/               donnees : ecuries, chronologie, resultats, hegemonies, i18n... (en : _data/en/)
+_data/               donnees : ecuries, chronologie, resultats, domination, i18n... (en : _data/en/)
 _layouts/            default, entree, dossier, voiture, ecurie
-_includes/           pages/ (corps des pages), frises, genealogie, carte, hegemonies, liens
+_includes/           pages/ (corps des pages), frises, genealogie, carte, domination, liens
 assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
 assets/portraits/    portraits libres de droits (credits dans les entrees)
 assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
 assets/docs/         presentation PDF telechargeable, fr et en (generee par deck/)
 outils/              scripts Python : verifier.py (avant chaque push), releve-resultats.py,
-                     hegemonies.py, fiches-ecuries.py, carte-usines.py
+                     domination.py, fiches-ecuries.py, carte-usines.py
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
@@ -210,16 +210,18 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   casse la construction (c'est arrive). Verifier avant de pousser :
   `python3 -c "import yaml,sys;[yaml.safe_load(open(f)) for f in sys.argv[1:]]" _data/*.yml`.
 
-### Hegemonies (`/dossiers/hegemonies/`)
+### Domination (`/dossiers/domination/`, ancienne adresse `/dossiers/hegemonies/` redirigee)
 
 - `_data/resultats.yml` : vainqueur de chaque GP et classements finaux 1950-2025, releves sur
   formula1.com par `python3 -I outils/releve-resultats.py <cache hors depot>`. Un nom d'equipe
   inconnu arrete le script : completer sa table, ne pas deviner.
-- `_data/hegemonies.yml` : calcule par `python3 outils/hegemonies.py` (seuils en tete du script).
+- `_data/domination.yml` : calcule par `python3 outils/domination.py` (seuils en tete du script).
+  Trois degres : saison dominante (1 saison), domination (2 saisons dominantes ou plus),
+  hegemonie (3 ou plus, robuste). Les confrontations portent sur les dominations longues (3 ou plus).
   Les deux fichiers ne s'editent jamais a la main ; relancer les scripts apres une modification
   des ecuries, des ingenieurs ou de la chronologie.
-- Tableaux du dossier : `_includes/hegemonies.html`, libelles dans `_data/i18n.yml` (hegemonies).
-  Graphiques : `_includes/hegemonies/*.svg`, generes par le meme script (ne pas editer).
+- Tableaux du dossier : `_includes/domination.html`, libelles dans `_data/i18n.yml` (domination).
+  Graphiques : `_includes/domination/*.svg`, generes par le meme script (ne pas editer).
 
 ### Regles de contenu
 

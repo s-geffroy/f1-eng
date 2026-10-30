@@ -88,10 +88,14 @@ layout: default
         {%- endfor -%}
       </dd></div>
       {%- endif %}
-      {%- assign heg_e = site.data.hegemonies.hegemonies.ecurie | where: "id", id_e %}
-      {%- if heg_e.size > 0 %}
-      <div class="case case-large"><dt>{{ T.ecuries.hegemonies }}</dt><dd>
-        {%- for h in heg_e %}<a href="{{ T.url.dossiers | append: 'hegemonies/' | relative_url }}">{{ h.debut }}–{{ h.fin }}</a> ({{ h.titres }} {{ T.portail.hegemonies_titres }}){% unless forloop.last %} ; {% endunless %}{% endfor -%}
+      {%- comment -%} Les trois degrés : périodes (domination, hégémonie), puis saisons dominantes isolées. {%- endcomment -%}
+      {%- assign dom_e = site.data.domination.dominations.ecurie | where: "id", id_e %}
+      {%- assign sais_e = site.data.domination.saisons_dominantes.ecurie | where: "id", id_e %}
+      {%- if dom_e.size > 0 or sais_e.size > 0 %}
+      {%- assign url_dom_e = T.url.dossiers | append: 'domination/' | relative_url %}
+      <div class="case case-large"><dt>{{ T.ecuries.dominations }}</dt><dd>
+        {%- for h in dom_e %}{% assign cle_d = "degre_" | append: h.degre %}<a href="{{ url_dom_e }}">{{ h.debut }}–{{ h.fin }}</a> ({{ T.domination[cle_d] }}, {{ h.titres }} {{ T.portail.domination_titres }}){% unless forloop.last and sais_e.size == 0 %} ; {% endunless %}{% endfor -%}
+        {%- for h in sais_e %}<a href="{{ url_dom_e }}">{{ h.annee }}</a> ({{ T.domination.degre_saison }}){% unless forloop.last %} ; {% endunless %}{% endfor -%}
       </dd></div>
       {%- endif %}
       {%- assign jalons_e = "" | split: "" %}

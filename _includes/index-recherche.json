@@ -42,7 +42,7 @@ présente dans plusieurs lignées (Lola, March) ou revenue dans la sienne (Renau
 {%- capture titre_c %}{{ c.annee }} — {{ c.titre }}{% endcapture -%}
 {{ sep }}{"type":"jalon","titre":{{ titre_c | jsonify }},"sous":"","url":{{ url_c | jsonify }},"texte":{{ c.texte | jsonify }}}
 {%- endfor -%}
-{%- comment -%} dossiers : la prose seule, sans les tableaux générés (Hégémonies) {%- endcomment -%}
+{%- comment -%} dossiers : la prose seule, sans les tableaux générés (Domination) {%- endcomment -%}
 {%- for d in site[T.collection_dossiers] -%}
 {%- assign morceaux = d.content | split: '<div class="table-defil"' -%}
 {%- capture prose -%}{%- for m in morceaux -%}{%- if forloop.first -%}{{ m }}{%- else -%}{{ m | split: "</table></div>" | last }}{%- endif -%}{%- endfor -%}{%- endcapture -%}

@@ -8,8 +8,8 @@
 #       pourquoi, sources : obligatoires (_dossiers/causalite.md) ; sinon le passage n'est pas publie
 # ecuries : une fiche par nom. voitures = identifiants _voitures/ (chaque voiture dans une seule ecurie),
 #   ingenieurs = [{id, de, a}] (_ingenieurs/) : de / a = premiere et derniere saison passee dans l'ecurie
-#     (emploi, pas seulement les voitures signees) ; a absent = depart non date (outils/hegemonies.py
-#     traite alors la presence comme incertaine). Une date fausse fausse le dossier Hegemonies.
+#     (emploi, pas seulement les voitures signees) ; a absent = depart non date (outils/domination.py
+#     traite alors la presence comme incertaine). Une date fausse fausse le dossier Domination.
 #   jalons = identifiants de _data/chronologie.yml,
 #   sources = saisons disputees sous ce nom.
 #   moteurs = [{motoriste, de, a, sources}] : motoristes releves dans les resultats officiels.

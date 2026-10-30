@@ -1,11 +1,13 @@
 ---
-title: "Hegemonies: when a team dominates, and what innovations change"
+title: "Dominance: when a team, a driver or an engine maker crushes the field, and what innovations change"
 ordre: 6
-resume: "Seventy-six seasons of official results to identify the periods of domination by teams, drivers and engine makers, then set them against innovations, engineers and regulations, without mistaking coincidence for cause."
-description: "Seventy-six seasons of official results to identify the periods of domination by teams, drivers and engine makers, then set them against innovations, engineers and regulations, without mistaking coincidence for cause."
+resume: "Seventy-six seasons of official results to measure the dominance of teams, drivers and engine makers, from the single season to hegemony, then set it against innovations, engineers and regulations, without mistaking coincidence for cause."
+description: "Seventy-six seasons of official results to measure the dominance of teams, drivers and engine makers, from the single season to hegemony, then set it against innovations, engineers and regulations, without mistaking coincidence for cause."
+redirect_from: "/en/features/hegemonies/"
 ---
-{%- assign H = site.data.hegemonies -%}
+{%- assign H = site.data.domination -%}
 {%- assign P = H.parametres -%}
+{%- assign EF = H.effectifs -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -13,17 +15,18 @@ description: "Seventy-six seasons of official results to identify the periods of
 {%- assign IA = H.ingenieurs_apparies -%}
 {%- assign RB = H.rebat -%}
 {%- assign AM = H.amont -%}
-The [ranking]({{ site.baseurl }}/en/features/methode/) of engineers refuses to measure influence by results. This feature asks the opposite question: **do the innovations on the [timeline]({{ site.baseurl }}/en/timeline/) show up in the results?** To answer it, we first need to know when a team, a driver or an engine maker truly dominated. These periods are then set against three things: technical milestones, engineers' arrivals and departures, and regulation changes.
+The [ranking]({{ site.baseurl }}/en/features/methode/) of engineers refuses to measure influence by results. This feature asks the opposite question: **do the innovations on the [timeline]({{ site.baseurl }}/en/timeline/) show up in the results?** To answer it, we first need to know when a team, a driver or an engine maker truly dominated, and to what degree: one season, a few seasons, or a whole era. These periods of dominance are then set against three things: technical milestones, engineers' arrivals and departures, and regulation changes.
 
 The figures come from Formula 1's official results: the winner of each of the {{ P.gp }} championship Grands Prix held from 1950 to 2025, and the final drivers' and constructors' standings. A win shared between two drivers (France 1951, Argentina 1956, Britain 1957) counts as a single race, credited to both. The figures are computed by a program, not copied by hand. The champions derived from them match, season by season, those on the [team pages]({{ site.baseurl }}/en/teams/).
 
 ## The essentials
 
+- **Dominating is common; lasting is rare.** Every season has its champions, but in seventy-six seasons hegemony is reached only {{ EF.ecurie.hegemonie }} times by a team, {{ EF.pilote.hegemonie }} times by a driver and {{ EF.motoriste.hegemonie }} times by an engine maker.
 - **An innovation pays, but not for long.** The innovating team goes on average from {{ EJ.jalons[2] | times: 100 | round }}% to {{ EJ.jalons[4] | times: 100 | round }}% of wins. It returns to its starting level within four seasons.
-- **The innovations that open a hegemony almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
+- **The innovations that open a long dominance almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
 - **Banning an innovation does not topple the dominant team.**
 - **The arrival of a Tier A engineer precedes a rise {{ IA[1].hausse }} times out of {{ IA[1].n }}**, where a comparable team would see only {{ IA[1].hausse_attendue }}. A departure changes nothing.
-- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. It is a clue, not proof. Yet such changes do not create a hegemony more often.
+- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. It is a clue, not proof. Yet such changes do not create a long dominance more often.
 
 Contents
 {:.sommaire-titre}
@@ -31,18 +34,25 @@ Contents
 * TOC
 {:toc}
 
-## What we call a hegemony
+## What we call dominance
 
 A title is not enough: it can be won narrowly. The number of wins alone is not enough either: a team can win a lot without being champion. Two criteria are therefore used. A season is **dominant** for a team, driver or engine maker that wins the title, **or** that wins at least {{ P.seuil | times: 100 | round }}% of the Grands Prix.
 
-A **hegemony** comprises at least three dominant seasons, separated by at most one lean season. The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season.
+Dominance is then measured by how long it lasts. The dominant seasons of the same competitor, separated by at most one lean season, form a period, which has one of three degrees:
 
-Two points to note:
+1. **The dominant season**: a single season, with no follow-up. [Tyrrell]({{ site.baseurl }}/en/teams/tyrrell/) in 1971, [Brawn]({{ site.baseurl }}/en/teams/brawn/) in 2009.
+2. **Dominance**: at least {{ P.duo }} dominant seasons. [McLaren]({{ site.baseurl }}/en/teams/mclaren/) in 1984 and 1985, for example.
+3. **Hegemony**: at least {{ P.min }} dominant seasons, and a result that survives every variant of the threshold (see below). The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season.
+
+Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting.
+
+Three points to note:
 
 - **Before 1958 there is no constructors' title.** The world champion's team stands in for it.
-- **The thresholds are arbitrary**, as all thresholds are. The calculation is therefore repeated with two stricter variants: at least 50% of wins, then no lean season allowed. A hegemony found in both variants is called **robust**, even if its boundaries shift a little. (A looser variant, such as "two seasons are enough", would always find everything again: it would put nothing to the test.)
+- **The thresholds are arbitrary**, as all thresholds are. The calculation is therefore repeated with two stricter variants: at least 50% of wins, then no lean season allowed. A period of at least {{ P.min }} dominant seasons found in both variants is called **robust**, even if its boundaries shift a little: this is what separates hegemony from other dominance. (A looser variant, such as "two seasons are enough", would always find everything again: it would put nothing to the test.)
+- **The comparisons in the second part concern long dominance**: at least {{ P.min }} dominant seasons, robust or not. These are the hegemonies, plus a few fragile periods, such as Lotus's from 1968 to 1973.
 
-Hegemonies are counted at four levels:
+Dominance is counted at four levels:
 
 - the **team name**;
 - the **lineage**, that is, the same factory under several names, such as [Brackley]({{ site.baseurl }}/en/teams/), from Tyrrell to Mercedes;
@@ -51,49 +61,52 @@ Hegemonies are counted at four levels:
 
 ## Teams
 
-{% include hegemonies.html quoi="tableau" unite="ecurie" %}
+{% include domination.html quoi="tableau" unite="ecurie" %}
 
-Nine hegemonies in seventy-six seasons. Three features stand out.
+In seventy-six seasons there are {{ EF.ecurie.hegemonie }} hegemonies and {{ EF.ecurie.domination }} other periods of dominance. Four features stand out.
 
-- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021. [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them. The two hegemonies of the 1960s and 1970s, those of Lotus and Ferrari, win only about a third of them.
-- **The longest is [Ferrari]({{ site.baseurl }}/en/teams/ferrari/)'s, from 1999 to 2008**: eight titles in ten seasons, with a single lean season, 2005.
-- **[Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, is not robust.** It alternates titles and lean seasons, and never exceeds 47% of wins.
+- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021. [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them. The first hegemony, [Ferrari]({{ site.baseurl }}/en/teams/ferrari/)'s from 1975 to 1979, wins only about a third of them.
+- **The longest is Ferrari's, from 1999 to 2008**: eight titles in ten seasons, with a single lean season, 2005.
+- **Before 1975, no team reaches hegemony.** The 1950s and 1960s are played out in two-season dominance: Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. The title changes hands too often for a team to settle in.
+- **Two long periods of dominance are not hegemonies.** [Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, alternates titles and lean seasons, and never exceeds 47% of wins: it does not survive the variant with no lean season. McLaren, from 1998 to 2000, does not survive the 50% threshold: it wins only 44% of the Grands Prix in 1999 and 41% in 2000.
 
-Dominations of only two seasons are not counted as hegemonies: {% include hegemonies.html quoi="courtes" unite="ecurie" %}. They would become hegemonies if two seasons were enough. The two fragile hegemonies are fragile for other reasons: Lotus's does not survive without a lean season, since it alternates titles and thin seasons; McLaren's, from 1998 to 2000, does not survive the 50% threshold, McLaren winning only 44% of the Grands Prix in 1999 and 41% in 2000.
+There are {{ EF.ecurie.saison }} dominant seasons with no follow-up: {% include domination.html quoi="saisons" unite="ecurie" %}. All are titles, sometimes won with few victories: McLaren in 1974 with 27% of the Grands Prix, Ferrari in 1964 with 30%.
 
-At the level of **lineages**, the table is almost the same. Red Bull becomes Milton Keynes, Mercedes becomes Brackley, and Enstone has only two two-season dominations, under the names Benetton (1994-1995) and Renault (2005-2006). No lineage forms a hegemony by adding up its successive names. Brackley, for example, wins with Brawn in 2009 and then with Mercedes from 2014, but the four seasons in between remain too lean.
+At the level of **lineages**, the table is almost the same. Red Bull becomes Milton Keynes, Mercedes becomes Brackley, and Enstone has only two two-season periods of dominance, under the names Benetton (1994-1995) and Renault (2005-2006). No lineage reaches hegemony by adding up its successive names. Brackley, for example, wins with Brawn in 2009 and then with Mercedes from 2014, but the four seasons in between remain too lean.
 
-{% include hegemonies.html quoi="tableau" unite="lignee" %}
+{% include domination.html quoi="tableau" unite="lignee" %}
 
 ## Drivers
 
-{% include hegemonies.html quoi="tableau" unite="pilote" %}
+{% include domination.html quoi="tableau" unite="pilote" %}
 
-Drivers' hegemonies almost always follow their team's: Schumacher with Ferrari, Vettel and Verstappen with Red Bull, Hamilton with Mercedes. There are two exceptions:
+Drivers' hegemonies follow their team's: Schumacher with Ferrari, Vettel and Verstappen with Red Bull, Hamilton with Mercedes. Only **Fangio**, from 1954 to 1957, reaches hegemony with three teams: Mercedes-Benz, Ferrari and Maserati.
 
-- **Fangio**, from 1954 to 1957, dominates with Mercedes-Benz, Ferrari and Maserati.
-- **Stewart**, from 1969 to 1973, dominates with Matra and then Tyrrell. His season with March, in 1970, is the lean season of his hegemony.
+Three long periods of driver dominance are not hegemonies:
 
-Their hegemonies span several teams: each driver changes car and keeps winning. Prost and Senna, for their part, share the same McLaren: their hegemonies overlap, and neither is robust.
+- **Stewart**, from 1969 to 1973, dominates with Matra and then Tyrrell. His season with March, in 1970, is one of his lean seasons.
+- **Prost** and **Senna** share the same McLaren: their periods of dominance overlap, and neither survives the threshold variants.
 
-Two-season dominations: {% include hegemonies.html quoi="courtes" unite="pilote" %}.
+Drivers are where the isolated season is most frequent: {{ EF.pilote.saison }} cases, {% include domination.html quoi="saisons" unite="pilote" %}. A driver can be champion with few wins: Rosberg, in 1982, wins only one.
 
 ## Engine makers
 
-{% include hegemonies.html quoi="tableau" unite="motoriste" %}
+{% include domination.html quoi="tableau" unite="motoriste" %}
 
-This is the level of the longest domination: that of the **Ford** engines, including the [Cosworth DFV]({{ site.baseurl }}/en/timeline/#j-dfv). They dominate every one of the fifteen seasons from 1968 to 1982 and win 70% of the Grands Prix, for Lotus, McLaren, Tyrrell and others.
+This is the level of the longest dominance: that of the **Ford** engines, including the [Cosworth DFV]({{ site.baseurl }}/en/timeline/#j-dfv). They dominate every one of the fifteen seasons from 1968 to 1982 and win 70% of the Grands Prix, for Lotus, McLaren, Tyrrell and others.
 
 The DFV is sold to everyone. There is therefore no matching team hegemony, but rather a succession of champion teams using the same engine. Climax before it, then Honda and Renault, dominate in the same way across several teams.
 
-The Mercedes engine's domination, from 2012 to 2021, begins before the Mercedes team's: it first wins with McLaren, then with Mercedes and Racing Point.
+The Mercedes engine's dominance, from 2012 to 2021, begins before the Mercedes team's: it first wins with McLaren, then with Mercedes and Racing Point. Before that, the Mercedes engine had already had two long periods of dominance without reaching hegemony: from 1998 to 2000 with McLaren, then from 2005 to 2009 with McLaren and finally Brawn.
 
 Red Bull's power unit from 2021 to 2023 is counted under the name **Honda**. The official results call it Honda in 2021, then RBPT and Honda RBPT, but Honda builds it throughout. This is a reading choice: with the three names kept apart, this hegemony disappears.
+
+Isolated dominant seasons: {% include domination.html quoi="saisons" unite="motoriste" %}.
 
 ## Innovations and results: four comparisons
 
 
-Hegemonies tell us who won. The question is what innovations change. Four questions are put to the data here:
+Periods of dominance tell us who won. The question is what innovations change. Four questions are put to the data here:
 
 1. What does an innovation bring to the team behind it, and for how long?
 2. Do the chains of causes traced by the timeline, from regulations to innovation, lead to wins?
@@ -104,7 +117,7 @@ The answers are summarised [at the top of the page](#the-essentials).
 
 ### Method
 
-All the measures concern the team's **share of Grands Prix won**. Two windows are compared:
+All the measures concern the team's **share of Grands Prix won**. A **long dominance** has at least {{ P.min }} dominant seasons, hegemony or not: for teams, these are the {{ EF.ecurie.hegemonie }} hegemonies, plus Lotus from 1968 to 1973 and McLaren from 1998 to 2000. Two windows are compared:
 
 - **before**: the two seasons preceding the event;
 - **after**: the three seasons starting with it.
@@ -122,7 +135,7 @@ Finally, the vocabulary is that of the [feature on causality]({{ site.baseurl }}
 We take the {{ EJ.n }} milestones attached to the team behind them. For each one, we follow the team's share of wins from three seasons before the milestone to five seasons after.
 
 <figure class="figure">
-{% include hegemonies/etude-jalons-en.svg %}
+{% include domination/etude-jalons-en.svg %}
 <figcaption>Average share of Grands Prix won by the team, season by season around the milestone (solid line), and by the same team in any season (dashes). The values for each milestone are in the detailed table below.</figcaption>
 </figure>
 
@@ -135,9 +148,9 @@ Three seasons before the milestone, nothing sets the team apart from its usual l
 
 **Not all technical tracks of the timeline pay off equally.** **Architecture** milestones (the Coopers' rear engine, the Lotus 25 monocoque, the MP4/1's carbon, the MP4/4) pay off best: five out of six are followed by a rise. **Aerodynamics** provides the most milestones, but each one pays off less, perhaps because its ideas are copied faster. The numbers are too small to go further.
 
-{% include hegemonies.html quoi="voies" %}
+{% include domination.html quoi="voies" %}
 
-**An innovation rarely founds a hegemony on its own.** Of {{ TJ.n }} milestones introduced by a team that was not yet dominating, **{{ TJ.ouvre }} shortly precede a hegemony**:
+**An innovation rarely founds a long dominance on its own.** Of {{ TJ.n }} milestones introduced by a team that was not yet dominating, **{{ TJ.ouvre }} shortly precede a long dominance**:
 
 - the [DFV]({{ site.baseurl }}/en/timeline/#j-dfv) at Lotus in 1967;
 - the [312T]({{ site.baseurl }}/en/timeline/#j-ferrari-312t) at Ferrari in 1975;
@@ -149,20 +162,20 @@ The control expects {{ TJ.attendu }}. Chance alone would produce at least as man
 
 The counter-examples are instructive:
 
-- **Innovation with no sequel.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 27% of wins, with no hegemony following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, but for only two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) brings McLaren only 13% of wins from 1981 to 1983: the 1984 and 1985 titles come with the [MP4/2]({{ site.baseurl }}/en/timeline/#j-mp4-2) and its TAG-Porsche engine.
-- **Innovation that extends a hegemony.** The [Lotus 72]({{ site.baseurl }}/en/timeline/#j-lotus-72), the [FW14B]({{ site.baseurl }}/en/timeline/#j-fw14b) and the [RB18]({{ site.baseurl }}/en/timeline/#j-rb18) arrive when their team is already dominating.
-- **Hegemony without a milestone.** No milestone accompanies Ferrari in 1999-2008, nor McLaren in 1998-2000. The milestones on the timeline do not explain them.
+- **Innovation with no sequel.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 27% of wins, with no long dominance following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, but for only two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) brings McLaren only 13% of wins from 1981 to 1983: the 1984 and 1985 titles come with the [MP4/2]({{ site.baseurl }}/en/timeline/#j-mp4-2) and its TAG-Porsche engine.
+- **Innovation that extends a dominance.** The [Lotus 72]({{ site.baseurl }}/en/timeline/#j-lotus-72), the [FW14B]({{ site.baseurl }}/en/timeline/#j-fw14b) and the [RB18]({{ site.baseurl }}/en/timeline/#j-rb18) arrive when their team is already dominating.
+- **Dominance without a milestone.** No milestone accompanies Ferrari in 1999-2008, nor McLaren in 1998-2000. The milestones on the timeline do not explain them.
 
 <details>
 <summary>The {{ EJ.n }} milestones one by one</summary>
-{% include hegemonies.html quoi="jalons" %}
+{% include domination.html quoi="jalons" %}
 </details>
 
 ### 2. From regulations to wins: the sourced chains
 
 The timeline links context events (regulations, economics, techniques from elsewhere) to the milestones they made possible or ended. Each link carries its mechanism and its level of evidence. A complete chain can therefore be followed: a regulation, the innovation it prompts, then the wins that follow.
 
-**The innovations that found a hegemony almost all respond to new regulations.** Of the {{ AM.ouvrants }} milestones that precede a hegemony, {{ AM.ouvrants_regle }} are linked by the timeline to a regulation change:
+**The innovations that found a long dominance almost all respond to new regulations.** Of the {{ AM.ouvrants }} milestones that precede a long dominance, {{ AM.ouvrants_regle }} are linked by the timeline to a regulation change:
 
 - the DFV to the [3-litre formula]({{ site.baseurl }}/en/timeline/#c-formule-3-litres) (established link);
 - the MP4/4 to the [restricted turbos and the 150-litre fuel allowance]({{ site.baseurl }}/en/timeline/#c-turbo-bride) (attested);
@@ -175,7 +188,7 @@ New regulations reset everyone to zero. Whoever answers them best starts with a 
 
 <details>
 <summary>The chains that open or transfer an innovation</summary>
-{% include hegemonies.html quoi="chaines" ferme="non" %}
+{% include domination.html quoi="chaines" ferme="non" %}
 </details>
 
 **Banning an innovation does not topple the dominant team.** When the regulations close the door on an innovation, the effect on the team that had it varies: the team sometimes falls back, but rises just as often. Twice, the ban hits a team at the top, and the team stays there:
@@ -185,14 +198,14 @@ New regulations reset everyone to zero. Whoever answers them best starts with a 
 
 What makes a domination last does not, then, come down to a single part of the car.
 
-{% include hegemonies.html quoi="chaines" ferme="oui" %}
+{% include domination.html quoi="chaines" ferme="oui" %}
 
 ### 3. Engineers
 
 For each arrival, the team's share of wins is compared over the two seasons before and the three starting with the engineer. For each departure, the last two seasons with him are compared with the next three. A rise or fall of more than 5 points is counted as such. Arrivals too recent to have three seasons of hindsight are left out.
 
 <figure class="figure">
-{% include hegemonies/ingenieurs-en.svg %}
+{% include domination/ingenieurs-en.svg %}
 <figcaption>Share of cases followed by a rise of more than 5 points (solid dot), and the share expected from the control matched on the starting level (circle). In brackets, the number of cases.</figcaption>
 </figure>
 
@@ -206,11 +219,11 @@ For Tiers B to D the gap is smaller: chance alone would produce it with a probab
 
 This does not prove that the engineer makes the team win. The control neutralises the starting level, not the trajectory or the budget. A great engineer also chooses a rising team, and a rising team has the means to hire him. But the ranking was not drawn up from results, and yet it is the Tier A engineers whose arrival most clearly precedes a rise. The two measures, one technical and one sporting, point the same way.
 
-**Who was there when each hegemony began?** An engineer is counted if he arrived before the hegemony began and did not leave more than three seasons before it began. When his departure date is not known and he arrived more than three seasons earlier, his presence is marked as uncertain.
+**Who was there when each long dominance began?** An engineer is counted if he arrived before the dominance began and did not leave more than three seasons before it began. When his departure date is not known and he arrived more than three seasons earlier, his presence is marked as uncertain.
 
-{% include hegemonies.html quoi="racines" %}
+{% include domination.html quoi="racines" %}
 
-[Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/) is present at the start of four of the nine team hegemonies: Williams 1991, McLaren 1998, Red Bull 2010 and Red Bull 2021. Two engineers are present at the start of three:
+[Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/) is present at the start of four of the {{ EF.ecurie.longue }} long periods of team dominance: Williams 1991, McLaren 1998, Red Bull 2010 and Red Bull 2021. Two engineers are present at the start of three:
 
 - [Paddy Lowe]({{ site.baseurl }}/en/engineers/paddy-lowe/): Williams 1991, McLaren 1998 and Mercedes 2014;
 - [Geoff Willis]({{ site.baseurl }}/en/engineers/geoff-willis/): Williams 1991, Red Bull 2010 and Mercedes 2014. For Red Bull, the three-season rule counts him, but he left the team in 2009, before the 2010 season.
@@ -219,14 +232,14 @@ This does not prove that the engineer makes the team win. The control neutralise
 
 <details>
 <summary>The summary and the moves one by one</summary>
-{% include hegemonies.html quoi="ingenieurs" %}
+{% include domination.html quoi="ingenieurs" %}
 </details>
 
 ### 4. Regulations: reshuffling the pack without creating a dynasty
 
 From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a regulation change on the timeline comes into force, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. Chance alone would produce such a gap with a probability of {{ RB.p | times: 100 | round }}%, above the usual 5% threshold. **New regulations therefore seem to shake up the order, though the data are not enough to prove it.**
 
-Yet they do not create dynasties more often. {{ TR.debuts_regle }} hegemony starts out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, coincide with a regulation change. Here, "coincide" means that the regulation applies in the same season or the one before; with that window, {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is roughly the same.
+Yet they do not create dynasties more often. {{ TR.debuts_regle }} starts of long dominance out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, coincide with a regulation change. Here, "coincide" means that the regulation applies in the same season or the one before; with that window, {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is roughly the same.
 
 The regulations redeal the cards. Someone still has to know how to play the new hand, and this is where parts 1 to 3 meet. The clearest coincidences:
 
@@ -238,7 +251,7 @@ The regulations redeal the cards. Someone still has to know how to play the new 
 
 ### What to take away
 
-A hegemony is rarely built on a single idea. The data rather suggest a sequence:
+Lasting dominance is rarely built on a single idea. The data rather suggest a sequence:
 
 1. **new regulations** reset the order to zero;
 2. a team answers them with an **innovation** that gives it two to three seasons' lead;
@@ -250,11 +263,11 @@ Mercedes in 2014 and Red Bull in 2010 follow this pattern almost step by step. F
 ## Limits
 
 - **Wins are not the only measure.** They ignore teams that improve without winning, and they also reflect the driver's talent, reliability and budgets.
-- **The milestones are a selection.** The timeline keeps the innovations that changed how cars are designed, not those that won races. A hegemony without a milestone may hide an innovation the timeline does not include.
+- **The milestones are a selection.** The timeline keeps the innovations that changed how cars are designed, not those that won races. A dominance without a milestone may hide an innovation the timeline does not include.
 - **Milestones are attached to teams according to the team pages.** Four milestones are attached to no team, and are therefore not counted: the [Cooper 500 prototype]({{ site.baseurl }}/en/timeline/#j-cooper-500), the [FVA]({{ site.baseurl }}/en/timeline/#j-dfv-fva), [pneumatic valve springs]({{ site.baseurl }}/en/timeline/#j-rappel-pneumatique) and the [Renault V10]({{ site.baseurl }}/en/timeline/#j-v10-renault).
 - **Engineers' dates are sometimes incomplete.** Those of the engineers named in this feature have been checked against their pages; others remain approximate. A missing departure date makes a presence uncertain, and the table says so.
 - **The Indianapolis 500 (1950-1960) counted for the championship.** It is therefore included here, won by American constructors: [Kurtis Kraft]({{ site.baseurl }}/en/teams/kurtis-kraft/) has a page, Kuzma, Watson and Epperly do not.
-- **The thresholds remain choices.** The "Robust" column shows which hegemonies withstand them.
+- **The thresholds remain choices.** The "Degree" column shows which long periods of dominance withstand them: these are the hegemonies.
 
 ## Sources
 

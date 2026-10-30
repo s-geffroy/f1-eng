@@ -1,10 +1,13 @@
-# Hégémonies et confrontations, calculées par outils/hegemonies.py depuis _data/resultats.yml,
+# Dominations et confrontations, calculées par outils/domination.py depuis _data/resultats.yml,
 # _data/ecuries.yml et _data/chronologie.yml : ne pas modifier à la main, relancer le script.
 # part = part des Grands Prix gagnés ; points = part moyenne des points (écuries depuis 1958, pilotes) ;
+# degre = saison (1 saison dominante), domination (au moins duo), hegemonie (au moins min, robuste) ;
+# longue = au moins min saisons dominantes, robuste ou non : base des confrontations ;
 # avant / apres = part moyenne des victoires de l'écurie dans les fenêtres de la confrontation.
 parametres:
   seuil: 0.4
   min: 3
+  duo: 2
   creux: 1
   avant: 2
   apres: 3
@@ -19,8 +22,156 @@ parametres:
     creux: 0
   saisons: 1950–2025
   gp: 1149
-hegemonies:
+effectifs:
   ecurie:
+    saison: 11
+    domination: 16
+    hegemonie: 7
+    longue: 9
+  lignee:
+    saison: 11
+    domination: 16
+    hegemonie: 7
+    longue: 9
+  pilote:
+    saison: 25
+    domination: 13
+    hegemonie: 5
+    longue: 8
+  motoriste:
+    saison: 7
+    domination: 10
+    hegemonie: 9
+    longue: 11
+dominations:
+  ecurie:
+  - unite: ecurie
+    id: alfa-romeo-1979
+    nom: Alfa Romeo (1950–1985)
+    debut: 1950
+    fin: 1951
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 10
+    gp: 15
+    part: 0.667
+    part_max: 0.857
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - alfa-romeo
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
+  - unite: ecurie
+    id: ferrari
+    nom: Ferrari
+    debut: 1952
+    fin: 1953
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 14
+    gp: 17
+    part: 0.824
+    part_max: 0.875
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ferrari
+    regles_debut: []
+    regles_fin:
+    - formule-2-5-litres
+    rangee: 0
+  - unite: ecurie
+    nom: Mercedes-Benz
+    debut: 1954
+    fin: 1955
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 9
+    gp: 16
+    part: 0.562
+    part_max: 0.714
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mercedes
+    regles_debut:
+    - formule-2-5-litres
+    regles_fin: []
+    rangee: 0
+  - unite: ecurie
+    id: cooper
+    nom: Cooper
+    debut: 1959
+    fin: 1960
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 11
+    gp: 19
+    part: 0.579
+    part_max: 0.6
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.223
+    associes:
+    - climax
+    regles_debut:
+    - carburant-commercial-1958
+    regles_fin: []
+    rangee: 0
+  - unite: ecurie
+    id: team-lotus
+    nom: Team Lotus
+    debut: 1963
+    fin: 1965
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 30
+    part: 0.533
+    part_max: 0.7
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.016
+    associes:
+    - climax
+    regles_debut: []
+    regles_fin:
+    - formule-3-litres
+    rangee: 0
+  - unite: ecurie
+    id: brabham
+    nom: Brabham
+    debut: 1966
+    fin: 1967
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 8
+    gp: 20
+    part: 0.4
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.008
+    associes:
+    - repco
+    regles_debut:
+    - formule-3-litres
+    regles_fin: []
+    rangee: 0
   - unite: ecurie
     id: team-lotus
     nom: Team Lotus
@@ -33,7 +184,9 @@ hegemonies:
     gp: 74
     part: 0.338
     part_max: 0.467
+    longue: true
     robuste: false
+    degre: domination
     points: 0.215
     associes:
     - ford
@@ -59,7 +212,9 @@ hegemonies:
     gp: 78
     part: 0.346
     part_max: 0.429
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.242
     associes:
     - ferrari
@@ -73,6 +228,101 @@ hegemonies:
     - ferrari-312t
     rangee: 0
   - unite: ecurie
+    id: williams
+    nom: Williams
+    debut: 1980
+    fin: 1981
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 10
+    gp: 29
+    part: 0.345
+    part_max: 0.429
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.298
+    associes:
+    - ford
+    regles_debut: []
+    regles_fin:
+    - fin-des-jupes
+    rangee: 0
+  - unite: ecurie
+    id: ferrari
+    nom: Ferrari
+    debut: 1982
+    fin: 1983
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 7
+    gp: 31
+    part: 0.226
+    part_max: 0.267
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.213
+    associes:
+    - ferrari
+    regles_debut:
+    - fin-des-jupes
+    regles_fin:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    rangee: 0
+  - unite: ecurie
+    id: mclaren
+    nom: McLaren
+    debut: 1984
+    fin: 1985
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 18
+    gp: 32
+    part: 0.562
+    part_max: 0.75
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.3
+    associes:
+    - tag
+    regles_debut:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    regles_fin:
+    - carburant-195-litres-1986
+    rangee: 0
+  - unite: ecurie
+    id: williams
+    nom: Williams
+    debut: 1986
+    fin: 1987
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 18
+    gp: 32
+    part: 0.562
+    part_max: 0.562
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.348
+    associes:
+    - honda
+    regles_debut:
+    - carburant-195-litres-1986
+    regles_fin:
+    - turbo-bride
+    rangee: 0
+  - unite: ecurie
     id: mclaren
     nom: McLaren
     debut: 1988
@@ -84,7 +334,9 @@ hegemonies:
     gp: 64
     part: 0.609
     part_max: 0.938
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.374
     associes:
     - honda
@@ -114,7 +366,9 @@ hegemonies:
     gp: 114
     part: 0.518
     part_max: 0.75
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.336
     associes:
     - renault
@@ -133,6 +387,29 @@ hegemonies:
     - fw17b
     rangee: 1
   - unite: ecurie
+    id: benetton
+    nom: Benetton
+    debut: 1994
+    fin: 1995
+    saisons: 2
+    dominantes: 2
+    titres: 1
+    victoires: 19
+    gp: 33
+    part: 0.576
+    part_max: 0.647
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.285
+    associes:
+    - renault
+    - ford
+    regles_debut:
+    - fin-aides-electroniques
+    regles_fin: []
+    rangee: 0
+  - unite: ecurie
     id: mclaren
     nom: McLaren
     debut: 1998
@@ -144,7 +421,9 @@ hegemonies:
     gp: 49
     part: 0.469
     part_max: 0.562
+    longue: true
     robuste: false
+    degre: domination
     points: 0.342
     associes:
     - mercedes
@@ -172,7 +451,9 @@ hegemonies:
     gp: 173
     part: 0.52
     part_max: 0.882
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.336
     associes:
     - ferrari
@@ -191,6 +472,50 @@ hegemonies:
     jalons: []
     rangee: 1
   - unite: ecurie
+    id: mclaren
+    nom: McLaren
+    debut: 2005
+    fin: 2007
+    saisons: 3
+    dominantes: 2
+    titres: 0
+    victoires: 18
+    gp: 54
+    part: 0.333
+    part_max: 0.526
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.134
+    associes:
+    - mercedes
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
+    rangee: 0
+  - unite: ecurie
+    id: renault
+    nom: Renault
+    debut: 2005
+    fin: 2006
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 37
+    part: 0.432
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.276
+    associes:
+    - renault
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
+    rangee: 2
+  - unite: ecurie
     id: red-bull
     nom: Red Bull
     debut: 2010
@@ -202,7 +527,9 @@ hegemonies:
     gp: 77
     part: 0.532
     part_max: 0.684
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.284
     associes:
     - renault
@@ -231,7 +558,9 @@ hegemonies:
     gp: 160
     part: 0.694
     part_max: 0.905
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.335
     associes:
     - mercedes
@@ -262,7 +591,9 @@ hegemonies:
     gp: 66
     part: 0.742
     part_max: 0.955
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.313
     associes:
     - honda
@@ -274,7 +605,153 @@ hegemonies:
     jalons:
     - rb18
     rangee: 1
+  - unite: ecurie
+    id: mclaren
+    nom: McLaren
+    debut: 2024
+    fin: 2025
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 20
+    gp: 48
+    part: 0.417
+    part_max: 0.583
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.283
+    associes:
+    - mercedes
+    regles_debut: []
+    regles_fin:
+    - reglement-2026
+    rangee: 0
   lignee:
+  - unite: lignee
+    id: alfa-romeo-1979
+    nom: Alfa Romeo (1950–1985)
+    debut: 1950
+    fin: 1951
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 10
+    gp: 15
+    part: 0.667
+    part_max: 0.857
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - alfa-romeo
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
+  - unite: lignee
+    id: ferrari
+    nom: Ferrari
+    debut: 1952
+    fin: 1953
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 14
+    gp: 17
+    part: 0.824
+    part_max: 0.875
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ferrari
+    regles_debut: []
+    regles_fin:
+    - formule-2-5-litres
+    rangee: 0
+  - unite: lignee
+    nom: Mercedes-Benz
+    debut: 1954
+    fin: 1955
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 9
+    gp: 16
+    part: 0.562
+    part_max: 0.714
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mercedes
+    regles_debut:
+    - formule-2-5-litres
+    regles_fin: []
+    rangee: 0
+  - unite: lignee
+    id: cooper
+    nom: Cooper
+    debut: 1959
+    fin: 1960
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 11
+    gp: 19
+    part: 0.579
+    part_max: 0.6
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - climax
+    regles_debut:
+    - carburant-commercial-1958
+    regles_fin: []
+    rangee: 0
+  - unite: lignee
+    id: team-lotus
+    nom: Team Lotus
+    debut: 1963
+    fin: 1965
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 30
+    part: 0.533
+    part_max: 0.7
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - climax
+    regles_debut: []
+    regles_fin:
+    - formule-3-litres
+    rangee: 0
+  - unite: lignee
+    id: brabham
+    nom: Brabham
+    debut: 1966
+    fin: 1967
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 8
+    gp: 20
+    part: 0.4
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - repco
+    regles_debut:
+    - formule-3-litres
+    regles_fin: []
+    rangee: 0
   - unite: lignee
     id: team-lotus
     nom: Team Lotus
@@ -287,7 +764,9 @@ hegemonies:
     gp: 74
     part: 0.338
     part_max: 0.467
+    longue: true
     robuste: false
+    degre: domination
     associes:
     - ford
     regles_debut: []
@@ -305,11 +784,104 @@ hegemonies:
     gp: 78
     part: 0.346
     part_max: 0.429
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - ferrari
     regles_debut: []
     regles_fin: []
+    rangee: 0
+  - unite: lignee
+    id: williams
+    nom: Williams
+    debut: 1980
+    fin: 1981
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 10
+    gp: 29
+    part: 0.345
+    part_max: 0.429
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ford
+    regles_debut: []
+    regles_fin:
+    - fin-des-jupes
+    rangee: 0
+  - unite: lignee
+    id: ferrari
+    nom: Ferrari
+    debut: 1982
+    fin: 1983
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 7
+    gp: 31
+    part: 0.226
+    part_max: 0.267
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ferrari
+    regles_debut:
+    - fin-des-jupes
+    regles_fin:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    rangee: 0
+  - unite: lignee
+    id: mclaren
+    nom: McLaren
+    debut: 1984
+    fin: 1985
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 18
+    gp: 32
+    part: 0.562
+    part_max: 0.75
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - tag
+    regles_debut:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    regles_fin:
+    - carburant-195-litres-1986
+    rangee: 0
+  - unite: lignee
+    id: williams
+    nom: Williams
+    debut: 1986
+    fin: 1987
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 18
+    gp: 32
+    part: 0.562
+    part_max: 0.562
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - honda
+    regles_debut:
+    - carburant-195-litres-1986
+    regles_fin:
+    - turbo-bride
     rangee: 0
   - unite: lignee
     id: mclaren
@@ -323,7 +895,9 @@ hegemonies:
     gp: 64
     part: 0.609
     part_max: 0.938
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - honda
     regles_debut:
@@ -342,12 +916,36 @@ hegemonies:
     gp: 114
     part: 0.518
     part_max: 0.75
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - renault
     regles_debut: []
     regles_fin: []
     rangee: 1
+  - unite: lignee
+    id: enstone
+    nom: 'Enstone : de Toleman à Alpine'
+    debut: 1994
+    fin: 1995
+    saisons: 2
+    dominantes: 2
+    titres: 1
+    victoires: 19
+    gp: 33
+    part: 0.576
+    part_max: 0.647
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - renault
+    - ford
+    regles_debut:
+    - fin-aides-electroniques
+    regles_fin: []
+    rangee: 0
   - unite: lignee
     id: mclaren
     nom: McLaren
@@ -360,7 +958,9 @@ hegemonies:
     gp: 49
     part: 0.469
     part_max: 0.562
+    longue: true
     robuste: false
+    degre: domination
     associes:
     - mercedes
     regles_debut: []
@@ -378,7 +978,9 @@ hegemonies:
     gp: 173
     part: 0.52
     part_max: 0.882
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - ferrari
     regles_debut: []
@@ -386,6 +988,48 @@ hegemonies:
     - refonte-aero-2009
     - kers-autorise-2009
     rangee: 1
+  - unite: lignee
+    id: enstone
+    nom: 'Enstone : de Toleman à Alpine'
+    debut: 2005
+    fin: 2006
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 37
+    part: 0.432
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - renault
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
+    rangee: 0
+  - unite: lignee
+    id: mclaren
+    nom: McLaren
+    debut: 2005
+    fin: 2007
+    saisons: 3
+    dominantes: 2
+    titres: 0
+    victoires: 18
+    gp: 54
+    part: 0.333
+    part_max: 0.526
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mercedes
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
+    rangee: 2
   - unite: lignee
     id: milton-keynes
     nom: 'Milton Keynes : de Stewart à Red Bull'
@@ -398,7 +1042,9 @@ hegemonies:
     gp: 77
     part: 0.532
     part_max: 0.684
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - renault
     regles_debut:
@@ -420,7 +1066,9 @@ hegemonies:
     gp: 160
     part: 0.694
     part_max: 0.905
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - mercedes
     regles_debut:
@@ -440,13 +1088,79 @@ hegemonies:
     gp: 66
     part: 0.742
     part_max: 0.955
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - honda
     regles_debut: []
     regles_fin: []
     rangee: 1
+  - unite: lignee
+    id: mclaren
+    nom: McLaren
+    debut: 2024
+    fin: 2025
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 20
+    gp: 48
+    part: 0.417
+    part_max: 0.583
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mercedes
+    regles_debut: []
+    regles_fin:
+    - reglement-2026
+    rangee: 0
   pilote:
+  - unite: pilote
+    id: Juan Manuel Fangio
+    nom: Juan Manuel Fangio
+    debut: 1950
+    fin: 1951
+    saisons: 2
+    dominantes: 2
+    titres: 1
+    victoires: 6
+    gp: 15
+    part: 0.4
+    part_max: 0.429
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.171
+    associes:
+    - alfa-romeo-1979
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
+  - unite: pilote
+    id: Alberto Ascari
+    nom: Alberto Ascari
+    debut: 1952
+    fin: 1953
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 11
+    gp: 17
+    part: 0.647
+    part_max: 0.75
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.197
+    associes:
+    - ferrari
+    regles_debut: []
+    regles_fin:
+    - formule-2-5-litres
+    rangee: 0
   - unite: pilote
     id: Juan Manuel Fangio
     nom: Juan Manuel Fangio
@@ -459,7 +1173,9 @@ hegemonies:
     gp: 32
     part: 0.531
     part_max: 0.667
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.207
     associes:
     - ~Mercedes-Benz
@@ -469,6 +1185,50 @@ hegemonies:
     - formule-2-5-litres
     regles_fin:
     - carburant-commercial-1958
+    rangee: 0
+  - unite: pilote
+    id: Jack Brabham
+    nom: Jack Brabham
+    debut: 1959
+    fin: 1960
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 7
+    gp: 19
+    part: 0.368
+    part_max: 0.5
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.165
+    associes:
+    - cooper
+    regles_debut:
+    - carburant-commercial-1958
+    regles_fin: []
+    rangee: 0
+  - unite: pilote
+    id: Jim Clark
+    nom: Jim Clark
+    debut: 1963
+    fin: 1965
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 30
+    part: 0.533
+    part_max: 0.7
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.198
+    associes:
+    - team-lotus
+    regles_debut: []
+    regles_fin:
+    - formule-3-litres
     rangee: 0
   - unite: pilote
     id: Jackie Stewart
@@ -482,7 +1242,9 @@ hegemonies:
     gp: 62
     part: 0.355
     part_max: 0.545
+    longue: true
     robuste: false
+    degre: domination
     points: 0.174
     associes:
     - tyrrell
@@ -491,6 +1253,75 @@ hegemonies:
     regles_debut:
     - interdiction-ailerons-hauts
     regles_fin: []
+    rangee: 0
+  - unite: pilote
+    id: Emerson Fittipaldi
+    nom: Emerson Fittipaldi
+    debut: 1972
+    fin: 1974
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 11
+    gp: 42
+    part: 0.262
+    part_max: 0.417
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.166
+    associes:
+    - team-lotus
+    - mclaren
+    regles_debut: []
+    regles_fin: []
+    rangee: 1
+  - unite: pilote
+    id: Niki Lauda
+    nom: Niki Lauda
+    debut: 1975
+    fin: 1977
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 13
+    gp: 47
+    part: 0.277
+    part_max: 0.357
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.179
+    associes:
+    - ferrari
+    regles_debut: []
+    regles_fin:
+    - ventilateur-ecarte-1978
+    rangee: 0
+  - unite: pilote
+    id: Nelson Piquet
+    nom: Nelson Piquet
+    debut: 1981
+    fin: 1983
+    saisons: 3
+    dominantes: 2
+    titres: 2
+    victoires: 7
+    gp: 46
+    part: 0.152
+    part_max: 0.2
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.114
+    associes:
+    - brabham
+    regles_debut:
+    - fin-des-jupes
+    regles_fin:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
     rangee: 0
   - unite: pilote
     id: Alain Prost
@@ -504,7 +1335,9 @@ hegemonies:
     gp: 96
     part: 0.312
     part_max: 0.438
+    longue: true
     robuste: false
+    degre: domination
     points: 0.182
     associes:
     - mclaren
@@ -527,7 +1360,9 @@ hegemonies:
     gp: 64
     part: 0.422
     part_max: 0.5
+    longue: true
     robuste: false
+    degre: domination
     points: 0.206
     associes:
     - mclaren
@@ -535,6 +1370,49 @@ hegemonies:
     - turbo-bride
     regles_fin: []
     rangee: 1
+  - unite: pilote
+    id: Michael Schumacher
+    nom: Michael Schumacher
+    debut: 1994
+    fin: 1995
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 17
+    gp: 33
+    part: 0.515
+    part_max: 0.529
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.226
+    associes:
+    - benetton
+    regles_debut:
+    - fin-aides-electroniques
+    regles_fin: []
+    rangee: 0
+  - unite: pilote
+    id: Mika Hakkinen
+    nom: Mika Hakkinen
+    debut: 1998
+    fin: 1999
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 13
+    gp: 32
+    part: 0.406
+    part_max: 0.5
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.212
+    associes:
+    - mclaren
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
   - unite: pilote
     id: Michael Schumacher
     nom: Michael Schumacher
@@ -547,13 +1425,37 @@ hegemonies:
     gp: 85
     part: 0.565
     part_max: 0.722
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.242
     associes:
     - ferrari
     regles_debut: []
     regles_fin:
     - boites-sans-coupure-autorisees
+    rangee: 0
+  - unite: pilote
+    id: Fernando Alonso
+    nom: Fernando Alonso
+    debut: 2005
+    fin: 2006
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 14
+    gp: 37
+    part: 0.378
+    part_max: 0.389
+    longue: false
+    robuste: false
+    degre: domination
+    points: 0.186
+    associes:
+    - renault
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
     rangee: 0
   - unite: pilote
     id: Sebastian Vettel
@@ -567,7 +1469,9 @@ hegemonies:
     gp: 77
     part: 0.442
     part_max: 0.684
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.171
     associes:
     - red-bull
@@ -590,7 +1494,9 @@ hegemonies:
     gp: 138
     part: 0.529
     part_max: 0.647
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.19
     associes:
     - mercedes
@@ -610,7 +1516,9 @@ hegemonies:
     gp: 90
     part: 0.589
     part_max: 0.864
+    longue: true
     robuste: true
+    degre: hegemonie
     points: 0.193
     associes:
     - red-bull
@@ -618,6 +1526,68 @@ hegemonies:
     regles_fin: []
     rangee: 0
   motoriste:
+  - unite: motoriste
+    id: alfa-romeo
+    nom: Alfa Romeo
+    debut: 1950
+    fin: 1951
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 10
+    gp: 15
+    part: 0.667
+    part_max: 0.857
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - alfa-romeo-1979
+    regles_debut: []
+    regles_fin: []
+    rangee: 0
+  - unite: motoriste
+    id: ferrari
+    nom: Ferrari
+    debut: 1952
+    fin: 1953
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 14
+    gp: 17
+    part: 0.824
+    part_max: 0.875
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ferrari
+    regles_debut: []
+    regles_fin:
+    - formule-2-5-litres
+    rangee: 0
+  - unite: motoriste
+    id: mercedes
+    nom: Mercedes
+    debut: 1954
+    fin: 1955
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 9
+    gp: 16
+    part: 0.562
+    part_max: 0.714
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ~Mercedes-Benz
+    regles_debut:
+    - formule-2-5-litres
+    regles_fin: []
+    rangee: 0
   - unite: motoriste
     id: climax
     nom: Climax
@@ -630,7 +1600,9 @@ hegemonies:
     gp: 66
     part: 0.576
     part_max: 0.8
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - team-lotus
     - cooper
@@ -639,6 +1611,27 @@ hegemonies:
     - carburant-commercial-1958
     regles_fin:
     - formule-3-litres
+    rangee: 0
+  - unite: motoriste
+    id: repco
+    nom: Repco
+    debut: 1966
+    fin: 1967
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 8
+    gp: 20
+    part: 0.4
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - brabham
+    regles_debut:
+    - formule-3-litres
+    regles_fin: []
     rangee: 0
   - unite: motoriste
     id: ford
@@ -652,7 +1645,9 @@ hegemonies:
     gp: 212
     part: 0.698
     part_max: 1.0
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - team-lotus
     - mclaren
@@ -683,12 +1678,62 @@ hegemonies:
     gp: 78
     part: 0.346
     part_max: 0.429
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - ferrari
     regles_debut: []
     regles_fin: []
     rangee: 1
+  - unite: motoriste
+    id: ferrari
+    nom: Ferrari
+    debut: 1982
+    fin: 1983
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 7
+    gp: 31
+    part: 0.226
+    part_max: 0.267
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - ferrari
+    regles_debut:
+    - fin-des-jupes
+    regles_fin:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    rangee: 1
+  - unite: motoriste
+    id: tag
+    nom: TAG
+    debut: 1984
+    fin: 1985
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 18
+    gp: 32
+    part: 0.562
+    part_max: 0.75
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mclaren
+    regles_debut:
+    - fond-plat
+    - quatre-roues-au-plus
+    - carburant-220-litres-1984
+    regles_fin:
+    - carburant-195-litres-1986
+    rangee: 0
   - unite: motoriste
     id: honda
     nom: Honda
@@ -701,7 +1746,9 @@ hegemonies:
     gp: 96
     part: 0.615
     part_max: 0.938
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - mclaren
     - williams
@@ -722,7 +1769,9 @@ hegemonies:
     gp: 114
     part: 0.623
     part_max: 0.941
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - williams
     - benetton
@@ -741,7 +1790,9 @@ hegemonies:
     gp: 49
     part: 0.469
     part_max: 0.562
+    longue: true
     robuste: false
+    degre: domination
     associes:
     - mclaren
     regles_debut: []
@@ -759,7 +1810,9 @@ hegemonies:
     gp: 173
     part: 0.526
     part_max: 0.882
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - ferrari
     - toro-rosso
@@ -780,7 +1833,9 @@ hegemonies:
     gp: 89
     part: 0.382
     part_max: 0.588
+    longue: true
     robuste: false
+    degre: domination
     associes:
     - mclaren
     - brawn
@@ -794,6 +1849,27 @@ hegemonies:
   - unite: motoriste
     id: renault
     nom: Renault
+    debut: 2005
+    fin: 2006
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 16
+    gp: 37
+    part: 0.432
+    part_max: 0.444
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - renault
+    regles_debut:
+    - boites-sans-coupure-autorisees
+    regles_fin: []
+    rangee: 2
+  - unite: motoriste
+    id: renault
+    nom: Renault
     debut: 2010
     fin: 2013
     saisons: 4
@@ -803,7 +1879,9 @@ hegemonies:
     gp: 77
     part: 0.571
     part_max: 0.737
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - red-bull
     - lotus-f1
@@ -827,7 +1905,9 @@ hegemonies:
     gp: 199
     part: 0.623
     part_max: 0.905
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - mercedes
     - mclaren
@@ -851,245 +1931,311 @@ hegemonies:
     gp: 66
     part: 0.742
     part_max: 0.955
+    longue: true
     robuste: true
+    degre: hegemonie
     associes:
     - red-bull
     regles_debut: []
     regles_fin: []
     rangee: 0
-courtes:
+  - unite: motoriste
+    id: mercedes
+    nom: Mercedes
+    debut: 2024
+    fin: 2025
+    saisons: 2
+    dominantes: 2
+    titres: 2
+    victoires: 26
+    gp: 48
+    part: 0.542
+    part_max: 0.667
+    longue: false
+    robuste: false
+    degre: domination
+    associes:
+    - mclaren
+    - mercedes
+    regles_debut: []
+    regles_fin:
+    - reglement-2026
+    rangee: 0
+saisons_dominantes:
   ecurie:
-  - nom: Alfa Romeo (1950–1985)
-    debut: 1950
-    fin: 1951
-    titres: 2
-    id: alfa-romeo-1979
   - nom: Ferrari
-    debut: 1952
-    fin: 1953
-    titres: 2
+    annee: 1956
+    titre: true
+    part: 0.625
     id: ferrari
-  - nom: Mercedes-Benz
-    debut: 1954
-    fin: 1955
-    titres: 2
-  - nom: Cooper
-    debut: 1959
-    fin: 1960
-    titres: 2
-    id: cooper
+  - nom: Maserati
+    annee: 1957
+    titre: true
+    part: 0.5
+    id: maserati
+  - nom: Vanwall
+    annee: 1958
+    titre: true
+    part: 0.545
+    id: vanwall
+  - nom: Ferrari
+    annee: 1961
+    titre: true
+    part: 0.625
+    id: ferrari
+  - nom: BRM
+    annee: 1962
+    titre: true
+    part: 0.444
+    id: brm
+  - nom: Ferrari
+    annee: 1964
+    titre: true
+    part: 0.3
+    id: ferrari
+  - nom: Matra
+    annee: 1969
+    titre: true
+    part: 0.545
+    id: matra
+  - nom: Tyrrell
+    annee: 1971
+    titre: true
+    part: 0.636
+    id: tyrrell
+  - nom: McLaren
+    annee: 1974
+    titre: true
+    part: 0.267
+    id: mclaren
   - nom: Team Lotus
-    debut: 1963
-    fin: 1965
-    titres: 2
+    annee: 1978
+    titre: true
+    part: 0.5
     id: team-lotus
-  - nom: Brabham
-    debut: 1966
-    fin: 1967
-    titres: 2
-    id: brabham
-  - nom: Williams
-    debut: 1980
-    fin: 1981
-    titres: 2
-    id: williams
-  - nom: Ferrari
-    debut: 1982
-    fin: 1983
-    titres: 2
-    id: ferrari
-  - nom: McLaren
-    debut: 1984
-    fin: 1985
-    titres: 2
-    id: mclaren
-  - nom: Williams
-    debut: 1986
-    fin: 1987
-    titres: 2
-    id: williams
-  - nom: Benetton
-    debut: 1994
-    fin: 1995
-    titres: 1
-    id: benetton
-  - nom: McLaren
-    debut: 2005
-    fin: 2007
-    titres: 0
-    id: mclaren
-  - nom: Renault
-    debut: 2005
-    fin: 2006
-    titres: 2
-    id: renault
-  - nom: McLaren
-    debut: 2024
-    fin: 2025
-    titres: 2
-    id: mclaren
+  - nom: Brawn
+    annee: 2009
+    titre: true
+    part: 0.471
+    id: brawn
   lignee:
-  - nom: Alfa Romeo (1950–1985)
-    debut: 1950
-    fin: 1951
-    titres: 2
-    id: alfa-romeo-1979
   - nom: Ferrari
-    debut: 1952
-    fin: 1953
-    titres: 2
+    annee: 1956
+    titre: true
+    part: 0.625
     id: ferrari
-  - nom: Mercedes-Benz
-    debut: 1954
-    fin: 1955
-    titres: 2
-  - nom: Cooper
-    debut: 1959
-    fin: 1960
-    titres: 2
-    id: cooper
+  - nom: Maserati
+    annee: 1957
+    titre: true
+    part: 0.5
+    id: maserati
+  - nom: Vanwall
+    annee: 1958
+    titre: true
+    part: 0.545
+    id: vanwall
+  - nom: Ferrari
+    annee: 1961
+    titre: true
+    part: 0.625
+    id: ferrari
+  - nom: BRM
+    annee: 1962
+    titre: true
+    part: 0.444
+    id: brm
+  - nom: Ferrari
+    annee: 1964
+    titre: true
+    part: 0.3
+    id: ferrari
+  - nom: Matra
+    annee: 1969
+    titre: true
+    part: 0.545
+    id: matra
+  - nom: 'Brackley : de Tyrrell à Mercedes'
+    annee: 1971
+    titre: true
+    part: 0.636
+    id: brackley
+  - nom: McLaren
+    annee: 1974
+    titre: true
+    part: 0.267
+    id: mclaren
   - nom: Team Lotus
-    debut: 1963
-    fin: 1965
-    titres: 2
+    annee: 1978
+    titre: true
+    part: 0.5
     id: team-lotus
-  - nom: Brabham
-    debut: 1966
-    fin: 1967
-    titres: 2
-    id: brabham
-  - nom: Williams
-    debut: 1980
-    fin: 1981
-    titres: 2
-    id: williams
-  - nom: Ferrari
-    debut: 1982
-    fin: 1983
-    titres: 2
-    id: ferrari
-  - nom: McLaren
-    debut: 1984
-    fin: 1985
-    titres: 2
-    id: mclaren
-  - nom: Williams
-    debut: 1986
-    fin: 1987
-    titres: 2
-    id: williams
-  - nom: 'Enstone : de Toleman à Alpine'
-    debut: 1994
-    fin: 1995
-    titres: 1
-    id: enstone
-  - nom: 'Enstone : de Toleman à Alpine'
-    debut: 2005
-    fin: 2006
-    titres: 2
-    id: enstone
-  - nom: McLaren
-    debut: 2005
-    fin: 2007
-    titres: 0
-    id: mclaren
-  - nom: McLaren
-    debut: 2024
-    fin: 2025
-    titres: 2
-    id: mclaren
+  - nom: 'Brackley : de Tyrrell à Mercedes'
+    annee: 2009
+    titre: true
+    part: 0.471
+    id: brackley
   pilote:
-  - nom: Juan Manuel Fangio
-    debut: 1950
-    fin: 1951
-    titres: 1
-    id: Juan Manuel Fangio
-  - nom: Alberto Ascari
-    debut: 1952
-    fin: 1953
-    titres: 2
-    id: Alberto Ascari
+  - nom: Nino Farina
+    annee: 1950
+    titre: true
+    part: 0.429
+    id: Nino Farina
+  - nom: Mike Hawthorn
+    annee: 1958
+    titre: true
+    part: 0.091
+    id: Mike Hawthorn
+  - nom: Phil Hill
+    annee: 1961
+    titre: true
+    part: 0.25
+    id: Phil Hill
+  - nom: Graham Hill
+    annee: 1962
+    titre: true
+    part: 0.444
+    id: Graham Hill
+  - nom: John Surtees
+    annee: 1964
+    titre: true
+    part: 0.2
+    id: John Surtees
   - nom: Jack Brabham
-    debut: 1959
-    fin: 1960
-    titres: 2
+    annee: 1966
+    titre: true
+    part: 0.444
     id: Jack Brabham
-  - nom: Jim Clark
-    debut: 1963
-    fin: 1965
-    titres: 2
-    id: Jim Clark
-  - nom: Emerson Fittipaldi
-    debut: 1972
-    fin: 1974
-    titres: 2
-    id: Emerson Fittipaldi
+  - nom: Denny Hulme
+    annee: 1967
+    titre: true
+    part: 0.182
+    id: Denny Hulme
+  - nom: Graham Hill
+    annee: 1968
+    titre: true
+    part: 0.25
+    id: Graham Hill
+  - nom: Jochen Rindt
+    annee: 1970
+    titre: true
+    part: 0.385
+    id: Jochen Rindt
+  - nom: James Hunt
+    annee: 1976
+    titre: true
+    part: 0.375
+    id: James Hunt
+  - nom: Mario Andretti
+    annee: 1978
+    titre: true
+    part: 0.375
+    id: Mario Andretti
+  - nom: Jody Scheckter
+    annee: 1979
+    titre: true
+    part: 0.2
+    id: Jody Scheckter
+  - nom: Alan Jones
+    annee: 1980
+    titre: true
+    part: 0.357
+    id: Alan Jones
+  - nom: Keke Rosberg
+    annee: 1982
+    titre: true
+    part: 0.062
+    id: Keke Rosberg
   - nom: Niki Lauda
-    debut: 1975
-    fin: 1977
-    titres: 2
+    annee: 1984
+    titre: true
+    part: 0.312
     id: Niki Lauda
   - nom: Nelson Piquet
-    debut: 1981
-    fin: 1983
-    titres: 2
+    annee: 1987
+    titre: true
+    part: 0.188
     id: Nelson Piquet
-  - nom: Michael Schumacher
-    debut: 1994
-    fin: 1995
-    titres: 2
-    id: Michael Schumacher
-  - nom: Mika Hakkinen
-    debut: 1998
-    fin: 1999
-    titres: 2
-    id: Mika Hakkinen
-  - nom: Fernando Alonso
-    debut: 2005
-    fin: 2006
-    titres: 2
-    id: Fernando Alonso
+  - nom: Nigel Mansell
+    annee: 1992
+    titre: true
+    part: 0.562
+    id: Nigel Mansell
+  - nom: Alain Prost
+    annee: 1993
+    titre: true
+    part: 0.438
+    id: Alain Prost
+  - nom: Damon Hill
+    annee: 1996
+    titre: true
+    part: 0.5
+    id: Damon Hill
+  - nom: Jacques Villeneuve
+    annee: 1997
+    titre: true
+    part: 0.412
+    id: Jacques Villeneuve
+  - nom: Kimi Räikkönen
+    annee: 2007
+    titre: true
+    part: 0.353
+    id: Kimi Räikkönen
+  - nom: Lewis Hamilton
+    annee: 2008
+    titre: true
+    part: 0.278
+    id: Lewis Hamilton
+  - nom: Jenson Button
+    annee: 2009
+    titre: true
+    part: 0.353
+    id: Jenson Button
+  - nom: Nico Rosberg
+    annee: 2016
+    titre: true
+    part: 0.429
+    id: Nico Rosberg
+  - nom: Lando Norris
+    annee: 2025
+    titre: true
+    part: 0.292
+    id: Lando Norris
   motoriste:
-  - nom: Alfa Romeo
-    debut: 1950
-    fin: 1951
-    titres: 2
-    id: alfa-romeo
   - nom: Ferrari
-    debut: 1952
-    fin: 1953
-    titres: 2
+    annee: 1956
+    titre: true
+    part: 0.625
     id: ferrari
-  - nom: Mercedes
-    debut: 1954
-    fin: 1955
-    titres: 2
-    id: mercedes
-  - nom: Repco
-    debut: 1966
-    fin: 1967
-    titres: 2
-    id: repco
+  - nom: Maserati
+    annee: 1957
+    titre: true
+    part: 0.5
+    id: maserati
+  - nom: Vanwall
+    annee: 1958
+    titre: true
+    part: 0.545
+    id: vanwall
   - nom: Ferrari
-    debut: 1982
-    fin: 1983
-    titres: 2
+    annee: 1961
+    titre: true
+    part: 0.625
     id: ferrari
-  - nom: TAG
-    debut: 1984
-    fin: 1985
-    titres: 2
-    id: tag
-  - nom: Renault
-    debut: 2005
-    fin: 2006
-    titres: 2
-    id: renault
-  - nom: Mercedes
-    debut: 2024
-    fin: 2025
-    titres: 2
-    id: mercedes
+  - nom: BRM
+    annee: 1962
+    titre: true
+    part: 0.444
+    id: brm
+  - nom: Ferrari
+    annee: 1964
+    titre: true
+    part: 0.3
+    id: ferrari
+  - nom: Ford
+    annee: 1994
+    titre: false
+    part: 0.5
+    id: ford
 jalons:
 - jalon: lancia-d50
   annee: 1954
