@@ -1,0 +1,4291 @@
+# Modèle de la voiture gagnante de chaque Grand Prix, saisi à la main, chaque fait sourcé
+# (recherche du 30 octobre 2026). Lu par outils/domination.py. modeles = voiture et GP gagnés avec elle ;
+# equipe_reelle = constructeur réel quand le nom de formula1.com ne correspond pas à la voiture.
+cas:
+- annee: 1950
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  modeles:
+  - voiture: Alfa Romeo 158
+    gps:
+    - Great Britain
+    - Monaco
+    - Switzerland
+    - Belgium
+    - France
+    - Italy
+  pourquoi: Le tableau des courses de l'article sur l'Alfetta attribue les six victoires européennes de 1950 au type 158.
+  sources:
+  - titre: Wikipedia, « Alfa Romeo 158/159 Alfetta »
+    url: https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta
+- annee: 1950
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  modeles:
+  - voiture: Kurtis Kraft-Offenhauser « Wynn's Friction Proofing »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: 'Johnnie Parsons gagne sur la Wynn''s Friction Proofing, châssis Kurtis à moteur Offenhauser (IMS : « Kurtis/Offy ») ; le numéro de modèle Kurtis n''est pas confirmé par une source fiable.'
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1950
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1950
+  - titre: Wikipedia, « 1950 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1950_Indianapolis_500
+- annee: 1951
+  ecurie: alfa-romeo-1979
+  equipe: Alfa Romeo
+  modeles:
+  - voiture: Alfa Romeo 159
+    gps:
+    - Switzerland
+    - Belgium
+    - France
+    - Spain
+  pourquoi: Les quatre victoires d'Alfa Romeo en 1951 (Suisse, Belgique, France, Espagne) sont toutes au type 159 dans le tableau de l'article.
+  sources:
+  - titre: Wikipedia, « Alfa Romeo 158/159 Alfetta »
+    url: https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta
+- annee: 1951
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 375 F1
+    gps:
+    - Great Britain
+    - Germany
+    - Italy
+  pourquoi: La 375 donne à Ferrari sa première victoire avec González à Silverstone, puis Ascari gagne au Nürburgring et à Monza.
+  sources:
+  - titre: Wikipedia, « Ferrari 375 F1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_375_F1
+- annee: 1951
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  modeles:
+  - voiture: Kurtis Kraft-Offenhauser « Belanger Special »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Lee Wallard gagne sur la n° 99 de Murrell Belanger, châssis Kurtis à moteur Offenhauser ; le numéro de modèle Kurtis n'est pas donné par les sources consultées.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1951
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1951
+  - titre: Wikipedia, « 1951 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
+- annee: 1952
+  ecurie: Kuzma Offenhauser
+  equipe: Kuzma Offenhauser
+  modeles:
+  - voiture: Kuzma-Offenhauser « Agajanian Special »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Troy Ruttman gagne sur la n° 98 de J. C. Agajanian, châssis Kuzma à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1952
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1952
+  - titre: Wikipedia, « 1952 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
+- annee: 1952
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 500
+    gps:
+    - Switzerland
+    - Belgium
+    - France
+    - Great Britain
+    - Germany
+    - Netherlands
+    - Italy
+  pourquoi: 'En 1952, Ferrari ne court qu''avec la 500 en championnat : Taruffi gagne en Suisse, Ascari remporte toutes les autres manches européennes.'
+  sources:
+  - titre: Wikipedia, « Ferrari 500 »
+    url: https://en.wikipedia.org/wiki/Ferrari_500
+- annee: 1953
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 500
+    gps:
+    - Argentina
+    - Netherlands
+    - Belgium
+    - France
+    - Great Britain
+    - Germany
+    - Switzerland
+  pourquoi: Selon l'article, la 500 gagne toutes les manches de 1953 sauf la dernière (Monza, gagnée par Fangio sur Maserati).
+  sources:
+  - titre: Wikipedia, « Ferrari 500 »
+    url: https://en.wikipedia.org/wiki/Ferrari_500
+- annee: 1953
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  modeles:
+  - voiture: Kurtis Kraft 500A
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Bill Vukovich gagne sur la « Fuel Injection Special » de Howard Keck, une Kurtis KK500A à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1953
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1953
+- annee: 1953
+  ecurie: maserati
+  equipe: Maserati
+  modeles:
+  - voiture: Maserati A6GCM
+    gps:
+    - Italy
+  pourquoi: Fangio gagne le Grand Prix d'Italie 1953 sur Maserati A6GCM (liste des engagés de la course).
+  sources:
+  - titre: Wikipedia, « 1953 Italian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1953_Italian_Grand_Prix
+  - titre: Wikipedia, « Maserati A6GCM »
+    url: https://en.wikipedia.org/wiki/Maserati_A6GCM
+- annee: 1954
+  ecurie: Mercedes-Benz
+  equipe: Mercedes-Benz
+  modeles:
+  - voiture: Mercedes-Benz W196
+    gps:
+    - France
+    - Germany
+    - Switzerland
+    - Italy
+  pourquoi: 'Fangio gagne les quatre courses sur W196 : carrossée « Monza » (profilée) à Reims et à Monza, monoplace à roues découvertes au Nürburgring et à Bremgarten.'
+  sources:
+  - titre: Wikipedia, « Mercedes-Benz W196 »
+    url: https://en.wikipedia.org/wiki/Mercedes-Benz_W196
+- annee: 1954
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 625 F1
+    gps:
+    - Great Britain
+  - voiture: Ferrari 553 Squalo
+    gps:
+    - Spain
+  pourquoi: González gagne à Silverstone sur 625 F1 ; Hawthorn gagne à Pedralbes sur 553 « Squalo » (listes des engagés).
+  sources:
+  - titre: Wikipedia, « 1954 British Grand Prix »
+    url: https://en.wikipedia.org/wiki/1954_British_Grand_Prix
+  - titre: Wikipedia, « 1954 Spanish Grand Prix »
+    url: https://en.wikipedia.org/wiki/1954_Spanish_Grand_Prix
+- annee: 1954
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  modeles:
+  - voiture: Kurtis Kraft 500A
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Vukovich gagne de nouveau sur la même « Fuel Injection Special », Kurtis KK500A à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1954
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1954
+- annee: 1954
+  ecurie: maserati
+  equipe: Maserati
+  modeles:
+  - voiture: Maserati 250F
+    gps:
+    - Argentina
+    - Belgium
+  pourquoi: La 250F gagne dès sa première course, en Argentine, puis à Spa, avec Fangio, avant le passage de celui-ci chez Mercedes.
+  sources:
+  - titre: Wikipedia, « Maserati 250F »
+    url: https://en.wikipedia.org/wiki/Maserati_250F
+- annee: 1955
+  ecurie: Mercedes-Benz
+  equipe: Mercedes-Benz
+  modeles:
+  - voiture: Mercedes-Benz W196
+    gps:
+    - Argentina
+    - Belgium
+    - Netherlands
+    - Great Britain
+    - Italy
+  pourquoi: La W196 gagne toutes les manches européennes de 1955 sauf Monaco ; à Monza, Fangio court en version profilée.
+  sources:
+  - titre: Wikipedia, « Mercedes-Benz W196 »
+    url: https://en.wikipedia.org/wiki/Mercedes-Benz_W196
+- annee: 1955
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 625 F1
+    gps:
+    - Monaco
+  pourquoi: Trintignant gagne sur une 625 jugée dépassée (récit de course et compte rendu de Motor Sport) ; la liste des engagés de Wikipédia indique à tort une 555.
+  sources:
+  - titre: Wikipedia, « 1955 Monaco Grand Prix »
+    url: https://en.wikipedia.org/wiki/1955_Monaco_Grand_Prix
+  - titre: Motor Sport, compte rendu du Grand Prix de Monaco 1955
+    url: https://www.motorsportmagazine.com/archive/article/june-1955/36/xiii-grand-prix-de-monaco/
+- annee: 1955
+  ecurie: kurtis-kraft
+  equipe: Kurtis Kraft Offenhauser
+  modeles:
+  - voiture: Kurtis Kraft 500D
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Bob Sweikert gagne sur la « John Zink Special », Kurtis KK500D à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1955
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1955
+  - titre: Wikipedia, « 1955 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
+- annee: 1956
+  ecurie: Watson Offenhauser
+  equipe: Watson Offenhauser
+  modeles:
+  - voiture: Watson-Offenhauser « John Zink Special »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Pat Flaherty gagne sur la John Zink, châssis Watson à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1956
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1956
+- annee: 1956
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Lancia-Ferrari D50
+    gps:
+    - Argentina
+    - Belgium
+    - France
+    - Great Britain
+    - Germany
+  pourquoi: Ferrari court en 1956 avec les D50 héritées de Lancia ; Fangio (Argentine, partagée avec Musso, Grande-Bretagne, Allemagne) et Collins (Belgique, France) gagnent avec elles.
+  sources:
+  - titre: Wikipedia, « 1956 Formula One season »
+    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Wikipedia, « Lancia D50 »
+    url: https://en.wikipedia.org/wiki/Lancia_D50
+- annee: 1956
+  ecurie: maserati
+  equipe: Maserati
+  modeles:
+  - voiture: Maserati 250F
+    gps:
+    - Monaco
+    - Italy
+  pourquoi: Moss gagne à Monaco et à Monza en 1956 sur une 250F d'usine.
+  sources:
+  - titre: Wikipedia, « Maserati 250F »
+    url: https://en.wikipedia.org/wiki/Maserati_250F
+- annee: 1957
+  ecurie: Epperly Offenhauser
+  equipe: Epperly Offenhauser
+  modeles:
+  - voiture: Salih-Offenhauser « Belond Exhaust Special »
+    gps:
+    - United States of America Indianapolis
+  equipe_reelle: Salih
+  pourquoi: 'Sam Hanks gagne sur le roadster « couché » construit par George Salih (IMS : « Salih/Offy ») ; les Epperly sont d''autres voitures du plateau, dont celle de Rathmann, deuxième.'
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1957
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1957
+  - titre: Wikipedia, « 1957 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
+- annee: 1957
+  ecurie: maserati
+  equipe: Maserati
+  modeles:
+  - voiture: Maserati 250F
+    gps:
+    - Argentina
+    - Monaco
+    - France
+    - Germany
+  pourquoi: Fangio remporte ses quatre victoires de 1957 sur 250F, la dernière au Nürburgring.
+  sources:
+  - titre: Wikipedia, « Maserati 250F »
+    url: https://en.wikipedia.org/wiki/Maserati_250F
+  - titre: Wikipedia, « 1957 Formula One season »
+    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+- annee: 1957
+  ecurie: vanwall
+  equipe: Vanwall
+  modeles:
+  - voiture: Vanwall VW5
+    gps:
+    - Great Britain
+    - Italy Pescara
+    - Italy
+  pourquoi: Brooks et Moss se partagent la victoire d'Aintree, puis Moss gagne à Pescara et à Monza, toujours sur VW5.
+  sources:
+  - titre: Wikipedia, « Vanwall VW5 »
+    url: https://en.wikipedia.org/wiki/Vanwall_VW5
+- annee: 1958
+  ecurie: Epperly Offenhauser
+  equipe: Epperly Offenhauser
+  modeles:
+  - voiture: Salih-Offenhauser « Belond AP Special »
+    gps:
+    - United States of America Indianapolis
+  equipe_reelle: Salih
+  pourquoi: 'Jimmy Bryan gagne avec le même châssis George Salih que Hanks en 1957 (IMS : « Salih/Offy ») ; ce n''est pas une Epperly.'
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1958
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1958
+  - titre: Wikipedia, « 1958 Indianapolis 500 »
+    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
+- annee: 1958
+  ecurie: cooper
+  equipe: Cooper Climax
+  modeles:
+  - voiture: Cooper T43
+    gps:
+    - Argentina
+  - voiture: Cooper T45
+    gps:
+    - Monaco
+  pourquoi: 'Deux Cooper privées de Rob Walker : Moss gagne en Argentine sur T43, Trintignant à Monaco sur T45.'
+  sources:
+  - titre: Wikipedia, « Cooper T43 »
+    url: https://en.wikipedia.org/wiki/Cooper_T43
+  - titre: Wikipedia, « Cooper T45 »
+    url: https://en.wikipedia.org/wiki/Cooper_T45
+- annee: 1958
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 246 F1
+    gps:
+    - France
+    - Great Britain
+  pourquoi: Hawthorn gagne à Reims et Collins à Silverstone, tous deux sur Dino 246.
+  sources:
+  - titre: Wikipedia, « 1958 French Grand Prix »
+    url: https://en.wikipedia.org/wiki/1958_French_Grand_Prix
+  - titre: Motor Sport, base de données, « 1958 British Grand Prix »
+    url: https://www.motorsportmagazine.com/database/races/71-1958-british-grand-prix
+- annee: 1958
+  ecurie: vanwall
+  equipe: Vanwall
+  modeles:
+  - voiture: Vanwall VW5
+    gps:
+    - Netherlands
+    - Belgium
+    - Germany
+    - Portugal
+    - Italy
+    - Morocco
+  pourquoi: Moss (Pays-Bas, Portugal, Maroc) et Brooks (Belgique, Allemagne, Italie) gagnent tous sur VW5.
+  sources:
+  - titre: Wikipedia, « Vanwall VW5 »
+    url: https://en.wikipedia.org/wiki/Vanwall_VW5
+- annee: 1959
+  ecurie: Watson Offenhauser
+  equipe: Watson Offenhauser
+  modeles:
+  - voiture: Watson-Offenhauser « Leader Card 500 Roadster »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Rodger Ward gagne sur la Leader Card 500 Roadster, châssis Watson à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1959
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1959
+- annee: 1959
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P25
+    gps:
+    - Netherlands
+  pourquoi: Bonnier offre à BRM sa première victoire, à Zandvoort, sur P25.
+  sources:
+  - titre: Wikipedia, « BRM P25 »
+    url: https://en.wikipedia.org/wiki/BRM_P25
+- annee: 1959
+  ecurie: cooper
+  equipe: Cooper Climax
+  modeles:
+  - voiture: Cooper T51
+    gps:
+    - Monaco
+    - Great Britain
+    - Portugal
+    - Italy
+    - United States of America United States
+  pourquoi: Brabham (Monaco, Grande-Bretagne) et McLaren (États-Unis) pour l'usine, Moss (Portugal, Italie) pour Rob Walker, tous sur T51.
+  sources:
+  - titre: Wikipedia, « Cooper T51 »
+    url: https://en.wikipedia.org/wiki/Cooper_T51
+- annee: 1959
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 256 F1
+    gps:
+    - France
+    - Germany
+  pourquoi: Brooks gagne en France et en Allemagne sur la 256 F1, évolution de la 246 au V6 réalésé.
+  sources:
+  - titre: Wikipedia, « Ferrari 246 F1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_246_F1
+- annee: 1960
+  ecurie: Watson Offenhauser
+  equipe: Watson Offenhauser
+  modeles:
+  - voiture: Watson-Offenhauser « Ken-Paul Special »
+    gps:
+    - United States of America Indianapolis
+  pourquoi: Jim Rathmann gagne sur la Ken-Paul, châssis Watson à moteur Offenhauser.
+  sources:
+  - titre: IMS, résultats de l'Indianapolis 500 1960
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1960
+- annee: 1960
+  ecurie: cooper
+  equipe: Cooper Climax
+  modeles:
+  - voiture: Cooper T51
+    gps:
+    - Argentina
+  - voiture: Cooper T53
+    gps:
+    - Netherlands
+    - Belgium
+    - France
+    - Great Britain
+    - Portugal
+  pourquoi: McLaren gagne en Argentine sur T51, la T53 ne débutant qu'à Monaco ; Brabham enchaîne ensuite cinq victoires sur T53.
+  sources:
+  - titre: Wikipedia, « Cooper T53 »
+    url: https://en.wikipedia.org/wiki/Cooper_T53
+  - titre: Conceptcarz, « Cooper T51 »
+    url: https://www.conceptcarz.com/w13767/cooper-t51.aspx
+  - titre: Wikipedia, « 1960 Argentine Grand Prix »
+    url: https://en.wikipedia.org/wiki/1960_Argentine_Grand_Prix
+- annee: 1960
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 246 F1
+    gps:
+    - Italy
+  pourquoi: Phil Hill gagne à Monza sur une 246 F1 à moteur avant, dernière victoire d'une voiture à moteur avant en Formule 1.
+  sources:
+  - titre: Wikipedia, « 1960 Italian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1960_Italian_Grand_Prix
+- annee: 1960
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 18
+    gps:
+    - Monaco
+    - United States of America United States
+  pourquoi: Les deux victoires sont celles de Moss sur la Lotus 18 privée de Rob Walker, non de Team Lotus.
+  sources:
+  - titre: Wikipedia, « Lotus 18 »
+    url: https://en.wikipedia.org/wiki/Lotus_18
+- annee: 1961
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 156 F1
+    gps:
+    - Netherlands
+    - Belgium
+    - France
+    - Great Britain
+    - Italy
+  pourquoi: La 156 « nez de requin » gagne cinq des huit manches ; en France, Baghetti la pilote pour la FISA.
+  sources:
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+  - titre: Wikipedia, « Ferrari 156 F1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+- annee: 1961
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 18
+    gps:
+    - Monaco
+  - voiture: Lotus 18/21
+    gps:
+    - Germany
+  - voiture: Lotus 21
+    gps:
+    - United States of America United States
+  pourquoi: Moss gagne à Monaco sur la Lotus 18 de Rob Walker, puis au Nürburgring sur la même voiture mise au type 18/21 ; Ireland donne à Team Lotus sa première victoire, à Watkins Glen, sur Lotus 21.
+  sources:
+  - titre: Wikipedia, « 1961 Monaco Grand Prix »
+    url: https://en.wikipedia.org/wiki/1961_Monaco_Grand_Prix
+  - titre: Wikipedia, « 1961 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1961_German_Grand_Prix
+  - titre: Wikipedia, « Lotus 21 »
+    url: https://en.wikipedia.org/wiki/Lotus_21
+- annee: 1962
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P57
+    gps:
+    - Netherlands
+    - Germany
+    - Italy
+    - South Africa
+  pourquoi: Graham Hill gagne à Zandvoort puis trois des quatre dernières manches (Allemagne, Italie, Afrique du Sud) sur P57.
+  sources:
+  - titre: Wikipedia, « BRM P57 »
+    url: https://en.wikipedia.org/wiki/BRM_P57
+- annee: 1962
+  ecurie: cooper
+  equipe: Cooper Climax
+  modeles:
+  - voiture: Cooper T60
+    gps:
+    - Monaco
+  pourquoi: La T60 ne gagne qu'un Grand Prix, Monaco 1962, avec Bruce McLaren.
+  sources:
+  - titre: Wikipedia, « Cooper T60 »
+    url: https://en.wikipedia.org/wiki/Cooper_T60
+- annee: 1962
+  ecurie: porsche
+  equipe: Porsche
+  modeles:
+  - voiture: Porsche 804
+    gps:
+    - France
+  pourquoi: Gurney gagne à Rouen sur 804, seule victoire de Porsche comme constructeur.
+  sources:
+  - titre: Wikipedia, « Porsche 804 »
+    url: https://en.wikipedia.org/wiki/Porsche_804
+- annee: 1962
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 25
+    gps:
+    - Belgium
+    - Great Britain
+    - United States of America United States
+  pourquoi: Clark gagne à Spa, en Grande-Bretagne et aux États-Unis sur la 25 monocoque.
+  sources:
+  - titre: Wikipedia, « Lotus 25 »
+    url: https://en.wikipedia.org/wiki/Lotus_25
+- annee: 1963
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P57
+    gps:
+    - Monaco
+    - United States of America United States
+  pourquoi: Graham Hill gagne à Monaco et aux États-Unis sur P57.
+  sources:
+  - titre: Wikipedia, « BRM P57 »
+    url: https://en.wikipedia.org/wiki/BRM_P57
+- annee: 1963
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 156/63
+    gps:
+    - Germany
+  pourquoi: Surtees gagne au Nürburgring sur la 156/63 (légende de Motor Sport), évolution de la 156 aussi appelée « 156 Aero ».
+  sources:
+  - titre: Motor Sport, compte rendu du Grand Prix d'Allemagne 1963
+    url: https://www.motorsportmagazine.com/archive/article/september-1963/28/the-25th-german-grand-prix
+- annee: 1963
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 25
+    gps:
+    - Belgium
+    - Netherlands
+    - France
+    - Great Britain
+    - Italy
+    - Mexico
+    - South Africa
+  pourquoi: Les sept victoires de Clark en 1963 sont toutes acquises sur la 25.
+  sources:
+  - titre: Wikipedia, « Lotus 25 »
+    url: https://en.wikipedia.org/wiki/Lotus_25
+- annee: 1964
+  ecurie: brabham
+  equipe: Brabham Climax
+  modeles:
+  - voiture: Brabham BT7
+    gps:
+    - France
+    - Mexico
+  pourquoi: Gurney donne à Brabham ses deux premières victoires, à Rouen et à Mexico, sur BT7.
+  sources:
+  - titre: Wikipedia, « Brabham BT7 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT7
+- annee: 1964
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P261
+    gps:
+    - Monaco
+    - United States of America United States
+  pourquoi: Graham Hill gagne à Monaco et aux États-Unis sur P261.
+  sources:
+  - titre: Wikipedia, « BRM P261 »
+    url: https://en.wikipedia.org/wiki/BRM_P261
+- annee: 1964
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 158
+    gps:
+    - Germany
+    - Italy
+  - voiture: Ferrari 156 Aero
+    gps:
+    - Austria
+  pourquoi: Surtees remporte ses deux victoires de 1964, au Nürburgring et à Monza, sur 158 ; Bandini signe en Autriche la dernière victoire de la 156, dans sa version 1963-1964 dite « Aero ».
+  sources:
+  - titre: Wikipedia, « Ferrari 158 »
+    url: https://en.wikipedia.org/wiki/Ferrari_158
+  - titre: Wikipedia, « 1964 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1964_German_Grand_Prix
+  - titre: Wikipedia, « 1964 Italian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1964_Italian_Grand_Prix
+  - titre: Wikipedia, « Ferrari 156 F1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+- annee: 1964
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 25
+    gps:
+    - Netherlands
+    - Belgium
+    - Great Britain
+  pourquoi: Clark gagne trois courses en 1964 sur la 25 ; la 33, apparue cette année-là, ne gagne qu'à partir de 1965.
+  sources:
+  - titre: Wikipedia, « Lotus 25 »
+    url: https://en.wikipedia.org/wiki/Lotus_25
+  - titre: Wikipedia, « Lotus 33 »
+    url: https://en.wikipedia.org/wiki/Lotus_33
+- annee: 1965
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P261
+    gps:
+    - Monaco
+    - Italy
+    - United States of America United States
+  pourquoi: Hill gagne à Monaco et aux États-Unis, Stewart remporte à Monza sa première victoire, tous sur P261.
+  sources:
+  - titre: Wikipedia, « BRM P261 »
+    url: https://en.wikipedia.org/wiki/BRM_P261
+- annee: 1965
+  ecurie: honda-1964
+  equipe: Honda
+  modeles:
+  - voiture: Honda RA272
+    gps:
+    - Mexico
+  pourquoi: Ginther mène les 65 tours de Mexico sur RA272, première victoire de Honda.
+  sources:
+  - titre: Wikipedia, « Honda RA272 »
+    url: https://en.wikipedia.org/wiki/Honda_RA272
+- annee: 1965
+  ecurie: team-lotus
+  equipe: Lotus Climax
+  modeles:
+  - voiture: Lotus 33
+    gps:
+    - South Africa
+    - Belgium
+    - Great Britain
+    - Netherlands
+    - Germany
+  - voiture: Lotus 25
+    gps:
+    - France
+  pourquoi: Clark gagne cinq fois sur la 33 (Afrique du Sud puis quatre autres) ; à Clermont-Ferrand, il signe la dernière victoire de la 25.
+  sources:
+  - titre: Wikipedia, « Lotus 33 »
+    url: https://en.wikipedia.org/wiki/Lotus_33
+  - titre: Wikipedia, « Lotus 25 »
+    url: https://en.wikipedia.org/wiki/Lotus_25
+- annee: 1966
+  ecurie: brabham
+  equipe: Brabham Repco
+  modeles:
+  - voiture: Brabham BT19
+    gps:
+    - France
+    - Great Britain
+    - Netherlands
+    - Germany
+  pourquoi: Jack Brabham enchaîne ses quatre victoires de 1966 sur la BT19 et devient le premier à gagner sur une voiture portant son nom.
+  sources:
+  - titre: Wikipedia, « Brabham BT19 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT19
+- annee: 1966
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P261
+    gps:
+    - Monaco
+  pourquoi: Stewart gagne à Monaco en 1966 sur la P261 à moteur 2 litres.
+  sources:
+  - titre: Wikipedia, « BRM P261 »
+    url: https://en.wikipedia.org/wiki/BRM_P261
+- annee: 1966
+  ecurie: cooper
+  equipe: Cooper Maserati
+  modeles:
+  - voiture: Cooper T81
+    gps:
+    - Mexico
+  pourquoi: Surtees offre à la T81 sa première victoire, lors de la dernière manche de 1966, à Mexico.
+  sources:
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+- annee: 1966
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312 F1-66
+    gps:
+    - Belgium
+    - Italy
+  pourquoi: Surtees gagne à Spa et Scarfiotti à Monza sur la 312 de 1966.
+  sources:
+  - titre: Wikipedia, « Ferrari 312 »
+    url: https://en.wikipedia.org/wiki/Ferrari_312
+- annee: 1966
+  ecurie: team-lotus
+  equipe: Lotus BRM
+  modeles:
+  - voiture: Lotus 43
+    gps:
+    - United States of America United States
+  pourquoi: Clark gagne à Watkins Glen sur la 43 à moteur BRM H16, seule victoire de ce moteur.
+  sources:
+  - titre: Wikipedia, « Lotus 43 »
+    url: https://en.wikipedia.org/wiki/Lotus_43
+- annee: 1967
+  ecurie: brabham
+  equipe: Brabham Repco
+  modeles:
+  - voiture: Brabham BT20
+    gps:
+    - Monaco
+  - voiture: Brabham BT24
+    gps:
+    - France
+    - Germany
+    - Canada
+  pourquoi: Hulme gagne à Monaco sur BT20 ; Brabham (France, Canada) et Hulme (Allemagne) gagnent ensuite sur BT24.
+  sources:
+  - titre: oldracingcars.com, Grand Prix de Monaco 1967
+    url: https://www.oldracingcars.com/f1/results/1967/monaco/
+  - titre: oldracingcars.com, Grand Prix de France 1967
+    url: https://www.oldracingcars.com/f1/results/1967/france/
+  - titre: Wikipedia, « 1967 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1967_German_Grand_Prix
+  - titre: oldracingcars.com, Grand Prix du Canada 1967
+    url: https://www.oldracingcars.com/f1/results/1967/canada/
+- annee: 1967
+  ecurie: cooper
+  equipe: Cooper Maserati
+  modeles:
+  - voiture: Cooper T81
+    gps:
+    - South Africa
+  pourquoi: Pedro Rodríguez gagne la manche d'ouverture à Kyalami sur T81 ; la T81B n'apparaît qu'à Monaco.
+  sources:
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+- annee: 1967
+  ecurie: eagle
+  equipe: Eagle Weslake
+  modeles:
+  - voiture: Eagle Mk1
+    gps:
+    - Belgium
+  pourquoi: Gurney gagne à Spa sur l'Eagle Mk1 (châssis 104), souvent appelée T1G, une désignation que Gurney dit n'avoir jamais été officielle.
+  sources:
+  - titre: Wikipedia, « Eagle Mk1 »
+    url: https://en.wikipedia.org/wiki/Eagle_Mk1
+- annee: 1967
+  ecurie: honda-1964
+  equipe: Honda
+  modeles:
+  - voiture: Honda RA300
+    gps:
+    - Italy
+  pourquoi: Surtees gagne à Monza dès la première course de la RA300.
+  sources:
+  - titre: Wikipedia, « Honda RA300 »
+    url: https://en.wikipedia.org/wiki/Honda_RA300
+- annee: 1967
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 49
+    gps:
+    - Netherlands
+    - Great Britain
+    - United States of America United States
+    - Mexico
+  pourquoi: Clark gagne dès les débuts de la 49 à Zandvoort, puis trois autres fois ; la 49B n'apparaît qu'à Monaco 1968.
+  sources:
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+- annee: 1968
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312/68
+    gps:
+    - France
+  pourquoi: Ickx gagne sous la pluie à Rouen sur la 312 ; la 312/68 est le modèle de l'année (les tableaux ne précisent pas le châssis course par course).
+  sources:
+  - titre: Wikipedia, « Ferrari 312 »
+    url: https://en.wikipedia.org/wiki/Ferrari_312
+  - titre: Wikipedia, « 1968 Formula One season »
+    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+- annee: 1968
+  ecurie: matra
+  equipe: Matra Ford
+  modeles:
+  - voiture: Matra MS10
+    gps:
+    - Netherlands
+    - Germany
+    - United States of America United States
+  pourquoi: Stewart gagne ses trois courses de 1968 sur la MS10 de Matra International (châssis 02 à Zandvoort et Watkins Glen).
+  sources:
+  - titre: Wikipedia, « Matra MS10 »
+    url: https://en.wikipedia.org/wiki/Matra_MS10
+  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1968
+    url: https://www.oldracingcars.com/f1/results/1968/netherlands/
+  - titre: oldracingcars.com, Grand Prix des États-Unis 1968
+    url: https://www.oldracingcars.com/f1/results/1968/usa/
+- annee: 1968
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M7A
+    gps:
+    - Belgium
+    - Italy
+    - Canada
+  pourquoi: Bruce McLaren gagne à Spa, Hulme à Monza et au Canada, sur M7A.
+  sources:
+  - titre: Wikipedia, « McLaren M7A »
+    url: https://en.wikipedia.org/wiki/McLaren_M7A
+- annee: 1968
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 49
+    gps:
+    - South Africa
+    - Spain
+  - voiture: Lotus 49B
+    gps:
+    - Monaco
+    - Great Britain
+    - Mexico
+  pourquoi: Clark (Kyalami, châssis R4) et Hill (Jarama, châssis R1) gagnent sur 49 ; la 49B, introduite à Monaco, gagne avec Hill à Monaco et à Mexico et avec Siffert, pour Rob Walker, à Brands Hatch.
+  sources:
+  - titre: oldracingcars.com, Grand Prix d'Afrique du Sud 1968
+    url: https://www.oldracingcars.com/f1/results/1968/south-africa/
+  - titre: oldracingcars.com, Grand Prix d'Espagne 1968
+    url: https://www.oldracingcars.com/f1/results/1968/spain/
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1968
+    url: https://www.oldracingcars.com/f1/results/1968/britain/
+  - titre: Wikipedia, « 1968 Mexican Grand Prix »
+    url: https://en.wikipedia.org/wiki/1968_Mexican_Grand_Prix
+- annee: 1969
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT26A
+    gps:
+    - Germany
+    - Canada
+  pourquoi: Ickx gagne au Nürburgring et au Canada sur BT26A, seul châssis engagé par Brabham en 1969.
+  sources:
+  - titre: Wikipedia, « Brabham BT26 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT26
+  - titre: Wikipedia, « 1969 Formula One season »
+    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+- annee: 1969
+  ecurie: matra
+  equipe: Matra Ford
+  modeles:
+  - voiture: Matra MS10
+    gps:
+    - South Africa
+  - voiture: Matra MS80
+    gps:
+    - Spain
+    - Netherlands
+    - France
+    - Great Britain
+    - Italy
+  pourquoi: Stewart gagne à Kyalami sur MS10, puis remporte sur MS80 les cinq autres victoires, de Montjuïc (MS80-01) à Monza, où il s'assure le titre.
+  sources:
+  - titre: Wikipedia, « Matra MS10 »
+    url: https://en.wikipedia.org/wiki/Matra_MS10
+  - titre: oldracingcars.com, « Matra MS80 »
+    url: https://oldracingcars.com/matra/ms80
+  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1969
+    url: https://www.oldracingcars.com/f1/results/1969/britain/
+  - titre: oldracingcars.com, Grand Prix d'Italie 1969
+    url: https://www.oldracingcars.com/f1/results/1969/italy/
+- annee: 1969
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M7A
+    gps:
+    - Mexico
+  pourquoi: Hulme gagne la dernière manche, à Mexico, sur M7A (châssis 2).
+  sources:
+  - titre: oldracingcars.com, Grand Prix du Mexique 1969
+    url: https://www.oldracingcars.com/f1/results/1969/mexico/
+- annee: 1969
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 49B
+    gps:
+    - Monaco
+    - United States of America United States
+  pourquoi: Hill gagne à Monaco (châssis R10) et Rindt à Watkins Glen, tous deux sur 49B ; la 63 à quatre roues motrices n'a jamais gagné.
+  sources:
+  - titre: oldracingcars.com, Grand Prix de Monaco 1969
+    url: https://www.oldracingcars.com/f1/results/1969/monaco/
+  - titre: Wikipedia, « Lotus 49 »
+    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: Wikipedia, « Lotus 63 »
+    url: https://en.wikipedia.org/wiki/Lotus_63
+- annee: 1970
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT33
+    gps:
+    - South Africa
+  pourquoi: Jack Brabham n'a couru qu'en Brabham BT33 en 1970 selon le tableau du championnat d'OldRacingCars.
+  sources:
+  - titre: OldRacingCars, saison 1970 de F1
+    url: https://www.oldracingcars.com/f1/1970/
+- annee: 1970
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P153
+    gps:
+    - Belgium
+  pourquoi: Pedro Rodríguez, vainqueur à Spa, n'a utilisé que la BRM P153 (V12 P142) en 1970.
+  sources:
+  - titre: OldRacingCars, saison 1970 de F1
+    url: https://www.oldracingcars.com/f1/1970/
+- annee: 1970
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312B
+    gps:
+    - Austria
+    - Italy
+    - Canada
+    - Mexico
+  pourquoi: Ickx et Regazzoni n'ont piloté que la Ferrari 312B (« 312B/70 ») en 1970.
+  sources:
+  - titre: OldRacingCars, saison 1970 de F1
+    url: https://www.oldracingcars.com/f1/1970/
+- annee: 1970
+  ecurie: march
+  equipe: March Ford
+  modeles:
+  - voiture: March 701
+    gps:
+    - Spain
+  pourquoi: Jackie Stewart gagne à Jarama sur la March 701 n° 2 engagée par la Tyrrell Racing Organisation, cliente de March, et non par l'équipe d'usine March Engineering.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Espagne 1970
+    url: https://www.oldracingcars.com/f1/results/1970/spain/
+- annee: 1970
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 49C
+    gps:
+    - Monaco
+  - voiture: Lotus 72
+    gps:
+    - Netherlands
+    - France
+    - Great Britain
+    - Germany
+  - voiture: Lotus 72C
+    gps:
+    - United States of America United States
+  pourquoi: Rindt gagne Monaco sur la 49C (R6), puis Zandvoort, Clermont-Ferrand, Brands Hatch et Hockenheim sur la Lotus 72 R2 ; Fittipaldi gagne Watkins Glen sur la 72C R5.
+  sources:
+  - titre: OldRacingCars, Grand Prix de Monaco 1970
+    url: https://www.oldracingcars.com/f1/results/1970/monaco/
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1970
+    url: https://www.oldracingcars.com/f1/results/1970/netherlands/
+  - titre: OldRacingCars, Grand Prix de France 1970
+    url: https://www.oldracingcars.com/f1/results/1970/france/
+  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1970
+    url: https://www.oldracingcars.com/f1/results/1970/britain/
+  - titre: OldRacingCars, Grand Prix d'Allemagne 1970
+    url: https://www.oldracingcars.com/f1/results/1970/germany/
+  - titre: OldRacingCars, Grand Prix des États-Unis 1970
+    url: https://www.oldracingcars.com/f1/results/1970/usa/
+- annee: 1971
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P160
+    gps:
+    - Austria
+    - Italy
+  pourquoi: Siffert (Autriche) n'a piloté que la P160 ; Gethin (Italie) n'a couru chez BRM que sur P160.
+  sources:
+  - titre: OldRacingCars, saison 1971 de F1
+    url: https://www.oldracingcars.com/f1/1971/
+- annee: 1971
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312B
+    gps:
+    - South Africa
+  - voiture: Ferrari 312B2
+    gps:
+    - Netherlands
+  pourquoi: Andretti gagne à Kyalami sur la 312B/71 (châssis 002-2), Ickx à Zandvoort sur la 312B2-71 (châssis 006).
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1971
+    url: https://www.oldracingcars.com/f1/results/1971/south-africa/
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1971
+    url: https://www.oldracingcars.com/f1/results/1971/netherlands/
+- annee: 1971
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 003
+    gps:
+    - Spain
+    - Monaco
+    - France
+    - Great Britain
+    - Germany
+    - Canada
+  - voiture: Tyrrell 002
+    gps:
+    - United States of America United States
+  pourquoi: Les six victoires de Stewart sont obtenues sur le châssis 003 ; Cevert gagne Watkins Glen sur le 002.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Espagne 1971
+    url: https://www.oldracingcars.com/f1/results/1971/spain/
+  - titre: OldRacingCars, Grand Prix de Monaco 1971
+    url: https://www.oldracingcars.com/f1/results/1971/monaco/
+  - titre: OldRacingCars, Grand Prix de France 1971
+    url: https://www.oldracingcars.com/f1/results/1971/france/
+  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1971
+    url: https://www.oldracingcars.com/f1/results/1971/britain/
+  - titre: OldRacingCars, Grand Prix d'Allemagne 1971
+    url: https://www.oldracingcars.com/f1/results/1971/germany/
+  - titre: OldRacingCars, Grand Prix du Canada 1971
+    url: https://www.oldracingcars.com/f1/results/1971/canada/
+  - titre: OldRacingCars, Grand Prix des États-Unis 1971
+    url: https://www.oldracingcars.com/f1/results/1971/usa/
+- annee: 1972
+  ecurie: brm
+  equipe: BRM
+  modeles:
+  - voiture: BRM P160B
+    gps:
+    - Monaco
+  pourquoi: Beltoise gagne Monaco sous la pluie sur la BRM P160B (châssis 01).
+  sources:
+  - titre: OldRacingCars, Grand Prix de Monaco 1972
+    url: https://www.oldracingcars.com/f1/results/1972/monaco/
+- annee: 1972
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312B2
+    gps:
+    - Germany
+  pourquoi: Ickx n'a piloté que la 312B2/72 en 1972.
+  sources:
+  - titre: OldRacingCars, saison 1972 de F1
+    url: https://www.oldracingcars.com/f1/1972/
+- annee: 1972
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M19A
+    gps:
+    - South Africa
+  pourquoi: Hulme gagne à Kyalami sur la M19A (châssis 2).
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1972
+    url: https://www.oldracingcars.com/f1/results/1972/south-africa/
+- annee: 1972
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 72D
+    gps:
+    - Spain
+    - Belgium
+    - Great Britain
+    - Austria
+    - Italy
+  pourquoi: Fittipaldi, seul vainqueur Lotus en 1972, n'a couru que sur la Lotus 72D.
+  sources:
+  - titre: OldRacingCars, saison 1972 de F1
+    url: https://www.oldracingcars.com/f1/1972/
+- annee: 1972
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 003
+    gps:
+    - Argentina
+    - France
+  - voiture: Tyrrell 005
+    gps:
+    - Canada
+    - United States of America United States
+  pourquoi: Stewart gagne Buenos Aires et Clermont-Ferrand sur le 003, puis Mosport et Watkins Glen sur le nouveau 005.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Argentine 1972
+    url: https://www.oldracingcars.com/f1/results/1972/argentina/
+  - titre: OldRacingCars, Grand Prix de France 1972
+    url: https://www.oldracingcars.com/f1/results/1972/france/
+  - titre: OldRacingCars, Grand Prix du Canada 1972
+    url: https://www.oldracingcars.com/f1/results/1972/canada/
+  - titre: OldRacingCars, Grand Prix des États-Unis 1972
+    url: https://www.oldracingcars.com/f1/results/1972/usa/
+- annee: 1973
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M23
+    gps:
+    - Sweden
+    - Great Britain
+    - Canada
+  pourquoi: Hulme (Suède, M23 n° 1) et Revson (Grande-Bretagne, M23 n° 2 ; Canada, M23 n° 4) gagnent tous sur M23.
+  sources:
+  - titre: OldRacingCars, Grand Prix de Suède 1973
+    url: https://www.oldracingcars.com/f1/results/1973/sweden/
+  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1973
+    url: https://www.oldracingcars.com/f1/results/1973/britain/
+  - titre: OldRacingCars, Grand Prix du Canada 1973
+    url: https://www.oldracingcars.com/f1/results/1973/canada/
+- annee: 1973
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 72D
+    gps:
+    - Argentina
+    - Brazil
+  - voiture: Lotus 72E
+    gps:
+    - Spain
+    - France
+    - Austria
+    - Italy
+    - United States of America United States
+  pourquoi: Fittipaldi gagne en Argentine et au Brésil sur la 72D (R7), puis en Espagne sur la 72E (R5) ; Peterson gagne France, Autriche, Italie et États-Unis sur la 72E (R6).
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Argentine 1973
+    url: https://www.oldracingcars.com/f1/results/1973/argentina/
+  - titre: OldRacingCars, Grand Prix du Brésil 1973
+    url: https://www.oldracingcars.com/f1/results/1973/brazil/
+  - titre: OldRacingCars, Grand Prix d'Espagne 1973
+    url: https://www.oldracingcars.com/f1/results/1973/spain/
+  - titre: OldRacingCars, Grand Prix de France 1973
+    url: https://www.oldracingcars.com/f1/results/1973/france/
+  - titre: OldRacingCars, Grand Prix d'Autriche 1973
+    url: https://www.oldracingcars.com/f1/results/1973/austria/
+  - titre: OldRacingCars, Grand Prix d'Italie 1973
+    url: https://www.oldracingcars.com/f1/results/1973/italy/
+  - titre: OldRacingCars, Grand Prix des États-Unis 1973
+    url: https://www.oldracingcars.com/f1/results/1973/usa/
+- annee: 1973
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 006
+    gps:
+    - South Africa
+    - Belgium
+    - Monaco
+    - Netherlands
+    - Germany
+  pourquoi: Stewart gagne Kyalami sur le châssis 006, puis Belgique, Monaco, Pays-Bas et Allemagne sur le 006/2.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1973
+    url: https://www.oldracingcars.com/f1/results/1973/south-africa/
+  - titre: OldRacingCars, Grand Prix de Belgique 1973
+    url: https://www.oldracingcars.com/f1/results/1973/belgium/
+  - titre: OldRacingCars, Grand Prix de Monaco 1973
+    url: https://www.oldracingcars.com/f1/results/1973/monaco/
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1973
+    url: https://www.oldracingcars.com/f1/results/1973/netherlands/
+  - titre: OldRacingCars, Grand Prix d'Allemagne 1973
+    url: https://www.oldracingcars.com/f1/results/1973/germany/
+- annee: 1974
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT44
+    gps:
+    - South Africa
+    - Austria
+    - United States of America United States
+  pourquoi: Reutemann, auteur des trois victoires, n'a couru que sur la BT44 en 1974.
+  sources:
+  - titre: OldRacingCars, saison 1974 de F1
+    url: https://www.oldracingcars.com/f1/1974/
+- annee: 1974
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312B3
+    gps:
+    - Spain
+    - Netherlands
+    - Germany
+  pourquoi: Lauda et Regazzoni n'ont piloté que la 312B3 dans sa version 1974 (« 312 B3-74 »).
+  sources:
+  - titre: OldRacingCars, saison 1974 de F1
+    url: https://www.oldracingcars.com/f1/1974/
+- annee: 1974
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M23
+    gps:
+    - Argentina
+    - Brazil
+    - Belgium
+    - Canada
+  pourquoi: Fittipaldi et Hulme n'ont piloté que la M23 en 1974.
+  sources:
+  - titre: OldRacingCars, saison 1974 de F1
+    url: https://www.oldracingcars.com/f1/1974/
+- annee: 1974
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 72E
+    gps:
+    - Monaco
+    - France
+    - Italy
+  pourquoi: Peterson gagne les trois courses sur la 72E R8, et non sur la nouvelle Lotus 76.
+  sources:
+  - titre: OldRacingCars, Grand Prix de Monaco 1974
+    url: https://www.oldracingcars.com/f1/results/1974/monaco/
+  - titre: OldRacingCars, Grand Prix de France 1974
+    url: https://www.oldracingcars.com/f1/results/1974/france/
+  - titre: OldRacingCars, Grand Prix d'Italie 1974
+    url: https://www.oldracingcars.com/f1/results/1974/italy/
+- annee: 1974
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 007
+    gps:
+    - Sweden
+    - Great Britain
+  pourquoi: Scheckter gagne en Suède et en Grande-Bretagne sur la Tyrrell 007 n° 1.
+  sources:
+  - titre: OldRacingCars, Grand Prix de Suède 1974
+    url: https://www.oldracingcars.com/f1/results/1974/sweden/
+  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1974
+    url: https://www.oldracingcars.com/f1/results/1974/britain/
+- annee: 1975
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT44B
+    gps:
+    - Brazil
+    - Germany
+  pourquoi: Pace (Brésil) et Reutemann (Allemagne) n'ont piloté que la BT44B en 1975.
+  sources:
+  - titre: OldRacingCars, saison 1975 de F1
+    url: https://www.oldracingcars.com/f1/1975/
+- annee: 1975
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312T
+    gps:
+    - Monaco
+    - Belgium
+    - Sweden
+    - France
+    - Italy
+    - United States of America United States
+  pourquoi: La 312T fait ses débuts en course à Kyalami (la 312B3 n'y sert qu'aux essais) ; toutes les victoires suivantes sont acquises sur 312T (Lauda châssis 023 à Monaco et Watkins Glen, Regazzoni châssis 024 à Monza).
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1975
+    url: https://www.oldracingcars.com/f1/results/1975/south-africa/
+  - titre: OldRacingCars, Grand Prix de Monaco 1975
+    url: https://www.oldracingcars.com/f1/results/1975/monaco/
+  - titre: OldRacingCars, Grand Prix d'Italie 1975
+    url: https://www.oldracingcars.com/f1/results/1975/italy/
+  - titre: OldRacingCars, Grand Prix des États-Unis 1975
+    url: https://www.oldracingcars.com/f1/results/1975/usa/
+- annee: 1975
+  ecurie: hesketh
+  equipe: Hesketh Ford
+  modeles:
+  - voiture: Hesketh 308B
+    gps:
+    - Netherlands
+  pourquoi: Hunt gagne à Zandvoort sur la Hesketh 308B n° 2 (la 308C n'arrive qu'en fin de saison).
+  sources:
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1975
+    url: https://www.oldracingcars.com/f1/results/1975/netherlands/
+- annee: 1975
+  ecurie: march
+  equipe: March Ford
+  modeles:
+  - voiture: March 751
+    gps:
+    - Austria
+  pourquoi: Brambilla gagne sous le déluge du Österreichring sur la March 751 n° 3 du Beta Team March.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Autriche 1975
+    url: https://www.oldracingcars.com/f1/results/1975/austria/
+- annee: 1975
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M23
+    gps:
+    - Argentina
+    - Spain
+    - Great Britain
+  pourquoi: Fittipaldi et Mass n'ont piloté que la M23 en 1975.
+  sources:
+  - titre: OldRacingCars, saison 1975 de F1
+    url: https://www.oldracingcars.com/f1/1975/
+- annee: 1975
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 007
+    gps:
+    - South Africa
+  pourquoi: Scheckter gagne chez lui à Kyalami sur la Tyrrell 007 n° 2.
+  sources:
+  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1975
+    url: https://www.oldracingcars.com/f1/results/1975/south-africa/
+- annee: 1976
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312T
+    gps:
+    - Brazil
+    - South Africa
+    - United States of America USA West
+  - voiture: Ferrari 312T2
+    gps:
+    - Belgium
+    - Monaco
+    - Great Britain
+  pourquoi: Lauda gagne au Brésil et en Afrique du Sud sur 312T (châssis 023), Regazzoni à Long Beach sur 312T (024) ; Lauda gagne en Belgique, à Monaco (312T2 026) et en Grande-Bretagne (312T2 028), selon les fiches de course d'oldracingcars.
+  sources:
+  - titre: OldRacingCars, 1976 Brazilian GP
+    url: https://www.oldracingcars.com/f1/results/1976/brazil/
+  - titre: OldRacingCars, 1976 South African GP
+    url: https://www.oldracingcars.com/f1/results/1976/south-africa/
+  - titre: OldRacingCars, 1976 US GP West
+    url: https://www.oldracingcars.com/f1/results/1976/long-beach/
+  - titre: OldRacingCars, 1976 Belgian GP
+    url: https://www.oldracingcars.com/f1/results/1976/belgium/
+  - titre: OldRacingCars, 1976 Monaco GP
+    url: https://www.oldracingcars.com/f1/results/1976/monaco/
+  - titre: OldRacingCars, 1976 British GP
+    url: https://www.oldracingcars.com/f1/results/1976/britain/
+- annee: 1976
+  ecurie: march
+  equipe: March Ford
+  modeles:
+  - voiture: March 761
+    gps:
+    - Italy
+  pourquoi: Ronnie Peterson gagne à Monza sur March 761 (châssis 6) engagée par March Engineering.
+  sources:
+  - titre: OldRacingCars, 1976 Italian GP
+    url: https://www.oldracingcars.com/f1/results/1976/italy/
+- annee: 1976
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M23
+    gps:
+    - Spain
+    - France
+    - Germany
+    - Netherlands
+    - Canada
+    - United States of America USA East
+  pourquoi: Les six victoires de James Hunt sont acquises sur McLaren M23 (châssis M23/6 et M23/8-2) ; la M26 n'a pas gagné en 1976.
+  sources:
+  - titre: OldRacingCars, 1976 Spanish GP
+    url: https://www.oldracingcars.com/f1/results/1976/spain/
+  - titre: OldRacingCars, 1976 French GP
+    url: https://www.oldracingcars.com/f1/results/1976/france/
+  - titre: OldRacingCars, 1976 German GP
+    url: https://www.oldracingcars.com/f1/results/1976/germany/
+  - titre: OldRacingCars, 1976 Dutch GP
+    url: https://www.oldracingcars.com/f1/results/1976/netherlands/
+  - titre: OldRacingCars, 1976 Canadian GP
+    url: https://www.oldracingcars.com/f1/results/1976/canada/
+  - titre: OldRacingCars, 1976 United States GP
+    url: https://www.oldracingcars.com/f1/results/1976/usa/
+- annee: 1976
+  ecurie: penske
+  equipe: Penske Ford
+  modeles:
+  - voiture: Penske PC4
+    gps:
+    - Austria
+  pourquoi: John Watson gagne en Autriche sur Penske PC4 (châssis 01), engagée par Citibank Team Penske.
+  sources:
+  - titre: OldRacingCars, 1976 Austrian GP
+    url: https://www.oldracingcars.com/f1/results/1976/austria/
+- annee: 1976
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 77
+    gps:
+    - Japan
+  pourquoi: Mario Andretti gagne au Japon sur Lotus 77 (châssis 1/JPS11).
+  sources:
+  - titre: OldRacingCars, 1976 Japanese GP
+    url: https://www.oldracingcars.com/f1/results/1976/japan/
+- annee: 1976
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell P34
+    gps:
+    - Sweden
+  pourquoi: Jody Scheckter gagne en Suède sur la Tyrrell P34 à six roues (châssis 3), seule victoire de ce modèle.
+  sources:
+  - titre: OldRacingCars, 1976 Swedish GP
+    url: https://www.oldracingcars.com/f1/results/1976/sweden/
+- annee: 1977
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312T2
+    gps:
+    - Brazil
+    - South Africa
+    - Germany
+    - Netherlands
+  pourquoi: Reutemann au Brésil (châssis 029), Lauda en Afrique du Sud (030), en Allemagne (031) et aux Pays-Bas (030) gagnent tous sur 312T2.
+  sources:
+  - titre: OldRacingCars, 1977 Brazilian GP
+    url: https://www.oldracingcars.com/f1/results/1977/brazil/
+  - titre: OldRacingCars, 1977 South African GP
+    url: https://www.oldracingcars.com/f1/results/1977/south-africa/
+  - titre: OldRacingCars, 1977 German GP
+    url: https://www.oldracingcars.com/f1/results/1977/germany/
+  - titre: OldRacingCars, 1977 Dutch GP
+    url: https://www.oldracingcars.com/f1/results/1977/netherlands/
+- annee: 1977
+  ecurie: ligier
+  equipe: Ligier Matra
+  modeles:
+  - voiture: Ligier JS7
+    gps:
+    - Sweden
+  pourquoi: Jacques Laffite gagne en Suède sur Ligier JS7 (châssis 02) à moteur Matra MS76 V12.
+  sources:
+  - titre: OldRacingCars, 1977 Swedish GP
+    url: https://www.oldracingcars.com/f1/results/1977/sweden/
+- annee: 1977
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren M26
+    gps:
+    - Great Britain
+    - United States of America USA East
+    - Japan
+  pourquoi: James Hunt gagne à Silverstone et à Watkins Glen sur M26 (châssis 2) et au Japon sur M26 (châssis 3).
+  sources:
+  - titre: OldRacingCars, 1977 British GP
+    url: https://www.oldracingcars.com/f1/results/1977/britain/
+  - titre: OldRacingCars, 1977 United States GP
+    url: https://www.oldracingcars.com/f1/results/1977/usa/
+  - titre: OldRacingCars, 1977 Japanese GP
+    url: https://www.oldracingcars.com/f1/results/1977/japan/
+- annee: 1977
+  ecurie: shadow
+  equipe: Shadow Ford
+  modeles:
+  - voiture: Shadow DN8
+    gps:
+    - Austria
+  pourquoi: Alan Jones gagne en Autriche sur Shadow DN8 (version « Mk3 », châssis 4A selon oldracingcars).
+  sources:
+  - titre: OldRacingCars, 1977 Austrian GP
+    url: https://www.oldracingcars.com/f1/results/1977/austria/
+- annee: 1977
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 78
+    gps:
+    - United States of America USA West
+    - Spain
+    - Belgium
+    - France
+    - Italy
+  pourquoi: Andretti gagne à Long Beach, en Espagne, en France et en Italie sur Lotus 78 (châssis 3/JPS17), Nilsson en Belgique sur Lotus 78 (2/JPS16).
+  sources:
+  - titre: OldRacingCars, 1977 US GP West
+    url: https://www.oldracingcars.com/f1/results/1977/long-beach/
+  - titre: OldRacingCars, 1977 Spanish GP
+    url: https://www.oldracingcars.com/f1/results/1977/spain/
+  - titre: OldRacingCars, 1977 Belgian GP
+    url: https://www.oldracingcars.com/f1/results/1977/belgium/
+  - titre: OldRacingCars, 1977 French GP
+    url: https://www.oldracingcars.com/f1/results/1977/france/
+  - titre: OldRacingCars, 1977 Italian GP
+    url: https://www.oldracingcars.com/f1/results/1977/italy/
+- annee: 1977
+  ecurie: wolf
+  equipe: Wolf Ford
+  modeles:
+  - voiture: Wolf WR1
+    gps:
+    - Argentina
+    - Monaco
+    - Canada
+  pourquoi: Les trois victoires de Jody Scheckter sont acquises avec le châssis WR1 lui-même, selon les fiches de course d'oldracingcars.
+  sources:
+  - titre: OldRacingCars, 1977 Argentine GP
+    url: https://www.oldracingcars.com/f1/results/1977/argentina/
+  - titre: OldRacingCars, 1977 Monaco GP
+    url: https://www.oldracingcars.com/f1/results/1977/monaco/
+  - titre: OldRacingCars, 1977 Canadian GP
+    url: https://www.oldracingcars.com/f1/results/1977/canada/
+- annee: 1978
+  ecurie: brabham
+  equipe: Brabham Alfa Romeo
+  modeles:
+  - voiture: Brabham BT46B
+    gps:
+    - Sweden
+  - voiture: Brabham BT46
+    gps:
+    - Italy
+  pourquoi: Lauda gagne en Suède sur la BT46B « voiture-aspirateur » (châssis 6) et à Monza sur la BT46 classique (châssis 7).
+  sources:
+  - titre: OldRacingCars, 1978 Swedish GP
+    url: https://www.oldracingcars.com/f1/results/1978/sweden/
+  - titre: OldRacingCars, 1978 Italian GP
+    url: https://www.oldracingcars.com/f1/results/1978/italy/
+- annee: 1978
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312T2
+    gps:
+    - Brazil
+  - voiture: Ferrari 312T3
+    gps:
+    - United States of America USA West
+    - Great Britain
+    - United States of America USA East
+    - Canada
+  pourquoi: Reutemann gagne au Brésil sur 312T2 (châssis 031), puis à Long Beach (312T3 032), Brands Hatch (033) et Watkins Glen (035) ; Villeneuve gagne au Canada sur 312T3 (034).
+  sources:
+  - titre: OldRacingCars, 1978 Brazilian GP
+    url: https://www.oldracingcars.com/f1/results/1978/brazil/
+  - titre: OldRacingCars, 1978 US GP West
+    url: https://www.oldracingcars.com/f1/results/1978/long-beach/
+  - titre: OldRacingCars, 1978 British GP
+    url: https://www.oldracingcars.com/f1/results/1978/britain/
+  - titre: OldRacingCars, 1978 United States GP
+    url: https://www.oldracingcars.com/f1/results/1978/usa/
+  - titre: OldRacingCars, 1978 Canadian GP
+    url: https://www.oldracingcars.com/f1/results/1978/canada/
+- annee: 1978
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 78
+    gps:
+    - Argentina
+    - South Africa
+  - voiture: Lotus 79
+    gps:
+    - Belgium
+    - Spain
+    - France
+    - Germany
+    - Austria
+    - Netherlands
+  pourquoi: Andretti gagne en Argentine et Peterson en Afrique du Sud sur Lotus 78 ; à partir de la Belgique, toutes les victoires (Andretti, Peterson en Autriche) sont acquises sur Lotus 79 (châssis 2, 3 et 4/JPS20-22).
+  sources:
+  - titre: OldRacingCars, 1978 Argentine GP
+    url: https://www.oldracingcars.com/f1/results/1978/argentina/
+  - titre: OldRacingCars, 1978 South African GP
+    url: https://www.oldracingcars.com/f1/results/1978/south-africa/
+  - titre: OldRacingCars, 1978 Belgian GP
+    url: https://www.oldracingcars.com/f1/results/1978/belgium/
+  - titre: OldRacingCars, 1978 Spanish GP
+    url: https://www.oldracingcars.com/f1/results/1978/spain/
+  - titre: OldRacingCars, 1978 French GP
+    url: https://www.oldracingcars.com/f1/results/1978/france/
+  - titre: OldRacingCars, 1978 German GP
+    url: https://www.oldracingcars.com/f1/results/1978/germany/
+  - titre: OldRacingCars, 1978 Austrian GP
+    url: https://www.oldracingcars.com/f1/results/1978/austria/
+  - titre: OldRacingCars, 1978 Dutch GP
+    url: https://www.oldracingcars.com/f1/results/1978/netherlands/
+- annee: 1978
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 008
+    gps:
+    - Monaco
+  pourquoi: Patrick Depailler gagne à Monaco sur Tyrrell 008 (châssis 3).
+  sources:
+  - titre: OldRacingCars, 1978 Monaco GP
+    url: https://www.oldracingcars.com/f1/results/1978/monaco/
+- annee: 1979
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 312T4
+    gps:
+    - South Africa
+    - United States of America USA West
+    - Belgium
+    - Monaco
+    - Italy
+    - United States of America USA East
+  pourquoi: La 312T4, introduite au Grand Prix d'Afrique du Sud, remporte six courses en 1979, trois pour Villeneuve et trois pour Scheckter ; la 312T3 n'a couru que les deux premières manches.
+  sources:
+  - titre: Wikipedia, « Ferrari 312T4 »
+    url: https://en.wikipedia.org/wiki/Ferrari_312T4
+- annee: 1979
+  ecurie: ligier
+  equipe: Ligier Ford
+  modeles:
+  - voiture: Ligier JS11
+    gps:
+    - Argentina
+    - Brazil
+    - Spain
+  pourquoi: La JS11 gagne les deux premières courses de 1979 avec Laffite (Argentine, Brésil) puis l'Espagne avec Depailler.
+  sources:
+  - titre: Wikipedia, « Ligier JS11 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS11
+  - titre: Wikipédia, « Ligier JS11 »
+    url: https://fr.wikipedia.org/wiki/Ligier_JS11
+  - titre: Wikipedia, « 1979 Brazilian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1979_Brazilian_Grand_Prix
+- annee: 1979
+  ecurie: renault-1977
+  equipe: Renault
+  modeles:
+  - voiture: Renault RS10
+    gps:
+    - France
+  pourquoi: Jabouille gagne à Dijon-Prenois sur RS10, seule victoire de ce modèle et première d'un moteur turbo.
+  sources:
+  - titre: Wikipedia, « Renault RS10 »
+    url: https://en.wikipedia.org/wiki/Renault_RS10
+- annee: 1979
+  ecurie: williams
+  equipe: Williams Ford
+  modeles:
+  - voiture: Williams FW07
+    gps:
+    - Great Britain
+    - Germany
+    - Austria
+    - Netherlands
+    - Canada
+  pourquoi: La FW07, apparue en Espagne en 1979, gagne avec Regazzoni à Silverstone puis avec Jones en Allemagne, Autriche, aux Pays-Bas et au Canada.
+  sources:
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+- annee: 1980
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT49
+    gps:
+    - United States of America USA West
+    - Netherlands
+    - Italy
+  pourquoi: Piquet gagne Long Beach, Zandvoort et Imola sur BT49 ; une spécification BT49B est apparue en début de saison, mais les sources consultées ne précisent pas course par course la variante utilisée.
+  sources:
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+- annee: 1980
+  ecurie: ligier
+  equipe: Ligier Ford
+  modeles:
+  - voiture: Ligier JS11/15
+    gps:
+    - Belgium
+    - Germany
+  pourquoi: Pironi gagne en Belgique sur JS11/15 et Laffite en Allemagne, dernière victoire de la JS11/15.
+  sources:
+  - titre: Wikipedia, « 1980 Belgian Grand Prix »
+    url: https://en.wikipedia.org/wiki/1980_Belgian_Grand_Prix
+  - titre: Wikipédia, « Ligier JS11 »
+    url: https://fr.wikipedia.org/wiki/Ligier_JS11
+  - titre: Wikipedia, « Ligier JS11 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS11
+- annee: 1980
+  ecurie: renault-1977
+  equipe: Renault
+  modeles:
+  - voiture: Renault RE20
+    gps:
+    - Brazil
+    - South Africa
+    - Austria
+  pourquoi: Arnoux gagne au Brésil et en Afrique du Sud, Jabouille en Autriche, tous sur RE20.
+  sources:
+  - titre: Wikipedia, « Renault RE20 »
+    url: https://en.wikipedia.org/wiki/Renault_RE20
+- annee: 1980
+  ecurie: williams
+  equipe: Williams Ford
+  modeles:
+  - voiture: Williams FW07
+    gps:
+    - Argentina
+  - voiture: Williams FW07B
+    gps:
+    - Monaco
+    - France
+    - Great Britain
+    - Canada
+    - United States of America USA East
+  pourquoi: Jones gagne en Argentine avec un châssis FW07 d'origine (FW07/4) ; les autres victoires (Reutemann à Monaco, Jones ensuite) sont acquises sur FW07B.
+  sources:
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+  - titre: Wikipedia, « 1980 Argentine Grand Prix »
+    url: https://en.wikipedia.org/wiki/1980_Argentine_Grand_Prix
+- annee: 1981
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT49C
+    gps:
+    - Argentina
+    - San Marino
+    - Germany
+  pourquoi: La BT49C est introduite dès Long Beach, première manche de 1981 ; les trois victoires de Piquet (Argentine, Saint-Marin, Allemagne) viennent ensuite.
+  sources:
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+- annee: 1981
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 126CK
+    gps:
+    - Monaco
+    - Spain
+  pourquoi: Villeneuve signe deux victoires consécutives sur 126CK, à Monaco et en Espagne.
+  sources:
+  - titre: Wikipedia, « Ferrari 126CK »
+    url: https://en.wikipedia.org/wiki/Ferrari_126CK
+- annee: 1981
+  ecurie: ligier
+  equipe: Ligier Matra
+  modeles:
+  - voiture: Ligier JS17
+    gps:
+    - Austria
+    - Canada
+  pourquoi: Laffite gagne en Autriche et au Canada sur JS17, à moteur Matra V12.
+  sources:
+  - titre: Wikipedia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+- annee: 1981
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren MP4/1
+    gps:
+    - Great Britain
+  pourquoi: Watson gagne à Silverstone, première victoire d'une monocoque en composite de carbone, la McLaren MP4/1.
+  sources:
+  - titre: Wikipedia, « 1981 British Grand Prix »
+    url: https://en.wikipedia.org/wiki/1981_British_Grand_Prix
+- annee: 1981
+  ecurie: renault-1977
+  equipe: Renault
+  modeles:
+  - voiture: Renault RE30
+    gps:
+    - France
+    - Netherlands
+    - Italy
+  pourquoi: 'La RE30, débutée à Monaco, offre à Prost ses trois victoires de 1981 : France, Pays-Bas, Italie.'
+  sources:
+  - titre: Wikipedia, « Renault RE30 »
+    url: https://en.wikipedia.org/wiki/Renault_RE30
+- annee: 1981
+  ecurie: williams
+  equipe: Williams Ford
+  modeles:
+  - voiture: Williams FW07C
+    gps:
+    - United States of America USA West
+    - Brazil
+    - Belgium
+    - United States of America Caesar's Palace
+  pourquoi: Jones (Long Beach, Caesars Palace) et Reutemann (Brésil, Belgique) gagnent sur FW07C, évolution 1981 de la FW07B.
+  sources:
+  - titre: Wikipedia, « Williams FW07 »
+    url: https://en.wikipedia.org/wiki/Williams_FW07
+- annee: 1982
+  ecurie: brabham
+  equipe: Brabham BMW
+  modeles:
+  - voiture: Brabham BT50
+    gps:
+    - Canada
+  pourquoi: Piquet a offert au BT50 à moteur BMW turbo sa seule victoire de 1982, au Canada, première victoire de BMW en F1.
+  sources:
+  - titre: Wikipedia, « Brabham BT50 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT50
+- annee: 1982
+  ecurie: brabham
+  equipe: Brabham Ford
+  modeles:
+  - voiture: Brabham BT49D
+    gps:
+    - Monaco
+  pourquoi: Patrese a gagné à Monaco avec la BT49 à moteur Cosworth dans sa version 1982, la BT49D. La BT50 de Piquet a abandonné dans cette course.
+  sources:
+  - titre: Wikipedia, « Brabham BT49 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT49
+  - titre: Wikipedia, « Brabham BT50 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT50
+- annee: 1982
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 126C2
+    gps:
+    - San Marino
+    - Netherlands
+    - Germany
+  pourquoi: 'Ferrari n''a engagé que la 126C2 en 1982 : Pironi a gagné à Imola et Zandvoort, Tambay à Hockenheim.'
+  sources:
+  - titre: Wikipedia, « Ferrari 126C2 »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C2
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+- annee: 1982
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren MP4/1B
+    gps:
+    - United States of America USA West
+    - Belgium
+    - United States of America Detroit
+    - Great Britain
+  pourquoi: McLaren n'a engagé que la MP4/1B (aussi appelée MP4B) en 1982, pour Watson comme pour Lauda, d'après le tableau des engagés de la saison.
+  sources:
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4/1 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+- annee: 1982
+  ecurie: renault-1977
+  equipe: Renault
+  modeles:
+  - voiture: Renault RE30B
+    gps:
+    - South Africa
+    - Brazil
+    - France
+    - Italy
+  pourquoi: 'La RE30B a gagné quatre courses en 1982 : Prost en Afrique du Sud et au Brésil, Arnoux en France et en Italie.'
+  sources:
+  - titre: Wikipedia, « Renault RE30 »
+    url: https://en.wikipedia.org/wiki/Renault_RE30
+- annee: 1982
+  ecurie: team-lotus
+  equipe: Lotus Ford
+  modeles:
+  - voiture: Lotus 91
+    gps:
+    - Austria
+  pourquoi: De Angelis a gagné en Autriche avec la Lotus 91, devant Rosberg, au terme d'un dernier tour serré.
+  sources:
+  - titre: Wikipedia, « Lotus 91 »
+    url: https://en.wikipedia.org/wiki/Lotus_91
+- annee: 1982
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 011
+    gps:
+    - United States of America Caesar's Palace
+  pourquoi: Alboreto a remporté avec la Tyrrell 011 le Grand Prix de Caesars Palace 1982, première des deux victoires du modèle.
+  sources:
+  - titre: Wikipedia, « Tyrrell 011 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_011
+- annee: 1982
+  ecurie: williams
+  equipe: Williams Ford
+  modeles:
+  - voiture: Williams FW08
+    gps:
+    - France Switzerland
+  pourquoi: Rosberg a offert à la FW08 sa première victoire au Grand Prix de Suisse 1982, couru à Dijon en France.
+  sources:
+  - titre: Wikipedia, « Williams FW08 »
+    url: https://en.wikipedia.org/wiki/Williams_FW08
+- annee: 1983
+  ecurie: brabham
+  equipe: Brabham BMW
+  modeles:
+  - voiture: Brabham BT52
+    gps:
+    - Brazil
+  - voiture: Brabham BT52B
+    gps:
+    - Italy
+    - Great Britain Europe
+    - South Africa
+  pourquoi: 'La BT52 a été remplacée par la BT52B après le Grand Prix du Canada : la victoire de Piquet au Brésil revient à la BT52, et les trois suivantes à la BT52B (Piquet en Italie et au GP d''Europe, Patrese en Afrique du Sud).'
+  sources:
+  - titre: Wikipedia, « Brabham BT52 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT52
+- annee: 1983
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 126C2B
+    gps:
+    - San Marino
+    - Canada
+  - voiture: Ferrari 126C3
+    gps:
+    - Germany
+    - Netherlands
+  pourquoi: La 126C2B a couru la première moitié de 1983 (Tambay à Imola, Arnoux au Canada) ; la 126C3, apparue à Silverstone, a été confiée à Arnoux dès Hockenheim et a gagné en Allemagne et aux Pays-Bas.
+  sources:
+  - titre: Wikipedia, « Ferrari 126C2 »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C2
+  - titre: Wikipedia, « Ferrari 126C3 »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C3
+  - titre: Wikipédia, « Ferrari 126 C3 »
+    url: https://fr.wikipedia.org/wiki/Ferrari_126_C3
+- annee: 1983
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren MP4/1C
+    gps:
+    - United States of America USA West
+  pourquoi: À Long Beach, les MP4/1C ont réalisé un doublé, Watson gagnant depuis la 22e place sur la grille.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/1 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+- annee: 1983
+  ecurie: renault-1977
+  equipe: Renault
+  modeles:
+  - voiture: Renault RE40
+    gps:
+    - France
+    - Belgium
+    - Great Britain
+    - Austria
+  pourquoi: La RE40 a débuté à Long Beach, avant la première victoire de 1983 ; Prost a gagné avec elle en France, en Belgique, en Grande-Bretagne et en Autriche.
+  sources:
+  - titre: Wikipedia, « Renault RE40 »
+    url: https://en.wikipedia.org/wiki/Renault_RE40
+- annee: 1983
+  ecurie: tyrrell
+  equipe: Tyrrell Ford
+  modeles:
+  - voiture: Tyrrell 011B
+    gps:
+    - United States of America Detroit
+  pourquoi: 'Alboreto a gagné à Detroit avec la 011, dans sa version améliorée de 1983, la 011B : c''est la dernière victoire du modèle.'
+  sources:
+  - titre: Wikipedia, « Tyrrell 011 »
+    url: https://en.wikipedia.org/wiki/Tyrrell_011
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+- annee: 1983
+  ecurie: williams
+  equipe: Williams Ford
+  modeles:
+  - voiture: Williams FW08C
+    gps:
+    - Monaco
+  pourquoi: Rosberg a remporté à Monaco 1983 la dernière victoire de la FW08, dans sa version 1983, la FW08C.
+  sources:
+  - titre: Wikipedia, « Williams FW08 »
+    url: https://en.wikipedia.org/wiki/Williams_FW08
+  - titre: Wikipedia, « 1983 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+- annee: 1984
+  ecurie: brabham
+  equipe: Brabham BMW
+  modeles:
+  - voiture: Brabham BT53
+    gps:
+    - Canada
+    - United States of America Detroit
+  pourquoi: Piquet a gagné deux fois avec la BT53 en 1984, au Canada et à Detroit.
+  sources:
+  - titre: Wikipedia, « Brabham BT53 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT53
+- annee: 1984
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 126C4
+    gps:
+    - Belgium
+  pourquoi: La 126C4 n'a gagné qu'une fois, en Belgique à Zolder, avec Alboreto, dont c'était la première victoire chez Ferrari.
+  sources:
+  - titre: Wikipedia, « Ferrari 126C4 »
+    url: https://en.wikipedia.org/wiki/Ferrari_126C4
+- annee: 1984
+  ecurie: mclaren
+  equipe: McLaren TAG
+  modeles:
+  - voiture: McLaren MP4/2
+    gps:
+    - Brazil
+    - South Africa
+    - San Marino
+    - France
+    - Monaco
+    - Great Britain
+    - Germany
+    - Austria
+    - Netherlands
+    - Italy
+    - Germany Europe
+    - Portugal
+  pourquoi: La MP4/2 d'origine a gagné 12 courses en 1984, sept avec Prost et cinq avec Lauda.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+- annee: 1984
+  ecurie: williams
+  equipe: Williams Honda
+  modeles:
+  - voiture: Williams FW09
+    gps:
+    - United States of America Dallas
+  pourquoi: Rosberg a gagné à Dallas avec la FW09 ; la FW09B n'est apparue qu'au Grand Prix de Grande-Bretagne, après Dallas.
+  sources:
+  - titre: Wikipedia, « Williams FW09 »
+    url: https://en.wikipedia.org/wiki/Williams_FW09
+- annee: 1985
+  ecurie: brabham
+  equipe: Brabham BMW
+  modeles:
+  - voiture: Brabham BT54
+    gps:
+    - France
+  pourquoi: Piquet a remporté avec la BT54, au Castellet, sa seule victoire de 1985.
+  sources:
+  - titre: Wikipedia, « Brabham BT54 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT54
+- annee: 1985
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 156/85
+    gps:
+    - Canada
+    - Germany
+  pourquoi: Alboreto a gagné deux fois avec la 156/85, au Canada et en Allemagne.
+  sources:
+  - titre: Wikipedia, « Ferrari 156/85 »
+    url: https://en.wikipedia.org/wiki/Ferrari_156/85
+- annee: 1985
+  ecurie: mclaren
+  equipe: McLaren TAG
+  modeles:
+  - voiture: McLaren MP4/2B
+    gps:
+    - Brazil
+    - Monaco
+    - Great Britain
+    - Austria
+    - Netherlands
+    - Italy
+  pourquoi: 'La MP4/2B, version 1985 de la MP4/2, a gagné six courses : cinq avec Prost et une avec Lauda, aux Pays-Bas.'
+  sources:
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+- annee: 1985
+  ecurie: team-lotus
+  equipe: Lotus Renault
+  modeles:
+  - voiture: Lotus 97T
+    gps:
+    - Portugal
+    - San Marino
+    - Belgium
+  pourquoi: La 97T a gagné au Portugal et en Belgique avec Senna ; à Saint-Marin, De Angelis a hérité de la victoire après la disqualification de Prost.
+  sources:
+  - titre: Wikipedia, « Lotus 97T »
+    url: https://en.wikipedia.org/wiki/Lotus_97T
+- annee: 1985
+  ecurie: williams
+  equipe: Williams Honda
+  modeles:
+  - voiture: Williams FW10
+    gps:
+    - United States of America Detroit
+  - voiture: Williams FW10B
+    gps:
+    - Great Britain Europe
+    - South Africa
+    - Australia
+  pourquoi: 'Rosberg a gagné à Detroit avec la FW10. D''après Wikipédia, la version améliorée FW10B, arrivée en fin de saison, a gagné les trois dernières courses : Mansell au GP d''Europe et en Afrique du Sud, Rosberg en Australie. La date exacte de ses débuts n''est pas précisée.'
+  sources:
+  - titre: Wikipedia, « Williams FW10 »
+    url: https://en.wikipedia.org/wiki/Williams_FW10
+- annee: 1986
+  ecurie: benetton
+  equipe: Benetton BMW
+  modeles:
+  - voiture: Benetton B186
+    gps:
+    - Mexico
+  pourquoi: Berger a offert à Benetton sa première victoire au Mexique, avec la B186 châssis n° 7, seule B186 victorieuse.
+  sources:
+  - titre: Wikipedia, « Benetton B186 »
+    url: https://en.wikipedia.org/wiki/Benetton_B186
+- annee: 1986
+  ecurie: mclaren
+  equipe: McLaren TAG
+  modeles:
+  - voiture: McLaren MP4/2C
+    gps:
+    - San Marino
+    - Monaco
+    - Austria
+    - Australia
+  pourquoi: La MP4/2C a gagné quatre courses en 1986, toutes avec Prost.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/2 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+- annee: 1986
+  ecurie: team-lotus
+  equipe: Lotus Renault
+  modeles:
+  - voiture: Lotus 98T
+    gps:
+    - Spain
+    - United States of America Detroit
+  pourquoi: Le tableau des résultats de la 98T montre ses deux victoires de 1986, en Espagne et à Detroit.
+  sources:
+  - titre: Wikipedia, « Lotus 98T »
+    url: https://en.wikipedia.org/wiki/Lotus_98T
+- annee: 1986
+  ecurie: williams
+  equipe: Williams Honda
+  modeles:
+  - voiture: Williams FW11
+    gps:
+    - Brazil
+    - Belgium
+    - Canada
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Italy
+    - Portugal
+  pourquoi: 'La FW11 a gagné neuf courses en 1986 : cinq avec Mansell et quatre avec Piquet.'
+  sources:
+  - titre: Wikipedia, « Williams FW11 »
+    url: https://en.wikipedia.org/wiki/Williams_FW11
+- annee: 1987
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F1/87
+    gps:
+    - Japan
+    - Australia
+  pourquoi: Berger a gagné deux fois avec la F1/87, au Japon et en Australie.
+  sources:
+  - titre: Wikipedia, « Ferrari F1/87 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+- annee: 1987
+  ecurie: mclaren
+  equipe: McLaren TAG
+  modeles:
+  - voiture: McLaren MP4/3
+    gps:
+    - Brazil
+    - Belgium
+    - Portugal
+  pourquoi: Prost a gagné trois fois avec la MP4/3 en 1987, au Brésil, en Belgique et au Portugal.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/3 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/3
+- annee: 1987
+  ecurie: team-lotus
+  equipe: Lotus Honda
+  modeles:
+  - voiture: Lotus 99T
+    gps:
+    - Monaco
+    - United States of America Detroit
+  pourquoi: Senna a gagné à Monaco et à Detroit avec la 99T ; Detroit reste la dernière victoire de Team Lotus.
+  sources:
+  - titre: Wikipedia, « Lotus 99T »
+    url: https://en.wikipedia.org/wiki/Lotus_99T
+- annee: 1987
+  ecurie: williams
+  equipe: Williams Honda
+  modeles:
+  - voiture: Williams FW11B
+    gps:
+    - San Marino
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Austria
+    - Italy
+    - Spain
+    - Mexico
+  pourquoi: 'La FW11B a gagné neuf courses en 1987 : six avec Mansell et trois avec Piquet.'
+  sources:
+  - titre: Wikipedia, « Williams FW11 »
+    url: https://en.wikipedia.org/wiki/Williams_FW11
+- annee: 1988
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F1/87/88C
+    gps:
+    - Italy
+  pourquoi: La F1/87 mise à jour pour 1988 fut rebaptisée F1/87/88C ; Gerhard Berger l'a menée à la victoire à Monza, devant Alboreto.
+  sources:
+  - titre: Wikipedia, « Ferrari F1/87 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+- annee: 1988
+  ecurie: mclaren
+  equipe: McLaren Honda
+  modeles:
+  - voiture: McLaren MP4/4
+    gps:
+    - Brazil
+    - San Marino
+    - Monaco
+    - Mexico
+    - Canada
+    - United States of America Detroit
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Belgium
+    - Portugal
+    - Spain
+    - Japan
+    - Australia
+  pourquoi: La MP4/4 a disputé les seize manches de 1988 et en a gagné quinze, toutes sauf Monza.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/4 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/4
+- annee: 1989
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B189
+    gps:
+    - Japan
+  pourquoi: 'Unique victoire de la B189 : Nannini, deuxième sur la piste à Suzuka, a hérité de la victoire après la disqualification de Senna.'
+  sources:
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+- annee: 1989
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 640
+    gps:
+    - Brazil
+    - Hungary
+    - Portugal
+  pourquoi: La 640 a gagné dès ses débuts au Brésil (Mansell), puis en Hongrie (Mansell) et au Portugal (Berger).
+  sources:
+  - titre: Wikipedia, « Ferrari 640 »
+    url: https://en.wikipedia.org/wiki/Ferrari_640
+- annee: 1989
+  ecurie: mclaren
+  equipe: McLaren Honda
+  modeles:
+  - voiture: McLaren MP4/5
+    gps:
+    - San Marino
+    - Monaco
+    - Mexico
+    - United States of America United States
+    - France
+    - Great Britain
+    - Germany
+    - Belgium
+    - Italy
+    - Spain
+  pourquoi: La MP4/5, seule McLaren engagée en 1989, a gagné dix courses, de Saint-Marin (première) à l'Espagne (dernière).
+  sources:
+  - titre: Wikipedia, « McLaren MP4/5 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+- annee: 1989
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW12C
+    gps:
+    - Canada
+  - voiture: Williams FW13
+    gps:
+    - Australia
+  pourquoi: Boutsen a donné à la FW12C son unique victoire au Canada (doublé avec Patrese) ; la FW13, apparue en fin de saison, a gagné en Australie sous la pluie avec Boutsen.
+  sources:
+  - titre: Wikipedia, « Williams FW12 »
+    url: https://en.wikipedia.org/wiki/Williams_FW12
+  - titre: Wikipedia, « Williams FW13 »
+    url: https://en.wikipedia.org/wiki/Williams_FW13
+- annee: 1990
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B190
+    gps:
+    - Japan
+    - Australia
+  pourquoi: La B189B n'a couru que les deux premières manches ; Piquet a gagné les deux dernières courses de la saison au volant de la B190.
+  sources:
+  - titre: Wikipedia, « Benetton B190 »
+    url: https://en.wikipedia.org/wiki/Benetton_B190
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+- annee: 1990
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 641
+    gps:
+    - Brazil
+    - Mexico
+    - France
+    - Great Britain
+    - Portugal
+    - Spain
+  pourquoi: La 641 (dite aussi 641/2 selon les châssis) a gagné cinq fois avec Prost et une fois avec Mansell ; Ferrari n'a pas engagé d'autre modèle en 1990.
+  sources:
+  - titre: Wikipedia, « Ferrari 641 »
+    url: https://en.wikipedia.org/wiki/Ferrari_641
+- annee: 1990
+  ecurie: mclaren
+  equipe: McLaren Honda
+  modeles:
+  - voiture: McLaren MP4/5B
+    gps:
+    - United States of America United States
+    - Monaco
+    - Canada
+    - Germany
+    - Belgium
+    - Italy
+  pourquoi: La MP4/5B, version 1990 de la MP4/5, a gagné six courses, des États-Unis (première) à l'Italie (dernière).
+  sources:
+  - titre: Wikipedia, « McLaren MP4/5 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+- annee: 1990
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW13B
+    gps:
+    - San Marino
+    - Hungary
+  pourquoi: 'La FW13B a gagné deux fois : Patrese à Saint-Marin, Boutsen en Hongrie depuis la pole.'
+  sources:
+  - titre: Wikipedia, « Williams FW13 »
+    url: https://en.wikipedia.org/wiki/Williams_FW13
+- annee: 1991
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B191
+    gps:
+    - Canada
+  pourquoi: La B190B ne servit qu'aux deux premières manches ; Piquet a offert à la B191 son unique victoire au Canada.
+  sources:
+  - titre: Wikipedia, « Benetton B191 »
+    url: https://en.wikipedia.org/wiki/Benetton_B191
+  - titre: Wikipedia, « Benetton B190 »
+    url: https://en.wikipedia.org/wiki/Benetton_B190
+- annee: 1991
+  ecurie: mclaren
+  equipe: McLaren Honda
+  modeles:
+  - voiture: McLaren MP4/6
+    gps:
+    - United States of America United States
+    - Brazil
+    - San Marino
+    - Monaco
+    - Hungary
+    - Belgium
+    - Japan
+    - Australia
+  pourquoi: 'La MP4/6 a gagné huit courses en 1991 : sept pour Senna, et le Japon pour Berger.'
+  sources:
+  - titre: Wikipedia, « McLaren MP4/6 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+- annee: 1991
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW14
+    gps:
+    - Mexico
+    - France
+    - Great Britain
+    - Germany
+    - Italy
+    - Portugal
+    - Spain
+  pourquoi: La FW14, seule Williams engagée en 1991, a remporté sept victoires avec Mansell et Patrese.
+  sources:
+  - titre: Wikipedia, « Williams FW14 »
+    url: https://en.wikipedia.org/wiki/Williams_FW14
+- annee: 1992
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B192
+    gps:
+    - Belgium
+  pourquoi: La B192, apparue au Grand Prix d'Espagne en remplacement de la B191B, a gagné en Belgique sous la pluie avec Schumacher.
+  sources:
+  - titre: Wikipedia, « Benetton B192 »
+    url: https://en.wikipedia.org/wiki/Benetton_B192
+- annee: 1992
+  ecurie: mclaren
+  equipe: McLaren Honda
+  modeles:
+  - voiture: McLaren MP4/7A
+    gps:
+    - Monaco
+    - Canada
+    - Hungary
+    - Italy
+    - Australia
+  pourquoi: La MP4/6B n'a couru qu'en Afrique du Sud et au Mexique, sans gagner ; la MP4/7A, apparue au Brésil, a gagné cinq fois (trois pour Senna, deux pour Berger), de Monaco à l'Australie.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/7A »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/7A
+  - titre: Wikipedia, « McLaren MP4/6 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+- annee: 1992
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW14B
+    gps:
+    - South Africa
+    - Mexico
+    - Brazil
+    - Spain
+    - San Marino
+    - France
+    - Great Britain
+    - Germany
+    - Portugal
+    - Japan
+  pourquoi: La FW14B, engagée dès la manche d'ouverture en Afrique du Sud, a gagné neuf fois avec Mansell et une fois avec Patrese (Japon).
+  sources:
+  - titre: Wikipedia, « Williams FW14 »
+    url: https://en.wikipedia.org/wiki/Williams_FW14
+- annee: 1993
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B193B
+    gps:
+    - Portugal
+  pourquoi: La B193A n'a couru qu'en Afrique du Sud et au Brésil ; Schumacher a gagné au Portugal avec la B193B, unique victoire du modèle.
+  sources:
+  - titre: Wikipedia, « Benetton B193 »
+    url: https://en.wikipedia.org/wiki/Benetton_B193
+- annee: 1993
+  ecurie: mclaren
+  equipe: McLaren Ford
+  modeles:
+  - voiture: McLaren MP4/8
+    gps:
+    - Brazil
+    - Great Britain Europe
+    - Monaco
+    - Japan
+    - Australia
+  pourquoi: La MP4/8 a couru les seize manches de 1993 ; Senna y a gagné cinq fois, dont le Grand Prix d'Europe à Donington.
+  sources:
+  - titre: Wikipedia, « McLaren MP4/8 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4/8
+- annee: 1993
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW15C
+    gps:
+    - South Africa
+    - San Marino
+    - Spain
+    - Canada
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Belgium
+    - Italy
+  pourquoi: 'La FW15C a gagné dix courses en 1993 : sept pour Prost, trois pour Hill (Hongrie, Belgique, Italie).'
+  sources:
+  - titre: Wikipedia, « Williams FW15C »
+    url: https://en.wikipedia.org/wiki/Williams_FW15C
+- annee: 1994
+  ecurie: benetton
+  equipe: Benetton Ford
+  modeles:
+  - voiture: Benetton B194
+    gps:
+    - Brazil
+    - Japan Pacific
+    - San Marino
+    - Monaco
+    - Canada
+    - France
+    - Hungary
+    - Spain Europe
+  pourquoi: Le tableau des engagés de la saison 1994 ne donne qu'un châssis pour l'écurie, la Benetton B194, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+- annee: 1994
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 412 T1B
+    gps:
+    - Germany
+  pourquoi: Le tableau des engagés 1994 liste 412 T1 et 412 T1B ; la version T1B est apparue au Grand Prix de France, avant la victoire de Berger à Hockenheim (attribution déduite de la chronologie, la page du GP ne nomme pas le châssis).
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari 412 T1 »
+    url: https://en.wikipedia.org/wiki/Ferrari_412_T1
+  - titre: Wikipedia (it), « Ferrari 412 T1 »
+    url: https://it.wikipedia.org/wiki/Ferrari_412_T1
+- annee: 1994
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW16
+    gps:
+    - Spain
+    - Great Britain
+  - voiture: Williams FW16B
+    gps:
+    - Belgium
+    - Italy
+    - Portugal
+    - Japan
+    - Australia
+  pourquoi: 'La FW16 a été mise à jour et rebaptisée FW16B « by the German Grand Prix » : les victoires d''Espagne et de Grande-Bretagne reviennent à la FW16, les cinq suivantes à la FW16B.'
+  sources:
+  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW16 »
+    url: https://en.wikipedia.org/wiki/Williams_FW16
+- annee: 1995
+  ecurie: benetton
+  equipe: Benetton Renault
+  modeles:
+  - voiture: Benetton B195
+    gps:
+    - Brazil
+    - Spain
+    - Monaco
+    - France
+    - Great Britain
+    - Germany
+    - Belgium
+    - Italy
+    - Germany Europe
+    - Japan Pacific
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 1995 ne donne qu'un châssis pour l'écurie, la Benetton B195, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+- annee: 1995
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 412 T2
+    gps:
+    - Canada
+  pourquoi: Le tableau des engagés de la saison 1995 ne donne qu'un châssis pour l'écurie, la Ferrari 412 T2, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+- annee: 1995
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW17
+    gps:
+    - Argentina
+    - San Marino
+    - Hungary
+    - Portugal
+  - voiture: Williams FW17B
+    gps:
+    - Australia
+  pourquoi: 'La FW17B n''a servi qu''en qualifications au Portugal, puis a couru les quatre dernières manches, où elle a gagné une fois : l''Australie (Hill), seule victoire Williams de cette fin de saison.'
+  sources:
+  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Wikipedia, « Williams FW17 »
+    url: https://en.wikipedia.org/wiki/Williams_FW17
+- annee: 1996
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F310
+    gps:
+    - Spain
+    - Belgium
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Ferrari F310, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+- annee: 1996
+  ecurie: ligier
+  equipe: Ligier Mugen Honda
+  modeles:
+  - voiture: Ligier JS43
+    gps:
+    - Monaco
+  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Ligier JS43, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+- annee: 1996
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW18
+    gps:
+    - Australia
+    - Brazil
+    - Argentina
+    - Germany Europe
+    - San Marino
+    - Canada
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Portugal
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Williams FW18, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+- annee: 1997
+  ecurie: benetton
+  equipe: Benetton Renault
+  modeles:
+  - voiture: Benetton B197
+    gps:
+    - Germany
+  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Benetton B197, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+- annee: 1997
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F310B
+    gps:
+    - Monaco
+    - Canada
+    - France
+    - Belgium
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Ferrari F310B, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+- annee: 1997
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4/12
+    gps:
+    - Australia
+    - Italy
+    - Spain Europe
+  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la McLaren MP4/12, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+- annee: 1997
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW19
+    gps:
+    - Brazil
+    - Argentina
+    - San Marino
+    - Spain
+    - Great Britain
+    - Hungary
+    - Austria
+    - Germany Luxembourg
+  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Williams FW19, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+- annee: 1998
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F300
+    gps:
+    - Argentina
+    - Canada
+    - France
+    - Great Britain
+    - Hungary
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la Ferrari F300, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+- annee: 1998
+  ecurie: jordan
+  equipe: Jordan Mugen Honda
+  modeles:
+  - voiture: Jordan 198
+    gps:
+    - Belgium
+  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la Jordan 198, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+- annee: 1998
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4/13
+    gps:
+    - Australia
+    - Brazil
+    - San Marino
+    - Spain
+    - Monaco
+    - Austria
+    - Germany
+    - Germany Luxembourg
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la McLaren MP4/13, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+- annee: 1999
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F399
+    gps:
+    - Australia
+    - San Marino
+    - Monaco
+    - Austria
+    - Germany
+    - Malaysia
+  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Ferrari F399, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+- annee: 1999
+  ecurie: jordan
+  equipe: Jordan Mugen Honda
+  modeles:
+  - voiture: Jordan 199
+    gps:
+    - France
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Jordan 199, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+- annee: 1999
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4/14
+    gps:
+    - Brazil
+    - Spain
+    - Canada
+    - Great Britain
+    - Hungary
+    - Belgium
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la McLaren MP4/14, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+- annee: 1999
+  ecurie: stewart
+  equipe: Stewart Ford
+  modeles:
+  - voiture: Stewart SF3
+    gps:
+    - Germany Europe
+  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Stewart SF3, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+- annee: 2000
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F1-2000
+    gps:
+    - Australia
+    - Brazil
+    - San Marino
+    - Germany Europe
+    - Canada
+    - Germany
+    - Italy
+    - United States of America United States
+    - Japan
+    - Malaysia
+  pourquoi: Le tableau des engagés de la saison 2000 ne donne qu'un châssis pour l'écurie, la Ferrari F1-2000, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2000 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
+- annee: 2000
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4/15
+    gps:
+    - Great Britain
+    - Spain
+    - Monaco
+    - France
+    - Austria
+    - Hungary
+    - Belgium
+  pourquoi: Le tableau des engagés de la saison 2000 ne donne qu'un châssis pour l'écurie, la McLaren MP4/15, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2000 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
+- annee: 2001
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2001
+    gps:
+    - Australia
+    - Malaysia
+    - Spain
+    - Monaco
+    - Germany Europe
+    - France
+    - Hungary
+    - Belgium
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la Ferrari F2001, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+- annee: 2001
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-16
+    gps:
+    - Brazil
+    - Austria
+    - Great Britain
+    - United States of America United States
+  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la McLaren MP4-16, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+- annee: 2001
+  ecurie: williams
+  equipe: Williams BMW
+  modeles:
+  - voiture: Williams FW23
+    gps:
+    - San Marino
+    - Canada
+    - Germany
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la Williams FW23, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+- annee: 2002
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2001B
+    gps:
+    - Australia
+  - voiture: Ferrari F2002
+    gps:
+    - Brazil
+    - San Marino
+    - Spain
+    - Austria
+    - Canada
+    - Germany Europe
+    - Great Britain
+    - France
+    - Germany
+    - Hungary
+    - Belgium
+    - Italy
+    - United States of America United States
+    - Japan
+  pourquoi: Ferrari a ouvert 2002 avec la F2001B, victorieuse en Australie ; la F2002 a débuté et gagné au Brésil, puis a remporté toutes les autres victoires de l'écurie.
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2001 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2001
+  - titre: Wikipedia, « Ferrari F2002 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2002
+- annee: 2002
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-17
+    gps:
+    - Monaco
+  pourquoi: Le tableau des engagés de la saison 2002 ne donne qu'un châssis pour l'écurie, la McLaren MP4-17, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+- annee: 2002
+  ecurie: williams
+  equipe: Williams BMW
+  modeles:
+  - voiture: Williams FW24
+    gps:
+    - Malaysia
+  pourquoi: Le tableau des engagés de la saison 2002 ne donne qu'un châssis pour l'écurie, la Williams FW24, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+- annee: 2003
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2002B
+    gps:
+    - San Marino
+  - voiture: Ferrari F2003-GA
+    gps:
+    - Spain
+    - Austria
+    - Canada
+    - Great Britain
+    - Italy
+    - United States of America United States
+    - Japan
+  pourquoi: La F2002B a couru les quatre premières manches et gagné à Saint-Marin ; la F2003-GA a débuté et gagné en Espagne et totalise sept victoires.
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2002 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2002
+  - titre: Wikipedia, « Ferrari F2003-GA »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2003-GA
+- annee: 2003
+  ecurie: jordan
+  equipe: Jordan Ford
+  modeles:
+  - voiture: Jordan EJ13
+    gps:
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la Jordan EJ13, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+- annee: 2003
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-17D
+    gps:
+    - Australia
+    - Malaysia
+  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la McLaren MP4-17D, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+- annee: 2003
+  ecurie: renault
+  equipe: Renault
+  modeles:
+  - voiture: Renault R23B
+    gps:
+    - Hungary
+  pourquoi: L'évolution R23B a débuté au Grand Prix de Grande-Bretagne et servi jusqu'à la fin de la saison ; le tableau de résultats de la page place la victoire d'Alonso en Hongrie sur la ligne R23B.
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R23 »
+    url: https://en.wikipedia.org/wiki/Renault_R23
+- annee: 2003
+  ecurie: williams
+  equipe: Williams BMW
+  modeles:
+  - voiture: Williams FW25
+    gps:
+    - Monaco
+    - Germany Europe
+    - France
+    - Germany
+  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la Williams FW25, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+- annee: 2004
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2004
+    gps:
+    - Australia
+    - Malaysia
+    - Bahrain
+    - San Marino
+    - Spain
+    - Germany Europe
+    - Canada
+    - United States of America United States
+    - France
+    - Great Britain
+    - Germany
+    - Hungary
+    - Italy
+    - People’s Republic of China China
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2004 ne donne qu'un châssis pour l'écurie, la Ferrari F2004, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+- annee: 2004
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-19B
+    gps:
+    - Belgium
+  pourquoi: La MP4-19B a débuté au Grand Prix de France ; la seule victoire de la saison, en Belgique (Räikkönen), est donc celle de la MP4-19B.
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « McLaren MP4-19 »
+    url: https://en.wikipedia.org/wiki/McLaren_MP4-19
+- annee: 2004
+  ecurie: renault
+  equipe: Renault
+  modeles:
+  - voiture: Renault R24
+    gps:
+    - Monaco
+  pourquoi: Wikipédia range la victoire de Trulli à Monaco sous la Renault R24 ; la mise à jour dite « R24B », apparue à Saint-Marin, porte surtout sur le moteur et n'est pas traitée comme un modèle distinct.
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: Wikipedia, « Renault R24 »
+    url: https://en.wikipedia.org/wiki/Renault_R24
+- annee: 2004
+  ecurie: williams
+  equipe: Williams BMW
+  modeles:
+  - voiture: Williams FW26
+    gps:
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2004 ne donne qu'un châssis pour l'écurie, la Williams FW26, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+- annee: 2005
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2005
+    gps:
+    - United States of America United States
+  pourquoi: Ferrari a commencé 2005 avec la F2004M ; la F2005, avancée à Bahreïn, a signé le doublé du Grand Prix des États-Unis.
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Wikipedia, « Ferrari F2005 »
+    url: https://en.wikipedia.org/wiki/Ferrari_F2005
+- annee: 2005
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-20
+    gps:
+    - Spain
+    - Monaco
+    - Canada
+    - Great Britain
+    - Hungary
+    - Türkiye Turkey
+    - Italy
+    - Belgium
+    - Brazil
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2005 ne donne qu'un châssis pour l'écurie, la McLaren MP4-20, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+- annee: 2005
+  ecurie: renault
+  equipe: Renault
+  modeles:
+  - voiture: Renault R25
+    gps:
+    - Australia
+    - Malaysia
+    - Bahrain
+    - San Marino
+    - Germany Europe
+    - France
+    - Germany
+    - People’s Republic of China China
+  pourquoi: Le tableau des engagés de la saison 2005 ne donne qu'un châssis pour l'écurie, la Renault R25, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+- annee: 2006
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 248 F1
+    gps:
+    - San Marino
+    - Germany Europe
+    - United States of America United States
+    - France
+    - Germany
+    - Türkiye Turkey
+    - Italy
+    - People’s Republic of China China
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Ferrari 248 F1, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+- annee: 2006
+  ecurie: honda
+  equipe: Honda
+  modeles:
+  - voiture: Honda RA106
+    gps:
+    - Hungary
+  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Honda RA106, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+- annee: 2006
+  ecurie: renault
+  equipe: Renault
+  modeles:
+  - voiture: Renault R26
+    gps:
+    - Bahrain
+    - Malaysia
+    - Australia
+    - Spain
+    - Monaco
+    - Great Britain
+    - Canada
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Renault R26, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+- annee: 2007
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2007
+    gps:
+    - Australia
+    - Bahrain
+    - Spain
+    - France
+    - Great Britain
+    - Türkiye Turkey
+    - Belgium
+    - People’s Republic of China China
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2007 ne donne qu'un châssis pour l'écurie, la Ferrari F2007, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2007 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
+- annee: 2007
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-22
+    gps:
+    - Malaysia
+    - Monaco
+    - Canada
+    - United States of America United States
+    - Germany Europe
+    - Hungary
+    - Italy
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2007 ne donne qu'un châssis pour l'écurie, la McLaren MP4-22, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2007 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
+- annee: 2008
+  ecurie: bmw-sauber
+  equipe: Sauber BMW
+  modeles:
+  - voiture: BMW Sauber F1.08
+    gps:
+    - Canada
+  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la BMW Sauber F1.08, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+- annee: 2008
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2008
+    gps:
+    - Malaysia
+    - Bahrain
+    - Spain
+    - Türkiye Turkey
+    - France
+    - Spain Europe
+    - Belgium
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la Ferrari F2008, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+- annee: 2008
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-23
+    gps:
+    - Australia
+    - Monaco
+    - Great Britain
+    - Germany
+    - Hungary
+    - People’s Republic of China China
+  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la McLaren MP4-23, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+- annee: 2008
+  ecurie: renault
+  equipe: Renault
+  modeles:
+  - voiture: Renault R28
+    gps:
+    - Singapore
+    - Japan
+  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la Renault R28, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+- annee: 2008
+  ecurie: toro-rosso
+  equipe: STR Ferrari
+  modeles:
+  - voiture: Toro Rosso STR3
+    gps:
+    - Italy
+  pourquoi: La STR3 a remplacé la STR2B à Monaco ; c'est avec elle que Vettel a gagné le Grand Prix d'Italie.
+  sources:
+  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+  - titre: Wikipedia, « Toro Rosso STR3 »
+    url: https://en.wikipedia.org/wiki/Toro_Rosso_STR3
+- annee: 2009
+  ecurie: brawn
+  equipe: Brawn Mercedes
+  modeles:
+  - voiture: Brawn BGP 001
+    gps:
+    - Australia
+    - Malaysia
+    - Bahrain
+    - Spain
+    - Monaco
+    - Türkiye Turkey
+    - Spain Europe
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Brawn BGP 001, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+- annee: 2009
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F60
+    gps:
+    - Belgium
+  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Ferrari F60, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+- annee: 2009
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-24
+    gps:
+    - Hungary
+    - Singapore
+  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la McLaren MP4-24, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+- annee: 2009
+  ecurie: red-bull
+  equipe: RBR Renault
+  modeles:
+  - voiture: Red Bull RB5
+    gps:
+    - People’s Republic of China China
+    - Great Britain
+    - Germany
+    - Japan
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Red Bull RB5, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+- annee: 2010
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F10
+    gps:
+    - Bahrain
+    - Germany
+    - Italy
+    - Singapore
+    - Republic of Korea South Korea
+  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la Ferrari F10, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+- annee: 2010
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-25
+    gps:
+    - Australia
+    - People’s Republic of China China
+    - Türkiye Turkey
+    - Canada
+    - Belgium
+  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la McLaren MP4-25, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+- annee: 2010
+  ecurie: red-bull
+  equipe: RBR Renault
+  modeles:
+  - voiture: Red Bull RB6
+    gps:
+    - Malaysia
+    - Spain
+    - Monaco
+    - Spain Europe
+    - Great Britain
+    - Hungary
+    - Japan
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la Red Bull RB6, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+- annee: 2011
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari 150° Italia
+    gps:
+    - Great Britain
+  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la Ferrari 150° Italia, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+- annee: 2011
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-26
+    gps:
+    - People’s Republic of China China
+    - Canada
+    - Germany
+    - Hungary
+    - Japan
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la McLaren MP4-26, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+- annee: 2011
+  ecurie: red-bull
+  equipe: Red Bull Racing Renault
+  modeles:
+  - voiture: Red Bull RB7
+    gps:
+    - Australia
+    - Malaysia
+    - Türkiye Turkey
+    - Spain
+    - Monaco
+    - Spain Europe
+    - Belgium
+    - Italy
+    - Singapore
+    - Republic of Korea South Korea
+    - India
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la Red Bull RB7, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+- annee: 2012
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F2012
+    gps:
+    - Malaysia
+    - Spain Europe
+    - Germany
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Ferrari F2012, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2012
+  ecurie: lotus-f1
+  equipe: Lotus Renault
+  modeles:
+  - voiture: Lotus E20
+    gps:
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Lotus E20, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2012
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MP4-27
+    gps:
+    - Australia
+    - Canada
+    - Hungary
+    - Belgium
+    - Italy
+    - United States of America United States
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la McLaren MP4-27, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2012
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W03
+    gps:
+    - People’s Republic of China China
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W03, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2012
+  ecurie: red-bull
+  equipe: Red Bull Racing Renault
+  modeles:
+  - voiture: Red Bull RB8
+    gps:
+    - Bahrain
+    - Monaco
+    - Great Britain
+    - Singapore
+    - Japan
+    - Republic of Korea South Korea
+    - India
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Red Bull RB8, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2012
+  ecurie: williams
+  equipe: Williams Renault
+  modeles:
+  - voiture: Williams FW34
+    gps:
+    - Spain
+  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Williams FW34, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+- annee: 2013
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F138
+    gps:
+    - People’s Republic of China China
+    - Spain
+  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Ferrari F138, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+- annee: 2013
+  ecurie: lotus-f1
+  equipe: Lotus Renault
+  modeles:
+  - voiture: Lotus E21
+    gps:
+    - Australia
+  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Lotus E21, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+- annee: 2013
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W04
+    gps:
+    - Monaco
+    - Great Britain
+    - Hungary
+  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W04, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+- annee: 2013
+  ecurie: red-bull
+  equipe: Red Bull Racing Renault
+  modeles:
+  - voiture: Red Bull RB9
+    gps:
+    - Malaysia
+    - Bahrain
+    - Canada
+    - Germany
+    - Belgium
+    - Italy
+    - Singapore
+    - Republic of Korea South Korea
+    - Japan
+    - India
+    - United Arab Emirates Abu Dhabi
+    - United States of America United States
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Red Bull RB9, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+- annee: 2014
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W05 Hybrid
+    gps:
+    - Australia
+    - Malaysia
+    - Bahrain
+    - People’s Republic of China China
+    - Spain
+    - Monaco
+    - Austria
+    - Great Britain
+    - Germany
+    - Italy
+    - Singapore
+    - Japan
+    - Russia
+    - United States of America United States
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2014 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W05 Hybrid, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2014 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+- annee: 2014
+  ecurie: red-bull
+  equipe: Red Bull Racing Renault
+  modeles:
+  - voiture: Red Bull RB10
+    gps:
+    - Canada
+    - Hungary
+    - Belgium
+  pourquoi: Le tableau des engagés de la saison 2014 ne donne qu'un châssis pour l'écurie, la Red Bull RB10, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2014 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+- annee: 2015
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF15-T
+    gps:
+    - Malaysia
+    - Hungary
+    - Singapore
+  pourquoi: Le tableau des engagés de la saison 2015 ne donne qu'un châssis pour l'écurie, la Ferrari SF15-T, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2015 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
+- annee: 2015
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W06 Hybrid
+    gps:
+    - Australia
+    - People’s Republic of China China
+    - Bahrain
+    - Spain
+    - Monaco
+    - Canada
+    - Austria
+    - Great Britain
+    - Belgium
+    - Italy
+    - Japan
+    - Russia
+    - United States of America United States
+    - Mexico
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2015 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W06 Hybrid, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2015 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
+- annee: 2016
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W07 Hybrid
+    gps:
+    - Australia
+    - Bahrain
+    - People’s Republic of China China
+    - Russia
+    - Monaco
+    - Canada
+    - Azerbaijan Europe
+    - Austria
+    - Great Britain
+    - Hungary
+    - Germany
+    - Belgium
+    - Italy
+    - Singapore
+    - Japan
+    - United States of America United States
+    - Mexico
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2016 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W07 Hybrid, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2016 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
+- annee: 2016
+  ecurie: red-bull
+  equipe: Red Bull Racing TAG Heuer
+  modeles:
+  - voiture: Red Bull RB12
+    gps:
+    - Spain
+    - Malaysia
+  pourquoi: Le tableau des engagés de la saison 2016 ne donne qu'un châssis pour l'écurie, la Red Bull RB12, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2016 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
+- annee: 2017
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF70H
+    gps:
+    - Australia
+    - Bahrain
+    - Monaco
+    - Hungary
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Ferrari SF70H, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+- annee: 2017
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W08 EQ Power+
+    gps:
+    - People’s Republic of China China
+    - Russia
+    - Spain
+    - Canada
+    - Austria
+    - Great Britain
+    - Belgium
+    - Italy
+    - Singapore
+    - Japan
+    - United States of America United States
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W08 EQ Power+, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+- annee: 2017
+  ecurie: red-bull
+  equipe: Red Bull Racing TAG Heuer
+  modeles:
+  - voiture: Red Bull RB13
+    gps:
+    - Azerbaijan
+    - Malaysia
+    - Mexico
+  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Red Bull RB13, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+- annee: 2018
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF71H
+    gps:
+    - Australia
+    - Bahrain
+    - Canada
+    - Great Britain
+    - Belgium
+    - United States of America United States
+  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Ferrari SF71H, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+- annee: 2018
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W09 EQ Power+
+    gps:
+    - Azerbaijan
+    - Spain
+    - France
+    - Germany
+    - Hungary
+    - Italy
+    - Singapore
+    - Russia
+    - Japan
+    - Brazil
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W09 EQ Power+, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+- annee: 2018
+  ecurie: red-bull
+  equipe: Red Bull Racing TAG Heuer
+  modeles:
+  - voiture: Red Bull RB14
+    gps:
+    - People’s Republic of China China
+    - Monaco
+    - Austria
+    - Mexico
+  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Red Bull RB14, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+- annee: 2019
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF90
+    gps:
+    - Belgium
+    - Italy
+    - Singapore
+  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Ferrari SF90, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+- annee: 2019
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W10 EQ Power+
+    gps:
+    - Australia
+    - Bahrain
+    - People’s Republic of China China
+    - Azerbaijan
+    - Spain
+    - Monaco
+    - Canada
+    - France
+    - Great Britain
+    - Hungary
+    - Russia
+    - Japan
+    - Mexico
+    - United States of America United States
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W10 EQ Power+, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+- annee: 2019
+  ecurie: red-bull
+  equipe: Red Bull Racing Honda
+  modeles:
+  - voiture: Red Bull RB15
+    gps:
+    - Austria
+    - Germany
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Red Bull RB15, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+- annee: 2020
+  ecurie: alphatauri
+  equipe: AlphaTauri Honda
+  modeles:
+  - voiture: AlphaTauri AT01
+    gps:
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la AlphaTauri AT01, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+- annee: 2020
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W11
+    gps:
+    - Austria
+    - Austria Styria
+    - Hungary
+    - Great Britain
+    - Spain
+    - Belgium
+    - Italy Tuscany
+    - Russia
+    - Germany Eifel
+    - Portugal
+    - Italy Emilia-Romagna
+    - Türkiye Turkey
+    - Bahrain
+  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W11, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+- annee: 2020
+  ecurie: racing-point
+  equipe: Racing Point BWT Mercedes
+  modeles:
+  - voiture: Racing Point RP20
+    gps:
+    - Bahrain Sakhir
+  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Racing Point RP20, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+- annee: 2020
+  ecurie: red-bull
+  equipe: Red Bull Racing Honda
+  modeles:
+  - voiture: Red Bull RB16
+    gps:
+    - Great Britain 70th Anniversary
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Red Bull RB16, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+- annee: 2021
+  ecurie: alpine
+  equipe: Alpine Renault
+  modeles:
+  - voiture: Alpine A521
+    gps:
+    - Hungary
+  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Alpine A521, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+- annee: 2021
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MCL35M
+    gps:
+    - Italy
+  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la McLaren MCL35M, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+- annee: 2021
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W12
+    gps:
+    - Bahrain
+    - Portugal
+    - Spain
+    - Great Britain
+    - Russia
+    - Türkiye Turkey
+    - Brazil
+    - Qatar
+    - Saudi Arabia
+  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W12, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+- annee: 2021
+  ecurie: red-bull
+  equipe: Red Bull Racing Honda
+  modeles:
+  - voiture: Red Bull RB16B
+    gps:
+    - Italy Emilia-Romagna
+    - Monaco
+    - Azerbaijan
+    - France
+    - Austria Styria
+    - Austria
+    - Belgium
+    - Netherlands
+    - United States of America United States
+    - Mexico
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Red Bull RB16B, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+- annee: 2022
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari F1-75
+    gps:
+    - Bahrain
+    - Australia
+    - Great Britain
+    - Austria
+  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Ferrari F1-75, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+- annee: 2022
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W13
+    gps:
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W13, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+- annee: 2022
+  ecurie: red-bull
+  equipe: Red Bull Racing RBPT
+  modeles:
+  - voiture: Red Bull RB18
+    gps:
+    - Saudi Arabia
+    - Italy Emilia-Romagna
+    - United States of America Miami
+    - Spain
+    - Monaco
+    - Azerbaijan
+    - Canada
+    - France
+    - Hungary
+    - Belgium
+    - Netherlands
+    - Italy
+    - Singapore
+    - Japan
+    - United States of America United States
+    - Mexico
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Red Bull RB18, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+- annee: 2023
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF-23
+    gps:
+    - Singapore
+  pourquoi: Le tableau des engagés de la saison 2023 ne donne qu'un châssis pour l'écurie, la Ferrari SF-23, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2023 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship
+- annee: 2023
+  ecurie: red-bull
+  equipe: Red Bull Racing Honda RBPT
+  modeles:
+  - voiture: Red Bull RB19
+    gps:
+    - Bahrain
+    - Saudi Arabia
+    - Australia
+    - Azerbaijan
+    - United States of America Miami
+    - Monaco
+    - Spain
+    - Canada
+    - Austria
+    - Great Britain
+    - Hungary
+    - Belgium
+    - Netherlands
+    - Italy
+    - Japan
+    - Qatar
+    - United States of America United States
+    - Mexico
+    - Brazil
+    - United States of America Las Vegas
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2023 ne donne qu'un châssis pour l'écurie, la Red Bull RB19, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2023 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship
+- annee: 2024
+  ecurie: ferrari
+  equipe: Ferrari
+  modeles:
+  - voiture: Ferrari SF-24
+    gps:
+    - Australia
+    - Monaco
+    - Italy
+    - United States of America United States
+    - Mexico
+  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Ferrari SF-24, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+- annee: 2024
+  ecurie: mclaren
+  equipe: McLaren Mercedes
+  modeles:
+  - voiture: McLaren MCL38
+    gps:
+    - United States of America Miami
+    - Hungary
+    - Netherlands
+    - Azerbaijan
+    - Singapore
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la McLaren MCL38, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+- annee: 2024
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W15
+    gps:
+    - Austria
+    - Great Britain
+    - Belgium
+    - United States of America Las Vegas
+  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W15, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+- annee: 2024
+  ecurie: red-bull
+  equipe: Red Bull Racing Honda RBPT
+  modeles:
+  - voiture: Red Bull RB20
+    gps:
+    - Bahrain
+    - Saudi Arabia
+    - Japan
+    - People’s Republic of China China
+    - Italy Emilia-Romagna
+    - Canada
+    - Spain
+    - Brazil
+    - Qatar
+  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Red Bull RB20, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+- annee: 2025
+  ecurie: mclaren
+  equipe: McLaren
+  modeles:
+  - voiture: McLaren MCL39
+    gps:
+    - Australia
+    - People’s Republic of China China
+    - Bahrain
+    - Saudi Arabia
+    - United States of America Miami
+    - Monaco
+    - Spain
+    - Austria
+    - Great Britain
+    - Belgium
+    - Hungary
+    - Netherlands
+    - Mexico
+    - Brazil
+  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la McLaren MCL39, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship
+- annee: 2025
+  ecurie: mercedes
+  equipe: Mercedes
+  modeles:
+  - voiture: Mercedes F1 W16
+    gps:
+    - Canada
+    - Singapore
+  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W16, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship
+- annee: 2025
+  ecurie: red-bull
+  equipe: Red Bull Racing
+  modeles:
+  - voiture: Red Bull RB21
+    gps:
+    - Japan
+    - Italy Emilia-Romagna
+    - Italy
+    - Azerbaijan
+    - United States of America United States
+    - United States of America Las Vegas
+    - Qatar
+    - United Arab Emirates Abu Dhabi
+  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la Red Bull RB21, sans changement de modèle en cours de saison.
+  sources:
+  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
+    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship

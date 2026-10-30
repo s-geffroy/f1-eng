@@ -693,7 +693,7 @@ def esc(t):
 def ecurie_de(lid, a):
     return next((s["ecurie"] for l in E["lignees"] if l["id"] == lid for s in l["segments"] if s["de"] <= a <= s["a"]), None)
 
-def cadran_g(cx, cy, r, v, lignes, record=None, fragile=False, taille=1.0):
+def cadran_g(cx, cy, r, v, lignes, record=None, fragile=False, taille=1.0, seuil=True):
     """Cadran 0-100 (groupe SVG) : arc rempli jusqu'à v, aiguille, repère rouge du seuil calibré,
     trait fin pour un record (meilleure saison d'une période), valeur au centre, lignes de légende.
     fragile : arc en tirets (domination qui n'est pas une hégémonie)."""
@@ -712,7 +712,7 @@ def cadran_g(cx, cy, r, v, lignes, record=None, fragile=False, taille=1.0):
             tx, ty = pt(t / 100, r - ep - 20 * taille)
             o.append(f'<text class="cp-t" x="{tx:.1f}" y="{ty + 4:.1f}" text-anchor="middle">{t}</text>')
     s1, s2 = pt(SEUIL_INDICE, r - ep / 2 - 2), pt(SEUIL_INDICE, r + ep / 2 + 3)
-    o.append(f'<line class="cp-s" style="stroke-dasharray:none;stroke-width:3" x1="{s1[0]:.1f}" y1="{s1[1]:.1f}" x2="{s2[0]:.1f}" y2="{s2[1]:.1f}"/>')
+    if seuil: o.append(f'<line class="cp-s" style="stroke-dasharray:none;stroke-width:3" x1="{s1[0]:.1f}" y1="{s1[1]:.1f}" x2="{s2[0]:.1f}" y2="{s2[1]:.1f}"/>')
     if record is not None:
         q1, q2 = pt(record, r - ep / 2 - 2), pt(record, r + ep / 2 + 3)
         o.append(f'<line class="cp-ai" style="stroke-width:2" x1="{q1[0]:.1f}" y1="{q1[1]:.1f}" x2="{q2[0]:.1f}" y2="{q2[1]:.1f}"/>')
@@ -1208,6 +1208,111 @@ def svg_pneus(lang):
 if pneus_out:
     for lang in ("fr", "en"):
         open(f"_includes/domination/pneus-{lang}.svg", "w", encoding="utf-8").write(svg_pneus(lang) + "\n")
+
+# --- Châssis : la domination des modèles de voiture ------------------------------------------------
+# _data/chassis.yml (saisi à la main, sourcé) : modèle de la voiture gagnante de chaque Grand Prix,
+# regroupé par écurie-saison. Une course gagnée sans modèle arrête le script.
+CH = yaml.safe_load(open("_data/chassis.yml", encoding="utf-8")) if os.path.exists("_data/chassis.yml") else None
+
+def norm_modele(n):
+    """Nom comparable : sans casse ni espaces, « / » = « - », sans les mots du nom commercial
+    (« Mercedes F1 W05 Hybrid » = « Mercedes W05 »)."""
+    mots = [m for m in n.lower().replace("/", "-").split() if m not in ("f1", "hybrid", "eq", "power+", "performance")]
+    return "".join(mots)
+
+def famille(n):
+    """Modèle de base d'une évolution désignée par une ou deux lettres (« Lotus 72D » -> « Lotus 72 »)."""
+    import re
+    m = re.match(r"^(.*\d)[A-Z]{1,2}$", n)
+    return m.group(1) if m else n
+
+FICHES_V = {}
+for chemin in os.listdir("_cars"):
+    fm = yaml.safe_load(open(f"_cars/{chemin}", encoding="utf-8").read().split("---\n")[1])
+    FICHES_V[norm_modele(fm["title"])] = chemin[:-3]
+
+def fiche_voiture(m):
+    """Fiche de la voiture, ou de son modèle de base pour une évolution (« Lotus 49B » -> Lotus 49)."""
+    n = norm_modele(m)
+    if n in FICHES_V:
+        return FICHES_V[n]
+    for f, i in FICHES_V.items():
+        if n.startswith(f) and n[len(f):].isalpha():
+            return i
+    return None
+
+def familles_durables(stats, gp_saison):
+    """Familles (modèle et ses évolutions) qui gagnent sur au moins trois saisons."""
+    fam = collections.defaultdict(lambda: {"victoires": 0, "saisons": set(), "modeles": set()})
+    for m, st in stats.items():
+        # Regroupée sous son modèle de base seulement si celui-ci a lui-même gagné (Lotus 72 -> 72D),
+        # pour ne pas fondre deux voitures distinctes (Ferrari 312B et 312T, Maserati 250F).
+        f = fam[famille(m) if famille(m) in stats else m]
+        f["victoires"] += st["victoires"]; f["saisons"] |= set(st["saisons"]); f["modeles"].add(m)
+    out = [{"famille": k, "victoires": f["victoires"], "debut": min(f["saisons"]), "fin": max(f["saisons"]),
+            "saisons": len(f["saisons"]), "modeles": sorted(f["modeles"]),
+            **({"fiche": fiche_voiture(k)} if fiche_voiture(k) else {})}
+           for k, f in fam.items() if len(f["saisons"]) >= 3]
+    return sorted(out, key=lambda x: (-x["saisons"], -x["victoires"]))
+
+chassis_out = None
+if CH:
+    modele_de = {}
+    for x in CH["cas"]:
+        for m in x["modeles"]:
+            for gp in m["gps"]:
+                modele_de[(x["annee"], x["ecurie"].lstrip("~"), x["equipe"], gp)] = m["voiture"]
+    stats = collections.defaultdict(lambda: {"victoires": 0, "saisons": collections.Counter(), "ecuries": set()})
+    for s_ in R:
+        for c in s_["courses"]:
+            k = (s_["annee"], cle_ecurie(c).lstrip("~"), c["equipe"], c["gp"])
+            if k not in modele_de:
+                sys.exit(f"châssis : victoire sans modèle {k}")
+            st = stats[modele_de[k]]
+            st["victoires"] += 1
+            st["saisons"][s_["annee"]] += 1
+            st["ecuries"].add(k[1])
+    gp_saison = {s_["annee"]: s_["gp"] for s_ in R}
+    modeles = []
+    for m, st in stats.items():
+        best = max(st["saisons"], key=lambda a: st["saisons"][a] / gp_saison[a])
+        modeles.append({"voiture": m, "victoires": st["victoires"], "debut": min(st["saisons"]), "fin": max(st["saisons"]),
+                        "saisons": len(st["saisons"]), "ecuries": sorted(st["ecuries"]),
+                        "meilleure": {"annee": best, "victoires": st["saisons"][best],
+                                      "part": round(st["saisons"][best] / gp_saison[best], 3)},
+                        **({"fiche": fiche_voiture(m)} if fiche_voiture(m) else {})})
+    modeles.sort(key=lambda x: (-x["victoires"], x["debut"]))
+    chassis_out = {"modeles": len(modeles), "plus_victorieux": modeles[:15],
+                   "plus_ecrasants": sorted(modeles, key=lambda x: -x["meilleure"]["part"])[:12],
+                   "plus_durables": familles_durables(stats, gp_saison),
+                   "erreurs_formula1": [{"annee": x["annee"], "equipe": x["equipe"], "equipe_reelle": x["equipe_reelle"]}
+                                        for x in CH["cas"] if x.get("equipe_reelle")]}
+    sortie_compteur["chassis"] = chassis_out
+
+TXT_C = {"fr": {"t": "Les voitures les plus écrasantes, sur une saison", "v": "victoires",
+                "d": "Un cadran par voiture : la part des Grands Prix de la saison qu'elle a gagnés, pour les douze modèles les plus écrasants."},
+         "en": {"t": "The most crushing cars, over one season", "v": "wins",
+                "d": "One dial per car: the share of the season's Grands Prix it won, for the twelve most crushing models."}}
+
+def svg_chassis(lang):
+    L = TXT_C[lang]
+    ps = chassis_out["plus_ecrasants"]
+    par_ligne, W, cw, ch_ = 4, 640, 160, 150
+    Hh = ((len(ps) + par_ligne - 1) // par_ligne) * ch_ + 6
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="ch-t-{lang} ch-d-{lang}">',
+         f'<title id="ch-t-{lang}">{L["t"]}</title><desc id="ch-d-{lang}">{L["d"]}</desc>', CS]
+    for i, m in enumerate(ps):
+        cx, cy = cw * (i % par_ligne) + cw / 2, ch_ * (i // par_ligne) + 72
+        b = m["meilleure"]
+        o.append(f'<g><title>{esc(m["voiture"])}, {b["annee"]} : {b["victoires"]} {L["v"]} / {gp_saison[b["annee"]]}</title>')
+        o.append(cadran_g(cx, cy, 58, b["part"], [esc(m["voiture"]), f'{b["annee"]} · {b["victoires"]}/{gp_saison[b["annee"]]}'], taille=0.62, seuil=False))
+        o.append("</g>")
+    o.append("</svg>")
+    return "".join(o)
+
+if chassis_out:
+    for lang in ("fr", "en"):
+        open(f"_includes/domination/chassis-{lang}.svg", "w", encoding="utf-8").write(svg_chassis(lang) + "\n")
 
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):

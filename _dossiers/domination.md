@@ -12,6 +12,8 @@ redirect_from: "/dossiers/hegemonies/"
 {%- assign CR = site.data.croisement -%}
 {%- assign TK = site.data.technologies.technologies -%}
 {%- assign PNC = site.data.pneus.cas -%}
+{%- assign CHC = site.data.chassis.cas -%}
+{%- assign CHS = site.data.compteur.chassis -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -146,6 +148,23 @@ Un ingénieur ne gagne pas de course, mais on peut mesurer la domination de son 
 {% include domination.html quoi="ingenieurs_dom" %}
 
 Ce compteur mesure une présence, pas une contribution : un ingénieur peut être là quand l'écurie gagne sans en être la cause. La troisième confrontation, plus bas, tente d'aller plus loin avec un témoin.
+
+## Les voitures
+
+Une écurie gagne avec une voiture précise, et elle en change parfois en cours de saison. On a relevé le modèle gagnant de chacun des {{ P.gp }} Grands Prix, course par course ({{ CHC.size }} écurie-saisons, chacune sourcée) : {{ CHS.modeles }} modèles différents ont gagné au moins une fois.
+
+<figure class="figure">
+{% include domination/chassis-fr.svg %}
+<figcaption>Les douze voitures les plus écrasantes : chaque cadran donne la part des Grands Prix de la saison gagnés par ce modèle.</figcaption>
+</figure>
+
+{% include domination.html quoi="chassis" %}
+
+- **La voiture la plus écrasante est récente** : la Red Bull RB19 gagne 21 des 22 Grands Prix de 2023, devant la McLaren MP4/4 (15 sur 16 en 1988) et la Mercedes W07 de 2016. Huit des douze cadrans datent de 2002 ou après.
+- **Autrefois, une bonne voiture durait.** La Lotus 72 gagne de 1970 à 1974, en quatre évolutions ; la McLaren M23, de 1973 à 1976 ; la Lotus 25 et la Lotus 49 sur quatre saisons aussi. Après la McLaren MP4/2 (1984-1986), plus aucun modèle ne gagne sur trois saisons : chaque écurie construit désormais une nouvelle voiture chaque année.
+- **Une voiture qui dure n'est pas forcément dominante** : la Lotus 72 et la M23 gagnent beaucoup, mais jamais plus de la moitié des courses d'une saison.
+
+Les noms d'équipe de formula1.com sont presque toujours justes. La recherche a trouvé une exception : en 1957 et 1958, les voitures gagnantes des 500 miles d'Indianapolis, classées « Epperly Offenhauser », sont des Salih-Offenhauser.
 
 ## Les pneus
 

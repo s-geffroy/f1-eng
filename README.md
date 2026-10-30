@@ -234,6 +234,8 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   arrete domination.py.
 - `_data/pneus.yml` : saisi a la main, chaque cas source ; manufacturier des ecuries gagnantes ou
   en pole hors monopole, et monopoles (impose ou de fait).
+- `_data/chassis.yml` : saisi a la main, chaque cas source ; modele de la voiture gagnante de
+  chaque GP, regroupe par ecurie-saison.
 - Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
 
 ### Regles de contenu

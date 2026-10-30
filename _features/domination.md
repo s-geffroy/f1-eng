@@ -12,6 +12,8 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign CR = site.data.croisement -%}
 {%- assign TK = site.data.technologies.technologies -%}
 {%- assign PNC = site.data.pneus.cas -%}
+{%- assign CHC = site.data.chassis.cas -%}
+{%- assign CHS = site.data.compteur.chassis -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -146,6 +148,23 @@ An engineer wins no races, but the dominance of their team while they work there
 {% include domination.html quoi="ingenieurs_dom" %}
 
 This gauge measures presence, not contribution: an engineer can be there when the team wins without being the cause. The third comparison, below, tries to go further with a control.
+
+## Cars
+
+A team wins with a specific car, and sometimes changes it during the season. We recorded the winning model of each of the {{ P.gp }} Grands Prix, race by race ({{ CHC.size }} team-seasons, each sourced): {{ CHS.modeles }} different models have won at least once.
+
+<figure class="figure">
+{% include domination/chassis-en.svg %}
+<figcaption>The twelve most crushing cars: each dial gives the share of the season's Grands Prix won by that model.</figcaption>
+</figure>
+
+{% include domination.html quoi="chassis" %}
+
+- **The most crushing car is recent**: the Red Bull RB19 wins 21 of the 22 Grands Prix of 2023, ahead of the McLaren MP4/4 (15 of 16 in 1988) and the 2016 Mercedes W07. Eight of the twelve dials date from 2002 or later.
+- **A good car used to last.** The Lotus 72 wins from 1970 to 1974, in four evolutions; the McLaren M23, from 1973 to 1976; the Lotus 25 and Lotus 49 over four seasons too. After the McLaren MP4/2 (1984-1986), no model wins over three seasons any more: every team now builds a new car each year.
+- **A long-lived car is not necessarily dominant**: the Lotus 72 and the M23 win a lot, but never more than half the races of a season.
+
+formula1.com's team names are almost always right. The research found one exception: in 1957 and 1958, the winning cars of the Indianapolis 500, listed as "Epperly Offenhauser", are Salih-Offenhausers.
 
 ## Tyres
 

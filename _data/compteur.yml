@@ -1140,7 +1140,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1955
+      annee: 1954
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -1153,7 +1153,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1955
+      annee: 1954
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -1166,7 +1166,7 @@ ingenieurs:
     titres: 0
     indice_moyen: 0.0
     meilleure:
-      annee: 1955
+      annee: 1954
       ecurie: lancia
       indice: 0.0
     plus_longue: null
@@ -5243,3 +5243,320 @@ pneus:
     poles:
       Pirelli: 1.0
     champion: Pirelli
+chassis:
+  modeles: 275
+  plus_victorieux:
+  - &id001
+    voiture: Red Bull RB19
+    victoires: 21
+    debut: 2023
+    fin: 2023
+    saisons: 1
+    ecuries:
+    - red-bull
+    meilleure:
+      annee: 2023
+      victoires: 21
+      part: 0.955
+  - &id003
+    voiture: Mercedes F1 W07 Hybrid
+    victoires: 19
+    debut: 2016
+    fin: 2016
+    saisons: 1
+    ecuries:
+    - mercedes
+    meilleure:
+      annee: 2016
+      victoires: 19
+      part: 0.905
+  - &id009
+    voiture: Red Bull RB18
+    victoires: 17
+    debut: 2022
+    fin: 2022
+    saisons: 1
+    ecuries:
+    - red-bull
+    meilleure:
+      annee: 2022
+      victoires: 17
+      part: 0.773
+    fiche: red-bull-rb18
+  - voiture: McLaren M23
+    victoires: 16
+    debut: 1973
+    fin: 1976
+    saisons: 4
+    ecuries:
+    - mclaren
+    meilleure:
+      annee: 1976
+      victoires: 6
+      part: 0.375
+  - &id005
+    voiture: Mercedes F1 W05 Hybrid
+    victoires: 16
+    debut: 2014
+    fin: 2014
+    saisons: 1
+    ecuries:
+    - mercedes
+    meilleure:
+      annee: 2014
+      victoires: 16
+      part: 0.842
+    fiche: mercedes-w05
+  - &id006
+    voiture: Mercedes F1 W06 Hybrid
+    victoires: 16
+    debut: 2015
+    fin: 2015
+    saisons: 1
+    ecuries:
+    - mercedes
+    meilleure:
+      annee: 2015
+      victoires: 16
+      part: 0.842
+  - &id002
+    voiture: McLaren MP4/4
+    victoires: 15
+    debut: 1988
+    fin: 1988
+    saisons: 1
+    ecuries:
+    - mclaren
+    meilleure:
+      annee: 1988
+      victoires: 15
+      part: 0.938
+    fiche: mclaren-mp4-4
+  - &id007
+    voiture: Ferrari F2004
+    victoires: 15
+    debut: 2004
+    fin: 2004
+    saisons: 1
+    ecuries:
+    - ferrari
+    meilleure:
+      annee: 2004
+      victoires: 15
+      part: 0.833
+  - voiture: Mercedes F1 W10 EQ Power+
+    victoires: 15
+    debut: 2019
+    fin: 2019
+    saisons: 1
+    ecuries:
+    - mercedes
+    meilleure:
+      annee: 2019
+      victoires: 15
+      part: 0.714
+  - &id004
+    voiture: Ferrari 500
+    victoires: 14
+    debut: 1952
+    fin: 1953
+    saisons: 2
+    ecuries:
+    - ferrari
+    meilleure:
+      annee: 1952
+      victoires: 7
+      part: 0.875
+  - voiture: Lotus 25
+    victoires: 14
+    debut: 1962
+    fin: 1965
+    saisons: 4
+    ecuries:
+    - team-lotus
+    meilleure:
+      annee: 1963
+      victoires: 7
+      part: 0.7
+    fiche: lotus-25
+  - &id008
+    voiture: Ferrari F2002
+    victoires: 14
+    debut: 2002
+    fin: 2002
+    saisons: 1
+    ecuries:
+    - ferrari
+    meilleure:
+      annee: 2002
+      victoires: 14
+      part: 0.824
+  - voiture: McLaren MCL39
+    victoires: 14
+    debut: 2025
+    fin: 2025
+    saisons: 1
+    ecuries:
+    - mclaren
+    meilleure:
+      annee: 2025
+      victoires: 14
+      part: 0.583
+  - voiture: Red Bull RB9
+    victoires: 13
+    debut: 2013
+    fin: 2013
+    saisons: 1
+    ecuries:
+    - red-bull
+    meilleure:
+      annee: 2013
+      victoires: 13
+      part: 0.684
+  - &id010
+    voiture: Mercedes F1 W11
+    victoires: 13
+    debut: 2020
+    fin: 2020
+    saisons: 1
+    ecuries:
+    - mercedes
+    meilleure:
+      annee: 2020
+      victoires: 13
+      part: 0.765
+  plus_ecrasants:
+  - *id001
+  - *id002
+  - *id003
+  - *id004
+  - voiture: Alfa Romeo 158
+    victoires: 6
+    debut: 1950
+    fin: 1950
+    saisons: 1
+    ecuries:
+    - alfa-romeo-1979
+    meilleure:
+      annee: 1950
+      victoires: 6
+      part: 0.857
+  - *id005
+  - *id006
+  - *id007
+  - *id008
+  - *id009
+  - *id010
+  - voiture: McLaren MP4/2
+    victoires: 12
+    debut: 1984
+    fin: 1984
+    saisons: 1
+    ecuries:
+    - mclaren
+    meilleure:
+      annee: 1984
+      victoires: 12
+      part: 0.75
+  plus_durables:
+  - famille: Lotus 72
+    victoires: 20
+    debut: 1970
+    fin: 1974
+    saisons: 4
+    modeles:
+    - Lotus 72
+    - Lotus 72C
+    - Lotus 72D
+    - Lotus 72E
+    fiche: lotus-72
+  - famille: McLaren M23
+    victoires: 16
+    debut: 1973
+    fin: 1976
+    saisons: 4
+    modeles:
+    - McLaren M23
+  - famille: Lotus 25
+    victoires: 14
+    debut: 1962
+    fin: 1965
+    saisons: 4
+    modeles:
+    - Lotus 25
+    fiche: lotus-25
+  - famille: Lotus 49
+    victoires: 12
+    debut: 1967
+    fin: 1970
+    saisons: 4
+    modeles:
+    - Lotus 49
+    - Lotus 49B
+    - Lotus 49C
+    fiche: lotus-49
+  - famille: McLaren MP4/2
+    victoires: 22
+    debut: 1984
+    fin: 1986
+    saisons: 3
+    modeles:
+    - McLaren MP4/2
+    - McLaren MP4/2B
+    - McLaren MP4/2C
+  - famille: Williams FW07
+    victoires: 15
+    debut: 1979
+    fin: 1981
+    saisons: 3
+    modeles:
+    - Williams FW07
+    - Williams FW07B
+    - Williams FW07C
+  - famille: Maserati 250F
+    victoires: 8
+    debut: 1954
+    fin: 1957
+    saisons: 3
+    modeles:
+    - Maserati 250F
+  - famille: Ferrari 312T2
+    victoires: 8
+    debut: 1976
+    fin: 1978
+    saisons: 3
+    modeles:
+    - Ferrari 312T2
+  - famille: Brabham BT49
+    victoires: 7
+    debut: 1980
+    fin: 1982
+    saisons: 3
+    modeles:
+    - Brabham BT49
+    - Brabham BT49C
+    - Brabham BT49D
+  - famille: BRM P261
+    victoires: 6
+    debut: 1964
+    fin: 1966
+    saisons: 3
+    modeles:
+    - BRM P261
+  - famille: McLaren MP4/1
+    victoires: 6
+    debut: 1981
+    fin: 1983
+    saisons: 3
+    modeles:
+    - McLaren MP4/1
+    - McLaren MP4/1B
+    - McLaren MP4/1C
+    fiche: mclaren-mp4-1
+  erreurs_formula1:
+  - annee: 1957
+    equipe: Epperly Offenhauser
+    equipe_reelle: Salih
+  - annee: 1958
+    equipe: Epperly Offenhauser
+    equipe_reelle: Salih

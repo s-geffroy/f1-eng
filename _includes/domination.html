@@ -105,6 +105,39 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 <p class="note-tableau"><sup>*</sup> {{ L_h.non_dates }}</p>
 
+{%- elsif include.quoi == "chassis" -%}
+{%- assign url_v_h = T_h.url.voitures | relative_url -%}
+{%- assign C_h = site.data.compteur.chassis -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_chassis }}"><table>
+<caption>{{ L_h.cap_chassis }}</caption>
+  <thead><tr><th scope="col">{{ L_h.voiture }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.record }}</th></tr></thead>
+  <tbody>
+  {%- for m in C_h.plus_victorieux %}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", m.ecuries[0] | first -%}
+    <tr>
+      <td>{% if m.fiche %}<a href="{{ url_v_h }}{{ m.fiche }}/">{{ m.voiture }}</a>{% else %}{{ m.voiture }}{% endif %}</td>
+      <td>{% if e_h %}<a href="{{ url_e_h }}{{ m.ecuries[0] }}/">{{ e_h.nom | split: " (" | first }}</a>{% else %}{{ m.ecuries[0] }}{% endif %}</td>
+      <td>{% if m.debut == m.fin %}{{ m.debut }}{% else %}{{ m.debut }}–{{ m.fin }}{% endif %}</td>
+      <td>{{ m.victoires }}</td>
+      <td>{{ m.meilleure.part | times: 100 | round }}{{ pc_h }} ({{ m.meilleure.annee }})</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_durables }}"><table>
+<caption>{{ L_h.cap_durables }}</caption>
+  <thead><tr><th scope="col">{{ L_h.voiture }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.saisons_gagnantes }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.evolutions }}</th></tr></thead>
+  <tbody>
+  {%- for m in C_h.plus_durables %}
+    <tr>
+      <td>{% if m.fiche %}<a href="{{ url_v_h }}{{ m.fiche }}/">{{ m.famille }}</a>{% else %}{{ m.famille }}{% endif %}</td>
+      <td>{{ m.debut }}–{{ m.fin }}</td><td>{{ m.saisons }}</td><td>{{ m.victoires }}</td>
+      <td>{{ m.modeles | join: ", " }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "pneus" -%}
 <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_pneus }}"><table>
 <caption>{{ L_h.cap_pneus }}</caption>
