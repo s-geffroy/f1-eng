@@ -1425,6 +1425,230 @@ if cycles_out:
         open(f"_includes/domination/cycles-courbe-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_courbe(lang) + "\n")
         open(f"_includes/domination/cycles-cadrans-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_cadrans(lang) + "\n")
 
+# --- Indicateurs (dossier /dossiers/indicateurs/) ----------------------------------------------------
+# Quatre lectures des mêmes résultats : ouverture des saisons, moteur maison ou d'un autre,
+# conversion de la pole, renouvellement des voitures gagnantes. Synthèses par décennie et par cycle.
+DECENNIES = sorted({a // 10 * 10 for a in ANNEES})
+def decennie(a):
+    return a // 10 * 10
+def tranches(f):
+    """Applique f(annees) à chaque décennie et à chaque cycle réglementaire."""
+    return ([{"de": d, "a": min(d + 9, ANNEES[-1]), **f([a for a in ANNEES if decennie(a) == d])} for d in DECENNIES],
+            [{"id": cy["id"], "de": cy["de"], "a": cy["a"], **f([a for a in ANNEES if cy["de"] <= a <= cy["a"]])} for cy in CY])
+COURSES = {s["annee"]: s["courses"] for s in R}
+GP = {s["annee"]: s["gp"] for s in R}
+
+# Ouverture : écuries et pilotes gagnants différents, nombre effectif d'écuries gagnantes (inverse de
+# l'indice de Herfindahl des parts de victoires), écart au titre constructeurs (part des points du
+# champion qui manque au deuxième ; depuis 1958).
+ouverture = []
+for a in ANNEES:
+    pe = sorted(points["ecurie"].get(a, {}).values(), reverse=True)
+    ouverture.append({"annee": a, "gp": GP[a], "ecuries": len(victoires["ecurie"][a]), "pilotes": len(victoires["pilote"][a]),
+                      "effectif": round(1 / sum(x * x for x in part["ecurie"][a].values()), 2),
+                      **({"ecart_titre": round((pe[0] - pe[1]) / pe[0], 3)} if len(pe) > 1 else {})})
+OUV = {o["annee"]: o for o in ouverture}
+def ouv_tranche(ans):
+    et = [OUV[a]["ecart_titre"] for a in ans if "ecart_titre" in OUV[a]]
+    return {"effectif": round(moyenne([OUV[a]["effectif"] for a in ans]), 2),
+            "ecuries": round(moyenne([OUV[a]["ecuries"] for a in ans]), 1),
+            "pilotes": round(moyenne([OUV[a]["pilotes"] for a in ans]), 1),
+            **({"ecart_titre": round(moyenne(et), 3)} if et else {})}
+ouv_dec, ouv_cy = tranches(ouv_tranche)
+par_eff = sorted(ouverture, key=lambda o: o["effectif"])
+def ouv_court(o):
+    return {"annee": o["annee"], "effectif": o["effectif"], "ecuries": o["ecuries"], "gp": o["gp"]}
+
+# Moteur maison : l'écurie gagnante construit aussi son moteur. Table explicite des écuries qui ont
+# gagné avec leur propre moteur (clé d'écurie -> motoriste maison). Les partenariats d'usine
+# (Williams-Honda, McLaren-Mercedes) restent des moteurs d'un autre : le dossier le dit.
+MAISON = {
+    "alfa-romeo-1979": "alfa-romeo", "ferrari": "ferrari", "maserati": "maserati", "vanwall": "vanwall",
+    "brm": "brm", "porsche": "porsche", "honda-1964": "honda", "honda": "honda", "renault-1977": "renault",
+    "renault": "renault", "mercedes": "mercedes",
+    "~Mercedes-Benz": "mercedes",   # 1954-1955, gagnant sans fiche : châssis et moteur Daimler-Benz
+    "bmw-sauber": "bmw",            # Sauber racheté par BMW de 2006 à 2009
+}
+def maison(c):
+    return MAISON.get(cle_ecurie(c)) == moteur(c["motoriste"])
+def client_tranche(ans):
+    cs = [c for a in ans for c in COURSES[a]]
+    return {"gp": len(cs), "maison": sum(maison(c) for c in cs), "part_maison": round(sum(maison(c) for c in cs) / len(cs), 3)}
+cli_dec, cli_cy = tranches(client_tranche)
+couples = collections.Counter((cle_ecurie(c).lstrip("~"), moteur(c["motoriste"])) for a in ANNEES for c in COURSES[a] if not maison(c))
+ans_couple = collections.defaultdict(list)
+for a in ANNEES:
+    for c in COURSES[a]:
+        if not maison(c): ans_couple[(cle_ecurie(c).lstrip("~"), moteur(c["motoriste"]))].append(a)
+maison_tot = sum(maison(c) for a in ANNEES for c in COURSES[a])
+titres_maison = sum(1 for a in ANNEES if champion["ecurie"][a] in MAISON and MAISON[champion["ecurie"][a]] == champion["motoriste"][a])
+
+# Pole : la course est-elle gagnée par le pilote parti en pole ? (équipage partagé : l'un des deux suffit)
+def depuis_pole(c):
+    return c["pole"]["pilote"] in (c["vainqueur"], c.get("covainqueur"))
+def pole_tranche(ans):
+    cs = [c for a in ans for c in COURSES[a] if c.get("pole")]
+    return {"gp": len(cs), "convertis": sum(map(depuis_pole, cs)), "taux": round(sum(map(depuis_pole, cs)) / len(cs), 3)}
+pol_dec, pol_cy = tranches(pole_tranche)
+pol_tot = pole_tranche(ANNEES)
+pe_ = collections.defaultdict(lambda: [0, 0])
+for a in ANNEES:
+    for c in COURSES[a]:
+        if c.get("pole"):
+            k = cle_ecurie(c["pole"]).lstrip("~")
+            pe_[k][0] += 1; pe_[k][1] += depuis_pole(c)
+pole_ecuries = sorted(({"id": k, "poles": n, "convertis": v, "taux": round(v / n, 3)} for k, (n, v) in pe_.items() if n >= 20),
+                      key=lambda x: -x["taux"])
+# Saisons où la pole convertit le plus et le moins (au moins 8 Grands Prix)
+pol_saisons = sorted(({"annee": a, **pole_tranche([a])} for a in ANNEES if GP[a] >= 8), key=lambda x: x["taux"])
+
+indicateurs = {"ouverture": {"saisons": ouverture, "decennies": ouv_dec, "cycles": ouv_cy,
+                             "plus_fermees": [ouv_court(o) for o in par_eff[:5]],
+                             "plus_ouvertes": [ouv_court(o) for o in par_eff[::-1][:5]],
+                             "record_ecuries": max(ouverture, key=lambda o: (o["ecuries"], o["annee"])),
+                             "record_pilotes": max(ouverture, key=lambda o: (o["pilotes"], o["annee"]))},
+               "client": {"gp": sum(GP.values()), "maison": maison_tot, "part_maison": round(maison_tot / sum(GP.values()), 3),
+                          "titres": len(ANNEES), "titres_maison": titres_maison,
+                          "decennies": cli_dec, "cycles": cli_cy,
+                          "couples": [{"ecurie": e, "motoriste": m, "victoires": n, "de": min(ans_couple[(e, m)]), "a": max(ans_couple[(e, m)])}
+                                      for (e, m), n in couples.most_common(8)]},
+               "pole": {**pol_tot, "decennies": pol_dec, "cycles": pol_cy, "ecuries": pole_ecuries,
+                        "saison_min": pol_saisons[0], "saison_max": pol_saisons[-1]}}
+
+# Voitures : modèles gagnants différents par saison, victoires par modèle, part des victoires d'un
+# modèle qui avait déjà gagné une saison précédente (voiture reconduite).
+if chassis_out:
+    # Un modèle et ses évolutions (Lotus 72 à 72E) forment une famille, comme pour les voitures durables.
+    fam_v = collections.defaultdict(collections.Counter)
+    for m, st in stats.items():
+        fam_v[famille(m) if famille(m) in stats else m].update(st["saisons"])
+    stats_f = {f: {"saisons": c} for f, c in fam_v.items()}
+    prem = {m: min(st["saisons"]) for m, st in stats_f.items()}
+    def voit_tranche(ans):
+        ms = collections.Counter()
+        reconduites = 0
+        for a in ans:
+            for m, st in stats_f.items():
+                if a in st["saisons"]:
+                    ms[m] += st["saisons"][a]
+                    if prem[m] < a: reconduites += st["saisons"][a]
+        gp = sum(GP[a] for a in ans)
+        return {"gp": gp, "modeles": len(ms), "par_saison": round(moyenne([sum(1 for st in stats_f.values() if a in st["saisons"]) for a in ans]), 1),
+                "victoires_par_modele": round(gp / len(ms), 1), "reconduites": reconduites, "part_reconduites": round(reconduites / gp, 3)}
+    voi_dec, voi_cy = tranches(voit_tranche)
+    par_saison = [{"annee": a, "modeles": sum(1 for st in stats_f.values() if a in st["saisons"])} for a in ANNEES]
+    indicateurs["voitures"] = {**voit_tranche(ANNEES), "decennies": voi_dec, "cycles": voi_cy,
+                               "record_modeles": max(par_saison, key=lambda x: (x["modeles"], x["annee"])),
+                               "derniere_reconduite": max((a, m) for m, st in stats_f.items() for a in st["saisons"] if prem[m] < a)}
+    indicateurs["voitures"]["derniere_reconduite"] = dict(zip(("annee", "voiture"), indicateurs["voitures"]["derniere_reconduite"]))
+sortie_compteur["indicateurs"] = indicateurs
+
+TXT_I = {"fr": {"dec": lambda d: f"{d}–{str(min(d + 9, ANNEES[-1]))[2:]}", "pc": " %",
+                "ouv_t": "Combien d'écuries se partagent les victoires, saison par saison",
+                "ouv_d": "Nombre effectif d'écuries gagnantes (inverse de l'indice de Herfindahl des parts de victoires) et nombre d'écuries qui ont gagné au moins une course ; les bandes grises séparent les cycles réglementaires.",
+                "eff": "nombre effectif", "nb": "écuries gagnantes",
+                "cli_t": "Moteur maison ou moteur d'un autre, par décennie",
+                "cli_d": "Part des Grands Prix gagnés par une écurie qui construit aussi son moteur (bleu) et par une écurie qui le reçoit d'un motoriste (gris).",
+                "mai": "moteur maison", "aut": "moteur d'un autre",
+                "pol_t": "De la pole à la victoire, par décennie",
+                "pol_d": "Part des Grands Prix gagnés par le pilote parti en pole position.",
+                "voi_t": "Victoires par modèle de voiture, par décennie",
+                "voi_d": "Nombre moyen de Grands Prix gagnés par chaque modèle gagnant de la décennie.",
+                "v": "victoires", "gp": "GP"},
+         "en": {"dec": lambda d: f"{d}–{str(min(d + 9, ANNEES[-1]))[2:]}", "pc": "%",
+                "ouv_t": "How many teams share the wins, season by season",
+                "ouv_d": "Effective number of winning teams (inverse of the Herfindahl index of win shares) and number of teams that won at least one race; grey bands separate the regulation cycles.",
+                "eff": "effective number", "nb": "winning teams",
+                "cli_t": "In-house engine or someone else's, by decade",
+                "cli_d": "Share of Grands Prix won by a team that also builds its engine (blue) and by a team supplied by an engine maker (grey).",
+                "mai": "in-house engine", "aut": "someone else's engine",
+                "pol_t": "From pole to win, by decade",
+                "pol_d": "Share of Grands Prix won by the driver who started from pole position.",
+                "voi_t": "Wins per car model, by decade",
+                "voi_d": "Average number of Grands Prix won by each winning model of the decade.",
+                "v": "wins", "gp": "GP"}}
+CI = ("<style>.ci-t{font-family:var(--titre);font-size:13px;fill:var(--mine)}"
+      ".ci-f{font-family:var(--titre);font-size:13px;font-weight:600;fill:var(--graphite)}"
+      ".ci-g{stroke:#e1e5e7;stroke-width:1}.ci-a{stroke:var(--trait);stroke-width:1}"
+      ".ci-c{stroke:#1f5fa8;fill:none;stroke-width:2;stroke-linejoin:round}"
+      ".ci-c2{stroke:#8e979d;fill:none;stroke-width:2;stroke-dasharray:6 4;stroke-linejoin:round}"
+      ".ci-p{fill:#1f5fa8;stroke:#fff;stroke-width:1.5}.ci-b{fill:#1f5fa8}.ci-b2{fill:#c2c9cc}</style>")
+
+def svg_ouverture(lang):
+    L = TXT_I[lang]
+    W, Hh, g, d, h, b = 640, 300, 36, 14, 28, 34
+    a0, a1 = ANNEES[0] - 0.5, ANNEES[-1] + 0.5
+    vmax = (max(o["ecuries"] for o in ouverture) // 2 + 1) * 2
+    xs = lambda a: g + (a - a0) / (a1 - a0) * (W - g - d)
+    ys = lambda v: Hh - b - v / vmax * (Hh - b - h)
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="io-t-{lang} io-d-{lang}">',
+         f'<title id="io-t-{lang}">{L["ouv_t"]}</title><desc id="io-d-{lang}">{L["ouv_d"]}</desc>', CI]
+    for i, cy in enumerate(CY):
+        if i % 2 == 0:
+            o.append(f'<rect x="{xs(cy["de"] - 0.5):.1f}" y="{h}" width="{xs(cy["a"] + 0.5) - xs(cy["de"] - 0.5):.1f}" height="{Hh - b - h}" fill="#eef1f2"/>')
+    for v in range(0, vmax + 1, 2):
+        o.append(f'<line class="ci-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="ci-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{v}</text>')
+    for a in range(1950, 2030, 10):
+        o.append(f'<text class="ci-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
+    o.append(f'<polyline class="ci-c2" points="{" ".join(f"{xs(x["annee"]):.1f},{ys(x["ecuries"]):.1f}" for x in ouverture)}"/>')
+    o.append(f'<polyline class="ci-c" points="{" ".join(f"{xs(x["annee"]):.1f},{ys(x["effectif"]):.1f}" for x in ouverture)}"/>')
+    for x in ouverture:
+        o.append(f'<circle class="ci-p" cx="{xs(x["annee"]):.1f}" cy="{ys(x["effectif"]):.1f}" r="3"><title>{x["annee"]} : '
+                 f'{L["eff"]} {str(x["effectif"]).replace(".", ",") if lang == "fr" else x["effectif"]} ; {L["nb"]} {x["ecuries"]} / {x["gp"]} {L["gp"]}</title></circle>')
+    # Légende en haut, à gauche
+    o.append(f'<line class="ci-c" x1="{g + 4}" x2="{g + 28}" y1="12" y2="12"/><text class="ci-f" x="{g + 34}" y="16">{L["eff"]}</text>'
+             f'<line class="ci-c2" x1="{g + 170}" x2="{g + 194}" y1="12" y2="12"/><text class="ci-f" x="{g + 200}" y="16">{L["nb"]}</text>')
+    o.append("</svg>")
+    return "".join(o)
+
+def svg_barres(lang, cle, titre, desc, valeurs, fmt, vmax, empile=None):
+    """Barres verticales par décennie ; empile = (légende bleue, légende grise) pour une part sur 100 %."""
+    L = TXT_I[lang]
+    W, Hh, g, d, h, b = 640, 260, 36, 14, 34 if empile else 22, 30
+    n = len(valeurs)
+    pas = (W - g - d) / n
+    lb = pas * 0.62
+    ys = lambda v: Hh - b - v / vmax * (Hh - b - h)
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="{cle}-t-{lang} {cle}-d-{lang}">',
+         f'<title id="{cle}-t-{lang}">{titre}</title><desc id="{cle}-d-{lang}">{desc}</desc>', CI]
+    o.append(f'<line class="ci-a" x1="{g}" x2="{W - d}" y1="{Hh - b}" y2="{Hh - b}"/>')
+    for i, (dec, v) in enumerate(valeurs):
+        x = g + i * pas + (pas - lb) / 2
+        lab = L["dec"](dec)
+        if empile:
+            o.append(f'<g><title>{lab} : {L["mai"]} {fmt(v)}, {L["aut"]} {fmt(1 - v)}</title>'
+                     f'<rect class="ci-b2" x="{x:.1f}" y="{ys(1):.1f}" width="{lb:.1f}" height="{ys(v) - ys(1) - 2:.1f}"/>'
+                     f'<rect class="ci-b" x="{x:.1f}" y="{ys(v):.1f}" width="{lb:.1f}" height="{Hh - b - ys(v):.1f}"/></g>')
+            dedans = ' style="fill:#fff"' if v >= 0.9 else ""   # étiquette dans la barre quand elle touche le haut
+            o.append(f'<text class="ci-f" x="{x + lb / 2:.1f}" y="{ys(v) - 6 if v < 0.9 else ys(v) + 16:.1f}" text-anchor="middle"{dedans}>{fmt(v)}</text>')
+        else:
+            o.append(f'<rect class="ci-b" x="{x:.1f}" y="{ys(v):.1f}" width="{lb:.1f}" height="{Hh - b - ys(v):.1f}"><title>{lab} : {fmt(v)}</title></rect>'
+                     f'<text class="ci-f" x="{x + lb / 2:.1f}" y="{ys(v) - 6:.1f}" text-anchor="middle">{fmt(v)}</text>')
+        o.append(f'<text class="ci-t" x="{x + lb / 2:.1f}" y="{Hh - b + 18}" text-anchor="middle">{lab}</text>')
+    if empile:
+        o.append(f'<rect class="ci-b" x="{g}" y="4" width="14" height="10"/><text class="ci-f" x="{g + 20}" y="14">{empile[0]}</text>'
+                 f'<rect class="ci-b2" x="{g + 170}" y="4" width="14" height="10"/><text class="ci-f" x="{g + 190}" y="14">{empile[1]}</text>')
+    o.append("</svg>")
+    return "".join(o)
+
+def pc_i(lang):
+    return lambda x: f"{round(x * 100)}{TXT_I[lang]['pc']}"
+def nb_i(lang):
+    return lambda x: str(x).replace(".", ",") if lang == "fr" else str(x)
+
+for lang in ("fr", "en"):
+    L = TXT_I[lang]
+    open(f"_includes/domination/indic-ouverture-{lang}.svg", "w", encoding="utf-8").write(svg_ouverture(lang) + "\n")
+    open(f"_includes/domination/indic-moteur-{lang}.svg", "w", encoding="utf-8").write(
+        svg_barres(lang, "im", L["cli_t"], L["cli_d"], [(x["de"], x["part_maison"]) for x in cli_dec], pc_i(lang), 1, (L["mai"], L["aut"])) + "\n")
+    open(f"_includes/domination/indic-pole-{lang}.svg", "w", encoding="utf-8").write(
+        svg_barres(lang, "ip", L["pol_t"], L["pol_d"], [(x["de"], x["taux"]) for x in pol_dec], pc_i(lang), 1) + "\n")
+    if chassis_out:
+        vm = max(x["victoires_par_modele"] for x in voi_dec)
+        open(f"_includes/domination/indic-voitures-{lang}.svg", "w", encoding="utf-8").write(
+            svg_barres(lang, "iv", L["voi_t"], L["voi_d"], [(x["de"], x["victoires_par_modele"]) for x in voi_dec], nb_i(lang), (int(vm) // 2 + 1) * 2) + "\n")
+
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):
     os.remove(os.path.join("_includes/compteur", f))

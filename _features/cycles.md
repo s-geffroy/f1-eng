@@ -65,6 +65,8 @@ The 3-litre cycle also shows that a cycle can be decided elsewhere than between 
 
 The "Concentration" column gives the Herfindahl index of the cycle's wins: the sum of the squares of each team's share of wins, out of 100. It is 100 if a single team wins everything, and the lower the more the wins are spread. It ranges from {{ CY | map: "hhi" | sort | first | times: 100 | round }}, for the 1966-1982 cycle, to {{ CY | map: "hhi" | sort | last | times: 100 | round }}, for the Formula Two championship.
 
+The [Indicators feature]({{ site.baseurl }}/en/features/indicateurs/) tracks the same concentration season by season, as an effective number of winning teams.
+
 ## From one cycle to the next
 
 Of the ten handovers from one cycle to the next, the team leading the last season stays ahead only twice:

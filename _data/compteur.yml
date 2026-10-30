@@ -6127,3 +6127,1116 @@ cycles:
   delai_prise: 0
   saisons_menees: 3
   dernier_meneur: mclaren
+indicateurs:
+  ouverture:
+    saisons:
+    - annee: 1950
+      gp: 7
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.32
+    - annee: 1951
+      gp: 8
+      ecuries: 3
+      pilotes: 6
+      effectif: 2.46
+    - annee: 1952
+      gp: 8
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.28
+    - annee: 1953
+      gp: 9
+      ecuries: 3
+      pilotes: 5
+      effectif: 1.59
+    - annee: 1954
+      gp: 9
+      ecuries: 4
+      pilotes: 4
+      effectif: 3.24
+    - annee: 1955
+      gp: 7
+      ecuries: 3
+      pilotes: 4
+      effectif: 1.81
+    - annee: 1956
+      gp: 8
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.13
+    - annee: 1957
+      gp: 8
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.46
+    - annee: 1958
+      gp: 11
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.69
+      ecart_titre: 0.167
+    - annee: 1959
+      gp: 9
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.61
+      ecart_titre: 0.2
+    - annee: 1960
+      gp: 10
+      ecuries: 4
+      pilotes: 5
+      effectif: 2.38
+      ecart_titre: 0.37
+    - annee: 1961
+      gp: 8
+      ecuries: 2
+      pilotes: 5
+      effectif: 1.88
+      ecart_titre: 0.2
+    - annee: 1962
+      gp: 9
+      ecuries: 4
+      pilotes: 4
+      effectif: 3.0
+      ecart_titre: 0.119
+    - annee: 1963
+      gp: 10
+      ecuries: 3
+      pilotes: 3
+      effectif: 1.85
+      ecart_titre: 0.379
+    - annee: 1964
+      gp: 10
+      ecuries: 4
+      pilotes: 5
+      effectif: 3.85
+      ecart_titre: 0.067
+    - annee: 1965
+      gp: 10
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.17
+      ecart_titre: 0.196
+    - annee: 1966
+      gp: 9
+      ecuries: 5
+      pilotes: 5
+      effectif: 3.52
+      ecart_titre: 0.295
+    - annee: 1967
+      gp: 11
+      ecuries: 5
+      pilotes: 6
+      effectif: 3.46
+      ecart_titre: 0.231
+    - annee: 1968
+      gp: 12
+      ecuries: 4
+      pilotes: 7
+      effectif: 3.27
+      ecart_titre: 0.145
+    - annee: 1969
+      gp: 11
+      ecuries: 4
+      pilotes: 5
+      effectif: 2.69
+      ecart_titre: 0.258
+    - annee: 1970
+      gp: 13
+      ecuries: 5
+      pilotes: 7
+      effectif: 3.07
+      ecart_titre: 0.119
+    - annee: 1971
+      gp: 11
+      ecuries: 3
+      pilotes: 6
+      effectif: 2.12
+      ecart_titre: 0.507
+    - annee: 1972
+      gp: 12
+      ecuries: 5
+      pilotes: 5
+      effectif: 3.27
+      ecart_titre: 0.164
+    - annee: 1973
+      gp: 15
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.71
+      ecart_titre: 0.109
+    - annee: 1974
+      gp: 15
+      ecuries: 5
+      pilotes: 7
+      effectif: 4.79
+      ecart_titre: 0.11
+    - annee: 1975
+      gp: 14
+      ecuries: 6
+      pilotes: 9
+      effectif: 3.77
+      ecart_titre: 0.255
+    - annee: 1976
+      gp: 16
+      ecuries: 6
+      pilotes: 7
+      effectif: 3.37
+      ecart_titre: 0.108
+    - annee: 1977
+      gp: 17
+      ecuries: 6
+      pilotes: 8
+      effectif: 4.74
+      ecart_titre: 0.347
+    - annee: 1978
+      gp: 16
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.72
+      ecart_titre: 0.326
+    - annee: 1979
+      gp: 15
+      ecuries: 4
+      pilotes: 7
+      effectif: 3.17
+      ecart_titre: 0.336
+    - annee: 1980
+      gp: 14
+      ecuries: 4
+      pilotes: 7
+      effectif: 3.38
+      ecart_titre: 0.45
+    - annee: 1981
+      gp: 15
+      ecuries: 6
+      pilotes: 7
+      effectif: 5.23
+      ecart_titre: 0.358
+    - &id011
+      annee: 1982
+      gp: 16
+      ecuries: 7
+      pilotes: 11
+      effectif: 5.33
+      ecart_titre: 0.068
+    - annee: 1983
+      gp: 15
+      ecuries: 6
+      pilotes: 8
+      effectif: 4.41
+      ecart_titre: 0.112
+    - annee: 1984
+      gp: 16
+      ecuries: 4
+      pilotes: 5
+      effectif: 1.71
+      ecart_titre: 0.599
+    - annee: 1985
+      gp: 16
+      ecuries: 5
+      pilotes: 8
+      effectif: 3.88
+      ecart_titre: 0.089
+    - annee: 1986
+      gp: 16
+      ecuries: 4
+      pilotes: 5
+      effectif: 2.51
+      ecart_titre: 0.319
+    - annee: 1987
+      gp: 16
+      ecuries: 4
+      pilotes: 5
+      effectif: 2.61
+      ecart_titre: 0.445
+    - annee: 1988
+      gp: 16
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.13
+      ecart_titre: 0.673
+    - annee: 1989
+      gp: 16
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.25
+      ecart_titre: 0.454
+    - annee: 1990
+      gp: 16
+      ecuries: 4
+      pilotes: 6
+      effectif: 3.2
+      ecart_titre: 0.091
+    - annee: 1991
+      gp: 16
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.25
+      ecart_titre: 0.101
+    - annee: 1992
+      gp: 16
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.03
+      ecart_titre: 0.396
+    - annee: 1993
+      gp: 16
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.03
+      ecart_titre: 0.5
+    - annee: 1994
+      gp: 16
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.25
+      ecart_titre: 0.127
+    - annee: 1995
+      gp: 17
+      ecuries: 3
+      pilotes: 5
+      effectif: 1.97
+      ecart_titre: 0.182
+    - annee: 1996
+      gp: 16
+      ecuries: 3
+      pilotes: 4
+      effectif: 1.66
+      ecart_titre: 0.6
+    - annee: 1997
+      gp: 17
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.92
+      ecart_titre: 0.171
+    - annee: 1998
+      gp: 16
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.17
+      ecart_titre: 0.147
+    - annee: 1999
+      gp: 16
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.84
+      ecart_titre: 0.031
+    - annee: 2000
+      gp: 17
+      ecuries: 2
+      pilotes: 4
+      effectif: 1.94
+      ecart_titre: 0.106
+    - annee: 2001
+      gp: 17
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.56
+      ecart_titre: 0.43
+    - annee: 2002
+      gp: 17
+      ecuries: 3
+      pilotes: 4
+      effectif: 1.27
+      ecart_titre: 0.584
+    - annee: 2003
+      gp: 16
+      ecuries: 5
+      pilotes: 8
+      effectif: 2.98
+      ecart_titre: 0.089
+    - annee: 2004
+      gp: 18
+      ecuries: 4
+      pilotes: 5
+      effectif: 1.42
+      ecart_titre: 0.546
+    - annee: 2005
+      gp: 19
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.19
+      ecart_titre: 0.047
+    - annee: 2006
+      gp: 18
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.22
+      ecart_titre: 0.024
+    - annee: 2007
+      gp: 17
+      ecuries: 2
+      pilotes: 4
+      effectif: 1.99
+      ecart_titre: 0.505
+    - annee: 2008
+      gp: 18
+      ecuries: 5
+      pilotes: 7
+      effectif: 3.06
+      ecart_titre: 0.122
+    - annee: 2009
+      gp: 17
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.75
+      ecart_titre: 0.108
+    - annee: 2010
+      gp: 19
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.76
+      ecart_titre: 0.088
+    - annee: 2011
+      gp: 19
+      ecuries: 3
+      pilotes: 5
+      effectif: 1.99
+      ecart_titre: 0.235
+    - annee: 2012
+      gp: 20
+      ecuries: 6
+      pilotes: 8
+      effectif: 3.64
+      ecart_titre: 0.13
+    - annee: 2013
+      gp: 19
+      ecuries: 4
+      pilotes: 5
+      effectif: 1.97
+      ecart_titre: 0.396
+    - annee: 2014
+      gp: 19
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.36
+      ecart_titre: 0.422
+    - annee: 2015
+      gp: 19
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.36
+      ecart_titre: 0.391
+    - annee: 2016
+      gp: 21
+      ecuries: 2
+      pilotes: 4
+      effectif: 1.21
+      ecart_titre: 0.388
+    - annee: 2017
+      gp: 20
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.25
+      ecart_titre: 0.219
+    - annee: 2018
+      gp: 21
+      ecuries: 3
+      pilotes: 5
+      effectif: 2.55
+      ecart_titre: 0.128
+    - annee: 2019
+      gp: 21
+      ecuries: 3
+      pilotes: 5
+      effectif: 1.81
+      ecart_titre: 0.318
+    - annee: 2020
+      gp: 17
+      ecuries: 4
+      pilotes: 5
+      effectif: 1.65
+      ecart_titre: 0.443
+    - annee: 2021
+      gp: 22
+      ecuries: 4
+      pilotes: 6
+      effectif: 2.37
+      ecart_titre: 0.046
+    - annee: 2022
+      gp: 22
+      ecuries: 3
+      pilotes: 5
+      effectif: 1.58
+      ecart_titre: 0.27
+    - annee: 2023
+      gp: 22
+      ecuries: 2
+      pilotes: 3
+      effectif: 1.1
+      ecart_titre: 0.524
+    - annee: 2024
+      gp: 24
+      ecuries: 4
+      pilotes: 7
+      effectif: 3.65
+      ecart_titre: 0.021
+    - annee: 2025
+      gp: 24
+      ecuries: 3
+      pilotes: 4
+      effectif: 2.18
+      ecart_titre: 0.437
+    decennies:
+    - de: 1950
+      a: 1959
+      effectif: 2.16
+      ecuries: 3.1
+      pilotes: 4.6
+      ecart_titre: 0.183
+    - de: 1960
+      a: 1969
+      effectif: 2.81
+      ecuries: 3.8
+      pilotes: 4.9
+      ecart_titre: 0.226
+    - de: 1970
+      a: 1979
+      effectif: 3.37
+      ecuries: 4.7
+      pilotes: 6.7
+      ecart_titre: 0.238
+    - de: 1980
+      a: 1989
+      effectif: 3.24
+      ecuries: 4.6
+      pilotes: 6.5
+      ecart_titre: 0.357
+    - de: 1990
+      a: 1999
+      effectif: 2.33
+      ecuries: 3.3
+      pilotes: 4.9
+      ecart_titre: 0.235
+    - de: 2000
+      a: 2009
+      effectif: 2.24
+      ecuries: 3.4
+      pilotes: 5.3
+      ecart_titre: 0.256
+    - de: 2010
+      a: 2019
+      effectif: 2.09
+      ecuries: 3.1
+      pilotes: 4.8
+      ecart_titre: 0.271
+    - de: 2020
+      a: 2025
+      effectif: 2.09
+      ecuries: 3.3
+      pilotes: 5.0
+      ecart_titre: 0.29
+    cycles:
+    - id: '1950'
+      de: 1950
+      a: 1951
+      effectif: 1.89
+      ecuries: 2.5
+      pilotes: 4.5
+    - id: '1952'
+      de: 1952
+      a: 1953
+      effectif: 1.44
+      ecuries: 2.5
+      pilotes: 4.0
+    - id: '1954'
+      de: 1954
+      a: 1960
+      effectif: 2.47
+      ecuries: 3.6
+      pilotes: 4.9
+      ecart_titre: 0.246
+    - id: '1961'
+      de: 1961
+      a: 1965
+      effectif: 2.55
+      ecuries: 3.2
+      pilotes: 4.2
+      ecart_titre: 0.192
+    - id: '1966'
+      de: 1966
+      a: 1982
+      effectif: 3.56
+      ecuries: 4.8
+      pilotes: 6.8
+      ecart_titre: 0.246
+    - id: '1983'
+      de: 1983
+      a: 1988
+      effectif: 2.71
+      ecuries: 4.2
+      pilotes: 5.7
+      ecart_titre: 0.373
+    - id: '1989'
+      de: 1989
+      a: 1993
+      effectif: 2.35
+      ecuries: 3.4
+      pilotes: 5.2
+      ecart_titre: 0.308
+    - id: '1994'
+      de: 1994
+      a: 2008
+      effectif: 2.23
+      ecuries: 3.3
+      pilotes: 5.1
+      ecart_titre: 0.247
+    - id: '2009'
+      de: 2009
+      a: 2013
+      effectif: 2.62
+      ecuries: 4.0
+      pilotes: 5.8
+      ecart_titre: 0.191
+    - id: '2014'
+      de: 2014
+      a: 2021
+      effectif: 1.82
+      ecuries: 2.9
+      pilotes: 4.5
+      ecart_titre: 0.294
+    - id: '2022'
+      de: 2022
+      a: 2025
+      effectif: 2.13
+      ecuries: 3.0
+      pilotes: 4.8
+      ecart_titre: 0.313
+    plus_fermees:
+    - annee: 2023
+      effectif: 1.1
+      ecuries: 2
+      gp: 22
+    - annee: 1988
+      effectif: 1.13
+      ecuries: 2
+      gp: 16
+    - annee: 2016
+      effectif: 1.21
+      ecuries: 2
+      gp: 21
+    - annee: 2002
+      effectif: 1.27
+      ecuries: 3
+      gp: 17
+    - annee: 1952
+      effectif: 1.28
+      ecuries: 2
+      gp: 8
+    plus_ouvertes:
+    - annee: 1982
+      effectif: 5.33
+      ecuries: 7
+      gp: 16
+    - annee: 1981
+      effectif: 5.23
+      ecuries: 6
+      gp: 15
+    - annee: 1974
+      effectif: 4.79
+      ecuries: 5
+      gp: 15
+    - annee: 1977
+      effectif: 4.74
+      ecuries: 6
+      gp: 17
+    - annee: 1983
+      effectif: 4.41
+      ecuries: 6
+      gp: 15
+    record_ecuries: *id011
+    record_pilotes: *id011
+  client:
+    gp: 1149
+    maison: 464
+    part_maison: 0.404
+    titres: 76
+    titres_maison: 36
+    decennies:
+    - de: 1950
+      a: 1959
+      gp: 84
+      maison: 67
+      part_maison: 0.798
+    - de: 1960
+      a: 1969
+      gp: 100
+      maison: 28
+      part_maison: 0.28
+    - de: 1970
+      a: 1979
+      gp: 144
+      maison: 42
+      part_maison: 0.292
+    - de: 1980
+      a: 1989
+      gp: 156
+      maison: 32
+      part_maison: 0.205
+    - de: 1990
+      a: 1999
+      gp: 162
+      maison: 28
+      part_maison: 0.173
+    - de: 2000
+      a: 2009
+      gp: 174
+      maison: 107
+      part_maison: 0.615
+    - de: 2010
+      a: 2019
+      gp: 198
+      maison: 121
+      part_maison: 0.611
+    - de: 2020
+      a: 2025
+      gp: 131
+      maison: 39
+      part_maison: 0.298
+    cycles:
+    - id: '1950'
+      de: 1950
+      a: 1951
+      gp: 15
+      maison: 13
+      part_maison: 0.867
+    - id: '1952'
+      de: 1952
+      a: 1953
+      gp: 17
+      maison: 15
+      part_maison: 0.882
+    - id: '1954'
+      de: 1954
+      a: 1960
+      gp: 62
+      maison: 40
+      part_maison: 0.645
+    - id: '1961'
+      de: 1961
+      a: 1965
+      gp: 47
+      maison: 22
+      part_maison: 0.468
+    - id: '1966'
+      de: 1966
+      a: 1982
+      gp: 232
+      maison: 62
+      part_maison: 0.267
+    - id: '1983'
+      de: 1983
+      a: 1988
+      gp: 95
+      maison: 14
+      part_maison: 0.147
+    - id: '1989'
+      de: 1989
+      a: 1993
+      gp: 80
+      maison: 9
+      part_maison: 0.113
+    - id: '1994'
+      de: 1994
+      a: 2008
+      gp: 255
+      maison: 128
+      part_maison: 0.502
+    - id: '2009'
+      de: 2009
+      a: 2013
+      gp: 94
+      maison: 16
+      part_maison: 0.17
+    - id: '2014'
+      de: 2014
+      a: 2021
+      gp: 160
+      maison: 128
+      part_maison: 0.8
+    - id: '2022'
+      de: 2022
+      a: 2025
+      gp: 92
+      maison: 17
+      part_maison: 0.185
+    couples:
+    - ecurie: mclaren
+      motoriste: mercedes
+      victoires: 99
+      de: 1997
+      a: 2025
+    - ecurie: red-bull
+      motoriste: honda
+      victoires: 71
+      de: 2019
+      a: 2025
+    - ecurie: williams
+      motoriste: renault
+      victoires: 64
+      de: 1989
+      a: 2012
+    - ecurie: red-bull
+      motoriste: renault
+      victoires: 50
+      de: 2009
+      a: 2014
+    - ecurie: team-lotus
+      motoriste: ford
+      victoires: 47
+      de: 1967
+      a: 1982
+    - ecurie: mclaren
+      motoriste: honda
+      victoires: 44
+      de: 1988
+      a: 1992
+    - ecurie: mclaren
+      motoriste: ford
+      victoires: 35
+      de: 1968
+      a: 1993
+    - ecurie: mclaren
+      motoriste: tag
+      victoires: 25
+      de: 1984
+      a: 1987
+  pole:
+    gp: 1149
+    convertis: 500
+    taux: 0.435
+    decennies:
+    - de: 1950
+      a: 1959
+      gp: 84
+      convertis: 38
+      taux: 0.452
+    - de: 1960
+      a: 1969
+      gp: 100
+      convertis: 37
+      taux: 0.37
+    - de: 1970
+      a: 1979
+      gp: 144
+      convertis: 53
+      taux: 0.368
+    - de: 1980
+      a: 1989
+      gp: 156
+      convertis: 44
+      taux: 0.282
+    - de: 1990
+      a: 1999
+      gp: 162
+      convertis: 69
+      taux: 0.426
+    - de: 2000
+      a: 2009
+      gp: 174
+      convertis: 87
+      taux: 0.5
+    - de: 2010
+      a: 2019
+      gp: 198
+      convertis: 100
+      taux: 0.505
+    - de: 2020
+      a: 2025
+      gp: 131
+      convertis: 72
+      taux: 0.55
+    cycles:
+    - id: '1950'
+      de: 1950
+      a: 1951
+      gp: 15
+      convertis: 7
+      taux: 0.467
+    - id: '1952'
+      de: 1952
+      a: 1953
+      gp: 17
+      convertis: 9
+      taux: 0.529
+    - id: '1954'
+      de: 1954
+      a: 1960
+      gp: 62
+      convertis: 28
+      taux: 0.452
+    - id: '1961'
+      de: 1961
+      a: 1965
+      gp: 47
+      convertis: 19
+      taux: 0.404
+    - id: '1966'
+      de: 1966
+      a: 1982
+      gp: 232
+      convertis: 72
+      taux: 0.31
+    - id: '1983'
+      de: 1983
+      a: 1988
+      gp: 95
+      convertis: 30
+      taux: 0.316
+    - id: '1989'
+      de: 1989
+      a: 1993
+      gp: 80
+      convertis: 42
+      taux: 0.525
+    - id: '1994'
+      de: 1994
+      a: 2008
+      gp: 255
+      convertis: 112
+      taux: 0.439
+    - id: '2009'
+      de: 2009
+      a: 2013
+      gp: 94
+      convertis: 46
+      taux: 0.489
+    - id: '2014'
+      de: 2014
+      a: 2021
+      gp: 160
+      convertis: 84
+      taux: 0.525
+    - id: '2022'
+      de: 2022
+      a: 2025
+      gp: 92
+      convertis: 51
+      taux: 0.554
+    ecuries:
+    - id: red-bull
+      poles: 111
+      convertis: 69
+      taux: 0.622
+    - id: renault
+      poles: 20
+      convertis: 12
+      taux: 0.6
+    - id: mercedes
+      poles: 136
+      convertis: 75
+      taux: 0.551
+    - id: mclaren
+      poles: 177
+      convertis: 85
+      taux: 0.48
+    - id: ferrari
+      poles: 247
+      convertis: 104
+      taux: 0.421
+    - id: williams
+      poles: 128
+      convertis: 46
+      taux: 0.359
+    - id: team-lotus
+      poles: 107
+      convertis: 38
+      taux: 0.355
+    - id: brabham
+      poles: 39
+      convertis: 9
+      taux: 0.231
+    - id: renault-1977
+      poles: 31
+      convertis: 6
+      taux: 0.194
+    saison_min:
+      annee: 1982
+      gp: 16
+      convertis: 2
+      taux: 0.125
+    saison_max:
+      annee: 1991
+      gp: 16
+      convertis: 12
+      taux: 0.75
+  voitures:
+    gp: 1149
+    modeles: 242
+    par_saison: 4.0
+    victoires_par_modele: 4.7
+    reconduites: 187
+    part_reconduites: 0.163
+    decennies:
+    - de: 1950
+      a: 1959
+      gp: 84
+      modeles: 26
+      par_saison: 3.3
+      victoires_par_modele: 3.2
+      reconduites: 26
+      part_reconduites: 0.31
+    - de: 1960
+      a: 1969
+      gp: 100
+      modeles: 33
+      par_saison: 4.5
+      victoires_par_modele: 3.0
+      reconduites: 30
+      part_reconduites: 0.3
+    - de: 1970
+      a: 1979
+      gp: 144
+      modeles: 38
+      par_saison: 5.4
+      victoires_par_modele: 3.8
+      reconduites: 47
+      part_reconduites: 0.326
+    - de: 1980
+      a: 1989
+      gp: 156
+      modeles: 37
+      par_saison: 4.9
+      victoires_par_modele: 4.2
+      reconduites: 46
+      part_reconduites: 0.295
+    - de: 1990
+      a: 1999
+      gp: 162
+      modeles: 31
+      par_saison: 3.3
+      victoires_par_modele: 5.2
+      reconduites: 23
+      part_reconduites: 0.142
+    - de: 2000
+      a: 2009
+      gp: 174
+      modeles: 33
+      par_saison: 3.6
+      victoires_par_modele: 5.3
+      reconduites: 4
+      part_reconduites: 0.023
+    - de: 2010
+      a: 2019
+      gp: 198
+      modeles: 31
+      par_saison: 3.1
+      victoires_par_modele: 6.4
+      reconduites: 0
+      part_reconduites: 0.0
+    - de: 2020
+      a: 2025
+      gp: 131
+      modeles: 19
+      par_saison: 3.3
+      victoires_par_modele: 6.9
+      reconduites: 11
+      part_reconduites: 0.084
+    cycles:
+    - id: '1950'
+      de: 1950
+      a: 1951
+      gp: 15
+      modeles: 5
+      par_saison: 2.5
+      victoires_par_modele: 3.0
+      reconduites: 0
+      part_reconduites: 0.0
+    - id: '1952'
+      de: 1952
+      a: 1953
+      gp: 17
+      modeles: 4
+      par_saison: 2.5
+      victoires_par_modele: 4.2
+      reconduites: 7
+      part_reconduites: 0.412
+    - id: '1954'
+      de: 1954
+      a: 1960
+      gp: 62
+      modeles: 21
+      par_saison: 4.0
+      victoires_par_modele: 3.0
+      reconduites: 21
+      part_reconduites: 0.339
+    - id: '1961'
+      de: 1961
+      a: 1965
+      gp: 47
+      modeles: 15
+      par_saison: 4.0
+      victoires_par_modele: 3.1
+      reconduites: 17
+      part_reconduites: 0.362
+    - id: '1966'
+      de: 1966
+      a: 1982
+      gp: 232
+      modeles: 64
+      par_saison: 5.4
+      victoires_par_modele: 3.6
+      reconduites: 80
+      part_reconduites: 0.345
+    - id: '1983'
+      de: 1983
+      a: 1988
+      gp: 95
+      modeles: 23
+      par_saison: 4.3
+      victoires_par_modele: 4.1
+      reconduites: 24
+      part_reconduites: 0.253
+    - id: '1989'
+      de: 1989
+      a: 1993
+      gp: 80
+      modeles: 15
+      par_saison: 3.6
+      victoires_par_modele: 5.3
+      reconduites: 18
+      part_reconduites: 0.225
+    - id: '1994'
+      de: 1994
+      a: 2008
+      gp: 255
+      modeles: 48
+      par_saison: 3.5
+      victoires_par_modele: 5.3
+      reconduites: 9
+      part_reconduites: 0.035
+    - id: '2009'
+      de: 2009
+      a: 2013
+      gp: 94
+      modeles: 20
+      par_saison: 4.0
+      victoires_par_modele: 4.7
+      reconduites: 0
+      part_reconduites: 0.0
+    - id: '2014'
+      de: 2014
+      a: 2021
+      gp: 160
+      modeles: 22
+      par_saison: 2.9
+      victoires_par_modele: 7.3
+      reconduites: 11
+      part_reconduites: 0.069
+    - id: '2022'
+      de: 2022
+      a: 2025
+      gp: 92
+      modeles: 12
+      par_saison: 3.0
+      victoires_par_modele: 7.7
+      reconduites: 0
+      part_reconduites: 0.0
+    record_modeles:
+      annee: 1982
+      modeles: 8
+    derniere_reconduite:
+      annee: 2021
+      voiture: Red Bull RB16

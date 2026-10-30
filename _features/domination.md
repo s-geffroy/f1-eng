@@ -166,6 +166,8 @@ A team wins with a specific car, and sometimes changes it during the season. We 
 
 formula1.com's team names are almost always right. The research found one exception: in 1957 and 1958, the winning cars of the Indianapolis 500, listed as "Epperly Offenhauser", are Salih-Offenhausers.
 
+How many wins a car takes, and how long it stays a winner, decade by decade: this is one of the measures of the [Indicators feature]({{ site.baseurl }}/en/features/indicateurs/#voitures).
+
 ## Tyres
 
 The tyre manufacturer is a competitor of its own: it supplies several teams, like an engine maker. We recorded the supplier of every team that won a Grand Prix or took a pole, season by season ({{ PNC.size }} team-seasons, each sourced). A season is dominant for the manufacturer that supplies the champion team, or that wins at least {{ P.seuil | times: 100 | round }}% of the races. Single-supplier seasons are out of contention: Goodyear alone in practice in 1987-1988 and from 1992 to 1996, then Bridgestone in 1999-2000 and from 2007 to 2010, Pirelli since 2011.

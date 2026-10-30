@@ -65,6 +65,8 @@ Le cycle de la formule 3 litres montre aussi qu'un cycle peut se jouer ailleurs 
 
 La colonne « Concentration » donne l'indice de Herfindahl des victoires du cycle : la somme des carrés des parts de victoires de chaque écurie, sur 100. Il vaut 100 si une seule écurie gagne tout, et d'autant moins que les victoires se dispersent. Il va de {{ CY | map: "hhi" | sort | first | times: 100 | round }}, pour le cycle 1966-1982, à {{ CY | map: "hhi" | sort | last | times: 100 | round }}, pour le championnat en Formule 2.
 
+Le [dossier Indicateurs]({{ site.baseurl }}/dossiers/indicateurs/) suit la même concentration saison par saison, sous la forme d'un nombre effectif d'écuries gagnantes.
+
 ## Le passage d'un cycle à l'autre
 
 Sur les dix passages d'un cycle au suivant, l'écurie qui mène la dernière saison ne garde la tête que deux fois :

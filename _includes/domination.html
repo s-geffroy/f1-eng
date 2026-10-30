@@ -143,6 +143,70 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   </tbody>
 </table></div>
 
+{%- elsif include.quoi == "indic_decennies" or include.quoi == "indic_cycles" -%}
+{%- assign I_h = site.data.compteur.indicateurs -%}
+{%- if include.quoi == "indic_decennies" -%}{%- assign cle_h = "decennies" -%}{%- assign cap_h = L_h.cap_indic_dec -%}{%- else -%}{%- assign cle_h = "cycles" -%}{%- assign cap_h = L_h.cap_indic_cy -%}{%- assign CYD_h = site.data.cycles.cycles -%}{%- endif -%}
+{%- assign O_h = I_h.ouverture[cle_h] -%}{%- assign M_h = I_h.client[cle_h] -%}{%- assign P_h = I_h.pole[cle_h] -%}{%- assign V_h = I_h.voitures[cle_h] -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h }}"><table>
+<caption>{{ cap_h }}</caption>
+  <thead><tr><th scope="col">{% if include.quoi == "indic_decennies" %}{{ L_h.decennie }}{% else %}{{ L_h.cycle }}{% endif %}</th><th scope="col">{{ L_h.effectif }}</th><th scope="col">{{ L_h.gagnantes_saison }}</th><th scope="col">{{ L_h.ecart_titre }}</th><th scope="col">{{ L_h.moteur_maison }}</th><th scope="col">{{ L_h.pole_victoire }}</th><th scope="col">{{ L_h.victoires_modele }}</th><th scope="col">{{ L_h.reconduites }}</th></tr></thead>
+  <tbody>
+  {%- for o in O_h %}
+    {%- assign i_h = forloop.index0 -%}{%- assign m_h = M_h[i_h] -%}{%- assign p_h = P_h[i_h] -%}{%- assign v_h = V_h[i_h] %}
+    <tr>
+      {%- if include.quoi == "indic_decennies" %}
+      <th scope="row">{{ o.de }}–{{ o.a }}</th>
+      {%- else %}
+      {%- assign cd_h = CYD_h | where: "id", o.id | first %}
+      <th scope="row"><a href="{{ url_c_h }}#c-{{ cd_h.contexte }}">{{ o.de }}–{{ o.a }}</a> · {% if lang_h == "en" %}{{ cd_h.nom_en }}{% else %}{{ cd_h.nom }}{% endif %}</th>
+      {%- endif %}
+      <td>{% if lang_h == "en" %}{{ o.effectif }}{% else %}{{ o.effectif | replace: ".", "," }}{% endif %}</td>
+      <td>{% if lang_h == "en" %}{{ o.ecuries }}{% else %}{{ o.ecuries | replace: ".", "," }}{% endif %}</td>
+      <td>{% if o.ecart_titre %}{{ o.ecart_titre | times: 100 | round }}{{ pc_h }}{% else %}{{ L_h.aucun }}{% endif %}</td>
+      <td>{{ m_h.part_maison | times: 100 | round }}{{ pc_h }}</td>
+      <td>{{ p_h.taux | times: 100 | round }}{{ pc_h }}</td>
+      <td>{% if lang_h == "en" %}{{ v_h.victoires_par_modele }}{% else %}{{ v_h.victoires_par_modele | replace: ".", "," }}{% endif %}</td>
+      <td>{{ v_h.part_reconduites | times: 100 | round }}{{ pc_h }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
+{%- elsif include.quoi == "indic_couples" -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_couples }}"><table>
+<caption>{{ L_h.cap_indic_couples }}</caption>
+  <thead><tr><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.motoriste_dominant }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.periode }}</th></tr></thead>
+  <tbody>
+  {%- for c in site.data.compteur.indicateurs.client.couples %}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", c.ecurie | first -%}
+    {%- assign m_h = D_h.ecuries.motoristes | where: "id", c.motoriste | first %}
+    <tr>
+      <td>{% if e_h %}<a href="{{ url_e_h }}{{ c.ecurie }}/">{{ e_h.nom | split: " (" | first }}</a>{% else %}{{ c.ecurie }}{% endif %}</td>
+      <td>{{ m_h.nom | default: c.motoriste }}</td>
+      <td>{{ c.victoires }}</td>
+      <td>{{ c.de }}–{{ c.a }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
+{%- elsif include.quoi == "indic_pole" -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_pole }}"><table>
+<caption>{{ L_h.cap_indic_pole }}</caption>
+  <thead><tr><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.convertis }}</th><th scope="col">{{ L_h.pole_victoire }}</th></tr></thead>
+  <tbody>
+  {%- for c in site.data.compteur.indicateurs.pole.ecuries %}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", c.id | first %}
+    <tr>
+      <td>{% if e_h %}<a href="{{ url_e_h }}{{ c.id }}/">{{ e_h.nom | split: " (" | first }}</a>{% else %}{{ c.id }}{% endif %}</td>
+      <td>{{ c.poles }}</td>
+      <td>{{ c.convertis }}</td>
+      <td>{{ c.taux | times: 100 | round }}{{ pc_h }}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "chassis" -%}
 {%- assign url_v_h = T_h.url.voitures | relative_url -%}
 {%- assign C_h = site.data.compteur.chassis -%}

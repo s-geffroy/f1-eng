@@ -166,6 +166,8 @@ Une écurie gagne avec une voiture précise, et elle en change parfois en cours 
 
 Les noms d'équipe de formula1.com sont presque toujours justes. La recherche a trouvé une exception : en 1957 et 1958, les voitures gagnantes des 500 miles d'Indianapolis, classées « Epperly Offenhauser », sont des Salih-Offenhauser.
 
+Combien de victoires remporte une voiture, et combien de temps reste-t-elle gagnante, décennie par décennie : c'est l'une des mesures du [dossier Indicateurs]({{ site.baseurl }}/dossiers/indicateurs/#voitures).
+
 ## Les pneus
 
 Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries, comme un motoriste. On a relevé celui de chaque écurie qui a gagné un Grand Prix ou signé une pole, saison par saison ({{ PNC.size }} écurie-saisons, chacune sourcée). Une saison est dominante pour le manufacturier qui équipe l'écurie championne, ou qui gagne au moins {{ P.seuil | times: 100 | round }} % des courses. Les saisons de fournisseur unique sont hors concours : Goodyear seul de fait en 1987-1988 et de 1992 à 1996, puis Bridgestone en 1999-2000 et de 2007 à 2010, Pirelli depuis 2011.
