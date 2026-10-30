@@ -1,7 +1,8 @@
 {%- comment -%} Tableaux du dossier « Domination », dans les deux langues, depuis _data/domination.yml
 (calculé par outils/domination.py). include.quoi : tableau (avec include.unite et, en option,
 include.degre pour n'en garder qu'un), saisons (saisons dominantes isolées, avec include.unite),
-ecrasantes (saisons d'indice composite le plus élevé, avec include.unite),
+ecrasantes (saisons d'indice composite le plus élevé, avec include.unite), ingenieurs_dom (domination
+des écuries pendant la présence de chaque ingénieur, _data/compteur.yml),
 jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
 {%- assign lang_h = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T_h = site.data.i18n[lang_h] -%}
@@ -81,6 +82,28 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   {%- endfor %}
   </tbody>
 </table></div>
+
+{%- elsif include.quoi == "ingenieurs_dom" -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ing_dom }}"><table>
+<caption>{{ L_h.cap_ing_dom }}</caption>
+  <thead><tr><th scope="col">{{ L_h.ingenieur }}</th><th scope="col">{{ L_h.saisons_datees }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.indice_moyen }}</th><th scope="col">{{ L_h.record }}</th><th scope="col">{{ L_h.plus_longue }}</th></tr></thead>
+  <tbody>
+  {%- for i in site.data.compteur.ingenieurs.ingenieurs limit: 20 %}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", i.meilleure.ecurie | first -%}
+    {%- assign cle_d_h = "degre_" | append: i.degre %}
+    <tr>
+      <td>{% include lien-entree.html id=i.id %}{% if i.sejours_non_dates > 0 %}<sup>*</sup>{% endif %}</td>
+      <td>{{ i.saisons }}</td>
+      <td>{{ i.dominantes }}</td>
+      <td>{{ i.titres }}</td>
+      <td>{{ i.indice_moyen | times: 100 | round }}</td>
+      <td>{{ i.meilleure.indice | times: 100 | round }} ({{ e_h.nom | split: " (" | first }} {{ i.meilleure.annee }})</td>
+      <td>{% if i.plus_longue %}{{ i.plus_longue[0] }}–{{ i.plus_longue[1] }} ({{ L_h[cle_d_h] }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+<p class="note-tableau"><sup>*</sup> {{ L_h.non_dates }}</p>
 
 {%- elsif include.quoi == "jalons" -%}
 <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_jalons }}"><table>

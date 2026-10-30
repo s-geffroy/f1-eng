@@ -49,6 +49,15 @@ La domination se mesure ensuite à sa durée. Les saisons dominantes d'un même 
 
 Chaque saison a un champion du monde : chaque saison est donc dominante pour au moins un pilote, une écurie et un motoriste. Le premier degré est le plus courant. Ce qui est rare, c'est de durer.
 
+Pour lire l'intensité d'une domination, chaque saison reçoit aussi une note sur 100, comme sur un compteur : l'**indice composite**, moyenne des parts de victoires, de poles et de places sur le podium ([détails plus bas](#mesures)). Le compteur ci-dessous suit, saison après saison, l'écurie la plus forte.
+
+<figure class="figure">
+{% include domination/compteur-f1-fr.svg %}
+<figcaption>L'indice de l'écurie la plus forte de chaque saison (survolez un point pour la nommer). Bandes : les hégémonies d'écurie. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, calculé plus bas.</figcaption>
+</figure>
+
+Le compteur ne descend jamais sous le seuil : chaque saison a une écurie nettement en tête. Il monte le plus haut avec Ferrari en 1952, sur huit courses seulement, puis avec McLaren en 1988 et Mercedes de 2014 à 2016. Il est au plus bas à la fin des années 1970 et au début des années 1980. En 1981, l'écurie la plus forte selon l'indice, Renault, doit sa place à ses poles et n'est même pas championne.
+
 Trois précisions :
 
 - **Avant 1958, il n'y a pas de titre des constructeurs.** L'écurie du champion du monde en tient lieu.
@@ -65,6 +74,11 @@ On compte à quatre niveaux :
 ## Les écuries
 
 {% include domination.html quoi="tableau" unite="ecurie" %}
+
+<figure class="figure">
+{% include domination/tableau-ecurie-fr.svg %}
+<figcaption>Le tableau de bord des dominations longues d'écurie. Aiguille : l'indice moyen de la période. Trait noir : sa meilleure saison. Repère rouge : le seuil. Arc en tirets : une domination qui n'est pas une hégémonie.</figcaption>
+</figure>
 
 En soixante-seize saisons, on compte {{ EF.ecurie.hegemonie }} hégémonies et {{ EF.ecurie.domination }} autres dominations. Quatre traits ressortent.
 
@@ -83,6 +97,11 @@ On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% inc
 
 {% include domination.html quoi="tableau" unite="pilote" %}
 
+<figure class="figure">
+{% include domination/tableau-pilote-fr.svg %}
+<figcaption>Le tableau de bord des dominations longues de pilote, avec la même lecture. Aucun pilote ne dépasse 50 de moyenne : il partage toujours le podium avec son coéquipier.</figcaption>
+</figure>
+
 Les hégémonies de pilotes se calquent sur celles de leur écurie : Schumacher sur Ferrari, Vettel et Verstappen sur Red Bull, Hamilton sur Mercedes. Seul **Fangio**, de 1954 à 1957, atteint l'hégémonie avec trois écuries : Mercedes-Benz, Ferrari et Maserati.
 
 Trois dominations longues de pilotes ne sont pas des hégémonies :
@@ -96,6 +115,11 @@ C'est chez les pilotes que la saison isolée est la plus fréquente : {{ EF.pilo
 
 {% include domination.html quoi="tableau" unite="motoriste" %}
 
+<figure class="figure">
+{% include domination/tableau-motoriste-fr.svg %}
+<figcaption>Le tableau de bord des dominations longues de motoriste, avec la même lecture.</figcaption>
+</figure>
+
 C'est à ce niveau que se trouve la plus longue domination : celle des moteurs **Ford**, dont le [Cosworth DFV]({{ site.baseurl }}/chronologie/#j-dfv). Ils dominent chacune des quinze saisons de 1968 à 1982 et gagnent 70 % des Grands Prix, pour Lotus, McLaren, Tyrrell et d'autres.
 
 Le DFV est vendu à tous. Aucune hégémonie d'écurie ne lui correspond donc : on observe plutôt une succession d'écuries championnes avec le même moteur. Climax avant lui, Honda et Renault ensuite, dominent de la même façon à travers plusieurs écuries.
@@ -106,7 +130,22 @@ Le groupe propulseur de Red Bull, de 2021 à 2023, est compté sous le nom de **
 
 Saisons dominantes isolées : {% include domination.html quoi="saisons" unite="motoriste" %}.
 
-## Au-delà des victoires : poles, podiums et doublés
+## Les ingénieurs
+
+Un ingénieur ne gagne pas de course, mais on peut mesurer la domination de son écurie pendant qu'il y travaille. On suit chaque séjour daté des [fiches des écuries]({{ site.baseurl }}/ecuries/), saison par saison, avec les mêmes règles que pour une écurie : saisons dominantes, degrés et indice. Une suite de saisons dominantes peut passer d'une écurie à l'autre avec l'ingénieur. {{ CP.ingenieurs.non_dates }} séjours sans date de début ou de fin restent hors du compte.
+
+<figure class="figure">
+{% include domination/ingenieurs-compteur-fr.svg %}
+<figcaption>Le compteur des douze ingénieurs dont l'écurie a dominé le plus de saisons. Aiguille : l'indice moyen de leurs écuries pendant leur présence. Trait noir : leur meilleure saison.</figcaption>
+</figure>
+
+**Adrian Newey** est en tête : seize saisons dominantes en trente-six saisons datées, chez Williams, McLaren et Red Bull. Sa plus longue suite, de 1991 à 2000, passe de Williams à McLaren. Paddy Lowe et Ross Brawn suivent, avec treize et douze saisons dominantes. Colin Chapman, lui, ne dépasse pas le degré de la domination : comme Lotus de 1968 à 1973, sa suite ne résiste pas à la variante sans saison creuse.
+
+{% include domination.html quoi="ingenieurs_dom" %}
+
+Ce compteur mesure une présence, pas une contribution : un ingénieur peut être là quand l'écurie gagne sans en être la cause. La troisième confrontation, plus bas, tente d'aller plus loin avec un témoin.
+
+## Au-delà des victoires : poles, podiums et doublés {#mesures}
 
 Les degrés reposent sur les titres et les victoires. Trois autres mesures décrivent la manière de dominer. Elles sont relevées course par course sur formula1.com :
 

@@ -693,6 +693,38 @@ def esc(t):
 def ecurie_de(lid, a):
     return next((s["ecurie"] for l in E["lignees"] if l["id"] == lid for s in l["segments"] if s["de"] <= a <= s["a"]), None)
 
+def cadran_g(cx, cy, r, v, lignes, record=None, fragile=False, taille=1.0):
+    """Cadran 0-100 (groupe SVG) : arc rempli jusqu'à v, aiguille, repère rouge du seuil calibré,
+    trait fin pour un record (meilleure saison d'une période), valeur au centre, lignes de légende.
+    fragile : arc en tirets (domination qui n'est pas une hégémonie)."""
+    import math
+    ang = lambda x: math.pi * (1 - min(max(x, 0), 1))
+    pt = lambda x, rr: (cx + rr * math.cos(ang(x)), cy - rr * math.sin(ang(x)))
+    ep = max(6, round(14 * taille))
+    x0, y0 = pt(0, r); x1, y1 = pt(1, r); xv, yv = pt(v, r)
+    o = [f'<path class="cp-arc" style="stroke-width:{ep}" d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {x1:.1f},{y1:.1f}"/>',
+         f'<path class="cp-arcv" style="stroke-width:{ep}{";stroke-dasharray:6 3" if fragile else ""}" '
+         f'd="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {xv:.1f},{yv:.1f}"/>']
+    for t in range(0, 101, 10):
+        a1, a2 = pt(t / 100, r - ep), pt(t / 100, r - ep - (8 if t % 50 == 0 else 4) * taille)
+        o.append(f'<line class="cp-a" x1="{a1[0]:.1f}" y1="{a1[1]:.1f}" x2="{a2[0]:.1f}" y2="{a2[1]:.1f}"/>')
+        if t % 50 == 0 and taille >= 0.8:
+            tx, ty = pt(t / 100, r - ep - 20 * taille)
+            o.append(f'<text class="cp-t" x="{tx:.1f}" y="{ty + 4:.1f}" text-anchor="middle">{t}</text>')
+    s1, s2 = pt(SEUIL_INDICE, r - ep / 2 - 2), pt(SEUIL_INDICE, r + ep / 2 + 3)
+    o.append(f'<line class="cp-s" style="stroke-dasharray:none;stroke-width:3" x1="{s1[0]:.1f}" y1="{s1[1]:.1f}" x2="{s2[0]:.1f}" y2="{s2[1]:.1f}"/>')
+    if record is not None:
+        q1, q2 = pt(record, r - ep / 2 - 2), pt(record, r + ep / 2 + 3)
+        o.append(f'<line class="cp-ai" style="stroke-width:2" x1="{q1[0]:.1f}" y1="{q1[1]:.1f}" x2="{q2[0]:.1f}" y2="{q2[1]:.1f}"/>')
+    ax, ay = pt(v, r - ep - 10 * taille)
+    o.append(f'<line class="cp-ai" style="stroke-width:{max(2, 3 * taille):.1f}" x1="{cx}" y1="{cy}" x2="{ax:.1f}" y2="{ay:.1f}"/>'
+             f'<circle cx="{cx}" cy="{cy}" r="{max(3, 6 * taille):.1f}" class="cp-j"/>')
+    o.append(f'<text class="cp-v" style="font-size:{round(30 * taille)}px" x="{cx}" y="{cy + 34 * taille:.1f}" text-anchor="middle">{round(v * 100)}</text>')
+    for i, l in enumerate(lignes):
+        fs = "" if taille >= 0.8 else ' style="font-size:11px"'
+        o.append(f'<text class="{"cp-f" if i == 0 and len(lignes) > 1 else "cp-t"}"{fs} x="{cx}" y="{cy + 34 * taille + 15 * (i + 1) + 2:.1f}" text-anchor="middle">{l}</text>')
+    return "".join(o)
+
 def svg_compteur(lid, lang):
     import math
     L, nl = TXT[lang], {"fr": NOM_LIGNEE, "en": {l["id"]: l["nom"] for l in EN["lignees"]}}[lang][lid]
@@ -707,27 +739,9 @@ def svg_compteur(lid, lang):
     v100 = lambda x: round(x * 100)
     desc = L["d"].format(b=esc(bn), y=best, v=v100(vals[best]))
     # Cadran : demi-cercle 0-100, aiguille sur la meilleure saison, repère du seuil.
-    cx, cy, r = 110, 112, 86
-    ang = lambda x: math.pi * (1 - x)           # 0 à gauche, 1 à droite
-    pt = lambda x, rr: (cx + rr * math.cos(ang(x)), cy - rr * math.sin(ang(x)))
-    x0, y0 = pt(0, r); x1, y1 = pt(1, r); xv, yv = pt(vals[best], r)
-    o = [f'<svg class="graphique compteur-cadran" viewBox="0 0 220 170" role="img" aria-labelledby="{uid}-ct">',
-         f'<title id="{uid}-ct">{L["rec"]} : {esc(bn)} {best}, {v100(vals[best])} / 100</title>', CS,
-         f'<path class="cp-arc" d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {x1:.1f},{y1:.1f}"/>',
-         f'<path class="cp-arcv" d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 1 {xv:.1f},{yv:.1f}"/>']
-    for t in range(0, 101, 10):
-        a1, a2 = pt(t / 100, r - 12), pt(t / 100, r - 20 if t % 50 == 0 else r - 16)
-        o.append(f'<line class="cp-a" x1="{a1[0]:.1f}" y1="{a1[1]:.1f}" x2="{a2[0]:.1f}" y2="{a2[1]:.1f}"/>')
-        if t % 50 == 0:
-            tx, ty = pt(t / 100, r - 32)
-            o.append(f'<text class="cp-t" x="{tx:.1f}" y="{ty + 4:.1f}" text-anchor="middle">{t}</text>')
-    s1, s2 = pt(SEUIL_INDICE, r - 7), pt(SEUIL_INDICE, r + 9)
-    o.append(f'<line class="cp-s" style="stroke-dasharray:none;stroke-width:3" x1="{s1[0]:.1f}" y1="{s1[1]:.1f}" x2="{s2[0]:.1f}" y2="{s2[1]:.1f}"/>')
-    ax, ay = pt(vals[best], r - 24)
-    o.append(f'<line class="cp-ai" x1="{cx}" y1="{cy}" x2="{ax:.1f}" y2="{ay:.1f}"/><circle cx="{cx}" cy="{cy}" r="6" class="cp-j"/>')
-    o.append(f'<text class="cp-v" x="{cx}" y="{cy + 38}" text-anchor="middle">{v100(vals[best])}</text>')
-    o.append(f'<text class="cp-t" x="{cx}" y="{cy + 56}" text-anchor="middle">{L["rec"]} : {esc(bn)} {best}</text></svg>')
-    cadran = "".join(o)
+    cadran = (f'<svg class="graphique compteur-cadran" viewBox="0 0 220 170" role="img" aria-labelledby="{uid}-ct">'
+              f'<title id="{uid}-ct">{L["rec"]} : {esc(bn)} {best}, {v100(vals[best])} / 100</title>{CS}'
+              + cadran_g(110, 112, 86, vals[best], [f'{L["rec"]} : {esc(bn)} {best}']) + "</svg>")
     # Courbe : indice saison par saison sur l'axe des années de la lignée.
     W, Hh, g, d, h, b = 640, 250, 40, 14, 14, 62
     a0, a1_ = ans[0], ans[-1]
@@ -790,6 +804,164 @@ def svg_compteur(lid, lang):
     o.append("</svg>")
     sortie_compteur["lignees"][lid] = {"meilleure": best, "indice": round(vals[best], 3)}
     return cadran, "".join(o)
+
+# --- Ingénieurs : la domination de leur écurie pendant leur présence ---------------------------
+# Saisons sûres seulement : de « de » à « a ». Un séjour sans date de fin (ou sans début) reste hors
+# du compte, faute de savoir quand l'ingénieur est parti : il est dénombré à part.
+ING_NOMS = {}
+for chemin in os.listdir("_ingenieurs"):
+    fm = yaml.safe_load(open(f"_ingenieurs/{chemin}", encoding="utf-8").read().split("---\n")[1])
+    ING_NOMS[chemin[:-3]] = fm.get("nom_complet") or fm.get("title") or chemin[:-3]
+sejours = collections.defaultdict(set)
+non_dates = collections.Counter()
+for ec, ing, de, a in ING_ECURIE:
+    if de is None or a is None:
+        non_dates[ing] += 1
+        continue
+    for y in range(max(de, ANNEES[0]), min(a, ANNEES[-1]) + 1):
+        sejours[ing].add((y, ec))
+def suites_ing(ss, seuil, creux):
+    """Suites de saisons où une écurie de l'ingénieur domine (titre ou seuil des victoires)."""
+    dom = sorted({y for y, ec in ss if champion["ecurie"].get(y) == ec or part["ecurie"][y].get(ec, 0) >= seuil})
+    out, g = [], []
+    for y in dom:
+        if g and y - g[-1] > creux + 1:
+            out.append(g); g = []
+        g.append(y)
+    return out + ([g] if g else []), dom
+
+ing_dom = []
+for ing, ss in sejours.items():
+    suites, dom = suites_ing(ss, SEUIL, CREUX)
+    vals = [x for x in (mesures("ecurie", ec, [y]).get("indice") for y, ec in ss) if x is not None]
+    if not vals:
+        continue
+    # Degré de sa plus longue suite de saisons dominantes, mêmes règles que pour une écurie :
+    # une hégémonie doit se retrouver dans les deux variantes plus strictes.
+    plus = max(suites, key=len) if suites else []
+    robuste = len(plus) >= MIN and all(
+        any(len(v) >= m and v[0] <= plus[-1] and plus[0] <= v[-1] for v in suites_ing(ss, sv, cv)[0])
+        for sv, m, cv in VARIANTES)
+    best = max(ss, key=lambda x: mesures("ecurie", x[1], [x[0]]).get("indice") or 0)
+    ing_dom.append({"id": ing, "nom": ING_NOMS.get(ing, ing), "saisons": len({y for y, _ in ss}),
+                    "dominantes": len(dom), "titres": sum(1 for y, ec in ss if champion["ecurie"].get(y) == ec),
+                    "indice_moyen": round(sum(vals) / len(vals), 3),
+                    "meilleure": {"annee": best[0], "ecurie": best[1],
+                                  "indice": mesures("ecurie", best[1], [best[0]]).get("indice")},
+                    "plus_longue": [plus[0], plus[-1]] if plus else None,
+                    "degre": ("hegemonie" if robuste else "domination" if len(plus) >= DUO
+                              else "saison" if plus else None),
+                    "sejours_non_dates": non_dates.get(ing, 0)})
+ing_dom.sort(key=lambda x: (-x["dominantes"], -x["indice_moyen"]))
+sortie_ing = {"ingenieurs": ing_dom, "non_dates": sum(non_dates.values()),
+              "ingenieurs_partiels": sum(1 for i in ing_dom if i["sejours_non_dates"])}
+
+# --- Visuels « compteur » du dossier --------------------------------------------------------------
+TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950-2025",
+                "f1_d": "Pour chaque saison, l'indice composite de l'écurie la plus forte, sur 100. Les bandes marquent les hégémonies d'écurie ; les tirets rouges, le seuil calibré.",
+                "y": "Indice de l'écurie la plus forte", "seuil": "seuil", "tb_t": "Tableau de bord des dominations longues",
+                "tb_d": "Un cadran par domination d'au moins trois saisons : l'aiguille donne l'indice moyen de la période, le trait noir sa meilleure saison, le repère rouge le seuil. Arc en tirets : domination qui n'est pas une hégémonie.",
+                "heg": "hégémonie", "dom": "domination", "ing_t": "Le compteur des ingénieurs",
+                "ing_d": "Indice moyen des écuries pendant la présence de l'ingénieur, pour les douze ingénieurs dont l'écurie a dominé le plus de saisons.",
+                "sd": "saisons dominantes"},
+         "en": {"f1_t": "The F1 gauge, 1950-2025",
+                "f1_d": "For each season, the composite index of the strongest team, out of 100. Bands mark team hegemonies; red dashes, the calibrated threshold.",
+                "y": "Index of the strongest team", "seuil": "threshold", "tb_t": "Dashboard of long dominance",
+                "tb_d": "One dial per period of at least three dominant seasons: the needle gives the period's average index, the black mark its best season, the red mark the threshold. Dashed arc: dominance that is not a hegemony.",
+                "heg": "hegemony", "dom": "dominance", "ing_t": "The engineers' gauge",
+                "ing_d": "Average index of the teams while the engineer was present, for the twelve engineers whose team dominated the most seasons.",
+                "sd": "dominant seasons"}}
+NOMS_U = {"fr": {"pilote": {}, "motoriste": NOM_MOTEUR},
+          "en": {"pilote": {}, "motoriste": {m["id"]: m["nom"] for m in EN["motoristes"]}}}
+
+def nom_u(u, k, lang):
+    if u in ("ecurie", "lignee"):
+        return NOMS[lang].get(k, nom(u, k)).split(" (")[0]
+    return NOMS_U[lang][u].get(k, nom(u, k))
+
+# Saison par saison : l'écurie d'indice le plus élevé.
+tete_indice = []
+for a in ANNEES:
+    c = [(mesures("ecurie", k, [a]).get("indice"), k) for k in set(part["ecurie"][a]) | set(poles["ecurie"][a])]
+    c = [x for x in c if x[0] is not None]
+    if c:
+        v, k = max(c)
+        tete_indice.append({"annee": a, "ecurie": k.lstrip("~"), "indice": round(v, 3)})
+
+def svg_f1(lang):
+    L = TXT_D[lang]
+    W, Hh, g, d, h, b = 640, 300, 44, 14, 30, 34
+    a0, a1 = ANNEES[0] - 0.5, ANNEES[-1] + 0.5
+    xs = lambda a: g + (a - a0) / (a1 - a0) * (W - g - d)
+    ys = lambda v: Hh - b - v * (Hh - b - h)
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="cf-t-{lang} cf-d-{lang}">',
+         f'<title id="cf-t-{lang}">{L["f1_t"]}</title><desc id="cf-d-{lang}">{L["f1_d"]}</desc>', CS]
+    for i, p_ in enumerate(x for x in dominations["ecurie"] if x["degre"] == "hegemonie"):
+        x1, x2 = xs(p_["debut"] - 0.5), xs(p_["fin"] + 0.5)
+        nm = esc(nom_u("ecurie", p_["id"], lang))
+        o.append(f'<rect class="cp-heg" x="{x1:.1f}" y="{h}" width="{x2 - x1:.1f}" height="{Hh - b - h}"><title>{nm}, {p_["debut"]}–{p_["fin"]}</title></rect>')
+        o.append(f'<text class="cp-t" x="{(x1 + x2) / 2:.1f}" y="{h - 6 - 12 * (i % 2)}" text-anchor="middle">{nm}</text>')
+    for v in (0, 0.25, 0.5, 0.75, 1):
+        o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+    o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
+             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {round(SEUIL_INDICE * 100)}</text>')
+    for a in range(1950, 2030, 10):
+        o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
+    o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
+    for t in tete_indice:
+        nm = esc(nom_u("ecurie", t["ecurie"], lang))
+        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {round(t["indice"] * 100)}</title></circle>')
+    o.append("</svg>")
+    return "".join(o)
+
+def svg_tableau(u, lang):
+    L = TXT_D[lang]
+    ps = [x for x in dominations[u] if x["longue"]]
+    par_ligne, W, cw, ch = 4, 640, 160, 150
+    lignes_n = (len(ps) + par_ligne - 1) // par_ligne
+    Hh = lignes_n * ch + 6
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="tb-{u}-t-{lang} tb-{u}-d-{lang}">',
+         f'<title id="tb-{u}-t-{lang}">{L["tb_t"]}</title><desc id="tb-{u}-d-{lang}">{L["tb_d"]}</desc>', CS]
+    for i, p_ in enumerate(ps):
+        cx, cy = cw * (i % par_ligne) + cw / 2, ch * (i // par_ligne) + 72
+        k = p_.get("id") or p_["nom"]
+        rec = max((mesures(u, k, [a]).get("indice") or 0) for a in range(p_["debut"], p_["fin"] + 1))
+        nm = esc(nom_u(u, k, lang) if p_.get("id") else p_["nom"])
+        if u == "pilote":
+            nm = esc(p_["nom"].split(" ")[-1])
+        deg = L["heg"] if p_["degre"] == "hegemonie" else L["dom"]
+        o.append(f'<g><title>{esc(p_["nom"])}, {p_["debut"]}–{p_["fin"]} · {deg} · {round(p_["indice"] * 100)} / 100</title>')
+        o.append(cadran_g(cx, cy, 58, p_["indice"], [f"{nm}", f'{p_["debut"]}–{p_["fin"]} · {deg}'],
+                          record=rec, fragile=p_["degre"] != "hegemonie", taille=0.62))
+        o.append("</g>")
+    o.append("</svg>")
+    return "".join(o)
+
+def svg_ingenieurs_cp(lang):
+    L = TXT_D[lang]
+    ps = ing_dom[:12]
+    par_ligne, W, cw, ch = 4, 640, 160, 150
+    Hh = ((len(ps) + par_ligne - 1) // par_ligne) * ch + 6
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="ti-t-{lang} ti-d-{lang}">',
+         f'<title id="ti-t-{lang}">{L["ing_t"]}</title><desc id="ti-d-{lang}">{L["ing_d"]}</desc>', CS]
+    for i, p_ in enumerate(ps):
+        cx, cy = cw * (i % par_ligne) + cw / 2, ch * (i // par_ligne) + 72
+        nm = esc(p_["nom"].split(" ")[-1])
+        o.append(f'<g><title>{esc(p_["nom"])} · {p_["dominantes"]} {L["sd"]} / {p_["saisons"]} · {round(p_["indice_moyen"] * 100)} / 100</title>')
+        o.append(cadran_g(cx, cy, 58, p_["indice_moyen"], [nm, f'{p_["dominantes"]} {L["sd"]}'],
+                          record=p_["meilleure"]["indice"], taille=0.62))
+        o.append("</g>")
+    o.append("</svg>")
+    return "".join(o)
+
+for lang in ("fr", "en"):
+    open(f"_includes/domination/compteur-f1-{lang}.svg", "w", encoding="utf-8").write(svg_f1(lang) + "\n")
+    for u in ("ecurie", "pilote", "motoriste"):
+        open(f"_includes/domination/tableau-{u}-{lang}.svg", "w", encoding="utf-8").write(svg_tableau(u, lang) + "\n")
+    open(f"_includes/domination/ingenieurs-compteur-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs_cp(lang) + "\n")
+sortie_compteur["tete_indice"] = tete_indice
+sortie_compteur["ingenieurs"] = sortie_ing
 
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):

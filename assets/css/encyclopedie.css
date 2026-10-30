@@ -1073,3 +1073,4 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .compteur .compteur-cadran { flex: 0 0 13rem; height: auto; }
 .compteur .compteur-courbe { flex: 1 1 22rem; height: auto; }
 .compteur-legende { font-size: 0.9375rem; color: var(--mine); }
+.note-tableau { font-size: 0.875rem; color: var(--mine); margin-top: 0.3rem; }

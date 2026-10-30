@@ -49,6 +49,15 @@ Dominance is then measured by how long it lasts. The dominant seasons of the sam
 
 Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting.
 
+To read the intensity of dominance, each season also gets a score out of 100, as on a gauge: the **composite index**, the average share of wins, poles and podium places ([details below](#mesures)). The gauge below follows the strongest team, season after season.
+
+<figure class="figure">
+{% include domination/compteur-f1-en.svg %}
+<figcaption>The index of the strongest team in each season (hover over a dot to name it). Bands: team hegemonies. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, computed below.</figcaption>
+</figure>
+
+The gauge never falls below the threshold: every season has a team clearly ahead. It climbs highest with Ferrari in 1952, over only eight races, then with McLaren in 1988 and Mercedes from 2014 to 2016. It is at its lowest in the late 1970s and early 1980s. In 1981, the strongest team by the index, Renault, owes its place to its poles and is not even champion.
+
 Three points to note:
 
 - **Before 1958 there is no constructors' title.** The world champion's team stands in for it.
@@ -65,6 +74,11 @@ Dominance is counted at four levels:
 ## Teams
 
 {% include domination.html quoi="tableau" unite="ecurie" %}
+
+<figure class="figure">
+{% include domination/tableau-ecurie-en.svg %}
+<figcaption>The dashboard of long team dominance. Needle: the period's average index. Black mark: its best season. Red mark: the threshold. Dashed arc: dominance that is not a hegemony.</figcaption>
+</figure>
 
 In seventy-six seasons there are {{ EF.ecurie.hegemonie }} hegemonies and {{ EF.ecurie.domination }} other periods of dominance. Four features stand out.
 
@@ -83,6 +97,11 @@ At the level of **lineages**, the table is almost the same. Red Bull becomes Mil
 
 {% include domination.html quoi="tableau" unite="pilote" %}
 
+<figure class="figure">
+{% include domination/tableau-pilote-en.svg %}
+<figcaption>The dashboard of long driver dominance, read the same way. No driver averages above 50: a driver always shares the podium with a team-mate.</figcaption>
+</figure>
+
 Drivers' hegemonies follow their team's: Schumacher with Ferrari, Vettel and Verstappen with Red Bull, Hamilton with Mercedes. Only **Fangio**, from 1954 to 1957, reaches hegemony with three teams: Mercedes-Benz, Ferrari and Maserati.
 
 Three long periods of driver dominance are not hegemonies:
@@ -96,6 +115,11 @@ Drivers are where the isolated season is most frequent: {{ EF.pilote.saison }} c
 
 {% include domination.html quoi="tableau" unite="motoriste" %}
 
+<figure class="figure">
+{% include domination/tableau-motoriste-en.svg %}
+<figcaption>The dashboard of long engine maker dominance, read the same way.</figcaption>
+</figure>
+
 This is the level of the longest dominance: that of the **Ford** engines, including the [Cosworth DFV]({{ site.baseurl }}/en/timeline/#j-dfv). They dominate every one of the fifteen seasons from 1968 to 1982 and win 70% of the Grands Prix, for Lotus, McLaren, Tyrrell and others.
 
 The DFV is sold to everyone. There is therefore no matching team hegemony, but rather a succession of champion teams using the same engine. Climax before it, then Honda and Renault, dominate in the same way across several teams.
@@ -106,7 +130,22 @@ Red Bull's power unit from 2021 to 2023 is counted under the name **Honda**. The
 
 Isolated dominant seasons: {% include domination.html quoi="saisons" unite="motoriste" %}.
 
-## Beyond wins: poles, podiums and one-twos
+## Engineers
+
+An engineer wins no races, but the dominance of their team while they work there can be measured. Each dated stint on the [team pages]({{ site.baseurl }}/en/teams/) is followed season by season, with the same rules as for a team: dominant seasons, degrees and index. A run of dominant seasons can move from one team to another with the engineer. {{ CP.ingenieurs.non_dates }} stints with no start or end date are left out.
+
+<figure class="figure">
+{% include domination/ingenieurs-compteur-en.svg %}
+<figcaption>The gauge of the twelve engineers whose team dominated the most seasons. Needle: the average index of their teams while they were present. Black mark: their best season.</figcaption>
+</figure>
+
+**Adrian Newey** leads: sixteen dominant seasons out of thirty-six dated seasons, at Williams, McLaren and Red Bull. His longest run, from 1991 to 2000, moves from Williams to McLaren. Paddy Lowe and Ross Brawn follow, with thirteen and twelve dominant seasons. Colin Chapman does not go beyond the degree of dominance: like Lotus from 1968 to 1973, his run does not survive the variant with no lean season.
+
+{% include domination.html quoi="ingenieurs_dom" %}
+
+This gauge measures presence, not contribution: an engineer can be there when the team wins without being the cause. The third comparison, below, tries to go further with a control.
+
+## Beyond wins: poles, podiums and one-twos {#mesures}
 
 The degrees rest on titles and wins. Three other measures describe how a team dominates. They are recorded race by race from formula1.com:
 
