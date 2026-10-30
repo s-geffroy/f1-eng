@@ -41,7 +41,11 @@ NOMS_FR = {"London": "Londres", "Turin": "Turin", "Munich": "Munich", "Cologne":
            "Lisbon": "Lisbonne", "Seville": "Séville", "Geneva": "Genève", "Basel": "Bâle", "Bologna": "Bologne",
            "Modena": "Modène", "Padua": "Padoue", "Verona": "Vérone", "Mantua": "Mantoue", "Copenhagen": "Copenhague",
            "Warsaw": "Varsovie", "The Hague": "La Haye", "Antwerp": "Anvers", "Edinburgh": "Édimbourg", "Dover": "Douvres",
-           "Mexico City": "Mexico", "Sao Paulo": "São Paulo", "Cape Town": "Le Cap"}
+           "Mexico City": "Mexico", "Sao Paulo": "São Paulo", "Cape Town": "Le Cap", "Algiers": "Alger",
+           "Frankfurt": "Francfort", "Hamburg": "Hambourg", "Havana": "La Havane", "Palermo": "Palerme",
+           "Bergamo": "Bergame", "Parma": "Parme", "Ravenna": "Ravenne", "San Marino": "Saint-Marin",
+           "Philadelphia": "Philadelphie", "New Orleans": "La Nouvelle-Orléans", "Washington, D.C.": "Washington",
+           "Milan": "Milan", "Brasília": "Brasilia", "Asunción": "Asuncion", "Tunis": "Tunis"}
 
 def projeteur(lo0, lo1, la0, la1, largeur):
     kx = math.cos(math.radians((la0 + la1) / 2))
@@ -247,7 +251,7 @@ def main():
             x, y = proj(*v["geometry"]["coordinates"][:2])
             if not placeur.libre((x - 3, y - 3, 6, 6)) or any(abs(x - q["x"]) < 12 and abs(y - q["y"]) < 12 for q in pan["points"]):
                 continue
-            nom_en = v["properties"]["name"]; nom_fr = NOMS_FR.get(nom_en, nom_en)
+            nom_en = " ".join(v["properties"]["name"].split()); nom_fr = NOMS_FR.get(nom_en, nom_en)
             e = placeur.placer(x, y, max(nom_fr, nom_en, key=len).upper(), TAILLE_V, CHASSE_V, rayons=(5,), obligatoire=False)
             if e:
                 placeur.pris.append((x - 3, y - 3, 6, 6))

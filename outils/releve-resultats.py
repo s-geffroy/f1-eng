@@ -42,6 +42,8 @@ CHASSIS = {
     "Iso Marlboro": [(0, 9999, "iso-marlboro")], "Jaguar": [(0, 9999, "jaguar")],
     "Jordan": [(0, 9999, "jordan")], "Kick Sauber": [(0, 9999, "kick-sauber")],
     "Kurtis Kraft": [(0, 9999, "kurtis-kraft")], "Kuzma": [(0, 9999, None)],
+    "Lancia": [(1954, 1955, "lancia")], "Connaught": [(0, 9999, "connaught")],
+    "Lanica": [(1956, 1956, "ferrari")],          # coquille de formula1.com pour « Lancia Ferrari » (1956)
     "Larrousse": [(0, 9999, "larrousse")], "Leyton House": [(0, 9999, "leyton-house")],
     "Ligier": [(0, 9999, "ligier")],
     "Lola": [(1962, 1986, "lola"), (1987, 1991, "lola-larrousse")],
@@ -87,6 +89,9 @@ MOTEURS = {
     "Bristol": "bristol", "Alta": "alta", "OSCA": "osca", "JAP": "jap", "Lea-Francis": "lea-francis",
     "Borgward": "borgward", "Novi": "novi", "Cummins": "cummins",
 }
+# Erreurs d'équipe de formula1.com, corrigées à la source : (saison, GP, rôle) -> nom d'équipe juste.
+# Argentine 1955 : González part en pole sur Ferrari 625 (formula1.com écrit « Lancia »).
+CORRECTIONS = {(1955, "Argentina", "pole"): "Ferrari"}
 # Suffixes qui ne sont pas un moteur (commanditaire) : moteur pris dans la fiche.
 COMMANDITAIRES = {"Sahara"}
 # Gagnants sans fiche : motoriste connu par le nom seul.
@@ -146,9 +151,23 @@ def lignes(texte):
         out.append([" ".join(html.unescape(re.sub("<[^>]+>", " ", c)).split()) for c in cellules])
     return out[1:]
 
+# Noms que formula1.com écrit sans leurs accents, rétablis d'après Jolpica (même nom, accents mis à part).
+ACCENTS = {
+    "Andre Pilette": "André Pilette", "Antonio Pizzonia": "Antônio Pizzonia", "Elie Bayol": "Élie Bayol",
+    "Eric Bernard": "Éric Bernard", "Erik Comas": "Érik Comas", "Esteban Gutierrez": "Esteban Gutiérrez",
+    "Eugene Chaboud": "Eugène Chaboud", "Francois Cevert": "François Cevert", "Jean-Eric Vergne": "Jean-Éric Vergne",
+    "Jose Froilan Gonzalez": "José Froilán González", "Jyrki Jarvilehto": "Jyrki Järvilehto",
+    "Luis Perez-Sala": "Luis Pérez-Sala", "Marc Gene": "Marc Gené", "Mauricio Gugelmin": "Maurício Gugelmin",
+    "Mika Hakkinen": "Mika Häkkinen", "Nico Hulkenberg": "Nico Hülkenberg", "Nyck De Vries": "Nyck de Vries",
+    "Onofre Marimon": "Onofre Marimón", "Paul Frere": "Paul Frère", "Pedro Rodriguez": "Pedro Rodríguez",
+    "Philippe Etancelin": "Philippe Étancelin", "Rene Arnoux": "René Arnoux", "Ricardo Rodriguez": "Ricardo Rodríguez",
+    "Sebastien Bourdais": "Sébastien Bourdais", "Sebastien Buemi": "Sébastien Buemi", "Sergio Perez": "Sergio Pérez",
+}
+
 def pilote(nom):
     # Code à trois lettres accolé au nom, apostrophe comprise (« Pat O'Connor O'C »).
-    return re.sub(r"\s+[A-Z][A-Z']{2}$", "", nom)
+    nom = re.sub(r"\s+[A-Z][A-Z']{2}$", "", nom)
+    return ACCENTS.get(nom, nom)
 
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
 MOT = {m["id"] for m in E["motoristes"]}
@@ -227,6 +246,8 @@ def main():
             grille = classe(cache, course["url"], "starting-grid", annee)
             if grille and 1 in grille:
                 course["pole"] = place(grille[1])
+                if (annee, course["gp"], "pole") in CORRECTIONS:
+                    course["pole"] = place((grille[1][0], equipe(CORRECTIONS[annee, course["gp"], "pole"], annee)))
             gp.append(course)
         s = {"annee": annee, "gp": len(gp), "courses": gp}
         if annee >= 1958:
@@ -240,7 +261,8 @@ def main():
             s["constructeurs"] = cons
         pil = []
         for l in lignes(telecharger(cache, annee, "drivers")):
-            if float(l[4]) > 0:
+            # Pilote exclu du championnat (Schumacher 1997 : « DSQ ») : hors classement.
+            if l[0].isdigit() and float(l[4]) > 0:
                 p = {"pilote": pilote(l[1]), "points": float(l[4])}
                 ec = equipe(l[3], annee, strict=False)[0] if l[3] else None
                 if ec: p["ecurie"] = ec

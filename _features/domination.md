@@ -23,7 +23,7 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign AM = H.amont -%}
 The [ranking]({{ site.baseurl }}/en/features/methode/) of engineers refuses to measure influence by results. This feature asks the opposite question: **do the innovations on the [timeline]({{ site.baseurl }}/en/timeline/) show up in the results?** To answer it, we first need to know when a team, a driver or an engine maker truly dominated, and to what degree: one season, a few seasons, or a whole era. These periods of dominance are then set against three things: technical milestones, engineers' arrivals and departures, and regulation changes.
 
-The figures come from Formula 1's official results: the winner of each of the {{ P.gp }} championship Grands Prix held from 1950 to 2025, and the final drivers' and constructors' standings. A win shared between two drivers (France 1951, Argentina 1956, Britain 1957) counts as a single race, credited to both. The figures are computed by a program, not copied by hand. The champions derived from them match, season by season, those on the [team pages]({{ site.baseurl }}/en/teams/).
+The figures come from Formula 1's official results: the winner of each of the {% include nombre.html n=P.gp %} championship Grands Prix held from 1950 to 2025, and the final drivers' and constructors' standings. A win shared between two drivers (France 1951, Argentina 1956, Britain 1957) counts as a single race, credited to both. The figures are computed by a program, not copied by hand. The champions derived from them match, season by season, those on the [team pages]({{ site.baseurl }}/en/teams/).
 
 ## The essentials
 
@@ -33,7 +33,7 @@ The figures come from Formula 1's official results: the winner of each of the {{
 - **The innovations that open a long dominance almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
 - **Banning an innovation does not topple the dominant team.**
 - **The arrival of a Tier A engineer precedes a rise {{ IA[1].hausse }} times out of {{ IA[1].n }}**, where a comparable team would see only {{ IA[1].hausse_attendue }}. A departure changes nothing.
-- **New regulations shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. The result is clear, but it depends on the list of regulations retained. Yet such changes do not create a long dominance more often.
+- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. The gap points the expected way, but it does not reach the 5% threshold and depends on the list of regulations retained. Yet such changes do not create a long dominance more often.
 
 Contents
 {:.sommaire-titre}
@@ -151,7 +151,7 @@ This gauge measures presence, not contribution: an engineer can be there when th
 
 ## Cars
 
-A team wins with a specific car, and sometimes changes it during the season. We recorded the winning model of each of the {{ P.gp }} Grands Prix, race by race ({{ CHC.size }} team-seasons, each sourced): {{ CHS.modeles }} different models have won at least once.
+A team wins with a specific car, and sometimes changes it during the season. We recorded the winning model of each of the {% include nombre.html n=P.gp %} Grands Prix, race by race ({{ CHC.size }} team-seasons, each sourced): {{ CHS.modeles }} different models have won at least once.
 
 <figure class="figure">
 {% include domination/chassis-en.svg %}
@@ -170,7 +170,7 @@ How many wins a car takes, and how long it stays a winner, decade by decade: thi
 
 ## Tyres
 
-The tyre manufacturer is a competitor of its own: it supplies several teams, like an engine maker. We recorded the supplier of every team that won a Grand Prix or took a pole, season by season ({{ PNC.size }} team-seasons, each sourced). A season is dominant for the manufacturer that supplies the champion team, or that wins at least {{ P.seuil | times: 100 | round }}% of the races. Single-supplier seasons are out of contention: Goodyear alone in practice in 1987-1988 and from 1992 to 1996, then Bridgestone in 1999-2000 and from 2007 to 2010, Pirelli since 2011.
+The tyre manufacturer is a competitor of its own: it supplies several teams, like an engine maker. We recorded the supplier of every team that won a Grand Prix or took a pole, season by season ({{ PNC.size }} team-seasons, each sourced). A season is dominant for the manufacturer that supplies the champion team, or that wins at least {{ P.seuil | times: 100 | round }}% of the races. Single-supplier seasons are out of contention: Dunlop alone in practice from 1961 to 1963, Goodyear in 1975-1976, in 1987-1988 and from 1992 to 1996, then Bridgestone in 1999-2000 and from 2007 to 2010, Pirelli since 2011.
 
 <figure class="figure">
 {% include domination/pneus-en.svg %}
@@ -179,8 +179,8 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 
 {% include domination.html quoi="pneus" %}
 
-- **Dunlop, from 1958 to 1965, achieves the most complete dominance**: eight titles in eight seasons, 92% of wins. It accompanies the rear-engine revolution, from Cooper to Lotus.
-- **Goodyear dominates the longest**, from 1971 to 1986, with twelve titles, before being left alone on track.
+- **Dunlop supplies every champion from 1958 to 1965**, accompanying the rear-engine revolution, from Cooper to Lotus. But it is alone on track from 1961 to 1963: those three out-of-contention seasons split the run into a hegemony from 1958 to 1960 (three titles, 81% of wins) and a period of dominance in 1964-1965 (two titles, 95%).
+- **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons alone on track (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track.
 - **Tyre wars usually pick a winning side** rather than a balance: Michelin from 1979 to 1984, against Goodyear, then Bridgestone from 2001 to 2006, against Michelin, with Ferrari's titles. Only the Firestone-Goodyear contest, from 1966 to 1972, stays shared, in short periods of dominance.
 - **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
 
@@ -215,7 +215,7 @@ The 1950s rank high, but with few races: in 1952 Ferrari wins seven of the eight
 
 ## By regulation cycle
 
-Dominance can also be read at the scale of the major regulation cycles, the resets of the technical rules that come every five to fifteen years. The [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/) examines them one by one: who dominates each cycle, how fast the order settles, and whether a cycle's leader survives into the next.
+Dominance can also be read at the scale of the major regulation cycles, the resets of the technical rules which come every two to seventeen seasons. The [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/) examines them one by one: who dominates each cycle, how fast the order settles, and whether a cycle's leader survives into the next.
 
 <figure class="figure">
 {% include domination/cycles-cadrans-en.svg %}
@@ -279,7 +279,7 @@ Finally, the vocabulary is that of the [feature on causality]({{ site.baseurl }}
 
 ### 1. What an innovation brings, and for how long
 
-We take the {{ EJ.n }} milestones attached to the team behind them. For each one, we follow the team's share of wins from three seasons before the milestone to five seasons after.
+We take the milestones attached to the team behind them, giving {{ EJ.n }} cases (one team, one season). For each one, we follow the team's share of wins from three seasons before the milestone to five seasons after.
 
 <figure class="figure">
 {% include domination/etude-jalons-en.svg %}
@@ -290,10 +290,10 @@ Three seasons before the milestone, nothing sets the team apart from its usual l
 
 - **In the milestone season, the team's share of wins jumps**, then peaks the following season.
 - **The average difference between the two windows is +{{ EJ.gain | times: 100 | round }} points**, compared with {{ EJ.gain_temoin | times: 100 | round | replace: "-", "−" }} for the control.
-- **The rise concerns about half the cases**: {{ EJ.hausses }} milestones out of {{ EJ.n }} are followed by a gain of more than 5 points. Two milestones of the same team in the same year (Benetton in 1993, McLaren in 2009) count only once.
+- **The rise concerns about half the cases**: {{ EJ.hausses }} cases out of {{ EJ.n }} are followed by a gain of more than 5 points. Two milestones of the same team in the same year (Benetton in 1993, McLaren in 2009) count only once.
 - **The lead then fades**: four seasons after the milestone, the team is back to its previous level. An innovation gives a lead of two to three seasons. The data do not say why it fades: copying by rivals, a ban under the regulations (part 2), or simply the passage of time.
 
-**Not all technical tracks of the timeline pay off equally.** **Architecture** milestones (the Coopers' rear engine, the Lotus 25 monocoque, the MP4/1's carbon, the MP4/4) pay off best: five out of six are followed by a rise. **Aerodynamics** provides the most milestones, but each one pays off less, perhaps because its ideas are copied faster. The numbers are too small to go further.
+**Not all technical tracks of the timeline pay off equally.** **Architecture** milestones (the Coopers' rear engine, the Lotus 25 monocoque, the MP4/1's carbon, the MP4/4) pay off best: all five are followed by a rise. **Aerodynamics** provides the most milestones, but each one pays off less, perhaps because its ideas are copied faster. The numbers are too small to go further.
 
 {% include domination.html quoi="voies" %}
 
@@ -309,12 +309,12 @@ The control expects {{ TJ.attendu }}. Chance alone would produce at least as man
 
 The counter-examples are instructive:
 
-- **Innovation with no sequel.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 27% of wins, with no long dominance following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, but for only two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) brings McLaren only 13% of wins from 1981 to 1983: the 1984 and 1985 titles come with the [MP4/2]({{ site.baseurl }}/en/timeline/#j-mp4-2) and its TAG-Porsche engine.
+- **Innovation with no sequel.** The [Lotus 78]({{ site.baseurl }}/en/timeline/#j-lotus-78) takes Lotus from 3% to 26% of wins, with no long dominance following. The [1993 Benetton]({{ site.baseurl }}/en/timeline/#j-cfd-benetton) takes its team from 6% to 40%, but for only two seasons of domination. The [double diffuser]({{ site.baseurl }}/en/timeline/#j-double-diffuseur) brings Brawn a title, then the team changes name. The carbon [MP4/1]({{ site.baseurl }}/en/timeline/#j-mp4-1) brings McLaren only 13% of wins from 1981 to 1983: the 1984 and 1985 titles come with the [MP4/2]({{ site.baseurl }}/en/timeline/#j-mp4-2) and its TAG-Porsche engine.
 - **Innovation that extends a dominance.** The [Lotus 72]({{ site.baseurl }}/en/timeline/#j-lotus-72), the [FW14B]({{ site.baseurl }}/en/timeline/#j-fw14b) and the [RB18]({{ site.baseurl }}/en/timeline/#j-rb18) arrive when their team is already dominating.
 - **Dominance without a milestone.** No milestone accompanies Ferrari in 1999-2008, nor McLaren in 1998-2000. The milestones on the timeline do not explain them.
 
 <details>
-<summary>The {{ EJ.n }} milestones one by one</summary>
+<summary>The milestones one by one</summary>
 {% include domination.html quoi="jalons" %}
 </details>
 
@@ -340,7 +340,7 @@ New regulations reset everyone to zero. Whoever answers them best starts with a 
 
 **Banning an innovation does not topple the dominant team.** When the regulations close the door on an innovation, the effect on the team that had it varies: the team sometimes falls back, but rises just as often. Twice, the ban hits a team at the top, and the team stays there:
 
-- **Williams in 1994**, with the [ban on electronic aids]({{ site.baseurl }}/en/timeline/#c-fin-aides-electroniques): it goes from 62% to 49% of wins, but its hegemony lasts until 1997.
+- **Williams in 1994**, with the [ban on electronic aids]({{ site.baseurl }}/en/timeline/#c-fin-aides-electroniques): it goes from 63% to 49% of wins, but its hegemony lasts until 1997.
 - **Red Bull in 2012**, with the [restrictions on exhausts]({{ site.baseurl }}/en/timeline/#c-echappements-2012): it goes from 55% to 40%, but still dominates until 2013.
 
 What makes a domination last does not, then, come down to a single part of the car.
@@ -358,9 +358,9 @@ For each arrival, the team's share of wins is compared over the two seasons befo
 
 **After an arrival, the team improves markedly more often than expected**: {{ IA[0].hausse }} cases out of {{ IA[0].n }}, where the matched control expects {{ IA[0].hausse_attendue }}. Chance alone would produce such a gap with a probability below 0.1%.
 
-**The gap is largest for Tier A**: {{ IA[1].hausse }} rises out of {{ IA[1].n }} arrivals, for {{ IA[1].hausse_attendue }} expected, and an average gain of +{{ IA[1].gain | times: 100 | round }} points; chance alone would produce such a gap with a probability of {{ IA[1].p | times: 100 | round }}%. These are the arrivals of [Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/) and [John Barnard]({{ site.baseurl }}/en/engineers/john-barnard/). Rises follow Newey at Williams (1990) and McLaren (1997), and Barnard at McLaren (1972 and 1980) and Ferrari (1987). The others are not followed by one: Newey at Fittipaldi (1980), March (1988) and Red Bull (2006), where the first win waits until 2009, and Barnard on his return to Ferrari (1992). Nine cases is few: the gap is clear, but it rests on two men.
+**The gap is largest for Tier A**: {{ IA[1].hausse }} rises out of {{ IA[1].n }} arrivals, for {{ IA[1].hausse_attendue }} expected, and an average gain of +{{ IA[1].gain | times: 100 | round }} points; chance alone would produce such a gap with a probability of {{ IA[1].p | times: 100 | round: 1 }}%. These are the arrivals of [Adrian Newey]({{ site.baseurl }}/en/engineers/adrian-newey/) and [John Barnard]({{ site.baseurl }}/en/engineers/john-barnard/). Rises follow Newey at Williams (1990) and McLaren (1997), and Barnard at McLaren (1972 and 1980), Ferrari (1987) and Benetton (1989). The others are not followed by one: Newey at Fittipaldi (1980), March (1988) and Red Bull (2006), where the first win waits until 2009, and Barnard on his return to Ferrari (1992). Ten cases is few: the gap is clear, but it rests on two men.
 
-For Tiers B to D the gap is smaller: chance alone would produce it with a probability of {{ IA[2].p | times: 100 | round }}%. For unranked engineers the gap is smaller still, but it remains clear over {{ IA[3].n }} cases.
+For Tiers B to D the gap is small: {{ IA[2].hausse }} rises for {{ IA[2].hausse_attendue }} expected, which chance alone would produce with a probability of {{ IA[2].p | times: 100 | round }}%. For unranked engineers the average gain is more modest than for Tier A, but the gap remains clear over {{ IA[3].n }} cases: {{ IA[3].hausse }} rises for {{ IA[3].hausse_attendue }} expected.
 
 **A departure changes nothing**: {{ IA[4].hausse }} rises for {{ IA[4].hausse_attendue }} expected. A team keeps its momentum for a few seasons after an engineer leaves.
 
@@ -375,20 +375,20 @@ This does not prove that the engineer makes the team win. The control neutralise
 - [Paddy Lowe]({{ site.baseurl }}/en/engineers/paddy-lowe/): Williams 1991, McLaren 1998 and Mercedes 2014;
 - [Geoff Willis]({{ site.baseurl }}/en/engineers/geoff-willis/): Williams 1991, Red Bull 2010 and Mercedes 2014. For Red Bull, the three-season rule counts him, but he left the team in 2009, before the 2010 season.
 
-[Ross Brawn]({{ site.baseurl }}/en/engineers/ross-brawn/) and [John Barnard]({{ site.baseurl }}/en/engineers/john-barnard/) are present at the start of two: Ferrari 1999 and Mercedes 2014 for Brawn, McLaren 1988 and Ferrari 1999 for Barnard, each having left shortly before.
+[Ross Brawn]({{ site.baseurl }}/en/engineers/ross-brawn/) and [John Barnard]({{ site.baseurl }}/en/engineers/john-barnard/) are present at the start of two: Ferrari 1999 and Mercedes 2014 for Brawn, McLaren 1988 and Ferrari 1999 for Barnard, each having left shortly before. So are [David North]({{ site.baseurl }}/en/engineers/david-north/) and [Matthew Jeffreys]({{ site.baseurl }}/en/engineers/matthew-jeffreys/), both at McLaren, in 1988 and 1998.
 
 <details>
 <summary>The summary and the moves one by one</summary>
 {% include domination.html quoi="ingenieurs" %}
 </details>
 
-### 4. Regulations: reshuffling the pack without creating a dynasty {#regulations}
+### 4. Do regulations reshuffle the pack? {#regulations}
 
-From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a regulation change on the timeline comes into force, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. Chance alone would produce such a gap with a probability of {{ RB.p | times: 100 | round }}%, below the usual 5% threshold. **New regulations do shake up the order.** The result remains fragile: it depends on the list of regulations retained. Before the championship run to Formula Two rules (1952) and the 1.5-litre formula (1961) were added to the timeline, with the [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/), the probability was 8%.
+From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a regulation change on the timeline comes into force, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. Chance alone would produce such a gap with a probability of {{ RB.p | times: 100 | round }}%, above the usual 5% threshold. **The gap points the expected way, but it is not enough to show that new regulations shake up the order**: it is a clue, not a proof. It also depends on the list of regulations retained: without the championship run to Formula Two rules (1952) and the 1.5-litre formula (1961), added to the timeline with the [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/), the probability would be 16%.
 
-Yet they do not create dynasties more often. {{ TR.debuts_regle }} starts of long dominance out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, coincide with a regulation change. Here, "coincide" means that the regulation applies in the same season or the one before; with that window, {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is roughly the same.
+Nor do new regulations create dynasties more often. {{ TR.debuts_regle }} starts of long dominance out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, coincide with a regulation change. Here, "coincide" means that the regulation applies in the same season or the one before; with that window, {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is roughly the same.
 
-The regulations redeal the cards. Someone still has to know how to play the new hand, and this is where parts 1 to 3 meet. The clearest coincidences:
+The regulations can redeal the cards. Someone still has to know how to play the new hand, and this is where parts 1 to 3 meet. The clearest coincidences:
 
 - the [mandatory hybrid power unit]({{ site.baseurl }}/en/timeline/#c-groupe-propulseur-2014) of 2014 shortly precedes the hegemonies of Mercedes and of Hamilton;
 - the [2009 aerodynamic overhaul]({{ site.baseurl }}/en/timeline/#c-refonte-aero-2009) precedes Red Bull's;
@@ -413,7 +413,7 @@ Mercedes in 2014 and Red Bull in 2010 follow this pattern almost step by step. F
 - **The milestones are a selection.** The timeline keeps the innovations that changed how cars are designed, not those that won races. A dominance without a milestone may hide an innovation the timeline does not include.
 - **Milestones are attached to teams according to the team pages.** Four milestones are attached to no team, and are therefore not counted: the [Cooper 500 prototype]({{ site.baseurl }}/en/timeline/#j-cooper-500), the [FVA]({{ site.baseurl }}/en/timeline/#j-dfv-fva), [pneumatic valve springs]({{ site.baseurl }}/en/timeline/#j-rappel-pneumatique) and the [Renault V10]({{ site.baseurl }}/en/timeline/#j-v10-renault).
 - **Engineers' dates are sometimes incomplete.** Those of the engineers named in this feature have been checked against their pages; others remain approximate. A missing departure date makes a presence uncertain, and the table says so.
-- **The Indianapolis 500 (1950-1960) counted for the championship.** It is therefore included here, won by American constructors: [Kurtis Kraft]({{ site.baseurl }}/en/teams/kurtis-kraft/) has a page, Kuzma, Watson and Epperly do not.
+- **The Indianapolis 500 (1950-1960) counted for the championship.** It is therefore included here, won by American constructors: [Kurtis Kraft]({{ site.baseurl }}/en/teams/kurtis-kraft/) has a page; Kuzma, Watson and Salih do not.
 - **The thresholds remain choices.** The "Degree" column shows which long periods of dominance withstand them: these are the hegemonies.
 
 ## Sources
@@ -427,4 +427,4 @@ Results consulted on 29 October 2026 on formula1.com, for each season from 1950 
 
 The link to each race is kept in the site's data.
 
-These results were compared race by race with a second source, the open [Jolpica]({{ CR.source }}) database (successor to Ergast). Winners agree for {{ CR.bilan.vainqueur.concordants }} races out of {{ P.gp }}, poles for {{ CR.bilan.pole.concordants }}, second places for {{ CR.bilan.deuxieme.concordants }} and third places for {{ CR.bilan.troisieme.concordants }}. The only disagreement concerns the 1983 Brazilian Grand Prix: formula1.com leaves vacant the second place of the disqualified Keke Rosberg and ranks Niki Lauda third; Jolpica moves everyone up one place and ranks Jacques Laffite third. This feature follows formula1.com. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.
+These results were compared race by race with a second source, the open [Jolpica]({{ CR.source }}) database (successor to Ergast). Winners agree for {% include nombre.html n=CR.bilan.vainqueur.concordants %} races out of {% include nombre.html n=P.gp %}, poles for {% include nombre.html n=CR.bilan.pole.concordants %}, second places for {% include nombre.html n=CR.bilan.deuxieme.concordants %} and third places for {% include nombre.html n=CR.bilan.troisieme.concordants %}. The only disagreement concerns the 1983 Brazilian Grand Prix: formula1.com leaves vacant the second place of the disqualified Keke Rosberg and ranks Niki Lauda third; Jolpica moves everyone up one place and ranks Jacques Laffite third. This feature follows formula1.com. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.

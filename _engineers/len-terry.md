@@ -24,9 +24,9 @@ Len Terry was a British designer, associated above all with Lotus and Eagle{% in
 ## Technical career
 
 - **Lotus, first spell.** The chassis of his Terrier Mk1, built for himself, impressed [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}); Terry joined Lotus in 1958 as a draughtsman and became chief draughtsman within two months{% include src.html n="1" %}. There he turned Chapman's ideas into reality, notably on the Lotus 15 and 17{% include src.html n="2" %}.
-- **Gilby.** Fired by Chapman, partly, according to Autosport, because of his Terrier Mk2, which dominated the Lotuses in the 1172cc category, he designed his first F1 car for the small Gilby team, raced in 1961 and 1962{% include src.html n="1,2" %}.
+- **Gilby.** Fired by Chapman, partly, according to Autosport, because of his Terrier Mk2, which dominated the Lotuses in the 1,172 cc category, he designed his first F1 car for the small Gilby team, raced in 1961 and 1962{% include src.html n="1,2" %}.
 - **Lotus, second spell (1962-1965).** Back in September 1962, he worked on the Lotus 29 for Indianapolis, then, under Chapman's direction, on the 33, derived from the 25{% include src.html n="1,2" %}; it was with the 33 that Clark was world champion in 1965{% include src.html n="3" %}.
-- **Eagle.** For All American Racers, he designed the Eagle, intended for both F1 and Indycar{% include src.html n="2,3" %}. With the Eagle-Weslake, Gurney won the 1967 Belgian Grand Prix at Spa{% include src.html n="1,2,3" %}; Motor Sport, Autosport and Classic Team Lotus count it among the most beautiful F1 cars ever{% include src.html n="1,2,3" %}.
+- **Eagle.** For All American Racers, he designed the Eagle, intended for both F1 and IndyCar{% include src.html n="2,3" %}. With the Eagle-Weslake, Gurney won the 1967 Belgian Grand Prix at Spa{% include src.html n="1,2,3" %}; Motor Sport, Autosport and Classic Team Lotus count it among the most beautiful F1 cars ever{% include src.html n="1,2,3" %}.
 - **BRM.** He rapidly drew the BRM P126, then, in 1977, the P207, the team's last F1 car, which was not very competitive{% include src.html n="1,2" %}.
 - **Outside F1.** He was also responsible for a Can-Am chassis for Shelby, John Wyer's Mirage-BRM, the Surtees F5000 car and the BMW 269 F2 car{% include src.html n="1,2" %}.
 

@@ -1,0 +1,51 @@
+{%- comment -%}
+  Bibliographie, commune aux deux langues. Données : _data/bibliographie.yml et _data/en/bibliographie.yml,
+  générées par outils/bibliographie.py (ne pas éditer à la main) ; croisement : _data/croisement.yml.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- if lang == "en" -%}{%- assign B = site.data.en.bibliographie -%}{%- else -%}{%- assign B = site.data.bibliographie -%}{%- endif -%}
+{%- assign X = site.data.croisement -%}
+{%- assign nb_saisons = site.data.resultats.saisons.size -%}
+{%- assign nb_courses = 0 -%}{%- for s in site.data.resultats.saisons -%}{%- assign nb_courses = nb_courses | plus: s.courses.size -%}{%- endfor -%}
+<section class="page-tete">
+  <h1>{{ T.biblio.titre }}</h1>
+  <p class="accroche">{{ T.biblio.accroche }}</p>
+</section>
+
+{%- capture n_sources -%}{% include nombre.html n=B.total %}{%- endcapture -%}
+{%- capture n_citations -%}{% include nombre.html n=B.citations %}{%- endcapture -%}
+{%- capture n_courses -%}{% include nombre.html n=nb_courses %}{%- endcapture -%}
+{%- capture n_concordants -%}{% include nombre.html n=X.bilan.vainqueur.concordants %}{%- endcapture -%}
+<p class="biblio-bilan">{{ T.biblio.bilan | replace: "%sources%", n_sources | replace: "%editeurs%", B.editeurs_total | replace: "%citations%", n_citations }}</p>
+
+<section class="biblio-donnees" aria-labelledby="biblio-donnees">
+  <h2 id="biblio-donnees">{{ T.biblio.donnees_titre }}</h2>
+  <ul>
+    <li>{{ T.biblio.resultats | replace: "%saisons%", nb_saisons | replace: "%courses%", n_courses }} <a href="https://www.formula1.com/en/results/2025/races">formula1.com</a>.</li>
+    <li>{{ T.biblio.croisement | replace: "%concordants%", n_concordants | replace: "%desaccords%", X.desaccords.size }} <a href="{{ X.source }}">Jolpica</a>.</li>
+    <li>{{ T.ecuries.carte_sources }}</li>
+  </ul>
+</section>
+
+<nav class="biblio-sommaire" aria-label="{{ T.biblio.sommaire }}">
+  <h2>{{ T.biblio.sommaire }}</h2>
+  <ul>
+    {%- for e in B.editeurs %}
+    <li><a href="#ed-{{ forloop.index }}">{{ e.nom }}</a> ({{ e.n }})</li>
+    {%- endfor %}
+  </ul>
+</nav>
+
+{%- for e in B.editeurs %}
+<section class="references biblio-editeur" id="ed-{{ forloop.index }}" aria-labelledby="ed-{{ forloop.index }}-titre">
+  <h2 id="ed-{{ forloop.index }}-titre">{{ e.nom }} <span class="biblio-n">({{ e.n }})</span></h2>
+  <ol>
+    {%- for s in e.sources %}
+    <li><a href="{{ s.url }}">{{ s.titre }}</a>{% if e.autres %} <span class="biblio-cite">({{ s.url | split: "/" | slice: 2 | first | remove_first: "www." }})</span>{% endif %}<br>
+      <span class="biblio-cite">{{ T.biblio.cite_par }} {% for p in s.pages %}<a href="{{ p.url | relative_url }}">{{ p.titre }}</a>{% unless forloop.last %}{% if lang == "en" %}; {% else %} ; {% endif %}{% endunless %}{% endfor %}</span></li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}
+<p class="jalons-note">{{ T.biblio.note }}</p>

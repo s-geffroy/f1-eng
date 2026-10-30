@@ -31,7 +31,7 @@ image: "/assets/partage/voitures/brabham-bt52.jpg"
 
 En novembre 1982, la fédération impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat) dès le début de 1983{% include src.html n="1" %}. La BT51 à effet de sol de Brabham, presque terminée, est abandonnée{% include src.html n="1,2" %}. En six semaines seulement (trois mois selon Murray lui-même), une voiture entièrement nouvelle est conçue et construite : la BT52{% include src.html n="1,3" %}.
 
-Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un couple énorme en fin de saison, et la voiture sera limitée par sa motricité{% include src.html n="2" %}. Il supprime donc les flancs classiques et recule le centre de gravité de 7 %, « énorme », dit-il : à l'époque des jupes, un grand changement aurait été de 1 %{% include src.html n="2" %}. Il n'a pas le temps de passer en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) : tout est fait « par la théorie, l'expérience et l'instinct »{% include src.html n="2" %}.
+Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un couple énorme en fin de saison, et la voiture sera limitée par sa motricité{% include src.html n="2" %}. Il supprime donc les [flancs]({{ site.baseurl }}/glossaire/#pontons) classiques et recule le centre de gravité de 7 %, « énorme », dit-il : à l'époque des jupes, un grand changement aurait été de 1 %{% include src.html n="2" %}. Il n'a pas le temps de passer en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) : tout est fait « par la théorie, l'expérience et l'instinct »{% include src.html n="2" %}.
 
 Trois autres choix comptent :
 

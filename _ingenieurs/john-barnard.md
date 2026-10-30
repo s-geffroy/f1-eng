@@ -68,7 +68,7 @@ Pour la MP4/2, Barnard impose à Porsche les dimensions du [V6]({{ site.baseurl 
 
 Installé dans un bureau d'études en Angleterre, le Guildford Technical Office, Barnard introduit sur la Ferrari 640 la **[boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) commandée au volant**, d'abord prévue pour la 639 qui n'a jamais couru{% include src.html n="3,5,6" %} :
 
-- levier en H remplacé, solution que McLaren adopte à son tour plus tard dans la saison 1990{% include src.html n="9" %} ;
+- levier en H remplacé, solution que McLaren n'adopte en course qu'en 1992, sur la MP4/7A (formula1.com écrit à tort « plus tard dans la saison 1990 »){% include src.html n="9" %} ;
 - moins d'erreurs de changement de rapport{% include src.html n="3,7" %} ;
 - mains maintenues sur le volant{% include src.html n="5,7" %} ;
 - cockpit plus compact{% include src.html n="7,9" %} ;
@@ -81,6 +81,7 @@ La même voiture adopte une suspension avant à courtes barres de torsion, qui l
 - Diplômé du Watford College of Technology, il entre chez Lola, où il dessine la T250 de Formule Super Vee{% include src.html n="3,8" %}.
 - Chez McLaren à partir de 1972, il travaille avec Gordon Coppuck sur l'IndyCar M16 et sur la M23 championne du monde{% include src.html n="8" %}.
 - Chez Vel's Parnelli Jones, il conçoit la VPJ-6, première IndyCar à moteur Cosworth DFX{% include src.html n="3" %}. Il dessine ensuite la Chaparral 2K, première IndyCar à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) intégral, avec laquelle Johnny Rutherford gagne les 500 Miles d'Indianapolis 1980{% include src.html n="3,8" %}.
+- Recruté ensuite par Benetton, il y crée le Benetton Advanced Research Group à Godalming et dessine la B191, base de la B194 championne du monde en 1994, avant de quitter l'équipe sur un désaccord financier{% include src.html n="8" %}.
 - De retour chez Ferrari dans les années 1990, il dessine la F310, avec laquelle Michael Schumacher gagne trois courses en 1996{% include src.html n="2,3" %}. Il rachète ensuite le bureau d'études anglais de Ferrari, qui devient B3 Technologies{% include src.html n="3,8" %}.
 - L'Arrows A19 est la dernière F1 entièrement créditée à Barnard{% include src.html n="3" %}.
 

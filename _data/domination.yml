@@ -58,14 +58,14 @@ dominations:
     titres: 2
     victoires: 10
     gp: 15
-    part: 0.667
-    part_max: 0.857
+    part: 0.666667
+    part_max: 0.857143
     longue: false
     robuste: false
     degre: domination
-    poles: 0.667
-    podiums: 0.467
-    doubles: 0.267
+    poles: 0.666667
+    podiums: 0.466667
+    doubles: 0.266667
     indice: 0.6
     associes:
     - alfa-romeo
@@ -83,15 +83,15 @@ dominations:
     titres: 2
     victoires: 14
     gp: 17
-    part: 0.824
+    part: 0.823529
     part_max: 0.875
     longue: false
     robuste: false
     degre: domination
-    poles: 0.765
-    podiums: 0.647
-    doubles: 0.588
-    indice: 0.745
+    poles: 0.764706
+    podiums: 0.647059
+    doubles: 0.588235
+    indice: 0.745098
     associes:
     - ferrari
     regles_debut:
@@ -108,15 +108,15 @@ dominations:
     titres: 2
     victoires: 9
     gp: 16
-    part: 0.562
-    part_max: 0.714
+    part: 0.5625
+    part_max: 0.714286
     longue: false
     robuste: false
     degre: domination
     poles: 0.5
-    podiums: 0.354
-    doubles: 0.312
-    indice: 0.472
+    podiums: 0.354167
+    doubles: 0.3125
+    indice: 0.472222
     associes:
     - mercedes
     regles_debut:
@@ -133,17 +133,17 @@ dominations:
     titres: 2
     victoires: 11
     gp: 19
-    part: 0.579
+    part: 0.578947
     part_max: 0.6
     longue: false
     robuste: false
     degre: domination
-    poles: 0.421
-    podiums: 0.474
-    doubles: 0.263
-    ecart: 0.124
-    indice: 0.491
-    points: 0.432
+    poles: 0.421053
+    podiums: 0.473684
+    doubles: 0.263158
+    ecart: 0.124072
+    indice: 0.491228
+    points: 0.431838
     associes:
     - climax
     regles_debut:
@@ -161,17 +161,17 @@ dominations:
     titres: 2
     victoires: 16
     gp: 30
-    part: 0.533
+    part: 0.533333
     part_max: 0.7
     longue: false
     robuste: false
     degre: domination
     poles: 0.6
-    podiums: 0.233
+    podiums: 0.233333
     doubles: 0.0
-    ecart: 0.051
-    indice: 0.455
-    points: 0.279
+    ecart: 0.050774
+    indice: 0.455555
+    points: 0.278594
     associes:
     - climax
     regles_debut: []
@@ -189,16 +189,16 @@ dominations:
     victoires: 8
     gp: 20
     part: 0.4
-    part_max: 0.444
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
     poles: 0.25
-    podiums: 0.383
+    podiums: 0.383333
     doubles: 0.2
-    ecart: 0.075
-    indice: 0.344
-    points: 0.286
+    ecart: 0.074923
+    indice: 0.344444
+    points: 0.285637
     associes:
     - repco
     regles_debut:
@@ -215,17 +215,17 @@ dominations:
     titres: 4
     victoires: 25
     gp: 74
-    part: 0.338
-    part_max: 0.467
+    part: 0.337838
+    part_max: 0.466667
     longue: true
     robuste: false
     degre: domination
-    poles: 0.338
-    podiums: 0.221
-    doubles: 0.027
-    ecart: -0.031
-    indice: 0.299
-    points: 0.215
+    poles: 0.337838
+    podiums: 0.220721
+    doubles: 0.027027
+    ecart: -0.031133
+    indice: 0.298799
+    points: 0.21503
     associes:
     - ford
     regles_debut: []
@@ -248,17 +248,17 @@ dominations:
     titres: 4
     victoires: 27
     gp: 78
-    part: 0.346
-    part_max: 0.429
+    part: 0.346154
+    part_max: 0.428571
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.244
-    podiums: 0.265
-    doubles: 0.064
-    ecart: 0.039
-    indice: 0.285
-    points: 0.242
+    poles: 0.24359
+    podiums: 0.264957
+    doubles: 0.064103
+    ecart: 0.039012
+    indice: 0.2849
+    points: 0.241582
     associes:
     - ferrari
     regles_debut: []
@@ -280,17 +280,17 @@ dominations:
     titres: 2
     victoires: 10
     gp: 29
-    part: 0.345
-    part_max: 0.429
+    part: 0.344828
+    part_max: 0.428571
     longue: false
     robuste: false
     degre: domination
-    poles: 0.172
-    podiums: 0.356
-    doubles: 0.138
-    ecart: 0.122
-    indice: 0.291
-    points: 0.298
+    poles: 0.172414
+    podiums: 0.356322
+    doubles: 0.137931
+    ecart: 0.122476
+    indice: 0.291188
+    points: 0.298095
     associes:
     - ford
     regles_debut: []
@@ -307,17 +307,17 @@ dominations:
     titres: 2
     victoires: 7
     gp: 31
-    part: 0.226
-    part_max: 0.267
+    part: 0.225806
+    part_max: 0.266667
     longue: false
     robuste: false
     degre: domination
-    poles: 0.355
-    podiums: 0.256
-    doubles: 0.067
-    ecart: 0.02
-    indice: 0.279
-    points: 0.213
+    poles: 0.354839
+    podiums: 0.255556
+    doubles: 0.066667
+    ecart: 0.019816
+    indice: 0.278734
+    points: 0.213328
     associes:
     - ferrari
     regles_debut:
@@ -337,17 +337,17 @@ dominations:
     titres: 2
     victoires: 18
     gp: 32
-    part: 0.562
+    part: 0.5625
     part_max: 0.75
     longue: false
     robuste: false
     degre: domination
-    poles: 0.156
-    podiums: 0.312
-    doubles: 0.156
-    ecart: 0.122
-    indice: 0.343
-    points: 0.3
+    poles: 0.15625
+    podiums: 0.3125
+    doubles: 0.15625
+    ecart: 0.122125
+    indice: 0.34375
+    points: 0.299593
     associes:
     - tag
     regles_debut:
@@ -367,17 +367,17 @@ dominations:
     titres: 2
     victoires: 18
     gp: 32
-    part: 0.562
-    part_max: 0.562
+    part: 0.5625
+    part_max: 0.5625
     longue: false
     robuste: false
     degre: domination
     poles: 0.5
-    podiums: 0.385
-    doubles: 0.188
-    ecart: 0.133
-    indice: 0.482
-    points: 0.348
+    podiums: 0.385417
+    doubles: 0.1875
+    ecart: 0.132883
+    indice: 0.482639
+    points: 0.348361
     associes:
     - honda
     regles_debut:
@@ -395,17 +395,17 @@ dominations:
     titres: 4
     victoires: 39
     gp: 64
-    part: 0.609
-    part_max: 0.938
+    part: 0.609375
+    part_max: 0.9375
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.812
-    podiums: 0.411
-    doubles: 0.266
-    ecart: 0.139
-    indice: 0.611
-    points: 0.374
+    poles: 0.8125
+    podiums: 0.411458
+    doubles: 0.265625
+    ecart: 0.13931
+    indice: 0.611111
+    points: 0.374353
     associes:
     - honda
     regles_debut:
@@ -432,17 +432,17 @@ dominations:
     titres: 5
     victoires: 59
     gp: 114
-    part: 0.518
+    part: 0.517544
     part_max: 0.75
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.675
-    podiums: 0.368
-    doubles: 0.149
-    ecart: 0.086
-    indice: 0.52
-    points: 0.336
+    poles: 0.675439
+    podiums: 0.368421
+    doubles: 0.149123
+    ecart: 0.085817
+    indice: 0.520468
+    points: 0.336253
     associes:
     - renault
     regles_debut: []
@@ -469,17 +469,17 @@ dominations:
     titres: 1
     victoires: 19
     gp: 33
-    part: 0.576
-    part_max: 0.647
+    part: 0.575758
+    part_max: 0.647059
     longue: false
     robuste: false
     degre: domination
-    poles: 0.303
-    podiums: 0.273
-    doubles: 0.03
-    ecart: 0.011
-    indice: 0.384
-    points: 0.285
+    poles: 0.30303
+    podiums: 0.272727
+    doubles: 0.030303
+    ecart: 0.011314
+    indice: 0.383838
+    points: 0.284596
     associes:
     - renault
     - ford
@@ -497,17 +497,17 @@ dominations:
     titres: 1
     victoires: 23
     gp: 49
-    part: 0.469
-    part_max: 0.562
+    part: 0.469388
+    part_max: 0.5625
     longue: true
     robuste: false
     degre: domination
-    poles: 0.612
-    podiums: 0.395
-    doubles: 0.245
-    ecart: 0.001
-    indice: 0.492
-    points: 0.342
+    poles: 0.612245
+    podiums: 0.394558
+    doubles: 0.244898
+    ecart: 0.001335
+    indice: 0.492064
+    points: 0.341643
     associes:
     - mercedes
     regles_debut: []
@@ -532,17 +532,17 @@ dominations:
     titres: 8
     victoires: 90
     gp: 173
-    part: 0.52
-    part_max: 0.882
+    part: 0.520231
+    part_max: 0.882353
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.457
-    podiums: 0.391
-    doubles: 0.208
-    ecart: 0.087
-    indice: 0.456
-    points: 0.336
+    poles: 0.456647
+    podiums: 0.391137
+    doubles: 0.208092
+    ecart: 0.087443
+    indice: 0.456005
+    points: 0.335788
     associes:
     - ferrari
     regles_debut: []
@@ -569,17 +569,17 @@ dominations:
     titres: 0
     victoires: 18
     gp: 54
-    part: 0.333
-    part_max: 0.526
+    part: 0.333333
+    part_max: 0.526316
     longue: false
     robuste: false
     degre: domination
-    poles: 0.333
-    podiums: 0.315
-    doubles: 0.093
-    ecart: -0.202
-    indice: 0.327
-    points: 0.134
+    poles: 0.333333
+    podiums: 0.314815
+    doubles: 0.092593
+    ecart: -0.202458
+    indice: 0.32716
+    points: 0.134436
     associes:
     - mercedes
     regles_debut:
@@ -596,17 +596,17 @@ dominations:
     titres: 2
     victoires: 16
     gp: 37
-    part: 0.432
-    part_max: 0.444
+    part: 0.432432
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
-    poles: 0.378
-    podiums: 0.333
-    doubles: 0.027
-    ecart: 0.01
-    indice: 0.381
-    points: 0.276
+    poles: 0.378378
+    podiums: 0.333333
+    doubles: 0.027027
+    ecart: 0.009659
+    indice: 0.381381
+    points: 0.276127
     associes:
     - renault
     regles_debut:
@@ -623,17 +623,17 @@ dominations:
     titres: 4
     victoires: 41
     gp: 77
-    part: 0.532
-    part_max: 0.684
+    part: 0.532468
+    part_max: 0.684211
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.675
-    podiums: 0.368
-    doubles: 0.156
-    ecart: 0.064
-    indice: 0.525
-    points: 0.284
+    poles: 0.675325
+    podiums: 0.367965
+    doubles: 0.155844
+    ecart: 0.063835
+    indice: 0.525253
+    points: 0.284132
     associes:
     - renault
     regles_debut:
@@ -659,17 +659,17 @@ dominations:
     titres: 8
     victoires: 111
     gp: 160
-    part: 0.694
-    part_max: 0.905
+    part: 0.69375
+    part_max: 0.904762
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.738
-    podiums: 0.483
-    doubles: 0.331
-    ecart: 0.102
-    indice: 0.638
-    points: 0.335
+    poles: 0.7375
+    podiums: 0.483333
+    doubles: 0.33125
+    ecart: 0.101642
+    indice: 0.638194
+    points: 0.334871
     associes:
     - mercedes
     regles_debut:
@@ -697,17 +697,17 @@ dominations:
     titres: 2
     victoires: 49
     gp: 66
-    part: 0.742
-    part_max: 0.955
+    part: 0.742424
+    part_max: 0.954545
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.485
-    podiums: 0.409
-    doubles: 0.167
-    ecart: 0.086
-    indice: 0.545
-    points: 0.313
+    poles: 0.484848
+    podiums: 0.409091
+    doubles: 0.166667
+    ecart: 0.086011
+    indice: 0.545454
+    points: 0.312696
     associes:
     - honda
     regles_debut: []
@@ -728,16 +728,16 @@ dominations:
     titres: 2
     victoires: 20
     gp: 48
-    part: 0.417
-    part_max: 0.583
+    part: 0.416667
+    part_max: 0.583333
     longue: false
     robuste: false
     degre: domination
-    poles: 0.438
-    podiums: 0.382
-    doubles: 0.167
-    ecart: 0.072
-    indice: 0.412
+    poles: 0.4375
+    podiums: 0.381944
+    doubles: 0.166667
+    ecart: 0.071572
+    indice: 0.412037
     points: 0.283
     associes:
     - mercedes
@@ -756,14 +756,14 @@ dominations:
     titres: 2
     victoires: 10
     gp: 15
-    part: 0.667
-    part_max: 0.857
+    part: 0.666667
+    part_max: 0.857143
     longue: false
     robuste: false
     degre: domination
-    poles: 0.667
-    podiums: 0.467
-    doubles: 0.267
+    poles: 0.666667
+    podiums: 0.466667
+    doubles: 0.266667
     indice: 0.6
     associes:
     - alfa-romeo
@@ -781,15 +781,15 @@ dominations:
     titres: 2
     victoires: 14
     gp: 17
-    part: 0.824
+    part: 0.823529
     part_max: 0.875
     longue: false
     robuste: false
     degre: domination
-    poles: 0.765
-    podiums: 0.647
-    doubles: 0.588
-    indice: 0.745
+    poles: 0.764706
+    podiums: 0.647059
+    doubles: 0.588235
+    indice: 0.745098
     associes:
     - ferrari
     regles_debut:
@@ -806,15 +806,15 @@ dominations:
     titres: 2
     victoires: 9
     gp: 16
-    part: 0.562
-    part_max: 0.714
+    part: 0.5625
+    part_max: 0.714286
     longue: false
     robuste: false
     degre: domination
     poles: 0.5
-    podiums: 0.354
-    doubles: 0.312
-    indice: 0.472
+    podiums: 0.354167
+    doubles: 0.3125
+    indice: 0.472222
     associes:
     - mercedes
     regles_debut:
@@ -831,15 +831,15 @@ dominations:
     titres: 2
     victoires: 11
     gp: 19
-    part: 0.579
+    part: 0.578947
     part_max: 0.6
     longue: false
     robuste: false
     degre: domination
-    poles: 0.421
-    podiums: 0.474
-    doubles: 0.263
-    indice: 0.491
+    poles: 0.421053
+    podiums: 0.473684
+    doubles: 0.263158
+    indice: 0.491228
     associes:
     - climax
     regles_debut:
@@ -857,15 +857,15 @@ dominations:
     titres: 2
     victoires: 16
     gp: 30
-    part: 0.533
+    part: 0.533333
     part_max: 0.7
     longue: false
     robuste: false
     degre: domination
     poles: 0.6
-    podiums: 0.233
+    podiums: 0.233333
     doubles: 0.0
-    indice: 0.455
+    indice: 0.455555
     associes:
     - climax
     regles_debut: []
@@ -883,14 +883,14 @@ dominations:
     victoires: 8
     gp: 20
     part: 0.4
-    part_max: 0.444
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
     poles: 0.25
-    podiums: 0.383
+    podiums: 0.383333
     doubles: 0.2
-    indice: 0.344
+    indice: 0.344444
     associes:
     - repco
     regles_debut:
@@ -907,15 +907,15 @@ dominations:
     titres: 4
     victoires: 25
     gp: 74
-    part: 0.338
-    part_max: 0.467
+    part: 0.337838
+    part_max: 0.466667
     longue: true
     robuste: false
     degre: domination
-    poles: 0.338
-    podiums: 0.221
-    doubles: 0.027
-    indice: 0.299
+    poles: 0.337838
+    podiums: 0.220721
+    doubles: 0.027027
+    indice: 0.298799
     associes:
     - ford
     regles_debut: []
@@ -931,15 +931,15 @@ dominations:
     titres: 4
     victoires: 27
     gp: 78
-    part: 0.346
-    part_max: 0.429
+    part: 0.346154
+    part_max: 0.428571
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.244
-    podiums: 0.265
-    doubles: 0.064
-    indice: 0.285
+    poles: 0.24359
+    podiums: 0.264957
+    doubles: 0.064103
+    indice: 0.2849
     associes:
     - ferrari
     regles_debut: []
@@ -955,15 +955,15 @@ dominations:
     titres: 2
     victoires: 10
     gp: 29
-    part: 0.345
-    part_max: 0.429
+    part: 0.344828
+    part_max: 0.428571
     longue: false
     robuste: false
     degre: domination
-    poles: 0.172
-    podiums: 0.356
-    doubles: 0.138
-    indice: 0.291
+    poles: 0.172414
+    podiums: 0.356322
+    doubles: 0.137931
+    indice: 0.291188
     associes:
     - ford
     regles_debut: []
@@ -980,15 +980,15 @@ dominations:
     titres: 2
     victoires: 7
     gp: 31
-    part: 0.226
-    part_max: 0.267
+    part: 0.225806
+    part_max: 0.266667
     longue: false
     robuste: false
     degre: domination
-    poles: 0.355
-    podiums: 0.256
-    doubles: 0.067
-    indice: 0.279
+    poles: 0.354839
+    podiums: 0.255556
+    doubles: 0.066667
+    indice: 0.278734
     associes:
     - ferrari
     regles_debut:
@@ -1008,15 +1008,15 @@ dominations:
     titres: 2
     victoires: 18
     gp: 32
-    part: 0.562
+    part: 0.5625
     part_max: 0.75
     longue: false
     robuste: false
     degre: domination
-    poles: 0.156
-    podiums: 0.312
-    doubles: 0.156
-    indice: 0.343
+    poles: 0.15625
+    podiums: 0.3125
+    doubles: 0.15625
+    indice: 0.34375
     associes:
     - tag
     regles_debut:
@@ -1036,15 +1036,15 @@ dominations:
     titres: 2
     victoires: 18
     gp: 32
-    part: 0.562
-    part_max: 0.562
+    part: 0.5625
+    part_max: 0.5625
     longue: false
     robuste: false
     degre: domination
     poles: 0.5
-    podiums: 0.385
-    doubles: 0.188
-    indice: 0.482
+    podiums: 0.385417
+    doubles: 0.1875
+    indice: 0.482639
     associes:
     - honda
     regles_debut:
@@ -1062,15 +1062,15 @@ dominations:
     titres: 4
     victoires: 39
     gp: 64
-    part: 0.609
-    part_max: 0.938
+    part: 0.609375
+    part_max: 0.9375
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.812
-    podiums: 0.411
-    doubles: 0.266
-    indice: 0.611
+    poles: 0.8125
+    podiums: 0.411458
+    doubles: 0.265625
+    indice: 0.611111
     associes:
     - honda
     regles_debut:
@@ -1087,15 +1087,15 @@ dominations:
     titres: 5
     victoires: 59
     gp: 114
-    part: 0.518
+    part: 0.517544
     part_max: 0.75
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.675
-    podiums: 0.368
-    doubles: 0.149
-    indice: 0.52
+    poles: 0.675439
+    podiums: 0.368421
+    doubles: 0.149123
+    indice: 0.520468
     associes:
     - renault
     regles_debut: []
@@ -1111,15 +1111,15 @@ dominations:
     titres: 1
     victoires: 19
     gp: 33
-    part: 0.576
-    part_max: 0.647
+    part: 0.575758
+    part_max: 0.647059
     longue: false
     robuste: false
     degre: domination
-    poles: 0.303
-    podiums: 0.273
-    doubles: 0.03
-    indice: 0.384
+    poles: 0.30303
+    podiums: 0.272727
+    doubles: 0.030303
+    indice: 0.383838
     associes:
     - renault
     - ford
@@ -1137,15 +1137,15 @@ dominations:
     titres: 1
     victoires: 23
     gp: 49
-    part: 0.469
-    part_max: 0.562
+    part: 0.469388
+    part_max: 0.5625
     longue: true
     robuste: false
     degre: domination
-    poles: 0.612
-    podiums: 0.395
-    doubles: 0.245
-    indice: 0.492
+    poles: 0.612245
+    podiums: 0.394558
+    doubles: 0.244898
+    indice: 0.492064
     associes:
     - mercedes
     regles_debut: []
@@ -1161,15 +1161,15 @@ dominations:
     titres: 8
     victoires: 90
     gp: 173
-    part: 0.52
-    part_max: 0.882
+    part: 0.520231
+    part_max: 0.882353
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.457
-    podiums: 0.391
-    doubles: 0.208
-    indice: 0.456
+    poles: 0.456647
+    podiums: 0.391137
+    doubles: 0.208092
+    indice: 0.456005
     associes:
     - ferrari
     regles_debut: []
@@ -1187,15 +1187,15 @@ dominations:
     titres: 2
     victoires: 16
     gp: 37
-    part: 0.432
-    part_max: 0.444
+    part: 0.432432
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
-    poles: 0.378
-    podiums: 0.333
-    doubles: 0.027
-    indice: 0.381
+    poles: 0.378378
+    podiums: 0.333333
+    doubles: 0.027027
+    indice: 0.381381
     associes:
     - renault
     regles_debut:
@@ -1212,15 +1212,15 @@ dominations:
     titres: 0
     victoires: 18
     gp: 54
-    part: 0.333
-    part_max: 0.526
+    part: 0.333333
+    part_max: 0.526316
     longue: false
     robuste: false
     degre: domination
-    poles: 0.333
-    podiums: 0.315
-    doubles: 0.093
-    indice: 0.327
+    poles: 0.333333
+    podiums: 0.314815
+    doubles: 0.092593
+    indice: 0.32716
     associes:
     - mercedes
     regles_debut:
@@ -1237,15 +1237,15 @@ dominations:
     titres: 4
     victoires: 41
     gp: 77
-    part: 0.532
-    part_max: 0.684
+    part: 0.532468
+    part_max: 0.684211
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.675
-    podiums: 0.368
-    doubles: 0.156
-    indice: 0.525
+    poles: 0.675325
+    podiums: 0.367965
+    doubles: 0.155844
+    indice: 0.525253
     associes:
     - renault
     regles_debut:
@@ -1265,15 +1265,15 @@ dominations:
     titres: 8
     victoires: 111
     gp: 160
-    part: 0.694
-    part_max: 0.905
+    part: 0.69375
+    part_max: 0.904762
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.738
-    podiums: 0.483
-    doubles: 0.331
-    indice: 0.638
+    poles: 0.7375
+    podiums: 0.483333
+    doubles: 0.33125
+    indice: 0.638194
     associes:
     - mercedes
     regles_debut:
@@ -1291,15 +1291,15 @@ dominations:
     titres: 2
     victoires: 49
     gp: 66
-    part: 0.742
-    part_max: 0.955
+    part: 0.742424
+    part_max: 0.954545
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.485
-    podiums: 0.409
-    doubles: 0.167
-    indice: 0.545
+    poles: 0.484848
+    podiums: 0.409091
+    doubles: 0.166667
+    indice: 0.545454
     associes:
     - honda
     regles_debut: []
@@ -1315,15 +1315,15 @@ dominations:
     titres: 2
     victoires: 20
     gp: 48
-    part: 0.417
-    part_max: 0.583
+    part: 0.416667
+    part_max: 0.583333
     longue: false
     robuste: false
     degre: domination
-    poles: 0.438
-    podiums: 0.382
-    doubles: 0.167
-    indice: 0.412
+    poles: 0.4375
+    podiums: 0.381944
+    doubles: 0.166667
+    indice: 0.412037
     associes:
     - mercedes
     regles_debut: []
@@ -1342,15 +1342,15 @@ dominations:
     victoires: 6
     gp: 15
     part: 0.4
-    part_max: 0.429
+    part_max: 0.428571
     longue: false
     robuste: false
     degre: domination
-    poles: 0.533
-    podiums: 0.178
-    ecart: 0.008
-    indice: 0.37
-    points: 0.171
+    poles: 0.533333
+    podiums: 0.177778
+    ecart: 0.008095
+    indice: 0.37037
+    points: 0.171398
     associes:
     - alfa-romeo-1979
     regles_debut: []
@@ -1367,16 +1367,16 @@ dominations:
     titres: 2
     victoires: 11
     gp: 17
-    part: 0.647
+    part: 0.647059
     part_max: 0.75
     longue: false
     robuste: false
     degre: domination
-    poles: 0.647
-    podiums: 0.216
-    ecart: 0.054
-    indice: 0.503
-    points: 0.197
+    poles: 0.647059
+    podiums: 0.215686
+    ecart: 0.053702
+    indice: 0.503268
+    points: 0.197202
     associes:
     - ferrari
     regles_debut:
@@ -1394,16 +1394,16 @@ dominations:
     titres: 4
     victoires: 17
     gp: 32
-    part: 0.531
-    part_max: 0.667
+    part: 0.53125
+    part_max: 0.666667
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.562
-    podiums: 0.208
-    ecart: 0.071
-    indice: 0.434
-    points: 0.207
+    poles: 0.5625
+    podiums: 0.208333
+    ecart: 0.070868
+    indice: 0.434028
+    points: 0.206631
     associes:
     - ~Mercedes-Benz
     - maserati
@@ -1423,16 +1423,16 @@ dominations:
     titres: 2
     victoires: 7
     gp: 19
-    part: 0.368
+    part: 0.368421
     part_max: 0.5
     longue: false
     robuste: false
     degre: domination
-    poles: 0.211
-    podiums: 0.175
-    ecart: 0.029
-    indice: 0.251
-    points: 0.165
+    poles: 0.210526
+    podiums: 0.175439
+    ecart: 0.028703
+    indice: 0.251462
+    points: 0.165045
     associes:
     - cooper
     regles_debut:
@@ -1450,16 +1450,16 @@ dominations:
     titres: 2
     victoires: 16
     gp: 30
-    part: 0.533
+    part: 0.533333
     part_max: 0.7
     longue: false
     robuste: false
     degre: domination
     poles: 0.6
     podiums: 0.2
-    ecart: 0.046
-    indice: 0.444
-    points: 0.198
+    ecart: 0.046069
+    indice: 0.444444
+    points: 0.198472
     associes:
     - team-lotus
     regles_debut: []
@@ -1476,16 +1476,16 @@ dominations:
     titres: 3
     victoires: 22
     gp: 62
-    part: 0.355
-    part_max: 0.545
+    part: 0.354839
+    part_max: 0.545455
     longue: true
     robuste: false
     degre: domination
-    poles: 0.274
-    podiums: 0.167
-    ecart: 0.026
-    indice: 0.265
-    points: 0.174
+    poles: 0.274194
+    podiums: 0.166667
+    ecart: 0.025521
+    indice: 0.265233
+    points: 0.174208
     associes:
     - tyrrell
     - matra
@@ -1504,16 +1504,16 @@ dominations:
     titres: 2
     victoires: 11
     gp: 42
-    part: 0.262
-    part_max: 0.417
+    part: 0.261905
+    part_max: 0.416667
     longue: false
     robuste: false
     degre: domination
-    poles: 0.143
-    podiums: 0.183
-    ecart: 0.006
-    indice: 0.196
-    points: 0.166
+    poles: 0.142857
+    podiums: 0.18254
+    ecart: 0.006222
+    indice: 0.195767
+    points: 0.165556
     associes:
     - team-lotus
     - mclaren
@@ -1530,16 +1530,16 @@ dominations:
     titres: 2
     victoires: 13
     gp: 47
-    part: 0.277
-    part_max: 0.357
+    part: 0.276596
+    part_max: 0.357143
     longue: false
     robuste: false
     degre: domination
-    poles: 0.298
-    podiums: 0.191
-    ecart: 0.033
-    indice: 0.255
-    points: 0.179
+    poles: 0.297872
+    podiums: 0.191489
+    ecart: 0.0325
+    indice: 0.255319
+    points: 0.179291
     associes:
     - ferrari
     regles_debut: []
@@ -1556,16 +1556,16 @@ dominations:
     titres: 2
     victoires: 7
     gp: 46
-    part: 0.152
+    part: 0.152174
     part_max: 0.2
     longue: false
     robuste: false
     degre: domination
-    poles: 0.13
-    podiums: 0.119
-    ecart: -0.017
-    indice: 0.134
-    points: 0.114
+    poles: 0.130435
+    podiums: 0.118519
+    ecart: -0.017355
+    indice: 0.133709
+    points: 0.11445
     associes:
     - brabham
     regles_debut:
@@ -1585,16 +1585,16 @@ dominations:
     titres: 3
     victoires: 30
     gp: 96
-    part: 0.312
-    part_max: 0.438
+    part: 0.3125
+    part_max: 0.4375
     longue: true
     robuste: false
     degre: domination
-    poles: 0.104
-    podiums: 0.219
-    ecart: 0.003
-    indice: 0.212
-    points: 0.182
+    poles: 0.104167
+    podiums: 0.21875
+    ecart: 0.003057
+    indice: 0.211806
+    points: 0.18186
     associes:
     - mclaren
     regles_debut:
@@ -1614,16 +1614,16 @@ dominations:
     titres: 3
     victoires: 27
     gp: 64
-    part: 0.422
+    part: 0.421875
     part_max: 0.5
     longue: true
     robuste: false
     degre: domination
-    poles: 0.688
-    podiums: 0.214
-    ecart: 0.011
-    indice: 0.441
-    points: 0.206
+    poles: 0.6875
+    podiums: 0.213542
+    ecart: 0.011154
+    indice: 0.440972
+    points: 0.20617
     associes:
     - mclaren
     regles_debut:
@@ -1640,16 +1640,16 @@ dominations:
     titres: 2
     victoires: 17
     gp: 33
-    part: 0.515
-    part_max: 0.529
+    part: 0.515152
+    part_max: 0.529412
     longue: false
     robuste: false
     degre: domination
-    poles: 0.303
-    podiums: 0.212
-    ecart: 0.039
-    indice: 0.343
-    points: 0.226
+    poles: 0.30303
+    podiums: 0.212121
+    ecart: 0.038532
+    indice: 0.343434
+    points: 0.225962
     associes:
     - benetton
     regles_debut:
@@ -1657,8 +1657,8 @@ dominations:
     regles_fin: []
     rangee: 0
   - unite: pilote
-    id: Mika Hakkinen
-    nom: Mika Hakkinen
+    id: Mika Häkkinen
+    nom: Mika Häkkinen
     debut: 1998
     fin: 1999
     saisons: 2
@@ -1666,16 +1666,16 @@ dominations:
     titres: 2
     victoires: 13
     gp: 32
-    part: 0.406
+    part: 0.40625
     part_max: 0.5
     longue: false
     robuste: false
     degre: domination
     poles: 0.625
-    podiums: 0.219
-    ecart: 0.019
-    indice: 0.417
-    points: 0.212
+    podiums: 0.21875
+    ecart: 0.019231
+    indice: 0.416667
+    points: 0.211538
     associes:
     - mclaren
     regles_debut: []
@@ -1691,16 +1691,16 @@ dominations:
     titres: 5
     victoires: 48
     gp: 85
-    part: 0.565
-    part_max: 0.722
+    part: 0.564706
+    part_max: 0.722222
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.471
-    podiums: 0.259
-    ecart: 0.075
-    indice: 0.432
-    points: 0.242
+    poles: 0.470588
+    podiums: 0.258824
+    ecart: 0.075486
+    indice: 0.431373
+    points: 0.241656
     associes:
     - ferrari
     regles_debut: []
@@ -1717,16 +1717,16 @@ dominations:
     titres: 2
     victoires: 14
     gp: 37
-    part: 0.378
-    part_max: 0.389
+    part: 0.378378
+    part_max: 0.388889
     longue: false
     robuste: false
     degre: domination
-    poles: 0.324
-    podiums: 0.261
-    ecart: 0.023
-    indice: 0.321
-    points: 0.186
+    poles: 0.324324
+    podiums: 0.261261
+    ecart: 0.023487
+    indice: 0.321321
+    points: 0.18555
     associes:
     - renault
     regles_debut:
@@ -1743,16 +1743,16 @@ dominations:
     titres: 4
     victoires: 34
     gp: 77
-    part: 0.442
-    part_max: 0.684
+    part: 0.441558
+    part_max: 0.684211
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.519
-    podiums: 0.229
-    ecart: 0.037
-    indice: 0.397
-    points: 0.171
+    poles: 0.519481
+    podiums: 0.229437
+    ecart: 0.036979
+    indice: 0.396825
+    points: 0.170916
     associes:
     - red-bull
     regles_debut:
@@ -1772,16 +1772,16 @@ dominations:
     titres: 6
     victoires: 73
     gp: 138
-    part: 0.529
-    part_max: 0.647
+    part: 0.528986
+    part_max: 0.647059
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.486
-    podiums: 0.268
-    ecart: 0.034
-    indice: 0.428
-    points: 0.19
+    poles: 0.485507
+    podiums: 0.268116
+    ecart: 0.033998
+    indice: 0.427536
+    points: 0.190425
     associes:
     - mercedes
     regles_debut:
@@ -1798,16 +1798,16 @@ dominations:
     titres: 4
     victoires: 53
     gp: 90
-    part: 0.589
-    part_max: 0.864
+    part: 0.588889
+    part_max: 0.863636
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.411
-    podiums: 0.259
-    ecart: 0.052
-    indice: 0.42
-    points: 0.193
+    poles: 0.411111
+    podiums: 0.259259
+    ecart: 0.051857
+    indice: 0.419753
+    points: 0.192658
     associes:
     - red-bull
     regles_debut: []
@@ -1824,14 +1824,14 @@ dominations:
     titres: 2
     victoires: 10
     gp: 15
-    part: 0.667
-    part_max: 0.857
+    part: 0.666667
+    part_max: 0.857143
     longue: false
     robuste: false
     degre: domination
-    poles: 0.667
-    podiums: 0.467
-    doubles: 0.267
+    poles: 0.666667
+    podiums: 0.466667
+    doubles: 0.266667
     indice: 0.6
     associes:
     - alfa-romeo-1979
@@ -1849,15 +1849,15 @@ dominations:
     titres: 2
     victoires: 14
     gp: 17
-    part: 0.824
+    part: 0.823529
     part_max: 0.875
     longue: false
     robuste: false
     degre: domination
-    poles: 0.765
-    podiums: 0.647
-    doubles: 0.588
-    indice: 0.745
+    poles: 0.764706
+    podiums: 0.647059
+    doubles: 0.588235
+    indice: 0.745098
     associes:
     - ferrari
     regles_debut:
@@ -1875,15 +1875,15 @@ dominations:
     titres: 2
     victoires: 9
     gp: 16
-    part: 0.562
-    part_max: 0.714
+    part: 0.5625
+    part_max: 0.714286
     longue: false
     robuste: false
     degre: domination
     poles: 0.5
-    podiums: 0.354
-    doubles: 0.312
-    indice: 0.472
+    podiums: 0.354167
+    doubles: 0.3125
+    indice: 0.472222
     associes:
     - ~Mercedes-Benz
     regles_debut:
@@ -1900,15 +1900,15 @@ dominations:
     titres: 4
     victoires: 38
     gp: 66
-    part: 0.576
+    part: 0.575758
     part_max: 0.8
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.606
-    podiums: 0.49
-    doubles: 0.242
-    indice: 0.557
+    poles: 0.606061
+    podiums: 0.489899
+    doubles: 0.242424
+    indice: 0.557239
     associes:
     - team-lotus
     - cooper
@@ -1929,14 +1929,14 @@ dominations:
     victoires: 8
     gp: 20
     part: 0.4
-    part_max: 0.444
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
     poles: 0.1
-    podiums: 0.383
+    podiums: 0.383333
     doubles: 0.2
-    indice: 0.294
+    indice: 0.294444
     associes:
     - brabham
     regles_debut:
@@ -1953,15 +1953,15 @@ dominations:
     titres: 10
     victoires: 148
     gp: 212
-    part: 0.698
+    part: 0.698113
     part_max: 1.0
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.538
-    podiums: 0.686
-    doubles: 0.491
-    indice: 0.641
+    poles: 0.537736
+    podiums: 0.685535
+    doubles: 0.490566
+    indice: 0.640461
     associes:
     - team-lotus
     - mclaren
@@ -1990,15 +1990,15 @@ dominations:
     titres: 4
     victoires: 27
     gp: 78
-    part: 0.346
-    part_max: 0.429
+    part: 0.346154
+    part_max: 0.428571
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.244
-    podiums: 0.265
-    doubles: 0.064
-    indice: 0.285
+    poles: 0.24359
+    podiums: 0.264957
+    doubles: 0.064103
+    indice: 0.2849
     associes:
     - ferrari
     regles_debut: []
@@ -2014,15 +2014,15 @@ dominations:
     titres: 2
     victoires: 7
     gp: 31
-    part: 0.226
-    part_max: 0.267
+    part: 0.225806
+    part_max: 0.266667
     longue: false
     robuste: false
     degre: domination
-    poles: 0.355
-    podiums: 0.256
-    doubles: 0.067
-    indice: 0.279
+    poles: 0.354839
+    podiums: 0.255556
+    doubles: 0.066667
+    indice: 0.278734
     associes:
     - ferrari
     regles_debut:
@@ -2042,15 +2042,15 @@ dominations:
     titres: 2
     victoires: 18
     gp: 32
-    part: 0.562
+    part: 0.5625
     part_max: 0.75
     longue: false
     robuste: false
     degre: domination
-    poles: 0.156
-    podiums: 0.312
-    doubles: 0.156
-    indice: 0.343
+    poles: 0.15625
+    podiums: 0.3125
+    doubles: 0.15625
+    indice: 0.34375
     associes:
     - mclaren
     regles_debut:
@@ -2070,15 +2070,15 @@ dominations:
     titres: 6
     victoires: 59
     gp: 96
-    part: 0.615
-    part_max: 0.938
+    part: 0.614583
+    part_max: 0.9375
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.719
-    podiums: 0.444
-    doubles: 0.292
-    indice: 0.593
+    poles: 0.71875
+    podiums: 0.444444
+    doubles: 0.291667
+    indice: 0.592592
     associes:
     - mclaren
     - williams
@@ -2097,15 +2097,15 @@ dominations:
     titres: 6
     victoires: 71
     gp: 114
-    part: 0.623
-    part_max: 0.941
+    part: 0.622807
+    part_max: 0.941176
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.728
-    podiums: 0.48
-    doubles: 0.272
-    indice: 0.61
+    poles: 0.72807
+    podiums: 0.479532
+    doubles: 0.27193
+    indice: 0.610136
     associes:
     - williams
     - benetton
@@ -2122,15 +2122,15 @@ dominations:
     titres: 1
     victoires: 23
     gp: 49
-    part: 0.469
-    part_max: 0.562
+    part: 0.469388
+    part_max: 0.5625
     longue: true
     robuste: false
     degre: domination
-    poles: 0.612
-    podiums: 0.395
-    doubles: 0.245
-    indice: 0.492
+    poles: 0.612245
+    podiums: 0.394558
+    doubles: 0.244898
+    indice: 0.492064
     associes:
     - mclaren
     regles_debut: []
@@ -2146,15 +2146,15 @@ dominations:
     titres: 8
     victoires: 91
     gp: 173
-    part: 0.526
-    part_max: 0.882
+    part: 0.526012
+    part_max: 0.882353
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.462
-    podiums: 0.395
-    doubles: 0.208
-    indice: 0.461
+    poles: 0.462428
+    podiums: 0.39499
+    doubles: 0.208092
+    indice: 0.461143
     associes:
     - ferrari
     - toro-rosso
@@ -2173,15 +2173,15 @@ dominations:
     titres: 1
     victoires: 34
     gp: 89
-    part: 0.382
-    part_max: 0.588
+    part: 0.382022
+    part_max: 0.588235
     longue: true
     robuste: false
     degre: domination
-    poles: 0.404
-    podiums: 0.318
-    doubles: 0.112
-    indice: 0.368
+    poles: 0.404494
+    podiums: 0.318352
+    doubles: 0.11236
+    indice: 0.368289
     associes:
     - mclaren
     - brawn
@@ -2202,15 +2202,15 @@ dominations:
     titres: 2
     victoires: 16
     gp: 37
-    part: 0.432
-    part_max: 0.444
+    part: 0.432432
+    part_max: 0.444444
     longue: false
     robuste: false
     degre: domination
-    poles: 0.378
-    podiums: 0.333
-    doubles: 0.027
-    indice: 0.381
+    poles: 0.378378
+    podiums: 0.333333
+    doubles: 0.027027
+    indice: 0.381381
     associes:
     - renault
     regles_debut:
@@ -2227,15 +2227,15 @@ dominations:
     titres: 4
     victoires: 44
     gp: 77
-    part: 0.571
-    part_max: 0.737
+    part: 0.571429
+    part_max: 0.736842
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.688
-    podiums: 0.498
-    doubles: 0.221
-    indice: 0.586
+    poles: 0.688312
+    podiums: 0.497835
+    doubles: 0.220779
+    indice: 0.585859
     associes:
     - red-bull
     - lotus-f1
@@ -2257,15 +2257,15 @@ dominations:
     titres: 8
     victoires: 124
     gp: 199
-    part: 0.623
-    part_max: 0.905
+    part: 0.623116
+    part_max: 0.904762
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.693
-    podiums: 0.487
-    doubles: 0.302
-    indice: 0.601
+    poles: 0.693467
+    podiums: 0.487437
+    doubles: 0.301508
+    indice: 0.60134
     associes:
     - mercedes
     - mclaren
@@ -2287,15 +2287,15 @@ dominations:
     titres: 2
     victoires: 49
     gp: 66
-    part: 0.742
-    part_max: 0.955
+    part: 0.742424
+    part_max: 0.954545
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.485
-    podiums: 0.414
-    doubles: 0.167
-    indice: 0.547
+    poles: 0.484848
+    podiums: 0.414141
+    doubles: 0.166667
+    indice: 0.547138
     associes:
     - red-bull
     regles_debut: []
@@ -2311,15 +2311,15 @@ dominations:
     titres: 2
     victoires: 26
     gp: 48
-    part: 0.542
-    part_max: 0.667
+    part: 0.541667
+    part_max: 0.666667
     longue: false
     robuste: false
     degre: domination
-    poles: 0.562
-    podiums: 0.542
-    doubles: 0.271
-    indice: 0.549
+    poles: 0.5625
+    podiums: 0.541667
+    doubles: 0.270833
+    indice: 0.548611
     associes:
     - mclaren
     - mercedes
@@ -2334,228 +2334,228 @@ saisons_dominantes:
     titre: true
     part: 0.625
     id: ferrari
-    poles: 0.0
-    podiums: 0.417
+    poles: 0.75
+    podiums: 0.416667
     doubles: 0.375
-    indice: 0.347
+    indice: 0.597222
   - nom: Maserati
     annee: 1957
     titre: true
     part: 0.5
     id: maserati
     poles: 0.625
-    podiums: 0.417
+    podiums: 0.416667
     doubles: 0.125
-    indice: 0.514
+    indice: 0.513889
   - nom: Vanwall
     annee: 1958
     titre: true
-    part: 0.545
+    part: 0.545455
     id: vanwall
-    poles: 0.455
-    podiums: 0.273
+    poles: 0.454545
+    podiums: 0.272727
     doubles: 0.0
-    ecart: 0.055
-    indice: 0.424
+    ecart: 0.054795
+    indice: 0.424242
   - nom: Ferrari
     annee: 1961
     titre: true
     part: 0.625
     id: ferrari
     poles: 0.75
-    podiums: 0.583
+    podiums: 0.583333
     doubles: 0.375
-    ecart: 0.07
-    indice: 0.653
+    ecart: 0.069565
+    indice: 0.652778
   - nom: BRM
     annee: 1962
     titre: true
-    part: 0.444
+    part: 0.444444
     id: brm
-    poles: 0.111
-    podiums: 0.296
-    doubles: 0.111
-    ecart: 0.03
-    indice: 0.284
+    poles: 0.111111
+    podiums: 0.296296
+    doubles: 0.111111
+    ecart: 0.029586
+    indice: 0.28395
   - nom: Ferrari
     annee: 1964
     titre: true
     part: 0.3
     id: ferrari
     poles: 0.2
-    podiums: 0.333
+    podiums: 0.333333
     doubles: 0.0
-    ecart: 0.016
-    indice: 0.278
+    ecart: 0.016216
+    indice: 0.277778
   - nom: Matra
     annee: 1969
     titre: true
-    part: 0.545
+    part: 0.545455
     id: matra
-    poles: 0.182
-    podiums: 0.303
-    doubles: 0.091
-    ecart: 0.079
-    indice: 0.343
+    poles: 0.181818
+    podiums: 0.30303
+    doubles: 0.090909
+    ecart: 0.079439
+    indice: 0.343434
   - nom: Tyrrell
     annee: 1971
     titre: true
-    part: 0.636
+    part: 0.636364
     id: tyrrell
-    poles: 0.545
-    podiums: 0.333
-    doubles: 0.182
-    ecart: 0.162
-    indice: 0.505
+    poles: 0.545455
+    podiums: 0.333333
+    doubles: 0.181818
+    ecart: 0.162281
+    indice: 0.505051
   - nom: McLaren
     annee: 1974
     titre: true
-    part: 0.267
+    part: 0.266667
     id: mclaren
-    poles: 0.133
-    podiums: 0.222
+    poles: 0.133333
+    podiums: 0.222222
     doubles: 0.0
-    ecart: 0.026
-    indice: 0.207
+    ecart: 0.025559
+    indice: 0.207407
   - nom: Team Lotus
     annee: 1978
     titre: true
     part: 0.5
     id: team-lotus
     poles: 0.75
-    podiums: 0.292
+    podiums: 0.291667
     doubles: 0.25
-    ecart: 0.082
-    indice: 0.514
+    ecart: 0.081633
+    indice: 0.513889
   - nom: Brawn
     annee: 2009
     titre: true
-    part: 0.471
+    part: 0.470588
     id: brawn
-    poles: 0.294
-    podiums: 0.294
-    doubles: 0.235
-    ecart: 0.029
-    indice: 0.353
+    poles: 0.294118
+    podiums: 0.294118
+    doubles: 0.235294
+    ecart: 0.028749
+    indice: 0.352941
   lignee:
   - nom: Ferrari
     annee: 1956
     titre: true
     part: 0.625
     id: ferrari
-    poles: 0.0
-    podiums: 0.417
+    poles: 0.75
+    podiums: 0.416667
     doubles: 0.375
-    indice: 0.347
+    indice: 0.597222
   - nom: Maserati
     annee: 1957
     titre: true
     part: 0.5
     id: maserati
     poles: 0.625
-    podiums: 0.417
+    podiums: 0.416667
     doubles: 0.125
-    indice: 0.514
+    indice: 0.513889
   - nom: Vanwall
     annee: 1958
     titre: true
-    part: 0.545
+    part: 0.545455
     id: vanwall
-    poles: 0.455
-    podiums: 0.273
+    poles: 0.454545
+    podiums: 0.272727
     doubles: 0.0
-    indice: 0.424
+    indice: 0.424242
   - nom: Ferrari
     annee: 1961
     titre: true
     part: 0.625
     id: ferrari
     poles: 0.75
-    podiums: 0.583
+    podiums: 0.583333
     doubles: 0.375
-    indice: 0.653
+    indice: 0.652778
   - nom: BRM
     annee: 1962
     titre: true
-    part: 0.444
+    part: 0.444444
     id: brm
-    poles: 0.111
-    podiums: 0.296
-    doubles: 0.111
-    indice: 0.284
+    poles: 0.111111
+    podiums: 0.296296
+    doubles: 0.111111
+    indice: 0.28395
   - nom: Ferrari
     annee: 1964
     titre: true
     part: 0.3
     id: ferrari
     poles: 0.2
-    podiums: 0.333
+    podiums: 0.333333
     doubles: 0.0
-    indice: 0.278
+    indice: 0.277778
   - nom: Matra
     annee: 1969
     titre: true
-    part: 0.545
+    part: 0.545455
     id: matra
-    poles: 0.182
-    podiums: 0.303
-    doubles: 0.091
-    indice: 0.343
+    poles: 0.181818
+    podiums: 0.30303
+    doubles: 0.090909
+    indice: 0.343434
   - nom: 'Brackley : de Tyrrell à Mercedes'
     annee: 1971
     titre: true
-    part: 0.636
+    part: 0.636364
     id: brackley
-    poles: 0.545
-    podiums: 0.333
-    doubles: 0.182
-    indice: 0.505
+    poles: 0.545455
+    podiums: 0.333333
+    doubles: 0.181818
+    indice: 0.505051
   - nom: McLaren
     annee: 1974
     titre: true
-    part: 0.267
+    part: 0.266667
     id: mclaren
-    poles: 0.133
-    podiums: 0.222
+    poles: 0.133333
+    podiums: 0.222222
     doubles: 0.0
-    indice: 0.207
+    indice: 0.207407
   - nom: Team Lotus
     annee: 1978
     titre: true
     part: 0.5
     id: team-lotus
     poles: 0.75
-    podiums: 0.292
+    podiums: 0.291667
     doubles: 0.25
-    indice: 0.514
+    indice: 0.513889
   - nom: 'Brackley : de Tyrrell à Mercedes'
     annee: 2009
     titre: true
-    part: 0.471
+    part: 0.470588
     id: brackley
-    poles: 0.294
-    podiums: 0.294
-    doubles: 0.235
-    indice: 0.353
+    poles: 0.294118
+    podiums: 0.294118
+    doubles: 0.235294
+    indice: 0.352941
   pilote:
   - nom: Nino Farina
     annee: 1950
     titre: true
-    part: 0.429
+    part: 0.428571
     id: Nino Farina
-    poles: 0.286
-    podiums: 0.143
-    ecart: 0.018
-    indice: 0.286
+    poles: 0.285714
+    podiums: 0.142857
+    ecart: 0.018293
+    indice: 0.285714
   - nom: Mike Hawthorn
     annee: 1958
     titre: true
-    part: 0.091
+    part: 0.090909
     id: Mike Hawthorn
-    poles: 0.364
-    podiums: 0.212
-    ecart: 0.004
-    indice: 0.222
+    poles: 0.363636
+    podiums: 0.212121
+    ecart: 0.003968
+    indice: 0.222222
   - nom: Phil Hill
     annee: 1961
     titre: true
@@ -2563,17 +2563,17 @@ saisons_dominantes:
     id: Phil Hill
     poles: 0.625
     podiums: 0.25
-    ecart: 0.005
+    ecart: 0.005102
     indice: 0.375
   - nom: Graham Hill
     annee: 1962
     titre: true
-    part: 0.444
+    part: 0.444444
     id: Graham Hill
-    poles: 0.111
-    podiums: 0.222
-    ecart: 0.057
-    indice: 0.259
+    poles: 0.111111
+    podiums: 0.222222
+    ecart: 0.057143
+    indice: 0.259259
   - nom: John Surtees
     annee: 1964
     titre: true
@@ -2581,243 +2581,243 @@ saisons_dominantes:
     id: John Surtees
     poles: 0.2
     podiums: 0.2
-    ecart: 0.004
+    ecart: 0.004032
     indice: 0.2
   - nom: Jack Brabham
     annee: 1966
     titre: true
-    part: 0.444
+    part: 0.444444
     id: Jack Brabham
-    poles: 0.333
-    podiums: 0.185
-    ecart: 0.065
-    indice: 0.321
+    poles: 0.333333
+    podiums: 0.185185
+    ecart: 0.064815
+    indice: 0.320987
   - nom: Denny Hulme
     annee: 1967
     titre: true
-    part: 0.182
+    part: 0.181818
     id: Denny Hulme
     poles: 0.0
-    podiums: 0.242
-    ecart: 0.018
-    indice: 0.141
+    podiums: 0.242424
+    ecart: 0.018315
+    indice: 0.141414
   - nom: Graham Hill
     annee: 1968
     titre: true
     part: 0.25
     id: Graham Hill
-    poles: 0.167
-    podiums: 0.167
-    ecart: 0.04
-    indice: 0.195
+    poles: 0.166667
+    podiums: 0.166667
+    ecart: 0.040268
+    indice: 0.194445
   - nom: Jochen Rindt
     annee: 1970
     titre: true
-    part: 0.385
+    part: 0.384615
     id: Jochen Rindt
-    poles: 0.231
-    podiums: 0.128
-    ecart: 0.015
-    indice: 0.248
+    poles: 0.230769
+    podiums: 0.128205
+    ecart: 0.015432
+    indice: 0.247863
   - nom: James Hunt
     annee: 1976
     titre: true
     part: 0.375
     id: James Hunt
     poles: 0.5
-    podiums: 0.167
-    ecart: 0.002
-    indice: 0.347
+    podiums: 0.166667
+    ecart: 0.0025
+    indice: 0.347222
   - nom: Mario Andretti
     annee: 1978
     titre: true
     part: 0.375
     id: Mario Andretti
     poles: 0.5
-    podiums: 0.146
-    ecart: 0.033
-    indice: 0.34
+    podiums: 0.145833
+    ecart: 0.0325
+    indice: 0.340278
   - nom: Jody Scheckter
     annee: 1979
     titre: true
     part: 0.2
     id: Jody Scheckter
-    poles: 0.067
-    podiums: 0.133
-    ecart: 0.012
-    indice: 0.133
+    poles: 0.066667
+    podiums: 0.133333
+    ecart: 0.011527
+    indice: 0.133333
   - nom: Alan Jones
     annee: 1980
     titre: true
-    part: 0.357
+    part: 0.357143
     id: Alan Jones
-    poles: 0.214
-    podiums: 0.238
-    ecart: 0.038
-    indice: 0.27
+    poles: 0.214286
+    podiums: 0.238095
+    ecart: 0.038348
+    indice: 0.269841
   - nom: Keke Rosberg
     annee: 1982
     titre: true
-    part: 0.062
+    part: 0.0625
     id: Keke Rosberg
-    poles: 0.062
+    poles: 0.0625
     podiums: 0.125
-    ecart: 0.013
-    indice: 0.083
+    ecart: 0.012531
+    indice: 0.083333
   - nom: Niki Lauda
     annee: 1984
     titre: true
-    part: 0.312
+    part: 0.3125
     id: Niki Lauda
     poles: 0.0
-    podiums: 0.188
-    ecart: 0.001
-    indice: 0.167
+    podiums: 0.1875
+    ecart: 0.001304
+    indice: 0.166667
   - nom: Nelson Piquet
     annee: 1987
     titre: true
-    part: 0.188
+    part: 0.1875
     id: Nelson Piquet
     poles: 0.25
-    podiums: 0.229
-    ecart: 0.03
-    indice: 0.222
+    podiums: 0.229167
+    ecart: 0.03038
+    indice: 0.222222
   - nom: Nigel Mansell
     annee: 1992
     titre: true
-    part: 0.562
+    part: 0.5625
     id: Nigel Mansell
     poles: 0.875
     podiums: 0.25
     ecart: 0.125
-    indice: 0.562
+    indice: 0.5625
   - nom: Alain Prost
     annee: 1993
     titre: true
-    part: 0.438
+    part: 0.4375
     id: Alain Prost
-    poles: 0.812
+    poles: 0.8125
     podiums: 0.25
-    ecart: 0.062
+    ecart: 0.0625
     indice: 0.5
   - nom: Damon Hill
     annee: 1996
     titre: true
     part: 0.5
     id: Damon Hill
-    poles: 0.562
-    podiums: 0.208
-    ecart: 0.046
-    indice: 0.423
+    poles: 0.5625
+    podiums: 0.208333
+    ecart: 0.045673
+    indice: 0.423611
   - nom: Jacques Villeneuve
     annee: 1997
     titre: true
-    part: 0.412
+    part: 0.411765
     id: Jacques Villeneuve
-    poles: 0.588
-    podiums: 0.157
-    ecart: 0.007
-    indice: 0.386
+    poles: 0.588235
+    podiums: 0.156863
+    ecart: 0.107143
+    indice: 0.385621
   - nom: Kimi Räikkönen
     annee: 2007
     titre: true
-    part: 0.353
+    part: 0.352941
     id: Kimi Räikkönen
-    poles: 0.176
-    podiums: 0.235
-    ecart: 0.002
-    indice: 0.255
+    poles: 0.176471
+    podiums: 0.235294
+    ecart: 0.001508
+    indice: 0.254902
   - nom: Lewis Hamilton
     annee: 2008
     titre: true
-    part: 0.278
+    part: 0.277778
     id: Lewis Hamilton
-    poles: 0.389
-    podiums: 0.185
-    ecart: 0.001
-    indice: 0.284
+    poles: 0.388889
+    podiums: 0.185185
+    ecart: 0.001425
+    indice: 0.283951
   - nom: Jenson Button
     annee: 2009
     titre: true
-    part: 0.353
+    part: 0.352941
     id: Jenson Button
-    poles: 0.235
-    podiums: 0.176
-    ecart: 0.017
-    indice: 0.255
+    poles: 0.235294
+    podiums: 0.176471
+    ecart: 0.017094
+    indice: 0.254902
   - nom: Nico Rosberg
     annee: 2016
     titre: true
-    part: 0.429
+    part: 0.428571
     id: Nico Rosberg
-    poles: 0.381
-    podiums: 0.254
-    ecart: 0.002
-    indice: 0.355
+    poles: 0.380952
+    podiums: 0.253968
+    ecart: 0.002357
+    indice: 0.354497
   - nom: Lando Norris
     annee: 2025
     titre: true
-    part: 0.292
+    part: 0.291667
     id: Lando Norris
-    poles: 0.292
+    poles: 0.291667
     podiums: 0.25
-    ecart: 0.001
-    indice: 0.278
+    ecart: 0.000758
+    indice: 0.277778
   motoriste:
   - nom: Ferrari
     annee: 1956
     titre: true
     part: 0.625
     id: ferrari
-    poles: 0.0
-    podiums: 0.417
+    poles: 0.75
+    podiums: 0.416667
     doubles: 0.375
-    indice: 0.347
+    indice: 0.597222
   - nom: Maserati
     annee: 1957
     titre: true
     part: 0.5
     id: maserati
     poles: 0.625
-    podiums: 0.417
+    podiums: 0.416667
     doubles: 0.125
-    indice: 0.514
+    indice: 0.513889
   - nom: Vanwall
     annee: 1958
     titre: true
-    part: 0.545
+    part: 0.545455
     id: vanwall
-    poles: 0.455
-    podiums: 0.273
+    poles: 0.454545
+    podiums: 0.272727
     doubles: 0.0
-    indice: 0.424
+    indice: 0.424242
   - nom: Ferrari
     annee: 1961
     titre: true
     part: 0.625
     id: ferrari
     poles: 0.75
-    podiums: 0.583
+    podiums: 0.583333
     doubles: 0.375
-    indice: 0.653
+    indice: 0.652778
   - nom: BRM
     annee: 1962
     titre: true
-    part: 0.444
+    part: 0.444444
     id: brm
-    poles: 0.111
-    podiums: 0.296
-    doubles: 0.111
-    indice: 0.284
+    poles: 0.111111
+    podiums: 0.296296
+    doubles: 0.111111
+    indice: 0.28395
   - nom: Ferrari
     annee: 1964
     titre: true
     part: 0.3
     id: ferrari
     poles: 0.2
-    podiums: 0.333
+    podiums: 0.333333
     doubles: 0.0
-    indice: 0.278
+    indice: 0.277778
   - nom: Ford
     annee: 1994
     titre: false
@@ -2834,301 +2834,301 @@ saisons_ecrasantes:
     id: ferrari
     victoires: 0.875
     poles: 0.875
-    podiums: 0.708
+    podiums: 0.708333
     doubles: 0.75
-    indice: 0.819
+    indice: 0.819444
   - annee: 1988
     nom: McLaren
     id: mclaren
-    victoires: 0.938
-    poles: 0.938
-    podiums: 0.521
+    victoires: 0.9375
+    poles: 0.9375
+    podiums: 0.520833
     doubles: 0.625
     ecart: 0.335
-    indice: 0.799
+    indice: 0.798611
   - annee: 2016
     nom: Mercedes
     id: mercedes
-    victoires: 0.905
-    poles: 0.952
-    podiums: 0.524
-    doubles: 0.381
-    ecart: 0.14
-    indice: 0.794
+    victoires: 0.904762
+    poles: 0.952381
+    podiums: 0.52381
+    doubles: 0.380952
+    ecart: 0.140028
+    indice: 0.793651
   - annee: 2015
     nom: Mercedes
     id: mercedes
-    victoires: 0.842
-    poles: 0.947
-    podiums: 0.561
-    doubles: 0.632
-    ecart: 0.143
-    indice: 0.783
+    victoires: 0.842105
+    poles: 0.947368
+    podiums: 0.561404
+    doubles: 0.631579
+    ecart: 0.143304
+    indice: 0.783626
   - annee: 2014
     nom: Mercedes
     id: mercedes
-    victoires: 0.842
-    poles: 0.947
-    podiums: 0.544
-    doubles: 0.579
-    ecart: 0.147
-    indice: 0.778
+    victoires: 0.842105
+    poles: 0.947368
+    podiums: 0.54386
+    doubles: 0.578947
+    ecart: 0.146535
+    indice: 0.777778
   - annee: 1950
     nom: Alfa Romeo (1950–1985)
     id: alfa-romeo-1979
-    victoires: 0.857
-    poles: 0.857
-    podiums: 0.571
-    doubles: 0.571
-    indice: 0.762
+    victoires: 0.857143
+    poles: 0.857143
+    podiums: 0.571429
+    doubles: 0.571429
+    indice: 0.761905
   - annee: 2020
     nom: Mercedes
     id: mercedes
-    victoires: 0.765
-    poles: 0.882
-    podiums: 0.49
-    doubles: 0.294
-    ecart: 0.148
-    indice: 0.712
+    victoires: 0.764706
+    poles: 0.882353
+    podiums: 0.490196
+    doubles: 0.294118
+    ecart: 0.14776
+    indice: 0.712418
   - annee: 2011
     nom: Red Bull
     id: red-bull
-    victoires: 0.632
-    poles: 0.947
-    podiums: 0.474
-    doubles: 0.158
-    ecart: 0.08
-    indice: 0.684
+    victoires: 0.631579
+    poles: 0.947368
+    podiums: 0.473684
+    doubles: 0.157895
+    ecart: 0.079729
+    indice: 0.68421
   - annee: 2023
     nom: Red Bull
     id: red-bull
-    victoires: 0.955
-    poles: 0.636
-    podiums: 0.455
-    doubles: 0.273
-    ecart: 0.183
-    indice: 0.682
+    victoires: 0.954545
+    poles: 0.636364
+    podiums: 0.454545
+    doubles: 0.272727
+    ecart: 0.183483
+    indice: 0.681818
   - annee: 1953
     nom: Ferrari
     id: ferrari
-    victoires: 0.778
-    poles: 0.667
-    podiums: 0.593
-    doubles: 0.444
-    indice: 0.679
+    victoires: 0.777778
+    poles: 0.666667
+    podiums: 0.592593
+    doubles: 0.444444
+    indice: 0.679013
   pilote:
   - annee: 2023
     nom: Max Verstappen
     id: Max Verstappen
-    victoires: 0.864
-    poles: 0.545
-    podiums: 0.318
-    ecart: 0.118
-    indice: 0.576
+    victoires: 0.863636
+    poles: 0.545455
+    podiums: 0.318182
+    ecart: 0.117982
+    indice: 0.575758
   - annee: 1963
     nom: Jim Clark
     id: Jim Clark
     victoires: 0.7
     poles: 0.7
     podiums: 0.3
-    ecart: 0.113
-    indice: 0.567
+    ecart: 0.112613
+    indice: 0.566667
   - annee: 1992
     nom: Nigel Mansell
     id: Nigel Mansell
-    victoires: 0.562
+    victoires: 0.5625
     poles: 0.875
     podiums: 0.25
     ecart: 0.125
-    indice: 0.562
+    indice: 0.5625
   - annee: 2011
     nom: Sebastian Vettel
     id: Sebastian Vettel
-    victoires: 0.579
-    poles: 0.789
-    podiums: 0.298
-    ecart: 0.064
-    indice: 0.555
+    victoires: 0.578947
+    poles: 0.789474
+    podiums: 0.298246
+    ecart: 0.063575
+    indice: 0.555556
   - annee: 1952
     nom: Alberto Ascari
     id: Alberto Ascari
     victoires: 0.75
     poles: 0.625
     podiums: 0.25
-    ecart: 0.07
-    indice: 0.542
+    ecart: 0.069971
+    indice: 0.541667
   - annee: 1988
     nom: Ayrton Senna
     id: Ayrton Senna
     victoires: 0.5
-    poles: 0.812
-    podiums: 0.229
-    ecart: 0.008
-    indice: 0.514
+    poles: 0.8125
+    podiums: 0.229167
+    ecart: 0.007937
+    indice: 0.513889
   - annee: 2020
     nom: Lewis Hamilton
     id: Lewis Hamilton
-    victoires: 0.647
-    poles: 0.588
-    podiums: 0.275
-    ecart: 0.072
-    indice: 0.503
+    victoires: 0.647059
+    poles: 0.588235
+    podiums: 0.27451
+    ecart: 0.071511
+    indice: 0.503268
   - annee: 1993
     nom: Alain Prost
     id: Alain Prost
-    victoires: 0.438
-    poles: 0.812
+    victoires: 0.4375
+    poles: 0.8125
     podiums: 0.25
-    ecart: 0.062
+    ecart: 0.0625
     indice: 0.5
   - annee: 1954
     nom: Juan Manuel Fangio
     id: Juan Manuel Fangio
-    victoires: 0.667
-    poles: 0.556
-    podiums: 0.259
-    ecart: 0.085
-    indice: 0.494
+    victoires: 0.666667
+    poles: 0.555556
+    podiums: 0.259259
+    ecart: 0.084882
+    indice: 0.493827
   - annee: 2001
     nom: Michael Schumacher
     id: Michael Schumacher
-    victoires: 0.529
-    poles: 0.647
-    podiums: 0.275
-    ecart: 0.131
-    indice: 0.484
+    victoires: 0.529412
+    poles: 0.647059
+    podiums: 0.27451
+    ecart: 0.131222
+    indice: 0.48366
 jalons:
 - jalon: lancia-d50
   annee: 1954
   ecurie: lancia
-  avant: 0.0
+  avant: null
   apres: 0.0
   statut: sans
 - jalon: cooper-argentine
   annee: 1958
   ecurie: cooper
   avant: 0.0
-  apres: 0.446
+  apres: 0.445791
   statut: sans
 - jalon: cooper-titres
   annee: 1959
   ecurie: cooper
-  avant: 0.091
-  apres: 0.385
+  avant: 0.090909
+  apres: 0.385185
   statut: sans
 - jalon: lotus-25
   annee: 1962
   ecurie: team-lotus
-  avant: 0.287
-  apres: 0.444
+  avant: 0.2875
+  apres: 0.444444
   statut: sans
 - jalon: dfv
   annee: 1967
   ecurie: team-lotus
-  avant: 0.356
-  apres: 0.321
+  avant: 0.355556
+  apres: 0.320707
   statut: ouvre
 - jalon: ailerons
   annee: 1968
   ecurie: ferrari
-  avant: 0.111
-  apres: 0.13
+  avant: 0.111111
+  apres: 0.130342
   statut: sans
 - jalon: lotus-72
   annee: 1970
   ecurie: team-lotus
-  avant: 0.299
-  apres: 0.293
+  avant: 0.299242
+  apres: 0.292735
   statut: pendant
 - jalon: ferrari-312t
   annee: 1975
   ecurie: ferrari
   avant: 0.1
-  apres: 0.346
+  apres: 0.346289
   statut: ouvre
 - jalon: tyrrell-p34
   annee: 1976
   ecurie: tyrrell
-  avant: 0.102
-  apres: 0.042
+  avant: 0.102381
+  apres: 0.041667
   statut: sans
 - jalon: lotus-78
   annee: 1977
   ecurie: team-lotus
-  avant: 0.031
-  apres: 0.265
+  avant: 0.03125
+  apres: 0.264706
   statut: sans
 - jalon: bt46b
   annee: 1978
   ecurie: brabham
   avant: 0.0
-  apres: 0.113
+  apres: 0.113095
   statut: sans
 - jalon: donnees-tyrrell
   annee: 1978
   ecurie: tyrrell
-  avant: 0.031
-  apres: 0.021
+  avant: 0.03125
+  apres: 0.020833
   statut: sans
 - jalon: turbo-victoire
   annee: 1979
   ecurie: renault-1977
   avant: 0.0
-  apres: 0.16
+  apres: 0.160317
   statut: sans
 - jalon: lotus-88
   annee: 1981
   ecurie: team-lotus
   avant: 0.0
-  apres: 0.021
+  apres: 0.020833
   statut: sans
 - jalon: mp4-1
   annee: 1981
   ecurie: mclaren
   avant: 0.0
-  apres: 0.128
+  apres: 0.127778
   statut: sans
 - jalon: ravitaillement
   annee: 1982
   ecurie: brabham
-  avant: 0.207
-  apres: 0.172
+  avant: 0.207143
+  apres: 0.172222
   statut: sans
 - jalon: bt52
   annee: 1983
   ecurie: brabham
-  avant: 0.163
-  apres: 0.151
+  avant: 0.1625
+  apres: 0.151389
   statut: sans
 - jalon: lotus-92-active
   annee: 1983
   ecurie: team-lotus
-  avant: 0.031
-  apres: 0.062
+  avant: 0.03125
+  apres: 0.0625
   statut: sans
 - jalon: mp4-2
   annee: 1984
   ecurie: mclaren
-  avant: 0.158
-  apres: 0.458
+  avant: 0.158333
+  apres: 0.458333
   statut: sans
 - jalon: telemetrie-course
   annee: 1986
   ecurie: williams
-  avant: 0.156
+  avant: 0.15625
   apres: 0.375
   statut: sans
 - jalon: active-gagne
   annee: 1987
   ecurie: team-lotus
-  avant: 0.156
-  apres: 0.042
+  avant: 0.15625
+  apres: 0.041667
   statut: sans
 - jalon: active-gagne
   annee: 1987
   ecurie: williams
-  avant: 0.406
-  apres: 0.229
+  avant: 0.40625
+  apres: 0.229167
   statut: sans
 - jalon: march-881
   annee: 1988
@@ -3139,19 +3139,19 @@ jalons:
 - jalon: mp4-4
   annee: 1988
   ecurie: mclaren
-  avant: 0.219
-  apres: 0.646
+  avant: 0.21875
+  apres: 0.645833
   statut: ouvre
 - jalon: ferrari-640
   annee: 1989
   ecurie: ferrari
-  avant: 0.094
-  apres: 0.188
+  avant: 0.09375
+  apres: 0.1875
   statut: sans
 - jalon: tyrrell-019
   annee: 1990
   ecurie: leyton-house
-  avant: 0.0
+  avant: null
   apres: 0.0
   statut: sans
 - jalon: tyrrell-019
@@ -3163,26 +3163,26 @@ jalons:
 - jalon: fw14b
   annee: 1992
   ecurie: williams
-  avant: 0.281
-  apres: 0.562
+  avant: 0.28125
+  apres: 0.5625
   statut: pendant
 - jalon: cfd-benetton
   annee: 1993
   ecurie: benetton
-  avant: 0.062
-  apres: 0.403
+  avant: 0.0625
+  apres: 0.403186
   statut: sans
 - jalon: programme-anticipe
   annee: 1993
   ecurie: benetton
-  avant: 0.062
-  apres: 0.403
+  avant: 0.0625
+  apres: 0.403186
   statut: sans
 - jalon: fw17b
   annee: 1995
   ecurie: williams
-  avant: 0.531
-  apres: 0.505
+  avant: 0.53125
+  apres: 0.504902
   statut: pendant
 - jalon: boite-sans-coupure
   annee: 2005
@@ -3193,62 +3193,62 @@ jalons:
 - jalon: inerter
   annee: 2005
   ecurie: mclaren
-  avant: 0.09
-  apres: 0.332
+  avant: 0.090278
+  apres: 0.332301
   statut: sans
 - jalon: double-diffuseur
   annee: 2009
   ecurie: brawn
-  avant: 0.0
-  apres: 0.157
+  avant: null
+  apres: 0.470588
   statut: sans
 - jalon: double-diffuseur
   annee: 2009
   ecurie: honda
   avant: 0.0
-  apres: 0.0
+  apres: null
   statut: sans
 - jalon: kers
   annee: 2009
   ecurie: mclaren
-  avant: 0.402
-  apres: 0.232
+  avant: 0.401961
+  apres: 0.232198
   statut: sans
 - jalon: simulateur
   annee: 2009
   ecurie: mclaren
-  avant: 0.402
-  apres: 0.232
+  avant: 0.401961
+  apres: 0.232198
   statut: sans
 - jalon: f-duct
   annee: 2010
   ecurie: mclaren
-  avant: 0.225
-  apres: 0.31
+  avant: 0.22549
+  apres: 0.309649
   statut: sans
 - jalon: rb6
   annee: 2010
   ecurie: red-bull
-  avant: 0.176
-  apres: 0.485
+  avant: 0.176471
+  apres: 0.485088
   statut: ouvre
 - jalon: hybride
   annee: 2014
   ecurie: mercedes
-  avant: 0.104
-  apres: 0.863
+  avant: 0.103947
+  apres: 0.862991
   statut: ouvre
 - jalon: rendement-50
   annee: 2017
   ecurie: mercedes
-  avant: 0.873
-  apres: 0.613
+  avant: 0.873434
+  apres: 0.612698
   statut: pendant
 - jalon: rb18
   annee: 2022
   ecurie: red-bull
-  avant: 0.309
-  apres: 0.701
+  avant: 0.308824
+  apres: 0.700758
   statut: pendant
 jalons_sans_ecurie:
 - cooper-500
@@ -3271,25 +3271,25 @@ etude_jalons:
   - 4
   - 5
   jalons:
-  - 0.149
-  - 0.165
-  - 0.167
-  - 0.299
-  - 0.308
-  - 0.257
-  - 0.23
-  - 0.173
-  - 0.155
+  - 0.149275
+  - 0.164588
+  - 0.167162
+  - 0.298711
+  - 0.308356
+  - 0.25722
+  - 0.229951
+  - 0.172853
+  - 0.154761
   temoin:
-  - 0.174
-  - 0.167
-  - 0.155
-  - 0.136
-  - 0.148
-  - 0.16
-  - 0.165
-  - 0.176
-  - 0.174
+  - 0.173651
+  - 0.166698
+  - 0.154713
+  - 0.135809
+  - 0.147465
+  - 0.159688
+  - 0.164884
+  - 0.175889
+  - 0.174086
   n: 40
   series:
   - jalon: lancia-d50
@@ -3812,34 +3812,34 @@ etude_jalons:
     - 0.3333333333333333
     - null
     - null
-  gain: 0.114
-  gain_temoin: -0.018
-  hausses: 20
-p_hasard: 0.07
+  gain: 0.121931
+  gain_temoin: -0.017715
+  hausses: 19
+p_hasard: 0.070328
 voies:
 - voie: architecture
-  n: 6
-  gain: 0.242
+  n: 5
+  gain: 0.290374
   hausses: 5
   ouvre: 1
 - voie: aero
-  n: 15
-  gain: 0.083
-  hausses: 6
+  n: 12
+  gain: 0.089813
+  hausses: 5
   ouvre: 1
 - voie: moteur
   n: 7
-  gain: 0.106
+  gain: 0.106129
   hausses: 3
   ouvre: 2
 - voie: transmission
   n: 8
-  gain: 0.075
+  gain: 0.075362
   hausses: 4
   ouvre: 1
 - voie: methode
   n: 6
-  gain: 0.114
+  gain: 0.11417
   hausses: 3
   ouvre: 0
 chaines:
@@ -3851,7 +3851,7 @@ chaines:
   jalon: lancia-d50
   ecurie: lancia
   annee: 1954
-  avant: 0.0
+  avant: null
   apres: 0.0
   statut: sans
 - evenement: formule-2-1957
@@ -3863,7 +3863,7 @@ chaines:
   ecurie: cooper
   annee: 1958
   avant: 0.0
-  apres: 0.446
+  apres: 0.445791
   statut: sans
 - evenement: carburant-commercial-1958
   categorie: reglement
@@ -3874,7 +3874,7 @@ chaines:
   ecurie: cooper
   annee: 1958
   avant: 0.0
-  apres: 0.446
+  apres: 0.445791
   statut: sans
 - evenement: formule-2-1957
   categorie: reglement
@@ -3884,8 +3884,8 @@ chaines:
   jalon: cooper-titres
   ecurie: cooper
   annee: 1959
-  avant: 0.091
-  apres: 0.385
+  avant: 0.090909
+  apres: 0.385185
   statut: sans
 - evenement: jaguar-d-type-monocoque
   categorie: technologie
@@ -3895,8 +3895,8 @@ chaines:
   jalon: lotus-25
   ecurie: team-lotus
   annee: 1962
-  avant: 0.287
-  apres: 0.444
+  avant: 0.2875
+  apres: 0.444444
   statut: sans
 - evenement: formule-3-litres
   categorie: reglement
@@ -3906,8 +3906,8 @@ chaines:
   jalon: dfv
   ecurie: team-lotus
   annee: 1967
-  avant: 0.356
-  apres: 0.321
+  avant: 0.355556
+  apres: 0.320707
   statut: ouvre
 - evenement: chaparral-ailerons
   categorie: technologie
@@ -3917,8 +3917,8 @@ chaines:
   jalon: ailerons
   ecurie: ferrari
   annee: 1968
-  avant: 0.111
-  apres: 0.13
+  avant: 0.111111
+  apres: 0.130342
   statut: sans
 - evenement: chaparral-ailerons
   categorie: technologie
@@ -3928,8 +3928,8 @@ chaines:
   jalon: lotus-72
   ecurie: team-lotus
   annee: 1970
-  avant: 0.299
-  apres: 0.293
+  avant: 0.299242
+  apres: 0.292735
   statut: pendant
 - evenement: dfv-clients-1968
   categorie: economie
@@ -3939,8 +3939,8 @@ chaines:
   jalon: tyrrell-p34
   ecurie: tyrrell
   annee: 1976
-  avant: 0.102
-  apres: 0.042
+  avant: 0.102381
+  apres: 0.041667
   statut: sans
 - evenement: transmission-integrale-1968
   categorie: technologie
@@ -3950,8 +3950,8 @@ chaines:
   jalon: tyrrell-p34
   ecurie: tyrrell
   annee: 1976
-  avant: 0.102
-  apres: 0.042
+  avant: 0.102381
+  apres: 0.041667
   statut: sans
 - evenement: goodyear-monopole
   categorie: economie
@@ -3961,8 +3961,8 @@ chaines:
   jalon: tyrrell-p34
   ecurie: tyrrell
   annee: 1976
-  avant: 0.102
-  apres: 0.042
+  avant: 0.102381
+  apres: 0.041667
   statut: sans
 - evenement: mosquito-radiateurs
   categorie: technologie
@@ -3972,8 +3972,8 @@ chaines:
   jalon: lotus-78
   ecurie: team-lotus
   annee: 1977
-  avant: 0.031
-  apres: 0.265
+  avant: 0.03125
+  apres: 0.264706
   statut: sans
 - evenement: imperial-tapis-roulant
   categorie: technologie
@@ -3983,8 +3983,8 @@ chaines:
   jalon: lotus-78
   ecurie: team-lotus
   annee: 1977
-  avant: 0.031
-  apres: 0.265
+  avant: 0.03125
+  apres: 0.264706
   statut: sans
 - evenement: chaparral-2j
   categorie: technologie
@@ -3995,7 +3995,7 @@ chaines:
   ecurie: brabham
   annee: 1978
   avant: 0.0
-  apres: 0.113
+  apres: 0.113095
   statut: sans
 - evenement: ventilateur-ecarte-1978
   categorie: reglement
@@ -4006,7 +4006,7 @@ chaines:
   ecurie: brabham
   annee: 1978
   avant: 0.0
-  apres: 0.113
+  apres: 0.113095
   statut: sans
 - evenement: goodyear-mesure
   categorie: technologie
@@ -4016,8 +4016,8 @@ chaines:
   jalon: donnees-tyrrell
   ecurie: tyrrell
   annee: 1978
-  avant: 0.031
-  apres: 0.021
+  avant: 0.03125
+  apres: 0.020833
   statut: sans
 - evenement: renault-1977
   categorie: economie
@@ -4028,7 +4028,7 @@ chaines:
   ecurie: renault-1977
   annee: 1979
   avant: 0.0
-  apres: 0.16
+  apres: 0.160317
   statut: sans
 - evenement: fin-des-jupes
   categorie: reglement
@@ -4039,7 +4039,7 @@ chaines:
   ecurie: team-lotus
   annee: 1981
   avant: 0.0
-  apres: 0.021
+  apres: 0.020833
   statut: sans
 - evenement: carbone-farnborough
   categorie: technologie
@@ -4050,7 +4050,7 @@ chaines:
   ecurie: mclaren
   annee: 1981
   avant: 0.0
-  apres: 0.128
+  apres: 0.127778
   statut: sans
 - evenement: guerre-des-pneus-1982
   categorie: economie
@@ -4060,8 +4060,8 @@ chaines:
   jalon: ravitaillement
   ecurie: brabham
   annee: 1982
-  avant: 0.207
-  apres: 0.172
+  avant: 0.207143
+  apres: 0.172222
   statut: sans
 - evenement: fond-plat
   categorie: reglement
@@ -4071,8 +4071,8 @@ chaines:
   jalon: bt52
   ecurie: brabham
   annee: 1983
-  avant: 0.163
-  apres: 0.151
+  avant: 0.1625
+  apres: 0.151389
   statut: sans
 - evenement: cranfield-commandes-de-vol
   categorie: technologie
@@ -4082,8 +4082,8 @@ chaines:
   jalon: lotus-92-active
   ecurie: team-lotus
   annee: 1983
-  avant: 0.031
-  apres: 0.062
+  avant: 0.03125
+  apres: 0.0625
   statut: sans
 - evenement: tag-financement
   categorie: economie
@@ -4093,8 +4093,8 @@ chaines:
   jalon: mp4-2
   ecurie: mclaren
   annee: 1984
-  avant: 0.158
-  apres: 0.458
+  avant: 0.158333
+  apres: 0.458333
   statut: sans
 - evenement: carburant-220-litres-1984
   categorie: reglement
@@ -4104,8 +4104,8 @@ chaines:
   jalon: mp4-2
   ecurie: mclaren
   annee: 1984
-  avant: 0.158
-  apres: 0.458
+  avant: 0.158333
+  apres: 0.458333
   statut: sans
 - evenement: carburant-195-litres-1986
   categorie: reglement
@@ -4115,7 +4115,7 @@ chaines:
   jalon: telemetrie-course
   ecurie: williams
   annee: 1986
-  avant: 0.156
+  avant: 0.15625
   apres: 0.375
   statut: sans
 - evenement: cranfield-commandes-de-vol
@@ -4126,8 +4126,8 @@ chaines:
   jalon: active-gagne
   ecurie: team-lotus
   annee: 1987
-  avant: 0.156
-  apres: 0.042
+  avant: 0.15625
+  apres: 0.041667
   statut: sans
 - evenement: cranfield-commandes-de-vol
   categorie: technologie
@@ -4137,8 +4137,8 @@ chaines:
   jalon: active-gagne
   ecurie: williams
   annee: 1987
-  avant: 0.406
-  apres: 0.229
+  avant: 0.40625
+  apres: 0.229167
   statut: sans
 - evenement: turbo-bride
   categorie: reglement
@@ -4159,8 +4159,8 @@ chaines:
   jalon: mp4-4
   ecurie: mclaren
   annee: 1988
-  avant: 0.219
-  apres: 0.646
+  avant: 0.21875
+  apres: 0.645833
   statut: ouvre
 - evenement: chaparral-2k
   categorie: technologie
@@ -4170,8 +4170,8 @@ chaines:
   jalon: ferrari-640
   ecurie: ferrari
   annee: 1989
-  avant: 0.094
-  apres: 0.188
+  avant: 0.09375
+  apres: 0.1875
   statut: sans
 - evenement: phoenics-1981
   categorie: technologie
@@ -4181,8 +4181,8 @@ chaines:
   jalon: cfd-benetton
   ecurie: benetton
   annee: 1993
-  avant: 0.062
-  apres: 0.403
+  avant: 0.0625
+  apres: 0.403186
   statut: sans
 - evenement: imola-1994
   categorie: securite
@@ -4192,8 +4192,8 @@ chaines:
   jalon: fw17b
   ecurie: williams
   annee: 1995
-  avant: 0.531
-  apres: 0.505
+  avant: 0.53125
+  apres: 0.504902
   statut: pendant
 - evenement: boites-sans-coupure-autorisees
   categorie: reglement
@@ -4214,8 +4214,8 @@ chaines:
   jalon: inerter
   ecurie: mclaren
   annee: 2005
-  avant: 0.09
-  apres: 0.332
+  avant: 0.090278
+  apres: 0.332301
   statut: sans
 - evenement: honda-brawn-2008
   categorie: economie
@@ -4225,8 +4225,8 @@ chaines:
   jalon: double-diffuseur
   ecurie: brawn
   annee: 2009
-  avant: 0.0
-  apres: 0.157
+  avant: null
+  apres: 0.470588
   statut: sans
 - evenement: honda-brawn-2008
   categorie: economie
@@ -4237,7 +4237,7 @@ chaines:
   ecurie: honda
   annee: 2009
   avant: 0.0
-  apres: 0.0
+  apres: null
   statut: sans
 - evenement: refonte-aero-2009
   categorie: reglement
@@ -4247,8 +4247,8 @@ chaines:
   jalon: double-diffuseur
   ecurie: brawn
   annee: 2009
-  avant: 0.0
-  apres: 0.157
+  avant: null
+  apres: 0.470588
   statut: sans
 - evenement: refonte-aero-2009
   categorie: reglement
@@ -4259,7 +4259,7 @@ chaines:
   ecurie: honda
   annee: 2009
   avant: 0.0
-  apres: 0.0
+  apres: null
   statut: sans
 - evenement: prius-hybride
   categorie: technologie
@@ -4269,8 +4269,8 @@ chaines:
   jalon: kers
   ecurie: mclaren
   annee: 2009
-  avant: 0.402
-  apres: 0.232
+  avant: 0.401961
+  apres: 0.232198
   statut: sans
 - evenement: kers-autorise-2009
   categorie: reglement
@@ -4280,8 +4280,8 @@ chaines:
   jalon: kers
   ecurie: mclaren
   annee: 2009
-  avant: 0.402
-  apres: 0.232
+  avant: 0.401961
+  apres: 0.232198
   statut: sans
 - evenement: economies-2009
   categorie: economie
@@ -4291,8 +4291,8 @@ chaines:
   jalon: simulateur
   ecurie: mclaren
   annee: 2009
-  avant: 0.402
-  apres: 0.232
+  avant: 0.401961
+  apres: 0.232198
   statut: sans
 - evenement: refonte-aero-2009
   categorie: reglement
@@ -4302,8 +4302,8 @@ chaines:
   jalon: rb6
   ecurie: red-bull
   annee: 2010
-  avant: 0.176
-  apres: 0.485
+  avant: 0.176471
+  apres: 0.485088
   statut: ouvre
 - evenement: groupe-propulseur-2014
   categorie: reglement
@@ -4313,8 +4313,8 @@ chaines:
   jalon: hybride
   ecurie: mercedes
   annee: 2014
-  avant: 0.104
-  apres: 0.863
+  avant: 0.103947
+  apres: 0.862991
   statut: ouvre
 - evenement: groupe-propulseur-2014
   categorie: reglement
@@ -4324,8 +4324,8 @@ chaines:
   jalon: rendement-50
   ecurie: mercedes
   annee: 2017
-  avant: 0.873
-  apres: 0.613
+  avant: 0.873434
+  apres: 0.612698
   statut: pendant
 - evenement: retour-effet-de-sol
   categorie: reglement
@@ -4335,8 +4335,8 @@ chaines:
   jalon: rb18
   ecurie: red-bull
   annee: 2022
-  avant: 0.309
-  apres: 0.701
+  avant: 0.308824
+  apres: 0.700758
   statut: pendant
 - evenement: interdiction-ailerons-hauts
   categorie: reglement
@@ -4346,8 +4346,8 @@ chaines:
   jalon: ailerons
   ecurie: ferrari
   annee: 1969
-  avant: 0.042
-  apres: 0.163
+  avant: 0.041667
+  apres: 0.16317
   statut: sans
 - evenement: goodyear-monopole
   categorie: economie
@@ -4357,8 +4357,8 @@ chaines:
   jalon: tyrrell-p34
   ecurie: tyrrell
   annee: 1977
-  avant: 0.067
-  apres: 0.021
+  avant: 0.066964
+  apres: 0.020833
   statut: sans
 - evenement: ventilateur-ecarte-1978
   categorie: reglement
@@ -4368,8 +4368,8 @@ chaines:
   jalon: bt46b
   ecurie: brabham
   annee: 1979
-  avant: 0.062
-  apres: 0.138
+  avant: 0.0625
+  apres: 0.138095
   statut: sans
 - evenement: fond-plat
   categorie: reglement
@@ -4379,8 +4379,8 @@ chaines:
   jalon: lotus-78
   ecurie: team-lotus
   annee: 1983
-  avant: 0.031
-  apres: 0.062
+  avant: 0.03125
+  apres: 0.0625
   statut: sans
 - evenement: quatre-roues-au-plus
   categorie: reglement
@@ -4390,8 +4390,8 @@ chaines:
   jalon: tyrrell-p34
   ecurie: tyrrell
   annee: 1983
-  avant: 0.031
-  apres: 0.022
+  avant: 0.03125
+  apres: 0.022222
   statut: sans
 - evenement: carburant-220-litres-1984
   categorie: reglement
@@ -4401,8 +4401,8 @@ chaines:
   jalon: ravitaillement
   ecurie: brabham
   annee: 1984
-  avant: 0.196
-  apres: 0.062
+  avant: 0.195833
+  apres: 0.0625
   statut: sans
 - evenement: fin-aides-electroniques
   categorie: reglement
@@ -4424,7 +4424,7 @@ chaines:
   ecurie: williams
   annee: 1994
   avant: 0.625
-  apres: 0.494
+  apres: 0.493873
   statut: pendant
 - evenement: fin-aides-electroniques
   categorie: reglement
@@ -4435,7 +4435,7 @@ chaines:
   ecurie: williams
   annee: 1994
   avant: 0.625
-  apres: 0.494
+  apres: 0.493873
   statut: pendant
 - evenement: fin-aides-electroniques
   categorie: reglement
@@ -4456,8 +4456,8 @@ chaines:
   jalon: f-duct
   ecurie: mclaren
   annee: 2011
-  avant: 0.19
-  apres: 0.222
+  avant: 0.190402
+  apres: 0.22193
   statut: sans
 - evenement: echappements-2012
   categorie: reglement
@@ -4467,8 +4467,8 @@ chaines:
   jalon: rb6
   ecurie: red-bull
   annee: 2012
-  avant: 0.553
-  apres: 0.397
+  avant: 0.552632
+  apres: 0.397368
   statut: pendant
 - evenement: retour-effet-de-sol
   categorie: reglement
@@ -4478,8 +4478,8 @@ chaines:
   jalon: inerter
   ecurie: mclaren
   annee: 2022
-  avant: 0.023
-  apres: 0.083
+  avant: 0.022727
+  apres: 0.083333
   statut: sans
 amont:
   jalons: 39
@@ -4488,244 +4488,244 @@ amont:
   ouvrants: 5
   ouvrants_amont: 4
   ouvrants_regle: 4
-  p: 0.143
+  p: 0.143111
 ingenieurs_apparies:
 - groupe: toutes
   n: 99
   hausse: 36
-  hausse_attendue: 19.6
-  gain: 0.04
-  gain_attendu: -0.004
-  p: 0.0
+  hausse_attendue: 20.3
+  gain: 0.039031
+  gain_attendu: -0.003443
+  p: 0.0001
 - groupe: tier-a
-  n: 9
-  hausse: 5
-  hausse_attendue: 1.7
-  gain: 0.101
-  gain_attendu: 0.027
-  p: 0.0116
+  n: 10
+  hausse: 6
+  hausse_attendue: 1.9
+  gain: 0.099354
+  gain_attendu: 0.026531
+  p: 0.0031
 - groupe: tiers-b-c-d
   n: 18
-  hausse: 7
-  hausse_attendue: 4.1
-  gain: 0.043
-  gain_attendu: -0.035
-  p: 0.0864
+  hausse: 6
+  hausse_attendue: 4.5
+  gain: 0.038014
+  gain_attendu: -0.031671
+  p: 0.2709
 - groupe: hc
-  n: 72
+  n: 71
   hausse: 24
-  hausse_attendue: 13.7
-  gain: 0.032
-  gain_attendu: -0.0
-  p: 0.0017
+  hausse_attendue: 13.9
+  gain: 0.030792
+  gain_attendu: -0.000508
+  p: 0.0022
 - groupe: departs
-  n: 105
-  hausse: 22
-  hausse_attendue: 22.6
-  gain: -0.005
-  gain_attendu: -0.01
-  p: 0.5993
+  n: 107
+  hausse: 23
+  hausse_attendue: 23.6
+  gain: -0.005129
+  gain_attendu: -0.010674
+  p: 0.599
 rebat:
   avec:
-    changements: 15
+    changements: 14
     saisons: 21
   sans:
     changements: 24
     saisons: 54
-  p: 0.0317
+  p: 0.0701
 ingenieurs:
 - ingenieur: mauro-forghieri
   ecurie: ferrari
   type: arrivee
   annee: 1961
-  avant: 0.161
-  apres: 0.242
+  avant: 0.161111
+  apres: 0.241667
 - ingenieur: alan-styman
   ecurie: team-lotus
   type: arrivee
   annee: 1962
-  avant: 0.287
-  apres: 0.444
+  avant: 0.2875
+  apres: 0.444444
 - ingenieur: alan-styman
   ecurie: team-lotus
   type: depart
   annee: 1962
-  avant: 0.354
-  apres: 0.533
+  avant: 0.354167
+  apres: 0.533333
 - ingenieur: len-terry
   ecurie: team-lotus
   type: arrivee
   annee: 1962
-  avant: 0.287
-  apres: 0.444
+  avant: 0.2875
+  apres: 0.444444
 - ingenieur: len-terry
   ecurie: gilby
   type: depart
   annee: 1962
   avant: 0.0
   apres: 0.0
+- ingenieur: mike-costin
+  ecurie: team-lotus
+  type: depart
+  annee: 1962
+  avant: 0.354167
+  apres: 0.533333
 - ingenieur: owen-maddock
   ecurie: cooper
   type: depart
   annee: 1963
-  avant: 0.056
-  apres: 0.037
+  avant: 0.055556
+  apres: 0.037037
 - ingenieur: len-terry
   ecurie: team-lotus
   type: depart
   annee: 1965
   avant: 0.45
-  apres: 0.297
+  apres: 0.297138
 - ingenieur: len-terry
   ecurie: eagle
   type: depart
   annee: 1967
-  avant: 0.045
+  avant: 0.045455
   apres: 0.0
 - ingenieur: robin-herd
   ecurie: mclaren
   type: depart
   annee: 1968
   avant: 0.125
-  apres: 0.03
+  apres: 0.030303
 - ingenieur: derek-gardner
   ecurie: matra
   type: arrivee
   annee: 1969
   avant: 0.125
-  apres: 0.182
+  apres: 0.181818
 - ingenieur: derek-gardner
   ecurie: matra
   type: depart
   annee: 1969
-  avant: 0.398
+  avant: 0.397727
   apres: 0.0
 - ingenieur: gerard-ducarouge
   ecurie: matra
   type: arrivee
   annee: 1969
   avant: 0.125
-  apres: 0.182
+  apres: 0.181818
 - ingenieur: gerard-ducarouge
   ecurie: matra
   type: depart
   annee: 1969
-  avant: 0.398
+  avant: 0.397727
   apres: 0.0
 - ingenieur: tony-rudd
   ecurie: brm
   type: depart
   annee: 1969
   avant: 0.0
-  apres: 0.114
+  apres: 0.114025
 - ingenieur: john-gentry
   ecurie: march
   type: depart
   annee: 1970
-  avant: 0.038
+  avant: 0.076923
   apres: 0.0
 - ingenieur: tony-southgate
   ecurie: brm
   type: arrivee
   annee: 1970
   avant: 0.0
-  apres: 0.114
+  apres: 0.114025
 - ingenieur: ralph-bellamy
   ecurie: mclaren
   type: arrivee
   annee: 1971
-  avant: 0.045
-  apres: 0.094
+  avant: 0.045455
+  apres: 0.094444
 - ingenieur: ralph-bellamy
   ecurie: mclaren
   type: depart
   annee: 1971
   avant: 0.0
-  apres: 0.183
+  apres: 0.183333
 - ingenieur: ron-tauranac
   ecurie: brabham
   type: depart
   annee: 1971
-  avant: 0.038
-  apres: 0.067
+  avant: 0.038462
+  apres: 0.066667
+- ingenieur: gordon-murray
+  ecurie: brabham
+  type: arrivee
+  annee: 1972
+  avant: 0.038462
+  apres: 0.066667
 - ingenieur: john-barnard
   ecurie: mclaren
   type: arrivee
   annee: 1972
   avant: 0.0
-  apres: 0.183
+  apres: 0.183333
 - ingenieur: ralph-bellamy
   ecurie: brabham
   type: arrivee
   annee: 1972
-  avant: 0.038
-  apres: 0.067
+  avant: 0.038462
+  apres: 0.066667
 - ingenieur: ralph-bellamy
   ecurie: brabham
   type: depart
   annee: 1972
   avant: 0.0
-  apres: 0.114
+  apres: 0.114286
 - ingenieur: tony-southgate
   ecurie: brm
   type: depart
   annee: 1972
-  avant: 0.133
-  apres: 0.0
-- ingenieur: gordon-murray
-  ecurie: brabham
-  type: arrivee
-  annee: 1973
-  avant: 0.0
-  apres: 0.114
-- ingenieur: tony-southgate
-  ecurie: shadow
-  type: arrivee
-  annee: 1974
-  avant: 0.0
+  avant: 0.132576
   apres: 0.0
 - ingenieur: geoff-aldridge
   ecurie: team-lotus
   type: arrivee
-  annee: 1975
-  avant: 0.333
-  apres: 0.119
+  annee: 1974
+  avant: 0.441667
+  apres: 0.0875
 - ingenieur: harvey-postlethwaite
   ecurie: hesketh
   type: depart
   annee: 1975
-  avant: 0.036
+  avant: 0.035714
   apres: 0.0
 - ingenieur: john-barnard
   ecurie: mclaren
   type: depart
   annee: 1975
-  avant: 0.24
-  apres: 0.184
+  avant: 0.240476
+  apres: 0.183824
 - ingenieur: martin-ogilvie
   ecurie: team-lotus
   type: arrivee
   annee: 1975
-  avant: 0.333
-  apres: 0.119
+  avant: 0.333333
+  apres: 0.118873
 - ingenieur: peter-wright
   ecurie: team-lotus
   type: arrivee
   annee: 1975
-  avant: 0.333
-  apres: 0.119
+  avant: 0.333333
+  apres: 0.118873
 - ingenieur: tony-rudd
   ecurie: team-lotus
   type: arrivee
   annee: 1975
-  avant: 0.333
-  apres: 0.119
+  avant: 0.333333
+  apres: 0.118873
 - ingenieur: tony-southgate
   ecurie: shadow
   type: depart
   annee: 1975
   avant: 0.0
-  apres: 0.02
+  apres: 0.019608
 - ingenieur: john-gentry
   ecurie: fittipaldi
   type: arrivee
@@ -4743,31 +4743,25 @@ ingenieurs:
   type: arrivee
   annee: 1976
   avant: 0.1
-  apres: 0.286
+  apres: 0.285539
 - ingenieur: derek-gardner
   ecurie: tyrrell
   type: depart
   annee: 1977
-  avant: 0.031
-  apres: 0.021
-- ingenieur: harvey-postlethwaite
-  ecurie: wolf
-  type: depart
-  annee: 1977
-  avant: 0.088
-  apres: 0.0
+  avant: 0.03125
+  apres: 0.020833
 - ingenieur: john-gentry
   ecurie: tyrrell
   type: arrivee
   annee: 1977
-  avant: 0.067
-  apres: 0.021
+  avant: 0.066964
+  apres: 0.020833
 - ingenieur: john-gentry
   ecurie: tyrrell
   type: depart
   annee: 1977
-  avant: 0.031
-  apres: 0.021
+  avant: 0.03125
+  apres: 0.020833
 - ingenieur: len-terry
   ecurie: brm
   type: arrivee
@@ -4778,20 +4772,32 @@ ingenieurs:
   ecurie: tyrrell
   type: arrivee
   annee: 1977
-  avant: 0.067
-  apres: 0.021
+  avant: 0.066964
+  apres: 0.020833
+- ingenieur: tony-southgate
+  ecurie: shadow
+  type: arrivee
+  annee: 1977
+  avant: 0.0
+  apres: 0.019608
+- ingenieur: tony-southgate
+  ecurie: shadow
+  type: depart
+  annee: 1977
+  avant: 0.029412
+  apres: 0.0
 - ingenieur: tony-southgate
   ecurie: team-lotus
   type: depart
   annee: 1977
-  avant: 0.178
-  apres: 0.167
+  avant: 0.178309
+  apres: 0.166667
 - ingenieur: david-north
   ecurie: brabham
   type: arrivee
   annee: 1978
   avant: 0.0
-  apres: 0.113
+  apres: 0.113095
 - ingenieur: john-gentry
   ecurie: ats-1978
   type: depart
@@ -4802,20 +4808,20 @@ ingenieurs:
   ecurie: ferrari
   type: depart
   annee: 1979
-  avant: 0.356
-  apres: 0.107
+  avant: 0.35625
+  apres: 0.106944
 - ingenieur: francois-castaing
   ecurie: renault-1977
   type: depart
   annee: 1979
-  avant: 0.033
-  apres: 0.221
+  avant: 0.033333
+  apres: 0.221429
 - ingenieur: geoff-aldridge
   ecurie: team-lotus
   type: depart
   annee: 1979
   avant: 0.25
-  apres: 0.021
+  apres: 0.020833
 - ingenieur: ralph-bellamy
   ecurie: fittipaldi
   type: arrivee
@@ -4845,31 +4851,43 @@ ingenieurs:
   type: arrivee
   annee: 1980
   avant: 0.0
-  apres: 0.106
+  apres: 0.105556
+- ingenieur: harvey-postlethwaite
+  ecurie: fittipaldi
+  type: arrivee
+  annee: 1980
+  avant: 0.0
+  apres: 0.0
+- ingenieur: harvey-postlethwaite
+  ecurie: fittipaldi
+  type: depart
+  annee: 1980
+  avant: 0.0
+  apres: 0.0
 - ingenieur: john-barnard
   ecurie: mclaren
   type: arrivee
   annee: 1980
   avant: 0.0
-  apres: 0.106
+  apres: 0.105556
 - ingenieur: steve-nichols
   ecurie: mclaren
   type: arrivee
   annee: 1980
   avant: 0.0
-  apres: 0.106
+  apres: 0.105556
 - ingenieur: arthur-webb
   ecurie: mclaren
   type: arrivee
   annee: 1981
   avant: 0.0
-  apres: 0.128
+  apres: 0.127778
 - ingenieur: arthur-webb
   ecurie: mclaren
   type: depart
   annee: 1981
-  avant: 0.033
-  apres: 0.356
+  avant: 0.033333
+  apres: 0.355556
 - ingenieur: gerard-ducarouge
   ecurie: alfa-romeo-1979
   type: arrivee
@@ -4880,19 +4898,19 @@ ingenieurs:
   ecurie: ligier
   type: depart
   annee: 1981
-  avant: 0.138
+  avant: 0.138095
   apres: 0.0
 - ingenieur: harvey-postlethwaite
   ecurie: ferrari
   type: arrivee
   annee: 1981
   avant: 0.2
-  apres: 0.196
+  apres: 0.195833
 - ingenieur: tony-southgate
   ecurie: theodore
   type: arrivee
   annee: 1981
-  avant: 0.0
+  avant: null
   apres: 0.0
 - ingenieur: tony-southgate
   ecurie: theodore
@@ -4904,14 +4922,14 @@ ingenieurs:
   ecurie: mclaren
   type: arrivee
   annee: 1982
-  avant: 0.033
-  apres: 0.356
+  avant: 0.033333
+  apres: 0.355556
 - ingenieur: colin-chapman
   ecurie: team-lotus
   type: depart
   annee: 1982
-  avant: 0.031
-  apres: 0.062
+  avant: 0.03125
+  apres: 0.0625
 - ingenieur: gerard-ducarouge
   ecurie: alfa-romeo-1979
   type: depart
@@ -4928,38 +4946,32 @@ ingenieurs:
   ecurie: team-lotus
   type: arrivee
   annee: 1983
-  avant: 0.031
-  apres: 0.062
+  avant: 0.03125
+  apres: 0.0625
 - ingenieur: alan-jenkins
   ecurie: mclaren
   type: depart
   annee: 1984
-  avant: 0.408
-  apres: 0.271
+  avant: 0.408333
+  apres: 0.270833
 - ingenieur: john-gentry
   ecurie: toleman
   type: depart
   annee: 1984
   avant: 0.0
   apres: 0.0
-- ingenieur: martin-ogilvie
-  ecurie: team-lotus
-  type: depart
-  annee: 1984
-  avant: 0.0
-  apres: 0.146
 - ingenieur: matthew-jeffreys
   ecurie: mclaren
   type: arrivee
   annee: 1984
-  avant: 0.158
-  apres: 0.458
+  avant: 0.158333
+  apres: 0.458333
 - ingenieur: ross-brawn
   ecurie: williams
   type: depart
   annee: 1984
-  avant: 0.065
-  apres: 0.458
+  avant: 0.064583
+  apres: 0.458333
 - ingenieur: gustav-brunner
   ecurie: ram
   type: arrivee
@@ -4976,32 +4988,44 @@ ingenieurs:
   ecurie: renault-1977
   type: arrivee
   annee: 1985
-  avant: 0.133
+  avant: 0.133333
+  apres: 0.0
+- ingenieur: ross-brawn
+  ecurie: lola
+  type: arrivee
+  annee: 1985
+  avant: null
   apres: 0.0
 - ingenieur: gordon-murray
   ecurie: brabham
   type: depart
   annee: 1986
-  avant: 0.031
+  avant: 0.03125
   apres: 0.0
 - ingenieur: john-barnard
   ecurie: mclaren
   type: depart
   annee: 1986
-  avant: 0.312
-  apres: 0.583
+  avant: 0.3125
+  apres: 0.583333
 - ingenieur: john-gentry
   ecurie: brabham
   type: arrivee
   annee: 1986
-  avant: 0.094
+  avant: 0.09375
   apres: 0.0
 - ingenieur: john-gentry
   ecurie: brabham
   type: depart
   annee: 1986
-  avant: 0.031
+  avant: 0.03125
   apres: 0.0
+- ingenieur: martin-ogilvie
+  ecurie: team-lotus
+  type: depart
+  annee: 1986
+  avant: 0.15625
+  apres: 0.041667
 - ingenieur: david-north
   ecurie: brabham
   type: depart
@@ -5012,19 +5036,19 @@ ingenieurs:
   ecurie: mclaren
   type: arrivee
   annee: 1987
-  avant: 0.312
-  apres: 0.583
+  avant: 0.3125
+  apres: 0.583333
 - ingenieur: harvey-postlethwaite
   ecurie: ferrari
   type: depart
   annee: 1987
-  avant: 0.062
-  apres: 0.208
+  avant: 0.0625
+  apres: 0.208333
 - ingenieur: john-barnard
   ecurie: ferrari
   type: arrivee
   annee: 1987
-  avant: 0.062
+  avant: 0.0625
   apres: 0.125
 - ingenieur: maurice-philippe
   ecurie: tyrrell
@@ -5036,14 +5060,14 @@ ingenieurs:
   ecurie: ferrari
   type: depart
   annee: 1987
-  avant: 0.062
-  apres: 0.208
+  avant: 0.0625
+  apres: 0.208333
 - ingenieur: paddy-lowe
   ecurie: williams
   type: arrivee
   annee: 1987
-  avant: 0.406
-  apres: 0.229
+  avant: 0.40625
+  apres: 0.229167
 - ingenieur: ross-brawn
   ecurie: arrows
   type: arrivee
@@ -5054,8 +5078,8 @@ ingenieurs:
   ecurie: williams
   type: arrivee
   annee: 1987
-  avant: 0.406
-  apres: 0.229
+  avant: 0.40625
+  apres: 0.229167
 - ingenieur: adrian-newey
   ecurie: march
   type: arrivee
@@ -5072,19 +5096,19 @@ ingenieurs:
   ecurie: mclaren
   type: arrivee
   annee: 1988
-  avant: 0.219
-  apres: 0.646
+  avant: 0.21875
+  apres: 0.645833
 - ingenieur: frank-dernie
   ecurie: williams
   type: depart
   annee: 1988
-  avant: 0.281
-  apres: 0.229
+  avant: 0.28125
+  apres: 0.229167
 - ingenieur: gerard-ducarouge
   ecurie: team-lotus
   type: depart
   annee: 1988
-  avant: 0.062
+  avant: 0.0625
   apres: 0.0
 - ingenieur: gustav-brunner
   ecurie: rial
@@ -5108,20 +5132,26 @@ ingenieurs:
   ecurie: team-lotus
   type: arrivee
   annee: 1989
-  avant: 0.062
+  avant: 0.0625
   apres: 0.0
 - ingenieur: gordon-murray
   ecurie: mclaren
   type: depart
   annee: 1989
-  avant: 0.781
-  apres: 0.396
+  avant: 0.78125
+  apres: 0.395833
 - ingenieur: gustav-brunner
   ecurie: zakspeed
   type: arrivee
   annee: 1989
   avant: 0.0
   apres: 0.0
+- ingenieur: john-barnard
+  ecurie: benetton
+  type: arrivee
+  annee: 1989
+  avant: 0.0
+  apres: 0.083333
 - ingenieur: john-barnard
   ecurie: ferrari
   type: depart
@@ -5132,14 +5162,14 @@ ingenieurs:
   ecurie: mclaren
   type: arrivee
   annee: 1989
-  avant: 0.562
+  avant: 0.5625
   apres: 0.5
 - ingenieur: mike-gascoyne
   ecurie: mclaren
   type: depart
   annee: 1989
-  avant: 0.781
-  apres: 0.396
+  avant: 0.78125
+  apres: 0.395833
 - ingenieur: ross-brawn
   ecurie: arrows
   type: depart
@@ -5150,14 +5180,14 @@ ingenieurs:
   ecurie: mclaren
   type: depart
   annee: 1989
-  avant: 0.781
-  apres: 0.396
+  avant: 0.78125
+  apres: 0.395833
 - ingenieur: adrian-newey
   ecurie: williams
   type: arrivee
   annee: 1990
-  avant: 0.062
-  apres: 0.396
+  avant: 0.0625
+  apres: 0.395833
 - ingenieur: adrian-newey
   ecurie: leyton-house
   type: depart
@@ -5211,13 +5241,19 @@ ingenieurs:
   type: arrivee
   annee: 1991
   avant: 0.125
-  apres: 0.562
+  apres: 0.5625
 - ingenieur: james-allison
   ecurie: benetton
   type: arrivee
   annee: 1991
-  avant: 0.094
-  apres: 0.062
+  avant: 0.09375
+  apres: 0.0625
+- ingenieur: john-barnard
+  ecurie: benetton
+  type: depart
+  annee: 1991
+  avant: 0.09375
+  apres: 0.208333
 - ingenieur: mike-gascoyne
   ecurie: tyrrell
   type: depart
@@ -5234,32 +5270,32 @@ ingenieurs:
   ecurie: benetton
   type: arrivee
   annee: 1991
-  avant: 0.094
-  apres: 0.062
+  avant: 0.09375
+  apres: 0.0625
 - ingenieur: james-allison
   ecurie: benetton
   type: depart
   annee: 1992
-  avant: 0.062
-  apres: 0.403
+  avant: 0.0625
+  apres: 0.403186
 - ingenieur: john-barnard
   ecurie: ferrari
   type: arrivee
   annee: 1992
-  avant: 0.188
-  apres: 0.021
+  avant: 0.1875
+  apres: 0.020833
 - ingenieur: steve-nichols
   ecurie: ferrari
   type: depart
   annee: 1992
   avant: 0.0
-  apres: 0.04
+  apres: 0.040441
 - ingenieur: frank-dernie
   ecurie: benetton
   type: arrivee
   annee: 1993
-  avant: 0.062
-  apres: 0.403
+  avant: 0.0625
+  apres: 0.403186
 - ingenieur: gerard-ducarouge
   ecurie: ligier
   type: arrivee
@@ -5271,7 +5307,7 @@ ingenieurs:
   type: arrivee
   annee: 1993
   avant: 0.0
-  apres: 0.04
+  apres: 0.040441
 - ingenieur: gustav-brunner
   ecurie: minardi
   type: arrivee
@@ -5306,14 +5342,14 @@ ingenieurs:
   ecurie: mclaren
   type: arrivee
   annee: 1993
-  avant: 0.406
-  apres: 0.104
+  avant: 0.40625
+  apres: 0.104167
 - ingenieur: paddy-lowe
   ecurie: williams
   type: depart
   annee: 1993
   avant: 0.625
-  apres: 0.494
+  apres: 0.493873
 - ingenieur: sam-michael
   ecurie: team-lotus
   type: arrivee
@@ -5331,67 +5367,67 @@ ingenieurs:
   type: depart
   annee: 1994
   avant: 0.0
-  apres: 0.021
+  apres: 0.03125
 - ingenieur: james-allison
   ecurie: benetton
   type: arrivee
   annee: 1994
-  avant: 0.062
-  apres: 0.382
+  avant: 0.0625
+  apres: 0.382353
 - ingenieur: osamu-goto
   ecurie: ferrari
   type: arrivee
   annee: 1994
   avant: 0.0
-  apres: 0.103
+  apres: 0.102941
 - ingenieur: adrian-newey
   ecurie: williams
   type: depart
   annee: 1996
-  avant: 0.522
-  apres: 0.157
+  avant: 0.522059
+  apres: 0.156863
 - ingenieur: rory-byrne
   ecurie: benetton
   type: depart
   annee: 1996
-  avant: 0.324
-  apres: 0.02
+  avant: 0.323529
+  apres: 0.019608
 - ingenieur: ross-brawn
   ecurie: benetton
   type: depart
   annee: 1996
-  avant: 0.324
-  apres: 0.02
+  avant: 0.323529
+  apres: 0.019608
 - ingenieur: sam-michael
   ecurie: jordan
   type: arrivee
   annee: 1996
   avant: 0.0
-  apres: 0.021
+  apres: 0.020833
 - ingenieur: adrian-newey
   ecurie: mclaren
   type: arrivee
   annee: 1997
   avant: 0.0
-  apres: 0.392
+  apres: 0.392157
 - ingenieur: bob-bell
   ecurie: benetton
   type: arrivee
   annee: 1997
-  avant: 0.324
-  apres: 0.02
+  avant: 0.323529
+  apres: 0.019608
 - ingenieur: gustav-brunner
   ecurie: ferrari
   type: depart
   annee: 1997
-  avant: 0.241
-  apres: 0.446
+  avant: 0.240809
+  apres: 0.446078
 - ingenieur: john-barnard
   ecurie: ferrari
   type: depart
   annee: 1997
-  avant: 0.241
-  apres: 0.446
+  avant: 0.240809
+  apres: 0.446078
 - ingenieur: osamu-goto
   ecurie: sauber
   type: arrivee
@@ -5402,19 +5438,19 @@ ingenieurs:
   ecurie: ferrari
   type: arrivee
   annee: 1997
-  avant: 0.123
-  apres: 0.348
+  avant: 0.123162
+  apres: 0.348039
 - ingenieur: ross-brawn
   ecurie: ferrari
   type: arrivee
   annee: 1997
-  avant: 0.123
-  apres: 0.348
+  avant: 0.123162
+  apres: 0.348039
 - ingenieur: bob-bell
   ecurie: benetton
   type: depart
   annee: 1998
-  avant: 0.029
+  avant: 0.029412
   apres: 0.0
 - ingenieur: gustav-brunner
   ecurie: minardi
@@ -5426,32 +5462,32 @@ ingenieurs:
   ecurie: benetton
   type: depart
   annee: 1998
-  avant: 0.029
+  avant: 0.029412
   apres: 0.0
 - ingenieur: mike-gascoyne
   ecurie: jordan
   type: arrivee
   annee: 1998
   avant: 0.0
-  apres: 0.062
+  apres: 0.0625
 - ingenieur: bob-bell
   ecurie: jordan
   type: arrivee
   annee: 1999
-  avant: 0.031
-  apres: 0.042
+  avant: 0.03125
+  apres: 0.041667
 - ingenieur: james-allison
   ecurie: ferrari
   type: arrivee
   annee: 1999
-  avant: 0.335
-  apres: 0.498
+  avant: 0.334559
+  apres: 0.497549
 - ingenieur: mike-gascoyne
   ecurie: jordan
   type: depart
   annee: 2000
-  avant: 0.062
-  apres: 0.021
+  avant: 0.0625
+  apres: 0.020833
 - ingenieur: bob-bell
   ecurie: benetton
   type: arrivee
@@ -5475,13 +5511,13 @@ ingenieurs:
   type: arrivee
   annee: 2001
   avant: 0.0
-  apres: 0.181
+  apres: 0.181373
 - ingenieur: david-north
   ecurie: mclaren
   type: depart
   annee: 2002
-  avant: 0.147
-  apres: 0.236
+  avant: 0.147059
+  apres: 0.235624
 - ingenieur: geoff-willis
   ecurie: bar
   type: arrivee
@@ -5492,20 +5528,20 @@ ingenieurs:
   ecurie: williams
   type: depart
   annee: 2002
-  avant: 0.147
-  apres: 0.102
+  avant: 0.147059
+  apres: 0.101852
 - ingenieur: frank-dernie
   ecurie: williams
   type: arrivee
   annee: 2003
-  avant: 0.147
-  apres: 0.102
+  avant: 0.147059
+  apres: 0.101852
 - ingenieur: frank-dernie
   ecurie: williams
   type: depart
   annee: 2003
-  avant: 0.154
-  apres: 0.019
+  avant: 0.154412
+  apres: 0.018519
 - ingenieur: mike-gascoyne
   ecurie: toyota
   type: arrivee
@@ -5516,20 +5552,20 @@ ingenieurs:
   ecurie: renault
   type: depart
   annee: 2003
-  avant: 0.031
-  apres: 0.307
+  avant: 0.03125
+  apres: 0.307018
 - ingenieur: james-allison
   ecurie: ferrari
   type: depart
   annee: 2004
-  avant: 0.667
-  apres: 0.361
+  avant: 0.666667
+  apres: 0.360681
 - ingenieur: adrian-newey
   ecurie: mclaren
   type: depart
   annee: 2005
-  avant: 0.291
-  apres: 0.268
+  avant: 0.290936
+  apres: 0.267974
 - ingenieur: gustav-brunner
   ecurie: toyota
   type: depart
@@ -5540,14 +5576,14 @@ ingenieurs:
   ecurie: renault
   type: arrivee
   annee: 2005
-  avant: 0.059
-  apres: 0.288
+  avant: 0.059028
+  apres: 0.288499
 - ingenieur: matthew-jeffreys
   ecurie: mclaren
   type: depart
   annee: 2005
-  avant: 0.291
-  apres: 0.268
+  avant: 0.290936
+  apres: 0.267974
 - ingenieur: adrian-newey
   ecurie: red-bull
   type: arrivee
@@ -5558,7 +5594,7 @@ ingenieurs:
   ecurie: honda
   type: depart
   annee: 2006
-  avant: 0.028
+  avant: 0.055556
   apres: 0.0
 - ingenieur: mike-gascoyne
   ecurie: toyota
@@ -5570,37 +5606,37 @@ ingenieurs:
   ecurie: ferrari
   type: depart
   annee: 2006
-  avant: 0.276
-  apres: 0.344
+  avant: 0.276316
+  apres: 0.344227
 - ingenieur: ross-brawn
   ecurie: ferrari
   type: depart
   annee: 2006
-  avant: 0.276
-  apres: 0.344
+  avant: 0.276316
+  apres: 0.344227
 - ingenieur: geoff-willis
   ecurie: red-bull
   type: arrivee
   annee: 2007
   avant: 0.0
-  apres: 0.118
+  apres: 0.117647
 - ingenieur: ross-brawn
   ecurie: honda
   type: arrivee
   annee: 2008
-  avant: 0.028
+  avant: 0.027778
   apres: 0.0
 - ingenieur: geoff-willis
   ecurie: red-bull
   type: depart
   annee: 2009
-  avant: 0.176
-  apres: 0.485
+  avant: 0.176471
+  apres: 0.485088
 - ingenieur: pat-symonds
   ecurie: renault
   type: depart
   annee: 2009
-  avant: 0.056
+  avant: 0.055556
   apres: 0.0
 - ingenieur: bob-bell
   ecurie: renault
@@ -5619,25 +5655,25 @@ ingenieurs:
   type: arrivee
   annee: 2011
   avant: 0.0
-  apres: 0.069
+  apres: 0.069298
 - ingenieur: bob-bell
   ecurie: mercedes
   type: arrivee
   annee: 2011
   avant: 0.0
-  apres: 0.069
+  apres: 0.069298
 - ingenieur: geoff-willis
   ecurie: mercedes
   type: arrivee
   annee: 2011
   avant: 0.0
-  apres: 0.069
+  apres: 0.069298
 - ingenieur: james-allison
   ecurie: renault
   type: depart
   annee: 2011
   avant: 0.0
-  apres: 0.0
+  apres: null
 - ingenieur: pat-symonds
   ecurie: virgin
   type: arrivee
@@ -5649,37 +5685,37 @@ ingenieurs:
   type: depart
   annee: 2011
   avant: 0.0
-  apres: 0.017
+  apres: 0.016667
 - ingenieur: sam-michael
   ecurie: williams
   type: depart
   annee: 2011
   avant: 0.0
-  apres: 0.017
+  apres: 0.016667
 - ingenieur: sam-michael
   ecurie: mclaren
   type: arrivee
   annee: 2012
-  avant: 0.289
-  apres: 0.117
+  avant: 0.289474
+  apres: 0.116667
 - ingenieur: james-allison
   ecurie: ferrari
   type: arrivee
   annee: 2013
-  avant: 0.101
-  apres: 0.088
+  avant: 0.101316
+  apres: 0.087719
 - ingenieur: james-allison
   ecurie: lotus-f1
   type: depart
   annee: 2013
-  avant: 0.051
+  avant: 0.051316
   apres: 0.0
 - ingenieur: paddy-lowe
   ecurie: mercedes
   type: arrivee
   annee: 2013
   avant: 0.025
-  apres: 0.614
+  apres: 0.614035
 - ingenieur: paddy-lowe
   ecurie: mclaren
   type: depart
@@ -5702,14 +5738,14 @@ ingenieurs:
   ecurie: mercedes
   type: depart
   annee: 2013
-  avant: 0.104
-  apres: 0.863
+  avant: 0.103947
+  apres: 0.862991
 - ingenieur: bob-bell
   ecurie: mercedes
   type: depart
   annee: 2014
   avant: 0.5
-  apres: 0.782
+  apres: 0.782289
 - ingenieur: sam-michael
   ecurie: mclaren
   type: depart
@@ -5720,20 +5756,20 @@ ingenieurs:
   ecurie: renault
   type: arrivee
   annee: 2016
-  avant: 0.0
+  avant: null
   apres: 0.0
 - ingenieur: james-allison
   ecurie: ferrari
   type: depart
   annee: 2016
-  avant: 0.079
-  apres: 0.226
+  avant: 0.078947
+  apres: 0.22619
 - ingenieur: james-allison
   ecurie: mercedes
   type: arrivee
   annee: 2017
-  avant: 0.873
-  apres: 0.613
+  avant: 0.873434
+  apres: 0.612698
 - ingenieur: paddy-lowe
   ecurie: williams
   type: arrivee
@@ -5744,8 +5780,8 @@ ingenieurs:
   ecurie: mercedes
   type: depart
   annee: 2017
-  avant: 0.752
-  apres: 0.668
+  avant: 0.752381
+  apres: 0.6676
 - ingenieur: bob-bell
   ecurie: renault
   type: depart
@@ -5764,17 +5800,17 @@ bilan_ingenieurs:
     hausse: 36
     baisse: 16
     stable: 47
-    ecart_moyen: 0.04
+    ecart_moyen: 0.039031
   depart:
-    n: 105
-    hausse: 22
-    baisse: 26
-    stable: 57
-    ecart_moyen: -0.005
+    n: 107
+    hausse: 23
+    baisse: 28
+    stable: 56
+    ecart_moyen: -0.005129
   temoin:
-    n: 535
-    hausse: 122
-    baisse: 135
+    n: 521
+    hausse: 120
+    baisse: 131
 temoin_reglement:
   annees: 76
   avec_regle: 37
@@ -5786,7 +5822,7 @@ saisons:
 - annee: 1950
   gp: 7
   ecurie: alfa-romeo-1979
-  part: 0.857
+  part: 0.857143
 - annee: 1951
   gp: 8
   ecurie: alfa-romeo-1979
@@ -5798,15 +5834,15 @@ saisons:
 - annee: 1953
   gp: 9
   ecurie: ferrari
-  part: 0.778
+  part: 0.777778
 - annee: 1954
   gp: 9
   ecurie: Mercedes-Benz
-  part: 0.444
+  part: 0.444444
 - annee: 1955
   gp: 7
   ecurie: Mercedes-Benz
-  part: 0.714
+  part: 0.714286
 - annee: 1956
   gp: 8
   ecurie: ferrari
@@ -5818,11 +5854,11 @@ saisons:
 - annee: 1958
   gp: 11
   ecurie: vanwall
-  part: 0.545
+  part: 0.545455
 - annee: 1959
   gp: 9
   ecurie: cooper
-  part: 0.556
+  part: 0.555556
 - annee: 1960
   gp: 10
   ecurie: cooper
@@ -5834,7 +5870,7 @@ saisons:
 - annee: 1962
   gp: 9
   ecurie: brm
-  part: 0.444
+  part: 0.444444
 - annee: 1963
   gp: 10
   ecurie: team-lotus
@@ -5850,43 +5886,43 @@ saisons:
 - annee: 1966
   gp: 9
   ecurie: brabham
-  part: 0.444
+  part: 0.444444
 - annee: 1967
   gp: 11
   ecurie: brabham
-  part: 0.364
+  part: 0.363636
 - annee: 1968
   gp: 12
   ecurie: team-lotus
-  part: 0.417
+  part: 0.416667
 - annee: 1969
   gp: 11
   ecurie: matra
-  part: 0.545
+  part: 0.545455
 - annee: 1970
   gp: 13
   ecurie: team-lotus
-  part: 0.462
+  part: 0.461538
 - annee: 1971
   gp: 11
   ecurie: tyrrell
-  part: 0.636
+  part: 0.636364
 - annee: 1972
   gp: 12
   ecurie: team-lotus
-  part: 0.417
+  part: 0.416667
 - annee: 1973
   gp: 15
   ecurie: team-lotus
-  part: 0.467
+  part: 0.466667
 - annee: 1974
   gp: 15
   ecurie: mclaren
-  part: 0.267
+  part: 0.266667
 - annee: 1975
   gp: 14
   ecurie: ferrari
-  part: 0.429
+  part: 0.428571
 - annee: 1976
   gp: 16
   ecurie: ferrari
@@ -5894,7 +5930,7 @@ saisons:
 - annee: 1977
   gp: 17
   ecurie: team-lotus
-  part: 0.294
+  part: 0.294118
 - annee: 1978
   gp: 16
   ecurie: team-lotus
@@ -5906,11 +5942,11 @@ saisons:
 - annee: 1980
   gp: 14
   ecurie: williams
-  part: 0.429
+  part: 0.428571
 - annee: 1981
   gp: 15
   ecurie: williams
-  part: 0.267
+  part: 0.266667
 - annee: 1982
   gp: 16
   ecurie: renault-1977
@@ -5918,7 +5954,7 @@ saisons:
 - annee: 1983
   gp: 15
   ecurie: brabham
-  part: 0.267
+  part: 0.266667
 - annee: 1984
   gp: 16
   ecurie: mclaren
@@ -5930,15 +5966,15 @@ saisons:
 - annee: 1986
   gp: 16
   ecurie: williams
-  part: 0.562
+  part: 0.5625
 - annee: 1987
   gp: 16
   ecurie: williams
-  part: 0.562
+  part: 0.5625
 - annee: 1988
   gp: 16
   ecurie: mclaren
-  part: 0.938
+  part: 0.9375
 - annee: 1989
   gp: 16
   ecurie: mclaren
@@ -5966,7 +6002,7 @@ saisons:
 - annee: 1995
   gp: 17
   ecurie: benetton
-  part: 0.647
+  part: 0.647059
 - annee: 1996
   gp: 16
   ecurie: williams
@@ -5974,27 +6010,27 @@ saisons:
 - annee: 1997
   gp: 17
   ecurie: williams
-  part: 0.471
+  part: 0.470588
 - annee: 1998
   gp: 16
   ecurie: mclaren
-  part: 0.562
+  part: 0.5625
 - annee: 1999
   gp: 16
   ecurie: mclaren
-  part: 0.438
+  part: 0.4375
 - annee: 2000
   gp: 17
   ecurie: ferrari
-  part: 0.588
+  part: 0.588235
 - annee: 2001
   gp: 17
   ecurie: ferrari
-  part: 0.529
+  part: 0.529412
 - annee: 2002
   gp: 17
   ecurie: ferrari
-  part: 0.882
+  part: 0.882353
 - annee: 2003
   gp: 16
   ecurie: ferrari
@@ -6002,11 +6038,11 @@ saisons:
 - annee: 2004
   gp: 18
   ecurie: ferrari
-  part: 0.833
+  part: 0.833333
 - annee: 2005
   gp: 19
   ecurie: mclaren
-  part: 0.526
+  part: 0.526316
 - annee: 2006
   gp: 18
   ecurie: ferrari
@@ -6014,23 +6050,23 @@ saisons:
 - annee: 2007
   gp: 17
   ecurie: ferrari
-  part: 0.529
+  part: 0.529412
 - annee: 2008
   gp: 18
   ecurie: ferrari
-  part: 0.444
+  part: 0.444444
 - annee: 2009
   gp: 17
   ecurie: brawn
-  part: 0.471
+  part: 0.470588
 - annee: 2010
   gp: 19
   ecurie: red-bull
-  part: 0.474
+  part: 0.473684
 - annee: 2011
   gp: 19
   ecurie: red-bull
-  part: 0.632
+  part: 0.631579
 - annee: 2012
   gp: 20
   ecurie: mclaren
@@ -6038,19 +6074,19 @@ saisons:
 - annee: 2013
   gp: 19
   ecurie: red-bull
-  part: 0.684
+  part: 0.684211
 - annee: 2014
   gp: 19
   ecurie: mercedes
-  part: 0.842
+  part: 0.842105
 - annee: 2015
   gp: 19
   ecurie: mercedes
-  part: 0.842
+  part: 0.842105
 - annee: 2016
   gp: 21
   ecurie: mercedes
-  part: 0.905
+  part: 0.904762
 - annee: 2017
   gp: 20
   ecurie: mercedes
@@ -6058,15 +6094,15 @@ saisons:
 - annee: 2018
   gp: 21
   ecurie: mercedes
-  part: 0.524
+  part: 0.52381
 - annee: 2019
   gp: 21
   ecurie: mercedes
-  part: 0.714
+  part: 0.714286
 - annee: 2020
   gp: 17
   ecurie: mercedes
-  part: 0.765
+  part: 0.764706
 - annee: 2021
   gp: 22
   ecurie: red-bull
@@ -6074,11 +6110,11 @@ saisons:
 - annee: 2022
   gp: 22
   ecurie: red-bull
-  part: 0.773
+  part: 0.772727
 - annee: 2023
   gp: 22
   ecurie: red-bull
-  part: 0.955
+  part: 0.954545
 - annee: 2024
   gp: 24
   ecurie: red-bull
@@ -6086,4 +6122,4 @@ saisons:
 - annee: 2025
   gp: 24
   ecurie: mclaren
-  part: 0.583
+  part: 0.583333

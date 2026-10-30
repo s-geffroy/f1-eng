@@ -12,7 +12,7 @@ sources:
     url: "https://grandprix.com/people/osamu-goto.html"
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer » (août 2017)"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "Motor Sport Magazine, « McLaren-onda 1989 Constructor's Champion » (janvier 1990)"
+  - titre: "Motor Sport Magazine, « McLaren-onda [sic] 1989 Constructor's Champion » (janvier 1990)"
     url: "https://www.motorsportmagazine.com/archive/article/january-1990/53/mclaren-onda-1989-constructors-champion/"
   - titre: "GrandPrix.com, « Goto to go to Ford » (juin 1996)"
     url: "https://grandprix.com/news/goto-to-go-to-ford.html"

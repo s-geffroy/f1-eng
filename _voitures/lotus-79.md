@@ -35,7 +35,7 @@ image: "/assets/partage/voitures/lotus-79.jpg"
 
 La [Lotus 78]({{ site.baseurl }}{% link _voitures/lotus-78.md %}) avait montré le principe de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="2,3" %}. La 79 doit retrouver l'effet de sol que la 78 avait perdu en passant de l'étude à la réalité{% include src.html n="1" %}.
 
-- Le carburant, logé dans les flancs sur la 78, passe derrière le pilote, qui est avancé{% include src.html n="1" %}. Les radiateurs d'eau et d'huile vont à l'entrée des flancs{% include src.html n="1" %}. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}.
+- Le carburant, logé dans les [flancs]({{ site.baseurl }}/glossaire/#pontons) sur la 78, passe derrière le pilote, qui est avancé{% include src.html n="1" %}. Les radiateurs d'eau et d'huile vont à l'entrée des flancs{% include src.html n="1" %}. Les flancs restent ainsi libres pour le canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}.
 - Des [jupes]({{ site.baseurl }}/glossaire/#jupes) coulissantes sur toute la longueur remplacent les jupes courtes de la 78{% include src.html n="1" %}. Selon Motor Sport, c'est avec elles que la 79 commence à produire une véritable aspiration{% include src.html n="1" %}.
 - La structure n'a qu'un rôle : selon Martin Ogilvie, cité par Classic & Sports Car, elle est conçue selon les exigences de [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) et ne fait guère que porter les flancs{% include src.html n="3" %}.
 

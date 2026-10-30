@@ -13,7 +13,7 @@ lignees: []
 voir_aussi: ["keith-duckworth"]
 portrait:
   fichier: "/assets/portraits/mike-costin.jpg"
-  legende: "Mike Costin, left with notes, leaning over Colin Chapman's Lotus Eleven; John Crosthwaite on the right. 1950s."
+  legende: "Colin Chapman at the wheel of his Lotus Eleven, between Mike Costin (left, with notes) and John Crosthwaite (right, leaning on the car). Silverstone, practice for the British Grand Prix Formula Two race, July 1956."
   auteur: "J Crosthwaite (Crosthwaite family archive, photographer unidentified)"
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
@@ -39,7 +39,7 @@ Mike Costin is **a co-founder of Cosworth**{% include src.html n="2,3" %}. His m
 - At **de Havilland**, he designed test rigs, notably for the Comet airliner{% include src.html n="2" %}.
 - He worked with [Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %}) from January 1953, then full-time at **Lotus** from January 1955{% include src.html n="2" %}. There he became Chapman's deputy and the company's technical director{% include src.html n="2" %}.
 - **Cosworth Engineering** was registered on 30 September 1958{% include src.html n="2" %}. Costin only joined it full-time in August 1962, when his contract with Lotus expired{% include src.html n="2,4" %}.
-- Before the DFV, Cosworth produced the **FVA**; a 1500cc version, the **FVB**, was used to validate the DFV's bore and stroke{% include src.html n="2" %}.
+- Before the DFV, Cosworth produced the **FVA**; a 1,500 cc version, the **FVB**, was used to validate the DFV's bore and stroke{% include src.html n="2" %}.
 - The first **DFV** was delivered in April 1967, and the first person to drive a car fitted with it was Mike Costin{% include src.html n="2" %}.
 - In 1969 he tested Cosworth's four-wheel-drive F1 car at Silverstone, finding it heavy and exhausting to drive; it never raced{% include src.html n="2,3" %}.
 - He succeeded Duckworth as chairman of Cosworth in 1988, and retired in 1990{% include src.html n="2,4" %}.

@@ -53,7 +53,7 @@ Autosport présente la MP4/1 comme la voiture de Barnard, qui a choisi le carbon
 
 ## Divergences entre sources
 
-- **Son employeur** : la Royal Aeronautical Society le rattache à la BAC, à Weybridge, dont elle signale la nationalisation{% include src.html n="2,3,6" %} ; Autosport et Barnard parlent de British Aerospace à Weybridge{% include src.html n="1,8" %}. Le lieu concorde ; le nom de l'entreprise diffère.
+- **Son employeur** : la Royal Aeronautical Society le rattache à la BAC, à Weybridge, dont elle signale la nationalisation{% include src.html n="2,3,6" %} ; Autosport et Barnard parlent de British Aerospace à Weybridge{% include src.html n="1,8" %}. Le lieu concorde, et les deux noms ne se contredisent pas : nationalisée en 1977, la BAC est intégrée à British Aerospace, qui possède donc l'usine de Weybridge à l'époque de la MP4/1.
 - **La chronologie** : les résumés de l'entretien ne datent ni son départ de la BAC ni ses passages chez ML Aviation et Marconi Space ; le site ne peut pas les situer par rapport à la MP4/1.
 - **La nature des sources** : l'essentiel de ce qui précède vient des résumés d'un entretien d'histoire orale donné par Webb lui-même en 2024 et 2025 pour la Royal Aeronautical Society et la National Aerospace Library{% include src.html n="4,7" %}. Le site n'a pas écouté les enregistrements ; il s'en tient aux résumés publiés.
 

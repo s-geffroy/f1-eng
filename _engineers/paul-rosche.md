@@ -9,9 +9,9 @@ lignees: []
 voir_aussi: ["gordon-murray"]
 sources:
   - titre: "BMW Group, “BMW Group mourns the loss of Paul Rosche” (November 2016)"
-    url: "https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en"
+    url: "https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en"
   - titre: "BMW Group, “BMW congratulates Paul Rosche: The ‘father’ of the Formula One World Championship engine turns 80 today” (April 2014)"
-    url: "https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US"
+    url: "https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US"
   - titre: "Keith Howard, Motor Sport Magazine, “Harnessing the power” (January 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
   - titre: "Mike Doodson, Motor Sport Magazine, “How BMW conquered F1 with Brabham and Piquet in 1983” (November 2009)"
@@ -37,12 +37,12 @@ Paul Rosche is the BMW engine man who led the project for the **1.5-litre turboc
 ## The Brabham turbo engine
 
 - In 1980, with Dieter Stappert, he laid the foundation for BMW's first F1 involvement and headed the engine project (BMW, 2016){% include src.html n="1" %}. According to Autosport, the project had been started in the 1970s against the will of company management{% include src.html n="6" %}.
-- His team turned a 1.5-litre production four-cylinder into a championship engine: sixteen valves, a [turbocharger]({{ site.baseurl }}/en/glossary/#turbocompresseur) and, a first in F1 according to BMW, digital engine electronics{% include src.html n="1,2" %}. BMW gives an initial output of around 800hp{% include src.html n="1,2" %}.
+- His team turned a 1.5-litre production four-cylinder into a championship engine: sixteen valves, a [turbocharger]({{ site.baseurl }}/en/glossary/#turbocompresseur) and, a first in F1 according to BMW, digital engine electronics{% include src.html n="1,2" %}. BMW gives an initial output of around 800 hp{% include src.html n="1,2" %}.
 - 1981, the development year of the M12/13, and 1982, its first season, were difficult: the engine was fragile (Motor Sport, 2001){% include src.html n="3" %}. Murray recalls that Rosche was adamant about a single turbo, initially a KKK truck unit{% include src.html n="3" %}.
 - Rosche promised big power gains once reliability was sorted; according to Keith Howard (Motor Sport, 2001), that promise and the skirt ban shaped the design of the BT52{% include src.html n="3" %}.
-- Tests showed detonation beyond 650bhp; Rosche called on BASF for a purpose-made fuel, used in 1983 (Autosport){% include src.html n="6" %}.
+- Tests showed detonation beyond 650 bhp; Rosche called on BASF for a purpose-made fuel, used in 1983 (Autosport){% include src.html n="6" %}.
 - In 1983, when Renault froze the specification of its engine, Rosche pressed on with development, squeezing ever more power from the four-cylinder (Motor Sport, 2009){% include src.html n="4" %}.
-- The exact output remains unknown: according to Rosche, "around 1400hp", as the dyno did not go beyond 1280hp (BMW){% include src.html n="1,2" %}. Motor Sport gives over 1400bhp in qualifying trim in 1983{% include src.html n="5" %}.
+- The exact output remains unknown: according to Rosche, "around 1,400 hp", as the dyno did not go beyond 1,280 hp (BMW){% include src.html n="1,2" %}. Motor Sport gives over 1,400 bhp in qualifying trim in 1983{% include src.html n="5" %}.
 - After the title, rumours of illegal fuel circulated; the FISA report found it compliant, and Rosche always insisted there had been no cheating (Motor Sport, 2009){% include src.html n="4" %}.
 - According to BMW, when BMW withdrew from F1 in 1987, the engine had nine Grand Prix wins to its name{% include src.html n="1,2" %}.
 

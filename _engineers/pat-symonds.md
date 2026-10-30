@@ -10,7 +10,7 @@ voir_aussi: ["rory-byrne", "ross-brawn", "john-gentry"]
 sources:
   - titre: "GrandPrix.com, “Pat Symonds”"
     url: "https://grandprix.com/people/pat-symonds.html"
-  - titre: "Formula 1, Matt Youson, “Imola ‘94 and the lasting safety legacy” (May 2019)"
+  - titre: "Formula 1, Matt Youson, “Imola ’94 and the lasting safety legacy” (May 2019)"
     url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - titre: "Edd Straw, Autosport, “Pat Symonds replaces Mike Coughlan at Williams Formula 1 team” (July 2013)"
     url: "https://www.autosport.com/f1/news/108806/symonds-replaces-coughlan-at-williams"

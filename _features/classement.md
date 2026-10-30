@@ -6,7 +6,7 @@ description: "The twenty with their scores, the technical lineages and the concl
 ---
 ## The twenty, with their scores
 
-| Rank | Engineer | Tier | Score | Structuring contribution |
+| Rank | Engineer | Tier | Score | Key contribution |
 |---:|---|:---:|---:|---|
 | **1** | **[Colin Chapman]({{ site.baseurl }}{% link _engineers/colin-chapman.md %})** | **A** | **96.0** | Monocoque, overall architecture, aerodynamics, ground effect programme |
 | **2** | **[John Barnard]({{ site.baseurl }}{% link _engineers/john-barnard.md %})** | **A** | **95.0** | Carbon monocoque, semi-automatic paddle-shift gearbox |
@@ -16,7 +16,7 @@ description: "The twenty with their scores, the technical lineages and the concl
 | 6 | [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}) | B | 90.0 | Renault turbo, pneumatic valve springs, [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _engineers/gordon-murray.md %}) | B | 88.5 | Radical architectures, BT46B, the modern pit stop |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _engineers/mauro-forghieri.md %}) | B | 87.5 | Integrated engineering of engine/chassis/transmission/aero |
-| 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | B | 86.5 | Causal development of Lotus ground effect |
+| 9 | [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}) | B | 86.5 | Research and development behind Lotus ground effect |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _engineers/frank-dernie.md %}) | B | 85.0 | CAD/CAE, data, wind tunnel (by his own account), active suspension |
 | 11 | [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) | C | 83.5 | Williams architecture and systems engineering |
 | 12 | [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) | C | 82.0 | Integrated method and early development |

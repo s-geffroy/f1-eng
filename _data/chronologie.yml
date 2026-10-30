@@ -431,7 +431,7 @@ jalons:
     annee: 2005
     voie: "transmission"
     titre: "La boîte sans rupture de couple"
-    texte: "Sur la BAR 007, Honda fait engager le rapport suivant pendant que le précédent transmet encore le couple, avec un embrayage unidirectionnel par rapport ; le gain moyen est de 0,4s au tour. En 2008, toutes les équipes ont un système semblable."
+    texte: "Sur la BAR 007, Honda fait engager le rapport suivant pendant que le précédent transmet encore le couple, avec un embrayage unidirectionnel par rapport ; le gain moyen est de 0,4 s au tour. En 2008, toutes les équipes ont un système semblable."
     entrees: []
     sources:
       - titre: "Motor Sport, Lawrence Butcher, « Honda's paradigm shifter that flew in the face of convention » (mai 2020)"
@@ -456,7 +456,7 @@ jalons:
     annee: 2009
     voie: "moteur"
     titre: "Le KERS gagne en Hongrie"
-    texte: "Récupérée au freinage, l'énergie rend jusqu'à 60kW pendant 6,6 secondes par tour. Lewis Hamilton gagne en Hongrie avec la McLaren équipée du KERS de Mercedes, conçu à Brixworth avec Zytek : c'est la première victoire d'une voiture ainsi équipée. Selon Autosport, Mercedes en fait le socle de son groupe propulseur de 2014 ; Andy Cowell fait remonter à la décision de 2007 de concevoir son propre KERS le début de la propulsion électrique « sérieuse » chez Mercedes."
+    texte: "Récupérée au freinage, l'énergie rend jusqu'à 60 kW pendant 6,6 secondes par tour. Lewis Hamilton gagne en Hongrie avec la McLaren équipée du KERS de Mercedes, conçu à Brixworth avec Zytek : c'est la première victoire d'une voiture ainsi équipée. Selon Autosport, Mercedes en fait le socle de son groupe propulseur de 2014 ; Andy Cowell fait remonter à la décision de 2007 de concevoir son propre KERS le début de la propulsion électrique « sérieuse » chez Mercedes."
     entrees: [andy-cowell]
     termes: [kers]
     sources:
@@ -535,7 +535,7 @@ contexte:
     annee: 1946
     categorie: "reglement"
     titre: "La formule 500 cm³ du 500 Club"
-    texte: "En décembre 1945, à Bristol, des passionnés fondent le 500 Club et rédigent une formule de petites monoplaces de 500cm³ adaptée aux restrictions de l'après-guerre. Charles et John Cooper, garagistes du Surrey, s'y engagent avec un prototype dont le moteur est placé derrière le pilote, « par commodité autant que pour toute autre raison », selon Motor Sport."
+    texte: "En décembre 1945, à Bristol, des passionnés fondent le 500 Club et rédigent une formule de petites monoplaces de 500 cm³ adaptée aux restrictions de l'après-guerre. Charles et John Cooper, garagistes du Surrey, s'y engagent avec un prototype dont le moteur est placé derrière le pilote, « par commodité autant que pour toute autre raison », selon Motor Sport."
     liens:
       - jalon: "cooper-500"
         mecanisme: "ouvre"
@@ -548,7 +548,7 @@ contexte:
     annee: 1950
     categorie: "economie"
     titre: "Premier championnat du monde"
-    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. Son règlement reprend celui de 1947 : moteurs atmosphériques de 4,5 litres, comme avant-guerre, ou moteurs suralimentés de 1,5 litre hérités de l'ancienne catégorie voiturette. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre, née en 1937 comme voiturette, dont le huit-cylindres en ligne à compresseur atteint environ 350ch (Mark Hughes ; plus de 400 selon David Tremayne). Face à des Maserati, ERA, Talbot et Alta vieillissantes, Farina, Fagioli et Parnell offrent à Alfa Romeo les trois premières places."
+    texte: "Le 13 mai 1950, le Grand Prix d'Europe disputé à Silverstone ouvre le premier championnat du monde. Son règlement reprend celui de 1947 : moteurs atmosphériques de 4,5 litres, comme avant-guerre, ou moteurs suralimentés de 1,5 litre hérités de l'ancienne catégorie voiturette. La voiture favorite, l'Alfa Romeo 158, a alors treize ans : c'est une conception d'avant-guerre, née en 1937 comme voiturette, dont le huit-cylindres en ligne à compresseur atteint environ 350 ch (Mark Hughes ; plus de 400 selon David Tremayne). Face à des Maserati, ERA, Talbot et Alta vieillissantes, Farina, Fagioli et Parnell offrent à Alfa Romeo les trois premières places."
     sources:
       - titre: "Formula 1, « 10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj"
@@ -602,7 +602,7 @@ contexte:
     annee: 1957
     categorie: "reglement"
     titre: "La Formule 2 de 1,5 litre"
-    texte: "De 1957 à 1960, une nouvelle Formule 2 limite les moteurs à 1500cm³. Selon Motor Sport, elle est « un cadeau » pour la nouvelle Cooper-Climax à moteur central. Conçues pour cette catégorie, les Cooper deviennent de plus en plus compétitives en F1 à mesure que leur moteur s'approche des 2,5 litres permis : avec 2495cm³, elles égalent au moins les meilleures voitures de conception classique."
+    texte: "De 1957 à 1960, une nouvelle Formule 2 limite les moteurs à 1 500 cm³. Selon Motor Sport, elle est « un cadeau » pour la nouvelle Cooper-Climax à moteur central. Conçues pour cette catégorie, les Cooper deviennent de plus en plus compétitives en F1 à mesure que leur moteur s'approche des 2,5 litres permis : avec 2 495 cm³, elles égalent au moins les meilleures voitures de conception classique."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -611,7 +611,7 @@ contexte:
       - jalon: "cooper-titres"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "Conçues pour la limite de 1500cm³ de la Formule 2, les Cooper sont au moins au niveau des meilleures F1 une fois dotées d'un moteur de 2495cm³ (Motor Sport)."
+        pourquoi: "Conçues pour la limite de 1 500 cm³ de la Formule 2, les Cooper sont au moins au niveau des meilleures F1 une fois dotées d'un moteur de 2 495 cm³ (Motor Sport)."
     sources:
       - titre: "Formula1.com, Mark Hughes, « Argentina '58: Moss bluffs his way to victory – and ushers in new era » (avril 2020)"
         url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
@@ -621,7 +621,7 @@ contexte:
     annee: 1958
     categorie: "reglement"
     titre: "Le carburant du commerce obligatoire"
-    texte: "En 1958, le règlement remplace les mélanges à base d'alcool par l'essence du commerce. Vanwall et BRM n'ont pas adapté leurs moteurs à temps pour le Grand Prix d'Argentine ; privé de sa Vanwall, Stirling Moss court sur la petite Cooper de Rob Walker. La course est en outre ramenée à 80 tours, soit 313km au lieu de 400 : à cause de la chaleur selon Goodwood, en application du nouveau règlement de la FIA selon Motor Sport en 1958."
+    texte: "En 1958, le règlement remplace les mélanges à base d'alcool par l'essence du commerce. Vanwall et BRM n'ont pas adapté leurs moteurs à temps pour le Grand Prix d'Argentine ; privé de sa Vanwall, Stirling Moss court sur la petite Cooper de Rob Walker. La course est en outre ramenée à 80 tours, soit 313 km au lieu de 400 : à cause de la chaleur selon Goodwood, en application du nouveau règlement de la FIA selon Motor Sport en 1958."
     liens:
       - jalon: "cooper-argentine"
         mecanisme: "ouvre"
@@ -640,7 +640,7 @@ contexte:
     annee: 1961
     categorie: "reglement"
     titre: "La formule 1,5 litre"
-    texte: "En 1961, seuls les moteurs atmosphériques de 1 500 cm³ au plus sont admis, avec un poids minimal fixé d'abord à 500 kg puis abaissé à 450 kg. Les équipes britanniques, qui espéraient garder le règlement de 1960, peinent à trouver des moteurs adaptés pour le début de saison. Ferrari, prête avec la 156 à moteur V6, sa première monoplace à moteur central, part grande favorite et gagne cinq des huit Grands Prix ; Phil Hill est champion."
+    texte: "En 1961, seuls les moteurs atmosphériques de 1 500 cm³ au plus sont admis, avec un poids minimal fixé d'abord à 500 kg puis abaissé à 450 kg. Les équipes britanniques, qui espéraient garder le règlement de 1960, peinent à trouver des moteurs adaptés pour le début de saison. Ferrari, prête avec la 156 à moteur V6 central arrière, part grande favorite et gagne cinq des huit Grands Prix ; Phil Hill est champion."
     sources:
       - titre: "Motor Sport Magazine, « 1961 F1 World Championship » (base de données, non datée)"
         url: "https://www.motorsportmagazine.com/database/championships/f1/1961-f1-world-championship"
@@ -715,12 +715,12 @@ contexte:
     annee: 1967
     categorie: "reglement"
     titre: "La Formule 2 de 1,6 litre"
-    texte: "Le 1er janvier 1967 entre en vigueur une Formule 2 limitée à 1600cm³, dont le bloc-cylindres doit provenir d'une voiture de série produite à au moins 500 exemplaires en 22 mois. Cosworth y répond par le FVA, dessiné autour du bloc de la Ford Cortina. Le projet commun annoncé avec Ford couvre aussi un moteur de F1 : le DFV, formé de deux culasses de FVA sur un bloc commun."
+    texte: "Le 1er janvier 1967 entre en vigueur une Formule 2 limitée à 1 600 cm³, dont le bloc-cylindres doit provenir d'une voiture de série produite à au moins 500 exemplaires en 22 mois. Cosworth y répond par le FVA, dessiné autour du bloc de la Ford Cortina. Le projet commun annoncé avec Ford couvre aussi un moteur de F1 : le DFV, formé de deux culasses de FVA sur un bloc commun."
     liens:
       - jalon: "dfv-fva"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "Le FVA est conçu pour la limite de 1600cm³ de la nouvelle Formule 2, qui impose un bloc de série (Mike Doodson, Denis Jenkinson) : Cosworth part de celui de la Ford Cortina (Denis Jenkinson)."
+        pourquoi: "Le FVA est conçu pour la limite de 1 600 cm³ de la nouvelle Formule 2, qui impose un bloc de série (Mike Doodson, Denis Jenkinson) : Cosworth part de celui de la Ford Cortina (Denis Jenkinson)."
     sources:
       - titre: "Motor Sport, Mike Doodson, « Keith Duckworth » (janvier 1970)"
         url: "https://www.motorsportmagazine.com/archive/article/january-1970/41/keith-duckworth"
@@ -799,7 +799,7 @@ contexte:
     annee: 1970
     categorie: "technologie"
     titre: "La Chaparral 2J aspirante"
-    texte: "En Can-Am, la Chaparral 2J de 1970 utilise deux ventilateurs entraînés par un moteur auxiliaire pour aspirer l'air sous la voiture. Jim Hall la présente comme une réponse à l'interdiction, pour 1970, des ailerons fixés aux moyeux ; des jupes articulées maintiennent un faible jeu avec le sol, et la voiture vire selon lui à près de 2g. D'abord acceptée, elle est exclue de la série après les protestations des concurrents, qui y voient un dispositif aérodynamique mobile. Les sources divergent sur sa filiation avec la Brabham BT46B : Motor Sport la présente comme l'inspiration et cite Gordon Murray (« le concept de base, oui, il vient de là »), tandis que Goodwood juge l'influence incertaine."
+    texte: "En Can-Am, la Chaparral 2J de 1970 utilise deux ventilateurs entraînés par un moteur auxiliaire pour aspirer l'air sous la voiture. Jim Hall la présente comme une réponse à l'interdiction, pour 1970, des ailerons fixés aux moyeux ; des jupes articulées maintiennent un faible jeu avec le sol, et la voiture vire selon lui à près de 2 g. D'abord acceptée, elle est exclue de la série après les protestations des concurrents, qui y voient un dispositif aérodynamique mobile. Les sources divergent sur sa filiation avec la Brabham BT46B : Motor Sport la présente comme l'inspiration et cite Gordon Murray (« le concept de base, oui, il vient de là »), tandis que Goodwood juge l'influence incertaine."
     liens:
       - jalon: "bt46b"
         mecanisme: "transfert"
@@ -969,7 +969,7 @@ contexte:
     annee: 1981
     categorie: "reglement"
     titre: "La fin des jupes"
-    texte: "Pour freiner l'effet de sol, dont l'appui devient imprévisible et disparaît quand une jupe se déloge ou se brise, le règlement 1981 interdit les jupes et impose une garde au sol de 6cm. Balestre invoque la sécurité ; les équipes de la FOCA, sans turbo, y perdent leur principal avantage face à Ferrari, Renault et Alfa Romeo. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru, mais la Brabham BT49, qui s'abaisse en piste, est autorisée puis copiée. Les jupes, tolérées de nouveau en 1982 au prix de suspensions quasi rigides, disparaissent pour de bon avec le fond plat obligatoire de 1983."
+    texte: "Pour freiner l'effet de sol, dont l'appui devient imprévisible et disparaît quand une jupe se déloge ou se brise, le règlement 1981 interdit les jupes et impose une garde au sol de 6 cm. Balestre invoque la sécurité ; les équipes de la FOCA, sans turbo, y perdent leur principal avantage face à Ferrari, Renault et Alfa Romeo. Les équipes cherchent aussitôt à contourner la règle : la Lotus 88 à double châssis est interdite avant d'avoir couru, mais la Brabham BT49, qui s'abaisse en piste, est autorisée puis copiée. Les jupes, tolérées de nouveau en 1982 au prix de suspensions quasi rigides, disparaissent pour de bon avec le fond plat obligatoire de 1983."
     liens:
       - jalon: "lotus-78"
         mecanisme: "provoque"
@@ -1133,7 +1133,7 @@ contexte:
     annee: 1987
     categorie: "reglement"
     titre: "Le turbo bridé, les moteurs atmosphériques admis"
-    texte: "Au milieu des années 1980, les turbos de 1,5 litre dépassent 1000ch en qualification ; la FIA veut réduire la puissance sans éloigner les constructeurs. À partir de 1987, la pression de suralimentation est limitée à 4 bars, et des moteurs atmosphériques de 3,5 litres sont admis à côté des turbos ; en 1988, la limite passe à 2,5 bars, avec 150 litres de carburant au lieu de 195. Honda répond par un V6 au rendement thermique d'environ 30 %, qui gagne 15 des 16 courses avec McLaren."
+    texte: "Au milieu des années 1980, les turbos de 1,5 litre dépassent 1 000 ch en qualification ; la FIA veut réduire la puissance sans éloigner les constructeurs. À partir de 1987, la pression de suralimentation est limitée à 4 bars, et des moteurs atmosphériques de 3,5 litres sont admis à côté des turbos ; en 1988, la limite passe à 2,5 bars, avec 150 litres de carburant au lieu de 195. Honda répond par un V6 au rendement thermique d'environ 30 %, qui gagne 15 des 16 courses avec McLaren."
     liens:
       - jalon: "mp4-4"
         mecanisme: "ouvre"
@@ -1206,7 +1206,7 @@ contexte:
     annee: 1994
     categorie: "securite"
     titre: "Imola 1994 : mort de Ratzenberger et de Senna"
-    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994 ; deux semaines plus tard, Karl Wendlinger est grièvement blessé à Monaco. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, boîte à air percée au Canada pour réduire la puissance, puis planche sous le fond, à l'usure limitée à 1mm, qui oblige à relever toute la voiture. Elle engage aussi un programme de modification des circuits et limite la vitesse dans la voie des stands à 80km/h aux essais et 120km/h en course. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations et la cylindrée passe de 3,5 à 3 litres, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
+    texte: "Roland Ratzenberger et Ayrton Senna meurent au Grand Prix de Saint-Marin 1994 ; deux semaines plus tard, Karl Wendlinger est grièvement blessé à Monaco. La FIA ralentit aussitôt les voitures : diffuseur raccourci et ailerons avant modifiés dès l'Espagne, boîte à air percée au Canada pour réduire la puissance, puis planche sous le fond, à l'usure limitée à 1 mm, qui oblige à relever toute la voiture. Elle engage aussi un programme de modification des circuits et limite la vitesse dans la voie des stands à 80 km/h aux essais et 120 km/h en course. En 1995, le fond à marche réduit l'appui du soubassement jusqu'à 50 % selon les estimations et la cylindrée passe de 3,5 à 3 litres, tandis que le cockpit est allongé, ses flancs relevés et l'essai de choc frontal durci."
     liens:
       - jalon: "fw17b"
         mecanisme: "contourne"
@@ -1245,7 +1245,7 @@ contexte:
     annee: 1996
     categorie: "securite"
     titre: "Flancs de cockpit relevés et appuie-tête latéraux"
-    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe consultatif d'experts de la FIA (Advisory Expert Group) sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. Les flancs relevés protègent bien mieux la tête du pilote sur les côtés."
+    texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75 mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe consultatif d'experts de la FIA (Advisory Expert Group) sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. Les flancs relevés protègent bien mieux la tête du pilote sur les côtés."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
         url: "https://fia.com/node/51351"
@@ -1257,7 +1257,7 @@ contexte:
     annee: 1997
     categorie: "technologie"
     titre: "La Toyota Prius, première hybride de série"
-    texte: "En 1997, Toyota lance la Prius, premier véhicule hybride produit en série : un moteur thermique et deux moteurs-générateurs récupèrent l'énergie perdue au freinage, et la consommation est divisée par deux. Le sens de l'emprunt avec la F1 est discuté : à l'arrivée du KERS en 2009, limité à 60kW pendant 6,6 secondes par tour, Toyota le juge « primitif » et sans rapport avec ses hybrides routiers, tandis que formula1.com affirme en 2014 que les progrès des KERS de F1 ont profité aux hybrides de série. Selon ce site, un système pesait plus de 100kg en 2007, 24kg fin 2012."
+    texte: "En 1997, Toyota lance la Prius, premier véhicule hybride produit en série : un moteur thermique et deux moteurs-générateurs récupèrent l'énergie perdue au freinage, et la consommation est divisée par deux. Le sens de l'emprunt avec la F1 est discuté : à l'arrivée du KERS en 2009, limité à 60 kW pendant 6,6 secondes par tour, Toyota le juge « primitif » et sans rapport avec ses hybrides routiers, tandis que formula1.com affirme en 2014 que les progrès des KERS de F1 ont profité aux hybrides de série. Selon ce site, un système pesait plus de 100 kg en 2007, 24 kg fin 2012."
     liens:
       - jalon: "kers"
         mecanisme: "transfert"
@@ -1341,7 +1341,7 @@ contexte:
     annee: 2009
     categorie: "economie"
     titre: "Fin des essais privés en saison"
-    texte: "En décembre 2008, quelques jours après le départ de Honda, le Conseil mondial adopte avec les équipes un plan d'économies, tous craignant d'autres départs de constructeurs ; la FIA en attend jusqu'à 30 % de dépenses en moins. À partir de 2009, plus aucun essai n'est permis après le début de la saison, et les souffleries ne peuvent plus accueillir de maquettes à l'échelle réelle, 60 % devenant le maximum. Chaque moteur doit tenir trois week-ends, avec un régime ramené de 19 000 à 18000tr/min, et les prix des moteurs clients sont divisés par deux. Les vendredis de Grand Prix prennent une place nouvelle dans la mise au point."
+    texte: "En décembre 2008, quelques jours après le départ de Honda, le Conseil mondial adopte avec les équipes un plan d'économies, tous craignant d'autres départs de constructeurs ; la FIA en attend jusqu'à 30 % de dépenses en moins. À partir de 2009, plus aucun essai n'est permis après le début de la saison, et les souffleries ne peuvent plus accueillir de maquettes à l'échelle réelle, 60 % devenant le maximum. Chaque moteur doit tenir trois week-ends, avec un régime ramené de 19 000 à 18 000 tr/min, et les prix des moteurs clients sont divisés par deux. Les vendredis de Grand Prix prennent une place nouvelle dans la mise au point."
     liens:
       - jalon: "simulateur"
         mecanisme: "ouvre"
@@ -1379,7 +1379,7 @@ contexte:
     annee: 2009
     categorie: "reglement"
     titre: "Le KERS autorisé"
-    texte: "Annoncé dès 2007, le règlement 2009 autorise un système de récupération d'énergie au freinage : l'énergie, stockée dans des batteries ou, chez Williams, dans un volant d'inertie électrique, est rendue à raison de 60kW au plus pendant 6,6 secondes par tour. Lourd, complexe et souvent peu fiable, il n'est utilisé que par quatre équipes. Resté dans le règlement en 2010, il n'est plus employé, les équipes s'étant entendues pour y renoncer ; elles réclament son retour pour 2011."
+    texte: "Annoncé dès 2007, le règlement 2009 autorise un système de récupération d'énergie au freinage : l'énergie, stockée dans des batteries ou, chez Williams, dans un volant d'inertie électrique, est rendue à raison de 60 kW au plus pendant 6,6 secondes par tour. Lourd, complexe et souvent peu fiable, il n'est utilisé que par quatre équipes. Resté dans le règlement en 2010, il n'est plus employé, les équipes s'étant entendues pour y renoncer ; elles réclament son retour pour 2011."
     liens:
       - jalon: "kers"
         mecanisme: "ouvre"
@@ -1464,7 +1464,7 @@ contexte:
     annee: 2014
     categorie: "securite"
     titre: "Accident de Jules Bianchi et voiture de sécurité virtuelle"
-    texte: "Au Grand Prix du Japon 2014, sous la pluie, Jules Bianchi perd le contrôle de sa Marussia dans une zone sous double drapeau jaune et percute à 126km/h la grue qui dégage la Sauber d'Adrian Sutil ; l'accident lui sera finalement fatal. Le panel d'enquête de la FIA juge impossible de rendre un tel choc survivable, et recommande plutôt une limitation de vitesse dans les secteurs sous double drapeau jaune. En 2015, la FIA introduit la voiture de sécurité virtuelle, qui impose un temps au tour minimal pour faire ralentir les pilotes. Les panneaux anti-intrusion en Zylon de la cellule de survie sont aussi prolongés jusqu'au bord du cockpit, le long de la tête du pilote."
+    texte: "Au Grand Prix du Japon 2014, sous la pluie, Jules Bianchi perd le contrôle de sa Marussia dans une zone sous double drapeau jaune et percute à 126 km/h la grue qui dégage la Sauber d'Adrian Sutil ; l'accident lui sera finalement fatal. Le panel d'enquête de la FIA juge impossible de rendre un tel choc survivable, et recommande plutôt une limitation de vitesse dans les secteurs sous double drapeau jaune. En 2015, la FIA introduit la voiture de sécurité virtuelle, qui impose un temps au tour minimal pour faire ralentir les pilotes. Les panneaux anti-intrusion en Zylon de la cellule de survie sont aussi prolongés jusqu'au bord du cockpit, le long de la tête du pilote."
     liens:
       - evenement: "halo"
         mecanisme: "declenche"
@@ -1481,7 +1481,7 @@ contexte:
     annee: 2014
     categorie: "reglement"
     titre: "Le groupe propulseur hybride obligatoire"
-    texte: "En 2014, les V8 atmosphériques de 2,4 litres cèdent la place à un V6 turbo de 1,6 litre associé à deux systèmes de récupération d'énergie, au freinage et sur les gaz d'échappement ; d'environ 600ch, il reçoit quelque 160ch électriques pendant environ 33 secondes par tour. Le carburant est limité à 100kg par course, un tiers de moins qu'auparavant, et le débit à 100kg/h : le rendement devient un critère de performance central. Le refroidissement élargit les pontons, le poids minimal passe de 642 à 690kg, et l'échappement unique et central met fin aux diffuseurs soufflés. Mercedes gagne 51 des 59 courses des trois premières saisons."
+    texte: "En 2014, les V8 atmosphériques de 2,4 litres cèdent la place à un V6 turbo de 1,6 litre associé à deux systèmes de récupération d'énergie, au freinage et sur les gaz d'échappement ; d'environ 600 ch, il reçoit quelque 160 ch électriques pendant environ 33 secondes par tour. Le carburant est limité à 100 kg par course, un tiers de moins qu'auparavant, et le débit à 100kg/h : le rendement devient un critère de performance central. Le refroidissement élargit les pontons, le poids minimal passe de 642 à 690 kg, et l'échappement unique et central met fin aux diffuseurs soufflés. Mercedes gagne 51 des 59 courses des trois premières saisons."
     liens:
       - jalon: "hybride"
         mecanisme: "ouvre"
@@ -1490,7 +1490,7 @@ contexte:
       - jalon: "rendement-50"
         mecanisme: "ouvre"
         preuve: "etabli"
-        pourquoi: "En limitant le carburant à 100kg et le débit à 100kg/h, le règlement fait du rendement un critère central de performance."
+        pourquoi: "En limitant le carburant à 100 kg et le débit à 100kg/h, le règlement fait du rendement un critère central de performance."
     sources:
       - titre: "Formula1.com, « A racing revolution? Understanding 2014's technical regulations » (janvier 2014)"
         url: "https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC"
@@ -1512,7 +1512,7 @@ contexte:
     annee: 2020
     categorie: "securite"
     titre: "Accident de Romain Grosjean à Bahreïn"
-    texte: "Au Grand Prix de Bahreïn 2020, après un contact avec la voiture de Daniil Kvyat, la Haas de Romain Grosjean percute le rail à 192km/h, avec un pic de 67g, traverse la glissière et prend feu ; le pilote s'en échappe, brûlé aux mains. L'enquête de la FIA conclut que la cellule de survie, l'appuie-tête, le HANS et le halo ont rempli leur rôle. Mais le groupe propulseur s'est séparé de la cellule, et la trappe du réservoir comme le raccord d'alimentation, arrachés, ont laissé fuir le carburant : la FIA lance une révision de la géométrie avant de la cellule de survie et de l'installation des réservoirs souples, de leurs raccords et de leurs trappes."
+    texte: "Au Grand Prix de Bahreïn 2020, après un contact avec la voiture de Daniil Kvyat, la Haas de Romain Grosjean percute le rail à 192 km/h, avec un pic de 67 g, traverse la glissière et prend feu ; le pilote s'en échappe, brûlé aux mains. L'enquête de la FIA conclut que la cellule de survie, l'appuie-tête, le HANS et le halo ont rempli leur rôle. Mais le groupe propulseur s'est séparé de la cellule, et la trappe du réservoir comme le raccord d'alimentation, arrachés, ont laissé fuir le carburant : la FIA lance une révision de la géométrie avant de la cellule de survie et de l'installation des réservoirs souples, de leurs raccords et de leurs trappes."
     sources:
       - titre: "FIA, « FIA concludes investigation into Romain Grosjean's accident at 2020 Bahrain Formula 1 Grand Prix and releases 2021 circuit racing safety initiatives » (mars 2021)"
         url: "https://api.fia.com/news/fia-concludes-investigation-romain-grosjeans-accident-2020-bahrain-formula-1-grand-prix-and"
@@ -1573,7 +1573,7 @@ contexte:
     annee: 2026
     categorie: "reglement"
     titre: "Le règlement moteur et châssis de 2026"
-    texte: "Adopté en août 2022 pour le moteur et complété en juin 2024 pour le châssis, le règlement 2026 répartit la puissance à parts égales entre moteur thermique et électricité, avec des carburants durables : le moteur thermique passe d'environ 550 à 400kW, l'électrique de 120 à 350kW, et l'énergie récupérée au freinage double. Le châssis est redéfini en fonction de ces besoins énergétiques. Les voitures perdent 30kg, pour un minimum de 768kg, et reçoivent des ailerons avant et arrière mobiles : une position pour l'appui en virage, une autre à faible traînée en ligne droite. L'empattement maximal perd 200mm et la largeur 100mm."
+    texte: "Adopté en août 2022 pour le moteur et complété en juin 2024 pour le châssis, le règlement 2026 répartit la puissance à parts égales entre moteur thermique et électricité, avec des carburants durables : le moteur thermique passe d'environ 550 à 400 kW, l'électrique de 120 à 350 kW, et l'énergie récupérée au freinage double. Le châssis est redéfini en fonction de ces besoins énergétiques. Les voitures perdent 30 kg, pour un minimum de 768 kg, et reçoivent des ailerons avant et arrière mobiles : une position pour l'appui en virage, une autre à faible traînée en ligne droite. L'empattement maximal perd 200 mm et la largeur 100 mm."
     liens:
       - evenement: "motoristes-2026"
         mecanisme: "declenche"
@@ -1623,7 +1623,7 @@ contexte:
     annee: 1950
     categorie: "autres-sports"
     titre: "Les 500 Miles d'Indianapolis au championnat du monde"
-    texte: "De 1950 à 1960, les 500 Miles d'Indianapolis comptent pour le championnat du monde des pilotes, bien qu'elles se courent selon le règlement américain. Les deux mondes se croisent peu : en 1952, Alberto Ascari renonce au Grand Prix de Suisse pour disputer « la course la plus riche du monde » sur une Ferrari 375 de 4,5 litres, se qualifie 19e et abandonne sur une roue à rayons cassée (Paul Fearnley). La course quitte le championnat en 1961, quand la F1 passe aux moteurs atmosphériques de 1,5 litre."
+    texte: "De 1950 à 1960, les 500 Miles d'Indianapolis comptent pour le championnat du monde des pilotes, bien qu'ils se courent selon le règlement américain. Les deux mondes se croisent peu : en 1952, Alberto Ascari renonce au Grand Prix de Suisse pour disputer « la course la plus riche du monde » sur une Ferrari 375 de 4,5 litres, se qualifie 19e et abandonne sur une roue à rayons cassée (Paul Fearnley). La course quitte le championnat en 1961, quand la F1 passe aux moteurs atmosphériques de 1,5 litre."
     sources:
       - titre: "Motor Sport, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)"
         url: "https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds"
@@ -1724,9 +1724,9 @@ contexte:
     annee: 1978
     categorie: "societe"
     titre: "La BBC diffuse tous les Grands Prix"
-    texte: "Porté par l'intérêt qu'a suscité le titre de James Hunt en 1976, la BBC lance en 1978 « Grand Prix », une demi-heure de résumé le dimanche soir montée à partir des images de l'Eurovision, que Murray Walker commente depuis Londres ; le premier Grand Prix retransmis en direct du circuit est Monaco 1980 (Simon Taylor). En 1976 déjà, le Grand Prix du Japon avait été la première manche hors d'Europe diffusée en direct par satellite (Stuart Codling)."
+    texte: "Portée par l'intérêt qu'a suscité le titre de James Hunt en 1976, la BBC lance en 1978 « Grand Prix », une demi-heure de résumé le dimanche soir montée à partir des images de l'Eurovision, que Murray Walker commente depuis Londres ; le premier Grand Prix retransmis en direct du circuit est Monaco 1980 (Simon Taylor). En 1976 déjà, le Grand Prix du Japon avait été la première manche hors d'Europe diffusée en direct par satellite (Stuart Codling)."
     sources:
-      - titre: "Motor Sport, Simon Taylor, « Lunch with... Murray Walker » (avril 2011)"
+      - titre: "Motor Sport, Simon Taylor, « Lunch with… Murray Walker » (avril 2011)"
         url: "https://www.motorsportmagazine.com/archive/article/april-2011/70/lunch-murray-walker/"
       - titre: "Autosport, Stuart Codling, « Going live: how F1 TV became a billion-dollar business » (mis à jour en octobre 2025)"
         url: "https://www.autosport.com/f1/news/going-live-how-f1-tv-became-a-billion-dollar-business-/10768815/"
@@ -1798,9 +1798,9 @@ contexte:
     annee: 1992
     categorie: "economie-mondiale"
     titre: "La loi Évin et le Grand Prix de France"
-    texte: "Votée le 10 janvier 1991, la loi Évin interdit en France la publicité pour le tabac. En 1992, à la demande du Comité national contre le tabagisme, la justice poursuit la diffusion d'images de voitures aux couleurs de cigarettiers, et Williams et Renault sont condamnés pour la marque Camel ; en décembre, le Grand Prix de France est suspendu du calendrier (Grandprix.com). Le gouvernement fait voter le 23 décembre 1992 un amendement qui autorise la diffusion des courses télévisées depuis des pays où la publicité pour le tabac est permise, et une dotation de 450 millions de francs pour les sports mécaniques ; la course de Magny-Cours a lieu en 1993 (Assemblée nationale)."
+    texte: "Votée le 10 janvier 1991, la loi Évin interdit en France la publicité pour le tabac. En 1992, à la demande du Comité national contre le tabagisme, la justice poursuit la diffusion d'images de voitures aux couleurs de cigarettiers, et Williams et Renault sont condamnés pour la marque Camel ; en décembre, le Grand Prix de France est suspendu du calendrier (GrandPrix.com). Le gouvernement fait voter le 23 décembre 1992 un amendement qui autorise la diffusion des courses télévisées depuis des pays où la publicité pour le tabac est permise, et une dotation de 450 millions de francs pour les sports mécaniques ; la course de Magny-Cours a lieu en 1993 (Assemblée nationale)."
     sources:
-      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+      - titre: "GrandPrix.com, « The history of anti-tobacco legislation » (mai 2005)"
         url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
       - titre: "Assemblée nationale, Patrick Balkany, « Question écrite n° 65751 : sports mécaniques », et réponse du gouvernement (décembre 1992)"
         url: "https://www.assemblee-nationale.fr/dyn/9/questions/QANR5L9QE65751.pdf"
@@ -1810,7 +1810,7 @@ contexte:
     titre: "La F1 sur la télévision numérique payante"
     texte: "Au milieu des années 1990, Bernie Ecclestone parie sur la télévision numérique interactive : un signal multicanal, essayé à Hockenheim en 1995, est vendu aux chaînes numériques comme l'allemande DF1 et l'italienne Telepiù, alors que le paiement à la séance ne touche que quelques centaines de milliers de foyers (Joe Saward). Lancé en 1996 sous le nom de F1 Digital+, le service laisse le téléspectateur choisir ses caméras ; budgété à environ 35 millions de dollars, il en aurait fait perdre une centaine à Ecclestone avant son arrêt en 2002 (Dieter Rencken)."
     sources:
-      - titre: "Grandprix.com, Joe Saward, « The future of Formula 1 television » (mars 1996)"
+      - titre: "GrandPrix.com, Joe Saward, « The future of Formula 1 television » (mars 1996)"
         url: "https://www.grandprix.com/features/joe-saward/financial-the-future-of-formula-1-television.html"
       - titre: "Autosport, Dieter Rencken, « The $150m gamble that spooked F1 » (mars 2017)"
         url: "https://www.autosport.com/f1/news/the-150m-gamble-that-spooked-f1-5109497/5109497/"
@@ -1818,17 +1818,17 @@ contexte:
     annee: 1997
     categorie: "economie-mondiale"
     titre: "La F1, le tabac et le gouvernement Blair"
-    texte: "Élu en mai 1997, le gouvernement travailliste britannique veut interdire la publicité pour le tabac. En octobre, Max Mosley et Bernie Ecclestone rencontrent Tony Blair à Downing Street, et les travaillistes décident d'exempter les Grands Prix ; en novembre, le parti annonce qu'il rendra à Ecclestone son don d'un million de livres. En décembre, l'Union européenne refuse à la F1 l'exclusion de dix ans demandée par Londres, mais lui accorde jusqu'au 1er octobre 2006 (Grandprix.com)."
+    texte: "Élu en mai 1997, le gouvernement travailliste britannique veut interdire la publicité pour le tabac. En octobre, Max Mosley et Bernie Ecclestone rencontrent Tony Blair à Downing Street, et les travaillistes décident d'exempter les Grands Prix ; en novembre, le parti annonce qu'il rendra à Ecclestone son don d'un million de livres. En décembre, l'Union européenne refuse à la F1 l'exclusion de dix ans demandée par Londres, mais lui accorde jusqu'au 1er octobre 2006 (GrandPrix.com)."
     sources:
-      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+      - titre: "GrandPrix.com, « The history of anti-tobacco legislation » (mai 2005)"
         url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
   - id: "malaisie-1999"
     annee: 1999
     categorie: "economie-mondiale"
     titre: "La Malaisie de Mahathir mise sur la F1"
-    texte: "Au milieu des années 1990, le Premier ministre malaisien Mahathir Mohamad veut faire de son pays une nation pleinement industrialisée d'ici 2020. Dans ce cadre, la compagnie pétrolière nationale Petronas commandite l'équipe Sauber, et la F1 doit servir de vitrine à la haute technologie malaisienne ; le circuit de Sepang, dessiné par Hermann Tilke, est mis en chantier début 1997 (Grandprix.com). En octobre 1999, il accueille le premier Grand Prix de Malaisie, gagné par Eddie Irvine sur Ferrari après un appel contre la disqualification de l'équipe (Formula 1)."
+    texte: "Au milieu des années 1990, le Premier ministre malaisien Mahathir Mohamad veut faire de son pays une nation pleinement industrialisée d'ici 2020. Dans ce cadre, la compagnie pétrolière nationale Petronas commandite l'équipe Sauber, et la F1 doit servir de vitrine à la haute technologie malaisienne ; le circuit de Sepang, dessiné par Hermann Tilke, est mis en chantier début 1997 (GrandPrix.com). En octobre 1999, il accueille le premier Grand Prix de Malaisie, gagné par Eddie Irvine sur Ferrari après un appel contre la disqualification de l'équipe (Formula 1)."
     sources:
-      - titre: "Grandprix.com, « Sepang International » (fiche circuit, non datée)"
+      - titre: "GrandPrix.com, « Sepang International » (fiche circuit, non datée)"
         url: "https://www.grandprix.com/circuits/sepang-international.html"
       - titre: "Formula 1, « The Malaysian Grand Prix - did you know? » (mars 2015)"
         url: "https://www.formula1.com/en/latest/article/the-malaysian-grand-prix-did-you-know-.1SsyzCaENkaNRPGJzC0OJG"
@@ -1846,13 +1846,13 @@ contexte:
     annee: 2005
     categorie: "economie-mondiale"
     titre: "L'Europe interdit le parrainage par le tabac"
-    texte: "La directive européenne 2003/33/CE du 26 mai 2003 interdit le parrainage par le tabac des événements qui se déroulent dans plusieurs États membres ou ont des effets transfrontaliers ; elle doit être transposée au plus tard le 31 juillet 2005. Une première directive, votée en 1998, avait été annulée en 2000 par la Cour de justice pour une base juridique erronée (Grandprix.com). En 2004, Ferrari, McLaren, Renault, Jordan et BAR dépendaient encore largement des cigarettiers ; la FIA estimait en 2002 leur apport au sport automobile à 350 millions de dollars par an, et Frank Williams jugeait les autres commanditaires moins généreux de 25 à 30 % (Autosport, Nick Mulvenney)."
+    texte: "La directive européenne 2003/33/CE du 26 mai 2003 interdit le parrainage par le tabac des événements qui se déroulent dans plusieurs États membres ou ont des effets transfrontaliers ; elle doit être transposée au plus tard le 31 juillet 2005. Une première directive, votée en 1998, avait été annulée en 2000 par la Cour de justice pour une base juridique erronée (GrandPrix.com). En 2004, Ferrari, McLaren, Renault, Jordan et BAR dépendaient encore largement des cigarettiers ; la FIA estimait en 2002 leur apport au sport automobile à 350 millions de dollars par an, et Frank Williams jugeait les autres commanditaires moins généreux de 25 à 30 % (Autosport, Nick Mulvenney)."
     sources:
       - titre: "legislation.gov.uk, « Directive 2003/33/EC of the European Parliament and of the Council of 26 May 2003 » (mai 2003)"
         url: "https://www.legislation.gov.uk/eudr/2003/33/data.htm?view=plain"
       - titre: "Autosport, Nick Mulvenney, « Analysis: F1 forced to try to kick tobacco habit » (janvier 2005)"
         url: "https://www.autosport.com/f1/news/analysis-f1-forced-to-try-to-kick-tobacco-habit-5067652/5067652/"
-      - titre: "Grandprix.com, « The history of anti-tobacco legislation » (mai 2005)"
+      - titre: "GrandPrix.com, « The history of anti-tobacco legislation » (mai 2005)"
         url: "https://www.grandprix.com/features/feature-the-history-of-anti-tobacco-legislation.html"
   - id: "crise-financiere-2008"
     annee: 2008
@@ -1923,7 +1923,7 @@ contexte:
     annee: 2019
     categorie: "societe"
     titre: "« Drive to Survive » sur Netflix"
-    texte: "Le 8 mars 2019, Netflix met en ligne « Formula 1: Drive to Survive », série documentaire en dix épisodes consacrée à la saison 2018, de Melbourne à Abou Dabi (Formula 1). En 2022, Stefano Domenicali lui reconnaît un effet « incroyable », surtout sur les nouveaux publics, et Greg Maffei, patron de Liberty Media, cite une audience télévisée américaine en hausse de 58 % en 2021 et un public rajeuni de quatre ans en moyenne (Autosport, Adam Cooper)."
+    texte: "Le 8 mars 2019, Netflix met en ligne « Formula 1: Drive to Survive », série documentaire en dix épisodes consacrée à la saison 2018, de Melbourne à Abou Dhabi (Formula 1). En 2022, Stefano Domenicali lui reconnaît un effet « incroyable », surtout sur les nouveaux publics, et Greg Maffei, patron de Liberty Media, cite une audience télévisée américaine en hausse de 58 % en 2021 et un public rajeuni de quatre ans en moyenne (Autosport, Adam Cooper)."
     sources:
       - titre: "Formula 1, « Formula 1 and Netflix announce 'Drive to Survive' » (février 2019)"
         url: "https://www.formula1.com/en/latest/article/formula-1-and-netflix-put-drive-to-survive-on-pole-position.7MyqMggwrYJ5qUxjj1igeB"
@@ -1959,7 +1959,7 @@ contexte:
       - evenement: "essais-aero-echelonnes-2021"
         mecanisme: "declenche"
         preuve: "discute"
-        pourquoi: "Autosport (Luke Smith) range l'échelle des essais aérodynamiques dans le train de mesures adopté pour protéger la F1 de la pandémie , sans dire que cette mesure-là répond à la pandémie plutôt qu'au souci d'équilibre : le lien reste indirect."
+        pourquoi: "Autosport (Luke Smith) range l'échelle des essais aérodynamiques dans le train de mesures adopté pour protéger la F1 de la pandémie, sans dire que cette mesure-là répond à la pandémie plutôt qu'au souci d'équilibre : le lien reste indirect."
     sources:
       - titre: "Formula 1, « Formula 1 launches Virtual Grand Prix Series to replace postponed races » (mars 2020)"
         url: "https://www.formula1.com/en/latest/article/formula-1-launches-virtual-grand-prix-series-to-replace-postponed-races.1znLAbPzBbCQPj1IDMeiOi"

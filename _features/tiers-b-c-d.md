@@ -26,7 +26,7 @@ Five engineers changed the grammar of F1; fifteen others transformed major subsy
 
 **Dernie** embodies the silent revolution: according to his own statements, early CAD/CAE, data acquisition, wind tunnel work and active suspension at Williams. He is ranked for transforming the engineering *process* as much as for any specific car.
 
-## Tier C — Structuring innovators
+## Tier C — Structural innovators
 
 A major and lasting contribution, though a complete redefinition of the discipline cannot be demonstrated to the same degree.
 

@@ -385,7 +385,7 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Algiers
+  - nom: Alger
     nom_en: Algiers
     x: 317.9
     y: 683.2
@@ -399,7 +399,7 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Frankfurt
+  - nom: Francfort
     nom_en: Frankfurt
     x: 460.4
     y: 196.9
@@ -413,7 +413,7 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Hamburg
+  - nom: Hambourg
     nom_en: Hamburg
     x: 494.0
     y: 71.0
@@ -455,7 +455,7 @@ panneaux:
     ancre: end
     dx: -5.0
     dy: 2.7
-  - nom: Palermo
+  - nom: Palerme
     nom_en: Palermo
     x: 578.8
     y: 633.6
@@ -1163,28 +1163,28 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Bergamo
+  - nom: Bergame
     nom_en: Bergamo
     x: 277.2
     y: 41.2
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Parma
+  - nom: Parme
     nom_en: Parma
     x: 353.3
     y: 188.3
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Ravenna
+  - nom: Ravenne
     nom_en: Ravenna
     x: 575.5
     y: 252.7
     ancre: middle
     dx: 0.0
     dy: 11.0
-  - nom: San Marino
+  - nom: Saint-Marin
     nom_en: San Marino
     x: 601.5
     y: 332.7
@@ -1319,12 +1319,12 @@ panneaux:
     ancre: end
     dx: -5.0
     dy: 2.7
-  - nom: Washington,  D.C.
-    nom_en: Washington,  D.C.
+  - nom: Washington
+    nom_en: Washington, D.C.
     x: 626.5
     y: 161.9
-    ancre: end
-    dx: -5.0
+    ancre: start
+    dx: 5.0
     dy: 2.7
   - nom: Chicago
     nom_en: Chicago
@@ -1368,7 +1368,7 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Philadelphia
+  - nom: Philadelphie
     nom_en: Philadelphia
     x: 650.9
     y: 145.2
@@ -1417,14 +1417,14 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Havana
+  - nom: La Havane
     nom_en: Havana
     x: 555.1
     y: 414.8
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: New Orleans
+  - nom: La Nouvelle-Orléans
     nom_en: New Orleans
     x: 452.2
     y: 305.2
@@ -1535,7 +1535,7 @@ panneaux:
     dx: 7.0
     dy: 2.7
   villes:
-  - nom: Brasília
+  - nom: Brasilia
     nom_en: Brasília
     x: 181.5
     y: 15.2
@@ -1556,7 +1556,7 @@ panneaux:
     ancre: start
     dx: 5.0
     dy: 2.7
-  - nom: Asunción
+  - nom: Asuncion
     nom_en: Asunción
     x: 6.7
     y: 200.5

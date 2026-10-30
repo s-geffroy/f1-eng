@@ -334,7 +334,7 @@
   motifs:
   - "turbocharger"
   - "turbocharging"
-  definition: "A turbine driven by the exhaust gases spins a compressor, which forces more air into the cylinders: a small engine produces as much as a large one, or more. The 1966-1986 regulations balanced 1.5 litres turbocharged against 3 litres naturally aspirated; the turbo returned in 2014 in the hybrid power unit."
+  definition: "A turbine driven by the exhaust gases spins a compressor, which forces more air into the cylinders: a small engine produces as much as a large one, or more. The 1966-1985 regulations balanced 1.5 litres turbocharged against 3 litres naturally aspirated; the turbo returned in 2014 in the hybrid power unit."
   premiere: "Renault RS01, 1977 British Grand Prix."
   entrees:
   - "bernard-dudot"
@@ -373,7 +373,7 @@
   - "V12"
   - "V8"
   - "V6"
-  definition: "The layout is the number and arrangement of the cylinders: in a V, two banks form an angle (V6, V8, V10, V12); laid flat, at 180°, they face each other, as in the flat-12. The capacity is the total volume of the cylinders, shared between them: at 3 litres, each cylinder displaces 250cc in a twelve-cylinder and 375cc in an eight. The regulations first set the capacity of naturally aspirated engines, 3 litres in 1966, 3.5 litres in 1987 (the only engines allowed from 1989), 3 litres in 1995, then the layout itself: ten cylinders mandated in 2000, a 2.4-litre V8 in 2006, a 1.6-litre turbo V6 in 2014."
+  definition: "The layout is the number and arrangement of the cylinders: in a V, two banks form an angle (V6, V8, V10, V12); laid flat, at 180°, they face each other, as in the flat-12. The capacity is the total volume of the cylinders, shared between them: at 3 litres, each cylinder displaces 250 cc in a twelve-cylinder and 375 cc in an eight. The regulations first set the capacity of naturally aspirated engines, 3 litres in 1966, 3.5 litres in 1987 (the only engines allowed from 1989), 3 litres in 1995, then the layout itself: ten cylinders mandated in 2000, a 2.4-litre V8 in 2006, a 1.6-litre turbo V6 in 2014."
   entrees:
   - "keith-duckworth"
   - "ettore-zaccone-mina"
@@ -459,7 +459,7 @@
   entrees:
   - "ralph-bellamy"
   sources:
-  - titre: "Keith Howard, Motor Sport Magazine, “X-ray spec : McLaren M19” (January 2005)"
+  - titre: "Keith Howard, Motor Sport Magazine, “X-ray spec: McLaren M19” (January 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2005/64/x-ray-spec-mclaren-m19/"
   - titre: "Goodwood, “The BT44 was Gordon Murray's first great innovation”"
     url: "https://goodwood.com/grr/f1/the-bt44-was-gordon-murrays-first-great-innovation"
@@ -637,7 +637,7 @@
   terme: KERS
   motifs:
   - KERS
-  definition: 'Kinetic energy recovery system: under braking, a motor-generator converts part of the energy into electricity, which is stored and given back to the driver as extra power. Allowed in 2009, then limited to 60kW for 6.6 seconds a lap, it preceded the 2014 hybrid power unit.'
+  definition: 'Kinetic energy recovery system: under braking, a motor-generator converts part of the energy into electricity, which is stored and given back to the driver as extra power. Allowed from 2009 and limited at the time to 60 kW for 6.6 seconds a lap, it preceded the 2014 hybrid power unit.'
   premiere: '2009.'
   entrees:
   - andy-cowell

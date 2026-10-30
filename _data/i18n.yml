@@ -31,6 +31,7 @@ fr:
     index_recherche: "/recherche.json"
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
+    sources: "/sources/"
   nom_site: "Ingénieurs et écuries de la F1"
   nav:
     - { url: "/ingenieurs/", nom: "Ingénieurs" }
@@ -46,6 +47,7 @@ fr:
   pied_avant: "Classement établi selon une"
   pied_lien: "méthode explicite"
   pied_apres: "Les scores sont un instrument comparatif, pas des faits historiques. Sources consultées le 9 août 2026, revérifiées le 26 octobre 2026."
+  pied_sources: "Toutes les sources"
   l:
     rang: "Rang"
     tier: "Tier"
@@ -142,7 +144,7 @@ fr:
     description: "La généalogie des écuries de Formule 1 : chaque structure suivie à travers ses rachats et ses changements de nom, chaque filiation justifiée par ses sources."
     titre: "Généalogie des écuries"
     accroche: "Une écurie de F1 change souvent de nom sans changer d'usine ni d'équipe : Tyrrell est devenue Mercedes, Stewart est devenue Red Bull. Les années se lisent de haut en bas ; chaque colonne suit une usine, et chaque nom y est une carte posée à la hauteur de ses saisons. La fiche de chaque écurie justifie, sources à l'appui, le passage d'un nom au suivant."
-    perimetre: "Périmètre : tous les constructeurs qui ont pris le départ d'au moins un Grand Prix du championnat du monde depuis 1958, avec leurs saisons antérieures. N'y figurent pas les engagés des seules 500 miles d'Indianapolis, ni les équipes qui ne se sont jamais qualifiées (Life, Kauhsen, McGuire…). Une saison compte dès qu'une voiture a pris le départ, y compris les Formule 2 admises au Grand Prix d'Allemagne. Un constructeur est suivi sous le nom des résultats officiels ; une même rangée peut accueillir plusieurs écuries qui ne se chevauchent pas."
+    perimetre: "Périmètre : tous les constructeurs qui ont pris le départ d'au moins un Grand Prix du championnat du monde depuis 1958, avec leurs saisons antérieures. N'y figurent pas les engagés des seuls 500 miles d'Indianapolis, ni les équipes qui ne se sont jamais qualifiées (Life, Kauhsen, McGuire…). Une saison compte dès qu'une voiture a pris le départ, y compris les Formule 2 admises au Grand Prix d'Allemagne. Un constructeur est suivi sous le nom des résultats officiels ; une même rangée peut accueillir plusieurs écuries qui ne se chevauchent pas."
     aria: "Frise de la généalogie des écuries"
     actuelles: "Les écuries de 2026 et leurs ancêtres"
     historiques: "Écuries disparues"
@@ -285,11 +287,23 @@ fr:
     chrono: "Sur la chronologie"
     sources: "Sources"
     consultees: "Sources consultées le 25 octobre 2026."
+  biblio:
+    titre_page: "Sources"
+    description: "Bibliographie de l'encyclopédie : toutes les sources citées, regroupées par éditeur, avec les pages qui les citent, et la provenance des données de résultats."
+    titre: "Sources et bibliographie"
+    accroche: "Tout ce que le site affirme renvoie à une source publiée. Cette page les réunit toutes, regroupées par éditeur, avec pour chacune les pages qui la citent. Les dates de consultation figurent sur chaque page."
+    bilan: "%sources% sources distinctes, de %editeurs% éditeurs, pour %citations% citations."
+    donnees_titre: "Données de résultats"
+    resultats: "Résultats de chaque Grand Prix (vainqueur, podium, première place de la grille, classements des pilotes et des constructeurs) : %saisons% saisons, %courses% courses, relevés sur les pages de résultats officielles de"
+    croisement: "Contrôle croisé, course par course, du vainqueur, du podium et de la première place de la grille : %concordants% vainqueurs concordants et %desaccords% désaccord(s) signalé(s), avec la base ouverte"
+    sommaire: "Éditeurs"
+    cite_par: "Cité par :"
+    note: "Une même source citée par plusieurs pages n'apparaît qu'une fois. Les pages de résultats de formula1.com qui forment le jeu de données décrit en tête de page ne sont pas listées une à une ; seules figurent celles qu'une page cite nommément."
   dossiers:
     titre_page: "Dossiers"
-    description: "Sept textes de synthèse : le classement des ingénieurs de la F1, le lien entre contexte et innovation, la domination confrontée aux innovations et les cycles réglementaires."
+    description: "Huit textes de synthèse : le classement des ingénieurs de la F1, le lien entre contexte et innovation, la domination confrontée aux innovations, les cycles réglementaires et des indicateurs tirés des résultats."
     titre: "Dossiers"
-    accroche: "Sept textes de synthèse : la méthode, puis le classement tier par tier, la manière dont la chronologie relie le contexte aux innovations, la domination des écuries, des pilotes et des motoristes confrontée aux innovations, et enfin les cycles réglementaires."
+    accroche: "Sept textes de synthèse : la méthode, puis le classement tier par tier, la manière dont la chronologie relie le contexte aux innovations, la domination des écuries, des pilotes et des motoristes confrontée aux innovations, les cycles réglementaires, et enfin quatre indicateurs tirés des résultats."
     telecharger: "Télécharger la présentation en PDF"
     telecharger_suite: "22 diapositives, de la méthode au classement final (dossiers 1 à 4), en français."
   recherche:
@@ -468,6 +482,7 @@ en:
     index_recherche: "/en/search.json"
     pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
+    sources: "/en/sources/"
   nom_site: "Engineers and Teams of F1"
   nav:
     - { url: "/en/engineers/", nom: "Engineers" }
@@ -483,6 +498,7 @@ en:
   pied_avant: "Ranking built with an"
   pied_lien: "explicit method"
   pied_apres: "Scores are a comparative tool, not historical facts. Sources accessed on 9 August 2026, re-checked on 26 October 2026."
+  pied_sources: "All sources"
   l:
     rang: "Rank"
     tier: "Tier"
@@ -579,7 +595,7 @@ en:
     description: "The family tree of Formula 1 teams: each team structure followed through its takeovers and name changes, each link justified by its sources."
     titre: "Team family tree"
     accroche: "An F1 team often changes its name without changing its factory or its people: Tyrrell became Mercedes, Stewart became Red Bull. Years read from top to bottom; each column follows a factory, and each name in it is a card placed at the height of its seasons. Each team's page justifies, with sources, the change from one name to the next."
-    perimetre: "Scope: every constructor that started at least one world championship Grand Prix since 1958, with its earlier seasons. Not included: entrants of the Indianapolis 500 only, and teams that never qualified (Life, Kauhsen, McGuire…). A season counts as soon as one car started, including the Formula 2 cars admitted to the German Grand Prix. Each constructor is followed under the name used in the official results; a single row may hold several teams that do not overlap."
+    perimetre: "Scope: every constructor that has started at least one world championship Grand Prix since 1958, with its earlier seasons. Not included: entrants of the Indianapolis 500 only, and teams that never qualified (Life, Kauhsen, McGuire…). A season counts as soon as one car started, including the Formula 2 cars admitted to the German Grand Prix. Each constructor is followed under the name used in the official results; a single row may hold several teams that do not overlap."
     aria: "Chart of the team family tree"
     actuelles: "The 2026 teams and their ancestors"
     historiques: "Defunct teams"
@@ -722,11 +738,23 @@ en:
     chrono: "On the timeline"
     sources: "Sources"
     consultees: "Sources accessed on 25 October 2026."
+  biblio:
+    titre_page: "Sources"
+    description: "The encyclopedia's bibliography: every source cited, grouped by publisher, with the pages that cite it, and where the results data comes from."
+    titre: "Sources and bibliography"
+    accroche: "Everything the site states points to a published source. This page gathers them all, grouped by publisher, each with the pages that cite it. Access dates are given on each page."
+    bilan: "%sources% distinct sources from %editeurs% publishers, for %citations% citations."
+    donnees_titre: "Results data"
+    resultats: "Results of every Grand Prix (winner, podium, first place on the grid, drivers' and constructors' standings): %saisons% seasons, %courses% races, taken from the official results pages of"
+    croisement: "Race-by-race cross-check of the winner, podium and first place on the grid: %concordants% matching winners and %desaccords% disagreement(s) flagged, against the open database"
+    sommaire: "Publishers"
+    cite_par: "Cited by:"
+    note: "A source cited by several pages appears only once. The formula1.com results pages that make up the dataset described at the top of the page are not listed one by one; only those a page cites by name appear."
   dossiers:
     titre_page: "Features"
-    description: "Seven overview features: the ranking of F1 engineers, the link between context and innovation, dominance set against innovations and the regulation cycles."
+    description: "Eight overview features: the ranking of F1 engineers, the link between context and innovation, dominance set against innovations, the regulation cycles and indicators drawn from the results."
     titre: "Features"
-    accroche: "Seven overview pieces: the method, then the ranking tier by tier, how the timeline links context to innovations, the dominance of teams, drivers and engine makers set against innovations, and finally the regulation cycles."
+    accroche: "Eight overview pieces: the method, then the ranking tier by tier, how the timeline links context to innovations, the dominance of teams, drivers and engine makers set against innovations, the regulation cycles, and finally four indicators drawn from the results."
     telecharger: "Download the presentation (PDF)"
     telecharger_suite: "22 slides, from the method to the final ranking (features 1 to 4)."
   recherche:

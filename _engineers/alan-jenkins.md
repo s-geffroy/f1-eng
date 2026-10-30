@@ -29,7 +29,7 @@ Alan Jenkins was [John Barnard]({{ site.baseurl }}{% link _engineers/john-barnar
 
 ## Technical career
 
-- **McLaren.** Recruited in 1979 by Project 4, he became Barnard's right-hand man when Project 4 took over McLaren, and remained his deputy until 1984{% include src.html n="1,2" %}. He was there at the start of Project Four's F1 project, the future MP4/1, when [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) joined the team{% include src.html n="3" %}. As John Watson's race engineer, he played a part in Watson's win at Long Beach in 1983, from 22nd on the grid{% include src.html n="1" %}.
+- **McLaren.** Recruited in 1979 by Project 4, he became Barnard's right-hand man when Project 4 took over McLaren, and remained his deputy until 1984{% include src.html n="1,2" %}. He was there at the start of Project 4's F1 project, the future MP4/1, when [Steve Nichols]({{ site.baseurl }}{% link _engineers/steve-nichols.md %}) joined the team{% include src.html n="3" %}. As John Watson's race engineer, he played a part in Watson's win at Long Beach in 1983, from 22nd on the grid{% include src.html n="1" %}.
 - **Penske.** He designed the PC15 and PC16 IndyCars, sophisticated but seldom winners{% include src.html n="1,2" %}.
 - **Onyx.** He designed the ORE-1, the team's first F1 car, in 1989{% include src.html n="1,4" %}.
 - **Footwork.** As technical director, he designed the Porsche-engined FA12{% include src.html n="1" %}.

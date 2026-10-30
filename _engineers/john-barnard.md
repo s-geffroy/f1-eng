@@ -67,7 +67,7 @@ For the MP4/2, Barnard imposed the dimensions of the TAG turbo [V6]({{ site.base
 
 Based in a design office in England, the Guildford Technical Office, Barnard introduced on the Ferrari 640 the **[semi-automatic gearbox]({{ site.baseurl }}/en/glossary/#boite-semi-automatique) controlled from the steering wheel**, originally planned for the 639, which never raced{% include src.html n="3,5,6" %}:
 
-- the H-pattern lever replaced, a solution McLaren adopted in turn later in the 1990 season{% include src.html n="9" %};
+- the H-pattern lever replaced, a solution McLaren only raced in 1992, on the MP4/7A (formula1.com wrongly says "later in the 1990 season"){% include src.html n="9" %};
 - fewer gear-change errors{% include src.html n="3,7" %};
 - hands kept on the wheel{% include src.html n="5,7" %};
 - a more compact cockpit{% include src.html n="7,9" %};
@@ -80,6 +80,7 @@ The same car used front suspension with short torsion bars, which according to B
 - A graduate of Watford College of Technology, he joined Lola, where he drew the T250 for Formula Super Vee{% include src.html n="3,8" %}.
 - At McLaren from 1972, he worked with Gordon Coppuck on the M16 IndyCar and on the world-championship-winning M23{% include src.html n="8" %}.
 - At Vel's Parnelli Jones, he designed the VPJ-6, the first Cosworth DFX-engined IndyCar{% include src.html n="3" %}. He then drew the Chaparral 2K, the first full [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) IndyCar, with which Johnny Rutherford won the 1980 Indianapolis 500{% include src.html n="3,8" %}.
+- Then recruited by Benetton, he set up the Benetton Advanced Research Group at Godalming and designed the B191, the basis of the 1994 world-championship-winning B194, before leaving the team over a disagreement about money{% include src.html n="8" %}.
 - Back at Ferrari in the 1990s, he drew the F310, with which Michael Schumacher won three races in 1996{% include src.html n="2,3" %}. He then bought Ferrari's English design office, which became B3 Technologies{% include src.html n="3,8" %}.
 - The Arrows A19 is the last F1 car fully credited to Barnard{% include src.html n="3" %}.
 

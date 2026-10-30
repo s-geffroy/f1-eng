@@ -8,7 +8,7 @@ domaine: "Moteur"
 lignees: []
 voir_aussi: ["bernard-dudot", "francois-castaing"]
 sources:
-  - titre: "Joe Saward, GrandPrix.com, « Interview : Bernard Dudot » (1990)"
+  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1990)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
   - titre: "Motor Sport Magazine, « Renault-Alpine's 1978 Le Mans 24 Hours win: All for one » (juin 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2003/29/all-for-one/"

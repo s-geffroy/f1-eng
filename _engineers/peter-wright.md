@@ -47,7 +47,7 @@ Peter Wright's high placing in this ranking corrects an attribution: that of [gr
 - He played a key role in the design of the twin-chassis Lotus 88{% include src.html n="3" %}.
 - Lotus's **[active suspension]({{ site.baseurl }}/en/glossary/#suspension-active)**, which he developed with David Williams of Cranfield{% include src.html n="8" %}, was first used on Nigel Mansell's Lotus 92, in the first two races of 1983{% include src.html n="2" %}; in 1987 Ayrton Senna's Lotus 99T became the first F1 car with active suspension to win a Grand Prix{% include src.html n="3" %}.
 - In 1990, he took over Team Lotus with Peter Collins{% include src.html n="3" %}, and left the team when it closed in 1994{% include src.html n="2,4" %}.
-- At the FIA, he contributed to the development of the HANS device and of cockpits able to withstand 60g{% include src.html n="2,3" %}.
+- At the FIA, he contributed to the development of the HANS device and of cockpits able to withstand 60 g{% include src.html n="2,3" %}.
 
 ## Attribution
 

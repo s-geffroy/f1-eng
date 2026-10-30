@@ -31,7 +31,7 @@ image: "/assets/partage/voitures/brabham-bt46b.jpg"
 ---
 ## Ce qu'elle change
 
-En 1978, la [Lotus 79]({{ site.baseurl }}{% link _voitures/lotus-79.md %}) pousse l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) plus loin{% include src.html n="1" %}. Brabham ne peut pas suivre : le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo, trop large, ne laisse pas la place de flancs en venturi{% include src.html n="1" %}. Gordon Murray prend une autre voie{% include src.html n="1" %}.
+En 1978, la [Lotus 79]({{ site.baseurl }}{% link _voitures/lotus-79.md %}) pousse l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) plus loin{% include src.html n="1" %}. Brabham ne peut pas suivre : le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo, trop large, ne laisse pas la place de [flancs]({{ site.baseurl }}/glossaire/#pontons) en venturi{% include src.html n="1" %}. Gordon Murray prend une autre voie{% include src.html n="1" %}.
 
 La BT46B porte à l'arrière un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur), entraîné par la boîte de vitesses{% include src.html n="1,3" %}. Un radiateur est posé sur le moteur{% include src.html n="1,3" %}. Sous la voiture, une large zone est fermée par quatre [jupes]({{ site.baseurl }}/glossaire/#jupes) reliées entre elles, et le ventilateur en aspire l'air{% include src.html n="1,3" %}. Point décisif, selon Motor Sport : l'[appui]({{ site.baseurl }}/glossaire/#appui) dépend du régime du moteur, et non de la vitesse de la voiture{% include src.html n="1" %}.
 

@@ -16,7 +16,7 @@ description: "Four measures drawn from the 1,149 Grands Prix from 1950 to 2025: 
 {%- assign RE = I.ouverture.record_ecuries -%}
 {%- assign RT = I.pole.ecuries | where: "id", "renault-1977" | first -%}
 {%- assign RB = I.pole.ecuries | where: "id", "red-bull" | first -%}
-The [Dominance feature]({{ site.baseurl }}/en/features/domination/) asks who dominates, and when. This feature starts from the same results, the {{ I.client.gp }} championship Grands Prix from 1950 to 2025, and asks four other questions:
+The [Dominance feature]({{ site.baseurl }}/en/features/domination/) asks who dominates, and when. This feature starts from the same results, the {% include nombre.html n=I.client.gp %} championship Grands Prix from 1950 to 2025, and asks four other questions:
 
 1. Is F1 more closed than it used to be?
 2. Does a team need to build its own engine to win?
@@ -30,7 +30,7 @@ Each measure is computed by decade and by [regulation cycle]({{ site.baseurl }}/
 - **The most open F1 is that of the 1970s and 1980s.** On average, {{ OD[2].effectif }} "effective" teams share the wins in the 1970s, against {{ OD[6].effectif }} since 2010. The most open season is {{ O0.annee }}, with {{ RE.ecuries }} winning teams and {{ RE.pilotes }} winning drivers; the most closed, {{ F0.annee }}.
 - **The in-house engine disappeared, then came back.** From 1960 to 1999, more than three wins in four go to a team supplied by an engine maker. In the 2000s and 2010s, the team that also builds its engine wins about six races in ten ({{ MD[5].part_maison | times: 100 | round }}% then {{ MD[6].part_maison | times: 100 | round }}%).
 - **Pole is worth more than it used to be.** The driver starting from pole wins {{ I.pole.taux | times: 100 | round }}% of Grands Prix. The rate drops to {{ PD[3].taux | times: 100 | round }}% in the 1980s and rises to {{ PD[7].taux | times: 100 | round }}% since 2020.
-- **Cars win more, but no longer last.** A winning car takes on average {{ VD[0].victoires_par_modele }} Grands Prix in the 1950s, {{ VD[7].victoires_par_modele }} since 2020. Up to the 1980s, nearly one win in three goes to a car that had already won the previous season; since 2004, this has almost stopped happening.
+- **Cars win more, but no longer last.** A winning car takes on average {{ VD[0].victoires_par_modele }} Grands Prix in the 1950s, {{ VD[7].victoires_par_modele }} since 2020. Up to the 1980s, nearly one win in three goes to a car that had already won in an earlier season; since 2004, this has almost stopped happening.
 
 Contents
 {:.sommaire-titre}
@@ -52,7 +52,7 @@ Counting the teams that win at least one race is not enough: a season where one 
 - **Since the 1990s, openness has levelled off.** The average effective number no longer exceeds {{ OD[4].effectif }} per decade, although the calendar has twice as many races as in 1970. More races do not spread the wins further.
 - **Titles are rarely close.** The constructors' title margin is the share of the champion's points that the runner-up lacks. It averages {{ OD[2].ecart_titre | times: 100 | round }}% in the 1970s, {{ OD[3].ecart_titre | times: 100 | round }}% in the 1980s and {{ OD[7].ecart_titre | times: 100 | round }}% since 2020.
 
-This matches the finding of the [Cycles feature]({{ site.baseurl }}/en/features/cycles/): the two longest cycles, 1954-1960 and 1966-1982, are also the most open.
+This qualifies the finding of the [Cycles feature]({{ site.baseurl }}/en/features/cycles/): the two cycles in which the dominant team wins least, 1954-1960 and 1966-1982, are not both among the most open by the effective number: 1966-1982, the longest, is the most open of all, but 1954-1960 ranks only fifth out of eleven.
 
 ## Does a team need to build its own engine to win?
 
@@ -69,7 +69,7 @@ A win counts **with an in-house engine** when the winning team also builds its e
 
 {% include domination.html quoi="indic_couples" %}
 
-The most successful pairing without an in-house engine is McLaren-Mercedes, from 1997 to 2025. The DFV-powered Lotus-Ford, from 1967 to 1982, remains the model of the team that buys its engine off the shelf: [Keith Duckworth's entry]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) tells how this engine opened winning to small teams.
+The most successful pairing without an in-house engine is McLaren-Mercedes, from 1997 to 2025. The DFV-powered Lotus-Ford, from 1967 to 1982, remains the model of the team that buys its engine off the shelf: [Keith Duckworth's entry]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) tells how this engine opened the way to victory for small teams.
 
 ## What is a pole position worth?
 
@@ -106,11 +106,11 @@ The [Dominance feature]({{ site.baseurl }}/en/features/domination/#cars) records
 
 ## Method and limits
 
-- **Shared wins count once**, as throughout the site: {{ I.client.gp }} Grands Prix from 1950 to 2025.
+- **Shared wins count once**, as throughout the site: {% include nombre.html n=I.client.gp %} Grands Prix from 1950 to 2025.
 - **The Indianapolis 500 counts from 1950 to 1960**, as in the championship. Its winners, all Offenhauser-powered, count as without an in-house engine.
 - **The constructors' title margin** only exists since 1958: the 1950s average covers only 1958 and 1959, and the first two cycles have none.
 - **In-house engine**: the list of teams that build their engine is written in `outils/domination.py`. Badged engines are credited to their builder: the RBPT engine of 2022 to 2025 is a Honda. BMW Sauber (2006-2009, owned by BMW) counts as an in-house engine. A works partnership counts as an engine maker's engine, even when the engine maker is a shareholder in the team: McLaren-Mercedes, for instance.
-- **The number of wins per car** depends on season length: 7 to 9 Grands Prix in the 1950s, more than 20 today. The two other car measures, cars per season and carried-over cars, do not.
+- **The number of wins per car** depends on season length: 7 to 11 Grands Prix in the 1950s, more than 20 today. The two other car measures, cars per season and carried-over cars, do not.
 - **An evolution without a final letter** (Ferrari 312T2 after the 312T) counts as a new car, as in the Dominance feature.
 
 ## Sources

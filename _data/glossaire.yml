@@ -313,7 +313,7 @@
   terme: Boîte semi-automatique à palettes
   motifs:
   - boîte semi-automatique
-  definition: 'Le pilote change de rapport avec deux palettes derrière le volant, sans levier ni pédale d''embrayage ; une commande électro-hydraulique exécute le changement. Mains sur le volant, moins d''erreurs, coque plus étroite : toutes les F1 actuelles en sont équipées.'
+  definition: 'Le pilote change de rapport avec deux palettes derrière le volant, sans levier ni pédale d''embrayage ; une commande électrohydraulique exécute le changement. Mains sur le volant, moins d''erreurs, coque plus étroite : toutes les F1 actuelles en sont équipées.'
   premiere: Ferrari 640, 1989 (d'abord prévue pour la 639, qui n'a pas couru).
   entrees:
   - john-barnard
@@ -331,7 +331,7 @@
   motifs:
   - turbocompresseur
   - suralimentation
-  definition: 'Une turbine entraînée par les gaz d''échappement fait tourner un compresseur, qui force davantage d''air dans les cylindres : un petit moteur produit autant ou plus qu''un gros. Le règlement 1966-1986 met en balance 1,5 litre suralimenté et 3 litres atmosphérique ; le turbo revient en 2014 dans le groupe propulseur hybride.'
+  definition: 'Une turbine entraînée par les gaz d''échappement fait tourner un compresseur, qui force davantage d''air dans les cylindres : un petit moteur produit autant ou plus qu''un gros. Le règlement 1966-1985 met en balance 1,5 litre suralimenté et 3 litres atmosphérique ; le turbo revient en 2014 dans le groupe propulseur hybride.'
   premiere: Renault RS01, Grand Prix de Grande-Bretagne 1977.
   entrees:
   - bernard-dudot
@@ -370,7 +370,7 @@
   - V12
   - V8
   - V6
-  definition: 'L''architecture désigne le nombre et la disposition des cylindres : en V, deux rangées forment un angle (V6, V8, V10, V12) ; à plat, à 180°, elles se font face, comme dans le flat-12. La cylindrée est le volume total des cylindres, partagé entre eux : à 3 litres, chaque cylindre fait 250cm³ dans un douze-cylindres et 375cm³ dans un huit-cylindres. Le règlement fixe d''abord la cylindrée des moteurs atmosphériques, 3 litres en 1966, 3,5 litres en 1987 (seuls admis à partir de 1989), 3 litres en 1995, puis l''architecture elle-même : dix cylindres imposés en 2000, V8 de 2,4 litres en 2006, V6 turbo de 1,6 litre en 2014.'
+  definition: 'L''architecture désigne le nombre et la disposition des cylindres : en V, deux rangées forment un angle (V6, V8, V10, V12) ; à plat, à 180°, elles se font face, comme dans le flat-12. La cylindrée est le volume total des cylindres, partagé entre eux : à 3 litres, chaque cylindre fait 250 cm³ dans un douze-cylindres et 375 cm³ dans un huit-cylindres. Le règlement fixe d''abord la cylindrée des moteurs atmosphériques, 3 litres en 1966, 3,5 litres en 1987 (seuls admis à partir de 1989), 3 litres en 1995, puis l''architecture elle-même : dix cylindres imposés en 2000, V8 de 2,4 litres en 2006, V6 turbo de 1,6 litre en 2014.'
   entrees:
   - keith-duckworth
   - ettore-zaccone-mina
@@ -634,7 +634,7 @@
   terme: KERS
   motifs:
   - KERS
-  definition: 'Système de récupération de l''énergie cinétique : au freinage, un moteur-générateur convertit une partie de l''énergie en électricité, stockée puis rendue au pilote sous forme de puissance supplémentaire. Autorisé en 2009, limité alors à 60kW pendant 6,6 secondes par tour, il précède le groupe propulseur hybride de 2014.'
+  definition: 'Système de récupération de l''énergie cinétique : au freinage, un moteur-générateur convertit une partie de l''énergie en électricité, stockée puis rendue au pilote sous forme de puissance supplémentaire. Autorisé en 2009, limité alors à 60 kW pendant 6,6 secondes par tour, il précède le groupe propulseur hybride de 2014.'
   premiere: '2009.'
   entrees:
   - andy-cowell

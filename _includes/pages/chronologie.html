@@ -1,5 +1,6 @@
 {%- comment -%} Page commune aux deux langues (voir _data/i18n.yml). {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- if lang == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign debut = 1940 -%}
@@ -139,7 +140,7 @@
         {%- comment -%} un jalon sans entrée qui porte ses faits les source lui-même {%- endcomment -%}
         {%- if j.sources and j.sources.size > 0 %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
-          {%- for s in j.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
+          {%- for s in j.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}
         </p>
         {%- endif %}
         {%- assign ses_voitures = site[T.collection_voitures] | where_exp: "v", "v.jalons contains j.id" -%}
@@ -186,7 +187,7 @@
     <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}" data-categorie="{{ c.categorie }}">
       <p class="fiche-jalon-annee">{{ c.annee }}</p>
       <div class="fiche-jalon-corps">
-        <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }} : {{ cat.nom | downcase }}</p>
+        <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }}{{ esp_ }}: {{ cat.nom | downcase }}</p>
         <h3>{{ c.titre }}</h3>
         <p>{% include lier-noms.html texte=c.texte %}</p>
         {%- comment -%} un lien vise un jalon (« jalon ») ou un autre événement de contexte (« evenement ») {%- endcomment -%}
@@ -237,7 +238,7 @@
         </ul>
         {%- endif %}
         <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
-          {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ;{% endunless %}{% endfor %}
+          {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}
         </p>
       </div>
     </li>

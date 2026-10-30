@@ -174,7 +174,7 @@ technologies:
   nom: Monocoque
   nom_en: Monocoque
   jalon: lotus-25
-  regle: 'Un « semi-monocoque » (treillis tubulaire habillé de panneaux d''aluminium rivetés et travaillants) est classé « oui » : la peau participe à la rigidité, la caisse n''est plus un simple treillis, et plusieurs références (fiches techniques Wikipedia, F1technical) le décrivent comme un monocoque. Les cas concernés sont signalés. Avec la règle inverse (semi-monocoque = non), Ferrari 1964, 1966, 1968, 1970-1972 et 1975 basculent à « non », BRM 1971-1972 resterait discutable, et la fenêtre devrait s''étendre jusqu''en 1981 (voir defaut).'
+  regle: 'Un « semi-monocoque » (treillis tubulaire habillé de panneaux d''aluminium rivetés et travaillants) est classé « oui » : la peau participe à la rigidité, la caisse n''est plus un simple treillis, et plusieurs références (fiches techniques Wikipedia, F1technical) le décrivent comme une monocoque. Les cas concernés sont signalés. Avec la règle inverse (semi-monocoque = non), Ferrari 1964, 1966, 1968, 1970-1972 et 1975 basculent à « non », BRM 1971-1972 resterait discutable, et la fenêtre devrait s''étendre jusqu''en 1981 (voir defaut).'
   defaut:
   - de: 1950
     a: 1961
@@ -190,7 +190,7 @@ technologies:
   - de: 1976
     a: 2025
     valeur: oui
-    pourquoi: 'Dès 1969, Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26) ; le monocoque devient la norme et les F1 modernes sont des monocoques en carbone (McLaren MP4/1, 1981). Réserve : les Ferrari 312T à 312T5 (1975-1980) et 126CK (1981) restent des semi-monocoques ; la 126C2 de 1982 est la première « vraie » monocoque Ferrari. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (alors élargir la fenêtre à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
+    pourquoi: 'Dès 1969, Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26) ; la monocoque devient la norme et les F1 modernes sont des monocoques en carbone (McLaren MP4/1, 1981). Réserve : les Ferrari 312T à 312T5 (1975-1980) et 126CK (1981) restent des semi-monocoques ; la 126C2 de 1982 est la première « vraie » monocoque Ferrari. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (alors élargir la fenêtre à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
     sources:
     - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac »
       url: https://www.motorsportretro.com/2012/12/the-fastest-thing-about-the-monocoque-lotus-is-jimmy-clark-ron-tauranac/
@@ -235,7 +235,7 @@ technologies:
     equipe: Lotus Climax
     voiture: Lotus 25
     valeur: oui
-    pourquoi: Clark gagne en Belgique, en Grande-Bretagne et aux États-Unis sur la Lotus 25, premier monocoque entièrement travaillant (aluminium) de la F1.
+    pourquoi: Clark gagne en Belgique, en Grande-Bretagne et aux États-Unis sur la Lotus 25, première monocoque entièrement travaillante (aluminium) de la F1.
     sources:
     - titre: Wikipedia, « Lotus 25 »
       url: https://en.wikipedia.org/wiki/Lotus_25
@@ -422,7 +422,7 @@ technologies:
     equipe: Honda
     voiture: Honda RA300
     valeur: oui
-    pourquoi: Surtees gagne en Italie sur la RA300, monocoque aluminium dessiné par Lola d'après la T90 d'Indianapolis.
+    pourquoi: Surtees gagne en Italie sur la RA300, monocoque aluminium dessinée par Lola d'après la T90 d'Indianapolis.
     sources:
     - titre: Wikipedia, « Honda RA300 »
       url: https://en.wikipedia.org/wiki/Honda_RA300
@@ -520,7 +520,7 @@ technologies:
     equipe: Brabham Ford
     voiture: Brabham BT33
     valeur: oui
-    pourquoi: Brabham gagne en Afrique du Sud dès les débuts de la BT33, monocoque en acier, premier monocoque de Tauranac en F1.
+    pourquoi: Brabham gagne en Afrique du Sud dès les débuts de la BT33, monocoque en acier, première monocoque de Tauranac en F1.
     sources:
     - titre: Wikipedia, « Brabham BT33 »
       url: https://en.wikipedia.org/wiki/Brabham_BT33
@@ -538,7 +538,7 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 312B
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : faute de moyens pour un vrai monocoque, la 312B (quatre victoires) habille un treillis tubulaire de panneaux d''aluminium rivetés, l''ensemble formant un semi-monocoque.'
+    pourquoi: 'Semi-monocoque, classé oui : faute de moyens pour une vraie monocoque, la 312B (quatre victoires) habille un treillis tubulaire de panneaux d''aluminium rivetés, l''ensemble formant un semi-monocoque.'
     sources:
     - titre: Autosport, « The Ferrari no one wanted to win the F1 title »
       url: https://www.autosport.com/f1/feature/9874/the-ferrari-no-one-wanted-to-win-the-f1-title
@@ -685,7 +685,7 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 312B3 (312B3-74)
     valeur: oui
-    pourquoi: 'La 312B3 repose sur un monocoque complet construit en Angleterre par TC Prototypes, avec moteur porteur : c''est un vrai monocoque, pas un semi-monocoque.'
+    pourquoi: 'La 312B3 repose sur une monocoque complète construite en Angleterre par TC Prototypes, avec moteur porteur : c''est une vraie monocoque, pas une semi-monocoque.'
     sources:
     - titre: Wikipedia, « Ferrari 312B »
       url: https://en.wikipedia.org/wiki/Ferrari_312B
@@ -732,7 +732,7 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 312T
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : la 312T de Lauda et Regazzoni revient à un treillis tubulaire renforcé de panneaux d''aluminium rivetés, alors que la 312B3 était un monocoque complet.'
+    pourquoi: 'Semi-monocoque, classé oui : la 312T de Lauda et Regazzoni revient à un treillis tubulaire renforcé de panneaux d''aluminium rivetés, alors que la 312B3 était une monocoque complète.'
     sources:
     - titre: Wikipedia, « Ferrari 312T »
       url: https://en.wikipedia.org/wiki/Ferrari_312T
@@ -741,7 +741,7 @@ technologies:
     equipe: Hesketh Ford
     voiture: Hesketh 308B
     valeur: oui
-    pourquoi: Hunt gagne aux Pays-Bas sur une 308B ; la 308 est décrite comme « un monocoque bas » (le matériau n'est pas précisé).
+    pourquoi: Hunt gagne aux Pays-Bas sur une 308B ; la 308 est décrite comme « une monocoque basse » (le matériau n'est pas précisé).
     sources:
     - titre: OldRacingCars, « Hesketh 308 »
       url: https://www.oldracingcars.com/hesketh/308/
@@ -752,7 +752,7 @@ technologies:
     equipe: March Ford
     voiture: March 751
     valeur: oui
-    pourquoi: Brambilla gagne en Autriche sur la 751, construite autour d'un monocoque aluminium, comme la 741 dont elle descend.
+    pourquoi: Brambilla gagne en Autriche sur la 751, construite autour d'une monocoque aluminium, comme la 741 dont elle descend.
     sources:
     - titre: OldRacingCars, « March 741 »
       url: https://www.oldracingcars.com/march/741/
@@ -818,7 +818,7 @@ technologies:
     equipe: Matra Ford
     voiture: Matra MS10
     valeur: oui
-    pourquoi: À Zandvoort, la Matra de Stewart porte de petits déflecteurs (fines ailettes) sur le nez, aileron arrière bas en Allemagne, aileron haut sur supports aux États-Unis. En lecture stricte (aileron arrière), l'adoption daterait de « Germany ».
+    pourquoi: À Zandvoort, la Matra de Stewart porte de petits déflecteurs (fines ailettes) sur le nez, aileron arrière bas en Allemagne, aileron haut sur supports aux États-Unis. En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix d'Allemagne.
     sources:
     - titre: OldRacingCars, « Dutch Grand Prix 1968 »
       url: https://www.oldracingcars.com/f1/results/1968/netherlands/
@@ -831,7 +831,7 @@ technologies:
     equipe: McLaren Ford
     voiture: McLaren M7A
     valeur: oui
-    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe ; le véritable aileron arrière arrive au Grand Prix de France. En lecture stricte, l'adoption daterait de « Italy » (victoire de Hulme).
+    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe ; le véritable aileron arrière arrive au Grand Prix de France. En lecture stricte, l'adoption daterait du Grand Prix d'Italie (victoire de Hulme).
     sources:
     - titre: Motor Sport, « XXVII Belgian Grand Prix » (juillet 1968)
       url: https://www.motorsportmagazine.com/archive/article/july-1968/14/xxvii-belgian-grand-prix/
@@ -843,7 +843,7 @@ technologies:
     voiture: Lotus 49 (Afrique du Sud, Espagne), Lotus 49B (à partir de Monaco)
     valeur: oui
     des: Monaco
-    pourquoi: Clark (Afrique du Sud) et Hill (Espagne, sur la 49 R1) gagnent sans appendice aérodynamique ; la 49B, dévoilée à Monaco, porte des ailerons de nez et une poupe en coin conçue pour l'appui, puis un grand aileron sur supports (Siffert en Grande-Bretagne, Hill au Mexique). En lecture stricte (aileron arrière), l'adoption daterait de « Great Britain ».
+    pourquoi: Clark (Afrique du Sud) et Hill (Espagne, sur la 49 R1) gagnent sans appendice aérodynamique ; la 49B, dévoilée à Monaco, porte des ailerons de nez et une poupe en coin conçue pour l'appui, puis un grand aileron sur supports (Siffert en Grande-Bretagne, Hill au Mexique). En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix de Grande-Bretagne.
     sources:
     - titre: Motor Sport, « The car that changed Formula One forever » (juillet 1997)
       url: https://motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever

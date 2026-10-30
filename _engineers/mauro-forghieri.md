@@ -42,7 +42,7 @@ On 30 October 1961, Enzo Ferrari entrusted Mauro Forghieri, still a young engine
 
 One guiding idea links his cars of the 1970s: **[centralising the masses]({{ site.baseurl }}/en/glossary/#centralisation-des-masses)** to improve turn-in response{% include src.html n="1,2" %}.
 
-- On the 1974 **312B3**, the cockpit and fuel tank were moved 13cm forward within the wheelbase{% include src.html n="2" %}.
+- On the 1974 **312B3**, the cockpit and fuel tank were moved 13 cm forward within the wheelbase{% include src.html n="2" %}.
 - The 1975 **312T** introduced the **[transverse gearbox]({{ site.baseurl }}/en/glossary/#boite-transversale)**, which formula1.com presents as a first in F1, later adopted by the whole grid{% include src.html n="1,2,4" %}.
 - The 312T family won three drivers' titles and four constructors' titles{% include src.html n="5" %}.
 

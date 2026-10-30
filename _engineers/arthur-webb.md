@@ -53,7 +53,7 @@ Autosport presents the MP4/1 as Barnard's car, and the move to carbon as his cho
 
 ## Where sources disagree
 
-- **His employer**: the Royal Aeronautical Society places him at BAC, at Weybridge, and notes its nationalisation{% include src.html n="2,3,6" %}; Autosport and Barnard speak of British Aerospace at Weybridge{% include src.html n="1,8" %}. The place matches; the company name differs.
+- **His employer**: the Royal Aeronautical Society places him at BAC, at Weybridge, and notes its nationalisation{% include src.html n="2,3,6" %}; Autosport and Barnard speak of British Aerospace at Weybridge{% include src.html n="1,8" %}. The place matches, and the two names do not contradict each other: nationalised in 1977, BAC became part of British Aerospace, which therefore owned the Weybridge works at the time of the MP4/1.
 - **Chronology**: the interview summaries date neither his departure from BAC nor his spells at ML Aviation and Marconi Space; this site cannot place them relative to the MP4/1.
 - **The nature of the sources**: most of the above comes from summaries of an oral history interview Webb himself gave in 2024 and 2025 for the Royal Aeronautical Society and the National Aerospace Library{% include src.html n="4,7" %}. This site has not listened to the recordings; it sticks to the published summaries.
 

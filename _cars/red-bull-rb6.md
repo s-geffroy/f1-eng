@@ -63,7 +63,7 @@ The driver mattered too. According to formula1.com, Sebastian Vettel mastered th
 
 - **The engine.** According to GrandPrix.com, the team reckoned the Renault was at least 4% down on the Mercedes, almost half a second a lap at most circuits; for Newey, it was the RB6's only weak point{% include src.html n="5" %}.
 - **Reliability.** Vettel lost points early in the season to spark-plug and brake problems; in Korea, Vettel's engine failed and Webber went off the track{% include src.html n="5" %}.
-- **What was missing.** The RB6 initially had no [F-duct]({{ site.baseurl }}/en/glossary/#f-duct){% include src.html n="5" %}. Rivals wondered whether its front wings ran lower than allowed; Newey replied that the rules permitted 10mm of deflection under a 50kg load, and that McLaren had asked for that tolerance{% include src.html n="5" %}.
+- **What was missing.** The RB6 initially had no [F-duct]({{ site.baseurl }}/en/glossary/#f-duct){% include src.html n="5" %}. Rivals wondered whether its front wings ran lower than allowed; Newey replied that the rules permitted 10 mm of deflection under a 50 kg load, and that McLaren had asked for that tolerance{% include src.html n="5" %}.
 
 ## Legacy
 

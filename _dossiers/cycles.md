@@ -19,7 +19,7 @@ Les mesures sont celles du [dossier Domination]({{ site.baseurl }}/dossiers/domi
 
 - **Un nouveau règlement change presque toujours de meneur.** L'écurie qui gagne le plus lors de la dernière saison d'un cycle ne reste en tête au début du suivant que 2 fois sur 10 : McLaren en 1989 et Red Bull en 2022.
 - **La première saison ne dit pas qui dominera.** Elle désigne l'écurie dominante du cycle 5 fois sur 11. Brawn en 2009, Benetton en 1994 et Mercedes-Benz en 1954 mènent la première saison, puis s'effacent.
-- **Les cycles récents sont les plus verrouillés.** Depuis 2009, l'écurie dominante gagne au moins la moitié des courses de son cycle. Les deux cycles les plus longs, 1954-1960 et 1966-1982, sont les plus ouverts : leur écurie dominante n'en gagne qu'un cinquième.
+- **Les cycles récents sont les plus verrouillés.** Depuis 2009, l'écurie dominante gagne au moins la moitié des courses de son cycle. Les deux cycles les plus ouverts à cet égard sont 1954-1960 et 1966-1982 : leur écurie dominante n'en gagne qu'un cinquième.
 - **Un cycle peut appartenir à un motoriste plutôt qu'à une écurie.** De 1966 à 1982, aucune écurie ne gagne plus de 21 % des courses, mais les moteurs Ford en gagnent 66 %.
 
 Sommaire
@@ -51,7 +51,7 @@ Les cycles sont de longueurs très inégales, de deux à dix-sept saisons. Les c
 Deux familles de cycles se dessinent.
 
 - **Les cycles verrouillés.** Ferrari gagne 82 % des courses du championnat en Formule 2 (1952-1953), Mercedes 69 % de celles du groupe propulseur hybride (2014-2021), Alfa Romeo 67 % des deux premières saisons. Red Bull gagne 60 % des courses du retour de l'effet de sol (2022-2025) et la moitié de celles de la refonte aérodynamique (2009-2013).
-- **Les cycles ouverts.** De 1954 à 1960, Ferrari ne gagne que 21 % des courses, et dix écuries s'imposent au moins une fois. De 1966 à 1982, Lotus en gagne autant, et dix-huit écuries gagnent. Ce sont les deux cycles les plus longs : un règlement qui dure laisse aux poursuivants le temps de rattraper le meneur.
+- **Les cycles ouverts.** De 1954 à 1960, Ferrari ne gagne que 21 % des courses, et dix écuries s'imposent au moins une fois. De 1966 à 1982, Lotus en gagne autant, et dix-huit écuries gagnent. 1966-1982 est le plus long de tous les cycles : un règlement qui dure laisse aux poursuivants le temps de rattraper le meneur.
 
 Le cycle de la formule 3 litres montre aussi qu'un cycle peut se jouer ailleurs qu'entre les écuries. Aucune n'y domine, mais les moteurs Ford, dont le [Cosworth DFV]({{ site.baseurl }}/chronologie/#j-dfv) vendu à tous, gagnent 66 % des courses. De même, le moteur Climax gagne 53 % des courses de la formule 1,5 litre (1961-1965).
 
@@ -71,12 +71,12 @@ Le [dossier Indicateurs]({{ site.baseurl }}/dossiers/indicateurs/) suit la même
 
 Sur les dix passages d'un cycle au suivant, l'écurie qui mène la dernière saison ne garde la tête que deux fois :
 
-- **McLaren de 1988 à 1989**, de la fin du turbo bridé au moteur atmosphérique de 3,5 litres. Elle passe de 94 % à 62 % des victoires, et reste devant.
+- **McLaren de 1988 à 1989**, de la fin du turbo bridé au moteur atmosphérique de 3,5 litres. Elle passe de 94 % à 63 % des victoires, et reste devant.
 - **Red Bull de 2021 à 2022**, du groupe propulseur hybride au retour de l'effet de sol. Elle passe de 50 % à 77 % des victoires.
 
 Les huit autres fois, le meneur est détrôné, souvent brutalement. Ferrari passe de 78 % des victoires en 1953 à 22 % en 1954. Cooper, de 60 % en 1960 à aucune victoire en 1961. Lotus, de 60 % en 1965 à 11 % en 1966. Red Bull, de 68 % en 2013 à 16 % en 2014.
 
-C'est le constat de la quatrième confrontation du [dossier Domination]({{ site.baseurl }}/dossiers/domination/#reglements) : un nouveau règlement rebat les cartes. À l'échelle des grands cycles, l'effet est plus net encore. Une remise à zéro coûte presque toujours sa place au meneur sortant ; la seule question est de savoir qui saura en profiter.
+La quatrième confrontation du [dossier Domination]({{ site.baseurl }}/dossiers/domination/#reglements) va dans le même sens, saison par saison, sans atteindre le seuil de 5 % : l'écurie en tête change plus souvent l'année d'un nouveau règlement, mais l'écart peut encore tenir au hasard. À l'échelle des grands cycles, l'effet est bien plus net. Une remise à zéro coûte presque toujours sa place au meneur sortant ; la seule question est de savoir qui saura en profiter.
 
 ## Méthode et limites
 

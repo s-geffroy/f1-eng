@@ -9,9 +9,9 @@ lignees: []
 voir_aussi: ["gordon-murray"]
 sources:
   - titre: "BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)"
-    url: "https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en"
+    url: "https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en"
   - titre: "BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)"
-    url: "https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US"
+    url: "https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US"
   - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
   - titre: "Mike Doodson, Motor Sport Magazine, « How BMW conquered F1 with Brabham and Piquet in 1983 » (novembre 2009)"
@@ -37,12 +37,12 @@ Paul Rosche est le motoriste de BMW qui a dirigé le projet du **quatre-cylindre
 ## Le moteur turbo de Brabham
 
 - En 1980, avec Dieter Stappert, il pose les bases du premier engagement de BMW en F1 et dirige le projet moteur (BMW, 2016){% include src.html n="1" %}. Selon Autosport, le projet avait été lancé dans les années 1970 contre l'avis de la direction{% include src.html n="6" %}.
-- Son équipe tire d'un quatre-cylindres de série de 1,5 litre un moteur de championnat : seize soupapes, un [turbocompresseur]({{ site.baseurl }}/glossaire/#turbocompresseur) et, pour la première fois en F1 selon BMW, une gestion électronique numérique{% include src.html n="1,2" %}. BMW annonce environ 800ch au départ{% include src.html n="1,2" %}.
+- Son équipe tire d'un quatre-cylindres de série de 1,5 litre un moteur de championnat : seize soupapes, un [turbocompresseur]({{ site.baseurl }}/glossaire/#turbocompresseur) et, pour la première fois en F1 selon BMW, une gestion électronique numérique{% include src.html n="1,2" %}. BMW annonce environ 800 ch au départ{% include src.html n="1,2" %}.
 - 1981, année de mise au point du M12/13, et 1982, sa première saison, sont difficiles : le moteur est fragile (Motor Sport, 2001){% include src.html n="3" %}. Murray raconte que Rosche tenait au turbo unique, d'abord un KKK de camion{% include src.html n="3" %}.
 - Rosche promet de forts gains de puissance une fois la fiabilité acquise ; selon Keith Howard (Motor Sport, 2001), cette promesse et l'interdiction des jupes orientent la conception de la BT52{% include src.html n="3" %}.
-- Les essais montrent une détonation au-delà de 650ch ; Rosche fait appel à BASF pour un carburant spécifique, utilisé en 1983 (Autosport){% include src.html n="6" %}.
+- Les essais montrent une détonation au-delà de 650 ch ; Rosche fait appel à BASF pour un carburant spécifique, utilisé en 1983 (Autosport){% include src.html n="6" %}.
 - En 1983, quand Renault fige la spécification de son moteur, Rosche poursuit son développement et tire toujours plus de puissance du quatre-cylindres (Motor Sport, 2009){% include src.html n="4" %}.
-- La puissance exacte reste inconnue : selon Rosche, « autour de 1400ch », le banc ne mesurant pas au-delà de 1280ch (BMW){% include src.html n="1,2" %}. Motor Sport parle de plus de 1400ch en configuration de qualification en 1983{% include src.html n="5" %}.
+- La puissance exacte reste inconnue : selon Rosche, « autour de 1 400 ch », le banc ne mesurant pas au-delà de 1 280 ch (BMW){% include src.html n="1,2" %}. Motor Sport parle de plus de 1 400 ch en configuration de qualification en 1983{% include src.html n="5" %}.
 - Après le titre, la rumeur d'un carburant illégal circule ; le rapport de la FISA conclut à sa conformité, et Rosche a toujours nié toute tricherie (Motor Sport, 2009){% include src.html n="4" %}.
 - Selon BMW, quand la marque se retire de la F1 en 1987, le moteur totalise neuf victoires en Grand Prix{% include src.html n="1,2" %}.
 

@@ -5,7 +5,7 @@ accroche: "Moins de puissance, donc plus d'aérodynamique."
 description: "March 881 (1988) : la première F1 d'Adrian Newey, atmosphérique face aux turbos, avec un ensemble nez-aileron avant intégré et creusé dessous pour alimenter le plancher."
 annee: 1988
 equipe: "March (Leyton House)"
-moteur: "Judd, atmosphérique (environ 580ch selon formula1.com)"
+moteur: "Judd, atmosphérique (environ 580 ch selon formula1.com)"
 statut: "A couru en 1988 et au début de 1989 ; aucune victoire ; deuxième place de Capelli au Grand Prix du Portugal 1988"
 concepteurs: ["adrian-newey"]
 termes: ["aileron", "nez-releve", "appui"]
@@ -24,7 +24,7 @@ image: "/assets/partage/voitures/march-881.jpg"
 ---
 ## Ce qu'elle change
 
-En 1988, pour sa deuxième saison depuis son retour en F1, March dispose d'un moteur atmosphérique Judd d'environ 580ch, face à des turbos bien plus puissants{% include src.html n="1,2" %}. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique{% include src.html n="2" %}. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands{% include src.html n="1" %}.
+En 1988, pour sa deuxième saison depuis son retour en F1, March dispose d'un moteur atmosphérique Judd d'environ 580 ch, face à des turbos bien plus puissants{% include src.html n="1,2" %}. Pour avoir une chance, écrit Edd Straw, la voiture devait être d'une grande efficacité aérodynamique{% include src.html n="2" %}. Adrian Newey résume l'époque : avec un turbo, on allait plus vite en augmentant la pression et en montant des ailerons arrière toujours plus grands{% include src.html n="1" %}.
 
 La 881 traite l'avant autrement. Jusque-là, selon formula1.com, la règle était un nez volumineux encadré de deux volets séparés{% include src.html n="2" %}. Newey réunit le nez et l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant en un seul ensemble, l'aileron couvrant toute la largeur de la voiture pour un [appui]({{ site.baseurl }}/glossaire/#appui) maximal{% include src.html n="2" %}. L'ensemble assure un écoulement propre sous l'aileron, et donc vers le plancher{% include src.html n="2" %}. Le dessous du nez, lui, est creusé : la dépression qui s'y forme attire l'air sur l'aileron et augmente l'appui{% include src.html n="2" %}.
 

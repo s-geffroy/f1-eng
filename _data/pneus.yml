@@ -4,6 +4,28 @@
 #   changements = nouveau manufacturier à partir d'un GP ; exceptions = un GP isolé (pour : victoire ou
 #   pole quand les deux diffèrent). Une course non classée arrête le script.
 monopoles:
+- de: 1961
+  a: 1963
+  pneus: Dunlop
+  nature: de_fait
+  pourquoi: 'Les pages des saisons 1961, 1962 et 1963 précisent que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; les 500 miles d''Indianapolis, courus en Firestone, ne comptent plus au championnat depuis 1961.'
+  sources:
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+  - titre: Wikipedia, « 1962 Formula One season »
+    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: Wikipedia, « 1963 Formula One season »
+    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+- de: 1975
+  a: 1976
+  pneus: Goodyear
+  nature: de_fait
+  pourquoi: 'Firestone se retire après 1974 et Michelin n''arrive qu''en 1977 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
+  sources:
+  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
+    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - de: 1987
   a: 1988
   pneus: Goodyear
@@ -202,7 +224,7 @@ cas:
   - titre: Wikipedia, « 1954 Formula One season »
     url: https://en.wikipedia.org/wiki/1954_Formula_One_season
 - annee: 1954
-  ecurie: ~Lancia
+  ecurie: lancia
   equipe: Lancia
   pneus: Pirelli
   pourquoi: 'Seule pole : Ascari au GP d''Espagne, sur la D50 de la Scuderia Lancia, engagée en Pirelli (tableau des engagés et liste du GP).'
@@ -242,10 +264,10 @@ cas:
   - titre: Wikipedia, « 1955 Formula One season »
     url: https://en.wikipedia.org/wiki/1955_Formula_One_season
 - annee: 1955
-  ecurie: ~Lancia
+  ecurie: lancia
   equipe: Lancia
   pneus: Pirelli
-  pourquoi: 'La Scuderia Lancia est engagée en Pirelli, Castellotti compris en Belgique (manches 1–2 et 4). Mais la pole d''Argentine que formula1.com attribue à Lancia est celle de González, qui pilotait une Ferrari 625 de la Scuderia Ferrari, engagée en Englebert : d''où l''exception.'
+  pourquoi: 'La Scuderia Lancia est engagée en Pirelli, Castellotti compris en Belgique (manches 1–2 et 4). La pole d''Argentine que formula1.com attribue à Lancia est celle de González, qui pilotait une Ferrari 625 de la Scuderia Ferrari, engagée en Englebert : le relevé la rend à Ferrari (outils/releve-resultats.py).'
   sources:
   - titre: Wikipedia, « 1955 Formula One season »
     url: https://en.wikipedia.org/wiki/1955_Formula_One_season
@@ -253,9 +275,6 @@ cas:
     url: https://en.wikipedia.org/wiki/1955_Argentine_Grand_Prix
   - titre: Wikipedia, « 1955 Belgian Grand Prix »
     url: https://en.wikipedia.org/wiki/1955_Belgian_Grand_Prix
-  exceptions:
-  - gp: Argentina
-    pneus: Englebert
 - annee: 1955
   ecurie: ~Mercedes-Benz
   equipe: Mercedes-Benz
@@ -303,7 +322,7 @@ cas:
   - titre: Wikipedia, « 1956 Formula One season »
     url: https://en.wikipedia.org/wiki/1956_Formula_One_season
 - annee: 1956
-  ecurie: ~Lanica Ferrari
+  ecurie: ferrari
   equipe: Lanica Ferrari
   pneus: Englebert
   pourquoi: Les six poles de Fangio ont été signées sur Lancia-Ferrari D50, engagée en Englebert (la 555 était en Pirelli) ; liste d'engagés du GP d'Argentine 1956.
@@ -712,7 +731,7 @@ cas:
     pneus: Dunlop
     pour: victoire
     pourquoi: victoire seulement (Dunlop pluie au départ) ; la pole de Belgique est en Firestone
-  pourquoi: 'Ferrari est notée « Firestone / Dunlop » en 1966. Motor Sport précise qu''à Spa les Ferrari avaient essayé et qualifié en Firestone, puis repassé des Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari sont en Firestone ; la page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
+  pourquoi: 'Ferrari est notée « Firestone / Dunlop » en 1966. Motor Sport précise qu''à Spa les Ferrari avaient roulé aux essais et s''étaient qualifiées en Firestone, puis étaient repassées en Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari sont en Firestone ; la page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
   sources:
   - titre: Wikipedia, « 1966 Formula One season »
     url: https://en.wikipedia.org/wiki/1966_Formula_One_season
@@ -1628,7 +1647,7 @@ cas:
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Brabham Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT49). La BT49 a couru en Michelin en partie de 1981, mais son tableau de résultats 1982 indique Goodyear.'
+  pourquoi: 'Tableau des engagés 1982 : Brabham Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT49). La BT49 a couru en Michelin pendant une partie de 1981, mais son tableau de résultats 1982 indique Goodyear.'
   sources:
   - titre: Wikipedia, « 1982 Formula One World Championship »
     url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship

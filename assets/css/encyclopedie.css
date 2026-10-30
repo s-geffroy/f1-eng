@@ -1072,3 +1072,12 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .compteur .compteur-courbe { flex: 1 1 22rem; height: auto; }
 .compteur-legende { font-size: 0.9375rem; color: var(--mine); }
 .note-tableau { font-size: 0.875rem; color: var(--mine); margin-top: 0.3rem; }
+
+/* Bibliographie (/sources/) */
+.biblio-bilan { font-family: var(--titre); font-size: 1.125rem; }
+.biblio-donnees ul, .biblio-sommaire ul { padding-left: 1.2em; }
+.biblio-sommaire ul { columns: 14rem; column-gap: 2rem; }
+.biblio-sommaire li { break-inside: avoid; }
+.biblio-editeur { scroll-margin-top: 1rem; }
+.biblio-n { color: var(--mine); font-weight: normal; }
+.biblio-cite { color: var(--mine); font-size: 0.8125rem; }

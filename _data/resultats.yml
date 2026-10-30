@@ -201,7 +201,7 @@ saisons:
     points: 3.0
   - pilote: Dorino Serafini
     points: 3.0
-  - pilote: Philippe Etancelin
+  - pilote: Philippe Étancelin
     points: 3.0
   - pilote: Felice Bonetto
     points: 2.0
@@ -210,7 +210,7 @@ saisons:
   - pilote: Joie Chitwood
     points: 1.0
     ecurie: kurtis-kraft
-  - pilote: Eugene Chaboud
+  - pilote: Eugène Chaboud
     points: 1.0
   sources:
   - https://www.formula1.com/en/results/1950/races
@@ -292,7 +292,7 @@ saisons:
     url: https://www.formula1.com/en/results/1951/races/104/france/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -308,7 +308,7 @@ saisons:
       motoriste: alfa-romeo
     covainqueur: Luigi Fagioli
   - gp: Great Britain
-    vainqueur: Jose Froilan Gonzalez
+    vainqueur: José Froilán González
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
@@ -325,7 +325,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -342,7 +342,7 @@ saisons:
       ecurie: alfa-romeo-1979
       motoriste: alfa-romeo
     - place: 3
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -359,7 +359,7 @@ saisons:
     url: https://www.formula1.com/en/results/1951/races/107/italy/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -381,7 +381,7 @@ saisons:
     url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -402,7 +402,7 @@ saisons:
   - pilote: Alberto Ascari
     points: 25.0
     ecurie: ferrari
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 24.0
   - pilote: Nino Farina
     points: 19.0
@@ -611,7 +611,7 @@ saisons:
     url: https://www.formula1.com/en/results/1952/races/116/italy/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Maserati
       ecurie: maserati
       motoriste: maserati
@@ -648,7 +648,7 @@ saisons:
   - pilote: Luigi Villoresi
     points: 8.0
     ecurie: ferrari
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 6.5
     ecurie: maserati
   - pilote: Jim Rathmann
@@ -671,7 +671,7 @@ saisons:
   - pilote: Art Cross
     points: 2.0
     ecurie: kurtis-kraft
-  - pilote: Paul Frere
+  - pilote: Paul Frère
     points: 2.0
   - pilote: Maurice Trintignant
     points: 2.0
@@ -702,7 +702,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Maserati
       ecurie: maserati
       motoriste: maserati
@@ -768,7 +768,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Onofre Marimon
+      pilote: Onofre Marimón
       equipe: Maserati
       ecurie: maserati
       motoriste: maserati
@@ -790,7 +790,7 @@ saisons:
       ecurie: maserati
       motoriste: maserati
     - place: 3
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Maserati
       ecurie: maserati
       motoriste: maserati
@@ -903,7 +903,7 @@ saisons:
   - pilote: Luigi Villoresi
     points: 17.0
     ecurie: ferrari
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 13.5
     ecurie: maserati
   - pilote: Bill Vukovich
@@ -918,7 +918,7 @@ saisons:
   - pilote: Art Cross
     points: 6.0
     ecurie: kurtis-kraft
-  - pilote: Onofre Marimon
+  - pilote: Onofre Marimón
     points: 4.0
     ecurie: maserati
   - pilote: Maurice Trintignant
@@ -963,7 +963,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1035,7 +1035,7 @@ saisons:
       equipe: Mercedes-Benz
       motoriste: mercedes
   - gp: Great Britain
-    vainqueur: Jose Froilan Gonzalez
+    vainqueur: José Froilán González
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
@@ -1047,7 +1047,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Onofre Marimon
+      pilote: Onofre Marimón
       equipe: Maserati
       ecurie: maserati
       motoriste: maserati
@@ -1062,7 +1062,7 @@ saisons:
     url: https://www.formula1.com/en/results/1954/races/131/germany/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1082,7 +1082,7 @@ saisons:
     url: https://www.formula1.com/en/results/1954/races/132/switzerland/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1091,7 +1091,7 @@ saisons:
       equipe: Mercedes-Benz
       motoriste: mercedes
     pole:
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1134,10 +1134,12 @@ saisons:
     pole:
       pilote: Alberto Ascari
       equipe: Lancia
+      ecurie: lancia
+      motoriste: lancia
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 42.0
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 25.1
     ecurie: ferrari
   - pilote: Mike Hawthorn
@@ -1170,7 +1172,7 @@ saisons:
   - pilote: Stirling Moss
     points: 4.1
     ecurie: maserati
-  - pilote: Onofre Marimon
+  - pilote: Onofre Marimón
     points: 4.1
     ecurie: maserati
   - pilote: Robert Manzon
@@ -1182,15 +1184,16 @@ saisons:
   - pilote: Prince Bira
     points: 3.0
     ecurie: maserati
-  - pilote: Elie Bayol
+  - pilote: Élie Bayol
     points: 2.0
   - pilote: Mike Nazaruk
     points: 2.0
     ecurie: kurtis-kraft
-  - pilote: Andre Pilette
+  - pilote: André Pilette
     points: 2.0
   - pilote: Luigi Villoresi
     points: 2.0
+    ecurie: lancia
   - pilote: Umberto Maglioli
     points: 2.0
     ecurie: ferrari
@@ -1202,6 +1205,7 @@ saisons:
     ecurie: kurtis-kraft
   - pilote: Alberto Ascari
     points: 1.1
+    ecurie: lancia
   - pilote: Jean Behra
     points: 0.1
   sources:
@@ -1217,7 +1221,7 @@ saisons:
     url: https://www.formula1.com/en/results/1955/races/135/argentina/race-result
     podium:
     - place: 2
-      pilote: Jose Froilan Gonzalez
+      pilote: José Froilán González
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1227,8 +1231,10 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Jose Froilan Gonzalez
-      equipe: Lancia
+      pilote: José Froilán González
+      equipe: Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   - gp: Monaco
     vainqueur: Maurice Trintignant
     equipe: Ferrari
@@ -1239,6 +1245,8 @@ saisons:
     - place: 2
       pilote: Eugenio Castellotti
       equipe: Lancia
+      ecurie: lancia
+      motoriste: lancia
     - place: 3
       pilote: Jean Behra
       equipe: Maserati
@@ -1286,6 +1294,8 @@ saisons:
     pole:
       pilote: Eugenio Castellotti
       equipe: Lancia
+      ecurie: lancia
+      motoriste: lancia
   - gp: Netherlands
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
@@ -1383,10 +1393,10 @@ saisons:
     ecurie: kurtis-kraft
   - pilote: Johnny Thomson
     points: 3.0
-  - pilote: Paul Frere
+  - pilote: Paul Frère
     points: 3.0
     ecurie: ferrari
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 2.0
     ecurie: ferrari
   - pilote: Cesare Perdisa
@@ -1394,6 +1404,7 @@ saisons:
     ecurie: maserati
   - pilote: Luigi Villoresi
     points: 2.0
+    ecurie: lancia
   - pilote: Carlos Menditeguy
     points: 2.0
     ecurie: maserati
@@ -1437,6 +1448,8 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
     covainqueur: Juan Manuel Fangio
   - gp: Monaco
     vainqueur: Stirling Moss
@@ -1458,6 +1471,8 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   - gp: United States of America Indianapolis
     vainqueur: Pat Flaherty
     equipe: Watson Offenhauser
@@ -1485,7 +1500,7 @@ saisons:
     url: https://www.formula1.com/en/results/1956/races/145/belgium/race-result
     podium:
     - place: 2
-      pilote: Paul Frere
+      pilote: Paul Frère
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -1497,6 +1512,8 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   - gp: France
     vainqueur: Peter Collins
     equipe: Ferrari
@@ -1517,6 +1534,8 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   - gp: Great Britain
     vainqueur: Juan Manuel Fangio
     equipe: Ferrari
@@ -1559,6 +1578,8 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   - gp: Italy
     vainqueur: Stirling Moss
     equipe: Maserati
@@ -1574,9 +1595,13 @@ saisons:
     - place: 3
       pilote: Ron Flockhart
       equipe: Connaught Alta
+      ecurie: connaught
+      motoriste: alta
     pole:
       pilote: Juan Manuel Fangio
       equipe: Lanica Ferrari
+      ecurie: ferrari
+      motoriste: ferrari
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 30.0
@@ -1598,7 +1623,7 @@ saisons:
   - pilote: Sam Hanks
     points: 6.0
     ecurie: kurtis-kraft
-  - pilote: Paul Frere
+  - pilote: Paul Frère
     points: 6.0
     ecurie: ferrari
   - pilote: Paco Godia
@@ -1606,6 +1631,7 @@ saisons:
     ecurie: maserati
   - pilote: Jack Fairman
     points: 5.0
+    ecurie: connaught
   - pilote: Mike Hawthorn
     points: 4.0
     ecurie: brm
@@ -1616,6 +1642,7 @@ saisons:
     points: 4.0
   - pilote: Ron Flockhart
     points: 4.0
+    ecurie: connaught
   - pilote: Johnnie Parsons
     points: 3.0
   - pilote: Harry Schell
@@ -1891,7 +1918,7 @@ saisons:
   - pilote: Alfonso de Portago
     points: 1.0
     ecurie: ferrari
-  - pilote: Jose Froilan Gonzalez
+  - pilote: José Froilán González
     points: 1.0
     ecurie: ferrari
   - pilote: Giorgio Scarlatti
@@ -3351,7 +3378,7 @@ saisons:
   - pilote: Lorenzo Bandini
     points: 4.0
     ecurie: ferrari
-  - pilote: Ricardo Rodriguez
+  - pilote: Ricardo Rodríguez
     points: 4.0
     ecurie: ferrari
   - pilote: Willy Mairesse
@@ -4008,7 +4035,7 @@ saisons:
   - pilote: Trevor Taylor
     points: 1.0
     ecurie: brp
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 1.0
     ecurie: ferrari
   sources:
@@ -4311,7 +4338,7 @@ saisons:
   - pilote: Jochen Rindt
     points: 4.0
     ecurie: cooper
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 2.0
     ecurie: ferrari
   - pilote: Ronnie Bucknum
@@ -4643,7 +4670,7 @@ saisons:
   gp: 11
   courses:
   - gp: South Africa
-    vainqueur: Pedro Rodriguez
+    vainqueur: Pedro Rodríguez
     equipe: Cooper Maserati
     ecurie: cooper
     motoriste: maserati
@@ -4945,7 +4972,7 @@ saisons:
   - pilote: Chris Amon
     points: 20.0
     ecurie: ferrari
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 15.0
     ecurie: cooper
   - pilote: Graham Hill
@@ -5074,7 +5101,7 @@ saisons:
     url: https://www.formula1.com/en/results/1968/races/258/belgium/race-result
     podium:
     - place: 2
-      pilote: Pedro Rodriguez
+      pilote: Pedro Rodríguez
       equipe: BRM
       ecurie: brm
       motoriste: brm
@@ -5100,7 +5127,7 @@ saisons:
       equipe: Matra
       ecurie: matra
     - place: 3
-      pilote: Pedro Rodriguez
+      pilote: Pedro Rodríguez
       equipe: BRM
       ecurie: brm
       motoriste: brm
@@ -5210,7 +5237,7 @@ saisons:
       ecurie: mclaren
       motoriste: ford
     - place: 3
-      pilote: Pedro Rodriguez
+      pilote: Pedro Rodríguez
       equipe: BRM
       ecurie: brm
       motoriste: brm
@@ -5319,7 +5346,7 @@ saisons:
   - pilote: Bruce McLaren
     points: 22.0
     ecurie: mclaren
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 18.0
     ecurie: brm
   - pilote: Jo Siffert
@@ -5693,7 +5720,7 @@ saisons:
   - pilote: Vic Elford
     points: 3.0
     ecurie: mclaren
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 3.0
     ecurie: ferrari
   - pilote: Johnny Servoz-Gavin
@@ -5779,7 +5806,7 @@ saisons:
       ecurie: tyrrell
       motoriste: ford
   - gp: Belgium
-    vainqueur: Pedro Rodriguez
+    vainqueur: Pedro Rodríguez
     equipe: BRM
     ecurie: brm
     motoriste: brm
@@ -5962,7 +5989,7 @@ saisons:
     url: https://www.formula1.com/en/results/1970/races/289/united-states/race-result
     podium:
     - place: 2
-      pilote: Pedro Rodriguez
+      pilote: Pedro Rodríguez
       equipe: BRM
       ecurie: brm
       motoriste: brm
@@ -6050,7 +6077,7 @@ saisons:
   - pilote: Jackie Stewart
     points: 25.0
     ecurie: tyrrell
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 23.0
     ecurie: brm
   - pilote: Chris Amon
@@ -6098,7 +6125,7 @@ saisons:
   - pilote: Dan Gurney
     points: 1.0
     ecurie: mclaren
-  - pilote: Francois Cevert
+  - pilote: François Cevert
     points: 1.0
     ecurie: march
   - pilote: Peter Gethin
@@ -6188,7 +6215,7 @@ saisons:
     url: https://www.formula1.com/en/results/1971/races/294/netherlands/race-result
     podium:
     - place: 2
-      pilote: Pedro Rodriguez
+      pilote: Pedro Rodríguez
       equipe: BRM
       ecurie: brm
       motoriste: brm
@@ -6210,7 +6237,7 @@ saisons:
     url: https://www.formula1.com/en/results/1971/races/295/france/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6254,7 +6281,7 @@ saisons:
     url: https://www.formula1.com/en/results/1971/races/297/germany/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6303,7 +6330,7 @@ saisons:
       ecurie: march
       motoriste: ford
     - place: 3
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6335,7 +6362,7 @@ saisons:
       ecurie: tyrrell
       motoriste: ford
   - gp: United States of America United States
-    vainqueur: Francois Cevert
+    vainqueur: François Cevert
     equipe: Tyrrell Ford
     ecurie: tyrrell
     motoriste: ford
@@ -6400,7 +6427,7 @@ saisons:
   - pilote: Ronnie Peterson
     points: 33.0
     ecurie: march
-  - pilote: Francois Cevert
+  - pilote: François Cevert
     points: 26.0
     ecurie: tyrrell
   - pilote: Jacky Ickx
@@ -6421,7 +6448,7 @@ saisons:
   - pilote: Peter Gethin
     points: 9.0
     ecurie: brm
-  - pilote: Pedro Rodriguez
+  - pilote: Pedro Rodríguez
     points: 9.0
     ecurie: brm
   - pilote: Chris Amon
@@ -6562,7 +6589,7 @@ saisons:
     url: https://www.formula1.com/en/results/1972/races/306/belgium/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6716,7 +6743,7 @@ saisons:
     url: https://www.formula1.com/en/results/1972/races/313/united-states/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6783,7 +6810,7 @@ saisons:
   - pilote: Peter Revson
     points: 23.0
     ecurie: mclaren
-  - pilote: Francois Cevert
+  - pilote: François Cevert
     points: 15.0
     ecurie: tyrrell
   - pilote: Clay Regazzoni
@@ -6846,7 +6873,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/314/argentina/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6912,7 +6939,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/317/spain/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6934,7 +6961,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/318/belgium/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -6983,7 +7010,7 @@ saisons:
       ecurie: team-lotus
       motoriste: ford
     - place: 3
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -7000,7 +7027,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/321/france/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -7044,7 +7071,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/323/netherlands/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -7066,7 +7093,7 @@ saisons:
     url: https://www.formula1.com/en/results/1973/races/324/germany/race-result
     podium:
     - place: 2
-      pilote: Francois Cevert
+      pilote: François Cevert
       equipe: Tyrrell Ford
       ecurie: tyrrell
       motoriste: ford
@@ -7223,7 +7250,7 @@ saisons:
   - pilote: Ronnie Peterson
     points: 52.0
     ecurie: team-lotus
-  - pilote: Francois Cevert
+  - pilote: François Cevert
     points: 47.0
     ecurie: tyrrell
   - pilote: Peter Revson
@@ -9776,7 +9803,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -9793,7 +9820,7 @@ saisons:
     url: https://www.formula1.com/en/results/1979/races/415/great-britain/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -9847,7 +9874,7 @@ saisons:
       ecurie: ligier
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -9869,7 +9896,7 @@ saisons:
       ecurie: ligier
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -9925,7 +9952,7 @@ saisons:
     url: https://www.formula1.com/en/results/1979/races/421/usa-east/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10010,7 +10037,7 @@ saisons:
   - pilote: Carlos Reutemann
     points: 20.0
     ecurie: team-lotus
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 17.0
     ecurie: renault-1977
   - pilote: John Watson
@@ -10082,7 +10109,7 @@ saisons:
       ecurie: williams
       motoriste: ford
   - gp: Brazil
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Renault
     ecurie: renault-1977
     motoriste: renault
@@ -10104,7 +10131,7 @@ saisons:
       ecurie: renault-1977
       motoriste: renault
   - gp: South Africa
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Renault
     ecurie: renault-1977
     motoriste: renault
@@ -10275,7 +10302,7 @@ saisons:
       ecurie: williams
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10287,7 +10314,7 @@ saisons:
     url: https://www.formula1.com/en/results/1980/races/90/netherlands/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10297,7 +10324,7 @@ saisons:
       ecurie: ligier
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10319,7 +10346,7 @@ saisons:
       ecurie: williams
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10428,7 +10455,7 @@ saisons:
   - pilote: Didier Pironi
     points: 32.0
     ecurie: ligier
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 29.0
     ecurie: renault-1977
   - pilote: Elio de Angelis
@@ -10655,7 +10682,7 @@ saisons:
       ecurie: brabham
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10677,7 +10704,7 @@ saisons:
       ecurie: ligier
       motoriste: matra
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10711,7 +10738,7 @@ saisons:
     url: https://www.formula1.com/en/results/1981/races/432/austria/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10721,7 +10748,7 @@ saisons:
       ecurie: brabham
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10765,7 +10792,7 @@ saisons:
       ecurie: williams
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -10891,7 +10918,7 @@ saisons:
   - pilote: Elio de Angelis
     points: 14.0
     ecurie: team-lotus
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 11.0
     ecurie: renault-1977
   - pilote: Hector Rebaque
@@ -10950,12 +10977,12 @@ saisons:
       ecurie: williams
       motoriste: ford
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11021,7 +11048,7 @@ saisons:
       ecurie: tyrrell
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11065,7 +11092,7 @@ saisons:
       ecurie: alfa-romeo-1979
       motoriste: alfa-romeo
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11131,7 +11158,7 @@ saisons:
       ecurie: williams
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11158,7 +11185,7 @@ saisons:
       ecurie: williams
       motoriste: ford
   - gp: France
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Renault
     ecurie: renault-1977
     motoriste: renault
@@ -11175,7 +11202,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11187,7 +11214,7 @@ saisons:
     url: https://www.formula1.com/en/results/1982/races/448/germany/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Renault
       ecurie: renault-1977
       motoriste: renault
@@ -11246,7 +11273,7 @@ saisons:
       ecurie: renault-1977
       motoriste: renault
   - gp: Italy
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Renault
     ecurie: renault-1977
     motoriste: renault
@@ -11362,7 +11389,7 @@ saisons:
   - pilote: Niki Lauda
     points: 30.0
     ecurie: mclaren
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 28.0
     ecurie: renault-1977
   - pilote: Patrick Tambay
@@ -11462,7 +11489,7 @@ saisons:
       ecurie: mclaren
       motoriste: ford
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11506,12 +11533,12 @@ saisons:
       ecurie: renault-1977
       motoriste: renault
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11577,12 +11604,12 @@ saisons:
       ecurie: mclaren
       motoriste: ford
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: Canada
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
@@ -11599,7 +11626,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11621,12 +11648,12 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: Germany
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
@@ -11655,7 +11682,7 @@ saisons:
     url: https://www.formula1.com/en/results/1983/races/461/austria/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11670,7 +11697,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Netherlands
-    vainqueur: Rene Arnoux
+    vainqueur: René Arnoux
     equipe: Ferrari
     ecurie: ferrari
     motoriste: ferrari
@@ -11699,7 +11726,7 @@ saisons:
     url: https://www.formula1.com/en/results/1983/races/463/italy/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11817,7 +11844,7 @@ saisons:
   - pilote: Alain Prost
     points: 57.0
     ecurie: renault-1977
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 49.0
     ecurie: ferrari
   - pilote: Patrick Tambay
@@ -11935,7 +11962,7 @@ saisons:
       ecurie: renault-1977
       motoriste: renault
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -11952,7 +11979,7 @@ saisons:
     url: https://www.formula1.com/en/results/1984/races/469/san-marino/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -12001,7 +12028,7 @@ saisons:
       ecurie: toleman
       motoriste: hart
     - place: 3
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -12062,7 +12089,7 @@ saisons:
     url: https://www.formula1.com/en/results/1984/races/474/dallas/race-result
     podium:
     - place: 2
-      pilote: Rene Arnoux
+      pilote: René Arnoux
       equipe: Ferrari
       ecurie: ferrari
       motoriste: ferrari
@@ -12295,7 +12322,7 @@ saisons:
   - pilote: Nelson Piquet
     points: 29.0
     ecurie: brabham
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 27.0
     ecurie: ferrari
   - pilote: Derek Warwick
@@ -12792,7 +12819,7 @@ saisons:
   - pilote: Andrea de Cesaris
     points: 3.0
     ecurie: ligier
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 3.0
     ecurie: ferrari
   - pilote: Ivan Capelli
@@ -13229,7 +13256,7 @@ saisons:
   - pilote: Michele Alboreto
     points: 14.0
     ecurie: ferrari
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 14.0
     ecurie: ligier
   - pilote: Martin Brundle
@@ -13726,7 +13753,7 @@ saisons:
   - pilote: Martin Brundle
     points: 2.0
     ecurie: zakspeed
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 1.0
     ecurie: ligier
   - pilote: Ivan Capelli
@@ -14172,7 +14199,7 @@ saisons:
   - pilote: Eddie Cheever
     points: 6.0
     ecurie: arrows
-  - pilote: Mauricio Gugelmin
+  - pilote: Maurício Gugelmin
     points: 5.0
     ecurie: march
   - pilote: Jonathan Palmer
@@ -14207,7 +14234,7 @@ saisons:
       ecurie: mclaren
       motoriste: honda
     - place: 3
-      pilote: Mauricio Gugelmin
+      pilote: Maurício Gugelmin
       equipe: March Judd
       ecurie: march
       motoriste: judd
@@ -14660,7 +14687,7 @@ saisons:
   - pilote: Andrea de Cesaris
     points: 4.0
     ecurie: dallara
-  - pilote: Mauricio Gugelmin
+  - pilote: Maurício Gugelmin
     points: 4.0
     ecurie: march
   - pilote: Stefano Modena
@@ -14678,7 +14705,7 @@ saisons:
   - pilote: Satoru Nakajima
     points: 3.0
     ecurie: team-lotus
-  - pilote: Rene Arnoux
+  - pilote: René Arnoux
     points: 2.0
     ecurie: ligier
   - pilote: Emanuele Pirro
@@ -14696,7 +14723,7 @@ saisons:
   - pilote: Olivier Grouillard
     points: 1.0
     ecurie: ligier
-  - pilote: Luis Perez-Sala
+  - pilote: Luis Pérez-Sala
     points: 1.0
     ecurie: minardi
   sources:
@@ -15136,7 +15163,7 @@ saisons:
   - pilote: Aguri Suzuki
     points: 6.0
     ecurie: lola-larrousse
-  - pilote: Eric Bernard
+  - pilote: Éric Bernard
     points: 5.0
     ecurie: lola-larrousse
   - pilote: Derek Warwick
@@ -15151,7 +15178,7 @@ saisons:
   - pilote: Stefano Modena
     points: 2.0
     ecurie: brabham
-  - pilote: Mauricio Gugelmin
+  - pilote: Maurício Gugelmin
     points: 1.0
     ecurie: leyton-house
   sources:
@@ -15218,7 +15245,7 @@ saisons:
       ecurie: mclaren
       motoriste: honda
     - place: 3
-      pilote: Jyrki Jarvilehto
+      pilote: Jyrki Järvilehto
       equipe: Dallara Judd
       ecurie: dallara
       motoriste: judd
@@ -15596,7 +15623,7 @@ saisons:
   - pilote: Pierluigi Martini
     points: 6.0
     ecurie: minardi
-  - pilote: Jyrki Jarvilehto
+  - pilote: Jyrki Järvilehto
     points: 4.0
     ecurie: dallara
   - pilote: Bertrand Gachot
@@ -15605,7 +15632,7 @@ saisons:
   - pilote: Michael Schumacher
     points: 4.0
     ecurie: benetton
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 2.0
     ecurie: team-lotus
   - pilote: Martin Brundle
@@ -15617,7 +15644,7 @@ saisons:
   - pilote: Julian Bailey
     points: 1.0
     ecurie: team-lotus
-  - pilote: Eric Bernard
+  - pilote: Éric Bernard
     points: 1.0
     ecurie: lola-larrousse
   - pilote: Ivan Capelli
@@ -16069,7 +16096,7 @@ saisons:
   - pilote: Jean Alesi
     points: 18.0
     ecurie: ferrari
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 11.0
     ecurie: team-lotus
   - pilote: Andrea de Cesaris
@@ -16078,7 +16105,7 @@ saisons:
   - pilote: Michele Alboreto
     points: 6.0
     ecurie: footwork
-  - pilote: Erik Comas
+  - pilote: Érik Comas
     points: 4.0
     ecurie: ligier
   - pilote: Karl Wendlinger
@@ -16433,7 +16460,7 @@ saisons:
       ecurie: williams
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Ford
       ecurie: mclaren
       motoriste: ford
@@ -16549,10 +16576,10 @@ saisons:
   - pilote: Christian Fittipaldi
     points: 5.0
     ecurie: minardi
-  - pilote: Jyrki Jarvilehto
+  - pilote: Jyrki Järvilehto
     points: 5.0
     ecurie: sauber
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 4.0
     ecurie: mclaren
   - pilote: Derek Warwick
@@ -16570,7 +16597,7 @@ saisons:
   - pilote: Alessandro Zanardi
     points: 1.0
     ecurie: team-lotus
-  - pilote: Erik Comas
+  - pilote: Érik Comas
     points: 1.0
     ecurie: larrousse
   - pilote: Eddie Irvine
@@ -16640,7 +16667,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16750,7 +16777,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16772,7 +16799,7 @@ saisons:
       ecurie: ligier
       motoriste: renault
     - place: 3
-      pilote: Eric Bernard
+      pilote: Éric Bernard
       equipe: Ligier Renault
       ecurie: ligier
       motoriste: renault
@@ -16811,7 +16838,7 @@ saisons:
     url: https://www.formula1.com/en/results/1994/races/615/belgium/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16838,7 +16865,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16860,7 +16887,7 @@ saisons:
       ecurie: williams
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16882,7 +16909,7 @@ saisons:
       ecurie: williams
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Peugeot
       ecurie: mclaren
       motoriste: peugeot
@@ -16990,7 +17017,7 @@ saisons:
   - pilote: Gerhard Berger
     points: 41.0
     ecurie: ferrari
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 26.0
     ecurie: mclaren
   - pilote: Jean Alesi
@@ -17032,7 +17059,7 @@ saisons:
   - pilote: Ukyo Katayama
     points: 5.0
     ecurie: tyrrell
-  - pilote: Eric Bernard
+  - pilote: Éric Bernard
     points: 4.0
     ecurie: team-lotus
   - pilote: Karl Wendlinger
@@ -17047,13 +17074,13 @@ saisons:
   - pilote: Gianni Morbidelli
     points: 3.0
     ecurie: footwork
-  - pilote: Erik Comas
+  - pilote: Érik Comas
     points: 2.0
     ecurie: larrousse
   - pilote: Michele Alboreto
     points: 1.0
     ecurie: minardi
-  - pilote: Jyrki Jarvilehto
+  - pilote: Jyrki Järvilehto
     points: 1.0
     ecurie: sauber
   sources:
@@ -17313,7 +17340,7 @@ saisons:
     url: https://www.formula1.com/en/results/1995/races/632/italy/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17401,7 +17428,7 @@ saisons:
     url: https://www.formula1.com/en/results/1995/races/636/japan/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17497,7 +17524,7 @@ saisons:
   - pilote: Gerhard Berger
     points: 31.0
     ecurie: ferrari
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 17.0
     ecurie: mclaren
   - pilote: Olivier Panis
@@ -17751,7 +17778,7 @@ saisons:
       ecurie: benetton
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17817,7 +17844,7 @@ saisons:
       ecurie: williams
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17839,7 +17866,7 @@ saisons:
       ecurie: benetton
       motoriste: renault
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17883,7 +17910,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -17942,7 +17969,7 @@ saisons:
   - pilote: Jean Alesi
     points: 47.0
     ecurie: benetton
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 31.0
     ecurie: mclaren
   - pilote: Gerhard Berger
@@ -17998,7 +18025,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18196,7 +18223,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18311,7 +18338,7 @@ saisons:
       ecurie: williams
       motoriste: renault
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18338,7 +18365,7 @@ saisons:
       ecurie: williams
       motoriste: renault
   - gp: Spain Europe
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18404,9 +18431,6 @@ saisons:
   - pilote: Jacques Villeneuve
     points: 81.0
     ecurie: williams
-  - pilote: Michael Schumacher
-    points: 78.0
-    ecurie: ferrari
   - pilote: Heinz-Harald Frentzen
     points: 42.0
     ecurie: williams
@@ -18419,7 +18443,7 @@ saisons:
   - pilote: Gerhard Berger
     points: 27.0
     ecurie: benetton
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 27.0
     ecurie: mclaren
   - pilote: Eddie Irvine
@@ -18469,7 +18493,7 @@ saisons:
   gp: 16
   courses:
   - gp: Australia
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18486,12 +18510,12 @@ saisons:
       ecurie: williams
       motoriste: mecachrome
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Brazil
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18508,7 +18532,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18520,7 +18544,7 @@ saisons:
     url: https://www.formula1.com/en/results/1998/races/673/argentina/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18557,7 +18581,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
   - gp: Spain
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18574,12 +18598,12 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Monaco
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18596,7 +18620,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18635,12 +18659,12 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18652,7 +18676,7 @@ saisons:
     url: https://www.formula1.com/en/results/1998/races/679/great-britain/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18662,12 +18686,12 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Austria
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18689,7 +18713,7 @@ saisons:
       ecurie: benetton
       motoriste: playlife
   - gp: Germany
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18706,7 +18730,7 @@ saisons:
       ecurie: williams
       motoriste: mecachrome
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18728,7 +18752,7 @@ saisons:
       ecurie: williams
       motoriste: mecachrome
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18750,7 +18774,7 @@ saisons:
       ecurie: sauber
       motoriste: petronas
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18777,7 +18801,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Germany Luxembourg
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18799,7 +18823,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Japan
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18858,7 +18882,7 @@ saisons:
     ecurie: prost
     motoriste: peugeot
   pilotes:
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 100.0
     ecurie: mclaren
   - pilote: Michael Schumacher
@@ -18934,12 +18958,12 @@ saisons:
       ecurie: williams
       motoriste: supertec
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Brazil
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -18956,7 +18980,7 @@ saisons:
       ecurie: jordan
       motoriste: mugen-honda
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18978,7 +19002,7 @@ saisons:
       ecurie: stewart
       motoriste: ford
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -18995,17 +19019,17 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Spain
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19022,12 +19046,12 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Canada
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19056,7 +19080,7 @@ saisons:
     url: https://www.formula1.com/en/results/1999/races/693/france/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19088,7 +19112,7 @@ saisons:
       ecurie: williams
       motoriste: supertec
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19105,12 +19129,12 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19132,12 +19156,12 @@ saisons:
       ecurie: jordan
       motoriste: mugen-honda
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
   - gp: Hungary
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19154,7 +19178,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19166,7 +19190,7 @@ saisons:
     url: https://www.formula1.com/en/results/1999/races/698/belgium/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19176,7 +19200,7 @@ saisons:
       ecurie: jordan
       motoriste: mugen-honda
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19198,7 +19222,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19237,7 +19261,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19247,7 +19271,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Japan
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19310,7 +19334,7 @@ saisons:
     ecurie: arrows
     motoriste: arrows
   pilotes:
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 76.0
     ecurie: mclaren
   - pilote: Eddie Irvine
@@ -19361,7 +19385,7 @@ saisons:
   - pilote: Pedro de la Rosa
     points: 1.0
     ecurie: arrows
-  - pilote: Marc Gene
+  - pilote: Marc Gené
     points: 1.0
     ecurie: minardi
   sources:
@@ -19389,7 +19413,7 @@ saisons:
       ecurie: williams
       motoriste: bmw
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19411,7 +19435,7 @@ saisons:
       ecurie: jordan
       motoriste: mugen-honda
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19423,7 +19447,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/49/san-marino/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19433,7 +19457,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19445,7 +19469,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/50/great-britain/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19460,7 +19484,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Spain
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19489,7 +19513,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/52/europe/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19555,7 +19579,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/55/france/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19570,7 +19594,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Austria
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19587,7 +19611,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19599,7 +19623,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/57/germany/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19614,7 +19638,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
   - gp: Hungary
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19636,7 +19660,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Belgium
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -19653,7 +19677,7 @@ saisons:
       ecurie: williams
       motoriste: bmw
     pole:
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19665,7 +19689,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/60/italy/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19709,7 +19733,7 @@ saisons:
     url: https://www.formula1.com/en/results/2000/races/62/japan/race-result
     podium:
     - place: 2
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -19786,7 +19810,7 @@ saisons:
   - pilote: Michael Schumacher
     points: 108.0
     ecurie: ferrari
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 89.0
     ecurie: mclaren
   - pilote: David Coulthard
@@ -20005,7 +20029,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Mika Hakkinen
+      pilote: Mika Häkkinen
       equipe: McLaren Mercedes
       ecurie: mclaren
       motoriste: mercedes
@@ -20059,7 +20083,7 @@ saisons:
       ecurie: williams
       motoriste: bmw
   - gp: Great Britain
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -20169,7 +20193,7 @@ saisons:
       ecurie: williams
       motoriste: bmw
   - gp: United States of America United States
-    vainqueur: Mika Hakkinen
+    vainqueur: Mika Häkkinen
     equipe: McLaren Mercedes
     ecurie: mclaren
     motoriste: mercedes
@@ -20266,7 +20290,7 @@ saisons:
   - pilote: Ralf Schumacher
     points: 49.0
     ecurie: williams
-  - pilote: Mika Hakkinen
+  - pilote: Mika Häkkinen
     points: 37.0
     ecurie: mclaren
   - pilote: Juan Pablo Montoya
@@ -21238,7 +21262,7 @@ saisons:
   - pilote: Jacques Villeneuve
     points: 6.0
     ecurie: bar
-  - pilote: Marc Gene
+  - pilote: Marc Gené
     points: 4.0
     ecurie: williams
   - pilote: Takuma Sato
@@ -21737,7 +21761,7 @@ saisons:
   - pilote: Olivier Panis
     points: 6.0
     ecurie: toyota
-  - pilote: Antonio Pizzonia
+  - pilote: Antônio Pizzonia
     points: 6.0
     ecurie: williams
   - pilote: Christian Klien
@@ -22285,7 +22309,7 @@ saisons:
   - pilote: Patrick Friesacher
     points: 3.0
     ecurie: minardi
-  - pilote: Antonio Pizzonia
+  - pilote: Antônio Pizzonia
     points: 2.0
     ecurie: williams
   - pilote: Takuma Sato
@@ -23781,7 +23805,7 @@ saisons:
   - pilote: David Coulthard
     points: 8.0
     ecurie: red-bull
-  - pilote: Sebastien Bourdais
+  - pilote: Sébastien Bourdais
     points: 4.0
     ecurie: toro-rosso
   - pilote: Jenson Button
@@ -24255,7 +24279,7 @@ saisons:
   - pilote: Giancarlo Fisichella
     points: 8.0
     ecurie: ferrari
-  - pilote: Sebastien Buemi
+  - pilote: Sébastien Buemi
     points: 6.0
     ecurie: toro-rosso
   - pilote: Adrian Sutil
@@ -24264,7 +24288,7 @@ saisons:
   - pilote: Kamui Kobayashi
     points: 3.0
     ecurie: toyota
-  - pilote: Sebastien Bourdais
+  - pilote: Sébastien Bourdais
     points: 2.0
     ecurie: toro-rosso
   sources:
@@ -24666,7 +24690,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Nico Hulkenberg
+      pilote: Nico Hülkenberg
       equipe: Williams Cosworth
       ecurie: williams
       motoriste: cosworth
@@ -24781,13 +24805,13 @@ saisons:
   - pilote: Vitaly Petrov
     points: 27.0
     ecurie: renault
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 22.0
     ecurie: williams
   - pilote: Vitantonio Liuzzi
     points: 21.0
     ecurie: force-india
-  - pilote: Sebastien Buemi
+  - pilote: Sébastien Buemi
     points: 8.0
     ecurie: toro-rosso
   - pilote: Pedro de la Rosa
@@ -25316,10 +25340,10 @@ saisons:
   - pilote: Jaime Alguersuari
     points: 26.0
     ecurie: toro-rosso
-  - pilote: Sebastien Buemi
+  - pilote: Sébastien Buemi
     points: 15.0
     ecurie: toro-rosso
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 14.0
     ecurie: sauber
   - pilote: Rubens Barrichello
@@ -25368,7 +25392,7 @@ saisons:
     url: https://www.formula1.com/en/results/2012/races/11/malaysia/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Sauber Ferrari
       ecurie: sauber
       motoriste: ferrari
@@ -25483,7 +25507,7 @@ saisons:
       ecurie: lotus-f1
       motoriste: renault
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Sauber Ferrari
       ecurie: sauber
       motoriste: ferrari
@@ -25610,7 +25634,7 @@ saisons:
     url: https://www.formula1.com/en/results/2012/races/20/italy/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Sauber Ferrari
       ecurie: sauber
       motoriste: ferrari
@@ -25855,10 +25879,10 @@ saisons:
   - pilote: Nico Rosberg
     points: 93.0
     ecurie: mercedes
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 66.0
     ecurie: sauber
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 63.0
     ecurie: force-india
   - pilote: Kamui Kobayashi
@@ -25876,7 +25900,7 @@ saisons:
   - pilote: Bruno Senna
     points: 31.0
     ecurie: williams
-  - pilote: Jean-Eric Vergne
+  - pilote: Jean-Éric Vergne
     points: 16.0
     ecurie: toro-rosso
   - pilote: Daniel Ricciardo
@@ -26380,10 +26404,10 @@ saisons:
   - pilote: Jenson Button
     points: 73.0
     ecurie: mclaren
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 51.0
     ecurie: sauber
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 49.0
     ecurie: mclaren
   - pilote: Paul di Resta
@@ -26395,10 +26419,10 @@ saisons:
   - pilote: Daniel Ricciardo
     points: 20.0
     ecurie: toro-rosso
-  - pilote: Jean-Eric Vergne
+  - pilote: Jean-Éric Vergne
     points: 13.0
     ecurie: toro-rosso
-  - pilote: Esteban Gutierrez
+  - pilote: Esteban Gutiérrez
     points: 6.0
     ecurie: sauber
   - pilote: Valtteri Bottas
@@ -26471,7 +26495,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Force India Mercedes
       ecurie: force-india
       motoriste: mercedes
@@ -26902,10 +26926,10 @@ saisons:
   - pilote: Jenson Button
     points: 126.0
     ecurie: mclaren
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 96.0
     ecurie: force-india
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 59.0
     ecurie: force-india
   - pilote: Kevin Magnussen
@@ -26914,7 +26938,7 @@ saisons:
   - pilote: Kimi Räikkönen
     points: 55.0
     ecurie: ferrari
-  - pilote: Jean-Eric Vergne
+  - pilote: Jean-Éric Vergne
     points: 22.0
     ecurie: toro-rosso
   - pilote: Romain Grosjean
@@ -27257,7 +27281,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Force India Mercedes
       ecurie: force-india
       motoriste: mercedes
@@ -27420,10 +27444,10 @@ saisons:
   - pilote: Daniel Ricciardo
     points: 92.0
     ecurie: red-bull
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 78.0
     ecurie: force-india
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 58.0
     ecurie: force-india
   - pilote: Romain Grosjean
@@ -27580,7 +27604,7 @@ saisons:
       ecurie: red-bull
       motoriste: tag-heuer
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Force India Mercedes
       ecurie: force-india
       motoriste: mercedes
@@ -27624,7 +27648,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Force India Mercedes
       ecurie: force-india
       motoriste: mercedes
@@ -27983,13 +28007,13 @@ saisons:
   - pilote: Kimi Räikkönen
     points: 186.0
     ecurie: ferrari
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 101.0
     ecurie: force-india
   - pilote: Valtteri Bottas
     points: 85.0
     ecurie: williams
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 72.0
     ecurie: force-india
   - pilote: Fernando Alonso
@@ -28532,7 +28556,7 @@ saisons:
   - pilote: Max Verstappen
     points: 168.0
     ecurie: red-bull
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 100.0
     ecurie: force-india
   - pilote: Esteban Ocon
@@ -28541,7 +28565,7 @@ saisons:
   - pilote: Carlos Sainz
     points: 54.0
     ecurie: renault
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 43.0
     ecurie: renault
   - pilote: Felipe Massa
@@ -28657,7 +28681,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Force India Mercedes
       ecurie: force-india
       motoriste: mercedes
@@ -29104,10 +29128,10 @@ saisons:
   - pilote: Daniel Ricciardo
     points: 170.0
     ecurie: red-bull
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 69.0
     ecurie: renault
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 62.0
     ecurie: force-india
   - pilote: Kevin Magnussen
@@ -29684,7 +29708,7 @@ saisons:
   - pilote: Daniel Ricciardo
     points: 54.0
     ecurie: renault
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 52.0
     ecurie: racing-point
   - pilote: Lando Norris
@@ -29696,7 +29720,7 @@ saisons:
   - pilote: Daniil Kvyat
     points: 37.0
     ecurie: toro-rosso
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 37.0
     ecurie: renault
   - pilote: Lance Stroll
@@ -30015,7 +30039,7 @@ saisons:
     url: https://www.formula1.com/en/results/2020/races/1058/turkey/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Racing Point BWT Mercedes
       ecurie: racing-point
       motoriste: mercedes
@@ -30052,7 +30076,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
   - gp: Bahrain Sakhir
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Racing Point BWT Mercedes
     ecurie: racing-point
     motoriste: mercedes
@@ -30146,7 +30170,7 @@ saisons:
   - pilote: Max Verstappen
     points: 214.0
     ecurie: red-bull
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 125.0
     ecurie: racing-point
   - pilote: Daniel Ricciardo
@@ -30179,7 +30203,7 @@ saisons:
   - pilote: Daniil Kvyat
     points: 32.0
     ecurie: alphatauri
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 10.0
     ecurie: racing-point
   - pilote: Kimi Räikkönen
@@ -30315,7 +30339,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Azerbaijan
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Red Bull Racing Honda
     ecurie: red-bull
     motoriste: honda
@@ -30349,7 +30373,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda
       ecurie: red-bull
       motoriste: honda
@@ -30547,7 +30571,7 @@ saisons:
       ecurie: red-bull
       motoriste: honda
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda
       ecurie: red-bull
       motoriste: honda
@@ -30569,7 +30593,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda
       ecurie: red-bull
       motoriste: honda
@@ -30591,7 +30615,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda
       ecurie: red-bull
       motoriste: honda
@@ -30739,7 +30763,7 @@ saisons:
   - pilote: Valtteri Bottas
     points: 226.0
     ecurie: mercedes
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 190.0
     ecurie: red-bull
   - pilote: Carlos Sainz
@@ -30831,7 +30855,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     pole:
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -30843,7 +30867,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1108/australia/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -30865,7 +30889,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1109/emilia-romagna/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -30909,7 +30933,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1111/spain/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -30924,7 +30948,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Monaco
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Red Bull Racing RBPT
     ecurie: red-bull
     motoriste: rbpt
@@ -30953,7 +30977,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1126/azerbaijan/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -30997,7 +31021,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1114/great-britain/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -31085,7 +31109,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1118/belgium/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -31144,7 +31168,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
   - gp: Singapore
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Red Bull Racing RBPT
     ecurie: red-bull
     motoriste: rbpt
@@ -31173,7 +31197,7 @@ saisons:
     url: https://www.formula1.com/en/results/2022/races/1134/japan/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -31222,7 +31246,7 @@ saisons:
       ecurie: mercedes
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -31266,7 +31290,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing RBPT
       ecurie: red-bull
       motoriste: rbpt
@@ -31323,7 +31347,7 @@ saisons:
   - pilote: Charles Leclerc
     points: 308.0
     ecurie: ferrari
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 305.0
     ecurie: red-bull
   - pilote: George Russell
@@ -31377,7 +31401,7 @@ saisons:
   - pilote: Nicholas Latifi
     points: 2.0
     ecurie: williams
-  - pilote: Nyck De Vries
+  - pilote: Nyck de Vries
     points: 2.0
     ecurie: williams
   sources:
@@ -31395,7 +31419,7 @@ saisons:
     url: https://www.formula1.com/en/results/2023/races/1141/bahrain/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31410,7 +31434,7 @@ saisons:
       ecurie: red-bull
       motoriste: honda-rbpt
   - gp: Saudi Arabia
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
@@ -31427,7 +31451,7 @@ saisons:
       ecurie: aston-martin
       motoriste: mercedes
     pole:
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31454,7 +31478,7 @@ saisons:
       ecurie: red-bull
       motoriste: honda-rbpt
   - gp: Azerbaijan
-    vainqueur: Sergio Perez
+    vainqueur: Sergio Pérez
     equipe: Red Bull Racing Honda RBPT
     ecurie: red-bull
     motoriste: honda-rbpt
@@ -31483,7 +31507,7 @@ saisons:
     url: https://www.formula1.com/en/results/2023/races/1208/miami/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31493,7 +31517,7 @@ saisons:
       ecurie: aston-martin
       motoriste: mercedes
     pole:
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31576,7 +31600,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31620,7 +31644,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31637,7 +31661,7 @@ saisons:
     url: https://www.formula1.com/en/results/2023/races/1216/belgium/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31681,7 +31705,7 @@ saisons:
     url: https://www.formula1.com/en/results/2023/races/1218/italy/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31840,7 +31864,7 @@ saisons:
       ecurie: ferrari
       motoriste: ferrari
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -31916,7 +31940,7 @@ saisons:
   - pilote: Max Verstappen
     points: 575.0
     ecurie: red-bull
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 285.0
     ecurie: red-bull
   - pilote: Lewis Hamilton
@@ -31958,7 +31982,7 @@ saisons:
   - pilote: Valtteri Bottas
     points: 10.0
     ecurie: alfa-romeo
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 9.0
     ecurie: haas
   - pilote: Daniel Ricciardo
@@ -31991,7 +32015,7 @@ saisons:
     url: https://www.formula1.com/en/results/2024/races/1229/bahrain/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -32013,7 +32037,7 @@ saisons:
     url: https://www.formula1.com/en/results/2024/races/1230/saudi-arabia/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -32057,7 +32081,7 @@ saisons:
     url: https://www.formula1.com/en/results/2024/races/1232/japan/race-result
     podium:
     - place: 2
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -32084,7 +32108,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
     - place: 3
-      pilote: Sergio Perez
+      pilote: Sergio Pérez
       equipe: Red Bull Racing Honda RBPT
       ecurie: red-bull
       motoriste: honda-rbpt
@@ -32574,7 +32598,7 @@ saisons:
   - pilote: Lewis Hamilton
     points: 223.0
     ecurie: mercedes
-  - pilote: Sergio Perez
+  - pilote: Sergio Pérez
     points: 152.0
     ecurie: red-bull
   - pilote: Fernando Alonso
@@ -32583,7 +32607,7 @@ saisons:
   - pilote: Pierre Gasly
     points: 42.0
     ecurie: alpine
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 41.0
     ecurie: haas
   - pilote: Yuki Tsunoda
@@ -32878,7 +32902,7 @@ saisons:
       ecurie: mclaren
       motoriste: mercedes
     - place: 3
-      pilote: Nico Hulkenberg
+      pilote: Nico Hülkenberg
       equipe: Kick Sauber
       ecurie: kick-sauber
       motoriste: ferrari
@@ -33223,7 +33247,7 @@ saisons:
   - pilote: Fernando Alonso
     points: 56.0
     ecurie: aston-martin
-  - pilote: Nico Hulkenberg
+  - pilote: Nico Hülkenberg
     points: 51.0
     ecurie: kick-sauber
   - pilote: Isack Hadjar

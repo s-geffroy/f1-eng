@@ -37,17 +37,17 @@ image: "/assets/partage/en/john-cooper.jpg"
 
 ## The breakthrough
 
-Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere)** layout{% include src.html n="1,2" %}. He did not invent this layout, which had already been used before him; he popularised it and made it a winner{% include src.html n="2,4" %}. On the first 500cc Cooper, the engine was placed in the middle "for largely practical reasons"{% include src.html n="4" %}; John Cooper put it this way to Nigel Roebuck: on a 500, putting the engine behind was "the only logical thing to do"{% include src.html n="5" %}.
+Cooper decisively moved F1 from the front engine to the **[mid-engine]({{ site.baseurl }}/en/glossary/#moteur-central-arriere)** layout{% include src.html n="1,2" %}. He did not invent this layout, which had already been used before him; he popularised it and made it a winner{% include src.html n="2,4" %}. On the first 500 cc Cooper, the engine was placed in the middle "for largely practical reasons"{% include src.html n="4" %}; John Cooper put it this way to Nigel Roebuck: on a 500, putting the engine behind was "the only logical thing to do"{% include src.html n="5" %}.
 
-## From 500cc to F1
+## From 500 cc to F1
 
 - **1946.** The prototype by John Cooper and Eric Brandon reused the front suspension of a crashed Fiat Topolino; one chain drove a Triumph Speed Twin gearbox, a second chain the rear axle{% include src.html n="4" %}.
 - **1948.** The company went into selling replicas: twelve "Mark 2" single-seaters were laid down{% include src.html n="3" %}.
 - **1958.** Coopers scored the first world championship wins for cars with the engine behind the driver{% include src.html n="2,3" %}.
-- **1959.** The T51, powered by the 245hp Coventry Climax FPF four-cylinder, brought the title{% include src.html n="2" %}.
+- **1959.** The T51, powered by the 245 hp Coventry Climax FPF four-cylinder, brought the title{% include src.html n="2" %}.
 - **1960.** The T53 "Lowline" delivered a second drivers' and constructors' double{% include src.html n="3" %}.
 - **1961.** At Indianapolis, Jack Brabham finished ninth in a Cooper with a Climax engine enlarged from 2.5 to 2.7 litres: the rear engine, already tried without success at Indianapolis between 1937 and 1951, made a comeback there{% include src.html n="6" %}.
-- **September 1961.** The Mini Cooper was born, with a 997cc twin-carburettor four-cylinder producing 55hp{% include src.html n="7" %}.
+- **September 1961.** The Mini Cooper was born, with a 997 cc twin-carburettor four-cylinder producing 55 hp{% include src.html n="7" %}.
 
 John Cooper died on Christmas Eve 2000, aged 77{% include src.html n="5,8" %}.
 

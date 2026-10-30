@@ -2,10 +2,10 @@
 title: "Cooper 500 (prototype de 1946)"
 nom_tri: "cooper 500"
 accroche: "Le moteur derrière le pilote, pour des raisons pratiques."
-description: "Cooper 500 (1946) : le prototype de John Cooper et Eric Brandon, monoplace de 500cm³ à moteur de moto placé au milieu, d'où descendent les Cooper de F1 à moteur arrière."
+description: "Cooper 500 (1946) : le prototype de John Cooper et Eric Brandon, monoplace de 500 cm³ à moteur de moto placé au milieu, d'où descendent les Cooper de F1 à moteur arrière."
 annee: 1946
 equipe: "Cooper (avant la Cooper Car Company)"
-moteur: "JAP monocylindre de 500cm³ (moteur de speedway)"
+moteur: "JAP monocylindre de 500 cm³ (moteur de speedway)"
 statut: "Prototype ; débuts à la course de côte de Prescott en juillet 1946 ; n'a pas couru en F1"
 concepteurs: ["john-cooper", "Eric Brandon", "Charles Cooper"]
 termes: ["moteur-central-arriere", "moment-polaire"]
@@ -22,7 +22,7 @@ image: "/assets/partage/voitures/cooper-500.jpg"
 ---
 ## Ce qu'elle change
 
-Ce n'est pas une F1, mais une petite monoplace de 500cm³ construite en 1946{% include src.html n="1" %}. Son moteur, un monocylindre de moto, est placé au milieu de la voiture, « pour des raisons largement pratiques », écrit la 500 Owners Association{% include src.html n="1" %}. C'est la disposition que les Cooper porteront jusqu'en F1, sous le nom de [moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere){% include src.html n="2,3" %}.
+Ce n'est pas une F1, mais une petite monoplace de 500 cm³ construite en 1946{% include src.html n="1" %}. Son moteur, un monocylindre de moto, est placé au milieu de la voiture, « pour des raisons largement pratiques », écrit la 500 Owners Association{% include src.html n="1" %}. C'est la disposition que les Cooper porteront jusqu'en F1, sous le nom de [moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere){% include src.html n="2,3" %}.
 
 La même source précise que cette disposition n'était pas nouvelle{% include src.html n="1" %}. Ce qui fait la qualité de la voiture, c'est la combinaison de cette disposition avec un faible poids, un [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire) réduit et des suspensions entièrement indépendantes : la tenue de route est excellente{% include src.html n="1" %}.
 
@@ -36,7 +36,7 @@ La construction de la première commence en juin 1946 et dure environ cinq semai
 
 ## Comment elle est faite
 
-- **Moteur et transmission** : un monocylindre JAP de 500cm³, à refroidissement par air, issu du speedway{% include src.html n="1,2" %}. Une chaîne le relie à une boîte Triumph Speed Twin, une seconde chaîne mène à l'essieu arrière{% include src.html n="1" %}.
+- **Moteur et transmission** : un monocylindre JAP de 500 cm³, à refroidissement par air, issu du speedway{% include src.html n="1,2" %}. Une chaîne le relie à une boîte Triumph Speed Twin, une seconde chaîne mène à l'essieu arrière{% include src.html n="1" %}.
 - **Châssis** : un cadre en échelle, avec des arceaux qui portent la carrosserie et raidissent l'ensemble{% include src.html n="1" %}.
 - **Suspensions** : les deux trains, indépendants, reprennent des éléments de Fiat 500 Topolino, avec triangles inférieurs et ressort à lames transversal ; roues et direction viennent aussi de la Fiat{% include src.html n="1,2" %}. Les deux sources décrivent l'emprunt un peu différemment : la 500 Owners Association parle d'une Topolino accidentée dont l'avant est réutilisé à l'arrière, Doug Nye de deux avants de Topolino récupérés à la casse et soudés dos à dos{% include src.html n="1,2" %}.
 

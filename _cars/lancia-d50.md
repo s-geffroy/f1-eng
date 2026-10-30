@@ -48,7 +48,7 @@ These concentrated masses gave it a low [polar moment of inertia]({{ site.baseur
 
 - The early days were laborious: the chassis had to be stiffened against torsion, and the oil circulation was at first so poor that the V8 lasted only four or five laps{% include src.html n="2" %}.
 - Agile as it was, the car gave little warning: drivers could barely feel the loss of grip coming{% include src.html n="1" %}.
-- Power rose as development went on, from about 250hp to some 275hp according to Doug Nye (Motor Sport){% include src.html n="1" %}; Chris Nixon gives 260hp at 8000rpm{% include src.html n="2" %}.
+- Power rose as development went on, from about 250 hp to some 275 hp according to Doug Nye (Motor Sport){% include src.html n="1" %}; Chris Nixon gives 260 hp at 8,000 rpm{% include src.html n="2" %}.
 
 ## Legacy
 

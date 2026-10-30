@@ -12,7 +12,7 @@ sources:
     url: "https://grandprix.com/people/osamu-goto.html"
   - titre: "Gary Watkins, Autosport, “The origins of McLaren-Honda's greatest racer” (August 2017)"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "Motor Sport Magazine, “McLaren-onda 1989 Constructor's Champion” (January 1990)"
+  - titre: "Motor Sport Magazine, “McLaren-onda [sic] 1989 Constructor's Champion” (January 1990)"
     url: "https://www.motorsportmagazine.com/archive/article/january-1990/53/mclaren-onda-1989-constructors-champion/"
   - titre: "GrandPrix.com, “Goto to go to Ford” (June 1996)"
     url: "https://grandprix.com/news/goto-to-go-to-ford.html"
@@ -33,7 +33,7 @@ Osamu Goto is the engineer who led Honda's F1 engine programme through the title
 - After graduating in March 1970, he joined Honda's research department the following month; he first specialised in exhaust emissions (GrandPrix.com){% include src.html n="1" %}.
 - In 1984, promoted to chief engineer, he joined Honda's racing team to develop the 1.5-litre [turbo]({{ site.baseurl }}/en/glossary/#turbocompresseur) engine; a year later, he became racing team leader (GrandPrix.com){% include src.html n="1" %}.
 - In 1986 and 1987, the engineering team he led won the constructors' title with Williams (GrandPrix.com){% include src.html n="1" %}.
-- That success put him in charge of all Honda F1 engine development, notably the normally-aspirated [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) (GrandPrix.com){% include src.html n="1" %}. According to him, Honda had already been working on that V10 for about two years by the time McLaren's 1988 engine was being decided (Autosport){% include src.html n="2" %}.
+- That success put him in charge of all Honda F1 engine development, notably the normally aspirated [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) (GrandPrix.com){% include src.html n="1" %}. According to him, Honda had already been working on that V10 for about two years by the time McLaren's 1988 engine was being decided (Autosport){% include src.html n="2" %}.
 - For 1988, Honda stayed with the turbo{% include src.html n="2" %}. Gordon Murray says he got Honda to lower the engine substantially for the McLaren MP4/4; Goto confirms that Murray wanted to keep the driving position of the Brabham BT55, "therefore he'd like a lower engine" (Autosport){% include src.html n="2" %}.
 - In 1989, Motor Sport described him as leading the McLaren-Honda engine project{% include src.html n="3" %}.
 

@@ -1,6 +1,6 @@
 ---
 title: Theodore
 nom_tri: theodore
-saisons: 1981–1982, 1983, 1978
-description: 'Theodore : écurie de Formule 1, saisons 1981–1982, 1983, 1978 ; lignée Shadow et Theodore.'
+saisons: 1978, 1981–1983
+description: 'Theodore : écurie de Formule 1, saisons 1978, 1981–1983 ; lignée Shadow et Theodore.'
 ---

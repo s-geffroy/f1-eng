@@ -33,7 +33,7 @@ En 1958, les Cooper avaient déjà gagné en Argentine et à Monaco : les premi�
 
 Le principe, rappelé par Motor Sport : sans arbre de transmission à faire passer sous le pilote ou autour de lui, on peut l'asseoir plus bas et réduire la surface frontale de la voiture{% include src.html n="1" %}. Les masses restent dans l'empattement, ce qui rend la voiture vive aux changements de direction (faible [moment polaire]({{ site.baseurl }}/glossaire/#moment-polaire)){% include src.html n="1" %}.
 
-La voiture elle-même change peu par rapport au modèle précédent : un [châssis]({{ site.baseurl }}/glossaire/#chassis-tubulaire) soudé en tubes d'acier courbes{% include src.html n="1" %}. Ce qui fait la différence, selon Motor Sport, c'est le nouveau Coventry Climax FPF de 2,5 litres et 245ch, dont le dessin détaillé ne commence que le 1er décembre 1958, seize semaines avant ses débuts{% include src.html n="1" %}.
+La voiture elle-même change peu par rapport au modèle précédent : un [châssis]({{ site.baseurl }}/glossaire/#chassis-tubulaire) soudé en tubes d'acier courbes{% include src.html n="1" %}. Ce qui fait la différence, selon Motor Sport, c'est le nouveau Coventry Climax FPF de 2,5 litres et 245 ch, dont le dessin détaillé ne commence que le 1er décembre 1958, seize semaines avant ses débuts{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 

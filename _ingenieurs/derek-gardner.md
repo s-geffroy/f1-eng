@@ -27,7 +27,7 @@ Derek Gardner est le concepteur des premières Tyrrell, de la 001 de 1970 à la 
 
 - **Transmission.** Spécialiste de la transmission, il vient de Harry Ferguson, où il travaille sur la transmission intégrale{% include src.html n="3,4" %} ; il fait de même chez Matra en F1, en 1969{% include src.html n="2,3,4" %}.
 - **Lotus.** Détaché chez Lotus, il est responsable de la partie transmission intégrale de la voiture à turbine d'Indianapolis de [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) ; il y fournit des différentiels centraux qui reportent le couple vers l'arrière{% include src.html n="1,2" %}.
-- **Tyrrell 001 (1970).** Il rejoint Ken Tyrrell en 1970 et construit la première Tyrrell dans son garage{% include src.html n="3" %}. Jackie Stewart la qualifie en pole position à sa première course, au Grand Prix du Canada 1970, avant d'abandonner{% include src.html n="3" %}.
+- **Tyrrell 001 (1970).** Il rejoint Ken Tyrrell en 1970 et construit la première Tyrrell dans son garage{% include src.html n="3" %}. Jackie Stewart la qualifie en pole position à son premier Grand Prix de championnat, au Canada en 1970, avant d'abandonner (elle avait débuté hors championnat, à la Gold Cup d'Oulton Park, le 22 août 1970){% include src.html n="3" %}.
 - **Tyrrell 003 et 006.** En 1971, Stewart et François Cevert remportent sept victoires pour Tyrrell ; Tyrrell est champion des constructeurs et Stewart champion du monde{% include src.html n="3,4" %}. En 1973, la 006 lui apporte son troisième titre{% include src.html n="3" %}.
 - **Tyrrell P34 (1976-1977).** Voir ci-dessous.
 

@@ -16,7 +16,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2024/38/renault-blew-it-the-pioneering-f1-turbo-that-failed-prost-in-title-bid/"
   - titre: "Motor Sport Magazine, « Renault-Alpine's 1978 Le Mans 24 Hours win: All for one » (juin 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2003/29/all-for-one/"
-  - titre: "Joe Saward, GrandPrix.com, « Interview : Bernard Dudot » (1990)"
+  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1990)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
   - titre: "Joe Saward, GrandPrix.com, « Peugeot's F1 plans »"
     url: "https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html"
@@ -40,7 +40,7 @@ Jean-Pierre Boudy est un motoriste de Renault-Gordini, puis de Peugeot{% include
 ## Chez Renault-Gordini
 
 - Né en Dordogne en juillet 1944 (à Terrasson-Lavilledieu, le 31, selon OldRacingCars.com), formé aux Arts et Métiers (Bordeaux, puis Paris), il entre chez Gordini à sa sortie d'école, en 1969 (GrandPrix.com){% include src.html n="1,11" %}.
-- En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault{% include src.html n="3" %}. Le V6 CH1, de 270ch, équipe l'Alpine de 1973{% include src.html n="4" %}.
+- En 1972, Castaing et Boudy conçoivent un V6 de 2 litres ouvert à 90°, destiné aux courses européennes de prototypes ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault{% include src.html n="3" %}. Le V6 CH1, de 270 ch, équipe l'Alpine de 1973{% include src.html n="4" %}.
 - Castaing racontait avoir d'abord été « bien moins convaincu » que Boudy par un turbo fonctionnant au carburant du commerce{% include src.html n="3" %}.
 - Avec [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}), il travaille à la version turbo du V6, qui donne l'Alpine A442 de 1975 (GrandPrix.com, 1990){% include src.html n="5" %}, puis, en 1975, au prototype du moteur turbo de F1 de Renault, qui court pour la première fois en 1977 (GrandPrix.com){% include src.html n="1" %}.
 - Dudot résume l'équipe technique des débuts : « François Castaing, Jean-Pierre Boudy et moi-même »{% include src.html n="3" %}.

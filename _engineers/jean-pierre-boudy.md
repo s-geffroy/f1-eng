@@ -40,7 +40,7 @@ Jean-Pierre Boudy was an engine designer at Renault-Gordini, then at Peugeot{% i
 ## At Renault-Gordini
 
 - Born in the Dordogne in July 1944 (at Terrasson-Lavilledieu, on the 31st, according to OldRacingCars.com) and trained at the Arts et Métiers schools (Bordeaux, then Paris), he joined Gordini on graduating in 1969 (GrandPrix.com){% include src.html n="1,11" %}.
-- In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines{% include src.html n="3" %}. The 270bhp V6 CH1 went into Alpine's 1973 car{% include src.html n="4" %}.
+- In 1972, Castaing and Boudy designed a 2-litre 90-degree V6 for European sports-prototype racing; according to Motor Sport, this same engine was the basis for all of Renault's F1 turbo engines{% include src.html n="3" %}. The 270 bhp V6 CH1 went into Alpine's 1973 car{% include src.html n="4" %}.
 - Castaing recalled that he was initially "far less convinced" than Boudy about a turbo running on pump fuel{% include src.html n="3" %}.
 - With [Bernard Dudot]({{ site.baseurl }}{% link _engineers/bernard-dudot.md %}), he worked on the turbo version of the V6 that produced the 1975 Alpine A442 (GrandPrix.com, 1990){% include src.html n="5" %}, then, in 1975, on the prototype Renault F1 turbo engine, which first raced in 1977 (GrandPrix.com){% include src.html n="1" %}.
 - Dudot summed up the early technical team: "Francois Castaing, Jean-Pierre Boudy and myself"{% include src.html n="3" %}.

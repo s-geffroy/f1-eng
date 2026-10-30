@@ -57,7 +57,7 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 - Ancien élève de l'Imperial College, il entre en 1957 chez Lotus comme ingénieur de développement des transmissions, et part au bout de quelques mois{% include src.html n="2,3" %}.
 - Il fonde Cosworth en 1958 avec [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}), que [Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) retient par contrat chez Lotus jusqu'en 1962{% include src.html n="2,3" %}.
 - Sa reprise du moteur Ford 105E domine la Formule Junior{% include src.html n="3" %}. Conçu en 1966, le quatre cylindres FVA, sa première conception partant d'une feuille blanche selon Motor Sport, gagne dès sa première course de Formule 2, à Snetterton en mars 1967, et domine la catégorie pendant cinq saisons{% include src.html n="3,8,9" %}.
-- À l'automne 1965, Ford commande à Cosworth deux moteurs de course et finance le développement du [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) à hauteur de 100 000 livres{% include src.html n="2,4" %}. Le moteur annonce plus de 400ch à 9000tr/min{% include src.html n="4" %}.
+- À l'automne 1965, Ford commande à Cosworth deux moteurs de course et finance le développement du [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) à hauteur de 100 000 livres{% include src.html n="2,4" %}. Le moteur annonce plus de 400 ch à 9 000 tr/min{% include src.html n="4" %}.
 - Il vend Cosworth à UEI en 1980 ; Costin lui succède à la présidence en 1988{% include src.html n="3" %}.
 
 ## Pourquoi le Tier A

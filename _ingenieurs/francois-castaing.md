@@ -14,7 +14,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-2024/38/renault-blew-it-the-pioneering-f1-turbo-that-failed-prost-in-title-bid/"
   - titre: "Motor Sport Magazine, « Renault-Alpine's 1978 Le Mans 24 Hours win: All for one » (juin 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2003/29/all-for-one/"
-  - titre: "Joe Saward, GrandPrix.com, « Interview : Bernard Dudot » (1990)"
+  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1990)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
 portrait:
   fichier: "/assets/portraits/francois-castaing.jpg"
@@ -33,7 +33,7 @@ François Castaing est, avec Jean-Pierre Boudy, l'ingénieur du **V6 dont dériv
 ## Parcours technique
 
 - Encore étudiant, il fait des travaux de recherche pour Gordini ; en 1968, il y est embauché, et son premier travail porte sur les moteurs des 24 Heures du Mans de cette année-là{% include src.html n="1" %}.
-- En 1972, avec [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}), il conçoit un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de 2 litres ouvert à 90°{% include src.html n="2" %}. Ce V6 CH1, de 270ch, équipe la barquette Alpine de 1973{% include src.html n="3" %} ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault{% include src.html n="2" %}.
+- En 1972, avec [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}), il conçoit un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) de 2 litres ouvert à 90°{% include src.html n="2" %}. Ce V6 CH1, de 270 ch, équipe la barquette Alpine de 1973{% include src.html n="3" %} ; selon Motor Sport, ce même moteur est la base de tous les moteurs turbo de F1 de Renault{% include src.html n="2" %}.
 - Directeur technique de Renault Sport, il soutient le programme d'endurance qui mène à la victoire au Mans en 1978{% include src.html n="1,3" %}.
 - Il est la cheville ouvrière du programme F1 jusqu'à la première victoire, au Grand Prix de France 1979{% include src.html n="1" %}, puis quitte Renault Sport pendant l'intersaison 1979-1980{% include src.html n="2" %} ; [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) lui succède{% include src.html n="4" %}.
 - Après Renault, il passe chez AMC puis chez Chrysler, dont il dirige la conception à partir de 1988{% include src.html n="1" %}.

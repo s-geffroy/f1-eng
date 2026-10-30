@@ -1,0 +1,8 @@
+{%- comment -%}
+  Entier avec séparateur de milliers selon la langue : {% include nombre.html n=1149 %} -> « 1 149 » (fr), « 1,149 » (en).
+{%- endcomment -%}
+{%- assign n_nb = include.n | plus: 0 -%}
+{%- if n_nb >= 1000 -%}
+{%- assign r_nb = n_nb | modulo: 1000 | prepend: "00" | slice: -3, 3 -%}
+{{ n_nb | divided_by: 1000 }}{% if page.lang == "en" %},{% else %} {% endif %}{{ r_nb }}
+{%- else -%}{{ n_nb }}{%- endif -%}

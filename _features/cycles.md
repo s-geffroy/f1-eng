@@ -19,7 +19,7 @@ The measures are those of the [Dominance feature]({{ site.baseurl }}/en/features
 
 - **New regulations almost always change the leader.** The team that wins most in the last season of a cycle stays ahead at the start of the next only 2 times out of 10: McLaren in 1989 and Red Bull in 2022.
 - **The first season does not tell who will dominate.** It points to the cycle's dominant team 5 times out of 11. Brawn in 2009, Benetton in 1994 and Mercedes-Benz in 1954 lead the first season, then fade.
-- **Recent cycles are the most locked.** Since 2009, the dominant team wins at least half the races of its cycle. The two longest cycles, 1954-1960 and 1966-1982, are the most open: their dominant team wins only a fifth of them.
+- **Recent cycles are the most locked.** Since 2009, the dominant team wins at least half the races of its cycle. The two most open cycles in this respect are 1954-1960 and 1966-1982: their dominant team wins only a fifth of them.
 - **A cycle can belong to an engine maker rather than a team.** From 1966 to 1982, no team wins more than 21% of the races, but Ford engines win 66% of them.
 
 Contents
@@ -51,7 +51,7 @@ The cycles are of very unequal length, from two to seventeen seasons. Smaller ru
 Two families of cycles emerge.
 
 - **Locked cycles.** Ferrari wins 82% of the races of the Formula Two championship (1952-1953), Mercedes 69% of those of the hybrid power unit (2014-2021), Alfa Romeo 67% of the first two seasons. Red Bull wins 60% of the races of the return of ground effect (2022-2025) and half of those of the aerodynamic overhaul (2009-2013).
-- **Open cycles.** From 1954 to 1960, Ferrari wins only 21% of the races, and ten teams win at least once. From 1966 to 1982, Lotus wins as many, and eighteen teams win. These are the two longest cycles: rules that last give the chasers time to catch the leader.
+- **Open cycles.** From 1954 to 1960, Ferrari wins only 21% of the races, and ten teams win at least once. From 1966 to 1982, Lotus wins as many, and eighteen teams win. 1966-1982 is the longest of all the cycles: rules that last give the chasers time to catch the leader.
 
 The 3-litre cycle also shows that a cycle can be decided elsewhere than between teams. No team dominates it, but Ford engines, including the [Cosworth DFV]({{ site.baseurl }}/en/timeline/#j-dfv) sold to all, win 66% of the races. Likewise, the Climax engine wins 53% of the races of the 1.5-litre formula (1961-1965).
 
@@ -63,7 +63,7 @@ The 3-litre cycle also shows that a cycle can be decided elsewhere than between 
 - **Elsewhere, the dominant team takes the lead after one or two seasons**, after a first leader that fades: Mercedes-Benz in 1954, Ferrari in 1961, Brabham in 1966, Ferrari in 1983, Brawn in 2009. The extreme case is the 1994-2008 cycle: Benetton, Williams and McLaren lead in turn, and Ferrari only takes the lead in 2000, six seasons into the cycle.
 - **Once ahead, the dominant team stays there a long time** in recent cycles: Mercedes leads seven seasons out of eight from 2014 to 2021, Red Bull four out of five from 2009 to 2013. In the 1966-1982 cycle, Lotus leads only seven seasons out of seventeen, alternating with seven other teams.
 
-The "Concentration" column gives the Herfindahl index of the cycle's wins: the sum of the squares of each team's share of wins, out of 100. It is 100 if a single team wins everything, and the lower the more the wins are spread. It ranges from {{ CY | map: "hhi" | sort | first | times: 100 | round }}, for the 1966-1982 cycle, to {{ CY | map: "hhi" | sort | last | times: 100 | round }}, for the Formula Two championship.
+The "Concentration" column gives the Herfindahl index of the cycle's wins: the sum of the squares of each team's share of wins, out of 100. It is 100 if a single team wins everything, and the more widely the wins are spread, the lower it is. It ranges from {{ CY | map: "hhi" | sort | first | times: 100 | round }}, for the 1966-1982 cycle, to {{ CY | map: "hhi" | sort | last | times: 100 | round }}, for the Formula Two championship.
 
 The [Indicators feature]({{ site.baseurl }}/en/features/indicateurs/) tracks the same concentration season by season, as an effective number of winning teams.
 
@@ -71,12 +71,12 @@ The [Indicators feature]({{ site.baseurl }}/en/features/indicateurs/) tracks the
 
 Of the ten handovers from one cycle to the next, the team leading the last season stays ahead only twice:
 
-- **McLaren from 1988 to 1989**, from the end of the restricted turbo to the 3.5-litre normally aspirated engine. It goes from 94% to 62% of wins, and stays ahead.
+- **McLaren from 1988 to 1989**, from the end of the restricted turbo to the 3.5-litre normally aspirated engine. It goes from 94% to 63% of wins, and stays ahead.
 - **Red Bull from 2021 to 2022**, from the hybrid power unit to the return of ground effect. It goes from 50% to 77% of wins.
 
 The other eight times, the leader is dethroned, often abruptly. Ferrari goes from 78% of wins in 1953 to 22% in 1954. Cooper, from 60% in 1960 to no wins in 1961. Lotus, from 60% in 1965 to 11% in 1966. Red Bull, from 68% in 2013 to 16% in 2014.
 
-This is the finding of the fourth comparison in the [Dominance feature]({{ site.baseurl }}/en/features/domination/#regulations): new regulations reshuffle the pack. At the scale of the major cycles, the effect is clearer still. A reset almost always costs the outgoing leader its place; the only question is who will take advantage of it.
+The fourth comparison in the [Dominance feature]({{ site.baseurl }}/en/features/domination/#regulations) points the same way, season by season, without reaching the 5% threshold: the leading team changes more often in a season with new regulations, but the gap could still be down to chance. At the scale of the major cycles, the effect is much clearer. A reset almost always costs the outgoing leader its place; the only question is who will take advantage of it.
 
 ## Method and limits
 

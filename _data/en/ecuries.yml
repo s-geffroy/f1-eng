@@ -6,13 +6,13 @@ motoristes:
   - lieu: Maranello (Italy)
     lieux:
     - maranello
-    de: 1950
-    a: 2026
-    periode: 1950–2026
+    de: 2001
+    a: 2001
+    periode: '2001'
     sources:
     - titre: Ferrari N.V., “Annual Report 2018” (2019)
       url: https://cdn.ferrari.com/cms/network/media/pdf/2018-Annual-Report.pdf
-    - titre: Grandprix.com, “Prost name engine ACER” (February 2001)
+    - titre: GrandPrix.com, “Prost name engine ACER” (February 2001)
       url: https://www.grandprix.com/news/prost-name-engine-acer.html
 - id: alfa-romeo
   nom: Alfa Romeo
@@ -34,7 +34,7 @@ motoristes:
     a: 1987
     periode: 1976–1987
     sources:
-    - titre: Grandprix.com, encyclopedia, “Carlo Chiti”
+    - titre: GrandPrix.com, encyclopedia, “Carlo Chiti”
       url: https://grandprix.com/people/carlo-chiti.html
 - id: alta
   nom: Alta
@@ -56,13 +56,13 @@ motoristes:
   - lieu: Vélizy-Villacoublay (France)
     lieux:
     - velizy-villacoublay
-    de: 1994
+    de: 2001
     a: 2002
-    periode: 1994–2002
+    periode: 2001–2002
     sources:
-    - titre: Grandprix.com, Joe Saward, “Peugeot's F1 plans” (December 1993)
+    - titre: GrandPrix.com, Joe Saward, “Peugeot's F1 plans” (December 1993)
       url: https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html
-    - titre: Grandprix.com, “Who or what is Asiatech?” (December 2000)
+    - titre: GrandPrix.com, “Who or what is Asiatech?” (December 2000)
       url: https://www.grandprix.com/news/who-or-what-is-asiatech.html
 - id: aston-martin
   nom: Aston Martin
@@ -76,7 +76,7 @@ motoristes:
     a: 1967
     periode: 1963–1967
     sources:
-    - titre: Grandprix.com, encyclopedia, “ATS (Automobili Turismo e Sport)”
+    - titre: GrandPrix.com, encyclopedia, “ATS (Automobili Turismo e Sport)”
       url: https://www.grandprix.com/constructors/ats-automobili-turismo-e-sport.html
 - id: audi
   nom: Audi
@@ -98,12 +98,12 @@ motoristes:
     lieux:
     - munich
     de: 1982
-    a: 1988
-    periode: 1982–1988
+    a: 1987
+    periode: 1982–1987
     sources:
     - titre: 'auto motor und sport, Michael Schmidt, “Formel 1: 1.430 PS! So baute BMW den stärksten F1-Motor aller Zeiten” (April 2026)'
       url: https://www.auto-motor-und-sport.de/formel-1/formel-1-so-baute-bmw-den-staerksten-f1-motor-aller-zeiten/
-    - titre: Grandprix.com, encyclopedia, “Megatron”
+    - titre: GrandPrix.com, encyclopedia, “Megatron”
       url: https://www.grandprix.com/engines/megatron.html
   - lieu: Munich (Germany)
     lieux:
@@ -112,9 +112,9 @@ motoristes:
     a: 2009
     periode: 2000–2009
     sources:
-    - titre: Grandprix.com, “Montoya delight with new BMW engine bodes well for new Williams” (January 2002)
+    - titre: GrandPrix.com, “Montoya delight with new BMW engine bodes well for new Williams” (January 2002)
       url: https://www.grandprix.com/news/montoya-delight-with-new-bmw-engine-bodes-well-for-new-williams.html
-    - titre: Grandprix.com, encyclopedia, “BMW Sauber”
+    - titre: GrandPrix.com, encyclopedia, “BMW Sauber”
       url: https://www.grandprix.com/constructors/bmw-sauber.html
 - id: borgward
   nom: Borgward
@@ -128,7 +128,7 @@ motoristes:
     a: 1957
     periode: 1952–1957
     sources:
-    - titre: Grandprix.com, encyclopedia, “Bristol Cars Ltd.”
+    - titre: GrandPrix.com, encyclopedia, “Bristol Cars Ltd.”
       url: https://www.grandprix.com/engines/bristol-cars-ltd.html
 - id: brm
   nom: BRM
@@ -141,7 +141,7 @@ motoristes:
     a: 1977
     periode: 1951–1977
     sources:
-    - titre: Grandprix.com, encyclopedia, “BRM (British Racing Motors)”
+    - titre: GrandPrix.com, encyclopedia, “BRM (British Racing Motors)”
       url: https://www.grandprix.com/engines/brm-british-racing-motors-2.html
 - id: castellotti
   nom: Castellotti
@@ -156,7 +156,7 @@ motoristes:
     a: 1965
     periode: 1957–1965
     sources:
-    - titre: Grandprix.com, encyclopedia, “Coventry Climax Ltd.”
+    - titre: GrandPrix.com, encyclopedia, “Coventry Climax Ltd.”
       url: https://www.grandprix.com/engines/coventry-climax-ltd.html
 - id: cosworth
   nom: Cosworth
@@ -169,7 +169,7 @@ motoristes:
     a: 2013
     periode: 1967–2013
     sources:
-    - titre: Grandprix.com, encyclopedia, “Cosworth Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Cosworth Engineering”
       url: https://www.grandprix.com/engines/cosworth-engineering.html
     - titre: 'Hagerty UK, Tim Sawyer, “Cosworth: Visiting a Legend” (December 2015)'
       url: https://www.hagerty.co.uk/articles/cosworth-visiting-a-legend/
@@ -190,7 +190,7 @@ motoristes:
     sources:
     - titre: Ferrari N.V., “Annual Report 2018” (2019)
       url: https://cdn.ferrari.com/cms/network/media/pdf/2018-Annual-Report.pdf
-    - titre: Grandprix.com, “Prost name engine ACER” (February 2001)
+    - titre: GrandPrix.com, “Prost name engine ACER” (February 2001)
       url: https://www.grandprix.com/news/prost-name-engine-acer.html
 - id: fondmetal
   nom: Fondmetal
@@ -202,10 +202,10 @@ motoristes:
     lieux:
     - northampton
     de: 1967
-    a: 2013
-    periode: 1967–2013
+    a: 2004
+    periode: 1967–2004
     sources:
-    - titre: Grandprix.com, encyclopedia, “Cosworth Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Cosworth Engineering”
       url: https://www.grandprix.com/engines/cosworth-engineering.html
     - titre: 'Hagerty UK, Tim Sawyer, “Cosworth: Visiting a Legend” (December 2015)'
       url: https://www.hagerty.co.uk/articles/cosworth-visiting-a-legend/
@@ -221,7 +221,7 @@ motoristes:
     sources:
     - titre: Autosport, Edd Straw, “F1 engine builder Brian Hart obituary 1936-2014” (January 2014)
       url: https://www.autosport.com/f1/news/f1-engine-builder-brian-hart-obituary-1936-2014-4471651/4471651/
-    - titre: Grandprix.com, “The story of Arrows” (December 2002)
+    - titre: GrandPrix.com, “The story of Arrows” (December 2002)
       url: https://www.grandprix.com/news/the-story-of-arrows.html
 - id: honda
   nom: Honda
@@ -236,7 +236,7 @@ motoristes:
     sources:
     - titre: Honda, “Outline of the 2002 Honda Formula 1 Grand Prix Challenge” (February 2002)
       url: https://global.honda/en/newsroom/news/2002/e020225-eng.html
-    - titre: Grandprix.com, “Honda runs 2005 V10” (June 2004)
+    - titre: GrandPrix.com, “Honda runs 2005 V10” (June 2004)
       url: https://www.grandprix.com/news/honda-runs-2005-v10.html
     - titre: Honda, “Old Drawings Tell the Story Behind Honda's F1 Journey”
       url: https://global.honda/en/tech/motorsports/Formula-1/challenges_F1_old_drawings/
@@ -275,9 +275,9 @@ motoristes:
   - lieu: Sakura (Japan)
     lieux:
     - sakura
-    de: 2022
-    a: 2022
-    periode: '2022'
+    de: 2023
+    a: 2025
+    periode: 2023–2025
     sources:
     - titre: Autosport, Luke Smith, “Honda's Sakura facility will supply Red Bull F1 engines in 2022” (July 2021)
       url: https://www.autosport.com/f1/news/hondas-sakura-facility-will-supply-red-bull-f1-engines-in-2022/6624598/
@@ -294,12 +294,12 @@ motoristes:
     lieux:
     - brixworth
     de: 1991
-    a: 2026
-    periode: 1991–2026
+    a: 1994
+    periode: 1991–1994
     sources:
-    - titre: Grandprix.com, encyclopedia, “Ilmor Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Ilmor Engineering”
       url: https://www.grandprix.com/engines/ilmor-engineering.html
-    - titre: Grandprix.com, encyclopedia, “Sauber”
+    - titre: GrandPrix.com, encyclopedia, “Sauber”
       url: https://www.grandprix.com/engines/sauber-2.html
     - titre: Mercedes-AMG Petronas F1 Team, “Brixworth”
       url: https://www.mercedesamgf1.com/team/location/brixworth
@@ -316,9 +316,9 @@ motoristes:
     a: 1997
     periode: 1988–1997
     sources:
-    - titre: Grandprix.com, encyclopedia, “Yamaha Motor”
+    - titre: GrandPrix.com, encyclopedia, “Yamaha Motor”
       url: https://www.grandprix.com/engines/yamaha-motor.html
-    - titre: Grandprix.com, encyclopedia, “Engine Developments Ltd.”
+    - titre: GrandPrix.com, encyclopedia, “Engine Developments Ltd.”
       url: https://www.grandprix.com/engines/engine-developments-ltd.html
 - id: lamborghini
   nom: Lamborghini
@@ -332,7 +332,7 @@ motoristes:
     sources:
     - titre: Automobili Lamborghini, “History - Motorsport”
       url: https://www.lamborghini.com/en-en/history/motorsport
-    - titre: Grandprix.com, encyclopedia, “Lamborghini Engineering SpA”
+    - titre: GrandPrix.com, encyclopedia, “Lamborghini Engineering SpA”
       url: https://www.grandprix.com/engines/lamborghini-engineering-spa.html
 - id: lancia
   nom: Lancia
@@ -356,7 +356,7 @@ motoristes:
     a: 1954
     periode: 1952–1954
     sources:
-    - titre: Grandprix.com, encyclopedia, “Lea-Francis”
+    - titre: GrandPrix.com, encyclopedia, “Lea-Francis”
       url: https://www.grandprix.com/engines/lea-francis.html
 - id: maserati
   nom: Maserati
@@ -371,7 +371,7 @@ motoristes:
     sources:
     - titre: 'Motor Sport, Nigel Trow, “Belle macchine: the biography of Maserati” (January 2021)'
       url: https://www.motorsportmagazine.com/archive/article/january-2021/92/belle-macchine-the-biography-of-maserati/
-    - titre: Grandprix.com, encyclopedia, “Officine Specializate Costruzione Automobili”
+    - titre: GrandPrix.com, encyclopedia, “Officine Specializate Costruzione Automobili”
       url: https://www.grandprix.com/engines/officine-specializate-costruzione-automobili.html
 - id: matra
   nom: Matra
@@ -383,9 +383,9 @@ motoristes:
     a: 1982
     periode: 1968–1982
     sources:
-    - titre: Grandprix.com, encyclopedia, “Matra Sports SARL”
+    - titre: GrandPrix.com, encyclopedia, “Matra Sports SARL”
       url: https://www.grandprix.com/constructors/matra-sports-sarl.html
-    - titre: Grandprix.com, encyclopedia, “Matra Sports”
+    - titre: GrandPrix.com, encyclopedia, “Matra Sports”
       url: https://www.grandprix.com/engines/matra-sports.html
 - id: mecachrome
   nom: Mecachrome
@@ -394,14 +394,14 @@ motoristes:
     lieux:
     - aubigny-sur-nere
     de: 1998
-    a: 2000
-    periode: 1998–2000
+    a: 1998
+    periode: '1998'
     sources:
-    - titre: Grandprix.com, Joe Saward, “Mecachrome” (January 1998)
+    - titre: GrandPrix.com, Joe Saward, “Mecachrome” (January 1998)
       url: https://www.grandprix.com/features/joe-saward/news-feature-mecachrome.html
-    - titre: Grandprix.com, encyclopedia, “Mecachrome SA”
+    - titre: GrandPrix.com, encyclopedia, “Mecachrome SA”
       url: https://www.grandprix.com/engines/mecachrome-sa.html
-    - titre: Grandprix.com, encyclopedia, “Supertec”
+    - titre: GrandPrix.com, encyclopedia, “Supertec”
       url: https://www.grandprix.com/engines/supertec.html
 - id: megatron
   nom: Megatron
@@ -409,25 +409,14 @@ motoristes:
   - lieu: Munich (Germany)
     lieux:
     - munich
-    de: 1982
+    de: 1987
     a: 1988
-    periode: 1982–1988
+    periode: 1987–1988
     sources:
     - titre: 'auto motor und sport, Michael Schmidt, “Formel 1: 1.430 PS! So baute BMW den stärksten F1-Motor aller Zeiten” (April 2026)'
       url: https://www.auto-motor-und-sport.de/formel-1/formel-1-so-baute-bmw-den-staerksten-f1-motor-aller-zeiten/
-    - titre: Grandprix.com, encyclopedia, “Megatron”
+    - titre: GrandPrix.com, encyclopedia, “Megatron”
       url: https://www.grandprix.com/engines/megatron.html
-  - lieu: Munich (Germany)
-    lieux:
-    - munich
-    de: 2000
-    a: 2009
-    periode: 2000–2009
-    sources:
-    - titre: Grandprix.com, “Montoya delight with new BMW engine bodes well for new Williams” (January 2002)
-      url: https://www.grandprix.com/news/montoya-delight-with-new-bmw-engine-bodes-well-for-new-williams.html
-    - titre: Grandprix.com, encyclopedia, “BMW Sauber”
-      url: https://www.grandprix.com/constructors/bmw-sauber.html
 - id: mercedes
   nom: Mercedes
   couleur: 8
@@ -435,13 +424,13 @@ motoristes:
   - lieu: Brixworth (Northamptonshire)
     lieux:
     - brixworth
-    de: 1991
+    de: 1994
     a: 2026
-    periode: 1991–2026
+    periode: 1994–2026
     sources:
-    - titre: Grandprix.com, encyclopedia, “Ilmor Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Ilmor Engineering”
       url: https://www.grandprix.com/engines/ilmor-engineering.html
-    - titre: Grandprix.com, encyclopedia, “Sauber”
+    - titre: GrandPrix.com, encyclopedia, “Sauber”
       url: https://www.grandprix.com/engines/sauber-2.html
     - titre: Mercedes-AMG Petronas F1 Team, “Brixworth”
       url: https://www.mercedesamgf1.com/team/location/brixworth
@@ -455,7 +444,7 @@ motoristes:
     a: 1987
     periode: 1985–1987
     sources:
-    - titre: Grandprix.com, encyclopedia, “Motori Moderni SpA”
+    - titre: GrandPrix.com, encyclopedia, “Motori Moderni SpA”
       url: https://www.grandprix.com/engines/motori-moderni-spa.html
 - id: mugen-honda
   nom: Mugen Honda
@@ -467,7 +456,7 @@ motoristes:
     a: 2000
     periode: 1992–2000
     sources:
-    - titre: Grandprix.com, encyclopedia, “Mugen Company Ltd.”
+    - titre: GrandPrix.com, encyclopedia, “Mugen Company Ltd.”
       url: https://www.grandprix.com/engines/mugen-company-ltd.html
 - id: novi
   nom: Novi
@@ -483,7 +472,7 @@ motoristes:
     a: 1961
     periode: 1951–1961
     sources:
-    - titre: Grandprix.com, encyclopedia, “Officine Specializate Costruzione Automobili”
+    - titre: GrandPrix.com, encyclopedia, “Officine Specializate Costruzione Automobili”
       url: https://www.grandprix.com/engines/officine-specializate-costruzione-automobili.html
 - id: osella
   nom: Osella
@@ -497,7 +486,7 @@ motoristes:
     a: 2005
     periode: 1997–2005
     sources:
-    - titre: Grandprix.com, encyclopedia, “Sauber Petronas Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Sauber Petronas Engineering”
       url: https://www.grandprix.com/engines/sauber-petronas-engineering.html
   - lieu: Hinwil (Switzerland)
     lieux:
@@ -506,7 +495,7 @@ motoristes:
     a: 2005
     periode: 1997–2005
     sources:
-    - titre: Grandprix.com, encyclopedia, “Sauber Petronas Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Sauber Petronas Engineering”
       url: https://www.grandprix.com/engines/sauber-petronas-engineering.html
 - id: peugeot
   nom: Peugeot
@@ -515,12 +504,12 @@ motoristes:
     lieux:
     - velizy-villacoublay
     de: 1994
-    a: 2002
-    periode: 1994–2002
+    a: 2000
+    periode: 1994–2000
     sources:
-    - titre: Grandprix.com, Joe Saward, “Peugeot's F1 plans” (December 1993)
+    - titre: GrandPrix.com, Joe Saward, “Peugeot's F1 plans” (December 1993)
       url: https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html
-    - titre: Grandprix.com, “Who or what is Asiatech?” (December 2000)
+    - titre: GrandPrix.com, “Who or what is Asiatech?” (December 2000)
       url: https://www.grandprix.com/news/who-or-what-is-asiatech.html
 - id: playlife
   nom: Playlife
@@ -532,11 +521,11 @@ motoristes:
     a: 2000
     periode: 1998–2000
     sources:
-    - titre: Grandprix.com, Joe Saward, “Mecachrome” (January 1998)
+    - titre: GrandPrix.com, Joe Saward, “Mecachrome” (January 1998)
       url: https://www.grandprix.com/features/joe-saward/news-feature-mecachrome.html
-    - titre: Grandprix.com, encyclopedia, “Mecachrome SA”
+    - titre: GrandPrix.com, encyclopedia, “Mecachrome SA”
       url: https://www.grandprix.com/engines/mecachrome-sa.html
-    - titre: Grandprix.com, encyclopedia, “Supertec”
+    - titre: GrandPrix.com, encyclopedia, “Supertec”
       url: https://www.grandprix.com/engines/supertec.html
 - id: porsche
   nom: Porsche
@@ -548,9 +537,9 @@ motoristes:
     a: 1991
     periode: 1983–1991
     sources:
-    - titre: Grandprix.com, encyclopedia, “Hans Mezger”
+    - titre: GrandPrix.com, encyclopedia, “Hans Mezger”
       url: https://www.grandprix.com/gpe/cref-mezhan.html
-    - titre: Grandprix.com, encyclopedia, “TAG Turbo Engines”
+    - titre: GrandPrix.com, encyclopedia, “TAG Turbo Engines”
       url: https://www.grandprix.com/engines/tag-turbo-engines.html
 - id: pratt-and-whitney
   nom: Pratt & Whitney
@@ -595,13 +584,13 @@ motoristes:
     a: 2025
     periode: 1977–2025
     sources:
-    - titre: Grandprix.com, encyclopedia, “Renault (Automobiles Renault)”
+    - titre: GrandPrix.com, encyclopedia, “Renault (Automobiles Renault)”
       url: https://www.grandprix.com/engines/renault-automobiles-renault.html
     - titre: F1Technical, “Viry celebrates 30 years in F1” (December 2006)
       url: https://www.f1technical.net/news/4462
     - titre: The Race, Josh Suttill, “Renault to end F1 engine programme ahead of Mercedes switch” (September 2024)
       url: https://www.the-race.com/formula-1/renault-to-stop-f1-engine-programme-after-2025-mercedes-switch/
-    - titre: Grandprix.com, “Red Bull confirms Tag Heuer-branded Renault engines” (December 2015)
+    - titre: GrandPrix.com, “Red Bull confirms Tag Heuer-branded Renault engines” (December 2015)
       url: https://www.grandprix.com/news/red-bull-confirms-tag-heuer-branded-renault-engines.html
   - lieu: Aubigny-sur-Nère (France)
     lieux:
@@ -610,9 +599,9 @@ motoristes:
     a: 1997
     periode: 1983–1997
     sources:
-    - titre: Grandprix.com, encyclopedia, “Mecachrome SA”
+    - titre: GrandPrix.com, encyclopedia, “Mecachrome SA”
       url: https://www.grandprix.com/engines/mecachrome-sa.html
-    - titre: Grandprix.com, “Tyrrell turns down BAT offer” (June 1997)
+    - titre: GrandPrix.com, “Tyrrell turns down BAT offer” (June 1997)
       url: https://www.grandprix.com/news/tyrrell-turns-down-bat-offer.html
 - id: repco
   nom: Repco
@@ -624,7 +613,7 @@ motoristes:
     a: 1969
     periode: 1966–1969
     sources:
-    - titre: Grandprix.com, encyclopedia, “Repco”
+    - titre: GrandPrix.com, encyclopedia, “Repco”
       url: https://www.grandprix.com/engines/repco.html
     - titre: Autosport, Damien Smith, “The astute engine call behind Brabham's unique F1 feat” (May 2022)
       url: https://www.autosport.com/f1/news/the-astute-engine-call-behind-brabhams-unique-f1-feat/10311980/
@@ -634,13 +623,13 @@ motoristes:
   - lieu: Brixworth (Northamptonshire)
     lieux:
     - brixworth
-    de: 1991
-    a: 2026
-    periode: 1991–2026
+    de: 1993
+    a: 1993
+    periode: '1993'
     sources:
-    - titre: Grandprix.com, encyclopedia, “Ilmor Engineering”
+    - titre: GrandPrix.com, encyclopedia, “Ilmor Engineering”
       url: https://www.grandprix.com/engines/ilmor-engineering.html
-    - titre: Grandprix.com, encyclopedia, “Sauber”
+    - titre: GrandPrix.com, encyclopedia, “Sauber”
       url: https://www.grandprix.com/engines/sauber-2.html
     - titre: Mercedes-AMG Petronas F1 Team, “Brixworth”
       url: https://www.mercedesamgf1.com/team/location/brixworth
@@ -654,15 +643,15 @@ motoristes:
   - lieu: Aubigny-sur-Nère (France)
     lieux:
     - aubigny-sur-nere
-    de: 1998
+    de: 1999
     a: 2000
-    periode: 1998–2000
+    periode: 1999–2000
     sources:
-    - titre: Grandprix.com, Joe Saward, “Mecachrome” (January 1998)
+    - titre: GrandPrix.com, Joe Saward, “Mecachrome” (January 1998)
       url: https://www.grandprix.com/features/joe-saward/news-feature-mecachrome.html
-    - titre: Grandprix.com, encyclopedia, “Mecachrome SA”
+    - titre: GrandPrix.com, encyclopedia, “Mecachrome SA”
       url: https://www.grandprix.com/engines/mecachrome-sa.html
-    - titre: Grandprix.com, encyclopedia, “Supertec”
+    - titre: GrandPrix.com, encyclopedia, “Supertec”
       url: https://www.grandprix.com/engines/supertec.html
 - id: tag
   nom: TAG
@@ -671,12 +660,12 @@ motoristes:
     lieux:
     - weissach
     de: 1983
-    a: 1991
-    periode: 1983–1991
+    a: 1987
+    periode: 1983–1987
     sources:
-    - titre: Grandprix.com, encyclopedia, “Hans Mezger”
+    - titre: GrandPrix.com, encyclopedia, “Hans Mezger”
       url: https://www.grandprix.com/gpe/cref-mezhan.html
-    - titre: Grandprix.com, encyclopedia, “TAG Turbo Engines”
+    - titre: GrandPrix.com, encyclopedia, “TAG Turbo Engines”
       url: https://www.grandprix.com/engines/tag-turbo-engines.html
 - id: tag-heuer
   nom: TAG Heuer
@@ -684,29 +673,18 @@ motoristes:
   - lieu: Viry-Châtillon (France)
     lieux:
     - viry-chatillon
-    de: 1977
-    a: 2025
-    periode: 1977–2025
+    de: 2016
+    a: 2018
+    periode: 2016–2018
     sources:
-    - titre: Grandprix.com, encyclopedia, “Renault (Automobiles Renault)”
+    - titre: GrandPrix.com, encyclopedia, “Renault (Automobiles Renault)”
       url: https://www.grandprix.com/engines/renault-automobiles-renault.html
     - titre: F1Technical, “Viry celebrates 30 years in F1” (December 2006)
       url: https://www.f1technical.net/news/4462
     - titre: The Race, Josh Suttill, “Renault to end F1 engine programme ahead of Mercedes switch” (September 2024)
       url: https://www.the-race.com/formula-1/renault-to-stop-f1-engine-programme-after-2025-mercedes-switch/
-    - titre: Grandprix.com, “Red Bull confirms Tag Heuer-branded Renault engines” (December 2015)
+    - titre: GrandPrix.com, “Red Bull confirms Tag Heuer-branded Renault engines” (December 2015)
       url: https://www.grandprix.com/news/red-bull-confirms-tag-heuer-branded-renault-engines.html
-  - lieu: Aubigny-sur-Nère (France)
-    lieux:
-    - aubigny-sur-nere
-    de: 1983
-    a: 1997
-    periode: 1983–1997
-    sources:
-    - titre: Grandprix.com, encyclopedia, “Mecachrome SA”
-      url: https://www.grandprix.com/engines/mecachrome-sa.html
-    - titre: Grandprix.com, “Tyrrell turns down BAT offer” (June 1997)
-      url: https://www.grandprix.com/news/tyrrell-turns-down-bat-offer.html
 - id: tecno
   nom: Tecno
 - id: toyota
@@ -719,7 +697,7 @@ motoristes:
     a: 2009
     periode: 2002–2009
     sources:
-    - titre: Grandprix.com, “Toyota runs its V10 for the first time” (September 2000)
+    - titre: GrandPrix.com, “Toyota runs its V10 for the first time” (September 2000)
       url: https://www.grandprix.com/news/toyota-runs-its-v10-for-the-first-time.html
 - id: vanwall
   nom: Vanwall
@@ -741,13 +719,13 @@ motoristes:
   - lieu: Rugby (Warwickshire)
     lieux:
     - rugby
-    de: 1988
+    de: 1993
     a: 1997
-    periode: 1988–1997
+    periode: 1993–1997
     sources:
-    - titre: Grandprix.com, encyclopedia, “Yamaha Motor”
+    - titre: GrandPrix.com, encyclopedia, “Yamaha Motor”
       url: https://www.grandprix.com/engines/yamaha-motor.html
-    - titre: Grandprix.com, encyclopedia, “Engine Developments Ltd.”
+    - titre: GrandPrix.com, encyclopedia, “Engine Developments Ltd.”
       url: https://www.grandprix.com/engines/engine-developments-ltd.html
 - id: zakspeed
   nom: Zakspeed
@@ -1300,7 +1278,7 @@ saisons:
   ecuries: 11
   constructeurs: mclaren
   constructeurs_cumul: 8
-  pilote: Mika Hakkinen
+  pilote: Mika Häkkinen
   pilote_cumul: 10
   pilote_ecurie: mclaren
   sources:
@@ -1312,7 +1290,7 @@ saisons:
   ecuries: 11
   constructeurs: ferrari
   constructeurs_cumul: 9
-  pilote: Mika Hakkinen
+  pilote: Mika Häkkinen
   pilote_cumul: 11
   pilote_ecurie: mclaren
   sources:
@@ -1676,11 +1654,11 @@ lignees:
     a: 1997
     periode: 1993–1997
     sources:
-    - titre: Grandprix.com, Peter Wright, “John Barnard” (November 1996)
+    - titre: GrandPrix.com, Peter Wright, “John Barnard” (November 1996)
       url: https://www.grandprix.com/features/peter-wright/technical-john-barnard.html
     - titre: Motor Sport, Anthony Rowlinson, “Lord of the black arts” (June 2010)
       url: https://www.motorsportmagazine.com/archive/article/june-2010/56/lord-black-arts
-    - titre: Grandprix.com, Joe Saward, “John Barnard and Alain Prost” (October 1998)
+    - titre: GrandPrix.com, Joe Saward, “John Barnard and Alain Prost” (October 1998)
       url: https://www.grandprix.com/news/john-barnard-and-alain-prost.html
   souffleries:
   - lieu: Casumaro, near Ferrara (Italy) – Fondmetal Technologies
@@ -1691,9 +1669,9 @@ lignees:
     periode: around 1990–1993
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Minardi-Hart M197” (January 1997)
+    - titre: GrandPrix.com, Joe Saward, “Minardi-Hart M197” (January 1997)
       url: https://www.grandprix.com/features/joe-saward/technical-minardi-hart-m197.html
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
   - lieu: Filton, Bristol – British Aerospace (Airbus) tunnel
     lieux:
@@ -1703,13 +1681,13 @@ lignees:
     periode: 1994–1997
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “McLaren and British Aerospace” (February 1997)
+    - titre: GrandPrix.com, Joe Saward, “McLaren and British Aerospace” (February 1997)
       url: https://www.grandprix.com/news/mclaren-and-british-aerospace.html
-    - titre: Grandprix.com, Peter Wright, “John Barnard” (November 1996)
+    - titre: GrandPrix.com, Peter Wright, “John Barnard” (November 1996)
       url: https://www.grandprix.com/features/peter-wright/technical-john-barnard.html
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
-    - titre: Grandprix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
+    - titre: GrandPrix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
       url: https://www.grandprix.com/news/work-begins-at-mclarens-new-base.html
   - lieu: Maranello (Italy) – Ferrari wind tunnel
     lieux:
@@ -1719,9 +1697,9 @@ lignees:
     periode: 1998–2026
     statut: propre
     sources:
-    - titre: Grandprix.com, “...and a new windtunnel” (January 1998)
+    - titre: GrandPrix.com, “...and a new windtunnel” (January 1998)
       url: https://www.grandprix.com/news/and-a-new-windtunnel.html
-    - titre: Grandprix.com, GMM, “Ferrari admits problems with wind tunnel” (July 2013)
+    - titre: GrandPrix.com, GMM, “Ferrari admits problems with wind tunnel” (July 2013)
       url: https://www.grandprix.com/news/ferrari-admits-problems-with-wind-tunnel.html
     - titre: PlanetF1, Matthew Somerfield, “F1’s secret battleground revealed amid preparations for 2026 revolution” (November 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
@@ -1737,7 +1715,7 @@ lignees:
     sources:
     - titre: Autosport, Jonathan Noble, “Ferrari plans wind tunnel upgrade” (May 2011)
       url: https://www.autosport.com/f1/news/ferrari-plans-wind-tunnel-upgrade-4445153/4445153/
-    - titre: Grandprix.com, GMM, “Ferrari admits problems with wind tunnel” (July 2013)
+    - titre: GrandPrix.com, GMM, “Ferrari admits problems with wind tunnel” (July 2013)
       url: https://www.grandprix.com/news/ferrari-admits-problems-with-wind-tunnel.html
     - titre: Autosport, Stuart Codling, “Why Haas F1 won’t use Toyota’s wind tunnel despite technical partnership” (February 2025)
       url: https://www.autosport.com/f1/news/why-haas-f1-wont-use-toyotas-wind-tunnel-despite-technical-partnership/10693467/
@@ -1786,11 +1764,11 @@ lignees:
     sources:
     - titre: Motor Sport, Pablo Elizalde, “The secret wind tunnel test that found flaw in McLaren’s radical F1 car” (September 2026)
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/the-secret-wind-tunnel-test-where-f1-first-met-porpoising/
-    - titre: Grandprix.com, Joe Saward, “McLaren’s base - problems” (June 1996)
+    - titre: GrandPrix.com, Joe Saward, “McLaren’s base - problems” (June 1996)
       url: https://www.grandprix.com/news/mclarens-base-problems.html
-    - titre: Grandprix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
+    - titre: GrandPrix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
       url: https://www.grandprix.com/news/work-begins-at-mclarens-new-base.html
-    - titre: Grandprix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
+    - titre: GrandPrix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
       url: https://www.grandprix.com/news/mclaren-set-to-move-into-new-windtunnel.html
   - lieu: Warton (Lancashire) – British Aerospace
     lieux:
@@ -1800,9 +1778,9 @@ lignees:
     periode: '1997'
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “McLaren and British Aerospace” (February 1997)
+    - titre: GrandPrix.com, Joe Saward, “McLaren and British Aerospace” (February 1997)
       url: https://www.grandprix.com/news/mclaren-and-british-aerospace.html
-    - titre: Grandprix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
+    - titre: GrandPrix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
       url: https://www.grandprix.com/news/mclaren-set-to-move-into-new-windtunnel.html
   - lieu: Woking (Surrey) – Paragon / McLaren Technology Centre tunnel
     lieux:
@@ -1812,11 +1790,11 @@ lignees:
     periode: 2001–around 2010
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
+    - titre: GrandPrix.com, Joe Saward, “McLaren set to move into new windtunnel” (March 2001)
       url: https://www.grandprix.com/news/mclaren-set-to-move-into-new-windtunnel.html
     - titre: The Race, Edd Straw, “The ‘really complicated’ F1 windtunnel steps that await McLaren” (November 2022)
       url: https://www.the-race.com/formula-1/the-really-complicated-f1-windtunnel-steps-that-await-mclaren/
-    - titre: Grandprix.com, GMM, “McLaren to build new wind tunnel” (June 2019)
+    - titre: GrandPrix.com, GMM, “McLaren to build new wind tunnel” (June 2019)
       url: https://www.grandprix.com/news/mclaren-to-build-new-wind-tunnel.html
   - lieu: Cologne (Germany) – Toyota Motorsport GmbH / TGR-E
     lieux:
@@ -1828,7 +1806,7 @@ lignees:
     sources:
     - titre: PlanetF1, Matthew Somerfield, “F1’s secret battleground revealed amid preparations for 2026 revolution” (November 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
-    - titre: Grandprix.com, GMM, “McLaren to build new wind tunnel” (June 2019)
+    - titre: GrandPrix.com, GMM, “McLaren to build new wind tunnel” (June 2019)
       url: https://www.grandprix.com/news/mclaren-to-build-new-wind-tunnel.html
     - titre: The Race, Edd Straw, “The ‘really complicated’ F1 windtunnel steps that await McLaren” (November 2022)
       url: https://www.the-race.com/formula-1/the-really-complicated-f1-windtunnel-steps-that-await-mclaren/
@@ -1928,7 +1906,7 @@ lignees:
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
     - titre: Autosport, Richard Asher, “Where are F1 teams based?” (December 2024)
       url: https://www.autosport.com/f1/news/where-are-f1-teams-based/10348715/
-    - titre: Grandprix.com, Joe Saward, “Tyrrell Racing Organisation” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Tyrrell Racing Organisation” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/tyrrell-racing-organisation.html
   souffleries:
   - lieu: Southampton (Hampshire), university
@@ -1949,9 +1927,9 @@ lignees:
     periode: 1994–1995
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
-    - titre: Grandprix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
+    - titre: GrandPrix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
       url: https://www.grandprix.com/news/gascoyne-turns-up-the-boost.html
   - lieu: Indianapolis, Indiana (USA) – Auto Research Center (Reynard)
     lieux:
@@ -1981,11 +1959,11 @@ lignees:
     periode: from 1999 (end of use undated)
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Tyrrell’s windtunnel is scrapped” (December 1997)
+    - titre: GrandPrix.com, Joe Saward, “Tyrrell’s windtunnel is scrapped” (December 1997)
       url: https://www.grandprix.com/news/tyrrells-windtunnel-is-scrapped.html
     - titre: Atlas F1, “BAR launches 1999 car with dual livery” (January 1999)
       url: https://archive.atlasf1.com/news/1999/1045.htm
-    - titre: Grandprix.com, Joe Saward, “Honda using Dome wind tunnel” (April 2005)
+    - titre: GrandPrix.com, Joe Saward, “Honda using Dome wind tunnel” (April 2005)
       url: https://www.grandprix.com/news/honda-using-dome-wind-tunnel.html
   - lieu: Brackley (Northamptonshire) – Honda / Mercedes full-scale tunnel
     lieux:
@@ -2050,9 +2028,9 @@ lignees:
     sources:
     - titre: Motor Sport, Patrick Head, “Patrick Head” (May 2011)
       url: https://www.motorsportmagazine.com/archive/article/may-2011/29/patrick-head/
-    - titre: Grandprix.com, Joe Saward, “Frank Dernie”, biography (n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Frank Dernie”, biography (n.d.)
       url: https://www.grandprix.com/people/frank-dernie.html
-    - titre: Grandprix.com, Peter Wright, “John Barnard” (November 1996)
+    - titre: GrandPrix.com, Peter Wright, “John Barnard” (November 1996)
       url: https://www.grandprix.com/features/peter-wright/technical-john-barnard.html
   - lieu: Didcot (Oxfordshire) – Williams 50% tunnel
     lieux:
@@ -2062,13 +2040,13 @@ lignees:
     periode: late 1980s–1995
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Williams to expand Grove factory” (February 2002)
+    - titre: GrandPrix.com, Joe Saward, “Williams to expand Grove factory” (February 2002)
       url: https://www.grandprix.com/news/williams-to-expand-grove-factory.html
-    - titre: Grandprix.com, Joe Saward, “Williams windtunnel move” (April 1996)
+    - titre: GrandPrix.com, Joe Saward, “Williams windtunnel move” (April 1996)
       url: https://www.grandprix.com/news/williams-windtunnel-move.html
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
-    - titre: Grandprix.com, Joe Saward, “Frank Dernie”, biography (n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Frank Dernie”, biography (n.d.)
       url: https://www.grandprix.com/people/frank-dernie.html
   - lieu: San Clemente, California (USA) – Swift
     lieux:
@@ -2078,11 +2056,11 @@ lignees:
     periode: 1995–1996
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Williams windtunnel move” (April 1996)
+    - titre: GrandPrix.com, Joe Saward, “Williams windtunnel move” (April 1996)
       url: https://www.grandprix.com/news/williams-windtunnel-move.html
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
-    - titre: Grandprix.com, Joe Saward, “Stewart denies Ikuzawa deal” (April 1996)
+    - titre: GrandPrix.com, Joe Saward, “Stewart denies Ikuzawa deal” (April 1996)
       url: https://www.grandprix.com/ns/ns00578.html
   - lieu: Grove (Oxfordshire) – Wind Tunnel One
     lieux:
@@ -2092,7 +2070,7 @@ lignees:
     periode: 1996–2025
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Williams windtunnel move” (April 1996)
+    - titre: GrandPrix.com, Joe Saward, “Williams windtunnel move” (April 1996)
       url: https://www.grandprix.com/news/williams-windtunnel-move.html
     - titre: 'Williams Racing, “Grove: the home of Atlassian Williams F1 Team” (January 2026)'
       url: https://www.williamsf1.com/articles/8b059f3c-a18b-4d32-8334-f277c45e9082/grove-the-home-of-atlassian-williams-f1-team
@@ -2106,7 +2084,7 @@ lignees:
     sources:
     - titre: The National, Matt Majendie, “Yielding that crucial fraction of a second” (October 2009)
       url: https://www.thenationalnews.com/lifestyle/motoring/yielding-that-crucial-fraction-of-a-second-1.487892
-    - titre: Grandprix.com, Joe Saward, “Williams to expand Grove factory” (February 2002)
+    - titre: GrandPrix.com, Joe Saward, “Williams to expand Grove factory” (February 2002)
       url: https://www.grandprix.com/news/williams-to-expand-grove-factory.html
     - titre: PlanetF1, Matthew Somerfield, “F1’s secret battleground revealed amid preparations for 2026 revolution” (November 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
@@ -2231,9 +2209,9 @@ lignees:
     periode: until 1998 (start uncertain)
     statut: loue
     sources:
-    - titre: 'Grandprix.com, Joe Saward, “Technical analysis: Benetton-Renault B197” (February 1997)'
+    - titre: 'GrandPrix.com, Joe Saward, “Technical analysis: Benetton-Renault B197” (February 1997)'
       url: https://www.grandprix.com/news/technical-analysis-benetton-renault-b197.html
-    - titre: Grandprix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
+    - titre: GrandPrix.com, Joe Saward, “Work begins at McLaren’s new base” (August 1998)
       url: https://www.grandprix.com/news/work-begins-at-mclarens-new-base.html
   - lieu: Casumaro, near Ferrara (Italy) – Fondmetal Technologies
     lieux:
@@ -2243,11 +2221,11 @@ lignees:
     periode: 1996–1998
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
+    - titre: GrandPrix.com, Joe Saward, “Benetton falls into bed with Fondmetal” (January 1996)
       url: https://www.grandprix.com/news/benetton-falls-into-bed-with-fondmetal.html
-    - titre: 'Grandprix.com, Joe Saward, “Technical analysis: Benetton-Renault B197” (February 1997)'
+    - titre: 'GrandPrix.com, Joe Saward, “Technical analysis: Benetton-Renault B197” (February 1997)'
       url: https://www.grandprix.com/news/technical-analysis-benetton-renault-b197.html
-    - titre: Grandprix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
+    - titre: GrandPrix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
       url: https://www.grandprix.com/news/gascoyne-turns-up-the-boost.html
   - lieu: Enstone (Oxfordshire)
     lieux:
@@ -2271,7 +2249,7 @@ lignees:
     periode: 2001–2007
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
+    - titre: GrandPrix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
       url: https://www.grandprix.com/news/gascoyne-turns-up-the-boost.html
 - id: faenza
   nom: 'Faenza: from Minardi to Racing Bulls'
@@ -2371,13 +2349,13 @@ lignees:
     periode: 1996–2001
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Minardi-Hart M197” (January 1997)
+    - titre: GrandPrix.com, Joe Saward, “Minardi-Hart M197” (January 1997)
       url: https://www.grandprix.com/features/joe-saward/technical-minardi-hart-m197.html
-    - titre: Grandprix.com, Joe Saward, “Fondmetal buys rights to old Ford engines” (January 2000)
+    - titre: GrandPrix.com, Joe Saward, “Fondmetal buys rights to old Ford engines” (January 2000)
       url: https://www.grandprix.com/news/fondmetal-buys-rights-to-old-ford-engines.html
-    - titre: Grandprix.com, Joe Saward, “...as rumors fly of new recruits” (March 2001)
+    - titre: GrandPrix.com, Joe Saward, “...as rumors fly of new recruits” (March 2001)
       url: https://www.grandprix.com/news/as-rumors-fly-of-new-recruits.html
-    - titre: Grandprix.com, Joe Saward, “Minardi build forces with signing” (March 2001)
+    - titre: GrandPrix.com, Joe Saward, “Minardi build forces with signing” (March 2001)
       url: https://www.grandprix.com/news/minardi-build-forces-with-signing.html
   - lieu: Bicester (Oxfordshire) – ex-Reynard tunnel
     lieux:
@@ -2515,9 +2493,9 @@ lignees:
     periode: 1997–2014
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Jordan gets John Davis” (January 1997)
+    - titre: GrandPrix.com, Joe Saward, “Jordan gets John Davis” (January 1997)
       url: https://www.grandprix.com/news/jordan-gets-john-davis.html
-    - titre: Grandprix.com, Joe Saward, “Investment at Jordan” (April 2005)
+    - titre: GrandPrix.com, Joe Saward, “Investment at Jordan” (April 2005)
       url: https://www.grandprix.com/news/investment-at-jordan.html
     - titre: Pitpass, “Jordan Grand Prix acquires Brackley wind tunnel facility” (April 2005)
       url: https://new.pitpass.com/24143/Jordan-Grand-Prix-acquires-Brackley-wind-tunnel-facility
@@ -2549,7 +2527,7 @@ lignees:
     periode: 2007–2009
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
+    - titre: GrandPrix.com, Joe Saward, “Gascoyne turns up the boost” (January 2007)
       url: https://www.grandprix.com/news/gascoyne-turns-up-the-boost.html
     - titre: Autosport, “Q & A with Gascoyne and Kolles” (October 2007)
       url: https://www.autosport.com/f1/news/63357/q-and-a-with-gascoyne-and-kolles
@@ -2567,7 +2545,7 @@ lignees:
     sources:
     - titre: Sky Sports, William Esler, “Force India to use Toyota’s wind tunnel in Cologne for all aerodynamic testing” (December 2014)
       url: https://www.skysports.com/f1/news/12477/9591799/force-india-to-use-toyotas-wind-tunnel-in-cologne-for-all-aerodynamic-testing
-    - titre: Grandprix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
+    - titre: GrandPrix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
       url: https://www.grandprix.com/news/force-india-turns-to-toyota-for-wind-tunnel.html
     - titre: Motorsport.com, Adam Cooper, “Why Racing Point is more than just a ‘pink Mercedes’” (March 2020)
       url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
@@ -2610,10 +2588,10 @@ lignees:
     lien:
       type: usine-motoriste
       preuve: atteste
-      pourquoi: On 22 June 2005 BMW announced that, having acquired a majority shareholding in the Swiss Sauber team, a BMW-managed team would contest the championship from 2006 (BMW press release); Peter Sauber kept 20% (Edd Straw, The Race).
+      pourquoi: On 22 June 2005 BMW announced that, having acquired a majority shareholding in the Swiss Sauber team, a BMW-managed team would contest the championship from 2006 (GrandPrix.com); Peter Sauber kept 20% (Edd Straw, The Race).
       sources:
-      - titre: BMW Group, "BMW managed team from 2006" (June 2005)
-        url: https://www.press.bmwgroup.com/latin-america-caribbean/article/detail/T0050556EN/bmw-managed-team-from-2006?language=en
+      - titre: GrandPrix.com, “BMW to buy Sauber” (22 June 2005)
+        url: https://www.grandprix.com/news/bmw-to-buy-sauber.html
       - titre: The Race, Edd Straw, "The 10 key moments in Sauber's F1 history ahead of Audi deal" (October 2022)
         url: https://www.the-race.com/formula-1/the-10-key-moments-in-saubers-f1-history-ahead-of-audi-deal/
   - ecurie: sauber
@@ -2700,11 +2678,11 @@ lignees:
     sources:
     - titre: Autosport, Adam Cooper, “Why a Mercedes U-turn couldn’t deny Sauber’s F1 debut surprise” (March 2023)
       url: https://www.autosport.com/f1/news/why-a-mercedes-u-turn-couldnt-deny-saubers-f1-debut-surprise/10443178/
-    - titre: Grandprix.com, Joe Saward, “Sauber launches today” (February 1997)
+    - titre: GrandPrix.com, Joe Saward, “Sauber launches today” (February 1997)
       url: https://www.grandprix.com/news/sauber-launches-today.html
-    - titre: Grandprix.com, Joe Saward, “Changes is Sauber structure” (January 2002)
+    - titre: GrandPrix.com, Joe Saward, “Changes is Sauber structure” (January 2002)
       url: https://www.grandprix.com/news/changes-is-sauber-structure.html
-    - titre: 'Grandprix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
+    - titre: 'GrandPrix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
       url: https://www.grandprix.com/news/review-of-the-year-6th-sauber-petronas.html
   - lieu: Huntingdon (Cambridgeshire) – Lola
     lieux:
@@ -2714,7 +2692,7 @@ lignees:
     periode: around 2002–2003
     statut: loue
     sources:
-    - titre: 'Grandprix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
+    - titre: 'GrandPrix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
       url: https://www.grandprix.com/news/review-of-the-year-6th-sauber-petronas.html
     - titre: Autosport, Kevin Turner, “The remains of a sportscar stalwart still going strong” (April 2018)
       url: https://www.autosport.com/engineering/feature/8109/the-remains-of-a-sportscar-stalwart-still-going-strong
@@ -2726,9 +2704,9 @@ lignees:
     periode: 2004–2026
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Changes is Sauber structure” (January 2002)
+    - titre: GrandPrix.com, Joe Saward, “Changes is Sauber structure” (January 2002)
       url: https://www.grandprix.com/news/changes-is-sauber-structure.html
-    - titre: 'Grandprix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
+    - titre: 'GrandPrix.com, Joe Saward, “Review of the Year: 6th - Sauber Petronas” (December 2003)'
       url: https://www.grandprix.com/news/review-of-the-year-6th-sauber-petronas.html
     - titre: PlanetF1, Matthew Somerfield, “F1’s secret battleground revealed amid preparations for 2026 revolution” (November 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
@@ -2777,7 +2755,7 @@ lignees:
     a: 2026
     periode: 1997–2026
     sources:
-    - titre: Grandprix.com, Joe Saward, “Stewart Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Stewart Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/stewart-grand-prix.html
     - titre: Autosport, Richard Asher, “Where are F1 teams based?” (December 2024)
       url: https://www.autosport.com/f1/news/where-are-f1-teams-based/10348715/
@@ -2792,7 +2770,7 @@ lignees:
     periode: 1996–2001
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Stewart denies Ikuzawa deal” (April 1996)
+    - titre: GrandPrix.com, Joe Saward, “Stewart denies Ikuzawa deal” (April 1996)
       url: https://www.grandprix.com/ns/ns00578.html
     - titre: Autosport, Gary Anderson, “Why Jaguar was doomed to fail in F1” (August 2016)
       url: https://www.autosport.com/f1/news/why-jaguar-was-doomed-to-fail-in-f1-5108943/5108943/
@@ -2810,7 +2788,7 @@ lignees:
       url: https://www.crash.net/f1/news/40784/1/qa-niki-lauda
     - titre: Atlas F1, “Jaguar wind tunnel set to start working” (March 2002)
       url: https://atlasf1.autosport.com/news/2002/mar/report.php/id/6838/.html
-    - titre: Grandprix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
+    - titre: GrandPrix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
       url: https://www.grandprix.com/news/jaguar-gets-the-bedford-windtunnel.html
     - titre: Autosport, Jonathan Noble, “Toro Rosso expects early mistakes” (February 2010)
       url: https://www.autosport.com/f1/news/toro-rosso-expects-early-mistakes-4434726/4434726/
@@ -2822,7 +2800,7 @@ lignees:
     periode: 2004–2026
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
+    - titre: GrandPrix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
       url: https://www.grandprix.com/news/jaguar-gets-the-bedford-windtunnel.html
     - titre: Autosport, Jonathan Noble, “New location but no big delay for Red Bull F1 wind tunnel” (October 2023)
       url: https://www.autosport.com/f1/news/new-location-but-no-big-delay-for-red-bull-f1-wind-tunnel/10537070/
@@ -2862,7 +2840,7 @@ lignees:
     a: 2026
     periode: 2016–2026
     sources:
-    - titre: Grandprix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
+    - titre: GrandPrix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
       url: https://www.grandprix.com/news/2015-revival-could-see-dinnington-return-for-manor.html
     - titre: Autosport, Richard Asher, “Where are F1 teams based?” (December 2024)
       url: https://www.autosport.com/f1/news/where-are-f1-teams-based/10348715/
@@ -2919,20 +2897,8 @@ lignees:
       url: https://www.autosport.com/f1/news/cadillac-to-run-f1-2026-operation-from-silverstone-while-us-base-under-construction/10760237/
     - titre: Autosport, Stuart Codling, “Why Haas F1 won't use Toyota's wind tunnel despite technical partnership” (February 2025)
       url: https://www.autosport.com/f1/news/why-haas-f1-wont-use-toyotas-wind-tunnel-despite-technical-partnership/10693467/
-  - lieu: Cologne (Germany) – Toyota Motorsport GmbH / TGR-E
-    lieux:
-    - cologne
-    de: 2026
-    a: 2026
-    periode: '2026'
-    statut: loue
-    sources:
-    - titre: Autosport, Ed Hardy, “Cadillac to run F1 2026 operation from Silverstone while US base under construction” (September 2025)
-      url: https://www.autosport.com/f1/news/cadillac-to-run-f1-2026-operation-from-silverstone-while-us-base-under-construction/10760237/
     - titre: PlanetF1, Matthew Somerfield, “F1’s secret battleground revealed amid preparations for 2026 revolution” (November 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
-    - titre: Autosport, Stuart Codling, “Why Haas F1 won’t use Toyota’s wind tunnel despite technical partnership” (February 2025)
-      url: https://www.autosport.com/f1/news/why-haas-f1-wont-use-toyotas-wind-tunnel-despite-technical-partnership/10693467/
 - id: maserati
   nom: Maserati
   segments:
@@ -2998,7 +2964,7 @@ lignees:
   groupe: autres
   colonne: 3
   usines:
-  - lieu: Glendale (California, United States)
+  - lieu: Glendale (California, USA)
     lieux:
     - glendale
     de: 1950
@@ -3037,7 +3003,7 @@ lignees:
     a: 1982
     periode: 1979–1982
     sources:
-    - titre: Grandprix.com, Joe Saward, “Alfa Romeo” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Alfa Romeo” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/alfa-romeo.html
   - lieu: Senago (Italy)
     lieux:
@@ -3046,7 +3012,7 @@ lignees:
     a: 1985
     periode: 1983–1985
     sources:
-    - titre: Grandprix.com, Joe Saward, “Alfa Romeo” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Alfa Romeo” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/alfa-romeo.html
 - id: brm
   nom: BRM
@@ -3069,7 +3035,7 @@ lignees:
     a: 1973
     periode: 1951–1973
     sources:
-    - titre: Grandprix.com, Joe Saward, “BRM (British Racing Motors)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “BRM (British Racing Motors)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/brm-british-racing-motors.html
 - id: connaught
   nom: Connaught
@@ -3088,7 +3054,7 @@ lignees:
     a: 1957
     periode: 1952–1957
     sources:
-    - titre: Grandprix.com, “Connaught Engineering” (encyclopedia)
+    - titre: GrandPrix.com, “Connaught Engineering” (encyclopedia)
       url: https://www.grandprix.com/constructors/connaught-engineering.html
     - titre: Motor Sport, “Looking back with Mike Oliver” (November 1974)
       url: https://www.motorsportmagazine.com/archive/article/november-1974/35/looking-back-with-mike-oliver/
@@ -3109,7 +3075,7 @@ lignees:
     a: 1960
     periode: 1954–1960
     sources:
-    - titre: Grandprix.com, “Vanwall” (encyclopedia)
+    - titre: GrandPrix.com, “Vanwall” (encyclopedia)
       url: https://www.grandprix.com/constructors/vanwall.html
 - id: lancia
   nom: Lancia
@@ -3156,9 +3122,9 @@ lignees:
     lien:
       type: renommage
       preuve: etabli
-      pourquoi: American Hugh Powell took over Emeryson Cars at the end of 1961; the team raced as Emeryson in 1962, then, with Paul Emery gone, Powell and Tony Settember reorganised it as Scirocco-Powell Racing and built a new BRM V8-engined car, the Scirocco, for 1963 (Grandprix.com; Motor Sport).
+      pourquoi: American Hugh Powell took over Emeryson Cars at the end of 1961; the team raced as Emeryson in 1962, then, with Paul Emery gone, Powell and Tony Settember reorganised it as Scirocco-Powell Racing and built a new BRM V8-engined car, the Scirocco, for 1963 (GrandPrix.com; Motor Sport).
       sources:
-      - titre: Grandprix.com, “Scirocco-Powell Racing”
+      - titre: GrandPrix.com, “Scirocco-Powell Racing”
         url: https://www.grandprix.com/constructors/scirocco-powell-racing.html
       - titre: Motor Sport, Denis Jenkinson, “Three new grand prix cars” (July 1963)
         url: https://www.motorsportmagazine.com/archive/article/july-1963/38/three-new-grand-prix-cars-2/
@@ -3183,7 +3149,7 @@ lignees:
     a: 1962
     periode: '1962'
     sources:
-    - titre: Grandprix.com, Joe Saward, “Emeryson Cars Ltd.” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Emeryson Cars Ltd.” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/emeryson-cars-ltd.html
   - lieu: Goldhawk Road (west London), Scirocco-Powell
     lieux:
@@ -3213,7 +3179,7 @@ lignees:
     a: 1964
     periode: 1957–1964
     sources:
-    - titre: Grandprix.com, “Porsche” (encyclopedia)
+    - titre: GrandPrix.com, “Porsche” (encyclopedia)
       url: https://www.grandprix.com/constructors/porsche.html
 - id: team-lotus
   nom: Team Lotus
@@ -3276,7 +3242,7 @@ lignees:
     sources:
     - titre: Lotus Cars, “Lotus Places”
       url: https://www.lotuscars.com/lotus-story/about-lotus/places
-    - titre: Grandprix.com, “The end of a legend at Lotus” (20 February 1995)
+    - titre: GrandPrix.com, “The end of a legend at Lotus” (20 February 1995)
       url: https://www.grandprix.com/news/the-end-of-a-legend-at-lotus.html
     - titre: 'Motor Sport, “Flashback: Lotus launches its 1990 F1 car with Warwick and Donnelly” (March 2024)'
       url: https://motorsportmagazine.com/archive/article/march-2024/43/flashback-lotus-launches-its-1990-f1-car-with-warwick-and-donnelly
@@ -3348,7 +3314,7 @@ lignees:
   groupe: autres
   colonne: 14
   usines:
-  - lieu: Culver City (California, United States)
+  - lieu: Culver City (California, USA)
     lieux:
     - culver-city
     de: 1960
@@ -3369,7 +3335,7 @@ lignees:
   rangee: 27
   groupe: autres
   colonne: 6
-  usine: Modène
+  usine: Modena
   usines:
   - lieu: Modena (Italy)
     lieux:
@@ -3378,7 +3344,7 @@ lignees:
     a: 1970
     periode: 1961–1970
     sources:
-    - titre: Grandprix.com, Joe Saward, “De Tomaso Automobili SpA” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “De Tomaso Automobili SpA” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/de-tomaso-automobili-spa.html
 - id: gilby
   nom: Gilby
@@ -3427,7 +3393,7 @@ lignees:
     a: 1977
     periode: 1962–1977
     sources:
-    - titre: Grandprix.com, “Bad news from down Chessington way” (23 March 2004)
+    - titre: GrandPrix.com, “Bad news from down Chessington way” (23 March 2004)
       url: https://www.grandprix.com/news/bad-news-from-down-chessington-way.html
     - titre: Motor Sport, “Powerhouse Jack built” (May 2006)
       url: https://www.motorsportmagazine.com/archive/article/may-2006/32/powerhouse-jack-built/
@@ -3449,7 +3415,7 @@ lignees:
     a: 1991
     periode: 1978–1991
     sources:
-    - titre: Grandprix.com, “Bad news from down Chessington way” (23 March 2004)
+    - titre: GrandPrix.com, “Bad news from down Chessington way” (23 March 2004)
       url: https://www.grandprix.com/news/bad-news-from-down-chessington-way.html
     - titre: 'Motor Sport, “Herbie Blash & Charlie Whiting: ''Bernie chose F1 over Brabham''” (January 2006)'
       url: https://www.motorsportmagazine.com/archive/article/january-2006/48/herbie-blash-charlie-whiting/
@@ -3460,7 +3426,7 @@ lignees:
     a: 1992
     periode: '1992'
     sources:
-    - titre: Grandprix.com, “Bad news from down Chessington way” (23 March 2004)
+    - titre: GrandPrix.com, “Bad news from down Chessington way” (23 March 2004)
       url: https://www.grandprix.com/news/bad-news-from-down-chessington-way.html
 - id: enb
   nom: ENB
@@ -3518,7 +3484,7 @@ lignees:
     sources:
     - titre: Motor Sport, Andrew Marriott, “Lola success continues in Huntingdon” (February 1972)
       url: https://www.motorsportmagazine.com/archive/article/february-1972/23/lola-success-continues-in-huntingdon/
-    - titre: Grandprix.com, Joe Saward, “Embassy Hill Racing” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Embassy Hill Racing” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/embassy-hill-racing.html
   - lieu: Colnbrook (Buckinghamshire)
     lieux:
@@ -3527,7 +3493,7 @@ lignees:
     a: 1986
     periode: 1985–1986
     sources:
-    - titre: Grandprix.com, Joe Saward, “Haas/FORCE (Formula One Race Car Engineering)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Haas/FORCE (Formula One Race Car Engineering)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/haasforce-formula-one-race-car-engineering.html
 - id: lds
   nom: LDS
@@ -3660,7 +3626,7 @@ lignees:
     sources:
     - titre: OldRacingCars.com, Allen Brown, “Eagle Mk1 history”
       url: https://www.oldracingcars.com/eagle/mk1/
-    - titre: Grandprix.com, “Anglo American Racers Ltd.” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Anglo American Racers Ltd.” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/anglo-american-racers-ltd.html
   - lieu: Rye (East Sussex)
     lieux:
@@ -3671,7 +3637,7 @@ lignees:
     sources:
     - titre: OldRacingCars.com, Allen Brown, “Eagle Mk1 history”
       url: https://www.oldracingcars.com/eagle/mk1/
-    - titre: Grandprix.com, “Anglo American Racers Ltd.” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Anglo American Racers Ltd.” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/anglo-american-racers-ltd.html
 - id: shannon
   nom: Shannon
@@ -3699,7 +3665,7 @@ lignees:
     a: 1972
     periode: 1967–1972
     sources:
-    - titre: Grandprix.com, “Matra Sports SARL” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Matra Sports SARL” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/matra-sports-sarl.html
 - id: protos
   nom: Protos
@@ -3749,7 +3715,7 @@ lignees:
     a: 1978
     periode: 1970–1978
     sources:
-    - titre: Grandprix.com, “Surtees Racing Organisation” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Surtees Racing Organisation” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/surtees-racing-organisation.html
 - id: march
   nom: 'March: March and Leyton House'
@@ -3839,9 +3805,9 @@ lignees:
     periode: 1990–1991
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Investment at Jordan” (April 2005)
+    - titre: GrandPrix.com, Joe Saward, “Investment at Jordan” (April 2005)
       url: https://www.grandprix.com/news/investment-at-jordan.html
-    - titre: Grandprix.com, Joe Saward, “Jordan gets John Davis” (January 1997)
+    - titre: GrandPrix.com, Joe Saward, “Jordan gets John Davis” (January 1997)
       url: https://www.grandprix.com/news/jordan-gets-john-davis.html
     - titre: Motor Sport, “When an accountant fired Adrian Newey and doomed an F1 team” (January 2026)
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-an-accountant-fired-adrian-newey-and-doomed-an-f1-team/
@@ -3922,7 +3888,7 @@ lignees:
     sources:
     - titre: OldRacingCars.com, Allen Brown, “Williams FX3 car-by-car histories”
       url: https://www.oldracingcars.com/williams/fx3/
-    - titre: Grandprix.com, Joe Saward, “Walter Wolf Racing” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Walter Wolf Racing” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/walter-wolf-racing.html
     - titre: Motor Sport, Simon Taylor, “Lunch with… Walter Wolf” (January 2015)
       url: https://www.motorsportmagazine.com/archive/article/january-2015/80/lunch-walter-wolf/
@@ -3935,7 +3901,7 @@ lignees:
     sources:
     - titre: OldRacingCars.com, Allen Brown, “Williams FX3 car-by-car histories”
       url: https://www.oldracingcars.com/williams/fx3/
-    - titre: Grandprix.com, Joe Saward, “Walter Wolf Racing” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Walter Wolf Racing” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/walter-wolf-racing.html
     - titre: Motor Sport, Simon Taylor, “Lunch with… Walter Wolf” (January 2015)
       url: https://www.motorsportmagazine.com/archive/article/january-2015/80/lunch-walter-wolf/
@@ -4052,7 +4018,7 @@ lignees:
     sources:
     - titre: Autosport, Edd Straw, “The new F1 teams of 1973” (August 2013)
       url: https://www.autosport.com/f1/news/the-new-f1-teams-of-1973-5102482/5102482/
-    - titre: Grandprix.com, Joe Saward, “Ensign (Team Ensign)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Ensign (Team Ensign)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ensign-team-ensign.html
 - id: amon
   nom: Amon
@@ -4090,7 +4056,7 @@ lignees:
     a: 1974
     periode: '1974'
     sources:
-    - titre: Grandprix.com, “Trojan” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Trojan” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/trojan.html
 - id: token
   nom: Token
@@ -4128,7 +4094,7 @@ lignees:
     a: 1978
     periode: 1974–1978
     sources:
-    - titre: Grandprix.com, “Hesketh Racing” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Hesketh Racing” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/hesketh-racing.html
     - titre: OldRacingCars.com, Allen Brown, “Hesketh 308 car-by-car histories”
       url: https://www.oldracingcars.com/hesketh/308/
@@ -4151,7 +4117,7 @@ lignees:
     a: 1976
     periode: 1974–1976
     sources:
-    - titre: Grandprix.com, “Parnelli” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Parnelli” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/parnelli.html
     - titre: Autosport (GP Racing), Stuart Codling, “The 70s US superteam that tried and failed to crack F1” (26 October 2021)
       url: https://www.autosport.com/f1/news/the-70s-us-superteam-that-tried-and-failed-to-crack-f1/6714030/
@@ -4189,7 +4155,7 @@ lignees:
     sources:
     - titre: OldRacingCars.com, Allen Brown, “Penske PC1 car-by-car histories”
       url: https://www.oldracingcars.com/penske/pc1/
-    - titre: Grandprix.com, Joe Saward, “Penske Racing” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Penske Racing” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/penske-racing.html
   - lieu: Bicester (Oxfordshire)
     lieux:
@@ -4303,7 +4269,7 @@ lignees:
     a: 1987
     periode: 1976–1987
     sources:
-    - titre: Grandprix.com, Joe Saward, “Ligier (Equipe Ligier)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Ligier (Equipe Ligier)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ligier-equipe-ligier.html
     - titre: Atlas F1, “The Brands Hatch & Paul Ricard FAQ” (n.d.)
       url: https://atlasf1.autosport.com/99/spn/project/jones-tytler.html
@@ -4314,11 +4280,11 @@ lignees:
     a: 1997
     periode: 1988–1997
     sources:
-    - titre: Grandprix.com, Joe Saward, “Ligier (Equipe Ligier)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Ligier (Equipe Ligier)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ligier-equipe-ligier.html
     - titre: Atlas F1, “The Brands Hatch & Paul Ricard FAQ” (n.d.)
       url: https://atlasf1.autosport.com/99/spn/project/jones-tytler.html
-    - titre: Grandprix.com, Joe Saward, “Prost Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Prost Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/prost-grand-prix.html
   - lieu: Guyancourt (Yvelines, France)
     lieux:
@@ -4327,7 +4293,7 @@ lignees:
     a: 2001
     periode: 1998–2001
     sources:
-    - titre: Grandprix.com, Joe Saward, “Prost Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Prost Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/prost-grand-prix.html
   souffleries:
   - lieu: Magny-Cours (Nièvre) – Ligier 40% tunnel
@@ -4338,11 +4304,11 @@ lignees:
     periode: 1989–1999
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Prost Grand Prix on the move?” (March 1997)
+    - titre: GrandPrix.com, Joe Saward, “Prost Grand Prix on the move?” (March 1997)
       url: https://www.grandprix.com/news/prost-grand-prix-on-the-move.html
-    - titre: Grandprix.com, Joe Saward, “Ligier-Mugen JS45” (January 1997)
+    - titre: GrandPrix.com, Joe Saward, “Ligier-Mugen JS45” (January 1997)
       url: https://www.grandprix.com/features/joe-saward/technical-ligier-mugen-js45.html
-    - titre: Grandprix.com, Joe Saward, “Technical reshuffles at Prost GP” (February 1999)
+    - titre: GrandPrix.com, Joe Saward, “Technical reshuffles at Prost GP” (February 1999)
       url: https://www.grandprix.com/news/technical-reshuffles-at-prost-gp.html
 - id: kojima
   nom: Kojima
@@ -4370,7 +4336,7 @@ lignees:
     a: 1976
     periode: '1976'
     sources:
-    - titre: Grandprix.com, “Boro” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Boro” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/boro.html
 - id: renault-1977
   nom: Renault (1977–1985)
@@ -4469,7 +4435,7 @@ lignees:
     a: 1995
     periode: 1978–1995
     sources:
-    - titre: Grandprix.com, Joe Saward, “Arrows Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Arrows Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/arrows-grand-prix.html
     - titre: Atlas F1, “Arrows” (2000 launch feature)
       url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
@@ -4480,9 +4446,9 @@ lignees:
     a: 2002
     periode: 1996–2002
     sources:
-    - titre: Grandprix.com, Joe Saward, “Arrows Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Arrows Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/arrows-grand-prix.html
-    - titre: Grandprix.com, Joe Saward, “TWR completes Arrows takeover” (July 1996)
+    - titre: GrandPrix.com, Joe Saward, “TWR completes Arrows takeover” (July 1996)
       url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
     - titre: Atlas F1, “Arrows” (2000 launch feature)
       url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
@@ -4507,7 +4473,7 @@ lignees:
     sources:
     - titre: Crash.net, “Arrows purchase the Bedford wind tunnel” (2001)
       url: https://www.crash.net/f1/news/38586/1/arrows-purchase-the-bedford-wind-tunnel
-    - titre: Grandprix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
+    - titre: GrandPrix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
       url: https://www.grandprix.com/news/jaguar-gets-the-bedford-windtunnel.html
   - lieu: Bedford (Bedfordshire) – former RAE Thurleigh site
     lieux:
@@ -4519,9 +4485,9 @@ lignees:
     sources:
     - titre: Crash.net, “Arrows purchase the Bedford wind tunnel” (2001)
       url: https://www.crash.net/f1/news/38586/1/arrows-purchase-the-bedford-wind-tunnel
-    - titre: Grandprix.com, Joe Saward, “What happens if Pollock does buy Arrows?” (July 2002)
+    - titre: GrandPrix.com, Joe Saward, “What happens if Pollock does buy Arrows?” (July 2002)
       url: https://www.grandprix.com/news/what-happens-if-pollock-does-buy-arrows.html
-    - titre: Grandprix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
+    - titre: GrandPrix.com, Joe Saward, “Jaguar gets the Bedford windtunnel” (September 2003)
       url: https://www.grandprix.com/news/jaguar-gets-the-bedford-windtunnel.html
 - id: merzario
   nom: Merzario
@@ -4568,7 +4534,7 @@ lignees:
     a: 1979
     periode: '1979'
     sources:
-    - titre: Grandprix.com, “Rebaque (Team Rebaque)” (Formula 1 Encyclopedia, 2003)
+    - titre: GrandPrix.com, “Rebaque (Team Rebaque)” (Formula 1 Encyclopedia, 2003)
       url: https://www.grandprix.com/constructors/rebaque-team-rebaque.html
 - id: osella
   nom: 'Osella: from Osella to Fondmetal'
@@ -4602,7 +4568,7 @@ lignees:
     a: 1990
     periode: 1980–1990
     sources:
-    - titre: Grandprix.com, Joe Saward, “Osella Squadra Corse” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Osella Squadra Corse” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/osella-squadra-corse.html
   - lieu: Palosco, near Bergamo (Italy)
     lieux:
@@ -4611,9 +4577,9 @@ lignees:
     a: 1992
     periode: 1991–1992
     sources:
-    - titre: Grandprix.com, Joe Saward, “Fondmetal F1 SpA” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Fondmetal F1 SpA” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/fondmetal-f1-spa.html
-    - titre: Grandprix.com, Joe Saward, “The Fondmetal F1 team” (March 1991)
+    - titre: GrandPrix.com, Joe Saward, “The Fondmetal F1 team” (March 1991)
       url: https://www.grandprix.com/features/joe-saward/news-feature-the-fondmetal-f1-team.html
   souffleries:
   - lieu: Orbassano, near Turin (Italy)
@@ -4634,7 +4600,7 @@ lignees:
     periode: '1991'
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Investment at Jordan” (April 2005)
+    - titre: GrandPrix.com, Joe Saward, “Investment at Jordan” (April 2005)
       url: https://www.grandprix.com/news/investment-at-jordan.html
 - id: ram
   nom: RAM March and RAM
@@ -4664,7 +4630,7 @@ lignees:
     a: 1982
     periode: 1981–1982
     sources:
-    - titre: Grandprix.com, Joe Saward, “RAM Automotive” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “RAM Automotive” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ram-automotive.html
     - titre: The Race, Jim Wright, “Remembering a very different F1 pioneer” (February 2026)
       url: https://www.the-race.com/formula-1/remembering-a-very-different-f1-pioneer-john-macdonald/
@@ -4687,7 +4653,7 @@ lignees:
     sources:
     - titre: Motor Sport, Gary Watkins, “Independent spirit” (July 2005)
       url: https://www.motorsportmagazine.com/archive/article/july-2005/48/independent-spirit
-    - titre: Grandprix.com, Joe Saward, “Spirit Racing” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Spirit Racing” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/spirit-racing.html
 - id: zakspeed
   nom: Zakspeed
@@ -4729,7 +4695,7 @@ lignees:
     sources:
     - titre: Motor Sport, Johnny Tipler, “French resistance” (October 2007)
       url: https://www.motorsportmagazine.com/archive/article/october-2007/92/french-resistance-3/
-    - titre: Grandprix.com, Joe Saward, “AGS (Automobiles Gonfaronnaise Sportives)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “AGS (Automobiles Gonfaronnaise Sportives)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ags-automobiles-gonfaronnaise-sportives.html
   - lieu: Le Luc (Var), Circuit du Var
     lieux:
@@ -4740,7 +4706,7 @@ lignees:
     sources:
     - titre: Motor Sport, Johnny Tipler, “French resistance” (October 2007)
       url: https://www.motorsportmagazine.com/archive/article/october-2007/92/french-resistance-3/
-    - titre: Grandprix.com, Joe Saward, “AGS (Automobiles Gonfaronnaise Sportives)” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “AGS (Automobiles Gonfaronnaise Sportives)” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/ags-automobiles-gonfaronnaise-sportives.html
     - titre: HistoricRacing.com, “Henri Julien” (profile, n.d.)
       url: https://historicracing.com/driver.cfm?otd=7568
@@ -4788,7 +4754,7 @@ lignees:
     a: 1989
     periode: 1987–1989
     sources:
-    - titre: Grandprix.com, Joe Saward, “Larrousse” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Larrousse” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/larrousse.html
   - lieu: Signes, near Paul Ricard (Var, France)
     lieux:
@@ -4797,9 +4763,9 @@ lignees:
     a: 1994
     periode: 1990–1994
     sources:
-    - titre: Grandprix.com, Joe Saward, “Larrousse” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Larrousse” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/larrousse.html
-    - titre: Grandprix.com, Joe Saward, “Larrousse goes to the wall” (April 1995)
+    - titre: GrandPrix.com, Joe Saward, “Larrousse goes to the wall” (April 1995)
       url: https://www.grandprix.com/news/larrousse-goes-to-the-wall.html
 - id: coloni
   nom: 'Coloni: from Coloni to Andrea Moda'
@@ -4863,7 +4829,7 @@ lignees:
     a: 1993
     periode: 1988–1993
     sources:
-    - titre: Grandprix.com, Joe Saward, “Scuderia Italia” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Scuderia Italia” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/scuderia-italia.html
 - id: rial
   nom: Rial
@@ -4882,7 +4848,7 @@ lignees:
     a: 1989
     periode: 1988–1989
     sources:
-    - titre: Grandprix.com, Joe Saward, “Rial” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Rial” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/rial.html
 - id: eurobrun
   nom: EuroBrun
@@ -4909,7 +4875,7 @@ lignees:
     a: 1988
     periode: '1988'
     sources:
-    - titre: Grandprix.com, Joe Saward, “EuroBrun” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “EuroBrun” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/eurobrun.html
 - id: onyx
   nom: Onyx
@@ -4928,7 +4894,7 @@ lignees:
     a: 1990
     periode: 1989–1990 (Crash.net places the team at Littlehampton)
     sources:
-    - titre: Grandprix.com, Joe Saward, “Onyx Race Engineering” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Onyx Race Engineering” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/onyx-race-engineering.html
 - id: lambo
   nom: Lambo
@@ -4956,11 +4922,11 @@ lignees:
     a: 1995
     periode: 1994–1995
     sources:
-    - titre: Grandprix.com, Joe Saward, “Simtek Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Simtek Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/simtek-grand-prix.html
-    - titre: Grandprix.com, Joe Saward, “Nick Wirth” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Nick Wirth” (encyclopedia, n.d.)
       url: https://grandprix.com/people/nick-wirth.html
-    - titre: Grandprix.com, “July 24, 1995” (July 1995)
+    - titre: GrandPrix.com, “July 24, 1995” (July 1995)
       url: https://www.grandprix.com/ns/ns00221.html
   souffleries:
   - lieu: Banbury (Oxfordshire)
@@ -4971,9 +4937,9 @@ lignees:
     periode: 1994–1995
     statut: propre
     sources:
-    - titre: Grandprix.com, Joe Saward, “Simtek Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Simtek Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/simtek-grand-prix.html
-    - titre: Grandprix.com, “July 24, 1995” (July 1995)
+    - titre: GrandPrix.com, “July 24, 1995” (July 1995)
       url: https://www.grandprix.com/ns/ns00221.html
 - id: pacific
   nom: Pacific
@@ -4992,7 +4958,7 @@ lignees:
     a: 1995
     periode: 1994–1995
     sources:
-    - titre: Grandprix.com, Joe Saward, “Pacific Grand Prix” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Pacific Grand Prix” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/pacific-grand-prix.html
     - titre: Motorsport.com, Pacific press release, “Pacific PR02 presentation” (February 1995)
       url: https://au.motorsport.com/f1/news/pacific-pr02-presentation/1655673/
@@ -5013,7 +4979,7 @@ lignees:
     a: 1996
     periode: 1995–1996
     sources:
-    - titre: Grandprix.com, “Forti - getting ready for action” (February 1995)
+    - titre: GrandPrix.com, “Forti - getting ready for action” (February 1995)
       url: https://www.grandprix.com/ns/ns00011.html
     - titre: Motorsport.com, “Formula One FAQ (modified 96-10-15) Part 1/2” (October 1996)
       url: https://au.motorsport.com/f1/news/formula-one-faq-modified-96-10-15-part-1-2/1676083/
@@ -5026,7 +4992,7 @@ lignees:
     periode: '1995'
     statut: loue
     sources:
-    - titre: Grandprix.com, Joe Saward, “Forti Corse s.r.l” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Forti Corse s.r.l” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/forti-corse-s-r-l.html
 - id: toyota
   nom: Toyota
@@ -5045,7 +5011,7 @@ lignees:
     a: 2009
     periode: 2002–2009
     sources:
-    - titre: Grandprix.com, Joe Saward, “Toyota Motorsport” (encyclopedia, n.d.)
+    - titre: GrandPrix.com, Joe Saward, “Toyota Motorsport” (encyclopedia, n.d.)
       url: https://www.grandprix.com/constructors/toyota-motorsport.html
     - titre: RaceFans, “Toyota” (team profile, n.d.)
       url: https://www.racefans.net/f1-information/f1-teams/toyota/
@@ -5079,9 +5045,9 @@ lignees:
     a: 2008
     periode: 2006–2008
     sources:
-    - titre: Grandprix.com, “Super Aguri F1 is go!” (November 2005)
+    - titre: GrandPrix.com, “Super Aguri F1 is go!” (November 2005)
       url: https://www.grandprix.com/ns/ns15877.html
-    - titre: Grandprix.com, “Super Aguri and Menard” (January 2006)
+    - titre: GrandPrix.com, “Super Aguri and Menard” (January 2006)
       url: https://www.grandprix.com/news/super-aguri-and-menard.html
     - titre: Crash.net, “End of the road for Aguri” (May 2008)
       url: https://crash.net/f1/news/62022/1/end-of-the-road-for-aguri
@@ -5174,7 +5140,7 @@ lignees:
     sources:
     - titre: Autosport, Jonathan Noble, “Virgin is planning a major rear-end overhaul for the Italian Grand Prix” (September 2011)
       url: https://www.autosport.com/f1/news/virgin-is-planning-a-major-rear-end-overhaul-for-the-italian-grand-prix-4449379/4449379/
-    - titre: Grandprix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
+    - titre: GrandPrix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
       url: https://www.grandprix.com/news/2015-revival-could-see-dinnington-return-for-manor.html
   - lieu: Banbury (Oxfordshire)
     lieux:
@@ -5185,7 +5151,7 @@ lignees:
     sources:
     - titre: RaceFans, “New Marussia MR01 breaks cover at Silverstone” (March 2012)
       url: https://www.racefans.net/2012/03/05/marussia-mr01-breaks-cover-silverstone/
-    - titre: Grandprix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
+    - titre: GrandPrix.com, GMM, “2015 revival could see Dinnington return for Manor” (January 2015)
       url: https://www.grandprix.com/news/2015-revival-could-see-dinnington-return-for-manor.html
   - lieu: Dinnington and Silverstone
     lieux:
@@ -5217,7 +5183,7 @@ lignees:
     sources:
     - titre: Autosport, Dieter Rencken, “Timo Glock says McLaren windtunnel work gives Marussia big ’13 hope” (December 2012)
       url: https://www.autosport.com/f1/news/timo-glock-says-mclaren-windtunnel-work-gives-marussia-big-13-hope-4464166/4464166/
-    - titre: Grandprix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
+    - titre: GrandPrix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
       url: https://www.grandprix.com/news/force-india-turns-to-toyota-for-wind-tunnel.html
   - lieu: Brackley (Northamptonshire) – Mercedes wind tunnel
     lieux:
@@ -5241,7 +5207,7 @@ lignees:
     lien:
       type: renommage
       preuve: atteste
-      pourquoi: Tony Fernandes, who had raced under a Lotus name licensed from Proton, bought Caterham Cars and renamed his team Caterham F1 Team for 2012 (Motor Sport); “we will call ourselves the Caterham F1 Team, with the same people”, he said (Autosport). The Lotus name then went to the Enstone outfit, a different team.
+      pourquoi: Tony Fernandes, who had raced as Team Lotus (bought from David Hunt after Proton withdrew its 2010 licence), bought Caterham Cars and renamed his team Caterham F1 Team for 2012 (Motor Sport); “we will call ourselves the Caterham F1 Team, with the same people”, he said (Autosport). The Lotus name then went to the Enstone outfit, a different team.
       sources:
       - titre: Autosport, Jamie O'Leary and Jonathan Noble, “Team Lotus to stay green and yellow under Caterham name in 2012” (November 2011)
         url: https://www.autosport.com/f1/news/team-lotus-to-stay-green-and-yellow-under-caterham-name-in-2012-4451091/4451091/
@@ -5311,7 +5277,7 @@ lignees:
     sources:
     - titre: Formula 1, “Caterham to use Toyota wind tunnel” (January 2014)
       url: https://www.formula1.com/en/latest/article/caterham-to-use-toyota-wind-tunnel.22TD7kbvS3BoaehCwBXmQl
-    - titre: Grandprix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
+    - titre: GrandPrix.com, GMM, “Force India turns to Toyota for wind tunnel” (September 2014)
       url: https://www.grandprix.com/news/force-india-turns-to-toyota-for-wind-tunnel.html
 ecuries:
 - id: ags
@@ -5800,6 +5766,9 @@ ecuries:
   - id: james-allison
     de: 1994
     a: 1998
+  - id: john-barnard
+    de: 1989
+    a: 1991
   - id: john-gentry
   - id: mike-gascoyne
     de: 2001
@@ -5905,7 +5874,7 @@ ecuries:
     de: 1978
     a: 1987
   - id: gordon-murray
-    de: 1973
+    de: 1972
     a: 1986
   - id: john-gentry
     de: 1986
@@ -6628,6 +6597,9 @@ ecuries:
   voitures: []
   ingenieurs:
   - id: adrian-newey
+    de: 1980
+    a: 1980
+  - id: harvey-postlethwaite
     de: 1980
     a: 1980
   - id: john-gentry
@@ -7399,7 +7371,10 @@ ecuries:
 - id: lola
   nom: Lola
   voitures: []
-  ingenieurs: []
+  ingenieurs:
+  - id: ross-brawn
+    de: 1985
+    a: 1986
   jalons: []
   sources:
   - titre: Formula 1, “1962 Dutch Grand Prix - Race Result”
@@ -8139,16 +8114,12 @@ ecuries:
   moteurs:
   - motoriste: ford
     de: 1980
-    a: 1980
-    sources:
-    - titre: Formula 1, results, “1980 South African Grand Prix”
-      url: https://www.formula1.com/en/results/1980/races/82/south-africa/race-result
-  - motoriste: hart
-    de: 1981
     a: 1981
     sources:
-    - titre: Formula 1, results, “1981 USA West Grand Prix”
-      url: https://www.formula1.com/en/results/1981/races/422/usa-west/race-result
+    - titre: OldRacingCars.com, “Osella FA1B”
+      url: https://www.oldracingcars.com/osella/fa1b/
+    - titre: Formula 1, results, “1980 South African Grand Prix”
+      url: https://www.formula1.com/en/results/1980/races/82/south-africa/race-result
   - motoriste: ford
     de: 1982
     a: 1983
@@ -8188,14 +8159,23 @@ ecuries:
   moteurs:
   - motoriste: ilmor
     de: 1994
-    a: 1995
+    a: 1994
     sources:
     - titre: Formula 1, results, “1994 Grande Premio do Brasil Interlagos”
       url: https://www.formula1.com/en/results/1994/races/605/brazil/race-result
+  - motoriste: ford
+    de: 1995
+    a: 1995
+    sources:
+    - titre: Wikipedia, “Pacific PR02”
+      url: https://en.wikipedia.org/wiki/Pacific_PR02
 - id: parnelli
   nom: Parnelli
   voitures: []
-  ingenieurs: []
+  ingenieurs:
+  - id: maurice-philippe
+    de: 1974
+    a: 1976
   jalons: []
   sources:
   - titre: Formula 1, results, “1974 Canadian Grand Prix - Race Result”
@@ -8720,8 +8700,11 @@ ecuries:
   ingenieurs:
   - id: john-gentry
   - id: tony-southgate
-    de: 1974
+    de: 1973
     a: 1975
+  - id: tony-southgate
+    de: 1977
+    a: 1977
   jalons: []
   sources:
   - titre: Formula 1, results, “1973 South African Grand Prix - Race Result”
@@ -8923,7 +8906,7 @@ ecuries:
     de: 1989
     a: 1990
   - id: geoff-aldridge
-    de: 1975
+    de: 1974
     a: 1979
   - id: gerard-ducarouge
     de: 1983
@@ -8933,9 +8916,12 @@ ecuries:
     a: 1965
   - id: martin-ogilvie
     de: 1975
-    a: 1984
+    a: 1986
   - id: maurice-philippe
     a: 1971
+  - id: mike-costin
+    de: 1958
+    a: 1962
   - id: peter-wright
     de: 1975
     a: 1994
@@ -9580,7 +9566,7 @@ ecuries:
   ingenieurs:
   - id: harvey-postlethwaite
     de: 1977
-    a: 1977
+    a: 1979
   jalons: []
   sources:
   - titre: Formula 1, “1977 Team Standings”

@@ -16,13 +16,16 @@ saisons retrouvée dans toutes les variantes est dite robuste. Seules des varian
 peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
 deux épreuves, seuil à 50 % et aucune saison creuse. Les confrontations portent sur les périodes
 d'au moins MIN saisons dominantes, robustes ou non (« longues »)."""
-import os, sys, collections
+import os, sys, collections, math
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 SEUIL, MIN, CREUX = 0.40, 3, 1
 DUO = 2                      # seuil du degré « domination »
+# Parts stockées avec PREC décimales : le gabarit les affiche en pourcentage entier (times: 100 | round) ;
+# trois décimales faisaient arrondir deux fois (0,2647 -> 0,265 -> 27 % au lieu de 26 %).
+PREC = 6
 VARIANTES = [(0.50, 3, 1), (0.40, 3, 0)]
 AVANT, APRES = 2, 3          # fenêtres des confrontations (saisons)
 FENETRE_JALON = 2            # une domination longue « suit » un jalon si elle commence de Y à Y+2
@@ -30,8 +33,9 @@ FENETRE_REGLE = 1            # règlement dans l'année qui précède ou de l'an
 # Règlements d'autres catégories (Formule 2, Formule 3) : présents dans la chronologie pour leurs
 # liens, mais ce ne sont pas des changements du règlement de la F1.
 HORS_F1 = {"formule-500", "formule-2-1957", "formule-2-1600"}
-# Même groupe propulseur sous trois noms : Honda le construit de 2021 à 2025, badgé RBPT à partir de 2022.
-MEME_MOTEUR = {"rbpt": "honda", "honda-rbpt": "honda"}
+# Même groupe propulseur sous plusieurs noms : Honda le construit de 2021 à 2025, badgé RBPT à partir de 2022 ;
+# Renault fournit Red Bull de 2016 à 2018 sous le nom TAG Heuer.
+MEME_MOTEUR = {"rbpt": "honda", "honda-rbpt": "honda", "tag-heuer": "renault"}
 
 R = yaml.safe_load(open("_data/resultats.yml", encoding="utf-8"))["saisons"]
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
@@ -147,17 +151,17 @@ def mesures(u, k, annees):
     gp = sum(next(s["gp"] for s in R if s["annee"] == a) for a in annees)
     m = {}
     if n_po:
-        m["poles"] = round(sum(poles[u][a].get(k, 0) for a in annees) / n_po, 3)
+        m["poles"] = round(sum(poles[u][a].get(k, 0) for a in annees) / n_po, PREC)
     if n_pd:
-        m["podiums"] = round(sum(podiums[u][a].get(k, 0) for a in annees) / (3 * n_pd), 3)
+        m["podiums"] = round(sum(podiums[u][a].get(k, 0) for a in annees) / (3 * n_pd), PREC)
         if u != "pilote":
-            m["doubles"] = round(sum(doubles[u][a].get(k, 0) for a in annees) / n_pd, 3)
+            m["doubles"] = round(sum(doubles[u][a].get(k, 0) for a in annees) / n_pd, PREC)
     ec = [ecart_points(u, k, a) for a in annees]
     if ec and all(x is not None for x in ec):
         m["ecart"] = moyenne(ec)
     if "poles" in m and "podiums" in m:
         # Indice composite : moyenne simple des parts de victoires, de poles et de places sur le podium.
-        m["indice"] = round((vic / gp + m["poles"] + m["podiums"]) / 3, 3)
+        m["indice"] = round((vic / gp + m["poles"] + m["podiums"]) / 3, PREC)
     return m
 
 def nom(u, k):
@@ -197,10 +201,13 @@ def regles_autour(annee):
     return [x["id"] for x in REGLES if annee - FENETRE_REGLE <= x["annee"] <= annee]
 
 def moyenne(xs):
-    return round(sum(xs) / len(xs), 3) if xs else None
+    return round(sum(xs) / len(xs), PREC) if xs else None
 
 def part_ecurie(ec, de, a):
-    return moyenne([part["ecurie"][y].get(ec, 0) for y in range(de, a + 1) if y in part["ecurie"]])
+    """Part moyenne des victoires sur les saisons de/a que l'écurie a disputées sous ce nom ; None si
+    aucune (une saison où elle n'existe pas ne compte pas pour 0 %)."""
+    act = set(actives(ec))
+    return moyenne([part["ecurie"][y].get(ec, 0) for y in range(de, a + 1) if y in part["ecurie"] and y in act])
 
 def actives(ec):
     """Saisons disputées par une écurie (segments des lignées), bornées aux résultats relevés."""
@@ -217,7 +224,7 @@ for u in part:
     hs = []
     # Saisons dominantes isolées : décrites brièvement, sans confrontation.
     saisons_dom[u] = [{"nom": nom(u, k), "annee": g[0], "titre": champion[u].get(g[0]) == k,
-                       "part": round(part[u][g[0]].get(k, 0), 3), **({"id": k} if not k.startswith("~") else {}),
+                       "part": round(part[u][g[0]].get(k, 0), PREC), **({"id": k} if not k.startswith("~") else {}),
                        **mesures(u, k, [g[0]])}
                       for k, g in sorted(base, key=lambda x: (x[1][0], x[0])) if len(g) < DUO]
     for k, g in sorted(base, key=lambda x: (x[1][0], x[0])):
@@ -230,8 +237,8 @@ for u in part:
         h = {"unite": u, "id": k.lstrip("~") if not k.startswith("~") else None, "nom": nom(u, k),
              "debut": debut, "fin": fin, "saisons": fin - debut + 1, "dominantes": len(g),
              "titres": sum(1 for a in span if champion[u].get(a) == k),
-             "victoires": vic, "gp": gp, "part": round(vic / gp, 3),
-             "part_max": round(max(part[u][a].get(k, 0) for a in span), 3),
+             "victoires": vic, "gp": gp, "part": round(vic / gp, PREC),
+             "part_max": round(max(part[u][a].get(k, 0) for a in span), PREC),
              "longue": len(g) >= MIN,
              "robuste": len(g) >= MIN and all(recouvre(k, g, v) for v in variantes)}
         h["degre"] = degre(g, h["robuste"])
@@ -285,7 +292,7 @@ for u in ("ecurie", "pilote"):
         if cands:
             m, k = max(cands, key=lambda x: x[0]["indice"])
             meilleures.append({"annee": a, "nom": nom(u, k), **({"id": k} if not k.startswith("~") else {}),
-                               "victoires": round(part[u][a][k], 3), **m})
+                               "victoires": round(part[u][a][k], PREC), **m})
     ecrasantes[u] = sorted(meilleures, key=lambda x: -x["indice"])[:10]
 
 def debut_suit(ec, y):
@@ -337,9 +344,10 @@ def bilan(ms):
 # Témoin : écart entre les mêmes fenêtres prises à n'importe quelle saison, pour les mêmes écuries.
 temoin_ing = []
 for ec in {m["ecurie"] for m in mouvements}:
-    for y in actives(ec)[AVANT:]:
+    for y in [y for y in actives(ec)[AVANT:] if y + APRES - 1 <= ANNEES[-1]]:
         av, ap = part_ecurie(ec, y - AVANT, y - 1), part_ecurie(ec, y, y + APRES - 1)
-        temoin_ing.append(ap - av)
+        if av is not None and ap is not None:
+            temoin_ing.append(ap - av)
 
 # --- Approfondissements ------------------------------------------------------------------------
 # Profil des victoires autour des jalons (étude d'événement) : saisons Y-3 à Y+5, et le même
@@ -425,9 +433,10 @@ def tranche(x):
     return 0 if x == 0 else 1 if x <= 0.10 else 2 if x <= 0.30 else 3
 temoin_tr = collections.defaultdict(list)
 for ec in {e for l in E["lignees"] for s in l["segments"] for e in [s["ecurie"]]}:
-    for y in actives(ec)[AVANT:]:
+    for y in [y for y in actives(ec)[AVANT:] if y + APRES - 1 <= ANNEES[-1]]:
         av, ap = part_ecurie(ec, y - AVANT, y - 1), part_ecurie(ec, y, y + APRES - 1)
-        temoin_tr[tranche(av)].append(ap - av)
+        if av is not None and ap is not None:
+            temoin_tr[tranche(av)].append(ap - av)
 TIERS = {}
 for chemin in os.listdir("_ingenieurs"):
     fm = yaml.safe_load(open(f"_ingenieurs/{chemin}", encoding="utf-8").read().split("---\n")[1])
@@ -446,7 +455,7 @@ def apparie(ms):
     attendu_h = sum(ps)
     attendu_g = sum(sum(temoin_tr[t]) / len(temoin_tr[t]) for _, t in d)
     return {"n": len(d), "hausse": sum(x > 0.05 for x, _ in d), "hausse_attendue": round(attendu_h, 1),
-            "gain": moyenne([x for x, _ in d]), "gain_attendu": round(attendu_g / len(d), 3) if d else None,
+            "gain": moyenne([x for x, _ in d]), "gain_attendu": round(attendu_g / len(d), PREC) if d else None,
             "p": round(poisson_binomiale(ps, sum(x > 0.05 for x, _ in d)), 4)}
 
 arrivees = [m for m in mouvements if m["type"] == "arrivee"]
@@ -461,7 +470,9 @@ groupes_ing = [
 # Règlements : rebattent-ils les cartes ? Changement d'écurie en tête des victoires d'une saison à
 # l'autre, selon qu'un changement de règlement de la chronologie s'applique cette saison-là.
 def tete(a):
-    return max(part["ecurie"][a], key=part["ecurie"][a].get)
+    # Égalité de victoires : l'écurie dont l'indice composite de la saison est le plus élevé
+    # (règle du dossier Cycles), pas la première rencontrée.
+    return max(part["ecurie"][a], key=lambda k: (part["ecurie"][a][k], mesures("ecurie", k, [a]).get("indice") or 0))
 regle_annee = {x["annee"] for x in REGLES}
 chg = {"avec": [0, 0], "sans": [0, 0]}
 for a in ANNEES[1:]:
@@ -487,7 +498,7 @@ amont_bilan = {"jalons": len({j["jalon"] for j in jalons}), "avec_amont": len({j
 # Probabilité d'autant d'ouvrants reliés à un règlement si chacun l'était comme un jalon quelconque.
 q = amont_bilan["avec_regle"] / amont_bilan["jalons"]
 amont_bilan["p"] = round(sum(comb(len(ouvrants), i) * q ** i * (1 - q) ** (len(ouvrants) - i)
-                             for i in range(amont_bilan["ouvrants_regle"], len(ouvrants) + 1)), 3)
+                             for i in range(amont_bilan["ouvrants_regle"], len(ouvrants) + 1)), PREC)
 
 # --- Confrontation 3 : règlement ---------------------------------------------------------------
 annees_regle = [a for a in ANNEES if regles_autour(a)]
@@ -506,7 +517,7 @@ sortie = {
     "jalons_sans_ecurie": sans_ecurie,
     "temoin_jalons": {"n": len(obs), "ouvre": sum(obs), "attendu": round(sum(attendu), 1)},
     "etude_jalons": etude,
-    "p_hasard": round(p_hasard, 3),
+    "p_hasard": round(p_hasard, PREC),
     "voies": voies,
     "chaines": chaines,
     "amont": amont_bilan,
@@ -524,7 +535,7 @@ sortie = {
     # Domination saison par saison : écurie en tête des victoires (pour une frise ultérieure).
     "saisons": [{"annee": a, "gp": next(s["gp"] for s in R if s["annee"] == a),
                  "ecurie": max(part["ecurie"][a], key=part["ecurie"][a].get).lstrip("~"),
-                 "part": round(max(part["ecurie"][a].values()), 3)} for a in ANNEES],
+                 "part": round(max(part["ecurie"][a].values()), PREC)} for a in ANNEES],
 }
 entete = ("# Dominations et confrontations, calculées par outils/domination.py depuis _data/resultats.yml,\n"
           "# _data/ecuries.yml et _data/chronologie.yml : ne pas modifier à la main, relancer le script.\n"
@@ -570,8 +581,12 @@ STYLE = ("<style>.dm-t{font-family:var(--titre);font-size:14px;fill:var(--mine)}
          ".dm-p1{fill:#1f5fa8;stroke:#fff;stroke-width:2}.dm-p2{fill:#fff;stroke:#8e979d;stroke-width:2}"
          ".dm-l{stroke:#c2c9cc;stroke-width:2}</style>")
 
+def r100(x):
+    """Pourcentage entier, demi arrondi vers le haut (comme Liquid), pas au pair (round de Python)."""
+    return math.floor(x * 100 + 0.5 + 1e-9)
+
 def pct(x, lang):
-    return f"{round(x * 100)}{TEXTES[lang]['pc']}"
+    return f"{r100(x)}{TEXTES[lang]['pc']}"
 
 def svg_etude(lang):
     L, W, Hh = TEXTES[lang], 560, 300
@@ -663,7 +678,7 @@ def youden(t):
     n = [x < t for x, d in obs_l if not d]
     return sum(p) / len(p) + sum(n) / len(n) - 1
 SEUIL_INDICE = max((round(t / 100, 2) for t in range(1, 100)), key=youden)
-sortie_compteur = {"seuil": SEUIL_INDICE, "youden": round(youden(SEUIL_INDICE), 3),
+sortie_compteur = {"seuil": SEUIL_INDICE, "youden": round(youden(SEUIL_INDICE), PREC),
                    "saisons": len(obs_l), "dominantes": sum(d for _, d in obs_l),
                    "au_dessus": sum(x >= SEUIL_INDICE for x, _ in obs_l),
                    "dominantes_au_dessus": sum(x >= SEUIL_INDICE and d for x, d in obs_l),
@@ -719,7 +734,7 @@ def cadran_g(cx, cy, r, v, lignes, record=None, fragile=False, taille=1.0, seuil
     ax, ay = pt(v, r - ep - 10 * taille)
     o.append(f'<line class="cp-ai" style="stroke-width:{max(2, 3 * taille):.1f}" x1="{cx}" y1="{cy}" x2="{ax:.1f}" y2="{ay:.1f}"/>'
              f'<circle cx="{cx}" cy="{cy}" r="{max(3, 6 * taille):.1f}" class="cp-j"/>')
-    o.append(f'<text class="cp-v" style="font-size:{round(30 * taille)}px" x="{cx}" y="{cy + 34 * taille:.1f}" text-anchor="middle">{round(v * 100)}</text>')
+    o.append(f'<text class="cp-v" style="font-size:{round(30 * taille)}px" x="{cx}" y="{cy + 34 * taille:.1f}" text-anchor="middle">{r100(v)}</text>')
     for i, l in enumerate(lignes):
         fs = "" if taille >= 0.8 else ' style="font-size:11px"'
         o.append(f'<text class="{"cp-f" if i == 0 and len(lignes) > 1 else "cp-t"}"{fs} x="{cx}" y="{cy + 34 * taille + 15 * (i + 1) + 2:.1f}" text-anchor="middle">{l}</text>')
@@ -736,7 +751,7 @@ def svg_compteur(lid, lang):
         return None
     best = max(mes, key=lambda a: vals[a])
     bn = NOMS[lang].get(ecurie_de(lid, best), nl)
-    v100 = lambda x: round(x * 100)
+    v100 = lambda x: r100(x)
     desc = L["d"].format(b=esc(bn), y=best, v=v100(vals[best]))
     # Cadran : demi-cercle 0-100, aiguille sur la meilleure saison, repère du seuil.
     cadran = (f'<svg class="graphique compteur-cadran" viewBox="0 0 220 170" role="img" aria-labelledby="{uid}-ct">'
@@ -762,7 +777,7 @@ def svg_compteur(lid, lang):
             o.append(f'<rect class="{cl}" x="{xs(p["debut"]) - demi:.1f}" y="{h}" width="{xs(p["fin"]) - xs(p["debut"]) + 2 * demi:.1f}" height="{Hh - b - h}"><title>{lib}, {p["debut"]}–{p["fin"]}</title></rect>')
     for v in (0, 0.25, 0.5, 0.75, 1):
         o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
              f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) - 5:.1f}" text-anchor="end">{L["seuil"]} {v100(SEUIL_INDICE)}</text>')
     pas = 10 if span > 25 else 2
@@ -802,7 +817,7 @@ def svg_compteur(lid, lang):
             xj, yj = xs(y), yb + 22
             o.append(f'<path class="cp-j" d="M{xj:.1f},{yj} l-5,9 h10 z"><title>{y} : {esc(JALONS_L[lang].get(jid, jid))}</title></path>')
     o.append("</svg>")
-    sortie_compteur["lignees"][lid] = {"meilleure": best, "indice": round(vals[best], 3)}
+    sortie_compteur["lignees"][lid] = {"meilleure": best, "indice": round(vals[best], PREC)}
     return cadran, "".join(o)
 
 # --- Ingénieurs : la domination de leur écurie pendant leur présence ---------------------------
@@ -845,7 +860,7 @@ for ing, ss in sejours.items():
     best = max(ss, key=lambda x: mesures("ecurie", x[1], [x[0]]).get("indice") or 0)
     ing_dom.append({"id": ing, "nom": ING_NOMS.get(ing, ing), "saisons": len({y for y, _ in ss}),
                     "dominantes": len(dom), "titres": sum(1 for y, ec in ss if champion["ecurie"].get(y) == ec),
-                    "indice_moyen": round(sum(vals) / len(vals), 3),
+                    "indice_moyen": round(sum(vals) / len(vals), PREC),
                     "meilleure": {"annee": best[0], "ecurie": best[1],
                                   "indice": mesures("ecurie", best[1], [best[0]]).get("indice")},
                     "plus_longue": [plus[0], plus[-1]] if plus else None,
@@ -857,14 +872,14 @@ sortie_ing = {"ingenieurs": ing_dom, "non_dates": sum(non_dates.values()),
               "ingenieurs_partiels": sum(1 for i in ing_dom if i["sejours_non_dates"])}
 
 # --- Visuels « compteur » du dossier --------------------------------------------------------------
-TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950-2025",
+TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950–2025",
                 "f1_d": "Pour chaque saison, l'indice composite de l'écurie la plus forte, sur 100. Les bandes marquent les hégémonies d'écurie ; les tirets rouges, le seuil calibré.",
                 "y": "Indice de l'écurie la plus forte", "seuil": "seuil", "tb_t": "Tableau de bord des dominations longues",
                 "tb_d": "Un cadran par domination d'au moins trois saisons : l'aiguille donne l'indice moyen de la période, le trait noir sa meilleure saison, le repère rouge le seuil. Arc en tirets : domination qui n'est pas une hégémonie.",
                 "heg": "hégémonie", "dom": "domination", "ing_t": "Le compteur des ingénieurs",
                 "ing_d": "Indice moyen des écuries pendant la présence de l'ingénieur, pour les douze ingénieurs dont l'écurie a dominé le plus de saisons.",
                 "sd": "saisons dominantes"},
-         "en": {"f1_t": "The F1 gauge, 1950-2025",
+         "en": {"f1_t": "The F1 gauge, 1950–2025",
                 "f1_d": "For each season, the composite index of the strongest team, out of 100. Bands mark team hegemonies; red dashes, the calibrated threshold.",
                 "y": "Index of the strongest team", "seuil": "threshold", "tb_t": "Dashboard of long dominance",
                 "tb_d": "One dial per period of at least three dominant seasons: the needle gives the period's average index, the black mark its best season, the red mark the threshold. Dashed arc: dominance that is not a hegemony.",
@@ -886,7 +901,7 @@ for a in ANNEES:
     c = [x for x in c if x[0] is not None]
     if c:
         v, k = max(c)
-        tete_indice.append({"annee": a, "ecurie": k.lstrip("~"), "indice": round(v, 3)})
+        tete_indice.append({"annee": a, "ecurie": k.lstrip("~"), "indice": round(v, PREC)})
 
 def svg_f1(lang):
     L = TXT_D[lang]
@@ -903,15 +918,15 @@ def svg_f1(lang):
         o.append(f'<text class="cp-t" x="{(x1 + x2) / 2:.1f}" y="{h - 6 - 12 * (i % 2)}" text-anchor="middle">{nm}</text>')
     for v in (0, 0.25, 0.5, 0.75, 1):
         o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
-             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {round(SEUIL_INDICE * 100)}</text>')
+             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {r100(SEUIL_INDICE)}</text>')
     for a in range(1950, 2030, 10):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
     for t in tete_indice:
         nm = esc(nom_u("ecurie", t["ecurie"], lang))
-        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {round(t["indice"] * 100)}</title></circle>')
+        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {r100(t["indice"])}</title></circle>')
     o.append("</svg>")
     return "".join(o)
 
@@ -931,7 +946,7 @@ def svg_tableau(u, lang):
         if u == "pilote":
             nm = esc(p_["nom"].split(" ")[-1])
         deg = L["heg"] if p_["degre"] == "hegemonie" else L["dom"]
-        o.append(f'<g><title>{esc(p_["nom"])}, {p_["debut"]}–{p_["fin"]} · {deg} · {round(p_["indice"] * 100)} / 100</title>')
+        o.append(f'<g><title>{esc(p_["nom"])}, {p_["debut"]}–{p_["fin"]} · {deg} · {r100(p_["indice"])} / 100</title>')
         o.append(cadran_g(cx, cy, 58, p_["indice"], [f"{nm}", f'{p_["debut"]}–{p_["fin"]} · {deg}'],
                           record=rec, fragile=p_["degre"] != "hegemonie", taille=0.62))
         o.append("</g>")
@@ -948,7 +963,7 @@ def svg_ingenieurs_cp(lang):
     for i, p_ in enumerate(ps):
         cx, cy = cw * (i % par_ligne) + cw / 2, ch * (i // par_ligne) + 72
         nm = esc(p_["nom"].split(" ")[-1])
-        o.append(f'<g><title>{esc(p_["nom"])} · {p_["dominantes"]} {L["sd"]} / {p_["saisons"]} · {round(p_["indice_moyen"] * 100)} / 100</title>')
+        o.append(f'<g><title>{esc(p_["nom"])} · {p_["dominantes"]} {L["sd"]} / {p_["saisons"]} · {r100(p_["indice_moyen"])} / 100</title>')
         o.append(cadran_g(cx, cy, 58, p_["indice_moyen"], [nm, f'{p_["dominantes"]} {L["sd"]}'],
                           record=p_["meilleure"]["indice"], taille=0.62))
         o.append("</g>")
@@ -1007,7 +1022,7 @@ for t in TECH:
                 gagnants.add(cle_ecurie(c).lstrip("~"))
                 if premiere is None:
                     premiere, pionnier = (a, c["gp"]), cle_ecurie(c).lstrip("~")
-        serie.append({"annee": a, "part": round(oui / s["gp"], 3), "ecuries": sorted(gagnants),
+        serie.append({"annee": a, "part": round(oui / s["gp"], PREC), "ecuries": sorted(gagnants),
                       **({"incertaines": inc} if inc else {})})
     if premiere is None:
         continue
@@ -1061,7 +1076,7 @@ def svg_techno(lang):
             o.append(f'<rect class="cp-dom" style="opacity:.18" x="{x1:.1f}" y="{h}" width="{x2 - x1:.1f}" height="{b - h}"><title>{L["seul"]}</title></rect>')
         for v in (0, 0.5, 1):
             o.append(f'<line class="cp-g" x1="{g}" x2="{d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                     f'<text class="cp-t" style="font-size:10px" x="{g - 4}" y="{ys(v) + 3:.1f}" text-anchor="end">{round(v * 100)}</text>')
+                     f'<text class="cp-t" style="font-size:10px" x="{g - 4}" y="{ys(v) + 3:.1f}" text-anchor="end">{r100(v)}</text>')
         if t["annee_jalon"] and a0 <= t["annee_jalon"] <= a1:
             o.append(f'<line class="cp-a" style="stroke-width:1.5" x1="{xs(t["annee_jalon"]):.1f}" x2="{xs(t["annee_jalon"]):.1f}" y1="{h}" y2="{b}"/>')
         pas = 5 if a1 - a0 > 12 else 2
@@ -1070,7 +1085,7 @@ def svg_techno(lang):
         pts = [(xs(x["annee"]), ys(x["part"]), x) for x in t["serie"] if a0 <= x["annee"] <= a1]
         o.append(f'<polyline class="cp-c" points="{" ".join(f"{x:.1f},{y:.1f}" for x, y, _ in pts)}"/>')
         for x, y, e in pts:
-            o.append(f'<circle class="cp-p" cx="{x:.1f}" cy="{y:.1f}" r="2.5"><title>{e["annee"]} : {round(e["part"] * 100)}{L["pc"]}</title></circle>')
+            o.append(f'<circle class="cp-p" cx="{x:.1f}" cy="{y:.1f}" r="2.5"><title>{e["annee"]} : {r100(e["part"])}{L["pc"]}</title></circle>')
     o.append("</svg>")
     return "".join(o)
 
@@ -1125,8 +1140,8 @@ if PN:
              next((c["pole"] for c in s["courses"] if c.get("pole") and cle_ecurie(c["pole"]) == ce), None)
         pch[a] = pneus_de(a, cc, next(k["gp"] for k in s["courses"] if cle_ecurie(k) == ce or
                                       (k.get("pole") and cle_ecurie(k["pole"]) == ce))) if cc else None
-        pn_saisons.append({"annee": a, "monopole": a in mono, "victoires": {k: round(x, 3) for k, x in sorted(pv[a].items())},
-                           "poles": {k: round(x, 3) for k, x in sorted(pp[a].items())}, "champion": pch[a]})
+        pn_saisons.append({"annee": a, "monopole": a in mono, "victoires": {k: round(x, PREC) for k, x in sorted(pv[a].items())},
+                           "poles": {k: round(x, PREC) for k, x in sorted(pp[a].items())}, "champion": pch[a]})
     def suites_pn(seuil, creux):
         out = {}
         for m in {k for a in pv for k in pv[a]}:
@@ -1148,18 +1163,18 @@ if PN:
             span = [a for a in range(g[0], g[-1] + 1) if a not in mono]
             periodes.append({"pneus": m, "debut": g[0], "fin": g[-1], "dominantes": len(g),
                              "titres": sum(1 for a in span if pch[a] == m),
-                             "victoires": round(sum(pv[a].get(m, 0) for a in span) / len(span), 3),
-                             "poles": round(sum(pp[a].get(m, 0) for a in span) / len(span), 3),
+                             "victoires": round(sum(pv[a].get(m, 0) for a in span) / len(span), PREC),
+                             "poles": round(sum(pp[a].get(m, 0) for a in span) / len(span), PREC),
                              "degre": "hegemonie" if rob else "domination" if len(g) >= DUO else "saison"})
     periodes.sort(key=lambda x: (x["debut"], x["pneus"]))
     pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
                  "periodes": periodes, "saisons": pn_saisons}
     sortie_compteur["pneus"] = pneus_out
 
-TXT_P = {"fr": {"t": "Les manufacturiers de pneus : part des victoires, 1950-2025", "pc": " %", "mono": "monopole",
+TXT_P = {"fr": {"t": "Les manufacturiers de pneus : part des victoires, 1950–2025", "pc": " %", "mono": "monopole",
                 "d": "Pour chaque saison, la part des Grands Prix gagnés sur chaque marque de pneus. Hachures : les saisons de fournisseur unique.",
                 "autres": "Autres"},
-         "en": {"t": "Tyre manufacturers: share of wins, 1950-2025", "pc": "%", "mono": "monopoly",
+         "en": {"t": "Tyre manufacturers: share of wins, 1950–2025", "pc": "%", "mono": "monopoly",
                 "d": "For each season, the share of Grands Prix won on each tyre brand. Hatching: single-supplier seasons.",
                 "autres": "Others"}}
 COUL_P = dict(zip(MARQUES + ["Autres"], ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]))
@@ -1183,7 +1198,7 @@ def svg_pneus(lang):
         lx += 22 + 7.2 * len(nm)
     for v in (0, 0.5, 1):
         o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     for x in pneus_out["saisons"]:
         a, y = x["annee"], ys(0)
         parts = {}
@@ -1196,7 +1211,7 @@ def svg_pneus(lang):
             hgt = v * (Hh - b - h)
             nm = L["autres"] if m == "Autres" else m
             o.append(f'<rect x="{xs(a) - bw / 2 + 0.6:.1f}" y="{y - hgt + 0.6:.1f}" width="{bw - 1.2:.1f}" height="{max(hgt - 1.2, 0.5):.1f}" fill="{COUL_P[m]}">'
-                     f'<title>{a}, {nm} : {round(v * 100)}{L["pc"]}{" · " + L["mono"] if x["monopole"] else ""}</title></rect>')
+                     f'<title>{a}, {nm} : {r100(v)}{L["pc"]}{" · " + L["mono"] if x["monopole"] else ""}</title></rect>')
             if x["monopole"]:
                 o.append(f'<rect x="{xs(a) - bw / 2 + 0.6:.1f}" y="{y - hgt + 0.6:.1f}" width="{bw - 1.2:.1f}" height="{max(hgt - 1.2, 0.5):.1f}" fill="url(#pn-h)" pointer-events="none"/>')
             y -= hgt
@@ -1279,7 +1294,7 @@ if CH:
         modeles.append({"voiture": m, "victoires": st["victoires"], "debut": min(st["saisons"]), "fin": max(st["saisons"]),
                         "saisons": len(st["saisons"]), "ecuries": sorted(st["ecuries"]),
                         "meilleure": {"annee": best, "victoires": st["saisons"][best],
-                                      "part": round(st["saisons"][best] / gp_saison[best], 3)},
+                                      "part": round(st["saisons"][best] / gp_saison[best], PREC)},
                         **({"fiche": fiche_voiture(m)} if fiche_voiture(m) else {})})
     modeles.sort(key=lambda x: (-x["victoires"], x["debut"]))
     chassis_out = {"modeles": len(modeles), "plus_victorieux": modeles[:15],
@@ -1335,7 +1350,7 @@ for cy in CY:
             for k, x in victoires[u][a].items():
                 v[k] += x
         k, n = v.most_common(1)[0]
-        tops[u] = {"id": k.lstrip("~"), "nom": nom(u, k), "victoires": n, "part": round(n / gp, 3),
+        tops[u] = {"id": k.lstrip("~"), "nom": nom(u, k), "victoires": n, "part": round(n / gp, PREC),
                    "titres": sum(1 for a in ans if champion[u].get(a) == k), "gagnants": len(v)}
     dom = tops["ecurie"]["id"]
     cle_dom = dom if dom in part["ecurie"][ans[0]] or any(dom in part["ecurie"][a] for a in ans) else "~" + dom
@@ -1349,10 +1364,10 @@ for cy in CY:
             vc[k] += x
     hhi = sum((x / gp) ** 2 for x in vc.values())
     cycles_out.append({"id": cy["id"], "de": cy["de"], "a": cy["a"], "saisons": len(ans), "gp": gp,
-                       "dominants": tops, "indice_dominant": round(sum(vals) / len(vals), 3),
-                       "record_dominant": {"annee": ans[vals.index(max(vals))], "indice": round(max(vals), 3)},
-                       "indice_meneurs": round(sum(t["indice"] for t in tete_indice if cy["de"] <= t["annee"] <= cy["a"]) / len(ans), 3),
-                       "hhi": round(hhi, 3), "meneurs": men,
+                       "dominants": tops, "indice_dominant": round(sum(vals) / len(vals), PREC),
+                       "record_dominant": {"annee": ans[vals.index(max(vals))], "indice": round(max(vals), PREC)},
+                       "indice_meneurs": round(sum(t["indice"] for t in tete_indice if cy["de"] <= t["annee"] <= cy["a"]) / len(ans), PREC),
+                       "hhi": round(hhi, PREC), "meneurs": men,
                        "premier_meneur": men[0], "premier_meneur_domine": men[0] == dom,
                        "prise": prise, "delai_prise": prise - ans[0] if prise else None,
                        "saisons_menees": sum(m == dom for m in men),
@@ -1360,8 +1375,8 @@ for cy in CY:
 # Fin de cycle : le meneur de la dernière saison mène-t-il encore la première du cycle suivant ?
 for c, n in zip(cycles_out, cycles_out[1:]):
     c["suite"] = {"meneur_suivant": n["premier_meneur"], "garde": c["dernier_meneur"] == n["premier_meneur"],
-                  "part_avant": round(part["ecurie"][c["a"]].get(c["dernier_meneur"], part["ecurie"][c["a"]].get("~" + c["dernier_meneur"], 0)), 3),
-                  "part_apres": round(part["ecurie"][n["de"]].get(c["dernier_meneur"], part["ecurie"][n["de"]].get("~" + c["dernier_meneur"], 0)), 3)}
+                  "part_avant": round(part["ecurie"][c["a"]].get(c["dernier_meneur"], part["ecurie"][c["a"]].get("~" + c["dernier_meneur"], 0)), PREC),
+                  "part_apres": round(part["ecurie"][n["de"]].get(c["dernier_meneur"], part["ecurie"][n["de"]].get("~" + c["dernier_meneur"], 0)), PREC)}
 sortie_compteur["cycles"] = cycles_out
 
 TXT_CY = {"fr": {"t": "Le compteur de la F1, cycle par cycle", "seuil": "seuil", "v": "victoires",
@@ -1392,15 +1407,15 @@ def svg_cycles_courbe(lang):
                  f'<text class="cp-f" style="font-size:10px" x="{(x1 + x2) / 2:.1f}" y="{h - 4 - 0 * (i % 2)}" text-anchor="middle">{nm if x2 - x1 > 6 * len(nm) else ""}</text></g>')
     for v in (0, 0.25, 0.5, 0.75, 1):
         o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
-                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
-             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {round(SEUIL_INDICE * 100)}</text>')
+             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {r100(SEUIL_INDICE)}</text>')
     for a in range(1950, 2030, 10):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
     for t in tete_indice:
         nm = esc(nom_u("ecurie", t["ecurie"], lang))
-        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {round(t["indice"] * 100)}</title></circle>')
+        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {r100(t["indice"])}</title></circle>')
     o.append("</svg>")
     return "".join(o)
 
@@ -1413,7 +1428,7 @@ def svg_cycles_cadrans(lang):
     for i, c in enumerate(cycles_out):
         cx, cy_ = cw * (i % par_ligne) + cw / 2, ch_ * (i // par_ligne) + 72
         nm = esc(nom_u("ecurie", c["dominants"]["ecurie"]["id"], lang))
-        o.append(f'<g><title>{c["de"]}–{c["a"]} · {nm} · {round(c["indice_dominant"] * 100)} / 100</title>')
+        o.append(f'<g><title>{c["de"]}–{c["a"]} · {nm} · {r100(c["indice_dominant"])} / 100</title>')
         o.append(cadran_g(cx, cy_, 58, c["indice_dominant"], [nm, f'{c["de"]}–{c["a"]}'],
                           record=c["record_dominant"]["indice"], taille=0.62))
         o.append("</g>")
@@ -1446,14 +1461,14 @@ for a in ANNEES:
     pe = sorted(points["ecurie"].get(a, {}).values(), reverse=True)
     ouverture.append({"annee": a, "gp": GP[a], "ecuries": len(victoires["ecurie"][a]), "pilotes": len(victoires["pilote"][a]),
                       "effectif": round(1 / sum(x * x for x in part["ecurie"][a].values()), 2),
-                      **({"ecart_titre": round((pe[0] - pe[1]) / pe[0], 3)} if len(pe) > 1 else {})})
+                      **({"ecart_titre": round((pe[0] - pe[1]) / pe[0], PREC)} if len(pe) > 1 else {})})
 OUV = {o["annee"]: o for o in ouverture}
 def ouv_tranche(ans):
     et = [OUV[a]["ecart_titre"] for a in ans if "ecart_titre" in OUV[a]]
     return {"effectif": round(moyenne([OUV[a]["effectif"] for a in ans]), 2),
             "ecuries": round(moyenne([OUV[a]["ecuries"] for a in ans]), 1),
             "pilotes": round(moyenne([OUV[a]["pilotes"] for a in ans]), 1),
-            **({"ecart_titre": round(moyenne(et), 3)} if et else {})}
+            **({"ecart_titre": round(moyenne(et), PREC)} if et else {})}
 ouv_dec, ouv_cy = tranches(ouv_tranche)
 par_eff = sorted(ouverture, key=lambda o: o["effectif"])
 def ouv_court(o):
@@ -1465,7 +1480,7 @@ def ouv_court(o):
 MAISON = {
     "alfa-romeo-1979": "alfa-romeo", "ferrari": "ferrari", "maserati": "maserati", "vanwall": "vanwall",
     "brm": "brm", "porsche": "porsche", "honda-1964": "honda", "honda": "honda", "renault-1977": "renault",
-    "renault": "renault", "mercedes": "mercedes",
+    "renault": "renault", "alpine": "renault", "mercedes": "mercedes",
     "~Mercedes-Benz": "mercedes",   # 1954-1955, gagnant sans fiche : châssis et moteur Daimler-Benz
     "bmw-sauber": "bmw",            # Sauber racheté par BMW de 2006 à 2009
 }
@@ -1473,7 +1488,7 @@ def maison(c):
     return MAISON.get(cle_ecurie(c)) == moteur(c["motoriste"])
 def client_tranche(ans):
     cs = [c for a in ans for c in COURSES[a]]
-    return {"gp": len(cs), "maison": sum(maison(c) for c in cs), "part_maison": round(sum(maison(c) for c in cs) / len(cs), 3)}
+    return {"gp": len(cs), "maison": sum(maison(c) for c in cs), "part_maison": round(sum(maison(c) for c in cs) / len(cs), PREC)}
 cli_dec, cli_cy = tranches(client_tranche)
 couples = collections.Counter((cle_ecurie(c).lstrip("~"), moteur(c["motoriste"])) for a in ANNEES for c in COURSES[a] if not maison(c))
 ans_couple = collections.defaultdict(list)
@@ -1488,7 +1503,7 @@ def depuis_pole(c):
     return c["pole"]["pilote"] in (c["vainqueur"], c.get("covainqueur"))
 def pole_tranche(ans):
     cs = [c for a in ans for c in COURSES[a] if c.get("pole")]
-    return {"gp": len(cs), "convertis": sum(map(depuis_pole, cs)), "taux": round(sum(map(depuis_pole, cs)) / len(cs), 3)}
+    return {"gp": len(cs), "convertis": sum(map(depuis_pole, cs)), "taux": round(sum(map(depuis_pole, cs)) / len(cs), PREC)}
 pol_dec, pol_cy = tranches(pole_tranche)
 pol_tot = pole_tranche(ANNEES)
 pe_ = collections.defaultdict(lambda: [0, 0])
@@ -1497,7 +1512,7 @@ for a in ANNEES:
         if c.get("pole"):
             k = cle_ecurie(c["pole"]).lstrip("~")
             pe_[k][0] += 1; pe_[k][1] += depuis_pole(c)
-pole_ecuries = sorted(({"id": k, "poles": n, "convertis": v, "taux": round(v / n, 3)} for k, (n, v) in pe_.items() if n >= 20),
+pole_ecuries = sorted(({"id": k, "poles": n, "convertis": v, "taux": round(v / n, PREC)} for k, (n, v) in pe_.items() if n >= 20),
                       key=lambda x: -x["taux"])
 # Saisons où la pole convertit le plus et le moins (au moins 8 Grands Prix)
 pol_saisons = sorted(({"annee": a, **pole_tranche([a])} for a in ANNEES if GP[a] >= 8), key=lambda x: x["taux"])
@@ -1507,7 +1522,7 @@ indicateurs = {"ouverture": {"saisons": ouverture, "decennies": ouv_dec, "cycles
                              "plus_ouvertes": [ouv_court(o) for o in par_eff[::-1][:5]],
                              "record_ecuries": max(ouverture, key=lambda o: (o["ecuries"], o["annee"])),
                              "record_pilotes": max(ouverture, key=lambda o: (o["pilotes"], o["annee"]))},
-               "client": {"gp": sum(GP.values()), "maison": maison_tot, "part_maison": round(maison_tot / sum(GP.values()), 3),
+               "client": {"gp": sum(GP.values()), "maison": maison_tot, "part_maison": round(maison_tot / sum(GP.values()), PREC),
                           "titres": len(ANNEES), "titres_maison": titres_maison,
                           "decennies": cli_dec, "cycles": cli_cy,
                           "couples": [{"ecurie": e, "motoriste": m, "victoires": n, "de": min(ans_couple[(e, m)]), "a": max(ans_couple[(e, m)])}
@@ -1534,7 +1549,7 @@ if chassis_out:
                     if prem[m] < a: reconduites += st["saisons"][a]
         gp = sum(GP[a] for a in ans)
         return {"gp": gp, "modeles": len(ms), "par_saison": round(moyenne([sum(1 for st in stats_f.values() if a in st["saisons"]) for a in ans]), 1),
-                "victoires_par_modele": round(gp / len(ms), 1), "reconduites": reconduites, "part_reconduites": round(reconduites / gp, 3)}
+                "victoires_par_modele": round(gp / len(ms), 1), "reconduites": reconduites, "part_reconduites": round(reconduites / gp, PREC)}
     voi_dec, voi_cy = tranches(voit_tranche)
     par_saison = [{"annee": a, "modeles": sum(1 for st in stats_f.values() if a in st["saisons"])} for a in ANNEES]
     indicateurs["voitures"] = {**voit_tranche(ANNEES), "decennies": voi_dec, "cycles": voi_cy,
@@ -1633,7 +1648,7 @@ def svg_barres(lang, cle, titre, desc, valeurs, fmt, vmax, empile=None):
     return "".join(o)
 
 def pc_i(lang):
-    return lambda x: f"{round(x * 100)}{TXT_I[lang]['pc']}"
+    return lambda x: f"{r100(x)}{TXT_I[lang]['pc']}"
 def nb_i(lang):
     return lambda x: str(x).replace(".", ",") if lang == "fr" else str(x)
 
@@ -1664,3 +1679,12 @@ open("_data/compteur.yml", "w", encoding="utf-8").write(
     "# des autres, au sens de l'indice de Youden ; lignees = meilleure saison de chaque lignée mesurée.\n"
     + yaml.safe_dump(sortie_compteur, allow_unicode=True, sort_keys=False, width=1000))
 print(f"compteur : seuil {SEUIL_INDICE} (Youden {sortie_compteur['youden']}), {len(sortie_compteur['lignees'])} lignées")
+
+# Typographie anglaise des graphiques : pas d'espace avant « : » et « ; » (les gabarits ci-dessus sont écrits
+# à la française et partagés entre les langues).
+import glob as _glob
+for _f in _glob.glob("_includes/domination/*-en.svg") + _glob.glob("_includes/compteur/*-en.svg"):
+    _t = open(_f, encoding="utf-8").read()
+    _n = _t.replace(" : ", ": ").replace(" ; ", "; ")
+    if _n != _t:
+        open(_f, "w", encoding="utf-8").write(_n)

@@ -4,7 +4,7 @@ ordre: 2
 resume: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 description: "The five engineers who changed the grammar of F1, and the Chapman versus Barnard debate."
 ---
-Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear "before / after", diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
+Tier A brings together **paradigm revolutionaries**. Their records share several traits: a lasting change to the technical grammar of F1, a clear "before/after", diffusion across the whole grid, an identifiable personal contribution within often collective achievements, and an impact that goes beyond a single car or a single set of regulations.
 
 
 Contents

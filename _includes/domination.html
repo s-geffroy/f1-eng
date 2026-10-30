@@ -5,6 +5,7 @@ ecrasantes (saisons d'indice composite le plus élevé, avec include.unite), ing
 des écuries pendant la présence de chaque ingénieur, _data/compteur.yml),
 jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
 {%- assign lang_h = page.lang | default: site.lang | default: "fr" -%}
+{%- if lang_h == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T_h = site.data.i18n[lang_h] -%}
 {%- assign L_h = T_h.domination -%}
 {%- if lang_h == "en" -%}{%- assign D_h = site.data.en -%}{%- assign pc_h = "%" -%}{%- else -%}{%- assign D_h = site.data -%}{%- assign pc_h = " %" -%}{%- endif -%}
@@ -305,7 +306,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
       <td><a href="{{ url_e_h }}{{ h.id }}/">{{ e_h.nom }}</a> {{ h.debut }}–{{ h.fin }}</td>
       <td>
         {%- for i in h.ingenieurs -%}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}
-        {%- if h.ingenieurs_incertains.size > 0 %} ; <em>{{ L_h.incertains }}</em> : {% for i in h.ingenieurs_incertains -%}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}{%- endif -%}
+        {%- if h.ingenieurs_incertains.size > 0 %}{{ esp_ }}; <em>{{ L_h.incertains }}</em>{{ esp_ }}: {% for i in h.ingenieurs_incertains -%}{% include lien-entree.html id=i %}{% unless forloop.last %}, {% endunless %}{%- endfor -%}{%- endif -%}
         {%- if h.ingenieurs.size == 0 and h.ingenieurs_incertains.size == 0 -%}{{ L_h.aucun }}{%- endif -%}
       </td>
       <td>

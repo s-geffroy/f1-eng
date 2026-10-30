@@ -14,7 +14,7 @@ cycles:
     a: 1953
     contexte: "formule-2-championnat-1952"
     nom: "Le championnat en Formule 2"
-    nom_en: "The championship in Formula Two"
+    nom_en: "The championship run to Formula Two rules"
   - id: "1954"
     de: 1954
     a: 1960
@@ -49,8 +49,8 @@ cycles:
     de: 1994
     a: 2008
     contexte: "fin-aides-electroniques"
-    nom: "Sans aides électroniques"
-    nom_en: "Without electronic aids"
+    nom: "L'interdiction des aides électroniques"
+    nom_en: "The electronic-aids ban"
   - id: "2009"
     de: 2009
     a: 2013

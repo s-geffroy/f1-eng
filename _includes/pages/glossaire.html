@@ -1,5 +1,6 @@
 {%- comment -%} Page commune aux deux langues (voir _data/i18n.yml). {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- if lang == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign termes = D.glossaire | sort_natural: "terme" -%}
@@ -43,11 +44,11 @@
         {%- for j in jalons -%}{%- if j.termes contains t.id -%}{%- assign dates = dates | push: j -%}{%- endif -%}{%- endfor -%}
         {%- if dates.size > 0 %}
         <div><dt>{{ T.glossaire.chrono }}</dt><dd>
-          {%- for j in dates %}<a href="{{ T.url.chronologie | relative_url }}#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+          {%- for j in dates %}<a href="{{ T.url.chronologie | relative_url }}#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a>{% unless forloop.last %}{{ esp_ }}; {% endunless %}{% endfor -%}
         </dd></div>
         {%- endif %}
         <div><dt>{{ T.glossaire.sources }}</dt><dd>
-          {%- for s in t.sources %}<a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %} ; {% endunless %}{% endfor -%}
+          {%- for s in t.sources %}<a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }}; {% endunless %}{% endfor -%}
         </dd></div>
       </dl>
     </article>

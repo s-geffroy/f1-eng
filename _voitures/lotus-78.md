@@ -27,7 +27,7 @@ image: "/assets/partage/voitures/lotus-78.jpg"
 ---
 ## Ce qu'elle change
 
-Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="1" %}. Ses flancs ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}. La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile){% include src.html n="2" %}, avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs{% include src.html n="1" %}.
+Selon formula1.com, la Lotus 78 de 1977 fait entrer la F1 dans l'ère de l'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol){% include src.html n="1" %}. Ses [flancs]({{ site.baseurl }}/glossaire/#pontons) ne se contentent plus d'abriter les radiateurs : la place et l'inclinaison des radiateurs, et la forme des réservoirs logés à côté, dessinent à l'intérieur un canal en [venturi]({{ site.baseurl }}/glossaire/#venturi){% include src.html n="1" %}. La voiture devient une [aile inversée]({{ site.baseurl }}/glossaire/#voiture-aile){% include src.html n="2" %}, avec un [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) à la sortie des flancs{% include src.html n="1" %}.
 
 Pour fermer ce canal, elle est présentée avec des brosses, puis court avec des [jupes]({{ site.baseurl }}/glossaire/#jupes) en nylon rigide{% include src.html n="1" %}. La coque est légère et rigide, grâce à des panneaux en sandwich [nid d'abeille]({{ site.baseurl }}/glossaire/#nid-d-abeille) d'aluminium{% include src.html n="2" %}.
 

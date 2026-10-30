@@ -13,7 +13,7 @@ lignees: []
 voir_aussi: ["keith-duckworth"]
 portrait:
   fichier: "/assets/portraits/mike-costin.jpg"
-  legende: "Mike Costin, à gauche avec des notes, penché sur la Lotus Eleven de Colin Chapman ; John Crosthwaite à droite. Années 1950."
+  legende: "Colin Chapman au volant de sa Lotus Eleven, entre Mike Costin (à gauche, avec des notes) et John Crosthwaite (à droite, appuyé sur la voiture). Silverstone, essais de la course de Formule 2 du Grand Prix de Grande-Bretagne, juillet 1956."
   auteur: "J Crosthwaite (archives de la famille Crosthwaite, photographe non identifié)"
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
@@ -40,7 +40,7 @@ Mike Costin est **cofondateur de Cosworth**{% include src.html n="2,3" %}. Son r
 - Chez **de Havilland**, il conçoit des bancs d'essai, notamment pour l'avion de ligne Comet{% include src.html n="2" %}.
 - Il travaille avec [Colin Chapman]({{ site.baseurl }}{% link _ingenieurs/colin-chapman.md %}) à partir de janvier 1953, puis à plein temps chez **Lotus** à partir de janvier 1955{% include src.html n="2" %}. Il y devient l'adjoint de Chapman et le directeur technique de l'entreprise{% include src.html n="2" %}.
 - **Cosworth Engineering** est immatriculée le 30 septembre 1958{% include src.html n="2" %}. Costin ne la rejoint à plein temps qu'en août 1962, à l'expiration de son contrat avec Lotus{% include src.html n="2,4" %}.
-- Avant le DFV, Cosworth produit le **FVA** ; une version de 1500cm³, le **FVB**, sert à valider l'alésage et la course du DFV{% include src.html n="2" %}.
+- Avant le DFV, Cosworth produit le **FVA** ; une version de 1 500 cm³, le **FVB**, sert à valider l'alésage et la course du DFV{% include src.html n="2" %}.
 - Le premier **DFV** est livré en avril 1967, et le premier à piloter une voiture qui en est équipée est Mike Costin{% include src.html n="2" %}.
 - En 1969, il essaie à Silverstone la F1 à quatre roues motrices de Cosworth, qu'il juge lourde et épuisante à piloter ; elle ne courra jamais{% include src.html n="2,3" %}.
 - Il succède à Duckworth à la présidence de Cosworth en 1988, et prend sa retraite en 1990{% include src.html n="2,4" %}.

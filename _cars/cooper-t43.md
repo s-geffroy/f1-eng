@@ -47,7 +47,7 @@ Vanwall and BRM stayed away from Argentina: they had not had time to adapt their
 
 ## The race
 
-- The distance was cut from 400 to 313km, or 80 laps, because of the heat{% include src.html n="1" %}. Moss started seventh{% include src.html n="1,2,3" %}.
+- The distance was cut from 400 to 313 km, or 80 laps, because of the heat{% include src.html n="1" %}. Moss started seventh{% include src.html n="1,2,3" %}.
 - In the early laps he was stuck in second gear, losing about fifteen seconds before the lever freed itself{% include src.html n="3" %}.
 - The Cooper's wheels were held on by four nuts, Mark Hughes recalls: a tyre change would have taken two to three minutes, against less than a minute for the front-engined cars{% include src.html n="2" %}. The team chose not to stop{% include src.html n="2,3" %}. The tyres were only rated for 40 laps, according to Goodwood{% include src.html n="1" %}, and Moss finished on the canvas{% include src.html n="2,3" %}.
 - Mechanic Alf Francis made a show of preparing tyres in the pits and counted down to a stop that never came{% include src.html n="3" %}. The bluff delayed Ferrari's response{% include src.html n="2,3" %}.

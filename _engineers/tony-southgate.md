@@ -34,10 +34,10 @@ Tony Southgate is a prolific F1 designer of the 1970s, from BRM to Arrows{% incl
 
 ## Technical career
 
-- **BRM.** Chief designer for the 1970 season; at Spa, Pedro Rodriguez gave BRM its first win in four years{% include src.html n="1" %}. With his 1971 P160, the team finished second in the constructors' championship; in 1972, Jean-Pierre Beltoise won again with a revised P160{% include src.html n="1" %}.
+- **BRM.** Chief designer for the 1970 season; at Spa, Pedro Rodríguez gave BRM its first win in four years{% include src.html n="1" %}. With his 1971 P160, the team finished second in the constructors' championship; in 1972, Jean-Pierre Beltoise won again with a revised P160{% include src.html n="1" %}.
 - **Shadow.** He built the DN1 prototype in his garage, then the DN3 (1974) and DN5 (1975){% include src.html n="1" %}.
 - **Lotus (1976-1977).** He worked on the Lotus 77 and, with [Peter Wright]({{ site.baseurl }}{% link _engineers/peter-wright.md %}), on the development of the 78{% include src.html n="1" %}; from 1976, he was race engineer on Gunnar Nilsson's car{% include src.html n="2" %}.
-- **Arrows.** With his first Arrows judged to have been copied from the Shadow DN9, he drew a new car in 57 days{% include src.html n="3" %}. The 1979 Arrows A2 extended an idea discussed at Lotus: a car shaped entirely like a wing, without [wings]({{ site.baseurl }}/en/glossary/#aileron){% include src.html n="3" %}. According to Southgate, it produced 1600lb of [downforce]({{ site.baseurl }}/en/glossary/#appui) at 150mph, but its excessively high centre of gravity heavily penalised it{% include src.html n="3" %}.
+- **Arrows.** With his first Arrows judged to have been copied from the Shadow DN9, he drew a new car in 57 days{% include src.html n="3" %}. The 1979 Arrows A2 extended an idea discussed at Lotus: a car shaped entirely like a wing, without [wings]({{ site.baseurl }}/en/glossary/#aileron){% include src.html n="3" %}. According to Southgate, it produced 1,600 lb of [downforce]({{ site.baseurl }}/en/glossary/#appui) at 150 mph, but its excessively high centre of gravity heavily penalised it{% include src.html n="3" %}.
 - **Theodore.** He designed the TY01 for the 1981 season{% include src.html n="1" %}.
 
 ## The Lotus 78: setting the roles straight

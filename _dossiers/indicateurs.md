@@ -1,8 +1,8 @@
 ---
 title: "Indicateurs : ce que soixante-seize saisons de résultats disent de la F1"
 ordre: 8
-resume: "Quatre mesures tirées des 1149 Grands Prix de 1950 à 2025 : combien d'écuries se partagent les victoires, ce que pèse un moteur maison, ce que vaut une pole et combien de temps dure une voiture gagnante."
-description: "Quatre mesures tirées des 1149 Grands Prix de 1950 à 2025 : combien d'écuries se partagent les victoires, ce que pèse un moteur maison, ce que vaut une pole et combien de temps dure une voiture gagnante."
+resume: "Quatre mesures tirées des 1 149 Grands Prix de 1950 à 2025 : combien d'écuries se partagent les victoires, ce que pèse un moteur maison, ce que vaut une pole et combien de temps dure une voiture gagnante."
+description: "Quatre mesures tirées des 1 149 Grands Prix de 1950 à 2025 : combien d'écuries se partagent les victoires, ce que pèse un moteur maison, ce que vaut une pole et combien de temps dure une voiture gagnante."
 ---
 {%- assign I = site.data.compteur.indicateurs -%}
 {%- assign OD = I.ouverture.decennies -%}
@@ -16,7 +16,7 @@ description: "Quatre mesures tirées des 1149 Grands Prix de 1950 à 2025 : comb
 {%- assign RE = I.ouverture.record_ecuries -%}
 {%- assign RT = I.pole.ecuries | where: "id", "renault-1977" | first -%}
 {%- assign RB = I.pole.ecuries | where: "id", "red-bull" | first -%}
-Le [dossier Domination]({{ site.baseurl }}/dossiers/domination/) cherche qui domine, et quand. Ce dossier part des mêmes résultats, les {{ I.client.gp }} Grands Prix du championnat de 1950 à 2025, et pose quatre autres questions :
+Le [dossier Domination]({{ site.baseurl }}/dossiers/domination/) cherche qui domine, et quand. Ce dossier part des mêmes résultats, les {% include nombre.html n=I.client.gp %} Grands Prix du championnat de 1950 à 2025, et pose quatre autres questions :
 
 1. La F1 est-elle plus fermée qu'avant ?
 2. Faut-il construire son moteur pour gagner ?
@@ -30,7 +30,7 @@ Chaque mesure est calculée par décennie et par [cycle réglementaire]({{ site.
 - **La F1 la plus ouverte est celle des années 1970 et 1980.** En moyenne, {{ OD[2].effectif | replace: ".", "," }} écuries « effectives » se partagent les victoires dans les années 1970, contre {{ OD[6].effectif | replace: ".", "," }} depuis 2010. La saison la plus ouverte est {{ O0.annee }}, avec {{ RE.ecuries }} écuries et {{ RE.pilotes }} pilotes vainqueurs ; la plus fermée, {{ F0.annee }}.
 - **Le moteur maison a disparu, puis il est revenu.** De 1960 à 1999, plus de trois victoires sur quatre reviennent à une écurie qui reçoit son moteur d'un motoriste. Dans les années 2000 et 2010, l'écurie qui construit aussi son moteur gagne environ six courses sur dix ({{ MD[5].part_maison | times: 100 | round }} % puis {{ MD[6].part_maison | times: 100 | round }} %).
 - **La pole vaut plus qu'avant.** Le pilote parti en pole gagne {{ I.pole.taux | times: 100 | round }} % des Grands Prix. Ce taux tombe à {{ PD[3].taux | times: 100 | round }} % dans les années 1980 et monte à {{ PD[7].taux | times: 100 | round }} % depuis 2020.
-- **Les voitures gagnent davantage, mais ne durent plus.** Une voiture gagnante remporte en moyenne {{ VD[0].victoires_par_modele | replace: ".", "," }} Grands Prix dans les années 1950, {{ VD[7].victoires_par_modele | replace: ".", "," }} depuis 2020. Jusqu'aux années 1980, près d'une victoire sur trois revient à une voiture déjà gagnante la saison précédente ; depuis 2004, cela n'arrive presque plus.
+- **Les voitures gagnent davantage, mais ne durent plus.** Une voiture gagnante remporte en moyenne {{ VD[0].victoires_par_modele | replace: ".", "," }} Grands Prix dans les années 1950, {{ VD[7].victoires_par_modele | replace: ".", "," }} depuis 2020. Jusqu'aux années 1980, près d'une victoire sur trois revient à une voiture déjà gagnante lors d'une saison précédente ; depuis 2004, cela n'arrive presque plus.
 
 Sommaire
 {:.sommaire-titre}
@@ -49,10 +49,10 @@ Compter les écuries qui gagnent au moins une course ne suffit pas : une saison 
 
 - **Le sommet est au tournant des années 1980.** {{ O0.annee }} est la saison la plus ouverte de l'histoire : {{ RE.ecuries }} écuries et {{ RE.pilotes }} pilotes différents gagnent l'une des {{ RE.gp }} courses, et le nombre effectif atteint {{ O0.effectif | replace: ".", "," }}. Les quatre saisons suivantes du classement datent de la même époque : {{ I.ouverture.plus_ouvertes[1].annee }}, {{ I.ouverture.plus_ouvertes[2].annee }}, {{ I.ouverture.plus_ouvertes[3].annee }} et {{ I.ouverture.plus_ouvertes[4].annee }}.
 - **Deux des trois saisons les plus fermées sont récentes.** En {{ F0.annee }}, le nombre effectif tombe à {{ F0.effectif | replace: ".", "," }} ; viennent ensuite {{ F1.annee }} ({{ F1.effectif | replace: ".", "," }}) et {{ F2.annee }} ({{ F2.effectif | replace: ".", "," }}).
-- **Depuis les années 1990, l'ouverture plafonne.** Le nombre effectif moyen ne dépasse plus {{ OD[4].effectif | replace: ".", "," }} par décennie, alors que le calendrier compte deux fois plus de courses qu'en 1970. Plus de courses ne disperse pas davantage les victoires.
+- **Depuis les années 1990, l'ouverture plafonne.** Le nombre effectif moyen ne dépasse plus {{ OD[4].effectif | replace: ".", "," }} par décennie, alors que le calendrier compte deux fois plus de courses qu'en 1970. Plus de courses ne dispersent pas davantage les victoires.
 - **Les titres se jouent rarement de près.** L'écart au titre constructeurs est la part des points du champion qui manque au deuxième. Il est en moyenne de {{ OD[2].ecart_titre | times: 100 | round }} % dans les années 1970, de {{ OD[3].ecart_titre | times: 100 | round }} % dans les années 1980 et de {{ OD[7].ecart_titre | times: 100 | round }} % depuis 2020.
 
-Le constat rejoint celui du [dossier Cycles]({{ site.baseurl }}/dossiers/cycles/) : les deux cycles les plus longs, 1954-1960 et 1966-1982, sont aussi les plus ouverts.
+Le constat nuance celui du [dossier Cycles]({{ site.baseurl }}/dossiers/cycles/) : les deux cycles où l'écurie dominante gagne le moins, 1954-1960 et 1966-1982, ne sont pas tous deux parmi les plus ouverts au sens du nombre effectif : 1966-1982, le plus long, l'est plus que tout autre, mais 1954-1960 n'arrive qu'au cinquième rang sur onze.
 
 ## Faut-il construire son moteur pour gagner ?
 
@@ -106,11 +106,11 @@ Le [dossier Domination]({{ site.baseurl }}/dossiers/domination/#les-voitures) re
 
 ## Méthode et limites
 
-- **Les victoires partagées comptent une fois**, comme dans tout le site : {{ I.client.gp }} Grands Prix de 1950 à 2025.
+- **Les victoires partagées comptent une fois**, comme dans tout le site : {% include nombre.html n=I.client.gp %} Grands Prix de 1950 à 2025.
 - **Les 500 miles d'Indianapolis comptent de 1950 à 1960**, comme au championnat. Leurs vainqueurs, tous à moteur Offenhauser, sont comptés sans moteur maison.
 - **L'écart au titre constructeurs** n'existe que depuis 1958 : la moyenne des années 1950 ne porte que sur 1958 et 1959, et les deux premiers cycles n'en ont pas.
 - **Moteur maison** : la liste des écuries qui construisent leur moteur est écrite dans `outils/domination.py`. Les moteurs badgés sont rendus à leur constructeur : le moteur RBPT de 2022 à 2025 est un Honda. BMW-Sauber (2006-2009, propriété de BMW) compte comme moteur maison. Un partenariat d'usine compte comme moteur d'un motoriste, même quand le motoriste est actionnaire de l'écurie : McLaren-Mercedes, par exemple.
-- **Le nombre de victoires par voiture** dépend de la longueur des saisons : 7 à 9 Grands Prix dans les années 1950, plus de 20 aujourd'hui. Les deux autres mesures de voitures, voitures par saison et voitures reconduites, n'en dépendent pas.
+- **Le nombre de victoires par voiture** dépend de la longueur des saisons : 7 à 11 Grands Prix dans les années 1950, plus de 20 aujourd'hui. Les deux autres mesures de voitures, voitures par saison et voitures reconduites, n'en dépendent pas.
 - **Une évolution sans lettre finale** (Ferrari 312T2 après la 312T) compte comme une nouvelle voiture, comme dans le dossier Domination.
 
 ## Sources

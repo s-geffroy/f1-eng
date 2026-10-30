@@ -11,8 +11,22 @@ import yaml
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 
+def fusion(segs):
+    """Segments triés par année, les segments contigus fusionnés (une écurie peut figurer dans plusieurs lignées)."""
+    out = []
+    for s in sorted(segs, key=lambda s: s["de"]):
+        if out and s["de"] <= out[-1]["a"] + 1:
+            out[-1]["a"] = max(out[-1]["a"], s["a"])
+        else:
+            out.append({"de": s["de"], "a": s["a"]})
+    return out
+
 def saisons(segs):
-    return ", ".join(f"{s['de']}" if s["de"] == s["a"] else f"{s['de']}–{s['a']}" for s in segs)
+    return ", ".join(f"{s['de']}" if s["de"] == s["a"] else f"{s['de']}–{s['a']}" for s in fusion(segs))
+
+def pluriel(segs, mot):
+    f = fusion(segs)
+    return mot if len(f) == 1 and f[0]["de"] == f[0]["a"] else mot + "s"
 
 for lang, donnees, dossier in (("fr", "_data/ecuries.yml", "_ecuries"), ("en", "_data/en/ecuries.yml", "_teams")):
     E = yaml.safe_load(open(donnees, encoding="utf-8"))
@@ -23,11 +37,11 @@ for lang, donnees, dossier in (("fr", "_data/ecuries.yml", "_ecuries"), ("en", "
         segs = [s for l in E["lignees"] for s in l["segments"] if s["ecurie"] == e["id"]]
         lignee = next(l for l in E["lignees"] if any(s["ecurie"] == e["id"] for s in l["segments"]))
         if lang == "fr":
-            desc = f"{e['nom']} : écurie de Formule 1, saisons {saisons(segs)}"
+            desc = f"{e['nom']} : écurie de Formule 1, {pluriel(segs, 'saison')} {saisons(segs)}"
             if len(lignee["segments"]) > 1:
                 desc += f" ; lignée {lignee['nom']}"
         else:
-            desc = f"{e['nom']}: Formula 1 team, seasons {saisons(segs)}"
+            desc = f"{e['nom']}: Formula 1 team, {pluriel(segs, 'season')} {saisons(segs)}"
             if len(lignee["segments"]) > 1:
                 desc += f"; lineage {lignee['nom']}"
         fm = {"title": e["nom"], "nom_tri": e["nom"].lower(), "saisons": saisons(segs), "description": desc + "."}
