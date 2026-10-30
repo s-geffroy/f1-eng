@@ -10,6 +10,7 @@ redirect_from: "/dossiers/hegemonies/"
 {%- assign EF = H.effectifs -%}
 {%- assign CP = site.data.compteur -%}
 {%- assign CR = site.data.croisement -%}
+{%- assign TK = site.data.technologies.technologies -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -171,6 +172,26 @@ L'indice composite permet aussi de comparer les saisons entre elles, indépendam
 Les années 1950 figurent en bonne place, mais avec peu de courses : Ferrari gagne en 1952 sept des huit Grands Prix, dont les 500 miles d'Indianapolis où elle ne s'impose pas. Depuis, seules McLaren en 1988 et Mercedes en 2014-2016 approchent ce niveau sur une saison complète. Chez les pilotes, aucune saison n'atteint 60 : un pilote partage toujours le podium avec son coéquipier.
 
 {% include domination.html quoi="ecrasantes" unite="pilote" %}
+
+## Domination technique
+
+Une écurie peut dominer, mais une technologie aussi. On suit neuf innovations de la [chronologie]({{ site.baseurl }}/chronologie/), du moteur arrière à la récupération d'énergie. Pour chaque Grand Prix, on note si la voiture gagnante l'utilise ; la part des victoires mesure alors la domination de la technologie, saison par saison. Hors des fenêtres de transition, tous les gagnants l'ont, ou aucun : le moteur arrière après 1961, l'effet de sol interdit de 1983 à 2021. Pendant ces fenêtres, chaque écurie gagnante est classée une à une, sources à l'appui ({{ TK.size }} technologies, {% assign n_tk = 0 %}{% for t in TK %}{% assign n_tk = n_tk | plus: t.cas.size %}{% endfor %}{{ n_tk }} classements).
+
+<figure class="figure">
+{% include domination/technologies-fr.svg %}
+<figcaption>La diffusion des neuf technologies : part des Grands Prix gagnés par des voitures qui l'utilisent. Trait vertical : le jalon. Fond bleu : les saisons où le pionnier est seul à gagner avec elle.</figcaption>
+</figure>
+
+{% include domination.html quoi="technologies" %}
+
+Quatre constats :
+
+- **Le pionnier n'est jamais seul longtemps.** Au plus deux saisons, et souvent moins : les ailerons sont copiés dans la saison même, en 1968.
+- **Une technologie gagnante conquiert la moitié des victoires en trois ans au plus**, sauf la suspension active, et presque toutes en un peu plus de trois ans en moyenne. Les ailerons vont le plus vite (un an), puis l'effet de sol et la récupération d'énergie (deux ans).
+- **Les plus lentes sont les plus complexes** : six ans pour la suspension active, de la Lotus de 1987 à la Williams de 1993, et cinq pour le turbo, de la Renault de 1979 aux gagnants de 1984. Elles demandent un motoriste ou une électronique qu'on ne copie pas d'une course à l'autre.
+- **Innover ne garantit pas de dominer.** Cooper, puis Lotus avec la monocoque et les ailerons, enchaînent des saisons dominantes juste après leur innovation. Mais Renault n'est jamais championne avec le turbo, Ferrari ne l'est pas avec la boîte semi-automatique, et McLaren ne domine qu'en 1984, trois ans après sa monocoque carbone, avec la MP4/2 et le moteur TAG-Porsche. Lotus tire de l'effet de sol un titre, en 1978, sans domination durable.
+
+Deux conventions de classement sont des choix : une semi-monocoque (treillis habillé de panneaux d'aluminium travaillants, chez Ferrari et BRM) compte comme une monocoque ; les ailerons comprennent les ailettes de nez. Les autres cas discutables sont détaillés dans les données du site, chacun avec sa source.
 
 ## Le compteur de domination
 

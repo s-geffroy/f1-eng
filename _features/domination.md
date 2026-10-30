@@ -10,6 +10,7 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign EF = H.effectifs -%}
 {%- assign CP = site.data.compteur -%}
 {%- assign CR = site.data.croisement -%}
+{%- assign TK = site.data.technologies.technologies -%}
 {%- assign TJ = H.temoin_jalons -%}
 {%- assign BI = H.bilan_ingenieurs -%}
 {%- assign TR = H.temoin_reglement -%}
@@ -171,6 +172,26 @@ The composite index also makes it possible to compare seasons with each other, r
 The 1950s rank high, but with few races: in 1952 Ferrari wins seven of the eight Grands Prix, the eighth being the Indianapolis 500, which it does not win. Since then, only McLaren in 1988 and Mercedes in 2014-2016 come close over a full season. Among drivers, no season reaches 60: a driver always shares the podium with a team-mate.
 
 {% include domination.html quoi="ecrasantes" unite="pilote" %}
+
+## Technical dominance
+
+A team can dominate, but so can a technology. Nine innovations from the [timeline]({{ site.baseurl }}/en/timeline/) are followed, from the rear engine to energy recovery. For each Grand Prix, we note whether the winning car uses it; the share of wins then measures the technology's dominance, season by season. Outside the transition windows, every winner has it, or none: the rear engine after 1961, ground effect banned from 1983 to 2021. Within those windows, each winning team is classified one by one, with sources ({{ TK.size }} technologies, {% assign n_tk = 0 %}{% for t in TK %}{% assign n_tk = n_tk | plus: t.cas.size %}{% endfor %}{{ n_tk }} classifications).
+
+<figure class="figure">
+{% include domination/technologies-en.svg %}
+<figcaption>The spread of the nine technologies: share of Grands Prix won by cars using them. Vertical line: the milestone. Blue background: the seasons when the pioneer alone wins with it.</figcaption>
+</figure>
+
+{% include domination.html quoi="technologies" %}
+
+Four findings:
+
+- **The pioneer is never alone for long.** Two seasons at most, often less: wings are copied within the same season, in 1968.
+- **A winning technology takes half the wins within three years at most**, except active suspension, and almost all of them in just over three years on average. Wings spread fastest (one year), then ground effect and energy recovery (two years).
+- **The slowest are the most complex**: six years for active suspension, from the 1987 Lotus to the 1993 Williams, and five for the turbo, from the 1979 Renault to the winners of 1984. They require an engine maker or electronics that cannot be copied from one race to the next.
+- **Innovating does not guarantee dominating.** Cooper, then Lotus with the monocoque and wings, string together dominant seasons right after their innovation. But Renault is never champion with the turbo, Ferrari is not with the semi-automatic gearbox, and McLaren only dominates from 1984, three years after its carbon monocoque, with the MP4/2 and the TAG-Porsche engine. Lotus draws one title from ground effect, in 1978, without lasting dominance.
+
+Two classification conventions are choices: a semi-monocoque (a frame clad in stressed aluminium panels, at Ferrari and BRM) counts as a monocoque; wings include nose fins. The other debatable cases are detailed in the site's data, each with its source.
 
 ## The dominance gauge
 

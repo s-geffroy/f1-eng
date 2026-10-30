@@ -105,6 +105,28 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 <p class="note-tableau"><sup>*</sup> {{ L_h.non_dates }}</p>
 
+{%- elsif include.quoi == "technologies" -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_techno }}"><table>
+<caption>{{ L_h.cap_techno }}</caption>
+  <thead><tr><th scope="col">{{ L_h.techno }}</th><th scope="col">{{ L_h.jalon }}</th><th scope="col">{{ L_h.premiere_victoire }}</th><th scope="col">{{ L_h.pionnier_seul }}</th><th scope="col">{{ L_h.a50 }}</th><th scope="col">{{ L_h.a90 }}</th><th scope="col">{{ L_h.dom_pionnier }}</th></tr></thead>
+  <tbody>
+  {%- for t in site.data.compteur.technologies %}
+    {%- assign td_h = site.data.technologies.technologies | where: "id", t.id | first -%}
+    {%- assign jj_h = D_h.chronologie.jalons | where: "id", t.jalon | first -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", t.premiere.ecurie | first -%}
+    <tr>
+      <td>{% if lang_h == "en" %}{{ td_h.nom_en }}{% else %}{{ td_h.nom }}{% endif %}</td>
+      <td><a href="{{ url_c_h }}#j-{{ t.jalon }}">{{ jj_h.titre }}</a> ({{ t.annee_jalon }})</td>
+      <td>{{ t.premiere.annee }}, <a href="{{ url_e_h }}{{ t.premiere.ecurie }}/">{{ e_h.nom | split: " (" | first }}</a></td>
+      <td>{{ t.exclusivite }}</td>
+      <td>{% if t.a50 %}{{ t.a50 }} (+{{ t.delai50 }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+      <td>{% if t.a90 %}{{ t.a90 }} (+{{ t.delai90 }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+      <td>{% if t.domination_pionnier %}{% assign cle_d_h = "degre_" | append: t.domination_pionnier.degre %}{{ t.domination_pionnier.debut }}–{{ t.domination_pionnier.fin }} ({{ L_h[cle_d_h] }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "jalons" -%}
 <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_jalons }}"><table>
 <caption>{{ L_h.cap_jalons }}</caption>

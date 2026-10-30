@@ -229,6 +229,9 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 - Compteur de domination des fiches ecuries : `_includes/compteur/<lignee>-<langue>.svg` et
   `_data/compteur.yml` (seuil calibre), generes par `outils/domination.py`. Indice composite =
   moyenne des parts de victoires, de poles et de places sur le podium ; ne pas editer.
+- `_data/technologies.yml` : saisi a la main, chaque cas source ; technologie de la voiture
+  gagnante pendant les fenetres de transition (domination technique). Une victoire non classee
+  arrete domination.py.
 - Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
 
 ### Regles de contenu

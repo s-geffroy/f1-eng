@@ -1174,3 +1174,3306 @@ ingenieurs:
     sejours_non_dates: 0
   non_dates: 44
   ingenieurs_partiels: 24
+technologies:
+- id: moteur-arriere
+  jalon: cooper-argentine
+  annee_jalon: 1958
+  premiere:
+    annee: 1958
+    gp: Argentina
+    ecurie: cooper
+  exclusivite: 2
+  a50: 1959
+  a90: 1961
+  delai50: 1
+  delai90: 3
+  domination_pionnier:
+    debut: 1959
+    fin: 1960
+    degre: domination
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.182
+    ecuries:
+    - cooper
+  - annee: 1959
+    part: 0.556
+    ecuries:
+    - cooper
+  - annee: 1960
+    part: 0.8
+    ecuries:
+    - cooper
+    - team-lotus
+  - annee: 1961
+    part: 1.0
+    ecuries:
+    - ferrari
+    - team-lotus
+  - annee: 1962
+    part: 1.0
+    ecuries:
+    - brm
+    - cooper
+    - porsche
+    - team-lotus
+  - annee: 1963
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - team-lotus
+  - annee: 1964
+    part: 1.0
+    ecuries:
+    - brabham
+    - brm
+    - ferrari
+    - team-lotus
+  - annee: 1965
+    part: 1.0
+    ecuries:
+    - brm
+    - honda-1964
+    - team-lotus
+  - annee: 1966
+    part: 1.0
+    ecuries:
+    - brabham
+    - brm
+    - cooper
+    - ferrari
+    - team-lotus
+  - annee: 1967
+    part: 1.0
+    ecuries:
+    - brabham
+    - cooper
+    - eagle
+    - honda-1964
+    - team-lotus
+  - annee: 1968
+    part: 1.0
+    ecuries:
+    - ferrari
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1969
+    part: 1.0
+    ecuries:
+    - brabham
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1970
+    part: 1.0
+    ecuries:
+    - brabham
+    - brm
+    - ferrari
+    - march
+    - team-lotus
+  - annee: 1971
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - tyrrell
+  - annee: 1972
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1973
+    part: 1.0
+    ecuries:
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1974
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1975
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - hesketh
+    - march
+    - mclaren
+    - tyrrell
+  - annee: 1976
+    part: 1.0
+    ecuries:
+    - ferrari
+    - march
+    - mclaren
+    - penske
+    - team-lotus
+    - tyrrell
+  - annee: 1977
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - mclaren
+    - shadow
+    - team-lotus
+    - wolf
+  - annee: 1978
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - team-lotus
+    - tyrrell
+  - annee: 1979
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1980
+    part: 1.0
+    ecuries:
+    - brabham
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1981
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - ligier
+    - mclaren
+    - renault-1977
+    - williams
+  - annee: 1982
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - team-lotus
+    - tyrrell
+    - williams
+  - annee: 1983
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - tyrrell
+    - williams
+  - annee: 1984
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1985
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1986
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1987
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1989
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1990
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1991
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1992
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1995
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1996
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - williams
+  - annee: 1997
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1998
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+  - annee: 1999
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - stewart
+  - annee: 2000
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2001
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2002
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2003
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - renault
+    - williams
+  - annee: 2004
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+    - williams
+  - annee: 2005
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+  - annee: 2006
+    part: 1.0
+    ecuries:
+    - ferrari
+    - honda
+    - renault
+  - annee: 2007
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2008
+    part: 1.0
+    ecuries:
+    - bmw-sauber
+    - ferrari
+    - mclaren
+    - renault
+    - toro-rosso
+  - annee: 2009
+    part: 1.0
+    ecuries:
+    - brawn
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2010
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2011
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: monocoque
+  jalon: lotus-25
+  annee_jalon: 1962
+  premiere:
+    annee: 1962
+    gp: Belgium
+    ecurie: team-lotus
+  exclusivite: 2
+  a50: 1963
+  a90: 1965
+  delai50: 1
+  delai90: 3
+  domination_pionnier:
+    debut: 1963
+    fin: 1965
+    degre: domination
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.333
+    ecuries:
+    - team-lotus
+  - annee: 1963
+    part: 0.7
+    ecuries:
+    - team-lotus
+  - annee: 1964
+    part: 0.8
+    ecuries:
+    - brm
+    - ferrari
+    - team-lotus
+  - annee: 1965
+    part: 1.0
+    ecuries:
+    - brm
+    - honda-1964
+    - team-lotus
+  - annee: 1966
+    part: 0.556
+    ecuries:
+    - brm
+    - cooper
+    - ferrari
+    - team-lotus
+  - annee: 1967
+    part: 0.636
+    ecuries:
+    - cooper
+    - eagle
+    - honda-1964
+    - team-lotus
+  - annee: 1968
+    part: 1.0
+    ecuries:
+    - ferrari
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1969
+    part: 0.818
+    ecuries:
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1970
+    part: 1.0
+    ecuries:
+    - brabham
+    - brm
+    - ferrari
+    - march
+    - team-lotus
+  - annee: 1971
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - tyrrell
+  - annee: 1972
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1973
+    part: 1.0
+    ecuries:
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1974
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1975
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - hesketh
+    - march
+    - mclaren
+    - tyrrell
+  - annee: 1976
+    part: 1.0
+    ecuries:
+    - ferrari
+    - march
+    - mclaren
+    - penske
+    - team-lotus
+    - tyrrell
+  - annee: 1977
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - mclaren
+    - shadow
+    - team-lotus
+    - wolf
+  - annee: 1978
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - team-lotus
+    - tyrrell
+  - annee: 1979
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1980
+    part: 1.0
+    ecuries:
+    - brabham
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1981
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - ligier
+    - mclaren
+    - renault-1977
+    - williams
+  - annee: 1982
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - team-lotus
+    - tyrrell
+    - williams
+  - annee: 1983
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - tyrrell
+    - williams
+  - annee: 1984
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1985
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1986
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1987
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1989
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1990
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1991
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1992
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1995
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1996
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - williams
+  - annee: 1997
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1998
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+  - annee: 1999
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - stewart
+  - annee: 2000
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2001
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2002
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2003
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - renault
+    - williams
+  - annee: 2004
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+    - williams
+  - annee: 2005
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+  - annee: 2006
+    part: 1.0
+    ecuries:
+    - ferrari
+    - honda
+    - renault
+  - annee: 2007
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2008
+    part: 1.0
+    ecuries:
+    - bmw-sauber
+    - ferrari
+    - mclaren
+    - renault
+    - toro-rosso
+  - annee: 2009
+    part: 1.0
+    ecuries:
+    - brawn
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2010
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2011
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: ailerons
+  jalon: ailerons
+  annee_jalon: 1968
+  premiere:
+    annee: 1968
+    gp: Monaco
+    ecurie: team-lotus
+  exclusivite: 0
+  a50: 1968
+  a90: 1969
+  delai50: 0
+  delai90: 1
+  domination_pionnier:
+    debut: 1968
+    fin: 1973
+    degre: domination
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.833
+    ecuries:
+    - ferrari
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1969
+    part: 1.0
+    ecuries:
+    - brabham
+    - matra
+    - mclaren
+    - team-lotus
+  - annee: 1970
+    part: 1.0
+    ecuries:
+    - brabham
+    - brm
+    - ferrari
+    - march
+    - team-lotus
+  - annee: 1971
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - tyrrell
+  - annee: 1972
+    part: 1.0
+    ecuries:
+    - brm
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1973
+    part: 1.0
+    ecuries:
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1974
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - tyrrell
+  - annee: 1975
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - hesketh
+    - march
+    - mclaren
+    - tyrrell
+  - annee: 1976
+    part: 1.0
+    ecuries:
+    - ferrari
+    - march
+    - mclaren
+    - penske
+    - team-lotus
+    - tyrrell
+  - annee: 1977
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - mclaren
+    - shadow
+    - team-lotus
+    - wolf
+  - annee: 1978
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - team-lotus
+    - tyrrell
+  - annee: 1979
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1980
+    part: 1.0
+    ecuries:
+    - brabham
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1981
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - ligier
+    - mclaren
+    - renault-1977
+    - williams
+  - annee: 1982
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - team-lotus
+    - tyrrell
+    - williams
+  - annee: 1983
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - tyrrell
+    - williams
+  - annee: 1984
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1985
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1986
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1987
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1989
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1990
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1991
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1992
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1995
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1996
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - williams
+  - annee: 1997
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1998
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+  - annee: 1999
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - stewart
+  - annee: 2000
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2001
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2002
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2003
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - renault
+    - williams
+  - annee: 2004
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+    - williams
+  - annee: 2005
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+  - annee: 2006
+    part: 1.0
+    ecuries:
+    - ferrari
+    - honda
+    - renault
+  - annee: 2007
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2008
+    part: 1.0
+    ecuries:
+    - bmw-sauber
+    - ferrari
+    - mclaren
+    - renault
+    - toro-rosso
+  - annee: 2009
+    part: 1.0
+    ecuries:
+    - brawn
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2010
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2011
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: effet-de-sol
+  jalon: lotus-78
+  annee_jalon: 1977
+  premiere:
+    annee: 1977
+    gp: United States of America USA West
+    ecurie: team-lotus
+  exclusivite: 1
+  a50: 1978
+  a90: 1979
+  delai50: 1
+  delai90: 2
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.294
+    ecuries:
+    - team-lotus
+  - annee: 1978
+    part: 0.562
+    ecuries:
+    - brabham
+    - team-lotus
+  - annee: 1979
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1980
+    part: 1.0
+    ecuries:
+    - brabham
+    - ligier
+    - renault-1977
+    - williams
+  - annee: 1981
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - ligier
+    - mclaren
+    - renault-1977
+    - williams
+  - annee: 1982
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - renault-1977
+    - team-lotus
+    - tyrrell
+    - williams
+  - annee: 1983
+    part: 0.0
+    ecuries: []
+  - annee: 1984
+    part: 0.0
+    ecuries: []
+  - annee: 1985
+    part: 0.0
+    ecuries: []
+  - annee: 1986
+    part: 0.0
+    ecuries: []
+  - annee: 1987
+    part: 0.0
+    ecuries: []
+  - annee: 1988
+    part: 0.0
+    ecuries: []
+  - annee: 1989
+    part: 0.0
+    ecuries: []
+  - annee: 1990
+    part: 0.0
+    ecuries: []
+  - annee: 1991
+    part: 0.0
+    ecuries: []
+  - annee: 1992
+    part: 0.0
+    ecuries: []
+  - annee: 1993
+    part: 0.0
+    ecuries: []
+  - annee: 1994
+    part: 0.0
+    ecuries: []
+  - annee: 1995
+    part: 0.0
+    ecuries: []
+  - annee: 1996
+    part: 0.0
+    ecuries: []
+  - annee: 1997
+    part: 0.0
+    ecuries: []
+  - annee: 1998
+    part: 0.0
+    ecuries: []
+  - annee: 1999
+    part: 0.0
+    ecuries: []
+  - annee: 2000
+    part: 0.0
+    ecuries: []
+  - annee: 2001
+    part: 0.0
+    ecuries: []
+  - annee: 2002
+    part: 0.0
+    ecuries: []
+  - annee: 2003
+    part: 0.0
+    ecuries: []
+  - annee: 2004
+    part: 0.0
+    ecuries: []
+  - annee: 2005
+    part: 0.0
+    ecuries: []
+  - annee: 2006
+    part: 0.0
+    ecuries: []
+  - annee: 2007
+    part: 0.0
+    ecuries: []
+  - annee: 2008
+    part: 0.0
+    ecuries: []
+  - annee: 2009
+    part: 0.0
+    ecuries: []
+  - annee: 2010
+    part: 0.0
+    ecuries: []
+  - annee: 2011
+    part: 0.0
+    ecuries: []
+  - annee: 2012
+    part: 0.0
+    ecuries: []
+  - annee: 2013
+    part: 0.0
+    ecuries: []
+  - annee: 2014
+    part: 0.0
+    ecuries: []
+  - annee: 2015
+    part: 0.0
+    ecuries: []
+  - annee: 2016
+    part: 0.0
+    ecuries: []
+  - annee: 2017
+    part: 0.0
+    ecuries: []
+  - annee: 2018
+    part: 0.0
+    ecuries: []
+  - annee: 2019
+    part: 0.0
+    ecuries: []
+  - annee: 2020
+    part: 0.0
+    ecuries: []
+  - annee: 2021
+    part: 0.0
+    ecuries: []
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: turbo
+  jalon: turbo-victoire
+  annee_jalon: 1979
+  premiere:
+    annee: 1979
+    gp: France
+    ecurie: renault-1977
+  exclusivite: 2
+  a50: 1982
+  a90: 1984
+  delai50: 3
+  delai90: 5
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.0
+    ecuries: []
+  - annee: 1978
+    part: 0.0
+    ecuries: []
+  - annee: 1979
+    part: 0.067
+    ecuries:
+    - renault-1977
+  - annee: 1980
+    part: 0.214
+    ecuries:
+    - renault-1977
+  - annee: 1981
+    part: 0.333
+    ecuries:
+    - ferrari
+    - renault-1977
+  - annee: 1982
+    part: 0.5
+    ecuries:
+    - brabham
+    - ferrari
+    - renault-1977
+  - annee: 1983
+    part: 0.8
+    ecuries:
+    - brabham
+    - ferrari
+    - renault-1977
+  - annee: 1984
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1985
+    part: 1.0
+    ecuries:
+    - brabham
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1986
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1987
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1989
+    part: 0.0
+    ecuries: []
+  - annee: 1990
+    part: 0.0
+    ecuries: []
+  - annee: 1991
+    part: 0.0
+    ecuries: []
+  - annee: 1992
+    part: 0.0
+    ecuries: []
+  - annee: 1993
+    part: 0.0
+    ecuries: []
+  - annee: 1994
+    part: 0.0
+    ecuries: []
+  - annee: 1995
+    part: 0.0
+    ecuries: []
+  - annee: 1996
+    part: 0.0
+    ecuries: []
+  - annee: 1997
+    part: 0.0
+    ecuries: []
+  - annee: 1998
+    part: 0.0
+    ecuries: []
+  - annee: 1999
+    part: 0.0
+    ecuries: []
+  - annee: 2000
+    part: 0.0
+    ecuries: []
+  - annee: 2001
+    part: 0.0
+    ecuries: []
+  - annee: 2002
+    part: 0.0
+    ecuries: []
+  - annee: 2003
+    part: 0.0
+    ecuries: []
+  - annee: 2004
+    part: 0.0
+    ecuries: []
+  - annee: 2005
+    part: 0.0
+    ecuries: []
+  - annee: 2006
+    part: 0.0
+    ecuries: []
+  - annee: 2007
+    part: 0.0
+    ecuries: []
+  - annee: 2008
+    part: 0.0
+    ecuries: []
+  - annee: 2009
+    part: 0.0
+    ecuries: []
+  - annee: 2010
+    part: 0.0
+    ecuries: []
+  - annee: 2011
+    part: 0.0
+    ecuries: []
+  - annee: 2012
+    part: 0.0
+    ecuries: []
+  - annee: 2013
+    part: 0.0
+    ecuries: []
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: composite-carbone
+  jalon: mp4-1
+  annee_jalon: 1981
+  premiere:
+    annee: 1981
+    gp: Great Britain
+    ecurie: mclaren
+  exclusivite: 1
+  a50: 1984
+  a90: 1985
+  delai50: 3
+  delai90: 4
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.0
+    ecuries: []
+  - annee: 1978
+    part: 0.0
+    ecuries: []
+  - annee: 1979
+    part: 0.0
+    ecuries: []
+  - annee: 1980
+    part: 0.0
+    ecuries: []
+  - annee: 1981
+    part: 0.067
+    ecuries:
+    - mclaren
+  - annee: 1982
+    part: 0.312
+    ecuries:
+    - mclaren
+    - team-lotus
+  - annee: 1983
+    part: 0.467
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault-1977
+  - annee: 1984
+    part: 0.812
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1985
+    part: 0.938
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1986
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1987
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 1989
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1990
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1991
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1992
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1995
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1996
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - williams
+  - annee: 1997
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1998
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+  - annee: 1999
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - stewart
+  - annee: 2000
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2001
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2002
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2003
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - renault
+    - williams
+  - annee: 2004
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+    - williams
+  - annee: 2005
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+  - annee: 2006
+    part: 1.0
+    ecuries:
+    - ferrari
+    - honda
+    - renault
+  - annee: 2007
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2008
+    part: 1.0
+    ecuries:
+    - bmw-sauber
+    - ferrari
+    - mclaren
+    - renault
+    - toro-rosso
+  - annee: 2009
+    part: 1.0
+    ecuries:
+    - brawn
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2010
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2011
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: suspension-active
+  jalon: active-gagne
+  annee_jalon: 1987
+  premiere:
+    annee: 1987
+    gp: Monaco
+    ecurie: team-lotus
+  exclusivite: 0
+  a50: 1992
+  a90: 1993
+  delai50: 5
+  delai90: 6
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.0
+    ecuries: []
+  - annee: 1978
+    part: 0.0
+    ecuries: []
+  - annee: 1979
+    part: 0.0
+    ecuries: []
+  - annee: 1980
+    part: 0.0
+    ecuries: []
+  - annee: 1981
+    part: 0.0
+    ecuries: []
+  - annee: 1982
+    part: 0.0
+    ecuries: []
+  - annee: 1983
+    part: 0.0
+    ecuries: []
+  - annee: 1984
+    part: 0.0
+    ecuries: []
+  - annee: 1985
+    part: 0.0
+    ecuries: []
+  - annee: 1986
+    part: 0.0
+    ecuries: []
+  - annee: 1987
+    part: 0.312
+    ecuries:
+    - team-lotus
+    - williams
+  - annee: 1988
+    part: 0.0
+    ecuries: []
+  - annee: 1989
+    part: 0.0
+    ecuries: []
+  - annee: 1990
+    part: 0.0
+    ecuries: []
+  - annee: 1991
+    part: 0.0
+    ecuries: []
+  - annee: 1992
+    part: 0.625
+    ecuries:
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 0.0
+    ecuries: []
+  - annee: 1995
+    part: 0.0
+    ecuries: []
+  - annee: 1996
+    part: 0.0
+    ecuries: []
+  - annee: 1997
+    part: 0.0
+    ecuries: []
+  - annee: 1998
+    part: 0.0
+    ecuries: []
+  - annee: 1999
+    part: 0.0
+    ecuries: []
+  - annee: 2000
+    part: 0.0
+    ecuries: []
+  - annee: 2001
+    part: 0.0
+    ecuries: []
+  - annee: 2002
+    part: 0.0
+    ecuries: []
+  - annee: 2003
+    part: 0.0
+    ecuries: []
+  - annee: 2004
+    part: 0.0
+    ecuries: []
+  - annee: 2005
+    part: 0.0
+    ecuries: []
+  - annee: 2006
+    part: 0.0
+    ecuries: []
+  - annee: 2007
+    part: 0.0
+    ecuries: []
+  - annee: 2008
+    part: 0.0
+    ecuries: []
+  - annee: 2009
+    part: 0.0
+    ecuries: []
+  - annee: 2010
+    part: 0.0
+    ecuries: []
+  - annee: 2011
+    part: 0.0
+    ecuries: []
+  - annee: 2012
+    part: 0.0
+    ecuries: []
+  - annee: 2013
+    part: 0.0
+    ecuries: []
+  - annee: 2014
+    part: 0.0
+    ecuries: []
+  - annee: 2015
+    part: 0.0
+    ecuries: []
+  - annee: 2016
+    part: 0.0
+    ecuries: []
+  - annee: 2017
+    part: 0.0
+    ecuries: []
+  - annee: 2018
+    part: 0.0
+    ecuries: []
+  - annee: 2019
+    part: 0.0
+    ecuries: []
+  - annee: 2020
+    part: 0.0
+    ecuries: []
+  - annee: 2021
+    part: 0.0
+    ecuries: []
+  - annee: 2022
+    part: 0.0
+    ecuries: []
+  - annee: 2023
+    part: 0.0
+    ecuries: []
+  - annee: 2024
+    part: 0.0
+    ecuries: []
+  - annee: 2025
+    part: 0.0
+    ecuries: []
+- id: boite-semi-automatique
+  jalon: ferrari-640
+  annee_jalon: 1989
+  premiere:
+    annee: 1989
+    gp: Brazil
+    ecurie: ferrari
+  exclusivite: 2
+  a50: 1992
+  a90: 1992
+  delai50: 3
+  delai90: 3
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.0
+    ecuries: []
+  - annee: 1978
+    part: 0.0
+    ecuries: []
+  - annee: 1979
+    part: 0.0
+    ecuries: []
+  - annee: 1980
+    part: 0.0
+    ecuries: []
+  - annee: 1981
+    part: 0.0
+    ecuries: []
+  - annee: 1982
+    part: 0.0
+    ecuries: []
+  - annee: 1983
+    part: 0.0
+    ecuries: []
+  - annee: 1984
+    part: 0.0
+    ecuries: []
+  - annee: 1985
+    part: 0.0
+    ecuries: []
+  - annee: 1986
+    part: 0.0
+    ecuries: []
+  - annee: 1987
+    part: 0.0
+    ecuries: []
+  - annee: 1988
+    part: 0.0
+    ecuries: []
+  - annee: 1989
+    part: 0.188
+    ecuries:
+    - ferrari
+  - annee: 1990
+    part: 0.375
+    ecuries:
+    - ferrari
+  - annee: 1991
+    part: 0.438
+    ecuries:
+    - williams
+  - annee: 1992
+    part: 0.938
+    ecuries:
+    - mclaren
+    - williams
+  - annee: 1993
+    part: 1.0
+    ecuries:
+    - benetton
+    - mclaren
+    - williams
+  - annee: 1994
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1995
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - williams
+  - annee: 1996
+    part: 1.0
+    ecuries:
+    - ferrari
+    - ligier
+    - williams
+  - annee: 1997
+    part: 1.0
+    ecuries:
+    - benetton
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 1998
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+  - annee: 1999
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - stewart
+  - annee: 2000
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2001
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2002
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - williams
+  - annee: 2003
+    part: 1.0
+    ecuries:
+    - ferrari
+    - jordan
+    - mclaren
+    - renault
+    - williams
+  - annee: 2004
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+    - williams
+  - annee: 2005
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - renault
+  - annee: 2006
+    part: 1.0
+    ecuries:
+    - ferrari
+    - honda
+    - renault
+  - annee: 2007
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2008
+    part: 1.0
+    ecuries:
+    - bmw-sauber
+    - ferrari
+    - mclaren
+    - renault
+    - toro-rosso
+  - annee: 2009
+    part: 1.0
+    ecuries:
+    - brawn
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2010
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2011
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull
+- id: recuperation-energie
+  jalon: kers
+  annee_jalon: 2009
+  premiere:
+    annee: 2009
+    gp: Hungary
+    ecurie: mclaren
+  exclusivite: 0
+  a50: 2011
+  a90: 2011
+  delai50: 2
+  delai90: 2
+  domination_pionnier: null
+  serie:
+  - annee: 1950
+    part: 0.0
+    ecuries: []
+  - annee: 1951
+    part: 0.0
+    ecuries: []
+  - annee: 1952
+    part: 0.0
+    ecuries: []
+  - annee: 1953
+    part: 0.0
+    ecuries: []
+  - annee: 1954
+    part: 0.0
+    ecuries: []
+  - annee: 1955
+    part: 0.0
+    ecuries: []
+  - annee: 1956
+    part: 0.0
+    ecuries: []
+  - annee: 1957
+    part: 0.0
+    ecuries: []
+  - annee: 1958
+    part: 0.0
+    ecuries: []
+  - annee: 1959
+    part: 0.0
+    ecuries: []
+  - annee: 1960
+    part: 0.0
+    ecuries: []
+  - annee: 1961
+    part: 0.0
+    ecuries: []
+  - annee: 1962
+    part: 0.0
+    ecuries: []
+  - annee: 1963
+    part: 0.0
+    ecuries: []
+  - annee: 1964
+    part: 0.0
+    ecuries: []
+  - annee: 1965
+    part: 0.0
+    ecuries: []
+  - annee: 1966
+    part: 0.0
+    ecuries: []
+  - annee: 1967
+    part: 0.0
+    ecuries: []
+  - annee: 1968
+    part: 0.0
+    ecuries: []
+  - annee: 1969
+    part: 0.0
+    ecuries: []
+  - annee: 1970
+    part: 0.0
+    ecuries: []
+  - annee: 1971
+    part: 0.0
+    ecuries: []
+  - annee: 1972
+    part: 0.0
+    ecuries: []
+  - annee: 1973
+    part: 0.0
+    ecuries: []
+  - annee: 1974
+    part: 0.0
+    ecuries: []
+  - annee: 1975
+    part: 0.0
+    ecuries: []
+  - annee: 1976
+    part: 0.0
+    ecuries: []
+  - annee: 1977
+    part: 0.0
+    ecuries: []
+  - annee: 1978
+    part: 0.0
+    ecuries: []
+  - annee: 1979
+    part: 0.0
+    ecuries: []
+  - annee: 1980
+    part: 0.0
+    ecuries: []
+  - annee: 1981
+    part: 0.0
+    ecuries: []
+  - annee: 1982
+    part: 0.0
+    ecuries: []
+  - annee: 1983
+    part: 0.0
+    ecuries: []
+  - annee: 1984
+    part: 0.0
+    ecuries: []
+  - annee: 1985
+    part: 0.0
+    ecuries: []
+  - annee: 1986
+    part: 0.0
+    ecuries: []
+  - annee: 1987
+    part: 0.0
+    ecuries: []
+  - annee: 1988
+    part: 0.0
+    ecuries: []
+  - annee: 1989
+    part: 0.0
+    ecuries: []
+  - annee: 1990
+    part: 0.0
+    ecuries: []
+  - annee: 1991
+    part: 0.0
+    ecuries: []
+  - annee: 1992
+    part: 0.0
+    ecuries: []
+  - annee: 1993
+    part: 0.0
+    ecuries: []
+  - annee: 1994
+    part: 0.0
+    ecuries: []
+  - annee: 1995
+    part: 0.0
+    ecuries: []
+  - annee: 1996
+    part: 0.0
+    ecuries: []
+  - annee: 1997
+    part: 0.0
+    ecuries: []
+  - annee: 1998
+    part: 0.0
+    ecuries: []
+  - annee: 1999
+    part: 0.0
+    ecuries: []
+  - annee: 2000
+    part: 0.0
+    ecuries: []
+  - annee: 2001
+    part: 0.0
+    ecuries: []
+  - annee: 2002
+    part: 0.0
+    ecuries: []
+  - annee: 2003
+    part: 0.0
+    ecuries: []
+  - annee: 2004
+    part: 0.0
+    ecuries: []
+  - annee: 2005
+    part: 0.0
+    ecuries: []
+  - annee: 2006
+    part: 0.0
+    ecuries: []
+  - annee: 2007
+    part: 0.0
+    ecuries: []
+  - annee: 2008
+    part: 0.0
+    ecuries: []
+  - annee: 2009
+    part: 0.176
+    ecuries:
+    - ferrari
+    - mclaren
+  - annee: 2010
+    part: 0.0
+    ecuries: []
+  - annee: 2011
+    part: 0.947
+    ecuries:
+    - ferrari
+    - mclaren
+    - red-bull
+  - annee: 2012
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mclaren
+    - mercedes
+    - red-bull
+    - williams
+  - annee: 2013
+    part: 1.0
+    ecuries:
+    - ferrari
+    - lotus-f1
+    - mercedes
+    - red-bull
+  - annee: 2014
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2015
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+  - annee: 2016
+    part: 1.0
+    ecuries:
+    - mercedes
+    - red-bull
+  - annee: 2017
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2018
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2019
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2020
+    part: 1.0
+    ecuries:
+    - alphatauri
+    - mercedes
+    - racing-point
+    - red-bull
+  - annee: 2021
+    part: 1.0
+    ecuries:
+    - alpine
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2022
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mercedes
+    - red-bull
+  - annee: 2023
+    part: 1.0
+    ecuries:
+    - ferrari
+    - red-bull
+  - annee: 2024
+    part: 1.0
+    ecuries:
+    - ferrari
+    - mclaren
+    - mercedes
+    - red-bull
+  - annee: 2025
+    part: 1.0
+    ecuries:
+    - mclaren
+    - mercedes
+    - red-bull

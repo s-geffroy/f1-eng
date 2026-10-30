@@ -16,7 +16,7 @@ saisons retrouvée dans toutes les variantes est dite robuste. Seules des varian
 peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
 deux épreuves, seuil à 50 % et aucune saison creuse. Les confrontations portent sur les périodes
 d'au moins MIN saisons dominantes, robustes ou non (« longues »)."""
-import os, collections
+import os, sys, collections
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -962,6 +962,121 @@ for lang in ("fr", "en"):
     open(f"_includes/domination/ingenieurs-compteur-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs_cp(lang) + "\n")
 sortie_compteur["tete_indice"] = tete_indice
 sortie_compteur["ingenieurs"] = sortie_ing
+
+# --- Domination technique : part des victoires de chaque technologie ---------------------------
+# _data/technologies.yml (saisi à la main, sourcé) : pour chaque technologie, des ères par défaut
+# (tous les gagnants l'ont, ou aucun) et, pendant la fenêtre de transition, un classement explicite
+# de chaque écurie gagnante (« des » : adoption en cours de saison ; « victoires_sans » : courses
+# gagnées sans elle). Une victoire non classée arrête le script : on complète, on ne devine pas.
+TECH = yaml.safe_load(open("_data/technologies.yml", encoding="utf-8"))["technologies"] \
+    if os.path.exists("_data/technologies.yml") else []
+
+def avec_tech(t, a, c, rang):
+    """La voiture gagnante de la course c (rang-ième de la saison a) a-t-elle la technologie t ?"""
+    ec = cle_ecurie(c).lstrip("~")
+    for x in t.get("cas", []):
+        if x["annee"] == a and x["ecurie"] == ec and x.get("equipe", c["equipe"]) == c["equipe"]:
+            if x["valeur"] == "incertain":
+                return None
+            if c["gp"] in (x.get("victoires_sans") or []):
+                return False
+            if x.get("des"):
+                gps = [k["gp"] for k in next(s for s in R if s["annee"] == a)["courses"]]
+                if x["des"] not in gps:
+                    sys.exit(f"technologies : {t['id']} {a} {ec} : GP « {x['des']} » inconnu")
+                return x["valeur"] == "oui" and rang >= gps.index(x["des"])
+            return x["valeur"] == "oui"
+    for d in t.get("defaut", []):
+        if d["de"] <= a <= d["a"]:
+            return d["valeur"] == "oui"
+    sys.exit(f"technologies : {t['id']} : victoire non classée ({a}, {c['gp']}, {c['equipe']})")
+
+techno = []
+for t in TECH:
+    serie, pionnier, premiere = [], None, None
+    for s in R:
+        a = s["annee"]
+        oui = inc = 0
+        gagnants = set()
+        for i, c in enumerate(s["courses"]):
+            v = avec_tech(t, a, c, i)
+            if v is None:
+                inc += 1
+            elif v:
+                oui += 1
+                gagnants.add(cle_ecurie(c).lstrip("~"))
+                if premiere is None:
+                    premiere, pionnier = (a, c["gp"]), cle_ecurie(c).lstrip("~")
+        serie.append({"annee": a, "part": round(oui / s["gp"], 3), "ecuries": sorted(gagnants),
+                      **({"incertaines": inc} if inc else {})})
+    if premiere is None:
+        continue
+    apres = [x for x in serie if x["annee"] >= premiere[0]]
+    # Exclusivité : saisons, depuis la première victoire, où le pionnier est seul à gagner avec elle.
+    excl = 0
+    for x in apres:
+        if x["ecuries"] and x["ecuries"] != [pionnier]:
+            break
+        excl += 1
+    seuil50 = next((x["annee"] for x in apres if x["part"] >= 0.5), None)
+    seuil90 = next((x["annee"] for x in apres if x["part"] >= 0.9), None)
+    dom_p = next((h for h in dominations["ecurie"] if h.get("id") == pionnier
+                  and premiere[0] - 1 <= h["debut"] <= premiere[0] + FENETRE_JALON), None)
+    jal = JALONS.get(t.get("jalon"), {})
+    techno.append({"id": t["id"], "jalon": t.get("jalon"), "annee_jalon": jal.get("annee"),
+                   "premiere": {"annee": premiere[0], "gp": premiere[1], "ecurie": pionnier},
+                   "exclusivite": excl, "a50": seuil50, "a90": seuil90,
+                   "delai50": seuil50 - premiere[0] if seuil50 else None,
+                   "delai90": seuil90 - premiere[0] if seuil90 else None,
+                   "domination_pionnier": ({"debut": dom_p["debut"], "fin": dom_p["fin"], "degre": dom_p["degre"]}
+                                           if dom_p else None),
+                   "serie": serie})
+sortie_compteur["technologies"] = techno
+
+TXT_T = {"fr": {"t": "La diffusion des technologies : part des victoires", "pc": " %",
+                "d": "Pour chaque technologie, la part des Grands Prix gagnés par des voitures qui l'utilisent, saison par saison. Trait vertical : le jalon de la chronologie. Fond : les saisons où le pionnier est seul à gagner avec elle.",
+                "seul": "pionnier seul"},
+         "en": {"t": "The spread of technologies: share of wins", "pc": "%",
+                "d": "For each technology, the share of Grands Prix won by cars using it, season by season. Vertical line: the timeline milestone. Background: the seasons when the pioneer alone wins with it.",
+                "seul": "pioneer alone"}}
+
+def svg_techno(lang):
+    L = TXT_T[lang]
+    noms = {t["id"]: (t["nom"] if lang == "fr" else t.get("nom_en", t["nom"])) for t in TECH}
+    par_ligne, W, cw, ch = 3, 640, 640 / 3, 150
+    Hh = ((len(techno) + par_ligne - 1) // par_ligne) * ch + 4
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh:.0f}" role="img" aria-labelledby="tt-t-{lang} tt-d-{lang}">',
+         f'<title id="tt-t-{lang}">{L["t"]}</title><desc id="tt-d-{lang}">{L["d"]}</desc>', CS]
+    for i, t in enumerate(techno):
+        ox, oy = cw * (i % par_ligne), ch * (i // par_ligne)
+        g, d, h, b = ox + 30, ox + cw - 10, oy + 26, oy + ch - 26
+        a0 = min(t["premiere"]["annee"], t["annee_jalon"] or 9999) - 3
+        a1 = max(a0 + 12, (t["a90"] or t["premiere"]["annee"]) + 3)
+        a1 = min(a1, ANNEES[-1])
+        xs = lambda a: g + (a - a0) / (a1 - a0) * (d - g)
+        ys = lambda v: b - v * (b - h)
+        o.append(f'<text class="cp-f" x="{g}" y="{oy + 16}">{esc(noms[t["id"]])}</text>')
+        if t["exclusivite"]:
+            x1, x2 = xs(t["premiere"]["annee"] - 0.5), xs(t["premiere"]["annee"] + t["exclusivite"] - 0.5)
+            o.append(f'<rect class="cp-dom" style="opacity:.18" x="{x1:.1f}" y="{h}" width="{x2 - x1:.1f}" height="{b - h}"><title>{L["seul"]}</title></rect>')
+        for v in (0, 0.5, 1):
+            o.append(f'<line class="cp-g" x1="{g}" x2="{d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                     f'<text class="cp-t" style="font-size:10px" x="{g - 4}" y="{ys(v) + 3:.1f}" text-anchor="end">{round(v * 100)}</text>')
+        if t["annee_jalon"] and a0 <= t["annee_jalon"] <= a1:
+            o.append(f'<line class="cp-a" style="stroke-width:1.5" x1="{xs(t["annee_jalon"]):.1f}" x2="{xs(t["annee_jalon"]):.1f}" y1="{h}" y2="{b}"/>')
+        pas = 5 if a1 - a0 > 12 else 2
+        for a in range(a0 + (-a0) % pas, a1 + 1, pas):
+            o.append(f'<text class="cp-t" style="font-size:10px" x="{xs(a):.1f}" y="{b + 13}" text-anchor="middle">{a}</text>')
+        pts = [(xs(x["annee"]), ys(x["part"]), x) for x in t["serie"] if a0 <= x["annee"] <= a1]
+        o.append(f'<polyline class="cp-c" points="{" ".join(f"{x:.1f},{y:.1f}" for x, y, _ in pts)}"/>')
+        for x, y, e in pts:
+            o.append(f'<circle class="cp-p" cx="{x:.1f}" cy="{y:.1f}" r="2.5"><title>{e["annee"]} : {round(e["part"] * 100)}{L["pc"]}</title></circle>')
+    o.append("</svg>")
+    return "".join(o)
+
+if techno:
+    for lang in ("fr", "en"):
+        open(f"_includes/domination/technologies-{lang}.svg", "w", encoding="utf-8").write(svg_techno(lang) + "\n")
 
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):
