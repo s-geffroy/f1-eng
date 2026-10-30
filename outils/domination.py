@@ -1314,6 +1314,117 @@ if chassis_out:
     for lang in ("fr", "en"):
         open(f"_includes/domination/chassis-{lang}.svg", "w", encoding="utf-8").write(svg_chassis(lang) + "\n")
 
+# --- Cycles réglementaires ---------------------------------------------------------------------
+# _data/cycles.yml : grandes remises à zéro du règlement. Pour chaque cycle : qui le domine, à quel
+# point il est verrouillé, à quelle vitesse la hiérarchie se fige, et si le dominant de la fin
+# garde sa place au cycle suivant. Le « meneur » d'une saison est l'écurie qui gagne le plus de
+# Grands Prix (à égalité, celle d'indice composite le plus élevé).
+CY = yaml.safe_load(open("_data/cycles.yml", encoding="utf-8"))["cycles"] if os.path.exists("_data/cycles.yml") else []
+
+def meneur(a):
+    return max(part["ecurie"][a], key=lambda k: (part["ecurie"][a][k], mesures("ecurie", k, [a]).get("indice") or 0))
+
+cycles_out = []
+for cy in CY:
+    ans = [a for a in ANNEES if cy["de"] <= a <= cy["a"]]
+    gp = sum(gp_saison[a] for a in ans) if "gp_saison" in dir() else sum(next(x["gp"] for x in R if x["annee"] == a) for a in ans)
+    tops = {}
+    for u in ("ecurie", "pilote", "motoriste"):
+        v = collections.Counter()
+        for a in ans:
+            for k, x in victoires[u][a].items():
+                v[k] += x
+        k, n = v.most_common(1)[0]
+        tops[u] = {"id": k.lstrip("~"), "nom": nom(u, k), "victoires": n, "part": round(n / gp, 3),
+                   "titres": sum(1 for a in ans if champion[u].get(a) == k), "gagnants": len(v)}
+    dom = tops["ecurie"]["id"]
+    cle_dom = dom if dom in part["ecurie"][ans[0]] or any(dom in part["ecurie"][a] for a in ans) else "~" + dom
+    men = [meneur(a).lstrip("~") for a in ans]
+    vals = [mesures("ecurie", cle_dom, [a]).get("indice") or 0 for a in ans]
+    # Prise : première saison où le dominant du cycle mène ; tenue : saisons qu'il mène en tout.
+    prise = next((a for a, m in zip(ans, men) if m == dom), None)
+    vc = collections.Counter()
+    for a in ans:
+        for k, x in victoires["ecurie"][a].items():
+            vc[k] += x
+    hhi = sum((x / gp) ** 2 for x in vc.values())
+    cycles_out.append({"id": cy["id"], "de": cy["de"], "a": cy["a"], "saisons": len(ans), "gp": gp,
+                       "dominants": tops, "indice_dominant": round(sum(vals) / len(vals), 3),
+                       "record_dominant": {"annee": ans[vals.index(max(vals))], "indice": round(max(vals), 3)},
+                       "indice_meneurs": round(sum(t["indice"] for t in tete_indice if cy["de"] <= t["annee"] <= cy["a"]) / len(ans), 3),
+                       "hhi": round(hhi, 3), "meneurs": men,
+                       "premier_meneur": men[0], "premier_meneur_domine": men[0] == dom,
+                       "prise": prise, "delai_prise": prise - ans[0] if prise else None,
+                       "saisons_menees": sum(m == dom for m in men),
+                       "dernier_meneur": men[-1]})
+# Fin de cycle : le meneur de la dernière saison mène-t-il encore la première du cycle suivant ?
+for c, n in zip(cycles_out, cycles_out[1:]):
+    c["suite"] = {"meneur_suivant": n["premier_meneur"], "garde": c["dernier_meneur"] == n["premier_meneur"],
+                  "part_avant": round(part["ecurie"][c["a"]].get(c["dernier_meneur"], part["ecurie"][c["a"]].get("~" + c["dernier_meneur"], 0)), 3),
+                  "part_apres": round(part["ecurie"][n["de"]].get(c["dernier_meneur"], part["ecurie"][n["de"]].get("~" + c["dernier_meneur"], 0)), 3)}
+sortie_compteur["cycles"] = cycles_out
+
+TXT_CY = {"fr": {"t": "Le compteur de la F1, cycle par cycle", "seuil": "seuil", "v": "victoires",
+                 "d": "L'indice composite de l'écurie la plus forte de chaque saison ; les bandes grises séparent les cycles réglementaires, chacun nommé par son année d'ouverture et l'écurie qui y gagne le plus.",
+                 "tb_t": "Un cadran par cycle réglementaire",
+                 "tb_d": "Pour chaque cycle, l'indice moyen de l'écurie qui y gagne le plus (aiguille) et sa meilleure saison du cycle (trait noir)."},
+          "en": {"t": "The F1 gauge, cycle by cycle", "seuil": "threshold", "v": "wins",
+                 "d": "The composite index of the strongest team in each season; grey bands separate the regulation cycles, each named by its opening year and the team that wins most in it.",
+                 "tb_t": "One dial per regulation cycle",
+                 "tb_d": "For each cycle, the average index of the team that wins most in it (needle) and its best season of the cycle (black mark)."}}
+
+def svg_cycles_courbe(lang):
+    L = TXT_CY[lang]
+    W, Hh, g, d, h, b = 640, 310, 44, 14, 40, 34
+    a0, a1 = ANNEES[0] - 0.5, ANNEES[-1] + 0.5
+    xs = lambda a: g + (a - a0) / (a1 - a0) * (W - g - d)
+    ys = lambda v: Hh - b - v * (Hh - b - h)
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="cy-t-{lang} cy-d-{lang}">',
+         f'<title id="cy-t-{lang}">{L["t"]}</title><desc id="cy-d-{lang}">{L["d"]}</desc>', CS]
+    for i, c in enumerate(cycles_out):
+        x1, x2 = xs(c["de"] - 0.5), xs(c["a"] + 0.5)
+        nm = esc(nom_u("ecurie", c["dominants"]["ecurie"]["id"], lang))
+        if i % 2 == 0:
+            o.append(f'<rect x="{x1:.1f}" y="{h}" width="{x2 - x1:.1f}" height="{Hh - b - h}" fill="#eef1f2"/>')
+        o.append(f'<g><title>{c["de"]}–{c["a"]} · {nm} : {c["dominants"]["ecurie"]["victoires"]} {L["v"]} / {c["gp"]}</title>'
+                 f'<rect x="{x1:.1f}" y="0" width="{x2 - x1:.1f}" height="{h}" fill="transparent"/>'
+                 f'<text class="cp-t" style="font-size:10px" x="{(x1 + x2) / 2:.1f}" y="{14 + 12 * (i % 2)}" text-anchor="middle">{c["de"]}</text>'
+                 f'<text class="cp-f" style="font-size:10px" x="{(x1 + x2) / 2:.1f}" y="{h - 4 - 0 * (i % 2)}" text-anchor="middle">{nm if x2 - x1 > 6 * len(nm) else ""}</text></g>')
+    for v in (0, 0.25, 0.5, 0.75, 1):
+        o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
+                 f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{round(v * 100)}</text>')
+    o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
+             f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {round(SEUIL_INDICE * 100)}</text>')
+    for a in range(1950, 2030, 10):
+        o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
+    o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
+    for t in tete_indice:
+        nm = esc(nom_u("ecurie", t["ecurie"], lang))
+        o.append(f'<circle class="cp-p" cx="{xs(t["annee"]):.1f}" cy="{ys(t["indice"]):.1f}" r="3"><title>{t["annee"]}, {nm} : {round(t["indice"] * 100)}</title></circle>')
+    o.append("</svg>")
+    return "".join(o)
+
+def svg_cycles_cadrans(lang):
+    L = TXT_CY[lang]
+    par_ligne, W, cw, ch_ = 4, 640, 160, 150
+    Hh = ((len(cycles_out) + par_ligne - 1) // par_ligne) * ch_ + 6
+    o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="cyd-t-{lang} cyd-d-{lang}">',
+         f'<title id="cyd-t-{lang}">{L["tb_t"]}</title><desc id="cyd-d-{lang}">{L["tb_d"]}</desc>', CS]
+    for i, c in enumerate(cycles_out):
+        cx, cy_ = cw * (i % par_ligne) + cw / 2, ch_ * (i // par_ligne) + 72
+        nm = esc(nom_u("ecurie", c["dominants"]["ecurie"]["id"], lang))
+        o.append(f'<g><title>{c["de"]}–{c["a"]} · {nm} · {round(c["indice_dominant"] * 100)} / 100</title>')
+        o.append(cadran_g(cx, cy_, 58, c["indice_dominant"], [nm, f'{c["de"]}–{c["a"]}'],
+                          record=c["record_dominant"]["indice"], taille=0.62))
+        o.append("</g>")
+    o.append("</svg>")
+    return "".join(o)
+
+if cycles_out:
+    for lang in ("fr", "en"):
+        open(f"_includes/domination/cycles-courbe-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_courbe(lang) + "\n")
+        open(f"_includes/domination/cycles-cadrans-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_cadrans(lang) + "\n")
+
 os.makedirs("_includes/compteur", exist_ok=True)
 for f in os.listdir("_includes/compteur"):
     os.remove(os.path.join("_includes/compteur", f))

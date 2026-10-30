@@ -1,0 +1,71 @@
+# Grands cycles réglementaires de la F1 (dossier /dossiers/cycles/). Un cycle s'ouvre avec une remise
+# à zéro du règlement technique, décrite et sourcée dans _data/chronologie.yml (champ contexte).
+# Les chiffres de chaque cycle sont calculés par outils/domination.py (_data/compteur.yml, cycles).
+# Champs : id, de, a (saisons), contexte (identifiant de la chronologie), nom, nom_en.
+cycles:
+  - id: "1950"
+    de: 1950
+    a: 1951
+    contexte: "championnat-1950"
+    nom: "4,5 litres atmosphériques ou 1,5 litre compressé"
+    nom_en: "4.5 litres unsupercharged or 1.5 litres supercharged"
+  - id: "1952"
+    de: 1952
+    a: 1953
+    contexte: "formule-2-championnat-1952"
+    nom: "Le championnat en Formule 2"
+    nom_en: "The championship in Formula Two"
+  - id: "1954"
+    de: 1954
+    a: 1960
+    contexte: "formule-2-5-litres"
+    nom: "La formule 2,5 litres"
+    nom_en: "The 2.5-litre formula"
+  - id: "1961"
+    de: 1961
+    a: 1965
+    contexte: "formule-1-5-litres-1961"
+    nom: "La formule 1,5 litre"
+    nom_en: "The 1.5-litre formula"
+  - id: "1966"
+    de: 1966
+    a: 1982
+    contexte: "formule-3-litres"
+    nom: "La formule 3 litres"
+    nom_en: "The 3-litre formula"
+  - id: "1983"
+    de: 1983
+    a: 1988
+    contexte: "fond-plat"
+    nom: "Le fond plat"
+    nom_en: "The flat bottom"
+  - id: "1989"
+    de: 1989
+    a: 1993
+    contexte: "fin-du-turbo"
+    nom: "La fin du turbo"
+    nom_en: "The end of the turbo"
+  - id: "1994"
+    de: 1994
+    a: 2008
+    contexte: "fin-aides-electroniques"
+    nom: "Sans aides électroniques"
+    nom_en: "Without electronic aids"
+  - id: "2009"
+    de: 2009
+    a: 2013
+    contexte: "refonte-aero-2009"
+    nom: "La refonte aérodynamique"
+    nom_en: "The aerodynamic overhaul"
+  - id: "2014"
+    de: 2014
+    a: 2021
+    contexte: "groupe-propulseur-2014"
+    nom: "Le groupe propulseur hybride"
+    nom_en: "The hybrid power unit"
+  - id: "2022"
+    de: 2022
+    a: 2025
+    contexte: "retour-effet-de-sol"
+    nom: "Le retour de l'effet de sol"
+    nom_en: "The return of ground effect"

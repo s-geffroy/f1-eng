@@ -70,7 +70,8 @@ dominations:
     associes:
     - alfa-romeo
     regles_debut: []
-    regles_fin: []
+    regles_fin:
+    - formule-2-championnat-1952
     rangee: 0
   - unite: ecurie
     id: ferrari
@@ -93,7 +94,8 @@ dominations:
     indice: 0.745
     associes:
     - ferrari
-    regles_debut: []
+    regles_debut:
+    - formule-2-championnat-1952
     regles_fin:
     - formule-2-5-litres
     rangee: 0
@@ -146,7 +148,8 @@ dominations:
     - climax
     regles_debut:
     - carburant-commercial-1958
-    regles_fin: []
+    regles_fin:
+    - formule-1-5-litres-1961
     rangee: 0
   - unite: ecurie
     id: team-lotus
@@ -765,7 +768,8 @@ dominations:
     associes:
     - alfa-romeo
     regles_debut: []
-    regles_fin: []
+    regles_fin:
+    - formule-2-championnat-1952
     rangee: 0
   - unite: lignee
     id: ferrari
@@ -788,7 +792,8 @@ dominations:
     indice: 0.745
     associes:
     - ferrari
-    regles_debut: []
+    regles_debut:
+    - formule-2-championnat-1952
     regles_fin:
     - formule-2-5-litres
     rangee: 0
@@ -839,7 +844,8 @@ dominations:
     - climax
     regles_debut:
     - carburant-commercial-1958
-    regles_fin: []
+    regles_fin:
+    - formule-1-5-litres-1961
     rangee: 0
   - unite: lignee
     id: team-lotus
@@ -1348,7 +1354,8 @@ dominations:
     associes:
     - alfa-romeo-1979
     regles_debut: []
-    regles_fin: []
+    regles_fin:
+    - formule-2-championnat-1952
     rangee: 0
   - unite: pilote
     id: Alberto Ascari
@@ -1372,7 +1379,8 @@ dominations:
     points: 0.197
     associes:
     - ferrari
-    regles_debut: []
+    regles_debut:
+    - formule-2-championnat-1952
     regles_fin:
     - formule-2-5-litres
     rangee: 0
@@ -1429,7 +1437,8 @@ dominations:
     - cooper
     regles_debut:
     - carburant-commercial-1958
-    regles_fin: []
+    regles_fin:
+    - formule-1-5-litres-1961
     rangee: 0
   - unite: pilote
     id: Jim Clark
@@ -1827,7 +1836,8 @@ dominations:
     associes:
     - alfa-romeo-1979
     regles_debut: []
-    regles_fin: []
+    regles_fin:
+    - formule-2-championnat-1952
     rangee: 0
   - unite: motoriste
     id: ferrari
@@ -1850,7 +1860,8 @@ dominations:
     indice: 0.745
     associes:
     - ferrari
-    regles_debut: []
+    regles_debut:
+    - formule-2-championnat-1952
     regles_fin:
     - formule-2-5-litres
     rangee: 0
@@ -4516,12 +4527,12 @@ ingenieurs_apparies:
   p: 0.5993
 rebat:
   avec:
-    changements: 13
-    saisons: 19
+    changements: 15
+    saisons: 21
   sans:
-    changements: 26
-    saisons: 56
-  p: 0.0812
+    changements: 24
+    saisons: 54
+  p: 0.0317
 ingenieurs:
 - ingenieur: mauro-forghieri
   ecurie: ferrari
@@ -5766,7 +5777,7 @@ bilan_ingenieurs:
     baisse: 135
 temoin_reglement:
   annees: 76
-  avec_regle: 33
+  avec_regle: 37
   debuts: 28
   debuts_regle: 14
   fins: 28

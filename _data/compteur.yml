@@ -5560,3 +5560,570 @@ chassis:
   - annee: 1958
     equipe: Epperly Offenhauser
     equipe_reelle: Salih
+cycles:
+- id: '1950'
+  de: 1950
+  a: 1951
+  saisons: 2
+  gp: 15
+  dominants:
+    ecurie:
+      id: alfa-romeo-1979
+      nom: Alfa Romeo (1950–1985)
+      victoires: 10
+      part: 0.667
+      titres: 2
+      gagnants: 3
+    pilote:
+      id: Juan Manuel Fangio
+      nom: Juan Manuel Fangio
+      victoires: 6
+      part: 0.4
+      titres: 1
+      gagnants: 7
+    motoriste:
+      id: alfa-romeo
+      nom: Alfa Romeo
+      victoires: 10
+      part: 0.667
+      titres: 2
+      gagnants: 3
+  indice_dominant: 0.61
+  record_dominant:
+    annee: 1950
+    indice: 0.762
+  indice_meneurs: 0.61
+  hhi: 0.502
+  meneurs:
+  - alfa-romeo-1979
+  - alfa-romeo-1979
+  premier_meneur: alfa-romeo-1979
+  premier_meneur_domine: true
+  prise: 1950
+  delai_prise: 0
+  saisons_menees: 2
+  dernier_meneur: alfa-romeo-1979
+  suite:
+    meneur_suivant: ferrari
+    garde: false
+    part_avant: 0.5
+    part_apres: 0
+- id: '1952'
+  de: 1952
+  a: 1953
+  saisons: 2
+  gp: 17
+  dominants:
+    ecurie:
+      id: ferrari
+      nom: Ferrari
+      victoires: 14
+      part: 0.824
+      titres: 2
+      gagnants: 4
+    pilote:
+      id: Alberto Ascari
+      nom: Alberto Ascari
+      victoires: 11
+      part: 0.647
+      titres: 2
+      gagnants: 7
+    motoriste:
+      id: ferrari
+      nom: Ferrari
+      victoires: 14
+      part: 0.824
+      titres: 2
+      gagnants: 3
+  indice_dominant: 0.749
+  record_dominant:
+    annee: 1952
+    indice: 0.819
+  indice_meneurs: 0.749
+  hhi: 0.689
+  meneurs:
+  - ferrari
+  - ferrari
+  premier_meneur: ferrari
+  premier_meneur_domine: true
+  prise: 1952
+  delai_prise: 0
+  saisons_menees: 2
+  dernier_meneur: ferrari
+  suite:
+    meneur_suivant: Mercedes-Benz
+    garde: false
+    part_avant: 0.778
+    part_apres: 0.222
+- id: '1954'
+  de: 1954
+  a: 1960
+  saisons: 7
+  gp: 62
+  dominants:
+    ecurie:
+      id: ferrari
+      nom: Ferrari
+      victoires: 13
+      part: 0.21
+      titres: 1
+      gagnants: 10
+    pilote:
+      id: Juan Manuel Fangio
+      nom: Juan Manuel Fangio
+      victoires: 17
+      part: 0.274
+      titres: 4
+      gagnants: 19
+    motoriste:
+      id: climax
+      nom: Climax
+      victoires: 15
+      part: 0.242
+      titres: 2
+      gagnants: 7
+  indice_dominant: 0.224
+  record_dominant:
+    annee: 1956
+    indice: 0.347
+  indice_meneurs: 0.463
+  hhi: 0.152
+  meneurs:
+  - Mercedes-Benz
+  - Mercedes-Benz
+  - ferrari
+  - maserati
+  - vanwall
+  - cooper
+  - cooper
+  premier_meneur: Mercedes-Benz
+  premier_meneur_domine: false
+  prise: 1956
+  delai_prise: 2
+  saisons_menees: 1
+  dernier_meneur: cooper
+  suite:
+    meneur_suivant: ferrari
+    garde: false
+    part_avant: 0.6
+    part_apres: 0
+- id: '1961'
+  de: 1961
+  a: 1965
+  saisons: 5
+  gp: 47
+  dominants:
+    ecurie:
+      id: team-lotus
+      nom: Team Lotus
+      victoires: 22
+      part: 0.468
+      titres: 2
+      gagnants: 7
+    pilote:
+      id: Jim Clark
+      nom: Jim Clark
+      victoires: 19
+      part: 0.404
+      titres: 2
+      gagnants: 13
+    motoriste:
+      id: climax
+      nom: Climax
+      victoires: 25
+      part: 0.532
+      titres: 2
+      gagnants: 5
+  indice_dominant: 0.397
+  record_dominant:
+    annee: 1963
+    indice: 0.567
+  indice_meneurs: 0.481
+  hhi: 0.314
+  meneurs:
+  - ferrari
+  - brm
+  - team-lotus
+  - team-lotus
+  - team-lotus
+  premier_meneur: ferrari
+  premier_meneur_domine: false
+  prise: 1963
+  delai_prise: 2
+  saisons_menees: 3
+  dernier_meneur: team-lotus
+  suite:
+    meneur_suivant: brabham
+    garde: false
+    part_avant: 0.6
+    part_apres: 0.111
+- id: '1966'
+  de: 1966
+  a: 1982
+  saisons: 17
+  gp: 232
+  dominants:
+    ecurie:
+      id: team-lotus
+      nom: Team Lotus
+      victoires: 48
+      part: 0.207
+      titres: 5
+      gagnants: 18
+    pilote:
+      id: Jackie Stewart
+      nom: Jackie Stewart
+      victoires: 26
+      part: 0.112
+      titres: 3
+      gagnants: 44
+    motoriste:
+      id: ford
+      nom: Ford
+      victoires: 152
+      part: 0.655
+      titres: 10
+      gagnants: 11
+  indice_dominant: 0.201
+  record_dominant:
+    annee: 1978
+    indice: 0.514
+  indice_meneurs: 0.372
+  hhi: 0.128
+  meneurs:
+  - brabham
+  - team-lotus
+  - team-lotus
+  - matra
+  - team-lotus
+  - tyrrell
+  - team-lotus
+  - team-lotus
+  - mclaren
+  - ferrari
+  - mclaren
+  - team-lotus
+  - team-lotus
+  - ferrari
+  - williams
+  - williams
+  - renault-1977
+  premier_meneur: brabham
+  premier_meneur_domine: false
+  prise: 1967
+  delai_prise: 1
+  saisons_menees: 7
+  dernier_meneur: renault-1977
+  suite:
+    meneur_suivant: ferrari
+    garde: false
+    part_avant: 0.25
+    part_apres: 0.267
+- id: '1983'
+  de: 1983
+  a: 1988
+  saisons: 6
+  gp: 95
+  dominants:
+    ecurie:
+      id: mclaren
+      nom: McLaren
+      victoires: 41
+      part: 0.432
+      titres: 3
+      gagnants: 8
+    pilote:
+      id: Alain Prost
+      nom: Alain Prost
+      victoires: 30
+      part: 0.316
+      titres: 2
+      gagnants: 13
+    motoriste:
+      id: honda
+      nom: Honda
+      victoires: 40
+      part: 0.421
+      titres: 3
+      gagnants: 6
+  indice_dominant: 0.316
+  record_dominant:
+    annee: 1988
+    indice: 0.799
+  indice_meneurs: 0.476
+  hhi: 0.274
+  meneurs:
+  - ferrari
+  - mclaren
+  - mclaren
+  - williams
+  - williams
+  - mclaren
+  premier_meneur: ferrari
+  premier_meneur_domine: false
+  prise: 1984
+  delai_prise: 1
+  saisons_menees: 3
+  dernier_meneur: mclaren
+  suite:
+    meneur_suivant: mclaren
+    garde: true
+    part_avant: 0.938
+    part_apres: 0.625
+- id: '1989'
+  de: 1989
+  a: 1993
+  saisons: 5
+  gp: 80
+  dominants:
+    ecurie:
+      id: mclaren
+      nom: McLaren
+      victoires: 34
+      part: 0.425
+      titres: 3
+      gagnants: 4
+    pilote:
+      id: Ayrton Senna
+      nom: Ayrton Senna
+      victoires: 27
+      part: 0.338
+      titres: 2
+      gagnants: 10
+    motoriste:
+      id: renault
+      nom: Renault
+      victoires: 31
+      part: 0.388
+      titres: 2
+      gagnants: 4
+  indice_dominant: 0.408
+  record_dominant:
+    annee: 1989
+    indice: 0.646
+  indice_meneurs: 0.597
+  hhi: 0.349
+  meneurs:
+  - mclaren
+  - mclaren
+  - mclaren
+  - williams
+  - williams
+  premier_meneur: mclaren
+  premier_meneur_domine: true
+  prise: 1989
+  delai_prise: 0
+  saisons_menees: 3
+  dernier_meneur: williams
+  suite:
+    meneur_suivant: benetton
+    garde: false
+    part_avant: 0.625
+    part_apres: 0.438
+- id: '1994'
+  de: 1994
+  a: 2008
+  saisons: 15
+  gp: 255
+  dominants:
+    ecurie:
+      id: ferrari
+      nom: Ferrari
+      victoires: 106
+      part: 0.416
+      titres: 8
+      gagnants: 11
+    pilote:
+      id: Michael Schumacher
+      nom: Michael Schumacher
+      victoires: 89
+      part: 0.349
+      titres: 7
+      gagnants: 25
+    motoriste:
+      id: ferrari
+      nom: Ferrari
+      victoires: 107
+      part: 0.42
+      titres: 8
+      gagnants: 7
+  indice_dominant: 0.375
+  record_dominant:
+    annee: 2004
+    indice: 0.679
+  indice_meneurs: 0.506
+  hhi: 0.264
+  meneurs:
+  - benetton
+  - benetton
+  - williams
+  - williams
+  - mclaren
+  - mclaren
+  - ferrari
+  - ferrari
+  - ferrari
+  - ferrari
+  - ferrari
+  - mclaren
+  - ferrari
+  - ferrari
+  - ferrari
+  premier_meneur: benetton
+  premier_meneur_domine: false
+  prise: 2000
+  delai_prise: 6
+  saisons_menees: 8
+  dernier_meneur: ferrari
+  suite:
+    meneur_suivant: brawn
+    garde: false
+    part_avant: 0.444
+    part_apres: 0.059
+- id: '2009'
+  de: 2009
+  a: 2013
+  saisons: 5
+  gp: 94
+  dominants:
+    ecurie:
+      id: red-bull
+      nom: Red Bull
+      victoires: 47
+      part: 0.5
+      titres: 4
+      gagnants: 7
+    pilote:
+      id: Sebastian Vettel
+      nom: Sebastian Vettel
+      victoires: 38
+      part: 0.404
+      titres: 4
+      gagnants: 9
+    motoriste:
+      id: renault
+      nom: Renault
+      victoires: 50
+      part: 0.532
+      titres: 4
+      gagnants: 3
+  indice_dominant: 0.486
+  record_dominant:
+    annee: 2011
+    indice: 0.684
+  indice_meneurs: 0.493
+  hhi: 0.321
+  meneurs:
+  - brawn
+  - red-bull
+  - red-bull
+  - red-bull
+  - red-bull
+  premier_meneur: brawn
+  premier_meneur_domine: false
+  prise: 2010
+  delai_prise: 1
+  saisons_menees: 4
+  dernier_meneur: red-bull
+  suite:
+    meneur_suivant: mercedes
+    garde: false
+    part_avant: 0.684
+    part_apres: 0.158
+- id: '2014'
+  de: 2014
+  a: 2021
+  saisons: 8
+  gp: 160
+  dominants:
+    ecurie:
+      id: mercedes
+      nom: Mercedes
+      victoires: 111
+      part: 0.694
+      titres: 8
+      gagnants: 7
+    pilote:
+      id: Lewis Hamilton
+      nom: Lewis Hamilton
+      victoires: 81
+      part: 0.506
+      titres: 6
+      gagnants: 11
+    motoriste:
+      id: mercedes
+      nom: Mercedes
+      victoires: 113
+      part: 0.706
+      titres: 8
+      gagnants: 5
+  indice_dominant: 0.644
+  record_dominant:
+    annee: 2016
+    indice: 0.794
+  indice_meneurs: 0.647
+  hhi: 0.523
+  meneurs:
+  - mercedes
+  - mercedes
+  - mercedes
+  - mercedes
+  - mercedes
+  - mercedes
+  - mercedes
+  - red-bull
+  premier_meneur: mercedes
+  premier_meneur_domine: true
+  prise: 2014
+  delai_prise: 0
+  saisons_menees: 7
+  dernier_meneur: red-bull
+  suite:
+    meneur_suivant: red-bull
+    garde: true
+    part_avant: 0.5
+    part_apres: 0.773
+- id: '2022'
+  de: 2022
+  a: 2025
+  saisons: 4
+  gp: 92
+  dominants:
+    ecurie:
+      id: red-bull
+      nom: Red Bull
+      victoires: 55
+      part: 0.598
+      titres: 2
+      gagnants: 4
+    pilote:
+      id: Max Verstappen
+      nom: Max Verstappen
+      victoires: 51
+      part: 0.554
+      titres: 3
+      gagnants: 8
+    motoriste:
+      id: honda
+      nom: Honda
+      victoires: 55
+      part: 0.598
+      titres: 2
+      gagnants: 3
+  indice_dominant: 0.453
+  record_dominant:
+    annee: 2023
+    indice: 0.682
+  indice_meneurs: 0.513
+  hhi: 0.422
+  meneurs:
+  - red-bull
+  - red-bull
+  - red-bull
+  - mclaren
+  premier_meneur: red-bull
+  premier_meneur_domine: true
+  prise: 2022
+  delai_prise: 0
+  saisons_menees: 3
+  dernier_meneur: mclaren

@@ -556,6 +556,16 @@ contexte:
         url: "https://www.formula1.com/en/latest/article/why-is-it-called-formula-1-and-12-other-questions-about-the-championships.1GHeel6u4jga6hMpX2eFs1"
       - titre: "Formula 1, Mark Hughes, “Under the bodywork of the Alfa Romeo ‘Alfetta’ – 70 years after it won the first ever F1 race” (May 2020)"
         url: "https://www.formula1.com/en/latest/article/under-bodywork-of-the-alfa-romeo-alfetta-70-years-after-it-won-the-first.3pnyQUiSHqUdEN3Dk85nnq.html"
+  - id: "formule-2-championnat-1952"
+    annee: 1952
+    categorie: "reglement"
+    titre: "The championship run to Formula Two rules"
+    texte: "In 1952 and 1953, the world championship was run to Formula Two regulations, with 2-litre engines, except at the Indianapolis 500: the organisers otherwise feared too thin a field, and the choice opened the grid to more competitors. Ferrari dominated with Alberto Ascari, who won six of the seven races he entered in 1952. Formula One returned in 1954, with 2.5-litre engines."
+    sources:
+      - titre: "Wikipedia, “1952 Formula One season”"
+        url: "https://en.wikipedia.org/wiki/1952_Formula_One_season"
+      - titre: "Motor Sport Magazine, “1953 F1 World Championship” (database, undated)"
+        url: "https://www.motorsportmagazine.com/database/championships/f1/1953-f1-world-championship"
   - id: "formule-2-5-litres"
     annee: 1954
     categorie: "reglement"
@@ -626,6 +636,16 @@ contexte:
         url: "https://www.motorsportmagazine.com/archive/article/march-1958/17/the-argentine-racing-season/"
       - titre: "Goodwood, Russell Campbell, “Cooper T43: Formula 1's groundbreaking rear-engined winner” (May 2025)"
         url: "https://www.goodwood.com/grr/f1/cooper-t43-formula-1s-groundbreaking-rear-engined-winner/"
+  - id: "formule-1-5-litres-1961"
+    annee: 1961
+    categorie: "reglement"
+    titre: "The 1.5-litre formula"
+    texte: "In 1961, only normally aspirated engines of up to 1,500 cc were allowed, with a minimum weight first set at 500 kg and then lowered to 450 kg. The British teams, who had hoped to keep the 1960 rules, struggled to find suitable engines for the start of the season. Ferrari, ready with the V6-engined 156, its first mid-engined single-seater, started as clear favourite and won five of the eight Grands Prix; Phil Hill was champion."
+    sources:
+      - titre: "Motor Sport Magazine, “1961 F1 World Championship” (database, undated)"
+        url: "https://www.motorsportmagazine.com/database/championships/f1/1961-f1-world-championship"
+      - titre: "Wikipedia, “1961 Formula One season”"
+        url: "https://en.wikipedia.org/wiki/1961_Formula_One_season"
   - id: "carbone-farnborough"
     annee: 1963
     categorie: "technologie"

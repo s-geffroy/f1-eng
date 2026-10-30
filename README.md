@@ -236,6 +236,8 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   en pole hors monopole, et monopoles (impose ou de fait).
 - `_data/chassis.yml` : saisi a la main, chaque cas source ; modele de la voiture gagnante de
   chaque GP, regroupe par ecurie-saison.
+- `_data/cycles.yml` : grands cycles reglementaires (dossier /dossiers/cycles/), chacun ancre sur un
+  reglement de la chronologie ; chiffres calcules par domination.py (_data/compteur.yml, cycles).
 - Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
 
 ### Regles de contenu

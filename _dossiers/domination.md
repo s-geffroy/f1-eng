@@ -33,7 +33,7 @@ Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de
 - **Les innovations qui ouvrent une domination longue répondent presque toutes à un nouveau règlement** : {{ AM.ouvrants_regle }} sur {{ AM.ouvrants }}.
 - **Interdire une innovation ne renverse pas l'écurie qui domine.**
 - **L'arrivée d'un ingénieur du Tier A précède une hausse {{ IA[1].hausse }} fois sur {{ IA[1].n }}**, quand une écurie comparable n'en connaîtrait que {{ IA[1].hausse_attendue | replace: ".", "," }}. Un départ, lui, ne change rien.
-- **Les nouveaux règlements semblent bousculer la hiérarchie** : lors des saisons où un changement de règlement s'applique, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. C'est un indice, pas une preuve. Ces changements ne créent pas pour autant plus souvent une domination longue.
+- **Les nouveaux règlements bousculent la hiérarchie** : lors des saisons où un changement de règlement s'applique, l'écurie la plus victorieuse change dans {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }} % des cas, contre {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }} % les autres saisons. Le résultat est net, mais il dépend de la liste des règlements retenus. Ces changements ne créent pas pour autant plus souvent une domination longue.
 
 Sommaire
 {:.sommaire-titre}
@@ -211,6 +211,17 @@ Les années 1950 figurent en bonne place, mais avec peu de courses : Ferrari gag
 
 {% include domination.html quoi="ecrasantes" unite="pilote" %}
 
+## Par cycle réglementaire
+
+La domination se lit aussi à l'échelle des grands cycles réglementaires, ces remises à zéro du règlement technique qui reviennent tous les cinq à quinze ans. Le [dossier sur les cycles réglementaires]({{ site.baseurl }}/dossiers/cycles/) les examine un par un : qui domine chaque cycle, à quelle vitesse la hiérarchie se fige, et si le meneur d'un cycle survit au suivant.
+
+<figure class="figure">
+{% include domination/cycles-cadrans-fr.svg %}
+<figcaption>Un cadran par cycle réglementaire : l'indice moyen de l'écurie qui y gagne le plus (aiguille), et sa meilleure saison du cycle (trait noir).</figcaption>
+</figure>
+
+L'écurie qui mène la dernière saison d'un cycle ne garde la tête au début du suivant que deux fois sur dix : McLaren en 1989 et Red Bull en 2022.
+
 ## Domination technique
 
 Une écurie peut dominer, mais une technologie aussi. On suit neuf innovations de la [chronologie]({{ site.baseurl }}/chronologie/), du moteur arrière à la récupération d'énergie. Pour chaque Grand Prix, on note si la voiture gagnante l'utilise ; la part des victoires mesure alors la domination de la technologie, saison par saison. Hors des fenêtres de transition, tous les gagnants l'ont, ou aucun : le moteur arrière après 1961, l'effet de sol interdit de 1983 à 2021. Pendant ces fenêtres, chaque écurie gagnante est classée une à une, sources à l'appui ({{ TK.size }} technologies, {% assign n_tk = 0 %}{% for t in TK %}{% assign n_tk = n_tk | plus: t.cas.size %}{% endfor %}{{ n_tk }} classements).
@@ -369,9 +380,9 @@ Cela ne prouve pas que l'ingénieur fasse gagner l'écurie. Le témoin neutralis
 {% include domination.html quoi="ingenieurs" %}
 </details>
 
-### 4. Les règlements : rebattre les cartes sans créer de dynastie
+### 4. Les règlements : rebattre les cartes sans créer de dynastie {#reglements}
 
-D'une saison à l'autre, l'écurie qui gagne le plus de Grands Prix change souvent. Elle change **{{ RB.avec.changements }} fois sur {{ RB.avec.saisons }}** lors des saisons où un changement de règlement de la chronologie s'applique, contre **{{ RB.sans.changements }} fois sur {{ RB.sans.saisons }}** les autres saisons. Le hasard seul produirait un tel écart avec une probabilité de {{ RB.p | times: 100 | round }} %, au-dessus du seuil habituel de 5 %. **Un nouveau règlement semble donc bousculer la hiérarchie, sans que les données suffisent à le démontrer.**
+D'une saison à l'autre, l'écurie qui gagne le plus de Grands Prix change souvent. Elle change **{{ RB.avec.changements }} fois sur {{ RB.avec.saisons }}** lors des saisons où un changement de règlement de la chronologie s'applique, contre **{{ RB.sans.changements }} fois sur {{ RB.sans.saisons }}** les autres saisons. Le hasard seul produirait un tel écart avec une probabilité de {{ RB.p | times: 100 | round }} %, sous le seuil habituel de 5 %. **Un nouveau règlement bouscule donc bien la hiérarchie.** Ce résultat reste fragile : il dépend de la liste des règlements retenus. Avant l'ajout à la chronologie du championnat couru en Formule 2 (1952) et de la formule 1,5 litre (1961), à l'occasion du [dossier sur les cycles réglementaires]({{ site.baseurl }}/dossiers/cycles/), la probabilité était de 8 %.
 
 Il ne crée pas pour autant plus souvent une dynastie. {{ TR.debuts_regle }} débuts de domination longue sur {{ TR.debuts }}, et {{ TR.fins_regle }} fins sur {{ TR.fins }}, coïncident avec un changement de règlement. Ici, « coïncider » veut dire que le règlement s'applique la saison même ou la précédente ; avec cette fenêtre, {{ TR.avec_regle }} saisons sur {{ TR.annees }} sont dans ce cas : la proportion est à peu près la même.
 

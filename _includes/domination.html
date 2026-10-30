@@ -105,6 +105,44 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 <p class="note-tableau"><sup>*</sup> {{ L_h.non_dates }}</p>
 
+{%- elsif include.quoi == "cycles" or include.quoi == "cycles_dynamique" -%}
+{%- assign CYD_h = site.data.cycles.cycles -%}
+{%- if include.quoi == "cycles" -%}{%- assign cap_h = L_h.cap_cycles -%}{%- else -%}{%- assign cap_h = L_h.cap_cycles_dyn -%}{%- endif -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h }}"><table>
+<caption>{{ cap_h }}</caption>
+  {%- if include.quoi == "cycles" %}
+  <thead><tr><th scope="col">{{ L_h.cycle }}</th><th scope="col">{{ L_h.ecurie_dominante }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.ecuries_gagnantes }}</th><th scope="col">{{ L_h.pilote_dominant }}</th><th scope="col">{{ L_h.motoriste_dominant }}</th></tr></thead>
+  {%- else %}
+  <thead><tr><th scope="col">{{ L_h.cycle }}</th><th scope="col">{{ L_h.premier_meneur }}</th><th scope="col">{{ L_h.prise }}</th><th scope="col">{{ L_h.saisons_menees }}</th><th scope="col">{{ L_h.concentration }}</th><th scope="col">{{ L_h.passage }}</th></tr></thead>
+  {%- endif %}
+  <tbody>
+  {%- for c in site.data.compteur.cycles %}
+    {%- assign cd_h = CYD_h | where: "id", c.id | first -%}
+    {%- assign cc_h = D_h.chronologie.contexte | where: "id", cd_h.contexte | first -%}
+    {%- assign t_h = c.dominants -%}
+    {%- assign e_h = D_h.ecuries.ecuries | where: "id", t_h.ecurie.id | first -%}
+    <tr>
+      <td><a href="{{ url_c_h }}#c-{{ cd_h.contexte }}">{{ c.de }}–{{ c.a }}</a> · {% if lang_h == "en" %}{{ cd_h.nom_en }}{% else %}{{ cd_h.nom }}{% endif %}</td>
+      {%- if include.quoi == "cycles" %}
+      <td>{% if e_h %}<a href="{{ url_e_h }}{{ t_h.ecurie.id }}/">{{ e_h.nom | split: " (" | first }}</a>{% else %}{{ t_h.ecurie.nom }}{% endif %} : {{ t_h.ecurie.victoires }} / {{ c.gp }} ({{ t_h.ecurie.part | times: 100 | round }}{{ pc_h }})</td>
+      <td>{{ t_h.ecurie.titres }} / {{ c.saisons }}</td>
+      <td>{{ t_h.ecurie.gagnants }}</td>
+      <td>{{ t_h.pilote.nom }} ({{ t_h.pilote.part | times: 100 | round }}{{ pc_h }})</td>
+      {%- assign m_h = D_h.ecuries.motoristes | where: "id", t_h.motoriste.id | first %}
+      <td>{{ m_h.nom | default: t_h.motoriste.nom }} ({{ t_h.motoriste.part | times: 100 | round }}{{ pc_h }})</td>
+      {%- else %}
+      {%- assign p_h = D_h.ecuries.ecuries | where: "id", c.premier_meneur | first %}
+      <td>{{ p_h.nom | default: c.premier_meneur | split: " (" | first }}{% if c.premier_meneur_domine %} ✓{% endif %}</td>
+      <td>{% if c.delai_prise == 0 %}{{ L_h.prise_immediate }}{% else %}+{{ c.delai_prise }}{% endif %}</td>
+      <td>{{ c.saisons_menees }} / {{ c.saisons }}</td>
+      <td>{{ c.hhi | times: 100 | round }}</td>
+      <td>{% if c.suite %}{% assign s1_h = D_h.ecuries.ecuries | where: "id", c.dernier_meneur | first %}{% assign s2_h = D_h.ecuries.ecuries | where: "id", c.suite.meneur_suivant | first %}{{ s1_h.nom | default: c.dernier_meneur | split: " (" | first }} → {{ s2_h.nom | default: c.suite.meneur_suivant | split: " (" | first }}{% if c.suite.garde %} ({{ L_h.garde }}){% endif %}{% else %}{{ L_h.aucun }}{% endif %}</td>
+      {%- endif %}
+    </tr>
+  {%- endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "chassis" -%}
 {%- assign url_v_h = T_h.url.voitures | relative_url -%}
 {%- assign C_h = site.data.compteur.chassis -%}

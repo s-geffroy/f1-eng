@@ -33,7 +33,7 @@ The figures come from Formula 1's official results: the winner of each of the {{
 - **The innovations that open a long dominance almost all respond to new regulations**: {{ AM.ouvrants_regle }} out of {{ AM.ouvrants }}.
 - **Banning an innovation does not topple the dominant team.**
 - **The arrival of a Tier A engineer precedes a rise {{ IA[1].hausse }} times out of {{ IA[1].n }}**, where a comparable team would see only {{ IA[1].hausse_attendue }}. A departure changes nothing.
-- **New regulations seem to shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. It is a clue, not proof. Yet such changes do not create a long dominance more often.
+- **New regulations shake up the order**: in seasons when a regulation change applies, the team with the most wins changes {{ RB.avec.changements | times: 100.0 | divided_by: RB.avec.saisons | round }}% of the time, compared with {{ RB.sans.changements | times: 100.0 | divided_by: RB.sans.saisons | round }}% in other seasons. The result is clear, but it depends on the list of regulations retained. Yet such changes do not create a long dominance more often.
 
 Contents
 {:.sommaire-titre}
@@ -211,6 +211,17 @@ The 1950s rank high, but with few races: in 1952 Ferrari wins seven of the eight
 
 {% include domination.html quoi="ecrasantes" unite="pilote" %}
 
+## By regulation cycle
+
+Dominance can also be read at the scale of the major regulation cycles, the resets of the technical rules that come every five to fifteen years. The [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/) examines them one by one: who dominates each cycle, how fast the order settles, and whether a cycle's leader survives into the next.
+
+<figure class="figure">
+{% include domination/cycles-cadrans-en.svg %}
+<figcaption>One dial per regulation cycle: the average index of the team that wins most in it (needle), and its best season of the cycle (black mark).</figcaption>
+</figure>
+
+The team leading the last season of a cycle stays ahead at the start of the next only twice out of ten: McLaren in 1989 and Red Bull in 2022.
+
 ## Technical dominance
 
 A team can dominate, but so can a technology. Nine innovations from the [timeline]({{ site.baseurl }}/en/timeline/) are followed, from the rear engine to energy recovery. For each Grand Prix, we note whether the winning car uses it; the share of wins then measures the technology's dominance, season by season. Outside the transition windows, every winner has it, or none: the rear engine after 1961, ground effect banned from 1983 to 2021. Within those windows, each winning team is classified one by one, with sources ({{ TK.size }} technologies, {% assign n_tk = 0 %}{% for t in TK %}{% assign n_tk = n_tk | plus: t.cas.size %}{% endfor %}{{ n_tk }} classifications).
@@ -369,9 +380,9 @@ This does not prove that the engineer makes the team win. The control neutralise
 {% include domination.html quoi="ingenieurs" %}
 </details>
 
-### 4. Regulations: reshuffling the pack without creating a dynasty
+### 4. Regulations: reshuffling the pack without creating a dynasty {#regulations}
 
-From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a regulation change on the timeline comes into force, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. Chance alone would produce such a gap with a probability of {{ RB.p | times: 100 | round }}%, above the usual 5% threshold. **New regulations therefore seem to shake up the order, though the data are not enough to prove it.**
+From one season to the next, the team winning the most Grands Prix often changes. It changes **{{ RB.avec.changements }} times out of {{ RB.avec.saisons }}** in seasons when a regulation change on the timeline comes into force, against **{{ RB.sans.changements }} times out of {{ RB.sans.saisons }}** in other seasons. Chance alone would produce such a gap with a probability of {{ RB.p | times: 100 | round }}%, below the usual 5% threshold. **New regulations do shake up the order.** The result remains fragile: it depends on the list of regulations retained. Before the championship run to Formula Two rules (1952) and the 1.5-litre formula (1961) were added to the timeline, with the [feature on regulation cycles]({{ site.baseurl }}/en/features/cycles/), the probability was 8%.
 
 Yet they do not create dynasties more often. {{ TR.debuts_regle }} starts of long dominance out of {{ TR.debuts }}, and {{ TR.fins_regle }} ends out of {{ TR.fins }}, coincide with a regulation change. Here, "coincide" means that the regulation applies in the same season or the one before; with that window, {{ TR.avec_regle }} seasons out of {{ TR.annees }} are in that situation: the proportion is roughly the same.
 
