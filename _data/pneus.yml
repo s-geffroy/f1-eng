@@ -8,14 +8,16 @@ monopoles:
   a: 1963
   pneus: Dunlop
   nature: de_fait
-  pourquoi: 'Les pages des saisons 1961, 1962 et 1963 précisent que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; les 500 miles d''Indianapolis, courus en Firestone, ne comptent plus au championnat depuis 1961.'
+  pourquoi: Doug Nye écrit que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop, ce que confirment les comptes rendus d'époque (« everyone uses Dunlop tyres » en 1961, « all the top Grand Prix cars use Dunlop tyres » en 1963) ; les 500 miles d'Indianapolis, courus en Firestone, sortent du championnat en 1961, au passage à la formule de 1,5 litre.
   sources:
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
-  - titre: Wikipedia, « 1963 Formula One season »
-    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: Motor Sport, Bill Boddy, « 1961 British Grand Prix race report - Another Ferrari triumph » (août 1961)
+    url: https://www.motorsportmagazine.com/archive/article/august-1961/20/14th-r-a-c-british-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
+  - titre: Motor Sport, Paul Fearnley, « Formula 1 and the Indianapolis 500's separate worlds » (avril 2019)
+    url: https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds
 - de: 1975
   a: 1976
   pneus: Goodyear
@@ -81,112 +83,117 @@ cas:
   ecurie: alfa-romeo-1979
   equipe: Alfa Romeo
   pneus: Pirelli
-  pourquoi: Alfa Romeo SpA est engagée en pneus Pirelli (tableau des engagés 1950) ; le tableau des résultats donne Pirelli à chacune de ses victoires.
+  pourquoi: Pirelli rappelle qu'Alfa Romeo et lui ont gagné ensemble les six Grands Prix européens du premier championnat ; le compte rendu de Motor Sport du GP de Grande-Bretagne 1950 décrit les Alfetta chaussées de Pirelli à l'avant comme à l'arrière.
   sources:
-  - titre: Wikipedia, « 1950 Formula One season »
-    url: https://en.wikipedia.org/wiki/1950_Formula_One_season
+  - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
+    url: https://www.pirelli.com/global/en-ww/race/celebrating-400-formula-1-races-pirelli-s-highlights
+  - titre: Motor Sport, « The Royal Silverstone meeting » (juin 1950)
+    url: https://www.motorsportmagazine.com/archive/article/june-1950/7/the-royal-silverstone-meeting/
 - annee: 1950
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1950 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''Indianapolis Motor Speedway compte 43 victoires consécutives de Firestone, interrompues par Goodyear en 1967 : la série couvre toutes les éditions de 1920 à 1966, donc celle de 1950. Firestone revendique de son côté 25 victoires consécutives dès 1948.'
   sources:
-  - titre: Wikipedia, « 1950 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1950_Indianapolis_500
-  - titre: Wikipedia, « 1950 Formula One season »
-    url: https://en.wikipedia.org/wiki/1950_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
+  - titre: Firestone, « Our Heritage »
+    url: https://www.firestonetire.com/about-firestone/heritage/
 - annee: 1951
   ecurie: alfa-romeo-1979
   equipe: Alfa Romeo
   pneus: Pirelli
-  pourquoi: Alfa Romeo SpA est engagée en pneus Pirelli (tableau des engagés 1951) ; le tableau des résultats donne Pirelli à chacune de ses victoires.
+  pourquoi: Pirelli présente le titre 1951 de Fangio comme celui d'Alfa Romeo et de Pirelli ; à Silverstone, Motor Sport décrit les quatre Alfa 159 en pneus Pirelli, à l'avant comme à l'arrière.
   sources:
-  - titre: Wikipedia, « 1951 Formula One season »
-    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
-  - titre: Wikipedia, « 1951 British Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_British_Grand_Prix
+  - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
+    url: https://www.pirelli.com/global/en-ww/race/celebrating-400-formula-1-races-pirelli-s-highlights
+  - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
+    url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
 - annee: 1951
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: 'La Scuderia Ferrari figure en « Pirelli / Englebert » dans le tableau des engagés, mais les listes d''engagés des GP de Grande-Bretagne, d''Allemagne, d''Italie et d''Espagne donnent Pirelli aux 375 d''Ascari et González : toutes les victoires et poles sont en Pirelli.'
+  pourquoi: À Silverstone, Motor Sport décrit les 375 d'Ascari et de González en Pirelli (Villoresi, lui, est en Englebert) ; à Monza, les Ferrari neuves d'Ascari, González et Villoresi étrennent un nouveau pneu arrière Pirelli. Pirelli compte la victoire de Silverstone 1951 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Pour le Nürburgring, la liste des engagés du Grand Prix d'Allemagne donne Pirelli à Ascari.
   sources:
-  - titre: Wikipedia, « 1951 Formula One season »
-    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
-  - titre: Wikipedia, « 1951 British Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_British_Grand_Prix
+  - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
+    url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
+  - titre: Motor Sport, « XXII G.P. d'Italia » (octobre 1951)
+    url: https://www.motorsportmagazine.com/archive/article/october-1951/13/xxii-gp-ditalia
+  - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
+    url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
   - titre: Wikipedia, « 1951 German Grand Prix »
     url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
-  - titre: Wikipedia, « 1951 Italian Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_Italian_Grand_Prix
-  - titre: Wikipedia, « 1951 Spanish Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_Spanish_Grand_Prix
 - annee: 1951
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Novi
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1951 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''Indianapolis Motor Speedway compte 43 victoires consécutives de Firestone, interrompues par Goodyear en 1967 : la série couvre toutes les éditions de 1920 à 1966, donc celle de 1951.'
   sources:
-  - titre: Wikipedia, « 1951 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
-  - titre: Wikipedia, « 1951 Formula One season »
-    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
 - annee: 1951
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1951 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''IMS donne la victoire de 1951 à Lee Wallard sur Kurtis/Offy et compte 43 victoires consécutives de Firestone jusqu''à ce que Goodyear interrompe la série en 1967 : le vainqueur de 1951 était donc en Firestone.'
   sources:
-  - titre: Wikipedia, « 1951 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
-  - titre: Wikipedia, « 1951 Formula One season »
-    url: https://en.wikipedia.org/wiki/1951_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
+  - titre: IMS, résultats de l'Indianapolis 500 1951
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1951
 - annee: 1952
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1952) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  pourquoi: 'Pirelli revendique le titre 1952 d''Ascari, et Motor Sport décrit Ascari en Pirelli à Silverstone. Mais au Grand Prix de Belgique, à Spa (victoire et pole d''Ascari), toutes les Ferrari d''usine avaient des pneus arrière Englebert, selon le compte rendu de Motor Sport : d''où l''exception.'
   sources:
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+  - titre: Motor Sport, Bill Boddy, « Ascari and Farina (Ferraris) dominate the GP d'Europe at Spa » (juillet 1952)
+    url: https://www.motorsportmagazine.com/archive/article/july-1952/33/ascari-and-farinaferraris-dominate-the-gp-deurope/
+  - titre: Motor Sport, « Ferrari wins the British GP » (août 1952)
+    url: https://www.motorsportmagazine.com/archive/article/august-1952/11/ferrari-wins-the-british-gp/
+  - titre: Pirelli, « 110 years from race to road »
+    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+  exceptions:
+  - gp: Belgium
+    pneus: Englebert
 - annee: 1952
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Cummins
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1952 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''Indianapolis Motor Speedway compte 43 victoires consécutives de Firestone, interrompues par Goodyear en 1967 : la série couvre toutes les éditions de 1920 à 1966, donc celle de 1952.'
   sources:
-  - titre: Wikipedia, « 1952 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
 - annee: 1952
   ecurie: ~Kuzma Offenhauser
   equipe: Kuzma Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1952 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''IMS donne la victoire de 1952 à Troy Ruttman sur Kuzma/Offy et compte 43 victoires consécutives de Firestone jusqu''en 1966 : le vainqueur de 1952 était donc en Firestone.'
   sources:
-  - titre: Wikipedia, « 1952 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
+  - titre: IMS, résultats de l'Indianapolis 500 1952
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1952
 - annee: 1953
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1953) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  pourquoi: Pirelli revendique le titre 1953 d'Ascari sur Ferrari et compte la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
   sources:
+  - titre: Pirelli, « 110 years from race to road »
+    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+  - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
+    url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
   - titre: Wikipedia, « 1953 Formula One season »
     url: https://en.wikipedia.org/wiki/1953_Formula_One_season
 - annee: 1953
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1953 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''Indianapolis Motor Speedway compte 43 victoires consécutives de Firestone, interrompues par Goodyear en 1967 : la série couvre toutes les éditions de 1920 à 1966, donc celle de 1953.'
   sources:
-  - titre: Wikipedia, « 1953 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1953_Indianapolis_500
-  - titre: Wikipedia, « 1953 Formula One season »
-    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
 - annee: 1953
   ecurie: maserati
   equipe: Maserati
@@ -199,184 +206,204 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: La Scuderia Ferrari est engagée en Pirelli (tableau des engagés 1954) ; le tableau des résultats donne Pirelli à chaque victoire Ferrari.
+  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone 1954 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
   sources:
+  - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
+    url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
   - titre: Wikipedia, « 1954 Formula One season »
     url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-  - titre: Wikipedia, « 1954 French Grand Prix »
-    url: https://en.wikipedia.org/wiki/1954_French_Grand_Prix
 - annee: 1954
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1954 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: 'L''Indianapolis Motor Speedway compte 43 victoires consécutives de Firestone, interrompues par Goodyear en 1967 : la série couvre toutes les éditions de 1920 à 1966, donc celle de 1954.'
   sources:
-  - titre: Wikipedia, « 1954 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1954_Indianapolis_500
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Indianapolis Motor Speedway, Marshall Pruett, « Indianapolis 500 Has Incubated Endless Advancements in Automotive Technology, Safety » (août 2020)
+    url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/08/03/indianapolis-500-has-incubated-endless-advancements-in-automotive-technology-safety
 - annee: 1954
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1954) ; le tableau des résultats donne Pirelli à ses victoires.
+  pourquoi: La fiche technique de la 250F publiée par 8W lui donne des pneus Pirelli Stelvio Corse, et Pirelli présente la 250F de Fangio comme chaussée de Pirelli dès 1954 ; OldRacingCars confirme que les deux victoires Maserati de 1954 (Argentine, Belgique) sont celles de Fangio sur 250F.
   sources:
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Forix / 8W, Don Capps, « Maserati 250F » (avril 2000)
+    url: https://8w.forix.com/250f.html
+  - titre: Pirelli, « Maserati custom-made tyres from Pirelli »
+    url: https://www.pirelli.com/tyres/en-gb/car/prestige/maserati
+  - titre: OldRacingCars.com, « Argentinian Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=RA54
 - annee: 1954
   ecurie: lancia
   equipe: Lancia
   pneus: Pirelli
-  pourquoi: 'Seule pole : Ascari au GP d''Espagne, sur la D50 de la Scuderia Lancia, engagée en Pirelli (tableau des engagés et liste du GP).'
+  pourquoi: 'Seule pole : Ascari au GP d''Espagne, sur la D50 de la Scuderia Lancia (OldRacingCars). Doug Nye et Chris Nixon, dans Motor Sport, rappellent que la D50 avait été conçue pour des pneus Pirelli Stelvio Corsa, et ne passa en Englebert qu''une fois reprise par Ferrari en 1955.'
   sources:
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-  - titre: Wikipedia, « 1954 Spanish Grand Prix »
-    url: https://en.wikipedia.org/wiki/1954_Spanish_Grand_Prix
+  - titre: 'Motor Sport, Doug Nye, « Lancia D50: the grand prix great that doomed a team » (juillet 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/
+  - titre: Motor Sport, Chris Nixon, « Too good for their own good? » (avril 2002)
+    url: https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/
+  - titre: OldRacingCars.com, « Spanish Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=E54
 - annee: 1954
   ecurie: ~Mercedes-Benz
   equipe: Mercedes-Benz
   pneus: Continental
-  pourquoi: Daimler Benz AG est engagée en Continental (tableau des engagés 1954) ; le tableau des résultats donne Continental à chaque victoire Mercedes.
+  pourquoi: Au GP de France 1954, première victoire de la W196, Motor Sport note que Continental équipe les Mercedes ; il les retrouve en Continental à Silverstone (pole de Fangio), et Paul Fearnley évoque les pneus Continental « encore non éprouvés » de la W196 cette année-là. Doug Nye (Motor Sport, juillet 2020) oppose aussi les Pirelli de la Lancia D50 aux « Continentals » de Mercedes.
   sources:
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-  - titre: Wikipedia, « 1954 French Grand Prix »
-    url: https://en.wikipedia.org/wiki/1954_French_Grand_Prix
+  - titre: Motor Sport, « The week-end at Reims » (août 1954)
+    url: https://www.motorsportmagazine.com/archive/article/august-1954/14/the-week-end-at-reims/
+  - titre: Motor Sport, « Ferrari vanquishes Mercedes-Benz in British Grand Prix » (août 1954)
+    url: https://www.motorsportmagazine.com/archive/article/august-1954/9/ferrari-vanquishes-mercedes-benz-in-british-grand-prix/
+  - titre: Motor Sport, Paul Fearnley, « Ferrari vs Mercedes in the '50s » (avril 2015)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ferrari-vs-mercedes-50s/
 - annee: 1955
   ecurie: ferrari
   equipe: Ferrari
   pneus: Englebert
-  pourquoi: 'Seule victoire : Trintignant à Monaco sur Ferrari 625, engagée en Englebert ; la page du GP la présente comme la première victoire d''Englebert.'
+  pourquoi: 'Seule victoire : Trintignant à Monaco sur Ferrari 625. La base de Motorsport-Magazin place ce succès en tête des huit victoires en Grand Prix d''Englebert, ce qui en fait la première du manufacturier ; Motor Sport rappelle qu''en 1955 la Scuderia Ferrari était sous contrat avec Englebert.'
   sources:
-  - titre: Wikipedia, « 1955 Formula One season »
-    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
-  - titre: Wikipedia, « 1955 Monaco Grand Prix »
-    url: https://en.wikipedia.org/wiki/1955_Monaco_Grand_Prix
+  - titre: Motorsport-Magazin, « Englebert - alle 8 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,5,0,0,0,0.html
+  - titre: Motor Sport, Chris Nixon, « Too good for their own good? » (avril 2002)
+    url: https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/
 - annee: 1955
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1955 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Bob Sweikert gagne sur la Kurtis Kraft KK500D/Offy de John Zink (IMS) ; cette victoire figure dans la liste des succès de Firestone (Motorsport-Magazin), et Firestone équipe tous les vainqueurs des 500 miles de 1946 à 1966 (NBC Sports).
   sources:
-  - titre: Wikipedia, « 1955 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
-  - titre: Wikipedia, « 1955 Formula One season »
-    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1955
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1955
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1955
   ecurie: lancia
   equipe: Lancia
   pneus: Pirelli
-  pourquoi: 'La Scuderia Lancia est engagée en Pirelli, Castellotti compris en Belgique (manches 1–2 et 4). La pole d''Argentine que formula1.com attribue à Lancia est celle de González, qui pilotait une Ferrari 625 de la Scuderia Ferrari, engagée en Englebert : le relevé la rend à Ferrari (outils/releve-resultats.py).'
+  pourquoi: 'La pole de Castellotti sur Lancia D50 en 1955 figure dans la liste des poles Pirelli (Motorsport-Magazin), et Motor Sport précise que les Lancia avaient été conçues pour rouler en Pirelli. La pole d''Argentine que formula1.com attribue à Lancia est celle de González sur Ferrari 625, que la même base range parmi les poles Englebert : le relevé la rend à Ferrari (outils/releve-resultats.py).'
   sources:
-  - titre: Wikipedia, « 1955 Formula One season »
-    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
-  - titre: Wikipedia, « 1955 Argentine Grand Prix »
-    url: https://en.wikipedia.org/wiki/1955_Argentine_Grand_Prix
-  - titre: Wikipedia, « 1955 Belgian Grand Prix »
-    url: https://en.wikipedia.org/wiki/1955_Belgian_Grand_Prix
+  - titre: Motorsport-Magazin, « Pirelli - alle 375 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,9,0,0,0,0.html
+  - titre: Motor Sport, Chris Nixon, « Too good for their own good? » (avril 2002)
+    url: https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/
+  - titre: Motorsport-Magazin, « Englebert - alle 11 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,5,0,0,0,0.html
 - annee: 1955
   ecurie: ~Mercedes-Benz
   equipe: Mercedes-Benz
   pneus: Continental
-  pourquoi: Daimler Benz AG est engagée en Continental (tableau des engagés 1955) ; le tableau des résultats donne Continental à chaque victoire Mercedes.
+  pourquoi: Les listes de Motorsport-Magazin donnent Continental aux cinq victoires et aux quatre poles de Mercedes en 1955.
   sources:
-  - titre: Wikipedia, « 1955 Formula One season »
-    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+  - titre: Motorsport-Magazin, « Continental - alle 10 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,3,0,0,0,0.html
+  - titre: Motorsport-Magazin, « Continental - alle 8 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,3,0,0,0,0.html
 - annee: 1955
   ecurie: ~Stevens Offenhauser
   equipe: Stevens Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1955 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: La pole de Jerry Hoyt sur la Stevens en 1955 figure dans la liste des poles Firestone de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1955 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
-  - titre: Wikipedia, « 1955 Formula One season »
-    url: https://en.wikipedia.org/wiki/1955_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
 - annee: 1956
   ecurie: ferrari
   equipe: Ferrari
   pneus: Englebert
-  pourquoi: 'La Scuderia Ferrari figure en « Englebert / Pirelli » : Englebert pour les Lancia-Ferrari D50, Pirelli pour les Ferrari 555 (liste du GP d''Argentine). Le tableau des résultats donne Englebert à toutes les victoires Ferrari, toutes obtenues sur D50.'
+  pourquoi: Les cinq victoires Ferrari de 1956, toutes sur D50, figurent dans la liste des succès Englebert (Motorsport-Magazin) ; à Monza, Motor Sport note que l'équipe court sur des Englebert de 16 pouces.
   sources:
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
-  - titre: Wikipedia, « 1956 Argentine Grand Prix »
-    url: https://en.wikipedia.org/wiki/1956_Argentine_Grand_Prix
+  - titre: Motorsport-Magazin, « Englebert - alle 8 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,5,0,0,0,0.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1956 Italian Grand Prix race report: Moss masters Monza; Fangio wins fourth title » (octobre 1956)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1956
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1956 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Le relevé attribue à Kurtis Kraft la pole de Pat Flaherty, dont la voiture est une Watson/Offy selon l'IMS. Cette pole, comme sa victoire, figure dans les listes Firestone de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1956 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1956_Indianapolis_500
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1956
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1956
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1956
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1956) ; le tableau des résultats donne Pirelli à ses victoires.
+  pourquoi: Les deux victoires de Moss sur 250F en 1956 figurent dans la liste des succès Pirelli (Motorsport-Magazin) ; à Monza, Motor Sport décrit des Maserati en Pirelli et parle d'un « terrific success for Maserati and Pirelli ».
   sources:
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Motorsport-Magazin, « Pirelli - alle 372 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,9,0,0,0,0.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1956 Italian Grand Prix race report: Moss masters Monza; Fangio wins fourth title » (octobre 1956)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1956
   ecurie: ferrari
   equipe: Lanica Ferrari
   pneus: Englebert
-  pourquoi: Les six poles de Fangio ont été signées sur Lancia-Ferrari D50, engagée en Englebert (la 555 était en Pirelli) ; liste d'engagés du GP d'Argentine 1956.
+  pourquoi: Les six poles de Fangio sur Lancia-Ferrari D50 en 1956 figurent toutes dans la liste des poles Englebert de Motorsport-Magazin ; Motor Sport confirme les Englebert de la Scuderia à Monza.
   sources:
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
-  - titre: Wikipedia, « 1956 Argentine Grand Prix »
-    url: https://en.wikipedia.org/wiki/1956_Argentine_Grand_Prix
+  - titre: Motorsport-Magazin, « Englebert - alle 11 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,5,0,0,0,0.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1956 Italian Grand Prix race report: Moss masters Monza; Fangio wins fourth title » (octobre 1956)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1956
   ecurie: ~Watson Offenhauser
   equipe: Watson Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1956 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Pat Flaherty gagne sur Watson/Offy (IMS) ; sa victoire et sa pole figurent dans les listes Firestone de Motorsport-Magazin, et Firestone équipe tous les vainqueurs des 500 miles de 1946 à 1966 (NBC Sports).
   sources:
-  - titre: Wikipedia, « 1956 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1956_Indianapolis_500
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1956
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1956
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1957
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1957 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: La pole de Pat O'Connor sur Kurtis Kraft 500G en 1957 figure dans la liste des poles Firestone de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1957 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
-  - titre: Wikipedia, « 1957 Formula One season »
-    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
 - annee: 1957
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1957) ; le tableau des résultats donne Pirelli à ses victoires. La page de la saison 1957 note que ce fut le dernier titre de Pirelli face à la concurrence.
+  pourquoi: Les quatre victoires de Fangio sur 250F en 1957 figurent dans la liste des succès Pirelli (Motorsport-Magazin), qui ne compte ensuite plus aucune victoire Pirelli avant 1985 ; Motor Sport note en juillet 1957 que Pirelli a cessé de fabriquer des pneus de course et que les stocks de Vanwall et de Maserati s'épuisent.
   sources:
-  - titre: Wikipedia, « 1957 Formula One season »
-    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+  - titre: Motorsport-Magazin, « Pirelli - alle 372 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,9,0,0,0,0.html
+  - titre: Motor Sport, Denis Jenkinson, « 1957 British Grand Prix race report - Vanwall achieves undisputed victory at last » (août 1957)
+    url: https://www.motorsportmagazine.com/archive/article/august-1957/14/the-10th-british-grand-prix
 - annee: 1957
   ecurie: vanwall
   equipe: Vanwall
   pneus: Pirelli
-  pourquoi: Vandervell Products est engagée en Pirelli (tableau des engagés 1957) ; le changement pour Dunlop intervient en 1958.
+  pourquoi: 8W rappelle que la Vanwall roule en Pirelli jusqu'à la fin de 1957 ; ses trois victoires de la saison figurent dans la liste des succès Pirelli (Motorsport-Magazin), et Motor Sport la voit essayer des Dunlop à Aintree faute de stocks Pirelli.
   sources:
-  - titre: Wikipedia, « 1957 Formula One season »
-    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+  - titre: 8W (Forix), « When? 1957 British GP »
+    url: https://forix.com/8w/gb57.html
+  - titre: Motorsport-Magazin, « Pirelli - alle 372 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,9,0,0,0,0.html
+  - titre: Motor Sport, Denis Jenkinson, « 1957 British Grand Prix race report - Vanwall achieves undisputed victory at last » (août 1957)
+    url: https://www.motorsportmagazine.com/archive/article/august-1957/14/the-10th-british-grand-prix
 - annee: 1957
   ecurie: ~Epperly Offenhauser
   equipe: Epperly Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1957 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Le relevé étiquette « Epperly » la victoire de Sam Hanks, qui court en réalité sur la Salih/Offy de George Salih (IMS) ; cette victoire figure dans la liste des succès Firestone (Motorsport-Magazin), et Firestone équipe tous les vainqueurs des 500 miles de 1946 à 1966 (NBC Sports).
   sources:
-  - titre: Wikipedia, « 1957 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
-  - titre: Wikipedia, « 1957 Formula One season »
-    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1957
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1957
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1958
   ecurie: cooper
   equipe: Cooper Climax
@@ -384,344 +411,406 @@ cas:
   exceptions:
   - gp: Argentina
     pneus: Continental
-  pourquoi: Les deux victoires sont celles de la Cooper du Rob Walker Racing Team, engagée en « Continental / Dunlop ». Le tableau des résultats donne Continental en Argentine (Moss) et Dunlop à Monaco (Trintignant) ; Doug Nye confirme les Continental choisis par Walker à la place des Dunlop. Un article de formula1.com parle au contraire de Dunlop en Argentine.
+  pourquoi: Les deux victoires sont celles des Cooper du Rob Walker Racing Team. Motorsport-Magazin range la victoire de Moss en Argentine (T43) parmi les succès Continental et celle de Trintignant à Monaco (T45) parmi les succès Dunlop ; Doug Nye confirme les Continental choisis par Walker à la place des Dunlop. Un article de formula1.com parle au contraire de Dunlop en Argentine.
   sources:
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
-  - titre: Motor Sport, Doug Nye, octobre 2009
+  - titre: Motorsport-Magazin, « Continental - alle 10 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,3,0,0,0,0.html
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
+  - titre: Motor Sport, Doug Nye, « Stirling’s finest drive? Aye! » (octobre 2009)
     url: https://www.motorsportmagazine.com/archive/article/october-2009/130/doug-nye-35/
-  - titre: 'Formula1.com, « Argentina ’58: Moss bluffs his way to victory »'
+  - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
     url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
 - annee: 1958
   ecurie: ferrari
   equipe: Ferrari
   pneus: Englebert
-  pourquoi: La Scuderia Ferrari est engagée en Englebert toute la saison (tableau des engagés 1958) ; le tableau des résultats donne Englebert à ses victoires de France et de Grande-Bretagne.
+  pourquoi: Les victoires de Hawthorn (France) et de Collins (Grande-Bretagne) sur Ferrari 246 figurent dans la liste des succès Englebert (Motorsport-Magazin) ; Doug Nye décrit les Dino de 1958 sur des Englebert jugés inférieurs aux Dunlop de BRM et de Vanwall.
   sources:
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motorsport-Magazin, « Englebert - alle 8 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,5,0,0,0,0.html
+  - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
 - annee: 1958
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: 'Seule pole : Fangio en Argentine, sur la 250F de la Scuderia Sud Americana, engagée en Pirelli (tableau des engagés 1958).'
+  pourquoi: 'Seule pole : Fangio en Argentine sur Maserati 250F, rangée par Motorsport-Magazin parmi les poles Pirelli (la dernière de Pirelli avant 1983).'
   sources:
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motorsport-Magazin, « Pirelli - alle 375 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,9,0,0,0,0.html
 - annee: 1958
   ecurie: vanwall
   equipe: Vanwall
   pneus: Dunlop
-  pourquoi: Vandervell Products est engagée en Dunlop (tableau des engagés 1958) ; le tableau des résultats donne Dunlop à ses six victoires.
+  pourquoi: Motor Sport décrit le passage de Vanwall aux Dunlop en 1958, Pirelli ayant cessé de fabriquer des pneus de course, et leur fiabilité totale jusqu'à la sixième victoire ; les six succès figurent dans la liste Dunlop de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motor Sport, Denis Jenkinson, « A Tribute to Vanwall » (décembre 1958)
+    url: https://www.motorsportmagazine.com/archive/article/december-1958/17/a-tribute-to-vanwall/
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
 - annee: 1958
   ecurie: ~Epperly Offenhauser
   equipe: Epperly Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1958 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Le relevé étiquette « Epperly » la victoire de Jimmy Bryan, qui court sur la Salih/Offy de George Salih (IMS) ; cette victoire figure dans la liste des succès Firestone (Motorsport-Magazin), et Firestone équipe tous les vainqueurs des 500 miles de 1946 à 1966 (NBC Sports).
   sources:
-  - titre: Wikipedia, « 1958 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1958
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1958
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1958
   ecurie: ~Watson Offenhauser
   equipe: Watson Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1958 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: La pole de Dick Rathmann sur Watson en 1958 figure dans la liste des poles Firestone de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1958 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
-  - titre: Wikipedia, « 1958 Formula One season »
-    url: https://en.wikipedia.org/wiki/1958_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
 - annee: 1959
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: La victoire de Bonnier à Zandvoort sur BRM P25 figure dans la liste des succès Dunlop (Motorsport-Magazin) ; Motor Sport notait dès 1957 que BRM avait toujours couru en Dunlop.
   sources:
-  - titre: Wikipedia, « 1959 Formula One season »
-    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
+  - titre: Motor Sport, Denis Jenkinson, « 1957 British Grand Prix race report - Vanwall achieves undisputed victory at last » (août 1957)
+    url: https://www.motorsportmagazine.com/archive/article/august-1957/14/the-10th-british-grand-prix
 - annee: 1959
   ecurie: cooper
   equipe: Cooper Climax
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: Les cinq victoires Cooper de 1959 (Brabham deux fois, Moss deux fois, McLaren) figurent toutes dans la liste des succès Dunlop de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1959 Formula One season »
-    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
 - annee: 1959
   ecurie: ferrari
   equipe: Ferrari
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1959) ; le tableau des résultats donne Dunlop à toutes ses victoires. Ferrari est passée d'Englebert à Dunlop cette saison-là.
+  pourquoi: Les deux victoires de Brooks sur Ferrari en 1959 figurent dans la liste des succès Dunlop (Motorsport-Magazin) ; Doug Nye décrit les Dino de 1959 équipées de freins à disque et de pneus Dunlop, après des Englebert en 1958.
   sources:
-  - titre: Wikipedia, « 1959 Formula One season »
-    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
+  - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
 - annee: 1959
   ecurie: ~Lesovsky Offenhauser
   equipe: Lesovsky Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1959 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: La pole de Johnny Thomson sur Lesovsky en 1959 figure dans la liste des poles Firestone de Motorsport-Magazin.
   sources:
-  - titre: Wikipedia, « 1959 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1959_Indianapolis_500
-  - titre: Wikipedia, « 1959 Formula One season »
-    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
 - annee: 1959
   ecurie: ~Watson Offenhauser
   equipe: Watson Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1959 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Rodger Ward gagne sur Watson/Offy (IMS) ; cette victoire figure dans la liste des succès Firestone (Motorsport-Magazin), et Firestone équipe tous les vainqueurs des 500 miles de 1946 à 1966 (NBC Sports).
   sources:
-  - titre: Wikipedia, « 1959 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1959_Indianapolis_500
-  - titre: Wikipedia, « 1959 Formula One season »
-    url: https://en.wikipedia.org/wiki/1959_Formula_One_season
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
+  - titre: IMS, résultats de l'Indianapolis 500 1959
+    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1959
+  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
+    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
 - annee: 1960
   ecurie: cooper
   equipe: Cooper Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: Nigel Roebuck rappelle qu'après le retrait de Pirelli (fin 1957) puis d'Englebert (fin 1958), Dunlop eut le champ libre et un monopole de fait jusqu'à l'arrivée de Firestone et Goodyear ; à Monaco en 1960, Jenkinson note que Dunlop a équipé tout le monde de son nouveau pneu 1960.
   sources:
-  - titre: Wikipedia, « 1960 Formula One season »
-    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1960 Monaco Grand Prix race report: Stirling streets ahead » (juillet 1960)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1960/40/xviiith-grand-prix
 - annee: 1960
   ecurie: ferrari
   equipe: Ferrari
   pneus: Dunlop
-  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: Dunlop a en 1960 un monopole de fait en Grand Prix, Pirelli et Englebert s'étant retirés (Roebuck) ; à Monza, le compte rendu montre les techniciens Dunlop contrôlant les pneus arrière de la Ferrari de von Trips en course.
   sources:
-  - titre: Wikipedia, « 1960 Formula One season »
-    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1960 Italian Grand Prix race report: Monza red again at long last » (octobre 1960)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1960/32/the-xx-italian-grand-prix/
 - annee: 1960
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1960 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: Dunlop détient en 1960 un monopole de fait (Roebuck) ; à Monaco, course gagnée par Moss sur la Lotus de Rob Walker, Jenkinson précise que Dunlop a équipé tout le plateau de son nouveau pneu 1960.
   sources:
-  - titre: Wikipedia, « 1960 Formula One season »
-    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1960 Monaco Grand Prix race report: Stirling streets ahead » (juillet 1960)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1960/40/xviiith-grand-prix
 - annee: 1960
   ecurie: ~Ewing Offenhauser
   equipe: Ewing Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1960 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Les résultats officiels de l'IMS donnent la pole (départ 1) à Eddie Sachs sur la Dean Van Lines Ewing/Offy ; Motor Sport rappelle le « long monopole » de Firestone à Indianapolis, que Goodyear ne vient contester qu'en 1964.
   sources:
-  - titre: Wikipedia, « 1960 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1960_Indianapolis_500
-  - titre: Wikipedia, « 1960 Formula One season »
-    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Indianapolis Motor Speedway, « 1960 Indianapolis 500 Race Results »
+    url: https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/race-stats/race-results/1960
+  - titre: 'Motor Sport, Paul Fearnley, « Rathmann vs Ward: battle for the 1960 Indy 500 win » (mai 2020)'
+    url: https://www.motorsportmagazine.com/articles/us-scene/indycar/rathmann-vs-ward-battle-for-the-1960-indy-500-win
 - annee: 1960
   ecurie: ~Watson Offenhauser
   equipe: Watson Offenhauser
   pneus: Firestone
-  pourquoi: 'Page des 500 miles d''Indianapolis 1960 : « All entrants utilized Firestone tires » ; le tableau des résultats de la saison donne aussi Firestone au vainqueur.'
+  pourquoi: Les résultats officiels de l'IMS donnent la victoire à Jim Rathmann sur Watson/Offy ; Motor Sport rappelle le « long monopole » de Firestone à Indianapolis et que Ward, son rival, était le pilote d'essai attitré de Firestone.
   sources:
-  - titre: Wikipedia, « 1960 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1960_Indianapolis_500
-  - titre: Wikipedia, « 1960 Formula One season »
-    url: https://en.wikipedia.org/wiki/1960_Formula_One_season
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Indianapolis Motor Speedway, « 1960 Indianapolis 500 Race Results »
+    url: https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/race-stats/race-results/1960
+  - titre: 'Motor Sport, Paul Fearnley, « Rathmann vs Ward: battle for the 1960 Indy 500 win » (mai 2020)'
+    url: https://www.motorsportmagazine.com/articles/us-scene/indycar/rathmann-vs-ward-battle-for-the-1960-indy-500-win
 - annee: 1961
   ecurie: cooper
   equipe: Cooper Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop ; le compte rendu d''époque du Grand Prix de Grande-Bretagne 1961 le dit aussi : tout le monde utilise des Dunlop, aucun autre manufacturier ne s''intéressant aux Grands Prix.'
   sources:
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: Motor Sport, Bill Boddy, « 1961 British Grand Prix race report - Another Ferrari triumph » (août 1961)
+    url: https://www.motorsportmagazine.com/archive/article/august-1961/20/14th-r-a-c-british-grand-prix
 - annee: 1961
   ecurie: ferrari
   equipe: Ferrari
   pneus: Dunlop
-  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: De 1961 à 1963, toutes les F1 roulent en Dunlop (Nye, et le compte rendu de Grande-Bretagne 1961) ; à Spa, Jenkinson décrit les techniciens Dunlop surveillant la température des pneus arrière dans le stand Ferrari.
   sources:
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 Belgium Grand Prix race report: Scuderia produce another dominant display » (juillet 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1961/13/thegrandprixofbelgium
+  - titre: Motor Sport, Bill Boddy, « 1961 British Grand Prix race report - Another Ferrari triumph » (août 1961)
+    url: https://www.motorsportmagazine.com/archive/article/august-1961/20/14th-r-a-c-british-grand-prix
 - annee: 1961
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1961 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: De 1961 à 1963, toutes les F1 roulent en Dunlop (Nye) ; au Nürburgring, Moss gagne sur sa Lotus en pneus pluie Dunlop, que Lotus avait déjà utilisés sur le sec à Solitude, contre l'avis du manufacturier.
   sources:
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 German Grand Prix race report: Moss takes no prisoners at the ''Ring » (septembre 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1961/34/xxiii-german-grand-prix
 - annee: 1962
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop : toutes les victoires de BRM en 1962 ont donc été obtenues en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
 - annee: 1962
   ecurie: cooper
   equipe: Cooper Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop : la victoire de McLaren à Monaco en 1962 a donc été obtenue en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
 - annee: 1962
   ecurie: lola
   equipe: Lola Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop : la Lola Climax de 1962 était donc chaussée en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
 - annee: 1962
   ecurie: porsche
   equipe: Porsche
   pneus: Dunlop
-  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop : la victoire de Gurney à Rouen en 1962, sur Porsche, a donc été obtenue en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
 - annee: 1962
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1962 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: Doug Nye rappelle que de 1961 à 1963 les F1 de 1,5 litre roulaient exclusivement en Dunlop, ce qui permettait même à Team Lotus et Clark d'user le même train de pneus sur plus d'un Grand Prix.
   sources:
-  - titre: Wikipedia, « 1962 Formula One season »
-    url: https://en.wikipedia.org/wiki/1962_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
 - annee: 1963
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: De 1961 à 1963, les F1 roulent exclusivement en Dunlop (Nye) ; en 1963, Jenkinson écrit que toutes les voitures de pointe utilisent des Dunlop.
   sources:
-  - titre: Wikipedia, « 1963 Formula One season »
-    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
 - annee: 1963
   ecurie: ferrari
   equipe: Ferrari
   pneus: Dunlop
-  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: 'De 1961 à 1963, les F1 roulent exclusivement en Dunlop (Nye) ; en 1963, Jenkinson écrit que toutes les voitures de pointe utilisent des Dunlop : la victoire de Surtees au Nürburgring a donc été obtenue en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1963 Formula One season »
-    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
 - annee: 1963
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: La page de la saison 1963 précise que toutes les équipes roulaient en pneus Dunlop (« All teams competed with tyres supplied by Dunlop ») ; le tableau des résultats donne Dunlop à chaque vainqueur.
+  pourquoi: De 1961 à 1963, les F1 roulent exclusivement en Dunlop (Nye) ; au Grand Prix de France 1963, gagné par Clark, Jenkinson écrit que toutes les voitures de pointe utilisent des Dunlop.
   sources:
-  - titre: Wikipedia, « 1963 Formula One season »
-    url: https://en.wikipedia.org/wiki/1963_Formula_One_season
+  - titre: 'Motor Sport, Doug Nye, « Doug Nye: When the wheels fall off » (octobre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2020/21/doug-nye-when-the-wheels-fall-off
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
 - annee: 1964
   ecurie: brabham
   equipe: Brabham Climax
   pneus: Dunlop
-  pourquoi: Brabham Racing Organisation est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop aux victoires de Gurney (France, Mexique).
+  pourquoi: 'À Monaco en 1964, les deux Brabham d''usine de Brabham et Gurney, à V8 Climax, sont chaussées des derniers Dunlop à bande large ; en octobre 1964, Jenkinson rappelle que Dunlop a encore le monopole des pneus en Grand Prix : les victoires de Gurney à Rouen et à Mexico ont donc été obtenues en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1964 Formula One season »
-    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report: Lotus fails where Hill prevails » (juin 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1964/11/xxii-monaco-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1964
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Dunlop
-  pourquoi: Poles de Gurney sur la Brabham du Brabham Racing Organisation (moteur Climax selon Wikipedia, « Ford » selon formula1.com), engagée en Dunlop (tableau des engagés 1964).
+  pourquoi: Les poles de Gurney en 1964 sont signées sur les Brabham d'usine du Brabham Racing Organisation (« Ford » selon formula1.com) ; Motor Sport décrit ces voitures en Dunlop à bande large et rappelle qu'en 1964 Dunlop a toujours le monopole des pneus en Grand Prix.
   sources:
-  - titre: Wikipedia, « 1964 Formula One season »
-    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report: Lotus fails where Hill prevails » (juin 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1964/11/xxii-monaco-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1964
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: 'En Autriche, Jenkinson montre BRM essayant des jantes plus larges « pour aplatir encore les Dunlop » ; il rappelle en octobre 1964 que Dunlop a le monopole des pneus en Grand Prix : les victoires de Hill à Monaco et aux États-Unis ont donc été obtenues en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1964 Formula One season »
-    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Austrian Grand Prix race report: Bandini battles to victory » (octobre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/39/austrian-grand-prix-4
+  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1964
   ecurie: ferrari
   equipe: Ferrari
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: 'Au lendemain de la victoire de Surtees à Monza, Jenkinson écrit que Dunlop a depuis plusieurs années le monopole des pneus en Grand Prix ; Goodyear ne fait encore que des essais avec l''ATS : les victoires de Ferrari en 1964 ont donc été obtenues en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1964 Formula One season »
-    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1964
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1964) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: 'Au Nürburgring, Jenkinson décrit la Lotus d''usine de Clark sur jantes de 13 pouces « chaussées des Dunlop à bande large » ; il rappelle en octobre 1964 le monopole de Dunlop en Grand Prix : les trois victoires de Clark en 1964 ont donc été obtenues en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1964 Formula One season »
-    url: https://en.wikipedia.org/wiki/1964_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 German Grand Prix race report: Surtees rules them all at the ''ring » (septembre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1964/29/26th-german-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1965
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1965) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: 'Motor Sport montre la BRM de Hill en Dunlop à East London (où l''équipe abandonne ses essais de Goodyear) et à Silverstone. Au Mexique, il souligne que la victoire de Goodyear brise enfin « le monopole Dunlop » : les victoires de BRM à Monaco, Monza et Watkins Glen sont donc en Dunlop. La fiche technique de la P261 publiée par Autosport indique aussi « Tyres: Dunlop ».'
   sources:
-  - titre: Wikipedia, « 1965 Formula One season »
-    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
+  - titre: 'Motor Sport, Michael Tee, « 1965 Mexican Grand Prix race report: Ginther wraps it up » (décembre 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1965/43/iv-mexican-grand-prix/
+  - titre: 'Motor Sport, Michael Tee, « 1965 South African Grand Prix race report: Clark peerless at season opener » (février 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1965/28/11th-south-african/
+  - titre: Motor Sport, Denis Jenkinson, « 1965 British Grand Prix race report - A close thing » (août 1965)
+    url: https://www.motorsportmagazine.com/archive/article/august-1965/20/18th-rac-british-grand-prix/
+  - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
+    url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
 - annee: 1965
   ecurie: honda-1964
   equipe: Honda
   pneus: Goodyear
-  pourquoi: Honda R & D Company est engagée en Goodyear (tableau des engagés 1965) ; la page du GP du Mexique note que ce fut la première victoire de Goodyear en F1.
+  pourquoi: 'Honda abandonne Dunlop pour Goodyear en 1965 : Motor Sport le note dès Monaco et le confirme à Zandvoort, et Honda le rappelle dans son historique. La victoire de Ginther au Mexique est la première de Honda et la première de Goodyear en F1, selon Honda comme selon Motor Sport.'
   sources:
-  - titre: Wikipedia, « 1965 Formula One season »
-    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
-  - titre: Wikipedia, « 1965 Mexican Grand Prix »
-    url: https://en.wikipedia.org/wiki/1965_Mexican_Grand_Prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1965 Monaco Grand Prix race report: Hill fights back » (juillet 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1965/32/xxiii-monaco-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1965 Dutch Grand Prix race report: Clark rules the dunes » (août 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1965/13/dutch-grand-prix-4/
+  - titre: Honda, « 1965 Striving for the First Victory » (Grand Prix Digest 1964-1968)
+    url: https://global.honda/en/F1/HONDA1964-1968/grand-prix-digest/1965/
+  - titre: 'Motor Sport, Michael Tee, « 1965 Mexican Grand Prix race report: Ginther wraps it up » (décembre 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1965/43/iv-mexican-grand-prix/
 - annee: 1965
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Dunlop
-  pourquoi: L'équipe est engagée en Dunlop (tableau des engagés 1965) ; le tableau des résultats donne Dunlop à toutes ses victoires.
+  pourquoi: 'Motor Sport montre les Lotus d''usine en Dunlop R6 à Zandvoort et compte Team Lotus parmi les équipes Dunlop à Spa (Spence en R7). Au Mexique, il note que la victoire de Goodyear brise enfin « le monopole Dunlop » : toutes les victoires de Clark en 1965 sont donc en Dunlop.'
   sources:
-  - titre: Wikipedia, « 1965 Formula One season »
-    url: https://en.wikipedia.org/wiki/1965_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1965 Dutch Grand Prix race report: Clark rules the dunes » (août 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1965/13/dutch-grand-prix-4/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1965 Belgian Grand Prix race report: Clark weathers the storm at Spa » (juillet 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1965/12/belgian-grand-prix-scotland-forever/
+  - titre: 'Motor Sport, Michael Tee, « 1965 Mexican Grand Prix race report: Ginther wraps it up » (décembre 1965)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1965/43/iv-mexican-grand-prix/
 - annee: 1966
   ecurie: brabham
   equipe: Brabham Climax
   pneus: Goodyear
-  pourquoi: Les poles attribuées à « Brabham Climax » par formula1.com (Grande-Bretagne, Pays-Bas, États-Unis) sont celles de Jack Brabham sur les BT19/BT20 de l'usine ; le Brabham Racing Organisation figure en Goodyear dans le tableau des engagés, pour les voitures Repco comme Climax.
+  pourquoi: Les poles attribuées à « Brabham Climax » par formula1.com (Grande-Bretagne, Pays-Bas, États-Unis) sont celles de Jack Brabham sur les BT19/BT20 de l'usine. Motor Sport écrit au Nürburgring que l'équipe Brabham est « sous contrat avec Goodyear » et n'a jamais essayé autre chose ; à Reims, les Brabham d'usine sont en Goodyear, et à Brands Hatch toute la première ligne (Brabham, Hulme, Gurney) roule en Goodyear.
   sources:
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « Brabham BT20 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT20
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
+    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
 - annee: 1966
   ecurie: brabham
   equipe: Brabham Repco
   pneus: Goodyear
-  pourquoi: Le Brabham Racing Organisation (BT19/BT20 Repco) roule en Goodyear toute la saison ; Motor Sport note à Reims que les Brabham d'usine sont en Goodyear.
+  pourquoi: 'Le Brabham Racing Organisation (BT19/BT20 Repco) roule en Goodyear toute la saison : Motor Sport attribue à Goodyear la Brabham victorieuse à Reims, compte la victoire de Brands Hatch dans un triplé Goodyear et précise au Nürburgring que l''équipe est sous contrat avec Goodyear et n''a jamais rien essayé d''autre.'
   sources:
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « Brabham BT19 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT19
-  - &id002
-    titre: Motor Sport, août 1966, compte rendu du Grand Prix de France
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
     url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
 - annee: 1966
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: L'Owen Racing Organisation (P261) est en Dunlop dans le tableau des engagés 1966 ; victoire de Stewart à Monaco.
+  pourquoi: À Monaco, Motor Sport qualifie Ferrari et BRM de « fidèles utilisateurs de Dunlop » qui n'essaient la concurrence qu'aux essais ; Stewart y gagne sur la P261 de l'Owen Racing Organisation (oldracingcars.com).
   sources:
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « BRM P261 »
-    url: https://en.wikipedia.org/wiki/BRM_P261
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 Monaco Grand Prix race report: Stewart finds winning formula » (juin 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1966/18/xxiv-monaco-grand-prix/
+  - titre: oldracingcars.com, Grand Prix de Monaco 1966
+    url: https://www.oldracingcars.com/f1/results/1966/monaco/
 - annee: 1966
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Dunlop
-  pourquoi: La Cooper Car Company (T81) est en Dunlop en 1966 ; victoire et pole de Surtees au Mexique. Motor Sport signale les trois Cooper en Dunlop CR70 à Reims.
+  pourquoi: 'La Cooper Car Company (T81) est en Dunlop en 1966 : Motor Sport signale les trois Cooper en Dunlop CR70 à Reims, une Cooper premier pneu Dunlop à Brands Hatch et l''équipe « restée fidèle à Dunlop » au Nürburgring. Surtees gagne au Mexique sur la T81 (oldracingcars.com) ; les pneus de cette course viennent du tableau de la saison 1966.'
   sources:
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
+    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
+  - titre: oldracingcars.com, Grand Prix du Mexique 1966
+    url: https://www.oldracingcars.com/f1/results/1966/mexico/
   - titre: Wikipedia, « 1966 Formula One season »
     url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
-  - *id002
 - annee: 1966
   ecurie: ferrari
   equipe: Ferrari
@@ -731,45 +820,54 @@ cas:
     pneus: Dunlop
     pour: victoire
     pourquoi: victoire seulement (Dunlop pluie au départ) ; la pole de Belgique est en Firestone
-  pourquoi: 'Ferrari est notée « Firestone / Dunlop » en 1966. Motor Sport précise qu''à Spa les Ferrari avaient roulé aux essais et s''étaient qualifiées en Firestone, puis étaient repassées en Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari sont en Firestone ; la page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
+  pourquoi: 'Motor Sport précise qu''à Spa les Ferrari ont roulé aux essais et se sont qualifiées en Firestone, puis sont repassées en Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari d''usine sont en Firestone, et au Nürburgring Motor Sport parle du Firestone comme de leur pneu « habituel ». La page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
   sources:
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 Belgian Grand Prix race report: Surtees slides to victory » (juillet 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1966/16/belgian-gp-2/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
+    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
   - titre: Wikipedia, « Ferrari 312 »
     url: https://en.wikipedia.org/wiki/Ferrari_312
-  - titre: Motor Sport, juillet 1966, compte rendu du Grand Prix de Belgique
-    url: https://www.motorsportmagazine.com/archive/article/july-1966/16/belgian-gp-2/
-  - *id002
 - annee: 1966
   ecurie: team-lotus
   equipe: Lotus BRM
   pneus: Firestone
-  pourquoi: Team Lotus est en Firestone pour toutes ses voitures en 1966 (tableau des engagés, page de la Lotus 43) ; victoire de Clark aux États-Unis sur la 43 BRM H16.
+  pourquoi: 'Team Lotus est en Firestone en 1966 : au Nürburgring, Motor Sport montre ses voitures repassées en Firestone juste avant le départ, et au Mexique il précise que les trois Lotus, dont la 43 H16 « avec laquelle Clark a gagné le GP des États-Unis », sont en Firestone. Clark gagne à Watkins Glen sur la Lotus 43 BRM H16 (oldracingcars.com).'
   sources:
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « Lotus 43 »
-    url: https://en.wikipedia.org/wiki/Lotus_43
+  - titre: 'Motor Sport, Michael Tee, « 1966 Mexican Grand Prix race report: Scintillating Surtees » (décembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1966/31/5th-mexican-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
+  - titre: oldracingcars.com, Grand Prix des États-Unis 1966
+    url: https://www.oldracingcars.com/f1/results/1966/usa/
 - annee: 1966
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Firestone
-  pourquoi: La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 ; poles de Clark à Monaco et en Allemagne.
+  pourquoi: 'La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 : Motor Sport la montre en Firestone à Brands Hatch et au Mexique, et signale au Nürburgring que les Lotus repassent en Firestone avant le départ. Les poles de Clark à Monaco et en Allemagne sont en Firestone d''après le tableau de la saison 1966.'
   sources:
+  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
+  - titre: 'Motor Sport, Michael Tee, « 1966 Mexican Grand Prix race report: Scintillating Surtees » (décembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1966/31/5th-mexican-grand-prix/
   - titre: Wikipedia, « 1966 Formula One season »
     url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-  - titre: Wikipedia, « Lotus 33 »
-    url: https://en.wikipedia.org/wiki/Lotus_33
 - annee: 1967
   ecurie: brabham
   equipe: Brabham Repco
   pneus: Goodyear
-  pourquoi: Le Brabham Racing Organisation est en Goodyear en 1967 (BT20, BT24).
+  pourquoi: 'Le Brabham Racing Organisation est en Goodyear en 1967 (BT20, BT24) : Motor Sport montre les deux Brabham en Goodyear au départ de Monaco, et raconte à Mosport l''avantage des pluie Goodyear de Hulme et Brabham sur les Firestone de Lotus.'
   sources:
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Brabham BT24 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT24
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Monaco Grand Prix race report: Hulme the victor on black day » (juin 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1967/35/xxv-monaco-grand-prix/
+  - titre: 'Motor Sport, Nigel Roebuck, « Formula 1''s summer of love: the 1967 season » (décembre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/december-2020/96/formula-1s-summer-of-love-the-simple-1967-grand-prix-season
+  - titre: 'Motor Sport, Michael Tee, « 1967 Canadian Grand Prix report: Brabham again supreme » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/71/weather-affects-first-canadian-grand-prix/
 - annee: 1967
   ecurie: cooper
   equipe: Cooper Maserati
@@ -784,58 +882,70 @@ cas:
   ecurie: eagle
   equipe: Eagle Weslake
   pneus: Goodyear
-  pourquoi: Anglo American Racers (Eagle) est en Goodyear ; victoire de Gurney en Belgique.
+  pourquoi: 'Anglo American Racers (Eagle) est en Goodyear : Motor Sport note à Spa que Gurney, vainqueur, et Stewart, deuxième, roulaient en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Eagle Mk1 »
-    url: https://en.wikipedia.org/wiki/Eagle_Mk1
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Belgian Grand Prix race report: Gurney''s Eagle takes flight » (juillet 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1967/22/the-belgian-grand-prix-5/
+  - titre: oldracingcars.com, Grand Prix de Belgique 1967
+    url: https://www.oldracingcars.com/f1/results/1967/belgium/
 - annee: 1967
   ecurie: honda-1964
   equipe: Honda
   pneus: Firestone
-  pourquoi: Honda Racing (RA300) est en Firestone ; victoire de Surtees à Monza.
+  pourquoi: 'Honda Racing (RA300) gagne à Monza en Firestone : Motor Sport précise que les Firestone de la Honda victorieuse de Surtees sont les premiers fabriqués en Angleterre, à Brentford.'
   sources:
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Honda RA300 »
-    url: https://en.wikipedia.org/wiki/Honda_RA300
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
+  - titre: oldracingcars.com, Grand Prix d'Italie 1967
+    url: https://www.oldracingcars.com/f1/results/1967/italy/
 - annee: 1967
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Firestone
-  pourquoi: Les poles attribuées à « Lotus Climax » par formula1.com sont en réalité celles des Lotus 49 Ford de Team Lotus ; toute l'écurie est en Firestone en 1967.
+  pourquoi: Les poles attribuées à « Lotus Climax » par formula1.com sont en réalité celles des Lotus 49 Ford de Team Lotus ; toute l'écurie est en Firestone en 1967. Motor Sport montre les deux Lotus en Firestone aux essais officiels de Mosport, Clark en Firestone à Monza, et Nigel Roebuck rappelle que Clark tenait ses Firestone pour moins progressifs que les Goodyear.
   sources:
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: 'Motor Sport, Michael Tee, « 1967 Canadian Grand Prix report: Brabham again supreme » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/71/weather-affects-first-canadian-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
+  - titre: 'Motor Sport, Nigel Roebuck, « Formula 1''s summer of love: the 1967 season » (décembre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/december-2020/96/formula-1s-summer-of-love-the-simple-1967-grand-prix-season
 - annee: 1967
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: Team Lotus (Lotus 49 Ford) est en Firestone en 1967.
+  pourquoi: 'Team Lotus (Lotus 49 Ford) est en Firestone en 1967 : Nigel Roebuck rappelle dans Motor Sport que Clark jugeait ses Firestone moins progressifs que les Goodyear dès Zandvoort, et les comptes rendus d''époque montrent les Lotus en Firestone au Nürburgring, à Mosport et à Monza.'
   sources:
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: 'Motor Sport, Nigel Roebuck, « Formula 1''s summer of love: the 1967 season » (décembre 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/december-2020/96/formula-1s-summer-of-love-the-simple-1967-grand-prix-season
+  - titre: 'Motor Sport, Michael Tee, « 1967 Canadian Grand Prix report: Brabham again supreme » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/71/weather-affects-first-canadian-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 German Grand Prix race report: Brabham shows its steel » (septembre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1967/14/german-grand-prix-5/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
 - annee: 1968
   ecurie: brabham
   equipe: Brabham Climax
   pneus: Goodyear
-  pourquoi: Les poles de Rindt (France, Canada) attribuées à « Brabham Climax » sont celles de la BT26 Repco d'usine ; le Brabham Racing Organisation est en Goodyear en 1968.
+  pourquoi: 'Les poles de Rindt (France, Canada) attribuées à « Brabham Climax » sont celles de la BT26 Repco d''usine : les tableaux des engagés de Rouen et de Mont-Tremblant donnent la BT26 du Brabham Racing Organisation en Goodyear, et Motor Sport range Brabham parmi les Goodyear au Nürburgring.'
   sources:
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Brabham BT26 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT26
+  - titre: flyinglap, « 167th GP – France 1968 »
+    url: https://www.flyinglap.com.br/167th-gp-france-1968/
+  - titre: flyinglap, « 171st GP – Canada 1968 »
+    url: https://www.flyinglap.com.br/171st-gp-canada-1968/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
 - annee: 1968
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Firestone
-  pourquoi: La pole du Mexique attribuée à « Cooper Maserati » est celle de Jo Siffert sur la Lotus 49B du Rob Walker Racing Team ; cette écurie est en Firestone en 1968 (Cooper-Maserati à la première manche, Lotus-Ford ensuite).
+  pourquoi: La pole du Mexique attribuée à « Cooper Maserati » est celle de Jo Siffert sur la Lotus 49B (R7) de Rob Walker et Jack Durlacher, en Firestone ; l'écurie était déjà en Firestone à Kyalami avec sa Cooper T81 Maserati (Cooper-Maserati à la première manche, Lotus-Ford ensuite).
   sources:
+  - titre: flyinglap, « 173rd GP – Mexico 1968 »
+    url: https://www.flyinglap.com.br/173rd-gp-mexico-1968/
+  - titre: flyinglap, « 162nd GP – South Africa 1968 »
+    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
   - titre: Wikipedia, « 1968 Formula One season »
     url: https://en.wikipedia.org/wiki/1968_Formula_One_season
   - titre: Wikipedia, « Lotus 49 »
@@ -844,8 +954,12 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Firestone
-  pourquoi: Scuderia Ferrari en Firestone en 1968.
+  pourquoi: 'Scuderia Ferrari en Firestone en 1968 : les tableaux des engagés donnent les 312/68 d''usine en Firestone, notamment celle d''Ickx, vainqueur à Rouen.'
   sources:
+  - titre: flyinglap, « 167th GP – France 1968 »
+    url: https://www.flyinglap.com.br/167th-gp-france-1968/
+  - titre: flyinglap, « 170th GP – Italy 1968 »
+    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
   - titre: Wikipedia, « 1968 Formula One season »
     url: https://en.wikipedia.org/wiki/1968_Formula_One_season
   - titre: Wikipedia, « Ferrari 312 »
@@ -854,8 +968,10 @@ cas:
   ecurie: honda-1964
   equipe: Honda
   pneus: Firestone
-  pourquoi: Honda Racing en Firestone en 1968 (pole de Surtees à Monza, RA301).
+  pourquoi: 'Honda Racing en Firestone en 1968 : à Monza, où Surtees signe la pole, sa RA301 (F-801) figure en Firestone dans le tableau des engagés.'
   sources:
+  - titre: flyinglap, « 170th GP – Italy 1968 »
+    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
   - titre: Wikipedia, « 1968 Formula One season »
     url: https://en.wikipedia.org/wiki/1968_Formula_One_season
   - titre: Wikipedia, « Honda RA301 »
@@ -864,18 +980,22 @@ cas:
   ecurie: matra
   equipe: Matra Ford
   pneus: Dunlop
-  pourquoi: Matra International (Tyrrell, MS10 Ford) est en Dunlop ; victoires de Stewart.
+  pourquoi: 'Matra International (Tyrrell, MS10 Ford) est en Dunlop : c''est le cas de la MS10 de Stewart à Zandvoort, et Motor Sport attribue au Nürburgring la victoire à Dunlop, monté sur la Matra.'
   sources:
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Matra MS10 »
-    url: https://en.wikipedia.org/wiki/Matra_MS10
+  - titre: flyinglap, « 166th GP – Netherlands 1968 »
+    url: https://www.flyinglap.com.br/166th-gp-netherlands-1968/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
 - annee: 1968
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Bruce McLaren Motor Racing (M7A) est en Goodyear.
+  pourquoi: 'Bruce McLaren Motor Racing (M7A) est en Goodyear : c''est le cas de la M7A de Bruce McLaren, vainqueur à Spa, comme de celle de Hulme.'
   sources:
+  - titre: flyinglap, « 165th GP – Belgium 1968 »
+    url: https://www.flyinglap.com.br/165th-gp-belgium-1968/
+  - titre: flyinglap, « 167th GP – France 1968 »
+    url: https://www.flyinglap.com.br/167th-gp-france-1968/
   - titre: Wikipedia, « 1968 Formula One season »
     url: https://en.wikipedia.org/wiki/1968_Formula_One_season
   - titre: Wikipedia, « McLaren M7A »
@@ -884,38 +1004,48 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: Team Lotus / Gold Leaf Team Lotus en Firestone en 1968.
+  pourquoi: 'Team Lotus / Gold Leaf Team Lotus en Firestone en 1968 : Clark gagne à Kyalami sur une 49 en Firestone, et Motor Sport note au Nürburgring les Firestone de la Lotus de Hill, deuxième.'
   sources:
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: flyinglap, « 162nd GP – South Africa 1968 »
+    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
 - annee: 1969
   ecurie: brabham
   equipe: Brabham Climax
   pneus: Goodyear
-  pourquoi: Les poles attribuées à « Brabham Climax » sont celles des BT26 Ford d'usine (Brabham, Ickx) ; Motor Racing Developments est en Goodyear en 1969.
+  pourquoi: Les poles attribuées à « Brabham Climax » sont celles des BT26A Ford d'usine (Brabham à Kyalami, Ickx au Nürburgring et au Canada) ; Motor Racing Developments les fait courir en Goodyear en 1969, et OldRacingCars lie les progrès d'Ickx à ceux des pneus Goodyear.
   sources:
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
-  - titre: Wikipedia, « Brabham BT26 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT26
+  - titre: flyinglap, « 174th GP – South Africa 1969 »
+    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
+  - titre: flyinglap, « 180th GP – Germany 1969 »
+    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
+  - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
+    url: https://www.oldracingcars.com/brabham/bt26/
 - annee: 1969
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Motor Racing Developments (BT26A Ford) en Goodyear ; victoires d'Ickx en Allemagne et au Canada.
+  pourquoi: 'Motor Racing Developments (BT26A Ford) en Goodyear : les BT26A d''Ickx, victorieuses en Allemagne et au Canada, figurent en Goodyear dans les tableaux des engagés.'
   sources:
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
-  - titre: Wikipedia, « Brabham BT26 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT26
+  - titre: flyinglap, « 180th GP – Germany 1969 »
+    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
+  - titre: flyinglap, « 182nd GP – Canada 1969 »
+    url: https://www.flyinglap.com.br/182nd-gp-canada-1969/
+  - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
+    url: https://www.oldracingcars.com/brabham/bt26/
 - annee: 1969
   ecurie: matra
   equipe: Matra Ford
   pneus: Dunlop
-  pourquoi: Matra International (MS80, MS10) est en Dunlop en 1969.
+  pourquoi: 'Matra International (MS80, MS10) est en Dunlop en 1969 : la MS10 de Kyalami comme les MS80 de Montjuïc et de Monza figurent en Dunlop.'
   sources:
+  - titre: flyinglap, « 175th GP – Spain 1969 »
+    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
+  - titre: flyinglap, « 174th GP – South Africa 1969 »
+    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
+  - titre: flyinglap, « 181st GP – Italy 1969 »
+    url: https://www.flyinglap.com.br/181st-gp-italy-1969/
   - titre: Wikipedia, « 1969 Formula One season »
     url: https://en.wikipedia.org/wiki/1969_Formula_One_season
   - titre: Wikipedia, « Matra MS80 »
@@ -924,18 +1054,22 @@ cas:
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Bruce McLaren Motor Racing en Goodyear (victoire de Hulme au Mexique).
+  pourquoi: 'Bruce McLaren Motor Racing en Goodyear : OldRacingCars présente Goodyear comme le fournisseur de McLaren en 1969, dont la dernière évolution aide Hulme à gagner au Mexique.'
   sources:
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
-  - titre: Wikipedia, « McLaren M7A »
-    url: https://en.wikipedia.org/wiki/McLaren_M7A
+  - titre: flyinglap, « 184th GP – Mexico 1969 »
+    url: https://www.flyinglap.com.br/184th-gp-mexico-1969/
+  - titre: OldRacingCars, « McLaren M7A car-by-car histories »
+    url: https://www.oldracingcars.com/mclaren/m7a/
 - annee: 1969
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: Gold Leaf Team Lotus en Firestone en 1969.
+  pourquoi: 'Gold Leaf Team Lotus en Firestone en 1969 : les 49B victorieuses de Hill à Monaco et de Rindt à Watkins Glen figurent en Firestone.'
   sources:
+  - titre: flyinglap, « 176th GP – Monaco 1969 »
+    url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
+  - titre: flyinglap, « 183rd GP – United States 1969 »
+    url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
   - titre: Wikipedia, « 1969 Formula One season »
     url: https://en.wikipedia.org/wiki/1969_Formula_One_season
   - titre: Wikipedia, « Lotus 49 »
@@ -944,48 +1078,52 @@ cas:
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Motor Racing Developments (BT33) en Goodyear.
+  pourquoi: 'Motor Racing Developments (BT33) en Goodyear : Brabham gagne à Kyalami sur BT33 en Goodyear, et Motor Sport attribue le succès à l''alliance de la tenue de route Brabham et de la motricité Goodyear.'
   sources:
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « Brabham BT33 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT33
+  - titre: flyinglap, « 185th GP – South Africa 1970 »
+    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 South African Grand Prix race report: Brabham schools the kids » (avril 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/april-1970/30/the-grand-prix-of-south-africa
 - annee: 1970
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
-  pourquoi: Owen Racing Organisation / Yardley Team BRM (P153) en Dunlop en 1970 ; victoire de Rodríguez en Belgique.
+  pourquoi: 'Yardley Team BRM (P153) en Dunlop en 1970 : la P153 de Rodríguez, victorieuse en Belgique, figure en Dunlop, et Motor Sport décrit dès Jarama ses nouveaux Dunlop à très bas profil.'
   sources:
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « BRM P153 »
-    url: https://en.wikipedia.org/wiki/BRM_P153
+  - titre: flyinglap, « 188th GP – Belgium 1970 »
+    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Spanish Grand Prix race report: Stewart the matador » (mai 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1970/26/the-grand-prix-of-spain-ole
 - annee: 1970
   ecurie: ferrari
   equipe: Ferrari
   pneus: Firestone
-  pourquoi: Scuderia Ferrari (312B) en Firestone.
+  pourquoi: 'Scuderia Ferrari (312B) en Firestone : la 312B d''Ickx, victorieuse en Autriche, figure en Firestone, et Motor Sport décrit Ickx essayant de nouveaux Firestone à Watkins Glen.'
   sources:
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312B »
-    url: https://en.wikipedia.org/wiki/Ferrari_312B
+  - titre: flyinglap, « 193rd GP – Austria 1970 »
+    url: https://www.flyinglap.com.br/193rd-gp-austria-1970/
+  - titre: Motor Sport, « 1970 United States Grand Prix race report » (novembre 1970)
+    url: https://www.motorsportmagazine.com/archive/article/november-1970/36/12th-united-states-grand-prix
 - annee: 1970
   ecurie: march
   equipe: March Ford
   pneus: Dunlop
-  pourquoi: La victoire « March Ford » (Stewart, Espagne) est celle de la March 701 engagée par Tyrrell, qui roulait en Dunlop alors que l'usine March était en Firestone.
+  pourquoi: La victoire « March Ford » (Stewart, Espagne) est celle de la March 701 engagée par Tyrrell, en Dunlop, alors que la 701 d'usine d'Amon était en Firestone ; Motor Sport souligne à Jarama ce que Stewart compensait des faiblesses de la March et des Dunlop.
   sources:
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « March 701 »
-    url: https://en.wikipedia.org/wiki/March_701
+  - titre: flyinglap, « 186th GP – Spain 1970 »
+    url: https://www.flyinglap.com.br/186th-gp-spain-1970/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Spanish Grand Prix race report: Stewart the matador » (mai 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1970/26/the-grand-prix-of-spain-ole
 - annee: 1970
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: Gold Leaf Team Lotus (49C, 72) en Firestone.
+  pourquoi: 'Gold Leaf Team Lotus (49C, 72) en Firestone : la 49C de Rindt à Monaco et la 72C de Fittipaldi à Watkins Glen figurent en Firestone.'
   sources:
+  - titre: flyinglap, « 187th GP – Monaco 1970 »
+    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
+  - titre: flyinglap, « 196th GP – United States 1970 »
+    url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
   - titre: Wikipedia, « 1970 Formula One season »
     url: https://en.wikipedia.org/wiki/1970_Formula_One_season
   - titre: Wikipedia, « Lotus 72 »
@@ -994,14 +1132,18 @@ cas:
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Dunlop
-  pourquoi: Le Tyrrell Racing Organisation (March 701 puis Tyrrell 001) est en Dunlop toute la saison 1970 ; poles de Stewart en Afrique du Sud, à Monaco, en Belgique et au Canada.
+  pourquoi: 'Le Tyrrell Racing Organisation (March 701 puis Tyrrell 001) est en Dunlop toute la saison 1970 : c''est le cas de la 701 de Stewart en Afrique du Sud, à Monaco et en Belgique comme de la 001 au Canada, soit les quatre poles de Stewart ; Motor Sport le montre encore en Dunlop à Watkins Glen.'
   sources:
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 001 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_001
-  - titre: Wikipedia, « March 701 »
-    url: https://en.wikipedia.org/wiki/March_701
+  - titre: flyinglap, « 185th GP – South Africa 1970 »
+    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
+  - titre: flyinglap, « 187th GP – Monaco 1970 »
+    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
+  - titre: flyinglap, « 188th GP – Belgium 1970 »
+    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
+  - titre: flyinglap, « 195th GP – Canada 1970 »
+    url: https://www.flyinglap.com.br/195th-gp-canada-1970/
+  - titre: Motor Sport, « 1970 United States Grand Prix race report » (novembre 1970)
+    url: https://www.motorsportmagazine.com/archive/article/november-1970/36/12th-united-states-grand-prix
 - annee: 1971
   ecurie: brm
   equipe: BRM
@@ -1546,7 +1688,7 @@ cas:
   pneus: Michelin
   pourquoi: Goodyear s'étant retiré avant la saison, tout le plateau de Long Beach roulait en Michelin, dont l'Arrows de Patrese en pole ; Arrows ne passe chez Pirelli qu'à partir de l'Allemagne.
   sources:
-  - &id003
+  - &id002
     titre: Wikipedia, « 1981 Formula One World Championship »
     url: https://en.wikipedia.org/wiki/1981_Formula_One_World_Championship
   - titre: Wikipedia, « Arrows A3 »
@@ -1560,10 +1702,10 @@ cas:
     pneus: Goodyear
   pourquoi: Brabham roule en Michelin pendant le retrait de Goodyear, puis revient chez Goodyear au Grand Prix de France ; les victoires d'Argentine et de Saint-Marin et les poles du Brésil, d'Argentine et de Monaco sont en Michelin, la victoire d'Allemagne et la pole du Canada en Goodyear.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « Brabham BT49 »
     url: https://en.wikipedia.org/wiki/Brabham_BT49
-  - &id004
+  - &id003
     titre: Wikipedia, « 1981 French Grand Prix »
     url: https://en.wikipedia.org/wiki/1981_French_Grand_Prix
 - annee: 1981
@@ -1572,7 +1714,7 @@ cas:
   pneus: Michelin
   pourquoi: Ferrari (126CK) en Michelin toute la saison.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « Ferrari 126C »
     url: https://en.wikipedia.org/wiki/Ferrari_126C
 - annee: 1981
@@ -1581,7 +1723,7 @@ cas:
   pneus: Michelin
   pourquoi: Talbot Ligier (JS17) en Michelin.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « Ligier JS17 »
     url: https://en.wikipedia.org/wiki/Ligier_JS17
 - annee: 1981
@@ -1590,7 +1732,7 @@ cas:
   pneus: Michelin
   pourquoi: McLaren (MP4/1) en Michelin ; victoire de Watson en Grande-Bretagne.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « McLaren MP4/1 »
     url: https://en.wikipedia.org/wiki/McLaren_MP4/1
 - annee: 1981
@@ -1599,7 +1741,7 @@ cas:
   pneus: Michelin
   pourquoi: Renault (RE30) en Michelin.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « Renault RE30 »
     url: https://en.wikipedia.org/wiki/Renault_RE30
 - annee: 1981
@@ -1611,10 +1753,10 @@ cas:
     pneus: Goodyear
   pourquoi: Williams roule en Michelin jusqu'à l'Espagne (encore en Michelin selon le classement de ce GP), puis en Goodyear à partir de la France ; victoires de Long Beach, du Brésil et de Belgique en Michelin, victoire et pole de Caesars Palace en Goodyear.
   sources:
-  - *id003
+  - *id002
   - titre: Wikipedia, « Williams FW07 »
     url: https://en.wikipedia.org/wiki/Williams_FW07
-  - *id004
+  - *id003
   - titre: Wikipedia, « 1981 Spanish Grand Prix »
     url: https://en.wikipedia.org/wiki/1981_Spanish_Grand_Prix
 - annee: 1982

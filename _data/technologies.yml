@@ -12,22 +12,24 @@ technologies:
   - de: 1950
     a: 1957
     valeur: non
-    pourquoi: La victoire de Moss sur Cooper T43 en Argentine 1958 est la première d'une voiture à moteur central-arrière en championnat du monde ; aux 500 miles d'Indianapolis (comptés jusqu'en 1960), les roadsters à moteur avant ont gagné toutes les éditions de 1950 à 1963.
+    pourquoi: Motor Sport présente la victoire de Moss sur Cooper en Argentine 1958 comme le premier succès en championnat du monde d'une voiture de Grand Prix à moteur arrière ; l'IMS rappelle qu'aux 500 miles d'Indianapolis (comptés jusqu'en 1960), les roadsters à moteur avant ont gagné toutes les éditions de 1950 à 1963.
     sources:
-    - titre: Wikipedia, « Cooper T43 »
-      url: https://en.wikipedia.org/wiki/Cooper_T43
-    - titre: Wikipedia, « History of Formula One »
-      url: https://en.wikipedia.org/wiki/History_of_Formula_One
-    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 »'
+    - titre: Motor Sport, Simon Arron, « Moss' landmark 1958 Argentine GP victory » (avril 2018)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/moss-landmark-1958-argentine-gp-victory/
+    - titre: 'Indianapolis Motor Speedway, Paul Kelly, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
   - de: 1962
     a: 2025
     valeur: oui
-    pourquoi: La Ferrari 246 F1, victorieuse au Grand Prix d'Italie 1960, est la dernière voiture à moteur avant à avoir gagné un Grand Prix de F1 ; Indianapolis ne compte plus au championnat après 1960 (et y voit encore des vainqueurs à moteur avant jusqu'en 1964, hors championnat).
+    pourquoi: Doug Nye présente la Ferrari Dino 246, victorieuse à Monza en 1960, comme la dernière voiture à moteur avant à avoir gagné un Grand Prix ; Indianapolis ne compte plus au championnat après 1960 (Motor Sport), et l'IMS montre que les roadsters à moteur avant y gagnent encore, hors championnat, jusqu'en 1964.
     sources:
-    - titre: Wikipedia, « Ferrari 246 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_246_F1
-    - titre: Indianapolis Motor Speedway, « Clark's rear-engine victory in 1965 was evolution of revolution at Indy »
+    - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+      url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/
+    - titre: Motor Sport, Paul Fearnley, « Formula 1 and the Indianapolis 500's separate worlds » (avril 2019)
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds
+    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
+      url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
+    - titre: Indianapolis Motor Speedway, « Clark's rear-engine victory in 1965 was evolution of revolution at Indy » (février 2020)
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2020/02/28/clarks-rear-engine-victory-in-1965-was-evolution-of-revolution-at-indy-2020
   cas:
   - annee: 1958
@@ -35,32 +37,32 @@ technologies:
     equipe: Cooper Climax
     voiture: Cooper T43 (Argentine), Cooper T45 (Monaco)
     valeur: oui
-    pourquoi: Les deux Cooper victorieuses (Moss en Argentine sur T43, Trintignant à Monaco sur T45, engagées par Rob Walker) ont le moteur Climax en position centrale arrière, longitudinal.
+    pourquoi: 'Les deux Cooper victorieuses (Moss en Argentine sur T43, Trintignant à Monaco sur T45, engagées par Rob Walker) ont le moteur Climax à l''arrière : formula1.com parle de la T43 « mid-engined » face aux Ferrari et Maserati à moteur avant, et Autocar de la « rear-engined Cooper » victorieuse à Monaco.'
     sources:
-    - titre: Wikipedia, « Cooper T43 »
-      url: https://en.wikipedia.org/wiki/Cooper_T43
-    - titre: Wikipedia, « Cooper T45 »
-      url: https://en.wikipedia.org/wiki/Cooper_T45
+    - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
+      url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+    - titre: 'Autocar, « From the motorsport archive: on this day in 1958 » (juin 2023)'
+      url: https://www.autocar.co.uk/node/128368
   - annee: 1958
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 246 F1 (Dino 246)
     valeur: non
-    pourquoi: La 246 F1, Ferrari de 1958 (victoire en France à Reims), est une monoplace « conventionnelle » à moteur avant longitudinal.
+    pourquoi: 'La Dino 246, Ferrari de 1958 (victoire en France à Reims), est une monoplace à moteur avant : Doug Nye la présente comme la dernière gagnante de Grand Prix à moteur avant, et formula1.com oppose en Argentine la Cooper à moteur central aux Ferrari et Maserati à moteur avant.'
     sources:
-    - titre: Wikipedia, « Ferrari 246 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_246_F1
+    - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+      url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
+    - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
+      url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
   - annee: 1958
     ecurie: vanwall
     equipe: Vanwall
     voiture: Vanwall VW5
     valeur: non
-    pourquoi: La VW5, châssis tubulaire signé Chapman et Costin, a son quatre-cylindres de 2,5 litres monté à l'avant ; elle gagne six Grands Prix en 1958 (Moss et Brooks).
+    pourquoi: La VW5 a son quatre-cylindres de 2,5 litres monté à l'avant ; elle gagne six Grands Prix en 1958, trois pour Moss et trois pour Brooks (Goodwood).
     sources:
-    - titre: Goodwood, « Britain's first F1 constructors' champion »
+    - titre: Goodwood, « Britain's first F1 constructors' champion » (août 2022)
       url: https://www.goodwood.com/grr/f1/britains-first-f1-constructors-champion
-    - titre: Wikipedia, « Vanwall VW5 »
-      url: https://en.wikipedia.org/wiki/Vanwall_VW5
   - annee: 1958
     ecurie: Epperly Offenhauser
     equipe: Epperly Offenhauser
@@ -77,99 +79,111 @@ technologies:
     equipe: BRM
     voiture: BRM P25
     valeur: non
-    pourquoi: La P25, victorieuse aux Pays-Bas avec Bonnier, est une F1 à moteur avant (quatre-cylindres 2,5 litres sur châssis acier), remplacée en 1960 par la P48 à moteur arrière.
+    pourquoi: La P25, victorieuse aux Pays-Bas avec Bonnier, est une F1 à moteur avant (quatre-cylindres de 2 497 cm³) ; 8W précise que BRM met en chantier, au milieu de 1959, une voiture à moteur arrière.
     sources:
-    - titre: Wikipedia, « BRM P25 »
-      url: https://en.wikipedia.org/wiki/BRM_P25
+    - titre: 8W (Forix), « Who? Joakim Bonnier »
+      url: https://8w.forix.com/bonnier.html
   - annee: 1959
     ecurie: cooper
     equipe: Cooper Climax
     voiture: Cooper T51
     valeur: oui
-    pourquoi: La T51, gagnante à Monaco, en Grande-Bretagne, au Portugal, en Italie et aux États-Unis, a le moteur en position centrale arrière ; Brabham est le premier champion du monde avec le moteur derrière lui.
+    pourquoi: La T51, gagnante à Monaco, en Grande-Bretagne, au Portugal, en Italie et aux États-Unis, a le moteur à l'arrière ; Autosport rappelle que le titre de Brabham est le premier gagné avec une voiture à moteur arrière, et Motor Sport la range parmi les « rear-engined runners » d'Aintree.
     sources:
-    - titre: Wikipedia, « Cooper T51 »
-      url: https://en.wikipedia.org/wiki/Cooper_T51
+    - titre: Autosport, « The inside story of Brabham's dramatic first title win » (décembre 2019)
+      url: https://www.autosport.com/f1/feature/9763/the-inside-story-of-brabham-dramatic-first-title-win
+    - titre: Motor Sport, Doug Nye, « 1959 British Grand Prix » (décembre 2009)
+      url: https://www.motorsportmagazine.com/archive/article/december-2009/73/1959-british-grand-prix/
   - annee: 1959
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 256 F1 (évolution de la 246 F1)
     valeur: non
-    pourquoi: Brooks gagne en France et en Allemagne sur la 256 F1, version mise à jour de la 246 F1 à moteur avant.
+    pourquoi: Brooks gagne en France et en Allemagne sur la Dino 256, évolution de la 246 ; Doug Nye souligne que les Dino V6 à moteur avant courent encore deux saisons, en 1959 et 1960.
     sources:
-    - titre: Wikipedia, « Ferrari 246 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_246_F1
+    - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+      url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
   - annee: 1959
     ecurie: Watson Offenhauser
     equipe: Watson Offenhauser
     voiture: Watson Indy Roadster (Offenhauser)
     valeur: non
-    pourquoi: Le roadster Watson d'Indianapolis est à moteur avant (disposition FR) ; l'IMS confirme que les roadsters, moteur devant le pilote, ont gagné toutes les éditions de 1950 à 1963.
+    pourquoi: Rodger Ward gagne sur le « Leader Card 500 Roadster », une Watson/Offy (IMS) ; l'IMS rappelle que les roadsters, moteur devant le pilote, ont gagné toutes les éditions de 1950 à 1963.
     sources:
-    - titre: Wikipedia, « Watson Indy Roadster »
-      url: https://en.wikipedia.org/wiki/Watson_Indy_Roadster
-    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 »'
+    - titre: IMS, résultats de l'Indianapolis 500 1959
+      url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1959
+    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
   - annee: 1960
     ecurie: cooper
     equipe: Cooper Climax
     voiture: Cooper T51 (Argentine), Cooper T53 (cinq victoires de Brabham)
     valeur: oui
-    pourquoi: La T53 de Brabham (cinq victoires d'affilée) et la T51 ont toutes deux le moteur Climax en position centrale arrière, longitudinal.
+    pourquoi: La T51, victorieuse en Argentine, est la première voiture à moteur central à avoir gagné les deux titres mondiaux (Conceptcarz) ; sa descendante, la T53 « lowline », domine 1960 et poursuit la révolution du moteur arrière lancée par Cooper (Goodwood, OldRacingCars).
     sources:
-    - titre: Wikipedia, « Cooper T53 »
-      url: https://en.wikipedia.org/wiki/Cooper_T53
-    - titre: Wikipedia, « Cooper T51 »
-      url: https://en.wikipedia.org/wiki/Cooper_T51
+    - titre: Conceptcarz, « 1959 Cooper T51 »
+      url: https://www.conceptcarz.com/w13767/cooper-t51.aspx
+    - titre: Goodwood Road & Racing, « A landmark first for Lotus, 60 years on » (juin 2020)
+      url: https://www.goodwood.com/grr/f1/a-landmark-first-for-lotus-60-years-on/
+    - titre: OldRacingCars.com, « Cooper T53 and T53P car-by-car histories »
+      url: https://www.oldracingcars.com/cooper/t53/
   - annee: 1960
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 246 F1
     valeur: non
-    pourquoi: Phil Hill gagne à Monza sur 246 F1, dernière voiture à moteur avant à avoir gagné un Grand Prix de F1.
+    pourquoi: Phil Hill gagne à Monza, que boycottent les équipes britanniques, sur l'une des Dino 246 F1 à moteur avant ; Doug Nye en fait la dernière voiture à moteur avant victorieuse en Grand Prix.
     sources:
-    - titre: Wikipedia, « Ferrari 246 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_246_F1
+    - titre: 'Motor Sport, Denis Jenkinson, « 1960 Italian Grand Prix race report: Monza red again at long last » (octobre 1960)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1960/32/the-xx-italian-grand-prix/
+    - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+      url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/
   - annee: 1960
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 18
     valeur: oui
-    pourquoi: Moss gagne à Monaco et aux États-Unis avec la Lotus 18 de Rob Walker, première Lotus à moteur central.
+    pourquoi: Moss gagne à Monaco et aux États-Unis avec la Lotus 18 de Rob Walker, première Lotus à moteur central (Motor Sport) ; à Monaco, Jenkinson la décrit comme identique aux trois Lotus d'usine 1960 à moteur arrière.
     sources:
-    - titre: Wikipedia, « Lotus 18 »
-      url: https://en.wikipedia.org/wiki/Lotus_18
+    - titre: Motor Sport, Alexander Cameron, « The ground-breaking Lotus F1 cars - 60 years since their first win » (mai 2020)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-at-70/the-ground-breaking-lotus-f1-cars-60-years-since-their-first-win/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1960 Monaco Grand Prix race report: Stirling streets ahead » (juillet 1960)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1960/40/xviiith-grand-prix
   - annee: 1960
     ecurie: Watson Offenhauser
     equipe: Watson Offenhauser
     voiture: Watson Indy Roadster (Offenhauser)
     valeur: non
-    pourquoi: Jim Rathmann gagne Indianapolis 1960 sur roadster Watson à moteur avant ; l'IMS confirme que les roadsters à moteur avant ont gagné toutes les éditions de 1950 à 1963.
+    pourquoi: Jim Rathmann gagne Indianapolis 1960 sur Watson/Offy (résultats IMS) ; l'IMS rappelle que les roadsters à moteur avant, œuvre de constructeurs comme A.J. Watson, ont gagné toutes les éditions de 1950 à 1963.
     sources:
-    - titre: Wikipedia, « Watson Indy Roadster »
-      url: https://en.wikipedia.org/wiki/Watson_Indy_Roadster
-    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 »'
+    - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
+    - titre: Indianapolis Motor Speedway, « 1960 Indianapolis 500 Race Results »
+      url: https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/race-stats/race-results/1960
   - annee: 1961
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 156 F1
     valeur: oui
-    pourquoi: La 156 F1 « Sharknose », championne 1961, a son V6 à 120° monté en position centrale, derrière le pilote.
+    pourquoi: 'La 156 F1, championne 1961, a son V6 à 120° monté derrière le pilote : les comptes rendus d''époque parlent des Ferrari « à moteur arrière » à V6 à 120°.'
     sources:
-    - titre: Wikipedia, « Ferrari 156 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+    - titre: 'Motor Sport, Denis Jenkinson, « 1961 Dutch Grand Prix race report: Ferrari take triumphant 1-2-3 » (juillet 1961)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1961/36/the-dutch-grand-prix-15/
+    - titre: Motor Sport, Bill Boddy, « 1961 British Grand Prix race report - Another Ferrari triumph » (août 1961)
+      url: https://www.motorsportmagazine.com/archive/article/august-1961/20/14th-r-a-c-british-grand-prix
   - annee: 1961
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 18 et 18/21 (Moss), Lotus 21 (Ireland)
     valeur: oui
-    pourquoi: Moss gagne à Monaco et en Allemagne sur Lotus 18 (puis 18/21), Ireland aux États-Unis sur Lotus 21 ; toutes ont le moteur Climax en position centrale.
+    pourquoi: Moss gagne à Monaco et au Nürburgring sur la Lotus 18, première Lotus à moteur central ; Ireland gagne aux États-Unis sur la Lotus 21, dont Jenkinson décrit en 1961 le moteur Climax monté à l'arrière.
     sources:
-    - titre: Wikipedia, « Lotus 18 »
-      url: https://en.wikipedia.org/wiki/Lotus_18
-    - titre: Wikipedia, « Lotus 21 »
-      url: https://en.wikipedia.org/wiki/Lotus_21
+    - titre: Motor Sport, Alexander Cameron, « The ground-breaking Lotus F1 cars - 60 years since their first win » (mai 2020)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-at-70/the-ground-breaking-lotus-f1-cars-60-years-since-their-first-win/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1961 Monaco Grand Prix race report: Moss the hat-trick hero » (juin 1961)'
+      url: https://www.motorsportmagazine.com/archive/article/june-1961/11/xix-grand-prix-of-monaco-what-a-race
+    - titre: Motor Sport, Alan Henry, « Looking back with Innes Ireland » (janvier 1976)
+      url: https://www.motorsportmagazine.com/archive/article/january-1976/26/looking-back-innes-ireland
 - id: monocoque
   nom: Monocoque
   nom_en: Monocoque
@@ -179,14 +193,10 @@ technologies:
   - de: 1950
     a: 1961
     valeur: non
-    pourquoi: La Lotus 25 de 1962 est le premier châssis monocoque entièrement travaillant de la F1 ; elle remplace le « traditionnel » châssis tubulaire. Les gagnants des saisons 1950-1961 sont tous à treillis tubulaire (y compris les roadsters d'Indianapolis, que nos sources ne décrivent toutefois pas en détail).
+    pourquoi: Goodwood présente la Lotus 25 de 1962 comme la voiture qui introduit le châssis monocoque en F1, à la place du châssis tubulaire habituel. Les gagnants des saisons 1950-1961 sont donc tous à châssis tubulaire (y compris les roadsters d'Indianapolis, que nos sources ne décrivent toutefois pas en détail).
     sources:
-    - titre: Wikipedia, « Lotus 25 »
-      url: https://en.wikipedia.org/wiki/Lotus_25
-    - titre: Wikipedia, « History of Formula One »
-      url: https://en.wikipedia.org/wiki/History_of_Formula_One
-    - titre: Wikipedia, « Monocoque »
-      url: https://en.wikipedia.org/wiki/Monocoque
+    - titre: 'Goodwood, « The Lotus 25: A pioneering design to change F1 forever » (juin 2025)'
+      url: https://www.goodwood.com/grr/f1/the-lotus-25-a-pioneering-design-to-change-f1-forever/
   - de: 1976
     a: 2025
     valeur: oui
@@ -208,244 +218,302 @@ technologies:
     equipe: BRM
     voiture: BRM P57
     valeur: non
-    pourquoi: Les quatre victoires de Graham Hill (Pays-Bas, Allemagne, Italie, Afrique du Sud) sont acquises sur la P57, à châssis tubulaire (spaceframe).
+    pourquoi: Les quatre victoires de Graham Hill (Pays-Bas, Allemagne, Italie, Afrique du Sud) sont acquises sur la Type 57, dont Tony Rudd décrit le châssis tubulaire (spaceframe).
     sources:
-    - titre: Wikipedia, « BRM P57 »
-      url: https://en.wikipedia.org/wiki/BRM_P57
+    - titre: 'Motor Sport, Keith Howard, « X-ray spec: BRM P578 » (avril 2003)'
+      url: https://www.motorsportmagazine.com/archive/article/april-2003/75/x-ray-spec-brm-p-578/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1962 Dutch Grand Prix race report: Hill rings in the new season with debut win » (juin 1962)'
+      url: https://www.motorsportmagazine.com/archive/article/june-1962/12/the-dutch-grand-prix-11/
   - annee: 1962
     ecurie: cooper
     equipe: Cooper Climax
     voiture: Cooper T60
     valeur: non
-    pourquoi: McLaren gagne à Monaco sur la T60, châssis tubulaire en acier habillé d'aluminium.
+    pourquoi: McLaren gagne à Monaco sur la T60, dont le châssis est un treillis de tubes d'un pouce et demi fortement triangulé, habillé d'une carrosserie en aluminium (OldRacingCars).
     sources:
-    - titre: Wikipedia, « Cooper T60 »
-      url: https://en.wikipedia.org/wiki/Cooper_T60
+    - titre: OldRacingCars.com, « Cooper T60 car-by-car histories »
+      url: https://www.oldracingcars.com/cooper/t60/
   - annee: 1962
     ecurie: porsche
     equipe: Porsche
     voiture: Porsche 804
     valeur: non
-    pourquoi: Gurney gagne en France à Rouen sur la 804, dont le châssis est un treillis de tubes d'acier doux.
+    pourquoi: Gurney gagne en France, à Rouen, sur la 804 à huit cylindres (Porsche) ; à ses débuts à Zandvoort, Jenkinson décrit son châssis comme un treillis tubulaire, aussi étroit que le permet le huit-cylindres à plat.
     sources:
-    - titre: Wikipedia, « Porsche 804 »
-      url: https://en.wikipedia.org/wiki/Porsche_804
+    - titre: 'Motor Sport, Denis Jenkinson, « 1962 Dutch Grand Prix race report: Hill rings in the new season with debut win » (juin 1962)'
+      url: https://www.motorsportmagazine.com/archive/article/june-1962/12/the-dutch-grand-prix-11/
+    - titre: 'Porsche Newsroom, « Porsche 804 : Dan Gurney, 1962, Großer Preis von Deutschland, Nürburgring » (Christophorus 383)'
+      url: https://newsroom.porsche.com/de/christophorus/ausgabe-383/porsche-804-dan-gurney-1962-grosser-preis-deutschland-nuerburgring-14160.html
   - annee: 1962
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 25
     valeur: oui
-    pourquoi: Clark gagne en Belgique, en Grande-Bretagne et aux États-Unis sur la Lotus 25, première monocoque entièrement travaillante (aluminium) de la F1.
+    pourquoi: 'Clark gagne en Belgique, en Grande-Bretagne et aux États-Unis sur la Lotus 25, première monocoque de la F1 : Jenkinson décrit dès ses débuts un châssis formé de deux longs caissons en tôle d''aluminium rivetée, qui servent aussi de réservoirs.'
     sources:
-    - titre: Wikipedia, « Lotus 25 »
-      url: https://en.wikipedia.org/wiki/Lotus_25
+    - titre: 'Motor Sport, Denis Jenkinson, « 1962 Dutch Grand Prix race report: Hill rings in the new season with debut win » (juin 1962)'
+      url: https://www.motorsportmagazine.com/archive/article/june-1962/12/the-dutch-grand-prix-11/
+    - titre: Motor Sport, Alexander Cameron, « The ground-breaking Lotus F1 cars - 60 years since their first win » (mai 2020)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-at-70/the-ground-breaking-lotus-f1-cars-60-years-since-their-first-win/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1962 Belgian Grand Prix race report: A fine win for Lotus » (juillet 1962)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1962/14/xxi-belgian-grand-prix
   - annee: 1963
     ecurie: brm
     equipe: BRM
     voiture: BRM P57
     valeur: non
-    pourquoi: Hill gagne à Monaco et aux États-Unis sur la P57, toujours à châssis tubulaire.
+    pourquoi: Hill gagne à Monaco et aux États-Unis sur les voitures de 1962, les P57 à châssis tubulaire (Howard), et non sur la monocoque de 1963.
     sources:
-    - titre: Wikipedia, « BRM P57 »
-      url: https://en.wikipedia.org/wiki/BRM_P57
+    - titre: 'Motor Sport, Denis Jenkinson, « 1963 Monaco Grand Prix race report: BRM beats the street » (juillet 1963)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1963/26/xxi-monaco-grand-prix
+    - titre: 'Motor Sport, Keith Howard, « X-ray spec: BRM P578 » (avril 2003)'
+      url: https://www.motorsportmagazine.com/archive/article/april-2003/75/x-ray-spec-brm-p-578/
+    - titre: 'Motor Sport, Michael Tee, « 1963 United States Grand Prix race report: Hill on top of the Glen as Surtees suffers again » (novembre 1963)'
+      url: https://www.motorsportmagazine.com/archive/article/november-1963/29/grand-prix-of-united-states-2/
   - annee: 1963
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 156/63 (156 F1-63)
     valeur: non
-    pourquoi: Surtees gagne au Nürburgring sur la 156/63 à treillis tubulaire ; la 156 « Aero » semi-monocoque n'apparaît qu'au Grand Prix d'Italie, en fin de saison.
+    pourquoi: Surtees gagne au Nürburgring sur la 156/63 à treillis tubulaire (Primotipo) ; la nouvelle Ferrari à coque travaillante n'apparaît qu'au Grand Prix d'Italie, en fin de saison (Motor Sport).
     sources:
     - titre: Primotipo, « Ferrari 156 » (articles étiquetés)
       url: https://primotipo.com/tag/ferrari-156/
-    - titre: Wikipedia (it), « Ferrari 156 F1-63 »
-      url: https://it.wikipedia.org/wiki/Ferrari_156_F1-63
-    - titre: F1technical, « Ferrari 156 Aero »
-      url: https://www.f1technical.net/f1db/cars/172
+    - titre: 'Motor Sport, Denis Jenkinson, « 1963 Italian Grand Prix race report: Clark and Lotus rule supreme » (octobre 1963)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1963/40/34th-italian-grand-prix
   - annee: 1963
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 25
     valeur: oui
-    pourquoi: Les sept victoires de Clark sont acquises sur la Lotus 25 à monocoque aluminium.
+    pourquoi: Les sept victoires de Clark sont acquises sur la Lotus 25, la « monocoque », première Lotus de F1 de ce type, que Team Lotus garde sans grand changement en 1963.
     sources:
-    - titre: Wikipedia, « Lotus 25 »
-      url: https://en.wikipedia.org/wiki/Lotus_25
+    - titre: 'Motor Sport, Denis Jenkinson, « 1963 Dutch Grand Prix race report: Clark at the double » (août 1963)'
+      url: https://www.motorsportmagazine.com/archive/article/august-1963/20/the-dutch-grand-prix-2/
+    - titre: OldRacingCars.com, « Lotus 25 car-by-car histories »
+      url: https://www.oldracingcars.com/lotus/25/
   - annee: 1964
     ecurie: brabham
     equipe: Brabham Climax
     voiture: Brabham BT7
     valeur: non
-    pourquoi: Gurney gagne en France et au Mexique sur la BT7, à treillis tubulaire en acier.
+    pourquoi: 'Gurney gagne en France et au Mexique sur la BT7, développement de la BT3 : Brabham et Tauranac refusaient de suivre Lotus dans la monocoque, jugeant un treillis tubulaire bien conçu aussi léger et rigide.'
     sources:
-    - titre: Wikipedia, « Brabham BT7 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT7
+    - titre: Autosport, Stuart Codling, « How "abysmal" reliability blunted Brabham's first winner » (janvier 2022)
+      url: https://www.autosport.com/f1/news/how-abysmal-reliability-blunted-brabhams-first-winner/7128465/
+    - titre: OldRacingCars.com, « Brabham BT7 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt7/
   - annee: 1964
     ecurie: brm
     equipe: BRM
     voiture: BRM P261
     valeur: oui
-    pourquoi: Hill gagne à Monaco et aux États-Unis sur la P261, premier châssis entièrement monocoque de BRM (duralumin).
+    pourquoi: Hill gagne à Monaco et aux États-Unis sur la P261, la BRM 1964 à coque travaillante, que Jenkinson appelle la « monocoque » BRM.
     sources:
-    - titre: Wikipedia, « BRM P261 »
-      url: https://en.wikipedia.org/wiki/BRM_P261
+    - titre: 'Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report: Lotus fails where Hill prevails » (juin 1964)'
+      url: https://www.motorsportmagazine.com/archive/article/june-1964/11/xxii-monaco-grand-prix
+    - titre: Motor Sport, Denis Jenkinson, « 1964 British Grand Prix race report - A hard time for Clark » (août 1964)
+      url: https://www.motorsportmagazine.com/archive/article/august-1964/58/xvii-british-grand-prix
+    - titre: OldRacingCars.com, « BRM P261 car-by-car histories »
+      url: https://www.oldracingcars.com/brm/p261/
   - annee: 1964
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 158 (Allemagne, Italie), Ferrari 156 Aero (Autriche)
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : la 158 associe une structure tubulaire et des panneaux d''aluminium à double paroi rivetés et travaillants (présentée comme la première Ferrari de F1 à monocoque) ; la 156 Aero de Bandini est construite de la même façon, à la manière aéronautique.'
+    pourquoi: 'Semi-monocoque, classé oui : la 158 à V8 de Surtees reprend la structure « Aero », panneaux d''aluminium travaillants fixés sur un treillis tubulaire ; la 156 Aero à V6 de Bandini, apparue à Monza en 1963 avec sa coque travaillante, est construite de la même façon (Primotipo, Motor Sport).'
     sources:
-    - titre: Wikipedia, « Ferrari 158 »
-      url: https://en.wikipedia.org/wiki/Ferrari_158
-    - titre: Primotipo, « Ferrari 156 » (articles étiquetés)
-      url: https://primotipo.com/tag/ferrari-156/
-    - titre: Wikipedia, « Ferrari 156 F1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+    - titre: Primotipo, « Ferrari 158 » (articles étiquetés)
+      url: https://primotipo.com/tag/ferrari-158/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1964 German Grand Prix race report: Surtees rules them all at the ''ring » (septembre 1964)'
+      url: https://www.motorsportmagazine.com/archive/article/september-1964/29/26th-german-grand-prix
+    - titre: 'Motor Sport, Denis Jenkinson, « 1963 Italian Grand Prix race report: Clark and Lotus rule supreme » (octobre 1963)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1963/40/34th-italian-grand-prix
   - annee: 1964
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 25
     valeur: oui
-    pourquoi: Les trois victoires de Clark en 1964 sont créditées à la Lotus 25 (la 33, monocoque elle aussi, ne gagne qu'à partir de 1965).
+    pourquoi: Les trois victoires de Clark en 1964 sont acquises sur la 25 modifiée, la voiture qu'il utilise dans la plupart des courses de la saison ; la 25 est la première Lotus de F1 monocoque, et la 33, apparue en 1964, reprend la même construction.
     sources:
-    - titre: Wikipedia, « Lotus 25 »
-      url: https://en.wikipedia.org/wiki/Lotus_25
-    - titre: Wikipedia, « Lotus 33 »
-      url: https://en.wikipedia.org/wiki/Lotus_33
+    - titre: 'Motor Sport, Denis Jenkinson, « 1964 Belgian Grand Prix race report: Clark defies the odds at Spa » (juillet 1964)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1964/19/belgian-grand-prix-4/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1964 German Grand Prix race report: Surtees rules them all at the ''ring » (septembre 1964)'
+      url: https://www.motorsportmagazine.com/archive/article/september-1964/29/26th-german-grand-prix
+    - titre: OldRacingCars.com, « Lotus 25 car-by-car histories »
+      url: https://www.oldracingcars.com/lotus/25/
   - annee: 1965
     ecurie: brm
     equipe: BRM
     voiture: BRM P261
     valeur: oui
-    pourquoi: Hill (Monaco, États-Unis) et Stewart (Italie) gagnent sur la P261 à monocoque en duralumin.
+    pourquoi: Hill (Monaco, États-Unis) et Stewart (Italie) gagnent sur la P261, que Goodwood décrit comme un monocoque intégral, contrairement à la P61, et dont Autosport donne le châssis comme « monocoque duralumin et acier ».
     sources:
-    - titre: Wikipedia, « BRM P261 »
-      url: https://en.wikipedia.org/wiki/BRM_P261
+    - titre: Goodwood Road & Racing, « Revival's Top 5 single-seaters » (septembre 2018)
+      url: https://www.goodwood.com/grr/event-coverage/goodwood-revival/revivals-top-5-single-seaters/
+    - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
+      url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
   - annee: 1965
     ecurie: honda-1964
     equipe: Honda
     voiture: Honda RA272
     valeur: oui
-    pourquoi: Ginther gagne au Mexique sur la RA272, à monocoque en aluminium.
+    pourquoi: 'Ginther gagne au Mexique sur la RA272, dont la fiche technique de Honda donne la structure : monocoque en aluminium.'
     sources:
-    - titre: Wikipedia, « Honda RA272 »
-      url: https://en.wikipedia.org/wiki/Honda_RA272
+    - titre: Honda, « 1965 Honda RA272 » (F1 Machines Powered by Honda)
+      url: https://global.honda/en/F1/machine/1965_HondaRA272/
   - annee: 1965
     ecurie: team-lotus
     equipe: Lotus Climax
     voiture: Lotus 33 et Lotus 25
     valeur: oui
-    pourquoi: Clark gagne six fois sur Lotus 33 et 25 (la 25 en France), deux monocoques en aluminium.
+    pourquoi: 'Clark gagne six fois sur Lotus 33 et 25 (la 25 en France), deux monocoques : la 25 est la première Lotus de F1 à monocoque, et Doug Nye décrit la 33 comme un monocoque plus simple et plus rigide que celui de la 25.'
     sources:
-    - titre: Wikipedia, « Lotus 33 »
-      url: https://en.wikipedia.org/wiki/Lotus_33
-    - titre: Wikipedia, « Lotus 25 »
-      url: https://en.wikipedia.org/wiki/Lotus_25
+    - titre: oldracingcars.com, « Lotus 25 car-by-car histories »
+      url: https://www.oldracingcars.com/lotus/25/
+    - titre: 'Motor Sport, Doug Nye, « Jim Clark''s Lotus 33 R11: A classic F1 car rediscovered » (février 2017)'
+      url: https://www.motorsportmagazine.com/archive/article/february-2017/66/lotus-33-r11-classic-rediscovered
+    - titre: oldracingcars.com, « Lotus 25 R6 »
+      url: https://www.oldracingcars.com/lotus/25/06
   - annee: 1966
     ecurie: brabham
     equipe: Brabham Repco
     voiture: Brabham BT19
     valeur: non
-    pourquoi: Les quatre victoires de Brabham (France, Grande-Bretagne, Pays-Bas, Allemagne) sont acquises sur la BT19, bâtie autour d'un treillis tubulaire en acier doux.
+    pourquoi: 'Les quatre victoires de Brabham (France, Grande-Bretagne, Pays-Bas, Allemagne) sont acquises sur la BT19, le premier châssis Brabham de la formule 3 litres : Motor Sport décrit à Reims son treillis tubulaire, mêlant tubes ovales et ronds, alors que la deuxième voiture n''a que des tubes ronds.'
     sources:
-    - titre: Wikipedia, « Brabham BT19 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT19
+    - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
+      url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+    - titre: oldracingcars.com, Grand Prix de France 1966
+      url: https://www.oldracingcars.com/f1/results/1966/france/
   - annee: 1966
     ecurie: brm
     equipe: BRM
     voiture: BRM P261
     valeur: oui
-    pourquoi: Stewart gagne à Monaco sur la P261 à monocoque en duralumin.
+    pourquoi: Stewart gagne à Monaco sur la P261 n° 2617, un monocoque intégral selon Goodwood (duralumin et acier selon Autosport).
     sources:
-    - titre: Wikipedia, « BRM P261 »
-      url: https://en.wikipedia.org/wiki/BRM_P261
+    - titre: Goodwood Road & Racing, « Revival's Top 5 single-seaters » (septembre 2018)
+      url: https://www.goodwood.com/grr/event-coverage/goodwood-revival/revivals-top-5-single-seaters/
+    - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
+      url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
+    - titre: oldracingcars.com, Grand Prix de Monaco 1966
+      url: https://www.oldracingcars.com/f1/results/1966/monaco/
   - annee: 1966
     ecurie: cooper
     equipe: Cooper Maserati
     voiture: Cooper T81
     valeur: oui
-    pourquoi: Surtees gagne au Mexique sur la T81, premier châssis monocoque (aluminium) de Cooper.
+    pourquoi: 'Surtees gagne au Mexique sur la T81, premier châssis monocoque de Cooper : une « baignoire » ouverte à la manière de la Lotus 25, faite de pontons en peau travaillante en duralumin, qui remplace le treillis multitubulaire.'
     sources:
-    - titre: Wikipedia, « Cooper T81 »
-      url: https://en.wikipedia.org/wiki/Cooper_T81
+    - titre: oldracingcars.com, « Cooper T81 car-by-car histories »
+      url: https://www.oldracingcars.com/cooper/t81/
+    - titre: oldracingcars.com, « Cooper T81B »
+      url: https://www.oldracingcars.com/cooper/t81b/
+    - titre: Motor Sport, Keith Howard, « X-ray spec – Cooper T81-Maserati » (mars 2005)
+      url: https://www.motorsportmagazine.com/archive/article/march-2005/92/x-ray-spec-cooper-t81-maserati/
+    - titre: oldracingcars.com, Grand Prix du Mexique 1966
+      url: https://www.oldracingcars.com/f1/results/1966/mexico/
   - annee: 1966
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312 (312 F1-66)
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : la 312 de Surtees (Belgique) et Scarfiotti (Italie) a des panneaux d''aluminium à double paroi rivetés sur une structure tubulaire en acier, l''ensemble étant décrit comme monocoque.'
+    pourquoi: 'Semi-monocoque, classé oui : selon F1technical, la 312 de Surtees (Belgique) et de Scarfiotti (Italie) a des panneaux d''aluminium à double paroi rivetés sur une structure tubulaire en acier, l''ensemble étant décrit comme monocoque ; Motor Sport parle en 1967, pour la même architecture, d''un « mélange de monocoque et de structure tubulaire ».'
     sources:
     - titre: F1technical, « Ferrari 312 »
       url: https://www.f1technical.net/f1db/cars/203
-    - titre: Wikipedia, « Ferrari 312 »
-      url: https://en.wikipedia.org/wiki/Ferrari_312
+    - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
+    - titre: oldracingcars.com, Grand Prix d'Italie 1966
+      url: https://www.oldracingcars.com/f1/results/1966/italy/
   - annee: 1966
     ecurie: team-lotus
     equipe: Lotus BRM
     voiture: Lotus 43
     valeur: oui
-    pourquoi: Clark gagne aux États-Unis sur la Lotus 43, à monocoque aluminium (le moteur BRM H16 y est porteur).
+    pourquoi: 'Clark gagne aux États-Unis sur la Lotus 43, dont Motor Sport décrit la structure : un monocoque riveté, le groupe BRM H16 étant fixé à la cloison arrière.'
     sources:
-    - titre: Wikipedia, « Lotus 43 »
-      url: https://en.wikipedia.org/wiki/Lotus_43
+    - titre: Motor Sport, Denis Jenkinson, « Grand Prix Cars in 1966 » (juillet 1966)
+      url: https://www.motorsportmagazine.com/archive/article/july-1966/22/grand-prix-cars-in-1966/
+    - titre: oldracingcars.com, Grand Prix des États-Unis 1966
+      url: https://www.oldracingcars.com/f1/results/1966/usa/
   - annee: 1967
     ecurie: brabham
     equipe: Brabham Repco
     voiture: Brabham BT20 (Monaco), Brabham BT24
     valeur: non
-    pourquoi: La BT20 (victoire à Monaco) et la BT24 (trois victoires) ont toutes deux un treillis tubulaire en acier habillé de fibre de verre.
+    pourquoi: 'La BT20 (victoire à Monaco, châssis F1-2-66, apparu à Reims en 1966) et la BT24 (trois victoires) ont toutes deux un treillis tubulaire en acier : Motor Sport décrit la première comme un treillis de tubes ronds, et la BT24 comme « toujours un treillis multitubulaire ».'
     sources:
-    - titre: Wikipedia, « Brabham BT20 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT20
-    - titre: Wikipedia, « Brabham BT24 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT24
+    - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
+      url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+    - titre: 'Motor Sport, Denis Jenkinson, « 1967 Dutch Grand Prix race report: Lotus back in business » (juillet 1967)'
+      url: https://www.motorsportmagazine.com/archive/article/july-1967/28/dutch-grand-prix-5/
+    - titre: oldracingcars.com, « Brabham BT24 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt24/
+    - titre: oldracingcars.com, Grand Prix de Monaco 1967
+      url: https://www.oldracingcars.com/f1/results/1967/monaco/
   - annee: 1967
     ecurie: cooper
     equipe: Cooper Maserati
     voiture: Cooper T81
     valeur: oui
-    pourquoi: Rodríguez gagne en Afrique du Sud sur la T81 à monocoque aluminium.
+    pourquoi: Rodríguez gagne en Afrique du Sud sur la T81 F1-6-66, monocoque « baignoire » à pontons en duralumin.
     sources:
-    - titre: Wikipedia, « Cooper T81 »
-      url: https://en.wikipedia.org/wiki/Cooper_T81
+    - titre: oldracingcars.com, « Cooper T81 car-by-car histories »
+      url: https://www.oldracingcars.com/cooper/t81/
+    - titre: oldracingcars.com, « Cooper T81B »
+      url: https://www.oldracingcars.com/cooper/t81b/
+    - titre: oldracingcars.com, Grand Prix d'Afrique du Sud 1967
+      url: https://www.oldracingcars.com/f1/results/1967/south-africa/
   - annee: 1967
     ecurie: eagle
     equipe: Eagle Weslake
     voiture: Eagle Mk1 (T1G)
     valeur: oui
-    pourquoi: Gurney gagne en Belgique sur l'Eagle Mk1, à monocoque aluminium, titane et magnésium.
+    pourquoi: Gurney gagne en Belgique sur l'Eagle Mk1 châssis 104, la version en magnésium et titane de son monocoque (les autres châssis, comme le 103, sont en aluminium) ; Motor Sport rappelle que Gurney comparait ce monocoque en magnésium à un briquet.
     sources:
-    - titre: Wikipedia, « Eagle Mk1 »
-      url: https://en.wikipedia.org/wiki/Eagle_Mk1
+    - titre: 'Motor Sport, John Zimmermann, « The Eagle was grounded: Gurney''s Mk1 successor that never raced » (mars 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/march-2007/68/the-eagle-was-grounded/
+    - titre: 'Motor Sport, Michael Tee, « 1967 Canadian Grand Prix report: Brabham again supreme » (octobre 1967)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1967/71/weather-affects-first-canadian-grand-prix/
+    - titre: oldracingcars.com, Grand Prix de Belgique 1967
+      url: https://www.oldracingcars.com/f1/results/1967/belgium/
   - annee: 1967
     ecurie: honda-1964
     equipe: Honda
     voiture: Honda RA300
     valeur: oui
-    pourquoi: Surtees gagne en Italie sur la RA300, monocoque aluminium dessinée par Lola d'après la T90 d'Indianapolis.
+    pourquoi: 'Surtees gagne en Italie sur la RA300 : monocoque en alliage d''aluminium avec faux-châssis tubulaire selon la fiche de Honda, reprenant l''avant du monocoque de la Lola T90 d''Indianapolis. Motor Sport la décrit à Monza avec une cellule centrale monocoque en tôle d''alliage rivetée.'
     sources:
-    - titre: Wikipedia, « Honda RA300 »
-      url: https://en.wikipedia.org/wiki/Honda_RA300
+    - titre: Honda, « 1967 Honda RA300 » (F1 Machines Powered by Honda)
+      url: https://global.honda/en/F1/machine/1967_HondaRA300/
+    - titre: Honda, « 1967 Partnering with a World Champion » (Grand Prix Digest 1964-1968)
+      url: https://global.honda/en/F1/HONDA1964-1968/grand-prix-digest/1967/
+    - titre: Motor Sport, « Seen at Monza » (octobre 1967)
+      url: https://www.motorsportmagazine.com/archive/article/october-1967/13/seen-at-monza/
   - annee: 1967
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 49
     valeur: oui
-    pourquoi: Clark gagne quatre fois sur la Lotus 49, monocoque aluminium dont le moteur Cosworth DFV est un élément porteur.
+    pourquoi: 'Clark gagne quatre fois sur la Lotus 49, monocoque en aluminium dont le moteur Cosworth DFV forme la partie arrière du châssis : Honda souligne ce monocoque léger et rigide intégrant le moteur, et Motor Sport note à Monza que sur la 49 « le moteur est la partie arrière du châssis ».'
     sources:
-    - titre: Wikipedia, « Lotus 49 »
-      url: https://en.wikipedia.org/wiki/Lotus_49
+    - titre: Honda, « 1967 Honda RA300 » (F1 Machines Powered by Honda)
+      url: https://global.honda/en/F1/machine/1967_HondaRA300/
+    - titre: Motor Sport, « Seen at Monza » (octobre 1967)
+      url: https://www.motorsportmagazine.com/archive/article/october-1967/13/seen-at-monza/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1967 German Grand Prix race report: Brabham shows its steel » (septembre 1967)'
+      url: https://www.motorsportmagazine.com/archive/article/september-1967/14/german-grand-prix-5/
   - annee: 1968
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312 (312/68)
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : Ickx gagne en France sur la 312/68, même construction que la 312 de 1966 (panneaux d''aluminium rivetés et travaillants sur structure tubulaire).'
+    pourquoi: 'Semi-monocoque, classé oui : Ickx gagne en France sur la 312/68, dernière évolution de la 312 (1966-1968), dont le châssis est une monocoque de panneaux d''aluminium à double paroi rivetés sur une structure tubulaire en acier.'
     sources:
     - titre: F1technical, « Ferrari 312 »
       url: https://www.f1technical.net/f1db/cars/203
-    - titre: Wikipedia, « Ferrari 312 »
-      url: https://en.wikipedia.org/wiki/Ferrari_312
     - titre: OldRacingCars, « French Grand Prix 1968 »
       url: https://www.oldracingcars.com/f1/results/1968/france/
   - annee: 1968
@@ -453,19 +521,23 @@ technologies:
     equipe: Matra Ford
     voiture: Matra MS10
     valeur: oui
-    pourquoi: Stewart gagne aux Pays-Bas, en Allemagne et aux États-Unis sur la MS10, à monocoque aluminium.
+    pourquoi: Stewart gagne aux Pays-Bas, en Allemagne et aux États-Unis sur la MS10, dont la monocoque, construite selon les méthodes aéronautiques de Matra, est intermédiaire entre la « baignoire » ouverte et la monocoque fermée.
     sources:
-    - titre: Wikipedia, « Matra MS10 »
-      url: https://en.wikipedia.org/wiki/Matra_MS10
+    - titre: OldRacingCars, « Matra MS10 car-by-car histories »
+      url: https://www.oldracingcars.com/matra/ms10/
+    - titre: OldRacingCars, « German Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/germany/
   - annee: 1968
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M7A
     valeur: oui
-    pourquoi: McLaren (Belgique) et Hulme (Italie, Canada) gagnent sur la M7A, monocoque de type « baignoire ».
+    pourquoi: 'McLaren (Belgique) et Hulme (Italie, Canada) gagnent sur la M7A, courte monocoque de type « baignoire » : trois cloisons en acier habillées de panneaux d''aluminium.'
     sources:
-    - titre: Wikipedia, « McLaren M7A »
-      url: https://en.wikipedia.org/wiki/McLaren_M7A
+    - titre: OldRacingCars, « McLaren M7A car-by-car histories »
+      url: https://www.oldracingcars.com/mclaren/m7a/
+    - titre: OldRacingCars, « Belgian Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/belgium/
   - annee: 1968
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -473,66 +545,78 @@ technologies:
     valeur: oui
     pourquoi: Toutes les victoires Lotus 1968 (Clark, Hill, Siffert) sont acquises sur la 49 ou la 49B, à monocoque aluminium.
     sources:
-    - titre: Wikipedia, « Lotus 49 »
-      url: https://en.wikipedia.org/wiki/Lotus_49
+    - titre: Motor Sport, Alan Jenkins, « I wish I'd designed... Lotus 49 » (avril 2001)
+      url: https://www.motorsportmagazine.com/archive/article/april-2001/108/i-wish-id-designed-lotus-49/
+    - titre: OldRacingCars, « South African Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/south-africa/
+    - titre: OldRacingCars, « British Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/britain/
   - annee: 1969
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT26A
     valeur: non
-    pourquoi: Ickx gagne en Allemagne et au Canada sur la BT26A, treillis tubulaire en acier avec quelques panneaux travaillants, présentée comme l'une des dernières F1 de ce type ; son concepteur Tauranac est le dernier à aligner un châssis tubulaire. Elle reste classée tubulaire (la structure principale est le treillis).
+    pourquoi: Ickx gagne en Allemagne et au Canada sur la BT26A, treillis tubulaire raidi par des panneaux travaillants ; son concepteur Tauranac, qui résistait au passage à la monocoque, est le dernier à aligner un châssis tubulaire en F1. Elle reste classée tubulaire (la structure principale est le treillis).
     sources:
-    - titre: Wikipedia, « Brabham BT26 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT26
-    - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac »
+    - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt26/
+    - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac » (décembre 2012)
       url: https://www.motorsportretro.com/2012/12/the-fastest-thing-about-the-monocoque-lotus-is-jimmy-clark-ron-tauranac/
   - annee: 1969
     ecurie: matra
     equipe: Matra Ford
     voiture: Matra MS10 (Afrique du Sud), Matra MS80
     valeur: oui
-    pourquoi: Stewart gagne sur la MS10 en début de saison puis sur la MS80, toutes deux à monocoque aluminium.
+    pourquoi: Stewart gagne sur la MS10 en début de saison puis sur la MS80 ; toutes deux sont construites autour d'une monocoque (Matra en fait même réaliser une troisième pour la MS80 en 1969).
     sources:
-    - titre: Wikipedia, « Matra MS80 »
-      url: https://en.wikipedia.org/wiki/Matra_MS80
-    - titre: Wikipedia, « Matra MS10 »
-      url: https://en.wikipedia.org/wiki/Matra_MS10
+    - titre: OldRacingCars, « Matra MS10 car-by-car histories »
+      url: https://www.oldracingcars.com/matra/ms10/
+    - titre: OldRacingCars, « Matra MS80 car-by-car histories »
+      url: https://oldracingcars.com/matra/ms80
   - annee: 1969
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M7A
     valeur: oui
-    pourquoi: Hulme offre au Mexique la seule victoire 1969 de la M7, monocoque de type « baignoire ».
+    pourquoi: Hulme offre au Mexique la seule victoire 1969 de la M7A (châssis 2), monocoque de type « baignoire ».
     sources:
-    - titre: Wikipedia, « McLaren M7A »
-      url: https://en.wikipedia.org/wiki/McLaren_M7A
+    - titre: OldRacingCars, « McLaren M7A car-by-car histories »
+      url: https://www.oldracingcars.com/mclaren/m7a/
+    - titre: OldRacingCars, « Mexican Grand Prix 1969 »
+      url: https://www.oldracingcars.com/f1/results/1969/mexico/
   - annee: 1969
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 49B
     valeur: oui
-    pourquoi: Hill (Monaco) et Rindt (États-Unis) gagnent sur la 49B à monocoque aluminium.
+    pourquoi: Hill (Monaco) et Rindt (États-Unis) gagnent sur la 49B, évolution de la 49 à monocoque aluminium.
     sources:
-    - titre: Wikipedia, « Lotus 49 »
-      url: https://en.wikipedia.org/wiki/Lotus_49
+    - titre: Motor Sport, Alan Jenkins, « I wish I'd designed... Lotus 49 » (avril 2001)
+      url: https://www.motorsportmagazine.com/archive/article/april-2001/108/i-wish-id-designed-lotus-49/
+    - titre: OldRacingCars, « Monaco Grand Prix 1969 »
+      url: https://www.oldracingcars.com/f1/results/1969/monaco/
   - annee: 1970
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT33
     valeur: oui
-    pourquoi: Brabham gagne en Afrique du Sud dès les débuts de la BT33, monocoque en acier, première monocoque de Tauranac en F1.
+    pourquoi: 'Brabham gagne en Afrique du Sud dès les débuts de la BT33, première monocoque de Brabham en F1 : une « baignoire » faite de pontons en D assemblés par des cloisons en acier.'
     sources:
-    - titre: Wikipedia, « Brabham BT33 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT33
+    - titre: OldRacingCars, « Brabham BT33 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt33/
+    - titre: OldRacingCars, « South African Grand Prix 1970 »
+      url: https://www.oldracingcars.com/f1/results/1970/south-africa/
   - annee: 1970
     ecurie: brm
     equipe: BRM
     voiture: BRM P153
     valeur: oui
-    pourquoi: Rodríguez gagne en Belgique sur la P153, à monocoque aluminium (avec un support tubulaire pour le moteur).
+    pourquoi: Rodríguez gagne en Belgique sur la P153, monocoque basse de type « baignoire » (avec un cadre triangulé reliant l'arrière de la monocoque au support de suspension et de boîte, le V12 n'étant que partiellement porteur).
     sources:
-    - titre: Wikipedia, « BRM P153 »
-      url: https://en.wikipedia.org/wiki/BRM_P153
+    - titre: OldRacingCars, « BRM P153 car-by-car histories »
+      url: https://www.oldracingcars.com/brm/p153/
+    - titre: OldRacingCars, « Belgian Grand Prix 1970 »
+      url: https://www.oldracingcars.com/f1/results/1970/belgium/
   - annee: 1970
     ecurie: ferrari
     equipe: Ferrari
@@ -549,21 +633,25 @@ technologies:
     equipe: March Ford
     voiture: March 701
     valeur: oui
-    pourquoi: Stewart gagne en Espagne sur la 701 de Tyrrell, à monocoque aluminium.
+    pourquoi: Stewart gagne en Espagne sur la 701 de Tyrrell, simple monocoque de type « baignoire » dessinée par Robin Herd.
     sources:
-    - titre: Wikipedia, « March 701 »
-      url: https://en.wikipedia.org/wiki/March_701
+    - titre: OldRacingCars, « March 701 car-by-car histories »
+      url: https://www.oldracingcars.com/march/701/
+    - titre: OldRacingCars, « Spanish Grand Prix 1970 »
+      url: https://www.oldracingcars.com/f1/results/1970/spain/
   - annee: 1970
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 49C (Monaco), Lotus 72
     valeur: oui
-    pourquoi: Rindt gagne à Monaco sur la 49C puis, comme Fittipaldi, sur la 72 ; les deux sont à monocoque aluminium.
+    pourquoi: Rindt gagne à Monaco sur la 49C, dernière évolution de la 49 à monocoque aluminium, puis, comme Fittipaldi, sur la 72, dont la monocoque « baignoire » est en tôle d'aluminium.
     sources:
-    - titre: Wikipedia, « Lotus 72 »
-      url: https://en.wikipedia.org/wiki/Lotus_72
-    - titre: Wikipedia, « Lotus 49 »
-      url: https://en.wikipedia.org/wiki/Lotus_49
+    - titre: 8W, Hrvoje Vrbanc, « The Lotus 72 story » (avril 1999)
+      url: https://8w.forix.com/lotus72.html
+    - titre: Motor Sport, Alan Jenkins, « I wish I'd designed... Lotus 49 » (avril 2001)
+      url: https://www.motorsportmagazine.com/archive/article/april-2001/108/i-wish-id-designed-lotus-49/
+    - titre: OldRacingCars, « Monaco Grand Prix 1970 »
+      url: https://www.oldracingcars.com/f1/results/1970/monaco/
   - annee: 1971
     ecurie: brm
     equipe: BRM
@@ -784,23 +872,25 @@ technologies:
   - de: 1950
     a: 1967
     valeur: non
-    pourquoi: 'Les ailerons arrivent en F1 en 1968, après les prototypes de sport comme la Chaparral 2F : Chapman monte de modestes ailerons avant et un becquet sur la Lotus 49B de Hill, puis Brabham et Ferrari vont plus loin au Grand Prix de Belgique 1968.'
+    pourquoi: 'Les ailerons arrivent en F1 en 1968, inspirés des Chaparral de Jim Hall : la Lotus 49B apparaît à Monaco avec de modestes ailerons avant et une queue en coin, puis Ferrari et Brabham montent de vrais ailerons au Grand Prix de Belgique 1968, à Spa, où selon Nigel Roebuck une voiture de Grand Prix court pour la première fois avec un aileron.'
     sources:
-    - titre: Wikipedia, « History of Formula One »
-      url: https://en.wikipedia.org/wiki/History_of_Formula_One
-    - titre: Motor Sport, « The car that changed Formula One forever » (juillet 1997)
+    - titre: 'Motor Sport, Nigel Roebuck, « 1968 Belgian Grand Prix: Nigel Roebuck''s F1 Legends » (octobre 1998)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1998/18/legends-11/
+    - titre: Motor Sport, Jack Phillips, « F1 sprouts wings » (juin 2018)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-sprouts-wings/
+    - titre: Motor Sport, Shaun Campbell, « John Miles drives the Lotus 49 – the car that changed F1 forever » (juillet 1997)
       url: https://motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever
   - de: 1969
     a: 2025
     valeur: oui
-    pourquoi: 'Les ailerons sont apparus en fin de décennie et sont restés ; après les accidents, ils doivent être fixés rigidement au châssis. Réserve : à Monaco 1969, la CSI interdit les ailerons hors carrosserie en cours d''essais, mais les voitures courent avec ailerons de nez et déflecteurs (Hill avec une plaque déflectrice à l''arrière). L''ère tient donc avec la définition large, pas avec la définition stricte.'
+    pourquoi: 'Les ailerons se généralisent à partir de Spa 1968 et sont restés ; après les accidents de Montjuïc, la CSI interdit les ailerons hauts mais autorise ceux qui sont montés sur la structure même du châssis. Réserve : à Monaco 1969, la CSI interdit en cours d''essais les ailerons qui ne font pas partie de la carrosserie, et les voitures courent avec déflecteurs et becquets intégrés (Hill avec une plaque déflectrice à l''arrière). L''ère tient donc avec la définition large, pas avec la définition stricte.'
     sources:
-    - titre: Wikipedia, « Formula One car »
-      url: https://en.wikipedia.org/wiki/Formula_One_car
-    - titre: Wikipedia, « History of Formula One »
-      url: https://en.wikipedia.org/wiki/History_of_Formula_One
-    - titre: Motor Sport, « The Monaco Grand Prix » (juin 1969)
+    - titre: 8W, Mattijs Diepraam et Felix Muelas, « Adios aerofoils, enter aerodynamics » (mars 1999)
+      url: https://forix.com/8w/e69.html
+    - titre: Motor Sport, Denis Jenkinson, « The Monaco Grand Prix » (juin 1969)
       url: https://www.motorsportmagazine.com/archive/article/june-1969/26/the-monaco-grand-prix-4/
+    - titre: Autosport, Nigel Roebuck, « When F1 forced an incredible last-minute rule change » (octobre 2017)
+      url: https://www.autosport.com/f1/feature/7768/when-f1-forced-an-incredible-lastminute-rule-change
   cas:
   - annee: 1968
     ecurie: ferrari
@@ -818,12 +908,14 @@ technologies:
     equipe: Matra Ford
     voiture: Matra MS10
     valeur: oui
-    pourquoi: À Zandvoort, la Matra de Stewart porte de petits déflecteurs (fines ailettes) sur le nez, aileron arrière bas en Allemagne, aileron haut sur supports aux États-Unis. En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix d'Allemagne.
+    pourquoi: À Zandvoort, la Matra de Stewart porte de petits déflecteurs sur le nez (fines ailettes logées dans des fentes du capot) ; au Nürburgring, elle a reçu aux essais des supports tubulaires d'aileron ; aileron haut sur supports aux États-Unis. En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix d'Allemagne.
     sources:
     - titre: OldRacingCars, « Dutch Grand Prix 1968 »
       url: https://www.oldracingcars.com/f1/results/1968/netherlands/
     - titre: MRO F1 Engineering, « A Tale of Two F1 Matras, Part Two (Matra MS10) »
       url: https://www.mrof1engineering.co.uk/pdfs/Matra%20MS10.pdf
+    - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
+      url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
     - titre: Wikipedia, « Matra MS10 »
       url: https://en.wikipedia.org/wiki/Matra_MS10
   - annee: 1968
@@ -831,10 +923,14 @@ technologies:
     equipe: McLaren Ford
     voiture: McLaren M7A
     valeur: oui
-    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe ; le véritable aileron arrière arrive au Grand Prix de France. En lecture stricte, l'adoption daterait du Grand Prix d'Italie (victoire de Hulme).
+    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe ; le véritable aileron arrière arrive au Grand Prix de France, et au Nürburgring la voiture de Bruce McLaren porte un aileron au-dessus du moteur. À Monza, l'équipe essaie avec et sans ailerons. En lecture stricte, l'adoption daterait du Grand Prix d'Italie (victoire de Hulme).
     sources:
     - titre: Motor Sport, « XXVII Belgian Grand Prix » (juillet 1968)
       url: https://www.motorsportmagazine.com/archive/article/july-1968/14/xxvii-belgian-grand-prix/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
+      url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1968 Italian Grand Prix race report: Kiwis'' sweet victory » (octobre 1968)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1968/15/the-39th-italian-grand-prix/
     - titre: Wikipedia, « McLaren M7A »
       url: https://en.wikipedia.org/wiki/McLaren_M7A
   - annee: 1968
@@ -862,20 +958,16 @@ technologies:
   - de: 1950
     a: 1976
     valeur: non
-    pourquoi: La Lotus 78 de 1977 est la première voiture à effet de sol de la F1 ; les essais antérieurs (BRM, March, Brabham BT44) n'avaient pas de pontons assez proches du sol pour un effet de sol significatif.
+    pourquoi: 'Motor Sport présente la Lotus 78 de 1977, la « wing car », comme la voiture qui lance l''effet de sol en F1 : avant elle, aucun gagnant n''en tirait parti.'
     sources:
-    - &id004
-      titre: Wikipédia, « Lotus 78 »
-      url: https://en.wikipedia.org/wiki/Lotus_78
-    - &id001
-      titre: Wikipédia, « Ground effect (cars) »
-      url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
+    - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
   - de: 1980
     a: 1982
     valeur: oui
     pourquoi: Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les « ground-effect wing cars of the time » perdent leurs jupes coulissantes mais toutes adoptent des suspensions abaissant la voiture en piste, et les jupes reviennent en 1982. Les voitures gagnantes vérifiées (FW07, RE20, BT49, JS11/15, RE30, 126CK/126C2, Lotus 91, Tyrrell 011, FW08, MP4/1) sont toutes des voitures à effet de sol ; pour la Ligier JS17 et la Brabham BT50, les pages consultées ne le disent pas explicitement.
     sources:
-    - &id002
+    - &id001
       titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms »'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
     - titre: Wikipédia, « 1981 Formula One World Championship »
@@ -898,7 +990,7 @@ technologies:
     - &id019
       titre: Wikipédia, « Tyrrell 011 »
       url: https://en.wikipedia.org/wiki/Tyrrell_011
-    - &id003
+    - &id002
       titre: Wikipédia, « Williams FW08 »
       url: https://en.wikipedia.org/wiki/Williams_FW08
     - &id015
@@ -909,15 +1001,17 @@ technologies:
     valeur: non
     pourquoi: 'Le fond plat devient obligatoire en 1983 (« flat undersides became mandatory for 1983 ») : l''effet de sol par pontons-ailes et jupes est interdit jusqu''au règlement de 2022.'
     sources:
+    - &id003
+      titre: Wikipédia, « Ground effect (cars) »
+      url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
     - *id001
     - *id002
-    - *id003
   - de: 2022
     a: 2025
     valeur: oui
     pourquoi: '« After a forty-year ban, ground effect returned to Formula 1 in 2022 » : toutes les voitures du règlement 2022 génèrent leur appui par des tunnels sous le fond.'
     sources:
-    - *id001
+    - *id003
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -926,7 +1020,9 @@ technologies:
     valeur: non
     pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : la 312T2 n''en est pas une ; Ferrari ne conçoit sa première voiture à effet de sol que pour 1979 (312T4).'
     sources:
-    - *id004
+    - &id004
+      titre: Wikipédia, « Lotus 78 »
+      url: https://en.wikipedia.org/wiki/Lotus_78
     - &id005
       titre: Wikipédia, « Ferrari 312T3 »
       url: https://en.wikipedia.org/wiki/Ferrari_312T3
@@ -964,7 +1060,7 @@ technologies:
     pourquoi: La Lotus 78, première voiture à effet de sol de la F1, court dès la première manche de 1977 et y gagne cinq fois.
     sources:
     - *id004
-    - *id001
+    - *id003
   - annee: 1977
     ecurie: wolf
     equipe: Wolf Ford
@@ -984,7 +1080,7 @@ technologies:
     sources:
     - titre: Wikipédia, « Brabham BT46 »
       url: https://en.wikipedia.org/wiki/Brabham_BT46
-    - *id001
+    - *id003
     victoires_sans:
     - Italy
   - annee: 1978
@@ -1042,7 +1138,7 @@ technologies:
     valeur: oui
     pourquoi: La RS10, victorieuse en France, a « a completely new ground effect chassis ».
     sources:
-    - &id007
+    - &id008
       titre: Wikipédia, « Renault RS10 »
       url: https://en.wikipedia.org/wiki/Renault_RS10
   - annee: 1979
@@ -1063,21 +1159,18 @@ technologies:
   - de: 1950
     a: 1976
     valeur: non
-    pourquoi: La Renault RS01, apparue au Grand Prix de Grande-Bretagne 1977, est la première F1 à moteur turbo ; la RS10 est la première F1 turbo à gagner (1979). Les compresseurs volumétriques des années 1950 (Alfa Romeo 158/159) ne sont pas des turbos. Les 500 miles d'Indianapolis 1950-1960 n'ont pas été vérifiés individuellement.
+    pourquoi: Matt Bishop rappelle dans Motor Sport qu'aucune F1 n'avait utilisé de moteur turbo avant la Renault RS01, apparue à Silverstone en 1977, et que la victoire de Jabouille à Dijon en 1979 est la première d'une F1 turbo. Les compresseurs volumétriques des années 1950 (Alfa Romeo 158/159) ne sont pas des turbos. Les 500 miles d'Indianapolis 1950-1960 n'ont pas été vérifiés individuellement.
     sources:
-    - &id009
-      titre: Wikipédia, « Renault RS01 »
-      url: https://en.wikipedia.org/wiki/Renault_RS01
-    - *id007
-    - &id008
-      titre: Wikipédia, « Formula One engines »
-      url: https://en.wikipedia.org/wiki/Formula_One_engines
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - de: 1989
     a: 2013
     valeur: non
     pourquoi: « Turbochargers were banned from the 1989 Formula One season, leaving only a naturally aspirated 3.5 L formula » ; la suralimentation ne revient qu'en 2014.
     sources:
-    - *id008
+    - &id007
+      titre: Wikipédia, « Formula One engines »
+      url: https://en.wikipedia.org/wiki/Formula_One_engines
     - &id023
       titre: Wikipédia, « McLaren MP4/4 »
       url: https://en.wikipedia.org/wiki/McLaren_MP4/4
@@ -1086,7 +1179,7 @@ technologies:
     valeur: oui
     pourquoi: Le règlement 2014 impose des groupes propulseurs V6 1,6 litre hybrides ; la suralimentation revient et tous les motoristes choisissent le turbocompresseur (ère « turbo-hybrid », 2014-2025).
     sources:
-    - *id008
+    - *id007
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -1095,8 +1188,10 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
-    - *id009
+    - *id008
+    - &id009
+      titre: Wikipédia, « Renault RS01 »
+      url: https://en.wikipedia.org/wiki/Renault_RS01
   - annee: 1977
     ecurie: ligier
     equipe: Ligier Matra
@@ -1104,7 +1199,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1977
     ecurie: mclaren
@@ -1113,7 +1208,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1977
     ecurie: shadow
@@ -1122,7 +1217,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1977
     ecurie: team-lotus
@@ -1131,7 +1226,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1977
     ecurie: wolf
@@ -1140,7 +1235,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1978
     ecurie: brabham
@@ -1149,7 +1244,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1978
     ecurie: ferrari
@@ -1158,7 +1253,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1978
     ecurie: team-lotus
@@ -1167,7 +1262,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1978
     ecurie: tyrrell
@@ -1176,7 +1271,7 @@ technologies:
     valeur: non
     pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
     sources:
-    - *id007
+    - *id008
     - *id009
   - annee: 1979
     ecurie: ferrari
@@ -1201,7 +1296,7 @@ technologies:
     valeur: oui
     pourquoi: La RS10, à V6 Renault Gordini 1,5 litre biturbo, est la première F1 turbo à gagner un Grand Prix (France 1979).
     sources:
-    - *id007
+    - *id008
   - annee: 1979
     ecurie: williams
     equipe: Williams Ford
@@ -1363,7 +1458,7 @@ technologies:
     valeur: non
     pourquoi: Le Ford Cosworth DFV de la FW08 est atmosphérique (NA).
     sources:
-    - *id003
+    - *id002
   - annee: 1983
     ecurie: brabham
     equipe: Brabham BMW
@@ -1415,7 +1510,7 @@ technologies:
     valeur: non
     pourquoi: La FW08C victorieuse à Monaco 1983 utilise le Ford Cosworth DFV atmosphérique.
     sources:
-    - *id003
+    - *id002
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
@@ -1605,12 +1700,10 @@ technologies:
   - de: 1950
     a: 1980
     valeur: non
-    pourquoi: La McLaren MP4/1 de 1981 est « the first ever carbon-fibre-monocoque grand prix car » (la Lotus 88 a été interdite avant de courir).
+    pourquoi: 'La McLaren MP4/1 de 1981 est « the first ever carbon-fibre-monocoque grand prix car » (Motor Sport) : aucun gagnant antérieur n''avait de monocoque en carbone.'
     sources:
-    - *id015
-    - *id017
-    - titre: Wikipédia, « McLaren MP4/1 »
-      url: https://fr.wikipedia.org/wiki/McLaren_MP4/1
+    - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
   - de: 1987
     a: 2025
     valeur: oui
@@ -1743,7 +1836,7 @@ technologies:
     valeur: non
     pourquoi: Monocoque aluminium nid d'abeille.
     sources:
-    - *id003
+    - *id002
   - annee: 1983
     ecurie: brabham
     equipe: Brabham BMW
@@ -1797,7 +1890,7 @@ technologies:
     valeur: non
     pourquoi: Monocoque aluminium nid d'abeille.
     sources:
-    - *id003
+    - *id002
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
@@ -1915,12 +2008,10 @@ technologies:
   - de: 1950
     a: 1986
     valeur: non
-    pourquoi: 'Avant 1987, la seule suspension active engagée en course est celle de la Lotus 92 en 1983 (deux 12es places à Rio et Long Beach, puis retour au conventionnel) : aucune voiture gagnante ne l''a eue. La Lotus 99T de 1987 la réintroduit et donne ses deux premières victoires (Monaco, Detroit).'
+    pourquoi: 'Selon Keith Howard (Motor Sport), avant 1987 la seule suspension active engagée en course est celle de la Lotus 92 en 1983 (deux 12es places à Rio et Long Beach) : aucune voiture gagnante ne l''a eue. Lotus la réintroduit en 1987 sur la 99T, qui lui donne ses deux premières victoires (Monaco, Detroit).'
     sources:
-    - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
-    - titre: Wikipedia, « Lotus 99T »
-      url: https://en.wikipedia.org/wiki/Lotus_99T
   - de: 1994
     a: 2025
     valeur: non
@@ -2176,13 +2267,13 @@ technologies:
   - de: 1950
     a: 1988
     valeur: non
-    pourquoi: La Ferrari 640 de 1989 est la première F1 à boîte semi-automatique commandée par palettes au volant (Wikipedia porte un bandeau « vérification échouée » sur la formule « première vraie », mais Goodwood la présente aussi comme la pionnière) ; avant elle, aucun gagnant ne l'avait (la F1/87/88C n'a servi que de mulet d'essai).
+    pourquoi: 'La Ferrari 640 de 1989 est la pionnière de la boîte semi-automatique commandée par palettes au volant (Motor Sport, Goodwood) ; en gagnant au Brésil en mars 1989, Mansell devient « the first driver to win a grand prix in a car with a semi-automatic gearbox » : avant elle, aucun gagnant ne l''avait.'
     sources:
-    - titre: Wikipedia, « Ferrari 640 »
-      url: https://en.wikipedia.org/wiki/Ferrari_640
-    - titre: Wikipedia, « Ferrari F1/87 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F1/87
-    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 »
+    - titre: 'Motor Sport, Rob Widdows, « The Motor Sport Interview: John Barnard » (février 2025)'
+      url: https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/
+    - titre: Motor Sport, « X-ray spec – Ferrari 640 » (juin 2005)
+      url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
+    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
   - de: 1996
     a: 2025
@@ -2417,12 +2508,10 @@ technologies:
   - de: 1950
     a: 2008
     valeur: non
-    pourquoi: Les systèmes de récupération d'énergie cinétique (KERS) ne sont autorisés qu'à partir de 2009 ; la première victoire d'une voiture équipée est celle de Hamilton en Hongrie en 2009.
+    pourquoi: Le système de récupération d'énergie cinétique (KERS) apparaît en 2009 ; selon RaceFans, la victoire de Hamilton en Hongrie cette année-là est la première d'une voiture équipée du KERS.
     sources:
-    - titre: Wikipedia, « Formula One engines »
-      url: https://en.wikipedia.org/wiki/Formula_One_engines
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
+    - titre: RaceFans, Keith Collantine, « 2009 Hungarian Grand Prix facts and stats » (juillet 2009)
+      url: https://www.racefans.net/2009/07/27/hungarian-grand-prix-facts-and-stats/
   - de: 2014
     a: 2025
     valeur: oui

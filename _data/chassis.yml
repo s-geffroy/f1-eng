@@ -13,11 +13,23 @@ cas:
     - Switzerland
     - Belgium
     - France
+  - voiture: Alfa Romeo 159
+    gps:
     - Italy
-  pourquoi: Le tableau des courses de l'article sur l'Alfetta attribue les six victoires européennes de 1950 au type 158.
+  pourquoi: Les résultats d'OldRacingCars donnent la 158 aux vainqueurs de Grande-Bretagne, Monaco, Suisse, Belgique et France ; au Grand Prix d'Italie, à Monza, Farina gagne sur la 159, qui y fait ses débuts.
   sources:
-  - titre: Wikipedia, « Alfa Romeo 158/159 Alfetta »
-    url: https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta
+  - titre: OldRacingCars.com, « Monza, 3 Sep 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I50
+  - titre: OldRacingCars.com, « Silverstone, 13 May 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=GB50
+  - titre: OldRacingCars.com, « Monte Carlo, 21 May 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=MC50
+  - titre: OldRacingCars.com, « Bremgarten, 4 Jun 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=CH50
+  - titre: OldRacingCars.com, « Spa-Francorchamps, 18 Jun 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=B50
+  - titre: OldRacingCars.com, « Reims, 2 Jul 1950 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=F50
 - annee: 1950
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -25,12 +37,10 @@ cas:
   - voiture: Kurtis Kraft-Offenhauser « Wynn's Friction Proofing »
     gps:
     - United States of America Indianapolis
-  pourquoi: 'Johnnie Parsons gagne sur la Wynn''s Friction Proofing, châssis Kurtis à moteur Offenhauser (IMS : « Kurtis/Offy ») ; le numéro de modèle Kurtis n''est pas confirmé par une source fiable.'
+  pourquoi: Les résultats officiels de l'IMS donnent la victoire à Johnnie Parsons sur la Wynn's Friction Proofing de Kurtis-Kraft, Inc., châssis Kurtis à moteur Offenhauser (« Kurtis/Offy ») ; le numéro de modèle Kurtis n'est pas confirmé par une source fiable.
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1950
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1950
-  - titre: Wikipedia, « 1950 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1950_Indianapolis_500
 - annee: 1951
   ecurie: alfa-romeo-1979
   equipe: Alfa Romeo
@@ -41,10 +51,16 @@ cas:
     - Belgium
     - France
     - Spain
-  pourquoi: Les quatre victoires d'Alfa Romeo en 1951 (Suisse, Belgique, France, Espagne) sont toutes au type 159 dans le tableau de l'article.
+  pourquoi: 'Les résultats d''OldRacingCars donnent le type 159 aux quatre victoires d''Alfa Romeo en 1951 : Fangio en Suisse et en Espagne, Farina en Belgique, Fagioli et Fangio (voiture partagée) en France.'
   sources:
-  - titre: Wikipedia, « Alfa Romeo 158/159 Alfetta »
-    url: https://en.wikipedia.org/wiki/Alfa_Romeo_158/159_Alfetta
+  - titre: OldRacingCars.com, « Bremgarten, 27 May 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=CH51
+  - titre: OldRacingCars.com, « Spa-Francorchamps, 17 Jun 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=B51
+  - titre: OldRacingCars.com, « Reims, 1 Jul 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=F51
+  - titre: OldRacingCars.com, « Pedralbes, 28 Oct 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=E51
 - annee: 1951
   ecurie: ferrari
   equipe: Ferrari
@@ -54,10 +70,16 @@ cas:
     - Great Britain
     - Germany
     - Italy
-  pourquoi: La 375 donne à Ferrari sa première victoire avec González à Silverstone, puis Ascari gagne au Nürburgring et à Monza.
+  pourquoi: 'Selon OldRacingCars, les trois victoires de Ferrari en 1951 sont celles de la 375 à moteur V12 de 4,5 litres : González à Silverstone, puis Ascari au Nürburgring et à Monza. Motor Sport précise qu''à Silverstone González avait une version plus ancienne à moteur 12 bougies.'
   sources:
-  - titre: Wikipedia, « Ferrari 375 F1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_375_F1
+  - titre: OldRacingCars.com, « Silverstone, 14 Jul 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=GB51
+  - titre: OldRacingCars.com, « Nürburgring, 29 Jul 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=D51
+  - titre: OldRacingCars.com, « Monza, 16 Sep 1951 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I51
+  - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
+    url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
 - annee: 1951
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -65,12 +87,10 @@ cas:
   - voiture: Kurtis Kraft-Offenhauser « Belanger Special »
     gps:
     - United States of America Indianapolis
-  pourquoi: Lee Wallard gagne sur la n° 99 de Murrell Belanger, châssis Kurtis à moteur Offenhauser ; le numéro de modèle Kurtis n'est pas donné par les sources consultées.
+  pourquoi: Les résultats officiels de l'IMS donnent la victoire à Lee Wallard sur la n° 99 de Murrell Belanger (Belanger Motors), châssis Kurtis à moteur Offenhauser ; le numéro de modèle Kurtis n'est pas donné par les sources consultées.
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1951
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1951
-  - titre: Wikipedia, « 1951 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1951_Indianapolis_500
 - annee: 1952
   ecurie: Kuzma Offenhauser
   equipe: Kuzma Offenhauser
@@ -78,12 +98,10 @@ cas:
   - voiture: Kuzma-Offenhauser « Agajanian Special »
     gps:
     - United States of America Indianapolis
-  pourquoi: Troy Ruttman gagne sur la n° 98 de J. C. Agajanian, châssis Kuzma à moteur Offenhauser.
+  pourquoi: Les résultats officiels de l'IMS donnent la victoire à Troy Ruttman sur la n° 98 de J. C. Agajanian, châssis Kuzma à moteur Offenhauser.
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1952
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1952
-  - titre: Wikipedia, « 1952 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1952_Indianapolis_500
 - annee: 1952
   ecurie: ferrari
   equipe: Ferrari
@@ -97,10 +115,22 @@ cas:
     - Germany
     - Netherlands
     - Italy
-  pourquoi: 'En 1952, Ferrari ne court qu''avec la 500 en championnat : Taruffi gagne en Suisse, Ascari remporte toutes les autres manches européennes.'
+  pourquoi: 'Les résultats d''OldRacingCars donnent la 500 à toutes les victoires de Ferrari en 1952 : Taruffi en Suisse, puis Ascari en Belgique, France, Grande-Bretagne, Allemagne, aux Pays-Bas et en Italie, presque toujours sur le châssis 500-5.'
   sources:
-  - titre: Wikipedia, « Ferrari 500 »
-    url: https://en.wikipedia.org/wiki/Ferrari_500
+  - titre: OldRacingCars.com, « Bremgarten, 18 May 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=CH52
+  - titre: OldRacingCars.com, « Spa-Francorchamps, 22 Jun 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=B52
+  - titre: OldRacingCars.com, « Rouen-les-Essarts, 6 Jul 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=F52
+  - titre: OldRacingCars.com, « Silverstone, 19 Jul 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=GB52
+  - titre: OldRacingCars.com, « Nürburgring, 3 Aug 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=D52
+  - titre: OldRacingCars.com, « Zandvoort, 17 Aug 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=NL52
+  - titre: OldRacingCars.com, « Monza, 7 Sep 1952 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I52
 - annee: 1953
   ecurie: ferrari
   equipe: Ferrari
@@ -114,10 +144,24 @@ cas:
     - Great Britain
     - Germany
     - Switzerland
-  pourquoi: Selon l'article, la 500 gagne toutes les manches de 1953 sauf la dernière (Monza, gagnée par Fangio sur Maserati).
+  pourquoi: 'Selon les résultats d''OldRacingCars, la 500 gagne toutes les manches européennes et argentine de 1953 (Ascari cinq fois, Hawthorn à Reims, Farina au Nürburgring), sauf la dernière : Monza, gagnée par Fangio sur Maserati.'
   sources:
-  - titre: Wikipedia, « Ferrari 500 »
-    url: https://en.wikipedia.org/wiki/Ferrari_500
+  - titre: OldRacingCars.com, « Buenos Aires, 18 Jan 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=RA53
+  - titre: OldRacingCars.com, « Zandvoort, 7 Jun 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=NL53
+  - titre: OldRacingCars.com, « Spa-Francorchamps, 21 Jun 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=B53
+  - titre: OldRacingCars.com, « Reims, 5 Jul 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=F53
+  - titre: OldRacingCars.com, « Silverstone, 18 Jul 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=GB53
+  - titre: OldRacingCars.com, « Nürburgring, 2 Aug 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=D53
+  - titre: OldRacingCars.com, « Bremgarten, 23 Aug 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=CH53
+  - titre: OldRacingCars.com, « Monza, 13 Sep 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I53
 - annee: 1953
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -136,12 +180,10 @@ cas:
   - voiture: Maserati A6GCM
     gps:
     - Italy
-  pourquoi: Fangio gagne le Grand Prix d'Italie 1953 sur Maserati A6GCM (liste des engagés de la course).
+  pourquoi: Les résultats d'OldRacingCars donnent la victoire du Grand Prix d'Italie 1953 à Fangio sur Maserati A6GCM de l'Officine Alfieri Maserati.
   sources:
-  - titre: Wikipedia, « 1953 Italian Grand Prix »
-    url: https://en.wikipedia.org/wiki/1953_Italian_Grand_Prix
-  - titre: Wikipedia, « Maserati A6GCM »
-    url: https://en.wikipedia.org/wiki/Maserati_A6GCM
+  - titre: OldRacingCars.com, « Monza, 13 Sep 1953 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I53
 - annee: 1954
   ecurie: Mercedes-Benz
   equipe: Mercedes-Benz
@@ -152,10 +194,20 @@ cas:
     - Germany
     - Switzerland
     - Italy
-  pourquoi: 'Fangio gagne les quatre courses sur W196 : carrossée « Monza » (profilée) à Reims et à Monza, monoplace à roues découvertes au Nürburgring et à Bremgarten.'
+  pourquoi: Les résultats d'OldRacingCars donnent les quatre victoires de Fangio sur W196 (Reims, Nürburgring, Bremgarten, Monza). Motor Sport décrit les monoplaces à roues découvertes du Nürburgring, et à Monza le choix entre la version profilée « type Reims », que Fangio trouve plus rapide d'environ 2 secondes au tour, et la monoplace « type Nürburgring ».
   sources:
-  - titre: Wikipedia, « Mercedes-Benz W196 »
-    url: https://en.wikipedia.org/wiki/Mercedes-Benz_W196
+  - titre: OldRacingCars.com, « Grand Prix de l'ACF (French Grand Prix) 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=F54
+  - titre: OldRacingCars.com, « German Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=D54
+  - titre: OldRacingCars.com, « Grosser Preis der Schweiz 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=CH54
+  - titre: OldRacingCars.com, « Italian Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=I54
+  - titre: Motor Sport, « XVII Grosser Preis von Deutschland » (septembre 1954)
+    url: https://www.motorsportmagazine.com/archive/article/september-1954/24/xvii-grosser-preis-von-deutschland
+  - titre: Motor Sport, « 25th Gran Premio d'Italia » (octobre 1954)
+    url: https://www.motorsportmagazine.com/archive/article/october-1954/41/25th-gran-premio-ditalia
 - annee: 1954
   ecurie: ferrari
   equipe: Ferrari
@@ -166,12 +218,14 @@ cas:
   - voiture: Ferrari 553 Squalo
     gps:
     - Spain
-  pourquoi: González gagne à Silverstone sur 625 F1 ; Hawthorn gagne à Pedralbes sur 553 « Squalo » (listes des engagés).
+  pourquoi: Selon OldRacingCars, González gagne à Silverstone sur 625 (châssis 625-4) et Hawthorn à Pedralbes sur 553 « Squalo » (châssis 553-2) ; Denis Jenkinson y voit le premier vrai succès du type 553.
   sources:
-  - titre: Wikipedia, « 1954 British Grand Prix »
-    url: https://en.wikipedia.org/wiki/1954_British_Grand_Prix
-  - titre: Wikipedia, « 1954 Spanish Grand Prix »
-    url: https://en.wikipedia.org/wiki/1954_Spanish_Grand_Prix
+  - titre: OldRacingCars.com, « British Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=GB54
+  - titre: OldRacingCars.com, « Spanish Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=E54
+  - titre: Motor Sport, Denis Jenkinson, « VIII Gran Premio de España and XII Gran Premio Peña Rhin » (novembre 1954)
+    url: https://www.motorsportmagazine.com/archive/article/november-1954/32/viii-gran-premio-de-espana-and-xii-gran-premio-pena-rhin/
 - annee: 1954
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -191,10 +245,14 @@ cas:
     gps:
     - Argentina
     - Belgium
-  pourquoi: La 250F gagne dès sa première course, en Argentine, puis à Spa, avec Fangio, avant le passage de celui-ci chez Mercedes.
+  pourquoi: Les résultats d'OldRacingCars donnent les deux victoires Maserati de 1954 à Fangio sur 250F (châssis 2505), en Argentine puis à Spa ; 8W date la première course de la 250F de janvier 1954, en Argentine. Fangio passe ensuite chez Mercedes.
   sources:
-  - titre: Wikipedia, « Maserati 250F »
-    url: https://en.wikipedia.org/wiki/Maserati_250F
+  - titre: OldRacingCars.com, « Argentinian Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=RA54
+  - titre: OldRacingCars.com, « Belgian Grand Prix 1954 »
+    url: https://www.oldracingcars.com/results/result.php?RaceID=B54
+  - titre: Forix / 8W, Don Capps, « Maserati 250F » (avril 2000)
+    url: https://8w.forix.com/250f.html
 - annee: 1955
   ecurie: Mercedes-Benz
   equipe: Mercedes-Benz
@@ -206,10 +264,18 @@ cas:
     - Netherlands
     - Great Britain
     - Italy
-  pourquoi: La W196 gagne toutes les manches européennes de 1955 sauf Monaco ; à Monza, Fangio court en version profilée.
+  pourquoi: La W196 gagne toutes les manches européennes de 1955 sauf Monaco (comptes rendus de GrandPrix.com et liste des victoires Continental de Motorsport-Magazin pour Zandvoort) ; à Monza, Fangio court en version profilée (« W196 STR. »).
   sources:
-  - titre: Wikipedia, « Mercedes-Benz W196 »
-    url: https://en.wikipedia.org/wiki/Mercedes-Benz_W196
+  - titre: GrandPrix.com, « Argentine GP, 1955 »
+    url: https://www.grandprix.com/gpe/rr042.html
+  - titre: GrandPrix.com, « Belgian GP, 1955 »
+    url: https://www.grandprix.com/gpe/rr045.html
+  - titre: GrandPrix.com, « British GP, 1955 »
+    url: https://www.grandprix.com/gpe/rr047.html
+  - titre: GrandPrix.com, « Italian GP, 1955 »
+    url: https://www.grandprix.com/gpe/rr048.html
+  - titre: Motorsport-Magazin, « Continental - alle 10 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,3,0,0,0,0.html
 - annee: 1955
   ecurie: ferrari
   equipe: Ferrari
@@ -217,12 +283,12 @@ cas:
   - voiture: Ferrari 625 F1
     gps:
     - Monaco
-  pourquoi: Trintignant gagne sur une 625 jugée dépassée (récit de course et compte rendu de Motor Sport) ; la liste des engagés de Wikipédia indique à tort une 555.
+  pourquoi: 'Trintignant gagne à Monaco sur une 625 : Motor Sport précise qu''on lui confie la deuxième 625 de l''équipe, et GrandPrix.com comme Motorsport-Magazin donnent la 625 au vainqueur.'
   sources:
-  - titre: Wikipedia, « 1955 Monaco Grand Prix »
-    url: https://en.wikipedia.org/wiki/1955_Monaco_Grand_Prix
-  - titre: Motor Sport, compte rendu du Grand Prix de Monaco 1955
+  - titre: 'Motor Sport, Denis Jenkinson, « 1955 Monaco Grand Prix race report: Trintignant triumphs where others fail » (juin 1955)'
     url: https://www.motorsportmagazine.com/archive/article/june-1955/36/xiii-grand-prix-de-monaco/
+  - titre: GrandPrix.com, « Monaco GP, 1955 »
+    url: https://www.grandprix.com/gpe/rr043.html
 - annee: 1955
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -230,12 +296,10 @@ cas:
   - voiture: Kurtis Kraft 500D
     gps:
     - United States of America Indianapolis
-  pourquoi: Bob Sweikert gagne sur la « John Zink Special », Kurtis KK500D à moteur Offenhauser.
+  pourquoi: Bob Sweikert gagne sur la « John Zink Special », Kurtis KK500D à moteur Offenhauser (IMS).
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1955
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1955
-  - titre: Wikipedia, « 1955 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1955_Indianapolis_500
 - annee: 1956
   ecurie: Watson Offenhauser
   equipe: Watson Offenhauser
@@ -258,12 +322,10 @@ cas:
     - France
     - Great Britain
     - Germany
-  pourquoi: Ferrari court en 1956 avec les D50 héritées de Lancia ; Fangio (Argentine, partagée avec Musso, Grande-Bretagne, Allemagne) et Collins (Belgique, France) gagnent avec elles.
+  pourquoi: Ferrari court en 1956 avec les D50 héritées de Lancia ; la fiche châssis par châssis de 8W donne la victoire à une D50 en Argentine (Musso et Fangio), en Belgique et en France (Collins), en Grande-Bretagne et en Allemagne (Fangio).
   sources:
-  - titre: Wikipedia, « 1956 Formula One season »
-    url: https://en.wikipedia.org/wiki/1956_Formula_One_season
-  - titre: Wikipedia, « Lancia D50 »
-    url: https://en.wikipedia.org/wiki/Lancia_D50
+  - titre: 8W (Forix), « What? Lancia D50 »
+    url: https://8w.forix.com/d50.html
 - annee: 1956
   ecurie: maserati
   equipe: Maserati
@@ -272,10 +334,12 @@ cas:
     gps:
     - Monaco
     - Italy
-  pourquoi: Moss gagne à Monaco et à Monza en 1956 sur une 250F d'usine.
+  pourquoi: Moss gagne à Monaco et à Monza en 1956 sur une 250F d'usine (liste des victoires de Motorsport-Magazin) ; Motor Sport décrit à Monza la Maserati victorieuse.
   sources:
-  - titre: Wikipedia, « Maserati 250F »
-    url: https://en.wikipedia.org/wiki/Maserati_250F
+  - titre: Motorsport-Magazin, « Pirelli - alle 372 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,9,0,0,0,0.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1956 Italian Grand Prix race report: Moss masters Monza; Fangio wins fourth title » (octobre 1956)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1957
   ecurie: Epperly Offenhauser
   equipe: Epperly Offenhauser
@@ -284,12 +348,12 @@ cas:
     gps:
     - United States of America Indianapolis
   equipe_reelle: Salih
-  pourquoi: 'Sam Hanks gagne sur le roadster « couché » construit par George Salih (IMS : « Salih/Offy ») ; les Epperly sont d''autres voitures du plateau, dont celle de Rathmann, deuxième.'
+  pourquoi: 'Sam Hanks gagne sur le roadster « Belond Exhaust » construit et engagé par George Salih (IMS : « Salih/Offy ») ; la deuxième place de Jim Rathmann est, elle, une Epperly/Offy.'
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1957
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1957
-  - titre: Wikipedia, « 1957 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1957_Indianapolis_500
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
 - annee: 1957
   ecurie: maserati
   equipe: Maserati
@@ -300,12 +364,16 @@ cas:
     - Monaco
     - France
     - Germany
-  pourquoi: Fangio remporte ses quatre victoires de 1957 sur 250F, la dernière au Nürburgring.
+  pourquoi: Fangio remporte ses quatre victoires de 1957 (Argentine, Monaco, France, Allemagne) sur 250F, la dernière au Nürburgring (comptes rendus de GrandPrix.com).
   sources:
-  - titre: Wikipedia, « Maserati 250F »
-    url: https://en.wikipedia.org/wiki/Maserati_250F
-  - titre: Wikipedia, « 1957 Formula One season »
-    url: https://en.wikipedia.org/wiki/1957_Formula_One_season
+  - titre: GrandPrix.com, « Argentine GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr057.html
+  - titre: GrandPrix.com, « Monaco GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr058.html
+  - titre: GrandPrix.com, « French GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr060.html
+  - titre: GrandPrix.com, « German GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr062.html
 - annee: 1957
   ecurie: vanwall
   equipe: Vanwall
@@ -315,10 +383,16 @@ cas:
     - Great Britain
     - Italy Pescara
     - Italy
-  pourquoi: Brooks et Moss se partagent la victoire d'Aintree, puis Moss gagne à Pescara et à Monza, toujours sur VW5.
+  pourquoi: La VW5 court en 1957 et 1958 (Goodwood) ; Brooks et Moss se partagent la victoire d'Aintree, puis Moss gagne à Pescara et à Monza (GrandPrix.com, 8W).
   sources:
-  - titre: Wikipedia, « Vanwall VW5 »
-    url: https://en.wikipedia.org/wiki/Vanwall_VW5
+  - titre: Goodwood, « Britain's first F1 constructors' champion » (août 2022)
+    url: https://www.goodwood.com/grr/f1/britains-first-f1-constructors-champion
+  - titre: GrandPrix.com, « British GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr061.html
+  - titre: 8W (Forix), « When? 1957 British GP »
+    url: https://forix.com/8w/gb57.html
+  - titre: GrandPrix.com, « Italian GP, 1957 »
+    url: https://www.grandprix.com/gpe/rr064.html
 - annee: 1958
   ecurie: Epperly Offenhauser
   equipe: Epperly Offenhauser
@@ -327,12 +401,12 @@ cas:
     gps:
     - United States of America Indianapolis
   equipe_reelle: Salih
-  pourquoi: 'Jimmy Bryan gagne avec le même châssis George Salih que Hanks en 1957 (IMS : « Salih/Offy ») ; ce n''est pas une Epperly.'
+  pourquoi: 'Jimmy Bryan gagne sur la « Belond A.P. » de George Salih (IMS : « Salih/Offy »), le même constructeur que Hanks en 1957 ; ce n''est pas une Epperly, contrairement à la deuxième place de George Amick.'
   sources:
   - titre: IMS, résultats de l'Indianapolis 500 1958
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1958
-  - titre: Wikipedia, « 1958 Indianapolis 500 »
-    url: https://en.wikipedia.org/wiki/1958_Indianapolis_500
+  - titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,6,0,0,0,0.html
 - annee: 1958
   ecurie: cooper
   equipe: Cooper Climax
@@ -343,12 +417,14 @@ cas:
   - voiture: Cooper T45
     gps:
     - Monaco
-  pourquoi: 'Deux Cooper privées de Rob Walker : Moss gagne en Argentine sur T43, Trintignant à Monaco sur T45.'
+  pourquoi: 'Deux Cooper privées de Rob Walker : Moss gagne en Argentine sur T43 (formula1.com), Trintignant à Monaco sur T45 (liste des victoires de Motorsport-Magazin).'
   sources:
-  - titre: Wikipedia, « Cooper T43 »
-    url: https://en.wikipedia.org/wiki/Cooper_T43
-  - titre: Wikipedia, « Cooper T45 »
-    url: https://en.wikipedia.org/wiki/Cooper_T45
+  - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
+    url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+  - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
+    url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1958 Monaco Grand Prix race report: Trintignant makes it two in a row for Rob Walker Racing » (juin 1958)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1958/14/xvi-grand-prix-de-monaco/
 - annee: 1958
   ecurie: ferrari
   equipe: Ferrari
@@ -357,10 +433,12 @@ cas:
     gps:
     - France
     - Great Britain
-  pourquoi: Hawthorn gagne à Reims et Collins à Silverstone, tous deux sur Dino 246.
+  pourquoi: Hawthorn gagne à Reims et Collins à Silverstone, tous deux sur Dino 246 (Doug Nye ; GrandPrix.com et la base Motor Sport pour Silverstone).
   sources:
-  - titre: Wikipedia, « 1958 French Grand Prix »
-    url: https://en.wikipedia.org/wiki/1958_French_Grand_Prix
+  - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
+  - titre: GrandPrix.com, « British GP, 1958 »
+    url: https://www.grandprix.com/gpe/rr071.html
   - titre: Motor Sport, base de données, « 1958 British Grand Prix »
     url: https://www.motorsportmagazine.com/database/races/71-1958-british-grand-prix
 - annee: 1958
@@ -375,10 +453,16 @@ cas:
     - Portugal
     - Italy
     - Morocco
-  pourquoi: Moss (Pays-Bas, Portugal, Maroc) et Brooks (Belgique, Allemagne, Italie) gagnent tous sur VW5.
+  pourquoi: Goodwood attribue à la VW5 les six victoires de Vanwall en 1958, trois pour Moss (Pays-Bas, Portugal, Maroc) et trois pour Brooks (Belgique, Allemagne, Italie) ; GrandPrix.com le confirme pour Zandvoort, Spa et Monza.
   sources:
-  - titre: Wikipedia, « Vanwall VW5 »
-    url: https://en.wikipedia.org/wiki/Vanwall_VW5
+  - titre: Goodwood, « Britain's first F1 constructors' champion » (août 2022)
+    url: https://www.goodwood.com/grr/f1/britains-first-f1-constructors-champion
+  - titre: GrandPrix.com, « Dutch GP, 1958 »
+    url: https://www.grandprix.com/gpe/rr067.html
+  - titre: GrandPrix.com, « Belgian GP, 1958 »
+    url: https://www.grandprix.com/gpe/rr069.html
+  - titre: GrandPrix.com, « Italian GP, 1958 »
+    url: https://www.grandprix.com/gpe/rr074.html
 - annee: 1959
   ecurie: Watson Offenhauser
   equipe: Watson Offenhauser
@@ -397,10 +481,12 @@ cas:
   - voiture: BRM P25
     gps:
     - Netherlands
-  pourquoi: Bonnier offre à BRM sa première victoire, à Zandvoort, sur P25.
+  pourquoi: Bonnier offre à BRM sa première victoire, à Zandvoort, sur P25 (8W, GrandPrix.com).
   sources:
-  - titre: Wikipedia, « BRM P25 »
-    url: https://en.wikipedia.org/wiki/BRM_P25
+  - titre: 8W (Forix), « Who? Joakim Bonnier »
+    url: https://8w.forix.com/bonnier.html
+  - titre: GrandPrix.com, « Dutch GP, 1959 »
+    url: https://www.grandprix.com/gpe/rr078.html
 - annee: 1959
   ecurie: cooper
   equipe: Cooper Climax
@@ -412,10 +498,18 @@ cas:
     - Portugal
     - Italy
     - United States of America United States
-  pourquoi: Brabham (Monaco, Grande-Bretagne) et McLaren (États-Unis) pour l'usine, Moss (Portugal, Italie) pour Rob Walker, tous sur T51.
+  pourquoi: Brabham (Monaco, Grande-Bretagne) et McLaren (États-Unis) pour l'usine, Moss (Portugal, Italie) pour Rob Walker, tous sur T51 (Autosport, GrandPrix.com, Motor Sport).
   sources:
-  - titre: Wikipedia, « Cooper T51 »
-    url: https://en.wikipedia.org/wiki/Cooper_T51
+  - titre: Autosport, « The inside story of Brabham's dramatic first title win » (décembre 2019)
+    url: https://www.autosport.com/f1/feature/9763/the-inside-story-of-brabham-dramatic-first-title-win
+  - titre: GrandPrix.com, « British GP, 1959 »
+    url: https://www.grandprix.com/gpe/rr080.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1959 Portuguese Grand Prix race report: Moss trounces the field » (octobre 1959)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1959/28/viii-grand-prix-of-portugal-moss-and-cooper-walker
+  - titre: GrandPrix.com, « Italian GP, 1959 »
+    url: https://www.grandprix.com/gpe/rr083.html
+  - titre: GrandPrix.com, « United States GP, 1959 »
+    url: https://www.grandprix.com/gpe/rr084.html
 - annee: 1959
   ecurie: ferrari
   equipe: Ferrari
@@ -424,10 +518,10 @@ cas:
     gps:
     - France
     - Germany
-  pourquoi: Brooks gagne en France et en Allemagne sur la 256 F1, évolution de la 246 au V6 réalésé.
+  pourquoi: Brooks gagne en France et en Allemagne (sur l'AVUS) en 1959 ; Doug Nye attribue la victoire de Reims à la puissance du V6 « Dino 256 », réalésé à 2 474 cm³ depuis Monza 1958.
   sources:
-  - titre: Wikipedia, « Ferrari 246 F1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_246_F1
+  - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
 - annee: 1960
   ecurie: Watson Offenhauser
   equipe: Watson Offenhauser
@@ -453,14 +547,14 @@ cas:
     - France
     - Great Britain
     - Portugal
-  pourquoi: McLaren gagne en Argentine sur T51, la T53 ne débutant qu'à Monaco ; Brabham enchaîne ensuite cinq victoires sur T53.
+  pourquoi: McLaren gagne en Argentine sur T51, la T53 n'étant prête qu'en mai 1960 (OldRacingCars) ; la T53 gagne ensuite cinq Grands Prix (Conceptcarz), dont les trois victoires d'affilée de Brabham aux Pays-Bas, en Belgique et en France, puis le Portugal, où l'usine aligne ses modèles 1960.
   sources:
-  - titre: Wikipedia, « Cooper T53 »
-    url: https://en.wikipedia.org/wiki/Cooper_T53
-  - titre: Conceptcarz, « Cooper T51 »
+  - titre: Conceptcarz, « 1959 Cooper T51 »
     url: https://www.conceptcarz.com/w13767/cooper-t51.aspx
-  - titre: Wikipedia, « 1960 Argentine Grand Prix »
-    url: https://en.wikipedia.org/wiki/1960_Argentine_Grand_Prix
+  - titre: OldRacingCars.com, « Cooper T53 and T53P car-by-car histories »
+    url: https://www.oldracingcars.com/cooper/t53/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1960 Portuguese Grand Prix race report: Brabham''s quintet » (septembre 1960)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1960/14/portuguese-grand-prix-5/
 - annee: 1960
   ecurie: ferrari
   equipe: Ferrari
@@ -468,10 +562,12 @@ cas:
   - voiture: Ferrari 246 F1
     gps:
     - Italy
-  pourquoi: Phil Hill gagne à Monza sur une 246 F1 à moteur avant, dernière victoire d'une voiture à moteur avant en Formule 1.
+  pourquoi: Phil Hill gagne à Monza sur l'une des trois Dino 246 F1 à moteur avant engagées par Ferrari ; Doug Nye la présente comme la dernière voiture à moteur avant victorieuse en Grand Prix.
   sources:
-  - titre: Wikipedia, « 1960 Italian Grand Prix »
-    url: https://en.wikipedia.org/wiki/1960_Italian_Grand_Prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1960 Italian Grand Prix race report: Monza red again at long last » (octobre 1960)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1960/32/the-xx-italian-grand-prix/
+  - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
+    url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/
 - annee: 1960
   ecurie: team-lotus
   equipe: Lotus Climax
@@ -480,10 +576,12 @@ cas:
     gps:
     - Monaco
     - United States of America United States
-  pourquoi: Les deux victoires sont celles de Moss sur la Lotus 18 privée de Rob Walker, non de Team Lotus.
+  pourquoi: Moss gagne à Monaco sur la Lotus 18 de Rob Walker, victoire d'un client et non de Team Lotus ; une Lotus 18 ne regagne qu'à Riverside, en novembre, de nouveau avec Moss.
   sources:
-  - titre: Wikipedia, « Lotus 18 »
-    url: https://en.wikipedia.org/wiki/Lotus_18
+  - titre: Goodwood Road & Racing, « A landmark first for Lotus, 60 years on » (juin 2020)
+    url: https://www.goodwood.com/grr/f1/a-landmark-first-for-lotus-60-years-on/
+  - titre: Motor Sport, Alexander Cameron, « The ground-breaking Lotus F1 cars - 60 years since their first win » (mai 2020)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-at-70/the-ground-breaking-lotus-f1-cars-60-years-since-their-first-win/
 - annee: 1961
   ecurie: ferrari
   equipe: Ferrari
@@ -495,12 +593,18 @@ cas:
     - France
     - Great Britain
     - Italy
-  pourquoi: La 156 « nez de requin » gagne cinq des huit manches ; en France, Baghetti la pilote pour la FISA.
+  pourquoi: 'La 156 à moteur arrière gagne cinq des huit manches : von Trips à Zandvoort, Phil Hill à Spa avec les mêmes voitures à V6 à 120°, Baghetti à Reims sur la 156 à V6 à 60° que Ferrari prête à la FISA, von Trips à Aintree et Phil Hill à Monza.'
   sources:
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-  - titre: Wikipedia, « Ferrari 156 F1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 Dutch Grand Prix race report: Ferrari take triumphant 1-2-3 » (juillet 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1961/36/the-dutch-grand-prix-15/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 Belgium Grand Prix race report: Scuderia produce another dominant display » (juillet 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1961/13/thegrandprixofbelgium
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 French Grand Prix race report: Baghetti''s immaculate debut » (août 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1961/28/the-47th-french-grand-prix/
+  - titre: Motor Sport, Bill Boddy, « 1961 British Grand Prix race report - Another Ferrari triumph » (août 1961)
+    url: https://www.motorsportmagazine.com/archive/article/august-1961/20/14th-r-a-c-british-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 Italian Grand Prix race report: von Trips suffers fatal accident whilst Hill wins title » (octobre 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1961/44/xxxii-italian-grand-prix
 - annee: 1961
   ecurie: team-lotus
   equipe: Lotus Climax
@@ -516,12 +620,12 @@ cas:
     - United States of America United States
   pourquoi: Moss gagne à Monaco sur la Lotus 18 de Rob Walker, puis au Nürburgring sur la même voiture mise au type 18/21 ; Ireland donne à Team Lotus sa première victoire, à Watkins Glen, sur Lotus 21.
   sources:
-  - titre: Wikipedia, « 1961 Monaco Grand Prix »
-    url: https://en.wikipedia.org/wiki/1961_Monaco_Grand_Prix
-  - titre: Wikipedia, « 1961 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1961_German_Grand_Prix
-  - titre: Wikipedia, « Lotus 21 »
-    url: https://en.wikipedia.org/wiki/Lotus_21
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 Monaco Grand Prix race report: Moss the hat-trick hero » (juin 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1961/11/xix-grand-prix-of-monaco-what-a-race
+  - titre: 'Motor Sport, Denis Jenkinson, « 1961 German Grand Prix race report: Moss takes no prisoners at the ''Ring » (septembre 1961)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1961/34/xxiii-german-grand-prix
+  - titre: Motor Sport, Alan Henry, « Looking back with Innes Ireland » (janvier 1976)
+    url: https://www.motorsportmagazine.com/archive/article/january-1976/26/looking-back-innes-ireland
 - annee: 1962
   ecurie: brm
   equipe: BRM
@@ -532,10 +636,14 @@ cas:
     - Germany
     - Italy
     - South Africa
-  pourquoi: Graham Hill gagne à Zandvoort puis trois des quatre dernières manches (Allemagne, Italie, Afrique du Sud) sur P57.
+  pourquoi: 'Keith Howard rappelle que la Type 57 (P578 avec le V8 BRM) donne à BRM quatre victoires, le titre des constructeurs et celui de Graham Hill en 1962 : Zandvoort, Nürburgring, Monza et East London, la dernière couronnant Hill champion.'
   sources:
-  - titre: Wikipedia, « BRM P57 »
-    url: https://en.wikipedia.org/wiki/BRM_P57
+  - titre: 'Motor Sport, Keith Howard, « X-ray spec: BRM P578 » (avril 2003)'
+    url: https://www.motorsportmagazine.com/archive/article/april-2003/75/x-ray-spec-brm-p-578/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1962 Dutch Grand Prix race report: Hill rings in the new season with debut win » (juin 1962)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1962/12/the-dutch-grand-prix-11/
+  - titre: 'Motor Sport, Michael Tee, « 1962 South African Grand Prix race report: Graham the champion » (février 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1963/28/the-9th-south-african-grand-prix/
 - annee: 1962
   ecurie: cooper
   equipe: Cooper Climax
@@ -543,10 +651,12 @@ cas:
   - voiture: Cooper T60
     gps:
     - Monaco
-  pourquoi: La T60 ne gagne qu'un Grand Prix, Monaco 1962, avec Bruce McLaren.
+  pourquoi: La T60 ne gagne qu'un Grand Prix, Monaco 1962, avec Bruce McLaren (OldRacingCars, et le compte rendu de Jenkinson).
   sources:
-  - titre: Wikipedia, « Cooper T60 »
-    url: https://en.wikipedia.org/wiki/Cooper_T60
+  - titre: OldRacingCars.com, « Cooper T60 car-by-car histories »
+    url: https://www.oldracingcars.com/cooper/t60/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1962 Monaco Grand Prix race report: Kiwi survives hunting red shark » (juillet 1962)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1962/20/xx-grand-prix-of-monaco
 - annee: 1962
   ecurie: porsche
   equipe: Porsche
@@ -554,10 +664,12 @@ cas:
   - voiture: Porsche 804
     gps:
     - France
-  pourquoi: Gurney gagne à Rouen sur 804, seule victoire de Porsche comme constructeur.
+  pourquoi: Gurney gagne à Rouen sur la 804 à huit cylindres, seule victoire de Porsche comme constructeur en championnat du monde de F1 (Porsche).
   sources:
-  - titre: Wikipedia, « Porsche 804 »
-    url: https://en.wikipedia.org/wiki/Porsche_804
+  - titre: 'Porsche Newsroom, « Porsche 804 : Dan Gurney, 1962, Großer Preis von Deutschland, Nürburgring » (Christophorus 383)'
+    url: https://newsroom.porsche.com/de/christophorus/ausgabe-383/porsche-804-dan-gurney-1962-grosser-preis-deutschland-nuerburgring-14160.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1962 French Grand Prix race report: Gurney gives Porsche its P1 » (août 1962)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1962/54/48th-french-grand-prix
 - annee: 1962
   ecurie: team-lotus
   equipe: Lotus Climax
@@ -567,10 +679,14 @@ cas:
     - Belgium
     - Great Britain
     - United States of America United States
-  pourquoi: Clark gagne à Spa, en Grande-Bretagne et aux États-Unis sur la 25 monocoque.
+  pourquoi: Clark gagne à Spa, en Grande-Bretagne et aux États-Unis sur la 25 monocoque, selon les comptes rendus d'époque de Motor Sport.
   sources:
-  - titre: Wikipedia, « Lotus 25 »
-    url: https://en.wikipedia.org/wiki/Lotus_25
+  - titre: 'Motor Sport, Denis Jenkinson, « 1962 Belgian Grand Prix race report: A fine win for Lotus » (juillet 1962)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1962/14/xxi-belgian-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « 1962 British Grand Prix race report - The uncatchable Lotus and Clark » (août 1962)
+    url: https://www.motorsportmagazine.com/archive/article/august-1962/14/15th-rac-british-grand-prix
+  - titre: 'Motor Sport, Michael Tee, « 1962 United States Grand Prix race report: Brits conquer the Glen » (novembre 1962)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1962/22/4th-united-states-grand-prix
 - annee: 1963
   ecurie: brm
   equipe: BRM
@@ -579,10 +695,12 @@ cas:
     gps:
     - Monaco
     - United States of America United States
-  pourquoi: Graham Hill gagne à Monaco et aux États-Unis sur P57.
+  pourquoi: Graham Hill gagne à Monaco sur P57 ; à Watkins Glen, BRM aligne pour Hill et Ginther « deux vieilles voitures », les P57, plutôt que la monocoque de 1963.
   sources:
-  - titre: Wikipedia, « BRM P57 »
-    url: https://en.wikipedia.org/wiki/BRM_P57
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 Monaco Grand Prix race report: BRM beats the street » (juillet 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1963/26/xxi-monaco-grand-prix
+  - titre: 'Motor Sport, Michael Tee, « 1963 United States Grand Prix race report: Hill on top of the Glen as Surtees suffers again » (novembre 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1963/29/grand-prix-of-united-states-2/
 - annee: 1963
   ecurie: ferrari
   equipe: Ferrari
@@ -607,10 +725,22 @@ cas:
     - Italy
     - Mexico
     - South Africa
-  pourquoi: Les sept victoires de Clark en 1963 sont toutes acquises sur la 25.
+  pourquoi: Les sept victoires de Clark en 1963 (Belgique, Pays-Bas, France, Grande-Bretagne, Italie, Mexique, Afrique du Sud) sont toutes acquises sur la 25, que Team Lotus engage à chaque manche selon les comptes rendus de Motor Sport et OldRacingCars.
   sources:
-  - titre: Wikipedia, « Lotus 25 »
-    url: https://en.wikipedia.org/wiki/Lotus_25
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 Belgian Grand Prix race report: Clark vanquishes field in Spa spray » (juillet 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1963/11/the-xxii-belgian-grand-prix-lotus-all-the-way/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 Dutch Grand Prix race report: Clark at the double » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/20/the-dutch-grand-prix-2/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « 1963 British Grand Prix race report - Clark (Lotus-Climax) uncatchable » (août 1963)
+    url: https://www.motorsportmagazine.com/archive/article/august-1963/14/xvi-british-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1963 Italian Grand Prix race report: Clark and Lotus rule supreme » (octobre 1963)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1963/40/34th-italian-grand-prix
+  - titre: OldRacingCars.com, « Lotus 25 car-by-car histories »
+    url: https://www.oldracingcars.com/lotus/25/
+  - titre: 'Motor Sport, Michael Tee, « 1963 South African Grand Prix race report: Clark''s finish fantastic » (février 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1964/32/10th-south-african-grand-prix
 - annee: 1964
   ecurie: brabham
   equipe: Brabham Climax
@@ -619,10 +749,10 @@ cas:
     gps:
     - France
     - Mexico
-  pourquoi: Gurney donne à Brabham ses deux premières victoires, à Rouen et à Mexico, sur BT7.
+  pourquoi: Gurney donne à Brabham ses deux premières victoires, à Rouen et à Mexico, sur BT7, qu'il garde toute la saison alors que Jack Brabham passe à la BT11 (OldRacingCars).
   sources:
-  - titre: Wikipedia, « Brabham BT7 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT7
+  - titre: OldRacingCars.com, « Brabham BT7 car-by-car histories »
+    url: https://www.oldracingcars.com/brabham/bt7/
 - annee: 1964
   ecurie: brm
   equipe: BRM
@@ -631,10 +761,14 @@ cas:
     gps:
     - Monaco
     - United States of America United States
-  pourquoi: Graham Hill gagne à Monaco et aux États-Unis sur P261.
+  pourquoi: Graham Hill gagne à Monaco et aux États-Unis sur les BRM 1964 à coque travaillante, les P261, dont OldRacingCars date les premières courses de mars 1964.
   sources:
-  - titre: Wikipedia, « BRM P261 »
-    url: https://en.wikipedia.org/wiki/BRM_P261
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report: Lotus fails where Hill prevails » (juin 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1964/11/xxii-monaco-grand-prix
+  - titre: 'Motor Sport, Michael Tee, « 1964 United States Grand Prix race report: Hill capitalises on Clark''s calamity » (novembre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1964/30/grand-prix-of-united-states/
+  - titre: OldRacingCars.com, « BRM P261 car-by-car histories »
+    url: https://www.oldracingcars.com/brm/p261/
 - annee: 1964
   ecurie: ferrari
   equipe: Ferrari
@@ -646,16 +780,16 @@ cas:
   - voiture: Ferrari 156 Aero
     gps:
     - Austria
-  pourquoi: Surtees remporte ses deux victoires de 1964, au Nürburgring et à Monza, sur 158 ; Bandini signe en Autriche la dernière victoire de la 156, dans sa version 1963-1964 dite « Aero ».
+  pourquoi: Surtees remporte ses deux victoires de 1964, au Nürburgring et à Monza, sur la nouvelle 158 à V8 ; Bandini signe à Zeltweg, sur la V6, la seule victoire en championnat de la 156 « Aero », dernière version de la 156, apparue à Monza en 1963.
   sources:
-  - titre: Wikipedia, « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
-  - titre: Wikipedia, « 1964 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1964_German_Grand_Prix
-  - titre: Wikipedia, « 1964 Italian Grand Prix »
-    url: https://en.wikipedia.org/wiki/1964_Italian_Grand_Prix
-  - titre: Wikipedia, « Ferrari 156 F1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_156_F1
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 German Grand Prix race report: Surtees rules them all at the ''ring » (septembre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1964/29/26th-german-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Austrian Grand Prix race report: Bandini battles to victory » (octobre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1964/39/austrian-grand-prix-4
+  - titre: Primotipo, « Ferrari 158 » (articles étiquetés)
+    url: https://primotipo.com/tag/ferrari-158/
+  - titre: Primotipo, « Ferrari 156 » (articles étiquetés)
+    url: https://primotipo.com/tag/ferrari-156/
 - annee: 1964
   ecurie: team-lotus
   equipe: Lotus Climax
@@ -665,12 +799,16 @@ cas:
     - Netherlands
     - Belgium
     - Great Britain
-  pourquoi: Clark gagne trois courses en 1964 sur la 25 ; la 33, apparue cette année-là, ne gagne qu'à partir de 1965.
+  pourquoi: 'Clark gagne trois courses en 1964 sur la 25 modifiée : à Zandvoort sur la 25 qui avait couru à Monaco, à Spa où il délaisse la 33 pour la 25 dès les essais, et à Brands Hatch où il choisit la 25 pour la course ; au Nürburgring, Jenkinson note que Clark a utilisé cette 25 « dans la plupart des courses de la saison ».'
   sources:
-  - titre: Wikipedia, « Lotus 25 »
-    url: https://en.wikipedia.org/wiki/Lotus_25
-  - titre: Wikipedia, « Lotus 33 »
-    url: https://en.wikipedia.org/wiki/Lotus_33
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Dutch Grand Prix race report: Another Clark masterclass » (juillet 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1964/23/the-dutch-grand-prix-12/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Belgian Grand Prix race report: Clark defies the odds at Spa » (juillet 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1964/19/belgian-grand-prix-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1964 British Grand Prix race report - A hard time for Clark » (août 1964)
+    url: https://www.motorsportmagazine.com/archive/article/august-1964/58/xvii-british-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « 1964 German Grand Prix race report: Surtees rules them all at the ''ring » (septembre 1964)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1964/29/26th-german-grand-prix
 - annee: 1965
   ecurie: brm
   equipe: BRM
@@ -680,10 +818,14 @@ cas:
     - Monaco
     - Italy
     - United States of America United States
-  pourquoi: Hill gagne à Monaco et aux États-Unis, Stewart remporte à Monza sa première victoire, tous sur P261.
+  pourquoi: Hill gagne à Monaco et aux États-Unis sur la P261 n° 2616, et Stewart remporte à Monza sa première victoire sur la P261 n° 2617 (historiques châssis par châssis d'oldracingcars.com, confirmés par Goodwood).
   sources:
-  - titre: Wikipedia, « BRM P261 »
-    url: https://en.wikipedia.org/wiki/BRM_P261
+  - titre: oldracingcars.com, « BRM P261 2616 »
+    url: https://www.oldracingcars.com/brm/p261/6
+  - titre: oldracingcars.com, « BRM P261 2617 »
+    url: https://www.oldracingcars.com/brm/p261/7
+  - titre: Goodwood Road & Racing, « Revival's Top 5 single-seaters » (septembre 2018)
+    url: https://www.goodwood.com/grr/event-coverage/goodwood-revival/revivals-top-5-single-seaters/
 - annee: 1965
   ecurie: honda-1964
   equipe: Honda
@@ -691,10 +833,12 @@ cas:
   - voiture: Honda RA272
     gps:
     - Mexico
-  pourquoi: Ginther mène les 65 tours de Mexico sur RA272, première victoire de Honda.
+  pourquoi: Ginther mène tous les tours de Mexico sur une RA272 modifiée et offre à Honda sa première victoire, selon l'historique du constructeur.
   sources:
-  - titre: Wikipedia, « Honda RA272 »
-    url: https://en.wikipedia.org/wiki/Honda_RA272
+  - titre: Honda, « 1965 Striving for the First Victory » (Grand Prix Digest 1964-1968)
+    url: https://global.honda/en/F1/HONDA1964-1968/grand-prix-digest/1965/
+  - titre: Honda, « 1965 Honda RA272 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/1965_HondaRA272/
 - annee: 1965
   ecurie: team-lotus
   equipe: Lotus Climax
@@ -709,12 +853,16 @@ cas:
   - voiture: Lotus 25
     gps:
     - France
-  pourquoi: Clark gagne cinq fois sur la 33 (Afrique du Sud puis quatre autres) ; à Clermont-Ferrand, il signe la dernière victoire de la 25.
+  pourquoi: 'Clark gagne cinq fois sur la 33 : à East London sur R10, à Spa, Silverstone et au Nürburgring sur R11, à Zandvoort sur R9. À Clermont-Ferrand, il gagne sur la Lotus 25 R6 (historiques châssis par châssis d''oldracingcars.com).'
   sources:
-  - titre: Wikipedia, « Lotus 33 »
-    url: https://en.wikipedia.org/wiki/Lotus_33
-  - titre: Wikipedia, « Lotus 25 »
-    url: https://en.wikipedia.org/wiki/Lotus_25
+  - titre: oldracingcars.com, « Lotus 33 R10 »
+    url: https://www.oldracingcars.com/lotus/33/10
+  - titre: oldracingcars.com, « Lotus 33 R11 »
+    url: https://www.oldracingcars.com/lotus/33/11
+  - titre: oldracingcars.com, « Lotus 33 R9 »
+    url: https://www.oldracingcars.com/lotus/33/09
+  - titre: oldracingcars.com, « Lotus 25 R6 »
+    url: https://www.oldracingcars.com/lotus/25/06
 - annee: 1966
   ecurie: brabham
   equipe: Brabham Repco
@@ -725,10 +873,16 @@ cas:
     - Great Britain
     - Netherlands
     - Germany
-  pourquoi: Jack Brabham enchaîne ses quatre victoires de 1966 sur la BT19 et devient le premier à gagner sur une voiture portant son nom.
+  pourquoi: Jack Brabham enchaîne ses quatre victoires de 1966 (France, Grande-Bretagne, Pays-Bas, Allemagne) sur l'unique BT19, châssis F1-1-65, et devient le premier à gagner sur une voiture portant son nom.
   sources:
-  - titre: Wikipedia, « Brabham BT19 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT19
+  - titre: oldracingcars.com, Grand Prix de France 1966
+    url: https://www.oldracingcars.com/f1/results/1966/france/
+  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1966
+    url: https://www.oldracingcars.com/f1/results/1966/britain/
+  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1966
+    url: https://www.oldracingcars.com/f1/results/1966/netherlands/
+  - titre: oldracingcars.com, Grand Prix d'Allemagne 1966
+    url: https://www.oldracingcars.com/f1/results/1966/germany/
 - annee: 1966
   ecurie: brm
   equipe: BRM
@@ -736,10 +890,12 @@ cas:
   - voiture: BRM P261
     gps:
     - Monaco
-  pourquoi: Stewart gagne à Monaco en 1966 sur la P261 à moteur 2 litres.
+  pourquoi: Stewart gagne à Monaco en 1966 sur la P261 n° 2617, équipée du V8 BRM de 2 litres.
   sources:
-  - titre: Wikipedia, « BRM P261 »
-    url: https://en.wikipedia.org/wiki/BRM_P261
+  - titre: oldracingcars.com, Grand Prix de Monaco 1966
+    url: https://www.oldracingcars.com/f1/results/1966/monaco/
+  - titre: oldracingcars.com, « BRM P261 2617 »
+    url: https://www.oldracingcars.com/brm/p261/7
 - annee: 1966
   ecurie: cooper
   equipe: Cooper Maserati
@@ -747,10 +903,12 @@ cas:
   - voiture: Cooper T81
     gps:
     - Mexico
-  pourquoi: Surtees offre à la T81 sa première victoire, lors de la dernière manche de 1966, à Mexico.
+  pourquoi: Surtees offre à la T81 sa première victoire, lors de la dernière manche de 1966, à Mexico (châssis F1-6-66).
   sources:
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
+  - titre: oldracingcars.com, Grand Prix du Mexique 1966
+    url: https://www.oldracingcars.com/f1/results/1966/mexico/
+  - titre: oldracingcars.com, « Cooper T81 car-by-car histories »
+    url: https://www.oldracingcars.com/cooper/t81/
 - annee: 1966
   ecurie: ferrari
   equipe: Ferrari
@@ -759,10 +917,12 @@ cas:
     gps:
     - Belgium
     - Italy
-  pourquoi: Surtees gagne à Spa et Scarfiotti à Monza sur la 312 de 1966.
+  pourquoi: Surtees gagne à Spa (châssis 010) et Scarfiotti à Monza (châssis 011) sur la 312 de 1966.
   sources:
-  - titre: Wikipedia, « Ferrari 312 »
-    url: https://en.wikipedia.org/wiki/Ferrari_312
+  - titre: oldracingcars.com, Grand Prix de Belgique 1966
+    url: https://www.oldracingcars.com/f1/results/1966/belgium/
+  - titre: oldracingcars.com, Grand Prix d'Italie 1966
+    url: https://www.oldracingcars.com/f1/results/1966/italy/
 - annee: 1966
   ecurie: team-lotus
   equipe: Lotus BRM
@@ -770,10 +930,12 @@ cas:
   - voiture: Lotus 43
     gps:
     - United States of America United States
-  pourquoi: Clark gagne à Watkins Glen sur la 43 à moteur BRM H16, seule victoire de ce moteur.
+  pourquoi: Clark gagne à Watkins Glen sur la Lotus 43 n° 1, à moteur BRM H16 (oldracingcars.com ; Motor Sport y revient au Mexique).
   sources:
-  - titre: Wikipedia, « Lotus 43 »
-    url: https://en.wikipedia.org/wiki/Lotus_43
+  - titre: oldracingcars.com, Grand Prix des États-Unis 1966
+    url: https://www.oldracingcars.com/f1/results/1966/usa/
+  - titre: 'Motor Sport, Michael Tee, « 1966 Mexican Grand Prix race report: Scintillating Surtees » (décembre 1966)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1966/31/5th-mexican-grand-prix/
 - annee: 1967
   ecurie: brabham
   equipe: Brabham Repco
@@ -786,14 +948,14 @@ cas:
     - France
     - Germany
     - Canada
-  pourquoi: Hulme gagne à Monaco sur BT20 ; Brabham (France, Canada) et Hulme (Allemagne) gagnent ensuite sur BT24.
+  pourquoi: Hulme gagne à Monaco sur BT20 ; Brabham (France, Canada, sur BT24/1) et Hulme (Allemagne, sur BT24/2) gagnent ensuite sur BT24.
   sources:
   - titre: oldracingcars.com, Grand Prix de Monaco 1967
     url: https://www.oldracingcars.com/f1/results/1967/monaco/
   - titre: oldracingcars.com, Grand Prix de France 1967
     url: https://www.oldracingcars.com/f1/results/1967/france/
-  - titre: Wikipedia, « 1967 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1967_German_Grand_Prix
+  - titre: oldracingcars.com, Grand Prix d'Allemagne 1967
+    url: https://www.oldracingcars.com/f1/results/1967/germany/
   - titre: oldracingcars.com, Grand Prix du Canada 1967
     url: https://www.oldracingcars.com/f1/results/1967/canada/
 - annee: 1967
@@ -803,10 +965,12 @@ cas:
   - voiture: Cooper T81
     gps:
     - South Africa
-  pourquoi: Pedro Rodríguez gagne la manche d'ouverture à Kyalami sur T81 ; la T81B n'apparaît qu'à Monaco.
+  pourquoi: Pedro Rodríguez gagne la manche d'ouverture à Kyalami sur la T81 F1-6-66, celle de Surtees en 1966 ; la T81B n'est prête qu'ensuite.
   sources:
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
+  - titre: oldracingcars.com, Grand Prix d'Afrique du Sud 1967
+    url: https://www.oldracingcars.com/f1/results/1967/south-africa/
+  - titre: oldracingcars.com, « Cooper T81 car-by-car histories »
+    url: https://www.oldracingcars.com/cooper/t81/
 - annee: 1967
   ecurie: eagle
   equipe: Eagle Weslake
@@ -814,10 +978,12 @@ cas:
   - voiture: Eagle Mk1
     gps:
     - Belgium
-  pourquoi: Gurney gagne à Spa sur l'Eagle Mk1 (châssis 104), souvent appelée T1G, une désignation que Gurney dit n'avoir jamais été officielle.
+  pourquoi: Gurney gagne à Spa sur l'Eagle Mk1 châssis 104, la voiture allégée au titane ; oldracingcars.com écrit sa désignation « T1G » entre guillemets.
   sources:
-  - titre: Wikipedia, « Eagle Mk1 »
-    url: https://en.wikipedia.org/wiki/Eagle_Mk1
+  - titre: oldracingcars.com, Grand Prix de Belgique 1967
+    url: https://www.oldracingcars.com/f1/results/1967/belgium/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Belgian Grand Prix race report: Gurney''s Eagle takes flight » (juillet 1967)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1967/22/the-belgian-grand-prix-5/
 - annee: 1967
   ecurie: honda-1964
   equipe: Honda
@@ -825,10 +991,14 @@ cas:
   - voiture: Honda RA300
     gps:
     - Italy
-  pourquoi: Surtees gagne à Monza dès la première course de la RA300.
+  pourquoi: Surtees gagne à Monza dès la première course de la RA300, codéveloppée avec Lola (historique Honda ; oldracingcars.com donne le Grand Prix d'Italie comme première course de l'unique RA300/1).
   sources:
-  - titre: Wikipedia, « Honda RA300 »
-    url: https://en.wikipedia.org/wiki/Honda_RA300
+  - titre: oldracingcars.com, Grand Prix d'Italie 1967
+    url: https://www.oldracingcars.com/f1/results/1967/italy/
+  - titre: Honda, « 1967 Partnering with a World Champion » (Grand Prix Digest 1964-1968)
+    url: https://global.honda/en/F1/HONDA1964-1968/grand-prix-digest/1967/
+  - titre: oldracingcars.com, « Honda RA300 history »
+    url: https://www.oldracingcars.com/honda/ra300/
 - annee: 1967
   ecurie: team-lotus
   equipe: Lotus Ford
@@ -839,10 +1009,18 @@ cas:
     - Great Britain
     - United States of America United States
     - Mexico
-  pourquoi: Clark gagne dès les débuts de la 49 à Zandvoort, puis trois autres fois ; la 49B n'apparaît qu'à Monaco 1968.
+  pourquoi: Clark gagne dès les débuts de la 49 à Zandvoort, puis à Silverstone et Watkins Glen sur R2, et au Mexique sur R1.
   sources:
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
+  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1967
+    url: https://www.oldracingcars.com/f1/results/1967/netherlands/
+  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1967
+    url: https://www.oldracingcars.com/f1/results/1967/britain/
+  - titre: oldracingcars.com, Grand Prix des États-Unis 1967
+    url: https://www.oldracingcars.com/f1/results/1967/usa/
+  - titre: oldracingcars.com, Grand Prix du Mexique 1967
+    url: https://www.oldracingcars.com/f1/results/1967/mexico/
+  - titre: oldracingcars.com, « Lotus 49 car-by-car histories »
+    url: https://www.oldracingcars.com/lotus/49/
 - annee: 1968
   ecurie: ferrari
   equipe: Ferrari
@@ -850,12 +1028,10 @@ cas:
   - voiture: Ferrari 312/68
     gps:
     - France
-  pourquoi: Ickx gagne sous la pluie à Rouen sur la 312 ; la 312/68 est le modèle de l'année (les tableaux ne précisent pas le châssis course par course).
+  pourquoi: Ickx gagne sous la pluie à Rouen sur la Ferrari 312/68, châssis 0009.
   sources:
-  - titre: Wikipedia, « Ferrari 312 »
-    url: https://en.wikipedia.org/wiki/Ferrari_312
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
+  - titre: OldRacingCars, « French Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/france/
 - annee: 1968
   ecurie: matra
   equipe: Matra Ford
@@ -865,13 +1041,13 @@ cas:
     - Netherlands
     - Germany
     - United States of America United States
-  pourquoi: Stewart gagne ses trois courses de 1968 sur la MS10 de Matra International (châssis 02 à Zandvoort et Watkins Glen).
+  pourquoi: Stewart gagne ses trois courses de 1968 sur la MS10 de Matra International, à chaque fois avec le châssis 02 (Zandvoort, Nürburgring, Watkins Glen).
   sources:
-  - titre: Wikipedia, « Matra MS10 »
-    url: https://en.wikipedia.org/wiki/Matra_MS10
-  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1968
+  - titre: OldRacingCars, « Dutch Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/netherlands/
-  - titre: oldracingcars.com, Grand Prix des États-Unis 1968
+  - titre: OldRacingCars, « German Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/germany/
+  - titre: OldRacingCars, « United States Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/usa/
 - annee: 1968
   ecurie: mclaren
@@ -882,10 +1058,14 @@ cas:
     - Belgium
     - Italy
     - Canada
-  pourquoi: Bruce McLaren gagne à Spa, Hulme à Monza et au Canada, sur M7A.
+  pourquoi: Bruce McLaren gagne à Spa (M7A châssis 3), Hulme à Monza et au Canada (M7A châssis 2).
   sources:
-  - titre: Wikipedia, « McLaren M7A »
-    url: https://en.wikipedia.org/wiki/McLaren_M7A
+  - titre: OldRacingCars, « Belgian Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/belgium/
+  - titre: OldRacingCars, « Italian Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/italy/
+  - titre: OldRacingCars, « Canadian Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/canada/
 - annee: 1968
   ecurie: team-lotus
   equipe: Lotus Ford
@@ -899,18 +1079,18 @@ cas:
     - Monaco
     - Great Britain
     - Mexico
-  pourquoi: Clark (Kyalami, châssis R4) et Hill (Jarama, châssis R1) gagnent sur 49 ; la 49B, introduite à Monaco, gagne avec Hill à Monaco et à Mexico et avec Siffert, pour Rob Walker, à Brands Hatch.
+  pourquoi: Clark (Kyalami, châssis R4) et Hill (Jarama, châssis R1) gagnent sur 49 ; la 49B, introduite à Monaco, gagne avec Hill à Monaco (R5) et à Mexico (R6-2, engagé comme « R8 ») et avec Siffert, pour Rob Walker, à Brands Hatch (R7).
   sources:
-  - titre: oldracingcars.com, Grand Prix d'Afrique du Sud 1968
+  - titre: OldRacingCars, « South African Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/south-africa/
-  - titre: oldracingcars.com, Grand Prix d'Espagne 1968
+  - titre: OldRacingCars, « Spanish Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/spain/
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
-  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1968
+  - titre: OldRacingCars, « Monaco Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/monaco/
+  - titre: OldRacingCars, « British Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/britain/
-  - titre: Wikipedia, « 1968 Mexican Grand Prix »
-    url: https://en.wikipedia.org/wiki/1968_Mexican_Grand_Prix
+  - titre: OldRacingCars, « Mexican Grand Prix 1968 »
+    url: https://www.oldracingcars.com/f1/results/1968/mexico/
 - annee: 1969
   ecurie: brabham
   equipe: Brabham Ford
@@ -919,12 +1099,14 @@ cas:
     gps:
     - Germany
     - Canada
-  pourquoi: Ickx gagne au Nürburgring et au Canada sur BT26A, seul châssis engagé par Brabham en 1969.
+  pourquoi: Ickx gagne au Nürburgring (châssis 4) et au Canada (châssis 3) sur la BT26A, la BT26 de 1968 rééquipée du Cosworth DFV pour 1969.
   sources:
-  - titre: Wikipedia, « Brabham BT26 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT26
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: OldRacingCars, « German Grand Prix 1969 »
+    url: https://www.oldracingcars.com/f1/results/1969/germany/
+  - titre: OldRacingCars, « Canadian Grand Prix 1969 »
+    url: https://www.oldracingcars.com/f1/results/1969/canada/
+  - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
+    url: https://www.oldracingcars.com/brabham/bt26/
 - annee: 1969
   ecurie: matra
   equipe: Matra Ford
@@ -939,15 +1121,15 @@ cas:
     - France
     - Great Britain
     - Italy
-  pourquoi: Stewart gagne à Kyalami sur MS10, puis remporte sur MS80 les cinq autres victoires, de Montjuïc (MS80-01) à Monza, où il s'assure le titre.
+  pourquoi: Stewart gagne à Kyalami sur MS10 (châssis 02), puis remporte sur MS80 les cinq autres victoires, de Montjuïc (MS80-01) à Monza, où il s'assure le titre.
   sources:
-  - titre: Wikipedia, « Matra MS10 »
-    url: https://en.wikipedia.org/wiki/Matra_MS10
-  - titre: oldracingcars.com, « Matra MS80 »
+  - titre: OldRacingCars, « South African Grand Prix 1969 »
+    url: https://www.oldracingcars.com/f1/results/1969/south-africa/
+  - titre: OldRacingCars, « Matra MS80 car-by-car histories »
     url: https://oldracingcars.com/matra/ms80
-  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1969
+  - titre: OldRacingCars, « British Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/britain/
-  - titre: oldracingcars.com, Grand Prix d'Italie 1969
+  - titre: OldRacingCars, « Italian Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/italy/
 - annee: 1969
   ecurie: mclaren
@@ -968,14 +1150,12 @@ cas:
     gps:
     - Monaco
     - United States of America United States
-  pourquoi: Hill gagne à Monaco (châssis R10) et Rindt à Watkins Glen, tous deux sur 49B ; la 63 à quatre roues motrices n'a jamais gagné.
+  pourquoi: 'Les deux victoires Lotus de 1969 sont acquises sur 49B : Hill à Monaco (châssis R10) et Rindt à Watkins Glen (châssis R6-2).'
   sources:
-  - titre: oldracingcars.com, Grand Prix de Monaco 1969
+  - titre: OldRacingCars, « Monaco Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/monaco/
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
-  - titre: Wikipedia, « Lotus 63 »
-    url: https://en.wikipedia.org/wiki/Lotus_63
+  - titre: OldRacingCars, « United States Grand Prix 1969 »
+    url: https://www.oldracingcars.com/f1/results/1969/usa/
 - annee: 1970
   ecurie: brabham
   equipe: Brabham Ford

@@ -4526,8 +4526,8 @@ pneus:
     fin: 1954
     dominantes: 5
     titres: 4
-    victoires: 0.788095
-    poles: 0.788095
+    victoires: 0.763095
+    poles: 0.763095
     degre: hegemonie
   - pneus: Continental
     debut: 1954
@@ -4679,11 +4679,13 @@ pneus:
   - annee: 1952
     monopole: false
     victoires:
+      Englebert: 0.125
       Firestone: 0.125
-      Pirelli: 0.875
+      Pirelli: 0.75
     poles:
+      Englebert: 0.125
       Firestone: 0.125
-      Pirelli: 0.875
+      Pirelli: 0.75
     champion: Pirelli
   - annee: 1953
     monopole: false
@@ -5467,17 +5469,6 @@ chassis:
   - *id002
   - *id003
   - *id004
-  - voiture: Alfa Romeo 158
-    victoires: 6
-    debut: 1950
-    fin: 1950
-    saisons: 1
-    ecuries:
-    - alfa-romeo-1979
-    meilleure:
-      annee: 1950
-      victoires: 6
-      part: 0.857143
   - *id005
   - *id006
   - *id007
@@ -5493,6 +5484,17 @@ chassis:
     - mclaren
     meilleure:
       annee: 1984
+      victoires: 12
+      part: 0.75
+  - voiture: Williams FW18
+    victoires: 12
+    debut: 1996
+    fin: 1996
+    saisons: 1
+    ecuries:
+    - williams
+    meilleure:
+      annee: 1996
       victoires: 12
       part: 0.75
   plus_durables:
@@ -7104,17 +7106,17 @@ indicateurs:
     modeles: 242
     par_saison: 4.0
     victoires_par_modele: 4.7
-    reconduites: 187
-    part_reconduites: 0.16275
+    reconduites: 191
+    part_reconduites: 0.166232
     decennies:
     - de: 1950
       a: 1959
       gp: 84
       modeles: 26
-      par_saison: 3.3
+      par_saison: 3.4
       victoires_par_modele: 3.2
-      reconduites: 26
-      part_reconduites: 0.309524
+      reconduites: 30
+      part_reconduites: 0.357143
     - de: 1960
       a: 1969
       gp: 100
@@ -7177,10 +7179,10 @@ indicateurs:
       a: 1951
       gp: 15
       modeles: 5
-      par_saison: 2.5
+      par_saison: 3.0
       victoires_par_modele: 3.0
-      reconduites: 0
-      part_reconduites: 0.0
+      reconduites: 4
+      part_reconduites: 0.266667
     - id: '1952'
       de: 1952
       a: 1953
