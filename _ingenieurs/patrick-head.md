@@ -48,7 +48,7 @@ Selon GrandPrix.com, [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-mic
 
 ## Son rôle dans l'écosystème Williams
 
-La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}){% include src.html n="4" %} ; Williams le fait revenir, sous une forme améliorée, en 1992, et c'est Head qui recommence alors à le qualifier d'« actif »{% include src.html n="4" %} ; [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) dirige alors le programme de suspension active{% include src.html n="7" %}, et formula1.com lui attribue l'essentiel du logiciel de la FW15C de 1993{% include src.html n="3" %}. À Head revient l'architecture d'ensemble et la direction{% include src.html n="3,5" %}.
+La [suspension active]({{ site.baseurl }}/glossaire/#suspension-active) illustre ce rôle. Le premier système (FW11B, 1987) est conçu par [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}){% include src.html n="4" %} ; Williams le fait revenir, sous une forme améliorée, en 1992, et c'est Head qui recommence alors à le qualifier d'« actif »{% include src.html n="4" %} ; [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}) dirige alors le programme de suspension active{% include src.html n="7" %}, et formula1.com lui attribue l'essentiel du logiciel de la FW15C de 1993{% include src.html n="3" %}. À Head reviennent l'architecture d'ensemble et la direction{% include src.html n="3,5" %}.
 
 ## Pourquoi le Tier C
 

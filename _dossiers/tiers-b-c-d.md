@@ -79,6 +79,6 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
 - Formula 1, « Ross Brawn reveals his favourite car designs » : <https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo>
 - Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 » : <https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG>
-- Stellantis Heritage, « Lancia D50 » : <https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50>
+- Stellantis Heritage, « Lancia D50 » : <https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50>
 - Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant » : <https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R>
 - Motor Sport, Doug Nye, « Lotus 78: F1's first true ground effect car » (février 2020) : <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>

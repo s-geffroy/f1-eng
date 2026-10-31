@@ -506,8 +506,19 @@ for fr_dir, en_dir in PAIRES:
 for f in os.listdir("_data"):
     if f.endswith(".yml") and os.path.exists(f"_data/en/{f}"):
         couples.append((f"_data/{f}", f"_data/en/{f}"))
+# Traductions relues sans changement nécessaire (correction propre au français : typographie, lien de
+# glossaire) : outils/traductions-relues.yml associe le fichier français au commit relu. Si le français
+# change de nouveau, le commit diffère et l'avertissement revient.
+RELUES = yaml.safe_load(open("outils/traductions-relues.yml", encoding="utf-8")) if os.path.exists("outils/traductions-relues.yml") else {}
+def dernier_commit(chemin):
+    if subprocess.run(["git", "status", "--porcelain", "--", chemin], capture_output=True, text=True).stdout.strip():
+        return None
+    return subprocess.run(["git", "log", "-1", "--format=%H", "--", chemin], capture_output=True, text=True).stdout.strip()
 for fr, en in sorted(couples):
     if date_modif(fr) > date_modif(en) + 60:
+        relu = (RELUES or {}).get(fr)
+        if relu and dernier_commit(fr) and dernier_commit(fr).startswith(str(relu)):
+            continue
         warn(f"traduction à mettre à jour : {fr} a été modifié après {en}")
 
 for a in avertissements:

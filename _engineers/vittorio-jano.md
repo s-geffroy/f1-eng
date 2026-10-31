@@ -30,7 +30,7 @@ sources:
   - titre: "Motor Sport Magazine, “Front to back” (November 2007)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
   - titre: "Stellantis Heritage, “Lancia D50”"
-    url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
+    url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
   - titre: "Andrew Frankel, Goodwood, “Thank Frankel It's Friday: The greatest engine of all” (October 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 consultation: "25 October 2026"

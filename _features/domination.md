@@ -181,10 +181,10 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 
 - **Dunlop supplies every champion from 1958 to 1965**, accompanying the rear-engine revolution, from Cooper to Lotus. But it is alone on track from 1961 to 1963: those three out-of-contention seasons split the run into a hegemony from 1958 to 1960 (three titles, 81% of wins) and a period of dominance in 1964-1965 (two titles, 95%).
 - **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons alone on track (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track.
-- **Tyre wars usually pick a winning side** rather than a balance: Michelin from 1979 to 1984, against Goodyear, then Bridgestone from 2001 to 2006, against Michelin, with Ferrari's titles. Only the Firestone-Goodyear contest, from 1966 to 1972, stays shared, in short periods of dominance.
+- **Tyre wars are fought by two**: the periods overlap, because both makes often pass the threshold in the same season. From 1979 to 1984, Michelin (five dominant seasons, three titles, 59% of wins) takes on Goodyear in the middle of its hegemony (1977-1986). From 2001 to 2006, Bridgestone (four titles, Ferrari's) takes on Michelin, dominant from 2003 to 2006 (two titles, Renault's). The Firestone-Goodyear contest, from 1966 to 1972, produces only short periods of dominance.
 - **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
 
-Winners and pole-sitters are those of formula1.com. For the 1955 Argentine pole, formula1.com gives Lancia, but the tyre research showed that González took it in a Ferrari 625 on Englebert tyres: the manufacturer recorded is Englebert, and the discrepancy is flagged here.
+Winners and pole-sitters are those of formula1.com. For the 1955 Argentine pole, formula1.com gives Lancia, but the tyre research showed that González took it in a Ferrari 625 on Englebert tyres: the results record credits it to Ferrari, and the discrepancy is flagged here.
 
 ## Beyond wins: poles, podiums and one-twos {#mesures}
 
@@ -343,7 +343,7 @@ New regulations reset everyone to zero. Whoever answers them best starts with a 
 - **Williams in 1994**, with the [ban on electronic aids]({{ site.baseurl }}/en/timeline/#c-fin-aides-electroniques): it goes from 63% to 49% of wins, but its hegemony lasts until 1997.
 - **Red Bull in 2012**, with the [restrictions on exhausts]({{ site.baseurl }}/en/timeline/#c-echappements-2012): it goes from 55% to 40%, but still dominates until 2013.
 
-What makes a domination last does not, then, come down to a single part of the car.
+What makes dominance last does not, then, come down to a single part of the car.
 
 {% include domination.html quoi="chaines" ferme="oui" %}
 

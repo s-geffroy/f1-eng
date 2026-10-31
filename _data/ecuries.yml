@@ -167,7 +167,7 @@ motoristes:
     periode: 1951–1977
     sources:
     - titre: GrandPrix.com, encyclopédie, « BRM (British Racing Motors) »
-      url: https://www.grandprix.com/engines/brm-british-racing-motors-2.html
+      url: https://www.grandprix.com/gpe/eng-brm.html
 - id: castellotti
   nom: Castellotti
 - id: climax
@@ -3120,7 +3120,7 @@ lignees:
     periode: 1954–1955
     sources:
     - titre: Stellantis Heritage, « Lancia D50 »
-      url: https://stellantisheritage.com/en-uk/heritage/stories/lancia-d50
+      url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
   souffleries:
   - lieu: Turin (Italie), soufflerie de l'École polytechnique
     lieux:
@@ -3131,7 +3131,7 @@ lignees:
     statut: loue
     sources:
     - titre: Stellantis Heritage, « Lancia D50 »
-      url: https://stellantisheritage.com/en-uk/heritage/stories/lancia-d50
+      url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
 - id: emeryson
   nom: Emeryson et Scirocco
   segments:
@@ -5148,7 +5148,7 @@ lignees:
       pourquoi: Sauvée de l'administration judiciaire début 2015 avec l'appui de Stephen Fitzpatrick (Autosport), l'équipe court en 2015 sous le nom Manor Marussia, puis confirme qu'elle s'appellera Manor Racing en 2016 (ESPN).
       sources:
       - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
-        url: https://www.espn.com/f1/story/_/id/14608552/manor-reveals-new-name-logo
+        url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
       - titre: Autosport, Jonathan Noble et Matt Beer, « Manor worth saving, says new investor Stephen Fitzpatrick » (mars 2015)
         url: https://www.autosport.com/f1/news/manor-worth-saving-says-new-investor-stephen-fitzpatrick-5016692/5016692/
   rangee: 15

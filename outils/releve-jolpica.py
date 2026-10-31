@@ -9,7 +9,7 @@ Usage : python3 -I outils/releve-jolpica.py <dossier-cache>   (après outils/rel
 Le dossier-cache reçoit les réponses de l'API (<annee>-<requete>.json) ; une réponse déjà présente
 n'est pas redemandée. Il doit être hors du dépôt. L'API limite le débit : une requête par seconde
 et demie au plus."""
-import os, sys, json, time, unicodedata, urllib.request
+import os, sys, json, time, unicodedata, urllib.request, urllib.error
 import yaml
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,17 +22,38 @@ def telecharger(cache, annee, req):
     chemin = os.path.join(cache, f"{annee}-{req}.json")
     if not os.path.exists(chemin):
         url = f"{API}/{annee}/{req.replace('-', '/')}{'/results' if req.startswith('grid') else ''}.json?limit=100"
-        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "f1-eng"}), timeout=60) as r:
-            open(chemin, "wb").write(r.read())
+        for essai in range(6):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "f1-eng"}), timeout=60) as r:
+                    open(chemin, "wb").write(r.read())
+                break
+            except urllib.error.HTTPError as e:
+                # 429 : l'API demande de ralentir ; on attend de plus en plus longtemps avant de réessayer.
+                if e.code != 429 or essai == 5:
+                    raise
+                time.sleep(30 * (essai + 1))
         time.sleep(1.5)
     return json.load(open(chemin, encoding="utf-8"))["MRData"]["RaceTable"]["Races"]
 
-def cle(nom):
+def cle(nom, homonymes=frozenset()):
     """Nom comparable : sans accents, sans casse, réduit au nom de famille (« Nino Farina » et
-    « Giuseppe Farina » désignent le même pilote ; les prénoms varient d'une source à l'autre)."""
+    « Giuseppe Farina » désignent le même pilote ; les prénoms varient d'une source à l'autre).
+    Nom de famille porté par deux pilotes de la saison (Graham et Damon Hill, Michael et Ralf
+    Schumacher) : l'initiale du prénom est ajoutée, pour qu'une inversion soit vue."""
     n = unicodedata.normalize("NFKD", nom).encode("ascii", "ignore").decode().lower()
     mots = [m for m in n.replace("-", " ").split() if m not in ("jr.", "jr", "sr.", "sr")]
-    return mots[-1]
+    return f"{mots[-1]} {mots[0][0]}" if mots[-1] in homonymes and len(mots) > 1 else mots[-1]
+
+def homonymes(saison):
+    """Noms de famille portés par plusieurs pilotes de la saison (classement et courses)."""
+    noms = {p["pilote"] for p in saison.get("pilotes", [])}
+    for c in saison["courses"]:
+        noms |= {c["vainqueur"], c.get("covainqueur") or c["vainqueur"]} | {p["pilote"] for p in c.get("podium", [])}
+        if c.get("pole"): noms.add(c["pole"]["pilote"])
+    par_nom = {}
+    for n in noms:
+        par_nom.setdefault(cle(n), set()).add(n)
+    return frozenset(k for k, v in par_nom.items() if len(v) > 1)
 
 def main():
     if len(sys.argv) != 2:
@@ -46,6 +67,7 @@ def main():
         a = s["annee"]
         j = {c: {int(x["round"]): x for x in telecharger(cache, a, req)} for req, c in REQUETES.items()}
         manches = sorted(j["vainqueur"])
+        h = homonymes(s)
         if len(manches) != s["gp"]:
             # Calendriers différents : la correspondance par ordre ne vaudrait rien.
             saisons_ecartees.append({"annee": a, "formula1": s["gp"], "jolpica": len(manches)})
@@ -60,14 +82,15 @@ def main():
                 noms_j = [f'{x["Driver"]["givenName"]} {x["Driver"]["familyName"]}' for x in jo["Results"]] if jo else []
                 if not f1[c] or not noms_j:
                     bilan[c]["absents"] += 1
-                elif {cle(n) for n in f1[c]} & {cle(n) for n in noms_j}:
+                elif {cle(n, h) for n in f1[c]} & {cle(n, h) for n in noms_j}:
                     bilan[c]["concordants"] += 1
                 else:
                     bilan[c]["desaccords"] += 1
                     desaccords.append({"annee": a, "gp": course["gp"], "champ": c, "formula1": " / ".join(f1[c]),
                                        "jolpica": " / ".join(noms_j), "url": course["url"]})
     entete = ("# Croisement formula1.com / Jolpica (successeur d'Ergast), calculé par outils/releve-jolpica.py :\n"
-              "# ne pas modifier à la main. Comparaison par nom de famille, sans accents ; une course comptée\n"
+              "# ne pas modifier à la main. Comparaison par nom de famille, sans accents (avec l'initiale du prénom\n"
+              "# quand deux pilotes de la saison portent le même nom) ; une course comptée\n"
               "# concordante si un pilote est commun aux deux sources (équipages partagés). absents = champ manquant\n"
               "# dans l'une des sources. Un désaccord est signalé, jamais corrigé ici.\n")
     sortie = {"source": API, "bilan": bilan, "saisons_ecartees": saisons_ecartees, "desaccords": desaccords}

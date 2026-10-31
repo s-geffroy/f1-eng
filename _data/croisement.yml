@@ -1,5 +1,6 @@
 # Croisement formula1.com / Jolpica (successeur d'Ergast), calculé par outils/releve-jolpica.py :
-# ne pas modifier à la main. Comparaison par nom de famille, sans accents ; une course comptée
+# ne pas modifier à la main. Comparaison par nom de famille, sans accents (avec l'initiale du prénom
+# quand deux pilotes de la saison portent le même nom) ; une course comptée
 # concordante si un pilote est commun aux deux sources (équipages partagés). absents = champ manquant
 # dans l'une des sources. Un désaccord est signalé, jamais corrigé ici.
 source: https://api.jolpi.ca/ergast/f1

@@ -1,7 +1,7 @@
 ---
 title: "Brabham BT52"
 nom_tri: "brabham bt52"
-accroche: "Six weeks for an arrow, and the first turbo title."
+accroche: "An arrow designed in a rush, and the first turbo title."
 description: "Brabham BT52 (1983): designed in a rush after ground effect underbodies were banned, it gave Nelson Piquet the first world title for a turbo engine."
 annee: 1983
 equipe: "Brabham"

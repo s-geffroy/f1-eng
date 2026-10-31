@@ -8083,7 +8083,7 @@ editeurs:
     - url: /ecuries/
       titre: 'Écuries : Bristol'
   - titre: GrandPrix.com, encyclopédie, « BRM (British Racing Motors) »
-    url: https://www.grandprix.com/engines/brm-british-racing-motors-2.html
+    url: https://www.grandprix.com/gpe/eng-brm.html
     pages:
     - url: /ecuries/
       titre: 'Écuries : BRM'
@@ -11194,6 +11194,36 @@ editeurs:
       titre: Aldridge, Geoff
     - url: /ingenieurs/gustav-brunner/
       titre: Brunner, Gustav
+- nom: Internet Archive
+  n: 5
+  sources:
+  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
+    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
+    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
+    url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Virgin, Marussia et Manor'
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
+    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
+    pages:
+    - url: /glossaire/#nid-d-abeille
+      titre: 'Glossaire : Nid d''abeille'
+    - url: /voitures/mclaren-mp4-24/
+      titre: McLaren MP4-24
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
+    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
+    pages:
+    - url: /voitures/mclaren-mp4-25/
+      titre: McLaren MP4-25
 - nom: Lotus Cars
   n: 5
   sources:
@@ -11230,31 +11260,6 @@ editeurs:
       titre: 'Glossaire : Monocoque'
     - url: /voitures/lotus-25/
       titre: Lotus 25
-- nom: Internet Archive
-  n: 4
-  sources:
-  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
-    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
-    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
-    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
-    pages:
-    - url: /glossaire/#nid-d-abeille
-      titre: 'Glossaire : Nid d''abeille'
-    - url: /voitures/mclaren-mp4-24/
-      titre: McLaren MP4-24
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
-    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
-    pages:
-    - url: /voitures/mclaren-mp4-25/
-      titre: McLaren MP4-25
 - nom: auto123.com
   n: 3
   sources:
@@ -11429,7 +11434,7 @@ editeurs:
       titre: Williams FW14B
 - nom: Autres éditeurs
   autres: true
-  n: 90
+  n: 89
   sources:
   - titre: 24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)
     url: https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378
@@ -11521,7 +11526,7 @@ editeurs:
     - url: /ingenieurs/john-crosthwaite/
       titre: Crosthwaite, John
   - titre: BMW Group, « BMW to exit Formula One at end of 2009 season » (juillet 2009)
-    url: https://www.press.bmwgroup.com/global/article/detail/T0037934EN/bmw-to-exit-formula-one-at-end-of-2009-season?language=en
+    url: https://newsroom.bmwgroup.com/global/bmw-to-exit-formula-one-at-end-of-2009-season_20260721133904047
     pages:
     - url: /chronologie/#c-crise-financiere-2008
       titre: 'Chronologie : 2008, La crise financière chasse trois constructeurs'
@@ -11589,11 +11594,6 @@ editeurs:
     pages:
     - url: /ingenieurs/andy-cowell/
       titre: Cowell, Andy
-  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
-    url: https://www.espn.com/f1/story/_/id/14608552/manor-reveals-new-name-logo
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Virgin, Marussia et Manor'
   - titre: Ferrari N.V., « Annual Report 2018 » (2019)
     url: https://cdn.ferrari.com/cms/network/media/pdf/2018-Annual-Report.pdf
     pages:
@@ -11840,7 +11840,7 @@ editeurs:
     - url: /ingenieurs/martin-ogilvie/
       titre: Ogilvie, Martin
   - titre: Stellantis Heritage, « Lancia D50 »
-    url: https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50
+    url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
     pages:
     - url: /ingenieurs/vittorio-jano/
       titre: Jano, Vittorio

@@ -1,7 +1,7 @@
 ---
 title: "Brabham BT52"
 nom_tri: "brabham bt52"
-accroche: "Six semaines pour une flèche, et le premier titre turbo."
+accroche: "Une flèche conçue dans l'urgence, et le premier titre turbo."
 description: "Brabham BT52 (1983) : conçue dans l'urgence après l'interdiction des fonds à effet de sol, elle donne à Nelson Piquet le premier titre mondial d'un moteur turbo."
 annee: 1983
 equipe: "Brabham"

@@ -2,7 +2,7 @@
 title: "Lotus 78"
 nom_tri: "lotus 78"
 accroche: "The first F1 car to stick to the track through its underside."
-description: "Lotus 78 (1977): venturi-shaped sidepods turn the car into an inverted wing; the first ground effect F1 car according to Motor Sport."
+description: "Lotus 78 (1977): venturi-shaped sidepods turn the car into an inverted wing; the first ground-effect F1 car according to Motor Sport."
 annee: 1977
 equipe: "Team Lotus"
 moteur: "Cosworth, 3-litre V8"

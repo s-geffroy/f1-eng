@@ -181,10 +181,10 @@ Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries,
 
 - **Dunlop équipe tous les champions de 1958 à 1965**, et accompagne la révolution du moteur arrière, de Cooper à Lotus. Mais il est seul en piste de 1961 à 1963 : ces trois saisons hors concours coupent la série en une hégémonie de 1958 à 1960 (trois titres, 81 % des victoires) et une domination en 1964-1965 (deux titres, 95 %).
 - **Goodyear domine le plus longtemps** : une hégémonie de 1971 à 1974 (trois titres), puis, après deux saisons seul en piste (1975-1976), une autre de 1977 à 1986 (sept titres), la plus longue de toutes, avant de rester seul en piste.
-- **Les guerres de pneus désignent le plus souvent un camp gagnant**, plutôt qu'un équilibre : Michelin de 1979 à 1984, face à Goodyear, puis Bridgestone de 2001 à 2006, face à Michelin, avec les titres de Ferrari. Seule la lutte entre Firestone et Goodyear, de 1966 à 1972, reste partagée, en dominations courtes.
+- **Les guerres de pneus se jouent à deux** : les périodes se chevauchent, car les deux marques dépassent souvent le seuil la même saison. De 1979 à 1984, Michelin (cinq saisons dominantes, trois titres, 59 % des victoires) affronte Goodyear en pleine hégémonie (1977-1986). De 2001 à 2006, Bridgestone (quatre titres, ceux de Ferrari) affronte Michelin, dominant de 2003 à 2006 (deux titres, ceux de Renault). La lutte entre Firestone et Goodyear, de 1966 à 1972, ne donne que des dominations courtes.
 - **Depuis 2007, le pneu ne départage plus personne** : le fournisseur unique est devenu la règle.
 
-Les vainqueurs et les polemen sont ceux de formula1.com. Pour la pole d'Argentine 1955, formula1.com indique Lancia, mais la recherche sur les pneus a montré que González l'a signée sur une Ferrari 625 chaussée d'Englebert : le manufacturier retenu est Englebert, et l'écart est signalé ici.
+Les vainqueurs et les polemen sont ceux de formula1.com. Pour la pole d'Argentine 1955, formula1.com indique Lancia, mais la recherche sur les pneus a montré que González l'a signée sur une Ferrari 625 chaussée d'Englebert : le relevé la rend à Ferrari, et l'écart est signalé ici.
 
 ## Au-delà des victoires : poles, podiums et doublés {#mesures}
 

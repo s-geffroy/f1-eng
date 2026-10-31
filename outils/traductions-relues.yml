@@ -1,0 +1,11 @@
+# Fichier francais -> commit relu : la traduction anglaise a ete verifiee pour ce commit et n'avait rien a changer
+# (lu par outils/verifier.py ; un nouveau commit du fichier francais relance l'avertissement).
+_ingenieurs/bernard-dudot.md: "edcc00f"
+_ingenieurs/francois-castaing.md: "edcc00f"
+_ingenieurs/jean-pierre-boudy.md: "edcc00f"
+_ingenieurs/jean-terramorsi.md: "edcc00f"
+_ingenieurs/owen-maddock.md: "edcc00f"
+_voitures/brabham-bt46b.md: "edcc00f"
+_voitures/brabham-bt52.md: "edcc00f"
+_voitures/lotus-78.md: "edcc00f"
+_voitures/lotus-79.md: "edcc00f"

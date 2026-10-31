@@ -38,7 +38,7 @@ A major place in technical history, with less exclusive causation, less general 
 
 | Rank | Tier | Engineer | Field | Reason for ranking | Limit |
 |---:|:---:|---|---|---|---|
-| 11 | C | [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) | Systems engineering | Architect of Williams' technical organisation over several generations | A contribution of organisation more than a single breakthrough |
+| 11 | C | [Patrick Head]({{ site.baseurl }}{% link _engineers/patrick-head.md %}) | Systems engineering | Architect of Williams's technical organisation over several generations | A contribution of organisation more than a single breakthrough |
 | 12 | C | [Ross Brawn]({{ site.baseurl }}{% link _engineers/ross-brawn.md %}) | Method | Early development, integration of design/operations/strategy | A revolution of process, barely visible on the object |
 | 13 | C | [Andy Cowell]({{ site.baseurl }}{% link _engineers/andy-cowell.md %}) | Power unit | Systems execution of Mercedes' 2014 hybrid power unit | Hybridisation imposed by the regulations |
 | 14 | C | [Jean-Claude Migeot]({{ site.baseurl }}{% link _engineers/jean-claude-migeot.md %}) | Aerodynamics | Raised nose of the Tyrrell 019 and feeding air to the floor | Principle quickly absorbed by general evolution |
@@ -78,6 +78,6 @@ Consulted on 9 August 2026, rechecked on 26 October 2026. Facts taken from the e
 - Formula 1, "Why the Williams FW15C remains F1's technological Tour de Force": <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
 - Formula 1, "Ross Brawn reveals his favourite car designs": <https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo>
 - Formula 1, "TECH TUESDAY: France flashback – how F1 looked in 1990": <https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG>
-- Stellantis Heritage, "Lancia D50": <https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50>
+- Stellantis Heritage, "Lancia D50": <https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50>
 - Formula 1, "Why Ferrari's technical reshuffle – and nod to the past – is so significant": <https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R>
 - Motor Sport, Doug Nye, "Lotus 78: F1's first true ground effect car" (February 2020): <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>

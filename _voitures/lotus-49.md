@@ -22,7 +22,7 @@ sources:
   - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
   - titre: "Stellantis Heritage, « Lancia D50 »"
-    url: "https://www.stellantisheritage.com/en-uk/heritage/stories/lancia-d50"
+    url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
 photo:
   fichier: "/assets/voitures/lotus-49.jpg"
   legende: "Jim Clark sur la Lotus 49 aux essais du Grand Prix des Pays-Bas, à Zandvoort, le 2 juin 1967 : les débuts de la voiture."
