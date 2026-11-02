@@ -1004,8 +1004,8 @@ technologies:
   - de: 1980
     a: 1982
     valeur: oui
-    pourquoi: 'Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes coulissantes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle, et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Les voitures gagnantes sont, pour la plupart, décrites comme des voitures à effet de sol : la FW07 (Doug Nye) ; la RE20, dont les « side-skirts » sont améliorées (Jenkinson, janvier 1980) ; la RE30, dont la suspension raidie doit encaisser les « ground-effect loads » (Mark Hughes) ; la BT49 (Frankel, Keilloh) ; la JS11 (Keilloh) ; la 126CK, dont les jupes « would not seal » selon Forghieri ; la 126C2 (« Ferrari were no exception ») ; la Lotus 91, « a more conventional ground effect design » (Classic Team Lotus) ; la Tyrrell 011 (OldRacingCars) ; la FW08, dernière championne « first-generation ground-effect » (Autosport) ; et la MP4/1 (Barnard). Fin 1982, Jenkinson écrit qu''aucun concepteur n''acceptait de perdre son « ground
-      effect » ; pour la Brabham BT50 et la Ligier JS17, que les pages consultées ne décrivent pas explicitement ainsi, le « oui » est une déduction.'
+    pourquoi: 'Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes coulissantes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle, et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Les voitures gagnantes sont, pour la plupart, décrites comme des voitures à effet de sol : la FW07 (Doug Nye) ; la RE20, dont les « side-skirts » sont améliorées (Jenkinson, janvier 1980) ; la RE30, dont la suspension raidie doit encaisser les « ground-effect loads » (Mark Hughes) ; la BT49 (Frankel, Keilloh) ; la JS11 (Keilloh) ; la 126CK, dont les jupes « would not seal » selon Forghieri ; la 126C2 (« Ferrari were no exception ») ; la Lotus 91, « a more conventional ground effect design » (Classic Team Lotus) ; la Tyrrell 011 (OldRacingCars) ; la FW08, dernière championne « first-generation ground-effect » (Autosport) ; et la MP4/1 (Barnard). Fin 1982, Jenkinson écrit qu''aucun concepteur n''acceptait de perdre son
+      « ground effect » ; pour la Brabham BT50 et la Ligier JS17, que les pages consultées ne décrivent pas explicitement ainsi, le « oui » est une déduction.'
     sources:
     - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
@@ -2427,14 +2427,16 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B190
     valeur: non
-    pourquoi: 'La B190 a une suspension conventionnelle à doubles triangles et poussoirs. Benetton n''utilise pas de suspension active en course à cette époque : sa voiture suivante, la B191, conçue pour en recevoir une, court toute la saison 1991 avec une suspension classique. Benetton n''adopte la suspension active qu''en 1993.'
+    pourquoi: 'La B190 a une suspension conventionnelle à doubles triangles, avec ressorts et amortisseurs intérieurs actionnés par poussoirs : Rory Byrne est passé des tirants aux poussoirs sur cette voiture. Benetton n''utilise pas de suspension active en course à cette époque : faute de temps, sa voiture suivante, la B191, pourtant conçue pour en recevoir une, court toute la saison 1991 avec une suspension classique. Benetton n''adopte la suspension active qu''en 1993.'
     sources:
+    - titre: Autosport (GP Racing), Stuart Codling, « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
+      url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
+    - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
       url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
     - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
       url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
-    - titre: Wikipedia, « Benetton B190 »
-      url: https://en.wikipedia.org/wiki/Benetton_B190
   - annee: 1990
     ecurie: ferrari
     equipe: Ferrari
@@ -2606,14 +2608,20 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: 'La B189 a une boîte manuelle transversale Benetton à 6 rapports. En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte. Benetton n''en a toujours pas en course en 1991 : la B191, conçue pour en recevoir une, court toute la saison avec une boîte manuelle. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle.'
+    pourquoi: 'En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte, et toute l''allée des stands comprend alors qu''il faudra la copier. Les voitures de Benetton restent pourtant en boîte manuelle les saisons suivantes : la B190 de 1990 a une boîte manuelle à 6 rapports, et la B191, conçue pour recevoir une boîte semi-automatique, court toute la saison 1991 avec une boîte manuelle faute de temps. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle. La B189 a une boîte manuelle transversale Benetton à 6 rapports.'
     sources:
+    - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
+      url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
+    - titre: 'Motor Sport, « The Motor Sport Interview: John Barnard » (février 2025)'
+      url: https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/
     - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
     - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
       url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
-    - titre: 'Motor Sport, « The Motor Sport Interview: John Barnard » (février 2025)'
-      url: https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/
+    - titre: Autosport (GP Racing), Stuart Codling, « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
+      url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
+    - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
       url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
     - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
@@ -2660,16 +2668,18 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B190
     valeur: non
-    pourquoi: La B190 a une boîte manuelle transversale Benetton à 6 rapports. Sa remplaçante, la B191, pourtant conçue pour recevoir une boîte semi-automatique, court encore toute la saison 1991 avec une boîte manuelle à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle, et la boîte semi-automatique n'arrive qu'avec la B193.
+    pourquoi: La B190 a une boîte manuelle à 6 rapports. Sa remplaçante, la B191, pourtant conçue pour recevoir une boîte semi-automatique, n'en est pas équipée faute de temps et court toute la saison 1991 avec une nouvelle boîte manuelle transversale à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle, et la boîte semi-automatique n'arrive qu'avec la voiture remaniée de 1993.
     sources:
+    - titre: Autosport (GP Racing), Stuart Codling, « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
+      url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
+    - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
       url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
     - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
       url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
     - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
       url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
-    - titre: Wikipedia, « Benetton B190 »
-      url: https://en.wikipedia.org/wiki/Benetton_B190
   - annee: 1990
     ecurie: ferrari
     equipe: Ferrari
@@ -3047,14 +3057,14 @@ technologies:
     equipe: Mercedes
     voiture: Mercedes F1 W03
     valeur: oui
-    pourquoi: Formula1.com confirme que la F1 W03 est la voiture de la victoire de Rosberg en Chine. Sa fiche technique indique un V8 limité à 18 000 tr/min « avec KERS » ; Ultimatecarpage décrit la W03 comme une « KERS Hybrid », avec un moteur électrique de 60 kW.
+    pourquoi: 'Formula1.com confirme que la F1 W03 est la voiture de la victoire de Rosberg en Chine. Dans son analyse technique du lancement, en février 2012, Craig Scarborough écrit pour Autosport que la W03 porte « naturellement » le moteur et le KERS développés par Mercedes AMG à Brixworth. En septembre 2012, avant le Grand Prix de Belgique, les mécaniciens ont dû changer en urgence le pack KERS de la W03 de Schumacher : la voiture en était donc équipée en course.'
     sources:
     - titre: Formula1.com, « Mercedes – Year by Year »
       url: https://www.formula1.com/en/information/mercedes-year-by-year.45gq1OShE3U1H5iEJSVtNd
-    - titre: Ultimatecarpage.com, « 2012 Mercedes-Benz W03 Specifications »
-      url: https://www.ultimatecarpage.com/spec/5122/Mercedes-Benz-W03.html
-    - titre: Wikipedia, « Mercedes F1 W03 »
-      url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
+    - titre: 'Autosport, Craig Scarborough, « Tech notes: Mercedes'' forward thinking » (février 2012)'
+      url: https://www.autosport.com/f1/news/tech-notes-mercedes-forward-thinking-5098344/5098344/
+    - titre: Nextgen-Auto, « Michael Schumacher's Mercedes suffers KERS pack failure » (septembre 2012)
+      url: https://motorsport.nextgen-auto.com/en/formula-1/Michael-Schumacher-s-Mercedes-suffers-KERS-pack-failure,47867.html
   - annee: 2012
     ecurie: red-bull
     equipe: Red Bull Racing Renault

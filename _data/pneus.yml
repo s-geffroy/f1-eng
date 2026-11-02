@@ -194,18 +194,24 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli revendique le titre 1953 d'Ascari sur Ferrari, que la Fondazione Pirelli compte comme le quatrième titre mondial consécutif de ses pneus, et range la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
+  pourquoi: Dès août 1953, le journal interne de Pirelli, Fatti e Notizie, proclame le titre mondial « Ascari – Ferrari – Pirelli » ; dans le bilan de la saison publié par la Rivista Pirelli, Nino Nutrizio écrit que Pirelli « a triomphé partout, avec chaque voiture, sur chaque circuit ». Le contrat d'Ascari pour 1953, décrit par Motor Sport, cite Pirelli parmi les commanditaires de la Scuderia, et la Fondazione Pirelli raconte que le Stelvio Corsa a été conçu pour la Ferrari 500 de cette saison. Pirelli compte ce titre comme le quatrième titre mondial consécutif de ses pneus et range la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; Nigel Roebuck rappelle que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955.
   sources:
+  - titre: Pirelli, Fatti e Notizie, « Campioni del mondo » (août 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1953_08_FATTI_E_NOTIZIE.html#page/2/mode/2up
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
+  - titre: 'Motor Sport, « Relics of a racing great: personal treasures of Alberto Ascari » (juillet 2012)'
+    url: https://www.motorsportmagazine.com/archive/article/july-2012/103/relics-of-a-racing-great-personal-treasures-of-alberto-ascari/
+  - titre: Fondazione Pirelli, « The Birth of a Legend » (août 2023)
+    url: https://www.fondazionepirelli.org/en/activities/the-birth-of-a-legend/
+  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
+    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
   - titre: Pirelli, « 110 years from race to road »
     url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
-  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
-    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
   - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
     url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
-  - titre: Wikipedia, « 1953 Formula One season »
-    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
 - annee: 1953
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -218,17 +224,21 @@ cas:
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: Dans l'historique de son partenariat avec Maserati, Pirelli rattache au Stelvio la victoire de Fangio au Grand Prix d'Italie 1953, à partir de laquelle « l'étoile de Fangio commence à briller ». Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1953), et le tableau des résultats donne Pirelli à ses poles.
+  pourquoi: Dans son bilan de la saison 1953, la Rivista Pirelli présente Fangio comme « vainqueur à Monza sur Maserati-Pirelli », et Nino Nutrizio y écrit que Pirelli « a triomphé partout, avec chaque voiture, sur chaque circuit ». Pirelli rattache au Stelvio la victoire de Fangio au Grand Prix d'Italia 1953, à partir de laquelle « l'étoile de Fangio commence à briller ». Pour les poles, le site de la Fondazione Pirelli consacré aux 500 Grands Prix de Pirelli crédite Maserati de dix pole positions sur pneus Pirelli, soit l'ensemble de ses poles en championnat du monde, dont celles de Fangio à Spa et à Bremgarten en 1953.
   sources:
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/13/mode/2up
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953), suite
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
+  - titre: Fondazione Pirelli, « Pirelli's 500 GPs in the F1 World Championship » (2026)
+    url: https://pirelli500gp.fondazionepirelli.org/en/home.html
   - titre: 'Pirelli, communiqué, « Pirelli and Maserati: a century-long partnership »'
     url: https://press.pirelli.com/pirelli-and-maserati-a-century-long-partnership/
-  - titre: Wikipedia, « 1953 Formula One season »
-    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
 - annee: 1954
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone 1954 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
+  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
   sources:
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
@@ -832,7 +842,7 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Firestone
-  pourquoi: 'La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 : Motor Sport range la Lotus de Clark, quatrième à Brands Hatch, sous la bannière Firestone, et rapporte qu''au Nürburgring les Lotus, montées en Dunlop le matin de la course, repassent en Firestone juste avant le départ. Au Mexique, les trois Lotus sont équipées des derniers Firestone sans chambre. Pour la pole de Clark à Monaco, les pneus ne sont donnés que par le tableau de la saison 1966.'
+  pourquoi: La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966. À Brands Hatch, Motor Sport place Clark en deuxième ligne « with Firestone tyres on his Lotus » ; au Nürburgring, les Lotus, montées en Dunlop le matin de la course, repassent en Firestone juste avant le départ. Au Mexique, les trois Lotus sont équipées des derniers Firestone sans chambre. Pour la pole de Clark à Monaco, les pneus ne sont donnés que par le tableau de la saison 1966.
   sources:
   - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
     url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
@@ -858,7 +868,7 @@ cas:
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Firestone
-  pourquoi: 'La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud. À Spa, en juin, Gregor Grant (Autosport) note que seules les Brabham et l''Eagle sont en Goodyear, avec une BRM en Dunlop, « the remainder favouring Firestone » : les Cooper sont donc en Firestone. Pour Kyalami, en janvier, aucune source sérieuse ne nomme leurs pneus.'
+  pourquoi: 'La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud. À Spa, en juin, Gregor Grant (Autosport) note que seules les Brabham et l''Eagle sont en Goodyear, avec une BRM en Dunlop, « the remainder favouring Firestone » : les Cooper sont donc en Firestone. Pour Kyalami, en janvier, aucune source sérieuse ne nomme leurs pneus : seuls le tableau de la saison 1967 et la page de la Cooper T81 donnent Firestone.'
   sources:
   - titre: 'Autosport, Gregor Grant, « Grand Prix Gold: Belgium 1967 » (compte rendu de 1967, republié en août 2010)'
     url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
@@ -1798,8 +1808,10 @@ cas:
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: La fiche technique d'Autosport donne à la Tyrrell 011 des pneus Avon puis Goodyear. En 1982, Avon ne fournit plus qu'ATS, Theodore, Ensign et March avant de se retirer (Motor Sport, octobre 1982), et Michelin équipe McLaren et les équipes françaises (Atlas F1). Le tableau des engagés 1982 donne Tyrrell Ford en Goodyear sur toute la saison. Les huit victoires Michelin de 1982 étant toutes de Renault ou de McLaren, la victoire d'Alboreto à Las Vegas n'est pas une victoire Michelin.
+  pourquoi: Au début de la saison 1982, Denis Jenkinson range Tyrrell parmi les équipes suivies par Goodyear, avec Williams, Lotus, Brabham et Ferrari (Motor Sport, avril 1982). La fiche technique d'Autosport donne d'ailleurs à la Tyrrell 011 des pneus Avon, puis Goodyear. En 1982, Avon ne fournit plus qu'ATS, Theodore, Ensign et March avant de se retirer (Motor Sport, octobre 1982). Michelin équipe McLaren et les équipes françaises (Atlas F1). Les huit victoires Michelin de 1982 étant toutes de Renault ou de McLaren, la victoire d'Alboreto à Las Vegas n'est pas une victoire Michelin.
   sources:
+  - titre: Motor Sport, Denis Jenkinson, « Behind the Grand Prix scene » (avril 1982)
+    url: https://www.motorsportmagazine.com/archive/article/april-1982/102/behind-grand-prix-scene/
   - titre: Autosport, GP Racing, « The last hurrah of two F1 titans » (avril 2020), fiche technique de la Tyrrell 011
     url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
   - titre: Motor Sport, « Avon Racing Tyres » (octobre 1982)
@@ -1808,8 +1820,6 @@ cas:
     url: http://atlasf1.autosport.com/2000/nov15/okeefe.html
   - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
 - annee: 1982
   ecurie: williams
   equipe: Williams Ford

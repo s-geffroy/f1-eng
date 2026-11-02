@@ -1,10 +1,10 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2302
-editeurs_total: 130
-citations: 3706
+total: 2306
+editeurs_total: 132
+citations: 3710
 editeurs:
 - nom: Motor Sport Magazine
-  n: 550
+  n: 552
   sources:
   - titre: Adam Cooper, Motor Sport Magazine, « Paul Morgan » (juillet 2001)
     url: https://www.motorsportmagazine.com/archive/article/july-2001/6/paul-morgan/
@@ -1205,7 +1205,7 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Team Lotus'
-  - titre: Motor Sport, « Formula One – New Cars » (mai 1991)
+  - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
     url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     pages:
     - url: /dossiers/domination/
@@ -1315,6 +1315,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Brabham'
+  - titre: 'Motor Sport, « Relics of a racing great: personal treasures of Alberto Ascari » (juillet 2012)'
+    url: https://www.motorsportmagazine.com/archive/article/july-2012/103/relics-of-a-racing-great-personal-treasures-of-alberto-ascari/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, « Ricardo Zunino » (base de données, non datée)
     url: https://www.motorsportmagazine.com/database/drivers/ricardo-zunino
     pages:
@@ -2674,6 +2679,11 @@ editeurs:
     erreurs:
     - e003
     - e075
+  - titre: Motor Sport, Denis Jenkinson, « Behind the Grand Prix scene » (avril 1982)
+    url: https://www.motorsportmagazine.com/archive/article/april-1982/102/behind-grand-prix-scene/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, Denis Jenkinson, « Canadian Grand Prix » (juillet 1982)
     url: https://www.motorsportmagazine.com/archive/article/july-1982/48/canadian-grand-prix-14/
     pages:
@@ -10194,7 +10204,7 @@ editeurs:
     - url: /glossaire/#suspension-active
       titre: 'Glossaire : Suspension active'
 - nom: Autosport
-  n: 176
+  n: 177
   sources:
   - titre: Adam Cooper, Autosport, « Gustav Brunner Q&A » (juillet 2001)
     url: https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/
@@ -10289,6 +10299,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Suspension active'
     - url: /ecuries/
@@ -10572,6 +10584,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
+  - titre: 'Autosport, Craig Scarborough, « Tech notes: Mercedes'' forward thinking » (février 2012)'
+    url: https://www.autosport.com/f1/news/tech-notes-mercedes-forward-thinking-5098344/5098344/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
   - titre: 'Autosport, Craig Scarborough, « Technical Review: Bahrain 2005 » (avril 2005)'
     url: https://www.autosport.com/general/news/technical-review-bahrain-2005-5076271/5076271/
     pages:
@@ -11935,7 +11952,7 @@ editeurs:
     - url: /chronologie/#c-ventilateur-ecarte-1978
       titre: 'Chronologie : 1978, La voiture à ventilateur écartée'
 - nom: ultimatecarpage.com
-  n: 28
+  n: 27
   sources:
   - titre: Ultimatecarpage, « Ferrari 312 T »
     url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
@@ -11959,11 +11976,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Ultimatecarpage.com, « 2012 Mercedes-Benz W03 Specifications »
-    url: https://www.ultimatecarpage.com/spec/5122/Mercedes-Benz-W03.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
   - titre: Ultimatecarpage.com, « Lotus 99T Honda »
     url: https://www.ultimatecarpage.com/car/1460/Lotus-99T-Honda.html
     pages:
@@ -12933,93 +12945,6 @@ editeurs:
       titre: 'Domination (technologies) : Moteur arrière'
     erreurs:
     - e015
-- nom: Wikipedia
-  n: 16
-  sources:
-  - titre: Wikipedia, « 1951 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-2-championnat-1952
-      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
-  - titre: Wikipedia, « 1953 Formula One season »
-    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-1-5-litres-1961
-      titre: 'Chronologie : 1961, La formule 1,5 litre'
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    erreurs:
-    - e160
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Mercedes F1 W03 »
-    url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: Wikipedia, « Pacific PR02 »
-    url: https://en.wikipedia.org/wiki/Pacific_PR02
-    pages:
-    - url: /ecuries/pacific/
-      titre: 'Écuries : Pacific'
-  - titre: Wikipédia (en), « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
-    pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
-  - titre: Wikipédia, « Benetton B186 »
-    url: https://en.wikipedia.org/wiki/Benetton_B186
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Ligier JS17 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS17
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: Crash.net
   n: 15
   sources:
@@ -13176,6 +13101,71 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+- nom: Wikipedia
+  n: 12
+  sources:
+  - titre: Wikipedia, « 1951 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    erreurs:
+    - e160
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Pacific PR02 »
+    url: https://en.wikipedia.org/wiki/Pacific_PR02
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
+  - titre: Wikipédia (en), « Ferrari 158 »
+    url: https://en.wikipedia.org/wiki/Ferrari_158
+    pages:
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
+  - titre: Wikipédia, « Benetton B186 »
+    url: https://en.wikipedia.org/wiki/Benetton_B186
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Wikipédia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: RaceFans
   n: 11
   sources:
@@ -13719,6 +13709,42 @@ editeurs:
     pages:
     - url: /ingenieurs/arthur-webb/
       titre: Webb, Arthur
+- nom: fondazionepirelli.org
+  n: 6
+  sources:
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    erreurs:
+    - e072
+    - e111
+  - titre: Fondazione Pirelli, « The Birth of a Legend » (août 2023)
+    url: https://www.fondazionepirelli.org/en/activities/the-birth-of-a-legend/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
+    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Pirelli, Fatti e Notizie, « Campioni del mondo » (août 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1953_08_FATTI_E_NOTIZIE.html#page/2/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/13/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
 - nom: Internet Archive
   n: 5
   sources:
@@ -14275,16 +14301,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
-    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    erreurs:
-    - e072
-    - e111
-  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
-    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
+  - titre: Fondazione Pirelli, « Pirelli's 500 GPs in the F1 World Championship » (2026)
+    url: https://pirelli500gp.fondazionepirelli.org/en/home.html
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
@@ -14439,6 +14457,11 @@ editeurs:
     pages:
     - url: /chronologie/#c-prius-hybride
       titre: 'Chronologie : 1997, La Toyota Prius, première hybride de série'
+  - titre: Nextgen-Auto, « Michael Schumacher's Mercedes suffers KERS pack failure » (septembre 2012)
+    url: https://motorsport.nextgen-auto.com/en/formula-1/Michael-Schumacher-s-Mercedes-suffers-KERS-pack-failure,47867.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
   - titre: Petroleum Museum, « Chaparral 2J » (site du musée, non daté)
     url: https://petroleummuseum.org/chaparral-2j/
     pages:

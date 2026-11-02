@@ -4190,12 +4190,16 @@ erreurs:
     fr: Tyrrell en Goodyear en 1982
     en: Tyrrell on Goodyears in 1982
   juste:
-    fr: 'Goodyear, par déduction : aucun texte ne l''établit directement.'
-    en: Goodyear, inferred rather than directly established.
+    fr: 'Goodyear : d''abord déduit, puis confirmé directement par Denis Jenkinson (Motor Sport, avril 1982).'
+    en: 'Goodyear: first inferred, then directly confirmed by Denis Jenkinson (Motor Sport, April 1982).'
   explication:
-    fr: Aucun texte lu ne dit « Tyrrell en Goodyear en 1982 ». La donnée se déduit de la fiche Autosport de la 011 (Avon puis Goodyear, sans dates) et du fait que les huit victoires Michelin de 1982 sont toutes de Renault ou de McLaren, ce qui exclut Michelin pour la victoire de Las Vegas.
-    en: No text read says 'Tyrrell on Goodyears in 1982'. The value is inferred from Autosport's 011 sheet (Avon then Goodyear, undated) and from the fact that all eight Michelin wins of 1982 went to Renault or McLaren, which rules Michelin out for the Las Vegas win.
+    fr: 'Les deux premières recherches n''avaient trouvé aucun texte disant « Tyrrell en Goodyear en 1982 » ; la donnée se déduisait de la fiche Autosport de la 011 (Avon puis Goodyear, sans dates) et du fait que les huit victoires Michelin de 1982 sont toutes de Renault ou de McLaren, ce qui exclut Michelin pour la victoire de Las Vegas. Une troisième recherche a trouvé la confirmation directe : au début de la saison, Jenkinson range Tyrrell parmi les équipes suivies par Goodyear.'
+    en: 'The first two searches found no text saying ''Tyrrell on Goodyears in 1982''; the value was inferred from Autosport''s 011 sheet (Avon then Goodyear, undated) and from the fact that all eight Michelin wins of 1982 went to Renault or McLaren, which rules Michelin out for the Las Vegas win. A third search found direct confirmation: at the start of the season, Jenkinson lists Tyrrell among the teams looked after by Goodyear.'
   preuves:
+  - titre: Motor Sport, Denis Jenkinson, « Behind the Grand Prix scene » (avril 1982)
+    titre_en: Motor Sport, Denis Jenkinson, “Behind the Grand Prix scene” (April 1982)
+    url: https://www.motorsportmagazine.com/archive/article/april-1982/102/behind-grand-prix-scene/
+    citation: At the moment there is quite an even spread of work among the tyre companies, with Goodyear looking after Williams, Lotus, Brabham, Ferrari and Tyrrell
   - titre: Autosport (GP Racing), « The last hurrah of two F1 titans » (avril 2020)
     titre_en: Autosport (GP Racing), “The last hurrah of two F1 titans” (April 2020)
     url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
