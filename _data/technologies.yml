@@ -1999,12 +1999,10 @@ technologies:
     equipe: Brabham BMW
     voiture: Brabham BT50
     valeur: non
-    pourquoi: Monocoque « aluminium tub with carbon stiffening panels » ; la première Brabham entièrement en composite sera la BT55 de 1986.
+    pourquoi: Gordon Murray, cité par Doug Nye dans Motor Sport, raconte que Brabham a d'abord renforcé ses monocoques en aluminium de pièces en carbone, à partir de la BT48 de 1979, puis en a fait de plus en plus en carbone, les flancs extérieurs restant en aluminium. Seule la BT55 de 1986 devient sa première voiture entièrement en carbone. La BT50 de 1982 est donc une monocoque mixte, classée non.
     sources:
-    - titre: Wikipédia, « Brabham BT50 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT50
-    - titre: Wikipédia, « Brabham BT55 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT55
+    - titre: Motor Sport, Doug Nye, « From the archives with... Doug Nye » (juillet 2015)
+      url: https://www.motorsportmagazine.com/archive/article/july-2015/177/archives-doug-nye/
   - annee: 1982
     ecurie: brabham
     equipe: Brabham Ford

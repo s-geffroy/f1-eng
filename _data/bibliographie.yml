@@ -1,7 +1,7 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2303
+total: 2302
 editeurs_total: 130
-citations: 3707
+citations: 3706
 editeurs:
 - nom: Motor Sport Magazine
   n: 550
@@ -10194,7 +10194,7 @@ editeurs:
     - url: /glossaire/#suspension-active
       titre: 'Glossaire : Suspension active'
 - nom: Autosport
-  n: 175
+  n: 176
   sources:
   - titre: Adam Cooper, Autosport, « Gustav Brunner Q&A » (juillet 2001)
     url: https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/
@@ -10799,6 +10799,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Arrows : Arrows et Footwork'
+  - titre: 'Autosport, Gregor Grant, « Grand Prix Gold: Belgium 1967 » (compte rendu de 1967, republié en août 2010)'
+    url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Autosport, Ian Parkes, « Manor strengthens Mercedes link with Pascal Wehrlein 2016 F1 deal » (février 2016)
     url: https://www.autosport.com/f1/news/manor-strengthens-mercedes-link-with-pascal-wehrlein-2016-f1-deal-4994302/4994302/
     pages:
@@ -12929,7 +12934,7 @@ editeurs:
     erreurs:
     - e015
 - nom: Wikipedia
-  n: 18
+  n: 16
   sources:
   - titre: Wikipedia, « 1951 German Grand Prix »
     url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
@@ -13007,16 +13012,6 @@ editeurs:
       titre: Lotus 25
   - titre: Wikipédia, « Benetton B186 »
     url: https://en.wikipedia.org/wiki/Benetton_B186
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Brabham BT50 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT50
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Brabham BT55 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT55
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'

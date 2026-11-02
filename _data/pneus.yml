@@ -858,8 +858,10 @@ cas:
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Firestone
-  pourquoi: La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud.
+  pourquoi: 'La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud. À Spa, en juin, Gregor Grant (Autosport) note que seules les Brabham et l''Eagle sont en Goodyear, avec une BRM en Dunlop, « the remainder favouring Firestone » : les Cooper sont donc en Firestone. Pour Kyalami, en janvier, aucune source sérieuse ne nomme leurs pneus.'
   sources:
+  - titre: 'Autosport, Gregor Grant, « Grand Prix Gold: Belgium 1967 » (compte rendu de 1967, republié en août 2010)'
+    url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
   - titre: Wikipedia, « 1967 Formula One season »
     url: https://en.wikipedia.org/wiki/1967_Formula_One_season
   - titre: Wikipedia, « Cooper T81 »
