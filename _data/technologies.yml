@@ -200,14 +200,20 @@ technologies:
   - de: 1976
     a: 2025
     valeur: oui
-    pourquoi: 'Dès 1969, Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26) ; la monocoque devient la norme et les F1 modernes sont des monocoques en carbone (McLaren MP4/1, 1981). Réserve : les Ferrari 312T à 312T5 (1975-1980) et 126CK (1981) restent des semi-monocoques ; la 126C2 de 1982 est la première « vraie » monocoque Ferrari. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (alors élargir la fenêtre à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
+    pourquoi: 'Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26, 1968-1969) : les règles de 1970 sur les réservoirs souples imposent la monocoque, et Tauranac dessine alors sa première, la BT33. La monocoque devient la norme, puis la monocoque en carbone de la McLaren MP4/1 (1981) s''impose sur toute la grille. Réserve : les Ferrari 312T à 312T5 (1975-1980) et 126CK (1981), à panneaux d''aluminium rivetés sur une structure tubulaire, sont des semi-monocoques selon certaines descriptions ; Motor Sport parle pourtant de monocoques en aluminium, et c''est la 126C2 de 1982, en nid d''abeille collé, qui remplace le châssis dérivé de la T5. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (alors élargir la fenêtre à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
     sources:
-    - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac »
+    - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac » (décembre 2012)
       url: https://www.motorsportretro.com/2012/12/the-fastest-thing-about-the-monocoque-lotus-is-jimmy-clark-ron-tauranac/
-    - titre: Wikipedia, « Monocoque »
-      url: https://en.wikipedia.org/wiki/Monocoque
-    - titre: Wikipedia, « Formula One car »
-      url: https://en.wikipedia.org/wiki/Formula_One_car
+    - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt26/
+    - titre: OldRacingCars, « Brabham BT33 car-by-car histories »
+      url: https://www.oldracingcars.com/brabham/bt33/
+    - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari - World Champion Constructors » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
+    - titre: RM Sotheby's, « 1982 Ferrari 126 C2 » (Abu Dhabi 2019)
+      url: https://rmsothebys.com/auctions/ad19/lots/r0029-1982-ferrari-126-c2/
     - titre: Wikipedia, « Ferrari 312T »
       url: https://en.wikipedia.org/wiki/Ferrari_312T
     - titre: Wikipedia, « Ferrari 126C »
@@ -657,171 +663,195 @@ technologies:
     equipe: BRM
     voiture: BRM P160
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : Siffert (Autriche) et Gethin (Italie) gagnent sur la P160, décrite comme semi-monocoque aluminium avec faux-châssis tubulaire arrière ; la structure principale est la coque, le tube ne porte que l''arrière.'
+    pourquoi: 'Semi-monocoque, classé oui : Siffert (Autriche) et Gethin (Italie) gagnent sur la P160, évolution de la P153 à monocoque « plus basse et plus large » ; comme le V12 BRM n''était pas porteur, la P153 recevait un cadre tubulaire triangulaire à l''arrière. La structure principale reste la coque.'
     sources:
-    - titre: Wikipedia, « BRM P160 »
-      url: https://en.wikipedia.org/wiki/BRM_P160
+    - titre: Autosport, Kevin Turner, « The last hurrah for a former British F1 superpower » (août 2021)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-for-a-former-british-f1-superpower/6646374/
+    - titre: Autosport, Damien Smith, « How Britain's Ferrari survived a double loss to enjoy a famous final hurrah » (novembre 2024)
+      url: https://www.autosport.com/f1/news/how-britains-ferrari-survived-a-double-loss-to-enjoy-a-famous-final-hurrah/10671969/
   - annee: 1971
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312B (Afrique du Sud), Ferrari 312B2 (Pays-Bas)
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : la 312B d''Andretti et la 312B2 d''Ickx ont des panneaux d''aluminium rivetés sur une structure tubulaire en acier.'
+    pourquoi: 'Semi-monocoque, classé oui : la 312B d''Andretti, victorieuse en Afrique du Sud (la seule 312B2 engagée y avait été détruite aux essais), et la 312B2 d''Ickx ont des panneaux d''aluminium rivetés sur une structure tubulaire en acier.'
     sources:
+    - titre: F1technical, « Ferrari 312B »
+      url: https://www.f1technical.net/f1db/cars/256/ferrari-312b
     - titre: F1technical, « Ferrari 312B2 »
-      url: https://www.f1technical.net/f1db/cars/270
-    - titre: Wikipedia, « Ferrari 312B »
-      url: https://en.wikipedia.org/wiki/Ferrari_312B
+      url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
+    - titre: Motor Sport, Andrew Marriott, « Fifth South African Grand Prix » (avril 1971)
+      url: https://www.motorsportmagazine.com/archive/article/april-1971/44/fifth-south-african-grand-prix
   - annee: 1971
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 003, Tyrrell 002 (États-Unis)
     valeur: oui
-    pourquoi: Stewart gagne six fois sur la 003, Cevert aux États-Unis sur la 002 ; toutes deux à monocoque aluminium.
+    pourquoi: Stewart gagne six fois sur la 003, Cevert aux États-Unis sur la 002 ; selon le Revs Institute, toutes deux ont une monocoque en tôle d'aluminium, et F1technical décrit la 003 comme une monocoque aluminium.
     sources:
-    - titre: Wikipedia, « Tyrrell 003 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_003
-    - titre: Wikipedia, « Tyrrell 002 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_002
+    - titre: Revs Institute, « Tyrrell 003 - One of the most successful Formula 1 cars of all time » (avril 2021)
+      url: https://automedia.revsinstitute.org/the-iconic-tyrrell-003-one-of-the-most-successful-formula-1-cars-of-all-time
+    - titre: F1technical, « Tyrrell 003 »
+      url: https://www.f1technical.net/f1db/cars/280/tyrrell-003
   - annee: 1972
     ecurie: brm
     equipe: BRM
     voiture: BRM P160B
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : Beltoise gagne à Monaco sur une P160 (spécification B en début de saison), même construction qu''en 1971.'
+    pourquoi: 'Semi-monocoque, classé oui : Beltoise gagne à Monaco sur la P160B, même construction qu''en 1971 ; Motor Sport mentionne la monocoque de sa voiture, percée pour loger son bras blessé, et, à Kyalami, sa reconstruction sur une nouvelle section de monocoque.'
     sources:
-    - titre: Wikipedia, « BRM P160 »
-      url: https://en.wikipedia.org/wiki/BRM_P160
+    - titre: 'Motor Sport, James Elson, « BRM''s last blast: Beltoise''s ''stunning'' Monaco win remembered » (août 2024)'
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/brms-last-blast-beltoises-stunning-monaco-win-remembered/
+    - titre: Motor Sport, Andrew Marriott, « South African Grand Prix » (avril 1972)
+      url: https://www.motorsportmagazine.com/archive/article/april-1972/23/south-african-grand-prix-7
+    - titre: Autosport, Kevin Turner, « The last hurrah for a former British F1 superpower » (août 2021)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-for-a-former-british-f1-superpower/6646374/
   - annee: 1972
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312B2
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : Ickx gagne en Allemagne sur la 312B2, panneaux d''aluminium rivetés sur structure tubulaire en acier.'
+    pourquoi: 'Semi-monocoque, classé oui : Ickx gagne en Allemagne sur la 312B2, dont F1technical décrit la caisse en panneaux d''aluminium rivetés sur une structure tubulaire en acier.'
     sources:
     - titre: F1technical, « Ferrari 312B2 »
-      url: https://www.f1technical.net/f1db/cars/270
-    - titre: Wikipedia, « Ferrari 312B »
-      url: https://en.wikipedia.org/wiki/Ferrari_312B
+      url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
   - annee: 1972
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M19A
     valeur: oui
-    pourquoi: Hulme gagne en Afrique du Sud sur la M19A, à monocoque aluminium.
+    pourquoi: Hulme gagne en Afrique du Sud sur la M19A, que RM Sotheby's décrit comme bâtie autour d'une monocoque en « bouteille de Coca-Cola ».
     sources:
-    - titre: Wikipedia, « McLaren M19A »
-      url: https://en.wikipedia.org/wiki/McLaren_M19A
+    - titre: Motor Sport, Andrew Marriott, « South African Grand Prix » (avril 1972)
+      url: https://www.motorsportmagazine.com/archive/article/april-1972/23/south-african-grand-prix-7
+    - titre: RM Sotheby's, « 1971 McLaren M19A » (Monaco 2024)
+      url: https://rmsothebys.com/auctions/mc24/lots/r0014-1971-mclaren-m19a/
   - annee: 1972
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 72
     valeur: oui
-    pourquoi: Les cinq victoires de Fittipaldi sont acquises sur la 72, à monocoque aluminium.
+    pourquoi: Les cinq victoires de Fittipaldi, titré en 1972, sont acquises sur la 72, dont 8W décrit la monocoque en baignoire en tôle d'aluminium.
     sources:
-    - titre: Wikipedia, « Lotus 72 »
-      url: https://en.wikipedia.org/wiki/Lotus_72
+    - titre: 8W, Hrvoje Vrbanc, « The Lotus 72 story » (avril 1999)
+      url: https://8w.forix.com/lotus72.html
   - annee: 1972
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 003, Tyrrell 005 (Canada, États-Unis)
     valeur: oui
-    pourquoi: Stewart gagne deux fois sur la 003 puis deux fois sur la 005, toutes deux à monocoque aluminium.
+    pourquoi: Stewart gagne deux fois sur la 003, monocoque aluminium, puis au Canada et aux États-Unis sur la 005, à monocoque plus basse et plus large en forme de baignoire.
     sources:
-    - titre: Wikipedia, « Tyrrell 003 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_003
-    - titre: Wikipedia, « Tyrrell 005 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_005
+    - titre: Revs Institute, « Tyrrell 003 - One of the most successful Formula 1 cars of all time » (avril 2021)
+      url: https://automedia.revsinstitute.org/the-iconic-tyrrell-003-one-of-the-most-successful-formula-1-cars-of-all-time
+    - titre: OldRacingCars, « Tyrrell 005/006 car-by-car histories »
+      url: https://oldracingcars.com/tyrrell/005/006/
   - annee: 1973
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M23
     valeur: oui
-    pourquoi: Hulme et Revson gagnent trois fois sur la M23, à monocoque aluminium.
+    pourquoi: Hulme et Revson gagnent trois fois sur la M23, dont la monocoque à double peau en tôle d'aluminium est conçue par Coppuck pour les structures déformables de 1973.
     sources:
-    - titre: Wikipedia, « McLaren M23 »
-      url: https://en.wikipedia.org/wiki/McLaren_M23
+    - titre: Autosport, GP Racing, « How McLaren recovered from its greatest tragedy » (décembre 2018)
+      url: https://www.autosport.com/f1/feature/8653/how-mclaren-recovered-from-its-greatest-tragedy
+    - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
+      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
   - annee: 1973
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 72
     valeur: oui
-    pourquoi: Fittipaldi et Peterson gagnent sept fois sur la 72, à monocoque aluminium.
+    pourquoi: Fittipaldi et Peterson gagnent sept fois sur la 72, à monocoque en tôle d'aluminium ; 8W rappelle les deux premières victoires de Fittipaldi en 1973, une de plus ensuite, et quatre de Peterson.
     sources:
-    - titre: Wikipedia, « Lotus 72 »
-      url: https://en.wikipedia.org/wiki/Lotus_72
+    - titre: 8W, Hrvoje Vrbanc, « The Lotus 72 story » (avril 1999)
+      url: https://8w.forix.com/lotus72.html
   - annee: 1973
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 006
     valeur: oui
-    pourquoi: Stewart gagne cinq fois sur la 006, à monocoque aluminium.
+    pourquoi: Stewart gagne cinq fois sur la 006 (Afrique du Sud, puis Belgique, Monaco, Pays-Bas et Allemagne sur la 006/2), bâtie comme la 005 autour d'une monocoque en baignoire en forme de coin.
     sources:
-    - titre: Wikipedia, « Tyrrell 006 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_006
+    - titre: OldRacingCars, « Tyrrell 005/006 car-by-car histories »
+      url: https://oldracingcars.com/tyrrell/005/006/
+    - titre: Motor Sport, Paul Fearnley, « Tyrrell 006 » (décembre 2006)
+      url: https://www.motorsportmagazine.com/archive/article/december-2006/59/tyrrell-006/
   - annee: 1974
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT44
     valeur: oui
-    pourquoi: Reutemann gagne en Afrique du Sud, en Autriche et aux États-Unis sur la BT44, à monocoque aluminium.
+    pourquoi: Reutemann gagne en Afrique du Sud, en Autriche et aux États-Unis sur la BT44, dont Motor Sport détaille la monocoque en tôle d'alliage d'aluminium, le moteur formant l'arrière du châssis.
     sources:
-    - titre: Wikipedia, « Brabham BT44 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT44
+    - titre: Motor Sport, Denis Jenkinson, « New Grand Prix Cars for 1974 » (février 1974)
+      url: https://www.motorsportmagazine.com/archive/article/february-1974/26/new-grand-prix-cars-for-1974/
+    - titre: Motor Sport, Alan Henry, « The United States Grand Prix » (novembre 1974)
+      url: https://www.motorsportmagazine.com/archive/article/november-1974/21/the-united-states-grand-prix/
   - annee: 1974
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312B3 (312B3-74)
     valeur: oui
-    pourquoi: 'La 312B3 repose sur une monocoque complète construite en Angleterre par TC Prototypes, avec moteur porteur : c''est une vraie monocoque, pas une semi-monocoque.'
+    pourquoi: 'Forghieri conserve sur la 312B3 de 1974 la monocoque introduite en 1973 ; Motor Sport précise que les trois premières coques de 1974 sont faites en Angleterre par John Thompson et les deux suivantes, 014 et 015, entièrement à Maranello. Autosport décrit cette seconde série comme semi-monocoque : classé oui dans les deux cas.'
     sources:
-    - titre: Wikipedia, « Ferrari 312B »
-      url: https://en.wikipedia.org/wiki/Ferrari_312B
-    - titre: Wikipedia, « Ferrari 312T »
-      url: https://en.wikipedia.org/wiki/Ferrari_312T
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Jarama » (juin 1974)
+      url: https://www.motorsportmagazine.com/archive/article/june-1974/36/notes-on-the-cars-at-jarama-2/
+    - titre: Revs Institute, « Ferrari 312 B3 - How torment, trial, and error built a great race team » (mars 2021)
+      url: https://automedia.revsinstitute.org/?p=87676
+    - titre: Autosport, Gary Watkins, « The first 'British' Ferrari » (août 2013)
+      url: https://www.autosport.com/f1/feature/5480/the-first-british-ferrari
   - annee: 1974
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M23
     valeur: oui
-    pourquoi: Fittipaldi (trois victoires) et Hulme (une) gagnent sur la M23, à monocoque aluminium.
+    pourquoi: Fittipaldi (trois victoires) et Hulme (une) gagnent sur la M23, à monocoque en aluminium ; Motor Sport détaille à Jarama les M23 de Fittipaldi et de Hulme.
     sources:
-    - titre: Wikipedia, « McLaren M23 »
-      url: https://en.wikipedia.org/wiki/McLaren_M23
+    - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
+      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
+    - titre: Autosport, GP Racing, « How McLaren recovered from its greatest tragedy » (décembre 2018)
+      url: https://www.autosport.com/f1/feature/8653/how-mclaren-recovered-from-its-greatest-tragedy
   - annee: 1974
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 72 (72E)
     valeur: oui
-    pourquoi: Peterson gagne trois fois sur la 72, à monocoque aluminium.
+    pourquoi: Après l'échec de la 76, Peterson revient à la 72, à monocoque en tôle d'aluminium, et gagne à Monaco, à Dijon et à Monza.
     sources:
-    - titre: Wikipedia, « Lotus 72 »
-      url: https://en.wikipedia.org/wiki/Lotus_72
+    - titre: 8W, Hrvoje Vrbanc, « The Lotus 72 story » (avril 1999)
+      url: https://8w.forix.com/lotus72.html
   - annee: 1974
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 007
     valeur: oui
-    pourquoi: Scheckter gagne en Suède et en Grande-Bretagne sur la 007, à monocoque aluminium.
+    pourquoi: Scheckter gagne en Suède et en Grande-Bretagne sur la 007/1, à monocoque aluminium basse et plate.
     sources:
-    - titre: Wikipedia, « Tyrrell 007 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_007
+    - titre: OldRacingCars, « Tyrrell 007 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/007/
   - annee: 1975
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT44B
     valeur: oui
-    pourquoi: Pace (Brésil) et Reutemann (Allemagne) gagnent sur la BT44B, à monocoque aluminium.
+    pourquoi: Pace (Brésil) et Reutemann (Allemagne) gagnent sur la BT44B, dérivée de la BT44 dont la fiche technique de 1974 décrit une monocoque en tôle d'alliage d'aluminium ; Gordon Murray travaille en 1975 sur le dessous de la monocoque de la BT44B.
     sources:
-    - titre: Wikipedia, « Brabham BT44 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT44
+    - titre: Motor Sport, Denis Jenkinson, « New Grand Prix Cars for 1974 » (février 1974)
+      url: https://www.motorsportmagazine.com/archive/article/february-1974/26/new-grand-prix-cars-for-1974/
+    - titre: Motor Sport, Alan Henry, « Gordon Murray » (septembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/september-1981/44/gordon-murray/
   - annee: 1975
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T
     valeur: oui
-    pourquoi: 'Semi-monocoque, classé oui : la 312T de Lauda et Regazzoni revient à un treillis tubulaire renforcé de panneaux d''aluminium rivetés, alors que la 312B3 était une monocoque complète.'
+    pourquoi: 'Classé oui : Motor Sport décrit l''accident de la 312T toute neuve de Lauda à Kyalami en 1975, qui arrache « la peau extérieure » de sa monocoque. Selon d''autres descriptions, la 312T revient à un treillis tubulaire renforcé de panneaux d''aluminium rivetés (semi-monocoque), alors que la 312B3 était une monocoque complète.'
     sources:
+    - titre: Motor Sport, Alan Henry, « 1975 South African Grand Prix race report » (avril 1975)
+      url: https://www.motorsportmagazine.com/archive/article/april-1975/36/south-african-grand-prix-10
+    - titre: Ultimatecarpage, « Ferrari 312 T »
+      url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
     - titre: Wikipedia, « Ferrari 312T »
       url: https://en.wikipedia.org/wiki/Ferrari_312T
   - annee: 1975
@@ -833,28 +863,32 @@ technologies:
     sources:
     - titre: OldRacingCars, « Hesketh 308 »
       url: https://www.oldracingcars.com/hesketh/308/
-    - titre: Wikipedia, « Hesketh 308 »
-      url: https://en.wikipedia.org/wiki/Hesketh_308
   - annee: 1975
     ecurie: march
     equipe: March Ford
     voiture: March 751
     valeur: oui
-    pourquoi: Brambilla gagne en Autriche sur la 751, construite autour d'une monocoque aluminium, comme la 741 dont elle descend.
+    pourquoi: Brambilla gagne en Autriche sur la 751, dérivée comme la 741 de la monocoque de la March 732 de Formule 2 ; trois des 761 de 1976 sont même construites à partir des 751 survivantes.
     sources:
-    - titre: OldRacingCars, « March 741 »
+    - titre: OldRacingCars, « March 741 car-by-car histories »
       url: https://www.oldracingcars.com/march/741/
-    - titre: Wikipedia, « March 751 »
-      url: https://en.wikipedia.org/wiki/March_751
+    - titre: Motor Sport, Alan Henry, « 1975 South African Grand Prix race report » (avril 1975)
+      url: https://www.motorsportmagazine.com/archive/article/april-1975/36/south-african-grand-prix-10
+    - titre: OldRacingCars, « March 761 car-by-car histories »
+      url: https://www.oldracingcars.com/march/761/
+    - titre: Motor Sport, Denis Jenkinson, « 1975 Austrian Grand Prix race report » (octobre 1975)
+      url: https://www.motorsportmagazine.com/archive/article/october-1975/35/austrian-grand-prix-16
   - annee: 1975
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M23
     valeur: oui
-    pourquoi: Fittipaldi et Mass gagnent sur la M23, à monocoque aluminium.
+    pourquoi: Fittipaldi et Mass gagnent sur la M23, dont la monocoque est en double peau de tôle d'aluminium garnie de mousse injectée.
     sources:
-    - titre: Wikipedia, « McLaren M23 »
-      url: https://en.wikipedia.org/wiki/McLaren_M23
+    - titre: Motor Sport, Paul Fearnley, « How McLaren crafted James Hunt's title-winning, underrated M23 F1 car » (août 2002)
+      url: https://motorsportmagazine.com/archive/article/august-2002/35/learning-new-tricks
+    - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
+      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
   - annee: 1975
     ecurie: tyrrell
     equipe: Tyrrell Ford
@@ -862,8 +896,8 @@ technologies:
     valeur: oui
     pourquoi: Scheckter gagne en Afrique du Sud sur la 007, à monocoque aluminium.
     sources:
-    - titre: Wikipedia, « Tyrrell 007 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_007
+    - titre: OldRacingCars, « Tyrrell 007 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/007/
 - id: ailerons
   nom: Ailerons
   nom_en: Wings
@@ -965,122 +999,139 @@ technologies:
   - de: 1980
     a: 1982
     valeur: oui
-    pourquoi: Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les « ground-effect wing cars of the time » perdent leurs jupes coulissantes mais toutes adoptent des suspensions abaissant la voiture en piste, et les jupes reviennent en 1982. Les voitures gagnantes vérifiées (FW07, RE20, BT49, JS11/15, RE30, 126CK/126C2, Lotus 91, Tyrrell 011, FW08, MP4/1) sont toutes des voitures à effet de sol ; pour la Ligier JS17 et la Brabham BT50, les pages consultées ne le disent pas explicitement.
+    pourquoi: Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle (la BT49 aux jupes abaissées en piste, copiée par ses rivales), et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Les voitures gagnantes vérifiées (FW07, RE20, BT49, JS11/15, RE30, 126CK/126C2, Lotus 91, Tyrrell 011, FW08, MP4/1) sont toutes des voitures à effet de sol ; pour la Ligier JS17 et la Brabham BT50, les pages consultées ne le disent pas explicitement.
     sources:
-    - &id001
-      titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms »'
+    - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
-    - titre: Wikipédia, « 1981 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/1981_Formula_One_World_Championship
-    - &id012
-      titre: Wikipédia, « Brabham BT49 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT49
-    - &id013
-      titre: Wikipédia, « Renault RE20 »
-      url: https://en.wikipedia.org/wiki/Renault_RE20
-    - &id016
-      titre: Wikipédia, « Renault RE30 »
-      url: https://en.wikipedia.org/wiki/Renault_RE30
-    - &id014
-      titre: Wikipédia, « Ferrari 126C »
-      url: https://en.wikipedia.org/wiki/Ferrari_126C
-    - &id018
-      titre: Wikipédia, « Lotus 91 »
-      url: https://en.wikipedia.org/wiki/Lotus_91
-    - &id019
-      titre: Wikipédia, « Tyrrell 011 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_011
-    - &id002
-      titre: Wikipédia, « Williams FW08 »
-      url: https://en.wikipedia.org/wiki/Williams_FW08
-    - &id015
-      titre: Motor Sport, « John Barnard remembers his McLaren MP4/1 eureka moment »
+    - titre: Motor Sport, Doug Nye, « F1 in 1982 boasted a larger cast of leading characters than usual » (mai 2022)
+      url: https://www.motorsportmagazine.com/archive/article/may-2022/21/f1-in-1982-boasted-a-larger-cast-of-leading-characters-than-usual
+    - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+      url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
+    - titre: 'Motor Sport, Andrew Frankel, « The simply brilliant Brabham BT49: F1 track test » (mai 1999)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1999/46/simply-the-best
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: OldRacingCars.com, « Tyrrell 011 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/011/
+    - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment »
       url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - titre: Wikipédia, « Renault RE20 »
+      url: https://en.wikipedia.org/wiki/Renault_RE20
+    - titre: Wikipédia, « Renault RE30 »
+      url: https://en.wikipedia.org/wiki/Renault_RE30
+    - titre: Wikipédia, « Ferrari 126C »
+      url: https://en.wikipedia.org/wiki/Ferrari_126C
+    - titre: Wikipédia, « Lotus 91 »
+      url: https://en.wikipedia.org/wiki/Lotus_91
+    - titre: Wikipédia, « Williams FW08 »
+      url: https://en.wikipedia.org/wiki/Williams_FW08
   - de: 1983
     a: 2021
     valeur: non
     pourquoi: 'Le fond plat devient obligatoire en 1983 (« flat undersides became mandatory for 1983 ») : l''effet de sol par pontons-ailes et jupes est interdit jusqu''au règlement de 2022.'
     sources:
-    - &id003
+    - &id001
       titre: Wikipédia, « Ground effect (cars) »
       url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
-    - *id001
-    - *id002
+    - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms »'
+      url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
+    - &id003
+      titre: Wikipédia, « Williams FW08 »
+      url: https://en.wikipedia.org/wiki/Williams_FW08
   - de: 2022
     a: 2025
     valeur: oui
     pourquoi: '« After a forty-year ban, ground effect returned to Formula 1 in 2022 » : toutes les voitures du règlement 2022 génèrent leur appui par des tunnels sous le fond.'
     sources:
-    - *id003
+    - *id001
   cas:
   - annee: 1977
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T2
     valeur: non
-    pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : la 312T2 n''en est pas une ; Ferrari ne conçoit sa première voiture à effet de sol que pour 1979 (312T4).'
+    pourquoi: La Lotus 78 lance l'effet de sol en 1977, quand des voitures « classiques » comme la Ferrari 312T2 gagnent encore ; Ferrari n'a sa première vraie voiture à effet de sol qu'en 1979 (312T4).
     sources:
-    - &id004
-      titre: Wikipédia, « Lotus 78 »
-      url: https://en.wikipedia.org/wiki/Lotus_78
-    - &id005
-      titre: Wikipédia, « Ferrari 312T3 »
-      url: https://en.wikipedia.org/wiki/Ferrari_312T3
+    - titre: McLaren, « Miss the M26, miss out » (juillet 2017)
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1977-formula-1-mclaren-m26/overlooked-mclaren-m26/
+    - titre: RM Sotheby's, « 1979 Ferrari 312 T4 » (Monaco 2024)
+      url: https://rmsothebys.com/auctions/mc24/lots/r0013-1979-ferrari-312-t4
+    - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
+      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
   - annee: 1977
     ecurie: ligier
     equipe: Ligier Matra
     voiture: Ligier JS7
     valeur: non
-    pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : aucune autre voiture de 1977, dont la JS7, n''utilise l''effet de sol.'
+    pourquoi: 'En 1977, seule Lotus exploite l''effet de sol avec la 78, et les autres concepteurs ignorent encore son secret en 1978 : la JS7, développement de la JS5 de 1976 sur la même monocoque, n''utilise pas l''effet de sol.'
     sources:
-    - *id004
+    - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
+    - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
+      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
+    - titre: OldRacingCars, « Ligier JS7 car-by-car histories »
+      url: https://www.oldracingcars.com/ligier/js7/
   - annee: 1977
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M26
     valeur: non
-    pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : la M26 de 1977 est une voiture classique ; ce n''est qu''à la mi-1978 qu''elle est transformée en voiture à effet de sol partiel (M26E).'
+    pourquoi: Lotus lance l'effet de sol avec la 78 en 1977, quand la M26 est encore une voiture « classique » ; ce n'est qu'en juillet 1978 qu'apparaît une version à effet de sol, la M26E.
     sources:
-    - *id004
-    - titre: Wikipédia, « McLaren M26 »
-      url: https://en.wikipedia.org/wiki/McLaren_M26
+    - titre: McLaren, « Miss the M26, miss out » (juillet 2017)
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1977-formula-1-mclaren-m26/overlooked-mclaren-m26/
   - annee: 1977
     ecurie: shadow
     equipe: Shadow Ford
     voiture: Shadow DN8
     valeur: non
-    pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : aucune autre voiture de 1977, dont la DN8, n''utilise l''effet de sol.'
+    pourquoi: 'En 1977, seule Lotus exploite l''effet de sol avec la 78, et les autres concepteurs ignorent encore son secret en 1978 : la DN8, qui reprend l''architecture de la DN5, n''utilise pas l''effet de sol.'
     sources:
-    - *id004
+    - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
+    - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
+      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
+    - titre: OldRacingCars, « Shadow DN8 car-by-car histories »
+      url: https://www.oldracingcars.com/shadow/dn8/
   - annee: 1977
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 78
     valeur: oui
-    pourquoi: La Lotus 78, première voiture à effet de sol de la F1, court dès la première manche de 1977 et y gagne cinq fois.
+    pourquoi: La Lotus 78, première « wing car » à effet de sol de la F1, court dès le GP d'Argentine, première manche de 1977, et y gagne cinq fois.
     sources:
-    - *id004
-    - *id003
+    - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
+    - titre: OldRacingCars, « Lotus 78 car-by-car histories »
+      url: https://www.oldracingcars.com/lotus/78/
   - annee: 1977
     ecurie: wolf
     equipe: Wolf Ford
     voiture: Wolf WR1
     valeur: non
-    pourquoi: 'La Lotus 78, introduite à la première course de 1977, est « the first ground effect car in Formula One » : la WR1 n''en est pas une et devient obsolète « with the arrival of ground effect in 1978 ».'
+    pourquoi: Lotus lance l'effet de sol avec la 78 en 1977, quand des voitures « classiques » comme la Wolf WR1 gagnent encore ; Wolf n'a sa voiture à effet de sol, la WR5, qu'au GP de Belgique 1978.
     sources:
-    - *id004
-    - titre: Wikipédia, « Wolf WR1 »
-      url: https://en.wikipedia.org/wiki/Wolf_WR1
+    - titre: McLaren, « Miss the M26, miss out » (juillet 2017)
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1977-formula-1-mclaren-m26/overlooked-mclaren-m26/
+    - titre: GrandPrix.com, « Walter Wolf Racing »
+      url: https://www.grandprix.com/gpe/con-walte.html
   - annee: 1978
     ecurie: brabham
     equipe: Brabham Alfa Romeo
     voiture: Brabham BT46B (Suède), Brabham BT46 (Italie)
     valeur: oui
-    pourquoi: Victoire en Suède avec la BT46B à ventilateur, son unique course ; la victoire d'Italie est obtenue avec la BT46 standard, sans effet de sol notable (V12 Alfa trop large pour les tunnels venturi). Une seule des deux victoires a donc la technologie.
+    pourquoi: Victoire en Suède avec la BT46B à ventilateur, qui aspire l'air sous la voiture et pousse l'effet de sol plus loin ; la victoire d'Italie est obtenue avec la BT46 standard, dont le flat-12 Alfa Romeo, trop large, place ses culasses là où devraient passer les venturis. Une seule des deux victoires a donc la technologie.
     sources:
-    - titre: Wikipédia, « Brabham BT46 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT46
-    - *id003
+    - titre: OldRacingCars.com, « Swedish Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/sweden/
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: 8W (Forix), Darren Galpin, « Ground Effect and the Fan Car » (mai 1999)
+      url: https://8w.forix.com/fancar.html
+    - titre: Motor Sport, Gordon Cruickshank, « Brabham BT46B » (mars 2001)
+      url: https://www.motorsportmagazine.com/archive/article/march-2001/58/brabham-bt46b
+    - titre: OldRacingCars.com, « Italian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/italy/
     victoires_sans:
     - Italy
   - annee: 1978
@@ -1088,69 +1139,94 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 312T2, Ferrari 312T3
     valeur: non
-    pourquoi: Forghieri ne se résout à concevoir une Ferrari à effet de sol qu'en réponse à Lotus, pour 1979 (312T4) ; les 312T2 et 312T3 de 1978 n'en sont pas.
+    pourquoi: Ferrari consacre l'hiver 1977-1978 à adapter la 312T3 aux pneus Michelin plutôt qu'à concevoir une voiture à effet de sol ; ce n'est que pour 1979 que le châssis 312T est adapté à l'effet de sol (312T4). Les 312T2 et 312T3 victorieuses en 1978 n'en sont donc pas.
     sources:
-    - *id005
-    - &id006
-      titre: Wikipédia, « Ferrari 312T4 »
-      url: https://en.wikipedia.org/wiki/Ferrari_312T4
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T3 » (juin 2013)
+      url: https://www.ultimatecarpage.com/car/162/Ferrari-312-T3.html
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T4 » (décembre 2009)
+      url: https://www.ultimatecarpage.com/car/164/Ferrari-312-T4.html
+    - titre: OldRacingCars.com, « Brazilian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/brazil/
+    - titre: OldRacingCars.com, « British Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/britain/
   - annee: 1978
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 78, Lotus 79
     valeur: oui
-    pourquoi: 'Victoires d''Argentine et d''Afrique du Sud avec la Lotus 78, puis de Belgique à la fin de saison avec la Lotus 79 : toutes deux sont des voitures à effet de sol.'
+    pourquoi: 'Victoires d''Argentine et d''Afrique du Sud avec la Lotus 78, la « wing car » qui lance l''effet de sol, puis de Belgique à la fin de saison avec la Lotus 79, plus encore une voiture « ground effects » : toutes deux sont des voitures à effet de sol.'
     sources:
-    - *id004
-    - titre: Wikipédia, « Lotus 79 »
-      url: https://en.wikipedia.org/wiki/Lotus_79
+    - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: Motor Sport, Denis Jenkinson, « 1978 Belgian Grand Prix race report » (juillet 1978)
+      url: https://www.motorsportmagazine.com/archive/article/july-1978/54/de-grote-prijs-van-belgie
+    - titre: OldRacingCars.com, « Argentinian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/argentina/
+    - titre: OldRacingCars.com, « South African Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/south-africa/
+    - titre: OldRacingCars.com, « Belgian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/belgium/
   - annee: 1978
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 008
     valeur: non
-    pourquoi: La Tyrrell 008, monocoque aluminium à moteur DFV, n'est pas une voiture à jupes ; son idée de radiateurs sous la caisse, avec ventilateur, est vite abandonnée.
+    pourquoi: 'La Tyrrell 008, voiture « extremely orthodox » de Maurice Philippe, n''est pas une voiture à effet de sol : victorieuse à Monaco, elle n''est pas compétitive face aux nouvelles voitures à effet de sol, et la Tyrrell 009 de 1979 est la première Tyrrell à effet de sol.'
     sources:
-    - titre: Wikipédia, « Tyrrell 008 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_008
+    - titre: OldRacingCars.com, « Tyrrell 008 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/008/
+    - titre: OldRacingCars.com, « Monaco Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/monaco/
   - annee: 1979
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T4
     valeur: oui
-    pourquoi: La 312T4, qui remporte les six victoires Ferrari de 1979, est conçue étroite « to take advantage of ground effects » (une « wing car » limitée par la largeur du flat-12).
+    pourquoi: La 312T4, qui remporte les six victoires Ferrari de 1979, est le châssis 312T adapté à la hâte à l'effet de sol, avec des venturis limités par la largeur du flat-12 ; Motor Sport la décrit à ses débuts de Kyalami comme une refonte complète cherchant à mieux exploiter le flux d'air.
     sources:
-    - *id006
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T4 » (décembre 2009)
+      url: https://www.ultimatecarpage.com/car/164/Ferrari-312-T4.html
+    - titre: Motor Sport, Denis Jenkinson, « 1979 South African Grand Prix race report » (avril 1979)
+      url: https://www.motorsportmagazine.com/archive/article/april-1979/77/south-african-grand-prix-4
+    - titre: OldRacingCars.com, « South African Grand Prix 1979 »
+      url: https://www.oldracingcars.com/f1/results/1979/south-africa/
   - annee: 1979
     ecurie: ligier
     equipe: Ligier Ford
     voiture: Ligier JS11
     valeur: oui
-    pourquoi: La JS11 produit tant d'appui par effet de sol que son châssis aluminium se déforme et fait décoller les jupes ; elle gagne les trois courses Ligier de 1979.
+    pourquoi: La JS11 reprend le principe de la Lotus 79 en mieux (« Ligier essentially did the Lotus 79, but better ») ; elle gagne les trois courses Ligier de 1979, dont les deux premières manches.
     sources:
-    - &id010
-      titre: Wikipédia, « Ligier JS11 »
-      url: https://en.wikipedia.org/wiki/Ligier_JS11
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: OldRacingCars.com, « Argentinian Grand Prix 1979 »
+      url: https://www.oldracingcars.com/f1/results/1979/argentina/
   - annee: 1979
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RS10
     valeur: oui
-    pourquoi: La RS10, victorieuse en France, a « a completely new ground effect chassis ».
+    pourquoi: La RS10, victorieuse en France, est née du choix de Renault de faire de sa nouvelle voiture une voiture à effet de sol, d'abord avec un seul turbo, selon Jean-Pierre Jabouille.
     sources:
-    - &id008
-      titre: Wikipédia, « Renault RS10 »
-      url: https://en.wikipedia.org/wiki/Renault_RS10
+    - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+      url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1979
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW07
     valeur: oui
-    pourquoi: La FW07, directement inspirée de la Lotus 79, est une voiture à effet de sol ; elle gagne les cinq courses Williams de 1979.
+    pourquoi: La FW07, premier modèle à effet de sol de Patrick Head, reprend le principe de la Lotus 79 en plus rigide ; elle gagne les cinq courses Williams de 1979.
     sources:
-    - &id011
-      titre: Wikipédia, « Williams FW07 »
-      url: https://en.wikipedia.org/wiki/Williams_FW07
+    - titre: OldRacingCars.com, « Williams FW07 car-by-car histories »
+      url: https://www.oldracingcars.com/williams/fw07/
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+      url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
 - id: turbo
   nom: Turbo
   nom_en: Turbo
@@ -1168,10 +1244,10 @@ technologies:
     valeur: non
     pourquoi: « Turbochargers were banned from the 1989 Formula One season, leaving only a naturally aspirated 3.5 L formula » ; la suralimentation ne revient qu'en 2014.
     sources:
-    - &id007
+    - &id002
       titre: Wikipédia, « Formula One engines »
       url: https://en.wikipedia.org/wiki/Formula_One_engines
-    - &id023
+    - &id008
       titre: Wikipédia, « McLaren MP4/4 »
       url: https://en.wikipedia.org/wiki/McLaren_MP4/4
   - de: 2014
@@ -1179,172 +1255,219 @@ technologies:
     valeur: oui
     pourquoi: Le règlement 2014 impose des groupes propulseurs V6 1,6 litre hybrides ; la suralimentation revient et tous les motoristes choisissent le turbocompresseur (ère « turbo-hybrid », 2014-2025).
     sources:
-    - *id007
+    - *id002
   cas:
   - annee: 1977
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T2
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - &id009
-      titre: Wikipédia, « Renault RS01 »
-      url: https://en.wikipedia.org/wiki/Renault_RS01
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1977
     ecurie: ligier
     equipe: Ligier Matra
     voiture: Ligier JS7 (V12 Matra)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1977
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M26 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1977
     ecurie: shadow
     equipe: Shadow Ford
     voiture: Shadow DN8 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1977
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 78 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1977
     ecurie: wolf
     equipe: Wolf Ford
     voiture: Wolf WR1 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1977 n''a de moteur turbo ; la seule voiture turbo de l''année, la Renault RS01, débute en Grande-Bretagne et ne gagne jamais.'
+    pourquoi: 'En 1977, toutes les équipes sauf Renault utilisent un 3 litres atmosphérique : la Renault RS01, première F1 turbo, débute à Silverstone et ne termine aucun Grand Prix de la saison ; le premier succès du turbo vient avec la RS10 à Dijon en 1979. Aucun vainqueur de 1977 n''a donc de moteur turbo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1978
     ecurie: brabham
     equipe: Brabham Alfa Romeo
     voiture: Brabham BT46 / BT46B (V12 Alfa Romeo)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
+    pourquoi: 'La Renault RS10 donne à Dijon, en 1979, « the first ever F1 grand prix win for a turbocharged car » : aucun vainqueur de 1978 n''est turbo. Les BT46 et BT46B victorieuses ont le flat-12 Alfa Romeo.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+    - titre: OldRacingCars.com, « Swedish Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/sweden/
+    - titre: OldRacingCars.com, « Italian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/italy/
   - annee: 1978
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T2, 312T3 (flat-12)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
+    pourquoi: 'La Renault RS10 donne à Dijon, en 1979, « the first ever F1 grand prix win for a turbocharged car » : aucun vainqueur de 1978 n''est turbo. Les 312T2 et 312T3 ont le flat-12 Ferrari.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+    - titre: OldRacingCars.com, « Brazilian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/brazil/
+    - titre: OldRacingCars.com, « British Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/britain/
   - annee: 1978
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 78, Lotus 79 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
+    pourquoi: 'La Renault RS10 donne à Dijon, en 1979, « the first ever F1 grand prix win for a turbocharged car » : aucun vainqueur de 1978 n''est turbo. Les Lotus 78 et 79 ont le Cosworth DFV.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+    - titre: OldRacingCars.com, « Argentinian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/argentina/
+    - titre: OldRacingCars.com, « Belgian Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/belgium/
   - annee: 1978
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 008 (Cosworth DFV)
     valeur: non
-    pourquoi: 'La Renault RS10 est « the first turbocharged F1 car to win a Grand Prix » (France 1979) : aucun vainqueur de 1978 n''est turbo.'
+    pourquoi: 'La Renault RS10 donne à Dijon, en 1979, « the first ever F1 grand prix win for a turbocharged car » : aucun vainqueur de 1978 n''est turbo. La Tyrrell 008 a le Cosworth DFV.'
     sources:
-    - *id008
-    - *id009
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+    - titre: OldRacingCars.com, « Monaco Grand Prix 1978 »
+      url: https://www.oldracingcars.com/f1/results/1978/monaco/
   - annee: 1979
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 312T4
     valeur: non
-    pourquoi: 'Le flat-12 Tipo 015 de la 312T4 est atmosphérique : la série 312T est la dernière Ferrari atmosphérique avant la 640 de 1989.'
+    pourquoi: 'La 312T4 utilise le flat-12 Ferrari atmosphérique : en 1979, le seul turbo est le V6 Renault, qui dépasse 600 ch quand les voitures atmosphériques peinent à dépasser 525 ch, et la première victoire turbo est celle de Renault à Dijon.'
     sources:
-    - *id006
+    - titre: OldRacingCars.com, « South African Grand Prix 1979 »
+      url: https://www.oldracingcars.com/f1/results/1979/south-africa/
+    - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+      url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
   - annee: 1979
     ecurie: ligier
     equipe: Ligier Ford
     voiture: Ligier JS11
     valeur: non
-    pourquoi: La JS11 est motorisée par le Ford Cosworth DFV, un V8 atmosphérique.
+    pourquoi: 'La JS11 est motorisée par le Ford Cosworth DFV, un V8 atmosphérique : en 1979, seul le V6 Renault est turbo.'
     sources:
-    - *id010
+    - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
+      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    - titre: Motor Sport, Denis Jenkinson, « 1979 South African Grand Prix race report » (avril 1979)
+      url: https://www.motorsportmagazine.com/archive/article/april-1979/77/south-african-grand-prix-4
+    - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+      url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
   - annee: 1979
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RS10
     valeur: oui
-    pourquoi: La RS10, à V6 Renault Gordini 1,5 litre biturbo, est la première F1 turbo à gagner un Grand Prix (France 1979).
+    pourquoi: La RS10, à V6 Renault EF1 1,5 litre biturbo, est la première F1 turbo à gagner un Grand Prix (France 1979).
     sources:
-    - *id008
+    - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+    - titre: OldRacingCars.com, « French Grand Prix 1979 »
+      url: https://www.oldracingcars.com/f1/results/1979/france/
   - annee: 1979
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW07
     valeur: non
-    pourquoi: La FW07 utilise un Ford-Cosworth DFV « naturally aspirated ».
+    pourquoi: 'La FW07 utilise un Ford-Cosworth DFV 3 litres atmosphérique : en 1979, seul le V6 Renault est turbo.'
     sources:
-    - *id011
+    - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+      url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
+    - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+      url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
+    - titre: OldRacingCars.com, « British Grand Prix 1979 »
+      url: https://www.oldracingcars.com/f1/results/1979/britain/
   - annee: 1980
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT49
     valeur: non
-    pourquoi: Le Ford Cosworth DFV de la BT49 est un V8 « normally aspirated ».
+    pourquoi: Le Ford Cosworth DFV de la BT49 est un V8 atmosphérique, face au V6 turbo des Renault (Kyalami 1980).
     sources:
-    - *id012
+    - titre: Motor Sport, Denis Jenkinson, « 1980 South African Grand Prix race report » (avril 1980)
+      url: https://www.motorsportmagazine.com/archive/article/april-1980/66/south-african-grand-prix
+    - titre: OldRacingCars.com, « United States Grand Prix West 1980 »
+      url: https://www.oldracingcars.com/f1/results/1980/long-beach/
   - annee: 1980
     ecurie: ligier
     equipe: Ligier Ford
     voiture: Ligier JS11/15
     valeur: non
-    pourquoi: La JS11/15 de 1980 utilise un Ford Cosworth DFV atmosphérique (NA).
+    pourquoi: La JS11/15 de 1980 utilise un Ford Cosworth DFV atmosphérique, face au V6 turbo des Renault (Kyalami 1980).
     sources:
-    - *id010
+    - titre: Motor Sport, Denis Jenkinson, « 1980 South African Grand Prix race report » (avril 1980)
+      url: https://www.motorsportmagazine.com/archive/article/april-1980/66/south-african-grand-prix
+    - titre: OldRacingCars.com, « Belgian Grand Prix 1980 »
+      url: https://www.oldracingcars.com/f1/results/1980/belgium/
   - annee: 1980
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE20
     valeur: oui
-    pourquoi: La RE20 est propulsée par le V6 Renault Gordini EF1 1,5 litre turbo ; trois victoires en 1980.
+    pourquoi: La RE20 est propulsée par le V6 Renault 1,5 litre turbo ; trois victoires en 1980 (Arnoux au Brésil et en Afrique du Sud, Jabouille en Autriche).
     sources:
-    - *id013
+    - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+      url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
+    - titre: Motor Sport, Denis Jenkinson, « 1980 South African Grand Prix race report » (avril 1980)
+      url: https://www.motorsportmagazine.com/archive/article/april-1980/66/south-african-grand-prix
   - annee: 1980
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW07B
     valeur: non
-    pourquoi: La famille FW07 utilise le Ford-Cosworth DFV atmosphérique.
+    pourquoi: La famille FW07 utilise le Ford-Cosworth DFV 3 litres atmosphérique, face au V6 turbo des Renault.
     sources:
-    - *id011
+    - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+      url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
+    - titre: Motor Sport, Denis Jenkinson, « 1980 South African Grand Prix race report » (avril 1980)
+      url: https://www.motorsportmagazine.com/archive/article/april-1980/66/south-african-grand-prix
+    - titre: OldRacingCars.com, « Monaco Grand Prix 1980 »
+      url: https://www.oldracingcars.com/f1/results/1980/monaco/
   - annee: 1981
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT49C
     valeur: non
-    pourquoi: Le Ford Cosworth DFV de la BT49 est atmosphérique.
+    pourquoi: La BT49C reste fidèle au Ford-Cosworth DFV atmosphérique ; Motor Sport l'oppose aux voitures turbo.
     sources:
-    - *id012
+    - titre: Motor Sport, Alan Henry, « Gordon Murray » (septembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/september-1981/44/gordon-murray/
+    - titre: Motor Sport, Denis Jenkinson, « 1981 British Grand Prix race report – A very popular win » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/30/the-british-grand-prix-18/
   - annee: 1981
     ecurie: ferrari
     equipe: Ferrari
@@ -1352,20 +1475,21 @@ technologies:
     valeur: oui
     pourquoi: La 126CK, à V6 suralimenté par deux turbocompresseurs KKK, gagne à Monaco et en Espagne.
     sources:
-    - *id014
+    - titre: Motor Sport, Denis Jenkinson, « The Ferrari 126 CK » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/38/the-ferrari-126-ck/
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Madrid and Dijon » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/42/notes-on-the-cars-and-teams-at-madrid-and-dijon/
   - annee: 1981
     ecurie: ligier
     equipe: Ligier Matra
     voiture: Ligier JS17
     valeur: non
-    pourquoi: Le V12 Matra de la JS17 est atmosphérique (« NA »).
+    pourquoi: 'Le V12 Matra de la JS17 est atmosphérique : Matra continue de le développer en attendant son moteur turbo, et Motor Sport l''oppose au V6 turbo au Canada.'
     sources:
-    - &id026
-      titre: Wikipédia, « Ligier JS17 »
-      url: https://en.wikipedia.org/wiki/Ligier_JS17
-    - &id027
-      titre: Wikipédia, « Ligier JS17 »
-      url: https://fr.wikipedia.org/wiki/Ligier_JS17
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Madrid and Dijon » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/42/notes-on-the-cars-and-teams-at-madrid-and-dijon/
+    - titre: Motor Sport, Denis Jenkinson, « 1981 Canadian Grand Prix race report » (novembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/november-1981/72/canadian-grand-prix-12/
   - annee: 1981
     ecurie: mclaren
     equipe: McLaren Ford
@@ -1373,92 +1497,120 @@ technologies:
     valeur: non
     pourquoi: La MP4/1 est motorisée par le Ford-Cosworth DFV, V8 atmosphérique.
     sources:
-    - &id017
-      titre: Wikipédia, « McLaren MP4/1 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/1
-    - *id015
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Long Beach » (avril 1981)
+      url: https://www.motorsportmagazine.com/archive/article/april-1981/32/notes-cars-long-beach/
+    - titre: Motor Sport, Denis Jenkinson, « 1981 British Grand Prix race report – A very popular win » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/30/the-british-grand-prix-18/
   - annee: 1981
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE30
     valeur: oui
-    pourquoi: La RE30 garde le V6 turbo Renault, avec deux turbos KKK ; Prost gagne en France, aux Pays-Bas et en Italie.
+    pourquoi: La RE30 garde le V6 turbo Renault, avec deux turbocompresseurs séparés, un de chaque côté du moteur ; Prost gagne en France, aux Pays-Bas et en Italie.
     sources:
-    - *id016
+    - titre: Motor Sport, Denis Jenkinson, « The Ferrari 126 CK » (août 1981)
+      url: https://www.motorsportmagazine.com/archive/article/august-1981/38/the-ferrari-126-ck/
+    - titre: Motor Sport, Denis Jenkinson, « 1981 Dutch Grand Prix race report » (octobre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/october-1981/79/dutch-gp/
   - annee: 1981
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW07C
     valeur: non
-    pourquoi: La famille FW07 utilise le Ford-Cosworth DFV atmosphérique.
+    pourquoi: Les FW07C de 1981 utilisent le Ford-Cosworth DFV atmosphérique.
     sources:
-    - *id011
+    - titre: Motor Sport, Denis Jenkinson, « The Frank Williams Team » (décembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
+    - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
   - annee: 1982
     ecurie: brabham
     equipe: Brabham BMW
     voiture: Brabham BT50
     valeur: oui
-    pourquoi: La BT50, à 4 cylindres BMW M12 turbo, donne à BMW sa première victoire au Canada 1982.
+    pourquoi: Motor Sport décrit dès Kyalami les BT50 « toutes motorisées par des BMW 4 cylindres turbocompressés ». Autosport précise que la victoire de Piquet à Montréal est la première du 4 cylindres turbo BMW.
     sources:
-    - &id029
-      titre: Wikipédia, « Brabham BT50 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT50
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+      url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
+    - titre: Autosport, Damien Smith, « The changing priorities that caused an F1 giant's terminal decline » (juillet 2022)
+      url: https://www.autosport.com/f1/news/the-changing-priorities-that-caused-an-f1-giants-terminal-decline/10341824/
   - annee: 1982
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT49D
     valeur: non
-    pourquoi: La victoire de Patrese à Monaco est obtenue avec une BT49 à moteur Ford Cosworth DFV atmosphérique.
+    pourquoi: OldRacingCars donne à la BT49D/17, victorieuse avec Patrese à Monaco, un moteur Cosworth DFV V8, le V8 atmosphérique de 3 litres. Motor Sport parle lui aussi de la « Brabham BT49D à moteur Cosworth ».
     sources:
-    - *id012
+    - titre: OldRacingCars.com, « Brabham BT49D/17 race history »
+      url: https://www.oldracingcars.com/brabham/bt49/17
+    - titre: Motor Sport, Denis Jenkinson, « Canadian Grand Prix » (juillet 1982)
+      url: https://www.motorsportmagazine.com/archive/article/july-1982/48/canadian-grand-prix-14/
   - annee: 1982
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C2
     valeur: oui
-    pourquoi: La 126C2 conserve le V6 turbo Ferrari, développé et fiabilisé.
+    pourquoi: Motor Sport précise que le V6 de la 126C2 « utilisait toujours deux turbocompresseurs KKK », comme celui de la 126C de 1981.
     sources:
-    - *id014
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari - World Champion Constructors » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
   - annee: 1982
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/1B
     valeur: non
-    pourquoi: La MP4/1 et ses évolutions utilisent le Ford-Cosworth V8 atmosphérique.
+    pourquoi: 'OldRacingCars donne aux MP4/1B victorieuses en 1982 un moteur Cosworth DFV V8 atmosphérique. Motor Sport le confirme en fin de saison : en attendant le V6 turbo Porsche, McLaren gardera ses voitures de 1982 « à moteur Cosworth ».'
     sources:
-    - *id017
+    - titre: OldRacingCars.com, « McLaren MP4/1-4 race history »
+      url: https://www.oldracingcars.com/mclaren/mp4-1/4
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
   - annee: 1982
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE30B
     valeur: oui
-    pourquoi: La RE30B garde le V6 turbo Renault ; quatre victoires en 1982.
+    pourquoi: Motor Sport décrit la RE30B de 1982 et son V6 biturbo. Artcurial attribue à la RE30 B les dix poles et les quatre victoires de 1982, la meilleure saison de Renault depuis ses débuts en turbo, ce que GrandPrix.com confirme.
     sources:
-    - *id016
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+      url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
+    - titre: Artcurial, « 1982 Renault RE 30-B9 Formule 1 » (vente aux enchères)
+      url: https://www.artcurial.com/en/sales/6445/lots/92-a
+    - titre: GrandPrix.com, « Renault » (encyclopédie des constructeurs)
+      url: https://www.grandprix.com/gpe/con-renau.html
   - annee: 1982
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 91
     valeur: non
-    pourquoi: La Lotus 91 est motorisée par le Ford Cosworth DFV atmosphérique (NA).
+    pourquoi: OldRacingCars donne à la Lotus 91 victorieuse en Autriche un moteur Cosworth DFV V8 atmosphérique. Motor Sport précise que Lotus n'aura un moteur turbo, le V6 Renault, qu'en 1983.
     sources:
-    - *id018
+    - titre: OldRacingCars.com, « Lotus 91/8 race history »
+      url: https://www.oldracingcars.com/lotus/91/8
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
   - annee: 1982
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 011
     valeur: non
-    pourquoi: Le Cosworth DFV de la Tyrrell 011 est atmosphérique (NA).
+    pourquoi: 8W qualifie la Tyrrell 011 de meilleure F1 « atmosphérique » d'un plateau qui se convertit au turbo. Autosport lui donne un moteur Ford Cosworth DFV/DFY.
     sources:
-    - *id019
+    - titre: 8W (Forix), Rainer Nyberg et Mattijs Diepraam, « Michele Alboreto »
+      url: https://8w.forix.com/alboreto.html
+    - titre: Autosport, GP Racing, « The last hurrah of two F1 titans » (avril 2020)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
   - annee: 1982
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW08
     valeur: non
-    pourquoi: Le Ford Cosworth DFV de la FW08 est atmosphérique (NA).
+    pourquoi: Autosport donne à la FW08 de 1982 un Ford Cosworth DFV V8 de 2 993 cm³, donc atmosphérique. Motor Sport, à la présentation de la voiture à Zolder, confirme la motorisation Cosworth.
     sources:
-    - *id002
+    - titre: Autosport, Damien Smith, « The F1 title winner that was produced with an entirely different plan in mind » (septembre 2025)
+      url: https://www.autosport.com/f1/news/the-f1-title-winner-that-was-produced-with-an-entirely-different-plan-in-mind/10758584/
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Zolder » (juin 1982)
+      url: https://www.motorsportmagazine.com/archive/article/june-1982/49/notes-on-the-cars-at-zolder-3/
   - annee: 1983
     ecurie: brabham
     equipe: Brabham BMW
@@ -1466,7 +1618,7 @@ technologies:
     valeur: oui
     pourquoi: La BT52 est propulsée par le 4 cylindres BMW M12/13 turbo ; Piquet et Patrese gagnent quatre courses.
     sources:
-    - &id031
+    - &id012
       titre: Wikipédia, « Brabham BT52 »
       url: https://en.wikipedia.org/wiki/Brabham_BT52
   - annee: 1983
@@ -1476,7 +1628,9 @@ technologies:
     valeur: oui
     pourquoi: Les 126C2B et 126C3 gardent le V6 turbo Ferrari (environ 800 ch en qualification en 1983).
     sources:
-    - *id014
+    - &id004
+      titre: Wikipédia, « Ferrari 126C »
+      url: https://en.wikipedia.org/wiki/Ferrari_126C
   - annee: 1983
     ecurie: mclaren
     equipe: McLaren Ford
@@ -1484,7 +1638,9 @@ technologies:
     valeur: non
     pourquoi: La MP4/1C victorieuse à Long Beach utilise un Cosworth DFY V8, atmosphérique.
     sources:
-    - *id017
+    - &id013
+      titre: Wikipédia, « McLaren MP4/1 »
+      url: https://en.wikipedia.org/wiki/McLaren_MP4/1
   - annee: 1983
     ecurie: renault-1977
     equipe: Renault
@@ -1492,7 +1648,7 @@ technologies:
     valeur: oui
     pourquoi: La RE40 utilise le V6 turbo Renault Gordini EF1 ; Prost gagne quatre fois.
     sources:
-    - &id028
+    - &id014
       titre: Wikipédia, « Renault RE40 »
       url: https://en.wikipedia.org/wiki/Renault_RE40
   - annee: 1983
@@ -1502,7 +1658,9 @@ technologies:
     valeur: non
     pourquoi: La victoire de Detroit 1983 est obtenue avec la 011 à Cosworth DFV atmosphérique.
     sources:
-    - *id019
+    - &id015
+      titre: Wikipédia, « Tyrrell 011 »
+      url: https://en.wikipedia.org/wiki/Tyrrell_011
   - annee: 1983
     ecurie: williams
     equipe: Williams Ford
@@ -1510,7 +1668,7 @@ technologies:
     valeur: non
     pourquoi: La FW08C victorieuse à Monaco 1983 utilise le Ford Cosworth DFV atmosphérique.
     sources:
-    - *id002
+    - *id003
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
@@ -1518,7 +1676,7 @@ technologies:
     valeur: oui
     pourquoi: Le BMW M12/13 de la BT53 est un 4 cylindres turbo.
     sources:
-    - &id032
+    - &id016
       titre: Wikipédia, « Brabham BT53 »
       url: https://en.wikipedia.org/wiki/Brabham_BT53
   - annee: 1984
@@ -1528,10 +1686,10 @@ technologies:
     valeur: oui
     pourquoi: La 126C4 utilise le V6 Ferrari Tipo 031 turbocompressé.
     sources:
-    - &id033
+    - &id017
       titre: Wikipédia, « Ferrari 126 C4 »
       url: https://fr.wikipedia.org/wiki/Ferrari_126_C4
-    - *id014
+    - *id004
   - annee: 1984
     ecurie: mclaren
     equipe: McLaren TAG
@@ -1539,7 +1697,7 @@ technologies:
     valeur: oui
     pourquoi: La MP4/2 est motorisée par le V6 TAG-Porsche turbo ; douze victoires en 1984.
     sources:
-    - &id020
+    - &id005
       titre: Wikipédia, « McLaren MP4/2 »
       url: https://en.wikipedia.org/wiki/McLaren_MP4/2
   - annee: 1984
@@ -1549,7 +1707,7 @@ technologies:
     valeur: oui
     pourquoi: La FW09 est la première Williams à moteur V6 Honda turbo ; victoire à Dallas.
     sources:
-    - &id034
+    - &id018
       titre: Wikipédia, « Williams FW09 »
       url: https://en.wikipedia.org/wiki/Williams_FW09
   - annee: 1985
@@ -1559,7 +1717,7 @@ technologies:
     valeur: oui
     pourquoi: La BT54 utilise le BMW M12/13 turbo ; victoire de Piquet en France.
     sources:
-    - &id036
+    - &id020
       titre: Wikipédia, « Brabham BT54 »
       url: https://en.wikipedia.org/wiki/Brabham_BT54
   - annee: 1985
@@ -1569,7 +1727,7 @@ technologies:
     valeur: oui
     pourquoi: La 156/85 utilise le V6 Ferrari Tipo 031/2 turbo.
     sources:
-    - &id037
+    - &id021
       titre: Wikipédia, « Ferrari 156/85 »
       url: https://en.wikipedia.org/wiki/Ferrari_156/85
   - annee: 1985
@@ -1579,7 +1737,7 @@ technologies:
     valeur: oui
     pourquoi: La famille MP4/2 utilise le V6 TAG-Porsche turbo.
     sources:
-    - *id020
+    - *id005
   - annee: 1985
     ecurie: team-lotus
     equipe: Lotus Renault
@@ -1587,7 +1745,7 @@ technologies:
     valeur: oui
     pourquoi: La 97T est propulsée par le V6 Renault EF15B 1,5 litre turbo ; trois victoires.
     sources:
-    - &id038
+    - &id022
       titre: Wikipédia, « Lotus 97T »
       url: https://en.wikipedia.org/wiki/Lotus_97T
   - annee: 1985
@@ -1597,7 +1755,7 @@ technologies:
     valeur: oui
     pourquoi: La FW10 utilise le V6 Honda 1,5 litre biturbo ; quatre victoires.
     sources:
-    - &id035
+    - &id019
       titre: Wikipédia, « Williams FW10 »
       url: https://en.wikipedia.org/wiki/Williams_FW10
   - annee: 1986
@@ -1607,7 +1765,7 @@ technologies:
     valeur: oui
     pourquoi: La B186 utilise le 4 cylindres BMW M12/13 turbo ; victoire au Mexique.
     sources:
-    - &id039
+    - &id023
       titre: Wikipédia, « Benetton B186 »
       url: https://en.wikipedia.org/wiki/Benetton_B186
   - annee: 1986
@@ -1617,7 +1775,7 @@ technologies:
     valeur: oui
     pourquoi: La famille MP4/2 utilise le V6 TAG-Porsche turbo.
     sources:
-    - *id020
+    - *id005
   - annee: 1986
     ecurie: team-lotus
     equipe: Lotus Renault
@@ -1625,7 +1783,7 @@ technologies:
     valeur: oui
     pourquoi: La 98T utilise le V6 Renault EF15B turbocompressé ; deux victoires.
     sources:
-    - &id040
+    - &id024
       titre: Wikipédia, « Lotus 98T »
       url: https://fr.wikipedia.org/wiki/Lotus_98T
   - annee: 1986
@@ -1635,7 +1793,7 @@ technologies:
     valeur: oui
     pourquoi: La FW11 est propulsée par un V6 Honda 1,5 litre turbo ; neuf victoires.
     sources:
-    - &id021
+    - &id006
       titre: Wikipédia, « Williams FW11 »
       url: https://en.wikipedia.org/wiki/Williams_FW11
   - annee: 1987
@@ -1645,7 +1803,7 @@ technologies:
     valeur: oui
     pourquoi: La F1/87 reçoit un V6 turbo 1,5 litre (Tipo 033) ; victoires au Japon et en Australie.
     sources:
-    - &id022
+    - &id007
       titre: Wikipédia, « Ferrari F1/87 »
       url: https://en.wikipedia.org/wiki/Ferrari_F1/87
   - annee: 1987
@@ -1655,7 +1813,7 @@ technologies:
     valeur: oui
     pourquoi: La MP4/3 est la dernière McLaren à moteur TAG-Porsche turbo ; trois victoires.
     sources:
-    - &id024
+    - &id009
       titre: Wikipédia, « McLaren MP4/3 »
       url: https://en.wikipedia.org/wiki/McLaren_MP4/3
   - annee: 1987
@@ -1665,7 +1823,7 @@ technologies:
     valeur: oui
     pourquoi: La 99T utilise le V6 Honda turbo (RA166E) ; victoires à Monaco et Detroit.
     sources:
-    - &id025
+    - &id010
       titre: Wikipédia, « Lotus 99T »
       url: https://en.wikipedia.org/wiki/Lotus_99T
   - annee: 1987
@@ -1675,7 +1833,7 @@ technologies:
     valeur: oui
     pourquoi: La FW11B, évolution de la FW11 à V6 Honda turbo, gagne neuf courses en 1987.
     sources:
-    - *id021
+    - *id006
   - annee: 1988
     ecurie: ferrari
     equipe: Ferrari
@@ -1683,7 +1841,7 @@ technologies:
     valeur: oui
     pourquoi: La F1/87/88C garde le V6 turbo Tipo 033 (033A) ; victoire en Italie.
     sources:
-    - *id022
+    - *id007
   - annee: 1988
     ecurie: mclaren
     equipe: McLaren Honda
@@ -1691,7 +1849,7 @@ technologies:
     valeur: oui
     pourquoi: La MP4/4 est propulsée par le V6 Honda RA168E 1,5 litre turbo ; elle gagne toutes les courses sauf une.
     sources:
-    - *id023
+    - *id008
 - id: composite-carbone
   nom: Monocoque carbone
   nom_en: Carbon monocoque
@@ -1709,12 +1867,13 @@ technologies:
     valeur: oui
     pourquoi: La monocoque carbone devient la norme de la grille ; les quatre gagnantes de 1987 (Ferrari F1/87, McLaren MP4/3, Lotus 99T, Williams FW11B) et la McLaren MP4/4 de 1988 sont en composite carbone ; la dernière gagnante non carbone vérifiée est la Brabham BT54 de 1985.
     sources:
-    - *id015
-    - *id022
-    - *id024
-    - *id025
-    - *id021
-    - &id030
+    - titre: Motor Sport, « John Barnard remembers his McLaren MP4/1 eureka moment »
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - *id007
+    - *id009
+    - *id010
+    - *id006
+    - &id011
       titre: Wikipédia, « Brabham BT55 »
       url: https://en.wikipedia.org/wiki/Brabham_BT55
   cas:
@@ -1723,52 +1882,67 @@ technologies:
     equipe: Brabham Ford
     voiture: Brabham BT49C
     valeur: non
-    pourquoi: 'Monocoque en alliage d''aluminium renforcée de panneaux en composite carbone : pas une monocoque carbone.'
+    pourquoi: 'Selon Gordon Murray, la coque de la BT49 associe l''aluminium à des éléments en composite de carbone : ce n''est pas une monocoque carbone.'
     sources:
-    - *id012
+    - titre: 'Motor Sport, Andrew Frankel, « The simply brilliant Brabham BT49: F1 track test » (mai 1999)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1999/46/simply-the-best/
   - annee: 1981
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126CK
     valeur: non
-    pourquoi: La première « genuine full monocoque » de Ferrari, en 1982 (126C2), est encore en panneaux d'aluminium nid d'abeille ; la 126CK de 1981 n'est donc pas en carbone.
+    pourquoi: 'Le châssis de la 126CK suit la tradition de Maranello : un treillis multitubulaire habillé de tôles d''alliage d''aluminium travaillantes. Ferrari ne passe au nid d''abeille d''aluminium qu''en 1982, puis à une coque tout carbone en 1983.'
     sources:
-    - *id014
+    - titre: 'Motor Sport, Alan Henry, « Ferrari 126CK: Scuderia F1 dud Gilles Villeneuve wrestled to victory » (juin 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/june-2007/59/profile-ferrari-126ck/
   - annee: 1981
     ecurie: ligier
     equipe: Ligier Matra
     voiture: Ligier JS17
     valeur: non
-    pourquoi: Monocoque en alliage d'aluminium léger riveté.
+    pourquoi: Monocoque en alliage d'aluminium léger riveté ; Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche dérive de la Ligier-Cosworth V8.
     sources:
-    - *id026
-    - *id027
+    - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
+    - titre: Wikipédia, « Ligier JS17 »
+      url: https://en.wikipedia.org/wiki/Ligier_JS17
+    - titre: Wikipédia, « Ligier JS17 »
+      url: https://fr.wikipedia.org/wiki/Ligier_JS17
   - annee: 1981
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/1
     valeur: oui
-    pourquoi: Première F1 de course à monocoque entièrement en composite de fibre de carbone ; elle gagne le Grand Prix de Grande-Bretagne 1981.
+    pourquoi: Première F1 de course à monocoque en composite de fibre de carbone, la MP4/1 gagne le Grand Prix de Grande-Bretagne 1981.
     sources:
-    - *id017
-    - *id015
+    - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Long Beach » (avril 1981)
+      url: https://www.motorsportmagazine.com/archive/article/april-1981/32/notes-cars-long-beach/
   - annee: 1981
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE30
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone ; la première Renault entièrement en carbone sera la RE40 de 1983.
+    pourquoi: 'La première Renault à monocoque en composite de carbone est la RE40 de 1983, qui se distingue sur ce point des modèles précédents : la RE30 de 1981 n''est donc pas une monocoque carbone.'
     sources:
-    - *id016
-    - *id028
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One scene » (mars 1983)
+      url: https://www.motorsportmagazine.com/archive/article/march-1983/27/formula-one-scene-2/
+    - titre: Motor Sport, Alan Henry, « Notes on the cars in Brazil » (avril 1983)
+      url: https://www.motorsportmagazine.com/archive/article/april-1983/33/notes-cars-brazil/
   - annee: 1981
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW07C
     valeur: non
-    pourquoi: La famille FW07 a une monocoque aluminium.
+    pourquoi: La famille FW07 a une monocoque en nid d'abeille d'aluminium ; les FW07C de 1981 en reprennent la conception de base, avec un avant renforcé.
     sources:
-    - *id011
+    - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+      url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech/
+    - titre: OldRacingCars.com, « Williams FW07 car-by-car histories »
+      url: https://www.oldracingcars.com/williams/fw07/
+    - titre: Motor Sport, Denis Jenkinson, « The Frank Williams Team » (décembre 1981)
+      url: https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
   - annee: 1982
     ecurie: brabham
     equipe: Brabham BMW
@@ -1776,67 +1950,84 @@ technologies:
     valeur: non
     pourquoi: Monocoque « aluminium tub with carbon stiffening panels » ; la première Brabham entièrement en composite sera la BT55 de 1986.
     sources:
-    - *id029
-    - *id030
+    - titre: Wikipédia, « Brabham BT50 »
+      url: https://en.wikipedia.org/wiki/Brabham_BT50
+    - *id011
   - annee: 1982
     ecurie: brabham
     equipe: Brabham Ford
     voiture: Brabham BT49D
     valeur: non
-    pourquoi: Monocoque en alliage d'aluminium renforcée de panneaux carbone.
+    pourquoi: 'La fiche technique d''Autosport, qui vaut pour les BT49, BT49C et BT49D, décrit une monocoque en alliage d''aluminium renforcée de fibre de carbone : ce n''est pas une coque carbone.'
     sources:
-    - *id012
-    - *id030
+    - titre: Autosport, GP Racing, « The car that revived Brabham as an F1 force » (août 2019)
+      url: https://www.autosport.com/f1/feature/9393/the-car-that-revived-brabham-as-an-f1-force
   - annee: 1982
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C2
     valeur: non
-    pourquoi: '« Ferrari''s first genuine full monocoque chassis with honeycomb aluminum panels » : aluminium nid d''abeille, pas carbone.'
+    pourquoi: 'Motor Sport décrit la monocoque de la 126C2 comme faite « de matériau nid d''abeille en aluminium, collé », avec des cloisons en fibre de carbone : c''est du nid d''abeille aluminium, pas une coque carbone.'
     sources:
-    - *id014
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+      url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari - World Champion Constructors » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
   - annee: 1982
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/1B
     valeur: oui
-    pourquoi: Évolution de la MP4/1 à monocoque carbone.
+    pourquoi: Motor Sport décrit en 1982 les MP4B, évolutions de la MP4/1, qui gardent « la monocoque en fibre de carbone, éprouvée et victorieuse », fabriquée par Hercules. La Watson victorieuse à Detroit en est une, et la MP4/1 avait inauguré en 1981 la première monocoque entièrement en carbone.
     sources:
-    - *id017
-    - *id015
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+      url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
+    - titre: Motor Sport, « John Barnard remembers his McLaren MP4/1 eureka moment »
+      url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - titre: 'Motor Sport, Will Broadhead, « Still dominating: John Watson''s Detroit GP-winning McLaren MP4/1 » (juin 2021)'
+      url: https://www.motorsportmagazine.com/articles/historic-racing/still-dominating-john-watsons-detroit-gp-winning-mclaren-mp4-1/
   - annee: 1982
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE30B
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone ; la RE40 de 1983 est la première Renault entièrement en carbone.
+    pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone. Motor Sport présente la coque carbone de la RE40 de 1983 comme une innovation, ce qui fait de celle-ci la première Renault à coque carbone.
     sources:
-    - *id016
-    - *id028
+    - titre: Motor Sport, Pascal Dro, « Close quarters » (décembre 2007)
+      url: https://www.motorsportmagazine.com/archive/article/december-2007/86/close-quarters/
+    - titre: Wikipédia, « Renault RE30 »
+      url: https://en.wikipedia.org/wiki/Renault_RE30
   - annee: 1982
     ecurie: team-lotus
     equipe: Lotus Ford
     voiture: Lotus 91
     valeur: oui
-    pourquoi: La décision est prise de construire la Lotus 91 « in carbon fibre and Kevlar » ; monocoque carbone-Kevlar.
+    pourquoi: Le registre de Classic Team Lotus indique que les Lotus 91 ont continué « la numérotation séquentielle des monocoques carbone », commencée avec les Lotus 88 et 87.
     sources:
-    - *id018
+    - titre: Classic Team Lotus, « Type 91 » (registre Team Lotus)
+      url: https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-91
   - annee: 1982
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 011
     valeur: non
-    pourquoi: Monocoque aluminium.
+    pourquoi: OldRacingCars et Autosport décrivent la coque de la Tyrrell 011 en nid d'abeille aluminium. Maurice Philippe avait résisté « à l'attrait de la fibre de carbone ».
     sources:
-    - *id019
+    - titre: OldRacingCars.com, « Tyrrell 011 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/011/
+    - titre: Autosport, GP Racing, « The last hurrah of two F1 titans » (avril 2020)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
   - annee: 1982
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW08
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille.
+    pourquoi: Autosport décrit le châssis de la FW08 comme une monocoque en nid d'abeille aluminium. Motor Sport, à la présentation de la voiture à Zolder, note qu'elle garde « une monocoque en aluminium ».
     sources:
-    - *id002
+    - titre: Autosport, Damien Smith, « The F1 title winner that was produced with an entirely different plan in mind » (septembre 2025)
+      url: https://www.autosport.com/f1/news/the-f1-title-winner-that-was-produced-with-an-entirely-different-plan-in-mind/10758584/
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Zolder » (juin 1982)
+      url: https://www.motorsportmagazine.com/archive/article/june-1982/49/notes-on-the-cars-at-zolder-3/
   - annee: 1983
     ecurie: brabham
     equipe: Brabham BMW
@@ -1846,8 +2037,8 @@ technologies:
     sources:
     - titre: 'Formula1.com, « Tech Tuesday: The ground-breaking Brabham BT52 »'
       url: https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK
-    - *id031
-    - *id030
+    - *id012
+    - *id011
   - annee: 1983
     ecurie: ferrari
     equipe: Ferrari
@@ -1858,7 +2049,7 @@ technologies:
     sources:
     - titre: Wikipédia, « Ferrari 126 C3 »
       url: https://fr.wikipedia.org/wiki/Ferrari_126_C3
-    - *id014
+    - *id004
   - annee: 1983
     ecurie: mclaren
     equipe: McLaren Ford
@@ -1866,7 +2057,7 @@ technologies:
     valeur: oui
     pourquoi: Évolution de la MP4/1 à monocoque carbone, victorieuse à Long Beach.
     sources:
-    - *id017
+    - *id013
   - annee: 1983
     ecurie: renault-1977
     equipe: Renault
@@ -1874,7 +2065,7 @@ technologies:
     valeur: oui
     pourquoi: « The first Renault chassis to be built entirely of carbon fibre », en course dès Long Beach (manche 2), avant les quatre victoires de Prost.
     sources:
-    - *id028
+    - *id014
   - annee: 1983
     ecurie: tyrrell
     equipe: Tyrrell Ford
@@ -1882,7 +2073,7 @@ technologies:
     valeur: non
     pourquoi: Monocoque aluminium.
     sources:
-    - *id019
+    - *id015
   - annee: 1983
     ecurie: williams
     equipe: Williams Ford
@@ -1890,7 +2081,7 @@ technologies:
     valeur: non
     pourquoi: Monocoque aluminium nid d'abeille.
     sources:
-    - *id002
+    - *id003
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
@@ -1898,8 +2089,8 @@ technologies:
     valeur: non
     pourquoi: 'Monocoque « aluminium and carbon fibre », non entièrement composite : la BT55 de 1986 est la première Brabham entièrement en composite.'
     sources:
-    - *id032
-    - *id030
+    - *id016
+    - *id011
   - annee: 1984
     ecurie: ferrari
     equipe: Ferrari
@@ -1907,7 +2098,7 @@ technologies:
     valeur: oui
     pourquoi: Double coque en Kevlar et fibre de carbone.
     sources:
-    - *id033
+    - *id017
   - annee: 1984
     ecurie: mclaren
     equipe: McLaren TAG
@@ -1915,7 +2106,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en nid d'abeille de fibre de carbone.
     sources:
-    - *id020
+    - *id005
   - annee: 1984
     ecurie: williams
     equipe: Williams Honda
@@ -1923,8 +2114,8 @@ technologies:
     valeur: non
     pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone ; la FW10 de 1985 est la première Williams principalement en carbone.
     sources:
-    - *id034
-    - *id035
+    - *id018
+    - *id019
   - annee: 1985
     ecurie: brabham
     equipe: Brabham BMW
@@ -1932,8 +2123,8 @@ technologies:
     valeur: non
     pourquoi: 'Discutable : la fiche technique de la BT54 indique « Carbon fibre », mais la page de la BT55 (1986) la présente comme « Brabham''s first fully composite monocoque » ; classée non par cohérence avec la règle sur les monocoques mixtes.'
     sources:
-    - *id036
-    - *id030
+    - *id020
+    - *id011
   - annee: 1985
     ecurie: ferrari
     equipe: Ferrari
@@ -1941,7 +2132,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en composite Kevlar et fibre de carbone.
     sources:
-    - *id037
+    - *id021
   - annee: 1985
     ecurie: mclaren
     equipe: McLaren TAG
@@ -1949,7 +2140,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en nid d'abeille de fibre de carbone (famille MP4/2).
     sources:
-    - *id020
+    - *id005
   - annee: 1985
     ecurie: team-lotus
     equipe: Lotus Renault
@@ -1957,7 +2148,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en fibre de carbone et Kevlar.
     sources:
-    - *id038
+    - *id022
     - titre: Wikipédia, « Lotus 97T »
       url: https://fr.wikipedia.org/wiki/Lotus_97T
   - annee: 1985
@@ -1967,7 +2158,7 @@ technologies:
     valeur: oui
     pourquoi: Première Williams faite principalement de composite, monocoque « entirely from much stiffer carbon composite ».
     sources:
-    - *id035
+    - *id019
   - annee: 1986
     ecurie: benetton
     equipe: Benetton BMW
@@ -1975,7 +2166,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque moulée en composite de fibre de carbone.
     sources:
-    - *id039
+    - *id023
   - annee: 1986
     ecurie: mclaren
     equipe: McLaren TAG
@@ -1983,7 +2174,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en nid d'abeille de fibre de carbone (famille MP4/2).
     sources:
-    - *id020
+    - *id005
   - annee: 1986
     ecurie: team-lotus
     equipe: Lotus Renault
@@ -1991,7 +2182,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque en fibre de carbone et Kevlar (la fiche anglaise mentionne aussi de l'aluminium nid d'abeille, la fiche française seulement carbone-Kevlar).
     sources:
-    - *id040
+    - *id024
   - annee: 1986
     ecurie: williams
     equipe: Williams Honda
@@ -1999,7 +2190,7 @@ technologies:
     valeur: oui
     pourquoi: Monocoque moulée en composite carbone.
     sources:
-    - *id021
+    - *id006
 - id: suspension-active
   nom: Suspension active
   nom_en: Active suspension

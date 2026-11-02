@@ -22,10 +22,10 @@ monopoles:
   a: 1976
   pneus: Goodyear
   nature: de_fait
-  pourquoi: 'Firestone se retire après 1974 et Michelin n''arrive qu''en 1977 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
+  pourquoi: 'Firestone se retire après 1974 et Michelin n''arrive qu''en 1977, avec la Renault turbo : Goodyear est seul à fournir le plateau, monopole que Motor Sport attribue en 1977 à la défection des autres manufacturiers et non à une règle. Seule exception : au GP du Japon 1976, Bridgestone et Dunlop chaussent deux engagés locaux.'
   sources:
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
   - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
     url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - de: 1987
@@ -1148,551 +1148,556 @@ cas:
   ecurie: brm
   equipe: BRM
   pneus: Firestone
-  pourquoi: Yardley Team BRM (P160, P153) passe en Firestone en 1971.
+  pourquoi: Yardley Team BRM passe de Dunlop à Firestone en 1971 avec la P160 ; Motor Sport décrit le pneu Firestone qui se dégonfle sur la P160 victorieuse de Siffert en Autriche.
   sources:
-  - titre: Wikipedia, « 1971 Formula One season »
-    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
-  - titre: Wikipedia, « BRM P160 »
-    url: https://en.wikipedia.org/wiki/BRM_P160
+  - titre: Autosport, Kevin Turner, « The last hurrah for a former British F1 superpower » (août 2021)
+    url: https://www.autosport.com/f1/news/the-last-hurrah-for-a-former-british-f1-superpower/6646374/
+  - titre: Motor Sport, Denis Jenkinson, « 9th Austrian Grand Prix » (septembre 1971)
+    url: https://www.motorsportmagazine.com/archive/article/september-1971/21/9th-austrian-grand-prix
 - annee: 1971
   ecurie: ferrari
   equipe: Ferrari
   pneus: Firestone
-  pourquoi: Scuderia Ferrari en Firestone.
+  pourquoi: 'Scuderia Ferrari en Firestone : Motor Sport montre la Ferrari d''Ickx, victorieuse aux Pays-Bas, partir sur Firestone, et F1technical donne des Firestone aux 312B et 312B2.'
   sources:
-  - titre: Wikipedia, « 1971 Formula One season »
-    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312B »
-    url: https://en.wikipedia.org/wiki/Ferrari_312B
+  - titre: Motor Sport, Denis Jenkinson, « The 19th Dutch Grand Prix » (août 1971)
+    url: https://www.motorsportmagazine.com/archive/article/august-1971/59/the-19th-dutch-grand-prix/
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: F1technical, « Ferrari 312B2 »
+    url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
 - annee: 1971
   ecurie: matra
   equipe: Matra
   pneus: Goodyear
-  pourquoi: Équipe Matra Sports (MS120B) en Goodyear ; pole d'Amon à Monza.
+  pourquoi: 'Équipe Matra Sports en Goodyear : au Grand Prix des Pays-Bas, Motor Sport range la Matra de Beltoise parmi les voitures en Goodyear, et Nigel Roebuck la cite parmi les trois premiers clients de Goodyear à l''arrivée ; pole d''Amon à Monza.'
   sources:
-  - titre: Wikipedia, « 1971 Formula One season »
-    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
-  - titre: Wikipedia, « Matra MS120 »
-    url: https://en.wikipedia.org/wiki/Matra_MS120
+  - titre: Motor Sport, Denis Jenkinson, « The 19th Dutch Grand Prix » (août 1971)
+    url: https://www.motorsportmagazine.com/archive/article/august-1971/59/the-19th-dutch-grand-prix/
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1971
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell passe en Goodyear en 1971.
+  pourquoi: 'Elf Team Tyrrell passe en Goodyear en 1971, après le retrait de Dunlop à la fin de 1970 : à Silverstone, Stewart est le seul pilote en Goodyear des deux premières lignes, et Motor Sport cite les Goodyear de la Tyrrell victorieuse en France.'
   sources:
-  - titre: Wikipedia, « 1971 Formula One season »
-    url: https://en.wikipedia.org/wiki/1971_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 001 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_001
-  - titre: Wikipedia, « Tyrrell 003 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_003
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: Motor Sport, Denis Jenkinson, « 24th British Grand Prix » (août 1971)
+    url: https://www.motorsportmagazine.com/archive/article/august-1971/21/24th-british-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « The 4th Grand Prix of France » (août 1971)
+    url: https://www.motorsportmagazine.com/archive/article/august-1971/27/the-4th-grand-prix-of-france
 - annee: 1972
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Motor Racing Developments en Goodyear (pole de Reutemann en Argentine sur BT34).
+  pourquoi: 'Motor Racing Developments en Goodyear : en Argentine, où Reutemann signe la pole sur BT34, Motor Sport décrit les Goodyear très tendres sur lesquels il court.'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « Brabham BT34 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT34
+  - titre: Motor Sport, Andrew Marriott, « The Argentine Grand Prix » (mars 1972)
+    url: https://www.motorsportmagazine.com/archive/article/march-1972/56/the-argentine-grand-prix-2/
 - annee: 1972
   ecurie: brm
   equipe: BRM
   pneus: Firestone
-  pourquoi: Marlboro BRM en Firestone (victoire de Beltoise à Monaco sur P160).
+  pourquoi: 'Marlboro BRM en Firestone : Beltoise, vainqueur à Monaco sur la P160B, attribue en partie sa victoire à ses Firestone, « les meilleurs pneus ce jour-là ».'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « BRM P160 »
-    url: https://en.wikipedia.org/wiki/BRM_P160
+  - titre: Motor Sport, David Malsher, « BRM's last front-runner » (avril 2001)
+    url: https://www.motorsportmagazine.com/archive/article/april-2001/38/brms-last-front-runner
+  - titre: Autosport, Kevin Turner, « The last hurrah for a former British F1 superpower » (août 2021)
+    url: https://www.autosport.com/f1/news/the-last-hurrah-for-a-former-british-f1-superpower/6646374/
 - annee: 1972
   ecurie: ferrari
   equipe: Ferrari
   pneus: Firestone
-  pourquoi: Scuderia Ferrari en Firestone.
+  pourquoi: 'Scuderia Ferrari en Firestone : Motor Sport montre l''équipe travaillant avec les ingénieurs de Firestone avant le Grand Prix d''Allemagne, gagné par Ickx, et nomme Regazzoni le plus rapide des pilotes Firestone à Watkins Glen.'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312B »
-    url: https://en.wikipedia.org/wiki/Ferrari_312B
+  - titre: Motor Sport, « The 34th German Grand Prix » (septembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/september-1972/48/the-34th-german-grand-prix/
+  - titre: Motor Sport, « United States Grand Prix » (novembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/november-1972/28/united-states-grand-prix
+  - titre: F1technical, « Ferrari 312B2 »
+    url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
 - annee: 1972
   ecurie: matra
   equipe: Matra
   pneus: Goodyear
-  pourquoi: Équipe Matra Sports en Goodyear (pole d'Amon en France).
+  pourquoi: 'Équipe Matra Sports en Goodyear : en France, Amon mène depuis la pole jusqu''à ce qu''un éclat de pierre perce son Goodyear avant gauche.'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « Matra MS120 »
-    url: https://en.wikipedia.org/wiki/Matra_MS120
+  - titre: 'Motor Sport, Simon Arron, « France 1972: Stewart wins, Amon stars » (juin 2018)'
+    url: https://motorsportmagazine.com/articles/single-seaters/f1/france-1972-stewart-wins-amon-stars
 - annee: 1972
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Yardley Team McLaren en Goodyear.
+  pourquoi: 'Yardley Team McLaren en Goodyear : à Monaco, Motor Sport note que Hulme est « lui aussi en Goodyear », et à Watkins Glen il range McLaren parmi les équipes en Goodyear qui dominent les essais.'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « McLaren M19A »
-    url: https://en.wikipedia.org/wiki/McLaren_M19A
+  - titre: Motor Sport, Denis Jenkinson, « The 30th Monaco GP » (juin 1972)
+    url: https://www.motorsportmagazine.com/archive/article/june-1972/30/the-30th-monaco-gp/
+  - titre: Motor Sport, « United States Grand Prix » (novembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/november-1972/28/united-states-grand-prix
 - annee: 1972
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: John Player Team Lotus (72D) en Firestone.
+  pourquoi: 'John Player Team Lotus (72D) en Firestone : Motor Sport montre Chapman essayant des Firestone sur la voiture de Fittipaldi à Monaco, et décrit à Watkins Glen la Lotus du champion du monde « sur Firestone, bien sûr ».'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « Lotus 72 »
-    url: https://en.wikipedia.org/wiki/Lotus_72
+  - titre: Motor Sport, Denis Jenkinson, « The 30th Monaco GP » (juin 1972)
+    url: https://www.motorsportmagazine.com/archive/article/june-1972/30/the-30th-monaco-gp/
+  - titre: Motor Sport, « United States Grand Prix » (novembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/november-1972/28/united-states-grand-prix
 - annee: 1972
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell en Goodyear.
+  pourquoi: 'Elf Team Tyrrell en Goodyear : à Monaco, Motor Sport souligne que Hulme est « lui aussi en Goodyear », comme la Tyrrell de Stewart, et à Watkins Glen Tyrrell figure parmi les équipes en Goodyear qui dominent les essais.'
   sources:
-  - titre: Wikipedia, « 1972 Formula One season »
-    url: https://en.wikipedia.org/wiki/1972_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 003 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_003
+  - titre: Motor Sport, Denis Jenkinson, « The 30th Monaco GP » (juin 1972)
+    url: https://www.motorsportmagazine.com/archive/article/june-1972/30/the-30th-monaco-gp/
+  - titre: Motor Sport, « United States Grand Prix » (novembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/november-1972/28/united-states-grand-prix
 - annee: 1973
   ecurie: brm
   equipe: BRM
   pneus: Firestone
-  pourquoi: Marlboro BRM en Firestone (pole de Regazzoni en Argentine).
+  pourquoi: 'Marlboro BRM en Firestone : Motor Sport parle de « la BRM chaussée de Firestone » de Regazzoni au Brésil, et rappelle à Silverstone que BRM se plaint de ses Firestone (pole de Regazzoni en Argentine).'
   sources:
-  - titre: Wikipedia, « 1973 Formula One season »
-    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
-  - titre: Wikipedia, « BRM P160 »
-    url: https://en.wikipedia.org/wiki/BRM_P160
+  - titre: Motor Sport, Andrew Marriott, « 2nd Brazilian Grand Prix » (mars 1973)
+    url: https://www.motorsportmagazine.com/archive/article/march-1973/25/2nd-brazilian-grand-prix
+  - titre: 'Motor Sport, Denis Jenkinson, « RAC British Grand Prix: a momentous occasion » (août 1973)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1973/25/rac-british-grand-prix-a-momentous-occasion/
 - annee: 1973
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Yardley Team McLaren en Goodyear.
+  pourquoi: 'Yardley Team McLaren en Goodyear : au Grand Prix de Suède, gagné par Hulme, Motor Sport décrit les Lotus, les Tyrrell et la McLaren de tête, toutes en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1973 Formula One season »
-    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
-  - titre: Wikipedia, « McLaren M23 »
-    url: https://en.wikipedia.org/wiki/McLaren_M23
+  - titre: Motor Sport, « Swedish Grand Prix » (juillet 1973)
+    url: https://www.motorsportmagazine.com/archive/article/july-1973/29/sweidsh-grand-prix
 - annee: 1973
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: John Player Team Lotus passe en Goodyear en 1973.
+  pourquoi: 'John Player Team Lotus passe en Goodyear en 1973 : encore en Firestone à Watkins Glen à la fin de 1972, les Lotus mènent en Suède en 1973, en Goodyear comme les Tyrrell et la McLaren.'
   sources:
-  - titre: Wikipedia, « 1973 Formula One season »
-    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
+  - titre: Motor Sport, « United States Grand Prix » (novembre 1972)
+    url: https://www.motorsportmagazine.com/archive/article/november-1972/28/united-states-grand-prix
+  - titre: Motor Sport, « Swedish Grand Prix » (juillet 1973)
+    url: https://www.motorsportmagazine.com/archive/article/july-1973/29/sweidsh-grand-prix
 - annee: 1973
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell en Goodyear.
+  pourquoi: 'Elf Team Tyrrell en Goodyear : en Suède, Motor Sport décrit les deux Tyrrell en Goodyear, comme les Lotus et la McLaren qui les entourent.'
   sources:
-  - titre: Wikipedia, « 1973 Formula One season »
-    url: https://en.wikipedia.org/wiki/1973_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 006 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_006
+  - titre: Motor Sport, « Swedish Grand Prix » (juillet 1973)
+    url: https://www.motorsportmagazine.com/archive/article/july-1973/29/sweidsh-grand-prix
 - annee: 1974
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Motor Racing Developments (BT44) en Goodyear.
+  pourquoi: 'Motor Racing Developments (BT44) en Goodyear : selon Motor Sport, Goodyear a rallié en 1974 les grandes équipes, dont Brabham, et laissé à Firestone les seconds rôles.'
   sources:
-  - titre: Wikipedia, « 1974 Formula One season »
-    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
-  - titre: Wikipedia, « Brabham BT44 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT44
+  - titre: Motor Sport, Paul Fearnley, « Downhill all the way » (août 2005)
+    url: https://www.motorsportmagazine.com/archive/article/august-2005/70/downhill-all-the-way/
 - annee: 1974
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: Ferrari en Goodyear depuis 1973.
+  pourquoi: 'Ferrari en Goodyear : selon Motor Sport, Ferrari fait partie en 1974 des grandes équipes ralliées par Goodyear.'
   sources:
-  - titre: Wikipedia, « 1974 Formula One season »
-    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312B »
-    url: https://en.wikipedia.org/wiki/Ferrari_312B
+  - titre: Motor Sport, Paul Fearnley, « Downhill all the way » (août 2005)
+    url: https://www.motorsportmagazine.com/archive/article/august-2005/70/downhill-all-the-way/
 - annee: 1974
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Marlboro Team Texaco / Yardley Team McLaren en Goodyear.
+  pourquoi: 'Les McLaren M23 de Marlboro Team Texaco et de Yardley Team McLaren sont en Goodyear : selon Motor Sport, McLaren fait partie en 1974 des grandes équipes ralliées par Goodyear.'
   sources:
-  - titre: Wikipedia, « 1974 Formula One season »
-    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
-  - titre: Wikipedia, « McLaren M23 »
-    url: https://en.wikipedia.org/wiki/McLaren_M23
+  - titre: Motor Sport, Paul Fearnley, « Downhill all the way » (août 2005)
+    url: https://www.motorsportmagazine.com/archive/article/august-2005/70/downhill-all-the-way/
 - annee: 1974
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: John Player Team Lotus en Goodyear.
+  pourquoi: 'John Player Team Lotus en Goodyear : selon Motor Sport, Lotus fait partie en 1974 des grandes équipes ralliées par Goodyear.'
   sources:
-  - titre: Wikipedia, « 1974 Formula One season »
-    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
+  - titre: Motor Sport, Paul Fearnley, « Downhill all the way » (août 2005)
+    url: https://www.motorsportmagazine.com/archive/article/august-2005/70/downhill-all-the-way/
 - annee: 1974
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell en Goodyear.
+  pourquoi: 'Elf Team Tyrrell en Goodyear : selon Motor Sport, Tyrrell fait partie en 1974 des grandes équipes ralliées par Goodyear.'
   sources:
-  - titre: Wikipedia, « 1974 Formula One season »
-    url: https://en.wikipedia.org/wiki/1974_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 007 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_007
+  - titre: Motor Sport, Paul Fearnley, « Downhill all the way » (août 2005)
+    url: https://www.motorsportmagazine.com/archive/article/august-2005/70/downhill-all-the-way/
 - annee: 1975
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Martini Racing (Brabham BT44B) en Goodyear.
+  pourquoi: 'Martini Racing (Brabham BT44B) en Goodyear : Firestone parti, Goodyear est en situation de monopole depuis 1975, ce que Motor Sport constate en 1977 et que Nigel Roebuck confirme en 1997.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « Brabham BT44 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT44
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1975
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: Ferrari en Goodyear.
+  pourquoi: 'Ferrari en Goodyear : au départ de Monaco 1975, gagné par Lauda, « tout le monde » est en pneus pluie Goodyear, seul manufacturier du plateau depuis 1975.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Denis Jenkinson, « 1975 Monaco Grand Prix race report » (juin 1975)
+    url: https://www.motorsportmagazine.com/archive/article/june-1975/26/33rd-monaco-grand-prix
 - annee: 1975
   ecurie: hesketh
   equipe: Hesketh Ford
   pneus: Goodyear
-  pourquoi: Hesketh Racing, en Firestone en 1974, est en Goodyear en 1975 (victoire de Hunt aux Pays-Bas).
+  pourquoi: 'Firestone ayant quitté la F1, Hesketh Racing est en Goodyear en 1975 : au GP des Pays-Bas, gagné par Hunt, toutes les voitures essaient des Goodyear pluie avant le départ.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « Hesketh 308 »
-    url: https://en.wikipedia.org/wiki/Hesketh_308
+  - titre: Motor Sport, Denis Jenkinson, « 1975 Dutch Grand Prix race report » (août 1975)
+    url: https://www.motorsportmagazine.com/archive/article/august-1975/44/1975-dutch-grand-prix-report
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1975
   ecurie: march
   equipe: March Ford
   pneus: Goodyear
-  pourquoi: March Engineering (751) en Goodyear.
+  pourquoi: 'March Engineering (751) en Goodyear : en 1975, Goodyear chausse seul « chaque concurrent » de F1.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « March 751 »
-    url: https://en.wikipedia.org/wiki/March_751
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1975
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Marlboro Team Texaco en Goodyear.
+  pourquoi: 'Marlboro Team Texaco en Goodyear : en 1975, Goodyear est seul à fournir le plateau.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « McLaren M23 »
-    url: https://en.wikipedia.org/wiki/McLaren_M23
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Denis Jenkinson, « 1975 Monaco Grand Prix race report » (juin 1975)
+    url: https://www.motorsportmagazine.com/archive/article/june-1975/26/33rd-monaco-grand-prix
 - annee: 1975
   ecurie: shadow
   equipe: Shadow Matra
   pneus: Goodyear
-  pourquoi: Les poles attribuées à « Shadow Matra » (Argentine, Brésil, Grande-Bretagne) sont celles des DN5 ; UOP Shadow Racing est en Goodyear pour les DN5 Ford comme pour la DN7 Matra.
+  pourquoi: Les poles attribuées à « Shadow Matra » (Argentine, Brésil, Grande-Bretagne) sont celles des DN5, d'après OldRacingCars ; en 1975, Goodyear chausse seul tous les concurrents, donc UOP Shadow Racing, en DN5 Ford comme en DN7 Matra.
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « Shadow DN5 »
-    url: https://en.wikipedia.org/wiki/Shadow_DN5
-  - titre: Wikipedia, « Shadow DN7 »
-    url: https://en.wikipedia.org/wiki/Shadow_DN7
+  - titre: OldRacingCars, « Shadow DN5 car-by-car histories »
+    url: https://www.oldracingcars.com/shadow/dn5/
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1975
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell en Goodyear.
+  pourquoi: 'Elf Team Tyrrell en Goodyear : en 1975, Goodyear est seul à fournir le plateau.'
   sources:
-  - titre: Wikipedia, « 1975 Formula One season »
-    url: https://en.wikipedia.org/wiki/1975_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 007 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_007
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1976
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: Ferrari en Goodyear.
+  pourquoi: 'Ferrari en Goodyear : en 1976, Goodyear est en monopole, et à Zandvoort la polémique porte sur le choix, par Ferrari, de pneus Goodyear autres que ceux prescrits par le manufacturier.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
+  - titre: Motor Sport, Denis Jenkinson, « 1976 Dutch Grand Prix race report » (octobre 1976)
+    url: https://www.motorsportmagazine.com/archive/article/october-1976/44/dutch-grand-prix-18/
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1976
   ecurie: ligier
   equipe: Ligier Matra
   pneus: Goodyear
-  pourquoi: Ligier (JS5) en Goodyear.
+  pourquoi: 'Ligier (JS5) en Goodyear : en 1976, Goodyear fournit gratuitement chaque concurrent ; les seules exceptions, au Japon, sont deux engagés locaux (Hoshino en Bridgestone, Hasemi en Dunlop).'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « Ligier JS5 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS5
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: 'Motor Sport, Alan Henry, « 1976 Japanese Grand Prix race report: Hunt brings it home » (décembre 1976)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1976/34/japanese-grand-prix-4
 - annee: 1976
   ecurie: march
   equipe: March Ford
   pneus: Goodyear
-  pourquoi: March (761) en Goodyear.
+  pourquoi: 'March (761) en Goodyear : en 1976, Goodyear fournit chaque concurrent ; les seules exceptions, au Japon, sont deux engagés locaux.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « March 761 »
-    url: https://en.wikipedia.org/wiki/March_761
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: 'Motor Sport, Alan Henry, « 1976 Japanese Grand Prix race report: Hunt brings it home » (décembre 1976)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1976/34/japanese-grand-prix-4
 - annee: 1976
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Marlboro Team McLaren en Goodyear.
+  pourquoi: 'Marlboro Team McLaren en Goodyear : en 1976, Goodyear est en monopole, et au Japon il fournit à Hunt des pneus tendres spéciaux pour répondre aux Dunlop de la Kojima.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « McLaren M23 »
-    url: https://en.wikipedia.org/wiki/McLaren_M23
+  - titre: 'Motor Sport, Alan Henry, « 1976 Japanese Grand Prix race report: Hunt brings it home » (décembre 1976)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1976/34/japanese-grand-prix-4
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1976
   ecurie: penske
   equipe: Penske Ford
   pneus: Goodyear
-  pourquoi: Penske (PC4) en Goodyear ; victoire de Watson en Autriche.
+  pourquoi: 'Penske (PC4) en Goodyear ; victoire de Watson en Autriche : en 1976, Goodyear chausse seul tous les concurrents, Michelin n''arrivant qu''en 1977.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « Penske PC4 »
-    url: https://en.wikipedia.org/wiki/Penske_PC4
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
 - annee: 1976
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: John Player Team Lotus en Goodyear (victoire d'Andretti au Japon).
+  pourquoi: 'John Player Team Lotus en Goodyear (victoire d''Andretti au Japon) : le monopole Goodyear de 1976 ne connaît d''exception qu''au Japon, où seuls deux engagés locaux, la Tyrrell de Hoshino (Bridgestone) et la Kojima de Hasemi (Dunlop), courent sur d''autres pneus.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
+  - titre: 'Motor Sport, Alan Henry, « 1976 Japanese Grand Prix race report: Hunt brings it home » (décembre 1976)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1976/34/japanese-grand-prix-4
+  - titre: GrandPrix.com, « Japanese GP 1976 »
+    url: https://www.grandprix.com/gpe/rr280.html
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1976
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell en Goodyear (P34 victorieuse en Suède).
+  pourquoi: 'Elf Team Tyrrell en Goodyear (P34 victorieuse en Suède) : Goodyear chausse seul tous les concurrents en 1976 et fournit les pneus avant de 10 pouces de la P34.'
   sources:
-  - titre: Wikipedia, « 1976 Formula One season »
-    url: https://en.wikipedia.org/wiki/1976_Formula_One_season
-  - titre: Wikipedia, « Tyrrell P34 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_P34
+  - titre: OldRacingCars, « Tyrrell P34 car-by-car histories »
+    url: https://www.oldracingcars.com/tyrrell/p34/
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1977
   ecurie: brabham
   equipe: Brabham Alfa Romeo
   pneus: Goodyear
-  pourquoi: Brabham (BT45) en Goodyear ; seule Renault est en Michelin en 1977.
+  pourquoi: 'Brabham (BT45) en Goodyear : en 1977, seule Renault est en Michelin, « toutes les autres équipes » restant en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Brabham BT45 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT45
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1977
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: Ferrari reste en Goodyear en 1977 et ne passe chez Michelin qu'en 1978.
+  pourquoi: Ferrari reste en Goodyear en 1977, quand seule Renault court en Michelin, et ne passe chez Michelin qu'en 1978.
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
 - annee: 1977
   ecurie: ligier
   equipe: Ligier Matra
   pneus: Goodyear
-  pourquoi: Ligier (JS7) en Goodyear ; victoire de Laffite en Suède.
+  pourquoi: 'Ligier (JS7) en Goodyear ; victoire de Laffite en Suède, en juin, quand le monopole Goodyear n''est pas encore entamé : Michelin n''arrive qu''au GP de Grande-Bretagne, et sur la seule Renault.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Ligier JS7 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS7
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
 - annee: 1977
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: Marlboro Team McLaren en Goodyear.
+  pourquoi: 'Marlboro Team McLaren en Goodyear : en 1977, seule Renault est en Michelin, et au Japon, gagné par Hunt, les équipes régulières roulent sur les gommes Goodyear.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « McLaren M23 »
-    url: https://en.wikipedia.org/wiki/McLaren_M23
+  - titre: Motor Sport, Alan Henry, « 1977 Japanese Grand Prix race report » (décembre 1977)
+    url: https://www.motorsportmagazine.com/archive/article/december-1977/44/japanese-grand-prix
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
 - annee: 1977
   ecurie: shadow
   equipe: Shadow Ford
   pneus: Goodyear
-  pourquoi: Shadow (DN8) en Goodyear ; victoire de Jones en Autriche.
+  pourquoi: 'Shadow (DN8) en Goodyear ; victoire de Jones en Autriche : en 1977, Michelin ne chausse que la Renault turbo, toutes les autres équipes restant en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Shadow DN8 »
-    url: https://en.wikipedia.org/wiki/Shadow_DN8
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1977
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: John Player Team Lotus (78) en Goodyear.
+  pourquoi: 'John Player Team Lotus (78) en Goodyear : à Zolder, Jenkinson écarte l''idée de pneus Goodyear spéciaux pour la Lotus victorieuse de Nilsson ; en 1977, seule Renault est en Michelin.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Lotus 78 »
-    url: https://en.wikipedia.org/wiki/Lotus_78
+  - titre: Motor Sport, Denis Jenkinson, « 1977 Belgian Grand Prix race report » (juillet 1977)
+    url: https://www.motorsportmagazine.com/archive/article/july-1977/43/1977-belgian-grand-prix-report
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
 - annee: 1977
   ecurie: wolf
   equipe: Wolf Ford
   pneus: Goodyear
-  pourquoi: Walter Wolf Racing (WR1) en Goodyear.
+  pourquoi: 'Walter Wolf Racing (WR1) en Goodyear : en 1977, le monopole Goodyear n''est entamé que par Michelin sur la Renault turbo.'
   sources:
-  - titre: Wikipedia, « 1977 Formula One season »
-    url: https://en.wikipedia.org/wiki/1977_Formula_One_season
-  - titre: Wikipedia, « Wolf WR1 »
-    url: https://en.wikipedia.org/wiki/Wolf_WR1
+  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
+    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
 - annee: 1978
   ecurie: brabham
   equipe: Brabham Alfa Romeo
   pneus: Goodyear
-  pourquoi: Brabham (BT46) en Goodyear.
+  pourquoi: 'Brabham (BT46) en Goodyear : en Afrique du Sud, Denis Jenkinson range Brabham parmi les équipes Goodyear les mieux servies, et OldRacingCars donne la BT46 victorieuse à Monza avec Lauda.'
   sources:
-  - titre: Wikipedia, « 1978 Formula One season »
-    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
-  - titre: Wikipedia, « Brabham BT46 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT46
+  - titre: Motor Sport, Denis Jenkinson, « 1978 South African Grand Prix race report » (avril 1978)
+    url: https://www.motorsportmagazine.com/archive/article/april-1978/46/south-african-grand-prix-15
+  - titre: OldRacingCars.com, « Italian Grand Prix 1978 »
+    url: https://www.oldracingcars.com/f1/results/1978/italy/
 - annee: 1978
   ecurie: ferrari
   equipe: Ferrari
   pneus: Michelin
-  pourquoi: Ferrari passe chez Michelin en 1978.
+  pourquoi: 'Ferrari passe chez Michelin en 1978 : Motor Sport donne Ferrari et Renault comme les deux seuls clients de Michelin à Kyalami, et la 312T3 est adaptée pendant l''hiver aux nouveaux pneus radiaux Michelin.'
   sources:
-  - titre: Wikipedia, « 1978 Formula One season »
-    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
+  - titre: Motor Sport, Denis Jenkinson, « 1978 South African Grand Prix race report » (avril 1978)
+    url: https://www.motorsportmagazine.com/archive/article/april-1978/46/south-african-grand-prix-15
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T3 » (juin 2013)
+    url: https://www.ultimatecarpage.com/car/162/Ferrari-312-T3.html
+  - titre: Motor Sport, Denis Jenkinson, « 1978 Belgian Grand Prix race report » (juillet 1978)
+    url: https://www.motorsportmagazine.com/archive/article/july-1978/54/de-grote-prijs-van-belgie
 - annee: 1978
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: John Player Team Lotus (78, 79) en Goodyear.
+  pourquoi: 'John Player Team Lotus (78, 79) en Goodyear : Lotus figure parmi les équipes Goodyear privilégiées à Kyalami, et à Zolder Andretti gagne avec la Lotus 79 « on Goodyear tyres ».'
   sources:
-  - titre: Wikipedia, « 1978 Formula One season »
-    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
-  - titre: Wikipedia, « Lotus 79 »
-    url: https://en.wikipedia.org/wiki/Lotus_79
+  - titre: Motor Sport, Denis Jenkinson, « 1978 South African Grand Prix race report » (avril 1978)
+    url: https://www.motorsportmagazine.com/archive/article/april-1978/46/south-african-grand-prix-15
+  - titre: Motor Sport, Denis Jenkinson, « 1978 Belgian Grand Prix race report » (juillet 1978)
+    url: https://www.motorsportmagazine.com/archive/article/july-1978/54/de-grote-prijs-van-belgie
+  - titre: OldRacingCars.com, « Argentinian Grand Prix 1978 »
+    url: https://www.oldracingcars.com/f1/results/1978/argentina/
 - annee: 1978
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: Elf Team Tyrrell (008) en Goodyear.
+  pourquoi: 'Elf Team Tyrrell (008) en Goodyear : Motor Sport range Tyrrell parmi les équipes Goodyear privilégiées en Afrique du Sud, et OldRacingCars donne la victoire de Monaco à Depailler sur Tyrrell 008.'
   sources:
-  - titre: Wikipedia, « 1978 Formula One season »
-    url: https://en.wikipedia.org/wiki/1978_Formula_One_season
-  - titre: Wikipedia, « Tyrrell 008 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_008
+  - titre: Motor Sport, Denis Jenkinson, « 1978 South African Grand Prix race report » (avril 1978)
+    url: https://www.motorsportmagazine.com/archive/article/april-1978/46/south-african-grand-prix-15
+  - titre: OldRacingCars.com, « Monaco Grand Prix 1978 »
+    url: https://www.oldracingcars.com/f1/results/1978/monaco/
 - annee: 1979
   ecurie: ferrari
   equipe: Ferrari
   pneus: Michelin
-  pourquoi: Ferrari (312T3, 312T4) en Michelin.
+  pourquoi: 'Ferrari (312T3, 312T4) en Michelin : à Kyalami, où la T4 remplace la T3, Villeneuve gagne sur Michelin ; la T3 avait été adaptée aux radiaux Michelin dès 1978.'
   sources:
-  - titre: Wikipedia, « 1979 Formula One season »
-    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
+  - titre: Motor Sport, Denis Jenkinson, « 1979 South African Grand Prix race report » (avril 1979)
+    url: https://www.motorsportmagazine.com/archive/article/april-1979/77/south-african-grand-prix-4
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T3 » (juin 2013)
+    url: https://www.ultimatecarpage.com/car/162/Ferrari-312-T3.html
 - annee: 1979
   ecurie: ligier
   equipe: Ligier Ford
   pneus: Goodyear
-  pourquoi: Ligier (JS11) en Goodyear.
+  pourquoi: 'Ligier (JS11) en Goodyear : Motor Sport présente les Ligier comme les meilleures voitures chaussées par Goodyear à Kyalami, et l''équipe règle la voiture de Laffite sur les derniers pneus avant Goodyear à Dijon.'
   sources:
-  - titre: Wikipedia, « 1979 Formula One season »
-    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
-  - titre: Wikipedia, « Ligier JS11 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS11
+  - titre: Motor Sport, Denis Jenkinson, « 1979 South African Grand Prix race report » (avril 1979)
+    url: https://www.motorsportmagazine.com/archive/article/april-1979/77/south-african-grand-prix-4
+  - titre: Motor Sport, Denis Jenkinson, « 1979 French Grand Prix race report » (août 1979)
+    url: https://www.motorsportmagazine.com/archive/article/august-1979/68/the-grand-prix-of-france
+  - titre: OldRacingCars.com, « Argentinian Grand Prix 1979 »
+    url: https://www.oldracingcars.com/f1/results/1979/argentina/
 - annee: 1979
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: Renault (RS10) en Michelin.
+  pourquoi: 'Renault (RS10) en Michelin : à Dijon, l''équipe Renault et Michelin espèrent un temps frais pour le moteur turbo et pour les pneus ; Frank Williams rappelle que les Renault y gagnent « all on French Michelin tyres ».'
   sources:
-  - titre: Wikipedia, « 1979 Formula One season »
-    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
-  - titre: Wikipedia, « Renault RS10 »
-    url: https://en.wikipedia.org/wiki/Renault_RS10
+  - titre: Motor Sport, Denis Jenkinson, « 1979 French Grand Prix race report » (août 1979)
+    url: https://www.motorsportmagazine.com/archive/article/august-1979/68/the-grand-prix-of-france
+  - titre: Motor Sport, Matt Bishop, « F1 designer & GP winner — but Jean-Pierre Jabouille could have achieved so much more » (janvier 2024)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-designer-gp-winner-but-jean-pierre-jabouille-could-have-achieved-so-much-more/
+  - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
 - annee: 1979
   ecurie: williams
   equipe: Williams Ford
   pneus: Goodyear
-  pourquoi: Williams (FW07) en Goodyear.
+  pourquoi: 'Williams (FW07) en Goodyear : à Silverstone, Frank Williams bénéficie du plein soutien de Cosworth et de Goodyear ; à Dijon, Jones est « the first Goodyear runner ».'
   sources:
-  - titre: Wikipedia, « 1979 Formula One season »
-    url: https://en.wikipedia.org/wiki/1979_Formula_One_season
-  - titre: Wikipedia, « Williams FW07 »
-    url: https://en.wikipedia.org/wiki/Williams_FW07
+  - titre: Motor Sport, Denis Jenkinson, « 1979 British Grand Prix race report - Williams all the way » (août 1979)
+    url: https://www.motorsportmagazine.com/archive/article/august-1979/33/the-british-grand-prix-9/
+  - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
+  - titre: OldRacingCars.com, « British Grand Prix 1979 »
+    url: https://www.oldracingcars.com/f1/results/1979/britain/
 - annee: 1980
   ecurie: alfa-romeo-1979
   equipe: Alfa Romeo
   pneus: Goodyear
-  pourquoi: Alfa Romeo (179) en Goodyear ; pole de Giacomelli à Watkins Glen.
+  pourquoi: 'Alfa Romeo (179) en Goodyear ; pole de Giacomelli à Watkins Glen : Motor Sport décrit la V12 Alfa Romeo sur le mélange le plus tendre de Goodyear, puis la pole position de Giacomelli en 1 min 33,291 s.'
   sources:
-  - titre: Wikipedia, « 1980 Formula One season »
-    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
-  - titre: Wikipedia, « Alfa Romeo 179 »
-    url: https://en.wikipedia.org/wiki/Alfa_Romeo_179
+  - titre: Motor Sport, « United States Grand Prix East race report » (novembre 1980)
+    url: https://www.motorsportmagazine.com/archive/article/november-1980/52/the-us-grand-prix
 - annee: 1980
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: Brabham (BT49) en Goodyear.
+  pourquoi: 'Brabham (BT49) en Goodyear : au Grand Prix de France 1980, Brabham utilise des Goodyear avant de 13 pouces ; OldRacingCars donne la BT49 victorieuse à Long Beach.'
   sources:
-  - titre: Wikipedia, « 1980 Formula One season »
-    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
-  - titre: Wikipedia, « Brabham BT49 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT49
+  - titre: Motor Sport, Denis Jenkinson, « 1980 French Grand Prix race report » (août 1980)
+    url: https://www.motorsportmagazine.com/archive/article/august-1980/62/french-grand-prix-2/
+  - titre: OldRacingCars.com, « United States Grand Prix West 1980 »
+    url: https://www.oldracingcars.com/f1/results/1980/long-beach/
 - annee: 1980
   ecurie: ligier
   equipe: Ligier Ford
   pneus: Goodyear
-  pourquoi: Ligier en Goodyear.
+  pourquoi: 'Ligier en Goodyear : au Grand Prix de France 1980, Ligier utilise des Goodyear avant de 13 pouces ; à Brands Hatch, les Ligier et les Williams en Goodyear dominent les Renault et Ferrari en Michelin.'
   sources:
-  - titre: Wikipedia, « 1980 Formula One season »
-    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
-  - titre: Wikipedia, « Ligier JS11 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS11
+  - titre: Motor Sport, Denis Jenkinson, « 1980 French Grand Prix race report » (août 1980)
+    url: https://www.motorsportmagazine.com/archive/article/august-1980/62/french-grand-prix-2/
+  - titre: Motor Sport, Denis Jenkinson, « 1980 British Grand Prix race report - It fell flat » (août 1980)
+    url: https://www.motorsportmagazine.com/archive/article/august-1980/33/the-british-grand-prix-17/
 - annee: 1980
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: Renault (RE20) en Michelin.
+  pourquoi: 'Renault (RE20) en Michelin : Motor Sport décrit les pneus Michelin spéciaux fournis à Renault en Autriche, et les difficultés des Renault et Ferrari en Michelin à Brands Hatch.'
   sources:
-  - titre: Wikipedia, « 1980 Formula One season »
-    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
-  - titre: Wikipedia, « Renault RE20 »
-    url: https://en.wikipedia.org/wiki/Renault_RE20
+  - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
+    url: https://www.motorsportmagazine.com/archive/article/october-2025/76/when-renault-ruled-f1
+  - titre: Motor Sport, Denis Jenkinson, « 1980 Austrian Grand Prix race report » (septembre 1980)
+    url: https://www.motorsportmagazine.com/archive/article/september-1980/29/the-austrian-grand-prix-8/
+  - titre: Motor Sport, Denis Jenkinson, « 1980 British Grand Prix race report - It fell flat » (août 1980)
+    url: https://www.motorsportmagazine.com/archive/article/august-1980/33/the-british-grand-prix-17/
 - annee: 1980
   ecurie: williams
   equipe: Williams Ford
   pneus: Goodyear
-  pourquoi: Williams (FW07B) en Goodyear.
+  pourquoi: 'Williams (FW07B) en Goodyear : au Grand Prix de France 1980, Williams utilise les nouveaux Goodyear avant de 15 pouces ; la FW07B est la version 1980 de la FW07.'
   sources:
-  - titre: Wikipedia, « 1980 Formula One season »
-    url: https://en.wikipedia.org/wiki/1980_Formula_One_season
-  - titre: Wikipedia, « Williams FW07 »
-    url: https://en.wikipedia.org/wiki/Williams_FW07
+  - titre: Motor Sport, Denis Jenkinson, « 1980 French Grand Prix race report » (août 1980)
+    url: https://www.motorsportmagazine.com/archive/article/august-1980/62/french-grand-prix-2/
+  - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
+    url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
 - annee: 1981
   ecurie: arrows
   equipe: Arrows Ford
   pneus: Michelin
-  pourquoi: Goodyear s'étant retiré avant la saison, tout le plateau de Long Beach roulait en Michelin, dont l'Arrows de Patrese en pole ; Arrows ne passe chez Pirelli qu'à partir de l'Allemagne.
+  pourquoi: Goodyear s'étant retiré avant la saison, Michelin fournit un pneu de série à tout le plateau de Long Beach, où l'Arrows A3 de Patrese est en pole ; l'équipe roule encore en Michelin à Imola, puis, lâchée par Michelin après l'Espagne, obtient des Pirelli à partir du Grand Prix de Grande-Bretagne.
   sources:
-  - &id002
-    titre: Wikipedia, « 1981 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1981_Formula_One_World_Championship
-  - titre: Wikipedia, « Arrows A3 »
-    url: https://en.wikipedia.org/wiki/Arrows_A3
+  - titre: Motor Sport, Denis Jenkinson, « 1981 United States West Grand Prix race report » (avril 1981)
+    url: https://www.motorsportmagazine.com/archive/article/april-1981/30/the-united-states-west-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 San Marino Grand Prix race report » (juin 1981)
+    url: https://www.motorsportmagazine.com/archive/article/june-1981/42/san-marino-grand-prix-5/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Madrid and Dijon » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/42/notes-on-the-cars-and-teams-at-madrid-and-dijon/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 British Grand Prix race report – A very popular win » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/30/the-british-grand-prix-18/
 - annee: 1981
   ecurie: brabham
   equipe: Brabham Ford
@@ -1700,50 +1705,66 @@ cas:
   changements:
   - des: France
     pneus: Goodyear
-  pourquoi: Brabham roule en Michelin pendant le retrait de Goodyear, puis revient chez Goodyear au Grand Prix de France ; les victoires d'Argentine et de Saint-Marin et les poles du Brésil, d'Argentine et de Monaco sont en Michelin, la victoire d'Allemagne et la pole du Canada en Goodyear.
+  pourquoi: Brabham roule en Michelin pendant le retrait de Goodyear (les trois BT49C sont encore en Michelin à Imola), puis Goodyear, revenu au Grand Prix de France, réserve ses pneus à Williams et Brabham ; les victoires d'Argentine et de Saint-Marin et les poles du début de saison sont donc en Michelin, la victoire d'Allemagne et la pole du Canada en Goodyear.
   sources:
-  - *id002
-  - titre: Wikipedia, « Brabham BT49 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT49
-  - &id003
-    titre: Wikipedia, « 1981 French Grand Prix »
-    url: https://en.wikipedia.org/wiki/1981_French_Grand_Prix
+  - titre: Motor Sport, Denis Jenkinson, « 1981 United States West Grand Prix race report » (avril 1981)
+    url: https://www.motorsportmagazine.com/archive/article/april-1981/30/the-united-states-west-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Imola » (juin 1981)
+    url: https://www.motorsportmagazine.com/archive/article/june-1981/43/notes-on-the-cars-and-teams-at-imola/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 French Grand Prix race report » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/40/french-grand-prix-6/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 German Grand Prix race report » (septembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/september-1981/79/german-grand-prix-6/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 Canadian Grand Prix race report » (novembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/november-1981/72/canadian-grand-prix-12/
 - annee: 1981
   ecurie: ferrari
   equipe: Ferrari
   pneus: Michelin
-  pourquoi: Ferrari (126CK) en Michelin toute la saison.
+  pourquoi: 'Ferrari (126CK) roule en Michelin toute la saison : équipe sous contrat de longue durée avec le manufacturier français, elle l''est encore à la dernière manche, à Las Vegas.'
   sources:
-  - *id002
-  - titre: Wikipedia, « Ferrari 126C »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C
+  - titre: Motor Sport, Denis Jenkinson, « 1981 United States West Grand Prix race report » (avril 1981)
+    url: https://www.motorsportmagazine.com/archive/article/april-1981/30/the-united-states-west-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 French Grand Prix race report » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/40/french-grand-prix-6/
+  - titre: Motor Sport, Alan Henry, « 1981 Caesars Palace Grand Prix race report » (novembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/november-1981/38/las-vegas-grand-prix-3/
 - annee: 1981
   ecurie: ligier
   equipe: Ligier Matra
   pneus: Michelin
-  pourquoi: Talbot Ligier (JS17) en Michelin.
+  pourquoi: Talbot Ligier (JS17) fait partie des équipes sous contrat Michelin ; Laffite gagne en Autriche et au Canada en Michelin.
   sources:
-  - *id002
-  - titre: Wikipedia, « Ligier JS17 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS17
+  - titre: Motor Sport, Denis Jenkinson, « 1981 United States West Grand Prix race report » (avril 1981)
+    url: https://www.motorsportmagazine.com/archive/article/april-1981/30/the-united-states-west-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 Canadian Grand Prix race report » (novembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/november-1981/72/canadian-grand-prix-12/
 - annee: 1981
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Michelin
-  pourquoi: McLaren (MP4/1) en Michelin ; victoire de Watson en Grande-Bretagne.
+  pourquoi: McLaren (MP4/1) reste en Michelin quand d'autres équipes changent de manufacturier ; à Silverstone, elle figure parmi les principales équipes Michelin, et Watson y remporte le Grand Prix de Grande-Bretagne.
   sources:
-  - *id002
-  - titre: Wikipedia, « McLaren MP4/1 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+  - titre: Motor Sport, Denis Jenkinson, « 1981 French Grand Prix race report » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/40/french-grand-prix-6/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Madrid and Dijon » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/42/notes-on-the-cars-and-teams-at-madrid-and-dijon/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 British Grand Prix race report – A very popular win » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/30/the-british-grand-prix-18/
 - annee: 1981
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: Renault (RE30) en Michelin.
+  pourquoi: Renault (RE30), équipe sous contrat Michelin, roule en Michelin toute la saison.
   sources:
-  - *id002
-  - titre: Wikipedia, « Renault RE30 »
-    url: https://en.wikipedia.org/wiki/Renault_RE30
+  - titre: Motor Sport, Denis Jenkinson, « 1981 United States West Grand Prix race report » (avril 1981)
+    url: https://www.motorsportmagazine.com/archive/article/april-1981/30/the-united-states-west-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 British Grand Prix race report – A very popular win » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/30/the-british-grand-prix-18/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
 - annee: 1981
   ecurie: williams
   equipe: Williams Ford
@@ -1751,124 +1772,110 @@ cas:
   changements:
   - des: France
     pneus: Goodyear
-  pourquoi: Williams roule en Michelin jusqu'à l'Espagne (encore en Michelin selon le classement de ce GP), puis en Goodyear à partir de la France ; victoires de Long Beach, du Brésil et de Belgique en Michelin, victoire et pole de Caesars Palace en Goodyear.
+  pourquoi: Williams roule en Michelin jusqu'au Grand Prix d'Espagne, où elle les utilise pour la dernière fois, puis en Goodyear à partir de la France ; les victoires de Long Beach, du Brésil et de Belgique sont en Michelin, la victoire et la pole de Caesars Palace en Goodyear.
   sources:
-  - *id002
-  - titre: Wikipedia, « Williams FW07 »
-    url: https://en.wikipedia.org/wiki/Williams_FW07
-  - *id003
-  - titre: Wikipedia, « 1981 Spanish Grand Prix »
-    url: https://en.wikipedia.org/wiki/1981_Spanish_Grand_Prix
+  - titre: Motor Sport, Denis Jenkinson, « The Frank Williams Team » (décembre 1981)
+    url: https://www.motorsportmagazine.com/archive/article/december-1981/48/the-frank-williams-team-2/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Madrid and Dijon » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/42/notes-on-the-cars-and-teams-at-madrid-and-dijon/
+  - titre: Motor Sport, Denis Jenkinson, « 1981 Spanish Grand Prix race report » (août 1981)
+    url: https://www.motorsportmagazine.com/archive/article/august-1981/102/spanish-grand-prix-8/
 - annee: 1982
   ecurie: alfa-romeo-1979
   equipe: Alfa Romeo
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1982 : Alfa Romeo en Michelin sur toute la saison, confirmé par la fiche de la voiture (Alfa Romeo 179, Alfa Romeo 182).'
+  pourquoi: Autosport rapporte qu'à Long Beach, où de Cesaris a signé la pole de l'Alfa Romeo 182, « les pneus Michelin » ont pris l'avantage à mesure que la piste se gommait. Sa fiche technique de la 182 indique Michelin.
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Alfa Romeo 179 »
-    url: https://en.wikipedia.org/wiki/Alfa_Romeo_179
-  - titre: Wikipedia, « Alfa Romeo 182 »
-    url: https://en.wikipedia.org/wiki/Alfa_Romeo_182
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, « The F1 car that lost victory to a fist-shake » (octobre 2019)
+    url: https://www.autosport.com/f1/news/the-f1-car-that-lost-victory-to-a-fist-shake-5112977/5112977/
 - annee: 1982
   ecurie: brabham
   equipe: Brabham BMW
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Brabham BMW en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT50).'
+  pourquoi: 'Dans son bilan de fin 1982, Motor Sport annonce que Brabham passe de Goodyear à Michelin pour 1983 : l''écurie roulait donc en Goodyear en 1982. Autosport le confirme pour la BT50 BMW : en Autriche, Patrese repart avec des « Goodyear durs ».'
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Brabham BT50 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT50
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
+  - titre: Autosport, Damien Smith, « The changing priorities that caused an F1 giant's terminal decline » (juillet 2022)
+    url: https://www.autosport.com/f1/news/the-changing-priorities-that-caused-an-f1-giants-terminal-decline/10341824/
 - annee: 1982
   ecurie: brabham
   equipe: Brabham Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Brabham Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Brabham BT49). La BT49 a couru en Michelin pendant une partie de 1981, mais son tableau de résultats 1982 indique Goodyear.'
+  pourquoi: 'Selon Motor Sport, Brabham ne passe de Goodyear à Michelin qu''en vue de 1983. Au Brésil, où courent les BT49D à moteur Cosworth, le compte rendu range les Brabham parmi les équipes Goodyear, aux côtés de Ferrari et de Williams. Michelin compte huit victoires en 1982 : les quatre de Renault et les quatre de McLaren. La victoire de la BT49D à Monaco n''est donc pas une victoire Michelin.'
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Brabham BT49 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT49
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
+  - titre: Motor Sport, Alan Henry, « Brazilian Grand Prix » (avril 1982)
+    url: https://www.motorsportmagazine.com/archive/article/april-1982/70/brazilian-grand-prix-10/
+  - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
 - annee: 1982
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C). Ferrari passe de Michelin (1981) à Goodyear en 1982.'
+  pourquoi: 'Motor Sport le note dès la première course, à Kyalami : Ferrari a quitté Michelin pour Goodyear. Son bilan de fin d''année le confirme : déçu par Michelin en 1981, Enzo Ferrari est revenu à Goodyear « pour la saison 1982 ».'
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 126C »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « Ferrari - World Champion Constructors » (décembre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+    url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
 - annee: 1982
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1982 : McLaren Ford en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/1).'
+  pourquoi: 'Doug Nye, dans Motor Sport, résume la saison 1982 de McLaren : la seule difficulté venait de « ses pneus radiaux Michelin ». Le récit de la victoire de Watson à Detroit le confirme. Les huit victoires Michelin de 1982 comprennent les quatre de McLaren.'
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/1 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Doug Nye, « F1 in 1982 boasted a larger cast of leading characters than usual » (mai 2022)
+    url: https://www.motorsportmagazine.com/archive/article/may-2022/21/f1-in-1982-boasted-a-larger-cast-of-leading-characters-than-usual/
+  - titre: 'Motor Sport, Will Broadhead, « Still dominating: John Watson''s Detroit GP-winning McLaren MP4/1 » (juin 2021)'
+    url: https://www.motorsportmagazine.com/articles/historic-racing/still-dominating-john-watsons-detroit-gp-winning-mclaren-mp4-1/
+  - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
 - annee: 1982
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1982 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE30).'
+  pourquoi: Les comptes rendus de Motor Sport montrent la Renault en Michelin à la première course, à Kyalami, et encore en fin de saison, à Dijon. Michelin revendique huit victoires en 1982, dont les quatre de Renault.
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault RE30 »
-    url: https://en.wikipedia.org/wiki/Renault_RE30
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « South African Grand Prix » (mars 1982)
+    url: https://www.motorsportmagazine.com/archive/article/march-1982/36/south-african-grand-prix-14/
+  - titre: Motor Sport, « The Swiss Grand Prix » (octobre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/october-1982/42/the-swiss-grand-prix-2/
+  - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
 - annee: 1982
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Lotus Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 91). L''infobox de la Lotus 91 cite Pirelli et Goodyear (Pirelli à partir de 1983) ; son tableau de résultats 1982 indique Goodyear.'
+  pourquoi: 'Dans son bilan de fin 1982, Motor Sport annonce que Lotus passe pour 1983 de Goodyear aux radiaux Pirelli : l''écurie roulait donc en Goodyear en 1982. Michelin compte huit victoires cette année-là, toutes de Renault ou de McLaren, ce qui exclut la victoire de la Lotus en Autriche.'
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Lotus 91 »
-    url: https://en.wikipedia.org/wiki/Lotus_91
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
+  - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
 - annee: 1982
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Tyrrell Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Tyrrell 011).'
+  pourquoi: 'Tableau des engagés 1982 : Tyrrell Ford en Goodyear sur toute la saison. La fiche technique d''Autosport donne à la Tyrrell 011 des pneus Avon puis Goodyear. Les huit victoires Michelin de 1982 étant toutes de Renault ou de McLaren, la victoire d''Alboreto à Las Vegas n''est pas une victoire Michelin.'
   sources:
+  - titre: Autosport, GP Racing, « The last hurrah of two F1 titans » (avril 2020), fiche technique de la Tyrrell 011
+    url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
+  - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
   - titre: Wikipedia, « 1982 Formula One World Championship »
     url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Tyrrell 011 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_011
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
 - annee: 1982
   ecurie: williams
   equipe: Williams Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Williams Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW08).'
+  pourquoi: Autosport attribue à la FW08 de 1982 des pneus Goodyear. Dès Kyalami, Motor Sport compte Williams parmi les équipes Goodyear, en se demandant combien de temps il faudra à Ferrari pour se plaindre que Goodyear s'occupe trop de Williams.
   sources:
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW08 »
-    url: https://en.wikipedia.org/wiki/Williams_FW08
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Damien Smith, « The F1 title winner that was produced with an entirely different plan in mind » (septembre 2025)
+    url: https://www.autosport.com/f1/news/the-f1-title-winner-that-was-produced-with-an-entirely-different-plan-in-mind/10758584/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars and teams at Kyalami » (mars 1982)
+    url: https://www.motorsportmagazine.com/archive/article/march-1982/39/notes-cars-and-teams-kyalami/
 - annee: 1983
   ecurie: brabham
   equipe: Brabham BMW
