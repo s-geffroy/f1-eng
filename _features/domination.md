@@ -180,7 +180,7 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 {% include domination.html quoi="pneus" %}
 
 - **Dunlop supplies every champion from 1958 to 1965**, accompanying the rear-engine revolution, from Cooper to Lotus. But it is alone on track from 1961 to 1963: those three out-of-contention seasons split the run into a hegemony from 1958 to 1960 (three titles, 81% of wins) and a period of dominance in 1964-1965 (two titles, 95%).
-- **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons alone on track (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track.
+- **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons as de facto sole supplier (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track.
 - **Tyre wars are fought by two**: the periods overlap, because both makes often pass the threshold in the same season. From 1979 to 1984, Michelin (five dominant seasons, three titles, 59% of wins) takes on Goodyear in the middle of its hegemony (1977-1986). From 2001 to 2006, Bridgestone (four titles, Ferrari's) takes on Michelin, dominant from 2003 to 2006 (two titles, Renault's). The Firestone-Goodyear contest, from 1966 to 1972, produces only short periods of dominance.
 - **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
 

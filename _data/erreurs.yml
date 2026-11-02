@@ -330,8 +330,8 @@ erreurs:
     fr: Les voitures à moteur avant gagnent de 1950 à 1964, mais le premier roadster Kurtis n'apparaît qu'en 1952 ; les vainqueurs de 1951 et 1952 sont des voitures de type dirt-track
     en: Front-engined cars won from 1950 to 1964, but the first Kurtis roadster appeared only in 1952; the 1951 and 1952 winners were dirt-track-type cars
   explication:
-    fr: L'IMS rattache « ces voitures » à l'ère des roadsters, alors que son propre récapitulatif date le premier roadster Kurtis de 1952 et décrit les vainqueurs de 1951 et 1952 comme des voitures de dirt-track. La valeur « moteur avant » de nos données reste juste, mais nos « pourquoi » reprennent la formule « les roadsters ont gagné toutes les éditions de 1950 à 1963 ».
-    en: IMS ties “those cars” to the roadster era, whereas its own recap dates the first Kurtis roadster to 1952 and describes the 1951 and 1952 winners as dirt-track cars. Our “front engine” value remains correct, but our explanations repeat the phrase “roadsters won every edition from 1950 to 1963”.
+    fr: L'IMS rattache « ces voitures » à l'ère des roadsters, alors que son propre récapitulatif date le premier roadster Kurtis de 1952 et décrit les vainqueurs de 1951 et 1952 comme des voitures de dirt-track. La valeur « moteur avant » de nos données reste juste, et nos « pourquoi », qui reprenaient la formule « les roadsters ont gagné toutes les éditions de 1950 à 1963 », sont corrigés.
+    en: IMS ties “those cars” to the roadster era, whereas its own recap dates the first Kurtis roadster to 1952 and describes the 1951 and 1952 winners as dirt-track cars. Our “front engine” value remains correct, and our explanations, which repeated the phrase “roadsters won every edition from 1950 to 1963”, have been corrected.
   preuves:
   - titre: 'Indianapolis Motor Speedway, « Year-by-Year Indy 500 Race Recaps: 1950s » (mai 2020)'
     titre_en: 'Indianapolis Motor Speedway, “Year-by-Year Indy 500 Race Recaps: 1950s” (May 2020)'
@@ -673,8 +673,8 @@ erreurs:
     fr: Watson/Offy (John Zink Special)
     en: Watson/Offy (John Zink Special)
   explication:
-    fr: formula1.com classe la pole de Flaherty sous « Kurtis Kraft Offenhauser », alors que la même voiture gagne la course sous « Watson Offenhauser » ; l'IMS donne une Watson/Offy. Nos données ont hérité d'une entrée « Kurtis Kraft 1956 » (pneus.cas[23]) qui n'existe que par cette étiquette.
-    en: formula1.com files Flaherty's pole under “Kurtis Kraft Offenhauser”, while the same car wins the race as “Watson Offenhauser”; IMS gives a Watson/Offy. Our data inherited a “Kurtis Kraft 1956” entry (pneus.cas[23]) that exists only because of this label.
+    fr: formula1.com classe la pole de Flaherty sous « Kurtis Kraft Offenhauser », alors que la même voiture gagne la course sous « Watson Offenhauser » ; l'IMS donne une Watson/Offy. Nos données avaient hérité d'une entrée de pneus « Kurtis Kraft 1956 », qui n'existait que par cette étiquette ; elle est retirée.
+    en: formula1.com files Flaherty's pole under “Kurtis Kraft Offenhauser”, while the same car wins the race as “Watson Offenhauser”; IMS gives a Watson/Offy. Our data had inherited a “Kurtis Kraft 1956” tyre entry that existed only because of this label; it has been removed.
   preuves:
   - titre: IMS, résultats de l'Indianapolis 500 1956
     titre_en: IMS, 1956 Indianapolis 500 results
@@ -842,8 +842,8 @@ erreurs:
     fr: Cooper-Climax du Rob Walker Racing Team (la Lotus 18 de Walker n'arrive qu'à Monaco)
     en: Rob Walker Racing Team Cooper-Climax (Walker's Lotus 18 arrived only at Monaco)
   explication:
-    fr: La grille officielle met Moss, ainsi que Trintignant, son coéquipier chez Walker, sur Lotus Climax ; or les deux voitures de Walker étaient des Cooper, et Moss finit d'ailleurs la course sur la Cooper de Trintignant. Nos résultats donnent ainsi la pole d'Argentine 1960 à Team Lotus et non à Cooper.
-    en: The official grid puts Moss, and Trintignant, his Walker team-mate, in a Lotus Climax; yet both Walker cars were Coopers, and Moss in fact finished the race in Trintignant's Cooper. Our results therefore credit the 1960 Argentine pole to Team Lotus rather than Cooper.
+    fr: La grille officielle met Moss, ainsi que Trintignant, son coéquipier chez Walker, sur Lotus Climax ; or les deux voitures de Walker étaient des Cooper, et Moss finit d'ailleurs la course sur la Cooper de Trintignant. Nos résultats donnaient ainsi la pole d'Argentine 1960 à Team Lotus ; ils la donnent désormais à Cooper.
+    en: The official grid puts Moss, and Trintignant, his Walker team-mate, in a Lotus Climax; yet both Walker cars were Coopers, and Moss in fact finished the race in Trintignant's Cooper. Our results therefore credited the 1960 Argentine pole to Team Lotus; they now credit it to Cooper.
   preuves:
   - titre: Motor Sport, « 1960 Argentine Grand Prix race report » (mars 1960)
     titre_en: Motor Sport, “1960 Argentine Grand Prix race report” (March 1960)
@@ -980,8 +980,8 @@ erreurs:
     fr: Brabham Climax (V8 Coventry Climax) ; poles de Gurney aux Pays-Bas et en Belgique
     en: Brabham Climax (Coventry Climax V8); Gurney's poles in the Netherlands and Belgium
   explication:
-    fr: 'formula1.com étiquette « Brabham Ford » les Brabham d''usine sur les grilles de 1964, alors qu''elles avaient des V8 Climax et que la victoire de Gurney à Rouen est bien classée « Brabham Climax ». Nos résultats ont gardé l''étiquette : les poles de Zandvoort et de Spa sont comptées pour un moteur Ford.'
-    en: 'formula1.com labels the works Brabhams “Brabham Ford” on the 1964 grids, although they had Climax V8s and Gurney''s win at Rouen is correctly filed as “Brabham Climax”. Our results kept the label: the Zandvoort and Spa poles are counted for a Ford engine.'
+    fr: 'formula1.com étiquette « Brabham Ford » les Brabham d''usine sur les grilles de 1964, alors qu''elles avaient des V8 Climax et que la victoire de Gurney à Rouen est bien classée « Brabham Climax ». Nos résultats avaient gardé l''étiquette et comptaient les poles de Zandvoort et de Spa pour un moteur Ford ; elles sont corrigées.'
+    en: 'formula1.com labels the works Brabhams “Brabham Ford” on the 1964 grids, although they had Climax V8s and Gurney''s win at Rouen is correctly filed as “Brabham Climax”. Our results had kept the label and counted the Zandvoort and Spa poles for a Ford engine; they have been corrected.'
   preuves:
   - titre: Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report » (juin 1964)
     titre_en: Motor Sport, Denis Jenkinson, “1964 Monaco Grand Prix race report” (June 1964)
@@ -1054,8 +1054,8 @@ erreurs:
     fr: Brabham Repco (BT19/BT20 à V8 Repco 620)
     en: Brabham Repco (BT19/BT20 with Repco 620 V8)
   explication:
-    fr: 'formula1.com classe « Brabham Climax » les poles de Jack Brabham en 1966, alors que la même voiture gagne la course sous « Brabham Repco ». Nos résultats ont gardé l''étiquette : ces trois poles sont comptées pour un moteur Climax, d''où l''entrée « Brabham Climax 1966 » des pneus.'
-    en: 'formula1.com files Jack Brabham''s 1966 poles as “Brabham Climax”, while the same car wins the race as “Brabham Repco”. Our results kept the label: these three poles are counted for a Climax engine, hence the “Brabham Climax 1966” tyre entry.'
+    fr: 'formula1.com classe « Brabham Climax » les poles de Jack Brabham en 1966, alors que la même voiture gagne la course sous « Brabham Repco ». Nos résultats avaient gardé l''étiquette et comptaient ces trois poles pour un moteur Climax, avec une entrée de pneus « Brabham Climax 1966 » ; les poles sont corrigées et l''entrée retirée.'
+    en: 'formula1.com files Jack Brabham''s 1966 poles as “Brabham Climax”, while the same car wins the race as “Brabham Repco”. Our results had kept the label and counted these three poles for a Climax engine, with a “Brabham Climax 1966” tyre entry; the poles have been corrected and the entry removed.'
   preuves:
   - titre: OldRacingCars.com, « British Grand Prix 1966 » (qualifications, 1re place)
     titre_en: OldRacingCars.com, “British Grand Prix 1966” (qualifications, 1re place)
@@ -1126,8 +1126,8 @@ erreurs:
     fr: Lotus Ford (V8 Cosworth DFV) pour les neuf poles de Clark et Hill en 1967
     en: Lotus Ford (Cosworth DFV V8) for all nine 1967 poles by Clark and Hill
   explication:
-    fr: formula1.com classe « Lotus Climax » toutes les poles des Lotus 49 en 1967, alors que leurs victoires sont classées « Lotus Ford » ; sur les mêmes grilles, l'Eagle de Gurney est aussi notée « Climax » au lieu de Weslake. Nos résultats comptent ces neuf poles pour Climax, d'où l'entrée « Lotus Climax 1967 » des pneus.
-    en: formula1.com files every 1967 Lotus 49 pole as “Lotus Climax”, while their wins are filed as “Lotus Ford”; on the same grids Gurney's Eagle is also listed as “Climax” instead of Weslake. Our results count these nine poles for Climax, hence the “Lotus Climax 1967” tyre entry.
+    fr: formula1.com classe « Lotus Climax » toutes les poles des Lotus 49 en 1967, alors que leurs victoires sont classées « Lotus Ford » ; sur les mêmes grilles, l'Eagle de Gurney est aussi notée « Climax » au lieu de Weslake. Nos résultats comptaient ces neuf poles pour Climax, avec une entrée de pneus « Lotus Climax 1967 » ; les poles sont corrigées et l'entrée retirée.
+    en: formula1.com files every 1967 Lotus 49 pole as “Lotus Climax”, while their wins are filed as “Lotus Ford”; on the same grids Gurney's Eagle is also listed as “Climax” instead of Weslake. Our results counted these nine poles for Climax, with a “Lotus Climax 1967” tyre entry; the poles have been corrected and the entry removed.
   preuves:
   - titre: OldRacingCars.com, « Dutch Grand Prix 1967 » (qualifications, 1re place)
     titre_en: OldRacingCars.com, “Dutch Grand Prix 1967” (qualifications, 1re place)
@@ -1149,8 +1149,8 @@ erreurs:
     fr: Brabham BT26 à moteur Repco 860 V8 (Brabham Racing Organisation)
     en: Brabham BT26 with Repco 860 V8 engine (Brabham Racing Organisation)
   explication:
-    fr: Les grilles de départ de formula1.com pour Rouen et Mont-Tremblant 1968 désignent la voiture de Rindt comme une « Brabham Climax », alors qu'il s'agit de la BT26 à moteur Repco ; Brabham n'utilisait plus de Climax en 1968. Nos données reprennent ce libellé pour la pole, d'où l'explication donnée dans la fiche pneus.
-    en: The formula1.com starting grids for Rouen and Mont-Tremblant 1968 label Rindt's car a 'Brabham Climax', whereas it was the Repco-engined BT26; Brabham no longer used Climax engines in 1968. Our data carry this label for the pole, hence the explanation in the tyre entry.
+    fr: Les grilles de départ de formula1.com pour Rouen et Mont-Tremblant 1968 désignent la voiture de Rindt comme une « Brabham Climax », alors qu'il s'agit de la BT26 à moteur Repco ; Brabham n'utilisait plus de Climax en 1968. Nos données reprenaient ce libellé pour la pole ; elles donnent désormais la Brabham Repco.
+    en: The formula1.com starting grids for Rouen and Mont-Tremblant 1968 label Rindt's car a 'Brabham Climax', whereas it was the Repco-engined BT26; Brabham no longer used Climax engines in 1968. Our data carried this label for the pole; they now give the Brabham Repco.
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix de France 1968
     titre_en: OldRacingCars, results du Grand Prix de France 1968
@@ -1493,8 +1493,8 @@ erreurs:
     fr: Shadow DN5 à moteur Cosworth DFV (Ford) ; la DN7 à moteur Matra ne débute qu'au Grand Prix d'Autriche 1975
     en: Shadow DN5 with Cosworth DFV (Ford) engine; the Matra-engined DN7 did not race until the 1975 Austrian GP
   explication:
-    fr: Les poles de Jarier (Argentine, Brésil) et de Pryce (Grande-Bretagne) sont obtenues sur DN5 ; la seule DN7 à moteur Matra n'a pris son premier départ qu'en Autriche, en août. Formula1.com étend le libellé « Shadow Matra » aux trois grilles, et nos données de pole le reprennent.
-    en: Jarier's poles (Argentina, Brazil) and Pryce's (Britain) were set in DN5s; the sole Matra-engined DN7 first started a race in Austria, in August. Formula1.com applies the 'Shadow Matra' label to all three grids, and our pole data carry it over.
+    fr: Les poles de Jarier (Argentine, Brésil) et de Pryce (Grande-Bretagne) sont obtenues sur DN5 ; la seule DN7 à moteur Matra n'a pris son premier départ qu'en Autriche, en août. Formula1.com étend le libellé « Shadow Matra » aux trois grilles ; nos données de pole, qui le reprenaient, donnent désormais la Shadow Ford.
+    en: Jarier's poles (Argentina, Brazil) and Pryce's (Britain) were set in DN5s; the sole Matra-engined DN7 first started a race in Austria, in August. Formula1.com applies the 'Shadow Matra' label to all three grids; our pole data, which carried it over, now give the Shadow Ford.
   preuves:
   - titre: OldRacingCars, « Shadow DN5 »
     titre_en: OldRacingCars, “Shadow DN5”
@@ -2485,8 +2485,8 @@ erreurs:
     fr: FW10B introduite au Grand Prix d'Europe à Brands Hatch (14e manche) ; à Silverstone, Rosberg signe sa pole sur FW10
     en: FW10B introduced at the European Grand Prix at Brands Hatch (round 14); at Silverstone Rosberg took pole in an FW10
   explication:
-    fr: Ultimatecarpage place l'arrivée de la FW10B à mi-saison et lui attribue le record de Silverstone. Honda date son introduction du Grand Prix d'Europe (14e manche), et Motor Sport légende la pole de Rosberg à Silverstone sur FW10. Cette date, que notre pourquoi donne comme « non établie », est donc fixée par Honda ; l'attribution FW10/FW10B de nos données est correcte.
-    en: Ultimatecarpage places the FW10B's arrival mid-season and credits it with the Silverstone record. Honda dates its introduction to the European Grand Prix (round 14), and Motor Sport captions Rosberg's Silverstone pole as an FW10. That date, which our text calls 'not established', is therefore settled by Honda; our FW10/FW10B attribution is correct.
+    fr: Ultimatecarpage place l'arrivée de la FW10B à mi-saison et lui attribue le record de Silverstone. Honda date son introduction du Grand Prix d'Europe (14e manche), et Motor Sport légende la pole de Rosberg à Silverstone sur FW10. Cette date, que notre pourquoi donnait comme « non établie », est donc fixée par Honda, et le texte est corrigé ; l'attribution FW10/FW10B de nos données est correcte.
+    en: Ultimatecarpage places the FW10B's arrival mid-season and credits it with the Silverstone record. Honda dates its introduction to the European Grand Prix (round 14), and Motor Sport captions Rosberg's Silverstone pole as an FW10. That date, which our text called 'not established', is therefore settled by Honda, and the text has been corrected; our FW10/FW10B attribution is correct.
   preuves:
   - titre: Honda, « 1985 Williams Honda FW10 »
     titre_en: Honda, “1985 Williams Honda FW10”
@@ -5254,11 +5254,11 @@ erreurs:
     url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
     citation: ( Gerhard Berger in 097)
   juste:
-    fr: Châssis 098 selon Girardo & Co. ; le numéro 097 de notre pourquoi ne repose que sur Ultimatecarpage
-    en: Chassis 098 according to Girardo & Co.; the 097 in our text rests only on Ultimatecarpage
+    fr: Châssis 098 selon Girardo & Co. ; le numéro 097 de notre pourquoi ne reposait que sur Ultimatecarpage
+    en: Chassis 098 according to Girardo & Co.; the 097 in our text rested only on Ultimatecarpage
   explication:
-    fr: Ultimatecarpage, site d'amateurs, attribue les deux victoires de Berger au châssis 097 ; le marchand Girardo & Co., qui retrace la carrière du châssis 098 course par course et cite la correspondance d'usine, les attribue au 098. Nous retenons 098, mieux documenté ; le numéro 097 de notre pourquoi est à corriger ou à retirer. Le modèle (F1/87) n'est pas en cause.
-    en: Ultimatecarpage, an enthusiast site, credits Berger's two wins to chassis 097; the dealer Girardo & Co., which traces chassis 098's career race by race and cites factory correspondence, credits them to 098. We follow 098, the better documented; the 097 in our text should be corrected or removed. The model (F1/87) is not in question.
+    fr: Ultimatecarpage, site d'amateurs, attribue les deux victoires de Berger au châssis 097 ; le marchand Girardo & Co., qui retrace la carrière du châssis 098 course par course et cite la correspondance d'usine, les attribue au 098. Nous retenons 098, mieux documenté, et notre pourquoi est corrigé en conséquence. Le modèle (F1/87) n'est pas en cause.
+    en: Ultimatecarpage, an enthusiast site, credits Berger's two wins to chassis 097; the dealer Girardo & Co., which traces chassis 098's career race by race and cites factory correspondence, credits them to 098. We follow 098, the better documented, and our text has been corrected accordingly. The model (F1/87) is not in question.
   preuves:
   - titre: Girardo & Co., « 1987 Ferrari F1-87 »
     titre_en: Girardo & Co., “1987 Ferrari F1-87”

@@ -314,7 +314,7 @@ jalons:
     annee: 1970
     voie: aero
     titre: "La Lotus 72 et ses radiateurs latéraux"
-    texte: "Créditée à Maurice Philippe et Colin Chapman, la part de chacun restant discutée, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix selon Lotus (22 selon Classic Team Lotus)."
+    texte: "Créditée à Maurice Philippe et Colin Chapman, la part de chacun restant discutée, elle place les radiateurs sur les flancs ; avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix."
     entrees: [colin-chapman, maurice-philippe]
 
   - id: lotus-88
@@ -837,7 +837,7 @@ contexte:
     annee: 1975
     categorie: "economie"
     titre: "Goodyear seul fournisseur de pneus"
-    texte: "Firestone s'étant retiré, Goodyear équipe seul la F1 à partir de 1975, jusqu'à l'arrivée de Michelin avec le turbo Renault en 1977, qui ouvre une intense guerre des pneus. Tyrrell, sous contrat avec Goodyear, en obtient de petits pneus avant de 10 pouces sur mesure pour la P34. Mais ces pneus ne servent qu'à une équipe : selon Derek Gardner, Goodyear concentre son développement sur les pneus des autres."
+    texte: "Firestone s'étant retiré, Goodyear équipe seul les équipes régulières de F1 à partir de 1975, jusqu'à l'arrivée de Michelin avec le turbo Renault en 1977, qui ouvre une intense guerre des pneus. Tyrrell, sous contrat avec Goodyear, en obtient de petits pneus avant de 10 pouces sur mesure pour la P34. Mais ces pneus ne servent qu'à une équipe : selon Derek Gardner, Goodyear concentre son développement sur les pneus des autres."
     liens:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"

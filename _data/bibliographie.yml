@@ -1,7 +1,7 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2302
-editeurs_total: 129
-citations: 3705
+total: 2303
+editeurs_total: 130
+citations: 3707
 editeurs:
 - nom: Motor Sport Magazine
   n: 550
@@ -2602,6 +2602,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1985, McLaren TAG'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1985, Williams Honda'
   - titre: Motor Sport, Denis Jenkinson, « 1985 French Grand Prix race report » (août 1985)
     url: https://www.motorsportmagazine.com/archive/article/august-1985/35/french-grand-prix-5/
     pages:
@@ -14097,7 +14099,7 @@ editeurs:
       titre: Williams FW14B
 - nom: Autres éditeurs
   autres: true
-  n: 99
+  n: 100
   sources:
   - titre: 24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)
     url: https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378
@@ -14301,6 +14303,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Red Bull Ford'
+  - titre: Girardo & Co., « 1987 Ferrari F1-87 »
+    url: https://girardo.com/car/1987-ferrari-f1-87/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, Ferrari'
   - titre: Gooding & Company, « 1990 Ferrari 641/2 » (Scottsdale 2015, lot 38)
     url: https://www.goodingco.com/lot/1990-ferrari-6412
     pages:

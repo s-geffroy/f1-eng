@@ -50,6 +50,6 @@ Classic Team Lotus désigne [Maurice Philippe]({{ site.baseurl }}{% link _ingeni
 ## Ce qu'elle laisse
 
 - La 72 court six saisons de championnat consécutives{% include src.html n="1" %}.
-- Son nombre de victoires dépend de la source : **20 Grands Prix** selon Lotus Cars, Forix et le Revs Institute{% include src.html n="2,3,4" %}, 22 selon Classic Team Lotus{% include src.html n="1" %}.
+- Elle remporte **20 Grands Prix** de championnat du monde, selon Lotus Cars, Forix et le Revs Institute{% include src.html n="2,3,4" %}, ce que confirment les résultats officiels ; le chiffre de 22 avancé par Classic Team Lotus{% include src.html n="1" %} ne correspond à aucun décompte de Grands Prix de championnat.
 - Titres pilotes pour Rindt en 1970 et Emerson Fittipaldi en 1972 ; trois titres constructeurs{% include src.html n="1,2" %}.
 - Selon le Revs Institute, elle a fixé l'implantation d'une monoplace de course encore en usage aujourd'hui{% include src.html n="2" %}.

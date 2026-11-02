@@ -547,7 +547,7 @@ cas:
     - France
     - Great Britain
     - Portugal
-  pourquoi: McLaren gagne en Argentine sur T51, la T53 n'étant prête qu'en mai 1960 (OldRacingCars) ; la T53 gagne ensuite cinq Grands Prix (Conceptcarz), dont les trois victoires d'affilée de Brabham aux Pays-Bas, en Belgique et en France, puis le Portugal, où l'usine aligne ses modèles 1960.
+  pourquoi: McLaren gagne en Argentine sur T51, la T53 n'étant prête qu'en mai 1960 (OldRacingCars) ; la T53 gagne ensuite cinq Grands Prix (Conceptcarz), les cinq victoires d'affilée de Brabham aux Pays-Bas, en Belgique, en France, en Grande-Bretagne et au Portugal, où l'usine aligne ses modèles 1960.
   sources:
   - titre: Conceptcarz, « 1959 Cooper T51 »
     url: https://www.conceptcarz.com/w13767/cooper-t51.aspx
@@ -2502,10 +2502,12 @@ cas:
     - Great Britain Europe
     - South Africa
     - Australia
-  pourquoi: 'La page de Honda sur la FW10 indique que Rosberg a donné à Williams Honda sa première victoire de 1985 à Detroit. Les comptes rendus de Motor Sport montrent la version FW10B victorieuse dans les trois dernières courses : Mansell au Grand Prix d''Europe et en Afrique du Sud (FW10B/6), Rosberg en Australie (FW10B/7). La date exacte des débuts de la FW10B n''est pas établie.'
+  pourquoi: 'La page de Honda sur la FW10 indique que Rosberg a donné à Williams Honda sa première victoire de 1985 à Detroit. Les comptes rendus de Motor Sport montrent la version FW10B victorieuse dans les trois dernières courses : Mansell au Grand Prix d''Europe et en Afrique du Sud (FW10B/6), Rosberg en Australie (FW10B/7). Honda date l''arrivée de la FW10B du Grand Prix d''Europe à Brands Hatch, 14e manche ; à Silverstone, Rosberg avait encore pris la pole sur FW10.'
   sources:
   - titre: Honda, « 1985 Williams Honda FW10 »
     url: https://global.honda/en/F1/machine/1985_WilliamsHondaFW10/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 British Grand Prix race report – A bit farcical » (septembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/september-1985/21/the-british-grand-prix-2/
   - titre: Motor Sport, « 1985 Grand Prix of Europe in pictures » (novembre 1985)
     url: https://www.motorsportmagazine.com/archive/article/november-1985/62/grand-prix-europe/
   - titre: Motor Sport, Alan Henry, « 1985 South African Grand Prix race report » (décembre 1985)
@@ -2582,8 +2584,10 @@ cas:
     gps:
     - Japan
     - Australia
-  pourquoi: Berger a gagné deux fois avec la F1/87, au Japon et en Australie, les deux dernières manches de 1987 (châssis 097).
+  pourquoi: Berger a gagné deux fois avec la F1/87, au Japon et en Australie, les deux dernières manches de 1987, avec le châssis 098 selon Girardo & Co., qui retrace sa carrière course par course.
   sources:
+  - titre: Girardo & Co., « 1987 Ferrari F1-87 »
+    url: https://girardo.com/car/1987-ferrari-f1-87/
   - titre: 'Motor Sport, Samarth Kanal, « Gallery: Ferrari F1/87 » (avril 2018)'
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/gallery-ferrari-f187
   - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)

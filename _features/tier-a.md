@@ -47,7 +47,7 @@ See the [John Cooper]({{ site.baseurl }}{% link _engineers/john-cooper.md %}) en
 
 ## No. 4 — Keith Duckworth (92.5/100)
 
-The **Cosworth DFV** transformed the engine and the economics of the grid: compact and powerful, used as a structural component on the Lotus 49, then available to many teams, which could concentrate their resources on the chassis and aerodynamics. It won **more than 150 world championship Grands Prix** from 1967 to 1983, the last of them in its DFY version (the exact count varies between sources: see the entry). The DFV remains a Cosworth achievement, with **[Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})** in the causal chain.
+The **Cosworth DFV** transformed the engine and the economics of the grid: compact and powerful, used as a structural component on the Lotus 49, then available to many teams, which could concentrate their resources on the chassis and aerodynamics. It won **more than 150 world championship Grands Prix** from 1967 to 1983, the very last of them, at Detroit, in its DFY version (the exact count varies between sources: see the entry). The DFV remains a Cosworth achievement, with **[Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %})** in the causal chain.
 
 See the [Keith Duckworth]({{ site.baseurl }}{% link _engineers/keith-duckworth.md %}) entry
 

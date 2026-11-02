@@ -12,7 +12,7 @@ technologies:
   - de: 1950
     a: 1957
     valeur: non
-    pourquoi: Motor Sport présente la victoire de Moss sur Cooper en Argentine 1958 comme le premier succès en championnat du monde d'une voiture de Grand Prix à moteur arrière ; l'IMS rappelle qu'aux 500 miles d'Indianapolis (comptés jusqu'en 1960), les roadsters à moteur avant ont gagné toutes les éditions de 1950 à 1963.
+    pourquoi: Motor Sport présente la victoire de Moss sur Cooper en Argentine 1958 comme le premier succès en championnat du monde d'une voiture de Grand Prix à moteur arrière ; l'IMS rappelle qu'aux 500 miles d'Indianapolis (comptés jusqu'en 1960), les voitures à moteur devant le pilote ont gagné toutes les éditions de 1950 à 1963 (les premiers roadsters n'apparaissent qu'en 1952).
     sources:
     - titre: Motor Sport, Simon Arron, « Moss' landmark 1958 Argentine GP victory » (avril 2018)
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/moss-landmark-1958-argentine-gp-victory/
@@ -66,7 +66,7 @@ technologies:
   - annee: 1958
     ecurie: Epperly Offenhauser
     equipe: Epperly Offenhauser
-    voiture: Belond AP Special (roadster « laydown » Salih/Epperly, Offenhauser)
+    voiture: Belond AP Special (roadster « laydown » Salih, Offenhauser)
     valeur: non
     pourquoi: Jimmy Bryan gagne Indianapolis 1958 avec la Belond Special déjà victorieuse en 1957, un roadster à Offenhauser couché ; l'IMS précise que les voitures à moteur devant le pilote ont gagné toutes les éditions de 1950 à 1963 (les premiers roadsters n'apparaissent qu'en 1952).
     sources:
@@ -154,7 +154,7 @@ technologies:
     equipe: Watson Offenhauser
     voiture: Watson Indy Roadster (Offenhauser)
     valeur: non
-    pourquoi: Jim Rathmann gagne Indianapolis 1960 sur Watson/Offy (résultats IMS) ; l'IMS rappelle que les roadsters à moteur avant, œuvre de constructeurs comme A.J. Watson, ont gagné toutes les éditions de 1950 à 1963.
+    pourquoi: Jim Rathmann gagne Indianapolis 1960 sur Watson/Offy (résultats IMS) ; l'IMS rappelle que les voitures à moteur devant le pilote ont gagné toutes les éditions de 1950 à 1963 (les premiers roadsters n'apparaissent qu'en 1952).
     sources:
     - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
@@ -193,7 +193,7 @@ technologies:
   - de: 1950
     a: 1961
     valeur: non
-    pourquoi: Goodwood présente la Lotus 25 de 1962 comme la voiture qui introduit le châssis monocoque en F1, à la place du châssis tubulaire habituel. Les gagnants des saisons 1950-1961 sont donc tous à châssis tubulaire (y compris les roadsters d'Indianapolis, que nos sources ne décrivent toutefois pas en détail).
+    pourquoi: Goodwood présente la Lotus 25 de 1962 comme la voiture qui introduit le châssis monocoque en F1, à la place du châssis tubulaire habituel. Les gagnants des saisons 1950-1961 sont donc tous à châssis tubulaire (y compris les voitures d'Indianapolis, que nos sources ne décrivent toutefois pas en détail).
     sources:
     - titre: 'Goodwood, « The Lotus 25: A pioneering design to change F1 forever » (juin 2025)'
       url: https://www.goodwood.com/grr/f1/the-lotus-25-a-pioneering-design-to-change-f1-forever/
@@ -1004,8 +1004,8 @@ technologies:
   - de: 1980
     a: 1982
     valeur: oui
-    pourquoi: 'Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes coulissantes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle, et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Toutes les voitures gagnantes sont décrites comme des voitures à effet de sol : la FW07 (Doug Nye) ; la RE20, dont les « side-skirts » sont améliorées (Jenkinson, janvier 1980) ; la RE30, dont la suspension raidie doit encaisser les « ground-effect loads » (Mark Hughes) ; la BT49 (Frankel, Keilloh) ; la JS11 (Keilloh) ; la 126CK, dont les jupes « would not seal » selon Forghieri ; la 126C2 (« Ferrari were no exception ») ; la Lotus 91, « a more conventional ground effect design » (Classic Team Lotus) ; la Tyrrell 011 (OldRacingCars) ; la FW08, dernière championne « first-generation ground-effect » (Autosport) ; et la MP4/1 (Barnard). Fin 1982, Jenkinson écrit qu''aucun concepteur n''acceptait de perdre son « ground
-      effect », ce qui vaut aussi pour la Brabham BT50. Pour la Ligier JS17, les pages consultées ne le disent pas explicitement.'
+    pourquoi: 'Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes coulissantes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle, et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Les voitures gagnantes sont, pour la plupart, décrites comme des voitures à effet de sol : la FW07 (Doug Nye) ; la RE20, dont les « side-skirts » sont améliorées (Jenkinson, janvier 1980) ; la RE30, dont la suspension raidie doit encaisser les « ground-effect loads » (Mark Hughes) ; la BT49 (Frankel, Keilloh) ; la JS11 (Keilloh) ; la 126CK, dont les jupes « would not seal » selon Forghieri ; la 126C2 (« Ferrari were no exception ») ; la Lotus 91, « a more conventional ground effect design » (Classic Team Lotus) ; la Tyrrell 011 (OldRacingCars) ; la FW08, dernière championne « first-generation ground-effect » (Autosport) ; et la MP4/1 (Barnard). Fin 1982, Jenkinson écrit qu''aucun concepteur n''acceptait de perdre son « ground
+      effect » ; pour la Brabham BT50 et la Ligier JS17, que les pages consultées ne décrivent pas explicitement ainsi, le « oui » est une déduction.'
     sources:
     - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU

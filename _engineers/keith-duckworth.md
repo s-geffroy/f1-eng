@@ -49,7 +49,7 @@ The **Cosworth DFV** did not just transform the engine: it changed the industria
 4. which therefore no longer needed to develop an engine of their own (the DFV thus opened the door to teams such as those of Frank Williams and Ken Tyrrell){% include src.html n="1,5" %};
 5. and could simply build an aluminium tub and fit the engine and gearbox into it{% include src.html n="5" %}.
 
-For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won{% include src.html n="1,6" %}. The DFV won every race of the 1969 and 1973 seasons{% include src.html n="1,3" %}, and took **155 world championship Grands Prix** up to 1983, the last of them in its short-stroke DFY version{% include src.html n="5" %}.
+For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham Hill took pole and Jim Clark won{% include src.html n="1,6" %}. The DFV won every race of the 1969 and 1973 seasons{% include src.html n="1,3" %}, and took **155 world championship Grands Prix** up to 1983, the very last of them, at Detroit, in its short-stroke DFY version{% include src.html n="5" %}.
 
 ## Technical career
 

@@ -314,7 +314,7 @@ jalons:
     annee: 1970
     voie: "aero"
     titre: "The Lotus 72 and its side radiators"
-    texte: "Credited to Maurice Philippe and Colin Chapman, whose respective shares remain disputed, it places the radiators on the flanks; in its successive versions, it wins five world titles and 20 Grands Prix according to Lotus (22 according to Classic Team Lotus)."
+    texte: "Credited to Maurice Philippe and Colin Chapman, whose respective shares remain disputed, it places the radiators on the flanks; in its successive versions, it wins five world titles and 20 Grands Prix."
     entrees: ["colin-chapman", "maurice-philippe"]
 
   - id: "lotus-88"
@@ -837,7 +837,7 @@ contexte:
     annee: 1975
     categorie: "economie"
     titre: "Goodyear, sole tyre supplier"
-    texte: "With Firestone gone, Goodyear supplied the whole F1 field from 1975 until Michelin arrived with Renault's turbo project in 1977, starting an intense tyre war. Tyrrell, contracted to Goodyear, got special 10-inch front tyres for the P34. But only one team used them: according to Derek Gardner, Goodyear focused its development on everyone else's tyres."
+    texte: "With Firestone gone, Goodyear supplied all the regular F1 teams from 1975 until Michelin arrived with Renault's turbo project in 1977, starting an intense tyre war. Tyrrell, contracted to Goodyear, got special 10-inch front tyres for the P34. But only one team used them: according to Derek Gardner, Goodyear focused its development on everyone else's tyres."
     liens:
       - jalon: "tyrrell-p34"
         mecanisme: "ouvre"

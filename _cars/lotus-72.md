@@ -50,6 +50,6 @@ Classic Team Lotus names [Maurice Philippe]({{ site.baseurl }}{% link _engineers
 ## Legacy
 
 - The 72 raced for six consecutive championship seasons{% include src.html n="1" %}.
-- Its number of victories depends on the source: **20 Grands Prix** according to Lotus Cars, Forix and the Revs Institute{% include src.html n="2,3,4" %}, 22 according to Classic Team Lotus{% include src.html n="1" %}.
+- It won **20 world championship Grands Prix**, according to Lotus Cars, Forix and the Revs Institute{% include src.html n="2,3,4" %}, as the official results confirm; the figure of 22 given by Classic Team Lotus{% include src.html n="1" %} matches no count of championship Grands Prix.
 - Drivers' titles for Rindt in 1970 and Emerson Fittipaldi in 1972; three constructors' titles{% include src.html n="1,2" %}.
 - According to the Revs Institute, it set the layout of a racing single-seater still in use today{% include src.html n="2" %}.

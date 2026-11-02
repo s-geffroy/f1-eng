@@ -50,7 +50,7 @@ Le **Cosworth DFV** ne transforme pas seulement le moteur : il modifie l'écosys
 4. qui n'ont donc plus besoin de développer un moteur propriétaire (le DFV ouvre ainsi la porte à des équipes comme celles de Frank Williams et de Ken Tyrrell){% include src.html n="1,5" %} ;
 5. et peuvent se contenter de construire une coque en aluminium pour y loger le moteur et la boîte de vitesses{% include src.html n="5" %}.
 
-Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne{% include src.html n="1,6" %}. Le DFV gagne toutes les courses des saisons 1969 et 1973{% include src.html n="1,3" %}, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, les derniers dans sa version DFY à course courte{% include src.html n="5" %}.
+Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967, Graham Hill signe la pole et Jim Clark gagne{% include src.html n="1,6" %}. Le DFV gagne toutes les courses des saisons 1969 et 1973{% include src.html n="1,3" %}, et remporte **155 Grands Prix** de championnat du monde jusqu'en 1983, le dernier, à Detroit, dans sa version DFY à course courte{% include src.html n="5" %}.
 
 ## Parcours technique
 
