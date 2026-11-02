@@ -1,10 +1,10 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2296
-editeurs_total: 127
-citations: 3688
+total: 2302
+editeurs_total: 129
+citations: 3705
 editeurs:
 - nom: Motor Sport Magazine
-  n: 536
+  n: 550
   sources:
   - titre: Adam Cooper, Motor Sport Magazine, « Paul Morgan » (juillet 2001)
     url: https://www.motorsportmagazine.com/archive/article/july-2001/6/paul-morgan/
@@ -487,6 +487,8 @@ editeurs:
     - url: /dossiers/domination/
       titre: Domination (pneus)
     - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
+    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
@@ -580,6 +582,8 @@ editeurs:
   - titre: 'Motor Sport Magazine, « Lauda''s Ferrari 312T: Maranello''s lost masterpiece » (août 2020)'
     url: https://www.motorsportmagazine.com/archive/article/august-2020/58/laudas-ferrari-312t-maranellos-lost-masterpiece/
     pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
     - url: /voitures/ferrari-312t/
       titre: Ferrari 312T
   - titre: 'Motor Sport Magazine, « Little Belter: the Cooper F1 team » (février 2003)'
@@ -1137,6 +1141,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Honda (1964–1968)'
+  - titre: Motor Sport, « Avon Racing Tyres » (octobre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/october-1982/68/avon-racing-tyres/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: 'Motor Sport, « Big in Japan: Driving John Surtees'' Honda RA300 » (juillet 2005)'
     url: https://www.motorsportmagazine.com/archive/article/july-2005/40/big-in-japan/
     pages:
@@ -1296,6 +1305,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Maserati'
+  - titre: Motor Sport, « Monza mutters » (octobre 1966)
+    url: https://www.motorsportmagazine.com/archive/article/october-1966/71/monza-mutters/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, « Powerhouse Jack built » (mai 2006)
     url: https://www.motorsportmagazine.com/archive/article/may-2006/32/powerhouse-jack-built/
     pages:
@@ -1306,6 +1320,11 @@ editeurs:
     pages:
     - url: /chronologie/#c-guerre-des-malouines
       titre: 'Chronologie : 1982, La guerre des Malouines et le Grand Prix d''Argentine'
+  - titre: Motor Sport, « Rumblings, October 1970 » (octobre 1970)
+    url: https://www.motorsportmagazine.com/archive/article/october-1970/46/rumblings-october-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, « Sakhir » (base de données des circuits, non datée)
     url: https://www.motorsportmagazine.com/database/circuits/sakhir/
     pages:
@@ -1342,6 +1361,11 @@ editeurs:
       titre: 'Domination (technologies) : Ailerons'
   - titre: Motor Sport, « Swedish Grand Prix » (juillet 1973)
     url: https://www.motorsportmagazine.com/archive/article/july-1973/29/sweidsh-grand-prix
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Motor Sport, « Talking tyres » (mars 1970)
+    url: https://www.motorsportmagazine.com/archive/article/march-1970/46/talking-tyres/
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
@@ -1588,11 +1612,6 @@ editeurs:
       titre: 'Domination (châssis) : 1982, Renault'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: 'Motor Sport, Alan Henry, « Ferrari 126CK: Scuderia F1 dud Gilles Villeneuve wrestled to victory » (juin 2007)'
-    url: https://www.motorsportmagazine.com/archive/article/june-2007/59/profile-ferrari-126ck/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
   - titre: 'Motor Sport, Alan Henry, « Formula One: 1987 Brazilian GP » (mai 1987)'
     url: https://www.motorsportmagazine.com/archive/article/may-1987/9/a-joy-to-behold/
     pages:
@@ -1617,6 +1636,18 @@ editeurs:
     erreurs:
     - e002
     - e040
+  - titre: 'Motor Sport, Alan Henry, « Lotus 72: the most successful GP car ever? » (mai 1997)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1997/20/lotus-72-the-most-successful-gp-car-ever
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 'Motor Sport, Alan Henry, « Profile: Ferrari 126CK » (juin 2007)'
+    url: https://www.motorsportmagazine.com/archive/article/june-2007/59/profile-ferrari-126ck/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
   - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
     url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
     pages:
@@ -1669,6 +1700,11 @@ editeurs:
     pages:
     - url: /chronologie/#c-silverstone-aerodrome-1948
       titre: 'Chronologie : 1948, Silverstone, un aérodrome de la RAF'
+  - titre: 'Motor Sport, Andrew Marriott, « 1969 United States Grand Prix race report: Rindt runs the show » (novembre 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1969/48/the-11th-grand-prix-of-the-united-states-of-america/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, Andrew Marriott, « 2nd Brazilian Grand Prix » (mars 1973)
     url: https://www.motorsportmagazine.com/archive/article/march-1973/25/2nd-brazilian-grand-prix
     pages:
@@ -2231,6 +2267,18 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 Belgian Grand Prix: Spa Francorchamps Monologue on McLaren''s debut win » (juillet 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1968/15/francorchamps-monologue-the-belgian-grand-prix/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 French Grand Prix race report: Ickx glides to victory » (août 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1968/10/the-french-grand-prix-9/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
   - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
     url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
     pages:
@@ -2242,7 +2290,26 @@ editeurs:
     url: https://www.motorsportmagazine.com/archive/article/october-1968/15/the-39th-italian-grand-prix/
     pages:
     - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Ailerons'
+  - titre: 'Motor Sport, Denis Jenkinson, « 1969 Monaco Grand Prix race report: Hill knocks ‘em for five » (juin 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1969/26/the-monaco-grand-prix-4/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Dutch Grand Prix race report: Sharp end of the wedge » (août 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1970/44/dutch-grand-prix-8/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Monaco Grand Prix race report: Brabham bins it, Jochen wins it » (juin 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1970/25/the-28th-monaco-grand-prix/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: 'Motor Sport, Denis Jenkinson, « 1970 South African Grand Prix race report: Brabham schools the kids » (avril 1970)'
     url: https://www.motorsportmagazine.com/archive/article/april-1970/30/the-grand-prix-of-south-africa
     pages:
@@ -2837,9 +2904,16 @@ editeurs:
     - url: /dossiers/domination/
       titre: Domination (pneus)
     - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
+    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
     erreurs:
     - e074
+  - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (janvier 1980)
+    url: https://www.motorsportmagazine.com/archive/article/january-1980/32/formula-one-scene/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
   - titre: Motor Sport, Denis Jenkinson, « The Formula One scene » (janvier 1986)
     url: https://www.motorsportmagazine.com/archive/article/january-1986/30/formula-one-scene/
     pages:
@@ -2861,11 +2935,6 @@ editeurs:
       titre: 'Domination (technologies) : Monocoque carbone'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
-  - titre: Motor Sport, Denis Jenkinson, « The Monaco Grand Prix » (juin 1969)
-    url: https://www.motorsportmagazine.com/archive/article/june-1969/26/the-monaco-grand-prix-4/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Ailerons'
   - titre: Motor Sport, Denis Jenkinson, « Three new grand prix cars » (juillet 1963)
     url: https://www.motorsportmagazine.com/archive/article/july-1963/38/three-new-grand-prix-cars-2/
     pages:
@@ -3110,11 +3179,21 @@ editeurs:
     pages:
     - url: /chronologie/#c-turbo-bride
       titre: 'Chronologie : 1987, Le turbo bridé, les moteurs atmosphériques admis'
+  - titre: Motor Sport, Mark Hughes, « Against all odds » (juillet 2001)
+    url: https://www.motorsportmagazine.com/archive/article/july-2001/42/against-all-odds/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
   - titre: 'Motor Sport, Mark Hughes, « MPH: push-to-pass and active suspension, the talk around F1''s next-gen car » (5 avril 2024)'
     url: https://motorsportmagazine.com/articles/single-seaters/f1/mph-push-to-pass-and-active-suspension-the-talk-around-f1s-next-gen-car
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Suspension active'
+  - titre: Motor Sport, Mark Hughes, « When the wind blows » (décembre 2006)
+    url: https://www.motorsportmagazine.com/archive/article/december-2006/56/when-the-wind-blows/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
   - titre: Motor Sport, Mark Skewis, « Escape To Victory » (octobre 1996)
     url: https://www.motorsportmagazine.com/archive/article/october-1996/22/escape-to-victory/
     pages:
@@ -3210,6 +3289,11 @@ editeurs:
       titre: Domination (pneus)
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: 'Motor Sport, Michael Tee, « 1969 South African Grand Prix race report: Stewart streaks ahead » (avril 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/april-1969/46/grand-prix-of-south-africa-3/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, Mike Doodson, « Keith Duckworth » (janvier 1970)
     url: https://www.motorsportmagazine.com/archive/article/january-1970/41/keith-duckworth
     pages:
@@ -7074,6 +7158,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1968, McLaren Ford'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
   - titre: OldRacingCars, « Canadian Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/canada/
     pages:
@@ -7101,6 +7187,8 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1968, Matra Ford'
     - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
+    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
   - titre: OldRacingCars, « German Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/germany/
@@ -7112,6 +7200,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1968, McLaren Ford'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
   - titre: OldRacingCars, « Italian Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/italy/
     pages:
@@ -7229,6 +7319,8 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1968, Matra Ford'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
   - titre: OldRacingCars, « United States Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/usa/
     pages:
@@ -8643,8 +8735,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1966, Cooper Maserati'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
   - titre: oldracingcars.com, Grand Prix du Mexique 1967
@@ -10102,7 +10192,7 @@ editeurs:
     - url: /glossaire/#suspension-active
       titre: 'Glossaire : Suspension active'
 - nom: Autosport
-  n: 174
+  n: 175
   sources:
   - titre: Adam Cooper, Autosport, « Gustav Brunner Q&A » (juillet 2001)
     url: https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/
@@ -10154,6 +10244,11 @@ editeurs:
     pages:
     - url: /chronologie/#c-fin-des-jupes
       titre: 'Chronologie : 1981, La fin des jupes'
+  - titre: Atlas F1, Thomas O'Keefe, « Where the Rubber Meets the Road » (novembre 2000)
+    url: http://atlasf1.autosport.com/2000/nov15/okeefe.html
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
     url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
     pages:
@@ -10515,6 +10610,8 @@ editeurs:
       titre: 'Domination (châssis) : 1982, Williams Ford'
     - url: /dossiers/domination/
       titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
     - url: /dossiers/domination/
@@ -11176,7 +11273,7 @@ editeurs:
     - url: /ingenieurs/geoff-willis/
       titre: Willis, Geoff
 - nom: Honda
-  n: 36
+  n: 37
   sources:
   - titre: Honda, « 1965 Honda RA272 » (F1 Machines Powered by Honda)
     url: https://global.honda/en/F1/machine/1965_HondaRA272/
@@ -11204,6 +11301,11 @@ editeurs:
       titre: 'Domination (châssis) : 1967, Honda'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: Honda, « 1968 Honda RA301 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/1968_HondaRA301/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Honda, « 1984 Williams Honda FW09 » (F1 Machines Powered by Honda)
     url: https://global.honda/en/F1/machine/1984_WilliamsHondaFW09/
     pages:
@@ -11434,196 +11536,184 @@ editeurs:
       titre: 'Chronologie : 1986, La télémétrie en course'
     - url: /voitures/williams-fw11/
       titre: Williams FW11
-- nom: Wikipedia
-  n: 35
+- nom: Ferrari
+  n: 31
   sources:
-  - titre: Wikipedia, « 1951 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+  - titre: Ferrari N.V., « Annual Report 2018 » (2019)
+    url: https://cdn.ferrari.com/cms/network/media/pdf/2018-Annual-Report.pdf
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Acer'
+    - url: /ecuries/
+      titre: 'Écuries : Ferrari'
+  - titre: Ferrari, « 156-85 »
+    url: https://www.ferrari.com/en-EN/formula1/156-85
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-2-championnat-1952
-      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
-  - titre: Wikipedia, « 1953 Formula One season »
-    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+      titre: 'Domination (châssis) : 1985, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: Ferrari, « 1999 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-1999
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-    pages:
+      titre: 'Domination (châssis) : 1999, Ferrari'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-1-5-litres-1961
-      titre: 'Chronologie : 1961, La formule 1,5 litre'
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: Ferrari, « 2000 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-2000
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+      titre: 'Domination (châssis) : 2000, Ferrari'
+  - titre: Ferrari, « 2002 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-2002
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-    pages:
+      titre: 'Domination (châssis) : 2002, Ferrari'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
+  - titre: Ferrari, « 2007 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2007
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-    pages:
+      titre: 'Domination (châssis) : 2007, Ferrari'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Wikipedia, « 1982 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+  - titre: Ferrari, « 2008 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2008
     pages:
     - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, Ferrari'
+  - titre: Ferrari, « 2009 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2009
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2009, Ferrari'
+  - titre: Ferrari, « 2010 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2010
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2010, Ferrari'
+  - titre: Ferrari, « 2011 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2011
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2011, Ferrari'
+    - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
+  - titre: Ferrari, « 2012 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2012
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2012, Ferrari'
+  - titre: Ferrari, « 2013 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2013
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2013, Ferrari'
+  - titre: Ferrari, « 2015 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2015
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2015, Ferrari'
+  - titre: Ferrari, « 2017 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2017
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2017, Ferrari'
+  - titre: Ferrari, « 2018 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2018
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2018, Ferrari'
+  - titre: Ferrari, « 2019 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2019
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2019, Ferrari'
+  - titre: Ferrari, « 2022 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2022
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2022, Ferrari'
+  - titre: Ferrari, « 2023 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2023
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2023, Ferrari'
+  - titre: Ferrari, « 2024 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2024
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2024, Ferrari'
+  - titre: Ferrari, « 412 T1 » (site du constructeur, non daté)
+    url: https://www.ferrari.com/en-EN/formula1/412-t1
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Boîte semi-automatique'
-    erreurs:
-    - e160
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
+  - titre: 'Ferrari, « Ferrari 248 F1: 2006 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/248-f1
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
-    pages:
+      titre: 'Domination (châssis) : 2006, Ferrari'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Wikipedia, « Ferrari 126C »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C
+  - titre: 'Ferrari, « Ferrari F1-2000: 2000 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f1-2000
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: Wikipedia, « Ferrari 312 »
-    url: https://en.wikipedia.org/wiki/Ferrari_312
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Ferrari 312T »
-    url: https://en.wikipedia.org/wiki/Ferrari_312T
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-    erreurs:
-    - e154
-  - titre: Wikipedia, « Ferrari 412 T1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_412_T1
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-  - titre: Wikipedia, « Honda RA301 »
-    url: https://en.wikipedia.org/wiki/Honda_RA301
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Lotus 72 »
-    url: https://en.wikipedia.org/wiki/Lotus_72
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Matra MS10 »
-    url: https://en.wikipedia.org/wiki/Matra_MS10
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Ailerons'
-  - titre: Wikipedia, « Matra MS80 »
-    url: https://en.wikipedia.org/wiki/Matra_MS80
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « McLaren M7A »
-    url: https://en.wikipedia.org/wiki/McLaren_M7A
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Ailerons'
-  - titre: Wikipedia, « Mercedes F1 W03 »
-    url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
+      titre: 'Domination (châssis) : 2000, Ferrari'
+  - titre: 'Ferrari, « Ferrari F10: 2010 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/f10
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: Wikipedia, « Pacific PR02 »
-    url: https://en.wikipedia.org/wiki/Pacific_PR02
-    pages:
-    - url: /ecuries/pacific/
-      titre: 'Écuries : Pacific'
-  - titre: Wikipédia (en), « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
-    pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
-  - titre: Wikipédia, « Benetton B186 »
-    url: https://en.wikipedia.org/wiki/Benetton_B186
+  - titre: 'Ferrari, « Ferrari F138: 2013 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/f138
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Brabham BT50 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT50
+      titre: 'Domination (châssis) : 2013, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: 'Ferrari, « Ferrari F2001: 2001 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f2001
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Brabham BT55 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT55
+      titre: 'Domination (châssis) : 2001, Ferrari'
+  - titre: 'Ferrari, « Ferrari F2002: 2002 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f2002
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Ligier JS17 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS17
+      titre: 'Domination (châssis) : 2002, Ferrari'
+    erreurs:
+    - e130
+  - titre: 'Ferrari, « Ferrari F2012: 2012 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/f2012
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Lotus 91 »
-    url: https://en.wikipedia.org/wiki/Lotus_91
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: 'Ferrari, « Ferrari F300: 1998 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f300
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-  - titre: Wikipédia, « Renault RE20 »
-    url: https://en.wikipedia.org/wiki/Renault_RE20
+      titre: 'Domination (châssis) : 1998, Ferrari'
+  - titre: 'Ferrari, « Ferrari F310 B: 1997 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f310-b
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-  - titre: Wikipédia, « Renault RE30 »
-    url: https://en.wikipedia.org/wiki/Renault_RE30
+      titre: 'Domination (châssis) : 1997, Ferrari'
+  - titre: 'Ferrari, « Ferrari F399: 1999 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f399
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Williams FW08 »
-    url: https://en.wikipedia.org/wiki/Williams_FW08
+      titre: 'Domination (châssis) : 1999, Ferrari'
+  - titre: 'Ferrari, « Ferrari F60: 2009 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/f60
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
+      titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: Goodwood
   n: 31
   sources:
@@ -11837,331 +11927,8 @@ editeurs:
       titre: 'Chronologie : 1970, La Chaparral 2J aspirante'
     - url: /chronologie/#c-ventilateur-ecarte-1978
       titre: 'Chronologie : 1978, La voiture à ventilateur écartée'
-- nom: Ferrari
-  n: 30
-  sources:
-  - titre: Ferrari N.V., « Annual Report 2018 » (2019)
-    url: https://cdn.ferrari.com/cms/network/media/pdf/2018-Annual-Report.pdf
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Acer'
-    - url: /ecuries/
-      titre: 'Écuries : Ferrari'
-  - titre: Ferrari, « 156-85 »
-    url: https://www.ferrari.com/en-EN/formula1/156-85
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1985, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Ferrari, « 1999 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
-    url: https://www.ferrari.com/en-EN/formula1/year-1999
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1999, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Ferrari, « 2000 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
-    url: https://www.ferrari.com/en-EN/formula1/year-2000
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2000, Ferrari'
-  - titre: Ferrari, « 2002 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
-    url: https://www.ferrari.com/en-EN/formula1/year-2002
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2002, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Ferrari, « 2007 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2007
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2007, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Ferrari, « 2008 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2008
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, Ferrari'
-  - titre: Ferrari, « 2009 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2009
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2009, Ferrari'
-  - titre: Ferrari, « 2010 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2010
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2010, Ferrari'
-  - titre: Ferrari, « 2011 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2011
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2011, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Ferrari, « 2012 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2012
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2012, Ferrari'
-  - titre: Ferrari, « 2013 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2013
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Ferrari'
-  - titre: Ferrari, « 2015 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2015
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2015, Ferrari'
-  - titre: Ferrari, « 2017 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2017
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2017, Ferrari'
-  - titre: Ferrari, « 2018 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2018
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2018, Ferrari'
-  - titre: Ferrari, « 2019 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2019
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2019, Ferrari'
-  - titre: Ferrari, « 2022 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2022
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2022, Ferrari'
-  - titre: Ferrari, « 2023 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2023
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2023, Ferrari'
-  - titre: Ferrari, « 2024 | History of Scuderia Ferrari Formula 1 »
-    url: https://www.ferrari.com/en-EN/formula1/year-2024
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2024, Ferrari'
-  - titre: 'Ferrari, « Ferrari 248 F1: 2006 F1 single-seater »'
-    url: https://www.ferrari.com/en-EN/formula1/248-f1
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2006, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: 'Ferrari, « Ferrari F1-2000: 2000 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f1-2000
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2000, Ferrari'
-  - titre: 'Ferrari, « Ferrari F10: 2010 F1 single-seater »'
-    url: https://www.ferrari.com/en-EN/formula1/f10
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: 'Ferrari, « Ferrari F138: 2013 F1 single-seater »'
-    url: https://www.ferrari.com/en-EN/formula1/f138
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: 'Ferrari, « Ferrari F2001: 2001 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f2001
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2001, Ferrari'
-  - titre: 'Ferrari, « Ferrari F2002: 2002 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f2002
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2002, Ferrari'
-    erreurs:
-    - e130
-  - titre: 'Ferrari, « Ferrari F2012: 2012 F1 single-seater »'
-    url: https://www.ferrari.com/en-EN/formula1/f2012
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: 'Ferrari, « Ferrari F300: 1998 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f300
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1998, Ferrari'
-  - titre: 'Ferrari, « Ferrari F310 B: 1997 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f310-b
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1997, Ferrari'
-  - titre: 'Ferrari, « Ferrari F399: 1999 F1 single-seater » (Ferrari.com)'
-    url: https://www.ferrari.com/en-EN/formula1/f399
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1999, Ferrari'
-  - titre: 'Ferrari, « Ferrari F60: 2009 F1 single-seater »'
-    url: https://www.ferrari.com/en-EN/formula1/f60
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-- nom: F1Technical
-  n: 26
-  sources:
-  - titre: F1technical, « Brabham BT53 BMW »
-    url: https://www.f1technical.net/f1db/cars/537/brabham-bt53
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-    erreurs:
-    - e006
-    - e094
-  - titre: F1technical, « Ferrari 312 »
-    url: https://www.f1technical.net/f1db/cars/203
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: F1technical, « Ferrari 312B »
-    url: https://www.f1technical.net/f1db/cars/256/ferrari-312b
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: F1technical, « Ferrari 312B2 »
-    url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: F1Technical, « Lotus E21 Renault » (base de données)
-    url: https://www.f1technical.net/f1db/cars/1000
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1Technical, « Mercedes AMG F1 W04 » (base de données)
-    url: https://www.f1technical.net/f1db/cars/1005
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1Technical, « Renault R23B »
-    url: https://www.f1technical.net/f1db/cars/917/renault-r23b
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2003, Renault'
-  - titre: F1technical, « Tyrrell 003 »
-    url: https://www.f1technical.net/f1db/cars/280/tyrrell-003
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: F1Technical, « Viry celebrates 30 years in F1 » (décembre 2006)
-    url: https://www.f1technical.net/news/4462
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Renault'
-    - url: /ecuries/
-      titre: 'Écuries : TAG Heuer'
-  - titre: 'F1Technical, Steven De Groote, « 2014 regulations: F1''s engine revolution » (décembre 2013)'
-    url: https://www.f1technical.net/features/19037
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: F1Technical, Steven De Groote, « Lotus delighted to start season with win » (mars 2013)
-    url: https://www.f1technical.net/news/18240
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Lotus Renault'
-  - titre: F1Technical, Steven De Groote, « Raikkonen wins Australian GP at Melbourne » (mars 2013)
-    url: https://www.f1technical.net/news/18230
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Lotus Renault'
-  - titre: F1Technical, Steven De Groote, « Vettel happy as Webber hits KERS issue » (mars 2013)
-    url: https://www.f1technical.net/news/18233
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « BMW Sauber F1.08 »
-    url: https://www.f1technical.net/f1db/cars/937/bmw-sauber-f108
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, Sauber BMW'
-  - titre: F1technical.net, « Brawn BGP001 Mercedes »
-    url: https://www.f1technical.net/f1db/cars/956/brawn-bgp001
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « Ferrari F150 »
-    url: https://www.f1technical.net/f1db/cars/971/ferrari-f150
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-    erreurs:
-    - e126
-  - titre: F1technical.net, « ING Renault R28 »
-    url: https://www.f1technical.net/f1db/cars/934/renault-r28
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, Renault'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: F1technical.net, « Lotus E20 Renault »
-    url: https://www.f1technical.net/f1db/cars/994/lotus-e20
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2012, Lotus Renault'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « McLaren MP4-24 Mercedes »
-    url: https://www.f1technical.net/f1db/cars/949/mclaren-mp4-24
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « McLaren MP4-26 Mercedes »
-    url: https://www.f1technical.net/f1db/cars/981/mclaren-mp4-26
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « McLaren MP4-27 Mercedes »
-    url: https://www.f1technical.net/f1db/cars/983/mclaren-mp4-27
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « Red Bull RB7 Renault »
-    url: https://www.f1technical.net/f1db/cars/978/red-bull-rb7
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, « Red Bull RB8 Renault »
-    url: https://www.f1technical.net/f1db/cars/986/red-bull-rb8
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2012, Red Bull Racing Renault'
-  - titre: F1technical.net, « Scuderia Toro Rosso STR3 »
-    url: https://www.f1technical.net/f1db/cars/936/scuderia-toro-rosso-str3
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, STR Ferrari'
-  - titre: F1technical.net, « Williams FW34 Renault »
-    url: https://www.f1technical.net/f1db/cars/992/williams-fw34
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: F1technical.net, Steven De Groote, « Raikkonen wins Spa, Fisichella second » (août 2009)
-    url: https://www.f1technical.net/news/13200
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: ultimatecarpage.com
-  n: 26
+  n: 28
   sources:
   - titre: Ultimatecarpage, « Ferrari 312 T »
     url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
@@ -12170,6 +11937,11 @@ editeurs:
       titre: 'Domination (technologies) : Monocoque'
     erreurs:
     - e203
+  - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
+    url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
   - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW »
     url: https://www.ultimatecarpage.com/car/687/Benetton-B186-BMW.html
     pages:
@@ -12180,6 +11952,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Ultimatecarpage.com, « 2012 Mercedes-Benz W03 Specifications »
+    url: https://www.ultimatecarpage.com/spec/5122/Mercedes-Benz-W03.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
   - titre: Ultimatecarpage.com, « Lotus 99T Honda »
     url: https://www.ultimatecarpage.com/car/1460/Lotus-99T-Honda.html
     pages:
@@ -12331,6 +12108,156 @@ editeurs:
       titre: 'Domination (technologies) : Boîte semi-automatique'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Suspension active'
+- nom: F1Technical
+  n: 26
+  sources:
+  - titre: F1technical, « Brabham BT53 BMW »
+    url: https://www.f1technical.net/f1db/cars/537/brabham-bt53
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+    erreurs:
+    - e006
+    - e094
+  - titre: F1technical, « Ferrari 312 »
+    url: https://www.f1technical.net/f1db/cars/203
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: F1technical, « Ferrari 312B »
+    url: https://www.f1technical.net/f1db/cars/256/ferrari-312b
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: F1technical, « Ferrari 312B2 »
+    url: https://www.f1technical.net/f1db/cars/270/ferrari-312b2
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: F1Technical, « Lotus E21 Renault » (base de données)
+    url: https://www.f1technical.net/f1db/cars/1000
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1Technical, « Mercedes AMG F1 W04 » (base de données)
+    url: https://www.f1technical.net/f1db/cars/1005
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1Technical, « Renault R23B »
+    url: https://www.f1technical.net/f1db/cars/917/renault-r23b
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2003, Renault'
+  - titre: F1technical, « Tyrrell 003 »
+    url: https://www.f1technical.net/f1db/cars/280/tyrrell-003
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: F1Technical, « Viry celebrates 30 years in F1 » (décembre 2006)
+    url: https://www.f1technical.net/news/4462
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Renault'
+    - url: /ecuries/
+      titre: 'Écuries : TAG Heuer'
+  - titre: 'F1Technical, Steven De Groote, « 2014 regulations: F1''s engine revolution » (décembre 2013)'
+    url: https://www.f1technical.net/features/19037
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: F1Technical, Steven De Groote, « Lotus delighted to start season with win » (mars 2013)
+    url: https://www.f1technical.net/news/18240
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2013, Lotus Renault'
+  - titre: F1Technical, Steven De Groote, « Raikkonen wins Australian GP at Melbourne » (mars 2013)
+    url: https://www.f1technical.net/news/18230
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2013, Lotus Renault'
+  - titre: F1Technical, Steven De Groote, « Vettel happy as Webber hits KERS issue » (mars 2013)
+    url: https://www.f1technical.net/news/18233
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « BMW Sauber F1.08 »
+    url: https://www.f1technical.net/f1db/cars/937/bmw-sauber-f108
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, Sauber BMW'
+  - titre: F1technical.net, « Brawn BGP001 Mercedes »
+    url: https://www.f1technical.net/f1db/cars/956/brawn-bgp001
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « Ferrari F150 »
+    url: https://www.f1technical.net/f1db/cars/971/ferrari-f150
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+    erreurs:
+    - e126
+  - titre: F1technical.net, « ING Renault R28 »
+    url: https://www.f1technical.net/f1db/cars/934/renault-r28
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, Renault'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: F1technical.net, « Lotus E20 Renault »
+    url: https://www.f1technical.net/f1db/cars/994/lotus-e20
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2012, Lotus Renault'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « McLaren MP4-24 Mercedes »
+    url: https://www.f1technical.net/f1db/cars/949/mclaren-mp4-24
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « McLaren MP4-26 Mercedes »
+    url: https://www.f1technical.net/f1db/cars/981/mclaren-mp4-26
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « McLaren MP4-27 Mercedes »
+    url: https://www.f1technical.net/f1db/cars/983/mclaren-mp4-27
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « Red Bull RB7 Renault »
+    url: https://www.f1technical.net/f1db/cars/978/red-bull-rb7
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, « Red Bull RB8 Renault »
+    url: https://www.f1technical.net/f1db/cars/986/red-bull-rb8
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2012, Red Bull Racing Renault'
+  - titre: F1technical.net, « Scuderia Toro Rosso STR3 »
+    url: https://www.f1technical.net/f1db/cars/936/scuderia-toro-rosso-str3
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, STR Ferrari'
+  - titre: F1technical.net, « Williams FW34 Renault »
+    url: https://www.f1technical.net/f1db/cars/992/williams-fw34
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: F1technical.net, Steven De Groote, « Raikkonen wins Spa, Fisichella second » (août 2009)
+    url: https://www.f1technical.net/news/13200
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: Motorsport.com
   n: 22
   sources:
@@ -12629,114 +12556,6 @@ editeurs:
       titre: 'Écuries : Honda RBPT'
     - url: /ecuries/
       titre: 'Écuries : RBPT'
-- nom: flyinglap.com.br
-  n: 21
-  sources:
-  - titre: flyinglap, « 162nd GP – South Africa 1968 »
-    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 165th GP – Belgium 1968 »
-    url: https://www.flyinglap.com.br/165th-gp-belgium-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 166th GP – Netherlands 1968 »
-    url: https://www.flyinglap.com.br/166th-gp-netherlands-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 167th GP – France 1968 »
-    url: https://www.flyinglap.com.br/167th-gp-france-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 170th GP – Italy 1968 »
-    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 171st GP – Canada 1968 »
-    url: https://www.flyinglap.com.br/171st-gp-canada-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 174th GP – South Africa 1969 »
-    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 175th GP – Spain 1969 »
-    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 176th GP – Monaco 1969 »
-    url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 180th GP – Germany 1969 »
-    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 181st GP – Italy 1969 »
-    url: https://www.flyinglap.com.br/181st-gp-italy-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 182nd GP – Canada 1969 »
-    url: https://www.flyinglap.com.br/182nd-gp-canada-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 183rd GP – United States 1969 »
-    url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 184th GP – Mexico 1969 »
-    url: https://www.flyinglap.com.br/184th-gp-mexico-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 185th GP – South Africa 1970 »
-    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 186th GP – Spain 1970 »
-    url: https://www.flyinglap.com.br/186th-gp-spain-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 187th GP – Monaco 1970 »
-    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 188th GP – Belgium 1970 »
-    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 193rd GP – Austria 1970 »
-    url: https://www.flyinglap.com.br/193rd-gp-austria-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 195th GP – Canada 1970 »
-    url: https://www.flyinglap.com.br/195th-gp-canada-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 196th GP – United States 1970 »
-    url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
 - nom: McLaren
   n: 20
   sources:
@@ -12894,6 +12713,104 @@ editeurs:
     pages:
     - url: /chronologie/#j-telemetrie-course
       titre: 'Chronologie : 1986, La télémétrie en course'
+- nom: flyinglap.com.br
+  n: 19
+  sources:
+  - titre: flyinglap, « 162nd GP – South Africa 1968 »
+    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 166th GP – Netherlands 1968 »
+    url: https://www.flyinglap.com.br/166th-gp-netherlands-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 167th GP – France 1968 »
+    url: https://www.flyinglap.com.br/167th-gp-france-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 171st GP – Canada 1968 »
+    url: https://www.flyinglap.com.br/171st-gp-canada-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 174th GP – South Africa 1969 »
+    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 175th GP – Spain 1969 »
+    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 176th GP – Monaco 1969 »
+    url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 180th GP – Germany 1969 »
+    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 181st GP – Italy 1969 »
+    url: https://www.flyinglap.com.br/181st-gp-italy-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 182nd GP – Canada 1969 »
+    url: https://www.flyinglap.com.br/182nd-gp-canada-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 183rd GP – United States 1969 »
+    url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 184th GP – Mexico 1969 »
+    url: https://www.flyinglap.com.br/184th-gp-mexico-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 185th GP – South Africa 1970 »
+    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 186th GP – Spain 1970 »
+    url: https://www.flyinglap.com.br/186th-gp-spain-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 187th GP – Monaco 1970 »
+    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 188th GP – Belgium 1970 »
+    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 193rd GP – Austria 1970 »
+    url: https://www.flyinglap.com.br/193rd-gp-austria-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 195th GP – Canada 1970 »
+    url: https://www.flyinglap.com.br/195th-gp-canada-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 196th GP – United States 1970 »
+    url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
 - nom: Indianapolis Motor Speedway
   n: 18
   sources:
@@ -13009,6 +12926,103 @@ editeurs:
       titre: 'Domination (technologies) : Moteur arrière'
     erreurs:
     - e015
+- nom: Wikipedia
+  n: 18
+  sources:
+  - titre: Wikipedia, « 1951 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
+  - titre: Wikipedia, « 1953 Formula One season »
+    url: https://en.wikipedia.org/wiki/1953_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
+  - titre: Wikipedia, « 1966 Formula One season »
+    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1982 Formula One World Championship »
+    url: https://en.wikipedia.org/wiki/1982_Formula_One_World_Championship
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    erreurs:
+    - e160
+  - titre: Wikipedia, « Benetton B190 »
+    url: https://en.wikipedia.org/wiki/Benetton_B190
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Mercedes F1 W03 »
+    url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: Wikipedia, « Pacific PR02 »
+    url: https://en.wikipedia.org/wiki/Pacific_PR02
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
+  - titre: Wikipédia (en), « Ferrari 158 »
+    url: https://en.wikipedia.org/wiki/Ferrari_158
+    pages:
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
+  - titre: Wikipédia, « Benetton B186 »
+    url: https://en.wikipedia.org/wiki/Benetton_B186
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Wikipédia, « Brabham BT50 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT50
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Wikipédia, « Brabham BT55 »
+    url: https://en.wikipedia.org/wiki/Brabham_BT55
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Wikipédia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: Crash.net
   n: 15
   sources:
@@ -13564,6 +13578,8 @@ editeurs:
     url: https://8w.forix.com/lotus72.html
     pages:
     - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
     - url: /voitures/lotus-72/
       titre: Lotus 72
@@ -13625,6 +13641,54 @@ editeurs:
       titre: 'Domination (châssis) : 2002, Williams BMW'
     - url: /dossiers/domination/
       titre: Domination (pneus)
+- nom: Classic Team Lotus
+  n: 7
+  sources:
+  - titre: Classic Team Lotus, « Legendary Team Lotus aerodynamicist Peter Wright dies »
+    url: https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/
+    pages:
+    - url: /ingenieurs/colin-chapman/
+      titre: Chapman, Colin
+    - url: /ingenieurs/peter-wright/
+      titre: Wright, Peter
+  - titre: Classic Team Lotus, « Len Terry; talent & ability » (août 2014)
+    url: https://classicteamlotus.co.uk/en/news/posts/2014/len-terry-talent-ability/
+    pages:
+    - url: /ingenieurs/len-terry/
+      titre: Terry, Len
+  - titre: Classic Team Lotus, « Lotus 72 50th birthday » (2020)
+    url: https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/
+    pages:
+    - url: /ingenieurs/colin-chapman/
+      titre: Chapman, Colin
+    - url: /glossaire/#pontons
+      titre: 'Glossaire : Pontons'
+    - url: /voitures/lotus-72/
+      titre: Lotus 72
+    erreurs:
+    - e056
+  - titre: 'Classic Team Lotus, « The Early Years: 1980''s »'
+    url: https://classicteamlotus.co.uk/en/past/continuing-to-innovate-1980s
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
+  - titre: Classic Team Lotus, « Type 88 »
+    url: https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88
+    pages:
+    - url: /voitures/lotus-88/
+      titre: Lotus 88
+    - url: /voitures/mclaren-mp4-1/
+      titre: McLaren MP4/1
+  - titre: Classic Team Lotus, « Type 91 » (registre Team Lotus)
+    url: https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-91
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Classic Team Lotus, « Workshops »
+    url: https://www.classicteamlotus.co.uk/en/about/workshops
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Team Lotus'
 - nom: Beyond the Grid (podcast)
   n: 6
   sources:
@@ -13658,49 +13722,6 @@ editeurs:
     pages:
     - url: /ingenieurs/arthur-webb/
       titre: Webb, Arthur
-- nom: Classic Team Lotus
-  n: 6
-  sources:
-  - titre: Classic Team Lotus, « Legendary Team Lotus aerodynamicist Peter Wright dies »
-    url: https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/
-    pages:
-    - url: /ingenieurs/colin-chapman/
-      titre: Chapman, Colin
-    - url: /ingenieurs/peter-wright/
-      titre: Wright, Peter
-  - titre: Classic Team Lotus, « Len Terry; talent & ability » (août 2014)
-    url: https://classicteamlotus.co.uk/en/news/posts/2014/len-terry-talent-ability/
-    pages:
-    - url: /ingenieurs/len-terry/
-      titre: Terry, Len
-  - titre: Classic Team Lotus, « Lotus 72 50th birthday » (2020)
-    url: https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/
-    pages:
-    - url: /ingenieurs/colin-chapman/
-      titre: Chapman, Colin
-    - url: /glossaire/#pontons
-      titre: 'Glossaire : Pontons'
-    - url: /voitures/lotus-72/
-      titre: Lotus 72
-    erreurs:
-    - e056
-  - titre: Classic Team Lotus, « Type 88 »
-    url: https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-88
-    pages:
-    - url: /voitures/lotus-88/
-      titre: Lotus 88
-    - url: /voitures/mclaren-mp4-1/
-      titre: McLaren MP4/1
-  - titre: Classic Team Lotus, « Type 91 » (registre Team Lotus)
-    url: https://classicteamlotus.co.uk/en/about/team-lotus-register-2/type-91
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Classic Team Lotus, « Workshops »
-    url: https://www.classicteamlotus.co.uk/en/about/workshops
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Team Lotus'
 - nom: Internet Archive
   n: 5
   sources:
@@ -13768,7 +13789,7 @@ editeurs:
     - url: /voitures/lotus-25/
       titre: Lotus 25
 - nom: Pirelli
-  n: 4
+  n: 5
   sources:
   - titre: Pirelli, « 110 years from race to road »
     url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
@@ -13790,6 +13811,11 @@ editeurs:
       titre: Domination (pneus)
     erreurs:
     - e022
+  - titre: 'Pirelli, communiqué, « Pirelli and Maserati: a century-long partnership »'
+    url: https://press.pirelli.com/pirelli-and-maserati-a-century-long-partnership/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
     pages:
@@ -13867,6 +13893,26 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1999, Stewart Ford'
+- nom: artcurial.com
+  n: 3
+  sources:
+  - titre: Artcurial Motorcars, « 1982 Renault RE 30-B9 Formule 1 », vente « The Renault Icons » (décembre 2025)
+    url: https://www.artcurial.com/fr/ventes/6445/lots/92-a
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Artcurial, « 1982 Renault RE 30-B9 Formule 1 » (vente aux enchères)
+    url: https://www.artcurial.com/en/sales/6445/lots/92-a
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: Artcurial, « 1997 Benetton B197-05 Formule 1 » (vente 6445, lot 131 a)
+    url: https://www.artcurial.com/en/sales/6445/lots/131-a
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1997, Benetton Renault'
+    erreurs:
+    - e123
 - nom: auto123.com
   n: 3
   sources:
@@ -14051,7 +14097,7 @@ editeurs:
       titre: Williams FW14B
 - nom: Autres éditeurs
   autres: true
-  n: 98
+  n: 99
   sources:
   - titre: 24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)
     url: https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378
@@ -14080,18 +14126,6 @@ editeurs:
     pages:
     - url: /chronologie/#c-film-f1-2025
       titre: 'Chronologie : 2025, « F1 », le film avec Brad Pitt'
-  - titre: Artcurial, « 1982 Renault RE 30-B9 Formule 1 » (vente aux enchères)
-    url: https://www.artcurial.com/en/sales/6445/lots/92-a
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Artcurial, « 1997 Benetton B197-05 Formule 1 » (vente 6445, lot 131 a)
-    url: https://www.artcurial.com/en/sales/6445/lots/131-a
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1997, Benetton Renault'
-    erreurs:
-    - e123
   - titre: 'Assemblée nationale, Patrick Balkany, « Question écrite n° 65751 : sports mécaniques », et réponse du gouvernement (décembre 1992)'
     url: https://www.assemblee-nationale.fr/dyn/9/questions/QANR5L9QE65751.pdf
     pages:
@@ -14252,6 +14286,11 @@ editeurs:
     erreurs:
     - e072
     - e111
+  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
+    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Fondmetal, « Fondmetal F1 History » (site officiel)
     url: https://fondmetal.com/en/fondmetal-f1-history
     pages:
@@ -14276,6 +14315,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : McLaren'
+  - titre: 'Gran Premio de México, « La ficha : V Gran Premio de México, 1966 »'
+    url: https://www.mexicogp.mx/wp-content/uploads/2024/08/15343770061966_ficha_F1.pdf
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: GrandPrix.com, David Tremayne, « The Father of the DFV » (janvier 2001), reproduit sur walterhayes.co.uk
     url: https://walterhayes.co.uk/motorsport-article/the-father-of-the-dfv-grandprix-com-january-26th-20001/
     pages:
@@ -14383,11 +14427,6 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Cadillac'
-  - titre: MRO F1 Engineering, « A Tale of Two F1 Matras, Part Two (Matra MS10) »
-    url: https://www.mrof1engineering.co.uk/pdfs/Matra%20MS10.pdf
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Ailerons'
   - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
     url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
     pages:
@@ -14501,6 +14540,13 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Kurtis Kraft'
+  - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
+    url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: 'Sports Car Digest, « Gold Leaf Team Lotus: The Deal and the First Glory » (avril 2024)'
     url: https://sportscardigest.com/gold-leaf-team-lotus-the-deal-and-the-first-glory/
     pages:
@@ -14522,6 +14568,13 @@ editeurs:
       titre: Lotus 49
     - url: /ecuries/
       titre: 'Écuries : Lancia'
+  - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
+    url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: The Checkered Flag, David Bean, « Team Lotus announce wind tunnel deal with Williams » (juin 2011)
     url: https://www.thecheckeredflag.co.uk/2011/06/team-lotus-announce-wind-tunnel-deal-with-williams/
     pages:

@@ -4997,12 +4997,12 @@ erreurs:
     url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/
     citation: Dino 256’s horsepower to win at Reims with team-mates Hill and Gendebien second and fourth.
 - id: e210
-  categorie: desaccord
-  gravite: majeure
+  categorie: source_erronee
+  gravite: mineure
   date: '2026-11-02'
   sujet:
-    fr: Pneus de la Cooper de Surtees au Grand Prix du Mexique 1966 (victoire et pole)
-    en: Tyres on Surtees's Cooper at the 1966 Mexican Grand Prix (win and pole)
+    fr: 'Motorsport-Magazin : victoire de Surtees au Grand Prix du Mexique 1966 rangée parmi celles de Firestone'
+    en: 'Motorsport-Magazin: Surtees''s 1966 Mexican Grand Prix win listed among Firestone''s'
   source:
     titre: Motorsport-Magazin, « Firestone - alle 49 Grand Prix Siege in der Formel 1 »
     titre_en: Motorsport-Magazin, “Firestone - alle 49 Grand Prix Siege in der Formel 1”
@@ -5010,12 +5010,17 @@ erreurs:
     citation: 14. 1 7 John Surtees T81 Cooper 1
     langue: de
   juste:
-    fr: 'Non tranché : Dunlop selon le tableau de la saison 1966 de Wikipedia, que suivent nos données ; Firestone selon Motorsport-Magazin'
-    en: 'Unresolved: Dunlop according to Wikipedia''s 1966 season table, which our data follows; Firestone according to Motorsport-Magazin'
+    fr: Dunlop, selon la fiche officielle de l'organisateur du Grand Prix du Mexique
+    en: Dunlop, according to the Mexican Grand Prix organiser's official record
   explication:
-    fr: 'Nos données donnent Dunlop à la Cooper victorieuse au Mexique d''après le tableau de la saison 1966 de Wikipedia. Motorsport-Magazin range cette victoire parmi celles de Firestone, comme l''article Wikipedia « Cooper Car Company », qui évoque un passage chez Firestone en fin de saison. Motor Sport n''atteste Dunlop chez Cooper que jusqu''en août : nous gardons Dunlop faute de source d''époque sur Mexico, mais le point reste à trancher.'
-    en: 'Our data gives Dunlop to the winning Cooper in Mexico on the strength of Wikipedia''s 1966 season table. Motorsport-Magazin lists the win among Firestone''s, as does Wikipedia''s “Cooper Car Company” article, which mentions a late-season switch to Firestone. Motor Sport confirms Cooper on Dunlops only up to August: we keep Dunlop for lack of a contemporary source on Mexico, but the point remains open.'
+    fr: La fiche publiée par l'organisateur du Grand Prix du Mexique décrit Surtees, vainqueur et poleman, comme le seul des trois hommes de tête à rouler sur ses « classiques » Dunlop, Ginther et Brabham étant en Goodyear. Motor Sport atteste déjà la fidélité de Cooper à Dunlop en août. Motorsport-Magazin, et l'article Wikipédia « Cooper Car Company », qui évoque un passage chez Firestone en fin de saison, se trompent donc pour cette course. Nos données donnent Dunlop.
+    en: The record published by the Mexican Grand Prix organiser describes Surtees, winner and pole-sitter, as the only one of the three leaders running on his “classic” Dunlops, Ginther and Brabham being on Goodyears. Motor Sport already confirms Cooper's loyalty to Dunlop in August. Motorsport-Magazin, and Wikipedia's “Cooper Car Company” article, which mentions a late-season switch to Firestone, are therefore wrong for this race. Our data gives Dunlop.
   preuves:
+  - titre: 'Gran Premio de México, « La ficha : V Gran Premio de México, 1966 »'
+    titre_en: 'Gran Premio de México, “La ficha: V Gran Premio de México, 1966”'
+    url: https://www.mexicogp.mx/wp-content/uploads/2024/08/15343770061966_ficha_F1.pdf
+    citation: Sólo el inglés de los tres por delante en la batalla, trabajaba con las clásicas gomas Dunlop, mientras que el norteamericano y el de Australia se inclinaban por las de Good Year.
+    langue: es
   - titre: Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report » (septembre 1966)
     titre_en: Motor Sport, Denis Jenkinson, “1966 German Grand Prix race report” (September 1966)
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/

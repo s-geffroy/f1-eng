@@ -194,12 +194,16 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli revendique le titre 1953 d'Ascari sur Ferrari et compte la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
+  pourquoi: Pirelli revendique le titre 1953 d'Ascari sur Ferrari, que la Fondazione Pirelli compte comme le quatrième titre mondial consécutif de ses pneus, et range la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
   sources:
   - titre: Pirelli, « 110 years from race to road »
     url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
+  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
+    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
   - titre: Wikipedia, « 1953 Formula One season »
     url: https://en.wikipedia.org/wiki/1953_Formula_One_season
 - annee: 1953
@@ -214,18 +218,22 @@ cas:
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
-  pourquoi: Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1953) ; le tableau des résultats donne Pirelli à ses victoires.
+  pourquoi: Dans l'historique de son partenariat avec Maserati, Pirelli rattache au Stelvio la victoire de Fangio au Grand Prix d'Italie 1953, à partir de laquelle « l'étoile de Fangio commence à briller ». Officine Alfieri Maserati est engagée en Pirelli (tableau des engagés 1953), et le tableau des résultats donne Pirelli à ses poles.
   sources:
+  - titre: 'Pirelli, communiqué, « Pirelli and Maserati: a century-long partnership »'
+    url: https://press.pirelli.com/pirelli-and-maserati-a-century-long-partnership/
   - titre: Wikipedia, « 1953 Formula One season »
     url: https://en.wikipedia.org/wiki/1953_Formula_One_season
 - annee: 1954
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone 1954 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
+  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone 1954 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari.
   sources:
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
   - titre: Wikipedia, « 1954 Formula One season »
     url: https://en.wikipedia.org/wiki/1954_Formula_One_season
 - annee: 1954
@@ -781,18 +789,14 @@ cas:
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Dunlop
-  pourquoi: 'La Cooper Car Company (T81) est en Dunlop en 1966 : Motor Sport signale les trois Cooper en Dunlop CR70 à Reims, une Cooper premier pneu Dunlop à Brands Hatch et l''équipe « restée fidèle à Dunlop » au Nürburgring. Surtees gagne au Mexique sur la T81 (oldracingcars.com) ; les pneus de cette course viennent du tableau de la saison 1966.'
+  pourquoi: 'La Cooper Car Company (T81) est en Dunlop en 1966 : Motor Sport signale les trois Cooper en Dunlop CR70 à Reims et une équipe « restée fidèle à Dunlop » au Nürburgring. Pour le Mexique, où Surtees signe la pole et la victoire, la fiche de l''organisateur du Grand Prix donne les trois Cooper T-81 Maserati de l''usine en Dunlop, et précise que, des trois hommes de tête, seul l''Anglais Surtees roulait sur les « classiques gommes Dunlop », Ginther et Brabham étant en Goodyear.'
   sources:
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
     url: https://www.motorsportmagazine.com/archive/page/august-1966/15
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
-  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
-    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
-  - titre: oldracingcars.com, Grand Prix du Mexique 1966
-    url: https://www.oldracingcars.com/f1/results/1966/mexico/
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: 'Gran Premio de México, « La ficha : V Gran Premio de México, 1966 »'
+    url: https://www.mexicogp.mx/wp-content/uploads/2024/08/15343770061966_ficha_F1.pdf
 - annee: 1966
   ecurie: ferrari
   equipe: Ferrari
@@ -802,7 +806,7 @@ cas:
     pneus: Dunlop
     pour: victoire
     pourquoi: victoire seulement (Dunlop pluie au départ) ; la pole de Belgique est en Firestone
-  pourquoi: 'Motor Sport précise qu''à Spa les Ferrari ont roulé aux essais et se sont qualifiées en Firestone, puis sont repassées en Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari d''usine sont en Firestone, et au Nürburgring Motor Sport parle du Firestone comme de leur pneu « habituel ». La page de la 312 indique Firestone à partir de la mi-1966, ce qui couvre la victoire et la pole de Monza.'
+  pourquoi: 'Motor Sport précise qu''à Spa les Ferrari ont roulé aux essais et se sont qualifiées en Firestone, puis sont repassées en Dunlop pluie avant le départ : la pole de Surtees est en Firestone, sa victoire en Dunlop. À Reims (pole de Bandini), les Ferrari d''usine sont en Firestone, et au Nürburgring Motor Sport parle du Firestone comme de leur pneu « habituel ». À Monza, la victoire de Scarfiotti sur Ferrari est, selon Motor Sport, « la première victoire en Grand Prix des pneus Firestone », fêtée par le manufacturier le soir de la course.'
   sources:
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 Belgian Grand Prix race report: Surtees slides to victory » (juillet 1966)'
     url: https://www.motorsportmagazine.com/archive/article/july-1966/16/belgian-gp-2/
@@ -810,8 +814,8 @@ cas:
     url: https://www.motorsportmagazine.com/archive/page/august-1966/15
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
-  - titre: Wikipedia, « Ferrari 312 »
-    url: https://en.wikipedia.org/wiki/Ferrari_312
+  - titre: Motor Sport, « Monza mutters » (octobre 1966)
+    url: https://www.motorsportmagazine.com/archive/article/october-1966/71/monza-mutters/
 - annee: 1966
   ecurie: team-lotus
   equipe: Lotus BRM
@@ -828,7 +832,7 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Firestone
-  pourquoi: 'La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 : Motor Sport la montre en Firestone à Brands Hatch et au Mexique, et signale au Nürburgring que les Lotus repassent en Firestone avant le départ. Les poles de Clark à Monaco et en Allemagne sont en Firestone d''après le tableau de la saison 1966.'
+  pourquoi: 'La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966 : Motor Sport range la Lotus de Clark, quatrième à Brands Hatch, sous la bannière Firestone, et rapporte qu''au Nürburgring les Lotus, montées en Dunlop le matin de la course, repassent en Firestone juste avant le départ. Au Mexique, les trois Lotus sont équipées des derniers Firestone sans chambre. Pour la pole de Clark à Monaco, les pneus ne sont donnés que par le tableau de la saison 1966.'
   sources:
   - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
     url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
@@ -910,28 +914,20 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Firestone
-  pourquoi: 'Scuderia Ferrari en Firestone en 1968 : les tableaux des engagés donnent les 312/68 d''usine en Firestone, notamment celle d''Ickx, vainqueur à Rouen.'
+  pourquoi: 'Scuderia Ferrari en Firestone en 1968 : Denis Jenkinson note dans Motor Sport qu''à Rouen la victoire d''Ickx sur la 312/68 d''usine, seul pilote parti en pneus pluie, redonne confiance à Firestone, « whose tyres he was using », et que Firestone se réjouit de la victoire de Ferrari.'
   sources:
-  - titre: flyinglap, « 167th GP – France 1968 »
-    url: https://www.flyinglap.com.br/167th-gp-france-1968/
-  - titre: flyinglap, « 170th GP – Italy 1968 »
-    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Ferrari 312 »
-    url: https://en.wikipedia.org/wiki/Ferrari_312
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 French Grand Prix race report: Ickx glides to victory » (août 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1968/10/the-french-grand-prix-9/
 - annee: 1968
   ecurie: honda-1964
   equipe: Honda
   pneus: Firestone
-  pourquoi: 'Honda Racing en Firestone en 1968 : à Monza, où Surtees signe la pole, sa RA301 (F-801) figure en Firestone dans le tableau des engagés.'
+  pourquoi: 'Honda Racing en Firestone en 1968 : la fiche officielle de la Honda RA301 donne des pneus Firestone pour la voiture de Surtees, qui y signe l''unique pole de la saison. Motor Sport confirme que cette pole est faite à Monza, en 1 min 26,07 s, au volant de la Honda V12.'
   sources:
-  - titre: flyinglap, « 170th GP – Italy 1968 »
-    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Honda RA301 »
-    url: https://en.wikipedia.org/wiki/Honda_RA301
+  - titre: Honda, « 1968 Honda RA301 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/1968_HondaRA301/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 Italian Grand Prix race report: Kiwis'' sweet victory » (octobre 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/october-1968/15/the-39th-italian-grand-prix/
 - annee: 1968
   ecurie: matra
   equipe: Matra Ford
@@ -946,16 +942,12 @@ cas:
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: 'Bruce McLaren Motor Racing (M7A) est en Goodyear : c''est le cas de la M7A de Bruce McLaren, vainqueur à Spa, comme de celle de Hulme.'
+  pourquoi: 'Bruce McLaren Motor Racing (M7A) est en Goodyear : à Spa, Denis Jenkinson range Goodyear parmi les partenaires qui fêtent la victoire de Bruce McLaren, et à Rouen il rapporte que Hulme et McLaren crèvent tous deux leurs pneus Goodyear sur les débris de l''accident de Schlesser.'
   sources:
-  - titre: flyinglap, « 165th GP – Belgium 1968 »
-    url: https://www.flyinglap.com.br/165th-gp-belgium-1968/
-  - titre: flyinglap, « 167th GP – France 1968 »
-    url: https://www.flyinglap.com.br/167th-gp-france-1968/
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « McLaren M7A »
-    url: https://en.wikipedia.org/wiki/McLaren_M7A
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 Belgian Grand Prix: Spa Francorchamps Monologue on McLaren''s debut win » (juillet 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1968/15/francorchamps-monologue-the-belgian-grand-prix/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1968 French Grand Prix race report: Ickx glides to victory » (août 1968)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1968/10/the-french-grand-prix-9/
 - annee: 1968
   ecurie: team-lotus
   equipe: Lotus Ford
@@ -982,18 +974,22 @@ cas:
   ecurie: matra
   equipe: Matra Ford
   pneus: Dunlop
-  pourquoi: 'Matra International (MS80, MS10) est en Dunlop en 1969 : la MS10 de Kyalami comme les MS80 de Montjuïc et de Monza figurent en Dunlop.'
+  pourquoi: Matra International (MS10, MS80) est en Dunlop en 1969. Motor Sport attribue la vitesse de la Matra-Ford victorieuse à Kyalami au nouveau pneu Dunlop. À Monaco, il décrit la MS80 sur ses petits Dunlop de 13 pouces à profil bas, et à Watkins Glen, il dit que les Matra exploitent les nouveaux pneus pluie Dunlop. Dunlop souligne lui-même sa « relation de travail très étroite » avec Matra. Les MS80 de Montjuïc et de Monza figurent aussi en Dunlop dans les tableaux de flyinglap.
   sources:
-  - titre: flyinglap, « 175th GP – Spain 1969 »
-    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
+  - titre: 'Motor Sport, Michael Tee, « 1969 South African Grand Prix race report: Stewart streaks ahead » (avril 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/april-1969/46/grand-prix-of-south-africa-3/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1969 Monaco Grand Prix race report: Hill knocks ‘em for five » (juin 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1969/26/the-monaco-grand-prix-4/
+  - titre: 'Motor Sport, Andrew Marriott, « 1969 United States Grand Prix race report: Rindt runs the show » (novembre 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1969/48/the-11th-grand-prix-of-the-united-states-of-america/
+  - titre: Motor Sport, « Talking tyres » (mars 1970)
+    url: https://www.motorsportmagazine.com/archive/article/march-1970/46/talking-tyres/
   - titre: flyinglap, « 174th GP – South Africa 1969 »
     url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
+  - titre: flyinglap, « 175th GP – Spain 1969 »
+    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
   - titre: flyinglap, « 181st GP – Italy 1969 »
     url: https://www.flyinglap.com.br/181st-gp-italy-1969/
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
-  - titre: Wikipedia, « Matra MS80 »
-    url: https://en.wikipedia.org/wiki/Matra_MS80
 - annee: 1969
   ecurie: mclaren
   equipe: McLaren Ford
@@ -1008,16 +1004,16 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: 'Gold Leaf Team Lotus en Firestone en 1969 : les 49B victorieuses de Hill à Monaco et de Rindt à Watkins Glen figurent en Firestone.'
+  pourquoi: Gold Leaf Team Lotus est en Firestone en 1969. À Watkins Glen, où Rindt gagne sur la 49B, Motor Sport note que l'équipe Lotus peine aux essais « sur ses pneus Firestone ». Au début de 1970, le responsable de Firestone explique que le contrat qui lie Team Lotus à Firestone est passé avec l'équipe, non avec les pilotes. La 49B victorieuse de Hill à Monaco figure aussi en Firestone dans les tableaux de flyinglap.
   sources:
+  - titre: 'Motor Sport, Andrew Marriott, « 1969 United States Grand Prix race report: Rindt runs the show » (novembre 1969)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1969/48/the-11th-grand-prix-of-the-united-states-of-america/
+  - titre: Motor Sport, « Talking tyres » (mars 1970)
+    url: https://www.motorsportmagazine.com/archive/article/march-1970/46/talking-tyres/
   - titre: flyinglap, « 176th GP – Monaco 1969 »
     url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
   - titre: flyinglap, « 183rd GP – United States 1969 »
     url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
-  - titre: Wikipedia, « 1969 Formula One season »
-    url: https://en.wikipedia.org/wiki/1969_Formula_One_season
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
 - annee: 1970
   ecurie: brabham
   equipe: Brabham Ford
@@ -1062,16 +1058,24 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
-  pourquoi: 'Gold Leaf Team Lotus (49C, 72) en Firestone : la 49C de Rindt à Monaco et la 72C de Fittipaldi à Watkins Glen figurent en Firestone.'
+  pourquoi: Gold Leaf Team Lotus (49C, 72) est en Firestone en 1970. En mars, le responsable de Firestone confirme le contrat qui lie Team Lotus à sa marque. À l'automne, Motor Sport rappelle que la tenue de route de la 49C, victorieuse à Monaco avec Rindt, doit tout au travail de Firestone avec Lotus. La 72 a été conçue avec Firestone pour tirer parti de ses gommes les plus tendres, et Lotus ne passe chez Goodyear qu'en 1973. Les tableaux de flyinglap donnent aussi en Firestone la 49C de Rindt à Monaco et la 72C de Fittipaldi à Watkins Glen.
   sources:
+  - titre: Motor Sport, « Talking tyres » (mars 1970)
+    url: https://www.motorsportmagazine.com/archive/article/march-1970/46/talking-tyres/
+  - titre: Motor Sport, « Rumblings, October 1970 » (octobre 1970)
+    url: https://www.motorsportmagazine.com/archive/article/october-1970/46/rumblings-october-1970/
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Monaco Grand Prix race report: Brabham bins it, Jochen wins it » (juin 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1970/25/the-28th-monaco-grand-prix/
+  - titre: 'Motor Sport, Alan Henry, « Lotus 72: the most successful GP car ever? » (mai 1997)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1997/20/lotus-72-the-most-successful-gp-car-ever
+  - titre: 8W, Hrvoje Vrbanc, « The Lotus 72 story » (avril 1999)
+    url: https://8w.forix.com/lotus72.html
+  - titre: 'Motor Sport, Denis Jenkinson, « 1970 Dutch Grand Prix race report: Sharp end of the wedge » (août 1970)'
+    url: https://www.motorsportmagazine.com/archive/article/august-1970/44/dutch-grand-prix-8/
   - titre: flyinglap, « 187th GP – Monaco 1970 »
     url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
   - titre: flyinglap, « 196th GP – United States 1970 »
     url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
-  - titre: Wikipedia, « 1970 Formula One season »
-    url: https://en.wikipedia.org/wiki/1970_Formula_One_season
-  - titre: Wikipedia, « Lotus 72 »
-    url: https://en.wikipedia.org/wiki/Lotus_72
 - annee: 1970
   ecurie: tyrrell
   equipe: Tyrrell Ford
@@ -1792,10 +1796,14 @@ cas:
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1982 : Tyrrell Ford en Goodyear sur toute la saison. La fiche technique d''Autosport donne à la Tyrrell 011 des pneus Avon puis Goodyear. Les huit victoires Michelin de 1982 étant toutes de Renault ou de McLaren, la victoire d''Alboreto à Las Vegas n''est pas une victoire Michelin.'
+  pourquoi: La fiche technique d'Autosport donne à la Tyrrell 011 des pneus Avon puis Goodyear. En 1982, Avon ne fournit plus qu'ATS, Theodore, Ensign et March avant de se retirer (Motor Sport, octobre 1982), et Michelin équipe McLaren et les équipes françaises (Atlas F1). Le tableau des engagés 1982 donne Tyrrell Ford en Goodyear sur toute la saison. Les huit victoires Michelin de 1982 étant toutes de Renault ou de McLaren, la victoire d'Alboreto à Las Vegas n'est pas une victoire Michelin.
   sources:
   - titre: Autosport, GP Racing, « The last hurrah of two F1 titans » (avril 2020), fiche technique de la Tyrrell 011
     url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
+  - titre: Motor Sport, « Avon Racing Tyres » (octobre 1982)
+    url: https://www.motorsportmagazine.com/archive/article/october-1982/68/avon-racing-tyres/
+  - titre: Atlas F1, Thomas O'Keefe, « Where the Rubber Meets the Road » (novembre 2000)
+    url: http://atlasf1.autosport.com/2000/nov15/okeefe.html
   - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
   - titre: Wikipedia, « 1982 Formula One World Championship »

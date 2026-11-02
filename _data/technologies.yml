@@ -200,7 +200,8 @@ technologies:
   - de: 1976
     a: 2025
     valeur: oui
-    pourquoi: 'Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26, 1968-1969) : les règles de 1970 sur les réservoirs souples imposent la monocoque, et Tauranac dessine alors sa première, la BT33. La monocoque devient la norme, puis la monocoque en carbone de la McLaren MP4/1 (1981) s''impose sur toute la grille. Réserve : les Ferrari 312T à 312T5 (1975-1980) et 126CK (1981), à panneaux d''aluminium rivetés sur une structure tubulaire, sont des semi-monocoques selon certaines descriptions ; Motor Sport parle pourtant de monocoques en aluminium, et c''est la 126C2 de 1982, en nid d''abeille collé, qui remplace le châssis dérivé de la T5. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (alors élargir la fenêtre à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
+    pourquoi: 'Brabham est le dernier constructeur à aligner un châssis tubulaire (BT26, 1968-1969) : les règles de 1970 sur les réservoirs souples imposent la monocoque, et Tauranac dessine alors sa première, la BT33. La monocoque devient la norme, puis la monocoque en carbone de la McLaren MP4/1 (1981) s''impose sur toute la grille. Réserve : selon Doug Nye, la 312T de 1975 reprend la construction hybride habituelle de Ferrari, une peau travaillante renforcée de l''intérieur par une ossature d''acier ; selon Alan Henry, la 126CK de 1981 suit encore « les lignes typiques de Maranello », un treillis multitubulaire habillé de tôles d''aluminium travaillantes. Ces voitures sont donc des semi-monocoques selon certaines descriptions ; Motor Sport parle pourtant de monocoques en aluminium, et c''est la 126C2 de 1982, en nid d''abeille collé, qui remplace le châssis dérivé de la T5. Vrai avec la règle retenue ; faux si le semi-monocoque est classé « non » (il faudrait alors élargir la fenêtre
+      à 1981 : Ferrari 1976, 1977, 1978, 1979 et 1981).'
     sources:
     - titre: Motorsport Retro, « The fastest thing about the monocoque Lotus is Jimmy Clark - Ron Tauranac » (décembre 2012)
       url: https://www.motorsportretro.com/2012/12/the-fastest-thing-about-the-monocoque-lotus-is-jimmy-clark-ron-tauranac/
@@ -210,14 +211,14 @@ technologies:
       url: https://www.oldracingcars.com/brabham/bt33/
     - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)
       url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
+    - titre: 'Motor Sport, Doug Nye, « Lauda''s Ferrari 312T: Maranello''s lost masterpiece » (août 2020)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2020/58/laudas-ferrari-312t-maranellos-lost-masterpiece/
+    - titre: 'Motor Sport, Alan Henry, « Profile: Ferrari 126CK » (juin 2007)'
+      url: https://www.motorsportmagazine.com/archive/article/june-2007/59/profile-ferrari-126ck/
     - titre: Motor Sport, Denis Jenkinson, « Ferrari - World Champion Constructors » (décembre 1982)
       url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
     - titre: RM Sotheby's, « 1982 Ferrari 126 C2 » (Abu Dhabi 2019)
       url: https://rmsothebys.com/auctions/ad19/lots/r0029-1982-ferrari-126-c2/
-    - titre: Wikipedia, « Ferrari 312T »
-      url: https://en.wikipedia.org/wiki/Ferrari_312T
-    - titre: Wikipedia, « Ferrari 126C »
-      url: https://en.wikipedia.org/wiki/Ferrari_126C
   cas:
   - annee: 1962
     ecurie: brm
@@ -846,14 +847,14 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 312T
     valeur: oui
-    pourquoi: 'Classé oui : Motor Sport décrit l''accident de la 312T toute neuve de Lauda à Kyalami en 1975, qui arrache « la peau extérieure » de sa monocoque. Selon d''autres descriptions, la 312T revient à un treillis tubulaire renforcé de panneaux d''aluminium rivetés (semi-monocoque), alors que la 312B3 était une monocoque complète.'
+    pourquoi: 'Classé oui : Motor Sport décrit l''accident de la 312T toute neuve de Lauda à Kyalami en 1975, qui arrache « la peau extérieure » de sa monocoque, et Ultimatecarpage parle d''un châssis monocoque en aluminium. Doug Nye précise que la coque reprend la construction hybride habituelle de Ferrari : une structure à peau travaillante renforcée de l''intérieur par des feuillards et des cornières d''acier, ce que d''autres descriptions appellent une semi-monocoque.'
     sources:
     - titre: Motor Sport, Alan Henry, « 1975 South African Grand Prix race report » (avril 1975)
       url: https://www.motorsportmagazine.com/archive/article/april-1975/36/south-african-grand-prix-10
     - titre: Ultimatecarpage, « Ferrari 312 T »
       url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
-    - titre: Wikipedia, « Ferrari 312T »
-      url: https://en.wikipedia.org/wiki/Ferrari_312T
+    - titre: 'Motor Sport, Doug Nye, « Lauda''s Ferrari 312T: Maranello''s lost masterpiece » (août 2020)'
+      url: https://www.motorsportmagazine.com/archive/article/august-2020/58/laudas-ferrari-312t-maranellos-lost-masterpiece/
   - annee: 1975
     ecurie: hesketh
     equipe: Hesketh Ford
@@ -942,31 +943,35 @@ technologies:
     equipe: Matra Ford
     voiture: Matra MS10
     valeur: oui
-    pourquoi: À Zandvoort, la Matra de Stewart porte de petits déflecteurs sur le nez (fines ailettes logées dans des fentes du capot) ; au Nürburgring, elle a reçu aux essais des supports tubulaires d'aileron ; aileron haut sur supports aux États-Unis. En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix d'Allemagne.
+    pourquoi: À Zandvoort, les Matra de Tyrrell portent de petits déflecteurs sur le nez (fines ailettes logées dans des fentes du capot). Au Nürburgring, Motor Sport montre Stewart aux essais avec un aileron monté au-dessus du moteur, puis au départ dans la seconde Matra de Tyrrell « complete with aerofoil » ; OldRacingCars précise que cet aileron mobile, commandé par la pédale de frein, est conservé pour la course. Aux États-Unis, la Matra de Tyrrell porte un aileron haut fixé aux porte-moyeux et des ailerons sur le nez. En lecture stricte (aileron arrière), l'adoption date du Grand Prix d'Allemagne.
     sources:
     - titre: OldRacingCars, « Dutch Grand Prix 1968 »
       url: https://www.oldracingcars.com/f1/results/1968/netherlands/
-    - titre: MRO F1 Engineering, « A Tale of Two F1 Matras, Part Two (Matra MS10) »
-      url: https://www.mrof1engineering.co.uk/pdfs/Matra%20MS10.pdf
     - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
       url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
-    - titre: Wikipedia, « Matra MS10 »
-      url: https://en.wikipedia.org/wiki/Matra_MS10
+    - titre: OldRacingCars, « German Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/germany/
+    - titre: OldRacingCars, « United States Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/usa/
   - annee: 1968
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren M7A
     valeur: oui
-    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe ; le véritable aileron arrière arrive au Grand Prix de France, et au Nürburgring la voiture de Bruce McLaren porte un aileron au-dessus du moteur. À Monza, l'équipe essaie avec et sans ailerons. En lecture stricte, l'adoption daterait du Grand Prix d'Italie (victoire de Hulme).
+    pourquoi: À Spa, où McLaren gagne, les M7A ont de petits becquets sur le nez et un autre en travers de la poupe. Au Grand Prix de France, les deux voitures portent un aileron au-dessus du moteur, comme les Ferrari, et Hulme comme McLaren courent avec ailerons au Nürburgring. À Monza, après des essais avec et sans ailerons, l'équipe court « nue » et Hulme gagne sans aileron ; elle revient à un aileron au-dessus du moteur au Canada, où Hulme gagne de nouveau. En lecture stricte, l'adoption daterait du Grand Prix du Canada.
     sources:
-    - titre: Motor Sport, « XXVII Belgian Grand Prix » (juillet 1968)
+    - titre: 'Motor Sport, Denis Jenkinson, « 1968 F1 Belgian Grand Prix report: McLaren''s first victory » (juillet 1968)'
       url: https://www.motorsportmagazine.com/archive/article/july-1968/14/xxvii-belgian-grand-prix/
+    - titre: 'Motor Sport, Denis Jenkinson, « 1968 French Grand Prix race report: Ickx glides to victory » (août 1968)'
+      url: https://www.motorsportmagazine.com/archive/article/august-1968/10/the-french-grand-prix-9/
     - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
       url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
     - titre: 'Motor Sport, Denis Jenkinson, « 1968 Italian Grand Prix race report: Kiwis'' sweet victory » (octobre 1968)'
       url: https://www.motorsportmagazine.com/archive/article/october-1968/15/the-39th-italian-grand-prix/
-    - titre: Wikipedia, « McLaren M7A »
-      url: https://en.wikipedia.org/wiki/McLaren_M7A
+    - titre: OldRacingCars, « Italian Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/italy/
+    - titre: OldRacingCars, « Canadian Grand Prix 1968 »
+      url: https://www.oldracingcars.com/f1/results/1968/canada/
   - annee: 1968
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -999,7 +1004,8 @@ technologies:
   - de: 1980
     a: 1982
     valeur: oui
-    pourquoi: Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle (la BT49 aux jupes abaissées en piste, copiée par ses rivales), et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Les voitures gagnantes vérifiées (FW07, RE20, BT49, JS11/15, RE30, 126CK/126C2, Lotus 91, Tyrrell 011, FW08, MP4/1) sont toutes des voitures à effet de sol ; pour la Ligier JS17 et la Brabham BT50, les pages consultées ne le disent pas explicitement.
+    pourquoi: 'Après le succès de Lotus, « a swathe of ground effect cars appeared » ; en 1981 les jupes coulissantes sont interdites et une garde au sol de 6 cm imposée, mais les équipes contournent la règle, et les jupes, fixes, reviennent en 1982 avant le fond plat de 1983. Toutes les voitures gagnantes sont décrites comme des voitures à effet de sol : la FW07 (Doug Nye) ; la RE20, dont les « side-skirts » sont améliorées (Jenkinson, janvier 1980) ; la RE30, dont la suspension raidie doit encaisser les « ground-effect loads » (Mark Hughes) ; la BT49 (Frankel, Keilloh) ; la JS11 (Keilloh) ; la 126CK, dont les jupes « would not seal » selon Forghieri ; la 126C2 (« Ferrari were no exception ») ; la Lotus 91, « a more conventional ground effect design » (Classic Team Lotus) ; la Tyrrell 011 (OldRacingCars) ; la FW08, dernière championne « first-generation ground-effect » (Autosport) ; et la MP4/1 (Barnard). Fin 1982, Jenkinson écrit qu''aucun concepteur n''acceptait de perdre son « ground
+      effect », ce qui vaut aussi pour la Brabham BT50. Pour la Ligier JS17, les pages consultées ne le disent pas explicitement.'
     sources:
     - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
@@ -1015,16 +1021,20 @@ technologies:
       url: https://www.oldracingcars.com/tyrrell/011/
     - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment »
       url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
-    - titre: Wikipédia, « Renault RE20 »
-      url: https://en.wikipedia.org/wiki/Renault_RE20
-    - titre: Wikipédia, « Renault RE30 »
-      url: https://en.wikipedia.org/wiki/Renault_RE30
-    - titre: Wikipédia, « Ferrari 126C »
-      url: https://en.wikipedia.org/wiki/Ferrari_126C
-    - titre: Wikipédia, « Lotus 91 »
-      url: https://en.wikipedia.org/wiki/Lotus_91
-    - titre: Wikipédia, « Williams FW08 »
-      url: https://en.wikipedia.org/wiki/Williams_FW08
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (janvier 1980)
+      url: https://www.motorsportmagazine.com/archive/article/january-1980/32/formula-one-scene/
+    - titre: Motor Sport, Mark Hughes, « When the wind blows » (décembre 2006)
+      url: https://www.motorsportmagazine.com/archive/article/december-2006/56/when-the-wind-blows/
+    - titre: Motor Sport, Mark Hughes, « Against all odds » (juillet 2001)
+      url: https://www.motorsportmagazine.com/archive/article/july-2001/42/against-all-odds/
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari – World Champion Constructors » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/40/ferrari-world-champion-constructors/
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One Scene » (décembre 1982)
+      url: https://www.motorsportmagazine.com/archive/article/december-1982/38/formula-one-scene/
+    - titre: 'Classic Team Lotus, « The Early Years: 1980''s »'
+      url: https://classicteamlotus.co.uk/en/past/continuing-to-innovate-1980s
+    - titre: Autosport, Damien Smith, « The F1 title winner that was produced with an entirely different plan in mind » (septembre 2025)
+      url: https://www.autosport.com/f1/news/the-f1-title-winner-that-was-produced-with-an-entirely-different-plan-in-mind/10758584/
   - de: 1983
     a: 2021
     valeur: non
@@ -1939,8 +1949,10 @@ technologies:
     equipe: Ligier Matra
     voiture: Ligier JS17
     valeur: non
-    pourquoi: Monocoque en alliage d'aluminium léger riveté ; Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche dérive de la Ligier-Cosworth V8.
+    pourquoi: Monocoque en aluminium, selon la fiche technique d'Ultimatecarpage et Wikipédia (alliage d'aluminium léger riveté) ; Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche dérive de la Ligier-Cosworth V8.
     sources:
+    - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
+      url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
     - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
       url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
     - titre: Wikipédia, « Ligier JS17 »
@@ -2031,12 +2043,12 @@ technologies:
     equipe: Renault
     voiture: Renault RE30B
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone. Motor Sport présente la coque carbone de la RE40 de 1983 comme une innovation, ce qui fait de celle-ci la première Renault à coque carbone.
+    pourquoi: 'Coque en aluminium : Artcurial décrit la RE30-B9 de 1982 « avec sa coque en aluminium riveté ». Motor Sport présente la coque carbone de la RE40 de 1983 comme une innovation, ce qui fait de celle-ci la première Renault à coque carbone.'
     sources:
+    - titre: Artcurial Motorcars, « 1982 Renault RE 30-B9 Formule 1 », vente « The Renault Icons » (décembre 2025)
+      url: https://www.artcurial.com/fr/ventes/6445/lots/92-a
     - titre: Motor Sport, Pascal Dro, « Close quarters » (décembre 2007)
       url: https://www.motorsportmagazine.com/archive/article/december-2007/86/close-quarters/
-    - titre: Wikipédia, « Renault RE30 »
-      url: https://en.wikipedia.org/wiki/Renault_RE30
   - annee: 1982
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -2417,8 +2429,12 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B190
     valeur: non
-    pourquoi: La B190 a une suspension conventionnelle à doubles triangles et poussoirs ; l'article ne mentionne jamais de suspension active.
+    pourquoi: 'La B190 a une suspension conventionnelle à doubles triangles et poussoirs. Benetton n''utilise pas de suspension active en course à cette époque : sa voiture suivante, la B191, conçue pour en recevoir une, court toute la saison 1991 avec une suspension classique. Benetton n''adopte la suspension active qu''en 1993.'
     sources:
+    - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
+      url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
+    - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
+      url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
     - titre: Wikipedia, « Benetton B190 »
       url: https://en.wikipedia.org/wiki/Benetton_B190
   - annee: 1990
@@ -2592,12 +2608,18 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: La B189 a une boîte manuelle transversale Benetton à 6 rapports ; en 1989, la boîte semi-automatique est l'innovation propre à la Ferrari 640.
+    pourquoi: 'La B189 a une boîte manuelle transversale Benetton à 6 rapports. En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte. Benetton n''en a toujours pas en course en 1991 : la B191, conçue pour en recevoir une, court toute la saison avec une boîte manuelle. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle.'
     sources:
     - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
     - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
       url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
+    - titre: 'Motor Sport, « The Motor Sport Interview: John Barnard » (février 2025)'
+      url: https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/
+    - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
+      url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
+    - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
+      url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
     - titre: Wikipedia, « Benetton B189 »
       url: https://en.wikipedia.org/wiki/Benetton_B189
   - annee: 1989
@@ -2640,8 +2662,14 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B190
     valeur: non
-    pourquoi: La B190 a une boîte manuelle transversale Benetton à 6 rapports.
+    pourquoi: La B190 a une boîte manuelle transversale Benetton à 6 rapports. Sa remplaçante, la B191, pourtant conçue pour recevoir une boîte semi-automatique, court encore toute la saison 1991 avec une boîte manuelle à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle, et la boîte semi-automatique n'arrive qu'avec la B193.
     sources:
+    - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
+      url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
+    - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
+      url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
+    - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
+      url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
     - titre: Wikipedia, « Benetton B190 »
       url: https://en.wikipedia.org/wiki/Benetton_B190
   - annee: 1990
@@ -2798,14 +2826,14 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 412 T1B
     valeur: oui
-    pourquoi: La 412 T1B, version modifiée de la 412 T1 apparue en France, gagne en Allemagne avec Berger (Autosport). La fiche technique d'Ultimatecarpage indique une boîte semi-automatique à 6 rapports pour la 412 T1.
+    pourquoi: La 412 T1B, version modifiée de la 412 T1 apparue en France, gagne en Allemagne avec Berger (Autosport). La fiche technique de Ferrari donne pour la 412 T1 une transmission « électrohydraulique à 6 rapports plus marche arrière », c'est-à-dire une boîte à commande semi-automatique ; Ultimatecarpage indique explicitement une boîte semi-automatique à 6 rapports. Ferrari attribue la victoire de Berger à Hockenheim à la 412 T1.
     sources:
     - titre: 'Autosport, Marcus Simmons, « Berger: Making Ferrari win again in F1 » (août 2014)'
       url: https://www.autosport.com/f1/news/berger-making-ferrari-win-again-in-f1-5103984/5103984/
+    - titre: Ferrari, « 412 T1 » (site du constructeur, non daté)
+      url: https://www.ferrari.com/en-EN/formula1/412-t1
     - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 412 T1 »
       url: https://www.ultimatecarpage.com/spec/185/Ferrari-412-T1.html
-    - titre: Wikipedia, « Ferrari 412 T1 »
-      url: https://en.wikipedia.org/wiki/Ferrari_412_T1
   - annee: 1994
     ecurie: williams
     equipe: Williams Renault
@@ -3021,10 +3049,12 @@ technologies:
     equipe: Mercedes
     voiture: Mercedes F1 W03
     valeur: oui
-    pourquoi: La fiche technique de la F1 W03 indique un V8 « limité à 18 000 tr/min avec KERS » ; Formula1.com confirme que la W03 est la voiture de la victoire de Rosberg en Chine.
+    pourquoi: Formula1.com confirme que la F1 W03 est la voiture de la victoire de Rosberg en Chine. Sa fiche technique indique un V8 limité à 18 000 tr/min « avec KERS » ; Ultimatecarpage décrit la W03 comme une « KERS Hybrid », avec un moteur électrique de 60 kW.
     sources:
     - titre: Formula1.com, « Mercedes – Year by Year »
       url: https://www.formula1.com/en/information/mercedes-year-by-year.45gq1OShE3U1H5iEJSVtNd
+    - titre: Ultimatecarpage.com, « 2012 Mercedes-Benz W03 Specifications »
+      url: https://www.ultimatecarpage.com/spec/5122/Mercedes-Benz-W03.html
     - titre: Wikipedia, « Mercedes F1 W03 »
       url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
   - annee: 2012
