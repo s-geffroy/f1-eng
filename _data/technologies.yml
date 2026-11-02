@@ -1028,22 +1028,19 @@ technologies:
   - de: 1983
     a: 2021
     valeur: non
-    pourquoi: 'Le fond plat devient obligatoire en 1983 (« flat undersides became mandatory for 1983 ») : l''effet de sol par pontons-ailes et jupes est interdit jusqu''au règlement de 2022.'
+    pourquoi: 'Le fond plat entre les roues et l''interdiction des jupes s''imposent en 1983 (« a new requirement that mandated F1 cars have flat bottoms ») : l''effet de sol des voitures à ailes disparaît jusqu''au règlement de 2022, qui le réintroduit en « annulant » ce changement de 1983.'
     sources:
-    - &id001
-      titre: Wikipédia, « Ground effect (cars) »
-      url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
-    - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms »'
+    - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
-    - &id003
-      titre: Wikipédia, « Williams FW08 »
-      url: https://en.wikipedia.org/wiki/Williams_FW08
+    - titre: 'The Race, Edd Straw, « Newey: F1 2022 rule changes the biggest in four decades » (août 2021)'
+      url: https://the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
   - de: 2022
     a: 2025
     valeur: oui
     pourquoi: '« After a forty-year ban, ground effect returned to Formula 1 in 2022 » : toutes les voitures du règlement 2022 génèrent leur appui par des tunnels sous le fond.'
     sources:
-    - *id001
+    - titre: Wikipédia, « Ground effect (cars) »
+      url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -1242,20 +1239,21 @@ technologies:
   - de: 1989
     a: 2013
     valeur: non
-    pourquoi: « Turbochargers were banned from the 1989 Formula One season, leaving only a naturally aspirated 3.5 L formula » ; la suralimentation ne revient qu'en 2014.
+    pourquoi: Les moteurs turbo sont interdits à partir de 1989, remplacés par des atmosphériques de 3,5 litres (Honda) ; la suralimentation ne revient qu'en 2014, avec le V6 turbo hybride de 1,6 litre (Autosport, FIA).
     sources:
-    - &id002
-      titre: Wikipédia, « Formula One engines »
-      url: https://en.wikipedia.org/wiki/Formula_One_engines
-    - &id008
-      titre: Wikipédia, « McLaren MP4/4 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/4
+    - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
+    - titre: Autosport, Craig Scarborough, « F1's 2014 turbo engines explained » (janvier 2014)
+      url: https://www.autosport.com/f1/feature/5806/f1-2014-turbo-engines-explained
+    - titre: FIA, « 2014 F1 Power Unit Guide »
+      url: https://www.fia.com/news/2014-f1-power-unit-guide
   - de: 2014
     a: 2025
     valeur: oui
     pourquoi: Le règlement 2014 impose des groupes propulseurs V6 1,6 litre hybrides ; la suralimentation revient et tous les motoristes choisissent le turbocompresseur (ère « turbo-hybrid », 2014-2025).
     sources:
-    - *id002
+    - titre: Wikipédia, « Formula One engines »
+      url: https://en.wikipedia.org/wiki/Formula_One_engines
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -1616,240 +1614,268 @@ technologies:
     equipe: Brabham BMW
     voiture: Brabham BT52, BT52B
     valeur: oui
-    pourquoi: La BT52 est propulsée par le 4 cylindres BMW M12/13 turbo ; Piquet et Patrese gagnent quatre courses.
+    pourquoi: Les BT52 et BT52B sont propulsées par le 4 cylindres BMW turbo (« turbocharged BMW engines from Munich ») ; Piquet gagne trois courses et Patrese une quatrième, à Kyalami.
     sources:
-    - &id012
-      titre: Wikipédia, « Brabham BT52 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT52
+    - titre: Motor Sport, Denis Jenkinson, « 1983 Italian Grand Prix race report » (octobre 1983)
+      url: https://www.motorsportmagazine.com/archive/article/october-1983/51/the-italian-grand-prix-deception/
+    - titre: Motor Sport, Denis Jenkinson, « 1983 Dutch Grand Prix race report » (octobre 1983)
+      url: https://www.motorsportmagazine.com/archive/article/october-1983/36/the-dutch-grand-prix-a-lucky-pair/
+    - titre: 'Formula1.com, Mark Hughes, « Tech Tuesday: The ground-breaking Brabham BT52 » (août 2018)'
+      url: https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK
   - annee: 1983
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C2B, 126C3
     valeur: oui
-    pourquoi: Les 126C2B et 126C3 gardent le V6 turbo Ferrari (environ 800 ch en qualification en 1983).
+    pourquoi: 'Motor Sport décrit les 126C2 de 1983 (126C2B) avec le V6 Ferrari à deux turbocompresseurs KKK, que la 126C3 conserve : « the twin turbocharged V6 engine of 120 degrees was still the heart of the car ».'
     sources:
-    - &id004
-      titre: Wikipédia, « Ferrari 126C »
-      url: https://en.wikipedia.org/wiki/Ferrari_126C
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari » (décembre 1983)
+      url: https://www.motorsportmagazine.com/archive/article/december-1983/66/ferrari/
   - annee: 1983
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/1C
     valeur: non
-    pourquoi: La MP4/1C victorieuse à Long Beach utilise un Cosworth DFY V8, atmosphérique.
+    pourquoi: 'Motor Sport décrit les McLaren MP4/1C de 1983 comme des voitures à moteur Cosworth, un DFY V8 atmosphérique : c''est avec elles que Watson gagne à Long Beach.'
     sources:
-    - &id013
-      titre: Wikipédia, « McLaren MP4/1 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+    - titre: Motor Sport, Alan Henry, « 1983 Brazilian Grand Prix race report » (avril 1983)
+      url: https://www.motorsportmagazine.com/archive/article/april-1983/30/brazilian-grand-prix-15/
+    - titre: Motor Sport, Denis Jenkinson, « 1983 Monaco Grand Prix race report » (juin 1983)
+      url: https://www.motorsportmagazine.com/archive/article/june-1983/28/monaco-grand-prix-11/
   - annee: 1983
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE40
     valeur: oui
-    pourquoi: La RE40 utilise le V6 turbo Renault Gordini EF1 ; Prost gagne quatre fois.
+    pourquoi: La RE40 victorieuse au Castellet est la « turbo-charged V6 Renault » ; Prost gagne quatre fois dans la saison.
     sources:
-    - &id014
-      titre: Wikipédia, « Renault RE40 »
-      url: https://en.wikipedia.org/wiki/Renault_RE40
+    - titre: Motor Sport, Denis Jenkinson, « 1983 French Grand Prix race report » (mai 1983)
+      url: https://www.motorsportmagazine.com/archive/article/may-1983/30/french-grand-prix-15/
+    - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
+      url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
   - annee: 1983
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 011
     valeur: non
-    pourquoi: La victoire de Detroit 1983 est obtenue avec la 011 à Cosworth DFV atmosphérique.
+    pourquoi: 'La victoire de Detroit 1983 est obtenue avec la Tyrrell 011 à moteur Cosworth atmosphérique, un DFY selon Motor Sport : c''est la dernière victoire d''un moteur atmosphérique avant 1989.'
     sources:
-    - &id015
-      titre: Wikipédia, « Tyrrell 011 »
-      url: https://en.wikipedia.org/wiki/Tyrrell_011
+    - titre: Motor Sport, Denis Jenkinson, « 1983 Detroit Grand Prix race report » (juillet 1983)
+      url: https://www.motorsportmagazine.com/archive/article/july-1983/32/the-detroit-grand-prix/
+    - titre: Motor Sport, « 1983 Detroit Grand Prix in pictures » (juillet 1983)
+      url: https://www.motorsportmagazine.com/archive/article/july-1983/69/detroit-grand-prix-2/
+    - titre: Autosport (GP Racing), Stuart Codling, « The last hurrah of two F1 titans » (avril 2020)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
   - annee: 1983
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW08C
     valeur: non
-    pourquoi: La FW08C victorieuse à Monaco 1983 utilise le Ford Cosworth DFV atmosphérique.
+    pourquoi: Motor Sport décrit la FW08C victorieuse à Monaco 1983 comme une Williams « Cosworth-engined » luttant « against the turbo tide », avec un DFV préparé par John Judd, atmosphérique.
     sources:
-    - *id003
+    - titre: Motor Sport, Alan Henry, « Keke Rosberg » (décembre 1983)
+      url: https://www.motorsportmagazine.com/archive/article/december-1983/36/keke-rosberg/
+    - titre: Motor Sport, Alan Henry, « 1983 Brazilian Grand Prix race report » (avril 1983)
+      url: https://www.motorsportmagazine.com/archive/article/april-1983/30/brazilian-grand-prix-15/
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
     voiture: Brabham BT53
     valeur: oui
-    pourquoi: Le BMW M12/13 de la BT53 est un 4 cylindres turbo.
+    pourquoi: La BT53 est motorisée par le BMW M12/13, un 4 cylindres en ligne de 1 499 cm³ suralimenté par un turbocompresseur KKK unique.
     sources:
-    - &id016
-      titre: Wikipédia, « Brabham BT53 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT53
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+      url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
+    - titre: OldRacingCars.com, « Brabham BT53/5 race history »
+      url: https://www.oldracingcars.com/brabham/bt53/05
+    - titre: F1technical, « Brabham BT53 BMW »
+      url: https://www.f1technical.net/f1db/cars/537/brabham-bt53
   - annee: 1984
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C4
     valeur: oui
-    pourquoi: La 126C4 utilise le V6 Ferrari Tipo 031 turbocompressé.
+    pourquoi: La 126C4 utilise un V6 Ferrari de 1 496 cm³ à deux turbocompresseurs KKK.
     sources:
-    - &id017
-      titre: Wikipédia, « Ferrari 126 C4 »
-      url: https://fr.wikipedia.org/wiki/Ferrari_126_C4
-    - *id004
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+      url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
+    - titre: RM Sotheby's, « 1984 Ferrari 126 C4 Formula 1 Racing Car » (Monterey, août 2011)
+      url: https://rmsothebys.com/auctions/mo11/lots/r108-1984-ferrari-126-c4-formula-1-racing-car
   - annee: 1984
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2
     valeur: oui
-    pourquoi: La MP4/2 est motorisée par le V6 TAG-Porsche turbo ; douze victoires en 1984.
+    pourquoi: La MP4/2 est motorisée par le V6 TAG turbo conçu et construit par Porsche ; elle a gagné 12 des 16 courses de 1984.
     sources:
-    - &id005
-      titre: Wikipédia, « McLaren MP4/2 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+    - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+      url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+      url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
+    - titre: McLaren Racing, « MP4/2 » (mars 2024)
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1984-formula-1-mclaren-mp4-2/
   - annee: 1984
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW09
     valeur: oui
-    pourquoi: La FW09 est la première Williams à moteur V6 Honda turbo ; victoire à Dallas.
+    pourquoi: La FW09 est la première Williams à moteur turbo, le V6 Honda ; victoire à Dallas.
     sources:
-    - &id018
-      titre: Wikipédia, « Williams FW09 »
-      url: https://en.wikipedia.org/wiki/Williams_FW09
+    - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+      url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
+    - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
+      url: https://www.motorsportmagazine.com/archive/article/august-1984/22/dallas-grand-prix
   - annee: 1985
     ecurie: brabham
     equipe: Brabham BMW
     voiture: Brabham BT54
     valeur: oui
-    pourquoi: La BT54 utilise le BMW M12/13 turbo ; victoire de Piquet en France.
+    pourquoi: La BT54 victorieuse au Castellet est propulsée par le BMW M12/13 turbo (historique du châssis BT54/5). Jenkinson précise qu'elle utilisait un turbocompresseur Garrett.
     sources:
-    - &id020
-      titre: Wikipédia, « Brabham BT54 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT54
+    - titre: OldRacingCars.com, « Brabham BT54 [5] race history »
+      url: https://www.oldracingcars.com/brabham/bt54/05
+    - titre: Motor Sport, Denis Jenkinson, « 1985 French Grand Prix race report » (août 1985)
+      url: https://www.motorsportmagazine.com/archive/article/august-1985/35/french-grand-prix-5/
   - annee: 1985
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 156/85
     valeur: oui
-    pourquoi: La 156/85 utilise le V6 Ferrari Tipo 031/2 turbo.
+    pourquoi: La fiche technique de Ferrari donne pour la 156-85 un V6 de 1 496 cm³ alimenté par deux turbos.
     sources:
-    - &id021
-      titre: Wikipédia, « Ferrari 156/85 »
-      url: https://en.wikipedia.org/wiki/Ferrari_156/85
+    - titre: Ferrari, « 156-85 »
+      url: https://www.ferrari.com/en-EN/formula1/156-85
   - annee: 1985
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2B
     valeur: oui
-    pourquoi: La famille MP4/2 utilise le V6 TAG-Porsche turbo.
+    pourquoi: La fiche « X-ray spec » de Motor Sport rappelle que la MP4/2, déclinée en MP4/2B et MP4/2C en 1985 et 1986, se distinguait par son châssis composite carbone et par son V6 TAG turbo conçu par Porsche.
     sources:
-    - *id005
+    - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+      url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/
   - annee: 1985
     ecurie: team-lotus
     equipe: Lotus Renault
     voiture: Lotus 97T
     valeur: oui
-    pourquoi: La 97T est propulsée par le V6 Renault EF15B 1,5 litre turbo ; trois victoires.
+    pourquoi: Autosport décrit le V6 Renault 1,5 litre de la 97T et ses turbocompresseurs Garrett. La fiche de Motor Sport le donne comme « 1.5-litre V6 turbocharged ». La 97T a remporté trois victoires.
     sources:
-    - &id022
-      titre: Wikipédia, « Lotus 97T »
-      url: https://en.wikipedia.org/wiki/Lotus_97T
+    - titre: Autosport (GP Racing), « How Senna's first F1 winner gave Lotus life after Chapman » (août 2022)
+      url: https://www.autosport.com/f1/news/how-sennas-first-f1-winner-gave-lotus-life-after-chapman/10356472/
+    - titre: 'Motor Sport, « Lotus 97T: Ayrton Senna''s Estoril annihilator » (mai 2025)'
+      url: https://www.motorsportmagazine.com/archive/article/may-2025/60/lotus-97t-ayrton-sennas-estoril-annihilator/
   - annee: 1985
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW10
     valeur: oui
-    pourquoi: La FW10 utilise le V6 Honda 1,5 litre biturbo ; quatre victoires.
+    pourquoi: La fiche de Honda donne pour la FW10 un V6 1,5 litre « twin-turbo » (RA165E à partir du Grand Prix du Canada). La FW10 et sa version FW10B ont remporté quatre victoires.
     sources:
-    - &id019
-      titre: Wikipédia, « Williams FW10 »
-      url: https://en.wikipedia.org/wiki/Williams_FW10
+    - titre: Honda, « 1985 Williams Honda FW10 »
+      url: https://global.honda/en/F1/machine/1985_WilliamsHondaFW10/
   - annee: 1986
     ecurie: benetton
     equipe: Benetton BMW
     voiture: Benetton B186
     valeur: oui
-    pourquoi: La B186 utilise le 4 cylindres BMW M12/13 turbo ; victoire au Mexique.
+    pourquoi: Matt Bishop rappelle que la victoire de la B186 au Mexique est la dernière du BMW M12/13 turbo. Les résultats d'époque de Motor Sport donnent « Benetton B186-BMW 4 cyl ».
     sources:
-    - &id023
-      titre: Wikipédia, « Benetton B186 »
-      url: https://en.wikipedia.org/wiki/Benetton_B186
+    - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+    - titre: 'Motor Sport, « Formula One: 1986 Mexican Grand Prix » (novembre 1986)'
+      url: https://www.motorsportmagazine.com/archive/article/november-1986/20/formula-one-mexican-grand-prix/
   - annee: 1986
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2C
     valeur: oui
-    pourquoi: La famille MP4/2 utilise le V6 TAG-Porsche turbo.
+    pourquoi: La fiche « X-ray spec » de Motor Sport rappelle que la famille MP4/2, y compris la MP4/2C de 1986, utilise le V6 TAG turbo conçu par Porsche.
     sources:
-    - *id005
+    - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+      url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/
   - annee: 1986
     ecurie: team-lotus
     equipe: Lotus Renault
     voiture: Lotus 98T
     valeur: oui
-    pourquoi: La 98T utilise le V6 Renault EF15B turbocompressé ; deux victoires.
+    pourquoi: L'historique du châssis 98T/3 sur OldRacingCars donne, pour ses deux victoires de 1986 (Jerez et Detroit), un « Renault EF15B turbo V6 » de 1,5 litre.
     sources:
-    - &id024
-      titre: Wikipédia, « Lotus 98T »
-      url: https://fr.wikipedia.org/wiki/Lotus_98T
+    - titre: OldRacingCars.com, « Lotus 98T [3] race history »
+      url: https://www.oldracingcars.com/lotus/98t/03
   - annee: 1986
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW11
     valeur: oui
-    pourquoi: La FW11 est propulsée par un V6 Honda 1,5 litre turbo ; neuf victoires.
+    pourquoi: La fiche de Honda donne pour la FW11 un V6 1,5 litre « twin-turbo » (RA166E). La voiture a remporté neuf victoires.
     sources:
-    - &id006
-      titre: Wikipédia, « Williams FW11 »
-      url: https://en.wikipedia.org/wiki/Williams_FW11
+    - titre: Honda, « 1986 Williams Honda FW11 »
+      url: https://global.honda/en/F1/machine/1986_WilliamsHondaFW11/
   - annee: 1987
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F1/87
     valeur: oui
-    pourquoi: La F1/87 reçoit un V6 turbo 1,5 litre (Tipo 033) ; victoires au Japon et en Australie.
+    pourquoi: La F1/87 reçoit un V6 biturbo neuf (Tipo 033) ; victoires au Japon et en Australie.
     sources:
-    - &id007
-      titre: Wikipédia, « Ferrari F1/87 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
+      url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
+    - titre: 'Motor Sport, Samarth Kanal, « Gallery: Ferrari F1/87 » (avril 2018)'
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/gallery-ferrari-f187
   - annee: 1987
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/3
     valeur: oui
-    pourquoi: La MP4/3 est la dernière McLaren à moteur TAG-Porsche turbo ; trois victoires.
+    pourquoi: La MP4/3 garde le V6 TAG-Porsche turbo, révisé pour les soupapes de limitation de pression de 1987 ; c'est la dernière McLaren à moteur TAG, le programme étant arrêté en fin d'année ; trois victoires.
     sources:
-    - &id009
-      titre: Wikipédia, « McLaren MP4/3 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/3
+    - titre: 'Motor Sport, Alan Henry, « Formula One: 1987 Brazilian GP » (mai 1987)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1987/9/a-joy-to-behold/
+    - titre: 'McLaren, « Alain''s record breaking year: How the MP4/4''s lesser-known predecessor helped Le Prof » (septembre 2017)'
+      url: https://www.mclaren.com/racing/heritage/driver/alain-prost/alains-record-breaking-year-mp43-2119871/
   - annee: 1987
     ecurie: team-lotus
     equipe: Lotus Honda
     voiture: Lotus 99T
     valeur: oui
-    pourquoi: La 99T utilise le V6 Honda turbo (RA166E) ; victoires à Monaco et Detroit.
+    pourquoi: La 99T utilise le V6 Honda biturbo, le RA167E selon Honda ; victoires à Monaco et à Detroit.
     sources:
-    - &id010
-      titre: Wikipédia, « Lotus 99T »
-      url: https://en.wikipedia.org/wiki/Lotus_99T
+    - titre: Honda, « 1987 Lotus Honda 99T » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1987_Lotus99T/
+    - titre: Ultimatecarpage.com, « Lotus 99T Honda »
+      url: https://www.ultimatecarpage.com/car/1460/Lotus-99T-Honda.html
   - annee: 1987
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW11B
     valeur: oui
-    pourquoi: La FW11B, évolution de la FW11 à V6 Honda turbo, gagne neuf courses en 1987.
+    pourquoi: La FW11B, évolution de la FW11, reçoit le V6 Honda turbo RA167E ; elle gagne neuf courses en 1987.
     sources:
-    - *id006
+    - titre: Honda, « 1987 Williams Honda FW11B » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1987_WilliamsHondaFW11B/
+    - titre: Ultimatecarpage.com, « Williams FW11B Honda »
+      url: https://www.ultimatecarpage.com/car/1425/Williams-FW11B-Honda.html
   - annee: 1988
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F1/87/88C
     valeur: oui
-    pourquoi: La F1/87/88C garde le V6 turbo Tipo 033 (033A) ; victoire en Italie.
+    pourquoi: La F1/87/88C garde le V6 turbo de la F1/87, bridé à 2,5 bars pour la dernière saison des turbos ; victoire en Italie.
     sources:
-    - *id007
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
+      url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
   - annee: 1988
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/4
     valeur: oui
-    pourquoi: La MP4/4 est propulsée par le V6 Honda RA168E 1,5 litre turbo ; elle gagne toutes les courses sauf une.
+    pourquoi: La MP4/4 est propulsée par le V6 Honda RA168E turbo ; elle gagne toutes les courses sauf une.
     sources:
-    - *id008
+    - titre: Honda, « 1988 McLaren Honda MP4/4 » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1988_McLarenHondaMP44/
 - id: composite-carbone
   nom: Monocoque carbone
   nom_en: Carbon monocoque
@@ -1865,17 +1891,22 @@ technologies:
   - de: 1987
     a: 2025
     valeur: oui
-    pourquoi: La monocoque carbone devient la norme de la grille ; les quatre gagnantes de 1987 (Ferrari F1/87, McLaren MP4/3, Lotus 99T, Williams FW11B) et la McLaren MP4/4 de 1988 sont en composite carbone ; la dernière gagnante non carbone vérifiée est la Brabham BT54 de 1985.
+    pourquoi: La monocoque carbone, inaugurée par la McLaren MP4/1, devient la norme de la grille ; les quatre gagnantes de 1987 (Ferrari F1/87, McLaren MP4/3, Lotus 99T, Williams FW11B) et la McLaren MP4/4 de 1988 sont en composite carbone ; la dernière gagnante non entièrement carbone est la Brabham BT54 de 1985, la BT55 de 1986 étant le premier châssis tout carbone de Brabham.
     sources:
-    - titre: Motor Sport, « John Barnard remembers his McLaren MP4/1 eureka moment »
+    - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)
       url: https://motorsportmagazine.com/articles/single-seaters/f1/john-barnard-remembers-his-mclaren-mp4-1-eureka-moment
-    - *id007
-    - *id009
-    - *id010
-    - *id006
-    - &id011
-      titre: Wikipédia, « Brabham BT55 »
-      url: https://en.wikipedia.org/wiki/Brabham_BT55
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
+      url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
+    - titre: Conceptcarz.com, « 1987 McLaren MP4/3 »
+      url: https://www.conceptcarz.com/z21398/mclaren-mp4/3.aspx
+    - titre: Honda, « 1987 Lotus Honda 99T » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1987_Lotus99T/
+    - titre: Honda, « 1987 Williams Honda FW11B » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1987_WilliamsHondaFW11B/
+    - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda » (juillet 2014)
+      url: https://www.ultimatecarpage.com/car/343/McLaren-MP4-4-Honda.html
+    - titre: Motor Sport, Adam Cooper, « Why Gordon Murray's Brabham BT55 never fulfilled its lowline promise » (septembre 2026)
+      url: https://www.motorsportmagazine.com/archive/article/september-2026/80/why-gordon-murrays-brabham-bt55-never-fulfilled-its-lowline-promise/
   cas:
   - annee: 1981
     ecurie: brabham
@@ -1952,7 +1983,8 @@ technologies:
     sources:
     - titre: Wikipédia, « Brabham BT50 »
       url: https://en.wikipedia.org/wiki/Brabham_BT50
-    - *id011
+    - titre: Wikipédia, « Brabham BT55 »
+      url: https://en.wikipedia.org/wiki/Brabham_BT55
   - annee: 1982
     ecurie: brabham
     equipe: Brabham Ford
@@ -2033,164 +2065,199 @@ technologies:
     equipe: Brabham BMW
     voiture: Brabham BT52, BT52B
     valeur: non
-    pourquoi: 'Monocoque mixte : partie basse et cloison en aluminium, partie haute en carbone ; Murray hésite encore à suivre la voiture « all-carbon » de McLaren. La première Brabham entièrement en composite est la BT55 (1986).'
+    pourquoi: 'Monocoque mixte : cloison et partie basse en aluminium, partie haute en carbone ; Murray hésite encore à suivre McLaren et son châssis « all-carbon fibre ».'
     sources:
-    - titre: 'Formula1.com, « Tech Tuesday: The ground-breaking Brabham BT52 »'
+    - titre: 'Formula1.com, Mark Hughes, « Tech Tuesday: The ground-breaking Brabham BT52 » (août 2018)'
       url: https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK
-    - *id012
-    - *id011
   - annee: 1983
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C2B, 126C3
     valeur: oui
     des: Great Britain
-    pourquoi: La 126C3, dont la monocoque « abandonne l'aluminium » pour du Kevlar et de la fibre de carbone, débute en Grande-Bretagne et gagne en Allemagne et aux Pays-Bas ; les victoires de Saint-Marin et du Canada sont obtenues avec la 126C2B en aluminium.
+    pourquoi: La 126C3, dont la monocoque en composite de fibre de carbone remplace l'aluminium en nid d'abeille de la C2, débute en Grande-Bretagne et gagne en Allemagne et aux Pays-Bas ; les victoires de Saint-Marin et du Canada sont obtenues avec les C2 (126C2B) en aluminium.
     sources:
-    - titre: Wikipédia, « Ferrari 126 C3 »
-      url: https://fr.wikipedia.org/wiki/Ferrari_126_C3
-    - *id004
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Silverstone » (août 1983)
+      url: https://www.motorsportmagazine.com/archive/article/august-1983/29/notes-on-the-cars-at-silverstone/
+    - titre: Motor Sport, Denis Jenkinson, « Ferrari » (décembre 1983)
+      url: https://www.motorsportmagazine.com/archive/article/december-1983/66/ferrari/
   - annee: 1983
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/1C
     valeur: oui
-    pourquoi: Évolution de la MP4/1 à monocoque carbone, victorieuse à Long Beach.
+    pourquoi: En 1983, Motor Sport rappelle que les McLaren reposent sur une monocoque en composite de fibre de carbone, fabriquée en Amérique ; la MP4/1C, évolution de la MP4/1, gagne à Long Beach.
     sources:
-    - *id013
+    - titre: Motor Sport, Denis Jenkinson, « Formula One scene » (juillet 1983)
+      url: https://www.motorsportmagazine.com/archive/article/july-1983/30/formula-one-scene/
+    - titre: Motor Sport, Denis Jenkinson, « Long Beach reflections » (mai 1983)
+      url: https://www.motorsportmagazine.com/archive/article/may-1983/37/long-beach-reflections/
   - annee: 1983
     ecurie: renault-1977
     equipe: Renault
     voiture: Renault RE40
     valeur: oui
-    pourquoi: « The first Renault chassis to be built entirely of carbon fibre », en course dès Long Beach (manche 2), avant les quatre victoires de Prost.
+    pourquoi: La RE40 est la première Renault à monocoque en composite de fibre de carbone (« a new era for the French team ») ; elle court dès Long Beach (manche 2), avant les quatre victoires de Prost.
     sources:
-    - *id014
+    - titre: Motor Sport, Denis Jenkinson, « The Formula One scene » (mars 1983)
+      url: https://www.motorsportmagazine.com/archive/article/march-1983/27/formula-one-scene-2/
+    - titre: Motor Sport, Denis Jenkinson, « 1983 United States Grand Prix West race report » (mai 1983)
+      url: https://www.motorsportmagazine.com/archive/article/may-1983/35/the-united-states-grand-prixwest/
   - annee: 1983
     ecurie: tyrrell
     equipe: Tyrrell Ford
     voiture: Tyrrell 011
     valeur: non
-    pourquoi: Monocoque aluminium.
+    pourquoi: 'Monocoque en aluminium nid d''abeille : Maurice Philippe a résisté à la fibre de carbone.'
     sources:
-    - *id015
+    - titre: OldRacingCars.com, « Tyrrell 011 car-by-car histories »
+      url: https://www.oldracingcars.com/tyrrell/011/
+    - titre: Autosport (GP Racing), Stuart Codling, « The last hurrah of two F1 titans » (avril 2020)
+      url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
   - annee: 1983
     ecurie: williams
     equipe: Williams Ford
     voiture: Williams FW08C
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille.
+    pourquoi: La fiche d'Autosport sur la FW08C indique une monocoque en aluminium ; Patrick Head ne passera à la construction tout carbone qu'avec la FW10 de 1985, et même la FW09 qui suit garde l'aluminium en nid d'abeille.
     sources:
-    - *id003
+    - titre: Autosport (GP Racing), Damien Smith, « The low-downforce car that introduced F1 to Senna » (septembre 2018)
+      url: https://www.autosport.com/f1/news/the-low-downforce-car-that-introduced-f1-to-senna-5111153/5111153/
+    - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
     voiture: Brabham BT53
     valeur: non
-    pourquoi: 'Monocoque « aluminium and carbon fibre », non entièrement composite : la BT55 de 1986 est la première Brabham entièrement en composite.'
+    pourquoi: 'La BT53 n''a pas de monocoque entièrement en composite : Motor Sport la décrit comme une monocoque en alliage léger avec quelques panneaux en composite de fibre de carbone, et F1technical comme une monocoque « Alu/Carbonfibre ».'
     sources:
-    - *id016
-    - *id011
+    - titre: Motor Sport, Alan Henry, « 1984 Brazilian Grand Prix race report » (mai 1984)
+      url: https://www.motorsportmagazine.com/archive/article/may-1984/82/brazilian-grand-prix-8
+    - titre: F1technical, « Brabham BT53 BMW »
+      url: https://www.f1technical.net/f1db/cars/537/brabham-bt53
   - annee: 1984
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 126C4
     valeur: oui
-    pourquoi: Double coque en Kevlar et fibre de carbone.
+    pourquoi: La 126C4 repose sur une monocoque en composite de fibre de carbone (CFC), proche de celle de la 126C3.
     sources:
-    - *id017
+    - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+      url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
   - annee: 1984
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2
     valeur: oui
-    pourquoi: Monocoque en nid d'abeille de fibre de carbone.
+    pourquoi: Monocoque en composite de fibre de carbone, fabriquée pour McLaren par Hercules aux États-Unis.
     sources:
-    - *id005
+    - titre: Motor Sport, Alan Henry, « 1984 Brazilian Grand Prix race report » (mai 1984)
+      url: https://www.motorsportmagazine.com/archive/article/may-1984/82/brazilian-grand-prix-8
+    - titre: Motor Sport, « Front View » (décembre 1984)
+      url: https://www.motorsportmagazine.com/archive/article/december-1984/62/front-view/
+    - titre: McLaren Racing, « MP4/2 » (mars 2024)
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1984-formula-1-mclaren-mp4-2/
   - annee: 1984
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW09
     valeur: non
-    pourquoi: Monocoque aluminium nid d'abeille avec points d'ancrage en carbone ; la FW10 de 1985 est la première Williams principalement en carbone.
+    pourquoi: Monocoque traditionnelle en nid d'abeille d'aluminium avec quelques inserts en carbone ; Williams ne passe au tout composite qu'avec la FW10 de 1985.
     sources:
-    - *id018
-    - *id019
+    - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
+    - titre: Honda, « 1984 Williams Honda FW09 » (F1 Machines Powered by Honda)
+      url: https://global.honda/en/F1/machine/1984_WilliamsHondaFW09/
   - annee: 1985
     ecurie: brabham
     equipe: Brabham BMW
     voiture: Brabham BT54
     valeur: non
-    pourquoi: 'Discutable : la fiche technique de la BT54 indique « Carbon fibre », mais la page de la BT55 (1986) la présente comme « Brabham''s first fully composite monocoque » ; classée non par cohérence avec la règle sur les monocoques mixtes.'
+    pourquoi: Gordon Murray, cité par Doug Nye dans Motor Sport, explique que Brabham a peu à peu fait plus de la monocoque en carbone, mais que les flancs extérieurs sont restés en aluminium. Seule la BT55 de 1986 s'en passe et devient sa première voiture entièrement en carbone. La BT54 est donc une monocoque mixte, classée non.
     sources:
-    - *id020
-    - *id011
+    - titre: Motor Sport, Doug Nye, « From the archives with... Doug Nye » (juillet 2015)
+      url: https://www.motorsportmagazine.com/archive/article/july-2015/177/archives-doug-nye/
   - annee: 1985
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 156/85
     valeur: oui
-    pourquoi: Monocoque en composite Kevlar et fibre de carbone.
+    pourquoi: La fiche technique de Ferrari décrit le châssis de la 156-85 comme une monocoque en composite Kevlar et fibre de carbone.
     sources:
-    - *id021
+    - titre: Ferrari, « 156-85 »
+      url: https://www.ferrari.com/en-EN/formula1/156-85
   - annee: 1985
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2B
     valeur: oui
-    pourquoi: Monocoque en nid d'abeille de fibre de carbone (famille MP4/2).
+    pourquoi: La fiche « X-ray spec » de Motor Sport rappelle que la MP4/2, déclinée en MP4/2B en 1985, se distinguait par son châssis composite carbone, technique que Barnard avait inaugurée avec la MP4 d'origine.
     sources:
-    - *id005
+    - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+      url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/
   - annee: 1985
     ecurie: team-lotus
     equipe: Lotus Renault
     voiture: Lotus 97T
     valeur: oui
-    pourquoi: Monocoque en fibre de carbone et Kevlar.
+    pourquoi: Autosport décrit la monocoque de la 97T comme des peaux de carbone et de Kevlar prises en sandwich autour d'un nid d'abeille d'aluminium, pliées et collées. La fiche de Motor Sport la donne comme une monocoque en composite de fibre de carbone à âme en nid d'abeille d'aluminium.
     sources:
-    - *id022
-    - titre: Wikipédia, « Lotus 97T »
-      url: https://fr.wikipedia.org/wiki/Lotus_97T
+    - titre: Autosport (GP Racing), « How Senna's first F1 winner gave Lotus life after Chapman » (août 2022)
+      url: https://www.autosport.com/f1/news/how-sennas-first-f1-winner-gave-lotus-life-after-chapman/10356472/
+    - titre: 'Motor Sport, « Lotus 97T: Ayrton Senna''s Estoril annihilator » (mai 2025)'
+      url: https://www.motorsportmagazine.com/archive/article/may-2025/60/lotus-97t-ayrton-sennas-estoril-annihilator/
   - annee: 1985
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW10
     valeur: oui
-    pourquoi: Première Williams faite principalement de composite, monocoque « entirely from much stiffer carbon composite ».
+    pourquoi: La page de Honda sur la FW10 indique que c'est la première Williams à monocoque en composite carbone, Williams adoptant cette technique pour la première fois.
     sources:
-    - *id019
+    - titre: Honda, « 1985 Williams Honda FW10 »
+      url: https://global.honda/en/F1/machine/1985_WilliamsHondaFW10/
   - annee: 1986
     ecurie: benetton
     equipe: Benetton BMW
     voiture: Benetton B186
     valeur: oui
-    pourquoi: Monocoque moulée en composite de fibre de carbone.
+    pourquoi: Ultimatecarpage décrit la B186 comme une monocoque en fibre de carbone et nid d'abeille Nomex, dérivée de celle de la Toleman TG185. Wikipédia donne une monocoque moulée en composite de fibre de carbone.
     sources:
-    - *id023
+    - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW Specifications »
+      url: https://www.ultimatecarpage.com/spec/687/Benetton-B186-BMW.html
+    - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW »
+      url: https://www.ultimatecarpage.com/car/687/Benetton-B186-BMW.html
+    - titre: Wikipédia, « Benetton B186 »
+      url: https://en.wikipedia.org/wiki/Benetton_B186
   - annee: 1986
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/2C
     valeur: oui
-    pourquoi: Monocoque en nid d'abeille de fibre de carbone (famille MP4/2).
+    pourquoi: La fiche « X-ray spec » de Motor Sport rappelle que la MP4/2, déclinée en MP4/2C en 1986, se distinguait par son châssis composite carbone.
     sources:
-    - *id005
+    - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+      url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/
   - annee: 1986
     ecurie: team-lotus
     equipe: Lotus Renault
     voiture: Lotus 98T
     valeur: oui
-    pourquoi: Monocoque en fibre de carbone et Kevlar (la fiche anglaise mentionne aussi de l'aluminium nid d'abeille, la fiche française seulement carbone-Kevlar).
+    pourquoi: D'après Autosport, la 98T est la première Lotus dotée d'une monocoque entièrement en carbone, moulée et non plus assemblée à partir d'éléments collés. La 97T de 1985 était la dernière Lotus assemblée de façon « hybride ».
     sources:
-    - *id024
+    - titre: Autosport (GP Racing), « The pioneering F1 car that preceded Lotus's terminal decline » (février 2023)
+      url: https://www.autosport.com/f1/news/the-pioneering-f1-car-that-preceded-lotuss-terminal-decline/10428092/
+    - titre: Autosport (GP Racing), « How Senna's first F1 winner gave Lotus life after Chapman » (août 2022)
+      url: https://www.autosport.com/f1/news/how-sennas-first-f1-winner-gave-lotus-life-after-chapman/10356472/
   - annee: 1986
     ecurie: williams
     equipe: Williams Honda
     voiture: Williams FW11
     valeur: oui
-    pourquoi: Monocoque moulée en composite carbone.
+    pourquoi: La page de Honda sur la FW11 décrit une monocoque entièrement en carbone, moulée d'une seule pièce, et non l'assemblage de panneaux collés du début des années 1980. Sa fiche technique indique « Carbon fiber monocoque ».
     sources:
-    - *id006
+    - titre: Honda, « 1986 Williams Honda FW11 »
+      url: https://global.honda/en/F1/machine/1986_WilliamsHondaFW11/
 - id: suspension-active
   nom: Suspension active
   nom_en: Active suspension
@@ -2222,31 +2289,37 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari F1/87
     valeur: non
-    pourquoi: La F1/87 a une suspension classique à doubles triangles et ressorts hélicoïdaux actionnés par tirants ; l'article ne mentionne aucune suspension active.
+    pourquoi: La F1/87 a une suspension classique à doubles triangles et ressorts hélicoïdaux internes actionnés par tirants ; en 1987, seules la Lotus 99T et la Williams FW11B courent avec une suspension active.
     sources:
-    - titre: Wikipedia, « Ferrari F1/87 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
+      url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 », fiche technique (janvier 2010)
+      url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
+      url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
   - annee: 1987
     ecurie: mclaren
     equipe: McLaren TAG
     voiture: McLaren MP4/3
     valeur: non
-    pourquoi: 'La MP4/3 a des doubles triangles avec combinés ressort-amortisseur Bilstein actionnés par poussoirs, sans vérin : suspension passive ; seules Lotus et Williams courent en actif cette année-là.'
+    pourquoi: 'Motor Sport ne cite que deux voitures à suspension active en 1987, la Lotus 99T et la Williams FW11B : la MP4/3, victorieuse au Brésil, en Belgique et au Portugal, court avec une suspension passive.'
     sources:
-    - titre: Wikipedia, « McLaren MP4/3 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/3
-    - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
+    - titre: Ultimatecarpage.com, « McLaren MP4/3 Porsche », fiche technique
+      url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
   - annee: 1987
     ecurie: team-lotus
     equipe: Lotus Honda
     voiture: Lotus 99T
     valeur: oui
-    pourquoi: La 99T court toute la saison avec sa suspension active pilotée par ordinateur, à la demande de Senna ; ses deux victoires (Monaco, Detroit) sont acquises avec.
+    pourquoi: La 99T court avec sa suspension active pilotée par ordinateur, réintroduite à la demande de Gérard Ducarouge ; Motor Sport attribue ses deux victoires (Monaco, Detroit) à la version active.
     sources:
-    - titre: Wikipedia, « Lotus 99T »
-      url: https://en.wikipedia.org/wiki/Lotus_99T
-    - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
+    - titre: Honda, « 1987 Lotus Honda 99T » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1987_Lotus99T/
+    - titre: 'Motor Sport, Alan Henry, « Formula One: 1987 Brazilian GP » (mai 1987)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1987/9/a-joy-to-behold/
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
   - annee: 1987
     ecurie: williams
@@ -2261,72 +2334,76 @@ technologies:
     - Germany
     - Hungary
     - Austria
-    pourquoi: La « Williams Reactive Ride » (suspension active rebaptisée) court pour la première fois à Monza, où Piquet gagne ; Motor Sport précise que trois des neuf victoires de la FW11B sont acquises en version active, soit Italie, Espagne et Mexique, les trois dernières de la saison. Les six victoires antérieures sont en passif.
+    pourquoi: La suspension « réactive » de Williams court pour la première fois à Monza, où Piquet gagne ; Motor Sport précise que trois des neuf victoires de la FW11B sont acquises en version active, soit Italie, Espagne et Mexique, les trois dernières de la saison, et Honda confirme que le système n'a pas servi toute l'année. Les six victoires antérieures sont en passif.
     sources:
-    - titre: Wikipedia, « Williams FW11 »
-      url: https://en.wikipedia.org/wiki/Williams_FW11
-    - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
-    - titre: Honda, « 1987 Williams Honda FW11B »
+    - titre: Honda, « 1987 Williams Honda FW11B » (site du constructeur, non daté)
       url: https://global.honda/en/F1/machine/1987_WilliamsHondaFW11B/
   - annee: 1988
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F1/87/88C
     valeur: non
-    pourquoi: La F1/87/88C reprend la suspension passive à tirants de la F1/87 ; aucune suspension active n'est mentionnée.
+    pourquoi: La F1/87/88C reprend la suspension passive de la F1/87, doubles triangles et ressorts hélicoïdaux actionnés par tirants ; aucune suspension active n'est mentionnée.
     sources:
-    - titre: Wikipedia, « Ferrari F1/87 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », fiche technique (janvier 2010)
+      url: https://www.ultimatecarpage.com/spec/4374/Ferrari-F1-87-88C.html
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
+      url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
   - annee: 1988
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/4
     valeur: non
-    pourquoi: La MP4/4 a des doubles triangles avec ressorts et amortisseurs actionnés par tirants/poussoirs et culbuteurs, montage passif ; en 1988 seule Williams court (sans gagner) avec une suspension réactive, abandonnée à Silverstone.
+    pourquoi: La MP4/4 a des doubles triangles avec ressorts et amortisseurs actionnés par tirants, poussoirs et culbuteurs, montage passif ; en 1988, seule la Williams FW12 court (sans gagner) avec une suspension réactive, retirée au Grand Prix de Grande-Bretagne.
     sources:
-    - titre: Wikipedia, « McLaren MP4/4 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/4
-    - titre: Wikipedia, « Williams FW12 »
-      url: https://en.wikipedia.org/wiki/Williams_FW12
+    - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda » (juillet 2014)
+      url: https://www.ultimatecarpage.com/car/343/McLaren-MP4-4-Honda.html
+    - titre: Honda, « 1988 McLaren Honda MP4/4 » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1988_McLarenHondaMP44/
+    - titre: Ultimatecarpage.com, « Williams FW12C Renault »
+      url: https://www.ultimatecarpage.com/car/1051/Williams-FW12C-Renault.html
   - annee: 1989
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: La B189, gagnante au Japon, a une suspension à doubles triangles et poussoirs, sans aucune mention d'actif.
+    pourquoi: La B189, gagnante au Japon, a une suspension classique à ressorts et amortisseurs actionnés par tirants, la B190 de 1990 passant aux poussoirs ; aucune suspension active n'est mentionnée.
     sources:
-    - titre: Wikipedia, « Benetton B189 »
-      url: https://en.wikipedia.org/wiki/Benetton_B189
+    - titre: Autosport (GP Racing), « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
+      url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
   - annee: 1989
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 640
     valeur: non
-    pourquoi: La 640 a une suspension mécanique classique (barres de torsion à l'avant, ressorts hélicoïdaux à l'arrière, actionnés par poussoirs).
+    pourquoi: 'La 640 a une suspension mécanique classique : barres de torsion à l''avant, ressorts hélicoïdaux à l''arrière, actionnés par poussoirs.'
     sources:
-    - titre: Wikipedia, « Ferrari 640 »
-      url: https://en.wikipedia.org/wiki/Ferrari_640
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
+      url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
   - annee: 1989
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/5
     valeur: non
-    pourquoi: La MP4/5 a une suspension passive à doubles triangles, tirants et culbuteurs.
+    pourquoi: La MP4/5 a une suspension passive à doubles triangles, ressorts et amortisseurs actionnés par tirants à l'avant et par poussoirs à l'arrière.
     sources:
-    - titre: Wikipedia, « McLaren MP4/5 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+    - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda », fiche technique (décembre 2015)
+      url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
   - annee: 1989
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW12C (Canada) et FW13 (Australie)
     valeur: non
-    pourquoi: La FW12C a des doubles triangles à tirants, la suspension réactive ayant été abandonnée mi-1988 ; la FW13, conçue pour l'actif, a été convertie en passif avant de courir.
+    pourquoi: La FW12C a des doubles triangles et des ressorts hélicoïdaux actionnés par tirants, la suspension réactive de la FW12 ayant été retirée au Grand Prix de Grande-Bretagne 1988 ; la FW13 a des ressorts et amortisseurs actionnés par poussoirs. Aucune des deux ne court en actif.
     sources:
-    - titre: Wikipedia, « Williams FW12 »
-      url: https://en.wikipedia.org/wiki/Williams_FW12
-    - titre: Wikipedia, « Williams FW13 »
-      url: https://en.wikipedia.org/wiki/Williams_FW13
+    - titre: Ultimatecarpage.com, « Williams FW12C Renault »
+      url: https://www.ultimatecarpage.com/car/1051/Williams-FW12C-Renault.html
+    - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
+      url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
+      url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
   - annee: 1990
     ecurie: benetton
     equipe: Benetton Ford
@@ -2341,85 +2418,97 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 641
     valeur: non
-    pourquoi: La 641 a une suspension classique à barres de torsion (avant) et ressorts hélicoïdaux (arrière) actionnés par poussoirs, non active.
+    pourquoi: 'La fiche de vente de la 641/2 de Mansell (Gooding) décrit une suspension classique : poussoirs et barres de torsion à l''avant, poussoirs et ressorts hélicoïdaux à l''arrière, avec amortisseurs. Rien d''actif.'
     sources:
-    - titre: Wikipedia, « Ferrari 641 »
-      url: https://en.wikipedia.org/wiki/Ferrari_641
+    - titre: Gooding & Company, « 1990 Ferrari 641/2 » (Scottsdale 2015, lot 38)
+      url: https://www.goodingco.com/lot/1990-ferrari-6412
   - annee: 1990
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/5B
     valeur: non
-    pourquoi: La famille MP4/5 (dont la MP4/5B de 1990) a une suspension passive à doubles triangles.
+    pourquoi: 'La fiche technique Honda de la MP4/5B indique une suspension à doubles triangles, à tirants à l''avant et à poussoirs à l''arrière : une suspension passive classique.'
     sources:
-    - titre: Wikipedia, « McLaren MP4/5 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+    - titre: Honda, « McLaren Honda MP4/5B (1990) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1990_McLarenHondaMP45B/
   - annee: 1990
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW13B
     valeur: non
-    pourquoi: La FW13B reprend la suspension passive à poussoirs de la FW13.
+    pourquoi: 'Williams abandonne la suspension active pour les saisons 1989, 1990 et 1991 et ne la reprend qu''en 1992 : la FW13B de 1990 est donc passive.'
     sources:
-    - titre: Wikipedia, « Williams FW13 »
-      url: https://en.wikipedia.org/wiki/Williams_FW13
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
+      url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
   - annee: 1991
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B191
     valeur: non
-    pourquoi: La B191, gagnante au Canada, a une suspension à doubles triangles et poussoirs, sans actif.
+    pourquoi: Faute de temps, la première B191 n'a pas la suspension active prévue. Elle reçoit une suspension conventionnelle à doubles triangles et poussoirs à l'avant comme à l'arrière.
     sources:
-    - titre: Wikipedia, « Benetton B191 »
-      url: https://en.wikipedia.org/wiki/Benetton_B191
+    - titre: Motor Sport, « Formula One – New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
+    - titre: RM Sotheby's, « 1991 Benetton B191 Formula 1 » (Miami 2025, lot 104)
+      url: https://rmsothebys.com/auctions/mi25/lots/r0004-1991-benetton-b191-formula-1/
   - annee: 1991
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/6
     valeur: non
-    pourquoi: 'Aucune suspension active sur la MP4/6 : McLaren ne passe à l''actif qu''avec la MP4/8 de 1993, la MP4/7B active de 1992 n''ayant jamais couru.'
+    pourquoi: La MP4/6 a une suspension conventionnelle à doubles triangles, poussoirs et ressorts hélicoïdaux, déclinée en trois versions au fil de la saison. Sa suspension passive est reprise sur la MP4/7A de 1992 ; la MP4/7B active n'est jamais jugée assez fiable pour courir.
     sources:
-    - titre: Wikipedia, « McLaren MP4/7A »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/7A
-    - titre: Wikipedia, « McLaren MP4/8 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/8
+    - titre: Honda, « McLaren Honda MP4/6 (1991) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1991_McLarenHondaMP46/
+    - titre: Honda, « McLaren Honda MP4/7A (1992) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1992_McLarenHondaMP47A/
+    - titre: Motor Sport, David Tremayne, « Highs and lows » (novembre 1992)
+      url: https://www.motorsportmagazine.com/archive/article/november-1992/8/highs-and-lows
   - annee: 1991
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW14
     valeur: non
-    pourquoi: La FW14 de 1991 a une suspension passive ; la suspension active n'arrive qu'avec la FW14B en 1992.
+    pourquoi: Williams abandonne la suspension active pour les saisons 1989, 1990 et 1991 et la reprend en 1992 avec la FW14B. Mansell compare d'ailleurs la « voiture passive » de 1991 au système actif de 1992 au Mexique.
     sources:
-    - titre: Wikipedia, « Williams FW14 »
-      url: https://en.wikipedia.org/wiki/Williams_FW14
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
+      url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
+    - titre: 'Motor Sport, David Tremayne, « 1992 Mexican Grand Prix: An almost perfect result » (mai 1992)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1992/12/an-almost-perfect-result/
   - annee: 1992
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B192
     valeur: non
-    pourquoi: La B192, gagnante en Belgique, « n'avait pas de suspension active ».
+    pourquoi: La B192, gagnante en Belgique, a une suspension « passive » conventionnelle, techniquement plus simple que celle de la Williams FW14B à suspension active.
     sources:
-    - titre: Wikipedia, « Benetton B192 »
-      url: https://en.wikipedia.org/wiki/Benetton_B192
+    - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
+      url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
   - annee: 1992
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/7A
     valeur: non
-    pourquoi: La MP4/7A est décrite comme la « McLaren à suspension passive » ; la variante active MP4/7B n'a servi qu'en essais.
+    pourquoi: La MP4/7A a une suspension passive, reprise de la version 2 de 1991. La MP4/7B active n'est pas jugée assez fiable pour courir ; à Monza, la McLaren court en configuration passive après un essai de la suspension active en qualification.
     sources:
-    - titre: Wikipedia, « McLaren MP4/7A »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/7A
+    - titre: Honda, « McLaren Honda MP4/7A (1992) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1992_McLarenHondaMP47A/
+    - titre: Motor Sport, David Tremayne, « Highs and lows » (novembre 1992)
+      url: https://www.motorsportmagazine.com/archive/article/november-1992/8/highs-and-lows
+    - titre: 'Motor Sport, David Tremayne, « 1992 Italian Grand Prix: A Weekend Of Surprises » (octobre 1992)'
+      url: https://www.motorsportmagazine.com/archive/article/october-1992/16/a-weekend-of-surprises/
   - annee: 1992
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW14B
     valeur: oui
-    pourquoi: La FW14B, engagée toute la saison 1992, ajoute la suspension active à la FW14 et gagne dix courses.
+    pourquoi: Williams reprend la suspension active en 1992 avec la FW14B, qui la porte dès la manche d'ouverture en Afrique du Sud et reste en service toute la saison.
     sources:
-    - titre: Wikipedia, « Williams FW14 »
-      url: https://en.wikipedia.org/wiki/Williams_FW14
-    - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
+    - titre: Motor Sport, Maurice Hamilton, « 14B for Bully » (octobre 2009)
+      url: https://www.motorsportmagazine.com/archive/article/october-2009/96/14b-bully/
+    - titre: Motor Sport, David Tremayne, « Suspended animation » (avril 1992)
+      url: https://www.motorsportmagazine.com/archive/article/april-1992/8/suspended-animation-2/
+    - titre: Motor Sport, Keith Howard, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
   - annee: 1993
     ecurie: benetton
@@ -2485,8 +2574,12 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: La B189 a une boîte manuelle transversale Benetton à 6 rapports.
+    pourquoi: La B189 a une boîte manuelle transversale Benetton à 6 rapports ; en 1989, la boîte semi-automatique est l'innovation propre à la Ferrari 640.
     sources:
+    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
+      url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
+    - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
     - titre: Wikipedia, « Benetton B189 »
       url: https://en.wikipedia.org/wiki/Benetton_B189
   - annee: 1989
@@ -2494,32 +2587,36 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 640
     valeur: oui
-    pourquoi: La 640 a une boîte semi-automatique à 7 rapports commandée par palettes, avec passage des rapports et embrayage hydrauliques ; elle gagne dès sa première course au Brésil.
+    pourquoi: La 640 a une boîte semi-automatique à 7 rapports, commandée par palettes au volant, avec embrayage à commande hydraulique ; elle gagne dès la première manche au Brésil.
     sources:
-    - titre: Wikipedia, « Ferrari 640 »
-      url: https://en.wikipedia.org/wiki/Ferrari_640
-    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 »
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
+      url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
+    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
+    - titre: Motor Sport, David Tremayne, « 1989 French Grand Prix race report » (août 1989)
+      url: https://www.motorsportmagazine.com/archive/page/august-1989/18
   - annee: 1989
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/5
     valeur: non
-    pourquoi: La MP4/5 a une boîte manuelle Weismann/McLaren à 6 rapports.
+    pourquoi: La MP4/5 a une boîte manuelle McLaren à 6 rapports, développée avec Pete Weismann, quand Ferrari passe au semi-automatique.
     sources:
-    - titre: Wikipedia, « McLaren MP4/5 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+    - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
+      url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
+    - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda » (décembre 2015)
+      url: https://www.ultimatecarpage.com/car/344/McLaren-MP4-5-Honda.html
   - annee: 1989
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW12C (Canada) et FW13 (Australie)
     valeur: non
-    pourquoi: La FW12C a une boîte manuelle Williams/Hewland à 6 rapports, la FW13 une boîte manuelle transversale Williams/Hewland.
+    pourquoi: La FW12C comme la FW13 ont une boîte manuelle transversale Williams/Hewland à 6 rapports.
     sources:
-    - titre: Wikipedia, « Williams FW12 »
-      url: https://en.wikipedia.org/wiki/Williams_FW12
-    - titre: Wikipedia, « Williams FW13 »
-      url: https://en.wikipedia.org/wiki/Williams_FW13
+    - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
+      url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
+      url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
   - annee: 1990
     ecurie: benetton
     equipe: Benetton Ford
@@ -2534,82 +2631,104 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 641
     valeur: oui
-    pourquoi: La 641 reprend la boîte semi-automatique à 7 rapports développée sur la 640.
+    pourquoi: La 641 (F1/90) court en 1990 avec la boîte semi-automatique à 7 rapports, commandée depuis le volant, qui avait débuté sur la 640. Elle donne du fil à retordre à Mansell à Phoenix comme à Silverstone.
     sources:
-    - titre: Wikipedia, « Ferrari 641 »
-      url: https://en.wikipedia.org/wiki/Ferrari_641
+    - titre: 'Motor Sport, David Tremayne, « 1990 United States Grand Prix report: Phoenix Revival » (avril 1990)'
+      url: https://www.motorsportmagazine.com/archive/article/april-1990/5/phoenix-revivial
+    - titre: Motor Sport, Denis Jenkinson, « 1990 British Grand Prix race report – Decline and Fall » (août 1990)
+      url: https://www.motorsportmagazine.com/archive/article/august-1990/25/decline-and-fall
+    - titre: 'Top Gear, Jason Barlow, « Top Gear''s coolest racing cars: Ferrari 641 » (février 2016)'
+      url: https://www.topgear.com/car-news/classic/top-gears-coolest-racing-cars-ferrari-641
   - annee: 1990
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/5B
     valeur: non
-    pourquoi: La MP4/5B a la boîte manuelle transversale à 6 rapports.
+    pourquoi: 'La MP4/5B a une boîte transversale McLaren à 6 rapports. McLaren ne prépare sa première voiture à boîte semi-automatique que lors des essais qui suivent le Grand Prix d''Allemagne 1991 : la boîte de la MP4/5B est donc manuelle.'
     sources:
-    - titre: Wikipedia, « McLaren MP4/5 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+    - titre: Honda, « McLaren Honda MP4/5B (1990) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1990_McLarenHondaMP45B/
+    - titre: Honda, « McLaren Honda MP4/6 (1991) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1991_McLarenHondaMP46/
   - annee: 1990
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW13B
     valeur: non
-    pourquoi: La FW13B a une boîte manuelle transversale Williams/Hewland à 6 rapports.
+    pourquoi: 'La FW13 et sa version B sont entraînées par une boîte transversale « encombrante ». Williams en essaie une version semi-automatique, mais la première Williams semi-automatique en course est la FW14 de 1991 : la boîte de la FW13B est donc manuelle.'
     sources:
-    - titre: Wikipedia, « Williams FW13 »
-      url: https://en.wikipedia.org/wiki/Williams_FW13
+    - titre: Motor Sport, Damien Smith, « When the wheel fell off Mansell's '91 F1 title challenge » (septembre 2021)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-the-wheel-fell-off-mansells-91-f1-title-challenge
   - annee: 1991
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B191
     valeur: non
-    pourquoi: La B191 a une boîte manuelle transversale Benetton à 6 rapports.
+    pourquoi: Faute de temps, la première B191 n'a pas la boîte semi-automatique prévue. Elle reçoit une boîte manuelle transversale à 6 rapports, très compacte.
     sources:
-    - titre: Wikipedia, « Benetton B191 »
-      url: https://en.wikipedia.org/wiki/Benetton_B191
+    - titre: Motor Sport, « Formula One – New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
+    - titre: RM Sotheby's, « 1991 Benetton B191 Formula 1 » (Miami 2025, lot 104)
+      url: https://rmsothebys.com/auctions/mi25/lots/r0004-1991-benetton-b191-formula-1/
   - annee: 1991
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/6
     valeur: non
-    pourquoi: 'La MP4/6 court toute l''année 1991 avec une boîte manuelle en H : c''est la dernière championne du monde à boîte manuelle (une version semi-automatique, essayée en Hongrie, n''a jamais couru).'
+    pourquoi: La MP4/6 court toute l'année 1991 avec une boîte manuelle. McLaren essaie une boîte semi-automatique à air comprimé en Hongrie, revient à la boîte manuelle après une sortie de piste le vendredi, et la MP4/6 ne reçoit plus jamais de boîte semi-automatique. Le titre de 1991 est le dernier remporté avec une boîte manuelle.
     sources:
-    - titre: Wikipedia, « McLaren MP4/6 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+    - titre: Honda, « McLaren Honda MP4/6 (1991) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1991_McLarenHondaMP46/
+    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion »'
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ayrton-senna-the-last-v12-powered-f1-champion
   - annee: 1991
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW14
     valeur: oui
-    pourquoi: La FW14 inaugure la boîte semi-automatique séquentielle Williams à 6 rapports, cause de plusieurs abandons de Mansell en 1991.
+    pourquoi: 'La FW14 est la première Williams à boîte semi-automatique. Sa fiabilité est mauvaise en début de saison 1991 : au Brésil, un rétrogradage trop lent envoie Mansell en tête-à-queue, et les abandons dus à la boîte pèsent dans la perte du titre.'
     sources:
-    - titre: Wikipedia, « Williams FW14 »
-      url: https://en.wikipedia.org/wiki/Williams_FW14
+    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion »'
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ayrton-senna-the-last-v12-powered-f1-champion
+    - titre: 'Motor Sport, David Tremayne, « 1991 Brazilian Grand Prix report: Senna wins home race at last » (mai 1991)'
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/6/formula-one-brazilian-grand-prix
+    - titre: Motor Sport, Damien Smith, « When the wheel fell off Mansell's '91 F1 title challenge » (septembre 2021)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-the-wheel-fell-off-mansells-91-f1-title-challenge
   - annee: 1992
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B192
     valeur: non
-    pourquoi: La B192 a une boîte manuelle ; sa victoire en Belgique est la dernière d'une F1 à boîte manuelle classique.
+    pourquoi: 'La B192 a une boîte manuelle : sa victoire en Belgique avec Schumacher est la dernière d''une F1 à boîte manuelle.'
     sources:
-    - titre: Wikipedia, « Benetton B192 »
-      url: https://en.wikipedia.org/wiki/Benetton_B192
+    - titre: Crash.net, Lewis Duncan, « Unique Michael Schumacher F1 racer up for auction at bank-busting price tag » (janvier 2026)
+      url: https://www.crash.net/f1/news/1088377/1/unique-michael-schumacher-f1-racer-auction-bank-busting-price-tag
+    - titre: Motorious, « Schumacher's First Formula One Victory Car Heads to Broad Arrow Online Auction » (janvier 2026)
+      url: https://www.motorious.com/articles/handpicked/schumachers-first-formula-one/
+    - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
+      url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
   - annee: 1992
     ecurie: mclaren
     equipe: McLaren Honda
     voiture: McLaren MP4/7A
     valeur: oui
-    pourquoi: Première McLaren à boîte semi-automatique, la MP4/7A débute au Brésil (3e manche) ; les cinq victoires de McLaren en 1992 (à partir de Monaco) sont toutes acquises avec elle.
+    pourquoi: 'La MP4/7A est la première McLaren à courir avec une boîte semi-automatique : une boîte transversale à 6 rapports à commande « fly-by-wire », sans levier de vitesses. Avancée au Brésil, troisième manche, elle signe les cinq victoires de McLaren en 1992, à partir de Monaco.'
     sources:
-    - titre: Wikipedia, « McLaren MP4/7A »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/7A
+    - titre: Motor Sport, Simon Arron, « McLaren's MP4/7A » (avril 1992)
+      url: https://www.motorsportmagazine.com/archive/article/april-1992/5/mclarens-mp47a
+    - titre: Honda, « McLaren Honda MP4/7A (1992) », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1992_McLarenHondaMP47A/
   - annee: 1992
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW14B
     valeur: oui
-    pourquoi: La FW14B garde la boîte semi-automatique séquentielle Williams à 6 rapports.
+    pourquoi: La FW14B de 1992 conserve la boîte semi-automatique, en plus de la suspension active et de l'ABS, à l'inverse de la Benetton B192. Après les ennuis de 1991, Williams choisit de poursuivre avec cette FW14B « éprouvée ».
     sources:
-    - titre: Wikipedia, « Williams FW14 »
-      url: https://en.wikipedia.org/wiki/Williams_FW14
+    - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
+      url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
+    - titre: Motor Sport, Damien Smith, « When the wheel fell off Mansell's '91 F1 title challenge » (septembre 2021)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-the-wheel-fell-off-mansells-91-f1-title-challenge
   - annee: 1993
     ecurie: benetton
     equipe: Benetton Ford

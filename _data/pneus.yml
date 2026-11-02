@@ -32,16 +32,28 @@ monopoles:
   a: 1988
   pneus: Goodyear
   nature: de_fait
-  pourquoi: 'Pirelli quitte la F1 après 1986 et n''y revient qu''en 1989 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
-  sources: &id001
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  pourquoi: 'Pirelli quitte la F1 à la fin de 1986 ; Michelin refuse de revenir et les petits manufacturiers ne s''y intéressent que de loin : faute de concurrent, Goodyear chausse tout le plateau en 1987 et 1988, par un accord passé avec la FISA et la FOCA (un pneu de spécification unique), et non par une règle qui exclurait les autres. Pirelli revient en 1989, « après deux saisons d''absence », et rouvre la guerre des pneus.'
+  sources:
+  - titre: Motor Sport, Denis Jenkinson, « Emergency Answers » (février 1987)
+    url: https://www.motorsportmagazine.com/archive/article/february-1987/8/emergency-answers/
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1987 San Marino GP » (juin 1987)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1987/15/japanese-domination
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
 - de: 1992
   a: 1996
   pneus: Goodyear
   nature: de_fait
-  pourquoi: 'Pirelli se retire après 1991 et Bridgestone n''arrive qu''en 1997 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
-  sources: *id001
+  pourquoi: Pirelli quitte la F1 à la fin de 1991, en invoquant la récession mondiale. Goodyear profite alors de cinq ans de monopole et fournit des pneus identiques à toutes les équipes, jusqu'à l'arrivée de Bridgestone en 1997. Selon Bridgestone, avant son arrivée, Goodyear fournissait seul tous les pneus de la F1. Aucune de ces sources ne mentionne une règle imposant un fournisseur unique.
+  sources:
+  - titre: GrandPrix.com, « Pirelli to consider F1 again » (avril 1995)
+    url: https://www.grandprix.com/news/pirelli-to-consider-f1-again.html
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 1997 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/1997/
 - de: 1999
   a: 2000
   pneus: Bridgestone
@@ -1880,524 +1892,494 @@ cas:
   ecurie: brabham
   equipe: Brabham BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1983 : Brabham BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Brabham BT52).'
+  pourquoi: Motor Sport note dès le Brésil, première manche de 1983, que Brabham est passé de Goodyear à Michelin, et décrit encore des Brabham BMW en Michelin à Zandvoort et à Kyalami, la dernière manche.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Brabham BT52 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT52
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Alan Henry, « Notes on the cars in Brazil » (avril 1983)
+    url: https://www.motorsportmagazine.com/archive/article/april-1983/33/notes-cars-brazil/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Dutch Grand Prix race report » (octobre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/october-1983/36/the-dutch-grand-prix-a-lucky-pair/
+  - titre: Motor Sport, « 1983 South African Grand Prix race report » (novembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/november-1983/66/south-african-grand-prix-9/
 - annee: 1983
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1983 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C).'
+  pourquoi: Le bilan de la saison Ferrari publié par Motor Sport en décembre 1983 suit les 126C2 puis les 126C3 en Goodyear d'un bout à l'autre de l'année ; le compte rendu de Long Beach associe déjà le V6 turbo Ferrari aux pneus Goodyear.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 126C »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1983 United States Grand Prix West race report » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/35/the-united-states-grand-prixwest/
+  - titre: Motor Sport, Denis Jenkinson, « Ferrari » (décembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/december-1983/66/ferrari/
 - annee: 1983
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1983 : McLaren Ford en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/1).'
+  pourquoi: À Long Beach, Motor Sport décrit les McLaren de Watson et de Lauda « Michelin-shod » ; au milieu de la saison, Jenkinson rappelle que McLaren International tire « ses pneus de France », c'est-à-dire de Michelin.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/1 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1983 United States Grand Prix West race report » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/35/the-united-states-grand-prixwest/
+  - titre: Motor Sport, Denis Jenkinson, « Formula One scene » (juillet 1983)
+    url: https://www.motorsportmagazine.com/archive/article/july-1983/30/formula-one-scene/
 - annee: 1983
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1983 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE40).'
+  pourquoi: Motor Sport décrit la Renault victorieuse au Castellet « on Michelin tyres » et encore en Michelin à Zandvoort ; le bilan d'Alan Henry sur Renault confirme que l'équipe d'usine roulait en Michelin, au point d'interdire ces pneus à Lotus, son client moteur.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault RE40 »
-    url: https://en.wikipedia.org/wiki/Renault_RE40
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1983 French Grand Prix race report » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/30/french-grand-prix-15/
+  - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Dutch Grand Prix race report » (octobre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/october-1983/36/the-dutch-grand-prix-a-lucky-pair/
 - annee: 1983
   ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Pirelli
-  pourquoi: 'Tableau des engagés 1983 : Lotus Ford en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Lotus 92, Lotus 93T, Lotus 94T).'
+  pourquoi: Motor Sport explique que Lotus, privé de Michelin par son contrat moteur avec Renault, a signé avec Pirelli pour 1983 ; les comptes rendus montrent la Lotus 92 à moteur Cosworth de Mansell en Pirelli, à Long Beach comme au milieu de la saison.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Lotus 92 »
-    url: https://en.wikipedia.org/wiki/Lotus_92
-  - titre: Wikipedia, « Lotus 93T »
-    url: https://en.wikipedia.org/wiki/Lotus_93T
-  - titre: Wikipedia, « Lotus 94T »
-    url: https://en.wikipedia.org/wiki/Lotus_94T
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
+  - titre: Motor Sport, Denis Jenkinson, « Long Beach reflections » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/37/long-beach-reflections/
+  - titre: Motor Sport, Denis Jenkinson, « Formula One scene » (juillet 1983)
+    url: https://www.motorsportmagazine.com/archive/article/july-1983/30/formula-one-scene/
 - annee: 1983
   ecurie: tyrrell
   equipe: Tyrrell Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1983 : Tyrrell Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Tyrrell 012).'
+  pourquoi: 'Motor Sport range Tyrrell parmi les « Goodyear users » à Monaco 1983 ; la fiche d''Autosport sur la 011, voiture de Tyrrell en 1983, ne connaît que deux manufacturiers : Avon, au début de sa carrière en 1981, puis Goodyear.'
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Tyrrell 012 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_012
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Monaco Grand Prix race report » (juin 1983)
+    url: https://www.motorsportmagazine.com/archive/article/june-1983/28/monaco-grand-prix-11/
+  - titre: Autosport (GP Racing), Stuart Codling, « The last hurrah of two F1 titans » (avril 2020)
+    url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
 - annee: 1983
   ecurie: williams
   equipe: Williams Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1983 : Williams Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW08).'
+  pourquoi: Au Brésil, Motor Sport attribue la pole de Rosberg à la « soft Goodyear rubber » de la Williams à moteur Cosworth et la classe encore parmi les « Goodyear users » à Monaco ; la fiche d'Autosport sur la FW08C indique Goodyear comme seul manufacturier de pneus.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW08 »
-    url: https://en.wikipedia.org/wiki/Williams_FW08
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Alan Henry, « 1983 Brazilian Grand Prix race report » (avril 1983)
+    url: https://www.motorsportmagazine.com/archive/article/april-1983/30/brazilian-grand-prix-15/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Monaco Grand Prix race report » (juin 1983)
+    url: https://www.motorsportmagazine.com/archive/article/june-1983/28/monaco-grand-prix-11/
+  - titre: Autosport (GP Racing), Damien Smith, « The low-downforce car that introduced F1 to Senna » (septembre 2018)
+    url: https://www.autosport.com/f1/news/the-low-downforce-car-that-introduced-f1-to-senna-5111153/5111153/
 - annee: 1983
   ecurie: williams
   equipe: Williams Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1983 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW09).'
+  pourquoi: La fiche d'Autosport sur la Williams FW09, première Williams Honda, apparue à Kyalami, dernière manche de 1983, donne Goodyear comme manufacturier de pneus, celui de Williams depuis le début de la saison.
   sources:
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW09 »
-    url: https://en.wikipedia.org/wiki/Williams_FW09
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
+    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
+  - titre: Motor Sport, Alan Henry, « Keke Rosberg » (décembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/december-1983/36/keke-rosberg/
 - annee: 1984
   ecurie: brabham
   equipe: Brabham BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1984 : Brabham BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Brabham BT53).'
+  pourquoi: 'Brabham BMW court en Michelin toute la saison 1984 : GrandPrix.com range Piquet parmi les « Michelin men » à Zolder, et les comptes rendus de Motor Sport montrent les Brabham en Michelin en Afrique du Sud, à Detroit et en Autriche.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « Brabham BT53 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT53
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
+  - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
+  - titre: Motor Sport, Alan Henry, « 1984 Detroit Grand Prix race report » (août 1984)
+    url: https://www.motorsportmagazine.com/archive/article/august-1984/35/precisely-piquet
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Austrian Grand Prix race report » (septembre 1984)
+    url: https://www.motorsportmagazine.com/archive/article/september-1984/26/austrian-grand-prix-12/
 - annee: 1984
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1984 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 126C).'
+  pourquoi: 'Ferrari court en Goodyear toute la saison 1984 : GrandPrix.com range Alboreto et Arnoux parmi les pilotes Goodyear à Zolder, et Motor Sport montre les Ferrari en Goodyear en Afrique du Sud, en Belgique, à Saint-Marin et au Canada.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 126C »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
+  - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Belgian Grand Prix race report » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/52/grote-prijs-van-belgie-5/
+  - titre: Motor Sport, Denis Jenkinson, « 1984 San Marino Grand Prix race report » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/22/san-marino-grand-prix-6/
+  - titre: Motor Sport, Alan Henry, « 1984 Canadian Grand Prix race report » (juillet 1984)
+    url: https://www.motorsportmagazine.com/archive/article/july-1984/23/canadian-grand-prix-3/
 - annee: 1984
   ecurie: mclaren
   equipe: McLaren TAG
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1984 : McLaren TAG en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2).'
+  pourquoi: 'McLaren TAG court en Michelin toute la saison 1984 : GrandPrix.com range Prost parmi les « Michelin men » à Zolder, et Motor Sport montre les McLaren en Michelin à Saint-Marin, à Detroit et en Autriche.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
+  - titre: Motor Sport, Denis Jenkinson, « 1984 San Marino Grand Prix race report » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/22/san-marino-grand-prix-6/
+  - titre: Motor Sport, Alan Henry, « 1984 Detroit Grand Prix race report » (août 1984)
+    url: https://www.motorsportmagazine.com/archive/article/august-1984/35/precisely-piquet
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Austrian Grand Prix race report » (septembre 1984)
+    url: https://www.motorsportmagazine.com/archive/article/september-1984/26/austrian-grand-prix-12/
 - annee: 1984
   ecurie: renault-1977
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 1984 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault RE50).'
+  pourquoi: 'Renault court en Michelin toute la saison 1984 : GrandPrix.com fait de Warwick le premier pilote Michelin de la grille à Zolder, et Motor Sport montre les Renault en Michelin en Afrique du Sud, à Detroit, à Dallas et au Portugal.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault RE50 »
-    url: https://en.wikipedia.org/wiki/Renault_RE50
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
+  - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
+  - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
+    url: https://www.motorsportmagazine.com/archive/article/august-1984/22/dallas-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Portuguese Grand Prix race report » (novembre 1984)
+    url: https://www.motorsportmagazine.com/archive/article/november-1984/76/another-mclaren-double
 - annee: 1984
   ecurie: team-lotus
   equipe: Lotus Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1984 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 95T).'
+  pourquoi: 'Lotus Renault passe de Pirelli à Goodyear en 1984 et y reste toute la saison : Motor Sport le note dès le Brésil (95T « shod with Goodyear tyres »), puis à Saint-Marin et à Monaco ; GrandPrix.com range de Angelis parmi les pilotes Goodyear à Zolder.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « Lotus 95T »
-    url: https://en.wikipedia.org/wiki/Lotus_95T
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Alan Henry, « 1984 Brazilian Grand Prix race report » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/82/brazilian-grand-prix-8
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
+  - titre: Motor Sport, Denis Jenkinson, « 1984 San Marino Grand Prix race report » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/22/san-marino-grand-prix-6/
+  - titre: Motor Sport, Alan Henry, « 1984 Monaco Grand Prix race report » (juillet 1984)
+    url: https://www.motorsportmagazine.com/archive/article/july-1984/84/reflections-in-the-monte-carlo-puddles/
 - annee: 1984
   ecurie: williams
   equipe: Williams Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1984 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW09).'
+  pourquoi: 'Williams Honda court en Goodyear en 1984 : Motor Sport fait de Rosberg le plus rapide des « Goodyear radial users » en Afrique du Sud, et GrandPrix.com le range parmi les pilotes Goodyear à Zolder.'
   sources:
-  - titre: Wikipedia, « 1984 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1984_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW09 »
-    url: https://en.wikipedia.org/wiki/Williams_FW09
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
+    url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
+  - titre: GrandPrix.com, « Belgian GP, 1984 »
+    url: https://www.grandprix.com/gpe/rr391.html
 - annee: 1985
   ecurie: brabham
   equipe: Brabham BMW
   pneus: Pirelli
-  pourquoi: 'Tableau des engagés 1985 : Brabham BMW en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Brabham BT54). Brabham passe de Michelin (1984) à Pirelli en 1985.'
+  pourquoi: Dans son compte rendu du Grand Prix de France 1985, Jenkinson décrit Piquet dans la « Pirelli-shod Brabham BT54 » à moteur BMW. Dans son bilan de la saison (« The Formula One scene », janvier 1986), il explique que Bernie Ecclestone avait placé l'équipe chez Pirelli par crainte d'une pénurie de bons pneus, alors qu'elle aurait sans doute pu rester avec les Goodyear, plus performants.
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « Brabham BT54 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT54
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1985 French Grand Prix race report » (août 1985)
+    url: https://www.motorsportmagazine.com/archive/article/august-1985/35/french-grand-prix-5/
+  - titre: Motor Sport, Denis Jenkinson, « The Formula One scene » (janvier 1986)
+    url: https://www.motorsportmagazine.com/archive/article/january-1986/30/formula-one-scene/
 - annee: 1985
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1985 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 156/85).'
+  pourquoi: 'Au Grand Prix de Belgique 1985, Jenkinson note que les Goodyear tenaient à peine un tour rapide avec la puissance des moteurs Honda, Ferrari, BMW ou Renault : Ferrari court bien en Goodyear en 1985. La page de Ferrari sur la 156-85 confirme que c''est la voiture de la saison.'
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 156/85 »
-    url: https://en.wikipedia.org/wiki/Ferrari_156/85
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1985 Belgian Grand Prix race report » (octobre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/october-1985/26/belgian-grand-prix-2/
 - annee: 1985
   ecurie: mclaren
   equipe: McLaren TAG
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1985 : McLaren TAG en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2). McLaren passe de Michelin (1984) à Goodyear en 1985, après le retrait de Michelin.'
+  pourquoi: La page patrimoine de McLaren sur la MP4/2B indique que le retrait de Michelin a obligé l'équipe à revenir chez Goodyear en 1985.
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: McLaren Racing, « MP4/2B »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1985-formula-1-mclaren-mp4-2b/
 - annee: 1985
   ecurie: team-lotus
   equipe: Lotus Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1985 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 97T).'
+  pourquoi: Autosport attribue en partie la compétitivité de la 97T en 1985 à de meilleurs pneus Goodyear. Au Grand Prix de Detroit 1985, Motor Sport décrit Senna passant des Goodyear de type A aux Goodyear de type B.
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « Lotus 97T »
-    url: https://en.wikipedia.org/wiki/Lotus_97T
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport (GP Racing), « How Senna's first F1 winner gave Lotus life after Chapman » (août 2022)
+    url: https://www.autosport.com/f1/news/how-sennas-first-f1-winner-gave-lotus-life-after-chapman/10356472/
+  - titre: Motor Sport, « 1985 Detroit Grand Prix race report » (août 1985)
+    url: https://www.motorsportmagazine.com/archive/article/august-1985/22/detroit-grand-prix/
 - annee: 1985
   ecurie: toleman
   equipe: Toleman Hart
   pneus: Pirelli
-  pourquoi: 'Tableau des engagés 1985 : Toleman Hart en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Toleman TG185).'
+  pourquoi: À Monaco, Jenkinson relève la réapparition de Teo Fabi dans une Toleman-Hart chaussée de Pirelli. Au Grand Prix d'Allemagne, la pole de Fabi est aussi la première pole de Pirelli et de la Toleman.
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « Toleman TG185 »
-    url: https://en.wikipedia.org/wiki/Toleman_TG185
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « 1985 Monaco Grand Prix race report » (juillet 1985)
+    url: https://www.motorsportmagazine.com/archive/article/july-1985/22/monaco-grand-prix-interesting/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 German Grand Prix race report » (septembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/september-1985/25/german-grand-prix-9/
 - annee: 1985
   ecurie: williams
   equipe: Williams Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1985 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW10).'
+  pourquoi: Au Grand Prix de Detroit 1985, que Rosberg gagne, Motor Sport décrit le choix des « Goodyear runners » entre les gommes A, B et C, et le pari de Rosberg sur les B. Au Grand Prix de Belgique, Jenkinson range aussi les moteurs Honda parmi ceux qui usaient les Goodyear.
   sources:
-  - titre: Wikipedia, « 1985 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1985_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW10 »
-    url: https://en.wikipedia.org/wiki/Williams_FW10
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, « 1985 Detroit Grand Prix race report » (août 1985)
+    url: https://www.motorsportmagazine.com/archive/article/august-1985/22/detroit-grand-prix/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 Belgian Grand Prix race report » (octobre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/october-1985/26/belgian-grand-prix-2/
 - annee: 1986
   ecurie: benetton
   equipe: Benetton BMW
   pneus: Pirelli
-  pourquoi: 'Tableau des engagés 1986 : Benetton BMW en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Benetton B186).'
+  pourquoi: Matt Bishop, dans Motor Sport, rappelle qu'en 1986 Benetton roulait en Pirelli, contrairement à Lotus, Williams et McLaren. Le compte rendu d'époque du Grand Prix du Mexique attribue la victoire de Berger à un parcours sans arrêt sur ses Pirelli.
   sources:
-  - titre: Wikipedia, « 1986 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B186 »
-    url: https://en.wikipedia.org/wiki/Benetton_B186
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+  - titre: 'Motor Sport, « Formula One: 1986 Mexican Grand Prix » (novembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1986/20/formula-one-mexican-grand-prix/
 - annee: 1986
   ecurie: mclaren
   equipe: McLaren TAG
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1986 : McLaren TAG en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/2).'
+  pourquoi: Matt Bishop range McLaren parmi les équipes « contracted to Goodyear » en 1986. Le compte rendu d'époque du Grand Prix d'Australie 1986 décrit le Goodyear arrière droit de la McLaren de Rosberg qui se délamine.
   sources:
-  - titre: Wikipedia, « 1986 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+  - titre: 'Motor Sport, « Formula One: 1986 Mexican Grand Prix/Australian Grand Prix » (décembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1986/15/formula-one-mexican-grand-prix-australian-grand-prix/
 - annee: 1986
   ecurie: team-lotus
   equipe: Lotus Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1986 : Lotus Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Lotus 98T).'
+  pourquoi: Matt Bishop range Lotus parmi les équipes « contracted to Goodyear » en 1986. Autosport rappelle que le passage de Pirelli à Goodyear n'avait pas apporté aux 97T et 98T tout le gain attendu.
   sources:
-  - titre: Wikipedia, « 1986 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
-  - titre: Wikipedia, « Lotus 98T »
-    url: https://en.wikipedia.org/wiki/Lotus_98T
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+  - titre: Autosport (GP Racing), « The pioneering F1 car that preceded Lotus's terminal decline » (février 2023)
+    url: https://www.autosport.com/f1/news/the-pioneering-f1-car-that-preceded-lotuss-terminal-decline/10428092/
 - annee: 1986
   ecurie: williams
   equipe: Williams Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1986 : Williams Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW11).'
+  pourquoi: Matt Bishop range Williams parmi les équipes « contracted to Goodyear » en 1986. Le compte rendu d'époque du Grand Prix d'Australie 1986 décrit l'éclatement du Goodyear arrière gauche de la Williams de Mansell.
   sources:
-  - titre: Wikipedia, « 1986 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1986_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW11 »
-    url: https://en.wikipedia.org/wiki/Williams_FW11
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+  - titre: 'Motor Sport, « Formula One: 1986 Mexican Grand Prix/Australian Grand Prix » (décembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/december-1986/15/formula-one-mexican-grand-prix-australian-grand-prix/
 - annee: 1987
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  pourquoi: Pirelli se retire à la fin de 1986 et les équipes qu'il chaussait passent toutes chez Goodyear ; Motor Sport relève à Imola que Goodyear fournit cette année-là tout le plateau, avec des pneus de spécification unique pour chaque course. Ferrari roulait donc en Goodyear, et Pirelli ne revient qu'en 1989.
   sources:
-  - titre: Wikipedia, « 1987 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1987 San Marino GP » (juin 1987)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1987/15/japanese-domination
+  - titre: Motor Sport, Denis Jenkinson, « Emergency Answers » (février 1987)
+    url: https://www.motorsportmagazine.com/archive/article/february-1987/8/emergency-answers/
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
 - annee: 1987
   ecurie: mclaren
   equipe: McLaren TAG
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont McLaren TAG, roulaient en Goodyear.'
+  pourquoi: Pirelli se retire à la fin de 1986 et les équipes qu'il chaussait passent toutes chez Goodyear ; Motor Sport relève à Imola que Goodyear fournit cette année-là tout le plateau, avec des pneus de spécification unique pour chaque course. McLaren TAG roulait donc en Goodyear, et Pirelli ne revient qu'en 1989.
   sources:
-  - titre: Wikipedia, « 1987 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1987 San Marino GP » (juin 1987)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1987/15/japanese-domination
+  - titre: Motor Sport, Denis Jenkinson, « Emergency Answers » (février 1987)
+    url: https://www.motorsportmagazine.com/archive/article/february-1987/8/emergency-answers/
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
 - annee: 1987
   ecurie: team-lotus
   equipe: Lotus Honda
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Lotus Honda, roulaient en Goodyear.'
+  pourquoi: Pirelli se retire à la fin de 1986 et les équipes qu'il chaussait passent toutes chez Goodyear ; Motor Sport relève à Imola que Goodyear fournit cette année-là tout le plateau, avec des pneus de spécification unique pour chaque course. Lotus Honda roulait donc en Goodyear, et Pirelli ne revient qu'en 1989.
   sources:
-  - titre: Wikipedia, « 1987 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1987 San Marino GP » (juin 1987)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1987/15/japanese-domination
+  - titre: Motor Sport, Denis Jenkinson, « Emergency Answers » (février 1987)
+    url: https://www.motorsportmagazine.com/archive/article/february-1987/8/emergency-answers/
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
 - annee: 1987
   ecurie: williams
   equipe: Williams Honda
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1987 (retrait de Pirelli fin 1986) : toutes les équipes, dont Williams Honda, roulaient en Goodyear.'
+  pourquoi: Pirelli se retire à la fin de 1986 et les équipes qu'il chaussait passent toutes chez Goodyear ; Motor Sport relève à Imola que Goodyear fournit cette année-là tout le plateau, avec des pneus de spécification unique pour chaque course. Williams Honda roulait donc en Goodyear, et Pirelli ne revient qu'en 1989.
   sources:
-  - titre: Wikipedia, « 1987 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1987_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1987 San Marino GP » (juin 1987)'
+    url: https://www.motorsportmagazine.com/archive/article/june-1987/15/japanese-domination
+  - titre: Motor Sport, Denis Jenkinson, « Emergency Answers » (février 1987)
+    url: https://www.motorsportmagazine.com/archive/article/february-1987/8/emergency-answers/
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
 - annee: 1988
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1988 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  pourquoi: 'Pirelli, absent depuis fin 1986, ne revient qu''en 1989, « après deux saisons d''absence », en relançant la guerre des pneus : Goodyear est seul fournisseur en 1988. Motor Sport le confirme pour Ferrari : au Brésil, Alboreto use trois trains de Goodyear, et Jenkinson rappelle que Goodyear fait les pneus « de Honda et de Ferrari ».'
   sources:
-  - titre: Wikipedia, « 1988 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
+  - titre: Motor Sport, David Tremayne, « 1988 Brazilian Grand Prix race report » (mai 1988)
+    url: https://www.motorsportmagazine.com/archive/article/may-1988/14/brazilian-gp-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1988 French Grand Prix race report » (août 1988)
+    url: https://www.motorsportmagazine.com/archive/article/august-1988/18/formula-one-french-gp
 - annee: 1988
   ecurie: mclaren
   equipe: McLaren Honda
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1988 : toutes les équipes, dont McLaren Honda, roulaient en Goodyear.'
+  pourquoi: 'Pirelli, absent depuis fin 1986, ne revient qu''en 1989, « après deux saisons d''absence », en relançant la guerre des pneus : Goodyear est seul fournisseur en 1988. Motor Sport le confirme pour McLaren Honda : au Brésil, Prost vainqueur « ménage son Shell et ses Goodyear », et Jenkinson rappelle que Goodyear fait les pneus « de Honda et de Ferrari ».'
   sources:
-  - titre: Wikipedia, « 1988 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1988_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
+  - titre: Motor Sport, David Tremayne, « 1988 Brazilian Grand Prix race report » (mai 1988)
+    url: https://www.motorsportmagazine.com/archive/article/may-1988/14/brazilian-gp-4/
+  - titre: Motor Sport, Denis Jenkinson, « 1988 French Grand Prix race report » (août 1988)
+    url: https://www.motorsportmagazine.com/archive/article/august-1988/18/formula-one-french-gp
 - annee: 1989
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1989 : Benetton Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B188, Benetton B189).'
+  pourquoi: 'Benetton Ford court en Goodyear en 1989 : à Suzuka, course de son unique victoire de l''année, Nannini bloque « son Goodyear avant gauche » en défendant sa place face à Senna. L''équipe ne passe chez Pirelli qu''en 1991, avec la B190 adaptée à ces pneus.'
   sources:
-  - titre: Wikipedia, « 1989 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B188 »
-    url: https://en.wikipedia.org/wiki/Benetton_B188
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, David Tremayne, « 1989 Japanese Grand Prix race report » (décembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/december-1989/8/a-flash-in-japan/
+  - titre: Autosport (GP Racing), « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
+    url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
 - annee: 1989
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1989 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 640).'
+  pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; en Hongrie, Motor Sport range les deux Ferrari parmi les équipes Goodyear (Mansell s'y qualifie et gagne sur les pneus de course C de Goodyear).
   sources:
-  - titre: Wikipedia, « 1989 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 640 »
-    url: https://en.wikipedia.org/wiki/Ferrari_640
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
+  - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
 - annee: 1989
   ecurie: mclaren
   equipe: McLaren Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1989 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/5).'
+  pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; Motor Sport décrit Senna et Prost choisissant entre les gommes B et C de Goodyear en Hongrie, et Senna en qualifications à Suzuka sur les pneus C de Goodyear.
   sources:
-  - titre: Wikipedia, « 1989 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/5 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
+  - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
+  - titre: Motor Sport, David Tremayne, « 1989 Japanese Grand Prix race report » (décembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/december-1989/8/a-flash-in-japan/
 - annee: 1989
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1989 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW12, Williams FW13).'
+  pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; en Hongrie, Motor Sport range Boutsen et Patrese parmi les pilotes Goodyear, et les fiches techniques des deux Williams Renault gagnantes de l'année, la FW12C (Canada) et la FW13 (Australie), indiquent des pneus Goodyear.
   sources:
-  - titre: Wikipedia, « 1989 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1989_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW12 »
-    url: https://en.wikipedia.org/wiki/Williams_FW12
-  - titre: Wikipedia, « Williams FW13 »
-    url: https://en.wikipedia.org/wiki/Williams_FW13
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
+  - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
+    url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
 - annee: 1990
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1990 : Benetton Ford en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B189, Benetton B190).'
+  pourquoi: 'Au Grand Prix des États-Unis 1990, Motor Sport compte Piquet (Benetton Ford) parmi les pilotes Goodyear : c''est même le seul d''entre eux à s''arrêter pour changer de pneus, reparti sur des Goodyear neufs.'
   sources:
-  - titre: Wikipedia, « 1990 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1990 United States Grand Prix report: Phoenix Revival » (avril 1990)'
+    url: https://www.motorsportmagazine.com/archive/article/april-1990/5/phoenix-revivial
 - annee: 1990
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1990 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari 641).'
+  pourquoi: 'Les comptes rendus de Motor Sport montrent Ferrari en Goodyear en 1990 : en Hongrie, Prost signe le meilleur temps du warm-up avec les gommes tendres D de Goodyear ; à Silverstone, c''est la 641 (F1/90) de Prost qui l''emporte.'
   sources:
-  - titre: Wikipedia, « 1990 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 641 »
-    url: https://en.wikipedia.org/wiki/Ferrari_641
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1990 Hungarian Grand Prix report: Good Vibrations » (septembre 1990)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1990/16/good-vibrations
 - annee: 1990
   ecurie: mclaren
   equipe: McLaren Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1990 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/5).'
+  pourquoi: 'Motor Sport montre McLaren Honda en Goodyear en 1990 : en Hongrie, Senna repart sur des Goodyear C neufs ; au Mexique, Berger s''arrête tôt pour des Goodyear neufs.'
   sources:
-  - titre: Wikipedia, « 1990 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/5 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1990 Hungarian Grand Prix report: Good Vibrations » (septembre 1990)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1990/16/good-vibrations
+  - titre: Motor Sport, Denis Jenkinson, « Mexican Magic » (août 1990)
+    url: https://www.motorsportmagazine.com/archive/article/august-1990/6/mexican-magic
 - annee: 1990
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1990 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW13).'
+  pourquoi: 'Au Grand Prix du Mexique 1990, Motor Sport range Williams parmi les équipes Goodyear : contrairement à la plupart des autres, Williams et Onyx choisissent les gommes B.'
   sources:
-  - titre: Wikipedia, « 1990 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1990_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW13 »
-    url: https://en.wikipedia.org/wiki/Williams_FW13
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Motor Sport, Denis Jenkinson, « Mexican Magic » (août 1990)
+    url: https://www.motorsportmagazine.com/archive/article/august-1990/6/mexican-magic
 - annee: 1991
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Pirelli
-  pourquoi: 'Tableau des engagés 1991 : Benetton Ford en Pirelli sur toute la saison, confirmé par la fiche de la voiture (Benetton B190, Benetton B191). Benetton passe de Goodyear (1990) à Pirelli en 1991 ; c''est la seule victoire Pirelli de la saison selon le tableau « Formula One tyres ».'
+  pourquoi: En 1991, Benetton est l'une des deux équipes de développement de Pirelli, avec Tyrrell, selon le patron de Pirelli en F1. Piquet court sur Pirelli dès Phoenix et gagne au Canada avec une B191 « running on Pirelli tyres ». Benetton passe de Pirelli à Goodyear pour 1992.
   sources:
-  - titre: Wikipedia, « 1991 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
-  - titre: Wikipedia, « Benetton B191 »
-    url: https://en.wikipedia.org/wiki/Benetton_B191
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1991 Canadian Grand Prix » (juillet 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1991/9/formula-one-canadian-grand-prix
+  - titre: GrandPrix.com, Joe Saward, « Pirelli's Dario Calsavara tells all » (juin 1991)
+    url: https://www.grandprix.com/features/joe-saward/interview-pirellis-dario-calsavara-tells-all.html
+  - titre: Motor Sport, David Tremayne, « Formula One - 1991 United States GP » (avril 1991)
+    url: https://www.motorsportmagazine.com/archive/article/april-1991/6/formula-one-united-states-gp-2/
+  - titre: RM Sotheby's, « 1991 Benetton B191 Formula 1 » (Miami 2025, lot 104)
+    url: https://rmsothebys.com/auctions/mi25/lots/r0004-1991-benetton-b191-formula-1/
 - annee: 1991
   ecurie: mclaren
   equipe: McLaren Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1991 : McLaren Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/6).'
+  pourquoi: 'Motor Sport montre McLaren Honda en Goodyear en 1991 : au Brésil, Senna trouve sa MP4/6 mieux équilibrée sur son second train de Goodyear C ; en France, tous les hommes de tête roulent en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1991 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/6 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1991 Brazilian Grand Prix report: Senna wins home race at last » (mai 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1991/6/formula-one-brazilian-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Formula One – 1991 French Grand Prix » (août 1991)
+    url: https://www.motorsportmagazine.com/archive/article/august-1991/9/entertaining
 - annee: 1991
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1991 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW14).'
+  pourquoi: 'Motor Sport montre Williams Renault en Goodyear en 1991 : en Hongrie, l''équipe monte des Goodyear C sur les quatre roues ; en France, tous les hommes de tête, Mansell compris, roulent en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1991 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1991_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW14 »
-    url: https://en.wikipedia.org/wiki/Williams_FW14
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « Formula One: 1991 Hungarian Grand Prix » (septembre 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1991/13/formula-one-hungarian-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Formula One – 1991 French Grand Prix » (août 1991)
+    url: https://www.motorsportmagazine.com/archive/article/august-1991/9/entertaining
 - annee: 1992
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  pourquoi: Pirelli quitte la F1 à la fin de 1991 et Goodyear fournit seul toutes les équipes à partir de 1992. Au Grand Prix de Hongrie 1992, Motor Sport montre les deux Benetton Ford, Schumacher et Brundle, en Goodyear C.
   sources:
-  - titre: Wikipedia, « 1992 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1992 Hungarian Grand Prix: Mansell Is Finally Crowned » (septembre 1992)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1992/16/mansell-is-finally-crowned/
+  - titre: GrandPrix.com, « Pirelli to consider F1 again » (avril 1995)
+    url: https://www.grandprix.com/news/pirelli-to-consider-f1-again.html
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1992
   ecurie: mclaren
   equipe: McLaren Honda
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont McLaren Honda, roulaient en Goodyear.'
+  pourquoi: Pirelli quitte la F1 à la fin de 1991 et Goodyear fournit seul toutes les équipes à partir de 1992. Au Grand Prix de Hongrie 1992, Motor Sport montre Berger (McLaren Honda) en Goodyear, avec une gomme C à gauche et une D à droite.
   sources:
-  - titre: Wikipedia, « 1992 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1992 Hungarian Grand Prix: Mansell Is Finally Crowned » (septembre 1992)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1992/16/mansell-is-finally-crowned/
+  - titre: GrandPrix.com, « Pirelli to consider F1 again » (avril 1995)
+    url: https://www.grandprix.com/news/pirelli-to-consider-f1-again.html
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1992
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1992 (Pirelli parti fin 1991) : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  pourquoi: Pirelli quitte la F1 à la fin de 1991 et Goodyear fournit seul toutes les équipes à partir de 1992. Au Grand Prix de Hongrie 1992, Motor Sport montre les deux Williams Renault, Mansell et Patrese, en Goodyear C.
   sources:
-  - titre: Wikipedia, « 1992 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1992_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, David Tremayne, « 1992 Hungarian Grand Prix: Mansell Is Finally Crowned » (septembre 1992)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1992/16/mansell-is-finally-crowned/
+  - titre: GrandPrix.com, « Pirelli to consider F1 again » (avril 1995)
+    url: https://www.grandprix.com/news/pirelli-to-consider-f1-again.html
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1993
   ecurie: benetton
   equipe: Benetton Ford

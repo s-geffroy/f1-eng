@@ -2257,10 +2257,18 @@ cas:
     - Italy
     - Great Britain Europe
     - South Africa
-  pourquoi: 'La BT52 a été remplacée par la BT52B après le Grand Prix du Canada : la victoire de Piquet au Brésil revient à la BT52, et les trois suivantes à la BT52B (Piquet en Italie et au GP d''Europe, Patrese en Afrique du Sud).'
+  pourquoi: Motor Sport donne Piquet vainqueur au Brésil sur la BT52/3, puis présente à Silverstone, la manche suivant le Canada, deux voitures nouvelles « to B-Specification ». Les BT52B gagnent ensuite à Monza (Piquet), à Brands Hatch au GP d'Europe (Piquet, BT52B/5) et à Kyalami (Patrese, BT52B/6).
   sources:
-  - titre: Wikipedia, « Brabham BT52 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT52
+  - titre: Motor Sport, Alan Henry, « 1983 Brazilian Grand Prix race report » (avril 1983)
+    url: https://www.motorsportmagazine.com/archive/article/april-1983/30/brazilian-grand-prix-15/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Silverstone » (août 1983)
+    url: https://www.motorsportmagazine.com/archive/article/august-1983/29/notes-on-the-cars-at-silverstone/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Italian Grand Prix race report » (octobre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/october-1983/51/the-italian-grand-prix-deception/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 European Grand Prix race report » (novembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/november-1983/46/grand-prix-europe-2/
+  - titre: Motor Sport, « 1983 South African Grand Prix race report » (novembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/november-1983/66/south-african-grand-prix-9/
 - annee: 1983
   ecurie: ferrari
   equipe: Ferrari
@@ -2273,14 +2281,14 @@ cas:
     gps:
     - Germany
     - Netherlands
-  pourquoi: La 126C2B a couru la première moitié de 1983 (Tambay à Imola, Arnoux au Canada) ; la 126C3, apparue à Silverstone, a été confiée à Arnoux dès Hockenheim et a gagné en Allemagne et aux Pays-Bas.
+  pourquoi: Le bilan de la saison Ferrari publié par Motor Sport montre que la Scuderia a commencé 1983 avec ses 126C2 de 1982 reconstruites au nouveau règlement (les 126C2B) et les a gardées jusqu'au Canada, où Arnoux gagne avec la 126C2/064 ; Tambay avait gagné à Imola, avant l'arrivée de la C3. La 126C3 débute à Silverstone, et Arnoux gagne avec la 126C3/066 en Allemagne puis aux Pays-Bas.
   sources:
-  - titre: Wikipedia, « Ferrari 126C2 »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C2
-  - titre: Wikipedia, « Ferrari 126C3 »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C3
-  - titre: Wikipédia, « Ferrari 126 C3 »
-    url: https://fr.wikipedia.org/wiki/Ferrari_126_C3
+  - titre: Motor Sport, Denis Jenkinson, « Ferrari » (décembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/december-1983/66/ferrari/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 San Marino Grand Prix race report » (juin 1983)
+    url: https://www.motorsportmagazine.com/archive/article/june-1983/33/san-marino-grand-prix-8/
+  - titre: Motor Sport, « 1983 Detroit Grand Prix in pictures » (juillet 1983)
+    url: https://www.motorsportmagazine.com/archive/article/july-1983/69/detroit-grand-prix-2/
 - annee: 1983
   ecurie: mclaren
   equipe: McLaren Ford
@@ -2288,10 +2296,12 @@ cas:
   - voiture: McLaren MP4/1C
     gps:
     - United States of America USA West
-  pourquoi: À Long Beach, les MP4/1C ont réalisé un doublé, Watson gagnant depuis la 22e place sur la grille.
+  pourquoi: 'À Long Beach, les deux McLaren MP4/1C, parties 22e et 23e, finissent premières et deuxièmes : Motor Sport salue leur préparation, et Watson gagne devant Lauda.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/1 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/1
+  - titre: Motor Sport, Denis Jenkinson, « Long Beach reflections » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/37/long-beach-reflections/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 United States Grand Prix West race report » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/35/the-united-states-grand-prixwest/
 - annee: 1983
   ecurie: renault-1977
   equipe: Renault
@@ -2302,10 +2312,20 @@ cas:
     - Belgium
     - Great Britain
     - Austria
-  pourquoi: La RE40 a débuté à Long Beach, avant la première victoire de 1983 ; Prost a gagné avec elle en France, en Belgique, en Grande-Bretagne et en Autriche.
+  pourquoi: Motor Sport établit que Renault n'a couru le Brésil qu'avec des RE30C et que la RE40 a débuté à Long Beach, avant la première victoire de 1983. Prost gagne ensuite en RE40 au Castellet et à Spa, mène à Silverstone en RE40 et l'emporte en Autriche, l'équipe ne faisant alors plus rouler que ses RE40.
   sources:
-  - titre: Wikipedia, « Renault RE40 »
-    url: https://en.wikipedia.org/wiki/Renault_RE40
+  - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
+    url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 French Grand Prix race report » (mai 1983)
+    url: https://www.motorsportmagazine.com/archive/article/may-1983/30/french-grand-prix-15/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Belgian Grand Prix race report » (juillet 1983)
+    url: https://www.motorsportmagazine.com/archive/article/july-1983/48/the-belgian-grand-prix-2/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 British Grand Prix – Rather dull » (août 1983)
+    url: https://www.motorsportmagazine.com/archive/article/august-1983/28/the-british-grand-prix-13/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Zandvoort » (octobre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/october-1983/38/notes-on-the-cars-at-zandvoort-5/
+  - titre: Motor Sport, Denis Jenkinson, « 1983 Austrian Grand Prix race report » (septembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/september-1983/26/the-austrian-grand-prix-2/
 - annee: 1983
   ecurie: tyrrell
   equipe: Tyrrell Ford
@@ -2313,12 +2333,14 @@ cas:
   - voiture: Tyrrell 011B
     gps:
     - United States of America Detroit
-  pourquoi: 'Alboreto a gagné à Detroit avec la 011, dans sa version améliorée de 1983, la 011B : c''est la dernière victoire du modèle.'
+  pourquoi: OldRacingCars range la Tyrrell 011/4, victorieuse à Detroit le 5 juin 1983 avec Alboreto, parmi les 011B, la version de 1983 revue pour le règlement du fond plat ; Autosport rappelle que cette victoire fut la dernière de la 011, la dernière de Tyrrell et la dernière de la famille DFV.
   sources:
-  - titre: Wikipedia, « Tyrrell 011 »
-    url: https://en.wikipedia.org/wiki/Tyrrell_011
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: OldRacingCars.com, « Tyrrell 011/4 race history »
+    url: https://www.oldracingcars.com/tyrrell/011/4
+  - titre: OldRacingCars.com, « Tyrrell 011 car-by-car histories »
+    url: https://www.oldracingcars.com/tyrrell/011/
+  - titre: Autosport (GP Racing), Stuart Codling, « The last hurrah of two F1 titans » (avril 2020)
+    url: https://www.autosport.com/f1/news/the-last-hurrah-of-two-f1-titans-5113815/5113815/
 - annee: 1983
   ecurie: williams
   equipe: Williams Ford
@@ -2326,12 +2348,12 @@ cas:
   - voiture: Williams FW08C
     gps:
     - Monaco
-  pourquoi: Rosberg a remporté à Monaco 1983 la dernière victoire de la FW08, dans sa version 1983, la FW08C.
+  pourquoi: Motor Sport et Autosport attribuent la victoire de Rosberg à Monaco 1983 à la FW08C, la version 1983 à fond plat de la FW08 et sa seule victoire de la saison.
   sources:
-  - titre: Wikipedia, « Williams FW08 »
-    url: https://en.wikipedia.org/wiki/Williams_FW08
-  - titre: Wikipedia, « 1983 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1983_Formula_One_World_Championship
+  - titre: Motor Sport, Alan Henry, « Keke Rosberg » (décembre 1983)
+    url: https://www.motorsportmagazine.com/archive/article/december-1983/36/keke-rosberg/
+  - titre: Autosport (GP Racing), Damien Smith, « The low-downforce car that introduced F1 to Senna » (septembre 2018)
+    url: https://www.autosport.com/f1/news/the-low-downforce-car-that-introduced-f1-to-senna-5111153/5111153/
 - annee: 1984
   ecurie: brabham
   equipe: Brabham BMW
@@ -2340,10 +2362,16 @@ cas:
     gps:
     - Canada
     - United States of America Detroit
-  pourquoi: Piquet a gagné deux fois avec la BT53 en 1984, au Canada et à Detroit.
+  pourquoi: 'Piquet a gagné deux fois avec la BT53 en 1984 : au Canada avec la BT53/5, puis à Detroit avec la voiture de réserve, la BT53/3.'
   sources:
-  - titre: Wikipedia, « Brabham BT53 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT53
+  - titre: Motor Sport, Alan Henry, « 1984 Canadian Grand Prix race report » (juillet 1984)
+    url: https://www.motorsportmagazine.com/archive/article/july-1984/23/canadian-grand-prix-3/
+  - titre: Motor Sport, Alan Henry, « 1984 Detroit Grand Prix race report » (août 1984)
+    url: https://www.motorsportmagazine.com/archive/article/august-1984/35/precisely-piquet
+  - titre: OldRacingCars.com, « Brabham BT53/5 race history »
+    url: https://www.oldracingcars.com/brabham/bt53/05
+  - titre: OldRacingCars.com, « Brabham BT53/3 race history »
+    url: https://www.oldracingcars.com/brabham/bt53/03
 - annee: 1984
   ecurie: ferrari
   equipe: Ferrari
@@ -2351,10 +2379,16 @@ cas:
   - voiture: Ferrari 126C4
     gps:
     - Belgium
-  pourquoi: La 126C4 n'a gagné qu'une fois, en Belgique à Zolder, avec Alboreto, dont c'était la première victoire chez Ferrari.
+  pourquoi: 'La 126C4 n''a gagné qu''une fois, en Belgique à Zolder, avec Alboreto sur la 126C4/074 : c''était sa première victoire chez Ferrari. Les quinze autres courses de 1984 reviennent à la McLaren MP4/2 (12), à la Brabham BT53 (2) et à la Williams FW09 (1).'
   sources:
-  - titre: Wikipedia, « Ferrari 126C4 »
-    url: https://en.wikipedia.org/wiki/Ferrari_126C4
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Belgian Grand Prix race report » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/52/grote-prijs-van-belgie-5/
+  - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
+    url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
+  - titre: RM Sotheby's, « 1984 Ferrari 126 C4 Formula 1 Racing Car » (Monterey, août 2011)
+    url: https://rmsothebys.com/auctions/mo11/lots/r108-1984-ferrari-126-c4-formula-1-racing-car
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Portuguese Grand Prix race report » (novembre 1984)
+    url: https://www.motorsportmagazine.com/archive/article/november-1984/76/another-mclaren-double
 - annee: 1984
   ecurie: mclaren
   equipe: McLaren TAG
@@ -2373,10 +2407,14 @@ cas:
     - Italy
     - Germany Europe
     - Portugal
-  pourquoi: La MP4/2 d'origine a gagné 12 courses en 1984, sept avec Prost et cinq avec Lauda.
+  pourquoi: La MP4/2 d'origine a gagné 12 des 16 courses de 1984, sept avec Prost et cinq avec Lauda. Les quatre autres reviennent à la Ferrari 126C4 (Belgique), à la Brabham BT53 (Canada, Detroit) et à la Williams FW09 (Dallas).
   sources:
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: Motor Sport, Keith Howard, « X-ray spec — McLaren MP4/2 » (octobre 2005)
+    url: https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42
+  - titre: McLaren Racing, « MP4/2 » (mars 2024)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1984-formula-1-mclaren-mp4-2/
+  - titre: Motor Sport, Denis Jenkinson, « 1984 Portuguese Grand Prix race report » (novembre 1984)
+    url: https://www.motorsportmagazine.com/archive/article/november-1984/76/another-mclaren-double
 - annee: 1984
   ecurie: williams
   equipe: Williams Honda
@@ -2384,10 +2422,12 @@ cas:
   - voiture: Williams FW09
     gps:
     - United States of America Dallas
-  pourquoi: Rosberg a gagné à Dallas avec la FW09 ; la FW09B n'est apparue qu'au Grand Prix de Grande-Bretagne, après Dallas.
+  pourquoi: Rosberg a gagné à Dallas avec la FW09, la seule victoire de la voiture ; Williams n'a introduit la FW09B qu'à la course suivante, le Grand Prix de Grande-Bretagne.
   sources:
-  - titre: Wikipedia, « Williams FW09 »
-    url: https://en.wikipedia.org/wiki/Williams_FW09
+  - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
+    url: https://www.motorsportmagazine.com/archive/article/august-1984/22/dallas-grand-prix
+  - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
+    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
 - annee: 1985
   ecurie: brabham
   equipe: Brabham BMW
@@ -2395,10 +2435,12 @@ cas:
   - voiture: Brabham BT54
     gps:
     - France
-  pourquoi: Piquet a remporté avec la BT54, au Castellet, sa seule victoire de 1985.
+  pourquoi: L'historique du châssis BT54/5 sur OldRacingCars montre la victoire de Piquet au Grand Prix de France 1985, au Castellet. Jenkinson confirme que Piquet y courait avec la BT54, seule victoire de Brabham cette saison.
   sources:
-  - titre: Wikipedia, « Brabham BT54 »
-    url: https://en.wikipedia.org/wiki/Brabham_BT54
+  - titre: OldRacingCars.com, « Brabham BT54 [5] race history »
+    url: https://www.oldracingcars.com/brabham/bt54/05
+  - titre: Motor Sport, Denis Jenkinson, « 1985 French Grand Prix race report » (août 1985)
+    url: https://www.motorsportmagazine.com/archive/article/august-1985/35/french-grand-prix-5/
 - annee: 1985
   ecurie: ferrari
   equipe: Ferrari
@@ -2407,10 +2449,12 @@ cas:
     gps:
     - Canada
     - Germany
-  pourquoi: Alboreto a gagné deux fois avec la 156/85, au Canada et en Allemagne.
+  pourquoi: La page de Ferrari sur la 156-85 indique qu'Alboreto a gagné avec elle au Canada et en Allemagne. Les résultats du Grand Prix d'Allemagne publiés par Motor Sport donnent la 156/85-080 victorieuse.
   sources:
-  - titre: Wikipedia, « Ferrari 156/85 »
-    url: https://en.wikipedia.org/wiki/Ferrari_156/85
+  - titre: Ferrari, « 156-85 »
+    url: https://www.ferrari.com/en-EN/formula1/156-85
+  - titre: Motor Sport, Denis Jenkinson, « 1985 German Grand Prix race report » (septembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/september-1985/25/german-grand-prix-9/
 - annee: 1985
   ecurie: mclaren
   equipe: McLaren TAG
@@ -2423,10 +2467,16 @@ cas:
     - Austria
     - Netherlands
     - Italy
-  pourquoi: 'La MP4/2B, version 1985 de la MP4/2, a gagné six courses : cinq avec Prost et une avec Lauda, aux Pays-Bas.'
+  pourquoi: 'La page patrimoine de McLaren donne six victoires à la MP4/2B en 1985 : Prost au Brésil et à Monaco, Lauda à Zandvoort. Les résultats publiés par Motor Sport donnent Prost vainqueur en Grande-Bretagne (MP4/2B-2) et en Autriche (MP4/2B-3). Jenkinson rapporte aussi sa cinquième victoire à Monza.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: McLaren Racing, « MP4/2B »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1985-formula-1-mclaren-mp4-2b/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 British Grand Prix race report – A bit farcical » (septembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/september-1985/21/the-british-grand-prix-2/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 Austrian Grand Prix race report » (septembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/september-1985/63/austrian-grand-prix-10/
+  - titre: Motor Sport, Denis Jenkinson, « 1985 Italian Grand Prix race report » (octobre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/october-1985/22/italian-grand-prix-3/
 - annee: 1985
   ecurie: team-lotus
   equipe: Lotus Renault
@@ -2436,10 +2486,10 @@ cas:
     - Portugal
     - San Marino
     - Belgium
-  pourquoi: La 97T a gagné au Portugal et en Belgique avec Senna ; à Saint-Marin, De Angelis a hérité de la victoire après la disqualification de Prost.
+  pourquoi: 'Autosport retrace les trois victoires de la 97T en 1985 : Senna au Portugal, De Angelis à Saint-Marin, où il hérite de la victoire après la disqualification de la McLaren de Prost trouvée trop légère, puis Senna sous la pluie à Spa.'
   sources:
-  - titre: Wikipedia, « Lotus 97T »
-    url: https://en.wikipedia.org/wiki/Lotus_97T
+  - titre: Autosport (GP Racing), « How Senna's first F1 winner gave Lotus life after Chapman » (août 2022)
+    url: https://www.autosport.com/f1/news/how-sennas-first-f1-winner-gave-lotus-life-after-chapman/10356472/
 - annee: 1985
   ecurie: williams
   equipe: Williams Honda
@@ -2452,10 +2502,16 @@ cas:
     - Great Britain Europe
     - South Africa
     - Australia
-  pourquoi: 'Rosberg a gagné à Detroit avec la FW10. D''après Wikipédia, la version améliorée FW10B, arrivée en fin de saison, a gagné les trois dernières courses : Mansell au GP d''Europe et en Afrique du Sud, Rosberg en Australie. La date exacte de ses débuts n''est pas précisée.'
+  pourquoi: 'La page de Honda sur la FW10 indique que Rosberg a donné à Williams Honda sa première victoire de 1985 à Detroit. Les comptes rendus de Motor Sport montrent la version FW10B victorieuse dans les trois dernières courses : Mansell au Grand Prix d''Europe et en Afrique du Sud (FW10B/6), Rosberg en Australie (FW10B/7). La date exacte des débuts de la FW10B n''est pas établie.'
   sources:
-  - titre: Wikipedia, « Williams FW10 »
-    url: https://en.wikipedia.org/wiki/Williams_FW10
+  - titre: Honda, « 1985 Williams Honda FW10 »
+    url: https://global.honda/en/F1/machine/1985_WilliamsHondaFW10/
+  - titre: Motor Sport, « 1985 Grand Prix of Europe in pictures » (novembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/november-1985/62/grand-prix-europe/
+  - titre: Motor Sport, Alan Henry, « 1985 South African Grand Prix race report » (décembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/december-1985/21/south-african-grand-prix-3/
+  - titre: Motor Sport, Alan Henry, « 1985 Australian Grand Prix race report » (décembre 1985)
+    url: https://www.motorsportmagazine.com/archive/article/december-1985/24/australian-grand-prix-5/
 - annee: 1986
   ecurie: benetton
   equipe: Benetton BMW
@@ -2463,10 +2519,12 @@ cas:
   - voiture: Benetton B186
     gps:
     - Mexico
-  pourquoi: Berger a offert à Benetton sa première victoire au Mexique, avec la B186 châssis n° 7, seule B186 victorieuse.
+  pourquoi: Motor Sport (Matt Bishop) et le compte rendu d'époque du Grand Prix du Mexique 1986 donnent la victoire de Berger, première de Benetton, sur la B186 à moteur BMW.
   sources:
-  - titre: Wikipedia, « Benetton B186 »
-    url: https://en.wikipedia.org/wiki/Benetton_B186
+  - titre: 'Motor Sport, Matt Bishop, « F1 victory without a pitstop: Berger & Benetton''s shock Mexican GP win » (octobre 2026)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-victory-without-a-pitstop-berger-benettons-shock-mexican-gp-win/
+  - titre: 'Motor Sport, « Formula One: 1986 Mexican Grand Prix » (novembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1986/20/formula-one-mexican-grand-prix/
 - annee: 1986
   ecurie: mclaren
   equipe: McLaren TAG
@@ -2477,10 +2535,10 @@ cas:
     - Monaco
     - Austria
     - Australia
-  pourquoi: La MP4/2C a gagné quatre courses en 1986, toutes avec Prost.
+  pourquoi: 'La page patrimoine de McLaren donne quatre victoires à la MP4/2C en 1986, toutes avec Prost : Imola, Monaco, l''Autriche et Adélaïde.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/2 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/2
+  - titre: McLaren Racing, « MP4/2C »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1986-formula-1-mclaren-mp42c/
 - annee: 1986
   ecurie: team-lotus
   equipe: Lotus Renault
@@ -2489,10 +2547,10 @@ cas:
     gps:
     - Spain
     - United States of America Detroit
-  pourquoi: Le tableau des résultats de la 98T montre ses deux victoires de 1986, en Espagne et à Detroit.
+  pourquoi: L'historique du châssis 98T/3 sur OldRacingCars montre les deux victoires de Senna en 1986, en Espagne (Jerez) et à Detroit.
   sources:
-  - titre: Wikipedia, « Lotus 98T »
-    url: https://en.wikipedia.org/wiki/Lotus_98T
+  - titre: OldRacingCars.com, « Lotus 98T [3] race history »
+    url: https://www.oldracingcars.com/lotus/98t/03
 - annee: 1986
   ecurie: williams
   equipe: Williams Honda
@@ -2508,10 +2566,14 @@ cas:
     - Hungary
     - Italy
     - Portugal
-  pourquoi: 'La FW11 a gagné neuf courses en 1986 : cinq avec Mansell et quatre avec Piquet.'
+  pourquoi: 'La page de Honda sur la FW11 donne neuf victoires à Williams Honda en 1986 : quatre avec Piquet et cinq avec Mansell. Les résultats publiés par Motor Sport montrent par exemple la FW11 victorieuse en Allemagne avec Piquet et au Portugal avec Mansell.'
   sources:
-  - titre: Wikipedia, « Williams FW11 »
-    url: https://en.wikipedia.org/wiki/Williams_FW11
+  - titre: Honda, « 1986 Williams Honda FW11 »
+    url: https://global.honda/en/F1/machine/1986_WilliamsHondaFW11/
+  - titre: 'Motor Sport, « Formula One: German Grand Prix » (septembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1986/35/formula-one-german-grand-prix-2/
+  - titre: 'Motor Sport, « Formula One: 1986 Portuguese Grand Prix » (novembre 1986)'
+    url: https://www.motorsportmagazine.com/archive/article/november-1986/37/formula-one-portuguese-grand-prix/
 - annee: 1987
   ecurie: ferrari
   equipe: Ferrari
@@ -2520,10 +2582,14 @@ cas:
     gps:
     - Japan
     - Australia
-  pourquoi: Berger a gagné deux fois avec la F1/87, au Japon et en Australie.
+  pourquoi: Berger a gagné deux fois avec la F1/87, au Japon et en Australie, les deux dernières manches de 1987 (châssis 097).
   sources:
-  - titre: Wikipedia, « Ferrari F1/87 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+  - titre: 'Motor Sport, Samarth Kanal, « Gallery: Ferrari F1/87 » (avril 2018)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/gallery-ferrari-f187
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
+    url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 », fiche technique (janvier 2010)
+    url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
 - annee: 1987
   ecurie: mclaren
   equipe: McLaren TAG
@@ -2533,10 +2599,12 @@ cas:
     - Brazil
     - Belgium
     - Portugal
-  pourquoi: Prost a gagné trois fois avec la MP4/3 en 1987, au Brésil, en Belgique et au Portugal.
+  pourquoi: Prost a gagné trois fois avec la MP4/3 en 1987, au Brésil, en Belgique (Spa) et au Portugal, où il bat le record de victoires de Jackie Stewart.
   sources:
-  - titre: Wikipedia, « McLaren MP4/3 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/3
+  - titre: Ultimatecarpage.com, « McLaren MP4/3 Porsche », fiche technique
+    url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
+  - titre: 'McLaren, « Alain''s record breaking year: How the MP4/4''s lesser-known predecessor helped Le Prof » (septembre 2017)'
+    url: https://www.mclaren.com/racing/heritage/driver/alain-prost/alains-record-breaking-year-mp43-2119871/
 - annee: 1987
   ecurie: team-lotus
   equipe: Lotus Honda
@@ -2547,8 +2615,10 @@ cas:
     - United States of America Detroit
   pourquoi: Senna a gagné à Monaco et à Detroit avec la 99T ; Detroit reste la dernière victoire de Team Lotus.
   sources:
-  - titre: Wikipedia, « Lotus 99T »
-    url: https://en.wikipedia.org/wiki/Lotus_99T
+  - titre: Honda, « 1987 Lotus Honda 99T » (site du constructeur, non daté)
+    url: https://global.honda/en/F1/machine/1987_Lotus99T/
+  - titre: Ultimatecarpage.com, « Lotus 99T Honda », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1460/Lotus-99T-Honda.html
 - annee: 1987
   ecurie: williams
   equipe: Williams Honda
@@ -2564,10 +2634,12 @@ cas:
     - Italy
     - Spain
     - Mexico
-  pourquoi: 'La FW11B a gagné neuf courses en 1987 : six avec Mansell et trois avec Piquet.'
+  pourquoi: 'La FW11B a gagné neuf des seize courses de 1987 : six avec Mansell (Saint-Marin, France, Grande-Bretagne, Autriche, Espagne, Mexique) et trois avec Piquet (Allemagne, Hongrie, Italie).'
   sources:
-  - titre: Wikipedia, « Williams FW11 »
-    url: https://en.wikipedia.org/wiki/Williams_FW11
+  - titre: Honda, « 1987 Williams Honda FW11B » (site du constructeur, non daté)
+    url: https://global.honda/en/F1/machine/1987_WilliamsHondaFW11B/
+  - titre: Ultimatecarpage.com, « Williams FW11B Honda », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1425/Williams-FW11B-Honda.html
 - annee: 1988
   ecurie: ferrari
   equipe: Ferrari
@@ -2575,10 +2647,12 @@ cas:
   - voiture: Ferrari F1/87/88C
     gps:
     - Italy
-  pourquoi: La F1/87 mise à jour pour 1988 fut rebaptisée F1/87/88C ; Gerhard Berger l'a menée à la victoire à Monza, devant Alboreto.
+  pourquoi: La F1/87, mise à jour pour 1988, fut rebaptisée F1/87/88C ; Gerhard Berger l'a menée à la victoire à Monza, devant Alboreto, la seule course de l'année qui échappe à McLaren.
   sources:
-  - titre: Wikipedia, « Ferrari F1/87 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F1/87
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
+    url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
+  - titre: 'Motorsport Week, Dan Lawrence, « On this day in 1988: Ferrari halt McLaren charge at Monza » (septembre 2023)'
+    url: https://www.motorsportweek.com/2023/09/11/on-this-day-in-1988-ferrari-halt-mclaren-charge-at-monza
 - annee: 1988
   ecurie: mclaren
   equipe: McLaren Honda
@@ -2600,10 +2674,12 @@ cas:
     - Spain
     - Japan
     - Australia
-  pourquoi: La MP4/4 a disputé les seize manches de 1988 et en a gagné quinze, toutes sauf Monza.
+  pourquoi: La MP4/4 a disputé les seize manches de 1988 et en a gagné quinze, toutes sauf Monza, où Prost casse son moteur et Senna heurte un retardataire.
   sources:
-  - titre: Wikipedia, « McLaren MP4/4 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/4
+  - titre: Honda, « 1988 McLaren Honda MP4/4 » (site du constructeur, non daté)
+    url: https://global.honda/en/F1/machine/1988_McLarenHondaMP44/
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda », page 2 (juillet 2014)
+    url: https://www.ultimatecarpage.com/txt/343/2/McLaren-MP4-4-Honda.html
 - annee: 1989
   ecurie: benetton
   equipe: Benetton Ford
@@ -2611,10 +2687,12 @@ cas:
   - voiture: Benetton B189
     gps:
     - Japan
-  pourquoi: 'Unique victoire de la B189 : Nannini, deuxième sur la piste à Suzuka, a hérité de la victoire après la disqualification de Senna.'
+  pourquoi: 'Unique victoire de la B189 : Nannini, deuxième sur la piste à Suzuka derrière Senna, a hérité de la victoire après l''exclusion du Brésilien par les commissaires.'
   sources:
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
+  - titre: 8W (Forix), Dan Moakes, « The Alessandro Nannini story » (février 2000)
+    url: https://forix.com/8w/nannini.html
+  - titre: Motor Sport, David Tremayne, « 1989 Japanese Grand Prix race report » (décembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/december-1989/8/a-flash-in-japan/
 - annee: 1989
   ecurie: ferrari
   equipe: Ferrari
@@ -2624,10 +2702,12 @@ cas:
     - Brazil
     - Hungary
     - Portugal
-  pourquoi: La 640 a gagné dès ses débuts au Brésil (Mansell), puis en Hongrie (Mansell) et au Portugal (Berger).
+  pourquoi: La 640, présente dès la première manche au Brésil, y a gagné avec Mansell, puis en Hongrie (Mansell) et au Portugal (Berger).
   sources:
-  - titre: Wikipedia, « Ferrari 640 »
-    url: https://en.wikipedia.org/wiki/Ferrari_640
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
+    url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
+  - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
+    url: https://grandprix.com/gpe/rr469.html
 - annee: 1989
   ecurie: mclaren
   equipe: McLaren Honda
@@ -2644,10 +2724,12 @@ cas:
     - Belgium
     - Italy
     - Spain
-  pourquoi: La MP4/5, seule McLaren engagée en 1989, a gagné dix courses, de Saint-Marin (première) à l'Espagne (dernière).
+  pourquoi: La MP4/5 a gagné dix des seize courses de 1989, de Saint-Marin (première) à l'Espagne (dernière) ; la MP4/4B équipée du V10 Honda n'a servi qu'aux essais d'hiver.
   sources:
-  - titre: Wikipedia, « McLaren MP4/5 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+  - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
+    url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda », fiche technique (décembre 2015)
+    url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
 - annee: 1989
   ecurie: williams
   equipe: Williams Renault
@@ -2658,12 +2740,16 @@ cas:
   - voiture: Williams FW13
     gps:
     - Australia
-  pourquoi: Boutsen a donné à la FW12C son unique victoire au Canada (doublé avec Patrese) ; la FW13, apparue en fin de saison, a gagné en Australie sous la pluie avec Boutsen.
+  pourquoi: Boutsen a donné à la FW12C sa victoire au Canada, Patrese finissant deuxième ; la FW13, apparue au Portugal en fin de saison, a gagné en Australie, sous la pluie, avec Boutsen.
   sources:
-  - titre: Wikipedia, « Williams FW12 »
-    url: https://en.wikipedia.org/wiki/Williams_FW12
-  - titre: Wikipedia, « Williams FW13 »
-    url: https://en.wikipedia.org/wiki/Williams_FW13
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault », page 2
+    url: https://www.ultimatecarpage.com/txt/1051/2/Williams-FW12C-Renault.html
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault » (juin 2015)
+    url: https://www.ultimatecarpage.com/car/6278/Williams-FW13-Renault.html
+  - titre: Motor Sport, David Tremayne, « 1989 Australian Grand Prix race report » (décembre 1989)
+    url: https://www.motorsportmagazine.com/archive/article/december-1989/17/insanity-rules
 - annee: 1990
   ecurie: benetton
   equipe: Benetton Ford
@@ -2672,12 +2758,12 @@ cas:
     gps:
     - Japan
     - Australia
-  pourquoi: La B189B n'a couru que les deux premières manches ; Piquet a gagné les deux dernières courses de la saison au volant de la B190.
+  pourquoi: Benetton présente la B190 à Saint-Marin, troisième manche de 1990, selon le compte rendu de Motor Sport. Piquet la mène à la victoire lors des deux dernières courses de la saison, au Japon et en Australie.
   sources:
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
+  - titre: Motor Sport, Denis Jenkinson, « Delusion » (juin 1990)
+    url: https://www.motorsportmagazine.com/archive/article/june-1990/6/delusion
+  - titre: Motorsport Retro, « Benetton B190 1990 – Nelson Piquet – Gallery » (septembre 2014)
+    url: https://motorsportretro.com/2014/09/benetton-b190
 - annee: 1990
   ecurie: ferrari
   equipe: Ferrari
@@ -2690,10 +2776,12 @@ cas:
     - Great Britain
     - Portugal
     - Spain
-  pourquoi: La 641 (dite aussi 641/2 selon les châssis) a gagné cinq fois avec Prost et une fois avec Mansell ; Ferrari n'a pas engagé d'autre modèle en 1990.
+  pourquoi: 'La 641 a gagné six courses en 1990 : le Brésil, le Mexique, la France, la Grande-Bretagne et l''Espagne avec Prost, le Portugal avec Mansell. La 641/2 du Portugal (châssis 120) a été vendue aux enchères par Gooding.'
   sources:
-  - titre: Wikipedia, « Ferrari 641 »
-    url: https://en.wikipedia.org/wiki/Ferrari_641
+  - titre: 'Top Gear, Jason Barlow, « Top Gear''s coolest racing cars: Ferrari 641 » (février 2016)'
+    url: https://www.topgear.com/car-news/classic/top-gears-coolest-racing-cars-ferrari-641
+  - titre: Gooding & Company, « 1990 Ferrari 641/2 » (Scottsdale 2015, lot 38)
+    url: https://www.goodingco.com/lot/1990-ferrari-6412
 - annee: 1990
   ecurie: mclaren
   equipe: McLaren Honda
@@ -2706,10 +2794,12 @@ cas:
     - Germany
     - Belgium
     - Italy
-  pourquoi: La MP4/5B, version 1990 de la MP4/5, a gagné six courses, des États-Unis (première) à l'Italie (dernière).
+  pourquoi: 'Évolution de la MP4/5, la MP4/5B est la McLaren qui a donné à Senna son deuxième titre en 1990 ; Motor Sport la mentionne dès Saint-Marin. McLaren n''a engagé aucun autre modèle en 1990 : les six victoires, des États-Unis à l''Italie, sont donc toutes acquises avec elle.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/5 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/5
+  - titre: Honda, « McLaren Honda MP4/5B (1990) », F1 Machines Powered by Honda
+    url: https://global.honda/en/F1/machine/1990_McLarenHondaMP45B/
+  - titre: Motor Sport, Denis Jenkinson, « Delusion » (juin 1990)
+    url: https://www.motorsportmagazine.com/archive/article/june-1990/6/delusion
 - annee: 1990
   ecurie: williams
   equipe: Williams Renault
@@ -2718,10 +2808,14 @@ cas:
     gps:
     - San Marino
     - Hungary
-  pourquoi: 'La FW13B a gagné deux fois : Patrese à Saint-Marin, Boutsen en Hongrie depuis la pole.'
+  pourquoi: 'La Williams de 1990 est la FW13B. Motor Sport la nomme au Grand Prix de Hongrie, gagné par Boutsen ; la base Motor Sport attribue à Patrese en FW13B le record du tour de Jerez en 1990. La FW14 ne lui succède qu''en 1991 : les deux victoires de 1990 (Patrese à Saint-Marin, Boutsen en Hongrie) reviennent donc à la FW13B.'
   sources:
-  - titre: Wikipedia, « Williams FW13 »
-    url: https://en.wikipedia.org/wiki/Williams_FW13
+  - titre: 'Motor Sport, David Tremayne, « 1990 Hungarian Grand Prix report: Good Vibrations » (septembre 1990)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1990/16/good-vibrations
+  - titre: Motor Sport, base de données, « 1990 Spanish Grand Prix »
+    url: https://www.motorsportmagazine.com/database/races/1990-spanish-grand-prix/
+  - titre: Motor Sport, Damien Smith, « When the wheel fell off Mansell's '91 F1 title challenge » (septembre 2021)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-the-wheel-fell-off-mansells-91-f1-title-challenge
 - annee: 1991
   ecurie: benetton
   equipe: Benetton Ford
@@ -2729,12 +2823,14 @@ cas:
   - voiture: Benetton B191
     gps:
     - Canada
-  pourquoi: La B190B ne servit qu'aux deux premières manches ; Piquet a offert à la B191 son unique victoire au Canada.
+  pourquoi: Benetton commence 1991 avec la B190B (Phoenix, Brésil) et présente la B191 à Saint-Marin. Au Canada, Piquet offre à la B191 sa seule victoire.
   sources:
-  - titre: Wikipedia, « Benetton B191 »
-    url: https://en.wikipedia.org/wiki/Benetton_B191
-  - titre: Wikipedia, « Benetton B190 »
-    url: https://en.wikipedia.org/wiki/Benetton_B190
+  - titre: 'Motor Sport, Denis Jenkinson, « Formula One: 1991 Canadian Grand Prix » (juillet 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/july-1991/9/formula-one-canadian-grand-prix
+  - titre: Motor Sport, Denis Jenkinson, « Formula One – 1991 San Marino Grand Prix » (juin 1991)
+    url: https://www.motorsportmagazine.com/archive/article/june-1991/8/formula-one-san-marino-grand-prix
+  - titre: 'Motor Sport, David Tremayne, « 1991 Brazilian Grand Prix report: Senna wins home race at last » (mai 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1991/6/formula-one-brazilian-grand-prix
 - annee: 1991
   ecurie: mclaren
   equipe: McLaren Honda
@@ -2749,10 +2845,16 @@ cas:
     - Belgium
     - Japan
     - Australia
-  pourquoi: 'La MP4/6 a gagné huit courses en 1991 : sept pour Senna, et le Japon pour Berger.'
+  pourquoi: La MP4/6 gagne les quatre premières manches de 1991 (États-Unis, Brésil, Saint-Marin, Monaco), puis la Hongrie et la Belgique avec Senna. Au Japon, Senna laisse la victoire à Berger, et il gagne l'Australie, raccourcie par la pluie. Cela fait huit victoires.
   sources:
-  - titre: Wikipedia, « McLaren MP4/6 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+  - titre: Honda, « McLaren Honda MP4/6 (1991) », F1 Machines Powered by Honda
+    url: https://global.honda/en/F1/machine/1991_McLarenHondaMP46/
+  - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion »'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ayrton-senna-the-last-v12-powered-f1-champion
+  - titre: Motor Sport, David Tremayne, « 1991 Japanese Grand Prix » (décembre 1991)
+    url: https://www.motorsportmagazine.com/archive/article/december-1991/8/japanese-grand-prix-3
+  - titre: Motor Sport, David Tremayne, « 1991 Australian Grand Prix » (décembre 1991)
+    url: https://www.motorsportmagazine.com/archive/article/december-1991/16/australian-grand-prix-2/
 - annee: 1991
   ecurie: williams
   equipe: Williams Renault
@@ -2766,10 +2868,12 @@ cas:
     - Italy
     - Portugal
     - Spain
-  pourquoi: La FW14, seule Williams engagée en 1991, a remporté sept victoires avec Mansell et Patrese.
+  pourquoi: 'La FW14, Williams de 1991 dès Phoenix, gagne sept fois : Patrese au Mexique et au Portugal, Mansell en France, en Grande-Bretagne, en Allemagne, en Italie et en Espagne.'
   sources:
-  - titre: Wikipedia, « Williams FW14 »
-    url: https://en.wikipedia.org/wiki/Williams_FW14
+  - titre: Motor Sport, Damien Smith, « When the wheel fell off Mansell's '91 F1 title challenge » (septembre 2021)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-the-wheel-fell-off-mansells-91-f1-title-challenge
+  - titre: 'Motor Sport, David Tremayne, « 1991 Brazilian Grand Prix report: Senna wins home race at last » (mai 1991)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1991/6/formula-one-brazilian-grand-prix
 - annee: 1992
   ecurie: benetton
   equipe: Benetton Ford
@@ -2777,10 +2881,12 @@ cas:
   - voiture: Benetton B192
     gps:
     - Belgium
-  pourquoi: La B192, apparue au Grand Prix d'Espagne en remplacement de la B191B, a gagné en Belgique sous la pluie avec Schumacher.
+  pourquoi: Benetton commence 1992 avec la B191B et engage la B192 à partir du Grand Prix d'Espagne. Schumacher la mène à sa première victoire, en Belgique.
   sources:
-  - titre: Wikipedia, « Benetton B192 »
-    url: https://en.wikipedia.org/wiki/Benetton_B192
+  - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
+    url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
+  - titre: Crash.net, Lewis Duncan, « Unique Michael Schumacher F1 racer up for auction at bank-busting price tag » (janvier 2026)
+    url: https://www.crash.net/f1/news/1088377/1/unique-michael-schumacher-f1-racer-auction-bank-busting-price-tag
 - annee: 1992
   ecurie: mclaren
   equipe: McLaren Honda
@@ -2792,12 +2898,16 @@ cas:
     - Hungary
     - Italy
     - Australia
-  pourquoi: La MP4/6B n'a couru qu'en Afrique du Sud et au Mexique, sans gagner ; la MP4/7A, apparue au Brésil, a gagné cinq fois (trois pour Senna, deux pour Berger), de Monaco à l'Australie.
+  pourquoi: 'McLaren dispute les deux premières manches de 1992 (Afrique du Sud, Mexique) avec la MP4/6B. La MP4/7A, avancée au Brésil, troisième manche, signe les cinq victoires de l''année : Senna à Monaco, Berger au Canada, puis la Hongrie, l''Italie et l''Australie.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/7A »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/7A
-  - titre: Wikipedia, « McLaren MP4/6 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/6
+  - titre: Honda, « McLaren Honda MP4/7A (1992) », F1 Machines Powered by Honda
+    url: https://global.honda/en/F1/machine/1992_McLarenHondaMP47A/
+  - titre: Motor Sport, David Tremayne, « What did go wrong? » (juillet 1992)
+    url: https://www.motorsportmagazine.com/archive/article/july-1992/16/what-did-go-wrong
+  - titre: Motor Sport, David Tremayne, « Red Five's red mist » (juillet 1992)
+    url: https://www.motorsportmagazine.com/archive/article/july-1992/28/red-fives-red-mist
+  - titre: Motor Sport, David Tremayne, « Suspended animation » (avril 1992)
+    url: https://www.motorsportmagazine.com/archive/article/april-1992/8/suspended-animation-2/
 - annee: 1992
   ecurie: williams
   equipe: Williams Renault
@@ -2814,10 +2924,22 @@ cas:
     - Germany
     - Portugal
     - Japan
-  pourquoi: La FW14B, engagée dès la manche d'ouverture en Afrique du Sud, a gagné neuf fois avec Mansell et une fois avec Patrese (Japon).
+  pourquoi: 'La FW14B gagne dès l''Afrique du Sud, manche d''ouverture, puis au Mexique, au Brésil, en Espagne et à Saint-Marin (tableaux de résultats de Motor Sport). Prévue comme une solution d''attente, elle reste en service toute la saison et gagne aussi en France, en Grande-Bretagne, en Allemagne, au Portugal et au Japon (Patrese) : dix victoires.'
   sources:
-  - titre: Wikipedia, « Williams FW14 »
-    url: https://en.wikipedia.org/wiki/Williams_FW14
+  - titre: Motor Sport, David Tremayne, « Suspended animation » (avril 1992)
+    url: https://www.motorsportmagazine.com/archive/article/april-1992/8/suspended-animation-2/
+  - titre: 'Motor Sport, David Tremayne, « 1992 Mexican Grand Prix: An almost perfect result » (mai 1992)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1992/12/an-almost-perfect-result/
+  - titre: 'Motor Sport, David Tremayne, « 1992 Brazilian Grand Prix report: 24 carat victory » (mai 1992)'
+    url: https://www.motorsportmagazine.com/archive/article/may-1992/18/24-carat-victory
+  - titre: Motor Sport, David Tremayne, « Questions unanswered as Mansell wins the 1992 Spanish Grand Prix » (juin 1992)
+    url: https://www.motorsportmagazine.com/archive/article/june-1992/8/questions-unanswered
+  - titre: Motor Sport, David Tremayne, « Gimme five! » (juillet 1992)
+    url: https://www.motorsportmagazine.com/archive/article/july-1992/8/gimme-five
+  - titre: Motor Sport, Maurice Hamilton, « 14B for Bully » (octobre 2009)
+    url: https://www.motorsportmagazine.com/archive/article/october-2009/96/14b-bully/
+  - titre: Motor Sport, David Tremayne, « A wind of change » (décembre 1992)
+    url: https://www.motorsportmagazine.com/archive/article/december-1992/8/wind-change-2/
 - annee: 1993
   ecurie: benetton
   equipe: Benetton Ford
