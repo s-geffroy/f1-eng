@@ -57,37 +57,41 @@ monopoles:
 - de: 1999
   a: 2000
   pneus: Bridgestone
-  pourquoi: Goodyear se retire fin 1998 ; Bridgestone reste seul fournisseur en 1999 et 2000, avant l'arrivée de Michelin en 2001.
+  pourquoi: Goodyear avait annoncé son retrait de la Formule 1 à la fin de 1998 (Joe Saward, GrandPrix.com). Bridgestone se présente comme seul fournisseur de pneus en 1999, puis parle de sa « deuxième année de fournisseur unique » en 2000, l'année où Michelin annonce son retour pour 2001. Ferrari confirme qu'en 1999 la F399 roulait en Bridgestone, Goodyear ayant quitté la F1.
   sources:
-  - titre: Wikipedia, « 1999 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
-  - titre: Wikipedia, « 2000 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 1999 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/1999/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2000 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2000/
+  - titre: Ferrari, « 1999 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-1999
   nature: impose
 - de: 2007
   a: 2010
   pneus: Bridgestone
-  pourquoi: Michelin se retire fin 2006 ; Bridgestone est seul fournisseur de 2007 à 2010 (contrat exclusif 2008-2010), puis annonce son départ fin 2010.
+  pourquoi: Michelin se retire fin 2006 ; Bridgestone, de nouveau seul fournisseur en 2007 (ce que confirment Bridgestone et Ferrari), signe ensuite un contrat d'exclusivité pour 2008-2010, annonce en novembre 2009 qu'il ne le renouvellera pas et quitte la F1 après le Grand Prix d'Abou Dhabi 2010.
   sources:
-  - titre: Wikipedia, « 2007 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
-  - titre: Wikipedia, « 2010 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
-  - titre: 'Autoblog, « Officially Official: Bridgestone signs exclusive deal with F1 » (26 décembre 2007)'
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2007 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2007/
+  - titre: Ferrari, « 2007 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2007
+  - titre: 'Autoblog, Noah Joseph, « Officially Official: Bridgestone signs exclusive deal with F1 » (26 décembre 2007)'
     url: https://www.autoblog.com/2007/12/26/officially-official-bridgestone-signs-exclusive-deal-with-f1/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2009 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2009/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2010 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2010/
   nature: impose
 - de: 2011
   a: 2025
   pneus: Pirelli
-  pourquoi: 'Pirelli est fournisseur unique depuis 2011, sans interruption jusqu''en 2025 (et au-delà : contrat prolongé jusqu''en 2027).'
+  pourquoi: Ferrari note l'arrivée de Pirelli comme fournisseur unique en 2011, à la place de Bridgestone ; Formula1.com confirme que Pirelli tient ce rôle depuis 2011 et qu'il est reconduit comme fournisseur exclusif jusqu'en 2027.
   sources:
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
-  - titre: Formula1.com, « Pirelli to continue as Formula 1's exclusive tyre supplier until 2027 »
+  - titre: Ferrari, « 2011 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2011
+  - titre: Formula1.com, « Pirelli to continue as Formula 1’s exclusive tyre supplier until 2027 » (octobre 2023)
     url: https://www.formula1.com/en/latest/article.pirelli-to-continue-as-formula-1s-exclusive-tyre-supplier-until-2027.7xJIxJyMe84N3p7k4iIMjK.html
   nature: impose
 cas:
@@ -2384,543 +2388,457 @@ cas:
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996 : Joe Saward rappelle que pendant cinq ans le manufacturier a eu le monopole en F1 et produisait des pneus identiques pour toutes les équipes, dont Benetton Ford en 1993. Au Grand Prix du Portugal, Motor Sport montre les adversaires de Schumacher chaussant « leurs Goodyear neufs ».'
   sources:
-  - titre: Wikipedia, « 1993 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
+    url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
 - annee: 1993
   ecurie: mclaren
   equipe: McLaren Ford
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont McLaren Ford, roulaient en Goodyear.'
+  pourquoi: Goodyear a été seul fournisseur de 1992 à 1996, avec des pneus identiques pour toutes les équipes (Joe Saward). La fiche technique de la McLaren MP4/8 de 1993 publiée par Autosport indique « Tyres Goodyear ».
   sources:
-  - titre: Wikipedia, « 1993 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Autosport, Damien Smith, « The McLaren that surprised sulking Senna » (mai 2018)
+    url: https://www.autosport.com/f1/news/the-mclaren-that-surprised-sulking-senna-5110828/5110828/
 - annee: 1993
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1993 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996, avec des pneus identiques pour toutes les équipes (Joe Saward). La fiche technique de la Williams FW15C de 1993 publiée par Autosport indique « Tyres: Goodyear ».'
   sources:
-  - titre: Wikipedia, « 1993 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1993_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
+    url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
 - annee: 1994
   ecurie: benetton
   equipe: Benetton Ford
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Benetton Ford, roulaient en Goodyear.'
+  pourquoi: Goodyear a été seul fournisseur de 1992 à 1996, avec des pneus identiques pour toutes les équipes (Joe Saward). Au Grand Prix du Japon 1994, Motor Sport décrit l'arrêt de la Benetton B194 de Schumacher pour « un nouveau train de pluie Goodyear ».
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Motor Sport, David Tremayne, « Down to the wire » (décembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/december-1994/10/down-wire/
 - annee: 1994
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996 : Joe Saward rappelle que pendant ces cinq ans de monopole, il produisait des pneus identiques pour toutes les équipes, Ferrari comprise en 1994.'
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1994
   ecurie: jordan
   equipe: Jordan Hart
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Jordan Hart, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996 : Joe Saward rappelle que pendant ces cinq ans de monopole, il produisait des pneus identiques pour toutes les équipes, Jordan Hart comprise en 1994.'
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1994
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1994 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  pourquoi: Goodyear a été seul fournisseur de 1992 à 1996, avec des pneus identiques pour toutes les équipes (Joe Saward). Au Grand Prix du Portugal 1994, Motor Sport note que la FW16B de Hill survirait « sur son premier train de Goodyear ».
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Motor Sport, David Tremayne, « 1994 Portuguese Grand Prix » (novembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/november-1994/10/portuguese-grand-prix-4/
 - annee: 1995
   ecurie: benetton
   equipe: Benetton Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Benetton Renault, roulaient en Goodyear.'
+  pourquoi: Goodyear a été seul fournisseur de 1992 à 1996, avec des pneus identiques pour toutes les équipes (Joe Saward). La fiche technique de la Benetton B195 de 1995 publiée par Autosport indique « Tyres Goodyear ».
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Autosport, Stuart Codling, « Why Benetton had a point to prove with the B195 » (avril 2025)
+    url: https://www.autosport.com/f1/news/why-benetton-had-a-point-to-prove-with-the-b195/10716474/
 - annee: 1995
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996 : Joe Saward rappelle que pendant ces cinq ans de monopole, il produisait des pneus identiques pour toutes les équipes, Ferrari comprise en 1995.'
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1995
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1995 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  pourquoi: 'Goodyear a été seul fournisseur de 1992 à 1996 : Joe Saward rappelle que pendant ces cinq ans de monopole, il produisait des pneus identiques pour toutes les équipes, Williams Renault comprise en 1995.'
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1996
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Ferrari, roulaient en Goodyear.'
+  pourquoi: Goodyear est encore seul fournisseur en 1996, dernière des cinq années de monopole décrites par Joe Saward avant l'arrivée de Bridgestone en 1997. Au Grand Prix d'Italie 1996, gagné par Schumacher sur Ferrari, Motor Sport explique que la course s'est jouée sur l'arrêt unique imposé par le choix de Goodyear d'apporter sa gomme dure « A ».
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: Motor Sport, Mark Skewis, « Escape To Victory » (octobre 1996)
+    url: https://www.motorsportmagazine.com/archive/article/october-1996/22/escape-to-victory/
 - annee: 1996
   ecurie: ligier
   equipe: Ligier Mugen Honda
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Ligier Mugen Honda, roulaient en Goodyear.'
+  pourquoi: Goodyear est encore seul fournisseur en 1996, dernière des cinq années de monopole décrites par Joe Saward, pendant lesquelles il produisait des pneus identiques pour toutes les équipes, Ligier Mugen Honda comprise. Bridgestone n'arrive qu'en 1997.
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1996
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Goodyear seul fournisseur en 1996 : toutes les équipes, dont Williams Renault, roulaient en Goodyear.'
+  pourquoi: Goodyear est encore seul fournisseur en 1996, dernière des cinq années de monopole décrites par Joe Saward, pendant lesquelles il produisait des pneus identiques pour toutes les équipes, Williams Renault comprise. Bridgestone n'arrive qu'en 1997.
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
 - annee: 1997
   ecurie: benetton
   equipe: Benetton Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1997 : Benetton Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Benetton B197).'
+  pourquoi: 'En 1997, Goodyear a réservé ses contrats aux équipes de pointe : Bridgestone n''a pu équiper qu''Arrows, Prost, Minardi, Stewart et Lola (Joe Saward, GrandPrix.com). Benetton Renault court donc en Goodyear toute la saison ; elle ne passe chez Bridgestone qu''à l''hiver 1997-1998, après l''annonce du retrait de Goodyear.'
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B197 »
-    url: https://en.wikipedia.org/wiki/Benetton_B197
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
 - annee: 1997
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1997 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari F310).'
+  pourquoi: 'En 1997, Bridgestone n''équipe qu''Arrows, Prost, Minardi, Stewart et Lola : toutes les équipes de pointe restent chez Goodyear (Joe Saward, GrandPrix.com). Ferrari court donc en Goodyear toute la saison, et Saward note qu''elle reste fidèle à Goodyear pour 1998.'
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F310 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F310
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
 - annee: 1997
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1997 : McLaren Mercedes en Goodyear sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/12).'
+  pourquoi: Bridgestone rappelle qu'en 1997 McLaren était encore liée à Goodyear par contrat. Joe Saward (GrandPrix.com) précise que ce contrat courait jusqu'à fin 1999 et que McLaren n'a signé avec Bridgestone qu'après l'annonce du retrait de Goodyear, à l'hiver 1997-1998. McLaren Mercedes court donc en Goodyear toute la saison 1997.
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/12 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/12
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 1997 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/1997/
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
 - annee: 1997
   ecurie: williams
   equipe: Williams Renault
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1997 : Williams Renault en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Williams FW19).'
+  pourquoi: 'La fiche technique de la Williams FW19 publiée par Autosport indique des pneus Goodyear. Joe Saward (GrandPrix.com) range Williams parmi les équipes de pointe restées chez Goodyear : Williams Renault court donc en Goodyear toute la saison 1997.'
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW19 »
-    url: https://en.wikipedia.org/wiki/Williams_FW19
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Stuart Codling, « The anatomy of the last Williams F1 world title winner » (avril 2022)
+    url: https://www.autosport.com/f1/news/the-anatomy-of-the-last-williams-f1-world-title-winner/9897354/
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
 - annee: 1998
   ecurie: benetton
   equipe: Benetton Playlife
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 1998 : Benetton Playlife en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Benetton B198). Benetton passe de Goodyear (1997) à Bridgestone en 1998.'
+  pourquoi: 'Joe Saward (GrandPrix.com) rapporte que Benetton a suivi McLaren chez Bridgestone quelques semaines après l''annonce du retrait de Goodyear, à l''hiver 1997-1998. Benetton Playlife court donc en Bridgestone toute la saison 1998 : c''est un changement de fournisseur par rapport à 1997, où l''équipe roulait en Goodyear.'
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
-  - titre: Wikipedia, « Benetton B198 »
-    url: https://en.wikipedia.org/wiki/Benetton_B198
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
 - annee: 1998
   ecurie: ferrari
   equipe: Ferrari
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1998 : Ferrari en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Ferrari F300).'
+  pourquoi: Joe Saward (GrandPrix.com) explique que Goodyear a gardé Ferrari et Williams en 1998, leurs contrats courant jusqu'à la fin de la saison. Bridgestone confirme que la riposte de Goodyear en Argentine a valu la victoire à la Ferrari de Michael Schumacher. Ferrari court donc en Goodyear toute la saison 1998.
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F300 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F300
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 1998 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/1998/
 - annee: 1998
   ecurie: jordan
   equipe: Jordan Mugen Honda
   pneus: Goodyear
-  pourquoi: 'Tableau des engagés 1998 : Jordan Mugen Honda en Goodyear sur toute la saison, confirmé par la fiche de la voiture (Jordan 198).'
+  pourquoi: Joe Saward (GrandPrix.com) note que Damon Hill a quitté Arrows pour Jordan, « qui utilisait des Goodyear ». Motor Sport confirme que la Jordan 198 a continué de courir en Goodyear alors que plusieurs rivales passaient chez Bridgestone. Jordan Mugen Honda court donc en Goodyear toute la saison 1998.
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
-  - titre: Wikipedia, « Jordan 198 »
-    url: https://en.wikipedia.org/wiki/Jordan_198
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: GrandPrix.com, Joe Saward, « Bridgestone goes head to head with Goodyear » (octobre 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-bridgestone-goes-head-to-head-with-goodyear.html
+  - titre: 'Motor Sport, Jonathan Noble, « Jordan 198: the car that carried Damon Hill to Belgian GP victory » (septembre 2007)'
+    url: https://www.motorsportmagazine.com/archive/article/september-2007/71/profile-jordan-198/
 - annee: 1998
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 1998 : McLaren Mercedes en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4/13). McLaren passe de Goodyear (1997) à Bridgestone en 1998.'
+  pourquoi: McLaren (fiche de la MP4-13) et Joe Saward (GrandPrix.com) rapportent le passage de McLaren de Goodyear à Bridgestone pour 1998. Bridgestone confirme que le partenariat a gagné dès la première manche de la saison. McLaren Mercedes court donc en Bridgestone toute la saison 1998.
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4/13 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/13
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: McLaren, « MP4-13 » (McLaren Heritage)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/mp4-13/
+  - titre: GrandPrix.com, Joe Saward, « Goodyear and Formula 1 » (mars 1998)
+    url: https://www.grandprix.com/features/joe-saward/news-feature-goodyear-and-formula-1.html
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 1998 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/1998/
 - annee: 2001
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2001 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2001).'
+  pourquoi: Bridgestone indique qu'en 2001, de retour face à Michelin, il équipait deux équipes de pointe, Ferrari et McLaren. Les classements publiés par Atlas F1 marquent les Ferrari d'un (B), pour Bridgestone. Ferrari court donc en Bridgestone toute la saison 2001.
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2001 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2001
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2001 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2001/
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Italian GP Review » (septembre 2001)
+    url: https://www.atlasf1.com/2001/ita/elizalde.html
 - annee: 2001
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2001 : McLaren Mercedes en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-16).'
+  pourquoi: Bridgestone compte McLaren parmi ses deux équipes de pointe en 2001, avec Ferrari, et ne mentionne son départ pour Michelin qu'à la fin de cette saison. Les classements publiés par Atlas F1 marquent les McLaren Mercedes d'un (B), pour Bridgestone. McLaren Mercedes court donc en Bridgestone toute la saison 2001.
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-16 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-16
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2001 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2001/
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 San Marino GP Review » (avril 2001)
+    url: https://www.atlasf1.com/2001/san/elizalde.html
 - annee: 2001
   ecurie: williams
   equipe: Williams BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2001 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW23).'
+  pourquoi: RaceFans rappelle que Michelin revient en 2001 et équipe plusieurs écuries, dont Williams. Bridgestone évoque la « Michelin-shod Williams » de Ralf Schumacher à Imola. Les classements publiés par Atlas F1 marquent les Williams BMW d'un (M), pour Michelin. Williams BMW court donc en Michelin toute la saison 2001.
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW23 »
-    url: https://en.wikipedia.org/wiki/Williams_FW23
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: RaceFans, « 2001 – The new generation arrives »
+    url: https://www.racefans.net/f1-information/seasons/2001-%e2%80%93-the-new-generation-arrives/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2001 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2001/
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Italian GP Review » (septembre 2001)
+    url: https://www.atlasf1.com/2001/ita/elizalde.html
 - annee: 2002
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2002 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2001, Ferrari F2002).'
+  pourquoi: Ferrari rappelle qu'elle était en 2002 la seule équipe de pointe encore équipée par Bridgestone. Les classements publiés par Atlas F1 marquent les Ferrari d'un (B). Ferrari court donc en Bridgestone toute la saison 2002, avec la F2001 comme avec la F2002.
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2001 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2001
-  - titre: Wikipedia, « Ferrari F2002 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2002
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Ferrari, « 2002 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-2002
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Australian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/aus/elizalde.html
 - annee: 2002
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2002 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-17). McLaren passe de Bridgestone (2001) à Michelin en 2002.'
+  pourquoi: 'Bridgestone rapporte qu''à la fin de 2001 McLaren a annoncé son passage chez Michelin, et attribue la forme décevante de l''équipe en 2002 à ce changement de dernière minute. Les classements publiés par Atlas F1 marquent les McLaren Mercedes d''un (M). McLaren Mercedes court donc en Michelin toute la saison 2002 : elle était en Bridgestone en 2001.'
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-17 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-17
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2001 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2001/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2002 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2002/
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Malaysian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/mal/elizalde.html
 - annee: 2002
   ecurie: williams
   equipe: Williams BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2002 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW24).'
+  pourquoi: Atlas F1 décrit les Williams FW24 comme « Michelin-shod » au Grand Prix de Malaisie 2002. Ses classements marquent les Williams BMW d'un (M), pour Michelin. Williams BMW court donc en Michelin toute la saison 2002, comme en 2001.
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW24 »
-    url: https://en.wikipedia.org/wiki/Williams_FW24
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Malaysian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/mal/elizalde.html
 - annee: 2003
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2003 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2002, Ferrari F2003-GA).'
+  pourquoi: 'Ferrari court en Bridgestone en 2003 : Autosport oppose les « Bridgestone-tyred Ferraris » aux McLaren et Williams en Michelin, et l''histoire de Bridgestone en F1 raconte la saison 2003 du point de vue du manufacturier, qui la mène avec Ferrari jusqu''au titre de Schumacher.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2002 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2002
-  - titre: Wikipedia, « Ferrari F2003-GA »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2003-GA
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Damien Smith, « How Schumacher won his toughest Ferrari title » (décembre 2017)
+    url: https://www.autosport.com/f1/news/how-schumacher-won-his-toughest-ferrari-title-5110228/5110228/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
 - annee: 2003
   ecurie: jordan
   equipe: Jordan Ford
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2003 : Jordan Ford en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Jordan EJ13).'
+  pourquoi: 'Jordan Ford court en Bridgestone en 2003 : le récit de Motor Sport sur la victoire de Fisichella au Grand Prix du Brésil fait de lui le « fellow Bridgestone runner » de Barrichello, la stratégie de Jordan reposant sur les intermédiaires Bridgestone.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Jordan EJ13 »
-    url: https://en.wikipedia.org/wiki/Jordan_EJ13
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motor Sport, « F1''s Great Drives: Giancarlo Fisichella – 2003 Brazilian Grand Prix » (juin 2020)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-at-70/f1s-greatest-drives-giancarlo-fisichella-2003-brazilian-grand-prix
 - annee: 2003
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2003 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-17).'
+  pourquoi: 'McLaren Mercedes court en Michelin en 2003 : Autosport et Motorsport.com présentent McLaren et Williams comme les équipes Michelin face aux Ferrari en Bridgestone, et Bridgestone relève que Räikkönen (McLaren) chaussait des Michelin.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-17 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-17
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Damien Smith, « How Schumacher won his toughest Ferrari title » (décembre 2017)
+    url: https://www.autosport.com/f1/news/how-schumacher-won-his-toughest-ferrari-title-5110228/5110228/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
 - annee: 2003
   ecurie: renault
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2003 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R23).'
+  pourquoi: 'Renault court en Michelin en 2003 : l''équipe elle-même, avant Silverstone, s''appuie sur les bonnes performances récentes de Michelin. Au Grand Prix de Hongrie gagné par Alonso, GrandPrix.com attribue la victoire aux Michelin et Bridgestone note que les voitures en Michelin ont pris les sept premières places.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R23 »
-    url: https://en.wikipedia.org/wiki/Renault_R23
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motorsport.com, « British GP: Renault technical preview » (juillet 2003)'
+    url: https://au.motorsport.com/f1/news/british-gp-renault-technical-preview-2003-07-15/1056067/
+  - titre: GrandPrix.com, Joe Saward, « Hungarian GP, 2003 » (août 2003)
+    url: https://grandprix.com/gpe/rr710.html
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
 - annee: 2003
   ecurie: williams
   equipe: Williams BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2003 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW25).'
+  pourquoi: 'Williams BMW court en Michelin en 2003 : Motorsport.com rappelle que la FW25 associait la puissance BMW et les pneus Michelin, comme McLaren, face aux Ferrari en Bridgestone. Bridgestone note que Montoya (Williams) chaussait des Michelin.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW25 »
-    url: https://en.wikipedia.org/wiki/Williams_FW25
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Motorsport.com, Kevin Turner, « Top 10 Williams F1 cars ranked: FW07, FW14B and more » (février 2021)'
+    url: https://www.motorsport.com/f1/news/top-10-williams-f1-cars-ranked-fw07-fw14b-and-more/5262414/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
 - annee: 2004
   ecurie: bar
   equipe: BAR Honda
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2004 : BAR Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (BAR 006).'
+  pourquoi: 'BAR Honda court en Michelin en 2004 : d''après la fiche de Honda, la BAR 006 passe aux Michelin après les Bridgestone des saisons précédentes, un changement annoncé à Suzuka fin 2003 selon Bridgestone. À Monaco, Mark Hughes range Renault et BAR-Honda parmi les équipes qui profitent de l''avantage Michelin.'
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « BAR 006 »
-    url: https://en.wikipedia.org/wiki/BAR_006
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Honda, « 2004 B·A·R Honda 006 – F1 Machines Powered by Honda »
+    url: https://global.honda/en/F1/machine/2004_BARHonda006/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
+  - titre: 'The Race, Mark Hughes, « F1 Revisited: Monaco crowns unlikely new winner » (mai 2020)'
+    url: https://www.the-race.com/formula-1/f1-revisited-monaco-crowns-new-winner-amid-schumachers-safety-car-shunt/
 - annee: 2004
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2004 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2004).'
+  pourquoi: 'Ferrari court en Bridgestone en 2004 : Bridgestone décrit l''association Bridgestone-Ferrari et la F2004 conçue pour ses nouveaux pneus avant, qui gagne quinze des dix-huit courses.'
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2004 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2004
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2004 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2004/
 - annee: 2004
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2004 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-19).'
+  pourquoi: 'McLaren Mercedes court en Michelin en 2004 : à Spa, Räikkönen dit avoir compté sur ses Michelin après la relance, et Bridgestone rappelle que cette victoire belge revient à une McLaren chaussée de Michelin.'
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-19 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-19
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Atlas F1, « Raikkonen Celebrates 'Deserved' Win » (août 2004)
+    url: https://www.autosport.com/f1/news/raikkonen-celebrates-deserved-win-5066829/5066829/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2004 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2004/
 - annee: 2004
   ecurie: renault
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2004 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R24).'
+  pourquoi: 'Renault court en Michelin en 2004 : dans son récit du Grand Prix de Monaco gagné par Trulli, Mark Hughes range Renault et BAR-Honda parmi les équipes qui profitent de l''avantage Michelin face aux Ferrari en Bridgestone.'
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R24 »
-    url: https://en.wikipedia.org/wiki/Renault_R24
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'The Race, Mark Hughes, « F1 Revisited: Monaco crowns unlikely new winner » (mai 2020)'
+    url: https://www.the-race.com/formula-1/f1-revisited-monaco-crowns-new-winner-amid-schumachers-safety-car-shunt/
 - annee: 2004
   ecurie: williams
   equipe: Williams BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2004 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW26).'
+  pourquoi: 'Williams BMW court en Michelin en 2004 : après la victoire de Montoya au Brésil, le directeur technique Sam Michael salue l''intermédiaire Michelin, et le directeur de la compétition de Michelin félicite Williams et McLaren, ses équipes partenaires.'
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW26 »
-    url: https://en.wikipedia.org/wiki/Williams_FW26
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Autosport, Atlas F1, « Sunday's Selected Quotes – Brazilian GP » (octobre 2004)
+    url: https://www.autosport.com/f1/news/sundays-selected-quotes-brazilian-gp-5067379/5067379/
 - annee: 2005
   ecurie: bar
   equipe: BAR Honda
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2005 : BAR Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (BAR 007).'
+  pourquoi: 'BAR Honda court en Michelin en 2005 : la fiche Honda de la BAR 007 donne Michelin comme manufacturier, explique que ces pneus, si efficaces l''année précédente, s''accordaient mal à la voiture, et note qu''à Indianapolis l''équipe fut prise dans le boycott des utilisateurs Michelin.'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « BAR 007 »
-    url: https://en.wikipedia.org/wiki/BAR_007
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Honda, « 2005 B·A·R Honda 007 – F1 Machines Powered by Honda »
+    url: https://global.honda/en/F1/machine/2005_BARHonda007/
 - annee: 2005
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2005 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari F2004, Ferrari F2005).'
+  pourquoi: 'Ferrari court en Bridgestone en 2005 : Autosport la présente comme la seule équipe de pointe de Bridgestone, et Bridgestone raconte sa seule victoire de l''année, à Indianapolis, où seules les voitures en Bridgestone ont couru.'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2004 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2004
-  - titre: Wikipedia, « Ferrari F2005 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2005
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Autosport, Adam Cooper, « Retrospective: How the 2005 United States GP farce unfolded » (juin 2020)'
+    url: https://www.autosport.com/f1/news/retrospective-how-the-2005-united-states-gp-farce-unfolded-4981799/4981799/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2005 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2005/
 - annee: 2005
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2005 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-20).'
+  pourquoi: 'McLaren Mercedes court en Michelin en 2005 : Autosport la place en tête des équipes Michelin, et la fiche McLaren de la MP4-20 note qu''à Indianapolis tous les utilisateurs de Michelin, Räikkönen compris, ont dû se retirer.'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-20 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-20
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Autosport, Adam Cooper, « Retrospective: How the 2005 United States GP farce unfolded » (juin 2020)'
+    url: https://www.autosport.com/f1/news/retrospective-how-the-2005-united-states-gp-farce-unfolded-4981799/4981799/
+  - titre: McLaren, « MP4-20 »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2005-formula-1-mclaren-mp4-20/
 - annee: 2005
   ecurie: renault
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2005 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R25).'
+  pourquoi: 'Renault court en Michelin en 2005 : Formula1.com explique que l''interdiction des changements de pneus a désavantagé les Bridgestone de Ferrari face aux Michelin de la plupart des équipes, Renault comprise, et Autosport compte Renault parmi les équipes Michelin.'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R25 »
-    url: https://en.wikipedia.org/wiki/Renault_R25
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Formula1.com, « Tech Tuesday: How the 2005 Renault R25 finally ended Ferrari''s dominance and delivered Alonso''s first title » (mai 2020)'
+    url: https://www.formula1.com/en/latest/article/how-the-2005-renault-finally-ended-ferraris-dominance-and-delivered-alonsos.29UXCCyxpyKEvsyYhqKTcz
+  - titre: 'Autosport, Adam Cooper, « Retrospective: How the 2005 United States GP farce unfolded » (juin 2020)'
+    url: https://www.autosport.com/f1/news/retrospective-how-the-2005-united-states-gp-farce-unfolded-4981799/4981799/
 - annee: 2005
   ecurie: toyota
   equipe: Toyota
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2005 : Toyota en Michelin sur toute la saison, confirmé par la fiche de la voiture (Toyota TF105). Première pole de Toyota (Trulli) au Grand Prix controversé d''Indianapolis, sur Michelin (fiche TF105).'
+  pourquoi: 'Toyota court en Michelin en 2005 : Autosport la range parmi les équipes Michelin. Au Grand Prix controversé d''Indianapolis, Trulli prend la première pole de Toyota sur Michelin, comme le confirment le récit de John Howett et les résultats officiels du circuit (Toyota TF105 partie en pole, retirée).'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « Toyota TF105 »
-    url: https://en.wikipedia.org/wiki/Toyota_TF105
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Autosport, Adam Cooper, « Retrospective: How the 2005 United States GP farce unfolded » (juin 2020)'
+    url: https://www.autosport.com/f1/news/retrospective-how-the-2005-united-states-gp-farce-unfolded-4981799/4981799/
+  - titre: 'Indianapolis Motor Speedway, « Race Stats by Year : 2005 »'
+    url: https://www.indianapolismotorspeedway.com/history/formula-one/historical-stats/race-stats/race-results/2005
 - annee: 2005
   ecurie: williams
   equipe: Williams BMW
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2005 : Williams BMW en Michelin sur toute la saison, confirmé par la fiche de la voiture (Williams FW27).'
+  pourquoi: 'Williams BMW court en Michelin en 2005 : Autosport la compte parmi les équipes Michelin, et les résultats officiels d''Indianapolis montrent les deux Williams FW27 retirées avec les autres voitures en Michelin.'
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW27 »
-    url: https://en.wikipedia.org/wiki/Williams_FW27
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Autosport, Adam Cooper, « Retrospective: How the 2005 United States GP farce unfolded » (juin 2020)'
+    url: https://www.autosport.com/f1/news/retrospective-how-the-2005-united-states-gp-farce-unfolded-4981799/4981799/
 - annee: 2006
   ecurie: ferrari
   equipe: Ferrari
   pneus: Bridgestone
-  pourquoi: 'Tableau des engagés 2006 : Ferrari en Bridgestone sur toute la saison, confirmé par la fiche de la voiture (Ferrari 248 F1).'
+  pourquoi: La fiche officielle de la Ferrari 248 F1, voiture conçue pour le règlement 2006, indique des pneus Bridgestone à l'avant et à l'arrière ; Bridgestone rappelle que son retour en forme en 2006 passe par la victoire de Schumacher à Imola, et qualifie Ferrari d'utilisatrice de longue date de ses pneus.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 248 F1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_248_F1
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Ferrari, « Ferrari 248 F1: 2006 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/248-f1
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2006 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2006/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2007 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2007/
 - annee: 2006
   ecurie: honda
   equipe: Honda
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2006 : Honda en Michelin sur toute la saison, confirmé par la fiche de la voiture (Honda RA106). Victoire de Button en Hongrie sur Michelin.'
+  pourquoi: La fiche officielle de Honda sur la RA106 précise que l'équipe roule toujours en Michelin en 2006 (« Michelin tires were still used ») et que c'est avec la RA106 que Button gagne en Hongrie, victoire confirmée par les résultats officiels.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
-  - titre: Wikipedia, « Honda RA106 »
-    url: https://en.wikipedia.org/wiki/Honda_RA106
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Honda, « 2006 Honda RA106 – A Monument to Honda's 72nd F1 Victory » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2006_HondaRA106/
+  - titre: Formula1.com, « 2006 Race Results »
+    url: https://www.formula1.com/en/results/2006/races
 - annee: 2006
   ecurie: mclaren
   equipe: McLaren Mercedes
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2006 : McLaren Mercedes en Michelin sur toute la saison, confirmé par la fiche de la voiture (McLaren MP4-21).'
+  pourquoi: Bridgestone, seul fournisseur en 2007, présente McLaren comme une ancienne cliente de Michelin, et Räikkönen, pilote McLaren en 2006, comme ayant couru en Michelin cette année-là ; Michelin se retire à la fin de la saison 2006.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-21 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-21
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2007 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2007/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2006 » (Bridgestone F1 staff, Remembering an era)'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2006/
 - annee: 2006
   ecurie: renault
   equipe: Renault
   pneus: Michelin
-  pourquoi: 'Tableau des engagés 2006 : Renault en Michelin sur toute la saison, confirmé par la fiche de la voiture (Renault R26).'
+  pourquoi: Au départ de Michelin fin 2006, Tyrepress attribue au manufacturier le doublé de Renault en 2005 et en 2006, avec pour dernière victoire celle d'Alonso et Renault au Japon ; F1technical rappelle que la R27 de 2007 avait été pensée pour les pneus Michelin utilisés par Renault jusqu'à la fin de 2006.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship »
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R26 »
-    url: https://en.wikipedia.org/wiki/Renault_R26
-  - titre: Wikipedia, « Formula One tyres » (tableau « Tyre manufacturers by season »)
-    url: https://en.wikipedia.org/wiki/Formula_One_tyres
+  - titre: Tyrepress, « Michelin Bids Adieu to Formula 1… » (novembre 2006)
+    url: https://www.tyrepress.com/2006/11/michelin-bids-adieu-to-formula-1/
+  - titre: F1technical.net, « ING Renault R28 »
+    url: https://www.f1technical.net/f1db/cars/934/renault-r28

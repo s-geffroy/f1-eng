@@ -1037,10 +1037,14 @@ technologies:
   - de: 2022
     a: 2025
     valeur: oui
-    pourquoi: '« After a forty-year ban, ground effect returned to Formula 1 in 2022 » : toutes les voitures du règlement 2022 génèrent leur appui par des tunnels sous le fond.'
+    pourquoi: Le règlement de 2022 marque le retour des voitures à effet de sol, qui tirent leur appui du fond de la voiture (Honda, The Race) ; Motorsport.com présente la saison 2025 comme la dernière de cette ère.
     sources:
-    - titre: Wikipédia, « Ground effect (cars) »
-      url: https://en.wikipedia.org/wiki/Ground_effect_(cars)
+    - titre: Honda, « 2022 Oracle Red Bull Racing RB18 » (F1 Machines Powered by Honda)
+      url: https://global.honda/en/F1/machine/2022_RedBullRB18/
+    - titre: 'The Race, Edd Straw, « Newey: F1 2022 rule changes the biggest in four decades » (août 2021)'
+      url: https://the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
+    - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+      url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -1250,10 +1254,14 @@ technologies:
   - de: 2014
     a: 2025
     valeur: oui
-    pourquoi: Le règlement 2014 impose des groupes propulseurs V6 1,6 litre hybrides ; la suralimentation revient et tous les motoristes choisissent le turbocompresseur (ère « turbo-hybrid », 2014-2025).
+    pourquoi: Le règlement 2014 impose un V6 de 1,6 litre suralimenté par turbocompresseur (F1Technical) ; le turbo revient alors en F1 pour la première fois depuis son interdiction fin 1988 (Autosport), et les moteurs de cette génération restent des V6 turbo jusqu'au changement de règlement de 2026 (Motor Sport).
     sources:
-    - titre: Wikipédia, « Formula One engines »
-      url: https://en.wikipedia.org/wiki/Formula_One_engines
+    - titre: 'F1Technical, Steven De Groote, « 2014 regulations: F1''s engine revolution » (décembre 2013)'
+      url: https://www.f1technical.net/features/19037
+    - titre: Autosport, Jake Boxall-Legge, « Why F1's hard-to-love turbo-hybrid decade has been so important » (septembre 2023)
+      url: https://www.autosport.com/f1/news/why-f1s-hard-to-love-turbo-hybrid-decade-has-been-so-important/10519122/
+    - titre: Motor Sport, Pablo Elizalde, « All the key aspects changing on F1's 2026 engines » (juillet 2025)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/all-the-key-aspects-changing-on-f1s-2026-engines
   cas:
   - annee: 1977
     ecurie: ferrari
@@ -2273,15 +2281,15 @@ technologies:
   - de: 1994
     a: 2025
     valeur: non
-    pourquoi: La suspension active est interdite pour 1994 avec les autres aides électroniques ; l'interdiction n'a pas été levée depuis (en 2022 The Race la juge « inconcevable » à réintroduire, en 2024 Motor Sport en discute encore le « retour »). Aucun gagnant de 1994 à 2025 ne l'a donc.
+    pourquoi: 'La suspension active est interdite pour 1994 avec les autres aides au pilotage ; Patrick Head le rappelle (« it had been banned »), et Bonhams note que la FW16 en a été privée. L''interdiction n''a pas été levée depuis : en 2022 The Race juge « inconcevable » de la réintroduire, et en 2024 Motor Sport en discute encore le « retour ». Aucun gagnant de 1994 à 2025 ne l''a donc.'
     sources:
-    - titre: Motor Sport Magazine, « Grand designs 1994 » (janvier 2006)
+    - titre: Motor Sport, Keith Howard, « Grand designs 1994 » (janvier 2006)
       url: https://www.motorsportmagazine.com/archive/article/january-2006/62/grand-designs-1994/
-    - titre: Wikipedia, « Williams FW16 »
-      url: https://en.wikipedia.org/wiki/Williams_FW16
-    - titre: The Race, « Active suspension is the fix F1 teams need – but won't get » (3 mars 2022)
+    - titre: Bonhams, « The ex-Damon Hill 1994 Williams-Renault FW16B, chassis no. FW16B-05 » (Williams F1 Reserve Collection, 14 décembre 2005)
+      url: https://cars.bonhams.com/auction/13928/lot/210/the-ex-damon-hill-nine-grand-prix-races-four-grands-prix-winning-one-pole-position-four-fastest-laps-and-world-championship-losing1994-williams-renault-fw16b-formula-1-racing-single-seater-chassis-no-fw16b-05/
+    - titre: The Race, Edd Straw, « Active suspension is the fix F1 teams need – but won't get » (3 mars 2022)
       url: https://the-race.com/formula-1/active-suspension-is-the-fix-f1-teams-need-but-wont-get/
-    - titre: 'Motor Sport Magazine, « MPH: push-to-pass and active suspension, the talk around F1''s next-gen car » (5 avril 2024)'
+    - titre: 'Motor Sport, Mark Hughes, « MPH: push-to-pass and active suspension, the talk around F1''s next-gen car » (5 avril 2024)'
       url: https://motorsportmagazine.com/articles/single-seaters/f1/mph-push-to-pass-and-active-suspension-the-talk-around-f1s-next-gen-car
   cas:
   - annee: 1987
@@ -2515,28 +2523,38 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B193B
     valeur: oui
-    pourquoi: La B193 a une suspension active, une boîte semi-automatique et l'antipatinage à partir du GP de Monaco ; sa seule victoire, au Portugal, vient après.
+    pourquoi: Dès l'hiver 1992-1993, Benetton met au point suspension active, boîte semi-automatique et antipatinage (Motor Sport, Bonhams) ; la B193B a été conçue pour porter cet équipement. Bonhams précise que l'antipatinage n'arrive qu'à Monaco. La seule victoire du modèle, au Portugal, vient après.
     sources:
-    - titre: Wikipedia, « Benetton B193 »
-      url: https://en.wikipedia.org/wiki/Benetton_B193
+    - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
+      url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
+    - titre: Bonhams, « Ready to run, the ex-Riccardo Patrese/Michael Schumacher 1993 Benetton-Ford B193B, chassis no. B193B-04 » (24 juin 2022)
+      url: https://cars.bonhams.com/auction/27521/lot/370/ready-to-run-the-ex-riccardo-patresemichael-schumacher-1993-benetton-ford-b193b-formula-1-racing-single-seater-chassis-no-b193b-04/
+    - titre: Bonhams, « The record breaking Ex-Ayrton Senna 1993 Monaco Grand Prix-winning McLaren-Cosworth Ford MP4/8A, chassis no. MP4/8-6 » (11 mai 2018)
+      url: https://cars.bonhams.com/auction/24953/lot/119/the-record-breaking-ex-ayrton-senna-1993-monaco-grand-prix-winning1993-mclaren-cosworth-ford-mp48a-formula-racing-single-seater-chassis-no-mp48-6-engine-no-510/
+    - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
+      url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
   - annee: 1993
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/8
     valeur: oui
-    pourquoi: 'La MP4/8 est conçue autour de l''électronique : boîte semi-automatique, suspension active, télémétrie bidirectionnelle et antipatinage.'
+    pourquoi: Motor Sport rappelle que la MP4/8 avait une suspension active, l'antipatinage, une boîte semi-automatique et la télémétrie bidirectionnelle. Bonhams confirme la suspension active sur le châssis vainqueur à Monaco.
     sources:
-    - titre: Wikipedia, « McLaren MP4/8 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/8
+    - titre: Motor Sport, James Elson, « McLaren MP4/8 – the underrated 1993 F1 car Senna still 'loved' » (avril 2023)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mclaren-mp4-8-the-underrated-1993-f1-car-senna-still-loved
+    - titre: Bonhams, « The record breaking Ex-Ayrton Senna 1993 Monaco Grand Prix-winning McLaren-Cosworth Ford MP4/8A, chassis no. MP4/8-6 » (11 mai 2018)
+      url: https://cars.bonhams.com/auction/24953/lot/119/the-record-breaking-ex-ayrton-senna-1993-monaco-grand-prix-winning1993-mclaren-cosworth-ford-mp48a-formula-racing-single-seater-chassis-no-mp48-6-engine-no-510/
   - annee: 1993
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW15C
     valeur: oui
-    pourquoi: La FW15C a une suspension active hydropneumatique Williams ; elle gagne dix Grands Prix en 1993.
+    pourquoi: La fiche technique de la FW15C publiée par Autosport décrit une suspension à vérins hydropneumatiques commandés par ordinateur, avec 10 victoires en 1993. Motor Sport décrit des vérins hydrauliques à chaque roue et rappelle que le système Williams a dominé en 1992-1993 sur les FW14B et FW15C.
     sources:
-    - titre: Wikipedia, « Williams FW15C »
-      url: https://en.wikipedia.org/wiki/Williams_FW15C
+    - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
+      url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
+    - titre: 'Motor Sport, Adam Cooper, « Williams FW15C: Nobody''s done it better » (novembre 2023)'
+      url: https://www.motorsportmagazine.com/archive/article/november-2023/62/williams-fw15c-nobodys-done-it-better/
     - titre: Motor Sport Magazine, « Active suspension » (décembre 2001)
       url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension
 - id: boite-semi-automatique
@@ -2558,16 +2576,16 @@ technologies:
   - de: 1996
     a: 2025
     valeur: oui
-    pourquoi: « Six ans plus tard [après 1989], plus une seule équipe ne garde de boîte manuelle » ; même le vainqueur surprise de 1996, la Ligier JS43 (Monaco), a une boîte semi-automatique, et les règlements de 2014 associent le V6 turbo à une boîte semi-automatique à 8 rapports.
+    pourquoi: '« Six ans plus tard [après 1989], plus une seule équipe ne garde de boîte manuelle » (Goodwood) : à partir de 1995, tous les gagnants ont donc une boîte semi-automatique, y compris le vainqueur surprise de 1996, la Ligier JS43 (Monaco). Les règlements de 2014 imposent une boîte à 8 rapports (formula1.com), et le glossaire officier de la F1 précise que les boîtes sont semi-automatiques, commandées par palettes au volant.'
     sources:
-    - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 »
+    - titre: Goodwood, Ethan Jupp, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
-    - titre: Wikipedia, « Ligier JS43 »
-      url: https://en.wikipedia.org/wiki/Ligier_JS43
-    - titre: Wikipedia, « Formula One car »
-      url: https://en.wikipedia.org/wiki/Formula_One_car
-    - titre: Wikipedia, « 2014 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+    - titre: Ligier Automotive, « Monaco 1996 – A legendary victory! » (mai 2021)
+      url: https://ligierautomotive.com/en/news/monaco-1996-a-legendary-victory/
+    - titre: Formula1.com, « A racing revolution? Understanding 2014's technical regulations »
+      url: https://www.formula1.com/en/latest/article/a-racing-revolution-understanding-2014s-technical-regulations.1bTbN3OAEksY00PVE62KvC
+    - titre: 'Formula1.com, « F1 Glossary: F-J » (février 2026)'
+      url: https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX
   cas:
   - annee: 1989
     ecurie: benetton
@@ -2734,44 +2752,58 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B193B
     valeur: oui
-    pourquoi: La B193 a une boîte semi-automatique transversale à 6 rapports ; sa seule victoire est au Portugal.
+    pourquoi: Avant la saison, Motor Sport décrit Benetton en train de mettre au point sa suspension active et sa transmission semi-automatique. Un volant de Schumacher utilisé sur la B193B en 1993, vendu par RM Sotheby's, est « l'un des premiers à palettes de changement de vitesses ». La seule victoire du modèle est au Portugal.
     sources:
-    - titre: Wikipedia, « Benetton B193 »
-      url: https://en.wikipedia.org/wiki/Benetton_B193
+    - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
+      url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
+    - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
+      url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+    - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
+      url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
   - annee: 1993
     ecurie: mclaren
     equipe: McLaren Ford
     voiture: McLaren MP4/8
     valeur: oui
-    pourquoi: La MP4/8 a une boîte McLaren transversale à 6 rapports, semi-automatique séquentielle.
+    pourquoi: La fiche technique de la MP4/8 publiée par Autosport indique une boîte McLaren transversale à six rapports, semi-automatique. Motor Sport le confirme.
     sources:
-    - titre: Wikipedia, « McLaren MP4/8 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4/8
+    - titre: Autosport, Damien Smith, « The McLaren that surprised sulking Senna » (mai 2018)
+      url: https://www.autosport.com/f1/news/the-mclaren-that-surprised-sulking-senna-5110828/5110828/
+    - titre: Motor Sport, James Elson, « McLaren MP4/8 – the underrated 1993 F1 car Senna still 'loved' » (avril 2023)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mclaren-mp4-8-the-underrated-1993-f1-car-senna-still-loved
   - annee: 1993
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW15C
     valeur: oui
-    pourquoi: La FW15C utilise une boîte semi-automatique très proche de celle de la FW14B.
+    pourquoi: La fiche technique de la FW15C publiée par Autosport indique une boîte semi-automatique à six rapports. Motor Sport précise qu'elle pouvait passer les rapports seule, mais qu'un geste sur les palettes au volant la ramenait en mode manuel.
     sources:
-    - titre: Wikipedia, « Williams FW15C »
-      url: https://en.wikipedia.org/wiki/Williams_FW15C
+    - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
+      url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
+    - titre: 'Motor Sport, Adam Cooper, « Williams FW15C: Nobody''s done it better » (novembre 2023)'
+      url: https://www.motorsportmagazine.com/archive/article/november-2023/62/williams-fw15c-nobodys-done-it-better/
   - annee: 1994
     ecurie: benetton
     equipe: Benetton Ford
     voiture: Benetton B194
     valeur: oui
-    pourquoi: La B194 a une boîte Benetton transversale à 6 rapports, séquentielle semi-automatique.
+    pourquoi: Le volant de Schumacher vendu par RM Sotheby's, utilisé sur la B193B puis la B194, commandait la boîte par palettes. Ultimatecarpage décrit le V8 Ford Zetec-R de la B194 accouplé à une boîte à six rapports commandée par palettes.
     sources:
-    - titre: Wikipedia, « Benetton B194 »
-      url: https://en.wikipedia.org/wiki/Benetton_B194
+    - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
+      url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Benetton B194 Ford » (décembre 2019)
+      url: https://www.ultimatecarpage.com/car/7096/Benetton-B194-Ford.html
   - annee: 1994
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 412 T1B
     valeur: oui
-    pourquoi: La 412 T1 (victoire de Berger en Allemagne) a une boîte Ferrari séquentielle semi-automatique à 6 rapports.
+    pourquoi: La 412 T1B, version modifiée de la 412 T1 apparue en France, gagne en Allemagne avec Berger (Autosport). La fiche technique d'Ultimatecarpage indique une boîte semi-automatique à 6 rapports pour la 412 T1.
     sources:
+    - titre: 'Autosport, Marcus Simmons, « Berger: Making Ferrari win again in F1 » (août 2014)'
+      url: https://www.autosport.com/f1/news/berger-making-ferrari-win-again-in-f1-5103984/5103984/
+    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 412 T1 »
+      url: https://www.ultimatecarpage.com/spec/185/Ferrari-412-T1.html
     - titre: Wikipedia, « Ferrari 412 T1 »
       url: https://en.wikipedia.org/wiki/Ferrari_412_T1
   - annee: 1994
@@ -2779,37 +2811,43 @@ technologies:
     equipe: Williams Renault
     voiture: Williams FW16 / FW16B
     valeur: oui
-    pourquoi: La FW16 a une boîte Williams transversale à 6 rapports, séquentielle semi-automatique.
+    pourquoi: Bonhams, sur la FW16B-05 de Hill, décrit une version allégée de la boîte transversale à six rapports de Williams, « désormais limitée à une commande semi-automatique », le mode entièrement automatique de 1993 étant contraire au règlement de 1994.
     sources:
-    - titre: Wikipedia, « Williams FW16 »
-      url: https://en.wikipedia.org/wiki/Williams_FW16
+    - titre: Bonhams, « The ex-Damon Hill 1994 Williams-Renault FW16B, chassis no. FW16B-05 » (Williams F1 Reserve Collection, 14 décembre 2005)
+      url: https://cars.bonhams.com/auction/13928/lot/210/the-ex-damon-hill-nine-grand-prix-races-four-grands-prix-winning-one-pole-position-four-fastest-laps-and-world-championship-losing1994-williams-renault-fw16b-formula-1-racing-single-seater-chassis-no-fw16b-05/
   - annee: 1995
     ecurie: benetton
     equipe: Benetton Renault
     voiture: Benetton B195
     valeur: oui
-    pourquoi: La B195 a une boîte Benetton transversale semi-automatique à 6 rapports.
+    pourquoi: La fiche technique de la B195 publiée par Autosport indique une boîte transversale semi-automatique à six rapports.
     sources:
-    - titre: Wikipedia, « Benetton B195 »
-      url: https://en.wikipedia.org/wiki/Benetton_B195
+    - titre: Autosport, Stuart Codling, « Why Benetton had a point to prove with the B195 » (avril 2025)
+      url: https://www.autosport.com/f1/news/why-benetton-had-a-point-to-prove-with-the-b195/10716474/
   - annee: 1995
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 412 T2
     valeur: oui
-    pourquoi: La 412 T2, gagnante au Canada avec Alesi, a une boîte séquentielle électrohydraulique à 6 rapports (semi-automatique).
+    pourquoi: En 1995, « six ans après » la Ferrari 640, plus aucune équipe ne garde de boîte manuelle (Goodwood). La 412 T2, qui garde une boîte transversale selon Autosport, gagne au Canada avec Alesi (Motor Sport).
     sources:
-    - titre: Wikipedia, « Ferrari 412 T2 »
-      url: https://en.wikipedia.org/wiki/Ferrari_412_T2
+    - titre: Goodwood, Ethan Jupp, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
+      url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
+    - titre: Motor Sport, « 1995 Canadian Grand Prix » (juillet 1995)
+      url: https://www.motorsportmagazine.com/archive/article/july-1995/22/canadian-grand-prix-2/
   - annee: 1995
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW17 / FW17B
     valeur: oui
-    pourquoi: La FW17 a une boîte Williams transversale semi-automatique à 6 rapports.
+    pourquoi: En 1995, « six ans après » la Ferrari 640, plus aucune équipe ne garde de boîte manuelle (Goodwood). Autosport précise que la FW17 a fini la saison en version B avec une nouvelle boîte, et elle gagne en Australie (Motor Sport).
     sources:
-    - titre: Wikipedia, « Williams FW17 »
-      url: https://en.wikipedia.org/wiki/Williams_FW17
+    - titre: Goodwood, Ethan Jupp, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
+      url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
+    - titre: 'Autosport, Kevin Turner, « Friday favourite: The Williams that gave Coulthard a qualifying edge » (juillet 2022)'
+      url: https://www.autosport.com/f1/news/friday-favourite-the-williams-that-gave-coulthard-a-qualifying-edge/10338401/
+    - titre: Motor Sport, « 1995 Australian Grand Prix » (décembre 1995)
+      url: https://www.motorsportmagazine.com/archive/article/december-1995/22/australian-grand-prix-4/
 - id: recuperation-energie
   nom: Récupération d'énergie
   nom_en: Energy recovery
@@ -2825,106 +2863,114 @@ technologies:
   - de: 2014
     a: 2025
     valeur: oui
-    pourquoi: 'Depuis 2014, le règlement impose un V6 turbo de 1,6 l intégrant un système de récupération d''énergie (MGU-K au freinage, ex-KERS, et MGU-H à l''échappement) : tout gagnant en est équipé.'
+    pourquoi: 'Depuis 2014, le V6 turbo de 1,6 l est associé à un système de récupération d''énergie au freinage plus puissant (MGU-K) et à un moteur-générateur relié au turbo (MGU-H) : c''est l''ère turbo-hybride (Autosport, F1Technical). Le MGU-H n''est supprimé qu''avec le règlement de 2026 (Motor Sport), si bien que tout gagnant de 2014 à 2025 en est équipé.'
     sources:
-    - titre: Wikipedia, « 2014 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
-    - titre: Wikipedia, « Mercedes F1 W05 Hybrid »
-      url: https://en.wikipedia.org/wiki/Mercedes_F1_W05_Hybrid
+    - titre: Autosport, Jake Boxall-Legge, « Why F1's hard-to-love turbo-hybrid decade has been so important » (septembre 2023)
+      url: https://www.autosport.com/f1/news/why-f1s-hard-to-love-turbo-hybrid-decade-has-been-so-important/10519122/
+    - titre: Motor Sport, Pablo Elizalde, « All the key aspects changing on F1's 2026 engines » (juillet 2025)
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/all-the-key-aspects-changing-on-f1s-2026-engines
+    - titre: 'F1Technical, Steven De Groote, « 2014 regulations: F1''s engine revolution » (décembre 2013)'
+      url: https://www.f1technical.net/features/19037
   cas:
   - annee: 2009
     ecurie: brawn
     equipe: Brawn Mercedes
     voiture: Brawn BGP 001
     valeur: non
-    pourquoi: Brawn a choisi de ne pas utiliser le KERS, trop lourd et contraignant pour la conception de la voiture.
+    pourquoi: F1technical rapporte que Brawn GP n'a pas prévu de KERS sur la BGP 001, la solution à volant d'inertie développée par Honda n'étant pas reprise ; GrandPrix.com confirme que Brawn s'est passée du KERS en 2009.
     sources:
-    - titre: Wikipedia, « Brawn BGP 001 »
-      url: https://en.wikipedia.org/wiki/Brawn_BGP_001
+    - titre: F1technical.net, « Brawn BGP001 Mercedes »
+      url: https://www.f1technical.net/f1db/cars/956/brawn-bgp001
+    - titre: 'GrandPrix.com, Tony Dodgins, « Analysis: Red Bull''s lack of KERS » (mars 2011)'
+      url: https://www.grandprix.com/news/analysis-red-bulls-lack-of-kers.html
   - annee: 2009
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F60
     valeur: oui
-    pourquoi: La F60 est équipée du KERS ; sa seule victoire, en Belgique avec Räikkönen, est la première où le KERS contribue directement au succès.
+    pourquoi: La fiche officielle de la F60 décrit son KERS, conçu par Ferrari avec Magneti Marelli ; à Spa, Räikkönen doit sa victoire au KERS, qui lui permet de dépasser Fisichella.
     sources:
-    - titre: Wikipedia, « Ferrari F60 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F60
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
+    - titre: 'Ferrari, « Ferrari F60: 2009 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f60
+    - titre: F1technical.net, Steven De Groote, « Raikkonen wins Spa, Fisichella second » (août 2009)
+      url: https://www.f1technical.net/news/13200
   - annee: 2009
     ecurie: mclaren
     equipe: McLaren Mercedes
     voiture: McLaren MP4-24
     valeur: oui
-    pourquoi: McLaren utilise le KERS à toutes les courses sauf en Grande-Bretagne, qu'elle ne gagne pas ; ses deux victoires (Hongrie, première d'une voiture à KERS, et Singapour) sont acquises avec.
+    pourquoi: F1technical décrit le KERS de la MP4-24, développé avec Mercedes-Benz ; la victoire de Hamilton en Hongrie est la première d'une voiture à KERS (RaceFans), McLaren ayant renoncé au système à Silverstone, course qu'elle ne gagne pas.
     sources:
-    - titre: Wikipedia, « McLaren MP4-24 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4-24
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
+    - titre: F1technical.net, « McLaren MP4-24 Mercedes »
+      url: https://www.f1technical.net/f1db/cars/949/mclaren-mp4-24
+    - titre: RaceFans, Keith Collantine, « 2009 Hungarian Grand Prix facts and stats » (juillet 2009)
+      url: https://www.racefans.net/2009/07/27/hungarian-grand-prix-facts-and-stats/
+    - titre: RaceFans, Keith Collantine, « Upgrade works for Red Bull and McLaren ditch KERS (British Grand Prix round-up) » (juin 2009)
+      url: https://www.racefans.net/2009/06/23/upgrade-works-for-red-bull-and-mclaren-ditch-kers-british-grand-prix-round-up/
   - annee: 2009
     ecurie: red-bull
     equipe: RBR Renault
     voiture: Red Bull RB5
     valeur: non
-    pourquoi: Red Bull avait prévu le KERS Renault, mais la RB5 n'a jamais couru avec.
+    pourquoi: GrandPrix.com établit que Red Bull, équipe de référence en fin de saison 2009, n'a pas employé le KERS, Adrian Newey jugeant que ses gains ne compensaient pas les pénalités de poids et d'implantation.
     sources:
-    - titre: Wikipedia, « Red Bull RB5 »
-      url: https://en.wikipedia.org/wiki/Red_Bull_RB5
+    - titre: 'GrandPrix.com, Tony Dodgins, « Analysis: Red Bull''s lack of KERS » (mars 2011)'
+      url: https://www.grandprix.com/news/analysis-red-bulls-lack-of-kers.html
   - annee: 2010
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F10
     valeur: non
-    pourquoi: Le KERS reste autorisé en 2010, mais toutes les équipes (accord de la FOTA) ont renoncé à l'utiliser.
+    pourquoi: Le KERS reste autorisé par le règlement en 2010, mais Ferrari et Autosport indiquent que toutes les équipes y ont renoncé d'un commun accord cette année-là.
     sources:
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
-    - titre: Wikipedia, « 2010 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+    - titre: 'Ferrari, « Ferrari F10: 2010 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f10
+    - titre: Autosport, « Formula 1 2011 season guide » (rubrique Rules, 2011)
+      url: http://f12011.autosport.com/index.php?tab=rules
   - annee: 2010
     ecurie: mclaren
     equipe: McLaren Mercedes
     voiture: McLaren MP4-25
     valeur: non
-    pourquoi: Le KERS reste autorisé en 2010, mais toutes les équipes (accord de la FOTA) ont renoncé à l'utiliser.
+    pourquoi: Le KERS reste autorisé par le règlement en 2010, mais Ferrari et Autosport indiquent que toutes les équipes y ont renoncé d'un commun accord cette année-là.
     sources:
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
-    - titre: Wikipedia, « 2010 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+    - titre: 'Ferrari, « Ferrari F10: 2010 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f10
+    - titre: Autosport, « Formula 1 2011 season guide » (rubrique Rules, 2011)
+      url: http://f12011.autosport.com/index.php?tab=rules
   - annee: 2010
     ecurie: red-bull
     equipe: RBR Renault
     voiture: Red Bull RB6
     valeur: non
-    pourquoi: Le KERS reste autorisé en 2010, mais toutes les équipes (accord de la FOTA) ont renoncé à l'utiliser.
+    pourquoi: Le KERS reste autorisé par le règlement en 2010, mais Ferrari et Autosport indiquent que toutes les équipes y ont renoncé d'un commun accord cette année-là.
     sources:
-    - titre: Wikipedia, « Kinetic energy recovery system »
-      url: https://en.wikipedia.org/wiki/Kinetic_energy_recovery_system
-    - titre: Wikipedia, « 2010 Formula One World Championship »
-      url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+    - titre: 'Ferrari, « Ferrari F10: 2010 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f10
+    - titre: Autosport, « Formula 1 2011 season guide » (rubrique Rules, 2011)
+      url: http://f12011.autosport.com/index.php?tab=rules
   - annee: 2011
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari 150° Italia
     valeur: oui
-    pourquoi: La 150° Italia court avec le KERS (V8 « limité à 18 000 tr/min avec KERS »).
+    pourquoi: F1technical indique que Ferrari a intégré le KERS, de retour en 2011, à la F150 (rebaptisée 150° Italia) ; Autosport note que toutes les équipes sauf Lotus, Virgin et HRT prévoient de commencer la saison avec le KERS.
     sources:
-    - titre: Wikipedia, « Ferrari 150° Italia »
-      url: https://en.wikipedia.org/wiki/Ferrari_150%C2%B0_Italia
+    - titre: F1technical.net, « Ferrari F150 »
+      url: https://www.f1technical.net/f1db/cars/971/ferrari-f150
+    - titre: Autosport, « Formula 1 2011 season guide » (rubrique Rules, 2011)
+      url: http://f12011.autosport.com/index.php?tab=rules
   - annee: 2011
     ecurie: mclaren
     equipe: McLaren Mercedes
     voiture: McLaren MP4-26
     valeur: oui
-    pourquoi: La MP4-26 est équipée du KERS (Hamilton s'en sert dès l'Australie).
+    pourquoi: F1technical décrit le KERS Mercedes-Benz intégré à la MP4-26 ; GrandPrix.com rapporte que Hamilton s'en sert dès les qualifications du Grand Prix d'Australie.
     sources:
-    - titre: Wikipedia, « McLaren MP4-26 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4-26
-    - titre: Wikipedia, « 2011 Australian Grand Prix »
-      url: https://en.wikipedia.org/wiki/2011_Australian_Grand_Prix
+    - titre: F1technical.net, « McLaren MP4-26 Mercedes »
+      url: https://www.f1technical.net/f1db/cars/981/mclaren-mp4-26
+    - titre: 'GrandPrix.com, Tony Dodgins, « Analysis: Red Bull''s lack of KERS » (mars 2011)'
+      url: https://www.grandprix.com/news/analysis-red-bulls-lack-of-kers.html
   - annee: 2011
     ecurie: red-bull
     equipe: Red Bull Racing Renault
@@ -2933,48 +2979,52 @@ technologies:
     des: Malaysia
     victoires_sans:
     - Australia
-    pourquoi: 'En Australie, Horner a révélé que les RB7 n''avaient jamais été équipées du KERS, ni en qualifications ni en course : la victoire de Vettel est acquise sans. L''équipe l''utilise pour la première fois en Malaisie (victoire de Vettel malgré des ennuis de KERS), et la RB7 devient la première voiture à KERS titrée chez les constructeurs.'
+    pourquoi: 'En Australie, Horner admet que les RB7 n''ont pas utilisé le KERS (ni en qualifications, selon GrandPrix.com, ni en course, selon RaceFans) : la victoire de Vettel est acquise sans. Sky Sports rapporte que le système, fourni par Renault, fonctionne par intermittence en Malaisie, où Vettel gagne malgré ces ennuis.'
     sources:
-    - titre: Wikipedia, « 2011 Australian Grand Prix »
-      url: https://en.wikipedia.org/wiki/2011_Australian_Grand_Prix
-    - titre: Wikipedia, « 2011 Malaysian Grand Prix »
-      url: https://en.wikipedia.org/wiki/2011_Malaysian_Grand_Prix
-    - titre: Wikipedia, « Red Bull RB7 »
-      url: https://en.wikipedia.org/wiki/Red_Bull_RB7
+    - titre: RaceFans, Keith Collantine, « Horner reveals Red Bull never used KERS » (mars 2011)
+      url: https://www.racefans.net/2011/03/27/horner-reveals-red-bull-kers/
+    - titre: 'GrandPrix.com, Tony Dodgins, « Analysis: Red Bull''s lack of KERS » (mars 2011)'
+      url: https://www.grandprix.com/news/analysis-red-bulls-lack-of-kers.html
+    - titre: Sky Sports, « Red Bull confident on KERS » (avril 2011)
+      url: https://www.skysports.com/f1/news/6869566/red-bull-confident-on-kers
+    - titre: F1technical.net, « Red Bull RB7 Renault »
+      url: https://www.f1technical.net/f1db/cars/978/red-bull-rb7
   - annee: 2012
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F2012
     valeur: oui
-    pourquoi: La fiche technique de la F2012 indique un V8 « limité à 18 000 tr/min avec KERS ».
+    pourquoi: La fiche officielle de la F2012 décrit son système de récupération d'énergie cinétique (KERS), maintenu en position centrale basse.
     sources:
-    - titre: Wikipedia, « Ferrari F2012 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F2012
+    - titre: 'Ferrari, « Ferrari F2012: 2012 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f2012
   - annee: 2012
     ecurie: lotus-f1
     equipe: Lotus Renault
     voiture: Lotus E20
     valeur: oui
-    pourquoi: Le Renault RS27-2012 de l'E20 est équipé du KERS.
+    pourquoi: 'La fiche technique de la E20 publiée par F1technical décrit son KERS : un moteur-générateur Renault Sport F1 entraînant l''avant du moteur, avec des batteries pour stocker l''énergie.'
     sources:
-    - titre: Wikipedia, « Lotus E20 »
-      url: https://en.wikipedia.org/wiki/Lotus_E20
+    - titre: F1technical.net, « Lotus E20 Renault »
+      url: https://www.f1technical.net/f1db/cars/994/lotus-e20
   - annee: 2012
     ecurie: mclaren
     equipe: McLaren Mercedes
     voiture: McLaren MP4-27
     valeur: oui
-    pourquoi: La fiche technique de la MP4-27 indique un V8 « limité à 18 000 tr/min avec KERS ».
+    pourquoi: La fiche technique de la MP4-27 publiée par F1technical indique un KERS fourni par Mercedes-Benz, avec un moteur-générateur monté sur le moteur.
     sources:
-    - titre: Wikipedia, « McLaren MP4-27 »
-      url: https://en.wikipedia.org/wiki/McLaren_MP4-27
+    - titre: F1technical.net, « McLaren MP4-27 Mercedes »
+      url: https://www.f1technical.net/f1db/cars/983/mclaren-mp4-27
   - annee: 2012
     ecurie: mercedes
     equipe: Mercedes
     voiture: Mercedes F1 W03
     valeur: oui
-    pourquoi: La fiche technique de la F1 W03 indique un V8 « limité à 18 000 tr/min avec KERS ».
+    pourquoi: La fiche technique de la F1 W03 indique un V8 « limité à 18 000 tr/min avec KERS » ; Formula1.com confirme que la W03 est la voiture de la victoire de Rosberg en Chine.
     sources:
+    - titre: Formula1.com, « Mercedes – Year by Year »
+      url: https://www.formula1.com/en/information/mercedes-year-by-year.45gq1OShE3U1H5iEJSVtNd
     - titre: Wikipedia, « Mercedes F1 W03 »
       url: https://en.wikipedia.org/wiki/Mercedes_F1_W03
   - annee: 2012
@@ -2982,54 +3032,56 @@ technologies:
     equipe: Red Bull Racing Renault
     voiture: Red Bull RB8
     valeur: oui
-    pourquoi: La fiche technique de la RB8 indique un V8 « limité à 18 000 tr/min, avec KERS ».
+    pourquoi: 'Autosport rapporte qu''en Australie 2012 Horner présente la panne de KERS de Webber comme la première de l''équipe avec la RB8 : la voiture court donc avec le KERS.'
     sources:
-    - titre: Wikipedia, « Red Bull RB8 »
-      url: https://en.wikipedia.org/wiki/Red_Bull_RB8
+    - titre: Autosport, Glenn Freeman, « Sebastian Vettel admits Red Bull didn't have the pace to take pole in Melbourne » (mars 2012)
+      url: https://www.autosport.com/f1/news/sebastian-vettel-admits-red-bull-didnt-have-the-pace-to-take-pole-in-melbourne-4453573/4453573/
   - annee: 2012
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW34
     valeur: oui
-    pourquoi: Passée au moteur Renault, Williams reste indépendante et court en 2012 avec son propre KERS (Autosport, février 2012) ; un départ de feu attribué au KERS ravage d'ailleurs son garage après la victoire de Maldonado en Espagne.
+    pourquoi: Passée au moteur Renault, Williams reste indépendante et court en 2012 avec son propre KERS (Autosport, février 2012) ; la fiche technique de la FW34 publiée par F1technical mentionne d'ailleurs ses radiateurs de KERS.
     sources:
     - titre: 'Autosport, « Tech notes: team revolution, car evolution at Williams » (9 février 2012)'
       url: https://www.autosport.com/f1/news/tech-notes-team-revolution-car-evolution-at-williams-5098311/5098311/
-    - titre: Wikipedia, « 2012 Spanish Grand Prix »
-      url: https://en.wikipedia.org/wiki/2012_Spanish_Grand_Prix
+    - titre: F1technical.net, « Williams FW34 Renault »
+      url: https://www.f1technical.net/f1db/cars/992/williams-fw34
   - annee: 2013
     ecurie: ferrari
     equipe: Ferrari
     voiture: Ferrari F138
     valeur: oui
-    pourquoi: La fiche technique de la F138 indique un V8 « limité à 18 000 tr/min avec KERS ».
+    pourquoi: La fiche de la F138 publiée par Ferrari indique que le moteur a été conçu pour garder son plus haut niveau de performance pendant tout le cycle d'utilisation du KERS.
     sources:
-    - titre: Wikipedia, « Ferrari F138 »
-      url: https://en.wikipedia.org/wiki/Ferrari_F138
+    - titre: 'Ferrari, « Ferrari F138: 2013 F1 single-seater »'
+      url: https://www.ferrari.com/en-EN/formula1/f138
   - annee: 2013
     ecurie: lotus-f1
     equipe: Lotus Renault
     voiture: Lotus E21
     valeur: oui
-    pourquoi: Le Renault RS27-2013 de l'E21 est équipé du KERS.
+    pourquoi: 'La fiche technique de l''E21 dans la base de F1Technical décrit son KERS : un moteur-générateur fourni par Renault Sport F1, entraîné par l''avant du moteur et alimenté par des batteries.'
     sources:
-    - titre: Wikipedia, « Lotus E21 »
-      url: https://en.wikipedia.org/wiki/Lotus_E21
+    - titre: F1Technical, « Lotus E21 Renault » (base de données)
+      url: https://www.f1technical.net/f1db/cars/1000
   - annee: 2013
     ecurie: mercedes
     equipe: Mercedes
     voiture: Mercedes F1 W04
     valeur: oui
-    pourquoi: La F1 W04 annonce 750 + 80 ch « en mode KERS ».
+    pourquoi: La fiche de la F1 W04 dans la base de F1Technical précise que Mercedes AMG High Performance Powertrains fournit le moteur et le KERS, un moteur-générateur électrique monté sur le moteur avec ses cellules de stockage.
     sources:
-    - titre: Wikipedia, « Mercedes F1 W04 »
-      url: https://en.wikipedia.org/wiki/Mercedes_F1_W04
+    - titre: F1Technical, « Mercedes AMG F1 W04 » (base de données)
+      url: https://www.f1technical.net/f1db/cars/1005
   - annee: 2013
     ecurie: red-bull
     equipe: Red Bull Racing Renault
     voiture: Red Bull RB9
     valeur: oui
-    pourquoi: La RB9 est équipée du KERS (Webber en subit une panne au départ en Australie).
+    pourquoi: Au Grand Prix d'Australie 2013, Webber perd l'usage du KERS en début de course, à la suite d'un problème d'ECU selon Christian Horner (communiqué Red Bull repris par F1Technical) ; la voiture de Red Bull cette saison-là est la RB9.
     sources:
-    - titre: Wikipedia, « Red Bull RB9 »
-      url: https://en.wikipedia.org/wiki/Red_Bull_RB9
+    - titre: F1Technical, Steven De Groote, « Vettel happy as Webber hits KERS issue » (mars 2013)
+      url: https://www.f1technical.net/news/18233
+    - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+      url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/

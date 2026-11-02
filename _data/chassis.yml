@@ -2947,10 +2947,14 @@ cas:
   - voiture: Benetton B193B
     gps:
     - Portugal
-  pourquoi: La B193A n'a couru qu'en Afrique du Sud et au Brésil ; Schumacher a gagné au Portugal avec la B193B, unique victoire du modèle.
+  pourquoi: Avant la saison, Motor Sport annonce que la B193A sera remplacée par un nouveau châssis, la B193B, « dès le début de la saison européenne ». Un volant vendu par RM Sotheby's a servi sur la B193B dès Saint-Marin. Au Grand Prix du Portugal, Motor Sport montre Schumacher gagner avec la B193B, seule victoire Benetton de 1993.
   sources:
-  - titre: Wikipedia, « Benetton B193 »
-    url: https://en.wikipedia.org/wiki/Benetton_B193
+  - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
+    url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
+  - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
+    url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
+  - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
+    url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
 - annee: 1993
   ecurie: mclaren
   equipe: McLaren Ford
@@ -2962,10 +2966,12 @@ cas:
     - Monaco
     - Japan
     - Australia
-  pourquoi: La MP4/8 a couru les seize manches de 1993 ; Senna y a gagné cinq fois, dont le Grand Prix d'Europe à Donington.
+  pourquoi: 'Autosport attribue à la MP4/8 un palmarès de cinq victoires en 1993. Autosport et Motor Sport nomment chacune d''elles : Interlagos, Donington (Grand Prix d''Europe), un sixième Monaco record, puis Suzuka et Adelaïde, dernière victoire de Senna.'
   sources:
-  - titre: Wikipedia, « McLaren MP4/8 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4/8
+  - titre: Autosport, Damien Smith, « The McLaren that surprised sulking Senna » (mai 2018)
+    url: https://www.autosport.com/f1/news/the-mclaren-that-surprised-sulking-senna-5110828/5110828/
+  - titre: Motor Sport, James Elson, « McLaren MP4/8 – the underrated 1993 F1 car Senna still 'loved' » (avril 2023)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mclaren-mp4-8-the-underrated-1993-f1-car-senna-still-loved
 - annee: 1993
   ecurie: williams
   equipe: Williams Renault
@@ -2982,10 +2988,12 @@ cas:
     - Hungary
     - Belgium
     - Italy
-  pourquoi: 'La FW15C a gagné dix courses en 1993 : sept pour Prost, trois pour Hill (Hongrie, Belgique, Italie).'
+  pourquoi: La fiche technique de la FW15C publiée par Autosport donne 10 victoires en 1993. Autosport précise que Hill a signé la série Hongrie, Belgique, Italie ; les sept autres sont celles de Prost.
   sources:
-  - titre: Wikipedia, « Williams FW15C »
-    url: https://en.wikipedia.org/wiki/Williams_FW15C
+  - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
+    url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
+  - titre: Autosport, Adam Cooper, « The gizmo-laden Williams F1 car that allowed Prost to retire on top » (décembre 2023)
+    url: https://www.autosport.com/f1/news/the-gizmo-laden-williams-f1-car-that-allowed-prost-to-retire-on-top/10556068/
 - annee: 1994
   ecurie: benetton
   equipe: Benetton Ford
@@ -3000,10 +3008,12 @@ cas:
     - France
     - Hungary
     - Spain Europe
-  pourquoi: Le tableau des engagés de la saison 1994 ne donne qu'un châssis pour l'écurie, la Benetton B194, sans changement de modèle en cours de saison.
+  pourquoi: 'Goodwood retrace la saison de la B194 : Schumacher gagne les deux premières courses avec une B194 sœur, puis Imola, Monaco, le Canada et la France avec la B194-05. Motor Sport le montre en B194 à Jerez (Grand Prix d''Europe, victoire) et à Suzuka. Benetton n''a engagé que ce modèle en 1994 ; la victoire de Hongrie n''est pas attribuée nommément à un châssis par ces sources.'
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
+  - titre: 'Goodwood, Andrew Evans, « Benetton B194-05: The car that took Schumacher to his first F1 title » (juillet 2019)'
+    url: https://www.goodwood.com/grr/f1/benetton-b194-05-the-car-that-took-schumacher-to-his-first-f1-title
+  - titre: Motor Sport, David Tremayne, « 1994 European Grand Prix, Jerez » (novembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/november-1994/18/european-grand-prix-3/
 - annee: 1994
   ecurie: ferrari
   equipe: Ferrari
@@ -3011,14 +3021,14 @@ cas:
   - voiture: Ferrari 412 T1B
     gps:
     - Germany
-  pourquoi: Le tableau des engagés 1994 liste 412 T1 et 412 T1B ; la version T1B est apparue au Grand Prix de France, avant la victoire de Berger à Hockenheim (attribution déduite de la chronologie, la page du GP ne nomme pas le châssis).
+  pourquoi: Autosport date les débuts de la version modifiée « 412T1/B » au Grand Prix de France, avant la victoire de Berger à Hockenheim. Motor Sport parle de « la nouvelle Ferrari 412T1B » à Magny-Cours, puis montre Alesi en 412T1B à Silverstone et Berger en 412T1B à Estoril. La victoire d'Allemagne revient donc à la T1B.
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari 412 T1 »
-    url: https://en.wikipedia.org/wiki/Ferrari_412_T1
-  - titre: Wikipedia (it), « Ferrari 412 T1 »
-    url: https://it.wikipedia.org/wiki/Ferrari_412_T1
+  - titre: 'Autosport, Marcus Simmons, « Berger: Making Ferrari win again in F1 » (août 2014)'
+    url: https://www.autosport.com/f1/news/berger-making-ferrari-win-again-in-f1-5103984/5103984/
+  - titre: Motor Sport, « 1994 French Grand Prix race report – two into three won't go » (août 1994)
+    url: https://www.motorsportmagazine.com/archive/article/august-1994/10/two-into-three-wont-go/
+  - titre: Motor Sport, David Tremayne, « 1994 Portuguese Grand Prix » (novembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/november-1994/10/portuguese-grand-prix-4/
 - annee: 1994
   ecurie: williams
   equipe: Williams Renault
@@ -3034,12 +3044,16 @@ cas:
     - Portugal
     - Japan
     - Australia
-  pourquoi: 'La FW16 a été mise à jour et rebaptisée FW16B « by the German Grand Prix » : les victoires d''Espagne et de Grande-Bretagne reviennent à la FW16, les cinq suivantes à la FW16B.'
+  pourquoi: 'RM Sotheby''s, citant les archives Williams, explique que les évolutions apportées à la FW16 ont valu « by the German Grand Prix in July » la nouvelle désignation FW16B. Le châssis FW16-01 n''a été passé en spécification B qu''après Silverstone. Les victoires d''Espagne (Motor Sport montre Hill en FW16) et de Grande-Bretagne reviennent donc à la FW16. Viennent ensuite les victoires de Hill en Belgique, en Italie, au Portugal et au Japon, sur FW16B (Motor Sport le montre en FW16B à Estoril et à Suzuka), et celle de Mansell en Australie : il pilotait déjà une FW16B à Jerez.'
   sources:
-  - titre: Wikipedia, « 1994 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1994_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW16 »
-    url: https://en.wikipedia.org/wiki/Williams_FW16
+  - titre: RM Sotheby's, « 1994 Williams FW16 » (châssis 01, vente The Now & Contemporary Evening Auction, New York)
+    url: https://rmsothebys.com/auctions/sw26/lots/r0001-1994-williams-fw16
+  - titre: Motor Sport, David Tremayne, « A timely triumph » (juillet 1994)
+    url: https://www.motorsportmagazine.com/archive/article/july-1994/12/atimely-triumph/
+  - titre: Motor Sport, David Tremayne, « 1994 European Grand Prix, Jerez » (novembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/november-1994/18/european-grand-prix-3/
+  - titre: Motor Sport, David Tremayne, « Down to the wire » (décembre 1994)
+    url: https://www.motorsportmagazine.com/archive/article/december-1994/10/down-wire/
 - annee: 1995
   ecurie: benetton
   equipe: Benetton Renault
@@ -3057,10 +3071,12 @@ cas:
     - Germany Europe
     - Japan Pacific
     - Japan
-  pourquoi: Le tableau des engagés de la saison 1995 ne donne qu'un châssis pour l'écurie, la Benetton B195, sans changement de modèle en cours de saison.
+  pourquoi: La fiche de la Benetton B195 publiée par Autosport donne un palmarès de 11 victoires en 1995 avec Schumacher et Herbert. Motor Sport la montre au départ à Montréal, Estoril et au Nürburgring, sans autre modèle Benetton cette saison-là.
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Autosport, Stuart Codling, « Why Benetton had a point to prove with the B195 » (avril 2025)
+    url: https://www.autosport.com/f1/news/why-benetton-had-a-point-to-prove-with-the-b195/10716474/
+  - titre: Motor Sport, « 1995 European Grand Prix » (novembre 1995)
+    url: https://www.motorsportmagazine.com/archive/article/november-1995/22/european-grand-prix-5/
 - annee: 1995
   ecurie: ferrari
   equipe: Ferrari
@@ -3068,10 +3084,12 @@ cas:
   - voiture: Ferrari 412 T2
     gps:
     - Canada
-  pourquoi: Le tableau des engagés de la saison 1995 ne donne qu'un châssis pour l'écurie, la Ferrari 412 T2, sans changement de modèle en cours de saison.
+  pourquoi: Motor Sport classe Alesi premier du Grand Prix du Canada 1995 sur Ferrari 412 T2. Autosport, dans son étude de la 412 T2, rappelle que ce fut sa seule victoire en Grand Prix.
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
+  - titre: Motor Sport, « 1995 Canadian Grand Prix » (juillet 1995)
+    url: https://www.motorsportmagazine.com/archive/article/july-1995/22/canadian-grand-prix-2/
+  - titre: Autosport, Stuart Codling, « How a misunderstanding dogged Ferrari's last V12 screamer » (novembre 2020)
+    url: https://www.autosport.com/f1/news/how-a-misunderstanding-dogged-ferraris-last-v12-screamer-5114528/5114528/
 - annee: 1995
   ecurie: williams
   equipe: Williams Renault
@@ -3085,12 +3103,16 @@ cas:
   - voiture: Williams FW17B
     gps:
     - Australia
-  pourquoi: 'La FW17B n''a servi qu''en qualifications au Portugal, puis a couru les quatre dernières manches, où elle a gagné une fois : l''Australie (Hill), seule victoire Williams de cette fin de saison.'
+  pourquoi: 'Au Portugal, Coulthard gagne avec une FW17 standard : la FW17B, plus rapide, n''avait servi qu''en qualifications (GrandPrix.com). Elle fait ses débuts en course au Grand Prix d''Europe (Motor Sport) et gagne en Australie avec Hill. Patrick Head compte cinq victoires Williams en 1995 « avec la FW17 » : Argentine, Saint-Marin, Hongrie, Portugal et Australie.'
   sources:
-  - titre: Wikipedia, « 1995 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1995_Formula_One_World_Championship
-  - titre: Wikipedia, « Williams FW17 »
-    url: https://en.wikipedia.org/wiki/Williams_FW17
+  - titre: GrandPrix.com, « Portuguese GP, 1995 » (septembre 1995)
+    url: https://www.grandprix.com/gpe/rr577.html
+  - titre: Motor Sport, « 1995 European Grand Prix » (novembre 1995)
+    url: https://www.motorsportmagazine.com/archive/article/november-1995/22/european-grand-prix-5/
+  - titre: Motor Sport, « 1995 Australian Grand Prix » (décembre 1995)
+    url: https://www.motorsportmagazine.com/archive/article/december-1995/22/australian-grand-prix-4/
+  - titre: Motor Sport, Patrick Head, « Williams FW18 » (juillet 1997)
+    url: https://www.motorsportmagazine.com/archive/article/july-1997/49/williams-fw18/
 - annee: 1996
   ecurie: ferrari
   equipe: Ferrari
@@ -3100,10 +3122,12 @@ cas:
     - Spain
     - Belgium
     - Italy
-  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Ferrari F310, sans changement de modèle en cours de saison.
+  pourquoi: Mark Hughes (formula1.com) attribue à la F310 trois victoires en 1996, la première sous la pluie à Barcelone. Motor Sport la nomme aussi à Barcelone et lors de la victoire de Schumacher à Monza. La troisième, en Belgique, se déduit de ce total.
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: 'Formula1.com, Mark Hughes, « Tech Tuesday: Under the skin of Michael Schumacher''s first Ferrari winner » (avril 2020)'
+    url: https://www.formula1.com/en/latest/article/tech-tuesday-under-the-skin-of-schumachers-first-ferrari-winner.4OnQGbn7ApxhoIt1UY3Nl1
+  - titre: Motor Sport, Mark Skewis, « Escape To Victory » (octobre 1996)
+    url: https://www.motorsportmagazine.com/archive/article/october-1996/22/escape-to-victory/
 - annee: 1996
   ecurie: ligier
   equipe: Ligier Mugen Honda
@@ -3111,10 +3135,10 @@ cas:
   - voiture: Ligier JS43
     gps:
     - Monaco
-  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Ligier JS43, sans changement de modèle en cours de saison.
+  pourquoi: Ligier rappelle que Panis a gagné à Monaco le 19 mai 1996 au volant de la Ligier JS43 Mugen, évolution de la JS41 de 1995, qui fut sa seule victoire en F1.
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: Ligier Automotive, « Monaco 1996 – A legendary victory! » (mai 2021)
+    url: https://ligierautomotive.com/en/news/monaco-1996-a-legendary-victory/
 - annee: 1996
   ecurie: williams
   equipe: Williams Renault
@@ -3133,10 +3157,12 @@ cas:
     - Hungary
     - Portugal
     - Japan
-  pourquoi: Le tableau des engagés de la saison 1996 ne donne qu'un châssis pour l'écurie, la Williams FW18, sans changement de modèle en cours de saison.
+  pourquoi: Patrick Head écrit que Hill et Villeneuve ont gagné 12 des 16 Grands Prix de 1996 avec la FW18. Motor Sport lui attribue 12 victoires depuis ses débuts en Australie.
   sources:
-  - titre: Wikipedia, « 1996 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1996_Formula_One_World_Championship
+  - titre: Motor Sport, Patrick Head, « Williams FW18 » (juillet 1997)
+    url: https://www.motorsportmagazine.com/archive/article/july-1997/49/williams-fw18/
+  - titre: 'Motor Sport, « Great racing cars: Williams FW18 and FW19 »'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/great-racing-cars-williams-fw18-and-fw19/
 - annee: 1997
   ecurie: benetton
   equipe: Benetton Renault
@@ -3144,10 +3170,10 @@ cas:
   - voiture: Benetton B197
     gps:
     - Germany
-  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Benetton B197, sans changement de modèle en cours de saison.
+  pourquoi: Le catalogue d'Artcurial présente la Benetton B197 comme la dernière Benetton victorieuse en F1, en été 1997. Il s'agit du Grand Prix d'Allemagne à Hockenheim, gagné par Berger.
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Artcurial, « 1997 Benetton B197-05 Formule 1 » (vente 6445, lot 131 a)
+    url: https://www.artcurial.com/en/sales/6445/lots/131-a
 - annee: 1997
   ecurie: ferrari
   equipe: Ferrari
@@ -3159,10 +3185,10 @@ cas:
     - France
     - Belgium
     - Japan
-  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Ferrari F310B, sans changement de modèle en cours de saison.
+  pourquoi: 'Selon Ferrari, Michael Schumacher remporte en 1997 cinq Grands Prix avec la F310 B : Monaco, Canada, France, Belgique et Japon.'
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari F310 B: 1997 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f310-b
 - annee: 1997
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3172,10 +3198,12 @@ cas:
     - Australia
     - Italy
     - Spain Europe
-  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la McLaren MP4/12, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires publiée par McLaren donne trois succès à la MP4/12 en 1997 : Australie et Italie avec Coulthard, Grand Prix d''Europe avec Häkkinen. La fiche de la voiture confirme qu''il n''y en a pas eu d''autre cette saison.'
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
+  - titre: McLaren, « MP4-12 » (McLaren Heritage)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1997-formula-1-mclaren-mp4-12/
 - annee: 1997
   ecurie: williams
   equipe: Williams Renault
@@ -3190,10 +3218,12 @@ cas:
     - Hungary
     - Austria
     - Germany Luxembourg
-  pourquoi: Le tableau des engagés de la saison 1997 ne donne qu'un châssis pour l'écurie, la Williams FW19, sans changement de modèle en cours de saison.
+  pourquoi: D'après Autosport, la FW19 gagne huit courses en 1997. Villeneuve s'impose au Brésil, en Argentine, en Espagne, en Grande-Bretagne, en Hongrie, en Autriche et au Luxembourg, le Nürburgring ayant pris ce nom pour l'occasion. Frentzen ajoute l'unique victoire de sa saison à Saint-Marin, selon The Race.
   sources:
-  - titre: Wikipedia, « 1997 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1997_Formula_One_World_Championship
+  - titre: Autosport, Stuart Codling, « The anatomy of the last Williams F1 world title winner » (avril 2022)
+    url: https://www.autosport.com/f1/news/the-anatomy-of-the-last-williams-f1-world-title-winner/9897354/
+  - titre: 'The Race, Matt Beer, « Bring Back V10s: The mystery of Frentzen''s Williams failure » (mars 2023)'
+    url: https://www.the-race.com/formula-1/bring-back-v10s-the-mystery-of-frentzens-williams-failure/
 - annee: 1998
   ecurie: ferrari
   equipe: Ferrari
@@ -3206,10 +3236,12 @@ cas:
     - Great Britain
     - Hungary
     - Italy
-  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la Ferrari F300, sans changement de modèle en cours de saison.
+  pourquoi: 'Ferrari attribue à la F300 six victoires en 1998 : Argentine, Canada, France, Grande-Bretagne, Hongrie et Italie. Le classement du Grand Prix de Belgique publié par Atlas F1 confirme que la F300 est la voiture de l''écurie à ce moment de la saison.'
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari F300: 1998 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f300
+  - titre: Atlas F1, « Hill Gives Jordan their first ever Grand Prix Victory (Belgian Grand Prix) » (août 1998)
+    url: https://archive.atlasf1.com/news/1998/813.htm
 - annee: 1998
   ecurie: jordan
   equipe: Jordan Mugen Honda
@@ -3217,10 +3249,12 @@ cas:
   - voiture: Jordan 198
     gps:
     - Belgium
-  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la Jordan 198, sans changement de modèle en cours de saison.
+  pourquoi: Le classement publié par Atlas F1 donne la victoire du Grand Prix de Belgique 1998 à Damon Hill sur la Jordan 198, devant Ralf Schumacher, sur la même voiture. Motor Sport retrace l'histoire de ce châssis, celui de la première victoire de Jordan.
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: Atlas F1, « Hill Gives Jordan their first ever Grand Prix Victory (Belgian Grand Prix) » (août 1998)
+    url: https://archive.atlasf1.com/news/1998/813.htm
+  - titre: 'Motor Sport, Jonathan Noble, « Jordan 198: the car that carried Damon Hill to Belgian GP victory » (septembre 2007)'
+    url: https://www.motorsportmagazine.com/archive/article/september-2007/71/profile-jordan-198/
 - annee: 1998
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3236,10 +3270,12 @@ cas:
     - Germany
     - Germany Luxembourg
     - Japan
-  pourquoi: Le tableau des engagés de la saison 1998 ne donne qu'un châssis pour l'écurie, la McLaren MP4/13, sans changement de modèle en cours de saison.
+  pourquoi: 'La fiche de la MP4-13 publiée par McLaren lui attribue neuf victoires en 1998. La liste des victoires de McLaren les détaille : Australie, Brésil, Saint-Marin, Espagne, Monaco, Autriche, Allemagne, Luxembourg (au Nürburgring) et Japon.'
   sources:
-  - titre: Wikipedia, « 1998 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1998_Formula_One_World_Championship
+  - titre: McLaren, « MP4-13 » (McLaren Heritage)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/mp4-13/
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 1999
   ecurie: ferrari
   equipe: Ferrari
@@ -3252,10 +3288,12 @@ cas:
     - Austria
     - Germany
     - Malaysia
-  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Ferrari F399, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari rapporte qu'en 1999 la F399 a gagné à Saint-Marin et à Monaco avec Michael Schumacher, puis en Australie, en Autriche, en Allemagne et en Malaisie avec Eddie Irvine, soit six victoires.
   sources:
-  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari F399: 1999 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f399
+  - titre: Ferrari, « 1999 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-1999
 - annee: 1999
   ecurie: jordan
   equipe: Jordan Mugen Honda
@@ -3264,10 +3302,12 @@ cas:
     gps:
     - France
     - Italy
-  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Jordan 199, sans changement de modèle en cours de saison.
+  pourquoi: Goodwood rappelle que Frentzen a gagné deux Grands Prix en 1999 avec la Jordan 199. The Race précise que la première de ces victoires est celle de Magny-Cours (Grand Prix de France), et que la seconde est celle de Monza (Grand Prix d'Italie).
   sources:
-  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+  - titre: Goodwood, Damien Smith, « When Jordan almost became F1 World Champions » (mars 2025)
+    url: https://www.goodwood.com/grr/f1/when-jordan-almost-became-f1-world-champions/
+  - titre: The Race, Matt Beer, « The day Jordan's F1 title dream soared then died » (octobre 2020)
+    url: https://www.the-race.com/formula-1/the-day-jordans-f1-title-dream-soared-then-died/
 - annee: 1999
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3281,10 +3321,12 @@ cas:
     - Hungary
     - Belgium
     - Japan
-  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la McLaren MP4/14, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires publiée par McLaren donne sept succès à la MP4-14 en 1999 : Brésil, Espagne, Canada, Grande-Bretagne, Hongrie, Belgique et Japon. La fiche de la voiture confirme ces sept victoires en seize courses.'
   sources:
-  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
+  - titre: McLaren, « MP4-14 » (McLaren Heritage)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1999-formula-1-mclaren-mp4-14/
 - annee: 1999
   ecurie: stewart
   equipe: Stewart Ford
@@ -3292,10 +3334,12 @@ cas:
   - voiture: Stewart SF3
     gps:
     - Germany Europe
-  pourquoi: Le tableau des engagés de la saison 1999 ne donne qu'un châssis pour l'écurie, la Stewart SF3, sans changement de modèle en cours de saison.
+  pourquoi: Formula1.com rappelle que la Stewart SF3 a offert à l'équipe sa victoire en 1999, avec Johnny Herbert au Grand Prix d'Europe. Atlas F1 confirme cette victoire au Nürburgring, partie de la quatorzième place.
   sources:
-  - titre: Wikipedia, « 1999 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/1999_Formula_One_World_Championship
+  - titre: 'Formula1.com, « Oral history: the inside story of Stewart GP''s fairytale 1999 European Grand Prix victory » (décembre 2019)'
+    url: https://www.formula1.com/en/latest/article/oral-history-the-inside-story-of-stewart-gps-fairytale-99-victory.2lCDkxrUBfEdyFprakzrJy
+  - titre: Atlas F1, « Johnny Herbert Wins - European GP » (septembre 1999)
+    url: https://archive.atlasf1.com/news/1999/sep/1649.htm
 - annee: 2000
   ecurie: ferrari
   equipe: Ferrari
@@ -3312,10 +3356,12 @@ cas:
     - United States of America United States
     - Japan
     - Malaysia
-  pourquoi: Le tableau des engagés de la saison 2000 ne donne qu'un châssis pour l'écurie, la Ferrari F1-2000, sans changement de modèle en cours de saison.
+  pourquoi: 'Ferrari attribue à la F1-2000 dix victoires en 2000 : l''Australie, le Brésil, Saint-Marin, le Nürburgring (Grand Prix d''Europe) et Montréal avec Schumacher ; l''Allemagne avec Barrichello ; puis Monza, Indianapolis, Suzuka et la Malaisie, où Schumacher gagne quatre fois de suite.'
   sources:
-  - titre: Wikipedia, « 2000 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari F1-2000: 2000 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f1-2000
+  - titre: Ferrari, « 2000 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-2000
 - annee: 2000
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3329,10 +3375,12 @@ cas:
     - Austria
     - Hungary
     - Belgium
-  pourquoi: Le tableau des engagés de la saison 2000 ne donne qu'un châssis pour l'écurie, la McLaren MP4/15, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires publiée par McLaren donne sept succès à la MP4-15 en 2000 : Grande-Bretagne, Espagne, Monaco, France, Autriche, Hongrie et Belgique. La fiche de la voiture confirme ces sept victoires.'
   sources:
-  - titre: Wikipedia, « 2000 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2000_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
+  - titre: McLaren, « MP4-15 » (McLaren Heritage)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2000-formula-1-mclaren-mp4-15/
 - annee: 2001
   ecurie: ferrari
   equipe: Ferrari
@@ -3348,10 +3396,10 @@ cas:
     - Hungary
     - Belgium
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la Ferrari F2001, sans changement de modèle en cours de saison.
+  pourquoi: 'Ferrari attribue à la F2001 neuf victoires en 2001 : Australie, Malaisie, Espagne, Monaco, Europe, France, Hongrie, Belgique et Japon.'
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari F2001: 2001 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f2001
 - annee: 2001
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3362,10 +3410,10 @@ cas:
     - Austria
     - Great Britain
     - United States of America United States
-  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la McLaren MP4-16, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires publiée par McLaren donne quatre succès à la MP4-16 en 2001 : Brésil et Autriche avec Coulthard, Grande-Bretagne et États-Unis avec Häkkinen.'
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2001
   ecurie: williams
   equipe: Williams BMW
@@ -3376,10 +3424,18 @@ cas:
     - Canada
     - Germany
     - Italy
-  pourquoi: Le tableau des engagés de la saison 2001 ne donne qu'un châssis pour l'écurie, la Williams FW23, sans changement de modèle en cours de saison.
+  pourquoi: Crash.net rappelle que la FW23 a gagné quatre courses en 2001. Les comptes rendus d'Atlas F1 la nomment pour les victoires de Ralf Schumacher en Allemagne et de Montoya en Italie, et ses classements donnent à Ralf Schumacher, sur Williams BMW, les victoires de Saint-Marin et du Canada.
   sources:
-  - titre: Wikipedia, « 2001 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2001_Formula_One_World_Championship
+  - titre: Crash.net, Lewis Larkam, « Williams launches £1m legal action after historic F1 car goes missing » (octobre 2026)
+    url: https://www.crash.net/f1/news/1106611/1/williams-launches-ps1m-legal-action-after-historic-f1-car-goes-missing
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 German GP Review » (août 2001)
+    url: https://www.atlasf1.com/2001/ger/elizalde.html
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Italian GP Review » (septembre 2001)
+    url: https://www.atlasf1.com/2001/ita/elizalde.html
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 San Marino GP Review » (avril 2001)
+    url: https://www.atlasf1.com/2001/san/elizalde.html
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Canadian GP Review » (juin 2001)
+    url: https://www.atlasf1.com/2001/can/elizalde.html
 - annee: 2002
   ecurie: ferrari
   equipe: Ferrari
@@ -3403,14 +3459,16 @@ cas:
     - Italy
     - United States of America United States
     - Japan
-  pourquoi: Ferrari a ouvert 2002 avec la F2001B, victorieuse en Australie ; la F2002 a débuté et gagné au Brésil, puis a remporté toutes les autres victoires de l'écurie.
+  pourquoi: Atlas F1 rapporte que Ferrari a ouvert 2002 avec la F2001 révisée, victorieuse en Australie, et que la F2002 a débuté et gagné au Brésil. Ferrari précise que l'ancienne voiture n'a couru que les trois premières manches, et attribue à la F2002 nouvelle le reste des quinze victoires de la saison.
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2001 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2001
-  - titre: Wikipedia, « Ferrari F2002 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2002
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Australian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/aus/elizalde.html
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Brazilian GP Review » (avril 2002)
+    url: https://www.atlasf1.com/2002/bra/elizalde.html
+  - titre: Ferrari, « 2002 | History of Scuderia Ferrari Formula 1 » (Ferrari.com)
+    url: https://www.ferrari.com/en-EN/formula1/year-2002
+  - titre: 'Ferrari, « Ferrari F2002: 2002 F1 single-seater » (Ferrari.com)'
+    url: https://www.ferrari.com/en-EN/formula1/f2002
 - annee: 2002
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3418,10 +3476,10 @@ cas:
   - voiture: McLaren MP4-17
     gps:
     - Monaco
-  pourquoi: Le tableau des engagés de la saison 2002 ne donne qu'un châssis pour l'écurie, la McLaren MP4-17, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires publiée par McLaren donne à la MP4-17 une seule victoire en 2002 : Monaco, avec Coulthard. La victoire suivante revient à la MP4-17D, en 2003.'
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the wins list » (McLaren Heritage, 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2002
   ecurie: williams
   equipe: Williams BMW
@@ -3429,10 +3487,10 @@ cas:
   - voiture: Williams FW24
     gps:
     - Malaysia
-  pourquoi: Le tableau des engagés de la saison 2002 ne donne qu'un châssis pour l'écurie, la Williams FW24, sans changement de modèle en cours de saison.
+  pourquoi: Atlas F1 rapporte que Ralf Schumacher a gagné le Grand Prix de Malaisie 2002 au volant de la FW24, devant Montoya sur l'autre Williams BMW.
   sources:
-  - titre: Wikipedia, « 2002 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2002_Formula_One_World_Championship
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Malaysian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/mal/elizalde.html
 - annee: 2003
   ecurie: ferrari
   equipe: Ferrari
@@ -3449,14 +3507,12 @@ cas:
     - Italy
     - United States of America United States
     - Japan
-  pourquoi: La F2002B a couru les quatre premières manches et gagné à Saint-Marin ; la F2003-GA a débuté et gagné en Espagne et totalise sept victoires.
+  pourquoi: Ferrari a couru les quatre premières manches avec l'ancienne F2002 mise à jour, qui a gagné à Imola (Saint-Marin) avant de céder la place. La F2003-GA a débuté et gagné en Espagne, puis a totalisé sept victoires, cinq pour Michael Schumacher et deux pour Barrichello.
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2002 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2002
-  - titre: Wikipedia, « Ferrari F2003-GA »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2003-GA
+  - titre: Autosport, Damien Smith, « How Schumacher won his toughest Ferrari title » (décembre 2017)
+    url: https://www.autosport.com/f1/news/how-schumacher-won-his-toughest-ferrari-title-5110228/5110228/
+  - titre: Autosport, Will Gray, « Schumacher Gives F2003-GA Debut Win in Spain » (mai 2003)
+    url: https://www.autosport.com/f1/news/schumacher-gives-f2003-ga-debut-win-in-spain-5062875/5062875/
 - annee: 2003
   ecurie: jordan
   equipe: Jordan Ford
@@ -3464,10 +3520,10 @@ cas:
   - voiture: Jordan EJ13
     gps:
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la Jordan EJ13, sans changement de modèle en cours de saison.
+  pourquoi: 'La Jordan de 2003 est l''EJ13 : Motorsport.com la nomme comme la voiture de la saison et légende ainsi la photo de Fisichella vainqueur au Brésil.'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: Motorsport.com, Owen Bellwood, « How Jordan took its last F1 victory on this day in 2003 » (avril 2026)
+    url: https://www.motorsport.com/f1/news/how-jordan-won-its-last-f1-race-on-this-day-in-2003/10811097/
 - annee: 2003
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3476,10 +3532,10 @@ cas:
     gps:
     - Australia
     - Malaysia
-  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la McLaren MP4-17D, sans changement de modèle en cours de saison.
+  pourquoi: 'La MP4-18 n''a jamais couru : McLaren a gardé la MP4-17D toute la saison 2003, et cette voiture a gagné les deux premières courses, l''Australie (Coulthard) et la Malaisie (Räikkönen).'
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: 'Autosport, James Newbold, « Friday favourite: The interim F1 McLaren that unexpectedly challenged Ferrari » (avril 2023)'
+    url: https://www.autosport.com/f1/news/friday-favourite-the-interim-f1-mclaren-that-unexpectedly-challenged-ferrari/10455769/
 - annee: 2003
   ecurie: renault
   equipe: Renault
@@ -3487,12 +3543,12 @@ cas:
   - voiture: Renault R23B
     gps:
     - Hungary
-  pourquoi: L'évolution R23B a débuté au Grand Prix de Grande-Bretagne et servi jusqu'à la fin de la saison ; le tableau de résultats de la page place la victoire d'Alonso en Hongrie sur la ligne R23B.
+  pourquoi: L'évolution R23B a débuté au Grand Prix de Grande-Bretagne, comme l'annonçait Mike Gascoyne avant Silverstone, et a couru les six dernières manches de 2003. F1Technical lui attribue la première victoire d'Alonso, en Hongrie.
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R23 »
-    url: https://en.wikipedia.org/wiki/Renault_R23
+  - titre: 'Motorsport.com, « British GP: Renault technical preview » (juillet 2003)'
+    url: https://au.motorsport.com/f1/news/british-gp-renault-technical-preview-2003-07-15/1056067/
+  - titre: F1Technical, « Renault R23B »
+    url: https://www.f1technical.net/f1db/cars/917/renault-r23b
 - annee: 2003
   ecurie: williams
   equipe: Williams BMW
@@ -3503,10 +3559,10 @@ cas:
     - Germany Europe
     - France
     - Germany
-  pourquoi: Le tableau des engagés de la saison 2003 ne donne qu'un châssis pour l'écurie, la Williams FW25, sans changement de modèle en cours de saison.
+  pourquoi: La Williams de 2003 est la FW25. Motorsport.com lui attribue les quatre victoires de l'écurie cette saison-là (Monaco, Europe, France, Allemagne).
   sources:
-  - titre: Wikipedia, « 2003 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2003_Formula_One_World_Championship
+  - titre: 'Motorsport.com, Kevin Turner, « Top 10 Williams F1 cars ranked: FW07, FW14B and more » (février 2021)'
+    url: https://www.motorsport.com/f1/news/top-10-williams-f1-cars-ranked-fw07-fw14b-and-more/5262414/
 - annee: 2004
   ecurie: ferrari
   equipe: Ferrari
@@ -3528,10 +3584,12 @@ cas:
     - Italy
     - People’s Republic of China China
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2004 ne donne qu'un châssis pour l'écurie, la Ferrari F2004, sans changement de modèle en cours de saison.
+  pourquoi: La Ferrari de 2004 est la F2004, élue voiture de l'année par Autosport après quinze victoires en dix-huit courses. Bridgestone décrit la même F2004 gagnant les cinq premières courses puis sept d'affilée.
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: 'Autosport, « Racing Car: Ferrari F2004 » (décembre 2004)'
+    url: https://www.autosport.com/general/news/racing-car-ferrari-f2004-4999865/4999865/
+  - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2004 »'
+    url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2004/
 - annee: 2004
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3539,12 +3597,12 @@ cas:
   - voiture: McLaren MP4-19B
     gps:
     - Belgium
-  pourquoi: La MP4-19B a débuté au Grand Prix de France ; la seule victoire de la saison, en Belgique (Räikkönen), est donc celle de la MP4-19B.
+  pourquoi: La MP4-19B a été introduite au Grand Prix de France, en juin. La seule victoire de la saison, en Belgique (Räikkönen), est donc celle de la MP4-19B, ce que confirment Autosport le jour même et Motor Sport.
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « McLaren MP4-19 »
-    url: https://en.wikipedia.org/wiki/McLaren_MP4-19
+  - titre: Autosport, Atlas F1, « Raikkonen Celebrates 'Deserved' Win » (août 2004)
+    url: https://www.autosport.com/f1/news/raikkonen-celebrates-deserved-win-5066829/5066829/
+  - titre: Motor Sport, Adam Cooper, « Adam Cooper's Trackforward » (octobre 2004)
+    url: https://www.motorsportmagazine.com/archive/article/october-2004/27/adam-coopers-trackforward/
 - annee: 2004
   ecurie: renault
   equipe: Renault
@@ -3552,12 +3610,10 @@ cas:
   - voiture: Renault R24
     gps:
     - Monaco
-  pourquoi: Wikipédia range la victoire de Trulli à Monaco sous la Renault R24 ; la mise à jour dite « R24B », apparue à Saint-Marin, porte surtout sur le moteur et n'est pas traitée comme un modèle distinct.
+  pourquoi: Mark Hughes range la victoire de Trulli à Monaco sous la Renault R24, transformée pour l'occasion par des entretoises moteur-coque ajoutées après un essai au Castellet. Aucun modèle distinct n'est cité pour cette course.
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
-  - titre: Wikipedia, « Renault R24 »
-    url: https://en.wikipedia.org/wiki/Renault_R24
+  - titre: 'The Race, Mark Hughes, « F1 Revisited: Monaco crowns unlikely new winner » (mai 2020)'
+    url: https://www.the-race.com/formula-1/f1-revisited-monaco-crowns-new-winner-amid-schumachers-safety-car-shunt/
 - annee: 2004
   ecurie: williams
   equipe: Williams BMW
@@ -3565,10 +3621,10 @@ cas:
   - voiture: Williams FW26
     gps:
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2004 ne donne qu'un châssis pour l'écurie, la Williams FW26, sans changement de modèle en cours de saison.
+  pourquoi: La Williams de 2004 est la FW26. Goodwood la présente comme la voiture avec laquelle Montoya a gagné le Grand Prix du Brésil 2004.
   sources:
-  - titre: Wikipedia, « 2004 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2004_Formula_One_World_Championship
+  - titre: 'Goodwood, « Video: Montoya and his FW26 charge up the Festival of Speed Hill » (septembre 2024)'
+    url: https://www.goodwood.com/grr/event-coverage/festival-of-speed/video-montoya-and-his-fw26-charge-up-the-festival-of-speed-hill/
 - annee: 2005
   ecurie: ferrari
   equipe: Ferrari
@@ -3576,12 +3632,12 @@ cas:
   - voiture: Ferrari F2005
     gps:
     - United States of America United States
-  pourquoi: Ferrari a commencé 2005 avec la F2004M ; la F2005, avancée à Bahreïn, a signé le doublé du Grand Prix des États-Unis.
+  pourquoi: Ferrari a commencé 2005 avec la F2004M ; la F2005, avancée à Bahreïn d'après la revue technique d'Autosport, a signé le doublé du Grand Prix des États-Unis, où les résultats officiels d'Indianapolis donnent les deux voitures comme des F2005.
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
-  - titre: Wikipedia, « Ferrari F2005 »
-    url: https://en.wikipedia.org/wiki/Ferrari_F2005
+  - titre: 'Autosport, Craig Scarborough, « Technical Review: Bahrain 2005 » (avril 2005)'
+    url: https://www.autosport.com/general/news/technical-review-bahrain-2005-5076271/5076271/
+  - titre: 'Indianapolis Motor Speedway, « Race Stats by Year : 2005 »'
+    url: https://www.indianapolismotorspeedway.com/history/formula-one/historical-stats/race-stats/race-results/2005
 - annee: 2005
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3598,10 +3654,10 @@ cas:
     - Belgium
     - Brazil
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2005 ne donne qu'un châssis pour l'écurie, la McLaren MP4-20, sans changement de modèle en cours de saison.
+  pourquoi: La McLaren de 2005 est la MP4-20. McLaren lui attribue dix victoires en Grand Prix sur la saison.
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: McLaren, « MP4-20 »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2005-formula-1-mclaren-mp4-20/
 - annee: 2005
   ecurie: renault
   equipe: Renault
@@ -3616,10 +3672,10 @@ cas:
     - France
     - Germany
     - People’s Republic of China China
-  pourquoi: Le tableau des engagés de la saison 2005 ne donne qu'un châssis pour l'écurie, la Renault R25, sans changement de modèle en cours de saison.
+  pourquoi: La Renault de 2005 est la R25. Formula1.com lui attribue les huit victoires de l'écurie, partagées entre Alonso et Fisichella, ainsi que le premier titre des constructeurs de Renault.
   sources:
-  - titre: Wikipedia, « 2005 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2005_Formula_One_World_Championship
+  - titre: Formula1.com, « Alonso to run title-winning Renault R25 in Abu Dhabi to celebrate the team's transition to Alpine » (décembre 2020)
+    url: https://www.formula1.com/en/latest/article/alonso-to-run-title-winning-renault-r25-in-abu-dhabi-to-celebrate-the-teams.5e69LF1WmuVtINpTKlpGtd
 - annee: 2006
   ecurie: ferrari
   equipe: Ferrari
@@ -3635,10 +3691,12 @@ cas:
     - Italy
     - People’s Republic of China China
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Ferrari 248 F1, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari présente la 248 F1 comme sa monoplace conçue pour le règlement 2006 ; les résultats officiels de la saison attribuent à Ferrari les neuf victoires listées, de Saint-Marin (Schumacher) au Brésil (Massa).
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: 'Ferrari, « Ferrari 248 F1: 2006 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/248-f1
+  - titre: Formula1.com, « 2006 Race Results »
+    url: https://www.formula1.com/en/results/2006/races
 - annee: 2006
   ecurie: honda
   equipe: Honda
@@ -3646,10 +3704,12 @@ cas:
   - voiture: Honda RA106
     gps:
     - Hungary
-  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Honda RA106, sans changement de modèle en cours de saison.
+  pourquoi: La fiche officielle de Honda attribue la victoire de Button sur le Hungaroring à la RA106, présentée comme la voiture 2006 de l'équipe ; les résultats officiels confirment la victoire de Honda en Hongrie.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Honda, « 2006 Honda RA106 – A Monument to Honda's 72nd F1 Victory » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2006_HondaRA106/
+  - titre: Formula1.com, « 2006 Race Results »
+    url: https://www.formula1.com/en/results/2006/races
 - annee: 2006
   ecurie: renault
   equipe: Renault
@@ -3664,10 +3724,12 @@ cas:
     - Great Britain
     - Canada
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2006 ne donne qu'un châssis pour l'écurie, la Renault R26, sans changement de modèle en cours de saison.
+  pourquoi: Renault (musée The Originals) crédite la R26 de 8 victoires en 2006 (7 pour Alonso, 1 pour Fisichella) ; les résultats officiels attribuent à Renault exactement ces huit Grands Prix, de Bahreïn au Japon.
   sources:
-  - titre: Wikipedia, « 2006 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2006_Formula_One_World_Championship
+  - titre: Renault, The Originals, « F1 R26-03 »
+    url: https://theoriginals.renault.com/en/f1-r26-03
+  - titre: Formula1.com, « 2006 Race Results »
+    url: https://www.formula1.com/en/results/2006/races
 - annee: 2007
   ecurie: ferrari
   equipe: Ferrari
@@ -3683,10 +3745,12 @@ cas:
     - Belgium
     - People’s Republic of China China
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2007 ne donne qu'un châssis pour l'écurie, la Ferrari F2007, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique avoir aligné la F2007 en 2007 et remporté neuf victoires (6 pour Räikkönen, 3 pour Massa) ; les résultats officiels attribuent à Ferrari ces neuf Grands Prix, de l'Australie au Brésil.
   sources:
-  - titre: Wikipedia, « 2007 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
+  - titre: Ferrari, « 2007 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2007
+  - titre: Formula1.com, « 2007 Race Results »
+    url: https://www.formula1.com/en/results/2007/races
 - annee: 2007
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3701,10 +3765,10 @@ cas:
     - Hungary
     - Italy
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2007 ne donne qu'un châssis pour l'écurie, la McLaren MP4-22, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste officielle des victoires McLaren attribue à la MP4-22 les huit succès de 2007 : Malaisie, Monaco, Canada, États-Unis, Europe, Hongrie, Italie et Japon.'
   sources:
-  - titre: Wikipedia, « 2007 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2007_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2008
   ecurie: bmw-sauber
   equipe: Sauber BMW
@@ -3712,10 +3776,14 @@ cas:
   - voiture: BMW Sauber F1.08
     gps:
     - Canada
-  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la BMW Sauber F1.08, sans changement de modèle en cours de saison.
+  pourquoi: F1technical et Motorsport.com identifient la BMW Sauber F1.08 comme la voiture de 2008 avec laquelle Kubica donne à l'équipe sa première victoire, au Canada, ce que confirment les résultats officiels.
   sources:
-  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+  - titre: F1technical.net, « BMW Sauber F1.08 »
+    url: https://www.f1technical.net/f1db/cars/937/bmw-sauber-f108
+  - titre: Motorsport.com, Adam Cooper, « When a Hamilton F1 mishap handed Kubica a grand prix win » (juin 2021)
+    url: https://www.motorsport.com/f1/news/2008-canadian-gp-retro-kubica-hamilton/4803148/
+  - titre: Formula1.com, « 2008 Race Results »
+    url: https://www.formula1.com/en/results/2008/races
 - annee: 2008
   ecurie: ferrari
   equipe: Ferrari
@@ -3730,10 +3798,12 @@ cas:
     - Spain Europe
     - Belgium
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la Ferrari F2008, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique avoir défendu son titre avec la F2008 et remporté 8 victoires (6 pour Massa, 2 pour Räikkönen) ; les résultats officiels attribuent à Ferrari ces huit Grands Prix, de la Malaisie au Brésil.
   sources:
-  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+  - titre: Ferrari, « 2008 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2008
+  - titre: Formula1.com, « 2008 Race Results »
+    url: https://www.formula1.com/en/results/2008/races
 - annee: 2008
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3746,10 +3816,12 @@ cas:
     - Germany
     - Hungary
     - People’s Republic of China China
-  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la McLaren MP4-23, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste officielle des victoires McLaren attribue à la MP4-23 les six succès de 2008 : Australie, Monaco, Grande-Bretagne, Allemagne, Hongrie (Kovalainen) et Chine.'
   sources:
-  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
+  - titre: McLaren, « MP4-23 »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2008-formula-1-mclaren-mp4-23/
 - annee: 2008
   ecurie: renault
   equipe: Renault
@@ -3758,10 +3830,14 @@ cas:
     gps:
     - Singapore
     - Japan
-  pourquoi: Le tableau des engagés de la saison 2008 ne donne qu'un châssis pour l'écurie, la Renault R28, sans changement de modèle en cours de saison.
+  pourquoi: F1technical et Motorsport.com identifient la R28 comme la voiture 2008 de Renault, pilotée par Alonso ; les résultats officiels attribuent à Renault les victoires d'Alonso à Singapour et au Japon.
   sources:
-  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
+  - titre: F1technical.net, « ING Renault R28 »
+    url: https://www.f1technical.net/f1db/cars/934/renault-r28
+  - titre: Motorsport.com, Adam Cooper, « When a Hamilton F1 mishap handed Kubica a grand prix win » (juin 2021)
+    url: https://www.motorsport.com/f1/news/2008-canadian-gp-retro-kubica-hamilton/4803148/
+  - titre: Formula1.com, « 2008 Race Results »
+    url: https://www.formula1.com/en/results/2008/races
 - annee: 2008
   ecurie: toro-rosso
   equipe: STR Ferrari
@@ -3769,12 +3845,12 @@ cas:
   - voiture: Toro Rosso STR3
     gps:
     - Italy
-  pourquoi: La STR3 a remplacé la STR2B à Monaco ; c'est avec elle que Vettel a gagné le Grand Prix d'Italie.
+  pourquoi: F1technical établit que la STR3 a remplacé la STR2B en cours de saison, son introduction ayant été repoussée de la Turquie à Monaco, et que c'est avec elle que Vettel a gagné à Monza ; les résultats officiels confirment la victoire de STR Ferrari en Italie.
   sources:
-  - titre: Wikipedia, « 2008 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2008_Formula_One_World_Championship
-  - titre: Wikipedia, « Toro Rosso STR3 »
-    url: https://en.wikipedia.org/wiki/Toro_Rosso_STR3
+  - titre: F1technical.net, « Scuderia Toro Rosso STR3 »
+    url: https://www.f1technical.net/f1db/cars/936/scuderia-toro-rosso-str3
+  - titre: Formula1.com, « 2008 Race Results »
+    url: https://www.formula1.com/en/results/2008/races
 - annee: 2009
   ecurie: brawn
   equipe: Brawn Mercedes
@@ -3789,10 +3865,12 @@ cas:
     - Türkiye Turkey
     - Spain Europe
     - Italy
-  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Brawn BGP 001, sans changement de modèle en cours de saison.
+  pourquoi: Formula1.com présente la BGP 001 comme la voiture de Brawn GP en 2009, saison conclue par le titre et 8 victoires ; les résultats officiels attribuent à Brawn Mercedes ces huit Grands Prix, de l'Australie à l'Italie.
   sources:
-  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+  - titre: Formula1.com, Mike Seymour, « From Brawn GP’s fairytale to Aston Martin’s super start – The biggest year-on-year performance jumps in F1 history » (avril 2023)
+    url: https://www.formula1.com/en/latest/article/from-brms-rapid-rise-to-brawn-gps-sensational-surge-the-biggest-year-on-year.4vtXUNW9crw8XRAX6ZBB1t
+  - titre: Formula1.com, « 2009 Race Results »
+    url: https://www.formula1.com/en/results/2009/races
 - annee: 2009
   ecurie: ferrari
   equipe: Ferrari
@@ -3800,10 +3878,10 @@ cas:
   - voiture: Ferrari F60
     gps:
     - Belgium
-  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Ferrari F60, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique que sa voiture 2009 est la F60 et que sa seule victoire de l'année est celle de Räikkönen à Spa-Francorchamps.
   sources:
-  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+  - titre: Ferrari, « 2009 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2009
 - annee: 2009
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3812,10 +3890,10 @@ cas:
     gps:
     - Hungary
     - Singapore
-  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la McLaren MP4-24, sans changement de modèle en cours de saison.
+  pourquoi: La liste officielle des victoires McLaren attribue à la MP4-24 les deux succès de Hamilton en 2009, en Hongrie et à Singapour.
   sources:
-  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2009
   ecurie: red-bull
   equipe: RBR Renault
@@ -3828,10 +3906,12 @@ cas:
     - Japan
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2009 ne donne qu'un châssis pour l'écurie, la Red Bull RB5, sans changement de modèle en cours de saison.
+  pourquoi: Red Bull Racing crédite la RB5 de six victoires en 2009, dont la première de l'équipe ; les résultats officiels attribuent à RBR Renault ces six Grands Prix (Chine, Grande-Bretagne, Allemagne, Japon, Brésil, Abou Dhabi).
   sources:
-  - titre: Wikipedia, « 2009 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2009_Formula_One_World_Championship
+  - titre: Red Bull Racing, « RB5 »
+    url: https://www.redbullracing.com/int-en/cars/rb5
+  - titre: Formula1.com, « 2009 Race Results »
+    url: https://www.formula1.com/en/results/2009/races
 - annee: 2010
   ecurie: ferrari
   equipe: Ferrari
@@ -3843,10 +3923,10 @@ cas:
     - Italy
     - Singapore
     - Republic of Korea South Korea
-  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la Ferrari F10, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique que la F10 gagne à Bahreïn (doublé Alonso-Massa), puis avec Alonso en Allemagne, en Italie, à Singapour et en Corée.
   sources:
-  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+  - titre: Ferrari, « 2010 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2010
 - annee: 2010
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3858,10 +3938,10 @@ cas:
     - Türkiye Turkey
     - Canada
     - Belgium
-  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la McLaren MP4-25, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste officielle des victoires McLaren attribue à la MP4-25 les cinq succès de 2010 : Australie, Chine, Turquie, Canada et Belgique.'
   sources:
-  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2010
   ecurie: red-bull
   equipe: RBR Renault
@@ -3877,10 +3957,12 @@ cas:
     - Japan
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2010 ne donne qu'un châssis pour l'écurie, la Red Bull RB6, sans changement de modèle en cours de saison.
+  pourquoi: Red Bull Racing présente la RB6 comme la voiture de son premier titre et lui attribue 9 victoires ; les résultats officiels donnent à RBR Renault ces neuf Grands Prix, de la Malaisie à Abou Dhabi.
   sources:
-  - titre: Wikipedia, « 2010 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2010_Formula_One_World_Championship
+  - titre: Red Bull Racing, « RB6 »
+    url: https://www.redbullracing.com/int-en/cars/rb6
+  - titre: Formula1.com, « 2010 Race Results »
+    url: https://www.formula1.com/en/results/2010/races
 - annee: 2011
   ecurie: ferrari
   equipe: Ferrari
@@ -3888,10 +3970,12 @@ cas:
   - voiture: Ferrari 150° Italia
     gps:
     - Great Britain
-  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la Ferrari 150° Italia, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique que la 150° Italia ne gagne qu'une course en 2011, le Grand Prix de Grande-Bretagne avec Alonso, ce que confirment les résultats officiels.
   sources:
-  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+  - titre: Ferrari, « 2011 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2011
+  - titre: Formula1.com, « 2011 Race Results »
+    url: https://www.formula1.com/en/results/2011/races
 - annee: 2011
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3904,10 +3988,10 @@ cas:
     - Hungary
     - Japan
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la McLaren MP4-26, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste officielle des victoires McLaren attribue à la MP4-26 les six succès de 2011 : Chine, Canada, Allemagne, Hongrie, Japon et Abou Dhabi.'
   sources:
-  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
 - annee: 2011
   ecurie: red-bull
   equipe: Red Bull Racing Renault
@@ -3926,10 +4010,12 @@ cas:
     - Republic of Korea South Korea
     - India
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2011 ne donne qu'un châssis pour l'écurie, la Red Bull RB7, sans changement de modèle en cours de saison.
+  pourquoi: Red Bull Racing crédite la RB7 de 12 victoires en 2011 ; les résultats officiels attribuent à Red Bull Racing Renault ces douze Grands Prix, de l'Australie au Brésil.
   sources:
-  - titre: Wikipedia, « 2011 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2011_Formula_One_World_Championship
+  - titre: Red Bull Racing, « RB7 »
+    url: https://www.redbullracing.com/int-en/cars/rb7
+  - titre: Formula1.com, « 2011 Race Results »
+    url: https://www.formula1.com/en/results/2011/races
 - annee: 2012
   ecurie: ferrari
   equipe: Ferrari
@@ -3939,10 +4025,10 @@ cas:
     - Malaysia
     - Spain Europe
     - Germany
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Ferrari F2012, sans changement de modèle en cours de saison.
+  pourquoi: Ferrari indique que la F2012 permet à Alonso de gagner en Malaisie, au Grand Prix d'Europe à Valence et en Allemagne.
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: Ferrari, « 2012 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2012
 - annee: 2012
   ecurie: lotus-f1
   equipe: Lotus Renault
@@ -3950,10 +4036,12 @@ cas:
   - voiture: Lotus E20
     gps:
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Lotus E20, sans changement de modèle en cours de saison.
+  pourquoi: F1technical identifie la E20 comme la voiture 2012 du Lotus F1 Team ; les résultats officiels attribuent à Lotus Renault la victoire de Räikkönen à Abou Dhabi.
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: F1technical.net, « Lotus E20 Renault »
+    url: https://www.f1technical.net/f1db/cars/994/lotus-e20
+  - titre: Formula1.com, « 2012 Race Results »
+    url: https://www.formula1.com/en/results/2012/races
 - annee: 2012
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -3967,10 +4055,14 @@ cas:
     - Italy
     - United States of America United States
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la McLaren MP4-27, sans changement de modèle en cours de saison.
+  pourquoi: McLaren crédite la MP4-27 de 7 victoires en 2012 ; sa liste officielle lui attribue l'Australie, le Canada, la Hongrie, la Belgique, l'Italie et les États-Unis, et les résultats officiels y ajoutent le Brésil (Button).
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: McLaren, « MP4-27 »
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2012-formula-1-mclaren-mp4-27/
+  - titre: McLaren, « McLaren tops the post-'66 Grand Prix wins list » (décembre 2012)
+    url: https://www.mclaren.com/racing/heritage/mclaren-tops-the-post-66-grand-prix-wins-list/
+  - titre: Formula1.com, « 2012 Race Results »
+    url: https://www.formula1.com/en/results/2012/races
 - annee: 2012
   ecurie: mercedes
   equipe: Mercedes
@@ -3978,10 +4070,12 @@ cas:
   - voiture: Mercedes F1 W03
     gps:
     - People’s Republic of China China
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W03, sans changement de modèle en cours de saison.
+  pourquoi: Formula1.com et Motorsport.com établissent que Rosberg remporte en Chine, au volant de la F1 W03, la première victoire de Mercedes comme écurie d'usine depuis 1955.
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: Formula1.com, « Mercedes – Year by Year »
+    url: https://www.formula1.com/en/information/mercedes-year-by-year.45gq1OShE3U1H5iEJSVtNd
+  - titre: Motorsport.com, Adam Cooper, « How Mercedes' Shanghai 2012 win was a sign of things to come » (avril 2023)
+    url: https://www.motorsport.com/f1/news/rosberg-mercedes-china-win-2012/4780871/
 - annee: 2012
   ecurie: red-bull
   equipe: Red Bull Racing Renault
@@ -3995,10 +4089,14 @@ cas:
     - Japan
     - Republic of Korea South Korea
     - India
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Red Bull RB8, sans changement de modèle en cours de saison.
+  pourquoi: Red Bull Racing et F1technical créditent la RB8 de 7 victoires en 2012 ; les résultats officiels attribuent à Red Bull Racing Renault ces sept Grands Prix (Bahreïn, Monaco, Grande-Bretagne, Singapour, Japon, Corée, Inde).
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: Red Bull Racing, « RB8 »
+    url: https://www.redbullracing.com/int-en/cars/rb8
+  - titre: F1technical.net, « Red Bull RB8 Renault »
+    url: https://www.f1technical.net/f1db/cars/986/red-bull-rb8
+  - titre: Formula1.com, « 2012 Race Results »
+    url: https://www.formula1.com/en/results/2012/races
 - annee: 2012
   ecurie: williams
   equipe: Williams Renault
@@ -4006,10 +4104,12 @@ cas:
   - voiture: Williams FW34
     gps:
     - Spain
-  pourquoi: Le tableau des engagés de la saison 2012 ne donne qu'un châssis pour l'écurie, la Williams FW34, sans changement de modèle en cours de saison.
+  pourquoi: Autosport présente la FW34 comme la voiture 2012 de Williams, désormais motorisée par Renault ; les résultats officiels attribuent à Williams Renault la victoire de Maldonado en Espagne.
   sources:
-  - titre: Wikipedia, « 2012 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2012_Formula_One_World_Championship
+  - titre: 'Autosport, « Tech notes: team revolution, car evolution at Williams » (9 février 2012)'
+    url: https://www.autosport.com/f1/news/tech-notes-team-revolution-car-evolution-at-williams-5098311/5098311/
+  - titre: Formula1.com, « 2012 Race Results »
+    url: https://www.formula1.com/en/results/2012/races
 - annee: 2013
   ecurie: ferrari
   equipe: Ferrari
@@ -4018,10 +4118,12 @@ cas:
     gps:
     - People’s Republic of China China
     - Spain
-  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Ferrari F138, sans changement de modèle en cours de saison.
+  pourquoi: Le site de Ferrari présente la F138 comme la monoplace de la saison 2013, dont le nom associe l'année et le nombre de cylindres ; son historique de la saison attribue à la Scuderia deux victoires dans les cinq premières courses, en Chine et en Espagne.
   sources:
-  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+  - titre: Ferrari, « 2013 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2013
+  - titre: 'Ferrari, « Ferrari F138: 2013 F1 single-seater »'
+    url: https://www.ferrari.com/en-EN/formula1/f138
 - annee: 2013
   ecurie: lotus-f1
   equipe: Lotus Renault
@@ -4029,10 +4131,12 @@ cas:
   - voiture: Lotus E21
     gps:
     - Australia
-  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Lotus E21, sans changement de modèle en cours de saison.
+  pourquoi: Les comptes rendus du Grand Prix d'Australie 2013 publiés par F1Technical attribuent la victoire de Räikkönen à la Lotus E21, et le communiqué de l'équipe précise même le châssis du vainqueur, l'E21-03.
   sources:
-  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+  - titre: F1Technical, Steven De Groote, « Raikkonen wins Australian GP at Melbourne » (mars 2013)
+    url: https://www.f1technical.net/news/18230
+  - titre: F1Technical, Steven De Groote, « Lotus delighted to start season with win » (mars 2013)
+    url: https://www.f1technical.net/news/18240
 - annee: 2013
   ecurie: mercedes
   equipe: Mercedes
@@ -4042,10 +4146,10 @@ cas:
     - Monaco
     - Great Britain
     - Hungary
-  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W04, sans changement de modèle en cours de saison.
+  pourquoi: La galerie de Motorsport.com consacrée aux Mercedes de F1 donne la W04 comme voiture de 2013 et lui attribue les trois victoires de Rosberg et Hamilton cette saison-là.
   sources:
-  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
 - annee: 2013
   ecurie: red-bull
   equipe: Red Bull Racing Renault
@@ -4065,10 +4169,12 @@ cas:
     - United Arab Emirates Abu Dhabi
     - United States of America United States
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2013 ne donne qu'un châssis pour l'écurie, la Red Bull RB9, sans changement de modèle en cours de saison.
+  pourquoi: 'La liste des victoires de Red Bull publiée par Motorsport.com attribue chacune des treize victoires de 2013, de la Malaisie au Brésil, à la RB9 Renault ; Motor Sport confirme le bilan de la RB9 : 13 victoires en 19 courses, toutes pour Vettel.'
   sources:
-  - titre: Wikipedia, « 2013 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2013_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+  - titre: 'Motor Sport, Damien Smith, « Red Bull RB9: F1 machine that sealed the team''s first dominant era » (mai 2024)'
+    url: https://www.motorsportmagazine.com/archive/article/may-2024/110/red-bull-rb9-f1-machine-that-sealed-the-teams-first-dominant-era
 - annee: 2014
   ecurie: mercedes
   equipe: Mercedes
@@ -4091,10 +4197,12 @@ cas:
     - United States of America United States
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2014 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W05 Hybrid, sans changement de modèle en cours de saison.
+  pourquoi: Mercedes et Autosport attribuent à la seule F1 W05 Hybrid les seize victoires de l'écurie en 2014 (16 sur 19 courses).
   sources:
-  - titre: Wikipedia, « 2014 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+  - titre: 'Mercedes-AMG Petronas F1 Team, « The Silver Arrows Story: Mercedes W05 » (janvier 2021)'
+    url: https://www.mercedesamgf1.com/news/the-silver-arrows-story-mercedes-w05
+  - titre: Autosport, Ed Hardy, « F1's most dominant cars ever from Red Bull RB19 to McLaren MP4/4 and more » (novembre 2023)
+    url: https://www.autosport.com/f1/news/f1s-most-dominant-cars-ever-from-red-bull-rb19-to-mclaren-mp4-4-and-more/10549832/
 - annee: 2014
   ecurie: red-bull
   equipe: Red Bull Racing Renault
@@ -4104,10 +4212,12 @@ cas:
     - Canada
     - Hungary
     - Belgium
-  pourquoi: Le tableau des engagés de la saison 2014 ne donne qu'un châssis pour l'écurie, la Red Bull RB10, sans changement de modèle en cours de saison.
+  pourquoi: La liste des victoires de Red Bull publiée par Motorsport.com attribue les trois succès de Ricciardo en 2014 (Canada, Hongrie, Belgique) à la RB10 Renault, seule voiture de l'écurie cette saison-là selon la galerie de Motorsport.com.
   sources:
-  - titre: Wikipedia, « 2014 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2014_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+  - titre: Motorsport.com, « This is every Red Bull Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/this-is-every-red-bull-formula-1-car-/11085/
 - annee: 2015
   ecurie: ferrari
   equipe: Ferrari
@@ -4117,10 +4227,10 @@ cas:
     - Malaysia
     - Hungary
     - Singapore
-  pourquoi: Le tableau des engagés de la saison 2015 ne donne qu'un châssis pour l'écurie, la Ferrari SF15-T, sans changement de modèle en cours de saison.
+  pourquoi: 'L''historique de la saison 2015 publié par Ferrari nomme la SF15-T et ses trois victoires, toutes de Vettel : Malaisie, Hongrie et Singapour.'
   sources:
-  - titre: Wikipedia, « 2015 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
+  - titre: Ferrari, « 2015 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2015
 - annee: 2015
   ecurie: mercedes
   equipe: Mercedes
@@ -4143,10 +4253,12 @@ cas:
     - Mexico
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2015 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W06 Hybrid, sans changement de modèle en cours de saison.
+  pourquoi: Mercedes et Autosport attribuent à la F1 W06 Hybrid les seize victoires de l'écurie en 2015 (16 sur 19 courses).
   sources:
-  - titre: Wikipedia, « 2015 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2015_Formula_One_World_Championship
+  - titre: 'Mercedes-AMG Petronas F1 Team, « The Silver Arrows Story: Mercedes W06 » (février 2021)'
+    url: https://www.mercedesamgf1.com/news/the-silver-arrows-story-mercedes-w06
+  - titre: Autosport, Ed Hardy, « F1's most dominant cars ever from Red Bull RB19 to McLaren MP4/4 and more » (novembre 2023)
+    url: https://www.autosport.com/f1/news/f1s-most-dominant-cars-ever-from-red-bull-rb19-to-mclaren-mp4-4-and-more/10549832/
 - annee: 2016
   ecurie: mercedes
   equipe: Mercedes
@@ -4172,10 +4284,12 @@ cas:
     - Mexico
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2016 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W07 Hybrid, sans changement de modèle en cours de saison.
+  pourquoi: Mercedes et Autosport attribuent à la F1 W07 Hybrid les dix-neuf victoires de l'écurie en 2016 (19 sur 21 courses).
   sources:
-  - titre: Wikipedia, « 2016 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
+  - titre: 'Mercedes-AMG Petronas F1 Team, « The Silver Arrows Story: Mercedes W07 » (février 2021)'
+    url: https://www.mercedesamgf1.com/news/the-silver-arrows-story-mercedes-w07
+  - titre: Autosport, Ed Hardy, « F1's most dominant cars ever from Red Bull RB19 to McLaren MP4/4 and more » (novembre 2023)
+    url: https://www.autosport.com/f1/news/f1s-most-dominant-cars-ever-from-red-bull-rb19-to-mclaren-mp4-4-and-more/10549832/
 - annee: 2016
   ecurie: red-bull
   equipe: Red Bull Racing TAG Heuer
@@ -4184,10 +4298,12 @@ cas:
     gps:
     - Spain
     - Malaysia
-  pourquoi: Le tableau des engagés de la saison 2016 ne donne qu'un châssis pour l'écurie, la Red Bull RB12, sans changement de modèle en cours de saison.
+  pourquoi: La liste des victoires de Red Bull publiée par Motorsport.com attribue les deux succès de 2016 (Verstappen en Espagne, Ricciardo en Malaisie) à la RB12 TAG Heuer, dont la galerie de Motorsport.com confirme les deux victoires.
   sources:
-  - titre: Wikipedia, « 2016 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2016_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+  - titre: Motorsport.com, « This is every Red Bull Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/this-is-every-red-bull-formula-1-car-/11085/
 - annee: 2017
   ecurie: ferrari
   equipe: Ferrari
@@ -4199,10 +4315,10 @@ cas:
     - Monaco
     - Hungary
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Ferrari SF70H, sans changement de modèle en cours de saison.
+  pourquoi: 'L''historique de la saison 2017 publié par Ferrari place Vettel et Räikkönen au volant de la SF70H et cite ses cinq victoires, toutes de Vettel : Australie, Bahreïn, Monaco, Hongrie et Brésil.'
   sources:
-  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+  - titre: Ferrari, « 2017 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2017
 - annee: 2017
   ecurie: mercedes
   equipe: Mercedes
@@ -4221,10 +4337,10 @@ cas:
     - Japan
     - United States of America United States
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W08 EQ Power+, sans changement de modèle en cours de saison.
+  pourquoi: Motorsport.com, qui rend compte du prix de la voiture de l'année des Autosport Awards, désigne la W08 comme la voiture de Mercedes en 2017, avec laquelle Hamilton et Bottas ont gagné 12 des 20 Grands Prix.
   sources:
-  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+  - titre: 'Motorsport.com, Jack Cozens, « Autosport Awards: Mercedes wins Racing Car of the year » (décembre 2017)'
+    url: https://www.motorsport.com/general/news/autosport-awards-mercedes-wins-racing-car-of-the-year-985597/1382021/
 - annee: 2017
   ecurie: red-bull
   equipe: Red Bull Racing TAG Heuer
@@ -4234,10 +4350,10 @@ cas:
     - Azerbaijan
     - Malaysia
     - Mexico
-  pourquoi: Le tableau des engagés de la saison 2017 ne donne qu'un châssis pour l'écurie, la Red Bull RB13, sans changement de modèle en cours de saison.
+  pourquoi: La liste des victoires de Red Bull publiée par Motorsport.com attribue les trois succès de 2017 (Ricciardo à Bakou, Verstappen en Malaisie et au Mexique) à la RB13 TAG Heuer.
   sources:
-  - titre: Wikipedia, « 2017 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2017_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
 - annee: 2018
   ecurie: ferrari
   equipe: Ferrari
@@ -4250,10 +4366,10 @@ cas:
     - Great Britain
     - Belgium
     - United States of America United States
-  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Ferrari SF71H, sans changement de modèle en cours de saison.
+  pourquoi: L'historique de la saison 2018 publié par Ferrari nomme la SF71H, cite les victoires en Australie, à Bahreïn, au Canada, en Grande-Bretagne et aux États-Unis, et donne un total de six victoires.
   sources:
-  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+  - titre: Ferrari, « 2018 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2018
 - annee: 2018
   ecurie: mercedes
   equipe: Mercedes
@@ -4271,10 +4387,10 @@ cas:
     - Japan
     - Brazil
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W09 EQ Power+, sans changement de modèle en cours de saison.
+  pourquoi: Mercedes attribue à la F1 W09 les onze victoires de Hamilton et Bottas en 2018, qui correspondent aux onze Grands Prix de la donnée.
   sources:
-  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+  - titre: 'Mercedes-AMG Petronas F1 Team, « The Silver Arrows Story: Mercedes W09 » (février 2021)'
+    url: https://www.mercedesamgf1.com/news/the-silver-arrows-story-mercedes-w09
 - annee: 2018
   ecurie: red-bull
   equipe: Red Bull Racing TAG Heuer
@@ -4285,10 +4401,10 @@ cas:
     - Monaco
     - Austria
     - Mexico
-  pourquoi: Le tableau des engagés de la saison 2018 ne donne qu'un châssis pour l'écurie, la Red Bull RB14, sans changement de modèle en cours de saison.
+  pourquoi: La liste des victoires de Red Bull publiée par Motorsport.com attribue les quatre succès de 2018 (Ricciardo en Chine et à Monaco, Verstappen en Autriche et au Mexique) à la RB14 TAG Heuer.
   sources:
-  - titre: Wikipedia, « 2018 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2018_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
 - annee: 2019
   ecurie: ferrari
   equipe: Ferrari
@@ -4298,10 +4414,10 @@ cas:
     - Belgium
     - Italy
     - Singapore
-  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Ferrari SF90, sans changement de modèle en cours de saison.
+  pourquoi: 'L''historique de la saison 2019 publié par Ferrari nomme la SF90 et ses trois victoires : Leclerc à Spa et à Monza, Vettel à Singapour.'
   sources:
-  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+  - titre: Ferrari, « 2019 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2019
 - annee: 2019
   ecurie: mercedes
   equipe: Mercedes
@@ -4323,10 +4439,10 @@ cas:
     - Mexico
     - United States of America United States
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W10 EQ Power+, sans changement de modèle en cours de saison.
+  pourquoi: Mercedes attribue à la W10 les quinze victoires de l'écurie en 2019, qui correspondent aux quinze Grands Prix de la donnée.
   sources:
-  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+  - titre: 'Mercedes-AMG Petronas F1 Team, « The Silver Arrows Story: Mercedes W10 » (mars 2021)'
+    url: https://www.mercedesamgf1.com/news/the-silver-arrows-story-mercedes-w10
 - annee: 2019
   ecurie: red-bull
   equipe: Red Bull Racing Honda
@@ -4336,10 +4452,12 @@ cas:
     - Austria
     - Germany
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2019 ne donne qu'un châssis pour l'écurie, la Red Bull RB15, sans changement de modèle en cours de saison.
+  pourquoi: Honda attribue à la RB15 les trois victoires de Verstappen en 2019 (Autriche, Allemagne, Brésil), et la liste des victoires de Red Bull publiée par Motorsport.com donne la même voiture pour chacune.
   sources:
-  - titre: Wikipedia, « 2019 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2019_Formula_One_World_Championship
+  - titre: Honda, « 2019 Aston Martin Red Bull Racing RB15 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2019_RedBullRB15/
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
 - annee: 2020
   ecurie: alphatauri
   equipe: AlphaTauri Honda
@@ -4347,10 +4465,10 @@ cas:
   - voiture: AlphaTauri AT01
     gps:
     - Italy
-  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la AlphaTauri AT01, sans changement de modèle en cours de saison.
+  pourquoi: Honda présente l'AT01 comme la première et seule voiture de l'écurie rebaptisée AlphaTauri en 2020, et raconte la victoire de Gasly avec elle au Grand Prix d'Italie à Monza.
   sources:
-  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+  - titre: Honda, « 2020 Scuderia AlphaTauri Honda AT01 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2020_AlphaTauriAT01/
 - annee: 2020
   ecurie: mercedes
   equipe: Mercedes
@@ -4370,10 +4488,12 @@ cas:
     - Italy Emilia-Romagna
     - Türkiye Turkey
     - Bahrain
-  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W11, sans changement de modèle en cours de saison.
+  pourquoi: Motorsport.com désigne la W11 comme la voiture de Mercedes en 2020, et Autosport, qui la nomme aussi, compte déjà 12 victoires à trois courses de la fin ; la treizième est celle de Bahreïn.
   sources:
-  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
+  - titre: Autosport, Alex Kalinauckas, « How COVID-19 played a part in Mercedes' domination » (novembre 2020)
+    url: https://www.autosport.com/f1/news/how-covid-19-played-a-part-in-mercedes-domination-5114602/5114602/
 - annee: 2020
   ecurie: racing-point
   equipe: Racing Point BWT Mercedes
@@ -4381,10 +4501,12 @@ cas:
   - voiture: Racing Point RP20
     gps:
     - Bahrain Sakhir
-  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Racing Point RP20, sans changement de modèle en cours de saison.
+  pourquoi: GrandPrix.com rend compte de la victoire de Pérez au Grand Prix de Sakhir avec la Racing Point-Mercedes, et Autosport, dans son analyse de la même course, désigne cette voiture comme la RP20.
   sources:
-  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+  - titre: GrandPrix.com, Mark Karp, « Race Notes - Perez wins Sakhir Grand Prix » (décembre 2020)
+    url: https://www.grandprix.com/races/sakhir-gp-2020-race-notes.html
+  - titre: Autosport, Luke Smith, « 10 things we learned from the Sakhir Grand Prix » (décembre 2020)
+    url: https://www.autosport.com/f1/news/10-things-we-learned-from-the-2020-sakhir-grand-prix-4976520/4976520/
 - annee: 2020
   ecurie: red-bull
   equipe: Red Bull Racing Honda
@@ -4393,10 +4515,12 @@ cas:
     gps:
     - Great Britain 70th Anniversary
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2020 ne donne qu'un châssis pour l'écurie, la Red Bull RB16, sans changement de modèle en cours de saison.
+  pourquoi: Honda raconte les deux victoires de Verstappen en 2020 avec la RB16 (Grand Prix du 70e anniversaire à Silverstone, puis Abu Dhabi), et la liste des victoires de Red Bull publiée par Motorsport.com donne la même voiture pour chacune.
   sources:
-  - titre: Wikipedia, « 2020 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2020_Formula_One_World_Championship
+  - titre: Honda, « 2020 Aston Martin Red Bull Racing RB16 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2020_RedBullRB16/
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
 - annee: 2021
   ecurie: alpine
   equipe: Alpine Renault
@@ -4404,10 +4528,10 @@ cas:
   - voiture: Alpine A521
     gps:
     - Hungary
-  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Alpine A521, sans changement de modèle en cours de saison.
+  pourquoi: Motorsport.com, qui revient sur la victoire d'Ocon au Grand Prix de Hongrie 2021, légende la photo du vainqueur au volant de l'Alpine A521.
   sources:
-  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+  - titre: 'Motorsport.com, Filip Cleeren, « Ocon: Hungary F1 win took pressure away from Alpine » (janvier 2022)'
+    url: https://us.motorsport.com/f1/news/ocon-hungary-f1-win-took-pressure-away-from-alpine/7098172/
 - annee: 2021
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -4415,10 +4539,12 @@ cas:
   - voiture: McLaren MCL35M
     gps:
     - Italy
-  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la McLaren MCL35M, sans changement de modèle en cours de saison.
+  pourquoi: Formula1.com et Autosport associent la victoire de Ricciardo à Monza en 2021 à la McLaren MCL35M, la voiture qu'il pilotait toute la saison.
   sources:
-  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+  - titre: Formula1.com, « Ricciardo calls Monza 2021 win 'biggest moment of my career' » (janvier 2022)
+    url: https://www.formula1.com/en/latest/article.ricciardo-calls-monza-2021-win-biggest-moment-of-my-career.5BcePQK8Uu3spZyqvIHL90.html
+  - titre: Autosport, « 10 things we learned from F1's 2021 Italian Grand Prix » (septembre 2021)
+    url: https://www.autosport.com/f1/news/10-things-we-learned-from-f1s-2021-italian-grand-prix/6667216/
 - annee: 2021
   ecurie: mercedes
   equipe: Mercedes
@@ -4434,10 +4560,10 @@ cas:
     - Brazil
     - Qatar
     - Saudi Arabia
-  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W12, sans changement de modèle en cours de saison.
+  pourquoi: La galerie de Motorsport.com consacrée aux Mercedes de F1 donne la W12 comme voiture de 2021 et lui attribue neuf victoires, autant que de Grands Prix dans la donnée.
   sources:
-  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
 - annee: 2021
   ecurie: red-bull
   equipe: Red Bull Racing Honda
@@ -4455,10 +4581,12 @@ cas:
     - United States of America United States
     - Mexico
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2021 ne donne qu'un châssis pour l'écurie, la Red Bull RB16B, sans changement de modèle en cours de saison.
+  pourquoi: La liste des victoires de Red Bull publiée par Motorsport.com attribue chacune des onze victoires de 2021, d'Émilie-Romagne à Abu Dhabi (dont celle de Pérez à Bakou), à la RB16B Honda ; Honda confirme les dix victoires de Verstappen avec cette voiture.
   sources:
-  - titre: Wikipedia, « 2021 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2021_Formula_One_World_Championship
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+  - titre: Honda, « 2021 Red Bull Racing Honda RB16B » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2021_RedBullRB16B/
 - annee: 2022
   ecurie: ferrari
   equipe: Ferrari
@@ -4469,10 +4597,10 @@ cas:
     - Australia
     - Great Britain
     - Austria
-  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Ferrari F1-75, sans changement de modèle en cours de saison.
+  pourquoi: 'L''historique de la saison 2022 publié par Ferrari nomme la F1-75 et ses quatre victoires : Leclerc à Bahreïn, en Australie et en Autriche, Sainz à Silverstone.'
   sources:
-  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+  - titre: Ferrari, « 2022 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2022
 - annee: 2022
   ecurie: mercedes
   equipe: Mercedes
@@ -4480,10 +4608,10 @@ cas:
   - voiture: Mercedes F1 W13
     gps:
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W13, sans changement de modèle en cours de saison.
+  pourquoi: Autosport, qui analyse le doublé de Russell et Hamilton à Interlagos, l'attribue à la W13, une voiture qui avait « rarement eu l'air d'une gagnante » en 2022.
   sources:
-  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+  - titre: Autosport, Matt Kew, « How Russell led Mercedes' return to winning F1 ways in Brazil » (novembre 2022)
+    url: https://www.autosport.com/f1/news/how-russell-led-mercedes-return-to-winning-f1-ways/10399726/
 - annee: 2022
   ecurie: red-bull
   equipe: Red Bull Racing RBPT
@@ -4507,10 +4635,12 @@ cas:
     - United States of America United States
     - Mexico
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2022 ne donne qu'un châssis pour l'écurie, la Red Bull RB18, sans changement de modèle en cours de saison.
+  pourquoi: Autosport attribue à la RB18 les dix-sept victoires de Red Bull en 2022 (17 sur 22), et la liste des victoires de Red Bull publiée par Motorsport.com donne la RB18 pour chacune, de l'Arabie saoudite à Abu Dhabi.
   sources:
-  - titre: Wikipedia, « 2022 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2022_Formula_One_World_Championship
+  - titre: Autosport, Ed Hardy, « F1's most dominant cars ever from Red Bull RB19 to McLaren MP4/4 and more » (novembre 2023)
+    url: https://www.autosport.com/f1/news/f1s-most-dominant-cars-ever-from-red-bull-rb19-to-mclaren-mp4-4-and-more/10549832/
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
 - annee: 2023
   ecurie: ferrari
   equipe: Ferrari
@@ -4518,10 +4648,10 @@ cas:
   - voiture: Ferrari SF-23
     gps:
     - Singapore
-  pourquoi: Le tableau des engagés de la saison 2023 ne donne qu'un châssis pour l'écurie, la Ferrari SF-23, sans changement de modèle en cours de saison.
+  pourquoi: L'historique de la saison 2023 publié par Ferrari nomme la SF-23 et sa seule victoire, celle de Sainz au Grand Prix de Singapour.
   sources:
-  - titre: Wikipedia, « 2023 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship
+  - titre: Ferrari, « 2023 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2023
 - annee: 2023
   ecurie: red-bull
   equipe: Red Bull Racing Honda RBPT
@@ -4549,10 +4679,12 @@ cas:
     - Brazil
     - United States of America Las Vegas
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2023 ne donne qu'un châssis pour l'écurie, la Red Bull RB19, sans changement de modèle en cours de saison.
+  pourquoi: Autosport attribue à la RB19 vingt et une victoires en vingt-deux courses en 2023, et Honda précise que la seule course perdue par Red Bull fut Singapour.
   sources:
-  - titre: Wikipedia, « 2023 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2023_Formula_One_World_Championship
+  - titre: Autosport, Ed Hardy, « F1's most dominant cars ever from Red Bull RB19 to McLaren MP4/4 and more » (novembre 2023)
+    url: https://www.autosport.com/f1/news/f1s-most-dominant-cars-ever-from-red-bull-rb19-to-mclaren-mp4-4-and-more/10549832/
+  - titre: Honda, « 2023 Oracle Red Bull Racing RB19 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2023_RedBullRB19/
 - annee: 2024
   ecurie: ferrari
   equipe: Ferrari
@@ -4564,10 +4696,10 @@ cas:
     - Italy
     - United States of America United States
     - Mexico
-  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Ferrari SF-24, sans changement de modèle en cours de saison.
+  pourquoi: L'historique de la saison 2024 publié par Ferrari nomme la SF-24 et lui attribue cinq victoires, dont celles de Leclerc à Monaco et à Monza et de Sainz en Australie et au Mexique.
   sources:
-  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+  - titre: Ferrari, « 2024 | History of Scuderia Ferrari Formula 1 »
+    url: https://www.ferrari.com/en-EN/formula1/year-2024
 - annee: 2024
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -4580,10 +4712,12 @@ cas:
     - Azerbaijan
     - Singapore
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la McLaren MCL38, sans changement de modèle en cours de saison.
+  pourquoi: La fiche patrimoine de la MCL38 publiée par McLaren lui attribue six victoires en 2024, et le bilan de la saison de l'écurie détaille notamment la première victoire de Piastri en Hongrie avec cette voiture.
   sources:
-  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+  - titre: McLaren, « MCL38 » (septembre 2025)
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/2024-formula-1-mclaren-mcl38/
+  - titre: McLaren, « The key moments that led to our 2024 Constructors' Championship win » (décembre 2024)
+    url: https://www.mclaren.com/racing/formula-1/2024/the-key-moments-that-led-to-our-2024-constructors-championship-win/
 - annee: 2024
   ecurie: mercedes
   equipe: Mercedes
@@ -4594,10 +4728,10 @@ cas:
     - Great Britain
     - Belgium
     - United States of America Las Vegas
-  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W15, sans changement de modèle en cours de saison.
+  pourquoi: La galerie de Motorsport.com consacrée aux Mercedes de F1 donne la W15 comme voiture de 2024 et lui attribue quatre victoires, autant que de Grands Prix dans la donnée.
   sources:
-  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
 - annee: 2024
   ecurie: red-bull
   equipe: Red Bull Racing Honda RBPT
@@ -4613,10 +4747,10 @@ cas:
     - Spain
     - Brazil
     - Qatar
-  pourquoi: Le tableau des engagés de la saison 2024 ne donne qu'un châssis pour l'écurie, la Red Bull RB20, sans changement de modèle en cours de saison.
+  pourquoi: Honda attribue à la RB20 les neuf victoires de Verstappen en 2024, dont le doublé de Suzuka et la victoire du Brésil.
   sources:
-  - titre: Wikipedia, « 2024 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2024_Formula_One_World_Championship
+  - titre: Honda, « 2024 Oracle Red Bull Racing RB20 » (F1 Machines Powered by Honda)
+    url: https://global.honda/en/F1/machine/2024_RedBullRB20/
 - annee: 2025
   ecurie: mclaren
   equipe: McLaren
@@ -4637,10 +4771,12 @@ cas:
     - Netherlands
     - Mexico
     - Brazil
-  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la McLaren MCL39, sans changement de modèle en cours de saison.
+  pourquoi: McLaren présente la MCL39 comme sa voiture de 2025, victorieuse dès l'Australie, et Formula1.com compte sept victoires pour Norris et sept pour Piastri, soit les quatorze Grands Prix de la donnée.
   sources:
-  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship
+  - titre: McLaren, « How McLaren won the 2025 F1 Constructors' World Championship » (octobre 2025)
+    url: https://www.mclaren.com/racing/formula-1/2025/how-mclaren-won-the-2025-f1-constructors-world-championship/
+  - titre: 'Formula1.com, « In numbers: all the key statistics from Lando Norris'' World Championship-winning season » (décembre 2025)'
+    url: https://www.formula1.com/en/latest/article/in-numbers-all-the-key-statistics-from-norris-world-championship-winning.3pWBTiAtjp9y05LkqwngQN
 - annee: 2025
   ecurie: mercedes
   equipe: Mercedes
@@ -4649,10 +4785,10 @@ cas:
     gps:
     - Canada
     - Singapore
-  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la Mercedes F1 W16, sans changement de modèle en cours de saison.
+  pourquoi: La galerie de Motorsport.com consacrée aux Mercedes de F1 donne la W16 comme voiture de 2025 et ne lui attribue que deux victoires, autant que de Grands Prix dans la donnée.
   sources:
-  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
 - annee: 2025
   ecurie: red-bull
   equipe: Red Bull Racing
@@ -4667,7 +4803,7 @@ cas:
     - United States of America Las Vegas
     - Qatar
     - United Arab Emirates Abu Dhabi
-  pourquoi: Le tableau des engagés de la saison 2025 ne donne qu'un châssis pour l'écurie, la Red Bull RB21, sans changement de modèle en cours de saison.
+  pourquoi: La galerie de Motorsport.com consacrée aux Red Bull de F1 donne la RB21 comme voiture de 2025 et lui attribue huit victoires, autant que de Grands Prix dans la donnée.
   sources:
-  - titre: Wikipedia, « 2025 Formula One World Championship » (tableau des engagés)
-    url: https://en.wikipedia.org/wiki/2025_Formula_One_World_Championship
+  - titre: Motorsport.com, « This is every Red Bull Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/this-is-every-red-bull-formula-1-car-/11085/
