@@ -32,6 +32,7 @@ fr:
     pdf: "/assets/docs/ingenieurs-revolutionnaires-F1.pdf"
     partage: "/assets/partage/"
     sources: "/sources/"
+    erreurs: "/erreurs/"
   nom_site: "Ingénieurs et écuries de la F1"
   nav:
     - { url: "/ingenieurs/", nom: "Ingénieurs" }
@@ -299,11 +300,44 @@ fr:
     sommaire: "Éditeurs"
     cite_par: "Cité par :"
     note: "Une même source citée par plusieurs pages n'apparaît qu'une fois. Les pages de résultats de formula1.com qui forment le jeu de données décrit en tête de page ne sont pas listées une à une ; seules figurent celles qu'une page cite nommément."
+  erreurs:
+    titre_page: "Erreurs relevées dans les sources"
+    titre: "Erreurs relevées dans les sources"
+    accroche: "Aucune source n'est infaillible, pas même les résultats officiels. En vérifiant chaque fait du site, nous avons relevé les erreurs des pages consultées, les affirmations de Wikipédia que d'autres sources démentent, les faits qu'aucun texte n'établit directement et les désaccords entre sources sérieuses. Chaque entrée cite la source mot pour mot, donne la valeur juste et les preuves qui l'établissent."
+    bilan: "%n% entrées."
+    sommaire: "Rubriques"
+    constate: "constaté le"
+    dit: "Ce que dit la source"
+    juste: "Valeur juste"
+    preuves: "Preuves"
+    corrige_depuis: "corrigé depuis par la source"
+    renvoi: "erreur relevée"
+    lien: "Erreurs relevées dans les sources"
+    note: "Les citations sont reproduites telles qu'elles figurent sur la page, coquilles comprises, et ont été contrôlées sur la page elle-même ou sur sa copie archivée. Une erreur relevée ne disqualifie pas une source : elle reste citée pour ce qu'elle établit correctement."
+    mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+    gravite:
+      majeure: "Erreur sur un fait"
+      mineure: "Erreur sans effet sur nos données"
+      coquille: "Coquille"
+    numerisation: "Coquille de numérisation : faute de la reconnaissance de caractères des archives, pas du texte original"
+    categories:
+      source_erronee:
+        titre: "Erreurs dans les sources consultées"
+        intro: "Une page affirme un fait que les résultats officiels ou des sources plus sûres contredisent. Nous la citons pour ce qu'elle établit correctement, jamais pour le point erroné."
+      wikipedia_dementie:
+        titre: "Affirmations de Wikipédia démenties"
+        intro: "Une partie de nos attributions reposait d'abord sur Wikipédia. En la remplaçant par des sources de premier rang, nous avons trouvé des affirmations que ces sources contredisent. Celles qui n'étaient simplement pas confirmées ont été retirées sans figurer ici."
+      recoupement:
+        titre: "Faits établis par recoupement"
+        intro: "Aucun texte trouvé ne dit ces faits en toutes lettres : nous les déduisons d'autres faits sourcés (modèle unique de la saison, total des victoires moins celles nommées…). Le raisonnement est donné pour chacun."
+      desaccord:
+        titre: "Désaccords entre sources"
+        intro: "Deux sources sérieuses se contredisent. Nous indiquons la version retenue et pourquoi."
   dossiers:
     titre_page: "Dossiers"
     description: "Huit textes de synthèse : le classement des ingénieurs de la F1, le lien entre contexte et innovation, la domination confrontée aux innovations, les cycles réglementaires et des indicateurs tirés des résultats."
     titre: "Dossiers"
-    accroche: "Sept textes de synthèse : la méthode, puis le classement tier par tier, la manière dont la chronologie relie le contexte aux innovations, la domination des écuries, des pilotes et des motoristes confrontée aux innovations, les cycles réglementaires, et enfin quatre indicateurs tirés des résultats."
+    accroche: "Huit textes de synthèse : la méthode, puis le classement tier par tier, la manière dont la chronologie relie le contexte aux innovations, la domination des écuries, des pilotes et des motoristes confrontée aux innovations, les cycles réglementaires, et enfin quatre indicateurs tirés des résultats."
     telecharger: "Télécharger la présentation en PDF"
     telecharger_suite: "22 diapositives, de la méthode au classement final (dossiers 1 à 4), en français."
   recherche:
@@ -483,6 +517,7 @@ en:
     pdf: "/assets/docs/revolutionary-engineers-F1.pdf"
     partage: "/assets/partage/en/"
     sources: "/en/sources/"
+    erreurs: "/en/errors/"
   nom_site: "Engineers and Teams of F1"
   nav:
     - { url: "/en/engineers/", nom: "Engineers" }
@@ -750,6 +785,39 @@ en:
     sommaire: "Publishers"
     cite_par: "Cited by:"
     note: "A source cited by several pages appears only once. The formula1.com results pages that make up the dataset described at the top of the page are not listed one by one; only those a page cites by name appear."
+  erreurs:
+    titre_page: "Errors found in the sources"
+    titre: "Errors found in the sources"
+    accroche: "No source is infallible, not even the official results. While checking every fact on the site, we noted the errors in the pages consulted, the Wikipedia claims that other sources disprove, the facts that no text states directly and the disagreements between serious sources. Each entry quotes the source word for word and gives the correct value and the evidence for it."
+    bilan: "%n% entries."
+    sommaire: "Sections"
+    constate: "noted on"
+    dit: "What the source says"
+    juste: "Correct value"
+    preuves: "Evidence"
+    corrige_depuis: "since corrected by the source"
+    renvoi: "error noted"
+    lien: "Errors found in the sources"
+    note: "Quotations are reproduced as they appear on the page, typos included, and were checked on the page itself or on its archived copy. An error does not disqualify a source: it is still cited for what it gets right."
+    mois: [January, February, March, April, May, June, July, August, September, October, November, December]
+    gravite:
+      majeure: "Factual error"
+      mineure: "Error with no effect on our data"
+      coquille: "Typo"
+    numerisation: "Digitisation typo: an error of the archive's character recognition, not of the original text"
+    categories:
+      source_erronee:
+        titre: "Errors in the sources consulted"
+        intro: "A page states a fact that the official results or more reliable sources contradict. We cite it for what it gets right, never for the erroneous point."
+      wikipedia_dementie:
+        titre: "Wikipedia claims disproved"
+        intro: "Some of our attributions first relied on Wikipedia. While replacing it with first-rank sources, we found claims those sources contradict. Claims that were merely unconfirmed were removed and are not listed here."
+      recoupement:
+        titre: "Facts established by cross-checking"
+        intro: "No text we found states these facts outright: we infer them from other sourced facts (the season's only model, total wins minus those named…). The reasoning is given for each."
+      desaccord:
+        titre: "Disagreements between sources"
+        intro: "Two serious sources contradict each other. We state which version we follow and why."
   dossiers:
     titre_page: "Features"
     description: "Eight overview features: the ranking of F1 engineers, the link between context and innovation, dominance set against innovations, the regulation cycles and indicators drawn from the results."

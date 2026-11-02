@@ -58,9 +58,22 @@ def titre_en(t):
     t = re.sub(r"\b(" + "|".join(MOIS) + r")\b", lambda m: MOIS[m.group(1)], t)
     return t
 
+# Sources dont une affirmation est relevée comme fausse sur la page des erreurs (_data/erreurs.yml) :
+# URL normalisée -> identifiants des entrées, pour le renvoi affiché sur la page Sources.
+def erreurs_par_url():
+    if not os.path.exists("_data/erreurs.yml"):
+        return {}
+    out = collections.defaultdict(list)
+    for e in yaml.safe_load(open("_data/erreurs.yml", encoding="utf-8"))["erreurs"]:
+        if e.get("source", {}).get("url"):
+            out[cle_url(e["source"]["url"])].append(e["id"])
+    return out
+
 def cle_url(url):
     """URL normalisée pour le dédoublonnage : sans protocole, sans « www. », sans barre finale."""
     return re.sub(r"^https?://(www\.)?", "", url).rstrip("/").lower()
+
+ERREURS = erreurs_par_url()
 
 def editeur(url):
     hote = urlsplit(url).hostname or url
@@ -156,8 +169,11 @@ for lang, L in LANGUES.items():
     groupes = collections.defaultdict(list)
     for s in sources.values():
         url = s["url"]
-        groupes[editeur(url)].append({"titre": s["titre"], "url": url,
-                                      "pages": [{"url": u, "titre": t} for u, t in sorted(s["pages"], key=lambda p: p[1].lower())]})
+        x = {"titre": s["titre"], "url": url,
+             "pages": [{"url": u, "titre": t} for u, t in sorted(s["pages"], key=lambda p: p[1].lower())]}
+        if ERREURS.get(cle_url(url)):
+            x["erreurs"] = ERREURS[cle_url(url)]
+        groupes[editeur(url)].append(x)
     def tri(t):
         return re.sub(r"[«»“”\"'‘’]", "", t).lower()
     autres = [s for v in groupes.values() if len(v) < AUTRES for s in v]

@@ -1081,3 +1081,15 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .biblio-editeur { scroll-margin-top: 1rem; }
 .biblio-n { color: var(--mine); font-weight: normal; }
 .biblio-cite { color: var(--mine); font-size: 0.8125rem; }
+.biblio-erreur { font-size: 0.8125rem; color: var(--tier-a); }
+
+/* Erreurs relevées dans les sources (/erreurs/) */
+.erreurs-categorie { margin-top: 2.5rem; scroll-margin-top: 1rem; }
+.erreurs-liste { padding-left: 1.4em; }
+.erreur { margin-bottom: 1.6rem; padding-left: 0.75rem; border-left: var(--trait-fort) solid var(--trait-clair); scroll-margin-top: 1rem; overflow-wrap: anywhere; }
+.erreur:target { border-left-color: var(--tier-b); background: var(--feuille); }
+.erreur h3 { font-family: var(--titre); font-size: 1.125rem; margin: 0 0 0.2rem; }
+.erreur p { margin: 0.35em 0; }
+.erreur-meta { color: var(--mine); font-size: 0.875rem; }
+ul.erreur-preuves { margin: 0.2em 0 0; padding-left: 1.2em; font-size: 0.9375rem; }
+ul.erreur-preuves li { margin-bottom: 0.3em; }

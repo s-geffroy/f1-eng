@@ -1,0 +1,56 @@
+{%- comment -%}
+  Erreurs relevées dans les sources, commune aux deux langues. Données : _data/erreurs.yml (bilingue,
+  saisi à la main, chaque citation contrôlée sur sa page). Les sources concernées portent un renvoi
+  sur la page Sources (outils/bibliographie.py).
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T = site.data.i18n[lang] -%}
+{%- assign E = site.data.erreurs -%}
+{%- if lang == "en" -%}{%- assign dp = ":" -%}{%- else -%}{%- assign dp = " :" -%}{%- endif -%}
+<section class="page-tete">
+  <h1>{{ T.erreurs.titre }}</h1>
+  <p class="accroche">{{ T.erreurs.accroche }}</p>
+</section>
+
+<p class="biblio-bilan">{{ T.erreurs.bilan | replace: "%n%", E.erreurs.size }}</p>
+
+<nav class="biblio-sommaire" aria-label="{{ T.erreurs.sommaire }}">
+  <h2>{{ T.erreurs.sommaire }}</h2>
+  <ul>
+    {%- for c in E.categories %}
+    {%- assign liste = E.erreurs | where: "categorie", c %}
+    <li><a href="#{{ c }}">{{ T.erreurs.categories[c].titre }}</a> ({{ liste.size }})</li>
+    {%- endfor %}
+  </ul>
+</nav>
+
+{%- for c in E.categories %}
+{%- assign liste = E.erreurs | where: "categorie", c %}
+<section class="erreurs-categorie" id="{{ c }}" aria-labelledby="{{ c }}-titre">
+  <h2 id="{{ c }}-titre">{{ T.erreurs.categories[c].titre }} <span class="biblio-n">({{ liste.size }})</span></h2>
+  <p>{{ T.erreurs.categories[c].intro }}</p>
+  <ol class="erreurs-liste">
+    {%- for e in liste %}
+    <li class="erreur" id="{{ e.id }}">
+      <h3>{{ e.sujet[lang] }}</h3>
+      {%- assign d = e.date | split: "-" -%}{%- assign m = d[1] | plus: 0 | minus: 1 %}
+      <p class="erreur-meta">{% if e.numerisation %}{{ T.erreurs.numerisation }}{% else %}{{ T.erreurs.gravite[e.gravite] }}{% endif %} · {{ T.erreurs.constate }} {{ d[2] | plus: 0 }} {{ T.erreurs.mois[m] }} {{ d[0] }}</p>
+      {%- if e.source %}
+      <p><b>{{ T.erreurs.dit }}{{ dp }}</b> <q lang="{{ e.source.langue | default: 'en' }}">{{ e.source.citation }}</q> ({% if e.source.url %}<a href="{{ e.source.url }}">{% if lang == "en" %}{{ e.source.titre_en | default: e.source.titre }}{% else %}{{ e.source.titre }}{% endif %}</a>{% else %}{% if lang == "en" %}{{ e.source.titre_en | default: e.source.titre }}{% else %}{{ e.source.titre }}{% endif %}{% endif %}){% if e.source.corrige_depuis %} — {{ T.erreurs.corrige_depuis }}{% endif %}</p>
+      {%- endif %}
+      <p><b>{{ T.erreurs.juste }}{{ dp }}</b> {{ e.juste[lang] }}</p>
+      <p>{{ e.explication[lang] }}</p>
+      {%- if e.preuves.size > 0 %}
+      <p class="erreur-preuves"><b>{{ T.erreurs.preuves }}{{ dp }}</b></p>
+      <ul class="erreur-preuves">
+        {%- for p in e.preuves %}
+        <li><a href="{{ p.url }}">{% if lang == "en" %}{{ p.titre_en | default: p.titre }}{% else %}{{ p.titre }}{% endif %}</a>{% if p.citation %}{{ dp }} <q lang="{{ p.langue | default: 'en' }}">{{ p.citation }}</q>{% endif %}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+{%- endfor %}
+<p class="jalons-note">{{ T.erreurs.note }}</p>

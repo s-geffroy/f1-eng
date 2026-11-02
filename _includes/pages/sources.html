@@ -18,6 +18,7 @@
 {%- capture n_courses -%}{% include nombre.html n=nb_courses %}{%- endcapture -%}
 {%- capture n_concordants -%}{% include nombre.html n=X.bilan.vainqueur.concordants %}{%- endcapture -%}
 <p class="biblio-bilan">{{ T.biblio.bilan | replace: "%sources%", n_sources | replace: "%editeurs%", B.editeurs_total | replace: "%citations%", n_citations }}</p>
+<p><a href="{{ T.url.erreurs | relative_url }}">{{ T.erreurs.lien }}</a></p>
 
 <section class="biblio-donnees" aria-labelledby="biblio-donnees">
   <h2 id="biblio-donnees">{{ T.biblio.donnees_titre }}</h2>
@@ -42,7 +43,7 @@
   <h2 id="ed-{{ forloop.index }}-titre">{{ e.nom }} <span class="biblio-n">({{ e.n }})</span></h2>
   <ol>
     {%- for s in e.sources %}
-    <li><a href="{{ s.url }}">{{ s.titre }}</a>{% if e.autres %} <span class="biblio-cite">({{ s.url | split: "/" | slice: 2 | first | remove_first: "www." }})</span>{% endif %}<br>
+    <li><a href="{{ s.url }}">{{ s.titre }}</a>{% for x in s.erreurs %} <a class="biblio-erreur" href="{{ T.url.erreurs | relative_url }}#{{ x }}">({{ T.erreurs.renvoi }})</a>{% endfor %}{% if e.autres %} <span class="biblio-cite">({{ s.url | split: "/" | slice: 2 | first | remove_first: "www." }})</span>{% endif %}<br>
       <span class="biblio-cite">{{ T.biblio.cite_par }} {% for p in s.pages %}<a href="{{ p.url | relative_url }}">{{ p.titre }}</a>{% unless forloop.last %}{% if lang == "en" %}; {% else %} ; {% endif %}{% endunless %}{% endfor %}</span></li>
     {%- endfor %}
   </ol>
