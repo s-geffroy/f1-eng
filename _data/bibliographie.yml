@@ -1,7 +1,7 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2298
+total: 2296
 editeurs_total: 127
-citations: 3692
+citations: 3688
 editeurs:
 - nom: Motor Sport Magazine
   n: 536
@@ -1568,8 +1568,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1983, Williams Ford'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
   - titre: Motor Sport, Alan Henry, « Looking back with Innes Ireland » (janvier 1976)
@@ -6928,7 +6926,7 @@ editeurs:
     - url: /voitures/tyrrell-p34/
       titre: Tyrrell P34
 - nom: OldRacingCars
-  n: 290
+  n: 289
   sources:
   - titre: OldRacingCars, « Belgian Grand Prix 1968 »
     url: https://www.oldracingcars.com/f1/results/1968/belgium/
@@ -7084,11 +7082,6 @@ editeurs:
       titre: 'Domination (châssis) : 1969, Lotus Ford'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
-  - titre: OldRacingCars, « Shadow DN5 car-by-car histories »
-    url: https://www.oldracingcars.com/shadow/dn5/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
   - titre: OldRacingCars, « Shadow DN8 car-by-car histories »
     url: https://www.oldracingcars.com/shadow/dn8/
     pages:
@@ -10099,8 +10092,6 @@ editeurs:
     url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
   - titre: Autosport (GP Racing), Stuart Codling, « The 70s US superteam that tried and failed to crack F1 » (26 octobre 2021)
     url: https://www.autosport.com/f1/news/the-70s-us-superteam-that-tried-and-failed-to-crack-f1/6714030/
@@ -12182,119 +12173,6 @@ editeurs:
       titre: 'Domination (technologies) : Boîte semi-automatique'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Suspension active'
-- nom: flyinglap.com.br
-  n: 22
-  sources:
-  - titre: flyinglap, « 162nd GP – South Africa 1968 »
-    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 165th GP – Belgium 1968 »
-    url: https://www.flyinglap.com.br/165th-gp-belgium-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 166th GP – Netherlands 1968 »
-    url: https://www.flyinglap.com.br/166th-gp-netherlands-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 167th GP – France 1968 »
-    url: https://www.flyinglap.com.br/167th-gp-france-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 170th GP – Italy 1968 »
-    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 171st GP – Canada 1968 »
-    url: https://www.flyinglap.com.br/171st-gp-canada-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 173rd GP – Mexico 1968 »
-    url: https://www.flyinglap.com.br/173rd-gp-mexico-1968/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 174th GP – South Africa 1969 »
-    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 175th GP – Spain 1969 »
-    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 176th GP – Monaco 1969 »
-    url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 180th GP – Germany 1969 »
-    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 181st GP – Italy 1969 »
-    url: https://www.flyinglap.com.br/181st-gp-italy-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 182nd GP – Canada 1969 »
-    url: https://www.flyinglap.com.br/182nd-gp-canada-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 183rd GP – United States 1969 »
-    url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 184th GP – Mexico 1969 »
-    url: https://www.flyinglap.com.br/184th-gp-mexico-1969/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 185th GP – South Africa 1970 »
-    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 186th GP – Spain 1970 »
-    url: https://www.flyinglap.com.br/186th-gp-spain-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 187th GP – Monaco 1970 »
-    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 188th GP – Belgium 1970 »
-    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 193rd GP – Austria 1970 »
-    url: https://www.flyinglap.com.br/193rd-gp-austria-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 195th GP – Canada 1970 »
-    url: https://www.flyinglap.com.br/195th-gp-canada-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: flyinglap, « 196th GP – United States 1970 »
-    url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
 - nom: Motorsport.com
   n: 22
   sources:
@@ -12589,6 +12467,114 @@ editeurs:
       titre: 'Écuries : Honda RBPT'
     - url: /ecuries/
       titre: 'Écuries : RBPT'
+- nom: flyinglap.com.br
+  n: 21
+  sources:
+  - titre: flyinglap, « 162nd GP – South Africa 1968 »
+    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 165th GP – Belgium 1968 »
+    url: https://www.flyinglap.com.br/165th-gp-belgium-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 166th GP – Netherlands 1968 »
+    url: https://www.flyinglap.com.br/166th-gp-netherlands-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 167th GP – France 1968 »
+    url: https://www.flyinglap.com.br/167th-gp-france-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 170th GP – Italy 1968 »
+    url: https://www.flyinglap.com.br/170th-gp-italy-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 171st GP – Canada 1968 »
+    url: https://www.flyinglap.com.br/171st-gp-canada-1968/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 174th GP – South Africa 1969 »
+    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 175th GP – Spain 1969 »
+    url: https://www.flyinglap.com.br/175th-gp-spain-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 176th GP – Monaco 1969 »
+    url: https://www.flyinglap.com.br/176th-gp-monaco-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 180th GP – Germany 1969 »
+    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 181st GP – Italy 1969 »
+    url: https://www.flyinglap.com.br/181st-gp-italy-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 182nd GP – Canada 1969 »
+    url: https://www.flyinglap.com.br/182nd-gp-canada-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 183rd GP – United States 1969 »
+    url: https://www.flyinglap.com.br/183rd-gp-united-states-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 184th GP – Mexico 1969 »
+    url: https://www.flyinglap.com.br/184th-gp-mexico-1969/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 185th GP – South Africa 1970 »
+    url: https://www.flyinglap.com.br/185th-gp-south-africa-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 186th GP – Spain 1970 »
+    url: https://www.flyinglap.com.br/186th-gp-spain-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 187th GP – Monaco 1970 »
+    url: https://www.flyinglap.com.br/187th-gp-monaco-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 188th GP – Belgium 1970 »
+    url: https://www.flyinglap.com.br/188th-gp-belgium-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 193rd GP – Austria 1970 »
+    url: https://www.flyinglap.com.br/193rd-gp-austria-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 195th GP – Canada 1970 »
+    url: https://www.flyinglap.com.br/195th-gp-canada-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: flyinglap, « 196th GP – United States 1970 »
+    url: https://www.flyinglap.com.br/196th-gp-united-states-1970/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
 - nom: McLaren
   n: 20
   sources:
