@@ -335,18 +335,6 @@ cas:
   - titre: 'Motor Sport, Denis Jenkinson, « 1956 Italian Grand Prix race report: Moss masters Monza; Fangio wins fourth title » (octobre 1956)'
     url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1956
-  ecurie: kurtis-kraft
-  equipe: Kurtis Kraft Offenhauser
-  pneus: Firestone
-  pourquoi: Le relevé attribue à Kurtis Kraft la pole de Pat Flaherty, dont la voiture est une Watson/Offy selon l'IMS. Cette pole, comme sa victoire, figure dans les listes Firestone de Motorsport-Magazin.
-  sources:
-  - titre: Motorsport-Magazin, « Firestone - alle 60 Pole Positions in der Formel 1 » (base de données F1)
-    url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,6,0,0,0,0.html
-  - titre: IMS, résultats de l'Indianapolis 500 1956
-    url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1956
-  - titre: 'NBC Sports, Jerry Bonkowski, « Firestone: the tire that Indianapolis 500 and Verizon IndyCar Series ride upon » (mai 2016)'
-    url: https://www.nbcsports.com/motor-sports/news/firestone-the-tire-that-indianapolis-500-and-verizon-indycar-series-ride-upon
-- annee: 1956
   ecurie: maserati
   equipe: Maserati
   pneus: Pirelli
@@ -358,7 +346,7 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/october-1956/30/gran-premio-deuropa
 - annee: 1956
   ecurie: ferrari
-  equipe: Lanica Ferrari
+  equipe: Lancia Ferrari
   pneus: Englebert
   pourquoi: Les six poles de Fangio sur Lancia-Ferrari D50 en 1956 figurent toutes dans la liste des poles Englebert de Motorsport-Magazin ; Motor Sport confirme les Englebert de la Scuderia à Monza.
   sources:
@@ -700,16 +688,6 @@ cas:
   - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
     url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
 - annee: 1964
-  ecurie: brabham
-  equipe: Brabham Ford
-  pneus: Dunlop
-  pourquoi: Les poles de Gurney en 1964 sont signées sur les Brabham d'usine du Brabham Racing Organisation (« Ford » selon formula1.com) ; Motor Sport décrit ces voitures en Dunlop à bande large et rappelle qu'en 1964 Dunlop a toujours le monopole des pneus en Grand Prix.
-  sources:
-  - titre: 'Motor Sport, Denis Jenkinson, « 1964 Monaco Grand Prix race report: Lotus fails where Hill prevails » (juin 1964)'
-    url: https://www.motorsportmagazine.com/archive/article/june-1964/11/xxii-monaco-grand-prix
-  - titre: Motor Sport, Denis Jenkinson, « Reflections on the Italian Grand Prix » (octobre 1964)
-    url: https://www.motorsportmagazine.com/archive/article/october-1964/16/reflections-italian-grand-prix/
-- annee: 1964
   ecurie: brm
   equipe: BRM
   pneus: Dunlop
@@ -777,18 +755,6 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/july-1965/12/belgian-grand-prix-scotland-forever/
   - titre: 'Motor Sport, Michael Tee, « 1965 Mexican Grand Prix race report: Ginther wraps it up » (décembre 1965)'
     url: https://www.motorsportmagazine.com/archive/article/december-1965/43/iv-mexican-grand-prix/
-- annee: 1966
-  ecurie: brabham
-  equipe: Brabham Climax
-  pneus: Goodyear
-  pourquoi: Les poles attribuées à « Brabham Climax » par formula1.com (Grande-Bretagne, Pays-Bas, États-Unis) sont celles de Jack Brabham sur les BT19/BT20 de l'usine. Motor Sport écrit au Nürburgring que l'équipe Brabham est « sous contrat avec Goodyear » et n'a jamais essayé autre chose ; à Reims, les Brabham d'usine sont en Goodyear, et à Brands Hatch toute la première ligne (Brabham, Hulme, Gurney) roule en Goodyear.
-  sources:
-  - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
-    url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
-  - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
-    url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
-  - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
 - annee: 1966
   ecurie: brabham
   equipe: Brabham Repco
@@ -916,18 +882,6 @@ cas:
     url: https://www.oldracingcars.com/f1/results/1967/italy/
 - annee: 1967
   ecurie: team-lotus
-  equipe: Lotus Climax
-  pneus: Firestone
-  pourquoi: Les poles attribuées à « Lotus Climax » par formula1.com sont en réalité celles des Lotus 49 Ford de Team Lotus ; toute l'écurie est en Firestone en 1967. Motor Sport montre les deux Lotus en Firestone aux essais officiels de Mosport, Clark en Firestone à Monza, et Nigel Roebuck rappelle que Clark tenait ses Firestone pour moins progressifs que les Goodyear.
-  sources:
-  - titre: 'Motor Sport, Michael Tee, « 1967 Canadian Grand Prix report: Brabham again supreme » (octobre 1967)'
-    url: https://www.motorsportmagazine.com/archive/article/october-1967/71/weather-affects-first-canadian-grand-prix/
-  - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
-    url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
-  - titre: 'Motor Sport, Nigel Roebuck, « Formula 1''s summer of love: the 1967 season » (décembre 2020)'
-    url: https://www.motorsportmagazine.com/archive/article/december-2020/96/formula-1s-summer-of-love-the-simple-1967-grand-prix-season
-- annee: 1967
-  ecurie: team-lotus
   equipe: Lotus Ford
   pneus: Firestone
   pourquoi: 'Team Lotus (Lotus 49 Ford) est en Firestone en 1967 : Nigel Roebuck rappelle dans Motor Sport que Clark jugeait ses Firestone moins progressifs que les Goodyear dès Zandvoort, et les comptes rendus d''époque montrent les Lotus en Firestone au Nürburgring, à Mosport et à Monza.'
@@ -942,9 +896,9 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
 - annee: 1968
   ecurie: brabham
-  equipe: Brabham Climax
+  equipe: Brabham Repco
   pneus: Goodyear
-  pourquoi: 'Les poles de Rindt (France, Canada) attribuées à « Brabham Climax » sont celles de la BT26 Repco d''usine : les tableaux des engagés de Rouen et de Mont-Tremblant donnent la BT26 du Brabham Racing Organisation en Goodyear, et Motor Sport range Brabham parmi les Goodyear au Nürburgring.'
+  pourquoi: 'Les poles de Rindt (France, Canada) sont celles de la BT26 Repco d''usine : les tableaux des engagés de Rouen et de Mont-Tremblant donnent la BT26 du Brabham Racing Organisation en Goodyear, et Motor Sport range Brabham parmi les Goodyear au Nürburgring.'
   sources:
   - titre: flyinglap, « 167th GP – France 1968 »
     url: https://www.flyinglap.com.br/167th-gp-france-1968/
@@ -952,20 +906,6 @@ cas:
     url: https://www.flyinglap.com.br/171st-gp-canada-1968/
   - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
     url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
-- annee: 1968
-  ecurie: cooper
-  equipe: Cooper Maserati
-  pneus: Firestone
-  pourquoi: La pole du Mexique attribuée à « Cooper Maserati » est celle de Jo Siffert sur la Lotus 49B (R7) de Rob Walker et Jack Durlacher, en Firestone ; l'écurie était déjà en Firestone à Kyalami avec sa Cooper T81 Maserati (Cooper-Maserati à la première manche, Lotus-Ford ensuite).
-  sources:
-  - titre: flyinglap, « 173rd GP – Mexico 1968 »
-    url: https://www.flyinglap.com.br/173rd-gp-mexico-1968/
-  - titre: flyinglap, « 162nd GP – South Africa 1968 »
-    url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
-  - titre: Wikipedia, « 1968 Formula One season »
-    url: https://en.wikipedia.org/wiki/1968_Formula_One_season
-  - titre: Wikipedia, « Lotus 49 »
-    url: https://en.wikipedia.org/wiki/Lotus_49
 - annee: 1968
   ecurie: ferrari
   equipe: Ferrari
@@ -1026,18 +966,6 @@ cas:
     url: https://www.flyinglap.com.br/162nd-gp-south-africa-1968/
   - titre: 'Motor Sport, Denis Jenkinson, « 1968 German Grand Prix race report: Stewart finds no equal » (septembre 1968)'
     url: https://www.motorsportmagazine.com/archive/article/september-1968/46/the-german-grand-prix-11/
-- annee: 1969
-  ecurie: brabham
-  equipe: Brabham Climax
-  pneus: Goodyear
-  pourquoi: Les poles attribuées à « Brabham Climax » sont celles des BT26A Ford d'usine (Brabham à Kyalami, Ickx au Nürburgring et au Canada) ; Motor Racing Developments les fait courir en Goodyear en 1969, et OldRacingCars lie les progrès d'Ickx à ceux des pneus Goodyear.
-  sources:
-  - titre: flyinglap, « 174th GP – South Africa 1969 »
-    url: https://www.flyinglap.com.br/174th-gp-south-africa-1969/
-  - titre: flyinglap, « 180th GP – Germany 1969 »
-    url: https://www.flyinglap.com.br/180th-gp-germany-1969/
-  - titre: OldRacingCars, « Brabham BT26 car-by-car histories »
-    url: https://www.oldracingcars.com/brabham/bt26/
 - annee: 1969
   ecurie: brabham
   equipe: Brabham Ford
@@ -1398,16 +1326,6 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
   - titre: Motor Sport, Denis Jenkinson, « 1975 Monaco Grand Prix race report » (juin 1975)
     url: https://www.motorsportmagazine.com/archive/article/june-1975/26/33rd-monaco-grand-prix
-- annee: 1975
-  ecurie: shadow
-  equipe: Shadow Matra
-  pneus: Goodyear
-  pourquoi: Les poles attribuées à « Shadow Matra » (Argentine, Brésil, Grande-Bretagne) sont celles des DN5, d'après OldRacingCars ; en 1975, Goodyear chausse seul tous les concurrents, donc UOP Shadow Racing, en DN5 Ford comme en DN7 Matra.
-  sources:
-  - titre: OldRacingCars, « Shadow DN5 car-by-car histories »
-    url: https://www.oldracingcars.com/shadow/dn5/
-  - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
-    url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1975
   ecurie: tyrrell
   equipe: Tyrrell Ford
@@ -1938,9 +1856,9 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/october-1983/36/the-dutch-grand-prix-a-lucky-pair/
 - annee: 1983
   ecurie: team-lotus
-  equipe: Lotus Ford
+  equipe: Lotus Renault
   pneus: Pirelli
-  pourquoi: Motor Sport explique que Lotus, privé de Michelin par son contrat moteur avec Renault, a signé avec Pirelli pour 1983 ; les comptes rendus montrent la Lotus 92 à moteur Cosworth de Mansell en Pirelli, à Long Beach comme au milieu de la saison.
+  pourquoi: La pole d'Elio de Angelis au Grand Prix d'Europe est signée sur une Lotus à moteur Renault. Motor Sport explique que Lotus, privé de Michelin par son contrat moteur avec Renault, a signé avec Pirelli pour 1983 ; les comptes rendus montrent les Lotus en Pirelli, la 92 Cosworth de Mansell à Long Beach comme les 93T Renault de de Angelis au milieu de la saison.
   sources:
   - titre: 'Motor Sport, Alan Henry, « Renault''s F1 challenge: re-grouping to rebuild credibility » (février 1984)'
     url: https://www.motorsportmagazine.com/archive/article/february-1984/36/renaults-f1-challenge-re-grouping-to-rebuild-credi/
@@ -1970,16 +1888,6 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/june-1983/28/monaco-grand-prix-11/
   - titre: Autosport (GP Racing), Damien Smith, « The low-downforce car that introduced F1 to Senna » (septembre 2018)
     url: https://www.autosport.com/f1/news/the-low-downforce-car-that-introduced-f1-to-senna-5111153/5111153/
-- annee: 1983
-  ecurie: williams
-  equipe: Williams Honda
-  pneus: Goodyear
-  pourquoi: La fiche d'Autosport sur la Williams FW09, première Williams Honda, apparue à Kyalami, dernière manche de 1983, donne Goodyear comme manufacturier de pneus, celui de Williams depuis le début de la saison.
-  sources:
-  - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
-    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
-  - titre: Motor Sport, Alan Henry, « Keke Rosberg » (décembre 1983)
-    url: https://www.motorsportmagazine.com/archive/article/december-1983/36/keke-rosberg/
 - annee: 1984
   ecurie: brabham
   equipe: Brabham BMW

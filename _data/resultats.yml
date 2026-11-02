@@ -1447,7 +1447,7 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
     covainqueur: Juan Manuel Fangio
@@ -1470,7 +1470,7 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: United States of America Indianapolis
@@ -1489,8 +1489,7 @@ saisons:
       equipe: Phillips Offenhauser
     pole:
       pilote: Pat Flaherty
-      equipe: Kurtis Kraft Offenhauser
-      ecurie: kurtis-kraft
+      equipe: Watson Offenhauser
       motoriste: offenhauser
   - gp: Belgium
     vainqueur: Peter Collins
@@ -1511,7 +1510,7 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: France
@@ -1533,7 +1532,7 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: Great Britain
@@ -1577,7 +1576,7 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
   - gp: Italy
@@ -1599,7 +1598,7 @@ saisons:
       motoriste: alta
     pole:
       pilote: Juan Manuel Fangio
-      equipe: Lanica Ferrari
+      equipe: Lancia Ferrari
       ecurie: ferrari
       motoriste: ferrari
   pilotes:
@@ -2550,8 +2549,8 @@ saisons:
       motoriste: climax
     pole:
       pilote: Stirling Moss
-      equipe: Lotus Climax
-      ecurie: team-lotus
+      equipe: Cooper Climax
+      ecurie: cooper
       motoriste: climax
   - gp: Monaco
     vainqueur: Stirling Moss
@@ -3759,9 +3758,9 @@ saisons:
       motoriste: climax
     pole:
       pilote: Dan Gurney
-      equipe: Brabham Ford
+      equipe: Brabham Climax
       ecurie: brabham
-      motoriste: ford
+      motoriste: climax
   - gp: Belgium
     vainqueur: Jim Clark
     equipe: Lotus Climax
@@ -3781,9 +3780,9 @@ saisons:
       motoriste: climax
     pole:
       pilote: Dan Gurney
-      equipe: Brabham Ford
+      equipe: Brabham Climax
       ecurie: brabham
-      motoriste: ford
+      motoriste: climax
   - gp: France
     vainqueur: Dan Gurney
     equipe: Brabham Climax
@@ -4439,9 +4438,9 @@ saisons:
       motoriste: brm
     pole:
       pilote: Jack Brabham
-      equipe: Brabham Climax
+      equipe: Brabham Repco
       ecurie: brabham
-      motoriste: climax
+      motoriste: repco
   - gp: Netherlands
     vainqueur: Jack Brabham
     equipe: Brabham Repco
@@ -4461,9 +4460,9 @@ saisons:
       motoriste: climax
     pole:
       pilote: Jack Brabham
-      equipe: Brabham Climax
+      equipe: Brabham Repco
       ecurie: brabham
-      motoriste: climax
+      motoriste: repco
   - gp: Germany
     vainqueur: Jack Brabham
     equipe: Brabham Repco
@@ -4527,9 +4526,9 @@ saisons:
       motoriste: maserati
     pole:
       pilote: Jack Brabham
-      equipe: Brabham Climax
+      equipe: Brabham Repco
       ecurie: brabham
-      motoriste: climax
+      motoriste: repco
   - gp: Mexico
     vainqueur: John Surtees
     equipe: Cooper Maserati
@@ -4732,9 +4731,9 @@ saisons:
       motoriste: repco
     pole:
       pilote: Graham Hill
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Belgium
     vainqueur: Dan Gurney
     equipe: Eagle Weslake
@@ -4754,9 +4753,9 @@ saisons:
       motoriste: ferrari
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: France
     vainqueur: Jack Brabham
     equipe: Brabham Repco
@@ -4776,9 +4775,9 @@ saisons:
       motoriste: brm
     pole:
       pilote: Graham Hill
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Great Britain
     vainqueur: Jim Clark
     equipe: Lotus Ford
@@ -4798,9 +4797,9 @@ saisons:
       motoriste: ferrari
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Germany
     vainqueur: Denny Hulme
     equipe: Brabham Repco
@@ -4820,9 +4819,9 @@ saisons:
       motoriste: ferrari
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Canada
     vainqueur: Jack Brabham
     equipe: Brabham Repco
@@ -4842,9 +4841,9 @@ saisons:
       motoriste: weslake
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Italy
     vainqueur: John Surtees
     equipe: Honda
@@ -4864,9 +4863,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: United States of America United States
     vainqueur: Jim Clark
     equipe: Lotus Ford
@@ -4886,9 +4885,9 @@ saisons:
       motoriste: repco
     pole:
       pilote: Graham Hill
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   - gp: Mexico
     vainqueur: Jim Clark
     equipe: Lotus Ford
@@ -4908,9 +4907,9 @@ saisons:
       motoriste: repco
     pole:
       pilote: Jim Clark
-      equipe: Lotus Climax
+      equipe: Lotus Ford
       ecurie: team-lotus
-      motoriste: climax
+      motoriste: ford
   constructeurs:
   - equipe: Brabham Repco
     points: 63.0
@@ -5155,9 +5154,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jochen Rindt
-      equipe: Brabham Climax
+      equipe: Brabham Repco
       ecurie: brabham
-      motoriste: climax
+      motoriste: repco
   - gp: Great Britain
     vainqueur: Jo Siffert
     equipe: Lotus Ford
@@ -5243,9 +5242,9 @@ saisons:
       motoriste: brm
     pole:
       pilote: Jochen Rindt
-      equipe: Brabham Climax
+      equipe: Brabham Repco
       ecurie: brabham
-      motoriste: climax
+      motoriste: repco
   - gp: United States of America United States
     vainqueur: Jackie Stewart
     equipe: Matra Ford
@@ -5287,9 +5286,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jo Siffert
-      equipe: Cooper Maserati
-      ecurie: cooper
-      motoriste: maserati
+      equipe: Lotus Ford
+      ecurie: team-lotus
+      motoriste: ford
   constructeurs:
   - equipe: Lotus Ford
     points: 62.0
@@ -5429,9 +5428,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jack Brabham
-      equipe: Brabham Climax
+      equipe: Brabham Ford
       ecurie: brabham
-      motoriste: climax
+      motoriste: ford
   - gp: Spain
     vainqueur: Jackie Stewart
     equipe: Matra Ford
@@ -5561,9 +5560,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jacky Ickx
-      equipe: Brabham Climax
+      equipe: Brabham Ford
       ecurie: brabham
-      motoriste: climax
+      motoriste: ford
   - gp: Italy
     vainqueur: Jackie Stewart
     equipe: Matra Ford
@@ -5605,9 +5604,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jacky Ickx
-      equipe: Brabham Climax
+      equipe: Brabham Ford
       ecurie: brabham
-      motoriste: climax
+      motoriste: ford
   - gp: United States of America United States
     vainqueur: Jochen Rindt
     equipe: Lotus Ford
@@ -5649,9 +5648,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jack Brabham
-      equipe: Brabham Climax
+      equipe: Brabham Ford
       ecurie: brabham
-      motoriste: climax
+      motoriste: ford
   constructeurs:
   - equipe: Matra Ford
     points: 66.0
@@ -5758,8 +5757,8 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jackie Stewart
-      equipe: Tyrrell Ford
-      ecurie: tyrrell
+      equipe: March Ford
+      ecurie: march
       motoriste: ford
   - gp: Spain
     vainqueur: Jackie Stewart
@@ -5802,8 +5801,8 @@ saisons:
       motoriste: matra
     pole:
       pilote: Jackie Stewart
-      equipe: Tyrrell Ford
-      ecurie: tyrrell
+      equipe: March Ford
+      ecurie: march
       motoriste: ford
   - gp: Belgium
     vainqueur: Pedro Rodríguez
@@ -5824,8 +5823,8 @@ saisons:
       motoriste: matra
     pole:
       pilote: Jackie Stewart
-      equipe: Tyrrell Ford
-      ecurie: tyrrell
+      equipe: March Ford
+      ecurie: march
       motoriste: ford
   - gp: Netherlands
     vainqueur: Jochen Rindt
@@ -7777,9 +7776,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jean-Pierre Jarier
-      equipe: Shadow Matra
+      equipe: Shadow Ford
       ecurie: shadow
-      motoriste: matra
+      motoriste: ford
   - gp: Brazil
     vainqueur: Carlos Pace
     equipe: Brabham Ford
@@ -7799,9 +7798,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Jean-Pierre Jarier
-      equipe: Shadow Matra
+      equipe: Shadow Ford
       ecurie: shadow
-      motoriste: matra
+      motoriste: ford
   - gp: South Africa
     vainqueur: Jody Scheckter
     equipe: Tyrrell Ford
@@ -7975,9 +7974,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Tom Pryce
-      equipe: Shadow Matra
+      equipe: Shadow Ford
       ecurie: shadow
-      motoriste: matra
+      motoriste: ford
   - gp: Germany
     vainqueur: Carlos Reutemann
     equipe: Brabham Ford
@@ -11247,9 +11246,9 @@ saisons:
       motoriste: matra
     pole:
       pilote: Nelson Piquet
-      equipe: Brabham Ford
+      equipe: Brabham BMW
       ecurie: brabham
-      motoriste: ford
+      motoriste: bmw
   - gp: France Switzerland
     vainqueur: Keke Rosberg
     equipe: Williams Ford
@@ -11473,9 +11472,9 @@ saisons:
       motoriste: ford
     pole:
       pilote: Keke Rosberg
-      equipe: Williams Honda
+      equipe: Williams Ford
       ecurie: williams
-      motoriste: honda
+      motoriste: ford
   - gp: United States of America USA West
     vainqueur: John Watson
     equipe: McLaren Ford
@@ -11759,9 +11758,9 @@ saisons:
       motoriste: renault
     pole:
       pilote: Elio de Angelis
-      equipe: Lotus Ford
+      equipe: Lotus Renault
       ecurie: team-lotus
-      motoriste: ford
+      motoriste: renault
   - gp: South Africa
     vainqueur: Riccardo Patrese
     equipe: Brabham BMW

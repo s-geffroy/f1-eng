@@ -42,8 +42,7 @@ CHASSIS = {
     "Iso Marlboro": [(0, 9999, "iso-marlboro")], "Jaguar": [(0, 9999, "jaguar")],
     "Jordan": [(0, 9999, "jordan")], "Kick Sauber": [(0, 9999, "kick-sauber")],
     "Kurtis Kraft": [(0, 9999, "kurtis-kraft")], "Kuzma": [(0, 9999, None)],
-    "Lancia": [(1954, 1955, "lancia")], "Connaught": [(0, 9999, "connaught")],
-    "Lanica": [(1956, 1956, "ferrari")],          # coquille de formula1.com pour « Lancia Ferrari » (1956)
+    "Lancia": [(1954, 1955, "lancia"), (1956, 1956, "ferrari")], "Connaught": [(0, 9999, "connaught")],
     "Larrousse": [(0, 9999, "larrousse")], "Leyton House": [(0, 9999, "leyton-house")],
     "Ligier": [(0, 9999, "ligier")],
     "Lola": [(1962, 1986, "lola"), (1987, 1991, "lola-larrousse")],
@@ -91,7 +90,14 @@ MOTEURS = {
 }
 # Erreurs d'équipe de formula1.com, corrigées à la source : (saison, GP, rôle) -> nom d'équipe juste.
 # Argentine 1955 : González part en pole sur Ferrari 625 (formula1.com écrit « Lancia »).
-CORRECTIONS = {(1955, "Argentina", "pole"): "Ferrari"}
+# Brésil 1983 : Rosberg part en pole sur Williams FW08C à moteur Ford (la grille écrit « Williams
+# Honda », moteur qu'il n'a qu'à la dernière course) ; disqualifié, il manque à la page de la course.
+# Argentine 1975 : Jarier part en pole sur Shadow DN5 à moteur Ford (la grille écrit « Shadow Matra »,
+# moteur de la DN7 de fin de saison) ; non partant, il manque à la page de la course.
+CORRECTIONS = {(1955, "Argentina", "pole"): "Ferrari", (1983, "Brazil", "pole"): "Williams Ford",
+               (1975, "Argentina", "pole"): "Shadow Ford"}
+# Coquilles de libellé de formula1.com, rectifiées avant tout rapprochement.
+LIBELLES = {"Lanica Ferrari": "Lancia Ferrari"}
 # Suffixes qui ne sont pas un moteur (commanditaire) : moteur pris dans la fiche.
 COMMANDITAIRES = {"Sahara"}
 # Gagnants sans fiche : motoriste connu par le nom seul.
@@ -126,6 +132,11 @@ def classe(cache, url, page, annee):
         if len(l) >= 4 and l[0].isdigit() and int(l[0]) not in out:
             out[int(l[0])] = (pilote(l[2]), equipe(l[3], annee, strict=False))
     return out
+
+def equipes_course(cache, url, annee):
+    """Équipe de chaque pilote sur la page de résultats de la course, abandons compris."""
+    t = telecharger_course(cache, url, "race-result")
+    return {pilote(l[2]): equipe(l[3], annee, strict=False) for l in lignes(t or "") if len(l) >= 4}
 
 def place(p, rang=None):
     """Entrée « place, pilote, équipe, écurie, motoriste » d'une position, sans champ vide."""
@@ -177,6 +188,7 @@ class Inconnu(Exception):
     pass
 
 def equipe(nom, annee, strict=True):
+    nom = LIBELLES.get(nom, nom)
     try:
         return _equipe(nom, annee)
     except Inconnu as e:
@@ -245,6 +257,12 @@ def main():
                 course["podium"] = [place(res[k], k) for k in (2, 3) if k in res]
             grille = classe(cache, course["url"], "starting-grid", annee)
             if grille and 1 in grille:
+                # L'équipe affichée sur la grille est parfois fausse (Lotus 49 « Lotus Climax » en 1967,
+                # March de Stewart « Tyrrell » en 1970…) : quand la page de la course donne au même
+                # pilote une autre écurie ou un autre moteur, c'est elle qui fait foi.
+                eq = equipes_course(cache, course["url"], annee).get(grille[1][0])
+                if eq and eq[:2] != grille[1][1][:2]:
+                    grille[1] = (grille[1][0], eq)
                 course["pole"] = place(grille[1])
                 if (annee, course["gp"], "pole") in CORRECTIONS:
                     course["pole"] = place((grille[1][0], equipe(CORRECTIONS[annee, course["gp"], "pole"], annee)))

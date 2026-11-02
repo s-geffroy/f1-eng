@@ -138,11 +138,11 @@ dominations:
     longue: false
     robuste: false
     degre: domination
-    poles: 0.421053
+    poles: 0.473684
     podiums: 0.473684
     doubles: 0.263158
     ecart: 0.124072
-    indice: 0.491228
+    indice: 0.508772
     points: 0.431838
     associes:
     - climax
@@ -220,11 +220,11 @@ dominations:
     longue: true
     robuste: false
     degre: domination
-    poles: 0.337838
+    poles: 0.351351
     podiums: 0.220721
     doubles: 0.027027
     ecart: -0.031133
-    indice: 0.298799
+    indice: 0.303303
     points: 0.21503
     associes:
     - ford
@@ -836,10 +836,10 @@ dominations:
     longue: false
     robuste: false
     degre: domination
-    poles: 0.421053
+    poles: 0.473684
     podiums: 0.473684
     doubles: 0.263158
-    indice: 0.491228
+    indice: 0.508772
     associes:
     - climax
     regles_debut:
@@ -912,10 +912,10 @@ dominations:
     longue: true
     robuste: false
     degre: domination
-    poles: 0.337838
+    poles: 0.351351
     podiums: 0.220721
     doubles: 0.027027
-    indice: 0.298799
+    indice: 0.303303
     associes:
     - ford
     regles_debut: []
@@ -1905,10 +1905,10 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.606061
+    poles: 0.636364
     podiums: 0.489899
     doubles: 0.242424
-    indice: 0.557239
+    indice: 0.56734
     associes:
     - team-lotus
     - cooper
@@ -1933,10 +1933,10 @@ dominations:
     longue: false
     robuste: false
     degre: domination
-    poles: 0.1
+    poles: 0.25
     podiums: 0.383333
     doubles: 0.2
-    indice: 0.294444
+    indice: 0.344444
     associes:
     - brabham
     regles_debut:
@@ -1958,10 +1958,10 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
-    poles: 0.537736
+    poles: 0.570755
     podiums: 0.685535
     doubles: 0.490566
-    indice: 0.640461
+    indice: 0.651468
     associes:
     - team-lotus
     - mclaren

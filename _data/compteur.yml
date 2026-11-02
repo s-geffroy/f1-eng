@@ -145,7 +145,7 @@ lignees:
     indice: 0.009259
   march:
     meilleure: 1970
-    indice: 0.094017
+    indice: 0.17094
   bellasi:
     meilleure: 1970
     indice: 0.0
@@ -314,7 +314,7 @@ tete_indice:
   indice: 0.530864
 - annee: 1960
   ecurie: cooper
-  indice: 0.455556
+  indice: 0.488889
 - annee: 1961
   ecurie: ferrari
   indice: 0.652778
@@ -338,7 +338,7 @@ tete_indice:
   indice: 0.464646
 - annee: 1968
   ecurie: team-lotus
-  indice: 0.333333
+  indice: 0.361111
 - annee: 1969
   ecurie: matra
   indice: 0.343434
@@ -667,7 +667,7 @@ ingenieurs:
     saisons: 25
     dominantes: 7
     titres: 7
-    indice_moyen: 0.22876
+    indice_moyen: 0.228538
     meilleure:
       annee: 1963
       ecurie: team-lotus
@@ -787,7 +787,7 @@ ingenieurs:
     saisons: 9
     dominantes: 2
     titres: 2
-    indice_moyen: 0.199626
+    indice_moyen: 0.191079
     meilleure:
       annee: 1971
       ecurie: tyrrell
@@ -832,7 +832,7 @@ ingenieurs:
     saisons: 14
     dominantes: 2
     titres: 2
-    indice_moyen: 0.095348
+    indice_moyen: 0.097729
     meilleure:
       annee: 1959
       ecurie: cooper
@@ -862,7 +862,7 @@ ingenieurs:
     saisons: 20
     dominantes: 2
     titres: 2
-    indice_moyen: 0.080658
+    indice_moyen: 0.080936
     meilleure:
       annee: 1959
       ecurie: cooper
@@ -995,7 +995,7 @@ ingenieurs:
     saisons: 5
     dominantes: 0
     titres: 0
-    indice_moyen: 0.185988
+    indice_moyen: 0.179321
     meilleure:
       annee: 1962
       ecurie: team-lotus
@@ -1133,6 +1133,19 @@ ingenieurs:
     plus_longue: null
     degre: null
     sejours_non_dates: 1
+  - id: john-gentry
+    nom: John Gentry
+    saisons: 12
+    dominantes: 0
+    titres: 0
+    indice_moyen: 0.017831
+    meilleure:
+      annee: 1970
+      ecurie: march
+      indice: 0.17094
+    plus_longue: null
+    degre: null
+    sejours_non_dates: 3
   - id: jean-claude-migeot
     nom: Jean-Claude Migeot
     saisons: 1
@@ -1172,19 +1185,6 @@ ingenieurs:
     plus_longue: null
     degre: null
     sejours_non_dates: 1
-  - id: john-gentry
-    nom: John Gentry
-    saisons: 12
-    dominantes: 0
-    titres: 0
-    indice_moyen: 0.011914
-    meilleure:
-      annee: 1970
-      ecurie: march
-      indice: 0.094017
-    plus_longue: null
-    degre: null
-    sejours_non_dates: 3
   non_dates: 44
   ingenieurs_partiels: 24
 technologies:
@@ -5725,7 +5725,7 @@ cycles:
   record_dominant:
     annee: 1956
     indice: 0.597222
-  indice_meneurs: 0.498827
+  indice_meneurs: 0.503589
   hhi: 0.152445
   meneurs:
   - Mercedes-Benz
@@ -5823,11 +5823,11 @@ cycles:
       part: 0.655172
       titres: 10
       gagnants: 11
-  indice_dominant: 0.201317
+  indice_dominant: 0.202951
   record_dominant:
     annee: 1978
     indice: 0.513889
-  indice_meneurs: 0.371663
+  indice_meneurs: 0.373297
   hhi: 0.12827
   meneurs:
   - brabham
