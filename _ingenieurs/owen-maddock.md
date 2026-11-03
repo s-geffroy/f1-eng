@@ -12,11 +12,11 @@ domaine: "Châssis"
 lignees: []
 voir_aussi: ["john-cooper"]
 sources:
-  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
+  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
-  - titre: "Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever »"
+  - titre: "Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » (juin 2019)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"
-  - titre: "Motor Sport Magazine, « Lotus 18 vs Cooper T53: Go low, aim high »"
+  - titre: "Motor Sport Magazine, « Lotus 18 vs Cooper T53: Go low, aim high » (novembre 2005)"
     url: "https://www.motorsportmagazine.com/special-article/formula-1-track-tests/32/lotus-18-vs-cooper-t53-go-low-aim-high/"
   - titre: "Motor Sport Magazine, « Obituaries » (septembre 2000, Owen Maddock)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2000/6/obituaries"

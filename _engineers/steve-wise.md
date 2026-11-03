@@ -8,7 +8,7 @@ domaine: "Electronics and software"
 lignees: []
 voir_aussi: ["frank-dernie", "paddy-lowe", "patrick-head"]
 sources:
-  - titre: "Motor Sport Magazine, “Paddy Lowe: 155 wins and counting”"
+  - titre: "Motor Sport Magazine, “Paddy Lowe: 155 wins and counting” (3 November 2016)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/paddy-lowe-155-wins-and-counting/"
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"

@@ -23,7 +23,7 @@ sources:
     url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-4-cleaner-cars-kers-and-the-return-of-slicks.1NUrjfG83a6aE0QSuAkGK8"
   - titre: "Formula 1, “2009 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/2009/team"
-  - titre: "Formula 1, “Ross Brawn reveals his favourite car designs”"
+  - titre: "Formula 1, “Ross Brawn reveals his favourite car designs” (14 January 2026)"
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-24.jpg"

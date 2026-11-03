@@ -10,7 +10,7 @@ voir_aussi: ["peter-wright", "colin-chapman", "tony-rudd", "martin-ogilvie", "go
 sources:
   - titre: "Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
-  - titre: "Gordon Kirby, Motor Sport Magazine, « Lotus's ground-effect revolution, part one »"
+  - titre: "Gordon Kirby, Motor Sport Magazine, « Lotus's ground-effect revolution, part one » (21 octobre 2015)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/lotuss-ground-effect-revolution-part-one/"
   - titre: "GrandPrix.com, « Ralph Bellamy »"
     url: "https://www.grandprix.com/people/ralph-bellamy.html"

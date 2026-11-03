@@ -12,13 +12,13 @@ domaine: "Aérodynamique"
 lignees: ["aerodynamique"]
 voir_aussi: ["tony-rudd", "colin-chapman"]
 sources:
-  - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
+  - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » (21 août 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
-  - titre: "Motor Sport Magazine, « Peter Wright obituary: F1's godfather of ground effect and active suspension »"
+  - titre: "Motor Sport Magazine, « Peter Wright obituary: F1's godfather of ground effect and active suspension » (7 novembre 2025)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/peter-wright-obituary-f1s-godfather-of-ground-effect-and-active-suspension/"
   - titre: "Classic Team Lotus, « Legendary Team Lotus aerodynamicist Peter Wright dies »"
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
-  - titre: "Gordon Kirby, Motor Sport Magazine, « Lotus's ground-effect revolution, part one »"
+  - titre: "Gordon Kirby, Motor Sport Magazine, « Lotus's ground-effect revolution, part one » (21 octobre 2015)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/lotuss-ground-effect-revolution-part-one/"
   - titre: "Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"

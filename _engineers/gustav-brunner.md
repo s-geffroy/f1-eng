@@ -14,7 +14,7 @@ sources:
     url: "https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/"
   - titre: "Crash.net, “Brunner revealed as new Toyota designer” (2001)"
     url: "https://www.crash.net/f1/news/38545/1/brunner-revealed-as-new-toyota-designer"
-  - titre: "Crash.net, “Brunner leaves Toyota”"
+  - titre: "Crash.net, “Brunner leaves Toyota” (19 December 2005)"
     url: "https://www.crash.net/f1/news/54393/1/brunner-leaves-toyota"
   - titre: "Craig Scarborough, Atlas F1 (Autosport), “Making Something out of Nothing” (December 2004)"
     url: "https://atlasf1.autosport.com/2004/dec15/scarborough.html"

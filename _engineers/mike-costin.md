@@ -19,7 +19,7 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"
 sources:
-  - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”"
+  - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?” (6 May 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "Motor Sport Magazine, “Lunch with Mike Costin” (February 2012)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2012/96/lunch-with-mike-costin/"

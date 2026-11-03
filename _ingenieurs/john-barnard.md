@@ -20,7 +20,7 @@ portrait:
 sources:
   - titre: "McLaren, « MP4/1 »"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/"
-  - titre: "Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations »"
+  - titre: "Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations » (15 avril 2020)"
     url: "https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF"
   - titre: "Motor Sport Magazine, « Lunch with… John Barnard » (septembre 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2018/112/lunch-john-barnard"
@@ -30,7 +30,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
   - titre: "Motor Sport Magazine, « Ferrari's 640: the 1989 flawed masterpiece » (juin 2022)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/"
-  - titre: "Motorsport.com, « The troubled car that was a game-changer for F1 »"
+  - titre: "Motorsport.com, « The troubled car that was a game-changer for F1 » (4 juin 2021)"
     url: "https://www.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801236/"
   - titre: "GrandPrix.com, « John Barnard »"
     url: "https://www.grandprix.com/people/john-barnard.html"

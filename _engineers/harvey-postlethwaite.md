@@ -8,7 +8,7 @@ domaine: "Chassis"
 lignees: []
 voir_aussi: ["jean-claude-migeot", "mauro-forghieri", "john-barnard"]
 sources:
-  - titre: "Autosport, “More praise for Postlethwaite”"
+  - titre: "Autosport, “More praise for Postlethwaite” (21 April 1999)"
     url: "https://www.autosport.com/f1/news/more-praise-for-postlethwaite-5052159/5052159/"
   - titre: "Joe Saward, GrandPrix.com, “Obituary: Dr. Harvey Postlethwaite” (1999)"
     url: "https://www.grandprix.com/news/obituary-dr-harvey-postlethwaite.html"

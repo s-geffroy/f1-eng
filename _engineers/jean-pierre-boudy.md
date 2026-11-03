@@ -18,7 +18,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2003/29/all-for-one/"
   - titre: "Joe Saward, GrandPrix.com, “Interview: Bernard Dudot” (1990)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
-  - titre: "Joe Saward, GrandPrix.com, “Peugeot's F1 plans”"
+  - titre: "Joe Saward, GrandPrix.com, “Peugeot's F1 plans” (1 December 1993)"
     url: "https://www.grandprix.com/features/joe-saward/news-feature-peugeots-f1-plans.html"
   - titre: "Renault, “30 ans de Formule 1”"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"

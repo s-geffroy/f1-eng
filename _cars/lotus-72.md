@@ -13,9 +13,9 @@ jalons: ["lotus-72"]
 sources:
   - titre: "Classic Team Lotus, “Lotus 72 50th birthday” (2020)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
-  - titre: "Revs Institute, “Lotus Type 72”"
+  - titre: "Revs Institute, “Lotus Type 72” (13 January 2022)"
     url: "https://automedia.revsinstitute.org/lotus-72-cosworth-the-remarkable-story-of-the-long-lived-legend"
-  - titre: "Forix (8W), “Lotus 72”"
+  - titre: "Forix (8W), Hrvoje Vrbanc, “Lotus 72” (21 April 1999)"
     url: "https://8w.forix.com/lotus72.html"
   - titre: "Lotus Cars, “Type 72”"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-72"

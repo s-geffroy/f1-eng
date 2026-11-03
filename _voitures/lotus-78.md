@@ -11,7 +11,7 @@ concepteurs: ["colin-chapman", "tony-rudd", "ralph-bellamy", "peter-wright", "ma
 termes: ["effet-de-sol", "venturi", "voiture-aile", "jupes", "diffuseur", "nid-d-abeille", "soufflerie"]
 jalons: ["lotus-78"]
 sources:
-  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: the Lotus 79, F1's ground effect marvel »"
+  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: the Lotus 79, F1's ground effect marvel » (21 août 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Doug Nye, Motor Sport Magazine, « Lotus 78: F1's first true ground effect car » (février 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"

@@ -13,7 +13,7 @@ jalons: ["cooper-500"]
 sources:
   - titre: "500 Owners Association, « 1946 Prototype (T2/T3) »"
     url: "https://500race.org/marques/1946-prototype-t2-t3/"
-  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
+  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
   - titre: "Nigel Roebuck, Motor Sport Magazine, « Legends » (octobre 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/october-2005/14/nigel-roebucks-legends-18/"

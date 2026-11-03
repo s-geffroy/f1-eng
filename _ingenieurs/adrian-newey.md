@@ -19,9 +19,9 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Adrian_Newey_at_the_Melbourne_Walk_during_the_2026_Australian_Grand_Prix_(028A8662).jpg"
 sources:
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? »"
+  - titre: "Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? » (1 mai 2024)"
     url: "https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd"
   - titre: "Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"

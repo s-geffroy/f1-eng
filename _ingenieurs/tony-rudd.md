@@ -19,11 +19,11 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source: "https://commons.wikimedia.org/wiki/File:Tony_Rudd_BRM_engineer_1967_N%C3%BCrburgring.jpg"
 sources:
-  - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel »"
+  - titre: "Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » (21 août 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Motor Sport Magazine, « Tony Rudd » (nécrologie, octobre 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/october-2003/17/tony-rudd/"
-  - titre: "Autosport, « The last great BRM that got Stewart off the mark »"
+  - titre: "Autosport, « The last great BRM that got Stewart off the mark » (16 août 2020)"
     url: "https://www.autosport.com/f1/news/the-last-great-brm-that-got-stewart-off-the-mark-5114216/5114216/"
   - titre: "Motor Sport Magazine, « Mission: Improbable » (avril 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"

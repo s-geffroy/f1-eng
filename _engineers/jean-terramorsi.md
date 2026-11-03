@@ -12,7 +12,7 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
   - titre: "Motor Sport Magazine, “Renault-Alpine's 1978 Le Mans 24 Hours win: All for one” (June 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2003/29/all-for-one/"
-  - titre: "Renault Classic, “Renault 5 Turbo” (PDF dossier)"
+  - titre: "Renault Classic, “Renault 5 Turbo” (PDF dossier) (March 2010)"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/Renault5TURBO.pdf.asset.pdf/d687c20fd2.pdf"
 consultation: "25 October 2026"
 image: "/assets/partage/en/jean-terramorsi.jpg"

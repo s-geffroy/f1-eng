@@ -15,7 +15,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2021/90/now-thats-what-i-call-f1-1990s-the-underrated-cars/"
   - titre: "Formula 1, « Tech Tuesday: France flashback, how F1 looked in 1990 »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
-  - titre: "Damien Smith, Autosport, « When Alesi was reunited with his \"dream\" F1 racer »"
+  - titre: "Damien Smith, Autosport, « When Alesi was reunited with his \"dream\" F1 racer » (21 juin 2025)"
     url: "https://www.autosport.com/f1/news/when-alesi-was-reunited-with-his-dream-f1-racer/10734322/"
 photo:
   fichier: "/assets/voitures/tyrrell-019.jpg"

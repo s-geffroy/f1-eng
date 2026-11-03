@@ -13,7 +13,7 @@ jalons: ["lotus-78"]
 sources:
   - titre: "Gordon Cruickshank, Motor Sport Magazine, “Venturi capitalists” (July 2004)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2004/134/venturi-capitalists/"
-  - titre: "Mark Hughes and Giorgio Piola, Formula 1, “Tech Tuesday: the Lotus 79, F1's ground effect marvel”"
+  - titre: "Mark Hughes and Giorgio Piola, Formula 1, “Tech Tuesday: the Lotus 79, F1's ground effect marvel” (21 August 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "James Page, Classic & Sports Car, “Motorsport memories: the ground-effect era” (December 2018)"
     url: "https://www.classicandsportscar.com/features/motorsport-memories-ground-effect-era"

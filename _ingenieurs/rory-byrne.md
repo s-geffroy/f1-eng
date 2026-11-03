@@ -21,9 +21,9 @@ portrait:
 sources:
   - titre: "Motor Sport Magazine, « Formula 2: The Toleman TG 280-Hart team analysis » (décembre 1980)"
     url: "https://www.motorsportmagazine.com/archive/article/december-1980/82/formula-2-toleman-tg-280-hart-team-analysis"
-  - titre: "Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant »"
+  - titre: "Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant » (23 juillet 2020)"
     url: "https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R"
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? »"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "Motor Sport Magazine, « Benetton: when F1 was in fashion » (novembre 2023)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2023/96/benetton-when-f1-was-in-fashion/"

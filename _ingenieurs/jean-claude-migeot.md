@@ -16,7 +16,7 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
   - titre: "Motor Sport Magazine, « Now that's what I call… F1 1990s, the decade's underrated cars » (juin 2021)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2021/90/now-thats-what-i-call-f1-1990s-the-underrated-cars/"
-  - titre: "Autosport, « When Alesi was reunited with his \"dream\" F1 racer »"
+  - titre: "Autosport, « When Alesi was reunited with his \"dream\" F1 racer » (21 juin 2025)"
     url: "https://www.autosport.com/f1/news/when-alesi-was-reunited-with-his-dream-f1-racer/10734322/"
   - titre: "GrandPrix.com, « Jean-Claude Migeot »"
     url: "https://www.grandprix.com/people/jean-claude-migeot.html"

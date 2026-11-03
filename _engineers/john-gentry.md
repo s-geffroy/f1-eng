@@ -12,7 +12,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-1980/82/formula-2-toleman-tg-280-hart-team-analysis"
   - titre: "Motor Sport Magazine, “Band of Brothers: Toleman's dominant F2 campaign” (February 2021)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2021/88/band-of-brothers-tolemans-dominant-f2-campaign/"
-  - titre: "Motor Sport Magazine, “Pierre Gasly in Ayrton Senna's first Toleman”"
+  - titre: "Motor Sport Magazine, “Pierre Gasly in Ayrton Senna's first Toleman” (July 2024)"
     url: "https://www.motorsportmagazine.com/special-article/formula-1-track-tests/130/pierre-gasly-in-ayrton-sennas-first-toleman-always-meet-your-heroes/"
   - titre: "Motor Sport Magazine, Damien Smith, “John Gentry: The changing man” (June 2021)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2021/82/john-gentry-the-changing-man/"

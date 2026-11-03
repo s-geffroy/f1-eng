@@ -10,11 +10,11 @@ voir_aussi: ["peter-wright", "colin-chapman", "ralph-bellamy"]
 sources:
   - titre: "GrandPrix.com, “Tony Southgate”"
     url: "https://www.grandprix.com/people/tony-southgate.html"
-  - titre: "Motor Sport Magazine, “Knowing Colin Chapman: 15 wild months at 'madhouse' Lotus”"
+  - titre: "Motor Sport Magazine, “Knowing Colin Chapman: 15 wild months at 'madhouse' Lotus” (8 September 2023)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/knowing-colin-chapman-15-wild-months-at-madhouse-lotus/"
   - titre: "Graham Keilloh, Autosport, “The failed gamble that began an F1 team's downfall” (2019)"
     url: "https://www.autosport.com/general/news/the-failed-gamble-that-began-an-f1-teams-downfall-5112840/5112840/"
-  - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”"
+  - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel” (21 August 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Doug Nye, Motor Sport Magazine, “Lotus 78: F1's first true ground effect car” (February 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"

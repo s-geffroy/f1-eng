@@ -21,7 +21,7 @@ sources:
     url: "https://www.autosport.com/f1/news/fia-declares-double-diffusers-legal-4429235/4429235/"
   - titre: "Motor Sport Magazine, “Teams in double diffuser race” (June 2009)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2009/10/teams-double-diffuser-race/"
-  - titre: "Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history”"
+  - titre: "Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history” (5 March 2025)"
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
 photo:
   fichier: "/assets/voitures/brawn-bgp-001.jpg"

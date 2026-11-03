@@ -10,7 +10,7 @@ voir_aussi: ["vittorio-jano"]
 sources:
   - titre: "Motor Sport Magazine, “Lancia D50: The grand prix great that doomed a team” (July 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/"
-  - titre: "Automoto.it, “Tecnica: i favolosi motori a otto cilindri F1 anni '50”"
+  - titre: "Automoto.it, “Tecnica: i favolosi motori a otto cilindri F1 anni '50” (9 August 2016)"
     url: "https://www.automoto.it/formula1/tecnica-i-favolosi-motori-a-otto-cilindri-f1-anni-50.html"
   - titre: "Motor Sport Magazine, “Too good for their own good?” (April 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"

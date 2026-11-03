@@ -13,9 +13,9 @@ jalons: ["cooper-titres"]
 sources:
   - titre: "Doug Nye, Motor Sport Magazine, « Cooper T51 » (juin 2019)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"
-  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
+  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
-  - titre: "Revs Institute, « Lotus Type 72 »"
+  - titre: "Revs Institute, « Lotus Type 72 » (13 janvier 2022)"
     url: "https://automedia.revsinstitute.org/lotus-72-cosworth-the-remarkable-story-of-the-long-lived-legend"
 photo:
   fichier: "/assets/voitures/cooper-t51.jpg"

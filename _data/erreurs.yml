@@ -310,7 +310,7 @@ erreurs:
     fr: Pirelli gagne dès le premier Grand Prix du championnat, avec Farina sur Alfa Romeo ; la première victoire de Ferrari (González, Silverstone 1951) vient plus d'un an après. Les pages de Pirelli se contredisent ; sans effet sur nos données.
     en: Pirelli won the very first championship Grand Prix, with Farina's Alfa Romeo; Ferrari's first win (González, Silverstone 1951) came more than a year later. Pirelli's pages contradict each other; no effect on our data.
   preuves:
-  - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
+  - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights » (19 mars 2021)'
     titre_en: 'Pirelli, “Celebrating 400 Formula 1 races: Pirelli''s highlights”'
     url: https://www.pirelli.com/global/en-ww/race/racingspot/formula-1/celebrating-400-formula-1-races-pirelli-s-highlights-53226/
     citation: It all began at Silverstone on May 13, 1950, when Giuseppe Farina won the first ever world championship grand prix in his Alfa Romeo, fitted with Pirelli Stella Bianca tyres.
@@ -406,7 +406,7 @@ erreurs:
     fr: Pneus « Cinturato » attribués aux titres de 1951 à 1953
     en: “Cinturato” tyres credited with the 1951–1953 titles
   source:
-    titre: Pirelli, « 110 years from race to road »
+    titre: Pirelli, « 110 years from race to road » (10 février 2017)
     titre_en: Pirelli, “110 years from race to road”
     url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
     citation: In 1951 the legend that was Juan Manuel Fangio took his first title with Alfa Romeo on Cinturato tyres, which would also claim the championship with Alberto Ascari's Ferrari in 1952 and 1953.
@@ -532,7 +532,7 @@ erreurs:
     fr: Cinquième titre de Fangio daté de 1954 par Pirelli
     en: Fangio's fifth title dated 1954 by Pirelli
   source:
-    titre: Pirelli, « 110 years from race to road »
+    titre: Pirelli, « 110 years from race to road » (10 février 2017)
     titre_en: Pirelli, “110 years from race to road”
     url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
     citation: At the end of the same year the Argentine champion took his fifth Formula 1 ® title, driving a Maserati with Pirelli tyres.
@@ -658,7 +658,7 @@ erreurs:
     fr: Faute de frappe des résultats officiels sur les six poles de Fangio en 1956. Elle passe telle quelle dans notre fichier de résultats (« Lanica Ferrari »), mais le relevé la rattache bien à Ferrari.
     en: A typing error in the official results on Fangio's six 1956 poles. It passes unchanged into our results file (“Lanica Ferrari”), but the extraction script correctly maps it to Ferrari.
   preuves:
-  - titre: 8W (Forix), Don Capps, « Lancia D50 »
+  - titre: 8W (Forix), Don Capps, « Lancia D50 » (6 avril 2000)
     titre_en: 8W (Forix), Don Capps, “Lancia D50”
     url: https://8w.forix.com/d50.html
     citation: At the end of the season Gianni Lancia handed over his cars to Enzo Ferrari and the Lancia-Ferraris triumphed in the 1956 season.
@@ -693,7 +693,7 @@ erreurs:
     fr: Dates mal saisies dans l'historique des châssis Lancia D50 de 8W
     en: Mistyped dates in 8W's Lancia D50 chassis history
   source:
-    titre: 8W (Forix), Don Capps, « Lancia D50 »
+    titre: 8W (Forix), Don Capps, « Lancia D50 » (6 avril 2000)
     titre_en: 8W (Forix), Don Capps, “Lancia D50”
     url: https://8w.forix.com/d50.html
     citation: 1956/0805 Juan Fangio, GP von Deutschland/
@@ -1352,7 +1352,7 @@ erreurs:
     fr: 'Les résultats officiels donnent 20 victoires à la Lotus 72 : Rindt (4) et Fittipaldi (1) en 1970, Fittipaldi (5) en 1972, Fittipaldi (3) et Peterson (4) en 1973, Peterson (3) en 1974. Le chiffre de 22 ne correspond à aucun décompte de Grands Prix de championnat.'
     en: 'The official results credit the Lotus 72 with 20 wins: Rindt (4) and Fittipaldi (1) in 1970, Fittipaldi (5) in 1972, Fittipaldi (3) and Peterson (4) in 1973, Peterson (3) in 1974. The figure of 22 matches no count of championship Grands Prix.'
   preuves:
-  - titre: 8W/Forix, « Lotus 72 »
+  - titre: 8W/Forix, « Lotus 72 » (21 avril 1999)
     titre_en: 8W/Forix, “Lotus 72”
     url: https://8w.forix.com/lotus72.html
     citation: 20 Grand Prix wins, 2 Drivers Championships and 3 Constructors Championship titles

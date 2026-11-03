@@ -2102,7 +2102,7 @@ lignees:
   texte_sources:
   - titre: GrandPrix.com, “Benetton Formula Ltd”
     url: https://www.grandprix.com/constructors/benetton-formula-ltd.html
-  - titre: The Race, “Ranking Renault/Alpine's five previous F1 identities”
+  - titre: The Race, “Ranking Renault/Alpine's five previous F1 identities” (6 September 2020)
     url: https://www.the-race.com/formula-1/ranking-renault-alpines-five-previous-f1-identities/
   actuelle: true
   segments:
@@ -3455,7 +3455,7 @@ lignees:
       url: https://www.grandprix.com/news/bad-news-from-down-chessington-way.html
     - titre: Motor Sport, “Powerhouse Jack built” (May 2006)
       url: https://www.motorsportmagazine.com/archive/article/may-2006/32/powerhouse-jack-built/
-    - titre: Goodwood Road & Racing, Doug Nye, “Celebrating Sir Jack Brabham”
+    - titre: Goodwood Road & Racing, Doug Nye, “Celebrating Sir Jack Brabham” (20 July 2016)
       url: https://www.goodwood.com/grr/columnists/doug-nye/doug-nye--celebrating-sir-jack-brabham/
   - lieu: Guildford (Surrey), race team (BRO)
     lieux:
@@ -3594,9 +3594,9 @@ lignees:
     a: 1963
     periode: '1963'
     sources:
-    - titre: VeloceToday, “A look at Automobili Turismo e Sport”
+    - titre: VeloceToday, “A look at Automobili Turismo e Sport” (15 July 2014)
       url: https://velocetoday.com/a-look-at-automobili-turismo-e-sport/
-    - titre: Petrolicious, “Ferrari Rebels”
+    - titre: Petrolicious, “Ferrari Rebels” (26 September 2012)
       url: https://petrolicious.com/blogs/articles/ferrari-rebels
 - id: brp
   nom: BRP

@@ -12,7 +12,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
   - titre: "Doug Nye, Motor Sport Magazine, « Colin Chapman: chassis pioneer » (mars 2022)"
     url: "https://www.motorsportmagazine.com/archive/article/march-2022/23/colin-chapman-chassis-pioneer/"
-  - titre: "Colin Chapman Museum, « Patently Obvious: The Lotus 25 »"
+  - titre: "Colin Chapman Museum, « Patently Obvious: The Lotus 25 » (1 août 2013)"
     url: "http://colinchapmanmuseum.co.uk/?page_id=1748"
 consultation: "26 octobre 2026"
 image: "/assets/partage/alan-styman.jpg"

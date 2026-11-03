@@ -10,7 +10,7 @@ voir_aussi: ["rory-byrne", "ross-brawn", "andy-cowell", "paddy-lowe"]
 sources:
   - titre: "Formula 1, “Mercedes Technical Advisor Costa to join Dallara for 2020” (September 2019)"
     url: "https://www.formula1.com/en/latest/article/costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43"
-  - titre: "Autosport, “Why a key title-winning team builder is leaving Formula 1”"
+  - titre: "Autosport, “Why a key title-winning team builder is leaving Formula 1” (16 September 2019)"
     url: "https://www.autosport.com/f1/news/why-a-key-title-winning-team-builder-is-leaving-formula-1-4988592/4988592/"
   - titre: "Autosport, “Byrne: the F2005 will not have my signature” (2004)"
     url: "https://www.autosport.com/f1/news/byrne-the-f2005-will-not-have-my-signature-5067512/5067512/"
@@ -22,7 +22,7 @@ sources:
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
   - titre: "GrandPrix.com, “Designer doubts Mercedes to dominate” (2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
-  - titre: "Formula 1, “Mercedes announce engine chief Andy Cowell is to leave the team”"
+  - titre: "Formula 1, “Mercedes announce engine chief Andy Cowell is to leave the team” (15 June 2020)"
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
 consultation: "25 October 2026"
 image: "/assets/partage/en/aldo-costa.jpg"

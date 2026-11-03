@@ -81,7 +81,7 @@ technologies:
     valeur: non
     pourquoi: La P25, victorieuse aux Pays-Bas avec Bonnier, est une F1 à moteur avant (quatre-cylindres de 2 497 cm³) ; 8W précise que BRM met en chantier, au milieu de 1959, une voiture à moteur arrière.
     sources:
-    - titre: 8W (Forix), « Who? Joakim Bonnier »
+    - titre: 8W (Forix), « Who? Joakim Bonnier » (octobre 1999)
       url: https://8w.forix.com/bonnier.html
   - annee: 1959
     ecurie: cooper
@@ -631,7 +631,7 @@ technologies:
     valeur: oui
     pourquoi: 'Semi-monocoque, classé oui : faute de moyens pour une vraie monocoque, la 312B (quatre victoires) habille un treillis tubulaire de panneaux d''aluminium rivetés, l''ensemble formant un semi-monocoque.'
     sources:
-    - titre: Autosport, « The Ferrari no one wanted to win the F1 title »
+    - titre: Autosport, « The Ferrari no one wanted to win the F1 title » (4 mars 2020)
       url: https://www.autosport.com/f1/news/the-ferrari-no-one-wanted-to-win-the-f1-title-5113350/5113350/
     - titre: F1technical, « Ferrari 312B »
       url: https://www.f1technical.net/f1db/cars/256/ferrari-312b
@@ -2761,7 +2761,7 @@ technologies:
     sources:
     - titre: Honda, « McLaren Honda MP4/6 (1991) », F1 Machines Powered by Honda
       url: https://global.honda/en/F1/machine/1991_McLarenHondaMP46/
-    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion »'
+    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion » (20 octobre 2021)'
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ayrton-senna-the-last-v12-powered-f1-champion
   - annee: 1991
     ecurie: williams
@@ -2770,7 +2770,7 @@ technologies:
     valeur: oui
     pourquoi: 'La FW14 est la première Williams à boîte semi-automatique. Sa fiabilité est mauvaise en début de saison 1991 : au Brésil, un rétrogradage trop lent envoie Mansell en tête-à-queue, et les abandons dus à la boîte pèsent dans la perte du titre.'
     sources:
-    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion »'
+    - titre: 'Motor Sport, Damien Smith, « Ayrton Senna: the last V12-powered F1 champion » (20 octobre 2021)'
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ayrton-senna-the-last-v12-powered-f1-champion
     - titre: 'Motor Sport, David Tremayne, « 1991 Brazilian Grand Prix report: Senna wins home race at last » (mai 1991)'
       url: https://www.motorsportmagazine.com/archive/article/may-1991/6/formula-one-brazilian-grand-prix

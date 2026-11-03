@@ -17,7 +17,7 @@ sources:
     url: "https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d"
   - titre: "Motor Sport Magazine, « 1958 Argentinian GP: wily Moss wins with only one eye » (mars 2025)"
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/114/13-1958-argentinian-gp-wily-moss-wins-with-only-one-eye/"
-  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
+  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
   - titre: "Motor Sport Magazine, « Obituaries » (septembre 2000, Owen Maddock)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2000/6/obituaries"

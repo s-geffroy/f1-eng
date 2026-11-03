@@ -12,7 +12,7 @@ domaine: "Engine"
 lignees: ["moteur"]
 voir_aussi: ["mike-costin", "colin-chapman"]
 sources:
-  - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”"
+  - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?” (6 May 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "GrandPrix.com, “Keith Duckworth” (obituary, 2005)"
     url: "https://www.grandprix.com/ns/ns16050.html"
@@ -20,7 +20,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2006/10/obituaries/"
   - titre: "Motor Sport Magazine, “The Lotus 49” (July 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
-  - titre: "Autosport, “The soundtrack to a generation”"
+  - titre: "Autosport, “The soundtrack to a generation” (13 June 2007)"
     url: "https://www.autosport.com/general/news/the-soundtrack-to-a-generation-5078349/5078349/"
   - titre: "Goodwood, “On this day in… 1967”"
     url: "https://www.goodwood.com/grr/f1/on-this-day-in...-1967/"
