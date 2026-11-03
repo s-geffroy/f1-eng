@@ -41,7 +41,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
   - titre: "Autosport, “Banned: the ingenious twin-chassis Lotus F1 car” (13 April 2020)"
     url: "https://www.autosport.com/f1/news/banned-the-ingenious-twin-chassis-lotus-f1-car-4983190/4983190/"
-  - titre: "Classic Team Lotus, “Legendary Team Lotus aerodynamicist Peter Wright dies”"
+  - titre: "Classic Team Lotus, “Legendary Team Lotus aerodynamicist Peter Wright dies” (November 2025)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
   - titre: "John Tipler, Motor Sport Magazine, “A new frame of reference” (May 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"

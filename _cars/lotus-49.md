@@ -21,7 +21,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/june-2014/102/tasmanian-double/"
   - titre: "Andrew Frankel, Goodwood, “Thank Frankel It's Friday: The greatest engine of all” (October 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
-  - titre: "Stellantis Heritage, “Lancia D50”"
+  - titre: "Stellantis Heritage, “Lancia D50” (2024)"
     url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
 photo:
   fichier: "/assets/voitures/lotus-49.jpg"

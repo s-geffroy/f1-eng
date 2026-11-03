@@ -16,7 +16,7 @@ sources:
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Motor Sport Magazine, “Peter Wright obituary: F1's godfather of ground effect and active suspension” (7 November 2025)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/peter-wright-obituary-f1s-godfather-of-ground-effect-and-active-suspension/"
-  - titre: "Classic Team Lotus, “Legendary Team Lotus aerodynamicist Peter Wright dies”"
+  - titre: "Classic Team Lotus, “Legendary Team Lotus aerodynamicist Peter Wright dies” (November 2025)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
   - titre: "Gordon Kirby, Motor Sport Magazine, “Lotus's ground-effect revolution, part one” (21 October 2015)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/lotuss-ground-effect-revolution-part-one/"

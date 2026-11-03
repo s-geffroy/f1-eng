@@ -21,7 +21,7 @@ sources:
     url: "https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/"
   - titre: "Royal Automobile Club, « In the Rotunda, July 2026 »"
     url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
-  - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season »"
+  - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season » (3 décembre 2015)"
     url: "https://www.guinnessworldrecords.com/world-records/381804-most-pole-positions-by-a-constructor-in-a-formula-one-season"
   - titre: "Mark Hughes, Motor Sport Magazine, « Outstanding in the shadows » (août 2015)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows"

@@ -19,7 +19,7 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/december-1986/22/champion-constructor/"
   - titre: "Honda, « 1986 RA166E » (site du constructeur, non daté)"
     url: "https://global.honda/en/POWEREDbyHONDA/1986_ra166e/"
-  - titre: "Honda, « What Telemetry Said About Nigel Mansell » (site du constructeur, non daté)"
+  - titre: "Honda, « What Telemetry Said About Nigel Mansell » (site du constructeur, juin 2025)"
     url: "https://global.honda/en/mansell/Telemetry/"
   - titre: "Formula 1, « 1986 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1986/team"

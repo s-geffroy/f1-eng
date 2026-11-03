@@ -238,7 +238,7 @@ motoristes:
       url: https://global.honda/en/newsroom/news/2002/e020225-eng.html
     - titre: GrandPrix.com, “Honda runs 2005 V10” (June 2004)
       url: https://www.grandprix.com/news/honda-runs-2005-v10.html
-    - titre: Honda, “Old Drawings Tell the Story Behind Honda's F1 Journey”
+    - titre: Honda, “Old Drawings Tell the Story Behind Honda's F1 Journey” (11 December 2024)
       url: https://global.honda/en/tech/motorsports/Formula-1/challenges_F1_old_drawings/
   - lieu: Sakura (Japan)
     lieux:
@@ -3124,7 +3124,7 @@ lignees:
     a: 1955
     periode: 1954–1955
     sources:
-    - titre: Stellantis Heritage, “Lancia D50”
+    - titre: Stellantis Heritage, “Lancia D50” (2024)
       url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
   souffleries:
   - lieu: Turin (Italy), Politecnico di Torino wind tunnel
@@ -3135,7 +3135,7 @@ lignees:
     periode: '1954'
     statut: loue
     sources:
-    - titre: Stellantis Heritage, “Lancia D50”
+    - titre: Stellantis Heritage, “Lancia D50” (2024)
       url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
 - id: mercedes-1954
   nom: Mercedes-Benz (1954–1955)
@@ -3218,7 +3218,7 @@ lignees:
     sources:
     - titre: Motor Sport, Gordon Cruickshank, “Breezed in, blown out” (October 2003)
       url: https://www.motorsportmagazine.com/archive/article/october-2003/78/breezed-in-blown-out/
-    - titre: Forix / 8W, Mattijs Diepraam, “Scirocco – American heir buys British disaster cars”
+    - titre: Forix / 8W, Mattijs Diepraam, “Scirocco – American heir buys British disaster cars” (November 2000)
       url: https://forix.com/8w/scirocco.html
 - id: porsche
   nom: Porsche
@@ -3330,7 +3330,7 @@ lignees:
     a: 1961
     periode: 1959–1961
     sources:
-    - titre: Forix / 8W, Mattijs Diepraam & Felix Muelas, “Everything out of the ordinary” (Brian Naylor, JBW)
+    - titre: Forix / 8W, Mattijs Diepraam & Felix Muelas, “Everything out of the ordinary” (Brian Naylor, JBW) (5 April 1999)
       url: https://8w.forix.com/jbw.html
 - id: aston-martin-1959
   nom: Aston Martin (1959–1960)
@@ -8275,7 +8275,7 @@ ecuries:
       url: https://www.motorsportmagazine.com/archive/article/april-1995/10/charge-light-brigade/
     - titre: GrandPrix.com, “Hopes flows freely from Pacific” (February 1995)
       url: https://www.grandprix.com/ns/ns00036.html
-    - titre: Forix / 8W, Leo Breevoort, Dan Moakes and Mattijs Diepraam, “World Championship Grand Prix engine designations and configurations”
+    - titre: Forix / 8W, Leo Breevoort, Dan Moakes and Mattijs Diepraam, “World Championship Grand Prix engine designations and configurations” (February 2003)
       url: https://forix.autosport.com/8w/6thgear/engines.html
 - id: parnelli
   nom: Parnelli

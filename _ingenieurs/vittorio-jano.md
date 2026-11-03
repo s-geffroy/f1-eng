@@ -29,7 +29,7 @@ sources:
     url: "https://www.goodwood.com/grr/race/historic/2022/1/the-best-lancia-racing-and-rally-cars/"
   - titre: "Motor Sport Magazine, « Front to back » (novembre 2007)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
-  - titre: "Stellantis Heritage, « Lancia D50 »"
+  - titre: "Stellantis Heritage, « Lancia D50 » (2024)"
     url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
   - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
