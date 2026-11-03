@@ -842,7 +842,7 @@ cas:
   ecurie: team-lotus
   equipe: Lotus Climax
   pneus: Firestone
-  pourquoi: La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966. À Brands Hatch, Motor Sport place Clark en deuxième ligne « with Firestone tyres on his Lotus » ; au Nürburgring, les Lotus, montées en Dunlop le matin de la course, repassent en Firestone juste avant le départ. Au Mexique, les trois Lotus sont équipées des derniers Firestone sans chambre. Pour la pole de Clark à Monaco, les pneus ne sont donnés que par le tableau de la saison 1966.
+  pourquoi: 'La Lotus 33 Climax de Team Lotus passe de Dunlop (1964-1965) à Firestone en 1966. Anthony Pritchard, dans sa monographie des Lotus de compétition, l''écrit sans détour : « For 1966 Lotus switched from Dunlop to Firestone tyres ». En août 1966, l''hebdomadaire argentin Corsa le confirme : la Lotus 33 à moteur Climax de Clark et la 43-BRM d''Arundell « utilizan cajas ZF y neumáticos Firestone ». En course, Motor Sport place Clark en deuxième ligne à Brands Hatch « with Firestone tyres on his Lotus ». Au Nürburgring, les Lotus, montées en Dunlop le matin de la course, repassent en Firestone juste avant le départ. Au Mexique, les trois Lotus sont équipées des derniers Firestone sans chambre. Aucune source ne nomme les pneus de la pole de Clark à Monaco, mais ce passage à Firestone vaut pour toute la saison 1966.'
   sources:
   - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
     url: https://www.motorsportmagazine.com/archive/article/august-1966/20/the-19th-british-grand-prix/
@@ -850,8 +850,10 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
   - titre: 'Motor Sport, Michael Tee, « 1966 Mexican Grand Prix race report: Scintillating Surtees » (décembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/december-1966/31/5th-mexican-grand-prix/
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
+  - titre: 'Haynes, Anthony Pritchard, « Lotus: the competition cars » (2006)'
+    url: https://archive.org/details/lotuscompetition0000prit
+  - titre: Corsa (Buenos Aires), n° 15, présentation des Formule 1 avant le Grand Prix d'Allemagne (août 1966)
+    url: https://archive.org/details/corsa-n-15-2-8-agosto-1966
 - annee: 1967
   ecurie: brabham
   equipe: Brabham Repco

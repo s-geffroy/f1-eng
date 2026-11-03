@@ -1,7 +1,7 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2306
+total: 2308
 editeurs_total: 132
-citations: 3710
+citations: 3712
 editeurs:
 - nom: Motor Sport Magazine
   n: 552
@@ -12278,7 +12278,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: Motorsport.com
-  n: 22
+  n: 23
   sources:
   - titre: Adam Cooper, Motorsport.com, « Gérard Ducarouge – 1941-2015 » (février 2015)
     url: https://www.motorsport.com/f1/news/gerard-ducarouge-1941-2015-463106/463106/
@@ -12437,6 +12437,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 2003, Jordan Ford'
+  - titre: Motorsport.com, René Fagnan, « Quand Laffite et Ligier se prenaient à rêver du titre F1 » (mis à jour en janvier 2023)
+    url: https://fr.motorsport.com/f1/news/laffite-ligier-debut-saison-1979-reve/4314546/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
   - titre: Motorsport.com, René Fagnan, « The story of Formula 1's first winning Wolf » (décembre 2015)
     url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
     pages:
@@ -13101,71 +13106,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-- nom: Wikipedia
-  n: 12
-  sources:
-  - titre: Wikipedia, « 1951 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-2-championnat-1952
-      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-1-5-litres-1961
-      titre: 'Chronologie : 1961, La formule 1,5 litre'
-  - titre: Wikipedia, « 1966 Formula One season »
-    url: https://en.wikipedia.org/wiki/1966_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    erreurs:
-    - e160
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Pacific PR02 »
-    url: https://en.wikipedia.org/wiki/Pacific_PR02
-    pages:
-    - url: /ecuries/pacific/
-      titre: 'Écuries : Pacific'
-  - titre: Wikipédia (en), « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
-    pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
-  - titre: Wikipédia, « Benetton B186 »
-    url: https://en.wikipedia.org/wiki/Benetton_B186
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Wikipédia, « Ligier JS17 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS17
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: RaceFans
   n: 11
   sources:
@@ -13226,6 +13166,61 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
+- nom: Wikipedia
+  n: 10
+  sources:
+  - titre: Wikipedia, « 1951 German Grand Prix »
+    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    erreurs:
+    - e160
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Pacific PR02 »
+    url: https://en.wikipedia.org/wiki/Pacific_PR02
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
+  - titre: Wikipédia (en), « Ferrari 158 »
+    url: https://en.wikipedia.org/wiki/Ferrari_158
+    pages:
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
+  - titre: Wikipédia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: FIA
   n: 9
   sources:
@@ -13415,6 +13410,51 @@ editeurs:
       titre: Aldridge, Geoff
     - url: /ingenieurs/gustav-brunner/
       titre: Brunner, Gustav
+- nom: Internet Archive
+  n: 8
+  sources:
+  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
+    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
+    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: Corsa (Buenos Aires), n° 15, présentation des Formule 1 avant le Grand Prix d'Allemagne (août 1966)
+    url: https://archive.org/details/corsa-n-15-2-8-agosto-1966
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
+    url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Virgin, Marussia et Manor'
+  - titre: Grand Prix International, « Benetton B186 », rubrique « Paddocks » (n° 101, mars 1986)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1986.-no.-105/Grand.Prix.International.Magazine.1986.No.101/page/n2/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: 'Haynes, Anthony Pritchard, « Lotus: the competition cars » (2006)'
+    url: https://archive.org/details/lotuscompetition0000prit
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
+    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
+    pages:
+    - url: /glossaire/#nid-d-abeille
+      titre: 'Glossaire : Nid d''abeille'
+    - url: /voitures/mclaren-mp4-24/
+      titre: McLaren MP4-24
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
+    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
+    pages:
+    - url: /voitures/mclaren-mp4-25/
+      titre: McLaren MP4-25
 - nom: Mercedes-AMG F1
   n: 8
   sources:
@@ -13745,36 +13785,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-- nom: Internet Archive
-  n: 5
-  sources:
-  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
-    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
-    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
-    url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Virgin, Marussia et Manor'
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
-    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
-    pages:
-    - url: /glossaire/#nid-d-abeille
-      titre: 'Glossaire : Nid d''abeille'
-    - url: /voitures/mclaren-mp4-24/
-      titre: McLaren MP4-24
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
-    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
-    pages:
-    - url: /voitures/mclaren-mp4-25/
-      titre: McLaren MP4-25
 - nom: Lotus Cars
   n: 5
   sources:

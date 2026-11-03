@@ -1949,12 +1949,14 @@ technologies:
     equipe: Ligier Matra
     voiture: Ligier JS17
     valeur: non
-    pourquoi: Monocoque en aluminium, selon la fiche technique d'Ultimatecarpage et Wikipédia (alliage d'aluminium léger riveté) ; Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche dérive de la Ligier-Cosworth V8.
+    pourquoi: Monocoque en aluminium, selon la fiche technique d'Ultimatecarpage et Wikipédia (alliage d'aluminium léger riveté). Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche « once was a Ligier-Cosworth V8 », c'est-à-dire la lignée de la JS11, dont Motorsport.com décrit le « châssis en feuilles d'aluminium » conçu par Ducarouge. Ce n'est pas une monocoque carbone.
     sources:
     - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
       url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
     - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
       url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
+    - titre: Motorsport.com, René Fagnan, « Quand Laffite et Ligier se prenaient à rêver du titre F1 » (mis à jour en janvier 2023)
+      url: https://fr.motorsport.com/f1/news/laffite-ligier-debut-saison-1979-reve/4314546/
     - titre: Wikipédia, « Ligier JS17 »
       url: https://en.wikipedia.org/wiki/Ligier_JS17
     - titre: Wikipédia, « Ligier JS17 »
@@ -2239,14 +2241,14 @@ technologies:
     equipe: Benetton BMW
     voiture: Benetton B186
     valeur: oui
-    pourquoi: Ultimatecarpage décrit la B186 comme une monocoque en fibre de carbone et nid d'abeille Nomex, dérivée de celle de la Toleman TG185. Wikipédia donne une monocoque moulée en composite de fibre de carbone.
+    pourquoi: La fiche technique publiée par Grand Prix International à la présentation de la voiture, en mars 1986, donne pour la B186 (« ex-Toleman TG185 ») une monocoque en composite de fibre de carbone, le moteur étant semi-porteur. Ultimatecarpage la décrit aussi comme une monocoque en fibre de carbone et nid d'abeille Nomex, dérivée de celle de la Toleman TG185.
     sources:
+    - titre: Grand Prix International, « Benetton B186 », rubrique « Paddocks » (n° 101, mars 1986)
+      url: https://archive.org/details/grand.-prix.-international.-magazine.-1986.-no.-105/Grand.Prix.International.Magazine.1986.No.101/page/n2/mode/2up
     - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW Specifications »
       url: https://www.ultimatecarpage.com/spec/687/Benetton-B186-BMW.html
     - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW »
       url: https://www.ultimatecarpage.com/car/687/Benetton-B186-BMW.html
-    - titre: Wikipédia, « Benetton B186 »
-      url: https://en.wikipedia.org/wiki/Benetton_B186
   - annee: 1986
     ecurie: mclaren
     equipe: McLaren TAG
@@ -2608,7 +2610,7 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: 'En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte, et toute l''allée des stands comprend alors qu''il faudra la copier. Les voitures de Benetton restent pourtant en boîte manuelle les saisons suivantes : la B190 de 1990 a une boîte manuelle à 6 rapports, et la B191, conçue pour recevoir une boîte semi-automatique, court toute la saison 1991 avec une boîte manuelle faute de temps. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle. La B189 a une boîte manuelle transversale Benetton à 6 rapports.'
+    pourquoi: 'En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte, et toute l''allée des stands comprend alors qu''il faudra la copier ; la McLaren-Honda MP4/5 elle-même garde une boîte manuelle à 6 rapports. Les voitures de Benetton restent pourtant en boîte manuelle les saisons suivantes : la B190 de 1990 a une boîte manuelle à 6 rapports, et la B191, conçue pour recevoir une boîte semi-automatique, court toute la saison 1991 avec une boîte manuelle à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle. La B189 a une boîte manuelle transversale Benetton à 6 rapports.'
     sources:
     - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
       url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
@@ -2620,10 +2622,10 @@ technologies:
       url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
     - titre: Autosport (GP Racing), Stuart Codling, « The political skirmishes behind Benetton's F1 turning point » (octobre 2023)
       url: https://www.autosport.com/f1/news/the-political-skirmishes-behind-benettons-f1-turning-point/10532561/
-    - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
-      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Sotheby's, « 1991 Benetton B191 » (catalogue de vente, non daté)
       url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
+    - titre: Motor Sport, « Formula One — New Cars » (mai 1991)
+      url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
       url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
     - titre: Wikipedia, « Benetton B189 »
