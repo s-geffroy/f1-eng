@@ -3,7 +3,7 @@
 # equipe_reelle = constructeur réel quand le nom de formula1.com ne correspond pas à la voiture.
 cas:
 - annee: 1950
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   equipe: Alfa Romeo
   modeles:
   - voiture: Alfa Romeo 158
@@ -42,7 +42,7 @@ cas:
   - titre: IMS, résultats de l'Indianapolis 500 1950
     url: https://cms.ims.com/events/indy500/history/historical-stats/race-stats/race-results/1950
 - annee: 1951
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   equipe: Alfa Romeo
   modeles:
   - voiture: Alfa Romeo 159
@@ -185,7 +185,7 @@ cas:
   - titre: OldRacingCars.com, « Monza, 13 Sep 1953 »
     url: https://www.oldracingcars.com/results/result.php?RaceID=I53
 - annee: 1954
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   equipe: Mercedes-Benz
   modeles:
   - voiture: Mercedes-Benz W196
@@ -254,7 +254,7 @@ cas:
   - titre: Forix / 8W, Don Capps, « Maserati 250F » (avril 2000)
     url: https://8w.forix.com/250f.html
 - annee: 1955
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   equipe: Mercedes-Benz
   modeles:
   - voiture: Mercedes-Benz W196

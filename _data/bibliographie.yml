@@ -1,10 +1,10 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2338
+total: 2347
 editeurs_total: 130
-citations: 3745
+citations: 3763
 editeurs:
 - nom: Motor Sport Magazine
-  n: 565
+  n: 570
   sources:
   - titre: Adam Cooper, Motor Sport Magazine, « Paul Morgan » (juillet 2001)
     url: https://www.motorsportmagazine.com/archive/article/july-2001/6/paul-morgan/
@@ -1073,6 +1073,8 @@ editeurs:
       titre: 'Écuries : BAR'
     - url: /ecuries/
       titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
+    - url: /ecuries/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
     - url: /ecuries/tyrrell/
       titre: 'Écuries : Tyrrell'
   - titre: Motor Sport Magazine, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)
@@ -1178,6 +1180,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: Motor Sport, « Best kept secrets » (septembre 2008)
+    url: https://www.motorsportmagazine.com/archive/article/september-2008/73/best-kept-secrets/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
   - titre: 'Motor Sport, « Big in Japan: Driving John Surtees'' Honda RA300 » (juillet 2005)'
     url: https://www.motorsportmagazine.com/archive/article/july-2005/40/big-in-japan/
     pages:
@@ -1546,6 +1553,13 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
+  - titre: 'Motor Sport, Adam Cooper, « Riccardo Patrese: The worst car I ever drove – Alfa Romeo 185T » (février 2000)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2000/44/out-with-a-whimper/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
+    - url: /ecuries/alfa-romeo-1979/
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
   - titre: Motor Sport, Adam Cooper, « Teams call for KERS in 2011 » (juillet 2010)
     url: https://www.motorsportmagazine.com/archive/article/july-2010/13/teams-call-for-kers-in-2011/
     pages:
@@ -2847,6 +2861,13 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : March : March et Leyton House'
+  - titre: Motor Sport, Denis Jenkinson, « Mercedes-Benz withdraws from motor racing at the end of the 1955 season » (décembre 1955)
+    url: https://www.motorsportmagazine.com/archive/article/december-1955/16/mercedes-benz-withdraws-from-motor-racing-at-the-end-of-the-1955-season
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
+    - url: /ecuries/mercedes-1954/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: Motor Sport, Denis Jenkinson, « Mexican Magic » (août 1990)
     url: https://www.motorsportmagazine.com/archive/article/august-1990/6/mexican-magic
     pages:
@@ -3506,11 +3527,25 @@ editeurs:
     pages:
     - url: /chronologie/#c-jaguar-d-type-monocoque
       titre: 'Chronologie : 1954, La Jaguar D-Type et la monocoque d''avion'
+  - titre: Motor Sport, Paul Fearnley, « The F1 racer who brought his own Alfa Romeo 182 back to life » (mars 2021)
+    url: https://www.motorsportmagazine.com/archive/article/march-2021/92/the-f1-racer-who-brought-his-own-alfa-romeo-182-back-to-life/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
+    - url: /ecuries/alfa-romeo-1979/
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
   - titre: Motor Sport, Paul Fearnley, « Tyrrell 006 » (décembre 2006)
     url: https://www.motorsportmagazine.com/archive/article/december-2006/59/tyrrell-006/
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: 'Motor Sport, Peter Higham, « Mercedes'' dominant 1954 return to grand prix racing: Formula 1 Car by Car extract » (août 2020)'
+    url: https://www.motorsportmagazine.com/articles/history/mercedes-dominant-1954-return-to-grand-prix-racing-formula-1-car-by-car-extract
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
+    - url: /ecuries/mercedes-1954/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: 'Motor Sport, Preston Lerner, « Ferrari 156: Shark strike » (novembre 2002)'
     url: https://www.motorsportmagazine.com/archive/article/november-2002/45/shark-strike/
     pages:
@@ -3692,7 +3727,7 @@ editeurs:
     - url: /ingenieurs/gordon-murray/
       titre: Murray, Gordon
 - nom: Formula 1
-  n: 514
+  n: 516
   sources:
   - titre: Formula 1, « 10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago » (mai 2020)
     url: https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj
@@ -4993,8 +5028,8 @@ editeurs:
     pages:
     - url: /cartes/
       titre: 'Cartes : Silverstone'
-    - url: /ecuries/alfa-romeo-1979/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+    - url: /ecuries/alfa-romeo-1950/
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
     - url: /ecuries/maserati/
       titre: 'Écuries : Maserati'
   - titre: Formula 1, résultats, « 1950 Drivers' Standings »
@@ -5044,8 +5079,8 @@ editeurs:
     pages:
     - url: /cartes/
       titre: 'Cartes : Pedralbes (Barcelone)'
-    - url: /ecuries/alfa-romeo-1979/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+    - url: /ecuries/alfa-romeo-1950/
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
     - url: /ecuries/maserati/
       titre: 'Écuries : Maserati'
   - titre: Formula 1, résultats, « 1952 Drivers' Standings »
@@ -5088,6 +5123,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : saison 1954'
+  - titre: Formula 1, résultats, « 1954 French Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1954/races/129/france/race-result
+    pages:
+    - url: /ecuries/mercedes-1954/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: Formula 1, résultats, « 1954 Spanish Grand Prix »
     url: https://www.formula1.com/en/results/1954/races/134/spain/race-result
     pages:
@@ -5105,6 +5145,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : saison 1955'
+  - titre: Formula 1, résultats, « 1955 Italian Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1955/races/141/italy/race-result
+    pages:
+    - url: /ecuries/mercedes-1954/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: Formula 1, résultats, « 1956 Drivers' Standings »
     url: https://www.formula1.com/en/results/1956/drivers
     pages:
@@ -5465,6 +5510,8 @@ editeurs:
   - titre: Formula 1, résultats, « 1970 Canadian Grand Prix »
     url: https://www.formula1.com/en/results/1970/races/288/canada/race-result
     pages:
+    - url: /ecuries/
+      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
     - url: /ecuries/tyrrell/
       titre: 'Écuries : Tyrrell'
   - titre: Formula 1, résultats, « 1970 Drivers' Standings »
@@ -5789,7 +5836,7 @@ editeurs:
     url: https://www.formula1.com/en/results/1979/races/412/belgium/race-result
     pages:
     - url: /ecuries/alfa-romeo-1979/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
   - titre: Formula 1, résultats, « 1979 Canadian Grand Prix »
     url: https://www.formula1.com/en/results/1979/races/420/canada/race-result
     pages:
@@ -6901,7 +6948,7 @@ editeurs:
     - url: /cartes/
       titre: 'Cartes : Adélaïde'
     - url: /ecuries/alfa-romeo-1979/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
     - url: /ecuries/renault-1977/
       titre: 'Écuries : Renault (1977–1985)'
   - titre: Formula 1, résultats, « Formula 1 Crypto.com Miami Grand Prix 2022 »
@@ -8857,7 +8904,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
 - nom: GrandPrix.com
-  n: 246
+  n: 247
   sources:
   - titre: GrandPrix.com, « ...and a new windtunnel » (janvier 1998)
     url: https://www.grandprix.com/news/and-a-new-windtunnel.html
@@ -9273,6 +9320,11 @@ editeurs:
       titre: 'Chronologie : 2010, Le F-duct de McLaren'
     - url: /voitures/mclaren-mp4-25/
       titre: McLaren MP4-25
+  - titre: GrandPrix.com, « Mercedes-Benz »
+    url: https://www.grandprix.com/constructors/mercedes-benz.html
+    pages:
+    - url: /ecuries/mercedes-1954/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: GrandPrix.com, « Merzario »
     url: https://www.grandprix.com/constructors/merzario.html
     pages:
@@ -9597,6 +9649,11 @@ editeurs:
     pages:
     - url: /ingenieurs/derek-gardner/
       titre: Gardner, Derek
+  - titre: GrandPrix.com, « Tyrrell Racing Organisation »
+    url: https://www.grandprix.com/constructors/tyrrell-racing-organisation.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
   - titre: GrandPrix.com, « Tyrrell turns down BAT offer » (juin 1997)
     url: https://www.grandprix.com/news/tyrrell-turns-down-bat-offer.html
     pages:
@@ -9876,9 +9933,13 @@ editeurs:
     url: https://www.grandprix.com/constructors/alfa-romeo.html
     pages:
     - url: /ecuries/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
+    - url: /ecuries/alfa-romeo-1950/
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
+    - url: /ecuries/
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
     - url: /ecuries/alfa-romeo-1979/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+      titre: 'Écuries : Alfa Romeo (1979–1985)'
   - titre: GrandPrix.com, Joe Saward, « Arrows Grand Prix » (encyclopédie, s.d.)
     url: https://www.grandprix.com/constructors/arrows-grand-prix.html
     pages:
@@ -10173,11 +10234,6 @@ editeurs:
       titre: 'Écuries : Toyota'
     - url: /ecuries/toyota/
       titre: 'Écuries : Toyota'
-  - titre: GrandPrix.com, Joe Saward, « Tyrrell Racing Organisation » (encyclopédie, s.d.)
-    url: https://www.grandprix.com/constructors/tyrrell-racing-organisation.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
   - titre: GrandPrix.com, Joe Saward, « Tyrrell’s windtunnel is scrapped » (décembre 1997)
     url: https://www.grandprix.com/news/tyrrells-windtunnel-is-scrapped.html
     pages:
@@ -11171,7 +11227,9 @@ editeurs:
     url: https://www.autosport.com/f1/news/how-enzo-ferrari-ended-his-former-employers-era-of-grand-prix-supremacy/10702697/
     pages:
     - url: /ecuries/
-      titre: 'Écuries : Alfa Romeo (1950–1985)'
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
+    - url: /ecuries/alfa-romeo-1950/
+      titre: 'Écuries : Alfa Romeo (1950–1951)'
   - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
     url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
     pages:
@@ -13426,8 +13484,13 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: RM Sotheby's
-  n: 10
+  n: 11
   sources:
+  - titre: RM Sotheby's, « 1954 Mercedes-Benz W 196 R Stromlinienwagen » (catalogue de vente)
+    url: https://rmsothebys.com/auctions/tt25/lots/r0001-1954-mercedesbenz-w-196-r-stromlinienwagen/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Mercedes-Benz (1954–1955)'
   - titre: RM Sotheby's, « 1971 McLaren M19A » (Monaco 2024)
     url: https://rmsothebys.com/auctions/mc24/lots/r0014-1971-mclaren-m19a/
     pages:

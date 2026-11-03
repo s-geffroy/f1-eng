@@ -14,29 +14,29 @@ saisons:
   - gp: Great Britain
     vainqueur: Nino Farina
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
     podium:
     - place: 2
       pilote: Luigi Fagioli
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: Reg Parnell
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     pole:
       pilote: Nino Farina
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: Monaco
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/95/monaco/race-result
     podium:
@@ -53,7 +53,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: United States of America Indianapolis
     vainqueur: Johnnie Parsons
@@ -76,14 +76,14 @@ saisons:
   - gp: Switzerland
     vainqueur: Nino Farina
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/97/switzerland/race-result
     podium:
     - place: 2
       pilote: Luigi Fagioli
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: Louis Rosier
@@ -91,19 +91,19 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: Belgium
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/98/belgium/race-result
     podium:
     - place: 2
       pilote: Luigi Fagioli
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: Louis Rosier
@@ -111,19 +111,19 @@ saisons:
     pole:
       pilote: Nino Farina
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: France
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/99/france/race-result
     podium:
     - place: 2
       pilote: Luigi Fagioli
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: Peter Whitehead
@@ -133,12 +133,12 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: Italy
     vainqueur: Nino Farina
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1950/races/100/italy/race-result
     podium:
@@ -150,23 +150,23 @@ saisons:
     - place: 3
       pilote: Luigi Fagioli
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   pilotes:
   - pilote: Nino Farina
     points: 30.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Juan Manuel Fangio
     points: 27.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Luigi Fagioli
     points: 24.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Louis Rosier
     points: 13.0
   - pilote: Alberto Ascari
@@ -221,7 +221,7 @@ saisons:
   - gp: Switzerland
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1951/races/101/switzerland/race-result
     podium:
@@ -233,12 +233,12 @@ saisons:
     - place: 3
       pilote: Nino Farina
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: United States of America Indianapolis
     vainqueur: Lee Wallard
@@ -265,7 +265,7 @@ saisons:
   - gp: Belgium
     vainqueur: Nino Farina
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1951/races/103/belgium/race-result
     podium:
@@ -282,12 +282,12 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: France
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1951/races/104/france/race-result
     podium:
@@ -304,7 +304,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     covainqueur: Luigi Fagioli
   - gp: Great Britain
@@ -317,7 +317,7 @@ saisons:
     - place: 2
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: Luigi Villoresi
@@ -339,7 +339,7 @@ saisons:
     - place: 2
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     - place: 3
       pilote: José Froilán González
@@ -366,17 +366,17 @@ saisons:
     - place: 3
       pilote: Felice Bonetto
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     pole:
       pilote: Juan Manuel Fangio
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
   - gp: Spain
     vainqueur: Juan Manuel Fangio
     equipe: Alfa Romeo
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
     motoriste: alfa-romeo
     url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
     podium:
@@ -388,7 +388,7 @@ saisons:
     - place: 3
       pilote: Nino Farina
       equipe: Alfa Romeo
-      ecurie: alfa-romeo-1979
+      ecurie: alfa-romeo-1950
       motoriste: alfa-romeo
     pole:
       pilote: Alberto Ascari
@@ -398,7 +398,7 @@ saisons:
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 31.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Alberto Ascari
     points: 25.0
     ecurie: ferrari
@@ -406,7 +406,7 @@ saisons:
     points: 24.0
   - pilote: Nino Farina
     points: 19.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Luigi Villoresi
     points: 15.0
     ecurie: ferrari
@@ -418,7 +418,7 @@ saisons:
     ecurie: kurtis-kraft
   - pilote: Felice Bonetto
     points: 7.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Mike Nazaruk
     points: 6.0
     ecurie: kurtis-kraft
@@ -427,17 +427,17 @@ saisons:
     ecurie: brm
   - pilote: Luigi Fagioli
     points: 4.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Consalvo Sanesi
     points: 3.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Andy Linden
     points: 3.0
   - pilote: Louis Rosier
     points: 3.0
   - pilote: Toulo de Graffenried
     points: 2.0
-    ecurie: alfa-romeo-1979
+    ecurie: alfa-romeo-1950
   - pilote: Manny Ayulo
     points: 2.0
     ecurie: kurtis-kraft
@@ -1018,12 +1018,14 @@ saisons:
   - gp: France
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1954/races/129/france/race-result
     podium:
     - place: 2
       pilote: Karl Kling
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     - place: 3
       pilote: Robert Manzon
@@ -1033,6 +1035,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Great Britain
     vainqueur: José Froilán González
@@ -1054,10 +1057,12 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Germany
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1954/races/131/germany/race-result
     podium:
@@ -1074,10 +1079,12 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Switzerland
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1954/races/132/switzerland/race-result
     podium:
@@ -1089,6 +1096,7 @@ saisons:
     - place: 3
       pilote: Hans Herrmann
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     pole:
       pilote: José Froilán González
@@ -1098,6 +1106,7 @@ saisons:
   - gp: Italy
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1954/races/133/italy/race-result
     podium:
@@ -1114,6 +1123,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Spain
     vainqueur: Mike Hawthorn
@@ -1130,6 +1140,7 @@ saisons:
     - place: 3
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     pole:
       pilote: Alberto Ascari
@@ -1217,6 +1228,7 @@ saisons:
   - gp: Argentina
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1955/races/135/argentina/race-result
     podium:
@@ -1255,6 +1267,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: United States of America Indianapolis
     vainqueur: Bob Sweikert
@@ -1279,12 +1292,14 @@ saisons:
   - gp: Belgium
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1955/races/138/belgium/race-result
     podium:
     - place: 2
       pilote: Stirling Moss
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     - place: 3
       pilote: Nino Farina
@@ -1299,12 +1314,14 @@ saisons:
   - gp: Netherlands
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1955/races/139/netherlands/race-result
     podium:
     - place: 2
       pilote: Stirling Moss
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     - place: 3
       pilote: Luigi Musso
@@ -1314,34 +1331,41 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Great Britain
     vainqueur: Stirling Moss
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1955/races/140/great-britain/race-result
     podium:
     - place: 2
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     - place: 3
       pilote: Karl Kling
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     pole:
       pilote: Stirling Moss
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   - gp: Italy
     vainqueur: Juan Manuel Fangio
     equipe: Mercedes-Benz
+    ecurie: mercedes-1954
     motoriste: mercedes
     url: https://www.formula1.com/en/results/1955/races/141/italy/race-result
     podium:
     - place: 2
       pilote: Piero Taruffi
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
     - place: 3
       pilote: Eugenio Castellotti
@@ -1351,6 +1375,7 @@ saisons:
     pole:
       pilote: Juan Manuel Fangio
       equipe: Mercedes-Benz
+      ecurie: mercedes-1954
       motoriste: mercedes
   pilotes:
   - pilote: Juan Manuel Fangio

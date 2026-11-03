@@ -3,10 +3,10 @@
 # des autres, au sens de l'indice de Youden ; lignees = meilleure saison de chaque lignée mesurée.
 seuil: 0.2
 youden: 0.923821
-saisons: 909
-dominantes: 82
-au_dessus: 145
-dominantes_au_dessus: 82
+saisons: 911
+dominantes: 84
+au_dessus: 147
+dominantes_au_dessus: 84
 lignees:
   ferrari:
     meilleure: 1952
@@ -47,9 +47,12 @@ lignees:
   kurtis-kraft:
     meilleure: 1951
     indice: 0.125
-  alfa-romeo-1979:
+  alfa-romeo-1950:
     meilleure: 1950
     indice: 0.761905
+  alfa-romeo-1979:
+    meilleure: 1982
+    indice: 0.027778
   brm:
     meilleure: 1965
     indice: 0.355556
@@ -62,6 +65,9 @@ lignees:
   lancia:
     meilleure: 1955
     indice: 0.063492
+  mercedes-1954:
+    meilleure: 1955
+    indice: 0.587302
   emeryson:
     meilleure: 1956
     indice: 0.0
@@ -283,10 +289,10 @@ lignees:
     indice: 0.0
 tete_indice:
 - annee: 1950
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   indice: 0.761905
 - annee: 1951
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   indice: 0.458333
 - annee: 1952
   ecurie: ferrari
@@ -295,10 +301,10 @@ tete_indice:
   ecurie: ferrari
   indice: 0.679013
 - annee: 1954
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   indice: 0.382716
 - annee: 1955
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   indice: 0.587302
 - annee: 1956
   ecurie: ferrari
@@ -5609,8 +5615,8 @@ cycles:
   gp: 15
   dominants:
     ecurie:
-      id: alfa-romeo-1979
-      nom: Alfa Romeo (1950–1985)
+      id: alfa-romeo-1950
+      nom: Alfa Romeo (1950–1951)
       victoires: 10
       part: 0.666667
       titres: 2
@@ -5636,14 +5642,14 @@ cycles:
   indice_meneurs: 0.610119
   hhi: 0.502222
   meneurs:
-  - alfa-romeo-1979
-  - alfa-romeo-1979
-  premier_meneur: alfa-romeo-1979
+  - alfa-romeo-1950
+  - alfa-romeo-1950
+  premier_meneur: alfa-romeo-1950
   premier_meneur_domine: true
   prise: 1950
   delai_prise: 0
   saisons_menees: 2
-  dernier_meneur: alfa-romeo-1979
+  dernier_meneur: alfa-romeo-1950
   suite:
     meneur_suivant: ferrari
     garde: false
@@ -5692,7 +5698,7 @@ cycles:
   saisons_menees: 2
   dernier_meneur: ferrari
   suite:
-    meneur_suivant: Mercedes-Benz
+    meneur_suivant: mercedes-1954
     garde: false
     part_avant: 0.777778
     part_apres: 0.222222
@@ -5730,14 +5736,14 @@ cycles:
   indice_meneurs: 0.503589
   hhi: 0.152445
   meneurs:
-  - Mercedes-Benz
-  - Mercedes-Benz
+  - mercedes-1954
+  - mercedes-1954
   - ferrari
   - maserati
   - vanwall
   - cooper
   - cooper
-  premier_meneur: Mercedes-Benz
+  premier_meneur: mercedes-1954
   premier_meneur_domine: false
   prise: 1956
   delai_prise: 2

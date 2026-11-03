@@ -759,7 +759,7 @@ saisons:
   ecuries: 5
   pilote: Nino Farina
   pilote_cumul: 1
-  pilote_ecurie: alfa-romeo-1979
+  pilote_ecurie: alfa-romeo-1950
   sources:
   - titre: Formula 1, résultats, « 1950 Drivers' Standings »
     url: https://www.formula1.com/en/results/1950/drivers
@@ -767,7 +767,7 @@ saisons:
   ecuries: 6
   pilote: Juan Manuel Fangio
   pilote_cumul: 2
-  pilote_ecurie: alfa-romeo-1979
+  pilote_ecurie: alfa-romeo-1950
   sources:
   - titre: Formula 1, résultats, « 1951 Drivers' Standings »
     url: https://www.formula1.com/en/results/1951/drivers
@@ -791,7 +791,7 @@ saisons:
   ecuries: 7
   pilote: Juan Manuel Fangio
   pilote_cumul: 1
-  pilote_equipe: Mercedes-Benz
+  pilote_ecurie: mercedes-1954
   sources:
   - titre: Formula 1, résultats, « 1954 Drivers' Standings »
     url: https://www.formula1.com/en/results/1954/drivers
@@ -799,7 +799,7 @@ saisons:
   ecuries: 7
   pilote: Juan Manuel Fangio
   pilote_cumul: 2
-  pilote_equipe: Mercedes-Benz
+  pilote_ecurie: mercedes-1954
   sources:
   - titre: Formula 1, résultats, « 1955 Drivers' Standings »
     url: https://www.formula1.com/en/results/1955/drivers
@@ -1906,6 +1906,14 @@ lignees:
         url: https://www.autosport.com/f1/news/mercedes-takes-over-brawn-4433692/4433692/
       - titre: Motor Sport Magazine, Ed Foster, « Mercedes buys out Brawn GP » (novembre 2009)
         url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mercedes-buys-out-brawn-gp/
+  texte: Ken Tyrrell engage des Matra en Formule 1 dès 1968 sous le nom de Matra International, et Jackie Stewart est champion du monde en 1969 ; en 1970, l'équipe court sur March, puis la première Tyrrell, la 001 de Derek Gardner, débute au Grand Prix du Canada le 20 septembre 1970 (GrandPrix.com ; Formula 1 ; Motor Sport). La frise suit le nom du constructeur, d'où le départ en 1970.
+  texte_sources:
+  - titre: GrandPrix.com, « Tyrrell Racing Organisation »
+    url: https://www.grandprix.com/constructors/tyrrell-racing-organisation.html
+  - titre: Formula 1, résultats, « 1970 Canadian Grand Prix »
+    url: https://www.formula1.com/en/results/1970/races/288/canada/race-result
+  - titre: Motor Sport, « Best kept secrets » (septembre 2008)
+    url: https://www.motorsportmagazine.com/archive/article/september-2008/73/best-kept-secrets/
   rangee: 3
   groupe: usine
   colonne: 3
@@ -2998,19 +3006,22 @@ lignees:
     sources:
     - titre: Simanaitis Says, Dennis Simanaitis, « The Kurtis Sports Car » (mars 2018)
       url: https://simanaitissays.com/2018/03/25/the-kurtis-sports-car/
-- id: alfa-romeo-1979
-  nom: Alfa Romeo (1950–1985)
+- id: alfa-romeo-1950
+  nom: Alfa Romeo (1950–1951)
   segments:
-  - ecurie: alfa-romeo-1979
+  - ecurie: alfa-romeo-1950
     de: 1950
     a: 1951
-  - ecurie: alfa-romeo-1979
-    de: 1979
-    a: 1985
+  texte: 'L''équipe d''usine Alfa Romeo, Alfa Corse, court depuis Portello (Milan) en 1950 et 1951 : Farina puis Fangio y sont sacrés champions du monde. Le 15 février 1952, faute de subvention de l''État, la direction décide de ne pas revenir (Autosport). Le programme de 1979 est mené par une autre organisation, Autodelta : la frise sépare les deux fiches (GrandPrix.com).'
+  texte_sources:
+  - titre: Autosport, Stuart Codling, « How Enzo Ferrari put an end to his former employer's era of grand prix supremacy » (mars 2025)
+    url: https://www.autosport.com/f1/news/how-enzo-ferrari-ended-his-former-employers-era-of-grand-prix-supremacy/10702697/
+  - titre: GrandPrix.com, Joe Saward, « Alfa Romeo » (encyclopédie, s.d.)
+    url: https://www.grandprix.com/constructors/alfa-romeo.html
   rangee: 15
   groupe: autres
   colonne: 1
-  usine: Senago
+  usine: Portello
   usines:
   - lieu: Portello, Milan (Italie)
     lieux:
@@ -3021,6 +3032,25 @@ lignees:
     sources:
     - titre: Autosport, Stuart Codling, « How Enzo Ferrari put an end to his former employer's era of grand prix supremacy » (mars 2025)
       url: https://www.autosport.com/f1/news/how-enzo-ferrari-ended-his-former-employers-era-of-grand-prix-supremacy/10702697/
+- id: alfa-romeo-1979
+  nom: Alfa Romeo (1979–1985)
+  segments:
+  - ecurie: alfa-romeo-1979
+    de: 1979
+    a: 1985
+  texte: 'Alfa Romeo revient en 1979 avec ses propres voitures, engagées par Autodelta, le service compétition de Carlo Chiti à Settimo Milanese. À partir de 1983, la conception et l''exploitation des voitures sont confiées à l''Euroracing de Paolo Pavanello, à Senago ; Autodelta ne fournit plus que les moteurs (Motor Sport ; GrandPrix.com). Ce n''est pas l''équipe de 1950–1951, dissoute après 1951 : seule la marque est commune.'
+  texte_sources:
+  - titre: Motor Sport, Paul Fearnley, « The F1 racer who brought his own Alfa Romeo 182 back to life » (mars 2021)
+    url: https://www.motorsportmagazine.com/archive/article/march-2021/92/the-f1-racer-who-brought-his-own-alfa-romeo-182-back-to-life/
+  - titre: 'Motor Sport, Adam Cooper, « Riccardo Patrese: The worst car I ever drove – Alfa Romeo 185T » (février 2000)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2000/44/out-with-a-whimper/
+  - titre: GrandPrix.com, Joe Saward, « Alfa Romeo » (encyclopédie, s.d.)
+    url: https://www.grandprix.com/constructors/alfa-romeo.html
+  rangee: 15
+  groupe: autres
+  colonne: 1
+  usine: Senago
+  usines:
   - lieu: Settimo Milanese (Italie)
     lieux:
     - settimo-milanese
@@ -3132,6 +3162,34 @@ lignees:
     sources:
     - titre: Stellantis Heritage, « Lancia D50 »
       url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
+- id: mercedes-1954
+  nom: Mercedes-Benz (1954–1955)
+  segments:
+  - ecurie: mercedes-1954
+    de: 1954
+    a: 1955
+  texte: 'Mercedes-Benz fait ses débuts en championnat au Grand Prix de France 1954, à Reims, avec la W196, et annonce à l''été 1955 qu''elle quittera les Grands Prix à la fin de la saison (Motor Sport). L''écurie de Brackley n''en descend pas : Mercedes ne redevient équipe d''usine qu''en 2010, en reprenant l''engagement de Brawn GP (Motor Sport).'
+  texte_sources:
+  - titre: Motor Sport, Denis Jenkinson, « Mercedes-Benz withdraws from motor racing at the end of the 1955 season » (décembre 1955)
+    url: https://www.motorsportmagazine.com/archive/article/december-1955/16/mercedes-benz-withdraws-from-motor-racing-at-the-end-of-the-1955-season
+  - titre: 'Motor Sport, Pablo Elizalde, « From Tyrrell shed via Brawn fairytale: the evolution of Mercedes'' F1 team » (septembre 2025)'
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/from-tyrrell-shed-via-brawn-fairytale-the-evolution-of-mercedes-f1-team/
+  rangee: 2
+  groupe: autres
+  colonne: 9
+  usine: Stuttgart
+  usines:
+  - lieu: Stuttgart-Untertürkheim (Allemagne)
+    lieux:
+    - stuttgart
+    de: 1954
+    a: 1955
+    periode: 1954–1955
+    sources:
+    - titre: 'Motor Sport, Peter Higham, « Mercedes'' dominant 1954 return to grand prix racing: Formula 1 Car by Car extract » (août 2020)'
+      url: https://www.motorsportmagazine.com/articles/history/mercedes-dominant-1954-return-to-grand-prix-racing-formula-1-car-by-car-extract
+    - titre: RM Sotheby's, « 1954 Mercedes-Benz W 196 R Stromlinienwagen » (catalogue de vente)
+      url: https://rmsothebys.com/auctions/tt25/lots/r0001-1954-mercedesbenz-w-196-r-stromlinienwagen/
 - id: emeryson
   nom: Emeryson et Scirocco
   segments:
@@ -4448,6 +4506,12 @@ lignees:
         url: https://www.motorsportmagazine.com/archive/article/september-1998/58/olivers-army/
       - titre: GrandPrix.com, « TWR completes Arrows takeover » (juillet 1996)
         url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
+  texte: 'Arrows est fondée en novembre 1977 par des transfuges de l''équipe Shadow : Franco Ambrosio, Alan Rees, Jackie Oliver, Dave Wass et Tony Southgate, dont les initiales forment le nom. Il n''y a pas eu de rachat, seulement un départ de personnel. La FA1 ressemble tant à la Shadow DN9 que Shadow obtient gain de cause devant la High Court de Londres en 1978 ; Arrows doit construire l''A1 (GrandPrix.com ; Motor Sport).'
+  texte_sources:
+  - titre: GrandPrix.com, Joe Saward, « Arrows Grand Prix » (encyclopédie, s.d.)
+    url: https://www.grandprix.com/constructors/arrows-grand-prix.html
+  - titre: 'Motor Sport, Adam Cooper, « Jackie Oliver''s army: the story of the Arrows F1 team » (septembre 1998)'
+    url: https://www.motorsportmagazine.com/archive/article/september-1998/58/olivers-army/
   rangee: 22
   groupe: usine
   colonne: 19
@@ -5347,8 +5411,29 @@ ecuries:
     sources:
     - titre: Formula 1, résultats, « 2019 Rolex Australian Grand Prix »
       url: https://www.formula1.com/en/results/2019/races/1000/australia/race-result
+- id: alfa-romeo-1950
+  nom: Alfa Romeo (1950–1951)
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 1950 British Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
+  - titre: Formula 1, résultats, « 1951 Spanish Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
+  - titre: GrandPrix.com, Joe Saward, « Alfa Romeo » (encyclopédie, s.d.)
+    url: https://www.grandprix.com/constructors/alfa-romeo.html
+  - titre: Autosport, Stuart Codling, « How Enzo Ferrari put an end to his former employer's era of grand prix supremacy » (mars 2025)
+    url: https://www.autosport.com/f1/news/how-enzo-ferrari-ended-his-former-employers-era-of-grand-prix-supremacy/10702697/
+  moteurs:
+  - motoriste: alfa-romeo
+    de: 1950
+    a: 1951
+    sources:
+    - titre: Formula 1, résultats, « 1950 British Grand Prix »
+      url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
 - id: alfa-romeo-1979
-  nom: Alfa Romeo (1950–1985)
+  nom: Alfa Romeo (1979–1985)
   voitures: []
   ingenieurs:
   - id: gerard-ducarouge
@@ -5359,23 +5444,17 @@ ecuries:
     a: 1985
   jalons: []
   sources:
-  - titre: Formula 1, résultats, « 1950 British Grand Prix - Race Result »
-    url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
-  - titre: Formula 1, résultats, « 1951 Spanish Grand Prix - Race Result »
-    url: https://www.formula1.com/en/results/1951/races/108/spain/race-result
   - titre: GrandPrix.com, « Alfa Romeo »
     url: https://www.grandprix.com/constructors/alfa-romeo.html
   - titre: Formula 1, résultats, « 1979 Belgian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1979/races/412/belgium/race-result
   - titre: Formula 1, résultats, « Australian Grand Prix 1985 - Race Result »
     url: https://www.formula1.com/en/results/1985/races/497/australia/race-result
+  - titre: 'Motor Sport, Adam Cooper, « Riccardo Patrese: The worst car I ever drove – Alfa Romeo 185T » (février 2000)'
+    url: https://www.motorsportmagazine.com/archive/article/february-2000/44/out-with-a-whimper/
+  - titre: Motor Sport, Paul Fearnley, « The F1 racer who brought his own Alfa Romeo 182 back to life » (mars 2021)
+    url: https://www.motorsportmagazine.com/archive/article/march-2021/92/the-f1-racer-who-brought-his-own-alfa-romeo-182-back-to-life/
   moteurs:
-  - motoriste: alfa-romeo
-    de: 1950
-    a: 1951
-    sources:
-    - titre: Formula 1, résultats, « 1950 British Grand Prix »
-      url: https://www.formula1.com/en/results/1950/races/94/great-britain/race-result
   - motoriste: alfa-romeo
     de: 1979
     a: 1985
@@ -7974,6 +8053,31 @@ ecuries:
   - ross-brawn
   - paddy-lowe
   - aldo-costa
+- id: mercedes-1954
+  nom: Mercedes-Benz (1954–1955)
+  voitures: []
+  ingenieurs: []
+  jalons: []
+  sources:
+  - titre: Formula 1, résultats, « 1954 French Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1954/races/129/france/race-result
+  - titre: Formula 1, résultats, « 1955 Italian Grand Prix - Race Result »
+    url: https://www.formula1.com/en/results/1955/races/141/italy/race-result
+  - titre: GrandPrix.com, « Mercedes-Benz »
+    url: https://www.grandprix.com/constructors/mercedes-benz.html
+  - titre: 'Motor Sport, Peter Higham, « Mercedes'' dominant 1954 return to grand prix racing: Formula 1 Car by Car extract » (août 2020)'
+    url: https://www.motorsportmagazine.com/articles/history/mercedes-dominant-1954-return-to-grand-prix-racing-formula-1-car-by-car-extract
+  - titre: Motor Sport, Denis Jenkinson, « Mercedes-Benz withdraws from motor racing at the end of the 1955 season » (décembre 1955)
+    url: https://www.motorsportmagazine.com/archive/article/december-1955/16/mercedes-benz-withdraws-from-motor-racing-at-the-end-of-the-1955-season
+  moteurs:
+  - motoriste: mercedes
+    de: 1954
+    a: 1955
+    sources:
+    - titre: Formula 1, résultats, « 1954 French Grand Prix »
+      url: https://www.formula1.com/en/results/1954/races/129/france/race-result
+    - titre: 'Motor Sport, Peter Higham, « Mercedes'' dominant 1954 return to grand prix racing: Formula 1 Car by Car extract » (août 2020)'
+      url: https://www.motorsportmagazine.com/articles/history/mercedes-dominant-1954-return-to-grand-prix-racing-formula-1-car-by-car-extract
 - id: merzario
   nom: Merzario
   voitures: []

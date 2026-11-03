@@ -49,8 +49,8 @@ effectifs:
 dominations:
   ecurie:
   - unite: ecurie
-    id: alfa-romeo-1979
-    nom: Alfa Romeo (1950–1985)
+    id: alfa-romeo-1950
+    nom: Alfa Romeo (1950–1951)
     debut: 1950
     fin: 1951
     saisons: 2
@@ -100,7 +100,8 @@ dominations:
     - formule-2-5-litres
     rangee: 0
   - unite: ecurie
-    nom: Mercedes-Benz
+    id: mercedes-1954
+    nom: Mercedes-Benz (1954–1955)
     debut: 1954
     fin: 1955
     saisons: 2
@@ -747,8 +748,8 @@ dominations:
     rangee: 0
   lignee:
   - unite: lignee
-    id: alfa-romeo-1979
-    nom: Alfa Romeo (1950–1985)
+    id: alfa-romeo-1950
+    nom: Alfa Romeo (1950–1951)
     debut: 1950
     fin: 1951
     saisons: 2
@@ -798,7 +799,8 @@ dominations:
     - formule-2-5-litres
     rangee: 0
   - unite: lignee
-    nom: Mercedes-Benz
+    id: mercedes-1954
+    nom: Mercedes-Benz (1954–1955)
     debut: 1954
     fin: 1955
     saisons: 2
@@ -1352,7 +1354,7 @@ dominations:
     indice: 0.37037
     points: 0.171398
     associes:
-    - alfa-romeo-1979
+    - alfa-romeo-1950
     regles_debut: []
     regles_fin:
     - formule-2-championnat-1952
@@ -1405,7 +1407,7 @@ dominations:
     indice: 0.434028
     points: 0.206631
     associes:
-    - ~Mercedes-Benz
+    - mercedes-1954
     - maserati
     - ferrari
     regles_debut:
@@ -1834,7 +1836,7 @@ dominations:
     doubles: 0.266667
     indice: 0.6
     associes:
-    - alfa-romeo-1979
+    - alfa-romeo-1950
     regles_debut: []
     regles_fin:
     - formule-2-championnat-1952
@@ -1885,7 +1887,7 @@ dominations:
     doubles: 0.3125
     indice: 0.472222
     associes:
-    - ~Mercedes-Benz
+    - mercedes-1954
     regles_debut:
     - formule-2-5-litres
     regles_fin: []
@@ -2874,8 +2876,8 @@ saisons_ecrasantes:
     ecart: 0.146535
     indice: 0.777778
   - annee: 1950
-    nom: Alfa Romeo (1950–1985)
-    id: alfa-romeo-1979
+    nom: Alfa Romeo (1950–1951)
+    id: alfa-romeo-1950
     victoires: 0.857143
     poles: 0.857143
     podiums: 0.571429
@@ -4495,36 +4497,36 @@ ingenieurs_apparies:
   hausse: 36
   hausse_attendue: 20.3
   gain: 0.039031
-  gain_attendu: -0.003443
+  gain_attendu: -0.003409
   p: 0.0001
 - groupe: tier-a
   n: 10
   hausse: 6
   hausse_attendue: 1.9
   gain: 0.099354
-  gain_attendu: 0.026531
+  gain_attendu: 0.026579
   p: 0.0031
 - groupe: tiers-b-c-d
   n: 18
   hausse: 6
   hausse_attendue: 4.5
   gain: 0.038014
-  gain_attendu: -0.031671
-  p: 0.2709
+  gain_attendu: -0.03166
+  p: 0.2712
 - groupe: hc
   n: 71
   hausse: 24
   hausse_attendue: 13.9
   gain: 0.030792
-  gain_attendu: -0.000508
-  p: 0.0022
+  gain_attendu: -0.000471
+  p: 0.0023
 - groupe: departs
   n: 107
   hausse: 23
   hausse_attendue: 23.6
   gain: -0.005129
-  gain_attendu: -0.010674
-  p: 0.599
+  gain_attendu: -0.010647
+  p: 0.6003
 rebat:
   avec:
     changements: 14
@@ -5808,7 +5810,7 @@ bilan_ingenieurs:
     stable: 56
     ecart_moyen: -0.005129
   temoin:
-    n: 521
+    n: 520
     hausse: 120
     baisse: 131
 temoin_reglement:
@@ -5821,11 +5823,11 @@ temoin_reglement:
 saisons:
 - annee: 1950
   gp: 7
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   part: 0.857143
 - annee: 1951
   gp: 8
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   part: 0.5
 - annee: 1952
   gp: 8
@@ -5837,11 +5839,11 @@ saisons:
   part: 0.777778
 - annee: 1954
   gp: 9
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   part: 0.444444
 - annee: 1955
   gp: 7
-  ecurie: Mercedes-Benz
+  ecurie: mercedes-1954
   part: 0.714286
 - annee: 1956
   gp: 8

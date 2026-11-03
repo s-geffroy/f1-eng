@@ -96,7 +96,7 @@ monopoles:
   nature: impose
 cas:
 - annee: 1950
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   equipe: Alfa Romeo
   pneus: Pirelli
   pourquoi: Pirelli rappelle qu'Alfa Romeo et lui ont gagné ensemble les six Grands Prix européens du premier championnat ; le compte rendu de Motor Sport du GP de Grande-Bretagne 1950 décrit les Alfetta chaussées de Pirelli à l'avant comme à l'arrière.
@@ -116,7 +116,7 @@ cas:
   - titre: Firestone, « Our Heritage »
     url: https://www.firestonetire.com/about-firestone/heritage/
 - annee: 1951
-  ecurie: alfa-romeo-1979
+  ecurie: alfa-romeo-1950
   equipe: Alfa Romeo
   pneus: Pirelli
   pourquoi: Pirelli présente le titre 1951 de Fangio comme celui d'Alfa Romeo et de Pirelli ; à Silverstone, Motor Sport décrit les quatre Alfa 159 en pneus Pirelli, à l'avant comme à l'arrière.
@@ -309,7 +309,7 @@ cas:
   - titre: OldRacingCars.com, « Spanish Grand Prix 1954 »
     url: https://www.oldracingcars.com/results/result.php?RaceID=E54
 - annee: 1954
-  ecurie: ~Mercedes-Benz
+  ecurie: mercedes-1954
   equipe: Mercedes-Benz
   pneus: Continental
   pourquoi: Au GP de France 1954, première victoire de la W196, Motor Sport note que Continental équipe les Mercedes ; il les retrouve en Continental à Silverstone (pole de Fangio), et Paul Fearnley évoque les pneus Continental « encore non éprouvés » de la W196 cette année-là. Doug Nye (Motor Sport, juillet 2020) oppose aussi les Pirelli de la Lancia D50 aux « Continentals » de Mercedes.
@@ -355,7 +355,7 @@ cas:
   - titre: Motorsport-Magazin, « Englebert - alle 11 Pole Positions in der Formel 1 » (base de données F1)
     url: https://www.motorsport-magazin.com/f1stats,rp_d,0,0,0,5,0,0,0,0.html
 - annee: 1955
-  ecurie: ~Mercedes-Benz
+  ecurie: mercedes-1954
   equipe: Mercedes-Benz
   pneus: Continental
   pourquoi: Les listes de Motorsport-Magazin donnent Continental aux cinq victoires et aux quatre poles de Mercedes en 1955.

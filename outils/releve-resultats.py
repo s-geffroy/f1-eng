@@ -10,8 +10,8 @@ externes, jamais versionnées.
 
 Chaque nom d'équipe de formula1.com (« Châssis Moteur ») est rapporté à une écurie de
 _data/ecuries.yml (désambiguïsée par l'année) et à un motoriste. Un nom inconnu arrête le script :
-on complète la table CHASSIS ou MOTEURS, on ne devine pas. Les gagnants sans fiche (Mercedes-Benz
-1954-1955, constructeurs des 500 miles d'Indianapolis) sont gardés sous leur nom, sans identifiant."""
+on complète la table CHASSIS ou MOTEURS, on ne devine pas. Les gagnants sans fiche (constructeurs
+des 500 miles d'Indianapolis) sont gardés sous leur nom, sans identifiant."""
 import os, re, sys, html, time, urllib.request, urllib.error
 import yaml
 
@@ -24,7 +24,7 @@ BASE = "https://www.formula1.com"
 CHASSIS = {
     "AGS": [(0, 9999, "ags")], "ATS": [(0, 9999, "ats-1978")],
     "Alfa Romeo Racing": [(2019, 2023, "alfa-romeo")],
-    "Alfa Romeo": [(1950, 1985, "alfa-romeo-1979"), (2019, 2023, "alfa-romeo")],
+    "Alfa Romeo": [(1950, 1951, "alfa-romeo-1950"), (1979, 1985, "alfa-romeo-1979"), (2019, 2023, "alfa-romeo")],
     "AlphaTauri": [(0, 9999, "alphatauri")], "Alpine": [(0, 9999, "alpine")],
     "Arrows": [(0, 9999, "arrows")], "Aston Martin": [(2021, 2026, "aston-martin")],
     "BAR": [(0, 9999, "bar")], "BRP": [(0, 9999, "brp")], "BRM": [(0, 9999, "brm")],
@@ -51,7 +51,7 @@ CHASSIS = {
     "March": [(0, 9999, "march")], "Marussia": [(0, 9999, "marussia")],
     "Maserati": [(0, 9999, "maserati")], "Matra": [(0, 9999, "matra")],
     "McLaren": [(0, 9999, "mclaren")], "Mclaren": [(0, 9999, "mclaren")],
-    "Mercedes-Benz": [(0, 9999, None)], "Mercedes": [(2010, 2026, "mercedes")],
+    "Mercedes-Benz": [(1954, 1955, "mercedes-1954")], "Mercedes": [(2010, 2026, "mercedes")],
     "Minardi": [(0, 9999, "minardi")], "Onyx": [(0, 9999, "onyx")],
     "Osella": [(0, 9999, "osella")], "Parnelli": [(0, 9999, "parnelli")],
     "Penske": [(0, 9999, "penske")], "Porsche": [(0, 9999, "porsche")],
@@ -101,7 +101,7 @@ LIBELLES = {"Lanica Ferrari": "Lancia Ferrari"}
 # Suffixes qui ne sont pas un moteur (commanditaire) : moteur pris dans la fiche.
 COMMANDITAIRES = {"Sahara"}
 # Gagnants sans fiche : motoriste connu par le nom seul.
-MOTEUR_SANS_FICHE = {"Mercedes-Benz": "mercedes"}
+MOTEUR_SANS_FICHE = {}
 
 def telecharger_course(cache, url, page):
     """Page d'une course (race-result, starting-grid) ; None si formula1.com ne la publie pas."""

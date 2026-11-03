@@ -57,7 +57,7 @@ def moteur(m):
     return MEME_MOTEUR.get(m, m)
 
 def cle_ecurie(course):
-    # Un gagnant sans fiche garde son nom (Mercedes-Benz 1954-1955, Watson à Indianapolis).
+    # Un gagnant sans fiche garde son nom (Watson à Indianapolis).
     return course.get("ecurie") or "~" + course["equipe"]
 
 # --- Indicateurs par saison --------------------------------------------------------------------
@@ -1478,10 +1478,10 @@ def ouv_court(o):
 # gagné avec leur propre moteur (clé d'écurie -> motoriste maison). Les partenariats d'usine
 # (Williams-Honda, McLaren-Mercedes) restent des moteurs d'un autre : le dossier le dit.
 MAISON = {
-    "alfa-romeo-1979": "alfa-romeo", "ferrari": "ferrari", "maserati": "maserati", "vanwall": "vanwall",
+    "alfa-romeo-1950": "alfa-romeo", "alfa-romeo-1979": "alfa-romeo", "ferrari": "ferrari", "maserati": "maserati", "vanwall": "vanwall",
     "brm": "brm", "porsche": "porsche", "honda-1964": "honda", "honda": "honda", "renault-1977": "renault",
     "renault": "renault", "alpine": "renault", "mercedes": "mercedes",
-    "~Mercedes-Benz": "mercedes",   # 1954-1955, gagnant sans fiche : châssis et moteur Daimler-Benz
+    "mercedes-1954": "mercedes",    # châssis et moteur Daimler-Benz
     "bmw-sauber": "bmw",            # Sauber racheté par BMW de 2006 à 2009
 }
 def maison(c):
