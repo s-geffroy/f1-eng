@@ -1,10 +1,10 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2308
-editeurs_total: 132
-citations: 3712
+total: 2313
+editeurs_total: 133
+citations: 3717
 editeurs:
 - nom: Motor Sport Magazine
-  n: 552
+  n: 554
   sources:
   - titre: Adam Cooper, Motor Sport Magazine, « Paul Morgan » (juillet 2001)
     url: https://www.motorsportmagazine.com/archive/article/july-2001/6/paul-morgan/
@@ -1251,6 +1251,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Motor Sport, « German GP » (septembre 1951)
+    url: https://www.motorsportmagazine.com/archive/article/september-1951/13/german-gp
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: 'Motor Sport, « Great racing cars: Williams FW18 and FW19 »'
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/great-racing-cars-williams-fw18-and-fw19/
     pages:
@@ -1452,6 +1457,11 @@ editeurs:
       titre: 'Chronologie : 1986, La télémétrie en course'
     - url: /voitures/williams-fw11/
       titre: Williams FW11
+  - titre: Motor Sport, « XV Grosser Preis von Deutschland » (septembre 1952)
+    url: https://www.motorsportmagazine.com/archive/article/september-1952/19/xv-grosser-preis-von-deutschland
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
   - titre: Motor Sport, « XVII Grosser Preis von Deutschland » (septembre 1954)
     url: https://www.motorsportmagazine.com/archive/article/september-1954/24/xvii-grosser-preis-von-deutschland
     pages:
@@ -13166,61 +13176,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
-- nom: Wikipedia
-  n: 10
-  sources:
-  - titre: Wikipedia, « 1951 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-2-championnat-1952
-      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-1-5-litres-1961
-      titre: 'Chronologie : 1961, La formule 1,5 litre'
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Benetton B189 »
-    url: https://en.wikipedia.org/wiki/Benetton_B189
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    erreurs:
-    - e160
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « Pacific PR02 »
-    url: https://en.wikipedia.org/wiki/Pacific_PR02
-    pages:
-    - url: /ecuries/pacific/
-      titre: 'Écuries : Pacific'
-  - titre: Wikipédia (en), « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
-    pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
-  - titre: Wikipédia, « Ligier JS17 »
-    url: https://en.wikipedia.org/wiki/Ligier_JS17
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: FIA
   n: 9
   sources:
@@ -13363,6 +13318,56 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+- nom: Wikipedia
+  n: 9
+  sources:
+  - titre: Wikipedia, « 1952 Formula One season »
+    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « 1961 Formula One season »
+    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
+  - titre: Wikipedia, « 1967 Formula One season »
+    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Benetton B189 »
+    url: https://en.wikipedia.org/wiki/Benetton_B189
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    erreurs:
+    - e160
+  - titre: Wikipedia, « Cooper T81 »
+    url: https://en.wikipedia.org/wiki/Cooper_T81
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Wikipedia, « Pacific PR02 »
+    url: https://en.wikipedia.org/wiki/Pacific_PR02
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
+  - titre: Wikipédia (en), « Ferrari 158 »
+    url: https://en.wikipedia.org/wiki/Ferrari_158
+    pages:
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
+  - titre: Wikipédia, « Ligier JS17 »
+    url: https://en.wikipedia.org/wiki/Ligier_JS17
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
 - nom: Forix (Autosport)
   n: 8
   sources:
@@ -13851,6 +13856,29 @@ editeurs:
       titre: Domination (pneus)
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+- nom: delpher.nl
+  n: 4
+  sources:
+  - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Duitsland, Nürburgring 3 augustus 1952 » (4 août 1952, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088514:mpeg21:a0083
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Nederland, Zandvoort 17 augustus 1952 » (18 août 1952, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088528:mpeg21:a0041
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Het Parool, publicité Englebert, « Grote prijs Duitsland, Nürburgring 29 juli 1951 » (30 juillet 1951, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010830770:mpeg21:a0061
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Trouw, publicité Englebert, « Grote prijs Duitsland, Nürburgring 29 juli 1951 » (31 juillet 1951, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010819200:mpeg21:a0043
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)

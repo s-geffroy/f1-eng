@@ -4526,8 +4526,8 @@ pneus:
     fin: 1954
     dominantes: 5
     titres: 4
-    victoires: 0.763095
-    poles: 0.763095
+    victoires: 0.688095
+    poles: 0.688095
     degre: hegemonie
   - pneus: Continental
     debut: 1954
@@ -4670,22 +4670,24 @@ pneus:
   - annee: 1951
     monopole: false
     victoires:
+      Englebert: 0.125
       Firestone: 0.125
-      Pirelli: 0.875
+      Pirelli: 0.75
     poles:
+      Englebert: 0.125
       Firestone: 0.125
-      Pirelli: 0.875
+      Pirelli: 0.75
     champion: Pirelli
   - annee: 1952
     monopole: false
     victoires:
-      Englebert: 0.125
+      Englebert: 0.375
       Firestone: 0.125
-      Pirelli: 0.75
+      Pirelli: 0.5
     poles:
-      Englebert: 0.125
+      Englebert: 0.375
       Firestone: 0.125
-      Pirelli: 0.75
+      Pirelli: 0.5
     champion: Pirelli
   - annee: 1953
     monopole: false

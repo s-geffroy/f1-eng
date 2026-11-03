@@ -129,7 +129,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: À Silverstone, Motor Sport décrit les 375 d'Ascari et de González en Pirelli (Villoresi, lui, est en Englebert) ; à Monza, les Ferrari neuves d'Ascari, González et Villoresi étrennent un nouveau pneu arrière Pirelli. Pirelli compte la victoire de Silverstone 1951 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Pour le Nürburgring, la liste des engagés du Grand Prix d'Allemagne donne Pirelli à Ascari.
+  pourquoi: 'À Silverstone, Motor Sport décrit les 375 d''Ascari et de González en Pirelli (Villoresi, lui, est en Englebert) ; à Monza, les Ferrari neuves d''Ascari, González et Villoresi étrennent un nouveau pneu arrière Pirelli. Pirelli compte la victoire de Silverstone 1951 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. Au Nürburgring, en revanche, les publicités Englebert parues dans la presse néerlandaise au lendemain de la course donnent les Ferrari d''Ascari (victoire et pole), González, Villoresi et Taruffi « allen op Englebert banden » ; le compte rendu de Motor Sport ne nomme pas la marque : d''où l''exception. Les Ferrari de 1951 n''étaient donc pas chaussées de la même façon d''une course à l''autre.'
   sources:
   - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
     url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
@@ -137,8 +137,15 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/october-1951/13/xxii-gp-ditalia
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
-  - titre: Wikipedia, « 1951 German Grand Prix »
-    url: https://en.wikipedia.org/wiki/1951_German_Grand_Prix
+  - titre: Het Parool, publicité Englebert, « Grote prijs Duitsland, Nürburgring 29 juli 1951 » (30 juillet 1951, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010830770:mpeg21:a0061
+  - titre: Trouw, publicité Englebert, « Grote prijs Duitsland, Nürburgring 29 juli 1951 » (31 juillet 1951, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010819200:mpeg21:a0043
+  - titre: Motor Sport, « German GP » (septembre 1951)
+    url: https://www.motorsportmagazine.com/archive/article/september-1951/13/german-gp
+  exceptions:
+  - gp: Germany
+    pneus: Englebert
 - annee: 1951
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Novi
@@ -161,7 +168,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: 'Pirelli revendique le titre 1952 d''Ascari, et Motor Sport décrit Ascari en Pirelli à Silverstone. Mais au Grand Prix de Belgique, à Spa (victoire et pole d''Ascari), toutes les Ferrari d''usine avaient des pneus arrière Englebert, selon le compte rendu de Motor Sport : d''où l''exception.'
+  pourquoi: 'Pirelli revendique le titre 1952 d''Ascari, et Motor Sport décrit Ascari en Pirelli à Silverstone. Mais au Grand Prix de Belgique, à Spa (victoire et pole d''Ascari), toutes les Ferrari d''usine avaient des pneus arrière Englebert, selon le compte rendu de Motor Sport. Au Nürburgring et à Zandvoort (victoires et poles d''Ascari), les publicités Englebert parues dans l''Algemeen Handelsblad au lendemain des courses donnent Ascari et Farina « op Englebert banden », et à Zandvoort Villoresi aussi, « zonder verwisseling van banden » ; le compte rendu de Motor Sport du Nürburgring ne nomme pas la marque : d''où les trois exceptions.'
   sources:
   - titre: Motor Sport, Bill Boddy, « Ascari and Farina (Ferraris) dominate the GP d'Europe at Spa » (juillet 1952)
     url: https://www.motorsportmagazine.com/archive/article/july-1952/33/ascari-and-farinaferraris-dominate-the-gp-deurope/
@@ -169,8 +176,18 @@ cas:
     url: https://www.motorsportmagazine.com/archive/article/august-1952/11/ferrari-wins-the-british-gp/
   - titre: Pirelli, « 110 years from race to road »
     url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+  - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Duitsland, Nürburgring 3 augustus 1952 » (4 août 1952, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088514:mpeg21:a0083
+  - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Nederland, Zandvoort 17 augustus 1952 » (18 août 1952, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088528:mpeg21:a0041
+  - titre: Motor Sport, « XV Grosser Preis von Deutschland » (septembre 1952)
+    url: https://www.motorsportmagazine.com/archive/article/september-1952/19/xv-grosser-preis-von-deutschland
   exceptions:
   - gp: Belgium
+    pneus: Englebert
+  - gp: Germany
+    pneus: Englebert
+  - gp: Netherlands
     pneus: Englebert
 - annee: 1952
   ecurie: kurtis-kraft
@@ -194,7 +211,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Dès août 1953, le journal interne de Pirelli, Fatti e Notizie, proclame le titre mondial « Ascari – Ferrari – Pirelli » ; dans le bilan de la saison publié par la Rivista Pirelli, Nino Nutrizio écrit que Pirelli « a triomphé partout, avec chaque voiture, sur chaque circuit ». Le contrat d'Ascari pour 1953, décrit par Motor Sport, cite Pirelli parmi les commanditaires de la Scuderia, et la Fondazione Pirelli raconte que le Stelvio Corsa a été conçu pour la Ferrari 500 de cette saison. Pirelli compte ce titre comme le quatrième titre mondial consécutif de ses pneus et range la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; Nigel Roebuck rappelle que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955.
+  pourquoi: Dès août 1953, le journal interne de Pirelli, Fatti e Notizie, proclame le titre mondial « Ascari – Ferrari – Pirelli » ; dans le bilan de la saison publié par la Rivista Pirelli, Nino Nutrizio écrit que Pirelli « a triomphé partout, avec chaque voiture, sur chaque circuit ». Le contrat d'Ascari pour 1953, décrit par Motor Sport, cite Pirelli parmi les commanditaires de la Scuderia, et la Fondazione Pirelli raconte que le Stelvio Corsa a été conçu pour la Ferrari 500 de cette saison. Pirelli compte ce titre comme le quatrième titre mondial consécutif de ses pneus et range la victoire d'Ascari à Silverstone 1953 dans sa série de cinq succès consécutifs au GP de Grande-Bretagne ; Nigel Roebuck rappelle que Pirelli dominait au début des années 1950 et que Ferrari n'est passé sous contrat Englebert qu'en 1955 (des Ferrari avaient pourtant déjà gagné en Englebert en 1951 et 1952).
   sources:
   - titre: Pirelli, Fatti e Notizie, « Campioni del mondo » (août 1953)
     url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1953_08_FATTI_E_NOTIZIE.html#page/2/mode/2up
@@ -238,7 +255,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955. Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
+  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé sous contrat Englebert qu'en 1955 (des Ferrari avaient pourtant déjà gagné en Englebert en 1951 et 1952). Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
   sources:
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
@@ -294,7 +311,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Englebert
-  pourquoi: 'Seule victoire : Trintignant à Monaco sur Ferrari 625. La base de Motorsport-Magazin place ce succès en tête des huit victoires en Grand Prix d''Englebert, ce qui en fait la première du manufacturier selon cette liste (Motor Sport montre déjà les Ferrari d''usine en pneus arrière Englebert à Spa en 1952) ; Motor Sport rappelle qu''en 1955 la Scuderia Ferrari était sous contrat avec Englebert.'
+  pourquoi: 'Seule victoire : Trintignant à Monaco sur Ferrari 625. La base de Motorsport-Magazin place ce succès en tête des huit victoires en Grand Prix d''Englebert, mais ce n''est pas la première du manufacturier : les publicités Englebert d''époque revendiquent déjà les victoires Ferrari du Nürburgring en 1951 et 1952 et de Zandvoort en 1952, et Motor Sport montre les Ferrari d''usine en pneus arrière Englebert à Spa en 1952 ; Motor Sport rappelle qu''en 1955 la Scuderia Ferrari était sous contrat avec Englebert.'
   sources:
   - titre: Motorsport-Magazin, « Englebert - alle 8 Grand Prix Siege in der Formel 1 » (base de données F1)
     url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,5,0,0,0,0.html

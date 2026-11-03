@@ -354,8 +354,8 @@ erreurs:
     url: https://www.motorsportmagazine.com/archive/article/march-2003/16/legends-froilan-gonzalez/
     citation: It was my first win, and also the first for Englebert tyres in F1.
   juste:
-    fr: 'González gagne en Pirelli. La première victoire d''Englebert vient plus tard : Spa 1952 si l''on compte les pneus arrière Englebert des Ferrari d''usine (Motor Sport), Monaco 1955 selon la liste de Motorsport-Magazin.'
-    en: 'González won on Pirellis. Englebert''s first win came later: Spa 1952 if the works Ferraris'' Englebert rear tyres count (Motor Sport), Monaco 1955 according to Motorsport-Magazin''s list.'
+    fr: 'González gagne en Pirelli. La première victoire d''Englebert vient quinze jours plus tard : Ascari au Nürburgring, selon les publicités Englebert parues le lendemain de la course (Monaco 1955 selon la liste de Motorsport-Magazin, qui ignore les victoires Ferrari en Englebert de 1951 et 1952).'
+    en: 'González won on Pirellis. Englebert''s first win came a fortnight later: Ascari at the Nürburgring, according to the Englebert adverts published the day after the race (Monaco 1955 according to Motorsport-Magazin''s list, which overlooks the 1951 and 1952 Ferrari wins on Engleberts).'
   explication:
     fr: Interrogé en 2003, González se souvient de Silverstone 1951 comme de la première victoire d'Englebert. Le compte rendu d'époque décrit au contraire sa 375 en Pirelli (seul Villoresi est en Englebert).
     en: Interviewed in 2003, González remembered Silverstone 1951 as Englebert's first win. The contemporary report instead describes his 375 on Pirellis (only Villoresi was on Engleberts).
@@ -369,6 +369,11 @@ erreurs:
     url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,5,0,0,0,0.html
     citation: 1955 1. 1 44 Maurice Trintignant 625 Ferrari 9
     langue: de
+  - titre: Het Parool, publicité Englebert, « Grote prijs Duitsland, Nürburgring 29 juli 1951 » (30 juillet 1951, Delpher)
+    titre_en: Het Parool, Englebert advert, “Grote prijs Duitsland, Nürburgring 29 juli 1951” (30 July 1951, Delpher)
+    url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010830770:mpeg21:a0061
+    citation: Ascari met Ferrari Gemiddelde snelheid 134.8 K.M. per uur 3e Gonzales met Ferrari 4e Villoresi met Ferrari 5e Taruffi met Ferrari © ALLE op ENGLEBERT BANDEN
+    langue: nl
 - id: e017
   categorie: source_erronee
   gravite: coquille
@@ -3719,8 +3724,8 @@ erreurs:
     fr: Pneus arrière Englebert sur toutes les Ferrari d'usine (victoire et pole d'Ascari)
     en: Englebert rear tyres on all the works Ferraris (Ascari's win and pole)
   explication:
-    fr: Wikipedia engage les trois Ferrari d'usine en Pirelli à Spa, et son tableau de la saison donnait Pirelli à chaque victoire Ferrari de 1952. Le compte rendu d'époque de Motor Sport décrit au contraire des pneus arrière Englebert sur toutes les Ferrari d'usine. La donnée porte désormais une exception Englebert pour Spa.
-    en: Wikipedia lists the three works Ferraris on Pirelli at Spa, and its season table credited Pirelli with every 1952 Ferrari win. Motor Sport's contemporary report instead describes Englebert rear tyres on all the works Ferraris. The data now carries an Englebert exception for Spa.
+    fr: Wikipedia engage les trois Ferrari d'usine en Pirelli à Spa, et son tableau de la saison donnait Pirelli à chaque victoire Ferrari de 1952. Le compte rendu d'époque de Motor Sport décrit au contraire des pneus arrière Englebert sur toutes les Ferrari d'usine. La donnée porte désormais une exception Englebert pour Spa, et deux autres pour le Nürburgring et Zandvoort, d'après les publicités Englebert parues le lendemain de ces courses.
+    en: Wikipedia lists the three works Ferraris on Pirelli at Spa, and its season table credited Pirelli with every 1952 Ferrari win. Motor Sport's contemporary report instead describes Englebert rear tyres on all the works Ferraris. The data now carries an Englebert exception for Spa, and two more for the Nürburgring and Zandvoort, based on the Englebert adverts published the day after those races.
   preuves:
   - titre: Motor Sport, Bill Boddy, « Ascari and Farina (Ferraris) dominate the GP d'Europe at Spa » (juillet 1952)
     titre_en: Motor Sport, Bill Boddy, “Ascari and Farina (Ferraris) dominate the GP d'Europe at Spa” (July 1952)
