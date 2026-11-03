@@ -255,12 +255,14 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé sous contrat Englebert qu'en 1955 (des Ferrari avaient pourtant déjà gagné en Englebert en 1951 et 1952). Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
+  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. En avril 1954, à Syracuse, une photographie de l'archive Pirelli montre González sur Ferrari entouré des mécaniciens de l'assistance technique Pirelli. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955 (des Ferrari avaient pourtant déjà gagné en Englebert en 1951 et 1952). Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
   sources:
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
   - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
     url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: Fondazione Pirelli, archive historique, fiche photographique « Gran Premio di Siracusa del 1954 » (avril 1954)
+    url: https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000007104/gran-premio-siracusa-del-1954.html
   - titre: Wikipedia, « 1954 Formula One season »
     url: https://en.wikipedia.org/wiki/1954_Formula_One_season
 - annee: 1954
@@ -887,14 +889,14 @@ cas:
   ecurie: cooper
   equipe: Cooper Maserati
   pneus: Firestone
-  pourquoi: 'La Cooper Car Company passe chez Firestone en 1967 (T81/T81B) ; victoire de Pedro Rodríguez en Afrique du Sud. À Spa, en juin, Gregor Grant (Autosport) note que seules les Brabham et l''Eagle sont en Goodyear, avec une BRM en Dunlop, « the remainder favouring Firestone » : les Cooper sont donc en Firestone. Pour Kyalami, en janvier, aucune source sérieuse ne nomme leurs pneus : seuls le tableau de la saison 1967 et la page de la Cooper T81 donnent Firestone.'
+  pourquoi: 'La Cooper Car Company passe chez Firestone en 1967 (T81/T81B), année de la victoire de Pedro Rodríguez en Afrique du Sud. Doug Nye, historien de la marque, écrit que « for 1967, Roy had done another lucrative deal with Firestone to test and race their tyres » : Roy Salvadori, directeur de l''équipe, avait signé avec Firestone pour essayer ses pneus et courir avec eux toute la saison. Nigel Roebuck range aussi Cooper parmi les écuries « contracted » à Firestone en 1967, avec Lotus, Ferrari et Honda, face aux Goodyear de Brabham, Eagle et McLaren. À Spa, en juin, Gregor Grant (Autosport) note que seules les Brabham et l''Eagle sont en Goodyear, avec une BRM en Dunlop, « the remainder favouring Firestone ». Aucune source ne nomme les pneus de la Cooper de Rodríguez à Kyalami même, mais ce contrat couvre la saison 1967, dont Kyalami est la première manche.'
   sources:
+  - titre: Osprey, Doug Nye, « Cooper Cars » (1999)
+    url: https://archive.org/details/coopercars0000nyed
+  - titre: 'Haynes, Nigel Roebuck, « Chasing the Title: Memorable Moments from Fifty Years of Formula 1 » (1999)'
+    url: https://archive.org/details/chasingtitlememo0000roeb
   - titre: 'Autosport, Gregor Grant, « Grand Prix Gold: Belgium 1967 » (compte rendu de 1967, republié en août 2010)'
     url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
-  - titre: Wikipedia, « 1967 Formula One season »
-    url: https://en.wikipedia.org/wiki/1967_Formula_One_season
-  - titre: Wikipedia, « Cooper T81 »
-    url: https://en.wikipedia.org/wiki/Cooper_T81
 - annee: 1967
   ecurie: eagle
   equipe: Eagle Weslake

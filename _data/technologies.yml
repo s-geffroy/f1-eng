@@ -1949,18 +1949,18 @@ technologies:
     equipe: Ligier Matra
     voiture: Ligier JS17
     valeur: non
-    pourquoi: Monocoque en aluminium, selon la fiche technique d'Ultimatecarpage et Wikipédia (alliage d'aluminium léger riveté). Motor Sport rappelle que la Talbot-Matra V12 victorieuse en Autriche « once was a Ligier-Cosworth V8 », c'est-à-dire la lignée de la JS11, dont Motorsport.com décrit le « châssis en feuilles d'aluminium » conçu par Ducarouge. Ce n'est pas une monocoque carbone.
+    pourquoi: 'Dans son bilan de la saison 1982, Grand Prix International décrit le châssis de la Ligier JS17 comme une coque « in aluminium », la JS19 qui lui succède étant en aluminium renforcé de panneaux de fibre de carbone. Les JS17 alignées en 1982 sont les coques victorieuses de 1981 : dans ses notes techniques, la même revue donne la JS17/04 à Laffite pour les Grands Prix d''Allemagne et d''Autriche, où « virtually no other changes to the chassis » sont signalés, puis la JS17/05 au Grand Prix du Canada, qu''il gagne ; on retrouve ces deux châssis à Long Beach en 1982. Ultimatecarpage la décrit aussi comme une monocoque en aluminium. Ce n''est pas une monocoque carbone.'
     sources:
+    - titre: Grand Prix International, Didier Braillon, bilan de la saison 1982, fiche « Équipe Talbot-Ligier » (n° 58, fin 1982)
+      url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.58.p/page/n32/mode/2up
+    - titre: Grand Prix International, notes techniques des Grands Prix d'Allemagne et d'Autriche (n° 37, 26 août 1981)
+      url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.37.English/page/n25/mode/2up
+    - titre: Grand Prix International, notes techniques du Grand Prix du Canada (n° 40, octobre 1981)
+      url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.40.English/page/n26/mode/2up
+    - titre: Grand Prix International, notes techniques du Grand Prix de Long Beach (n° 45, avril 1982)
+      url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.45.English
     - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
       url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
-    - titre: Motor Sport, Denis Jenkinson, « 1981 Austrian Grand Prix race report » (septembre 1981)
-      url: https://www.motorsportmagazine.com/archive/article/september-1981/38/austrian-grand-prix-8/
-    - titre: Motorsport.com, René Fagnan, « Quand Laffite et Ligier se prenaient à rêver du titre F1 » (mis à jour en janvier 2023)
-      url: https://fr.motorsport.com/f1/news/laffite-ligier-debut-saison-1979-reve/4314546/
-    - titre: Wikipédia, « Ligier JS17 »
-      url: https://en.wikipedia.org/wiki/Ligier_JS17
-    - titre: Wikipédia, « Ligier JS17 »
-      url: https://fr.wikipedia.org/wiki/Ligier_JS17
   - annee: 1981
     ecurie: mclaren
     equipe: McLaren Ford
@@ -2610,12 +2610,18 @@ technologies:
     equipe: Benetton Ford
     voiture: Benetton B189
     valeur: non
-    pourquoi: 'En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte, et toute l''allée des stands comprend alors qu''il faudra la copier ; la McLaren-Honda MP4/5 elle-même garde une boîte manuelle à 6 rapports. Les voitures de Benetton restent pourtant en boîte manuelle les saisons suivantes : la B190 de 1990 a une boîte manuelle à 6 rapports, et la B191, conçue pour recevoir une boîte semi-automatique, court toute la saison 1991 avec une boîte manuelle à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle. La B189 a une boîte manuelle transversale Benetton à 6 rapports.'
+    pourquoi: 'En 1989, la boîte semi-automatique est l''innovation propre à la Ferrari 640 : Mansell est le premier à gagner un Grand Prix avec une telle boîte, et toute l''allée des stands comprend alors qu''il faudra la copier ; la McLaren-Honda MP4/5 elle-même garde une boîte manuelle à 6 rapports. La Benetton B189 débute au Grand Prix de France 1989 avec Nannini. Au Grand Prix de Hongrie 1989, ses sélecteurs cassent alors qu''il remonte dans le peloton, et Nannini raconte lui-même que c''est son levier de vitesses qui a cédé : la B189 a donc bien une boîte manuelle à levier. Les voitures de Benetton restent en boîte manuelle les saisons suivantes : la B190 de 1990 a une boîte manuelle à 6 rapports, et la B191, conçue pour recevoir une boîte semi-automatique, court toute la saison 1991 avec une boîte manuelle à 6 rapports. Au début de 1993, Patrese peine encore chez Benetton avec une boîte manuelle.'
     sources:
-    - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
-      url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
+    - titre: 'Motor Sport, Rob Widdows, « Alessandro Nannini: The caffeine racer » (janvier 2015)'
+      url: https://www.motorsportmagazine.com/archive/article/january-2015/100/caffeine-racer/
+    - titre: Motor Sport, « Fair and square » (septembre 1989)
+      url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square/
+    - titre: Motor Sport, David Malsher, « Cafe racer » (juillet 2001)
+      url: https://www.motorsportmagazine.com/archive/article/july-2001/68/cafe-racer/
     - titre: 'Motor Sport, « The Motor Sport Interview: John Barnard » (février 2025)'
       url: https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/
+    - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
+      url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
     - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
     - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
@@ -2628,8 +2634,6 @@ technologies:
       url: https://www.motorsportmagazine.com/archive/article/may-1991/14/formula-one-new-cars/
     - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
       url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
-    - titre: Wikipedia, « Benetton B189 »
-      url: https://en.wikipedia.org/wiki/Benetton_B189
   - annee: 1989
     ecurie: ferrari
     equipe: Ferrari
