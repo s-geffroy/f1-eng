@@ -1,10 +1,10 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2321
-editeurs_total: 133
-citations: 3725
+total: 2338
+editeurs_total: 130
+citations: 3745
 editeurs:
 - nom: Motor Sport Magazine
-  n: 556
+  n: 565
   sources:
   - titre: Adam Cooper, Motor Sport Magazine, « Paul Morgan » (juillet 2001)
     url: https://www.motorsportmagazine.com/archive/article/july-2001/6/paul-morgan/
@@ -343,6 +343,11 @@ editeurs:
     pages:
     - url: /ingenieurs/paul-rosche/
       titre: Rosche, Paul
+  - titre: Motor Sport Magazine, « 1952 F1 World Championship » (base de données, non datée)
+    url: https://www.motorsportmagazine.com/database/championships/f1/1952-f1-world-championship
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
   - titre: Motor Sport Magazine, « 1953 F1 World Championship » (base de données, non datée)
     url: https://www.motorsportmagazine.com/database/championships/f1/1953-f1-world-championship
     pages:
@@ -505,6 +510,8 @@ editeurs:
       titre: Barnard, John
     - url: /chronologie/#c-chaparral-2k
       titre: 'Chronologie : 1980, La Chaparral 2K gagne à Indianapolis'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
     - url: /voitures/ferrari-640/
       titre: Ferrari 640
     - url: /glossaire/#boite-semi-automatique
@@ -536,6 +543,11 @@ editeurs:
       titre: 'Domination (technologies) : Moteur arrière'
     - url: /ingenieurs/vittorio-jano/
       titre: Jano, Vittorio
+  - titre: 'Motor Sport Magazine, « Gordon Murray: I wish I''d designed the… Cooper T51/53 » (juin 2000)'
+    url: https://www.motorsportmagazine.com/archive/article/june-2000/88/cooper-t5153/
+    pages:
+    - url: /glossaire/#moment-polaire
+      titre: 'Glossaire : Moment polaire'
   - titre: 'Motor Sport Magazine, « Hall of Fame: Andy Cowell » (février 2020)'
     url: https://motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell
     pages:
@@ -591,11 +603,6 @@ editeurs:
     pages:
     - url: /ingenieurs/owen-maddock/
       titre: Maddock, Owen
-  - titre: 'Motor Sport Magazine, « Little Belter: the Cooper F1 team » (juin 2000)'
-    url: https://www.motorsportmagazine.com/archive/article/june-2000/88/cooper-t5153/
-    pages:
-    - url: /glossaire/#moment-polaire
-      titre: 'Glossaire : Moment polaire'
   - titre: 'Motor Sport Magazine, « Lotus 18 vs Cooper T53: Go low, aim high »'
     url: https://www.motorsportmagazine.com/special-article/formula-1-track-tests/32/lotus-18-vs-cooper-t53-go-low-aim-high/
     pages:
@@ -899,6 +906,8 @@ editeurs:
       titre: 'Chronologie : 1980, La Chaparral 2K gagne à Indianapolis'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
     - url: /voitures/ferrari-640/
       titre: Ferrari 640
     - url: /glossaire/#boite-semi-automatique
@@ -946,6 +955,11 @@ editeurs:
     pages:
     - url: /ingenieurs/john-gentry/
       titre: Gentry, John
+  - titre: 'Motor Sport Magazine, Damien Smith, « Mansell''s winning F1 machines: up close with momentous Ferrari and Williams » (juin 2022)'
+    url: https://www.motorsportmagazine.com/archive/article/june-2022/106/the-ferrari-and-williams-driven-to-f1-victory-by-nigel-mansell/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
   - titre: 'Motor Sport Magazine, Damien Smith, « McLaren MP4/4: Sleek F1 machine that won 15 races out of 16 » (avril 2024)'
     url: https://www.motorsportmagazine.com/archive/article/april-2024/138/mclaren-mp4-4-race-car-of-the-century-shortlist/
     pages:
@@ -973,6 +987,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
+  - titre: 'Motor Sport Magazine, Doug Nye, « F1 in the 1950s: On the edge » (mai 2020)'
+    url: https://www.motorsportmagazine.com/archive/article/may-2020/62/the-1950s-on-the-edge/
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
   - titre: Motor Sport Magazine, Ed Foster, « Brawn GP gets the green light » (mars 2009)
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/brawn-gp-gets-green-light/
     pages:
@@ -1056,6 +1075,17 @@ editeurs:
       titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
     - url: /ecuries/tyrrell/
       titre: 'Écuries : Tyrrell'
+  - titre: Motor Sport Magazine, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds/
+    pages:
+    - url: /chronologie/#c-indianapolis-championnat
+      titre: 'Chronologie : 1950, Les 500 Miles d''Indianapolis au championnat du monde'
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Moteur arrière'
   - titre: Motor Sport Magazine, Samarth Kanal, « Force India's F1 decade » (juillet 2018)
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/force-indias-f1-decade/
     pages:
@@ -1312,11 +1342,23 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Maserati'
+  - titre: Motor Sport, « Mauro Forghieri's greatest Ferraris » (août 2019)
+    url: https://www.motorsportmagazine.com/archive/article/august-2019/96/mauro-forghieri-sidebar
+    pages:
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
   - titre: Motor Sport, « Monza mutters » (octobre 1966)
     url: https://www.motorsportmagazine.com/archive/article/october-1966/71/monza-mutters/
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: Motor Sport, « Notes on the cars » (juin 1988)
+    url: https://www.motorsportmagazine.com/archive/article/june-1988/18/lotus-honda-v6-tc/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
   - titre: Motor Sport, « Powerhouse Jack built » (mai 2006)
     url: https://www.motorsportmagazine.com/archive/article/may-2006/32/powerhouse-jack-built/
     pages:
@@ -1752,6 +1794,8 @@ editeurs:
   - titre: Motor Sport, Anthony Rowlinson, « Lord of the black arts » (juin 2010)
     url: https://www.motorsportmagazine.com/archive/article/june-2010/56/lord-black-arts
     pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
     - url: /ecuries/
       titre: 'Écuries : Ferrari'
   - titre: Motor Sport, base de données, « 1958 British Grand Prix »
@@ -2777,6 +2821,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: Motor Sport, Denis Jenkinson, « It had to happen » (octobre 1988)
+    url: https://www.motorsportmagazine.com/archive/article/october-1988/16/it-had-to-happen/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
   - titre: Motor Sport, Denis Jenkinson, « Italian Grand Prix » (octobre 1982)
     url: https://www.motorsportmagazine.com/archive/article/october-1982/46/italian-grand-prix-6/
     pages:
@@ -2962,6 +3011,11 @@ editeurs:
       titre: 'Domination (technologies) : Monocoque carbone'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
+  - titre: Motor Sport, Denis Jenkinson, « The Racing Season Begins » (avril 1961)
+    url: https://www.motorsportmagazine.com/archive/article/april-1961/52/the-racing-season-begins
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
   - titre: Motor Sport, Denis Jenkinson, « Three new grand prix cars » (juillet 1963)
     url: https://www.motorsportmagazine.com/archive/article/july-1963/38/three-new-grand-prix-cars-2/
     pages:
@@ -3417,15 +3471,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Motor Sport, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)
-    url: https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds
-    pages:
-    - url: /chronologie/#c-indianapolis-championnat
-      titre: 'Chronologie : 1950, Les 500 Miles d''Indianapolis au championnat du monde'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Moteur arrière'
   - titre: Motor Sport, Paul Fearnley, « Ferrari vs Mercedes in the '50s » (avril 2015)
     url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ferrari-vs-mercedes-50s/
     pages:
@@ -3466,6 +3511,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: 'Motor Sport, Preston Lerner, « Ferrari 156: Shark strike » (novembre 2002)'
+    url: https://www.motorsportmagazine.com/archive/article/november-2002/45/shark-strike/
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
   - titre: 'Motor Sport, Richard Heseltine, « 50 years on: John Frankenheimer''s Journey to Grand Prix » (août 2016)'
     url: https://www.motorsportmagazine.com/special-article/best-of-racing-at-the-movies/92/50-years-on-john-frankenheimers-journey-to-grand-prix/
     pages:
@@ -3507,6 +3557,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Ailerons'
+  - titre: Motor Sport, Simon Arron, « Charge of the light brigade » (avril 1995)
+    url: https://www.motorsportmagazine.com/archive/article/april-1995/10/charge-light-brigade/
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
   - titre: 'Motor Sport, Simon Arron, « France 1972: Stewart wins, Amon stars » (juin 2018)'
     url: https://motorsportmagazine.com/articles/single-seaters/f1/france-1972-stewart-wins-amon-stars
     pages:
@@ -3637,7 +3692,7 @@ editeurs:
     - url: /ingenieurs/gordon-murray/
       titre: Murray, Gordon
 - nom: Formula 1
-  n: 510
+  n: 514
   sources:
   - titre: Formula 1, « 10 fascinating facts about the very first F1 Grand Prix, held on this day 70 years ago » (mai 2020)
     url: https://www.formula1.com/en/latest/article/10-fascinating-facts-about-the-very-first-f1-grand-prix-held-on-this-day-70.14iQuQ4N2IbV93EZj4Ruuj
@@ -3663,6 +3718,11 @@ editeurs:
     pages:
     - url: /ecuries/connaught/
       titre: 'Écuries : Connaught'
+  - titre: Formula 1, « 1952 Race Results »
+    url: https://www.formula1.com/en/results/1952/races
+    pages:
+    - url: /chronologie/#c-formule-2-championnat-1952
+      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
   - titre: Formula 1, « 1954 British Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1954/races/130/great-britain/race-result
     pages:
@@ -3735,6 +3795,11 @@ editeurs:
       titre: 'Écuries : JBW'
     - url: /ecuries/team-lotus/
       titre: 'Écuries : Team Lotus'
+  - titre: Formula 1, « 1961 Race Results »
+    url: https://www.formula1.com/en/results/1961/races
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
   - titre: Formula 1, « 1962 Italian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1962/races/202/italy/race-result
     pages:
@@ -4760,6 +4825,11 @@ editeurs:
     pages:
     - url: /chronologie/#c-championnat-1950
       titre: 'Chronologie : 1950, Premier championnat du monde'
+  - titre: Formula 1, Edd Straw, « 5 times F1 teams got the new regulations right » (février 2022)
+    url: https://www.formula1.com/en/latest/article/5-times-f1-teams-got-the-new-regulations-right.U6LMtEfhPHHRe37e3WXET
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
   - titre: Formula 1, glossaire A-E
     url: https://www.formula1.com/en/latest/article/f1-glossary-a-e.1MFONigMlQSbSQtpP7YCy2
     pages:
@@ -7036,6 +7106,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: 'Formula1.com, David Tremayne, « Ferrari’s divine deliverance: Remembering an emotional Monza 1-2 for the Scuderia » (septembre 2018)'
+    url: https://www.formula1.com/en/latest/article/ferrari's-divine-deliverance-remembering-an-emotional-monza-1-2-for-the.7upr6UiYRa4sEcE6AkuySi
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
   - titre: Formula1.com, Mark Hughes, « How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1 » (mai 2020)
     url: https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ
     pages:
@@ -9089,6 +9164,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Honda'
+  - titre: GrandPrix.com, « Hopes flows freely from Pacific » (février 1995)
+    url: https://www.grandprix.com/ns/ns00036.html
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
   - titre: GrandPrix.com, « Italian GP, 1955 »
     url: https://www.grandprix.com/gpe/rr048.html
     pages:
@@ -9535,13 +9615,10 @@ editeurs:
   - titre: GrandPrix.com, « Walter Wolf Racing »
     url: https://www.grandprix.com/constructors/walter-wolf-racing.html
     pages:
-    - url: /ecuries/
-      titre: 'Écuries : Frank Williams Racing Cars et Wolf'
-  - titre: GrandPrix.com, « Walter Wolf Racing »
-    url: https://www.grandprix.com/gpe/con-walte.html
-    pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Effet de sol'
+    - url: /ecuries/
+      titre: 'Écuries : Frank Williams Racing Cars et Wolf'
   - titre: GrandPrix.com, « Who or what is Asiatech? » (décembre 2000)
     url: https://www.grandprix.com/news/who-or-what-is-asiatech.html
     pages:
@@ -10224,7 +10301,7 @@ editeurs:
     - url: /glossaire/#suspension-active
       titre: 'Glossaire : Suspension active'
 - nom: Autosport
-  n: 177
+  n: 171
   sources:
   - titre: Adam Cooper, Autosport, « Gustav Brunner Q&A » (juillet 2001)
     url: https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/
@@ -10241,46 +10318,11 @@ editeurs:
     pages:
     - url: /ingenieurs/geoff-willis/
       titre: Willis, Geoff
-  - titre: Atlas F1 (Autosport), « Q&A With Gustav Brunner » (août 2001)
-    url: http://atlasf1.autosport.com/2001/aug08/brunner.html
-    pages:
-    - url: /ingenieurs/gustav-brunner/
-      titre: Brunner, Gustav
   - titre: Atlas F1 (Autosport), « Toyota Unveil the TF103 at Paul Ricard » (janvier 2003)
     url: https://www.autosport.com/f1/news/toyota-unveil-the-tf103-at-paul-ricard-5061703/5061703/
     pages:
     - url: /ingenieurs/gustav-brunner/
       titre: Brunner, Gustav
-  - titre: Atlas F1, « Arrows » (présentation 2000)
-    url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Arrows : Arrows et Footwork'
-  - titre: Atlas F1, « Benetton has new wind-tunnel » (décembre 1998)
-    url: https://atlasf1.autosport.com/news/1998/1012.htm
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Enstone : de Toleman à Alpine'
-  - titre: Atlas F1, « Jaguar wind tunnel set to start working » (mars 2002)
-    url: https://atlasf1.autosport.com/news/2002/mar/report.php/id/6838/.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Milton Keynes : de Stewart à Red Bull'
-  - titre: Atlas F1, « The Brands Hatch & Paul Ricard FAQ » (s.d.)
-    url: https://atlasf1.autosport.com/99/spn/project/jones-tytler.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Ligier : de Ligier à Prost'
-  - titre: 'Atlas F1, Don Capps, « A Season of Seasons: The Surreal Season - 1982 » (1999)'
-    url: https://atlasf1.autosport.com/99/bel/mirror.html
-    pages:
-    - url: /chronologie/#c-fin-des-jupes
-      titre: 'Chronologie : 1981, La fin des jupes'
-  - titre: Atlas F1, Thomas O'Keefe, « Where the Rubber Meets the Road » (novembre 2000)
-    url: http://atlasf1.autosport.com/2000/nov15/okeefe.html
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
   - titre: Autosport (GP Racing), « How F1's most sophisticated car claimed an era-ending sweep » (avril 2023)
     url: https://www.autosport.com/f1/news/how-f1s-most-sophisticated-car-claimed-an-era-ending-sweep/10454754/
     pages:
@@ -10666,6 +10708,11 @@ editeurs:
       titre: 'Domination (technologies) : Boîte semi-automatique'
     erreurs:
     - e116
+  - titre: Autosport, Damien Smith, « When Williams led F1 to a new technological peak » (juillet 2020)
+    url: https://www.autosport.com/f1/feature/10420/when-williams-led-f1-to-a-new-technological-peak
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: Autosport, Damien Smith, « Why this quintessential late-1970s F1 car stands out in the history of the Tyrrell team » (avril 2026)
     url: https://www.autosport.com/f1/news/why-this-quintessential-late-1970s-f1-car-stands-out-in-the-history-of-the-tyrrell-team/10813369/
     pages:
@@ -10836,6 +10883,11 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Arrows : Arrows et Footwork'
+  - titre: 'Autosport, Gregor Grant, « Autosport 70: When F1 rule changes sparked fears of its imminent demise » (novembre 2020, article du 7 novembre 1958)'
+    url: https://www.autosport.com/f1/news/autosport-70-when-f1-rule-changes-sparked-fears-of-its-imminent-demise-4977655/4977655/
+    pages:
+    - url: /chronologie/#c-formule-1-5-litres-1961
+      titre: 'Chronologie : 1961, La formule 1,5 litre'
   - titre: 'Autosport, Gregor Grant, « Grand Prix Gold: Belgium 1967 » (compte rendu de 1967, republié en août 2010)'
     url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
     pages:
@@ -11136,6 +11188,11 @@ editeurs:
       titre: 'Domination (châssis) : 1997, Williams Renault'
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: Autosport, Stuart Codling, « The politics-laden Ferrari that climaxed the Enzo era » (mai 2021)
+    url: https://www.autosport.com/f1/news/the-politics-laden-ferrari-that-climaxed-the-enzo-era/6517206/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: Autosport, Stuart Codling, « Why Benetton had a point to prove with the B195 » (avril 2025)
     url: https://www.autosport.com/f1/news/why-benetton-had-a-point-to-prove-with-the-b195/10716474/
     pages:
@@ -11163,11 +11220,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 2003, Ferrari'
-  - titre: Craig Scarborough, Atlas F1 (Autosport), « Making Something out of Nothing » (décembre 2004)
-    url: http://atlasf1.autosport.com/2004/dec15/scarborough.html
-    pages:
-    - url: /ingenieurs/gustav-brunner/
-      titre: Brunner, Gustav
   - titre: Edd Straw, Autosport, « Newey downplays effect of Willis' exit » (juillet 2009)
     url: https://www.autosport.com/f1/news/newey-downplays-effect-of-willis-exit-4430923/4430923/
     pages:
@@ -11311,11 +11363,6 @@ editeurs:
       titre: McLaren MP4/1
     - url: /ingenieurs/arthur-webb/
       titre: Webb, Arthur
-  - titre: 'Will Gray, Atlas F1 (Autosport), « Interview with Geoff Willis: Turning a BAR into a Williams » (avril 2002)'
-    url: http://atlasf1.autosport.com/2002/san/gray.html
-    pages:
-    - url: /ingenieurs/geoff-willis/
-      titre: Willis, Geoff
 - nom: Honda
   n: 37
   sources:
@@ -11422,6 +11469,8 @@ editeurs:
       titre: 'Domination (châssis) : 1989, McLaren Honda'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
   - titre: Honda, « 2004 B·A·R Honda 006 – F1 Machines Powered by Honda »
@@ -11971,184 +12020,8 @@ editeurs:
       titre: 'Chronologie : 1970, La Chaparral 2J aspirante'
     - url: /chronologie/#c-ventilateur-ecarte-1978
       titre: 'Chronologie : 1978, La voiture à ventilateur écartée'
-- nom: ultimatecarpage.com
-  n: 27
-  sources:
-  - titre: Ultimatecarpage, « Ferrari 312 T »
-    url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-    erreurs:
-    - e203
-  - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
-    url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW »
-    url: https://www.ultimatecarpage.com/car/687/Benetton-B186-BMW.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW Specifications »
-    url: https://www.ultimatecarpage.com/spec/687/Benetton-B186-BMW.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Ultimatecarpage.com, « Lotus 99T Honda »
-    url: https://www.ultimatecarpage.com/car/1460/Lotus-99T-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Ultimatecarpage.com, « Lotus 99T Honda », fiche technique
-    url: https://www.ultimatecarpage.com/spec/1460/Lotus-99T-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1987, Lotus Honda'
-  - titre: Ultimatecarpage.com, « McLaren MP4/3 Porsche », fiche technique
-    url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1987, McLaren TAG'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, « Williams FW11B Honda »
-    url: https://www.ultimatecarpage.com/car/1425/Williams-FW11B-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Ultimatecarpage.com, « Williams FW11B Honda », fiche technique
-    url: https://www.ultimatecarpage.com/spec/1425/Williams-FW11B-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1987, Williams Honda'
-  - titre: Ultimatecarpage.com, « Williams FW12C Renault »
-    url: https://www.ultimatecarpage.com/car/1051/Williams-FW12C-Renault.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
-    url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, Williams Renault'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, « Williams FW12C Renault », page 2
-    url: https://www.ultimatecarpage.com/txt/1051/2/Williams-FW12C-Renault.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, Williams Renault'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Benetton B194 Ford » (décembre 2019)
-    url: https://www.ultimatecarpage.com/car/7096/Benetton-B194-Ford.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T3 » (juin 2013)
-    url: https://www.ultimatecarpage.com/car/162/Ferrari-312-T3.html
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T4 » (décembre 2009)
-    url: https://www.ultimatecarpage.com/car/164/Ferrari-312-T4.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 412 T1 »
-    url: https://www.ultimatecarpage.com/spec/185/Ferrari-412-T1.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
-    url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
-    url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1987, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 », fiche technique (janvier 2010)
-    url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1987, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-    erreurs:
-    - e219
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », fiche technique (janvier 2010)
-    url: https://www.ultimatecarpage.com/spec/4374/Ferrari-F1-87-88C.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
-    url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1988, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda » (juillet 2014)
-    url: https://www.ultimatecarpage.com/car/343/McLaren-MP4-4-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda », page 2 (juillet 2014)
-    url: https://www.ultimatecarpage.com/txt/343/2/McLaren-MP4-4-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1988, McLaren Honda'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda » (décembre 2015)
-    url: https://www.ultimatecarpage.com/car/344/McLaren-MP4-5-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda », fiche technique (décembre 2015)
-    url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, McLaren Honda'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault » (juin 2015)
-    url: https://www.ultimatecarpage.com/car/6278/Williams-FW13-Renault.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, Williams Renault'
-  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
-    url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
 - nom: F1Technical
-  n: 26
+  n: 27
   sources:
   - titre: F1technical, « Brabham BT53 BMW »
     url: https://www.f1technical.net/f1db/cars/537/brabham-bt53
@@ -12177,6 +12050,11 @@ editeurs:
       titre: Domination (pneus)
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
+  - titre: F1Technical, « Ferrari F1 87-88 » (base de données des voitures, non daté)
+    url: https://www.f1technical.net/f1db/cars/615/ferrari-f1-87-88
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: F1Technical, « Lotus E21 Renault » (base de données)
     url: https://www.f1technical.net/f1db/cars/1000
     pages:
@@ -12297,171 +12175,163 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
-- nom: Motorsport.com
-  n: 22
+- nom: Ultimatecarpage
+  n: 26
   sources:
-  - titre: Adam Cooper, Motorsport.com, « Gérard Ducarouge – 1941-2015 » (février 2015)
-    url: https://www.motorsport.com/f1/news/gerard-ducarouge-1941-2015-463106/463106/
-    pages:
-    - url: /ingenieurs/gerard-ducarouge/
-      titre: Ducarouge, Gérard
-  - titre: Adam Cooper, Motorsport.com, « March F1 team co-founder Robin Herd dies aged 80 » (juin 2019)
-    url: https://www.motorsport.com/f1/news/robin-herd-march-engineering-dies/4448652/
-    pages:
-    - url: /ingenieurs/robin-herd/
-      titre: Herd, Robin
-  - titre: Jonathan Noble, Motorsport.com, « F1 technical chief Pat Symonds to leave role » (mai 2024)
-    url: https://au.motorsport.com/f1/news/f1-technical-chief-pat-symonds-to-leave-role/10613566/
-    pages:
-    - url: /ingenieurs/pat-symonds/
-      titre: Symonds, Pat
-  - titre: 'Matt Somerfield et Giorgio Piola, Motorsport.com, « Banned: Why exhaust blown diffusers were outlawed » (mai 2020)'
-    url: https://au.motorsport.com/f1/news/banned-tech-exhaust-blown-diffusers/4796376/
-    pages:
-    - url: /chronologie/#c-echappements-2012
-      titre: 'Chronologie : 2012, Les sorties d''échappement encadrées'
-    - url: /voitures/red-bull-rb6/
-      titre: Red Bull RB6
-  - titre: Matt Somerfield, Motorsport.com, « The car that set the tone for Mercedes' F1 dominance » (janvier 2021)
-    url: https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/
-    pages:
-    - url: /voitures/mercedes-w05/
-      titre: Mercedes W05
-  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
-    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+  - titre: Ultimatecarpage, « Ferrari 312 T »
+    url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Red Bull Racing Renault'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2014, Red Bull Racing Renault'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2016, Red Bull Racing TAG Heuer'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2017, Red Bull Racing TAG Heuer'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2018, Red Bull Racing TAG Heuer'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2019, Red Bull Racing Honda'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2020, Red Bull Racing Honda'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2021, Red Bull Racing Honda'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2022, Red Bull Racing RBPT'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Récupération d''énergie'
-  - titre: 'Motorsport.com, « British GP: Renault technical preview » (juillet 2003)'
-    url: https://au.motorsport.com/f1/news/british-gp-renault-technical-preview-2003-07-15/1056067/
+      titre: 'Domination (technologies) : Monocoque'
+    erreurs:
+    - e203
+  - titre: Ultimatecarpage.com, « 1981 Ligier JS17 Matra Specifications »
+    url: https://www.ultimatecarpage.com/spec/6312/Ligier-JS17-Matra.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2003, Renault'
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW »
+    url: https://www.ultimatecarpage.com/car/687/Benetton-B186-BMW.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Ultimatecarpage.com, « 1986 Benetton B186 BMW Specifications »
+    url: https://www.ultimatecarpage.com/spec/687/Benetton-B186-BMW.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Ultimatecarpage.com, « Lotus 99T Honda »
+    url: https://www.ultimatecarpage.com/car/1460/Lotus-99T-Honda.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: Ultimatecarpage.com, « Lotus 99T Honda », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1460/Lotus-99T-Honda.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, Lotus Honda'
+  - titre: Ultimatecarpage.com, « McLaren MP4/3 Porsche », fiche technique
+    url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, McLaren TAG'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Ultimatecarpage.com, « Williams FW11B Honda »
+    url: https://www.ultimatecarpage.com/car/1425/Williams-FW11B-Honda.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: Ultimatecarpage.com, « Williams FW11B Honda », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1425/Williams-FW11B-Honda.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, Williams Honda'
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault »
+    url: https://www.ultimatecarpage.com/car/1051/Williams-FW12C-Renault.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
+    url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1989, Williams Renault'
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Motorsport.com, « Formula One FAQ (modified 96-10-15) Part 1/2 » (octobre 1996)
-    url: https://au.motorsport.com/f1/news/formula-one-faq-modified-96-10-15-part-1-2/1676083/
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Forti'
-  - titre: Motorsport.com, « The troubled car that was a game-changer for F1 »
-    url: https://us.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801237/
-    pages:
-    - url: /ingenieurs/john-barnard/
-      titre: Barnard, John
-    - url: /voitures/ferrari-640/
-      titre: Ferrari 640
-    - url: /glossaire/#boite-semi-automatique
-      titre: 'Glossaire : Boîte semi-automatique à palettes'
-  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
-    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
+  - titre: Ultimatecarpage.com, « Williams FW12C Renault », page 2
+    url: https://www.ultimatecarpage.com/txt/1051/2/Williams-FW12C-Renault.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2013, Mercedes'
+      titre: 'Domination (châssis) : 1989, Williams Renault'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Benetton B194 Ford » (décembre 2019)
+    url: https://www.ultimatecarpage.com/car/7096/Benetton-B194-Ford.html
+    pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2020, Mercedes'
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T3 » (juin 2013)
+    url: https://www.ultimatecarpage.com/car/162/Ferrari-312-T3.html
+    pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2021, Mercedes'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2024, Mercedes'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2025, Mercedes'
+      titre: Domination (pneus)
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Effet de sol'
-  - titre: Motorsport.com, « This is every Red Bull Formula 1 car » (janvier 2026)
-    url: https://www.motorsport.com/f1/galleries/this-is-every-red-bull-formula-1-car-/11085/
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 312 T4 » (décembre 2009)
+    url: https://www.ultimatecarpage.com/car/164/Ferrari-312-T4.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2014, Red Bull Racing Renault'
+      titre: 'Domination (technologies) : Effet de sol'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 412 T1 »
+    url: https://www.ultimatecarpage.com/spec/185/Ferrari-412-T1.html
+    pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2016, Red Bull Racing TAG Heuer'
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
+    url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
+    pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2025, Red Bull Racing'
+      titre: 'Domination (châssis) : 1989, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 » (janvier 2010)
+    url: https://www.ultimatecarpage.com/car/173/Ferrari-F1-87.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 », fiche technique (janvier 2010)
+    url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1987, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
     erreurs:
-    - e143
-  - titre: Motorsport.com, « Why was refuelling banned in F1? »
-    url: https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/
-    pages:
-    - url: /glossaire/#ravitaillement
-      titre: 'Glossaire : Ravitaillement et arrêt tactique'
-  - titre: Motorsport.com, « Why was refuelling banned in F1? History of refuelling and previous accidents » (janvier 2024)
-    url: https://au.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555081/
-    pages:
-    - url: /chronologie/#c-carburant-220-litres-1984
-      titre: 'Chronologie : 1984, 220 litres et ravitaillement interdit'
-    - url: /chronologie/#c-ravitaillement-interdit-2010
-      titre: 'Chronologie : 2010, Le ravitaillement interdit de nouveau'
-  - titre: Motorsport.com, Adam Cooper, « How Mercedes' Shanghai 2012 win was a sign of things to come » (avril 2023)
-    url: https://www.motorsport.com/f1/news/rosberg-mercedes-china-win-2012/4780871/
+    - e219
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
+    url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2012, Mercedes'
-    erreurs:
-    - e141
-  - titre: Motorsport.com, Adam Cooper, « When a Hamilton F1 mishap handed Kubica a grand prix win » (juin 2021)
-    url: https://www.motorsport.com/f1/news/2008-canadian-gp-retro-kubica-hamilton/4803148/
+      titre: 'Domination (châssis) : 1988, Ferrari'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda » (juillet 2014)
+    url: https://www.ultimatecarpage.com/car/343/McLaren-MP4-4-Honda.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, Renault'
+      titre: 'Domination (technologies) : Monocoque carbone'
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2008, Sauber BMW'
-  - titre: Motorsport.com, Adam Cooper, « Why Racing Point is more than just a ‘pink Mercedes’ » (mars 2020)
-    url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
-    - url: /ecuries/
-      titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
-  - titre: Motorsport.com, communiqué Pacific, « Pacific PR02 presentation » (février 1995)
-    url: https://au.motorsport.com/f1/news/pacific-pr02-presentation/1655673/
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Pacific'
-  - titre: 'Motorsport.com, Filip Cleeren, « Ocon: Hungary F1 win took pressure away from Alpine » (janvier 2022)'
-    url: https://us.motorsport.com/f1/news/ocon-hungary-f1-win-took-pressure-away-from-alpine/7098172/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda », page 2 (juillet 2014)
+    url: https://www.ultimatecarpage.com/txt/343/2/McLaren-MP4-4-Honda.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2021, Alpine Renault'
-  - titre: 'Motorsport.com, Jack Cozens, « Autosport Awards: Mercedes wins Racing Car of the year » (décembre 2017)'
-    url: https://www.motorsport.com/general/news/autosport-awards-mercedes-wins-racing-car-of-the-year-985597/1382021/
+      titre: 'Domination (châssis) : 1988, McLaren Honda'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda » (décembre 2015)
+    url: https://www.ultimatecarpage.com/car/344/McLaren-MP4-5-Honda.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2017, Mercedes'
-  - titre: 'Motorsport.com, Kevin Turner, « Top 10 Williams F1 cars ranked: FW07, FW14B and more » (février 2021)'
-    url: https://www.motorsport.com/f1/news/top-10-williams-f1-cars-ranked-fw07-fw14b-and-more/5262414/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda », fiche technique (décembre 2015)
+    url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
     pages:
     - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2003, Williams BMW'
+      titre: 'Domination (châssis) : 1989, McLaren Honda'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault » (juin 2015)
+    url: https://www.ultimatecarpage.com/car/6278/Williams-FW13-Renault.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1989, Williams Renault'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
+    url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
+    pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-  - titre: Motorsport.com, Owen Bellwood, « How Jordan took its last F1 victory on this day in 2003 » (avril 2026)
-    url: https://www.motorsport.com/f1/news/how-jordan-won-its-last-f1-race-on-this-day-in-2003/10811097/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2003, Jordan Ford'
-  - titre: Motorsport.com, René Fagnan, « The story of Formula 1's first winning Wolf » (décembre 2015)
-    url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Frank Williams Racing Cars et Wolf'
 - nom: The Race
   n: 22
   sources:
@@ -12596,8 +12466,13 @@ editeurs:
     - url: /ecuries/
       titre: 'Écuries : RBPT'
 - nom: McLaren
-  n: 20
+  n: 21
   sources:
+  - titre: McLaren Racing, « 1989 Formula 1 McLaren MP4/5 », page patrimoine
+    url: https://www.mclaren.com/racing/heritage/formula-1/cars/1989-formula-1-mclaren-mp4-5/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: McLaren Racing, « MP4/2 » (mars 2024)
     url: https://www.mclaren.com/racing/heritage/formula-1/cars/1984-formula-1-mclaren-mp4-2/
     pages:
@@ -12752,7 +12627,279 @@ editeurs:
     pages:
     - url: /chronologie/#j-telemetrie-course
       titre: 'Chronologie : 1986, La télémétrie en course'
-- nom: flyinglap.com.br
+- nom: Motorsport.com
+  n: 21
+  sources:
+  - titre: Adam Cooper, Motorsport.com, « Gérard Ducarouge – 1941-2015 » (février 2015)
+    url: https://www.motorsport.com/f1/news/gerard-ducarouge-1941-2015-463106/463106/
+    pages:
+    - url: /ingenieurs/gerard-ducarouge/
+      titre: Ducarouge, Gérard
+  - titre: Adam Cooper, Motorsport.com, « March F1 team co-founder Robin Herd dies aged 80 » (juin 2019)
+    url: https://www.motorsport.com/f1/news/robin-herd-march-engineering-dies/4448652/
+    pages:
+    - url: /ingenieurs/robin-herd/
+      titre: Herd, Robin
+  - titre: Jonathan Noble, Motorsport.com, « F1 technical chief Pat Symonds to leave role » (mai 2024)
+    url: https://au.motorsport.com/f1/news/f1-technical-chief-pat-symonds-to-leave-role/10613566/
+    pages:
+    - url: /ingenieurs/pat-symonds/
+      titre: Symonds, Pat
+  - titre: 'Matt Somerfield et Giorgio Piola, Motorsport.com, « Banned: Why exhaust blown diffusers were outlawed » (mai 2020)'
+    url: https://au.motorsport.com/f1/news/banned-tech-exhaust-blown-diffusers/4796376/
+    pages:
+    - url: /chronologie/#c-echappements-2012
+      titre: 'Chronologie : 2012, Les sorties d''échappement encadrées'
+    - url: /voitures/red-bull-rb6/
+      titre: Red Bull RB6
+  - titre: Matt Somerfield, Motorsport.com, « The car that set the tone for Mercedes' F1 dominance » (janvier 2021)
+    url: https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/
+    pages:
+    - url: /voitures/mercedes-w05/
+      titre: Mercedes W05
+  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, « Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más » (juin 2023)'
+    url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2013, Red Bull Racing Renault'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2014, Red Bull Racing Renault'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2016, Red Bull Racing TAG Heuer'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2017, Red Bull Racing TAG Heuer'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2018, Red Bull Racing TAG Heuer'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2019, Red Bull Racing Honda'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2020, Red Bull Racing Honda'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2021, Red Bull Racing Honda'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2022, Red Bull Racing RBPT'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Récupération d''énergie'
+  - titre: 'Motorsport.com, « British GP: Renault technical preview » (juillet 2003)'
+    url: https://au.motorsport.com/f1/news/british-gp-renault-technical-preview-2003-07-15/1056067/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2003, Renault'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Motorsport.com, « Formula One FAQ (modified 96-10-15) Part 1/2 » (octobre 1996)
+    url: https://au.motorsport.com/f1/news/formula-one-faq-modified-96-10-15-part-1-2/1676083/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Forti'
+  - titre: Motorsport.com, « The troubled car that was a game-changer for F1 »
+    url: https://us.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801237/
+    pages:
+    - url: /ingenieurs/john-barnard/
+      titre: Barnard, John
+    - url: /voitures/ferrari-640/
+      titre: Ferrari 640
+    - url: /glossaire/#boite-semi-automatique
+      titre: 'Glossaire : Boîte semi-automatique à palettes'
+  - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2013, Mercedes'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2020, Mercedes'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2021, Mercedes'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2024, Mercedes'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2025, Mercedes'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
+  - titre: Motorsport.com, « This is every Red Bull Formula 1 car » (janvier 2026)
+    url: https://www.motorsport.com/f1/galleries/this-is-every-red-bull-formula-1-car-/11085/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2014, Red Bull Racing Renault'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2016, Red Bull Racing TAG Heuer'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2025, Red Bull Racing'
+    erreurs:
+    - e143
+  - titre: Motorsport.com, « Why was refuelling banned in F1? History of refuelling and previous accidents » (janvier 2024)
+    url: https://www.motorsport.com/f1/news/why-was-refuelling-banned-in-f1/10555079/
+    pages:
+    - url: /chronologie/#c-carburant-220-litres-1984
+      titre: 'Chronologie : 1984, 220 litres et ravitaillement interdit'
+    - url: /chronologie/#c-ravitaillement-interdit-2010
+      titre: 'Chronologie : 2010, Le ravitaillement interdit de nouveau'
+    - url: /glossaire/#ravitaillement
+      titre: 'Glossaire : Ravitaillement et arrêt tactique'
+  - titre: Motorsport.com, Adam Cooper, « How Mercedes' Shanghai 2012 win was a sign of things to come » (avril 2023)
+    url: https://www.motorsport.com/f1/news/rosberg-mercedes-china-win-2012/4780871/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2012, Mercedes'
+    erreurs:
+    - e141
+  - titre: Motorsport.com, Adam Cooper, « When a Hamilton F1 mishap handed Kubica a grand prix win » (juin 2021)
+    url: https://www.motorsport.com/f1/news/2008-canadian-gp-retro-kubica-hamilton/4803148/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, Renault'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2008, Sauber BMW'
+  - titre: Motorsport.com, Adam Cooper, « Why Racing Point is more than just a ‘pink Mercedes’ » (mars 2020)
+    url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
+    - url: /ecuries/
+      titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
+  - titre: Motorsport.com, communiqué Pacific, « Pacific PR02 presentation » (février 1995)
+    url: https://au.motorsport.com/f1/news/pacific-pr02-presentation/1655673/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Pacific'
+  - titre: 'Motorsport.com, Filip Cleeren, « Ocon: Hungary F1 win took pressure away from Alpine » (janvier 2022)'
+    url: https://us.motorsport.com/f1/news/ocon-hungary-f1-win-took-pressure-away-from-alpine/7098172/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2021, Alpine Renault'
+  - titre: 'Motorsport.com, Jack Cozens, « Autosport Awards: Mercedes wins Racing Car of the year » (décembre 2017)'
+    url: https://www.motorsport.com/general/news/autosport-awards-mercedes-wins-racing-car-of-the-year-985597/1382021/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2017, Mercedes'
+  - titre: 'Motorsport.com, Kevin Turner, « Top 10 Williams F1 cars ranked: FW07, FW14B and more » (février 2021)'
+    url: https://www.motorsport.com/f1/news/top-10-williams-f1-cars-ranked-fw07-fw14b-and-more/5262414/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2003, Williams BMW'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Motorsport.com, Owen Bellwood, « How Jordan took its last F1 victory on this day in 2003 » (avril 2026)
+    url: https://www.motorsport.com/f1/news/how-jordan-won-its-last-f1-race-on-this-day-in-2003/10811097/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2003, Jordan Ford'
+  - titre: Motorsport.com, René Fagnan, « The story of Formula 1's first winning Wolf » (décembre 2015)
+    url: https://www.motorsport.com/f1/news/the-story-of-formula-1-s-first-winning-wolf/662835/
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Frank Williams Racing Cars et Wolf'
+- nom: Atlas F1
+  n: 19
+  sources:
+  - titre: Atlas F1 (Autosport), « Q&A With Gustav Brunner » (août 2001)
+    url: https://atlasf1.autosport.com/2001/aug08/brunner.html
+    pages:
+    - url: /ingenieurs/gustav-brunner/
+      titre: Brunner, Gustav
+  - titre: Atlas F1, « Arrows » (présentation 2000)
+    url: https://atlasf1.autosport.com/news/2000/features/launch/arrows.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Arrows : Arrows et Footwork'
+  - titre: Atlas F1, « BAR launches 1999 car with dual livery » (janvier 1999)
+    url: https://archive.atlasf1.com/news/1999/1045.htm
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
+  - titre: Atlas F1, « Benetton has new wind-tunnel » (décembre 1998)
+    url: https://atlasf1.autosport.com/news/1998/1012.htm
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Enstone : de Toleman à Alpine'
+  - titre: Atlas F1, « Hill Gives Jordan their first ever Grand Prix Victory (Belgian Grand Prix) » (août 1998)
+    url: https://archive.atlasf1.com/news/1998/813.htm
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1998, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1998, Jordan Mugen Honda'
+    erreurs:
+    - e124
+  - titre: Atlas F1, « Jaguar wind tunnel set to start working » (mars 2002)
+    url: https://atlasf1.autosport.com/news/2002/mar/report.php/id/6838/.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Milton Keynes : de Stewart à Red Bull'
+  - titre: Atlas F1, « Johnny Herbert Wins - European GP » (septembre 1999)
+    url: https://archive.atlasf1.com/news/1999/sep/1649.htm
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1999, Stewart Ford'
+  - titre: Atlas F1, « The Brands Hatch & Paul Ricard FAQ » (s.d.)
+    url: https://atlasf1.autosport.com/99/spn/project/jones-tytler.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Ligier : de Ligier à Prost'
+  - titre: 'Atlas F1, Don Capps, « A Season of Seasons: The Surreal Season - 1982 » (1999)'
+    url: https://atlasf1.autosport.com/99/bel/mirror.html
+    pages:
+    - url: /chronologie/#c-fin-des-jupes
+      titre: 'Chronologie : 1981, La fin des jupes'
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Canadian GP Review » (juin 2001)
+    url: https://www.atlasf1.com/2001/can/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2001, Williams BMW'
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 German GP Review » (août 2001)
+    url: https://www.atlasf1.com/2001/ger/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2001, Williams BMW'
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 Italian GP Review » (septembre 2001)
+    url: https://www.atlasf1.com/2001/ita/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2001, Williams BMW'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Atlas F1, Pablo Elizalde, « The 2001 San Marino GP Review » (avril 2001)
+    url: https://www.atlasf1.com/2001/san/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2001, Williams BMW'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Australian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/aus/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2002, Ferrari'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Brazilian GP Review » (avril 2002)
+    url: https://www.atlasf1.com/2002/bra/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2002, Ferrari'
+  - titre: Atlas F1, Pablo Elizalde, « The 2002 Malaysian GP Review » (mars 2002)
+    url: https://www.atlasf1.com/2002/mal/elizalde.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2002, Williams BMW'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Atlas F1, Thomas O'Keefe, « Where the Rubber Meets the Road » (novembre 2000)
+    url: https://atlasf1.autosport.com/2000/nov15/okeefe.html
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Craig Scarborough, Atlas F1 (Autosport), « Making Something out of Nothing » (décembre 2004)
+    url: https://atlasf1.autosport.com/2004/dec15/scarborough.html
+    pages:
+    - url: /ingenieurs/gustav-brunner/
+      titre: Brunner, Gustav
+  - titre: 'Will Gray, Atlas F1 (Autosport), « Interview with Geoff Willis: Turning a BAR into a Williams » (avril 2002)'
+    url: https://atlasf1.autosport.com/2002/san/gray.html
+    pages:
+    - url: /ingenieurs/geoff-willis/
+      titre: Willis, Geoff
+- nom: Flying Lap
   n: 19
   sources:
   - titre: flyinglap, « 162nd GP – South Africa 1968 »
@@ -12966,7 +13113,7 @@ editeurs:
     erreurs:
     - e015
 - nom: Internet Archive
-  n: 16
+  n: 18
   sources:
   - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
     url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
@@ -13013,6 +13160,13 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Haynes Publishing, Steve Rendle, « Williams FW14B 1992 Owners' Workshop Manual » (2015)
+    url: https://archive.org/details/williamsfw14b1990000rend
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
   - titre: 'Haynes, Anthony Pritchard, « Lotus: the competition cars » (2006)'
     url: https://archive.org/details/lotuscompetition0000prit
     pages:
@@ -13050,6 +13204,11 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+  - titre: Renault, The Originals, « F1 R26-03 » (copie archivée, mai 2026)
+    url: https://web.archive.org/web/20260508185251/https://theoriginals.renault.com/en/f1-r26-03
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2006, Renault'
 - nom: Crash.net
   n: 15
   sources:
@@ -13134,7 +13293,7 @@ editeurs:
     pages:
     - url: /ingenieurs/geoff-willis/
       titre: Willis, Geoff
-- nom: ms.bridgestone.co.jp
+- nom: Bridgestone
   n: 13
   sources:
   - titre: 'Bridgestone, « Bridgestone in F1 14 years : 1998 » (Bridgestone F1 staff, Remembering an era)'
@@ -13266,6 +13425,76 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
+- nom: RM Sotheby's
+  n: 10
+  sources:
+  - titre: RM Sotheby's, « 1971 McLaren M19A » (Monaco 2024)
+    url: https://rmsothebys.com/auctions/mc24/lots/r0014-1971-mclaren-m19a/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: RM Sotheby's, « 1979 Ferrari 312 T4 » (Monaco 2024)
+    url: https://rmsothebys.com/auctions/mc24/lots/r0013-1979-ferrari-312-t4
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Effet de sol'
+  - titre: RM Sotheby's, « 1982 Ferrari 126 C2 » (Abu Dhabi 2019)
+    url: https://rmsothebys.com/auctions/ad19/lots/r0029-1982-ferrari-126-c2/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: RM Sotheby's, « 1984 Ferrari 126 C4 Formula 1 Racing Car » (Monterey, août 2011)
+    url: https://rmsothebys.com/auctions/mo11/lots/r108-1984-ferrari-126-c4-formula-1-racing-car
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1984, Ferrari'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Turbo'
+    erreurs:
+    - e076
+  - titre: RM Sotheby's, « 1989 Ferrari F1-89 Formula One », vente de Monaco, lot 176 (mai 2014)
+    url: https://rmsothebys.com/auctions/mc14/lots/r168-1989-ferrari-f189-formula-one/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: RM Sotheby's, « 1989 Williams FW12C », vente de Saint-Moritz 2022
+    url: https://rmsothebys.com/auctions/sm22/lots/r0018-1989-williams-fw12c/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: RM Sotheby's, « 1991 Benetton B191 Formula 1 » (Miami 2025, lot 104)
+    url: https://rmsothebys.com/auctions/mi25/lots/r0004-1991-benetton-b191-formula-1/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
+    url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1992, Benetton Ford'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+    erreurs:
+    - e112
+    - e220
+  - titre: RM Sotheby's, « 1994 Williams FW16 » (châssis 01, vente The Now & Contemporary Evening Auction, New York)
+    url: https://rmsothebys.com/auctions/sw26/lots/r0001-1994-williams-fw16
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1994, Williams Renault'
+  - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
+    url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1993, Benetton Ford'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
 - nom: FIA
   n: 9
   sources:
@@ -13346,7 +13575,110 @@ editeurs:
       titre: 'Écuries : Red Bull'
     - url: /ecuries/williams/
       titre: 'Écuries : Williams'
-- nom: motorsport-magazin.com
+- nom: Fondazione Pirelli
+  n: 9
+  sources:
+  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
+    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+    erreurs:
+    - e072
+    - e111
+  - titre: Fondazione Pirelli, « Pirelli's 500 GPs in the F1 World Championship » (2026)
+    url: https://pirelli500gp.fondazionepirelli.org/en/home.html
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Fondazione Pirelli, « The Birth of a Legend » (août 2023)
+    url: https://www.fondazionepirelli.org/en/activities/the-birth-of-a-legend/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
+    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Fondazione Pirelli, archive historique, fiche photographique « Gran Premio di Siracusa del 1954 » (avril 1954)
+    url: https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000007104/gran-premio-siracusa-del-1954.html
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Pirelli, Fatti e Notizie, « Campioni del mondo » (août 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1953_08_FATTI_E_NOTIZIE.html#page/2/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Pirelli, Fatti e Notizie, « Silverstone rivincita italiana » (juillet 1954)
+    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1954_07_FATTI_E_NOTIZIE.html#page/3/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
+    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/13/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+- nom: Forix (Autosport)
+  n: 9
+  sources:
+  - titre: 8W (Forix), « When? 1957 British GP »
+    url: https://forix.com/8w/gb57.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1957, Vanwall'
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 8W (Forix), Dan Moakes, « The Alessandro Nannini story » (février 2000)
+    url: https://forix.com/8w/nannini.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1989, Benetton Ford'
+  - titre: 8W (Forix), Mattijs Diepraam, « Fittipaldi » (octobre 2000)
+    url: https://forix.com/8w/fittipaldi.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Fittipaldi'
+  - titre: 8W, Mattijs Diepraam et Felix Muelas, « Adios aerofoils, enter aerodynamics » (mars 1999)
+    url: https://forix.com/8w/e69.html
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Ailerons'
+  - titre: '8W, Mattijs Diepraam, « Poachers turned gamekeepers: how the FOCA became the new FIA, Part 4: 1981 » (janvier 2008)'
+    url: https://forix.com/8w/fiasco-81.html
+    pages:
+    - url: /chronologie/#c-concorde-1981
+      titre: 'Chronologie : 1981, Guerre FISA-FOCA et accords Concorde'
+  - titre: 8W, Mattijs Diepraam, « When? - The FISA-FOCA war » (novembre 2007)
+    url: https://forix.autosport.com/8w/fiasco-introduction-timeline.html
+    pages:
+    - url: /chronologie/#c-concorde-1981
+      titre: 'Chronologie : 1981, Guerre FISA-FOCA et accords Concorde'
+  - titre: Forix / 8W, Leo Breevoort, Dan Moakes et Mattijs Diepraam, « World Championship Grand Prix engine designations and configurations »
+    url: https://forix.autosport.com/8w/6thgear/engines.html
+    pages:
+    - url: /ecuries/pacific/
+      titre: 'Écuries : Pacific'
+  - titre: Forix / 8W, Mattijs Diepraam, « Scirocco – American heir buys British disaster cars »
+    url: https://forix.com/8w/scirocco.html
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Emeryson et Scirocco'
+  - titre: Leo Breevoort et Mattijs Diepraam, Forix (Autosport), « Grand Prix car designers » (révision novembre 2025)
+    url: https://forix.autosport.com/8w/6thgear/designers.html
+    pages:
+    - url: /ingenieurs/geoff-aldridge/
+      titre: Aldridge, Geoff
+    - url: /ingenieurs/gustav-brunner/
+      titre: Brunner, Gustav
+- nom: Motorsport-Magazin
   n: 9
   sources:
   - titre: Motorsport-Magazin, « Continental - alle 10 Grand Prix Siege in der Formel 1 » (base de données F1)
@@ -13408,99 +13740,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-- nom: fondazionepirelli.org
-  n: 8
-  sources:
-  - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
-    url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    erreurs:
-    - e072
-    - e111
-  - titre: Fondazione Pirelli, « The Birth of a Legend » (août 2023)
-    url: https://www.fondazionepirelli.org/en/activities/the-birth-of-a-legend/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
-    url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Fondazione Pirelli, archive historique, fiche photographique « Gran Premio di Siracusa del 1954 » (avril 1954)
-    url: https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000007104/gran-premio-siracusa-del-1954.html
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Pirelli, Fatti e Notizie, « Campioni del mondo » (août 1953)
-    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1953_08_FATTI_E_NOTIZIE.html#page/2/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Pirelli, Fatti e Notizie, « Silverstone rivincita italiana » (juillet 1954)
-    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1954_07_FATTI_E_NOTIZIE.html#page/3/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
-    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Rivista Pirelli, Nino Nutrizio, « I traguardi del '53 sono una linea di partenza » (n° 6, 1953)
-    url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/13/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-- nom: Forix (Autosport)
-  n: 8
-  sources:
-  - titre: 8W (Forix), « When? 1957 British GP »
-    url: https://forix.com/8w/gb57.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1957, Vanwall'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: 8W (Forix), Dan Moakes, « The Alessandro Nannini story » (février 2000)
-    url: https://forix.com/8w/nannini.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1989, Benetton Ford'
-  - titre: 8W (Forix), Mattijs Diepraam, « Fittipaldi » (octobre 2000)
-    url: https://forix.com/8w/fittipaldi.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Fittipaldi'
-  - titre: 8W, Mattijs Diepraam et Felix Muelas, « Adios aerofoils, enter aerodynamics » (mars 1999)
-    url: https://forix.com/8w/e69.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Ailerons'
-  - titre: '8W, Mattijs Diepraam, « Poachers turned gamekeepers: how the FOCA became the new FIA, Part 4: 1981 » (janvier 2008)'
-    url: https://forix.com/8w/fiasco-81.html
-    pages:
-    - url: /chronologie/#c-concorde-1981
-      titre: 'Chronologie : 1981, Guerre FISA-FOCA et accords Concorde'
-  - titre: 8W, Mattijs Diepraam, « When? - The FISA-FOCA war » (novembre 2007)
-    url: http://forix.autosport.com/8w/fiasco-introduction-timeline.html
-    pages:
-    - url: /chronologie/#c-concorde-1981
-      titre: 'Chronologie : 1981, Guerre FISA-FOCA et accords Concorde'
-  - titre: Forix / 8W, Mattijs Diepraam, « Scirocco – American heir buys British disaster cars »
-    url: https://forix.com/8w/scirocco.html
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Emeryson et Scirocco'
-  - titre: Leo Breevoort et Mattijs Diepraam, Forix (Autosport), « Grand Prix car designers » (révision novembre 2025)
-    url: https://forix.autosport.com/8w/6thgear/designers.html
-    pages:
-    - url: /ingenieurs/geoff-aldridge/
-      titre: Aldridge, Geoff
-    - url: /ingenieurs/gustav-brunner/
-      titre: Brunner, Gustav
 - nom: Mercedes-AMG F1
   n: 8
   sources:
@@ -13558,66 +13797,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 2019, Mercedes'
-- nom: rmsothebys.com
-  n: 8
-  sources:
-  - titre: RM Sotheby's, « 1971 McLaren M19A » (Monaco 2024)
-    url: https://rmsothebys.com/auctions/mc24/lots/r0014-1971-mclaren-m19a/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: RM Sotheby's, « 1979 Ferrari 312 T4 » (Monaco 2024)
-    url: https://rmsothebys.com/auctions/mc24/lots/r0013-1979-ferrari-312-t4
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Effet de sol'
-  - titre: RM Sotheby's, « 1982 Ferrari 126 C2 » (Abu Dhabi 2019)
-    url: https://rmsothebys.com/auctions/ad19/lots/r0029-1982-ferrari-126-c2/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: RM Sotheby's, « 1984 Ferrari 126 C4 Formula 1 Racing Car » (Monterey, août 2011)
-    url: https://rmsothebys.com/auctions/mo11/lots/r108-1984-ferrari-126-c4-formula-1-racing-car
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1984, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Turbo'
-    erreurs:
-    - e076
-  - titre: RM Sotheby's, « 1991 Benetton B191 Formula 1 » (Miami 2025, lot 104)
-    url: https://rmsothebys.com/auctions/mi25/lots/r0004-1991-benetton-b191-formula-1/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: RM Sotheby's, « 1992 Benetton B192 Formula 1 » (Monaco 2018, lot 153)
-    url: https://rmsothebys.com/auctions/mc18/lots/r0032-1992-benetton-b192-formula-1/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1992, Benetton Ford'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-    erreurs:
-    - e112
-    - e220
-  - titre: RM Sotheby's, « 1994 Williams FW16 » (châssis 01, vente The Now & Contemporary Evening Auction, New York)
-    url: https://rmsothebys.com/auctions/sw26/lots/r0001-1994-williams-fw16
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1994, Williams Renault'
-  - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
-    url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1993, Benetton Ford'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
 - nom: 8W (Forix)
   n: 7
   sources:
@@ -13668,52 +13847,6 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : JBW'
-- nom: atlasf1.com
-  n: 7
-  sources:
-  - titre: Atlas F1, Pablo Elizalde, « The 2001 Canadian GP Review » (juin 2001)
-    url: https://www.atlasf1.com/2001/can/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2001, Williams BMW'
-  - titre: Atlas F1, Pablo Elizalde, « The 2001 German GP Review » (août 2001)
-    url: https://www.atlasf1.com/2001/ger/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2001, Williams BMW'
-  - titre: Atlas F1, Pablo Elizalde, « The 2001 Italian GP Review » (septembre 2001)
-    url: https://www.atlasf1.com/2001/ita/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2001, Williams BMW'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Atlas F1, Pablo Elizalde, « The 2001 San Marino GP Review » (avril 2001)
-    url: https://www.atlasf1.com/2001/san/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2001, Williams BMW'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Atlas F1, Pablo Elizalde, « The 2002 Australian GP Review » (mars 2002)
-    url: https://www.atlasf1.com/2002/aus/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2002, Ferrari'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Atlas F1, Pablo Elizalde, « The 2002 Brazilian GP Review » (avril 2002)
-    url: https://www.atlasf1.com/2002/bra/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2002, Ferrari'
-  - titre: Atlas F1, Pablo Elizalde, « The 2002 Malaysian GP Review » (mars 2002)
-    url: https://www.atlasf1.com/2002/mal/elizalde.html
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2002, Williams BMW'
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
 - nom: Classic Team Lotus
   n: 7
   sources:
@@ -13864,35 +13997,34 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
-- nom: Wikipedia
-  n: 5
+- nom: Bonhams
+  n: 4
   sources:
-  - titre: Wikipedia, « 1952 Formula One season »
-    url: https://en.wikipedia.org/wiki/1952_Formula_One_season
-    pages:
-    - url: /chronologie/#c-formule-2-championnat-1952
-      titre: 'Chronologie : 1952, Le championnat couru en Formule 2'
-  - titre: Wikipedia, « 1954 Formula One season »
-    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+  - titre: Bonhams, « 1990 Williams-Renault FW13B Formula 1 Racing Single-Seater, Chassis no. FW13B-07 », lot 343, vente du Goodwood Festival of Speed (juin 2015)
+    url: https://www.bonhams.com/auctions/22723/lot/343/
     pages:
     - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Wikipedia, « 1961 Formula One season »
-    url: https://en.wikipedia.org/wiki/1961_Formula_One_season
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Bonhams, « Ready to run, the ex-Riccardo Patrese/Michael Schumacher 1993 Benetton-Ford B193B, chassis no. B193B-04 » (24 juin 2022)
+    url: https://cars.bonhams.com/auction/27521/lot/370/ready-to-run-the-ex-riccardo-patresemichael-schumacher-1993-benetton-ford-b193b-formula-1-racing-single-seater-chassis-no-b193b-04/
     pages:
-    - url: /chronologie/#c-formule-1-5-litres-1961
-      titre: 'Chronologie : 1961, La formule 1,5 litre'
-  - titre: Wikipedia, « Pacific PR02 »
-    url: https://en.wikipedia.org/wiki/Pacific_PR02
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Bonhams, « The ex-Damon Hill 1994 Williams-Renault FW16B, chassis no. FW16B-05 » (Williams F1 Reserve Collection, 14 décembre 2005)
+    url: https://cars.bonhams.com/auction/13928/lot/210/the-ex-damon-hill-nine-grand-prix-races-four-grands-prix-winning-one-pole-position-four-fastest-laps-and-world-championship-losing1994-williams-renault-fw16b-formula-1-racing-single-seater-chassis-no-fw16b-05/
     pages:
-    - url: /ecuries/pacific/
-      titre: 'Écuries : Pacific'
-  - titre: Wikipédia (en), « Ferrari 158 »
-    url: https://en.wikipedia.org/wiki/Ferrari_158
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: Bonhams, « The record breaking Ex-Ayrton Senna 1993 Monaco Grand Prix-winning McLaren-Cosworth Ford MP4/8A, chassis no. MP4/8-6 » (11 mai 2018)
+    url: https://cars.bonhams.com/auction/24953/lot/119/the-record-breaking-ex-ayrton-senna-1993-monaco-grand-prix-winning1993-mclaren-cosworth-ford-mp48a-formula-racing-single-seater-chassis-no-mp48-6-engine-no-510/
     pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
-- nom: delpher.nl
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+- nom: Delpher
   n: 4
   sources:
   - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Duitsland, Nürburgring 3 augustus 1952 » (4 août 1952, Delpher)
@@ -13965,29 +14097,7 @@ editeurs:
     pages:
     - url: /ecuries/
       titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
-- nom: archive.atlasf1.com
-  n: 3
-  sources:
-  - titre: Atlas F1, « BAR launches 1999 car with dual livery » (janvier 1999)
-    url: https://archive.atlasf1.com/news/1999/1045.htm
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Brackley : de Tyrrell à Mercedes'
-  - titre: Atlas F1, « Hill Gives Jordan their first ever Grand Prix Victory (Belgian Grand Prix) » (août 1998)
-    url: https://archive.atlasf1.com/news/1998/813.htm
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1998, Ferrari'
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1998, Jordan Mugen Honda'
-    erreurs:
-    - e124
-  - titre: Atlas F1, « Johnny Herbert Wins - European GP » (septembre 1999)
-    url: https://archive.atlasf1.com/news/1999/sep/1649.htm
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1999, Stewart Ford'
-- nom: artcurial.com
+- nom: Artcurial
   n: 3
   sources:
   - titre: Artcurial Motorcars, « 1982 Renault RE 30-B9 Formule 1 », vente « The Renault Icons » (décembre 2025)
@@ -14007,7 +14117,7 @@ editeurs:
       titre: 'Domination (châssis) : 1997, Benetton Renault'
     erreurs:
     - e123
-- nom: auto123.com
+- nom: Auto123
   n: 3
   sources:
   - titre: 'Auto123, « F1: Bob Bell to be Mercedes tech boss from April » (février 2011)'
@@ -14029,49 +14139,7 @@ editeurs:
       titre: Costa, Aldo
     - url: /ingenieurs/geoff-willis/
       titre: Willis, Geoff
-- nom: automedia.revsinstitute.org
-  n: 3
-  sources:
-  - titre: Revs Institute, « Ferrari 312 B3 - How torment, trial, and error built a great race team » (mars 2021)
-    url: https://automedia.revsinstitute.org/?p=87676
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-  - titre: Revs Institute, « Lotus Type 72 »
-    url: https://automedia.revsinstitute.org/?p=88902
-    pages:
-    - url: /voitures/cooper-t51/
-      titre: Cooper T51
-    - url: /voitures/lotus-72/
-      titre: Lotus 72
-  - titre: Revs Institute, « Tyrrell 003 - One of the most successful Formula 1 cars of all time » (avril 2021)
-    url: https://automedia.revsinstitute.org/the-iconic-tyrrell-003-one-of-the-most-successful-formula-1-cars-of-all-time
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque'
-    erreurs:
-    - e057
-- nom: cars.bonhams.com
-  n: 3
-  sources:
-  - titre: Bonhams, « Ready to run, the ex-Riccardo Patrese/Michael Schumacher 1993 Benetton-Ford B193B, chassis no. B193B-04 » (24 juin 2022)
-    url: https://cars.bonhams.com/auction/27521/lot/370/ready-to-run-the-ex-riccardo-patresemichael-schumacher-1993-benetton-ford-b193b-formula-1-racing-single-seater-chassis-no-b193b-04/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Bonhams, « The ex-Damon Hill 1994 Williams-Renault FW16B, chassis no. FW16B-05 » (Williams F1 Reserve Collection, 14 décembre 2005)
-    url: https://cars.bonhams.com/auction/13928/lot/210/the-ex-damon-hill-nine-grand-prix-races-four-grands-prix-winning-one-pole-position-four-fastest-laps-and-world-championship-losing1994-williams-renault-fw16b-formula-1-racing-single-seater-chassis-no-fw16b-05/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: Bonhams, « The record breaking Ex-Ayrton Senna 1993 Monaco Grand Prix-winning McLaren-Cosworth Ford MP4/8A, chassis no. MP4/8-6 » (11 mai 2018)
-    url: https://cars.bonhams.com/auction/24953/lot/119/the-record-breaking-ex-ayrton-senna-1993-monaco-grand-prix-winning1993-mclaren-cosworth-ford-mp48a-formula-racing-single-seater-chassis-no-mp48-6-engine-no-510/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-- nom: hagerty.co.uk
+- nom: Hagerty
   n: 3
   sources:
   - titre: Hagerty UK, Paul Fearnley, « The likely lads in a lock-up who made it to the F1 grid » (7 avril 2021)
@@ -14151,6 +14219,28 @@ editeurs:
       titre: 'Écuries : Silverstone : de Jordan à Aston Martin'
     - url: /ecuries/
       titre: 'Écuries : Williams'
+- nom: Revs Institute
+  n: 3
+  sources:
+  - titre: Revs Institute, « Ferrari 312 B3 - How torment, trial, and error built a great race team » (mars 2021)
+    url: https://automedia.revsinstitute.org/?p=87676
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+  - titre: Revs Institute, « Lotus Type 72 »
+    url: https://automedia.revsinstitute.org/?p=88902
+    pages:
+    - url: /voitures/cooper-t51/
+      titre: Cooper T51
+    - url: /voitures/lotus-72/
+      titre: Lotus 72
+  - titre: Revs Institute, « Tyrrell 003 - One of the most successful Formula 1 cars of all time » (avril 2021)
+    url: https://automedia.revsinstitute.org/the-iconic-tyrrell-003-one-of-the-most-successful-formula-1-cars-of-all-time
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque'
+    erreurs:
+    - e057
 - nom: Speedcafe
   n: 3
   sources:
@@ -14191,7 +14281,7 @@ editeurs:
       titre: Williams FW14B
 - nom: Autres éditeurs
   autres: true
-  n: 101
+  n: 100
   sources:
   - titre: 24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)
     url: https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378
@@ -14369,11 +14459,6 @@ editeurs:
       titre: 'Chronologie : 2012, Premier hybride vainqueur au Mans'
   - titre: Firestone, « Our Heritage »
     url: https://www.firestonetire.com/about-firestone/heritage/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Fondazione Pirelli, « Pirelli's 500 GPs in the F1 World Championship » (2026)
-    url: https://pirelli500gp.fondazionepirelli.org/en/home.html
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
@@ -14611,11 +14696,6 @@ editeurs:
       titre: Lotus 98T
     - url: /voitures/williams-fw17b/
       titre: Williams FW17B
-  - titre: Renault, The Originals, « F1 R26-03 »
-    url: https://theoriginals.renault.com/en/f1-r26-03
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2006, Renault'
   - titre: Road & Track, Máté Petrány, « Even the McLaren F1's Gearbox Has an Amazing Story » (avril 2018)
     url: https://autos.yahoo.com/even-mclaren-f1-apos-gearbox-193000794.html
     pages:
@@ -14766,3 +14846,8 @@ editeurs:
     pages:
     - url: /ingenieurs/john-crosthwaite/
       titre: Crosthwaite, John
+  - titre: Wikipedia, « 1954 Formula One season »
+    url: https://en.wikipedia.org/wiki/1954_Formula_One_season
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)

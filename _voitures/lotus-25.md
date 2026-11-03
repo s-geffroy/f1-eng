@@ -17,8 +17,8 @@ sources:
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-25"
   - titre: "Formula 1, « 1962 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/1962/team"
-  - titre: "Wikipédia (en), « Ferrari 158 »"
-    url: "https://en.wikipedia.org/wiki/Ferrari_158"
+  - titre: "Motor Sport, « Mauro Forghieri's greatest Ferraris » (août 2019)"
+    url: "https://www.motorsportmagazine.com/archive/article/august-2019/96/mauro-forghieri-sidebar"
 photo:
   fichier: "/assets/voitures/lotus-25.jpg"
   legende: "Jim Clark sur la Lotus 25 au Grand Prix des Pays-Bas, à Zandvoort, le 23 juin 1963."

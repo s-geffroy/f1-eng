@@ -19,7 +19,7 @@ sources:
   - titre: "Jonathan Noble, Autosport, « Ross Brawn says Mercedes' new technical structure is paying off » (mars 2012)"
     url: "https://www.autosport.com/f1/news/98225/brawn-technical-structure-paying-off"
   - titre: "Will Gray, Atlas F1 (Autosport), « Interview with Geoff Willis: Turning a BAR into a Williams » (avril 2002)"
-    url: "http://atlasf1.autosport.com/2002/san/gray.html"
+    url: "https://atlasf1.autosport.com/2002/san/gray.html"
   - titre: "Atlas F1 (Autosport), « BAR to Start 2004 Season with Hybrid Car » (juin 2003)"
     url: "https://www.autosport.com/f1/news/bar-to-start-2004-season-with-hybrid-car-5063393/5063393/"
   - titre: "Jonathan Noble, Autosport, « Willis: Fuel Tank was Conventional » (mai 2005)"

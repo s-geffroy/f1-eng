@@ -4463,7 +4463,7 @@ lignees:
     - titre: GrandPrix.com, Joe Saward, « Arrows Grand Prix » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/arrows-grand-prix.html
     - titre: Atlas F1, « Arrows » (présentation 2000)
-      url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
+      url: https://atlasf1.autosport.com/news/2000/features/launch/arrows.html
   - lieu: Leafield (Oxfordshire)
     lieux:
     - leafield
@@ -4476,7 +4476,7 @@ lignees:
     - titre: GrandPrix.com, Joe Saward, « TWR completes Arrows takeover » (juillet 1996)
       url: https://www.grandprix.com/news/twr-completes-arrows-takeover.html
     - titre: Atlas F1, « Arrows » (présentation 2000)
-      url: http://atlasf1.autosport.com/news/2000/features/launch/arrows.html
+      url: https://atlasf1.autosport.com/news/2000/features/launch/arrows.html
   souffleries:
   - lieu: Londres (Imperial College)
     lieux:
@@ -8192,8 +8192,12 @@ ecuries:
     de: 1995
     a: 1995
     sources:
-    - titre: Wikipedia, « Pacific PR02 »
-      url: https://en.wikipedia.org/wiki/Pacific_PR02
+    - titre: Motor Sport, Simon Arron, « Charge of the light brigade » (avril 1995)
+      url: https://www.motorsportmagazine.com/archive/article/april-1995/10/charge-light-brigade/
+    - titre: GrandPrix.com, « Hopes flows freely from Pacific » (février 1995)
+      url: https://www.grandprix.com/ns/ns00036.html
+    - titre: Forix / 8W, Leo Breevoort, Dan Moakes et Mattijs Diepraam, « World Championship Grand Prix engine designations and configurations »
+      url: https://forix.autosport.com/8w/6thgear/engines.html
 - id: parnelli
   nom: Parnelli
   voitures: []

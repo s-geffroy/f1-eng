@@ -255,11 +255,7 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: 'À Silverstone, le journal interne de Pirelli, Fatti e Notizie, annonce en juillet 1954 que le Grand Prix d''Angleterre « è stato vinto da Gonzales (Ferrari-Pirelli) », et Pirelli range cette
-    victoire dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. À Pedralbes, la Hoja del Lunes de Barcelone titre au lendemain de la course « El inglés M. Hawthorn, sobre "Ferrari-Pirelli",
-    destacado vencedor » et répète « Ferrari-Pirelli » dans son classement officiel ; une publicité Pirelli parue dans La Nuova Stampa reproduit la page d''El Mundo Deportivo qui dit la même chose. Pour
-    l''Argentine, le tableau de résultats de Roger Smith donne la lettre « P » (Pirelli) à Farina, parti en pole sur Ferrari. En avril, à Syracuse, une photographie de l''archive Pirelli montre González
-    sur Ferrari entouré des mécaniciens de l''assistance technique Pirelli, et Nigel Roebuck rappelle que Ferrari n''est passé sous contrat Englebert qu''en 1955 (des Ferrari avaient pourtant déjà gagné
+  pourquoi: 'À Silverstone, le journal interne de Pirelli, Fatti e Notizie, annonce en juillet 1954 que le Grand Prix d''Angleterre « è stato vinto da Gonzales (Ferrari-Pirelli) », et Pirelli range cette victoire dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. À Pedralbes, la Hoja del Lunes de Barcelone titre au lendemain de la course « El inglés M. Hawthorn, sobre "Ferrari-Pirelli", destacado vencedor » et répète « Ferrari-Pirelli » dans son classement officiel ; une publicité Pirelli parue dans La Nuova Stampa reproduit la page d''El Mundo Deportivo qui dit la même chose. Pour l''Argentine, le tableau de résultats de Roger Smith donne la lettre « P » (Pirelli) à Farina, parti en pole sur Ferrari. En avril, à Syracuse, une photographie de l''archive Pirelli montre González sur Ferrari entouré des mécaniciens de l''assistance technique Pirelli, et Nigel Roebuck rappelle que Ferrari n''est passé sous contrat Englebert qu''en 1955 (des Ferrari avaient pourtant déjà gagné
     en Englebert en 1951 et 1952). Seule la pole de González en Suisse n''a pas de source course par course : le tableau des engagés de la saison lui donne Pirelli.'
   sources:
   - titre: Pirelli, Fatti e Notizie, « Silverstone rivincita italiana » (juillet 1954)
@@ -1853,7 +1849,7 @@ cas:
   - titre: Motor Sport, « Avon Racing Tyres » (octobre 1982)
     url: https://www.motorsportmagazine.com/archive/article/october-1982/68/avon-racing-tyres/
   - titre: Atlas F1, Thomas O'Keefe, « Where the Rubber Meets the Road » (novembre 2000)
-    url: http://atlasf1.autosport.com/2000/nov15/okeefe.html
+    url: https://atlasf1.autosport.com/2000/nov15/okeefe.html
   - titre: Motor Sport, Bill Boddy, « Tyre War in Racing » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/24/tyre-war-in-racing/
 - annee: 1982

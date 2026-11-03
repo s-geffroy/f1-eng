@@ -34,6 +34,11 @@ EDITEURS = {
     "planetf1.com": "PlanetF1", "speedcafe.com": "Speedcafe", "lotuscars.com": "Lotus Cars",
     "classicteamlotus.co.uk": "Classic Team Lotus", "bmwgroup.com": "BMW Group",
     "group.renault.com": "Groupe Renault", "espn.com": "ESPN", "communicationskw.podbean.com": "Beyond the Grid (podcast)",
+    "ultimatecarpage.com": "Ultimatecarpage", "flyinglap.com.br": "Flying Lap", "bridgestone.co.jp": "Bridgestone",
+    "motorsport-magazin.com": "Motorsport-Magazin", "fondazionepirelli.org": "Fondazione Pirelli",
+    "rmsothebys.com": "RM Sotheby's", "atlasf1.com": "Atlas F1", "atlasf1.autosport.com": "Atlas F1",
+    "delpher.nl": "Delpher", "artcurial.com": "Artcurial", "auto123.com": "Auto123",
+    "revsinstitute.org": "Revs Institute", "bonhams.com": "Bonhams", "hagerty.co.uk": "Hagerty",
 }
 AUTRES = 3                                         # un éditeur de moins de AUTRES sources va dans « autres »
 

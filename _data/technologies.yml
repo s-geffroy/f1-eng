@@ -1125,7 +1125,7 @@ technologies:
     - titre: McLaren, « Miss the M26, miss out » (juillet 2017)
       url: https://www.mclaren.com/racing/heritage/formula-1/cars/1977-formula-1-mclaren-m26/overlooked-mclaren-m26/
     - titre: GrandPrix.com, « Walter Wolf Racing »
-      url: https://www.grandprix.com/gpe/con-walte.html
+      url: https://www.grandprix.com/constructors/walter-wolf-racing.html
   - annee: 1978
     ecurie: brabham
     equipe: Brabham Alfa Romeo
@@ -1881,10 +1881,16 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari F1/87/88C
     valeur: oui
-    pourquoi: La F1/87/88C garde le V6 turbo de la F1/87, bridé à 2,5 bars pour la dernière saison des turbos ; victoire en Italie.
+    pourquoi: Pour la dernière saison des turbos, Ferrari se contente de faire évoluer ses F1/87 de 1987, rebaptisées F1/87-88C (Motor Sport, juin 1988) ; la voiture est une F1/87 adaptée au règlement qui limite la pression de suralimentation à 2,5 bars (Motor Sport, juin 2010 ; formula1.com). Son V6 turbo de 90° lui donne la seule victoire non McLaren de l'année, le doublé Berger-Alboreto à Monza (Motor Sport, octobre 1988).
     sources:
-    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
-      url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
+    - titre: Motor Sport, « Notes on the cars » (juin 1988)
+      url: https://www.motorsportmagazine.com/archive/article/june-1988/18/lotus-honda-v6-tc/
+    - titre: Motor Sport, Anthony Rowlinson, « Lord of the black arts » (juin 2010)
+      url: https://www.motorsportmagazine.com/archive/article/june-2010/56/lord-black-arts/
+    - titre: 'Formula1.com, David Tremayne, « Ferrari’s divine deliverance: Remembering an emotional Monza 1-2 for the Scuderia » (septembre 2018)'
+      url: https://www.formula1.com/en/latest/article/ferrari's-divine-deliverance-remembering-an-emotional-monza-1-2-for-the.7upr6UiYRa4sEcE6AkuySi
+    - titre: Motor Sport, Denis Jenkinson, « It had to happen » (octobre 1988)
+      url: https://www.motorsportmagazine.com/archive/article/october-1988/16/it-had-to-happen/
   - annee: 1988
     ecurie: mclaren
     equipe: McLaren Honda
@@ -2365,12 +2371,14 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari F1/87/88C
     valeur: non
-    pourquoi: La F1/87/88C reprend la suspension passive de la F1/87, doubles triangles et ressorts hélicoïdaux actionnés par tirants ; aucune suspension active n'est mentionnée.
+    pourquoi: 'La F1/87-88C est une simple évolution des F1/87 de 1987 (Motor Sport, juin 1988 ; Autosport). Sa fiche technique indique une suspension à doubles triangles et tirants (F1Technical), et celle de la F1/87 précise des combinés ressort-amortisseur hélicoïdaux actionnés par tirants à l''avant comme à l''arrière (Autosport) : il s''agit d''une suspension passive classique, et aucune de ces sources ne mentionne de suspension active.'
     sources:
-    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », fiche technique (janvier 2010)
-      url: https://www.ultimatecarpage.com/spec/4374/Ferrari-F1-87-88C.html
-    - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87/88C », page 2 (janvier 2010)
-      url: https://www.ultimatecarpage.com/txt/4374/2/Ferrari-F1-87-88C.html
+    - titre: Autosport, Stuart Codling, « The politics-laden Ferrari that climaxed the Enzo era » (mai 2021)
+      url: https://www.autosport.com/f1/news/the-politics-laden-ferrari-that-climaxed-the-enzo-era/6517206/
+    - titre: F1Technical, « Ferrari F1 87-88 » (base de données des voitures, non daté)
+      url: https://www.f1technical.net/f1db/cars/615/ferrari-f1-87-88
+    - titre: Motor Sport, « Notes on the cars » (juin 1988)
+      url: https://www.motorsportmagazine.com/archive/article/june-1988/18/lotus-honda-v6-tc/
   - annee: 1988
     ecurie: mclaren
     equipe: McLaren Honda
@@ -2398,8 +2406,14 @@ technologies:
     equipe: Ferrari
     voiture: Ferrari 640
     valeur: non
-    pourquoi: 'La 640 a une suspension mécanique classique : barres de torsion à l''avant, ressorts hélicoïdaux à l''arrière, actionnés par poussoirs.'
+    pourquoi: 'La 640 a une suspension mécanique classique, sans système actif : doubles triangles et poussoirs à l''avant comme à l''arrière, et à l''avant de courtes barres de torsion actionnées par un culbuteur, que John Barnard a dessinées à la place des combinés ressort-amortisseur.'
     sources:
+    - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
+      url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
+    - titre: 'Motor Sport, James Elson, « Ferrari''s 640: the 1989 flawed masterpiece ''that''s still influencing F1 design'' » (juin 2022)'
+      url: https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design
+    - titre: RM Sotheby's, « 1989 Ferrari F1-89 Formula One », vente de Monaco, lot 176 (mai 2014)
+      url: https://rmsothebys.com/auctions/mc14/lots/r168-1989-ferrari-f189-formula-one/
     - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
       url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
   - annee: 1989
@@ -2407,23 +2421,29 @@ technologies:
     equipe: McLaren Honda
     voiture: McLaren MP4/5
     valeur: non
-    pourquoi: La MP4/5 a une suspension passive à doubles triangles, ressorts et amortisseurs actionnés par tirants à l'avant et par poussoirs à l'arrière.
+    pourquoi: La MP4/5 a une suspension passive classique à doubles triangles, actionnée par tirants à l'avant et par poussoirs à l'arrière, sans système actif.
     sources:
-    - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/5 Honda », fiche technique (décembre 2015)
-      url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
+    - titre: McLaren Racing, « 1989 Formula 1 McLaren MP4/5 », page patrimoine
+      url: https://www.mclaren.com/racing/heritage/formula-1/cars/1989-formula-1-mclaren-mp4-5/
+    - titre: Honda, « 1989 McLaren Honda MP4/5 », F1 Machines Powered by Honda
+      url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
   - annee: 1989
     ecurie: williams
     equipe: Williams Renault
     voiture: Williams FW12C (Canada) et FW13 (Australie)
     valeur: non
-    pourquoi: La FW12C a des doubles triangles et des ressorts hélicoïdaux actionnés par tirants, la suspension réactive de la FW12 ayant été retirée au Grand Prix de Grande-Bretagne 1988 ; la FW13 a des ressorts et amortisseurs actionnés par poussoirs. Aucune des deux ne court en actif.
+    pourquoi: Williams renonce à toute suspension active pendant la saison 1989, sur la FW12C comme sur la FW13. Le système réactif de la FW12 avait été abandonné dès le Grand Prix de Grande-Bretagne 1988, et la FW12C revient à une suspension passive. La FW13 a des doubles triangles à l'avant et à l'arrière, et ses combinés ressort-amortisseur avant sont actionnés par poussoirs. La suspension réactive n'y est qu'un projet pour 1990, essayé seulement sur un mulet d'essais.
     sources:
-    - titre: Ultimatecarpage.com, « Williams FW12C Renault »
-      url: https://www.ultimatecarpage.com/car/1051/Williams-FW12C-Renault.html
-    - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
-      url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
-    - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
-      url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
+    - titre: Haynes Publishing, Steve Rendle, « Williams FW14B 1992 Owners' Workshop Manual » (2015)
+      url: https://archive.org/details/williamsfw14b1990000rend
+    - titre: Motor Sport Magazine, Keith Howard, « Active suspension » (décembre 2001)
+      url: https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension/
+    - titre: Autosport, Damien Smith, « When Williams led F1 to a new technological peak » (juillet 2020)
+      url: https://www.autosport.com/f1/feature/10420/when-williams-led-f1-to-a-new-technological-peak
+    - titre: RM Sotheby's, « 1989 Williams FW12C », vente de Saint-Moritz 2022
+      url: https://rmsothebys.com/auctions/sm22/lots/r0018-1989-williams-fw12c/
+    - titre: Bonhams, « 1990 Williams-Renault FW13B Formula 1 Racing Single-Seater, Chassis no. FW13B-07 », lot 343, vente du Goodwood Festival of Speed (juin 2015)
+      url: https://www.bonhams.com/auctions/22723/lot/343/
   - annee: 1990
     ecurie: benetton
     equipe: Benetton Ford
@@ -2663,12 +2683,14 @@ technologies:
     equipe: Williams Renault
     voiture: Williams FW12C (Canada) et FW13 (Australie)
     valeur: non
-    pourquoi: La FW12C comme la FW13 ont une boîte manuelle transversale Williams/Hewland à 6 rapports.
+    pourquoi: La FW12C comme la FW13 ont une boîte transversale Williams, apparue sur la FW12 en 1988 ; celle de la FW13 est une Williams/Hewland à six rapports. Ce n'est pas une boîte semi-automatique. Williams n'essaie une commande de boîte semi-automatique qu'à partir de 1990, sur la FW13B. Patrick Head décide ensuite de l'adopter sur la FW14 dès le début de la saison 1991.
     sources:
-    - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique
-      url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
-    - titre: Ultimatecarpage.com, Wouter Melissen, « Williams FW13 Renault », fiche technique (juin 2015)
-      url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
+    - titre: 'Motor Sport Magazine, Damien Smith, « Mansell''s winning F1 machines: up close with momentous Ferrari and Williams » (juin 2022)'
+      url: https://www.motorsportmagazine.com/archive/article/june-2022/106/the-ferrari-and-williams-driven-to-f1-victory-by-nigel-mansell/
+    - titre: Bonhams, « 1990 Williams-Renault FW13B Formula 1 Racing Single-Seater, Chassis no. FW13B-07 », lot 343, vente du Goodwood Festival of Speed (juin 2015)
+      url: https://www.bonhams.com/auctions/22723/lot/343/
+    - titre: Haynes Publishing, Steve Rendle, « Williams FW14B 1992 Owners' Workshop Manual » (2015)
+      url: https://archive.org/details/williamsfw14b1990000rend
   - annee: 1990
     ecurie: benetton
     equipe: Benetton Ford
