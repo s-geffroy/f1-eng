@@ -18,7 +18,7 @@ sources:
   - titre: "Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history”"
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
   - titre: "Formula 1, “Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all”"
-    url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
+    url: "https://www.formula1.com/en/latest/article/beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3"
   - titre: "GrandPrix.com, “Steve Nielsen” (biographical profile, undated)"
     url: "https://www.grandprix.com/people/steve-nielsen.html"
 photo:

@@ -24,7 +24,7 @@ sources:
   - titre: "Michelle Foster, PlanetF1, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
     url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
   - titre: "Sky Sports, « Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero-sidepod philosophy officially abandoned » (mai 2023)"
-    url: "https://www.skysports.com/f1/news/12433/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
+    url: "https://www.skysports.com/f1/news/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
   - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
     url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
   - titre: "Formula 1, « 2022 Team Standings » (résultats officiels)"

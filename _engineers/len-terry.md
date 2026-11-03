@@ -11,7 +11,7 @@ sources:
   - titre: "Gordon Cruickshank, Motor Sport Magazine, “Len Terry – obituary” (November 2014)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2014/44/len-terry-obituary/"
   - titre: "Autosport, “Len Terry obituary: 1924-2014” (August 2014)"
-    url: "https://www.autosport.com/f1/news/115592/len-terry-obituary-19242014"
+    url: "https://www.autosport.com/f1/news/len-terry-obituary-1924-2014-5048232/5048232/"
   - titre: "Classic Team Lotus, “Len Terry; talent & ability” (August 2014)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2014/len-terry-talent-ability/"
 consultation: "26 October 2026"

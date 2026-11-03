@@ -19,7 +19,7 @@ sources:
   - titre: "Autosport, “When Alesi was reunited with his \"dream\" F1 racer”"
     url: "https://www.autosport.com/f1/news/when-alesi-was-reunited-with-his-dream-f1-racer/10734322/"
   - titre: "GrandPrix.com, “Jean-Claude Migeot”"
-    url: "https://grandprix.com/people/jean-claude-migeot.html"
+    url: "https://www.grandprix.com/people/jean-claude-migeot.html"
   - titre: "Motor Sport Magazine, “New Tyrrell book launched by Jackie Stewart and other team members” (2023)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2023/16/new-tyrrell-book-launched-by-jackie-stewart-and-other-team-members/"
 consultation: "25 October 2026"

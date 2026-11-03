@@ -17,7 +17,7 @@ monopoles:
   - titre: 'Motor Sport, Denis Jenkinson, « 1963 French Grand Prix race report: Clark completes his hat-trick » (août 1963)'
     url: https://www.motorsportmagazine.com/archive/article/august-1963/26/49th-french-grand-prix
   - titre: Motor Sport, Paul Fearnley, « Formula 1 and the Indianapolis 500's separate worlds » (avril 2019)
-    url: https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds/
 - de: 1975
   a: 1976
   pneus: Goodyear
@@ -78,7 +78,7 @@ monopoles:
   - titre: Ferrari, « 2007 | History of Scuderia Ferrari Formula 1 »
     url: https://www.ferrari.com/en-EN/formula1/year-2007
   - titre: 'Autoblog, Noah Joseph, « Officially Official: Bridgestone signs exclusive deal with F1 » (26 décembre 2007)'
-    url: https://www.autoblog.com/2007/12/26/officially-official-bridgestone-signs-exclusive-deal-with-f1/
+    url: https://www.autoblog.com/news/officially-official-bridgestone-signs-exclusive-deal-with-f1
   - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2009 » (Bridgestone F1 staff, Remembering an era)'
     url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2009/
   - titre: 'Bridgestone, « Bridgestone in F1 14 years : 2010 » (Bridgestone F1 staff, Remembering an era)'
@@ -92,7 +92,7 @@ monopoles:
   - titre: Ferrari, « 2011 | History of Scuderia Ferrari Formula 1 »
     url: https://www.ferrari.com/en-EN/formula1/year-2011
   - titre: Formula1.com, « Pirelli to continue as Formula 1’s exclusive tyre supplier until 2027 » (octobre 2023)
-    url: https://www.formula1.com/en/latest/article.pirelli-to-continue-as-formula-1s-exclusive-tyre-supplier-until-2027.7xJIxJyMe84N3p7k4iIMjK.html
+    url: https://www.formula1.com/en/latest/article/pirelli-to-continue-as-formula-1s-exclusive-tyre-supplier-until-2027.7xJIxJyMe84N3p7k4iIMjK
   nature: impose
 cas:
 - annee: 1950
@@ -102,7 +102,7 @@ cas:
   pourquoi: Pirelli rappelle qu'Alfa Romeo et lui ont gagné ensemble les six Grands Prix européens du premier championnat ; le compte rendu de Motor Sport du GP de Grande-Bretagne 1950 décrit les Alfetta chaussées de Pirelli à l'avant comme à l'arrière.
   sources:
   - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
-    url: https://www.pirelli.com/global/en-ww/race/celebrating-400-formula-1-races-pirelli-s-highlights
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/formula-1/celebrating-400-formula-1-races-pirelli-s-highlights-53226/
   - titre: Motor Sport, « The Royal Silverstone meeting » (juin 1950)
     url: https://www.motorsportmagazine.com/archive/article/june-1950/7/the-royal-silverstone-meeting/
 - annee: 1950
@@ -122,7 +122,7 @@ cas:
   pourquoi: Pirelli présente le titre 1951 de Fangio comme celui d'Alfa Romeo et de Pirelli ; à Silverstone, Motor Sport décrit les quatre Alfa 159 en pneus Pirelli, à l'avant comme à l'arrière.
   sources:
   - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
-    url: https://www.pirelli.com/global/en-ww/race/celebrating-400-formula-1-races-pirelli-s-highlights
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/formula-1/celebrating-400-formula-1-races-pirelli-s-highlights-53226/
   - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
     url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
 - annee: 1951
@@ -175,7 +175,7 @@ cas:
   - titre: Motor Sport, « Ferrari wins the British GP » (août 1952)
     url: https://www.motorsportmagazine.com/archive/article/august-1952/11/ferrari-wins-the-british-gp/
   - titre: Pirelli, « 110 years from race to road »
-    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
   - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Duitsland, Nürburgring 3 augustus 1952 » (4 août 1952, Delpher)
     url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088514:mpeg21:a0083
   - titre: Algemeen Handelsblad, publicité Englebert, « Grote prijs van Nederland, Zandvoort 17 augustus 1952 » (18 août 1952, Delpher)
@@ -224,7 +224,7 @@ cas:
   - titre: Fondazione Pirelli, « The Variante Ascari » (août 2022)
     url: https://www.fondazionepirelli.org/en/activities/the-variante-ascari/
   - titre: Pirelli, « 110 years from race to road »
-    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
   - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
@@ -472,7 +472,7 @@ cas:
   - titre: Motor Sport, Doug Nye, « Stirling’s finest drive? Aye! » (octobre 2009)
     url: https://www.motorsportmagazine.com/archive/article/october-2009/130/doug-nye-35/
   - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
-    url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+    url: https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d
 - annee: 1958
   ecurie: ferrari
   equipe: Ferrari
@@ -776,7 +776,7 @@ cas:
   - titre: Motor Sport, Denis Jenkinson, « 1965 British Grand Prix race report - A close thing » (août 1965)
     url: https://www.motorsportmagazine.com/archive/article/august-1965/20/18th-rac-british-grand-prix/
   - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
-    url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
+    url: https://www.autosport.com/f1/news/the-last-great-brm-that-got-stewart-off-the-mark-5114216/5114216/
 - annee: 1965
   ecurie: honda-1964
   equipe: Honda
@@ -810,7 +810,7 @@ cas:
   pourquoi: 'Le Brabham Racing Organisation (BT19/BT20 Repco) roule en Goodyear toute la saison : Motor Sport attribue à Goodyear la Brabham victorieuse à Reims, compte la victoire de Brands Hatch dans un triplé Goodyear et précise au Nürburgring que l''équipe est sous contrat avec Goodyear et n''a jamais rien essayé d''autre.'
   sources:
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/15/the-52nd-grand-prix-of-the-acf/
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
   - titre: Motor Sport, Denis Jenkinson, « 1966 British Grand Prix race report - A clean sweep » (août 1966)
@@ -832,7 +832,7 @@ cas:
   pourquoi: 'La Cooper Car Company (T81) est en Dunlop en 1966 : Motor Sport signale les trois Cooper en Dunlop CR70 à Reims et une équipe « restée fidèle à Dunlop » au Nürburgring. Pour le Mexique, où Surtees signe la pole et la victoire, la fiche de l''organisateur du Grand Prix donne les trois Cooper T-81 Maserati de l''usine en Dunlop, et précise que, des trois hommes de tête, seul l''Anglais Surtees roulait sur les « classiques gommes Dunlop », Ginther et Brabham étant en Goodyear.'
   sources:
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/15/the-52nd-grand-prix-of-the-acf/
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
   - titre: 'Gran Premio de México, « La ficha : V Gran Premio de México, 1966 »'
@@ -851,7 +851,7 @@ cas:
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 Belgian Grand Prix race report: Surtees slides to victory » (juillet 1966)'
     url: https://www.motorsportmagazine.com/archive/article/july-1966/16/belgian-gp-2/
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-    url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+    url: https://www.motorsportmagazine.com/archive/article/august-1966/15/the-52nd-grand-prix-of-the-acf/
   - titre: 'Motor Sport, Denis Jenkinson, « 1966 German Grand Prix race report: Brabham goes forth » (septembre 1966)'
     url: https://www.motorsportmagazine.com/archive/article/september-1966/15/the-german-grand-prix-4/
   - titre: Motor Sport, « Monza mutters » (octobre 1966)
@@ -1217,7 +1217,7 @@ cas:
   pourquoi: 'Équipe Matra Sports en Goodyear : en France, Amon mène depuis la pole jusqu''à ce qu''un éclat de pierre perce son Goodyear avant gauche.'
   sources:
   - titre: 'Motor Sport, Simon Arron, « France 1972: Stewart wins, Amon stars » (juin 2018)'
-    url: https://motorsportmagazine.com/articles/single-seaters/f1/france-1972-stewart-wins-amon-stars
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/france-1972-stewart-wins-amon-stars/
 - annee: 1972
   ecurie: mclaren
   equipe: McLaren Ford
@@ -2645,7 +2645,7 @@ cas:
   - titre: 'Motorsport.com, « British GP: Renault technical preview » (juillet 2003)'
     url: https://au.motorsport.com/f1/news/british-gp-renault-technical-preview-2003-07-15/1056067/
   - titre: GrandPrix.com, Joe Saward, « Hungarian GP, 2003 » (août 2003)
-    url: https://grandprix.com/gpe/rr710.html
+    url: https://www.grandprix.com/races/hungarian-gp-2003.html
   - titre: 'Bridgestone, « Bridgestone in F1 14 years – Remembering an era : 2003 »'
     url: https://ms.bridgestone.co.jp/special/document/f1/en/episode/2003/
 - annee: 2003

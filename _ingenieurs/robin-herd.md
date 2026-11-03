@@ -15,7 +15,7 @@ sources:
   - titre: "Adam Cooper, Motorsport.com, « March F1 team co-founder Robin Herd dies aged 80 » (juin 2019)"
     url: "https://www.motorsport.com/f1/news/robin-herd-march-engineering-dies/4448652/"
   - titre: "Paul Fearnley, Motor Sport Magazine, « The March 721G F1 car that almost ended Niki Lauda's career » (mars 2009)"
-    url: "https://motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot"
+    url: "https://www.motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot/"
   - titre: "OldRacingCars.com, « March 721X car-by-car histories »"
     url: "https://www.oldracingcars.com/march/721x/"
 consultation: "26 octobre 2026"

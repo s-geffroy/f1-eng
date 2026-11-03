@@ -15,7 +15,7 @@ sources:
   - titre: "Williams F1, “Sir Patrick Head”"
     url: "https://www.williamsf1.com/persons/sir-patrick-head-v2"
   - titre: "Motor Sport Magazine, “Sir Patrick Head: The Motor Sport Interview” (April 2022)"
-    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
+    url: "https://www.motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview/"
   - titre: "Formula 1, “Why the Williams FW15C remains F1's technological Tour de Force”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS"
   - titre: "Keith Howard, Motor Sport Magazine, “Active suspension” (December 2001)"

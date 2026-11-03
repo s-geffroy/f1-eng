@@ -22,7 +22,7 @@ sources:
   - titre: "Matt Bishop, Motor Sport Magazine, « The 'practical joke' that won a GP – and the other six-wheeled cars banned by F1 » (juin 2026)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/the-practical-joke-that-won-a-gp-and-the-other-six-wheeled-cars-that-f1-banned/"
   - titre: "Paul Fearnley, Motor Sport Magazine, « The March 721G F1 car that almost ended Niki Lauda's career » (mars 2009)"
-    url: "https://motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot"
+    url: "https://www.motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot/"
   - titre: "Samarth Kanal, Formula 1, « From the six wheeled Tyrrell to the dual rear-wing Ferrari – 10 of the weirdest F1 cars ever raced » (janvier 2023)"
     url: "https://www.formula1.com/en/latest/article/from-the-six-wheeled-tyrrell-to-the-dual-rear-wing-ferrari-10-of-the.1uvMU2qhHxAphWRhgjxwCj"
 photo:

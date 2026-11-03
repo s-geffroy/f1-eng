@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["jean-claude-migeot", "mauro-forghieri", "john-barnard"]
 sources:
   - titre: "Autosport, “More praise for Postlethwaite”"
-    url: "https://www.autosport.com/f1/news/4768/more-praise-for-postlethwaite"
+    url: "https://www.autosport.com/f1/news/more-praise-for-postlethwaite-5052159/5052159/"
   - titre: "Joe Saward, GrandPrix.com, “Obituary: Dr. Harvey Postlethwaite” (1999)"
     url: "https://www.grandprix.com/news/obituary-dr-harvey-postlethwaite.html"
   - titre: "Motor Sport Magazine, “Ferrari – World Champion Constructors” (December 1982)"
@@ -19,9 +19,9 @@ sources:
   - titre: "Motor Sport Magazine, “History may yet show” (September 1990)"
     url: "https://www.motorsportmagazine.com/archive/article/september-1990/22/history-may-yet-show/"
   - titre: "GrandPrix.com, “Harvey Postlethwaite”"
-    url: "https://www.grandprix.com/gpe/cref-poshar.html"
+    url: "https://www.grandprix.com/people/dr-harvey-postlethwaite.html"
   - titre: "GrandPrix.com, “Jean-Claude Migeot”"
-    url: "https://grandprix.com/people/jean-claude-migeot.html"
+    url: "https://www.grandprix.com/people/jean-claude-migeot.html"
 consultation: "25 October 2026"
 image: "/assets/partage/en/harvey-postlethwaite.jpg"
 ---

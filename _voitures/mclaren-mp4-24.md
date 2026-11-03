@@ -12,7 +12,7 @@ termes: ["kers", "diffuseur", "soufflerie"]
 jalons: ["kers", "simulateur"]
 sources:
   - titre: "Paul Fearnley, Motor Sport Magazine, « The comeback » (janvier 2010)"
-    url: "https://www.motorsportmagazine.com/archive/page/january-2010/63"
+    url: "https://www.motorsportmagazine.com/archive/article/january-2010/62/save-of-the-century/"
   - titre: "McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)"
     url: "https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php"
   - titre: "Crash.net, Matt Salisbury, « Zytek revealed as McLaren KERS supplier » (2009)"

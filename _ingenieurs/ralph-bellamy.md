@@ -13,7 +13,7 @@ sources:
   - titre: "Gordon Kirby, Motor Sport Magazine, « Lotus's ground-effect revolution, part one »"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/lotuss-ground-effect-revolution-part-one/"
   - titre: "GrandPrix.com, « Ralph Bellamy »"
-    url: "https://grandprix.com/people/ralph-bellamy.html"
+    url: "https://www.grandprix.com/people/ralph-bellamy.html"
   - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren M19 » (janvier 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2005/64/x-ray-spec-mclaren-m19/"
   - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : Fittipaldi F6 » (août 2005)"

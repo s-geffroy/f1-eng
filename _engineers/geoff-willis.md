@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["adrian-newey", "aldo-costa", "ross-brawn"]
 sources:
   - titre: "GrandPrix.com, “Geoff Willis”"
-    url: "https://grandprix.com/people/geoff-willis.html"
+    url: "https://www.grandprix.com/people/geoff-willis.html"
   - titre: "Robert Wilkins, Crash.net, “Unsung hero - Geoffrey Willis”"
     url: "https://www.crash.net/f1/news/46186/1/unsung-hero-geoffrey-willis"
   - titre: "GrandPrix.com, “Willis departs” (June 2006)"
@@ -17,7 +17,7 @@ sources:
   - titre: "Auto123, “F1: Mercedes signs Aldo Costa and Geoff Willis” (September 2011)"
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
   - titre: "Jonathan Noble, Autosport, “Ross Brawn says Mercedes' new technical structure is paying off” (March 2012)"
-    url: "https://www.autosport.com/f1/news/98225/brawn-technical-structure-paying-off"
+    url: "https://www.autosport.com/f1/news/ross-brawn-says-mercedes-new-technical-structure-is-paying-off-4453475/4453475/"
   - titre: "Will Gray, Atlas F1 (Autosport), “Interview with Geoff Willis: Turning a BAR into a Williams” (April 2002)"
     url: "https://atlasf1.autosport.com/2002/san/gray.html"
   - titre: "Atlas F1 (Autosport), “BAR to Start 2004 Season with Hybrid Car” (June 2003)"
@@ -29,7 +29,7 @@ sources:
   - titre: "Lawrence Barretto, Autosport, “Paddy Lowe's departure from Mercedes F1 team confirmed” (January 2017)"
     url: "https://www.autosport.com/f1/news/paddy-lowes-departure-from-mercedes-f1-team-confirmed-5025267/5025267/"
   - titre: "INEOS, “INEOS Britannia launch world-class team to challenge for 37th America's Cup” (October 2021)"
-    url: "https://www.ineos.com/fr/Actualites/Groupe-Ineos/ineos-britannia-launch-world-class-team-to-challenge-for-37th-americas-cup/"
+    url: "https://www.ineos.com/fr/actualites/groupe-ineos/ineos-britannia-launch-world-class-team-to-challenge-for-37th-americas-cup/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/geoff-willis.jpg"
 ---

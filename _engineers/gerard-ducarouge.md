@@ -13,7 +13,7 @@ sources:
   - titre: "Adam Cooper, Motorsport.com, “Gérard Ducarouge – 1941-2015” (February 2015)"
     url: "https://www.motorsport.com/f1/news/gerard-ducarouge-1941-2015-463106/463106/"
   - titre: "Autosport, “Legendary Formula 1 designer Gerard Ducarouge dies” (February 2015)"
-    url: "https://www.autosport.com/f1/news/117807/f1-design-legend-ducarouge-dies"
+    url: "https://www.autosport.com/f1/news/legendary-formula-1-designer-gerard-ducarouge-dies-5016942/5016942/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/gerard-ducarouge.jpg"
 ---

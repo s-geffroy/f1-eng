@@ -13,7 +13,7 @@ sources:
   - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
   - titre: "Formula 1, « Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time »"
-    url: "https://www.formula1.com/en/latest/article.beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3.html"
+    url: "https://www.formula1.com/en/latest/article/beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3"
   - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
   - titre: "Motor Sport Magazine, « Lunch with… John Barnard » (septembre 2018)"

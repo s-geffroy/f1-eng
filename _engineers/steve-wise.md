@@ -13,7 +13,7 @@ sources:
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
   - titre: "Patrick Head, Motor Sport Magazine, “Mansell's perfect ride” (March 2012)"
-    url: "https://motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride"
+    url: "https://www.motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride/"
   - titre: "The Race, Glenn Freeman, “The summer that changed F1 forever” (January 2021)"
     url: "https://www.the-race.com/formula-1/the-summer-that-changed-f1-forever/"
   - titre: "Motor Sport Magazine, Adam Cooper, “Williams FW15C: Nobody's done it better” (November 2023)"

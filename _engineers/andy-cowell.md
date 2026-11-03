@@ -27,7 +27,7 @@ sources:
   - titre: "Formula 1, “Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role” (November 2025)"
     url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
   - titre: "Luke Smith, Autosport, “Cowell to step down as Mercedes F1 engine chief” (June 2020)"
-    url: "https://www.autosport.com/news/report.php/id/149984"
+    url: "https://www.autosport.com/f1/news/cowell-to-step-down-as-mercedes-f1-engine-chief-4981900/4981900/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/andy-cowell.jpg"
 ---

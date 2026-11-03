@@ -12,11 +12,11 @@ termes: ["voiture-a-ventilateur", "flat-12", "jupes", "effet-de-sol", "appui"]
 jalons: ["bt46b"]
 sources:
   - titre: "Adam Cooper, Motor Sport Magazine, “Vacuum clean-up” (May 1998)"
-    url: "https://www.motorsportmagazine.com/archive/page/may-1998/65"
+    url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean/"
   - titre: "Motor Sport Magazine, “The 75 greatest Grands Prix: 1978 Swedish GP” (March 2025)"
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
   - titre: "Jonathan Bushell, Motor Sport Magazine, “1978 Brabham BT46B 'fan car'” (February 2025, with Denis Jenkinson's July 1978 report)"
-    url: "https://motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car"
+    url: "https://www.motorsportmagazine.com/archive/article/february-2025/88/1978-brabham-bt46b-fan-car/"
   - titre: "Russell Campbell, Goodwood, “Too fast for Formula 1: the Brabham BT46B fan car” (May 2025)"
     url: "https://www.goodwood.com/grr/f1/too-fast-for-formula-1-the-brabham-bt46b-fan-car/"
 photo:

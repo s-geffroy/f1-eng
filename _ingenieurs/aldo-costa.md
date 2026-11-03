@@ -9,11 +9,11 @@ lignees: []
 voir_aussi: ["rory-byrne", "ross-brawn", "andy-cowell", "paddy-lowe"]
 sources:
   - titre: "Formula 1, « Mercedes Technical Advisor Costa to join Dallara for 2020 » (septembre 2019)"
-    url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
+    url: "https://www.formula1.com/en/latest/article/costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43"
   - titre: "Autosport, « Why a key title-winning team builder is leaving Formula 1 »"
     url: "https://www.autosport.com/f1/news/why-a-key-title-winning-team-builder-is-leaving-formula-1-4988592/4988592/"
   - titre: "Autosport, « Byrne: the F2005 will not have my signature » (2004)"
-    url: "https://www.autosport.com/f1/news/atlasf1-14950/byrne-the-f2005-will-not-have-my-signature"
+    url: "https://www.autosport.com/f1/news/byrne-the-f2005-will-not-have-my-signature-5067512/5067512/"
   - titre: "Autosport, « Interview with Rory Byrne » (2006)"
     url: "https://www.autosport.com/general/news/interview-with-rory-byrne-5076767/5076767/"
   - titre: "GrandPrix.com, « Costa goes as Ferrari restructures » (2011)"

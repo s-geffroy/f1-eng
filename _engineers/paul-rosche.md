@@ -19,7 +19,7 @@ sources:
   - titre: "Keith Howard, Motor Sport Magazine, “X-ray spec: Brabham BT52” (May 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2005/68/brabham-bt-52/"
   - titre: "Autosport, “Legendary BMW engineer Paul Rosche dies” (November 2016)"
-    url: "https://www.autosport.com/f1/news/127139/bmw-engineering-legend-rosche-dies"
+    url: "https://www.autosport.com/f1/news/legendary-bmw-engineer-paul-rosche-dies-5029189/5029189/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/paul-rosche.jpg"
 ---

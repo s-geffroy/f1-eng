@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["steve-nichols", "harvey-postlethwaite"]
 sources:
   - titre: "GrandPrix.com, « Mike Gascoyne »"
-    url: "https://grandprix.com/people/mike-gascoyne.html"
+    url: "https://www.grandprix.com/people/mike-gascoyne.html"
   - titre: "Toyota Gazoo Racing, « Combined forces : Mike Gascoyne » (2005)"
     url: "https://toyotagazooracing.com/archive/ms/public/en/features/0508_forces/interview_gascoyne1.html"
   - titre: "Damien Smith, Goodwood, « When Jordan almost became F1 World Champions » (mars 2025)"

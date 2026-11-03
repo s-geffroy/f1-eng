@@ -25,7 +25,7 @@ sources:
   - titre: "Goodwood, “On this day in… 1967”"
     url: "https://www.goodwood.com/grr/f1/on-this-day-in...-1967/"
   - titre: "Motor Sport Magazine, “Lancia D50 re-creations nearing completion” (October 1999)"
-    url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
+    url: "https://www.motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion/"
   - titre: "Denis Jenkinson, Motor Sport Magazine, “Bank holiday racing” (May 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/may-1967/52/bank-holiday-racing/"
   - titre: "Alan Henry, Motor Sport Magazine, “Formula 2 review: end of an era” (January 1972)"

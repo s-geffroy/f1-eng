@@ -14,7 +14,7 @@ sources:
   - titre: "Classic Team Lotus, “Lotus 72 50th birthday” (2020)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
   - titre: "Revs Institute, “Lotus Type 72”"
-    url: "https://automedia.revsinstitute.org/?p=88902"
+    url: "https://automedia.revsinstitute.org/lotus-72-cosworth-the-remarkable-story-of-the-long-lived-legend"
   - titre: "Forix (8W), “Lotus 72”"
     url: "https://8w.forix.com/lotus72.html"
   - titre: "Lotus Cars, “Type 72”"

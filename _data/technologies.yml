@@ -26,7 +26,7 @@ technologies:
     - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
       url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/
     - titre: Motor Sport, Paul Fearnley, « Formula 1 and the Indianapolis 500's separate worlds » (avril 2019)
-      url: https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds/
     - titre: 'Indianapolis Motor Speedway, « Memory Lane: A.J. Foyt, 1964 » (mai 2018)'
       url: https://www.indianapolismotorspeedway.com/news-multimedia/news/2018/05/04/memory-lane-aj-foyt-1964-2018
     - titre: Indianapolis Motor Speedway, « Clark's rear-engine victory in 1965 was evolution of revolution at Indy » (février 2020)
@@ -40,9 +40,9 @@ technologies:
     pourquoi: 'Les deux Cooper victorieuses (Moss en Argentine sur T43, Trintignant à Monaco sur T45, engagées par Rob Walker) ont le moteur Climax à l''arrière : formula1.com parle de la T43 « mid-engined » face aux Ferrari et Maserati à moteur avant, et Autocar de la « rear-engined Cooper » victorieuse à Monaco.'
     sources:
     - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
-      url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+      url: https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d
     - titre: 'Autocar, « From the motorsport archive: on this day in 1958 » (juin 2023)'
-      url: https://www.autocar.co.uk/node/128368
+      url: https://www.autocar.co.uk/car-news/from-the-archive/motorsport-archive-day-1958
   - annee: 1958
     ecurie: ferrari
     equipe: Ferrari
@@ -53,7 +53,7 @@ technologies:
     - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
       url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
     - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
-      url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+      url: https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d
   - annee: 1958
     ecurie: vanwall
     equipe: Vanwall
@@ -91,7 +91,7 @@ technologies:
     pourquoi: La T51, gagnante à Monaco, en Grande-Bretagne, au Portugal, en Italie et aux États-Unis, a le moteur à l'arrière ; Autosport rappelle que le titre de Brabham est le premier gagné avec une voiture à moteur arrière, et Motor Sport la range parmi les « rear-engined runners » d'Aintree.
     sources:
     - titre: Autosport, « The inside story of Brabham's dramatic first title win » (décembre 2019)
-      url: https://www.autosport.com/f1/feature/9763/the-inside-story-of-brabham-dramatic-first-title-win
+      url: https://www.autosport.com/f1/news/the-inside-story-of-brabhams-dramatic-first-title-win-5113173/5113173/
     - titre: Motor Sport, Doug Nye, « 1959 British Grand Prix » (décembre 2009)
       url: https://www.motorsportmagazine.com/archive/article/december-2009/73/1959-british-grand-prix/
   - annee: 1959
@@ -359,7 +359,7 @@ technologies:
     - titre: Goodwood Road & Racing, « Revival's Top 5 single-seaters » (septembre 2018)
       url: https://www.goodwood.com/grr/event-coverage/goodwood-revival/revivals-top-5-single-seaters/
     - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
-      url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
+      url: https://www.autosport.com/f1/news/the-last-great-brm-that-got-stewart-off-the-mark-5114216/5114216/
   - annee: 1965
     ecurie: honda-1964
     equipe: Honda
@@ -390,7 +390,7 @@ technologies:
     pourquoi: 'Les quatre victoires de Brabham (France, Grande-Bretagne, Pays-Bas, Allemagne) sont acquises sur la BT19, le premier châssis Brabham de la formule 3 litres : Motor Sport décrit à Reims son treillis tubulaire, mêlant tubes ovales et ronds, alors que la deuxième voiture n''a que des tubes ronds.'
     sources:
     - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-      url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+      url: https://www.motorsportmagazine.com/archive/article/august-1966/15/the-52nd-grand-prix-of-the-acf/
     - titre: oldracingcars.com, Grand Prix de France 1966
       url: https://www.oldracingcars.com/f1/results/1966/france/
   - annee: 1966
@@ -403,7 +403,7 @@ technologies:
     - titre: Goodwood Road & Racing, « Revival's Top 5 single-seaters » (septembre 2018)
       url: https://www.goodwood.com/grr/event-coverage/goodwood-revival/revivals-top-5-single-seaters/
     - titre: Autosport, GP Racing, « The last great BRM that got Stewart off the mark » (août 2020)
-      url: https://www.autosport.com/f1/feature/10528/the-last-great-brm-that-got-stewart-off-the-mark
+      url: https://www.autosport.com/f1/news/the-last-great-brm-that-got-stewart-off-the-mark-5114216/5114216/
     - titre: oldracingcars.com, Grand Prix de Monaco 1966
       url: https://www.oldracingcars.com/f1/results/1966/monaco/
   - annee: 1966
@@ -429,7 +429,7 @@ technologies:
     pourquoi: 'Semi-monocoque, classé oui : selon F1technical, la 312 de Surtees (Belgique) et de Scarfiotti (Italie) a des panneaux d''aluminium à double paroi rivetés sur une structure tubulaire en acier, l''ensemble étant décrit comme monocoque ; Motor Sport parle en 1967, pour la même architecture, d''un « mélange de monocoque et de structure tubulaire ».'
     sources:
     - titre: F1technical, « Ferrari 312 »
-      url: https://www.f1technical.net/f1db/cars/203
+      url: https://www.f1technical.net/f1db/cars/203/ferrari-312
     - titre: 'Motor Sport, Denis Jenkinson, « 1967 Italian Grand Prix report: Surtees wins as heroic Clark denied » (octobre 1967)'
       url: https://www.motorsportmagazine.com/archive/article/october-1967/16/italian-grand-prix-2/
     - titre: oldracingcars.com, Grand Prix d'Italie 1966
@@ -453,7 +453,7 @@ technologies:
     pourquoi: 'La BT20 (victoire à Monaco, châssis F1-2-66, apparu à Reims en 1966) et la BT24 (trois victoires) ont toutes deux un treillis tubulaire en acier : Motor Sport décrit la première comme un treillis de tubes ronds, et la BT24 comme « toujours un treillis multitubulaire ».'
     sources:
     - titre: 'Motor Sport, Denis Jenkinson, « 1966 French Grand Prix race report: Aussie rules » (août 1966)'
-      url: https://www.motorsportmagazine.com/archive/page/august-1966/15
+      url: https://www.motorsportmagazine.com/archive/article/august-1966/15/the-52nd-grand-prix-of-the-acf/
     - titre: 'Motor Sport, Denis Jenkinson, « 1967 Dutch Grand Prix race report: Lotus back in business » (juillet 1967)'
       url: https://www.motorsportmagazine.com/archive/article/july-1967/28/dutch-grand-prix-5/
     - titre: oldracingcars.com, « Brabham BT24 car-by-car histories »
@@ -520,7 +520,7 @@ technologies:
     pourquoi: 'Semi-monocoque, classé oui : Ickx gagne en France sur la 312/68, dernière évolution de la 312 (1966-1968), dont le châssis est une monocoque de panneaux d''aluminium à double paroi rivetés sur une structure tubulaire en acier.'
     sources:
     - titre: F1technical, « Ferrari 312 »
-      url: https://www.f1technical.net/f1db/cars/203
+      url: https://www.f1technical.net/f1db/cars/203/ferrari-312
     - titre: OldRacingCars, « French Grand Prix 1968 »
       url: https://www.oldracingcars.com/f1/results/1968/france/
   - annee: 1968
@@ -579,7 +579,7 @@ technologies:
     - titre: OldRacingCars, « Matra MS10 car-by-car histories »
       url: https://www.oldracingcars.com/matra/ms10/
     - titre: OldRacingCars, « Matra MS80 car-by-car histories »
-      url: https://oldracingcars.com/matra/ms80
+      url: https://www.oldracingcars.com/matra/ms80/
   - annee: 1969
     ecurie: mclaren
     equipe: McLaren Ford
@@ -632,7 +632,7 @@ technologies:
     pourquoi: 'Semi-monocoque, classé oui : faute de moyens pour une vraie monocoque, la 312B (quatre victoires) habille un treillis tubulaire de panneaux d''aluminium rivetés, l''ensemble formant un semi-monocoque.'
     sources:
     - titre: Autosport, « The Ferrari no one wanted to win the F1 title »
-      url: https://www.autosport.com/f1/feature/9874/the-ferrari-no-one-wanted-to-win-the-f1-title
+      url: https://www.autosport.com/f1/news/the-ferrari-no-one-wanted-to-win-the-f1-title-5113350/5113350/
     - titre: F1technical, « Ferrari 312B »
       url: https://www.f1technical.net/f1db/cars/256/ferrari-312b
   - annee: 1970
@@ -746,7 +746,7 @@ technologies:
     - titre: Revs Institute, « Tyrrell 003 - One of the most successful Formula 1 cars of all time » (avril 2021)
       url: https://automedia.revsinstitute.org/the-iconic-tyrrell-003-one-of-the-most-successful-formula-1-cars-of-all-time
     - titre: OldRacingCars, « Tyrrell 005/006 car-by-car histories »
-      url: https://oldracingcars.com/tyrrell/005/006/
+      url: https://www.oldracingcars.com/tyrrell/005/006/
   - annee: 1973
     ecurie: mclaren
     equipe: McLaren Ford
@@ -755,9 +755,9 @@ technologies:
     pourquoi: Hulme et Revson gagnent trois fois sur la M23, dont la monocoque à double peau en tôle d'aluminium est conçue par Coppuck pour les structures déformables de 1973.
     sources:
     - titre: Autosport, GP Racing, « How McLaren recovered from its greatest tragedy » (décembre 2018)
-      url: https://www.autosport.com/f1/feature/8653/how-mclaren-recovered-from-its-greatest-tragedy
+      url: https://www.autosport.com/f1/news/how-mclaren-recovered-from-its-greatest-tragedy-5111497/5111497/
     - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
-      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
+      url: https://www.autosport.com/f1/news/the-mclaren-that-won-two-drivers-titles-5112268/5112268/
   - annee: 1973
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -775,7 +775,7 @@ technologies:
     pourquoi: Stewart gagne cinq fois sur la 006 (Afrique du Sud, puis Belgique, Monaco, Pays-Bas et Allemagne sur la 006/2), bâtie comme la 005 autour d'une monocoque en baignoire en forme de coin.
     sources:
     - titre: OldRacingCars, « Tyrrell 005/006 car-by-car histories »
-      url: https://oldracingcars.com/tyrrell/005/006/
+      url: https://www.oldracingcars.com/tyrrell/005/006/
     - titre: Motor Sport, Paul Fearnley, « Tyrrell 006 » (décembre 2006)
       url: https://www.motorsportmagazine.com/archive/article/december-2006/59/tyrrell-006/
   - annee: 1974
@@ -799,9 +799,9 @@ technologies:
     - titre: Motor Sport, Denis Jenkinson, « Notes on the cars at Jarama » (juin 1974)
       url: https://www.motorsportmagazine.com/archive/article/june-1974/36/notes-on-the-cars-at-jarama-2/
     - titre: Revs Institute, « Ferrari 312 B3 - How torment, trial, and error built a great race team » (mars 2021)
-      url: https://automedia.revsinstitute.org/?p=87676
+      url: https://automedia.revsinstitute.org/ferrari-312-b3-how-torment-trial-and-error-built-a-great-race-team
     - titre: Autosport, Gary Watkins, « The first 'British' Ferrari » (août 2013)
-      url: https://www.autosport.com/f1/feature/5480/the-first-british-ferrari
+      url: https://www.autosport.com/f1/news/the-first-british-ferrari-5102487/5102487/
   - annee: 1974
     ecurie: mclaren
     equipe: McLaren Ford
@@ -810,9 +810,9 @@ technologies:
     pourquoi: Fittipaldi (trois victoires) et Hulme (une) gagnent sur la M23, à monocoque en aluminium ; Motor Sport détaille à Jarama les M23 de Fittipaldi et de Hulme.
     sources:
     - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
-      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
+      url: https://www.autosport.com/f1/news/the-mclaren-that-won-two-drivers-titles-5112268/5112268/
     - titre: Autosport, GP Racing, « How McLaren recovered from its greatest tragedy » (décembre 2018)
-      url: https://www.autosport.com/f1/feature/8653/how-mclaren-recovered-from-its-greatest-tragedy
+      url: https://www.autosport.com/f1/news/how-mclaren-recovered-from-its-greatest-tragedy-5111497/5111497/
   - annee: 1974
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -887,9 +887,9 @@ technologies:
     pourquoi: Fittipaldi et Mass gagnent sur la M23, dont la monocoque est en double peau de tôle d'aluminium garnie de mousse injectée.
     sources:
     - titre: Motor Sport, Paul Fearnley, « How McLaren crafted James Hunt's title-winning, underrated M23 F1 car » (août 2002)
-      url: https://motorsportmagazine.com/archive/article/august-2002/35/learning-new-tricks
+      url: https://www.motorsportmagazine.com/archive/article/august-2002/35/learning-new-tricks/
     - titre: Autosport, GP Racing, « The McLaren that won two drivers' titles » (mai 2019)
-      url: https://www.autosport.com/f1/feature/9143/the-mclaren-that-won-two-drivers-titles
+      url: https://www.autosport.com/f1/news/the-mclaren-that-won-two-drivers-titles-5112268/5112268/
   - annee: 1975
     ecurie: tyrrell
     equipe: Tyrrell Ford
@@ -914,7 +914,7 @@ technologies:
     - titre: Motor Sport, Jack Phillips, « F1 sprouts wings » (juin 2018)
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-sprouts-wings/
     - titre: Motor Sport, Shaun Campbell, « John Miles drives the Lotus 49 – the car that changed F1 forever » (juillet 1997)
-      url: https://motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever
+      url: https://www.motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever/
   - de: 1969
     a: 2025
     valeur: oui
@@ -925,7 +925,7 @@ technologies:
     - titre: Motor Sport, Denis Jenkinson, « The Monaco Grand Prix » (juin 1969)
       url: https://www.motorsportmagazine.com/archive/article/june-1969/26/the-monaco-grand-prix-4/
     - titre: Autosport, Nigel Roebuck, « When F1 forced an incredible last-minute rule change » (octobre 2017)
-      url: https://www.autosport.com/f1/feature/7768/when-f1-forced-an-incredible-lastminute-rule-change
+      url: https://www.autosport.com/f1/news/when-f1-forced-an-incredible-last-minute-rule-change-5110058/5110058/
   cas:
   - annee: 1968
     ecurie: ferrari
@@ -981,7 +981,7 @@ technologies:
     pourquoi: Clark (Afrique du Sud) et Hill (Espagne, sur la 49 R1) gagnent sans appendice aérodynamique ; la 49B, dévoilée à Monaco, porte des ailerons de nez et une poupe en coin conçue pour l'appui, puis un grand aileron sur supports (Siffert en Grande-Bretagne, Hill au Mexique). En lecture stricte (aileron arrière), l'adoption daterait du Grand Prix de Grande-Bretagne.
     sources:
     - titre: Motor Sport, « The car that changed Formula One forever » (juillet 1997)
-      url: https://motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever
+      url: https://www.motorsportmagazine.com/archive/article/july-1997/98/the-car-that-changed-formula-one-forever/
     - titre: Motor Sport, « Spanish Grand Prix » (juin 1968)
       url: https://www.motorsportmagazine.com/archive/article/june-1968/13/spanish-grand-prix-6/
     - titre: OldRacingCars, « Spanish Grand Prix 1968 »
@@ -1016,7 +1016,7 @@ technologies:
     - titre: 'Motor Sport, Andrew Frankel, « The simply brilliant Brabham BT49: F1 track test » (mai 1999)'
       url: https://www.motorsportmagazine.com/archive/article/may-1999/46/simply-the-best
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: OldRacingCars.com, « Tyrrell 011 car-by-car histories »
       url: https://www.oldracingcars.com/tyrrell/011/
     - titre: Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment »
@@ -1043,7 +1043,7 @@ technologies:
     - titre: 'Formula1.com, « Re-writing the F1 rule book – Part 1: from wing cars to flat bottoms » (février 2017)'
       url: https://www.formula1.com/en/latest/article/re-writing-the-f1-rule-book-part-1-from-wing-cars-to-flat-bottoms.EJZ73Lnn0c6EgcMKMAWOU
     - titre: 'The Race, Edd Straw, « Newey: F1 2022 rule changes the biggest in four decades » (août 2021)'
-      url: https://the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
+      url: https://www.the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
   - de: 2022
     a: 2025
     valeur: oui
@@ -1052,7 +1052,7 @@ technologies:
     - titre: Honda, « 2022 Oracle Red Bull Racing RB18 » (F1 Machines Powered by Honda)
       url: https://global.honda/en/F1/machine/2022_RedBullRB18/
     - titre: 'The Race, Edd Straw, « Newey: F1 2022 rule changes the biggest in four decades » (août 2021)'
-      url: https://the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
+      url: https://www.the-race.com/formula-1/newey-f1-2022-rule-changes-the-biggest-in-four-decades/
     - titre: Motorsport.com, « This is every Mercedes Formula 1 car » (janvier 2026)
       url: https://www.motorsport.com/f1/galleries/alle-formel-1-autos-von-mercedes/11289/
   cas:
@@ -1068,7 +1068,7 @@ technologies:
     - titre: RM Sotheby's, « 1979 Ferrari 312 T4 » (Monaco 2024)
       url: https://rmsothebys.com/auctions/mc24/lots/r0013-1979-ferrari-312-t4
     - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
-      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
+      url: https://www.hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume/
   - annee: 1977
     ecurie: ligier
     equipe: Ligier Matra
@@ -1079,7 +1079,7 @@ technologies:
     - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
       url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
     - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
-      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
+      url: https://www.hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume/
     - titre: OldRacingCars, « Ligier JS7 car-by-car histories »
       url: https://www.oldracingcars.com/ligier/js7/
   - annee: 1977
@@ -1101,7 +1101,7 @@ technologies:
     - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
       url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
     - titre: Hagerty, Bryan Gerould, « This F1 Title-Winning, $8.2M Ferrari Has One Hell of a Resume » (mai 2024)
-      url: https://hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume
+      url: https://www.hagerty.co.uk/articles/this-f1-title-winning-8-2m-ferrari-has-one-hell-of-a-resume/
     - titre: OldRacingCars, « Shadow DN8 car-by-car histories »
       url: https://www.oldracingcars.com/shadow/dn8/
   - annee: 1977
@@ -1136,7 +1136,7 @@ technologies:
     - titre: OldRacingCars.com, « Swedish Grand Prix 1978 »
       url: https://www.oldracingcars.com/f1/results/1978/sweden/
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: 8W (Forix), Darren Galpin, « Ground Effect and the Fan Car » (mai 1999)
       url: https://8w.forix.com/fancar.html
     - titre: Motor Sport, Gordon Cruickshank, « Brabham BT46B » (mars 2001)
@@ -1170,7 +1170,7 @@ technologies:
     - titre: 'Motor Sport, Keith Howard, « Lotus 78: the car that started F1''s ground-effect revolution » (août 2007)'
       url: https://www.motorsportmagazine.com/archive/article/august-2007/72/ground-force/
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: Motor Sport, Denis Jenkinson, « 1978 Belgian Grand Prix race report » (juillet 1978)
       url: https://www.motorsportmagazine.com/archive/article/july-1978/54/de-grote-prijs-van-belgie
     - titre: OldRacingCars.com, « Argentinian Grand Prix 1978 »
@@ -1211,7 +1211,7 @@ technologies:
     pourquoi: La JS11 reprend le principe de la Lotus 79 en mieux (« Ligier essentially did the Lotus 79, but better ») ; elle gagne les trois courses Ligier de 1979, dont les deux premières manches.
     sources:
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: OldRacingCars.com, « Argentinian Grand Prix 1979 »
       url: https://www.oldracingcars.com/f1/results/1979/argentina/
   - annee: 1979
@@ -1235,7 +1235,7 @@ technologies:
     - titre: OldRacingCars.com, « Williams FW07 car-by-car histories »
       url: https://www.oldracingcars.com/williams/fw07/
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: 'Motor Sport, Doug Nye, « How Williams built its first F1 world title winner: the game-changing FW07 » (octobre 2019)'
       url: https://www.motorsportmagazine.com/archive/article/october-2019/116/williams-fw07-tech
 - id: turbo
@@ -1258,7 +1258,7 @@ technologies:
     - titre: Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)
       url: https://global.honda/en/F1/machine/1989_McLarenHondaMP45/
     - titre: Autosport, Craig Scarborough, « F1's 2014 turbo engines explained » (janvier 2014)
-      url: https://www.autosport.com/f1/feature/5806/f1-2014-turbo-engines-explained
+      url: https://www.autosport.com/f1/news/f1s-2014-turbo-engines-explained-5102962/5102962/
     - titre: FIA, « 2014 F1 Power Unit Guide »
       url: https://www.fia.com/news/2014-f1-power-unit-guide
   - de: 2014
@@ -1398,7 +1398,7 @@ technologies:
     pourquoi: 'La JS11 est motorisée par le Ford Cosworth DFV, un V8 atmosphérique : en 1979, seul le V6 Renault est turbo.'
     sources:
     - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-      url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
     - titre: Motor Sport, Denis Jenkinson, « 1979 South African Grand Prix race report » (avril 1979)
       url: https://www.motorsportmagazine.com/archive/article/april-1979/77/south-african-grand-prix-4
     - titre: Motor Sport, Karl Ludvigsen, « When Renault ruled F1 » (octobre 2025)
@@ -1593,7 +1593,7 @@ technologies:
     - titre: Artcurial, « 1982 Renault RE 30-B9 Formule 1 » (vente aux enchères)
       url: https://www.artcurial.com/en/sales/6445/lots/92-a
     - titre: GrandPrix.com, « Renault » (encyclopédie des constructeurs)
-      url: https://www.grandprix.com/gpe/con-renau.html
+      url: https://www.grandprix.com/constructors/renault-f1.html
   - annee: 1982
     ecurie: team-lotus
     equipe: Lotus Ford
@@ -1740,7 +1740,7 @@ technologies:
     pourquoi: La FW09 est la première Williams à moteur turbo, le V6 Honda ; victoire à Dallas.
     sources:
     - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
-      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/10373506/
     - titre: Motor Sport, Denis Jenkinson, « Notes on the Cars at Zolder and Imola » (juin 1984)
       url: https://www.motorsportmagazine.com/archive/article/june-1984/30/notes-on-the-cars-at-zolder-and-imola/
     - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
@@ -1853,7 +1853,7 @@ technologies:
     - titre: 'Motor Sport, Alan Henry, « Formula One: 1987 Brazilian GP » (mai 1987)'
       url: https://www.motorsportmagazine.com/archive/article/may-1987/9/a-joy-to-behold/
     - titre: 'McLaren, « Alain''s record breaking year: How the MP4/4''s lesser-known predecessor helped Le Prof » (septembre 2017)'
-      url: https://www.mclaren.com/racing/heritage/driver/alain-prost/alains-record-breaking-year-mp43-2119871/
+      url: https://www.mclaren.com/racing/heritage/formula-1/drivers/alain-prost/alains-record-breaking-year-mp43-2119871/
   - annee: 1987
     ecurie: team-lotus
     equipe: Lotus Honda
@@ -2019,7 +2019,7 @@ technologies:
     pourquoi: 'La fiche technique d''Autosport, qui vaut pour les BT49, BT49C et BT49D, décrit une monocoque en alliage d''aluminium renforcée de fibre de carbone : ce n''est pas une coque carbone.'
     sources:
     - titre: Autosport, GP Racing, « The car that revived Brabham as an F1 force » (août 2019)
-      url: https://www.autosport.com/f1/feature/9393/the-car-that-revived-brabham-as-an-f1-force
+      url: https://www.autosport.com/f1/news/the-car-that-revived-brabham-as-an-f1-force-5112626/5112626/
   - annee: 1982
     ecurie: ferrari
     equipe: Ferrari
@@ -2150,7 +2150,7 @@ technologies:
     - titre: Autosport (GP Racing), Damien Smith, « The low-downforce car that introduced F1 to Senna » (septembre 2018)
       url: https://www.autosport.com/f1/news/the-low-downforce-car-that-introduced-f1-to-senna-5111153/5111153/
     - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
-      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
   - annee: 1984
     ecurie: brabham
     equipe: Brabham BMW
@@ -2192,7 +2192,7 @@ technologies:
     pourquoi: Monocoque traditionnelle en nid d'abeille d'aluminium avec quelques inserts en carbone ; Williams ne passe au tout composite qu'avec la FW10 de 1985.
     sources:
     - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
-      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
+      url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/10373506/
     - titre: Honda, « 1984 Williams Honda FW09 » (F1 Machines Powered by Honda)
       url: https://global.honda/en/F1/machine/1984_WilliamsHondaFW09/
   - annee: 1985
@@ -2306,9 +2306,9 @@ technologies:
     - titre: Bonhams, « The ex-Damon Hill 1994 Williams-Renault FW16B, chassis no. FW16B-05 » (Williams F1 Reserve Collection, 14 décembre 2005)
       url: https://cars.bonhams.com/auction/13928/lot/210/the-ex-damon-hill-nine-grand-prix-races-four-grands-prix-winning-one-pole-position-four-fastest-laps-and-world-championship-losing1994-williams-renault-fw16b-formula-1-racing-single-seater-chassis-no-fw16b-05/
     - titre: The Race, Edd Straw, « Active suspension is the fix F1 teams need – but won't get » (3 mars 2022)
-      url: https://the-race.com/formula-1/active-suspension-is-the-fix-f1-teams-need-but-wont-get/
+      url: https://www.the-race.com/formula-1/active-suspension-is-the-fix-f1-teams-need-but-wont-get/
     - titre: 'Motor Sport, Mark Hughes, « MPH: push-to-pass and active suspension, the talk around F1''s next-gen car » (5 avril 2024)'
-      url: https://motorsportmagazine.com/articles/single-seaters/f1/mph-push-to-pass-and-active-suspension-the-talk-around-f1s-next-gen-car
+      url: https://www.motorsportmagazine.com/articles/single-seaters/f1/mph-push-to-pass-and-active-suspension-the-talk-around-f1s-next-gen-car/
   cas:
   - annee: 1987
     ecurie: ferrari
@@ -2411,7 +2411,7 @@ technologies:
     - titre: Motor Sport, Keith Howard, « X-ray spec — Ferrari 640 » (juin 2005)
       url: https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/
     - titre: 'Motor Sport, James Elson, « Ferrari''s 640: the 1989 flawed masterpiece ''that''s still influencing F1 design'' » (juin 2022)'
-      url: https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design
+      url: https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/
     - titre: RM Sotheby's, « 1989 Ferrari F1-89 Formula One », vente de Monaco, lot 176 (mai 2014)
       url: https://rmsothebys.com/auctions/mc14/lots/r168-1989-ferrari-f189-formula-one/
     - titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari 640 F1 », fiche technique (janvier 2010)
@@ -2666,7 +2666,7 @@ technologies:
     - titre: Goodwood, « Gerhard Berger on the flawed genius of his 1989 Ferrari 640 » (avril 2024)
       url: https://www.goodwood.com/grr/event-coverage/members-meeting/gerhard-berger-on-the-flawed-genius-of-his-1989-ferrari-640/
     - titre: Motor Sport, David Tremayne, « 1989 French Grand Prix race report » (août 1989)
-      url: https://www.motorsportmagazine.com/archive/page/august-1989/18
+      url: https://www.motorsportmagazine.com/archive/article/august-1989/18/formula-one-french-gp-2/
   - annee: 1989
     ecurie: mclaren
     equipe: McLaren Honda
@@ -2821,7 +2821,7 @@ technologies:
     - titre: Motor Sport, David Tremayne, « Preview » (mars 1993)
       url: https://www.motorsportmagazine.com/archive/article/march-1993/10/preview/
     - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
-      url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+      url: https://rmsothebys.com/auctions/pa19/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/
     - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
       url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
   - annee: 1993
@@ -2854,7 +2854,7 @@ technologies:
     pourquoi: Le volant de Schumacher vendu par RM Sotheby's, utilisé sur la B193B puis la B194, commandait la boîte par palettes. Ultimatecarpage décrit le V8 Ford Zetec-R de la B194 accouplé à une boîte à six rapports commandée par palettes.
     sources:
     - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
-      url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+      url: https://rmsothebys.com/auctions/pa19/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/
     - titre: Ultimatecarpage.com, Wouter Melissen, « Benetton B194 Ford » (décembre 2019)
       url: https://www.ultimatecarpage.com/car/7096/Benetton-B194-Ford.html
   - annee: 1994
@@ -3130,7 +3130,7 @@ technologies:
     pourquoi: 'La fiche technique de l''E21 dans la base de F1Technical décrit son KERS : un moteur-générateur fourni par Renault Sport F1, entraîné par l''avant du moteur et alimenté par des batteries.'
     sources:
     - titre: F1Technical, « Lotus E21 Renault » (base de données)
-      url: https://www.f1technical.net/f1db/cars/1000
+      url: https://www.f1technical.net/f1db/cars/1000/lotus-e21
   - annee: 2013
     ecurie: mercedes
     equipe: Mercedes
@@ -3139,7 +3139,7 @@ technologies:
     pourquoi: La fiche de la F1 W04 dans la base de F1Technical précise que Mercedes AMG High Performance Powertrains fournit le moteur et le KERS, un moteur-générateur électrique monté sur le moteur avec ses cellules de stockage.
     sources:
     - titre: F1Technical, « Mercedes AMG F1 W04 » (base de données)
-      url: https://www.f1technical.net/f1db/cars/1005
+      url: https://www.f1technical.net/f1db/cars/1005/mercedes-amg-f1-w04
   - annee: 2013
     ecurie: red-bull
     equipe: Red Bull Racing Renault

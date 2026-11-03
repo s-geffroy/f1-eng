@@ -9,15 +9,15 @@ lignees: []
 voir_aussi: ["mauro-forghieri", "vittorio-jano"]
 sources:
   - titre: "GrandPrix.com, « Franco Rocchi » (1996)"
-    url: "https://grandprix.com/news/franco-rocchi.html"
+    url: "https://www.grandprix.com/news/franco-rocchi.html"
   - titre: "Motor Sport Magazine, « The flat 12 engine that powered Ferrari to '70s F1 triumph » (novembre 2021)"
-    url: "https://motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph"
+    url: "https://www.motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph/"
   - titre: "Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T »"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
   - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris »"
     url: "https://www.formula1.com/en/latest/article/obituary-mauro-forghieri-technical-genius-behind-some-of-formula-1s-greatest.67IR5vwYq73vG9mhaKYd3N"
   - titre: "Motor Sport Magazine, « Demeaning of Life » (septembre 2000)"
-    url: "https://www.motorsportmagazine.com/archive/page/september-2000/91"
+    url: "https://www.motorsportmagazine.com/archive/article/september-2000/91/demeaning-of-life/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/franco-rocchi.jpg"
 ---

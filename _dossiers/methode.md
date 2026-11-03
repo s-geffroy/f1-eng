@@ -103,7 +103,7 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
 - Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport, Doug Nye, « Lotus 78: F1's first true ground effect car » (février 2020) : <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
-- GrandPrix.com, « Tony Southgate » : <https://grandprix.com/people/tony-southgate.html>
+- GrandPrix.com, « Tony Southgate » : <https://www.grandprix.com/people/tony-southgate.html>
 - Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 

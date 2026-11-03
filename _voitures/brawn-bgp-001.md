@@ -18,7 +18,7 @@ sources:
   - titre: "Goodwood, « Before Brawn: the F1 car Honda would have made » (janvier 2026)"
     url: "https://www.goodwood.com/grr/f1/before-brawn-the-f1-car-honda-would-have-made/"
   - titre: "Jonathan Noble, Autosport, « FIA declares double diffusers legal » (avril 2009)"
-    url: "https://www.autosport.com/f1/news/74475/fia-declares-double-diffusers-legal"
+    url: "https://www.autosport.com/f1/news/fia-declares-double-diffusers-legal-4429235/4429235/"
   - titre: "Motor Sport Magazine, « Teams in double diffuser race » (juin 2009)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2009/10/teams-double-diffuser-race/"
   - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history »"

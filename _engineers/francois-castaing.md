@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["bernard-dudot", "jean-terramorsi"]
 sources:
   - titre: "GrandPrix.com, “François Castaing”"
-    url: "https://grandprix.com/people/francois-castaing.html"
+    url: "https://www.grandprix.com/people/francois-castaing.html"
   - titre: "Motor Sport Magazine, “Renault blew it! The pioneering F1 turbo that failed Prost in title bid” (December 2024)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2024/38/renault-blew-it-the-pioneering-f1-turbo-that-failed-prost-in-title-bid/"
   - titre: "Motor Sport Magazine, “Renault-Alpine's 1978 Le Mans 24 Hours win: All for one” (June 2003)"

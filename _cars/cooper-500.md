@@ -12,11 +12,11 @@ termes: ["moteur-central-arriere", "moment-polaire"]
 jalons: ["cooper-500"]
 sources:
   - titre: "500 Owners Association, “1946 Prototype (T2/T3)”"
-    url: "https://500race.org/?p=3845"
+    url: "https://500race.org/marques/1946-prototype-t2-t3/"
   - titre: "Doug Nye, Goodwood, “The rise and fall of the single-seater Cooper”"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
   - titre: "Nigel Roebuck, Motor Sport Magazine, “Legends” (October 2005)"
-    url: "https://www.motorsportmagazine.com/archive/article/october-2005/14/nigel-roebucks-legends"
+    url: "https://www.motorsportmagazine.com/archive/article/october-2005/14/nigel-roebucks-legends-18/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/voitures/cooper-500.jpg"
 ---

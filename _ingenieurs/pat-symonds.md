@@ -9,11 +9,11 @@ lignees: []
 voir_aussi: ["rory-byrne", "ross-brawn", "john-gentry"]
 sources:
   - titre: "GrandPrix.com, « Pat Symonds »"
-    url: "https://grandprix.com/people/pat-symonds.html"
+    url: "https://www.grandprix.com/people/pat-symonds.html"
   - titre: "Formula 1, Matt Youson, « Imola ‘94 and the lasting safety legacy » (mai 2019)"
     url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - titre: "Edd Straw, Autosport, « Pat Symonds replaces Mike Coughlan at Williams Formula 1 team » (juillet 2013)"
-    url: "https://www.autosport.com/f1/news/108806/symonds-replaces-coughlan-at-williams"
+    url: "https://www.autosport.com/f1/news/pat-symonds-replaces-mike-coughlan-at-williams-formula-1-team-4466523/4466523/"
   - titre: "Jonathan Noble, Motorsport.com, « F1 technical chief Pat Symonds to leave role » (mai 2024)"
     url: "https://au.motorsport.com/f1/news/f1-technical-chief-pat-symonds-to-leave-role/10613566/"
 consultation: "26 octobre 2026"

@@ -17,9 +17,9 @@ sources:
   - titre: "Keith Howard, Motor Sport Magazine, “Active suspension” (December 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
   - titre: "GrandPrix.com, “Frank Dernie”"
-    url: "https://grandprix.com/people/frank-dernie.html"
+    url: "https://www.grandprix.com/people/frank-dernie.html"
   - titre: "Motor Sport Magazine, “Sir Patrick Head: The Motor Sport Interview” (April 2022)"
-    url: "https://motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview"
+    url: "https://www.motorsportmagazine.com/archive/article/april-2022/45/sir-patrick-head-the-motor-sport-interview/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/frank-dernie.jpg"
 ---

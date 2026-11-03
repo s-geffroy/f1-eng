@@ -16,7 +16,7 @@ sources:
   - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper »"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
   - titre: "Revs Institute, « Lotus Type 72 »"
-    url: "https://automedia.revsinstitute.org/?p=88902"
+    url: "https://automedia.revsinstitute.org/lotus-72-cosworth-the-remarkable-story-of-the-long-lived-legend"
 photo:
   fichier: "/assets/voitures/cooper-t51.jpg"
   legende: "La Cooper T51 de Jack Brabham (1959), exposée."

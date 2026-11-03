@@ -17,7 +17,7 @@ sources:
   - titre: "Formula 1, “DAS explained: What we know so far about Mercedes' trick new steering system” (February 2020)"
     url: "https://www.formula1.com/en/latest/article/das-explained-what-we-know-so-far-about-mercedes-trick-new-steering-system.4vgDQ6cc20xUfhdZGT0ejB"
   - titre: "Edd Straw, The Race, “Mercedes reveals FIA rejected lever-based 2019 DAS design” (June 2020)"
-    url: "https://the-race.com/formula-1/mercedes-reveals-fia-rejected-lever-based-2019-das-design"
+    url: "https://www.the-race.com/formula-1/mercedes-reveals-fia-rejected-lever-based-2019-das-design/"
 consultation: "26 October 2026"
 image: "/assets/partage/en/james-allison.jpg"
 ---

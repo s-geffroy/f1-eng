@@ -9,13 +9,13 @@ lignees: []
 voir_aussi: ["john-barnard", "adrian-newey"]
 sources:
   - titre: "GrandPrix.com, « Gustav Brunner »"
-    url: "https://grandprix.com/people/gustav-brunner.html"
+    url: "https://www.grandprix.com/people/gustav-brunner.html"
   - titre: "Adam Cooper, Autosport, « Gustav Brunner Q&A » (juillet 2001)"
     url: "https://www.autosport.com/f1/news/gustav-brunner-qa-4996015/4996015/"
   - titre: "Crash.net, « Brunner revealed as new Toyota designer » (2001)"
     url: "https://www.crash.net/f1/news/38545/1/brunner-revealed-as-new-toyota-designer"
   - titre: "Crash.net, « Brunner leaves Toyota »"
-    url: "https://crash.net/f1/news/54393/1/brunner-leaves-toyota"
+    url: "https://www.crash.net/f1/news/54393/1/brunner-leaves-toyota"
   - titre: "Craig Scarborough, Atlas F1 (Autosport), « Making Something out of Nothing » (décembre 2004)"
     url: "https://atlasf1.autosport.com/2004/dec15/scarborough.html"
   - titre: "Atlas F1 (Autosport), « Q&A With Gustav Brunner » (août 2001)"

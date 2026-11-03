@@ -88,7 +88,7 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
 - Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
-- Autosport, Matt Somerfield, « Banned: The ingenious twin-chassis Lotus F1 car » (avril 2020) : <https://www.autosport.com/news/report.php/id/149000>
+- Autosport, Matt Somerfield, « Banned: The ingenious twin-chassis Lotus F1 car » (avril 2020) : <https://www.autosport.com/f1/news/banned-the-ingenious-twin-chassis-lotus-f1-car-4983190/4983190/>
 - Motor Sport, Graham Keilloh, « Watch Lotus's last great Formula 1 innovation » (mars 2019) : <https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation>
 - Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
 - Formula 1, « Adrian Newey's Red Bull exit is confirmed – what next for the star designer? » : <https://www.formula1.com/en/latest/article/analysis-adrian-neweys-red-bull-exit-is-confirmed-what-next-for-the-star.461uBy91tP22ooEFMTQuBd>

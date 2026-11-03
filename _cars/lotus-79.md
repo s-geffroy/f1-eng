@@ -18,9 +18,9 @@ sources:
   - titre: "James Page, Classic & Sports Car, “Motorsport memories: the ground-effect era” (December 2018)"
     url: "https://www.classicandsportscar.com/features/motorsport-memories-ground-effect-era"
   - titre: "GrandPrix.com, “Ralph Bellamy”"
-    url: "https://grandprix.com/people/ralph-bellamy.html"
+    url: "https://www.grandprix.com/people/ralph-bellamy.html"
   - titre: "GrandPrix.com, “Tony Southgate”"
-    url: "https://grandprix.com/people/tony-southgate.html"
+    url: "https://www.grandprix.com/people/tony-southgate.html"
 photo:
   fichier: "/assets/voitures/lotus-79.jpg"
   legende: "Mario Andretti in the Lotus 79 at the 1978 British Grand Prix."

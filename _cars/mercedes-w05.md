@@ -14,7 +14,7 @@ sources:
   - titre: "GrandPrix.com, “Designer doubts Mercedes to dominate” (March 2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
   - titre: "Formula 1, “Mercedes Technical Advisor Costa to join Dallara for 2020” (September 2019)"
-    url: "https://www.formula1.com/en/latest/article.costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43.html"
+    url: "https://www.formula1.com/en/latest/article/costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43"
   - titre: "Formula 1, “Ross Brawn reveals his favourite car designs” (January 2026)"
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
   - titre: "Matt Somerfield, Motorsport.com, “The car that set the tone for Mercedes' F1 dominance” (January 2021)"

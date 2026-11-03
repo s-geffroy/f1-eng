@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["john-barnard", "steve-nichols"]
 sources:
   - titre: "GrandPrix.com, « Alan Jenkins »"
-    url: "https://grandprix.com/people/alan-jenkins.html"
+    url: "https://www.grandprix.com/people/alan-jenkins.html"
   - titre: "GrandPrix.com, nouvelles du 8 janvier 1996"
     url: "https://www.grandprix.com/ns/ns00422.html"
   - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
@@ -17,7 +17,7 @@ sources:
   - titre: "Formula 1, « David Tremayne on the 5 most bizarre F1 car launches he's seen »"
     url: "https://www.formula1.com/en/latest/article/david-tremayne-on-the-5-most-bizarre-f1-car-launches-hes-seen.6EpESfxyT1cLxulW5afX1B"
   - titre: "GrandPrix.com, « Stewart »"
-    url: "https://www.grandprix.com/gpe/con-stewa.html"
+    url: "https://www.grandprix.com/constructors/stewart-grand-prix.html"
   - titre: "Joe Saward, GrandPrix.com, « News feature: Inside Stewart Grand Prix »"
     url: "https://www.grandprix.com/features/joe-saward/news-feature-inside-stewart-grand-prix.html"
 consultation: "25 octobre 2026"

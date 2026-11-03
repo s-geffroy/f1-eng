@@ -12,9 +12,9 @@ termes: ["aileron", "drs", "diffuseur", "ravitaillement"]
 jalons: ["f-duct"]
 sources:
   - titre: "Matt Somerfield, Autosport, “Banned: The 2010 Formula 1 season's F-duct” (April 2020)"
-    url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
+    url: "https://www.autosport.com/f1/news/banned-the-2010-formula-1-seasons-f-duct-4983082/4983082/"
   - titre: "Jonathan Noble, Autosport, “McLaren upbeat on 2011 car progress” (December 2010)"
-    url: "https://www.autosport.com/f1/news/88611/mclaren-upbeat-on-2011-car-progress"
+    url: "https://www.autosport.com/f1/news/mclaren-upbeat-on-2011-car-progress-4443750/4443750/"
   - titre: "GrandPrix.com, “McLaren: Original thinking” (February 2011)"
     url: "https://www.grandprix.com/features/2010-grand-prix-review-mclaren-original-thinking.html"
   - titre: "McLaren, “Vodafone McLaren Mercedes MP4-25 Press Pack” (January 2010, archived copy)"

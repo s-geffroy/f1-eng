@@ -9,9 +9,9 @@ lignees: []
 voir_aussi: ["peter-wright", "colin-chapman", "ralph-bellamy"]
 sources:
   - titre: "GrandPrix.com, “Tony Southgate”"
-    url: "https://grandprix.com/people/tony-southgate.html"
+    url: "https://www.grandprix.com/people/tony-southgate.html"
   - titre: "Motor Sport Magazine, “Knowing Colin Chapman: 15 wild months at 'madhouse' Lotus”"
-    url: "https://motorsportmagazine.com/articles/single-seaters/f1/knowing-colin-chapman-15-wild-months-at-madhouse-lotus"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/knowing-colin-chapman-15-wild-months-at-madhouse-lotus/"
   - titre: "Graham Keilloh, Autosport, “The failed gamble that began an F1 team's downfall” (2019)"
     url: "https://www.autosport.com/general/news/the-failed-gamble-that-began-an-f1-teams-downfall-5112840/5112840/"
   - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”"

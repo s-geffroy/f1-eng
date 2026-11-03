@@ -28,7 +28,7 @@ sources:
   - titre: "Adam Cooper, Autosport, “Tech secrets of a Formula 1 legend” (January 2017)"
     url: "https://www.autosport.com/f1/news/tech-secrets-of-a-formula-1-legend-5109336/5109336/"
   - titre: "GrandPrix.com, “Frank Dernie”"
-    url: "https://grandprix.com/people/frank-dernie.html"
+    url: "https://www.grandprix.com/people/frank-dernie.html"
 photo:
   fichier: "/assets/voitures/williams-fw14b.jpg"
   legende: "Nigel Mansell in the FW14B at the 1992 German Grand Prix, Hockenheim."

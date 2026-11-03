@@ -52,7 +52,7 @@
   - titre: "Motor Sport Magazine, “Something in the air” (July 2014)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2014/149/something-air/"
   - titre: "Motor Sport Magazine, 1981 F1 world championship"
-    url: "https://www.motorsportmagazine.com/database/championships/f1/1981-f1-world-championship"
+    url: "https://www.motorsportmagazine.com/database/championships/1981-f1-world-championship/"
 - id: "venturi"
   terme: "Venturi"
   motifs:
@@ -79,7 +79,7 @@
   - titre: "Formula 1, “TECH TUESDAY: The Lotus 79, F1's ground effect marvel”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw"
   - titre: "Motor Sport Magazine, 1981 F1 world championship"
-    url: "https://www.motorsportmagazine.com/database/championships/f1/1981-f1-world-championship"
+    url: "https://www.motorsportmagazine.com/database/championships/1981-f1-world-championship/"
 - id: "fond-plat"
   terme: "Flat bottom"
   motifs:
@@ -94,7 +94,7 @@
   - titre: "Formula 1, “TECH TUESDAY: France flashback – how F1 looked in 1990”"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG"
   - titre: "Patrick Head, Motor Sport Magazine, “Mansell's perfect ride” (March 2012)"
-    url: "https://motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride"
+    url: "https://www.motorsportmagazine.com/archive/article/march-2012/66/mansells-perfect-ride/"
 - id: "voiture-aile"
   terme: "Wing car"
   motifs:
@@ -190,7 +190,7 @@
   - titre: "Motor Sport Magazine, “A new frame of reference” (May 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
   - titre: "Motor Sport Magazine, “Classified spotlight: Cooper T51”"
-    url: "https://motorsportmagazine.com/articles/single-seaters/f1/classified-spotlight-cooper-t51"
+    url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/classified-spotlight-cooper-t51/"
 - id: "nid-d-abeille"
   terme: "Honeycomb"
   motifs:
@@ -249,7 +249,7 @@
   - titre: "Motor Sport Magazine, “The Lotus 49” (July 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
   - titre: "Motor Sport Magazine, “Lancia D50 re-creations nearing completion” (October 1999)"
-    url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
+    url: "https://www.motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion/"
 - id: "moteur-central-arriere"
   terme: "Mid-engine layout"
   motifs:
@@ -283,7 +283,7 @@
   - titre: "Motor Sport Magazine, “Gordon Murray: I wish I'd designed the… Cooper T51/53” (June 2000)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2000/88/cooper-t5153/"
   - titre: "Paul Fearnley, Motor Sport Magazine, “The March 721G F1 car that almost ended Niki Lauda's career” (March 2009)"
-    url: "https://motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot"
+    url: "https://www.motorsportmagazine.com/archive/article/march-2009/49/g-hits-spot/"
 - id: "centralisation-des-masses"
   terme: "Mass centralisation"
   motifs:
@@ -324,11 +324,11 @@
   - titre: "Formula 1, glossary F-J"
     url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
   - titre: "Motor Sport Magazine, “Ferrari's 640: the 1989 flawed masterpiece” (June 2022)"
-    url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
+    url: "https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/"
   - titre: "Motor Sport Magazine, “X-ray spec: Ferrari 640” (June 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
   - titre: "Motorsport.com, “The troubled car that was a game changer for F1” (2021)"
-    url: "https://us.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801237/"
+    url: "https://www.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801236/"
 - id: "turbocompresseur"
   terme: "Turbocharger"
   motifs:
@@ -384,7 +384,7 @@
   - titre: "Goodwood, Simon Ostler, “The best F1 engine eras ranked” (October 2022)"
     url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
   - titre: "Motor Sport Magazine, “The flat 12 engine that powered Ferrari to '70s F1 triumph” (November 2021)"
-    url: "https://motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph"
+    url: "https://www.motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph/"
   - titre: "Formula 1, glossary F-J"
     url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
 
@@ -402,7 +402,7 @@
   - "gordon-murray"
   sources:
   - titre: "Motor Sport Magazine, “The flat 12 engine that powered Ferrari to '70s F1 triumph” (November 2021)"
-    url: "https://motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph"
+    url: "https://www.motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph/"
   - titre: "The Race, “Nine things you may not know about Brabham's iconic F1 fan car”"
     url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car"
 - id: "groupe-propulseur-hybride"
@@ -423,9 +423,9 @@
   - titre: "Formula 1, glossary K-O"
     url: "https://www.formula1.com/en/latest/article/f1-glossary-k-o.6g2hrWHA2pyxbXoe8FT9Db"
   - titre: "Autosport, “Mercedes turbo not game-changing”"
-    url: "https://www.autosport.com/f1/news/114013/mercedes-turbo-not-gamechanging"
+    url: "https://www.autosport.com/f1/news/renault-says-mercedes-turbo-concept-is-not-game-changing-in-f1-4993078/4993078/"
   - titre: "Motor Sport Magazine, “Hall of Fame: Andy Cowell” (February 2020)"
-    url: "https://motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell"
+    url: "https://www.motorsportmagazine.com/archive/article/february-2020/92/hall-of-fame-cowell/"
   - titre: "Formula 1, glossary F-J"
     url: "https://www.formula1.com/en/latest/article/f1-glossary-f-j.2g6grJVxT6dFCDpSmgoCQX"
 
@@ -462,7 +462,7 @@
   - titre: "Keith Howard, Motor Sport Magazine, “X-ray spec: McLaren M19” (January 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2005/64/x-ray-spec-mclaren-m19/"
   - titre: "Goodwood, “The BT44 was Gordon Murray's first great innovation”"
-    url: "https://goodwood.com/grr/f1/the-bt44-was-gordon-murrays-first-great-innovation"
+    url: "https://www.goodwood.com/grr/f1/the-bt44-was-gordon-murrays-first-great-innovation/"
 - id: "aileron"
   terme: "Wing"
   motifs:
@@ -531,7 +531,7 @@
   - titre: "Autosport, Matt Somerfield and Giorgio Piola, “Banned: When exhaust-blown diffusers reigned supreme” (May 2020)"
     url: "https://www.autosport.com/f1/news/banned-when-exhaust-blown-diffusers-reigned-supreme-4982364/4982364/"
   - titre: "Motor Sport Magazine, “Blown and exhausted: why detail matters” (July 2024)"
-    url: "https://motorsportmagazine.com/archive/article/july-2024/156/blown-and-exhausted-why-detail-matters"
+    url: "https://www.motorsportmagazine.com/archive/article/july-2024/156/blown-and-exhausted-why-detail-matters/"
   - titre: "Formula 1, Edd Straw, “An innovator and trendsetter – Adrian Newey's greatest F1 contributions” (May 2024)"
     url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
 
@@ -549,7 +549,7 @@
   - titre: "The Race, “Nine things you may not know about Brabham's iconic F1 fan car”"
     url: "https://www.the-race.com/formula-1/nine-things-you-may-not-know-about-brabhams-iconic-f1-fan-car"
   - titre: "Motor Sport Magazine, “Vacuum clean-up” (May 1998)"
-    url: "https://www.motorsportmagazine.com/archive/page/may-1998/65"
+    url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean/"
 - id: "antipatinage"
   terme: "Traction control"
   motifs:
@@ -579,7 +579,7 @@
   - titre: "Motor Sport Magazine, “Lunch with… Frank Dernie” (August 2016)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/"
   - titre: "Jalopnik, Elizabeth Blackstock, “Formula One Telemetry: Explained” (December 2020)"
-    url: "https://jalopnik.com/formula-one-telemetry-explained-1845819678/"
+    url: "https://www.jalopnik.com/formula-one-telemetry-explained-1845819678/"
 - id: "cao"
   terme: "CAD, CAE and CFD"
   motifs:
@@ -655,9 +655,9 @@
   entrees: []
   sources:
   - titre: "Autosport, Matt Somerfield, “Banned: The 2010 Formula 1 season's F-duct” (April 2020)"
-    url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
+    url: "https://www.autosport.com/f1/news/banned-the-2010-formula-1-seasons-f-duct-4983082/4983082/"
   - titre: "Autosport, Jonathan Noble, “McLaren upbeat on 2011 car progress” (December 2010)"
-    url: "https://www.autosport.com/f1/news/88611/mclaren-upbeat-on-2011-car-progress"
+    url: "https://www.autosport.com/f1/news/mclaren-upbeat-on-2011-car-progress-4443750/4443750/"
 - id: drs
   terme: DRS
   motifs:
@@ -669,7 +669,7 @@
   - titre: 'Autosport, Gary Anderson, “Drag Reduction System: Did it work?” (December 2011)'
     url: https://www.autosport.com/f1/news/drag-reduction-system-did-it-work-5098191/5098191/
   - titre: 'Autosport, Matt Somerfield, “Banned: The 2010 Formula 1 season''s F-duct” (April 2020)'
-    url: https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct
+    url: https://www.autosport.com/f1/news/banned-the-2010-formula-1-seasons-f-duct-4983082/4983082/
 - id: inerter
   terme: Inerter
   motifs:

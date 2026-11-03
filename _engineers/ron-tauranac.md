@@ -11,7 +11,7 @@ sources:
   - titre: "Mark Hughes, The Race, “Obituary: Design legend Ron Tauranac” (July 2020)"
     url: "https://www.the-race.com/formula-1/obituary-design-legend-ron-tauranac/"
   - titre: "BRDC, “Notice of Death - Ron Tauranac (1925-2020)” (July 2020)"
-    url: "https://brdc.co.uk/?p=5010"
+    url: "https://brdc.co.uk/notice-of-death-ron-tauranac-1925-2020/"
   - titre: "Rob Widdows, Goodwood, “Brabham designer Ron Tauranac dies aged 95” (July 2020)"
     url: "https://www.goodwood.com/grr/f1/brabham-designer-ron-tauranac-dies-aged-95/"
 consultation: "26 October 2026"

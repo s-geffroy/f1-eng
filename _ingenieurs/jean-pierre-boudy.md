@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["francois-castaing", "bernard-dudot", "jean-terramorsi"]
 sources:
   - titre: "GrandPrix.com, « Jean-Pierre Boudy »"
-    url: "https://grandprix.com/people/jean-pierre-boudy.html"
+    url: "https://www.grandprix.com/people/jean-pierre-boudy.html"
   - titre: "GrandPrix.com, « Renault's secret V10 development » (juillet 1995)"
     url: "https://www.grandprix.com/news/renaults-secret-v10-development.html"
   - titre: "Motor Sport Magazine, « Renault blew it! The pioneering F1 turbo that failed Prost in title bid » (décembre 2024)"

@@ -28,9 +28,9 @@ sources:
   - titre: "Formula 1, “VOTE NOW: Who is the most influential technical innovator in F1 history?”"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
   - titre: "Motor Sport Magazine, “Mauro Forghieri: 1935-2022”"
-    url: "https://motorsportmagazine.com/archive/article/january-2023/12/mauro-forghieri-1935-2022"
+    url: "https://www.motorsportmagazine.com/archive/article/january-2023/12/mauro-forghieri-1935-2022/"
   - titre: "Autosport, “Mauro Forghieri obituary: Legendary Ferrari F1 designer dies at 87”"
-    url: "https://autosport.com/all/news/legendary-ferrari-f1-designer-mauro-forghieri-dies-at-87/10394065/"
+    url: "https://www.autosport.com/f1/news/legendary-ferrari-f1-designer-mauro-forghieri-dies-at-87/10394065/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/mauro-forghieri.jpg"
 ---

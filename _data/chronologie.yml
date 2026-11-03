@@ -391,7 +391,7 @@ jalons:
       - titre: "Racer, Mark Glendenning, « Tales of the tape: Early adventures in F1 data logging » (avril 2024)"
         url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
       - titre: "Jalopnik, Elizabeth Blackstock, « Formula One Telemetry: Explained » (décembre 2020)"
-        url: "https://jalopnik.com/formula-one-telemetry-explained-1845819678/"
+        url: "https://www.jalopnik.com/formula-one-telemetry-explained-1845819678/"
 
   - id: "telemetrie-course"
     annee: 1986
@@ -419,7 +419,7 @@ jalons:
     termes: [cao]
     sources:
       - titre: "Autosport, Pat Symonds, « How a dynamic design tool has grown in F1 importance » (mars 2023)"
-        url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
+        url: "https://www.autosport.com/f1/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
       - titre: "Racecar Engineering, « Renault F1 extends Fluent relations » (mai 2004)"
         url: "https://www.racecar.com/news/6225/motorsport/renault-f1-extends-fluent-relations"
       - titre: "GrandPrix.com, « Geoff Willis » (fiche biographique, non datée)"
@@ -435,7 +435,7 @@ jalons:
     entrees: []
     sources:
       - titre: "Motor Sport, Lawrence Butcher, « Honda's paradigm shifter that flew in the face of convention » (mai 2020)"
-        url: "https://motorsportmagazine.com/articles/single-seaters/f1/hondas-paradigm-shifter-that-flew-in-the-face-of-convention"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/hondas-paradigm-shifter-that-flew-in-the-face-of-convention/"
       - titre: "Honda, « 2005 | F1 » (site du constructeur, non daté)"
         url: "https://global.honda/en/F1/2005"
 
@@ -490,9 +490,9 @@ jalons:
     termes: [aileron, drs]
     sources:
       - titre: "Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season's F-duct » (avril 2020)"
-        url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
+        url: "https://www.autosport.com/f1/news/banned-the-2010-formula-1-seasons-f-duct-4983082/4983082/"
       - titre: "Autosport, Jonathan Noble, « McLaren upbeat on 2011 car progress » (décembre 2010)"
-        url: "https://www.autosport.com/f1/news/88611/mclaren-upbeat-on-2011-car-progress"
+        url: "https://www.autosport.com/f1/news/mclaren-upbeat-on-2011-car-progress-4443750/4443750/"
       - titre: "GrandPrix.com, « McLaren: Original thinking » (février 2011)"
         url: "https://www.grandprix.com/features/2010-grand-prix-review-mclaren-original-thinking.html"
 
@@ -509,7 +509,7 @@ jalons:
       - titre: "PlanetF1, Michelle Foster, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
         url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
       - titre: "Sky Sports, « Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero sidepod philosophy officially abandoned » (mai 2023)"
-        url: "https://www.skysports.com/f1/news/12433/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
+        url: "https://www.skysports.com/f1/news/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
       - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
         url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
       - titre: "Formula1.com, Mark Hughes et Giorgio Piola, « Tech Tuesday: The design secrets that set Red Bull's RB18 apart from its F1 rivals » (novembre 2022)"
@@ -571,7 +571,7 @@ contexte:
       - titre: "Motor Sport Magazine, Doug Nye, « F1 in the 1950s: On the edge » (mai 2020)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2020/62/the-1950s-on-the-edge/"
       - titre: "Motor Sport Magazine, « 1953 F1 World Championship » (base de données, non datée)"
-        url: "https://www.motorsportmagazine.com/database/championships/f1/1953-f1-world-championship"
+        url: "https://www.motorsportmagazine.com/database/championships/1953-f1-world-championship/"
   - id: "formule-2-5-litres"
     annee: 1954
     categorie: "reglement"
@@ -601,7 +601,7 @@ contexte:
       - titre: "Motor Sport, John Tipler, « A new frame of reference » (mai 2002)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
       - titre: "Motor Sport, « How the Jaguar D-Type's wartime roots led to Le Mans dominance » (avril 2023)"
-        url: "https://motorsportmagazine.com/special-article/twice-around-the-clock/30/how-the-jaguar-d-types-wartime-roots-led-to-le-mans-dominance"
+        url: "https://www.motorsportmagazine.com/special-article/twice-around-the-clock/30/how-the-jaguar-d-types-wartime-roots-led-to-le-mans-dominance/"
       - titre: "Motor Sport, Paul Fearnley, « Sarthe specific » (juin 2004)"
         url: "https://www.motorsportmagazine.com/archive/article/june-2004/38/sarthe-specific/"
   - id: "formule-2-1957"
@@ -620,7 +620,7 @@ contexte:
         pourquoi: "Conçues pour la limite de 1 500 cm³ de la Formule 2, les Cooper sont au moins au niveau des meilleures F1 une fois dotées d'un moteur de 2 495 cm³ (Motor Sport)."
     sources:
       - titre: "Formula1.com, Mark Hughes, « Argentina '58: Moss bluffs his way to victory – and ushers in new era » (avril 2020)"
-        url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
+        url: "https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d"
       - titre: "Motor Sport, « From the archives – Cooper » (mai 1991)"
         url: "https://www.motorsportmagazine.com/archive/article/may-1991/29/from-the-archives-cooper/"
   - id: "carburant-commercial-1958"
@@ -635,7 +635,7 @@ contexte:
         pourquoi: "Faute de moteurs Vanwall adaptés au nouveau carburant, Moss est libre de piloter la Cooper de Rob Walker en Argentine (Mark Hughes)."
     sources:
       - titre: "Formula1.com, Mark Hughes, « Argentina '58: Moss bluffs his way to victory – and ushers in new era » (avril 2020)"
-        url: "https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html"
+        url: "https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d"
       - titre: "Motor Sport, « 13. 1958 Argentinian GP: wily Moss wins with only one eye » (mars 2025)"
         url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/114/13-1958-argentinian-gp-wily-moss-wins-with-only-one-eye/"
       - titre: "Motor Sport, « The Argentine racing season » (mars 1958)"
@@ -649,7 +649,7 @@ contexte:
     texte: "En 1961, seuls les moteurs atmosphériques de 1 500 cm³ au plus sont admis, avec un poids minimal fixé d'abord à 500 kg puis abaissé à 450 kg. Les équipes britanniques, qui espéraient garder le règlement de 1960, peinent à trouver des moteurs adaptés pour le début de saison. Ferrari, prête avec la 156 à moteur V6 central arrière, part grande favorite et gagne cinq des huit Grands Prix ; Phil Hill est champion."
     sources:
       - titre: "Motor Sport Magazine, « 1961 F1 World Championship » (base de données, non datée)"
-        url: "https://www.motorsportmagazine.com/database/championships/f1/1961-f1-world-championship"
+        url: "https://www.motorsportmagazine.com/database/championships/1961-f1-world-championship/"
       - titre: "Formula 1, Edd Straw, « 5 times F1 teams got the new regulations right » (février 2022)"
         url: "https://www.formula1.com/en/latest/article/5-times-f1-teams-got-the-new-regulations-right.U6LMtEfhPHHRe37e3WXET"
       - titre: "Autosport, Gregor Grant, « Autosport 70: When F1 rule changes sparked fears of its imminent demise » (novembre 2020, article du 7 novembre 1958)"
@@ -672,7 +672,7 @@ contexte:
         pourquoi: "John Barnard dit s'être décidé pour le carbone en voyant British Aerospace fabriquer un capot de réacteur en composite ; le procédé de Farnborough n'y mène qu'indirectement, par l'industrie aéronautique."
     sources:
       - titre: "Times Higher Education, « Carbon fibre: how we failed to reap rewards » (juillet 1997)"
-        url: "https://www.timeshighereducation.com/node/96469"
+        url: "https://www.timeshighereducation.com/features/carbon-fibre-how-we-failed-to-reap-rewards/103452.article"
       - titre: "Science Museum Group, « William Johnson 1924 - 1986 » (fiche de collection, non datée)"
         url: "https://collection.sciencemuseumgroup.org.uk/people/cp173043"
       - titre: "Motor Sport, James Elson, « John Barnard remembers his McLaren MP4/1 eureka moment » (septembre 2021)"
@@ -712,7 +712,7 @@ contexte:
         pourquoi: "Le passage à 3 litres et le retrait de Coventry Climax laissent les équipes britanniques sans moteur vendu à tous : le DFV comble ce vide (David Tremayne)."
     sources:
       - titre: "Motor Sport Magazine, « 1966 F1 World Championship » (base de données, non datée)"
-        url: "https://www.motorsportmagazine.com/database/championships/f1/1966-f1-world-championship"
+        url: "https://www.motorsportmagazine.com/database/championships/1966-f1-world-championship/"
       - titre: "GrandPrix.com, David Tremayne, « The Father of the DFV » (janvier 2001), reproduit sur walterhayes.co.uk"
         url: "https://walterhayes.co.uk/motorsport-article/the-father-of-the-dfv-grandprix-com-january-26th-20001/"
   - id: "stewart-campagne-securite"
@@ -760,7 +760,7 @@ contexte:
       - titre: "Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
         url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
       - titre: "The Race, Gary Anderson, « The good, bad and ugly of Ford in F1 » (février 2023)"
-        url: "https://the-race.com/formula-1/gary-anderson-the-good-bad-and-ugly-of-ford-in-f1/"
+        url: "https://www.the-race.com/formula-1/gary-anderson-the-good-bad-and-ugly-of-ford-in-f1/"
       - titre: "Motor Sport, Andrew Frankel, « Two too many » (février 2001)"
         url: "https://www.motorsportmagazine.com/archive/article/february-2001/42/two-too-many"
       - titre: "Motor Sport, Nigel Roebuck, « When six worked better than four » (février 2011)"
@@ -806,7 +806,7 @@ contexte:
         pourquoi: "La CSI interdit les ailerons non réglementés, ce qui met fin aux ailerons sur hauts supports."
     sources:
       - titre: "Motor Sport Magazine, « 1969 F1 World Championship » (base de données, non datée)"
-        url: "https://motorsportmagazine.com/database/championships/1969-f1-world-championship"
+        url: "https://www.motorsportmagazine.com/database/championships/1969-f1-world-championship/"
       - titre: "Goodwood, Damien Smith, « Winging it: When F1 really started to fly » (mars 2025)"
         url: "https://www.goodwood.com/grr/f1/winging-it-when-f1-really-started-to-fly/"
   - id: "chaparral-2j"
@@ -842,7 +842,7 @@ contexte:
         pourquoi: "Le tapis roulant, qui reproduit le défilement du sol, permet à Peter Wright de mener dans cette soufflerie les recherches qui aboutissent à la Lotus 78 (Gordon Kirby, Doug Nye)."
     sources:
       - titre: "Motor Sport, Gordon Kirby, « Lotus’s ground-effect revolution, part one » (octobre 2015)"
-        url: "https://motorsportmagazine.com/articles/history/lotuss-ground-effect-revolution-part-one"
+        url: "https://www.motorsportmagazine.com/articles/history/lotuss-ground-effect-revolution-part-one/"
       - titre: "Motor Sport, Doug Nye, « Lotus 78: F1’s first true ground effect car » (février 2020)"
         url: "https://motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2"
       - titre: "Motor Sport, Gordon Cruickshank, « Venturi capitalists » (juillet 2004)"
@@ -958,9 +958,9 @@ contexte:
         pourquoi: "Motor Sport situe le germe de la boîte à palettes dans la tringlerie de la Chaparral 2K, mais John Barnard, interrogé, ne mentionne jamais la Chaparral : il parle du levier et de la tringlerie à loger dans une coque très étroite, puis des valves électroniques de la suspension active."
     sources:
       - titre: "Motor Sport, James Elson, « Ferrari's 640: the 1989 flawed masterpiece ‘that's still influencing F1 design’ » (juin 2022)"
-        url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
+        url: "https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/"
       - titre: "Motor Sport, « The Motor Sport interview: John Barnard » (février 2025)"
-        url: "https://motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard"
+        url: "https://www.motorsportmagazine.com/archive/article/february-2025/115/the-motor-sport-interview-john-barnard/"
       - titre: "Motor Sport, Keith Howard, « X-ray spec – Ferrari 640 » (juin 2005)"
         url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
   - id: "concorde-1981"
@@ -972,7 +972,7 @@ contexte:
       - titre: "Motor Sport, Nigel Roebuck, « 1980s » (mai 2010)"
         url: "https://www.motorsportmagazine.com/archive/article/may-2010/74/1980s/"
       - titre: "RaceFans, Dieter Rencken, « The billion-dollar questions over the fate of F1's most important document » (juin 2020)"
-        url: "https://www.racefans.net/?p=428883"
+        url: "https://www.racefans.net/2020/06/17/the-billion-dollar-questions-over-the-fate-of-f1s-most-important-document/"
       - titre: "GrandPrix.com, Joe Saward, « News feature: the political wranglings of 1996 » (septembre 1996)"
         url: "https://www.grandprix.com/features/joe-saward/news-feature-the-political-wranglings-of-1996.html"
       - titre: "8W, Mattijs Diepraam, « Poachers turned gamekeepers: how the FOCA became the new FIA, Part 4: 1981 » (janvier 2008)"
@@ -1037,7 +1037,7 @@ contexte:
         pourquoi: "Pour Pat Symonds, alors chez Benetton, ce sont les progrès des codes commerciaux et des ordinateurs au début des années 1990 qui permettent aux équipes d'adopter la CFD ; mais Benetton utilise Fluent, et aucune source ne relie Phoenics à Benetton."
     sources:
       - titre: "Autosport, Pat Symonds, « How a dynamic design tool has grown in F1 importance » (mars 2023)"
-        url: "https://autosport.com/all/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
+        url: "https://www.autosport.com/f1/news/how-a-dynamic-design-tool-has-grown-in-f1-importance/10441847/"
       - titre: "GrandPrix.com, David Tremayne, « Blowing in the Wind – CFD v Wind Tunnels » (octobre 2000)"
         url: "https://www.grandprix.com/features/david-tremayne/technical-blowing-in-the-wind-cfd-v-wind-tunnels.html"
       - titre: "Racecar Engineering, « Renault F1 extends Fluent relations » (mai 2004)"
@@ -1109,7 +1109,7 @@ contexte:
         pourquoi: "La règle précède le succès de la MP4/2 sans l'avoir suscité : le moteur TAG avait été commandé dès octobre 1981 pour ses dimensions, non pour sa sobriété. Avec 220 litres pour toute la course, son injection séquentielle plus économe devient ensuite un avantage décisif (Mark Hughes)."
     sources:
       - titre: "Motor Sport, Doug Nye, « Doug Nye: ‘McLaren rewrote the history books in 1980s F1 turbo era’ » (avril 2024)"
-        url: "https://motorsportmagazine.com/archive/article/april-2024/25/doug-nye-mclaren-rewrote-the-history-books-in-1980s-f1-turbo-era"
+        url: "https://www.motorsportmagazine.com/archive/article/april-2024/25/doug-nye-mclaren-rewrote-the-history-books-in-1980s-f1-turbo-era/"
       - titre: "Formula1.com, Mark Hughes, « How Niki Lauda's final title-winning car, the 1984 McLaren MP4/2, changed F1 » (mai 2020)"
         url: "https://www.formula1.com/en/latest/article/how-niki-laudas-final-title-winning-car-the-1984-mclaren-mp4-2-changed-f1.7vGiQXahtUbaKo70ZJ8OGQ"
       - titre: "Motorsport.com, « Why was refuelling banned in F1? History of refuelling and previous accidents » (janvier 2024)"
@@ -1125,7 +1125,7 @@ contexte:
     texte: "La FIA introduit en 1985 un premier essai de choc frontal, encore simple : il suffit de présenter un nez et une petite partie du châssis. Vers 1998, l'essai porte sur un châssis complet et s'accompagne des premiers essais de charge statique. Les essais se multiplient ensuite (arceaux, structures latérales et arrière, panneaux anti-intrusion), souvent en réponse directe à un accident, et la structure de la voiture doit désormais réussir des essais de plus en plus exigeants. Pour Jo Bauer, délégué technique de la FIA, ces essais ont sauvé la vie de Robert Kubica au Grand Prix du Canada 2007."
     sources:
       - titre: "FIA, « Breaking the barriers of safety » (mai 2013)"
-        url: "https://fia.com/node/5643"
+        url: "https://www.fia.com/news/breaking-barriers-safety"
   - id: "carburant-195-litres-1986"
     annee: 1986
     categorie: "reglement"
@@ -1167,7 +1167,7 @@ contexte:
       - titre: "Honda, « 1988 McLaren Honda MP4/4 » (site du constructeur, non daté)"
         url: "https://global.honda/en/F1/machine/1988_McLarenHondaMP44/"
       - titre: "Motor Sport, Mark Hughes, « Adrian Newey: ‘My top six F1 cars’ » (septembre 2014)"
-        url: "https://www.motorsportmagazine.com/archive/page/september-2014/36"
+        url: "https://www.motorsportmagazine.com/archive/article/september-2014/36/adrian-newey/"
       - titre: "Motor Sport, « Marching to civil war » (juin 2005)"
         url: "https://www.motorsportmagazine.com/archive/article/june-2005/82/marching-to-civil-war"
   - id: "fin-du-turbo"
@@ -1244,7 +1244,7 @@ contexte:
         pourquoi: "Pat Symonds range le halo dans l'héritage d'Imola, mais le concept naît chez Mercedes après l'accident de Jules Bianchi : le lien avec Imola est indirect, à vingt-quatre ans de distance."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "Formula 1, « Imola ‘94 and the lasting safety legacy » (mai 2019)"
         url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
       - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (2017)"
@@ -1262,7 +1262,7 @@ contexte:
     texte: "Après des flancs déjà relevés en 1995 pour couvrir les épaules, la FIA impose en 1996 des flancs de cockpit plus hauts, rembourrés à l'intérieur, et des appuie-tête latéraux de 75 mm, avec des essais de charge statique sur le bord du cockpit. Ces règles sont le fruit des travaux du groupe consultatif d'experts de la FIA (Advisory Expert Group) sur la sécurité depuis les accidents d'Imola et de Monaco en 1994 ; le cockpit est aussi agrandi pour que les pilotes de toutes tailles courent à égalité. Les premiers enregistreurs de données entrent dans les cellules de survie. Les flancs relevés protègent bien mieux la tête du pilote sur les côtés."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "Formula 1, « Re-writing the F1 rulebook - Part 2: from driver aids to increased safety » (2017)"
         url: "https://www.formula1.com/en/latest/article/re-writing-the-f1-rulebook-part-2--from-driver-aids-to-stepped.6ng1HQEGGsImQKekgaG4sw"
       - titre: "GrandPrix.com, « The new rules for 1996 » (mars 1996)"
@@ -1283,7 +1283,7 @@ contexte:
       - titre: "New Atlas, « Formula One KERS explained » (mars 2009)"
         url: "https://newatlas.com/formula-one-kers/11324/"
       - titre: "Formula1.com, « Hybrid update for Mercedes' car name » (mai 2014)"
-        url: "https://www.formula1.com/en/latest/headlines/2014/5/Hybrid-update-for-Mercedes-car-name.html"
+        url: "https://www.formula1.com/en/latest/article/hybrid-update-for-mercedes-car-name.50vL98SrZi0TwanoAsPJpB"
   - id: "inerter-cambridge"
     annee: 1997
     categorie: "technologie"
@@ -1306,7 +1306,7 @@ contexte:
     texte: "En 1999, la FIA impose des câbles qui relient les roues à la voiture, pour qu'elles ne se détachent pas lors d'un accident. Pour Pat Symonds, ces câbles font partie des mesures de sécurité qui suivent Imola 1994, avec des essais de choc plus sévères chaque année et des structures latérales anti-pénétration."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "Formula 1, Matt Youson, « Imola ‘94 and the lasting safety legacy » (mai 2019)"
         url: "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF"
   - id: "hans"
@@ -1316,7 +1316,7 @@ contexte:
     texte: "Le système de retenue de la tête et du cou HANS, conçu par Robert Hubbard et Jim Downing contre les fractures de la base du crâne, dont meurt Roland Ratzenberger en 1994, puis adapté aux monoplaces avec le concours de DaimlerChrysler, devient obligatoire en F1 en 2003. Une version amincie est essayée de 1996 à 1998 et approuvée par la FIA en 2001. La FIA reconnaît qu'il relève légèrement le centre de gravité de la voiture et autorise les équipes à l'adapter à leur cockpit, sous réserve de son accord ; après une dérogation accordée à Rubens Barrichello en Malaisie, elle refuse toute nouvelle dérogation, un pilote qui ne peut le porter devant être remplacé."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "GrandPrix.com, « FIA stands by HANS device » (mars 2003)"
         url: "https://www.grandprix.com/news/fia-stands-by-hans-device.html"
       - titre: "Formula 1, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
@@ -1348,7 +1348,7 @@ contexte:
         pourquoi: "Le rachat par la direction, financé par Honda, permet à la voiture étudiée chez Honda de courir en 2009 sous le nom de Brawn."
     sources:
       - titre: "The Race, Scott Mitchell-Malm, « The last time Honda withdrew from F1 – by those it left behind » (avril 2021)"
-        url: "https://the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind"
+        url: "https://www.the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind/"
       - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
         url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
   - id: "economies-2009"
@@ -1435,7 +1435,7 @@ contexte:
       - titre: "Autosport, Jonathan Noble, « Double diffusers banned from 2011 » (janvier 2010)"
         url: "https://www.autosport.com/f1/news/double-diffusers-banned-from-2011-4434892/4434892/"
       - titre: "Autosport, Matt Somerfield et Giorgio Piola, « Banned: The double diffuser that triggered an F1 development race » (mai 2020)"
-        url: "https://www.autosport.com/news/report.php/id/149491"
+        url: "https://www.autosport.com/f1/news/banned-the-double-diffuser-that-triggered-an-f1-development-race-4982556/4982556/"
   - id: "drs-2011"
     annee: 2011
     categorie: "reglement"
@@ -1454,7 +1454,7 @@ contexte:
       - titre: "Autosport, Gary Anderson, « Drag Reduction System: Did it work? » (décembre 2011)"
         url: "https://www.autosport.com/f1/news/drag-reduction-system-did-it-work-5098191/5098191/"
       - titre: "Autosport, Matt Somerfield, « Banned: The 2010 Formula 1 season's F-duct » (avril 2020)"
-        url: "https://www.autosport.com/f1/news/149090/banned-the-f1-2010-season-fduct"
+        url: "https://www.autosport.com/f1/news/banned-the-2010-formula-1-seasons-f-duct-4983082/4983082/"
   - id: "echappements-2012"
     annee: 2012
     categorie: "reglement"
@@ -1486,7 +1486,7 @@ contexte:
         pourquoi: "Selon formula1.com, Mercedes imagine le concept du halo peu après l'accident mortel de Jules Bianchi à Suzuka ; mais le panel d'enquête de la FIA juge qu'un cockpit fermé n'aurait pas changé l'issue de ce choc : le lien reste discuté."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "FIA, « Accident Panel » (décembre 2014)"
         url: "https://api.fia.com/news/accident-panel"
       - titre: "Formula 1, Katy Roberts, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
@@ -1517,7 +1517,7 @@ contexte:
     texte: "Imaginé par Mercedes peu après l'accident de Jules Bianchi, le halo l'emporte sur deux autres protections frontales étudiées par la FIA, dont un pare-brise. Imposé en 2018, cet arceau à trois branches en titane de qualité aéronautique, placé au-dessus de la tête du pilote, doit résister à une charge verticale de 116 kN ; on l'éprouve en projetant une roue contre lui. Critiqué au départ pour son esthétique, il met fin au cockpit entièrement ouvert et devient obligatoire dans toutes les monoplaces de la FIA. Il protège notamment Lewis Hamilton à Monza en 2021 et Zhou Guanyu à Silverstone en 2022."
     sources:
       - titre: "FIA, « Legacy of Safety – How the FIA responded to the tragedy of Imola 1994 and launched a drive for safer racing » (mai 2024)"
-        url: "https://fia.com/node/51351"
+        url: "https://www.fia.com/news/legacy-safety-how-fia-responded-tragedy-imola-1994-and-launched-drive-safer-racing"
       - titre: "Formula 1, « 5 crucial milestone moments in F1 safety technology » (mai 2025)"
         url: "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp"
       - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history »"
@@ -1640,7 +1640,7 @@ contexte:
     texte: "De 1950 à 1960, les 500 Miles d'Indianapolis comptent pour le championnat du monde des pilotes, bien qu'ils se courent selon le règlement américain. Les deux mondes se croisent peu : en 1952, Alberto Ascari renonce au Grand Prix de Suisse pour disputer « la course la plus riche du monde » sur une Ferrari 375 de 4,5 litres, se qualifie 19e et abandonne sur une roue à rayons cassée (Paul Fearnley). La course quitte le championnat en 1961, quand la F1 passe aux moteurs atmosphériques de 1,5 litre."
     sources:
       - titre: "Motor Sport, Paul Fearnley, « F1 and the Indy 500's separate worlds » (avril 2019)"
-        url: "https://motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds"
+        url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/f1-and-indy-500s-separate-worlds/"
   - id: "television-1953"
     annee: 1953
     categorie: "societe"
@@ -1656,7 +1656,7 @@ contexte:
     texte: "En juin 1955, aux 24 Heures du Mans, la Mercedes de Pierre Levegh est projetée dans la foule : au moins 82 morts et plus de 120 blessés selon Motor Sport. Le rejet du sport automobile qui s'ensuit fait annuler les Grands Prix de France, d'Allemagne, d'Espagne et de Suisse (Adam Cooper) ; la Suisse interdit les courses sur circuit pour des décennies. Mercedes se retire de la compétition en fin de saison, pour des raisons pratiques selon la marque, mais l'accident pèse sur la décision (Damien Smith)."
     sources:
       - titre: "Motor Sport, Damien Smith, « The long shadow of Le Mans 1955 » (octobre 2024)"
-        url: "https://motorsportmagazine.com/special-article/german-legends/94/the-long-shadow-of-le-mans-1955"
+        url: "https://www.motorsportmagazine.com/special-article/german-legends/94/the-long-shadow-of-le-mans-1955/"
       - titre: "Motor Sport, Pablo Elizalde, « The day racing lost its innocence: the 1955 Le Mans tragedy » (juin 2026)"
         url: "https://www.motorsportmagazine.com/articles/sports-cars/le-mans/the-day-racing-lost-its-innocence-the-1955-le-mans-tragedy/"
       - titre: "Autosport, Adam Cooper, « The potted history of F1's calendar cancellations » (février 2020)"
@@ -1680,7 +1680,7 @@ contexte:
     texte: "Le 23 février 1958, veille du Grand Prix de Cuba, le quintuple champion du monde Juan Manuel Fangio est enlevé à l'hôtel Lincoln de La Havane par des militants du Mouvement du 26 juillet, en lutte contre la dictature de Batista, qui avait créé la course pour attirer les touristes. Il est relâché à l'ambassade d'Argentine. La course reprend sous Castro en 1960, puis disparaît quand les États-Unis isolent l'île (Joe Dunn)."
     sources:
       - titre: "Motor Sport, Joe Dunn, « When Fangio was kidnapped in Cuba » (mars 2023)"
-        url: "https://motorsportmagazine.com/archive/article/march-2023/7/when-fangio-was-kidnapped-in-cuba"
+        url: "https://www.motorsportmagazine.com/archive/article/march-2023/7/when-fangio-was-kidnapped-in-cuba/"
   - id: "tabac-television-1965"
     annee: 1965
     categorie: "economie-mondiale"
@@ -1721,7 +1721,7 @@ contexte:
     texte: "Après la guerre du Kippour, les pays arabes producteurs réduisent leurs livraisons aux pays qui soutiennent Israël ; au Royaume-Uni, la semaine de trois jours rationne l'électricité dès le 1er janvier 1974, et l'économie plonge (Doug Nye). En Afrique du Sud, le gouvernement interdit toute compétition utilisant l'essence du commerce : le Grand Prix, longtemps menacé, n'est autorisé qu'en étant repoussé à fin mars, et la vente d'essence reste interdite du vendredi soir au lundi matin (Motor Sport, 1974). La F1 traverse la crise : une trentaine d'engagés courent en 1974 (Doug Nye)."
     sources:
       - titre: "Motor Sport, Doug Nye, « How motor racing thrived during the ‘three-day week’ » (mars 2024)"
-        url: "https://motorsportmagazine.com/archive/article/march-2024/21/doug-nye-how-motor-racing-thrived-during-the-three-day-week"
+        url: "https://www.motorsportmagazine.com/archive/article/march-2024/21/doug-nye-how-motor-racing-thrived-during-the-three-day-week/"
       - titre: "Motor Sport, « 8th South African Grand Prix » (mai 1974)"
         url: "https://www.motorsportmagazine.com/archive/article/may-1974/25/8th-south-african-grand-prix/"
       - titre: "Motor Sport, Alan Henry, « South Africa's F1 stars » (mars 1982)"
@@ -1888,7 +1888,7 @@ contexte:
         pourquoi: "Motor Sport attribue le départ de BMW à la dégradation de l'économie mondiale, mais BMW invoque un réalignement stratégique vers la durabilité, sans parler de la crise."
     sources:
       - titre: "The Race, Scott Mitchell-Malm, « The last time Honda withdrew from F1 – by those it left behind » (avril 2021)"
-        url: "https://the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind"
+        url: "https://www.the-race.com/formula-1/the-last-time-honda-withdrew-from-f1-by-those-it-left-behind/"
       - titre: "BMW Group, « BMW to exit Formula One at end of 2009 season » (juillet 2009)"
         url: "https://newsroom.bmwgroup.com/global/bmw-to-exit-formula-one-at-end-of-2009-season_20260721133904047"
       - titre: "Autosport, Matt Beer, « Toyota pulls out of Formula 1 » (novembre 2009)"
@@ -1914,7 +1914,7 @@ contexte:
       - titre: "FIA WEC, « History made by Audi at Le Mans » (juin 2012)"
         url: "https://www.fiawec.com/en/news/history-made-by-audi-at-le-mans/309"
       - titre: "Autosport, Gary Watkins, « Audi unveils hybrid R18 e-tron quattro » (février 2012)"
-        url: "https://www.autosport.com/wec/news/97739/audi-unveils-hybrid-r18-etron-quattro"
+        url: "https://www.autosport.com/wec/news/audi-unveils-hybrid-r18-e-tron-quattro-in-munich-4453964/4453964/"
       - titre: "Motor Sport, Gary Watkins, « Le Mans hybrids » (juin 2012)"
         url: "https://www.motorsportmagazine.com/archive/article/june-2012/75/le-mans-hybrids/"
   - id: "formule-e-2014"

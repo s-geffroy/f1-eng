@@ -30,7 +30,7 @@ sources:
   - titre: "Motor Sport Magazine, “The Lotus 49” (July 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
   - titre: "Motor Sport Magazine, “Lancia D50 re-creations nearing completion” (October 1999)"
-    url: "https://motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion"
+    url: "https://www.motorsportmagazine.com/archive/article/october-1999/5/lancia-d50-re-creations-nearing-completion/"
   - titre: "Classic Team Lotus, “Lotus 72 50th birthday” (2020)"
     url: "https://classicteamlotus.co.uk/en/news/posts/2020/lotus-72-50th-birthday/"
   - titre: "Lotus Cars, “Type 72”"

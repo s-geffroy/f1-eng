@@ -14,9 +14,9 @@ sources:
   - titre: "Motor Sport Magazine, “X-ray spec: Ferrari 640” (June 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
   - titre: "Motor Sport Magazine, “Ferrari's 640: the 1989 flawed masterpiece” (June 2022)"
-    url: "https://motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design"
+    url: "https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/"
   - titre: "Motorsport.com, “The troubled car that was a game changer for F1” (2021)"
-    url: "https://us.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801237/"
+    url: "https://www.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801236/"
   - titre: "Formula 1, “The 75 best drivers, cars, innovations, teams and key figures in F1 history”"
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
 photo:

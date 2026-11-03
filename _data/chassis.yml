@@ -19,17 +19,17 @@ cas:
   pourquoi: Les résultats d'OldRacingCars donnent la 158 aux vainqueurs de Grande-Bretagne, Monaco, Suisse, Belgique et France ; au Grand Prix d'Italie, à Monza, Farina gagne sur la 159, qui y fait ses débuts.
   sources:
   - titre: OldRacingCars.com, « Monza, 3 Sep 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=I50
+    url: https://www.oldracingcars.com/f1/results/1950/italy/
   - titre: OldRacingCars.com, « Silverstone, 13 May 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=GB50
+    url: https://www.oldracingcars.com/f1/results/1950/britain/
   - titre: OldRacingCars.com, « Monte Carlo, 21 May 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=MC50
+    url: https://www.oldracingcars.com/f1/results/1950/monaco/
   - titre: OldRacingCars.com, « Bremgarten, 4 Jun 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=CH50
+    url: https://www.oldracingcars.com/f1/results/1950/switzerland/
   - titre: OldRacingCars.com, « Spa-Francorchamps, 18 Jun 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=B50
+    url: https://www.oldracingcars.com/f1/results/1950/belgium/
   - titre: OldRacingCars.com, « Reims, 2 Jul 1950 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=F50
+    url: https://www.oldracingcars.com/f1/results/1950/france/
 - annee: 1950
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -54,13 +54,13 @@ cas:
   pourquoi: 'Les résultats d''OldRacingCars donnent le type 159 aux quatre victoires d''Alfa Romeo en 1951 : Fangio en Suisse et en Espagne, Farina en Belgique, Fagioli et Fangio (voiture partagée) en France.'
   sources:
   - titre: OldRacingCars.com, « Bremgarten, 27 May 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=CH51
+    url: https://www.oldracingcars.com/f1/results/1951/switzerland/
   - titre: OldRacingCars.com, « Spa-Francorchamps, 17 Jun 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=B51
+    url: https://www.oldracingcars.com/f1/results/1951/belgium/
   - titre: OldRacingCars.com, « Reims, 1 Jul 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=F51
+    url: https://www.oldracingcars.com/f1/results/1951/france/
   - titre: OldRacingCars.com, « Pedralbes, 28 Oct 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=E51
+    url: https://www.oldracingcars.com/f1/results/1951/spain/
 - annee: 1951
   ecurie: ferrari
   equipe: Ferrari
@@ -73,11 +73,11 @@ cas:
   pourquoi: 'Selon OldRacingCars, les trois victoires de Ferrari en 1951 sont celles de la 375 à moteur V12 de 4,5 litres : González à Silverstone, puis Ascari au Nürburgring et à Monza. Motor Sport précise qu''à Silverstone González avait une version plus ancienne à moteur 12 bougies.'
   sources:
   - titre: OldRacingCars.com, « Silverstone, 14 Jul 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=GB51
+    url: https://www.oldracingcars.com/f1/results/1951/britain/
   - titre: OldRacingCars.com, « Nürburgring, 29 Jul 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=D51
+    url: https://www.oldracingcars.com/f1/results/1951/germany/
   - titre: OldRacingCars.com, « Monza, 16 Sep 1951 »
-    url: https://www.oldracingcars.com/results/result.php?RaceID=I51
+    url: https://www.oldracingcars.com/f1/results/1951/italy/
   - titre: Motor Sport, « Ferrari beats Alfa-Romeo in British Grand Prix » (août 1951)
     url: https://www.motorsportmagazine.com/archive/article/august-1951/9/ferrari-beats-alfa-romeo-in-british-grand-prix/
 - annee: 1951
@@ -267,13 +267,13 @@ cas:
   pourquoi: La W196 gagne toutes les manches européennes de 1955 sauf Monaco (comptes rendus de GrandPrix.com et liste des victoires Continental de Motorsport-Magazin pour Zandvoort) ; à Monza, Fangio court en version profilée (« W196 STR. »).
   sources:
   - titre: GrandPrix.com, « Argentine GP, 1955 »
-    url: https://www.grandprix.com/gpe/rr042.html
+    url: https://www.grandprix.com/races/argentine-gp-1955.html
   - titre: GrandPrix.com, « Belgian GP, 1955 »
-    url: https://www.grandprix.com/gpe/rr045.html
+    url: https://www.grandprix.com/races/belgian-gp-1955.html
   - titre: GrandPrix.com, « British GP, 1955 »
-    url: https://www.grandprix.com/gpe/rr047.html
+    url: https://www.grandprix.com/races/british-gp-1955.html
   - titre: GrandPrix.com, « Italian GP, 1955 »
-    url: https://www.grandprix.com/gpe/rr048.html
+    url: https://www.grandprix.com/races/italian-gp-1955.html
   - titre: Motorsport-Magazin, « Continental - alle 10 Grand Prix Siege in der Formel 1 » (base de données F1)
     url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,3,0,0,0,0.html
 - annee: 1955
@@ -288,7 +288,7 @@ cas:
   - titre: 'Motor Sport, Denis Jenkinson, « 1955 Monaco Grand Prix race report: Trintignant triumphs where others fail » (juin 1955)'
     url: https://www.motorsportmagazine.com/archive/article/june-1955/36/xiii-grand-prix-de-monaco/
   - titre: GrandPrix.com, « Monaco GP, 1955 »
-    url: https://www.grandprix.com/gpe/rr043.html
+    url: https://www.grandprix.com/races/monaco-gp-1955.html
 - annee: 1955
   ecurie: kurtis-kraft
   equipe: Kurtis Kraft Offenhauser
@@ -367,13 +367,13 @@ cas:
   pourquoi: Fangio remporte ses quatre victoires de 1957 (Argentine, Monaco, France, Allemagne) sur 250F, la dernière au Nürburgring (comptes rendus de GrandPrix.com).
   sources:
   - titre: GrandPrix.com, « Argentine GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr057.html
+    url: https://www.grandprix.com/races/argentine-gp-1957.html
   - titre: GrandPrix.com, « Monaco GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr058.html
+    url: https://www.grandprix.com/races/monaco-gp-1957.html
   - titre: GrandPrix.com, « French GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr060.html
+    url: https://www.grandprix.com/races/french-gp-1957.html
   - titre: GrandPrix.com, « German GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr062.html
+    url: https://www.grandprix.com/races/german-gp-1957.html
 - annee: 1957
   ecurie: vanwall
   equipe: Vanwall
@@ -388,11 +388,11 @@ cas:
   - titre: Goodwood, « Britain's first F1 constructors' champion » (août 2022)
     url: https://www.goodwood.com/grr/f1/britains-first-f1-constructors-champion
   - titre: GrandPrix.com, « British GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr061.html
+    url: https://www.grandprix.com/races/british-gp-1957.html
   - titre: 8W (Forix), « When? 1957 British GP »
     url: https://forix.com/8w/gb57.html
   - titre: GrandPrix.com, « Italian GP, 1957 »
-    url: https://www.grandprix.com/gpe/rr064.html
+    url: https://www.grandprix.com/races/italian-gp-1957.html
 - annee: 1958
   ecurie: Epperly Offenhauser
   equipe: Epperly Offenhauser
@@ -420,7 +420,7 @@ cas:
   pourquoi: 'Deux Cooper privées de Rob Walker : Moss gagne en Argentine sur T43 (formula1.com), Trintignant à Monaco sur T45 (liste des victoires de Motorsport-Magazin).'
   sources:
   - titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 - and ushers in new era » (avril 2020)
-    url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+    url: https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d
   - titre: Motorsport-Magazin, « Dunlop - alle 83 Grand Prix Siege in der Formel 1 » (base de données F1)
     url: https://www.motorsport-magazin.com/f1stats,rs_d,0,0,0,4,0,0,0,0.html
   - titre: 'Motor Sport, Denis Jenkinson, « 1958 Monaco Grand Prix race report: Trintignant makes it two in a row for Rob Walker Racing » (juin 1958)'
@@ -438,9 +438,9 @@ cas:
   - titre: Motor Sport, Doug Nye, « Front to back » (novembre 2007)
     url: https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back
   - titre: GrandPrix.com, « British GP, 1958 »
-    url: https://www.grandprix.com/gpe/rr071.html
+    url: https://www.grandprix.com/races/british-gp-1958.html
   - titre: Motor Sport, base de données, « 1958 British Grand Prix »
-    url: https://www.motorsportmagazine.com/database/races/71-1958-british-grand-prix
+    url: https://www.motorsportmagazine.com/database/races/1958-british-grand-prix/
 - annee: 1958
   ecurie: vanwall
   equipe: Vanwall
@@ -486,7 +486,7 @@ cas:
   - titre: 8W (Forix), « Who? Joakim Bonnier »
     url: https://8w.forix.com/bonnier.html
   - titre: GrandPrix.com, « Dutch GP, 1959 »
-    url: https://www.grandprix.com/gpe/rr078.html
+    url: https://www.grandprix.com/races/dutch-gp-1959.html
 - annee: 1959
   ecurie: cooper
   equipe: Cooper Climax
@@ -501,15 +501,15 @@ cas:
   pourquoi: Brabham (Monaco, Grande-Bretagne) et McLaren (États-Unis) pour l'usine, Moss (Portugal, Italie) pour Rob Walker, tous sur T51 (Autosport, GrandPrix.com, Motor Sport).
   sources:
   - titre: Autosport, « The inside story of Brabham's dramatic first title win » (décembre 2019)
-    url: https://www.autosport.com/f1/feature/9763/the-inside-story-of-brabham-dramatic-first-title-win
+    url: https://www.autosport.com/f1/news/the-inside-story-of-brabhams-dramatic-first-title-win-5113173/5113173/
   - titre: GrandPrix.com, « British GP, 1959 »
-    url: https://www.grandprix.com/gpe/rr080.html
+    url: https://www.grandprix.com/races/british-gp-1959.html
   - titre: 'Motor Sport, Denis Jenkinson, « 1959 Portuguese Grand Prix race report: Moss trounces the field » (octobre 1959)'
     url: https://www.motorsportmagazine.com/archive/article/october-1959/28/viii-grand-prix-of-portugal-moss-and-cooper-walker
   - titre: GrandPrix.com, « Italian GP, 1959 »
-    url: https://www.grandprix.com/gpe/rr083.html
+    url: https://www.grandprix.com/races/italian-gp-1959.html
   - titre: GrandPrix.com, « United States GP, 1959 »
-    url: https://www.grandprix.com/gpe/rr084.html
+    url: https://www.grandprix.com/races/united-states-gp-1959-2.html
 - annee: 1959
   ecurie: ferrari
   equipe: Ferrari
@@ -1126,7 +1126,7 @@ cas:
   - titre: OldRacingCars, « South African Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/south-africa/
   - titre: OldRacingCars, « Matra MS80 car-by-car histories »
-    url: https://oldracingcars.com/matra/ms80
+    url: https://www.oldracingcars.com/matra/ms80/
   - titre: OldRacingCars, « British Grand Prix 1969 »
     url: https://www.oldracingcars.com/f1/results/1969/britain/
   - titre: OldRacingCars, « Italian Grand Prix 1969 »
@@ -1913,7 +1913,7 @@ cas:
   - titre: OldRacingCars.com, « Spanish Grand Prix 1979 »
     url: https://www.oldracingcars.com/f1/results/1979/spain/
   - titre: Motor Sport, Graham Keilloh, « Five classic Formula 1 ground effect cars » (juillet 2019)
-    url: https://www.motorsportmagazine.com/history/f1/five-classic-formula-1-ground-effect-cars
+    url: https://www.motorsportmagazine.com/articles/single-seaters/f1/five-classic-formula-1-ground-effect-cars/
 - annee: 1979
   ecurie: renault-1977
   equipe: Renault
@@ -2146,7 +2146,7 @@ cas:
   - titre: OldRacingCars.com, « Brabham BT49D/17 race history »
     url: https://www.oldracingcars.com/brabham/bt49/17
   - titre: Autosport, GP Racing, « The car that revived Brabham as an F1 force » (août 2019)
-    url: https://www.autosport.com/f1/feature/9393/the-car-that-revived-brabham-as-an-f1-force
+    url: https://www.autosport.com/f1/news/the-car-that-revived-brabham-as-an-f1-force-5112626/5112626/
 - annee: 1982
   ecurie: ferrari
   equipe: Ferrari
@@ -2195,7 +2195,7 @@ cas:
   pourquoi: GrandPrix.com donne quatre victoires à la RE30B en 1982, deux pour Prost et deux pour Arnoux. Motor Sport classe Prost premier en Afrique du Sud sur la RE36B, vainqueur au Brésil après la disqualification de Piquet et Rosberg, et Arnoux premier en France sur la RE38B. RE36B et RE38B sont les numéros de châssis de la RE30B dans la nomenclature de Motor Sport. À Monza, Arnoux court sur RE30B.
   sources:
   - titre: GrandPrix.com, « Renault » (encyclopédie des constructeurs)
-    url: https://www.grandprix.com/gpe/con-renau.html
+    url: https://www.grandprix.com/constructors/renault-f1.html
   - titre: Motor Sport, Denis Jenkinson, « South African Grand Prix » (mars 1982)
     url: https://www.motorsportmagazine.com/archive/article/march-1982/36/south-african-grand-prix-14/
   - titre: Motor Sport, Alan Henry, « Brazilian Grand Prix » (avril 1982)
@@ -2427,7 +2427,7 @@ cas:
   - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
     url: https://www.motorsportmagazine.com/archive/article/august-1984/22/dallas-grand-prix
   - titre: Autosport, Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
-    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
+    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/10373506/
 - annee: 1985
   ecurie: brabham
   equipe: Brabham BMW
@@ -2608,7 +2608,7 @@ cas:
   - titre: Ultimatecarpage.com, « McLaren MP4/3 Porsche », fiche technique
     url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
   - titre: 'McLaren, « Alain''s record breaking year: How the MP4/4''s lesser-known predecessor helped Le Prof » (septembre 2017)'
-    url: https://www.mclaren.com/racing/heritage/driver/alain-prost/alains-record-breaking-year-mp43-2119871/
+    url: https://www.mclaren.com/racing/heritage/formula-1/drivers/alain-prost/alains-record-breaking-year-mp43-2119871/
 - annee: 1987
   ecurie: team-lotus
   equipe: Lotus Honda
@@ -2767,7 +2767,7 @@ cas:
   - titre: Motor Sport, Denis Jenkinson, « Delusion » (juin 1990)
     url: https://www.motorsportmagazine.com/archive/article/june-1990/6/delusion
   - titre: Motorsport Retro, « Benetton B190 1990 – Nelson Piquet – Gallery » (septembre 2014)
-    url: https://motorsportretro.com/2014/09/benetton-b190
+    url: https://www.motorsportretro.com/2014/09/benetton-b190/
 - annee: 1990
   ecurie: ferrari
   equipe: Ferrari
@@ -2958,7 +2958,7 @@ cas:
   - titre: Motor Sport, David Tremayne, « Benetton's sleepless knight » (novembre 1993)
     url: https://www.motorsportmagazine.com/archive/article/november-1993/10/benettons-sleepless-knight
   - titre: RM Sotheby's, « Michael Schumacher Benetton B193B Formula 1 Steering Wheel, 1994 » (Paris 2019, lot 106)
-    url: https://rmsothebys.com/en/auctions/pa19/paris/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/726709
+    url: https://rmsothebys.com/auctions/pa19/lots/n0001-michael-schumacher-benetton-b193b-formula-1-steering-wheel-1994/
 - annee: 1993
   ecurie: mclaren
   equipe: McLaren Ford
@@ -3110,7 +3110,7 @@ cas:
   pourquoi: 'Au Portugal, Coulthard gagne avec une FW17 standard : la FW17B, plus rapide, n''avait servi qu''en qualifications (GrandPrix.com). Elle fait ses débuts en course au Grand Prix d''Europe (Motor Sport) et gagne en Australie avec Hill. Patrick Head compte cinq victoires Williams en 1995 « avec la FW17 » : Argentine, Saint-Marin, Hongrie, Portugal et Australie.'
   sources:
   - titre: GrandPrix.com, « Portuguese GP, 1995 » (septembre 1995)
-    url: https://www.grandprix.com/gpe/rr577.html
+    url: https://www.grandprix.com/races/portuguese-gp-1995.html
   - titre: Motor Sport, « 1995 European Grand Prix » (novembre 1995)
     url: https://www.motorsportmagazine.com/archive/article/november-1995/22/european-grand-prix-5/
   - titre: Motor Sport, « 1995 Australian Grand Prix » (décembre 1995)
@@ -4535,7 +4535,7 @@ cas:
   pourquoi: Motorsport.com, qui revient sur la victoire d'Ocon au Grand Prix de Hongrie 2021, légende la photo du vainqueur au volant de l'Alpine A521.
   sources:
   - titre: 'Motorsport.com, Filip Cleeren, « Ocon: Hungary F1 win took pressure away from Alpine » (janvier 2022)'
-    url: https://us.motorsport.com/f1/news/ocon-hungary-f1-win-took-pressure-away-from-alpine/7098172/
+    url: https://www.motorsport.com/f1/news/ocon-hungary-f1-win-took-pressure-away-from-alpine/7098171/
 - annee: 2021
   ecurie: mclaren
   equipe: McLaren Mercedes
@@ -4546,7 +4546,7 @@ cas:
   pourquoi: Formula1.com et Autosport associent la victoire de Ricciardo à Monza en 2021 à la McLaren MCL35M, la voiture qu'il pilotait toute la saison.
   sources:
   - titre: Formula1.com, « Ricciardo calls Monza 2021 win 'biggest moment of my career' » (janvier 2022)
-    url: https://www.formula1.com/en/latest/article.ricciardo-calls-monza-2021-win-biggest-moment-of-my-career.5BcePQK8Uu3spZyqvIHL90.html
+    url: https://www.formula1.com/en/latest/article/ricciardo-calls-monza-2021-win-biggest-moment-of-my-career.5BcePQK8Uu3spZyqvIHL90
   - titre: Autosport, « 10 things we learned from F1's 2021 Italian Grand Prix » (septembre 2021)
     url: https://www.autosport.com/f1/news/10-things-we-learned-from-f1s-2021-italian-grand-prix/6667216/
 - annee: 2021

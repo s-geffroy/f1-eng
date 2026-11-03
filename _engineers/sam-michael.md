@@ -9,13 +9,13 @@ lignees: []
 voir_aussi: ["patrick-head", "peter-wright"]
 sources:
   - titre: "GrandPrix.com, “Sam Michael”"
-    url: "https://grandprix.com/people/sam-michael.html"
+    url: "https://www.grandprix.com/people/sam-michael.html"
   - titre: "Formula 1, “Sam Michael to leave McLaren at end of 2014”"
     url: "https://www.formula1.com/en/latest/article/sam-michael-to-leave-mclaren-at-end-of-2014.9FqTJvMlk0hiBjZUdcgoz"
   - titre: "GrandPrix.com, “The story behind the reshuffle at Williams” (2004)"
     url: "https://www.grandprix.com/news/the-story-behind-the-reshuffle-at-williams.html"
   - titre: "Jonathan Noble, Autosport, “Michael resigns, Coughlan joins Williams” (2011)"
-    url: "https://www.autosport.com/f1/news/91085/michael-resigns-coughlan-joins-williams"
+    url: "https://www.autosport.com/f1/news/michael-resigns-coughlan-joins-williams-4445298/4445298/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/sam-michael.jpg"
 ---

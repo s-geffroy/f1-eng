@@ -60,7 +60,7 @@ motoristes:
     periode: 1976–1987
     sources:
     - titre: GrandPrix.com, encyclopédie, « Carlo Chiti »
-      url: https://grandprix.com/people/carlo-chiti.html
+      url: https://www.grandprix.com/people/carlo-chiti.html
 - id: alta
   nom: Alta
   usines:
@@ -563,7 +563,7 @@ motoristes:
     periode: 1983–1991
     sources:
     - titre: GrandPrix.com, encyclopédie, « Hans Mezger »
-      url: https://www.grandprix.com/gpe/cref-mezhan.html
+      url: https://www.grandprix.com/people/hans-mezger.html
     - titre: GrandPrix.com, encyclopédie, « TAG Turbo Engines »
       url: https://www.grandprix.com/engines/tag-turbo-engines.html
 - id: pratt-and-whitney
@@ -689,7 +689,7 @@ motoristes:
     periode: 1983–1987
     sources:
     - titre: GrandPrix.com, encyclopédie, « Hans Mezger »
-      url: https://www.grandprix.com/gpe/cref-mezhan.html
+      url: https://www.grandprix.com/people/hans-mezger.html
     - titre: GrandPrix.com, encyclopédie, « TAG Turbo Engines »
       url: https://www.grandprix.com/engines/tag-turbo-engines.html
 - id: tag-heuer
@@ -1951,7 +1951,7 @@ lignees:
     statut: loue
     sources:
     - titre: Autosport, Jake Boxall-Legge, « The ‘completely mad’ nose job that transformed F1 design » (mars 2020)
-      url: https://www.autosport.com/f1/feature/9977/the-completely-mad-nose-job-that-transformed-f1-design
+      url: https://www.autosport.com/f1/news/the-completely-mad-nose-job-that-transformed-f1-design-5113514/5113514/
   - lieu: Casumaro, près de Ferrare (Italie) – Fondmetal Technologies
     lieux:
     - casumaro
@@ -2009,7 +2009,7 @@ lignees:
     - titre: Autosport, « Honda launch new wind tunnel » (juillet 2006)
       url: https://www.autosport.com/f1/news/honda-launch-new-wind-tunnel-4402881/4402881/
     - titre: Motorsport.com, Adam Cooper, « Why Racing Point is more than just a ‘pink Mercedes’ » (mars 2020)
-      url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
+      url: https://www.motorsport.com/f1/news/racing-point-progress-pink-mercedes-analysis/4738979/
     - titre: PlanetF1, Matthew Somerfield, « F1’s secret battleground revealed amid preparations for 2026 revolution » (novembre 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
 - id: williams
@@ -2359,7 +2359,7 @@ lignees:
     periode: 2010–2024
     sources:
     - titre: Autosport, Edd Straw, « Toro Rosso hails aero gains amid strong 2013 Formula 1 season » (août 2013)
-      url: https://www.autosport.com/f1/news/109340/toro-rosso-hails-aero-gains
+      url: https://www.autosport.com/f1/news/toro-rosso-hails-aero-gains-amid-strong-2013-formula-1-season-4468047/4468047/
     - titre: 'Autosport, Jake Boxall-Legge, « Exclusive: Inside RB’s growth from second-string junior team to Red Bull’s ‘brother’ » (août 2024)'
       url: https://www.autosport.com/f1/news/exclusive-inside-rbs-growth-from-second-string-junior-team-to-red-bulls-brother/10646050/
   - lieu: Milton Keynes (Buckinghamshire) – campus Red Bull
@@ -2403,7 +2403,7 @@ lignees:
     - titre: Speedcafe, « First genuine Toro Rosso breaks cover » (février 2010)
       url: https://speedcafe.com/first-genuine-toro-rosso-breaks-cover/
     - titre: Autosport, Edd Straw, « Toro Rosso hails aero gains amid strong 2013 Formula 1 season » (août 2013)
-      url: https://www.autosport.com/f1/news/109340/toro-rosso-hails-aero-gains
+      url: https://www.autosport.com/f1/news/toro-rosso-hails-aero-gains-amid-strong-2013-formula-1-season-4468047/4468047/
     - titre: Autosport, Luke Smith, « AlphaTauri move to Red Bull windtunnel offers ‘big advantage’ » (janvier 2021)
       url: https://www.autosport.com/f1/news/alphatauri-move-to-red-bull-windtunnel-offers-big-advantage-5115312/5115312/
   - lieu: Bedford (Bedfordshire) – ancien site RAE de Thurleigh
@@ -2517,7 +2517,7 @@ lignees:
     statut: loue
     sources:
     - titre: Autosport, Gary Anderson, « How Jordan laid its foundations in 1990 » (août 2015)
-      url: https://www.autosport.com/f1/feature/6630/how-jordan-laid-its-foundations-in-1990
+      url: https://www.autosport.com/f1/news/how-jordan-laid-its-foundations-in-1990-5104786/5104786/
   - lieu: Brackley (Northamptonshire) – soufflerie ex-March/Jordan
     lieux:
     - brackley
@@ -2531,15 +2531,15 @@ lignees:
     - titre: GrandPrix.com, Joe Saward, « Investment at Jordan » (avril 2005)
       url: https://www.grandprix.com/news/investment-at-jordan.html
     - titre: Pitpass, « Jordan Grand Prix acquires Brackley wind tunnel facility » (avril 2005)
-      url: https://new.pitpass.com/24143/Jordan-Grand-Prix-acquires-Brackley-wind-tunnel-facility
+      url: https://www.pitpass.com/24143/Jordan-Grand-Prix-acquires-Brackley-wind-tunnel-facility
     - titre: Autosport, Edd Straw, « Force India set to upgrade facilities once F1 spending rules clear » (août 2013)
-      url: https://www.autosport.com/f1/news/109255/force-india-set-for-facilities-upgrade
+      url: https://www.autosport.com/f1/news/force-india-set-to-upgrade-facilities-once-f1-spending-rules-clear-4468143/4468143/
     - titre: Sky Sports, William Esler, « Force India to use Toyota’s wind tunnel in Cologne for all aerodynamic testing » (décembre 2014)
-      url: https://www.skysports.com/f1/news/12477/9591799/force-india-to-use-toyotas-wind-tunnel-in-cologne-for-all-aerodynamic-testing
+      url: https://www.skysports.com/f1/news/9591799/force-india-to-use-toyotas-wind-tunnel-in-cologne-for-all-aerodynamic-testing
     - titre: Autosport, Jonathan Noble, « Spyker to get wind tunnel boost » (juin 2007)
-      url: https://www.autosport.com/f1/news/59328/spyker-to-get-wind-tunnel-boost
+      url: https://www.autosport.com/f1/news/spyker-to-get-wind-tunnel-boost-4410866/4410866/
     - titre: Autosport, « Q & A with Gascoyne and Kolles » (octobre 2007)
-      url: https://www.autosport.com/f1/news/63357/q-and-a-with-gascoyne-and-kolles
+      url: https://www.autosport.com/f1/news/q-a-with-gascoyne-and-kolles-4417543/4417543/
   - lieu: Huntingdon (Cambridgeshire) – Lola
     lieux:
     - huntingdon
@@ -2551,7 +2551,7 @@ lignees:
     - titre: Crash.net, Ollie Barstow, « Lola helping Spyker with revised car » (juillet 2007)
       url: https://www.crash.net/f1/news/59136/1/spyker-getting-lola-help-for-revised-car
     - titre: Autosport, « Q & A with Mike Gascoyne » (juin 2007)
-      url: https://www.autosport.com/f1/news/59327/q-and-a-with-mike-gascoyne
+      url: https://www.autosport.com/f1/news/q-a-with-mike-gascoyne-4410865/4410865/
   - lieu: Modène (Italie), Aerolab, à proximité
     lieux:
     - modene
@@ -2563,11 +2563,11 @@ lignees:
     - titre: GrandPrix.com, Joe Saward, « Gascoyne turns up the boost » (janvier 2007)
       url: https://www.grandprix.com/news/gascoyne-turns-up-the-boost.html
     - titre: Autosport, « Q & A with Gascoyne and Kolles » (octobre 2007)
-      url: https://www.autosport.com/f1/news/63357/q-and-a-with-gascoyne-and-kolles
+      url: https://www.autosport.com/f1/news/q-a-with-gascoyne-and-kolles-4417543/4417543/
     - titre: Cour d’appel d’Angleterre et du pays de Galles, Force India Formula One Team Ltd v Aerolab Srl [2013] EWCA Civ 780 (juillet 2013)
       url: https://caselaw.nationalarchives.gov.uk/ewca/civ/2013/780
     - titre: Autosport, Jonathan Noble, « Lotus design under scrutiny » (novembre 2009)
-      url: https://www.autosport.com/f1/news/80029/lotus-design-under-scrutiny
+      url: https://www.autosport.com/f1/news/lotus-design-under-scrutiny-4433827/4433827/
   - lieu: Cologne (Allemagne) – Toyota Motorsport GmbH / TGR-E
     lieux:
     - cologne
@@ -2577,11 +2577,11 @@ lignees:
     statut: loue
     sources:
     - titre: Sky Sports, William Esler, « Force India to use Toyota’s wind tunnel in Cologne for all aerodynamic testing » (décembre 2014)
-      url: https://www.skysports.com/f1/news/12477/9591799/force-india-to-use-toyotas-wind-tunnel-in-cologne-for-all-aerodynamic-testing
+      url: https://www.skysports.com/f1/news/9591799/force-india-to-use-toyotas-wind-tunnel-in-cologne-for-all-aerodynamic-testing
     - titre: GrandPrix.com, GMM, « Force India turns to Toyota for wind tunnel » (septembre 2014)
       url: https://www.grandprix.com/news/force-india-turns-to-toyota-for-wind-tunnel.html
     - titre: Motorsport.com, Adam Cooper, « Why Racing Point is more than just a ‘pink Mercedes’ » (mars 2020)
-      url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
+      url: https://www.motorsport.com/f1/news/racing-point-progress-pink-mercedes-analysis/4738979/
     - titre: PlanetF1, Matthew Somerfield, « F1’s secret battleground revealed amid preparations for 2026 revolution » (novembre 2025)
       url: https://www.planetf1.com/features/f1s-secret-battleground-revealed-amid-preparations-for-2026-revolution
   - lieu: Brackley (Northamptonshire) – soufflerie Mercedes
@@ -2593,7 +2593,7 @@ lignees:
     statut: loue
     sources:
     - titre: Motorsport.com, Adam Cooper, « Why Racing Point is more than just a ‘pink Mercedes’ » (mars 2020)
-      url: https://www.motorsport.com/all/news/racing-point-progress-pink-mercedes-analysis/4738979/
+      url: https://www.motorsport.com/f1/news/racing-point-progress-pink-mercedes-analysis/4738979/
     - titre: Formula 1, « Aston Martin begin use of state-of-the-art new wind tunnel as part of ‘big focus’ on 2026 car » (mars 2025)
       url: https://www.formula1.com/en/latest/article/aston-martin-begin-use-of-state-of-the-art-new-wind-tunnel-as-part-of-big.jez3wED6hn6Kdrb7022AP
   - lieu: Silverstone (Northamptonshire) – AMR Technology Campus
@@ -2728,7 +2728,7 @@ lignees:
     - titre: 'GrandPrix.com, Joe Saward, « Review of the Year: 6th - Sauber Petronas » (décembre 2003)'
       url: https://www.grandprix.com/news/review-of-the-year-6th-sauber-petronas.html
     - titre: Autosport, Kevin Turner, « The remains of a sportscar stalwart still going strong » (avril 2018)
-      url: https://www.autosport.com/engineering/feature/8109/the-remains-of-a-sportscar-stalwart-still-going-strong
+      url: https://www.autosport.com/general/news/the-remains-of-a-sportscar-stalwart-still-going-strong-5110703/5110703/
   - lieu: Hinwil (canton de Zurich, Suisse)
     lieux:
     - hinwil
@@ -2952,7 +2952,7 @@ lignees:
     - titre: Motor Sport, « The 250F Maserati – Part one » (avril 1986)
       url: https://www.motorsportmagazine.com/archive/article/april-1986/32/the-250f-maserati-2/
     - titre: Motor Sport, « Maserati 250F » (janvier 1980)
-      url: https://motorsportmagazine.com/archive/article/january-1980/46/maserati-250f
+      url: https://www.motorsportmagazine.com/archive/article/january-1980/46/maserati-250f/
 - id: cooper
   nom: Cooper
   segments:
@@ -3282,7 +3282,7 @@ lignees:
     periode: '1958'
     sources:
     - titre: Lotus Cars, « Lotus Places »
-      url: https://www.lotuscars.com/lotus-story/about-lotus/places
+      url: https://www.lotuscars.com/en-GB/lotus-story/about-lotus/places
   - lieu: Cheshunt (Hertfordshire)
     lieux:
     - cheshunt
@@ -3291,7 +3291,7 @@ lignees:
     periode: 1959–1966
     sources:
     - titre: Lotus Cars, « Lotus Places »
-      url: https://www.lotuscars.com/lotus-story/about-lotus/places
+      url: https://www.lotuscars.com/en-GB/lotus-story/about-lotus/places
     - titre: Motor Sport, « Lotus voices » (août 2004)
       url: https://www.motorsportmagazine.com/archive/article/august-2004/42/lotus-voices
   - lieu: Hethel (Norfolk)
@@ -3324,11 +3324,11 @@ lignees:
     periode: à partir du milieu des années 1970–1994
     sources:
     - titre: Lotus Cars, « Lotus Places »
-      url: https://www.lotuscars.com/lotus-story/about-lotus/places
+      url: https://www.lotuscars.com/en-GB/lotus-story/about-lotus/places
     - titre: GrandPrix.com, « The end of a legend at Lotus » (20 février 1995)
       url: https://www.grandprix.com/news/the-end-of-a-legend-at-lotus.html
     - titre: 'Motor Sport, « Flashback: Lotus launches its 1990 F1 car with Warwick and Donnelly » (mars 2024)'
-      url: https://motorsportmagazine.com/archive/article/march-2024/43/flashback-lotus-launches-its-1990-f1-car-with-warwick-and-donnelly
+      url: https://www.motorsportmagazine.com/archive/article/march-2024/43/flashback-lotus-launches-its-1990-f1-car-with-warwick-and-donnelly/
 - id: tec-mec
   nom: Tec-Mec
   segments:
@@ -3622,7 +3622,7 @@ lignees:
     - titre: VeloceToday, « A look at Automobili Turismo e Sport »
       url: https://velocetoday.com/a-look-at-automobili-turismo-e-sport/
     - titre: Petrolicious, « Ferrari Rebels »
-      url: https://petrolicious.com/articles/ferrari-rebels
+      url: https://petrolicious.com/blogs/articles/ferrari-rebels
 - id: brp
   nom: BRP
   segments:
@@ -3643,7 +3643,7 @@ lignees:
     - titre: Motor Sport, « The British Racing Partnership » (décembre 1997)
       url: https://www.motorsportmagazine.com/archive/article/december-1997/78/british-racing-partnership/
     - titre: Motor Sport, « British Racing Partnership — pushed out by the establishment? » (mai 2022)
-      url: https://motorsportmagazine.com/archive/article/may-2022/101/930634
+      url: https://www.motorsportmagazine.com/archive/article/may-2022/101/930634/
 - id: alfa-special
   nom: Alfa Special
   texte: 'Voiture de Peter de Klerk, à moteur Alfa Romeo Giulietta réalésé : les résultats officiels l''inscrivent sous « Alfa Romeo », mais Motor Sport la nomme Alfa Special, et elle n''a rien à voir avec l''équipe d''usine.'
@@ -3879,7 +3879,7 @@ lignees:
     - titre: Motor Sport, « When an accountant fired Adrian Newey and doomed an F1 team » (janvier 2026)
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/when-an-accountant-fired-adrian-newey-and-doomed-an-f1-team/
     - titre: Goodwood Road & Racing, Adam Wilkins, « The Leyton House CG901 Formula 1 car catapulted Adrian Newey’s career » (août 2019)
-      url: https://www.goodwood.com/grr/race/historic/2019/8/the-leyton-house-cg901-formula-1-car-catapulted-adrian-neweys-career/
+      url: https://www.goodwood.com/grr/f1/the-leyton-house-cg901-formula-1-car-catapulted-adrian-neweys-career/
   - lieu: Brackley (Northamptonshire) – soufflerie ex-March/Jordan
     lieux:
     - brackley
@@ -4551,7 +4551,7 @@ lignees:
     statut: loue
     sources:
     - titre: Autosport, Graham Keilloh, « The failed gamble that began an F1 team’s downfall » (septembre 2019)
-      url: https://www.autosport.com/engineering/feature/9530/the-failed-gamble-that-began-an-f1-team-downfall
+      url: https://www.autosport.com/general/news/the-failed-gamble-that-began-an-f1-teams-downfall-5112840/5112840/
   - lieu: Bedford (Bedfordshire) – ancien site RAE de Thurleigh
     lieux:
     - bedford
@@ -5014,7 +5014,7 @@ lignees:
     - titre: GrandPrix.com, Joe Saward, « Simtek Grand Prix » (encyclopédie, s.d.)
       url: https://www.grandprix.com/constructors/simtek-grand-prix.html
     - titre: GrandPrix.com, Joe Saward, « Nick Wirth » (encyclopédie, s.d.)
-      url: https://grandprix.com/people/nick-wirth.html
+      url: https://www.grandprix.com/people/nick-wirth.html
     - titre: GrandPrix.com, « July 24, 1995 » (juillet 1995)
       url: https://www.grandprix.com/ns/ns00221.html
   souffleries:
@@ -5114,7 +5114,7 @@ lignees:
     statut: propre
     sources:
     - titre: Autosport, Dieter Rencken, « The busy afterlife of Toyota Motorsport » (septembre 2010)
-      url: https://www.autosport.com/f1/feature/3032/the-busy-afterlife-of-toyota-motorsport
+      url: https://www.autosport.com/f1/news/the-busy-afterlife-of-toyota-motorsport-5081590/5081590/
     - titre: Autosport, Stuart Codling, « Why Haas F1 won't use Toyota's wind tunnel despite technical partnership » (février 2025)
       url: https://www.autosport.com/f1/news/why-haas-f1-wont-use-toyotas-wind-tunnel-despite-technical-partnership/10693467/
 - id: super-aguri
@@ -5139,9 +5139,9 @@ lignees:
     - titre: GrandPrix.com, « Super Aguri and Menard » (janvier 2006)
       url: https://www.grandprix.com/news/super-aguri-and-menard.html
     - titre: Crash.net, « End of the road for Aguri » (mai 2008)
-      url: https://crash.net/f1/news/62022/1/end-of-the-road-for-aguri
+      url: https://www.crash.net/f1/news/62022/1/end-of-the-road-for-aguri
     - titre: RaceFans, « Super Aguri » (fiche équipe, s.d.)
-      url: https://racefans.net/f1-information/f1-teams/super-aguri/
+      url: https://www.racefans.net/f1-information/f1-teams/super-aguri/
 - id: hrt
   nom: HRT
   segments:
@@ -5160,7 +5160,7 @@ lignees:
     periode: 2010–2011
     sources:
     - titre: 'Autosport, Edd Straw, « HRT: Taking time to be taken seriously » (mai 2012)'
-      url: https://www.autosport.com/f1/feature/4413/hrt-taking-time-to-be-taken-seriously
+      url: https://www.autosport.com/f1/news/hrt-taking-time-to-be-taken-seriously-5098593/5098593/
   - lieu: Madrid (Espagne), Caja Mágica
     lieux:
     - madrid
@@ -5171,7 +5171,7 @@ lignees:
     - titre: Autosport, Pablo Elizalde, « HRT confirms new headquarters will be in Madrid » (février 2012)
       url: https://www.autosport.com/f1/news/hrt-confirms-new-headquarters-will-be-in-madrid-4452241/4452241/
     - titre: 'Autosport, Edd Straw, « HRT: Taking time to be taken seriously » (mai 2012)'
-      url: https://www.autosport.com/f1/feature/4413/hrt-taking-time-to-be-taken-seriously
+      url: https://www.autosport.com/f1/news/hrt-taking-time-to-be-taken-seriously-5098593/5098593/
   souffleries:
   - lieu: Brackley (Northamptonshire), soufflerie Mercedes
     lieux:
@@ -5182,7 +5182,7 @@ lignees:
     statut: loue
     sources:
     - titre: 'Autosport, Edd Straw, « HRT: Taking time to be taken seriously » (mai 2012)'
-      url: https://www.autosport.com/f1/feature/4413/hrt-taking-time-to-be-taken-seriously
+      url: https://www.autosport.com/f1/news/hrt-taking-time-to-be-taken-seriously-5098593/5098593/
 - id: manor
   nom: Virgin, Marussia et Manor
   segments:
@@ -5337,7 +5337,7 @@ lignees:
     statut: loue
     sources:
     - titre: Autosport, Jonathan Noble, « Lotus design under scrutiny » (novembre 2009)
-      url: https://www.autosport.com/f1/news/80029/lotus-design-under-scrutiny
+      url: https://www.autosport.com/f1/news/lotus-design-under-scrutiny-4433827/4433827/
     - titre: Pitpass, « Lotus confirms Williams wind tunnel deal » (juin 2011)
       url: https://www.pitpass.com/43936/
     - titre: The Checkered Flag, David Bean, « Team Lotus announce wind tunnel deal with Williams » (juin 2011)
@@ -6288,7 +6288,7 @@ ecuries:
   - titre: Formula 1, « 1969 Monaco Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1969/races/269/monaco/race-result
   - titre: GrandPrix.com, « Cooper Car Company »
-    url: https://www.grandprix.com/gpe/con-coope.html
+    url: https://www.grandprix.com/constructors/cooper-car-company.html
   moteurs:
   - motoriste: jap
     de: 1950

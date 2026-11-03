@@ -16,7 +16,7 @@ sources:
   - titre: "Mark Glendenning, Racer, “Tales of the tape: Early adventures in F1 data logging” (April 2024)"
     url: "https://racer.com/2024/04/04/tales-of-the-tape-early-adventures-in-f1-data-logging/"
   - titre: "Elizabeth Blackstock, Jalopnik, “Formula One Telemetry: Explained” (December 2020)"
-    url: "https://jalopnik.com/formula-one-telemetry-explained-1845819678/"
+    url: "https://www.jalopnik.com/formula-one-telemetry-explained-1845819678/"
   - titre: "Formula 1, “1978 Team Standings” (official results)"
     url: "https://www.formula1.com/en/results/1978/team"
   - titre: "Formula 1, “1978 Driver Standings” (official results)"

@@ -25,7 +25,7 @@ sources:
   - titre: "Motor Sport Magazine, “Mission: Improbable” (April 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2001/40/mission-improbable/"
   - titre: "GrandPrix.com, “Tony Southgate”"
-    url: "https://grandprix.com/people/tony-southgate.html"
+    url: "https://www.grandprix.com/people/tony-southgate.html"
   - titre: "Keith Howard, Motor Sport Magazine, “Active suspension” (December 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2001/69/active-suspension"
 consultation: "25 October 2026"

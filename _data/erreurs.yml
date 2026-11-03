@@ -285,7 +285,7 @@ erreurs:
   preuves:
   - titre: OldRacingCars.com, « Silverstone, 13 May 1950 »
     titre_en: OldRacingCars.com, “Silverstone, 13 May 1950”
-    url: https://www.oldracingcars.com/results/result.php?RaceID=GB50
+    url: https://www.oldracingcars.com/f1/results/1950/britain/
     citation: '1 Giuseppe Farina Alfa Romeo 158 - s/c 8 #2 Alfa Romeo SpA 70'
   - titre: 'Pirelli, « The first Grand Prix in history: Nino Farina, Alfa Romeo and Pirelli triumph »'
     titre_en: 'Pirelli, “The first Grand Prix in history: Nino Farina, Alfa Romeo and Pirelli triumph”'
@@ -312,7 +312,7 @@ erreurs:
   preuves:
   - titre: 'Pirelli, « Celebrating 400 Formula 1 races: Pirelli''s highlights »'
     titre_en: 'Pirelli, “Celebrating 400 Formula 1 races: Pirelli''s highlights”'
-    url: https://www.pirelli.com/global/en-ww/race/celebrating-400-formula-1-races-pirelli-s-highlights
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/formula-1/celebrating-400-formula-1-races-pirelli-s-highlights-53226/
     citation: It all began at Silverstone on May 13, 1950, when Giuseppe Farina won the first ever world championship grand prix in his Alfa Romeo, fitted with Pirelli Stella Bianca tyres.
 - id: e015
   categorie: source_erronee
@@ -408,7 +408,7 @@ erreurs:
   source:
     titre: Pirelli, « 110 years from race to road »
     titre_en: Pirelli, “110 years from race to road”
-    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
     citation: In 1951 the legend that was Juan Manuel Fangio took his first title with Alfa Romeo on Cinturato tyres, which would also claim the championship with Alberto Ascari's Ferrari in 1952 and 1953.
   juste:
     fr: Pneus de course Pirelli (Stella Bianca puis Stelvio) ; le Cinturato est un pneu radial de route
@@ -435,7 +435,7 @@ erreurs:
   source:
     titre: GrandPrix.com, « Monaco GP, 1955 »
     titre_en: GrandPrix.com, “Monaco GP, 1955”
-    url: https://www.grandprix.com/gpe/rr043.html
+    url: https://www.grandprix.com/races/monaco-gp-1955.html
     citation: Further back Mike Hawthorn made his first appearance in a World Championship event in his Vanwall .
   juste:
     fr: Hawthorn court en championnat depuis 1952 (3e à Silverstone cette année-là) ; Monaco 1955 n'est que sa première course sur Vanwall
@@ -534,7 +534,7 @@ erreurs:
   source:
     titre: Pirelli, « 110 years from race to road »
     titre_en: Pirelli, “110 years from race to road”
-    url: https://www.pirelli.com/global/en-ww/race/110-years-from-race-to-road
+    url: https://www.pirelli.com/global/en-ww/race/racingspot/110-years-from-race-to-road-50621/
     citation: At the end of the same year the Argentine champion took his fifth Formula 1 ® title, driving a Maserati with Pirelli tyres.
   juste:
     fr: Le cinquième titre de Fangio date de 1957, sur Maserati ; en 1954, il remporte son deuxième
@@ -629,7 +629,7 @@ erreurs:
   preuves:
   - titre: GrandPrix.com, « Argentine GP, 1955 »
     titre_en: GrandPrix.com, “Argentine GP, 1955”
-    url: https://www.grandprix.com/gpe/rr042.html
+    url: https://www.grandprix.com/races/argentine-gp-1955.html
     citation: Lancia worked on the D50, Maserati on the 250F and Mercedes-Benz on the W196
   - titre: IMS, résultats de l'Indianapolis 500 1955
     titre_en: IMS, 1955 Indianapolis 500 results
@@ -2952,7 +2952,7 @@ erreurs:
   source:
     titre: GrandPrix.com, « Mario Illien » (encyclopédie)
     titre_en: GrandPrix.com, “Mario Illien” (encyclopedia)
-    url: https://grandprix.com/people/mario-illien.html
+    url: https://www.grandprix.com/people/mario-illien.html
     citation: The first Mercedes V10 victory in F1 came finally at the end of 1997
   juste:
     fr: Grand Prix d'Australie 1997, première manche de la saison (Coulthard, McLaren Mercedes)
@@ -4347,11 +4347,11 @@ erreurs:
   preuves:
   - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
     titre_en: Autosport (GP Racing), Stuart Codling, “How its faltering first turbo car advanced a Williams-Honda glory era” (September 2022)
-    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
+    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
     citation: 'Engine: Turbocharged Honda RA163E 80-degree V6'
   - titre: Autosport (GP Racing), Stuart Codling, « How its faltering first turbo car advanced a Williams-Honda glory era » (septembre 2022)
     titre_en: Autosport (GP Racing), Stuart Codling, “How its faltering first turbo car advanced a Williams-Honda glory era” (September 2022)
-    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/
+    url: https://www.autosport.com/f1/news/how-its-faltering-first-turbo-car-advanced-a-williams-honda-glory-era/10373506/
     citation: 'Tyres: Goodyear'
 - id: e179
   categorie: recoupement
@@ -4929,7 +4929,7 @@ erreurs:
   preuves:
   - titre: OldRacingCars.com, « Monza, 3 Sep 1950 »
     titre_en: OldRacingCars.com, “Monza, 3 Sep 1950”
-    url: https://www.oldracingcars.com/results/result.php?RaceID=I50
+    url: https://www.oldracingcars.com/f1/results/1950/italy/
     citation: '1 Giuseppe Farina Alfa Romeo 159 - s/c 8 #10 Alfa Romeo SpA 80 2h 51m 17.4s'
 - id: e207
   categorie: desaccord
@@ -4964,7 +4964,7 @@ erreurs:
   source:
     titre: Formula1.com, Mark Hughes, « Moss bluffs his way to victory at Argentina ’58 » (avril 2020)
     titre_en: Formula1.com, Mark Hughes, “Moss bluffs his way to victory at Argentina ’58” (April 2020)
-    url: https://www.formula1.com/en/latest/article.argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d.html
+    url: https://www.formula1.com/en/latest/article/argentina-58-moss-bluffs-his-way-to-victory-and-ushers-in-new-era.g34lnPj7q41eIAS0HbA9d
     citation: This enabled Moss to run through the race non-stop on the same set of Dunlop tyres
   juste:
     fr: Continental (choix de Rob Walker), selon Doug Nye et Motorsport-Magazin
@@ -5086,7 +5086,7 @@ erreurs:
     citation: it was the first F1 car to use carbon-fibre in its tub and though it was also part aluminium, we used carbon-fibre in the car’s structure two years before McLaren.
   - titre: Autosport (GP Racing), « The car that revived Brabham as an F1 force » (août 2019)
     titre_en: Autosport (GP Racing), “The car that revived Brabham as an F1 force” (August 2019)
-    url: https://www.autosport.com/f1/feature/9393/the-car-that-revived-brabham-as-an-f1-force
+    url: https://www.autosport.com/f1/news/the-car-that-revived-brabham-as-an-f1-force-5112626/5112626/
     citation: Chassis Aluminium alloy monocoque, carbon-fibre reinforcement
 - id: e213
   categorie: desaccord
