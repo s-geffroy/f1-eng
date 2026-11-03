@@ -255,14 +255,29 @@ cas:
   ecurie: ferrari
   equipe: Ferrari
   pneus: Pirelli
-  pourquoi: Pirelli compte la victoire de González sur Ferrari 625 à Silverstone en 1954 dans sa série de cinq succès consécutifs au Grand Prix de Grande-Bretagne. En avril 1954, à Syracuse, une photographie de l'archive Pirelli montre González sur Ferrari entouré des mécaniciens de l'assistance technique Pirelli. Nigel Roebuck écrit dans Motor Sport que Pirelli dominait au début des années 1950 et que Ferrari n'est passé chez Englebert qu'en 1955 (des Ferrari avaient pourtant déjà gagné en Englebert en 1951 et 1952). Le tableau des engagés de la saison donne Pirelli à la Scuderia Ferrari pour les autres Grands Prix, dont Pedralbes, l'Argentine et la Suisse.
+  pourquoi: 'À Silverstone, le journal interne de Pirelli, Fatti e Notizie, annonce en juillet 1954 que le Grand Prix d''Angleterre « è stato vinto da Gonzales (Ferrari-Pirelli) », et Pirelli range cette
+    victoire dans sa série de cinq succès consécutifs au GP de Grande-Bretagne. À Pedralbes, la Hoja del Lunes de Barcelone titre au lendemain de la course « El inglés M. Hawthorn, sobre "Ferrari-Pirelli",
+    destacado vencedor » et répète « Ferrari-Pirelli » dans son classement officiel ; une publicité Pirelli parue dans La Nuova Stampa reproduit la page d''El Mundo Deportivo qui dit la même chose. Pour
+    l''Argentine, le tableau de résultats de Roger Smith donne la lettre « P » (Pirelli) à Farina, parti en pole sur Ferrari. En avril, à Syracuse, une photographie de l''archive Pirelli montre González
+    sur Ferrari entouré des mécaniciens de l''assistance technique Pirelli, et Nigel Roebuck rappelle que Ferrari n''est passé sous contrat Englebert qu''en 1955 (des Ferrari avaient pourtant déjà gagné
+    en Englebert en 1951 et 1952). Seule la pole de González en Suisse n''a pas de source course par course : le tableau des engagés de la saison lui donne Pirelli.'
   sources:
+  - titre: Pirelli, Fatti e Notizie, « Silverstone rivincita italiana » (juillet 1954)
+    url: https://www.fondazionepirelli.org/archivio-storico/fattienotiziepirellibookreader/pubblicazioni-e-riviste/FattieNotiziePirelli/1954_07_FATTI_E_NOTIZIE.html#page/3/mode/2up
   - titre: 'Pirelli, communiqué, « The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012 » (juillet 2012)'
     url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
-  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
-    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
+  - titre: Hoja oficial de la provincia de Barcelona (Hoja del Lunes), « VIII Gran Premio automovilista de España - XII Gran Premio Peña Rhin », p. 11 (25 octobre 1954)
+    url: https://prensahistorica.mcu.es/es/catalogo_imagenes/grupo.do?path=1000224619&posicion=11&presentacion=pagina
+  - titre: Hoja oficial de la provincia de Barcelona (Hoja del Lunes), classement officiel du Grand Prix d'Espagne, p. 12 (25 octobre 1954)
+    url: https://prensahistorica.mcu.es/es/catalogo_imagenes/grupo.do?path=1000224619&posicion=12&presentacion=pagina
+  - titre: La Nuova Stampa, publicité Pirelli reprenant El Mundo Deportivo, « Mike Hawthorn con "Ferrari-Pirelli" inscribe su nombre en el historial de la prueba » (30 octobre 1954, p. 10)
+    url: https://archive.org/details/lastampa_1954-10-30/page/n9/
+  - titre: 'Haynes, Roger Smith, « Formula 1: All the Races – the World Championship story race-by-race, 1950-2011 » (2012)'
+    url: https://archive.org/details/formula1allraces0000smit
   - titre: Fondazione Pirelli, archive historique, fiche photographique « Gran Premio di Siracusa del 1954 » (avril 1954)
     url: https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000007104/gran-premio-siracusa-del-1954.html
+  - titre: Motor Sport, Nigel Roebuck, « Compound fractures » (avril 1997)
+    url: https://www.motorsportmagazine.com/archive/article/april-1997/30/compound-fractures/
   - titre: Wikipedia, « 1954 Formula One season »
     url: https://en.wikipedia.org/wiki/1954_Formula_One_season
 - annee: 1954
