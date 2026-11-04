@@ -45,6 +45,8 @@ sources:
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
   - titre: "John Tipler, Motor Sport Magazine, “A new frame of reference” (May 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
+  - titre: "Ultimatecarpage.com, Wouter Melissen, “Lotus 43 BRM” (September 2013)"
+    url: "https://www.ultimatecarpage.com/txt/272/2/Lotus-43-BRM.html"
 consultation: "25 October 2026"
 image: "/assets/partage/en/colin-chapman.jpg"
 ---
@@ -57,7 +59,7 @@ image: "/assets/partage/en/colin-chapman.jpg"
 Chapman is not the man of a single breakthrough: he piled up several, all of them architectural, and took most of them to victory.
 
 - **Lotus 25 (1962).** The aluminium [monocoque]({{ site.baseurl }}/en/glossary/#monocoque) tub replaced the [spaceframe chassis]({{ site.baseurl }}/en/glossary/#chassis-tubulaire) as the reference architecture{% include src.html n="3,4" %}. Chapman did the overall layout; much of the detail drawing was done by [Alan Styman]({{ site.baseurl }}{% link _engineers/alan-styman.md %}) and Ian Jones, and [Mike Costin]({{ site.baseurl }}{% link _engineers/mike-costin.md %}) worked out the riveted assembly{% include src.html n="13" %}. The car made its debut at the 1962 Dutch Grand Prix; Chapman said he had drawn inspiration from the steel backbone chassis of the Elan road car{% include src.html n="4" %}. In 1963, Jim Clark won seven of the ten races and Lotus its first constructors' title{% include src.html n="4" %}.
-- **Lotus 49 (1967).** The Cosworth DFV engine formed the rear part of the car: the structure bolted on in front of it, the rear suspension behind it{% include src.html n="5" %}. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 was already using it in the mid-1950s{% include src.html n="6" %} — but the Lotus 49 made it the benchmark through its compactness and lightness{% include src.html n="5" %}.
+- **Lotus 49 (1967).** The Cosworth DFV engine formed the rear part of the car: the structure bolted on in front of it, the rear suspension behind it{% include src.html n="5" %}. The [stressed engine]({{ site.baseurl }}/en/glossary/#moteur-porteur) principle was not new — [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 was already using it in the mid-1950s{% include src.html n="6" %}, and the BRM H16 of the Lotus 43 was already carrying the rear of the car in 1966{% include src.html n="14" %} — but the Lotus 49 made it the benchmark through its compactness and lightness{% include src.html n="5" %}.
 - **Lotus 72 (1970).** Credited to [Maurice Philippe]({{ site.baseurl }}{% link _engineers/maurice-philippe.md %}) and Chapman, it put the radiators on the flanks{% include src.html n="7" %}. With its successive developments, it won five world titles and 20 Grands Prix{% include src.html n="7,8" %} (see the [Lotus 72 page]({{ site.baseurl }}{% link _cars/lotus-72.md %})).
 - **The [ground effect]({{ site.baseurl }}/en/glossary/#effet-de-sol) programme.** Chapman launched and led it, through to the Lotus 78 and 79{% include src.html n="10,12" %}.
 - **Lotus 88 (1981).** The twin-chassis concept, two separately sprung bodies, was protested: the car never raced{% include src.html n="11" %}.

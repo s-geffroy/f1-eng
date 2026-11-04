@@ -81,7 +81,7 @@ La même voiture adopte une suspension avant à courtes barres de torsion, qui l
 - Diplômé du Watford College of Technology, il entre chez Lola, où il dessine la T250 de Formule Super Vee{% include src.html n="3,8" %}.
 - Chez McLaren à partir de 1972, il travaille avec Gordon Coppuck sur l'IndyCar M16 et sur la M23 championne du monde{% include src.html n="8" %}.
 - Chez Vel's Parnelli Jones, il conçoit la VPJ-6, première IndyCar à moteur Cosworth DFX{% include src.html n="3" %}. Il dessine ensuite la Chaparral 2K, première IndyCar à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) intégral, avec laquelle Johnny Rutherford gagne les 500 Miles d'Indianapolis 1980{% include src.html n="3,8" %}.
-- Recruté ensuite par Benetton, il y crée le Benetton Advanced Research Group à Godalming et dessine la B191, base de la B194 championne du monde en 1994, avant de quitter l'équipe sur un désaccord financier{% include src.html n="8" %}.
+- Recruté ensuite par Benetton, il y crée le Benetton Advanced Research Group à Godalming et dessine la B191 ; selon GrandPrix.com, elle sert de base à la B194 championne du monde en 1994{% include src.html n="8" %}, une voiture que Rory Byrne dessine sous la direction technique de Ross Brawn (voir la [Benetton B194]({{ site.baseurl }}{% link _voitures/benetton-b194.md %})). Il quitte l'équipe sur un désaccord financier{% include src.html n="8" %}.
 - De retour chez Ferrari dans les années 1990, il dessine la F310, avec laquelle Michael Schumacher gagne trois courses en 1996{% include src.html n="2,3" %}. Il rachète ensuite le bureau d'études anglais de Ferrari, qui devient B3 Technologies{% include src.html n="3,8" %}.
 - L'Arrows A19 est la dernière F1 entièrement créditée à Barnard{% include src.html n="3" %}.
 

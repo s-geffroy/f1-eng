@@ -237,7 +237,7 @@ jalons:
     annee: 1989
     voie: transmission
     titre: "La boîte semi-automatique au volant"
-    texte: "John Barnard introduit sur la Ferrari 640 la boîte commandée par palettes : fin du levier, mains sur le volant, cockpit plus compact."
+    texte: "Sur la Ferrari 640 de John Barnard, la boîte se commande par palettes, une idée venue de son bureau d'études : fin du levier, mains sur le volant, cockpit plus compact."
     entrees: [john-barnard]
     termes: [boite-semi-automatique]
 
@@ -245,7 +245,7 @@ jalons:
     annee: 1989
     voie: moteur
     titre: "Le V10 Renault"
-    texte: "Le V10 à 67° conçu sous la direction de Bernard Dudot impose, selon Renault, l'architecture V10 à l'ensemble du plateau."
+    texte: "Le V10 à 67° conçu sous la direction de Bernard Dudot revient en F1 en même temps que celui de Honda. Il domine en 1992 et 1993, et le V10 devient la norme avant d'être imposé en 2000."
     entrees: [bernard-dudot]
 
   - id: tyrrell-019

@@ -32,6 +32,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/january-1972/21/formula-2-review-end-of-an-era/"
   - titre: "Doug Nye, Motor Sport Magazine, “Lancia D50: The grand prix great that doomed a team” (July 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/"
+  - titre: "Ultimatecarpage.com, Wouter Melissen, “Lotus 43 BRM” (September 2013)"
+    url: "https://www.ultimatecarpage.com/txt/272/2/Lotus-43-BRM.html"
 consultation: "25 October 2026"
 image: "/assets/partage/en/keith-duckworth.jpg"
 ---
@@ -61,7 +63,7 @@ For its first race, at the Dutch Grand Prix at Zandvoort on 4 June 1967, Graham 
 
 ## Why Tier A
 
-It is a double breakthrough. Technically, it made the stressed engine widespread, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954{% include src.html n="7,10" %}; economically, the DFV, developed after Coventry Climax's withdrawal and at first exclusive to Lotus, then opened the gates of F1 to a horde of privateer teams{% include src.html n="4,5" %}. The make-up of the grid was redrawn as a result{% include src.html n="5" %}.
+It is a double breakthrough. Technically, it made the stressed engine widespread, which [Vittorio Jano]({{ site.baseurl }}{% link _engineers/vittorio-jano.md %})'s Lancia D50 had already used in 1954{% include src.html n="7,10" %}, and which the BRM H16 of the Lotus 43 took up in 1966{% include src.html n="11" %}; economically, the DFV, developed after Coventry Climax's withdrawal and at first exclusive to Lotus, then opened the gates of F1 to a horde of privateer teams{% include src.html n="4,5" %}. The make-up of the grid was redrawn as a result{% include src.html n="5" %}.
 
 ## Attribution
 

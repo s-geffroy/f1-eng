@@ -237,7 +237,7 @@ jalons:
     annee: 1989
     voie: "transmission"
     titre: "The semi-automatic gearbox on the steering wheel"
-    texte: "On the Ferrari 640, John Barnard introduces the paddle-shift gearbox: no more gear lever, hands on the wheel, a more compact cockpit."
+    texte: "On John Barnard's Ferrari 640, the gearbox is operated by paddles, an idea that came from his design office: no more gear lever, hands on the wheel, a more compact cockpit."
     entrees: ["john-barnard"]
     termes: ["boite-semi-automatique"]
 
@@ -245,7 +245,7 @@ jalons:
     annee: 1989
     voie: "moteur"
     titre: "The Renault V10"
-    texte: "The 67° V10 designed under the direction of Bernard Dudot establishes, according to Renault, the V10 architecture across the whole grid."
+    texte: "The 67° V10 designed under the direction of Bernard Dudot arrives in F1 at the same time as Honda's. It dominates in 1992 and 1993, and the V10 becomes the norm before being mandated in 2000."
     entrees: ["bernard-dudot"]
 
   - id: "tyrrell-019"

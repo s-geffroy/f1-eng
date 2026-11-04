@@ -23,3 +23,6 @@ specs/
 
 # Reglages locaux de Claude Code sur ce VPS : jamais versionnes
 .claude/
+
+# Cache Python (outils/verifier.py importe outils/dimensions-images.py)
+__pycache__/

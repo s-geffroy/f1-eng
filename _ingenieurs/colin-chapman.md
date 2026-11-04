@@ -45,6 +45,8 @@ sources:
     url: "https://classicteamlotus.co.uk/en/news/posts/2025/legendary-team-lotus-aerodynamicicst-peter-wright-dies/"
   - titre: "John Tipler, Motor Sport Magazine, « A new frame of reference » (mai 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2002/27/a-new-frame-of-referance/"
+  - titre: "Ultimatecarpage.com, Wouter Melissen, « Lotus 43 BRM » (septembre 2013)"
+    url: "https://www.ultimatecarpage.com/txt/272/2/Lotus-43-BRM.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/colin-chapman.jpg"
 redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
@@ -58,7 +60,7 @@ redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 Chapman n'est pas l'homme d'une seule rupture : il en accumule plusieurs, toutes architecturales, et mène la plupart à la victoire.
 
 - **Lotus 25 (1962).** La coque [monocoque]({{ site.baseurl }}/glossaire/#monocoque) en aluminium remplace le [châssis tubulaire]({{ site.baseurl }}/glossaire/#chassis-tubulaire) comme architecture de référence{% include src.html n="3,4" %}. Chapman en fait l'implantation d'ensemble ; le dessin de détail revient pour une grande part à [Alan Styman]({{ site.baseurl }}{% link _ingenieurs/alan-styman.md %}) et Ian Jones, et [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) met au point l'assemblage riveté{% include src.html n="13" %}. La voiture débute au Grand Prix des Pays-Bas 1962 ; Chapman disait s'être inspiré du châssis-poutre en acier de l'Elan routière{% include src.html n="4" %}. En 1963, Jim Clark gagne sept des dix courses et Lotus son premier titre constructeurs{% include src.html n="4" %}.
-- **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui{% include src.html n="5" %}. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) l'employait déjà au milieu des années 1950{% include src.html n="6" %} — mais la Lotus 49 en fait la référence par sa compacité et sa légèreté{% include src.html n="5" %}.
+- **Lotus 49 (1967).** Le moteur Cosworth DFV forme la partie arrière de la voiture : la structure s'accroche devant lui, la suspension arrière derrière lui{% include src.html n="5" %}. Le principe du [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) n'était pas neuf — la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) l'employait déjà au milieu des années 1950{% include src.html n="6" %}, et le H16 BRM de la Lotus 43 portait déjà la partie arrière en 1966{% include src.html n="14" %} — mais la Lotus 49 en fait la référence par sa compacité et sa légèreté{% include src.html n="5" %}.
 - **Lotus 72 (1970).** Créditée à [Maurice Philippe]({{ site.baseurl }}{% link _ingenieurs/maurice-philippe.md %}) et à Chapman, elle place les radiateurs sur les flancs{% include src.html n="7" %}. Avec ses évolutions, elle remporte cinq titres mondiaux et 20 Grands Prix{% include src.html n="7,8" %} (voir la [fiche de la Lotus 72]({{ site.baseurl }}{% link _voitures/lotus-72.md %})).
 - **Le programme d'[effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol).** Chapman le lance et le dirige, jusqu'aux Lotus 78 et 79{% include src.html n="10,12" %}.
 - **Lotus 88 (1981).** Le concept à double châssis, deux caisses suspendues séparément, est contesté : la voiture ne court jamais{% include src.html n="11" %}.

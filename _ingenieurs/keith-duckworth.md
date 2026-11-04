@@ -32,6 +32,8 @@ sources:
     url: "https://www.motorsportmagazine.com/archive/article/january-1972/21/formula-2-review-end-of-an-era/"
   - titre: "Doug Nye, Motor Sport Magazine, « Lancia D50: The grand prix great that doomed a team » (juillet 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/"
+  - titre: "Ultimatecarpage.com, Wouter Melissen, « Lotus 43 BRM » (septembre 2013)"
+    url: "https://www.ultimatecarpage.com/txt/272/2/Lotus-43-BRM.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/keith-duckworth.jpg"
 redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
@@ -62,7 +64,7 @@ Pour sa première course, au Grand Prix des Pays-Bas à Zandvoort le 4 juin 1967
 
 ## Pourquoi le Tier A
 
-C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954{% include src.html n="7,10" %} ; sur le plan économique, le DFV, conçu après le retrait de Coventry Climax et d'abord réservé à Lotus, ouvre ensuite la F1 à une foule d'équipes privées{% include src.html n="4,5" %}. Le paysage du plateau s'en trouve redessiné{% include src.html n="5" %}.
+C'est une rupture double. Sur le plan technique, elle généralise le moteur porteur, que la Lancia D50 de [Vittorio Jano]({{ site.baseurl }}{% link _ingenieurs/vittorio-jano.md %}) avait déjà employé en 1954{% include src.html n="7,10" %}, et que le H16 BRM de la Lotus 43 reprenait en 1966{% include src.html n="11" %} ; sur le plan économique, le DFV, conçu après le retrait de Coventry Climax et d'abord réservé à Lotus, ouvre ensuite la F1 à une foule d'équipes privées{% include src.html n="4,5" %}. Le paysage du plateau s'en trouve redessiné{% include src.html n="5" %}.
 
 ## Attribution
 

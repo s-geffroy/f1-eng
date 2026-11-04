@@ -1,7 +1,7 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
-total: 2340
+total: 2341
 editeurs_total: 131
-citations: 3763
+citations: 3767
 editeurs:
 - nom: Motor Sport Magazine
   n: 569
@@ -11512,6 +11512,8 @@ editeurs:
       titre: 'Domination (technologies) : Suspension active'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Turbo'
+    - url: /ingenieurs/bernard-dudot/
+      titre: Dudot, Bernard
   - titre: Honda, « 2004 B·A·R Honda 006 – F1 Machines Powered by Honda »
     url: https://global.honda/en/F1/machine/2004_BARHonda006/
     pages:
@@ -12025,6 +12027,8 @@ editeurs:
   - titre: Goodwood, Simon Ostler, « The best F1 engine eras ranked » (octobre 2022)
     url: https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/
     pages:
+    - url: /ingenieurs/bernard-dudot/
+      titre: Dudot, Bernard
     - url: /glossaire/#architecture-moteur
       titre: 'Glossaire : Architecture moteur et cylindrée'
     - url: /glossaire/#turbocompresseur
@@ -12215,7 +12219,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Récupération d''énergie'
 - nom: Ultimatecarpage
-  n: 26
+  n: 27
   sources:
   - titre: Ultimatecarpage, « Ferrari 312 T »
     url: https://www.ultimatecarpage.com/car/157/Ferrari-312-T.html
@@ -12339,6 +12343,13 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1988, Ferrari'
+  - titre: Ultimatecarpage.com, Wouter Melissen, « Lotus 43 BRM » (septembre 2013)
+    url: https://www.ultimatecarpage.com/txt/272/2/Lotus-43-BRM.html
+    pages:
+    - url: /ingenieurs/colin-chapman/
+      titre: Chapman, Colin
+    - url: /ingenieurs/keith-duckworth/
+      titre: Duckworth, Keith
   - titre: Ultimatecarpage.com, Wouter Melissen, « McLaren MP4/4 Honda » (juillet 2014)
     url: https://www.ultimatecarpage.com/car/343/McLaren-MP4-4-Honda.html
     pages:

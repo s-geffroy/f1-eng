@@ -24,18 +24,22 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot-2.html"
   - titre: "Motor Sport, “Senna's Lotus 98T heads to auction with an estimate of up to $12m” (March 2026)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/sennas-lotus-98t-heads-to-auction-with-an-estimate-of-up-to-12m/"
+  - titre: "Honda, “1989 McLaren Honda MP4/5” (manufacturer's website, undated)"
+    url: "https://global.honda/en/F1/machine/1989_McLarenHondaMP45/"
+  - titre: "Goodwood, Simon Ostler, “The best F1 engine eras ranked” (October 2022)"
+    url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
 consultation: "25 October 2026"
 image: "/assets/partage/en/bernard-dudot.jpg"
 ---
 ## What he changed
 
-Bernard Dudot was associated with the three changes to the Renault engine that then spread across the whole grid{% include src.html n="1,2,6" %}:
+Bernard Dudot was associated with the three changes to the Renault engine that the rest of the grid then adopted{% include src.html n="1,2,6" %}:
 
 **Turbo → [pneumatic valve springs]({{ site.baseurl }}/en/glossary/#rappel-pneumatique) → V10**
 
 - **The turbo.** According to Renault, every F1 team had a turbo engine during the 1985 season{% include src.html n="2" %}.
 - **Pneumatic valve springs**, introduced on the 1986 EF15 B engine, were, according to Renault, used on every F1 engine from the 1990s onwards{% include src.html n="2" %}.
-- **The V10.** The 3.5-litre 67° [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by Bernard Dudot (Motor Sport, 1988){% include src.html n="3" %}, heading a team of some twenty engineers{% include src.html n="4" %}; according to Renault, it would impose the V10 architecture on the whole grid{% include src.html n="2" %}.
+- **The V10.** The 3.5-litre 67° [V10]({{ site.baseurl }}/en/glossary/#architecture-moteur) was designed by Bernard Dudot (Motor Sport, 1988){% include src.html n="3" %}, heading a team of some twenty engineers{% include src.html n="4" %}. Renault was not alone: Honda also brought a V10 in 1989{% include src.html n="7" %}. The Renault V10 dominated in 1992 and 1993; by 1994 only Ferrari was still using a V12, which it dropped in 1996, and the rules mandated ten cylinders in 2000{% include src.html n="8" %}. Renault sees this as its engine's doing{% include src.html n="2" %}.
 
 ## Technical career
 
@@ -52,5 +56,5 @@ Renault Sport is an organisation, and the sources show it: GrandPrix.com attribu
 
 ## Why Tier B, and at its head
 
-Three engine breakthroughs, all spread to the rest of the grid according to Renault's documentation{% include src.html n="2" %}: it is the profile closest to Tier A among the next fifteen. What separates him from it is the collective nature of the achievements.
+Three engine breakthroughs, all later taken up by the rest of the grid, the V10 alongside Honda's from 1989{% include src.html n="2,7,8" %}: it is the profile closest to Tier A among the next fifteen. What separates him from it is the collective nature of the achievements.
 
