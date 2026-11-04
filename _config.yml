@@ -149,6 +149,7 @@ exclude:
   - specs/
   - deck/
   - outils/
+  - docs/
   - vendor/
   - Gemfile
   - Gemfile.lock

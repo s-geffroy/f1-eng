@@ -48,7 +48,7 @@ for f in ["_config.yml"] + glob.glob("_data/**/*.yml", recursive=True):
     charger_yaml(f)
 
 # 2. toutes les pages du site (hors dossiers exclus)
-EXCLUS = ("_site", "deck", "outils", "specs", "node_modules", ".git", "vendor")
+EXCLUS = ("_site", "deck", "outils", "specs", "docs", "node_modules", ".git", "vendor")
 pages = [p for p in glob.glob("**/*.*", recursive=True)
          if p.endswith((".md", ".html")) and not p.startswith(EXCLUS) and p not in ("README.md", "CLAUDE.md")]
 corps_par_page = {}
