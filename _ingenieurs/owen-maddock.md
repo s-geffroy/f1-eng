@@ -27,7 +27,7 @@ sources:
   - titre: "500race.org, « Owen Maddock »"
     url: "https://500race.org/people/owen-maddock/"
   - titre: "GrandPrix.com, « Owen Maddock »"
-    url: "https://www.grandprix.com/gpe/cref-madowe.html"
+    url: "https://www.grandprix.com/people/owen-maddock.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/owen-maddock.jpg"
 redirect_from: "/ingenieurs/2026/10/25/owen-maddock.html"

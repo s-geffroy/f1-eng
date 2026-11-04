@@ -8981,7 +8981,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1955, Mercedes-Benz'
   - titre: GrandPrix.com, « Belgian GP, 1958 »
-    url: https://www.grandprix.com/gpe/rr069.html
+    url: https://www.grandprix.com/races/belgian-gp-1958.html
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1958, Vanwall'
@@ -9085,7 +9085,7 @@ editeurs:
     - url: /voitures/mercedes-w05/
       titre: Mercedes W05
   - titre: GrandPrix.com, « Dutch GP, 1958 »
-    url: https://www.grandprix.com/gpe/rr067.html
+    url: https://www.grandprix.com/races/dutch-gp-1958.html
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1958, Vanwall'
@@ -9365,7 +9365,7 @@ editeurs:
     - url: /ingenieurs/osamu-goto/
       titre: Goto, Osamu
   - titre: GrandPrix.com, « Owen Maddock »
-    url: https://www.grandprix.com/gpe/cref-madowe.html
+    url: https://www.grandprix.com/people/owen-maddock.html
     pages:
     - url: /ingenieurs/owen-maddock/
       titre: Maddock, Owen
