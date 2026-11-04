@@ -71,6 +71,14 @@ corps_par_page = {}
 for p in pages:
     fm, corps = front_matter(p)
     corps_par_page[p] = (fm, corps)
+# Un fichier de collection sans front matter n'est pas une erreur pour Jekyll : il le copie comme
+# fichier statique, et la page disparaît du site sans message. Ici, c'est une erreur.
+_conf = yaml.safe_load(open("_config.yml", encoding="utf-8")) or {}
+COLLECTIONS = sorted((_conf.get("collections") or {}).keys())
+for nom in COLLECTIONS:
+    for p in sorted(glob.glob(f"_{nom}/*.md")):
+        if not open(p, encoding="utf-8").read().startswith("---\n"):
+            err(f"{p} : pas de front matter (la page ne serait pas publiée)")
 
 # 3. liens et inclusions Liquid
 for p, (fm, corps) in corps_par_page.items():
@@ -538,6 +546,101 @@ for fr, en in sorted(couples):
         if relu and dernier_commit(fr) and dernier_commit(fr).startswith(str(relu)):
             continue
         warn(f"traduction à mettre à jour : {fr} a été modifié après {en}")
+
+# 7. correspondance des collections entre langues (même nom de fichier) : dossiers, voitures, écuries
+#    (les entrées d'ingénieurs sont contrôlées en 5)
+for fr_dir, en_dir in (("_dossiers", "_features"), ("_voitures", "_cars"), ("_ecuries", "_teams")):
+    if os.path.isdir(fr_dir) and os.path.isdir(en_dir):
+        fr_f = {f for f in os.listdir(fr_dir) if f.endswith(".md")}
+        en_f = {f for f in os.listdir(en_dir) if f.endswith(".md")}
+        for f in sorted(fr_f - en_f):
+            warn(f"en : pas de traduction pour {fr_dir}/{f} (attendu : {en_dir}/{f})")
+        for f in sorted(en_f - fr_f):
+            err(f"{en_dir}/{f} n'existe pas en français ({fr_dir}/{f})")
+
+# 7 bis. pages simples : « traduction » réciproque (la page visée existe et renvoie à celle-ci)
+def _url(p, fm):
+    # adresse publiée : permalink, sinon celle que Jekyll déduit d'un index.html (« / », « /dossiers/ »)
+    if fm.get("permalink"):
+        return fm["permalink"]
+    if os.path.basename(p) == "index.html" and not p.startswith("_"):
+        return "/" + (os.path.dirname(p) + "/" if os.path.dirname(p) else "")
+    return None
+par_permalien = {_url(p, fm): (p, fm) for p, (fm, _) in corps_par_page.items() if fm and _url(p, fm)}
+for p, (fm, _) in sorted(corps_par_page.items()):
+    if not fm or not fm.get("traduction") or not _url(p, fm):
+        continue
+    cible = par_permalien.get(fm["traduction"])
+    if not cible:
+        err(f"{p} : traduction « {fm['traduction']} » ne correspond à aucune page")
+    elif cible[1].get("traduction") != _url(p, fm):
+        err(f"{p} : traduction non réciproque ({cible[0]} renvoie à « {cible[1].get('traduction')} »)")
+
+# 7 ter. textes d'interface : mêmes clés en français et en anglais dans _data/i18n.yml
+def _cles(o, pref=""):
+    if isinstance(o, dict):
+        return set().union(*[{pref + str(k)} | _cles(v, pref + str(k) + ".") for k, v in o.items()]) if o else set()
+    if isinstance(o, list):
+        return set().union(*[_cles(v, pref + f"[{i}].") for i, v in enumerate(o)]) if o else set()
+    return set()
+_i18n = charger_yaml("_data/i18n.yml") or {}
+if "fr" in _i18n and "en" in _i18n:
+    _kf, _ke = _cles(_i18n["fr"]), _cles(_i18n["en"])
+    for k in sorted(_kf - _ke):
+        err(f"_data/i18n.yml : clé « {k} » absente en anglais")
+    for k in sorted(_ke - _kf):
+        err(f"_data/i18n.yml : clé « {k} » absente en français")
+
+# 7 quater. champs anglais (*_en) des données bilingues restés en français
+FRANCAIS = re.compile(r"\bgrille de départ\b|\bclassement\b|\brésultats?\b|\bresults du\b|\bmême (article|page)\b"
+                      r"|\bfiche technique\b|\bnon daté\b|\bsite du constructeur\b|\btableau des\b|\bissu de\b"
+                      r"|\bcatalogue de vente\b|\bnotes techniques\b|\bprésentation des\b|\bpublicité\b|\blu sur\b", re.I)
+def _champs_en(o, f):
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if str(k).endswith("_en") and isinstance(v, str) and FRANCAIS.search(v):
+                warn(f"{f} : {k} en français : « {v[:70]} »")
+            _champs_en(v, f)
+    elif isinstance(o, list):
+        for v in o:
+            _champs_en(v, f)
+for f in sorted(glob.glob("_data/*.yml")):
+    _champs_en(charger_yaml(f), f)
+
+# 8. fraîcheur des fichiers générés : les générateurs sont relancés sur une copie du dépôt, et leurs
+#    sorties comparées aux fichiers versionnés. Une donnée modifiée sans relancer le script (résultats,
+#    écuries, chronologie, entrées...) publierait des chiffres faux. Environ 15 s ; --rapide l'omet.
+GENERATEURS = [  # script, sorties
+    ("domination.py", ["_data/domination.yml", "_data/compteur.yml", "_includes/domination", "_includes/compteur"]),
+    ("fiches-ecuries.py", ["_ecuries", "_teams"]),
+    ("bibliographie.py", ["_data/bibliographie.yml", "_data/en/bibliographie.yml"]),
+]
+if "--rapide" not in sys.argv:
+    import shutil, tempfile, filecmp
+    with tempfile.TemporaryDirectory(prefix="verifier-") as tmp:
+        copie = os.path.join(tmp, "depot")
+        shutil.copytree(".", copie, ignore=shutil.ignore_patterns(
+            ".git", "assets", "deck", "docs", "specs", ".claude", "_site", "node_modules", "__pycache__"))
+        for script, sorties in GENERATEURS:
+            r = subprocess.run([sys.executable, "-I", f"outils/{script}"], cwd=copie, capture_output=True, text=True)
+            if r.returncode != 0:
+                lignes = [l for l in (r.stderr or r.stdout).splitlines() if l.strip() and not l[0].isspace()]
+                err(f"outils/{script} échoue sur la copie : {lignes[-1] if lignes else r.returncode}")
+                continue
+            perimes = []
+            for s_ in sorties:
+                a_, b_ = s_, os.path.join(copie, s_)
+                if os.path.isdir(a_) or os.path.isdir(b_):
+                    noms = set(os.listdir(a_) if os.path.isdir(a_) else []) | set(os.listdir(b_) if os.path.isdir(b_) else [])
+                    for n in sorted(noms):
+                        fa, fb = os.path.join(a_, n), os.path.join(b_, n)
+                        if not (os.path.exists(fa) and os.path.exists(fb) and filecmp.cmp(fa, fb, shallow=False)):
+                            perimes.append(fa)
+                elif not (os.path.exists(a_) and os.path.exists(b_) and filecmp.cmp(a_, b_, shallow=False)):
+                    perimes.append(a_)
+            if perimes:
+                err(f"fichiers générés périmés ({len(perimes)}, dont {', '.join(perimes[:3])}) : "
+                    f"relancer python3 -I outils/{script}")
 
 for a in avertissements:
     print("attention :", a)

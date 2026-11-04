@@ -239,6 +239,9 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
 - `_data/cycles.yml` : grands cycles reglementaires (dossier /dossiers/cycles/), chacun ancre sur un
   reglement de la chronologie ; chiffres calcules par domination.py (_data/compteur.yml, cycles).
 - Ordre : releve-resultats.py, releve-jolpica.py, domination.py, verifier.py.
+- `verifier.py` relance domination.py, fiches-ecuries.py et bibliographie.py sur une copie temporaire
+  et refuse le push si une sortie versionnee differe (donnee modifiee sans relancer le script).
+  Environ 15 s de plus ; `python3 -I outils/verifier.py --rapide` omet ce controle.
 
 ### Regles de contenu
 
