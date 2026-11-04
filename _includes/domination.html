@@ -5,10 +5,11 @@ ecrasantes (saisons d'indice composite le plus élevé, avec include.unite), ing
 des écuries pendant la présence de chaque ingénieur, _data/compteur.yml),
 jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : une inclusion partage la portée de la page. {%- endcomment -%}
 {%- assign lang_h = page.lang | default: site.lang | default: "fr" -%}
-{%- if lang_h == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
+{%- comment -%} esp_, sep_pv : espace fine insécable U+202F avant « ; » et « : » (pas de retour à la ligne avant la ponctuation) {%- endcomment -%}
+{%- if lang_h == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T_h = site.data.i18n[lang_h] -%}
 {%- assign L_h = T_h.domination -%}
-{%- if lang_h == "en" -%}{%- assign D_h = site.data.en -%}{%- assign pc_h = "%" -%}{%- else -%}{%- assign D_h = site.data -%}{%- assign pc_h = " %" -%}{%- endif -%}
+{%- if lang_h == "en" -%}{%- assign D_h = site.data.en -%}{%- assign pc_h = "%" -%}{%- else -%}{%- assign D_h = site.data -%}{%- assign pc_h = " %" -%}{%- endif -%}
 {%- assign H_h = site.data.domination -%}
 {%- assign url_e_h = T_h.url.ecuries | relative_url -%}
 {%- assign url_c_h = T_h.url.chronologie | relative_url -%}

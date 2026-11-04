@@ -11,7 +11,8 @@
   Variables suffixées _c : une inclusion partage la portée de la page.
 {%- endcomment -%}
 {%- assign lang_c = page.lang | default: site.lang | default: "fr" -%}
-{%- if lang_c == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
+{%- comment -%} esp_, sep_pv : espace fine insécable U+202F avant « ; » et « : » (pas de retour à la ligne avant la ponctuation) {%- endcomment -%}
+{%- if lang_c == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T_c = site.data.i18n[lang_c] -%}
 {%- if lang_c == "en" -%}{%- assign E_c = site.data.en.ecuries -%}{%- else -%}{%- assign E_c = site.data.ecuries -%}{%- endif -%}
 {%- assign L_c = site.data["usines-coordonnees"] -%}

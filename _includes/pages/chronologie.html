@@ -1,6 +1,7 @@
 {%- comment -%} Page commune aux deux langues (voir _data/i18n.yml). {%- endcomment -%}
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
-{%- if lang == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
+{%- comment -%} esp_, sep_pv : espace fine insécable U+202F avant « ; » et « : » (pas de retour à la ligne avant la ponctuation) {%- endcomment -%}
+{%- if lang == "en" -%}{%- assign esp_ = "" -%}{%- assign sep_pv = "; " -%}{%- else -%}{%- assign esp_ = " " -%}{%- assign sep_pv = " ; " -%}{%- endif -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign debut = 1940 -%}

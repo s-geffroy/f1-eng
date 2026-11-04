@@ -576,7 +576,7 @@ erreurs:
     citation: 1955 1. 1 44 Maurice Trintignant 625 Ferrari 9
     langue: de
   - titre: Formula1.com, grille de départ du Grand Prix de Monaco 1955
-    titre_en: Formula1.com, grille de départ du Grand Prix de Monaco 1955
+    titre_en: Formula1.com, 1955 Monaco Grand Prix starting grid
     url: https://www.formula1.com/en/results/1955/races/136/monaco/starting-grid
     citation: 9 44 Maurice Trintignant TRI
 - id: e025
@@ -588,7 +588,7 @@ erreurs:
     en: Team of González's and Farina's Ferraris on formula1.com's 1955 grids
   source:
     titre: Formula1.com, grille de départ du Grand Prix d'Argentine 1955
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Argentine 1955
+    titre_en: Formula1.com, 1955 Argentine Grand Prix starting grid
     url: https://www.formula1.com/en/results/1955/races/135/argentina/starting-grid
     citation: 1 12 Jose Froilan Gonzalez GON Lancia 1:43.100
   juste:
@@ -648,7 +648,7 @@ erreurs:
     en: “Lanica Ferrari” on formula1.com's 1956 grids
   source:
     titre: Formula1.com, grille de départ du Grand Prix d'Argentine 1956
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Argentine 1956
+    titre_en: Formula1.com, 1956 Argentine Grand Prix starting grid
     url: https://www.formula1.com/en/results/1956/races/142/argentina/starting-grid
     citation: 1 30 Juan Manuel Fangio FAN Lanica Ferrari 1:42.500
   juste:
@@ -671,7 +671,7 @@ erreurs:
     en: Constructor of Pat Flaherty's car, 1956 Indianapolis pole
   source:
     titre: Formula1.com, grille de départ de l'Indianapolis 500 1956
-    titre_en: Formula1.com, grille de départ de l'Indianapolis 500 1956
+    titre_en: Formula1.com, 1956 Indianapolis 500 starting grid
     url: https://www.formula1.com/en/results/1956/races/144/indianapolis/starting-grid
     citation: 1 8 Pat Flaherty FLA Kurtis Kraft Offenhauser 4:07.260
   juste:
@@ -751,7 +751,7 @@ erreurs:
     en: The official grid lists ten cars, as Simon Arron confirms in the same magazine. No effect on our data.
   preuves:
   - titre: Formula1.com, grille de départ du Grand Prix d'Argentine 1958
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Argentine 1958
+    titre_en: Formula1.com, 1958 Argentine Grand Prix starting grid
     url: https://www.formula1.com/en/results/1958/races/158/argentina/starting-grid
     citation: 9 10 Paco Godia GOD Maserati 1:49.300 10 12 Horace Gould GOU Maserati 1:51.700
   - titre: Motor Sport, Simon Arron, « Moss' landmark 1958 Argentine GP victory » (avril 2018)
@@ -840,7 +840,7 @@ erreurs:
     en: Moss's car, pole-sitter at the 1960 Argentine Grand Prix
   source:
     titre: Formula1.com, grille de départ du Grand Prix d'Argentine 1960
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Argentine 1960
+    titre_en: Formula1.com, 1960 Argentine Grand Prix starting grid
     url: https://www.formula1.com/en/results/1960/races/178/argentina/starting-grid
     citation: 1 36 Stirling Moss MOS Lotus Climax 1:36.900
   juste:
@@ -943,7 +943,7 @@ erreurs:
     en: The official 1962 constructors' standings give BRM a six-point lead, not one. No effect on our data.
   preuves:
   - titre: Formula1.com, classement des constructeurs 1962
-    titre_en: Formula1.com, classement des constructeurs 1962
+    titre_en: Formula1.com, 1962 constructors' standings
     url: https://www.formula1.com/en/results/1962/team
     citation: Pos. Team Pts. 1 BRM 42 2 Lotus Climax 36
 - id: e040
@@ -966,7 +966,7 @@ erreurs:
     en: The official standings credit Ireland with 2 points in 1962 (5th place at East London). No effect on our data.
   preuves:
   - titre: Formula1.com, classement des pilotes 1962
-    titre_en: Formula1.com, classement des pilotes 1962
+    titre_en: Formula1.com, 1962 drivers' standings
     url: https://www.formula1.com/en/results/1962/drivers
     citation: 16 Innes Ireland IRE GBR Lotus Climax 2
 - id: e041
@@ -978,7 +978,7 @@ erreurs:
     en: Engine of the 1964 works Brabhams on formula1.com's grids
   source:
     titre: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1964
-    titre_en: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1964
+    titre_en: Formula1.com, 1964 Dutch Grand Prix starting grid
     url: https://www.formula1.com/en/results/1964/races/216/netherlands/starting-grid
     citation: 1 16 Dan Gurney GUR Brabham Ford 1:31.200
   juste:
@@ -1052,7 +1052,7 @@ erreurs:
     en: Engine of the Brabhams on formula1.com's 1966 grids (Britain, Netherlands, USA)
   source:
     titre: Formula1.com, grille de départ du Grand Prix de Grande-Bretagne 1966
-    titre_en: Formula1.com, grille de départ du Grand Prix de Grande-Bretagne 1966
+    titre_en: Formula1.com, 1966 British Grand Prix starting grid
     url: https://www.formula1.com/en/results/1966/races/238/great-britain/starting-grid
     citation: 1 5 Jack Brabham BRA Brabham Climax 1:34.500
   juste:
@@ -1086,7 +1086,7 @@ erreurs:
     en: OldRacingCars gives 1min 21.2s for Brabham's pole, more than seven seconds ahead of Hulme (1min 28.7s on the same page); the official grid gives 1min 28.1s. A typing error, with no effect on our data.
   preuves:
   - titre: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1966
-    titre_en: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1966
+    titre_en: Formula1.com, 1966 Dutch Grand Prix starting grid
     url: https://www.formula1.com/en/results/1966/races/239/netherlands/starting-grid
     citation: 1 16 Jack Brabham BRA Brabham Climax 1:28.100 2 18 Denny Hulme HUL Brabham Climax 1:28.700
 - id: e046
@@ -1124,7 +1124,7 @@ erreurs:
     en: Engine of the Lotus 49s on formula1.com's 1967 grids
   source:
     titre: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1967
-    titre_en: Formula1.com, grille de départ du Grand Prix des Pays-Bas 1967
+    titre_en: Formula1.com, 1967 Dutch Grand Prix starting grid
     url: https://www.formula1.com/en/results/1967/races/246/netherlands/starting-grid
     citation: 1 6 Graham Hill HIL Lotus Climax 1:24.600
   juste:
@@ -1147,7 +1147,7 @@ erreurs:
     en: 'Formula1.com: Rindt''s 1968 poles credited to ''Brabham Climax'''
   source:
     titre: Formula1.com, grille de départ du Grand Prix de France 1968
-    titre_en: Formula1.com, grille de départ du Grand Prix de France 1968
+    titre_en: Formula1.com, 1968 French Grand Prix starting grid
     url: https://www.formula1.com/en/results/1968/races/260/france/starting-grid
     citation: 1 2 Jochen Rindt RIN Brabham Climax 1:56.100
   juste:
@@ -1158,11 +1158,11 @@ erreurs:
     en: The formula1.com starting grids for Rouen and Mont-Tremblant 1968 label Rindt's car a 'Brabham Climax', whereas it was the Repco-engined BT26; Brabham no longer used Climax engines in 1968. Our data carried this label for the pole; they now give the Brabham Repco.
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix de France 1968
-    titre_en: OldRacingCars, results du Grand Prix de France 1968
+    titre_en: OldRacingCars, 1968 French Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1968/france/
     citation: Brabham BT26 [2] - Repco 860 V8
   - titre: OldRacingCars, résultats du Grand Prix du Canada 1968
-    titre_en: OldRacingCars, results du Grand Prix du Canada 1968
+    titre_en: OldRacingCars, 1968 Canadian Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1968/canada/
     citation: Brabham BT26 [3] - Repco 860 V8
 - id: e049
@@ -1174,7 +1174,7 @@ erreurs:
     en: 'Formula1.com: Siffert''s 1968 Mexican GP pole credited to ''Cooper Maserati'''
   source:
     titre: Formula1.com, grille de départ du Grand Prix du Mexique 1968
-    titre_en: Formula1.com, grille de départ du Grand Prix du Mexique 1968
+    titre_en: Formula1.com, 1968 Mexican Grand Prix starting grid
     url: https://www.formula1.com/en/results/1968/races/266/mexico/starting-grid
     citation: 1 16 Jo Siffert SIF Cooper Maserati 1:45.220
   juste:
@@ -1185,7 +1185,7 @@ erreurs:
     en: Rob Walker's team raced the Cooper T81 Maserati only at the first round of 1968; Siffert took the Mexico pole in the Lotus 49B R7. Formula1.com applies the 'Cooper Maserati' label to Siffert's whole season (the same error appears for third place on the Canadian grid).
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix du Mexique 1968
-    titre_en: OldRacingCars, results du Grand Prix du Mexique 1968
+    titre_en: OldRacingCars, 1968 Mexican Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1968/mexico/
     citation: Lotus 49B [R7] - Cosworth DFV V8
 - id: e050
@@ -1220,7 +1220,7 @@ erreurs:
     en: 'Formula1.com: Brabham''s 1969 poles credited to ''Brabham Climax'''
   source:
     titre: Formula1.com, grille de départ du Grand Prix d'Allemagne 1969
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Allemagne 1969
+    titre_en: Formula1.com, 1969 German Grand Prix starting grid
     url: https://www.formula1.com/en/results/1969/races/273/germany/starting-grid
     citation: 1 6 Jacky Ickx ICK Brabham Climax 7:42.100
   juste:
@@ -1231,7 +1231,7 @@ erreurs:
     en: Formula1.com lists all four Brabham poles of 1969 (South Africa, Germany, Canada, Mexico) under 'Brabham Climax', yet each was set in a Cosworth DFV-engined BT26A. The same site credits Ickx's Nürburgring win to 'Brabham Ford'.
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix d'Allemagne 1969
-    titre_en: OldRacingCars, results du Grand Prix d'Allemagne 1969
+    titre_en: OldRacingCars, 1969 German Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1969/germany/
     citation: Brabham BT26A [4] - Cosworth DFV V8
   - titre: OldRacingCars, « Brabham BT26 »
@@ -1282,7 +1282,7 @@ erreurs:
     en: 'Digitisation error in the Motor Sport archive: Siffert''s car was March 701 number 5 (the 705 is a Formula 2 car). The same error appears in the Motor Sport database summary.'
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix d'Espagne 1970
-    titre_en: OldRacingCars, results du Grand Prix d'Espagne 1970
+    titre_en: OldRacingCars, 1970 Spanish Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1970/spain/
     citation: March 701 [5] - Cosworth DFV V8
 - id: e054
@@ -1306,7 +1306,7 @@ erreurs:
     en: '''R7'' was read as ''127'' during digitisation: Graham Hill drove Rob Walker''s 49C chassis R7, finishing fourth at Jarama.'
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix d'Espagne 1970
-    titre_en: OldRacingCars, results du Grand Prix d'Espagne 1970
+    titre_en: OldRacingCars, 1970 Spanish Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1970/spain/
     citation: Lotus 49C [R7] - Cosworth DFV V8
 - id: e055
@@ -1399,7 +1399,7 @@ erreurs:
     en: The panel contradicts the article's own text, which mentions Regazzoni's pole in Argentina 1973 in a P160D as well as Siffert's in Austria 1971; three wins also mean at least three podiums. Motor Sport further notes that Siffert set a new lap record during the Austrian race, which makes the '0' fastest laps doubtful.
   preuves:
   - titre: Autosport, même article
-    titre_en: Autosport, même article
+    titre_en: Autosport, same article
     url: https://www.autosport.com/f1/news/how-britains-ferrari-survived-a-double-loss-to-enjoy-a-famous-final-hurrah/10671969/
     citation: Clay Regazzoni – who took pole position and led on his debut in Argentina in a P160D
   - titre: Motor Sport, « 9th Austrian Grand Prix » (septembre 1971)
@@ -1491,7 +1491,7 @@ erreurs:
     en: 'Formula1.com: Shadow''s 1975 poles credited to ''Shadow Matra'''
   source:
     titre: Formula1.com, grille de départ du Grand Prix d'Argentine 1975
-    titre_en: Formula1.com, grille de départ du Grand Prix d'Argentine 1975
+    titre_en: Formula1.com, 1975 Argentine Grand Prix starting grid
     url: https://www.formula1.com/en/results/1975/races/344/argentina/starting-grid
     citation: 1 17 Jean-Pierre Jarier JAR Shadow Matra 1:49.210
   juste:
@@ -1529,7 +1529,7 @@ erreurs:
     en: Fittipaldi opened the 1975 season by winning in Buenos Aires before winning at Silverstone; with Mass at Montjuïc, McLaren scored three wins that year. The M23 technical details cited elsewhere are not affected.
   preuves:
   - titre: Formula1.com, résultat du Grand Prix d'Argentine 1975
-    titre_en: Formula1.com, résultat du Grand Prix d'Argentine 1975
+    titre_en: Formula1.com, 1975 Argentine Grand Prix race result
     url: https://www.formula1.com/en/results/1975/races/344/argentina/race-result
     citation: 1 1 Emerson Fittipaldi FIT McLaren Ford 53 1:39:26.290
   - titre: Motor Sport, Paul Fearnley, « Learning new tricks » (août 2002)
@@ -1556,7 +1556,7 @@ erreurs:
     en: The race page correctly gives Watkins Glen, but its summary and 'Read full report' link point to the report of the Canadian GP held a week later. Batch 7 took no data from it.
   preuves:
   - titre: Motor Sport Database, même page
-    titre_en: Motor Sport Database, même page
+    titre_en: Motor Sport Database, same page
     url: https://www.motorsportmagazine.com/database/races/1977-united-states-grand-prix/
     citation: Circuit - Watkins Glen
 - id: e065
@@ -1628,7 +1628,7 @@ erreurs:
     en: 'Triple digitisation error: ''Cheever'', ''Osella'' and ''FA1'' became ''Chcever'', ''°sells'' and ''FAI''. OldRacingCars gives Cheever the Osella FA1B chassis 1 at Watkins Glen.'
   preuves:
   - titre: OldRacingCars, résultats du Grand Prix des États-Unis 1980
-    titre_en: OldRacingCars, results du Grand Prix des États-Unis 1980
+    titre_en: OldRacingCars, 1980 United States Grand Prix results
     url: https://www.oldracingcars.com/f1/results/1980/usa/
     citation: Osella FA1B [1] - Cosworth DFV V8
 - id: e068
@@ -3157,7 +3157,7 @@ erreurs:
     en: 'Ferrari.com: number of Scuderia pole positions in 2001'
   source:
     titre: Ferrari, « 2001 | History of Scuderia Ferrari Formula 1 » (Ferrari.com, lu sur web.archive.org)
-    titre_en: Ferrari, “2001 | History of Scuderia Ferrari Formula 1” (Ferrari.com, lu sur web.archive.org)
+    titre_en: Ferrari, “2001 | History of Scuderia Ferrari Formula 1” (Ferrari.com, read on web.archive.org)
     url: https://www.ferrari.com/en-EN/formula1/year-2001
     citation: At the end of the season the Scuderia had 9 victories, 15 places on the podium, 3 one-two wins and 10 pole positions for a total of 179 points in the Constructors’ standings.
   juste:
@@ -3183,7 +3183,7 @@ erreurs:
     en: 'Ferrari.com: season record credited to the F2002 alone in 2002'
   source:
     titre: 'Ferrari, « Ferrari F2002: 2002 F1 single-seater » (Ferrari.com, lu sur web.archive.org)'
-    titre_en: 'Ferrari, “Ferrari F2002: 2002 F1 single-seater” (Ferrari.com, lu sur web.archive.org)'
+    titre_en: 'Ferrari, “Ferrari F2002: 2002 F1 single-seater” (Ferrari.com, read on web.archive.org)'
     url: https://www.ferrari.com/en-EN/formula1/f2002
     citation: 1 5   w i n s   o u t   o f   t h e   1 7   r a c e s   r u n ,   9   o n e - t w o   f i n i s h e s   a n d   1 0   p o l e   p o s i t i o n s
   juste:
@@ -3317,7 +3317,7 @@ erreurs:
     en: 'Ferrari.com: Felipe Massa''s wins in 2006'
   source:
     titre: Ferrari, « 2006 | History of Scuderia Ferrari Formula 1 » (Ferrari.com, lu sur web.archive.org)
-    titre_en: Ferrari, “2006 | History of Scuderia Ferrari Formula 1” (Ferrari.com, lu sur web.archive.org)
+    titre_en: Ferrari, “2006 | History of Scuderia Ferrari Formula 1” (Ferrari.com, read on web.archive.org)
     url: https://www.ferrari.com/en-EN/formula1/year-2006
     citation: The seven victories by Schumacher and the three by new-entry Felipe Massa weren’t enough to stop Alonso and the Enstone team to gain their encore in the Championship.
   juste:
@@ -3626,11 +3626,11 @@ erreurs:
     en: Piquet, first past the flag in Rio, was disqualified and the win awarded to Prost; Brabham therefore had only one Cosworth win in 1982 (Patrese at Monaco) before the BMW one-two in Canada. The passage cited about the fixed skirts of 1982 is not affected.
   preuves:
   - titre: Formula1.com, résultat du Grand Prix du Brésil 1982
-    titre_en: Formula1.com, résultat du Grand Prix du Brésil 1982
+    titre_en: Formula1.com, 1982 Brazilian Grand Prix race result
     url: https://www.formula1.com/en/results/1982/races/438/brazil/race-result
     citation: DQ 1 Nelson Piquet PIQ Brabham Ford 63 1:43:53.760 0
   - titre: Formula1.com, résultat du Grand Prix de Monaco 1982
-    titre_en: Formula1.com, résultat du Grand Prix de Monaco 1982
+    titre_en: Formula1.com, 1982 Monaco Grand Prix race result
     url: https://www.formula1.com/en/results/1982/races/442/monaco/race-result
     citation: 1 2 Riccardo Patrese PAT Brabham Ford 76 1:54:11.259 9
 - id: e148
@@ -3810,7 +3810,7 @@ erreurs:
     url: https://www.motorsportmagazine.com/archive/article/june-1974/36/notes-on-the-cars-at-jarama-2/
     citation: the first three are built around monocoques made in England by John Thompson, and the latest two, 014 and 015, were constructed completely at Maranello
   - titre: Motor Sport, même article
-    titre_en: Motor Sport, même article
+    titre_en: Motor Sport, same article
     url: https://www.motorsportmagazine.com/archive/article/june-1974/36/notes-on-the-cars-at-jarama-2/
     citation: with a brand new car, 015, for Lauda
   - titre: Autosport, Gary Watkins, « The first 'British' Ferrari »
@@ -3826,7 +3826,7 @@ erreurs:
     en: 'Goodyear monopoly 1975-1976: ''sole supplier to the field'''
   source:
     titre: Ancien pourquoi (issu de Wikipedia) de pneus.monopoles[1]
-    titre_en: Ancien pourquoi (issu de Wikipedia) de pneus.monopoles[1]
+    titre_en: Former explanation (from Wikipedia) of pneus.monopoles[1]
     url: https://en.wikipedia.org/wiki/Formula_One_tyres
     citation: 'Firestone se retire après 1974 et Michelin n''arrive qu''en 1977 : Goodyear est seul à fournir le plateau, sans règle qui l''impose.'
     langue: fr
@@ -5043,7 +5043,7 @@ erreurs:
     en: Was Firestone still present in 1975?
   source:
     titre: Wikipedia, « Formula One tyres », tableau des manufacturiers par saison
-    titre_en: Wikipedia, “Formula One tyres”, tableau des manufacturiers par saison
+    titre_en: Wikipedia, “Formula One tyres”, table of tyre suppliers by season
     url: https://en.wikipedia.org/wiki/Formula_One_tyres
     citation: 1975Goodyear14Firestone0
   juste:
@@ -5259,7 +5259,7 @@ erreurs:
     en: 'Chassis of the Ferrari F1/87 that won in Japan and Australia (1987): 097 or 098'
   source:
     titre: Ultimatecarpage.com, Wouter Melissen, « Ferrari F1/87 », fiche technique (janvier 2010)
-    titre_en: Ultimatecarpage.com, Wouter Melissen, “Ferrari F1/87”, fiche technique (January 2010)
+    titre_en: Ultimatecarpage.com, Wouter Melissen, “Ferrari F1/87”, specifications (January 2010)
     url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
     citation: ( Gerhard Berger in 097)
   juste:

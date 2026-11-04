@@ -83,7 +83,7 @@
 
 {%- assign P = site.data.domination.parametres -%}
 {%- assign seuil = P.seuil | times: 100 | round -%}
-{%- if lang == "en" -%}{%- assign seuil = seuil | append: "%" -%}{%- else -%}{%- assign seuil = seuil | append: " %" -%}{%- endif -%}
+{%- if lang == "en" -%}{%- assign seuil = seuil | append: "%" -%}{%- else -%}{%- assign seuil = seuil | append: " %" -%}{%- endif -%}
 {%- assign url_dom = T.url.dossiers | append: "domination/" -%}
 <section class="frise portail-frise portail-domination" aria-labelledby="titre-portail-domination">
   <h2 id="titre-portail-domination"><a href="{{ url_dom | relative_url }}">{{ T.portail.domination_titre }}, {{ P.saisons }}</a></h2>

@@ -44,7 +44,7 @@
   <ol>
     {%- for s in e.sources %}
     <li><a href="{{ s.url }}">{{ s.titre }}</a>{% for x in s.erreurs %} <a class="biblio-erreur" href="{{ T.url.erreurs | relative_url }}#{{ x }}">({{ T.erreurs.renvoi }})</a>{% endfor %}{% if e.autres %} <span class="biblio-cite">({{ s.url | split: "/" | slice: 2 | first | remove_first: "www." }})</span>{% endif %}<br>
-      <span class="biblio-cite">{{ T.biblio.cite_par }} {% for p in s.pages %}<a href="{{ p.url | relative_url }}">{{ p.titre }}</a>{% unless forloop.last %}{% if lang == "en" %}; {% else %} ; {% endif %}{% endunless %}{% endfor %}</span></li>
+      <span class="biblio-cite">{{ T.biblio.cite_par }} {% for p in s.pages %}<a href="{{ p.url | relative_url }}">{{ p.titre }}</a>{% unless forloop.last %}{% if lang == "en" %}; {% else %} ; {% endif %}{% endunless %}{% endfor %}</span></li>
     {%- endfor %}
   </ol>
 </section>

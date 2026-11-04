@@ -6,7 +6,7 @@
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- assign E = site.data.erreurs -%}
-{%- if lang == "en" -%}{%- assign dp = ":" -%}{%- else -%}{%- assign dp = " :" -%}{%- endif -%}
+{%- if lang == "en" -%}{%- assign dp = ":" -%}{%- else -%}{%- assign dp = " :" -%}{%- endif -%}
 <section class="page-tete">
   <h1>{{ T.erreurs.titre }}</h1>
   <p class="accroche">{{ T.erreurs.accroche }}</p>

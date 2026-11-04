@@ -7261,6 +7261,16 @@ editeurs:
 - nom: OldRacingCars
   n: 289
   sources:
+  - titre: OldRacingCars, 1970 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
+  - titre: OldRacingCars, 1970 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
   - titre: OldRacingCars, 1970 F1 season
     url: https://www.oldracingcars.com/f1/1970/
     pages:
@@ -7270,11 +7280,95 @@ editeurs:
       titre: 'Dominance (chassis): 1970, BRM'
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1970, Ferrari'
+  - titre: OldRacingCars, 1970 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
+  - titre: OldRacingCars, 1970 German Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/germany/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
+  - titre: OldRacingCars, 1970 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: OldRacingCars, 1970 Spanish Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/spain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, March Ford'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: OldRacingCars, 1970 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1970/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1970, Lotus Ford'
+  - titre: OldRacingCars, 1971 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 Canadian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/canada/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Ferrari'
   - titre: OldRacingCars, 1971 F1 season
     url: https://www.oldracingcars.com/f1/1971/
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1971, BRM'
+  - titre: OldRacingCars, 1971 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 German Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/germany/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 South African Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/south-africa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Ferrari'
+  - titre: OldRacingCars, 1971 Spanish Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/spain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1971 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1971/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
+  - titre: OldRacingCars, 1972 Argentine Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/argentina/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
+  - titre: OldRacingCars, 1972 Canadian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/canada/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
   - titre: OldRacingCars, 1972 F1 season
     url: https://www.oldracingcars.com/f1/1972/
     pages:
@@ -7282,6 +7376,106 @@ editeurs:
       titre: 'Dominance (chassis): 1972, Ferrari'
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1972, Lotus Ford'
+  - titre: OldRacingCars, 1972 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
+  - titre: OldRacingCars, 1972 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, BRM'
+  - titre: OldRacingCars, 1972 South African Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/south-africa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, McLaren Ford'
+  - titre: OldRacingCars, 1972 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1972/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 Argentine Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/argentina/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 Austrian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/austria/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 Belgian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/belgium/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 Brazilian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/brazil/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, McLaren Ford'
+  - titre: OldRacingCars, 1973 Canadian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/canada/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, McLaren Ford'
+  - titre: OldRacingCars, 1973 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 German Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/germany/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 Italian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/italy/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 South African Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/south-africa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
+  - titre: OldRacingCars, 1973 Spanish Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/spain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1973 Swedish Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/sweden/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, McLaren Ford'
+  - titre: OldRacingCars, 1973 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1973/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1973, Lotus Ford'
+  - titre: OldRacingCars, 1974 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1974/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1974, Tyrrell Ford'
   - titre: OldRacingCars, 1974 F1 season
     url: https://www.oldracingcars.com/f1/1974/
     pages:
@@ -7291,6 +7485,36 @@ editeurs:
       titre: 'Dominance (chassis): 1974, Ferrari'
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1974, McLaren Ford'
+  - titre: OldRacingCars, 1974 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1974/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1974, Lotus Ford'
+  - titre: OldRacingCars, 1974 Italian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1974/italy/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1974, Lotus Ford'
+  - titre: OldRacingCars, 1974 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1974/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1974, Lotus Ford'
+  - titre: OldRacingCars, 1974 Swedish Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1974/sweden/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1974, Tyrrell Ford'
+  - titre: OldRacingCars, 1975 Austrian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/austria/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, March Ford'
+  - titre: OldRacingCars, 1975 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Hesketh Ford'
   - titre: OldRacingCars, 1975 F1 season
     url: https://www.oldracingcars.com/f1/1975/
     pages:
@@ -7298,6 +7522,28 @@ editeurs:
       titre: 'Dominance (chassis): 1975, Brabham Ford'
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1975, McLaren Ford'
+  - titre: OldRacingCars, 1975 Italian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/italy/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Ferrari'
+  - titre: OldRacingCars, 1975 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Ferrari'
+  - titre: OldRacingCars, 1975 South African Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/south-africa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Ferrari'
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Tyrrell Ford'
+  - titre: OldRacingCars, 1975 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1975/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1975, Ferrari'
   - titre: OldRacingCars, 1976 Austrian GP
     url: https://www.oldracingcars.com/f1/results/1976/austria/
     pages:
@@ -7664,252 +7910,6 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1969, Brabham Ford'
-  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1971
-    url: https://www.oldracingcars.com/f1/results/1971/south-africa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Ferrari'
-  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1972
-    url: https://www.oldracingcars.com/f1/results/1972/south-africa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, McLaren Ford'
-  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1973
-    url: https://www.oldracingcars.com/f1/results/1973/south-africa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Afrique du Sud 1975
-    url: https://www.oldracingcars.com/f1/results/1975/south-africa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Ferrari'
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Allemagne 1970
-    url: https://www.oldracingcars.com/f1/results/1970/germany/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Allemagne 1971
-    url: https://www.oldracingcars.com/f1/results/1971/germany/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Allemagne 1973
-    url: https://www.oldracingcars.com/f1/results/1973/germany/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Argentine 1972
-    url: https://www.oldracingcars.com/f1/results/1972/argentina/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Argentine 1973
-    url: https://www.oldracingcars.com/f1/results/1973/argentina/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Autriche 1973
-    url: https://www.oldracingcars.com/f1/results/1973/austria/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Autriche 1975
-    url: https://www.oldracingcars.com/f1/results/1975/austria/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, March Ford'
-  - titre: OldRacingCars, Grand Prix de Belgique 1973
-    url: https://www.oldracingcars.com/f1/results/1973/belgium/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de France 1970
-    url: https://www.oldracingcars.com/f1/results/1970/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix de France 1971
-    url: https://www.oldracingcars.com/f1/results/1971/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de France 1972
-    url: https://www.oldracingcars.com/f1/results/1972/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de France 1973
-    url: https://www.oldracingcars.com/f1/results/1973/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix de France 1974
-    url: https://www.oldracingcars.com/f1/results/1974/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1974, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1970
-    url: https://www.oldracingcars.com/f1/results/1970/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1971
-    url: https://www.oldracingcars.com/f1/results/1971/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1973
-    url: https://www.oldracingcars.com/f1/results/1973/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, McLaren Ford'
-  - titre: OldRacingCars, Grand Prix de Grande-Bretagne 1974
-    url: https://www.oldracingcars.com/f1/results/1974/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1974, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de Monaco 1970
-    url: https://www.oldracingcars.com/f1/results/1970/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: OldRacingCars, Grand Prix de Monaco 1971
-    url: https://www.oldracingcars.com/f1/results/1971/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de Monaco 1972
-    url: https://www.oldracingcars.com/f1/results/1972/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, BRM'
-  - titre: OldRacingCars, Grand Prix de Monaco 1973
-    url: https://www.oldracingcars.com/f1/results/1973/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix de Monaco 1974
-    url: https://www.oldracingcars.com/f1/results/1974/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1974, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix de Monaco 1975
-    url: https://www.oldracingcars.com/f1/results/1975/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Ferrari'
-  - titre: OldRacingCars, Grand Prix de Suède 1973
-    url: https://www.oldracingcars.com/f1/results/1973/sweden/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, McLaren Ford'
-  - titre: OldRacingCars, Grand Prix de Suède 1974
-    url: https://www.oldracingcars.com/f1/results/1974/sweden/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1974, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1970
-    url: https://www.oldracingcars.com/f1/results/1970/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1971
-    url: https://www.oldracingcars.com/f1/results/1971/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Ferrari'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1973
-    url: https://www.oldracingcars.com/f1/results/1973/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1975
-    url: https://www.oldracingcars.com/f1/results/1975/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Hesketh Ford'
-  - titre: OldRacingCars, Grand Prix des États-Unis 1970
-    url: https://www.oldracingcars.com/f1/results/1970/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix des États-Unis 1971
-    url: https://www.oldracingcars.com/f1/results/1971/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des États-Unis 1972
-    url: https://www.oldracingcars.com/f1/results/1972/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des États-Unis 1973
-    url: https://www.oldracingcars.com/f1/results/1973/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix des États-Unis 1975
-    url: https://www.oldracingcars.com/f1/results/1975/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Ferrari'
-  - titre: OldRacingCars, Grand Prix d'Espagne 1970
-    url: https://www.oldracingcars.com/f1/results/1970/spain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1970, March Ford'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: OldRacingCars, Grand Prix d'Espagne 1971
-    url: https://www.oldracingcars.com/f1/results/1971/spain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix d'Espagne 1973
-    url: https://www.oldracingcars.com/f1/results/1973/spain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Italie 1973
-    url: https://www.oldracingcars.com/f1/results/1973/italy/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Italie 1974
-    url: https://www.oldracingcars.com/f1/results/1974/italy/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1974, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix d'Italie 1975
-    url: https://www.oldracingcars.com/f1/results/1975/italy/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1975, Ferrari'
-  - titre: OldRacingCars, Grand Prix du Brésil 1973
-    url: https://www.oldracingcars.com/f1/results/1973/brazil/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix du Canada 1971
-    url: https://www.oldracingcars.com/f1/results/1971/canada/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1971, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix du Canada 1972
-    url: https://www.oldracingcars.com/f1/results/1972/canada/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1972, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix du Canada 1973
-    url: https://www.oldracingcars.com/f1/results/1973/canada/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1973, McLaren Ford'
   - titre: OldRacingCars, “Italian Grand Prix 1968”
     url: https://www.oldracingcars.com/f1/results/1968/italy/
     pages:
@@ -8041,6 +8041,139 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1969, Lotus Ford'
+  - titre: oldracingcars.com, 1966 Belgian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/belgium/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Ferrari'
+  - titre: oldracingcars.com, 1966 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Brabham Repco'
+  - titre: oldracingcars.com, 1966 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Brabham Repco'
+    erreurs:
+    - e045
+  - titre: oldracingcars.com, 1966 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Brabham Repco'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: oldracingcars.com, 1966 German Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/germany/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Brabham Repco'
+  - titre: oldracingcars.com, 1966 Italian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/italy/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Ferrari'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: oldracingcars.com, 1966 Mexican Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/mexico/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Cooper Maserati'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: oldracingcars.com, 1966 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, BRM'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
+  - titre: oldracingcars.com, 1966 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1966/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1966, Lotus BRM'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
+  - titre: oldracingcars.com, 1967 Belgian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/belgium/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Eagle Weslake'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
+  - titre: oldracingcars.com, 1967 British Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/britain/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Lotus Ford'
+  - titre: oldracingcars.com, 1967 Canadian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/canada/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Brabham Repco'
+  - titre: oldracingcars.com, 1967 Dutch Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/netherlands/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Lotus Ford'
+  - titre: oldracingcars.com, 1967 French Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/france/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Brabham Repco'
+  - titre: oldracingcars.com, 1967 German Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/germany/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Brabham Repco'
+  - titre: oldracingcars.com, 1967 Italian Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/italy/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Honda'
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
+  - titre: oldracingcars.com, 1967 Mexican Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/mexico/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Lotus Ford'
+  - titre: oldracingcars.com, 1967 Monaco Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/monaco/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Brabham Repco'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: oldracingcars.com, 1967 South African Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/south-africa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Cooper Maserati'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
+  - titre: oldracingcars.com, 1967 United States Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1967/usa/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1967, Lotus Ford'
+  - titre: oldracingcars.com, 1969 Mexican Grand Prix
+    url: https://www.oldracingcars.com/f1/results/1969/mexico/
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1969, McLaren Ford'
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Monocoque'
   - titre: OldRacingCars.com, Allen Brown, “Amon AF1 history”
     url: https://www.oldracingcars.com/amon/af1/
     pages:
@@ -8414,144 +8547,11 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1980, Ligier Ford'
-  - titre: oldracingcars.com, Grand Prix d'Afrique du Sud 1967
-    url: https://www.oldracingcars.com/f1/results/1967/south-africa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Cooper Maserati'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: oldracingcars.com, Grand Prix d'Allemagne 1966
-    url: https://www.oldracingcars.com/f1/results/1966/germany/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Brabham Repco'
-  - titre: oldracingcars.com, Grand Prix d'Allemagne 1967
-    url: https://www.oldracingcars.com/f1/results/1967/germany/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Brabham Repco'
-  - titre: oldracingcars.com, Grand Prix de Belgique 1966
-    url: https://www.oldracingcars.com/f1/results/1966/belgium/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Ferrari'
-  - titre: oldracingcars.com, Grand Prix de Belgique 1967
-    url: https://www.oldracingcars.com/f1/results/1967/belgium/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Eagle Weslake'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
-  - titre: oldracingcars.com, Grand Prix de France 1966
-    url: https://www.oldracingcars.com/f1/results/1966/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Brabham Repco'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: oldracingcars.com, Grand Prix de France 1967
-    url: https://www.oldracingcars.com/f1/results/1967/france/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Brabham Repco'
-  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1966
-    url: https://www.oldracingcars.com/f1/results/1966/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Brabham Repco'
-  - titre: oldracingcars.com, Grand Prix de Grande-Bretagne 1967
-    url: https://www.oldracingcars.com/f1/results/1967/britain/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Lotus Ford'
   - titre: OldRacingCars.com, “Grand Prix de l'ACF (French Grand Prix) 1954”
     url: https://www.oldracingcars.com/results/result.php?RaceID=F54
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1954, Mercedes-Benz'
-  - titre: oldracingcars.com, Grand Prix de Monaco 1966
-    url: https://www.oldracingcars.com/f1/results/1966/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, BRM'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
-  - titre: oldracingcars.com, Grand Prix de Monaco 1967
-    url: https://www.oldracingcars.com/f1/results/1967/monaco/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Brabham Repco'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1966
-    url: https://www.oldracingcars.com/f1/results/1966/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Brabham Repco'
-    erreurs:
-    - e045
-  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1967
-    url: https://www.oldracingcars.com/f1/results/1967/netherlands/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Lotus Ford'
-  - titre: oldracingcars.com, Grand Prix des États-Unis 1966
-    url: https://www.oldracingcars.com/f1/results/1966/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Lotus BRM'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
-  - titre: oldracingcars.com, Grand Prix des États-Unis 1967
-    url: https://www.oldracingcars.com/f1/results/1967/usa/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Lotus Ford'
-  - titre: oldracingcars.com, Grand Prix d'Italie 1966
-    url: https://www.oldracingcars.com/f1/results/1966/italy/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Ferrari'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: oldracingcars.com, Grand Prix d'Italie 1967
-    url: https://www.oldracingcars.com/f1/results/1967/italy/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Honda'
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
-  - titre: oldracingcars.com, Grand Prix du Canada 1967
-    url: https://www.oldracingcars.com/f1/results/1967/canada/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Brabham Repco'
-  - titre: oldracingcars.com, Grand Prix du Mexique 1966
-    url: https://www.oldracingcars.com/f1/results/1966/mexico/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1966, Cooper Maserati'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
-  - titre: oldracingcars.com, Grand Prix du Mexique 1967
-    url: https://www.oldracingcars.com/f1/results/1967/mexico/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1967, Lotus Ford'
-  - titre: oldracingcars.com, Grand Prix du Mexique 1969
-    url: https://www.oldracingcars.com/f1/results/1969/mexico/
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1969, McLaren Ford'
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Monocoque'
   - titre: OldRacingCars.com, “Grosser Preis der Schweiz 1954”
     url: https://www.oldracingcars.com/results/result.php?RaceID=CH54
     pages:
@@ -9020,7 +9020,7 @@ editeurs:
     pages:
     - url: /en/engineers/jean-pierre-boudy/
       titre: Boudy, Jean-Pierre
-  - titre: GrandPrix.com, “Brazilian GP 1989” (encyclopédie, non daté)
+  - titre: GrandPrix.com, “Brazilian GP 1989” (encyclopedia, undated)
     url: https://www.grandprix.com/races/brazilian-gp-1989.html
     pages:
     - url: /en/features/domination/
@@ -9378,7 +9378,7 @@ editeurs:
     pages:
     - url: /en/teams/
       titre: 'Teams: McLaren'
-  - titre: GrandPrix.com, “Gordon Murray” (encyclopédie)
+  - titre: GrandPrix.com, “Gordon Murray” (encyclopedia)
     url: https://www.grandprix.com/people/gordon-murray.html
     pages:
     - url: /en/features/domination/
@@ -10770,7 +10770,7 @@ editeurs:
     pages:
     - url: /en/timeline/#c-formule-1-5-litres-1961
       titre: 'Timeline: 1961, The 1.5-litre formula'
-  - titre: 'Autosport, Gregor Grant, “Grand Prix Gold: Belgium 1967” (compte rendu de 1967, republié en August 2010)'
+  - titre: 'Autosport, Gregor Grant, “Grand Prix Gold: Belgium 1967” (1967 report, republished in August 2010)'
     url: https://www.autosport.com/f1/news/grand-prix-gold-belgium-1967-5081554/5081554/
     pages:
     - url: /en/features/domination/
@@ -11468,7 +11468,7 @@ editeurs:
       titre: 'Dominance (technologies): Carbon monocoque'
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Honda, “1987 Lotus Honda 99T” (site du constructeur, non daté)
+  - titre: Honda, “1987 Lotus Honda 99T” (manufacturer's website, undated)
     url: https://global.honda/en/F1/machine/1987_Lotus99T/
     pages:
     - url: /en/features/domination/
@@ -11479,7 +11479,7 @@ editeurs:
       titre: 'Dominance (technologies): Carbon monocoque'
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Honda, “1987 Williams Honda FW11B” (site du constructeur, non daté)
+  - titre: Honda, “1987 Williams Honda FW11B” (manufacturer's website, undated)
     url: https://global.honda/en/F1/machine/1987_WilliamsHondaFW11B/
     pages:
     - url: /en/features/domination/
@@ -11782,7 +11782,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 2024, Ferrari'
-  - titre: Ferrari, “412 T1” (site du constructeur, non daté)
+  - titre: Ferrari, “412 T1” (manufacturer's website, undated)
     url: https://www.ferrari.com/en-EN/formula1/412-t1
     pages:
     - url: /en/features/domination/
@@ -12093,7 +12093,7 @@ editeurs:
       titre: 'Dominance (technologies): Monocoque'
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: F1Technical, “Ferrari F1 87-88” (database des voitures, non daté)
+  - titre: F1Technical, “Ferrari F1 87-88” (car database, undated)
     url: https://www.f1technical.net/f1db/cars/615/ferrari-f1-87-88
     pages:
     - url: /en/features/domination/
@@ -12248,12 +12248,12 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Ultimatecarpage.com, “Lotus 99T Honda”, fiche technique
+  - titre: Ultimatecarpage.com, “Lotus 99T Honda”, specifications
     url: https://www.ultimatecarpage.com/spec/1460/Lotus-99T-Honda.html
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1987, Lotus Honda'
-  - titre: Ultimatecarpage.com, “McLaren MP4/3 Porsche”, fiche technique
+  - titre: Ultimatecarpage.com, “McLaren MP4/3 Porsche”, specifications
     url: https://www.ultimatecarpage.com/spec/342/McLaren-MP4-3-Porsche.html
     pages:
     - url: /en/features/domination/
@@ -12265,7 +12265,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Ultimatecarpage.com, “Williams FW11B Honda”, fiche technique
+  - titre: Ultimatecarpage.com, “Williams FW11B Honda”, specifications
     url: https://www.ultimatecarpage.com/spec/1425/Williams-FW11B-Honda.html
     pages:
     - url: /en/features/domination/
@@ -12275,18 +12275,18 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Active suspension'
-  - titre: Ultimatecarpage.com, “Williams FW12C Renault”, fiche technique
+  - titre: Ultimatecarpage.com, “Williams FW12C Renault”, page 2
+    url: https://www.ultimatecarpage.com/txt/1051/2/Williams-FW12C-Renault.html
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (chassis): 1989, Williams Renault'
+  - titre: Ultimatecarpage.com, “Williams FW12C Renault”, specifications
     url: https://www.ultimatecarpage.com/spec/1051/Williams-FW12C-Renault.html
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1989, Williams Renault'
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Ultimatecarpage.com, “Williams FW12C Renault”, page 2
-    url: https://www.ultimatecarpage.com/txt/1051/2/Williams-FW12C-Renault.html
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (chassis): 1989, Williams Renault'
   - titre: Ultimatecarpage.com, Wouter Melissen, “Benetton B194 Ford” (December 2019)
     url: https://www.ultimatecarpage.com/car/7096/Benetton-B194-Ford.html
     pages:
@@ -12309,7 +12309,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Semi-automatic gearbox'
-  - titre: Ultimatecarpage.com, Wouter Melissen, “Ferrari 640 F1”, fiche technique (January 2010)
+  - titre: Ultimatecarpage.com, Wouter Melissen, “Ferrari 640 F1”, specifications (January 2010)
     url: https://www.ultimatecarpage.com/spec/174/Ferrari-640-F1.html
     pages:
     - url: /en/features/domination/
@@ -12329,7 +12329,7 @@ editeurs:
       titre: 'Dominance (technologies): Carbon monocoque'
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Ultimatecarpage.com, Wouter Melissen, “Ferrari F1/87”, fiche technique (January 2010)
+  - titre: Ultimatecarpage.com, Wouter Melissen, “Ferrari F1/87”, specifications (January 2010)
     url: https://www.ultimatecarpage.com/spec/173/Ferrari-F1-87.html
     pages:
     - url: /en/features/domination/
@@ -12367,7 +12367,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Semi-automatic gearbox'
-  - titre: Ultimatecarpage.com, Wouter Melissen, “McLaren MP4/5 Honda”, fiche technique (December 2015)
+  - titre: Ultimatecarpage.com, Wouter Melissen, “McLaren MP4/5 Honda”, specifications (December 2015)
     url: https://www.ultimatecarpage.com/spec/344/McLaren-MP4-5-Honda.html
     pages:
     - url: /en/features/domination/
@@ -12377,7 +12377,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (chassis): 1989, Williams Renault'
-  - titre: Ultimatecarpage.com, Wouter Melissen, “Williams FW13 Renault”, fiche technique (June 2015)
+  - titre: Ultimatecarpage.com, Wouter Melissen, “Williams FW13 Renault”, specifications (June 2015)
     url: https://www.ultimatecarpage.com/spec/6278/Williams-FW13-Renault.html
     pages:
     - url: /en/features/domination/
@@ -12707,7 +12707,7 @@ editeurs:
     pages:
     - url: /en/cars/mercedes-w05/
       titre: Mercedes W05
-  - titre: 'Motorsport.com (édition espagnole), José Carlos de Celis, “Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más” (June 2023)'
+  - titre: 'Motorsport.com (Spanish edition), José Carlos de Celis, “Las 100 victorias de Red Bull en F1: carreras, pilotos, coches y más” (June 2023)'
     url: https://es.motorsport.com/f1/news/victorias-red-bull-carreras-pilotos/10484974/
     pages:
     - url: /en/features/domination/
@@ -13069,7 +13069,7 @@ editeurs:
     pages:
     - url: /en/engineers/paul-rosche/
       titre: Rosche, Paul
-  - titre: Corsa (Buenos Aires), n° 15, présentation des Formule 1 avant le Grand Prix d'Allemagne (August 1966)
+  - titre: Corsa (Buenos Aires), no. 15, preview of the F1 cars before the German Grand Prix (August 1966)
     url: https://archive.org/details/corsa-n-15-2-8-agosto-1966
     pages:
     - url: /en/features/domination/
@@ -13079,28 +13079,28 @@ editeurs:
     pages:
     - url: /en/teams/
       titre: 'Teams: Virgin, Marussia and Manor'
-  - titre: Grand Prix International, “Benetton B186”, rubrique “Paddocks” (n° 101, March 1986)
+  - titre: Grand Prix International, “Benetton B186”, rubrique “Paddocks” (no. 101, March 1986)
     url: https://archive.org/details/grand.-prix.-international.-magazine.-1986.-no.-105/Grand.Prix.International.Magazine.1986.No.101/page/n2/mode/2up
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Carbon monocoque'
-  - titre: Grand Prix International, Didier Braillon, bilan de la saison 1982, fiche “Équipe Talbot-Ligier” (n° 58, fin 1982)
+  - titre: Grand Prix International, Didier Braillon, review of the 1982 season, profile “Équipe Talbot-Ligier” (no. 58, end of 1982)
     url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.58.p/page/n32/mode/2up
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Carbon monocoque'
-  - titre: Grand Prix International, notes techniques des Grands Prix d'Allemagne et d'Autriche (n° 37, 26 August 1981)
+  - titre: Grand Prix International, technical notes, Canadian Grand Prix (no. 40, October 1981)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.40.English/page/n26/mode/2up
+    pages:
+    - url: /en/features/domination/
+      titre: 'Dominance (technologies): Carbon monocoque'
+  - titre: Grand Prix International, technical notes, German and Austrian Grands Prix (no. 37, 26 August 1981)
     url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.37.English/page/n25/mode/2up
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Carbon monocoque'
-  - titre: Grand Prix International, notes techniques du Grand Prix de Long Beach (n° 45, April 1982)
+  - titre: Grand Prix International, technical notes, Long Beach Grand Prix (no. 45, April 1982)
     url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.45.English
-    pages:
-    - url: /en/features/domination/
-      titre: 'Dominance (technologies): Carbon monocoque'
-  - titre: Grand Prix International, notes techniques du Grand Prix du Canada (n° 40, October 1981)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.40.English/page/n26/mode/2up
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Carbon monocoque'
@@ -13126,7 +13126,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: La Nuova Stampa, publicité Pirelli reprenant El Mundo Deportivo, “Mike Hawthorn con "Ferrari-Pirelli" inscribe su nombre en el historial de la prueba” (30 October 1954, p. 10)
+  - titre: La Nuova Stampa, advertisement Pirelli reproducing El Mundo Deportivo, “Mike Hawthorn con "Ferrari-Pirelli" inscribe su nombre en el historial de la prueba” (30 October 1954, p. 10)
     url: https://archive.org/details/lastampa_1954-10-30/page/n9/
     pages:
     - url: /en/features/domination/
@@ -13148,7 +13148,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Renault, The Originals, “F1 R26-03” (copie archivée, May 2026)
+  - titre: Renault, The Originals, “F1 R26-03” (archived copy, May 2026)
     url: https://web.archive.org/web/20260508185251/https://theoriginals.renault.com/en/f1-r26-03
     pages:
     - url: /en/features/domination/
@@ -13516,12 +13516,12 @@ editeurs:
       titre: 'Dominance (technologies): Turbo'
     erreurs:
     - e076
-  - titre: RM Sotheby's, “1989 Ferrari F1-89 Formula One”, vente de Monaco, lot 176 (May 2014)
+  - titre: RM Sotheby's, “1989 Ferrari F1-89 Formula One”, Monaco sale, lot 176 (May 2014)
     url: https://rmsothebys.com/auctions/mc14/lots/r168-1989-ferrari-f189-formula-one/
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Active suspension'
-  - titre: RM Sotheby's, “1989 Williams FW12C”, vente de Saint-Moritz 2022
+  - titre: RM Sotheby's, “1989 Williams FW12C”, Saint-Moritz sale 2022
     url: https://rmsothebys.com/auctions/sm22/lots/r0018-1989-williams-fw12c/
     pages:
     - url: /en/features/domination/
@@ -13547,7 +13547,7 @@ editeurs:
     erreurs:
     - e112
     - e220
-  - titre: RM Sotheby's, “1994 Williams FW16” (châssis 01, vente The Now & Contemporary Evening Auction, New York)
+  - titre: RM Sotheby's, “1994 Williams FW16” (chassis 01, sale The Now & Contemporary Evening Auction, New York)
     url: https://rmsothebys.com/auctions/sw26/lots/r0001-1994-williams-fw16
     pages:
     - url: /en/features/domination/
@@ -13642,7 +13642,7 @@ editeurs:
 - nom: Fondazione Pirelli
   n: 9
   sources:
-  - titre: Fondazione Pirelli, archive historique, fiche photographique “Gran Premio di Siracusa del 1954” (April 1954)
+  - titre: Fondazione Pirelli, historical archive, photo record “Gran Premio di Siracusa del 1954” (April 1954)
     url: https://www.fondazionepirelli.org/archivio-storico/fotografie/detail/IT-PIRELLI-FT0001-0000007104/gran-premio-siracusa-del-1954.html
     pages:
     - url: /en/features/domination/
@@ -13680,12 +13680,12 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Rivista Pirelli, Nino Nutrizio, “I traguardi del '53 sono una linea di partenza” (n° 6, 1953)
+  - titre: Rivista Pirelli, Nino Nutrizio, “I traguardi del '53 sono una linea di partenza” (no. 6, 1953)
     url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/15/mode/2up
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Rivista Pirelli, Nino Nutrizio, “I traguardi del '53 sono una linea di partenza” (n° 6, 1953)
+  - titre: Rivista Pirelli, Nino Nutrizio, “I traguardi del '53 sono una linea di partenza” (no. 6, 1953)
     url: https://www.fondazionepirelli.org/archivio-storico/bookreader/pubblicazioni-e-riviste/RivistaPirelli/1953_6.html#page/13/mode/2up
     pages:
     - url: /en/features/domination/
@@ -13710,7 +13710,7 @@ editeurs:
       titre: 'Dominance (chassis): 1957, Vanwall'
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: 8W, Mattijs Diepraam et Felix Muelas, “Adios aerofoils, enter aerodynamics” (March 1999)
+  - titre: 8W, Mattijs Diepraam and Felix Muelas, “Adios aerofoils, enter aerodynamics” (March 1999)
     url: https://forix.com/8w/e69.html
     pages:
     - url: /en/features/domination/
@@ -13869,7 +13869,7 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Ground effect'
-  - titre: 8W (Forix), Rainer Nyberg et Mattijs Diepraam, “Michele Alboreto” (31 January 2000)
+  - titre: 8W (Forix), Rainer Nyberg and Mattijs Diepraam, “Michele Alboreto” (31 January 2000)
     url: https://8w.forix.com/alboreto.html
     pages:
     - url: /en/features/domination/
@@ -14044,16 +14044,6 @@ editeurs:
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: 'Pirelli, communiqué, “Pirelli and Maserati: a century-long partnership” (2 October 2014)'
-    url: https://press.pirelli.com/pirelli-and-maserati-a-century-long-partnership/
-    pages:
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
-  - titre: 'Pirelli, communiqué, “The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012” (July 2012)'
-    url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
-    pages:
-    - url: /en/features/domination/
-      titre: Dominance (tyres)
   - titre: Pirelli, “Maserati custom-made tyres from Pirelli”
     url: https://www.pirelli.com/tyres/en-gb/car/prestige/maserati
     pages:
@@ -14061,10 +14051,20 @@ editeurs:
       titre: Dominance (tyres)
     erreurs:
     - e022
+  - titre: 'Pirelli, press release, “Pirelli and Maserati: a century-long partnership” (2 October 2014)'
+    url: https://press.pirelli.com/pirelli-and-maserati-a-century-long-partnership/
+    pages:
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
+  - titre: 'Pirelli, press release, “The British Grand Prix from a tyre point of view: Silverstone, 6-8 July 2012” (July 2012)'
+    url: https://press.pirelli.com/the-british-grand-prix-from-a-tyre-point-of-view--silverstone-6-8-july-2012/
+    pages:
+    - url: /en/features/domination/
+      titre: Dominance (tyres)
 - nom: Bonhams
   n: 4
   sources:
-  - titre: Bonhams, “1990 Williams-Renault FW13B Formula 1 Racing Single-Seater, Chassis no. FW13B-07”, lot 343, vente du Goodwood Festival of Speed (June 2015)
+  - titre: Bonhams, “1990 Williams-Renault FW13B Formula 1 Racing Single-Seater, Chassis no. FW13B-07”, lot 343, Goodwood Festival of Speed sale (June 2015)
     url: https://www.bonhams.com/auctions/22723/lot/343/
     pages:
     - url: /en/features/domination/
@@ -14091,22 +14091,22 @@ editeurs:
 - nom: Delpher
   n: 4
   sources:
-  - titre: Algemeen Handelsblad, publicité Englebert, “Grote prijs van Duitsland, Nürburgring 3 augustus 1952” (4 August 1952, Delpher)
+  - titre: Algemeen Handelsblad, advertisement Englebert, “Grote prijs van Duitsland, Nürburgring 3 augustus 1952” (4 August 1952, Delpher)
     url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088514:mpeg21:a0083
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Algemeen Handelsblad, publicité Englebert, “Grote prijs van Nederland, Zandvoort 17 augustus 1952” (18 August 1952, Delpher)
+  - titre: Algemeen Handelsblad, advertisement Englebert, “Grote prijs van Nederland, Zandvoort 17 augustus 1952” (18 August 1952, Delpher)
     url: https://www.delpher.nl/nl/kranten/view?identifier=KBNRC01:000088528:mpeg21:a0041
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Het Parool, publicité Englebert, “Grote prijs Duitsland, Nürburgring 29 juli 1951” (30 July 1951, Delpher)
+  - titre: Het Parool, advertisement Englebert, “Grote prijs Duitsland, Nürburgring 29 juli 1951” (30 July 1951, Delpher)
     url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010830770:mpeg21:a0061
     pages:
     - url: /en/features/domination/
       titre: Dominance (tyres)
-  - titre: Trouw, publicité Englebert, “Grote prijs Duitsland, Nürburgring 29 juli 1951” (31 July 1951, Delpher)
+  - titre: Trouw, advertisement Englebert, “Grote prijs Duitsland, Nürburgring 29 juli 1951” (31 July 1951, Delpher)
     url: https://www.delpher.nl/nl/kranten/view?identifier=ABCDDD:010819200:mpeg21:a0043
     pages:
     - url: /en/features/domination/
@@ -14164,17 +14164,17 @@ editeurs:
 - nom: Artcurial
   n: 3
   sources:
-  - titre: Artcurial Motorcars, “1982 Renault RE 30-B9 Formule 1”, vente “The Renault Icons” (December 2025)
+  - titre: Artcurial Motorcars, “1982 Renault RE 30-B9 Formule 1”, sale “The Renault Icons” (December 2025)
     url: https://www.artcurial.com/fr/ventes/6445/lots/92-a
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Carbon monocoque'
-  - titre: Artcurial, “1982 Renault RE 30-B9 Formule 1” (vente aux enchères)
+  - titre: Artcurial, “1982 Renault RE 30-B9 Formule 1” (auction)
     url: https://www.artcurial.com/en/sales/6445/lots/92-a
     pages:
     - url: /en/features/domination/
       titre: 'Dominance (technologies): Turbo'
-  - titre: Artcurial, “1997 Benetton B197-05 Formule 1” (vente 6445, lot 131 a)
+  - titre: Artcurial, “1997 Benetton B197-05 Formule 1” (sale 6445, lot 131 a)
     url: https://www.artcurial.com/en/sales/6445/lots/131-a
     pages:
     - url: /en/features/domination/
@@ -14558,7 +14558,7 @@ editeurs:
     pages:
     - url: /en/teams/
       titre: 'Teams: AGS'
-  - titre: Hoja oficial de la provincia de Barcelona (Hoja del Lunes), classement officiel du Grand Prix d'Espagne, p. 12 (25 October 1954)
+  - titre: Hoja oficial de la provincia de Barcelona (Hoja del Lunes), official classification, Spanish Grand Prix, p. 12 (25 October 1954)
     url: https://prensahistorica.mcu.es/es/catalogo_imagenes/grupo.do?path=1000224619&posicion=12&presentacion=pagina
     pages:
     - url: /en/features/domination/
@@ -14778,7 +14778,7 @@ editeurs:
     pages:
     - url: /en/teams/
       titre: 'Teams: Kurtis Kraft'
-  - titre: Sotheby's, “1991 Benetton B191” (catalogue de vente, non daté)
+  - titre: Sotheby's, “1991 Benetton B191” (sale catalogue, undated)
     url: https://www.sothebys.com/en/buy/vehicles/cars/_benetton-1991-b191-159d
     pages:
     - url: /en/features/domination/

@@ -46,22 +46,58 @@ MOIS = {"janvier": "January", "février": "February", "mars": "March", "avril": 
         "juin": "June", "juillet": "July", "août": "August", "septembre": "September", "octobre": "October",
         "novembre": "November", "décembre": "December"}
 PAYS = {"France": "French", "Belgique": "Belgian", "Monaco": "Monaco", "Allemagne": "German", "Italie": "Italian",
-        "Grande-Bretagne": "British", "Espagne": "Spanish", "Pays-Bas": "Dutch", "Suisse": "Swiss"}
+        "Grande-Bretagne": "British", "Espagne": "Spanish", "Pays-Bas": "Dutch", "Suisse": "Swiss",
+        "États-Unis": "United States", "Canada": "Canadian", "Afrique du Sud": "South African", "Mexique": "Mexican",
+        "Suède": "Swedish", "Autriche": "Austrian", "Argentine": "Argentine", "Brésil": "Brazilian",
+        "Long Beach": "Long Beach", "Japon": "Japanese", "Hongrie": "Hungarian", "Portugal": "Portuguese",
+        "Saint-Marin": "San Marino", "Australie": "Australian", "Maroc": "Moroccan", "Europe": "European"}
+_PAYS = "|".join(re.escape(k) for k in sorted(PAYS, key=len, reverse=True))
+_GP = r"(?:de |d'|du |des )(" + _PAYS + r")"
+# Mentions françaises des titres de sources (hors titre cité entre guillemets), dans l'ordre d'application.
+MENTIONS = (
+    ("site du constructeur", "manufacturer's website"), ("non daté", "undated"), ("fiche technique", "specifications"),
+    ("catalogue de vente", "sale catalogue"), ("vente aux enchères", "auction"), ("copie archivée", "archived copy"),
+    ("archive historique, fiche photographique", "historical archive, photo record"),
+    ("encyclopédie des constructeurs", "encyclopedia of constructors"), ("encyclopédie", "encyclopedia"),
+    ("(édition espagnole)", "(Spanish edition)"), ("châssis", "chassis"), ("publicité", "advertisement"),
+    ("reprenant", "reproducing"), ("communiqué", "press release"), ("n° ", "no. "),
+    ("tableau des engagés", "entry list"), ("articles étiquetés", "tagged articles"), ("base de données", "database"),
+    ("database des voitures", "car database"), ("fiche équipe", "team page"), ("résultats", "results"), ("(tableau “", "(table “"), ("Wikipédia", "Wikipedia (fr)"),
+)
 
-def titre_en(t):
-    """Titre anglais d'une source des données sans version anglaise (chassis, pneus, technologies) :
-    guillemets et mentions françaises traduits, le titre cité restant tel quel."""
-    t = re.sub(r"«\s*(.*?)\s*»", r"“\1”", t)
-    t = re.sub(r"compte rendu du Grand Prix (?:de |d'|du )(\S+)(?: (\d{4}))?",
-               lambda m: f"{m.group(2) + ' ' if m.group(2) else ''}{PAYS.get(m.group(1), m.group(1))} Grand Prix report", t)
+def _hors_citation(t):
+    """Traduit les mentions françaises d'un fragment de titre situé hors guillemets."""
+    t = re.sub(r"compte rendu du Grand Prix " + _GP + r"(?: (\d{4}))?",
+               lambda m: f"{m.group(2) + ' ' if m.group(2) else ''}{PAYS[m.group(1)]} Grand Prix report", t)
+    t = re.sub(r"présentation des Formule 1 avant le Grand Prix " + _GP,
+               lambda m: f"preview of the F1 cars before the {PAYS[m.group(1)]} Grand Prix", t)
+    t = re.sub(r"notes techniques du Grand Prix " + _GP, lambda m: f"technical notes, {PAYS[m.group(1)]} Grand Prix", t)
+    t = re.sub(r"notes techniques des Grands Prix " + _GP + r" et " + _GP,
+               lambda m: f"technical notes, {PAYS[m.group(1)]} and {PAYS[m.group(2)]} Grands Prix", t)
+    t = re.sub(r"classement officiel du Grand Prix " + _GP, lambda m: f"official classification, {PAYS[m.group(1)]} Grand Prix", t)
+    t = re.sub(r"Grand Prix " + _GP + r" (\d{4})", lambda m: f"{m.group(2)} {PAYS[m.group(1)]} Grand Prix", t)
+    t = re.sub(r"Grand Prix " + _GP, lambda m: f"{PAYS[m.group(1)]} Grand Prix", t)
     t = re.sub(r"résultats de l'Indianapolis 500 (\d{4})", r"\1 Indianapolis 500 results", t)
     t = re.sub(r"saison (\d{4}) de F1", r"\1 F1 season", t)
-    for a, b in (("tableau des engagés", "entry list"), ("articles étiquetés", "tagged articles"),
-                 ("base de données", "database"), ("fiche équipe", "team page"), ("résultats", "results"),
-                 ("(tableau “", "(table “"), ("Wikipédia", "Wikipedia (fr)")):
+    t = t.replace("catalogue de vente", "sale catalogue").replace("vente aux enchères", "auction")
+    t = re.sub(r"fiche technique de la ([^,()]+)", r"\1 specifications", t)
+    t = re.sub(r"compte rendu de (\d{4}), republié en ", r"\1 report, republished in ", t)
+    t = re.sub(r"bilan de la saison (\d{4}), fiche ", r"review of the \1 season, profile ", t)
+    t = re.sub(r"\bfin (\d{4})", r"end of \1", t)
+    t = re.sub(r" et (?=[A-Z])", " and ", t)          # entre deux auteurs
+    t = re.sub(r"vente (?:de |du )([^,()]+?)(?: (\d{4}))?(?=[,)]| \(|$)",
+               lambda m: f"{m.group(1)} sale{' ' + m.group(2) if m.group(2) else ''}", t)
+    t = re.sub(r"\bvente\b", "sale", t)
+    for a, b in MENTIONS:
         t = t.replace(a, b)
-    t = re.sub(r"\b(" + "|".join(MOIS) + r")\b", lambda m: MOIS[m.group(1)], t)
-    return t
+    return re.sub(r"\b(" + "|".join(MOIS) + r")\b", lambda m: MOIS[m.group(1)], t)
+
+def titre_en(t):
+    """Titre anglais d'une source des données sans version anglaise (chassis, pneus, technologies, circuits) :
+    guillemets et mentions françaises traduits ; le titre cité, entre guillemets, reste tel quel."""
+    t = re.sub(r"«\s*(.*?)\s*»", r"“\1”", t)
+    morceaux = re.split(r"(“[^”]*”)", t)
+    return "".join(m if m.startswith("“") else _hors_citation(m) for m in morceaux)
 
 # Sources dont une affirmation est relevée comme fausse sur la page des erreurs (_data/erreurs.yml) :
 # URL normalisée -> identifiants des entrées, pour le renvoi affiché sur la page Sources.
