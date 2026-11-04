@@ -106,7 +106,7 @@ At the level of **lineages**, the table is almost the same. Red Bull becomes Mil
 <figure class="figure">
 {% include domination/tableau-pilote-en.svg %}
 {% include donnees-graphique.html nom="domination/tableau-pilote-en" %}
-<figcaption>The dashboard of long driver dominance, read the same way. No driver averages above 50: a driver always shares the podium with a team-mate.</figcaption>
+<figcaption>The dashboard of long driver dominance, read the same way, without the red mark: the threshold was calibrated on team seasons. No driver averages above 50: a driver always shares the podium with a team-mate.</figcaption>
 </figure>
 
 Drivers' hegemonies follow their team's: Schumacher with Ferrari, Vettel and Verstappen with Red Bull, Hamilton with Mercedes. Only **Fangio**, from 1954 to 1957, reaches hegemony with three teams: Mercedes-Benz, Ferrari and Maserati.
@@ -125,7 +125,7 @@ Drivers are where the isolated season is most frequent: {{ EF.pilote.saison }} c
 <figure class="figure">
 {% include domination/tableau-motoriste-en.svg %}
 {% include donnees-graphique.html nom="domination/tableau-motoriste-en" %}
-<figcaption>The dashboard of long engine maker dominance, read the same way.</figcaption>
+<figcaption>The dashboard of long engine maker dominance, read the same way, without the red mark: the threshold was calibrated on team seasons.</figcaption>
 </figure>
 
 This is the level of the longest dominance: that of the **Ford** engines, including the [Cosworth DFV]({{ site.baseurl }}/en/timeline/#j-dfv). They dominate every one of the fifteen seasons from 1968 to 1982 and win 70% of the Grands Prix, for Lotus, McLaren, Tyrrell and others.

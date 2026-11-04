@@ -106,7 +106,7 @@ On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% inc
 <figure class="figure">
 {% include domination/tableau-pilote-fr.svg %}
 {% include donnees-graphique.html nom="domination/tableau-pilote-fr" %}
-<figcaption>Le tableau de bord des dominations longues de pilote, avec la même lecture. Aucun pilote ne dépasse 50 de moyenne : il partage toujours le podium avec son coéquipier.</figcaption>
+<figcaption>Le tableau de bord des dominations longues de pilote, avec la même lecture, sans le repère rouge : le seuil a été calibré sur des saisons d'écurie. Aucun pilote ne dépasse 50 de moyenne : il partage toujours le podium avec son coéquipier.</figcaption>
 </figure>
 
 Les hégémonies de pilotes se calquent sur celles de leur écurie : Schumacher sur Ferrari, Vettel et Verstappen sur Red Bull, Hamilton sur Mercedes. Seul **Fangio**, de 1954 à 1957, atteint l'hégémonie avec trois écuries : Mercedes-Benz, Ferrari et Maserati.
@@ -125,7 +125,7 @@ C'est chez les pilotes que la saison isolée est la plus fréquente : {{ EF.pilo
 <figure class="figure">
 {% include domination/tableau-motoriste-fr.svg %}
 {% include donnees-graphique.html nom="domination/tableau-motoriste-fr" %}
-<figcaption>Le tableau de bord des dominations longues de motoriste, avec la même lecture.</figcaption>
+<figcaption>Le tableau de bord des dominations longues de motoriste, avec la même lecture, sans le repère rouge : le seuil a été calibré sur des saisons d'écurie.</figcaption>
 </figure>
 
 C'est à ce niveau que se trouve la plus longue domination : celle des moteurs **Ford**, dont le [Cosworth DFV]({{ site.baseurl }}/chronologie/#j-dfv). Ils dominent chacune des quinze saisons de 1968 à 1982 et gagnent 70 % des Grands Prix, pour Lotus, McLaren, Tyrrell et d'autres.

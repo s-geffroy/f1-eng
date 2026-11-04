@@ -878,6 +878,7 @@ TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950–2025",
                 "f1_d": "Pour chaque saison, l'indice composite de l'écurie la plus forte, sur 100. Les bandes marquent les hégémonies d'écurie ; les tirets rouges, le seuil calibré.",
                 "y": "Indice de l'écurie la plus forte", "seuil": "seuil", "tb_t": "Tableau de bord des dominations longues",
                 "tb_d": "Un cadran par domination d'au moins trois saisons : l'aiguille donne l'indice moyen de la période, le trait noir sa meilleure saison, le repère rouge le seuil. Arc en tirets : domination qui n'est pas une hégémonie.",
+                "tb_d_sans": "Un cadran par domination d'au moins trois saisons : l'aiguille donne l'indice moyen de la période, le trait noir sa meilleure saison. Arc en tirets : domination qui n'est pas une hégémonie.",
                 "heg": "hégémonie", "dom": "domination", "ing_t": "Le compteur des ingénieurs",
                 "ing_d": "Indice moyen des écuries pendant la présence de l'ingénieur, pour les douze ingénieurs dont l'écurie a dominé le plus de saisons.",
                 "sd": "saisons dominantes"},
@@ -885,6 +886,7 @@ TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950–2025",
                 "f1_d": "For each season, the composite index of the strongest team, out of 100. Bands mark team hegemonies; red dashes, the calibrated threshold.",
                 "y": "Index of the strongest team", "seuil": "threshold", "tb_t": "Dashboard of long dominance",
                 "tb_d": "One dial per period of at least three dominant seasons: the needle gives the period's average index, the black mark its best season, the red mark the threshold. Dashed arc: dominance that is not a hegemony.",
+                "tb_d_sans": "One dial per period of at least three dominant seasons: the needle gives the period's average index, the black mark its best season. Dashed arc: dominance that is not a hegemony.",
                 "heg": "hegemony", "dom": "dominance", "ing_t": "The engineers' gauge",
                 "ing_d": "Average index of the teams while the engineer was present, for the twelve engineers whose team dominated the most seasons.",
                 "sd": "dominant seasons"}}
@@ -939,7 +941,7 @@ def svg_tableau(u, lang):
     lignes_n = (len(ps) + par_ligne - 1) // par_ligne
     Hh = lignes_n * ch + 6
     o = [f'<svg class="graphique" viewBox="0 0 {W} {Hh}" role="img" aria-labelledby="tb-{u}-t-{lang} tb-{u}-d-{lang}">',
-         f'<title id="tb-{u}-t-{lang}">{L["tb_t"]}</title><desc id="tb-{u}-d-{lang}">{L["tb_d"]}</desc>', CS]
+         f'<title id="tb-{u}-t-{lang}">{L["tb_t"]}</title><desc id="tb-{u}-d-{lang}">{L["tb_d"] if u == "ecurie" else L["tb_d_sans"]}</desc>', CS]
     for i, p_ in enumerate(ps):
         cx, cy = cw * (i % par_ligne) + cw / 2, ch * (i // par_ligne) + 72
         k = p_.get("id") or p_["nom"]
@@ -950,7 +952,9 @@ def svg_tableau(u, lang):
         deg = L["heg"] if p_["degre"] == "hegemonie" else L["dom"]
         o.append(f'<g><title>{esc(p_["nom"])}, {p_["debut"]}–{p_["fin"]} · {deg} · {r100(p_["indice"])} / 100</title>')
         o.append(cadran_g(cx, cy, 58, p_["indice"], [f"{nm}", f'{p_["debut"]}–{p_["fin"]} · {deg}'],
-                          record=rec, fragile=p_["degre"] != "hegemonie", taille=0.62))
+                          record=rec, fragile=p_["degre"] != "hegemonie", taille=0.62,
+                          # le seuil est calibré sur des saisons d'écurie : sans objet pour un pilote ou un motoriste
+                          seuil=u == "ecurie"))
         o.append("</g>")
     o.append("</svg>")
     return "".join(o)
@@ -967,7 +971,7 @@ def svg_ingenieurs_cp(lang):
         nm = esc(p_["nom"].split(" ")[-1])
         o.append(f'<g><title>{esc(p_["nom"])} · {p_["dominantes"]} {L["sd"]} / {p_["saisons"]} · {r100(p_["indice_moyen"])} / 100</title>')
         o.append(cadran_g(cx, cy, 58, p_["indice_moyen"], [nm, f'{p_["dominantes"]} {L["sd"]}'],
-                          record=p_["meilleure"]["indice"], taille=0.62))
+                          record=p_["meilleure"]["indice"], taille=0.62, seuil=False))
         o.append("</g>")
     o.append("</svg>")
     return "".join(o)
@@ -1432,7 +1436,7 @@ def svg_cycles_cadrans(lang):
         nm = esc(nom_u("ecurie", c["dominants"]["ecurie"]["id"], lang))
         o.append(f'<g><title>{c["de"]}–{c["a"]} · {nm} · {r100(c["indice_dominant"])} / 100</title>')
         o.append(cadran_g(cx, cy_, 58, c["indice_dominant"], [nm, f'{c["de"]}–{c["a"]}'],
-                          record=c["record_dominant"]["indice"], taille=0.62))
+                          record=c["record_dominant"]["indice"], taille=0.62, seuil=False))
         o.append("</g>")
     o.append("</svg>")
     return "".join(o)

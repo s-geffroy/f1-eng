@@ -47,7 +47,7 @@ Les cycles sont de longueurs très inégales, de deux à dix-sept saisons. Les c
 <figure class="figure">
 {% include domination/cycles-cadrans-fr.svg %}
 {% include donnees-graphique.html nom="domination/cycles-cadrans-fr" %}
-<figcaption>Un cadran par cycle : l'indice moyen de l'écurie qui y gagne le plus (aiguille), et sa meilleure saison du cycle (trait noir). Repère rouge : le seuil.</figcaption>
+<figcaption>Un cadran par cycle : l'indice moyen de l'écurie qui y gagne le plus (aiguille), et sa meilleure saison du cycle (trait noir).</figcaption>
 </figure>
 
 Deux familles de cycles se dessinent.

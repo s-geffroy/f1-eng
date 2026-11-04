@@ -47,7 +47,7 @@ The cycles are of very unequal length, from two to seventeen seasons. Smaller ru
 <figure class="figure">
 {% include domination/cycles-cadrans-en.svg %}
 {% include donnees-graphique.html nom="domination/cycles-cadrans-en" %}
-<figcaption>One dial per cycle: the average index of the team that wins most in it (needle), and its best season of the cycle (black mark). Red mark: the threshold.</figcaption>
+<figcaption>One dial per cycle: the average index of the team that wins most in it (needle), and its best season of the cycle (black mark).</figcaption>
 </figure>
 
 Two families of cycles emerge.
