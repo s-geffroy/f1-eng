@@ -37,6 +37,7 @@
     <span><svg class="legende-trait" viewBox="0 0 30 8" aria-hidden="true" focusable="false"><line x1="1" y1="4" x2="29" y2="4" data-preuve="chronologique"/></svg>{{ pv[3].nom }}</span>
     <a href="{{ T.url.causalite | relative_url }}">{{ T.chrono.methode_liens }}</a>
   </p>
+  <p class="frise-aide" id="frise-aide" hidden>{{ T.chrono.clavier }}</p>
 
   <div class="frise-bandes" role="group" aria-labelledby="frise-bandes-titre">
     <p id="frise-bandes-titre">{{ T.chrono.bandes }}</p>
@@ -76,8 +77,8 @@
           {%- if e.tier == "A" -%}{%- assign tier_a = true -%}{%- endif -%}
         {%- endfor %}
         <li style="--annee: {{ j.annee }}; --rang: {{ rang }};">
-          <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1960 %} jalon-debut{% elsif j.annee > 2010 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="j-{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}">
-            <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }} <i>{{ voie.nom }}</i></span>
+          <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1960 %} jalon-debut{% elsif j.annee > 2010 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="j-{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}{% if tier_a %}, Tier A{% endif %}">
+            <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }} <i>{{ voie.nom }}{% if tier_a %} · Tier A{% endif %}</i></span>
           </a>
         </li>
         {%- endfor %}
@@ -111,7 +112,8 @@
   {%- comment -%} hauteur de la zone des innovations, d'après la rangée la plus haute {%- endcomment -%}
   <style>.frise-plan { --rangs-haut: {{ rang_max | plus: 1 }}; }</style>
 
-  <div class="frise-detail" id="frise-detail" aria-live="polite" hidden>
+  <p class="visually-hidden" id="frise-annonce" aria-live="polite" data-ouverte="{{ T.chrono.fiche_ouverte }}"></p>
+  <div class="frise-detail" id="frise-detail" role="region" aria-label="{{ T.chrono.fiche }}" tabindex="-1" hidden>
     <div class="frise-detail-fiche" id="frise-detail-fiche"></div>
     <div class="frise-detail-nav">
       <button type="button" id="frise-prec">{{ T.chrono.prec }}</button>
@@ -273,6 +275,8 @@
   var invite = document.getElementById("frise-invite");
   var panneau = document.getElementById("frise-detail");
   var fiche = document.getElementById("frise-detail-fiche");
+  var annonce = document.getElementById("frise-annonce");
+  document.getElementById("frise-aide").hidden = false;  // aide clavier : seulement si la frise est interactive
   var calque = document.getElementById("frise-liens-calque");
   var liens = JSON.parse(document.getElementById("frise-liens").textContent);
   var SVG = "http://www.w3.org/2000/svg";
@@ -397,12 +401,20 @@
     });
   }
 
-  function fermer() {
+  // rendre : remettre le focus sur le repère dont la fiche se ferme (bouton Fermer, Échap), sans quoi
+  // il retomberait sur la page entière quand le panneau qui l'avait disparaît
+  function fermer(rendre) {
+    var ancien = courant;
     courant = null;
+    annonce.textContent = "";
     panneau.hidden = true;
     reperes.forEach(function (r) { r.classList.remove("jalon-actif"); r.removeAttribute("aria-current"); });
     mesLiens = []; forces = {};
     rangerContexte();
+    if (rendre && ancien) {
+      var r = reperes.filter(function (x) { return x.dataset.id === ancien; })[0];
+      if (r) r.focus();
+    }
   }
 
   function ouvrir(id, focus, defiler) {
@@ -427,6 +439,8 @@
       r.classList.toggle("jalon-actif", actif);
       if (actif) { r.setAttribute("aria-current", "true"); actifR = r; } else { r.removeAttribute("aria-current"); }
     });
+    // annonce courte (« 1978 : Effet de sol, fiche ouverte ») plutôt que toute la fiche, sources comprises
+    if (actifR) annonce.textContent = actifR.getAttribute("aria-label") + annonce.dataset.ouverte;
     if (actifR && focus) actifR.focus();
     if (actifR && defiler !== false) actifR.scrollIntoView({ block: "nearest", inline: "center", behavior: doux ? "smooth" : "auto" });
   }
@@ -440,9 +454,12 @@
 
   reperes.forEach(function (r) {
     // un second clic sur le repère ouvert le désélectionne
+    // au clavier (Entrée : clic sans pointeur, detail 0), le focus passe dans la fiche ouverte
     r.addEventListener("click", function (e) {
       e.preventDefault();
-      if (courant === r.dataset.id) fermer(); else ouvrir(r.dataset.id, false);
+      if (courant === r.dataset.id) { fermer(); return; }
+      ouvrir(r.dataset.id, false);
+      if (e.detail === 0) panneau.focus();
     });
     // les flèches partent du repère qui a le focus, pas du dernier ouvert
     r.addEventListener("keydown", function (e) {
@@ -468,7 +485,12 @@
   });
   document.getElementById("frise-prec").addEventListener("click", function () { decaler(-1, false); });
   document.getElementById("frise-suiv").addEventListener("click", function () { decaler(1, false); });
-  document.getElementById("frise-fermer").addEventListener("click", fermer);
+  document.getElementById("frise-fermer").addEventListener("click", function () { fermer(true); });
+  // dans la fiche, les flèches passent au repère voisin sans quitter la fiche
+  panneau.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowRight") { e.preventDefault(); decaler(1, false); }
+    if (e.key === "ArrowLeft") { e.preventDefault(); decaler(-1, false); }
+  });
 
   // désélection : clic ailleurs que sur un repère, le panneau ou les commandes de la frise, ou Échap
   document.addEventListener("click", function (e) {
@@ -477,7 +499,7 @@
     fermer();
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape" && courant) fermer();
+    if (e.key === "Escape" && courant) fermer(true);
   });
   window.addEventListener("resize", dessiner);
   rangerContexte();
