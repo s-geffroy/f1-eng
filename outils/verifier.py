@@ -13,6 +13,22 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 erreurs, avertissements = [], []
 err = erreurs.append
+
+
+# Dimensions des images principales (_data/images.yml, outils/dimensions-images.py) : une image
+# ajoutee ou remplacee sans relancer le script garderait des width/height faux ou absents.
+import importlib.util as _iu
+_spec = _iu.spec_from_file_location("dimensions_images", os.path.join(os.path.dirname(os.path.abspath(__file__)), "dimensions-images.py"))
+_dim = _iu.module_from_spec(_spec); _spec.loader.exec_module(_dim)
+DIMS = yaml.safe_load(open("_data/images.yml", encoding="utf-8")) if os.path.exists("_data/images.yml") else {}
+def verifier_dimensions(chemin, img):
+    if not img or not os.path.exists(img.lstrip("/")):
+        return
+    d = DIMS.get(img)
+    if not d:
+        err(f"{chemin} : {img} absente de _data/images.yml (lancer outils/dimensions-images.py)")
+    elif tuple(_dim.dimensions(img.lstrip("/"))) != (d["l"], d["h"]):
+        err(f"{chemin} : dimensions de {img} périmées dans _data/images.yml (lancer outils/dimensions-images.py)")
 warn = avertissements.append
 
 # langue -> (collection d'entrées, collection de dossiers, dossier de données, préfixe du glossaire)
@@ -113,6 +129,7 @@ for lang, (coll, coll_doss, rep_data, prefixe_gloss) in LANGUES.items():
         for img in [fm.get("image"), (fm.get("portrait") or {}).get("fichier")]:
             if img and not os.path.exists(img.lstrip("/")):
                 err(f"{chemin} : image absente ({img})")
+        verifier_dimensions(chemin, (fm.get("portrait") or {}).get("fichier"))
         for ancre in re.findall(re.escape(prefixe_gloss) + r"([a-z0-9-]+)", corps):
             if ancre not in ids_gloss:
                 err(f"{chemin} : ancre de glossaire inconnue (#{ancre})")
@@ -224,6 +241,7 @@ for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "
         for img in [fm.get("image"), (fm.get("photo") or {}).get("fichier")]:
             if img and not os.path.exists(img.lstrip("/")):
                 err(f"{chemin} : image absente ({img})")
+        verifier_dimensions(chemin, (fm.get("photo") or {}).get("fichier"))
     if lang == "en" and os.path.isdir("_voitures"):
         fr_v = {f for f in os.listdir("_voitures")}; en_v = set(os.listdir(coll_v))
         for m in sorted(fr_v - en_v): warn(f"en : pas de traduction pour la voiture {m[:-3]}")

@@ -18,7 +18,8 @@ layout: default
   <aside class="entree-marge">
     {%- if page.photo %}
     <figure class="portrait photo-voiture">
-      <img src="{{ page.photo.fichier | relative_url }}" alt="{{ page.title }}" loading="lazy">
+      {%- assign dim = site.data.images[page.photo.fichier] %}
+      <img src="{{ page.photo.fichier | relative_url }}" alt="{{ page.title | escape }}"{% if dim %} width="{{ dim.l }}" height="{{ dim.h }}"{% endif %} fetchpriority="high">
       <figcaption>
         {%- if page.photo.legende %}<span class="portrait-legende">{{ page.photo.legende }}</span>{% endif %}
         <span class="portrait-credit">{{ T.l.photo }} {{ page.photo.auteur }},

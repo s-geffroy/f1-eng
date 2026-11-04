@@ -90,7 +90,7 @@ assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
 assets/docs/         presentation PDF telechargeable, fr et en (generee par deck/)
 outils/              scripts Python : verifier.py (avant chaque push), releve-resultats.py,
-                     domination.py, fiches-ecuries.py, carte-usines.py
+                     domination.py, fiches-ecuries.py, carte-usines.py, dimensions-images.py
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
@@ -261,6 +261,10 @@ demande une autorisation ecrite : citer l'auteur ne suffit pas.
 Vingt et une entrees n'ont pas de portrait libre connu ; elles s'affichent sans image.
 Memes regles pour les photos de voitures, avec en plus la verification du
 modele photographie (categorie Commons, description, image regardee).
+
+Apres l'ajout ou le remplacement d'un portrait ou d'une photo :
+`python3 -I outils/dimensions-images.py` (largeur et hauteur dans `_data/images.yml`,
+reprises en `width`/`height` par les gabarits ; `verifier.py` signale un oubli).
 
 ### Outils (`deck/`)
 
