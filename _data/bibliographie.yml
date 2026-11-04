@@ -8986,7 +8986,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1958, Vanwall'
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
@@ -9021,7 +9021,7 @@ editeurs:
     - url: /ingenieurs/jean-pierre-boudy/
       titre: Boudy, Jean-Pierre
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1989, Ferrari'
@@ -9224,7 +9224,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1957, Vanwall'
   - titre: GrandPrix.com, « Italian GP, 1958 »
-    url: https://www.grandprix.com/gpe/rr074.html
+    url: https://www.grandprix.com/races/italian-gp-1958.html
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1958, Vanwall'
@@ -9234,7 +9234,7 @@ editeurs:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1959, Cooper Climax'
   - titre: GrandPrix.com, « Japanese GP 1976 »
-    url: https://www.grandprix.com/gpe/rr280.html
+    url: https://www.grandprix.com/races/japanese-gp-1976.html
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
@@ -9513,7 +9513,7 @@ editeurs:
     - url: /ecuries/
       titre: 'Écuries : Shadow et Theodore'
   - titre: GrandPrix.com, « Steve Nichols »
-    url: https://www.grandprix.com/gpe/cref-nicste.html
+    url: https://www.grandprix.com/people/steve-nichols.html
     pages:
     - url: /ingenieurs/john-barnard/
       titre: Barnard, John

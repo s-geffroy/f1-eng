@@ -41,7 +41,7 @@ sources:
   - titre: "Graham Keilloh, Motor Sport Magazine, “Watch Lotus's last great Formula 1 innovation” (March 2019)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/watch-lotuss-last-great-formula-1-innovation"
   - titre: "GrandPrix.com, “Steve Nichols”"
-    url: "https://www.grandprix.com/gpe/cref-nicste.html"
+    url: "https://www.grandprix.com/people/steve-nichols.html"
   - titre: "GrandPrix.com, “Alan Jenkins”"
     url: "https://www.grandprix.com/people/alan-jenkins.html"
 consultation: "25 October 2026"

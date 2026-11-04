@@ -41,7 +41,7 @@ monopoles:
   - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
     url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
 - de: 1992
   a: 1996
   pneus: Goodyear
@@ -1443,7 +1443,7 @@ cas:
   - titre: 'Motor Sport, Alan Henry, « 1976 Japanese Grand Prix race report: Hunt brings it home » (décembre 1976)'
     url: https://www.motorsportmagazine.com/archive/article/december-1976/34/japanese-grand-prix-4
   - titre: GrandPrix.com, « Japanese GP 1976 »
-    url: https://www.grandprix.com/gpe/rr280.html
+    url: https://www.grandprix.com/races/japanese-gp-1976.html
   - titre: Motor Sport, « 50 Goodyear Wolverhampton 1927-1977 » (août 1977)
     url: https://www.motorsportmagazine.com/archive/article/august-1977/74/50-good-year-wolverhampton-1927-1977
 - annee: 1976
@@ -1947,7 +1947,7 @@ cas:
   pourquoi: 'Brabham BMW court en Michelin toute la saison 1984 : GrandPrix.com range Piquet parmi les « Michelin men » à Zolder, et les comptes rendus de Motor Sport montrent les Brabham en Michelin en Afrique du Sud, à Detroit et en Autriche.'
   sources:
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
   - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
   - titre: Motor Sport, Alan Henry, « 1984 Detroit Grand Prix race report » (août 1984)
@@ -1961,7 +1961,7 @@ cas:
   pourquoi: 'Ferrari court en Goodyear toute la saison 1984 : GrandPrix.com range Alboreto et Arnoux parmi les pilotes Goodyear à Zolder, et Motor Sport montre les Ferrari en Goodyear en Afrique du Sud, en Belgique, à Saint-Marin et au Canada.'
   sources:
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
   - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
   - titre: Motor Sport, Denis Jenkinson, « 1984 Belgian Grand Prix race report » (juin 1984)
@@ -1977,7 +1977,7 @@ cas:
   pourquoi: 'McLaren TAG court en Michelin toute la saison 1984 : GrandPrix.com range Prost parmi les « Michelin men » à Zolder, et Motor Sport montre les McLaren en Michelin à Saint-Marin, à Detroit et en Autriche.'
   sources:
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
   - titre: Motor Sport, Denis Jenkinson, « 1984 San Marino Grand Prix race report » (juin 1984)
     url: https://www.motorsportmagazine.com/archive/article/june-1984/22/san-marino-grand-prix-6/
   - titre: Motor Sport, Alan Henry, « 1984 Detroit Grand Prix race report » (août 1984)
@@ -1991,7 +1991,7 @@ cas:
   pourquoi: 'Renault court en Michelin toute la saison 1984 : GrandPrix.com fait de Warwick le premier pilote Michelin de la grille à Zolder, et Motor Sport montre les Renault en Michelin en Afrique du Sud, à Detroit, à Dallas et au Portugal.'
   sources:
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
   - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
   - titre: Motor Sport, Alan Henry, « 1984 Dallas Grand Prix race report » (août 1984)
@@ -2007,7 +2007,7 @@ cas:
   - titre: Motor Sport, Alan Henry, « 1984 Brazilian Grand Prix race report » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/82/brazilian-grand-prix-8
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
   - titre: Motor Sport, Denis Jenkinson, « 1984 San Marino Grand Prix race report » (juin 1984)
     url: https://www.motorsportmagazine.com/archive/article/june-1984/22/san-marino-grand-prix-6/
   - titre: Motor Sport, Alan Henry, « 1984 Monaco Grand Prix race report » (juillet 1984)
@@ -2021,7 +2021,7 @@ cas:
   - titre: Motor Sport, Alan Henry, « 1984 South African Grand Prix race report » (mai 1984)
     url: https://www.motorsportmagazine.com/archive/article/may-1984/40/south-african-grand-prix-5
   - titre: GrandPrix.com, « Belgian GP, 1984 »
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
 - annee: 1985
   ecurie: brabham
   equipe: Brabham BMW
@@ -2175,7 +2175,7 @@ cas:
   - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
     url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
   - titre: Motor Sport, David Tremayne, « 1988 Brazilian Grand Prix race report » (mai 1988)
     url: https://www.motorsportmagazine.com/archive/article/may-1988/14/brazilian-gp-4/
   - titre: Motor Sport, Denis Jenkinson, « 1988 French Grand Prix race report » (août 1988)
@@ -2189,7 +2189,7 @@ cas:
   - titre: 'Fondazione Pirelli, « Pirelli in F1: Challenges and Successes – 1980s and 1990s Photos Go Online » (septembre 2026)'
     url: https://www.fondazionepirelli.org/en/historical-archive/pirelli-in-f1-challenges-and-successes-1980s-and-1990s-photos-go-online/
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
   - titre: Motor Sport, David Tremayne, « 1988 Brazilian Grand Prix race report » (mai 1988)
     url: https://www.motorsportmagazine.com/archive/article/may-1988/14/brazilian-gp-4/
   - titre: Motor Sport, Denis Jenkinson, « 1988 French Grand Prix race report » (août 1988)
@@ -2211,7 +2211,7 @@ cas:
   pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; en Hongrie, Motor Sport range les deux Ferrari parmi les équipes Goodyear (Mansell s'y qualifie et gagne sur les pneus de course C de Goodyear).
   sources:
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
   - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
     url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
 - annee: 1989
@@ -2221,7 +2221,7 @@ cas:
   pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; Motor Sport décrit Senna et Prost choisissant entre les gommes B et C de Goodyear en Hongrie, et Senna en qualifications à Suzuka sur les pneus C de Goodyear.
   sources:
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
   - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
     url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
   - titre: Motor Sport, David Tremayne, « 1989 Japanese Grand Prix race report » (décembre 1989)
@@ -2233,7 +2233,7 @@ cas:
   pourquoi: Au retour de Pirelli en 1989, toutes les grandes équipes restent chez Goodyear ; en Hongrie, Motor Sport range Boutsen et Patrese parmi les pilotes Goodyear, et les fiches techniques des deux Williams Renault gagnantes de l'année, la FW12C (Canada) et la FW13 (Australie), indiquent des pneus Goodyear.
   sources:
   - titre: GrandPrix.com, « Brazilian GP 1989 » (encyclopédie, non daté)
-    url: https://grandprix.com/gpe/rr469.html
+    url: https://www.grandprix.com/races/brazilian-gp-1989.html
   - titre: Motor Sport, « 1989 Hungarian Grand Prix race report » (septembre 1989)
     url: https://www.motorsportmagazine.com/archive/article/september-1989/16/fair-and-square
   - titre: Ultimatecarpage.com, « Williams FW12C Renault », fiche technique

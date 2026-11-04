@@ -2217,7 +2217,7 @@ erreurs:
   source:
     titre: GrandPrix.com, « Belgian GP, 1984 »
     titre_en: GrandPrix.com, “Belgian GP, 1984”
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
     citation: The top 10 was completed by Michelin men Alain Prost (McLaren-TAG), Nelson Piquet (Brabham-BMW) and Nigel Mansell 's Lotus - Renault .
   juste:
     fr: 'Goodyear : les Lotus 95T de 1984 roulent en Goodyear, celle de Mansell comme celle de de Angelis.'
@@ -2244,7 +2244,7 @@ erreurs:
   source:
     titre: GrandPrix.com, « Belgian GP, 1984 »
     titre_en: GrandPrix.com, “Belgian GP, 1984”
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
     citation: 'The first Michelin runner was Derek Warwick ( Renault ) but then came another three Goodyear users: Elio de Angelis ( Lotus - Renault ), Manfred Winkelhock (ATS-BMW) and Riccardo Patrese ( Alfa Romeo ).'
   juste:
     fr: Pirelli.
@@ -2286,7 +2286,7 @@ erreurs:
     citation: the Ferraris slid round so alarmingly everywhere else on the circuit that they quickly blistered their Goodyear tyres
   - titre: GrandPrix.com, « Belgian GP, 1984 »
     titre_en: GrandPrix.com, “Belgian GP, 1984”
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
     citation: Pole position went to Michele Alboreto 's Ferrari with his teammate Rene Arnoux alongside. Then came another Goodyear man, Keke Rosberg in the Williams-Honda.
 - id: e094
   categorie: source_erronee
@@ -4417,7 +4417,7 @@ erreurs:
     citation: Rosberg hurtled round in 1 min 05.058 sec, which was easily second quickest and fastest of the Goodyear radial users.
   - titre: GrandPrix.com, « Belgian GP, 1984 »
     titre_en: GrandPrix.com, “Belgian GP, 1984”
-    url: https://www.grandprix.com/gpe/rr391.html
+    url: https://www.grandprix.com/races/belgian-gp-1984.html
     citation: Then came another Goodyear man, Keke Rosberg in the Williams-Honda.
 - id: e182
   categorie: recoupement

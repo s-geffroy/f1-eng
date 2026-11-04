@@ -9,7 +9,7 @@ lignees: []
 voir_aussi: ["john-barnard", "gordon-murray", "alan-jenkins", "jean-claude-migeot"]
 sources:
   - titre: "GrandPrix.com, “Steve Nichols”"
-    url: "https://www.grandprix.com/gpe/cref-nicste.html"
+    url: "https://www.grandprix.com/people/steve-nichols.html"
   - titre: "Motor Sport Magazine, “Lunch with… Steve Nichols” (May 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
   - titre: "Formula 1, “Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time” (20 April 2022)"
