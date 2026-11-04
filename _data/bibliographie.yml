@@ -1,6 +1,6 @@
 # Bibliographie générée par outils/bibliographie.py : ne pas modifier à la main, relancer le script.
 total: 2340
-editeurs_total: 132
+editeurs_total: 131
 citations: 3763
 editeurs:
 - nom: Motor Sport Magazine
@@ -13036,6 +13036,112 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: Domination (pneus)
+- nom: Internet Archive
+  n: 19
+  sources:
+  - titre: 'Auto123, « F1: Mercedes signs Aldo Costa and Geoff Willis » (2011, copie archivée)'
+    url: https://web.archive.org/web/20221130150115/https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/
+    pages:
+    - url: /ingenieurs/bob-bell/
+      titre: Bell, Bob
+    - url: /ingenieurs/aldo-costa/
+      titre: Costa, Aldo
+    - url: /ingenieurs/geoff-willis/
+      titre: Willis, Geoff
+  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
+    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
+    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
+    pages:
+    - url: /ingenieurs/paul-rosche/
+      titre: Rosche, Paul
+  - titre: Corsa (Buenos Aires), n° 15, présentation des Formule 1 avant le Grand Prix d'Allemagne (août 1966)
+    url: https://archive.org/details/corsa-n-15-2-8-agosto-1966
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
+    url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
+    pages:
+    - url: /ecuries/
+      titre: 'Écuries : Virgin, Marussia et Manor'
+  - titre: Grand Prix International, « Benetton B186 », rubrique « Paddocks » (n° 101, mars 1986)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1986.-no.-105/Grand.Prix.International.Magazine.1986.No.101/page/n2/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Grand Prix International, Didier Braillon, bilan de la saison 1982, fiche « Équipe Talbot-Ligier » (n° 58, fin 1982)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.58.p/page/n32/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Grand Prix International, notes techniques des Grands Prix d'Allemagne et d'Autriche (n° 37, 26 août 1981)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.37.English/page/n25/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Grand Prix International, notes techniques du Grand Prix de Long Beach (n° 45, avril 1982)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.45.English
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Grand Prix International, notes techniques du Grand Prix du Canada (n° 40, octobre 1981)
+    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.40.English/page/n26/mode/2up
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Monocoque carbone'
+  - titre: Haynes Publishing, Steve Rendle, « Williams FW14B 1992 Owners' Workshop Manual » (2015)
+    url: https://archive.org/details/williamsfw14b1990000rend
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Boîte semi-automatique'
+    - url: /dossiers/domination/
+      titre: 'Domination (technologies) : Suspension active'
+  - titre: 'Haynes, Anthony Pritchard, « Lotus: the competition cars » (2006)'
+    url: https://archive.org/details/lotuscompetition0000prit
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 'Haynes, Nigel Roebuck, « Chasing the Title: Memorable Moments from Fifty Years of Formula 1 » (1999)'
+    url: https://archive.org/details/chasingtitlememo0000roeb
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: 'Haynes, Roger Smith, « Formula 1: All the Races – the World Championship story race-by-race, 1950-2011 » (2012)'
+    url: https://archive.org/details/formula1allraces0000smit
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: La Nuova Stampa, publicité Pirelli reprenant El Mundo Deportivo, « Mike Hawthorn con "Ferrari-Pirelli" inscribe su nombre en el historial de la prueba » (30 octobre 1954, p. 10)
+    url: https://archive.org/details/lastampa_1954-10-30/page/n9/
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
+    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
+    pages:
+    - url: /glossaire/#nid-d-abeille
+      titre: 'Glossaire : Nid d''abeille'
+    - url: /voitures/mclaren-mp4-24/
+      titre: McLaren MP4-24
+  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
+    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
+    pages:
+    - url: /voitures/mclaren-mp4-25/
+      titre: McLaren MP4-25
+  - titre: Osprey, Doug Nye, « Cooper Cars » (1999)
+    url: https://archive.org/details/coopercars0000nyed
+    pages:
+    - url: /dossiers/domination/
+      titre: Domination (pneus)
+  - titre: Renault, The Originals, « F1 R26-03 » (copie archivée, mai 2026)
+    url: https://web.archive.org/web/20260508185251/https://theoriginals.renault.com/en/f1-r26-03
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 2006, Renault'
 - nom: Indianapolis Motor Speedway
   n: 18
   sources:
@@ -13151,103 +13257,6 @@ editeurs:
       titre: 'Domination (technologies) : Moteur arrière'
     erreurs:
     - e015
-- nom: Internet Archive
-  n: 18
-  sources:
-  - titre: 'BMW Group, « BMW congratulates Paul Rosche: The “father” of the Formula One World Championship engine turns 80 today » (avril 2014)'
-    url: https://web.archive.org/web/20190802060857/https://www.press.bmwgroup.com/usa/article/detail/T0175570EN_US/bmw-congratulates-paul-rosche:-the-%E2%80%9Cfather%E2%80%9D-of-the-formula-one-world-championship-engine-turns-80-today?language=en_US
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: BMW Group, « BMW Group mourns the loss of Paul Rosche » (novembre 2016)
-    url: https://web.archive.org/web/20250706183140/https://www.press.bmwgroup.com/global/article/detail/T0266094EN/bmw-group-mourns-the-loss-of-paul-rosche?language=en
-    pages:
-    - url: /ingenieurs/paul-rosche/
-      titre: Rosche, Paul
-  - titre: Corsa (Buenos Aires), n° 15, présentation des Formule 1 avant le Grand Prix d'Allemagne (août 1966)
-    url: https://archive.org/details/corsa-n-15-2-8-agosto-1966
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: ESPN, Nate Saunders, « Manor reveals new name and logo » (janvier 2016)
-    url: https://web.archive.org/web/20160417132328/http://www.espn.co.uk/f1/story/_/id/14608552/manor-reveals-new-name-logo
-    pages:
-    - url: /ecuries/
-      titre: 'Écuries : Virgin, Marussia et Manor'
-  - titre: Grand Prix International, « Benetton B186 », rubrique « Paddocks » (n° 101, mars 1986)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1986.-no.-105/Grand.Prix.International.Magazine.1986.No.101/page/n2/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Grand Prix International, Didier Braillon, bilan de la saison 1982, fiche « Équipe Talbot-Ligier » (n° 58, fin 1982)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.58.p/page/n32/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Grand Prix International, notes techniques des Grands Prix d'Allemagne et d'Autriche (n° 37, 26 août 1981)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.37.English/page/n25/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Grand Prix International, notes techniques du Grand Prix de Long Beach (n° 45, avril 1982)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1982.-no.-52.-english/Grand.Prix.International.Magazine.1982.No.45.English
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Grand Prix International, notes techniques du Grand Prix du Canada (n° 40, octobre 1981)
-    url: https://archive.org/details/grand.-prix.-international.-magazine.-1981.-no.-42.-english/Grand.Prix.International.Magazine.1981.No.40.English/page/n26/mode/2up
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Monocoque carbone'
-  - titre: Haynes Publishing, Steve Rendle, « Williams FW14B 1992 Owners' Workshop Manual » (2015)
-    url: https://archive.org/details/williamsfw14b1990000rend
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Boîte semi-automatique'
-    - url: /dossiers/domination/
-      titre: 'Domination (technologies) : Suspension active'
-  - titre: 'Haynes, Anthony Pritchard, « Lotus: the competition cars » (2006)'
-    url: https://archive.org/details/lotuscompetition0000prit
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: 'Haynes, Nigel Roebuck, « Chasing the Title: Memorable Moments from Fifty Years of Formula 1 » (1999)'
-    url: https://archive.org/details/chasingtitlememo0000roeb
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: 'Haynes, Roger Smith, « Formula 1: All the Races – the World Championship story race-by-race, 1950-2011 » (2012)'
-    url: https://archive.org/details/formula1allraces0000smit
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: La Nuova Stampa, publicité Pirelli reprenant El Mundo Deportivo, « Mike Hawthorn con "Ferrari-Pirelli" inscribe su nombre en el historial de la prueba » (30 octobre 1954, p. 10)
-    url: https://archive.org/details/lastampa_1954-10-30/page/n9/
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-24 Press Pack » (2009, copie archivée)
-    url: https://web.archive.org/web/20090316082117/http://www.mclaren.com/f1season/2009/presspack09/tech-spec.php
-    pages:
-    - url: /glossaire/#nid-d-abeille
-      titre: 'Glossaire : Nid d''abeille'
-    - url: /voitures/mclaren-mp4-24/
-      titre: McLaren MP4-24
-  - titre: McLaren, « Vodafone McLaren Mercedes MP4-25 Press Pack » (janvier 2010, copie archivée)
-    url: https://web.archive.org/web/20100202095005/http://www.mclaren.com/f1season/2010/presspack2010/tech-spec.php
-    pages:
-    - url: /voitures/mclaren-mp4-25/
-      titre: McLaren MP4-25
-  - titre: Osprey, Doug Nye, « Cooper Cars » (1999)
-    url: https://archive.org/details/coopercars0000nyed
-    pages:
-    - url: /dossiers/domination/
-      titre: Domination (pneus)
-  - titre: Renault, The Originals, « F1 R26-03 » (copie archivée, mai 2026)
-    url: https://web.archive.org/web/20260508185251/https://theoriginals.renault.com/en/f1-r26-03
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 2006, Renault'
 - nom: Crash.net
   n: 15
   sources:
@@ -14303,7 +14312,7 @@ editeurs:
       titre: Williams FW14B
 - nom: Autres éditeurs
   autres: true
-  n: 103
+  n: 102
   sources:
   - titre: 24 Heures du Mans (ACO), « Renault-Alpine, harking back to yellow and black » (avril 2023)
     url: https://www.24h-lemans.com/en/news/renault-alpine-harking-back-to-yellow-and-black-57378
@@ -14359,15 +14368,6 @@ editeurs:
       titre: 'Écuries : BMW'
     - url: /ecuries/
       titre: 'Écuries : Megatron'
-  - titre: 'Auto123, « F1: Mercedes signs Aldo Costa and Geoff Willis » (2011)'
-    url: https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/
-    pages:
-    - url: /ingenieurs/bob-bell/
-      titre: Bell, Bob
-    - url: /ingenieurs/aldo-costa/
-      titre: Costa, Aldo
-    - url: /ingenieurs/geoff-willis/
-      titre: Willis, Geoff
   - titre: 'Autoblog, Noah Joseph, « Officially Official: Bridgestone signs exclusive deal with F1 » (26 décembre 2007)'
     url: https://www.autoblog.com/news/officially-official-bridgestone-signs-exclusive-deal-with-f1
     pages:
