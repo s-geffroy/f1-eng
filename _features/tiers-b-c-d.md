@@ -70,7 +70,7 @@ Behind the twenty, the encyclopedia also documents, without scoring them, thirty
 Consulted on 9 August 2026, rechecked on 26 October 2026. Facts taken from the entries and the timeline are sourced on those pages, which each name links to.
 
 - Autosport, Gary Watkins, "The origins of McLaren-Honda's greatest racer" (August 2017): <https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/>
-- Renault, "30 ans de Formule 1": <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
+- Renault, "30 ans de Formule 1" (2007): <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
 - Formula 1, "Most Influential Person in F1 History: Who is going through to the final 4": <https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1>
 - Formula 1, "TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T": <https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz>
 - Formula 1, "TECH TUESDAY: The Lotus 79, F1's ground effect marvel": <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>

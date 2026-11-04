@@ -71,7 +71,7 @@ Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris 
 - Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
 - Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
 - McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
-- Renault, « 30 ans de Formule 1 » : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
+- Renault, « 30 ans de Formule 1 » (2007) : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
 - Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
 - Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
 - Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>

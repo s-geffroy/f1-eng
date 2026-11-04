@@ -15,7 +15,7 @@ sources:
     url: "https://www.autosport.com/f1/news/grand-prix-gold-spanish-gp-1986-5091192/5091192/"
   - titre: "Jeff Hutchinson, Autosport, “Grand Prix Gold: Brazilian GP 1986” (published online August 2011)"
     url: "https://www.autosport.com/f1/news/grand-prix-gold-brazilian-gp-1986-5091191/5091191/"
-  - titre: "Renault, “30 ans de Formule 1”"
+  - titre: "Renault, “30 ans de Formule 1” (2007)"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
   - titre: "Motor Sport, “Senna's Lotus 98T heads to auction with an estimate of up to $12m” (March 2026)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/sennas-lotus-98t-heads-to-auction-with-an-estimate-of-up-to-12m/"
