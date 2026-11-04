@@ -61,7 +61,7 @@ Pour lire l'intensité d'une domination, chaque saison reçoit aussi une note su
 <figcaption>L'indice de l'écurie la plus forte de chaque saison (chaque point est détaillé sous le graphique). Bandes : les hégémonies d'écurie. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, calculé plus bas.</figcaption>
 </figure>
 
-Le compteur ne descend jamais sous le seuil : chaque saison a une écurie nettement en tête. Il monte le plus haut avec Ferrari en 1952, sur huit courses seulement, puis avec McLaren en 1988 et Mercedes de 2014 à 2016. Il est au plus bas à la fin des années 1970 et au début des années 1980. En 1981, l'écurie la plus forte selon l'indice, Renault, doit sa place à ses poles et n'est même pas championne.
+Par construction, le compteur ne descend jamais sous le seuil : celui-ci a été choisi pour que toutes les saisons dominantes, dont celles des champions, le dépassent, et l'écurie la plus forte de chaque saison le franchit donc forcément. Ce qui compte, c'est l'écart. Le compteur monte le plus haut avec Ferrari en 1952, sur huit courses seulement, puis avec McLaren en 1988 et Mercedes de 2014 à 2016. Il est au plus bas à la fin des années 1970 et au début des années 1980, jusqu'à 25 en 1981, à peine au-dessus du seuil de {{ CP.seuil | times: 100 | round }}. Cette année-là, l'écurie la plus forte selon l'indice, Renault, doit sa place à ses poles et n'est même pas championne.
 
 Trois précisions :
 

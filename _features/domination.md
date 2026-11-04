@@ -61,7 +61,7 @@ To read the intensity of dominance, each season also gets a score out of 100, as
 <figcaption>The index of the strongest team in each season (each point is listed below the chart). Bands: team hegemonies. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, computed below.</figcaption>
 </figure>
 
-The gauge never falls below the threshold: every season has a team clearly ahead. It climbs highest with Ferrari in 1952, over only eight races, then with McLaren in 1988 and Mercedes from 2014 to 2016. It is at its lowest in the late 1970s and early 1980s. In 1981, the strongest team by the index, Renault, owes its place to its poles and is not even champion.
+By construction, the gauge never falls below the threshold: it was chosen so that every dominant season, champions' seasons included, clears it, so the strongest team of each season necessarily does. What matters is the margin. The gauge climbs highest with Ferrari in 1952, over only eight races, then with McLaren in 1988 and Mercedes from 2014 to 2016. It is at its lowest in the late 1970s and early 1980s, down to 25 in 1981, just above the threshold of {{ CP.seuil | times: 100 | round }}. That year, the strongest team by the index, Renault, owes its place to its poles and is not even champion.
 
 Three points to note:
 
