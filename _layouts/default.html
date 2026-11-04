@@ -57,7 +57,12 @@
   <title>{{ titre_complet | escape }}</title>
   <meta name="description" content="{{ desc | escape }}">
   <meta name="author" content="{{ site.author | escape }}">
+  {%- comment -%} robots : noindex pour la recherche et la 404 (front matter), qui n'ont pas d'adresse canonique à indexer {%- endcomment -%}
+  {%- if page.robots %}
+  <meta name="robots" content="{{ page.robots }}">
+  {%- else %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {%- endif %}
   <meta property="og:site_name" content="{{ T.nom_site | escape }}">
   <meta property="og:title" content="{{ titre_page | default: T.nom_site | escape }}">
   <meta property="og:description" content="{{ desc | escape }}">

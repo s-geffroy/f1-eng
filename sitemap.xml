@@ -1,0 +1,53 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%}
+  Sitemap écrit à la main : il remplace celui de jekyll-sitemap (le greffon n'en produit plus quand ce
+  fichier existe, mais continue de générer robots.txt). Différences :
+  - pas de <lastmod> : jekyll-sitemap y mettait la date de construction pour toute page sans date,
+    si bien que chaque push annonçait la modification des 470 pages et que le signal était ignoré ;
+  - liens hreflang entre une page et sa traduction (même nom de fichier dans les collections
+    des deux langues, champ « traduction » pour les pages simples) ;
+  - pages exclues : sitemap: false (pages de redirection, recherche, ce fichier), 404.
+{%- endcomment -%}
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- assign paires_sm = "ingenieurs:engineers,engineers:ingenieurs,dossiers:features,features:dossiers,voitures:cars,cars:voitures,ecuries:teams,teams:ecuries" | split: "," -%}
+{%- for c in site.collections -%}
+  {%- unless c.output -%}{%- continue -%}{%- endunless -%}
+  {%- assign autre_sm = nil -%}
+  {%- for p in paires_sm -%}{%- assign kv = p | split: ":" -%}{%- if kv[0] == c.label -%}{%- assign autre_sm = kv[1] -%}{%- endif -%}{%- endfor -%}
+  {%- for d in c.docs -%}
+    {%- if d.sitemap == false -%}{%- continue -%}{%- endif -%}
+    {%- assign alt_sm = nil -%}
+    {%- if autre_sm -%}{%- assign alt_sm = site[autre_sm] | where: "slug", d.slug | first -%}{%- endif %}
+  <url>
+    <loc>{{ d.url | absolute_url | xml_escape }}</loc>
+    {%- if alt_sm %}
+    <xhtml:link rel="alternate" hreflang="{{ d.lang | default: site.lang }}" href="{{ d.url | absolute_url | xml_escape }}"/>
+    <xhtml:link rel="alternate" hreflang="{{ alt_sm.lang | default: site.lang }}" href="{{ alt_sm.url | absolute_url | xml_escape }}"/>
+    {%- endif %}
+  </url>
+  {%- endfor -%}
+{%- endfor -%}
+{%- for p in site.html_pages -%}
+  {%- if p.sitemap == false or p.url == "/404.html" -%}{%- continue -%}{%- endif -%}
+  {%- assign lang_sm = p.lang | default: site.lang -%}
+  {%- if lang_sm == "en" -%}{%- assign autre_lang_sm = "fr" -%}{%- else -%}{%- assign autre_lang_sm = "en" -%}{%- endif %}
+  <url>
+    <loc>{{ p.url | absolute_url | xml_escape }}</loc>
+    {%- if p.traduction %}
+    <xhtml:link rel="alternate" hreflang="{{ lang_sm }}" href="{{ p.url | absolute_url | xml_escape }}"/>
+    <xhtml:link rel="alternate" hreflang="{{ autre_lang_sm }}" href="{{ p.traduction | absolute_url | xml_escape }}"/>
+    {%- endif %}
+  </url>
+{%- endfor -%}
+{%- for f in site.static_files -%}
+  {%- if f.extname == ".pdf" and f.path contains "/assets/docs/" %}
+  <url>
+    <loc>{{ f.path | absolute_url | xml_escape }}</loc>
+  </url>
+  {%- endif -%}
+{%- endfor %}
+</urlset>
