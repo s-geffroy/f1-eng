@@ -273,6 +273,8 @@ modele photographie (categorie Commons, description, image regardee).
 Apres l'ajout ou le remplacement d'un portrait ou d'une photo :
 `python3 -I outils/dimensions-images.py` (largeur et hauteur dans `_data/images.yml`,
 reprises en `width`/`height` par les gabarits ; `verifier.py` signale un oubli).
+Pour une photo de voiture, aussi `cd deck && npm run images` : vignette de 480 px dans
+`assets/voitures/vignettes/`, utilisee par les planches et la genealogie.
 
 ### Outils (`deck/`)
 

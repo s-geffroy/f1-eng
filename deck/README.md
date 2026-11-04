@@ -22,6 +22,10 @@ Deux autres scripts :
   `../assets/partage/` (une par entree + `defaut.png`), avec pureimage
   (JavaScript pur). A relancer apres une modification d'accroche, de rang ou de
   portrait.
+- `npm run images` : `optimiser-images.js` ramene les portraits de `../assets/portraits/`
+  a 640 px de large (reencodage en place, avec perte, seulement au-dessus de 640 px ou de
+  150 Ko) et produit les vignettes de 480 px des voitures dans `../assets/voitures/vignettes/`
+  (regenerees quand l'original est plus recent).
 
 Premiere fois :
 

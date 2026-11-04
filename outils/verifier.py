@@ -250,6 +250,9 @@ for lang, (coll_v, rep_data) in {"fr": ("_voitures", "_data"), "en": ("_cars", "
             if img and not os.path.exists(img.lstrip("/")):
                 err(f"{chemin} : image absente ({img})")
         verifier_dimensions(chemin, (fm.get("photo") or {}).get("fichier"))
+        _ph = (fm.get("photo") or {}).get("fichier")
+        if _ph and _ph.startswith("/assets/voitures/") and not os.path.exists("assets/voitures/vignettes/" + os.path.basename(_ph)):
+            err(f"{chemin} : vignette absente de assets/voitures/vignettes/ (lancer cd deck && npm run images)")
     if lang == "en" and os.path.isdir("_voitures"):
         fr_v = {f for f in os.listdir("_voitures")}; en_v = set(os.listdir(coll_v))
         for m in sorted(fr_v - en_v): warn(f"en : pas de traduction pour la voiture {m[:-3]}")
