@@ -5,7 +5,8 @@ const fs = require("fs");
 const PDFDocument = require("pdfkit");
 
 const PT = 72; // points par pouce
-const SHAPES = { RECTANGLE: "rect", ROUNDED_RECTANGLE: "roundRect", OVAL: "ellipse", LINE: "line", DIAMOND: "diamond", ISOSCELES_TRIANGLE: "triangle", HEXAGON: "hexagon" };
+const SHAPES = { RECTANGLE: "rect", ROUNDED_RECTANGLE: "roundRect", OVAL: "ellipse", LINE: "line", DIAMOND: "diamond", ISOSCELES_TRIANGLE: "triangle", HEXAGON: "hexagon",
+  REGULAR_PENTAGON: "pentagon", DONUT: "donut", CROSS: "plus", FLOWCHART_MERGE: "flowChartMerge" };
 
 function create() {
   const slides = [];
@@ -65,7 +66,7 @@ function fontName(o) {
   return st ? `${face}|${st}` : face;
 }
 
-function strokeFill(doc, o) {
+function strokeFill(doc, o, regle) {
   const fill = o.fill && o.fill.type !== "none" && o.fill.color ? "#" + o.fill.color : null;
   const ln = o.line || {};
   const stroke = ln.color && ln.width !== 0 ? "#" + ln.color : null;
@@ -73,8 +74,8 @@ function strokeFill(doc, o) {
     doc.lineWidth(ln.width || 0.75);
     if (ln.dashType === "dash") doc.dash(4 * (ln.width || 1), { space: 3 * (ln.width || 1) }); else doc.undash();
   }
-  if (fill && stroke) doc.fillAndStroke(fill, stroke);
-  else if (fill) doc.fill(fill);
+  if (fill && stroke) doc.fillAndStroke(fill, stroke, regle);
+  else if (fill) doc.fill(fill, regle);
   else if (stroke) doc.stroke(stroke);
   doc.undash();
 }
@@ -101,6 +102,19 @@ function drawShape(doc, type, o) {
     else if (type === "triangle") doc.polygon([x + w / 2, y], [x + w, y + h], [x, y + h]);
     // hexagone à pointes latérales, comme la forme « hexagon » de PowerPoint
     else if (type === "hexagon") doc.polygon([x + w / 4, y], [x + 3 * w / 4, y], [x + w, y + h / 2], [x + 3 * w / 4, y + h], [x + w / 4, y + h], [x, y + h / 2]);
+    // formes des catégories de contexte mondial, comme celles de PowerPoint et du site (_includes/repere-contexte.html)
+    else if (type === "pentagon") doc.polygon([x + w / 2, y], [x + w, y + 0.38 * h], [x + 0.81 * w, y + h], [x + 0.19 * w, y + h], [x, y + 0.38 * h]);
+    else if (type === "flowChartMerge") doc.polygon([x, y], [x + w, y], [x + w / 2, y + h]);
+    else if (type === "plus") {
+      const a = w / 4, b = h / 4;
+      doc.polygon([x + a, y], [x + w - a, y], [x + w - a, y + b], [x + w, y + b], [x + w, y + h - b], [x + w - a, y + h - b],
+        [x + w - a, y + h], [x + a, y + h], [x + a, y + h - b], [x, y + h - b], [x, y + b], [x + a, y + b]);
+    } else if (type === "donut") {
+      doc.ellipse(x + w / 2, y + h / 2, w / 2, h / 2).ellipse(x + w / 2, y + h / 2, w / 4, h / 4);
+      strokeFill(doc, o, "even-odd");
+      doc.restore();
+      return;
+    }
     else doc.rect(x, y, w, h);
     strokeFill(doc, o);
   }

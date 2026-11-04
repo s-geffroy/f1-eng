@@ -740,7 +740,11 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
   const yHaut = 1.72, yBas = 6.2;
   // couleurs et formes du contexte : celles du site (assets/css/encyclopedie.css)
   const CTX = { reglement: ["8A5A00", pres.shapes.RECTANGLE], securite: ["7A3E9D", pres.shapes.ISOSCELES_TRIANGLE],
-    economie: ["2E7348", pres.shapes.OVAL], technologie: ["12707A", pres.shapes.HEXAGON] };
+    economie: ["2E7348", pres.shapes.OVAL], technologie: ["12707A", pres.shapes.HEXAGON],
+    geopolitique: ["8A3B22", pres.shapes.REGULAR_PENTAGON], "economie-mondiale": ["4B6B1F", pres.shapes.DONUT],
+    "autres-sports": ["1D5F8A", pres.shapes.CROSS], societe: ["94456F", pres.shapes.FLOWCHART_MERGE] };
+  // catégorie inconnue (ajoutée aux données sans être reportée ici) : gris et carré, avec un avertissement, plutôt qu'un plantage
+  const ctxDe = id => CTX[id] || (console.warn(`Catégorie de contexte inconnue dans build.js (CTX) : ${id}`), CTX[id] = ["8E979D", pres.shapes.RECTANGLE]);
   // rangées : un repère prend la plus proche de l'axe dont le dernier repère est à au moins deux ans
   function ranger(liste) {
     const fins = [];
@@ -794,8 +798,8 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 
   // contexte : tous les événements (le PDF ne se filtre pas), couleur et forme de leur catégorie
   // rangées plus serrées que pour les innovations : le contexte en compte cinq, et ses étiquettes vont dessous
-  const pasCtx = 0.22;
-  const ctx = ranger(chrono.contexte || []).map(c => ({ ...c, cy: yR + hR + 0.2 + c.rang * pasCtx, couleur: CTX[c.categorie][0] }));
+  const pasCtx = 0.2;
+  const ctx = ranger(chrono.contexte || []).map(c => ({ ...c, cy: yR + hR + 0.2 + c.rang * pasCtx, couleur: ctxDe(c.categorie)[0] }));
   ctx.forEach(c => s.addShape(pres.shapes.LINE, { x: X(c.annee), y: yR + hR, w: 0, h: c.cy - yR - hR, line: { color: c.couleur, width: 0.5 } }));
   const ETIQ_CTX = EN
     ? { "championnat-1950": "First championship", "formule-3-litres": "3-litre formula", "interdiction-ailerons-hauts": "High wings banned",
@@ -806,11 +810,11 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
       "halo": "Halo", "reglement-2026": "Nouveau règlement" };
   // étiquettes sous la rangée la plus basse du contexte, au fond du cadre
   etiquettes(ctx, ETIQ_CTX, yBas - 0.25, false);
-  ctx.forEach(c => s.addShape(CTX[c.categorie][1], { x: X(c.annee) - d / 2, y: c.cy - d / 2, w: d, h: d, fill: { color: c.couleur }, line: { color: C.white, width: 0.75 } }));
+  ctx.forEach(c => s.addShape(ctxDe(c.categorie)[1], { x: X(c.annee) - d / 2, y: c.cy - d / 2, w: d, h: d, fill: { color: c.couleur }, line: { color: C.white, width: 0.75 } }));
 
   // légende
   const leg = [[pres.shapes.DIAMOND, C.A, t("innovation, Tier A", "innovation, Tier A")], [pres.shapes.DIAMOND, C.ink, t("innovation", "innovation")]]
-    .concat(chrono.categories.map(c => [CTX[c.id][1], CTX[c.id][0], c.nom]));
+    .concat(chrono.categories.map(c => [ctxDe(c.id)[1], ctxDe(c.id)[0], c.nom]));
   let xl = M;
   leg.forEach(([forme, coul, nom]) => {
     s.addShape(forme, { x: xl, y: 6.43, w: 0.14, h: 0.14, fill: { color: coul }, line: { color: coul, width: 0 } });
@@ -818,7 +822,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
     xl += 0.3 + nom.length * 0.062;
   });
   s.addText(t("Frise interactive : s-geffroy.github.io/f1-eng/chronologie", "Interactive timeline: s-geffroy.github.io/f1-eng/en/timeline"),
-    { x: 8.3, y: 6.36, w: W - M - 8.3, h: 0.28, fontFace: FS, fontSize: 10, italic: true, color: C.sub, align: "right" });
+    { x: 8.3, y: 6.64, w: W - M - 8.3, h: 0.28, fontFace: FS, fontSize: 10, italic: true, color: C.sub, align: "right" });
 
   const nomCat = id => chrono.categories.find(c => c.id === id).nom;
   notes(s, {
