@@ -783,12 +783,14 @@ def svg_compteur(lid, lang):
     pas = 10 if span > 25 else 2
     for a in range(int(x0a) + 1 + (-(int(x0a) + 1)) % pas, int(x1a) + 1, pas):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 16}" text-anchor="middle">{a}</text>')
-    # Courbe brisée sur les saisons sans mesure.
-    tr, cur = [], []
+    # Courbe brisée sur les saisons sans mesure et sur les saisons où la lignée n'a pas couru
+    # (absentes de ans) : un trait continu ferait croire à une évolution qui n'a pas eu lieu.
+    tr, cur, prec = [], [], None
     for a in ans:
-        if vals[a] is None:
+        if vals[a] is None or (prec is not None and a - prec > 1):
             if cur: tr.append(cur); cur = []
-        else:
+        prec = a
+        if vals[a] is not None:
             cur.append((xs(a), ys(vals[a])))
     if cur: tr.append(cur)
     for c in tr:
