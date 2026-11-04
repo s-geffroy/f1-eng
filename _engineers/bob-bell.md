@@ -16,14 +16,14 @@ sources:
     url: "https://www.grandprix.com/features/joe-saward/interview-bob-bell-the-art-of-winning.html"
   - titre: "Matt Beer, Autosport, “Bell leaves Renault team” (October 2010)"
     url: "https://www.autosport.com/f1/news/bell-leaves-renault-team-4441117/4441117/"
-  - titre: "Auto123, “F1: Bob Bell to be Mercedes tech boss from April” (February 2011)"
-    url: "https://www.auto123.com/en/news/f1-bob-bell-to-be-mercedes-tech-boss-from-april/8569/"
+  - titre: "Mercedes-Benz, press release, “Bob Bell joins MERCEDES GP PETRONAS as Technical Director” (18 February 2011)"
+    url: "https://media.mercedes-benz.it/bob-bell-joins-mercedes-gp-petronas-as-technical-director/"
   - titre: "Jonathan Noble, Autosport, “Ross Brawn says Mercedes' new technical structure is paying off” (March 2012)"
     url: "https://www.autosport.com/f1/news/ross-brawn-says-mercedes-new-technical-structure-is-paying-off-4453475/4453475/"
   - titre: "Auto123, “F1: Mercedes signs Aldo Costa and Geoff Willis” (September 2011)"
     url: "https://www.auto123.com/en/news/f1-mercedes-signs-aldo-costa-and-geoff-willis/10576/"
-  - titre: "Auto123, “F1: Bob Bell to leave Mercedes AMG F1 team” (April 2014)"
-    url: "https://www.auto123.com/en/news/f1-bob-bell-to-leave-mercedes-amg-f1-team/36045/"
+  - titre: "Adam Cooper, “Bob Bell will leave team in November, says Mercedes” (14 April 2014)"
+    url: "https://adamcooperf1.com/2014/04/14/bob-bell-will-leave-team-in-november-says-mercedes/"
   - titre: "Formula 1, “Mercedes technical director Bell to depart” (April 2014)"
     url: "https://www.formula1.com/en/latest/article/mercedes-technical-director-bell-to-depart.7DFHhLhLHViLbpc3sYggMH"
   - titre: "Michael Delaney, F1i, “Renault's Bell relinquishes tech chief position for part-time advisory role” (July 2018)"
@@ -52,6 +52,6 @@ On the W05, his role was that of a technical director: he organised and oversaw;
 
 ## Where sources disagree
 
-- **Renault technical director**: from 2002 according to Autosport{% include src.html n="4" %}; from 2003, replacing Gascoyne, according to Auto123{% include src.html n="5" %}.
-- **Arrival at Mercedes**: April 2011 according to Auto123{% include src.html n="5" %}; Motor Sport writes that Brawn recruited him in 2012{% include src.html n="1" %}, which sits badly with Costa and Willis being announced as his reports in September 2011{% include src.html n="7" %}.
-- **Leaving Mercedes**: April 2014 according to F1i, which then mentions a brief spell at Manor Marussia{% include src.html n="10" %}. Mercedes' April 2014 announcement (formula1.com, Auto123) separates the two dates: he had resigned in December 2013 and would leave the team at the end of November 2014; Lowe would take over his responsibilities, with no date given for the handover{% include src.html n="8,9" %}.
+- **Renault technical director**: from 2002 according to Autosport{% include src.html n="4" %}; from 2003 according to the Mercedes press release{% include src.html n="5" %}.
+- **Arrival at Mercedes**: April 2011 according to the Mercedes press release{% include src.html n="5" %}; Motor Sport writes that Brawn recruited him in 2012{% include src.html n="1" %}, which sits badly with Costa and Willis being announced as his reports in September 2011{% include src.html n="7" %}.
+- **Leaving Mercedes**: April 2014 according to F1i, which then mentions a brief spell at Manor Marussia{% include src.html n="10" %}. Mercedes' April 2014 announcement (formula1.com, Adam Cooper) separates the two dates: he had resigned in December 2013 and would leave the team at the end of November 2014; Lowe would take over his responsibilities, with no date given for the handover{% include src.html n="8,9" %}.
