@@ -85,6 +85,8 @@ _data/               donnees : ecuries, chronologie, resultats, domination, i18n
 _layouts/            default, entree, dossier, voiture, ecurie
 _includes/           pages/ (corps des pages), frises, genealogie, carte, domination, liens
 assets/css/          encyclopedie.css (seule feuille de style, pas de theme)
+assets/fonts/        Barlow Condensed et Spectral en woff2 (latin, latin-ext), licence OFL jointe ;
+                     servies par le site, sans appel a Google Fonts
 assets/portraits/    portraits libres de droits (credits dans les entrees)
 assets/voitures/     photos libres des voitures, 960 px de large au plus
 assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
