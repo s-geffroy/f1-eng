@@ -44,7 +44,8 @@ Counting the teams that win at least one race is not enough: a season where one 
 
 <figure class="figure">
 {% include domination/indic-ouverture-en.svg %}
-<figcaption>Solid line: the effective number of winning teams in each season (hover over a point for details). Dashes: the number of teams that won at least one race. Grey bands separate the regulation cycles.</figcaption>
+{% include donnees-graphique.html nom="domination/indic-ouverture-en" %}
+<figcaption>Solid line: the effective number of winning teams in each season (each point is listed below the chart). Dashes: the number of teams that won at least one race. Grey bands separate the regulation cycles.</figcaption>
 </figure>
 
 - **The peak comes at the turn of the 1980s.** {{ O0.annee }} is the most open season in history: {{ RE.ecuries }} different teams and {{ RE.pilotes }} different drivers win one of the {{ RE.gp }} races, and the effective number reaches {{ O0.effectif }}. The next four seasons in the ranking come from the same era: {{ I.ouverture.plus_ouvertes[1].annee }}, {{ I.ouverture.plus_ouvertes[2].annee }}, {{ I.ouverture.plus_ouvertes[3].annee }} and {{ I.ouverture.plus_ouvertes[4].annee }}.
@@ -60,6 +61,7 @@ A win counts **with an in-house engine** when the winning team also builds its e
 
 <figure class="figure">
 {% include domination/indic-moteur-en.svg %}
+{% include donnees-graphique.html nom="domination/indic-moteur-en" %}
 <figcaption>Share of the decade's Grands Prix won with an in-house engine (blue) and with an engine maker's engine (grey). Hover over a bar for details.</figcaption>
 </figure>
 
@@ -77,6 +79,7 @@ A pole counts as converted when its driver wins the race; for a shared win, one 
 
 <figure class="figure">
 {% include domination/indic-pole-en.svg %}
+{% include donnees-graphique.html nom="domination/indic-pole-en" %}
 <figcaption>Share of the decade's Grands Prix won by the driver who started from pole position.</figcaption>
 </figure>
 
@@ -92,6 +95,7 @@ The [Dominance feature]({{ site.baseurl }}/en/features/domination/#cars) records
 
 <figure class="figure">
 {% include domination/indic-voitures-en.svg %}
+{% include donnees-graphique.html nom="domination/indic-voitures-en" %}
 <figcaption>Average number of Grands Prix won by each winning car of the decade.</figcaption>
 </figure>
 

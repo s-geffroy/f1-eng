@@ -540,6 +540,11 @@ h1, h2, h3 { font-family: var(--titre); font-weight: 600; line-height: 1.1; lett
    Le mécanisme est écrit sur le connecteur ; la preuve se lit au trait :
    plein (attesté, établi), tirets (discuté), pointillés (chronologique). */
 .frise-legende { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1rem; margin: 0 0 0.75rem; font-family: var(--titre); font-size: 0.9375rem; color: var(--mine); }
+/* Données d'un graphique en texte (_includes/donnees-graphique.html), repliées sous la figure */
+.donnees-graphique { margin: 0.5rem 0 0.75rem; font-family: var(--titre); font-size: 0.875rem; color: var(--mine); }
+.donnees-graphique summary { cursor: pointer; color: var(--graphite); }
+.donnees-graphique ul { margin: 0.5rem 0 0; padding: 0; list-style: none; columns: 16rem auto; column-gap: 1.5rem; }
+.donnees-graphique li { break-inside: avoid; margin: 0 0 0.15rem; }
 .frise-aide { margin: -0.25rem 0 0.75rem; font-family: var(--titre); font-size: 0.875rem; color: var(--mine); }
 .frise-detail:focus { outline: 2px solid var(--graphite); outline-offset: 2px; }
 .frise-legende span { display: inline-flex; align-items: center; gap: 0.35rem; color: var(--graphite); }

@@ -188,6 +188,8 @@ layout: default
       {%- for l in cp_l %}
       {%- capture cp_f %}compteur/{{ l.id }}-{{ lang }}.svg{% endcapture %}
       <div class="frise-defilement">{% include {{ cp_f }} %}</div>
+      {%- capture cp_n %}compteur/{{ l.id }}-{{ lang }}{% endcapture %}
+      {% include donnees-graphique.html nom=cp_n %}
       {%- endfor %}
     </section>
     {%- endif %}

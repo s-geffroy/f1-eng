@@ -1690,3 +1690,38 @@ for _f in _glob.glob("_includes/domination/*-en.svg") + _glob.glob("_includes/co
     _n = _t.replace(" : ", ": ").replace(" ; ", "; ")
     if _n != _t:
         open(_f, "w", encoding="utf-8").write(_n)
+
+# Données des graphiques en texte (_data/graphiques.yml) : les valeurs de chaque graphique ne sont sinon
+# lisibles qu'au survol, dans les infobulles <title> des points, que ni le clavier, ni le tactile, ni les
+# lecteurs d'écran n'atteignent (role="img"). Elles sont relues ici dans les SVG écrits plus haut, dans
+# l'ordre du document, et affichées sous chaque figure par _includes/donnees-graphique.html.
+# Une infobulle sans chiffre (légende de bande) est écartée. Deux graphiques nomment leurs groupes hors
+# des infobulles : titre de panneau (technologies) ou libellé de ligne (ingénieurs) ; il préfixe la ligne.
+import re as _re, html as _html
+_GROUPES = {"technologies": r'<text class="cp-f"[^>]*>([^<]*)</text>',
+            "ingenieurs": r'<text class="dm-t"[^>]*text-anchor="end">([^<]*)</text>'}
+def _donnees(chemin):
+    s = open(chemin, encoding="utf-8").read()
+    base = os.path.basename(chemin).rsplit("-", 1)[0]
+    motif = _GROUPES.get(base) if chemin.startswith("_includes/domination/") else None
+    jetons = _re.compile((motif + "|" if motif else "") + r'<title( id="[^"]*")?>([^<]*)</title>')
+    titre, lignes, groupe = None, [], None
+    for m in jetons.finditer(s):
+        if motif and m.group(1) is not None and not m.group(0).startswith("<title"):
+            groupe = _html.unescape(m.group(1))
+            continue
+        t = _html.unescape(m.group(m.lastindex))
+        if m.group(0).startswith("<title id="):
+            titre = titre or t
+            continue
+        if _re.search(r"\d", t):
+            lignes.append(f"{groupe} · {t}" if groupe else t)
+    return {"titre": titre or "", "lignes": lignes}
+_graphiques = {}
+for _f in sorted(_glob.glob("_includes/domination/*.svg") + _glob.glob("_includes/compteur/*.svg")):
+    _cle = _f[len("_includes/"):-len(".svg")]
+    _graphiques[_cle] = _donnees(_f)
+open("_data/graphiques.yml", "w", encoding="utf-8").write(
+    "# Généré par outils/domination.py : données des graphiques en texte, une ligne par point (ne pas éditer).\n"
+    + yaml.safe_dump(_graphiques, allow_unicode=True, sort_keys=True, width=1000))
+print(f"graphiques : {len(_graphiques)} graphiques, {sum(len(g['lignes']) for g in _graphiques.values())} lignes de données")

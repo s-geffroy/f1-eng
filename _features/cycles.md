@@ -34,7 +34,8 @@ Each cycle opens with a reset of the technical regulations, described and source
 
 <figure class="figure">
 {% include domination/cycles-courbe-en.svg %}
-<figcaption>The composite index of the strongest team in each season (hover over a dot to name it). Bands separate the cycles; above them, the cycle's opening year and the team that wins most in it. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, above which a season is usually dominant.</figcaption>
+{% include donnees-graphique.html nom="domination/cycles-courbe-en" %}
+<figcaption>The composite index of the strongest team in each season (each point is listed below the chart). Bands separate the cycles; above them, the cycle's opening year and the team that wins most in it. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, above which a season is usually dominant.</figcaption>
 </figure>
 
 {% include domination.html quoi="cycles" %}
@@ -45,6 +46,7 @@ The cycles are of very unequal length, from two to seventeen seasons. Smaller ru
 
 <figure class="figure">
 {% include domination/cycles-cadrans-en.svg %}
+{% include donnees-graphique.html nom="domination/cycles-cadrans-en" %}
 <figcaption>One dial per cycle: the average index of the team that wins most in it (needle), and its best season of the cycle (black mark). Red mark: the threshold.</figcaption>
 </figure>
 

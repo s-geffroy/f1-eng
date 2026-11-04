@@ -1,0 +1,13 @@
+{%- comment -%}
+  Données d'un graphique en texte, sous la figure : include.nom = clé de _data/graphiques.yml
+  (« domination/compteur-f1-fr », « compteur/brm-en »), généré par outils/domination.py.
+  Sans ligne vide : l'include est inséré dans des blocs HTML de fichiers Markdown.
+{%- endcomment -%}
+{%- assign lang_dg = page.lang | default: site.lang | default: "fr" -%}
+{%- assign T_dg = site.data.i18n[lang_dg] -%}
+{%- assign g_dg = site.data.graphiques[include.nom] -%}
+{%- if g_dg and g_dg.lignes.size > 0 %}
+<details class="donnees-graphique"><summary>{{ T_dg.l.donnees_graphique }} ({{ g_dg.lignes.size }} {{ T_dg.l.valeurs }})</summary>
+<ul>{% for l_dg in g_dg.lignes %}<li>{{ l_dg | escape }}</li>{% endfor %}</ul>
+</details>
+{%- endif -%}

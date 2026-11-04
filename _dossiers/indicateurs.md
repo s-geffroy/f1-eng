@@ -44,7 +44,8 @@ Compter les écuries qui gagnent au moins une course ne suffit pas : une saison 
 
 <figure class="figure">
 {% include domination/indic-ouverture-fr.svg %}
-<figcaption>Trait plein : le nombre effectif d'écuries gagnantes de chaque saison (survolez un point pour le détail). Tirets : le nombre d'écuries qui ont gagné au moins une course. Les bandes grises séparent les cycles réglementaires.</figcaption>
+{% include donnees-graphique.html nom="domination/indic-ouverture-fr" %}
+<figcaption>Trait plein : le nombre effectif d'écuries gagnantes de chaque saison (chaque point est détaillé sous le graphique). Tirets : le nombre d'écuries qui ont gagné au moins une course. Les bandes grises séparent les cycles réglementaires.</figcaption>
 </figure>
 
 - **Le sommet est au tournant des années 1980.** {{ O0.annee }} est la saison la plus ouverte de l'histoire : {{ RE.ecuries }} écuries et {{ RE.pilotes }} pilotes différents gagnent l'une des {{ RE.gp }} courses, et le nombre effectif atteint {{ O0.effectif | replace: ".", "," }}. Les quatre saisons suivantes du classement datent de la même époque : {{ I.ouverture.plus_ouvertes[1].annee }}, {{ I.ouverture.plus_ouvertes[2].annee }}, {{ I.ouverture.plus_ouvertes[3].annee }} et {{ I.ouverture.plus_ouvertes[4].annee }}.
@@ -60,6 +61,7 @@ Une victoire est comptée **avec moteur maison** quand l'écurie gagnante constr
 
 <figure class="figure">
 {% include domination/indic-moteur-fr.svg %}
+{% include donnees-graphique.html nom="domination/indic-moteur-fr" %}
 <figcaption>Part des Grands Prix de la décennie gagnés avec un moteur maison (bleu) et avec le moteur d'un motoriste (gris). Survolez une barre pour le détail.</figcaption>
 </figure>
 
@@ -77,6 +79,7 @@ On compte comme convertie une pole dont le pilote gagne la course ; pour une vic
 
 <figure class="figure">
 {% include domination/indic-pole-fr.svg %}
+{% include donnees-graphique.html nom="domination/indic-pole-fr" %}
 <figcaption>Part des Grands Prix de la décennie gagnés par le pilote parti en pole position.</figcaption>
 </figure>
 
@@ -92,6 +95,7 @@ Le [dossier Domination]({{ site.baseurl }}/dossiers/domination/#les-voitures) re
 
 <figure class="figure">
 {% include domination/indic-voitures-fr.svg %}
+{% include donnees-graphique.html nom="domination/indic-voitures-fr" %}
 <figcaption>Nombre moyen de Grands Prix gagnés par chaque voiture gagnante de la décennie.</figcaption>
 </figure>
 

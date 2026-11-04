@@ -57,7 +57,8 @@ Pour lire l'intensité d'une domination, chaque saison reçoit aussi une note su
 
 <figure class="figure">
 {% include domination/compteur-f1-fr.svg %}
-<figcaption>L'indice de l'écurie la plus forte de chaque saison (survolez un point pour la nommer). Bandes : les hégémonies d'écurie. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, calculé plus bas.</figcaption>
+{% include donnees-graphique.html nom="domination/compteur-f1-fr" %}
+<figcaption>L'indice de l'écurie la plus forte de chaque saison (chaque point est détaillé sous le graphique). Bandes : les hégémonies d'écurie. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, calculé plus bas.</figcaption>
 </figure>
 
 Le compteur ne descend jamais sous le seuil : chaque saison a une écurie nettement en tête. Il monte le plus haut avec Ferrari en 1952, sur huit courses seulement, puis avec McLaren en 1988 et Mercedes de 2014 à 2016. Il est au plus bas à la fin des années 1970 et au début des années 1980. En 1981, l'écurie la plus forte selon l'indice, Renault, doit sa place à ses poles et n'est même pas championne.
@@ -81,6 +82,7 @@ On compte à quatre niveaux :
 
 <figure class="figure">
 {% include domination/tableau-ecurie-fr.svg %}
+{% include donnees-graphique.html nom="domination/tableau-ecurie-fr" %}
 <figcaption>Le tableau de bord des dominations longues d'écurie. Aiguille : l'indice moyen de la période. Trait noir : sa meilleure saison. Repère rouge : le seuil. Arc en tirets : une domination qui n'est pas une hégémonie.</figcaption>
 </figure>
 
@@ -103,6 +105,7 @@ On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% inc
 
 <figure class="figure">
 {% include domination/tableau-pilote-fr.svg %}
+{% include donnees-graphique.html nom="domination/tableau-pilote-fr" %}
 <figcaption>Le tableau de bord des dominations longues de pilote, avec la même lecture. Aucun pilote ne dépasse 50 de moyenne : il partage toujours le podium avec son coéquipier.</figcaption>
 </figure>
 
@@ -121,6 +124,7 @@ C'est chez les pilotes que la saison isolée est la plus fréquente : {{ EF.pilo
 
 <figure class="figure">
 {% include domination/tableau-motoriste-fr.svg %}
+{% include donnees-graphique.html nom="domination/tableau-motoriste-fr" %}
 <figcaption>Le tableau de bord des dominations longues de motoriste, avec la même lecture.</figcaption>
 </figure>
 
@@ -140,6 +144,7 @@ Un ingénieur ne gagne pas de course, mais on peut mesurer la domination de son 
 
 <figure class="figure">
 {% include domination/ingenieurs-compteur-fr.svg %}
+{% include donnees-graphique.html nom="domination/ingenieurs-compteur-fr" %}
 <figcaption>Le compteur des douze ingénieurs dont l'écurie a dominé le plus de saisons. Aiguille : l'indice moyen de leurs écuries pendant leur présence. Trait noir : leur meilleure saison.</figcaption>
 </figure>
 
@@ -155,6 +160,7 @@ Une écurie gagne avec une voiture précise, et elle en change parfois en cours 
 
 <figure class="figure">
 {% include domination/chassis-fr.svg %}
+{% include donnees-graphique.html nom="domination/chassis-fr" %}
 <figcaption>Les douze voitures les plus écrasantes : chaque cadran donne la part des Grands Prix de la saison gagnés par ce modèle.</figcaption>
 </figure>
 
@@ -174,7 +180,8 @@ Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries,
 
 <figure class="figure">
 {% include domination/pneus-fr.svg %}
-<figcaption>Part des Grands Prix gagnés sur chaque marque de pneus, saison par saison (survolez une barre pour le détail). « Autres » réunit Englebert, Continental et Avon. Hachures : les saisons de fournisseur unique.</figcaption>
+{% include donnees-graphique.html nom="domination/pneus-fr" %}
+<figcaption>Part des Grands Prix gagnés sur chaque marque de pneus, saison par saison (chaque barre est détaillée sous le graphique). « Autres » réunit Englebert, Continental et Avon. Hachures : les saisons de fournisseur unique.</figcaption>
 </figure>
 
 {% include domination.html quoi="pneus" %}
@@ -219,6 +226,7 @@ La domination se lit aussi à l'échelle des grands cycles réglementaires, ces 
 
 <figure class="figure">
 {% include domination/cycles-cadrans-fr.svg %}
+{% include donnees-graphique.html nom="domination/cycles-cadrans-fr" %}
 <figcaption>Un cadran par cycle réglementaire : l'indice moyen de l'écurie qui y gagne le plus (aiguille), et sa meilleure saison du cycle (trait noir).</figcaption>
 </figure>
 
@@ -230,6 +238,7 @@ Une écurie peut dominer, mais une technologie aussi. On suit neuf innovations d
 
 <figure class="figure">
 {% include domination/technologies-fr.svg %}
+{% include donnees-graphique.html nom="domination/technologies-fr" %}
 <figcaption>La diffusion des neuf technologies : part des Grands Prix gagnés par des voitures qui l'utilisent. Trait vertical : le jalon. Fond bleu : les saisons où le pionnier est seul à gagner avec elle.</figcaption>
 </figure>
 
@@ -283,6 +292,7 @@ On prend les jalons rattachés à l'écurie qui les a portés, soit {{ EJ.n }} c
 
 <figure class="figure">
 {% include domination/etude-jalons-fr.svg %}
+{% include donnees-graphique.html nom="domination/etude-jalons-fr" %}
 <figcaption>Part moyenne des Grands Prix gagnés par l'écurie, saison par saison autour du jalon (trait plein), et par la même écurie à une saison quelconque (tirets). Les valeurs de chaque jalon sont dans le tableau détaillé plus bas.</figcaption>
 </figure>
 
@@ -353,6 +363,7 @@ Pour chaque arrivée, on compare la part de victoires de l'écurie dans les deux
 
 <figure class="figure">
 {% include domination/ingenieurs-fr.svg %}
+{% include donnees-graphique.html nom="domination/ingenieurs-fr" %}
 <figcaption>Part des cas suivis d'une hausse de plus de 5 points (point plein), et part attendue d'après le témoin apparié sur le niveau de départ (cercle). Entre parenthèses, le nombre de cas.</figcaption>
 </figure>
 

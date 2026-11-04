@@ -611,7 +611,7 @@ for f in sorted(glob.glob("_data/*.yml")):
 #    sorties comparées aux fichiers versionnés. Une donnée modifiée sans relancer le script (résultats,
 #    écuries, chronologie, entrées...) publierait des chiffres faux. Environ 15 s ; --rapide l'omet.
 GENERATEURS = [  # script, sorties
-    ("domination.py", ["_data/domination.yml", "_data/compteur.yml", "_includes/domination", "_includes/compteur"]),
+    ("domination.py", ["_data/domination.yml", "_data/compteur.yml", "_data/graphiques.yml", "_includes/domination", "_includes/compteur"]),
     ("fiches-ecuries.py", ["_ecuries", "_teams"]),
     ("bibliographie.py", ["_data/bibliographie.yml", "_data/en/bibliographie.yml"]),
 ]

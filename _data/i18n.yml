@@ -50,6 +50,8 @@ fr:
   pied_apres: "Les scores sont un instrument comparatif, pas des faits historiques. Sources consultées le 9 août 2026, revérifiées le 26 octobre 2026."
   pied_sources: "Toutes les sources"
   l:
+    donnees_graphique: "Données du graphique"
+    valeurs: "valeurs"
     rang: "Rang"
     tier: "Tier"
     score: "Score"
@@ -538,6 +540,8 @@ en:
   pied_apres: "Scores are a comparative tool, not historical facts. Sources accessed on 9 August 2026, re-checked on 26 October 2026."
   pied_sources: "All sources"
   l:
+    donnees_graphique: "Chart data"
+    valeurs: "values"
     rang: "Rank"
     tier: "Tier"
     score: "Score"

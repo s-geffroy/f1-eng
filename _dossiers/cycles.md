@@ -34,7 +34,8 @@ Chaque cycle s'ouvre avec une remise à zéro du règlement technique, décrite 
 
 <figure class="figure">
 {% include domination/cycles-courbe-fr.svg %}
-<figcaption>L'indice composite de l'écurie la plus forte de chaque saison (survolez un point pour la nommer). Les bandes séparent les cycles ; au-dessus, l'année d'ouverture du cycle et l'écurie qui y gagne le plus. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, au-dessus duquel une saison est le plus souvent dominante.</figcaption>
+{% include donnees-graphique.html nom="domination/cycles-courbe-fr" %}
+<figcaption>L'indice composite de l'écurie la plus forte de chaque saison (chaque point est détaillé sous le graphique). Les bandes séparent les cycles ; au-dessus, l'année d'ouverture du cycle et l'écurie qui y gagne le plus. Tirets rouges : le seuil de {{ CP.seuil | times: 100 | round }}, au-dessus duquel une saison est le plus souvent dominante.</figcaption>
 </figure>
 
 {% include domination.html quoi="cycles" %}
@@ -45,6 +46,7 @@ Les cycles sont de longueurs très inégales, de deux à dix-sept saisons. Les c
 
 <figure class="figure">
 {% include domination/cycles-cadrans-fr.svg %}
+{% include donnees-graphique.html nom="domination/cycles-cadrans-fr" %}
 <figcaption>Un cadran par cycle : l'indice moyen de l'écurie qui y gagne le plus (aiguille), et sa meilleure saison du cycle (trait noir). Repère rouge : le seuil.</figcaption>
 </figure>
 

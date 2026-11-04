@@ -1,0 +1,4105 @@
+# Généré par outils/domination.py : données des graphiques en texte, une ligne par point (ne pas éditer).
+compteur/ags-en:
+  lignes:
+  - '1986, AGS: 0'
+  - '1987, AGS: 0'
+  - '1988, AGS: 0'
+  - '1989, AGS: 0'
+  - '1990, AGS: 0'
+  - '1991, AGS: 0'
+  - AGS, 1986–1991
+  titre: 'Best season: AGS 1986, 0 / 100'
+compteur/ags-fr:
+  lignes:
+  - '1986, AGS : 0'
+  - '1987, AGS : 0'
+  - '1988, AGS : 0'
+  - '1989, AGS : 0'
+  - '1990, AGS : 0'
+  - '1991, AGS : 0'
+  - AGS, 1986–1991
+  titre: 'Meilleure saison : AGS 1986, 0 / 100'
+compteur/alfa-romeo-1950-en:
+  lignes:
+  - dominance, 1950–1951
+  - '1950, Alfa Romeo (1950–1951): 76 · title'
+  - '1951, Alfa Romeo (1950–1951): 46 · title'
+  - Alfa Romeo, 1950–1951
+  titre: 'Best season: Alfa Romeo (1950–1951) 1950, 76 / 100'
+compteur/alfa-romeo-1950-fr:
+  lignes:
+  - domination, 1950–1951
+  - '1950, Alfa Romeo (1950–1951) : 76 · titre'
+  - '1951, Alfa Romeo (1950–1951) : 46 · titre'
+  - Alfa Romeo, 1950–1951
+  titre: 'Meilleure saison : Alfa Romeo (1950–1951) 1950, 76 / 100'
+compteur/alfa-romeo-1979-en:
+  lignes:
+  - '1979, Alfa Romeo (1979–1985): 0'
+  - '1980, Alfa Romeo (1979–1985): 2'
+  - '1981, Alfa Romeo (1979–1985): 1'
+  - '1982, Alfa Romeo (1979–1985): 3'
+  - '1983, Alfa Romeo (1979–1985): 2'
+  - '1984, Alfa Romeo (1979–1985): 1'
+  - '1985, Alfa Romeo (1979–1985): 0'
+  - Alfa Romeo, 1979–1985
+  titre: 'Best season: Alfa Romeo (1979–1985) 1982, 3 / 100'
+compteur/alfa-romeo-1979-fr:
+  lignes:
+  - '1979, Alfa Romeo (1979–1985) : 0'
+  - '1980, Alfa Romeo (1979–1985) : 2'
+  - '1981, Alfa Romeo (1979–1985) : 1'
+  - '1982, Alfa Romeo (1979–1985) : 3'
+  - '1983, Alfa Romeo (1979–1985) : 2'
+  - '1984, Alfa Romeo (1979–1985) : 1'
+  - '1985, Alfa Romeo (1979–1985) : 0'
+  - Alfa Romeo, 1979–1985
+  titre: 'Meilleure saison : Alfa Romeo (1979–1985) 1982, 3 / 100'
+compteur/alfa-special-en:
+  lignes:
+  - '1963, Alfa Special: 0'
+  - '1965, Alfa Special: 0'
+  - Alfa Special, 1963–1963
+  - Alfa Special, 1965–1965
+  titre: 'Best season: Alfa Special 1963, 0 / 100'
+compteur/alfa-special-fr:
+  lignes:
+  - '1963, Alfa Special : 0'
+  - '1965, Alfa Special : 0'
+  - Alfa Special, 1963–1963
+  - Alfa Special, 1965–1965
+  titre: 'Meilleure saison : Alfa Special 1963, 0 / 100'
+compteur/amon-en:
+  lignes:
+  - '1974, Amon: 0'
+  - Amon, 1974–1974
+  titre: 'Best season: Amon 1974, 0 / 100'
+compteur/amon-fr:
+  lignes:
+  - '1974, Amon : 0'
+  - Amon, 1974–1974
+  titre: 'Meilleure saison : Amon 1974, 0 / 100'
+compteur/arrows-en:
+  lignes:
+  - '1978, Arrows: 1'
+  - '1979, Arrows: 0'
+  - '1980, Arrows: 1'
+  - '1981, Arrows: 4'
+  - '1982, Arrows: 0'
+  - '1983, Arrows: 0'
+  - '1984, Arrows: 0'
+  - '1985, Arrows: 1'
+  - '1986, Arrows: 0'
+  - '1987, Arrows: 0'
+  - '1988, Arrows: 1'
+  - '1989, Arrows: 1'
+  - '1990, Arrows: 0'
+  - '1991, Footwork: 0'
+  - '1992, Footwork: 0'
+  - '1993, Footwork: 0'
+  - '1994, Footwork: 0'
+  - '1995, Footwork: 1'
+  - '1996, Footwork: 0'
+  - '1997, Arrows: 1'
+  - '1998, Arrows: 0'
+  - '1999, Arrows: 0'
+  - '2000, Arrows: 0'
+  - '2001, Arrows: 0'
+  - '2002, Arrows: 0'
+  - Arrows, 1978–1990
+  - Footwork, 1991–1996
+  - Arrows, 1997–2002
+  titre: 'Best season: Arrows 1981, 4 / 100'
+compteur/arrows-fr:
+  lignes:
+  - '1978, Arrows : 1'
+  - '1979, Arrows : 0'
+  - '1980, Arrows : 1'
+  - '1981, Arrows : 4'
+  - '1982, Arrows : 0'
+  - '1983, Arrows : 0'
+  - '1984, Arrows : 0'
+  - '1985, Arrows : 1'
+  - '1986, Arrows : 0'
+  - '1987, Arrows : 0'
+  - '1988, Arrows : 1'
+  - '1989, Arrows : 1'
+  - '1990, Arrows : 0'
+  - '1991, Footwork : 0'
+  - '1992, Footwork : 0'
+  - '1993, Footwork : 0'
+  - '1994, Footwork : 0'
+  - '1995, Footwork : 1'
+  - '1996, Footwork : 0'
+  - '1997, Arrows : 1'
+  - '1998, Arrows : 0'
+  - '1999, Arrows : 0'
+  - '2000, Arrows : 0'
+  - '2001, Arrows : 0'
+  - '2002, Arrows : 0'
+  - Arrows, 1978–1990
+  - Footwork, 1991–1996
+  - Arrows, 1997–2002
+  titre: 'Meilleure saison : Arrows 1981, 4 / 100'
+compteur/aston-martin-1959-en:
+  lignes:
+  - '1959, Aston Martin (1959–1960): 0'
+  - '1960, Aston Martin (1959–1960): 0'
+  - Aston Martin, 1959–1960
+  titre: 'Best season: Aston Martin (1959–1960) 1959, 0 / 100'
+compteur/aston-martin-1959-fr:
+  lignes:
+  - '1959, Aston Martin (1959–1960) : 0'
+  - '1960, Aston Martin (1959–1960) : 0'
+  - Aston Martin, 1959–1960
+  titre: 'Meilleure saison : Aston Martin (1959–1960) 1959, 0 / 100'
+compteur/ats-1963-en:
+  lignes:
+  - '1963, ATS (1963): 0'
+  - ATS, 1963–1963
+  titre: 'Best season: ATS (1963) 1963, 0 / 100'
+compteur/ats-1963-fr:
+  lignes:
+  - '1963, ATS (1963) : 0'
+  - ATS, 1963–1963
+  titre: 'Meilleure saison : ATS (1963) 1963, 0 / 100'
+compteur/behra-porsche-en:
+  lignes:
+  - '1960, Behra-Porsche: 0'
+  - Behra-Porsche, 1960–1960
+  titre: 'Best season: Behra-Porsche 1960, 0 / 100'
+compteur/behra-porsche-fr:
+  lignes:
+  - '1960, Behra-Porsche : 0'
+  - Behra-Porsche, 1960–1960
+  titre: 'Meilleure saison : Behra-Porsche 1960, 0 / 100'
+compteur/bellasi-en:
+  lignes:
+  - '1970, Bellasi: 0'
+  - '1971, Bellasi: 0'
+  - Bellasi, 1970–1971
+  titre: 'Best season: Bellasi 1970, 0 / 100'
+compteur/bellasi-fr:
+  lignes:
+  - '1970, Bellasi : 0'
+  - '1971, Bellasi : 0'
+  - Bellasi, 1970–1971
+  titre: 'Meilleure saison : Bellasi 1970, 0 / 100'
+compteur/boro-en:
+  lignes:
+  - '1976, Boro: 0'
+  - '1977, Boro: 0'
+  - Boro, 1976–1977
+  titre: 'Best season: Boro 1976, 0 / 100'
+compteur/boro-fr:
+  lignes:
+  - '1976, Boro : 0'
+  - '1977, Boro : 0'
+  - Boro, 1976–1977
+  titre: 'Meilleure saison : Boro 1976, 0 / 100'
+compteur/brabham-en:
+  lignes:
+  - dominance, 1966–1967
+  - '1962, Brabham: 0'
+  - '1963, Brabham: 4'
+  - '1964, Brabham: 20'
+  - '1965, Brabham: 7'
+  - '1966, Brabham: 37 · title'
+  - '1967, Brabham: 32 · title'
+  - '1968, Brabham: 7'
+  - '1969, Brabham: 27'
+  - '1970, Brabham: 9'
+  - '1971, Brabham: 1'
+  - '1972, Brabham: 3'
+  - '1973, Brabham: 1'
+  - '1974, Brabham: 13'
+  - '1975, Brabham: 14'
+  - '1976, Brabham: 0'
+  - '1977, Brabham: 5'
+  - '1978, Brabham: 15'
+  - '1979, Brabham: 0'
+  - '1980, Brabham: 17'
+  - '1981, Brabham: 21'
+  - '1982, Brabham: 10'
+  - '1983, Brabham: 20'
+  - '1984, Brabham: 26'
+  - '1985, Brabham: 6'
+  - '1986, Brabham: 0'
+  - '1987, Brabham: 1'
+  - '1988, Brabham: 0'
+  - '1989, Brabham: 1'
+  - '1990, Brabham: 0'
+  - '1991, Brabham: 0'
+  - '1992, Brabham: 0'
+  - Brabham, 1962–1992
+  - '1978: The fan car'
+  - '1982: Tactical refuelling'
+  - '1983: First world champion with a turbo engine'
+  titre: 'Best season: Brabham 1966, 37 / 100'
+compteur/brabham-fr:
+  lignes:
+  - domination, 1966–1967
+  - '1962, Brabham : 0'
+  - '1963, Brabham : 4'
+  - '1964, Brabham : 20'
+  - '1965, Brabham : 7'
+  - '1966, Brabham : 37 · titre'
+  - '1967, Brabham : 32 · titre'
+  - '1968, Brabham : 7'
+  - '1969, Brabham : 27'
+  - '1970, Brabham : 9'
+  - '1971, Brabham : 1'
+  - '1972, Brabham : 3'
+  - '1973, Brabham : 1'
+  - '1974, Brabham : 13'
+  - '1975, Brabham : 14'
+  - '1976, Brabham : 0'
+  - '1977, Brabham : 5'
+  - '1978, Brabham : 15'
+  - '1979, Brabham : 0'
+  - '1980, Brabham : 17'
+  - '1981, Brabham : 21'
+  - '1982, Brabham : 10'
+  - '1983, Brabham : 20'
+  - '1984, Brabham : 26'
+  - '1985, Brabham : 6'
+  - '1986, Brabham : 0'
+  - '1987, Brabham : 1'
+  - '1988, Brabham : 0'
+  - '1989, Brabham : 1'
+  - '1990, Brabham : 0'
+  - '1991, Brabham : 0'
+  - '1992, Brabham : 0'
+  - Brabham, 1962–1992
+  - '1978 : La voiture à ventilateur'
+  - '1982 : Le ravitaillement tactique'
+  - '1983 : Premier champion du monde sur moteur turbo'
+  titre: 'Meilleure saison : Brabham 1966, 37 / 100'
+compteur/brackley-en:
+  lignes:
+  - hegemony, 2014–2021
+  - '1970, Tyrrell: 3'
+  - '1971, Tyrrell: 51 · title'
+  - '1972, Tyrrell: 23'
+  - '1973, Tyrrell: 29'
+  - '1974, Tyrrell: 12'
+  - '1975, Tyrrell: 6'
+  - '1976, Tyrrell: 13'
+  - '1977, Tyrrell: 3'
+  - '1978, Tyrrell: 6'
+  - '1979, Tyrrell: 3'
+  - '1980, Tyrrell: 0'
+  - '1981, Tyrrell: 0'
+  - '1982, Tyrrell: 3'
+  - '1983, Tyrrell: 3'
+  - '1984, Tyrrell: 0'
+  - '1985, Tyrrell: 0'
+  - '1986, Tyrrell: 0'
+  - '1987, Tyrrell: 0'
+  - '1988, Tyrrell: 0'
+  - '1989, Tyrrell: 1'
+  - '1990, Tyrrell: 1'
+  - '1991, Tyrrell: 1'
+  - '1992, Tyrrell: 0'
+  - '1993, Tyrrell: 0'
+  - '1994, Tyrrell: 1'
+  - '1995, Tyrrell: 0'
+  - '1996, Tyrrell: 0'
+  - '1997, Tyrrell: 0'
+  - '1998, Tyrrell: 0'
+  - '1999, BAR: 0'
+  - '2000, BAR: 0'
+  - '2001, BAR: 1'
+  - '2002, BAR: 0'
+  - '2003, BAR: 0'
+  - '2004, BAR: 9'
+  - '2005, BAR: 3'
+  - '2006, Honda: 6'
+  - '2007, Honda: 0'
+  - '2008, Honda: 1'
+  - '2009, Brawn: 35 · title'
+  - '2010, Mercedes: 2'
+  - '2011, Mercedes: 0'
+  - '2012, Mercedes: 5'
+  - '2013, Mercedes: 25'
+  - '2014, Mercedes: 78 · title'
+  - '2015, Mercedes: 78 · title'
+  - '2016, Mercedes: 79 · title'
+  - '2017, Mercedes: 59 · title'
+  - '2018, Mercedes: 51 · title'
+  - '2019, Mercedes: 57 · title'
+  - '2020, Mercedes: 71 · title'
+  - '2021, Mercedes: 41 · title'
+  - '2022, Mercedes: 13'
+  - '2023, Mercedes: 6'
+  - '2024, Mercedes: 15'
+  - '2025, Mercedes: 11'
+  - Tyrrell, 1970–1998
+  - BAR, 1999–2005
+  - Honda, 2006–2008
+  - Brawn, 2009–2009
+  - Mercedes, 2010–2026
+  - '2005: The seamless-shift gearbox'
+  - '2009: The double diffuser of the Brawn BGP 001'
+  - '1990: The raised nose'
+  - '2014: The Mercedes hybrid power unit'
+  - '2017: 50% thermal efficiency'
+  - '1976: The six-wheeled Tyrrell P34'
+  - '1978: Data enters car set-up'
+  titre: 'Best season: Mercedes 2016, 79 / 100'
+compteur/brackley-fr:
+  lignes:
+  - hégémonie, 2014–2021
+  - '1970, Tyrrell : 3'
+  - '1971, Tyrrell : 51 · titre'
+  - '1972, Tyrrell : 23'
+  - '1973, Tyrrell : 29'
+  - '1974, Tyrrell : 12'
+  - '1975, Tyrrell : 6'
+  - '1976, Tyrrell : 13'
+  - '1977, Tyrrell : 3'
+  - '1978, Tyrrell : 6'
+  - '1979, Tyrrell : 3'
+  - '1980, Tyrrell : 0'
+  - '1981, Tyrrell : 0'
+  - '1982, Tyrrell : 3'
+  - '1983, Tyrrell : 3'
+  - '1984, Tyrrell : 0'
+  - '1985, Tyrrell : 0'
+  - '1986, Tyrrell : 0'
+  - '1987, Tyrrell : 0'
+  - '1988, Tyrrell : 0'
+  - '1989, Tyrrell : 1'
+  - '1990, Tyrrell : 1'
+  - '1991, Tyrrell : 1'
+  - '1992, Tyrrell : 0'
+  - '1993, Tyrrell : 0'
+  - '1994, Tyrrell : 1'
+  - '1995, Tyrrell : 0'
+  - '1996, Tyrrell : 0'
+  - '1997, Tyrrell : 0'
+  - '1998, Tyrrell : 0'
+  - '1999, BAR : 0'
+  - '2000, BAR : 0'
+  - '2001, BAR : 1'
+  - '2002, BAR : 0'
+  - '2003, BAR : 0'
+  - '2004, BAR : 9'
+  - '2005, BAR : 3'
+  - '2006, Honda : 6'
+  - '2007, Honda : 0'
+  - '2008, Honda : 1'
+  - '2009, Brawn : 35 · titre'
+  - '2010, Mercedes : 2'
+  - '2011, Mercedes : 0'
+  - '2012, Mercedes : 5'
+  - '2013, Mercedes : 25'
+  - '2014, Mercedes : 78 · titre'
+  - '2015, Mercedes : 78 · titre'
+  - '2016, Mercedes : 79 · titre'
+  - '2017, Mercedes : 59 · titre'
+  - '2018, Mercedes : 51 · titre'
+  - '2019, Mercedes : 57 · titre'
+  - '2020, Mercedes : 71 · titre'
+  - '2021, Mercedes : 41 · titre'
+  - '2022, Mercedes : 13'
+  - '2023, Mercedes : 6'
+  - '2024, Mercedes : 15'
+  - '2025, Mercedes : 11'
+  - Tyrrell, 1970–1998
+  - BAR, 1999–2005
+  - Honda, 2006–2008
+  - Brawn, 2009–2009
+  - Mercedes, 2010–2026
+  - '2005 : La boîte sans rupture de couple'
+  - '2009 : Le double diffuseur de la Brawn BGP 001'
+  - '1990 : Le nez relevé'
+  - '2014 : Le groupe propulseur hybride Mercedes'
+  - '2017 : 50 % de rendement thermique'
+  - '1976 : La Tyrrell P34 à six roues'
+  - '1978 : Les données entrent dans le réglage'
+  titre: 'Meilleure saison : Mercedes 2016, 79 / 100'
+compteur/brm-en:
+  lignes:
+  - '1951, BRM: 0'
+  - '1956, BRM: 0'
+  - '1957, BRM: 0'
+  - '1958, BRM: 2'
+  - '1959, BRM: 10'
+  - '1960, BRM: 1'
+  - '1961, BRM: 1'
+  - '1962, BRM: 28 · title'
+  - '1963, BRM: 24'
+  - '1964, BRM: 18'
+  - '1965, BRM: 36'
+  - '1966, BRM: 9'
+  - '1967, BRM: 2'
+  - '1968, BRM: 4'
+  - '1969, BRM: 1'
+  - '1970, BRM: 4'
+  - '1971, BRM: 13'
+  - '1972, BRM: 4'
+  - '1973, BRM: 2'
+  - '1974, BRM: 1'
+  - '1975, BRM: 0'
+  - '1976, BRM: 0'
+  - '1977, BRM: 0'
+  - BRM, 1951–1951
+  - BRM, 1956–1977
+  titre: 'Best season: BRM 1965, 36 / 100'
+compteur/brm-fr:
+  lignes:
+  - '1951, BRM : 0'
+  - '1956, BRM : 0'
+  - '1957, BRM : 0'
+  - '1958, BRM : 2'
+  - '1959, BRM : 10'
+  - '1960, BRM : 1'
+  - '1961, BRM : 1'
+  - '1962, BRM : 28 · titre'
+  - '1963, BRM : 24'
+  - '1964, BRM : 18'
+  - '1965, BRM : 36'
+  - '1966, BRM : 9'
+  - '1967, BRM : 2'
+  - '1968, BRM : 4'
+  - '1969, BRM : 1'
+  - '1970, BRM : 4'
+  - '1971, BRM : 13'
+  - '1972, BRM : 4'
+  - '1973, BRM : 2'
+  - '1974, BRM : 1'
+  - '1975, BRM : 0'
+  - '1976, BRM : 0'
+  - '1977, BRM : 0'
+  - BRM, 1951–1951
+  - BRM, 1956–1977
+  titre: 'Meilleure saison : BRM 1965, 36 / 100'
+compteur/brp-en:
+  lignes:
+  - '1963, BRP: 0'
+  - '1964, BRP: 0'
+  - BRP, 1963–1964
+  titre: 'Best season: BRP 1963, 0 / 100'
+compteur/brp-fr:
+  lignes:
+  - '1963, BRP : 0'
+  - '1964, BRP : 0'
+  - BRP, 1963–1964
+  titre: 'Meilleure saison : BRP 1963, 0 / 100'
+compteur/caterham-en:
+  lignes:
+  - '2010, Lotus (2010–2011): 0'
+  - '2011, Lotus (2010–2011): 0'
+  - '2012, Caterham: 0'
+  - '2013, Caterham: 0'
+  - '2014, Caterham: 0'
+  - Lotus, 2010–2011
+  - Caterham, 2012–2014
+  titre: 'Best season: Lotus (2010–2011) 2010, 0 / 100'
+compteur/caterham-fr:
+  lignes:
+  - '2010, Lotus (2010–2011) : 0'
+  - '2011, Lotus (2010–2011) : 0'
+  - '2012, Caterham : 0'
+  - '2013, Caterham : 0'
+  - '2014, Caterham : 0'
+  - Lotus, 2010–2011
+  - Caterham, 2012–2014
+  titre: 'Meilleure saison : Lotus (2010–2011) 2010, 0 / 100'
+compteur/coloni-en:
+  lignes:
+  - '1987, Coloni: 0'
+  - '1988, Coloni: 0'
+  - '1989, Coloni: 0'
+  - '1990, Coloni: 0'
+  - '1991, Coloni: 0'
+  - '1992, Andrea Moda: 0'
+  - Coloni, 1987–1991
+  - Andrea Moda, 1992–1992
+  titre: 'Best season: Coloni 1987, 0 / 100'
+compteur/coloni-fr:
+  lignes:
+  - '1987, Coloni : 0'
+  - '1988, Coloni : 0'
+  - '1989, Coloni : 0'
+  - '1990, Coloni : 0'
+  - '1991, Coloni : 0'
+  - '1992, Andrea Moda : 0'
+  - Coloni, 1987–1991
+  - Andrea Moda, 1992–1992
+  titre: 'Meilleure saison : Coloni 1987, 0 / 100'
+compteur/connaught-en:
+  lignes:
+  - '1952, Connaught: 0'
+  - '1953, Connaught: 0'
+  - '1954, Connaught: 0'
+  - '1955, Connaught: 0'
+  - '1956, Connaught: 1'
+  - '1957, Connaught: 0'
+  - '1958, Connaught: 0'
+  - '1959, Connaught: 0'
+  - Connaught, 1952–1959
+  titre: 'Best season: Connaught 1956, 1 / 100'
+compteur/connaught-fr:
+  lignes:
+  - '1952, Connaught : 0'
+  - '1953, Connaught : 0'
+  - '1954, Connaught : 0'
+  - '1955, Connaught : 0'
+  - '1956, Connaught : 1'
+  - '1957, Connaught : 0'
+  - '1958, Connaught : 0'
+  - '1959, Connaught : 0'
+  - Connaught, 1952–1959
+  titre: 'Meilleure saison : Connaught 1956, 1 / 100'
+compteur/connew-en:
+  lignes:
+  - '1972, Connew: 0'
+  - Connew, 1972–1972
+  titre: 'Best season: Connew 1972, 0 / 100'
+compteur/connew-fr:
+  lignes:
+  - '1972, Connew : 0'
+  - Connew, 1972–1972
+  titre: 'Meilleure saison : Connew 1972, 0 / 100'
+compteur/cooper-en:
+  lignes:
+  - dominance, 1959–1960
+  - '1950, Cooper: 0'
+  - '1951, Cooper: 0'
+  - '1952, Cooper: 1'
+  - '1953, Cooper: 0'
+  - '1954, Cooper: 0'
+  - '1955, Cooper: 0'
+  - '1956, Cooper: 0'
+  - '1957, Cooper: 0'
+  - '1958, Cooper: 11'
+  - '1959, Cooper: 53 · title'
+  - '1960, Cooper: 49 · title'
+  - '1961, Cooper: 6'
+  - '1962, Cooper: 12'
+  - '1963, Cooper: 4'
+  - '1964, Cooper: 2'
+  - '1965, Cooper: 1'
+  - '1966, Cooper: 15'
+  - '1967, Cooper: 5'
+  - '1968, Cooper: 2'
+  - '1969, Cooper: 0'
+  - Cooper, 1950–1969
+  - '1958: First win for a mid-engined car'
+  - '1959: The rear engine takes over'
+  titre: 'Best season: Cooper 1959, 53 / 100'
+compteur/cooper-fr:
+  lignes:
+  - domination, 1959–1960
+  - '1950, Cooper : 0'
+  - '1951, Cooper : 0'
+  - '1952, Cooper : 1'
+  - '1953, Cooper : 0'
+  - '1954, Cooper : 0'
+  - '1955, Cooper : 0'
+  - '1956, Cooper : 0'
+  - '1957, Cooper : 0'
+  - '1958, Cooper : 11'
+  - '1959, Cooper : 53 · titre'
+  - '1960, Cooper : 49 · titre'
+  - '1961, Cooper : 6'
+  - '1962, Cooper : 12'
+  - '1963, Cooper : 4'
+  - '1964, Cooper : 2'
+  - '1965, Cooper : 1'
+  - '1966, Cooper : 15'
+  - '1967, Cooper : 5'
+  - '1968, Cooper : 2'
+  - '1969, Cooper : 0'
+  - Cooper, 1950–1969
+  - '1958 : Première victoire d''une voiture à moteur central'
+  - '1959 : Le moteur arrière s''impose'
+  titre: 'Meilleure saison : Cooper 1959, 53 / 100'
+compteur/de-tomaso-en:
+  lignes:
+  - '1961, De Tomaso: 0'
+  - '1970, De Tomaso: 0'
+  - De Tomaso, 1961–1961
+  - De Tomaso, 1970–1970
+  titre: 'Best season: De Tomaso 1961, 0 / 100'
+compteur/de-tomaso-fr:
+  lignes:
+  - '1961, De Tomaso : 0'
+  - '1970, De Tomaso : 0'
+  - De Tomaso, 1961–1961
+  - De Tomaso, 1970–1970
+  titre: 'Meilleure saison : De Tomaso 1961, 0 / 100'
+compteur/derrington-francis-en:
+  lignes:
+  - '1964, Derrington-Francis: 0'
+  - Derrington-Francis, 1964–1964
+  titre: 'Best season: Derrington-Francis 1964, 0 / 100'
+compteur/derrington-francis-fr:
+  lignes:
+  - '1964, Derrington-Francis : 0'
+  - Derrington-Francis, 1964–1964
+  titre: 'Meilleure saison : Derrington-Francis 1964, 0 / 100'
+compteur/eagle-en:
+  lignes:
+  - '1966, Eagle: 0'
+  - '1967, Eagle: 5'
+  - '1968, Eagle: 0'
+  - '1969, Eagle: 0'
+  - Eagle, 1966–1969
+  titre: 'Best season: Eagle 1967, 5 / 100'
+compteur/eagle-fr:
+  lignes:
+  - '1966, Eagle : 0'
+  - '1967, Eagle : 5'
+  - '1968, Eagle : 0'
+  - '1969, Eagle : 0'
+  - Eagle, 1966–1969
+  titre: 'Meilleure saison : Eagle 1967, 5 / 100'
+compteur/eifelland-en:
+  lignes:
+  - '1972, Eifelland: 0'
+  - Eifelland, 1972–1972
+  titre: 'Best season: Eifelland 1972, 0 / 100'
+compteur/eifelland-fr:
+  lignes:
+  - '1972, Eifelland : 0'
+  - Eifelland, 1972–1972
+  titre: 'Meilleure saison : Eifelland 1972, 0 / 100'
+compteur/emeryson-en:
+  lignes:
+  - '1956, Emeryson: 0'
+  - '1962, Emeryson: 0'
+  - '1963, Scirocco: 0'
+  - '1964, Scirocco: 0'
+  - Emeryson, 1956–1956
+  - Emeryson, 1962–1962
+  - Scirocco, 1963–1964
+  titre: 'Best season: Emeryson 1956, 0 / 100'
+compteur/emeryson-fr:
+  lignes:
+  - '1956, Emeryson : 0'
+  - '1962, Emeryson : 0'
+  - '1963, Scirocco : 0'
+  - '1964, Scirocco : 0'
+  - Emeryson, 1956–1956
+  - Emeryson, 1962–1962
+  - Scirocco, 1963–1964
+  titre: 'Meilleure saison : Emeryson 1956, 0 / 100'
+compteur/enb-en:
+  lignes:
+  - '1962, ENB: 0'
+  - ENB, 1962–1962
+  titre: 'Best season: ENB 1962, 0 / 100'
+compteur/enb-fr:
+  lignes:
+  - '1962, ENB : 0'
+  - ENB, 1962–1962
+  titre: 'Meilleure saison : ENB 1962, 0 / 100'
+compteur/ensign-en:
+  lignes:
+  - '1973, Ensign: 0'
+  - '1974, Ensign: 0'
+  - '1975, Ensign: 0'
+  - '1976, Ensign: 0'
+  - '1977, Ensign: 0'
+  - '1978, Ensign: 0'
+  - '1979, Ensign: 0'
+  - '1980, Ensign: 0'
+  - '1981, Ensign: 0'
+  - '1982, Ensign: 0'
+  - '1983, Theodore: 0'
+  - Ensign, 1973–1982
+  - Theodore, 1983–1983
+  titre: 'Best season: Ensign 1973, 0 / 100'
+compteur/ensign-fr:
+  lignes:
+  - '1973, Ensign : 0'
+  - '1974, Ensign : 0'
+  - '1975, Ensign : 0'
+  - '1976, Ensign : 0'
+  - '1977, Ensign : 0'
+  - '1978, Ensign : 0'
+  - '1979, Ensign : 0'
+  - '1980, Ensign : 0'
+  - '1981, Ensign : 0'
+  - '1982, Ensign : 0'
+  - '1983, Theodore : 0'
+  - Ensign, 1973–1982
+  - Theodore, 1983–1983
+  titre: 'Meilleure saison : Ensign 1973, 0 / 100'
+compteur/enstone-en:
+  lignes:
+  - dominance, 1994–1995
+  - dominance, 2005–2006
+  - '1981, Toleman: 0'
+  - '1982, Toleman: 0'
+  - '1983, Toleman: 0'
+  - '1984, Toleman: 2'
+  - '1985, Toleman: 2'
+  - '1986, Benetton: 8'
+  - '1987, Benetton: 1'
+  - '1988, Benetton: 5'
+  - '1989, Benetton: 5'
+  - '1990, Benetton: 10'
+  - '1991, Benetton: 4'
+  - '1992, Benetton: 11'
+  - '1993, Benetton: 10'
+  - '1994, Benetton: 38'
+  - '1995, Benetton: 39 · title'
+  - '1996, Benetton: 7'
+  - '1997, Benetton: 11'
+  - '1998, Benetton: 3'
+  - '1999, Benetton: 1'
+  - '2000, Benetton: 2'
+  - '2001, Benetton: 1'
+  - '2002, Renault: 0'
+  - '2003, Renault: 10'
+  - '2004, Renault: 11'
+  - '2005, Renault: 37 · title'
+  - '2006, Renault: 40 · title'
+  - '2007, Renault: 1'
+  - '2008, Renault: 6'
+  - '2009, Renault: 3'
+  - '2010, Renault: 2'
+  - '2011, Renault: 1'
+  - '2012, Lotus F1 Team: 7'
+  - '2013, Lotus F1 Team: 10'
+  - '2014, Lotus F1 Team: 0'
+  - '2015, Lotus F1 Team: 1'
+  - '2016, Renault: 0'
+  - '2017, Renault: 0'
+  - '2018, Renault: 0'
+  - '2019, Renault: 0'
+  - '2020, Renault: 2'
+  - '2021, Alpine: 3'
+  - '2022, Alpine: 0'
+  - '2023, Alpine: 1'
+  - '2024, Alpine: 1'
+  - '2025, Alpine: 0'
+  - Toleman, 1981–1985
+  - Benetton, 1986–2001
+  - Renault, 2002–2011
+  - Lotus F1 Team, 2012–2015
+  - Renault, 2016–2020
+  - Alpine, 2021–2026
+  - '1993: The programme started a year ahead'
+  - '1993: Computational fluid dynamics'
+  titre: 'Best season: Renault 2006, 40 / 100'
+compteur/enstone-fr:
+  lignes:
+  - domination, 1994–1995
+  - domination, 2005–2006
+  - '1981, Toleman : 0'
+  - '1982, Toleman : 0'
+  - '1983, Toleman : 0'
+  - '1984, Toleman : 2'
+  - '1985, Toleman : 2'
+  - '1986, Benetton : 8'
+  - '1987, Benetton : 1'
+  - '1988, Benetton : 5'
+  - '1989, Benetton : 5'
+  - '1990, Benetton : 10'
+  - '1991, Benetton : 4'
+  - '1992, Benetton : 11'
+  - '1993, Benetton : 10'
+  - '1994, Benetton : 38'
+  - '1995, Benetton : 39 · titre'
+  - '1996, Benetton : 7'
+  - '1997, Benetton : 11'
+  - '1998, Benetton : 3'
+  - '1999, Benetton : 1'
+  - '2000, Benetton : 2'
+  - '2001, Benetton : 1'
+  - '2002, Renault : 0'
+  - '2003, Renault : 10'
+  - '2004, Renault : 11'
+  - '2005, Renault : 37 · titre'
+  - '2006, Renault : 40 · titre'
+  - '2007, Renault : 1'
+  - '2008, Renault : 6'
+  - '2009, Renault : 3'
+  - '2010, Renault : 2'
+  - '2011, Renault : 1'
+  - '2012, Lotus F1 Team : 7'
+  - '2013, Lotus F1 Team : 10'
+  - '2014, Lotus F1 Team : 0'
+  - '2015, Lotus F1 Team : 1'
+  - '2016, Renault : 0'
+  - '2017, Renault : 0'
+  - '2018, Renault : 0'
+  - '2019, Renault : 0'
+  - '2020, Renault : 2'
+  - '2021, Alpine : 3'
+  - '2022, Alpine : 0'
+  - '2023, Alpine : 1'
+  - '2024, Alpine : 1'
+  - '2025, Alpine : 0'
+  - Toleman, 1981–1985
+  - Benetton, 1986–2001
+  - Renault, 2002–2011
+  - Lotus F1 Team, 2012–2015
+  - Renault, 2016–2020
+  - Alpine, 2021–2026
+  - '1993 : Le programme lancé un an à l''avance'
+  - '1993 : La simulation numérique des écoulements'
+  titre: 'Meilleure saison : Renault 2006, 40 / 100'
+compteur/eurobrun-en:
+  lignes:
+  - '1988, EuroBrun: 0'
+  - '1990, EuroBrun: 0'
+  - EuroBrun, 1988–1988
+  - EuroBrun, 1990–1990
+  titre: 'Best season: EuroBrun 1988, 0 / 100'
+compteur/eurobrun-fr:
+  lignes:
+  - '1988, EuroBrun : 0'
+  - '1990, EuroBrun : 0'
+  - EuroBrun, 1988–1988
+  - EuroBrun, 1990–1990
+  titre: 'Meilleure saison : EuroBrun 1988, 0 / 100'
+compteur/faenza-en:
+  lignes:
+  - '1985, Minardi: 0'
+  - '1986, Minardi: 0'
+  - '1987, Minardi: 0'
+  - '1988, Minardi: 0'
+  - '1989, Minardi: 0'
+  - '1990, Minardi: 0'
+  - '1991, Minardi: 0'
+  - '1992, Minardi: 0'
+  - '1993, Minardi: 0'
+  - '1994, Minardi: 0'
+  - '1995, Minardi: 0'
+  - '1996, Minardi: 0'
+  - '1997, Minardi: 0'
+  - '1998, Minardi: 0'
+  - '1999, Minardi: 0'
+  - '2000, Minardi: 0'
+  - '2001, Minardi: 0'
+  - '2002, Minardi: 0'
+  - '2003, Minardi: 0'
+  - '2004, Minardi: 0'
+  - '2005, Minardi: 0'
+  - '2006, Toro Rosso: 0'
+  - '2007, Toro Rosso: 0'
+  - '2008, Toro Rosso: 4'
+  - '2009, Toro Rosso: 0'
+  - '2010, Toro Rosso: 0'
+  - '2011, Toro Rosso: 0'
+  - '2012, Toro Rosso: 0'
+  - '2013, Toro Rosso: 0'
+  - '2014, Toro Rosso: 0'
+  - '2015, Toro Rosso: 0'
+  - '2016, Toro Rosso: 0'
+  - '2017, Toro Rosso: 0'
+  - '2018, Toro Rosso: 0'
+  - '2019, Toro Rosso: 1'
+  - '2020, AlphaTauri: 3'
+  - '2021, AlphaTauri: 1'
+  - '2022, AlphaTauri: 0'
+  - '2023, AlphaTauri: 0'
+  - '2024, RB: 0'
+  - '2025, Racing Bulls: 0'
+  - Minardi, 1985–2005
+  - Toro Rosso, 2006–2019
+  - AlphaTauri, 2020–2023
+  - RB, 2024–2024
+  - Racing Bulls, 2025–2026
+  titre: 'Best season: Toro Rosso 2008, 4 / 100'
+compteur/faenza-fr:
+  lignes:
+  - '1985, Minardi : 0'
+  - '1986, Minardi : 0'
+  - '1987, Minardi : 0'
+  - '1988, Minardi : 0'
+  - '1989, Minardi : 0'
+  - '1990, Minardi : 0'
+  - '1991, Minardi : 0'
+  - '1992, Minardi : 0'
+  - '1993, Minardi : 0'
+  - '1994, Minardi : 0'
+  - '1995, Minardi : 0'
+  - '1996, Minardi : 0'
+  - '1997, Minardi : 0'
+  - '1998, Minardi : 0'
+  - '1999, Minardi : 0'
+  - '2000, Minardi : 0'
+  - '2001, Minardi : 0'
+  - '2002, Minardi : 0'
+  - '2003, Minardi : 0'
+  - '2004, Minardi : 0'
+  - '2005, Minardi : 0'
+  - '2006, Toro Rosso : 0'
+  - '2007, Toro Rosso : 0'
+  - '2008, Toro Rosso : 4'
+  - '2009, Toro Rosso : 0'
+  - '2010, Toro Rosso : 0'
+  - '2011, Toro Rosso : 0'
+  - '2012, Toro Rosso : 0'
+  - '2013, Toro Rosso : 0'
+  - '2014, Toro Rosso : 0'
+  - '2015, Toro Rosso : 0'
+  - '2016, Toro Rosso : 0'
+  - '2017, Toro Rosso : 0'
+  - '2018, Toro Rosso : 0'
+  - '2019, Toro Rosso : 1'
+  - '2020, AlphaTauri : 3'
+  - '2021, AlphaTauri : 1'
+  - '2022, AlphaTauri : 0'
+  - '2023, AlphaTauri : 0'
+  - '2024, RB : 0'
+  - '2025, Racing Bulls : 0'
+  - Minardi, 1985–2005
+  - Toro Rosso, 2006–2019
+  - AlphaTauri, 2020–2023
+  - RB, 2024–2024
+  - Racing Bulls, 2025–2026
+  titre: 'Meilleure saison : Toro Rosso 2008, 4 / 100'
+compteur/ferguson-en:
+  lignes:
+  - '1961, Ferguson: 0'
+  - Ferguson, 1961–1961
+  titre: 'Best season: Ferguson 1961, 0 / 100'
+compteur/ferguson-fr:
+  lignes:
+  - '1961, Ferguson : 0'
+  - Ferguson, 1961–1961
+  titre: 'Meilleure saison : Ferguson 1961, 0 / 100'
+compteur/ferrari-en:
+  lignes:
+  - dominance, 1952–1953
+  - hegemony, 1975–1979
+  - dominance, 1982–1983
+  - hegemony, 1999–2008
+  - '1950, Ferrari: 5'
+  - '1951, Ferrari: 42'
+  - '1952, Ferrari: 82 · title'
+  - '1953, Ferrari: 68 · title'
+  - '1954, Ferrari: 30'
+  - '1955, Ferrari: 17'
+  - '1956, Ferrari: 60 · title'
+  - '1957, Ferrari: 10'
+  - '1958, Ferrari: 32'
+  - '1959, Ferrari: 26'
+  - '1960, Ferrari: 12'
+  - '1961, Ferrari: 65 · title'
+  - '1962, Ferrari: 5'
+  - '1963, Ferrari: 10'
+  - '1964, Ferrari: 28 · title'
+  - '1965, Ferrari: 4'
+  - '1966, Ferrari: 26'
+  - '1967, Ferrari: 4'
+  - '1968, Ferrari: 19'
+  - '1969, Ferrari: 1'
+  - '1970, Ferrari: 31'
+  - '1971, Ferrari: 22'
+  - '1972, Ferrari: 19'
+  - '1973, Ferrari: 0'
+  - '1974, Ferrari: 38'
+  - '1975, Ferrari: 44 · title'
+  - '1976, Ferrari: 30 · title'
+  - '1977, Ferrari: 22 · title'
+  - '1978, Ferrari: 21'
+  - '1979, Ferrari: 27 · title'
+  - '1980, Ferrari: 0'
+  - '1981, Ferrari: 9'
+  - '1982, Ferrari: 20 · title'
+  - '1983, Ferrari: 36 · title'
+  - '1984, Ferrari: 10'
+  - '1985, Ferrari: 13'
+  - '1986, Ferrari: 3'
+  - '1987, Ferrari: 15'
+  - '1988, Ferrari: 10'
+  - '1989, Ferrari: 13'
+  - '1990, Ferrari: 28'
+  - '1991, Ferrari: 6'
+  - '1992, Ferrari: 1'
+  - '1993, Ferrari: 2'
+  - '1994, Ferrari: 16'
+  - '1995, Ferrari: 11'
+  - '1996, Ferrari: 21'
+  - '1997, Ferrari: 24'
+  - '1998, Ferrari: 32'
+  - '1999, Ferrari: 31 · title'
+  - '2000, Ferrari: 53 · title'
+  - '2001, Ferrari: 55 · title'
+  - '2002, Ferrari: 67 · title'
+  - '2003, Ferrari: 44 · title'
+  - '2004, Ferrari: 68 · title'
+  - '2005, Ferrari: 9'
+  - '2006, Ferrari: 41'
+  - '2007, Ferrari: 50 · title'
+  - '2008, Ferrari: 41 · title'
+  - '2009, Ferrari: 6'
+  - '2010, Ferrari: 21'
+  - '2011, Ferrari: 8'
+  - '2012, Ferrari: 17'
+  - '2013, Ferrari: 9'
+  - '2014, Ferrari: 1'
+  - '2015, Ferrari: 16'
+  - '2016, Ferrari: 6'
+  - '2017, Ferrari: 28'
+  - '2018, Ferrari: 32'
+  - '2019, Ferrari: 29'
+  - '2020, Ferrari: 2'
+  - '2021, Ferrari: 6'
+  - '2022, Ferrari: 34'
+  - '2023, Ferrari: 17'
+  - '2024, Ferrari: 23'
+  - '2025, Ferrari: 5'
+  - Ferrari, 1950–2026
+  - '1968: Wings on struts'
+  - '1975: The transverse gearbox of the Ferrari 312T'
+  - '1989: The semi-automatic gearbox on the steering wheel'
+  titre: 'Best season: Ferrari 1952, 82 / 100'
+compteur/ferrari-fr:
+  lignes:
+  - domination, 1952–1953
+  - hégémonie, 1975–1979
+  - domination, 1982–1983
+  - hégémonie, 1999–2008
+  - '1950, Ferrari : 5'
+  - '1951, Ferrari : 42'
+  - '1952, Ferrari : 82 · titre'
+  - '1953, Ferrari : 68 · titre'
+  - '1954, Ferrari : 30'
+  - '1955, Ferrari : 17'
+  - '1956, Ferrari : 60 · titre'
+  - '1957, Ferrari : 10'
+  - '1958, Ferrari : 32'
+  - '1959, Ferrari : 26'
+  - '1960, Ferrari : 12'
+  - '1961, Ferrari : 65 · titre'
+  - '1962, Ferrari : 5'
+  - '1963, Ferrari : 10'
+  - '1964, Ferrari : 28 · titre'
+  - '1965, Ferrari : 4'
+  - '1966, Ferrari : 26'
+  - '1967, Ferrari : 4'
+  - '1968, Ferrari : 19'
+  - '1969, Ferrari : 1'
+  - '1970, Ferrari : 31'
+  - '1971, Ferrari : 22'
+  - '1972, Ferrari : 19'
+  - '1973, Ferrari : 0'
+  - '1974, Ferrari : 38'
+  - '1975, Ferrari : 44 · titre'
+  - '1976, Ferrari : 30 · titre'
+  - '1977, Ferrari : 22 · titre'
+  - '1978, Ferrari : 21'
+  - '1979, Ferrari : 27 · titre'
+  - '1980, Ferrari : 0'
+  - '1981, Ferrari : 9'
+  - '1982, Ferrari : 20 · titre'
+  - '1983, Ferrari : 36 · titre'
+  - '1984, Ferrari : 10'
+  - '1985, Ferrari : 13'
+  - '1986, Ferrari : 3'
+  - '1987, Ferrari : 15'
+  - '1988, Ferrari : 10'
+  - '1989, Ferrari : 13'
+  - '1990, Ferrari : 28'
+  - '1991, Ferrari : 6'
+  - '1992, Ferrari : 1'
+  - '1993, Ferrari : 2'
+  - '1994, Ferrari : 16'
+  - '1995, Ferrari : 11'
+  - '1996, Ferrari : 21'
+  - '1997, Ferrari : 24'
+  - '1998, Ferrari : 32'
+  - '1999, Ferrari : 31 · titre'
+  - '2000, Ferrari : 53 · titre'
+  - '2001, Ferrari : 55 · titre'
+  - '2002, Ferrari : 67 · titre'
+  - '2003, Ferrari : 44 · titre'
+  - '2004, Ferrari : 68 · titre'
+  - '2005, Ferrari : 9'
+  - '2006, Ferrari : 41'
+  - '2007, Ferrari : 50 · titre'
+  - '2008, Ferrari : 41 · titre'
+  - '2009, Ferrari : 6'
+  - '2010, Ferrari : 21'
+  - '2011, Ferrari : 8'
+  - '2012, Ferrari : 17'
+  - '2013, Ferrari : 9'
+  - '2014, Ferrari : 1'
+  - '2015, Ferrari : 16'
+  - '2016, Ferrari : 6'
+  - '2017, Ferrari : 28'
+  - '2018, Ferrari : 32'
+  - '2019, Ferrari : 29'
+  - '2020, Ferrari : 2'
+  - '2021, Ferrari : 6'
+  - '2022, Ferrari : 34'
+  - '2023, Ferrari : 17'
+  - '2024, Ferrari : 23'
+  - '2025, Ferrari : 5'
+  - Ferrari, 1950–2026
+  - '1968 : Les ailerons sur supports'
+  - '1975 : La boîte transversale de la Ferrari 312T'
+  - '1989 : La boîte semi-automatique au volant'
+  titre: 'Meilleure saison : Ferrari 1952, 82 / 100'
+compteur/fittipaldi-en:
+  lignes:
+  - '1975, Fittipaldi: 0'
+  - '1976, Fittipaldi: 0'
+  - '1977, Fittipaldi: 0'
+  - '1978, Fittipaldi: 1'
+  - '1979, Fittipaldi: 0'
+  - '1980, Fittipaldi: 2'
+  - '1981, Fittipaldi: 0'
+  - '1982, Fittipaldi: 0'
+  - Fittipaldi, 1975–1982
+  titre: 'Best season: Fittipaldi 1980, 2 / 100'
+compteur/fittipaldi-fr:
+  lignes:
+  - '1975, Fittipaldi : 0'
+  - '1976, Fittipaldi : 0'
+  - '1977, Fittipaldi : 0'
+  - '1978, Fittipaldi : 1'
+  - '1979, Fittipaldi : 0'
+  - '1980, Fittipaldi : 2'
+  - '1981, Fittipaldi : 0'
+  - '1982, Fittipaldi : 0'
+  - Fittipaldi, 1975–1982
+  titre: 'Meilleure saison : Fittipaldi 1980, 2 / 100'
+compteur/forti-en:
+  lignes:
+  - '1995, Forti: 0'
+  - '1996, Forti: 0'
+  - Forti, 1995–1996
+  titre: 'Best season: Forti 1995, 0 / 100'
+compteur/forti-fr:
+  lignes:
+  - '1995, Forti : 0'
+  - '1996, Forti : 0'
+  - Forti, 1995–1996
+  titre: 'Meilleure saison : Forti 1995, 0 / 100'
+compteur/gilby-en:
+  lignes:
+  - '1961, Gilby: 0'
+  - '1962, Gilby: 0'
+  - '1963, Gilby: 0'
+  - Gilby, 1961–1963
+  titre: 'Best season: Gilby 1961, 0 / 100'
+compteur/gilby-fr:
+  lignes:
+  - '1961, Gilby : 0'
+  - '1962, Gilby : 0'
+  - '1963, Gilby : 0'
+  - Gilby, 1961–1963
+  titre: 'Meilleure saison : Gilby 1961, 0 / 100'
+compteur/haas-en:
+  lignes:
+  - '2016, Haas: 0'
+  - '2017, Haas: 0'
+  - '2018, Haas: 0'
+  - '2019, Haas: 0'
+  - '2020, Haas: 0'
+  - '2021, Haas: 0'
+  - '2022, Haas: 0'
+  - '2023, Haas: 0'
+  - '2024, Haas: 0'
+  - '2025, Haas: 0'
+  - Haas, 2016–2026
+  titre: 'Best season: Haas 2016, 0 / 100'
+compteur/haas-fr:
+  lignes:
+  - '2016, Haas : 0'
+  - '2017, Haas : 0'
+  - '2018, Haas : 0'
+  - '2019, Haas : 0'
+  - '2020, Haas : 0'
+  - '2021, Haas : 0'
+  - '2022, Haas : 0'
+  - '2023, Haas : 0'
+  - '2024, Haas : 0'
+  - '2025, Haas : 0'
+  - Haas, 2016–2026
+  titre: 'Meilleure saison : Haas 2016, 0 / 100'
+compteur/hesketh-en:
+  lignes:
+  - '1974, Hesketh: 2'
+  - '1975, Hesketh: 6'
+  - '1976, Hesketh: 0'
+  - '1977, Hesketh: 0'
+  - '1978, Hesketh: 0'
+  - Hesketh, 1974–1978
+  titre: 'Best season: Hesketh 1975, 6 / 100'
+compteur/hesketh-fr:
+  lignes:
+  - '1974, Hesketh : 2'
+  - '1975, Hesketh : 6'
+  - '1976, Hesketh : 0'
+  - '1977, Hesketh : 0'
+  - '1978, Hesketh : 0'
+  - Hesketh, 1974–1978
+  titre: 'Meilleure saison : Hesketh 1975, 6 / 100'
+compteur/hill-en:
+  lignes:
+  - '1975, Hill: 0'
+  - Hill, 1975–1975
+  titre: 'Best season: Hill 1975, 0 / 100'
+compteur/hill-fr:
+  lignes:
+  - '1975, Hill : 0'
+  - Hill, 1975–1975
+  titre: 'Meilleure saison : Hill 1975, 0 / 100'
+compteur/hinwil-en:
+  lignes:
+  - '1993, Sauber: 0'
+  - '1994, Sauber: 0'
+  - '1995, Sauber: 1'
+  - '1996, Sauber: 1'
+  - '1997, Sauber: 1'
+  - '1998, Sauber: 1'
+  - '1999, Sauber: 0'
+  - '2000, Sauber: 0'
+  - '2001, Sauber: 1'
+  - '2002, Sauber: 0'
+  - '2003, Sauber: 1'
+  - '2004, Sauber: 0'
+  - '2005, Sauber: 0'
+  - '2006, BMW Sauber: 1'
+  - '2007, BMW Sauber: 1'
+  - '2008, BMW Sauber: 10'
+  - '2009, BMW Sauber: 1'
+  - '2010, Sauber: 0'
+  - '2011, Sauber: 0'
+  - '2012, Sauber: 2'
+  - '2013, Sauber: 0'
+  - '2014, Sauber: 0'
+  - '2015, Sauber: 0'
+  - '2016, Sauber: 0'
+  - '2017, Sauber: 0'
+  - '2018, Sauber: 0'
+  - '2019, Alfa Romeo: 0'
+  - '2020, Alfa Romeo: 0'
+  - '2021, Alfa Romeo: 0'
+  - '2022, Alfa Romeo: 0'
+  - '2023, Alfa Romeo: 0'
+  - '2024, Kick Sauber: 0'
+  - '2025, Kick Sauber: 0'
+  - Sauber, 1993–2005
+  - BMW Sauber, 2006–2009
+  - Sauber, 2010–2018
+  - Alfa Romeo, 2019–2023
+  - Kick Sauber, 2024–2025
+  titre: 'Best season: BMW Sauber 2008, 10 / 100'
+compteur/hinwil-fr:
+  lignes:
+  - '1993, Sauber : 0'
+  - '1994, Sauber : 0'
+  - '1995, Sauber : 1'
+  - '1996, Sauber : 1'
+  - '1997, Sauber : 1'
+  - '1998, Sauber : 1'
+  - '1999, Sauber : 0'
+  - '2000, Sauber : 0'
+  - '2001, Sauber : 1'
+  - '2002, Sauber : 0'
+  - '2003, Sauber : 1'
+  - '2004, Sauber : 0'
+  - '2005, Sauber : 0'
+  - '2006, BMW Sauber : 1'
+  - '2007, BMW Sauber : 1'
+  - '2008, BMW Sauber : 10'
+  - '2009, BMW Sauber : 1'
+  - '2010, Sauber : 0'
+  - '2011, Sauber : 0'
+  - '2012, Sauber : 2'
+  - '2013, Sauber : 0'
+  - '2014, Sauber : 0'
+  - '2015, Sauber : 0'
+  - '2016, Sauber : 0'
+  - '2017, Sauber : 0'
+  - '2018, Sauber : 0'
+  - '2019, Alfa Romeo : 0'
+  - '2020, Alfa Romeo : 0'
+  - '2021, Alfa Romeo : 0'
+  - '2022, Alfa Romeo : 0'
+  - '2023, Alfa Romeo : 0'
+  - '2024, Kick Sauber : 0'
+  - '2025, Kick Sauber : 0'
+  - Sauber, 1993–2005
+  - BMW Sauber, 2006–2009
+  - Sauber, 2010–2018
+  - Alfa Romeo, 2019–2023
+  - Kick Sauber, 2024–2025
+  titre: 'Meilleure saison : BMW Sauber 2008, 10 / 100'
+compteur/honda-1964-en:
+  lignes:
+  - '1964, Honda (1964–1968): 0'
+  - '1965, Honda (1964–1968): 4'
+  - '1966, Honda (1964–1968): 0'
+  - '1967, Honda (1964–1968): 5'
+  - '1968, Honda (1964–1968): 5'
+  - Honda, 1964–1968
+  titre: 'Best season: Honda (1964–1968) 1967, 5 / 100'
+compteur/honda-1964-fr:
+  lignes:
+  - '1964, Honda (1964–1968) : 0'
+  - '1965, Honda (1964–1968) : 4'
+  - '1966, Honda (1964–1968) : 0'
+  - '1967, Honda (1964–1968) : 5'
+  - '1968, Honda (1964–1968) : 5'
+  - Honda, 1964–1968
+  titre: 'Meilleure saison : Honda (1964–1968) 1967, 5 / 100'
+compteur/hrt-en:
+  lignes:
+  - '2010, HRT: 0'
+  - '2011, HRT: 0'
+  - '2012, HRT: 0'
+  - HRT, 2010–2012
+  titre: 'Best season: HRT 2010, 0 / 100'
+compteur/hrt-fr:
+  lignes:
+  - '2010, HRT : 0'
+  - '2011, HRT : 0'
+  - '2012, HRT : 0'
+  - HRT, 2010–2012
+  titre: 'Meilleure saison : HRT 2010, 0 / 100'
+compteur/jbw-en:
+  lignes:
+  - '1959, JBW: 0'
+  - '1960, JBW: 0'
+  - '1961, JBW: 0'
+  - JBW, 1959–1961
+  titre: 'Best season: JBW 1959, 0 / 100'
+compteur/jbw-fr:
+  lignes:
+  - '1959, JBW : 0'
+  - '1960, JBW : 0'
+  - '1961, JBW : 0'
+  - JBW, 1959–1961
+  titre: 'Meilleure saison : JBW 1959, 0 / 100'
+compteur/kojima-en:
+  lignes:
+  - '1976, Kojima: 0'
+  - '1977, Kojima: 0'
+  - Kojima, 1976–1977
+  titre: 'Best season: Kojima 1976, 0 / 100'
+compteur/kojima-fr:
+  lignes:
+  - '1976, Kojima : 0'
+  - '1977, Kojima : 0'
+  - Kojima, 1976–1977
+  titre: 'Meilleure saison : Kojima 1976, 0 / 100'
+compteur/kurtis-kraft-en:
+  lignes:
+  - '1950, Kurtis Kraft: 11'
+  - '1951, Kurtis Kraft: 13'
+  - '1952, Kurtis Kraft: 7'
+  - '1953, Kurtis Kraft: 11'
+  - '1954, Kurtis Kraft: 10'
+  - '1955, Kurtis Kraft: 10'
+  - '1956, Kurtis Kraft: 1'
+  - '1957, Kurtis Kraft: 4'
+  - '1958, Kurtis Kraft: 1'
+  - '1959, Kurtis Kraft: 0'
+  - '1960, Kurtis Kraft: 0'
+  - Kurtis Kraft, 1950–1960
+  titre: 'Best season: Kurtis Kraft 1951, 13 / 100'
+compteur/kurtis-kraft-fr:
+  lignes:
+  - '1950, Kurtis Kraft : 11'
+  - '1951, Kurtis Kraft : 13'
+  - '1952, Kurtis Kraft : 7'
+  - '1953, Kurtis Kraft : 11'
+  - '1954, Kurtis Kraft : 10'
+  - '1955, Kurtis Kraft : 10'
+  - '1956, Kurtis Kraft : 1'
+  - '1957, Kurtis Kraft : 4'
+  - '1958, Kurtis Kraft : 1'
+  - '1959, Kurtis Kraft : 0'
+  - '1960, Kurtis Kraft : 0'
+  - Kurtis Kraft, 1950–1960
+  titre: 'Meilleure saison : Kurtis Kraft 1951, 13 / 100'
+compteur/lambo-en:
+  lignes:
+  - '1991, Lambo: 0'
+  - Lambo, 1991–1991
+  titre: 'Best season: Lambo 1991, 0 / 100'
+compteur/lambo-fr:
+  lignes:
+  - '1991, Lambo : 0'
+  - Lambo, 1991–1991
+  titre: 'Meilleure saison : Lambo 1991, 0 / 100'
+compteur/lancia-en:
+  lignes:
+  - '1954, Lancia: 4'
+  - '1955, Lancia: 6'
+  - Lancia, 1954–1955
+  - '1954: The stressed engine of the Lancia D50'
+  titre: 'Best season: Lancia 1955, 6 / 100'
+compteur/lancia-fr:
+  lignes:
+  - '1954, Lancia : 4'
+  - '1955, Lancia : 6'
+  - Lancia, 1954–1955
+  - '1954 : Le moteur porteur de la Lancia D50'
+  titre: 'Meilleure saison : Lancia 1955, 6 / 100'
+compteur/larrousse-en:
+  lignes:
+  - '1987, Lola (Larrousse): 0'
+  - '1988, Lola (Larrousse): 0'
+  - '1989, Lola (Larrousse): 0'
+  - '1990, Lola (Larrousse): 1'
+  - '1991, Lola (Larrousse): 0'
+  - '1992, Venturi: 0'
+  - '1993, Larrousse: 0'
+  - '1994, Larrousse: 0'
+  - Lola, 1987–1991
+  - Venturi, 1992–1992
+  - Larrousse, 1993–1994
+  titre: 'Best season: Lola (Larrousse) 1990, 1 / 100'
+compteur/larrousse-fr:
+  lignes:
+  - '1987, Lola (Larrousse) : 0'
+  - '1988, Lola (Larrousse) : 0'
+  - '1989, Lola (Larrousse) : 0'
+  - '1990, Lola (Larrousse) : 1'
+  - '1991, Lola (Larrousse) : 0'
+  - '1992, Venturi : 0'
+  - '1993, Larrousse : 0'
+  - '1994, Larrousse : 0'
+  - Lola, 1987–1991
+  - Venturi, 1992–1992
+  - Larrousse, 1993–1994
+  titre: 'Meilleure saison : Lola (Larrousse) 1990, 1 / 100'
+compteur/lds-en:
+  lignes:
+  - '1962, LDS: 0'
+  - '1963, LDS: 0'
+  - '1965, LDS: 0'
+  - '1967, LDS: 0'
+  - '1968, LDS: 0'
+  - LDS, 1962–1963
+  - LDS, 1965–1965
+  - LDS, 1967–1968
+  titre: 'Best season: LDS 1962, 0 / 100'
+compteur/lds-fr:
+  lignes:
+  - '1962, LDS : 0'
+  - '1963, LDS : 0'
+  - '1965, LDS : 0'
+  - '1967, LDS : 0'
+  - '1968, LDS : 0'
+  - LDS, 1962–1963
+  - LDS, 1965–1965
+  - LDS, 1967–1968
+  titre: 'Meilleure saison : LDS 1962, 0 / 100'
+compteur/lec-en:
+  lignes:
+  - '1977, LEC: 0'
+  - LEC, 1977–1977
+  titre: 'Best season: LEC 1977, 0 / 100'
+compteur/lec-fr:
+  lignes:
+  - '1977, LEC : 0'
+  - LEC, 1977–1977
+  titre: 'Meilleure saison : LEC 1977, 0 / 100'
+compteur/ligier-en:
+  lignes:
+  - '1976, Ligier: 4'
+  - '1977, Ligier: 3'
+  - '1978, Ligier: 1'
+  - '1979, Ligier: 21'
+  - '1980, Ligier: 20'
+  - '1981, Ligier: 12'
+  - '1982, Ligier: 3'
+  - '1983, Ligier: 0'
+  - '1984, Ligier: 0'
+  - '1985, Ligier: 3'
+  - '1986, Ligier: 1'
+  - '1987, Ligier: 0'
+  - '1988, Ligier: 0'
+  - '1989, Ligier: 0'
+  - '1990, Ligier: 0'
+  - '1991, Ligier: 0'
+  - '1992, Ligier: 0'
+  - '1993, Ligier: 2'
+  - '1994, Ligier: 1'
+  - '1995, Ligier: 1'
+  - '1996, Ligier: 3'
+  - '1997, Prost: 1'
+  - '1998, Prost: 0'
+  - '1999, Prost: 1'
+  - '2000, Prost: 0'
+  - '2001, Prost: 0'
+  - Ligier, 1976–1996
+  - Prost, 1997–2001
+  titre: 'Best season: Ligier 1979, 21 / 100'
+compteur/ligier-fr:
+  lignes:
+  - '1976, Ligier : 4'
+  - '1977, Ligier : 3'
+  - '1978, Ligier : 1'
+  - '1979, Ligier : 21'
+  - '1980, Ligier : 20'
+  - '1981, Ligier : 12'
+  - '1982, Ligier : 3'
+  - '1983, Ligier : 0'
+  - '1984, Ligier : 0'
+  - '1985, Ligier : 3'
+  - '1986, Ligier : 1'
+  - '1987, Ligier : 0'
+  - '1988, Ligier : 0'
+  - '1989, Ligier : 0'
+  - '1990, Ligier : 0'
+  - '1991, Ligier : 0'
+  - '1992, Ligier : 0'
+  - '1993, Ligier : 2'
+  - '1994, Ligier : 1'
+  - '1995, Ligier : 1'
+  - '1996, Ligier : 3'
+  - '1997, Prost : 1'
+  - '1998, Prost : 0'
+  - '1999, Prost : 1'
+  - '2000, Prost : 0'
+  - '2001, Prost : 0'
+  - Ligier, 1976–1996
+  - Prost, 1997–2001
+  titre: 'Meilleure saison : Ligier 1979, 21 / 100'
+compteur/lola-en:
+  lignes:
+  - '1962, Lola: 6'
+  - '1963, Lola: 0'
+  - '1967, Lola: 0'
+  - '1968, Lola: 0'
+  - '1974, Lola: 0'
+  - '1975, Lola: 0'
+  - '1985, Lola: 0'
+  - '1986, Lola: 0'
+  - Lola, 1962–1963
+  - Lola, 1967–1968
+  - Lola, 1974–1975
+  - Lola, 1985–1986
+  titre: 'Best season: Lola 1962, 6 / 100'
+compteur/lola-fr:
+  lignes:
+  - '1962, Lola : 6'
+  - '1963, Lola : 0'
+  - '1967, Lola : 0'
+  - '1968, Lola : 0'
+  - '1974, Lola : 0'
+  - '1975, Lola : 0'
+  - '1985, Lola : 0'
+  - '1986, Lola : 0'
+  - Lola, 1962–1963
+  - Lola, 1967–1968
+  - Lola, 1974–1975
+  - Lola, 1985–1986
+  titre: 'Meilleure saison : Lola 1962, 6 / 100'
+compteur/lyncar-en:
+  lignes:
+  - '1975, Lyncar: 0'
+  - Lyncar, 1975–1975
+  titre: 'Best season: Lyncar 1975, 0 / 100'
+compteur/lyncar-fr:
+  lignes:
+  - '1975, Lyncar : 0'
+  - Lyncar, 1975–1975
+  titre: 'Meilleure saison : Lyncar 1975, 0 / 100'
+compteur/manor-en:
+  lignes:
+  - '2010, Virgin: 0'
+  - '2011, Virgin: 0'
+  - '2012, Marussia: 0'
+  - '2013, Marussia: 0'
+  - '2014, Marussia: 0'
+  - '2015, Marussia: 0'
+  - '2016, Manor (MRT): 0'
+  - Virgin, 2010–2011
+  - Marussia, 2012–2015
+  - Manor, 2016–2016
+  titre: 'Best season: Virgin 2010, 0 / 100'
+compteur/manor-fr:
+  lignes:
+  - '2010, Virgin : 0'
+  - '2011, Virgin : 0'
+  - '2012, Marussia : 0'
+  - '2013, Marussia : 0'
+  - '2014, Marussia : 0'
+  - '2015, Marussia : 0'
+  - '2016, Manor (MRT) : 0'
+  - Virgin, 2010–2011
+  - Marussia, 2012–2015
+  - Manor, 2016–2016
+  titre: 'Meilleure saison : Virgin 2010, 0 / 100'
+compteur/march-en:
+  lignes:
+  - '1970, March: 17'
+  - '1971, March: 5'
+  - '1972, March: 1'
+  - '1973, March: 1'
+  - '1974, March: 0'
+  - '1975, March: 6'
+  - '1976, March: 5'
+  - '1977, March: 0'
+  - '1987, March: 0'
+  - '1988, March: 1'
+  - '1989, March: 1'
+  - '1990, Leyton House: 1'
+  - '1991, Leyton House: 0'
+  - '1992, March: 0'
+  - March, 1970–1977
+  - March, 1987–1989
+  - Leyton House, 1990–1991
+  - March, 1992–1992
+  - '1990: The raised nose'
+  - '1988: The integrated nose of the March 881'
+  titre: 'Best season: March 1970, 17 / 100'
+compteur/march-fr:
+  lignes:
+  - '1970, March : 17'
+  - '1971, March : 5'
+  - '1972, March : 1'
+  - '1973, March : 1'
+  - '1974, March : 0'
+  - '1975, March : 6'
+  - '1976, March : 5'
+  - '1977, March : 0'
+  - '1987, March : 0'
+  - '1988, March : 1'
+  - '1989, March : 1'
+  - '1990, Leyton House : 1'
+  - '1991, Leyton House : 0'
+  - '1992, March : 0'
+  - March, 1970–1977
+  - March, 1987–1989
+  - Leyton House, 1990–1991
+  - March, 1992–1992
+  - '1990 : Le nez relevé'
+  - '1988 : Le nez intégré de la March 881'
+  titre: 'Meilleure saison : March 1970, 17 / 100'
+compteur/martini-en:
+  lignes:
+  - '1978, Martini: 0'
+  - Martini, 1978–1978
+  titre: 'Best season: Martini 1978, 0 / 100'
+compteur/martini-fr:
+  lignes:
+  - '1978, Martini : 0'
+  - Martini, 1978–1978
+  titre: 'Meilleure saison : Martini 1978, 0 / 100'
+compteur/maserati-en:
+  lignes:
+  - '1950, Maserati: 2'
+  - '1951, Maserati: 0'
+  - '1952, Maserati: 1'
+  - '1953, Maserati: 21'
+  - '1954, Maserati: 17'
+  - '1955, Maserati: 3'
+  - '1956, Maserati: 26'
+  - '1957, Maserati: 51 · title'
+  - '1958, Maserati: 3'
+  - '1959, Maserati: 0'
+  - '1960, Maserati: 0'
+  - Maserati, 1950–1960
+  titre: 'Best season: Maserati 1957, 51 / 100'
+compteur/maserati-fr:
+  lignes:
+  - '1950, Maserati : 2'
+  - '1951, Maserati : 0'
+  - '1952, Maserati : 1'
+  - '1953, Maserati : 21'
+  - '1954, Maserati : 17'
+  - '1955, Maserati : 3'
+  - '1956, Maserati : 26'
+  - '1957, Maserati : 51 · titre'
+  - '1958, Maserati : 3'
+  - '1959, Maserati : 0'
+  - '1960, Maserati : 0'
+  - Maserati, 1950–1960
+  titre: 'Meilleure saison : Maserati 1957, 51 / 100'
+compteur/matra-en:
+  lignes:
+  - '1966, Matra: 0'
+  - '1967, Matra: 0'
+  - '1968, Matra: 14'
+  - '1969, Matra: 34 · title'
+  - '1970, Matra: 3'
+  - '1971, Matra: 4'
+  - '1972, Matra: 4'
+  - Matra, 1966–1972
+  titre: 'Best season: Matra 1969, 34 / 100'
+compteur/matra-fr:
+  lignes:
+  - '1966, Matra : 0'
+  - '1967, Matra : 0'
+  - '1968, Matra : 14'
+  - '1969, Matra : 34 · titre'
+  - '1970, Matra : 3'
+  - '1971, Matra : 4'
+  - '1972, Matra : 4'
+  - Matra, 1966–1972
+  titre: 'Meilleure saison : Matra 1969, 34 / 100'
+compteur/mclaren-en:
+  lignes:
+  - dominance, 1984–1985
+  - hegemony, 1988–1991
+  - dominance, 1998–2000
+  - dominance, 2005–2007
+  - dominance, 2024–2025
+  - '1966, McLaren: 0'
+  - '1967, McLaren: 0'
+  - '1968, McLaren: 14'
+  - '1969, McLaren: 8'
+  - '1970, McLaren: 4'
+  - '1971, McLaren: 1'
+  - '1972, McLaren: 16'
+  - '1973, McLaren: 15'
+  - '1974, McLaren: 21 · title'
+  - '1975, McLaren: 15'
+  - '1976, McLaren: 36'
+  - '1977, McLaren: 22'
+  - '1978, McLaren: 1'
+  - '1979, McLaren: 1'
+  - '1980, McLaren: 0'
+  - '1981, McLaren: 5'
+  - '1982, McLaren: 14'
+  - '1983, McLaren: 5'
+  - '1984, McLaren: 44 · title'
+  - '1985, McLaren: 25 · title'
+  - '1986, McLaren: 21'
+  - '1987, McLaren: 15'
+  - '1988, McLaren: 80 · title'
+  - '1989, McLaren: 65 · title'
+  - '1990, McLaren: 50 · title'
+  - '1991, McLaren: 50 · title'
+  - '1992, McLaren: 21'
+  - '1993, McLaren: 19'
+  - '1994, McLaren: 6'
+  - '1995, McLaren: 1'
+  - '1996, McLaren: 4'
+  - '1997, McLaren: 12'
+  - '1998, McLaren: 58 · title'
+  - '1999, McLaren: 49'
+  - '2000, McLaren: 42'
+  - '2001, McLaren: 20'
+  - '2002, McLaren: 8'
+  - '2003, McLaren: 17'
+  - '2004, McLaren: 6'
+  - '2005, McLaren: 40'
+  - '2006, McLaren: 11'
+  - '2007, McLaren: 47'
+  - '2008, McLaren: 34'
+  - '2009, McLaren: 15'
+  - '2010, McLaren: 20'
+  - '2011, McLaren: 23'
+  - '2012, McLaren: 32'
+  - '2013, McLaren: 0'
+  - '2014, McLaren: 1'
+  - '2015, McLaren: 0'
+  - '2016, McLaren: 0'
+  - '2017, McLaren: 0'
+  - '2018, McLaren: 0'
+  - '2019, McLaren: 1'
+  - '2020, McLaren: 1'
+  - '2021, McLaren: 6'
+  - '2022, McLaren: 1'
+  - '2023, McLaren: 5'
+  - '2024, McLaren: 29 · title'
+  - '2025, McLaren: 53 · title'
+  - McLaren, 1966–2026
+  - '1981: The carbon monocoque of the McLaren MP4/1'
+  - '1984: The engine built to the chassis'' dimensions'
+  - '1988: The McLaren MP4/4, fifteen wins out of sixteen'
+  - '2005: McLaren''s inerter'
+  - '2009: KERS wins in Hungary'
+  - '2009: The simulator replaces the track'
+  - '2010: McLaren''s F-duct'
+  titre: 'Best season: McLaren 1988, 80 / 100'
+compteur/mclaren-fr:
+  lignes:
+  - domination, 1984–1985
+  - hégémonie, 1988–1991
+  - domination, 1998–2000
+  - domination, 2005–2007
+  - domination, 2024–2025
+  - '1966, McLaren : 0'
+  - '1967, McLaren : 0'
+  - '1968, McLaren : 14'
+  - '1969, McLaren : 8'
+  - '1970, McLaren : 4'
+  - '1971, McLaren : 1'
+  - '1972, McLaren : 16'
+  - '1973, McLaren : 15'
+  - '1974, McLaren : 21 · titre'
+  - '1975, McLaren : 15'
+  - '1976, McLaren : 36'
+  - '1977, McLaren : 22'
+  - '1978, McLaren : 1'
+  - '1979, McLaren : 1'
+  - '1980, McLaren : 0'
+  - '1981, McLaren : 5'
+  - '1982, McLaren : 14'
+  - '1983, McLaren : 5'
+  - '1984, McLaren : 44 · titre'
+  - '1985, McLaren : 25 · titre'
+  - '1986, McLaren : 21'
+  - '1987, McLaren : 15'
+  - '1988, McLaren : 80 · titre'
+  - '1989, McLaren : 65 · titre'
+  - '1990, McLaren : 50 · titre'
+  - '1991, McLaren : 50 · titre'
+  - '1992, McLaren : 21'
+  - '1993, McLaren : 19'
+  - '1994, McLaren : 6'
+  - '1995, McLaren : 1'
+  - '1996, McLaren : 4'
+  - '1997, McLaren : 12'
+  - '1998, McLaren : 58 · titre'
+  - '1999, McLaren : 49'
+  - '2000, McLaren : 42'
+  - '2001, McLaren : 20'
+  - '2002, McLaren : 8'
+  - '2003, McLaren : 17'
+  - '2004, McLaren : 6'
+  - '2005, McLaren : 40'
+  - '2006, McLaren : 11'
+  - '2007, McLaren : 47'
+  - '2008, McLaren : 34'
+  - '2009, McLaren : 15'
+  - '2010, McLaren : 20'
+  - '2011, McLaren : 23'
+  - '2012, McLaren : 32'
+  - '2013, McLaren : 0'
+  - '2014, McLaren : 1'
+  - '2015, McLaren : 0'
+  - '2016, McLaren : 0'
+  - '2017, McLaren : 0'
+  - '2018, McLaren : 0'
+  - '2019, McLaren : 1'
+  - '2020, McLaren : 1'
+  - '2021, McLaren : 6'
+  - '2022, McLaren : 1'
+  - '2023, McLaren : 5'
+  - '2024, McLaren : 29 · titre'
+  - '2025, McLaren : 53 · titre'
+  - McLaren, 1966–2026
+  - '1981 : La monocoque carbone de la McLaren MP4/1'
+  - '1984 : Le moteur aux cotes du châssis'
+  - '1988 : La McLaren MP4/4, quinze victoires sur seize'
+  - '2005 : L''inerter de McLaren'
+  - '2009 : Le KERS gagne en Hongrie'
+  - '2009 : Le simulateur remplace la piste'
+  - '2010 : Le F-duct de McLaren'
+  titre: 'Meilleure saison : McLaren 1988, 80 / 100'
+compteur/mercedes-1954-en:
+  lignes:
+  - dominance, 1954–1955
+  - '1954, Mercedes-Benz (1954–1955): 38 · title'
+  - '1955, Mercedes-Benz (1954–1955): 59 · title'
+  - Mercedes-Benz, 1954–1955
+  titre: 'Best season: Mercedes-Benz (1954–1955) 1955, 59 / 100'
+compteur/mercedes-1954-fr:
+  lignes:
+  - domination, 1954–1955
+  - '1954, Mercedes-Benz (1954–1955) : 38 · titre'
+  - '1955, Mercedes-Benz (1954–1955) : 59 · titre'
+  - Mercedes-Benz, 1954–1955
+  titre: 'Meilleure saison : Mercedes-Benz (1954–1955) 1955, 59 / 100'
+compteur/merzario-en:
+  lignes:
+  - '1978, Merzario: 0'
+  - '1979, Merzario: 0'
+  - Merzario, 1978–1979
+  titre: 'Best season: Merzario 1978, 0 / 100'
+compteur/merzario-fr:
+  lignes:
+  - '1978, Merzario : 0'
+  - '1979, Merzario : 0'
+  - Merzario, 1978–1979
+  titre: 'Meilleure saison : Merzario 1978, 0 / 100'
+compteur/milton-keynes-en:
+  lignes:
+  - hegemony, 2010–2013
+  - hegemony, 2021–2023
+  - '1997, Stewart: 1'
+  - '1998, Stewart: 0'
+  - '1999, Stewart: 7'
+  - '2000, Jaguar: 0'
+  - '2001, Jaguar: 1'
+  - '2002, Jaguar: 1'
+  - '2003, Jaguar: 0'
+  - '2004, Jaguar: 0'
+  - '2005, Red Bull: 0'
+  - '2006, Red Bull: 1'
+  - '2007, Red Bull: 1'
+  - '2008, Red Bull: 1'
+  - '2009, Red Bull: 32'
+  - '2010, Red Bull: 54 · title'
+  - '2011, Red Bull: 68 · title'
+  - '2012, Red Bull: 33 · title'
+  - '2013, Red Bull: 56 · title'
+  - '2014, Red Bull: 12'
+  - '2015, Red Bull: 2'
+  - '2016, Red Bull: 13'
+  - '2017, Red Bull: 12'
+  - '2018, Red Bull: 16'
+  - '2019, Red Bull: 13'
+  - '2020, Red Bull: 14'
+  - '2021, Red Bull: 43'
+  - '2022, Red Bull: 52 · title'
+  - '2023, Red Bull: 68 · title'
+  - '2024, Red Bull: 32'
+  - '2025, Red Bull: 29'
+  - Stewart, 1997–1999
+  - Jaguar, 2000–2004
+  - Red Bull, 2005–2026
+  - '2010: The blown diffuser of the Red Bull RB6'
+  - '2022: The 2022 Red Bull'
+  titre: 'Best season: Red Bull 2011, 68 / 100'
+compteur/milton-keynes-fr:
+  lignes:
+  - hégémonie, 2010–2013
+  - hégémonie, 2021–2023
+  - '1997, Stewart : 1'
+  - '1998, Stewart : 0'
+  - '1999, Stewart : 7'
+  - '2000, Jaguar : 0'
+  - '2001, Jaguar : 1'
+  - '2002, Jaguar : 1'
+  - '2003, Jaguar : 0'
+  - '2004, Jaguar : 0'
+  - '2005, Red Bull : 0'
+  - '2006, Red Bull : 1'
+  - '2007, Red Bull : 1'
+  - '2008, Red Bull : 1'
+  - '2009, Red Bull : 32'
+  - '2010, Red Bull : 54 · titre'
+  - '2011, Red Bull : 68 · titre'
+  - '2012, Red Bull : 33 · titre'
+  - '2013, Red Bull : 56 · titre'
+  - '2014, Red Bull : 12'
+  - '2015, Red Bull : 2'
+  - '2016, Red Bull : 13'
+  - '2017, Red Bull : 12'
+  - '2018, Red Bull : 16'
+  - '2019, Red Bull : 13'
+  - '2020, Red Bull : 14'
+  - '2021, Red Bull : 43'
+  - '2022, Red Bull : 52 · titre'
+  - '2023, Red Bull : 68 · titre'
+  - '2024, Red Bull : 32'
+  - '2025, Red Bull : 29'
+  - Stewart, 1997–1999
+  - Jaguar, 2000–2004
+  - Red Bull, 2005–2026
+  - '2010 : Le diffuseur soufflé de la Red Bull RB6'
+  - '2022 : La Red Bull de 2022'
+  titre: 'Meilleure saison : Red Bull 2011, 68 / 100'
+compteur/onyx-en:
+  lignes:
+  - '1989, Onyx: 1'
+  - '1990, Onyx: 0'
+  - Onyx, 1989–1990
+  titre: 'Best season: Onyx 1989, 1 / 100'
+compteur/onyx-fr:
+  lignes:
+  - '1989, Onyx : 1'
+  - '1990, Onyx : 0'
+  - Onyx, 1989–1990
+  titre: 'Meilleure saison : Onyx 1989, 1 / 100'
+compteur/osella-en:
+  lignes:
+  - '1980, Osella: 0'
+  - '1981, Osella: 0'
+  - '1982, Osella: 0'
+  - '1983, Osella: 0'
+  - '1984, Osella: 0'
+  - '1985, Osella: 0'
+  - '1986, Osella: 0'
+  - '1987, Osella: 0'
+  - '1988, Osella: 0'
+  - '1989, Osella: 0'
+  - '1990, Osella: 0'
+  - '1991, Fondmetal: 0'
+  - '1992, Fondmetal: 0'
+  - Osella, 1980–1990
+  - Fondmetal, 1991–1992
+  titre: 'Best season: Osella 1980, 0 / 100'
+compteur/osella-fr:
+  lignes:
+  - '1980, Osella : 0'
+  - '1981, Osella : 0'
+  - '1982, Osella : 0'
+  - '1983, Osella : 0'
+  - '1984, Osella : 0'
+  - '1985, Osella : 0'
+  - '1986, Osella : 0'
+  - '1987, Osella : 0'
+  - '1988, Osella : 0'
+  - '1989, Osella : 0'
+  - '1990, Osella : 0'
+  - '1991, Fondmetal : 0'
+  - '1992, Fondmetal : 0'
+  - Osella, 1980–1990
+  - Fondmetal, 1991–1992
+  titre: 'Meilleure saison : Osella 1980, 0 / 100'
+compteur/pacific-en:
+  lignes:
+  - '1994, Pacific: 0'
+  - '1995, Pacific: 0'
+  - Pacific, 1994–1995
+  titre: 'Best season: Pacific 1994, 0 / 100'
+compteur/pacific-fr:
+  lignes:
+  - '1994, Pacific : 0'
+  - '1995, Pacific : 0'
+  - Pacific, 1994–1995
+  titre: 'Meilleure saison : Pacific 1994, 0 / 100'
+compteur/parnelli-en:
+  lignes:
+  - '1974, Parnelli: 0'
+  - '1975, Parnelli: 0'
+  - '1976, Parnelli: 0'
+  - Parnelli, 1974–1976
+  titre: 'Best season: Parnelli 1974, 0 / 100'
+compteur/parnelli-fr:
+  lignes:
+  - '1974, Parnelli : 0'
+  - '1975, Parnelli : 0'
+  - '1976, Parnelli : 0'
+  - Parnelli, 1974–1976
+  titre: 'Meilleure saison : Parnelli 1974, 0 / 100'
+compteur/penske-en:
+  lignes:
+  - '1974, Penske: 0'
+  - '1975, Penske: 0'
+  - '1976, Penske: 4'
+  - '1977, Penske: 0'
+  - '1978, ATS (1978–1984): 0'
+  - '1979, ATS (1978–1984): 0'
+  - '1980, ATS (1978–1984): 0'
+  - '1981, ATS (1978–1984): 0'
+  - '1982, ATS (1978–1984): 0'
+  - '1983, ATS (1978–1984): 0'
+  - '1984, ATS (1978–1984): 0'
+  - Penske, 1974–1977
+  - ATS, 1978–1984
+  titre: 'Best season: Penske 1976, 4 / 100'
+compteur/penske-fr:
+  lignes:
+  - '1974, Penske : 0'
+  - '1975, Penske : 0'
+  - '1976, Penske : 4'
+  - '1977, Penske : 0'
+  - '1978, ATS (1978–1984) : 0'
+  - '1979, ATS (1978–1984) : 0'
+  - '1980, ATS (1978–1984) : 0'
+  - '1981, ATS (1978–1984) : 0'
+  - '1982, ATS (1978–1984) : 0'
+  - '1983, ATS (1978–1984) : 0'
+  - '1984, ATS (1978–1984) : 0'
+  - Penske, 1974–1977
+  - ATS, 1978–1984
+  titre: 'Meilleure saison : Penske 1976, 4 / 100'
+compteur/porsche-en:
+  lignes:
+  - '1957, Porsche: 0'
+  - '1958, Porsche: 0'
+  - '1959, Porsche: 0'
+  - '1960, Porsche: 0'
+  - '1961, Porsche: 4'
+  - '1962, Porsche: 10'
+  - '1963, Porsche: 0'
+  - '1964, Porsche: 0'
+  - Porsche, 1957–1964
+  titre: 'Best season: Porsche 1962, 10 / 100'
+compteur/porsche-fr:
+  lignes:
+  - '1957, Porsche : 0'
+  - '1958, Porsche : 0'
+  - '1959, Porsche : 0'
+  - '1960, Porsche : 0'
+  - '1961, Porsche : 4'
+  - '1962, Porsche : 10'
+  - '1963, Porsche : 0'
+  - '1964, Porsche : 0'
+  - Porsche, 1957–1964
+  titre: 'Meilleure saison : Porsche 1962, 10 / 100'
+compteur/protos-en:
+  lignes:
+  - '1967, Protos: 0'
+  - Protos, 1967–1967
+  titre: 'Best season: Protos 1967, 0 / 100'
+compteur/protos-fr:
+  lignes:
+  - '1967, Protos : 0'
+  - Protos, 1967–1967
+  titre: 'Meilleure saison : Protos 1967, 0 / 100'
+compteur/ram-en:
+  lignes:
+  - '1981, RAM March: 0'
+  - '1982, RAM March: 0'
+  - '1983, RAM: 0'
+  - '1984, RAM: 0'
+  - '1985, RAM: 0'
+  - RAM March, 1981–1982
+  - RAM, 1983–1985
+  titre: 'Best season: RAM March 1981, 0 / 100'
+compteur/ram-fr:
+  lignes:
+  - '1981, RAM March : 0'
+  - '1982, RAM March : 0'
+  - '1983, RAM : 0'
+  - '1984, RAM : 0'
+  - '1985, RAM : 0'
+  - RAM March, 1981–1982
+  - RAM, 1983–1985
+  titre: 'Meilleure saison : RAM March 1981, 0 / 100'
+compteur/rebaque-en:
+  lignes:
+  - '1979, Rebaque: 0'
+  - Rebaque, 1979–1979
+  titre: 'Best season: Rebaque 1979, 0 / 100'
+compteur/rebaque-fr:
+  lignes:
+  - '1979, Rebaque : 0'
+  - Rebaque, 1979–1979
+  titre: 'Meilleure saison : Rebaque 1979, 0 / 100'
+compteur/renault-1977-en:
+  lignes:
+  - '1977, Renault (1977–1985): 0'
+  - '1978, Renault (1977–1985): 0'
+  - '1979, Renault (1977–1985): 19'
+  - '1980, Renault (1977–1985): 22'
+  - '1981, Renault (1977–1985): 25'
+  - '1982, Renault (1977–1985): 35'
+  - '1983, Renault (1977–1985): 24'
+  - '1984, Renault (1977–1985): 6'
+  - '1985, Renault (1977–1985): 1'
+  - Renault, 1977–1985
+  - '1979: First win for a turbo engine'
+  titre: 'Best season: Renault (1977–1985) 1982, 35 / 100'
+compteur/renault-1977-fr:
+  lignes:
+  - '1977, Renault (1977–1985) : 0'
+  - '1978, Renault (1977–1985) : 0'
+  - '1979, Renault (1977–1985) : 19'
+  - '1980, Renault (1977–1985) : 22'
+  - '1981, Renault (1977–1985) : 25'
+  - '1982, Renault (1977–1985) : 35'
+  - '1983, Renault (1977–1985) : 24'
+  - '1984, Renault (1977–1985) : 6'
+  - '1985, Renault (1977–1985) : 1'
+  - Renault, 1977–1985
+  - '1979 : Première victoire d''un moteur turbo'
+  titre: 'Meilleure saison : Renault (1977–1985) 1982, 35 / 100'
+compteur/rial-en:
+  lignes:
+  - '1988, Rial: 0'
+  - '1989, Rial: 0'
+  - Rial, 1988–1989
+  titre: 'Best season: Rial 1988, 0 / 100'
+compteur/rial-fr:
+  lignes:
+  - '1988, Rial : 0'
+  - '1989, Rial : 0'
+  - Rial, 1988–1989
+  titre: 'Meilleure saison : Rial 1988, 0 / 100'
+compteur/scarab-en:
+  lignes:
+  - '1960, Scarab: 0'
+  - Scarab, 1960–1960
+  titre: 'Best season: Scarab 1960, 0 / 100'
+compteur/scarab-fr:
+  lignes:
+  - '1960, Scarab : 0'
+  - Scarab, 1960–1960
+  titre: 'Meilleure saison : Scarab 1960, 0 / 100'
+compteur/scuderia-italia-en:
+  lignes:
+  - '1988, Dallara: 0'
+  - '1989, Dallara: 1'
+  - '1990, Dallara: 0'
+  - '1991, Dallara: 1'
+  - '1992, Dallara: 0'
+  - '1993, Lola (BMS Scuderia Italia): 0'
+  - Dallara, 1988–1992
+  - Lola, 1993–1993
+  titre: 'Best season: Dallara 1989, 1 / 100'
+compteur/scuderia-italia-fr:
+  lignes:
+  - '1988, Dallara : 0'
+  - '1989, Dallara : 1'
+  - '1990, Dallara : 0'
+  - '1991, Dallara : 1'
+  - '1992, Dallara : 0'
+  - '1993, Lola (BMS Scuderia Italia) : 0'
+  - Dallara, 1988–1992
+  - Lola, 1993–1993
+  titre: 'Meilleure saison : Dallara 1989, 1 / 100'
+compteur/shadow-en:
+  lignes:
+  - '1973, Shadow: 1'
+  - '1974, Shadow: 1'
+  - '1975, Shadow: 8'
+  - '1976, Shadow: 1'
+  - '1977, Shadow: 3'
+  - '1978, Shadow: 0'
+  - '1979, Shadow: 0'
+  - '1980, Shadow: 0'
+  - '1981, Theodore: 0'
+  - '1982, Theodore: 0'
+  - Shadow, 1973–1980
+  - Theodore, 1981–1982
+  titre: 'Best season: Shadow 1975, 8 / 100'
+compteur/shadow-fr:
+  lignes:
+  - '1973, Shadow : 1'
+  - '1974, Shadow : 1'
+  - '1975, Shadow : 8'
+  - '1976, Shadow : 1'
+  - '1977, Shadow : 3'
+  - '1978, Shadow : 0'
+  - '1979, Shadow : 0'
+  - '1980, Shadow : 0'
+  - '1981, Theodore : 0'
+  - '1982, Theodore : 0'
+  - Shadow, 1973–1980
+  - Theodore, 1981–1982
+  titre: 'Meilleure saison : Shadow 1975, 8 / 100'
+compteur/shannon-en:
+  lignes:
+  - '1966, Shannon: 0'
+  - Shannon, 1966–1966
+  titre: 'Best season: Shannon 1966, 0 / 100'
+compteur/shannon-fr:
+  lignes:
+  - '1966, Shannon : 0'
+  - Shannon, 1966–1966
+  titre: 'Meilleure saison : Shannon 1966, 0 / 100'
+compteur/silverstone-en:
+  lignes:
+  - '1991, Jordan: 0'
+  - '1992, Jordan: 0'
+  - '1993, Jordan: 0'
+  - '1994, Jordan: 3'
+  - '1995, Jordan: 1'
+  - '1996, Jordan: 0'
+  - '1997, Jordan: 2'
+  - '1998, Jordan: 4'
+  - '1999, Jordan: 10'
+  - '2000, Jordan: 1'
+  - '2001, Jordan: 0'
+  - '2002, Jordan: 0'
+  - '2003, Jordan: 3'
+  - '2004, Jordan: 0'
+  - '2005, Jordan: 1'
+  - '2006, Midland: 0'
+  - '2007, Spyker: 0'
+  - '2008, Force India: 0'
+  - '2009, Force India: 3'
+  - '2010, Force India: 0'
+  - '2011, Force India: 0'
+  - '2012, Force India: 0'
+  - '2013, Force India: 0'
+  - '2014, Force India: 1'
+  - '2015, Force India: 1'
+  - '2016, Force India: 1'
+  - '2017, Force India: 0'
+  - '2018, Force India: 1'
+  - '2019, Racing Point: 0'
+  - '2020, Racing Point: 7'
+  - '2021, Aston Martin: 1'
+  - '2022, Aston Martin: 0'
+  - '2023, Aston Martin: 4'
+  - '2024, Aston Martin: 0'
+  - '2025, Aston Martin: 0'
+  - Jordan, 1991–2005
+  - Midland, 2006–2006
+  - Spyker, 2007–2007
+  - Force India, 2008–2018
+  - Racing Point, 2019–2020
+  - Aston Martin, 2021–2026
+  titre: 'Best season: Jordan 1999, 10 / 100'
+compteur/silverstone-fr:
+  lignes:
+  - '1991, Jordan : 0'
+  - '1992, Jordan : 0'
+  - '1993, Jordan : 0'
+  - '1994, Jordan : 3'
+  - '1995, Jordan : 1'
+  - '1996, Jordan : 0'
+  - '1997, Jordan : 2'
+  - '1998, Jordan : 4'
+  - '1999, Jordan : 10'
+  - '2000, Jordan : 1'
+  - '2001, Jordan : 0'
+  - '2002, Jordan : 0'
+  - '2003, Jordan : 3'
+  - '2004, Jordan : 0'
+  - '2005, Jordan : 1'
+  - '2006, Midland : 0'
+  - '2007, Spyker : 0'
+  - '2008, Force India : 0'
+  - '2009, Force India : 3'
+  - '2010, Force India : 0'
+  - '2011, Force India : 0'
+  - '2012, Force India : 0'
+  - '2013, Force India : 0'
+  - '2014, Force India : 1'
+  - '2015, Force India : 1'
+  - '2016, Force India : 1'
+  - '2017, Force India : 0'
+  - '2018, Force India : 1'
+  - '2019, Racing Point : 0'
+  - '2020, Racing Point : 7'
+  - '2021, Aston Martin : 1'
+  - '2022, Aston Martin : 0'
+  - '2023, Aston Martin : 4'
+  - '2024, Aston Martin : 0'
+  - '2025, Aston Martin : 0'
+  - Jordan, 1991–2005
+  - Midland, 2006–2006
+  - Spyker, 2007–2007
+  - Force India, 2008–2018
+  - Racing Point, 2019–2020
+  - Aston Martin, 2021–2026
+  titre: 'Meilleure saison : Jordan 1999, 10 / 100'
+compteur/simtek-en:
+  lignes:
+  - '1994, Simtek: 0'
+  - '1995, Simtek: 0'
+  - Simtek, 1994–1995
+  titre: 'Best season: Simtek 1994, 0 / 100'
+compteur/simtek-fr:
+  lignes:
+  - '1994, Simtek : 0'
+  - '1995, Simtek : 0'
+  - Simtek, 1994–1995
+  titre: 'Meilleure saison : Simtek 1994, 0 / 100'
+compteur/spirit-en:
+  lignes:
+  - '1983, Spirit: 0'
+  - '1984, Spirit: 0'
+  - '1985, Spirit: 0'
+  - Spirit, 1983–1985
+  titre: 'Best season: Spirit 1983, 0 / 100'
+compteur/spirit-fr:
+  lignes:
+  - '1983, Spirit : 0'
+  - '1984, Spirit : 0'
+  - '1985, Spirit : 0'
+  - Spirit, 1983–1985
+  titre: 'Meilleure saison : Spirit 1983, 0 / 100'
+compteur/stebro-en:
+  lignes:
+  - '1963, Stebro: 0'
+  - Stebro, 1963–1963
+  titre: 'Best season: Stebro 1963, 0 / 100'
+compteur/stebro-fr:
+  lignes:
+  - '1963, Stebro : 0'
+  - Stebro, 1963–1963
+  titre: 'Meilleure saison : Stebro 1963, 0 / 100'
+compteur/super-aguri-en:
+  lignes:
+  - '2006, Super Aguri: 0'
+  - '2007, Super Aguri: 0'
+  - '2008, Super Aguri: 0'
+  - Super Aguri, 2006–2008
+  titre: 'Best season: Super Aguri 2006, 0 / 100'
+compteur/super-aguri-fr:
+  lignes:
+  - '2006, Super Aguri : 0'
+  - '2007, Super Aguri : 0'
+  - '2008, Super Aguri : 0'
+  - Super Aguri, 2006–2008
+  titre: 'Meilleure saison : Super Aguri 2006, 0 / 100'
+compteur/surtees-en:
+  lignes:
+  - '1970, Surtees: 0'
+  - '1971, Surtees: 0'
+  - '1972, Surtees: 1'
+  - '1973, Surtees: 1'
+  - '1974, Surtees: 0'
+  - '1975, Surtees: 0'
+  - '1976, Surtees: 0'
+  - '1977, Surtees: 0'
+  - '1978, Surtees: 0'
+  - Surtees, 1970–1978
+  titre: 'Best season: Surtees 1972, 1 / 100'
+compteur/surtees-fr:
+  lignes:
+  - '1970, Surtees : 0'
+  - '1971, Surtees : 0'
+  - '1972, Surtees : 1'
+  - '1973, Surtees : 1'
+  - '1974, Surtees : 0'
+  - '1975, Surtees : 0'
+  - '1976, Surtees : 0'
+  - '1977, Surtees : 0'
+  - '1978, Surtees : 0'
+  - Surtees, 1970–1978
+  titre: 'Meilleure saison : Surtees 1972, 1 / 100'
+compteur/team-lotus-en:
+  lignes:
+  - dominance, 1963–1965
+  - dominance, 1968–1973
+  - '1958, Team Lotus: 0'
+  - '1959, Team Lotus: 0'
+  - '1960, Team Lotus: 28'
+  - '1961, Team Lotus: 24'
+  - '1962, Team Lotus: 38'
+  - '1963, Team Lotus: 57 · title'
+  - '1964, Team Lotus: 32'
+  - '1965, Team Lotus: 48 · title'
+  - '1966, Team Lotus: 14'
+  - '1967, Team Lotus: 46'
+  - '1968, Team Lotus: 36 · title'
+  - '1969, Team Lotus: 28'
+  - '1970, Team Lotus: 29 · title'
+  - '1971, Team Lotus: 3'
+  - '1972, Team Lotus: 30 · title'
+  - '1973, Team Lotus: 49 · title'
+  - '1974, Team Lotus: 13'
+  - '1975, Team Lotus: 1'
+  - '1976, Team Lotus: 8'
+  - '1977, Team Lotus: 28'
+  - '1978, Team Lotus: 51 · title'
+  - '1979, Team Lotus: 4'
+  - '1980, Team Lotus: 1'
+  - '1981, Team Lotus: 1'
+  - '1982, Team Lotus: 3'
+  - '1983, Team Lotus: 3'
+  - '1984, Team Lotus: 8'
+  - '1985, Team Lotus: 29'
+  - '1986, Team Lotus: 26'
+  - '1987, Team Lotus: 12'
+  - '1988, Team Lotus: 2'
+  - '1989, Team Lotus: 0'
+  - '1990, Team Lotus: 0'
+  - '1991, Team Lotus: 0'
+  - '1992, Team Lotus: 0'
+  - '1993, Team Lotus: 0'
+  - '1994, Team Lotus: 0'
+  - Team Lotus, 1958–1994
+  - '1962: The aluminium monocoque of the Lotus 25'
+  - '1967: The Cosworth DFV and the Lotus 49'
+  - '1970: The Lotus 72 and its side radiators'
+  - '1977: The ground effect of the Lotus 78'
+  - '1981: The twin-chassis Lotus 88'
+  - '1983: Active suspension in racing'
+  - '1987: Active suspension wins'
+  titre: 'Best season: Team Lotus 1963, 57 / 100'
+compteur/team-lotus-fr:
+  lignes:
+  - domination, 1963–1965
+  - domination, 1968–1973
+  - '1958, Team Lotus : 0'
+  - '1959, Team Lotus : 0'
+  - '1960, Team Lotus : 28'
+  - '1961, Team Lotus : 24'
+  - '1962, Team Lotus : 38'
+  - '1963, Team Lotus : 57 · titre'
+  - '1964, Team Lotus : 32'
+  - '1965, Team Lotus : 48 · titre'
+  - '1966, Team Lotus : 14'
+  - '1967, Team Lotus : 46'
+  - '1968, Team Lotus : 36 · titre'
+  - '1969, Team Lotus : 28'
+  - '1970, Team Lotus : 29 · titre'
+  - '1971, Team Lotus : 3'
+  - '1972, Team Lotus : 30 · titre'
+  - '1973, Team Lotus : 49 · titre'
+  - '1974, Team Lotus : 13'
+  - '1975, Team Lotus : 1'
+  - '1976, Team Lotus : 8'
+  - '1977, Team Lotus : 28'
+  - '1978, Team Lotus : 51 · titre'
+  - '1979, Team Lotus : 4'
+  - '1980, Team Lotus : 1'
+  - '1981, Team Lotus : 1'
+  - '1982, Team Lotus : 3'
+  - '1983, Team Lotus : 3'
+  - '1984, Team Lotus : 8'
+  - '1985, Team Lotus : 29'
+  - '1986, Team Lotus : 26'
+  - '1987, Team Lotus : 12'
+  - '1988, Team Lotus : 2'
+  - '1989, Team Lotus : 0'
+  - '1990, Team Lotus : 0'
+  - '1991, Team Lotus : 0'
+  - '1992, Team Lotus : 0'
+  - '1993, Team Lotus : 0'
+  - '1994, Team Lotus : 0'
+  - Team Lotus, 1958–1994
+  - '1962 : La monocoque aluminium de la Lotus 25'
+  - '1967 : Le Cosworth DFV et la Lotus 49'
+  - '1970 : La Lotus 72 et ses radiateurs latéraux'
+  - '1977 : L''effet de sol de la Lotus 78'
+  - '1981 : La Lotus 88 à double châssis'
+  - '1983 : La suspension active en course'
+  - '1987 : La suspension active gagne'
+  titre: 'Meilleure saison : Team Lotus 1963, 57 / 100'
+compteur/tec-mec-en:
+  lignes:
+  - '1959, Tec-Mec: 0'
+  - Tec-Mec, 1959–1959
+  titre: 'Best season: Tec-Mec 1959, 0 / 100'
+compteur/tec-mec-fr:
+  lignes:
+  - '1959, Tec-Mec : 0'
+  - Tec-Mec, 1959–1959
+  titre: 'Meilleure saison : Tec-Mec 1959, 0 / 100'
+compteur/tecno-en:
+  lignes:
+  - '1969, Tecno: 0'
+  - '1972, Tecno: 0'
+  - '1973, Tecno: 0'
+  - Tecno, 1969–1969
+  - Tecno, 1972–1973
+  titre: 'Best season: Tecno 1969, 0 / 100'
+compteur/tecno-fr:
+  lignes:
+  - '1969, Tecno : 0'
+  - '1972, Tecno : 0'
+  - '1973, Tecno : 0'
+  - Tecno, 1969–1969
+  - Tecno, 1972–1973
+  titre: 'Meilleure saison : Tecno 1969, 0 / 100'
+compteur/theodore-1978-en:
+  lignes:
+  - '1978, Theodore: 0'
+  - Theodore, 1978–1978
+  titre: 'Best season: Theodore 1978, 0 / 100'
+compteur/theodore-1978-fr:
+  lignes:
+  - '1978, Theodore : 0'
+  - Theodore, 1978–1978
+  titre: 'Meilleure saison : Theodore 1978, 0 / 100'
+compteur/token-en:
+  lignes:
+  - '1974, Token: 0'
+  - Token, 1974–1974
+  titre: 'Best season: Token 1974, 0 / 100'
+compteur/token-fr:
+  lignes:
+  - '1974, Token : 0'
+  - Token, 1974–1974
+  titre: 'Meilleure saison : Token 1974, 0 / 100'
+compteur/toyota-en:
+  lignes:
+  - '2002, Toyota: 0'
+  - '2003, Toyota: 0'
+  - '2004, Toyota: 0'
+  - '2005, Toyota: 6'
+  - '2006, Toyota: 1'
+  - '2007, Toyota: 0'
+  - '2008, Toyota: 1'
+  - '2009, Toyota: 5'
+  - Toyota, 2002–2009
+  titre: 'Best season: Toyota 2005, 6 / 100'
+compteur/toyota-fr:
+  lignes:
+  - '2002, Toyota : 0'
+  - '2003, Toyota : 0'
+  - '2004, Toyota : 0'
+  - '2005, Toyota : 6'
+  - '2006, Toyota : 1'
+  - '2007, Toyota : 0'
+  - '2008, Toyota : 1'
+  - '2009, Toyota : 5'
+  - Toyota, 2002–2009
+  titre: 'Meilleure saison : Toyota 2005, 6 / 100'
+compteur/trojan-en:
+  lignes:
+  - '1974, Trojan: 0'
+  - Trojan, 1974–1974
+  titre: 'Best season: Trojan 1974, 0 / 100'
+compteur/trojan-fr:
+  lignes:
+  - '1974, Trojan : 0'
+  - Trojan, 1974–1974
+  titre: 'Meilleure saison : Trojan 1974, 0 / 100'
+compteur/vanwall-en:
+  lignes:
+  - '1954, Vanwall: 0'
+  - '1955, Vanwall: 0'
+  - '1956, Vanwall: 0'
+  - '1957, Vanwall: 26'
+  - '1958, Vanwall: 42 · title'
+  - '1959, Vanwall: 0'
+  - '1960, Vanwall: 0'
+  - Vanwall, 1954–1960
+  titre: 'Best season: Vanwall 1958, 42 / 100'
+compteur/vanwall-fr:
+  lignes:
+  - '1954, Vanwall : 0'
+  - '1955, Vanwall : 0'
+  - '1956, Vanwall : 0'
+  - '1957, Vanwall : 26'
+  - '1958, Vanwall : 42 · titre'
+  - '1959, Vanwall : 0'
+  - '1960, Vanwall : 0'
+  - Vanwall, 1954–1960
+  titre: 'Meilleure saison : Vanwall 1958, 42 / 100'
+compteur/williams-en:
+  lignes:
+  - dominance, 1980–1981
+  - dominance, 1986–1987
+  - hegemony, 1991–1997
+  - '1978, Williams: 1'
+  - '1979, Williams: 25'
+  - '1980, Williams: 36 · title'
+  - '1981, Williams: 23 · title'
+  - '1982, Williams: 9'
+  - '1983, Williams: 6'
+  - '1984, Williams: 3'
+  - '1985, Williams: 20'
+  - '1986, Williams: 40 · title'
+  - '1987, Williams: 56 · title'
+  - '1988, Williams: 1'
+  - '1989, Williams: 14'
+  - '1990, Williams: 9'
+  - '1991, Williams: 39'
+  - '1992, Williams: 67 · title'
+  - '1993, Williams: 67 · title'
+  - '1994, Williams: 36 · title'
+  - '1995, Williams: 44'
+  - '1996, Williams: 65 · title'
+  - '1997, Williams: 47 · title'
+  - '1998, Williams: 2'
+  - '1999, Williams: 2'
+  - '2000, Williams: 2'
+  - '2001, Williams: 22'
+  - '2002, Williams: 24'
+  - '2003, Williams: 25'
+  - '2004, Williams: 6'
+  - '2005, Williams: 4'
+  - '2006, Williams: 0'
+  - '2007, Williams: 1'
+  - '2008, Williams: 1'
+  - '2009, Williams: 0'
+  - '2010, Williams: 2'
+  - '2011, Williams: 0'
+  - '2012, Williams: 4'
+  - '2013, Williams: 0'
+  - '2014, Williams: 7'
+  - '2015, Williams: 2'
+  - '2016, Williams: 1'
+  - '2017, Williams: 1'
+  - '2018, Williams: 0'
+  - '2019, Williams: 0'
+  - '2020, Williams: 0'
+  - '2021, Williams: 1'
+  - '2022, Williams: 0'
+  - '2023, Williams: 0'
+  - '2024, Williams: 0'
+  - '2025, Williams: 1'
+  - Williams, 1978–2026
+  - '1987: Active suspension wins'
+  - '1992: The active suspension title'
+  - '1995: The raised diffuser of the Williams FW17B'
+  - '1986: Telemetry in the race'
+  titre: 'Best season: Williams 1993, 67 / 100'
+compteur/williams-fr:
+  lignes:
+  - domination, 1980–1981
+  - domination, 1986–1987
+  - hégémonie, 1991–1997
+  - '1978, Williams : 1'
+  - '1979, Williams : 25'
+  - '1980, Williams : 36 · titre'
+  - '1981, Williams : 23 · titre'
+  - '1982, Williams : 9'
+  - '1983, Williams : 6'
+  - '1984, Williams : 3'
+  - '1985, Williams : 20'
+  - '1986, Williams : 40 · titre'
+  - '1987, Williams : 56 · titre'
+  - '1988, Williams : 1'
+  - '1989, Williams : 14'
+  - '1990, Williams : 9'
+  - '1991, Williams : 39'
+  - '1992, Williams : 67 · titre'
+  - '1993, Williams : 67 · titre'
+  - '1994, Williams : 36 · titre'
+  - '1995, Williams : 44'
+  - '1996, Williams : 65 · titre'
+  - '1997, Williams : 47 · titre'
+  - '1998, Williams : 2'
+  - '1999, Williams : 2'
+  - '2000, Williams : 2'
+  - '2001, Williams : 22'
+  - '2002, Williams : 24'
+  - '2003, Williams : 25'
+  - '2004, Williams : 6'
+  - '2005, Williams : 4'
+  - '2006, Williams : 0'
+  - '2007, Williams : 1'
+  - '2008, Williams : 1'
+  - '2009, Williams : 0'
+  - '2010, Williams : 2'
+  - '2011, Williams : 0'
+  - '2012, Williams : 4'
+  - '2013, Williams : 0'
+  - '2014, Williams : 7'
+  - '2015, Williams : 2'
+  - '2016, Williams : 1'
+  - '2017, Williams : 1'
+  - '2018, Williams : 0'
+  - '2019, Williams : 0'
+  - '2020, Williams : 0'
+  - '2021, Williams : 1'
+  - '2022, Williams : 0'
+  - '2023, Williams : 0'
+  - '2024, Williams : 0'
+  - '2025, Williams : 1'
+  - Williams, 1978–2026
+  - '1987 : La suspension active gagne'
+  - '1992 : Le titre de la suspension active'
+  - '1995 : Le diffuseur surélevé de la Williams FW17B'
+  - '1986 : La télémétrie en course'
+  titre: 'Meilleure saison : Williams 1993, 67 / 100'
+compteur/wolf-en:
+  lignes:
+  - '1972, Politoys: 0'
+  - '1973, Iso-Marlboro: 0'
+  - '1974, Iso-Marlboro: 0'
+  - '1975, Williams (Frank Williams Racing Cars): 1'
+  - '1976, Wolf-Williams: 0'
+  - '1977, Wolf: 14'
+  - '1978, Wolf: 3'
+  - '1979, Wolf: 0'
+  - Politoys, 1972–1972
+  - Iso-Marlboro, 1973–1974
+  - Williams, 1975–1975
+  - Wolf-Williams, 1976–1976
+  - Wolf, 1977–1979
+  titre: 'Best season: Wolf 1977, 14 / 100'
+compteur/wolf-fr:
+  lignes:
+  - '1972, Politoys : 0'
+  - '1973, Iso-Marlboro : 0'
+  - '1974, Iso-Marlboro : 0'
+  - '1975, Williams (Frank Williams Racing Cars) : 1'
+  - '1976, Wolf-Williams : 0'
+  - '1977, Wolf : 14'
+  - '1978, Wolf : 3'
+  - '1979, Wolf : 0'
+  - Politoys, 1972–1972
+  - Iso-Marlboro, 1973–1974
+  - Williams, 1975–1975
+  - Wolf-Williams, 1976–1976
+  - Wolf, 1977–1979
+  titre: 'Meilleure saison : Wolf 1977, 14 / 100'
+compteur/zakspeed-en:
+  lignes:
+  - '1985, Zakspeed: 0'
+  - '1986, Zakspeed: 0'
+  - '1987, Zakspeed: 0'
+  - '1988, Zakspeed: 0'
+  - '1989, Zakspeed: 0'
+  - Zakspeed, 1985–1989
+  titre: 'Best season: Zakspeed 1985, 0 / 100'
+compteur/zakspeed-fr:
+  lignes:
+  - '1985, Zakspeed : 0'
+  - '1986, Zakspeed : 0'
+  - '1987, Zakspeed : 0'
+  - '1988, Zakspeed : 0'
+  - '1989, Zakspeed : 0'
+  - Zakspeed, 1985–1989
+  titre: 'Meilleure saison : Zakspeed 1985, 0 / 100'
+domination/chassis-en:
+  lignes:
+  - 'Red Bull RB19, 2023: 21 wins / 22'
+  - 'McLaren MP4/4, 1988: 15 wins / 16'
+  - 'Mercedes F1 W07 Hybrid, 2016: 19 wins / 21'
+  - 'Ferrari 500, 1952: 7 wins / 8'
+  - 'Mercedes F1 W05 Hybrid, 2014: 16 wins / 19'
+  - 'Mercedes F1 W06 Hybrid, 2015: 16 wins / 19'
+  - 'Ferrari F2004, 2004: 15 wins / 18'
+  - 'Ferrari F2002, 2002: 14 wins / 17'
+  - 'Red Bull RB18, 2022: 17 wins / 22'
+  - 'Mercedes F1 W11, 2020: 13 wins / 17'
+  - 'McLaren MP4/2, 1984: 12 wins / 16'
+  - 'Williams FW18, 1996: 12 wins / 16'
+  titre: The most crushing cars, over one season
+domination/chassis-fr:
+  lignes:
+  - 'Red Bull RB19, 2023 : 21 victoires / 22'
+  - 'McLaren MP4/4, 1988 : 15 victoires / 16'
+  - 'Mercedes F1 W07 Hybrid, 2016 : 19 victoires / 21'
+  - 'Ferrari 500, 1952 : 7 victoires / 8'
+  - 'Mercedes F1 W05 Hybrid, 2014 : 16 victoires / 19'
+  - 'Mercedes F1 W06 Hybrid, 2015 : 16 victoires / 19'
+  - 'Ferrari F2004, 2004 : 15 victoires / 18'
+  - 'Ferrari F2002, 2002 : 14 victoires / 17'
+  - 'Red Bull RB18, 2022 : 17 victoires / 22'
+  - 'Mercedes F1 W11, 2020 : 13 victoires / 17'
+  - 'McLaren MP4/2, 1984 : 12 victoires / 16'
+  - 'Williams FW18, 1996 : 12 victoires / 16'
+  titre: Les voitures les plus écrasantes, sur une saison
+domination/compteur-f1-en:
+  lignes:
+  - Ferrari, 1975–1979
+  - McLaren, 1988–1991
+  - Williams, 1991–1997
+  - Ferrari, 1999–2008
+  - Red Bull, 2010–2013
+  - Mercedes, 2014–2021
+  - Red Bull, 2021–2023
+  - '1950, Alfa Romeo: 76'
+  - '1951, Alfa Romeo: 46'
+  - '1952, Ferrari: 82'
+  - '1953, Ferrari: 68'
+  - '1954, Mercedes-Benz: 38'
+  - '1955, Mercedes-Benz: 59'
+  - '1956, Ferrari: 60'
+  - '1957, Maserati: 51'
+  - '1958, Vanwall: 42'
+  - '1959, Cooper: 53'
+  - '1960, Cooper: 49'
+  - '1961, Ferrari: 65'
+  - '1962, Team Lotus: 38'
+  - '1963, Team Lotus: 57'
+  - '1964, Team Lotus: 32'
+  - '1965, Team Lotus: 48'
+  - '1966, Brabham: 37'
+  - '1967, Team Lotus: 46'
+  - '1968, Team Lotus: 36'
+  - '1969, Matra: 34'
+  - '1970, Ferrari: 31'
+  - '1971, Tyrrell: 51'
+  - '1972, Team Lotus: 30'
+  - '1973, Team Lotus: 49'
+  - '1974, Ferrari: 38'
+  - '1975, Ferrari: 44'
+  - '1976, McLaren: 36'
+  - '1977, Team Lotus: 28'
+  - '1978, Team Lotus: 51'
+  - '1979, Ferrari: 27'
+  - '1980, Williams: 36'
+  - '1981, Renault: 25'
+  - '1982, Renault: 35'
+  - '1983, Ferrari: 36'
+  - '1984, McLaren: 44'
+  - '1985, Team Lotus: 29'
+  - '1986, Williams: 40'
+  - '1987, Williams: 56'
+  - '1988, McLaren: 80'
+  - '1989, McLaren: 65'
+  - '1990, McLaren: 50'
+  - '1991, McLaren: 50'
+  - '1992, Williams: 67'
+  - '1993, Williams: 67'
+  - '1994, Benetton: 38'
+  - '1995, Williams: 44'
+  - '1996, Williams: 65'
+  - '1997, Williams: 47'
+  - '1998, McLaren: 58'
+  - '1999, McLaren: 49'
+  - '2000, Ferrari: 53'
+  - '2001, Ferrari: 55'
+  - '2002, Ferrari: 67'
+  - '2003, Ferrari: 44'
+  - '2004, Ferrari: 68'
+  - '2005, McLaren: 40'
+  - '2006, Ferrari: 41'
+  - '2007, Ferrari: 50'
+  - '2008, Ferrari: 41'
+  - '2009, Brawn: 35'
+  - '2010, Red Bull: 54'
+  - '2011, Red Bull: 68'
+  - '2012, Red Bull: 33'
+  - '2013, Red Bull: 56'
+  - '2014, Mercedes: 78'
+  - '2015, Mercedes: 78'
+  - '2016, Mercedes: 79'
+  - '2017, Mercedes: 59'
+  - '2018, Mercedes: 51'
+  - '2019, Mercedes: 57'
+  - '2020, Mercedes: 71'
+  - '2021, Red Bull: 43'
+  - '2022, Red Bull: 52'
+  - '2023, Red Bull: 68'
+  - '2024, Red Bull: 32'
+  - '2025, McLaren: 53'
+  titre: The F1 gauge, 1950–2025
+domination/compteur-f1-fr:
+  lignes:
+  - Ferrari, 1975–1979
+  - McLaren, 1988–1991
+  - Williams, 1991–1997
+  - Ferrari, 1999–2008
+  - Red Bull, 2010–2013
+  - Mercedes, 2014–2021
+  - Red Bull, 2021–2023
+  - '1950, Alfa Romeo : 76'
+  - '1951, Alfa Romeo : 46'
+  - '1952, Ferrari : 82'
+  - '1953, Ferrari : 68'
+  - '1954, Mercedes-Benz : 38'
+  - '1955, Mercedes-Benz : 59'
+  - '1956, Ferrari : 60'
+  - '1957, Maserati : 51'
+  - '1958, Vanwall : 42'
+  - '1959, Cooper : 53'
+  - '1960, Cooper : 49'
+  - '1961, Ferrari : 65'
+  - '1962, Team Lotus : 38'
+  - '1963, Team Lotus : 57'
+  - '1964, Team Lotus : 32'
+  - '1965, Team Lotus : 48'
+  - '1966, Brabham : 37'
+  - '1967, Team Lotus : 46'
+  - '1968, Team Lotus : 36'
+  - '1969, Matra : 34'
+  - '1970, Ferrari : 31'
+  - '1971, Tyrrell : 51'
+  - '1972, Team Lotus : 30'
+  - '1973, Team Lotus : 49'
+  - '1974, Ferrari : 38'
+  - '1975, Ferrari : 44'
+  - '1976, McLaren : 36'
+  - '1977, Team Lotus : 28'
+  - '1978, Team Lotus : 51'
+  - '1979, Ferrari : 27'
+  - '1980, Williams : 36'
+  - '1981, Renault : 25'
+  - '1982, Renault : 35'
+  - '1983, Ferrari : 36'
+  - '1984, McLaren : 44'
+  - '1985, Team Lotus : 29'
+  - '1986, Williams : 40'
+  - '1987, Williams : 56'
+  - '1988, McLaren : 80'
+  - '1989, McLaren : 65'
+  - '1990, McLaren : 50'
+  - '1991, McLaren : 50'
+  - '1992, Williams : 67'
+  - '1993, Williams : 67'
+  - '1994, Benetton : 38'
+  - '1995, Williams : 44'
+  - '1996, Williams : 65'
+  - '1997, Williams : 47'
+  - '1998, McLaren : 58'
+  - '1999, McLaren : 49'
+  - '2000, Ferrari : 53'
+  - '2001, Ferrari : 55'
+  - '2002, Ferrari : 67'
+  - '2003, Ferrari : 44'
+  - '2004, Ferrari : 68'
+  - '2005, McLaren : 40'
+  - '2006, Ferrari : 41'
+  - '2007, Ferrari : 50'
+  - '2008, Ferrari : 41'
+  - '2009, Brawn : 35'
+  - '2010, Red Bull : 54'
+  - '2011, Red Bull : 68'
+  - '2012, Red Bull : 33'
+  - '2013, Red Bull : 56'
+  - '2014, Mercedes : 78'
+  - '2015, Mercedes : 78'
+  - '2016, Mercedes : 79'
+  - '2017, Mercedes : 59'
+  - '2018, Mercedes : 51'
+  - '2019, Mercedes : 57'
+  - '2020, Mercedes : 71'
+  - '2021, Red Bull : 43'
+  - '2022, Red Bull : 52'
+  - '2023, Red Bull : 68'
+  - '2024, Red Bull : 32'
+  - '2025, McLaren : 53'
+  titre: Le compteur de la F1, 1950–2025
+domination/cycles-cadrans-en:
+  lignes:
+  - 1950–1951 · Alfa Romeo · 61 / 100
+  - 1952–1953 · Ferrari · 75 / 100
+  - 1954–1960 · Ferrari · 27 / 100
+  - 1961–1965 · Team Lotus · 40 / 100
+  - 1966–1982 · Team Lotus · 20 / 100
+  - 1983–1988 · McLaren · 32 / 100
+  - 1989–1993 · McLaren · 41 / 100
+  - 1994–2008 · Ferrari · 38 / 100
+  - 2009–2013 · Red Bull · 49 / 100
+  - 2014–2021 · Mercedes · 64 / 100
+  - 2022–2025 · Red Bull · 45 / 100
+  titre: One dial per regulation cycle
+domination/cycles-cadrans-fr:
+  lignes:
+  - 1950–1951 · Alfa Romeo · 61 / 100
+  - 1952–1953 · Ferrari · 75 / 100
+  - 1954–1960 · Ferrari · 27 / 100
+  - 1961–1965 · Team Lotus · 40 / 100
+  - 1966–1982 · Team Lotus · 20 / 100
+  - 1983–1988 · McLaren · 32 / 100
+  - 1989–1993 · McLaren · 41 / 100
+  - 1994–2008 · Ferrari · 38 / 100
+  - 2009–2013 · Red Bull · 49 / 100
+  - 2014–2021 · Mercedes · 64 / 100
+  - 2022–2025 · Red Bull · 45 / 100
+  titre: Un cadran par cycle réglementaire
+domination/cycles-courbe-en:
+  lignes:
+  - '1950–1951 · Alfa Romeo: 10 wins / 15'
+  - '1952–1953 · Ferrari: 14 wins / 17'
+  - '1954–1960 · Ferrari: 13 wins / 62'
+  - '1961–1965 · Team Lotus: 22 wins / 47'
+  - '1966–1982 · Team Lotus: 48 wins / 232'
+  - '1983–1988 · McLaren: 41 wins / 95'
+  - '1989–1993 · McLaren: 34 wins / 80'
+  - '1994–2008 · Ferrari: 106 wins / 255'
+  - '2009–2013 · Red Bull: 47 wins / 94'
+  - '2014–2021 · Mercedes: 111 wins / 160'
+  - '2022–2025 · Red Bull: 55 wins / 92'
+  - '1950, Alfa Romeo: 76'
+  - '1951, Alfa Romeo: 46'
+  - '1952, Ferrari: 82'
+  - '1953, Ferrari: 68'
+  - '1954, Mercedes-Benz: 38'
+  - '1955, Mercedes-Benz: 59'
+  - '1956, Ferrari: 60'
+  - '1957, Maserati: 51'
+  - '1958, Vanwall: 42'
+  - '1959, Cooper: 53'
+  - '1960, Cooper: 49'
+  - '1961, Ferrari: 65'
+  - '1962, Team Lotus: 38'
+  - '1963, Team Lotus: 57'
+  - '1964, Team Lotus: 32'
+  - '1965, Team Lotus: 48'
+  - '1966, Brabham: 37'
+  - '1967, Team Lotus: 46'
+  - '1968, Team Lotus: 36'
+  - '1969, Matra: 34'
+  - '1970, Ferrari: 31'
+  - '1971, Tyrrell: 51'
+  - '1972, Team Lotus: 30'
+  - '1973, Team Lotus: 49'
+  - '1974, Ferrari: 38'
+  - '1975, Ferrari: 44'
+  - '1976, McLaren: 36'
+  - '1977, Team Lotus: 28'
+  - '1978, Team Lotus: 51'
+  - '1979, Ferrari: 27'
+  - '1980, Williams: 36'
+  - '1981, Renault: 25'
+  - '1982, Renault: 35'
+  - '1983, Ferrari: 36'
+  - '1984, McLaren: 44'
+  - '1985, Team Lotus: 29'
+  - '1986, Williams: 40'
+  - '1987, Williams: 56'
+  - '1988, McLaren: 80'
+  - '1989, McLaren: 65'
+  - '1990, McLaren: 50'
+  - '1991, McLaren: 50'
+  - '1992, Williams: 67'
+  - '1993, Williams: 67'
+  - '1994, Benetton: 38'
+  - '1995, Williams: 44'
+  - '1996, Williams: 65'
+  - '1997, Williams: 47'
+  - '1998, McLaren: 58'
+  - '1999, McLaren: 49'
+  - '2000, Ferrari: 53'
+  - '2001, Ferrari: 55'
+  - '2002, Ferrari: 67'
+  - '2003, Ferrari: 44'
+  - '2004, Ferrari: 68'
+  - '2005, McLaren: 40'
+  - '2006, Ferrari: 41'
+  - '2007, Ferrari: 50'
+  - '2008, Ferrari: 41'
+  - '2009, Brawn: 35'
+  - '2010, Red Bull: 54'
+  - '2011, Red Bull: 68'
+  - '2012, Red Bull: 33'
+  - '2013, Red Bull: 56'
+  - '2014, Mercedes: 78'
+  - '2015, Mercedes: 78'
+  - '2016, Mercedes: 79'
+  - '2017, Mercedes: 59'
+  - '2018, Mercedes: 51'
+  - '2019, Mercedes: 57'
+  - '2020, Mercedes: 71'
+  - '2021, Red Bull: 43'
+  - '2022, Red Bull: 52'
+  - '2023, Red Bull: 68'
+  - '2024, Red Bull: 32'
+  - '2025, McLaren: 53'
+  titre: The F1 gauge, cycle by cycle
+domination/cycles-courbe-fr:
+  lignes:
+  - '1950–1951 · Alfa Romeo : 10 victoires / 15'
+  - '1952–1953 · Ferrari : 14 victoires / 17'
+  - '1954–1960 · Ferrari : 13 victoires / 62'
+  - '1961–1965 · Team Lotus : 22 victoires / 47'
+  - '1966–1982 · Team Lotus : 48 victoires / 232'
+  - '1983–1988 · McLaren : 41 victoires / 95'
+  - '1989–1993 · McLaren : 34 victoires / 80'
+  - '1994–2008 · Ferrari : 106 victoires / 255'
+  - '2009–2013 · Red Bull : 47 victoires / 94'
+  - '2014–2021 · Mercedes : 111 victoires / 160'
+  - '2022–2025 · Red Bull : 55 victoires / 92'
+  - '1950, Alfa Romeo : 76'
+  - '1951, Alfa Romeo : 46'
+  - '1952, Ferrari : 82'
+  - '1953, Ferrari : 68'
+  - '1954, Mercedes-Benz : 38'
+  - '1955, Mercedes-Benz : 59'
+  - '1956, Ferrari : 60'
+  - '1957, Maserati : 51'
+  - '1958, Vanwall : 42'
+  - '1959, Cooper : 53'
+  - '1960, Cooper : 49'
+  - '1961, Ferrari : 65'
+  - '1962, Team Lotus : 38'
+  - '1963, Team Lotus : 57'
+  - '1964, Team Lotus : 32'
+  - '1965, Team Lotus : 48'
+  - '1966, Brabham : 37'
+  - '1967, Team Lotus : 46'
+  - '1968, Team Lotus : 36'
+  - '1969, Matra : 34'
+  - '1970, Ferrari : 31'
+  - '1971, Tyrrell : 51'
+  - '1972, Team Lotus : 30'
+  - '1973, Team Lotus : 49'
+  - '1974, Ferrari : 38'
+  - '1975, Ferrari : 44'
+  - '1976, McLaren : 36'
+  - '1977, Team Lotus : 28'
+  - '1978, Team Lotus : 51'
+  - '1979, Ferrari : 27'
+  - '1980, Williams : 36'
+  - '1981, Renault : 25'
+  - '1982, Renault : 35'
+  - '1983, Ferrari : 36'
+  - '1984, McLaren : 44'
+  - '1985, Team Lotus : 29'
+  - '1986, Williams : 40'
+  - '1987, Williams : 56'
+  - '1988, McLaren : 80'
+  - '1989, McLaren : 65'
+  - '1990, McLaren : 50'
+  - '1991, McLaren : 50'
+  - '1992, Williams : 67'
+  - '1993, Williams : 67'
+  - '1994, Benetton : 38'
+  - '1995, Williams : 44'
+  - '1996, Williams : 65'
+  - '1997, Williams : 47'
+  - '1998, McLaren : 58'
+  - '1999, McLaren : 49'
+  - '2000, Ferrari : 53'
+  - '2001, Ferrari : 55'
+  - '2002, Ferrari : 67'
+  - '2003, Ferrari : 44'
+  - '2004, Ferrari : 68'
+  - '2005, McLaren : 40'
+  - '2006, Ferrari : 41'
+  - '2007, Ferrari : 50'
+  - '2008, Ferrari : 41'
+  - '2009, Brawn : 35'
+  - '2010, Red Bull : 54'
+  - '2011, Red Bull : 68'
+  - '2012, Red Bull : 33'
+  - '2013, Red Bull : 56'
+  - '2014, Mercedes : 78'
+  - '2015, Mercedes : 78'
+  - '2016, Mercedes : 79'
+  - '2017, Mercedes : 59'
+  - '2018, Mercedes : 51'
+  - '2019, Mercedes : 57'
+  - '2020, Mercedes : 71'
+  - '2021, Red Bull : 43'
+  - '2022, Red Bull : 52'
+  - '2023, Red Bull : 68'
+  - '2024, Red Bull : 32'
+  - '2025, McLaren : 53'
+  titre: Le compteur de la F1, cycle par cycle
+domination/etude-jalons-en:
+  lignes:
+  - 'Same team, any season, -3: 17%'
+  - 'Same team, any season, -2: 17%'
+  - 'Same team, any season, -1: 15%'
+  - 'Same team, any season, 0: 14%'
+  - 'Same team, any season, +1: 15%'
+  - 'Same team, any season, +2: 16%'
+  - 'Same team, any season, +3: 16%'
+  - 'Same team, any season, +4: 18%'
+  - 'Same team, any season, +5: 17%'
+  - 'Innovating team, -3: 15%'
+  - 'Innovating team, -2: 16%'
+  - 'Innovating team, -1: 17%'
+  - 'Innovating team, 0: 30%'
+  - 'Innovating team, +1: 31%'
+  - 'Innovating team, +2: 26%'
+  - 'Innovating team, +3: 23%'
+  - 'Innovating team, +4: 17%'
+  - 'Innovating team, +5: 15%'
+  titre: Share of wins around a technical milestone
+domination/etude-jalons-fr:
+  lignes:
+  - 'Même écurie, saison quelconque, -3 : 17 %'
+  - 'Même écurie, saison quelconque, -2 : 17 %'
+  - 'Même écurie, saison quelconque, -1 : 15 %'
+  - 'Même écurie, saison quelconque, 0 : 14 %'
+  - 'Même écurie, saison quelconque, +1 : 15 %'
+  - 'Même écurie, saison quelconque, +2 : 16 %'
+  - 'Même écurie, saison quelconque, +3 : 16 %'
+  - 'Même écurie, saison quelconque, +4 : 18 %'
+  - 'Même écurie, saison quelconque, +5 : 17 %'
+  - 'Écurie qui innove, -3 : 15 %'
+  - 'Écurie qui innove, -2 : 16 %'
+  - 'Écurie qui innove, -1 : 17 %'
+  - 'Écurie qui innove, 0 : 30 %'
+  - 'Écurie qui innove, +1 : 31 %'
+  - 'Écurie qui innove, +2 : 26 %'
+  - 'Écurie qui innove, +3 : 23 %'
+  - 'Écurie qui innove, +4 : 17 %'
+  - 'Écurie qui innove, +5 : 15 %'
+  titre: Part des victoires autour d'un jalon technique
+domination/indic-moteur-en:
+  lignes:
+  - '1950–59: in-house engine 80%, someone else''s engine 20%'
+  - '1960–69: in-house engine 28%, someone else''s engine 72%'
+  - '1970–79: in-house engine 29%, someone else''s engine 71%'
+  - '1980–89: in-house engine 21%, someone else''s engine 79%'
+  - '1990–99: in-house engine 17%, someone else''s engine 83%'
+  - '2000–09: in-house engine 61%, someone else''s engine 39%'
+  - '2010–19: in-house engine 61%, someone else''s engine 39%'
+  - '2020–25: in-house engine 31%, someone else''s engine 69%'
+  titre: In-house engine or someone else's, by decade
+domination/indic-moteur-fr:
+  lignes:
+  - '1950–59 : moteur maison 80 %, moteur d''un autre 20 %'
+  - '1960–69 : moteur maison 28 %, moteur d''un autre 72 %'
+  - '1970–79 : moteur maison 29 %, moteur d''un autre 71 %'
+  - '1980–89 : moteur maison 21 %, moteur d''un autre 79 %'
+  - '1990–99 : moteur maison 17 %, moteur d''un autre 83 %'
+  - '2000–09 : moteur maison 61 %, moteur d''un autre 39 %'
+  - '2010–19 : moteur maison 61 %, moteur d''un autre 39 %'
+  - '2020–25 : moteur maison 31 %, moteur d''un autre 69 %'
+  titre: Moteur maison ou moteur d'un autre, par décennie
+domination/indic-ouverture-en:
+  lignes:
+  - '1950: effective number 1.32; winning teams 2 / 7 GP'
+  - '1951: effective number 2.46; winning teams 3 / 8 GP'
+  - '1952: effective number 1.28; winning teams 2 / 8 GP'
+  - '1953: effective number 1.59; winning teams 3 / 9 GP'
+  - '1954: effective number 3.24; winning teams 4 / 9 GP'
+  - '1955: effective number 1.81; winning teams 3 / 7 GP'
+  - '1956: effective number 2.13; winning teams 3 / 8 GP'
+  - '1957: effective number 2.46; winning teams 3 / 8 GP'
+  - '1958: effective number 2.69; winning teams 4 / 11 GP'
+  - '1959: effective number 2.61; winning teams 4 / 9 GP'
+  - '1960: effective number 2.38; winning teams 4 / 10 GP'
+  - '1961: effective number 1.88; winning teams 2 / 8 GP'
+  - '1962: effective number 3.0; winning teams 4 / 9 GP'
+  - '1963: effective number 1.85; winning teams 3 / 10 GP'
+  - '1964: effective number 3.85; winning teams 4 / 10 GP'
+  - '1965: effective number 2.17; winning teams 3 / 10 GP'
+  - '1966: effective number 3.52; winning teams 5 / 9 GP'
+  - '1967: effective number 3.46; winning teams 5 / 11 GP'
+  - '1968: effective number 3.27; winning teams 4 / 12 GP'
+  - '1969: effective number 2.69; winning teams 4 / 11 GP'
+  - '1970: effective number 3.07; winning teams 5 / 13 GP'
+  - '1971: effective number 2.12; winning teams 3 / 11 GP'
+  - '1972: effective number 3.27; winning teams 5 / 12 GP'
+  - '1973: effective number 2.71; winning teams 3 / 15 GP'
+  - '1974: effective number 4.79; winning teams 5 / 15 GP'
+  - '1975: effective number 3.77; winning teams 6 / 14 GP'
+  - '1976: effective number 3.37; winning teams 6 / 16 GP'
+  - '1977: effective number 4.74; winning teams 6 / 17 GP'
+  - '1978: effective number 2.72; winning teams 4 / 16 GP'
+  - '1979: effective number 3.17; winning teams 4 / 15 GP'
+  - '1980: effective number 3.38; winning teams 4 / 14 GP'
+  - '1981: effective number 5.23; winning teams 6 / 15 GP'
+  - '1982: effective number 5.33; winning teams 7 / 16 GP'
+  - '1983: effective number 4.41; winning teams 6 / 15 GP'
+  - '1984: effective number 1.71; winning teams 4 / 16 GP'
+  - '1985: effective number 3.88; winning teams 5 / 16 GP'
+  - '1986: effective number 2.51; winning teams 4 / 16 GP'
+  - '1987: effective number 2.61; winning teams 4 / 16 GP'
+  - '1988: effective number 1.13; winning teams 2 / 16 GP'
+  - '1989: effective number 2.25; winning teams 4 / 16 GP'
+  - '1990: effective number 3.2; winning teams 4 / 16 GP'
+  - '1991: effective number 2.25; winning teams 3 / 16 GP'
+  - '1992: effective number 2.03; winning teams 3 / 16 GP'
+  - '1993: effective number 2.03; winning teams 3 / 16 GP'
+  - '1994: effective number 2.25; winning teams 3 / 16 GP'
+  - '1995: effective number 1.97; winning teams 3 / 17 GP'
+  - '1996: effective number 1.66; winning teams 3 / 16 GP'
+  - '1997: effective number 2.92; winning teams 4 / 17 GP'
+  - '1998: effective number 2.17; winning teams 3 / 16 GP'
+  - '1999: effective number 2.84; winning teams 4 / 16 GP'
+  - '2000: effective number 1.94; winning teams 2 / 17 GP'
+  - '2001: effective number 2.56; winning teams 3 / 17 GP'
+  - '2002: effective number 1.27; winning teams 3 / 17 GP'
+  - '2003: effective number 2.98; winning teams 5 / 16 GP'
+  - '2004: effective number 1.42; winning teams 4 / 18 GP'
+  - '2005: effective number 2.19; winning teams 3 / 19 GP'
+  - '2006: effective number 2.22; winning teams 3 / 18 GP'
+  - '2007: effective number 1.99; winning teams 2 / 17 GP'
+  - '2008: effective number 3.06; winning teams 5 / 18 GP'
+  - '2009: effective number 2.75; winning teams 4 / 17 GP'
+  - '2010: effective number 2.76; winning teams 3 / 19 GP'
+  - '2011: effective number 1.99; winning teams 3 / 19 GP'
+  - '2012: effective number 3.64; winning teams 6 / 20 GP'
+  - '2013: effective number 1.97; winning teams 4 / 19 GP'
+  - '2014: effective number 1.36; winning teams 2 / 19 GP'
+  - '2015: effective number 1.36; winning teams 2 / 19 GP'
+  - '2016: effective number 1.21; winning teams 2 / 21 GP'
+  - '2017: effective number 2.25; winning teams 3 / 20 GP'
+  - '2018: effective number 2.55; winning teams 3 / 21 GP'
+  - '2019: effective number 1.81; winning teams 3 / 21 GP'
+  - '2020: effective number 1.65; winning teams 4 / 17 GP'
+  - '2021: effective number 2.37; winning teams 4 / 22 GP'
+  - '2022: effective number 1.58; winning teams 3 / 22 GP'
+  - '2023: effective number 1.1; winning teams 2 / 22 GP'
+  - '2024: effective number 3.65; winning teams 4 / 24 GP'
+  - '2025: effective number 2.18; winning teams 3 / 24 GP'
+  titre: How many teams share the wins, season by season
+domination/indic-ouverture-fr:
+  lignes:
+  - '1950 : nombre effectif 1,32 ; écuries gagnantes 2 / 7 GP'
+  - '1951 : nombre effectif 2,46 ; écuries gagnantes 3 / 8 GP'
+  - '1952 : nombre effectif 1,28 ; écuries gagnantes 2 / 8 GP'
+  - '1953 : nombre effectif 1,59 ; écuries gagnantes 3 / 9 GP'
+  - '1954 : nombre effectif 3,24 ; écuries gagnantes 4 / 9 GP'
+  - '1955 : nombre effectif 1,81 ; écuries gagnantes 3 / 7 GP'
+  - '1956 : nombre effectif 2,13 ; écuries gagnantes 3 / 8 GP'
+  - '1957 : nombre effectif 2,46 ; écuries gagnantes 3 / 8 GP'
+  - '1958 : nombre effectif 2,69 ; écuries gagnantes 4 / 11 GP'
+  - '1959 : nombre effectif 2,61 ; écuries gagnantes 4 / 9 GP'
+  - '1960 : nombre effectif 2,38 ; écuries gagnantes 4 / 10 GP'
+  - '1961 : nombre effectif 1,88 ; écuries gagnantes 2 / 8 GP'
+  - '1962 : nombre effectif 3,0 ; écuries gagnantes 4 / 9 GP'
+  - '1963 : nombre effectif 1,85 ; écuries gagnantes 3 / 10 GP'
+  - '1964 : nombre effectif 3,85 ; écuries gagnantes 4 / 10 GP'
+  - '1965 : nombre effectif 2,17 ; écuries gagnantes 3 / 10 GP'
+  - '1966 : nombre effectif 3,52 ; écuries gagnantes 5 / 9 GP'
+  - '1967 : nombre effectif 3,46 ; écuries gagnantes 5 / 11 GP'
+  - '1968 : nombre effectif 3,27 ; écuries gagnantes 4 / 12 GP'
+  - '1969 : nombre effectif 2,69 ; écuries gagnantes 4 / 11 GP'
+  - '1970 : nombre effectif 3,07 ; écuries gagnantes 5 / 13 GP'
+  - '1971 : nombre effectif 2,12 ; écuries gagnantes 3 / 11 GP'
+  - '1972 : nombre effectif 3,27 ; écuries gagnantes 5 / 12 GP'
+  - '1973 : nombre effectif 2,71 ; écuries gagnantes 3 / 15 GP'
+  - '1974 : nombre effectif 4,79 ; écuries gagnantes 5 / 15 GP'
+  - '1975 : nombre effectif 3,77 ; écuries gagnantes 6 / 14 GP'
+  - '1976 : nombre effectif 3,37 ; écuries gagnantes 6 / 16 GP'
+  - '1977 : nombre effectif 4,74 ; écuries gagnantes 6 / 17 GP'
+  - '1978 : nombre effectif 2,72 ; écuries gagnantes 4 / 16 GP'
+  - '1979 : nombre effectif 3,17 ; écuries gagnantes 4 / 15 GP'
+  - '1980 : nombre effectif 3,38 ; écuries gagnantes 4 / 14 GP'
+  - '1981 : nombre effectif 5,23 ; écuries gagnantes 6 / 15 GP'
+  - '1982 : nombre effectif 5,33 ; écuries gagnantes 7 / 16 GP'
+  - '1983 : nombre effectif 4,41 ; écuries gagnantes 6 / 15 GP'
+  - '1984 : nombre effectif 1,71 ; écuries gagnantes 4 / 16 GP'
+  - '1985 : nombre effectif 3,88 ; écuries gagnantes 5 / 16 GP'
+  - '1986 : nombre effectif 2,51 ; écuries gagnantes 4 / 16 GP'
+  - '1987 : nombre effectif 2,61 ; écuries gagnantes 4 / 16 GP'
+  - '1988 : nombre effectif 1,13 ; écuries gagnantes 2 / 16 GP'
+  - '1989 : nombre effectif 2,25 ; écuries gagnantes 4 / 16 GP'
+  - '1990 : nombre effectif 3,2 ; écuries gagnantes 4 / 16 GP'
+  - '1991 : nombre effectif 2,25 ; écuries gagnantes 3 / 16 GP'
+  - '1992 : nombre effectif 2,03 ; écuries gagnantes 3 / 16 GP'
+  - '1993 : nombre effectif 2,03 ; écuries gagnantes 3 / 16 GP'
+  - '1994 : nombre effectif 2,25 ; écuries gagnantes 3 / 16 GP'
+  - '1995 : nombre effectif 1,97 ; écuries gagnantes 3 / 17 GP'
+  - '1996 : nombre effectif 1,66 ; écuries gagnantes 3 / 16 GP'
+  - '1997 : nombre effectif 2,92 ; écuries gagnantes 4 / 17 GP'
+  - '1998 : nombre effectif 2,17 ; écuries gagnantes 3 / 16 GP'
+  - '1999 : nombre effectif 2,84 ; écuries gagnantes 4 / 16 GP'
+  - '2000 : nombre effectif 1,94 ; écuries gagnantes 2 / 17 GP'
+  - '2001 : nombre effectif 2,56 ; écuries gagnantes 3 / 17 GP'
+  - '2002 : nombre effectif 1,27 ; écuries gagnantes 3 / 17 GP'
+  - '2003 : nombre effectif 2,98 ; écuries gagnantes 5 / 16 GP'
+  - '2004 : nombre effectif 1,42 ; écuries gagnantes 4 / 18 GP'
+  - '2005 : nombre effectif 2,19 ; écuries gagnantes 3 / 19 GP'
+  - '2006 : nombre effectif 2,22 ; écuries gagnantes 3 / 18 GP'
+  - '2007 : nombre effectif 1,99 ; écuries gagnantes 2 / 17 GP'
+  - '2008 : nombre effectif 3,06 ; écuries gagnantes 5 / 18 GP'
+  - '2009 : nombre effectif 2,75 ; écuries gagnantes 4 / 17 GP'
+  - '2010 : nombre effectif 2,76 ; écuries gagnantes 3 / 19 GP'
+  - '2011 : nombre effectif 1,99 ; écuries gagnantes 3 / 19 GP'
+  - '2012 : nombre effectif 3,64 ; écuries gagnantes 6 / 20 GP'
+  - '2013 : nombre effectif 1,97 ; écuries gagnantes 4 / 19 GP'
+  - '2014 : nombre effectif 1,36 ; écuries gagnantes 2 / 19 GP'
+  - '2015 : nombre effectif 1,36 ; écuries gagnantes 2 / 19 GP'
+  - '2016 : nombre effectif 1,21 ; écuries gagnantes 2 / 21 GP'
+  - '2017 : nombre effectif 2,25 ; écuries gagnantes 3 / 20 GP'
+  - '2018 : nombre effectif 2,55 ; écuries gagnantes 3 / 21 GP'
+  - '2019 : nombre effectif 1,81 ; écuries gagnantes 3 / 21 GP'
+  - '2020 : nombre effectif 1,65 ; écuries gagnantes 4 / 17 GP'
+  - '2021 : nombre effectif 2,37 ; écuries gagnantes 4 / 22 GP'
+  - '2022 : nombre effectif 1,58 ; écuries gagnantes 3 / 22 GP'
+  - '2023 : nombre effectif 1,1 ; écuries gagnantes 2 / 22 GP'
+  - '2024 : nombre effectif 3,65 ; écuries gagnantes 4 / 24 GP'
+  - '2025 : nombre effectif 2,18 ; écuries gagnantes 3 / 24 GP'
+  titre: Combien d'écuries se partagent les victoires, saison par saison
+domination/indic-pole-en:
+  lignes:
+  - '1950–59: 45%'
+  - '1960–69: 37%'
+  - '1970–79: 37%'
+  - '1980–89: 28%'
+  - '1990–99: 43%'
+  - '2000–09: 50%'
+  - '2010–19: 51%'
+  - '2020–25: 55%'
+  titre: From pole to win, by decade
+domination/indic-pole-fr:
+  lignes:
+  - '1950–59 : 45 %'
+  - '1960–69 : 37 %'
+  - '1970–79 : 37 %'
+  - '1980–89 : 28 %'
+  - '1990–99 : 43 %'
+  - '2000–09 : 50 %'
+  - '2010–19 : 51 %'
+  - '2020–25 : 55 %'
+  titre: De la pole à la victoire, par décennie
+domination/indic-voitures-en:
+  lignes:
+  - '1950–59: 3.2'
+  - '1960–69: 3.0'
+  - '1970–79: 3.8'
+  - '1980–89: 4.2'
+  - '1990–99: 5.2'
+  - '2000–09: 5.3'
+  - '2010–19: 6.4'
+  - '2020–25: 6.9'
+  titre: Wins per car model, by decade
+domination/indic-voitures-fr:
+  lignes:
+  - '1950–59 : 3,2'
+  - '1960–69 : 3,0'
+  - '1970–79 : 3,8'
+  - '1980–89 : 4,2'
+  - '1990–99 : 5,2'
+  - '2000–09 : 5,3'
+  - '2010–19 : 6,4'
+  - '2020–25 : 6,9'
+  titre: Victoires par modèle de voiture, par décennie
+domination/ingenieurs-compteur-en:
+  lignes:
+  - Adrian Newey · 16 dominant seasons / 36 · 30 / 100
+  - Paddy Lowe · 13 dominant seasons / 33 · 29 / 100
+  - Ross Brawn · 12 dominant seasons / 34 · 21 / 100
+  - Matthew Jeffreys · 10 dominant seasons / 22 · 30 / 100
+  - James Allison · 10 dominant seasons / 26 · 21 / 100
+  - Patrick Head · 10 dominant seasons / 34 · 21 / 100
+  - Franco Rocchi · 9 dominant seasons / 30 · 27 / 100
+  - Rory Byrne · 9 dominant seasons / 26 · 22 / 100
+  - Mauro Forghieri · 8 dominant seasons / 27 · 19 / 100
+  - David North · 7 dominant seasons / 25 · 24 / 100
+  - Colin Chapman · 7 dominant seasons / 25 · 23 / 100
+  - Geoff Willis · 6 dominant seasons / 21 · 21 / 100
+  titre: The engineers' gauge
+domination/ingenieurs-compteur-fr:
+  lignes:
+  - Adrian Newey · 16 saisons dominantes / 36 · 30 / 100
+  - Paddy Lowe · 13 saisons dominantes / 33 · 29 / 100
+  - Ross Brawn · 12 saisons dominantes / 34 · 21 / 100
+  - Matthew Jeffreys · 10 saisons dominantes / 22 · 30 / 100
+  - James Allison · 10 saisons dominantes / 26 · 21 / 100
+  - Patrick Head · 10 saisons dominantes / 34 · 21 / 100
+  - Franco Rocchi · 9 saisons dominantes / 30 · 27 / 100
+  - Rory Byrne · 9 saisons dominantes / 26 · 22 / 100
+  - Mauro Forghieri · 8 saisons dominantes / 27 · 19 / 100
+  - David North · 7 saisons dominantes / 25 · 24 / 100
+  - Colin Chapman · 7 saisons dominantes / 25 · 23 / 100
+  - Geoff Willis · 6 saisons dominantes / 21 · 21 / 100
+  titre: Le compteur des ingénieurs
+domination/ingenieurs-en:
+  lignes:
+  - 'All arrivals (99) · expected (matched control): 21%'
+  - 'All arrivals (99) · observed: 36% (36/99)'
+  - 'Arrivals, Tier A (10) · expected (matched control): 19%'
+  - 'Arrivals, Tier A (10) · observed: 60% (6/10)'
+  - 'Arrivals, Tiers B to D (18) · expected (matched control): 25%'
+  - 'Arrivals, Tiers B to D (18) · observed: 33% (6/18)'
+  - 'Arrivals, unranked (71) · expected (matched control): 20%'
+  - 'Arrivals, unranked (71) · observed: 34% (24/71)'
+  - 'Departures (107) · expected (matched control): 22%'
+  - 'Departures (107) · observed: 21% (23/107)'
+  titre: 'Teams improving after an engineer''s move: observed and expected'
+domination/ingenieurs-fr:
+  lignes:
+  - 'Toutes les arrivées (99) · attendu (témoin apparié) : 21 %'
+  - 'Toutes les arrivées (99) · observé : 36 % (36/99)'
+  - 'Arrivées, Tier A (10) · attendu (témoin apparié) : 19 %'
+  - 'Arrivées, Tier A (10) · observé : 60 % (6/10)'
+  - 'Arrivées, Tiers B à D (18) · attendu (témoin apparié) : 25 %'
+  - 'Arrivées, Tiers B à D (18) · observé : 33 % (6/18)'
+  - 'Arrivées, hors classement (71) · attendu (témoin apparié) : 20 %'
+  - 'Arrivées, hors classement (71) · observé : 34 % (24/71)'
+  - 'Départs (107) · attendu (témoin apparié) : 22 %'
+  - 'Départs (107) · observé : 21 % (23/107)'
+  titre: 'Écuries en hausse après un mouvement d''ingénieur : observé et attendu'
+domination/pneus-en:
+  lignes:
+  - '1950, Pirelli: 86%'
+  - '1950, Firestone: 14%'
+  - '1951, Pirelli: 75%'
+  - '1951, Firestone: 13%'
+  - '1951, Others: 13%'
+  - '1952, Pirelli: 50%'
+  - '1952, Firestone: 13%'
+  - '1952, Others: 38%'
+  - '1953, Pirelli: 89%'
+  - '1953, Firestone: 11%'
+  - '1954, Pirelli: 44%'
+  - '1954, Firestone: 11%'
+  - '1954, Others: 44%'
+  - '1955, Firestone: 14%'
+  - '1955, Others: 86%'
+  - '1956, Pirelli: 25%'
+  - '1956, Firestone: 13%'
+  - '1956, Others: 63%'
+  - '1957, Pirelli: 88%'
+  - '1957, Firestone: 13%'
+  - '1958, Firestone: 9%'
+  - '1958, Dunlop: 64%'
+  - '1958, Others: 27%'
+  - '1959, Firestone: 11%'
+  - '1959, Dunlop: 89%'
+  - '1960, Firestone: 10%'
+  - '1960, Dunlop: 90%'
+  - '1961, Dunlop: 100% · monopoly'
+  - '1962, Dunlop: 100% · monopoly'
+  - '1963, Dunlop: 100% · monopoly'
+  - '1964, Dunlop: 100%'
+  - '1965, Dunlop: 90%'
+  - '1965, Goodyear: 10%'
+  - '1966, Firestone: 22%'
+  - '1966, Dunlop: 33%'
+  - '1966, Goodyear: 44%'
+  - '1967, Firestone: 55%'
+  - '1967, Goodyear: 45%'
+  - '1968, Firestone: 50%'
+  - '1968, Dunlop: 25%'
+  - '1968, Goodyear: 25%'
+  - '1969, Firestone: 18%'
+  - '1969, Dunlop: 55%'
+  - '1969, Goodyear: 27%'
+  - '1970, Firestone: 77%'
+  - '1970, Dunlop: 15%'
+  - '1970, Goodyear: 8%'
+  - '1971, Firestone: 36%'
+  - '1971, Goodyear: 64%'
+  - '1972, Firestone: 58%'
+  - '1972, Goodyear: 42%'
+  - '1973, Goodyear: 100%'
+  - '1974, Goodyear: 100%'
+  - '1975, Goodyear: 100% · monopoly'
+  - '1976, Goodyear: 100% · monopoly'
+  - '1977, Goodyear: 100%'
+  - '1978, Goodyear: 69%'
+  - '1978, Michelin: 31%'
+  - '1979, Goodyear: 53%'
+  - '1979, Michelin: 47%'
+  - '1980, Goodyear: 79%'
+  - '1980, Michelin: 21%'
+  - '1981, Goodyear: 13%'
+  - '1981, Michelin: 87%'
+  - '1982, Goodyear: 50%'
+  - '1982, Michelin: 50%'
+  - '1983, Goodyear: 40%'
+  - '1983, Michelin: 60%'
+  - '1984, Goodyear: 13%'
+  - '1984, Michelin: 88%'
+  - '1985, Pirelli: 6%'
+  - '1985, Goodyear: 94%'
+  - '1986, Pirelli: 6%'
+  - '1986, Goodyear: 94%'
+  - '1987, Goodyear: 100% · monopoly'
+  - '1988, Goodyear: 100% · monopoly'
+  - '1989, Goodyear: 100%'
+  - '1990, Goodyear: 100%'
+  - '1991, Pirelli: 6%'
+  - '1991, Goodyear: 94%'
+  - '1992, Goodyear: 100% · monopoly'
+  - '1993, Goodyear: 100% · monopoly'
+  - '1994, Goodyear: 100% · monopoly'
+  - '1995, Goodyear: 100% · monopoly'
+  - '1996, Goodyear: 100% · monopoly'
+  - '1997, Goodyear: 100%'
+  - '1998, Goodyear: 44%'
+  - '1998, Bridgestone: 56%'
+  - '1999, Bridgestone: 100% · monopoly'
+  - '2000, Bridgestone: 100% · monopoly'
+  - '2001, Michelin: 24%'
+  - '2001, Bridgestone: 76%'
+  - '2002, Michelin: 12%'
+  - '2002, Bridgestone: 88%'
+  - '2003, Michelin: 44%'
+  - '2003, Bridgestone: 56%'
+  - '2004, Michelin: 17%'
+  - '2004, Bridgestone: 83%'
+  - '2005, Michelin: 95%'
+  - '2005, Bridgestone: 5%'
+  - '2006, Michelin: 50%'
+  - '2006, Bridgestone: 50%'
+  - '2007, Bridgestone: 100% · monopoly'
+  - '2008, Bridgestone: 100% · monopoly'
+  - '2009, Bridgestone: 100% · monopoly'
+  - '2010, Bridgestone: 100% · monopoly'
+  - '2011, Pirelli: 100% · monopoly'
+  - '2012, Pirelli: 100% · monopoly'
+  - '2013, Pirelli: 100% · monopoly'
+  - '2014, Pirelli: 100% · monopoly'
+  - '2015, Pirelli: 100% · monopoly'
+  - '2016, Pirelli: 100% · monopoly'
+  - '2017, Pirelli: 100% · monopoly'
+  - '2018, Pirelli: 100% · monopoly'
+  - '2019, Pirelli: 100% · monopoly'
+  - '2020, Pirelli: 100% · monopoly'
+  - '2021, Pirelli: 100% · monopoly'
+  - '2022, Pirelli: 100% · monopoly'
+  - '2023, Pirelli: 100% · monopoly'
+  - '2024, Pirelli: 100% · monopoly'
+  - '2025, Pirelli: 100% · monopoly'
+  titre: 'Tyre manufacturers: share of wins, 1950–2025'
+domination/pneus-fr:
+  lignes:
+  - '1950, Pirelli : 86 %'
+  - '1950, Firestone : 14 %'
+  - '1951, Pirelli : 75 %'
+  - '1951, Firestone : 13 %'
+  - '1951, Autres : 13 %'
+  - '1952, Pirelli : 50 %'
+  - '1952, Firestone : 13 %'
+  - '1952, Autres : 38 %'
+  - '1953, Pirelli : 89 %'
+  - '1953, Firestone : 11 %'
+  - '1954, Pirelli : 44 %'
+  - '1954, Firestone : 11 %'
+  - '1954, Autres : 44 %'
+  - '1955, Firestone : 14 %'
+  - '1955, Autres : 86 %'
+  - '1956, Pirelli : 25 %'
+  - '1956, Firestone : 13 %'
+  - '1956, Autres : 63 %'
+  - '1957, Pirelli : 88 %'
+  - '1957, Firestone : 13 %'
+  - '1958, Firestone : 9 %'
+  - '1958, Dunlop : 64 %'
+  - '1958, Autres : 27 %'
+  - '1959, Firestone : 11 %'
+  - '1959, Dunlop : 89 %'
+  - '1960, Firestone : 10 %'
+  - '1960, Dunlop : 90 %'
+  - '1961, Dunlop : 100 % · monopole'
+  - '1962, Dunlop : 100 % · monopole'
+  - '1963, Dunlop : 100 % · monopole'
+  - '1964, Dunlop : 100 %'
+  - '1965, Dunlop : 90 %'
+  - '1965, Goodyear : 10 %'
+  - '1966, Firestone : 22 %'
+  - '1966, Dunlop : 33 %'
+  - '1966, Goodyear : 44 %'
+  - '1967, Firestone : 55 %'
+  - '1967, Goodyear : 45 %'
+  - '1968, Firestone : 50 %'
+  - '1968, Dunlop : 25 %'
+  - '1968, Goodyear : 25 %'
+  - '1969, Firestone : 18 %'
+  - '1969, Dunlop : 55 %'
+  - '1969, Goodyear : 27 %'
+  - '1970, Firestone : 77 %'
+  - '1970, Dunlop : 15 %'
+  - '1970, Goodyear : 8 %'
+  - '1971, Firestone : 36 %'
+  - '1971, Goodyear : 64 %'
+  - '1972, Firestone : 58 %'
+  - '1972, Goodyear : 42 %'
+  - '1973, Goodyear : 100 %'
+  - '1974, Goodyear : 100 %'
+  - '1975, Goodyear : 100 % · monopole'
+  - '1976, Goodyear : 100 % · monopole'
+  - '1977, Goodyear : 100 %'
+  - '1978, Goodyear : 69 %'
+  - '1978, Michelin : 31 %'
+  - '1979, Goodyear : 53 %'
+  - '1979, Michelin : 47 %'
+  - '1980, Goodyear : 79 %'
+  - '1980, Michelin : 21 %'
+  - '1981, Goodyear : 13 %'
+  - '1981, Michelin : 87 %'
+  - '1982, Goodyear : 50 %'
+  - '1982, Michelin : 50 %'
+  - '1983, Goodyear : 40 %'
+  - '1983, Michelin : 60 %'
+  - '1984, Goodyear : 13 %'
+  - '1984, Michelin : 88 %'
+  - '1985, Pirelli : 6 %'
+  - '1985, Goodyear : 94 %'
+  - '1986, Pirelli : 6 %'
+  - '1986, Goodyear : 94 %'
+  - '1987, Goodyear : 100 % · monopole'
+  - '1988, Goodyear : 100 % · monopole'
+  - '1989, Goodyear : 100 %'
+  - '1990, Goodyear : 100 %'
+  - '1991, Pirelli : 6 %'
+  - '1991, Goodyear : 94 %'
+  - '1992, Goodyear : 100 % · monopole'
+  - '1993, Goodyear : 100 % · monopole'
+  - '1994, Goodyear : 100 % · monopole'
+  - '1995, Goodyear : 100 % · monopole'
+  - '1996, Goodyear : 100 % · monopole'
+  - '1997, Goodyear : 100 %'
+  - '1998, Goodyear : 44 %'
+  - '1998, Bridgestone : 56 %'
+  - '1999, Bridgestone : 100 % · monopole'
+  - '2000, Bridgestone : 100 % · monopole'
+  - '2001, Michelin : 24 %'
+  - '2001, Bridgestone : 76 %'
+  - '2002, Michelin : 12 %'
+  - '2002, Bridgestone : 88 %'
+  - '2003, Michelin : 44 %'
+  - '2003, Bridgestone : 56 %'
+  - '2004, Michelin : 17 %'
+  - '2004, Bridgestone : 83 %'
+  - '2005, Michelin : 95 %'
+  - '2005, Bridgestone : 5 %'
+  - '2006, Michelin : 50 %'
+  - '2006, Bridgestone : 50 %'
+  - '2007, Bridgestone : 100 % · monopole'
+  - '2008, Bridgestone : 100 % · monopole'
+  - '2009, Bridgestone : 100 % · monopole'
+  - '2010, Bridgestone : 100 % · monopole'
+  - '2011, Pirelli : 100 % · monopole'
+  - '2012, Pirelli : 100 % · monopole'
+  - '2013, Pirelli : 100 % · monopole'
+  - '2014, Pirelli : 100 % · monopole'
+  - '2015, Pirelli : 100 % · monopole'
+  - '2016, Pirelli : 100 % · monopole'
+  - '2017, Pirelli : 100 % · monopole'
+  - '2018, Pirelli : 100 % · monopole'
+  - '2019, Pirelli : 100 % · monopole'
+  - '2020, Pirelli : 100 % · monopole'
+  - '2021, Pirelli : 100 % · monopole'
+  - '2022, Pirelli : 100 % · monopole'
+  - '2023, Pirelli : 100 % · monopole'
+  - '2024, Pirelli : 100 % · monopole'
+  - '2025, Pirelli : 100 % · monopole'
+  titre: 'Les manufacturiers de pneus : part des victoires, 1950–2025'
+domination/tableau-ecurie-en:
+  lignes:
+  - Team Lotus, 1968–1973 · dominance · 30 / 100
+  - Ferrari, 1975–1979 · hegemony · 28 / 100
+  - McLaren, 1988–1991 · hegemony · 61 / 100
+  - Williams, 1991–1997 · hegemony · 52 / 100
+  - McLaren, 1998–2000 · dominance · 49 / 100
+  - Ferrari, 1999–2008 · hegemony · 46 / 100
+  - Red Bull, 2010–2013 · hegemony · 53 / 100
+  - Mercedes, 2014–2021 · hegemony · 64 / 100
+  - Red Bull, 2021–2023 · hegemony · 55 / 100
+  titre: Dashboard of long dominance
+domination/tableau-ecurie-fr:
+  lignes:
+  - Team Lotus, 1968–1973 · domination · 30 / 100
+  - Ferrari, 1975–1979 · hégémonie · 28 / 100
+  - McLaren, 1988–1991 · hégémonie · 61 / 100
+  - Williams, 1991–1997 · hégémonie · 52 / 100
+  - McLaren, 1998–2000 · domination · 49 / 100
+  - Ferrari, 1999–2008 · hégémonie · 46 / 100
+  - Red Bull, 2010–2013 · hégémonie · 53 / 100
+  - Mercedes, 2014–2021 · hégémonie · 64 / 100
+  - Red Bull, 2021–2023 · hégémonie · 55 / 100
+  titre: Tableau de bord des dominations longues
+domination/tableau-motoriste-en:
+  lignes:
+  - Climax, 1959–1965 · hegemony · 57 / 100
+  - Ford, 1968–1982 · hegemony · 65 / 100
+  - Ferrari, 1975–1979 · hegemony · 28 / 100
+  - Honda, 1986–1991 · hegemony · 59 / 100
+  - Renault, 1991–1997 · hegemony · 61 / 100
+  - Mercedes, 1998–2000 · dominance · 49 / 100
+  - Ferrari, 1999–2008 · hegemony · 46 / 100
+  - Mercedes, 2005–2009 · dominance · 37 / 100
+  - Renault, 2010–2013 · hegemony · 59 / 100
+  - Mercedes, 2012–2021 · hegemony · 60 / 100
+  - Honda, 2021–2023 · hegemony · 55 / 100
+  titre: Dashboard of long dominance
+domination/tableau-motoriste-fr:
+  lignes:
+  - Climax, 1959–1965 · hégémonie · 57 / 100
+  - Ford, 1968–1982 · hégémonie · 65 / 100
+  - Ferrari, 1975–1979 · hégémonie · 28 / 100
+  - Honda, 1986–1991 · hégémonie · 59 / 100
+  - Renault, 1991–1997 · hégémonie · 61 / 100
+  - Mercedes, 1998–2000 · domination · 49 / 100
+  - Ferrari, 1999–2008 · hégémonie · 46 / 100
+  - Mercedes, 2005–2009 · domination · 37 / 100
+  - Renault, 2010–2013 · hégémonie · 59 / 100
+  - Mercedes, 2012–2021 · hégémonie · 60 / 100
+  - Honda, 2021–2023 · hégémonie · 55 / 100
+  titre: Tableau de bord des dominations longues
+domination/tableau-pilote-en:
+  lignes:
+  - Juan Manuel Fangio, 1954–1957 · hegemony · 43 / 100
+  - Jackie Stewart, 1969–1973 · dominance · 27 / 100
+  - Alain Prost, 1984–1989 · dominance · 21 / 100
+  - Ayrton Senna, 1988–1991 · dominance · 44 / 100
+  - Michael Schumacher, 2000–2004 · hegemony · 43 / 100
+  - Sebastian Vettel, 2010–2013 · hegemony · 40 / 100
+  - Lewis Hamilton, 2014–2020 · hegemony · 43 / 100
+  - Max Verstappen, 2021–2024 · hegemony · 42 / 100
+  titre: Dashboard of long dominance
+domination/tableau-pilote-fr:
+  lignes:
+  - Juan Manuel Fangio, 1954–1957 · hégémonie · 43 / 100
+  - Jackie Stewart, 1969–1973 · domination · 27 / 100
+  - Alain Prost, 1984–1989 · domination · 21 / 100
+  - Ayrton Senna, 1988–1991 · domination · 44 / 100
+  - Michael Schumacher, 2000–2004 · hégémonie · 43 / 100
+  - Sebastian Vettel, 2010–2013 · hégémonie · 40 / 100
+  - Lewis Hamilton, 2014–2020 · hégémonie · 43 / 100
+  - Max Verstappen, 2021–2024 · hégémonie · 42 / 100
+  titre: Tableau de bord des dominations longues
+domination/technologies-en:
+  lignes:
+  - 'Rear engine · 1955: 0%'
+  - 'Rear engine · 1956: 0%'
+  - 'Rear engine · 1957: 0%'
+  - 'Rear engine · 1958: 18%'
+  - 'Rear engine · 1959: 56%'
+  - 'Rear engine · 1960: 80%'
+  - 'Rear engine · 1961: 100%'
+  - 'Rear engine · 1962: 100%'
+  - 'Rear engine · 1963: 100%'
+  - 'Rear engine · 1964: 100%'
+  - 'Rear engine · 1965: 100%'
+  - 'Rear engine · 1966: 100%'
+  - 'Rear engine · 1967: 100%'
+  - 'Monocoque · 1959: 0%'
+  - 'Monocoque · 1960: 0%'
+  - 'Monocoque · 1961: 0%'
+  - 'Monocoque · 1962: 33%'
+  - 'Monocoque · 1963: 70%'
+  - 'Monocoque · 1964: 80%'
+  - 'Monocoque · 1965: 100%'
+  - 'Monocoque · 1966: 56%'
+  - 'Monocoque · 1967: 64%'
+  - 'Monocoque · 1968: 100%'
+  - 'Monocoque · 1969: 82%'
+  - 'Monocoque · 1970: 100%'
+  - 'Monocoque · 1971: 100%'
+  - 'Wings · 1965: 0%'
+  - 'Wings · 1966: 0%'
+  - 'Wings · 1967: 0%'
+  - 'Wings · 1968: 83%'
+  - 'Wings · 1969: 100%'
+  - 'Wings · 1970: 100%'
+  - 'Wings · 1971: 100%'
+  - 'Wings · 1972: 100%'
+  - 'Wings · 1973: 100%'
+  - 'Wings · 1974: 100%'
+  - 'Wings · 1975: 100%'
+  - 'Wings · 1976: 100%'
+  - 'Wings · 1977: 100%'
+  - 'Ground effect · 1974: 0%'
+  - 'Ground effect · 1975: 0%'
+  - 'Ground effect · 1976: 0%'
+  - 'Ground effect · 1977: 29%'
+  - 'Ground effect · 1978: 56%'
+  - 'Ground effect · 1979: 100%'
+  - 'Ground effect · 1980: 100%'
+  - 'Ground effect · 1981: 100%'
+  - 'Ground effect · 1982: 100%'
+  - 'Ground effect · 1983: 0%'
+  - 'Ground effect · 1984: 0%'
+  - 'Ground effect · 1985: 0%'
+  - 'Ground effect · 1986: 0%'
+  - 'Turbo · 1976: 0%'
+  - 'Turbo · 1977: 0%'
+  - 'Turbo · 1978: 0%'
+  - 'Turbo · 1979: 7%'
+  - 'Turbo · 1980: 21%'
+  - 'Turbo · 1981: 33%'
+  - 'Turbo · 1982: 50%'
+  - 'Turbo · 1983: 80%'
+  - 'Turbo · 1984: 100%'
+  - 'Turbo · 1985: 100%'
+  - 'Turbo · 1986: 100%'
+  - 'Turbo · 1987: 100%'
+  - 'Turbo · 1988: 100%'
+  - 'Carbon monocoque · 1978: 0%'
+  - 'Carbon monocoque · 1979: 0%'
+  - 'Carbon monocoque · 1980: 0%'
+  - 'Carbon monocoque · 1981: 7%'
+  - 'Carbon monocoque · 1982: 31%'
+  - 'Carbon monocoque · 1983: 47%'
+  - 'Carbon monocoque · 1984: 81%'
+  - 'Carbon monocoque · 1985: 94%'
+  - 'Carbon monocoque · 1986: 100%'
+  - 'Carbon monocoque · 1987: 100%'
+  - 'Carbon monocoque · 1988: 100%'
+  - 'Carbon monocoque · 1989: 100%'
+  - 'Carbon monocoque · 1990: 100%'
+  - 'Active suspension · 1984: 0%'
+  - 'Active suspension · 1985: 0%'
+  - 'Active suspension · 1986: 0%'
+  - 'Active suspension · 1987: 31%'
+  - 'Active suspension · 1988: 0%'
+  - 'Active suspension · 1989: 0%'
+  - 'Active suspension · 1990: 0%'
+  - 'Active suspension · 1991: 0%'
+  - 'Active suspension · 1992: 63%'
+  - 'Active suspension · 1993: 100%'
+  - 'Active suspension · 1994: 0%'
+  - 'Active suspension · 1995: 0%'
+  - 'Active suspension · 1996: 0%'
+  - 'Semi-automatic gearbox · 1986: 0%'
+  - 'Semi-automatic gearbox · 1987: 0%'
+  - 'Semi-automatic gearbox · 1988: 0%'
+  - 'Semi-automatic gearbox · 1989: 19%'
+  - 'Semi-automatic gearbox · 1990: 38%'
+  - 'Semi-automatic gearbox · 1991: 44%'
+  - 'Semi-automatic gearbox · 1992: 94%'
+  - 'Semi-automatic gearbox · 1993: 100%'
+  - 'Semi-automatic gearbox · 1994: 100%'
+  - 'Semi-automatic gearbox · 1995: 100%'
+  - 'Semi-automatic gearbox · 1996: 100%'
+  - 'Semi-automatic gearbox · 1997: 100%'
+  - 'Semi-automatic gearbox · 1998: 100%'
+  - 'Energy recovery · 2006: 0%'
+  - 'Energy recovery · 2007: 0%'
+  - 'Energy recovery · 2008: 0%'
+  - 'Energy recovery · 2009: 18%'
+  - 'Energy recovery · 2010: 0%'
+  - 'Energy recovery · 2011: 95%'
+  - 'Energy recovery · 2012: 100%'
+  - 'Energy recovery · 2013: 100%'
+  - 'Energy recovery · 2014: 100%'
+  - 'Energy recovery · 2015: 100%'
+  - 'Energy recovery · 2016: 100%'
+  - 'Energy recovery · 2017: 100%'
+  - 'Energy recovery · 2018: 100%'
+  titre: 'The spread of technologies: share of wins'
+domination/technologies-fr:
+  lignes:
+  - 'Moteur arrière · 1955 : 0 %'
+  - 'Moteur arrière · 1956 : 0 %'
+  - 'Moteur arrière · 1957 : 0 %'
+  - 'Moteur arrière · 1958 : 18 %'
+  - 'Moteur arrière · 1959 : 56 %'
+  - 'Moteur arrière · 1960 : 80 %'
+  - 'Moteur arrière · 1961 : 100 %'
+  - 'Moteur arrière · 1962 : 100 %'
+  - 'Moteur arrière · 1963 : 100 %'
+  - 'Moteur arrière · 1964 : 100 %'
+  - 'Moteur arrière · 1965 : 100 %'
+  - 'Moteur arrière · 1966 : 100 %'
+  - 'Moteur arrière · 1967 : 100 %'
+  - 'Monocoque · 1959 : 0 %'
+  - 'Monocoque · 1960 : 0 %'
+  - 'Monocoque · 1961 : 0 %'
+  - 'Monocoque · 1962 : 33 %'
+  - 'Monocoque · 1963 : 70 %'
+  - 'Monocoque · 1964 : 80 %'
+  - 'Monocoque · 1965 : 100 %'
+  - 'Monocoque · 1966 : 56 %'
+  - 'Monocoque · 1967 : 64 %'
+  - 'Monocoque · 1968 : 100 %'
+  - 'Monocoque · 1969 : 82 %'
+  - 'Monocoque · 1970 : 100 %'
+  - 'Monocoque · 1971 : 100 %'
+  - 'Ailerons · 1965 : 0 %'
+  - 'Ailerons · 1966 : 0 %'
+  - 'Ailerons · 1967 : 0 %'
+  - 'Ailerons · 1968 : 83 %'
+  - 'Ailerons · 1969 : 100 %'
+  - 'Ailerons · 1970 : 100 %'
+  - 'Ailerons · 1971 : 100 %'
+  - 'Ailerons · 1972 : 100 %'
+  - 'Ailerons · 1973 : 100 %'
+  - 'Ailerons · 1974 : 100 %'
+  - 'Ailerons · 1975 : 100 %'
+  - 'Ailerons · 1976 : 100 %'
+  - 'Ailerons · 1977 : 100 %'
+  - 'Effet de sol · 1974 : 0 %'
+  - 'Effet de sol · 1975 : 0 %'
+  - 'Effet de sol · 1976 : 0 %'
+  - 'Effet de sol · 1977 : 29 %'
+  - 'Effet de sol · 1978 : 56 %'
+  - 'Effet de sol · 1979 : 100 %'
+  - 'Effet de sol · 1980 : 100 %'
+  - 'Effet de sol · 1981 : 100 %'
+  - 'Effet de sol · 1982 : 100 %'
+  - 'Effet de sol · 1983 : 0 %'
+  - 'Effet de sol · 1984 : 0 %'
+  - 'Effet de sol · 1985 : 0 %'
+  - 'Effet de sol · 1986 : 0 %'
+  - 'Turbo · 1976 : 0 %'
+  - 'Turbo · 1977 : 0 %'
+  - 'Turbo · 1978 : 0 %'
+  - 'Turbo · 1979 : 7 %'
+  - 'Turbo · 1980 : 21 %'
+  - 'Turbo · 1981 : 33 %'
+  - 'Turbo · 1982 : 50 %'
+  - 'Turbo · 1983 : 80 %'
+  - 'Turbo · 1984 : 100 %'
+  - 'Turbo · 1985 : 100 %'
+  - 'Turbo · 1986 : 100 %'
+  - 'Turbo · 1987 : 100 %'
+  - 'Turbo · 1988 : 100 %'
+  - 'Monocoque carbone · 1978 : 0 %'
+  - 'Monocoque carbone · 1979 : 0 %'
+  - 'Monocoque carbone · 1980 : 0 %'
+  - 'Monocoque carbone · 1981 : 7 %'
+  - 'Monocoque carbone · 1982 : 31 %'
+  - 'Monocoque carbone · 1983 : 47 %'
+  - 'Monocoque carbone · 1984 : 81 %'
+  - 'Monocoque carbone · 1985 : 94 %'
+  - 'Monocoque carbone · 1986 : 100 %'
+  - 'Monocoque carbone · 1987 : 100 %'
+  - 'Monocoque carbone · 1988 : 100 %'
+  - 'Monocoque carbone · 1989 : 100 %'
+  - 'Monocoque carbone · 1990 : 100 %'
+  - 'Suspension active · 1984 : 0 %'
+  - 'Suspension active · 1985 : 0 %'
+  - 'Suspension active · 1986 : 0 %'
+  - 'Suspension active · 1987 : 31 %'
+  - 'Suspension active · 1988 : 0 %'
+  - 'Suspension active · 1989 : 0 %'
+  - 'Suspension active · 1990 : 0 %'
+  - 'Suspension active · 1991 : 0 %'
+  - 'Suspension active · 1992 : 63 %'
+  - 'Suspension active · 1993 : 100 %'
+  - 'Suspension active · 1994 : 0 %'
+  - 'Suspension active · 1995 : 0 %'
+  - 'Suspension active · 1996 : 0 %'
+  - 'Boîte semi-automatique · 1986 : 0 %'
+  - 'Boîte semi-automatique · 1987 : 0 %'
+  - 'Boîte semi-automatique · 1988 : 0 %'
+  - 'Boîte semi-automatique · 1989 : 19 %'
+  - 'Boîte semi-automatique · 1990 : 38 %'
+  - 'Boîte semi-automatique · 1991 : 44 %'
+  - 'Boîte semi-automatique · 1992 : 94 %'
+  - 'Boîte semi-automatique · 1993 : 100 %'
+  - 'Boîte semi-automatique · 1994 : 100 %'
+  - 'Boîte semi-automatique · 1995 : 100 %'
+  - 'Boîte semi-automatique · 1996 : 100 %'
+  - 'Boîte semi-automatique · 1997 : 100 %'
+  - 'Boîte semi-automatique · 1998 : 100 %'
+  - 'Récupération d''énergie · 2006 : 0 %'
+  - 'Récupération d''énergie · 2007 : 0 %'
+  - 'Récupération d''énergie · 2008 : 0 %'
+  - 'Récupération d''énergie · 2009 : 18 %'
+  - 'Récupération d''énergie · 2010 : 0 %'
+  - 'Récupération d''énergie · 2011 : 95 %'
+  - 'Récupération d''énergie · 2012 : 100 %'
+  - 'Récupération d''énergie · 2013 : 100 %'
+  - 'Récupération d''énergie · 2014 : 100 %'
+  - 'Récupération d''énergie · 2015 : 100 %'
+  - 'Récupération d''énergie · 2016 : 100 %'
+  - 'Récupération d''énergie · 2017 : 100 %'
+  - 'Récupération d''énergie · 2018 : 100 %'
+  titre: 'La diffusion des technologies : part des victoires'

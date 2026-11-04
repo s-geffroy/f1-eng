@@ -57,7 +57,8 @@ To read the intensity of dominance, each season also gets a score out of 100, as
 
 <figure class="figure">
 {% include domination/compteur-f1-en.svg %}
-<figcaption>The index of the strongest team in each season (hover over a dot to name it). Bands: team hegemonies. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, computed below.</figcaption>
+{% include donnees-graphique.html nom="domination/compteur-f1-en" %}
+<figcaption>The index of the strongest team in each season (each point is listed below the chart). Bands: team hegemonies. Red dashes: the threshold of {{ CP.seuil | times: 100 | round }}, computed below.</figcaption>
 </figure>
 
 The gauge never falls below the threshold: every season has a team clearly ahead. It climbs highest with Ferrari in 1952, over only eight races, then with McLaren in 1988 and Mercedes from 2014 to 2016. It is at its lowest in the late 1970s and early 1980s. In 1981, the strongest team by the index, Renault, owes its place to its poles and is not even champion.
@@ -81,6 +82,7 @@ Dominance is counted at four levels:
 
 <figure class="figure">
 {% include domination/tableau-ecurie-en.svg %}
+{% include donnees-graphique.html nom="domination/tableau-ecurie-en" %}
 <figcaption>The dashboard of long team dominance. Needle: the period's average index. Black mark: its best season. Red mark: the threshold. Dashed arc: dominance that is not a hegemony.</figcaption>
 </figure>
 
@@ -103,6 +105,7 @@ At the level of **lineages**, the table is almost the same. Red Bull becomes Mil
 
 <figure class="figure">
 {% include domination/tableau-pilote-en.svg %}
+{% include donnees-graphique.html nom="domination/tableau-pilote-en" %}
 <figcaption>The dashboard of long driver dominance, read the same way. No driver averages above 50: a driver always shares the podium with a team-mate.</figcaption>
 </figure>
 
@@ -121,6 +124,7 @@ Drivers are where the isolated season is most frequent: {{ EF.pilote.saison }} c
 
 <figure class="figure">
 {% include domination/tableau-motoriste-en.svg %}
+{% include donnees-graphique.html nom="domination/tableau-motoriste-en" %}
 <figcaption>The dashboard of long engine maker dominance, read the same way.</figcaption>
 </figure>
 
@@ -140,6 +144,7 @@ An engineer wins no races, but the dominance of their team while they work there
 
 <figure class="figure">
 {% include domination/ingenieurs-compteur-en.svg %}
+{% include donnees-graphique.html nom="domination/ingenieurs-compteur-en" %}
 <figcaption>The gauge of the twelve engineers whose team dominated the most seasons. Needle: the average index of their teams while they were present. Black mark: their best season.</figcaption>
 </figure>
 
@@ -155,6 +160,7 @@ A team wins with a specific car, and sometimes changes it during the season. We 
 
 <figure class="figure">
 {% include domination/chassis-en.svg %}
+{% include donnees-graphique.html nom="domination/chassis-en" %}
 <figcaption>The twelve most crushing cars: each dial gives the share of the season's Grands Prix won by that model.</figcaption>
 </figure>
 
@@ -174,7 +180,8 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 
 <figure class="figure">
 {% include domination/pneus-en.svg %}
-<figcaption>Share of Grands Prix won on each tyre brand, season by season (hover over a bar for details). "Others" groups Englebert, Continental and Avon. Hatching: single-supplier seasons.</figcaption>
+{% include donnees-graphique.html nom="domination/pneus-en" %}
+<figcaption>Share of Grands Prix won on each tyre brand, season by season (each bar is listed below the chart). "Others" groups Englebert, Continental and Avon. Hatching: single-supplier seasons.</figcaption>
 </figure>
 
 {% include domination.html quoi="pneus" %}
@@ -219,6 +226,7 @@ Dominance can also be read at the scale of the major regulation cycles, the rese
 
 <figure class="figure">
 {% include domination/cycles-cadrans-en.svg %}
+{% include donnees-graphique.html nom="domination/cycles-cadrans-en" %}
 <figcaption>One dial per regulation cycle: the average index of the team that wins most in it (needle), and its best season of the cycle (black mark).</figcaption>
 </figure>
 
@@ -230,6 +238,7 @@ A team can dominate, but so can a technology. Nine innovations from the [timelin
 
 <figure class="figure">
 {% include domination/technologies-en.svg %}
+{% include donnees-graphique.html nom="domination/technologies-en" %}
 <figcaption>The spread of the nine technologies: share of Grands Prix won by cars using them. Vertical line: the milestone. Blue background: the seasons when the pioneer alone wins with it.</figcaption>
 </figure>
 
@@ -283,6 +292,7 @@ We take the milestones attached to the team behind them, giving {{ EJ.n }} cases
 
 <figure class="figure">
 {% include domination/etude-jalons-en.svg %}
+{% include donnees-graphique.html nom="domination/etude-jalons-en" %}
 <figcaption>Average share of Grands Prix won by the team, season by season around the milestone (solid line), and by the same team in any season (dashes). The values for each milestone are in the detailed table below.</figcaption>
 </figure>
 
@@ -353,6 +363,7 @@ For each arrival, the team's share of wins is compared over the two seasons befo
 
 <figure class="figure">
 {% include domination/ingenieurs-en.svg %}
+{% include donnees-graphique.html nom="domination/ingenieurs-en" %}
 <figcaption>Share of cases followed by a rise of more than 5 points (solid dot), and the share expected from the control matched on the starting level (circle). In brackets, the number of cases.</figcaption>
 </figure>
 
