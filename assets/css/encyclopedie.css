@@ -828,6 +828,9 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 /* le cadre défile dans les deux sens, à hauteur d'écran : en-têtes collés en haut, axe à gauche */
 .genealogie-defilement {
   overflow: auto; max-height: calc(100vh - 1.5rem); overscroll-behavior: contain; -webkit-overflow-scrolling: touch;
+  /* une carte atteinte au clavier ne doit pas finir sous les colonnes et les en-têtes collés (WCAG 2.4.11) :
+     largeur des quatre colonnes collées et des gouttières, hauteur des deux rangées d'en-têtes */
+  scroll-padding: 6.5rem 0 0 26.5rem;
   background: var(--feuille); border: var(--trait-fort) solid var(--graphite);
 }
 .genealogie {
@@ -1028,6 +1031,12 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 /* ---------- Petits écrans ---------- */
 
 @media (max-width: 52rem) {
+  /* généalogie : seule la colonne des saisons reste collée ; les trois autres (environ 21 rem) couvriraient
+     toute la largeur utile sur mobile ou à fort zoom (WCAG 1.4.10) et défilent avec les cartes */
+  .gen-annee.gen-c2, .gen-annee.gen-c3, .gen-annee.gen-c4 { position: static; }
+  .gen-tete.gen-c2, .gen-tete.gen-c3, .gen-tete.gen-c4 { left: auto; }
+  .gen-c1 { border-right: var(--trait-fort) solid var(--graphite); }
+  .genealogie-defilement { scroll-padding-left: 4.5rem; }
   .entree { grid-template-columns: minmax(0, 1fr); grid-template-areas: "tete" "marge" "texte" "suite"; }
   .entree-marge { margin-bottom: 2.5rem; }
   .cartouche { position: static; max-width: 24rem; }
