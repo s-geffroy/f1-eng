@@ -36,6 +36,13 @@
 {%- else -%}
   {%- assign rangees_f = E_f.lignees | group_by: "rangee" -%}
 {%- endif -%}
+{%- comment -%} Étiquettes : le nom reste dans son segment s'il y tient à la largeur minimale de la frise
+  (64rem, soit 59rem d'axe) ; sinon il est écrit sous la barre, sur la première ligne d'étiquettes libre
+  (quatre au plus), relié au segment par un trait. Largeur d'un nom estimée à 0,411rem par caractère
+  (Barlow Condensed 600, 0,875rem) plus les marges. Sur un écran plus large, tout s'écarte : rien ne se
+  chevauche davantage. {%- endcomment -%}
+{%- assign duree_axe_f = fin_f | minus: debut_f -%}
+{%- assign rem_an_f = 59.0 | divided_by: duree_axe_f -%}
 {%- assign url_ecuries = T_f.url.ecuries | relative_url -%}
 <div class="ecuries-plan" style="--debut: {{ debut_f }}; --fin: {{ fin_f }};">
   {%- unless include.axe == "non" %}
@@ -47,7 +54,8 @@
   {%- endunless %}
   <ol class="ecuries-rangees">
     {%- for r_f in rangees_f %}
-    <li class="ecuries-rangee">
+    {%- assign e1_f = debut_f | minus: 100 -%}{%- assign e2_f = e1_f -%}{%- assign e3_f = e1_f -%}{%- assign e4_f = e1_f -%}{%- assign max_k_f = 0 -%}{%- assign etiq_f = "" -%}
+    {%- capture rangee_f %}
       {%- for l_f in r_f.items %}
       {%- assign premier_f = l_f.segments | first %}
       {%- comment -%} le nom de la lignée n'est écrit que s'il diffère de celui de son unique segment {%- endcomment -%}
@@ -57,10 +65,24 @@
       <ol class="ecuries-segments" aria-label="{{ l_f.nom | escape }}">
         {%- for s_f in l_f.segments %}
         {%- assign e_f = E_f.ecuries | where: "id", s_f.ecurie | first %}
+        {%- assign nom_f = e_f.nom | split: " (" | first %}
+        {%- assign duree_s_f = s_f.a | plus: 1 | minus: s_f.de -%}
+        {%- assign lseg_f = duree_s_f | times: rem_an_f -%}
+        {%- assign lnom_f = nom_f.size | times: 0.411 | plus: 0.6 -%}
+        {%- assign k_f = 0 -%}
+        {%- if lnom_f > lseg_f -%}
+          {%- assign fin_e_f = lnom_f | divided_by: rem_an_f | plus: s_f.de | plus: 0.4 -%}
+          {%- if e1_f <= s_f.de -%}{%- assign k_f = 1 -%}{%- assign e1_f = fin_e_f -%}
+          {%- elsif e2_f <= s_f.de -%}{%- assign k_f = 2 -%}{%- assign e2_f = fin_e_f -%}
+          {%- elsif e3_f <= s_f.de -%}{%- assign k_f = 3 -%}{%- assign e3_f = fin_e_f -%}
+          {%- else -%}{%- assign k_f = 4 -%}{%- assign e4_f = fin_e_f -%}{%- endif -%}
+          {%- if k_f > max_k_f -%}{%- assign max_k_f = k_f -%}{%- endif -%}
+          {%- capture etiq_f %}{{ etiq_f }}<span class="segment-etiquette" style="--de: {{ s_f.de }}; --ligne: {{ k_f }};">{{ nom_f }}</span>{% endcapture -%}
+        {%- endif -%}
         {%- assign fin_s_f = s_f.a | plus: 1 %}
         {%- assign alt_f = forloop.index | modulo: 2 %}
         <li class="segment{% if alt_f == 0 %} segment-alt{% endif %}{% if s_f.lien %} segment-{{ s_f.lien.type }} preuve-{{ s_f.lien.preuve }}{% endif %}{% if l_f.actuelle and forloop.last %} segment-encours{% endif %}" style="--de: {{ s_f.de }}; --a: {{ fin_s_f }};">
-          <a href="{{ url_ecuries }}{{ e_f.id }}/"{% if include.courante == e_f.id %} aria-current="page"{% endif %} title="{{ e_f.nom | escape }}, {{ s_f.de | escape }}{% if s_f.a != s_f.de %}–{% if l_f.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui | escape }}{% else %}{{ s_f.a | escape }}{% endif %}{% endif %}">{{ e_f.nom }}</a>
+          <a href="{{ url_ecuries }}{{ e_f.id }}/"{% if include.courante == e_f.id %} aria-current="page"{% endif %} title="{{ e_f.nom | escape }}, {{ s_f.de | escape }}{% if s_f.a != s_f.de %}–{% if l_f.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui | escape }}{% else %}{{ s_f.a | escape }}{% endif %}{% endif %}">{% if k_f > 0 %}<span class="visually-hidden">{{ nom_f }}</span>{% else %}{{ nom_f }}{% endif %}</a>
         </li>
         {%- endfor %}
       </ol>
@@ -89,6 +111,11 @@
         {%- endfor %}
       </ul>
       {%- endfor %}
+    {%- endcapture %}
+    <li class="ecuries-rangee" style="--lignes: {{ max_k_f }};">{{ rangee_f }}
+      {%- if max_k_f > 0 %}
+      <div class="segment-etiquettes" aria-hidden="true">{{ etiq_f }}</div>
+      {%- endif %}
     </li>
     {%- endfor %}
   </ol>

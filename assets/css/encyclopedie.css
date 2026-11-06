@@ -738,7 +738,17 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .ecuries-axe { position: absolute; top: 0; bottom: 0; left: var(--cote); right: var(--cote); pointer-events: none; }
 .ecuries-axe .frise-decennie { padding: 0.35rem 0 0 0.35rem; color: var(--mine); font-weight: 600; }
 .ecuries-rangees, .ecuries-segments, .ecuries-voitures { list-style: none; margin: 0; padding: 0; }
-.ecuries-rangee { position: relative; height: 2.6rem; }
+.ecuries-rangee { position: relative; height: calc(2.6rem + var(--lignes, 0) * 0.95rem); --haut: 2.65rem; }
+/* Nom trop long pour son segment : écrit sous la barre (sous la bande des motoristes), sur une ligne
+   d'étiquettes calculée par le gabarit pour qu'aucune ne chevauche sa voisine ; un trait le rattache. */
+.segment-etiquettes { position: absolute; inset: 0; pointer-events: none; }
+.segment-etiquette {
+  position: absolute; white-space: nowrap;
+  left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
+  top: calc(var(--haut) + (var(--ligne) - 1) * 0.95rem);
+  padding-left: 0.2rem; border-left: 2px solid var(--graphite);
+  font-family: var(--titre); font-size: 0.875rem; font-weight: 600; line-height: 0.95rem; color: var(--graphite);
+}
 .ecuries-lignee {
   position: absolute; top: 0; margin: 0; white-space: nowrap;
   left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
@@ -1015,8 +1025,8 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .portail-domination { margin-top: 2.5rem; }
 .portail-domination > h2 a, .portail-dossiers > h2 a { text-decoration: none; }
 .portail-domination > h2 a:hover, .portail-dossiers > h2 a:hover { text-decoration: underline; }
-.domination-plan .ecuries-rangee { height: 1.6rem; }
-.domination-plan .ecuries-rangee.domination-tete { height: 2.6rem; margin-top: 0.4rem; }
+.domination-plan .ecuries-rangee { height: calc(1.6rem + var(--lignes, 0) * 0.95rem); --haut: 1.45rem; }
+.domination-plan .ecuries-rangee.domination-tete { height: calc(2.6rem + var(--lignes, 0) * 0.95rem); margin-top: 0.4rem; --haut: 2.4rem; }
 .domination-plan .ecuries-rangee:not(.domination-tete) .ecuries-segments { top: 0; }
 .domination-ecurie .domination { background: var(--graphite); }
 .domination-pilote .domination { background: var(--tier-b); }
