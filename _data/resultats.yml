@@ -1150,6 +1150,7 @@ saisons:
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 42.0
+    ecurie: mercedes-1954
   - pilote: José Froilán González
     points: 25.1
     ecurie: ferrari
@@ -1161,11 +1162,13 @@ saisons:
     ecurie: ferrari
   - pilote: Karl Kling
     points: 12.0
+    ecurie: mercedes-1954
   - pilote: Bill Vukovich
     points: 8.0
     ecurie: kurtis-kraft
   - pilote: Hans Herrmann
     points: 8.0
+    ecurie: mercedes-1954
   - pilote: Nino Farina
     points: 6.0
     ecurie: ferrari
@@ -1380,8 +1383,10 @@ saisons:
   pilotes:
   - pilote: Juan Manuel Fangio
     points: 40.0
+    ecurie: mercedes-1954
   - pilote: Stirling Moss
     points: 23.0
+    ecurie: mercedes-1954
   - pilote: Eugenio Castellotti
     points: 12.0
     ecurie: ferrari
@@ -1393,6 +1398,7 @@ saisons:
     ecurie: ferrari
   - pilote: Piero Taruffi
     points: 9.0
+    ecurie: mercedes-1954
   - pilote: Bob Sweikert
     points: 8.0
     ecurie: kurtis-kraft
@@ -1407,6 +1413,7 @@ saisons:
     ecurie: maserati
   - pilote: Karl Kling
     points: 5.0
+    ecurie: mercedes-1954
   - pilote: Jimmy Davies
     points: 4.0
     ecurie: kurtis-kraft
@@ -1438,6 +1445,7 @@ saisons:
     ecurie: ferrari
   - pilote: Hans Herrmann
     points: 1.0
+    ecurie: mercedes-1954
   - pilote: Walt Faulkner
     points: 1.0
     ecurie: kurtis-kraft
