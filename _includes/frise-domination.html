@@ -52,9 +52,8 @@
           {%- assign court_hf = h_hf.nom | split: " " | last %}
           {%- assign lien_hf = url_d_hf %}
         {%- endif %}
-        {%- assign cle_d_hf = "degre_" | append: h_hf.degre %}
         <li class="segment domination domination-{{ h_hf.degre }}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }};">
-          <a href="{{ lien_hf }}" title="{{ nom_hf }}, {{ h_hf.debut }}–{{ h_hf.fin }} · {{ L_hf[cle_d_hf] }} · {{ h_hf.titres }} {{ T_hf.portail.domination_titres }}">{{ court_hf }}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }} ({{ L_hf[cle_d_hf] }})</span></a>
+          <a href="{{ lien_hf }}" title="{{ nom_hf }}, {{ h_hf.debut }}–{{ h_hf.fin }} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres }} {{ T_hf.portail.domination_titres }}">{{ court_hf }}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
         </li>
         {%- endfor %}
       </ol>

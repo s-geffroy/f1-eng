@@ -531,7 +531,7 @@ ingenieurs:
     plus_longue:
     - 1991
     - 2000
-    degre: hegemonie
+    degre: domination
     sejours_non_dates: 2
   - id: paddy-lowe
     nom: Paddy Lowe
@@ -548,6 +548,7 @@ ingenieurs:
     - 2017
     degre: hegemonie
     sejours_non_dates: 0
+    niveau: 3
   - id: ross-brawn
     nom: Ross Brawn
     saisons: 34
@@ -563,6 +564,7 @@ ingenieurs:
     - 2006
     degre: hegemonie
     sejours_non_dates: 0
+    niveau: 1
   - id: matthew-jeffreys
     nom: Matthew Jeffreys
     saisons: 22
@@ -578,6 +580,7 @@ ingenieurs:
     - 1991
     degre: hegemonie
     sejours_non_dates: 0
+    niveau: 2
   - id: james-allison
     nom: James Allison
     saisons: 26
@@ -593,6 +596,7 @@ ingenieurs:
     - 2006
     degre: hegemonie
     sejours_non_dates: 1
+    niveau: 1
   - id: patrick-head
     nom: Patrick Head
     saisons: 34
@@ -608,6 +612,7 @@ ingenieurs:
     - 1997
     degre: hegemonie
     sejours_non_dates: 0
+    niveau: 1
   - id: franco-rocchi
     nom: Franco Rocchi
     saisons: 30
@@ -638,6 +643,7 @@ ingenieurs:
     - 2006
     degre: hegemonie
     sejours_non_dates: 0
+    niveau: 1
   - id: mauro-forghieri
     nom: Mauro Forghieri
     saisons: 27
@@ -668,6 +674,7 @@ ingenieurs:
     - 1991
     degre: hegemonie
     sejours_non_dates: 2
+    niveau: 2
   - id: colin-chapman
     nom: Colin Chapman
     saisons: 25
@@ -698,6 +705,7 @@ ingenieurs:
     - 1997
     degre: hegemonie
     sejours_non_dates: 1
+    niveau: 1
   - id: steve-nichols
     nom: Steve Nichols
     saisons: 13
@@ -4535,6 +4543,7 @@ pneus:
     victoires: 0.688095
     poles: 0.688095
     degre: hegemonie
+    niveau: 2
   - pneus: Continental
     debut: 1954
     fin: 1955
@@ -4567,6 +4576,7 @@ pneus:
     victoires: 0.808418
     poles: 0.747811
     degre: hegemonie
+    niveau: 4
   - pneus: Dunlop
     debut: 1964
     fin: 1965
@@ -4607,6 +4617,7 @@ pneus:
     victoires: 0.763258
     poles: 0.746591
     degre: hegemonie
+    niveau: 3
   - pneus: Goodyear
     debut: 1977
     fin: 1986
@@ -4615,6 +4626,7 @@ pneus:
     victoires: 0.603988
     poles: 0.596786
     degre: hegemonie
+    niveau: 2
   - pneus: Michelin
     debut: 1979
     fin: 1984
@@ -4623,6 +4635,7 @@ pneus:
     victoires: 0.587103
     poles: 0.598413
     degre: hegemonie
+    niveau: 1
   - pneus: Goodyear
     debut: 1989
     fin: 1991
@@ -4631,6 +4644,7 @@ pneus:
     victoires: 0.979167
     poles: 1.0
     degre: hegemonie
+    niveau: 5
   - pneus: Goodyear
     debut: 1997
     fin: 1998
@@ -4655,6 +4669,7 @@ pneus:
     victoires: 0.599254
     poles: 0.493521
     degre: hegemonie
+    niveau: 1
   - pneus: Michelin
     debut: 2003
     fin: 2006

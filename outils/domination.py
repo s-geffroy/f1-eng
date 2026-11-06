@@ -10,8 +10,10 @@ Grands Prix. Les saisons dominantes d'une entité, séparées au plus par CREUX 
 forment une période, classée en trois degrés :
   - saison : une seule saison dominante ;
   - domination : au moins DUO saisons dominantes ;
-  - hegemonie : au moins MIN saisons dominantes, robuste, et au moins SEUIL des Grands Prix gagnés sur
-    l'ensemble de la période (une suite de titres à faible part de victoires reste une domination).
+  - hegemonie : au moins MIN saisons dominantes, robuste, et au moins NIVEAUX[0] des Grands Prix gagnés
+    sur l'ensemble de la période (une suite de titres à faible part de victoires reste une domination).
+    Son niveau, de 1 à 5, est le nombre de paliers de NIVEAUX atteints par cette part (50 % : niveau 1,
+    60 % : 2... 90 % : 5).
 Les mêmes calculs sont refaits avec des seuils plus stricts (VARIANTES) : une période d'au moins MIN
 saisons retrouvée dans toutes les variantes est dite robuste. Seules des variantes plus strictes
 peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
@@ -24,6 +26,7 @@ RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
 SEUIL, MIN, CREUX = 0.40, 3, 1
 DUO = 2                      # seuil du degré « domination »
+NIVEAUX = (0.5, 0.6, 0.7, 0.8, 0.9)   # paliers de part des victoires sur la période : niveaux d'hégémonie
 # Parts stockées avec PREC décimales : le gabarit les affiche en pourcentage entier (times: 100 | round) ;
 # trois décimales faisaient arrondir deux fois (0,2647 -> 0,265 -> 27 % au lieu de 26 %).
 PREC = 6
@@ -226,8 +229,16 @@ def actives(ec):
     return sorted({y for l in E["lignees"] for s in l["segments"] if s["ecurie"] == ec
                    for y in range(s["de"], s["a"] + 1) if y in part["ecurie"]})
 
+def niveau(part_periode):
+    """Niveau d'hégémonie (0 à 5) : nombre de paliers de NIVEAUX atteints par la part des victoires."""
+    return sum(part_periode >= x - 1e-9 for x in NIVEAUX)
+
+def lib_heg(lang, n):
+    """Libellé d'une hégémonie avec son niveau (mêmes mots que _includes/degre.html)."""
+    return f"level {n} hegemony" if lang == "en" else f"hégémonie de niveau {n}"
+
 def degre(g, robuste, part_periode):
-    return ("hegemonie" if len(g) >= MIN and robuste and part_periode >= SEUIL
+    return ("hegemonie" if len(g) >= MIN and robuste and niveau(part_periode) >= 1
             else "domination" if len(g) >= DUO else "saison")
 
 dominations, saisons_dom, effectifs, liste_ecurie = {}, {}, {}, []
@@ -255,6 +266,7 @@ for u in part:
              "longue": len(g) >= MIN,
              "robuste": len(g) >= MIN and all(recouvre(k, g, v) for v in variantes)}
         h["degre"] = degre(g, h["robuste"], vic / gp)
+        if h["degre"] == "hegemonie": h["niveau"] = niveau(vic / gp)
         if h["id"] is None: del h["id"]
         h.update(mesures(u, k, list(span)))
         if u in points and points[u]:
@@ -518,7 +530,7 @@ annees_regle = [a for a in ANNEES if regles_autour(a)]
 debuts = [h for u in ("ecurie", "pilote", "motoriste") for h in dominations[u] if h["longue"]]
 
 sortie = {
-    "parametres": {"seuil": SEUIL, "min": MIN, "duo": DUO, "creux": CREUX, "avant": AVANT, "apres": APRES,
+    "parametres": {"seuil": SEUIL, "min": MIN, "duo": DUO, "niveaux": list(NIVEAUX), "creux": CREUX, "avant": AVANT, "apres": APRES,
                    "fenetre_jalon": FENETRE_JALON, "fenetre_regle": FENETRE_REGLE,
                    "variantes": [{"seuil": s, "min": m, "creux": c} for s, m, c in VARIANTES],
                    "saisons": f"{ANNEES[0]}–{ANNEES[-1]}", "gp": sum(s["gp"] for s in R)},
@@ -786,7 +798,7 @@ def svg_compteur(lid, lang):
     for p in dominations["lignee"]:
         if p.get("id") == lid:
             cl = "cp-heg" if p["degre"] == "hegemonie" else "cp-dom"
-            lib = L["heg"] if p["degre"] == "hegemonie" else L["dom"]
+            lib = lib_heg(lang, p["niveau"]) if p["degre"] == "hegemonie" else L["dom"]
             o.append(f'<rect class="{cl}" x="{xs(p["debut"]) - demi:.1f}" y="{h}" width="{xs(p["fin"]) - xs(p["debut"]) + 2 * demi:.1f}" height="{Hh - b - h}"><title>{lib}, {p["debut"]}–{p["fin"]}</title></rect>')
     for v in (0, 0.25, 0.5, 0.75, 1):
         o.append(f'<line class="cp-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
@@ -876,7 +888,8 @@ for ing, ss in sejours.items():
     if plus:
         ans = range(plus[0], plus[-1] + 1)
         v_suite = sum(victoires["ecurie"][y].get(ec, 0) for y in ans for ec in {e for yy, e in ss if yy == y})
-        robuste = robuste and v_suite / sum(next(s["gp"] for s in R if s["annee"] == y) for y in ans) >= SEUIL
+        part_suite = v_suite / sum(next(s["gp"] for s in R if s["annee"] == y) for y in ans)
+        robuste = robuste and niveau(part_suite) >= 1
     best = max(ss, key=lambda x: mesures("ecurie", x[1], [x[0]]).get("indice") or 0)
     ing_dom.append({"id": ing, "nom": ING_NOMS.get(ing, ing), "saisons": len({y for y, _ in ss}),
                     "dominantes": len(dom), "titres": sum(1 for y, ec in ss if champion["ecurie"].get(y) == ec),
@@ -886,7 +899,8 @@ for ing, ss in sejours.items():
                     "plus_longue": [plus[0], plus[-1]] if plus else None,
                     "degre": ("hegemonie" if robuste else "domination" if len(plus) >= DUO
                               else "saison" if plus else None),
-                    "sejours_non_dates": non_dates.get(ing, 0)})
+                    "sejours_non_dates": non_dates.get(ing, 0),
+                    **({"niveau": niveau(part_suite)} if robuste else {})})
 ing_dom.sort(key=lambda x: (-x["dominantes"], -x["indice_moyen"]))
 sortie_ing = {"ingenieurs": ing_dom, "non_dates": sum(non_dates.values()),
               "ingenieurs_partiels": sum(1 for i in ing_dom if i["sejours_non_dates"])}
@@ -967,9 +981,9 @@ def svg_tableau(u, lang):
         nm = esc(nom_u(u, k, lang) if p_.get("id") else p_["nom"])
         if u == "pilote":
             nm = esc(p_["nom"].split(" ")[-1])
-        deg = L["heg"] if p_["degre"] == "hegemonie" else L["dom"]
+        deg = lib_heg(lang, p_["niveau"]) if p_["degre"] == "hegemonie" else L["dom"]
         o.append(f'<g><title>{esc(p_["nom"])}, {p_["debut"]}–{p_["fin"]} · {deg} · {r100(p_["indice"])} / 100</title>')
-        o.append(cadran_g(cx, cy, 58, p_["indice"], [f"{nm}", f'{p_["debut"]}–{p_["fin"]} · {deg}'],
+        o.append(cadran_g(cx, cy, 58, p_["indice"], [f"{nm}", f'{p_["debut"]}–{p_["fin"]}', deg],
                           record=rec, fragile=p_["degre"] != "hegemonie", taille=0.62,
                           # le seuil est calibré sur des saisons d'écurie : sans objet pour un pilote ou un motoriste
                           seuil=u == "ecurie"))
@@ -1092,7 +1106,8 @@ for t in TECH:
                    "exclusivite": excl, "a50": seuil50, "a90": seuil90,
                    "delai50": seuil50 - premiere[0] if seuil50 else None,
                    "delai90": seuil90 - premiere[0] if seuil90 else None,
-                   "domination_pionnier": ({"debut": dom_p["debut"], "fin": dom_p["fin"], "degre": dom_p["degre"]}
+                   "domination_pionnier": ({"debut": dom_p["debut"], "fin": dom_p["fin"], "degre": dom_p["degre"],
+                                            **({"niveau": dom_p["niveau"]} if "niveau" in dom_p else {})}
                                            if dom_p else None),
                    "serie": serie})
 sortie_compteur["technologies"] = techno
@@ -1234,8 +1249,10 @@ if PN:
                              "titres": sum(1 for a in span if pch[a] == m),
                              "victoires": round(sum(pv[a].get(m, 0) for a in span) / len(span), PREC),
                              "poles": round(sum(pp[a].get(m, 0) for a in span) / len(span), PREC),
-                             "degre": "hegemonie" if rob and sum(pv[a].get(m, 0) for a in span) / len(span) >= SEUIL
+                             "degre": "hegemonie" if rob and niveau(sum(pv[a].get(m, 0) for a in span) / len(span)) >= 1
                                       else "domination" if len(g) >= DUO else "saison"})
+            if periodes[-1]["degre"] == "hegemonie":
+                periodes[-1]["niveau"] = niveau(periodes[-1]["victoires"])
     periodes.sort(key=lambda x: (x["debut"], x["pneus"]))
     pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
                  "periodes": periodes, "saisons": pn_saisons}

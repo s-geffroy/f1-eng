@@ -50,8 +50,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
           {%- endif -%}{%- unless forloop.last -%}, {% endunless -%}
         {%- endfor -%}
       </td>
-      {%- assign cle_d_h = "degre_" | append: h.degre %}
-      <td>{% if h.degre == "hegemonie" %}<strong>{{ L_h[cle_d_h] }}</strong>{% else %}{{ L_h[cle_d_h] }}{% endif %}</td>
+      <td>{% if h.degre == "hegemonie" %}<strong>{% include degre.html d=h.degre n=h.niveau %}</strong>{% else %}{% include degre.html d=h.degre %}{% endif %}</td>
     </tr>
   {%- endfor %}
   </tbody>
@@ -92,7 +91,6 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   <tbody>
   {%- for i in site.data.compteur.ingenieurs.ingenieurs limit: 20 %}
     {%- assign e_h = D_h.ecuries.ecuries | where: "id", i.meilleure.ecurie | first -%}
-    {%- assign cle_d_h = "degre_" | append: i.degre %}
     <tr>
       <td>{% include lien-entree.html id=i.id %}{% if i.sejours_non_dates > 0 %}<sup>*</sup>{% endif %}</td>
       <td>{{ i.saisons }}</td>
@@ -100,7 +98,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
       <td>{{ i.titres }}</td>
       <td>{{ i.indice_moyen | times: 100 | round }}</td>
       <td>{{ i.meilleure.indice | times: 100 | round }} ({{ e_h.nom | split: " (" | first }} {{ i.meilleure.annee }})</td>
-      <td>{% if i.plus_longue %}{{ i.plus_longue[0] }}–{{ i.plus_longue[1] }} ({{ L_h[cle_d_h] }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+      <td>{% if i.plus_longue %}{{ i.plus_longue[0] }}–{{ i.plus_longue[1] }} ({% include degre.html d=i.degre n=i.niveau %}){% else %}{{ L_h.aucun }}{% endif %}</td>
     </tr>
   {%- endfor %}
   </tbody>
@@ -248,8 +246,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   <thead><tr><th scope="col">{{ L_h.manufacturier }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.degre }}</th></tr></thead>
   <tbody>
   {%- for p in site.data.compteur.pneus.periodes %}{% if p.degre != "saison" %}
-    {%- assign cle_d_h = "degre_" | append: p.degre %}
-    <tr><td>{{ p.pneus }}</td><td>{{ p.debut }}–{{ p.fin }}</td><td>{{ p.dominantes }}</td><td>{{ p.titres }}</td><td>{{ p.victoires | times: 100 | round }}{{ pc_h }}</td><td>{{ p.poles | times: 100 | round }}{{ pc_h }}</td><td>{% if p.degre == "hegemonie" %}<strong>{{ L_h[cle_d_h] }}</strong>{% else %}{{ L_h[cle_d_h] }}{% endif %}</td></tr>
+    <tr><td>{{ p.pneus }}</td><td>{{ p.debut }}–{{ p.fin }}</td><td>{{ p.dominantes }}</td><td>{{ p.titres }}</td><td>{{ p.victoires | times: 100 | round }}{{ pc_h }}</td><td>{{ p.poles | times: 100 | round }}{{ pc_h }}</td><td>{% if p.degre == "hegemonie" %}<strong>{% include degre.html d=p.degre n=p.niveau %}</strong>{% else %}{% include degre.html d=p.degre %}{% endif %}</td></tr>
   {%- endif %}{% endfor %}
   </tbody>
 </table></div>
@@ -270,7 +267,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
       <td>{{ t.exclusivite }}</td>
       <td>{% if t.a50 %}{{ t.a50 }} (+{{ t.delai50 }}){% else %}{{ L_h.aucun }}{% endif %}</td>
       <td>{% if t.a90 %}{{ t.a90 }} (+{{ t.delai90 }}){% else %}{{ L_h.aucun }}{% endif %}</td>
-      <td>{% if t.domination_pionnier %}{% assign cle_d_h = "degre_" | append: t.domination_pionnier.degre %}{{ t.domination_pionnier.debut }}–{{ t.domination_pionnier.fin }} ({{ L_h[cle_d_h] }}){% else %}{{ L_h.aucun }}{% endif %}</td>
+      <td>{% if t.domination_pionnier %}{{ t.domination_pionnier.debut }}–{{ t.domination_pionnier.fin }} ({% include degre.html d=t.domination_pionnier.degre n=t.domination_pionnier.niveau %}){% else %}{{ L_h.aucun }}{% endif %}</td>
     </tr>
   {%- endfor %}
   </tbody>

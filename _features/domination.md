@@ -51,7 +51,9 @@ Dominance is then measured by how long it lasts. The dominant seasons of the sam
 
 1. **The dominant season**: a single season, with no follow-up. [Tyrrell]({{ site.baseurl }}/en/teams/tyrrell/) in 1971, [Brawn]({{ site.baseurl }}/en/teams/brawn/) in 2009.
 2. **Dominance**: at least {{ P.duo }} dominant seasons. [McLaren]({{ site.baseurl }}/en/teams/mclaren/) in 1984 and 1985, for example.
-3. **Hegemony**: at least {{ P.min }} dominant seasons, a result that survives every variant of the threshold (see below), and at least {{ P.seuil | times: 100 | round }}% of the Grands Prix won over the whole period. A run of titles is not enough: the wins must follow. The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season.
+3. **Hegemony**: at least {{ P.min }} dominant seasons, a result that survives every variant of the threshold (see below), and at least {{ P.niveaux[0] | times: 100 | round }}% of the Grands Prix won over the whole period. A run of titles is not enough: the wins must follow. The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season, and wins 52% of the period's Grands Prix.
+
+Hegemony has five **levels**, according to this share of wins: level 1 from {{ P.niveaux[0] | times: 100 | round }}%, then one more level every 10 points, up to level 5, from {{ P.niveaux[4] | times: 100 | round }}%.
 
 Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting.
 
@@ -90,10 +92,10 @@ Dominance is counted at four levels:
 
 In seventy-six seasons there are {{ EF.ecurie.hegemonie }} hegemonies and {{ EF.ecurie.domination }} other periods of dominance. Four features stand out.
 
-- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021. [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them. The first hegemony, [McLaren]({{ site.baseurl }}/en/teams/mclaren/)'s from 1988 to 1991, wins 61% of them.
+- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021 (level 2). [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them: the only level 3 team hegemony, and none reaches level 4. The first hegemony, [McLaren]({{ site.baseurl }}/en/teams/mclaren/)'s from 1988 to 1991, wins 61% of them.
 - **The longest is Ferrari's, from 1999 to 2008**: eight titles in ten seasons, with a single lean season, 2005.
 - **Before 1988, no team reaches hegemony.** The 1950s and 1960s are played out in two-season dominance: Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. The title changes hands too often for a team to settle in.
-- **Three long periods of dominance are not hegemonies.** [Ferrari]({{ site.baseurl }}/en/teams/ferrari/), from 1975 to 1979, strings together four titles but wins only 35% of the period's Grands Prix, less than the required {{ P.seuil | times: 100 | round }}%. [Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, alternates titles and lean seasons, and never exceeds 47% of wins: it does not survive the variant with no lean season. McLaren, from 1998 to 2000, does not survive the 50% threshold: it wins only 44% of the Grands Prix in 1999 and 41% in 2000.
+- **Three long periods of dominance are not hegemonies.** [Ferrari]({{ site.baseurl }}/en/teams/ferrari/), from 1975 to 1979, strings together four titles but wins only 35% of the period's Grands Prix, less than the required {{ P.niveaux[0] | times: 100 | round }}%. [Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, alternates titles and lean seasons, and never exceeds 47% of wins: it does not survive the variant with no lean season. McLaren, from 1998 to 2000, does not survive the 50% threshold: it wins only 44% of the Grands Prix in 1999 and 41% in 2000.
 
 There are {{ EF.ecurie.saison }} dominant seasons with no follow-up: {% include domination.html quoi="saisons" unite="ecurie" %}. All are titles, sometimes won with few victories: McLaren in 1974 with 27% of the Grands Prix, Ferrari in 1964 with 30%.
 
@@ -111,9 +113,11 @@ At the level of **lineages**, the table is almost the same. Red Bull becomes Mil
 <figcaption>The dashboard of long driver dominance, read the same way, without the red mark: the threshold was calibrated on team seasons. No driver averages above 50: a driver always shares the podium with a team-mate.</figcaption>
 </figure>
 
-Drivers' hegemonies follow their team's: Schumacher with Ferrari, Vettel and Verstappen with Red Bull, Hamilton with Mercedes. Only **Fangio**, from 1954 to 1957, reaches hegemony with three teams: Mercedes-Benz, Ferrari and Maserati.
+Drivers' hegemonies follow their team's: Schumacher with Ferrari, Verstappen with Red Bull, Hamilton with Mercedes, all at level 1. Only **Fangio**, from 1954 to 1957, reaches hegemony with three teams: Mercedes-Benz, Ferrari and Maserati.
 
-Three long periods of driver dominance are not hegemonies:
+Four long periods of driver dominance are not hegemonies:
+
+- **Vettel**, from 2010 to 2013, strings together four titles with Red Bull, but wins only 44% of the Grands Prix. His team reaches hegemony (53%) with Webber's wins.
 
 - **Stewart**, from 1969 to 1973, dominates with Matra and then Tyrrell. His season with March, in 1970, is one of his lean seasons.
 - **Prost** and **Senna** share the same McLaren: their periods of dominance overlap, and neither survives the threshold variants.
@@ -150,7 +154,7 @@ An engineer wins no races, but the dominance of their team while they work there
 <figcaption>The gauge of the twelve engineers whose team dominated the most seasons. Needle: the average index of their teams while they were present. Black mark: their best season.</figcaption>
 </figure>
 
-**Adrian Newey** leads: sixteen dominant seasons out of thirty-six dated seasons, at Williams, McLaren and Red Bull. His longest run, from 1991 to 2000, moves from Williams to McLaren. Paddy Lowe and Ross Brawn follow, with thirteen and twelve dominant seasons. Colin Chapman does not go beyond the degree of dominance: like Lotus from 1968 to 1973, his run does not survive the variant with no lean season.
+**Adrian Newey** leads: sixteen dominant seasons out of thirty-six dated seasons, at Williams, McLaren and Red Bull. His longest run, from 1991 to 2000, moves from Williams to McLaren, but his teams win only 47% of the Grands Prix in it: this is dominance, not hegemony. Paddy Lowe and Ross Brawn follow, with thirteen and twelve dominant seasons. Lowe reaches the highest level: from 2014 to 2017, Mercedes wins almost 80% of the Grands Prix (level 3). Colin Chapman does not go beyond the degree of dominance: like Lotus from 1968 to 1973, his run does not survive the variant with no lean season.
 
 {% include domination.html quoi="ingenieurs_dom" %}
 
@@ -189,7 +193,7 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 {% include domination.html quoi="pneus" %}
 
 - **Dunlop supplies every champion from 1958 to 1965**, accompanying the rear-engine revolution, from Cooper to Lotus. But it is alone on track from 1961 to 1963: those three out-of-contention seasons split the run into a hegemony from 1958 to 1960 (three titles, 81% of wins) and a period of dominance in 1964-1965 (two titles, 95%).
-- **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons as de facto sole supplier (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track.
+- **Goodyear dominates the longest**: a hegemony from 1971 to 1974 (three titles), then, after two seasons as de facto sole supplier (1975-1976), another from 1977 to 1986 (seven titles), the longest of all, before being left alone on track. From 1989 to 1991, against the returning Pirelli, it wins 98% of the Grands Prix: the only level 5 hegemony.
 - **Tyre wars are fought by two**: the periods overlap, because both makes often pass the threshold in the same season. From 1979 to 1984, Michelin (five dominant seasons, three titles, 59% of wins) takes on Goodyear in the middle of its hegemony (1977-1986). From 2001 to 2006, Bridgestone (four titles, Ferrari's) takes on Michelin, dominant from 2003 to 2006 (two titles, Renault's). The Firestone-Goodyear contest, from 1966 to 1972, produces only short periods of dominance.
 - **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
 

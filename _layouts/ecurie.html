@@ -96,7 +96,7 @@ layout: default
       {%- if dom_e.size > 0 or sais_e.size > 0 %}
       {%- assign url_dom_e = T.url.dossiers | append: 'domination/' | relative_url %}
       <div class="case case-large"><dt>{{ T.ecuries.dominations }}</dt><dd>
-        {%- for h in dom_e %}{% assign cle_d = "degre_" | append: h.degre %}<a href="{{ url_dom_e }}">{{ h.debut }}–{{ h.fin }}</a> ({{ T.domination[cle_d] }}, {{ h.titres }} {{ T.portail.domination_titres }}){% unless forloop.last and sais_e.size == 0 %}{{ esp_ }}; {% endunless %}{% endfor -%}
+        {%- for h in dom_e %}<a href="{{ url_dom_e }}">{{ h.debut }}–{{ h.fin }}</a> ({% include degre.html d=h.degre n=h.niveau %}, {{ h.titres }} {{ T.portail.domination_titres }}){% unless forloop.last and sais_e.size == 0 %}{{ esp_ }}; {% endunless %}{% endfor -%}
         {%- for h in sais_e %}<a href="{{ url_dom_e }}">{{ h.annee }}</a> ({{ T.domination.degre_saison }}){% unless forloop.last %}{{ esp_ }}; {% endunless %}{% endfor -%}
       </dd></div>
       {%- endif %}

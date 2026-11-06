@@ -51,7 +51,9 @@ La domination se mesure ensuite à sa durée. Les saisons dominantes d'un même 
 
 1. **La saison dominante** : une seule saison, sans suite. [Tyrrell]({{ site.baseurl }}/ecuries/tyrrell/) en 1971, [Brawn]({{ site.baseurl }}/ecuries/brawn/) en 2009.
 2. **La domination** : au moins {{ P.duo }} saisons dominantes. [McLaren]({{ site.baseurl }}/ecuries/mclaren/) en 1984 et 1985, par exemple.
-3. **L'hégémonie** : au moins {{ P.min }} saisons dominantes, un résultat qui résiste à toutes les variantes du seuil (voir plus bas), et au moins {{ P.seuil | times: 100 | round }} % des Grands Prix gagnés sur l'ensemble de la période. Une suite de titres ne suffit pas : il faut aussi gagner. La Williams des années 1990 en est un exemple : battue en 1995, elle reste dominante avant et après cette saison.
+3. **L'hégémonie** : au moins {{ P.min }} saisons dominantes, un résultat qui résiste à toutes les variantes du seuil (voir plus bas), et au moins {{ P.niveaux[0] | times: 100 | round }} % des Grands Prix gagnés sur l'ensemble de la période. Une suite de titres ne suffit pas : il faut aussi gagner. La Williams des années 1990 en est un exemple : battue en 1995, elle reste dominante avant et après cette saison, et gagne 52 % des Grands Prix de la période.
+
+L'hégémonie a cinq **niveaux**, selon cette part des victoires : le niveau 1 à partir de {{ P.niveaux[0] | times: 100 | round }} %, puis un niveau de plus tous les 10 points, jusqu'au niveau 5, à partir de {{ P.niveaux[4] | times: 100 | round }} %.
 
 Chaque saison a un champion du monde : chaque saison est donc dominante pour au moins un pilote, une écurie et un motoriste. Le premier degré est le plus courant. Ce qui est rare, c'est de durer.
 
@@ -90,10 +92,10 @@ On compte à quatre niveaux :
 
 En soixante-seize saisons, on compte {{ EF.ecurie.hegemonie }} hégémonies et {{ EF.ecurie.domination }} autres dominations. Quatre traits ressortent.
 
-- **Les plus écrasantes sont les plus récentes.** [Mercedes]({{ site.baseurl }}/ecuries/mercedes/) gagne 69 % des Grands Prix pendant huit saisons, de 2014 à 2021. [Red Bull]({{ site.baseurl }}/ecuries/red-bull/), de 2021 à 2023, en gagne 74 %. La première hégémonie, celle de [McLaren]({{ site.baseurl }}/ecuries/mclaren/) de 1988 à 1991, en gagne 61 %.
+- **Les plus écrasantes sont les plus récentes.** [Mercedes]({{ site.baseurl }}/ecuries/mercedes/) gagne 69 % des Grands Prix pendant huit saisons, de 2014 à 2021 (niveau 2). [Red Bull]({{ site.baseurl }}/ecuries/red-bull/), de 2021 à 2023, en gagne 74 % : c'est la seule hégémonie d'écurie de niveau 3, et aucune n'atteint le niveau 4. La première hégémonie, celle de [McLaren]({{ site.baseurl }}/ecuries/mclaren/) de 1988 à 1991, en gagne 61 %.
 - **La plus longue est celle de Ferrari, de 1999 à 2008** : huit titres en dix saisons, et une seule saison creuse, 2005.
 - **Avant 1988, aucune écurie n'atteint l'hégémonie.** Les années 1950 et 1960 se jouent en dominations de deux saisons : Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. Le titre change de mains trop souvent pour qu'une écurie s'installe.
-- **Trois dominations longues ne sont pas des hégémonies.** [Ferrari]({{ site.baseurl }}/ecuries/ferrari/), de 1975 à 1979, aligne quatre titres mais ne gagne que 35 % des Grands Prix de la période, moins que les {{ P.seuil | times: 100 | round }} % requis. [Lotus]({{ site.baseurl }}/ecuries/team-lotus/), de 1968 à 1973, alterne titres et saisons creuses, et ne dépasse jamais 47 % des victoires : elle ne survit pas à la variante sans saison creuse. McLaren, de 1998 à 2000, ne survit pas au seuil de 50 % : elle ne gagne que 44 % des Grands Prix en 1999 et 41 % en 2000.
+- **Trois dominations longues ne sont pas des hégémonies.** [Ferrari]({{ site.baseurl }}/ecuries/ferrari/), de 1975 à 1979, aligne quatre titres mais ne gagne que 35 % des Grands Prix de la période, moins que les {{ P.niveaux[0] | times: 100 | round }} % requis. [Lotus]({{ site.baseurl }}/ecuries/team-lotus/), de 1968 à 1973, alterne titres et saisons creuses, et ne dépasse jamais 47 % des victoires : elle ne survit pas à la variante sans saison creuse. McLaren, de 1998 à 2000, ne survit pas au seuil de 50 % : elle ne gagne que 44 % des Grands Prix en 1999 et 41 % en 2000.
 
 On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% include domination.html quoi="saisons" unite="ecurie" %}. Ce sont toutes des titres, parfois gagnés avec peu de victoires : McLaren en 1974 avec 27 % des Grands Prix, Ferrari en 1964 avec 30 %.
 
@@ -111,9 +113,11 @@ On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% inc
 <figcaption>Le tableau de bord des dominations longues de pilote, avec la même lecture, sans le repère rouge : le seuil a été calibré sur des saisons d'écurie. Aucun pilote ne dépasse 50 de moyenne : il partage toujours le podium avec son coéquipier.</figcaption>
 </figure>
 
-Les hégémonies de pilotes se calquent sur celles de leur écurie : Schumacher sur Ferrari, Vettel et Verstappen sur Red Bull, Hamilton sur Mercedes. Seul **Fangio**, de 1954 à 1957, atteint l'hégémonie avec trois écuries : Mercedes-Benz, Ferrari et Maserati.
+Les hégémonies de pilotes se calquent sur celles de leur écurie : Schumacher sur Ferrari, Verstappen sur Red Bull, Hamilton sur Mercedes, toutes au niveau 1. Seul **Fangio**, de 1954 à 1957, atteint l'hégémonie avec trois écuries : Mercedes-Benz, Ferrari et Maserati.
 
-Trois dominations longues de pilotes ne sont pas des hégémonies :
+Quatre dominations longues de pilotes ne sont pas des hégémonies :
+
+- **Vettel**, de 2010 à 2013, aligne quatre titres avec Red Bull, mais ne gagne que 44 % des Grands Prix. Son écurie atteint l'hégémonie (53 %) avec les victoires de Webber.
 
 - **Stewart**, de 1969 à 1973, domine avec Matra puis Tyrrell. Sa saison avec March, en 1970, est l'une de ses saisons creuses.
 - **Prost** et **Senna** se partagent la même McLaren : leurs dominations se recouvrent, et aucune ne résiste aux variantes du seuil.
@@ -150,7 +154,7 @@ Un ingénieur ne gagne pas de course, mais on peut mesurer la domination de son 
 <figcaption>Le compteur des douze ingénieurs dont l'écurie a dominé le plus de saisons. Aiguille : l'indice moyen de leurs écuries pendant leur présence. Trait noir : leur meilleure saison.</figcaption>
 </figure>
 
-**Adrian Newey** est en tête : seize saisons dominantes en trente-six saisons datées, chez Williams, McLaren et Red Bull. Sa plus longue suite, de 1991 à 2000, passe de Williams à McLaren. Paddy Lowe et Ross Brawn suivent, avec treize et douze saisons dominantes. Colin Chapman, lui, ne dépasse pas le degré de la domination : comme Lotus de 1968 à 1973, sa suite ne résiste pas à la variante sans saison creuse.
+**Adrian Newey** est en tête : seize saisons dominantes en trente-six saisons datées, chez Williams, McLaren et Red Bull. Sa plus longue suite, de 1991 à 2000, passe de Williams à McLaren, mais ses écuries n'y gagnent que 47 % des Grands Prix : c'est une domination, pas une hégémonie. Paddy Lowe et Ross Brawn suivent, avec treize et douze saisons dominantes. Lowe atteint le niveau le plus haut : de 2014 à 2017, Mercedes gagne près de 80 % des Grands Prix (niveau 3). Colin Chapman, lui, ne dépasse pas le degré de la domination : comme Lotus de 1968 à 1973, sa suite ne résiste pas à la variante sans saison creuse.
 
 {% include domination.html quoi="ingenieurs_dom" %}
 
@@ -189,7 +193,7 @@ Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries,
 {% include domination.html quoi="pneus" %}
 
 - **Dunlop équipe tous les champions de 1958 à 1965**, et accompagne la révolution du moteur arrière, de Cooper à Lotus. Mais il est seul en piste de 1961 à 1963 : ces trois saisons hors concours coupent la série en une hégémonie de 1958 à 1960 (trois titres, 81 % des victoires) et une domination en 1964-1965 (deux titres, 95 %).
-- **Goodyear domine le plus longtemps** : une hégémonie de 1971 à 1974 (trois titres), puis, après deux saisons de monopole de fait (1975-1976), une autre de 1977 à 1986 (sept titres), la plus longue de toutes, avant de rester seul en piste.
+- **Goodyear domine le plus longtemps** : une hégémonie de 1971 à 1974 (trois titres), puis, après deux saisons de monopole de fait (1975-1976), une autre de 1977 à 1986 (sept titres), la plus longue de toutes, avant de rester seul en piste. De 1989 à 1991, face au retour de Pirelli, il gagne 98 % des Grands Prix : c'est la seule hégémonie de niveau 5.
 - **Les guerres de pneus se jouent à deux** : les périodes se chevauchent, car les deux marques dépassent souvent le seuil la même saison. De 1979 à 1984, Michelin (cinq saisons dominantes, trois titres, 59 % des victoires) affronte Goodyear en pleine hégémonie (1977-1986). De 2001 à 2006, Bridgestone (quatre titres, ceux de Ferrari) affronte Michelin, dominant de 2003 à 2006 (deux titres, ceux de Renault). La lutte entre Firestone et Goodyear, de 1966 à 1972, ne donne que des dominations courtes.
 - **Depuis 2007, le pneu ne départage plus personne** : le fournisseur unique est devenu la règle.
 

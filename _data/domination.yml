@@ -11,6 +11,12 @@ parametres:
   seuil: 0.4
   min: 3
   duo: 2
+  niveaux:
+  - 0.5
+  - 0.6
+  - 0.7
+  - 0.8
+  - 0.9
   creux: 1
   avant: 2
   apres: 3
@@ -38,8 +44,8 @@ effectifs:
     longue: 9
   pilote:
     saison: 25
-    domination: 13
-    hegemonie: 5
+    domination: 14
+    hegemonie: 4
     longue: 8
   motoriste:
     saison: 7
@@ -401,6 +407,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.8125
     podiums: 0.411458
     doubles: 0.265625
@@ -438,6 +445,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.675439
     podiums: 0.368421
     doubles: 0.149123
@@ -538,6 +546,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.456647
     podiums: 0.391137
     doubles: 0.208092
@@ -629,6 +638,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.675325
     podiums: 0.367965
     doubles: 0.155844
@@ -665,6 +675,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.7375
     podiums: 0.483333
     doubles: 0.33125
@@ -703,6 +714,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 3
     poles: 0.484848
     podiums: 0.409091
     doubles: 0.166667
@@ -1069,6 +1081,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.8125
     podiums: 0.411458
     doubles: 0.265625
@@ -1094,6 +1107,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.675439
     podiums: 0.368421
     doubles: 0.149123
@@ -1168,6 +1182,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.456647
     podiums: 0.391137
     doubles: 0.208092
@@ -1244,6 +1259,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.675325
     podiums: 0.367965
     doubles: 0.155844
@@ -1272,6 +1288,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.7375
     podiums: 0.483333
     doubles: 0.33125
@@ -1298,6 +1315,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 3
     poles: 0.484848
     podiums: 0.409091
     doubles: 0.166667
@@ -1401,6 +1419,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.5625
     podiums: 0.208333
     ecart: 0.070868
@@ -1698,6 +1717,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.470588
     podiums: 0.258824
     ecart: 0.075486
@@ -1749,7 +1769,7 @@ dominations:
     part_max: 0.684211
     longue: true
     robuste: true
-    degre: hegemonie
+    degre: domination
     poles: 0.519481
     podiums: 0.229437
     ecart: 0.036979
@@ -1779,6 +1799,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.485507
     podiums: 0.268116
     ecart: 0.033998
@@ -1805,6 +1826,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.411111
     podiums: 0.259259
     ecart: 0.051857
@@ -1907,6 +1929,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.636364
     podiums: 0.489899
     doubles: 0.242424
@@ -1960,6 +1983,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.570755
     podiums: 0.685535
     doubles: 0.490566
@@ -2077,6 +2101,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.71875
     podiums: 0.444444
     doubles: 0.291667
@@ -2104,6 +2129,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.72807
     podiums: 0.479532
     doubles: 0.27193
@@ -2153,6 +2179,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.462428
     podiums: 0.39499
     doubles: 0.208092
@@ -2234,6 +2261,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 1
     poles: 0.688312
     podiums: 0.497835
     doubles: 0.220779
@@ -2264,6 +2292,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 2
     poles: 0.693467
     podiums: 0.487437
     doubles: 0.301508
@@ -2294,6 +2323,7 @@ dominations:
     longue: true
     robuste: true
     degre: hegemonie
+    niveau: 3
     poles: 0.484848
     podiums: 0.414141
     doubles: 0.166667
