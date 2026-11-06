@@ -1003,6 +1003,31 @@ sortie_compteur["ingenieurs"] = sortie_ing
 TECH = yaml.safe_load(open("_data/technologies.yml", encoding="utf-8"))["technologies"] \
     if os.path.exists("_data/technologies.yml") else []
 
+def gp_de(cas, roles):
+    """GP de la saison du cas où son écurie (et son équipe, si le cas la précise) a la victoire ou la
+    pole (roles) : une règle qui vise un autre GP est une faute de frappe, sans effet sinon."""
+    saison = next((s for s in R if s["annee"] == cas["annee"]), None)
+    if saison is None:
+        return None, set()
+    tous, vises = [k["gp"] for k in saison["courses"]], set()
+    for k in saison["courses"]:
+        for role, v in (("victoire", k), ("pole", k.get("pole"))):
+            if role in roles and v and v.get("equipe") and cle_ecurie(v).lstrip("~") == cas["ecurie"].lstrip("~") \
+                    and cas.get("equipe", v["equipe"]) == v["equipe"]:
+                vises.add(k["gp"])
+    return tous, vises
+
+for t in TECH:
+    for x in t.get("cas", []):
+        if x.get("valeur") not in ("oui", "non", "incertain"):
+            sys.exit(f"technologies : {t['id']} {x['annee']} {x['ecurie']} : valeur « {x.get('valeur')} » inconnue")
+        if x.get("victoires_sans"):
+            tous, vises = gp_de(x, ("victoire",))
+            for g in x["victoires_sans"]:
+                if g not in vises:
+                    sys.exit(f"technologies : {t['id']} {x['annee']} {x['ecurie']} : victoires_sans « {g} » "
+                             + ("inconnu" if tous is None or g not in tous else "n'est pas une victoire de l'écurie"))
+
 def avec_tech(t, a, c, rang):
     """La voiture gagnante de la course c (rang-ième de la saison a) a-t-elle la technologie t ?"""
     ec = cle_ecurie(c).lstrip("~")
@@ -1115,6 +1140,15 @@ if techno:
 # monopole, le manufacturier de chaque écurie qui a gagné ou signé une pole. Les saisons de monopole
 # sont hors concours : elles ne comptent ni comme dominantes ni comme creuses (elles coupent une suite).
 PN = yaml.safe_load(open("_data/pneus.yml", encoding="utf-8")) if os.path.exists("_data/pneus.yml") else None
+if PN:
+    for x in PN["cas"]:
+        for e in x.get("exceptions") or []:
+            if e.get("pour", "victoire") not in ("victoire", "pole"):
+                sys.exit(f"pneus : {x['annee']} {x['ecurie']} : exception « pour: {e['pour']} » inconnu")
+            tous, vises = gp_de(x, (e["pour"],) if e.get("pour") else ("victoire", "pole"))
+            if e["gp"] not in vises:
+                sys.exit(f"pneus : {x['annee']} {x['ecurie']} : exception « {e['gp']} » "
+                         + ("inconnue" if tous is None or e["gp"] not in tous else "hors des victoires et poles de l'écurie"))
 MARQUES = ["Pirelli", "Firestone", "Dunlop", "Goodyear", "Michelin", "Bridgestone"]   # ordre fixe des couleurs
 
 def pneus_de(a, c, gp, role="victoire"):
