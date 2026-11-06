@@ -37,6 +37,17 @@ HORS_F1 = {"formule-500", "formule-2-1957", "formule-2-1600"}
 # Renault fournit Red Bull de 2016 à 2018 sous le nom TAG Heuer.
 MEME_MOTEUR = {"rbpt": "honda", "honda-rbpt": "honda", "tag-heuer": "renault"}
 
+# Sorties gardées en mémoire jusqu'au bout du script : un arrêt en cours de route (sys.exit d'un contrôle,
+# exception) ne laisse aucun fichier à moitié régénéré. Tout est écrit à la fin, par fichier temporaire
+# puis os.replace, et seulement là les compteurs de lignées disparues sont retirés.
+SORTIES = {}
+def ecrire(chemin, texte):
+    SORTIES[chemin] = texte
+def lire_sortie(chemin):
+    if chemin in SORTIES:
+        return SORTIES[chemin]
+    return open(chemin, encoding="utf-8").read()
+
 R = yaml.safe_load(open("_data/resultats.yml", encoding="utf-8"))["saisons"]
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
 C = yaml.safe_load(open("_data/chronologie.yml", encoding="utf-8"))
@@ -546,7 +557,7 @@ entete = ("# Dominations et confrontations, calculées par outils/domination.py 
           "# publié ; ecart = part des points moins celle du meilleur des autres ; indice = moyenne des parts de\n"
           "# victoires, de poles et de places sur le podium ;\n"
           "# avant / apres = part moyenne des victoires de l'écurie dans les fenêtres de la confrontation.\n")
-open("_data/domination.yml", "w", encoding="utf-8").write(
+ecrire("_data/domination.yml", 
     entete + yaml.safe_dump(sortie, allow_unicode=True, sort_keys=False, width=1000))
 for u, n in effectifs.items():
     print(f"{u} : {n['saison']} saisons isolées, {n['domination']} dominations, {n['hegemonie']} hégémonies "
@@ -646,8 +657,8 @@ def svg_ingenieurs(lang):
 
 os.makedirs("_includes/domination", exist_ok=True)
 for lang in TEXTES:
-    open(f"_includes/domination/etude-jalons-{lang}.svg", "w", encoding="utf-8").write(svg_etude(lang) + "\n")
-    open(f"_includes/domination/ingenieurs-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs(lang) + "\n")
+    ecrire(f"_includes/domination/etude-jalons-{lang}.svg", svg_etude(lang) + "\n")
+    ecrire(f"_includes/domination/ingenieurs-{lang}.svg", svg_ingenieurs(lang) + "\n")
 
 # --- Compteur de domination des écuries (fiches) ----------------------------------------------
 # Indice composite saison par saison, à l'échelle de la lignée (l'usine sous tous ses noms), sur
@@ -977,10 +988,10 @@ def svg_ingenieurs_cp(lang):
     return "".join(o)
 
 for lang in ("fr", "en"):
-    open(f"_includes/domination/compteur-f1-{lang}.svg", "w", encoding="utf-8").write(svg_f1(lang) + "\n")
+    ecrire(f"_includes/domination/compteur-f1-{lang}.svg", svg_f1(lang) + "\n")
     for u in ("ecurie", "pilote", "motoriste"):
-        open(f"_includes/domination/tableau-{u}-{lang}.svg", "w", encoding="utf-8").write(svg_tableau(u, lang) + "\n")
-    open(f"_includes/domination/ingenieurs-compteur-{lang}.svg", "w", encoding="utf-8").write(svg_ingenieurs_cp(lang) + "\n")
+        ecrire(f"_includes/domination/tableau-{u}-{lang}.svg", svg_tableau(u, lang) + "\n")
+    ecrire(f"_includes/domination/ingenieurs-compteur-{lang}.svg", svg_ingenieurs_cp(lang) + "\n")
 sortie_compteur["tete_indice"] = tete_indice
 sortie_compteur["ingenieurs"] = sortie_ing
 
@@ -1097,7 +1108,7 @@ def svg_techno(lang):
 
 if techno:
     for lang in ("fr", "en"):
-        open(f"_includes/domination/technologies-{lang}.svg", "w", encoding="utf-8").write(svg_techno(lang) + "\n")
+        ecrire(f"_includes/domination/technologies-{lang}.svg", svg_techno(lang) + "\n")
 
 # --- Pneumatiques : la domination des manufacturiers ----------------------------------------------
 # _data/pneus.yml (saisi à la main, sourcé) : monopoles (un seul fournisseur imposé) et, hors
@@ -1228,7 +1239,7 @@ def svg_pneus(lang):
 
 if pneus_out:
     for lang in ("fr", "en"):
-        open(f"_includes/domination/pneus-{lang}.svg", "w", encoding="utf-8").write(svg_pneus(lang) + "\n")
+        ecrire(f"_includes/domination/pneus-{lang}.svg", svg_pneus(lang) + "\n")
 
 # --- Châssis : la domination des modèles de voiture ------------------------------------------------
 # _data/chassis.yml (saisi à la main, sourcé) : modèle de la voiture gagnante de chaque Grand Prix,
@@ -1333,7 +1344,7 @@ def svg_chassis(lang):
 
 if chassis_out:
     for lang in ("fr", "en"):
-        open(f"_includes/domination/chassis-{lang}.svg", "w", encoding="utf-8").write(svg_chassis(lang) + "\n")
+        ecrire(f"_includes/domination/chassis-{lang}.svg", svg_chassis(lang) + "\n")
 
 # --- Cycles réglementaires ---------------------------------------------------------------------
 # _data/cycles.yml : grandes remises à zéro du règlement. Pour chaque cycle : qui le domine, à quel
@@ -1443,8 +1454,8 @@ def svg_cycles_cadrans(lang):
 
 if cycles_out:
     for lang in ("fr", "en"):
-        open(f"_includes/domination/cycles-courbe-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_courbe(lang) + "\n")
-        open(f"_includes/domination/cycles-cadrans-{lang}.svg", "w", encoding="utf-8").write(svg_cycles_cadrans(lang) + "\n")
+        ecrire(f"_includes/domination/cycles-courbe-{lang}.svg", svg_cycles_courbe(lang) + "\n")
+        ecrire(f"_includes/domination/cycles-cadrans-{lang}.svg", svg_cycles_cadrans(lang) + "\n")
 
 # --- Indicateurs (dossier /dossiers/indicateurs/) ----------------------------------------------------
 # Quatre lectures des mêmes résultats : ouverture des saisons, moteur maison ou d'un autre,
@@ -1660,26 +1671,23 @@ def nb_i(lang):
 
 for lang in ("fr", "en"):
     L = TXT_I[lang]
-    open(f"_includes/domination/indic-ouverture-{lang}.svg", "w", encoding="utf-8").write(svg_ouverture(lang) + "\n")
-    open(f"_includes/domination/indic-moteur-{lang}.svg", "w", encoding="utf-8").write(
+    ecrire(f"_includes/domination/indic-ouverture-{lang}.svg", svg_ouverture(lang) + "\n")
+    ecrire(f"_includes/domination/indic-moteur-{lang}.svg", 
         svg_barres(lang, "im", L["cli_t"], L["cli_d"], [(x["de"], x["part_maison"]) for x in cli_dec], pc_i(lang), 1, (L["mai"], L["aut"])) + "\n")
-    open(f"_includes/domination/indic-pole-{lang}.svg", "w", encoding="utf-8").write(
+    ecrire(f"_includes/domination/indic-pole-{lang}.svg", 
         svg_barres(lang, "ip", L["pol_t"], L["pol_d"], [(x["de"], x["taux"]) for x in pol_dec], pc_i(lang), 1) + "\n")
     if chassis_out:
         vm = max(x["victoires_par_modele"] for x in voi_dec)
-        open(f"_includes/domination/indic-voitures-{lang}.svg", "w", encoding="utf-8").write(
+        ecrire(f"_includes/domination/indic-voitures-{lang}.svg", 
             svg_barres(lang, "iv", L["voi_t"], L["voi_d"], [(x["de"], x["victoires_par_modele"]) for x in voi_dec], nb_i(lang), (int(vm) // 2 + 1) * 2) + "\n")
 
-os.makedirs("_includes/compteur", exist_ok=True)
-for f in os.listdir("_includes/compteur"):
-    os.remove(os.path.join("_includes/compteur", f))
 for l in E["lignees"]:
     for lang in ("fr", "en"):
         r = svg_compteur(l["id"], lang)
         if r:
-            open(f"_includes/compteur/{l['id']}-{lang}.svg", "w", encoding="utf-8").write(
+            ecrire(f"_includes/compteur/{l['id']}-{lang}.svg", 
                 f'<div class="compteur">{r[0]}{r[1]}</div>\n')
-open("_data/compteur.yml", "w", encoding="utf-8").write(
+ecrire("_data/compteur.yml", 
     "# Compteur de domination des lignées, calculé par outils/domination.py : ne pas modifier à la main.\n"
     "# seuil = valeur d'indice (0-1) qui sépare le mieux les saisons dominantes (titre ou SEUIL des victoires)\n"
     "# des autres, au sens de l'indice de Youden ; lignees = meilleure saison de chaque lignée mesurée.\n"
@@ -1689,11 +1697,15 @@ print(f"compteur : seuil {SEUIL_INDICE} (Youden {sortie_compteur['youden']}), {l
 # Typographie anglaise des graphiques : pas d'espace avant « : » et « ; » (les gabarits ci-dessus sont écrits
 # à la française et partagés entre les langues).
 import glob as _glob
-for _f in _glob.glob("_includes/domination/*-en.svg") + _glob.glob("_includes/compteur/*-en.svg"):
-    _t = open(_f, encoding="utf-8").read()
+# Graphiques de ce passage, et ceux déjà sur disque dans _includes/domination/ (les compteurs, eux, sont
+# tous régénérés : ceux d'une lignée disparue seront retirés).
+_svg = sorted(set(_glob.glob("_includes/domination/*.svg"))
+              | {c for c in SORTIES if c.startswith(("_includes/domination/", "_includes/compteur/"))})
+for _f in [c for c in _svg if c.endswith("-en.svg")]:
+    _t = lire_sortie(_f)
     _n = _t.replace(" : ", ": ").replace(" ; ", "; ")
     if _n != _t:
-        open(_f, "w", encoding="utf-8").write(_n)
+        ecrire(_f, _n)
 
 # Données des graphiques en texte (_data/graphiques.yml) : les valeurs de chaque graphique ne sont sinon
 # lisibles qu'au survol, dans les infobulles <title> des points, que ni le clavier, ni le tactile, ni les
@@ -1705,7 +1717,7 @@ import re as _re, html as _html
 _GROUPES = {"technologies": r'<text class="cp-f"[^>]*>([^<]*)</text>',
             "ingenieurs": r'<text class="dm-t"[^>]*text-anchor="end">([^<]*)</text>'}
 def _donnees(chemin):
-    s = open(chemin, encoding="utf-8").read()
+    s = lire_sortie(chemin)
     base = os.path.basename(chemin).rsplit("-", 1)[0]
     motif = _GROUPES.get(base) if chemin.startswith("_includes/domination/") else None
     jetons = _re.compile((motif + "|" if motif else "") + r'<title( id="[^"]*")?>([^<]*)</title>')
@@ -1722,10 +1734,22 @@ def _donnees(chemin):
             lignes.append(f"{groupe} · {t}" if groupe else t)
     return {"titre": titre or "", "lignes": lignes}
 _graphiques = {}
-for _f in sorted(_glob.glob("_includes/domination/*.svg") + _glob.glob("_includes/compteur/*.svg")):
+for _f in _svg:
     _cle = _f[len("_includes/"):-len(".svg")]
     _graphiques[_cle] = _donnees(_f)
-open("_data/graphiques.yml", "w", encoding="utf-8").write(
+ecrire("_data/graphiques.yml", 
     "# Généré par outils/domination.py : données des graphiques en texte, une ligne par point (ne pas éditer).\n"
     + yaml.safe_dump(_graphiques, allow_unicode=True, sort_keys=True, width=1000))
 print(f"graphiques : {len(_graphiques)} graphiques, {sum(len(g['lignes']) for g in _graphiques.values())} lignes de données")
+
+# Écriture finale : tous les fichiers temporaires d'abord, puis les remplacements.
+for _c, _t in SORTIES.items():
+    os.makedirs(os.path.dirname(_c), exist_ok=True)
+    with open(_c + ".tmp", "w", encoding="utf-8") as _o:
+        _o.write(_t)
+for _c in SORTIES:
+    os.replace(_c + ".tmp", _c)
+for _f in _glob.glob("_includes/compteur/*"):
+    if _f not in SORTIES:
+        os.remove(_f)
+print(f"{len(SORTIES)} fichiers écrits")
