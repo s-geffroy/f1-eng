@@ -1021,6 +1021,7 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .domination-ecurie .domination { background: var(--graphite); }
 .domination-pilote .domination { background: var(--tier-b); }
 .domination-motoriste .domination { background: #6a4a24; }
+.domination-pneus .domination { background: #2c5e4f; }
 /* Domination sans hégémonie : en tirets, comme l'annonce le texte de l'accueil */
 .domination-domination { background: var(--feuille) !important; outline: 2px dashed var(--graphite); outline-offset: -2px; }
 .domination-domination a { color: var(--graphite); }

@@ -4544,6 +4544,7 @@ pneus:
     poles: 0.688095
     degre: hegemonie
     niveau: 2
+    rangee: 0
   - pneus: Continental
     debut: 1954
     fin: 1955
@@ -4552,6 +4553,7 @@ pneus:
     victoires: 0.579365
     poles: 0.507937
     degre: domination
+    rangee: 1
   - pneus: Englebert
     debut: 1956
     fin: 1956
@@ -4577,6 +4579,7 @@ pneus:
     poles: 0.747811
     degre: hegemonie
     niveau: 4
+    rangee: 0
   - pneus: Dunlop
     debut: 1964
     fin: 1965
@@ -4585,6 +4588,7 @@ pneus:
     victoires: 0.95
     poles: 1.0
     degre: domination
+    rangee: 0
   - pneus: Goodyear
     debut: 1966
     fin: 1967
@@ -4593,6 +4597,7 @@ pneus:
     victoires: 0.449495
     poles: 0.257576
     degre: domination
+    rangee: 0
   - pneus: Firestone
     debut: 1967
     fin: 1972
@@ -4601,6 +4606,7 @@ pneus:
     victoires: 0.490579
     poles: 0.611402
     degre: domination
+    rangee: 1
   - pneus: Dunlop
     debut: 1969
     fin: 1969
@@ -4618,6 +4624,7 @@ pneus:
     poles: 0.746591
     degre: hegemonie
     niveau: 3
+    rangee: 0
   - pneus: Goodyear
     debut: 1977
     fin: 1986
@@ -4627,6 +4634,7 @@ pneus:
     poles: 0.596786
     degre: hegemonie
     niveau: 2
+    rangee: 0
   - pneus: Michelin
     debut: 1979
     fin: 1984
@@ -4636,6 +4644,7 @@ pneus:
     poles: 0.598413
     degre: hegemonie
     niveau: 1
+    rangee: 1
   - pneus: Goodyear
     debut: 1989
     fin: 1991
@@ -4645,6 +4654,7 @@ pneus:
     poles: 1.0
     degre: hegemonie
     niveau: 5
+    rangee: 0
   - pneus: Goodyear
     debut: 1997
     fin: 1998
@@ -4653,6 +4663,7 @@ pneus:
     victoires: 0.71875
     poles: 0.59375
     degre: domination
+    rangee: 0
   - pneus: Bridgestone
     debut: 1998
     fin: 1998
@@ -4670,6 +4681,7 @@ pneus:
     poles: 0.493521
     degre: hegemonie
     niveau: 1
+    rangee: 0
   - pneus: Michelin
     debut: 2003
     fin: 2006
@@ -4678,6 +4690,7 @@ pneus:
     victoires: 0.512884
     poles: 0.597953
     degre: domination
+    rangee: 1
   saisons:
   - annee: 1950
     monopole: false

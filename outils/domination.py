@@ -1272,6 +1272,15 @@ if PN:
             if periodes[-1]["degre"] == "hegemonie":
                 periodes[-1]["niveau"] = niveau(periodes[-1]["victoires"])
     periodes.sort(key=lambda x: (x["debut"], x["pneus"]))
+    # Rangée de la frise de l'accueil, comme pour les autres unités : la première dont la dernière période
+    # finit avant le début. Seules les dominations et hégémonies y figurent (pas les saisons isolées).
+    fins = []
+    for x in periodes:
+        if x["degre"] == "saison":
+            continue
+        r = next((i for i, f in enumerate(fins) if f < x["debut"]), len(fins))
+        fins[r:r + 1] = [x["fin"]]
+        x["rangee"] = r
     pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
                  "periodes": periodes, "saisons": pn_saisons}
     sortie_compteur["pneus"] = pneus_out
