@@ -32,7 +32,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preload" href="{{ '/assets/fonts/spectral-400-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/assets/fonts/barlow-condensed-600-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="{{ '/assets/css/encyclopedie.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/encyclopedie.css' | relative_url }}?v={{ site.data.empreintes.css }}">
   {%- if alt_url %}
   <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="{{ T.autre_code }}" href="{{ alt_url | absolute_url }}">

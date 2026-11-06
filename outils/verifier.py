@@ -458,6 +458,12 @@ if os.path.exists("_data/circuits.yml"):
     for dbl in sorted({i for i in ids_c if ids_c.count(i) > 1}):
         err(f"_data/circuits.yml : circuit « {dbl} » déclaré deux fois")
 
+# 4 sexies. empreinte de la CSS (_data/empreintes.yml, outils/empreintes.py) : une CSS modifiée sans
+# nouvelle empreinte garderait son ancienne URL, et les navigateurs serviraient l'ancienne version.
+import empreintes as _emp
+if not os.path.exists(_emp.SORTIE) or open(_emp.SORTIE, encoding="utf-8").read() != _emp.contenu():
+    err(f"{_emp.SORTIE} : empreinte périmée ou absente : lancer python3 -I outils/empreintes.py")
+
 # 4 quinquies. résultats (_data/resultats.yml) : une course par lien, nombre de courses cohérent
 # (une victoire partagée est une seule course, avec covainqueur), total officiel 1950-2025
 res = charger_yaml("_data/resultats.yml") or {}
