@@ -97,6 +97,8 @@ def _hors_citation(t):
 def titre_en(t):
     """Titre anglais d'une source des données sans version anglaise (chassis, pneus, technologies, circuits) :
     guillemets et mentions françaises traduits ; le titre cité, entre guillemets, reste tel quel."""
+    # espaces insécables de la typographie française (U+00A0 avant « : », U+202F ailleurs) : sans objet en anglais
+    t = t.replace("\u00a0", " ").replace("\u202f", " ")
     t = re.sub(r"«\s*(.*?)\s*»", r"“\1”", t)
     morceaux = re.split(r"(“[^”]*”)", t)
     return "".join(m if m.startswith("“") else _hors_citation(m) for m in morceaux)

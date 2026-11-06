@@ -1119,7 +1119,7 @@ dominations:
     rangee: 1
   - unite: lignee
     id: enstone
-    nom: 'Enstone : de Toleman à Alpine'
+    nom: 'Enstone : de Toleman à Alpine'
     debut: 1994
     fin: 1995
     saisons: 2
@@ -1196,7 +1196,7 @@ dominations:
     rangee: 1
   - unite: lignee
     id: enstone
-    nom: 'Enstone : de Toleman à Alpine'
+    nom: 'Enstone : de Toleman à Alpine'
     debut: 2005
     fin: 2006
     saisons: 2
@@ -1246,7 +1246,7 @@ dominations:
     rangee: 2
   - unite: lignee
     id: milton-keynes
-    nom: 'Milton Keynes : de Stewart à Red Bull'
+    nom: 'Milton Keynes : de Stewart à Red Bull'
     debut: 2010
     fin: 2013
     saisons: 4
@@ -1275,7 +1275,7 @@ dominations:
     rangee: 0
   - unite: lignee
     id: brackley
-    nom: 'Brackley : de Tyrrell à Mercedes'
+    nom: 'Brackley : de Tyrrell à Mercedes'
     debut: 2014
     fin: 2021
     saisons: 8
@@ -1302,7 +1302,7 @@ dominations:
     rangee: 0
   - unite: lignee
     id: milton-keynes
-    nom: 'Milton Keynes : de Stewart à Red Bull'
+    nom: 'Milton Keynes : de Stewart à Red Bull'
     debut: 2021
     fin: 2023
     saisons: 3
@@ -2533,7 +2533,7 @@ saisons_dominantes:
     podiums: 0.30303
     doubles: 0.090909
     indice: 0.343434
-  - nom: 'Brackley : de Tyrrell à Mercedes'
+  - nom: 'Brackley : de Tyrrell à Mercedes'
     annee: 1971
     titre: true
     part: 0.636364
@@ -2560,7 +2560,7 @@ saisons_dominantes:
     podiums: 0.291667
     doubles: 0.25
     indice: 0.513889
-  - nom: 'Brackley : de Tyrrell à Mercedes'
+  - nom: 'Brackley : de Tyrrell à Mercedes'
     annee: 2009
     titre: true
     part: 0.470588
