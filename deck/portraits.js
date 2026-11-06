@@ -24,15 +24,8 @@ const VISAGE = {
 function lirePortrait(id, collection = "_ingenieurs") {
   const fichier = path.join(RACINE, collection, id + ".md");
   if (!fs.existsSync(fichier)) return null;
-  const md = fs.readFileSync(fichier, "utf8");
-  const bloc = md.match(/^portrait:\n((?: {2}.+\n)+)/m);
-  if (!bloc) return null;
-  const p = {};
-  for (const l of bloc[1].trim().split("\n")) {
-    const m = l.trim().match(/^(\w+): (.*)$/);
-    if (m) p[m[1]] = JSON.parse(m[2]);
-  }
-  return p;
+  const fm = require("./front-matter")(fichier);
+  return (fm && fm.portrait) || null;
 }
 
 async function main() {

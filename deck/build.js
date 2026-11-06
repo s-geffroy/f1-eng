@@ -147,7 +147,7 @@ const FICHES = (() => {
   const dossier = path.join(__dirname, "..", EN ? "_engineers" : "_ingenieurs");
   const out = {};
   for (const f of fs.readdirSync(dossier).filter(f => f.endsWith(".md"))) {
-    const fm = require("js-yaml").load(fs.readFileSync(path.join(dossier, f), "utf8").split("---\n")[1]);
+    const fm = require("./front-matter")(path.join(dossier, f)) || {};
     if (fm.rang) out[f.slice(0, -3)] = fm;
   }
   const rangs = Object.values(out).map(fm => fm.rang).sort((a, b) => a - b);

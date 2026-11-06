@@ -2,6 +2,9 @@
   "name": "f1-eng-deck",
   "private": true,
   "description": "Presentation du classement (.pptx, PDF) et cartes de partage du site",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "fonts": "sh fonts.sh",
     "portraits": "node portraits.js",

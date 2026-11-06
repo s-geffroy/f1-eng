@@ -32,6 +32,11 @@ Premiere fois :
     npm ci
     npm run fonts
 
+Node 20 ou plus (`engines` de `package.json`). `fonts.sh` telecharge les polices d'un commit fige
+de google/fonts et verifie leur empreinte sha256 : le PDF ne change pas si les polices changent en
+amont. `front-matter.js` lit le front matter des fiches (js-yaml), pour `build.js`, `cartes.js` et
+`portraits.js`.
+
 Le classement (rang, tier, score, confiance, domaine) est lu dans le front matter des
 fiches `../_ingenieurs/` et `../_engineers/` : un changement de classement sur le site passe
 dans le deck en relancant `npm run pdf`, et un classement incomplet (rangs 1 a 20) arrete la

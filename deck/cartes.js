@@ -7,7 +7,7 @@ const path = require("path");
 const PImage = require("pureimage");
 const Jimp = require("jimp");
 const { Readable } = require("stream");
-const yaml = require("js-yaml");
+const frontMatter = require("./front-matter");
 
 const RACINE = path.join(__dirname, "..");
 // Une carte par entrée et par langue : français dans assets/partage/, anglais dans assets/partage/en/.
@@ -36,24 +36,19 @@ police("BarlowCondensed-Regular", "Barlow", 400, "normal");
 police("BarlowCondensed-Bold", "BarlowB", 700, "normal");
 police("Spectral-Italic", "SpectralI", 400, "italic");
 
-// Lit le front matter simple des entrées (clé: valeur sur une ligne, valeurs JSON ou nues).
-function frontMatter(file) {
-  const fm = fs.readFileSync(file, "utf8").split("---\n")[1];
-  const o = {};
-  for (const l of fm.split("\n")) {
-    const m = l.match(/^(\w+): (.*)$/);
-    if (!m) continue;
-    try { o[m[1]] = JSON.parse(m[2]); } catch { o[m[1]] = m[2]; }
-  }
-  return o;
-}
-
 // Crédit de la photo reprise dans la carte : les licences CC BY et CC BY-SA exigent l'auteur, la licence et la
 // mention des modifications (README, Portraits). Lu dans le bloc portrait: ou photo: du front matter.
 function credit(file, cle) {
-  const fm = yaml.load(fs.readFileSync(file, "utf8").split("---\n")[1]);
+  const fm = frontMatter(file);
   const p = fm && fm[cle];
   return p && p.auteur ? `${L.photo}${p.auteur}, ${p.licence}, ${L.modif}` : null;
+}
+
+// Vedette « Nom, Prénom » du titre : [nom, prénom]. Un titre sans virgule (nom d'usage seul) donne un
+// prénom vide au lieu de faire échouer la carte.
+function vedette(e) {
+  const i = e.title.indexOf(", ");
+  return i < 0 ? [e.title, ""] : [e.title.slice(0, i), e.title.slice(i + 2)];
 }
 
 function mentionCredit(ctx, t) {
@@ -114,8 +109,8 @@ async function carteEntree(id, e, file) {
     ctx.drawImage(p, 0, 0, p.width, p.height, px, py, pw, ph);
   } else {
     ctx.fillStyle = C.clair; ctx.fillRect(px, py, pw, ph);
-    const [nom, prenom] = e.title.split(", ");          // vedette « Nom, Prénom »
-    const ini = (prenom[0] + nom[0]).toUpperCase();      // Jean-Claude Migeot -> JM, Ettore Zaccone Mina -> EZ
+    const [nom, prenom] = vedette(e);
+    const ini = ((prenom[0] || "") + nom[0]).toUpperCase();   // Jean-Claude Migeot -> JM, Ettore Zaccone Mina -> EZ
     ctx.font = "96pt BarlowB"; ctx.fillStyle = C.mine;
     ctx.fillText(ini, px + (pw - ctx.measureText(ini).width) / 2, py + ph / 2 + 45);
   }
@@ -123,11 +118,12 @@ async function carteEntree(id, e, file) {
 
   // vedette, accroche, cartouche
   const tx = px + pw + 48, tw = W - M - tx;
-  const [nom, prenom] = e.title.split(", ");
+  const [nom, prenom] = vedette(e);
   let taille = 92;
   ctx.font = `${taille}pt BarlowB`;
-  while (ctx.measureText(nom + ",").width > tw && taille > 54) { taille -= 4; ctx.font = `${taille}pt BarlowB`; }
-  texte(ctx, nom + ",", tx, 205, "BarlowB", taille, C.graphite);
+  const ligne1 = prenom ? nom + "," : nom;
+  while (ctx.measureText(ligne1).width > tw && taille > 54) { taille -= 4; ctx.font = `${taille}pt BarlowB`; }
+  texte(ctx, ligne1, tx, 205, "BarlowB", taille, C.graphite);
   texte(ctx, prenom, tx, 205 + taille * 0.95, "Barlow", Math.round(taille * 0.7), C.graphite);
   ctx.font = "30pt SpectralI";
   lignes(ctx, e.accroche, tw).slice(0, 2).forEach((l, i) => texte(ctx, l, tx, 345 + i * 40, "SpectralI", 30, C.mine));
