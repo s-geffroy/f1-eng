@@ -55,6 +55,10 @@ git commit -m "..."
 git push
 ```
 
+Une fois par clone, `sh outils/installer-crochet.sh` active le crochet `pre-push` versionne
+(`outils/crochets/pre-push`, via `core.hooksPath`) : il lance `python3 -I outils/verifier.py`
+et refuse le push si le controle echoue. `git push --no-verify` le contourne : a eviter.
+
 C'est tout. La construction prend une a deux minutes ; son deroulement et ses
 echecs sont visibles dans l'onglet **Actions** du depot, meme sans workflow --
 le constructeur natif s'y affiche.
@@ -93,6 +97,7 @@ assets/partage/      cartes de partage 1200x630 (generees par deck/cartes.js)
 assets/docs/         presentation PDF telechargeable, fr et en (generee par deck/)
 outils/              scripts Python : verifier.py (avant chaque push), releve-resultats.py,
                      domination.py, fiches-ecuries.py, carte-usines.py, dimensions-images.py
+outils/crochets/     crochet Git pre-push versionne (active par outils/installer-crochet.sh)
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```
