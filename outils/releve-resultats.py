@@ -151,13 +151,13 @@ def classe(cache, url, page, annee):
     out = {}
     for l in lignes(t):
         if len(l) >= 4 and l[0].isdigit() and int(l[0]) not in out:
-            out[int(l[0])] = (pilote(l[2]), equipe(l[3], annee, strict=False))
+            out[int(l[0])] = (pilote(l[2], annee), equipe(l[3], annee, strict=False))
     return out
 
 def equipes_course(cache, url, annee):
     """Équipe de chaque pilote sur la page de résultats de la course, abandons compris."""
     t = telecharger_course(cache, url, "race-result")
-    return {pilote(l[2]): equipe(l[3], annee, strict=False) for l in lignes(t or "") if len(l) >= 4}
+    return {pilote(l[2], annee): equipe(l[3], annee, strict=False) for l in lignes(t or "") if len(l) >= 4}
 
 def place(p, rang=None):
     """Entrée « place, pilote, équipe, écurie, motoriste » d'une position, sans champ vide."""
@@ -193,10 +193,17 @@ ACCENTS = {
     "Sebastien Bourdais": "Sébastien Bourdais", "Sebastien Buemi": "Sébastien Buemi", "Sergio Perez": "Sergio Pérez",
 }
 
-def pilote(nom):
+# Homonymes que formula1.com écrit sous le même nom : (nom, première saison, dernière) -> nom distinct.
+# Le site compte les pilotes par leur nom (outils/domination.py) ; Nelson Piquet fils (2008-2009, driverId
+# Jolpica piquet_jr) serait sinon confondu avec son père (1978-1991). outils/releve-jolpica.py vérifie
+# que chaque nom répond à un seul pilote.
+HOMONYMES = {("Nelson Piquet", 2008, 2009): "Nelson Piquet Jr."}
+
+def pilote(nom, annee):
     # Code à trois lettres accolé au nom, apostrophe comprise (« Pat O'Connor O'C »).
     nom = re.sub(r"\s+[A-Z][A-Z']{2}$", "", nom)
-    return ACCENTS.get(nom, nom)
+    nom = ACCENTS.get(nom, nom)
+    return next((v for (n, de, a), v in HOMONYMES.items() if n == nom and de <= annee <= a), nom)
 
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
 MOT = {m["id"] for m in E["motoristes"]}
@@ -254,9 +261,9 @@ def main():
         gp = []
         for i, l in enumerate(lignes(t)):
             if gp and BASE + liens[i] == gp[-1]["url"]:
-                if pilote(l[2]) == gp[-1]["vainqueur"] or equipe(l[3], annee)[2] != gp[-1]["equipe"]:
+                if pilote(l[2], annee) == gp[-1]["vainqueur"] or equipe(l[3], annee)[2] != gp[-1]["equipe"]:
                     sys.exit(f"{annee} : victoire partagée incohérente (même pilote, ou autre équipe) : {l}")
-                gp[-1]["covainqueur"] = pilote(l[2])
+                gp[-1]["covainqueur"] = pilote(l[2], annee)
                 continue
             ec, mot, nom = equipe(l[3], annee)
             if mot is not None and mot not in MOT:
@@ -265,7 +272,7 @@ def main():
             pays = l[0][len("Flag of "):] if l[0].startswith("Flag of ") else l[0]
             moitie = pays[: len(pays) // 2].strip()
             course = {"gp": moitie if moitie == pays[len(pays) // 2:].strip() else pays,
-                      "vainqueur": pilote(l[2]), "equipe": nom}
+                      "vainqueur": pilote(l[2], annee), "equipe": nom}
             if ec: course["ecurie"] = ec
             if mot: course["motoriste"] = mot
             course["url"] = BASE + liens[i]
@@ -306,7 +313,7 @@ def main():
         for l in lignes(telecharger(cache, annee, "drivers")):
             # Pilote exclu du championnat (Schumacher 1997 : « DSQ ») : hors classement.
             if l[0].isdigit() and float(l[4]) > 0:
-                p = {"pilote": pilote(l[1]), "points": float(l[4])}
+                p = {"pilote": pilote(l[1], annee), "points": float(l[4])}
                 ec = equipe(l[3], annee, strict=False)[0] if l[3] else None
                 if ec: p["ecurie"] = ec
                 pil.append(p)

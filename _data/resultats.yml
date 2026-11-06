@@ -23553,7 +23553,7 @@ saisons:
     url: https://www.formula1.com/en/results/2008/races/834/germany/race-result
     podium:
     - place: 2
-      pilote: Nelson Piquet
+      pilote: Nelson Piquet Jr.
       equipe: Renault
       ecurie: renault
       motoriste: renault
@@ -23822,7 +23822,7 @@ saisons:
   - pilote: Mark Webber
     points: 21.0
     ecurie: red-bull
-  - pilote: Nelson Piquet
+  - pilote: Nelson Piquet Jr.
     points: 19.0
     ecurie: renault
   - pilote: Nico Rosberg

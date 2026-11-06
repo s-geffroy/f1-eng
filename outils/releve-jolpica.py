@@ -99,6 +99,10 @@ def main():
     bilan["ecurie"] = {"concordants": 0, "desaccords": 0}
     bilan["motoriste"] = {"concordants": 0, "desaccords": 0, "non_renseignes": 0}
     desaccords, saisons_ecartees = [], []
+    # Identité : outils/domination.py compte les pilotes par leur nom formula1.com. Un même pilote écrit de
+    # deux façons serait coupé en deux, deux homonymes fusionnés : chaque nom doit répondre à un seul
+    # driverId Jolpica, et chaque driverId à un seul nom.
+    ids_du_nom, noms_de_id = {}, {}
     for s in R:
         a = s["annee"]
         j = {c: {int(x["round"]): x for x in telecharger(cache, a, req)} for req, c in REQUETES.items()}
@@ -126,6 +130,11 @@ def main():
                     communs = {cle(n, h) for n in f1[c]}
                     cids = sorted({x["Constructor"]["constructorId"] for x in jo["Results"]
                                    if cle(f'{x["Driver"]["givenName"]} {x["Driver"]["familyName"]}', h) in communs})
+                    for n in f1[c]:
+                        for x in jo["Results"]:
+                            if cle(f'{x["Driver"]["givenName"]} {x["Driver"]["familyName"]}', h) == cle(n, h):
+                                ids_du_nom.setdefault(n, set()).add(x["Driver"]["driverId"])
+                                noms_de_id.setdefault(x["Driver"]["driverId"], set()).add(n)
                     v = voiture[c]
                     if any(ecurie_concorde(v, cid, a) for cid in cids):
                         bilan["ecurie"]["concordants"] += 1
@@ -148,6 +157,13 @@ def main():
                     bilan[c]["desaccords"] += 1
                     desaccords.append({"annee": a, "gp": course["gp"], "champ": c, "formula1": " / ".join(f1[c]),
                                        "jolpica": " / ".join(noms_j), "url": course["url"]})
+    bilan["identite"] = {"noms": len(ids_du_nom), "identifiants": len(noms_de_id)}
+    for n, ids in sorted(ids_du_nom.items()):
+        if len(ids) > 1:
+            desaccords.append({"champ": "identite", "formula1": n, "jolpica": " / ".join(sorted(ids))})
+    for i, noms in sorted(noms_de_id.items()):
+        if len(noms) > 1:
+            desaccords.append({"champ": "identite", "formula1": " / ".join(sorted(noms)), "jolpica": i})
     entete = ("# Croisement formula1.com / Jolpica (successeur d'Ergast), calculé par outils/releve-jolpica.py :\n"
               "# ne pas modifier à la main. Comparaison par nom de famille, sans accents (avec l'initiale du prénom\n"
               "# quand deux pilotes de la saison portent le même nom) ; une course comptée\n"
@@ -155,10 +171,11 @@ def main():
               "# dans l'une des sources. ecurie et motoriste : comparés là où le pilote concorde ; motoriste\n"
               "# non_renseignes = Jolpica ne le donne pas (hors suffixes « -climax », « -repco »... des années\n"
               "# 1950-1970). Un désaccord est signalé, jamais corrigé ici ; examine = constat après lecture des\n"
-              "# deux sources (table EXAMINES du script).\n")
+              "# deux sources (table EXAMINES du script). identite : noms formula1.com et driverId Jolpica des\n"
+              "# pilotes comparés, qui doivent se répondre un à un (domination.py compte les pilotes par leur nom).\n")
     for d in desaccords:
-        if (d["annee"], d["gp"], d["champ"]) in EXAMINES:
-            d["examine"] = EXAMINES[(d["annee"], d["gp"], d["champ"])]
+        if (d.get("annee"), d.get("gp"), d["champ"]) in EXAMINES:
+            d["examine"] = EXAMINES[(d.get("annee"), d.get("gp"), d["champ"])]
     sortie = {"source": API, "bilan": bilan, "saisons_ecartees": saisons_ecartees, "desaccords": desaccords}
     with open("_data/croisement.yml.tmp", "w", encoding="utf-8") as f:
         f.write(entete + yaml.safe_dump(sortie, allow_unicode=True, sort_keys=False, width=1000))
@@ -167,7 +184,7 @@ def main():
         print(f"{c} : " + ", ".join(f"{n} {k.replace('_', ' ')}" for k, n in b.items()))
     for d in desaccords:
         if "examine" not in d:
-            print(f"à examiner : {d['annee']} {d['gp']}, {d['champ']} : formula1.com {d['formula1']}, "
+            print(f"à examiner : {d.get('annee', '')} {d.get('gp', '')}, {d['champ']} : formula1.com {d['formula1']}, "
                   f"Jolpica {d['jolpica']}")
     if saisons_ecartees:
         print(f"saisons écartées (calendriers différents) : {saisons_ecartees}")

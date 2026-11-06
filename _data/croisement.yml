@@ -5,7 +5,8 @@
 # dans l'une des sources. ecurie et motoriste : comparés là où le pilote concorde ; motoriste
 # non_renseignes = Jolpica ne le donne pas (hors suffixes « -climax », « -repco »... des années
 # 1950-1970). Un désaccord est signalé, jamais corrigé ici ; examine = constat après lecture des
-# deux sources (table EXAMINES du script).
+# deux sources (table EXAMINES du script). identite : noms formula1.com et driverId Jolpica des
+# pilotes comparés, qui doivent se répondre un à un (domination.py compte les pilotes par leur nom).
 source: https://api.jolpi.ca/ergast/f1
 bilan:
   vainqueur:
@@ -31,6 +32,9 @@ bilan:
     concordants: 270
     desaccords: 0
     non_renseignes: 4324
+  identite:
+    noms: 224
+    identifiants: 224
 saisons_ecartees: []
 desaccords:
 - annee: 1983
