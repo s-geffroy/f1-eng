@@ -970,7 +970,7 @@ compteur/ferguson-fr:
 compteur/ferrari-en:
   lignes:
   - dominance, 1952–1953
-  - hegemony, 1975–1979
+  - dominance, 1975–1979
   - dominance, 1982–1983
   - hegemony, 1999–2008
   - '1950, Ferrari: 5'
@@ -1057,7 +1057,7 @@ compteur/ferrari-en:
 compteur/ferrari-fr:
   lignes:
   - domination, 1952–1953
-  - hégémonie, 1975–1979
+  - domination, 1975–1979
   - domination, 1982–1983
   - hégémonie, 1999–2008
   - '1950, Ferrari : 5'
@@ -2841,7 +2841,6 @@ domination/chassis-fr:
   titre: Les voitures les plus écrasantes, sur une saison
 domination/compteur-f1-en:
   lignes:
-  - Ferrari, 1975–1979
   - McLaren, 1988–1991
   - Williams, 1991–1997
   - Ferrari, 1999–2008
@@ -2927,7 +2926,6 @@ domination/compteur-f1-en:
   titre: The F1 gauge, 1950–2025
 domination/compteur-f1-fr:
   lignes:
-  - Ferrari, 1975–1979
   - McLaren, 1988–1991
   - Williams, 1991–1997
   - Ferrari, 1999–2008
@@ -3792,7 +3790,7 @@ domination/pneus-fr:
 domination/tableau-ecurie-en:
   lignes:
   - Team Lotus, 1968–1973 · dominance · 30 / 100
-  - Ferrari, 1975–1979 · hegemony · 28 / 100
+  - Ferrari, 1975–1979 · dominance · 28 / 100
   - McLaren, 1988–1991 · hegemony · 61 / 100
   - Williams, 1991–1997 · hegemony · 52 / 100
   - McLaren, 1998–2000 · dominance · 49 / 100
@@ -3804,7 +3802,7 @@ domination/tableau-ecurie-en:
 domination/tableau-ecurie-fr:
   lignes:
   - Team Lotus, 1968–1973 · domination · 30 / 100
-  - Ferrari, 1975–1979 · hégémonie · 28 / 100
+  - Ferrari, 1975–1979 · domination · 28 / 100
   - McLaren, 1988–1991 · hégémonie · 61 / 100
   - Williams, 1991–1997 · hégémonie · 52 / 100
   - McLaren, 1998–2000 · domination · 49 / 100
@@ -3817,7 +3815,7 @@ domination/tableau-motoriste-en:
   lignes:
   - Climax, 1959–1965 · hegemony · 57 / 100
   - Ford, 1968–1982 · hegemony · 65 / 100
-  - Ferrari, 1975–1979 · hegemony · 28 / 100
+  - Ferrari, 1975–1979 · dominance · 28 / 100
   - Honda, 1986–1991 · hegemony · 59 / 100
   - Renault, 1991–1997 · hegemony · 61 / 100
   - Mercedes, 1998–2000 · dominance · 49 / 100
@@ -3831,7 +3829,7 @@ domination/tableau-motoriste-fr:
   lignes:
   - Climax, 1959–1965 · hégémonie · 57 / 100
   - Ford, 1968–1982 · hégémonie · 65 / 100
-  - Ferrari, 1975–1979 · hégémonie · 28 / 100
+  - Ferrari, 1975–1979 · domination · 28 / 100
   - Honda, 1986–1991 · hégémonie · 59 / 100
   - Renault, 1991–1997 · hégémonie · 61 / 100
   - Mercedes, 1998–2000 · domination · 49 / 100

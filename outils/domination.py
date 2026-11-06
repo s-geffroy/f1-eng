@@ -10,7 +10,8 @@ Grands Prix. Les saisons dominantes d'une entité, séparées au plus par CREUX 
 forment une période, classée en trois degrés :
   - saison : une seule saison dominante ;
   - domination : au moins DUO saisons dominantes ;
-  - hegemonie : au moins MIN saisons dominantes, et robuste.
+  - hegemonie : au moins MIN saisons dominantes, robuste, et au moins SEUIL des Grands Prix gagnés sur
+    l'ensemble de la période (une suite de titres à faible part de victoires reste une domination).
 Les mêmes calculs sont refaits avec des seuils plus stricts (VARIANTES) : une période d'au moins MIN
 saisons retrouvée dans toutes les variantes est dite robuste. Seules des variantes plus strictes
 peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
@@ -225,8 +226,9 @@ def actives(ec):
     return sorted({y for l in E["lignees"] for s in l["segments"] if s["ecurie"] == ec
                    for y in range(s["de"], s["a"] + 1) if y in part["ecurie"]})
 
-def degre(g, robuste):
-    return "hegemonie" if len(g) >= MIN and robuste else "domination" if len(g) >= DUO else "saison"
+def degre(g, robuste, part_periode):
+    return ("hegemonie" if len(g) >= MIN and robuste and part_periode >= SEUIL
+            else "domination" if len(g) >= DUO else "saison")
 
 dominations, saisons_dom, effectifs, liste_ecurie = {}, {}, {}, []
 for u in part:
@@ -252,7 +254,7 @@ for u in part:
              "part_max": round(max(part[u][a].get(k, 0) for a in span), PREC),
              "longue": len(g) >= MIN,
              "robuste": len(g) >= MIN and all(recouvre(k, g, v) for v in variantes)}
-        h["degre"] = degre(g, h["robuste"])
+        h["degre"] = degre(g, h["robuste"], vic / gp)
         if h["id"] is None: del h["id"]
         h.update(mesures(u, k, list(span)))
         if u in points and points[u]:
@@ -870,6 +872,11 @@ for ing, ss in sejours.items():
     robuste = len(plus) >= MIN and all(
         any(len(v) >= m and v[0] <= plus[-1] and plus[0] <= v[-1] for v in suites_ing(ss, sv, cv)[0])
         for sv, m, cv in VARIANTES)
+    # Part des victoires de ses écuries sur la suite, pour la condition de part de l'hégémonie.
+    if plus:
+        ans = range(plus[0], plus[-1] + 1)
+        v_suite = sum(victoires["ecurie"][y].get(ec, 0) for y in ans for ec in {e for yy, e in ss if yy == y})
+        robuste = robuste and v_suite / sum(next(s["gp"] for s in R if s["annee"] == y) for y in ans) >= SEUIL
     best = max(ss, key=lambda x: mesures("ecurie", x[1], [x[0]]).get("indice") or 0)
     ing_dom.append({"id": ing, "nom": ING_NOMS.get(ing, ing), "saisons": len({y for y, _ in ss}),
                     "dominantes": len(dom), "titres": sum(1 for y, ec in ss if champion["ecurie"].get(y) == ec),
@@ -1227,7 +1234,8 @@ if PN:
                              "titres": sum(1 for a in span if pch[a] == m),
                              "victoires": round(sum(pv[a].get(m, 0) for a in span) / len(span), PREC),
                              "poles": round(sum(pp[a].get(m, 0) for a in span) / len(span), PREC),
-                             "degre": "hegemonie" if rob else "domination" if len(g) >= DUO else "saison"})
+                             "degre": "hegemonie" if rob and sum(pv[a].get(m, 0) for a in span) / len(span) >= SEUIL
+                                      else "domination" if len(g) >= DUO else "saison"})
     periodes.sort(key=lambda x: (x["debut"], x["pneus"]))
     pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
                  "periodes": periodes, "saisons": pn_saisons}

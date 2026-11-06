@@ -51,7 +51,7 @@ Dominance is then measured by how long it lasts. The dominant seasons of the sam
 
 1. **The dominant season**: a single season, with no follow-up. [Tyrrell]({{ site.baseurl }}/en/teams/tyrrell/) in 1971, [Brawn]({{ site.baseurl }}/en/teams/brawn/) in 2009.
 2. **Dominance**: at least {{ P.duo }} dominant seasons. [McLaren]({{ site.baseurl }}/en/teams/mclaren/) in 1984 and 1985, for example.
-3. **Hegemony**: at least {{ P.min }} dominant seasons, and a result that survives every variant of the threshold (see below). The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season.
+3. **Hegemony**: at least {{ P.min }} dominant seasons, a result that survives every variant of the threshold (see below), and at least {{ P.seuil | times: 100 | round }}% of the Grands Prix won over the whole period. A run of titles is not enough: the wins must follow. The Williams of the 1990s is an example: beaten in 1995, it remains dominant before and after that season.
 
 Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting.
 
@@ -68,7 +68,7 @@ By construction, the gauge never falls below the threshold: it was chosen so tha
 Three points to note:
 
 - **Before 1958 there is no constructors' title.** The world champion's team stands in for it.
-- **The thresholds are arbitrary**, as all thresholds are. The calculation is therefore repeated with two stricter variants: at least 50% of wins, then no lean season allowed. A period of at least {{ P.min }} dominant seasons found in both variants is called **robust**, even if its boundaries shift a little: this is what separates hegemony from other dominance. (A looser variant, such as "two seasons are enough", would always find everything again: it would put nothing to the test.)
+- **The thresholds are arbitrary**, as all thresholds are. The calculation is therefore repeated with two stricter variants: at least 50% of wins, then no lean season allowed. A period of at least {{ P.min }} dominant seasons found in both variants is called **robust**, even if its boundaries shift a little: this is the first condition for hegemony, the second being the share of wins over the period. (A looser variant, such as "two seasons are enough", would always find everything again: it would put nothing to the test.)
 - **The comparisons in the second part concern long dominance**: at least {{ P.min }} dominant seasons, robust or not. These are the hegemonies, plus a few fragile periods, such as Lotus's from 1968 to 1973.
 
 Dominance is counted at four levels:
@@ -90,10 +90,10 @@ Dominance is counted at four levels:
 
 In seventy-six seasons there are {{ EF.ecurie.hegemonie }} hegemonies and {{ EF.ecurie.domination }} other periods of dominance. Four features stand out.
 
-- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021. [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them. The first hegemony, [Ferrari]({{ site.baseurl }}/en/teams/ferrari/)'s from 1975 to 1979, wins only about a third of them.
+- **The most crushing are the most recent.** [Mercedes]({{ site.baseurl }}/en/teams/mercedes/) wins 69% of the Grands Prix over eight seasons, from 2014 to 2021. [Red Bull]({{ site.baseurl }}/en/teams/red-bull/), from 2021 to 2023, wins 74% of them. The first hegemony, [McLaren]({{ site.baseurl }}/en/teams/mclaren/)'s from 1988 to 1991, wins 61% of them.
 - **The longest is Ferrari's, from 1999 to 2008**: eight titles in ten seasons, with a single lean season, 2005.
-- **Before 1975, no team reaches hegemony.** The 1950s and 1960s are played out in two-season dominance: Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. The title changes hands too often for a team to settle in.
-- **Two long periods of dominance are not hegemonies.** [Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, alternates titles and lean seasons, and never exceeds 47% of wins: it does not survive the variant with no lean season. McLaren, from 1998 to 2000, does not survive the 50% threshold: it wins only 44% of the Grands Prix in 1999 and 41% in 2000.
+- **Before 1988, no team reaches hegemony.** The 1950s and 1960s are played out in two-season dominance: Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. The title changes hands too often for a team to settle in.
+- **Three long periods of dominance are not hegemonies.** [Ferrari]({{ site.baseurl }}/en/teams/ferrari/), from 1975 to 1979, strings together four titles but wins only 35% of the period's Grands Prix, less than the required {{ P.seuil | times: 100 | round }}%. [Lotus]({{ site.baseurl }}/en/teams/team-lotus/), from 1968 to 1973, alternates titles and lean seasons, and never exceeds 47% of wins: it does not survive the variant with no lean season. McLaren, from 1998 to 2000, does not survive the 50% threshold: it wins only 44% of the Grands Prix in 1999 and 41% in 2000.
 
 There are {{ EF.ecurie.saison }} dominant seasons with no follow-up: {% include domination.html quoi="saisons" unite="ecurie" %}. All are titles, sometimes won with few victories: McLaren in 1974 with 27% of the Grands Prix, Ferrari in 1964 with 30%.
 
@@ -210,7 +210,7 @@ They add nuance to the record:
 - **Mercedes, from 2014 to 2021, has it all**: 69% of wins, 74% of poles and a one-two in one race in three.
 - **Red Bull, from 2021 to 2023, wins more (74%), but starts from pole less than half the time, and scores a one-two in only one race in six.** Its dominance rests mostly on one driver and on race pace.
 - **McLaren, from 1988 to 1991, starts from pole 81% of the time**: the highest proportion among the hegemonies.
-- **Ferrari, from 1975 to 1979, dominates with little**: 35% of wins, 24% of poles, 6% one-twos. It owes its hegemony to a run of titles more than to crushing the field.
+- **Ferrari, from 1975 to 1979, dominates with little**: 35% of wins, 24% of poles, 6% one-twos. It owes its titles to consistency more than to crushing the field: this is dominance, not hegemony.
 
 ### The most crushing seasons
 

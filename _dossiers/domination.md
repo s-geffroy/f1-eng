@@ -51,7 +51,7 @@ La domination se mesure ensuite à sa durée. Les saisons dominantes d'un même 
 
 1. **La saison dominante** : une seule saison, sans suite. [Tyrrell]({{ site.baseurl }}/ecuries/tyrrell/) en 1971, [Brawn]({{ site.baseurl }}/ecuries/brawn/) en 2009.
 2. **La domination** : au moins {{ P.duo }} saisons dominantes. [McLaren]({{ site.baseurl }}/ecuries/mclaren/) en 1984 et 1985, par exemple.
-3. **L'hégémonie** : au moins {{ P.min }} saisons dominantes, et un résultat qui résiste à toutes les variantes du seuil (voir plus bas). La Williams des années 1990 en est un exemple : battue en 1995, elle reste dominante avant et après cette saison.
+3. **L'hégémonie** : au moins {{ P.min }} saisons dominantes, un résultat qui résiste à toutes les variantes du seuil (voir plus bas), et au moins {{ P.seuil | times: 100 | round }} % des Grands Prix gagnés sur l'ensemble de la période. Une suite de titres ne suffit pas : il faut aussi gagner. La Williams des années 1990 en est un exemple : battue en 1995, elle reste dominante avant et après cette saison.
 
 Chaque saison a un champion du monde : chaque saison est donc dominante pour au moins un pilote, une écurie et un motoriste. Le premier degré est le plus courant. Ce qui est rare, c'est de durer.
 
@@ -68,7 +68,7 @@ Par construction, le compteur ne descend jamais sous le seuil : celui-ci a été
 Trois précisions :
 
 - **Avant 1958, il n'y a pas de titre des constructeurs.** L'écurie du champion du monde en tient lieu.
-- **Les seuils sont arbitraires**, comme tout seuil. Le calcul est donc refait avec deux variantes plus exigeantes : au moins 50 % des victoires, puis aucune saison creuse admise. Une période d'au moins {{ P.min }} saisons dominantes retrouvée dans les deux variantes est dite **robuste**, même si ses bornes bougent un peu : c'est ce qui sépare l'hégémonie des autres dominations. (Une variante plus lâche, comme « deux saisons suffisent », retrouverait toujours tout : elle ne mettrait rien à l'épreuve.)
+- **Les seuils sont arbitraires**, comme tout seuil. Le calcul est donc refait avec deux variantes plus exigeantes : au moins 50 % des victoires, puis aucune saison creuse admise. Une période d'au moins {{ P.min }} saisons dominantes retrouvée dans les deux variantes est dite **robuste**, même si ses bornes bougent un peu : c'est la première condition de l'hégémonie, la seconde étant la part des victoires sur la période. (Une variante plus lâche, comme « deux saisons suffisent », retrouverait toujours tout : elle ne mettrait rien à l'épreuve.)
 - **Les confrontations de la seconde partie portent sur les dominations longues** : au moins {{ P.min }} saisons dominantes, robustes ou non. Ce sont les hégémonies, plus quelques périodes fragiles, comme celle de Lotus de 1968 à 1973.
 
 On compte à quatre niveaux :
@@ -90,10 +90,10 @@ On compte à quatre niveaux :
 
 En soixante-seize saisons, on compte {{ EF.ecurie.hegemonie }} hégémonies et {{ EF.ecurie.domination }} autres dominations. Quatre traits ressortent.
 
-- **Les plus écrasantes sont les plus récentes.** [Mercedes]({{ site.baseurl }}/ecuries/mercedes/) gagne 69 % des Grands Prix pendant huit saisons, de 2014 à 2021. [Red Bull]({{ site.baseurl }}/ecuries/red-bull/), de 2021 à 2023, en gagne 74 %. La première hégémonie, celle de [Ferrari]({{ site.baseurl }}/ecuries/ferrari/) de 1975 à 1979, n'en gagne qu'environ un tiers.
+- **Les plus écrasantes sont les plus récentes.** [Mercedes]({{ site.baseurl }}/ecuries/mercedes/) gagne 69 % des Grands Prix pendant huit saisons, de 2014 à 2021. [Red Bull]({{ site.baseurl }}/ecuries/red-bull/), de 2021 à 2023, en gagne 74 %. La première hégémonie, celle de [McLaren]({{ site.baseurl }}/ecuries/mclaren/) de 1988 à 1991, en gagne 61 %.
 - **La plus longue est celle de Ferrari, de 1999 à 2008** : huit titres en dix saisons, et une seule saison creuse, 2005.
-- **Avant 1975, aucune écurie n'atteint l'hégémonie.** Les années 1950 et 1960 se jouent en dominations de deux saisons : Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. Le titre change de mains trop souvent pour qu'une écurie s'installe.
-- **Deux dominations longues ne sont pas des hégémonies.** [Lotus]({{ site.baseurl }}/ecuries/team-lotus/), de 1968 à 1973, alterne titres et saisons creuses, et ne dépasse jamais 47 % des victoires : elle ne survit pas à la variante sans saison creuse. McLaren, de 1998 à 2000, ne survit pas au seuil de 50 % : elle ne gagne que 44 % des Grands Prix en 1999 et 41 % en 2000.
+- **Avant 1988, aucune écurie n'atteint l'hégémonie.** Les années 1950 et 1960 se jouent en dominations de deux saisons : Alfa Romeo, Ferrari, Mercedes-Benz, Cooper, Lotus, Brabham. Le titre change de mains trop souvent pour qu'une écurie s'installe.
+- **Trois dominations longues ne sont pas des hégémonies.** [Ferrari]({{ site.baseurl }}/ecuries/ferrari/), de 1975 à 1979, aligne quatre titres mais ne gagne que 35 % des Grands Prix de la période, moins que les {{ P.seuil | times: 100 | round }} % requis. [Lotus]({{ site.baseurl }}/ecuries/team-lotus/), de 1968 à 1973, alterne titres et saisons creuses, et ne dépasse jamais 47 % des victoires : elle ne survit pas à la variante sans saison creuse. McLaren, de 1998 à 2000, ne survit pas au seuil de 50 % : elle ne gagne que 44 % des Grands Prix en 1999 et 41 % en 2000.
 
 On compte {{ EF.ecurie.saison }} saisons dominantes restées sans suite : {% include domination.html quoi="saisons" unite="ecurie" %}. Ce sont toutes des titres, parfois gagnés avec peu de victoires : McLaren en 1974 avec 27 % des Grands Prix, Ferrari en 1964 avec 30 %.
 
@@ -210,7 +210,7 @@ Elles nuancent le palmarès :
 - **Mercedes, de 2014 à 2021, réunit tout** : 69 % des victoires, 74 % des poles et un doublé une course sur trois.
 - **Red Bull, de 2021 à 2023, gagne plus (74 %), mais part en pole moins d'une fois sur deux, et ne signe un doublé qu'une course sur six.** Sa domination repose surtout sur un pilote et sur le rythme de course.
 - **McLaren, de 1988 à 1991, part en pole 81 % du temps** : c'est la plus forte proportion parmi les hégémonies.
-- **Ferrari, de 1975 à 1979, domine avec peu** : 35 % des victoires, 24 % des poles, 6 % de doublés. Elle doit son hégémonie à la régularité des titres plus qu'à l'écrasement.
+- **Ferrari, de 1975 à 1979, domine avec peu** : 35 % des victoires, 24 % des poles, 6 % de doublés. Elle doit ses titres à la régularité plus qu'à l'écrasement : c'est une domination, pas une hégémonie.
 
 ### Les saisons les plus écrasantes
 

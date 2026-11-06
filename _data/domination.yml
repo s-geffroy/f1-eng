@@ -28,13 +28,13 @@ parametres:
 effectifs:
   ecurie:
     saison: 11
-    domination: 16
-    hegemonie: 7
+    domination: 17
+    hegemonie: 6
     longue: 9
   lignee:
     saison: 11
-    domination: 16
-    hegemonie: 7
+    domination: 17
+    hegemonie: 6
     longue: 9
   pilote:
     saison: 25
@@ -43,8 +43,8 @@ effectifs:
     longue: 8
   motoriste:
     saison: 7
-    domination: 10
-    hegemonie: 9
+    domination: 11
+    hegemonie: 8
     longue: 11
 dominations:
   ecurie:
@@ -253,7 +253,7 @@ dominations:
     part_max: 0.428571
     longue: true
     robuste: true
-    degre: hegemonie
+    degre: domination
     poles: 0.24359
     podiums: 0.264957
     doubles: 0.064103
@@ -937,7 +937,7 @@ dominations:
     part_max: 0.428571
     longue: true
     robuste: true
-    degre: hegemonie
+    degre: domination
     poles: 0.24359
     podiums: 0.264957
     doubles: 0.064103
@@ -1996,7 +1996,7 @@ dominations:
     part_max: 0.428571
     longue: true
     robuste: true
-    degre: hegemonie
+    degre: domination
     poles: 0.24359
     podiums: 0.264957
     doubles: 0.064103

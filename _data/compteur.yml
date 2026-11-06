@@ -621,7 +621,7 @@ ingenieurs:
     plus_longue:
     - 1975
     - 1979
-    degre: hegemonie
+    degre: domination
     sejours_non_dates: 0
   - id: rory-byrne
     nom: Rory Byrne
@@ -651,7 +651,7 @@ ingenieurs:
     plus_longue:
     - 1975
     - 1979
-    degre: hegemonie
+    degre: domination
     sejours_non_dates: 0
   - id: david-north
     nom: David North
