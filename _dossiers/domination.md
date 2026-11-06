@@ -437,9 +437,9 @@ Mercedes en 2014 et Red Bull en 2010 suivent ce schéma presque pas à pas. Ferr
 
 Résultats consultés le 29 octobre 2026 sur formula1.com, pour chaque saison de 1950 à 2025 :
 
-- les vainqueurs des Grands Prix : `https://www.formula1.com/en/results/<année>/races` ;
-- le classement des constructeurs, depuis 1958 : `…/<année>/team` ;
-- le classement des pilotes : `…/<année>/drivers` ;
+- les vainqueurs des Grands Prix : `https://www.formula1.com/en/results/<année>/races` ;
+- le classement des constructeurs, depuis 1958 : `…/<année>/team` ;
+- le classement des pilotes : `…/<année>/drivers` ;
 - pour chaque course, le podium et la grille de départ : `…/<année>/races/<course>/race-result` et `…/starting-grid`.
 
 Le lien de chaque course est conservé dans les données du site.
