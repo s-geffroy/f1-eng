@@ -32,6 +32,12 @@ Premiere fois :
     npm ci
     npm run fonts
 
+Le classement (rang, tier, score, confiance, domaine) est lu dans le front matter des
+fiches `../_ingenieurs/` et `../_engineers/` : un changement de classement sur le site passe
+dans le deck en relancant `npm run pdf`, et un classement incomplet (rangs 1 a 20) arrete la
+construction. Le reste du texte des diapositives (theses, raisons et limites de la
+diapositive 17, notes) est ecrit dans `build.js` : a relire a la main apres un tel changement.
+
 Apres une modification : `npm run pdf`, verifier le PDF, puis commit + push --
 c'est le push qui publie le nouveau PDF.
 

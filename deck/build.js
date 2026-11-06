@@ -73,7 +73,8 @@ function title(s, text, kicker) {
   s.addShape(pres.shapes.LINE, { x: M, y: 1.55, w: W - 2 * M, h: 0, line: { color: C.ink, width: 2 } });
 }
 // Cartouche (bloc-titre de plan) : trait fort autour, traits fins dedans, nom du champ en petit.
-function cartouche(s, rang, tier, score, conf) {
+function cartouche(s, id) {
+  const { rang, tier, score, confiance: conf } = fiche(id);
   const cells = [[t("Rang", "Rank"), String(rang), 0.65], ["Tier", tier, 0.65], ["Score", score, 0.95], [t("Confiance", "Confidence"), conf, 1.25]];
   const total = cells.reduce((a, c) => a + c[2], 0), y = 6.05, h = 0.8;
   let x = W - M - total;
@@ -139,12 +140,28 @@ function arrow(s, x1, y1, x2, y2, color) {
 }
 
 // ---------- Données ----------
-const RANK = [
-  ["Colin Chapman", "A", 96.0], ["John Barnard", "A", 95.0], ["John Cooper", "A", 93.5], ["Keith Duckworth", "A", 92.5], ["Adrian Newey", "A", 91.5],
-  ["Bernard Dudot", "B", 90.0], ["Gordon Murray", "B", 88.5], ["Mauro Forghieri", "B", 87.5], ["Peter Wright", "B", 86.5], ["Frank Dernie", "B", 85.0],
-  ["Patrick Head", "C", 83.5], ["Ross Brawn", "C", 82.0], ["Andy Cowell", "C", 81.0], ["Jean-Claude Migeot", "C", 80.0], ["Tony Rudd", "C", 79.0],
-  ["Mike Costin", "D", 77.5], ["Vittorio Jano", "D", 76.5], ["Owen Maddock", "D", 75.5], ["Paddy Lowe", "D", 74.5], ["Rory Byrne", "D", 73.5],
-];
+// Classement lu dans le front matter des fiches du site (../_ingenieurs/, ../_engineers/ pour le deck
+// anglais) : rang, tier, score, confiance, domaine. Rien n'est recopié ici ; un classement incomplet
+// (rangs 1 à 20 attendus, chacun une fois) arrête la construction.
+const FICHES = (() => {
+  const dossier = path.join(__dirname, "..", EN ? "_engineers" : "_ingenieurs");
+  const out = {};
+  for (const f of fs.readdirSync(dossier).filter(f => f.endsWith(".md"))) {
+    const fm = require("js-yaml").load(fs.readFileSync(path.join(dossier, f), "utf8").split("---\n")[1]);
+    if (fm.rang) out[f.slice(0, -3)] = fm;
+  }
+  const rangs = Object.values(out).map(fm => fm.rang).sort((a, b) => a - b);
+  if (rangs.length !== 20 || rangs.some((r, i) => r !== i + 1))
+    throw new Error(`${dossier} : rangs ${rangs.join(", ")} ; 1 à 20 attendus, chacun une fois`);
+  return out;
+})();
+// [nom, tier, score] par rang ; le score du front matter est écrit à la française (« 96,0 ») ou à l'anglaise.
+const RANK = Object.values(FICHES).sort((a, b) => a.rang - b.rang)
+  .map(fm => [fm.nom_complet, fm.tier, Number(String(fm.score).replace(",", "."))]);
+const fiche = id => {
+  if (!FICHES[id]) throw new Error(`fiche classée « ${id} » introuvable`);
+  return FICHES[id];
+};
 // 96,0 en français, 96.0 en anglais
 const num = v => (EN ? v.toFixed(1) : v.toFixed(1).replace(".", ","));
 const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
@@ -336,7 +353,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(7);
   title(s, t("Trois ruptures, une philosophie : architecture + légèreté + aéro", "Three breakthroughs, one philosophy: architecture + lightness + aero"), "Colin Chapman");
-  cartouche(s, 1, "A", num(96), t("Élevée", "High"));
+  cartouche(s, "colin-chapman");
   portrait(s, "colin-chapman", 10.93, 1.95, 1.8, 2.45);
   const cols = EN
     ? [["Lotus 25", "Aluminium monocoque"], ["Lotus 49", "Engine as a stressed member"], ["Lotus 78 / 79", "Ground effect programme"]]
@@ -368,7 +385,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(8);
   title(s, t("Deux innovations indépendantes devenues universelles", "Two independent innovations that became universal"), "John Barnard");
-  cartouche(s, 2, "A", num(95), t("Très élevée", "Very high"));
+  cartouche(s, "john-barnard");
   portrait(s, "john-barnard", 10.93, 1.95, 1.8, 2.45);
   (EN
     ? [["1981", "McLaren MP4/1", "Full carbon-fibre monocoque"], ["1989", "Ferrari 640", "Semi-automatic gearbox, paddles on the wheel"]]
@@ -399,7 +416,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(9);
   title(s, t("Une révolution topologique de la monoplace", "A topological revolution of the single-seater"), "John Cooper");
-  cartouche(s, 3, "A", num(93.5), t("Élevée", "High"));
+  cartouche(s, "john-cooper");
   // Schémas vue de dessus : avant / après
   function car(x, engineFront, label) {
     const y = 2.6, w = 4.6, h = 1.3;
@@ -434,7 +451,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(10);
   title(s, t("Une révolution technique et économique simultanée", "A technical and economic revolution at once"), "Keith Duckworth");
-  cartouche(s, 4, "A", num(92.5), t("Élevée", "High"));
+  cartouche(s, "keith-duckworth");
   const steps = EN
     ? ["DFV", "High-performance engine", "Stressed engine", "Available to all teams", "A new economy for the grid"]
     : ["DFV", "Moteur performant", "Moteur structurel", "Accessible aux équipes", "Nouvelle économie du plateau"];
@@ -463,7 +480,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(11);
   title(s, t("Le génie de Newey est la répétition, pas le coup unique", "Newey's genius is repetition, not a single stroke"), "Adrian Newey");
-  cartouche(s, 5, "A", num(91.5), t("Très élevée", "Very high"));
+  cartouche(s, "adrian-newey");
   portrait(s, "adrian-newey", 10.93, 1.95, 1.8, 2.45);
   const teams = ["March / Leyton House", "Williams", "McLaren", "Red Bull", "Aston Martin"];
   const y = 3.0, x0 = M + 1.0, x1 = 9.5;
@@ -556,7 +573,7 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(14);
   title(s, t("La révolution moteur : turbo, rappel pneumatique, V10", "The engine revolution: turbo, pneumatic valves, V10"), "Bernard Dudot");
-  cartouche(s, 6, "B", num(90), t("Élevée", "High"));
+  cartouche(s, "bernard-dudot");
   const st = EN
     ? [["Turbo", "Adopted by the whole grid"], ["Pneumatic valve return", "The general solution in the 1990s"], ["V10", "67° V10 under Dudot's direction"]]
     : [["Turbo", "Adopté par tout le plateau"], ["Rappel pneumatique des soupapes", "Solution générale dans les années 1990"], ["V10", "V10 67° sous la direction de Dudot"]];
@@ -644,37 +661,39 @@ const MARQUE = t("Ingénieurs de la F1", "F1 Engineers");
 {
   const s = newSlide(17);
   title(s, t("Tiers C et D : dix contributions majeures", "Tiers C and D: ten major contributions"), t("Rangs 11 à 20", "Ranks 11 to 20"));
-  const data = EN ? [
-    [11, "Patrick Head", "Systems engineering", "Williams technical organisation", "Organisation rather than a single breakthrough"],
-    [12, "Ross Brawn", "Method", "Early development, integration", "A revolution in process"],
-    [13, "Andy Cowell", "Power unit", "Mercedes 2014 hybrid", "Hybridisation imposed by the regulations"],
-    [14, "Jean-Claude Migeot", "Aerodynamics", "Raised nose, Tyrrell 019", "Quickly absorbed by general evolution"],
-    [15, "Tony Rudd", "Aerodynamics", "Origins of ground effect", "Contribution hard to isolate"],
-    [16, "Mike Costin", "Engine", "Co-founder of Cosworth", "DFV authorship less individual"],
-    [17, "Vittorio Jano", "Architecture", "Lancia D50", "Work mostly before F1"],
-    [18, "Owen Maddock", "Chassis", "Chief designer, 1959-1960 titles", "Credit shared with John Cooper"],
-    [19, "Paddy Lowe", "Electronics", "Active suspension software", "A role in a collective chain"],
-    [20, "Rory Byrne", "Integration", "Benetton, Ferrari", "No single paradigmatic breakthrough"],
-  ] : [
-    [11, "Patrick Head", "Ingénierie système", "Organisation technique Williams", "Organisation plus que rupture unique"],
-    [12, "Ross Brawn", "Méthode", "Développement anticipé, intégration", "Révolution de processus"],
-    [13, "Andy Cowell", "Power unit", "Hybride Mercedes 2014", "Hybridation imposée par le règlement"],
-    [14, "Jean-Claude Migeot", "Aérodynamique", "Nez relevé, Tyrrell 019", "Vite absorbé par l'évolution générale"],
-    [15, "Tony Rudd", "Aérodynamique", "Genèse de l'effet de sol", "Contribution difficile à isoler"],
-    [16, "Mike Costin", "Moteur", "Cofondateur de Cosworth", "Paternité du DFV moins individualisable"],
-    [17, "Vittorio Jano", "Architecture", "Lancia D50", "Œuvre surtout antérieure à la F1"],
-    [18, "Owen Maddock", "Châssis", "Chef designer, titres 1959-1960", "Crédit partagé avec John Cooper"],
-    [19, "Paddy Lowe", "Électronique", "Logiciel suspension active", "Rôle dans une chaîne collective"],
-    [20, "Rory Byrne", "Intégration", "Benetton, Ferrari", "Pas de rupture unique paradigmatique"],
-  ];
+  // Rang, nom et domaine : front matter des fiches ; raison et limite : texte propre au deck.
+  const data = Object.entries(EN ? {
+    "patrick-head": ["Williams technical organisation", "Organisation rather than a single breakthrough"],
+    "ross-brawn": ["Early development, integration", "A revolution in process"],
+    "andy-cowell": ["Mercedes 2014 hybrid", "Hybridisation imposed by the regulations"],
+    "jean-claude-migeot": ["Raised nose, Tyrrell 019", "Quickly absorbed by general evolution"],
+    "tony-rudd": ["Origins of ground effect", "Contribution hard to isolate"],
+    "mike-costin": ["Co-founder of Cosworth", "DFV authorship less individual"],
+    "vittorio-jano": ["Lancia D50", "Work mostly before F1"],
+    "owen-maddock": ["Chief designer, 1959-1960 titles", "Credit shared with John Cooper"],
+    "paddy-lowe": ["Active suspension software", "A role in a collective chain"],
+    "rory-byrne": ["Benetton, Ferrari", "No single paradigmatic breakthrough"],
+  } : {
+    "patrick-head": ["Organisation technique Williams", "Organisation plus que rupture unique"],
+    "ross-brawn": ["Développement anticipé, intégration", "Révolution de processus"],
+    "andy-cowell": ["Hybride Mercedes 2014", "Hybridation imposée par le règlement"],
+    "jean-claude-migeot": ["Nez relevé, Tyrrell 019", "Vite absorbé par l'évolution générale"],
+    "tony-rudd": ["Genèse de l'effet de sol", "Contribution difficile à isoler"],
+    "mike-costin": ["Cofondateur de Cosworth", "Paternité du DFV moins individualisable"],
+    "vittorio-jano": ["Lancia D50", "Œuvre surtout antérieure à la F1"],
+    "owen-maddock": ["Chef designer, titres 1959-1960", "Crédit partagé avec John Cooper"],
+    "paddy-lowe": ["Logiciel suspension active", "Rôle dans une chaîne collective"],
+    "rory-byrne": ["Benetton, Ferrari", "Pas de rupture unique paradigmatique"],
+  }).map(([id, [raison, limite]]) => { const f = fiche(id); return [f.rang, f.nom_complet, f.domaine, raison, limite, f.tier]; })
+    .sort((x, y) => x[0] - y[0]);
   const hdr = { bold: true, color: C.white, fill: { color: C.ink } };
   const heads = EN ? ["Rank", "", "Engineer", "Field", "Reason for the ranking", "Limit"] : ["Rang", "", "Ingénieur", "Domaine", "Raison du classement", "Limite"];
   const rows = [heads.map(h => ({ text: h, options: hdr }))];
   data.forEach(r => {
-    const col = r[0] <= 15 ? C.Cc : C.D;
+    const col = r[5] === "C" ? C.Cc : C.D;
     rows.push([{ text: String(r[0]), options: { bold: true, color: C.white, fill: { color: col }, align: "center" } }, { text: "" }, { text: r[1], options: { bold: true } }, { text: r[2] }, { text: r[3] }, { text: r[4] }]);
   });
-  const rowH = 0.43, colW = [0.7, 0.42, 2.3, 1.9, 3.4, 3.413];
+  const rowH = 0.43, colW = [0.7, 0.42, 2.3, 2.6, 2.7, 3.413];
   s.addTable(rows, { x: M, y: 1.8, w: W - 2 * M, colW, fontFace: F, fontSize: 12, color: C.ink, fill: { color: C.white }, border: { type: "solid", color: C.rule, pt: 0.75 }, rowH });
   data.forEach((r, i) => vignette(s, idOf(r[1]), M + colW[0] + 0.05, 1.8 + rowH * (i + 1) + 0.04, 0.32, rowH - 0.08));
   footer(s, ["fw15c", "brawn", "f1990", "d50", "msT51"]);
