@@ -3,7 +3,7 @@ title: "Jano, Vittorio"
 nom_complet: "Vittorio Jano"
 nom_tri: "jano vittorio"
 accroche: "La Lancia D50"
-description: "Vittorio Jano : la Lancia D50."
+description: "Vittorio Jano : la Lancia D50."
 rang: 17
 tier: D
 score: "76,5"
@@ -19,19 +19,19 @@ portrait:
   licence_url: "https://commons.wikimedia.org/wiki/Template:PD-Italy"
   source: "https://commons.wikimedia.org/wiki/File:1924-10-19_Monza_Alfa_P2_Jano.jpg"
 sources:
-  - titre: "Motor Sport Magazine, « Lancia D50: The grand prix great that doomed a team » (juillet 2020)"
+  - titre: "Motor Sport Magazine, « Lancia D50: The grand prix great that doomed a team » (juillet 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2020/105/the-grand-prix-great-that-doomed-a-team/"
-  - titre: "Motor Sport Magazine, « Too good for their own good? » (avril 2002)"
+  - titre: "Motor Sport Magazine, « Too good for their own good? » (avril 2002)"
     url: "https://www.motorsportmagazine.com/archive/article/april-2002/87/too-good-for-their-own-good/"
-  - titre: "Goodwood, « The Tipo B: Alfa Romeo's pre-war F1 influencer » (17 février 2025)"
+  - titre: "Goodwood, « The Tipo B: Alfa Romeo's pre-war F1 influencer » (17 février 2025)"
     url: "https://www.goodwood.com/grr/race/historic/the-tipo-b-alfa-romeos-pre-war-f1-influencer/"
-  - titre: "Goodwood, « The best Lancia racing and rally cars » (18 janvier 2022)"
+  - titre: "Goodwood, « The best Lancia racing and rally cars » (18 janvier 2022)"
     url: "https://www.goodwood.com/grr/race/historic/2022/1/the-best-lancia-racing-and-rally-cars/"
-  - titre: "Motor Sport Magazine, « Front to back » (novembre 2007)"
+  - titre: "Motor Sport Magazine, « Front to back » (novembre 2007)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2007/64/front-to-back/"
-  - titre: "Stellantis Heritage, « Lancia D50 » (2024)"
+  - titre: "Stellantis Heritage, « Lancia D50 » (2024)"
     url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
-  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
+  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/vittorio-jano.jpg"
@@ -39,7 +39,7 @@ redirect_from: "/ingenieurs/2026/10/25/vittorio-jano.html"
 ---
 ## Un cas particulier
 
-Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% include src.html n="3" %}. En 1923, il quitte Fiat pour devenir concepteur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix{% include src.html n="3" %}. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932{% include src.html n="3" %}. Goodwood le qualifie de « colosse » de la conception automobile{% include src.html n="3" %}.
+Le travail de Vittorio Jano commence bien avant le championnat du monde de F1{% include src.html n="3" %}. En 1923, il quitte Fiat pour devenir concepteur en chef d'Alfa Romeo, où il conçoit aussitôt la P2, victorieuse du premier championnat du monde des Grands Prix{% include src.html n="3" %}. Suivent la 8C 2300 de 1931 et la Tipo B « Monoposto », apparue en 1932{% include src.html n="3" %}. Goodwood le qualifie de « colosse » de la conception automobile{% include src.html n="3" %}.
 
 ## La Lancia D50
 
@@ -54,7 +54,7 @@ Plus tard, comme consultant chez Ferrari, Jano dessine encore un V6 de 1,5 litre
 
 ## Attribution
 
-La paternité de la D50 est discutée{% include src.html n="2" %}. L'ingénieur moteur [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}) affirme que personne n'est seul responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur{% include src.html n="2" %}. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**{% include src.html n="1,2" %}
+La paternité de la D50 est discutée{% include src.html n="2" %}. L'ingénieur moteur [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}) affirme que personne n'est seul responsable du dessin de la voiture, et que Jano en était le chef d'équipe plutôt que le dessinateur{% include src.html n="2" %}. La formulation juste : **la D50 est conçue par une équipe Lancia dirigée par Jano, à qui l'on attribue ses grands principes.**{% include src.html n="1,2" %}
 
 ## Pourquoi le Tier D
 

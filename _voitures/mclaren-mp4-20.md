@@ -1,27 +1,27 @@
 ---
 title: "McLaren MP4-20"
 nom_tri: "mclaren mp4-20"
-accroche: "Dix victoires, et un secret caché sous le nom de « J-damper »."
-description: "McLaren MP4-20 (2005) : selon l'université de Cambridge et l'inventeur du dispositif, la première voiture à courir avec un inerter, venu de Cambridge sous le nom de code « J-damper » ; dix victoires, mais une fiabilité qui coûte les deux titres."
+accroche: "Dix victoires, et un secret caché sous le nom de « J-damper »."
+description: "McLaren MP4-20 (2005) : selon l'université de Cambridge et l'inventeur du dispositif, la première voiture à courir avec un inerter, venu de Cambridge sous le nom de code « J-damper » ; dix victoires, mais une fiabilité qui coûte les deux titres."
 annee: 2005
 equipe: "McLaren"
 moteur: "Mercedes-Benz FO 110R, V10"
-statut: "A couru en 2005 ; deuxième des deux championnats"
+statut: "A couru en 2005 ; deuxième des deux championnats"
 concepteurs: ["adrian-newey"]
 termes: ["inerter", "appui", "diffuseur", "aileron"]
 jalons: ["inerter"]
 sources:
-  - titre: "Université de Cambridge, « Secrets of the inerter revealed » (août 2008)"
+  - titre: "Université de Cambridge, « Secrets of the inerter revealed » (août 2008)"
     url: "https://www.cam.ac.uk/research/news/secrets-of-the-inerter-revealed"
-  - titre: "Malcolm Smith, « Control for Formula One! », dans T. Samad et A.M. Annaswamy (dir.), The Impact of Control Technology, IEEE Control Systems Society (2011)"
+  - titre: "Malcolm Smith, « Control for Formula One! », dans T. Samad et A.M. Annaswamy (dir.), The Impact of Control Technology, IEEE Control Systems Society (2011)"
     url: "https://IEEECSS.org/sites/ieeecss/files/2019-07/IoCT-Part2-14FormulaOne-LR.pdf"
-  - titre: "Université de Cambridge, « Impact Studies: A suspension revolution in Formula I Motorsport », repris par Cambridge Network (août 2015)"
+  - titre: "Université de Cambridge, « Impact Studies: A suspension revolution in Formula I Motorsport », repris par Cambridge Network (août 2015)"
     url: "https://www.cambridgenetwork.co.uk/news/impact-studies-suspension-revolution-formula-i-motorsport"
-  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: How 2022's suspension overhaul could shuffle the competitive order » (février 2022)"
+  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: How 2022's suspension overhaul could shuffle the competitive order » (février 2022)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-how-2022s-suspension-overhaul-could-shuffle-the-competitive.4PoTMQ9jbaWotbTdd4bp8j"
-  - titre: "McLaren, « 2005 Formula 1 McLaren MP4-20 » (patrimoine de l'équipe)"
+  - titre: "McLaren, « 2005 Formula 1 McLaren MP4-20 » (patrimoine de l'équipe)"
     url: "https://www.mclaren.com/racing/heritage/formula-1/cars/2005-formula-1-mclaren-mp4-20/"
-  - titre: "Crash.net, « EXCLUSIVE PICS: New McLaren turns first wheel » (2005)"
+  - titre: "Crash.net, « EXCLUSIVE PICS: New McLaren turns first wheel » (2005)"
     url: "https://www.crash.net/f1/news/51029/1/exclusive-pics-new-mclaren-turns-first-wheel"
 photo:
   fichier: "/assets/voitures/mclaren-mp4-20.jpg"
@@ -35,28 +35,28 @@ image: "/assets/partage/voitures/mclaren-mp4-20.jpg"
 ---
 ## Ce qu'elle change
 
-Le règlement de 2005 réduit l'[appui]({{ site.baseurl }}/glossaire/#appui) : l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant est relevé de 50 mm, la hauteur du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) limitée, l'aileron arrière nettement avancé{% include src.html n="5,6" %}. Selon McLaren, les mesures en soufflerie annoncent jusqu'à 28 % d'appui en moins{% include src.html n="5" %}. La MP4-20 reprend les leçons de la MP4-18 et des deux versions de la MP4-19, avec des déflecteurs et une géométrie de suspension revus{% include src.html n="5" %}. Son [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) Mercedes doit désormais tenir deux Grands Prix{% include src.html n="5,6" %}.
+Le règlement de 2005 réduit l'[appui]({{ site.baseurl }}/glossaire/#appui) : l'[aileron]({{ site.baseurl }}/glossaire/#aileron) avant est relevé de 50 mm, la hauteur du [diffuseur]({{ site.baseurl }}/glossaire/#diffuseur) limitée, l'aileron arrière nettement avancé{% include src.html n="5,6" %}. Selon McLaren, les mesures en soufflerie annoncent jusqu'à 28 % d'appui en moins{% include src.html n="5" %}. La MP4-20 reprend les leçons de la MP4-18 et des deux versions de la MP4-19, avec des déflecteurs et une géométrie de suspension revus{% include src.html n="5" %}. Son [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) Mercedes doit désormais tenir deux Grands Prix{% include src.html n="5,6" %}.
 
-Sa nouveauté la plus durable reste longtemps invisible. Le 8 mai 2005, au Grand Prix d'Espagne, Kimi Räikkönen gagne sur la première voiture à courir avec un [inerter]({{ site.baseurl }}/glossaire/#inerter), selon l'université de Cambridge et son inventeur, Malcolm Smith{% include src.html n="1,2" %}. Le dispositif, imaginé par Smith à Cambridge en 1997, relie deux points de la suspension : un piston y entraîne un volant d'inertie, et la force transmise est proportionnelle à l'accélération relative de ses deux extrémités{% include src.html n="1,2" %}. Associé aux ressorts et aux amortisseurs, il réduit les oscillations{% include src.html n="1,3" %}. formula1.com en résume l'effet : il absorbe une partie de l'énergie, soulage le pneu et permet des ressorts plus souples, donc plus d'adhérence mécanique à basse vitesse{% include src.html n="4" %}.
+Sa nouveauté la plus durable reste longtemps invisible. Le 8 mai 2005, au Grand Prix d'Espagne, Kimi Räikkönen gagne sur la première voiture à courir avec un [inerter]({{ site.baseurl }}/glossaire/#inerter), selon l'université de Cambridge et son inventeur, Malcolm Smith{% include src.html n="1,2" %}. Le dispositif, imaginé par Smith à Cambridge en 1997, relie deux points de la suspension : un piston y entraîne un volant d'inertie, et la force transmise est proportionnelle à l'accélération relative de ses deux extrémités{% include src.html n="1,2" %}. Associé aux ressorts et aux amortisseurs, il réduit les oscillations{% include src.html n="1,3" %}. formula1.com en résume l'effet : il absorbe une partie de l'énergie, soulage le pneu et permet des ressorts plus souples, donc plus d'adhérence mécanique à basse vitesse{% include src.html n="4" %}.
 
-L'université dépose le brevet, puis approche McLaren en toute confidentialité{% include src.html n="2" %} ; l'équipe obtient l'exclusivité en F1 pour une durée limitée{% include src.html n="2,3" %}. Pour garder le secret, elle l'appelle « J-damper » : le « J » ne veut rien dire et l'objet n'est pas un amortisseur{% include src.html n="1,2,3" %}. Selon Smith, le leurre devait aussi compliquer la tâche d'un ingénieur qui quitterait McLaren pour une autre équipe et voudrait relier l'objet aux publications de Cambridge{% include src.html n="2" %}.
+L'université dépose le brevet, puis approche McLaren en toute confidentialité{% include src.html n="2" %} ; l'équipe obtient l'exclusivité en F1 pour une durée limitée{% include src.html n="2,3" %}. Pour garder le secret, elle l'appelle « J-damper » : le « J » ne veut rien dire et l'objet n'est pas un amortisseur{% include src.html n="1,2,3" %}. Selon Smith, le leurre devait aussi compliquer la tâche d'un ingénieur qui quitterait McLaren pour une autre équipe et voudrait relier l'objet aux publications de Cambridge{% include src.html n="2" %}.
 
 ## Qui l'a conçue
 
-La page de McLaren ne nomme qu'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), directeur technique{% include src.html n="5" %}. Au lancement, cité par Crash.net, Martin Whitmarsh, directeur général de l'équipe, parle d'une équipe de conception « dirigée par Adrian Newey, Mike Coughlan et Neil Oatley »{% include src.html n="6" %}. Aucune source consultée ne précise le rôle de chacun.
+La page de McLaren ne nomme qu'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), directeur technique{% include src.html n="5" %}. Au lancement, cité par Crash.net, Martin Whitmarsh, directeur général de l'équipe, parle d'une équipe de conception « dirigée par Adrian Newey, Mike Coughlan et Neil Oatley »{% include src.html n="6" %}. Aucune source consultée ne précise le rôle de chacun.
 
-L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge{% include src.html n="2" %} ; aucune source consultée ne dit qui, chez McLaren, l'a intégré à la voiture. [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), cité en 2015 par l'université comme ancien directeur technique de McLaren, juge que l'inerter est désormais « au même rang que le ressort et l'amortisseur » dans la recherche d'adhérence et de stabilité{% include src.html n="3" %}.
+L'inerter, lui, vient de Malcolm Smith et de son groupe de Cambridge{% include src.html n="2" %} ; aucune source consultée ne dit qui, chez McLaren, l'a intégré à la voiture. [Paddy Lowe]({{ site.baseurl }}{% link _ingenieurs/paddy-lowe.md %}), cité en 2015 par l'université comme ancien directeur technique de McLaren, juge que l'inerter est désormais « au même rang que le ressort et l'amortisseur » dans la recherche d'adhérence et de stabilité{% include src.html n="3" %}.
 
 ## Limites
 
-- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille{% include src.html n="5" %}. Juan Pablo Montoya, blessé, manque deux courses, à Bahreïn et à Saint-Marin{% include src.html n="5" %}.
+- **La fiabilité.** McLaren énumère les pertes : valve de pneu en Malaisie alors que Räikkönen mène, transmission à Saint-Marin, suspension cassée dans le dernier tour au Nürburgring après un méplat sur un pneu, fuite hydraulique en Allemagne alors qu'il mène depuis la pole, moteur cassé aux essais à Monza, qui le renvoie onzième sur la grille{% include src.html n="5" %}. Juan Pablo Montoya, blessé, manque deux courses, à Bahreïn et à Saint-Marin{% include src.html n="5" %}.
 
 ## Ce qu'elle laisse
 
-- **2005** : dix victoires, toutes à partir de l'Espagne{% include src.html n="5" %}. Räikkönen en gagne sept (Espagne, Monaco, Canada, Hongrie, Turquie, Belgique, Japon), Montoya trois (Grande-Bretagne, Italie, Brésil){% include src.html n="5" %}. Räikkönen est deuxième du championnat avec 112 points contre 133 à Fernando Alonso ; McLaren deuxième des constructeurs avec 182 points contre 191 à Renault{% include src.html n="5" %}.
-- **Le secret, puis la diffusion.** En 2007, pendant l'affaire d'espionnage, un dessin du « J-damper » parvient chez Renault ; le Conseil mondial du sport automobile estime, en décembre 2007, que Renault s'en est servi pour tenter de faire interdire le dispositif, sans y parvenir faute d'en avoir compris le fonctionnement{% include src.html n="2" %} ; aucune sanction n'est prononcée{% include src.html n="3" %}. Le 29 mai 2008, Autosport révèle le lien avec Cambridge{% include src.html n="2" %}. L'exclusivité expirée, une licence accordée à Penske Racing Shocks permet de fournir des inerters à toutes les équipes{% include src.html n="1,2" %}.
+- **2005** : dix victoires, toutes à partir de l'Espagne{% include src.html n="5" %}. Räikkönen en gagne sept (Espagne, Monaco, Canada, Hongrie, Turquie, Belgique, Japon), Montoya trois (Grande-Bretagne, Italie, Brésil){% include src.html n="5" %}. Räikkönen est deuxième du championnat avec 112 points contre 133 à Fernando Alonso ; McLaren deuxième des constructeurs avec 182 points contre 191 à Renault{% include src.html n="5" %}.
+- **Le secret, puis la diffusion.** En 2007, pendant l'affaire d'espionnage, un dessin du « J-damper » parvient chez Renault ; le Conseil mondial du sport automobile estime, en décembre 2007, que Renault s'en est servi pour tenter de faire interdire le dispositif, sans y parvenir faute d'en avoir compris le fonctionnement{% include src.html n="2" %} ; aucune sanction n'est prononcée{% include src.html n="3" %}. Le 29 mai 2008, Autosport révèle le lien avec Cambridge{% include src.html n="2" %}. L'exclusivité expirée, une licence accordée à Penske Racing Shocks permet de fournir des inerters à toutes les équipes{% include src.html n="1,2" %}.
 - Ils restent un équipement standard jusqu'au règlement de 2022, qui les interdit{% include src.html n="4" %}.
 
 ## Divergences entre sources
 
-- **La première course de l'inerter** : formula1.com, en 2022, écrit que les inerters ont été « utilisés pour la première fois sur la McLaren de 1997 »{% include src.html n="4" %}. L'université de Cambridge et Smith situent la première course en 2005{% include src.html n="1,2" %} ; 1997 est, selon eux, l'année où Smith imagine le dispositif{% include src.html n="1" %}.
+- **La première course de l'inerter** : formula1.com, en 2022, écrit que les inerters ont été « utilisés pour la première fois sur la McLaren de 1997 »{% include src.html n="4" %}. L'université de Cambridge et Smith situent la première course en 2005{% include src.html n="1,2" %} ; 1997 est, selon eux, l'année où Smith imagine le dispositif{% include src.html n="1" %}.

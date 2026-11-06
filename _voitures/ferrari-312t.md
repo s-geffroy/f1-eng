@@ -2,20 +2,20 @@
 title: "Ferrari 312T"
 nom_tri: "ferrari 312t"
 accroche: "La boîte de vitesses se met en travers."
-description: "Ferrari 312T (1975) : une boîte de vitesses transversale ramène les masses dans l'empattement ; Niki Lauda est champion du monde."
+description: "Ferrari 312T (1975) : une boîte de vitesses transversale ramène les masses dans l'empattement ; Niki Lauda est champion du monde."
 annee: 1975
 equipe: "Scuderia Ferrari"
 moteur: "Ferrari flat-12 de 3 litres"
-statut: "A couru en 1975 et au début de 1976 ; titres pilotes et constructeurs en 1975"
+statut: "A couru en 1975 et au début de 1976 ; titres pilotes et constructeurs en 1975"
 concepteurs: ["mauro-forghieri", "franco-rocchi"]
 termes: ["boite-transversale", "centralisation-des-masses", "moment-polaire", "flat-12"]
 jalons: ["ferrari-312t"]
 sources:
-  - titre: "Formula 1, « Tech Tuesday: under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (2022)"
+  - titre: "Formula 1, « Tech Tuesday: under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (2022)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
-  - titre: "Motor Sport Magazine, « Lauda's Ferrari 312T: Maranello's lost masterpiece » (août 2020)"
+  - titre: "Motor Sport Magazine, « Lauda's Ferrari 312T: Maranello's lost masterpiece » (août 2020)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2020/58/laudas-ferrari-312t-maranellos-lost-masterpiece/"
-  - titre: "Alan Henry, Motor Sport Magazine, « Victory Ts » (avril 1997)"
+  - titre: "Alan Henry, Motor Sport Magazine, « Victory Ts » (avril 1997)"
     url: "https://www.motorsportmagazine.com/archive/article/april-1997/50/victory-ts/"
 photo:
   fichier: "/assets/voitures/ferrari-312t.jpg"
@@ -29,9 +29,9 @@ image: "/assets/partage/voitures/ferrari-312t.jpg"
 ---
 ## Ce qu'elle change
 
-Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport{% include src.html n="2,3" %}. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport en 2020, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement{% include src.html n="2" %} ; Alan Henry place toute la boîte en avant de l'essieu{% include src.html n="3" %}. formula1.com présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1{% include src.html n="1" %}.
+Le « T » de 312T renvoie à sa boîte « trasversale », comme l'écrit Motor Sport{% include src.html n="2,3" %}. Les arbres de la boîte de vitesses sont alignés en travers de la voiture, et non plus dans l'axe : selon Motor Sport en 2020, la plus grande partie de la masse de la boîte se retrouve ainsi en avant de l'essieu arrière, dans l'empattement{% include src.html n="2" %} ; Alan Henry place toute la boîte en avant de l'essieu{% include src.html n="3" %}. formula1.com présente cette [boîte transversale]({{ site.baseurl }}/glossaire/#boite-transversale) comme une première en F1{% include src.html n="1" %}.
 
-Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inertie]({{ site.baseurl }}/glossaire/#moment-polaire) possible, en rassemblant le plus de masses possible entre les essieux{% include src.html n="3" %}. Selon formula1.com, c'est l'aboutissement d'une démarche commencée sur la 312B3, qui cherchait déjà à [centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses) pour rendre la voiture plus vive{% include src.html n="1" %}.
+Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inertie]({{ site.baseurl }}/glossaire/#moment-polaire) possible, en rassemblant le plus de masses possible entre les essieux{% include src.html n="3" %}. Selon formula1.com, c'est l'aboutissement d'une démarche commencée sur la 312B3, qui cherchait déjà à [centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses) pour rendre la voiture plus vive{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
@@ -39,9 +39,9 @@ Le but, rappelé par Alan Henry : obtenir le plus faible [moment polaire d'inert
 
 ## Limites
 
-Sur le papier, Niki Lauda reste d'abord indifférent ; au volant, à Fiorano, il comprend vite qu'elle est d'une autre classe, raconte-t-il à Alan Henry{% include src.html n="3" %}. Il le résumera ainsi : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. »{% include src.html n="3" %} Selon Motor Sport en 2020, il la trouve aussi, aux essais, plus exigeante que la 312B3, mais avec des limites bien plus hautes{% include src.html n="2" %}. Le même article revient sur les débuts manqués à Kyalami, en mars 1975 : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents{% include src.html n="2" %}.
+Sur le papier, Niki Lauda reste d'abord indifférent ; au volant, à Fiorano, il comprend vite qu'elle est d'une autre classe, raconte-t-il à Alan Henry{% include src.html n="3" %}. Il le résumera ainsi : « Le châssis était tout simplement parfait ; il était totalement neutre et progressif. »{% include src.html n="3" %} Selon Motor Sport en 2020, il la trouve aussi, aux essais, plus exigeante que la 312B3, mais avec des limites bien plus hautes{% include src.html n="2" %}. Le même article revient sur les débuts manqués à Kyalami, en mars 1975 : Lauda sort de la piste aux essais sur l'huile d'une autre voiture, puis son moteur manque de puissance en course, à cause d'une courroie qui a sauté des dents{% include src.html n="2" %}.
 
 ## Ce qu'elle laisse
 
-- **1975** : Lauda est champion du monde, et Ferrari gagne son premier titre constructeurs depuis 1964{% include src.html n="2" %}.
+- **1975** : Lauda est champion du monde, et Ferrari gagne son premier titre constructeurs depuis 1964{% include src.html n="2" %}.
 - La 312T ouvre une série à boîte transversale et flat-12 qui va jusqu'à la 312T5{% include src.html n="2" %}.

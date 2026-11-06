@@ -7,7 +7,10 @@ const path = require("path");
 const PImage = require("pureimage");
 const Jimp = require("jimp");
 const { Readable } = require("stream");
-const frontMatter = require("./front-matter");
+// Front matter des fiches, l'espace fine insécable (U+202F) changée en espace insécable (U+00A0) : les polices
+// TTF des cartes n'ont pas de dessin pour U+202F, et pureimage dessinerait une case vide.
+const lireFiche = require("./front-matter");
+const frontMatter = f => JSON.parse(JSON.stringify(lireFiche(f)).replace(/\u202f/g, "\u00a0"));
 
 const RACINE = path.join(__dirname, "..");
 // Une carte par entrée et par langue : français dans assets/partage/, anglais dans assets/partage/en/.

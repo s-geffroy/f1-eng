@@ -3,26 +3,26 @@ title: "Crosthwaite, John"
 nom_complet: "John Crosthwaite"
 nom_tri: "crosthwaite john"
 accroche: "La voiture à moteur arrière d'Indianapolis 1962"
-description: "John Crosthwaite : la voiture à moteur arrière d'Indianapolis 1962."
+description: "John Crosthwaite : la voiture à moteur arrière d'Indianapolis 1962."
 domaine: "Châssis"
 lignees: []
 voir_aussi: ["mike-costin", "colin-chapman", "tony-rudd", "john-cooper"]
 sources:
-  - titre: "Motor Sport Magazine, « A special relationship » (août 2015)"
+  - titre: "Motor Sport Magazine, « A special relationship » (août 2015)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2015/75/special-relationship/"
-  - titre: "The Henry Ford, « Indianapolis 500, May 1962 »"
+  - titre: "The Henry Ford, « Indianapolis 500, May 1962 »"
     url: "https://www.thehenryford.org/collections/explore/artifact/438417"
-  - titre: "Barrie Wills, AutoBritannia, « The Battle of Wills: eccentric engineers » (2020)"
+  - titre: "Barrie Wills, AutoBritannia, « The Battle of Wills: eccentric engineers » (2020)"
     url: "https://autobritannia.net/2020/06/17/the-battle-of-wills-eccentric-engineers/"
-  - titre: "Richard Heseltine, Motor Sport Magazine, « Mickey Thompson: America's first 400mph man » (décembre 2007)"
+  - titre: "Richard Heseltine, Motor Sport Magazine, « Mickey Thompson: America's first 400mph man » (décembre 2007)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2007/82/life-less-ordinary-2/"
-  - titre: "Indianapolis Motor Speedway, « 1962 Indianapolis 500 race results »"
+  - titre: "Indianapolis Motor Speedway, « 1962 Indianapolis 500 race results »"
     url: "https://www.indianapolismotorspeedway.com/events/indy500/history/historical-stats/race-stats/race-results/1962"
-  - titre: "Bill Boddy, Motor Sport Magazine, « The Reliant Scimitar GTE » (juin 1970)"
+  - titre: "Bill Boddy, Motor Sport Magazine, « The Reliant Scimitar GTE » (juin 1970)"
     url: "https://www.motorsportmagazine.com/archive/article/june-1970/60/the-reliant-scimitar-gte/"
-  - titre: "Wikimedia Commons, « J Crosthwaite (with oily rag) and Graham Hill (on left of picture) with Lotus » (page du fichier)"
+  - titre: "Wikimedia Commons, « J Crosthwaite (with oily rag) and Graham Hill (on left of picture) with Lotus » (page du fichier)"
     url: "https://commons.wikimedia.org/wiki/File:J_Crosthwaite_(with_oily_rag)_and_Graham_Hill_(on_left_of_picture)_with_Lotus.jpg"
-  - titre: "Wikimedia Commons, « Colin Chapman in Lotus, J Crosthwaite leaning on car (right) » (page du fichier)"
+  - titre: "Wikimedia Commons, « Colin Chapman in Lotus, J Crosthwaite leaning on car (right) » (page du fichier)"
     url: "https://commons.wikimedia.org/wiki/File:Colin_Chapman_in_Lotus_J_Crosthwaite_leaning_on_car_(right).jpg"
 portrait:
   fichier: "/assets/portraits/john-crosthwaite.jpg"
@@ -40,12 +40,12 @@ John Crosthwaite conçoit, pour l'essentiel, la voiture de Mickey Thompson, à [
 
 ## Indianapolis 1962
 
-- **Le projet.** Selon Motor Sport, Thompson finance sa tentative grâce à la société Harvey Aluminum et obtient de GM son nouveau V8 à bloc en aluminium{% include src.html n="4" %}. La voiture est « conçue en grande partie » par Crosthwaite, un Anglais expatrié ; celle de Gurney est la seule des voitures de Thompson à se qualifier{% include src.html n="2,4" %}.
-- **La course.** Selon les résultats officiels de l'Indianapolis Motor Speedway, la voiture, engagée sous le nom « Thompson Harvey Aluminum » avec un châssis Thompson et un moteur Buick, part en huitième position et abandonne au 92e tour sur une casse du pont arrière : Gurney est classé vingtième{% include src.html n="5" %}. Motor Sport écrit qu'elle tient jusqu'à mi-course avant que le différentiel ne casse{% include src.html n="4" %}. Gurney prend son parti : « Je défendrai cette voiture de 1962. »{% include src.html n="4" %}
+- **Le projet.** Selon Motor Sport, Thompson finance sa tentative grâce à la société Harvey Aluminum et obtient de GM son nouveau V8 à bloc en aluminium{% include src.html n="4" %}. La voiture est « conçue en grande partie » par Crosthwaite, un Anglais expatrié ; celle de Gurney est la seule des voitures de Thompson à se qualifier{% include src.html n="2,4" %}.
+- **La course.** Selon les résultats officiels de l'Indianapolis Motor Speedway, la voiture, engagée sous le nom « Thompson Harvey Aluminum » avec un châssis Thompson et un moteur Buick, part en huitième position et abandonne au 92e tour sur une casse du pont arrière : Gurney est classé vingtième{% include src.html n="5" %}. Motor Sport écrit qu'elle tient jusqu'à mi-course avant que le différentiel ne casse{% include src.html n="4" %}. Gurney prend son parti : « Je défendrai cette voiture de 1962. »{% include src.html n="4" %}
 
 ## Ce que l'on sait de son parcours
 
-Le reste de sa carrière repose surtout sur les souvenirs de Barrie Wills, ancien dirigeant de Reliant, publiés sur un blog : un passage chez Cooper, chez Team Lotus et chez Dolphin aux États-Unis ; un retour en Grande-Bretagne à l'appel de [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) pour concevoir la F1 BRM ; puis, à partir de 1966, un rôle de consultant pour les châssis chez Reliant{% include src.html n="3" %}. Seul son travail pour Reliant est recoupé par une source de premier rang : en juin 1970, Bill Boddy attribue dans Motor Sport à Crosthwaite le châssis rigide et contreventé de la Reliant Scimitar GTE{% include src.html n="6" %}. Les photos de Lotus des années 1950, dont celle de [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) sur ce site, ont été versées sur Wikimedia Commons par un contributeur nommé Raycrosthwaite{% include src.html n="7,8" %}.
+Le reste de sa carrière repose surtout sur les souvenirs de Barrie Wills, ancien dirigeant de Reliant, publiés sur un blog : un passage chez Cooper, chez Team Lotus et chez Dolphin aux États-Unis ; un retour en Grande-Bretagne à l'appel de [Tony Rudd]({{ site.baseurl }}{% link _ingenieurs/tony-rudd.md %}) pour concevoir la F1 BRM ; puis, à partir de 1966, un rôle de consultant pour les châssis chez Reliant{% include src.html n="3" %}. Seul son travail pour Reliant est recoupé par une source de premier rang : en juin 1970, Bill Boddy attribue dans Motor Sport à Crosthwaite le châssis rigide et contreventé de la Reliant Scimitar GTE{% include src.html n="6" %}. Les photos de Lotus des années 1950, dont celle de [Mike Costin]({{ site.baseurl }}{% link _ingenieurs/mike-costin.md %}) sur ce site, ont été versées sur Wikimedia Commons par un contributeur nommé Raycrosthwaite{% include src.html n="7,8" %}.
 
 ## Limites des sources
 

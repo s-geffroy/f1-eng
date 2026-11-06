@@ -3,20 +3,20 @@ title: "Rocchi, Franco"
 nom_complet: "Franco Rocchi"
 nom_tri: "rocchi franco"
 accroche: "L'homme des moteurs dans l'ombre de Forghieri"
-description: "Franco Rocchi : l'homme des moteurs dans l'ombre de Forghieri."
+description: "Franco Rocchi : l'homme des moteurs dans l'ombre de Forghieri."
 domaine: "Moteur"
 lignees: []
 voir_aussi: ["mauro-forghieri", "vittorio-jano"]
 sources:
-  - titre: "GrandPrix.com, « Franco Rocchi » (1996)"
+  - titre: "GrandPrix.com, « Franco Rocchi » (1996)"
     url: "https://www.grandprix.com/news/franco-rocchi.html"
-  - titre: "Motor Sport Magazine, « The flat 12 engine that powered Ferrari to '70s F1 triumph » (novembre 2021)"
+  - titre: "Motor Sport Magazine, « The flat 12 engine that powered Ferrari to '70s F1 triumph » (novembre 2021)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2021/92/the-flat-12-engine-that-powered-ferrari-to-70s-f1-triumph/"
-  - titre: "Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (15 novembre 2022)"
+  - titre: "Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (15 novembre 2022)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
-  - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris » (2 novembre 2022)"
+  - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris » (2 novembre 2022)"
     url: "https://www.formula1.com/en/latest/article/obituary-mauro-forghieri-technical-genius-behind-some-of-formula-1s-greatest.67IR5vwYq73vG9mhaKYd3N"
-  - titre: "Motor Sport Magazine, « Demeaning of Life » (septembre 2000)"
+  - titre: "Motor Sport Magazine, « Demeaning of Life » (septembre 2000)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2000/91/demeaning-of-life/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/franco-rocchi.jpg"
@@ -36,4 +36,4 @@ Franco Rocchi passe environ vingt-cinq ans au service course de Ferrari, dans de
 
 ## Attribution du flat-12
 
-formula1.com présente le flat-12 comme créé par Forghieri « en coopération » avec Rocchi{% include src.html n="3" %} ; la nécrologie de Forghieri publiée par formula1.com va plus loin, et dit que Forghieri a chargé Rocchi de le créer{% include src.html n="4" %}. Les deux noms vont ensemble.
+formula1.com présente le flat-12 comme créé par Forghieri « en coopération » avec Rocchi{% include src.html n="3" %} ; la nécrologie de Forghieri publiée par formula1.com va plus loin, et dit que Forghieri a chargé Rocchi de le créer{% include src.html n="4" %}. Les deux noms vont ensemble.

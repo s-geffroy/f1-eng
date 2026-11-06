@@ -3,7 +3,7 @@ title: "Forghieri, Mauro"
 nom_complet: "Mauro Forghieri"
 nom_tri: "forghieri mauro"
 accroche: "L'ingénierie intégrée chez Ferrari"
-description: "Mauro Forghieri : l'ingénierie intégrée chez Ferrari."
+description: "Mauro Forghieri : l'ingénierie intégrée chez Ferrari."
 rang: 8
 tier: B
 score: "87,5"
@@ -19,17 +19,17 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source: "https://commons.wikimedia.org/wiki/File:Mauro_Forghieri_Mugello_1991_(headshot).jpg"
 sources:
-  - titre: "Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (15 novembre 2022)"
+  - titre: "Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » (15 novembre 2022)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz"
-  - titre: "Formula 1, « Under the bodywork of the Ferrari 312B3… » (28 avril 2020)"
+  - titre: "Formula 1, « Under the bodywork of the Ferrari 312B3… » (28 avril 2020)"
     url: "https://www.formula1.com/en/latest/article/under-the-bodywork-of-the-ferrari-312b3-on-the-anniversary-of-niki-laudas.zcaL509YxSDEQWI2721oN"
-  - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris » (2 novembre 2022)"
+  - titre: "Formula 1, « Mauro Forghieri, technical genius behind some of Formula 1's greatest Ferraris » (2 novembre 2022)"
     url: "https://www.formula1.com/en/latest/article/obituary-mauro-forghieri-technical-genius-behind-some-of-formula-1s-greatest.67IR5vwYq73vG9mhaKYd3N"
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Motor Sport Magazine, « Mauro Forghieri: 1935-2022 »"
+  - titre: "Motor Sport Magazine, « Mauro Forghieri: 1935-2022 »"
     url: "https://www.motorsportmagazine.com/archive/article/january-2023/12/mauro-forghieri-1935-2022/"
-  - titre: "Autosport, « Mauro Forghieri obituary: Legendary Ferrari F1 designer dies at 87 » (2 novembre 2022)"
+  - titre: "Autosport, « Mauro Forghieri obituary: Legendary Ferrari F1 designer dies at 87 » (2 novembre 2022)"
     url: "https://www.autosport.com/f1/news/legendary-ferrari-f1-designer-mauro-forghieri-dies-at-87/10394065/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/mauro-forghieri.jpg"
@@ -37,11 +37,11 @@ redirect_from: "/ingenieurs/2026/10/25/mauro-forghieri.html"
 ---
 ## Ingénierie intégrée
 
-Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque{% include src.html n="3" %}. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique{% include src.html n="3,5" %}. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport){% include src.html n="5" %} ; Autosport y ajoute 54 victoires en Grand Prix{% include src.html n="6" %}.
+Le 30 octobre 1961, Enzo Ferrari confie à Mauro Forghieri, encore jeune ingénieur, toute l'activité sportive et les essais de la marque{% include src.html n="3" %}. Formé à tous les sous-systèmes (moteur, boîte, châssis, suspension), il pousse aussi l'usage de l'aérodynamique{% include src.html n="3,5" %}. En 27 ans chez Ferrari, il compte quatre titres pilotes et sept titres constructeurs (Motor Sport){% include src.html n="5" %} ; Autosport y ajoute 54 victoires en Grand Prix{% include src.html n="6" %}.
 
 ## La centralisation des masses
 
-Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle{% include src.html n="1,2" %}.
+Une idée directrice relie ses voitures des années 1970 : **[centraliser les masses]({{ site.baseurl }}/glossaire/#centralisation-des-masses)** pour améliorer la réponse directionnelle{% include src.html n="1,2" %}.
 
 - Sur la **312B3** de 1974, le cockpit et le réservoir sont avancés de 13 cm dans l'empattement{% include src.html n="2" %}.
 - La **312T** de 1975 introduit la **[boîte de vitesses transversale]({{ site.baseurl }}/glossaire/#boite-transversale)**, que formula1.com présente comme une première en F1, ensuite adoptée par tout le plateau{% include src.html n="1,2,4" %}.
@@ -55,8 +55,8 @@ Une idée directrice relie ses voitures des années 1970 : **[centraliser les ma
 
 ## Attribution
 
-Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : formula1.com précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}){% include src.html n="1" %}, et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer{% include src.html n="3" %}. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions{% include src.html n="3" %}.
+Le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Ferrari n'est pas son œuvre seule : formula1.com précise qu'il l'a créé en coopération avec son collègue [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}){% include src.html n="1" %}, et sa nécrologie va jusqu'à dire que Forghieri a chargé Rocchi de le créer{% include src.html n="3" %}. Cette nécrologie note aussi que sa passion le poussait parfois à surestimer certaines de ses inventions{% include src.html n="3" %}.
 
 ## Pourquoi le Tier B
 
-Sa boîte transversale est devenue un standard, adopté ensuite par tout le plateau{% include src.html n="4" %} ; au-delà, ce site estime qu'il a transformé en profondeur la manière d'intégrer les grands sous-systèmes. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.
+Sa boîte transversale est devenue un standard, adopté ensuite par tout le plateau{% include src.html n="4" %} ; au-delà, ce site estime qu'il a transformé en profondeur la manière d'intégrer les grands sous-systèmes. Il lui manque, par rapport au Tier A, une rupture devenue principe structurel de toute la F1.

@@ -2,32 +2,32 @@
 title: "Red Bull RB18"
 nom_tri: "red bull rb18"
 accroche: "Moins d'appui maximal, mais un appui qui ne lâche pas."
-description: "Red Bull RB18 (2022) : au retour de l'effet de sol, un plancher qui tolère les variations de hauteur et une suspension anti-plongée ; dix-sept victoires en vingt-deux courses et les deux titres."
+description: "Red Bull RB18 (2022) : au retour de l'effet de sol, un plancher qui tolère les variations de hauteur et une suspension anti-plongée ; dix-sept victoires en vingt-deux courses et les deux titres."
 annee: 2022
 equipe: "Red Bull Racing"
 moteur: "RBPTH001, V6 turbo hybride de 1,6 litre, construit par Honda"
-statut: "A couru en 2022 ; titres pilotes et constructeurs"
+statut: "A couru en 2022 ; titres pilotes et constructeurs"
 concepteurs: ["adrian-newey", "Pierre Waché", "Enrico Balbo"]
 termes: ["effet-de-sol", "venturi", "appui"]
 jalons: ["rb18"]
 sources:
-  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: The design secrets that set Red Bull's RB18 apart from its F1 rivals » (novembre 2022)"
+  - titre: "Mark Hughes et Giorgio Piola, Formula 1, « Tech Tuesday: The design secrets that set Red Bull's RB18 apart from its F1 rivals » (novembre 2022)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-design-secrets-that-set-red-bulls-rb18-apart-from-its-f1.1ul2YIRb2nFywEwjYLWe0l"
-  - titre: "Edd Straw, Formula 1, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
+  - titre: "Edd Straw, Formula 1, « An innovator and trendsetter – Adrian Newey's greatest F1 contributions » (mai 2024)"
     url: "https://www.formula1.com/en/latest/article/an-innovator-and-trendsetter-adrian-neweys-greatest-f1-contributions.3tFYlbhEcckb7cJAwKFTuy"
-  - titre: "Mark Hughes, Motor Sport Magazine, « The ‘secrets’ behind Red Bull's F1 ground effect advantage… and the Lotus that started it all » (décembre 2023)"
+  - titre: "Mark Hughes, Motor Sport Magazine, « The ‘secrets’ behind Red Bull's F1 ground effect advantage… and the Lotus that started it all » (décembre 2023)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2023/62/the-secrets-behind-red-bulls-f1-ground-effect-advantage-and-the-lotus-that-started-it-all/"
-  - titre: "Honda, « 2022 Red Bull RB18 » (site du constructeur, non daté)"
+  - titre: "Honda, « 2022 Red Bull RB18 » (site du constructeur, non daté)"
     url: "https://global.honda/en/F1/machine/2022_RedBullRB18/"
-  - titre: "Formula 1, « In numbers: The amazing stats behind Red Bull's century of F1 wins » (juin 2023)"
+  - titre: "Formula 1, « In numbers: The amazing stats behind Red Bull's century of F1 wins » (juin 2023)"
     url: "https://www.formula1.com/en/latest/article/in-numbers-the-amazing-stats-behind-red-bulls-century-of-f1-wins.356YzISN9hTOzLBtE96qnn"
-  - titre: "Michelle Foster, PlanetF1, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
+  - titre: "Michelle Foster, PlanetF1, « Lewis Hamilton adamant Mercedes won't 'copy' rivals as more teams unveil Red Bull-inspired cars » (février 2023)"
     url: "https://www.planetf1.com/news/lewis-hamilton-mercedes-copy-red-bull"
-  - titre: "Sky Sports, « Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero-sidepod philosophy officially abandoned » (mai 2023)"
+  - titre: "Sky Sports, « Mercedes reveal W14 upgrades ahead of Monaco Grand Prix with zero-sidepod philosophy officially abandoned » (mai 2023)"
     url: "https://www.skysports.com/f1/news/12888783/mercedes-reveal-w14-upgrades-ahead-of-monaco-grand-prix-with-zero-sidepod-philosophy-officially-abandoned"
-  - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
+  - titre: "PlanetF1, « Revealed: Ferrari's revised sidepods break cover in Spain » (juin 2023)"
     url: "https://www.planetf1.com/news/goodbye-baby-baths-ferrari-revised-sidepods-spain"
-  - titre: "Formula 1, « 2022 Team Standings » (résultats officiels)"
+  - titre: "Formula 1, « 2022 Team Standings » (résultats officiels)"
     url: "https://www.formula1.com/en/results/2022/team"
 photo:
   fichier: "/assets/voitures/red-bull-rb18.jpg"
@@ -41,29 +41,29 @@ image: "/assets/partage/voitures/red-bull-rb18.jpg"
 ---
 ## Ce qu'elle change
 
-En 2022, le règlement ramène les voitures à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) : l'[appui]({{ site.baseurl }}/glossaire/#appui) vient surtout de deux tunnels en [venturi]({{ site.baseurl }}/glossaire/#venturi) creusés sous le plancher, de part et d'autre d'une quille centrale{% include src.html n="1,3" %}. La RB18 est la réponse de Red Bull, et son avantage est d'abord invisible{% include src.html n="3" %}.
+En 2022, le règlement ramène les voitures à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) : l'[appui]({{ site.baseurl }}/glossaire/#appui) vient surtout de deux tunnels en [venturi]({{ site.baseurl }}/glossaire/#venturi) creusés sous le plancher, de part et d'autre d'une quille centrale{% include src.html n="1,3" %}. La RB18 est la réponse de Red Bull, et son avantage est d'abord invisible{% include src.html n="3" %}.
 
-Selon formula1.com, la clé de ce règlement n'est pas l'appui maximal dans les virages rapides, quand la voiture est plaquée au sol, mais celui qu'elle garde dans les virages lents, quand elle est plus haute{% include src.html n="1" %}. Les autres équipes donnent à la quille centrale une forme de goutte d'eau{% include src.html n="1,3" %}. Celle de la RB18 est irrégulière, et le plafond de ses tunnels semble plus haut et plus arrondi : l'ensemble paraît viser un volume d'écoulement plus constant sur toute leur longueur{% include src.html n="1" %}. L'appui maximal est en théorie plus faible ; les relevés GPS laissent penser que la Ferrari et la Mercedes en ont davantage dans les virages rapides{% include src.html n="1" %}. Mais le plancher décroche beaucoup moins et tolère les variations de hauteur{% include src.html n="1" %}. La RB18 n'a jamais été sérieusement gênée par le marsouinage, ces rebonds observés sur d'autres voitures{% include src.html n="1" %}.
+Selon formula1.com, la clé de ce règlement n'est pas l'appui maximal dans les virages rapides, quand la voiture est plaquée au sol, mais celui qu'elle garde dans les virages lents, quand elle est plus haute{% include src.html n="1" %}. Les autres équipes donnent à la quille centrale une forme de goutte d'eau{% include src.html n="1,3" %}. Celle de la RB18 est irrégulière, et le plafond de ses tunnels semble plus haut et plus arrondi : l'ensemble paraît viser un volume d'écoulement plus constant sur toute leur longueur{% include src.html n="1" %}. L'appui maximal est en théorie plus faible ; les relevés GPS laissent penser que la Ferrari et la Mercedes en ont davantage dans les virages rapides{% include src.html n="1" %}. Mais le plancher décroche beaucoup moins et tolère les variations de hauteur{% include src.html n="1" %}. La RB18 n'a jamais été sérieusement gênée par le marsouinage, ces rebonds observés sur d'autres voitures{% include src.html n="1" %}.
 
-La suspension va dans le même sens. Red Bull, comme McLaren, inverse son montage : tirants à l'avant, poussoirs à l'arrière{% include src.html n="1,4" %}. À l'avant, la géométrie est anti-plongée : elle limite la plongée au freinage, donc la remontée de l'arrière et la perte d'appui qui l'accompagne{% include src.html n="1" %}. À l'arrière, un grand débattement laisse la voiture s'abaisser à haute vitesse, ce qui réduit la traînée et lui donne un avantage constant en ligne droite{% include src.html n="1" %}. Il faut pour cela des ressorts plutôt souples ; sur d'autres voitures, ils provoqueraient des rebonds{% include src.html n="1" %}.
+La suspension va dans le même sens. Red Bull, comme McLaren, inverse son montage : tirants à l'avant, poussoirs à l'arrière{% include src.html n="1,4" %}. À l'avant, la géométrie est anti-plongée : elle limite la plongée au freinage, donc la remontée de l'arrière et la perte d'appui qui l'accompagne{% include src.html n="1" %}. À l'arrière, un grand débattement laisse la voiture s'abaisser à haute vitesse, ce qui réduit la traînée et lui donne un avantage constant en ligne droite{% include src.html n="1" %}. Il faut pour cela des ressorts plutôt souples ; sur d'autres voitures, ils provoqueraient des rebonds{% include src.html n="1" %}.
 
-Pour Honda, son trait principal est ailleurs : des [pontons]({{ site.baseurl }}/glossaire/#pontons) profondément creusés à leur base, dont le dessus descend vers l'arrière{% include src.html n="4" %}. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes{% include src.html n="4" %}. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull{% include src.html n="6" %} ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023{% include src.html n="6,7,8" %}.
+Pour Honda, son trait principal est ailleurs : des [pontons]({{ site.baseurl }}/glossaire/#pontons) profondément creusés à leur base, dont le dessus descend vers l'arrière{% include src.html n="4" %}. Toujours selon Honda, cette solution devient ensuite la norme pour presque toutes les équipes{% include src.html n="4" %}. Début 2023, plusieurs équipes reprennent les pontons de la Red Bull{% include src.html n="6" %} ; Mercedes et Ferrari s'y refusent d'abord, avant d'adopter à leur tour des pontons de ce type en cours de saison 2023{% include src.html n="6,7,8" %}.
 
 ## Qui l'a conçue
 
-Une équipe technique, mais les sources ne s'accordent pas sur la part d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), alors directeur technique en chef{% include src.html n="1" %} :
+Une équipe technique, mais les sources ne s'accordent pas sur la part d'[Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}), alors directeur technique en chef{% include src.html n="1" %} :
 
-- selon formula1.com, en novembre 2022, Newey nourrit le travail d'un groupe qui comprend le directeur technique Pierre Waché, le responsable de l'aérodynamique Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse et Paul Monaghan ; sa contribution directe au dessin se limite à la suspension, pièce décisive de l'ensemble{% include src.html n="1" %} ;
-- selon formula1.com, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut produire l'appui de façon fiable{% include src.html n="2" %} ;
-- Honda parle d'un développement « mené par » Newey{% include src.html n="4" %}, et Motor Sport d'une équipe « dirigée par » lui{% include src.html n="3" %}.
+- selon formula1.com, en novembre 2022, Newey nourrit le travail d'un groupe qui comprend le directeur technique Pierre Waché, le responsable de l'aérodynamique Enrico Balbo, Rob Marshall, Craig Skinner, Ben Waterhouse et Paul Monaghan ; sa contribution directe au dessin se limite à la suspension, pièce décisive de l'ensemble{% include src.html n="1" %} ;
+- selon formula1.com, en 2024, il apporte en plus des idées clés au concept, fort de son expérience des voitures à effet de sol, et comprend qu'il faut produire l'appui de façon fiable{% include src.html n="2" %} ;
+- Honda parle d'un développement « mené par » Newey{% include src.html n="4" %}, et Motor Sport d'une équipe « dirigée par » lui{% include src.html n="3" %}.
 
-Les deux articles de formula1.com s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière{% include src.html n="1,2" %}. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher{% include src.html n="3" %}.
+Les deux articles de formula1.com s'accordent sur un point : Newey a dessiné lui-même les suspensions avant et arrière{% include src.html n="1,2" %}. Il dit avoir d'abord été découragé par un règlement qui semblait ne laisser aucune place à la créativité, avant de trouver « une liberté raisonnable » autour des pontons et du plancher{% include src.html n="3" %}.
 
 ## Limites
 
-En début de saison, la RB18 est bien au-dessus du poids minimum, surtout à l'avant : elle sous-vire plus que ne l'aime Max Verstappen et bloque facilement ses roues avant{% include src.html n="1" %}. Le poids baisse au fil des courses, grâce à un nouveau plancher à Imola, à des freins redessinés et à des pièces évidées, d'abord fabriquées pleines faute de temps{% include src.html n="1" %}.
+En début de saison, la RB18 est bien au-dessus du poids minimum, surtout à l'avant : elle sous-vire plus que ne l'aime Max Verstappen et bloque facilement ses roues avant{% include src.html n="1" %}. Le poids baisse au fil des courses, grâce à un nouveau plancher à Imola, à des freins redessinés et à des pièces évidées, d'abord fabriquées pleines faute de temps{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon formula1.com{% include src.html n="3,5" %} ; Honda avance un total de dix-neuf, que ne retiennent ni formula1.com ni Motor Sport{% include src.html n="3,4,5" %}. Verstappen est champion du monde{% include src.html n="1,4" %} ; Red Bull remporte le titre constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari{% include src.html n="4,9" %}.
-- Le moteur est un Honda : le constructeur, qui a officiellement quitté la F1 fin 2021, le développe et le fabrique, mais sous le nom RBPTH001, sans la mention Honda{% include src.html n="4" %}. C'est une évolution du RA621H de 2021{% include src.html n="4" %} ; formula1.com le désigne d'ailleurs sous ce nom de RA621{% include src.html n="1" %}.
+- **2022** : dix-sept victoires en vingt-deux courses, quinze pour Verstappen et deux pour Sergio Pérez, selon formula1.com{% include src.html n="3,5" %} ; Honda avance un total de dix-neuf, que ne retiennent ni formula1.com ni Motor Sport{% include src.html n="3,4,5" %}. Verstappen est champion du monde{% include src.html n="1,4" %} ; Red Bull remporte le titre constructeurs pour la première fois depuis 2013, avec 759 points contre 554 à Ferrari{% include src.html n="4,9" %}.
+- Le moteur est un Honda : le constructeur, qui a officiellement quitté la F1 fin 2021, le développe et le fabrique, mais sous le nom RBPTH001, sans la mention Honda{% include src.html n="4" %}. C'est une évolution du RA621H de 2021{% include src.html n="4" %} ; formula1.com le désigne d'ailleurs sous ce nom de RA621{% include src.html n="1" %}.

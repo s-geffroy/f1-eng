@@ -3,7 +3,7 @@ title: "Cowell, Andy"
 nom_complet: "Andy Cowell"
 nom_tri: "cowell andy"
 accroche: "Le groupe propulseur hybride Mercedes"
-description: "Andy Cowell : le groupe propulseur hybride Mercedes."
+description: "Andy Cowell : le groupe propulseur hybride Mercedes."
 rang: 13
 tier: C
 score: "81,0"
@@ -12,21 +12,21 @@ domaine: "Groupe propulseur"
 lignees: ["moteur"]
 voir_aussi: ["ross-brawn", "bernard-dudot"]
 sources:
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (14 janvier 2026)"
+  - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (14 janvier 2026)"
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
-  - titre: "Formula 1, « Who is Andy Cowell? All you need to know about Aston Martin's new F1 team boss » (10 janvier 2025)"
+  - titre: "Formula 1, « Who is Andy Cowell? All you need to know about Aston Martin's new F1 team boss » (10 janvier 2025)"
     url: "https://www.formula1.com/en/latest/article/who-is-andy-cowell-all-you-need-to-know-about-aston-martins-new-f1-team-boss.7f971ZlBsULriL7Q00bX1m"
-  - titre: "ESPN, « Mercedes split-turbo design was 'bloody hard' to get right » (2016)"
+  - titre: "ESPN, « Mercedes split-turbo design was 'bloody hard' to get right » (2016)"
     url: "https://www.espn.com/f1/story/_/id/14759128/mercedes-split-turbo-design-was-bloody-hard-get-right"
-  - titre: "Autosport, « Mercedes close to breaking 1000bhp barrier with Formula 1 engine » (2017)"
+  - titre: "Autosport, « Mercedes close to breaking 1000bhp barrier with Formula 1 engine » (2017)"
     url: "https://www.autosport.com/f1/news/mercedes-close-to-breaking-1000bhp-barrier-with-formula-1-engine-4989267/4989267/"
-  - titre: "Formula 1, « Mercedes announce engine chief Andy Cowell is to leave the team » (15 juin 2020)"
+  - titre: "Formula 1, « Mercedes announce engine chief Andy Cowell is to leave the team » (15 juin 2020)"
     url: "https://www.formula1.com/en/latest/article/mercedes-announce-engine-chief-andy-cowell-is-to-leave-the-team.5j02couwRw8sgqsWkD17CH"
-  - titre: "Formula 1, « Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role » (novembre 2025)"
+  - titre: "Formula 1, « Adrian Newey to become Aston Martin Team Principal from 2026 as Andy Cowell takes on new role » (novembre 2025)"
     url: "https://www.formula1.com/en/latest/article/adrian-newey-to-become-aston-martin-team-principal-from-2026-as-andy-cowell.72VRUpQWazORbiImZ4sJKx"
-  - titre: "Luke Smith, Autosport, « Cowell to step down as Mercedes F1 engine chief » (juin 2020)"
+  - titre: "Luke Smith, Autosport, « Cowell to step down as Mercedes F1 engine chief » (juin 2020)"
     url: "https://www.autosport.com/f1/news/cowell-to-step-down-as-mercedes-f1-engine-chief-4981900/4981900/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/andy-cowell.jpg"
@@ -36,25 +36,25 @@ redirect_from: "/ingenieurs/2026/10/25/andy-cowell.html"
 
 Le succès du **[groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) Mercedes de 2014** est un cas d'exécution systémique. De 2014 à 2020, Cowell a supervisé la production de ces moteurs [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) hybrides{% include src.html n="1,6" %}.
 
-- **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V{% include src.html n="4" %}. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait »{% include src.html n="4" %}.
-- **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc{% include src.html n="5" %}.
-- **Les résultats.** Pendant qu'il dirige Mercedes AMG HPP, ses groupes propulseurs remportent six doublés consécutifs, titres pilotes et constructeurs, de 2014 à 2019{% include src.html n="6,8" %} ; il quitte son poste début juillet 2020{% include src.html n="8" %}.
+- **Le turbo séparé.** Le moteur Mercedes place la turbine et le compresseur aux deux extrémités du moteur, reliés par un arbre qui traverse le V{% include src.html n="4" %}. Selon Cowell, rien n'interdisait de le faire, « simplement, cela n'avait pas été fait »{% include src.html n="4" %}.
+- **Le rendement.** Le premier moteur turbo-hybride Mercedes de 2014 atteint un rendement thermique de 44 % ; en 2017, il franchit pour la première fois la barre des 50 % au banc{% include src.html n="5" %}.
+- **Les résultats.** Pendant qu'il dirige Mercedes AMG HPP, ses groupes propulseurs remportent six doublés consécutifs, titres pilotes et constructeurs, de 2014 à 2019{% include src.html n="6,8" %} ; il quitte son poste début juillet 2020{% include src.html n="8" %}.
 
 ## Parcours technique
 
 - Ingénieur en mécanique formé à l'université de Lancaster, il commence chez **Cosworth**{% include src.html n="3" %}.
 - En 2000, il passe chez **BMW Motorsport**, où il joue un rôle clé dans la conception du moteur BMW qu'utilise Williams jusqu'à la saison 2001 (BMW reste le motoriste de Williams jusqu'en 2005){% include src.html n="3" %}.
 - En 2004, il entre chez **Mercedes-Ilmor**, devient directeur de l'ingénierie, puis directeur général de Mercedes AMG High Performance Powertrains (2013 selon formula1.com){% include src.html n="3" %}.
-- Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe{% include src.html n="6,8" %}. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie{% include src.html n="3,7" %}.
+- Son départ de Mercedes est annoncé en juin 2020 ; il reste un temps consultant de l'équipe{% include src.html n="6,8" %}. Il dirige ensuite Aston Martin F1, comme directeur d'équipe et directeur général, avant de céder la direction de l'équipe à [Adrian Newey]({{ site.baseurl }}{% link _ingenieurs/adrian-newey.md %}) pour 2026 et de devenir directeur de la stratégie{% include src.html n="3,7" %}.
 
 ## Intégration avec le châssis
 
-[Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) souligne que Cowell était en phase avec tout le travail mené sur le châssis : la force du programme 2014 tient aussi à cette intégration{% include src.html n="2" %}.
+[Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}) souligne que Cowell était en phase avec tout le travail mené sur le châssis : la force du programme 2014 tient aussi à cette intégration{% include src.html n="2" %}.
 
 ## Pourquoi le Tier C
 
-Cowell est légèrement pénalisé par un point de méthode : l'**hybridation était imposée par le règlement**{% include src.html n="3" %}. Le passage à l'hybride aurait eu lieu sans lui ; c'est la qualité de l'exécution qui lui revient.
+Cowell est légèrement pénalisé par un point de méthode : l'**hybridation était imposée par le règlement**{% include src.html n="3" %}. Le passage à l'hybride aurait eu lieu sans lui ; c'est la qualité de l'exécution qui lui revient.
 
 ## Lignée
 
-Dans la branche moteur : [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) → Cowell, par Cosworth, où Cowell commence sa carrière{% include src.html n="1,3" %}. Ce qui relie les deux, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#moteur).
+Dans la branche moteur : [Duckworth]({{ site.baseurl }}{% link _ingenieurs/keith-duckworth.md %}) → Cowell, par Cosworth, où Cowell commence sa carrière{% include src.html n="1,3" %}. Ce qui relie les deux, et d'après quelles sources : [page des lignées]({{ site.baseurl }}/lignees/#moteur).

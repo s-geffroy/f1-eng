@@ -3,24 +3,24 @@ title: "Nichols, Steve"
 nom_complet: "Steve Nichols"
 nom_tri: "nichols steve"
 accroche: "À la tête du dessin de la MP4/4"
-description: "Steve Nichols : à la tête du dessin de la MP4/4."
+description: "Steve Nichols : à la tête du dessin de la MP4/4."
 domaine: "Châssis"
 lignees: []
 voir_aussi: ["john-barnard", "gordon-murray", "alan-jenkins", "jean-claude-migeot"]
 sources:
-  - titre: "GrandPrix.com, « Steve Nichols »"
+  - titre: "GrandPrix.com, « Steve Nichols »"
     url: "https://www.grandprix.com/people/steve-nichols.html"
-  - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
+  - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
-  - titre: "Formula 1, « Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time » (20 avril 2022)"
+  - titre: "Formula 1, « Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time » (20 avril 2022)"
     url: "https://www.formula1.com/en/latest/article/beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3"
-  - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
+  - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "Motor Sport Magazine, « Lunch with… John Barnard » (septembre 2018)"
+  - titre: "Motor Sport Magazine, « Lunch with… John Barnard » (septembre 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/september-2018/112/lunch-john-barnard"
-  - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren MP4/2 » (octobre 2005)"
+  - titre: "Keith Howard, Motor Sport Magazine, « X-ray spec : McLaren MP4/2 » (octobre 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/october-2005/64/x-ray-spec-mclaren-mp42/"
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
 consultation: "25 octobre 2026"
 image: "/assets/partage/steve-nichols.jpg"
@@ -32,10 +32,10 @@ formula1.com attribue la création de la **McLaren MP4/4**, qu'elle présente co
 ## Parcours technique
 
 - **Hercules.** Avant la course, il travaille quatre ans chez Hercules sur les [composites carbone]({{ site.baseurl }}/glossaire/#composite-carbone), alors nouveaux{% include src.html n="1,2" %}. Selon [John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), comme selon Nichols lui-même, c'est Nichols qui le met ensuite en relation avec ses anciens collègues d'Hercules{% include src.html n="2,5" %}, qui fabriqueront la coque carbone de la MP4/1{% include src.html n="6" %}.
-- **McLaren.** En 1980, Barnard l'engage chez Project 4 pour travailler avec lui sur le châssis de la MP4/1{% include src.html n="1,2" %}. La MP4/3 est la première McLaren conçue sous sa direction technique{% include src.html n="2" %} ; en 1987, il conduit le dessin de la MP4/4, dont la paternité est disputée{% include src.html n="2,3,4" %}.
+- **McLaren.** En 1980, Barnard l'engage chez Project 4 pour travailler avec lui sur le châssis de la MP4/1{% include src.html n="1,2" %}. La MP4/3 est la première McLaren conçue sous sa direction technique{% include src.html n="2" %} ; en 1987, il conduit le dessin de la MP4/4, dont la paternité est disputée{% include src.html n="2,3,4" %}.
 - **Ferrari.** Il y remplace Barnard à la tête de la [conception du châssis]({{ site.baseurl }}/glossaire/#chassis), et produit avec [Jean-Claude Migeot]({{ site.baseurl }}{% link _ingenieurs/jean-claude-migeot.md %}) la F92A, un échec{% include src.html n="1" %}.
 - **Jaguar.** Fin 2000, il devient directeur technique de Jaguar Racing{% include src.html n="1" %}.
 
-## La MP4/4 : une paternité discutée
+## La MP4/4 : une paternité discutée
 
-Nichols présente lui-même la MP4/4 comme une évolution de la MP4/3, pas comme la révolution de la voiture « basse »{% include src.html n="2,4" %}. [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) conteste ce récit, et Autosport cite aussi [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) parmi ses auteurs{% include src.html n="4" %}. Son arrivée chez Ferrari est datée de janvier 1989 par GrandPrix.com{% include src.html n="1" %}, de 1990 par Motor Sport, date cohérente avec le récit de Nichols, sollicité par Prost à Adélaïde fin 1989{% include src.html n="2" %}.
+Nichols présente lui-même la MP4/4 comme une évolution de la MP4/3, pas comme la révolution de la voiture « basse »{% include src.html n="2,4" %}. [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) conteste ce récit, et Autosport cite aussi [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}), [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}) parmi ses auteurs{% include src.html n="4" %}. Son arrivée chez Ferrari est datée de janvier 1989 par GrandPrix.com{% include src.html n="1" %}, de 1990 par Motor Sport, date cohérente avec le récit de Nichols, sollicité par Prost à Adélaïde fin 1989{% include src.html n="2" %}.

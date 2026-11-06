@@ -3,22 +3,22 @@ title: "Jenkins, Alan"
 nom_complet: "Alan Jenkins"
 nom_tri: "jenkins alan"
 accroche: "Le bras droit de Barnard"
-description: "Alan Jenkins : le bras droit de Barnard."
+description: "Alan Jenkins : le bras droit de Barnard."
 domaine: "Châssis"
 lignees: []
 voir_aussi: ["john-barnard", "steve-nichols"]
 sources:
-  - titre: "GrandPrix.com, « Alan Jenkins »"
+  - titre: "GrandPrix.com, « Alan Jenkins »"
     url: "https://www.grandprix.com/people/alan-jenkins.html"
   - titre: "GrandPrix.com, nouvelles du 8 janvier 1996"
     url: "https://www.grandprix.com/ns/ns00422.html"
-  - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
+  - titre: "Motor Sport Magazine, « Lunch with… Steve Nichols » (mai 2018)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2018/106/lunch-steve-nichols"
-  - titre: "Formula 1, « David Tremayne on the 5 most bizarre F1 car launches he's seen » (7 février 2020)"
+  - titre: "Formula 1, « David Tremayne on the 5 most bizarre F1 car launches he's seen » (7 février 2020)"
     url: "https://www.formula1.com/en/latest/article/david-tremayne-on-the-5-most-bizarre-f1-car-launches-hes-seen.6EpESfxyT1cLxulW5afX1B"
-  - titre: "GrandPrix.com, « Stewart »"
+  - titre: "GrandPrix.com, « Stewart »"
     url: "https://www.grandprix.com/constructors/stewart-grand-prix.html"
-  - titre: "Joe Saward, GrandPrix.com, « News feature: Inside Stewart Grand Prix » (2 décembre 1996)"
+  - titre: "Joe Saward, GrandPrix.com, « News feature: Inside Stewart Grand Prix » (2 décembre 1996)"
     url: "https://www.grandprix.com/features/joe-saward/news-feature-inside-stewart-grand-prix.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/alan-jenkins.jpg"
@@ -33,7 +33,7 @@ Alan Jenkins est l'adjoint de [John Barnard]({{ site.baseurl }}{% link _ingenieu
 - **Penske.** Il conçoit les PC15 et PC16 d'IndyCar, sophistiquées mais peu victorieuses{% include src.html n="1,2" %}.
 - **Onyx.** Il conçoit l'ORE-1, première F1 de l'équipe, en 1989{% include src.html n="1,4" %}.
 - **Footwork.** Directeur technique, il conçoit la FA12 à moteur Porsche{% include src.html n="1" %}.
-- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir{% include src.html n="1,5" %}. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 (seules Williams et Ferrari l'emploient alors){% include src.html n="6" %} ; selon Jenkins, le recours à ces maquettes et à la simulation numérique des écoulements, technique encore nouvelle, est un choix délibéré de l'équipe{% include src.html n="6" %}.
+- **Stewart.** Directeur technique, il conçoit la SF1 de 1997, puis la SF3 avant de partir{% include src.html n="1,5" %}. Il y travaille sur des maquettes à l'échelle 50 %, une pratique encore récente en F1 (seules Williams et Ferrari l'emploient alors){% include src.html n="6" %} ; selon Jenkins, le recours à ces maquettes et à la simulation numérique des écoulements, technique encore nouvelle, est un choix délibéré de l'équipe{% include src.html n="6" %}.
 
 ## Limites des sources
 

@@ -2,32 +2,32 @@
 title: "Mercedes W05"
 nom_tri: "mercedes w05"
 accroche: "Le moteur et le châssis pensés ensemble, dès le premier jour."
-description: "Mercedes F1 W05 Hybrid (2014) : un groupe propulseur à turbo séparé, intégré au châssis dès la conception ; seize victoires en dix-neuf courses au début de l'ère hybride."
+description: "Mercedes F1 W05 Hybrid (2014) : un groupe propulseur à turbo séparé, intégré au châssis dès la conception ; seize victoires en dix-neuf courses au début de l'ère hybride."
 annee: 2014
 equipe: "Mercedes"
 moteur: "Mercedes PU106, V6 turbo hybride"
-statut: "A couru en 2014 ; titres pilotes et constructeurs"
+statut: "A couru en 2014 ; titres pilotes et constructeurs"
 concepteurs: ["bob-bell", "aldo-costa", "andy-cowell"]
 termes: ["groupe-propulseur-hybride", "turbocompresseur"]
 jalons: ["hybride", "rendement-50"]
 sources:
-  - titre: "GrandPrix.com, « Designer doubts Mercedes to dominate » (mars 2014)"
+  - titre: "GrandPrix.com, « Designer doubts Mercedes to dominate » (mars 2014)"
     url: "https://www.grandprix.com/news/designer-doubts-mercedes-to-dominate.html"
-  - titre: "Formula 1, « Mercedes Technical Advisor Costa to join Dallara for 2020 » (septembre 2019)"
+  - titre: "Formula 1, « Mercedes Technical Advisor Costa to join Dallara for 2020 » (septembre 2019)"
     url: "https://www.formula1.com/en/latest/article/costa-to-depart-mercedes-and-join-dallara.7887dHow9DlvPNRnECFl43"
-  - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (janvier 2026)"
+  - titre: "Formula 1, « Ross Brawn reveals his favourite car designs » (janvier 2026)"
     url: "https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo"
-  - titre: "Matt Somerfield, Motorsport.com, « The car that set the tone for Mercedes' F1 dominance » (janvier 2021)"
+  - titre: "Matt Somerfield, Motorsport.com, « The car that set the tone for Mercedes' F1 dominance » (janvier 2021)"
     url: "https://www.motorsport.com/f1/news/mercedes-w05-retro-tech-secrets/5135143/"
-  - titre: "Royal Automobile Club, « In the Rotunda, July 2026 »"
+  - titre: "Royal Automobile Club, « In the Rotunda, July 2026 »"
     url: "https://www.royalautomobileclub.co.uk/motoring-news/in-the-rotunda-july-2026/"
-  - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season » (3 décembre 2015)"
+  - titre: "Guinness World Records, « Most pole positions by a constructor in a Formula One season » (3 décembre 2015)"
     url: "https://www.guinnessworldrecords.com/world-records/381804-most-pole-positions-by-a-constructor-in-a-formula-one-season"
-  - titre: "Mark Hughes, Motor Sport Magazine, « Outstanding in the shadows » (août 2015)"
+  - titre: "Mark Hughes, Motor Sport Magazine, « Outstanding in the shadows » (août 2015)"
     url: "https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows"
-  - titre: "Formula 1, « Emilia Romagna GP Facts & Stats: Hamilton ties another Schumacher record while Mercedes re-write record books once more » (novembre 2020)"
+  - titre: "Formula 1, « Emilia Romagna GP Facts & Stats: Hamilton ties another Schumacher record while Mercedes re-write record books once more » (novembre 2020)"
     url: "https://www.formula1.com/en/latest/article/facts-and-stats-hamilton-ties-another-schumacher-record-while-mercedes-re.7paUkRxYIc3QQbztCSHgV5"
-  - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
+  - titre: "Mercedes-AMG Petronas F1 Team, « The Past Six New F1 Eras: What Changed and What Happened? » (mars 2026)"
     url: "https://www.mercedesamgf1.com/news/the-past-six-new-f1-eras-what-changed-and-what-happened"
 photo:
   fichier: "/assets/voitures/mercedes-w05.jpg"
@@ -41,22 +41,22 @@ image: "/assets/partage/voitures/mercedes-w05.jpg"
 ---
 ## Ce qu'elle change
 
-En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo associé à des moteurs-générateurs électriques{% include src.html n="4,9" %}. La W05 est la réponse de Mercedes, et sa force tient autant à la méthode qu'au moteur{% include src.html n="4" %}. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres{% include src.html n="4" %}.
+En 2014, le règlement impose un [groupe propulseur hybride]({{ site.baseurl }}/glossaire/#groupe-propulseur-hybride) : un [V6]({{ site.baseurl }}/glossaire/#architecture-moteur) turbo associé à des moteurs-générateurs électriques{% include src.html n="4,9" %}. La W05 est la réponse de Mercedes, et sa force tient autant à la méthode qu'au moteur{% include src.html n="4" %}. Selon Motorsport.com, elle naît d'une union sans précédent entre les services châssis, aérodynamique et moteur, chaque partie étant pensée avec les autres{% include src.html n="4" %}.
 
-La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) séparé du moteur PU106{% include src.html n="4" %}. Le compresseur est placé à une extrémité du moteur, la turbine à l'autre : les parties chaude et froide restent éloignées, et le moteur-générateur qui récupère l'énergie des gaz d'échappement trouve sa place entre elles, dans le V du moteur{% include src.html n="4" %}. Un long arbre relie l'ensemble sur toute la longueur du moteur{% include src.html n="4" %}. L'air d'admission est refroidi par un échangeur à liquide plutôt qu'à air, logé au-dessus du réservoir, ce qui raccourcit son trajet{% include src.html n="4" %}.
+La pièce la plus remarquée est le [turbo]({{ site.baseurl }}/glossaire/#turbocompresseur) séparé du moteur PU106{% include src.html n="4" %}. Le compresseur est placé à une extrémité du moteur, la turbine à l'autre : les parties chaude et froide restent éloignées, et le moteur-générateur qui récupère l'énergie des gaz d'échappement trouve sa place entre elles, dans le V du moteur{% include src.html n="4" %}. Un long arbre relie l'ensemble sur toute la longueur du moteur{% include src.html n="4" %}. L'air d'admission est refroidi par un échangeur à liquide plutôt qu'à air, logé au-dessus du réservoir, ce qui raccourcit son trajet{% include src.html n="4" %}.
 
 ## Qui l'a conçue
 
-- Selon Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) est le directeur technique de l'équipe quand la voiture est conçue ; il se décrit comme le superviseur des deux volets, châssis et moteur, et veille à ce qu'ils s'accordent{% include src.html n="7" %}.
+- Selon Mark Hughes (Motor Sport), [Bob Bell]({{ site.baseurl }}{% link _ingenieurs/bob-bell.md %}) est le directeur technique de l'équipe quand la voiture est conçue ; il se décrit comme le superviseur des deux volets, châssis et moteur, et veille à ce qu'ils s'accordent{% include src.html n="7" %}.
 - [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}), arrivé de Ferrari comme directeur de l'ingénierie, mène la conception de la voiture{% include src.html n="1,2" %}.
 - Le groupe propulseur vient de Mercedes-AMG High Performance Powertrains, dirigé côté ingénierie par [Andy Cowell]({{ site.baseurl }}{% link _ingenieurs/andy-cowell.md %}){% include src.html n="3" %}.
-- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison{% include src.html n="3" %}. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré »{% include src.html n="3" %}. Il souligne que Cowell et les équipes châssis ont travaillé de concert{% include src.html n="3" %}. Il en revendique la méthode, non la conception{% include src.html n="3" %}.
+- [Ross Brawn]({{ site.baseurl }}{% link _ingenieurs/ross-brawn.md %}), ancien directeur de l'équipe, l'avait quittée durant l'hiver précédant la saison{% include src.html n="3" %}. Il y voit la même philosophie que pour la Benetton de 1994 et la Brawn de 2009 : « commencer tôt, avoir un programme dédié, et un programme très intégré »{% include src.html n="3" %}. Il souligne que Cowell et les équipes châssis ont travaillé de concert{% include src.html n="3" %}. Il en revendique la méthode, non la conception{% include src.html n="3" %}.
 
 ## Limites
 
-Le turbo séparé est, selon Motorsport.com, une disposition semée de complications : il a fallu repenser la taille et la forme du compresseur et de la turbine, et redessiner le réservoir d'huile{% include src.html n="4" %}. Au début de la saison, Costa lui-même doutait que la W05 domine toute l'année, après les progrès rapides de Red Bull{% include src.html n="1" %}.
+Le turbo séparé est, selon Motorsport.com, une disposition semée de complications : il a fallu repenser la taille et la forme du compresseur et de la turbine, et redessiner le réservoir d'huile{% include src.html n="4" %}. Au début de la saison, Costa lui-même doutait que la W05 domine toute l'année, après les progrès rapides de Red Bull{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **2014** : seize victoires en dix-neuf Grands Prix et dix-huit pole positions{% include src.html n="3,6" %}. Lewis Hamilton est champion du monde après une lutte d'une saison avec son équipier Nico Rosberg, et Mercedes remporte le titre constructeurs{% include src.html n="5" %}.
-- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon formula1.com{% include src.html n="2" %} ; au total, Mercedes remporte les deux titres sept années de suite, de 2014 à 2020{% include src.html n="4,8" %}.
+- **2014** : seize victoires en dix-neuf Grands Prix et dix-huit pole positions{% include src.html n="3,6" %}. Lewis Hamilton est champion du monde après une lutte d'une saison avec son équipier Nico Rosberg, et Mercedes remporte le titre constructeurs{% include src.html n="5" %}.
+- Le groupe de concepteurs de Costa domine ensuite l'ère hybride : cinq titres constructeurs et cinq titres pilotes de 2014 à 2018, selon formula1.com{% include src.html n="2" %} ; au total, Mercedes remporte les deux titres sept années de suite, de 2014 à 2020{% include src.html n="4,8" %}.

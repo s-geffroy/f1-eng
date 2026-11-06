@@ -3,7 +3,7 @@ title: "Cooper, John"
 nom_complet: "John Cooper"
 nom_tri: "cooper john"
 accroche: "Le moteur passe derrière le pilote"
-description: "John Cooper : le moteur passe derrière le pilote."
+description: "John Cooper : le moteur passe derrière le pilote."
 rang: 3
 tier: A
 score: "93,5"
@@ -12,21 +12,21 @@ domaine: "Architecture"
 lignees: ["architecture"]
 voir_aussi: ["owen-maddock", "colin-chapman"]
 sources:
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » (juin 2019)"
+  - titre: "Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » (juin 2019)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/"
-  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
+  - titre: "Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » (30 août 2019)"
     url: "https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/"
-  - titre: "500 Owners Association, « 1946 Prototype (T2/T3) »"
+  - titre: "500 Owners Association, « 1946 Prototype (T2/T3) »"
     url: "https://500race.org/marques/1946-prototype-t2-t3/"
-  - titre: "Nigel Roebuck, Motor Sport Magazine, « Legends » (octobre 2005)"
+  - titre: "Nigel Roebuck, Motor Sport Magazine, « Legends » (octobre 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/october-2005/14/nigel-roebucks-legends-18/"
-  - titre: "Indianapolis Motor Speedway, « Sir Jack Brabham: an appreciation » (2014)"
+  - titre: "Indianapolis Motor Speedway, « Sir Jack Brabham: an appreciation » (2014)"
     url: "https://www.indianapolismotorspeedway.com/news-multimedia/news/2014/05/19/sir-jack-brabham-an-appreciation"
-  - titre: "The Globe and Mail, « Mini Cooper and the full Monte » (31 mars 2011)"
+  - titre: "The Globe and Mail, « Mini Cooper and the full Monte » (31 mars 2011)"
     url: "https://www.theglobeandmail.com/globe-drive/reviews/classics/mini-cooper-and-the-full-monte/article4263669"
-  - titre: "GrandPrix.com, « Racing legend John Cooper dies aged 77 » (24 décembre 2000)"
+  - titre: "GrandPrix.com, « Racing legend John Cooper dies aged 77 » (24 décembre 2000)"
     url: "https://www.grandprix.com/news/racing-legend-john-cooper-dies-aged-77.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/john-cooper.jpg"
@@ -38,16 +38,16 @@ redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 
 ## La rupture
 
-Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**{% include src.html n="1,2" %}. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse{% include src.html n="2,4" %}. Sur la première Cooper de 500 cm³, le moteur est placé au milieu « pour des raisons largement pratiques »{% include src.html n="4" %} ; John Cooper le disait lui-même à Nigel Roebuck : sur une 500, mettre le moteur derrière était « la seule chose logique à faire »{% include src.html n="5" %}.
+Cooper fait passer la F1, de façon décisive, du moteur avant au **[moteur central-arrière]({{ site.baseurl }}/glossaire/#moteur-central-arriere)**{% include src.html n="1,2" %}. Il n'a pas inventé cette disposition, déjà employée avant lui ; il l'a popularisée et rendue victorieuse{% include src.html n="2,4" %}. Sur la première Cooper de 500 cm³, le moteur est placé au milieu « pour des raisons largement pratiques »{% include src.html n="4" %} ; John Cooper le disait lui-même à Nigel Roebuck : sur une 500, mettre le moteur derrière était « la seule chose logique à faire »{% include src.html n="5" %}.
 
 ## Des 500 cm³ à la F1
 
-- **1946.** Le prototype de John Cooper et Eric Brandon reprend la suspension avant d'une Fiat Topolino accidentée ; une chaîne mène à une boîte Triumph Speed Twin, une seconde chaîne à l'essieu arrière{% include src.html n="4" %}.
-- **1948.** L'entreprise se lance dans la vente de répliques : douze monoplaces « Mark 2 » sont mises en chantier{% include src.html n="3" %}.
+- **1946.** Le prototype de John Cooper et Eric Brandon reprend la suspension avant d'une Fiat Topolino accidentée ; une chaîne mène à une boîte Triumph Speed Twin, une seconde chaîne à l'essieu arrière{% include src.html n="4" %}.
+- **1948.** L'entreprise se lance dans la vente de répliques : douze monoplaces « Mark 2 » sont mises en chantier{% include src.html n="3" %}.
 - **1958.** Les Cooper apportent au moteur placé derrière le pilote ses premières victoires en championnat du monde{% include src.html n="2,3" %}.
 - **1959.** La T51, animée par le quatre cylindres Coventry Climax FPF de 245 ch, apporte le titre{% include src.html n="2" %}.
-- **1960.** La T53 « Lowline » permet un second doublé des titres{% include src.html n="3" %}.
-- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait son retour{% include src.html n="6" %}.
+- **1960.** La T53 « Lowline » permet un second doublé des titres{% include src.html n="3" %}.
+- **1961.** À Indianapolis, Jack Brabham termine neuvième sur une Cooper au moteur Climax porté de 2,5 à 2,7 litres : le moteur arrière, déjà essayé sans succès à Indianapolis entre 1937 et 1951, y fait son retour{% include src.html n="6" %}.
 - **Septembre 1961.** Naît la Mini Cooper, avec un quatre cylindres de 997 cm³ à deux carburateurs et 55 ch{% include src.html n="7" %}.
 
 John Cooper meurt la veille de Noël 2000, à 77 ans{% include src.html n="5,8" %}.
@@ -58,9 +58,9 @@ Ce changement concentre les masses dans l'empattement, abaisse le [moment polair
 
 ## Attribution
 
-formula1.com crédite John Cooper de l'essentiel du basculement{% include src.html n="1" %} ; Doug Nye précise qu'il y a contribué techniquement, mais surtout en sachant convaincre son père, Charles, de plus en plus conservateur{% include src.html n="3" %}. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960{% include src.html n="3" %}.
+formula1.com crédite John Cooper de l'essentiel du basculement{% include src.html n="1" %} ; Doug Nye précise qu'il y a contribué techniquement, mais surtout en sachant convaincre son père, Charles, de plus en plus conservateur{% include src.html n="3" %}. Mais [Owen Maddock]({{ site.baseurl }}{% link _ingenieurs/owen-maddock.md %}) est le chef designer de Cooper pendant les titres de 1959 et 1960, et le concepteur de la boîte C5S de 1960{% include src.html n="3" %}.
 
-La formulation juste : **Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
+La formulation juste : **Cooper a imposé l'architecture à moteur arrière avec une équipe de conception dans laquelle Owen Maddock joue un rôle central.**
 
 ## Verdict
 

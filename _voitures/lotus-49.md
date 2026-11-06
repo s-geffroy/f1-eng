@@ -2,30 +2,30 @@
 title: "Lotus 49"
 nom_tri: "lotus 49"
 accroche: "Le moteur DFV devient l'arrière de la voiture."
-description: "Lotus 49 (1967) : conçue avec le Cosworth DFV, qui forme l'arrière de la voiture, elle gagne dès sa première course."
+description: "Lotus 49 (1967) : conçue avec le Cosworth DFV, qui forme l'arrière de la voiture, elle gagne dès sa première course."
 annee: 1967
 equipe: "Team Lotus"
 moteur: "Cosworth DFV, V8 de 3 litres"
-statut: "A couru de 1967 à 1970 ; titres pilotes et constructeurs en 1968"
+statut: "A couru de 1967 à 1970 ; titres pilotes et constructeurs en 1968"
 concepteurs: ["colin-chapman", "maurice-philippe", "keith-duckworth", "mike-costin"]
 termes: ["moteur-porteur", "monocoque", "aileron"]
 jalons: ["dfv", "dfv-fva", "ailerons"]
 sources:
-  - titre: "Denis Jenkinson, Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
+  - titre: "Denis Jenkinson, Motor Sport Magazine, « The Lotus 49 » (juillet 1967)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/"
-  - titre: "Lotus Cars, « Type 49 »"
+  - titre: "Lotus Cars, « Type 49 »"
     url: "https://www.lotuscars.com/en/lotus-story/race-cars/type-49"
-  - titre: "Goodwood, « On this day in… 1967 »"
+  - titre: "Goodwood, « On this day in… 1967 »"
     url: "https://www.goodwood.com/grr/f1/on-this-day-in...-1967/"
-  - titre: "Motor Sport Magazine, « Tasmanian double » (juin 2014)"
+  - titre: "Motor Sport Magazine, « Tasmanian double » (juin 2014)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2014/102/tasmanian-double/"
-  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
+  - titre: "Andrew Frankel, Goodwood, « Thank Frankel It's Friday: The greatest engine of all » (octobre 2016)"
     url: "https://www.goodwood.com/grr/columnists/andrew-frankel/2016/10/thank-frankel-its-friday-the-greatest-engine-of-all/"
-  - titre: "Stellantis Heritage, « Lancia D50 » (2024)"
+  - titre: "Stellantis Heritage, « Lancia D50 » (2024)"
     url: "https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50"
 photo:
   fichier: "/assets/voitures/lotus-49.jpg"
-  legende: "Jim Clark sur la Lotus 49 aux essais du Grand Prix des Pays-Bas, à Zandvoort, le 2 juin 1967 : les débuts de la voiture."
+  legende: "Jim Clark sur la Lotus 49 aux essais du Grand Prix des Pays-Bas, à Zandvoort, le 2 juin 1967 : les débuts de la voiture."
   auteur: "Eric Koch / Anefo (Nationaal Archief)"
   licence: "CC BY-SA 3.0 NL"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
@@ -35,11 +35,11 @@ image: "/assets/partage/voitures/lotus-49.jpg"
 ---
 ## Ce qu'elle change
 
-La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble{% include src.html n="1,2" %}. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture{% include src.html n="1" %}. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui{% include src.html n="2" %}. Duckworth dessine un [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie{% include src.html n="1" %}.
+La Lotus 49 et le moteur Cosworth DFV sont conçus ensemble{% include src.html n="1,2" %}. Motor Sport le note dès juillet 1967 : le moteur doit faire partie du châssis, assez résistant pour former l'arrière de la voiture{% include src.html n="1" %}. Le [moteur porteur]({{ site.baseurl }}/glossaire/#moteur-porteur) réduit la [monocoque]({{ site.baseurl }}/glossaire/#monocoque) à une simple nacelle devant lui{% include src.html n="2" %}. Duckworth dessine un [V8]({{ site.baseurl }}/glossaire/#architecture-moteur) court et très rigide : l'avant de la voiture est fixé à l'avant du moteur, et la suspension arrière à son dos, sur des points d'ancrage prévus dans les pièces de fonderie{% include src.html n="1" %}.
 
 Le même article précise que la voiture n'est pas nouvelle dans son principe, mais entièrement nouvelle dans sa réalisation{% include src.html n="1" %}. La [Lancia D50]({{ site.baseurl }}{% link _voitures/lancia-d50.md %}) employait déjà son moteur comme élément structurel en 1954{% include src.html n="5,6" %}. La Lotus 49 en fait la norme{% include src.html n="2" %}.
 
-La mise au point est serrée : selon Denis Jenkinson (Motor Sport), la première 49 ne roule qu'à la mi-mai 1967, Graham Hill assure seul les essais, et Jim Clark découvre la voiture à Zandvoort, où il gagne le Grand Prix des Pays-Bas pour sa première course{% include src.html n="1,3" %}. Goodwood écrit, lui, que le moteur n'a été marié à la voiture que « quelques jours » avant la course{% include src.html n="3" %}.
+La mise au point est serrée : selon Denis Jenkinson (Motor Sport), la première 49 ne roule qu'à la mi-mai 1967, Graham Hill assure seul les essais, et Jim Clark découvre la voiture à Zandvoort, où il gagne le Grand Prix des Pays-Bas pour sa première course{% include src.html n="1,3" %}. Goodwood écrit, lui, que le moteur n'a été marié à la voiture que « quelques jours » avant la course{% include src.html n="3" %}.
 
 ## Qui l'a conçue
 

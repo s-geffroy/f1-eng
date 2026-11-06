@@ -3,7 +3,7 @@ title: "Murray, Gordon"
 nom_complet: "Gordon Murray"
 nom_tri: "murray gordon"
 accroche: "La radicalité pragmatique"
-description: "Gordon Murray : la radicalité pragmatique."
+description: "Gordon Murray : la radicalité pragmatique."
 rang: 7
 tier: B
 score: "88,5"
@@ -19,33 +19,33 @@ portrait:
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source: "https://commons.wikimedia.org/wiki/File:Gordon_Murray_chats_in_the_paddock_behind_the_pits_at_the_1996_Le_Mans_(51816281021).jpg"
 sources:
-  - titre: "Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
+  - titre: "Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
-  - titre: "Motor Sport Magazine, « Vacuum clean-up » (mai 1998)"
+  - titre: "Motor Sport Magazine, « Vacuum clean-up » (mai 1998)"
     url: "https://www.motorsportmagazine.com/archive/article/may-1998/65/vacuum-clean/"
-  - titre: "Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » (10 mai 2020)"
+  - titre: "Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » (10 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1"
-  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
+  - titre: "Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » (6 mai 2020)"
     url: "https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX"
-  - titre: "Formula 1, « Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time » (20 avril 2022)"
+  - titre: "Formula 1, « Beyond the Grid: Steve Nichols on designing the most dominant F1 car of all time » (20 avril 2022)"
     url: "https://www.formula1.com/en/latest/article/beyond-the-grid-steve-nichols-on-designing-the-most-dominant-f1-car-of-all.4VbPppUeoRqwSNnd8ns9A3"
-  - titre: "Goodwood, « 2025 Festival of Speed Central Feature to celebrate Gordon Murray and GMA »"
+  - titre: "Goodwood, « 2025 Festival of Speed Central Feature to celebrate Gordon Murray and GMA »"
     url: "https://www.goodwood.com/grr/event-coverage/festival-of-speed/2025-festival-of-speed-central-feature-to-celebrate-gordon-murray-and-gma/"
-  - titre: "Motor Sport Magazine, « 1978 Swedish GP: Brabham fan car wins its one and only race »"
+  - titre: "Motor Sport Magazine, « 1978 Swedish GP: Brabham fan car wins its one and only race »"
     url: "https://www.motorsportmagazine.com/special-article/the-75-greatest-grands-prix/6/75-1978-swedish-gp-brabham-fan-car-wins-its-one-and-only-race/"
-  - titre: "Simon Taylor, Motor Sport Magazine, « Modern times » (juillet 2003)"
+  - titre: "Simon Taylor, Motor Sport Magazine, « Modern times » (juillet 2003)"
     url: "https://www.motorsportmagazine.com/archive/article/july-2003/20/modern-times/"
-  - titre: "Formula 1, « TECH TUESDAY: The ground-breaking Brabham BT52 » (14 août 2018)"
+  - titre: "Formula 1, « TECH TUESDAY: The ground-breaking Brabham BT52 » (14 août 2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
-  - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
+  - titre: "Gary Watkins, Autosport, « The origins of McLaren-Honda's greatest racer »"
     url: "https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/"
-  - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
+  - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
-  - titre: "Motor Sport Magazine, James Elson, « 'Gordon Murray's living in a parallel universe' — McLaren designers hit back over MP4/4 claims » (octobre 2021)"
+  - titre: "Motor Sport Magazine, James Elson, « 'Gordon Murray's living in a parallel universe' — McLaren designers hit back over MP4/4 claims » (octobre 2021)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/gordon-murrays-living-in-a-parallel-universe-mclaren-designers-hit-back-over-mp4-4-claims/"
-  - titre: "Matthew Jeffreys, Motor Sport Magazine, « Matthew Jeffreys challenges Gordon Murray's account of the McLaren MP4/4 » (novembre 2026)"
+  - titre: "Matthew Jeffreys, Motor Sport Magazine, « Matthew Jeffreys challenges Gordon Murray's account of the McLaren MP4/4 » (novembre 2026)"
     url: "https://www.motorsportmagazine.com/archive/article/november-2026/42/matthew-jeffreys-challenges-gordon-murrays-account-of-the-mclaren-mp4-4/"
-  - titre: "Joe Saward, GrandPrix.com, « David North and Jordan? » (mai 2005)"
+  - titre: "Joe Saward, GrandPrix.com, « David North and Jordan? » (mai 2005)"
     url: "https://www.grandprix.com/news/david-north-and-jordan.html"
 consultation: "25 octobre 2026"
 image: "/assets/partage/gordon-murray.jpg"
@@ -55,16 +55,16 @@ redirect_from: "/ingenieurs/2026/10/25/gordon-murray.html"
 
 Murray combine radicalité conceptuelle et pragmatisme{% include src.html n="3,4,9" %}. Promu chef designer de Brabham, il y signe plusieurs voitures qui ont fait date{% include src.html n="6" %}.
 
-- **La Brabham BT46B (1978)**, à la conception de laquelle participe [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}){% include src.html n="14" %}, porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo{% include src.html n="7" %}. Elle gagne le Grand Prix de Suède avec Niki Lauda et ne court qu'une fois : les sources divergent sur les circonstances de son retrait, que détaille la [fiche de la voiture]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="2,7" %}.
-- **L'arrêt au stand tactique moderne.** Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) revient en 1982 grâce à Brabham et à Murray{% include src.html n="8" %}. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine{% include src.html n="8" %}.
-- **La Brabham BT52 (1983).** Après l'annonce, le 3 novembre 1982, du [fond plat]({{ site.baseurl }}/glossaire/#fond-plat) obligatoire, qui interdit les fonds à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) et les [jupes]({{ site.baseurl }}/glossaire/#jupes){% include src.html n="1,9" %}, la BT52, dont Murray dit avoir dessiné « chaque pièce » avec David North{% include src.html n="1" %}, est conçue et construite en six semaines{% include src.html n="9" %}. Murray lui-même parle de trois mois{% include src.html n="11" %}. Nelson Piquet devient avec elle le premier champion du monde sur moteur turbo, et le système modulaire de Murray est ensuite largement copié{% include src.html n="9" %}.
+- **La Brabham BT46B (1978)**, à la conception de laquelle participe [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}){% include src.html n="14" %}, porte un grand [ventilateur]({{ site.baseurl }}/glossaire/#voiture-a-ventilateur) vertical sous l'[aileron]({{ site.baseurl }}/glossaire/#aileron) arrière, officiellement pour refroidir le [flat-12]({{ site.baseurl }}/glossaire/#flat-12) Alfa Romeo{% include src.html n="7" %}. Elle gagne le Grand Prix de Suède avec Niki Lauda et ne court qu'une fois : les sources divergent sur les circonstances de son retrait, que détaille la [fiche de la voiture]({{ site.baseurl }}{% link _voitures/brabham-bt46b.md %}){% include src.html n="2,7" %}.
+- **L'arrêt au stand tactique moderne.** Le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement) revient en 1982 grâce à Brabham et à Murray{% include src.html n="8" %}. Riccardo Patrese y prend quatre pneus neufs et 24 gallons d'essence en 15,6 secondes : c'est le premier arrêt moderne de routine{% include src.html n="8" %}.
+- **La Brabham BT52 (1983).** Après l'annonce, le 3 novembre 1982, du [fond plat]({{ site.baseurl }}/glossaire/#fond-plat) obligatoire, qui interdit les fonds à [effet de sol]({{ site.baseurl }}/glossaire/#effet-de-sol) et les [jupes]({{ site.baseurl }}/glossaire/#jupes){% include src.html n="1,9" %}, la BT52, dont Murray dit avoir dessiné « chaque pièce » avec David North{% include src.html n="1" %}, est conçue et construite en six semaines{% include src.html n="9" %}. Murray lui-même parle de trois mois{% include src.html n="11" %}. Nelson Piquet devient avec elle le premier champion du monde sur moteur turbo, et le système modulaire de Murray est ensuite largement copié{% include src.html n="9" %}.
 - **McLaren et la MP4/4.** Murray rejoint ensuite McLaren, où naît la MP4/4, qui gagne 15 des 16 courses de 1988{% include src.html n="6" %}.
 
-## Attribution : la MP4/4
+## Attribution : la MP4/4
 
-formula1.com attribue la MP4/4 tantôt à Murray, dans son vote sur l'innovateur technique le plus influent{% include src.html n="3,4" %}, tantôt à Steve Nichols, dans sa présentation du podcast Beyond the Grid{% include src.html n="5" %}. La paternité est discutée{% include src.html n="10" %}. Selon Autosport, Murray et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), alors directeur technique et chef designer de McLaren, ont tous deux été présentés comme son concepteur ; Nichols juge le rôle de Murray « plus directorial que technique »{% include src.html n="10" %}. Autosport conclut toutefois que le dessin de détail revient à Nichols et à son équipe, mais que Murray, comme il sied à un directeur technique, était au cœur du concept{% include src.html n="10" %}. La formulation prudente s'impose : Murray a joué un rôle central dans le concept de la MP4/4, il n'en est pas l'auteur unique. L'équipe de conception conteste d'ailleurs son récit : selon Motor Sport, ses dix-sept membres avaient relevé par écrit 82 inexactitudes dans le livre d'Ian Bamsey qui lui attribuait la voiture{% include src.html n="12" %}, et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), chef de projet de la monocoque et de la suspension avant, le conteste encore publiquement en 2026{% include src.html n="13" %}.
+formula1.com attribue la MP4/4 tantôt à Murray, dans son vote sur l'innovateur technique le plus influent{% include src.html n="3,4" %}, tantôt à Steve Nichols, dans sa présentation du podcast Beyond the Grid{% include src.html n="5" %}. La paternité est discutée{% include src.html n="10" %}. Selon Autosport, Murray et [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), alors directeur technique et chef designer de McLaren, ont tous deux été présentés comme son concepteur ; Nichols juge le rôle de Murray « plus directorial que technique »{% include src.html n="10" %}. Autosport conclut toutefois que le dessin de détail revient à Nichols et à son équipe, mais que Murray, comme il sied à un directeur technique, était au cœur du concept{% include src.html n="10" %}. La formulation prudente s'impose : Murray a joué un rôle central dans le concept de la MP4/4, il n'en est pas l'auteur unique. L'équipe de conception conteste d'ailleurs son récit : selon Motor Sport, ses dix-sept membres avaient relevé par écrit 82 inexactitudes dans le livre d'Ian Bamsey qui lui attribuait la voiture{% include src.html n="12" %}, et [Matthew Jeffreys]({{ site.baseurl }}{% link _ingenieurs/matthew-jeffreys.md %}), chef de projet de la monocoque et de la suspension avant, le conteste encore publiquement en 2026{% include src.html n="13" %}.
 
 ## Pourquoi le Tier B
 
-Ses idées sont fortes et souvent inattendues, mais la **diffusion de certaines ruptures reste inégale**. La BT46B n'a couru qu'une fois{% include src.html n="7" %} : une innovation retirée conserve sa valeur de rupture, sans prouver une influence durable. L'arrêt au stand tactique, que les autres équipes ne copient pas tout de suite (à Rio, en 1983, seule Williams tente aussi un ravitaillement{% include src.html n="1" %}), et le système modulaire de la BT52, largement copié{% include src.html n="9" %}, ont en revanche fait école{% include src.html n="1,8" %}.
+Ses idées sont fortes et souvent inattendues, mais la **diffusion de certaines ruptures reste inégale**. La BT46B n'a couru qu'une fois{% include src.html n="7" %} : une innovation retirée conserve sa valeur de rupture, sans prouver une influence durable. L'arrêt au stand tactique, que les autres équipes ne copient pas tout de suite (à Rio, en 1983, seule Williams tente aussi un ravitaillement{% include src.html n="1" %}), et le système modulaire de la BT52, largement copié{% include src.html n="9" %}, ont en revanche fait école{% include src.html n="1,8" %}.
 

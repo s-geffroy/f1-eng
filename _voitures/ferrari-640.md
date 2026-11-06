@@ -2,7 +2,7 @@
 title: "Ferrari 640"
 nom_tri: "ferrari 640"
 accroche: "La boîte au volant, née d'un problème d'encombrement."
-description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; selon formula1.com, toute la F1 l'adopte au milieu des années 1990."
+description: "Ferrari 640 (1989) : la première boîte semi-automatique commandée par palettes au volant gagne dès sa première course ; selon formula1.com, toute la F1 l'adopte au milieu des années 1990."
 annee: 1989
 equipe: "Scuderia Ferrari"
 moteur: "Ferrari V12 atmosphérique de 3,5 litres"
@@ -11,13 +11,13 @@ concepteurs: ["john-barnard"]
 termes: ["boite-semi-automatique", "monocoque"]
 jalons: ["ferrari-640"]
 sources:
-  - titre: "Motor Sport Magazine, « X-ray spec: Ferrari 640 » (juin 2005)"
+  - titre: "Motor Sport Magazine, « X-ray spec: Ferrari 640 » (juin 2005)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2005/70/ferrari-640/"
-  - titre: "Motor Sport Magazine, « Ferrari's 640: the 1989 flawed masterpiece » (juin 2022)"
+  - titre: "Motor Sport Magazine, « Ferrari's 640: the 1989 flawed masterpiece » (juin 2022)"
     url: "https://www.motorsportmagazine.com/archive/article/june-2022/114/ferraris-640-the-1989-flawed-masterpiece-thats-still-influencing-f1-design/"
-  - titre: "Motorsport.com, « The troubled car that was a game changer for F1 » (2021)"
+  - titre: "Motorsport.com, « The troubled car that was a game changer for F1 » (2021)"
     url: "https://www.motorsport.com/f1/news/the-troubled-car-that-was-a-game-changer-for-f1/4801236/"
-  - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » (5 mars 2025)"
+  - titre: "Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » (5 mars 2025)"
     url: "https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja"
 photo:
   fichier: "/assets/voitures/ferrari-640.jpg"
@@ -33,25 +33,25 @@ image: "/assets/partage/voitures/ferrari-640.jpg"
 
 La Ferrari 640 remplace le levier de vitesses par une [boîte semi-automatique]({{ site.baseurl }}/glossaire/#boite-semi-automatique) à commande électrohydraulique, actionnée par des palettes derrière le volant{% include src.html n="1,4" %}.
 
-On pense d'abord au temps gagné à chaque changement de rapport{% include src.html n="1" %}. Ce n'était pas le point de départ{% include src.html n="1,3" %}. John Barnard l'explique dans Motor Sport : « Le projet est né parce que je voulais une monocoque vraiment étroite. »{% include src.html n="1" %} Il fallait alors faire passer une tringlerie de l'habitacle jusqu'à la boîte, le long du moteur, et trouver de la place pour le levier et la main du pilote{% include src.html n="1" %}. « Je me suis dit : au lieu d'un levier, je peux sûrement avoir un interrupteur. C'était donc une contrainte d'encombrement. »{% include src.html n="1" %} Le gain de temps est venu ensuite{% include src.html n="1" %}.
+On pense d'abord au temps gagné à chaque changement de rapport{% include src.html n="1" %}. Ce n'était pas le point de départ{% include src.html n="1,3" %}. John Barnard l'explique dans Motor Sport : « Le projet est né parce que je voulais une monocoque vraiment étroite. »{% include src.html n="1" %} Il fallait alors faire passer une tringlerie de l'habitacle jusqu'à la boîte, le long du moteur, et trouver de la place pour le levier et la main du pilote{% include src.html n="1" %}. « Je me suis dit : au lieu d'un levier, je peux sûrement avoir un interrupteur. C'était donc une contrainte d'encombrement. »{% include src.html n="1" %} Le gain de temps est venu ensuite{% include src.html n="1" %}.
 
-Selon Motor Sport, l'idée aurait germé quand Barnard réglait les problèmes de tringlerie de la Chaparral 2K, victorieuse des 500 Miles d'Indianapolis en 1980{% include src.html n="2" %} ; Barnard lui-même, interrogé, ne mentionne pas la Chaparral. La boîte devait d'abord équiper la 639 en 1988, mais Ferrari court cette saison-là avec son moteur turbo{% include src.html n="1,3" %}.
+Selon Motor Sport, l'idée aurait germé quand Barnard réglait les problèmes de tringlerie de la Chaparral 2K, victorieuse des 500 Miles d'Indianapolis en 1980{% include src.html n="2" %} ; Barnard lui-même, interrogé, ne mentionne pas la Chaparral. La boîte devait d'abord équiper la 639 en 1988, mais Ferrari court cette saison-là avec son moteur turbo{% include src.html n="1,3" %}.
 
-La [monocoque]({{ site.baseurl }}/glossaire/#monocoque) étroite entraîne d'autres choix : une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable, et un flux d'air des radiateurs entièrement canalisé jusqu'à l'arrière, loin de l'aileron{% include src.html n="1,3" %}.
+La [monocoque]({{ site.baseurl }}/glossaire/#monocoque) étroite entraîne d'autres choix : une suspension avant à courtes barres de torsion, qui lance selon Barnard une mode durable, et un flux d'air des radiateurs entièrement canalisé jusqu'à l'arrière, loin de l'aileron{% include src.html n="1,3" %}.
 
 ## Qui l'a conçue
 
-[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), arrivé chez Ferrari fin 1986{% include src.html n="1,2" %}. L'origine des palettes est racontée de deux façons :
+[John Barnard]({{ site.baseurl }}{% link _ingenieurs/john-barnard.md %}), arrivé chez Ferrari fin 1986{% include src.html n="1,2" %}. L'origine des palettes est racontée de deux façons :
 
-- selon Barnard, il pensait à des boutons sur le volant, et quelqu'un du bureau d'études, dont il ne se rappelle plus le nom, a proposé des palettes, comme en karting{% include src.html n="1" %} ;
+- selon Barnard, il pensait à des boutons sur le volant, et quelqu'un du bureau d'études, dont il ne se rappelle plus le nom, a proposé des palettes, comme en karting{% include src.html n="1" %} ;
 - selon Motorsport.com, c'est Piero Lardi Ferrari qui les a suggérées{% include src.html n="3" %}.
 
 ## Limites
 
-La 640 finit rarement ses courses{% include src.html n="2" %}. On accuse la boîte, mais selon Barnard, bien des abandons du début de 1989 attribués à la boîte venaient d'une coupure de son alimentation électrique : la courroie de l'alternateur sautait{% include src.html n="1" %}. Inquiet, Vittorio Ghidella, qui dirigeait Ferrari après la mort d'Enzo Ferrari, avait même fait construire une version à boîte manuelle{% include src.html n="1,2" %}. Nigel Mansell l'essaie, et conseille de l'oublier{% include src.html n="1" %}.
+La 640 finit rarement ses courses{% include src.html n="2" %}. On accuse la boîte, mais selon Barnard, bien des abandons du début de 1989 attribués à la boîte venaient d'une coupure de son alimentation électrique : la courroie de l'alternateur sautait{% include src.html n="1" %}. Inquiet, Vittorio Ghidella, qui dirigeait Ferrari après la mort d'Enzo Ferrari, avait même fait construire une version à boîte manuelle{% include src.html n="1,2" %}. Nigel Mansell l'essaie, et conseille de l'oublier{% include src.html n="1" %}.
 
 ## Ce qu'elle laisse
 
-- **1989** : Mansell gagne la première course, au Brésil, à la surprise générale, puis en Hongrie ; Gerhard Berger gagne au Portugal{% include src.html n="1" %}. Ferrari finit troisième chez les constructeurs{% include src.html n="1" %}.
+- **1989** : Mansell gagne la première course, au Brésil, à la surprise générale, puis en Hongrie ; Gerhard Berger gagne au Portugal{% include src.html n="1" %}. Ferrari finit troisième chez les constructeurs{% include src.html n="1" %}.
 - En 1990, la 641, légèrement retouchée, manque de peu le titre avec Alain Prost{% include src.html n="1" %}.
 - Selon formula1.com, la boîte semi-automatique est adoptée par toutes les équipes au milieu des années 1990{% include src.html n="4" %}.

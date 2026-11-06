@@ -3,7 +3,7 @@ title: "Dudot, Bernard"
 nom_complet: "Bernard Dudot"
 nom_tri: "dudot bernard"
 accroche: "Turbo, rappel pneumatique, V10"
-description: "Bernard Dudot : turbo, rappel pneumatique, V10."
+description: "Bernard Dudot : turbo, rappel pneumatique, V10."
 rang: 6
 tier: B
 score: "90,0"
@@ -12,21 +12,21 @@ domaine: "Moteur"
 lignees: []
 voir_aussi: ["keith-duckworth", "andy-cowell"]
 sources:
-  - titre: "Motor Sport Magazine, « Renault blew it! The pioneering F1 turbo that failed Prost in title bid » (décembre 2024)"
+  - titre: "Motor Sport Magazine, « Renault blew it! The pioneering F1 turbo that failed Prost in title bid » (décembre 2024)"
     url: "https://www.motorsportmagazine.com/archive/article/december-2024/38/renault-blew-it-the-pioneering-f1-turbo-that-failed-prost-in-title-bid/"
-  - titre: "Renault, « 30 ans de Formule 1 » (2007)"
+  - titre: "Renault, « 30 ans de Formule 1 » (2007)"
     url: "https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf"
-  - titre: "Motor Sport Magazine, « Renault Returns » (juillet 1988)"
+  - titre: "Motor Sport Magazine, « Renault Returns » (juillet 1988)"
     url: "https://www.motorsportmagazine.com/archive/article/july-1988/7/renault-returns/"
-  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1990)"
+  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1990)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot.html"
-  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1992)"
+  - titre: "Joe Saward, GrandPrix.com, « Interview: Bernard Dudot » (1992)"
     url: "https://www.grandprix.com/features/joe-saward/interview-bernard-dudot-2.html"
-  - titre: "Motor Sport, « Senna's Lotus 98T heads to auction with an estimate of up to $12m » (mars 2026)"
+  - titre: "Motor Sport, « Senna's Lotus 98T heads to auction with an estimate of up to $12m » (mars 2026)"
     url: "https://www.motorsportmagazine.com/articles/single-seaters/f1/sennas-lotus-98t-heads-to-auction-with-an-estimate-of-up-to-12m/"
-  - titre: "Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)"
+  - titre: "Honda, « 1989 McLaren Honda MP4/5 » (site du constructeur, non daté)"
     url: "https://global.honda/en/F1/machine/1989_McLarenHondaMP45/"
-  - titre: "Goodwood, Simon Ostler, « The best F1 engine eras ranked » (octobre 2022)"
+  - titre: "Goodwood, Simon Ostler, « The best F1 engine eras ranked » (octobre 2022)"
     url: "https://www.goodwood.com/grr/f1/the-best-f1-engine-eras-ranked/"
 consultation: "25 octobre 2026"
 image: "/assets/partage/bernard-dudot.jpg"
@@ -34,13 +34,13 @@ redirect_from: "/ingenieurs/2026/10/25/bernard-dudot.html"
 ---
 ## Ce qu'il a changé
 
-Bernard Dudot est associé aux trois mutations du moteur Renault que le reste du plateau a ensuite adoptées{% include src.html n="1,2,6" %} :
+Bernard Dudot est associé aux trois mutations du moteur Renault que le reste du plateau a ensuite adoptées{% include src.html n="1,2,6" %} :
 
 **Turbo → [rappel pneumatique]({{ site.baseurl }}/glossaire/#rappel-pneumatique) des soupapes → V10**
 
 - **Le turbo.** Selon Renault, toutes les équipes de F1 ont un moteur turbo au cours de la saison 1985{% include src.html n="2" %}.
 - **Le rappel pneumatique des soupapes**, introduit sur le moteur EF15 B de 1986, est utilisé, selon Renault, sur tous les moteurs F1 à partir des années 1990{% include src.html n="2" %}.
-- **Le V10.** Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988){% include src.html n="3" %}, à la tête d'une équipe d'une vingtaine d'ingénieurs{% include src.html n="4" %}. Renault n'est pas seul : Honda engage lui aussi un V10 en 1989{% include src.html n="7" %}. Le V10 Renault domine en 1992 et 1993 ; en 1994, seul Ferrari reste au V12, qu'il abandonne en 1996, et le règlement impose les dix cylindres en 2000{% include src.html n="8" %}. Renault y voit l'effet de son moteur{% include src.html n="2" %}.
+- **Le V10.** Le [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) de 3,5 litres à 67° est conçu par Bernard Dudot (Motor Sport, 1988){% include src.html n="3" %}, à la tête d'une équipe d'une vingtaine d'ingénieurs{% include src.html n="4" %}. Renault n'est pas seul : Honda engage lui aussi un V10 en 1989{% include src.html n="7" %}. Le V10 Renault domine en 1992 et 1993 ; en 1994, seul Ferrari reste au V12, qu'il abandonne en 1996, et le règlement impose les dix cylindres en 2000{% include src.html n="8" %}. Renault y voit l'effet de son moteur{% include src.html n="2" %}.
 
 ## Parcours technique
 
@@ -48,14 +48,14 @@ Bernard Dudot est associé aux trois mutations du moteur Renault que le reste du
 - En 1973, [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}) le fait venir d'Alpine et l'envoie en Californie étudier la [suralimentation]({{ site.baseurl }}/glossaire/#turbocompresseur){% include src.html n="4" %}.
 - En avril 1975, quand Renault décide de s'engager en F1, il prend la tête du programme moteur F1, sous la direction technique de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}){% include src.html n="4,5" %}.
 - En 1980, il devient directeur technique de Renault Sport{% include src.html n="4,5" %}.
-- En 1986, Renault suspend son engagement{% include src.html n="2,4" %}. Sur l'insistance de Dudot, une cellule de veille technique est maintenue{% include src.html n="2" %} : c'est d'elle que sort le V10, dessiné par Dudot et une équipe d'une vingtaine d'ingénieurs à Viry{% include src.html n="2,4" %}.
+- En 1986, Renault suspend son engagement{% include src.html n="2,4" %}. Sur l'insistance de Dudot, une cellule de veille technique est maintenue{% include src.html n="2" %} : c'est d'elle que sort le V10, dessiné par Dudot et une équipe d'une vingtaine d'ingénieurs à Viry{% include src.html n="2,4" %}.
 - Renault compte ensuite six titres consécutifs pour son V10 dans les années 1990{% include src.html n="2" %}.
 
 ## Attribution
 
-Renault Sport est une organisation, et les sources le montrent : GrandPrix.com attribue l'idée de suralimenter le moteur de course à **Jean Terramorsi**, directeur de Gordini{% include src.html n="4" %}, et le premier moteur turbo de F1 de Renault, l'EF1, dérive du V6 de 2 litres conçu par **François Castaing** et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}){% include src.html n="1,4" %}. Le document Renault présente Dudot comme « responsable des moteurs »{% include src.html n="2" %}. Il n'est donc pas l'inventeur solitaire de ces technologies : il en est la figure technique centrale, de leur maturation au V10.
+Renault Sport est une organisation, et les sources le montrent : GrandPrix.com attribue l'idée de suralimenter le moteur de course à **Jean Terramorsi**, directeur de Gordini{% include src.html n="4" %}, et le premier moteur turbo de F1 de Renault, l'EF1, dérive du V6 de 2 litres conçu par **François Castaing** et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}){% include src.html n="1,4" %}. Le document Renault présente Dudot comme « responsable des moteurs »{% include src.html n="2" %}. Il n'est donc pas l'inventeur solitaire de ces technologies : il en est la figure technique centrale, de leur maturation au V10.
 
 ## Pourquoi le Tier B, et en tête
 
-Trois ruptures moteur, toutes reprises ensuite par le reste du plateau, le V10 en concurrence avec celui de Honda dès 1989{% include src.html n="2,7,8" %} : c'est le profil le plus proche du Tier A parmi les quinze suivants. Ce qui l'en sépare, c'est le caractère collectif des réalisations.
+Trois ruptures moteur, toutes reprises ensuite par le reste du plateau, le V10 en concurrence avec celui de Honda dès 1989{% include src.html n="2,7,8" %} : c'est le profil le plus proche du Tier A parmi les quinze suivants. Ce qui l'en sépare, c'est le caractère collectif des réalisations.
 

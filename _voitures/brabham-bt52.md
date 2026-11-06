@@ -2,20 +2,20 @@
 title: "Brabham BT52"
 nom_tri: "brabham bt52"
 accroche: "Une flèche conçue dans l'urgence, et le premier titre turbo."
-description: "Brabham BT52 (1983) : conçue dans l'urgence après l'interdiction des fonds à effet de sol, elle donne à Nelson Piquet le premier titre mondial d'un moteur turbo."
+description: "Brabham BT52 (1983) : conçue dans l'urgence après l'interdiction des fonds à effet de sol, elle donne à Nelson Piquet le premier titre mondial d'un moteur turbo."
 annee: 1983
 equipe: "Brabham"
 moteur: "BMW, quatre cylindres turbo de 1,5 litre"
-statut: "A couru en 1983 ; titre pilotes"
+statut: "A couru en 1983 ; titre pilotes"
 concepteurs: ["gordon-murray", "david-north"]
 termes: ["fond-plat", "turbocompresseur", "ravitaillement", "diffuseur", "composite-carbone"]
 jalons: ["bt52", "ravitaillement", "turbo-victoire"]
 sources:
-  - titre: "Mark Hughes, Formula 1, « Tech Tuesday: the ground-breaking Brabham BT52 » (2018)"
+  - titre: "Mark Hughes, Formula 1, « Tech Tuesday: the ground-breaking Brabham BT52 » (2018)"
     url: "https://www.formula1.com/en/latest/article/tech-tuesday-the-ground-breaking-brabham-bt52.64UP95DePCCSQ8cm0oAMUK"
-  - titre: "Paul Fearnley, Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
+  - titre: "Paul Fearnley, Motor Sport Magazine, « F1's race to the flat bottom » (mai 2013)"
     url: "https://www.motorsportmagazine.com/archive/article/may-2013/82/flat-race/"
-  - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
+  - titre: "Keith Howard, Motor Sport Magazine, « Harnessing the power » (janvier 2001)"
     url: "https://www.motorsportmagazine.com/archive/article/january-2001/40/harnessing-the-power/"
 photo:
   fichier: "/assets/voitures/brabham-bt52.jpg"
@@ -29,26 +29,26 @@ image: "/assets/partage/voitures/brabham-bt52.jpg"
 ---
 ## Ce qu'elle change
 
-En novembre 1982, la fédération impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat) dès le début de 1983{% include src.html n="1" %}. La BT51 à effet de sol de Brabham, presque terminée, est abandonnée{% include src.html n="1,2" %}. En six semaines seulement (trois mois selon Murray lui-même), une voiture entièrement nouvelle est conçue et construite : la BT52{% include src.html n="1,3" %}.
+En novembre 1982, la fédération impose les [fonds plats]({{ site.baseurl }}/glossaire/#fond-plat) dès le début de 1983{% include src.html n="1" %}. La BT51 à effet de sol de Brabham, presque terminée, est abandonnée{% include src.html n="1,2" %}. En six semaines seulement (trois mois selon Murray lui-même), une voiture entièrement nouvelle est conçue et construite : la BT52{% include src.html n="1,3" %}.
 
-Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un couple énorme en fin de saison, et la voiture sera limitée par sa motricité{% include src.html n="2" %}. Il supprime donc les [flancs]({{ site.baseurl }}/glossaire/#pontons) classiques et recule le centre de gravité de 7 %, « énorme », dit-il : à l'époque des jupes, un grand changement aurait été de 1 %{% include src.html n="2" %}. Il n'a pas le temps de passer en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) : tout est fait « par la théorie, l'expérience et l'instinct »{% include src.html n="2" %}.
+Gordon Murray part d'un raisonnement simple. Le moteur turbo BMW donnera un couple énorme en fin de saison, et la voiture sera limitée par sa motricité{% include src.html n="2" %}. Il supprime donc les [flancs]({{ site.baseurl }}/glossaire/#pontons) classiques et recule le centre de gravité de 7 %, « énorme », dit-il : à l'époque des jupes, un grand changement aurait été de 1 %{% include src.html n="2" %}. Il n'a pas le temps de passer en [soufflerie]({{ site.baseurl }}/glossaire/#soufflerie) : tout est fait « par la théorie, l'expérience et l'instinct »{% include src.html n="2" %}.
 
-Trois autres choix comptent :
+Trois autres choix comptent :
 
-- **un arrière modulaire.** Moteur, radiateurs, échangeurs, boîte et suspension forment un seul ensemble monté hors de la voiture, préparé à l'usine{% include src.html n="1,2" %}. formula1.com note que le système a ensuite été largement copié{% include src.html n="1" %} ;
-- **une voiture pensée pour le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement)**, que Brabham et Murray avaient réintroduit en 1982 : un réservoir réduit, et un remplissage sous pression qui délivre plus de 30 gallons en trois secondes environ{% include src.html n="1" %} ;
-- **une construction mixte** : cloison et bas de coque en aluminium, haut de coque en [carbone]({{ site.baseurl }}/glossaire/#composite-carbone), avec des arceaux de sécurité en carbone{% include src.html n="1,2" %}. Avec les moyens de Brabham, Murray ne suit pas McLaren vers le tout carbone{% include src.html n="1" %}.
+- **un arrière modulaire.** Moteur, radiateurs, échangeurs, boîte et suspension forment un seul ensemble monté hors de la voiture, préparé à l'usine{% include src.html n="1,2" %}. formula1.com note que le système a ensuite été largement copié{% include src.html n="1" %} ;
+- **une voiture pensée pour le [ravitaillement]({{ site.baseurl }}/glossaire/#ravitaillement)**, que Brabham et Murray avaient réintroduit en 1982 : un réservoir réduit, et un remplissage sous pression qui délivre plus de 30 gallons en trois secondes environ{% include src.html n="1" %} ;
+- **une construction mixte** : cloison et bas de coque en aluminium, haut de coque en [carbone]({{ site.baseurl }}/glossaire/#composite-carbone), avec des arceaux de sécurité en carbone{% include src.html n="1,2" %}. Avec les moyens de Brabham, Murray ne suit pas McLaren vers le tout carbone{% include src.html n="1" %}.
 
 ## Qui l'a conçue
 
-[Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) en est le concepteur{% include src.html n="1,2" %}. Il le précise lui-même : « [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et moi avons dessiné chaque pièce à nous deux. »{% include src.html n="2" %}
+[Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) en est le concepteur{% include src.html n="1,2" %}. Il le précise lui-même : « [David North]({{ site.baseurl }}{% link _ingenieurs/david-north.md %}) et moi avons dessiné chaque pièce à nous deux. »{% include src.html n="2" %}
 
 ## Limites
 
-« Sur le plan aérodynamique, c'était probablement la voiture la moins réglable de tous les temps », reconnaît Murray : seul le volet de l'aileron avant permettait de l'équilibrer{% include src.html n="1,3" %}. Le moteur BMW, dérivé de la série, imposait aussi ses compromis{% include src.html n="2" %}.
+« Sur le plan aérodynamique, c'était probablement la voiture la moins réglable de tous les temps », reconnaît Murray : seul le volet de l'aileron avant permettait de l'équilibrer{% include src.html n="1,3" %}. Le moteur BMW, dérivé de la série, imposait aussi ses compromis{% include src.html n="2" %}.
 
 ## Ce qu'elle laisse
 
-- **Rio, 13 mars 1983** : Nelson Piquet gagne la première course de la BT52{% include src.html n="1" %}.
-- **1983** : Piquet gagne trois des quinze courses et devient le premier champion du monde sur moteur turbo{% include src.html n="1" %}. À Kyalami, la dernière manche, il laisse la victoire à son équipier Riccardo Patrese{% include src.html n="1" %}.
-- Murray croyait que les autres équipes copieraient le ravitaillement pour 1983{% include src.html n="1" %}. À Rio, il découvre avec étonnement que presque toutes ont encore des voitures à réservoir plein{% include src.html n="1" %} ; seule Williams tente aussi un ravitaillement, qui tourne à l'incendie sur la voiture de Keke Rosberg{% include src.html n="2" %}. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes{% include src.html n="2" %}.
+- **Rio, 13 mars 1983** : Nelson Piquet gagne la première course de la BT52{% include src.html n="1" %}.
+- **1983** : Piquet gagne trois des quinze courses et devient le premier champion du monde sur moteur turbo{% include src.html n="1" %}. À Kyalami, la dernière manche, il laisse la victoire à son équipier Riccardo Patrese{% include src.html n="1" %}.
+- Murray croyait que les autres équipes copieraient le ravitaillement pour 1983{% include src.html n="1" %}. À Rio, il découvre avec étonnement que presque toutes ont encore des voitures à réservoir plein{% include src.html n="1" %} ; seule Williams tente aussi un ravitaillement, qui tourne à l'incendie sur la voiture de Keke Rosberg{% include src.html n="2" %}. Ce jour-là, malgré des crics manuels, l'arrêt de Piquet ne dure que 16,4 secondes{% include src.html n="2" %}.
