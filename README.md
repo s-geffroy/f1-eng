@@ -228,7 +228,7 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   dans la table `EXAMINES` du script (le script liste les desaccords encore « a examiner »).
 - `_data/domination.yml` : calcule par `python3 outils/domination.py` (seuils en tete du script).
   Trois degres : saison dominante (1 saison), domination (2 saisons dominantes ou plus),
-  hegemonie (3 ou plus, robuste, et au moins 50 % des victoires sur toute la periode ; niveaux 1 a 5 par paliers de 10 points, constante NIVEAUX). Les confrontations portent sur les dominations longues (3 ou plus).
+  hegemonie (3 ou plus, robuste, et au moins 50 % des victoires sur toute la periode ; niveaux majoritaire, affirmee, ecrasante, quasi totale, absolue par paliers de 10 points, constante NIVEAUX). Les confrontations portent sur les dominations longues (3 ou plus).
   Les deux fichiers ne s'editent jamais a la main ; relancer les scripts apres une modification
   des ecuries, des ingenieurs ou de la chronologie.
 - Tableaux du dossier : `_includes/domination.html`, libelles dans `_data/i18n.yml` (domination).

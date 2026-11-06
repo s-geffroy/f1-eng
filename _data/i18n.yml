@@ -381,7 +381,8 @@ fr:
     degre_saison: "saison dominante"
     degre_domination: "domination"
     degre_hegemonie: "hégémonie"
-    degre_hegemonie_n: "hégémonie de niveau %n%"
+    # niveaux d'hégémonie 1 à 5 (part des victoires de la période : 50, 60, 70, 80, 90 %), mêmes mots que lib_heg() de outils/domination.py
+    niveaux_hegemonie: ["hégémonie majoritaire", "hégémonie affirmée", "hégémonie écrasante", "hégémonie quasi totale", "hégémonie absolue"]
     poles: "Poles"
     podiums: "Places sur le podium"
     doubles: "Doublés"
@@ -872,7 +873,7 @@ en:
     degre_saison: "dominant season"
     degre_domination: "dominance"
     degre_hegemonie: "hegemony"
-    degre_hegemonie_n: "level %n% hegemony"
+    niveaux_hegemonie: ["majority hegemony", "firm hegemony", "overwhelming hegemony", "near-total hegemony", "absolute hegemony"]
     poles: "Poles"
     podiums: "Podium places"
     doubles: "One-twos"

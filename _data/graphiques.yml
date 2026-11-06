@@ -277,7 +277,7 @@ compteur/brabham-fr:
   titre: 'Meilleure saison : Brabham 1966, 37 / 100'
 compteur/brackley-en:
   lignes:
-  - level 2 hegemony, 2014–2021
+  - firm hegemony, 2014–2021
   - '1970, Tyrrell: 3'
   - '1971, Tyrrell: 51 · title'
   - '1972, Tyrrell: 23'
@@ -349,7 +349,7 @@ compteur/brackley-en:
   titre: 'Best season: Mercedes 2016, 79 / 100'
 compteur/brackley-fr:
   lignes:
-  - hégémonie de niveau 2, 2014–2021
+  - hégémonie affirmée, 2014–2021
   - '1970, Tyrrell : 3'
   - '1971, Tyrrell : 51 · titre'
   - '1972, Tyrrell : 23'
@@ -972,7 +972,7 @@ compteur/ferrari-en:
   - dominance, 1952–1953
   - dominance, 1975–1979
   - dominance, 1982–1983
-  - level 1 hegemony, 1999–2008
+  - majority hegemony, 1999–2008
   - '1950, Ferrari: 5'
   - '1951, Ferrari: 42'
   - '1952, Ferrari: 82 · title'
@@ -1059,7 +1059,7 @@ compteur/ferrari-fr:
   - domination, 1952–1953
   - domination, 1975–1979
   - domination, 1982–1983
-  - hégémonie de niveau 1, 1999–2008
+  - hégémonie majoritaire, 1999–2008
   - '1950, Ferrari : 5'
   - '1951, Ferrari : 42'
   - '1952, Ferrari : 82 · titre'
@@ -1740,7 +1740,7 @@ compteur/matra-fr:
 compteur/mclaren-en:
   lignes:
   - dominance, 1984–1985
-  - level 2 hegemony, 1988–1991
+  - firm hegemony, 1988–1991
   - dominance, 1998–2000
   - dominance, 2005–2007
   - dominance, 2024–2025
@@ -1816,7 +1816,7 @@ compteur/mclaren-en:
 compteur/mclaren-fr:
   lignes:
   - domination, 1984–1985
-  - hégémonie de niveau 2, 1988–1991
+  - hégémonie affirmée, 1988–1991
   - domination, 1998–2000
   - domination, 2005–2007
   - domination, 2024–2025
@@ -1917,8 +1917,8 @@ compteur/merzario-fr:
   titre: 'Meilleure saison : Merzario 1978, 0 / 100'
 compteur/milton-keynes-en:
   lignes:
-  - level 1 hegemony, 2010–2013
-  - level 3 hegemony, 2021–2023
+  - majority hegemony, 2010–2013
+  - overwhelming hegemony, 2021–2023
   - '1997, Stewart: 1'
   - '1998, Stewart: 0'
   - '1999, Stewart: 7'
@@ -1956,8 +1956,8 @@ compteur/milton-keynes-en:
   titre: 'Best season: Red Bull 2011, 68 / 100'
 compteur/milton-keynes-fr:
   lignes:
-  - hégémonie de niveau 1, 2010–2013
-  - hégémonie de niveau 3, 2021–2023
+  - hégémonie majoritaire, 2010–2013
+  - hégémonie écrasante, 2021–2023
   - '1997, Stewart : 1'
   - '1998, Stewart : 0'
   - '1999, Stewart : 7'
@@ -2645,7 +2645,7 @@ compteur/williams-en:
   lignes:
   - dominance, 1980–1981
   - dominance, 1986–1987
-  - level 1 hegemony, 1991–1997
+  - majority hegemony, 1991–1997
   - '1978, Williams: 1'
   - '1979, Williams: 25'
   - '1980, Williams: 36 · title'
@@ -2704,7 +2704,7 @@ compteur/williams-fr:
   lignes:
   - domination, 1980–1981
   - domination, 1986–1987
-  - hégémonie de niveau 1, 1991–1997
+  - hégémonie majoritaire, 1991–1997
   - '1978, Williams : 1'
   - '1979, Williams : 25'
   - '1980, Williams : 36 · titre'
@@ -3791,75 +3791,75 @@ domination/tableau-ecurie-en:
   lignes:
   - Team Lotus, 1968–1973 · dominance · 30 / 100
   - Ferrari, 1975–1979 · dominance · 28 / 100
-  - McLaren, 1988–1991 · level 2 hegemony · 61 / 100
-  - Williams, 1991–1997 · level 1 hegemony · 52 / 100
+  - McLaren, 1988–1991 · firm hegemony · 61 / 100
+  - Williams, 1991–1997 · majority hegemony · 52 / 100
   - McLaren, 1998–2000 · dominance · 49 / 100
-  - Ferrari, 1999–2008 · level 1 hegemony · 46 / 100
-  - Red Bull, 2010–2013 · level 1 hegemony · 53 / 100
-  - Mercedes, 2014–2021 · level 2 hegemony · 64 / 100
-  - Red Bull, 2021–2023 · level 3 hegemony · 55 / 100
+  - Ferrari, 1999–2008 · majority hegemony · 46 / 100
+  - Red Bull, 2010–2013 · majority hegemony · 53 / 100
+  - Mercedes, 2014–2021 · firm hegemony · 64 / 100
+  - Red Bull, 2021–2023 · overwhelming hegemony · 55 / 100
   titre: Dashboard of long dominance
 domination/tableau-ecurie-fr:
   lignes:
   - Team Lotus, 1968–1973 · domination · 30 / 100
   - Ferrari, 1975–1979 · domination · 28 / 100
-  - McLaren, 1988–1991 · hégémonie de niveau 2 · 61 / 100
-  - Williams, 1991–1997 · hégémonie de niveau 1 · 52 / 100
+  - McLaren, 1988–1991 · hégémonie affirmée · 61 / 100
+  - Williams, 1991–1997 · hégémonie majoritaire · 52 / 100
   - McLaren, 1998–2000 · domination · 49 / 100
-  - Ferrari, 1999–2008 · hégémonie de niveau 1 · 46 / 100
-  - Red Bull, 2010–2013 · hégémonie de niveau 1 · 53 / 100
-  - Mercedes, 2014–2021 · hégémonie de niveau 2 · 64 / 100
-  - Red Bull, 2021–2023 · hégémonie de niveau 3 · 55 / 100
+  - Ferrari, 1999–2008 · hégémonie majoritaire · 46 / 100
+  - Red Bull, 2010–2013 · hégémonie majoritaire · 53 / 100
+  - Mercedes, 2014–2021 · hégémonie affirmée · 64 / 100
+  - Red Bull, 2021–2023 · hégémonie écrasante · 55 / 100
   titre: Tableau de bord des dominations longues
 domination/tableau-motoriste-en:
   lignes:
-  - Climax, 1959–1965 · level 1 hegemony · 57 / 100
-  - Ford, 1968–1982 · level 2 hegemony · 65 / 100
+  - Climax, 1959–1965 · majority hegemony · 57 / 100
+  - Ford, 1968–1982 · firm hegemony · 65 / 100
   - Ferrari, 1975–1979 · dominance · 28 / 100
-  - Honda, 1986–1991 · level 2 hegemony · 59 / 100
-  - Renault, 1991–1997 · level 2 hegemony · 61 / 100
+  - Honda, 1986–1991 · firm hegemony · 59 / 100
+  - Renault, 1991–1997 · firm hegemony · 61 / 100
   - Mercedes, 1998–2000 · dominance · 49 / 100
-  - Ferrari, 1999–2008 · level 1 hegemony · 46 / 100
+  - Ferrari, 1999–2008 · majority hegemony · 46 / 100
   - Mercedes, 2005–2009 · dominance · 37 / 100
-  - Renault, 2010–2013 · level 1 hegemony · 59 / 100
-  - Mercedes, 2012–2021 · level 2 hegemony · 60 / 100
-  - Honda, 2021–2023 · level 3 hegemony · 55 / 100
+  - Renault, 2010–2013 · majority hegemony · 59 / 100
+  - Mercedes, 2012–2021 · firm hegemony · 60 / 100
+  - Honda, 2021–2023 · overwhelming hegemony · 55 / 100
   titre: Dashboard of long dominance
 domination/tableau-motoriste-fr:
   lignes:
-  - Climax, 1959–1965 · hégémonie de niveau 1 · 57 / 100
-  - Ford, 1968–1982 · hégémonie de niveau 2 · 65 / 100
+  - Climax, 1959–1965 · hégémonie majoritaire · 57 / 100
+  - Ford, 1968–1982 · hégémonie affirmée · 65 / 100
   - Ferrari, 1975–1979 · domination · 28 / 100
-  - Honda, 1986–1991 · hégémonie de niveau 2 · 59 / 100
-  - Renault, 1991–1997 · hégémonie de niveau 2 · 61 / 100
+  - Honda, 1986–1991 · hégémonie affirmée · 59 / 100
+  - Renault, 1991–1997 · hégémonie affirmée · 61 / 100
   - Mercedes, 1998–2000 · domination · 49 / 100
-  - Ferrari, 1999–2008 · hégémonie de niveau 1 · 46 / 100
+  - Ferrari, 1999–2008 · hégémonie majoritaire · 46 / 100
   - Mercedes, 2005–2009 · domination · 37 / 100
-  - Renault, 2010–2013 · hégémonie de niveau 1 · 59 / 100
-  - Mercedes, 2012–2021 · hégémonie de niveau 2 · 60 / 100
-  - Honda, 2021–2023 · hégémonie de niveau 3 · 55 / 100
+  - Renault, 2010–2013 · hégémonie majoritaire · 59 / 100
+  - Mercedes, 2012–2021 · hégémonie affirmée · 60 / 100
+  - Honda, 2021–2023 · hégémonie écrasante · 55 / 100
   titre: Tableau de bord des dominations longues
 domination/tableau-pilote-en:
   lignes:
-  - Juan Manuel Fangio, 1954–1957 · level 1 hegemony · 43 / 100
+  - Juan Manuel Fangio, 1954–1957 · majority hegemony · 43 / 100
   - Jackie Stewart, 1969–1973 · dominance · 27 / 100
   - Alain Prost, 1984–1989 · dominance · 21 / 100
   - Ayrton Senna, 1988–1991 · dominance · 44 / 100
-  - Michael Schumacher, 2000–2004 · level 1 hegemony · 43 / 100
+  - Michael Schumacher, 2000–2004 · majority hegemony · 43 / 100
   - Sebastian Vettel, 2010–2013 · dominance · 40 / 100
-  - Lewis Hamilton, 2014–2020 · level 1 hegemony · 43 / 100
-  - Max Verstappen, 2021–2024 · level 1 hegemony · 42 / 100
+  - Lewis Hamilton, 2014–2020 · majority hegemony · 43 / 100
+  - Max Verstappen, 2021–2024 · majority hegemony · 42 / 100
   titre: Dashboard of long dominance
 domination/tableau-pilote-fr:
   lignes:
-  - Juan Manuel Fangio, 1954–1957 · hégémonie de niveau 1 · 43 / 100
+  - Juan Manuel Fangio, 1954–1957 · hégémonie majoritaire · 43 / 100
   - Jackie Stewart, 1969–1973 · domination · 27 / 100
   - Alain Prost, 1984–1989 · domination · 21 / 100
   - Ayrton Senna, 1988–1991 · domination · 44 / 100
-  - Michael Schumacher, 2000–2004 · hégémonie de niveau 1 · 43 / 100
+  - Michael Schumacher, 2000–2004 · hégémonie majoritaire · 43 / 100
   - Sebastian Vettel, 2010–2013 · domination · 40 / 100
-  - Lewis Hamilton, 2014–2020 · hégémonie de niveau 1 · 43 / 100
-  - Max Verstappen, 2021–2024 · hégémonie de niveau 1 · 42 / 100
+  - Lewis Hamilton, 2014–2020 · hégémonie majoritaire · 43 / 100
+  - Max Verstappen, 2021–2024 · hégémonie majoritaire · 42 / 100
   titre: Tableau de bord des dominations longues
 domination/technologies-en:
   lignes:

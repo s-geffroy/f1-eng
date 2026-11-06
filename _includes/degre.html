@@ -1,8 +1,8 @@
 {%- comment -%} Libellé du degré d'une période de domination, dans la langue de la page : include.d (saison,
 domination, hegemonie) et include.n (niveau d'hégémonie, 1 à 5, calculé par outils/domination.py :
 50 % des victoires de la période pour le niveau 1, puis un niveau tous les 10 points).
-Ex. « hégémonie de niveau 2 », « level 2 hegemony ». Mêmes mots que lib_heg() du script. {%- endcomment -%}
+Ex. « hégémonie affirmée », « firm hegemony » (liste niveaux_hegemonie de _data/i18n.yml). Mêmes mots que lib_heg() du script. {%- endcomment -%}
 {%- assign lang_dg = page.lang | default: site.lang | default: "fr" -%}
 {%- assign L_dg = site.data.i18n[lang_dg].domination -%}
-{%- if include.d == "hegemonie" and include.n -%}{{ L_dg.degre_hegemonie_n | replace: "%n%", include.n }}
+{%- if include.d == "hegemonie" and include.n -%}{%- assign i_dg = include.n | minus: 1 -%}{{ L_dg.niveaux_hegemonie[i_dg] }}
 {%- else -%}{%- assign c_dg = "degre_" | append: include.d -%}{{ L_dg[c_dg] }}{%- endif -%}

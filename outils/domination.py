@@ -12,8 +12,8 @@ forment une période, classée en trois degrés :
   - domination : au moins DUO saisons dominantes ;
   - hegemonie : au moins MIN saisons dominantes, robuste, et au moins NIVEAUX[0] des Grands Prix gagnés
     sur l'ensemble de la période (une suite de titres à faible part de victoires reste une domination).
-    Son niveau, de 1 à 5, est le nombre de paliers de NIVEAUX atteints par cette part (50 % : niveau 1,
-    60 % : 2... 90 % : 5).
+    Son niveau, de 1 à 5, est le nombre de paliers de NIVEAUX atteints par cette part : majoritaire
+    (50 %), affirmée (60 %), écrasante (70 %), quasi totale (80 %), absolue (90 %).
 Les mêmes calculs sont refaits avec des seuils plus stricts (VARIANTES) : une période d'au moins MIN
 saisons retrouvée dans toutes les variantes est dite robuste. Seules des variantes plus strictes
 peuvent la rejeter (une variante plus lâche retrouve toujours tout) : la robustesse repose donc sur
@@ -233,9 +233,14 @@ def niveau(part_periode):
     """Niveau d'hégémonie (0 à 5) : nombre de paliers de NIVEAUX atteints par la part des victoires."""
     return sum(part_periode >= x - 1e-9 for x in NIVEAUX)
 
+NOMS_NIVEAUX = {"fr": ("hégémonie majoritaire", "hégémonie affirmée", "hégémonie écrasante",
+                       "hégémonie quasi totale", "hégémonie absolue"),
+                "en": ("majority hegemony", "firm hegemony", "overwhelming hegemony",
+                       "near-total hegemony", "absolute hegemony")}
+
 def lib_heg(lang, n):
-    """Libellé d'une hégémonie avec son niveau (mêmes mots que _includes/degre.html)."""
-    return f"level {n} hegemony" if lang == "en" else f"hégémonie de niveau {n}"
+    """Libellé d'une hégémonie de niveau n (mêmes mots que niveaux_hegemonie de _data/i18n.yml)."""
+    return NOMS_NIVEAUX[lang][n - 1]
 
 def degre(g, robuste, part_periode):
     return ("hegemonie" if len(g) >= MIN and robuste and niveau(part_periode) >= 1
