@@ -1795,6 +1795,9 @@ print(f"compteur : seuil {SEUIL_INDICE} (Youden {sortie_compteur['youden']}), {l
 # Typographie anglaise des graphiques : pas d'espace avant « : » et « ; » (les gabarits ci-dessus sont écrits
 # à la française et partagés entre les langues).
 import glob as _glob
+import re as _re_t
+_re_typo = _re_t.compile(r"(?<=[^\s>]) :(?=[\s<])")
+_re_typo2 = _re_t.compile(r"(?<=[^\s>]) ([;!?])(?=[\s<])")
 # Graphiques de ce passage, et ceux déjà sur disque dans _includes/domination/ (les compteurs, eux, sont
 # tous régénérés : ceux d'une lignée disparue seront retirés).
 _svg = sorted(set(_glob.glob("_includes/domination/*.svg"))
@@ -1802,6 +1805,16 @@ _svg = sorted(set(_glob.glob("_includes/domination/*.svg"))
 for _f in [c for c in _svg if c.endswith("-en.svg")]:
     _t = lire_sortie(_f)
     _n = _t.replace(" : ", ": ").replace(" ; ", "; ")
+    if _n != _t:
+        ecrire(_f, _n)
+# Typographie française des graphiques, comme dans les pages : espace insécable (U+00A0) avant « : »,
+# fine insécable (U+202F) avant « ; ! ? » et dans les guillemets. Texte seulement : les attributs des
+# balises (style="font-size:11px") n'ont pas d'espace avant leur deux-points.
+for _f in [c for c in _svg if c.endswith("-fr.svg")]:
+    _t = lire_sortie(_f)
+    _n = _re_typo.sub("\u00a0:", _t)
+    _n = _re_typo2.sub(lambda m: "\u202f" + m.group(1), _n)
+    _n = _n.replace("« ", "«\u202f").replace(" »", "\u202f»")
     if _n != _t:
         ecrire(_f, _n)
 

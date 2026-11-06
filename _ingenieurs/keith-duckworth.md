@@ -40,7 +40,7 @@ redirect_from: "/ingenieurs/2026/10/25/keith-duckworth.html"
 ---
 ## La question transformée
 
-**Comment intégrer et fournir le groupe propulseur ?**
+**Comment intégrer et fournir le groupe propulseur ?**
 
 ## Ce que le DFV a changé
 

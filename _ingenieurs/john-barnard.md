@@ -50,7 +50,7 @@ redirect_from: "/ingenieurs/2026/10/25/john-barnard.html"
 ---
 ## La question transformée
 
-**Avec quels matériaux et interfaces construire la F1 moderne ?**
+**Avec quels matériaux et interfaces construire la F1 moderne ?**
 
 ## 1981 — McLaren MP4/1 : le carbone
 

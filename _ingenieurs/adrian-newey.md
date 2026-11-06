@@ -57,7 +57,7 @@ redirect_from: "/ingenieurs/2026/10/25/adrian-newey.html"
 ---
 ## La question transformée
 
-**Comment optimiser l'ensemble comme système aérodynamique intégré ?**
+**Comment optimiser l'ensemble comme système aérodynamique intégré ?**
 
 ## Pas d'« invention Newey »
 

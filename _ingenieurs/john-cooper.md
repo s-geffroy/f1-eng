@@ -34,7 +34,7 @@ redirect_from: "/ingenieurs/2026/10/25/john-cooper.html"
 ---
 ## La question transformée
 
-**Où placer les organes fondamentaux de la monoplace ?**
+**Où placer les organes fondamentaux de la monoplace ?**
 
 ## La rupture
 

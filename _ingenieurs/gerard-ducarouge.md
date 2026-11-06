@@ -38,7 +38,7 @@ Gérard Ducarouge dirige l'effort technique de Ligier, d'Alfa Romeo puis de Lotu
 
 ## Divergences entre sources
 
-- **Concepteur ou chef d'équipe ?** Motorsport.com et Autosport le présentent comme le concepteur de la JS5, de la JS11 ou de la 182{% include src.html n="2,3" %} ; Motor Sport soutient qu'il n'était pas vraiment le dessinateur de ces voitures, mais leur force motrice{% include src.html n="1" %}. Le site retient le rôle de **leader technique**, sans lui attribuer seul le dessin.
+- **Concepteur ou chef d'équipe ?** Motorsport.com et Autosport le présentent comme le concepteur de la JS5, de la JS11 ou de la 182{% include src.html n="2,3" %} ; Motor Sport soutient qu'il n'était pas vraiment le dessinateur de ces voitures, mais leur force motrice{% include src.html n="1" %}. Le site retient le rôle de **leader technique**, sans lui attribuer seul le dessin.
 - **Sa formation.** Motorsport.com le dit diplômé en ingénierie aéronautique{% include src.html n="2" %} ; selon Motor Sport, il n'avait pas de diplôme d'ingénieur en entrant chez Matra{% include src.html n="1" %}.
 - **Son départ de Ligier.** Autosport le date du milieu de 1979{% include src.html n="3" %} ; Motor Sport, du milieu de 1981, et cite Guy Ligier, qui l'a employé de 1975 à 1981{% include src.html n="1" %}.
 - **Son départ de Lotus.** Après la saison 1988 selon Motorsport.com{% include src.html n="2" %}, en 1989 selon Motor Sport{% include src.html n="1" %}.

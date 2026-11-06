@@ -53,7 +53,7 @@ redirect_from: "/ingenieurs/2026/10/25/colin-chapman.html"
 ---
 ## La question transformée
 
-**Comment construire et architecturer la monoplace ?**
+**Comment construire et architecturer la monoplace ?**
 
 ## Ce qu'il a changé
 

@@ -23,7 +23,7 @@ redirect_from: "/dossiers/hegemonies/"
 {%- assign IA = H.ingenieurs_apparies -%}
 {%- assign RB = H.rebat -%}
 {%- assign AM = H.amont -%}
-Le [classement]({{ site.baseurl }}/dossiers/methode/) des ingénieurs refuse de mesurer l'influence à l'aune du palmarès. Ce dossier pose la question inverse : **les innovations de la [chronologie]({{ site.baseurl }}/chronologie/) se voient-elles dans les résultats ?** Pour y répondre, il faut d'abord savoir quand une écurie, un pilote ou un motoriste a vraiment dominé, et à quel degré : une saison, quelques saisons, ou toute une époque. On confronte ensuite ces dominations à trois choses : les jalons techniques, les arrivées et les départs d'ingénieurs, et les changements de règlement.
+Le [classement]({{ site.baseurl }}/dossiers/methode/) des ingénieurs refuse de mesurer l'influence à l'aune du palmarès. Ce dossier pose la question inverse : **les innovations de la [chronologie]({{ site.baseurl }}/chronologie/) se voient-elles dans les résultats ?** Pour y répondre, il faut d'abord savoir quand une écurie, un pilote ou un motoriste a vraiment dominé, et à quel degré : une saison, quelques saisons, ou toute une époque. On confronte ensuite ces dominations à trois choses : les jalons techniques, les arrivées et les départs d'ingénieurs, et les changements de règlement.
 
 Les chiffres viennent des résultats officiels de la Formule 1 : le vainqueur de chacun des {% include nombre.html n=P.gp %} Grands Prix de championnat disputés de 1950 à 2025, et les classements finaux des pilotes et des constructeurs. Une victoire partagée entre deux pilotes (France 1951, Argentine 1956, Grande-Bretagne 1957) compte pour une seule course, créditée aux deux. Les chiffres sont recalculés par un programme, pas recopiés à la main. Les champions qu'on en tire concordent, saison par saison, avec ceux des [fiches des écuries]({{ site.baseurl }}/ecuries/).
 
@@ -383,7 +383,7 @@ Pour les Tiers B à D, l'écart est faible : {{ IA[2].hausse }} hausses pour {{
 
 Cela ne prouve pas que l'ingénieur fasse gagner l'écurie. Le témoin neutralise le niveau de départ, pas la trajectoire ni le budget. Un grand ingénieur choisit aussi une écurie qui monte, et une écurie qui monte a les moyens de le recruter. Mais le classement n'a pas été établi d'après les résultats, et ce sont pourtant les ingénieurs du Tier A dont l'arrivée précède le plus nettement une hausse. Les deux mesures, l'une technique, l'autre sportive, vont dans le même sens.
 
-**Qui était là quand chaque domination longue a commencé ?** Un ingénieur est compté s'il est arrivé avant le début de la domination et n'est pas parti plus de trois saisons avant ce début. Quand sa date de départ n'est pas connue et qu'il est arrivé plus de trois saisons avant, sa présence est dite incertaine.
+**Qui était là quand chaque domination longue a commencé ?** Un ingénieur est compté s'il est arrivé avant le début de la domination et n'est pas parti plus de trois saisons avant ce début. Quand sa date de départ n'est pas connue et qu'il est arrivé plus de trois saisons avant, sa présence est dite incertaine.
 
 {% include domination.html quoi="racines" %}
 
