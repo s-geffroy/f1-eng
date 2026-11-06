@@ -11,11 +11,11 @@ voitures, dossiers). include.liste : la collection déjà triée ; include.aria 
   <nav class="suite" aria-label="{{ include.aria | escape }}">
     {%- if prec_s >= 0 -%}
       {%- assign x_s = include.liste[prec_s] -%}
-      <a class="suite-prec" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %} {% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
+      <a class="suite-prec" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %}{{ " " }}{% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
     {%- endif -%}
     {%- if suiv_s < include.liste.size -%}
       {%- assign x_s = include.liste[suiv_s] -%}
-      <a class="suite-suiv" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %} {% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
+      <a class="suite-suiv" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %}{{ " " }}{% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
     {%- endif -%}
   </nav>
 {%- endif -%}
