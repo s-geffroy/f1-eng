@@ -142,8 +142,7 @@
         {%- endif %}
         {%- comment -%} un jalon sans entrée qui porte ses faits les source lui-même {%- endcomment -%}
         {%- if j.sources and j.sources.size > 0 %}
-        <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
-          {%- for s in j.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}
+        <p class="fiche-jalon-liens">{% include liens-sources.html sources=j.sources libelle=T.chrono.sources %}
         </p>
         {%- endif %}
         {%- assign ses_voitures = site[T.collection_voitures] | where_exp: "v", "v.jalons contains j.id" -%}
@@ -240,8 +239,7 @@
           {%- endif %}{% endfor %}
         </ul>
         {%- endif %}
-        <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
-          {%- for s in c.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}
+        <p class="fiche-jalon-liens">{% include liens-sources.html sources=c.sources libelle=T.chrono.sources %}
         </p>
       </div>
     </li>

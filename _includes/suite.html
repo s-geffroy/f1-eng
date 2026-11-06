@@ -1,0 +1,21 @@
+{%- comment -%} Navigation « précédent / suivant » en bas d'une page de collection (entrées, écuries,
+voitures, dossiers). include.liste : la collection déjà triée ; include.aria : nom de la navigation ;
+étiquette de chaque lien : include.prefixe (texte), puis la valeur du champ include.champ de l'élément
+(« Rang 4 », « Écurie », « 1978 », « Dossier 2 »). Rien n'est affiché si la page n'est pas dans la liste
+(entrée hors classement). Variables propres (suffixe _s) : une inclusion partage la portée de la page. {%- endcomment -%}
+{%- assign i_s = nil -%}
+{%- for x_s in include.liste -%}{%- if x_s.url == page.url -%}{%- assign i_s = forloop.index0 -%}{%- endif -%}{%- endfor -%}
+{%- if i_s != nil -%}
+{%- assign prec_s = i_s | minus: 1 -%}
+{%- assign suiv_s = i_s | plus: 1 %}
+  <nav class="suite" aria-label="{{ include.aria | escape }}">
+    {%- if prec_s >= 0 -%}
+      {%- assign x_s = include.liste[prec_s] -%}
+      <a class="suite-prec" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %} {% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
+    {%- endif -%}
+    {%- if suiv_s < include.liste.size -%}
+      {%- assign x_s = include.liste[suiv_s] -%}
+      <a class="suite-suiv" href="{{ x_s.url | relative_url }}"><span>{{ include.prefixe }}{% if include.prefixe and include.champ %} {% endif %}{% if include.champ %}{{ x_s[include.champ] }}{% endif %}</span> {{ x_s.title }}</a>
+    {%- endif -%}
+  </nav>
+{%- endif -%}

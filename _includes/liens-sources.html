@@ -1,0 +1,7 @@
+{%- comment -%} Liste en ligne des sources d'un fait : « Sources : titre ; titre ». include.sources : liste
+de {titre, url} ; include.libelle : intitulé (T.chrono.sources, T.ecuries.sources). L'appelant fournit la
+balise englobante (p ou span class="fiche-jalon-liens"). Espace fine insécable U+202F avant « ; » en
+français, rien en anglais. Variables propres (suffixe _ls). {%- endcomment -%}
+{%- assign lang_ls = page.lang | default: site.lang | default: "fr" -%}
+{%- if lang_ls == "en" -%}{%- assign esp_ls = "" -%}{%- else -%}{%- assign esp_ls = " " -%}{%- endif -%}
+<span>{{ include.libelle }}</span>{% for s_ls in include.sources %} <a href="{{ s_ls.url }}">{{ s_ls.titre }}</a>{% unless forloop.last %}{{ esp_ls }};{% endunless %}{% endfor %}

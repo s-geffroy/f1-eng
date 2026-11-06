@@ -4,9 +4,6 @@ layout: default
 {%- assign lang = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T = site.data.i18n[lang] -%}
 {%- assign dossiers = site[T.collection_dossiers] | sort: "ordre" -%}
-{%- assign i = page.ordre | minus: 1 -%}
-{%- assign i_prec = i | minus: 1 -%}
-{%- assign i_suiv = i | plus: 1 -%}
 <article class="dossier">
   <header class="dossier-tete">
     <p class="dossier-ordre"><a href="{{ T.url.dossiers | relative_url }}">← {{ T.l.tous_dossiers }}</a> · {{ T.l.dossier }} {{ page.ordre }} {{ T.l.sur }} {{ dossiers.size }}</p>
@@ -16,14 +13,5 @@ layout: default
   <div class="texte">
     {{ content }}
   </div>
-  <nav class="suite" aria-label="{{ T.l.dossiers_aria | escape }}">
-    {%- if i_prec >= 0 -%}
-      {%- assign d = dossiers[i_prec] -%}
-      <a class="suite-prec" href="{{ d.url | relative_url }}"><span>{{ T.l.dossier }} {{ d.ordre }}</span> {{ d.title }}</a>
-    {%- endif -%}
-    {%- if i_suiv < dossiers.size -%}
-      {%- assign d = dossiers[i_suiv] -%}
-      <a class="suite-suiv" href="{{ d.url | relative_url }}"><span>{{ T.l.dossier }} {{ d.ordre }}</span> {{ d.title }}</a>
-    {%- endif -%}
-  </nav>
+  {% include suite.html liste=dossiers aria=T.l.dossiers_aria prefixe=T.l.dossier champ="ordre" %}
 </article>

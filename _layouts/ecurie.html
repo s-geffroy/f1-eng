@@ -30,9 +30,6 @@ layout: default
 {%- assign souffleries_e = "" | split: "" -%}
 {%- for l in ses_lignees -%}{%- for u in l.souffleries -%}{%- if u.a >= e_de and u.de <= e_a -%}{%- assign souffleries_e = souffleries_e | push: u -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
 {%- assign par_nom = site[T.collection_ecuries] | sort: "nom_tri" -%}
-{%- for x in par_nom -%}{%- if x.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
-{%- assign i_prec = i | minus: 1 -%}
-{%- assign i_suiv = i | plus: 1 -%}
 {%- assign url_e = T.url.ecuries | relative_url -%}
 <article class="entree ecurie">
   <header class="entree-tete">
@@ -109,15 +106,7 @@ layout: default
       {%- endif %}
     </dl>
 
-    <section class="references" aria-labelledby="references">
-      <h2 id="references">{{ T.ecuries.references }}</h2>
-      <ol>
-        {%- for src in e.sources %}
-        <li><a href="{{ src.url }}">{{ src.titre }}</a></li>
-        {%- endfor %}
-      </ol>
-      <p>{{ T.ecuries.consultees }}</p>
-    </section>
+{% include references.html sources=e.sources titre=T.ecuries.references note=T.ecuries.consultees %}
   </aside>
 
   <div class="entree-texte texte">
@@ -130,8 +119,7 @@ layout: default
       <h2>{{ T.ecuries.arrivee }}</h2>
       <p class="fiche-jalon-voie">{{ T.ecuries.types[s.lien.type] }}, {{ s.de }}</p>
       <p>{% include lier-noms.html texte=s.lien.pourquoi %} <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b></p>
-      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
-        {%- for src in s.lien.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</p>
+      <p class="fiche-jalon-liens">{% include liens-sources.html sources=s.lien.sources libelle=T.ecuries.sources %}</p>
     </section>
     {%- endif %}
     {%- if k2 < l.segments.size %}
@@ -143,8 +131,7 @@ layout: default
       <h2>{{ T.ecuries.devenir }}{{ esp_ }}: <a href="{{ url_e }}{{ en.id }}/">{{ en.nom }}</a></h2>
       <p class="fiche-jalon-voie">{{ T.ecuries.types[n.lien.type] }}, {{ n.de }}</p>
       <p>{% include lier-noms.html texte=n.lien.pourquoi %} <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b></p>
-      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
-        {%- for src in n.lien.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</p>
+      <p class="fiche-jalon-liens">{% include liens-sources.html sources=n.lien.sources libelle=T.ecuries.sources %}</p>
     </section>
     {%- endif %}
     {%- endif %}
@@ -152,8 +139,7 @@ layout: default
     {%- if l.texte %}
     <section class="passage">
       <p>{% include lier-noms.html texte=l.texte %}</p>
-      <p class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>
-        {%- for src in l.texte_sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</p>
+      <p class="fiche-jalon-liens">{% include liens-sources.html sources=l.texte_sources libelle=T.ecuries.sources %}</p>
     </section>
     {%- endif %}
     {%- endfor %}
@@ -210,7 +196,7 @@ layout: default
       <ul class="usines">
         {%- for u in usines_e %}
         <li>{{ u.lieu }}, {{ u.periode }}
-          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in u.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</span></li>
+          <span class="fiche-jalon-liens">{% include liens-sources.html sources=u.sources libelle=T.ecuries.sources %}</span></li>
         {%- endfor %}
       </ul>
     </section>
@@ -222,7 +208,7 @@ layout: default
       <ul class="usines">
         {%- for u in souffleries_e %}
         <li>{{ u.lieu }}, {{ u.periode }}{% if u.statut == "loue" %} ({{ T.ecuries.carte_louee }}){% endif %}
-          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in u.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</span></li>
+          <span class="fiche-jalon-liens">{% include liens-sources.html sources=u.sources libelle=T.ecuries.sources %}</span></li>
         {%- endfor %}
       </ul>
     </section>
@@ -234,7 +220,7 @@ layout: default
       <ul class="usines">
         {%- for m in e.moteurs %}{% assign mo = E.motoristes | where: "id", m.motoriste | first %}
         <li><span class="moteur-pastille" data-couleur="{{ mo.couleur | default: 0 | escape }}"></span>{{ mo.nom }}, {{ m.de }}{% if m.a != m.de %}–{{ m.a }}{% endif %}
-          <span class="fiche-jalon-liens"><span>{{ T.ecuries.sources }}</span>{% for src in m.sources %} <a href="{{ src.url }}">{{ src.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</span></li>
+          <span class="fiche-jalon-liens">{% include liens-sources.html sources=m.sources libelle=T.ecuries.sources %}</span></li>
         {%- endfor %}
       </ul>
       <p class="jalons-note">{{ T.ecuries.moteurs_note }}</p>
@@ -242,14 +228,5 @@ layout: default
     {%- endif %}
   </div>
 
-  <nav class="suite" aria-label="{{ T.ecuries.suite_aria | escape }}">
-    {%- if i_prec >= 0 -%}
-      {%- assign x = par_nom[i_prec] -%}
-      <a class="suite-prec" href="{{ x.url | relative_url }}"><span>{{ T.ecuries.titre_page }}</span> {{ x.title }}</a>
-    {%- endif -%}
-    {%- if i_suiv < par_nom.size -%}
-      {%- assign x = par_nom[i_suiv] -%}
-      <a class="suite-suiv" href="{{ x.url | relative_url }}"><span>{{ T.ecuries.titre_page }}</span> {{ x.title }}</a>
-    {%- endif -%}
-  </nav>
+  {% include suite.html liste=par_nom aria=T.ecuries.suite_aria prefixe=T.ecuries.titre_page %}
 </article>

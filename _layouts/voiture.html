@@ -7,9 +7,6 @@ layout: default
 {%- assign T = site.data.i18n[lang] -%}
 {%- if lang == "en" -%}{%- assign D = site.data.en -%}{%- else -%}{%- assign D = site.data -%}{%- endif -%}
 {%- assign par_annee = site[T.collection_voitures] | sort: "annee" -%}
-{%- for v in par_annee -%}{%- if v.url == page.url -%}{%- assign i = forloop.index0 -%}{%- endif -%}{%- endfor -%}
-{%- assign i_prec = i | minus: 1 -%}
-{%- assign i_suiv = i | plus: 1 -%}
 <article class="entree voiture">
   <header class="entree-tete">
     <h1 class="vedette">{{ page.title }}</h1>
@@ -67,15 +64,8 @@ layout: default
     </dl>
 
     {%- if page.sources.size > 0 %}
-    <section class="references" aria-labelledby="references">
-      <h2 id="references">{{ T.l.references }}</h2>
-      <ol>
-        {%- for s in page.sources %}
-        <li id="src-{{ forloop.index }}"><a href="{{ s.url }}">{{ s.titre }}</a></li>
-        {%- endfor %}
-      </ol>
-      <p>{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.</p>
-    </section>
+    {%- capture note_rf %}{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.{% endcapture %}
+{% include references.html sources=page.sources titre=T.l.references note=note_rf ancres="oui" %}
     {%- endif %}
   </aside>
 
@@ -83,14 +73,5 @@ layout: default
     {{ content }}
   </div>
 
-  <nav class="suite" aria-label="{{ T.l.voitures_aria | escape }}">
-    {%- if i_prec >= 0 -%}
-      {%- assign v = par_annee[i_prec] -%}
-      <a class="suite-prec" href="{{ v.url | relative_url }}"><span>{{ v.annee }}</span> {{ v.title }}</a>
-    {%- endif -%}
-    {%- if i_suiv < par_annee.size -%}
-      {%- assign v = par_annee[i_suiv] -%}
-      <a class="suite-suiv" href="{{ v.url | relative_url }}"><span>{{ v.annee }}</span> {{ v.title }}</a>
-    {%- endif -%}
-  </nav>
+  {% include suite.html liste=par_annee aria=T.l.voitures_aria champ="annee" %}
 </article>

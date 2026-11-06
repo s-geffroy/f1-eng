@@ -7,15 +7,6 @@ layout: default
 {%- assign nom = page.title | split: ", " -%}
 {%- comment -%} Seules les entrées classées (avec un rang) forment la suite « rang précédent / suivant ». {%- endcomment -%}
 {%- assign par_rang = site[T.collection_entrees] | where_exp: "e", "e.rang" | sort: "rang" -%}
-{%- if page.rang -%}
-  {%- for e in par_rang -%}
-    {%- if e.rang == page.rang -%}
-      {%- assign i = forloop.index0 -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- assign i_prec = i | minus: 1 -%}
-  {%- assign i_suiv = i | plus: 1 -%}
-{%- endif -%}
 <article class="entree">
   <header class="entree-tete">
     <h1 class="vedette"><span class="vedette-nom">{{ nom[0] }}</span>, <span class="vedette-prenom">{{ nom[1] }}</span></h1>
@@ -88,15 +79,8 @@ layout: default
     </dl>
 
     {%- if page.sources.size > 0 %}
-    <section class="references" aria-labelledby="references">
-      <h2 id="references">{{ T.l.references }}</h2>
-      <ol>
-        {%- for s in page.sources %}
-        <li id="src-{{ forloop.index }}"><a href="{{ s.url }}">{{ s.titre }}</a></li>
-        {%- endfor %}
-      </ol>
-      <p>{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.</p>
-    </section>
+    {%- capture note_rf %}{{ T.l.consultees }} {{ page.consultation | default: T.l.consultation_defaut }}.{% endcapture %}
+{% include references.html sources=page.sources titre=T.l.references note=note_rf ancres="oui" %}
     {%- endif %}
   </aside>
 
@@ -104,16 +88,5 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if page.rang %}
-  <nav class="suite" aria-label="{{ T.l.suite_aria | escape }}">
-    {%- if i_prec >= 0 -%}
-      {%- assign e = par_rang[i_prec] -%}
-      <a class="suite-prec" href="{{ e.url | relative_url }}"><span>{{ T.l.rang }} {{ e.rang }}</span> {{ e.title }}</a>
-    {%- endif -%}
-    {%- if i_suiv < par_rang.size -%}
-      {%- assign e = par_rang[i_suiv] -%}
-      <a class="suite-suiv" href="{{ e.url | relative_url }}"><span>{{ T.l.rang }} {{ e.rang }}</span> {{ e.title }}</a>
-    {%- endif -%}
-  </nav>
-  {%- endif %}
+  {% include suite.html liste=par_rang aria=T.l.suite_aria prefixe=T.l.rang champ="rang" %}
 </article>

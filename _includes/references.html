@@ -1,0 +1,13 @@
+{%- comment -%} Section « Références » d'un cartouche (entrée, voiture, écurie). include.sources : liste de
+{titre, url} ; include.titre : intitulé ; include.note : phrase sous la liste (date de consultation) ;
+include.ancres : « oui » pour numéroter les lignes src-1, src-2... (cibles de _includes/src.html).
+Variables propres (suffixe _rf). {%- endcomment -%}
+    <section class="references" aria-labelledby="references">
+      <h2 id="references">{{ include.titre }}</h2>
+      <ol>
+        {%- for s_rf in include.sources %}
+        <li{% if include.ancres == "oui" %} id="src-{{ forloop.index }}"{% endif %}><a href="{{ s_rf.url }}">{{ s_rf.titre }}</a></li>
+        {%- endfor %}
+      </ol>
+      <p>{{ include.note }}</p>
+    </section>
