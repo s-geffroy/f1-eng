@@ -873,7 +873,7 @@ en:
     degre_saison: "dominant season"
     degre_domination: "dominance"
     degre_hegemonie: "hegemony"
-    niveaux_hegemonie: ["majority hegemony", "firm hegemony", "overwhelming hegemony", "near-total hegemony", "absolute hegemony"]
+    niveaux_hegemonie: ["majority hegemony", "asserted hegemony", "overwhelming hegemony", "near-total hegemony", "absolute hegemony"]
     poles: "Poles"
     podiums: "Podium places"
     doubles: "One-twos"

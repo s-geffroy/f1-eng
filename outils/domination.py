@@ -235,7 +235,7 @@ def niveau(part_periode):
 
 NOMS_NIVEAUX = {"fr": ("hégémonie majoritaire", "hégémonie affirmée", "hégémonie écrasante",
                        "hégémonie quasi totale", "hégémonie absolue"),
-                "en": ("majority hegemony", "firm hegemony", "overwhelming hegemony",
+                "en": ("majority hegemony", "asserted hegemony", "overwhelming hegemony",
                        "near-total hegemony", "absolute hegemony")}
 
 def lib_heg(lang, n):

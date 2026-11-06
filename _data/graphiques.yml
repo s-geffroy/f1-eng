@@ -277,7 +277,7 @@ compteur/brabham-fr:
   titre: 'Meilleure saison : Brabham 1966, 37 / 100'
 compteur/brackley-en:
   lignes:
-  - firm hegemony, 2014–2021
+  - asserted hegemony, 2014–2021
   - '1970, Tyrrell: 3'
   - '1971, Tyrrell: 51 · title'
   - '1972, Tyrrell: 23'
@@ -1740,7 +1740,7 @@ compteur/matra-fr:
 compteur/mclaren-en:
   lignes:
   - dominance, 1984–1985
-  - firm hegemony, 1988–1991
+  - asserted hegemony, 1988–1991
   - dominance, 1998–2000
   - dominance, 2005–2007
   - dominance, 2024–2025
@@ -3791,12 +3791,12 @@ domination/tableau-ecurie-en:
   lignes:
   - Team Lotus, 1968–1973 · dominance · 30 / 100
   - Ferrari, 1975–1979 · dominance · 28 / 100
-  - McLaren, 1988–1991 · firm hegemony · 61 / 100
+  - McLaren, 1988–1991 · asserted hegemony · 61 / 100
   - Williams, 1991–1997 · majority hegemony · 52 / 100
   - McLaren, 1998–2000 · dominance · 49 / 100
   - Ferrari, 1999–2008 · majority hegemony · 46 / 100
   - Red Bull, 2010–2013 · majority hegemony · 53 / 100
-  - Mercedes, 2014–2021 · firm hegemony · 64 / 100
+  - Mercedes, 2014–2021 · asserted hegemony · 64 / 100
   - Red Bull, 2021–2023 · overwhelming hegemony · 55 / 100
   titre: Dashboard of long dominance
 domination/tableau-ecurie-fr:
@@ -3814,15 +3814,15 @@ domination/tableau-ecurie-fr:
 domination/tableau-motoriste-en:
   lignes:
   - Climax, 1959–1965 · majority hegemony · 57 / 100
-  - Ford, 1968–1982 · firm hegemony · 65 / 100
+  - Ford, 1968–1982 · asserted hegemony · 65 / 100
   - Ferrari, 1975–1979 · dominance · 28 / 100
-  - Honda, 1986–1991 · firm hegemony · 59 / 100
-  - Renault, 1991–1997 · firm hegemony · 61 / 100
+  - Honda, 1986–1991 · asserted hegemony · 59 / 100
+  - Renault, 1991–1997 · asserted hegemony · 61 / 100
   - Mercedes, 1998–2000 · dominance · 49 / 100
   - Ferrari, 1999–2008 · majority hegemony · 46 / 100
   - Mercedes, 2005–2009 · dominance · 37 / 100
   - Renault, 2010–2013 · majority hegemony · 59 / 100
-  - Mercedes, 2012–2021 · firm hegemony · 60 / 100
+  - Mercedes, 2012–2021 · asserted hegemony · 60 / 100
   - Honda, 2021–2023 · overwhelming hegemony · 55 / 100
   titre: Dashboard of long dominance
 domination/tableau-motoriste-fr:
