@@ -68,6 +68,22 @@
       </ol>
     </li>
     {%- endfor %}
+    {%- comment -%} rivalités de la catégorie : saisons où au moins deux acteurs dominent ensemble (hachures) {%- endcomment -%}
+    {%- if u_hf == "pneus" %}{% assign rv_hf = site.data.compteur.pneus.rivalites %}{% else %}{% assign rv_hf = site.data.domination.rivalites[u_hf] %}{% endif %}
+    {%- if rv_hf.size > 0 %}
+    <li class="ecuries-rangee domination-rivalites">
+      <ol class="ecuries-segments" aria-label="{{ T_hf.portail.rivalites_aria | escape }}, {{ T_hf.portail[cle_hf] | escape }}">
+        {%- for r_hf in rv_hf %}
+        {%- assign fin_r_hf = r_hf.a | plus: 1 %}
+        {%- if lang_hf == "en" %}{% assign dp_hf = ": " %}{% else %}{% assign dp_hf = " : " %}{% endif %}
+        {%- capture noms_r_hf %}{% for x in r_hf.acteurs %}{% if u_hf == "ecurie" and x.id %}{% assign e_r_hf = E_hf.ecuries | where: "id", x.id | first %}{{ e_r_hf.nom | default: x.nom }}{% else %}{{ x.nom }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} {{ T_hf.portail.et }} {% else %}, {% endif %}{% endunless %}{% endfor %}{% endcapture %}
+        <li class="segment rivalite" style="--de: {{ r_hf.de }}; --a: {{ fin_r_hf }};">
+          <a href="{{ url_d_hf }}#{{ T_hf.portail.ancre_rivalites }}" title="{{ T_hf.portail.rivalite | capitalize | escape }}, {{ r_hf.de | escape }}{% if r_hf.a != r_hf.de %}–{{ r_hf.a | escape }}{% endif %}{{ dp_hf | escape }}{{ noms_r_hf | escape }}"><span class="visually-hidden">{{ T_hf.portail.rivalite }}, {{ r_hf.de }}{% if r_hf.a != r_hf.de %}–{{ r_hf.a }}{% endif %}{{ dp_hf }}{{ noms_r_hf }}</span></a>
+        </li>
+        {%- endfor %}
+      </ol>
+    </li>
+    {%- endif %}
     {%- endfor %}
   </ol>
 </div>

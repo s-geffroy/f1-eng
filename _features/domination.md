@@ -55,7 +55,7 @@ Dominance is then measured by how long it lasts. The dominant seasons of the sam
 
 Hegemony has five levels, according to this share of wins: it is a **majority** hegemony from {{ P.niveaux[0] | times: 100 | round }}%, **asserted** from {{ P.niveaux[1] | times: 100 | round }}%, **overwhelming** from {{ P.niveaux[2] | times: 100 | round }}%, **near-total** from {{ P.niveaux[3] | times: 100 | round }}% and **absolute** from {{ P.niveaux[4] | times: 100 | round }}%.
 
-Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting.
+Every season has a world champion, so every season is dominant for at least one driver, one team and one engine maker. The first degree is the most common. What is rare is lasting. Two actors can also dominate the same season, one with the title, the other with its wins: that is a [rivalry](#rivalites), and it is why two periods can overlap.
 
 To read the intensity of dominance, each season also gets a score out of 100, as on a gauge: the **composite index**, the average share of wins, poles and podium places ([details below](#mesures)). The gauge below follows the strongest team, season after season.
 
@@ -198,6 +198,20 @@ The tyre manufacturer is a competitor of its own: it supplies several teams, lik
 - **Since 2007, tyres no longer separate anyone**: the single supplier has become the rule.
 
 Winners and pole-sitters are those of formula1.com. For the 1955 Argentine pole, formula1.com gives Lancia, but the tyre research showed that González took it in a Ferrari 625 on Englebert tyres: the results record credits it to Ferrari, and the discrepancy is flagged here.
+
+## Rivalries {#rivalites}
+
+Two periods of the same category can overlap, on the home page timeline as in the tables. This is not an error: a season is dominant for the actor who wins the title **or** at least {{ P.seuil | times: 100 | round }}% of the Grands Prix. The champion and another actor can therefore dominate the same season. We call **rivalry** a run of consecutive seasons in which at least two actors of the same category dominate together. There are {{ H.rivalites.ecurie.size }} between teams, {{ H.rivalites.pilote.size }} between drivers, {{ H.rivalites.motoriste.size }} between engine makers and {{ CP.pneus.rivalites.size }} between tyre manufacturers. The home page timeline marks them with a hatched row under each band.
+
+Three situations explain them:
+
+- **The handover.** The last season of one hegemony is the first of the next. In 1991, McLaren are champions and Williams win 44% of the Grands Prix; in 2021, Mercedes take the constructors' title and Red Bull half the races. Team hegemonies never overlap by more than one season.
+- **The suppliers' war.** An engine maker or a tyre manufacturer equips several teams, and two suppliers can pass the threshold in the same season. From 1975 to 1977, Ford engines win 63% of the Grands Prix while Ferrari take three titles; Goodyear and Michelin share the wins in 1979, then in 1982 and 1983. This is why two supplier hegemonies can run at the same time, like those of Goodyear (1977-1986) and Michelin (1979-1984).
+- **The team-mates' duel.** Among drivers, the rivalry often pits two team-mates of the dominant team against each other: Senna and Prost at McLaren in 1988, Hamilton and Rosberg at Mercedes in 2016.
+
+A period can also span a lean season in which another actor dominates: Ferrari, from 1999 to 2008, runs through 2005, Renault's year. That overlap is not a rivalry, since the two actors do not dominate the same season.
+
+{% include domination.html quoi="rivalites" %}
 
 ## Beyond wins: poles, podiums and one-twos {#mesures}
 

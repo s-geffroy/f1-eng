@@ -251,6 +251,25 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   </tbody>
 </table></div>
 
+{%- elsif include.quoi == "rivalites" -%}
+{%- comment -%} Rivalités des quatre catégories (_data/domination.yml, et _data/compteur.yml pour les pneus) {%- endcomment -%}
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_rivalites | escape }}"><table>
+<caption>{{ L_h.cap_rivalites }}</caption>
+  <thead><tr><th scope="col">{{ L_h.categorie }}</th><th scope="col">{{ L_h.saisons_riv }}</th><th scope="col">{{ L_h.acteurs_riv }}</th></tr></thead>
+  <tbody>
+  {%- assign unites_rv = "ecurie,pilote,motoriste,pneus" | split: "," %}
+  {%- for u_rv in unites_rv %}
+    {%- if u_rv == "pneus" %}{% assign rv_h = site.data.compteur.pneus.rivalites %}{% else %}{% assign rv_h = H_h.rivalites[u_rv] %}{% endif %}
+    {%- assign cle_rv = "bande_" | append: u_rv %}
+    {%- for r in rv_h %}
+    <tr><td>{{ T_h.portail[cle_rv] }}</td><td>{{ r.de }}{% if r.a != r.de %}–{{ r.a }}{% endif %}</td><td>
+      {%- for x in r.acteurs %}{% if u_rv == "ecurie" and x.id %}{% assign e_rv = D_h.ecuries.ecuries | where: "id", x.id | first %}<a href="{{ url_e_h }}{{ x.id }}/">{{ e_rv.nom | default: x.nom }}</a>{% else %}{{ x.nom }}{% endif %} ({{ x.titres }}{{ esp_ }}{% if x.titres == 1 %}{{ T_h.portail.titre_s }}{% elsif x.titres == 0 and lang_h != "en" %}{{ T_h.portail.titre_s }}{% else %}{{ L_h.titres | downcase }}{% endif %}, {{ x.part | times: 100 | round }}{{ pc_h }}){% unless forloop.last %}{{ esp_ }}; {% endunless %}{% endfor -%}
+    </td></tr>
+    {%- endfor %}
+  {%- endfor %}
+  </tbody>
+</table></div>
+
 {%- elsif include.quoi == "technologies" -%}
 <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_techno | escape }}"><table>
 <caption>{{ L_h.cap_techno }}</caption>

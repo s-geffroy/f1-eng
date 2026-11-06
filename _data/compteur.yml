@@ -4505,6 +4505,87 @@ technologies:
     - mercedes
     - red-bull
 pneus:
+  rivalites:
+  - de: 1954
+    a: 1954
+    saisons: 1
+    acteurs:
+    - nom: Continental
+      titres: 1
+      part: 0.444444
+    - nom: Pirelli
+      titres: 0
+      part: 0.444444
+  - de: 1967
+    a: 1967
+    saisons: 1
+    acteurs:
+    - nom: Firestone
+      titres: 0
+      part: 0.545455
+    - nom: Goodyear
+      titres: 1
+      part: 0.454545
+  - de: 1972
+    a: 1972
+    saisons: 1
+    acteurs:
+    - nom: Firestone
+      titres: 1
+      part: 0.583333
+    - nom: Goodyear
+      titres: 0
+      part: 0.416667
+  - de: 1979
+    a: 1979
+    saisons: 1
+    acteurs:
+    - nom: Goodyear
+      titres: 0
+      part: 0.533333
+    - nom: Michelin
+      titres: 1
+      part: 0.466667
+  - de: 1982
+    a: 1983
+    saisons: 2
+    acteurs:
+    - nom: Michelin
+      titres: 0
+      part: 0.55
+    - nom: Goodyear
+      titres: 2
+      part: 0.45
+  - de: 1998
+    a: 1998
+    saisons: 1
+    acteurs:
+    - nom: Bridgestone
+      titres: 1
+      part: 0.5625
+    - nom: Goodyear
+      titres: 0
+      part: 0.4375
+  - de: 2003
+    a: 2003
+    saisons: 1
+    acteurs:
+    - nom: Bridgestone
+      titres: 1
+      part: 0.5625
+    - nom: Michelin
+      titres: 0
+      part: 0.4375
+  - de: 2006
+    a: 2006
+    saisons: 1
+    acteurs:
+    - nom: Bridgestone
+      titres: 0
+      part: 0.5
+    - nom: Michelin
+      titres: 1
+      part: 0.5
   monopoles:
   - de: 1961
     a: 1963

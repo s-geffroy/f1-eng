@@ -55,7 +55,7 @@ La domination se mesure ensuite à sa durée. Les saisons dominantes d'un même 
 
 L'hégémonie a cinq niveaux, selon cette part des victoires : elle est **majoritaire** à partir de {{ P.niveaux[0] | times: 100 | round }} %, **affirmée** à partir de {{ P.niveaux[1] | times: 100 | round }} %, **écrasante** à partir de {{ P.niveaux[2] | times: 100 | round }} %, **quasi totale** à partir de {{ P.niveaux[3] | times: 100 | round }} % et **absolue** à partir de {{ P.niveaux[4] | times: 100 | round }} %.
 
-Chaque saison a un champion du monde : chaque saison est donc dominante pour au moins un pilote, une écurie et un motoriste. Le premier degré est le plus courant. Ce qui est rare, c'est de durer.
+Chaque saison a un champion du monde : chaque saison est donc dominante pour au moins un pilote, une écurie et un motoriste. Le premier degré est le plus courant. Ce qui est rare, c'est de durer. Deux acteurs peuvent aussi dominer la même saison, l'un avec le titre, l'autre avec ses victoires : c'est une [rivalité](#rivalites), et c'est pourquoi deux périodes peuvent se chevaucher.
 
 Pour lire l'intensité d'une domination, chaque saison reçoit aussi une note sur 100, comme sur un compteur : l'**indice composite**, moyenne des parts de victoires, de poles et de places sur le podium ([détails plus bas](#mesures)). Le compteur ci-dessous suit, saison après saison, l'écurie la plus forte.
 
@@ -198,6 +198,20 @@ Le manufacturier de pneus est un acteur à part : il équipe plusieurs écuries
 - **Depuis 2007, le pneu ne départage plus personne** : le fournisseur unique est devenu la règle.
 
 Les vainqueurs et les polemen sont ceux de formula1.com. Pour la pole d'Argentine 1955, formula1.com indique Lancia, mais la recherche sur les pneus a montré que González l'a signée sur une Ferrari 625 chaussée d'Englebert : le relevé la rend à Ferrari, et l'écart est signalé ici.
+
+## Les rivalités {#rivalites}
+
+Deux périodes de la même catégorie peuvent se chevaucher, sur la frise de l'accueil comme dans les tableaux. Ce n'est pas une erreur : une saison est dominante pour l'acteur qui gagne le titre **ou** qui remporte au moins {{ P.seuil | times: 100 | round }} % des Grands Prix. Le champion et un autre acteur peuvent donc dominer la même saison. On appelle **rivalité** une suite de saisons consécutives où au moins deux acteurs de la même catégorie dominent ensemble. On en compte {{ H.rivalites.ecurie.size }} entre écuries, {{ H.rivalites.pilote.size }} entre pilotes, {{ H.rivalites.motoriste.size }} entre motoristes et {{ CP.pneus.rivalites.size }} entre manufacturiers de pneus. La frise de l'accueil les marque d'une rangée hachurée sous chaque bande.
+
+Trois situations les expliquent :
+
+- **La passation.** La dernière saison d'une hégémonie est la première de la suivante. En 1991, McLaren est championne et Williams gagne 44 % des Grands Prix ; en 2021, Mercedes remporte le titre des constructeurs et Red Bull la moitié des courses. Les hégémonies d'écuries ne se recouvrent jamais plus d'une saison.
+- **La guerre des fournisseurs.** Un motoriste ou un manufacturier de pneus équipe plusieurs écuries, et deux fournisseurs peuvent dépasser le seuil la même saison. De 1975 à 1977, les moteurs Ford gagnent 63 % des Grands Prix pendant que Ferrari remporte trois titres ; Goodyear et Michelin se partagent les victoires en 1979, puis en 1982 et 1983. C'est pourquoi deux hégémonies de fournisseurs peuvent courir en même temps, comme celles de Goodyear (1977-1986) et de Michelin (1979-1984).
+- **Le duel de coéquipiers.** Chez les pilotes, la rivalité oppose souvent deux équipiers de l'écurie dominante : Senna et Prost chez McLaren en 1988, Hamilton et Rosberg chez Mercedes en 2016.
+
+Une période peut aussi enjamber une saison creuse pendant laquelle un autre acteur domine : Ferrari, de 1999 à 2008, traverse 2005, l'année de Renault. Ce chevauchement-là n'est pas une rivalité, puisque les deux acteurs ne dominent pas la même saison.
+
+{% include domination.html quoi="rivalites" %}
 
 ## Au-delà des victoires : poles, podiums et doublés {#mesures}
 

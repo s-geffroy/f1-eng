@@ -211,6 +211,23 @@ def detecter(u, seuil, mini, creux):
         if len(groupe) >= mini: out.append((k, groupe))
     return out
 
+def rivalites(saisons):
+    """Rivalités : suites de saisons consécutives où les mêmes acteurs (deux ou plus) d'une catégorie sont
+    dominants ensemble, chacun champion ou à au moins SEUIL des victoires. saisons : {annee: {acteur:
+    (champion, part des victoires)}} (les saisons absentes, comme les monopoles de pneus, coupent une suite).
+    Mesure par saison, et non par chevauchement de périodes : une saison creuse enjambée par une période
+    n'est pas une rivalité. -> [(acteurs, [annees])]."""
+    out = []
+    for a in sorted(saisons):
+        doms = frozenset(k for k, (ch, pa) in saisons[a].items() if ch or pa >= SEUIL)
+        if len(doms) < 2:
+            continue
+        if out and out[-1][0] == doms and out[-1][1][-1] == a - 1:
+            out[-1][1].append(a)
+        else:
+            out.append((doms, [a]))
+    return out
+
 def recouvre(k, g, autres):
     return any(k == k2 and g[0] <= g2[-1] and g2[0] <= g[-1] for k2, g2 in autres)
 
@@ -320,6 +337,20 @@ for u in part:
     dominations[u] = hs
     effectifs[u] = {"saison": len(saisons_dom[u]), "domination": sum(h["degre"] == "domination" for h in hs),
                     "hegemonie": sum(h["degre"] == "hegemonie" for h in hs), "longue": sum(h["longue"] for h in hs)}
+
+# Rivalités des écuries, pilotes et motoristes (frise de l'accueil, section du dossier) : deux acteurs ou
+# plus dominants la même saison. C'est ce qui fait se chevaucher deux périodes de la même catégorie.
+rivalites_out = {}
+for u in ("ecurie", "pilote", "motoriste"):
+    sais = {a: {k: (champion[u].get(a) == k, part[u][a].get(k, 0))
+                for k in set(part[u][a]) | ({champion[u][a]} if champion[u].get(a) else set())} for a in ANNEES}
+    rivalites_out[u] = []
+    for doms, ans in rivalites(sais):
+        acteurs = sorted(doms, key=lambda k: (-sum(part[u][a].get(k, 0) for a in ans), k))
+        rivalites_out[u].append({"de": ans[0], "a": ans[-1], "saisons": len(ans), "acteurs": [
+            {**({"id": k} if not k.startswith("~") else {}), "nom": nom(u, k),
+             "titres": sum(1 for a in ans if champion[u].get(a) == k),
+             "part": round(sum(part[u][a].get(k, 0) for a in ans) / len(ans), PREC)} for k in acteurs]})
 
 # Saisons les plus écrasantes : pour chaque saison, l'écurie et le pilote d'indice composite le plus
 # élevé ; on garde les dix premiers (le classement ne dépend pas des degrés).
@@ -554,6 +585,7 @@ sortie = {
                    "saisons": f"{ANNEES[0]}–{ANNEES[-1]}", "gp": sum(s["gp"] for s in R)},
     "effectifs": effectifs,
     "dominations": dominations,
+    "rivalites": rivalites_out,
     "saisons_dominantes": saisons_dom,
     "saisons_ecrasantes": ecrasantes,
     "jalons": jalons,
@@ -1281,7 +1313,14 @@ if PN:
         r = next((i for i, f in enumerate(fins) if f < x["debut"]), len(fins))
         fins[r:r + 1] = [x["fin"]]
         x["rangee"] = r
-    pneus_out = {"monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
+    pn_riv = []
+    for doms, ans in rivalites({a: {m: (pch[a] == m, pv[a].get(m, 0)) for m in set(pv[a]) | {pch[a]}}
+                                for a in ANNEES if a not in mono}):
+        acteurs = sorted(doms, key=lambda m: (-sum(pv[a].get(m, 0) for a in ans), m))
+        pn_riv.append({"de": ans[0], "a": ans[-1], "saisons": len(ans), "acteurs": [
+            {"nom": m, "titres": sum(1 for a in ans if pch[a] == m),
+             "part": round(sum(pv[a].get(m, 0) for a in ans) / len(ans), PREC)} for m in acteurs]})
+    pneus_out = {"rivalites": pn_riv, "monopoles": [{"de": m["de"], "a": m["a"], "pneus": m["pneus"], "nature": m["nature"]} for m in PN["monopoles"]],
                  "periodes": periodes, "saisons": pn_saisons}
     sortie_compteur["pneus"] = pneus_out
 

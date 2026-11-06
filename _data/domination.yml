@@ -2359,6 +2359,298 @@ dominations:
     regles_fin:
     - reglement-2026
     rangee: 0
+rivalites:
+  ecurie:
+  - de: 1991
+    a: 1991
+    saisons: 1
+    acteurs:
+    - id: mclaren
+      nom: McLaren
+      titres: 1
+      part: 0.5
+    - id: williams
+      nom: Williams
+      titres: 0
+      part: 0.4375
+  - de: 1994
+    a: 1994
+    saisons: 1
+    acteurs:
+    - id: benetton
+      nom: Benetton
+      titres: 0
+      part: 0.5
+    - id: williams
+      nom: Williams
+      titres: 1
+      part: 0.4375
+  - de: 1999
+    a: 2000
+    saisons: 2
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 2
+      part: 0.481618
+    - id: mclaren
+      nom: McLaren
+      titres: 0
+      part: 0.424632
+  - de: 2005
+    a: 2005
+    saisons: 1
+    acteurs:
+    - id: mclaren
+      nom: McLaren
+      titres: 0
+      part: 0.526316
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.421053
+  - de: 2006
+    a: 2006
+    saisons: 1
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 0
+      part: 0.5
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.444444
+  - de: 2007
+    a: 2007
+    saisons: 1
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 1
+      part: 0.529412
+    - id: mclaren
+      nom: McLaren
+      titres: 0
+      part: 0.470588
+  - de: 2021
+    a: 2021
+    saisons: 1
+    acteurs:
+    - id: red-bull
+      nom: Red Bull
+      titres: 0
+      part: 0.5
+    - id: mercedes
+      nom: Mercedes
+      titres: 1
+      part: 0.409091
+  pilote:
+  - de: 1950
+    a: 1950
+    saisons: 1
+    acteurs:
+    - id: Juan Manuel Fangio
+      nom: Juan Manuel Fangio
+      titres: 0
+      part: 0.428571
+    - id: Nino Farina
+      nom: Nino Farina
+      titres: 1
+      part: 0.428571
+  - de: 1984
+    a: 1984
+    saisons: 1
+    acteurs:
+    - id: Alain Prost
+      nom: Alain Prost
+      titres: 0
+      part: 0.4375
+    - id: Niki Lauda
+      nom: Niki Lauda
+      titres: 1
+      part: 0.3125
+  - de: 1988
+    a: 1988
+    saisons: 1
+    acteurs:
+    - id: Ayrton Senna
+      nom: Ayrton Senna
+      titres: 1
+      part: 0.5
+    - id: Alain Prost
+      nom: Alain Prost
+      titres: 0
+      part: 0.4375
+  - de: 2016
+    a: 2016
+    saisons: 1
+    acteurs:
+    - id: Lewis Hamilton
+      nom: Lewis Hamilton
+      titres: 0
+      part: 0.47619
+    - id: Nico Rosberg
+      nom: Nico Rosberg
+      titres: 1
+      part: 0.428571
+  motoriste:
+  - de: 1962
+    a: 1962
+    saisons: 1
+    acteurs:
+    - id: brm
+      nom: BRM
+      titres: 1
+      part: 0.444444
+    - id: climax
+      nom: Climax
+      titres: 0
+      part: 0.444444
+  - de: 1964
+    a: 1964
+    saisons: 1
+    acteurs:
+    - id: climax
+      nom: Climax
+      titres: 0
+      part: 0.5
+    - id: ferrari
+      nom: Ferrari
+      titres: 1
+      part: 0.3
+  - de: 1975
+    a: 1977
+    saisons: 3
+    acteurs:
+    - id: ford
+      nom: Ford
+      titres: 0
+      part: 0.634104
+    - id: ferrari
+      nom: Ferrari
+      titres: 3
+      part: 0.346289
+  - de: 1979
+    a: 1979
+    saisons: 1
+    acteurs:
+    - id: ford
+      nom: Ford
+      titres: 0
+      part: 0.533333
+    - id: ferrari
+      nom: Ferrari
+      titres: 1
+      part: 0.4
+  - de: 1982
+    a: 1982
+    saisons: 1
+    acteurs:
+    - id: ford
+      nom: Ford
+      titres: 0
+      part: 0.5
+    - id: ferrari
+      nom: Ferrari
+      titres: 1
+      part: 0.1875
+  - de: 1991
+    a: 1991
+    saisons: 1
+    acteurs:
+    - id: honda
+      nom: Honda
+      titres: 1
+      part: 0.5
+    - id: renault
+      nom: Renault
+      titres: 0
+      part: 0.4375
+  - de: 1994
+    a: 1994
+    saisons: 1
+    acteurs:
+    - id: ford
+      nom: Ford
+      titres: 0
+      part: 0.5
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.4375
+  - de: 1999
+    a: 2000
+    saisons: 2
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 2
+      part: 0.481618
+    - id: mercedes
+      nom: Mercedes
+      titres: 0
+      part: 0.424632
+  - de: 2005
+    a: 2005
+    saisons: 1
+    acteurs:
+    - id: mercedes
+      nom: Mercedes
+      titres: 0
+      part: 0.526316
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.421053
+  - de: 2006
+    a: 2006
+    saisons: 1
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 0
+      part: 0.5
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.444444
+  - de: 2007
+    a: 2007
+    saisons: 1
+    acteurs:
+    - id: ferrari
+      nom: Ferrari
+      titres: 1
+      part: 0.529412
+    - id: mercedes
+      nom: Mercedes
+      titres: 0
+      part: 0.470588
+  - de: 2012
+    a: 2012
+    saisons: 1
+    acteurs:
+    - id: renault
+      nom: Renault
+      titres: 1
+      part: 0.45
+    - id: mercedes
+      nom: Mercedes
+      titres: 0
+      part: 0.4
+  - de: 2021
+    a: 2021
+    saisons: 1
+    acteurs:
+    - id: honda
+      nom: Honda
+      titres: 0
+      part: 0.5
+    - id: mercedes
+      nom: Mercedes
+      titres: 1
+      part: 0.454545
 saisons_dominantes:
   ecurie:
   - nom: Ferrari
