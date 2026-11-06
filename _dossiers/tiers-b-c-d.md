@@ -1,31 +1,31 @@
 ---
-title: "Tiers B, C et D : quinze ingénieurs qui ont transformé la F1"
+title: "Tiers B, C et D : quinze ingénieurs qui ont transformé la F1"
 ordre: 3
-resume: "Les quinze suivants : ce qu'ils ont transformé et la limite qui les sépare du Tier A."
-description: "Les quinze suivants : ce qu'ils ont transformé et la limite qui les sépare du Tier A."
+resume: "Les quinze suivants : ce qu'ils ont transformé et la limite qui les sépare du Tier A."
+description: "Les quinze suivants : ce qu'ils ont transformé et la limite qui les sépare du Tier A."
 redirect_from: "/classement/2026/10/25/tiers-b-c-d-ingenieurs-f1.html"
 ---
-Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures. Être classé hors du Tier A n'est pas un jugement de talent : c'est le constat d'une limite précise, qu'il s'agisse d'une attribution plus collective, d'une portée plus spécialisée, d'une durée plus courte ou d'une dépendance à une période réglementaire.
+Cinq ingénieurs ont changé la grammaire de la F1 ; quinze autres ont transformé des sous-systèmes, des méthodes ou des trajectoires techniques majeures. Être classé hors du Tier A n'est pas un jugement de talent : c'est le constat d'une limite précise, qu'il s'agisse d'une attribution plus collective, d'une portée plus spécialisée, d'une durée plus courte ou d'une dépendance à une période réglementaire.
 
 ## Tier B — Transformateurs systémiques majeurs
 
 | Rang | Ingénieur | Score | En une ligne |
 |---:|---|---:|---|
-| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) |
+| 6 | [Bernard Dudot]({{ site.baseurl }}{% link _ingenieurs/bernard-dudot.md %}) | 90,0 | Propulsion : turbo, rappel pneumatique, [V10]({{ site.baseurl }}/glossaire/#architecture-moteur) |
 | 7 | [Gordon Murray]({{ site.baseurl }}{% link _ingenieurs/gordon-murray.md %}) | 88,5 | Architectures radicales et arrêt au stand tactique |
 | 8 | [Mauro Forghieri]({{ site.baseurl }}{% link _ingenieurs/mauro-forghieri.md %}) | 87,5 | Ingénierie intégrée moteur/châssis/transmission/aéro |
 | 9 | [Peter Wright]({{ site.baseurl }}{% link _ingenieurs/peter-wright.md %}) | 86,5 | Développement causal de l'effet de sol Lotus |
 | 10 | [Frank Dernie]({{ site.baseurl }}{% link _ingenieurs/frank-dernie.md %}) | 85,0 | Révolution numérique silencieuse (selon son témoignage) |
 
-**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport est une organisation collective : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
+**Dudot** est au cœur de trois mutations moteur chez Renault. Selon la documentation Renault, le turbo finit par être adopté par tout le plateau et le rappel pneumatique des soupapes devient une solution générale dans les années 1990. Renault Sport est une organisation collective : Dudot n'en est pas l'inventeur solitaire. L'idée du turbo est attribuée à [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), et le premier moteur turbo dérive du V6 de [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) et [Jean-Pierre Boudy]({{ site.baseurl }}{% link _ingenieurs/jean-pierre-boudy.md %}).
 
-**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, l'arrêt au stand tactique moderne, dont formula1.com lui attribue l'invention, et son rôle central dans le concept de la McLaren MP4/4, dont le dessin de détail revient à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et à son équipe selon Autosport. Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
+**Murray** associe radicalité conceptuelle et pragmatisme : la Brabham BT46B, les architectures Brabham, l'arrêt au stand tactique moderne, dont formula1.com lui attribue l'invention, et son rôle central dans le concept de la McLaren MP4/4, dont le dessin de détail revient à [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}) et à son équipe selon Autosport. Ce qui le sépare du Tier A, c'est la diffusion inégale de certaines de ses ruptures.
 
-**Forghieri** couvre tous les grands sous-systèmes : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
+**Forghieri** couvre tous les grands sous-systèmes : moteur, transmission, châssis, suspension, aérodynamique. La Ferrari 312T et sa boîte transversale illustrent une pensée cohérente de centralisation des masses ; le flat-12 est créé avec [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}).
 
-**Wright** occupe une place élevée qui corrige l'attribution de l'effet de sol au seul Chapman : formula1.com relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78 puis de la Lotus 79. La 78 est dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions selon Doug Nye (Motor Sport), avec [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) selon formula1.com ; la 79 est esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
+**Wright** occupe une place élevée qui corrige l'attribution de l'effet de sol au seul Chapman : formula1.com relie explicitement Wright et Tony Rudd aux recherches BRM puis Lotus qui mènent à la percée de la Lotus 78 puis de la Lotus 79. La 78 est dessinée par [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), avec [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}) aux suspensions selon Doug Nye (Motor Sport), avec [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) selon formula1.com ; la 79 est esquissée par Chapman et mise au point par Ogilvie et [Geoff Aldridge]({{ site.baseurl }}{% link _ingenieurs/geoff-aldridge.md %}).
 
-**Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
+**Dernie** incarne la révolution silencieuse : selon ses propres déclarations, CAO/CAE précoce, acquisition de données, soufflerie, suspension active chez Williams. Il est classé pour la transformation du *processus* d'ingénierie autant que pour une voiture précise.
 
 ## Tier C — Innovateurs structurants
 
@@ -52,33 +52,33 @@ Une place majeure dans l'histoire technique, avec une causalité moins exclusive
 
 ## Une leçon commune
 
-Plusieurs de ces ingénieurs n'ont pas changé la forme de la voiture, mais **la manière de la concevoir** : Dernie avec le numérique, Brawn avec la méthode, Head avec l'organisation. Une révolution technique peut transformer le processus sans être visible sur la carrosserie.
+Plusieurs de ces ingénieurs n'ont pas changé la forme de la voiture, mais **la manière de la concevoir** : Dernie avec le numérique, Brawn avec la méthode, Head avec l'organisation. Une révolution technique peut transformer le processus sans être visible sur la carrosserie.
 
 ## Les acteurs hors classement
 
-Derrière les vingt, l'encyclopédie documente aussi, sans les noter, trente-huit autres acteurs de ces innovations, marqués HC dans l'index ; parmi eux :
+Derrière les vingt, l'encyclopédie documente aussi, sans les noter, trente-huit autres acteurs de ces innovations, marqués HC dans l'index ; parmi eux :
 
-- **Lotus 78** : [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ;
-- **Renault** : [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) ;
-- **Ferrari et Lancia** : [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}), [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) ;
-- **McLaren** : [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) ;
-- **Williams** : [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}), [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) ;
-- **Toleman** : [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}) ;
-- **Indianapolis 1962** : [John Crosthwaite]({{ site.baseurl }}{% link _ingenieurs/john-crosthwaite.md %}), concepteur de la Mickey Thompson à moteur arrière.
+- **Lotus 78** : [Ralph Bellamy]({{ site.baseurl }}{% link _ingenieurs/ralph-bellamy.md %}), [Martin Ogilvie]({{ site.baseurl }}{% link _ingenieurs/martin-ogilvie.md %}), [Tony Southgate]({{ site.baseurl }}{% link _ingenieurs/tony-southgate.md %}) ;
+- **Renault** : [Jean Terramorsi]({{ site.baseurl }}{% link _ingenieurs/jean-terramorsi.md %}), [François Castaing]({{ site.baseurl }}{% link _ingenieurs/francois-castaing.md %}) ;
+- **Ferrari et Lancia** : [Franco Rocchi]({{ site.baseurl }}{% link _ingenieurs/franco-rocchi.md %}), [Ettore Zaccone Mina]({{ site.baseurl }}{% link _ingenieurs/ettore-zaccone-mina.md %}), [Harvey Postlethwaite]({{ site.baseurl }}{% link _ingenieurs/harvey-postlethwaite.md %}), [Aldo Costa]({{ site.baseurl }}{% link _ingenieurs/aldo-costa.md %}) ;
+- **McLaren** : [Steve Nichols]({{ site.baseurl }}{% link _ingenieurs/steve-nichols.md %}), [Alan Jenkins]({{ site.baseurl }}{% link _ingenieurs/alan-jenkins.md %}) ;
+- **Williams** : [Sam Michael]({{ site.baseurl }}{% link _ingenieurs/sam-michael.md %}), [Steve Wise]({{ site.baseurl }}{% link _ingenieurs/steve-wise.md %}) ;
+- **Toleman** : [John Gentry]({{ site.baseurl }}{% link _ingenieurs/john-gentry.md %}) ;
+- **Indianapolis 1962** : [John Crosthwaite]({{ site.baseurl }}{% link _ingenieurs/john-crosthwaite.md %}), concepteur de la Mickey Thompson à moteur arrière.
 
 ## Sources
 
 Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris des fiches et de la chronologie sont sourcés sur ces pages, auxquelles chaque nom renvoie.
 
-- Autosport, Gary Watkins, « The origins of McLaren-Honda's greatest racer » (août 2017) : <https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/>
-- Renault, « 30 ans de Formule 1 » (2007) : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
-- Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » : <https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1>
-- Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » : <https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz>
-- Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
-- Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
-- Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
-- Formula 1, « Ross Brawn reveals his favourite car designs » : <https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo>
-- Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 » : <https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG>
-- Stellantis Heritage, « Lancia D50 » : <https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50>
-- Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant » : <https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R>
-- Motor Sport, Doug Nye, « Lotus 78: F1's first true ground effect car » (février 2020) : <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>
+- Autosport, Gary Watkins, « The origins of McLaren-Honda's greatest racer » (août 2017) : <https://www.autosport.com/f1/news/the-origins-of-mclaren-hondas-greatest-racer-5102252/5102252/>
+- Renault, « 30 ans de Formule 1 » (2007) : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
+- Formula 1, « Most Influential Person in F1 History: Who is going through to the final 4 » : <https://www.formula1.com/en/latest/article/most-influential-person-in-f1-history-who-is-going-through-to-the-final-4.5Uk4yx3U0zEckWhWU02HM1>
+- Formula 1, « TECH TUESDAY: Under the bodywork of Mauro Forghieri's masterpiece, the Ferrari 312T » : <https://www.formula1.com/en/latest/article/tech-tuesday-under-the-bodywork-of-mauro-forghieris-masterpiece-the-ferrari.kftnvmyfKpzrrB5NdO1xz>
+- Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+- Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
+- Formula 1, « Ross Brawn reveals his favourite car designs » : <https://www.formula1.com/en/latest/article/exclusive-from-trendsetters-to-title-winners-ross-brawn-reveals-his.6FIAnV6e71kvi8PVInIuPo>
+- Formula 1, « TECH TUESDAY: France flashback – how F1 looked in 1990 » : <https://www.formula1.com/en/latest/article/tech-tuesday-france-flashback-how-f1-looked-in-1990.1ysdfhQzeImE2IeqokCeQG>
+- Stellantis Heritage, « Lancia D50 » : <https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50>
+- Formula 1, « Why Ferrari's technical reshuffle – and nod to the past – is so significant » : <https://www.formula1.com/en/latest/article/analysis-why-ferraris-technical-reshuffle-and-nod-to-the-past-is-so.2oJQc1Vo8nRxOOR5PeAt1R>
+- Motor Sport, Doug Nye, « Lotus 78: F1's first true ground effect car » (février 2020) : <https://www.motorsportmagazine.com/archive/article/february-2020/111/lotus-78-2>

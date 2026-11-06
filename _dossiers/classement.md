@@ -46,34 +46,34 @@ Ce tableau montre des **filiations intellectuelles**, pas des relations maître-
 
 ## Trois manières d'être au sommet
 
-- **Chapman** : la rupture multiple, par accumulation de ruptures architecturales.
-- **Barnard** : probablement la paternité la plus nette, avec deux innovations directes devenues universelles.
-- **Newey** : l'adaptation la plus durable, avec des voitures championnes chez Williams, McLaren et Red Bull, sous plusieurs générations de règlements.
+- **Chapman** : la rupture multiple, par accumulation de ruptures architecturales.
+- **Barnard** : probablement la paternité la plus nette, avec deux innovations directes devenues universelles.
+- **Newey** : l'adaptation la plus durable, avec des voitures championnes chez Williams, McLaren et Red Bull, sous plusieurs générations de règlements.
 
-Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il classe des **capacités historiques à déplacer la frontière technique de la Formule 1**.
+Ce classement n'est pas une échelle unidimensionnelle de « génie ». Il classe des **capacités historiques à déplacer la frontière technique de la Formule 1**.
 
-> Révolutionner la F1, ce n'est pas seulement construire la voiture la plus rapide : c'est obliger les autres à changer leur manière de construire une F1.
+> Révolutionner la F1, ce n'est pas seulement construire la voiture la plus rapide : c'est obliger les autres à changer leur manière de construire une F1.
 
 ## Pour aller plus loin
 
 - La [chronologie des innovations]({{ '/chronologie/' | relative_url }}) place ces ruptures sur une frise, de la Cooper 500 de 1946 à la Red Bull de 2022.
-- Le [glossaire technique]({{ '/glossaire/' | relative_url }}) explique les termes employés : effet de sol, monocoque, rappel pneumatique…
-- L'[index des ingénieurs]({{ '/ingenieurs/' | relative_url }}) recense aussi trente-huit entrées hors classement, marquées HC : les autres acteurs de ces innovations.
+- Le [glossaire technique]({{ '/glossaire/' | relative_url }}) explique les termes employés : effet de sol, monocoque, rappel pneumatique…
+- L'[index des ingénieurs]({{ '/ingenieurs/' | relative_url }}) recense aussi trente-huit entrées hors classement, marquées HC : les autres acteurs de ces innovations.
 
 ## Sources principales
 
 Consultées le 9 août 2026, revérifiées le 26 octobre 2026. Les faits repris des fiches et de la chronologie sont sourcés sur ces pages, auxquelles chaque nom renvoie. Chaque entrée donne ses propres sources.
 
-- Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
-- Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » : <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>
-- Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
-- Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations » : <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
-- Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
-- Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
-- McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
-- Renault, « 30 ans de Formule 1 » (2007) : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
-- Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
-- Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
-- Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
-- Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
-- Autosport, « Interview with Rory Byrne » : <https://www.autosport.com/general/news/interview-with-rory-byrne-5076767/5076767/>
+- Formula 1, « VOTE NOW: Who is the most influential technical innovator in F1 history? » : <https://www.formula1.com/en/latest/article/vote-now-who-is-the-most-influential-technical-innovator-in-f1-history.dUby3oyTgDmCPqkvkYttX>
+- Formula 1, « The 75 best drivers, cars, innovations, teams and key figures in F1 history » : <https://www.formula1.com/en/latest/article/the-75-best-drivers-cars-innovations-teams-and-key-figures-in-f1-history.6VcYXd7l9aI6fysNWtxFja>
+- Formula 1, « TECH TUESDAY: The Lotus 79, F1's ground effect marvel » : <https://www.formula1.com/en/latest/article/tech-tuesday-the-lotus-79-f1s-ground-effect-marvel.sAD9PXt7mC8iMSwwe6CCw>
+- Formula 1, « John Barnard on working for Enzo Ferrari, engineering Schumacher, and his best F1 innovations » : <https://www.formula1.com/en/latest/article/listen-to-john-barnard-f1-podcast.BMSWfX9hs5BvvOWoM9xvF>
+- Formula 1, « Why the Williams FW15C remains F1's technological Tour de Force » : <https://www.formula1.com/en/latest/article/tech-tuesday-wizardry-behind-williams-fw15c.6IzOXYuuPYOWyaaGGS4AgS>
+- Lotus, « Lotus Type 25 — The Revolutionary Monocoque » : <https://www.lotuscars.com/en/lotus-story/race-cars/type-25>
+- McLaren, « MP4/1 » : <https://www.mclaren.com/racing/heritage/formula-1/cars/1981-formula-1-mclaren-mp4-1/>
+- Renault, « 30 ans de Formule 1 » (2007) : <https://cdn.group.renault.com/ren/master/renault-classic/tools-and-services/30AnsDeFormule1.pdf>
+- Motor Sport Magazine, « Cooper T51: the revolutionary car that changed F1 forever » : <https://www.motorsportmagazine.com/archive/article/june-2019/122/cooper-t51/>
+- Doug Nye, Goodwood, « The rise and fall of the single-seater Cooper » : <https://www.goodwood.com/grr/columnists/doug-nye/the-rise-and-fall-of-the-single-seater-cooper/>
+- Motor Sport Magazine, « The Lotus 49 » (juillet 1967) : <https://www.motorsportmagazine.com/archive/article/july-1967/26/the-lotus-49/>
+- Motor Sport Magazine, « Lunch with… Frank Dernie » : <https://www.motorsportmagazine.com/archive/article/august-2016/100/lunch-frank-dernie/>
+- Autosport, « Interview with Rory Byrne » : <https://www.autosport.com/general/news/interview-with-rory-byrne-5076767/5076767/>
