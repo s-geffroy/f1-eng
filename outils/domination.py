@@ -53,6 +53,14 @@ def lire_sortie(chemin):
     return open(chemin, encoding="utf-8").read()
 
 R = yaml.safe_load(open("_data/resultats.yml", encoding="utf-8"))["saisons"]
+GP = {s["annee"]: s["gp"] for s in R}          # nombre de Grands Prix de chaque saison
+
+def quotient(n, d, quoi):
+    """n / d. Un dénominateur nul (aucune course, aucune saison) arrête le script avec un message qui dit
+    où, au lieu d'un ZeroDivisionError ; rien n'est écrit (voir SORTIES)."""
+    if not d:
+        sys.exit(f"{quoi} : division par zéro (aucune course ni saison à compter)")
+    return n / d
 E = yaml.safe_load(open("_data/ecuries.yml", encoding="utf-8"))
 C = yaml.safe_load(open("_data/chronologie.yml", encoding="utf-8"))
 ANNEES = [s["annee"] for s in R]
@@ -342,11 +350,12 @@ for jid, ecs in sorted(JALON_ECURIES.items(), key=lambda x: (JALONS[x[0]]["annee
         statut = "pendant" if pendant(ec, y) else "ouvre" if debut_suit(ec, y) else "sans"
         jalons.append({"jalon": jid, "annee": y, "ecurie": ec, "avant": part_ecurie(ec, y - AVANT, y - 1),
                        "apres": part_ecurie(ec, y, y + APRES - 1), "statut": statut})
-        if statut != "pendant" and (ec, y) not in vus:
+        # Témoin : même écurie, n'importe quelle saison disputée hors domination longue. Une écurie
+        # sans telle saison n'a pas de témoin : le cas sort à la fois de l'observé et de l'attendu.
+        libres = [a for a in actives(ec) if not pendant(ec, a)]
+        if statut != "pendant" and (ec, y) not in vus and libres:
             vus.add((ec, y))
             obs.append(statut == "ouvre")
-            # Témoin : même écurie, n'importe quelle saison disputée hors domination longue.
-            libres = [a for a in actives(ec) if not pendant(ec, a)]
             attendu.append(sum(debut_suit(ec, a) for a in libres) / len(libres))
 jalons.sort(key=lambda x: (x["annee"], x["jalon"], x["ecurie"]))
 sans_ecurie = sorted((j["id"] for j in C["jalons"] if j["id"] not in JALON_ECURIES), key=lambda i: JALONS[i]["annee"])
@@ -480,7 +489,9 @@ def poisson_binomiale(ps, k):
     return sum(d[k:])
 
 def apparie(ms):
+    # Un cas dont la tranche de départ n'a aucun témoin sort du compte (observé comme attendu).
     d = [(m["apres"] - m["avant"], tranche(m["avant"])) for m in ms if m["avant"] is not None and m["apres"] is not None]
+    d = [(x, t) for x, t in d if temoin_tr[t]]
     ps = [sum(x > 0.05 for x in temoin_tr[t]) / len(temoin_tr[t]) for _, t in d]
     attendu_h = sum(ps)
     attendu_g = sum(sum(temoin_tr[t]) / len(temoin_tr[t]) for _, t in d)
@@ -706,7 +717,7 @@ for l in E["lignees"]:
 def youden(t):
     p = [x >= t for x, d in obs_l if d]
     n = [x < t for x, d in obs_l if not d]
-    return sum(p) / len(p) + sum(n) / len(n) - 1
+    return quotient(sum(p), len(p), "Youden : saisons dominantes") + quotient(sum(n), len(n), "Youden : autres saisons") - 1
 SEUIL_INDICE = max((round(t / 100, 2) for t in range(1, 100)), key=youden)
 sortie_compteur = {"seuil": SEUIL_INDICE, "youden": round(youden(SEUIL_INDICE), PREC),
                    "saisons": len(obs_l), "dominantes": sum(d for _, d in obs_l),
@@ -1434,7 +1445,9 @@ def meneur(a):
 cycles_out = []
 for cy in CY:
     ans = [a for a in ANNEES if cy["de"] <= a <= cy["a"]]
-    gp = sum(gp_saison[a] for a in ans) if "gp_saison" in dir() else sum(next(x["gp"] for x in R if x["annee"] == a) for a in ans)
+    if not ans:
+        sys.exit(f"cycles : {cy['id']} ({cy['de']}-{cy['a']}) sans saison relevée dans _data/resultats.yml")
+    gp = sum(GP[a] for a in ans)
     tops = {}
     for u in ("ecurie", "pilote", "motoriste"):
         v = collections.Counter()
@@ -1543,7 +1556,6 @@ def tranches(f):
     return ([{"de": d, "a": min(d + 9, ANNEES[-1]), **f([a for a in ANNEES if decennie(a) == d])} for d in DECENNIES],
             [{"id": cy["id"], "de": cy["de"], "a": cy["a"], **f([a for a in ANNEES if cy["de"] <= a <= cy["a"]])} for cy in CY])
 COURSES = {s["annee"]: s["courses"] for s in R}
-GP = {s["annee"]: s["gp"] for s in R}
 
 # Ouverture : écuries et pilotes gagnants différents, nombre effectif d'écuries gagnantes (inverse de
 # l'indice de Herfindahl des parts de victoires), écart au titre constructeurs (part des points du
@@ -1553,7 +1565,7 @@ for a in ANNEES:
     pe = sorted(points["ecurie"].get(a, {}).values(), reverse=True)
     ouverture.append({"annee": a, "gp": GP[a], "ecuries": len(victoires["ecurie"][a]), "pilotes": len(victoires["pilote"][a]),
                       "effectif": round(1 / sum(x * x for x in part["ecurie"][a].values()), 2),
-                      **({"ecart_titre": round((pe[0] - pe[1]) / pe[0], PREC)} if len(pe) > 1 else {})})
+                      **({"ecart_titre": round((pe[0] - pe[1]) / pe[0], PREC)} if len(pe) > 1 and pe[0] > 0 else {})})
 OUV = {o["annee"]: o for o in ouverture}
 def ouv_tranche(ans):
     et = [OUV[a]["ecart_titre"] for a in ans if "ecart_titre" in OUV[a]]
@@ -1580,7 +1592,7 @@ def maison(c):
     return MAISON.get(cle_ecurie(c)) == moteur(c["motoriste"])
 def client_tranche(ans):
     cs = [c for a in ans for c in COURSES[a]]
-    return {"gp": len(cs), "maison": sum(maison(c) for c in cs), "part_maison": round(sum(maison(c) for c in cs) / len(cs), PREC)}
+    return {"gp": len(cs), "maison": sum(maison(c) for c in cs), "part_maison": round(quotient(sum(maison(c) for c in cs), len(cs), f"motoristes maison {ans[:1]}"), PREC)}
 cli_dec, cli_cy = tranches(client_tranche)
 couples = collections.Counter((cle_ecurie(c).lstrip("~"), moteur(c["motoriste"])) for a in ANNEES for c in COURSES[a] if not maison(c))
 ans_couple = collections.defaultdict(list)
@@ -1595,7 +1607,7 @@ def depuis_pole(c):
     return c["pole"]["pilote"] in (c["vainqueur"], c.get("covainqueur"))
 def pole_tranche(ans):
     cs = [c for a in ans for c in COURSES[a] if c.get("pole")]
-    return {"gp": len(cs), "convertis": sum(map(depuis_pole, cs)), "taux": round(sum(map(depuis_pole, cs)) / len(cs), PREC)}
+    return {"gp": len(cs), "convertis": sum(map(depuis_pole, cs)), "taux": round(quotient(sum(map(depuis_pole, cs)), len(cs), f"conversion des poles {ans[:1]}"), PREC)}
 pol_dec, pol_cy = tranches(pole_tranche)
 pol_tot = pole_tranche(ANNEES)
 pe_ = collections.defaultdict(lambda: [0, 0])
