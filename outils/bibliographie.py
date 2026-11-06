@@ -6,7 +6,7 @@ _data/*.yml ; écrit _data/bibliographie.yml et _data/en/bibliographie.yml (page
 
 Les pages de résultats course par course de formula1.com (_data/resultats.yml, 1950-2025) ne sont
 pas listées une à une : elles forment un jeu de données, présenté comme tel en tête de page."""
-import os, re, sys, glob, collections
+import os, re, sys, glob, collections, unicodedata
 from urllib.parse import urlsplit
 import yaml
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pour outils/commun.py (python3 -I)
@@ -206,19 +206,24 @@ for lang, L in LANGUES.items():
                     parcourir(v, ancre, intitule)
         parcourir(donnees, "", "")
 
+    def tri(t):
+        """Clé de tri alphabétique : sans guillemets, sans accents, sans casse, ligatures décomposées
+        (« Écuries » avec les E, et non après « Zaccone » comme dans l'ordre des points de code) ;
+        le texte d'origine départage deux clés égales. Indépendant de la locale de la machine."""
+        t2 = re.sub(r"[«»“”\"'‘’]", "", t).replace("œ", "oe").replace("Œ", "Oe").replace("æ", "ae").replace("Æ", "Ae")
+        t2 = "".join(c for c in unicodedata.normalize("NFKD", t2) if not unicodedata.combining(c))
+        return (t2.casefold(), t)
     groupes = collections.defaultdict(list)
     for s in sources.values():
         url = s["url"]
         x = {"titre": s["titre"], "url": url,
-             "pages": [{"url": u, "titre": t} for u, t in sorted(s["pages"], key=lambda p: p[1].lower())]}
+             "pages": [{"url": u, "titre": t} for u, t in sorted(s["pages"], key=lambda p: tri(p[1]))]}
         if ERREURS.get(cle_url(url)):
             x["erreurs"] = ERREURS[cle_url(url)]
         groupes[editeur(url)].append(x)
-    def tri(t):
-        return re.sub(r"[«»“”\"'‘’]", "", t).lower()
     autres = [s for v in groupes.values() if len(v) < AUTRES for s in v]
     editeurs = sorted(({"nom": nom, "n": len(v), "sources": sorted(v, key=lambda s: tri(s["titre"]))}
-                       for nom, v in groupes.items() if len(v) >= AUTRES), key=lambda e: (-e["n"], e["nom"].lower()))
+                       for nom, v in groupes.items() if len(v) >= AUTRES), key=lambda e: (-e["n"], tri(e["nom"])))
     editeurs.append({"nom": "Autres éditeurs" if lang == "fr" else "Other publishers", "autres": True,
                      "n": len(autres), "sources": sorted(autres, key=lambda s: tri(s["titre"]))})
     sortie = {"total": len(sources), "editeurs_total": len(groupes),

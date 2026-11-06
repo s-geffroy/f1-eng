@@ -301,10 +301,10 @@ editeurs:
     pages:
     - url: /chronologie/#c-turbo-bride
       titre: 'Chronologie : 1987, Le turbo bridé, les moteurs atmosphériques admis'
-    - url: /voitures/march-881/
-      titre: March 881
     - url: /ecuries/
       titre: 'Écuries : March : March et Leyton House'
+    - url: /voitures/march-881/
+      titre: March 881
   - titre: Mark Hughes, Motor Sport Magazine, « Outstanding in the shadows » (août 2015)
     url: https://www.motorsportmagazine.com/archive/article/august-2015/30/outstanding-shadows
     pages:
@@ -579,6 +579,10 @@ editeurs:
       titre: Domination (pneus)
     - url: /ingenieurs/keith-duckworth/
       titre: Duckworth, Keith
+    - url: /ecuries/
+      titre: 'Écuries : Lancia'
+    - url: /ecuries/lancia/
+      titre: 'Écuries : Lancia'
     - url: /ingenieurs/vittorio-jano/
       titre: Jano, Vittorio
     - url: /voitures/lancia-d50/
@@ -587,10 +591,6 @@ editeurs:
       titre: Lancia, Gianni
     - url: /ingenieurs/ettore-zaccone-mina/
       titre: Zaccone Mina, Ettore
-    - url: /ecuries/
-      titre: 'Écuries : Lancia'
-    - url: /ecuries/lancia/
-      titre: 'Écuries : Lancia'
   - titre: 'Motor Sport Magazine, « Lauda''s Ferrari 312T: Maranello''s lost masterpiece » (août 2020)'
     url: https://www.motorsportmagazine.com/archive/article/august-2020/58/laudas-ferrari-312t-maranellos-lost-masterpiece/
     pages:
@@ -619,6 +619,8 @@ editeurs:
       titre: 'Chronologie : 1940, Les radiateurs dans l''aile du Mosquito'
     - url: /chronologie/#c-imperial-tapis-roulant
       titre: 'Chronologie : 1974, La soufflerie à tapis roulant de l''Imperial College'
+    - url: /ecuries/
+      titre: 'Écuries : Team Lotus'
     - url: /glossaire/#jupes
       titre: 'Glossaire : Jupes'
     - url: /glossaire/#nid-d-abeille
@@ -635,8 +637,6 @@ editeurs:
       titre: Southgate, Tony
     - url: /ingenieurs/peter-wright/
       titre: Wright, Peter
-    - url: /ecuries/
-      titre: 'Écuries : Team Lotus'
   - titre: Motor Sport Magazine, « Low and behold » (février 2003)
     url: https://www.motorsportmagazine.com/archive/article/february-2003/39/low-and-behold/
     pages:
@@ -1009,10 +1009,10 @@ editeurs:
   - titre: Motor Sport Magazine, Gary Watkins, « Lotus voices » (août 2004)
     url: https://www.motorsportmagazine.com/archive/article/august-2004/42/lotus-voices/
     pages:
-    - url: /ingenieurs/martin-ogilvie/
-      titre: Ogilvie, Martin
     - url: /ecuries/
       titre: 'Écuries : Team Lotus'
+    - url: /ingenieurs/martin-ogilvie/
+      titre: Ogilvie, Martin
   - titre: 'Motor Sport Magazine, Gordon Cruickshank, « Blackballed at the Brickyard: Lotus''s failed Indianapolis 500 return » (août 2004)'
     url: https://www.motorsportmagazine.com/archive/article/august-2004/50/blackballed-at-the-brickyard/
     pages:
@@ -1853,10 +1853,10 @@ editeurs:
   - titre: Motor Sport, Damien Smith, « One-pot dictator » (juillet 2004)
     url: https://www.motorsportmagazine.com/archive/article/july-2004/88/one-pot-dictator/
     pages:
-    - url: /chronologie/#c-rationnement-apres-guerre
-      titre: 'Chronologie : 1946, L''austérité et le rationnement de l''après-guerre'
     - url: /chronologie/#c-formule-500
       titre: 'Chronologie : 1946, La formule 500 cm³ du 500 Club'
+    - url: /chronologie/#c-rationnement-apres-guerre
+      titre: 'Chronologie : 1946, L''austérité et le rationnement de l''après-guerre'
   - titre: 'Motor Sport, Damien Smith, « Red Bull RB9: F1 machine that sealed the team''s first dominant era » (mai 2024)'
     url: https://www.motorsportmagazine.com/archive/article/may-2024/110/red-bull-rb9-f1-machine-that-sealed-the-teams-first-dominant-era
     pages:
@@ -3840,12 +3840,12 @@ editeurs:
   - titre: Formula 1, « 1962 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1962/team
     pages:
-    - url: /voitures/lotus-25/
-      titre: Lotus 25
     - url: /ecuries/brabham/
       titre: 'Écuries : Brabham'
     - url: /ecuries/
       titre: 'Écuries : saison 1962'
+    - url: /voitures/lotus-25/
+      titre: Lotus 25
   - titre: Formula 1, « 1963 Belgian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1963/races/206/belgium/race-result
     pages:
@@ -4015,12 +4015,12 @@ editeurs:
   - titre: Formula 1, « 1976 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1976/team
     pages:
-    - url: /voitures/tyrrell-p34/
-      titre: Tyrrell P34
     - url: /ecuries/ligier/
       titre: 'Écuries : Ligier'
     - url: /ecuries/
       titre: 'Écuries : saison 1976'
+    - url: /voitures/tyrrell-p34/
+      titre: Tyrrell P34
   - titre: Formula 1, « 1977 Argentine Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1977/races/374/argentina/race-result
     pages:
@@ -4036,19 +4036,19 @@ editeurs:
   - titre: Formula 1, « 1978 Driver Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1978/drivers
     pages:
-    - url: /voitures/tyrrell-008/
-      titre: Tyrrell 008
     - url: /ecuries/
       titre: 'Écuries : saison 1978'
+    - url: /voitures/tyrrell-008/
+      titre: Tyrrell 008
   - titre: Formula 1, « 1978 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1978/team
     pages:
-    - url: /voitures/tyrrell-008/
-      titre: Tyrrell 008
     - url: /ecuries/arrows/
       titre: 'Écuries : Arrows'
     - url: /ecuries/
       titre: 'Écuries : saison 1978'
+    - url: /voitures/tyrrell-008/
+      titre: Tyrrell 008
   - titre: Formula 1, « 1981 San Marino Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1981/races/425/san-marino/race-result
     pages:
@@ -4084,12 +4084,12 @@ editeurs:
   - titre: Formula 1, « 1986 Driver Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1986/drivers
     pages:
+    - url: /ecuries/
+      titre: 'Écuries : saison 1986'
     - url: /voitures/lotus-98t/
       titre: Lotus 98T
     - url: /voitures/williams-fw11/
       titre: Williams FW11
-    - url: /ecuries/
-      titre: 'Écuries : saison 1986'
   - titre: Formula 1, « 1986 Italian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1986/races/510/italy/race-result
     pages:
@@ -4105,16 +4105,16 @@ editeurs:
   - titre: Formula 1, « 1986 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1986/team
     pages:
-    - url: /voitures/lotus-98t/
-      titre: Lotus 98T
-    - url: /voitures/williams-fw11/
-      titre: Williams FW11
     - url: /ecuries/benetton/
       titre: 'Écuries : Benetton'
     - url: /ecuries/lola/
       titre: 'Écuries : Lola'
     - url: /ecuries/
       titre: 'Écuries : saison 1986'
+    - url: /voitures/lotus-98t/
+      titre: Lotus 98T
+    - url: /voitures/williams-fw11/
+      titre: Williams FW11
   - titre: Formula 1, « 1987 Monaco Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1987/races/514/monaco/race-result
     pages:
@@ -4145,10 +4145,10 @@ editeurs:
   - titre: Formula 1, « 1988 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/1988/team
     pages:
-    - url: /voitures/march-881/
-      titre: March 881
     - url: /ecuries/
       titre: 'Écuries : saison 1988'
+    - url: /voitures/march-881/
+      titre: March 881
   - titre: Formula 1, « 1990 United States Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/1990/races/64/united-states/race-result
     pages:
@@ -4234,8 +4234,6 @@ editeurs:
   - titre: Formula 1, « 2009 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/2009/team
     pages:
-    - url: /voitures/mclaren-mp4-24/
-      titre: McLaren MP4-24
     - url: /ecuries/bmw-sauber/
       titre: 'Écuries : BMW Sauber'
     - url: /ecuries/brawn/
@@ -4244,6 +4242,8 @@ editeurs:
       titre: 'Écuries : saison 2009'
     - url: /ecuries/toyota/
       titre: 'Écuries : Toyota'
+    - url: /voitures/mclaren-mp4-24/
+      titre: McLaren MP4-24
   - titre: Formula 1, « 2010 Bahrain Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/2010/races/860/bahrain/race-result
     pages:
@@ -4262,17 +4262,13 @@ editeurs:
   - titre: Formula 1, « 2010 Driver Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/2010/drivers
     pages:
-    - url: /voitures/red-bull-rb6/
-      titre: Red Bull RB6
     - url: /ecuries/
       titre: 'Écuries : saison 2010'
+    - url: /voitures/red-bull-rb6/
+      titre: Red Bull RB6
   - titre: Formula 1, « 2010 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/2010/team
     pages:
-    - url: /voitures/mclaren-mp4-25/
-      titre: McLaren MP4-25
-    - url: /voitures/red-bull-rb6/
-      titre: Red Bull RB6
     - url: /ecuries/lotus-racing/
       titre: 'Écuries : Lotus (2010–2011)'
     - url: /ecuries/
@@ -4281,6 +4277,10 @@ editeurs:
       titre: 'Écuries : Sauber'
     - url: /ecuries/virgin/
       titre: 'Écuries : Virgin'
+    - url: /voitures/mclaren-mp4-25/
+      titre: McLaren MP4-25
+    - url: /voitures/red-bull-rb6/
+      titre: Red Bull RB6
   - titre: Formula 1, « 2012 Hungarian Grand Prix - Race Result »
     url: https://www.formula1.com/en/results/2012/races/1/hungary/race-result
     pages:
@@ -4289,10 +4289,10 @@ editeurs:
   - titre: Formula 1, « 2022 Team Standings » (résultats officiels)
     url: https://www.formula1.com/en/results/2022/team
     pages:
-    - url: /voitures/red-bull-rb18/
-      titre: Red Bull RB18
     - url: /ecuries/
       titre: 'Écuries : saison 2022'
+    - url: /voitures/red-bull-rb18/
+      titre: Red Bull RB18
   - titre: 'Formula 1, « 2026 REGULATIONS EXPLAINED: All you need to know about F1’s new power units » (janvier 2026)'
     url: https://www.formula1.com/en/latest/article/all-you-need-to-know-about-f1s-new-power-units.14jfv7a36905uDJDdNyfQd
     pages:
@@ -4848,10 +4848,10 @@ editeurs:
   - titre: Formula 1, classement des constructeurs 1995
     url: https://www.formula1.com/en/results/1995/team
     pages:
-    - url: /voitures/williams-fw17b/
-      titre: Williams FW17B
     - url: /ecuries/
       titre: 'Écuries : saison 1995'
+    - url: /voitures/williams-fw17b/
+      titre: Williams FW17B
   - titre: Formula 1, David Tremayne, « Why is it called Formula 1 – and 12 other questions about the championship’s origins » (mai 2020)
     url: https://www.formula1.com/en/latest/article/why-is-it-called-formula-1-and-12-other-questions-about-the-championships.1GHeel6u4jga6hMpX2eFs1
     pages:
@@ -4979,15 +4979,15 @@ editeurs:
       titre: 'Chronologie : 2003, Le HANS devient obligatoire'
     - url: /ingenieurs/pat-symonds/
       titre: Symonds, Pat
-  - titre: Formula 1, résultats 1965, classement des pilotes
-    url: https://www.formula1.com/en/results/1965/drivers
+  - titre: Formula 1, résultats 1965, classement des équipes
+    url: https://www.formula1.com/en/results/1965/team
     pages:
     - url: /ingenieurs/colin-chapman/
       titre: Chapman, Colin
     - url: /ecuries/
       titre: 'Écuries : saison 1965'
-  - titre: Formula 1, résultats 1965, classement des équipes
-    url: https://www.formula1.com/en/results/1965/team
+  - titre: Formula 1, résultats 1965, classement des pilotes
+    url: https://www.formula1.com/en/results/1965/drivers
     pages:
     - url: /ingenieurs/colin-chapman/
       titre: Chapman, Colin
@@ -7907,26 +7907,6 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1974, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1970
-    url: https://www.oldracingcars.com/f1/results/1970/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1970, Lotus Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1971
-    url: https://www.oldracingcars.com/f1/results/1971/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1971, Ferrari'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1973
-    url: https://www.oldracingcars.com/f1/results/1973/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1973, Tyrrell Ford'
-  - titre: OldRacingCars, Grand Prix des Pays-Bas 1975
-    url: https://www.oldracingcars.com/f1/results/1975/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1975, Hesketh Ford'
   - titre: OldRacingCars, Grand Prix des États-Unis 1970
     url: https://www.oldracingcars.com/f1/results/1970/usa/
     pages:
@@ -7952,6 +7932,26 @@ editeurs:
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1975, Ferrari'
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1970
+    url: https://www.oldracingcars.com/f1/results/1970/netherlands/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1970, Lotus Ford'
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1971
+    url: https://www.oldracingcars.com/f1/results/1971/netherlands/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1971, Ferrari'
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1973
+    url: https://www.oldracingcars.com/f1/results/1973/netherlands/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1973, Tyrrell Ford'
+  - titre: OldRacingCars, Grand Prix des Pays-Bas 1975
+    url: https://www.oldracingcars.com/f1/results/1975/netherlands/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1975, Hesketh Ford'
   - titre: OldRacingCars, Grand Prix d'Espagne 1970
     url: https://www.oldracingcars.com/f1/results/1970/spain/
     pages:
@@ -8836,18 +8836,6 @@ editeurs:
       titre: 'Domination (châssis) : 1967, Brabham Repco'
     - url: /dossiers/domination/
       titre: 'Domination (technologies) : Monocoque'
-  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1966
-    url: https://www.oldracingcars.com/f1/results/1966/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1966, Brabham Repco'
-    erreurs:
-    - e045
-  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1967
-    url: https://www.oldracingcars.com/f1/results/1967/netherlands/
-    pages:
-    - url: /dossiers/domination/
-      titre: 'Domination (châssis) : 1967, Lotus Ford'
   - titre: oldracingcars.com, Grand Prix des États-Unis 1966
     url: https://www.oldracingcars.com/f1/results/1966/usa/
     pages:
@@ -8859,6 +8847,18 @@ editeurs:
       titre: 'Domination (technologies) : Monocoque'
   - titre: oldracingcars.com, Grand Prix des États-Unis 1967
     url: https://www.oldracingcars.com/f1/results/1967/usa/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1967, Lotus Ford'
+  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1966
+    url: https://www.oldracingcars.com/f1/results/1966/netherlands/
+    pages:
+    - url: /dossiers/domination/
+      titre: 'Domination (châssis) : 1966, Brabham Repco'
+    erreurs:
+    - e045
+  - titre: oldracingcars.com, Grand Prix des Pays-Bas 1967
+    url: https://www.oldracingcars.com/f1/results/1967/netherlands/
     pages:
     - url: /dossiers/domination/
       titre: 'Domination (châssis) : 1967, Lotus Ford'
@@ -9126,20 +9126,20 @@ editeurs:
     pages:
     - url: /ingenieurs/franco-rocchi/
       titre: Rocchi, Franco
-  - titre: GrandPrix.com, « Frank Dernie »
-    url: https://www.grandprix.com/people/frank-dernie.html
-    pages:
-    - url: /ingenieurs/frank-dernie/
-      titre: Dernie, Frank
-    - url: /voitures/williams-fw14b/
-      titre: Williams FW14B
-    - url: /ecuries/
-      titre: 'Écuries : Williams'
   - titre: GrandPrix.com, « François Castaing »
     url: https://www.grandprix.com/people/francois-castaing.html
     pages:
     - url: /ingenieurs/francois-castaing/
       titre: Castaing, François
+  - titre: GrandPrix.com, « Frank Dernie »
+    url: https://www.grandprix.com/people/frank-dernie.html
+    pages:
+    - url: /ingenieurs/frank-dernie/
+      titre: Dernie, Frank
+    - url: /ecuries/
+      titre: 'Écuries : Williams'
+    - url: /voitures/williams-fw14b/
+      titre: Williams FW14B
   - titre: GrandPrix.com, « French GP, 1957 »
     url: https://www.grandprix.com/races/french-gp-1957.html
     pages:
@@ -9527,10 +9527,10 @@ editeurs:
   - titre: GrandPrix.com, « Stewart »
     url: https://www.grandprix.com/constructors/stewart-grand-prix.html
     pages:
-    - url: /ingenieurs/alan-jenkins/
-      titre: Jenkins, Alan
     - url: /ecuries/
       titre: 'Écuries : Milton Keynes : de Stewart à Red Bull'
+    - url: /ingenieurs/alan-jenkins/
+      titre: Jenkins, Alan
   - titre: GrandPrix.com, « Street racing in Buenos Aires » (avril 2005)
     url: https://www.grandprix.com/news/street-racing-in-buenos-aires.html
     pages:
@@ -11301,10 +11301,10 @@ editeurs:
   - titre: Graham Keilloh, Autosport, « The failed gamble that began an F1 team's downfall » (2019)
     url: https://www.autosport.com/general/news/the-failed-gamble-that-began-an-f1-teams-downfall-5112840/5112840/
     pages:
-    - url: /ingenieurs/tony-southgate/
-      titre: Southgate, Tony
     - url: /ecuries/
       titre: 'Écuries : Arrows : Arrows et Footwork'
+    - url: /ingenieurs/tony-southgate/
+      titre: Southgate, Tony
   - titre: 'Jeff Hutchinson, Autosport, « Grand Prix Gold: Brazilian GP 1986 » (mis en ligne en août 2011)'
     url: https://www.autosport.com/f1/news/grand-prix-gold-brazilian-gp-1986-5091191/5091191/
     pages:
@@ -11978,10 +11978,10 @@ editeurs:
   - titre: Goodwood, « The Leyton House CG901 Formula 1 car catapulted Adrian Newey's career » (2019)
     url: https://www.goodwood.com/grr/f1/the-leyton-house-cg901-formula-1-car-catapulted-adrian-neweys-career/
     pages:
-    - url: /ingenieurs/adrian-newey/
-      titre: Newey, Adrian
     - url: /ecuries/
       titre: 'Écuries : March : March et Leyton House'
+    - url: /ingenieurs/adrian-newey/
+      titre: Newey, Adrian
   - titre: 'Goodwood, « The Lotus 25: A pioneering design to change F1 forever » (juin 2025)'
     url: https://www.goodwood.com/grr/f1/the-lotus-25-a-pioneering-design-to-change-f1-forever/
     pages:
@@ -12043,10 +12043,10 @@ editeurs:
   - titre: 'Russell Campbell, Goodwood, « A bolt from the blue: the rise and fall of Leyton House Racing » (juin 2025)'
     url: https://www.goodwood.com/grr/f1/a-bolt-from-the-blue-the-rise-and-fall-of-leyton-house-racing/
     pages:
-    - url: /voitures/march-881/
-      titre: March 881
     - url: /ecuries/
       titre: 'Écuries : March : March et Leyton House'
+    - url: /voitures/march-881/
+      titre: March 881
   - titre: 'Russell Campbell, Goodwood, « Cooper T43: Formula 1''s groundbreaking rear-engined winner » (mai 2025)'
     url: https://www.goodwood.com/grr/f1/cooper-t43-formula-1s-groundbreaking-rear-engined-winner/
     pages:
@@ -14800,12 +14800,12 @@ editeurs:
   - titre: Stellantis Heritage, « Lancia D50 » (2024)
     url: https://www.heritagehubitaly.com/en-uk/heritage/stories/lancia-d50
     pages:
+    - url: /ecuries/
+      titre: 'Écuries : Lancia'
     - url: /ingenieurs/vittorio-jano/
       titre: Jano, Vittorio
     - url: /voitures/lotus-49/
       titre: Lotus 49
-    - url: /ecuries/
-      titre: 'Écuries : Lancia'
   - titre: Supercars.net, Steve Natale, « Strictly Passive – 1992 Benetton-Ford B192-08 » (décembre 2013)
     url: https://www.supercars.net/blog/strictly-passive-1992-benetton-ford-b192-08/
     pages:

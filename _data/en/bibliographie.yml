@@ -9312,6 +9312,11 @@ editeurs:
     pages:
     - url: /en/engineers/franco-rocchi/
       titre: Rocchi, Franco
+  - titre: GrandPrix.com, “François Castaing”
+    url: https://www.grandprix.com/people/francois-castaing.html
+    pages:
+    - url: /en/engineers/francois-castaing/
+      titre: Castaing, François
   - titre: GrandPrix.com, “Frank Dernie”
     url: https://www.grandprix.com/people/frank-dernie.html
     pages:
@@ -9321,11 +9326,6 @@ editeurs:
       titre: 'Teams: Williams'
     - url: /en/cars/williams-fw14b/
       titre: Williams FW14B
-  - titre: GrandPrix.com, “François Castaing”
-    url: https://www.grandprix.com/people/francois-castaing.html
-    pages:
-    - url: /en/engineers/francois-castaing/
-      titre: Castaing, François
   - titre: GrandPrix.com, “French GP, 1957”
     url: https://www.grandprix.com/races/french-gp-1957.html
     pages:
