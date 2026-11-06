@@ -53,7 +53,7 @@
           {%- assign lien_hf = url_d_hf %}
         {%- endif %}
         <li class="segment domination domination-{{ h_hf.degre }}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }}; top: {{ rg_hf.barre }}rem;">
-          <a href="{{ lien_hf }}" title="{{ nom_hf | escape }}, {{ h_hf.debut | escape }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin | escape }}{% endif %} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres | escape }} {{ T_hf.portail.domination_titres | escape }}">{% if h_hf.etiquette %}<span class="visually-hidden">{{ court_hf }}</span>{% else %}{{ court_hf }}{% endif %}<span class="visually-hidden">, {{ h_hf.debut }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin }}{% endif %} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
+          <a href="{{ lien_hf }}" title="{{ nom_hf | escape }}, {{ h_hf.debut | escape }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin | escape }}{% endif %} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres | escape }} {{ T_hf.portail.domination_titres | escape }}">{% if h_hf.etiquette %}<span class="visually-hidden">{{ court_hf }}</span>{% else %}<span class="segment-nom">{{ court_hf }}</span>{% endif %}<span class="visually-hidden">, {{ h_hf.debut }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin }}{% endif %} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
         </li>
         {%- endfor %}
       </ol>
