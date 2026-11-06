@@ -98,6 +98,8 @@ assets/docs/         presentation PDF telechargeable, fr et en (generee par deck
 outils/              scripts Python : verifier.py (avant chaque push), releve-resultats.py,
                      domination.py, fiches-ecuries.py, carte-usines.py, dimensions-images.py
 outils/crochets/     crochet Git pre-push versionne (active par outils/installer-crochet.sh)
+outils/commun.py     bornes partagees (premiere et derniere saison relevees, saison en cours, nombre
+                     de GP attendu) et lecture du front matter : une nouvelle saison s'y reporte
 deck/                outils Node : presentation .pptx/PDF, cartes de partage
 specs/               specifications de travail : jamais versionnees (.gitignore)
 ```

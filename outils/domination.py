@@ -21,6 +21,8 @@ deux épreuves, seuil à 50 % et aucune saison creuse. Les confrontations porten
 d'au moins MIN saisons dominantes, robustes ou non (« longues »)."""
 import os, sys, collections, math
 import yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pour outils/commun.py (python3 -I)
+import commun
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
@@ -478,7 +480,7 @@ for ec in {e for l in E["lignees"] for s in l["segments"] for e in [s["ecurie"]]
             temoin_tr[tranche(av)].append(ap - av)
 TIERS = {}
 for chemin in os.listdir("_ingenieurs"):
-    fm = yaml.safe_load(open(f"_ingenieurs/{chemin}", encoding="utf-8").read().split("---\n")[1])
+    fm = commun.front_matter(f"_ingenieurs/{chemin}")[0]
     TIERS[chemin[:-3]] = fm.get("tier") or "HC"
 
 def poisson_binomiale(ps, k):
@@ -868,7 +870,7 @@ def svg_compteur(lid, lang):
 # du compte, faute de savoir quand l'ingénieur est parti : il est dénombré à part.
 ING_NOMS = {}
 for chemin in os.listdir("_ingenieurs"):
-    fm = yaml.safe_load(open(f"_ingenieurs/{chemin}", encoding="utf-8").read().split("---\n")[1])
+    fm = commun.front_matter(f"_ingenieurs/{chemin}")[0]
     ING_NOMS[chemin[:-3]] = fm.get("nom_complet") or fm.get("title") or chemin[:-3]
 sejours = collections.defaultdict(set)
 non_dates = collections.Counter()
@@ -922,7 +924,7 @@ sortie_ing = {"ingenieurs": ing_dom, "non_dates": sum(non_dates.values()),
               "ingenieurs_partiels": sum(1 for i in ing_dom if i["sejours_non_dates"])}
 
 # --- Visuels « compteur » du dossier --------------------------------------------------------------
-TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950–2025",
+TXT_D = {"fr": {"f1_t": f"Le compteur de la F1, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}",
                 "f1_d": "Pour chaque saison, l'indice composite de l'écurie la plus forte, sur 100. Les bandes marquent les hégémonies d'écurie ; les tirets rouges, le seuil calibré.",
                 "y": "Indice de l'écurie la plus forte", "seuil": "seuil", "tb_t": "Tableau de bord des dominations longues",
                 "tb_d": "Un cadran par domination d'au moins trois saisons : l'aiguille donne l'indice moyen de la période, le trait noir sa meilleure saison, le repère rouge le seuil. Arc en tirets : domination qui n'est pas une hégémonie.",
@@ -930,7 +932,7 @@ TXT_D = {"fr": {"f1_t": "Le compteur de la F1, 1950–2025",
                 "heg": "hégémonie", "dom": "domination", "ing_t": "Le compteur des ingénieurs",
                 "ing_d": "Indice moyen des écuries pendant la présence de l'ingénieur, pour les douze ingénieurs dont l'écurie a dominé le plus de saisons.",
                 "sd": "saisons dominantes"},
-         "en": {"f1_t": "The F1 gauge, 1950–2025",
+         "en": {"f1_t": f"The F1 gauge, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}",
                 "f1_d": "For each season, the composite index of the strongest team, out of 100. Bands mark team hegemonies; red dashes, the calibrated threshold.",
                 "y": "Index of the strongest team", "seuil": "threshold", "tb_t": "Dashboard of long dominance",
                 "tb_d": "One dial per period of at least three dominant seasons: the needle gives the period's average index, the black mark its best season, the red mark the threshold. Dashed arc: dominance that is not a hegemony.",
@@ -973,7 +975,7 @@ def svg_f1(lang):
                  f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
              f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {r100(SEUIL_INDICE)}</text>')
-    for a in range(1950, 2030, 10):
+    for a in range(commun.PREMIERE_SAISON, commun.DERNIERE_SAISON + 1, 10):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
     for t in tete_indice:
@@ -1274,10 +1276,10 @@ if PN:
                  "periodes": periodes, "saisons": pn_saisons}
     sortie_compteur["pneus"] = pneus_out
 
-TXT_P = {"fr": {"t": "Les manufacturiers de pneus : part des victoires, 1950–2025", "pc": " %", "mono": "monopole",
+TXT_P = {"fr": {"t": f"Les manufacturiers de pneus : part des victoires, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}", "pc": " %", "mono": "monopole",
                 "d": "Pour chaque saison, la part des Grands Prix gagnés sur chaque marque de pneus. Hachures : les saisons de fournisseur unique.",
                 "autres": "Autres"},
-         "en": {"t": "Tyre manufacturers: share of wins, 1950–2025", "pc": "%", "mono": "monopoly",
+         "en": {"t": f"Tyre manufacturers: share of wins, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}", "pc": "%", "mono": "monopoly",
                 "d": "For each season, the share of Grands Prix won on each tyre brand. Hatching: single-supplier seasons.",
                 "autres": "Others"}}
 COUL_P = dict(zip(MARQUES + ["Autres"], ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6"]))
@@ -1318,7 +1320,7 @@ def svg_pneus(lang):
             if x["monopole"]:
                 o.append(f'<rect x="{xs(a) - bw / 2 + 0.6:.1f}" y="{y - hgt + 0.6:.1f}" width="{bw - 1.2:.1f}" height="{max(hgt - 1.2, 0.5):.1f}" fill="url(#pn-h)" pointer-events="none"/>')
             y -= hgt
-    for a in range(1950, 2030, 10):
+    for a in range(commun.PREMIERE_SAISON, commun.DERNIERE_SAISON + 1, 10):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append("</svg>")
     return "".join(o)
@@ -1346,7 +1348,7 @@ def famille(n):
 
 FICHES_V = {}
 for chemin in os.listdir("_cars"):
-    fm = yaml.safe_load(open(f"_cars/{chemin}", encoding="utf-8").read().split("---\n")[1])
+    fm = commun.front_matter(f"_cars/{chemin}")[0]
     FICHES_V[norm_modele(fm["title"])] = chemin[:-3]
 
 def fiche_voiture(m):
@@ -1515,7 +1517,7 @@ def svg_cycles_courbe(lang):
                  f'<text class="cp-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{r100(v)}</text>')
     o.append(f'<line class="cp-s" x1="{g}" x2="{W - d}" y1="{ys(SEUIL_INDICE):.1f}" y2="{ys(SEUIL_INDICE):.1f}"/>'
              f'<text class="cp-t" x="{W - d}" y="{ys(SEUIL_INDICE) + 14:.1f}" text-anchor="end">{L["seuil"]} {r100(SEUIL_INDICE)}</text>')
-    for a in range(1950, 2030, 10):
+    for a in range(commun.PREMIERE_SAISON, commun.DERNIERE_SAISON + 1, 10):
         o.append(f'<text class="cp-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append(f'<polyline class="cp-c" points="{" ".join(f"{xs(t["annee"]):.1f},{ys(t["indice"]):.1f}" for t in tete_indice)}"/>')
     for t in tete_indice:
@@ -1708,7 +1710,7 @@ def svg_ouverture(lang):
     for v in range(0, vmax + 1, 2):
         o.append(f'<line class="ci-g" x1="{g}" x2="{W - d}" y1="{ys(v):.1f}" y2="{ys(v):.1f}"/>'
                  f'<text class="ci-t" x="{g - 6}" y="{ys(v) + 4:.1f}" text-anchor="end">{v}</text>')
-    for a in range(1950, 2030, 10):
+    for a in range(commun.PREMIERE_SAISON, commun.DERNIERE_SAISON + 1, 10):
         o.append(f'<text class="ci-t" x="{xs(a):.1f}" y="{Hh - b + 18}" text-anchor="middle">{a}</text>')
     o.append(f'<polyline class="ci-c2" points="{" ".join(f"{xs(x["annee"]):.1f},{ys(x["ecuries"]):.1f}" for x in ouverture)}"/>')
     o.append(f'<polyline class="ci-c" points="{" ".join(f"{xs(x["annee"]):.1f},{ys(x["effectif"]):.1f}" for x in ouverture)}"/>')

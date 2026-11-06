@@ -6,9 +6,11 @@ _data/*.yml ; écrit _data/bibliographie.yml et _data/en/bibliographie.yml (page
 
 Les pages de résultats course par course de formula1.com (_data/resultats.yml, 1950-2025) ne sont
 pas listées une à une : elles forment un jeu de données, présenté comme tel en tête de page."""
-import os, re, glob, collections
+import os, re, sys, glob, collections
 from urllib.parse import urlsplit
 import yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pour outils/commun.py (python3 -I)
+import commun
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
@@ -128,10 +130,7 @@ def editeur(url):
     return hote
 
 def front_matter(chemin):
-    texte = open(chemin, encoding="utf-8").read()
-    if not texte.startswith("---\n"):
-        return {}
-    return yaml.safe_load(texte.split("---\n", 2)[1]) or {}
+    return commun.front_matter(chemin)[0] or {}
 
 # langue -> collections (dossier, préfixe d'URL) et fichiers de données (fichier, page, ancre)
 LANGUES = {

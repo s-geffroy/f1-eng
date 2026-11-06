@@ -8,6 +8,8 @@ cités par les données (entrées, termes, lignées) ; ancres du glossaire cité
 fichiers d'images ; correspondance des entrées entre langues."""
 import os, re, sys, glob
 import yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pour outils/commun.py (python3 -I)
+import commun
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
@@ -45,19 +47,12 @@ def charger_yaml(chemin):
         return None
 
 def front_matter(chemin):
-    texte = open(chemin, encoding="utf-8").read()
-    if not texte.startswith("---\n"):
-        return None, texte
+    """commun.front_matter, une erreur de lecture devenant une erreur du rapport."""
     try:
-        _, fm, corps = texte.split("---\n", 2)
-    except ValueError:
-        err(f"{chemin} : front matter non refermé")
-        return None, texte
-    try:
-        return (yaml.safe_load(fm) or {}), corps
-    except Exception as e:
-        err(f"{chemin} : front matter invalide ({str(e).splitlines()[0]})")
-        return None, corps
+        return commun.front_matter(chemin)
+    except ValueError as e:
+        err(f"{chemin} : {e}")
+        return None, open(chemin, encoding="utf-8").read().split("---\n", 2)[-1]
 
 # 1. données et configuration
 for f in ["_config.yml"] + glob.glob("_data/**/*.yml", recursive=True):
@@ -364,7 +359,7 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                 err(f"{lieu} : écurie « {sg.get('ecurie')} » inconnue")
             utilisees.add(sg.get("ecurie"))
             de, a = sg.get("de"), sg.get("a")
-            if not isinstance(de, int) or not isinstance(a, int) or not 1950 <= de <= a <= 2026:
+            if not isinstance(de, int) or not isinstance(a, int) or not commun.PREMIERE_SAISON <= de <= a <= commun.SAISON_EN_COURS:
                 err(f"{lieu} : saisons invalides ({de}–{a})")
             elif prec and de <= prec:
                 err(f"{lieu} : chevauche le segment précédent")
@@ -387,8 +382,8 @@ for lang, rep_data in (("fr", "_data"), ("en", "_data/en")):
                         err(f"{lieu} : source incomplète")
         if l.get("texte") and not l.get("texte_sources"):
             err(f"{chemin} : lignée {l.get('id')}, note sans source")
-        if l.get("actuelle") and segs and segs[-1].get("a") != 2026:
-            err(f"{chemin} : lignée actuelle {l.get('id')} dont le dernier segment ne va pas jusqu'à 2026")
+        if l.get("actuelle") and segs and segs[-1].get("a") != commun.SAISON_EN_COURS:
+            err(f"{chemin} : lignée actuelle {l.get('id')} dont le dernier segment ne va pas jusqu'à {commun.SAISON_EN_COURS}")
         signature.append((l.get("id"), bool(l.get("actuelle")),
                           [(sg.get("ecurie"), sg.get("de"), sg.get("a"), (sg.get("lien") or {}).get("type"),
                             (sg.get("lien") or {}).get("preuve"), [x.get("url") for x in (sg.get("lien") or {}).get("sources") or []])
@@ -454,7 +449,7 @@ if os.path.exists("_data/circuits.yml"):
         ids_c.append(c.get("id"))
         if not all(c.get(k) for k in ("nom", "nom_en", "etiquette", "etiquette_en")):
             err(f"{lieu_c} : nom ou étiquette manquant")
-        if not isinstance(c.get("de"), int) or not isinstance(c.get("a"), int) or not 1950 <= c["de"] <= c["a"] <= 2026:
+        if not isinstance(c.get("de"), int) or not isinstance(c.get("a"), int) or not commun.PREMIERE_SAISON <= c["de"] <= c["a"] <= commun.SAISON_EN_COURS:
             err(f"{lieu_c} : années invalides")
         if not isinstance(c.get("lat"), (int, float)) or not isinstance(c.get("lon"), (int, float)):
             err(f"{lieu_c} : coordonnées manquantes")
@@ -474,8 +469,9 @@ for s in res.get("saisons", []):
     if s["gp"] != len(s["courses"]):
         err(f"_data/resultats.yml : {s['annee']}, gp = {s['gp']} pour {len(s['courses'])} courses")
     total_gp += s["gp"]
-if res and total_gp != 1149:
-    err(f"_data/resultats.yml : {total_gp} Grands Prix, 1149 attendus pour 1950-2025")
+if res and total_gp != commun.GP_RELEVES:
+    err(f"_data/resultats.yml : {total_gp} Grands Prix, {commun.GP_RELEVES} attendus pour "
+        f"{commun.PREMIERE_SAISON}-{commun.DERNIERE_SAISON} (outils/commun.py)")
 
 # 5. correspondance entre langues
 if "fr" in ids_par_langue and "en" in ids_par_langue:

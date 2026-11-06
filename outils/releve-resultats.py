@@ -14,10 +14,12 @@ on complète la table CHASSIS ou MOTEURS, on ne devine pas. Les gagnants sans fi
 des 500 miles d'Indianapolis) sont gardés sous leur nom, sans identifiant."""
 import os, re, sys, html, time, urllib.request, urllib.error
 import yaml
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))   # pour outils/commun.py (python3 -I)
+import commun
 
 RACINE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(RACINE)
-ANNEES = range(1950, 2026)
+ANNEES = range(commun.PREMIERE_SAISON, commun.DERNIERE_SAISON + 1)
 BASE = "https://www.formula1.com"
 
 # Préfixe du nom formula1.com -> [(de, a, écurie)] ; écurie None = gagnant sans fiche sur le site.
@@ -320,7 +322,7 @@ def main():
         s["pilotes"] = pil
         s["sources"] = [f"{BASE}/en/results/{annee}/{p}" for p in (("races", "team", "drivers") if annee >= 1958 else ("races", "drivers"))]
         saisons.append(s)
-    entete = ("# Résultats officiels par saison (1950-2025), relevés sur formula1.com par\n"
+    entete = (f"# Résultats officiels par saison ({commun.PREMIERE_SAISON}-{commun.DERNIERE_SAISON}), relevés sur formula1.com par\n"
               "# outils/releve-resultats.py : ne pas modifier à la main, relancer le script.\n"
               "# courses : vainqueur de chaque Grand Prix (equipe = nom formula1.com, ecurie et motoriste =\n"
               "#   identifiants de _data/ecuries.yml, absents pour un gagnant sans fiche), url = résultat de la course.\n"
