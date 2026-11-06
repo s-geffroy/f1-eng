@@ -1130,7 +1130,7 @@ for t in TECH:
                    "serie": serie})
 sortie_compteur["technologies"] = techno
 
-TXT_T = {"fr": {"t": "La diffusion des technologies : part des victoires", "pc": " %",
+TXT_T = {"fr": {"t": "La diffusion des technologies : part des victoires", "pc": " %",
                 "d": "Pour chaque technologie, la part des Grands Prix gagnés par des voitures qui l'utilisent, saison par saison. Trait vertical : le jalon de la chronologie. Fond : les saisons où le pionnier est seul à gagner avec elle.",
                 "seul": "pionnier seul"},
          "en": {"t": "The spread of technologies: share of wins", "pc": "%",
@@ -1276,7 +1276,7 @@ if PN:
                  "periodes": periodes, "saisons": pn_saisons}
     sortie_compteur["pneus"] = pneus_out
 
-TXT_P = {"fr": {"t": f"Les manufacturiers de pneus : part des victoires, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}", "pc": " %", "mono": "monopole",
+TXT_P = {"fr": {"t": f"Les manufacturiers de pneus : part des victoires, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}", "pc": " %", "mono": "monopole",
                 "d": "Pour chaque saison, la part des Grands Prix gagnés sur chaque marque de pneus. Hachures : les saisons de fournisseur unique.",
                 "autres": "Autres"},
          "en": {"t": f"Tyre manufacturers: share of wins, {commun.PREMIERE_SAISON}–{commun.DERNIERE_SAISON}", "pc": "%", "mono": "monopoly",
@@ -1664,7 +1664,7 @@ if chassis_out:
     indicateurs["voitures"]["derniere_reconduite"] = dict(zip(("annee", "voiture"), indicateurs["voitures"]["derniere_reconduite"]))
 sortie_compteur["indicateurs"] = indicateurs
 
-TXT_I = {"fr": {"dec": lambda d: f"{d}–{str(min(d + 9, ANNEES[-1]))[2:]}", "pc": " %",
+TXT_I = {"fr": {"dec": lambda d: f"{d}–{str(min(d + 9, ANNEES[-1]))[2:]}", "pc": " %",
                 "ouv_t": "Combien d'écuries se partagent les victoires, saison par saison",
                 "ouv_d": "Nombre effectif d'écuries gagnantes (inverse de l'indice de Herfindahl des parts de victoires) et nombre d'écuries qui ont gagné au moins une course ; les bandes grises séparent les cycles réglementaires.",
                 "eff": "nombre effectif", "nb": "écuries gagnantes",
