@@ -77,7 +77,7 @@
   <h2 id="titre-portail-frise">{{ T.portail.chrono_titre }}</h2>
   <p>{{ T.portail.chrono_texte }} <a href="{{ T.url.chronologie | relative_url }}">{{ T.portail.chrono_lien }}</a> · <a href="{{ T.url.ecuries | relative_url }}">{{ T.portail.ecuries_lien }}</a></p>
   <div class="frise-defilement">
-    {% include frise-ecuries.html debut=1950 fin=2026 actuelles="oui" %}
+    {% include frise-ecuries.html debut=1950 fin=2026 actuelles="oui" ajuste="oui" %}
   </div>
 </section>
 

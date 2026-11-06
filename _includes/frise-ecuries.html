@@ -11,6 +11,8 @@
     lignee        : identifiant d'une lignée, seule affichée (fiche d'une écurie)
   Sous chaque segment, une bande fine donne les motoristes (affichée par la case « couche-moteurs »).
     axe           : "non" pour ne pas dessiner l'axe des décennies (la chronologie a déjà le sien)
+    ajuste        : "oui" pour tenir dans la largeur disponible, sans défilement horizontal (accueil) ;
+                    les étiquettes sont alors placées pour une tablette en portrait (39rem d'axe)
   Un segment se termine à la fin de sa dernière saison (a + 1). Chaque segment renvoie à la fiche
   de son écurie (/ecuries/<id>/).
 {%- endcomment -%}
@@ -42,9 +44,10 @@
   (Barlow Condensed 600, 0,875rem) plus les marges. Sur un écran plus large, tout s'écarte : rien ne se
   chevauche davantage. {%- endcomment -%}
 {%- assign duree_axe_f = fin_f | minus: debut_f -%}
-{%- assign rem_an_f = 59.0 | divided_by: duree_axe_f -%}
+{%- if include.ajuste == "oui" -%}{%- assign axe_rem_f = 39.0 -%}{%- else -%}{%- assign axe_rem_f = 59.0 -%}{%- endif -%}
+{%- assign rem_an_f = axe_rem_f | divided_by: duree_axe_f -%}
 {%- assign url_ecuries = T_f.url.ecuries | relative_url -%}
-<div class="ecuries-plan" style="--debut: {{ debut_f }}; --fin: {{ fin_f }};">
+<div class="ecuries-plan{% if include.ajuste == "oui" %} ecuries-plan-ajuste{% endif %}" style="--debut: {{ debut_f }}; --fin: {{ fin_f }};">
   {%- unless include.axe == "non" %}
   <div class="ecuries-axe" aria-hidden="true">
     {%- for a_f in (debut_f..fin_f) %}{% assign m_f = a_f | modulo: 10 %}{% if m_f == 0 %}
@@ -59,7 +62,9 @@
       {%- for l_f in r_f.items %}
       {%- assign premier_f = l_f.segments | first %}
       {%- comment -%} le nom de la lignée n'est écrit que s'il diffère de celui de son unique segment {%- endcomment -%}
-      {%- if l_f.segments.size > 1 or r_f.items.size == 1 %}
+      {%- assign e_unique_f = E_f.ecuries | where: "id", premier_f.ecurie | first %}
+      {%- assign nom_unique_f = e_unique_f.nom | split: " (" | first %}
+      {%- if l_f.segments.size > 1 or l_f.nom != nom_unique_f %}
       <p class="ecuries-lignee{% if premier_f.de > 2010 %} ecuries-lignee-fin{% endif %}" style="--de: {{ premier_f.de }};">{{ l_f.nom }}</p>
       {%- endif %}
       <ol class="ecuries-segments" aria-label="{{ l_f.nom | escape }}">

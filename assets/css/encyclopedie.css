@@ -735,6 +735,8 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   --cote: 2.5rem;
   position: relative; min-width: 64rem; padding: 2rem var(--cote) 0.75rem;
 }
+/* Frise ajustée (accueil) : la largeur disponible, sans défilement ; étiquettes placées pour 39rem d'axe */
+.ecuries-plan.ecuries-plan-ajuste { min-width: 0; }
 .ecuries-axe { position: absolute; top: 0; bottom: 0; left: var(--cote); right: var(--cote); pointer-events: none; }
 .ecuries-axe .frise-decennie { padding: 0.35rem 0 0 0.35rem; color: var(--mine); font-weight: 600; }
 .ecuries-rangees, .ecuries-segments, .ecuries-voitures { list-style: none; margin: 0; padding: 0; }
