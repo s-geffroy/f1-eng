@@ -219,8 +219,10 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   (environ 2 300 pages de course au premier passage, une heure). Un nom d'equipe inconnu arrete
   le script : completer sa table, ne pas deviner.
 - `_data/croisement.yml` : comparaison course par course avec la base Jolpica (ex-Ergast), par
-  `python3 -I outils/releve-jolpica.py <cache hors depot>`. Un desaccord est signale, jamais
-  corrige : on va voir les deux sources.
+  `python3 -I outils/releve-jolpica.py <cache hors depot>` : pilotes, puis leur ecurie et, quand
+  Jolpica le donne (suffixes `-climax`, `-repco`... des annees 1950-1970), leur motoriste. Un
+  desaccord est signale, jamais corrige : on va voir les deux sources, puis on consigne le constat
+  dans la table `EXAMINES` du script (le script liste les desaccords encore « a examiner »).
 - `_data/domination.yml` : calcule par `python3 outils/domination.py` (seuils en tete du script).
   Trois degres : saison dominante (1 saison), domination (2 saisons dominantes ou plus),
   hegemonie (3 ou plus, robuste). Les confrontations portent sur les dominations longues (3 ou plus).

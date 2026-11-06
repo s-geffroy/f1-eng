@@ -2,7 +2,10 @@
 # ne pas modifier à la main. Comparaison par nom de famille, sans accents (avec l'initiale du prénom
 # quand deux pilotes de la saison portent le même nom) ; une course comptée
 # concordante si un pilote est commun aux deux sources (équipages partagés). absents = champ manquant
-# dans l'une des sources. Un désaccord est signalé, jamais corrigé ici.
+# dans l'une des sources. ecurie et motoriste : comparés là où le pilote concorde ; motoriste
+# non_renseignes = Jolpica ne le donne pas (hors suffixes « -climax », « -repco »... des années
+# 1950-1970). Un désaccord est signalé, jamais corrigé ici ; examine = constat après lecture des
+# deux sources (table EXAMINES du script).
 source: https://api.jolpi.ca/ergast/f1
 bilan:
   vainqueur:
@@ -21,6 +24,13 @@ bilan:
     concordants: 1149
     desaccords: 0
     absents: 0
+  ecurie:
+    concordants: 4594
+    desaccords: 0
+  motoriste:
+    concordants: 270
+    desaccords: 0
+    non_renseignes: 4324
 saisons_ecartees: []
 desaccords:
 - annee: 1983
@@ -29,3 +39,4 @@ desaccords:
   formula1: Niki Lauda
   jolpica: Jacques Laffite
   url: https://www.formula1.com/en/results/1983/races/9/brazil/race-result
+  examine: formula1.com laisse vacante la deuxième place de Keke Rosberg, disqualifié, et classe Niki Lauda troisième ; Jolpica fait remonter chacun d'un rang et classe Jacques Laffite troisième. Le site suit formula1.com.

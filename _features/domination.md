@@ -10,6 +10,8 @@ redirect_from: "/en/features/hegemonies/"
 {%- assign EF = H.effectifs -%}
 {%- assign CP = site.data.compteur -%}
 {%- assign CR = site.data.croisement -%}
+{%- assign cr_ecuries = CR.bilan.ecurie.concordants | plus: CR.bilan.ecurie.desaccords -%}
+{%- assign cr_motoristes = CR.bilan.motoriste.concordants | plus: CR.bilan.motoriste.desaccords -%}
 {%- assign TK = site.data.technologies.technologies -%}
 {%- assign PNC = site.data.pneus.cas -%}
 {%- assign CHC = site.data.chassis.cas -%}
@@ -438,4 +440,4 @@ Results consulted on 29 October 2026 on formula1.com, for each season from 1950 
 
 The link to each race is kept in the site's data.
 
-These results were compared race by race with a second source, the open [Jolpica]({{ CR.source }}) database (successor to Ergast). Winners agree for {% include nombre.html n=CR.bilan.vainqueur.concordants %} races out of {% include nombre.html n=P.gp %}, poles for {% include nombre.html n=CR.bilan.pole.concordants %}, second places for {% include nombre.html n=CR.bilan.deuxieme.concordants %} and third places for {% include nombre.html n=CR.bilan.troisieme.concordants %}. The only disagreement concerns the 1983 Brazilian Grand Prix: formula1.com leaves vacant the second place of the disqualified Keke Rosberg and ranks Niki Lauda third; Jolpica moves everyone up one place and ranks Jacques Laffite third. This feature follows formula1.com. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.
+These results were compared race by race with a second source, the open [Jolpica]({{ CR.source }}) database (successor to Ergast). Winners agree for {% include nombre.html n=CR.bilan.vainqueur.concordants %} races out of {% include nombre.html n=P.gp %}, poles for {% include nombre.html n=CR.bilan.pole.concordants %}, second places for {% include nombre.html n=CR.bilan.deuxieme.concordants %} and third places for {% include nombre.html n=CR.bilan.troisieme.concordants %}. For each of these drivers, the team agrees in {% include nombre.html n=CR.bilan.ecurie.concordants %} cases out of {% include nombre.html n=cr_ecuries %}; the engine supplier, which Jolpica only gives for a few chassis of the 1950s to 1970s (Cooper-Climax, Brabham-Repco…), agrees in {% include nombre.html n=CR.bilan.motoriste.concordants %} cases out of {% include nombre.html n=cr_motoristes %}. The only disagreement concerns the 1983 Brazilian Grand Prix: formula1.com leaves vacant the second place of the disqualified Keke Rosberg and ranks Niki Lauda third; Jolpica moves everyone up one place and ranks Jacques Laffite third. This feature follows formula1.com. Engineers, milestones and regulations come from the [team pages]({{ site.baseurl }}/en/teams/) and the [timeline]({{ site.baseurl }}/en/timeline/), where each has its own sources.
