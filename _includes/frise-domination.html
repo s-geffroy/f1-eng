@@ -1,31 +1,23 @@
 {%- comment -%}
-  Frise des dominations (_data/domination.yml et, pour les pneus, _data/compteur.yml, calculés par
-  outils/domination.py) : quatre bandes, écuries, pilotes, motoristes et manufacturiers de pneus
-  (hors saisons de monopole, qui ne comptent pas), sur le même axe que la frise des écuries (même grille CSS
-  .ecuries-plan). Une bande prend autant de rangées que ses dominations se chevauchent (champ
-  « rangee », calculé à la génération). Les hégémonies sont pleines, les autres dominations en
-  tirets ; les saisons dominantes isolées n'y figurent pas (chaque saison a son champion).
-  Les écuries renvoient à leur fiche ; pilotes et motoristes au dossier, les pneus à sa section. Commune aux deux langues.
-  Paramètres : debut, fin (bornes de l'axe, à aligner sur la frise voisine).
+  Frise des dominations de l'accueil. Géométrie calculée par outils/domination.py (_data/compteur.yml,
+  frise_domination) : quatre bandes (écuries, pilotes, motoristes, manufacturiers de pneus), chacune
+  avec ses rangées, ses barres et ses cadres de rivalité. Barres : hégémonies pleines, autres
+  dominations en tirets ; une saison dominante isolée n'est dessinée que si elle fait partie d'une
+  rivalité. Nom trop long pour sa barre : écrit dessous (ligne « etiquette »). Rivalité : cadre rouge
+  épais sur ses saisons, autour des barres des rivaux. Même axe que la frise des écuries, sans
+  défilement horizontal. Les écuries renvoient à leur fiche ; les autres barres et les cadres au dossier.
+  Paramètres : debut, fin (bornes de l'axe). Commune aux deux langues ; variables propres (suffixe _hf).
 {%- endcomment -%}
 {%- assign lang_hf = page.lang | default: site.lang | default: "fr" -%}
 {%- assign T_hf = site.data.i18n[lang_hf] -%}
-{%- if lang_hf == "en" -%}{%- assign E_hf = site.data.en.ecuries -%}{%- else -%}{%- assign E_hf = site.data.ecuries -%}{%- endif -%}
-{%- assign H_hf = site.data.domination.dominations -%}
-{%- assign L_hf = T_hf.domination -%}
+{%- if lang_hf == "en" -%}{%- assign E_hf = site.data.en.ecuries -%}{%- assign dp_hf = ": " -%}{%- else -%}{%- assign E_hf = site.data.ecuries -%}{%- assign dp_hf = " : " -%}{%- endif -%}
+{%- assign F_hf = site.data.compteur.frise_domination -%}
 {%- assign debut_hf = include.debut | default: 1950 -%}
 {%- assign fin_hf = include.fin | default: 2026 -%}
 {%- assign url_e_hf = T_hf.url.ecuries | relative_url -%}
 {%- assign url_d_hf = T_hf.url.dossiers | append: "domination/" | relative_url -%}
-{%- comment -%} Étiquettes : le nom reste dans son segment s'il y tient à la largeur minimale de la frise
-  (64rem, soit 59rem d'axe) ; sinon il est écrit sous la barre, sur la première ligne d'étiquettes libre
-  (quatre au plus), relié au segment par un trait. Largeur d'un nom estimée à 0,411rem par caractère
-  (Barlow Condensed 600, 0,875rem) plus les marges. Sur un écran plus large, tout s'écarte : rien ne se
-  chevauche davantage. {%- endcomment -%}
-{%- assign duree_axe_hf = fin_hf | minus: debut_hf -%}
-{%- assign rem_an_hf = 59.0 | divided_by: duree_axe_hf -%}
 {%- assign unites_hf = "ecurie,pilote,motoriste,pneus" | split: "," -%}
-<div class="ecuries-plan domination-plan" style="--debut: {{ debut_hf }}; --fin: {{ fin_hf }};">
+<div class="ecuries-plan ecuries-plan-ajuste domination-plan" style="--debut: {{ debut_hf }}; --fin: {{ fin_hf }};">
   <div class="ecuries-axe" aria-hidden="true">
     {%- for a_hf in (debut_hf..fin_hf) %}{% assign m_hf = a_hf | modulo: 10 %}{% if m_hf == 0 %}
     <span class="frise-decennie" style="--annee: {{ a_hf }};">{{ a_hf }}</span>
@@ -33,23 +25,14 @@
   </div>
   <ol class="ecuries-rangees">
     {%- for u_hf in unites_hf %}
-    {%- if u_hf == "pneus" -%}
-      {%- assign hs_hf = site.data.compteur.pneus.periodes | where_exp: "p", "p.degre != 'saison'" -%}
-    {%- else -%}
-      {%- assign hs_hf = H_hf[u_hf] -%}
-    {%- endif -%}
-    {%- assign der_hf = hs_hf | map: "rangee" | sort | last -%}
+    {%- assign B_hf = F_hf[u_hf] -%}
     {%- assign cle_hf = "bande_" | append: u_hf -%}
-    {%- for r_hf in (0..der_hf) %}
-    {%- assign rang_hf = hs_hf | where: "rangee", r_hf %}
-    {%- assign e1_hf = debut_hf | minus: 100 -%}{%- assign e2_hf = e1_hf -%}{%- assign e3_hf = e1_hf -%}{%- assign e4_hf = e1_hf -%}{%- assign max_k_hf = 0 -%}{%- assign etiq_hf = "" -%}
-    {%- capture rangee_hf %}
-      {%- if forloop.first %}
+    <li class="domination-bande domination-{{ u_hf }}" style="height: {{ B_hf.hauteur }}rem;">
       <p class="ecuries-lignee" style="--de: {{ debut_hf }};">{{ T_hf.portail[cle_hf] }}</p>
-      {%- endif %}
       <ol class="ecuries-segments" aria-label="{{ T_hf.portail[cle_hf] | escape }}">
-        {%- for h_hf in rang_hf %}
+        {%- for h_hf in B_hf.barres %}
         {%- assign fin_s_hf = h_hf.fin | plus: 1 %}
+        {%- assign rg_hf = B_hf.rangees[h_hf.rangee] %}
         {%- if u_hf == "ecurie" %}
           {%- assign e_hf = E_hf.ecuries | where: "id", h_hf.id | first %}
           {%- assign nom_hf = e_hf.nom | default: h_hf.nom %}
@@ -69,47 +52,31 @@
           {%- assign court_hf = h_hf.nom | split: " " | last %}
           {%- assign lien_hf = url_d_hf %}
         {%- endif %}
-        {%- assign duree_s_hf = h_hf.fin | plus: 1 | minus: h_hf.debut -%}
-        {%- assign lseg_hf = duree_s_hf | times: rem_an_hf -%}
-        {%- assign lnom_hf = court_hf.size | times: 0.411 | plus: 0.6 -%}
-        {%- assign k_hf = 0 -%}
-        {%- if lnom_hf > lseg_hf -%}
-          {%- assign fin_e_hf = lnom_hf | divided_by: rem_an_hf | plus: h_hf.debut | plus: 0.4 -%}
-          {%- if e1_hf <= h_hf.debut -%}{%- assign k_hf = 1 -%}{%- assign e1_hf = fin_e_hf -%}
-          {%- elsif e2_hf <= h_hf.debut -%}{%- assign k_hf = 2 -%}{%- assign e2_hf = fin_e_hf -%}
-          {%- elsif e3_hf <= h_hf.debut -%}{%- assign k_hf = 3 -%}{%- assign e3_hf = fin_e_hf -%}
-          {%- else -%}{%- assign k_hf = 4 -%}{%- assign e4_hf = fin_e_hf -%}{%- endif -%}
-          {%- if k_hf > max_k_hf -%}{%- assign max_k_hf = k_hf -%}{%- endif -%}
-          {%- capture etiq_hf %}{{ etiq_hf }}<span class="segment-etiquette" style="--de: {{ h_hf.debut }}; --ligne: {{ k_hf }};">{{ court_hf }}</span>{% endcapture -%}
-        {%- endif -%}
-        <li class="segment domination domination-{{ h_hf.degre }}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }};">
-          <a href="{{ lien_hf }}" title="{{ nom_hf | escape }}, {{ h_hf.debut | escape }}–{{ h_hf.fin | escape }} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres | escape }} {{ T_hf.portail.domination_titres | escape }}">{% if k_hf > 0 %}<span class="visually-hidden">{{ court_hf }}</span>{% else %}{{ court_hf }}{% endif %}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
+        <li class="segment domination domination-{{ h_hf.degre }}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }}; top: {{ rg_hf.barre }}rem;">
+          <a href="{{ lien_hf }}" title="{{ nom_hf | escape }}, {{ h_hf.debut | escape }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin | escape }}{% endif %} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres | escape }} {{ T_hf.portail.domination_titres | escape }}">{% if h_hf.etiquette %}<span class="visually-hidden">{{ court_hf }}</span>{% else %}{{ court_hf }}{% endif %}<span class="visually-hidden">, {{ h_hf.debut }}{% if h_hf.fin != h_hf.debut %}–{{ h_hf.fin }}{% endif %} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
         </li>
         {%- endfor %}
       </ol>
-    {%- endcapture %}
-    <li class="ecuries-rangee domination-{{ u_hf }}{% if forloop.first %} domination-tete{% endif %}" style="--lignes: {{ max_k_hf }};">{{ rangee_hf }}
-      {%- if max_k_hf > 0 %}
-      <div class="segment-etiquettes" aria-hidden="true">{{ etiq_hf }}</div>
+      <div class="segment-etiquettes" aria-hidden="true">
+        {%- for h_hf in B_hf.barres %}{% if h_hf.etiquette %}
+        {%- assign rg_hf = B_hf.rangees[h_hf.rangee] %}
+        {%- if u_hf == "ecurie" %}{% assign e_hf = E_hf.ecuries | where: "id", h_hf.id | first %}{% assign court_hf = e_hf.nom | default: h_hf.nom | split: " (" | first %}
+        {%- elsif u_hf == "motoriste" %}{% assign m_hf = E_hf.motoristes | where: "id", h_hf.id | first %}{% assign court_hf = m_hf.nom | default: h_hf.nom %}
+        {%- elsif u_hf == "pneus" %}{% assign court_hf = h_hf.pneus %}
+        {%- else %}{% assign court_hf = h_hf.nom | split: " " | last %}{% endif %}
+        <span class="segment-etiquette" style="--de: {{ h_hf.debut }}; top: {{ h_hf.etiquette_haut }}rem;">{{ court_hf }}</span>
+        {%- endif %}{% endfor %}
+      </div>
+      {%- if B_hf.cadres.size > 0 %}
+      <ul class="rivalites-cadres" aria-label="{{ T_hf.portail.rivalites_aria | escape }}, {{ T_hf.portail[cle_hf] | escape }}">
+        {%- for c_hf in B_hf.cadres %}
+        {%- assign fin_c_hf = c_hf.a | plus: 1 %}
+        {%- capture noms_c_hf %}{% for x in c_hf.acteurs %}{% if u_hf == "ecurie" and x.id %}{% assign e_c_hf = E_hf.ecuries | where: "id", x.id | first %}{{ e_c_hf.nom | default: x.nom | split: " (" | first }}{% else %}{{ x.nom }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} {{ T_hf.portail.et }} {% else %}, {% endif %}{% endunless %}{% endfor %}{% endcapture %}
+        <li class="cadre-rivalite" style="--de: {{ c_hf.de }}; --a: {{ fin_c_hf }}; top: {{ c_hf.haut }}rem; height: calc({{ c_hf.bas }}rem - {{ c_hf.haut }}rem);"><a class="cadre-lien" href="{{ url_d_hf }}#{{ T_hf.portail.ancre_rivalites }}">{{ T_hf.portail.rivalite | capitalize }}, {{ c_hf.de }}{% if c_hf.a != c_hf.de %}–{{ c_hf.a }}{% endif %}{{ dp_hf }}{{ noms_c_hf }}</a></li>
+        {%- endfor %}
+      </ul>
       {%- endif %}
     </li>
-    {%- endfor %}
-    {%- comment -%} rivalités de la catégorie : saisons où au moins deux acteurs dominent ensemble (hachures) {%- endcomment -%}
-    {%- if u_hf == "pneus" %}{% assign rv_hf = site.data.compteur.pneus.rivalites %}{% else %}{% assign rv_hf = site.data.domination.rivalites[u_hf] %}{% endif %}
-    {%- if rv_hf.size > 0 %}
-    <li class="ecuries-rangee domination-rivalites">
-      <ol class="ecuries-segments" aria-label="{{ T_hf.portail.rivalites_aria | escape }}, {{ T_hf.portail[cle_hf] | escape }}">
-        {%- for r_hf in rv_hf %}
-        {%- assign fin_r_hf = r_hf.a | plus: 1 %}
-        {%- if lang_hf == "en" %}{% assign dp_hf = ": " %}{% else %}{% assign dp_hf = " : " %}{% endif %}
-        {%- capture noms_r_hf %}{% for x in r_hf.acteurs %}{% if u_hf == "ecurie" and x.id %}{% assign e_r_hf = E_hf.ecuries | where: "id", x.id | first %}{{ e_r_hf.nom | default: x.nom }}{% else %}{{ x.nom }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} {{ T_hf.portail.et }} {% else %}, {% endif %}{% endunless %}{% endfor %}{% endcapture %}
-        <li class="segment rivalite" style="--de: {{ r_hf.de }}; --a: {{ fin_r_hf }};">
-          <a href="{{ url_d_hf }}#{{ T_hf.portail.ancre_rivalites }}" title="{{ T_hf.portail.rivalite | capitalize | escape }}, {{ r_hf.de | escape }}{% if r_hf.a != r_hf.de %}–{{ r_hf.a | escape }}{% endif %}{{ dp_hf | escape }}{{ noms_r_hf | escape }}"><span class="visually-hidden">{{ T_hf.portail.rivalite }}, {{ r_hf.de }}{% if r_hf.a != r_hf.de %}–{{ r_hf.a }}{% endif %}{{ dp_hf }}{{ noms_r_hf }}</span></a>
-        </li>
-        {%- endfor %}
-      </ol>
-    </li>
-    {%- endif %}
     {%- endfor %}
   </ol>
 </div>

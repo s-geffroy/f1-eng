@@ -201,7 +201,7 @@ Winners and pole-sitters are those of formula1.com. For the 1955 Argentine pole,
 
 ## Rivalries {#rivalites}
 
-Two periods of the same category can overlap, on the home page timeline as in the tables. This is not an error: a season is dominant for the actor who wins the title **or** at least {{ P.seuil | times: 100 | round }}% of the Grands Prix. The champion and another actor can therefore dominate the same season. We call **rivalry** a run of consecutive seasons in which at least two actors of the same category dominate together. There are {{ H.rivalites.ecurie.size }} between teams, {{ H.rivalites.pilote.size }} between drivers, {{ H.rivalites.motoriste.size }} between engine makers and {{ CP.pneus.rivalites.size }} between tyre manufacturers. The home page timeline marks them with a hatched row under each band.
+Two periods of the same category can overlap, on the home page timeline as in the tables. This is not an error: a season is dominant for the actor who wins the title **or** at least {{ P.seuil | times: 100 | round }}% of the Grands Prix. The champion and another actor can therefore dominate the same season. We call **rivalry** a run of consecutive seasons in which at least two actors of the same category dominate together. There are {{ H.rivalites.ecurie.size }} between teams, {{ H.rivalites.pilote.size }} between drivers, {{ H.rivalites.motoriste.size }} between engine makers and {{ CP.pneus.rivalites.size }} between tyre manufacturers. The home page timeline draws a red frame around the rivals' bars, over the seasons concerned; an isolated dominant season only appears there, dotted, when it is part of a rivalry.
 
 Three situations explain them:
 

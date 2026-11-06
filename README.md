@@ -240,7 +240,9 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   hegemonie (3 ou plus, robuste, et au moins 50 % des victoires sur toute la periode ; niveaux majoritaire, affirmee, ecrasante, quasi totale, absolue par paliers de 10 points, constante NIVEAUX).
   Rivalites (`rivalites` de domination.yml, `pneus.rivalites` de compteur.yml) : saisons consecutives ou au
   moins deux acteurs d'une categorie sont dominants ensemble (champion, ou au moins le seuil des victoires) ;
-  elles expliquent les periodes qui se chevauchent (frise de l'accueil, section Rivalites du dossier). Les confrontations portent sur les dominations longues (3 ou plus).
+  elles expliquent les periodes qui se chevauchent (frise de l'accueil : cadre rouge autour des rivaux ; section Rivalites du dossier).
+  La geometrie de cette frise (rangees, etiquettes, cadres) est calculee par domination.py : `frise_domination`
+  de compteur.yml, pour sa largeur la plus etroite (39rem d'axe, tablette en portrait). Les confrontations portent sur les dominations longues (3 ou plus).
   Les deux fichiers ne s'editent jamais a la main ; relancer les scripts apres une modification
   des ecuries, des ingenieurs ou de la chronologie.
 - Tableaux du dossier : `_includes/domination.html`, libelles dans `_data/i18n.yml` (domination).

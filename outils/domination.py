@@ -1824,6 +1824,96 @@ for l in E["lignees"]:
         if r:
             ecrire(f"_includes/compteur/{l['id']}-{lang}.svg", 
                 f'<div class="compteur">{r[0]}{r[1]}</div>\n')
+# --- Frise de la domination (accueil) : géométrie calculée ici, dessinée par _includes/frise-domination.html ---
+# Quatre bandes (écuries, pilotes, motoristes, pneus). Barres : les dominations et hégémonies, plus les saisons
+# dominantes isolées qui font partie d'une rivalité (sans elles, le cadre de la rivalité n'entourerait qu'un
+# rival). Chaque barre prend la première rangée libre de sa bande. Un nom qui ne tient pas dans sa barre est
+# écrit dessous, sur la première ligne d'étiquettes libre de la rangée. Géométrie pour la frise ajustée sans
+# défilement, à sa largeur la plus étroite (tablette en portrait : FRISE_AXE rem d'axe). Rivalités : un cadre
+# rouge sur leurs saisons, de la rangée du premier rival à celle du dernier. Unités : rem.
+FRISE_DE, FRISE_A, FRISE_AXE = 1950, 2026, 39.0
+F_TETE, F_RANG, F_BARRE_TETE, F_BARRE, F_HB, F_LIGNE = 2.6, 1.6, 0.95, 0.0, 1.35, 0.95
+EN_NOM_E = {e["id"]: e["nom"] for e in EN["ecuries"]}
+EN_NOM_M = {m["id"]: m["nom"] for m in EN["motoristes"]}
+
+def _nom_court(u, x):
+    """Nom affiché dans la frise (le plus long des deux langues, pour réserver la place)."""
+    if u == "pneus":
+        return x.get("pneus") or x["nom"]
+    if u == "pilote":
+        return x["nom"].split(" ")[-1]
+    k = x.get("id")
+    tables = {"ecurie": (NOM_ECURIE, EN_NOM_E), "motoriste": (NOM_MOTEUR, EN_NOM_M)}[u]
+    noms = [t.get(k, x["nom"]) for t in tables] if k else [x["nom"]]
+    return max((n.split(" (")[0] for n in noms), key=len)
+
+frise_dom = {}
+rem_an = FRISE_AXE / (FRISE_A - FRISE_DE)
+for u in ("ecurie", "pilote", "motoriste", "pneus"):
+    hs = [dict(h) for h in (pneus_out["periodes"] if u == "pneus" and pneus_out else dominations.get(u, [])) if h["degre"] != "saison"]
+    rivs = (pneus_out or {}).get("rivalites", []) if u == "pneus" else rivalites_out[u]
+    def cle(x): return x.get("id") or x.get("pneus") or x["nom"]
+    # Les périodes d'abord, rangée par rangée ; puis les saisons isolées d'un rival (barre « saison »), dans
+    # la première rangée libre : elles ne déplacent aucune période.
+    hs.sort(key=lambda h: (h["debut"], h["fin"]))
+    fins = []
+    for h in hs:
+        rg = next((i for i, f in enumerate(fins) if f < h["debut"]), len(fins))
+        fins[rg:rg + 1] = [h["fin"]]
+        h["rangee"] = rg
+    isolees = []
+    for r in rivs:
+        for x in r["acteurs"]:
+            if not any(cle(h) == cle(x) and h["debut"] <= r["de"] and r["a"] <= h["fin"] for h in hs):
+                isolees.append({**({"id": x["id"]} if x.get("id") else {}), ("pneus" if u == "pneus" else "nom"): x["nom"],
+                                "nom": x["nom"], "debut": r["de"], "fin": r["a"], "degre": "saison", "titres": x["titres"]})
+    occupe = collections.defaultdict(set)
+    for h in hs:
+        occupe[h["rangee"]].update(range(h["debut"], h["fin"] + 1))
+    for h in isolees:
+        rg = next(i for i in range(len(occupe) + 1) if not occupe[i] & set(range(h["debut"], h["fin"] + 1)))
+        occupe[rg].update(range(h["debut"], h["fin"] + 1)); h["rangee"] = rg; hs.append(h)
+    hs.sort(key=lambda h: (h["debut"], h["fin"]))
+    fins = [0] * len(occupe)
+    rangees = []
+    for rg in range(len(fins)):
+        lignes_fin, k_max = [], 0
+        for h in [h for h in hs if h["rangee"] == rg]:
+            nom = _nom_court(u, h)
+            if len(nom) * 0.411 + 0.6 > (h["fin"] + 1 - h["debut"]) * rem_an:
+                fin_e = (len(nom) * 0.411 + 0.6) / rem_an + h["debut"] + 0.4
+                k = next((i + 1 for i, f in enumerate(lignes_fin) if f <= h["debut"]), len(lignes_fin) + 1)
+                lignes_fin[k - 1:k] = [fin_e]
+                h["etiquette"] = k; k_max = max(k_max, k)
+        rangees.append({"lignes": k_max})
+    # Positions verticales. Première rangée : intitulé de la bande, puis ses étiquettes AU-DESSUS de la barre ;
+    # rangées suivantes : étiquettes en dessous. Les deux premières rangées, entre lesquelles se jouent presque
+    # toutes les rivalités, se touchent ainsi presque, et le cadre qui les réunit reste compact.
+    y = F_BARRE_TETE
+    for i, rg in enumerate(rangees):
+        if i == 0:
+            rg["barre"] = round(y + rg["lignes"] * F_LIGNE, 3)
+            y = rg["barre"] + F_HB + 0.25
+        else:
+            rg["barre"] = round(y, 3)
+            y += F_HB + 0.25 + (rg["lignes"] * F_LIGNE + 0.1 if rg["lignes"] else 0)
+    for h in hs:
+        if h.get("etiquette"):
+            b = rangees[h["rangee"]]["barre"]
+            h["etiquette_haut"] = round(b - h["etiquette"] * F_LIGNE if h["rangee"] == 0 else b + F_HB + 0.1 + (h["etiquette"] - 1) * F_LIGNE, 3)
+    cadres = []
+    for r in rivs:
+        rgs = [next(h["rangee"] for h in hs if cle(h) == cle(x) and h["debut"] <= r["de"] and r["a"] <= h["fin"]) for x in r["acteurs"]]
+        cadres.append({"de": r["de"], "a": r["a"], "haut": round(rangees[min(rgs)]["barre"] - 0.2, 3),
+                       "bas": round(rangees[max(rgs)]["barre"] + F_HB + 0.2, 3),
+                       "acteurs": [{**({"id": x["id"]} if x.get("id") else {}), "nom": x["nom"]} for x in r["acteurs"]]})
+    for h in hs:
+        for c in ("associes", "regles_debut", "regles_fin", "ingenieurs", "ingenieurs_incertains", "jalons",
+                  "poles", "podiums", "doubles", "ecart", "indice", "points", "robuste", "longue", "part_max", "gp", "victoires", "dominantes", "unite", "saisons", "part"):
+            h.pop(c, None)
+    frise_dom[u] = {"hauteur": round(y, 3), "barres": hs, "rangees": rangees, "cadres": cadres}
+sortie_compteur["frise_domination"] = frise_dom
+
 ecrire("_data/compteur.yml", 
     "# Compteur de domination des lignées, calculé par outils/domination.py : ne pas modifier à la main.\n"
     "# seuil = valeur d'indice (0-1) qui sépare le mieux les saisons dominantes (titre ou SEUIL des victoires)\n"

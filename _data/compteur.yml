@@ -7396,3 +7396,1028 @@ indicateurs:
     derniere_reconduite:
       annee: 2021
       voiture: Red Bull RB16
+frise_domination:
+  ecurie:
+    hauteur: 11.65
+    barres:
+    - id: alfa-romeo-1950
+      nom: Alfa Romeo (1950–1951)
+      debut: 1950
+      fin: 1951
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: ferrari
+      nom: Ferrari
+      debut: 1952
+      fin: 1953
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: mercedes-1954
+      nom: Mercedes-Benz (1954–1955)
+      debut: 1954
+      fin: 1955
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 1.9
+    - id: cooper
+      nom: Cooper
+      debut: 1959
+      fin: 1960
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 4
+      etiquette_haut: 0.95
+    - id: team-lotus
+      nom: Team Lotus
+      debut: 1963
+      fin: 1965
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: brabham
+      nom: Brabham
+      debut: 1966
+      fin: 1967
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: team-lotus
+      nom: Team Lotus
+      debut: 1968
+      fin: 1973
+      titres: 4
+      degre: domination
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 1.9
+    - id: ferrari
+      nom: Ferrari
+      debut: 1975
+      fin: 1979
+      titres: 4
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: williams
+      nom: Williams
+      debut: 1980
+      fin: 1981
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: ferrari
+      nom: Ferrari
+      debut: 1982
+      fin: 1983
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 1.9
+    - id: mclaren
+      nom: McLaren
+      debut: 1984
+      fin: 1985
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: williams
+      nom: Williams
+      debut: 1986
+      fin: 1987
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 4
+      etiquette_haut: 0.95
+    - id: mclaren
+      nom: McLaren
+      debut: 1988
+      fin: 1991
+      titres: 4
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: williams
+      nom: Williams
+      debut: 1991
+      fin: 1997
+      titres: 5
+      degre: hegemonie
+      niveau: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 7.8
+    - id: benetton
+      nom: Benetton
+      debut: 1994
+      fin: 1995
+      titres: 1
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: mclaren
+      nom: McLaren
+      debut: 1998
+      fin: 2000
+      titres: 1
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: ferrari
+      nom: Ferrari
+      debut: 1999
+      fin: 2008
+      titres: 8
+      degre: hegemonie
+      niveau: 1
+      rangee: 1
+    - id: renault
+      nom: Renault
+      debut: 2005
+      fin: 2006
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    - id: mclaren
+      nom: McLaren
+      debut: 2005
+      fin: 2007
+      titres: 0
+      degre: domination
+      rangee: 2
+      etiquette: 1
+      etiquette_haut: 10.45
+    - id: red-bull
+      nom: Red Bull
+      debut: 2010
+      fin: 2013
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 2.85
+    - id: mercedes
+      nom: Mercedes
+      debut: 2014
+      fin: 2021
+      titres: 8
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+    - id: red-bull
+      nom: Red Bull
+      debut: 2021
+      fin: 2023
+      titres: 2
+      degre: hegemonie
+      niveau: 3
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 7.8
+    - id: mclaren
+      nom: McLaren
+      debut: 2024
+      fin: 2025
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 3.8
+    rangees:
+    - lignes: 4
+      barre: 4.75
+    - lignes: 1
+      barre: 6.35
+    - lignes: 1
+      barre: 9.0
+    cadres:
+    - de: 1991
+      a: 1991
+      haut: 4.55
+      bas: 7.9
+      acteurs:
+      - id: mclaren
+        nom: McLaren
+      - id: williams
+        nom: Williams
+    - de: 1994
+      a: 1994
+      haut: 4.55
+      bas: 7.9
+      acteurs:
+      - id: benetton
+        nom: Benetton
+      - id: williams
+        nom: Williams
+    - de: 1999
+      a: 2000
+      haut: 4.55
+      bas: 7.9
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: mclaren
+        nom: McLaren
+    - de: 2005
+      a: 2005
+      haut: 4.55
+      bas: 10.55
+      acteurs:
+      - id: mclaren
+        nom: McLaren
+      - id: renault
+        nom: Renault
+    - de: 2006
+      a: 2006
+      haut: 4.55
+      bas: 7.9
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: renault
+        nom: Renault
+    - de: 2007
+      a: 2007
+      haut: 6.15
+      bas: 10.55
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: mclaren
+        nom: McLaren
+    - de: 2021
+      a: 2021
+      haut: 4.55
+      bas: 7.9
+      acteurs:
+      - id: red-bull
+        nom: Red Bull
+      - id: mercedes
+        nom: Mercedes
+  pilote:
+    hauteur: 9.0
+    barres:
+    - id: Nino Farina
+      nom: Nino Farina
+      debut: 1950
+      fin: 1950
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: Juan Manuel Fangio
+      nom: Juan Manuel Fangio
+      debut: 1950
+      fin: 1951
+      titres: 1
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Alberto Ascari
+      nom: Alberto Ascari
+      debut: 1952
+      fin: 1953
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: Juan Manuel Fangio
+      nom: Juan Manuel Fangio
+      debut: 1954
+      fin: 1957
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 0.95
+    - id: Jack Brabham
+      nom: Jack Brabham
+      debut: 1959
+      fin: 1960
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Jim Clark
+      nom: Jim Clark
+      debut: 1963
+      fin: 1965
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: Jackie Stewart
+      nom: Jackie Stewart
+      debut: 1969
+      fin: 1973
+      titres: 3
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Emerson Fittipaldi
+      nom: Emerson Fittipaldi
+      debut: 1972
+      fin: 1974
+      titres: 2
+      degre: domination
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: Niki Lauda
+      nom: Niki Lauda
+      debut: 1975
+      fin: 1977
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: Nelson Piquet
+      nom: Nelson Piquet
+      debut: 1981
+      fin: 1983
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Niki Lauda
+      nom: Niki Lauda
+      debut: 1984
+      fin: 1984
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: Alain Prost
+      nom: Alain Prost
+      debut: 1984
+      fin: 1989
+      titres: 3
+      degre: domination
+      rangee: 0
+    - id: Ayrton Senna
+      nom: Ayrton Senna
+      debut: 1988
+      fin: 1991
+      titres: 3
+      degre: domination
+      rangee: 1
+      etiquette: 2
+      etiquette_haut: 7.8
+    - id: Michael Schumacher
+      nom: Michael Schumacher
+      debut: 1994
+      fin: 1995
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Mika Häkkinen
+      nom: Mika Häkkinen
+      debut: 1998
+      fin: 1999
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: Michael Schumacher
+      nom: Michael Schumacher
+      debut: 2000
+      fin: 2004
+      titres: 5
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 0.95
+    - id: Fernando Alonso
+      nom: Fernando Alonso
+      debut: 2005
+      fin: 2006
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Sebastian Vettel
+      nom: Sebastian Vettel
+      debut: 2010
+      fin: 2013
+      titres: 4
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: Lewis Hamilton
+      nom: Lewis Hamilton
+      debut: 2014
+      fin: 2020
+      titres: 6
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: Nico Rosberg
+      nom: Nico Rosberg
+      debut: 2016
+      fin: 2016
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: Max Verstappen
+      nom: Max Verstappen
+      debut: 2021
+      fin: 2024
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    rangees:
+    - lignes: 3
+      barre: 3.8
+    - lignes: 2
+      barre: 5.4
+    cadres:
+    - de: 1950
+      a: 1950
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: Juan Manuel Fangio
+        nom: Juan Manuel Fangio
+      - id: Nino Farina
+        nom: Nino Farina
+    - de: 1984
+      a: 1984
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: Alain Prost
+        nom: Alain Prost
+      - id: Niki Lauda
+        nom: Niki Lauda
+    - de: 1988
+      a: 1988
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: Ayrton Senna
+        nom: Ayrton Senna
+      - id: Alain Prost
+        nom: Alain Prost
+    - de: 2016
+      a: 2016
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: Lewis Hamilton
+        nom: Lewis Hamilton
+      - id: Nico Rosberg
+        nom: Nico Rosberg
+  motoriste:
+    hauteur: 11.65
+    barres:
+    - id: alfa-romeo
+      nom: Alfa Romeo
+      debut: 1950
+      fin: 1951
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: ferrari
+      nom: Ferrari
+      debut: 1952
+      fin: 1953
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: mercedes
+      nom: Mercedes
+      debut: 1954
+      fin: 1955
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 3
+      etiquette_haut: 0.95
+    - id: climax
+      nom: Climax
+      debut: 1959
+      fin: 1965
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+    - id: brm
+      nom: BRM
+      debut: 1962
+      fin: 1962
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: ferrari
+      nom: Ferrari
+      debut: 1964
+      fin: 1964
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 2
+      etiquette_haut: 7.8
+    - id: repco
+      nom: Repco
+      debut: 1966
+      fin: 1967
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: ford
+      nom: Ford
+      debut: 1968
+      fin: 1982
+      titres: 10
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+    - id: ferrari
+      nom: Ferrari
+      debut: 1975
+      fin: 1979
+      titres: 4
+      degre: domination
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 6.85
+    - id: ferrari
+      nom: Ferrari
+      debut: 1982
+      fin: 1983
+      titres: 2
+      degre: domination
+      rangee: 1
+      etiquette: 2
+      etiquette_haut: 7.8
+    - id: tag
+      nom: TAG
+      debut: 1984
+      fin: 1985
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: honda
+      nom: Honda
+      debut: 1986
+      fin: 1991
+      titres: 6
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+    - id: renault
+      nom: Renault
+      debut: 1991
+      fin: 1997
+      titres: 6
+      degre: hegemonie
+      niveau: 2
+      rangee: 1
+    - id: ford
+      nom: Ford
+      debut: 1994
+      fin: 1994
+      degre: saison
+      titres: 0
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: mercedes
+      nom: Mercedes
+      debut: 1998
+      fin: 2000
+      titres: 1
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: ferrari
+      nom: Ferrari
+      debut: 1999
+      fin: 2008
+      titres: 8
+      degre: hegemonie
+      niveau: 1
+      rangee: 1
+    - id: renault
+      nom: Renault
+      debut: 2005
+      fin: 2006
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: mercedes
+      nom: Mercedes
+      debut: 2005
+      fin: 2009
+      titres: 1
+      degre: domination
+      rangee: 2
+      etiquette: 1
+      etiquette_haut: 10.45
+    - id: renault
+      nom: Renault
+      debut: 2010
+      fin: 2013
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    - id: mercedes
+      nom: Mercedes
+      debut: 2012
+      fin: 2021
+      titres: 8
+      degre: hegemonie
+      niveau: 2
+      rangee: 1
+    - id: honda
+      nom: Honda
+      debut: 2021
+      fin: 2023
+      titres: 2
+      degre: hegemonie
+      niveau: 3
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 2.85
+    - id: mercedes
+      nom: Mercedes
+      debut: 2024
+      fin: 2025
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 1.9
+    rangees:
+    - lignes: 3
+      barre: 3.8
+    - lignes: 2
+      barre: 5.4
+    - lignes: 1
+      barre: 9.0
+    cadres:
+    - de: 1962
+      a: 1962
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: brm
+        nom: BRM
+      - id: climax
+        nom: Climax
+    - de: 1964
+      a: 1964
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: climax
+        nom: Climax
+      - id: ferrari
+        nom: Ferrari
+    - de: 1975
+      a: 1977
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ford
+        nom: Ford
+      - id: ferrari
+        nom: Ferrari
+    - de: 1979
+      a: 1979
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ford
+        nom: Ford
+      - id: ferrari
+        nom: Ferrari
+    - de: 1982
+      a: 1982
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ford
+        nom: Ford
+      - id: ferrari
+        nom: Ferrari
+    - de: 1991
+      a: 1991
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: honda
+        nom: Honda
+      - id: renault
+        nom: Renault
+    - de: 1994
+      a: 1994
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ford
+        nom: Ford
+      - id: renault
+        nom: Renault
+    - de: 1999
+      a: 2000
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: mercedes
+        nom: Mercedes
+    - de: 2005
+      a: 2005
+      haut: 3.6
+      bas: 10.55
+      acteurs:
+      - id: mercedes
+        nom: Mercedes
+      - id: renault
+        nom: Renault
+    - de: 2006
+      a: 2006
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: renault
+        nom: Renault
+    - de: 2007
+      a: 2007
+      haut: 5.2
+      bas: 10.55
+      acteurs:
+      - id: ferrari
+        nom: Ferrari
+      - id: mercedes
+        nom: Mercedes
+    - de: 2012
+      a: 2012
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: renault
+        nom: Renault
+      - id: mercedes
+        nom: Mercedes
+    - de: 2021
+      a: 2021
+      haut: 3.6
+      bas: 6.95
+      acteurs:
+      - id: honda
+        nom: Honda
+      - id: mercedes
+        nom: Mercedes
+  pneus:
+    hauteur: 8.05
+    barres:
+    - pneus: Pirelli
+      debut: 1950
+      fin: 1954
+      titres: 4
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 1.9
+    - pneus: Continental
+      debut: 1954
+      fin: 1955
+      titres: 2
+      degre: domination
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 5.9
+    - pneus: Dunlop
+      debut: 1958
+      fin: 1960
+      titres: 3
+      degre: hegemonie
+      niveau: 4
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 1.9
+    - pneus: Dunlop
+      debut: 1964
+      fin: 1965
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 0.95
+    - pneus: Goodyear
+      debut: 1966
+      fin: 1967
+      titres: 2
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 1.9
+    - pneus: Firestone
+      debut: 1967
+      fin: 1972
+      titres: 3
+      degre: domination
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 5.9
+    - pneus: Goodyear
+      debut: 1971
+      fin: 1974
+      titres: 3
+      degre: hegemonie
+      niveau: 3
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 0.95
+    - pneus: Goodyear
+      debut: 1977
+      fin: 1986
+      titres: 7
+      degre: hegemonie
+      niveau: 2
+      rangee: 0
+    - pneus: Michelin
+      debut: 1979
+      fin: 1984
+      titres: 3
+      degre: hegemonie
+      niveau: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 5.9
+    - pneus: Goodyear
+      debut: 1989
+      fin: 1991
+      titres: 3
+      degre: hegemonie
+      niveau: 5
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 1.9
+    - pneus: Goodyear
+      debut: 1997
+      fin: 1998
+      titres: 1
+      degre: domination
+      rangee: 0
+      etiquette: 1
+      etiquette_haut: 1.9
+    - pneus: Bridgestone
+      nom: Bridgestone
+      debut: 1998
+      fin: 1998
+      degre: saison
+      titres: 1
+      rangee: 1
+      etiquette: 1
+      etiquette_haut: 5.9
+    - pneus: Bridgestone
+      debut: 2001
+      fin: 2006
+      titres: 4
+      degre: hegemonie
+      niveau: 1
+      rangee: 0
+      etiquette: 2
+      etiquette_haut: 0.95
+    - pneus: Michelin
+      debut: 2003
+      fin: 2006
+      titres: 2
+      degre: domination
+      rangee: 1
+      etiquette: 2
+      etiquette_haut: 6.85
+    rangees:
+    - lignes: 2
+      barre: 2.85
+    - lignes: 2
+      barre: 4.45
+    cadres:
+    - de: 1954
+      a: 1954
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Continental
+      - nom: Pirelli
+    - de: 1967
+      a: 1967
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Firestone
+      - nom: Goodyear
+    - de: 1972
+      a: 1972
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Firestone
+      - nom: Goodyear
+    - de: 1979
+      a: 1979
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Goodyear
+      - nom: Michelin
+    - de: 1982
+      a: 1983
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Michelin
+      - nom: Goodyear
+    - de: 1998
+      a: 1998
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Bridgestone
+      - nom: Goodyear
+    - de: 2003
+      a: 2003
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Bridgestone
+      - nom: Michelin
+    - de: 2006
+      a: 2006
+      haut: 2.65
+      bas: 6.0
+      acteurs:
+      - nom: Bridgestone
+      - nom: Michelin
