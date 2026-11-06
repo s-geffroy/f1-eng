@@ -37,7 +37,7 @@
     {%- if etape.lien.pourquoi and etape.lien.sources.size > 0 %}
     {%- assign p = D.chronologie.preuves | where: "id", etape.lien.preuve | first %}
     <li>
-      <p>{% include lier-noms.html texte=etape.lien.pourquoi %} <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b></p>
+      <p>{% include lier-noms.html texte=etape.lien.pourquoi %} <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b></p>
       <p class="fiche-jalon-liens"><span>{{ T.chrono.sources }}</span>
         {%- for s in etape.lien.sources %} <a href="{{ s.url }}">{{ s.titre }}</a>{% unless forloop.last %}{{ esp_ }};{% endunless %}{% endfor %}</p>
     </li>

@@ -8,12 +8,12 @@
 
 <form class="filtres recherche-form" id="recherche" role="search" hidden
       data-index="{{ T.url.index_recherche | relative_url }}"
-      data-vide="{{ T.recherche.vide }}" data-erreur="{{ T.recherche.erreur }}" data-aucun="{{ T.recherche.aucun }}"
-      data-un="{{ T.recherche.un }}" data-plusieurs="{{ T.recherche.plusieurs }}"
+      data-vide="{{ T.recherche.vide | escape }}" data-erreur="{{ T.recherche.erreur | escape }}" data-aucun="{{ T.recherche.aucun | escape }}"
+      data-un="{{ T.recherche.un | escape }}" data-plusieurs="{{ T.recherche.plusieurs | escape }}"
       data-types='{{ T.recherche.types | jsonify }}'>
   <div class="filtre filtre-texte">
     <label for="r-texte">{{ T.recherche.label }}</label>
-    <input type="search" id="r-texte" name="q" placeholder="{{ T.recherche.placeholder }}" autocomplete="off">
+    <input type="search" id="r-texte" name="q" placeholder="{{ T.recherche.placeholder | escape }}" autocomplete="off">
   </div>
 </form>
 <p class="filtres-bilan" id="recherche-bilan" aria-live="polite"></p>

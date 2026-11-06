@@ -13,7 +13,7 @@
   <p class="ecuries-perimetre">{{ T.ecuries.perimetre }}</p>
 </section>
 
-<section class="genealogie-cadre" aria-label="{{ T.ecuries.aria }}">
+<section class="genealogie-cadre" aria-label="{{ T.ecuries.aria | escape }}">
   {%- assign pv = D.chronologie.preuves %}
   <p class="frise-legende">{{ T.ecuries.lecture }}
     <span><i class="legende-carte" aria-hidden="true"></i>{{ T.ecuries.legende_carte }}</span>
@@ -22,7 +22,7 @@
   </p>
   <p class="frise-legende legende-moteurs-carte">{{ T.ecuries.motoristes }} :
     {%- assign colores = E.motoristes | where_exp: "m", "m.couleur" | sort: "couleur" %}
-    {%- for m in colores %} <span><i class="moteur-pastille" data-couleur="{{ m.couleur }}" aria-hidden="true"></i>{{ m.nom }}</span>{% endfor %}
+    {%- for m in colores %} <span><i class="moteur-pastille" data-couleur="{{ m.couleur | escape }}" aria-hidden="true"></i>{{ m.nom }}</span>{% endfor %}
     <span><i class="moteur-pastille" data-couleur="0" aria-hidden="true"></i>{{ T.ecuries.autres_moteurs }}</span>
   </p>
   <div class="genealogie-defilement">

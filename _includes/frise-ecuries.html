@@ -54,13 +54,13 @@
       {%- if l_f.segments.size > 1 or r_f.items.size == 1 %}
       <p class="ecuries-lignee{% if premier_f.de > 2010 %} ecuries-lignee-fin{% endif %}" style="--de: {{ premier_f.de }};">{{ l_f.nom }}</p>
       {%- endif %}
-      <ol class="ecuries-segments" aria-label="{{ l_f.nom }}">
+      <ol class="ecuries-segments" aria-label="{{ l_f.nom | escape }}">
         {%- for s_f in l_f.segments %}
         {%- assign e_f = E_f.ecuries | where: "id", s_f.ecurie | first %}
         {%- assign fin_s_f = s_f.a | plus: 1 %}
         {%- assign alt_f = forloop.index | modulo: 2 %}
         <li class="segment{% if alt_f == 0 %} segment-alt{% endif %}{% if s_f.lien %} segment-{{ s_f.lien.type }} preuve-{{ s_f.lien.preuve }}{% endif %}{% if l_f.actuelle and forloop.last %} segment-encours{% endif %}" style="--de: {{ s_f.de }}; --a: {{ fin_s_f }};">
-          <a href="{{ url_ecuries }}{{ e_f.id }}/"{% if include.courante == e_f.id %} aria-current="page"{% endif %} title="{{ e_f.nom }}, {{ s_f.de }}{% if s_f.a != s_f.de %}–{% if l_f.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui }}{% else %}{{ s_f.a }}{% endif %}{% endif %}">{{ e_f.nom }}</a>
+          <a href="{{ url_ecuries }}{{ e_f.id }}/"{% if include.courante == e_f.id %} aria-current="page"{% endif %} title="{{ e_f.nom | escape }}, {{ s_f.de | escape }}{% if s_f.a != s_f.de %}–{% if l_f.actuelle and forloop.last %}{{ T_f.ecuries.aujourdhui | escape }}{% else %}{{ s_f.a | escape }}{% endif %}{% endif %}">{{ e_f.nom }}</a>
         </li>
         {%- endfor %}
       </ol>
@@ -72,7 +72,7 @@
         {%- for m_f in e_f.moteurs %}
         {%- assign mo_f = E_f.motoristes | where: "id", m_f.motoriste | first %}
         {%- assign fin_m_f = m_f.a | plus: 1 %}
-        <li class="moteur" data-couleur="{{ mo_f.couleur | default: 0 }}" style="--de: {{ m_f.de }}; --a: {{ fin_m_f }};" title="{{ e_f.nom }} · {{ mo_f.nom }}, {{ m_f.de }}{% if m_f.a != m_f.de %}–{{ m_f.a }}{% endif %}"></li>
+        <li class="moteur" data-couleur="{{ mo_f.couleur | default: 0 | escape }}" style="--de: {{ m_f.de }}; --a: {{ fin_m_f }};" title="{{ e_f.nom | escape }} · {{ mo_f.nom | escape }}, {{ m_f.de | escape }}{% if m_f.a != m_f.de %}–{{ m_f.a | escape }}{% endif %}"></li>
         {%- endfor %}
         {%- endfor %}
       </ul>
@@ -83,7 +83,7 @@
         {%- assign url_v_f = T_f.url.voitures | append: vid_f | append: "/" %}
         {%- assign v_f = site[T_f.collection_voitures] | where: "url", url_v_f | first %}
         {%- if v_f and v_f.annee >= debut_f %}
-        <li style="--annee: {{ v_f.annee }};"><a class="repere-voiture{% if v_f.annee < 1960 %} jalon-debut{% elsif v_f.annee > 2010 %} jalon-fin{% endif %}" href="{{ v_f.url | relative_url }}" aria-label="{{ v_f.annee }} : {{ v_f.title }}"><span class="jalon-etiquette"><b>{{ v_f.annee }}</b> {{ v_f.title }}</span></a></li>
+        <li style="--annee: {{ v_f.annee }};"><a class="repere-voiture{% if v_f.annee < 1960 %} jalon-debut{% elsif v_f.annee > 2010 %} jalon-fin{% endif %}" href="{{ v_f.url | relative_url }}" aria-label="{{ v_f.annee | escape }} : {{ v_f.title | escape }}"><span class="jalon-etiquette"><b>{{ v_f.annee }}</b> {{ v_f.title }}</span></a></li>
         {%- endif %}
         {%- endfor %}
         {%- endfor %}

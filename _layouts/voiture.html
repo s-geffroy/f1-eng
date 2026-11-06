@@ -83,7 +83,7 @@ layout: default
     {{ content }}
   </div>
 
-  <nav class="suite" aria-label="{{ T.l.voitures_aria }}">
+  <nav class="suite" aria-label="{{ T.l.voitures_aria | escape }}">
     {%- if i_prec >= 0 -%}
       {%- assign v = par_annee[i_prec] -%}
       <a class="suite-prec" href="{{ v.url | relative_url }}"><span>{{ v.annee }}</span> {{ v.title }}</a>

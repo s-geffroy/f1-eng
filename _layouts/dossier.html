@@ -16,7 +16,7 @@ layout: default
   <div class="texte">
     {{ content }}
   </div>
-  <nav class="suite" aria-label="{{ T.l.dossiers_aria }}">
+  <nav class="suite" aria-label="{{ T.l.dossiers_aria | escape }}">
     {%- if i_prec >= 0 -%}
       {%- assign d = dossiers[i_prec] -%}
       <a class="suite-prec" href="{{ d.url | relative_url }}"><span>{{ T.l.dossier }} {{ d.ordre }}</span> {{ d.title }}</a>

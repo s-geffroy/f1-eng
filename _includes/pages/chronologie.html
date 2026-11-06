@@ -20,13 +20,13 @@
   <p class="accroche">{{ T.chrono.accroche }}</p>
 </section>
 
-<section class="frise" aria-label="{{ T.chrono.aria }}">
+<section class="frise" aria-label="{{ T.chrono.aria | escape }}">
   <div class="frise-filtres" role="group" aria-labelledby="frise-filtres-titre">
     <p id="frise-filtres-titre">{{ T.chrono.filtres }}</p>
     {%- for c in D.chronologie.categories %}
     {%- if c.groupe == "monde" and premier_monde != false %}{% assign premier_monde = false %}<p class="filtres-monde">{{ T.chrono.monde }}</p>{% endif %}
     {%- assign n = contexte | where: "categorie", c.id | size %}
-    <button type="button" class="filtre-contexte" data-categorie="{{ c.id }}" aria-pressed="false">
+    <button type="button" class="filtre-contexte" data-categorie="{{ c.id | escape }}" aria-pressed="false">
       {% include repere-contexte.html categorie=c.id %}{{ c.nom }} <span class="filtre-nombre">{{ n }}</span>
     </button>
     {%- endfor %}
@@ -53,7 +53,7 @@
     <div class="frise-plan" style="--debut: {{ debut }}; --fin: {{ fin }};">
       <p class="frise-zone frise-zone-haut" aria-hidden="true">{{ T.chrono.innovations }}</p>
       <p class="frise-zone frise-zone-bas" aria-hidden="true">{{ T.chrono.contexte }}</p>
-      <ol class="frise-innovations" aria-label="{{ T.chrono.innovations }}">
+      <ol class="frise-innovations" aria-label="{{ T.chrono.innovations | escape }}">
         {%- for j in jalons %}
         {%- assign rang = -1 -%}
         {%- for k in (0..7) -%}
@@ -78,7 +78,7 @@
           {%- if e.tier == "A" -%}{%- assign tier_a = true -%}{%- endif -%}
         {%- endfor %}
         <li style="--annee: {{ j.annee }}; --rang: {{ rang }};">
-          <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1960 %} jalon-debut{% elsif j.annee > 2010 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="j-{{ j.id }}" aria-label="{{ j.annee }} : {{ j.titre }}{% if tier_a %}, Tier A{% endif %}">
+          <a class="jalon{% if tier_a %} jalon-a{% endif %}{% if j.annee < 1960 %} jalon-debut{% elsif j.annee > 2010 %} jalon-fin{% endif %}" href="#j-{{ j.id }}" data-id="j-{{ j.id | escape }}" aria-label="{{ j.annee | escape }} : {{ j.titre | escape }}{% if tier_a %}, Tier A{% endif %}">
             <span class="jalon-etiquette"><b>{{ j.annee }}</b> {{ j.titre }} <i>{{ voie.nom }}{% if tier_a %} · Tier A{% endif %}</i></span>
           </a>
         </li>
@@ -92,10 +92,10 @@
         {%- endif %}{% endfor %}
       </div>
       <svg class="frise-liens" id="frise-liens-calque" aria-hidden="true" focusable="false"></svg>
-      <ol class="frise-contexte" aria-label="{{ T.chrono.contexte }}">
+      <ol class="frise-contexte" aria-label="{{ T.chrono.contexte | escape }}">
         {%- for c in contexte %}
-        <li style="--annee: {{ c.annee }}; --rang: 0;" data-categorie="{{ c.categorie }}">
-          <a class="evenement evenement-{{ c.categorie }}{% if c.annee < 1960 %} jalon-debut{% elsif c.annee > 2010 %} jalon-fin{% endif %}" href="#c-{{ c.id }}" data-id="c-{{ c.id }}" aria-label="{{ c.annee }} : {{ c.titre }}">
+        <li style="--annee: {{ c.annee }}; --rang: 0;" data-categorie="{{ c.categorie | escape }}">
+          <a class="evenement evenement-{{ c.categorie }}{% if c.annee < 1960 %} jalon-debut{% elsif c.annee > 2010 %} jalon-fin{% endif %}" href="#c-{{ c.id }}" data-id="c-{{ c.id | escape }}" aria-label="{{ c.annee | escape }} : {{ c.titre | escape }}">
             {% include repere-contexte.html categorie=c.categorie %}
             <span class="jalon-etiquette"><b>{{ c.annee }}</b> {{ c.titre }}</span>
           </a>
@@ -105,7 +105,7 @@
       <p class="frise-invite" id="frise-invite" hidden>{{ T.chrono.invite }}</p>
     </div>
     {%- comment -%} bande des écuries et des voitures : même axe, même défilement que la frise {%- endcomment %}
-    <div class="frise-bande-ecuries" role="group" aria-label="{{ T.chrono.bande_titre }}">
+    <div class="frise-bande-ecuries" role="group" aria-label="{{ T.chrono.bande_titre | escape }}">
       <p class="frise-zone" aria-hidden="true">{{ T.chrono.bande_ecuries }}</p>
       {% include frise-ecuries.html debut=debut fin=fin selection="principales" %}
     </div>
@@ -113,8 +113,8 @@
   {%- comment -%} hauteur de la zone des innovations, d'après la rangée la plus haute {%- endcomment -%}
   <style>.frise-plan { --rangs-haut: {{ rang_max | plus: 1 }}; }</style>
 
-  <p class="visually-hidden" id="frise-annonce" aria-live="polite" data-ouverte="{{ T.chrono.fiche_ouverte }}"></p>
-  <div class="frise-detail" id="frise-detail" role="region" aria-label="{{ T.chrono.fiche }}" tabindex="-1" hidden>
+  <p class="visually-hidden" id="frise-annonce" aria-live="polite" data-ouverte="{{ T.chrono.fiche_ouverte | escape }}"></p>
+  <div class="frise-detail" id="frise-detail" role="region" aria-label="{{ T.chrono.fiche | escape }}" tabindex="-1" hidden>
     <div class="frise-detail-fiche" id="frise-detail-fiche"></div>
     <div class="frise-detail-nav">
       <button type="button" id="frise-prec">{{ T.chrono.prec }}</button>
@@ -170,7 +170,7 @@
           {%- for c in contexte %}{% for l in c.liens %}{% if l.jalon == j.id %}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
-          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <li data-mecanisme="{{ l.mecanisme | escape }}" data-preuve="{{ l.preuve | escape }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c.id }}">{{ c.annee }}, {{ c.titre }}</a> <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b>
             <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}{% endfor %}
         </ul>
@@ -187,7 +187,7 @@
   <ol class="jalons-liste">
     {%- for c in contexte %}
     {%- assign cat = D.chronologie.categories | where: "id", c.categorie | first %}
-    <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}" data-categorie="{{ c.categorie }}">
+    <li class="fiche-jalon fiche-contexte" id="c-{{ c.id }}" data-categorie="{{ c.categorie | escape }}">
       <p class="fiche-jalon-annee">{{ c.annee }}</p>
       <div class="fiche-jalon-corps">
         <p class="fiche-jalon-voie">{% include repere-contexte.html categorie=c.categorie %}{{ T.chrono.contexte }}{{ esp_ }}: {{ cat.nom | downcase }}</p>
@@ -205,7 +205,7 @@
           {%- assign j = jalons | where: "id", l.jalon | first -%}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
-          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <li data-mecanisme="{{ l.mecanisme | escape }}" data-preuve="{{ l.preuve | escape }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#j-{{ j.id }}">{{ j.annee }}, {{ j.titre }}</a> <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b>
             <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}
         </ul>
@@ -217,13 +217,13 @@
           {%- assign e = contexte | where: "id", l.evenement | first -%}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
-          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#c-{{ e.id }}">{{ e.annee }}, {{ e.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <li data-mecanisme="{{ l.mecanisme | escape }}" data-preuve="{{ l.preuve | escape }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="#c-{{ e.id }}">{{ e.annee }}, {{ e.titre }}</a> <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b>
             <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}
           {%- for c2 in contexte %}{% for l in c2.liens %}{% if l.evenement == c.id %}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
-          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c2.id }}">{{ c2.annee }}, {{ c2.titre }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <li data-mecanisme="{{ l.mecanisme | escape }}" data-preuve="{{ l.preuve | escape }}"><em>{{ m.cote_jalon | capitalize }}</em> <a href="#c-{{ c2.id }}">{{ c2.annee }}, {{ c2.titre }}</a> <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b>
             <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}{% endfor %}
         </ul>
@@ -235,7 +235,7 @@
           {%- assign ec = D.ecuries.ecuries | where: "id", l.ecurie | first -%}
           {%- assign m = D.chronologie.mecanismes | where: "id", l.mecanisme | first -%}
           {%- assign p = D.chronologie.preuves | where: "id", l.preuve | first %}
-          <li data-mecanisme="{{ l.mecanisme }}" data-preuve="{{ l.preuve }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="{{ T.url.ecuries | relative_url }}{{ ec.id }}/">{{ ec.nom }}</a> <b class="preuve" title="{{ p.definition }}">{{ p.nom }}</b>
+          <li data-mecanisme="{{ l.mecanisme | escape }}" data-preuve="{{ l.preuve | escape }}"><em>{{ m.cote_contexte | capitalize }}</em> <a href="{{ T.url.ecuries | relative_url }}{{ ec.id }}/">{{ ec.nom }}</a> <b class="preuve" title="{{ p.definition | escape }}">{{ p.nom }}</b>
             <small>{% include lier-noms.html texte=l.pourquoi %}</small></li>
           {%- endif %}{% endfor %}
         </ul>

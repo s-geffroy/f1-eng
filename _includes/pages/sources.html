@@ -29,7 +29,7 @@
   </ul>
 </section>
 
-<nav class="biblio-sommaire" aria-label="{{ T.biblio.sommaire }}">
+<nav class="biblio-sommaire" aria-label="{{ T.biblio.sommaire | escape }}">
   <h2>{{ T.biblio.sommaire }}</h2>
   <ul>
     {%- for e in B.editeurs %}

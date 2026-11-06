@@ -34,7 +34,7 @@
       {%- if forloop.first %}
       <p class="ecuries-lignee" style="--de: {{ debut_hf }};">{{ T_hf.portail[cle_hf] }}</p>
       {%- endif %}
-      <ol class="ecuries-segments" aria-label="{{ T_hf.portail[cle_hf] }}">
+      <ol class="ecuries-segments" aria-label="{{ T_hf.portail[cle_hf] | escape }}">
         {%- for h_hf in rang_hf %}
         {%- assign fin_s_hf = h_hf.fin | plus: 1 %}
         {%- if u_hf == "ecurie" %}
@@ -53,7 +53,7 @@
           {%- assign lien_hf = url_d_hf %}
         {%- endif %}
         <li class="segment domination domination-{{ h_hf.degre }}" style="--de: {{ h_hf.debut }}; --a: {{ fin_s_hf }};">
-          <a href="{{ lien_hf }}" title="{{ nom_hf }}, {{ h_hf.debut }}–{{ h_hf.fin }} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres }} {{ T_hf.portail.domination_titres }}">{{ court_hf }}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
+          <a href="{{ lien_hf }}" title="{{ nom_hf | escape }}, {{ h_hf.debut | escape }}–{{ h_hf.fin | escape }} · {% include degre.html d=h_hf.degre n=h_hf.niveau %} · {{ h_hf.titres | escape }} {{ T_hf.portail.domination_titres | escape }}">{{ court_hf }}<span class="visually-hidden">, {{ h_hf.debut }}–{{ h_hf.fin }} ({% include degre.html d=h_hf.degre n=h_hf.niveau %})</span></a>
         </li>
         {%- endfor %}
       </ol>

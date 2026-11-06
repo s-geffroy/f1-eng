@@ -8,7 +8,7 @@
   <p class="accroche">{{ T.tiers.accroche }}</p>
 </section>
 {%- for t in D.tiers %}
-<section class="tier" id="tier-{{ t.id | downcase }}" data-tier="{{ t.id }}">
+<section class="tier" id="tier-{{ t.id | downcase }}" data-tier="{{ t.id | escape }}">
   <header class="tier-tete">
     <h2><span class="tier-lettre">{{ T.l.tier }} {{ t.id }}</span> {{ t.nom }}</h2>
     <p>{{ t.definition }}</p>

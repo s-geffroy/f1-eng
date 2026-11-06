@@ -46,7 +46,7 @@
   <span class="gen-annee gen-c1{% if m10_g == 0 %} gen-decennie{% elsif m5_g == 0 %} gen-lustre{% endif %}" style="grid-row: {{ r_g }};">{{ a_g }}</span>
   <span class="gen-annee gen-c2{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};">{% if a_g >= 1958 %}{{ sa_g.ecuries }}{% endif %}</span>
   <span class="gen-annee gen-c3{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};">{% if ec_c_g %}<a href="{{ url_g }}{{ ec_c_g.id }}/">{{ ec_c_g.nom }}</a> <small>({{ sa_g.constructeurs_cumul }})</small>{% endif %}</span>
-  <span class="gen-annee gen-c4{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};"{% if sa_g.pilote %} title="{{ sa_g.pilote }}"{% endif %}>{% if ec_p_g %}<a href="{{ url_g }}{{ ec_p_g.id }}/">{{ ec_p_g.nom }}</a>{% else %}{{ sa_g.pilote_equipe }}{% endif %}{% if sa_g.pilote %} <small>({{ sa_g.pilote_cumul }})</small>{% endif %}</span>
+  <span class="gen-annee gen-c4{% if m10_g == 0 %} gen-decennie{% endif %}" style="grid-row: {{ r_g }};"{% if sa_g.pilote %} title="{{ sa_g.pilote | escape }}"{% endif %}>{% if ec_p_g %}<a href="{{ url_g }}{{ ec_p_g.id }}/">{{ ec_p_g.nom }}</a>{% else %}{{ sa_g.pilote_equipe }}{% endif %}{% if sa_g.pilote %} <small>({{ sa_g.pilote_cumul }})</small>{% endif %}</span>
   <span class="gen-regle{% if m10_g == 0 %} gen-regle-decennie{% elsif m5_g == 0 %} gen-regle-lustre{% endif %}" style="grid-row: {{ r_g }};" aria-hidden="true"></span>
   {%- endfor %}
   {%- for l_g in E_g.lignees %}
@@ -66,11 +66,11 @@
     <h3><a href="{{ url_g }}{{ e_g.id }}/">{{ e_g.nom }}</a> <span>{{ s_g.de }}{% if s_g.a != s_g.de %}–{% if l_g.actuelle and forloop.last %}{{ T_g.ecuries.aujourdhui }}{% else %}{{ s_g.a }}{% endif %}{% endif %}</span></h3>
     {%- if e_g.moteurs.size > 0 %}
     {%- comment -%} motoristes écrits en clair, bornés aux saisons de ce nom (Renault revient deux fois à Enstone) {%- endcomment %}
-    <ul class="carte-moteurs" aria-label="{{ T_g.ecuries.motoristes }}">
+    <ul class="carte-moteurs" aria-label="{{ T_g.ecuries.motoristes | escape }}">
       {%- for m_g in e_g.moteurs %}{% if m_g.a >= s_g.de and m_g.de <= s_g.a %}
       {%- assign mo_g = E_g.motoristes | where: "id", m_g.motoriste | first %}
       {%- assign de_m_g = m_g.de | at_least: s_g.de %}{% assign a_m_g = m_g.a | at_most: s_g.a %}
-      <li><i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 }}" aria-hidden="true"></i>{{ mo_g.nom }} <span>{{ de_m_g }}{% if a_m_g != de_m_g %}–{{ a_m_g }}{% endif %}</span></li>
+      <li><i class="moteur-pastille" data-couleur="{{ mo_g.couleur | default: 0 | escape }}" aria-hidden="true"></i>{{ mo_g.nom }} <span>{{ de_m_g }}{% if a_m_g != de_m_g %}–{{ a_m_g }}{% endif %}</span></li>
       {%- endif %}{% endfor %}
     </ul>
     {%- endif %}
@@ -80,7 +80,7 @@
     {%- if e_g.photo %}
     {%- assign url_v_g = T_g.url.voitures | append: e_g.photo.voiture | append: "/" %}
     {%- assign v_g = site[T_g.collection_voitures] | where: "url", url_v_g | first %}
-    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }}" alt="" loading="lazy"{% if v_g.photo %} title="{{ v_g.photo.auteur }}, {{ v_g.photo.licence }}"{% endif %}><span>{{ v_g.title }}</span></a>
+    <a class="carte-photo" href="{{ v_g.url | relative_url }}"><img src="{{ e_g.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }}" alt="" loading="lazy"{% if v_g.photo %} title="{{ v_g.photo.auteur | escape }}, {{ v_g.photo.licence | escape }}"{% endif %}><span>{{ v_g.title }}</span></a>
     {%- endif %}
   </article>
   {%- endfor %}

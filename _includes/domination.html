@@ -16,7 +16,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 
 {%- if include.quoi == "tableau" -%}
 {%- assign cle_h = "cap_" | append: include.unite -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h[cle_h] }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h[cle_h] | escape }}"><table>
 <caption>{{ L_h[cle_h] }}</caption>
   <thead><tr><th scope="col">{{ L_h.entite }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.record }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{% if include.unite == "pilote" %}{{ L_h.podiums }}{% else %}{{ L_h.doubles }}{% endif %}</th><th scope="col">{{ L_h.indice }}</th><th scope="col">{% if include.unite == "ecurie" or include.unite == "lignee" %}{{ L_h.associes_moteur }}{% else %}{{ L_h.associes_ecurie }}{% endif %}</th><th scope="col">{{ L_h.degre }}</th></tr></thead>
   <tbody>
@@ -66,7 +66,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 
 {%- elsif include.quoi == "ecrasantes" -%}
 {%- assign cle_h = "cap_ecrasantes_" | append: include.unite -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h[cle_h] }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h[cle_h] | escape }}"><table>
 <caption>{{ L_h[cle_h] }}</caption>
   <thead><tr><th scope="col">{{ L_h.annee }}</th><th scope="col">{{ L_h.entite }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.podiums }}</th><th scope="col">{{ L_h.ecart }}</th><th scope="col">{{ L_h.indice }}</th></tr></thead>
   <tbody>
@@ -85,7 +85,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "ingenieurs_dom" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ing_dom }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ing_dom | escape }}"><table>
 <caption>{{ L_h.cap_ing_dom }}</caption>
   <thead><tr><th scope="col">{{ L_h.ingenieur }}</th><th scope="col">{{ L_h.saisons_datees }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.indice_moyen }}</th><th scope="col">{{ L_h.record }}</th><th scope="col">{{ L_h.plus_longue }}</th></tr></thead>
   <tbody>
@@ -108,7 +108,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 {%- elsif include.quoi == "cycles" or include.quoi == "cycles_dynamique" -%}
 {%- assign CYD_h = site.data.cycles.cycles -%}
 {%- if include.quoi == "cycles" -%}{%- assign cap_h = L_h.cap_cycles -%}{%- else -%}{%- assign cap_h = L_h.cap_cycles_dyn -%}{%- endif -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h | escape }}"><table>
 <caption>{{ cap_h }}</caption>
   {%- if include.quoi == "cycles" %}
   <thead><tr><th scope="col">{{ L_h.cycle }}</th><th scope="col">{{ L_h.ecurie_dominante }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.ecuries_gagnantes }}</th><th scope="col">{{ L_h.pilote_dominant }}</th><th scope="col">{{ L_h.motoriste_dominant }}</th></tr></thead>
@@ -147,7 +147,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 {%- assign I_h = site.data.compteur.indicateurs -%}
 {%- if include.quoi == "indic_decennies" -%}{%- assign cle_h = "decennies" -%}{%- assign cap_h = L_h.cap_indic_dec -%}{%- else -%}{%- assign cle_h = "cycles" -%}{%- assign cap_h = L_h.cap_indic_cy -%}{%- assign CYD_h = site.data.cycles.cycles -%}{%- endif -%}
 {%- assign O_h = I_h.ouverture[cle_h] -%}{%- assign M_h = I_h.client[cle_h] -%}{%- assign P_h = I_h.pole[cle_h] -%}{%- assign V_h = I_h.voitures[cle_h] -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ cap_h | escape }}"><table>
 <caption>{{ cap_h }}</caption>
   <thead><tr><th scope="col">{% if include.quoi == "indic_decennies" %}{{ L_h.decennie }}{% else %}{{ L_h.cycle }}{% endif %}</th><th scope="col">{{ L_h.effectif }}</th><th scope="col">{{ L_h.gagnantes_saison }}</th><th scope="col">{{ L_h.ecart_titre }}</th><th scope="col">{{ L_h.moteur_maison }}</th><th scope="col">{{ L_h.pole_victoire }}</th><th scope="col">{{ L_h.victoires_modele }}</th><th scope="col">{{ L_h.reconduites }}</th></tr></thead>
   <tbody>
@@ -173,7 +173,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "indic_couples" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_couples }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_couples | escape }}"><table>
 <caption>{{ L_h.cap_indic_couples }}</caption>
   <thead><tr><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.motoriste_dominant }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.periode }}</th></tr></thead>
   <tbody>
@@ -191,7 +191,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "indic_pole" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_pole }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_indic_pole | escape }}"><table>
 <caption>{{ L_h.cap_indic_pole }}</caption>
   <thead><tr><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.convertis }}</th><th scope="col">{{ L_h.pole_victoire }}</th></tr></thead>
   <tbody>
@@ -210,7 +210,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 {%- elsif include.quoi == "chassis" -%}
 {%- assign url_v_h = T_h.url.voitures | relative_url -%}
 {%- assign C_h = site.data.compteur.chassis -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_chassis }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_chassis | escape }}"><table>
 <caption>{{ L_h.cap_chassis }}</caption>
   <thead><tr><th scope="col">{{ L_h.voiture }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.record }}</th></tr></thead>
   <tbody>
@@ -226,7 +226,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   {%- endfor %}
   </tbody>
 </table></div>
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_durables }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_durables | escape }}"><table>
 <caption>{{ L_h.cap_durables }}</caption>
   <thead><tr><th scope="col">{{ L_h.voiture }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.saisons_gagnantes }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.evolutions }}</th></tr></thead>
   <tbody>
@@ -241,7 +241,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "pneus" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_pneus }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_pneus | escape }}"><table>
 <caption>{{ L_h.cap_pneus }}</caption>
   <thead><tr><th scope="col">{{ L_h.manufacturier }}</th><th scope="col">{{ L_h.periode }}</th><th scope="col">{{ L_h.dominantes }}</th><th scope="col">{{ L_h.titres }}</th><th scope="col">{{ L_h.victoires }}</th><th scope="col">{{ L_h.poles }}</th><th scope="col">{{ L_h.degre }}</th></tr></thead>
   <tbody>
@@ -252,7 +252,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "technologies" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_techno }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_techno | escape }}"><table>
 <caption>{{ L_h.cap_techno }}</caption>
   <thead><tr><th scope="col">{{ L_h.techno }}</th><th scope="col">{{ L_h.jalon }}</th><th scope="col">{{ L_h.premiere_victoire }}</th><th scope="col">{{ L_h.pionnier_seul }}</th><th scope="col">{{ L_h.a50 }}</th><th scope="col">{{ L_h.a90 }}</th><th scope="col">{{ L_h.dom_pionnier }}</th></tr></thead>
   <tbody>
@@ -274,7 +274,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "jalons" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_jalons }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_jalons | escape }}"><table>
 <caption>{{ L_h.cap_jalons }}</caption>
   <thead><tr><th scope="col">{{ L_h.annee }}</th><th scope="col">{{ L_h.jalon }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.avant }}</th><th scope="col">{{ L_h.apres }}</th><th scope="col">{{ L_h.statut }}</th></tr></thead>
   <tbody>
@@ -294,7 +294,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 
 {%- elsif include.quoi == "racines" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_racines }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_racines | escape }}"><table>
 <caption>{{ L_h.cap_racines }}</caption>
   <thead><tr><th scope="col">{{ L_h.longue }}</th><th scope="col">{{ L_h.ingenieurs }}</th><th scope="col">{{ L_h.jalons }}</th><th scope="col">{{ L_h.regle_debut }}</th><th scope="col">{{ L_h.regle_fin }}</th></tr></thead>
   <tbody>
@@ -326,7 +326,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 
 {%- elsif include.quoi == "ingenieurs" -%}
 {%- assign B_h = H_h.bilan_ingenieurs -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs | escape }}"><table>
 <caption>{{ L_h.cap_ingenieurs }}</caption>
   <thead><tr><th scope="col">{{ L_h.mouvement }}</th><th scope="col">{{ L_h.nombre }}</th><th scope="col">{{ L_h.hausse }}</th><th scope="col">{{ L_h.stable }}</th><th scope="col">{{ L_h.baisse }}</th></tr></thead>
   <tbody>
@@ -342,7 +342,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
 </table></div>
 <details>
   <summary>{{ L_h.detail }}</summary>
-  <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs_detail }}"><table>
+  <div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_ingenieurs_detail | escape }}"><table>
 <caption>{{ L_h.cap_ingenieurs_detail }}</caption>
     <thead><tr><th scope="col">{{ L_h.annee }}</th><th scope="col">{{ L_h.ingenieur }}</th><th scope="col">{{ L_h.ecurie }}</th><th scope="col">{{ L_h.mouvement }}</th><th scope="col">{{ L_h.avant_court }}</th><th scope="col">{{ L_h.apres_court }}</th></tr></thead>
     <tbody>
@@ -354,7 +354,7 @@ jalons, racines, ingenieurs, voies, chaines. Variables propres (suffixe _h) : un
   </table></div>
 </details>
 {%- elsif include.quoi == "voies" -%}
-<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_voies }}"><table>
+<div class="table-defil" role="region" tabindex="0" aria-label="{{ L_h.cap_voies | escape }}"><table>
 <caption>{{ L_h.cap_voies }}</caption>
   <thead><tr><th scope="col">{{ L_h.voie }}</th><th scope="col">{{ L_h.nombre }}</th><th scope="col">{{ L_h.gain }}</th><th scope="col">{{ L_h.hausse }}</th><th scope="col">{{ L_h.statut_ouvre_court }}</th></tr></thead>
   <tbody>

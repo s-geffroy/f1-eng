@@ -88,7 +88,7 @@
         {%- assign demi_c = dx0_c | times: -1 %}
         {%- capture li_c %}<li>{% if cible_c %}<a href="{{ T_c.url.ecuries | relative_url }}#l-{{ cible_c }}">{{ nom_c }}</a>{% else %}{{ nom_c }}{% endif %}{% if i_u_c.size > 0 %} — {{ T_c.ecuries.carte_usines_court }}{{ esp_ }}: {{ i_u_c | uniq | join: sep_pv }}{% endif %}{% if i_s_c.size > 0 %} — {{ T_c.ecuries.carte_souffleries }}{{ esp_ }}: {{ i_s_c | uniq | join: sep_pv }}{% endif %}{% if i_m_c.size > 0 %} — {{ T_c.ecuries.carte_moteurs }}{{ esp_ }}: {{ i_m_c | uniq | join: sep_pv }}{% endif %}</li>{% endcapture %}
         {%- assign liste_c = liste_c | append: li_c %}
-        <a class="pt" data-types="{{ types_c | join: ' ' }}"{% if cible_c %} href="{{ T_c.url.ecuries | relative_url }}#l-{{ cible_c }}"{% endif %}>
+        <a class="pt" data-types="{{ types_c | join: ' ' | escape }}"{% if cible_c %} href="{{ T_c.url.ecuries | relative_url }}#l-{{ cible_c }}"{% endif %}>
           <title>{{ nom_c }}{% if i_u_c.size > 0 %} — {{ T_c.ecuries.carte_usines_court }}{{ esp_ }}: {{ i_u_c | uniq | join: sep_pv }}{% endif %}{% if i_s_c.size > 0 %} — {{ T_c.ecuries.carte_souffleries }}{{ esp_ }}: {{ i_s_c | uniq | join: sep_pv }}{% endif %}{% if i_m_c.size > 0 %} — {{ T_c.ecuries.carte_moteurs }}{{ esp_ }}: {{ i_m_c | uniq | join: sep_pv }}{% endif %}</title>
           {%- for t_c in types_c %}
           {%- assign gx_c = forloop.index0 | times: 9 | plus: dx0_c | plus: pt_c.x %}

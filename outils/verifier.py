@@ -458,6 +458,19 @@ if os.path.exists("_data/circuits.yml"):
     for dbl in sorted({i for i in ids_c if ids_c.count(i) > 1}):
         err(f"_data/circuits.yml : circuit « {dbl} » déclaré deux fois")
 
+# 4 septies. gabarits : une variable Liquid dans un attribut de texte (alt, title, aria-label, content,
+# placeholder, data-*) passe par | escape. Sans lui, un guillemet droit dans une donnée (« "J-damper" »)
+# referme l'attribut et casse la balise ; un & ou un < y deviennent du code.
+_ATTR = re.compile(r'\b(alt|title|aria-label|content|placeholder|data-[\w-]+)="([^"]*\{\{[^"]*)"')
+_SURS = re.compile(r"\|\s*(escape|escape_once|xml_escape|jsonify|url_encode|uri_escape|relative_url|absolute_url|date|size|plus|minus|times|round)\b")
+for _g in sorted(glob.glob("_layouts/*.html") + glob.glob("_includes/**/*.html", recursive=True)
+                 + glob.glob("*.html") + glob.glob("en/**/*.html", recursive=True) + ["sitemap.xml"]):
+    _t = open(_g, encoding="utf-8").read()
+    for _m in _ATTR.finditer(_t):
+        for _v in re.findall(r"\{\{-?\s*(.*?)\s*-?\}\}", _m.group(2)):
+            if not _SURS.search(_v):
+                err(f"{_g}:{_t[:_m.start()].count(chr(10)) + 1} : {_m.group(1)}=\"{{{{ {_v} }}}}\" sans | escape")
+
 # 4 sexies. empreinte de la CSS (_data/empreintes.yml, outils/empreintes.py) : une CSS modifiée sans
 # nouvelle empreinte garderait son ancienne URL, et les navigateurs serviraient l'ancienne version.
 import empreintes as _emp

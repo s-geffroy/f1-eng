@@ -59,7 +59,7 @@
   <meta name="author" content="{{ site.author | escape }}">
   {%- comment -%} robots : noindex pour la recherche et la 404 (front matter), qui n'ont pas d'adresse canonique à indexer {%- endcomment -%}
   {%- if page.robots %}
-  <meta name="robots" content="{{ page.robots }}">
+  <meta name="robots" content="{{ page.robots | escape }}">
   {%- else %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   {%- endif %}
@@ -68,7 +68,7 @@
   <meta property="og:description" content="{{ desc | escape }}">
   <meta property="og:locale" content="{% if lang == "en" %}en_GB{% else %}fr_FR{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:type" content="{{ og_type }}">
+  <meta property="og:type" content="{{ og_type | escape }}">
   {%- if img %}
   <meta property="og:image" content="{{ img | absolute_url }}">
   <meta name="twitter:image" content="{{ img | absolute_url }}">

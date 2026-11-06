@@ -12,14 +12,14 @@
   <p class="accroche">{{ T.glossaire.accroche }}</p>
 </section>
 
-<nav class="lettres glossaire-lettres" aria-label="{{ T.index.lettres_aria }}">
+<nav class="lettres glossaire-lettres" aria-label="{{ T.index.lettres_aria | escape }}">
   {%- for g in lettres %}
   <a href="#lettre-{{ g.name | downcase }}">{{ g.name }}</a>
   {%- endfor %}
 </nav>
 
 {%- for g in lettres %}
-<section class="glossaire-groupe" id="lettre-{{ g.name | downcase }}" aria-label="{{ T.glossaire.lettre }} {{ g.name }}">
+<section class="glossaire-groupe" id="lettre-{{ g.name | downcase }}" aria-label="{{ T.glossaire.lettre | escape }} {{ g.name | escape }}">
   <p class="lettre" aria-hidden="true">{{ g.name }}</p>
   <div class="glossaire-termes">
     {%- for t in g.items %}

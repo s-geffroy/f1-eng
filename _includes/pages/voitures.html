@@ -12,7 +12,7 @@
     <a href="{{ v.url | relative_url }}">
       {%- if v.photo %}
       {%- assign dim_v = site.data.images[v.photo.fichier] %}
-      <img src="{{ v.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }}"{% if dim_v and dim_v.l > 480 %} srcset="{{ v.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }} 480w, {{ v.photo.fichier | relative_url }} {{ dim_v.l }}w" sizes="(max-width: 36rem) 100vw, 22rem"{% endif %} alt="" loading="lazy" title="{{ v.photo.auteur }}, {{ v.photo.licence }}">
+      <img src="{{ v.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }}"{% if dim_v and dim_v.l > 480 %} srcset="{{ v.photo.fichier | replace: "/assets/voitures/", "/assets/voitures/vignettes/" | relative_url }} 480w, {{ v.photo.fichier | relative_url }} {{ dim_v.l }}w" sizes="(max-width: 36rem) 100vw, 22rem"{% endif %} alt="" loading="lazy" title="{{ v.photo.auteur | escape }}, {{ v.photo.licence | escape }}">
       {%- else %}
       <span class="fiche-voiture-vide" aria-hidden="true">{{ v.annee }}</span>
       {%- endif %}

@@ -14,7 +14,7 @@
 
 <p class="biblio-bilan">{{ T.erreurs.bilan | replace: "%n%", E.erreurs.size }}</p>
 
-<nav class="biblio-sommaire" aria-label="{{ T.erreurs.sommaire }}">
+<nav class="biblio-sommaire" aria-label="{{ T.erreurs.sommaire | escape }}">
   <h2>{{ T.erreurs.sommaire }}</h2>
   <ul>
     {%- for c in E.categories %}
