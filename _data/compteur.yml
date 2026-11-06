@@ -7602,6 +7602,7 @@ frise_domination:
       degre: hegemonie
       niveau: 3
       rangee: 1
+      etiquette_droite: true
       etiquette: 0
       etiquette_haut: 6.45
     - id: mclaren
@@ -7611,8 +7612,9 @@ frise_domination:
       titres: 2
       degre: domination
       rangee: 0
-      etiquette: 0
-      etiquette_haut: 0.95
+      etiquette_droite: true
+      etiquette: 1
+      etiquette_haut: 3.35
     rangees:
     - dessous: 3
       barre: 1.9
@@ -7878,8 +7880,9 @@ frise_domination:
       degre: hegemonie
       niveau: 1
       rangee: 0
-      etiquette: 1
-      etiquette_haut: 3.35
+      etiquette_droite: true
+      etiquette: 2
+      etiquette_haut: 4.3
     rangees:
     - dessous: 2
       barre: 1.9
@@ -8120,6 +8123,7 @@ frise_domination:
       degre: hegemonie
       niveau: 3
       rangee: 0
+      etiquette_droite: true
       etiquette: 0
       etiquette_haut: 0.95
     - id: mercedes
@@ -8129,6 +8133,7 @@ frise_domination:
       titres: 2
       degre: domination
       rangee: 0
+      etiquette_droite: true
       etiquette: 1
       etiquette_haut: 3.35
     rangees:

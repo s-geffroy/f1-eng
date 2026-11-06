@@ -76,13 +76,16 @@
         {%- assign lnom_f = nom_f.size | times: 0.411 | plus: 0.6 -%}
         {%- assign k_f = 0 -%}
         {%- if lnom_f > lseg_f -%}
-          {%- assign fin_e_f = lnom_f | divided_by: rem_an_f | plus: s_f.de | plus: 0.4 -%}
-          {%- if e1_f <= s_f.de -%}{%- assign k_f = 1 -%}{%- assign e1_f = fin_e_f -%}
-          {%- elsif e2_f <= s_f.de -%}{%- assign k_f = 2 -%}{%- assign e2_f = fin_e_f -%}
-          {%- elsif e3_f <= s_f.de -%}{%- assign k_f = 3 -%}{%- assign e3_f = fin_e_f -%}
+          {%- comment -%} étiquette qui dépasserait la fin de l'axe : ancrée à droite, sur la fin du segment {%- endcomment -%}
+          {%- assign larg_e_f = lnom_f | divided_by: rem_an_f | plus: 0.4 -%}
+          {%- assign deb_e_f = s_f.de -%}{%- assign fin_e_f = larg_e_f | plus: s_f.de -%}{%- assign droite_f = false -%}
+          {%- if fin_e_f > fin_f -%}{%- assign droite_f = true -%}{%- assign fin_e_f = s_f.a | plus: 1 -%}{%- assign deb_e_f = fin_e_f | minus: larg_e_f -%}{%- endif -%}
+          {%- if e1_f <= deb_e_f -%}{%- assign k_f = 1 -%}{%- assign e1_f = fin_e_f -%}
+          {%- elsif e2_f <= deb_e_f -%}{%- assign k_f = 2 -%}{%- assign e2_f = fin_e_f -%}
+          {%- elsif e3_f <= deb_e_f -%}{%- assign k_f = 3 -%}{%- assign e3_f = fin_e_f -%}
           {%- else -%}{%- assign k_f = 4 -%}{%- assign e4_f = fin_e_f -%}{%- endif -%}
           {%- if k_f > max_k_f -%}{%- assign max_k_f = k_f -%}{%- endif -%}
-          {%- capture etiq_f %}{{ etiq_f }}<span class="segment-etiquette" style="--de: {{ s_f.de }}; --ligne: {{ k_f }};">{{ nom_f }}</span>{% endcapture -%}
+          {%- capture etiq_f %}{{ etiq_f }}<span class="segment-etiquette{% if droite_f %} etiquette-droite{% endif %}" style="--de: {{ s_f.de }}; --a: {{ s_f.a | plus: 1 }}; --ligne: {{ k_f }};">{{ nom_f }}</span>{% endcapture -%}
         {%- endif -%}
         {%- assign fin_s_f = s_f.a | plus: 1 %}
         {%- assign alt_f = forloop.index | modulo: 2 %}

@@ -1882,11 +1882,15 @@ for u in ("ecurie", "pilote", "motoriste", "pneus"):
         dessus, dessous = FRISE_DE - 100, []
         for h in sorted((h for h in hs if h["rangee"] == rg), key=lambda h: h["debut"]):
             nom = _nom_court(u, h)
-            fin_e = (len(nom) * 0.411 + 0.6) / rem_an + h["debut"] + 0.4
-            if dessus <= h["debut"]:
+            larg = (len(nom) * 0.411 + 0.6) / rem_an + 0.4
+            deb_e, fin_e = h["debut"], h["debut"] + larg
+            if fin_e > FRISE_A:
+                # dépasserait la fin de l'axe : ancrée à droite, sur la fin de la barre
+                fin_e = h["fin"] + 1; deb_e = fin_e - larg; h["etiquette_droite"] = True
+            if dessus <= deb_e:
                 dessus, h["etiquette"] = fin_e, 0
             else:
-                k = next((i + 1 for i, f in enumerate(dessous) if f <= h["debut"]), len(dessous) + 1)
+                k = next((i + 1 for i, f in enumerate(dessous) if f <= deb_e), len(dessous) + 1)
                 dessous[k - 1:k] = [fin_e]
                 h["etiquette"] = k
         rangees.append({"dessous": len(dessous)})

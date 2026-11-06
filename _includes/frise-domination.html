@@ -75,7 +75,7 @@
         {%- elsif u_hf == "motoriste" %}{% assign m_hf = E_hf.motoristes | where: "id", h_hf.id | first %}{% assign court_hf = m_hf.nom | default: h_hf.nom %}
         {%- elsif u_hf == "pneus" %}{% assign court_hf = h_hf.pneus %}
         {%- else %}{% assign court_hf = h_hf.nom | split: " " | last %}{% endif %}
-        <span class="segment-etiquette{% if h_hf.etiquette > 0 %} etiquette-dessous{% endif %}" style="--de: {{ h_hf.debut }}; top: {{ h_hf.etiquette_haut }}rem;">{{ court_hf }}</span>
+        <span class="segment-etiquette{% if h_hf.etiquette > 0 %} etiquette-dessous{% endif %}{% if h_hf.etiquette_droite %} etiquette-droite{% endif %}" style="--de: {{ h_hf.debut }}; --a: {{ h_hf.fin | plus: 1 }}; top: {{ h_hf.etiquette_haut }}rem;">{{ court_hf }}</span>
         {%- endfor %}
       </div>
       {%- if B_hf.cadres.size > 0 %}
