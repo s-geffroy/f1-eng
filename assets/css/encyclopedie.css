@@ -777,20 +777,6 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .repere-voiture:hover::before, .repere-voiture:focus-visible::before { background: var(--tier-a); }
 .repere-voiture:hover .jalon-etiquette, .repere-voiture:focus-visible .jalon-etiquette { opacity: 1; }
 
-/* légende de la page des écuries */
-.legende-segment { display: inline-block; width: 1.6rem; height: 0.7rem; background: linear-gradient(to right, var(--graphite) 50%, var(--tier-b) 50%); }
-.legende-discute { background: var(--tier-b); border-left: 2px dashed var(--tier-a); }
-.legende-voiture { display: inline-block; width: 0.6rem; height: 0.6rem; margin: 0 0.15rem; transform: rotate(45deg); background: var(--feuille); outline: 1.5px solid var(--graphite); }
-
-/* fiches des lignées */
-.lignee-ecurie { margin-top: 2rem; scroll-margin-top: 1rem; }
-.lignee-ecurie h3 { font-size: 1.5rem; margin: 0 0 0.5rem; }
-.fiche-ecurie h4 { font-size: 1.375rem; margin: 0.1rem 0 0.35rem; }
-.fiche-ecurie .fiche-jalon-annee span { display: block; font-size: 1.125rem; color: var(--mine); }
-.fiche-ecurie .preuve { font: 600 0.8125rem/1 var(--titre); text-transform: uppercase; letter-spacing: 0.04em; color: var(--mine); border: var(--trait-fin) solid var(--trait); padding: 0.1rem 0.3rem; margin-left: 0.25rem; white-space: nowrap; }
-.fiche-ecurie[id] { scroll-margin-top: 1rem; }
-.fiche-ecurie:target { background: var(--feuille); box-shadow: inset 4px 0 0 var(--graphite); }
-
 /* chronologie : bandes affichables sous la frise (CSS seul) */
 .frise-bandes { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 1rem; margin: 0 0 0.75rem; font-family: var(--titre); font-size: 1rem; }
 .frise-bandes p { margin: 0; font-size: 1.0625rem; font-weight: 600; }
@@ -827,27 +813,7 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
   width: calc((var(--a) - var(--de)) / (var(--fin) - var(--debut)) * 100%);
 }
 .moteur-pastille { display: inline-block; width: 0.7em; height: 0.7em; margin-right: 0.3em; background: var(--m); vertical-align: 0.02em; }
-.legende-moteurs { display: inline-flex; flex-wrap: wrap; gap: 0.2rem 0.8rem; font-size: 0.9375rem; color: var(--mine); }
-.legende-moteurs span { display: inline-flex; align-items: center; }
-.frise:not(:has(#couche-moteurs:checked)) .legende-moteurs { display: none; }
 .segment a[aria-current] { text-decoration: underline; text-decoration-thickness: 2px; }
-
-/* lignées des usines (même dessin que les lignées techniques) */
-.ecuries-usines { margin-top: 3rem; }
-.ecuries-usines > h2 { font-size: 1.75rem; margin: 0 0 0.5rem; }
-.ecuries-usines .lignee { scroll-margin-top: 1rem; }
-.ecuries-usines .lignee:target { background: var(--feuille); box-shadow: -0.75rem 0 0 var(--feuille), inset 4px 0 0 var(--graphite); }
-.ecuries-usines .chaine li > span { font-family: var(--titre); font-weight: 500; color: var(--mine); margin-left: 0.25rem; }
-.usines-ligne { font-size: 0.9375rem; margin: 0 0 0.75rem; }
-.usines-ligne > span { font-family: var(--titre); font-weight: 600; margin-right: 0.35rem; }
-.usines-ligne small { display: block; color: var(--mine); }
-
-/* index alphabétique des écuries */
-.ecuries-index { margin-top: 3rem; }
-.ecuries-liste { list-style: none; margin: 0; padding: 0; columns: 16rem auto; column-gap: 2rem; }
-.ecuries-liste li { break-inside: avoid; padding: 0.2rem 0; border-bottom: var(--trait-fin) solid var(--trait-clair); }
-.ecuries-liste a { font-family: var(--titre); font-size: 1.1875rem; font-weight: 600; }
-.ecuries-liste span { font-size: 0.875rem; color: var(--mine); margin-left: 0.35rem; }
 
 /* fiche d'une écurie */
 .ecurie .passage { margin-bottom: 1.75rem; }
