@@ -1027,37 +1027,33 @@ header.site nav a.langue { margin-left: 0.5rem; padding-left: 1rem; border-left:
 .portail-domination { margin-top: 2.5rem; }
 .portail-domination > h2 a, .portail-dossiers > h2 a { text-decoration: none; }
 .portail-domination > h2 a:hover, .portail-dossiers > h2 a:hover { text-decoration: underline; }
-/* Frise de la domination : une bande par catégorie, géométrie calculée par outils/domination.py (rem) */
+/* Frise de la domination : une bande par catégorie, géométrie calculée par outils/domination.py (rem).
+   Barres et cadres : un SVG par bande, trait d'épaisseur fixe, deux bords voisins sur la même ligne ;
+   liens : zones transparentes par-dessus ; noms : au-dessus de chaque rangée, en dessous s'ils n'y tiennent pas. */
 .domination-bande { position: relative; margin-top: 0.4rem; }
-.domination-plan .domination-bande .ecuries-segments { top: 0; bottom: 0; height: auto; }
-.domination-plan .domination-bande .segment { bottom: auto; height: 1.35rem; }
-.domination-ecurie .domination { background: var(--graphite); }
-.domination-pilote .domination { background: var(--tier-b); }
-.domination-motoriste .domination { background: #6a4a24; }
-.domination-pneus .domination { background: #2c5e4f; }
-/* Rivalités : cadre rouge épais autour des barres des rivaux, sur les saisons de la rivalité ; il laisse
-   passer le pointeur vers les barres (le lien, pour le clavier et les lecteurs d'écran, est dans le cadre). */
-.rivalites-cadres { position: absolute; inset: 0; list-style: none; margin: 0; padding: 0; pointer-events: none; }
+.domination-ecurie { --c: var(--graphite); }
+.domination-pilote { --c: var(--tier-b); }
+.domination-motoriste { --c: #6a4a24; }
+.domination-pneus { --c: #2c5e4f; }
+.frise-traits { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.trait-hegemonie { fill: var(--c); stroke: var(--feuille); stroke-width: 1; }
+.trait-domination { fill: var(--feuille); stroke: var(--c); stroke-width: 2; stroke-dasharray: 5 3; }
+.trait-saison { fill: var(--feuille); stroke: var(--c); stroke-width: 2; stroke-dasharray: 1.5 2.5; }
+.trait-cadre { fill: none; stroke: var(--tier-a); stroke-width: 3; }
+.domination-plan .domination-bande .ecuries-segments { top: 0; bottom: 0; height: auto; z-index: 2; }
+.domination-plan .domination-bande .segment { bottom: auto; height: 1.35rem; background: transparent; border-left: 0; }
+.domination-bande .segment-etiquettes { z-index: 3; }
+.domination-bande .segment-etiquette { border-left-color: var(--c); }
+/* Rivalités : le cadre est dans le SVG ; chaque rivalité garde un lien, pour le clavier et les lecteurs
+   d'écran, qui s'encadre au focus. */
+.rivalites-cadres { position: absolute; inset: 0; list-style: none; margin: 0; padding: 0; pointer-events: none; z-index: 4; }
 .cadre-rivalite {
-  position: absolute; box-sizing: border-box; border: 3px solid var(--tier-a); z-index: 3;
-  /* bordure centrée sur la limite des saisons : deux cadres qui se suivent tracent la même ligne */
-  left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100% - 1.5px);
-  width: calc((var(--a) - var(--de)) / (var(--fin) - var(--debut)) * 100% + 3px);
+  position: absolute;
+  left: calc((var(--de) - var(--debut)) / (var(--fin) - var(--debut)) * 100%);
+  width: calc((var(--a) - var(--de)) / (var(--fin) - var(--debut)) * 100%);
 }
-/* Les mots passent devant les cadres : le nom dans la barre (le fond de la barre reste dessous) et les
-   étiquettes, sur fond blanc pour que le trait rouge ne les barre pas. */
-.domination-bande .segment-nom { position: relative; z-index: 4; }
-.domination-bande .segment:hover, .domination-bande .segment:focus-within { z-index: 5; }
-.domination-bande .segment-etiquettes { z-index: 4; }
-.domination-bande .segment-etiquette { background: var(--feuille); padding-right: 0.15rem; }
 .cadre-lien { position: absolute; left: 0; top: 0; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 .cadre-lien:focus-visible { width: 100%; height: 100%; clip-path: none; color: transparent; pointer-events: auto; outline: 2px solid var(--graphite); outline-offset: 2px; }
-/* Saison dominante isolée, dessinée seulement quand elle fait partie d'une rivalité */
-.domination-saison { background: var(--feuille) !important; outline: 2px dotted var(--graphite); outline-offset: -2px; }
-.domination-saison a { color: var(--graphite); }
-/* Domination sans hégémonie : en tirets, comme l'annonce le texte de l'accueil */
-.domination-domination { background: var(--feuille) !important; outline: 2px dashed var(--graphite); outline-offset: -2px; }
-.domination-domination a { color: var(--graphite); }
 .portail-dossiers { margin-top: 2.5rem; }
 .portail-dossiers > h2 { font-size: 1.75rem; margin: 0 0 0.35rem; }
 .portail-dossiers > p { margin: 0 0 0.5rem; }

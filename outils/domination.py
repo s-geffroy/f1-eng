@@ -1875,37 +1875,35 @@ for u in ("ecurie", "pilote", "motoriste", "pneus"):
         occupe[rg].update(range(h["debut"], h["fin"] + 1)); h["rangee"] = rg; hs.append(h)
     hs.sort(key=lambda h: (h["debut"], h["fin"]))
     fins = [0] * len(occupe)
+    # Noms : tous hors des barres. D'abord la ligne au-dessus de la rangée (même hauteur pour tous) ; un nom
+    # qui y chevaucherait son voisin passe en dessous, sur la première ligne libre.
     rangees = []
     for rg in range(len(fins)):
-        lignes_fin, k_max = [], 0
-        for h in [h for h in hs if h["rangee"] == rg]:
+        dessus, dessous = FRISE_DE - 100, []
+        for h in sorted((h for h in hs if h["rangee"] == rg), key=lambda h: h["debut"]):
             nom = _nom_court(u, h)
-            if len(nom) * 0.411 + 0.6 > (h["fin"] + 1 - h["debut"]) * rem_an:
-                fin_e = (len(nom) * 0.411 + 0.6) / rem_an + h["debut"] + 0.4
-                k = next((i + 1 for i, f in enumerate(lignes_fin) if f <= h["debut"]), len(lignes_fin) + 1)
-                lignes_fin[k - 1:k] = [fin_e]
-                h["etiquette"] = k; k_max = max(k_max, k)
-        rangees.append({"lignes": k_max})
-    # Positions verticales. Première rangée : intitulé de la bande, puis ses étiquettes AU-DESSUS de la barre ;
-    # rangées suivantes : étiquettes en dessous. Les deux premières rangées, entre lesquelles se jouent presque
-    # toutes les rivalités, se touchent ainsi presque, et le cadre qui les réunit reste compact.
-    y = F_BARRE_TETE
-    for i, rg in enumerate(rangees):
-        if i == 0:
-            rg["barre"] = round(y + rg["lignes"] * F_LIGNE, 3)
-            y = rg["barre"] + F_HB + 0.25
-        else:
-            rg["barre"] = round(y, 3)
-            y += F_HB + 0.25 + (rg["lignes"] * F_LIGNE + 0.1 if rg["lignes"] else 0)
+            fin_e = (len(nom) * 0.411 + 0.6) / rem_an + h["debut"] + 0.4
+            if dessus <= h["debut"]:
+                dessus, h["etiquette"] = fin_e, 0
+            else:
+                k = next((i + 1 for i, f in enumerate(dessous) if f <= h["debut"]), len(dessous) + 1)
+                dessous[k - 1:k] = [fin_e]
+                h["etiquette"] = k
+        rangees.append({"dessous": len(dessous)})
+    # Positions verticales : intitulé de la bande ; puis, pour chaque rangée, la ligne de noms, la barre et
+    # les lignes de noms du dessous.
+    y = F_LIGNE
+    for rg in rangees:
+        rg["barre"] = round(y + F_LIGNE, 3)
+        y = rg["barre"] + F_HB + (rg["dessous"] * F_LIGNE + 0.1 if rg["dessous"] else 0) + 0.25
     for h in hs:
-        if h.get("etiquette"):
-            b = rangees[h["rangee"]]["barre"]
-            h["etiquette_haut"] = round(b - h["etiquette"] * F_LIGNE if h["rangee"] == 0 else b + F_HB + 0.1 + (h["etiquette"] - 1) * F_LIGNE, 3)
+        b = rangees[h["rangee"]]["barre"]
+        h["etiquette_haut"] = round(b - F_LIGNE if h["etiquette"] == 0 else b + F_HB + 0.1 + (h["etiquette"] - 1) * F_LIGNE, 3)
     cadres = []
     for r in rivs:
         rgs = [next(h["rangee"] for h in hs if cle(h) == cle(x) and h["debut"] <= r["de"] and r["a"] <= h["fin"]) for x in r["acteurs"]]
-        cadres.append({"de": r["de"], "a": r["a"], "haut": round(rangees[min(rgs)]["barre"] - 0.2, 3),
-                       "bas": round(rangees[max(rgs)]["barre"] + F_HB + 0.2, 3),
+        cadres.append({"de": r["de"], "a": r["a"], "haut": round(rangees[min(rgs)]["barre"] - 0.15, 3),
+                       "bas": round(rangees[max(rgs)]["barre"] + F_HB + 0.15, 3),
                        "acteurs": [{**({"id": x["id"]} if x.get("id") else {}), "nom": x["nom"]} for x in r["acteurs"]]})
     for h in hs:
         for c in ("associes", "regles_debut", "regles_fin", "ingenieurs", "ingenieurs_incertains", "jalons",
