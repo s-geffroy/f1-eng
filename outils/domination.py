@@ -1141,6 +1141,17 @@ if techno:
 # sont hors concours : elles ne comptent ni comme dominantes ni comme creuses (elles coupent une suite).
 PN = yaml.safe_load(open("_data/pneus.yml", encoding="utf-8")) if os.path.exists("_data/pneus.yml") else None
 if PN:
+    # Cas relevés dans une saison de monopole : hors calcul (pneus_de répond par le monopole), mais
+    # chacun corrobore le monopole, qui doit être de fait ou imposé pour toutes les écuries. Une autre
+    # marque, même pour un GP, contredit la table des monopoles : on corrige l'une ou l'autre.
+    for x in PN["cas"]:
+        m = next((m for m in PN["monopoles"] if m["de"] <= x["annee"] <= m["a"]), None)
+        if m:
+            autres = {x["pneus"]} | {e["pneus"] for e in x.get("exceptions") or []} \
+                | {c["pneus"] for c in x.get("changements") or []}
+            if autres != {m["pneus"]}:
+                sys.exit(f"pneus : {x['annee']} {x['ecurie']} : {', '.join(sorted(autres))} en saison de monopole "
+                         f"{m['pneus']} ({m['de']}-{m['a']})")
     for x in PN["cas"]:
         for e in x.get("exceptions") or []:
             if e.get("pour", "victoire") not in ("victoire", "pole"):

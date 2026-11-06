@@ -3,6 +3,8 @@
 # reglement, ou de_fait) ; cas = manufacturier de chaque écurie qui a gagné ou signé une pole hors monopole :
 #   changements = nouveau manufacturier à partir d'un GP ; exceptions = un GP isolé (pour : victoire ou
 #   pole quand les deux diffèrent). Une course non classée arrête le script.
+# Un cas d'une saison de monopole n'entre pas dans le calcul : il corrobore le monopole, et une autre
+# marque que celle du monopole arrête le script.
 monopoles:
 - de: 1961
   a: 1963
