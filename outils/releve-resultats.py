@@ -103,22 +103,43 @@ COMMANDITAIRES = {"Sahara"}
 # Gagnants sans fiche : motoriste connu par le nom seul.
 MOTEUR_SANS_FICHE = {}
 
+# Premières places que la page de la course attribue à un autre pilote que la liste des courses,
+# examinées dans les deux pages : (saison, GP) -> constat. Un autre désaccord arrête le script.
+VAINQUEURS_EXAMINES = {}
+
+def obtenir(url, chemin, absente_ok=False):
+    """Télécharge url dans chemin (cache). Erreur 429 ou 5xx, coupure réseau : nouvel essai, de plus en
+    plus tard. 404 avec absente_ok : page mémorisée vide. Écriture par fichier temporaire puis
+    os.replace : un arrêt en cours de route ne laisse pas dans le cache une page tronquée, qui serait
+    relue comme bonne au passage suivant."""
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    for essai in range(6):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                contenu = r.read()
+            break
+        except urllib.error.HTTPError as e:
+            if e.code == 404 and absente_ok:
+                contenu = b""      # page absente : mémorisée vide, pour ne pas la redemander
+                break
+            if (e.code != 429 and e.code < 500) or essai == 5:
+                sys.exit(f"{url} : erreur HTTP {e.code}")
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if essai == 5:
+                sys.exit(f"{url} : {e}")
+        time.sleep(10 * (essai + 1))
+    os.makedirs(os.path.dirname(chemin), exist_ok=True)
+    with open(chemin + ".tmp", "wb") as f:
+        f.write(contenu)
+    os.replace(chemin + ".tmp", chemin)
+    time.sleep(0.5)
+
 def telecharger_course(cache, url, page):
     """Page d'une course (race-result, starting-grid) ; None si formula1.com ne la publie pas."""
     annee, ident = re.search(r"/results/(\d+)/races/(\d+)/", url).groups()
     chemin = os.path.join(cache, "courses", f"{annee}-{ident}-{page}.html")
     if not os.path.exists(chemin):
-        os.makedirs(os.path.dirname(chemin), exist_ok=True)
-        req = urllib.request.Request(url.replace("/race-result", "/" + page), headers={"User-Agent": "Mozilla/5.0"})
-        try:
-            with urllib.request.urlopen(req, timeout=60) as r:
-                contenu = r.read()
-        except urllib.error.HTTPError as e:
-            if e.code != 404:
-                raise
-            contenu = b""          # page absente : mémorisée vide, pour ne pas la redemander
-        open(chemin, "wb").write(contenu)
-        time.sleep(0.5)
+        obtenir(url.replace("/race-result", "/" + page), chemin, absente_ok=True)
     return open(chemin, encoding="utf-8").read() or None
 
 def classe(cache, url, page, annee):
@@ -149,10 +170,7 @@ def place(p, rang=None):
 def telecharger(cache, annee, page):
     chemin = os.path.join(cache, f"{annee}-{page}.html")
     if not os.path.exists(chemin):
-        req = urllib.request.Request(f"{BASE}/en/results/{annee}/{page}", headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            open(chemin, "wb").write(r.read())
-        time.sleep(0.5)
+        obtenir(f"{BASE}/en/results/{annee}/{page}", chemin)
     return open(chemin, encoding="utf-8").read()
 
 def lignes(texte):
@@ -229,15 +247,20 @@ def main():
         # Le lien de la course est lu dans sa propre ligne : une victoire partagée (France 1951,
         # Argentine 1956, Grande-Bretagne 1957) occupe deux lignes pour une seule course.
         rangs = re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S)[1:]
-        liens = [re.search(rf'href="(/en/results/{annee}/races/[^"]+/race-result)"', r).group(1) for r in rangs]
+        liens = [re.search(rf'href="(/en/results/{annee}/races/[^"]+/race-result)"', r) for r in rangs]
+        if not all(liens):
+            sys.exit(f"{annee} : ligne de la liste des courses sans lien de résultat (mise en page de formula1.com changée ?)")
+        liens = [m.group(1) for m in liens]
         gp = []
         for i, l in enumerate(lignes(t)):
             if gp and BASE + liens[i] == gp[-1]["url"]:
-                assert pilote(l[2]) != gp[-1]["vainqueur"] and equipe(l[3], annee)[2] == gp[-1]["equipe"], (annee, l)
+                if pilote(l[2]) == gp[-1]["vainqueur"] or equipe(l[3], annee)[2] != gp[-1]["equipe"]:
+                    sys.exit(f"{annee} : victoire partagée incohérente (même pilote, ou autre équipe) : {l}")
                 gp[-1]["covainqueur"] = pilote(l[2])
                 continue
             ec, mot, nom = equipe(l[3], annee)
-            assert mot is None or mot in MOT, (annee, mot)
+            if mot is not None and mot not in MOT:
+                sys.exit(f"{annee} : motoriste « {mot} » absent de _data/ecuries.yml (dans « {nom} »)")
             # Le drapeau répète le nom du pays : « Flag of Great Britain Great Britain ».
             pays = l[0][len("Flag of "):] if l[0].startswith("Flag of ") else l[0]
             moitie = pays[: len(pays) // 2].strip()
@@ -250,9 +273,11 @@ def main():
             # départ publiée (après pénalités éventuelles), pas forcément le meilleur temps.
             res = classe(cache, course["url"], "race-result", annee)
             if res:
-                if res.get(1, ("",))[0] not in (course["vainqueur"], course.get("covainqueur")):
-                    print(f"attention : {annee} {course['gp']}, vainqueur « {course['vainqueur']} » mais "
-                          f"première place « {res.get(1, ('?',))[0]} » sur la page de la course")
+                if res.get(1, ("",))[0] not in (course["vainqueur"], course.get("covainqueur")) \
+                        and (annee, course["gp"]) not in VAINQUEURS_EXAMINES:
+                    sys.exit(f"{annee} {course['gp']} : vainqueur « {course['vainqueur']} » mais première place "
+                             f"« {res.get(1, ('?',))[0]} » sur la page de la course ; examiner les deux pages, puis "
+                             "consigner le constat dans VAINQUEURS_EXAMINES")
                 # Place gardée explicitement : une place peut rester vide (Brésil 1983, deuxième disqualifié).
                 course["podium"] = [place(res[k], k) for k in (2, 3) if k in res]
             grille = classe(cache, course["url"], "starting-grid", annee)
@@ -298,7 +323,9 @@ def main():
               "# constructeurs (depuis 1958) et pilotes : points au classement final ; sources : classements.\n"
               "# Les 500 miles d'Indianapolis (1950-1960) comptent au championnat et figurent donc ici.\n")
     texte = entete + yaml.safe_dump({"saisons": saisons}, allow_unicode=True, sort_keys=False, width=1000)
-    open("_data/resultats.yml", "w", encoding="utf-8").write(texte)
+    with open("_data/resultats.yml.tmp", "w", encoding="utf-8") as f:
+        f.write(texte)
+    os.replace("_data/resultats.yml.tmp", "_data/resultats.yml")
     print(f"_data/resultats.yml : {len(saisons)} saisons, {sum(s['gp'] for s in saisons)} Grands Prix")
 
 main()

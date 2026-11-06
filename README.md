@@ -218,6 +218,9 @@ qui citent le jalon ou le terme. Rien a recopier ailleurs.
   releves sur formula1.com par `python3 -I outils/releve-resultats.py <cache hors depot>`
   (environ 2 300 pages de course au premier passage, une heure). Un nom d'equipe inconnu arrete
   le script : completer sa table, ne pas deviner.
+  Un vainqueur que la page de la course contredit l'arrete aussi : examiner les deux pages, puis
+  consigner le constat dans `VAINQUEURS_EXAMINES`. Erreurs 429 et 5xx : nouvel essai ; le cache
+  est ecrit par fichier temporaire (jamais de page tronquee).
 - `_data/croisement.yml` : comparaison course par course avec la base Jolpica (ex-Ergast), par
   `python3 -I outils/releve-jolpica.py <cache hors depot>` : pilotes, puis leur ecurie et, quand
   Jolpica le donne (suffixes `-climax`, `-repco`... des annees 1950-1970), leur motoriste. Un
